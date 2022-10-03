@@ -18,23 +18,23 @@ public class CompareOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [CompareOptions](compareoptions)() | Default_Costruttore |
+| [CompareOptions](compareoptions/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Specifica se le modifiche vengono tracciate per carattere o per parola. Il valore predefinito èWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True indica che il confronto dei documenti non fa distinzione tra maiuscole e minuscole. Per impostazione predefinita, il confronto fa distinzione tra maiuscole e minuscole. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | Specifica se confrontare le differenze nei commenti. Per impostazione predefinita i commenti non vengono ignorati. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | Specifica se ignorare la differenza nell'ID univoco di DrawingML. Il valore predefinito è **falso** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | Specifica se confrontare le differenze nei campi. Per impostazione predefinita i campi non vengono ignorati. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | Specifica se confrontare le differenze nelle note a piè di pagina e nelle note di chiusura. Per impostazione predefinita, le note a piè di pagina non vengono ignorate. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True indica che la formattazione viene ignorata. Per impostazione predefinita, la formattazione del documento non viene ignorata. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita, intestazioni e piè di pagina non vengono ignorati. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | Specifica se confrontare le differenze nei dati contenuti nelle tabelle. Per impostazione predefinita, le tabelle non vengono ignorate. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | Specifica se confrontare le differenze nei dati contenuti nelle caselle di testo. Per impostazione predefinita, le caselle di testo non vengono ignorate. |
-| [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | Specifica quale documento deve essere utilizzato come destinazione durante il confronto. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifica se le modifiche vengono tracciate per carattere o per parola. Il valore predefinito èWordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indica che il confronto dei documenti non fa distinzione tra maiuscole e minuscole. Per impostazione predefinita, il confronto fa distinzione tra maiuscole e minuscole. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifica se confrontare le differenze nei commenti. Per impostazione predefinita i commenti non vengono ignorati. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifica se ignorare la differenza nell'ID univoco di DrawingML. Il valore predefinito è **falso** . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Specifica se confrontare le differenze nei campi. Per impostazione predefinita i campi non vengono ignorati. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Specifica se confrontare le differenze nelle note a piè di pagina e nelle note di chiusura. Per impostazione predefinita, le note a piè di pagina non vengono ignorate. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indica che la formattazione viene ignorata. Per impostazione predefinita, la formattazione del documento non viene ignorata. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indica che il contenuto di intestazioni e piè di pagina viene ignorato. Per impostazione predefinita, intestazioni e piè di pagina non vengono ignorati. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Specifica se confrontare le differenze nei dati contenuti nelle tabelle. Per impostazione predefinita, le tabelle non vengono ignorate. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Specifica se confrontare le differenze nei dati contenuti nelle caselle di testo. Per impostazione predefinita, le caselle di testo non vengono ignorate. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Specifica quale documento deve essere utilizzato come destinazione durante il confronto. |
 
 ### Esempi
 
@@ -109,7 +109,7 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Comparing](../../aspose.words.comparing)
+* spazio dei nomi [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

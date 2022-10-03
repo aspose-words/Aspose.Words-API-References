@@ -1,14 +1,14 @@
 ---
 title: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words per .NET API Reference
-description: Rappresenta la fine di a distanza tag del documento strutturato che accetta contenuti a più sezioni. Vedi ancheStructuredDocumentTagRangeStart./structureddocumenttagrangestart nodo.
+description: Rappresenta la fine di a distanza tag del documento strutturato che accetta contenuti a più sezioni. Vedi ancheStructuredDocumentTagRangeStart./structureddocumenttagrangestart/ nodo.
 type: docs
 weight: 3840
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Rappresenta la fine di **a distanza** tag del documento strutturato che accetta contenuti a più sezioni. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) nodo.
+Rappresenta la fine di **a distanza** tag del documento strutturato che accetta contenuti a più sezioni. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -18,40 +18,40 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend)(DocumentBase, int) | Inizializza una nuova istanza di **Fine dell'intervallo di tag del documento strutturato** classe. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(DocumentBase, int) | Inizializza una nuova istanza di **Fine dell'intervallo di tag del documento strutturato** classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id) { get; } | Specifica un ID numerico persistente di sola lettura univoco per questo **StructuredDocumentTagRange** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart) nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id) . |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
-| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype) { get; } |  |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ottiene il genitore immediato di questo nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifica un ID numerico persistente di sola lettura univoco per questo **StructuredDocumentTagRange** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id/) . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
+| override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } |  |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept)(DocumentVisitor) |  |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [Remove](../../aspose.words/node/remove)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| override [Accept](../../aspose.words.markup/structureddocumenttagrangeend/accept/)(DocumentVisitor) |  |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ### Osservazioni
 
-Può essere figlio immediato di[`Body`](../../aspose.words/body) nodo **solo** .
+Può essere figlio immediato di[`Body`](../../aspose.words/body/) nodo **solo** .
 
 ### Esempi
 
@@ -87,8 +87,8 @@ Console.WriteLine($"\t|NodeType: {rangeEndTag.NodeType}");
 
 ### Guarda anche
 
-* class [Node](../../aspose.words/node)
-* spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup)
+* class [Node](../../aspose.words/node/)
+* spazio dei nomi [Aspose.Words.Markup](../../aspose.words.markup/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

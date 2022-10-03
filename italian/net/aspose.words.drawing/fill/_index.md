@@ -18,42 +18,42 @@ public class Fill
 
 | Nome | Descrizione |
 | --- | --- |
-| [BackColor](../../aspose.words.drawing/fill/backcolor) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di sfondo per il riempimento. |
-| [FillType](../../aspose.words.drawing/fill/filltype) { get; } | Ottiene un tipo di riempimento. |
-| [ForeColor](../../aspose.words.drawing/fill/forecolor) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di primo piano per il riempimento. |
-| [GradientAngle](../../aspose.words.drawing/fill/gradientangle) { get; set; } | Ottiene o imposta l'angolo del riempimento sfumato. |
-| [GradientStops](../../aspose.words.drawing/fill/gradientstops) { get; } | Ottiene una raccolta di[`GradientStop`](../gradientstop) oggetti per il riempimento. |
-| [GradientStyle](../../aspose.words.drawing/fill/gradientstyle) { get; } | Ottiene lo stile del gradiente[`GradientStyle`](../gradientstyle) per il riempimento. |
-| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant) { get; } | Ottiene la variante del gradiente[`GradientVariant`](../gradientvariant) per il riempimento. |
-| [ImageBytes](../../aspose.words.drawing/fill/imagebytes) { get; } | Ottiene i byte grezzi della trama o del motivo di riempimento. |
-| [Opacity](../../aspose.words.drawing/fill/opacity) { get; set; } | Ottiene o imposta il grado di opacità del riempimento specificato come un valore compreso tra 0,0 (trasparente) e 1,0 (opaco). |
-| [Pattern](../../aspose.words.drawing/fill/pattern) { get; } | Ottiene a[`PatternType`](../patterntype) per il riempimento. |
-| [PresetTexture](../../aspose.words.drawing/fill/presettexture) { get; } | Ottiene a[`PresetTexture`](../presettexture) per il riempimento. |
-| [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject) { get; set; } | Ottiene o imposta se il riempimento ruota con l'oggetto specificato. |
-| [TextureAlignment](../../aspose.words.drawing/fill/texturealignment) { get; set; } | Ottiene o imposta l'allineamento per il riempimento della trama delle piastrelle. |
-| [Transparency](../../aspose.words.drawing/fill/transparency) { get; set; } | Ottiene o imposta il grado di trasparenza del riempimento specificato come un valore compreso tra 0,0 (opaco) e 1,0 (trasparente). |
-| [Visible](../../aspose.words.drawing/fill/visible) { get; set; } | Ottiene o imposta il valore che è`VERO` se la formattazione applicata a questa istanza è visibile. |
+| [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di sfondo per il riempimento. |
+| [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Ottiene un tipo di riempimento. |
+| [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Ottiene o imposta un oggetto Color che rappresenta il colore di primo piano per il riempimento. |
+| [GradientAngle](../../aspose.words.drawing/fill/gradientangle/) { get; set; } | Ottiene o imposta l'angolo del riempimento sfumato. |
+| [GradientStops](../../aspose.words.drawing/fill/gradientstops/) { get; } | Ottiene una raccolta di[`GradientStop`](../gradientstop/) oggetti per il riempimento. |
+| [GradientStyle](../../aspose.words.drawing/fill/gradientstyle/) { get; } | Ottiene lo stile del gradiente[`GradientStyle`](../gradientstyle/) per il riempimento. |
+| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant/) { get; } | Ottiene la variante del gradiente[`GradientVariant`](../gradientvariant/) per il riempimento. |
+| [ImageBytes](../../aspose.words.drawing/fill/imagebytes/) { get; } | Ottiene i byte grezzi della trama o del motivo di riempimento. |
+| [Opacity](../../aspose.words.drawing/fill/opacity/) { get; set; } | Ottiene o imposta il grado di opacità del riempimento specificato come un valore compreso tra 0,0 (trasparente) e 1,0 (opaco). |
+| [Pattern](../../aspose.words.drawing/fill/pattern/) { get; } | Ottiene a[`PatternType`](../patterntype/) per il riempimento. |
+| [PresetTexture](../../aspose.words.drawing/fill/presettexture/) { get; } | Ottiene a[`PresetTexture`](../presettexture/) per il riempimento. |
+| [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject/) { get; set; } | Ottiene o imposta se il riempimento ruota con l'oggetto specificato. |
+| [TextureAlignment](../../aspose.words.drawing/fill/texturealignment/) { get; set; } | Ottiene o imposta l'allineamento per il riempimento della trama delle piastrelle. |
+| [Transparency](../../aspose.words.drawing/fill/transparency/) { get; set; } | Ottiene o imposta il grado di trasparenza del riempimento specificato come un valore compreso tra 0,0 (opaco) e 1,0 (trasparente). |
+| [Visible](../../aspose.words.drawing/fill/visible/) { get; set; } | Ottiene o imposta il valore che è`VERO` se la formattazione applicata a questa istanza è visibile. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient#onecolorgradient)(GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore utilizzando il colore specificato. |
-| [Patterned](../../aspose.words.drawing/fill/patterned#patterned)(PatternType) | Imposta il riempimento specificato su un motivo. |
-| [Patterned](../../aspose.words.drawing/fill/patterned#patterned_1)(PatternType, Color, Color) | Imposta il riempimento specificato su un motivo. |
-| [PresetTextured](../../aspose.words.drawing/fill/presettextured)(PresetTexture) | Imposta il riempimento su una trama preimpostata. |
-| [SetImage](../../aspose.words.drawing/fill/setimage#setimage)(byte[]) | Cambia il tipo di riempimento in immagine singola. |
-| [SetImage](../../aspose.words.drawing/fill/setimage#setimage_1)(Stream) | Cambia il tipo di riempimento in immagine singola. |
-| [SetImage](../../aspose.words.drawing/fill/setimage#setimage_2)(string) | Cambia il tipo di riempimento in immagine singola. |
-| [Solid](../../aspose.words.drawing/fill/solid#solid)() | Imposta il riempimento su un colore uniforme. |
-| [Solid](../../aspose.words.drawing/fill/solid#solid_1)(Color) | Imposta il riempimento su un colore uniforme specificato. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#twocolorgradient)(GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
-| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(Color, GradientStyle, GradientVariant, double) | Imposta il riempimento specificato su una sfumatura di un colore utilizzando il colore specificato. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(PatternType) | Imposta il riempimento specificato su un motivo. |
+| [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(PatternType, Color, Color) | Imposta il riempimento specificato su un motivo. |
+| [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(PresetTexture) | Imposta il riempimento su una trama preimpostata. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage)(byte[]) | Cambia il tipo di riempimento in immagine singola. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_1)(Stream) | Cambia il tipo di riempimento in immagine singola. |
+| [SetImage](../../aspose.words.drawing/fill/setimage/#setimage_2)(string) | Cambia il tipo di riempimento in immagine singola. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid)() | Imposta il riempimento su un colore uniforme. |
+| [Solid](../../aspose.words.drawing/fill/solid/#solid_1)(Color) | Imposta il riempimento su un colore uniforme specificato. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient)(GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
+| [TwoColorGradient](../../aspose.words.drawing/fill/twocolorgradient/#twocolorgradient_1)(Color, Color, GradientStyle, GradientVariant) | Imposta il riempimento specificato su una sfumatura a due colori. |
 
 ### Osservazioni
 
-Utilizzare il[`Fill`](../shapebase/fill) o[`Fill`](../../aspose.words/font/fill) per accedere alle proprietà di riempimento di un oggetto. Non si creano istanze di[`Fill`](../fill) classe direttamente.
+Utilizzare il[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) per accedere alle proprietà di riempimento di un oggetto. Non si creano istanze di[`Fill`](./fill/) classe direttamente.
 
 ### Esempi
 
@@ -89,7 +89,7 @@ doc.Save(ArtifactsDir + "Shape.Fill.docx");
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing)
+* spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

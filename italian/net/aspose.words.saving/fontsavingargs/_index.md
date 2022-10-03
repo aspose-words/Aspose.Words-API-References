@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words per .NET API Reference
-description: Fornisce i dati per ilFontSaving./ifontsavingcallback/fontsaving evento.
+description: Fornisce i dati per ilFontSaving./ifontsavingcallback/fontsaving/ evento.
 type: docs
 weight: 4770
 url: /it/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-Fornisce i dati per il[`FontSaving`](../ifontsavingcallback/fontsaving) evento.
+Fornisce i dati per il[`FontSaving`](../ifontsavingcallback/fontsaving/) evento.
 
 ```csharp
 public class FontSavingArgs
@@ -18,29 +18,29 @@ public class FontSavingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [Bold](../../aspose.words.saving/fontsavingargs/bold) { get; } | Indica se il carattere corrente è in grassetto. |
-| [Document](../../aspose.words.saving/fontsavingargs/document) { get; } | Ottiene l'oggetto del documento che viene salvato. |
-| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname) { get; } | Indica il nome della famiglia di font corrente. |
-| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename) { get; set; } | Ottiene o imposta il nome del file (senza percorso) in cui verrà salvato il carattere. |
-| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream) { get; set; } | Consente di specificare lo stream in cui verrà salvato il font. |
-| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded) { get; set; } | Consente di specificare se il font corrente verrà esportato come risorsa font. L'impostazione predefinita è`VERO` . |
-| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded) { get; set; } | Consente di specificare se il font corrente verrà inserito in un sottoinsieme prima dell'esportazione come risorsa font. |
-| [Italic](../../aspose.words.saving/fontsavingargs/italic) { get; } | Indica se il font corrente è in corsivo. |
-| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen) { get; set; } | Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato un font. |
-| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | Ottiene il nome del file del font originale con un'estensione. |
-| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | Ottiene la dimensione del file del carattere originale. |
+| [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | Indica se il carattere corrente è in grassetto. |
+| [Document](../../aspose.words.saving/fontsavingargs/document/) { get; } | Ottiene l'oggetto del documento che viene salvato. |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Indica il nome della famiglia di font corrente. |
+| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename/) { get; set; } | Ottiene o imposta il nome del file (senza percorso) in cui verrà salvato il carattere. |
+| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream/) { get; set; } | Consente di specificare lo stream in cui verrà salvato il font. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Consente di specificare se il font corrente verrà esportato come risorsa font. L'impostazione predefinita è`VERO` . |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Consente di specificare se il font corrente verrà inserito in un sottoinsieme prima dell'esportazione come risorsa font. |
+| [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | Indica se il font corrente è in corsivo. |
+| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | Specifica se Aspose.Words deve mantenere lo stream aperto o chiuderlo dopo aver salvato un font. |
+| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Ottiene il nome del file del font originale con un'estensione. |
+| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Ottiene la dimensione del file del carattere originale. |
 
 ### Osservazioni
 
-Quando Aspose.Words salva un documento in HTML o formati correlati e[`ExportFontResources`](../htmlsaveoptions/exportfontresources) è impostato su **VERO**, salva ogni oggetto del carattere per l'esportazione in un file separato.
+Quando Aspose.Words salva un documento in HTML o formati correlati e[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) è impostato su **VERO**, salva ogni oggetto del carattere per l'esportazione in un file separato.
 
-[`FontSavingArgs`](../fontsavingargs) controlla se una particolare risorsa di carattere deve essere esportata e come.
+[`FontSavingArgs`](./fontsavingargs/) controlla se una particolare risorsa di carattere deve essere esportata e come.
 
-[`FontSavingArgs`](../fontsavingargs)consente anche di ridefinire il modo in cui vengono generati i nomi dei file dei font o di eludere completamente il salvataggio dei font nei file fornendo i propri oggetti stream.
+[`FontSavingArgs`](./fontsavingargs/)consente anche di ridefinire il modo in cui vengono generati i nomi dei file dei font o di eludere completamente il salvataggio dei font nei file fornendo i propri oggetti stream.
 
-Per decidere se salvare una particolare risorsa di font, utilizzare il[`IsExportNeeded`](./isexportneeded) proprietà.
+Per decidere se salvare una particolare risorsa di font, utilizzare il[`IsExportNeeded`](./isexportneeded/) proprietà.
 
-Per salvare i caratteri negli stream anziché nei file, usa il file[`FontStream`](./fontstream) proprietà.
+Per salvare i caratteri negli stream anziché nei file, usa il file[`FontStream`](./fontstream/) proprietà.
 
 ### Esempi
 
@@ -98,7 +98,7 @@ public class HandleFontSaving : IFontSavingCallback
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving)
+* spazio dei nomi [Aspose.Words.Saving](../../aspose.words.saving/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

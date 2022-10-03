@@ -18,30 +18,30 @@ public abstract class Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
-| abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Ottiene il tipo di questo nodo. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ottiene il genitore immediato di questo nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
+| abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Ottiene il tipo di questo nodo. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [Remove](../../aspose.words/node/remove)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring#tostring_1)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring#tostring_2)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | Un metodo di utilità che converte un valore enum di tipo nodo in una stringa facile da usare. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Un metodo di utilità che converte un valore enum di tipo nodo in una stringa facile da usare. |
 
 ### Osservazioni
 
@@ -49,7 +49,7 @@ Un documento è rappresentato come un albero di nodi, simile a DOM o XmlDocument
 
 Per ulteriori informazioni, vedere il modello di progettazione Composite.
 
-Il[`Node`](../node)classe:
+Il[`Node`](./node/)classe:
 
 * Definisce l'interfaccia del nodo figlio.
 * Definisce l'interfaccia per visitare i nodi.
@@ -146,7 +146,7 @@ foreach (Node child in children)
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words](../../aspose.words)
+* spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

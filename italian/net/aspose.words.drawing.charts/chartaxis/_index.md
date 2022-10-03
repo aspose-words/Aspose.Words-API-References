@@ -18,32 +18,32 @@ public class ChartAxis
 
 | Nome | Descrizione |
 | --- | --- |
-| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories) { get; set; } | Ottiene o imposta un flag che indica se l'asse dei valori incrocia l'asse delle categorie tra le categorie. |
-| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Restituisce o imposta l'unità di tempo più piccola rappresentata sull'asse della categoria temporale. |
-| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype) { get; set; } | Ottiene o imposta il tipo dell'asse della categoria. |
-| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses) { get; set; } | Specifica come questo asse interseca l'asse perpendicolare. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Specifica dove si incrocia l'asse sull'asse perpendicolare. |
-| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Definisce il valore di scala delle unità di visualizzazione per l'asse dei valori. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document) { get; } | Restituisce il Documento a cui appartiene il titolare. |
-| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden) { get; set; } | Ottiene o imposta un flag che indica se questo asse è nascosto o meno. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Restituisce o imposta i segni di graduazione principali. |
-| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit) { get; set; } | Restituisce o imposta la distanza tra i segni di graduazione principali. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra i segni di graduazione principali. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Restituisce o imposta il valore della scala per i segni di graduazione principali sull'asse della categoria temporale. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Restituisce o imposta i segni di graduazione minori per l'asse. |
-| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit) { get; set; } | Restituisce o imposta la distanza tra segni di graduazione minori. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra segni di graduazione minori. |
-| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale) { get; set; } | Restituisce o imposta il valore della scala per segni di graduazione minori sull'asse della categoria temporale. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Restituisce a[`ChartNumberFormat`](../chartnumberformat) oggetto che consente di definire i formati numerici per l'asse. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Restituisce o imposta un flag che indica se i valori dell'asse devono essere visualizzati in ordine inverso, cioè da max a min. |
-| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Fornisce l'accesso alle opzioni di ridimensionamento dell'asse. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment) { get; set; } | Ottiene o imposta l'allineamento del testo delle etichette dei tick degli assi. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | Ottiene o imposta la distanza delle etichette dall'asse. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Restituisce o imposta la posizione delle etichette tick sull'asse. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Ottiene o imposta l'intervallo in cui vengono disegnate le etichette dei tick. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzato l'intervallo automatico di estrazione delle etichette tick. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Ottiene o imposta l'intervallo in cui vengono disegnati i segni di graduazione. |
-| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Restituisce il tipo dell'asse. |
+| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Ottiene o imposta un flag che indica se l'asse dei valori incrocia l'asse delle categorie tra le categorie. |
+| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit/) { get; set; } | Restituisce o imposta l'unità di tempo più piccola rappresentata sull'asse della categoria temporale. |
+| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Ottiene o imposta il tipo dell'asse della categoria. |
+| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Specifica come questo asse interseca l'asse perpendicolare. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Specifica dove si incrocia l'asse sull'asse perpendicolare. |
+| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Definisce il valore di scala delle unità di visualizzazione per l'asse dei valori. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Restituisce il Documento a cui appartiene il titolare. |
+| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Ottiene o imposta un flag che indica se questo asse è nascosto o meno. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Restituisce o imposta i segni di graduazione principali. |
+| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Restituisce o imposta la distanza tra i segni di graduazione principali. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra i segni di graduazione principali. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Restituisce o imposta il valore della scala per i segni di graduazione principali sull'asse della categoria temporale. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Restituisce o imposta i segni di graduazione minori per l'asse. |
+| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Restituisce o imposta la distanza tra segni di graduazione minori. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzata la distanza predefinita tra segni di graduazione minori. |
+| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Restituisce o imposta il valore della scala per segni di graduazione minori sull'asse della categoria temporale. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Restituisce a[`ChartNumberFormat`](../chartnumberformat/) oggetto che consente di definire i formati numerici per l'asse. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Restituisce o imposta un flag che indica se i valori dell'asse devono essere visualizzati in ordine inverso, cioè da max a min. |
+| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Fornisce l'accesso alle opzioni di ridimensionamento dell'asse. |
+| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Ottiene o imposta l'allineamento del testo delle etichette dei tick degli assi. |
+| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Ottiene o imposta la distanza delle etichette dall'asse. |
+| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Restituisce o imposta la posizione delle etichette tick sull'asse. |
+| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Ottiene o imposta l'intervallo in cui vengono disegnate le etichette dei tick. |
+| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Ottiene o imposta un flag che indica se deve essere utilizzato l'intervallo automatico di estrazione delle etichette tick. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Ottiene o imposta l'intervallo in cui vengono disegnati i segni di graduazione. |
+| [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Restituisce il tipo dell'asse. |
 
 ### Esempi
 
@@ -97,7 +97,7 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* spazio dei nomi [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

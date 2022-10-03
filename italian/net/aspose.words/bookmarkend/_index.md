@@ -18,44 +18,44 @@ public class BookmarkEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkEnd](bookmarkend)(DocumentBase, string) | Inizializza una nuova istanza di[`BookmarkEnd`](../bookmarkend) classe. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Inizializza una nuova istanza di[`BookmarkEnd`](./bookmarkend/) classe. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
-| [Name](../../aspose.words/bookmarkend/name) { get; set; } | Ottiene o imposta il nome del segnalibro. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype) { get; } | RestituisceBookmarkEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ottiene il genitore immediato di questo nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce vero se questo nodo può contenere altri nodi. |
+| [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Ottiene o imposta il nome del segnalibro. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | RestituisceBookmarkEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente a questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce a **Gamma** oggetto che rappresenta la parte di un documento contenuta in questo nodo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept)(DocumentVisitor) | Accetta un visitatore. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicato del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [Remove](../../aspose.words/node/remove)() | Si rimuove dal genitore. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Accetta un visitatore. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicato del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ottiene il primo predecessore dell'oggetto specificato[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ottiene il primo predecessore del tipo di oggetto specificato. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ### Osservazioni
 
-Un segnalibro completo in un documento di Word è costituito da a[`BookmarkStart`](../bookmarkstart) e una corrispondenza[`BookmarkEnd`](../bookmarkend) con lo stesso nome del segnalibro.
+Un segnalibro completo in un documento di Word è costituito da a[`BookmarkStart`](../bookmarkstart/) e una corrispondenza[`BookmarkEnd`](./bookmarkend/) con lo stesso nome del segnalibro.
 
-[`BookmarkStart`](../bookmarkstart) e[`BookmarkEnd`](../bookmarkend) sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
+[`BookmarkStart`](../bookmarkstart/) e[`BookmarkEnd`](./bookmarkend/) sono solo marcatori all'interno di un documento che specificano dove inizia e finisce il segnalibro.
 
-Utilizzare il[`Bookmark`](../bookmark) class come una "facciata" per lavorare con un bookmark come un singolo oggetto.
+Utilizzare il[`Bookmark`](../bookmark/) class come una "facciata" per lavorare con un bookmark come un singolo oggetto.
 
 ### Esempi
 
@@ -146,8 +146,8 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ### Guarda anche
 
-* class [Node](../node)
-* spazio dei nomi [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

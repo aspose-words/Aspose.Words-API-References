@@ -18,26 +18,26 @@ public class LayoutOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [LayoutOptions](layoutoptions)() | Default_Costruttore |
+| [LayoutOptions](layoutoptions/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback) { get; set; } | Ottiene o imposta[`IPageLayoutCallback`](../ipagelayoutcallback)implementazione utilizzata dal modello di layout di pagina. |
-| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode) { get; set; } | Ottiene o imposta il modo in cui vengono visualizzati i commenti. Il valore predefinito èShowInBalloons . |
-| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | Ottiene o imposta la modalità di comportamento per il calcolo dei numeri di pagina quando una sezione continua riavvia la numerazione delle pagine. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics) { get; set; } | Ottiene o imposta l'indicazione se l'opzione di compatibilità "Usa le metriche della stampante per il layout del documento" è ignorata. L'impostazione predefinita è True. |
-| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | Ottiene le opzioni di revisione. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext) { get; set; } | Ottiene o imposta l'indicazione se il testo nascosto nel documento viene visualizzato. L'impostazione predefinita è False. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | Ottiene o imposta l'indicazione del rendering dei segni di paragrafo. L'impostazione predefinita è False. |
-| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | Ottiene o imposta[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory) implementazione utilizzata per le funzionalità di rendering di tipografia avanzata. |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Ottiene o imposta[`IPageLayoutCallback`](../ipagelayoutcallback/)implementazione utilizzata dal modello di layout di pagina. |
+| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Ottiene o imposta il modo in cui vengono visualizzati i commenti. Il valore predefinito èShowInBalloons . |
+| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Ottiene o imposta la modalità di comportamento per il calcolo dei numeri di pagina quando una sezione continua riavvia la numerazione delle pagine. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Ottiene o imposta l'indicazione se l'opzione di compatibilità "Usa le metriche della stampante per il layout del documento" è ignorata. L'impostazione predefinita è True. |
+| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Ottiene le opzioni di revisione. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Ottiene o imposta l'indicazione se il testo nascosto nel documento viene visualizzato. L'impostazione predefinita è False. |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Ottiene o imposta l'indicazione del rendering dei segni di paragrafo. L'impostazione predefinita è False. |
+| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Ottiene o imposta[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementazione utilizzata per le funzionalità di rendering di tipografia avanzata. |
 
 ### Osservazioni
 
-Non crei direttamente istanze di questa classe. Utilizzare il[`LayoutOptions`](../../aspose.words/document/layoutoptions)per accedere alle opzioni di layout per questo documento.
+Non crei direttamente istanze di questa classe. Utilizzare il[`LayoutOptions`](../../aspose.words/document/layoutoptions/)per accedere alle opzioni di layout per questo documento.
 
-Nota che dopo aver modificato una qualsiasi delle opzioni presenti in questa classe,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) method dovrebbe essere chiamato per applicare le opzioni modificate al layout.
+Nota che dopo aver modificato una qualsiasi delle opzioni presenti in questa classe,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) method dovrebbe essere chiamato per applicare le opzioni modificate al layout.
 
 ### Esempi
 
@@ -93,7 +93,7 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout)
+* spazio dei nomi [Aspose.Words.Layout](../../aspose.words.layout/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
