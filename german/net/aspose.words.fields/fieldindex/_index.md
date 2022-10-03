@@ -1,7 +1,7 @@
 ---
 title: FieldIndex
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das INDEX-Feld.
+description: Implementiert das INDEXFeld.
 type: docs
 weight: 1910
 url: /de/net/aspose.words.fields/fieldindex/
@@ -18,49 +18,49 @@ public class FieldIndex : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldIndex](fieldindex)() | Default_Constructor |
+| [FieldIndex](fieldindex/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest, das den Teil des Dokuments markiert, der zum Erstellen des Index verwendet wurde. |
-| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | Ermittelt oder setzt die Zeichenfolge, die verwendet wird, um Querverweise und andere Einträge zu trennen. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | Ruft einen Indexeintragstyp ab oder legt ihn fest, der zum Erstellen des Index verwendet wird. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | Ruft einen Wert ab, der angibt, ob ein Seitenzahlentrennzeichen durch den Feldcode überschrieben wird. |
-| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | Ruft einen Wert ab, der angibt, ob bei der Ergebnisbildung des Felds eine Sequenz verwendet werden soll. |
-| [Heading](../../aspose.words.fields/fieldindex/heading) { get; set; } | Ruft eine Überschrift ab oder legt sie fest, die am Anfang jeder Gruppe von Einträgen für einen bestimmten Buchstaben erscheint. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [LanguageId](../../aspose.words.fields/fieldindex/languageid) { get; set; } | Ruft die Sprach-ID ab oder legt sie fest, die zum Generieren des Index verwendet wird. |
-| [LetterRange](../../aspose.words.fields/fieldindex/letterrange) { get; set; } | Erhält oder setzt einen Bereich von Buchstaben, auf den der Index begrenzt wird. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns) { get; set; } | Ruft die Anzahl der Spalten pro Seite ab oder legt sie fest, die beim Erstellen des Index verwendet werden. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um zwei Seitenzahlen in einer Seitenzahlenliste zu trennen. |
-| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um einen Indexeintrag und seine Seitennummer zu trennen. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um den Anfang und das Ende eines Seitenbereichs zu trennen. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline) { get; set; } | Ruft ab oder legt fest, ob Untereinträge in derselben Zeile wie der Haupteintrag ausgeführt werden. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [SequenceName](../../aspose.words.fields/fieldindex/sequencename) { get; set; } | Liest oder setzt den Namen einer Sequenz, deren Nummer in der Seitennummer enthalten ist. |
-| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um Sequenznummern und Seitenzahlen zu trennen. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
-| [UseYomi](../../aspose.words.fields/fieldindex/useyomi) { get; set; } | Ruft ab oder legt fest, ob die Verwendung von Yomi-Text für Indexeinträge aktiviert werden soll. |
+| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname/) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest, das den Teil des Dokuments markiert, der zum Erstellen des Index verwendet wurde. |
+| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator/) { get; set; } | Ermittelt oder setzt die Zeichenfolge, die verwendet wird, um Querverweise und andere Einträge zu trennen. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype/) { get; set; } | Ruft einen Indexeintragstyp ab oder legt ihn fest, der zum Erstellen des Index verwendet wird. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator/) { get; } | Ruft einen Wert ab, der angibt, ob ein Seitenzahlentrennzeichen durch den Feldcode überschrieben wird. |
+| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename/) { get; } | Ruft einen Wert ab, der angibt, ob bei der Ergebnisbildung des Felds eine Sequenz verwendet werden soll. |
+| [Heading](../../aspose.words.fields/fieldindex/heading/) { get; set; } | Ruft eine Überschrift ab oder legt sie fest, die am Anfang jeder Gruppe von Einträgen für einen bestimmten Buchstaben erscheint. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [LanguageId](../../aspose.words.fields/fieldindex/languageid/) { get; set; } | Ruft die Sprach-ID ab oder legt sie fest, die zum Generieren des Index verwendet wird. |
+| [LetterRange](../../aspose.words.fields/fieldindex/letterrange/) { get; set; } | Erhält oder setzt einen Bereich von Buchstaben, auf den der Index begrenzt wird. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns/) { get; set; } | Ruft die Anzahl der Spalten pro Seite ab oder legt sie fest, die beim Erstellen des Index verwendet werden. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um zwei Seitenzahlen in einer Seitenzahlenliste zu trennen. |
+| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um einen Indexeintrag und seine Seitennummer zu trennen. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um den Anfang und das Ende eines Seitenbereichs zu trennen. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | Ruft ab oder legt fest, ob Untereinträge in derselben Zeile wie der Haupteintrag ausgeführt werden. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | Liest oder setzt den Namen einer Sequenz, deren Nummer in der Seitennummer enthalten ist. |
+| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um Sequenznummern und Seitenzahlen zu trennen. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [UseYomi](../../aspose.words.fields/fieldindex/useyomi/) { get; set; } | Ruft ab oder legt fest, ob die Verwendung von Yomi-Text für Indexeinträge aktiviert werden soll. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
@@ -189,8 +189,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

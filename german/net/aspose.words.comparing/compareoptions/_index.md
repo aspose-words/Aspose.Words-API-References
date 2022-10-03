@@ -18,23 +18,23 @@ public class CompareOptions
 
 | Name | Beschreibung |
 | --- | --- |
-| [CompareOptions](compareoptions)() | Default_Constructor |
+| [CompareOptions](compareoptions/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Gibt an, ob Änderungen zeichen- oder wortweise verfolgt werden. Der Standardwert istWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True gibt an, dass beim Dokumentenvergleich die Groß-/Kleinschreibung nicht beachtet wird. Beim Vergleich wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | Gibt an, ob Unterschiede in Kommentaren verglichen werden sollen. Standardmäßig werden Kommentare nicht ignoriert. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | Gibt an, ob der Unterschied in der eindeutigen DrawingML-ID ignoriert werden soll. Standardwert ist **FALSCH** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | Gibt an, ob Unterschiede in Feldern verglichen werden sollen. Standardmäßig werden Felder nicht ignoriert. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | Gibt an, ob Unterschiede in Fußnoten und Endnoten verglichen werden sollen. Standardmäßig werden Fußnoten nicht ignoriert. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True gibt an, dass die Formatierung ignoriert wird. Standardmäßig wird die Dokumentformatierung nicht ignoriert. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True gibt an, dass der Inhalt von Kopf- und Fußzeilen ignoriert wird. Standardmäßig werden Kopf- und Fußzeilen nicht ignoriert. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | Gibt an, ob die Unterschiede in den in Tabellen enthaltenen Daten verglichen werden sollen. Standardmäßig werden Tabellen nicht ignoriert. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | Gibt an, ob Unterschiede in den in Textfeldern enthaltenen Daten verglichen werden sollen. Standardmäßig werden Textfelder nicht ignoriert. |
-| [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | Gibt an, welches Dokument als Ziel beim Vergleich verwendet werden soll. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Gibt an, ob Änderungen zeichen- oder wortweise verfolgt werden. Der Standardwert istWordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True gibt an, dass beim Dokumentenvergleich die Groß-/Kleinschreibung nicht beachtet wird. Beim Vergleich wird standardmäßig zwischen Groß- und Kleinschreibung unterschieden. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Gibt an, ob Unterschiede in Kommentaren verglichen werden sollen. Standardmäßig werden Kommentare nicht ignoriert. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Gibt an, ob der Unterschied in der eindeutigen DrawingML-ID ignoriert werden soll. Standardwert ist **FALSCH** . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Gibt an, ob Unterschiede in Feldern verglichen werden sollen. Standardmäßig werden Felder nicht ignoriert. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Gibt an, ob Unterschiede in Fußnoten und Endnoten verglichen werden sollen. Standardmäßig werden Fußnoten nicht ignoriert. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True gibt an, dass die Formatierung ignoriert wird. Standardmäßig wird die Dokumentformatierung nicht ignoriert. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True gibt an, dass der Inhalt von Kopf- und Fußzeilen ignoriert wird. Standardmäßig werden Kopf- und Fußzeilen nicht ignoriert. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Gibt an, ob die Unterschiede in den in Tabellen enthaltenen Daten verglichen werden sollen. Standardmäßig werden Tabellen nicht ignoriert. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Gibt an, ob Unterschiede in den in Textfeldern enthaltenen Daten verglichen werden sollen. Standardmäßig werden Textfelder nicht ignoriert. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Gibt an, welches Dokument als Ziel beim Vergleich verwendet werden soll. |
 
 ### Beispiele
 
@@ -109,7 +109,7 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Comparing](../../aspose.words.comparing)
+* namensraum [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

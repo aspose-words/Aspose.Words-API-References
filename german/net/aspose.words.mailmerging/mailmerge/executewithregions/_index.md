@@ -20,9 +20,9 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 ### Bemerkungen
 
-Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die die implementiert[`IMailMergeDataSource`](../../imailmergedatasource) Schnittstelle.
+Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die die implementiert[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
 
-Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)ist false, , das heißt, Sie benötigen keine Rechts-nach-links-Sprachkompatibilität (wie Arabisch oder Hebräisch).
+Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)ist false, , das heißt, Sie benötigen keine Rechts-nach-links-Sprachkompatibilität (wie Arabisch oder Hebräisch).
 
 ### Beispiele
 
@@ -269,9 +269,9 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ### Siehe auch
 
-* interface [IMailMergeDataSource](../../imailmergedatasource)
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSource](../../imailmergedatasource/)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -290,9 +290,9 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 ### Bemerkungen
 
-Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigenen Klassen schreiben, die die implementieren[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot) und[`IMailMergeDataSource`](../../imailmergedatasource) Schnittstellen.
+Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigenen Klassen schreiben, die die implementieren[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) und[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstellen.
 
-Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)ist false, , das heißt, Sie benötigen keine Rechts-nach-links-Sprachkompatibilität (wie Arabisch oder Hebräisch).
+Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)ist false, , das heißt, Sie benötigen keine Rechts-nach-links-Sprachkompatibilität (wie Arabisch oder Hebräisch).
 
 ### Beispiele
 
@@ -476,9 +476,9 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ### Siehe auch
 
-* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot)
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -603,8 +603,8 @@ private static DataSet CreateDataSet()
 
 ### Siehe auch
 
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -760,8 +760,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Siehe auch
 
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -841,8 +841,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Siehe auch
 
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -911,8 +911,8 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 ### Siehe auch
 
-* class [MailMerge](../../mailmerge)
-* namensraum [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namensraum [Aspose.Words.MailMerging](../../mailmerge/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

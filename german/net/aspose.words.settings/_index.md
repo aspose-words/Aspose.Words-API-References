@@ -12,30 +12,30 @@ Das **Aspose.Words.Settings** Namespace enthält Klassen und Aufzählungen , die
 
 | Klasse | Beschreibung |
 | --- | --- |
-| [CompatibilityOptions](./compatibilityoptions) | Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die auf der **Kompatibilität** Registerkarte der **Optionen** Dialog in Microsoft Word). |
-| [HyphenationOptions](./hyphenationoptions) | Ermöglicht die Konfiguration von Silbentrennungsoptionen für Dokumente. |
-| [MailMergeSettings](./mailmergesettings) | Gibt alle Seriendruckinformationen für ein Dokument an. |
-| [Odso](./odso) | Gibt die Office Data Source Object (ODSO)-Einstellungen für eine Seriendruck-Datenquelle an. |
-| [OdsoFieldMapData](./odsofieldmapdata) | Gibt an, wie eine Spalte in der externen Datenquelle den vordefinierten Briefvorlagenfeldern innerhalb des Dokuments zugeordnet werden soll. |
-| [OdsoFieldMapDataCollection](./odsofieldmapdatacollection) | Eine getippte Sammlung der[`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata) Objekte. |
-| [OdsoRecipientData](./odsorecipientdata) | Stellt Informationen zu einem einzelnen Datensatz innerhalb einer externen Datenquelle dar, der vom Seriendruck ausgeschlossen werden soll. |
-| [OdsoRecipientDataCollection](./odsorecipientdatacollection) | Eine getippte Sammlung von[`OdsoRecipientData`](../aspose.words.settings/odsorecipientdata) |
-| [ViewOptions](./viewoptions) | Bietet verschiedene Optionen, die steuern, wie ein Dokument in Microsoft Word angezeigt wird. |
-| [WriteProtection](./writeprotection) | Gibt die Schreibschutzeinstellungen für ein Dokument an. |
+| [CompatibilityOptions](./compatibilityoptions/) | Enthält Kompatibilitätsoptionen (d. h. die Benutzereinstellungen, die auf der **Kompatibilität** Registerkarte der **Optionen** Dialog in Microsoft Word). |
+| [HyphenationOptions](./hyphenationoptions/) | Ermöglicht die Konfiguration von Silbentrennungsoptionen für Dokumente. |
+| [MailMergeSettings](./mailmergesettings/) | Gibt alle Seriendruckinformationen für ein Dokument an. |
+| [Odso](./odso/) | Gibt die Office Data Source Object (ODSO)-Einstellungen für eine Seriendruck-Datenquelle an. |
+| [OdsoFieldMapData](./odsofieldmapdata/) | Gibt an, wie eine Spalte in der externen Datenquelle den vordefinierten Briefvorlagenfeldern innerhalb des Dokuments zugeordnet werden soll. |
+| [OdsoFieldMapDataCollection](./odsofieldmapdatacollection/) | Eine getippte Sammlung der[`OdsoFieldMapData`](../aspose.words.settings/odsofieldmapdata/) Objekte. |
+| [OdsoRecipientData](./odsorecipientdata/) | Stellt Informationen zu einem einzelnen Datensatz innerhalb einer externen Datenquelle dar, der vom Seriendruck ausgeschlossen werden soll. |
+| [OdsoRecipientDataCollection](./odsorecipientdatacollection/) | Eine getippte Sammlung von[`OdsoRecipientData`](../aspose.words.settings/odsorecipientdata/) |
+| [ViewOptions](./viewoptions/) | Bietet verschiedene Optionen, die steuern, wie ein Dokument in Microsoft Word angezeigt wird. |
+| [WriteProtection](./writeprotection/) | Gibt die Schreibschutzeinstellungen für ein Dokument an. |
 ## Aufzählung
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [Compatibility](./compatibility) | Gibt Namen von Kompatibilitätsoptionen an. |
-| [MailMergeCheckErrors](./mailmergecheckerrors) | Gibt an, wie Microsoft Word beim Seriendruck erkannte Fehler meldet. |
-| [MailMergeDataType](./mailmergedatatype) | Gibt den Typ einer externen Seriendruckdatenquelle an. |
-| [MailMergeDestination](./mailmergedestination) | Gibt die möglichen Ergebnisse an, die generiert werden können, wenn ein Seriendruck auf ein Dokument ausgeführt wird. |
-| [MailMergeMainDocumentType](./mailmergemaindocumenttype) | Gibt die möglichen Typen für ein Seriendruck-Quelldokument an. |
-| [MsWordVersion](./mswordversion) | Ermöglicht Aspose.Wods, das spezifische Anwendungsverhalten von MS Word nachzuahmen. |
-| [MultiplePagesType](./multiplepagestype) | Gibt an, wie das Dokument gedruckt wird. |
-| [OdsoDataSourceType](./odsodatasourcetype) | Gibt den Typ der externen Datenquelle an, mit der eine Verbindung hergestellt werden soll, als Teil der ODSO-Verbindungsinformationen. |
-| [OdsoFieldMappingType](./odsofieldmappingtype) | Gibt die möglichen Typen an, die verwendet werden, um anzugeben, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
-| [ViewType](./viewtype) | Mögliche Werte für den Ansichtsmodus in Microsoft Word. |
-| [ZoomType](./zoomtype) | Mögliche Werte dafür, wie groß oder klein das Dokument auf dem Bildschirm in Microsoft Word angezeigt wird. |
+| [Compatibility](./compatibility/) | Gibt Namen von Kompatibilitätsoptionen an. |
+| [MailMergeCheckErrors](./mailmergecheckerrors/) | Gibt an, wie Microsoft Word beim Seriendruck erkannte Fehler meldet. |
+| [MailMergeDataType](./mailmergedatatype/) | Gibt den Typ einer externen Seriendruckdatenquelle an. |
+| [MailMergeDestination](./mailmergedestination/) | Gibt die möglichen Ergebnisse an, die generiert werden können, wenn ein Seriendruck auf ein Dokument ausgeführt wird. |
+| [MailMergeMainDocumentType](./mailmergemaindocumenttype/) | Gibt die möglichen Typen für ein Seriendruck-Quelldokument an. |
+| [MsWordVersion](./mswordversion/) | Ermöglicht Aspose.Wods, das spezifische Anwendungsverhalten von MS Word nachzuahmen. |
+| [MultiplePagesType](./multiplepagestype/) | Gibt an, wie das Dokument gedruckt wird. |
+| [OdsoDataSourceType](./odsodatasourcetype/) | Gibt den Typ der externen Datenquelle an, mit der eine Verbindung hergestellt werden soll, als Teil der ODSO-Verbindungsinformationen. |
+| [OdsoFieldMappingType](./odsofieldmappingtype/) | Gibt die möglichen Typen an, die verwendet werden, um anzugeben, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde. |
+| [ViewType](./viewtype/) | Mögliche Werte für den Ansichtsmodus in Microsoft Word. |
+| [ZoomType](./zoomtype/) | Mögliche Werte dafür, wie groß oder klein das Dokument auf dem Bildschirm in Microsoft Word angezeigt wird. |
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

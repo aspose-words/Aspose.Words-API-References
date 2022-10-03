@@ -1,7 +1,7 @@
 ---
 title: FieldDatabase
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das DATABASE-Feld.
+description: Implementiert das DATABASEFeld.
 type: docs
 weight: 1590
 url: /de/net/aspose.words.fields/fielddatabase/
@@ -18,42 +18,42 @@ public class FieldDatabase : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldDatabase](fielddatabase)() | Default_Constructor |
+| [FieldDatabase](fielddatabase/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Connection](../../aspose.words.fields/fielddatabase/connection) { get; set; } | Ruft eine Verbindung zu den Daten ab oder stellt sie her. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | Holt oder setzt den vollständigen Pfad und Dateinamen der Datenbank |
-| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | Liest oder setzt die ganzzahlige Satznummer des ersten einzufügenden Datensatzes. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes) { get; set; } | Ermittelt oder setzt, welche Attribute des Formats auf die Tabelle angewendet werden sollen. |
-| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings) { get; set; } | Ruft ab oder legt fest, ob die Feldnamen aus der Datenbank als Spaltenüberschriften in der resultierenden Tabelle eingefügt werden sollen. |
-| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge) { get; set; } | Ruft ab oder legt fest, ob Daten am Anfang einer Zusammenführung eingefügt werden sollen. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord) { get; set; } | Holt oder setzt die ganzzahlige Satznummer des letzten einzufügenden Datensatzes. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Query](../../aspose.words.fields/fielddatabase/query) { get; set; } | Ruft eine Reihe von SQL-Anweisungen ab oder legt sie fest, die die Datenbank abfragen. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat) { get; set; } | Holt oder setzt das Format, das auf das Ergebnis der Datenbankabfrage angewendet werden soll. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [Connection](../../aspose.words.fields/fielddatabase/connection/) { get; set; } | Ruft eine Verbindung zu den Daten ab oder stellt sie her. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [FileName](../../aspose.words.fields/fielddatabase/filename/) { get; set; } | Holt oder setzt den vollständigen Pfad und Dateinamen der Datenbank |
+| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord/) { get; set; } | Liest oder setzt die ganzzahlige Satznummer des ersten einzufügenden Datensatzes. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes/) { get; set; } | Ermittelt oder setzt, welche Attribute des Formats auf die Tabelle angewendet werden sollen. |
+| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings/) { get; set; } | Ruft ab oder legt fest, ob die Feldnamen aus der Datenbank als Spaltenüberschriften in der resultierenden Tabelle eingefügt werden sollen. |
+| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge/) { get; set; } | Ruft ab oder legt fest, ob Daten am Anfang einer Zusammenführung eingefügt werden sollen. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord/) { get; set; } | Holt oder setzt die ganzzahlige Satznummer des letzten einzufügenden Datensatzes. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [Query](../../aspose.words.fields/fielddatabase/query/) { get; set; } | Ruft eine Reihe von SQL-Anweisungen ab oder legt sie fest, die die Datenbank abfragen. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat/) { get; set; } | Holt oder setzt das Format, das auf das Ergebnis der Datenbankabfrage angewendet werden soll. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
@@ -110,8 +110,8 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

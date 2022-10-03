@@ -1,7 +1,7 @@
 ---
 title: OleFormat
 second_title: Aspose.Words für .NET-API-Referenz
-description: Bietet Zugriff auf die Daten eines OLE-Objekts oder ActiveX-Steuerelements.
+description: Bietet Zugriff auf die Daten eines OLEObjekts oder ActiveXSteuerelements.
 type: docs
 weight: 1020
 url: /de/net/aspose.words.drawing/oleformat/
@@ -18,32 +18,32 @@ public class OleFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | Gibt an, ob der Link zum OLE-Objekt in Microsoft Word automatisch aktualisiert wird oder nicht. |
-| [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | Ruft die CLSID des OLE-Objekts ab. |
-| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | Ruft die Symbolbeschriftung des OLE-Objekts ab. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | Gibt true zurück, wenn das OLE-Objekt verknüpft ist (when[`SourceFullName`](./sourcefullname) angegeben ist). |
-| [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | Gibt an, ob der Link zum OLE-Objekt gegen Aktualisierungen gesperrt ist. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | erhält[`OleControl`](./olecontrol) Objekte, wenn dieses OLE-Objekt ein ActiveX-Steuerelement ist. Andernfalls ist diese Eigenschaft null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | Ruft den Zeichenaspekt des OLE-Objekts ab. Wann **Stimmt** , wird das OLE-Objekt als Symbol angezeigt. Wann **FALSCH** , wird das OLE-Objekt als Inhalt angezeigt. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | Zugriff gewähren auf[`OlePackage`](../olepackage) wenn OLE-Objekt ein OLE-Paket ist. Gibt ansonsten null zurück. |
-| [ProgId](../../aspose.words.drawing/oleformat/progid) { get; set; } | Ruft die ProgID des OLE-Objekts ab oder legt sie fest. |
-| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname) { get; set; } | Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLE-Objekt ab oder legt ihn fest. |
-| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem) { get; set; } | Ruft eine Zeichenfolge ab oder legt eine Zeichenfolge fest, die verwendet wird, um den Teil der Quelldatei zu identifizieren, der verknüpft wird. |
-| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension) { get; } | Ruft die Dateierweiterung ab, die für das aktuelle eingebettete Objekt vorgeschlagen wird, wenn Sie es in einer Datei speichern möchten. |
-| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename) { get; } | Ruft den vorgeschlagenen Dateinamen für das aktuelle eingebettete Objekt ab, wenn Sie es in einer Datei speichern möchten. |
+| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Gibt an, ob der Link zum OLE-Objekt in Microsoft Word automatisch aktualisiert wird oder nicht. |
+| [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Ruft die CLSID des OLE-Objekts ab. |
+| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Ruft die Symbolbeschriftung des OLE-Objekts ab. |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Gibt true zurück, wenn das OLE-Objekt verknüpft ist (when[`SourceFullName`](./sourcefullname/) angegeben ist). |
+| [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Gibt an, ob der Link zum OLE-Objekt gegen Aktualisierungen gesperrt ist. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | erhält[`OleControl`](./olecontrol/) Objekte, wenn dieses OLE-Objekt ein ActiveX-Steuerelement ist. Andernfalls ist diese Eigenschaft null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Ruft den Zeichenaspekt des OLE-Objekts ab. Wann **Stimmt** , wird das OLE-Objekt als Symbol angezeigt. Wann **FALSCH** , wird das OLE-Objekt als Inhalt angezeigt. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Zugriff gewähren auf[`OlePackage`](../olepackage/) wenn OLE-Objekt ein OLE-Paket ist. Gibt ansonsten null zurück. |
+| [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Ruft die ProgID des OLE-Objekts ab oder legt sie fest. |
+| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLE-Objekt ab oder legt ihn fest. |
+| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Ruft eine Zeichenfolge ab oder legt eine Zeichenfolge fest, die verwendet wird, um den Teil der Quelldatei zu identifizieren, der verknüpft wird. |
+| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Ruft die Dateierweiterung ab, die für das aktuelle eingebettete Objekt vorgeschlagen wird, wenn Sie es in einer Datei speichern möchten. |
+| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Ruft den vorgeschlagenen Dateinamen für das aktuelle eingebettete Objekt ab, wenn Sie es in einer Datei speichern möchten. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Ruft den OLE-Objektdateneintrag ab. |
-| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Ruft Rohdaten des OLE-Objekts ab. |
-| [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | Speichert die Daten des eingebetteten Objekts in den angegebenen Stream. |
-| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Speichert die Daten des eingebetteten Objekts in eine Datei mit dem angegebenen Namen. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Ruft den OLE-Objektdateneintrag ab. |
+| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Ruft Rohdaten des OLE-Objekts ab. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Speichert die Daten des eingebetteten Objekts in den angegebenen Stream. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Speichert die Daten des eingebetteten Objekts in eine Datei mit dem angegebenen Namen. |
 
 ### Bemerkungen
 
-Verwenden Sie die[`OleFormat`](../shape/oleformat) -Eigenschaft, um auf die Daten eines OLE-Objekts zuzugreifen. Sie erstellen keine Instanzen von[`OleFormat`](../oleformat) Klasse direkt.
+Verwenden Sie die[`OleFormat`](../shape/oleformat/) -Eigenschaft, um auf die Daten eines OLE-Objekts zuzugreifen. Sie erstellen keine Instanzen von[`OleFormat`](./oleformat/) Klasse direkt.
 
 ### Beispiele
 
@@ -79,7 +79,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Drawing](../../aspose.words.drawing)
+* namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

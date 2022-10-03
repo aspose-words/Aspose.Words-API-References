@@ -1,7 +1,7 @@
 ---
 title: BookmarkEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: Repräsentiert das Ende eines Lesezeichens in einem Word-Dokument.
+description: Repräsentiert das Ende eines Lesezeichens in einem WordDokument.
 type: docs
 weight: 50
 url: /de/net/aspose.words/bookmarkend/
@@ -18,44 +18,44 @@ public class BookmarkEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkEnd](bookmarkend)(DocumentBase, string) | Initialisiert eine neue Instanz von[`BookmarkEnd`](../bookmarkend) Klasse. |
+| [BookmarkEnd](bookmarkend/)(DocumentBase, string) | Initialisiert eine neue Instanz von[`BookmarkEnd`](./bookmarkend/) Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [Name](../../aspose.words/bookmarkend/name) { get; set; } | Ruft den Lesezeichennamen ab oder legt ihn fest. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype) { get; } | gibt zurückBookmarkEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
+| [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Ruft den Lesezeichennamen ab oder legt ihn fest. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | gibt zurückBookmarkEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [Remove](../../aspose.words/node/remove)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
-Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart) und ein passendes[`BookmarkEnd`](../bookmarkend) mit demselben Lesezeichennamen.
+Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart/) und ein passendes[`BookmarkEnd`](./bookmarkend/) mit demselben Lesezeichennamen.
 
-[`BookmarkStart`](../bookmarkstart) und[`BookmarkEnd`](../bookmarkend) sind nur Markierungen innerhalb eines Dokuments , die angeben, wo das Lesezeichen beginnt und endet.
+[`BookmarkStart`](../bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) sind nur Markierungen innerhalb eines Dokuments , die angeben, wo das Lesezeichen beginnt und endet.
 
-Verwenden Sie die[`Bookmark`](../bookmark) Klasse als "Fassade", um mit einem Lesezeichen als einzelnes Objekt zu arbeiten.
+Verwenden Sie die[`Bookmark`](../bookmark/) Klasse als "Fassade", um mit einem Lesezeichen als einzelnes Objekt zu arbeiten.
 
 ### Beispiele
 
@@ -146,8 +146,8 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ### Siehe auch
 
-* class [Node](../node)
-* namensraum [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

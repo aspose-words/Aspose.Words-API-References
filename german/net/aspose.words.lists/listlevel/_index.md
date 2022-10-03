@@ -18,36 +18,36 @@ public class ListLevel
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | Holt oder setzt die Begründung der tatsächlichen Nummer des Listeneintrags. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | Ruft das benutzerdefinierte Zahlenstilformat für diese Listenebene ab. Zum Beispiel: "a, ç, ĝ, ...". |
-| [Font](../../aspose.words.lists/listlevel/font) { get; } | Gibt die für die Listenbezeichnung verwendete Zeichenformatierung an. |
-| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | Gibt Bilddaten der Bildaufzählungsform für die aktuelle Listenebene zurück. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | Wahr, wenn das Level alle geerbten Zahlen in Arabisch umwandelt, falsch, wenn der Zahlenstil beibehalten wird. |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | Holt oder setzt den Absatzstil, der mit dieser Listenebene verknüpft ist. |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | Gibt das Zahlenformat für die Listenebene zurück oder legt es fest. |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | Gibt die Position (in Punkten) der Zahl oder des Aufzählungszeichens für die Listenebene zurück oder legt sie fest. |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | Gibt den Zahlenstil für diese Listenebene zurück oder legt ihn fest. |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | Legt die Listenebene fest oder gibt sie zurück, die angezeigt werden muss, bevor die angegebene Listenebene die Nummerierung neu startet. |
-| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | Gibt die Startnummer für diese Listenebene zurück oder setzt sie. |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | Gibt die Tabulatorposition (in Punkt) für die Listenebene zurück oder legt sie fest. |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | Gibt die Position (in Punkt) für die zweite Zeile des Umbruchtexts für die Listenebene zurück oder legt sie fest. |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | Gibt das nach der Nummer eingefügte Zeichen für die Listenebene zurück oder setzt es. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Holt oder setzt die Begründung der tatsächlichen Nummer des Listeneintrags. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Ruft das benutzerdefinierte Zahlenstilformat für diese Listenebene ab. Zum Beispiel: "a, ç, ĝ, ...". |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | Gibt die für die Listenbezeichnung verwendete Zeichenformatierung an. |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Gibt Bilddaten der Bildaufzählungsform für die aktuelle Listenebene zurück. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | Wahr, wenn das Level alle geerbten Zahlen in Arabisch umwandelt, falsch, wenn der Zahlenstil beibehalten wird. |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Holt oder setzt den Absatzstil, der mit dieser Listenebene verknüpft ist. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Gibt das Zahlenformat für die Listenebene zurück oder legt es fest. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Gibt die Position (in Punkten) der Zahl oder des Aufzählungszeichens für die Listenebene zurück oder legt sie fest. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Gibt den Zahlenstil für diese Listenebene zurück oder legt ihn fest. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Legt die Listenebene fest oder gibt sie zurück, die angezeigt werden muss, bevor die angegebene Listenebene die Nummerierung neu startet. |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Gibt die Startnummer für diese Listenebene zurück oder setzt sie. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Gibt die Tabulatorposition (in Punkt) für die Listenebene zurück oder legt sie fest. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | Gibt die Position (in Punkt) für die zweite Zeile des Umbruchtexts für die Listenebene zurück oder legt sie fest. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | Gibt das nach der Nummer eingefügte Zeichen für die Listenebene zurück oder setzt es. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | Erstellt eine Aufzählungszeichenform für die aktuelle Listenebene. |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | Löscht Bildaufzählungszeichen für die aktuelle Listenebene. |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | Vergleicht mit dem angegebenen ListLevel. |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Berechnet Hashcode für dieses Objekt. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | Meldet die Zeichenfolgendarstellung der[`ListLevel`](../listlevel) Objekt für den angegebenen Index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Erstellt eine Aufzählungszeichenform für die aktuelle Listenebene. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Löscht Bildaufzählungszeichen für die aktuelle Listenebene. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Vergleicht mit dem angegebenen ListLevel. |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Berechnet Hashcode für dieses Objekt. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | Meldet die Zeichenfolgendarstellung der[`ListLevel`](./listlevel/) Objekt für den angegebenen Index des Listenelements. Parameter geben die an[`NumberStyle`](../../aspose.words/numberstyle/) und ein optionales Format string , das verwendet wird, wennCustom angegeben ist. |
 
 ### Bemerkungen
 
-Sie erstellen keine Objekte dieser Klasse. Objekte auf Listenebene werden automatisch erstellt, wenn eine Liste erstellt wird. Sie greifen zu[`ListLevel`](../listlevel) Objekte über the [`ListLevelCollection`](../listlevelcollection) Sammlung.
+Sie erstellen keine Objekte dieser Klasse. Objekte auf Listenebene werden automatisch erstellt, wenn eine Liste erstellt wird. Sie greifen zu[`ListLevel`](./listlevel/) Objekte über the [`ListLevelCollection`](../listlevelcollection/) Sammlung.
 
-Verwenden Sie die Eigenschaften von[`ListLevel`](../listlevel) Listenformatierung für einzelne Listenebenen festzulegen.
+Verwenden Sie die Eigenschaften von[`ListLevel`](./listlevel/) Listenformatierung für einzelne Listenebenen festzulegen.
 
 ### Beispiele
 
@@ -107,7 +107,7 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Lists](../../aspose.words.lists)
+* namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

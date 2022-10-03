@@ -1,14 +1,14 @@
 ---
 title: ShapeRenderer
 second_title: Aspose.Words für .NET-API-Referenz
-description: Stellt Methoden bereit um eine Person zu rendernShape../aspose.words.drawing/shape oderGroupShape../aspose.words.drawing/groupshape in ein Raster- oder Vektorbild oder in ein Grafikobjekt.
+description: Stellt Methoden bereit um eine Person zu rendernShape../aspose.words.drawing/shape/ oderGroupShape../aspose.words.drawing/groupshape/ in ein Raster oder Vektorbild oder in ein Grafikobjekt.
 type: docs
 weight: 4330
 url: /de/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Stellt Methoden bereit, um eine Person zu rendern[`Shape`](../../aspose.words.drawing/shape) oder[`GroupShape`](../../aspose.words.drawing/groupshape) in ein Raster- oder Vektorbild oder in ein Grafikobjekt.
+Stellt Methoden bereit, um eine Person zu rendern[`Shape`](../../aspose.words.drawing/shape/) oder[`GroupShape`](../../aspose.words.drawing/groupshape/) in ein Raster- oder Vektorbild oder in ein Grafikobjekt.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -18,30 +18,30 @@ public class ShapeRenderer : NodeRendererBase
 
 | Name | Beschreibung |
 | --- | --- |
-| [ShapeRenderer](shaperenderer)(ShapeBase) | Initialisiert eine neue Instanz dieser Klasse. |
+| [ShapeRenderer](shaperenderer/)(ShapeBase) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | Ruft die tatsächlichen Grenzen der Form in Punkten ab. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | Ruft die undurchsichtigen Grenzen der Form in Punkten ab. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | Ruft die tatsächliche Größe der Form in Punkten ab. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Ruft die tatsächlichen Grenzen der Form in Punkten ab. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Ruft die undurchsichtigen Grenzen der Form in Punkten ab. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Ruft die tatsächliche Größe der Form in Punkten ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float) | Berechnet die Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float, float) | Berechnet die Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Rendert die Form in aGraphics Objekt in einem bestimmten Maßstab. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Rendert die Form in aGraphics Objekt auf eine bestimmte Größe. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Rendert die Form in ein Bild und speichert sie in einem Stream. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Rendert die Form in ein Bild und speichert sie in einer Datei. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | Berechnet die Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | Berechnet die Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Berechnet die undurchsichtigen Grenzen der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Berechnet die Größe der Form in Pixeln für einen angegebenen Zoomfaktor und eine angegebene Auflösung. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Rendert die Form in aGraphics Objekt in einem bestimmten Maßstab. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Rendert die Form in aGraphics Objekt auf eine bestimmte Größe. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Rendert die Form in ein Bild und speichert sie in einem Stream. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Rendert die Form in ein Bild und speichert sie in einer Datei. |
 
 ### Beispiele
 
@@ -150,8 +150,8 @@ private class ShapeForm : Form
 
 ### Siehe auch
 
-* class [NodeRendererBase](../noderendererbase)
-* namensraum [Aspose.Words.Rendering](../../aspose.words.rendering)
+* class [NodeRendererBase](../noderendererbase/)
+* namensraum [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

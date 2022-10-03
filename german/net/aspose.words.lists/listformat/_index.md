@@ -18,36 +18,36 @@ public class ListFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | Wahr, wenn auf den Absatz Aufzählungszeichen oder Nummerierungen angewendet wurden. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Ruft die Liste ab oder legt sie fest, zu der dieser Absatz gehört. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Gibt die Formatierung auf Listenebene plus alle auf den aktuellen Absatz angewendeten Formatierungsüberschreibungen zurück. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Ruft die Nummer der Listenebene (0 bis 8) für den Absatz ab oder legt sie fest. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Wahr, wenn auf den Absatz Aufzählungszeichen oder Nummerierungen angewendet wurden. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Ruft die Liste ab oder legt sie fest, zu der dieser Absatz gehört. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Gibt die Formatierung auf Listenebene plus alle auf den aktuellen Absatz angewendeten Formatierungsüberschreibungen zurück. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Ruft die Nummer der Listenebene (0 bis 8) für den Absatz ab oder legt sie fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Beginnt eine neue Standardliste mit Aufzählungszeichen und wendet sie auf den Absatz an. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Beginnt eine neue standardmäßig nummerierte Liste und wendet sie auf den Absatz an. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Erhöht die Listenebene des aktuellen Absatzes um eine Ebene. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Verringert die Listenebene des aktuellen Absatzes um eine Ebene. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Entfernt Nummern oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die Listenebene auf Null. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Beginnt eine neue Standardliste mit Aufzählungszeichen und wendet sie auf den Absatz an. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Beginnt eine neue standardmäßig nummerierte Liste und wendet sie auf den Absatz an. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Erhöht die Listenebene des aktuellen Absatzes um eine Ebene. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Verringert die Listenebene des aktuellen Absatzes um eine Ebene. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Entfernt Nummern oder Aufzählungszeichen aus dem aktuellen Absatz und setzt die Listenebene auf Null. |
 
 ### Bemerkungen
 
 Ein Absatz in einem Microsoft Word-Dokument kann mit Aufzählungszeichen oder Nummerierungen versehen werden. Wenn ein Absatz mit Aufzählungszeichen oder Nummerierungen versehen ist, wird die Listenformatierung auf den Absatz angewendet.
 
-Sie erstellen keine Objekte der[`ListFormat`](../listformat) Klasse direkt. Du greifst zu[`ListFormat`](../listformat) als Eigenschaft eines anderen Objekts, dem eine Listenformatierung zugeordnet werden kann. Im Moment sind die Objekte, die eine Listenformatierung haben können:[`Paragraph`](../../aspose.words/paragraph) , [`Style`](../../aspose.words/style) und[`DocumentBuilder`](../../aspose.words/documentbuilder).
+Sie erstellen keine Objekte der[`ListFormat`](./listformat/) Klasse direkt. Du greifst zu[`ListFormat`](./listformat/) als Eigenschaft eines anderen Objekts, dem eine Listenformatierung zugeordnet werden kann. Im Moment sind die Objekte, die eine Listenformatierung haben können:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) und[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](../listformat) von a[`Paragraph`](../../aspose.words/paragraph) gibt an, welche Listenformatierung und Listenebene auf diesen bestimmten Absatz angewendet wird.
+[`ListFormat`](./listformat/) von a[`Paragraph`](../../aspose.words/paragraph/) gibt an, welche Listenformatierung und Listenebene auf diesen bestimmten Absatz angewendet wird.
 
-[`ListFormat`](../listformat) von a[`Style`](../../aspose.words/style)(gilt nur für Absatzstile) ermöglicht die Angabe, welche Listenformatierung und Listenebene auf alle Absätze dieses bestimmten Stils angewendet wird.
+[`ListFormat`](./listformat/) von a[`Style`](../../aspose.words/style/)(gilt nur für Absatzstile) ermöglicht die Angabe, welche Listenformatierung und Listenebene auf alle Absätze dieses bestimmten Stils angewendet wird.
 
-[`ListFormat`](../listformat) von a[`DocumentBuilder`](../../aspose.words/documentbuilder) bietet Zugriff auf die Listenformatierung an der aktuellen Cursorposition innerhalb der[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](./listformat/) von a[`DocumentBuilder`](../../aspose.words/documentbuilder/) bietet Zugriff auf die Listenformatierung an der aktuellen Cursorposition innerhalb der[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-Die Listenformatierung selbst wird in a gespeichert[`List`](../list) Objekt, das getrennt von den Absätzen gespeichert wird. Die Listenobjekte werden in a gespeichert[`ListCollection`](../listcollection) Sammlung. Es gibt einen einzigen [`ListCollection`](../listcollection) Abholung pro[`Document`](../../aspose.words/document).
+Die Listenformatierung selbst wird in a gespeichert[`List`](../list/) Objekt, das getrennt von den Absätzen gespeichert wird. Die Listenobjekte werden in a gespeichert[`ListCollection`](../listcollection/) Sammlung. Es gibt einen einzigen [`ListCollection`](../listcollection/) Abholung pro[`Document`](../../aspose.words/document/).
 
-Die Absätze gehören physikalisch nicht zu einer Liste. Die Absätze just verweisen über die auf ein bestimmtes Listenobjekt[`List`](./list) property und eine bestimmte Ebene in der Liste über die[`ListLevelNumber`](./listlevelnumber) property. Durch Festlegen dieser beiden Eigenschaften steuern Sie, welche Aufzählungszeichen und Nummerierungen auf einen Absatz angewendet werden.
+Die Absätze gehören physikalisch nicht zu einer Liste. Die Absätze just verweisen über die auf ein bestimmtes Listenobjekt[`List`](./list/) property und eine bestimmte Ebene in der Liste über die[`ListLevelNumber`](./listlevelnumber/) property. Durch Festlegen dieser beiden Eigenschaften steuern Sie, welche Aufzählungszeichen und Nummerierungen auf einen Absatz angewendet werden.
 
 ### Beispiele
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Lists](../../aspose.words.lists)
+* namensraum [Aspose.Words.Lists](../../aspose.words.lists/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | Name | Beschreibung |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Gibt den Index des enthaltenden Elements an. Dieser Index bestimmt, auf welche der untergeordneten Sammlungen des übergeordneten Elements sich dieses Element bezieht. Der Standardwert ist 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Ruft/setzt ein Flag, das angibt, ob dieses Label ausgeblendet ist. Der Standardwert ist **FALSCH** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Gibt wahr zurück, wenn diese Datenbeschriftung etwas anzuzeigen hat. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Gibt das Zahlenformat des übergeordneten Elements zurück. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Ermittelt oder legt das Zeichenfolgentrennzeichen fest, das für die Datenbeschriftungen in einem Diagramm verwendet wird. Der Standardwert ist ein Komma, außer bei Tortendiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen, wenn stattdessen ein Zeilenumbruch verwendet werden soll. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Gilt nur für Blasendiagramme. Standardwert ist falsch. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Ermöglicht die Angabe, ob der Kategoriename für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Standardwert ist falsch. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Ermöglicht die Angabe, ob Werte aus dem Datenbeschriftungsbereich in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Ermöglicht die Angabe, ob Datenbeschriftungs-Führungslinien angezeigt werden müssen. Standardwert ist falsch. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Ermöglicht die Angabe, ob der Legendenschlüssel für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Standardwert ist falsch. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen in einem Diagramm angezeigt werden sollen. Standardwert ist falsch. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Gibt einen booleschen Wert zurück oder legt ihn fest, um das Verhalten der Reihennamenanzeige für die Datenbeschriftungen in einem Diagramm anzugeben. True, um den Seriennamen anzuzeigen. Falsch zu verstecken. Standardmäßig false. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Gibt den Index des enthaltenden Elements an. Dieser Index bestimmt, auf welche der untergeordneten Sammlungen des übergeordneten Elements sich dieses Element bezieht. Der Standardwert ist 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Ruft/setzt ein Flag, das angibt, ob dieses Label ausgeblendet ist. Der Standardwert ist **FALSCH** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Gibt wahr zurück, wenn diese Datenbeschriftung etwas anzuzeigen hat. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Gibt das Zahlenformat des übergeordneten Elements zurück. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Ermittelt oder legt das Zeichenfolgentrennzeichen fest, das für die Datenbeschriftungen in einem Diagramm verwendet wird. Der Standardwert ist ein Komma, außer bei Tortendiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen, wenn stattdessen ein Zeilenumbruch verwendet werden soll. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Gilt nur für Blasendiagramme. Standardwert ist falsch. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Ermöglicht die Angabe, ob der Kategoriename für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Standardwert ist falsch. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Ermöglicht die Angabe, ob Werte aus dem Datenbeschriftungsbereich in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Ermöglicht die Angabe, ob Datenbeschriftungs-Führungslinien angezeigt werden müssen. Standardwert ist falsch. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Ermöglicht die Angabe, ob der Legendenschlüssel für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Standardwert ist falsch. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Ermöglicht die Angabe, ob Prozentwerte für die Datenbeschriftungen in einem Diagramm angezeigt werden sollen. Standardwert ist falsch. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Gibt einen booleschen Wert zurück oder legt ihn fest, um das Verhalten der Reihennamenanzeige für die Datenbeschriftungen in einem Diagramm anzugeben. True, um den Seriennamen anzuzeigen. Falsch zu verstecken. Standardmäßig false. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Ermöglicht die Angabe, ob Werte in den Datenbeschriftungen angezeigt werden sollen. Standardwert ist falsch. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Löscht das Format dieses Datenlabels. Die Eigenschaften werden auf die Standardwerte gesetzt, die in der übergeordneten Etikettensammlung data definiert sind. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Löscht das Format dieses Datenlabels. Die Eigenschaften werden auf die Standardwerte gesetzt, die in der übergeordneten Etikettensammlung data definiert sind. |
 
 ### Bemerkungen
 
-Auf einer Reihe, die[`ChartDataLabel`](../chartdatalabel) Objekt ist ein Mitglied von[`ChartDataLabelCollection`](../chartdatalabelcollection) . Die[`ChartDataLabelCollection`](../chartdatalabelcollection) enthält ein[`ChartDataLabel`](../chartdatalabel) Objekt für jeden Punkt.
+Auf einer Reihe, die[`ChartDataLabel`](./chartdatalabel/) Objekt ist ein Mitglied von[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Die[`ChartDataLabelCollection`](../chartdatalabelcollection/) enthält ein[`ChartDataLabel`](./chartdatalabel/) Objekt für jeden Punkt.
 
 ### Beispiele
 
@@ -118,7 +118,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* namensraum [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,7 +1,7 @@
 ---
 title: InsertField
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fügt ein Word-Feld in ein Dokument ein und aktualisiert optional das Feldergebnis.
+description: Fügt ein WordFeld in ein Dokument ein und aktualisiert optional das Feldergebnis.
 type: docs
 weight: 300
 url: /de/net/aspose.words/documentbuilder/insertfield/
@@ -21,11 +21,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### Rückgabewert
 
-EIN[`Field`](../../../aspose.words.fields/field) Objekt, das das eingefügte Feld darstellt.
+EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
 ### Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](../insertfield) Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](./insertfield/) Überlast.
 
 ### Beispiele
 
@@ -71,10 +71,10 @@ else
 
 ### Siehe auch
 
-* class [Field](../../../aspose.words.fields/field)
-* enum [FieldType](../../../aspose.words.fields/fieldtype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -93,11 +93,11 @@ public Field InsertField(string fieldCode)
 
 ### Rückgabewert
 
-EIN[`Field`](../../../aspose.words.fields/field) Objekt, das das eingefügte Feld darstellt.
+EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
 ### Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](../insertfield) Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the [`InsertField`](./insertfield/) Überlast.
 
 ### Beispiele
 
@@ -142,9 +142,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ### Siehe auch
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -164,7 +164,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 ### Rückgabewert
 
-EIN[`Field`](../../../aspose.words.fields/field) Objekt, das das eingefügte Feld darstellt.
+EIN[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld darstellt.
 
 ### Bemerkungen
 
@@ -174,7 +174,7 @@ Sie können zwischen der Anzeige von Feldcodes und Ergebnissen in Ihrem Dokument
 
 Um ein Feld zu erstellen, müssen Sie einen Feldtyp, einen Feldcode und einen „Platzhalter“-Feldwert angeben. Wenn Sie sich bezüglich einer bestimmten Feldcodesyntax nicht sicher sind, erstellen Sie das Feld zuerst in Microsoft Word und wechseln Sie, um seinen Feldcode anzuzeigen .
 
-Aspose.Words kann Feldergebnisse für die meisten Feldtypen berechnen, aber diese Methode aktualisiert das Feldergebnis nicht automatisch. Da das Feldergebnis nicht automatisch berechnet wird, wird erwartet, dass Sie einen Zeichenfolgenwert (oder sogar eine leere Zeichenfolge) übergeben, der in das Feldergebnis eingefügt wird. Dieser Wert verbleibt als Platzhalter im Feldergebnis, bis das Feld ist updated. Um das Feldergebnis zu aktualisieren, können Sie aufrufen[`Update`](../../../aspose.words.fields/field/update)auf dem Feldobjekt return an Sie oder[`UpdateFields`](../../document/updatefields) um Felder im gesamten Dokument zu aktualisieren.
+Aspose.Words kann Feldergebnisse für die meisten Feldtypen berechnen, aber diese Methode aktualisiert das Feldergebnis nicht automatisch. Da das Feldergebnis nicht automatisch berechnet wird, wird erwartet, dass Sie einen Zeichenfolgenwert (oder sogar eine leere Zeichenfolge) übergeben, der in das Feldergebnis eingefügt wird. Dieser Wert verbleibt als Platzhalter im Feldergebnis, bis das Feld ist updated. Um das Feldergebnis zu aktualisieren, können Sie aufrufen[`Update`](../../../aspose.words.fields/field/update/)auf dem Feldobjekt return an Sie oder[`UpdateFields`](../../document/updatefields/) um Felder im gesamten Dokument zu aktualisieren.
 
 ### Beispiele
 
@@ -232,9 +232,9 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 ### Siehe auch
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

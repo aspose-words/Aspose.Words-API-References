@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator
 second_title: Aspose.Words für .NET-API-Referenz
-description: Zählt Seitenlayout-Entitäten eines Dokuments auf. Sie können diese Klasse verwenden um über das Seitenlayoutmodell zu gehen. Verfügbare Eigenschaften sind Typ Geometrie Text und Seitenindex wo die Entität gerendert wird sowie Gesamtstruktur und Beziehungen. Kombination von verwendenGetEntity./layoutcollector/getentity undCurrent./layoutenumerator/current zu der Entität wechseln die einem Dokumentknoten entspricht.
+description: Zählt SeitenlayoutEntitäten eines Dokuments auf. Sie können diese Klasse verwenden um über das Seitenlayoutmodell zu gehen. Verfügbare Eigenschaften sind Typ Geometrie Text und Seitenindex wo die Entität gerendert wird sowie Gesamtstruktur und Beziehungen. Kombination von verwendenGetEntity./layoutcollector/getentity/ undCurrent./layoutenumerator/current/ zu der Entität wechseln die einem Dokumentknoten entspricht.
 type: docs
 weight: 3140
 url: /de/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
-Zählt Seitenlayout-Entitäten eines Dokuments auf. Sie können diese Klasse verwenden, um über das Seitenlayoutmodell zu gehen. Verfügbare Eigenschaften sind Typ, Geometrie, Text und Seitenindex, wo die Entität gerendert wird, sowie Gesamtstruktur und Beziehungen. Kombination von verwenden[`GetEntity`](../layoutcollector/getentity) und[`Current`](./current) zu der Entität wechseln, die einem Dokumentknoten entspricht.
+Zählt Seitenlayout-Entitäten eines Dokuments auf. Sie können diese Klasse verwenden, um über das Seitenlayoutmodell zu gehen. Verfügbare Eigenschaften sind Typ, Geometrie, Text und Seitenindex, wo die Entität gerendert wird, sowie Gesamtstruktur und Beziehungen. Kombination von verwenden[`GetEntity`](../layoutcollector/getentity/) und[`Current`](./current/) zu der Entität wechseln, die einem Dokumentknoten entspricht.
 
 ```csharp
 public class LayoutEnumerator
@@ -18,33 +18,33 @@ public class LayoutEnumerator
 
 | Name | Beschreibung |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | Initialisiert eine neue Instanz dieser Klasse. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | Ruft die aktuelle Position im Seitenlayoutmodell ab oder legt sie fest. Diese Eigenschaft gibt ein undurchsichtiges Objekt zurück, das der aktuellen Layouteinheit entspricht. |
-| [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | Ruft das Dokument ab, das diese Instanz auflistet. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | Ruft die Art der aktuellen Entität ab. Dies kann eine leere Zeichenfolge sein, aber niemals null. |
-| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | Ruft den 1-basierten Index einer Seite ab, die die aktuelle Entität enthält. |
-| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | Gibt das Begrenzungsrechteck des aktuellen Objekts relativ zur linken oberen Ecke der Seite zurück (in Punkt). |
-| [Text](../../aspose.words.layout/layoutenumerator/text) { get; } | Ruft Text der aktuellen Span-Entität ab. Auslösungen für andere Entitätstypen. |
-| [Type](../../aspose.words.layout/layoutenumerator/type) { get; } | Ruft den Typ der aktuellen Entität ab. |
+| [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Ruft die aktuelle Position im Seitenlayoutmodell ab oder legt sie fest. Diese Eigenschaft gibt ein undurchsichtiges Objekt zurück, das der aktuellen Layouteinheit entspricht. |
+| [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Ruft das Dokument ab, das diese Instanz auflistet. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Ruft die Art der aktuellen Entität ab. Dies kann eine leere Zeichenfolge sein, aber niemals null. |
+| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Ruft den 1-basierten Index einer Seite ab, die die aktuelle Entität enthält. |
+| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Gibt das Begrenzungsrechteck des aktuellen Objekts relativ zur linken oberen Ecke der Seite zurück (in Punkt). |
+| [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Ruft Text der aktuellen Span-Entität ab. Auslösungen für andere Entitätstypen. |
+| [Type](../../aspose.words.layout/layoutenumerator/type/) { get; } | Ruft den Typ der aktuellen Entität ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild)() | Verschiebt zur ersten untergeordneten Entität. |
-| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | Wechselt zur letzten untergeordneten Entität. |
-| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | Wechselt zur nächsten gleichgeordneten Entität in visueller Reihenfolge. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode nicht zur nächsten Seite, sondern zur nächsten Entität auf derselben Seite. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | Wechselt in logischer Reihenfolge zur nächsten gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode zur nächsten Zeile, selbst wenn sie sich auf einer anderen Seite befindet. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | Verschiebt zur übergeordneten Entität. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | Wechselt zur übergeordneten Entität des angegebenen Typs. |
-| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | Verschiebt zur vorherigen gleichgeordneten Entität. |
-| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Wechselt in logischer Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode zur vorherigen Zeile, selbst wenn sie sich auf einer anderen Seite befindet. |
-| [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Verschiebt den Enumerator auf die erste Seite des Dokuments. |
+| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | Verschiebt zur ersten untergeordneten Entität. |
+| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | Wechselt zur letzten untergeordneten Entität. |
+| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Wechselt zur nächsten gleichgeordneten Entität in visueller Reihenfolge. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode nicht zur nächsten Seite, sondern zur nächsten Entität auf derselben Seite. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Wechselt in logischer Reihenfolge zur nächsten gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode zur nächsten Zeile, selbst wenn sie sich auf einer anderen Seite befindet. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Verschiebt zur übergeordneten Entität. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Wechselt zur übergeordneten Entität des angegebenen Typs. |
+| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Verschiebt zur vorherigen gleichgeordneten Entität. |
+| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Wechselt in logischer Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode zur vorherigen Zeile, selbst wenn sie sich auf einer anderen Seite befindet. |
+| [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Verschiebt den Enumerator auf die erste Seite des Dokuments. |
 
 ### Beispiele
 
@@ -190,7 +190,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Layout](../../aspose.words.layout)
+* namensraum [Aspose.Words.Layout](../../aspose.words.layout/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

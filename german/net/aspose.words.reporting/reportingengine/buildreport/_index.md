@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
-Mit dieser Überladung können Sie auf die Elemente der Datenquelle im Vorlagendokument verweisen, aber Sie können nicht auf das Datenquellenobjekt selbst verweisen. Sie sollten die verwenden[`BuildReport`](../buildreport) überlasten, um dies zu erreichen.
+Mit dieser Überladung können Sie auf die Elemente der Datenquelle im Vorlagendokument verweisen, aber Sie können nicht auf das Datenquellenobjekt selbst verweisen. Sie sollten die verwenden[`BuildReport`](./buildreport/) überlasten, um dies zu erreichen.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokum
 
 ### Siehe auch
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namensraum [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namensraum [Aspose.Words.Reporting](../../reportingengine/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
-Mit dieser Überladung können Sie in der Vorlage auf die Member der Datenquelle und das Datenquellenobjekt selbst verweisen. Wenn Sie nicht auf das Datenquellenobjekt selbst verweisen, können Sie es weglassen*dataSourceName* Null übergeben oder verwenden[`BuildReport`](../buildreport) Überlastung.
+Mit dieser Überladung können Sie in der Vorlage auf die Member der Datenquelle und das Datenquellenobjekt selbst verweisen. Wenn Sie nicht auf das Datenquellenobjekt selbst verweisen, können Sie es weglassen*dataSourceName* Null übergeben oder verwenden[`BuildReport`](./buildreport/) Überlastung.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokum
 
 ### Siehe auch
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namensraum [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namensraum [Aspose.Words.Reporting](../../reportingengine/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Rückgabewert
 
-Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
+Ein Flag, das angibt, ob das Parsen des Vorlagendokuments erfolgreich war. Das zurückgegebene Flag ist nur sinnvoll, wenn ein Wert der[`Options`](../options/)Eigenschaft umfasst dieInlineErrorMessages Möglichkeit.
 
 ### Bemerkungen
 
 Mit dieser Überladung können Sie auf mehrere Datenquellenobjekte und ihre Member in der Vorlage verweisen. Der Name der ersten Datenquelle kann weggelassen werden (dh eine leere Zeichenfolge oder null sein), wenn Sie auf die Mitglieder der Datenquelle verweisen, aber nicht auf das Datenquellenobjekt selbst. Namen der anderen Datenquellen müssen angegeben und eindeutig sein.
 
-Wenn Sie eine einzelne Datenquelle verwenden möchten, ziehen Sie die Verwendung von in Betracht[`BuildReport`](../buildreport) und[`BuildReport`](../buildreport) stattdessen überladen.
+Wenn Sie eine einzelne Datenquelle verwenden möchten, ziehen Sie die Verwendung von in Betracht[`BuildReport`](./buildreport/) und[`BuildReport`](./buildreport/) stattdessen überladen.
 
 Ein Datenquellenobjekt kann einen der folgenden Typen haben:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ Informationen zum Arbeiten mit Datenquellen verschiedener Typen in Vorlagendokum
 
 ### Siehe auch
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namensraum [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namensraum [Aspose.Words.Reporting](../../reportingengine/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

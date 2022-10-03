@@ -18,27 +18,27 @@ public class CellFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Ruft eine Sammlung von Rahmen der Zelle ab. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Gibt den Abstand (in Punkt) zurück oder legt ihn fest, der unter dem Inhalt der Zelle hinzugefügt werden soll. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | Wenn wahr, passt Text in die Zelle und komprimiert jeden Absatz auf die Breite der Zelle. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile verbunden wird. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der links vom Inhalt der Zelle hinzugefügt werden soll. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Gibt die Textausrichtung in einer Tabellenzelle zurück oder legt sie fest. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der rechts vom Inhalt der Zelle hinzugefügt werden soll. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Gibt ein Shading-Objekt zurück, das sich auf die Schattierungsformatierung für die Zelle bezieht. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der über dem Inhalt der Zelle hinzugefügt werden soll. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Gibt die vertikale Ausrichtung des Textes in der Zelle zurück oder legt sie fest. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Gibt an, wie die Zelle vertikal mit anderen Zellen verbunden wird. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Ruft die Breite der Zelle in Punkten ab. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | Wenn wahr, Text für die Zelle umbrechen. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Ruft eine Sammlung von Rahmen der Zelle ab. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Gibt den Abstand (in Punkt) zurück oder legt ihn fest, der unter dem Inhalt der Zelle hinzugefügt werden soll. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Wenn wahr, passt Text in die Zelle und komprimiert jeden Absatz auf die Breite der Zelle. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Gibt an, wie die Zelle horizontal mit anderen Zellen in der Zeile verbunden wird. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der links vom Inhalt der Zelle hinzugefügt werden soll. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Gibt die Textausrichtung in einer Tabellenzelle zurück oder legt sie fest. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der rechts vom Inhalt der Zelle hinzugefügt werden soll. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Gibt ein Shading-Objekt zurück, das sich auf die Schattierungsformatierung für die Zelle bezieht. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Gibt den Abstand (in Punkten) zurück oder legt ihn fest, der über dem Inhalt der Zelle hinzugefügt werden soll. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Gibt die vertikale Ausrichtung des Textes in der Zelle zurück oder legt sie fest. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Gibt an, wie die Zelle vertikal mit anderen Zellen verbunden wird. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Ruft die Breite der Zelle in Punkten ab. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Wenn wahr, Text für die Zelle umbrechen. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Setzt auf Standardzellenformatierung zurück. Ändert nicht die Breite der Zelle. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Legt den Abstand (in Punkten) fest, der links/oben/rechts/unten vom Inhalt der Zelle hinzugefügt werden soll. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Setzt auf Standardzellenformatierung zurück. Ändert nicht die Breite der Zelle. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Legt den Abstand (in Punkten) fest, der links/oben/rechts/unten vom Inhalt der Zelle hinzugefügt werden soll. |
 
 ### Beispiele
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Tables](../../aspose.words.tables)
+* namensraum [Aspose.Words.Tables](../../aspose.words.tables/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
