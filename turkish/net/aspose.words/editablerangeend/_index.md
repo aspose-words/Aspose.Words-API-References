@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | Karşılık gelen EditableRangeStart, ID tarafından alındı. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | Düzenlenebilir aralığın tanımlayıcısını belirtir. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | İadeEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Bu düğümün hemen üst öğesini alır. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Karşılık gelen EditableRangeStart, ID tarafından alındı. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Düzenlenebilir aralığın tanımlayıcısını belirtir. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | İadeEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
-| [Clone](../../aspose.words/node/clone)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir düzenlenebilir aralık, bir[`EditableRangeStart`](./editablerangestart) ve eşleşen[`EditableRangeEnd`](../editablerangeend) aynı kimlikle
+Bir Word belgesindeki eksiksiz bir düzenlenebilir aralık, bir[`EditableRangeStart`](./editablerangestart/) ve eşleşen[`EditableRangeEnd`](./editablerangeend/) aynı kimlikle
 
-[`EditableRangeStart`](./editablerangestart) ve[`EditableRangeEnd`](../editablerangeend) yalnızca, düzenlenebilir aralığın nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+[`EditableRangeStart`](./editablerangestart/) ve[`EditableRangeEnd`](./editablerangeend/) yalnızca, düzenlenebilir aralığın nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
 
-Kullan[`EditableRange`](../editablerange)tek bir nesne olarak düzenlenebilir bir aralığıyla çalışmak için "cephe" olarak sınıflandırın.
+Kullan[`EditableRange`](../editablerange/)tek bir nesne olarak düzenlenebilir bir aralığıyla çalışmak için "cephe" olarak sınıflandırın.
 
-Şu anda düzenlenebilir aralıklar yalnızca satır içi düzeyde desteklenir, yani[`Paragraph`](../paragraph), ancak düzenlenebilir aralık başlangıcı ve düzenlenebilir aralık sonu farklı paragraflarda olabilir.
+Şu anda düzenlenebilir aralıklar yalnızca satır içi düzeyde desteklenir, yani[`Paragraph`](../paragraph/), ancak düzenlenebilir aralık başlangıcı ve düzenlenebilir aralık sonu farklı paragraflarda olabilir.
 
 ### Örnekler
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### Ayrıca bakınız
 
-* class [Node](../node)
-* ad alanı [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,36 +18,36 @@ public class ListFormat
 
 | İsim | Tanım |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | Paragrafa madde işaretli veya numaralı biçimlendirme uygulandığında doğrudur. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Bu paragrafın üyesi olduğu listeyi alır veya ayarlar. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Liste düzeyinde biçimlendirme artı geçerli paragrafa uygulanan biçimlendirme geçersiz kılma işlemlerini döndürür. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Paragraf için liste düzeyi numarasını (0 ila 8) alır veya ayarlar. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Paragrafa madde işaretli veya numaralı biçimlendirme uygulandığında doğrudur. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Bu paragrafın üyesi olduğu listeyi alır veya ayarlar. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Liste düzeyinde biçimlendirme artı geçerli paragrafa uygulanan biçimlendirme geçersiz kılma işlemlerini döndürür. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Paragraf için liste düzeyi numarasını (0 ila 8) alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Yeni bir varsayılan madde işaretli liste başlatır ve bunu paragrafa uygular. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Yeni bir varsayılan numaralandırılmış liste başlatır ve bunu paragrafa uygular. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Geçerli paragrafın liste düzeyini bir düzey artırır. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Geçerli paragrafın liste düzeyini bir düzey azaltır. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Geçerli paragraftan sayıları veya madde işaretlerini kaldırır ve liste düzeyini sıfıra ayarlar. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Yeni bir varsayılan madde işaretli liste başlatır ve bunu paragrafa uygular. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Yeni bir varsayılan numaralandırılmış liste başlatır ve bunu paragrafa uygular. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Geçerli paragrafın liste düzeyini bir düzey artırır. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Geçerli paragrafın liste düzeyini bir düzey azaltır. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Geçerli paragraftan sayıları veya madde işaretlerini kaldırır ve liste düzeyini sıfıra ayarlar. |
 
 ### Notlar
 
 Microsoft Word belgesindeki bir paragraf madde işaretli veya numaralandırılmış olabilir. Paragraf madde işaretli veya numaralandırılmışsa, paragrafa liste biçimlendirme uygulandığı söylenir.
 
-nesnelerini oluşturmazsınız.[`ListFormat`](../listformat) doğrudan sınıf. Siz erişin[`ListFormat`](../listformat) can ile ilişkili liste biçimlendirmesine sahip başka bir nesnenin özelliği olarak. Şu anda liste biçimlendirmesine sahip olan can nesneleri şunlardır:[`Paragraph`](../../aspose.words/paragraph) , [`Style`](../../aspose.words/style) ve[`DocumentBuilder`](../../aspose.words/documentbuilder).
+nesnelerini oluşturmazsınız.[`ListFormat`](./listformat/) doğrudan sınıf. Siz erişin[`ListFormat`](./listformat/) can ile ilişkili liste biçimlendirmesine sahip başka bir nesnenin özelliği olarak. Şu anda liste biçimlendirmesine sahip olan can nesneleri şunlardır:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) ve[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](../listformat) bir[`Paragraph`](../../aspose.words/paragraph) o paragrafa hangi liste biçimlendirmesinin ve liste düzeyinin uygulanacağını belirtir .
+[`ListFormat`](./listformat/) bir[`Paragraph`](../../aspose.words/paragraph/) o paragrafa hangi liste biçimlendirmesinin ve liste düzeyinin uygulanacağını belirtir .
 
-[`ListFormat`](../listformat) bir[`Style`](../../aspose.words/style)(applicable yalnızca paragraf stillerine), o belirli stilin tüm paragraflarına hangi liste biçimlendirmesinin ve list level uygulanacağını belirtmeye olanak tanır.
+[`ListFormat`](./listformat/) bir[`Style`](../../aspose.words/style/)(applicable yalnızca paragraf stillerine), o belirli stilin tüm paragraflarına hangi liste biçimlendirmesinin ve list level uygulanacağını belirtmeye olanak tanır.
 
-[`ListFormat`](../listformat) bir[`DocumentBuilder`](../../aspose.words/documentbuilder) , içindeki geçerli imleç konumunda liste biçimlendirmesine erişim sağlar.[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](./listformat/) bir[`DocumentBuilder`](../../aspose.words/documentbuilder/) , içindeki geçerli imleç konumunda liste biçimlendirmesine erişim sağlar.[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-Liste biçimlendirmenin kendisi bir[`List`](../list) Paragraflardan ayrı olarak depolanan nesnesi. object listesi, bir[`ListCollection`](../listcollection) Toplamak. tek bir var[`ListCollection`](../listcollection) başına toplama[`Document`](../../aspose.words/document).
+Liste biçimlendirmenin kendisi bir[`List`](../list/) Paragraflardan ayrı olarak depolanan nesnesi. object listesi, bir[`ListCollection`](../listcollection/) Toplamak. tek bir var[`ListCollection`](../listcollection/) başına toplama[`Document`](../../aspose.words/document/).
 
-Paragraflar fiziksel olarak bir listeye ait değildir. just paragrafları, belirli bir liste nesnesine şu şekilde başvurur:[`List`](./list) property ve listedeki belirli bir seviye aracılığıyla[`ListLevelNumber`](./listlevelnumber) property. Bu iki özelliği ayarlayarak, bir paragrafa hangi madde işaretlerinin ve numaralandırmanın uygulanacağını kontrol edersiniz.
+Paragraflar fiziksel olarak bir listeye ait değildir. just paragrafları, belirli bir liste nesnesine şu şekilde başvurur:[`List`](./list/) property ve listedeki belirli bir seviye aracılığıyla[`ListLevelNumber`](./listlevelnumber/) property. Bu iki özelliği ayarlayarak, bir paragrafa hangi madde işaretlerinin ve numaralandırmanın uygulanacağını kontrol edersiniz.
 
 ### Örnekler
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Lists](../../aspose.words.lists)
+* ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

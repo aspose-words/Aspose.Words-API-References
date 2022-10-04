@@ -18,32 +18,32 @@ public class ChartAxis
 
 | İsim | Tanım |
 | --- | --- |
-| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories) { get; set; } | Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar. |
-| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar. |
-| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype) { get; set; } | Kategori ekseninin türünü alır veya ayarlar. |
-| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses) { get; set; } | Bu eksenin dikey ekseni nasıl geçtiğini belirtir. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Eksenin dikey eksende kesiştiği yeri belirtir. |
-| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Değer ekseni için görüntüleme birimlerinin ölçekleme değerini belirtir. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document) { get; } | Başlık sahibinin ait olduğu Belgeyi döndürür. |
-| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden) { get; set; } | Bu eksenin gizli olup olmadığını gösteren bir bayrak alır veya ayarlar. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Ana onay işaretlerini döndürür veya ayarlar. |
-| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit) { get; set; } | Ana onay işaretleri arasındaki mesafeyi döndürür veya ayarlar. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Ana onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Eksen için küçük onay işaretlerini döndürür veya ayarlar. |
-| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit) { get; set; } | Küçük onay işaretleri arasındaki mesafeyi döndürür veya ayarlar. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Küçük onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
-| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale) { get; set; } | Zaman kategorisi eksenindeki küçük onay işaretleri için ölçek değerini döndürür veya ayarlar. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Bir döndürür[`ChartNumberFormat`](../chartnumberformat) eksen için sayı biçimlerinin tanımlanmasına izin veren nesne. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Eksen değerlerinin ters sırada görüntülenip görüntülenmeyeceğini belirten bir bayrak döndürür veya ayarlar, yani maks'tan min'e. |
-| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Eksenin ölçekleme seçeneklerine erişim sağlar. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment) { get; set; } | Eksen onay etiketlerinin metin hizalamasını alır veya ayarlar. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | Etiketlerin eksenden uzaklığını alır veya ayarlar. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Eksen üzerindeki onay etiketlerinin konumunu döndürür veya ayarlar. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Onay etiketlerinin çizildiği aralığı alır veya ayarlar. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | Onay etiketlerinin otomatik çizim aralığının kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Onay işaretlerinin çizildiği aralığı alır veya ayarlar. |
-| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Eksenin türünü döndürür. |
+| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Değer ekseninin kategoriler arasında kategori eksenini geçip geçmediğini gösteren bir bayrak alır veya ayarlar. |
+| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit/) { get; set; } | Zaman kategorisi ekseninde temsil edilen en küçük zaman birimini döndürür veya ayarlar. |
+| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Kategori ekseninin türünü alır veya ayarlar. |
+| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Bu eksenin dikey ekseni nasıl geçtiğini belirtir. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Eksenin dikey eksende kesiştiği yeri belirtir. |
+| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Değer ekseni için görüntüleme birimlerinin ölçekleme değerini belirtir. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Başlık sahibinin ait olduğu Belgeyi döndürür. |
+| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Bu eksenin gizli olup olmadığını gösteren bir bayrak alır veya ayarlar. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Ana onay işaretlerini döndürür veya ayarlar. |
+| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Ana onay işaretleri arasındaki mesafeyi döndürür veya ayarlar. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Ana onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Zaman kategorisi eksenindeki ana onay işaretleri için ölçek değerini döndürür veya ayarlar. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Eksen için küçük onay işaretlerini döndürür veya ayarlar. |
+| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Küçük onay işaretleri arasındaki mesafeyi döndürür veya ayarlar. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Küçük onay işaretleri arasındaki varsayılan mesafenin kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
+| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Zaman kategorisi eksenindeki küçük onay işaretleri için ölçek değerini döndürür veya ayarlar. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Bir döndürür[`ChartNumberFormat`](../chartnumberformat/) eksen için sayı biçimlerinin tanımlanmasına izin veren nesne. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Eksen değerlerinin ters sırada görüntülenip görüntülenmeyeceğini belirten bir bayrak döndürür veya ayarlar, yani maks'tan min'e. |
+| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Eksenin ölçekleme seçeneklerine erişim sağlar. |
+| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Eksen onay etiketlerinin metin hizalamasını alır veya ayarlar. |
+| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Etiketlerin eksenden uzaklığını alır veya ayarlar. |
+| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Eksen üzerindeki onay etiketlerinin konumunu döndürür veya ayarlar. |
+| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Onay etiketlerinin çizildiği aralığı alır veya ayarlar. |
+| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Onay etiketlerinin otomatik çizim aralığının kullanılıp kullanılmayacağını belirten bir bayrak alır veya ayarlar. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Onay işaretlerinin çizildiği aralığı alır veya ayarlar. |
+| [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Eksenin türünü döndürür. |
 
 ### Örnekler
 
@@ -97,7 +97,7 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* ad alanı [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

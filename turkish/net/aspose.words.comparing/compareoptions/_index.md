@@ -18,23 +18,23 @@ public class CompareOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [CompareOptions](compareoptions)() | Default_Constructor |
+| [CompareOptions](compareoptions/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity) { get; set; } | Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izlendiğini belirtir. Varsayılan değerWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges) { get; set; } | True, belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını gösterir. Varsayılan olarak karşılaştırma büyük/küçük harf duyarlıdır. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments) { get; set; } | Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar göz ardı edilmez. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid) { get; set; } | DrawingML benzersiz kimliğindeki farkın yoksayılıp yoksayılmayacağını belirtir. Varsayılan değer **yanlış** . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields) { get; set; } | Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak alanlar göz ardı edilmez. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes) { get; set; } | Dipnotlardaki ve son notlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak dipnotlar göz ardı edilmez. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting) { get; set; } | True, biçimlendirmenin yoksayıldığını gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters) { get; set; } | True, üstbilgi ve altbilgi içeriğinin yok sayıldığını belirtir. Varsayılan olarak üstbilgiler ve altbilgiler yoksayılmaz. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables) { get; set; } | Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak tablolar göz ardı edilmez. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes) { get; set; } | Metin kutularında bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez. |
-| [Target](../../aspose.words.comparing/compareoptions/target) { get; set; } | Karşılaştırma sırasında hedef olarak hangi belgenin kullanılacağını belirtir. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Değişikliklerin karaktere göre mi yoksa kelimeye göre mi izlendiğini belirtir. Varsayılan değerWordLevel . |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True, belge karşılaştırmasının büyük/küçük harfe duyarlı olmadığını gösterir. Varsayılan olarak karşılaştırma büyük/küçük harf duyarlıdır. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Yorumlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak yorumlar göz ardı edilmez. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | DrawingML benzersiz kimliğindeki farkın yoksayılıp yoksayılmayacağını belirtir. Varsayılan değer **yanlış** . |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Alanlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak alanlar göz ardı edilmez. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Dipnotlardaki ve son notlardaki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak dipnotlar göz ardı edilmez. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True, biçimlendirmenin yoksayıldığını gösterir. Varsayılan olarak belge biçimlendirmesi göz ardı edilmez. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True, üstbilgi ve altbilgi içeriğinin yok sayıldığını belirtir. Varsayılan olarak üstbilgiler ve altbilgiler yoksayılmaz. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Tablolarda bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak tablolar göz ardı edilmez. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Metin kutularında bulunan verilerdeki farklılıkların karşılaştırılıp karşılaştırılmayacağını belirtir. Varsayılan olarak metin kutuları göz ardı edilmez. |
+| [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Karşılaştırma sırasında hedef olarak hangi belgenin kullanılacağını belirtir. |
 
 ### Örnekler
 
@@ -109,7 +109,7 @@ docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Comparing](../../aspose.words.comparing)
+* ad alanı [Aspose.Words.Comparing](../../aspose.words.comparing/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

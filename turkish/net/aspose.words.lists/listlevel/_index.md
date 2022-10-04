@@ -18,36 +18,36 @@ public class ListLevel
 
 | İsim | Tanım |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | Liste öğesinin gerçek sayısının gerekçesini alır veya ayarlar. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | Bu liste düzeyi için özel sayı stili biçimini alır. Örneğin: "a, ç, ĝ, ...". |
-| [Font](../../aspose.words.lists/listlevel/font) { get; } | Liste etiketi için kullanılan karakter biçimlendirmesini belirtir. |
-| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | Geçerli liste düzeyi için resim madde işareti şeklinin resim verilerini döndürür. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | Düzey devralınan tüm sayıları Arapça'ya çevirirse doğru, sayı stilini koruyorsa yanlış. |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | Bu liste düzeyine bağlı paragraf stilini alır veya ayarlar. |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | Liste düzeyi için sayı biçimini döndürür veya ayarlar. |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | Liste düzeyi için sayı veya madde işaretinin konumunu (nokta olarak) döndürür veya ayarlar. |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | Bu liste düzeyi için sayı stilini döndürür veya ayarlar. |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | Belirtilen liste düzeyi numaralandırmayı yeniden başlatmadan önce görünmesi gereken liste düzeyini ayarlar veya döndürür. |
-| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | Bu liste düzeyi için başlangıç numarasını döndürür veya ayarlar. |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | Liste düzeyi için sekme konumunu (puan olarak) döndürür veya ayarlar. |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | Liste düzeyi için kaydırma metninin ikinci satırının konumunu (nokta olarak) döndürür veya ayarlar. |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | Liste düzeyi için sayıdan sonra eklenen karakteri döndürür veya ayarlar. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | Liste öğesinin gerçek sayısının gerekçesini alır veya ayarlar. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | Bu liste düzeyi için özel sayı stili biçimini alır. Örneğin: "a, ç, ĝ, ...". |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | Liste etiketi için kullanılan karakter biçimlendirmesini belirtir. |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | Geçerli liste düzeyi için resim madde işareti şeklinin resim verilerini döndürür. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | Düzey devralınan tüm sayıları Arapça'ya çevirirse doğru, sayı stilini koruyorsa yanlış. |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | Bu liste düzeyine bağlı paragraf stilini alır veya ayarlar. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | Liste düzeyi için sayı biçimini döndürür veya ayarlar. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | Liste düzeyi için sayı veya madde işaretinin konumunu (nokta olarak) döndürür veya ayarlar. |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | Bu liste düzeyi için sayı stilini döndürür veya ayarlar. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | Belirtilen liste düzeyi numaralandırmayı yeniden başlatmadan önce görünmesi gereken liste düzeyini ayarlar veya döndürür. |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | Bu liste düzeyi için başlangıç numarasını döndürür veya ayarlar. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | Liste düzeyi için sekme konumunu (puan olarak) döndürür veya ayarlar. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | Liste düzeyi için kaydırma metninin ikinci satırının konumunu (nokta olarak) döndürür veya ayarlar. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | Liste düzeyi için sayıdan sonra eklenen karakteri döndürür veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | Geçerli liste düzeyi için resim madde işareti şekli oluşturur. |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | Geçerli liste düzeyi için resim madde işaretini siler. |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | Belirtilen ListLevel. ile karşılaştırır |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | Bu nesne için karma kodu hesaplar. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | [`ListLevel`](../listlevel) liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle) ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi. |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | Geçerli liste düzeyi için resim madde işareti şekli oluşturur. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | Geçerli liste düzeyi için resim madde işaretini siler. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | Belirtilen ListLevel. ile karşılaştırır |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | Bu nesne için karma kodu hesaplar. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | [`ListLevel`](./listlevel/) liste öğesinin belirtilen index nesnesi. Parametreler şunları belirtir:[`NumberStyle`](../../aspose.words/numberstyle/) ve şu durumlarda kullanılan isteğe bağlı bir string biçimiCustom belirtildi. |
 
 ### Notlar
 
-Bu sınıfın nesnelerini oluşturmazsınız. Liste düzeyi nesneleri, bir liste oluşturulduğunda otomatik olarak oluşturulur. erişirsiniz[`ListLevel`](../listlevel) the aracılığıyla nesneler[`ListLevelCollection`](../listlevelcollection) Toplamak.
+Bu sınıfın nesnelerini oluşturmazsınız. Liste düzeyi nesneleri, bir liste oluşturulduğunda otomatik olarak oluşturulur. erişirsiniz[`ListLevel`](./listlevel/) the aracılığıyla nesneler[`ListLevelCollection`](../listlevelcollection/) Toplamak.
 
-özelliklerini kullanın[`ListLevel`](../listlevel) tek tek liste düzeyleri için liste biçimlendirme belirtmek için.
+özelliklerini kullanın[`ListLevel`](./listlevel/) tek tek liste düzeyleri için liste biçimlendirme belirtmek için.
 
 ### Örnekler
 
@@ -107,7 +107,7 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Lists](../../aspose.words.lists)
+* ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

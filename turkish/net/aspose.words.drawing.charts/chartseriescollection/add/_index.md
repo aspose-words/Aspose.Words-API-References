@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Referansı
-description: Yeni eklerChartSeriesaspose.words.drawing.charts/chartseriesbu koleksiyona. Herhangi bir Çubuk Sütun Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
+description: Yeni eklerChartSeriesaspose.words.drawing.charts/chartseries/bu koleksiyona. Herhangi bir Çubuk Sütun Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Yeni ekler[`ChartSeries`](../../chartseries)bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
+Yeni ekler[`ChartSeries`](../../chartseries/)bu koleksiyona. Herhangi bir Çubuk, Sütun, Çizgi ve Yüzey grafiğine seri eklemek için bu yöntemi kullanın.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,7 +16,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### Geri dönüş değeri
 
-Son eklenen[`ChartSeries`](../../chartseries) nesne.
+Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
 ### Örnekler
 
@@ -105,16 +105,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Ayrıca bakınız
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[]) {#add}
 
-Yeni ekler[`ChartSeries`](../../chartseries) bu koleksiyona. Her tür Dağılım grafiğine seri eklemek için bu yöntemi kullanın.
+Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Her tür Dağılım grafiğine seri eklemek için bu yöntemi kullanın.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,7 +122,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### Geri dönüş değeri
 
-Son eklenen[`ChartSeries`](../../chartseries) nesne.
+Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
 ### Örnekler
 
@@ -211,16 +211,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Ayrıca bakınız
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-Yeni ekler[`ChartSeries`](../../chartseries) bu koleksiyona. Her tür Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın.
+Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Her tür Alan, Radar ve Hisse senedi grafiğine seri eklemek için bu yöntemi kullanın.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -313,16 +313,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Ayrıca bakınız
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Yeni ekler[`ChartSeries`](../../chartseries) bu koleksiyona. Herhangi bir Bubble grafiği türüne seri eklemek için bu yöntemi kullanın.
+Yeni ekler[`ChartSeries`](../../chartseries/) bu koleksiyona. Herhangi bir Bubble grafiği türüne seri eklemek için bu yöntemi kullanın.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,7 +330,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### Geri dönüş değeri
 
-Son eklenen[`ChartSeries`](../../chartseries) nesne.
+Son eklenen[`ChartSeries`](../../chartseries/) nesne.
 
 ### Örnekler
 
@@ -419,9 +419,9 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Ayrıca bakınız
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* ad alanı [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * toplantı [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

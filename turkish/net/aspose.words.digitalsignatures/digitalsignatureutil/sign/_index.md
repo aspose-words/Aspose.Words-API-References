@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Aspose.Words for .NET API Referansı
-description: Verilenleri kullanarak kaynak belgeyi imzalarCertificateHolderaspose.words.digitalsignatures/certificateholder veSignOptionsaspose.words.digitalsignatures/signoptions dijital imzalı ve imzalı belgeyi hedef akışa yazar.
+description: Verilenleri kullanarak kaynak belgeyi imzalarCertificateHolderaspose.words.digitalsignatures/certificateholder/ veSignOptionsaspose.words.digitalsignatures/signoptions/ dijital imzalı ve imzalı belgeyi hedef akışa yazar.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder) ve[`SignOptions`](../../signoptions) dijital imzalı ve imzalı belgeyi hedef akışa yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) ve[`SignOptions`](../../signoptions/) dijital imzalı ve imzalı belgeyi hedef akışa yazar.
 
 Belge ya olmalıdırDoc veyaDocx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | İmzalanacak belgeyi içeren akış. |
 | dstStream | Stream | Belgenin imzalandığı akışa yazılacak. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) çeşitli imzalama seçenekleriyle nesne. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçenekleriyle nesne. |
 
 ### Örnekler
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### Ayrıca bakınız
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder) ve[`SignOptions`](../../signoptions) dijital imzalı ve imzalı belgeyi hedef dosyaya yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) ve[`SignOptions`](../../signoptions/) dijital imzalı ve imzalı belgeyi hedef dosyaya yazar.
 
 Belge ya olmalıdırDoc veyaDocx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | İmzalanacak belgenin dosya adı. |
 | dstFileName | String | İmzalı belge çıktısının dosya adı. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) çeşitli imzalama seçenekleriyle nesne. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) çeşitli imzalama seçenekleriyle nesne. |
 
 ### Örnekler
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### Ayrıca bakınız
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder)dijital imza ile ve imzalı belgeyi hedef akışa yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/)dijital imza ile ve imzalı belgeyi hedef akışa yazar.
 
 Belge ya olmalıdırDoc veyaDocx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | İmzalanacak belgeyi içeren akış. |
 | dstStream | Stream | Belgenin imzalandığı akışa yazılacak. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
 
 ### Örnekler
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Ayrıca bakınız
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * toplantı [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder) dijital imza ile ve imzalı belgeyi hedef dosyaya yazar.
+Verilenleri kullanarak kaynak belgeyi imzalar[`CertificateHolder`](../../certificateholder/) dijital imza ile ve imzalı belgeyi hedef dosyaya yazar.
 
 Belge ya olmalıdırDoc veyaDocx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | İmzalanacak belgenin dosya adı. |
 | dstFileName | String | İmzalı belge çıktısının dosya adı. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) dosya imzalamak için kullanılan sertifikaya sahip nesne. Sahibindeki sertifikanın özel anahtarlar içermesi ve X509KeyStorageFlags.Exportable bayrağının ayarlanmış olması ZORUNLUDUR. |
 
 ### Örnekler
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Ayrıca bakınız
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* ad alanı [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * toplantı [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

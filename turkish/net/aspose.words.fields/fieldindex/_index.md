@@ -18,49 +18,49 @@ public class FieldIndex : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldIndex](fieldindex)() | Default_Constructor |
+| [FieldIndex](fieldindex/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname) { get; set; } | Belgenin dizini oluşturmak için kullanılan bölümünü işaretleyen yer iminin adını alır veya ayarlar. |
-| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | Çapraz referansları ve diğer girdileri ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
-| [End](../../aspose.words.fields/field/end) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | Dizini oluşturmak için kullanılan bir dizin girişi türünü alır veya ayarlar. |
-| [Format](../../aspose.words.fields/field/format) { get; } | [`FieldFormat`](../fieldformat) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
-| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | Alan kodu üzerinden bir sayfa numarası ayırıcısının geçersiz kılınıp kılınmadığını gösteren bir değer alır. |
-| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | Alanın sonucu oluşturulurken bir dizinin kullanılması gerekip gerekmediğini gösteren bir değer alır. |
-| [Heading](../../aspose.words.fields/fieldindex/heading) { get; set; } | Herhangi bir harf için her giriş kümesinin başında görünen bir başlık alır veya ayarlar. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
-| [LanguageId](../../aspose.words.fields/fieldindex/languageid) { get; set; } | Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar. |
-| [LetterRange](../../aspose.words.fields/fieldindex/letterrange) { get; set; } | Dizini sınırlayan bir harf aralığı alır veya ayarlar. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
-| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns) { get; set; } | Dizini oluştururken kullanılan sayfa başına sütun sayısını alır veya ayarlar. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator) { get; set; } | Bir sayfa numarası listesindeki iki sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
-| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator) { get; set; } | Bir dizin girişi ile sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator) { get; set; } | Bir sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline) { get; set; } | Alt girdilerin ana girdiyle aynı satırda çalıştırılıp çalıştırılmayacağını alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
-| [SequenceName](../../aspose.words.fields/fieldindex/sequencename) { get; set; } | Numarası sayfa numarasına dahil olan bir dizinin adını alır veya ayarlar. |
-| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator) { get; set; } | Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Microsoft Word alan türünü alır. |
-| [UseYomi](../../aspose.words.fields/fieldindex/useyomi) { get; set; } | Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar. |
+| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname/) { get; set; } | Belgenin dizini oluşturmak için kullanılan bölümünü işaretleyen yer iminin adını alır veya ayarlar. |
+| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator/) { get; set; } | Çapraz referansları ve diğer girdileri ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype/) { get; set; } | Dizini oluşturmak için kullanılan bir dizin girişi türünü alır veya ayarlar. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | [`FieldFormat`](../fieldformat/) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
+| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator/) { get; } | Alan kodu üzerinden bir sayfa numarası ayırıcısının geçersiz kılınıp kılınmadığını gösteren bir değer alır. |
+| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename/) { get; } | Alanın sonucu oluşturulurken bir dizinin kullanılması gerekip gerekmediğini gösteren bir değer alır. |
+| [Heading](../../aspose.words.fields/fieldindex/heading/) { get; set; } | Herhangi bir harf için her giriş kümesinin başında görünen bir başlık alır veya ayarlar. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
+| [LanguageId](../../aspose.words.fields/fieldindex/languageid/) { get; set; } | Dizini oluşturmak için kullanılan dil kimliğini alır veya ayarlar. |
+| [LetterRange](../../aspose.words.fields/fieldindex/letterrange/) { get; set; } | Dizini sınırlayan bir harf aralığı alır veya ayarlar. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
+| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns/) { get; set; } | Dizini oluştururken kullanılan sayfa başına sütun sayısını alır veya ayarlar. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator/) { get; set; } | Bir sayfa numarası listesindeki iki sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
+| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator/) { get; set; } | Bir dizin girişi ile sayfa numarasını ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | Bir sayfa aralığının başlangıcını ve sonunu ayırmak için kullanılan karakter dizisini alır veya ayarlar. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | Alt girdilerin ana girdiyle aynı satırda çalıştırılıp çalıştırılmayacağını alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
+| [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | Numarası sayfa numarasına dahil olan bir dizinin adını alır veya ayarlar. |
+| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | Sıra numaralarını ve sayfa numaralarını ayırmak için kullanılan karakter sırasını alır veya ayarlar. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
+| [UseYomi](../../aspose.words.fields/fieldindex/useyomi/) { get; set; } | Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Bağlantıyı kaldır alanını gerçekleştirir. |
-| [Update](../../aspose.words.fields/field/update)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Bağlantıyı kaldır alanını gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
 ### Notlar
 
@@ -189,8 +189,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### Ayrıca bakınız
 
-* class [Field](../field)
-* ad alanı [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,29 +18,29 @@ public class BarcodeParameters
 
 | İsim | Tanım |
 | --- | --- |
-| [BarcodeParameters](barcodeparameters)() | Default_Constructor |
+| [BarcodeParameters](barcodeparameters/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | NW7 ve CODE39. barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceği |
-| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | Barkod arka plan rengi (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | Barkod türü. |
-| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | Kodlanacak veriler. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Barkod tipi ITF14 için Vaka Kodunun Stili. Geçerli değerler: [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | Resimle birlikte barkod verilerinin (metin) gösterilip gösterilmeyeceği. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | QR Kodunun hata düzeltme düzeyi. Geçerli değerler [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Karşılıklı Tanımlama İşareti (FIM) Türü. |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği. |
-| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | Barkod ön plan rengi (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | İster[`PostalAddress`](./postaladdress) bir yer iminin adıdır. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | İster[`PostalAddress`](./postaladdress) ABD posta adresidir. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değildir) [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | Barkod posta adresi. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Sembol için ölçeklendirme faktörü. Değer tam yüzde puanlarındadır ve geçerli değerler [10, 1000]. |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Barkod görüntü yüksekliği (iki kez - 1/1440 inç) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Barkod sembolünün dönüşü. Geçerli değerler [0, 3]. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | NW7 ve CODE39. barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceği |
+| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Barkod arka plan rengi (0x000000 - 0xFFFFFF) |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Barkod türü. |
+| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Kodlanacak veriler. |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Barkod tipi ITF14 için Vaka Kodunun Stili. Geçerli değerler: [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Resimle birlikte barkod verilerinin (metin) gösterilip gösterilmeyeceği. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | QR Kodunun hata düzeltme düzeyi. Geçerli değerler [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Karşılıklı Tanımlama İşareti (FIM) Türü. |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği. |
+| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Barkod ön plan rengi (0x000000 - 0xFFFFFF) |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | İster[`PostalAddress`](./postaladdress/) bir yer iminin adıdır. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | İster[`PostalAddress`](./postaladdress/) ABD posta adresidir. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değildir) [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Barkod posta adresi. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Sembol için ölçeklendirme faktörü. Değer tam yüzde puanlarındadır ve geçerli değerler [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Barkod görüntü yüksekliği (iki kez - 1/1440 inç) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Barkod sembolünün dönüşü. Geçerli değerler [0, 3]. |
 
 ### Notlar
 
@@ -122,7 +122,7 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Fields](../../aspose.words.fields)
+* ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

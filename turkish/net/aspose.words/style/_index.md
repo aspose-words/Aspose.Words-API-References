@@ -18,29 +18,29 @@ public class Style
 
 | İsim | Tanım |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases) { get; } | Bu stilin tüm diğer adlarını alır. Stilin takma adı yoksa, boş dize dizisi döndürülür. |
-| [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | Bu stilin dayandığı stilin adını alır/ayarlar. |
-| [BuiltIn](../../aspose.words/style/builtin) { get; } | Bu stil MS Word'deki yerleşik stillerden biriyse doğrudur. |
-| [Document](../../aspose.words/style/document) { get; } | Sahip belgesini alır. |
-| [Font](../../aspose.words/style/font) { get; } | Stilin karakter biçimlendirmesini alır. |
-| [IsHeading](../../aspose.words/style/isheading) { get; } | Stil, yerleşik Başlık stillerinden biri olduğunda doğrudur. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Bu stilin MS Word UI içindeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Buna bağlı Stilin adını alır. Hiçbir stil bağlı değilse Boş dize döndürür. |
-| [List](../../aspose.words/style/list) { get; } | Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır. |
-| [ListFormat](../../aspose.words/style/listformat) { get; } | Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar. |
-| [Name](../../aspose.words/style/name) { get; set; } | Stilin adını alır veya ayarlar. |
-| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | Stilin paragraf biçimlendirmesini alır. |
-| [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını alır. |
-| [Styles](../../aspose.words/style/styles) { get; } | Bu stilin ait olduğu stiller koleksiyonunu alır. |
-| [Type](../../aspose.words/style/type) { get; } | Stil türünü (paragraf veya karakter) alır. |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | Bu stilin tüm diğer adlarını alır. Stilin takma adı yoksa, boş dize dizisi döndürülür. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Bu stilin dayandığı stilin adını alır/ayarlar. |
+| [BuiltIn](../../aspose.words/style/builtin/) { get; } | Bu stil MS Word'deki yerleşik stillerden biriyse doğrudur. |
+| [Document](../../aspose.words/style/document/) { get; } | Sahip belgesini alır. |
+| [Font](../../aspose.words/style/font/) { get; } | Stilin karakter biçimlendirmesini alır. |
+| [IsHeading](../../aspose.words/style/isheading/) { get; } | Stil, yerleşik Başlık stillerinden biri olduğunda doğrudur. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Bu stilin MS Word UI içindeki Hızlı Stil galerisinde gösterilip gösterilmeyeceğini belirtir. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Buna bağlı Stilin adını alır. Hiçbir stil bağlı değilse Boş dize döndürür. |
+| [List](../../aspose.words/style/list/) { get; } | Bu liste stilinin biçimlendirmesini tanımlayan listeyi alır. |
+| [ListFormat](../../aspose.words/style/listformat/) { get; } | Paragraf stilinin liste biçimlendirme özelliklerine erişim sağlar. |
+| [Name](../../aspose.words/style/name/) { get; set; } | Stilin adını alır veya ayarlar. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Stilin paragraf biçimlendirmesini alır. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Yerleşik bir stil için yerel ayardan bağımsız stil tanımlayıcısını alır. |
+| [Styles](../../aspose.words/style/styles/) { get; } | Bu stilin ait olduğu stiller koleksiyonunu alır. |
+| [Type](../../aspose.words/style/type/) { get; } | Stil türünü (paragraf veya karakter) alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | Belirtilen stille karşılaştırır. Stiller İstd'ler yalnızca yerleşik stiller için karşılaştırılır. Stil varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
-| [Remove](../../aspose.words/style/remove)() | Belirtilen stili belgeden kaldırır. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Belirtilen stille karşılaştırır. Stiller İstd'ler yalnızca yerleşik stiller için karşılaştırılır. Stil varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır. |
+| [Remove](../../aspose.words/style/remove/)() | Belirtilen stili belgeden kaldırır. |
 
 ### Örnekler
 
@@ -105,7 +105,7 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words](../../aspose.words)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Yazılı erişim sağlarHeaderFooter./headerfooter düğümler Bölüm .
+description: Yazılı erişim sağlarHeaderFooter./headerfooter/ düğümler Bölüm .
 type: docs
 weight: 2930
 url: /tr/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Yazılı erişim sağlar[`HeaderFooter`](../headerfooter) düğümler **Bölüm** .
+Yazılı erişim sağlar[`HeaderFooter`](../headerfooter/) düğümler **Bölüm** .
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -18,30 +18,30 @@ public class HeaderFooterCollection : NodeCollection
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words/headerfootercollection/item) { get; } | Bir **Üstbilgi Altbilgi** verilen dizinde. (3 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Bir **Üstbilgi Altbilgi** verilen dizinde. (3 indexers) |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
-| [Contains](../../aspose.words/nodecollection/contains)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
-| [IndexOf](../../aspose.words/nodecollection/indexof)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious_1)(bool) | Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgi ve altbilgilere bağlar veya bağlantısını kaldırır. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious#linktoprevious)(HeaderFooterType, bool) | Belirtilen üstbilgi veya altbilgiyi önceki bölümdeki karşılık gelen üstbilgi veya altbilgiye bağlar veya bağlantısını kaldırır. |
-| [Remove](../../aspose.words/nodecollection/remove)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray#toarray)() | Tümünü kopyalar`ÜstbilgiAltbilgi` koleksiyondan yeni bir diziye s`ÜstbilgiAltbilgi` s. (2 methods) |
+| [Add](../../aspose.words/nodecollection/add/)(Node) | Koleksiyonun sonuna bir düğüm ekler. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondaki ve belgedeki tüm düğümleri kaldırır. |
+| [Contains](../../aspose.words/nodecollection/contains/)(Node) | Koleksiyonda bir düğüm olup olmadığını belirler. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" stili yineleme sağlar. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(Node) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
+| [Insert](../../aspose.words/nodecollection/insert/)(int, Node) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(bool) | Tüm üstbilgileri ve altbilgileri önceki bölümdeki karşılık gelen üstbilgi ve altbilgilere bağlar veya bağlantısını kaldırır. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(HeaderFooterType, bool) | Belirtilen üstbilgi veya altbilgiyi önceki bölümdeki karşılık gelen üstbilgi veya altbilgiye bağlar veya bağlantısını kaldırır. |
+| [Remove](../../aspose.words/nodecollection/remove/)(Node) | Düğümü koleksiyondan ve belgeden kaldırır. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(int) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Tümünü kopyalar`ÜstbilgiAltbilgi` koleksiyondan yeni bir diziye s`ÜstbilgiAltbilgi` s. (2 methods) |
 
 ### Notlar
 
 En fazla bir tane olabilir **Üstbilgi Altbilgi**
 
-her biri için[`HeaderFooterType`](../headerfootertype) per  **Bölüm** .
+her biri için[`HeaderFooterType`](../headerfootertype/) per  **Bölüm** .
 
 **Üstbilgi Altbilgi** nesneler koleksiyondaki herhangi bir sırada oluşabilir.
 
@@ -108,8 +108,8 @@ doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 
 ### Ayrıca bakınız
 
-* class [NodeCollection](../nodecollection)
-* ad alanı [Aspose.Words](../../aspose.words)
+* class [NodeCollection](../nodecollection/)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

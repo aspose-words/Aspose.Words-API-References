@@ -18,43 +18,43 @@ public class FieldCitation : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldCitation](fieldcitation)() | Default_Constructor |
+| [FieldCitation](fieldcitation/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | Değeri hesaplayan bir değer alır veya ayarlar. **Etiket** öğenin alıntıya dahil edilecek başka bir kaynağın değeri. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
-| [End](../../aspose.words.fields/field/end) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format) { get; } | [`FieldFormat`](../fieldformat) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
-| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | Belgedeki alıntıyı biçimlendirmek için belirtilen bibliyografik stille birlikte kullanılan dil kimliğini alır veya ayarlar. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
-| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | Alıntıyla ilişkili bir sayfa numarası alır veya ayarlar. |
-| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | Alıntının başına eklenen bir önek alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | Değeri hesaplayan bir değer alır veya ayarlar. **Etiket**eklenecek kaynağın öğe değeri. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
-| [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | Alıntıya eklenen bir son ek alır veya ayarlar. |
-| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | Yazar bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar. |
-| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle) { get; set; } | Başlık bilgisinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar. |
-| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | Alıntıdan yıl bilgisinin gizlenip gizlenmeyeceğini alır veya ayarlar. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Microsoft Word alan türünü alır. |
-| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | Alıntıyla ilişkili cilt numarasını alır veya ayarlar. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Değeri hesaplayan bir değer alır veya ayarlar. **Etiket** öğenin alıntıya dahil edilecek başka bir kaynağın değeri. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | [`FieldFormat`](../fieldformat/) alanın biçimlendirmesine yazılı erişim sağlayan nesne. |
+| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid/) { get; set; } | Belgedeki alıntıyı biçimlendirmek için belirtilen bibliyografik stille birlikte kullanılan dil kimliğini alır veya ayarlar. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
+| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Alıntıyla ilişkili bir sayfa numarası alır veya ayarlar. |
+| [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Alıntının başına eklenen bir önek alır veya ayarlar. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. null. olabilir |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Değeri hesaplayan bir değer alır veya ayarlar. **Etiket**eklenecek kaynağın öğe değeri. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
+| [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Alıntıya eklenen bir son ek alır veya ayarlar. |
+| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Yazar bilgilerinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar. |
+| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle/) { get; set; } | Başlık bilgisinin alıntıdan gizlenip gizlenmeyeceğini alır veya ayarlar. |
+| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear/) { get; set; } | Alıntıdan yıl bilgisinin gizlenip gizlenmeyeceğini alır veya ayarlar. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
+| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber/) { get; set; } | Alıntıyla ilişkili cilt numarasını alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Bağlantıyı kaldır alanını gerçekleştirir. |
-| [Update](../../aspose.words.fields/field/update)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alandan hemen sonra bir düğüm döndürür. Alanın sonu, üst düğümünün son çocuğu ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa, döner **hükümsüz** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Bağlantıyı kaldır alanını gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
 
 ### Notlar
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 
 ### Ayrıca bakınız
 
-* class [Field](../field)
-* ad alanı [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* ad alanı [Aspose.Words.Fields](../../aspose.words.fields/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

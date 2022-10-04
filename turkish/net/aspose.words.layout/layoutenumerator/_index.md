@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Referansı
-description: Bir belgenin sayfa yerleşimi varlıklarını numaralandırır. Sayfa yerleşimi modelinde gezinmek için bu sınıfı kullanabilirsiniz. Mevcut özellikler varlığın oluşturulduğu tür geometri metin ve sayfa dizinidir ve ayrıca genel yapı ve ilişkiler. Şunların kombinasyonunu kullanınGetEntity./layoutcollector/getentity veCurrent./layoutenumerator/current bir belge düğümüne karşılık gelen varlığa taşıyın.
+description: Bir belgenin sayfa yerleşimi varlıklarını numaralandırır. Sayfa yerleşimi modelinde gezinmek için bu sınıfı kullanabilirsiniz. Mevcut özellikler varlığın oluşturulduğu tür geometri metin ve sayfa dizinidir ve ayrıca genel yapı ve ilişkiler. Şunların kombinasyonunu kullanınGetEntity./layoutcollector/getentity/ veCurrent./layoutenumerator/current/ bir belge düğümüne karşılık gelen varlığa taşıyın.
 type: docs
 weight: 3140
 url: /tr/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
-Bir belgenin sayfa yerleşimi varlıklarını numaralandırır. Sayfa yerleşimi modelinde gezinmek için bu sınıfı kullanabilirsiniz. Mevcut özellikler, varlığın oluşturulduğu tür, geometri, metin ve sayfa dizinidir, ve ayrıca genel yapı ve ilişkiler. Şunların kombinasyonunu kullanın[`GetEntity`](../layoutcollector/getentity) ve[`Current`](./current) bir belge düğümüne karşılık gelen varlığa taşıyın.
+Bir belgenin sayfa yerleşimi varlıklarını numaralandırır. Sayfa yerleşimi modelinde gezinmek için bu sınıfı kullanabilirsiniz. Mevcut özellikler, varlığın oluşturulduğu tür, geometri, metin ve sayfa dizinidir, ve ayrıca genel yapı ve ilişkiler. Şunların kombinasyonunu kullanın[`GetEntity`](../layoutcollector/getentity/) ve[`Current`](./current/) bir belge düğümüne karşılık gelen varlığa taşıyın.
 
 ```csharp
 public class LayoutEnumerator
@@ -18,33 +18,33 @@ public class LayoutEnumerator
 
 | İsim | Tanım |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | Bu sınıfın yeni örneğini başlatır. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | Bu sınıfın yeni örneğini başlatır. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | Sayfa düzeni modelindeki geçerli konumu alır veya ayarlar. Bu özellik, geçerli düzen varlığına karşılık gelen opak bir nesne döndürür. |
-| [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | Bu örneğin numaralandırıldığı belgeyi alır. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | Geçerli varlığın türünü alır. Bu boş bir dize olabilir ama asla null. |
-| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | Geçerli varlığı içeren bir sayfanın 1 tabanlı dizinini alır. |
-| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | Sayfanın sol üst köşesine göre geçerli varlığın sınırlayıcı dikdörtgenini döndürür (nokta olarak). |
-| [Text](../../aspose.words.layout/layoutenumerator/text) { get; } | Geçerli yayılma varlığının metnini alır. Diğer varlık türleri için atar. |
-| [Type](../../aspose.words.layout/layoutenumerator/type) { get; } | Geçerli varlığın türünü alır. |
+| [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Sayfa düzeni modelindeki geçerli konumu alır veya ayarlar. Bu özellik, geçerli düzen varlığına karşılık gelen opak bir nesne döndürür. |
+| [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Bu örneğin numaralandırıldığı belgeyi alır. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Geçerli varlığın türünü alır. Bu boş bir dize olabilir ama asla null. |
+| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Geçerli varlığı içeren bir sayfanın 1 tabanlı dizinini alır. |
+| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Sayfanın sol üst köşesine göre geçerli varlığın sınırlayıcı dikdörtgenini döndürür (nokta olarak). |
+| [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Geçerli yayılma varlığının metnini alır. Diğer varlık türleri için atar. |
+| [Type](../../aspose.words.layout/layoutenumerator/type/) { get; } | Geçerli varlığın türünü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild)() | İlk alt varlığa gider. |
-| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | Son alt varlığa gider. |
-| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | Görsel sırayla sonraki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method sonraki sayfaya değil, aynı sayfadaki sonraki varlığa taşınır. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | Mantıksal bir sırayla sonraki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method başka bir sayfada bulunsa bile bir sonraki satıra taşınır. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | Üst varlığa gider. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | Belirtilen türün üst varlığına gider. |
-| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | Önceki kardeş varlığa gider. |
-| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method başka bir sayfada bulunsa bile önceki satıra taşınır. |
-| [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Numaralandırıcıyı belgenin ilk sayfasına taşır. |
+| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | İlk alt varlığa gider. |
+| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | Son alt varlığa gider. |
+| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Görsel sırayla sonraki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method sonraki sayfaya değil, aynı sayfadaki sonraki varlığa taşınır. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Mantıksal bir sırayla sonraki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method başka bir sayfada bulunsa bile bir sonraki satıra taşınır. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Üst varlığa gider. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Belirtilen türün üst varlığına gider. |
+| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Önceki kardeş varlığa gider. |
+| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Mantıksal bir sırayla önceki kardeş varlığa gider. Sayfalar arasında bölünmüş bir paragrafın satırlarını yinelerken bu method başka bir sayfada bulunsa bile önceki satıra taşınır. |
+| [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Numaralandırıcıyı belgenin ilk sayfasına taşır. |
 
 ### Örnekler
 
@@ -190,7 +190,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Layout](../../aspose.words.layout)
+* ad alanı [Aspose.Words.Layout](../../aspose.words.layout/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

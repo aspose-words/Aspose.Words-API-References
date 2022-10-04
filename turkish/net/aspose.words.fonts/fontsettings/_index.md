@@ -18,33 +18,33 @@ public class FontSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [FontSettings](fontsettings)() | Default_Constructor |
+| [FontSettings](fontsettings/)() | Default_Constructor |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | Statik varsayılan yazı tipi ayarları. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Statik varsayılan yazı tipi ayarları. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Yazı tipi değiştirme mekanizmasıyla ilgili ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakların listesini içeren dizinin bir kopyasını alır. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | Yazı tipi kaynaklarını sistem varsayılanına sıfırlar. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Yazı tipi arama önbelleğini akışa kaydeder. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. [`SetFontsFolders`](./setfontsfolders) yalnızca bir yazı tipi dizini ayarlamak için. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörleri ayarlar. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakları ayarlar ve ek olarak önceden kaydedilmiş yazı tipi arama önbelleğini yükler. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakların listesini içeren dizinin bir kopyasını alır. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Yazı tipi kaynaklarını sistem varsayılanına sıfırlar. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Yazı tipi arama önbelleğini akışa kaydeder. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörü ayarlar. [`SetFontsFolders`](./setfontsfolders/) yalnızca bir yazı tipi dizini ayarlamak için. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı klasörleri ayarlar. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Aspose.Words'ün belgeleri oluştururken veya yazı tiplerini gömerken TrueType yazı tiplerini aradığı kaynakları ayarlar. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Aspose.Words'ün TrueType yazı tiplerini aradığı kaynakları ayarlar ve ek olarak önceden kaydedilmiş yazı tipi arama önbelleğini yükler. |
 
 ### Notlar
 
-Aspose.Words, belgedeki yazı tiplerini çözmek için yazı tipi ayarlarını kullanır. Yazı tipleri çoğunlukla belge layout oluştururken veya sabit sayfa biçimlerine dönüştürülürken çözülür. Ancak bazı formatlar yüklenirken Aspose.Words ayrıca yazı tiplerini çözmeyi gerektirebilir. Örneğin, Aspose.Words HTML belgeleri yüklediğinde, zaman font yedeği gerçekleştirmek için fontları çözebilir. Bu nedenle, in yazı tipi ayarlarını yapmanız önerilir.[`LoadOptions`](../../aspose.words.loading/loadoptions) belgeyi yüklerken. Veya en azından düzeni oluşturmadan veya belgeyi sabit sayfa formatına dönüştürmeden önce.
+Aspose.Words, belgedeki yazı tiplerini çözmek için yazı tipi ayarlarını kullanır. Yazı tipleri çoğunlukla belge layout oluştururken veya sabit sayfa biçimlerine dönüştürülürken çözülür. Ancak bazı formatlar yüklenirken Aspose.Words ayrıca yazı tiplerini çözmeyi gerektirebilir. Örneğin, Aspose.Words HTML belgeleri yüklediğinde, zaman font yedeği gerçekleştirmek için fontları çözebilir. Bu nedenle, in yazı tipi ayarlarını yapmanız önerilir.[`LoadOptions`](../../aspose.words.loading/loadoptions/) belgeyi yüklerken. Veya en azından düzeni oluşturmadan veya belgeyi sabit sayfa formatına dönüştürmeden önce.
 
-Varsayılan olarak tüm belgeler tek bir statik yazı tipi ayarları örneğini kullanır. tarafından erişilebilir[`DefaultInstance`](./defaultinstance) Emlak.
+Varsayılan olarak tüm belgeler tek bir statik yazı tipi ayarları örneğini kullanır. tarafından erişilebilir[`DefaultInstance`](./defaultinstance/) Emlak.
 
 Yazı tipi ayarlarını değiştirmek, herhangi bir diziden herhangi bir zamanda güvenlidir. Ancak bu ayarları kullanan bazı belgeleri işlerken yazı tipi ayarlarını değiştirmemeniz önerilir. Bu, aynı yazı tipinin belgenin farklı bölümlerinde farklı şekilde çözümlenmesine neden olabilir.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts)
+* ad alanı [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
