@@ -18,30 +18,30 @@ public class Stroke
 
 | Nombre | Descripción |
 | --- | --- |
-| [BackColor](../../aspose.words.drawing/stroke/backcolor) { get; set; } | Obtiene o establece el color de fondo del trazo. |
-| [Color](../../aspose.words.drawing/stroke/color) { get; set; } | Define el color de un trazo. |
-| [Color2](../../aspose.words.drawing/stroke/color2) { get; set; } | Define un segundo color para un trazo. |
-| [DashStyle](../../aspose.words.drawing/stroke/dashstyle) { get; set; } | Especifica el patrón de puntos y rayas para un trazo. |
-| [EndArrowLength](../../aspose.words.drawing/stroke/endarrowlength) { get; set; } | Define la longitud de la punta de flecha para el final de un trazo. |
-| [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype) { get; set; } | Define la punta de flecha para el final de un trazo. |
-| [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth) { get; set; } | Define el ancho de la punta de flecha para el final de un trazo. |
-| [EndCap](../../aspose.words.drawing/stroke/endcap) { get; set; } | Define el estilo de tapa para el final de un trazo. |
-| [ForeColor](../../aspose.words.drawing/stroke/forecolor) { get; set; } | Obtiene o establece el color de primer plano del trazo. |
-| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes) { get; } | Define la imagen para una imagen de trazo o relleno de patrón. |
-| [JoinStyle](../../aspose.words.drawing/stroke/joinstyle) { get; set; } | Define el estilo de unión de una polilínea. |
-| [LineStyle](../../aspose.words.drawing/stroke/linestyle) { get; set; } | Define el estilo de línea del trazo. |
-| [On](../../aspose.words.drawing/stroke/on) { get; set; } | Define si se trazará el trazado. |
-| [Opacity](../../aspose.words.drawing/stroke/opacity) { get; set; } | Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1. |
-| [StartArrowLength](../../aspose.words.drawing/stroke/startarrowlength) { get; set; } | Define la longitud de la punta de flecha para el inicio de un trazo. |
-| [StartArrowType](../../aspose.words.drawing/stroke/startarrowtype) { get; set; } | Define la punta de flecha para el inicio de un trazo. |
-| [StartArrowWidth](../../aspose.words.drawing/stroke/startarrowwidth) { get; set; } | Define el ancho de la punta de flecha para el inicio de un trazo. |
-| [Transparency](../../aspose.words.drawing/stroke/transparency) { get; set; } | Obtiene o establece un valor entre 0,0 (opaco) y 1,0 (claro) que representa el grado de transparencia del trazo. |
-| [Visible](../../aspose.words.drawing/stroke/visible) { get; set; } | Obtiene o establece un indicador que indica si el trazo es visible. |
-| [Weight](../../aspose.words.drawing/stroke/weight) { get; set; } | Define el grosor del pincel que traza el camino de una forma en puntos. |
+| [BackColor](../../aspose.words.drawing/stroke/backcolor/) { get; set; } | Obtiene o establece el color de fondo del trazo. |
+| [Color](../../aspose.words.drawing/stroke/color/) { get; set; } | Define el color de un trazo. |
+| [Color2](../../aspose.words.drawing/stroke/color2/) { get; set; } | Define un segundo color para un trazo. |
+| [DashStyle](../../aspose.words.drawing/stroke/dashstyle/) { get; set; } | Especifica el patrón de puntos y rayas para un trazo. |
+| [EndArrowLength](../../aspose.words.drawing/stroke/endarrowlength/) { get; set; } | Define la longitud de la punta de flecha para el final de un trazo. |
+| [EndArrowType](../../aspose.words.drawing/stroke/endarrowtype/) { get; set; } | Define la punta de flecha para el final de un trazo. |
+| [EndArrowWidth](../../aspose.words.drawing/stroke/endarrowwidth/) { get; set; } | Define el ancho de la punta de flecha para el final de un trazo. |
+| [EndCap](../../aspose.words.drawing/stroke/endcap/) { get; set; } | Define el estilo de tapa para el final de un trazo. |
+| [ForeColor](../../aspose.words.drawing/stroke/forecolor/) { get; set; } | Obtiene o establece el color de primer plano del trazo. |
+| [ImageBytes](../../aspose.words.drawing/stroke/imagebytes/) { get; } | Define la imagen para una imagen de trazo o relleno de patrón. |
+| [JoinStyle](../../aspose.words.drawing/stroke/joinstyle/) { get; set; } | Define el estilo de unión de una polilínea. |
+| [LineStyle](../../aspose.words.drawing/stroke/linestyle/) { get; set; } | Define el estilo de línea del trazo. |
+| [On](../../aspose.words.drawing/stroke/on/) { get; set; } | Define si se trazará el trazado. |
+| [Opacity](../../aspose.words.drawing/stroke/opacity/) { get; set; } | Define la cantidad de transparencia de un trazo. El rango válido es de 0 a 1. |
+| [StartArrowLength](../../aspose.words.drawing/stroke/startarrowlength/) { get; set; } | Define la longitud de la punta de flecha para el inicio de un trazo. |
+| [StartArrowType](../../aspose.words.drawing/stroke/startarrowtype/) { get; set; } | Define la punta de flecha para el inicio de un trazo. |
+| [StartArrowWidth](../../aspose.words.drawing/stroke/startarrowwidth/) { get; set; } | Define el ancho de la punta de flecha para el inicio de un trazo. |
+| [Transparency](../../aspose.words.drawing/stroke/transparency/) { get; set; } | Obtiene o establece un valor entre 0,0 (opaco) y 1,0 (claro) que representa el grado de transparencia del trazo. |
+| [Visible](../../aspose.words.drawing/stroke/visible/) { get; set; } | Obtiene o establece un indicador que indica si el trazo es visible. |
+| [Weight](../../aspose.words.drawing/stroke/weight/) { get; set; } | Define el grosor del pincel que traza el camino de una forma en puntos. |
 
 ### Observaciones
 
-Utilizar el[`Stroke`](../shape/stroke)propiedad para acceder a las propiedades de trazo de una forma. No crea instancias de la[`Stroke`](../stroke) clase directamente.
+Utilizar el[`Stroke`](../shape/stroke/)propiedad para acceder a las propiedades de trazo de una forma. No crea instancias de la[`Stroke`](./stroke/) clase directamente.
 
 ### Ejemplos
 
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "Shape.Stroke.docx");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing)
+* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

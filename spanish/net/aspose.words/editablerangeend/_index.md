@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Especifica el identificador de nodo personalizado. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtiene el documento al que pertenece este nodo. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | EditableRangeStart correspondiente, recibido por ID. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | Especifica el identificador del rango editable. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | DevolucionesEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtiene el padre inmediato de este nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | EditableRangeStart correspondiente, recibido por ID. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Especifica el identificador del rango editable. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | DevolucionesEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove)() | Se elimina a sí mismo del padre. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-Un rango editable completo en un documento de Word consta de un[`EditableRangeStart`](./editablerangestart) y una coincidencia[`EditableRangeEnd`](../editablerangeend) con el mismo DNI.
+Un rango editable completo en un documento de Word consta de un[`EditableRangeStart`](./editablerangestart/) y una coincidencia[`EditableRangeEnd`](./editablerangeend/) con el mismo DNI.
 
-[`EditableRangeStart`](./editablerangestart) y[`EditableRangeEnd`](../editablerangeend) son solo marcadores dentro de un documento que especifican dónde comienza y termina el rango editable.
+[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) son solo marcadores dentro de un documento que especifican dónde comienza y termina el rango editable.
 
-Utilizar el[`EditableRange`](../editablerange)class como una "fachada" para trabajar con un rango editable como un solo objeto.
+Utilizar el[`EditableRange`](../editablerange/)class como una "fachada" para trabajar con un rango editable como un solo objeto.
 
-Actualmente, los rangos editables solo se admiten en el nivel en línea, es decir, dentro[`Paragraph`](../paragraph), pero el inicio del rango editable y el final del rango editable pueden estar en párrafos diferentes.
+Actualmente, los rangos editables solo se admiten en el nivel en línea, es decir, dentro[`Paragraph`](../paragraph/), pero el inicio del rango editable y el final del rango editable pueden estar en párrafos diferentes.
 
 ### Ejemplos
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### Ver también
 
-* class [Node](../node)
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

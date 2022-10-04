@@ -18,45 +18,45 @@ public class FieldLink : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldLink](fieldlink)() | Constructor predeterminado |
+| [FieldLink](fieldlink/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate) { get; set; } | Obtiene o establece si actualizar este campo automáticamente. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype) { get; set; } | Obtiene o establece la forma en que el objeto vinculado actualiza su formato. |
-| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap) { get; set; } | Obtiene o establece si insertar el objeto vinculado como mapa de bits. |
-| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml) { get; set; } | Obtiene o establece si insertar el objeto vinculado como texto en formato HTML. |
-| [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture) { get; set; } | Obtiene o establece si insertar el objeto vinculado como una imagen. |
-| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf) { get; set; } | Obtiene o establece si insertar el objeto vinculado en formato de texto enriquecido (RTF). |
-| [InsertAsText](../../aspose.words.fields/fieldlink/insertastext) { get; set; } | Obtiene o establece si insertar el objeto vinculado en formato de solo texto. |
-| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode) { get; set; } | Obtiene o establece si insertar el objeto vinculado como texto Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLinked](../../aspose.words.fields/fieldlink/islinked) { get; set; } | Obtiene o establece si se reduce el tamaño del archivo al no almacenar datos gráficos con el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [ProgId](../../aspose.words.fields/fieldlink/progid) { get; set; } | Obtiene o establece el tipo de aplicación de la información del enlace. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname) { get; set; } | Obtiene o establece el nombre y la ubicación del archivo de origen. |
-| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem) { get; set; } | Obtiene o establece la parte del archivo de origen que se está vinculando. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | Obtiene o establece si actualizar este campo automáticamente. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype/) { get; set; } | Obtiene o establece la forma en que el objeto vinculado actualiza su formato. |
+| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap/) { get; set; } | Obtiene o establece si insertar el objeto vinculado como mapa de bits. |
+| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | Obtiene o establece si insertar el objeto vinculado como texto en formato HTML. |
+| [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture/) { get; set; } | Obtiene o establece si insertar el objeto vinculado como una imagen. |
+| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf/) { get; set; } | Obtiene o establece si insertar el objeto vinculado en formato de texto enriquecido (RTF). |
+| [InsertAsText](../../aspose.words.fields/fieldlink/insertastext/) { get; set; } | Obtiene o establece si insertar el objeto vinculado en formato de solo texto. |
+| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | Obtiene o establece si insertar el objeto vinculado como texto Unicode. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsLinked](../../aspose.words.fields/fieldlink/islinked/) { get; set; } | Obtiene o establece si se reduce el tamaño del archivo al no almacenar datos gráficos con el documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [ProgId](../../aspose.words.fields/fieldlink/progid/) { get; set; } | Obtiene o establece el tipo de aplicación de la información del enlace. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname/) { get; set; } | Obtiene o establece el nombre y la ubicación del archivo de origen. |
+| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem/) { get; set; } | Obtiene o establece la parte del archivo de origen que se está vinculando. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -242,8 +242,8 @@ public enum InsertLinkedObjectAs
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

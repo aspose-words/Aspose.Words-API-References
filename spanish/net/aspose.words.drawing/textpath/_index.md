@@ -18,30 +18,30 @@ public class TextPath
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Verdadero si la fuente está en negrita. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Define si el texto se ajusta a la ruta de una forma. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Define si el texto se ajusta al cuadro delimitador de una forma. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Define la familia de la fuente textpath. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Verdadero si la fuente tiene formato de cursiva. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Determina si el interletraje está activado. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Define si se muestra el texto. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Determina si se invierte el orden de disposición de las filas. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Determina si se giran las letras del texto. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Determina si todas las letras tendrán la misma altura independientemente del caso inicial. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Define si se aplica una sombra al texto en una ruta de texto. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Define el tamaño de la fuente en puntos. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Verdadero si la fuente tiene el formato de letras mayúsculas pequeñas. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Define la cantidad de espacio para el texto. 1 significa 100%. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Verdadero si la fuente tiene el formato de texto tachado. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Define el texto de la ruta de texto. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Define la alineación del texto. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Determina si se elimina el espacio adicional encima y debajo del texto. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Verdadero si la fuente está subrayada. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Determina si se utilizará una ruta de texto recta en lugar de la ruta de forma. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Verdadero si la fuente está en negrita. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Define si el texto se ajusta a la ruta de una forma. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Define si el texto se ajusta al cuadro delimitador de una forma. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Define la familia de la fuente textpath. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Verdadero si la fuente tiene formato de cursiva. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Determina si el interletraje está activado. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Define si se muestra el texto. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Determina si se invierte el orden de disposición de las filas. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Determina si se giran las letras del texto. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Determina si todas las letras tendrán la misma altura independientemente del caso inicial. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Define si se aplica una sombra al texto en una ruta de texto. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Define el tamaño de la fuente en puntos. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Verdadero si la fuente tiene el formato de letras mayúsculas pequeñas. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Define la cantidad de espacio para el texto. 1 significa 100%. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Verdadero si la fuente tiene el formato de texto tachado. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Define el texto de la ruta de texto. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Define la alineación del texto. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Determina si se elimina el espacio adicional encima y debajo del texto. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Verdadero si la fuente está subrayada. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Determina si se utilizará una ruta de texto recta en lugar de la ruta de forma. |
 
 ### Observaciones
 
-Utilizar el[`TextPath`](../shape/textpath) propiedad para acceder a las propiedades de WordArt de una forma. No crea instancias de la[`TextPath`](../textpath) clase directamente.
+Utilizar el[`TextPath`](../shape/textpath/) propiedad para acceder a las propiedades de WordArt de una forma. No crea instancias de la[`TextPath`](./textpath/) clase directamente.
 
 ### Ejemplos
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing)
+* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

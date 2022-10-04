@@ -26,14 +26,14 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 Se admite la inserción de videos en línea de los siguientes recursos:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](../insertonlinevideo), que acepta código html incrustado personalizado.
+Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](./insertonlinevideo/), que acepta código html incrustado personalizado.
 
 El código para incrustar video puede variar entre proveedores, consulte a su proveedor de elección correspondiente para obtener más detalles.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 Se admite la inserción de videos en línea de los siguientes recursos:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](../insertonlinevideo), que acepta código html incrustado personalizado.
+Si su video en línea no se muestra correctamente, use[`InsertOnlineVideo`](./insertonlinevideo/), que acepta código html incrustado personalizado.
 
 El código para incrustar video puede variar entre proveedores, consulte a su proveedor de elección correspondiente para obtener más detalles.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

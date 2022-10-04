@@ -18,26 +18,26 @@ public class LayoutOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [LayoutOptions](layoutoptions)() | Constructor predeterminado |
+| [LayoutOptions](layoutoptions/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Callback](../../aspose.words.layout/layoutoptions/callback) { get; set; } | Obtiene o establece[`IPageLayoutCallback`](../ipagelayoutcallback)implementación utilizada por el modelo de diseño de página. |
-| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode) { get; set; } | Obtiene o establece la forma en que se representan los comentarios. El valor predeterminado esShowInBalloons . |
-| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart) { get; set; } | Obtiene o establece el modo de comportamiento para calcular los números de página cuando una sección continua reinicia la numeración de páginas. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics) { get; set; } | Obtiene o establece una indicación de si se ignora la opción de compatibilidad "Usar métricas de impresora para diseñar el documento". El valor predeterminado es Verdadero. |
-| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions) { get; } | Obtiene opciones de revisión. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext) { get; set; } | Obtiene o establece una indicación de si se representa el texto oculto en el documento. El valor predeterminado es Falso. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks) { get; set; } | Obtiene o establece la indicación de si se representan las marcas de párrafo. El valor predeterminado es Falso. |
-| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory) { get; set; } | Obtiene o establece[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory) implementación utilizada para funciones de representación de tipografía avanzada. |
+| [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Obtiene o establece[`IPageLayoutCallback`](../ipagelayoutcallback/)implementación utilizada por el modelo de diseño de página. |
+| [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Obtiene o establece la forma en que se representan los comentarios. El valor predeterminado esShowInBalloons . |
+| [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Obtiene o establece el modo de comportamiento para calcular los números de página cuando una sección continua reinicia la numeración de páginas. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Obtiene o establece una indicación de si se ignora la opción de compatibilidad "Usar métricas de impresora para diseñar el documento". El valor predeterminado es Verdadero. |
+| [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Obtiene opciones de revisión. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Obtiene o establece una indicación de si se representa el texto oculto en el documento. El valor predeterminado es Falso. |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Obtiene o establece la indicación de si se representan las marcas de párrafo. El valor predeterminado es Falso. |
+| [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Obtiene o establece[`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementación utilizada para funciones de representación de tipografía avanzada. |
 
 ### Observaciones
 
-No crea instancias de esta clase directamente. Utilizar el[`LayoutOptions`](../../aspose.words/document/layoutoptions)propiedad para acceder a las opciones de diseño de este documento.
+No crea instancias de esta clase directamente. Utilizar el[`LayoutOptions`](../../aspose.words/document/layoutoptions/)propiedad para acceder a las opciones de diseño de este documento.
 
-Tenga en cuenta que después de cambiar cualquiera de las opciones presentes en esta clase,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout) Se debe llamar a method para que las opciones modificadas se apliquen al diseño.
+Tenga en cuenta que después de cambiar cualquiera de las opciones presentes en esta clase,[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) Se debe llamar a method para que las opciones modificadas se apliquen al diseño.
 
 ### Ejemplos
 
@@ -93,7 +93,7 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout)
+* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

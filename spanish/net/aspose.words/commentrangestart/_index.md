@@ -18,42 +18,42 @@ public sealed class CommentRangeStart : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [CommentRangeStart](commentrangestart)(DocumentBase, int) | Inicializa una nueva instancia de esta clase. |
+| [CommentRangeStart](commentrangestart/)(DocumentBase, int) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Especifica el identificador de nodo personalizado. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtiene el documento al que pertenece este nodo. |
-| [Id](../../aspose.words/commentrangestart/id) { get; set; } | Especifica el identificador del comentario al que está vinculada esta región. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype) { get; } | DevolucionesCommentRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtiene el padre inmediato de este nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
+| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Especifica el identificador del comentario al que está vinculada esta región. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | DevolucionesCommentRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove)() | Se elimina a sí mismo del padre. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(DocumentVisitor) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-Para crear un comentario anclado a una región de texto, debe crear un[`Comment`](../comment) and luego crea[`CommentRangeStart`](../commentrangestart) y[`CommentRangeEnd`](../commentrangeend) establecer sus identificadores al mismo[`Id`](../comment/id) valor.
+Para crear un comentario anclado a una región de texto, debe crear un[`Comment`](../comment/) and luego crea[`CommentRangeStart`](./commentrangestart/) y[`CommentRangeEnd`](../commentrangeend/) establecer sus identificadores al mismo[`Id`](../comment/id/) valor.
 
-[`CommentRangeStart`](../commentrangestart) es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph).
+[`CommentRangeStart`](./commentrangestart/) es un nodo de nivel en línea y solo puede ser un elemento secundario de[`Paragraph`](../paragraph/).
 
 ### Ejemplos
 
@@ -215,8 +215,8 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ### Ver también
 
-* class [Node](../node)
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,31 +18,31 @@ public class LayoutCollector
 
 | Nombre | Descripción |
 | --- | --- |
-| [LayoutCollector](layoutcollector)(Document) | Inicializa una instancia de esta clase. |
+| [LayoutCollector](layoutcollector/)(Document) | Inicializa una instancia de esta clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document) { get; set; } | Obtiene o establece el documento al que se adjunta esta instancia de recopilador. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | Obtiene o establece el documento al que se adjunta esta instancia de recopilador. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Clear](../../aspose.words.layout/layoutcollector/clear)() | Borra todos los datos de diseño recopilados. Llame a este método después de que el documento se haya actualizado manualmente o se haya reconstruido el diseño. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex)(Node) | Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity)(Node) | Devuelve una posición opaca del[`LayoutEnumerator`](../layoutenumerator) que corresponde al nodo especificado. Puede usar el valor devuelto como argumento para[`Current`](../layoutenumerator/current) dado el documento siendo enumerado y el documento del nodo son los mismos. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned)(Node) | Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo que[`GetEndPageIndex`](./getendpageindex) -[`GetStartPageIndex`](./getstartpageindex) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex)(Node) | Obtiene el índice basado en 1 de la página donde comienza el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
+| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | Borra todos los datos de diseño recopilados. Llame a este método después de que el documento se haya actualizado manualmente o se haya reconstruido el diseño. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(Node) | Obtiene el índice basado en 1 de la página donde termina el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(Node) | Devuelve una posición opaca del[`LayoutEnumerator`](../layoutenumerator/) que corresponde al nodo especificado. Puede usar el valor devuelto como argumento para[`Current`](../layoutenumerator/current/) dado el documento siendo enumerado y el documento del nodo son los mismos. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(Node) | Obtiene el número de páginas que abarca el nodo especificado. 0 si el nodo está dentro de una sola página. Esto es lo mismo que[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(Node) | Obtiene el índice basado en 1 de la página donde comienza el nodo. Devuelve 0 si el nodo no se puede asignar a una página. |
 
 ### Observaciones
 
-Cuando creas un[`LayoutCollector`](../layoutcollector) y especificar un[`Document`](../../aspose.words/document)objeto de documento al que adjuntar, el recopilador registrará la asignación de nodos de documento a objetos de diseño cuando el documento se formatee en páginas.
+Cuando creas un[`LayoutCollector`](./layoutcollector/) y especificar un[`Document`](../../aspose.words/document/)objeto de documento al que adjuntar, el recopilador registrará la asignación de nodos de documento a objetos de diseño cuando el documento se formatee en páginas.
 
-Podrá averiguar en qué página se encuentra un nodo de documento en particular (p. ej., ejecución, párrafo o celda de tabla) utilizando el[`GetStartPageIndex`](./getstartpageindex) ,[`GetEndPageIndex`](./getendpageindex) y[`GetNumPagesSpanned`](./getnumpagesspanned) métodos. Estos métodos crean automáticamente el modelo de diseño de página del documento y actualizan los campos si es necesario.
+Podrá averiguar en qué página se encuentra un nodo de documento en particular (p. ej., ejecución, párrafo o celda de tabla) utilizando el[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) y[`GetNumPagesSpanned`](./getnumpagesspanned/) métodos. Estos métodos crean automáticamente el modelo de diseño de página del documento y actualizan los campos si es necesario.
 
-Cuando ya no necesite recopilar información de diseño, es mejor configurar el[`Document`](./document) propiedad a null para evitar la recopilación innecesaria de más asignaciones de diseño.
+Cuando ya no necesite recopilar información de diseño, es mejor configurar el[`Document`](./document/) propiedad a null para evitar la recopilación innecesaria de más asignaciones de diseño.
 
 ### Ejemplos
 
@@ -101,7 +101,7 @@ Assert.AreEqual("¶", layoutEnumerator.Text);
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout)
+* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

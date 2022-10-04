@@ -18,36 +18,36 @@ public class ListFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | Verdadero cuando el párrafo tiene formato de viñetas o números aplicado. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Obtiene o establece la lista a la que pertenece este párrafo. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Devuelve el formato de nivel de lista más cualquier cambio de formato aplicado al párrafo actual. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Obtiene o establece el número de nivel de lista (0 a 8) para el párrafo. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Verdadero cuando el párrafo tiene formato de viñetas o números aplicado. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Obtiene o establece la lista a la que pertenece este párrafo. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Devuelve el formato de nivel de lista más cualquier cambio de formato aplicado al párrafo actual. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Obtiene o establece el número de nivel de lista (0 a 8) para el párrafo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Inicia una nueva lista con viñetas predeterminada y la aplica al párrafo. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Inicia una nueva lista numerada predeterminada y la aplica al párrafo. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Aumenta el nivel de lista del párrafo actual en un nivel. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Disminuye el nivel de la lista del párrafo actual en un nivel. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Elimina números o viñetas del párrafo actual y establece el nivel de lista en cero. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Inicia una nueva lista con viñetas predeterminada y la aplica al párrafo. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Inicia una nueva lista numerada predeterminada y la aplica al párrafo. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Aumenta el nivel de lista del párrafo actual en un nivel. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Disminuye el nivel de la lista del párrafo actual en un nivel. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Elimina números o viñetas del párrafo actual y establece el nivel de lista en cero. |
 
 ### Observaciones
 
 Un párrafo en un documento de Microsoft Word puede tener viñetas o numerarse. Cuando un párrafo tiene viñetas o numerarse, se dice que el formato de lista se aplica al párrafo.
 
-No creas objetos de la[`ListFormat`](../listformat) clase directamente. Accedes[`ListFormat`](../listformat) como una propiedad de otro objeto que can tiene un formato de lista asociado. Por el momento los objetos que pueden tener formato de lista son:[`Paragraph`](../../aspose.words/paragraph) , [`Style`](../../aspose.words/style) y[`DocumentBuilder`](../../aspose.words/documentbuilder).
+No creas objetos de la[`ListFormat`](./listformat/) clase directamente. Accedes[`ListFormat`](./listformat/) como una propiedad de otro objeto que can tiene un formato de lista asociado. Por el momento los objetos que pueden tener formato de lista son:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) y[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](../listformat) de un[`Paragraph`](../../aspose.words/paragraph) especifica qué formato de lista y nivel de lista se aplica a ese párrafo en particular.
+[`ListFormat`](./listformat/) de un[`Paragraph`](../../aspose.words/paragraph/) especifica qué formato de lista y nivel de lista se aplica a ese párrafo en particular.
 
-[`ListFormat`](../listformat) de un[`Style`](../../aspose.words/style)(aplicable solo a estilos de párrafo) permite especificar qué formato de lista y qué nivel de lista se aplica a todos los párrafos de ese estilo en particular.
+[`ListFormat`](./listformat/) de un[`Style`](../../aspose.words/style/)(aplicable solo a estilos de párrafo) permite especificar qué formato de lista y qué nivel de lista se aplica a todos los párrafos de ese estilo en particular.
 
-[`ListFormat`](../listformat) de un[`DocumentBuilder`](../../aspose.words/documentbuilder) proporciona acceso al formato de la lista en la posición actual del cursor dentro del[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](./listformat/) de un[`DocumentBuilder`](../../aspose.words/documentbuilder/) proporciona acceso al formato de la lista en la posición actual del cursor dentro del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-El formato de la lista en sí se almacena dentro de un[`List`](../list) objeto que se almacena por separado de los párrafos. La lista objects se almacenan dentro de un[`ListCollection`](../listcollection) recopilación. Hay un solo [`ListCollection`](../listcollection) colección por[`Document`](../../aspose.words/document).
+El formato de la lista en sí se almacena dentro de un[`List`](../list/) objeto que se almacena por separado de los párrafos. La lista objects se almacenan dentro de un[`ListCollection`](../listcollection/) recopilación. Hay un solo [`ListCollection`](../listcollection/) colección por[`Document`](../../aspose.words/document/).
 
-Los párrafos no pertenecen físicamente a una lista. Los párrafos just hacen referencia a un objeto de lista en particular a través del[`List`](./list) property y un nivel particular en la lista a través del[`ListLevelNumber`](./listlevelnumber) property. Al establecer estas dos propiedades, usted controla qué viñetas y numeración se se aplica a un párrafo.
+Los párrafos no pertenecen físicamente a una lista. Los párrafos just hacen referencia a un objeto de lista en particular a través del[`List`](./list/) property y un nivel particular en la lista a través del[`ListLevelNumber`](./listlevelnumber/) property. Al establecer estas dos propiedades, usted controla qué viñetas y numeración se se aplica a un párrafo.
 
 ### Ejemplos
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists)
+* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

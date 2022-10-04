@@ -18,128 +18,128 @@ public class DocumentBuilder
 
 | Nombre | Descripción |
 | --- | --- |
-| [DocumentBuilder](documentbuilder#constructor)() | Inicializa una nueva instancia de esta clase. |
-| [DocumentBuilder](documentbuilder#constructor_1)(Document) | Inicializa una nueva instancia de esta clase. |
+| [DocumentBuilder](documentbuilder/#constructor)() | Inicializa una nueva instancia de esta clase. |
+| [DocumentBuilder](documentbuilder/#constructor_1)(Document) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bold](../../aspose.words/documentbuilder/bold) { get; set; } | Verdadero si la fuente está en negrita. |
-| [CellFormat](../../aspose.words/documentbuilder/cellformat) { get; } | Devuelve un objeto que representa las propiedades de formato de celda de la tabla actual. |
-| [CurrentNode](../../aspose.words/documentbuilder/currentnode) { get; } | Obtiene el nodo que está actualmente seleccionado en este DocumentBuilder. |
-| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph) { get; } | Obtiene el párrafo que está actualmente seleccionado en este DocumentBuilder. |
-| [CurrentSection](../../aspose.words/documentbuilder/currentsection) { get; } | Obtiene la sección que está actualmente seleccionada en este DocumentBuilder. |
-| [CurrentStory](../../aspose.words/documentbuilder/currentstory) { get; } | Obtiene la historia que está actualmente seleccionada en este DocumentBuilder. |
-| [Document](../../aspose.words/documentbuilder/document) { get; set; } | Obtiene o establece el[`Document`](./document) objeto al que está adjunto este objeto. |
-| [Font](../../aspose.words/documentbuilder/font) { get; } | Devuelve un objeto que representa las propiedades de formato de fuente actual. |
-| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph) { get; } | Devuelve verdadero si el cursor está al final del párrafo actual. |
-| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph) { get; } | Devuelve verdadero si el cursor está al principio del párrafo actual (sin texto antes del cursor). |
-| [Italic](../../aspose.words/documentbuilder/italic) { get; set; } | Verdadero si la fuente tiene formato de cursiva. |
-| [ListFormat](../../aspose.words/documentbuilder/listformat) { get; } | Devuelve un objeto que representa las propiedades de formato de la lista actual. |
-| [PageSetup](../../aspose.words/documentbuilder/pagesetup) { get; } | Devuelve un objeto que representa la configuración de página actual y las propiedades de la sección. |
-| [ParagraphFormat](../../aspose.words/documentbuilder/paragraphformat) { get; } | Devuelve un objeto que representa las propiedades de formato del párrafo actual. |
-| [RowFormat](../../aspose.words/documentbuilder/rowformat) { get; } | Devuelve un objeto que representa las propiedades de formato de fila de la tabla actual. |
-| [Underline](../../aspose.words/documentbuilder/underline) { get; set; } | Obtiene/establece el tipo de subrayado para la fuente actual. |
+| [Bold](../../aspose.words/documentbuilder/bold/) { get; set; } | Verdadero si la fuente está en negrita. |
+| [CellFormat](../../aspose.words/documentbuilder/cellformat/) { get; } | Devuelve un objeto que representa las propiedades de formato de celda de la tabla actual. |
+| [CurrentNode](../../aspose.words/documentbuilder/currentnode/) { get; } | Obtiene el nodo que está actualmente seleccionado en este DocumentBuilder. |
+| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Obtiene el párrafo que está actualmente seleccionado en este DocumentBuilder. |
+| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Obtiene la sección que está actualmente seleccionada en este DocumentBuilder. |
+| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Obtiene la historia que está actualmente seleccionada en este DocumentBuilder. |
+| [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Obtiene o establece el[`Document`](./document/) objeto al que está adjunto este objeto. |
+| [Font](../../aspose.words/documentbuilder/font/) { get; } | Devuelve un objeto que representa las propiedades de formato de fuente actual. |
+| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Devuelve verdadero si el cursor está al final del párrafo actual. |
+| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Devuelve verdadero si el cursor está al principio del párrafo actual (sin texto antes del cursor). |
+| [Italic](../../aspose.words/documentbuilder/italic/) { get; set; } | Verdadero si la fuente tiene formato de cursiva. |
+| [ListFormat](../../aspose.words/documentbuilder/listformat/) { get; } | Devuelve un objeto que representa las propiedades de formato de la lista actual. |
+| [PageSetup](../../aspose.words/documentbuilder/pagesetup/) { get; } | Devuelve un objeto que representa la configuración de página actual y las propiedades de la sección. |
+| [ParagraphFormat](../../aspose.words/documentbuilder/paragraphformat/) { get; } | Devuelve un objeto que representa las propiedades de formato del párrafo actual. |
+| [RowFormat](../../aspose.words/documentbuilder/rowformat/) { get; } | Devuelve un objeto que representa las propiedades de formato de fila de la tabla actual. |
+| [Underline](../../aspose.words/documentbuilder/underline/) { get; set; } | Obtiene/establece el tipo de subrayado para la fuente actual. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [DeleteRow](../../aspose.words/documentbuilder/deleterow)(int, int) | Elimina una fila de una tabla. |
-| [EndBookmark](../../aspose.words/documentbuilder/endbookmark)(string) | Marca la posición actual en el documento como final de marcador. |
-| [EndColumnBookmark](../../aspose.words/documentbuilder/endcolumnbookmark)(string) | Marca la posición actual en el documento como final de marcador de columna. La posición debe estar en una celda de la tabla. |
-| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange#endeditablerange)() | Marca la posición actual en el documento como un final de rango editable. |
-| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange#endeditablerange_1)(EditableRangeStart) | Marca la posición actual en el documento como un final de rango editable. |
-| [EndRow](../../aspose.words/documentbuilder/endrow)() | Finaliza una fila de la tabla en el documento. |
-| [EndTable](../../aspose.words/documentbuilder/endtable)() | Termina una tabla en el documento. |
-| [InsertBreak](../../aspose.words/documentbuilder/insertbreak)(BreakType) | Inserta una ruptura del tipo especificado en el documento. |
-| [InsertCell](../../aspose.words/documentbuilder/insertcell)() | Inserta una celda de la tabla en el documento. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart#insertchart_1)(ChartType, double, double) | Inserta un objeto de gráfico en el documento y lo escala al tamaño especificado. |
-| [InsertChart](../../aspose.words/documentbuilder/insertchart#insertchart)(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de gráfico en el documento y lo escala al tamaño especificado. |
-| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox#insertcheckbox_1)(string, bool, int) | Inserta un campo de formulario de casilla de verificación en la posición actual. |
-| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox#insertcheckbox)(string, bool, bool, int) | Inserta un campo de formulario de casilla de verificación en la posición actual. |
-| [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox)(string, string[], int) | Inserta un campo de formulario de cuadro combinado en la posición actual. |
-| [InsertDocument](../../aspose.words/documentbuilder/insertdocument#insertdocument)(Document, ImportFormatMode) | Inserta un documento en la posición del cursor. |
-| [InsertDocument](../../aspose.words/documentbuilder/insertdocument#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Inserta un documento en la posición del cursor. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield_1)(string) | Inserta un campo de Word en un documento y actualiza el resultado del campo. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield)(FieldType, bool) | Inserta un campo de Word en un documento y, opcionalmente, actualiza el resultado del campo. |
-| [InsertField](../../aspose.words/documentbuilder/insertfield#insertfield_2)(string, string) | Inserta un campo de Word en un documento sin actualizar el resultado del campo. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote#insertfootnote)(FootnoteType, string) | Inserta una nota al pie o al final del documento. |
-| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote#insertfootnote_1)(FootnoteType, string, string) | Inserta una nota al pie o al final del documento. |
-| [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule)() | Inserta una forma de regla horizontal en el documento. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml)(string) | Inserta una cadena HTML en el documento. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml_2)(string, bool) | Inserta una cadena HTML en el documento. |
-| [InsertHtml](../../aspose.words/documentbuilder/inserthtml#inserthtml_1)(string, HtmlInsertOptions) | Inserta una cadena HTML en el documento. Permite especificar opciones adicionales. |
-| [InsertHyperlink](../../aspose.words/documentbuilder/inserthyperlink)(string, string, bool) | Inserta un hipervínculo en el documento. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage)(byte[]) | Inserta una imagen de una matriz de bytes en el documento. La imagen se inserta en línea y al 100 % de escala. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_3)(Image) | Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y al 100 % de escala. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_6)(Stream) | Inserta una imagen de un flujo en el documento. La imagen se inserta en línea y al 100 % de escala. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_9)(string) | Inserta una imagen de un archivo o URL en el documento. La imagen se inserta en línea y al 100 % de escala. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_2)(byte[], double, double) | Inserta una imagen en línea de una matriz de bytes en el documento y la escala al tamaño especificado. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_5)(Image, double, double) | Inserta una imagen en línea desde un .NETImage objeto en el documento y lo escala al tamaño especificado. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_8)(Stream, double, double) | Inserta una imagen en línea de una secuencia en el documento y la escala al tamaño especificado. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_11)(string, double, double) | Inserta una imagen en línea de un archivo o URL en el documento y la escala al tamaño especificado. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de una matriz de bytes en la posición y el tamaño especificados. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen desde un .NETImage objeto en la posición y tamaño especificados. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de una secuencia en la posición y el tamaño especificados. |
-| [InsertImage](../../aspose.words/documentbuilder/insertimage#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de un archivo o URL en la posición y tamaño especificados. |
-| [InsertNode](../../aspose.words/documentbuilder/insertnode)(Node) | Inserta un nodo de nivel de texto dentro del párrafo actual antes del cursor. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject)(Stream, string, bool, Stream) | Inserta un objeto OLE incrustado de una secuencia en el documento. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject_1)(string, bool, bool, Stream) | Inserta un objeto OLE incrustado o vinculado desde un archivo en el documento. Detecta el tipo de objeto OLE utilizando la extensión de archivo. |
-| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject#insertoleobject_2)(string, string, bool, bool, Stream) | Inserta un objeto OLE incrustado o vinculado desde un archivo en el documento. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon)(Stream, string, string, string) | Inserta un objeto OLE incrustado como icono de una secuencia en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon_1)(string, bool, string, string) | Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE utilizando la extensión de archivo. |
-| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon#insertoleobjectasicon_2)(string, string, bool, string, string) | Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_1)(string, double, double) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_3)(string, string, byte[], double, double) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
-| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo#insertonlinevideo_2)(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
-| [InsertParagraph](../../aspose.words/documentbuilder/insertparagraph)() | Inserta un salto de párrafo en el documento. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape#insertshape_1)(ShapeType, double, double) | Inserta una forma en línea con el tipo y tamaño especificados. |
-| [InsertShape](../../aspose.words/documentbuilder/insertshape#insertshape)(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una forma flotante con la posición, el tamaño y el tipo de ajuste de texto especificados. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline#insertsignatureline)(SignatureLineOptions) | Inserta una línea de firma en la posición actual. |
-| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline#insertsignatureline_1)(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) | Inserta una línea de firma en la posición especificada. |
-| [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator)() | Inserta separador de estilo en el documento. |
-| [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents)(string) | Inserta un campo TOC (tabla de contenido) en el documento. |
-| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput)(string, TextFormFieldType, string, string, int) | Inserta un campo de formulario de texto en la posición actual. |
-| [MoveTo](../../aspose.words/documentbuilder/moveto)(Node) | Mueve el cursor a un nodo en línea o al final de un párrafo. |
-| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark)(string) | Mueve el cursor a un marcador. |
-| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark#movetobookmark_1)(string, bool, bool) | Mueve el cursor a un marcador con mayor precisión. |
-| [MoveToCell](../../aspose.words/documentbuilder/movetocell)(int, int, int, int) | Mueve el cursor a una celda de la tabla en la sección actual. |
-| [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend)() | Mueve el cursor al final del documento. |
-| [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart)() | Mueve el cursor al principio del documento. |
-| [MoveToField](../../aspose.words/documentbuilder/movetofield)(Field, bool) | Mueve el cursor a un campo del documento. |
-| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter)(HeaderFooterType) | Mueve el cursor al principio de un encabezado o pie de página en la sección actual. |
-| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield#movetomergefield)(string) | Mueve el cursor a una posición más allá del campo de combinación especificado y elimina el campo de combinación. |
-| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield#movetomergefield_1)(string, bool, bool) | Mueve el campo de combinación al campo de combinación especificado. |
-| [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph)(int, int) | Mueve el cursor a un párrafo en la sección actual. |
-| [MoveToSection](../../aspose.words/documentbuilder/movetosection)(int) | Mueve el cursor al principio del cuerpo en una sección específica. |
-| [PopFont](../../aspose.words/documentbuilder/popfont)() | Recupera el formato de caracteres previamente guardado en la pila. |
-| [PushFont](../../aspose.words/documentbuilder/pushfont)() | Guarda el formato de carácter actual en la pila. |
-| [StartBookmark](../../aspose.words/documentbuilder/startbookmark)(string) | Marca la posición actual en el documento como inicio de marcador. |
-| [StartColumnBookmark](../../aspose.words/documentbuilder/startcolumnbookmark)(string) | Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de la tabla. |
-| [StartEditableRange](../../aspose.words/documentbuilder/starteditablerange)() | Marca la posición actual en el documento como un inicio de rango editable. |
-| [StartTable](../../aspose.words/documentbuilder/starttable)() | Inicia una tabla en el documento. |
-| [Write](../../aspose.words/documentbuilder/write)(string) | Inserta una cadena en el documento en la posición de inserción actual. |
-| [Writeln](../../aspose.words/documentbuilder/writeln#writeln)() | Inserta un salto de párrafo en el documento. |
-| [Writeln](../../aspose.words/documentbuilder/writeln#writeln_1)(string) | Inserta una cadena y un salto de párrafo en el documento. |
+| [DeleteRow](../../aspose.words/documentbuilder/deleterow/)(int, int) | Elimina una fila de una tabla. |
+| [EndBookmark](../../aspose.words/documentbuilder/endbookmark/)(string) | Marca la posición actual en el documento como final de marcador. |
+| [EndColumnBookmark](../../aspose.words/documentbuilder/endcolumnbookmark/)(string) | Marca la posición actual en el documento como final de marcador de columna. La posición debe estar en una celda de la tabla. |
+| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange)() | Marca la posición actual en el documento como un final de rango editable. |
+| [EndEditableRange](../../aspose.words/documentbuilder/endeditablerange/#endeditablerange_1)(EditableRangeStart) | Marca la posición actual en el documento como un final de rango editable. |
+| [EndRow](../../aspose.words/documentbuilder/endrow/)() | Finaliza una fila de la tabla en el documento. |
+| [EndTable](../../aspose.words/documentbuilder/endtable/)() | Termina una tabla en el documento. |
+| [InsertBreak](../../aspose.words/documentbuilder/insertbreak/)(BreakType) | Inserta una ruptura del tipo especificado en el documento. |
+| [InsertCell](../../aspose.words/documentbuilder/insertcell/)() | Inserta una celda de la tabla en el documento. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart_1)(ChartType, double, double) | Inserta un objeto de gráfico en el documento y lo escala al tamaño especificado. |
+| [InsertChart](../../aspose.words/documentbuilder/insertchart/#insertchart)(ChartType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de gráfico en el documento y lo escala al tamaño especificado. |
+| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox_1)(string, bool, int) | Inserta un campo de formulario de casilla de verificación en la posición actual. |
+| [InsertCheckBox](../../aspose.words/documentbuilder/insertcheckbox/#insertcheckbox)(string, bool, bool, int) | Inserta un campo de formulario de casilla de verificación en la posición actual. |
+| [InsertComboBox](../../aspose.words/documentbuilder/insertcombobox/)(string, string[], int) | Inserta un campo de formulario de cuadro combinado en la posición actual. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument)(Document, ImportFormatMode) | Inserta un documento en la posición del cursor. |
+| [InsertDocument](../../aspose.words/documentbuilder/insertdocument/#insertdocument_1)(Document, ImportFormatMode, ImportFormatOptions) | Inserta un documento en la posición del cursor. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_1)(string) | Inserta un campo de Word en un documento y actualiza el resultado del campo. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield)(FieldType, bool) | Inserta un campo de Word en un documento y, opcionalmente, actualiza el resultado del campo. |
+| [InsertField](../../aspose.words/documentbuilder/insertfield/#insertfield_2)(string, string) | Inserta un campo de Word en un documento sin actualizar el resultado del campo. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote)(FootnoteType, string) | Inserta una nota al pie o al final del documento. |
+| [InsertFootnote](../../aspose.words/documentbuilder/insertfootnote/#insertfootnote_1)(FootnoteType, string, string) | Inserta una nota al pie o al final del documento. |
+| [InsertHorizontalRule](../../aspose.words/documentbuilder/inserthorizontalrule/)() | Inserta una forma de regla horizontal en el documento. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml)(string) | Inserta una cadena HTML en el documento. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_2)(string, bool) | Inserta una cadena HTML en el documento. |
+| [InsertHtml](../../aspose.words/documentbuilder/inserthtml/#inserthtml_1)(string, HtmlInsertOptions) | Inserta una cadena HTML en el documento. Permite especificar opciones adicionales. |
+| [InsertHyperlink](../../aspose.words/documentbuilder/inserthyperlink/)(string, string, bool) | Inserta un hipervínculo en el documento. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage)(byte[]) | Inserta una imagen de una matriz de bytes en el documento. La imagen se inserta en línea y al 100 % de escala. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_3)(Image) | Inserta una imagen desde un .NETImage objeto en el documento. La imagen se inserta en línea y al 100 % de escala. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_6)(Stream) | Inserta una imagen de un flujo en el documento. La imagen se inserta en línea y al 100 % de escala. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_9)(string) | Inserta una imagen de un archivo o URL en el documento. La imagen se inserta en línea y al 100 % de escala. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_2)(byte[], double, double) | Inserta una imagen en línea de una matriz de bytes en el documento y la escala al tamaño especificado. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_5)(Image, double, double) | Inserta una imagen en línea desde un .NETImage objeto en el documento y lo escala al tamaño especificado. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_8)(Stream, double, double) | Inserta una imagen en línea de una secuencia en el documento y la escala al tamaño especificado. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_11)(string, double, double) | Inserta una imagen en línea de un archivo o URL en el documento y la escala al tamaño especificado. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_1)(byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de una matriz de bytes en la posición y el tamaño especificados. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen desde un .NETImage objeto en la posición y tamaño especificados. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de una secuencia en la posición y el tamaño especificados. |
+| [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una imagen de un archivo o URL en la posición y tamaño especificados. |
+| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Inserta un nodo de nivel de texto dentro del párrafo actual antes del cursor. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject)(Stream, string, bool, Stream) | Inserta un objeto OLE incrustado de una secuencia en el documento. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_1)(string, bool, bool, Stream) | Inserta un objeto OLE incrustado o vinculado desde un archivo en el documento. Detecta el tipo de objeto OLE utilizando la extensión de archivo. |
+| [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_2)(string, string, bool, bool, Stream) | Inserta un objeto OLE incrustado o vinculado desde un archivo en el documento. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon)(Stream, string, string, string) | Inserta un objeto OLE incrustado como icono de una secuencia en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon_1)(string, bool, string, string) | Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE utilizando la extensión de archivo. |
+| [InsertOleObjectAsIcon](../../aspose.words/documentbuilder/insertoleobjectasicon/#insertoleobjectasicon_2)(string, string, bool, string, string) | Inserta un objeto OLE incrustado o vinculado como icono en el documento. Permite especificar el archivo de icono y el título. Detecta el tipo de objeto OLE usando el parámetro progID dado. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_1)(string, double, double) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_3)(string, string, byte[], double, double) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
+| [InsertOnlineVideo](../../aspose.words/documentbuilder/insertonlinevideo/#insertonlinevideo_2)(string, string, byte[], RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta un objeto de video en línea en el documento y lo escala al tamaño especificado. |
+| [InsertParagraph](../../aspose.words/documentbuilder/insertparagraph/)() | Inserta un salto de párrafo en el documento. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape_1)(ShapeType, double, double) | Inserta una forma en línea con el tipo y tamaño especificados. |
+| [InsertShape](../../aspose.words/documentbuilder/insertshape/#insertshape)(ShapeType, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserta una forma flotante con la posición, el tamaño y el tipo de ajuste de texto especificados. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline)(SignatureLineOptions) | Inserta una línea de firma en la posición actual. |
+| [InsertSignatureLine](../../aspose.words/documentbuilder/insertsignatureline/#insertsignatureline_1)(SignatureLineOptions, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, WrapType) | Inserta una línea de firma en la posición especificada. |
+| [InsertStyleSeparator](../../aspose.words/documentbuilder/insertstyleseparator/)() | Inserta separador de estilo en el documento. |
+| [InsertTableOfContents](../../aspose.words/documentbuilder/inserttableofcontents/)(string) | Inserta un campo TOC (tabla de contenido) en el documento. |
+| [InsertTextInput](../../aspose.words/documentbuilder/inserttextinput/)(string, TextFormFieldType, string, string, int) | Inserta un campo de formulario de texto en la posición actual. |
+| [MoveTo](../../aspose.words/documentbuilder/moveto/)(Node) | Mueve el cursor a un nodo en línea o al final de un párrafo. |
+| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark)(string) | Mueve el cursor a un marcador. |
+| [MoveToBookmark](../../aspose.words/documentbuilder/movetobookmark/#movetobookmark_1)(string, bool, bool) | Mueve el cursor a un marcador con mayor precisión. |
+| [MoveToCell](../../aspose.words/documentbuilder/movetocell/)(int, int, int, int) | Mueve el cursor a una celda de la tabla en la sección actual. |
+| [MoveToDocumentEnd](../../aspose.words/documentbuilder/movetodocumentend/)() | Mueve el cursor al final del documento. |
+| [MoveToDocumentStart](../../aspose.words/documentbuilder/movetodocumentstart/)() | Mueve el cursor al principio del documento. |
+| [MoveToField](../../aspose.words/documentbuilder/movetofield/)(Field, bool) | Mueve el cursor a un campo del documento. |
+| [MoveToHeaderFooter](../../aspose.words/documentbuilder/movetoheaderfooter/)(HeaderFooterType) | Mueve el cursor al principio de un encabezado o pie de página en la sección actual. |
+| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield)(string) | Mueve el cursor a una posición más allá del campo de combinación especificado y elimina el campo de combinación. |
+| [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield_1)(string, bool, bool) | Mueve el campo de combinación al campo de combinación especificado. |
+| [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph/)(int, int) | Mueve el cursor a un párrafo en la sección actual. |
+| [MoveToSection](../../aspose.words/documentbuilder/movetosection/)(int) | Mueve el cursor al principio del cuerpo en una sección específica. |
+| [PopFont](../../aspose.words/documentbuilder/popfont/)() | Recupera el formato de caracteres previamente guardado en la pila. |
+| [PushFont](../../aspose.words/documentbuilder/pushfont/)() | Guarda el formato de carácter actual en la pila. |
+| [StartBookmark](../../aspose.words/documentbuilder/startbookmark/)(string) | Marca la posición actual en el documento como inicio de marcador. |
+| [StartColumnBookmark](../../aspose.words/documentbuilder/startcolumnbookmark/)(string) | Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de la tabla. |
+| [StartEditableRange](../../aspose.words/documentbuilder/starteditablerange/)() | Marca la posición actual en el documento como un inicio de rango editable. |
+| [StartTable](../../aspose.words/documentbuilder/starttable/)() | Inicia una tabla en el documento. |
+| [Write](../../aspose.words/documentbuilder/write/)(string) | Inserta una cadena en el documento en la posición de inserción actual. |
+| [Writeln](../../aspose.words/documentbuilder/writeln/#writeln)() | Inserta un salto de párrafo en el documento. |
+| [Writeln](../../aspose.words/documentbuilder/writeln/#writeln_1)(string) | Inserta una cadena y un salto de párrafo en el documento. |
 
 ### Observaciones
 
 **Creador de documentos** hace que el proceso de construcción de un **Documento** más fácil.  **Documento**es un objeto compuesto que consta de un árbol de nodos y, aunque es posible insertar content nodos directamente en el árbol, requiere una buena comprensión de la estructura del árbol.  **Creador de documentos** es una "fachada" para la compleja estructura de **Documento** y permite insertar contenido y formatear rápida y fácilmente.
 
-Crear un **Creador de documentos** y asociarlo con un[`Document`](./document).
+Crear un **Creador de documentos** y asociarlo con un[`Document`](./document/).
 
-los **Creador de documentos** tiene un cursor interno donde se insertará el texto cuando llames[`Write`](./write) ,[`Writeln`](./writeln) ,[`InsertBreak`](./insertbreak) y otros métodos. Puedes navegar por **Creador de documentos** cursor a una ubicación diferente en un documento usando varios métodos MoveToXXX.
+los **Creador de documentos** tiene un cursor interno donde se insertará el texto cuando llames[`Write`](./write/) ,[`Writeln`](./writeln/) ,[`InsertBreak`](./insertbreak/) y otros métodos. Puedes navegar por **Creador de documentos** cursor a una ubicación diferente en un documento usando varios métodos MoveToXXX.
 
-Utilizar el[`Font`](./font) propiedad para especificar el formato de caracteres que se aplicará a todo el texto insertado desde la posición actual en el documento en adelante.
+Utilizar el[`Font`](./font/) propiedad para especificar el formato de caracteres que se aplicará a todo el texto insertado desde la posición actual en el documento en adelante.
 
-Utilizar el[`ParagraphFormat`](./paragraphformat) propiedad para especificar el formato de párrafo para current y todos los párrafos que se insertarán.
+Utilizar el[`ParagraphFormat`](./paragraphformat/) propiedad para especificar el formato de párrafo para current y todos los párrafos que se insertarán.
 
-Utilizar el[`PageSetup`](./pagesetup)property para especificar las propiedades de página y sección para la sección current y todas las secciones que se insertarán.
+Utilizar el[`PageSetup`](./pagesetup/)property para especificar las propiedades de página y sección para la sección current y todas las secciones que se insertarán.
 
-Utilizar el[`CellFormat`](./cellformat) y[`RowFormat`](./rowformat) properties para especificar propiedades de formato para filas y celdas de la tabla. Usuario el[`InsertCell`](./insertcell) y [`EndRow`](./endrow) Métodos para construir una tabla.
+Utilizar el[`CellFormat`](./cellformat/) y[`RowFormat`](./rowformat/) properties para especificar propiedades de formato para filas y celdas de la tabla. Usuario el[`InsertCell`](./insertcell/) y [`EndRow`](./endrow/) Métodos para construir una tabla.
 
 Tenga en cuenta que **Fuente** , **formato de párrafo** y **Configuración de página** las propiedades se actualizan cada vez que navega a un lugar diferente en el documento para reflejar las propiedades de formato disponibles en la nueva ubicación.
 
@@ -260,7 +260,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

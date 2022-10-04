@@ -18,46 +18,46 @@ public class FieldMergeBarcode : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldMergeBarcode](fieldmergebarcode)() | Constructor predeterminado |
+| [FieldMergeBarcode](fieldmergebarcode/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar) { get; set; } | Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39. |
-| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor) { get; set; } | Obtiene o establece el color de fondo del símbolo del código de barras. Los valores válidos están en el rango [0, 0xFFFFFF] |
-| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype) { get; set; } | Obtiene o establece el tipo de código de barras (QR, etc.) |
-| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue) { get; set; } | Obtiene o establece el valor del código de barras. |
-| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle) { get; set; } | Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext) { get; set; } | Obtiene o establece si mostrar los datos del código de barras (texto) junto con la imagen. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel) { get; set; } | Obtiene o establece un nivel de corrección de errores del código QR. Los valores válidos son [0, 3]. |
-| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit) { get; set; } | Obtiene o establece si se corrige el dígito de control si no es válido. |
-| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor) { get; set; } | Obtiene o establece el color de primer plano del símbolo del código de barras. Los valores válidos están en el rango [0, 0xFFFFFF] |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle) { get; set; } | Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos de código de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinción entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor) { get; set; } | Obtiene o establece un factor de escala para el símbolo. El valor está en puntos porcentuales enteros y los valores válidos son [10, 1000] |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight) { get; set; } | Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgadas). |
-| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation) { get; set; } | Obtiene o establece la rotación del símbolo del código de barras. Los valores válidos son [0, 3] |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [AddStartStopChar](../../aspose.words.fields/fieldmergebarcode/addstartstopchar/) { get; set; } | Obtiene o establece si se agregan caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39. |
+| [BackgroundColor](../../aspose.words.fields/fieldmergebarcode/backgroundcolor/) { get; set; } | Obtiene o establece el color de fondo del símbolo del código de barras. Los valores válidos están en el rango [0, 0xFFFFFF] |
+| [BarcodeType](../../aspose.words.fields/fieldmergebarcode/barcodetype/) { get; set; } | Obtiene o establece el tipo de código de barras (QR, etc.) |
+| [BarcodeValue](../../aspose.words.fields/fieldmergebarcode/barcodevalue/) { get; set; } | Obtiene o establece el valor del código de barras. |
+| [CaseCodeStyle](../../aspose.words.fields/fieldmergebarcode/casecodestyle/) { get; set; } | Obtiene o establece el estilo de un código de caso para el tipo de código de barras ITF14. Los valores válidos son [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [DisplayText](../../aspose.words.fields/fieldmergebarcode/displaytext/) { get; set; } | Obtiene o establece si mostrar los datos del código de barras (texto) junto con la imagen. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/fieldmergebarcode/errorcorrectionlevel/) { get; set; } | Obtiene o establece un nivel de corrección de errores del código QR. Los valores válidos son [0, 3]. |
+| [FixCheckDigit](../../aspose.words.fields/fieldmergebarcode/fixcheckdigit/) { get; set; } | Obtiene o establece si se corrige el dígito de control si no es válido. |
+| [ForegroundColor](../../aspose.words.fields/fieldmergebarcode/foregroundcolor/) { get; set; } | Obtiene o establece el color de primer plano del símbolo del código de barras. Los valores válidos están en el rango [0, 0xFFFFFF] |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [PosCodeStyle](../../aspose.words.fields/fieldmergebarcode/poscodestyle/) { get; set; } | Obtiene o establece el estilo de un código de barras de Punto de Venta (tipos de código de barras UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Los valores válidos (sin distinción entre mayúsculas y minúsculas) son [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [ScalingFactor](../../aspose.words.fields/fieldmergebarcode/scalingfactor/) { get; set; } | Obtiene o establece un factor de escala para el símbolo. El valor está en puntos porcentuales enteros y los valores válidos son [10, 1000] |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| [SymbolHeight](../../aspose.words.fields/fieldmergebarcode/symbolheight/) { get; set; } | Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgadas). |
+| [SymbolRotation](../../aspose.words.fields/fieldmergebarcode/symbolrotation/) { get; set; } | Obtiene o establece la rotación del símbolo del código de barras. Los valores válidos son [0, 3] |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -228,8 +228,8 @@ doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

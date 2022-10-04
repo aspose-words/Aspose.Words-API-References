@@ -18,56 +18,56 @@ public abstract class DocumentVisitor
 
 | Nombre | Descripción |
 | --- | --- |
-| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab)(AbsolutePositionTab) | Llamado cuando un[`AbsolutePositionTab`](../absolutepositiontab) nodo se encuentra en el documento. |
-| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend)(Body) | Se llama cuando finaliza la enumeración del artículo de texto principal en una sección. |
-| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart)(Body) | Llamado cuando se ha iniciado la enumeración del artículo de texto principal en una sección. |
-| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend)(BookmarkEnd) | Llamado cuando se encuentra el final de un marcador en el documento. |
-| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart)(BookmarkStart) | Se llama cuando se encuentra el inicio de un marcador en el documento. |
-| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend)(BuildingBlock) | Se llama cuando finaliza la enumeración de un bloque de creación. |
-| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart)(BuildingBlock) | Llamado cuando ha comenzado la enumeración de un bloque de creación. |
-| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend)(Cell) | Se llama cuando finaliza la enumeración de una celda de la tabla. |
-| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart)(Cell) | Llamado cuando se ha iniciado la enumeración de una celda de la tabla. |
-| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend)(Comment) | Se llama cuando finaliza la enumeración de un texto de comentario. |
-| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend)(CommentRangeEnd) | Llamado cuando se encuentra el final de un rango de texto comentado. |
-| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart)(CommentRangeStart) | Llamado cuando se encuentra el inicio de un rango de texto comentado. |
-| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart)(Comment) | Llamado cuando ha comenzado la enumeración de un texto de comentario. |
-| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend)(Document) | Llamado cuando finaliza la enumeración del documento. |
-| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart)(Document) | Llamado cuando ha comenzado la enumeración del documento. |
-| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend)(EditableRangeEnd) | Llamado cuando se encuentra el final de un rango editable en el documento. |
-| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart)(EditableRangeStart) | Llamado cuando se encuentra un inicio de un rango editable en el documento. |
-| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend)(FieldEnd) | Llamado cuando un campo termina en el documento. |
-| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator)(FieldSeparator) | Llamado cuando se encuentra un separador de campo en el documento. |
-| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart)(FieldStart) | Llamado cuando un campo comienza en el documento. |
-| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend)(Footnote) | Se llama cuando finaliza la enumeración del texto de una nota al pie o al final. |
-| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart)(Footnote) | Llamado cuando ha comenzado la enumeración de una nota al pie o al final del texto. |
-| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield)(FormField) | Llamado cuando se encuentra un campo de formulario en el documento. |
-| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend)(GlossaryDocument) | Se llama cuando finaliza la enumeración de un documento de glosario. |
-| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart)(GlossaryDocument) | Llamado cuando se ha iniciado la enumeración de un documento de glosario. |
-| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend)(GroupShape) | Se llama cuando finaliza la enumeración de una forma de grupo. |
-| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart)(GroupShape) | Llamado cuando ha comenzado la enumeración de una forma de grupo. |
-| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend)(HeaderFooter) | Se llama cuando finaliza la enumeración de un encabezado o pie de página en una sección. |
-| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart)(HeaderFooter) | Llamado cuando ha comenzado la enumeración de un encabezado o pie de página en una sección. |
-| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend)(OfficeMath) | Llamado cuando finaliza la enumeración de un objeto Office Math. |
-| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart)(OfficeMath) | Llamado cuando se ha iniciado la enumeración de un objeto Office Math. |
-| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend)(Paragraph) | Llamado cuando finaliza la enumeración de un párrafo. |
-| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart)(Paragraph) | Llamado cuando ha comenzado la enumeración de un párrafo. |
-| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend)(Row) | Llamado cuando finaliza la enumeración de una fila de la tabla. |
-| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart)(Row) | Llamado cuando ha comenzado la enumeración de una fila de la tabla. |
-| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun)(Run) | Llamado cuando se encuentra una secuencia de texto en el. |
-| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend)(Section) | Llamado cuando finaliza la enumeración de una sección. |
-| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart)(Section) | Llamado cuando se ha iniciado la enumeración de una sección. |
-| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend)(Shape) | Se llama cuando finaliza la enumeración de una forma. |
-| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart)(Shape) | Llamado cuando ha comenzado la enumeración de una forma. |
-| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend)(SmartTag) | Se llama cuando finaliza la enumeración de una etiqueta inteligente. |
-| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart)(SmartTag) | Llamado cuando ha comenzado la enumeración de una etiqueta inteligente. |
-| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar)(SpecialChar) | Llamado cuando un[`SpecialChar`](../specialchar) nodo se encuentra en el documento. |
-| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend)(StructuredDocumentTag) | Se llama cuando finaliza la enumeración de una etiqueta de documento estructurado. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend)(StructuredDocumentTagRangeEnd) |  |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart)(StructuredDocumentTagRangeStart) |  |
-| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart)(StructuredDocumentTag) | Llamado cuando ha comenzado la enumeración de una etiqueta de documento estructurado. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument)(SubDocument) | Llamado cuando se encuentra un subdocumento. |
-| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend)(Table) | Se llama cuando finaliza la enumeración de una tabla. |
-| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart)(Table) | Llamado cuando se ha iniciado la enumeración de una tabla. |
+| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(AbsolutePositionTab) | Llamado cuando un[`AbsolutePositionTab`](../absolutepositiontab/) nodo se encuentra en el documento. |
+| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(Body) | Se llama cuando finaliza la enumeración del artículo de texto principal en una sección. |
+| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(Body) | Llamado cuando se ha iniciado la enumeración del artículo de texto principal en una sección. |
+| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(BookmarkEnd) | Llamado cuando se encuentra el final de un marcador en el documento. |
+| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(BookmarkStart) | Se llama cuando se encuentra el inicio de un marcador en el documento. |
+| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(BuildingBlock) | Se llama cuando finaliza la enumeración de un bloque de creación. |
+| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(BuildingBlock) | Llamado cuando ha comenzado la enumeración de un bloque de creación. |
+| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(Cell) | Se llama cuando finaliza la enumeración de una celda de la tabla. |
+| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(Cell) | Llamado cuando se ha iniciado la enumeración de una celda de la tabla. |
+| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(Comment) | Se llama cuando finaliza la enumeración de un texto de comentario. |
+| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(CommentRangeEnd) | Llamado cuando se encuentra el final de un rango de texto comentado. |
+| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(CommentRangeStart) | Llamado cuando se encuentra el inicio de un rango de texto comentado. |
+| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(Comment) | Llamado cuando ha comenzado la enumeración de un texto de comentario. |
+| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(Document) | Llamado cuando finaliza la enumeración del documento. |
+| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(Document) | Llamado cuando ha comenzado la enumeración del documento. |
+| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(EditableRangeEnd) | Llamado cuando se encuentra el final de un rango editable en el documento. |
+| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(EditableRangeStart) | Llamado cuando se encuentra un inicio de un rango editable en el documento. |
+| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(FieldEnd) | Llamado cuando un campo termina en el documento. |
+| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(FieldSeparator) | Llamado cuando se encuentra un separador de campo en el documento. |
+| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(FieldStart) | Llamado cuando un campo comienza en el documento. |
+| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(Footnote) | Se llama cuando finaliza la enumeración del texto de una nota al pie o al final. |
+| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(Footnote) | Llamado cuando ha comenzado la enumeración de una nota al pie o al final del texto. |
+| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(FormField) | Llamado cuando se encuentra un campo de formulario en el documento. |
+| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(GlossaryDocument) | Se llama cuando finaliza la enumeración de un documento de glosario. |
+| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(GlossaryDocument) | Llamado cuando se ha iniciado la enumeración de un documento de glosario. |
+| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(GroupShape) | Se llama cuando finaliza la enumeración de una forma de grupo. |
+| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(GroupShape) | Llamado cuando ha comenzado la enumeración de una forma de grupo. |
+| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(HeaderFooter) | Se llama cuando finaliza la enumeración de un encabezado o pie de página en una sección. |
+| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(HeaderFooter) | Llamado cuando ha comenzado la enumeración de un encabezado o pie de página en una sección. |
+| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(OfficeMath) | Llamado cuando finaliza la enumeración de un objeto Office Math. |
+| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(OfficeMath) | Llamado cuando se ha iniciado la enumeración de un objeto Office Math. |
+| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(Paragraph) | Llamado cuando finaliza la enumeración de un párrafo. |
+| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(Paragraph) | Llamado cuando ha comenzado la enumeración de un párrafo. |
+| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(Row) | Llamado cuando finaliza la enumeración de una fila de la tabla. |
+| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(Row) | Llamado cuando ha comenzado la enumeración de una fila de la tabla. |
+| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(Run) | Llamado cuando se encuentra una secuencia de texto en el. |
+| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(Section) | Llamado cuando finaliza la enumeración de una sección. |
+| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(Section) | Llamado cuando se ha iniciado la enumeración de una sección. |
+| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(Shape) | Se llama cuando finaliza la enumeración de una forma. |
+| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(Shape) | Llamado cuando ha comenzado la enumeración de una forma. |
+| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(SmartTag) | Se llama cuando finaliza la enumeración de una etiqueta inteligente. |
+| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | Llamado cuando ha comenzado la enumeración de una etiqueta inteligente. |
+| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | Llamado cuando un[`SpecialChar`](../specialchar/) nodo se encuentra en el documento. |
+| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | Se llama cuando finaliza la enumeración de una etiqueta de documento estructurado. |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
+| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Llamado cuando ha comenzado la enumeración de una etiqueta de documento estructurado. |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Llamado cuando se encuentra un subdocumento. |
+| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Se llama cuando finaliza la enumeración de una tabla. |
+| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | Llamado cuando se ha iniciado la enumeración de una tabla. |
 
 ### Observaciones
 
@@ -79,7 +79,7 @@ Usar **Visitante del documento**:
 
 1. Crear una clase derivada de **Visitante del documento**.
 2. Anule y proporcione implementaciones para algunos o todos los métodos VisitXXX para realizar algunas operaciones personalizadas.
-3. Llamar[`Nodo.Aceptar`](../node/accept) sobre el **Nodo** that desde el que desea iniciar la enumeración.
+3. Llamar[`Nodo.Aceptar`](../node/accept/) sobre el **Nodo** that desde el que desea iniciar la enumeración.
 
 **Visitante del documento**proporciona implementaciones predeterminadas para todos los métodos VisitXXX para facilitar la creación de nuevos visitantes de documentos, ya que solo los métodos necesarios para el visitante particular deben anularse. No es necesario anular todos los métodos de visitante.
 
@@ -253,7 +253,7 @@ public class DocStructurePrinter : DocumentVisitor
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

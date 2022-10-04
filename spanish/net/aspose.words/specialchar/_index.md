@@ -18,40 +18,40 @@ public class SpecialChar : Inline
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Especifica el identificador de nodo personalizado. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtiene el documento al que pertenece este nodo. |
-| [Font](../../aspose.words/inline/font) { get; } | Proporciona acceso al formato de fuente de este objeto. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras estaba habilitado el seguimiento de cambios. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | Devoluciones **verdadero** si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | Devoluciones **verdadero** si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/specialchar/nodetype) { get; } | Devoluciones **NodeType.SpecialChar** . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtiene el padre inmediato de este nodo. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Recupera el padre[`Paragraph`](../paragraph) de este nodo. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
+| [Font](../../aspose.words/inline/font/) { get; } | Proporciona acceso al formato de fuente de este objeto. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve verdadero si este nodo puede contener otros nodos. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras estaba habilitado el seguimiento de cambios. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devoluciones **verdadero** si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devoluciones **verdadero** si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | Devoluciones **NodeType.SpecialChar** . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../paragraph/) de este nodo. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un **Rango** objeto que representa la parte de un documento que está contenido en este nodo. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept)(DocumentVisitor) | Acepta un visitante. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crea un duplicado del nodo. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
-| override [GetText](../../aspose.words/specialchar/gettext)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
-| [Remove](../../aspose.words/node/remove)() | Se elimina a sí mismo del padre. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
+| override [Accept](../../aspose.words/specialchar/accept/)(DocumentVisitor) | Acepta un visitante. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crea un duplicado del nodo. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtiene el primer ancestro del tipo de objeto especificado. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtiene el siguiente nodo de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtiene el nodo anterior de acuerdo con el algoritmo de recorrido del árbol de pedido previo. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporta el contenido del nodo a una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporta el contenido del nodo a una cadena utilizando las opciones de guardado especificadas. |
 
 ### Observaciones
 
-Un documento de Microsoft Word puede incluir una serie de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para ver la lista de caracteres especiales, consulte[`ControlChar`](../controlchar).
+Un documento de Microsoft Word puede incluir una serie de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para ver la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
 
 **Caracter especial** es un nodo en línea y solo puede ser un hijo de **Párrafo**.
 
@@ -251,8 +251,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
 
 ### Ver también
 
-* class [Inline](../inline)
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* class [Inline](../inline/)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

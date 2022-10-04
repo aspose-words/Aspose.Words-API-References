@@ -18,17 +18,17 @@ public class SignatureLine
 
 | Nombre | Descripción |
 | --- | --- |
-| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments) { get; set; } | Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **falso** . |
-| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions) { get; set; } | Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **verdadero** . |
-| [Email](../../aspose.words.drawing/signatureline/email) { get; set; } | Obtiene o establece la dirección de correo electrónico del firmante sugerido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
-| [Id](../../aspose.words.drawing/signatureline/id) { get; set; } | Obtiene o establece el identificador para esta línea de firma. |
-| [Instructions](../../aspose.words.drawing/signatureline/instructions) { get; set; } | Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](./defaultinstructions) is set. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
-| [IsSigned](../../aspose.words.drawing/signatureline/issigned) { get; } | Indica que la línea de firma está firmada por firma digital. |
-| [IsValid](../../aspose.words.drawing/signatureline/isvalid) { get; } | Indica que la línea de firma está firmada por firma digital y esta firma digital es válida. |
-| [ProviderId](../../aspose.words.drawing/signatureline/providerid) { get; set; } | Obtiene o establece el identificador del proveedor de firmas para esta línea de firma. El valor predeterminado es "{00000000-0000-0000-0000-000000000000}". |
-| [ShowDate](../../aspose.words.drawing/signatureline/showdate) { get; set; } | Obtiene o establece un valor que indica que la fecha de firma se muestra en la línea de firma. El valor predeterminado para esta propiedad es **verdadero** . |
-| [Signer](../../aspose.words.drawing/signatureline/signer) { get; set; } | Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
-| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle) { get; set; } | Obtiene o establece el título del firmante sugerido (por ejemplo, Gerente). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [AllowComments](../../aspose.words.drawing/signatureline/allowcomments/) { get; set; } | Obtiene o establece un valor que indica que el firmante puede agregar comentarios en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **falso** . |
+| [DefaultInstructions](../../aspose.words.drawing/signatureline/defaultinstructions/) { get; set; } | Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad es **verdadero** . |
+| [Email](../../aspose.words.drawing/signatureline/email/) { get; set; } | Obtiene o establece la dirección de correo electrónico del firmante sugerido. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [Id](../../aspose.words.drawing/signatureline/id/) { get; set; } | Obtiene o establece el identificador para esta línea de firma. |
+| [Instructions](../../aspose.words.drawing/signatureline/instructions/) { get; set; } | Obtiene o establece instrucciones para el firmante que se muestran al firmar la línea de firma. Esta propiedad se ignora si[`DefaultInstructions`](./defaultinstructions/) is set. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [IsSigned](../../aspose.words.drawing/signatureline/issigned/) { get; } | Indica que la línea de firma está firmada por firma digital. |
+| [IsValid](../../aspose.words.drawing/signatureline/isvalid/) { get; } | Indica que la línea de firma está firmada por firma digital y esta firma digital es válida. |
+| [ProviderId](../../aspose.words.drawing/signatureline/providerid/) { get; set; } | Obtiene o establece el identificador del proveedor de firmas para esta línea de firma. El valor predeterminado es "{00000000-0000-0000-0000-000000000000}". |
+| [ShowDate](../../aspose.words.drawing/signatureline/showdate/) { get; set; } | Obtiene o establece un valor que indica que la fecha de firma se muestra en la línea de firma. El valor predeterminado para esta propiedad es **verdadero** . |
+| [Signer](../../aspose.words.drawing/signatureline/signer/) { get; set; } | Obtiene o establece el firmante sugerido de la línea de firma. El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
+| [SignerTitle](../../aspose.words.drawing/signatureline/signertitle/) { get; set; } | Obtiene o establece el título del firmante sugerido (por ejemplo, Gerente). El valor predeterminado para esta propiedad es **cuerda vacía** (Empty ). |
 
 ### Ejemplos
 
@@ -74,7 +74,7 @@ doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing)
+* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

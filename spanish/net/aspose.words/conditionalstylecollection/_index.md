@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Referencia de API de Aspose.Words para .NET
-description: Representa una colección deConditionalStyle./conditionalstyle objetos.
+description: Representa una colección deConditionalStyle./conditionalstyle/ objetos.
 type: docs
 weight: 310
 url: /es/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Representa una colección de[`ConditionalStyle`](../conditionalstyle) objetos.
+Representa una colección de[`ConditionalStyle`](../conditionalstyle/) objetos.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | Nombre | Descripción |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Obtiene el estilo de celda inferior izquierdo. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Obtiene el estilo de celda inferior derecho. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Obtiene el número de estilos condicionales en la colección. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Obtiene el estilo de bandas de columnas pares. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Obtiene el estilo de bandas de filas pares. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | Obtiene el estilo de la primera columna. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | Obtiene el estilo de la primera fila. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Recupera un[`ConditionalStyle`](../conditionalstyle) objeto por tipo de estilo condicional. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Obtiene el último estilo de columna. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Obtiene el estilo de la última fila. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Obtiene el estilo de bandas de columnas impares. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Obtiene el estilo de bandas de filas impares. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Obtiene el estilo de celda superior izquierda. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Obtiene el estilo de celda superior derecho. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Obtiene el estilo de celda inferior izquierdo. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Obtiene el estilo de celda inferior derecho. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Obtiene el número de estilos condicionales en la colección. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Obtiene el estilo de bandas de columnas pares. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Obtiene el estilo de bandas de filas pares. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Obtiene el estilo de la primera columna. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Obtiene el estilo de la primera fila. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Recupera un[`ConditionalStyle`](../conditionalstyle/) objeto por tipo de estilo condicional. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Obtiene el último estilo de columna. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Obtiene el estilo de la última fila. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Obtiene el estilo de bandas de columnas impares. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Obtiene el estilo de bandas de filas impares. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Obtiene el estilo de celda superior izquierda. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Obtiene el estilo de celda superior derecho. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Borra todos los estilos condicionales del estilo de tabla. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los estilos condicionales de la colección. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Borra todos los estilos condicionales del estilo de tabla. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Devuelve un objeto enumerador que se puede usar para iterar sobre todos los estilos condicionales de la colección. |
 
 ### Observaciones
 
-No es posible agregar o eliminar elementos de esta colección. Contiene un conjunto permanente de elementos: un elemento para cada valor de la[`ConditionalStyleType`](../conditionalstyletype) tipo de enumeración.
+No es posible agregar o eliminar elementos de esta colección. Contiene un conjunto permanente de elementos: un elemento para cada valor de la[`ConditionalStyleType`](../conditionalstyletype/) tipo de enumeración.
 
 ### Ejemplos
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### Ver también
 
-* class [ConditionalStyle](../conditionalstyle)
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
