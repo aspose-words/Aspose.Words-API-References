@@ -18,25 +18,25 @@ public class Range
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bookmarks](../../aspose.words/range/bookmarks) { get; } | Returnerar en[`Bookmarks`](./bookmarks) samling som representerar alla bokmärken i intervallet. |
-| [Fields](../../aspose.words/range/fields) { get; } | Returnerar en[`Fields`](./fields) samling som representerar alla fält i området. |
-| [FormFields](../../aspose.words/range/formfields) { get; } | Returnerar en[`FormFields`](./formfields) samling som representerar alla formulärfält i intervallet. |
-| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags) { get; } | Returnerar en[`StructuredDocumentTags`](./structureddocumenttags) samling som representerar alla strukturerade dokumenttaggar i intervallet. |
-| [Text](../../aspose.words/range/text) { get; } | Hämtar intervallets text. |
+| [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Returnerar en[`Bookmarks`](./bookmarks/) samling som representerar alla bokmärken i intervallet. |
+| [Fields](../../aspose.words/range/fields/) { get; } | Returnerar en[`Fields`](./fields/) samling som representerar alla fält i området. |
+| [FormFields](../../aspose.words/range/formfields/) { get; } | Returnerar en[`FormFields`](./formfields/) samling som representerar alla formulärfält i intervallet. |
+| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Returnerar en[`StructuredDocumentTags`](./structureddocumenttags/) samling som representerar alla strukturerade dokumenttaggar i intervallet. |
+| [Text](../../aspose.words/range/text/) { get; } | Hämtar intervallets text. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Delete](../../aspose.words/range/delete)() | Tar bort alla tecken i intervallet. |
-| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Ändrar fälttypvärden[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) av[`FieldStart`](../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../aspose.words.fields/fieldend) i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna. |
-| [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
-| [Replace](../../aspose.words/range/replace#replace)(string, string) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
-| [Replace](../../aspose.words/range/replace#replace_3)(Regex, string, FindReplaceOptions) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
-| [Replace](../../aspose.words/range/replace#replace_1)(string, string, FindReplaceOptions) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
-| [ToDocument](../../aspose.words/range/todocument)() | Konstruerar ett nytt fullt format dokument som innehåller intervallet. |
-| [UnlinkFields](../../aspose.words/range/unlinkfields)() | Tar bort länkar till fält i det här intervallet. |
-| [UpdateFields](../../aspose.words/range/updatefields)() | Uppdaterar värdena för dokumentfält i detta intervall. |
+| [Delete](../../aspose.words/range/delete/)() | Tar bort alla tecken i intervallet. |
+| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Ändrar fälttypvärden[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) av[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) i detta intervall så att de motsvarar fälttyperna som finns i fältkoderna. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
+| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Ersätter alla förekomster av ett teckenmönster som anges av ett reguljärt uttryck med en annan sträng. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng. |
+| [ToDocument](../../aspose.words/range/todocument/)() | Konstruerar ett nytt fullt format dokument som innehåller intervallet. |
+| [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Tar bort länkar till fält i det här intervallet. |
+| [UpdateFields](../../aspose.words/range/updatefields/)() | Uppdaterar värdena för dokumentfält i detta intervall. |
 
 ### Anmärkningar
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 ### Se även
 
-* namnutrymme [Aspose.Words](../../aspose.words)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

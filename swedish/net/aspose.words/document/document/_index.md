@@ -1,7 +1,7 @@
 ---
 title: Document
 second_title: Aspose.Words för .NET API Referens
-description: Skapar ett tomt Word-dokument.
+description: Skapar ett tomt Worddokument.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/document/document/
@@ -16,9 +16,9 @@ public Document()
 
 ### Anmärkningar
 
-Dokumentets pappersstorlek är Letter som standard. Om du vill ändra sidinställningar, använd [`Section.PageSetup`](../../section/pagesetup).
+Dokumentets pappersstorlek är Letter som standard. Om du vill ändra sidinställningar, använd [`Section.PageSetup`](../../section/pagesetup/).
 
-Efter skapandet kan du använda[`DocumentBuilder`](../../documentbuilder) för att enkelt lägga till dokumentinnehåll.
+Efter skapandet kan du använda[`DocumentBuilder`](../../documentbuilder/) för att enkelt lägga till dokumentinnehåll.
 
 ### Exempel
 
@@ -63,8 +63,8 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Se även
 
-* class [Document](../../document)
-* namnutrymme [Aspose.Words](../../document)
+* class [Document](../)
+* namnutrymme [Aspose.Words](../../document/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -85,11 +85,11 @@ public Document(string fileName)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
 ### Exempel
@@ -145,8 +145,8 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ### Se även
 
-* class [Document](../../document)
-* namnutrymme [Aspose.Words](../../document)
+* class [Document](../)
+* namnutrymme [Aspose.Words](../../document/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -168,11 +168,11 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
 ### Exempel
@@ -223,9 +223,9 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Se även
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* namnutrymme [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* namnutrymme [Aspose.Words](../../document/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -246,11 +246,11 @@ public Document(Stream stream)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
@@ -300,8 +300,8 @@ using (WebClient webClient = new WebClient())
 
 ### Se även
 
-* class [Document](../../document)
-* namnutrymme [Aspose.Words](../../document)
+* class [Document](../)
+* namnutrymme [Aspose.Words](../../document/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -323,11 +323,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
@@ -403,9 +403,9 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ### Se även
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* namnutrymme [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* namnutrymme [Aspose.Words](../../document/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

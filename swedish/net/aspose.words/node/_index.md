@@ -1,7 +1,7 @@
 ---
 title: Node
 second_title: Aspose.Words för .NET API Referens
-description: Basklass för alla noder i ett Word-dokument.
+description: Basklass för alla noder i ett Worddokument.
 type: docs
 weight: 3930
 url: /sv/net/aspose.words/node/
@@ -18,30 +18,30 @@ public abstract class Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Anger anpassad nodidentifierare. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Hämtar noden omedelbart efter denna nod. |
-| abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Hämtar typen av denna nod. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
+| abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Hämtar typen av denna nod. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
-| [Remove](../../aspose.words/node/remove)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring#tostring_1)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring#tostring_2)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | En verktygsmetod som omvandlar ett nodtyps enumvärde till en användarvänlig sträng. |
 
 ### Anmärkningar
 
@@ -49,7 +49,7 @@ Ett dokument representeras som ett träd av noder, liknande DOM eller XmlDocumen
 
 För mer information se Composite design mönster.
 
-De[`Node`](../node)klass:
+De[`Node`](./node/)klass:
 
 * Definierar gränssnittet för barnnoden.
 * Definierar gränssnittet för besökande noder.
@@ -146,7 +146,7 @@ foreach (Node child in children)
 
 ### Se även
 
-* namnutrymme [Aspose.Words](../../aspose.words)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

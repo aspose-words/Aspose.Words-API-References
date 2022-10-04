@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Aspose.Words för .NET API Referens
-description: Tillhandahåller data förImageFieldMerging./ifieldmergingcallback/imagefieldmerging händelse.
+description: Tillhandahåller data förImageFieldMerging./ifieldmergingcallback/imagefieldmerging/ händelse.
 type: docs
 weight: 3610
 url: /sv/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Tillhandahåller data för[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) händelse.
+Tillhandahåller data för[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) händelse.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,25 +18,25 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Returnerar[`Document`](../fieldmergingargsbase/document) objekt för vilket sammanslagningen utförs. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Hämtar objektet som representerar det aktuella sammanslagningsfältet. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Hämtar namnet på sammanslagningsfältet i datakällan. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Hämtar eller ställer in fältets värde från datakällan. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | Anger bilden som kopplingsmotorn måste infoga i dokumentet. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | Anger filnamnet på bilden som kopplingsmotorn måste infoga i dokumentet. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | Anger bildhöjden för bilden som ska infogas i dokumentet. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | Anger strömmen för kopplingsmotorn att läsa en bild från. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | Anger bildbredden för bilden som ska infogas i dokumentet. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Hämtar det nollbaserade indexet för posten som slås samman. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Anger formen som kopplingsmotorn måste infoga i dokumentet. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Returnerar[`Document`](../fieldmergingargsbase/document/) objekt för vilket sammanslagningen utförs. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Hämtar objektet som representerar det aktuella sammanslagningsfältet. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Hämtar namnet på sammanslagningsfältet i datakällan. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Hämtar eller ställer in fältets värde från datakällan. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Anger bilden som kopplingsmotorn måste infoga i dokumentet. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Anger filnamnet på bilden som kopplingsmotorn måste infoga i dokumentet. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Anger bildhöjden för bilden som ska infogas i dokumentet. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Anger strömmen för kopplingsmotorn att läsa en bild från. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Anger bildbredden för bilden som ska infogas i dokumentet. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Hämtar det nollbaserade indexet för posten som slås samman. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Anger formen som kopplingsmotorn måste infoga i dokumentet. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
 
 ### Anmärkningar
 
 Den här händelsen inträffar under sammankoppling när ett bildutskick -fält påträffas i dokumentet. Du kan svara på denna händelse för att returnera a filnamn, ström eller enImage objekt mot mail merge -motorn så att den infogas i dokumentet.
 
-Det finns tre fastigheter tillgängliga[`ImageFileName`](./imagefilename) , [`ImageStream`](./imagestream) och[`Image`](./image) för att ange var bilden måste tas ifrån. Ange endast en av dessa egenskaper.
+Det finns tre fastigheter tillgängliga[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) och[`Image`](./image/) för att ange var bilden måste tas ifrån. Ange endast en av dessa egenskaper.
 
 För att infoga ett bildutskickningsfält i ett dokument i Word, välj kommandot Infoga/Fält, , välj sedan MergeField och skriv Image:MyFieldName.
 
@@ -150,8 +150,8 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ### Se även
 
-* class [FieldMergingArgsBase](../fieldmergingargsbase)
-* namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* namnutrymme [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

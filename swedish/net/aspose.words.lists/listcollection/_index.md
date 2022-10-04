@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Hämtar antalet numrerade och punktlistor i dokumentet. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Hämtar ägardokumentet. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Hämtar en lista efter index. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Hämtar antalet numrerade och punktlistor i dokumentet. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Hämtar ägardokumentet. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Hämtar en lista efter index. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Hämtar en lista med en listidentifierare. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Skapar en ny lista som refererar till en liststil och lägger till den i samlingen av listor i dokumentet. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Skapar en ny lista genom att kopiera den angivna listan och lägga till den i samlingen av listor i dokumentet. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Hämtar uppräkningsobjektet som kommer att räkna upp listor i dokumentet. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Hämtar en lista med en listidentifierare. |
 
 ### Anmärkningar
 
-En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i[`ListCollection`](../listcollection) samling separat från textstyckena.
+En lista i ett Microsoft Word-dokument är en uppsättning listformateringsegenskaper. Formateringen av listorna lagras i[`ListCollection`](./listcollection/) samling separat från textstyckena.
 
-Du skapar inte objekt av den här klassen. Det finns alltid bara en[`ListCollection`](../listcollection) objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists) fast egendom.
+Du skapar inte objekt av den här klassen. Det finns alltid bara en[`ListCollection`](./listcollection/) objekt per dokument och det är tillgängligt via[`Lists`](../../aspose.words/documentbase/lists/) fast egendom.
 
-För att skapa en ny lista baserad på en fördefinierad listmall eller baserad på en liststil, använd[`Add`](./add) metod.
+För att skapa en ny lista baserad på en fördefinierad listmall eller baserad på en liststil, använd[`Add`](./add/) metod.
 
-För att skapa en ny lista med formatering identisk med en befintlig lista, använd[`AddCopy`](./addcopy) metod.
+För att skapa en ny lista med formatering identisk med en befintlig lista, använd[`AddCopy`](./addcopy/) metod.
 
-För att göra ett stycke punktat eller numrerat måste du tillämpa listformatering på ett stycke genom att tilldela en[`List`](../list) invända mot the [`List`](../listformat/list) egendom av[`ListFormat`](../listformat).
+För att göra ett stycke punktat eller numrerat måste du tillämpa listformatering på ett stycke genom att tilldela en[`List`](../list/) invända mot the [`List`](../listformat/list/) egendom av[`ListFormat`](../listformat/).
 
-För att ta bort listformatering från ett stycke, använd[`RemoveNumbers`](../listformat/removenumbers) metod.
+För att ta bort listformatering från ett stycke, använd[`RemoveNumbers`](../listformat/removenumbers/) metod.
 
 Om du kan lite om WordprocessingML, så kanske du vet att det definierar separata concepts för "list" och "list definition". Detta motsvarar exakt hur listformatering lagras i ett Microsoft Word-dokument på låg nivå. Listdefinition är som ett "schema" och list är som en instans av en listdefinition.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Se även
 
-* class [List](../list)
-* namnutrymme [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

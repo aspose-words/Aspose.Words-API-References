@@ -18,29 +18,29 @@ public class Style
 
 | namn | Beskrivning |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases) { get; } | Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng. |
-| [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | Hämtar/ställer in namnet på stilen som denna stil är baserad på. |
-| [BuiltIn](../../aspose.words/style/builtin) { get; } | Sant om denna stil är en av de inbyggda stilarna i MS Word. |
-| [Document](../../aspose.words/style/document) { get; } | Hämtar ägardokumentet. |
-| [Font](../../aspose.words/style/font) { get; } | Hämtar teckenformateringen för stilen. |
-| [IsHeading](../../aspose.words/style/isheading) { get; } | Sant när stilen är en av de inbyggda rubrikstilarna. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Anger om denna stil visas i Quick Style-galleriet i MS Word UI. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade. |
-| [List](../../aspose.words/style/list) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
-| [ListFormat](../../aspose.words/style/listformat) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
-| [Name](../../aspose.words/style/name) { get; set; } | Hämtar eller ställer in namnet på stilen. |
-| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | Hämtar formatets styckeformatering. |
-| [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | Hämtar den lokala stilidentifieraren för en inbyggd stil. |
-| [Styles](../../aspose.words/style/styles) { get; } | Får samlingen av stilar som denna stil tillhör. |
-| [Type](../../aspose.words/style/type) { get; } | Hämtar stiltypen (stycke eller tecken). |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | Får alla alias för denna stil. Om stilen inte har några alias returneras tom array av sträng. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Hämtar/ställer in namnet på stilen som denna stil är baserad på. |
+| [BuiltIn](../../aspose.words/style/builtin/) { get; } | Sant om denna stil är en av de inbyggda stilarna i MS Word. |
+| [Document](../../aspose.words/style/document/) { get; } | Hämtar ägardokumentet. |
+| [Font](../../aspose.words/style/font/) { get; } | Hämtar teckenformateringen för stilen. |
+| [IsHeading](../../aspose.words/style/isheading/) { get; } | Sant när stilen är en av de inbyggda rubrikstilarna. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Anger om denna stil visas i Quick Style-galleriet i MS Word UI. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Hämtar namnet på stilen som är länkad till denna. Returnerar tom sträng om inga stilar är länkade. |
+| [List](../../aspose.words/style/list/) { get; } | Hämtar listan som definierar formateringen av denna liststil. |
+| [ListFormat](../../aspose.words/style/listformat/) { get; } | Ger tillgång till listformateringsegenskaperna för en styckestil. |
+| [Name](../../aspose.words/style/name/) { get; set; } | Hämtar eller ställer in namnet på stilen. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Hämtar/ställer in namnet på formatet som ska tillämpas automatiskt på ett nytt stycke som infogas efter a stycke formaterat med det angivna formatet. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Hämtar formatets styckeformatering. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Hämtar den lokala stilidentifieraren för en inbyggd stil. |
+| [Styles](../../aspose.words/style/styles/) { get; } | Får samlingen av stilar som denna stil tillhör. |
+| [Type](../../aspose.words/style/type/) { get; } | Hämtar stiltypen (stycke eller tecken). |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
-| [Remove](../../aspose.words/style/remove)() | Tar bort den angivna stilen från dokumentet. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Jämförs med den angivna stilen. Stilar Istds jämförs endast för inbyggda stilar. Formatmallars standarder ingår inte i jämförelsen. Basstil, länkad stil och nästa styckestil jämförs rekursivt. |
+| [Remove](../../aspose.words/style/remove/)() | Tar bort den angivna stilen från dokumentet. |
 
 ### Exempel
 
@@ -105,7 +105,7 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 ### Se även
 
-* namnutrymme [Aspose.Words](../../aspose.words)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

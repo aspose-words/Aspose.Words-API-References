@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words för .NET API Referens
-description: Lägger till nyttChartSeriesaspose.words.drawing.charts/chartseriestill denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel- kolumn- linje- och ytdiagram.
+description: Lägger till nyttChartSeriesaspose.words.drawing.charts/chartseries/till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel kolumn linje och ytdiagram.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Lägger till nytt[`ChartSeries`](../../chartseries)till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/)till denna samling. Använd den här metoden för att lägga till serier till alla typer av stapel-, kolumn-, linje- och ytdiagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,7 +16,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### Returvärde
 
-Nyligen tillagd[`ChartSeries`](../../chartseries) objekt.
+Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
 ### Exempel
 
@@ -105,16 +105,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Se även
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[]) {#add}
 
-Lägger till nytt[`ChartSeries`](../../chartseries) till denna samling. Använd den här metoden för att lägga till serier till alla typer av punktdiagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av punktdiagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,7 +122,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### Returvärde
 
-Nyligen tillagd[`ChartSeries`](../../chartseries) objekt.
+Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
 ### Exempel
 
@@ -211,16 +211,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Se även
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-Lägger till nytt[`ChartSeries`](../../chartseries) till denna samling. Använd den här metoden för att lägga till serier till alla typer av områdes-, radar- och aktiediagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av områdes-, radar- och aktiediagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -313,16 +313,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Se även
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Lägger till nytt[`ChartSeries`](../../chartseries) till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram.
+Lägger till nytt[`ChartSeries`](../../chartseries/) till denna samling. Använd den här metoden för att lägga till serier till alla typer av bubbeldiagram.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,7 +330,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### Returvärde
 
-Nyligen tillagd[`ChartSeries`](../../chartseries) objekt.
+Nyligen tillagd[`ChartSeries`](../../chartseries/) objekt.
 
 ### Exempel
 
@@ -419,9 +419,9 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Se även
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

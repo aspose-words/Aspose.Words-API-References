@@ -1,14 +1,14 @@
 ---
 title: TabStopCollection
 second_title: Aspose.Words för .NET API Referens
-description: En samling avTabStop./tabstopobjekt som representerar anpassade flikar för ett stycke eller en stil.
+description: En samling avTabStop./tabstop/objekt som representerar anpassade flikar för ett stycke eller en stil.
 type: docs
 weight: 5910
 url: /sv/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
-En samling av[`TabStop`](../tabstop)objekt som representerar anpassade flikar för ett stycke eller en stil.
+En samling av[`TabStop`](../tabstop/)objekt som representerar anpassade flikar för ett stycke eller en stil.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -18,25 +18,25 @@ public class TabStopCollection : InternableComplexAttr
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words/tabstopcollection/count) { get; } | Hämtar antalet tabbstopp i samlingen. |
-| [Item](../../aspose.words/tabstopcollection/item) { get; } | Får ett tabbstopp vid det givna indexet. (2 indexers) |
+| [Count](../../aspose.words/tabstopcollection/count/) { get; } | Hämtar antalet tabbstopp i samlingen. |
+| [Item](../../aspose.words/tabstopcollection/item/) { get; } | Får ett tabbstopp vid det givna indexet. (2 indexers) |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add#add)(TabStop) | Lägger till eller ersätter ett tabbstopp i samlingen. |
-| [Add](../../aspose.words/tabstopcollection/add#add_1)(double, TabAlignment, TabLeader) | Lägger till eller ersätter ett tabbstopp i samlingen. |
-| [After](../../aspose.words/tabstopcollection/after)(double) | Får ett första tabbstopp till höger om den angivna positionen. |
-| [Before](../../aspose.words/tabstopcollection/before)(double) | Får ett första tabbstopp till vänster om den angivna positionen. |
-| [Clear](../../aspose.words/tabstopcollection/clear)() | Tar bort alla tabbstopppositioner. |
-| override [Equals](../../aspose.words/tabstopcollection/equals#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words/tabstopcollection/equals#equals)(TabStopCollection) | Bestämmer om den angivna TabStopCollection är lika i värde med den aktuella TabStopCollection. |
-| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode)() | Fungerar som en hashfunktion för denna typ. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition)(double) | Hämtar indexet för ett tabbstopp med angiven position i poäng. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex)(int) | Hämtar positionen (i poäng) för tabbstoppet vid det angivna indexet. |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex)(int) | Tar bort ett tabbstopp vid det angivna indexet från samlingen. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition)(double) | Tar bort ett tabbstopp vid angiven position från samlingen. |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(TabStop) | Lägger till eller ersätter ett tabbstopp i samlingen. |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(double, TabAlignment, TabLeader) | Lägger till eller ersätter ett tabbstopp i samlingen. |
+| [After](../../aspose.words/tabstopcollection/after/)(double) | Får ett första tabbstopp till höger om den angivna positionen. |
+| [Before](../../aspose.words/tabstopcollection/before/)(double) | Får ett första tabbstopp till vänster om den angivna positionen. |
+| [Clear](../../aspose.words/tabstopcollection/clear/)() | Tar bort alla tabbstopppositioner. |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(object) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(TabStopCollection) | Bestämmer om den angivna TabStopCollection är lika i värde med den aktuella TabStopCollection. |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(double) | Hämtar indexet för ett tabbstopp med angiven position i poäng. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(int) | Hämtar positionen (i poäng) för tabbstoppet vid det angivna indexet. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(int) | Tar bort ett tabbstopp vid det angivna indexet från samlingen. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(double) | Tar bort ett tabbstopp vid angiven position från samlingen. |
 
 ### Anmärkningar
 
@@ -87,8 +87,8 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ### Se även
 
-* class [InternableComplexAttr](../internablecomplexattr)
-* namnutrymme [Aspose.Words](../../aspose.words)
+* class [InternableComplexAttr](../internablecomplexattr/)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

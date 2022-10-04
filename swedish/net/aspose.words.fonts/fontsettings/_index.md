@@ -18,33 +18,33 @@ public class FontSettings
 
 | namn | Beskrivning |
 | --- | --- |
-| [FontSettings](fontsettings)() | Default_Constructor |
+| [FontSettings](fontsettings/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | Statiska standardteckensnittsinställningar. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | Inställningar relaterade till reservmekanism för teckensnitt. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | Inställningar relaterade till teckensnittsersättningsmekanism. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Statiska standardteckensnittsinställningar. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Inställningar relaterade till reservmekanism för teckensnitt. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Inställningar relaterade till teckensnittsersättningsmekanism. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | Får en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueType-teckensnitt. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | Återställer teckensnittskällorna till systemets standard. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Sparar typsnittssökningscachen i strömmen. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Ställer in mappen där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg till[`SetFontsFolders`](./setfontsfolders) för att endast ställa in en teckensnittskatalog. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Ställer in mapparna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt och laddar dessutom tidigare sparad typsnittssökningscache. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Får en kopia av arrayen som innehåller listan över källor där Aspose.Words letar efter TrueType-teckensnitt. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Återställer teckensnittskällorna till systemets standard. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Sparar typsnittssökningscachen i strömmen. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Ställer in mappen där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. Detta är en genväg till[`SetFontsFolders`](./setfontsfolders/) för att endast ställa in en teckensnittskatalog. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Ställer in mapparna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Ställer in källorna där Aspose.Words söker efter TrueType-teckensnitt och laddar dessutom tidigare sparad typsnittssökningscache. |
 
 ### Anmärkningar
 
-Aspose.Words använder teckensnittsinställningar för att lösa teckensnitten i dokumentet. Teckensnitt löses mest när man bygger dokumentlayout eller renderar till fasta sidformat. Men när du laddar vissa format kan Aspose.Words också behöva lösa teckensnitten. Till exempel, när laddar HTML-dokument Aspose.Words kan lösa teckensnitten för att utföra fallback. Så det rekommenderas att du ställer in teckensnittsinställningarna i [`LoadOptions`](../../aspose.words.loading/loadoptions) när du laddar dokumentet. Eller åtminstone innan du bygger layouten eller renderar dokumentet till formatet med fasta sidor.
+Aspose.Words använder teckensnittsinställningar för att lösa teckensnitten i dokumentet. Teckensnitt löses mest när man bygger dokumentlayout eller renderar till fasta sidformat. Men när du laddar vissa format kan Aspose.Words också behöva lösa teckensnitten. Till exempel, när laddar HTML-dokument Aspose.Words kan lösa teckensnitten för att utföra fallback. Så det rekommenderas att du ställer in teckensnittsinställningarna i [`LoadOptions`](../../aspose.words.loading/loadoptions/) när du laddar dokumentet. Eller åtminstone innan du bygger layouten eller renderar dokumentet till formatet med fasta sidor.
 
-Som standard använder alla dokument enstaka statiska teckensnittsinställningar. Den kunde nås av [`DefaultInstance`](./defaultinstance) fast egendom.
+Som standard använder alla dokument enstaka statiska teckensnittsinställningar. Den kunde nås av [`DefaultInstance`](./defaultinstance/) fast egendom.
 
 Att ändra teckensnittsinställningar är säkert när som helst från vilken tråd som helst. Men det rekommenderas att du inte ändrar teckensnittsinställningarna medan bearbetar vissa dokument som använder dessa inställningar. Detta kan leda till att samma typsnitt kommer att lösas olika i olika delar av dokumentet.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts)
+* namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

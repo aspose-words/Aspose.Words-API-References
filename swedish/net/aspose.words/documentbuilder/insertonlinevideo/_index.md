@@ -26,14 +26,14 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 Infogning av onlinevideo från följande resurser stöds:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](../insertonlinevideo), som accepterar anpassad inbäddad html-kod.
+Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](./insertonlinevideo/), som accepterar anpassad inbäddad html-kod.
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 Infogning av onlinevideo från följande resurser stöds:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](../insertonlinevideo), som accepterar anpassad inbäddad html-kod.
+Om din onlinevideo inte visas korrekt, använd[`InsertOnlineVideo`](./insertonlinevideo/), som accepterar anpassad inbäddad html-kod.
 
 Koden för inbäddning av video kan variera mellan olika leverantörer, kontakta din motsvarande leverantör för mer information.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

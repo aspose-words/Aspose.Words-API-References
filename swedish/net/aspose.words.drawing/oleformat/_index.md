@@ -1,7 +1,7 @@
 ---
 title: OleFormat
 second_title: Aspose.Words för .NET API Referens
-description: Ger åtkomst till data för ett OLE-objekt eller ActiveX-kontroll.
+description: Ger åtkomst till data för ett OLEobjekt eller ActiveXkontroll.
 type: docs
 weight: 1020
 url: /sv/net/aspose.words.drawing/oleformat/
@@ -18,32 +18,32 @@ public class OleFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate) { get; set; } | Anger om länken till OLE-objektet uppdateras automatiskt eller inte i Microsoft Word. |
-| [Clsid](../../aspose.words.drawing/oleformat/clsid) { get; } | Hämtar CLSID för OLE-objektet. |
-| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption) { get; } | Får ikontext för OLE-objekt. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink) { get; } | Returnerar sant om OLE-objektet är länkat (när[`SourceFullName`](./sourcefullname) anges). |
-| [IsLocked](../../aspose.words.drawing/oleformat/islocked) { get; set; } | Anger om länken till OLE-objektet är låst från uppdateringar. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol) { get; } | Blir[`OleControl`](./olecontrol) objekt om detta OLE-objekt är en ActiveX-kontroll. Annars är den här egenskapen null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon) { get; } | Hämtar ritaspekten för OLE-objektet. När **Sann** , visas OLE-objektet som en ikon. När **falsk** , visas OLE-objektet som innehåll. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage) { get; } | Ge åtkomst till[`OlePackage`](../olepackage) om OLE-objekt är ett OLE-paket. Returnerar null annars. |
-| [ProgId](../../aspose.words.drawing/oleformat/progid) { get; set; } | Hämtar eller ställer in ProgID för OLE-objektet. |
-| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLE-objektet. |
-| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem) { get; set; } | Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas. |
-| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension) { get; } | Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
-| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename) { get; } | Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
+| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Anger om länken till OLE-objektet uppdateras automatiskt eller inte i Microsoft Word. |
+| [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Hämtar CLSID för OLE-objektet. |
+| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Får ikontext för OLE-objekt. |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Returnerar sant om OLE-objektet är länkat (när[`SourceFullName`](./sourcefullname/) anges). |
+| [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Anger om länken till OLE-objektet är låst från uppdateringar. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Blir[`OleControl`](./olecontrol/) objekt om detta OLE-objekt är en ActiveX-kontroll. Annars är den här egenskapen null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Hämtar ritaspekten för OLE-objektet. När **Sann** , visas OLE-objektet som en ikon. När **falsk** , visas OLE-objektet som innehåll. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Ge åtkomst till[`OlePackage`](../olepackage/) om OLE-objekt är ett OLE-paket. Returnerar null annars. |
+| [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Hämtar eller ställer in ProgID för OLE-objektet. |
+| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLE-objektet. |
+| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas. |
+| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
+| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry)(string) | Hämtar OLE-objektdatainmatning. |
-| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata)() | Hämtar rådata för OLE-objekt. |
-| [Save](../../aspose.words.drawing/oleformat/save#save)(Stream) | Sparar data för det inbäddade objektet i den angivna strömmen. |
-| [Save](../../aspose.words.drawing/oleformat/save#save_1)(string) | Sparar data för det inbäddade objektet i en fil med det angivna namnet. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(string) | Hämtar OLE-objektdatainmatning. |
+| [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Hämtar rådata för OLE-objekt. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(Stream) | Sparar data för det inbäddade objektet i den angivna strömmen. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(string) | Sparar data för det inbäddade objektet i en fil med det angivna namnet. |
 
 ### Anmärkningar
 
-Använd[`OleFormat`](../shape/oleformat) egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av[`OleFormat`](../oleformat) klass direkt.
+Använd[`OleFormat`](../shape/oleformat/) egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av[`OleFormat`](./oleformat/) klass direkt.
 
 ### Exempel
 
@@ -79,7 +79,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing)
+* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

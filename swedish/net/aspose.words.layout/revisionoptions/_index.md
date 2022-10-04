@@ -18,25 +18,25 @@ public class RevisionOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [CommentColor](../../aspose.words.layout/revisionoptions/commentcolor) { get; set; } | Gör det möjligt att ange färgen som ska användas för kommentarer. Standardvärdet ärRed . |
-| [DeletedTextColor](../../aspose.words.layout/revisionoptions/deletedtextcolor) { get; set; } | Tillåter att ange färgen som ska användas för borttaget innehållDeletion . Standardvärdet ärByAuthor . |
-| [DeletedTextEffect](../../aspose.words.layout/revisionoptions/deletedtexteffect) { get; set; } | Tillåter att specificera effekten som ska tillämpas på det raderade innehålletDeletion . Standardvärdet ärStrikeThrough |
-| [InsertedTextColor](../../aspose.words.layout/revisionoptions/insertedtextcolor) { get; set; } | Tillåter att ange färgen som ska användas för infogat innehållInsertion . Standardvärdet ärByAuthor . |
-| [InsertedTextEffect](../../aspose.words.layout/revisionoptions/insertedtexteffect) { get; set; } | Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline . |
-| [MeasurementUnit](../../aspose.words.layout/revisionoptions/measurementunit) { get; set; } | Gör det möjligt att ange måttenheter för revisionskommentarer. Standardvärdet ärCentimeters |
-| [MovedFromTextColor](../../aspose.words.layout/revisionoptions/movedfromtextcolor) { get; set; } | Tillåter att ange färgen som ska användas för områden där innehållet har flyttats frånMoving . Standardvärdet ärByAuthor . |
-| [MovedFromTextEffect](../../aspose.words.layout/revisionoptions/movedfromtexteffect) { get; set; } | Tillåter att specificera effekten som ska tillämpas på de områden där innehållet flyttades frånMoving . Standardvärdet ärDoubleStrikeThrough |
-| [MovedToTextColor](../../aspose.words.layout/revisionoptions/movedtotextcolor) { get; set; } | Tillåter att ange färgen som ska användas för områden där innehållet har flyttats tillMoving . Standardvärdet ärByAuthor . |
-| [MovedToTextEffect](../../aspose.words.layout/revisionoptions/movedtotexteffect) { get; set; } | Tillåter att ange effekten som ska tillämpas på de områden där innehållet flyttades tillMoving . Standardvärdet ärDoubleUnderline |
-| [RevisedPropertiesColor](../../aspose.words.layout/revisionoptions/revisedpropertiescolor) { get; set; } | Tillåter att ange färgen som ska användas för innehåll med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNoHighlight . |
-| [RevisedPropertiesEffect](../../aspose.words.layout/revisionoptions/revisedpropertieseffect) { get; set; } | Tillåter att specificera effekten för innehållsområden med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNone |
-| [RevisionBarsColor](../../aspose.words.layout/revisionoptions/revisionbarscolor) { get; set; } | Gör det möjligt att ange färgen som ska användas för sidofält som identifierar dokumentrader som innehåller reviderad information. Standardvärdet ärRed . |
-| [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition) { get; set; } | Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside . |
-| [RevisionBarsWidth](../../aspose.words.layout/revisionoptions/revisionbarswidth) { get; set; } | Hämtar eller ställer in bredden på revisionsstaplar, punkter. |
-| [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons) { get; set; } | Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardvärdet ärNone . |
-| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision) { get; set; } | Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är False. |
-| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars) { get; set; } | Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är True. |
-| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks) { get; set; } | Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är True. |
+| [CommentColor](../../aspose.words.layout/revisionoptions/commentcolor/) { get; set; } | Gör det möjligt att ange färgen som ska användas för kommentarer. Standardvärdet ärRed . |
+| [DeletedTextColor](../../aspose.words.layout/revisionoptions/deletedtextcolor/) { get; set; } | Tillåter att ange färgen som ska användas för borttaget innehållDeletion . Standardvärdet ärByAuthor . |
+| [DeletedTextEffect](../../aspose.words.layout/revisionoptions/deletedtexteffect/) { get; set; } | Tillåter att specificera effekten som ska tillämpas på det raderade innehålletDeletion . Standardvärdet ärStrikeThrough |
+| [InsertedTextColor](../../aspose.words.layout/revisionoptions/insertedtextcolor/) { get; set; } | Tillåter att ange färgen som ska användas för infogat innehållInsertion . Standardvärdet ärByAuthor . |
+| [InsertedTextEffect](../../aspose.words.layout/revisionoptions/insertedtexteffect/) { get; set; } | Tillåter att specificera effekten som ska tillämpas på det infogade innehålletInsertion . Standardvärdet ärUnderline . |
+| [MeasurementUnit](../../aspose.words.layout/revisionoptions/measurementunit/) { get; set; } | Gör det möjligt att ange måttenheter för revisionskommentarer. Standardvärdet ärCentimeters |
+| [MovedFromTextColor](../../aspose.words.layout/revisionoptions/movedfromtextcolor/) { get; set; } | Tillåter att ange färgen som ska användas för områden där innehållet har flyttats frånMoving . Standardvärdet ärByAuthor . |
+| [MovedFromTextEffect](../../aspose.words.layout/revisionoptions/movedfromtexteffect/) { get; set; } | Tillåter att specificera effekten som ska tillämpas på de områden där innehållet flyttades frånMoving . Standardvärdet ärDoubleStrikeThrough |
+| [MovedToTextColor](../../aspose.words.layout/revisionoptions/movedtotextcolor/) { get; set; } | Tillåter att ange färgen som ska användas för områden där innehållet har flyttats tillMoving . Standardvärdet ärByAuthor . |
+| [MovedToTextEffect](../../aspose.words.layout/revisionoptions/movedtotexteffect/) { get; set; } | Tillåter att ange effekten som ska tillämpas på de områden där innehållet flyttades tillMoving . Standardvärdet ärDoubleUnderline |
+| [RevisedPropertiesColor](../../aspose.words.layout/revisionoptions/revisedpropertiescolor/) { get; set; } | Tillåter att ange färgen som ska användas för innehåll med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNoHighlight . |
+| [RevisedPropertiesEffect](../../aspose.words.layout/revisionoptions/revisedpropertieseffect/) { get; set; } | Tillåter att specificera effekten för innehållsområden med ändringar av formateringsegenskaperFormatChange Standardvärdet ärNone |
+| [RevisionBarsColor](../../aspose.words.layout/revisionoptions/revisionbarscolor/) { get; set; } | Gör det möjligt att ange färgen som ska användas för sidofält som identifierar dokumentrader som innehåller reviderad information. Standardvärdet ärRed . |
+| [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition/) { get; set; } | Hämtar eller ställer in renderingsposition för revisionsstaplar. Standardvärdet ärOutside . |
+| [RevisionBarsWidth](../../aspose.words.layout/revisionoptions/revisionbarswidth/) { get; set; } | Hämtar eller ställer in bredden på revisionsstaplar, punkter. |
+| [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons/) { get; set; } | Gör det möjligt att ange om revisionerna ska återges i ballongerna. Standardvärdet ärNone . |
+| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | Tillåter att ange om den ursprungliga texten ska visas istället för en reviderad. Standardvärdet är False. |
+| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Tillåter att ange om revisionsstaplar ska renderas nära linjer som innehåller reviderat innehåll. Standardvärdet är True. |
+| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Tillåt att ange om versionstext ska markeras med speciell formateringsmarkering. Standardvärdet är True. |
 
 ### Exempel
 
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Layout](../../aspose.words.layout)
+* namnutrymme [Aspose.Words.Layout](../../aspose.words.layout/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

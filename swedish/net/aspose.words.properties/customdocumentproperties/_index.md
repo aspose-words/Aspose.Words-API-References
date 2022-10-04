@@ -18,30 +18,30 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | Får antal föremål i samlingen. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Returnerar en[`DocumentProperty`](../documentproperty) objekt efter index. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Returnerar en[`DocumentProperty`](../documentproperty) objekt efter egenskapens namn. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Får antal föremål i samlingen. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter index. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter egenskapens namn. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Boolean** datatyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | Skapar en ny anpassad dokumentegenskap för **PropertyType.DateTime** datatyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Float** datatyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Number** datatyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | Skapar en ny anpassad dokumentegenskap för **PropertyType.String** datatyp. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Skapar en ny länkad till innehåll anpassad dokumentegenskap. |
-| [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Returnerar sant om en egenskap med det angivna namnet finns i samlingen. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | Hämtar indexet för en egenskap efter namn. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Tar bort en egenskap vid det angivna indexet. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Boolean** datatyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | Skapar en ny anpassad dokumentegenskap för **PropertyType.DateTime** datatyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Float** datatyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | Skapar en ny anpassad dokumentegenskap för **PropertyType.Number** datatyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | Skapar en ny anpassad dokumentegenskap för **PropertyType.String** datatyp. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | Skapar en ny länkad till innehåll anpassad dokumentegenskap. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returnerar sant om en egenskap med det angivna namnet finns i samlingen. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Hämtar indexet för en egenskap efter namn. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Tar bort en egenskap med det angivna namnet från samlingen. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Tar bort en egenskap vid det angivna indexet. |
 
 ### Anmärkningar
 
-Varje[`DocumentProperty`](../documentproperty) objekt representerar en anpassad egenskap för ett containerdokument.
+Varje[`DocumentProperty`](../documentproperty/) objekt representerar en anpassad egenskap för ett containerdokument.
 
 Namnen på egenskaperna är skiftlägesokänsliga.
 
@@ -71,11 +71,11 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 ### Se även
 
-* class [Document](../../aspose.words/document)
-* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties)
-* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties)
-* class [DocumentPropertyCollection](../documentpropertycollection)
-* namnutrymme [Aspose.Words.Properties](../../aspose.words.properties)
+* class [Document](../../aspose.words/document/)
+* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/)
+* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/)
+* class [DocumentPropertyCollection](../documentpropertycollection/)
+* namnutrymme [Aspose.Words.Properties](../../aspose.words.properties/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,27 +18,27 @@ public class CellFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Får samling av cellens kanter. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i cellen. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | Om sant, passar text i cellen och komprimerar varje stycke till cellens bredd. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Anger hur cellen sammanfogas horisontellt med andra celler i raden. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i cellen. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Returnerar eller ställer in orienteringen för text i en tabellcell. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Returnerar eller ställer in önskad bredd på cellen. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i cellen. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Returnerar ett Shading-objekt som refererar till skuggformateringen för cellen. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanför innehållet i cellen. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Returnerar eller ställer in den vertikala justeringen av text i cellen. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Anger hur cellen sammanfogas med andra celler vertikalt. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Får cellens bredd i punkter. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | Om sant, radbryt text för cellen. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Får samling av cellens kanter. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i cellen. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Om sant, passar text i cellen och komprimerar varje stycke till cellens bredd. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Anger hur cellen sammanfogas horisontellt med andra celler i raden. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i cellen. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returnerar eller ställer in orienteringen för text i en tabellcell. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Returnerar eller ställer in önskad bredd på cellen. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i cellen. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Returnerar ett Shading-objekt som refererar till skuggformateringen för cellen. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanför innehållet i cellen. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Returnerar eller ställer in den vertikala justeringen av text i cellen. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Anger hur cellen sammanfogas med andra celler vertikalt. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Får cellens bredd i punkter. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Om sant, radbryt text för cellen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Återställer till standardcellformatering. Ändrar inte cellens bredd. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Återställer till standardcellformatering. Ändrar inte cellens bredd. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen. |
 
 ### Exempel
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Tables](../../aspose.words.tables)
+* namnutrymme [Aspose.Words.Tables](../../aspose.words.tables/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
