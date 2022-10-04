@@ -1,7 +1,7 @@
 ---
 title: PlainTextDocument
 second_title: Aspose.Words für .NET-API-Referenz
-description: Erstellt aus einer Datei ein Nur-Text-Dokument. Erkennt automatisch das Dateiformat.
+description: Erstellt aus einer Datei ein NurTextDokument. Erkennt automatisch das Dateiformat.
 type: docs
 weight: 10
 url: /de/net/aspose.words/plaintextdocument/plaintextdocument/
@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
-| [FileCorruptedException](../../filecorruptedexception) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
+| [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
 | Exception | Es gibt ein Problem mit dem Dokument und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
 | IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
 ### Beispiele
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Siehe auch
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namensraum [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namensraum [Aspose.Words](../../plaintextdocument/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
-| [FileCorruptedException](../../filecorruptedexception) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
+| [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
 | Exception | Es gibt ein Problem mit dem Dokument und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
 | IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
 | ArgumentException | Der Name der Datei darf nicht null oder eine leere Zeichenfolge sein. |
 
 ### Beispiele
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Siehe auch
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namensraum [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namensraum [Aspose.Words](../../plaintextdocument/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
-| [FileCorruptedException](../../filecorruptedexception) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
+| [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
 | Exception | Es gibt ein Problem mit dem Dokument und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
 | IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
 | ArgumentNullException | Der Stream darf nicht null sein. |
 | NotSupportedException | Der Stream unterstützt kein Lesen oder Suchen. |
 | ObjectDisposedException | Der Stream ist ein verworfenes Objekt. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Siehe auch
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namensraum [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namensraum [Aspose.Words](../../plaintextdocument/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | Ausnahme | Bedingung |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
-| [FileCorruptedException](../../filecorruptedexception) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Das Dokumentformat wird nicht erkannt oder nicht unterstützt. |
+| [FileCorruptedException](../../filecorruptedexception/) | Das Dokument scheint beschädigt zu sein und kann nicht geladen werden. |
 | Exception | Es gibt ein Problem mit dem Dokument und es sollte den Aspose.Words-Entwicklern gemeldet werden. |
 | IOException | Es liegt eine Ein-/Ausgabeausnahme vor. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Das Dokument ist verschlüsselt und zum Öffnen ist ein Kennwort erforderlich, aber Sie haben ein falsches Kennwort angegeben. |
 | ArgumentNullException | Der Stream darf nicht null sein. |
 | NotSupportedException | Der Stream unterstützt kein Lesen oder Suchen. |
 | ObjectDisposedException | Der Stream ist ein verworfenes Objekt. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Siehe auch
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namensraum [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namensraum [Aspose.Words](../../plaintextdocument/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

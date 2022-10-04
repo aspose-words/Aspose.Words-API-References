@@ -18,25 +18,25 @@ public class Range
 
 | Nome | Descrizione |
 | --- | --- |
-| [Bookmarks](../../aspose.words/range/bookmarks) { get; } | Restituisce a[`Bookmarks`](./bookmarks) raccolta che rappresenta tutti i segnalibri nell'intervallo. |
-| [Fields](../../aspose.words/range/fields) { get; } | Restituisce a[`Fields`](./fields) raccolta che rappresenta tutti i campi nell'intervallo. |
-| [FormFields](../../aspose.words/range/formfields) { get; } | Restituisce a[`FormFields`](./formfields) raccolta che rappresenta tutti i campi modulo nell'intervallo. |
-| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags) { get; } | Restituisce a[`StructuredDocumentTags`](./structureddocumenttags) raccolta che rappresenta tutti i tag di documenti strutturati nell'intervallo. |
-| [Text](../../aspose.words/range/text) { get; } | Ottiene il testo dell'intervallo. |
+| [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Restituisce a[`Bookmarks`](./bookmarks/) raccolta che rappresenta tutti i segnalibri nell'intervallo. |
+| [Fields](../../aspose.words/range/fields/) { get; } | Restituisce a[`Fields`](./fields/) raccolta che rappresenta tutti i campi nell'intervallo. |
+| [FormFields](../../aspose.words/range/formfields/) { get; } | Restituisce a[`FormFields`](./formfields/) raccolta che rappresenta tutti i campi modulo nell'intervallo. |
+| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Restituisce a[`StructuredDocumentTags`](./structureddocumenttags/) raccolta che rappresenta tutti i tag di documenti strutturati nell'intervallo. |
+| [Text](../../aspose.words/range/text/) { get; } | Ottiene il testo dell'intervallo. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Delete](../../aspose.words/range/delete)() | Elimina tutti i caratteri dell'intervallo. |
-| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Modifica i valori del tipo di campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) di[`FieldStart`](../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../aspose.words.fields/fieldend) in questo intervallo in modo che corrispondano ai tipi di campo contenuti nei codici di campo. |
-| [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa. |
-| [Replace](../../aspose.words/range/replace#replace)(string, string) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione. |
-| [Replace](../../aspose.words/range/replace#replace_3)(Regex, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa. |
-| [Replace](../../aspose.words/range/replace#replace_1)(string, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione. |
-| [ToDocument](../../aspose.words/range/todocument)() | Costruisce un nuovo documento completamente formato che contiene l'intervallo. |
-| [UnlinkFields](../../aspose.words/range/unlinkfields)() | Scollega i campi in questo intervallo. |
-| [UpdateFields](../../aspose.words/range/updatefields)() | Aggiorna i valori dei campi del documento in questo intervallo. |
+| [Delete](../../aspose.words/range/delete/)() | Elimina tutti i caratteri dell'intervallo. |
+| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Modifica i valori del tipo di campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) di[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) in questo intervallo in modo che corrispondano ai tipi di campo contenuti nei codici di campo. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa. |
+| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di una sequenza di caratteri specificata da un'espressione regolare con un'altra stringa. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Sostituisce tutte le occorrenze di un modello di stringa di caratteri specificato con una stringa di sostituzione. |
+| [ToDocument](../../aspose.words/range/todocument/)() | Costruisce un nuovo documento completamente formato che contiene l'intervallo. |
+| [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Scollega i campi in questo intervallo. |
+| [UpdateFields](../../aspose.words/range/updatefields/)() | Aggiorna i valori dei campi del documento in questo intervallo. |
 
 ### Osservazioni
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words](../../aspose.words)
+* spazio dei nomi [Aspose.Words](../../aspose.words/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

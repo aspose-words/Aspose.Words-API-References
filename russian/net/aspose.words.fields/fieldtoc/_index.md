@@ -18,50 +18,50 @@ public class FieldToc : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldToc](fieldtoc)() | Конструктор по умолчанию. |
+| [FieldToc](fieldtoc/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения таблицы. |
-| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel) { get; set; } | Получает или задает имя идентификатора последовательности, используемого при построении таблицы рисунков, которая не включает метку и номер заголовка . |
-| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles) { get; set; } | Получает или задает список стилей, отличных от встроенных стилей заголовков, для включения в оглавление. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier) { get; set; } | Получает или задает строку, которая должна соответствовать идентификаторам типов включаемых полей TC. |
-| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange) { get; set; } | Получает или задает диапазон уровней включаемых записей оглавления. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator) { get; set; } | Получает или задает последовательность символов, разделяющую запись и номер ее страницы. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange) { get; set; } | Получает или задает диапазон уровней заголовков для включения. |
-| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout) { get; set; } | Получает или задает, следует ли скрывать заглавную вкладку и номера страниц в представлении веб-макета. |
-| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks) { get; set; } | Получает или задает, следует ли делать записи оглавления гиперссылками. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange) { get; set; } | Получает или задает диапазон уровней записей оглавления, из которых следует исключить номера страниц. |
-| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier) { get; set; } | Получает или задает идентификатор последовательности, для которой следует добавить префикс к номеру страницы записи. |
-| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks) { get; set; } | Получает или задает, следует ли сохранять символы новой строки в записях таблицы. |
-| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs) { get; set; } | Получает или задает необходимость сохранения записей вкладок в записях таблицы. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel) { get; set; } | Получает или задает имя идентификатора последовательности, используемого при построении таблицы фигур. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
-| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel) { get; set; } | Получает или задает, следует ли использовать примененный уровень структуры абзаца. |
+| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения таблицы. |
+| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | Получает или задает имя идентификатора последовательности, используемого при построении таблицы рисунков, которая не включает метку и номер заголовка . |
+| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | Получает или задает список стилей, отличных от встроенных стилей заголовков, для включения в оглавление. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | Получает или задает строку, которая должна соответствовать идентификаторам типов включаемых полей TC. |
+| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | Получает или задает диапазон уровней включаемых записей оглавления. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | Получает или задает последовательность символов, разделяющую запись и номер ее страницы. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | Получает или задает диапазон уровней заголовков для включения. |
+| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | Получает или задает, следует ли скрывать заглавную вкладку и номера страниц в представлении веб-макета. |
+| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | Получает или задает, следует ли делать записи оглавления гиперссылками. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | Получает или задает диапазон уровней записей оглавления, из которых следует исключить номера страниц. |
+| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | Получает или задает идентификатор последовательности, для которой следует добавить префикс к номеру страницы записи. |
+| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | Получает или задает, следует ли сохранять символы новой строки в записях таблицы. |
+| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | Получает или задает необходимость сохранения записей вкладок в записях таблицы. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | Получает или задает имя идентификатора последовательности, используемого при построении таблицы фигур. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
+| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | Получает или задает, следует ли использовать примененный уровень структуры абзаца. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | Обновляет номера страниц для элементов в этом оглавлении. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Обновляет номера страниц для элементов в этом оглавлении. |
 
 ### Примечания
 
@@ -220,8 +220,8 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

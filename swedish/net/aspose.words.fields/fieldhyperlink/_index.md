@@ -1,7 +1,7 @@
 ---
 title: FieldHyperlink
 second_title: Aspose.Words för .NET API Referens
-description: Implementerar HYPERLINK-fältet
+description: Implementerar HYPERLINKfältet
 type: docs
 weight: 1840
 url: /sv/net/aspose.words.fields/fieldhyperlink/
@@ -18,39 +18,39 @@ public class FieldHyperlink : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldHyperlink](fieldhyperlink)() | Default_Constructor |
+| [FieldHyperlink](fieldhyperlink/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Address](../../aspose.words.fields/fieldhyperlink/address) { get; set; } | Hämtar eller ställer in en plats där denna hyperlänk hoppar. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Får en[`FieldFormat`](../fieldformat) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsImageMap](../../aspose.words.fields/fieldhyperlink/isimagemap) { get; set; } | Hämtar eller ställer in om koordinater ska läggas till hyperlänken för en bildkarta på serversidan. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [OpenInNewWindow](../../aspose.words.fields/fieldhyperlink/openinnewwindow) { get; set; } | Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläsarfönster. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [ScreenTip](../../aspose.words.fields/fieldhyperlink/screentip) { get; set; } | Hämtar eller ställer in skärmtipstexten för hyperlänken. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Hämtar noden som representerar början av fältet. |
-| [SubAddress](../../aspose.words.fields/fieldhyperlink/subaddress) { get; set; } | Hämtar eller ställer in en plats i filen, till exempel ett bokmärke, där denna hyperlänk hoppar. |
-| [Target](../../aspose.words.fields/fieldhyperlink/target) { get; set; } | Hämtar eller ställer in målet som länken ska omdirigeras till. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Hämtar fälttypen Microsoft Word. |
+| [Address](../../aspose.words.fields/fieldhyperlink/address/) { get; set; } | Hämtar eller ställer in en plats där denna hyperlänk hoppar. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsImageMap](../../aspose.words.fields/fieldhyperlink/isimagemap/) { get; set; } | Hämtar eller ställer in om koordinater ska läggas till hyperlänken för en bildkarta på serversidan. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
+| [OpenInNewWindow](../../aspose.words.fields/fieldhyperlink/openinnewwindow/) { get; set; } | Hämtar eller ställer in om destinationsplatsen ska öppnas i ett nytt webbläsarfönster. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [ScreenTip](../../aspose.words.fields/fieldhyperlink/screentip/) { get; set; } | Hämtar eller ställer in skärmtipstexten för hyperlänken. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
+| [SubAddress](../../aspose.words.fields/fieldhyperlink/subaddress/) { get; set; } | Hämtar eller ställer in en plats i filen, till exempel ett bokmärke, där denna hyperlänk hoppar. |
+| [Target](../../aspose.words.fields/fieldhyperlink/target/) { get; set; } | Hämtar eller ställer in målet som länken ska omdirigeras till. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
@@ -89,8 +89,8 @@ doc.Save(ArtifactsDir + "Field.HYPERLINK.docx");
 
 ### Se även
 
-* class [Field](../field)
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

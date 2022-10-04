@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Aspose.Words für .NET-API-Referenz
-description: Signiert Quelldokument mit gegebenCertificateHolderaspose.words.digitalsignatures/certificateholder undSignOptionsaspose.words.digitalsignatures/signoptions mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
+description: Signiert Quelldokument mit gegebenCertificateHolderaspose.words.digitalsignatures/certificateholder/ undSignOptionsaspose.words.digitalsignatures/signoptions/ mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
 type: docs
 weight: 30
 url: /de/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder) und[`SignOptions`](../../signoptions) mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
+Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder/) und[`SignOptions`](../../signoptions/) mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
 
 Dokument sollte entweder seinDoc oderDocx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | Der Stream, der das zu signierende Dokument enthält. |
 | dstStream | Stream | Der Stream, in den das signierte Dokument geschrieben wird. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) Objekt mit verschiedenen Signiermöglichkeiten. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) Objekt mit verschiedenen Signiermöglichkeiten. |
 
 ### Beispiele
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### Siehe auch
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder) und[`SignOptions`](../../signoptions) mit digitaler Signatur und schreibt signiertes Dokument in Zieldatei.
+Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder/) und[`SignOptions`](../../signoptions/) mit digitaler Signatur und schreibt signiertes Dokument in Zieldatei.
 
 Dokument sollte entweder seinDoc oderDocx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | Der Dateiname des zu signierenden Dokuments. |
 | dstFileName | String | Der Dateiname der signierten Dokumentausgabe. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) Objekt mit verschiedenen Signiermöglichkeiten. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) Objekt mit verschiedenen Signiermöglichkeiten. |
 
 ### Beispiele
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### Siehe auch
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder)mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
+Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder/)mit digitaler Signatur und schreibt signiertes Dokument in Zielstream.
 
 Dokument sollte entweder seinDoc oderDocx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | Der Stream, der das zu signierende Dokument enthält. |
 | dstStream | Stream | Der Stream, in den das signierte Dokument geschrieben wird. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
 
 ### Beispiele
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Siehe auch
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * Montage [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder) mit digitaler Signatur und schreibt signiertes Dokument in Zieldatei.
+Signiert Quelldokument mit gegeben[`CertificateHolder`](../../certificateholder/) mit digitaler Signatur und schreibt signiertes Dokument in Zieldatei.
 
 Dokument sollte entweder seinDoc oderDocx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | Der Dateiname des zu signierenden Dokuments. |
 | dstFileName | String | Der Dateiname der signierten Dokumentausgabe. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) Objekt mit Zertifikat, das zum Signieren von file. verwendet wurde. Das Zertifikat im Halter MUSS private Schlüssel enthalten und das X509KeyStorageFlags.Exportable-Flag gesetzt haben. |
 
 ### Beispiele
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Siehe auch
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* namensraum [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

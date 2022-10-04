@@ -21,11 +21,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field) objeto que representa el campo insertado.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
 ### Observaciones
 
-Este método inserta un campo en un documento. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](../insertfield) sobrecarga.
+Este método inserta un campo en un documento. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](./insertfield/) sobrecarga.
 
 ### Ejemplos
 
@@ -71,10 +71,10 @@ else
 
 ### Ver también
 
-* class [Field](../../../aspose.words.fields/field)
-* enum [FieldType](../../../aspose.words.fields/fieldtype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -93,11 +93,11 @@ public Field InsertField(string fieldCode)
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field) objeto que representa el campo insertado.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
 ### Observaciones
 
-Este método inserta un campo en un documento y actualiza el resultado del campo inmediatamente. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](../insertfield) sobrecarga.
+Este método inserta un campo en un documento y actualiza el resultado del campo inmediatamente. Aspose.Words puede actualizar campos de la mayoría de los tipos, pero no todos. Para más detalles ver the [`InsertField`](./insertfield/) sobrecarga.
 
 ### Ejemplos
 
@@ -142,9 +142,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ### Ver también
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -164,7 +164,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 ### Valor_devuelto
 
-A[`Field`](../../../aspose.words.fields/field) objeto que representa el campo insertado.
+A[`Field`](../../../aspose.words.fields/field/) objeto que representa el campo insertado.
 
 ### Observaciones
 
@@ -174,7 +174,7 @@ Puede alternar entre mostrar códigos de campo y resultados en su documento en M
 
 Para crear un campo, debe especificar un tipo de campo, un código de campo y un valor de campo de "marcador de posición". Si no está seguro acerca de la sintaxis de un código de campo en particular, cree el campo en Microsoft Word primero y cambie para ver su código de campo .
 
-Aspose.Words puede calcular los resultados de los campos para la mayoría de los tipos de campos, pero este method no actualiza el resultado del campo automáticamente. Debido a que el resultado del campo no se calcula automáticamente, se espera que pase algún valor de cadena (o incluso una cadena vacía) que se insertará en el resultado del campo. Este valor permanecerá en el resultado del campo como un marcador de posición hasta que el campo sea actualizado. Para actualizar el resultado del campo puede llamar[`Update`](../../../aspose.words.fields/field/update)en el objeto de campo devuelto a usted o[`UpdateFields`](../../document/updatefields) para actualizar campos en todo el documento.
+Aspose.Words puede calcular los resultados de los campos para la mayoría de los tipos de campos, pero este method no actualiza el resultado del campo automáticamente. Debido a que el resultado del campo no se calcula automáticamente, se espera que pase algún valor de cadena (o incluso una cadena vacía) que se insertará en el resultado del campo. Este valor permanecerá en el resultado del campo como un marcador de posición hasta que el campo sea actualizado. Para actualizar el resultado del campo puede llamar[`Update`](../../../aspose.words.fields/field/update/)en el objeto de campo devuelto a usted o[`UpdateFields`](../../document/updatefields/) para actualizar campos en todo el documento.
 
 ### Ejemplos
 
@@ -232,9 +232,9 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 ### Ver también
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

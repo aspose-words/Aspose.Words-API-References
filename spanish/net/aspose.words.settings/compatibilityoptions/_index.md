@@ -18,83 +18,83 @@ public class CompatibilityOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AdjustLineHeightInTable](../../aspose.words.settings/compatibilityoptions/adjustlineheightintable) { get; set; } | Agregar paso de línea de cuadrícula de documento a líneas en celdas de tabla. |
-| [AlignTablesRowByRow](../../aspose.words.settings/compatibilityoptions/aligntablesrowbyrow) { get; set; } | Alinear las filas de la tabla de forma independiente. |
-| [AllowSpaceOfSameStyleInTable](../../aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable) { get; set; } | Permitir espaciado contextual de párrafos en tablas. |
-| [ApplyBreakingRules](../../aspose.words.settings/compatibilityoptions/applybreakingrules) { get; set; } | Usar reglas de salto de línea heredadas etíope y amárico. |
-| [AutofitToFirstFixedWidthCell](../../aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell) { get; set; } | Permitir que las columnas de la tabla excedan los anchos preferidos de las celdas constituyentes. |
-| [AutoSpaceLikeWord95](../../aspose.words.settings/compatibilityoptions/autospacelikeword95) { get; set; } | Emular Word 95 Espaciado entre caracteres de ancho completo. |
-| [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth) { get; set; } | Equilibrar caracteres de un solo byte y de doble byte. |
-| [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance) { get; set; } | Usar información de párrafo almacenada en caché para el equilibrio de columnas. |
-| [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc) { get; set; } | Tratar el delimitador de cita de barra invertida como dos comillas. |
-| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures) { get; set; } |  |
-| [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth) { get; set; } | Usar siempre ancho fijo para caracteres Hangul. |
-| [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables) { get; set; } | No autoajustar las tablas para que encajen junto a los objetos envueltos. |
-| [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable) { get; set; } | No romper filas de tablas alrededor de tablas flotantes. |
-| [DoNotBreakWrappedTables](../../aspose.words.settings/compatibilityoptions/donotbreakwrappedtables) { get; set; } | No permitir que las tablas flotantes se dividan entre páginas. |
-| [DoNotExpandShiftReturn](../../aspose.words.settings/compatibilityoptions/donotexpandshiftreturn) { get; set; } | No justificar líneas que terminan en salto de línea suave. |
-| [DoNotLeaveBackslashAlone](../../aspose.words.settings/compatibilityoptions/donotleavebackslashalone) { get; set; } | Convertir barra invertida a signo de yen cuando se ingresa. |
-| [DoNotSnapToGridInCell](../../aspose.words.settings/compatibilityoptions/donotsnaptogridincell) { get; set; } | No ajustar a la cuadrícula del documento en celdas de tabla con objetos. |
-| [DoNotSuppressIndentation](../../aspose.words.settings/compatibilityoptions/donotsuppressindentation) { get; set; } | No ignorar los objetos flotantes al calcular la sangría de párrafo. |
-| [DoNotSuppressParagraphBorders](../../aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders) { get; set; } | No suprimir los bordes de párrafo al lado de los marcos. |
-| [DoNotUseEastAsianBreakRules](../../aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules) { get; set; } | No comprimir los caracteres comprimibles al usar la cuadrícula del documento. |
-| [DoNotUseHTMLParagraphAutoSpacing](../../aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing) { get; set; } | Usar espaciado de párrafo fijo para la configuración automática de HTML. |
-| [DoNotUseIndentAsNumberingTabStop](../../aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop) { get; set; } | Ignorar sangría francesa al crear una tabulación después de la numeración. |
-| [DoNotVertAlignCellWithSp](../../aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp) { get; set; } | No alinear verticalmente celdas que contengan objetos flotantes. |
-| [DoNotVertAlignInTxbx](../../aspose.words.settings/compatibilityoptions/donotvertalignintxbx) { get; set; } | Ignorar alineación vertical en cuadros de texto. |
-| [DoNotWrapTextWithPunct](../../aspose.words.settings/compatibilityoptions/donotwraptextwithpunct) { get; set; } | No permitir puntuación colgante con cuadrícula de caracteres. |
-| [FootnoteLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8) { get; set; } | Emular Word 6.x/95/97 Colocación de nota al pie. |
-| [ForgetLastTabAlignment](../../aspose.words.settings/compatibilityoptions/forgetlasttabalignment) { get; set; } | Ignorar el ancho de la última tabulación al alinear el párrafo si no está alineado a la izquierda. |
-| [GrowAutofit](../../aspose.words.settings/compatibilityoptions/growautofit) { get; set; } | Permitir que las tablas se ajusten automáticamente a los márgenes de página. |
-| [LayoutRawTableWidth](../../aspose.words.settings/compatibilityoptions/layoutrawtablewidth) { get; set; } | Ignorar el espacio antes de la tabla al decidir si la tabla debe envolver un objeto flotante. |
-| [LayoutTableRowsApart](../../aspose.words.settings/compatibilityoptions/layouttablerowsapart) { get; set; } | Permitir que las filas de la tabla ajusten los objetos en línea de forma independiente. |
-| [LineWrapLikeWord6](../../aspose.words.settings/compatibilityoptions/linewraplikeword6) { get; set; } | Emular ajuste de línea de Word 6.0 para texto de Asia oriental. |
-| [MWSmallCaps](../../aspose.words.settings/compatibilityoptions/mwsmallcaps) { get; set; } | Emular Word 5.x para el formato de versalitas de Macintosh. |
-| [NoColumnBalance](../../aspose.words.settings/compatibilityoptions/nocolumnbalance) { get; set; } | No balancear columnas de texto dentro de una sección. |
-| [NoExtraLineSpacing](../../aspose.words.settings/compatibilityoptions/noextralinespacing) { get; set; } | No centrar contenido en líneas con altura de línea exacta. |
-| [NoLeading](../../aspose.words.settings/compatibilityoptions/noleading) { get; set; } | No agregar interlineado entre líneas de texto. |
-| [NoSpaceRaiseLower](../../aspose.words.settings/compatibilityoptions/nospaceraiselower) { get; set; } | No aumentar la altura de la línea para texto elevado/bajado. |
-| [NoTabHangInd](../../aspose.words.settings/compatibilityoptions/notabhangind) { get; set; } | No crear tabulaciones personalizadas para sangría francesa. |
-| [OverrideTableStyleFontSizeAndJustification](../../aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification) { get; set; } | Especifica cómo se evalúa la jerarquía de estilo del documento. |
-| [PrintBodyTextBeforeHeader](../../aspose.words.settings/compatibilityoptions/printbodytextbeforeheader) { get; set; } | Imprimir texto del cuerpo antes del contenido del encabezado/pie de página. |
-| [PrintColBlack](../../aspose.words.settings/compatibilityoptions/printcolblack) { get; set; } | Imprimir colores en blanco y negro sin tramado. |
-| [SelectFldWithFirstOrLastChar](../../aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar) { get; set; } | Seleccionar campo cuando se selecciona el primer o el último carácter. |
-| [ShapeLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/shapelayoutlikeww8) { get; set; } | Emular texto de Word 97 que se envuelve alrededor de objetos flotantes. |
-| [ShowBreaksInFrames](../../aspose.words.settings/compatibilityoptions/showbreaksinframes) { get; set; } | Mostrar saltos de página/columna presentes en marcos. |
-| [SpaceForUL](../../aspose.words.settings/compatibilityoptions/spaceforul) { get; set; } | Agregue espacio adicional debajo de la línea de base para el texto subrayado de Asia oriental. |
-| [SpacingInWholePoints](../../aspose.words.settings/compatibilityoptions/spacinginwholepoints) { get; set; } | Solo expandir/condensar texto por puntos enteros. |
-| [SplitPgBreakAndParaMark](../../aspose.words.settings/compatibilityoptions/splitpgbreakandparamark) { get; set; } | Mover siempre la marca de párrafo a la página después de un salto de página. |
-| [SubFontBySize](../../aspose.words.settings/compatibilityoptions/subfontbysize) { get; set; } | Aumentar la prioridad del tamaño de fuente durante la sustitución de fuente. |
-| [SuppressBottomSpacing](../../aspose.words.settings/compatibilityoptions/suppressbottomspacing) { get; set; } | Ignorar altura de línea exacta para la última línea en la página. |
-| [SuppressSpacingAtTopOfPage](../../aspose.words.settings/compatibilityoptions/suppressspacingattopofpage) { get; set; } | Ignorar altura de línea mínima para la primera línea en la página. |
-| [SuppressSpBfAfterPgBrk](../../aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk) { get; set; } | No usar espacio antes de la primera línea después de un salto de página. |
-| [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing) { get; set; } | Ignorar altura de línea mínima y exacta para la primera línea en la página. |
-| [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp) { get; set; } | Emular WordPerfect 5.x Interlineado. |
-| [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs) { get; set; } | Intercambiar bordes de párrafo en páginas impares. |
-| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning) { get; set; } |  |
-| [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles) { get; set; } | Especifica que no se deje en blanco el área detrás de las imágenes del metarchivo. |
-| [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6) { get; set; } | Emular WordPerfect 6.x Cálculo de altura de fuente. |
-| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003) { get; set; } | **Verdadero** para deshabilitar la funcionalidad de la interfaz de usuario que no es compatible con Word97-2003. El valor predeterminado es **falso** . |
-| [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace) { get; set; } | Subrayar todos los espacios finales. |
-| [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist) { get; set; } | Subrayado siguiente carácter siguiente numeración. |
-| [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules) { get; set; } | Usar conjunto alternativo de reglas de salto de línea de Asia oriental. |
-| [UseAnsiKerningPairs](../../aspose.words.settings/compatibilityoptions/useansikerningpairs) { get; set; } | Usar pares de interletraje ANSI de fuentes. |
-| [UseFELayout](../../aspose.words.settings/compatibilityoptions/usefelayout) { get; set; } | No omitir el código de diseño de secuencia de comandos complejo/de Asia oriental. |
-| [UseNormalStyleForList](../../aspose.words.settings/compatibilityoptions/usenormalstyleforlist) { get; set; } | No aplicar automáticamente el estilo de párrafo de lista al texto numerado/con viñetas. |
-| [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics) { get; set; } | Usar métricas de impresora para mostrar documentos. |
-| [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells) { get; set; } | Usar reglas simplificadas para conflictos de borde de tabla. |
-| [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules) { get; set; } | Emular reglas de estilo de tabla de Word 2002. |
-| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules) { get; set; } |  |
-| [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules) { get; set; } | Emular Word 97 División de línea de Asia oriental. |
-| [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification) { get; set; } | Emular WordPerfect 6.x Justificación de párrafo. |
-| [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth) { get; set; } | Especifica si establecer el ancho de un espacio como se hace en WordPerfect 5.x. |
-| [WrapTrailSpaces](../../aspose.words.settings/compatibilityoptions/wraptrailspaces) { get; set; } | Espacios finales de ajuste de línea. |
+| [AdjustLineHeightInTable](../../aspose.words.settings/compatibilityoptions/adjustlineheightintable/) { get; set; } | Agregar paso de línea de cuadrícula de documento a líneas en celdas de tabla. |
+| [AlignTablesRowByRow](../../aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/) { get; set; } | Alinear las filas de la tabla de forma independiente. |
+| [AllowSpaceOfSameStyleInTable](../../aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/) { get; set; } | Permitir espaciado contextual de párrafos en tablas. |
+| [ApplyBreakingRules](../../aspose.words.settings/compatibilityoptions/applybreakingrules/) { get; set; } | Usar reglas de salto de línea heredadas etíope y amárico. |
+| [AutofitToFirstFixedWidthCell](../../aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/) { get; set; } | Permitir que las columnas de la tabla excedan los anchos preferidos de las celdas constituyentes. |
+| [AutoSpaceLikeWord95](../../aspose.words.settings/compatibilityoptions/autospacelikeword95/) { get; set; } | Emular Word 95 Espaciado entre caracteres de ancho completo. |
+| [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/) { get; set; } | Equilibrar caracteres de un solo byte y de doble byte. |
+| [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance/) { get; set; } | Usar información de párrafo almacenada en caché para el equilibrio de columnas. |
+| [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc/) { get; set; } | Tratar el delimitador de cita de barra invertida como dos comillas. |
+| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } |  |
+| [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/) { get; set; } | Usar siempre ancho fijo para caracteres Hangul. |
+| [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/) { get; set; } | No autoajustar las tablas para que encajen junto a los objetos envueltos. |
+| [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/) { get; set; } | No romper filas de tablas alrededor de tablas flotantes. |
+| [DoNotBreakWrappedTables](../../aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/) { get; set; } | No permitir que las tablas flotantes se dividan entre páginas. |
+| [DoNotExpandShiftReturn](../../aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/) { get; set; } | No justificar líneas que terminan en salto de línea suave. |
+| [DoNotLeaveBackslashAlone](../../aspose.words.settings/compatibilityoptions/donotleavebackslashalone/) { get; set; } | Convertir barra invertida a signo de yen cuando se ingresa. |
+| [DoNotSnapToGridInCell](../../aspose.words.settings/compatibilityoptions/donotsnaptogridincell/) { get; set; } | No ajustar a la cuadrícula del documento en celdas de tabla con objetos. |
+| [DoNotSuppressIndentation](../../aspose.words.settings/compatibilityoptions/donotsuppressindentation/) { get; set; } | No ignorar los objetos flotantes al calcular la sangría de párrafo. |
+| [DoNotSuppressParagraphBorders](../../aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/) { get; set; } | No suprimir los bordes de párrafo al lado de los marcos. |
+| [DoNotUseEastAsianBreakRules](../../aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/) { get; set; } | No comprimir los caracteres comprimibles al usar la cuadrícula del documento. |
+| [DoNotUseHTMLParagraphAutoSpacing](../../aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/) { get; set; } | Usar espaciado de párrafo fijo para la configuración automática de HTML. |
+| [DoNotUseIndentAsNumberingTabStop](../../aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/) { get; set; } | Ignorar sangría francesa al crear una tabulación después de la numeración. |
+| [DoNotVertAlignCellWithSp](../../aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/) { get; set; } | No alinear verticalmente celdas que contengan objetos flotantes. |
+| [DoNotVertAlignInTxbx](../../aspose.words.settings/compatibilityoptions/donotvertalignintxbx/) { get; set; } | Ignorar alineación vertical en cuadros de texto. |
+| [DoNotWrapTextWithPunct](../../aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/) { get; set; } | No permitir puntuación colgante con cuadrícula de caracteres. |
+| [FootnoteLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/) { get; set; } | Emular Word 6.x/95/97 Colocación de nota al pie. |
+| [ForgetLastTabAlignment](../../aspose.words.settings/compatibilityoptions/forgetlasttabalignment/) { get; set; } | Ignorar el ancho de la última tabulación al alinear el párrafo si no está alineado a la izquierda. |
+| [GrowAutofit](../../aspose.words.settings/compatibilityoptions/growautofit/) { get; set; } | Permitir que las tablas se ajusten automáticamente a los márgenes de página. |
+| [LayoutRawTableWidth](../../aspose.words.settings/compatibilityoptions/layoutrawtablewidth/) { get; set; } | Ignorar el espacio antes de la tabla al decidir si la tabla debe envolver un objeto flotante. |
+| [LayoutTableRowsApart](../../aspose.words.settings/compatibilityoptions/layouttablerowsapart/) { get; set; } | Permitir que las filas de la tabla ajusten los objetos en línea de forma independiente. |
+| [LineWrapLikeWord6](../../aspose.words.settings/compatibilityoptions/linewraplikeword6/) { get; set; } | Emular ajuste de línea de Word 6.0 para texto de Asia oriental. |
+| [MWSmallCaps](../../aspose.words.settings/compatibilityoptions/mwsmallcaps/) { get; set; } | Emular Word 5.x para el formato de versalitas de Macintosh. |
+| [NoColumnBalance](../../aspose.words.settings/compatibilityoptions/nocolumnbalance/) { get; set; } | No balancear columnas de texto dentro de una sección. |
+| [NoExtraLineSpacing](../../aspose.words.settings/compatibilityoptions/noextralinespacing/) { get; set; } | No centrar contenido en líneas con altura de línea exacta. |
+| [NoLeading](../../aspose.words.settings/compatibilityoptions/noleading/) { get; set; } | No agregar interlineado entre líneas de texto. |
+| [NoSpaceRaiseLower](../../aspose.words.settings/compatibilityoptions/nospaceraiselower/) { get; set; } | No aumentar la altura de la línea para texto elevado/bajado. |
+| [NoTabHangInd](../../aspose.words.settings/compatibilityoptions/notabhangind/) { get; set; } | No crear tabulaciones personalizadas para sangría francesa. |
+| [OverrideTableStyleFontSizeAndJustification](../../aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/) { get; set; } | Especifica cómo se evalúa la jerarquía de estilo del documento. |
+| [PrintBodyTextBeforeHeader](../../aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/) { get; set; } | Imprimir texto del cuerpo antes del contenido del encabezado/pie de página. |
+| [PrintColBlack](../../aspose.words.settings/compatibilityoptions/printcolblack/) { get; set; } | Imprimir colores en blanco y negro sin tramado. |
+| [SelectFldWithFirstOrLastChar](../../aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/) { get; set; } | Seleccionar campo cuando se selecciona el primer o el último carácter. |
+| [ShapeLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/) { get; set; } | Emular texto de Word 97 que se envuelve alrededor de objetos flotantes. |
+| [ShowBreaksInFrames](../../aspose.words.settings/compatibilityoptions/showbreaksinframes/) { get; set; } | Mostrar saltos de página/columna presentes en marcos. |
+| [SpaceForUL](../../aspose.words.settings/compatibilityoptions/spaceforul/) { get; set; } | Agregue espacio adicional debajo de la línea de base para el texto subrayado de Asia oriental. |
+| [SpacingInWholePoints](../../aspose.words.settings/compatibilityoptions/spacinginwholepoints/) { get; set; } | Solo expandir/condensar texto por puntos enteros. |
+| [SplitPgBreakAndParaMark](../../aspose.words.settings/compatibilityoptions/splitpgbreakandparamark/) { get; set; } | Mover siempre la marca de párrafo a la página después de un salto de página. |
+| [SubFontBySize](../../aspose.words.settings/compatibilityoptions/subfontbysize/) { get; set; } | Aumentar la prioridad del tamaño de fuente durante la sustitución de fuente. |
+| [SuppressBottomSpacing](../../aspose.words.settings/compatibilityoptions/suppressbottomspacing/) { get; set; } | Ignorar altura de línea exacta para la última línea en la página. |
+| [SuppressSpacingAtTopOfPage](../../aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/) { get; set; } | Ignorar altura de línea mínima para la primera línea en la página. |
+| [SuppressSpBfAfterPgBrk](../../aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/) { get; set; } | No usar espacio antes de la primera línea después de un salto de página. |
+| [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing/) { get; set; } | Ignorar altura de línea mínima y exacta para la primera línea en la página. |
+| [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp/) { get; set; } | Emular WordPerfect 5.x Interlineado. |
+| [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/) { get; set; } | Intercambiar bordes de párrafo en páginas impares. |
+| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } |  |
+| [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles/) { get; set; } | Especifica que no se deje en blanco el área detrás de las imágenes del metarchivo. |
+| [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/) { get; set; } | Emular WordPerfect 6.x Cálculo de altura de fuente. |
+| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | **Verdadero** para deshabilitar la funcionalidad de la interfaz de usuario que no es compatible con Word97-2003. El valor predeterminado es **falso** . |
+| [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace/) { get; set; } | Subrayar todos los espacios finales. |
+| [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist/) { get; set; } | Subrayado siguiente carácter siguiente numeración. |
+| [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/) { get; set; } | Usar conjunto alternativo de reglas de salto de línea de Asia oriental. |
+| [UseAnsiKerningPairs](../../aspose.words.settings/compatibilityoptions/useansikerningpairs/) { get; set; } | Usar pares de interletraje ANSI de fuentes. |
+| [UseFELayout](../../aspose.words.settings/compatibilityoptions/usefelayout/) { get; set; } | No omitir el código de diseño de secuencia de comandos complejo/de Asia oriental. |
+| [UseNormalStyleForList](../../aspose.words.settings/compatibilityoptions/usenormalstyleforlist/) { get; set; } | No aplicar automáticamente el estilo de párrafo de lista al texto numerado/con viñetas. |
+| [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics/) { get; set; } | Usar métricas de impresora para mostrar documentos. |
+| [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/) { get; set; } | Usar reglas simplificadas para conflictos de borde de tabla. |
+| [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules/) { get; set; } | Emular reglas de estilo de tabla de Word 2002. |
+| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } |  |
+| [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules/) { get; set; } | Emular Word 97 División de línea de Asia oriental. |
+| [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification/) { get; set; } | Emular WordPerfect 6.x Justificación de párrafo. |
+| [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth/) { get; set; } | Especifica si establecer el ancho de un espacio como se hace en WordPerfect 5.x. |
+| [WrapTrailSpaces](../../aspose.words.settings/compatibilityoptions/wraptrailspaces/) { get; set; } | Espacios finales de ajuste de línea. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor)(MsWordVersion) | Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para una versión particular de MS Word. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Permite optimizar el contenido del documento, así como el comportamiento predeterminado de Aspose.Words para una versión particular de MS Word. |
 
 ### Ejemplos
 
@@ -208,9 +208,9 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 ### Ver también
 
-* class [Document](../../aspose.words/document)
-* property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions)
-* espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings)
+* class [Document](../../aspose.words/document/)
+* property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
+* espacio de nombres [Aspose.Words.Settings](../../aspose.words.settings/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

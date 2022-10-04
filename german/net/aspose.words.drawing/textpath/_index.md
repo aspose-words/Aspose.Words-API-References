@@ -1,7 +1,7 @@
 ---
 title: TextPath
 second_title: Aspose.Words für .NET-API-Referenz
-description: Definiert den Text und die Formatierung des Textpfads eines WordArt-Objekts.
+description: Definiert den Text und die Formatierung des Textpfads eines WordArtObjekts.
 type: docs
 weight: 1200
 url: /de/net/aspose.words.drawing/textpath/
@@ -18,30 +18,30 @@ public class TextPath
 
 | Name | Beschreibung |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Wahr, wenn die Schriftart fett formatiert ist. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Definiert, ob der Text zum Pfad einer Form passt. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Definiert, ob der Text in den Begrenzungsrahmen einer Form passt. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Definiert die Familie der Textpfad-Schriftart. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Wahr, wenn die Schriftart kursiv formatiert ist. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Legt fest, ob Kerning aktiviert ist. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Legt fest, ob der Text angezeigt wird. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Bestimmt, ob die Layoutreihenfolge der Zeilen umgekehrt wird. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Legt fest, ob die Buchstaben des Textes gedreht werden. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Legt fest, ob alle Buchstaben unabhängig vom Anfangsbuchstaben gleich hoch sind. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Definiert, ob ein Schatten auf den Text eines Textpfades angewendet wird. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Definiert die Schriftgröße in Punkt. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Wahr, wenn die Schriftart als kleine Großbuchstaben formatiert ist. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Definiert den Abstand für Text. 1 bedeutet 100 %. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | True, wenn die Schriftart als durchgestrichener Text formatiert ist. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Definiert den Text des Textpfades. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Definiert die Ausrichtung von Text. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Legt fest, ob zusätzlicher Leerraum über und unter dem Text entfernt wird. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Wahr, wenn die Schriftart unterstrichen ist. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Legt fest, ob anstelle des Formpfads ein gerader Textpfad verwendet wird. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Wahr, wenn die Schriftart fett formatiert ist. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Definiert, ob der Text zum Pfad einer Form passt. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Definiert, ob der Text in den Begrenzungsrahmen einer Form passt. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Definiert die Familie der Textpfad-Schriftart. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Wahr, wenn die Schriftart kursiv formatiert ist. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Legt fest, ob Kerning aktiviert ist. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Legt fest, ob der Text angezeigt wird. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Bestimmt, ob die Layoutreihenfolge der Zeilen umgekehrt wird. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Legt fest, ob die Buchstaben des Textes gedreht werden. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Legt fest, ob alle Buchstaben unabhängig vom Anfangsbuchstaben gleich hoch sind. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Definiert, ob ein Schatten auf den Text eines Textpfades angewendet wird. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Definiert die Schriftgröße in Punkt. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Wahr, wenn die Schriftart als kleine Großbuchstaben formatiert ist. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Definiert den Abstand für Text. 1 bedeutet 100 %. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | True, wenn die Schriftart als durchgestrichener Text formatiert ist. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Definiert den Text des Textpfades. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Definiert die Ausrichtung von Text. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Legt fest, ob zusätzlicher Leerraum über und unter dem Text entfernt wird. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Wahr, wenn die Schriftart unterstrichen ist. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Legt fest, ob anstelle des Formpfads ein gerader Textpfad verwendet wird. |
 
 ### Bemerkungen
 
-Verwenden Sie die[`TextPath`](../shape/textpath) -Eigenschaft, um auf die WordArt-Eigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen der[`TextPath`](../textpath) Klasse direkt.
+Verwenden Sie die[`TextPath`](../shape/textpath/) -Eigenschaft, um auf die WordArt-Eigenschaften einer Form zuzugreifen. Sie erstellen keine Instanzen der[`TextPath`](./textpath/) Klasse direkt.
 
 ### Beispiele
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Drawing](../../aspose.words.drawing)
+* namensraum [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

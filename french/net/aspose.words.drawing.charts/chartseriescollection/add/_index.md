@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Ajoute de nouveauxChartSeriesaspose.words.drawing.charts/chartseriesà cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à barres colonnes courbes et surfaces.
+description: Ajoute de nouveauxChartSeriesaspose.words.drawing.charts/chartseries/à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à barres colonnes courbes et surfaces.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-Ajoute de nouveaux[`ChartSeries`](../../chartseries)à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à barres, colonnes, courbes et surfaces.
+Ajoute de nouveaux[`ChartSeries`](../../chartseries/)à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à barres, colonnes, courbes et surfaces.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,7 +16,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### Return_Value
 
-Récemment ajouté[`ChartSeries`](../../chartseries) objet.
+Récemment ajouté[`ChartSeries`](../../chartseries/) objet.
 
 ### Exemples
 
@@ -105,16 +105,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Voir également
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[]) {#add}
 
-Ajoute de nouveaux[`ChartSeries`](../../chartseries) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de diagrammes de dispersion.
+Ajoute de nouveaux[`ChartSeries`](../../chartseries/) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de diagrammes de dispersion.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,7 +122,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### Return_Value
 
-Récemment ajouté[`ChartSeries`](../../chartseries) objet.
+Récemment ajouté[`ChartSeries`](../../chartseries/) objet.
 
 ### Exemples
 
@@ -211,16 +211,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Voir également
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-Ajoute de nouveaux[`ChartSeries`](../../chartseries) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques en aires, en radar et boursiers.
+Ajoute de nouveaux[`ChartSeries`](../../chartseries/) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques en aires, en radar et boursiers.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -313,16 +313,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Voir également
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * Assemblée [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-Ajoute de nouveaux[`ChartSeries`](../../chartseries) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à bulles.
+Ajoute de nouveaux[`ChartSeries`](../../chartseries/) à cette collection. Utilisez cette méthode pour ajouter des séries à tout type de graphiques à bulles.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,7 +330,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### Return_Value
 
-Récemment ajouté[`ChartSeries`](../../chartseries) objet.
+Récemment ajouté[`ChartSeries`](../../chartseries/) objet.
 
 ### Exemples
 
@@ -419,9 +419,9 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### Voir également
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* espace de noms [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * Assemblée [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

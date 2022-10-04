@@ -18,44 +18,44 @@ public class Run : Inline
 
 | Имя | Описание |
 | --- | --- |
-| [Run](run#constructor)(DocumentBase) | Инициализирует новый экземпляр **Бежать** класс. |
-| [Run](run#constructor_1)(DocumentBase, string) | Инициализирует новый экземпляр **Бежать** класс. |
+| [Run](run/#constructor)(DocumentBase) | Инициализирует новый экземпляр **Бежать** класс. |
+| [Run](run/#constructor_1)(DocumentBase, string) | Инициализирует новый экземпляр **Бежать** класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| [Font](../../aspose.words/inline/font) { get; } | Предоставляет доступ к форматированию шрифта этого объекта. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | Возвращает значение true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | Возвращает **истинный** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | Возвращает **истинный** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/run/nodetype) { get; } | Возвращает **NodeType.Run** . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Извлекает родителя[`Paragraph`](../paragraph) этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
-| [Text](../../aspose.words/run/text) { get; set; } | Получает или задает текст выполнения. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| [Font](../../aspose.words/inline/font/) { get; } | Предоставляет доступ к форматированию шрифта этого объекта. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Возвращает значение true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Возвращает **истинный** если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Возвращает **истинный** если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| override [NodeType](../../aspose.words/run/nodetype/) { get; } | Возвращает **NodeType.Run** . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Извлекает родителя[`Paragraph`](../paragraph/) этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Text](../../aspose.words/run/text/) { get; set; } | Получает или задает текст выполнения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| override [GetText](../../aspose.words/run/gettext)() | Получает текст запуска. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| override [GetText](../../aspose.words/run/gettext/)() | Получает текст запуска. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
@@ -175,8 +175,8 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
 ### Смотрите также
 
-* class [Inline](../inline)
-* пространство имен [Aspose.Words](../../aspose.words)
+* class [Inline](../inline/)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

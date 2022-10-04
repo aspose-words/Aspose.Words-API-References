@@ -18,50 +18,50 @@ public class FieldToc : Field
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldToc](fieldtoc)() | Default_Costruttore |
+| [FieldToc](fieldtoc/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname) { get; set; } | Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare la tabella. |
-| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel) { get; set; } | Ottiene o imposta il nome dell'identificatore di sequenza utilizzato durante la creazione di una tabella di cifre che non include l'etichetta e il numero della didascalia . |
-| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles) { get; set; } | Ottiene o imposta un elenco di stili diversi dagli stili di intestazione incorporati da includere nel sommario. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier) { get; set; } | Ottiene o imposta una stringa che deve corrispondere agli identificatori di tipo dei campi TC inclusi. |
-| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange) { get; set; } | Ottiene o imposta un intervallo di livelli delle voci del sommario da includere. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator) { get; set; } | Ottiene o imposta una sequenza di caratteri che separa una voce e il relativo numero di pagina. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Ottiene a[`FieldFormat`](../fieldformat) oggetto che fornisce l'accesso digitato alla formattazione del campo. |
-| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange) { get; set; } | Ottiene o imposta un intervallo di livelli di intestazione da includere. |
-| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout) { get; set; } | Ottiene o imposta se nascondere l'intestazione di tabulazione e i numeri di pagina nella visualizzazione layout Web. |
-| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks) { get; set; } | Ottiene o imposta se creare collegamenti ipertestuali alle voci del sommario. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolarne il risultato). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ottiene o imposta l'LCID del campo. |
-| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange) { get; set; } | Ottiene o imposta un intervallo di livelli delle voci del sommario da cui omettere i numeri di pagina. |
-| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier) { get; set; } | Ottiene o imposta l'identificatore di una sequenza per la quale deve essere aggiunto un prefisso al numero di pagina della voce. |
-| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks) { get; set; } | Ottiene o imposta se conservare i caratteri di nuova riga all'interno delle voci della tabella. |
-| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs) { get; set; } | Ottiene o imposta se conservare le voci delle schede all'interno delle voci della tabella. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Ottiene o imposta il testo che si trova tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere nullo. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel) { get; set; } | Ottiene o imposta il nome dell'identificatore di sequenza utilizzato durante la creazione di una tabella di cifre. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ottiene il tipo di campo di Microsoft Word. |
-| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel) { get; set; } | Ottiene o imposta se utilizzare il livello di struttura del paragrafo applicato. |
+| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare la tabella. |
+| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | Ottiene o imposta il nome dell'identificatore di sequenza utilizzato durante la creazione di una tabella di cifre che non include l'etichetta e il numero della didascalia . |
+| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | Ottiene o imposta un elenco di stili diversi dagli stili di intestazione incorporati da includere nel sommario. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
+| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | Ottiene o imposta una stringa che deve corrispondere agli identificatori di tipo dei campi TC inclusi. |
+| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | Ottiene o imposta un intervallo di livelli delle voci del sommario da includere. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | Ottiene o imposta una sequenza di caratteri che separa una voce e il relativo numero di pagina. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce l'accesso digitato alla formattazione del campo. |
+| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | Ottiene o imposta un intervallo di livelli di intestazione da includere. |
+| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | Ottiene o imposta se nascondere l'intestazione di tabulazione e i numeri di pagina nella visualizzazione layout Web. |
+| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | Ottiene o imposta se creare collegamenti ipertestuali alle voci del sommario. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolarne il risultato). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
+| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | Ottiene o imposta un intervallo di livelli delle voci del sommario da cui omettere i numeri di pagina. |
+| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | Ottiene o imposta l'identificatore di una sequenza per la quale deve essere aggiunto un prefisso al numero di pagina della voce. |
+| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | Ottiene o imposta se conservare i caratteri di nuova riga all'interno delle voci della tabella. |
+| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | Ottiene o imposta se conservare le voci delle schede all'interno delle voci della tabella. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo che si trova tra il separatore di campo e la fine del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere nullo. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
+| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | Ottiene o imposta il nome dell'identificatore di sequenza utilizzato durante la creazione di una tabella di cifre. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
+| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | Ottiene o imposta se utilizzare il livello di struttura del paragrafo applicato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). |
-| [Remove](../../aspose.words.fields/field/remove)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
-| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | Aggiorna i numeri di pagina per gli elementi in questo sommario. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
+| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | Aggiorna i numeri di pagina per gli elementi in questo sommario. |
 
 ### Osservazioni
 
@@ -220,8 +220,8 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 
 ### Guarda anche
 
-* class [Field](../field)
-* spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

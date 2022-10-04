@@ -1,7 +1,7 @@
 ---
 title: FieldRef
 second_title: Aspose.Words för .NET API Referens
-description: Implementerar REF-fältet.
+description: Implementerar REFfältet.
 type: docs
 weight: 2180
 url: /sv/net/aspose.words.fields/fieldref/
@@ -18,42 +18,42 @@ public class FieldRef : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldRef](fieldref)() | Default_Constructor |
+| [FieldRef](fieldref/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname) { get; set; } | Hämtar eller ställer in det refererade bokmärkets namn. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Får en[`FieldFormat`](../fieldformat) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment) { get; set; } | Hämtar eller ställer in om fotnots-, slutnots- och anteckningsnummer som är är markerade med bokmärket ska ökas, och infogar motsvarande fotnot, slutnot och kommentarstext. |
-| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink) { get; set; } | Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas. |
-| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas exakt som det visas i dokumentet. |
-| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget. |
-| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i relativ kontext. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition) { get; set; } | Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Hämtar noden som representerar början av fältet. |
-| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters) { get; set; } | Hämtar eller ställer in om icke-avgränsande tecken ska undertryckas. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Hämtar fälttypen Microsoft Word. |
+| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname/) { get; set; } | Hämtar eller ställer in det refererade bokmärkets namn. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
+| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment/) { get; set; } | Hämtar eller ställer in om fotnots-, slutnots- och anteckningsnummer som är är markerade med bokmärket ska ökas, och infogar motsvarande fotnot, slutnot och kommentarstext. |
+| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink/) { get; set; } | Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas. |
+| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas exakt som det visas i dokumentet. |
+| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget. |
+| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i relativ kontext. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition/) { get; set; } | Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
+| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
+| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters/) { get; set; } | Hämtar eller ställer in om icke-avgränsande tecken ska undertryckas. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
@@ -173,8 +173,8 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 
 ### Se även
 
-* class [Field](../field)
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

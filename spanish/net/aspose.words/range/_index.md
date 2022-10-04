@@ -18,25 +18,25 @@ public class Range
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bookmarks](../../aspose.words/range/bookmarks) { get; } | Devuelve un[`Bookmarks`](./bookmarks) colección que representa todos los marcadores en el rango. |
-| [Fields](../../aspose.words/range/fields) { get; } | Devuelve un[`Fields`](./fields) colección que representa todos los campos en el rango. |
-| [FormFields](../../aspose.words/range/formfields) { get; } | Devuelve un[`FormFields`](./formfields) colección que representa todos los campos de formulario en el rango. |
-| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags) { get; } | Devuelve un[`StructuredDocumentTags`](./structureddocumenttags) colección que representa todas las etiquetas de documentos estructurados en el rango. |
-| [Text](../../aspose.words/range/text) { get; } | Obtiene el texto del rango. |
+| [Bookmarks](../../aspose.words/range/bookmarks/) { get; } | Devuelve un[`Bookmarks`](./bookmarks/) colección que representa todos los marcadores en el rango. |
+| [Fields](../../aspose.words/range/fields/) { get; } | Devuelve un[`Fields`](./fields/) colección que representa todos los campos en el rango. |
+| [FormFields](../../aspose.words/range/formfields/) { get; } | Devuelve un[`FormFields`](./formfields/) colección que representa todos los campos de formulario en el rango. |
+| [StructuredDocumentTags](../../aspose.words/range/structureddocumenttags/) { get; } | Devuelve un[`StructuredDocumentTags`](./structureddocumenttags/) colección que representa todas las etiquetas de documentos estructurados en el rango. |
+| [Text](../../aspose.words/range/text/) { get; } | Obtiene el texto del rango. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Delete](../../aspose.words/range/delete)() | Borra todos los caracteres del rango. |
-| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes)() | Cambia los valores del tipo de campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype) de[`FieldStart`](../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../aspose.words.fields/fieldend) en este rango para que correspondan a los tipos de campo contenidos en los códigos de campo. |
-| [Replace](../../aspose.words/range/replace#replace_2)(Regex, string) | Reemplaza todas las apariciones de un patrón de caracteres especificado por una expresión regular con otra cadena. |
-| [Replace](../../aspose.words/range/replace#replace)(string, string) | Reemplaza todas las apariciones de un patrón de cadena de caracteres especificado con una cadena de reemplazo. |
-| [Replace](../../aspose.words/range/replace#replace_3)(Regex, string, FindReplaceOptions) | Reemplaza todas las apariciones de un patrón de caracteres especificado por una expresión regular con otra cadena. |
-| [Replace](../../aspose.words/range/replace#replace_1)(string, string, FindReplaceOptions) | Reemplaza todas las apariciones de un patrón de cadena de caracteres especificado con una cadena de reemplazo. |
-| [ToDocument](../../aspose.words/range/todocument)() | Construye un nuevo documento completamente formado que contiene el rango. |
-| [UnlinkFields](../../aspose.words/range/unlinkfields)() | Desvincula campos en este rango. |
-| [UpdateFields](../../aspose.words/range/updatefields)() | Actualiza los valores de los campos del documento en este rango. |
+| [Delete](../../aspose.words/range/delete/)() | Borra todos los caracteres del rango. |
+| [NormalizeFieldTypes](../../aspose.words/range/normalizefieldtypes/)() | Cambia los valores del tipo de campo[`FieldType`](../../aspose.words.fields/fieldchar/fieldtype/) de[`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) en este rango para que correspondan a los tipos de campo contenidos en los códigos de campo. |
+| [Replace](../../aspose.words/range/replace/#replace_2)(Regex, string) | Reemplaza todas las apariciones de un patrón de caracteres especificado por una expresión regular con otra cadena. |
+| [Replace](../../aspose.words/range/replace/#replace)(string, string) | Reemplaza todas las apariciones de un patrón de cadena de caracteres especificado con una cadena de reemplazo. |
+| [Replace](../../aspose.words/range/replace/#replace_3)(Regex, string, FindReplaceOptions) | Reemplaza todas las apariciones de un patrón de caracteres especificado por una expresión regular con otra cadena. |
+| [Replace](../../aspose.words/range/replace/#replace_1)(string, string, FindReplaceOptions) | Reemplaza todas las apariciones de un patrón de cadena de caracteres especificado con una cadena de reemplazo. |
+| [ToDocument](../../aspose.words/range/todocument/)() | Construye un nuevo documento completamente formado que contiene el rango. |
+| [UnlinkFields](../../aspose.words/range/unlinkfields/)() | Desvincula campos en este rango. |
+| [UpdateFields](../../aspose.words/range/updatefields/)() | Actualiza los valores de los campos del documento en este rango. |
 
 ### Observaciones
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

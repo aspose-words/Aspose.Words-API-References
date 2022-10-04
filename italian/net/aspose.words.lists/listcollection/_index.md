@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Ottiene il conteggio degli elenchi puntati e numerati nel documento. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Ottiene il documento proprietario. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Ottiene un elenco per indice. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Ottiene il conteggio degli elenchi puntati e numerati nel documento. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Ottiene il documento proprietario. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Ottiene un elenco per indice. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Crea un nuovo elenco che fa riferimento a uno stile di elenco e lo aggiunge alla raccolta di elenchi nel documento. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Crea un nuovo elenco copiando l'elenco specificato e aggiungendolo alla raccolta di elenchi nel documento. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Ottiene l'oggetto enumeratore che enumera gli elenchi nel documento. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Ottiene un elenco tramite un identificatore di elenco. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Crea un nuovo elenco che fa riferimento a uno stile di elenco e lo aggiunge alla raccolta di elenchi nel documento. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Crea un nuovo elenco copiando l'elenco specificato e aggiungendolo alla raccolta di elenchi nel documento. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Ottiene l'oggetto enumeratore che enumera gli elenchi nel documento. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Ottiene un elenco tramite un identificatore di elenco. |
 
 ### Osservazioni
 
-Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione degli elenchi. La formattazione degli elenchi è archiviata nel[`ListCollection`](../listcollection) raccolta separata dai paragrafi di testo.
+Un elenco in un documento Microsoft Word è un insieme di proprietà di formattazione degli elenchi. La formattazione degli elenchi è archiviata nel[`ListCollection`](./listcollection/) raccolta separata dai paragrafi di testo.
 
-Non crei oggetti di questa classe. Ce n'è sempre uno solo[`ListCollection`](../listcollection) oggetto per documento ed è accessibile tramite il[`Lists`](../../aspose.words/documentbase/lists) proprietà.
+Non crei oggetti di questa classe. Ce n'è sempre uno solo[`ListCollection`](./listcollection/) oggetto per documento ed è accessibile tramite il[`Lists`](../../aspose.words/documentbase/lists/) proprietà.
 
-Per creare un nuovo elenco basato su un modello di elenco predefinito o basato su uno stile di elenco, utilizza[`Add`](./add) metodo.
+Per creare un nuovo elenco basato su un modello di elenco predefinito o basato su uno stile di elenco, utilizza[`Add`](./add/) metodo.
 
-Per creare un nuovo elenco con una formattazione identica a un elenco esistente, utilizza il[`AddCopy`](./addcopy) metodo.
+Per creare un nuovo elenco con una formattazione identica a un elenco esistente, utilizza il[`AddCopy`](./addcopy/) metodo.
 
-Per rendere un paragrafo puntato o numerato, devi applicare list formatting a un paragrafo assegnando un[`List`](../list) opporsi a [`List`](../listformat/list) proprietà di[`ListFormat`](../listformat).
+Per rendere un paragrafo puntato o numerato, devi applicare list formatting a un paragrafo assegnando un[`List`](../list/) opporsi a [`List`](../listformat/list/) proprietà di[`ListFormat`](../listformat/).
 
-Per rimuovere la formattazione dell'elenco da un paragrafo, utilizzare il[`RemoveNumbers`](../listformat/removenumbers) metodo .
+Per rimuovere la formattazione dell'elenco da un paragrafo, utilizzare il[`RemoveNumbers`](../listformat/removenumbers/) metodo .
 
 Se conosci un po' di WordprocessingML, allora potresti sapere che definisce concetti separati per "elenco" e "definizione elenco". Ciò corrisponde esattamente al modo in cui la formattazione dell'elenco viene memorizzata in un documento Microsoft Word a livello basso. La definizione dell'elenco è come uno "schema" e l'elenco è come un'istanza di una definizione dell'elenco.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Guarda anche
 
-* class [List](../list)
-* spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* spazio dei nomi [Aspose.Words.Lists](../../aspose.words.lists/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

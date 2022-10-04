@@ -18,30 +18,30 @@ public abstract class Node
 
 | Имя | Описание |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Получает тип этого узла. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает true, если этот узел может содержать другие узлы. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Получает тип этого узла. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Принимает посетителя. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Получает первого предка указанного типа объекта. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [ToString](../../aspose.words/node/tostring#tostring_1)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring#tostring_2)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | Вспомогательный метод, который преобразует значение перечисления типа узла в удобную для пользователя строку. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Получает первого предка указанного типа объекта. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Вспомогательный метод, который преобразует значение перечисления типа узла в удобную для пользователя строку. |
 
 ### Примечания
 
@@ -49,7 +49,7 @@ public abstract class Node
 
 Дополнительные сведения см. в шаблоне проектирования Composite.
 
-[`Node`](../node)учебный класс:
+[`Node`](./node/)учебный класс:
 
 * Определяет интерфейс дочернего узла.
 * Определяет интерфейс для посещения узлов.
@@ -146,7 +146,7 @@ foreach (Node child in children)
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words](../../aspose.words)
+* пространство имен [Aspose.Words](../../aspose.words/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -26,14 +26,14 @@ Il nodo dell'immagine che è stato appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape) oggetto restituito da questo metodo.
+È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 È supportato l'inserimento di video online dalle seguenti risorse:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](../insertonlinevideo), che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](./insertonlinevideo/), che accetta codice html incorporato personalizzato.
 
 Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Guarda anche
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ Il nodo dell'immagine che è stato appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape) oggetto restituito da questo metodo.
+È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 È supportato l'inserimento di video online dalle seguenti risorse:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](../insertonlinevideo), che accetta codice html incorporato personalizzato.
+Se il tuo video online non viene visualizzato correttamente, utilizza[`InsertOnlineVideo`](./insertonlinevideo/), che accetta codice html incorporato personalizzato.
 
 Il codice per l'incorporamento di video può variare a seconda del provider, per i dettagli consulta il provider di scelta corrispondente.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Guarda anche
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ Il nodo dell'immagine che è stato appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape) oggetto restituito da questo metodo.
+È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Guarda anche
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ Il nodo dell'immagine che è stato appena inserito.
 
 ### Osservazioni
 
-È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape) oggetto restituito da questo metodo.
+È possibile modificare la dimensione dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ### Esempi
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Guarda anche
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,34 +18,34 @@ public static class ControlChar
 
 | İsim | Tanım |
 | --- | --- |
-| static readonly [Cell](../../aspose.words/controlchar/cell) | Bir tablo hücresinin sonu veya bir tablo satırı karakterinin sonu: "\x0007" veya "\a". |
-| const [CellChar](../../aspose.words/controlchar/cellchar) | Bir tablo hücresinin sonu veya bir tablo satırı karakterinin sonu: (char)7 veya "\a". |
-| static readonly [ColumnBreak](../../aspose.words/controlchar/columnbreak) | Sütun karakterinin sonu: "\x000e". |
-| const [ColumnBreakChar](../../aspose.words/controlchar/columnbreakchar) | Sütun karakterinin sonu: (char)14. |
-| static readonly [Cr](../../aspose.words/controlchar/cr) | Satır başı karakteri: "\x000d" veya "\r". İle aynı[`ParagraphBreak`](./paragraphbreak) . |
-| static readonly [CrLf](../../aspose.words/controlchar/crlf) | Satır başı ve ardından satır besleme karakteri: "\x000d\x000a" veya "\r\n". Microsoft Word belgelerinde bu şekilde kullanılmaz, ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır. |
-| const [DefaultTextInputChar](../../aspose.words/controlchar/defaulttextinputchar) | Bu, metin girişi form alanlarında varsayılan değer olarak kullanılan "o" karakteridir. |
-| const [FieldEndChar](../../aspose.words/controlchar/fieldendchar) | MS Word alan karakterinin sonu: (char)21. |
-| const [FieldSeparatorChar](../../aspose.words/controlchar/fieldseparatorchar) | Alan ayırıcı karakter, alan kodunu alan değerinden ayırır. Bazı alanlarda isteğe bağlı. Değer: (char)20. |
-| const [FieldStartChar](../../aspose.words/controlchar/fieldstartchar) | MS Word alan karakterinin başlangıcı: (char)19. |
-| static readonly [Lf](../../aspose.words/controlchar/lf) | Satır besleme karakteri: "\x000a" veya "\n". İle aynı[`LineFeed`](./linefeed) . |
-| static readonly [LineBreak](../../aspose.words/controlchar/linebreak) | Satır sonu karakteri: "\x000b" veya "\v". |
-| const [LineBreakChar](../../aspose.words/controlchar/linebreakchar) | Satır sonu karakteri: (char)11 veya "\v". |
-| static readonly [LineFeed](../../aspose.words/controlchar/linefeed) | Satır besleme karakteri: "\x000a" veya "\n". İle aynı[`Lf`](./lf) . |
-| const [LineFeedChar](../../aspose.words/controlchar/linefeedchar) | Satır besleme karakteri: (char)10 veya "\n". |
-| const [NonBreakingHyphenChar](../../aspose.words/controlchar/nonbreakinghyphenchar) | Microsoft Word'deki Bölünmez Kısa Çizgi (char)30. |
-| static readonly [NonBreakingSpace](../../aspose.words/controlchar/nonbreakingspace) | Bölünemez boşluk karakteri: "\x00a0". |
-| const [NonBreakingSpaceChar](../../aspose.words/controlchar/nonbreakingspacechar) | Bölünemez boşluk karakteri: (char)160. |
-| const [OptionalHyphenChar](../../aspose.words/controlchar/optionalhyphenchar) | Microsoft Word'de isteğe bağlı Tire (char)31. |
-| static readonly [PageBreak](../../aspose.words/controlchar/pagebreak) | Sayfa sonu karakteri: "\x000c" veya "\f". ile aynı değere sahip olduğunu unutmayın.[`SectionBreak`](./sectionbreak) . |
-| const [PageBreakChar](../../aspose.words/controlchar/pagebreakchar) | Sayfa sonu karakteri: (char)12 veya "\f". |
-| static readonly [ParagraphBreak](../../aspose.words/controlchar/paragraphbreak) | Paragraf sonu karakteri: "\x000d" veya "\r". İle aynı[`Cr`](./cr) |
-| const [ParagraphBreakChar](../../aspose.words/controlchar/paragraphbreakchar) | Paragraf sonu karakteri: (char)13 veya "\r". |
-| static readonly [SectionBreak](../../aspose.words/controlchar/sectionbreak) | Bölüm sonu karakteri: "\x000c" veya "\f". ile aynı değere sahip olduğunu unutmayın.[`PageBreak`](./pagebreak) . |
-| const [SectionBreakChar](../../aspose.words/controlchar/sectionbreakchar) | Bölüm sonu karakteri: (char)12 veya "\f". |
-| const [SpaceChar](../../aspose.words/controlchar/spacechar) | Boşluk karakteri: (char)32. |
-| static readonly [Tab](../../aspose.words/controlchar/tab) | Sekme karakteri: "\x0009" veya "\t". |
-| const [TabChar](../../aspose.words/controlchar/tabchar) | Sekme karakteri: (char)9 veya "\t". |
+| static readonly [Cell](../../aspose.words/controlchar/cell/) | Bir tablo hücresinin sonu veya bir tablo satırı karakterinin sonu: "\x0007" veya "\a". |
+| const [CellChar](../../aspose.words/controlchar/cellchar/) | Bir tablo hücresinin sonu veya bir tablo satırı karakterinin sonu: (char)7 veya "\a". |
+| static readonly [ColumnBreak](../../aspose.words/controlchar/columnbreak/) | Sütun karakterinin sonu: "\x000e". |
+| const [ColumnBreakChar](../../aspose.words/controlchar/columnbreakchar/) | Sütun karakterinin sonu: (char)14. |
+| static readonly [Cr](../../aspose.words/controlchar/cr/) | Satır başı karakteri: "\x000d" veya "\r". İle aynı[`ParagraphBreak`](./paragraphbreak/) . |
+| static readonly [CrLf](../../aspose.words/controlchar/crlf/) | Satır başı ve ardından satır besleme karakteri: "\x000d\x000a" veya "\r\n". Microsoft Word belgelerinde bu şekilde kullanılmaz, ancak metin dosyalarında paragraf sonları için yaygın olarak kullanılır. |
+| const [DefaultTextInputChar](../../aspose.words/controlchar/defaulttextinputchar/) | Bu, metin girişi form alanlarında varsayılan değer olarak kullanılan "o" karakteridir. |
+| const [FieldEndChar](../../aspose.words/controlchar/fieldendchar/) | MS Word alan karakterinin sonu: (char)21. |
+| const [FieldSeparatorChar](../../aspose.words/controlchar/fieldseparatorchar/) | Alan ayırıcı karakter, alan kodunu alan değerinden ayırır. Bazı alanlarda isteğe bağlı. Değer: (char)20. |
+| const [FieldStartChar](../../aspose.words/controlchar/fieldstartchar/) | MS Word alan karakterinin başlangıcı: (char)19. |
+| static readonly [Lf](../../aspose.words/controlchar/lf/) | Satır besleme karakteri: "\x000a" veya "\n". İle aynı[`LineFeed`](./linefeed/) . |
+| static readonly [LineBreak](../../aspose.words/controlchar/linebreak/) | Satır sonu karakteri: "\x000b" veya "\v". |
+| const [LineBreakChar](../../aspose.words/controlchar/linebreakchar/) | Satır sonu karakteri: (char)11 veya "\v". |
+| static readonly [LineFeed](../../aspose.words/controlchar/linefeed/) | Satır besleme karakteri: "\x000a" veya "\n". İle aynı[`Lf`](./lf/) . |
+| const [LineFeedChar](../../aspose.words/controlchar/linefeedchar/) | Satır besleme karakteri: (char)10 veya "\n". |
+| const [NonBreakingHyphenChar](../../aspose.words/controlchar/nonbreakinghyphenchar/) | Microsoft Word'deki Bölünmez Kısa Çizgi (char)30. |
+| static readonly [NonBreakingSpace](../../aspose.words/controlchar/nonbreakingspace/) | Bölünemez boşluk karakteri: "\x00a0". |
+| const [NonBreakingSpaceChar](../../aspose.words/controlchar/nonbreakingspacechar/) | Bölünemez boşluk karakteri: (char)160. |
+| const [OptionalHyphenChar](../../aspose.words/controlchar/optionalhyphenchar/) | Microsoft Word'de isteğe bağlı Tire (char)31. |
+| static readonly [PageBreak](../../aspose.words/controlchar/pagebreak/) | Sayfa sonu karakteri: "\x000c" veya "\f". ile aynı değere sahip olduğunu unutmayın.[`SectionBreak`](./sectionbreak/) . |
+| const [PageBreakChar](../../aspose.words/controlchar/pagebreakchar/) | Sayfa sonu karakteri: (char)12 veya "\f". |
+| static readonly [ParagraphBreak](../../aspose.words/controlchar/paragraphbreak/) | Paragraf sonu karakteri: "\x000d" veya "\r". İle aynı[`Cr`](./cr/) |
+| const [ParagraphBreakChar](../../aspose.words/controlchar/paragraphbreakchar/) | Paragraf sonu karakteri: (char)13 veya "\r". |
+| static readonly [SectionBreak](../../aspose.words/controlchar/sectionbreak/) | Bölüm sonu karakteri: "\x000c" veya "\f". ile aynı değere sahip olduğunu unutmayın.[`PageBreak`](./pagebreak/) . |
+| const [SectionBreakChar](../../aspose.words/controlchar/sectionbreakchar/) | Bölüm sonu karakteri: (char)12 veya "\f". |
+| const [SpaceChar](../../aspose.words/controlchar/spacechar/) | Boşluk karakteri: (char)32. |
+| static readonly [Tab](../../aspose.words/controlchar/tab/) | Sekme karakteri: "\x0009" veya "\t". |
+| const [TabChar](../../aspose.words/controlchar/tabchar/) | Sekme karakteri: (char)9 veya "\t". |
 
 ### Notlar
 
@@ -77,7 +77,7 @@ Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words](../../aspose.words)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

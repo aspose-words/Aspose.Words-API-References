@@ -1,7 +1,7 @@
 ---
 title: FieldSeq
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das SEQ-Feld.
+description: Implementiert das SEQFeld.
 type: docs
 weight: 2240
 url: /de/net/aspose.words.fields/fieldseq/
@@ -18,38 +18,38 @@ public class FieldSeq : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldSeq](fieldseq)() | Default_Constructor |
+| [FieldSeq](fieldseq/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldseq/bookmarkname) { get; set; } | Ruft einen Lesezeichennamen ab oder legt ihn fest, der auf ein Element an einer anderen Stelle im Dokument und nicht an der aktuellen Position verweist. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [InsertNextNumber](../../aspose.words.fields/fieldseq/insertnextnumber) { get; set; } | Ruft ab oder legt fest, ob die nächste Sequenznummer für das angegebene Element eingefügt werden soll. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel) { get; set; } | Ruft eine ganze Zahl ab oder legt sie fest, die eine Überschriftenebene darstellt, auf die die Sequenznummer zurückgesetzt werden soll. Gibt -1 zurück, wenn die Zahl fehlt. |
-| [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber) { get; set; } | Ruft eine Ganzzahl ab oder legt sie fest, auf die die Sequenznummer zurückgesetzt werden soll. Gibt -1 zurück, wenn die Zahl fehlt. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [SequenceIdentifier](../../aspose.words.fields/fieldseq/sequenceidentifier) { get; set; } | Ermittelt oder setzt den Namen, der der zu nummerierenden Artikelserie zugeordnet ist. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [BookmarkName](../../aspose.words.fields/fieldseq/bookmarkname/) { get; set; } | Ruft einen Lesezeichennamen ab oder legt ihn fest, der auf ein Element an einer anderen Stelle im Dokument und nicht an der aktuellen Position verweist. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [InsertNextNumber](../../aspose.words.fields/fieldseq/insertnextnumber/) { get; set; } | Ruft ab oder legt fest, ob die nächste Sequenznummer für das angegebene Element eingefügt werden soll. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel/) { get; set; } | Ruft eine ganze Zahl ab oder legt sie fest, die eine Überschriftenebene darstellt, auf die die Sequenznummer zurückgesetzt werden soll. Gibt -1 zurück, wenn die Zahl fehlt. |
+| [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber/) { get; set; } | Ruft eine Ganzzahl ab oder legt sie fest, auf die die Sequenznummer zurückgesetzt werden soll. Gibt -1 zurück, wenn die Zahl fehlt. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [SequenceIdentifier](../../aspose.words.fields/fieldseq/sequenceidentifier/) { get; set; } | Ermittelt oder setzt den Namen, der der zu nummerierenden Artikelserie zugeordnet ist. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
@@ -260,8 +260,8 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

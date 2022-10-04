@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Справочник по API Aspose.Words для .NET
-description: Подписывает исходный документ используя данныеCertificateHolderaspose.words.digitalsignatures/certificateholder а такжеSignOptionsaspose.words.digitalsignatures/signoptions с цифровой подписью и записывает подписанный документ в поток назначения.
+description: Подписывает исходный документ используя данныеCertificateHolderaspose.words.digitalsignatures/certificateholder/ а такжеSignOptionsaspose.words.digitalsignatures/signoptions/ с цифровой подписью и записывает подписанный документ в поток назначения.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) а также[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в поток назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder/) а также[`SignOptions`](../../signoptions/) с цифровой подписью и записывает подписанный документ в поток назначения.
 
 Документ должен быть либоDoc или жеDocx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | Поток, содержащий документ для подписи. |
 | dstStream | Stream | Поток, в который будет записан подписанный документ. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) объект с различными вариантами подписи. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) объект с различными вариантами подписи. |
 
 ### Примеры
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### Смотрите также
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) а также[`SignOptions`](../../signoptions) с цифровой подписью и записывает подписанный документ в файл назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder/) а также[`SignOptions`](../../signoptions/) с цифровой подписью и записывает подписанный документ в файл назначения.
 
 Документ должен быть либоDoc или жеDocx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | Имя файла документа для подписи. |
 | dstFileName | String | Имя файла вывода подписанного документа. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) объект с различными вариантами подписи. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) объект с различными вариантами подписи. |
 
 ### Примеры
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### Смотрите также
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder)с цифровой подписью и записывает подписанный документ в поток назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder/)с цифровой подписью и записывает подписанный документ в поток назначения.
 
 Документ должен быть либоDoc или жеDocx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | Поток, содержащий документ для подписи. |
 | dstStream | Stream | Поток, в который будет записан подписанный документ. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
 ### Примеры
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Смотрите также
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * сборка [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder) с цифровой подписью и записывает подписанный документ в файл назначения.
+Подписывает исходный документ, используя данные[`CertificateHolder`](../../certificateholder/) с цифровой подписью и записывает подписанный документ в файл назначения.
 
 Документ должен быть либоDoc или жеDocx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | Имя файла документа для подписи. |
 | dstFileName | String | Имя файла вывода подписанного документа. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) объект с сертификатом, который использовался для подписи файла. Сертификат в держателе ДОЛЖЕН содержать закрытые ключи и иметь установленный флаг X509KeyStorageFlags.Exportable. |
 
 ### Примеры
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### Смотрите также
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* пространство имен [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

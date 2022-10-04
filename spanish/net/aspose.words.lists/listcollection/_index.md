@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Obtiene el recuento de listas numeradas y con viñetas en el documento. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Obtiene el documento del propietario. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Obtiene una lista por index. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Obtiene el recuento de listas numeradas y con viñetas en el documento. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Obtiene el documento del propietario. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Obtiene una lista por index. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Crea una nueva lista basada en una plantilla predefinida y la agrega a la colección de listas del documento. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Crea una nueva lista que hace referencia a un estilo de lista y la agrega a la colección de listas del documento. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Crea una nueva lista copiando la lista especificada y agregándola a la colección de listas en el documento. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Obtiene el objeto enumerador que enumerará las listas en el documento. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Obtiene una lista por un identificador de lista. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Crea una nueva lista basada en una plantilla predefinida y la agrega a la colección de listas del documento. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Crea una nueva lista que hace referencia a un estilo de lista y la agrega a la colección de listas del documento. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Crea una nueva lista copiando la lista especificada y agregándola a la colección de listas en el documento. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Obtiene el objeto enumerador que enumerará las listas en el documento. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Obtiene una lista por un identificador de lista. |
 
 ### Observaciones
 
-Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. El formato de las listas se almacena en el[`ListCollection`](../listcollection) colección por separado de los párrafos de texto.
+Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. El formato de las listas se almacena en el[`ListCollection`](./listcollection/) colección por separado de los párrafos de texto.
 
-No creas objetos de esta clase. siempre hay uno solo[`ListCollection`](../listcollection) objeto por documento y es accesible a través del[`Lists`](../../aspose.words/documentbase/lists) propiedad.
+No creas objetos de esta clase. siempre hay uno solo[`ListCollection`](./listcollection/) objeto por documento y es accesible a través del[`Lists`](../../aspose.words/documentbase/lists/) propiedad.
 
-Para crear una nueva lista basada en una plantilla de lista predefinida o basada en un estilo de lista, use el[`Add`](./add) método.
+Para crear una nueva lista basada en una plantilla de lista predefinida o basada en un estilo de lista, use el[`Add`](./add/) método.
 
-Para crear una nueva lista con formato idéntico a una lista existente, use el[`AddCopy`](./addcopy) método.
+Para crear una nueva lista con formato idéntico a una lista existente, use el[`AddCopy`](./addcopy/) método.
 
-Para hacer un párrafo con viñetas o numerado, debe aplicar formato de lista a un párrafo asignando un[`List`](../list) objetar a the [`List`](../listformat/list) propiedad de[`ListFormat`](../listformat).
+Para hacer un párrafo con viñetas o numerado, debe aplicar formato de lista a un párrafo asignando un[`List`](../list/) objetar a the [`List`](../listformat/list/) propiedad de[`ListFormat`](../listformat/).
 
-Para eliminar el formato de lista de un párrafo, utilice el[`RemoveNumbers`](../listformat/removenumbers) método .
+Para eliminar el formato de lista de un párrafo, utilice el[`RemoveNumbers`](../listformat/removenumbers/) método .
 
 Si sabe un poco sobre WordprocessingML, es posible que sepa que define conceptos separados para "lista" y "definición de lista". Esto corresponde exactamente a cómo se almacena el formato de lista en un documento de Microsoft Word en el nivel bajo. La definición de lista es como un "esquema" y la lista es como una instancia de una definición de lista.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Ver también
 
-* class [List](../list)
-* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -24,7 +24,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -56,9 +56,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -83,7 +83,7 @@ Bildnoden som precis infogades.
 
 Denna överbelastning kommer automatiskt att ladda ner bilden innan den infogas i document om du anger en fjärr-URI.
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -189,9 +189,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -214,7 +214,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -262,9 +262,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -287,7 +287,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -361,9 +361,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -388,7 +388,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -448,9 +448,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -475,7 +475,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -506,9 +506,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -533,7 +533,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -566,9 +566,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -593,7 +593,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -667,9 +667,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -700,7 +700,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -760,12 +760,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -796,7 +796,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -864,12 +864,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -900,7 +900,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -933,12 +933,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -969,7 +969,7 @@ Bildnoden som precis infogades.
 
 ### Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
 
 ### Exempel
 
@@ -1043,12 +1043,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Se även
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

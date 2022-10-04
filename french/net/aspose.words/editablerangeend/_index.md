@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtient le document auquel ce nœud appartient. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | EditableRangeStart correspondant, reçu par ID. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | Spécifie l'identifiant de la plage modifiable. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | RetoursEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtient le parent immédiat de ce nœud. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | EditableRangeStart correspondant, reçu par ID. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Spécifie l'identifiant de la plage modifiable. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | RetoursEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crée un doublon du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Obtient le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
-| [Remove](../../aspose.words/node/remove)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
 
 ### Remarques
 
-Une plage modifiable complète dans un document Word se compose d'un[`EditableRangeStart`](./editablerangestart) et une correspondance[`EditableRangeEnd`](../editablerangeend) avec le même identifiant.
+Une plage modifiable complète dans un document Word se compose d'un[`EditableRangeStart`](./editablerangestart/) et une correspondance[`EditableRangeEnd`](./editablerangeend/) avec le même identifiant.
 
-[`EditableRangeStart`](./editablerangestart) et[`EditableRangeEnd`](../editablerangeend) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine la plage modifiable.
+[`EditableRangeStart`](./editablerangestart/) et[`EditableRangeEnd`](./editablerangeend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine la plage modifiable.
 
-Utilisez le[`EditableRange`](../editablerange)classe en tant que "façade" pour travailler avec une plage modifiable en tant qu'objet unique.
+Utilisez le[`EditableRange`](../editablerange/)classe en tant que "façade" pour travailler avec une plage modifiable en tant qu'objet unique.
 
-Actuellement, les plages modifiables ne sont prises en charge qu'au niveau en ligne, c'est-à-dire à l'intérieur[`Paragraph`](../paragraph), mais le début et la fin de la plage modifiable peuvent se trouver dans des paragraphes différents.
+Actuellement, les plages modifiables ne sont prises en charge qu'au niveau en ligne, c'est-à-dire à l'intérieur[`Paragraph`](../paragraph/), mais le début et la fin de la plage modifiable peuvent se trouver dans des paragraphes différents.
 
 ### Exemples
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### Voir également
 
-* class [Node](../node)
-* espace de noms [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

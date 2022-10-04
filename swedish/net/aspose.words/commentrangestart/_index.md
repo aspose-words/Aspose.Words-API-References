@@ -18,42 +18,42 @@ public sealed class CommentRangeStart : Node
 
 | namn | Beskrivning |
 | --- | --- |
-| [CommentRangeStart](commentrangestart)(DocumentBase, int) | Initierar en ny instans av den här klassen. |
+| [CommentRangeStart](commentrangestart/)(DocumentBase, int) | Initierar en ny instans av den här klassen. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Anger anpassad nodidentifierare. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [Id](../../aspose.words/commentrangestart/id) { get; set; } | Anger identifieraren för kommentaren som denna region är länkad till. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype) { get; } | ReturnerarCommentRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
+| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Anger identifieraren för kommentaren som denna region är länkad till. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | ReturnerarCommentRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
-| [Remove](../../aspose.words/node/remove)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
 ### Anmärkningar
 
-För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment) and skapa sedan[`CommentRangeStart`](../commentrangestart) och[`CommentRangeEnd`](../commentrangeend)och ställ in deras identifierare till samma[`Id`](../comment/id) värde.
+För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment/) and skapa sedan[`CommentRangeStart`](./commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/)och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
 
-[`CommentRangeStart`](../commentrangestart) är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph).
+[`CommentRangeStart`](./commentrangestart/) är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
 
 ### Exempel
 
@@ -215,8 +215,8 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ### Se även
 
-* class [Node](../node)
-* namnutrymme [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

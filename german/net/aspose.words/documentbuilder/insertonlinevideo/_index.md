@@ -1,7 +1,7 @@
 ---
 title: InsertOnlineVideo
 second_title: Aspose.Words für .NET-API-Referenz
-description: Fügt ein Online-Videoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
+description: Fügt ein OnlineVideoobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 type: docs
 weight: 390
 url: /de/net/aspose.words/documentbuilder/insertonlinevideo/
@@ -26,14 +26,14 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 Das Einfügen von Onlinevideos aus den folgenden Ressourcen wird unterstützt:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](../insertonlinevideo), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
+Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](./insertonlinevideo/), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
 
 Der Code zum Einbetten von Videos kann je nach Anbieter variieren, wenden Sie sich für Einzelheiten an Ihren entsprechenden Anbieter Ihrer Wahl.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 Das Einfügen von Onlinevideos aus den folgenden Ressourcen wird unterstützt:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](../insertonlinevideo), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
+Wenn Ihr Online-Video nicht richtig angezeigt wird, verwenden Sie[`InsertOnlineVideo`](./insertonlinevideo/), die benutzerdefinierten eingebetteten HTML-Code akzeptiert.
 
 Der Code zum Einbetten von Videos kann je nach Anbieter variieren, wenden Sie sich für Einzelheiten an Ihren entsprechenden Anbieter Ihrer Wahl.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

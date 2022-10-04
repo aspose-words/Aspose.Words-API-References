@@ -1,14 +1,14 @@
 ---
 title: FontSavingArgs
 second_title: Aspose.Words för .NET API Referens
-description: Tillhandahåller data förFontSaving./ifontsavingcallback/fontsaving händelse.
+description: Tillhandahåller data förFontSaving./ifontsavingcallback/fontsaving/ händelse.
 type: docs
 weight: 4770
 url: /sv/net/aspose.words.saving/fontsavingargs/
 ---
 ## FontSavingArgs class
 
-Tillhandahåller data för[`FontSaving`](../ifontsavingcallback/fontsaving) händelse.
+Tillhandahåller data för[`FontSaving`](../ifontsavingcallback/fontsaving/) händelse.
 
 ```csharp
 public class FontSavingArgs
@@ -18,29 +18,29 @@ public class FontSavingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bold](../../aspose.words.saving/fontsavingargs/bold) { get; } | Indikerar om det aktuella teckensnittet är fetstilt. |
-| [Document](../../aspose.words.saving/fontsavingargs/document) { get; } | Hämtar dokumentobjektet som sparas. |
-| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname) { get; } | Indikerar det aktuella teckensnittets efternamn. |
-| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename) { get; set; } | Hämtar eller ställer in filnamnet (utan sökväg) där typsnittet ska sparas. |
-| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream) { get; set; } | Tillåter att ange strömmen där teckensnittet ska sparas. |
-| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded) { get; set; } | Tillåter att ange om det aktuella teckensnittet kommer att exporteras som en teckensnittsresurs. Standard är`Sann` . |
-| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded) { get; set; } | Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs. |
-| [Italic](../../aspose.words.saving/fontsavingargs/italic) { get; } | Indikerar om det aktuella teckensnittet är kursivt. |
-| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen) { get; set; } | Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat ett teckensnitt. |
-| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename) { get; } | Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg. |
-| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize) { get; } | Får den ursprungliga teckensnittsfilstorleken. |
+| [Bold](../../aspose.words.saving/fontsavingargs/bold/) { get; } | Indikerar om det aktuella teckensnittet är fetstilt. |
+| [Document](../../aspose.words.saving/fontsavingargs/document/) { get; } | Hämtar dokumentobjektet som sparas. |
+| [FontFamilyName](../../aspose.words.saving/fontsavingargs/fontfamilyname/) { get; } | Indikerar det aktuella teckensnittets efternamn. |
+| [FontFileName](../../aspose.words.saving/fontsavingargs/fontfilename/) { get; set; } | Hämtar eller ställer in filnamnet (utan sökväg) där typsnittet ska sparas. |
+| [FontStream](../../aspose.words.saving/fontsavingargs/fontstream/) { get; set; } | Tillåter att ange strömmen där teckensnittet ska sparas. |
+| [IsExportNeeded](../../aspose.words.saving/fontsavingargs/isexportneeded/) { get; set; } | Tillåter att ange om det aktuella teckensnittet kommer att exporteras som en teckensnittsresurs. Standard är`Sann` . |
+| [IsSubsettingNeeded](../../aspose.words.saving/fontsavingargs/issubsettingneeded/) { get; set; } | Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs. |
+| [Italic](../../aspose.words.saving/fontsavingargs/italic/) { get; } | Indikerar om det aktuella teckensnittet är kursivt. |
+| [KeepFontStreamOpen](../../aspose.words.saving/fontsavingargs/keepfontstreamopen/) { get; set; } | Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat ett teckensnitt. |
+| [OriginalFileName](../../aspose.words.saving/fontsavingargs/originalfilename/) { get; } | Hämtar det ursprungliga teckensnittsfilnamnet med ett tillägg. |
+| [OriginalFileSize](../../aspose.words.saving/fontsavingargs/originalfilesize/) { get; } | Får den ursprungliga teckensnittsfilstorleken. |
 
 ### Anmärkningar
 
-När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources) är inställd på **Sann**, sparar varje teckensnittsämne för export till en separat fil.
+När Aspose.Words sparar ett dokument till HTML eller relaterade format och[`ExportFontResources`](../htmlsaveoptions/exportfontresources/) är inställd på **Sann**, sparar varje teckensnittsämne för export till en separat fil.
 
-[`FontSavingArgs`](../fontsavingargs) styr om en viss typsnittsresurs ska exporteras och hur.
+[`FontSavingArgs`](./fontsavingargs/) styr om en viss typsnittsresurs ska exporteras och hur.
 
-[`FontSavingArgs`](../fontsavingargs)tillåter också att omdefiniera hur teckensnittsfilnamn genereras eller att helt kringgå lagring av teckensnitt i filer genom att tillhandahålla dina egna strömobjekt.
+[`FontSavingArgs`](./fontsavingargs/)tillåter också att omdefiniera hur teckensnittsfilnamn genereras eller att helt kringgå lagring av teckensnitt i filer genom att tillhandahålla dina egna strömobjekt.
 
-För att bestämma om du vill spara en viss typsnittsresurs, använd[`IsExportNeeded`](./isexportneeded) fast egendom.
+För att bestämma om du vill spara en viss typsnittsresurs, använd[`IsExportNeeded`](./isexportneeded/) fast egendom.
 
-För att spara teckensnitt i strömmar istället för filer, använd[`FontStream`](./fontstream) fast egendom.
+För att spara teckensnitt i strömmar istället för filer, använd[`FontStream`](./fontstream/) fast egendom.
 
 ### Exempel
 
@@ -98,7 +98,7 @@ public class HandleFontSaving : IFontSavingCallback
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Saving](../../aspose.words.saving)
+* namnutrymme [Aspose.Words.Saving](../../aspose.words.saving/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

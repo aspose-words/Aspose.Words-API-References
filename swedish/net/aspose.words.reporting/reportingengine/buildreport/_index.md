@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Returvärde
 
-En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options)egenskapen inkluderar InlineErrorMessages alternativ.
+En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
 ### Anmärkningar
 
-Med denna överbelastning kan du referera till datakällans medlemmar i malldokumentet, men du kan inte referera till själva datakällans objekt. Du bör använda[`BuildReport`](../buildreport) överbelastning för att uppnå detta.
+Med denna överbelastning kan du referera till datakällans medlemmar i malldokumentet, men du kan inte referera till själva datakällans objekt. Du bör använda[`BuildReport`](./buildreport/) överbelastning för att uppnå detta.
 
 Ett datakällobjekt kan vara av en av följande typer:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 ### Se även
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Returvärde
 
-En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options)egenskapen inkluderar InlineErrorMessages alternativ.
+En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
 ### Anmärkningar
 
-Med denna överbelastning kan du referera till datakällans medlemmar och själva datakällans objekt i mallen. Om du inte ska referera till själva datakällobjektet kan du utelämna*dataSourceName* passerar null eller använd[`BuildReport`](../buildreport) överbelastning.
+Med denna överbelastning kan du referera till datakällans medlemmar och själva datakällans objekt i mallen. Om du inte ska referera till själva datakällobjektet kan du utelämna*dataSourceName* passerar null eller använd[`BuildReport`](./buildreport/) överbelastning.
 
 Ett datakällobjekt kan vara av en av följande typer:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 ### Se även
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Returvärde
 
-En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options)egenskapen inkluderar InlineErrorMessages alternativ.
+En flagga som indikerar om analysen av malldokumentet lyckades. Den returnerade flaggan är bara meningsfull om ett värde på[`Options`](../options/)egenskapen inkluderar InlineErrorMessages alternativ.
 
 ### Anmärkningar
 
 Genom att använda denna överbelastning kan du referera till flera datakällobjekt och deras medlemmar i mallen. Namnet på den första datakällan kan utelämnas (dvs. vara en tom sträng eller null) om du ska referera till datakällans medlemmar men inte själva datakällans objekt. Namnen på de andra datakällorna måste anges och vara unika.
 
-Om du ska använda en enda datakälla, överväg att använda av[`BuildReport`](../buildreport) och[`BuildReport`](../buildreport) överbelastning istället.
+Om du ska använda en enda datakälla, överväg att använda av[`BuildReport`](./buildreport/) och[`BuildReport`](./buildreport/) överbelastning istället.
 
 Ett datakällobjekt kan vara av en av följande typer:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ För information om hur man arbetar med datakällor av olika typer i malldokumen
 
 ### Se även
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* namnutrymme [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* namnutrymme [Aspose.Words.Reporting](../../reportingengine/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

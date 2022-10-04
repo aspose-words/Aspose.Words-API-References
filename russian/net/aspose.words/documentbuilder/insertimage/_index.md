@@ -24,7 +24,7 @@ public Shape InsertImage(Image image)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -56,9 +56,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -83,7 +83,7 @@ public Shape InsertImage(string fileName)
 
 Эта перегрузка автоматически загрузит изображение перед вставкой в document , если вы укажете удаленный URI.
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -189,9 +189,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -214,7 +214,7 @@ public Shape InsertImage(Stream stream)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -262,9 +262,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -287,7 +287,7 @@ public Shape InsertImage(byte[] imageBytes)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -361,9 +361,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -388,7 +388,7 @@ public Shape InsertImage(Image image, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -448,9 +448,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -475,7 +475,7 @@ public Shape InsertImage(string fileName, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -506,9 +506,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -533,7 +533,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -566,9 +566,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -593,7 +593,7 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -667,9 +667,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -700,7 +700,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -760,12 +760,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -796,7 +796,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -864,12 +864,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -900,7 +900,7 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -933,12 +933,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -969,7 +969,7 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -1043,12 +1043,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator
 second_title: Aspose.Words لمراجع .NET API
-description: تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان  بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا منGetEntity./layoutcollector/getentity وCurrent./layoutenumerator/current الانتقال إلى الكيان الذي يتوافق مع عقدة المستند.
+description: تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان  بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا منGetEntity./layoutcollector/getentity/ وCurrent./layoutenumerator/current/ الانتقال إلى الكيان الذي يتوافق مع عقدة المستند.
 type: docs
 weight: 3140
 url: /ar/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
-تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان ، بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا من[`GetEntity`](../layoutcollector/getentity) و[`Current`](./current) الانتقال إلى الكيان الذي يتوافق مع عقدة المستند.
+تعداد كيانات تخطيط الصفحة للمستند. يمكنك استخدام هذه الفئة للتجول في نموذج تخطيط الصفحة. الخصائص المتاحة هي النوع والشكل الهندسي والنص وفهرس الصفحة حيث يتم تقديم الكيان ، بالإضافة إلى الهيكل العام والعلاقات . استخدم مزيجًا من[`GetEntity`](../layoutcollector/getentity/) و[`Current`](./current/) الانتقال إلى الكيان الذي يتوافق مع عقدة المستند.
 
 ```csharp
 public class LayoutEnumerator
@@ -18,33 +18,33 @@ public class LayoutEnumerator
 
 | اسم | وصف |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | تهيئة مثيل جديد لهذه الفئة. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | الحصول على أو تعيين الموضع الحالي في نموذج تخطيط الصفحة . هذه الخاصية تُرجع كائنًا معتمًا يتوافق مع كيان التخطيط الحالي. |
-| [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | الحصول على الوثيقة التي تعدادها هذه المثيل . |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | الحصول على نوع الكيان الحالي. يمكن أن تكون هذه سلسلة فارغة ولكنها ليست فارغة أبدًا. |
-| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | الحصول على الفهرس المستند إلى 1 للصفحة التي تحتوي على الكيان الحالي. |
-| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة (بالنقاط) . |
-| [Text](../../aspose.words.layout/layoutenumerator/text) { get; } | الحصول على نص كيان الامتداد الحالي. رميات لأنواع الكيانات الأخرى. |
-| [Type](../../aspose.words.layout/layoutenumerator/type) { get; } | يحصل على نوع الكيان الحالي. |
+| [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | الحصول على أو تعيين الموضع الحالي في نموذج تخطيط الصفحة . هذه الخاصية تُرجع كائنًا معتمًا يتوافق مع كيان التخطيط الحالي. |
+| [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | الحصول على الوثيقة التي تعدادها هذه المثيل . |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | الحصول على نوع الكيان الحالي. يمكن أن تكون هذه سلسلة فارغة ولكنها ليست فارغة أبدًا. |
+| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | الحصول على الفهرس المستند إلى 1 للصفحة التي تحتوي على الكيان الحالي. |
+| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | إرجاع المستطيل المحيط للكيان الحالي بالنسبة إلى الزاوية اليسرى العلوية للصفحة (بالنقاط) . |
+| [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | الحصول على نص كيان الامتداد الحالي. رميات لأنواع الكيانات الأخرى. |
+| [Type](../../aspose.words.layout/layoutenumerator/type/) { get; } | يحصل على نوع الكيان الحالي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild)() | ينتقل إلى الكيان الفرعي الأول . |
-| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | ينتقل إلى الكيان الفرعي الأخير . |
-| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | ينتقل إلى الكيان الشقيق التالي بالترتيب المرئي . عند تكرار سطور فقرة مقسمة عبر الصفحات ، لن تنتقل هذه الطريقة إلى الصفحة التالية بل تنتقل إلى الكيان التالي في نفس الصفحة. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | ينتقل إلى الكيان الشقيق التالي بترتيب منطقي . عند تكرار سطور فقرة مقطوعة عبر الصفحات ، ستنتقل هذه الطريقة إلى السطر التالي حتى إذا كانت موجودة في صفحة أخرى. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | ينتقل إلى الكيان الأصلي . |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | ينتقل إلى الكيان الأصلي من النوع المحدد. |
-| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | ينتقل إلى الكيان الشقيق السابق. |
-| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | ينتقل إلى الكيان الشقيق السابق بترتيب منطقي . عند تكرار سطور فقرة مقطوعة عبر الصفحات ، ستنتقل هذه الطريقة إلى السطر السابق حتى إذا كانت موجودة في صفحة أخرى. |
-| [Reset](../../aspose.words.layout/layoutenumerator/reset)() | نقل العداد إلى الصفحة الأولى من المستند. |
+| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | ينتقل إلى الكيان الفرعي الأول . |
+| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | ينتقل إلى الكيان الفرعي الأخير . |
+| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | ينتقل إلى الكيان الشقيق التالي بالترتيب المرئي . عند تكرار سطور فقرة مقسمة عبر الصفحات ، لن تنتقل هذه الطريقة إلى الصفحة التالية بل تنتقل إلى الكيان التالي في نفس الصفحة. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | ينتقل إلى الكيان الشقيق التالي بترتيب منطقي . عند تكرار سطور فقرة مقطوعة عبر الصفحات ، ستنتقل هذه الطريقة إلى السطر التالي حتى إذا كانت موجودة في صفحة أخرى. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | ينتقل إلى الكيان الأصلي . |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | ينتقل إلى الكيان الأصلي من النوع المحدد. |
+| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | ينتقل إلى الكيان الشقيق السابق. |
+| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | ينتقل إلى الكيان الشقيق السابق بترتيب منطقي . عند تكرار سطور فقرة مقطوعة عبر الصفحات ، ستنتقل هذه الطريقة إلى السطر السابق حتى إذا كانت موجودة في صفحة أخرى. |
+| [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | نقل العداد إلى الصفحة الأولى من المستند. |
 
 ### أمثلة
 
@@ -190,7 +190,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout)
+* مساحة الاسم [Aspose.Words.Layout](../../aspose.words.layout/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

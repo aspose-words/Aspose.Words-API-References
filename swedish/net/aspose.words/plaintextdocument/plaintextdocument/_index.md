@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
 ### Exempel
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Se även
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namnutrymme [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namnutrymme [Aspose.Words](../../plaintextdocument/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentException | Namnet på filen får inte vara null eller tom sträng. |
 
 ### Exempel
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Se även
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namnutrymme [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namnutrymme [Aspose.Words](../../plaintextdocument/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Se även
 
-* class [PlainTextDocument](../../plaintextdocument)
-* namnutrymme [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* namnutrymme [Aspose.Words](../../plaintextdocument/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | undantag | skick |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Dokumentformatet känns inte igen eller stöds inte. |
-| [FileCorruptedException](../../filecorruptedexception) | Dokumentet verkar vara skadat och kan inte laddas. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Dokumentformatet känns inte igen eller stöds inte. |
+| [FileCorruptedException](../../filecorruptedexception/) | Dokumentet verkar vara skadat och kan inte laddas. |
 | Exception | Det finns ett problem med dokumentet och det bör rapporteras till Aspose.Words-utvecklare. |
 | IOException | Det finns ett input/output undantag. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Dokumentet är krypterat och kräver ett lösenord för att öppnas, men du har angett ett felaktigt lösenord. |
 | ArgumentNullException | Strömmen kan inte vara null. |
 | NotSupportedException | Strömmen stöder inte läsning eller sökning. |
 | ObjectDisposedException | Strömmen är ett kasserat föremål. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Se även
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* namnutrymme [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* namnutrymme [Aspose.Words](../../plaintextdocument/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,37 +18,37 @@ public class FieldListNum : Field
 
 | Nom | La description |
 | --- | --- |
-| [FieldListNum](fieldlistnum)() | Default_Constructor |
+| [FieldListNum](fieldlistnum/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtient le nœud qui représente la fin du champ. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtient un[`FieldFormat`](../fieldformat) objet qui fournit un accès typé au formatage du champ. |
-| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname) { get; } | Renvoie une valeur indiquant si le nom d'une définition de numérotation abstraite est fourni par le code du champ. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
-| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel) { get; set; } | Obtient ou définit le niveau dans la liste, remplaçant le comportement par défaut du champ. |
-| [ListName](../../aspose.words.fields/fieldlistnum/listname) { get; set; } | Obtient ou définit le nom de la définition de numérotation abstraite utilisée pour la numérotation. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtient ou définit le LCID du champ. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtient le nœud qui représente le début du champ. |
-| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber) { get; set; } | Obtient ou définit la valeur de départ pour ce champ. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtient le type de champ Microsoft Word. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtient le texte qui représente le résultat du champ affiché. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtient le nœud qui représente la fin du champ. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtient un[`FieldFormat`](../fieldformat/) objet qui fournit un accès typé au formatage du champ. |
+| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname/) { get; } | Renvoie une valeur indiquant si le nom d'une définition de numérotation abstraite est fourni par le code du champ. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtient ou définit si le champ est verrouillé (ne doit pas recalculer son résultat). |
+| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel/) { get; set; } | Obtient ou définit le niveau dans la liste, remplaçant le comportement par défaut du champ. |
+| [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | Obtient ou définit le nom de la définition de numérotation abstraite utilisée pour la numérotation. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtient ou définit le LCID du champ. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtient le nœud qui représente le séparateur de champs. Peut être null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtient le nœud qui représente le début du champ. |
+| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | Obtient ou définit la valeur de départ pour ce champ. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtient le type de champ Microsoft Word. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
-| [Remove](../../aspose.words.fields/field/remove)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Effectue la dissociation du champ. |
-| [Update](../../aspose.words.fields/field/update)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). Le code de champ et le résultat du champ des champs enfants sont inclus. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Renvoie le texte entre le début du champ et le séparateur de champ (ou la fin du champ s'il n'y a pas de séparateur). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Supprime le champ du document. Renvoie un nœud juste après le champ. Si la fin du champ est le dernier enfant de son nœud parent, renvoie son paragraphe parent. Si le champ est déjà supprimé, renvoie **nul** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Effectue la dissociation du champ. |
+| [Update](../../aspose.words.fields/field/update/)() | Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour. |
 
 ### Exemples
 
@@ -119,8 +119,8 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 
 ### Voir également
 
-* class [Field](../field)
-* espace de noms [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

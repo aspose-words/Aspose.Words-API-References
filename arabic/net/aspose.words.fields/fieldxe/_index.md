@@ -18,40 +18,40 @@ public class FieldXE : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldXE](fieldxe)() | Default_Constructor |
+| [FieldXE](fieldxe/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryType](../../aspose.words.fields/fieldxe/entrytype) { get; set; } | الحصول على نوع إدخال فهرس أو تعيينه. |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsBold](../../aspose.words.fields/fieldxe/isbold) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تطبيق تنسيق غامق على رقم صفحة الإدخال. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsItalic](../../aspose.words.fields/fieldxe/isitalic) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تطبيق تنسيق مائل على رقم صفحة الإدخال. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [PageNumberReplacement](../../aspose.words.fields/fieldxe/pagenumberreplacement) { get; set; } | الحصول على أو تعيين النص المستخدم بدلاً من رقم الصفحة. |
-| [PageRangeBookmarkName](../../aspose.words.fields/fieldxe/pagerangebookmarkname) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات المدرجة كرقم صفحة الإدخال. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [Text](../../aspose.words.fields/fieldxe/text) { get; set; } | الحصول على نص الإدخال أو تعيينه. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
-| [Yomi](../../aspose.words.fields/fieldxe/yomi) { get; set; } | الحصول على أو تعيين yomi (الحرف الصوتي الأول لفهارس الفرز) لمدخل الفهرس |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [EntryType](../../aspose.words.fields/fieldxe/entrytype/) { get; set; } | الحصول على نوع إدخال فهرس أو تعيينه. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [IsBold](../../aspose.words.fields/fieldxe/isbold/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تطبيق تنسيق غامق على رقم صفحة الإدخال. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsItalic](../../aspose.words.fields/fieldxe/isitalic/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تطبيق تنسيق مائل على رقم صفحة الإدخال. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [PageNumberReplacement](../../aspose.words.fields/fieldxe/pagenumberreplacement/) { get; set; } | الحصول على أو تعيين النص المستخدم بدلاً من رقم الصفحة. |
+| [PageRangeBookmarkName](../../aspose.words.fields/fieldxe/pagerangebookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات المدرجة كرقم صفحة الإدخال. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| [Text](../../aspose.words.fields/fieldxe/text/) { get; set; } | الحصول على نص الإدخال أو تعيينه. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [Yomi](../../aspose.words.fields/fieldxe/yomi/) { get; set; } | الحصول على أو تعيين yomi (الحرف الصوتي الأول لفهارس الفرز) لمدخل الفهرس |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -180,8 +180,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

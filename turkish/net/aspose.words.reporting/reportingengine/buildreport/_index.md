@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Geri dönüş değeri
 
-Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options)özellik şunları içerir: InlineErrorMessages seçenek.
+Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options/)özellik şunları içerir: InlineErrorMessages seçenek.
 
 ### Notlar
 
-Bu aşırı yüklemeyi kullanarak şablon belgesinde veri kaynağının üyelerine başvurabilirsiniz, ancak veri kaynağı nesnesinin kendisine başvuramazsınız. kullanmalısın[`BuildReport`](../buildreport) bunu başarmak için aşırı yükleme.
+Bu aşırı yüklemeyi kullanarak şablon belgesinde veri kaynağının üyelerine başvurabilirsiniz, ancak veri kaynağı nesnesinin kendisine başvuramazsınız. kullanmalısın[`BuildReport`](./buildreport/) bunu başarmak için aşırı yükleme.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
 ### Ayrıca bakınız
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Geri dönüş değeri
 
-Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options)özellik şunları içerir: InlineErrorMessages seçenek.
+Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options/)özellik şunları içerir: InlineErrorMessages seçenek.
 
 ### Notlar
 
-Bu aşırı yüklemeyi kullanarak, şablonda veri kaynağının üyelerine ve veri kaynağı nesnesinin kendisine başvurabilirsiniz. Veri kaynağı nesnesinin kendisine başvurmayacaksanız, atlayabilirsiniz*dataSourceName* null değerini geçer veya[`BuildReport`](../buildreport) aşırı yük.
+Bu aşırı yüklemeyi kullanarak, şablonda veri kaynağının üyelerine ve veri kaynağı nesnesinin kendisine başvurabilirsiniz. Veri kaynağı nesnesinin kendisine başvurmayacaksanız, atlayabilirsiniz*dataSourceName* null değerini geçer veya[`BuildReport`](./buildreport/) aşırı yük.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
 ### Ayrıca bakınız
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Geri dönüş değeri
 
-Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options)özellik şunları içerir: InlineErrorMessages seçenek.
+Şablon belgesinin ayrıştırılmasının başarılı olup olmadığını gösteren bir bayrak. Döndürülen bayrak, yalnızca[`Options`](../options/)özellik şunları içerir: InlineErrorMessages seçenek.
 
 ### Notlar
 
 Bu aşırı yüklemeyi kullanarak, şablonda birden çok veri kaynağı nesnesine ve bunların üyelerine başvurabilirsiniz. Veri kaynağının üyelerine başvuruda bulunacak ancak veri kaynağı nesnesinin kendisine değil başvuru yapacaksanız, ilk veri kaynağının adı atlanabilir (yani boş bir dize veya boş olabilir). Diğer veri kaynaklarının adları belirtilmiş ve benzersiz olmalıdır.
 
-Tek bir veri kaynağı kullanacaksanız, şunu kullanmayı düşünün:[`BuildReport`](../buildreport) ve[`BuildReport`](../buildreport) bunun yerine aşırı yükler.
+Tek bir veri kaynağı kullanacaksanız, şunu kullanmayı düşünün:[`BuildReport`](./buildreport/) ve[`BuildReport`](./buildreport/) bunun yerine aşırı yükler.
 
 Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ Bir veri kaynağı nesnesi aşağıdaki türlerden biri olabilir:
 
 ### Ayrıca bakınız
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* ad alanı [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* ad alanı [Aspose.Words.Reporting](../../reportingengine/)
 * toplantı [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

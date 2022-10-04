@@ -18,43 +18,43 @@ public class FieldToa : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldToa](fieldtoa)() | Default_Constructor |
+| [FieldToa](fieldtoa/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الجدول. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory) { get; set; } | الحصول على أو تعيين فئة متكاملة للإدخالات المضمنة في الجدول. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال جدول مصادر ورقم صفحته. |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل رقمي صفحتين في قائمة أرقام الصفحات. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل بداية نطاق الصفحات ونهايته. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول المراجع. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | الحصول على أو تحديد اسم التسلسل الذي تم تضمين رقمه في رقم الصفحة. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تضمين عنوان الفئة للإدخالات في جدول المراجع. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبدال خمسة أو أكثر من مراجع الصفحات المختلفة لنفس المرجع بـ "passim" ، والتي تُستخدم للإشارة إلى أن الكلمة أو المقطع يحدث بشكل متكرر في العمل المذكور. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الجدول. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | الحصول على أو تعيين فئة متكاملة للإدخالات المضمنة في الجدول. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال جدول مصادر ورقم صفحته. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل رقمي صفحتين في قائمة أرقام الصفحات. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل بداية نطاق الصفحات ونهايته. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول المراجع. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | الحصول على أو تحديد اسم التسلسل الذي تم تضمين رقمه في رقم الصفحة. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تضمين عنوان الفئة للإدخالات في جدول المراجع. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبدال خمسة أو أكثر من مراجع الصفحات المختلفة لنفس المرجع بـ "passim" ، والتي تُستخدم للإشارة إلى أن الكلمة أو المقطع يحدث بشكل متكرر في العمل المذكور. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -180,8 +180,8 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

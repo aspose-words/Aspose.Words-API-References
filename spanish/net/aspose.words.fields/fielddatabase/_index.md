@@ -18,42 +18,42 @@ public class FieldDatabase : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldDatabase](fielddatabase)() | Constructor predeterminado |
+| [FieldDatabase](fielddatabase/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Connection](../../aspose.words.fields/fielddatabase/connection) { get; set; } | Obtiene o establece una conexión a los datos. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | Obtiene o establece la ruta completa y el nombre de archivo de la base de datos |
-| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | Obtiene o establece el número de registro integral del primer registro de datos a insertar. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes) { get; set; } | Obtiene o establece qué atributos del formato se aplicarán a la tabla. |
-| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings) { get; set; } | Obtiene o establece si insertar los nombres de campo de la base de datos como encabezados de columna en la tabla resultante. |
-| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge) { get; set; } | Obtiene o establece si se insertan datos al comienzo de una combinación. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord) { get; set; } | Obtiene o establece el número de registro integral del último registro de datos a insertar. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Query](../../aspose.words.fields/fielddatabase/query) { get; set; } | Obtiene o establece un conjunto de instrucciones SQL que consultan la base de datos. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat) { get; set; } | Obtiene o establece el formato que se aplicará al resultado de la consulta a la base de datos. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [Connection](../../aspose.words.fields/fielddatabase/connection/) { get; set; } | Obtiene o establece una conexión a los datos. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [FileName](../../aspose.words.fields/fielddatabase/filename/) { get; set; } | Obtiene o establece la ruta completa y el nombre de archivo de la base de datos |
+| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord/) { get; set; } | Obtiene o establece el número de registro integral del primer registro de datos a insertar. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes/) { get; set; } | Obtiene o establece qué atributos del formato se aplicarán a la tabla. |
+| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings/) { get; set; } | Obtiene o establece si insertar los nombres de campo de la base de datos como encabezados de columna en la tabla resultante. |
+| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge/) { get; set; } | Obtiene o establece si se insertan datos al comienzo de una combinación. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord/) { get; set; } | Obtiene o establece el número de registro integral del último registro de datos a insertar. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [Query](../../aspose.words.fields/fielddatabase/query/) { get; set; } | Obtiene o establece un conjunto de instrucciones SQL que consultan la base de datos. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat/) { get; set; } | Obtiene o establece el formato que se aplicará al resultado de la consulta a la base de datos. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -110,8 +110,8 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

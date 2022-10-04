@@ -18,29 +18,29 @@ public class Style
 
 | Nombre | Descripción |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases) { get; } | Obtiene todos los alias de este estilo. Si el estilo no tiene alias, se devuelve una matriz vacía de cadena. |
-| [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | Obtiene/establece el nombre del estilo en el que se basa este estilo. |
-| [BuiltIn](../../aspose.words/style/builtin) { get; } | Verdadero si este estilo es uno de los estilos incorporados en MS Word. |
-| [Document](../../aspose.words/style/document) { get; } | Obtiene el documento del propietario. |
-| [Font](../../aspose.words/style/font) { get; } | Obtiene el formato de caracteres del estilo. |
-| [IsHeading](../../aspose.words/style/isheading) { get; } | Verdadero cuando el estilo es uno de los estilos de encabezado integrados. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Especifica si este estilo se muestra en la galería Estilo rápido dentro de la interfaz de usuario de MS Word. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Obtiene el nombre del Estilo vinculado a este. Devuelve una cadena vacía si no hay estilos vinculados. |
-| [List](../../aspose.words/style/list) { get; } | Obtiene la lista que define el formato de este estilo de lista. |
-| [ListFormat](../../aspose.words/style/listformat) { get; } | Proporciona acceso a las propiedades de formato de lista de un estilo de párrafo. |
-| [Name](../../aspose.words/style/name) { get; set; } | Obtiene o establece el nombre del estilo. |
-| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | Obtiene/establece el nombre del estilo que se aplicará automáticamente a un nuevo párrafo insertado después de un párrafo formateado con el estilo especificado. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | Obtiene el formato de párrafo del estilo. |
-| [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | Obtiene el identificador de estilo independiente de la configuración regional para un estilo integrado. |
-| [Styles](../../aspose.words/style/styles) { get; } | Obtiene la colección de estilos a la que pertenece este estilo. |
-| [Type](../../aspose.words/style/type) { get; } | Obtiene el tipo de estilo (párrafo o carácter). |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | Obtiene todos los alias de este estilo. Si el estilo no tiene alias, se devuelve una matriz vacía de cadena. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Obtiene/establece el nombre del estilo en el que se basa este estilo. |
+| [BuiltIn](../../aspose.words/style/builtin/) { get; } | Verdadero si este estilo es uno de los estilos incorporados en MS Word. |
+| [Document](../../aspose.words/style/document/) { get; } | Obtiene el documento del propietario. |
+| [Font](../../aspose.words/style/font/) { get; } | Obtiene el formato de caracteres del estilo. |
+| [IsHeading](../../aspose.words/style/isheading/) { get; } | Verdadero cuando el estilo es uno de los estilos de encabezado integrados. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Especifica si este estilo se muestra en la galería Estilo rápido dentro de la interfaz de usuario de MS Word. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Obtiene el nombre del Estilo vinculado a este. Devuelve una cadena vacía si no hay estilos vinculados. |
+| [List](../../aspose.words/style/list/) { get; } | Obtiene la lista que define el formato de este estilo de lista. |
+| [ListFormat](../../aspose.words/style/listformat/) { get; } | Proporciona acceso a las propiedades de formato de lista de un estilo de párrafo. |
+| [Name](../../aspose.words/style/name/) { get; set; } | Obtiene o establece el nombre del estilo. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Obtiene/establece el nombre del estilo que se aplicará automáticamente a un nuevo párrafo insertado después de un párrafo formateado con el estilo especificado. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Obtiene el formato de párrafo del estilo. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Obtiene el identificador de estilo independiente de la configuración regional para un estilo integrado. |
+| [Styles](../../aspose.words/style/styles/) { get; } | Obtiene la colección de estilos a la que pertenece este estilo. |
+| [Type](../../aspose.words/style/type/) { get; } | Obtiene el tipo de estilo (párrafo o carácter). |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | Compara con el estilo especificado. Las listas de estilos se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente. |
-| [Remove](../../aspose.words/style/remove)() | Elimina el estilo especificado del documento. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Compara con el estilo especificado. Las listas de estilos se comparan solo para los estilos integrados. Los estilos predeterminados no se incluyen en la comparación. El estilo base, el estilo vinculado y el estilo del siguiente párrafo se comparan recursivamente. |
+| [Remove](../../aspose.words/style/remove/)() | Elimina el estilo especificado del documento. |
 
 ### Ejemplos
 
@@ -105,7 +105,7 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words](../../aspose.words)
+* espacio de nombres [Aspose.Words](../../aspose.words/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

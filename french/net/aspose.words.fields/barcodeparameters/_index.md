@@ -1,7 +1,7 @@
 ---
 title: BarcodeParameters
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Classe de conteneur pour les paramètres de code-barres à transmettre à BarcodeGenerator.
+description: Classe de conteneur pour les paramètres de codebarres à transmettre à BarcodeGenerator.
 type: docs
 weight: 1320
 url: /fr/net/aspose.words.fields/barcodeparameters/
@@ -18,29 +18,29 @@ public class BarcodeParameters
 
 | Nom | La description |
 | --- | --- |
-| [BarcodeParameters](barcodeparameters)() | Default_Constructor |
+| [BarcodeParameters](barcodeparameters/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar) { get; set; } | S'il faut ajouter des caractères Start/Stop pour les types de codes-barres NW7 et CODE39. |
-| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor) { get; set; } | Couleur de fond du code-barres (0x000000 - 0xFFFFFF) |
-| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype) { get; set; } | Type de code-barres. |
-| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue) { get; set; } | Données à encoder. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle) { get; set; } | Style d'un code de cas pour le type de code à barres ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext) { get; set; } | Afficher ou non les données de code-barres (texte) avec l'image. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel) { get; set; } | Niveau de correction d'erreur du QR Code. Les valeurs valides sont [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark) { get; set; } | Type d'une marque d'identification de face (FIM). |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit) { get; set; } | S'il faut corriger le chiffre de contrôle s'il est invalide. |
-| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor) { get; set; } | Couleur de premier plan du code à barres (0x000000 - 0xFFFFFF) |
-| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark) { get; set; } | Si[`PostalAddress`](./postaladdress) est le nom d'un signet. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress) { get; set; } | Si[`PostalAddress`](./postaladdress) est une adresse postale américaine. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle) { get; set; } | Style d'un code-barres Point de Vente (types de code-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
-| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress) { get; set; } | Code-barres adresse postale. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor) { get; set; } | Facteur d'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]. |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight) { get; set; } | Hauteur de l'image du code à barres (en twips - 1/1440 pouces) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation) { get; set; } | Rotation du symbole du code-barres. Les valeurs valides sont [0, 3]. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | S'il faut ajouter des caractères Start/Stop pour les types de codes-barres NW7 et CODE39. |
+| [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Couleur de fond du code-barres (0x000000 - 0xFFFFFF) |
+| [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Type de code-barres. |
+| [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Données à encoder. |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Style d'un code de cas pour le type de code à barres ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Afficher ou non les données de code-barres (texte) avec l'image. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | Niveau de correction d'erreur du QR Code. Les valeurs valides sont [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Type d'une marque d'identification de face (FIM). |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | S'il faut corriger le chiffre de contrôle s'il est invalide. |
+| [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Couleur de premier plan du code à barres (0x000000 - 0xFFFFFF) |
+| [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | Si[`PostalAddress`](./postaladdress/) est le nom d'un signet. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | Si[`PostalAddress`](./postaladdress/) est une adresse postale américaine. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Style d'un code-barres Point de Vente (types de code-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Code-barres adresse postale. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Facteur d'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Hauteur de l'image du code à barres (en twips - 1/1440 pouces) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Rotation du symbole du code-barres. Les valeurs valides sont [0, 3]. |
 
 ### Remarques
 
@@ -122,7 +122,7 @@ doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Fields](../../aspose.words.fields)
+* espace de noms [Aspose.Words.Fields](../../aspose.words.fields/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

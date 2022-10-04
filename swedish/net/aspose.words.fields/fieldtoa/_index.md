@@ -1,7 +1,7 @@
 ---
 title: FieldToa
 second_title: Aspose.Words för .NET API Referens
-description: Implementerar TOA-fältet.
+description: Implementerar TOAfältet.
 type: docs
 weight: 2370
 url: /sv/net/aspose.words.fields/fieldtoa/
@@ -18,43 +18,43 @@ public class FieldToa : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldToa](fieldtoa)() | Default_Constructor |
+| [FieldToa](fieldtoa/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end) { get; } | Hämtar noden som representerar fältänden. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory) { get; set; } | Hämtar eller ställer in integralkategorin för poster som ingår i tabellen. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera en tabell över behörighetsposter och dess sidnummer. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Får en[`FieldFormat`](../fieldformat) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera två sidnummer i en sidnummerlista. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting) { get; set; } | Hämtar eller ställer in om formateringen av inmatningstexten i dokumentet ska tas bort från posten i auktoritetstabellen. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Hämtar noden som representerar början av fältet. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Hämtar fälttypen Microsoft Word. |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading) { get; set; } | Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en auktoritetstabell. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller avsnitt förekommer ofta i det citerade arbetet. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | Hämtar eller ställer in namnet på bokmärket som markerar den del av dokumentet som används för att bygga tabellen. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | Hämtar eller ställer in integralkategorin för poster som ingår i tabellen. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera en tabell över behörighetsposter och dess sidnummer. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera två sidnummer i en sidnummerlista. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera början och slutet av ett sidintervall. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Hämtar eller ställer in om formateringen av inmatningstexten i dokumentet ska tas bort från posten i auktoritetstabellen. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Hämtar eller ställer in namnet på en sekvens vars nummer ingår i sidnumret. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Hämtar eller ställer in om kategorirubriken för posterna ska inkluderas i en auktoritetstabell. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Hämtar eller ställer in om fem eller flera olika sidreferenser till same auktoritet ska ersättas med "passim", som används för att indikera att ett ord eller avsnitt förekommer ofta i det citerade arbetet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
@@ -180,8 +180,8 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 
 ### Se även
 
-* class [Field](../field)
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

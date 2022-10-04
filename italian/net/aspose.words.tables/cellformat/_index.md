@@ -18,27 +18,27 @@ public class CellFormat
 
 | Nome | Descrizione |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Ottiene la raccolta dei bordi della cella. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sotto il contenuto della cella. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | Se true, adatta il testo alla cella, comprimendo ogni paragrafo alla larghezza della cella. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Specifica come la cella viene unita orizzontalmente con altre celle nella riga. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto della cella. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Restituisce o imposta l'orientamento del testo in una cella di tabella. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Restituisce o imposta la larghezza preferita della cella. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a destra del contenuto della cella. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Restituisce un oggetto Shading che fa riferimento alla formattazione dell'ombreggiatura per la cella. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto della cella. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Restituisce o imposta l'allineamento verticale del testo nella cella. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Specifica come la cella viene unita alle altre celle verticalmente. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Ottiene la larghezza della cella in punti. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | Se vero, manda a capo il testo per la cella. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Ottiene la raccolta dei bordi della cella. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sotto il contenuto della cella. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Se true, adatta il testo alla cella, comprimendo ogni paragrafo alla larghezza della cella. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Specifica come la cella viene unita orizzontalmente con altre celle nella riga. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a sinistra del contenuto della cella. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Restituisce o imposta l'orientamento del testo in una cella di tabella. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Restituisce o imposta la larghezza preferita della cella. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere a destra del contenuto della cella. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Restituisce un oggetto Shading che fa riferimento alla formattazione dell'ombreggiatura per la cella. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Restituisce o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto della cella. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Restituisce o imposta l'allineamento verticale del testo nella cella. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Specifica come la cella viene unita alle altre celle verticalmente. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Ottiene la larghezza della cella in punti. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Se vero, manda a capo il testo per la cella. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Ripristina la formattazione della cella predefinita. Non cambia la larghezza della cella. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Imposta la quantità di spazio (in punti) da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Ripristina la formattazione della cella predefinita. Non cambia la larghezza della cella. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Imposta la quantità di spazio (in punti) da aggiungere a sinistra/in alto/a destra/in basso del contenuto della cella. |
 
 ### Esempi
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables)
+* spazio dei nomi [Aspose.Words.Tables](../../aspose.words.tables/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

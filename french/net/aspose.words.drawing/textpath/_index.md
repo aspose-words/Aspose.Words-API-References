@@ -18,30 +18,30 @@ public class TextPath
 
 | Nom | La description |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Vrai si la police est formatée en gras. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Définit si le texte correspond au chemin d'une forme. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Définit si le texte correspond à la boîte englobante d'une forme. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Définit la famille de la police textpath. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Vrai si la police est formatée en italique. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Détermine si le crénage est activé. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Définit si le texte est affiché. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Détermine si l'ordre de disposition des lignes est inversé. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Détermine si les lettres du texte sont pivotées. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Détermine si toutes les lettres auront la même hauteur quelle que soit la casse initiale. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Définit si une ombre est appliquée au texte sur un chemin de texte. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Définit la taille de la police en points. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Vrai si la police est formatée en petites majuscules. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Définit la quantité d'espacement pour le texte. 1 signifie 100 %. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Vrai si la police est formatée en tant que texte barré. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Définit le texte du chemin de texte. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Définit l'alignement du texte. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Détermine si l'espace supplémentaire est supprimé au-dessus et au-dessous du texte. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Vrai si la police est soulignée. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Détermine si un chemin de texte droit sera utilisé à la place du chemin de forme. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Vrai si la police est formatée en gras. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Définit si le texte correspond au chemin d'une forme. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Définit si le texte correspond à la boîte englobante d'une forme. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Définit la famille de la police textpath. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Vrai si la police est formatée en italique. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Détermine si le crénage est activé. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Définit si le texte est affiché. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Détermine si l'ordre de disposition des lignes est inversé. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Détermine si les lettres du texte sont pivotées. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Détermine si toutes les lettres auront la même hauteur quelle que soit la casse initiale. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Définit si une ombre est appliquée au texte sur un chemin de texte. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Définit la taille de la police en points. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Vrai si la police est formatée en petites majuscules. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Définit la quantité d'espacement pour le texte. 1 signifie 100 %. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Vrai si la police est formatée en tant que texte barré. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Définit le texte du chemin de texte. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Définit l'alignement du texte. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Détermine si l'espace supplémentaire est supprimé au-dessus et au-dessous du texte. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Vrai si la police est soulignée. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Détermine si un chemin de texte droit sera utilisé à la place du chemin de forme. |
 
 ### Remarques
 
-Utilisez le[`TextPath`](../shape/textpath) pour accéder aux propriétés WordArt d'une forme. Vous ne créez pas d'instances de la[`TextPath`](../textpath) classe directement.
+Utilisez le[`TextPath`](../shape/textpath/) pour accéder aux propriétés WordArt d'une forme. Vous ne créez pas d'instances de la[`TextPath`](./textpath/) classe directement.
 
 ### Exemples
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing)
+* espace de noms [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

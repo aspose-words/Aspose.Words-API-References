@@ -18,30 +18,30 @@ public class TextPath
 
 | اسم | وصف |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | True إذا كان تنسيق الخط عريض . |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | يحدد ما إذا كان النص يناسب مسار الشكل. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | يحدد ما إذا كان النص يناسب المربع المحيط بالشكل. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | يحدد عائلة خط مسار النص. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | True إذا تم تنسيق الخط على أنه مائل. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | تحديد ما إذا تم تشغيل تقنين الأحرف . |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | يحدد ما إذا كان النص معروضًا أم لا. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | لتحديد ما إذا كان ترتيب تخطيط الصفوف معكوسًا. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | لتحديد ما إذا كان سيتم تدوير أحرف النص. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | لتحديد ما إذا كانت جميع الأحرف ستكون بنفس الارتفاع بغض النظر عن الحالة الأولية. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | يحدد ما إذا كان يتم تطبيق الظل على النص الموجود على مسار النص. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | يحدد حجم الخط بالنقاط . |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | True إذا تم تنسيق الخط كأحرف كبيرة صغيرة. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | يحدد مقدار التباعد للنص. 1 يعني 100٪ . |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط . |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | يحدد نص مسار النص. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | يحدد محاذاة النص . |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | لتحديد ما إذا كانت المساحة الزائدة ستتم إزالتها أعلى النص وأسفله. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | صحيح إذا كان الخط مسطرًا . |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | يحدد ما إذا كان سيتم استخدام مسار نص مستقيم بدلاً من مسار الشكل. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | True إذا كان تنسيق الخط عريض . |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | يحدد ما إذا كان النص يناسب مسار الشكل. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | يحدد ما إذا كان النص يناسب المربع المحيط بالشكل. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | يحدد عائلة خط مسار النص. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | True إذا تم تنسيق الخط على أنه مائل. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | تحديد ما إذا تم تشغيل تقنين الأحرف . |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | يحدد ما إذا كان النص معروضًا أم لا. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | لتحديد ما إذا كان ترتيب تخطيط الصفوف معكوسًا. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | لتحديد ما إذا كان سيتم تدوير أحرف النص. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | لتحديد ما إذا كانت جميع الأحرف ستكون بنفس الارتفاع بغض النظر عن الحالة الأولية. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | يحدد ما إذا كان يتم تطبيق الظل على النص الموجود على مسار النص. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | يحدد حجم الخط بالنقاط . |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | True إذا تم تنسيق الخط كأحرف كبيرة صغيرة. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | يحدد مقدار التباعد للنص. 1 يعني 100٪ . |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | True إذا تم تنسيق الخط كنص يتوسطه خط . |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | يحدد نص مسار النص. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | يحدد محاذاة النص . |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | لتحديد ما إذا كانت المساحة الزائدة ستتم إزالتها أعلى النص وأسفله. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | صحيح إذا كان الخط مسطرًا . |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | يحدد ما إذا كان سيتم استخدام مسار نص مستقيم بدلاً من مسار الشكل. |
 
 ### ملاحظات
 
-استخدم ال[`TextPath`](../shape/textpath) للوصول إلى خصائص WordArt لشكل . لا يمكنك إنشاء مثيلات من[`TextPath`](../textpath) فئة مباشرة.
+استخدم ال[`TextPath`](../shape/textpath/) للوصول إلى خصائص WordArt لشكل . لا يمكنك إنشاء مثيلات من[`TextPath`](./textpath/) فئة مباشرة.
 
 ### أمثلة
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing)
+* مساحة الاسم [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

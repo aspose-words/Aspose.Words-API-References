@@ -1,7 +1,7 @@
 ---
 title: FieldToa
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das TOA-Feld.
+description: Implementiert das TOAFeld.
 type: docs
 weight: 2370
 url: /de/net/aspose.words.fields/fieldtoa/
@@ -18,43 +18,43 @@ public class FieldToa : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldToa](fieldtoa)() | Default_Constructor |
+| [FieldToa](fieldtoa/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest, das den Teil des Dokuments markiert, der zum Erstellen der Tabelle verwendet wurde. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory) { get; set; } | Holt oder setzt die integrale Kategorie für Einträge, die in der Tabelle enthalten sind. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um einen Eintrag im Rechtsgrundlagenverzeichnis von seiner Seitenzahl zu trennen. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um zwei Seitenzahlen in einer Seitenzahlenliste zu trennen. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um den Anfang und das Ende eines Seitenbereichs zu trennen. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting) { get; set; } | Ruft ab oder legt fest, ob die Formatierung des Eintragstexts im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | Liest oder setzt den Namen einer Sequenz, deren Nummer in der Seitennummer enthalten ist. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um Sequenznummern und Seitenzahlen zu trennen. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading) { get; set; } | Ruft ab oder legt fest, ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis eingeschlossen werden soll. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | Ruft ab oder legt fest, ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch "passim" ersetzt werden sollen, was verwendet wird, um anzuzeigen, dass ein Wort oder eine Passage häufig in der zitierten Arbeit vorkommt. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest, das den Teil des Dokuments markiert, der zum Erstellen der Tabelle verwendet wurde. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | Holt oder setzt die integrale Kategorie für Einträge, die in der Tabelle enthalten sind. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um einen Eintrag im Rechtsgrundlagenverzeichnis von seiner Seitenzahl zu trennen. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um zwei Seitenzahlen in einer Seitenzahlenliste zu trennen. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um den Anfang und das Ende eines Seitenbereichs zu trennen. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Ruft ab oder legt fest, ob die Formatierung des Eintragstexts im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Liest oder setzt den Namen einer Sequenz, deren Nummer in der Seitennummer enthalten ist. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um Sequenznummern und Seitenzahlen zu trennen. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Ruft ab oder legt fest, ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis eingeschlossen werden soll. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Ruft ab oder legt fest, ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch "passim" ersetzt werden sollen, was verwendet wird, um anzuzeigen, dass ein Wort oder eine Passage häufig in der zitierten Arbeit vorkommt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
@@ -180,8 +180,8 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

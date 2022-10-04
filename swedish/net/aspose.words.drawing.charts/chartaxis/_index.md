@@ -18,32 +18,32 @@ public class ChartAxis
 
 | namn | Beskrivning |
 | --- | --- |
-| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories) { get; set; } | Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier. |
-| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit) { get; set; } | Returnerar eller ställer in den minsta tidsenheten som är representerad på tidskategoriaxeln. |
-| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype) { get; set; } | Hämtar eller ställer in typ av kategoriaxel. |
-| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses) { get; set; } | Anger hur denna axel korsar den vinkelräta axeln. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat) { get; set; } | Anger var på den vinkelräta axeln axeln korsar. |
-| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit) { get; } | Anger skalningsvärdet för visningsenheterna för värdeaxeln. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document) { get; } | Returnerar det dokument som titelinnehavaren tillhör. |
-| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden) { get; set; } | Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark) { get; set; } | Returnerar eller sätter de viktigaste bockarna. |
-| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit) { get; set; } | Returnerar eller ställer in avståndet mellan stora bockmarkeringar. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto) { get; set; } | Hämtar eller ställer in en flagga som indikerar om standardavståndet mellan större bockmarkeringar ska användas. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale) { get; set; } | Returnerar eller ställer in skalvärdet för stora bockmarkeringar på tidskategoriaxeln. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark) { get; set; } | Returnerar eller ställer in de mindre bockmarkeringarna för axeln. |
-| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit) { get; set; } | Returnerar eller ställer in avståndet mellan mindre bockmarkeringar. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto) { get; set; } | Hämtar eller sätter en flagga som indikerar om standardavståndet mellan mindre bockmarkeringar ska användas. |
-| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale) { get; set; } | Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskategoriaxeln. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat) { get; } | Returnerar en[`ChartNumberFormat`](../chartnumberformat) objekt som tillåter att definiera talformat för axeln. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder) { get; set; } | Returnerar eller sätter en flagga som indikerar om värden på axeln ska visas i omvänd ordning, dvs. från max till min. |
-| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling) { get; } | Ger tillgång till skalningsalternativen för axeln. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment) { get; set; } | Hämtar eller ställer in textjustering av axelmarkeringsetiketter. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset) { get; set; } | Hämtar eller ställer in etiketternas avstånd från axeln. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition) { get; set; } | Returnerar eller ställer in ticketiketternas position på axeln. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing) { get; set; } | Hämtar eller ställer in intervallet vid vilket bocketiketter ritas. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto) { get; set; } | Hämtar eller ställer in en flagga som indikerar om automatiskt intervall för att rita kryssetiketter ska användas. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing) { get; set; } | Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras. |
-| [Type](../../aspose.words.drawing.charts/chartaxis/type) { get; } | Returnerar typ av axel. |
+| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier. |
+| [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit/) { get; set; } | Returnerar eller ställer in den minsta tidsenheten som är representerad på tidskategoriaxeln. |
+| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Hämtar eller ställer in typ av kategoriaxel. |
+| [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Anger hur denna axel korsar den vinkelräta axeln. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Anger var på den vinkelräta axeln axeln korsar. |
+| [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Anger skalningsvärdet för visningsenheterna för värdeaxeln. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Returnerar det dokument som titelinnehavaren tillhör. |
+| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Returnerar eller sätter de viktigaste bockarna. |
+| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Returnerar eller ställer in avståndet mellan stora bockmarkeringar. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om standardavståndet mellan större bockmarkeringar ska användas. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Returnerar eller ställer in skalvärdet för stora bockmarkeringar på tidskategoriaxeln. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Returnerar eller ställer in de mindre bockmarkeringarna för axeln. |
+| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Returnerar eller ställer in avståndet mellan mindre bockmarkeringar. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Hämtar eller sätter en flagga som indikerar om standardavståndet mellan mindre bockmarkeringar ska användas. |
+| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Returnerar eller ställer in skalvärdet för mindre bockmarkeringar på tidskategoriaxeln. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Returnerar en[`ChartNumberFormat`](../chartnumberformat/) objekt som tillåter att definiera talformat för axeln. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Returnerar eller sätter en flagga som indikerar om värden på axeln ska visas i omvänd ordning, dvs. från max till min. |
+| [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Ger tillgång till skalningsalternativen för axeln. |
+| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Hämtar eller ställer in textjustering av axelmarkeringsetiketter. |
+| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Hämtar eller ställer in etiketternas avstånd från axeln. |
+| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Returnerar eller ställer in ticketiketternas position på axeln. |
+| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Hämtar eller ställer in intervallet vid vilket bocketiketter ritas. |
+| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Hämtar eller ställer in en flagga som indikerar om automatiskt intervall för att rita kryssetiketter ska användas. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Hämtar eller ställer in intervallet vid vilket bockmarkeringarna dras. |
+| [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Returnerar typ av axel. |
 
 ### Exempel
 
@@ -97,7 +97,7 @@ doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

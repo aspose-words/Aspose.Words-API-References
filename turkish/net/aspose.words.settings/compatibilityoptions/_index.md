@@ -18,83 +18,83 @@ public class CompatibilityOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [AdjustLineHeightInTable](../../aspose.words.settings/compatibilityoptions/adjustlineheightintable) { get; set; } | Tablo Hücrelerindeki Çizgilere Belge Izgara Çizgi Aralığı Ekleme. |
-| [AlignTablesRowByRow](../../aspose.words.settings/compatibilityoptions/aligntablesrowbyrow) { get; set; } | Tablo Satırlarını Bağımsız Olarak Hizala. |
-| [AllowSpaceOfSameStyleInTable](../../aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable) { get; set; } | Tablolarda Paragrafların Bağlamsal Aralığına İzin Ver. |
-| [ApplyBreakingRules](../../aspose.words.settings/compatibilityoptions/applybreakingrules) { get; set; } | Eski Etiyopya Dili ve Amharca Satır Kesme Kurallarını Kullanın. |
-| [AutofitToFirstFixedWidthCell](../../aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell) { get; set; } | Tablo Sütunlarının Kurucu Hücrelerin Tercih Edilen Genişliklerini Aşmasına İzin Ver. |
-| [AutoSpaceLikeWord95](../../aspose.words.settings/compatibilityoptions/autospacelikeword95) { get; set; } | Word 95 Tam Genişlik Karakter Aralığını Öykün. |
-| [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth) { get; set; } | Tek Bayt ve Çift Bayt Karakterleri Dengeleyin. |
-| [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance) { get; set; } | Sütun Dengeleme için Önbelleğe Alınmış Paragraf Bilgilerini Kullanın. |
-| [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc) { get; set; } | Ters Eğik Çizgi Ayırıcısını İki Tırnak İşareti Olarak Değerlendirin. |
-| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures) { get; set; } |  |
-| [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth) { get; set; } | Hangul Karakterleri için Daima Sabit Genişliği Kullanın. |
-| [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables) { get; set; } | Tabloları Sarılmış Nesnelerin Yanına Sığdırmak İçin Otomatik Sığdırmayın. |
-| [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable) { get; set; } | Kayan Tabloların Çevresindeki Tablo Satırlarını Bölmeyin. |
-| [DoNotBreakWrappedTables](../../aspose.words.settings/compatibilityoptions/donotbreakwrappedtables) { get; set; } | Kayan Tabloların Sayfalar Arasında Kırılmasına İzin Vermeyin. |
-| [DoNotExpandShiftReturn](../../aspose.words.settings/compatibilityoptions/donotexpandshiftreturn) { get; set; } | Yumuşak Satır Sonu ile Biten Satırları Gerekçe Etmeyin. |
-| [DoNotLeaveBackslashAlone](../../aspose.words.settings/compatibilityoptions/donotleavebackslashalone) { get; set; } | Girildiğinde Ters Eğik Çizgiyi Yen İşaretine Dönüştür. |
-| [DoNotSnapToGridInCell](../../aspose.words.settings/compatibilityoptions/donotsnaptogridincell) { get; set; } | Nesnelerle Tablo Hücrelerinde Belge Izgarasına Yapışma. |
-| [DoNotSuppressIndentation](../../aspose.words.settings/compatibilityoptions/donotsuppressindentation) { get; set; } | Paragraf Girintisini Hesaplarken Kayan Nesneleri Yoksaymayın. |
-| [DoNotSuppressParagraphBorders](../../aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders) { get; set; } | Çerçevelerin Yanındaki Paragraf Kenarlarını Bastırma. |
-| [DoNotUseEastAsianBreakRules](../../aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules) { get; set; } | Belge Izgarasını Kullanırken Sıkıştırılabilir Karakterleri Sıkıştırmayın. |
-| [DoNotUseHTMLParagraphAutoSpacing](../../aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing) { get; set; } | HTML Otomatik Ayarı için Sabit Paragraf Aralığı Kullanın. |
-| [DoNotUseIndentAsNumberingTabStop](../../aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop) { get; set; } | Numaralandırmadan Sonra Sekme Durağı Oluştururken Asılı Girintiyi Yoksay. |
-| [DoNotVertAlignCellWithSp](../../aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp) { get; set; } | Yüzen Nesneler İçeren Hücreleri Dikey Olarak Hizalamayın. |
-| [DoNotVertAlignInTxbx](../../aspose.words.settings/compatibilityoptions/donotvertalignintxbx) { get; set; } | Metin Kutularında Dikey Hizalamayı Yoksay. |
-| [DoNotWrapTextWithPunct](../../aspose.words.settings/compatibilityoptions/donotwraptextwithpunct) { get; set; } | Karakter Izgarasıyla Asılı Noktalama İşaretlerine İzin Vermeyin. |
-| [FootnoteLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8) { get; set; } | Word 6.x/95/97 Dipnot Yerleşimini Öykün. |
-| [ForgetLastTabAlignment](../../aspose.words.settings/compatibilityoptions/forgetlasttabalignment) { get; set; } | Paragrafı Hizalarken Sola Hizalanmış Değilse Son Sekme Durağının Genişliğini Yoksay. |
-| [GrowAutofit](../../aspose.words.settings/compatibilityoptions/growautofit) { get; set; } | Tabloların Sayfa Kenar Boşluklarına Otomatik Sığdırmasına İzin Verin. |
-| [LayoutRawTableWidth](../../aspose.words.settings/compatibilityoptions/layoutrawtablewidth) { get; set; } | Tablonun Kayan Nesneyi Sarması Gerektiğine Karar Verirken Tablodan Önce Boşluğu Yoksay. |
-| [LayoutTableRowsApart](../../aspose.words.settings/compatibilityoptions/layouttablerowsapart) { get; set; } | Tablo Satırlarının Satır İçi Nesneleri Bağımsız Olarak Sarmasına İzin Ver. |
-| [LineWrapLikeWord6](../../aspose.words.settings/compatibilityoptions/linewraplikeword6) { get; set; } | Doğu Asya Metni için Word 6.0 Satır Sarmasını Öykün. |
-| [MWSmallCaps](../../aspose.words.settings/compatibilityoptions/mwsmallcaps) { get; set; } | Macintosh Küçük Büyük Harf Biçimlendirmesi için Word 5.x'i Öykün. |
-| [NoColumnBalance](../../aspose.words.settings/compatibilityoptions/nocolumnbalance) { get; set; } | Bir Bölüm İçindeki Metin Sütunlarını Dengeleme. |
-| [NoExtraLineSpacing](../../aspose.words.settings/compatibilityoptions/noextralinespacing) { get; set; } | İçeriği Tam Satır Yüksekliğine Sahip Satırlarda Ortalamayın. |
-| [NoLeading](../../aspose.words.settings/compatibilityoptions/noleading) { get; set; } | Metin Satırları Arasına Başlama Eklemeyin. |
-| [NoSpaceRaiseLower](../../aspose.words.settings/compatibilityoptions/nospaceraiselower) { get; set; } | Yükseltilmiş/Alçaltılmış Metin için Satır Yüksekliğini Artırmayın. |
-| [NoTabHangInd](../../aspose.words.settings/compatibilityoptions/notabhangind) { get; set; } | Girintiyi Asmak için Özel Sekme Durağı Oluşturmayın. |
-| [OverrideTableStyleFontSizeAndJustification](../../aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification) { get; set; } | Belgenin stil hiyerarşisinin nasıl değerlendirildiğini belirtir. |
-| [PrintBodyTextBeforeHeader](../../aspose.words.settings/compatibilityoptions/printbodytextbeforeheader) { get; set; } | Üst Bilgi/Alt Bilgi İçeriğinden Önce Gövde Metni Yazdır. |
-| [PrintColBlack](../../aspose.words.settings/compatibilityoptions/printcolblack) { get; set; } | Renkleri Taklit Etmeden Siyah Beyaz Bastırın. |
-| [SelectFldWithFirstOrLastChar](../../aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar) { get; set; } | İlk veya Son Karakter Seçildiğinde Alanı Seçin. |
-| [ShapeLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/shapelayoutlikeww8) { get; set; } | Yüzen Nesnelerin Çevresine Sarma Word 97 Metnini Öykün. |
-| [ShowBreaksInFrames](../../aspose.words.settings/compatibilityoptions/showbreaksinframes) { get; set; } | Çerçevelerde Bulunan Sayfa/Sütun Sonlarını Görüntüle. |
-| [SpaceForUL](../../aspose.words.settings/compatibilityoptions/spaceforul) { get; set; } | Altı Çizili Doğu Asya Metni İçin Satır Taban Çizgisinin Altına Ek Boşluk Ekleyin. |
-| [SpacingInWholePoints](../../aspose.words.settings/compatibilityoptions/spacinginwholepoints) { get; set; } | Metni Yalnızca Tüm Noktalara Göre Genişlet/Yoğunlaştır. |
-| [SplitPgBreakAndParaMark](../../aspose.words.settings/compatibilityoptions/splitpgbreakandparamark) { get; set; } | Sayfa Sonunun Ardından Paragraf İşaretini Her Zaman Sayfaya Taşıyın. |
-| [SubFontBySize](../../aspose.words.settings/compatibilityoptions/subfontbysize) { get; set; } | Yazı Tipi Değiştirme Sırasında Yazı Tipi Boyutunun Önceliğini Artırın. |
-| [SuppressBottomSpacing](../../aspose.words.settings/compatibilityoptions/suppressbottomspacing) { get; set; } | Sayfadaki Son Satır İçin Tam Satır Yüksekliğini Yoksay. |
-| [SuppressSpacingAtTopOfPage](../../aspose.words.settings/compatibilityoptions/suppressspacingattopofpage) { get; set; } | Sayfadaki İlk Satır İçin Minimum Satır Yüksekliğini Yoksay. |
-| [SuppressSpBfAfterPgBrk](../../aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk) { get; set; } | Sayfa Sonunun Ardından İlk Satırdan Önce Boşluk Kullanmayın. |
-| [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing) { get; set; } | Sayfadaki İlk Satır için Minimum ve Tam Satır Yüksekliğini Yoksay. |
-| [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp) { get; set; } | WordPerfect 5.x Satır Aralığını Öykün. |
-| [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs) { get; set; } | Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştirin. |
-| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning) { get; set; } |  |
-| [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles) { get; set; } | Meta dosyası resimlerinin arkasındaki alanın boş bırakılmayacağını belirtir. |
-| [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6) { get; set; } | WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasına Öykün. |
-| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003) { get; set; } | **Doğru** Word97-2003 ile uyumlu olmayan UI işlevselliğini devre dışı bırakmak için. Varsayılan değer **yanlış** . |
-| [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace) { get; set; } | Sondaki Tüm Boşlukların Altını Çizin. |
-| [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist) { get; set; } | Numaralandırmadan Sonra Karakterin Altını Çizin. |
-| [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules) { get; set; } | Doğu Asya Satır Kesme Kurallarının Alternatif Kümesini Kullanın. |
-| [UseAnsiKerningPairs](../../aspose.words.settings/compatibilityoptions/useansikerningpairs) { get; set; } | Fontlardan ANSI Karakter Aralığı Çiftlerini Kullanın. |
-| [UseFELayout](../../aspose.words.settings/compatibilityoptions/usefelayout) { get; set; } | Doğu Asya/Karmaşık Komut Dosyası Düzen Kodunu Atlamayın. |
-| [UseNormalStyleForList](../../aspose.words.settings/compatibilityoptions/usenormalstyleforlist) { get; set; } | Liste Paragraf Stilini Madde İşaretli/Numaralı Metne Otomatik Olarak Uygulamayın. |
-| [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics) { get; set; } | Belgeleri Görüntülemek için Yazıcı Metriklerini Kullanın. |
-| [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells) { get; set; } | Tablo Kenarlığı Çakışmaları İçin Basitleştirilmiş Kuralları Kullanın. |
-| [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules) { get; set; } | Word 2002 Tablo Stili Kurallarını Öykün. |
-| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules) { get; set; } |  |
-| [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules) { get; set; } | Word 97 Doğu Asya Satır Kesmesini Öykün. |
-| [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification) { get; set; } | WordPerfect 6.x Paragraf Yaslamasını Öykün. |
-| [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth) { get; set; } | WordPerfect 5.x. 'de olduğu gibi bir boşluk genişliğinin ayarlanıp ayarlanmadığını belirtir. |
-| [WrapTrailSpaces](../../aspose.words.settings/compatibilityoptions/wraptrailspaces) { get; set; } | Satır Sarma Sondaki Boşluklar. |
+| [AdjustLineHeightInTable](../../aspose.words.settings/compatibilityoptions/adjustlineheightintable/) { get; set; } | Tablo Hücrelerindeki Çizgilere Belge Izgara Çizgi Aralığı Ekleme. |
+| [AlignTablesRowByRow](../../aspose.words.settings/compatibilityoptions/aligntablesrowbyrow/) { get; set; } | Tablo Satırlarını Bağımsız Olarak Hizala. |
+| [AllowSpaceOfSameStyleInTable](../../aspose.words.settings/compatibilityoptions/allowspaceofsamestyleintable/) { get; set; } | Tablolarda Paragrafların Bağlamsal Aralığına İzin Ver. |
+| [ApplyBreakingRules](../../aspose.words.settings/compatibilityoptions/applybreakingrules/) { get; set; } | Eski Etiyopya Dili ve Amharca Satır Kesme Kurallarını Kullanın. |
+| [AutofitToFirstFixedWidthCell](../../aspose.words.settings/compatibilityoptions/autofittofirstfixedwidthcell/) { get; set; } | Tablo Sütunlarının Kurucu Hücrelerin Tercih Edilen Genişliklerini Aşmasına İzin Ver. |
+| [AutoSpaceLikeWord95](../../aspose.words.settings/compatibilityoptions/autospacelikeword95/) { get; set; } | Word 95 Tam Genişlik Karakter Aralığını Öykün. |
+| [BalanceSingleByteDoubleByteWidth](../../aspose.words.settings/compatibilityoptions/balancesinglebytedoublebytewidth/) { get; set; } | Tek Bayt ve Çift Bayt Karakterleri Dengeleyin. |
+| [CachedColBalance](../../aspose.words.settings/compatibilityoptions/cachedcolbalance/) { get; set; } | Sütun Dengeleme için Önbelleğe Alınmış Paragraf Bilgilerini Kullanın. |
+| [ConvMailMergeEsc](../../aspose.words.settings/compatibilityoptions/convmailmergeesc/) { get; set; } | Ters Eğik Çizgi Ayırıcısını İki Tırnak İşareti Olarak Değerlendirin. |
+| [DisableOpenTypeFontFormattingFeatures](../../aspose.words.settings/compatibilityoptions/disableopentypefontformattingfeatures/) { get; set; } |  |
+| [DisplayHangulFixedWidth](../../aspose.words.settings/compatibilityoptions/displayhangulfixedwidth/) { get; set; } | Hangul Karakterleri için Daima Sabit Genişliği Kullanın. |
+| [DoNotAutofitConstrainedTables](../../aspose.words.settings/compatibilityoptions/donotautofitconstrainedtables/) { get; set; } | Tabloları Sarılmış Nesnelerin Yanına Sığdırmak İçin Otomatik Sığdırmayın. |
+| [DoNotBreakConstrainedForcedTable](../../aspose.words.settings/compatibilityoptions/donotbreakconstrainedforcedtable/) { get; set; } | Kayan Tabloların Çevresindeki Tablo Satırlarını Bölmeyin. |
+| [DoNotBreakWrappedTables](../../aspose.words.settings/compatibilityoptions/donotbreakwrappedtables/) { get; set; } | Kayan Tabloların Sayfalar Arasında Kırılmasına İzin Vermeyin. |
+| [DoNotExpandShiftReturn](../../aspose.words.settings/compatibilityoptions/donotexpandshiftreturn/) { get; set; } | Yumuşak Satır Sonu ile Biten Satırları Gerekçe Etmeyin. |
+| [DoNotLeaveBackslashAlone](../../aspose.words.settings/compatibilityoptions/donotleavebackslashalone/) { get; set; } | Girildiğinde Ters Eğik Çizgiyi Yen İşaretine Dönüştür. |
+| [DoNotSnapToGridInCell](../../aspose.words.settings/compatibilityoptions/donotsnaptogridincell/) { get; set; } | Nesnelerle Tablo Hücrelerinde Belge Izgarasına Yapışma. |
+| [DoNotSuppressIndentation](../../aspose.words.settings/compatibilityoptions/donotsuppressindentation/) { get; set; } | Paragraf Girintisini Hesaplarken Kayan Nesneleri Yoksaymayın. |
+| [DoNotSuppressParagraphBorders](../../aspose.words.settings/compatibilityoptions/donotsuppressparagraphborders/) { get; set; } | Çerçevelerin Yanındaki Paragraf Kenarlarını Bastırma. |
+| [DoNotUseEastAsianBreakRules](../../aspose.words.settings/compatibilityoptions/donotuseeastasianbreakrules/) { get; set; } | Belge Izgarasını Kullanırken Sıkıştırılabilir Karakterleri Sıkıştırmayın. |
+| [DoNotUseHTMLParagraphAutoSpacing](../../aspose.words.settings/compatibilityoptions/donotusehtmlparagraphautospacing/) { get; set; } | HTML Otomatik Ayarı için Sabit Paragraf Aralığı Kullanın. |
+| [DoNotUseIndentAsNumberingTabStop](../../aspose.words.settings/compatibilityoptions/donotuseindentasnumberingtabstop/) { get; set; } | Numaralandırmadan Sonra Sekme Durağı Oluştururken Asılı Girintiyi Yoksay. |
+| [DoNotVertAlignCellWithSp](../../aspose.words.settings/compatibilityoptions/donotvertaligncellwithsp/) { get; set; } | Yüzen Nesneler İçeren Hücreleri Dikey Olarak Hizalamayın. |
+| [DoNotVertAlignInTxbx](../../aspose.words.settings/compatibilityoptions/donotvertalignintxbx/) { get; set; } | Metin Kutularında Dikey Hizalamayı Yoksay. |
+| [DoNotWrapTextWithPunct](../../aspose.words.settings/compatibilityoptions/donotwraptextwithpunct/) { get; set; } | Karakter Izgarasıyla Asılı Noktalama İşaretlerine İzin Vermeyin. |
+| [FootnoteLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/footnotelayoutlikeww8/) { get; set; } | Word 6.x/95/97 Dipnot Yerleşimini Öykün. |
+| [ForgetLastTabAlignment](../../aspose.words.settings/compatibilityoptions/forgetlasttabalignment/) { get; set; } | Paragrafı Hizalarken Sola Hizalanmış Değilse Son Sekme Durağının Genişliğini Yoksay. |
+| [GrowAutofit](../../aspose.words.settings/compatibilityoptions/growautofit/) { get; set; } | Tabloların Sayfa Kenar Boşluklarına Otomatik Sığdırmasına İzin Verin. |
+| [LayoutRawTableWidth](../../aspose.words.settings/compatibilityoptions/layoutrawtablewidth/) { get; set; } | Tablonun Kayan Nesneyi Sarması Gerektiğine Karar Verirken Tablodan Önce Boşluğu Yoksay. |
+| [LayoutTableRowsApart](../../aspose.words.settings/compatibilityoptions/layouttablerowsapart/) { get; set; } | Tablo Satırlarının Satır İçi Nesneleri Bağımsız Olarak Sarmasına İzin Ver. |
+| [LineWrapLikeWord6](../../aspose.words.settings/compatibilityoptions/linewraplikeword6/) { get; set; } | Doğu Asya Metni için Word 6.0 Satır Sarmasını Öykün. |
+| [MWSmallCaps](../../aspose.words.settings/compatibilityoptions/mwsmallcaps/) { get; set; } | Macintosh Küçük Büyük Harf Biçimlendirmesi için Word 5.x'i Öykün. |
+| [NoColumnBalance](../../aspose.words.settings/compatibilityoptions/nocolumnbalance/) { get; set; } | Bir Bölüm İçindeki Metin Sütunlarını Dengeleme. |
+| [NoExtraLineSpacing](../../aspose.words.settings/compatibilityoptions/noextralinespacing/) { get; set; } | İçeriği Tam Satır Yüksekliğine Sahip Satırlarda Ortalamayın. |
+| [NoLeading](../../aspose.words.settings/compatibilityoptions/noleading/) { get; set; } | Metin Satırları Arasına Başlama Eklemeyin. |
+| [NoSpaceRaiseLower](../../aspose.words.settings/compatibilityoptions/nospaceraiselower/) { get; set; } | Yükseltilmiş/Alçaltılmış Metin için Satır Yüksekliğini Artırmayın. |
+| [NoTabHangInd](../../aspose.words.settings/compatibilityoptions/notabhangind/) { get; set; } | Girintiyi Asmak için Özel Sekme Durağı Oluşturmayın. |
+| [OverrideTableStyleFontSizeAndJustification](../../aspose.words.settings/compatibilityoptions/overridetablestylefontsizeandjustification/) { get; set; } | Belgenin stil hiyerarşisinin nasıl değerlendirildiğini belirtir. |
+| [PrintBodyTextBeforeHeader](../../aspose.words.settings/compatibilityoptions/printbodytextbeforeheader/) { get; set; } | Üst Bilgi/Alt Bilgi İçeriğinden Önce Gövde Metni Yazdır. |
+| [PrintColBlack](../../aspose.words.settings/compatibilityoptions/printcolblack/) { get; set; } | Renkleri Taklit Etmeden Siyah Beyaz Bastırın. |
+| [SelectFldWithFirstOrLastChar](../../aspose.words.settings/compatibilityoptions/selectfldwithfirstorlastchar/) { get; set; } | İlk veya Son Karakter Seçildiğinde Alanı Seçin. |
+| [ShapeLayoutLikeWW8](../../aspose.words.settings/compatibilityoptions/shapelayoutlikeww8/) { get; set; } | Yüzen Nesnelerin Çevresine Sarma Word 97 Metnini Öykün. |
+| [ShowBreaksInFrames](../../aspose.words.settings/compatibilityoptions/showbreaksinframes/) { get; set; } | Çerçevelerde Bulunan Sayfa/Sütun Sonlarını Görüntüle. |
+| [SpaceForUL](../../aspose.words.settings/compatibilityoptions/spaceforul/) { get; set; } | Altı Çizili Doğu Asya Metni İçin Satır Taban Çizgisinin Altına Ek Boşluk Ekleyin. |
+| [SpacingInWholePoints](../../aspose.words.settings/compatibilityoptions/spacinginwholepoints/) { get; set; } | Metni Yalnızca Tüm Noktalara Göre Genişlet/Yoğunlaştır. |
+| [SplitPgBreakAndParaMark](../../aspose.words.settings/compatibilityoptions/splitpgbreakandparamark/) { get; set; } | Sayfa Sonunun Ardından Paragraf İşaretini Her Zaman Sayfaya Taşıyın. |
+| [SubFontBySize](../../aspose.words.settings/compatibilityoptions/subfontbysize/) { get; set; } | Yazı Tipi Değiştirme Sırasında Yazı Tipi Boyutunun Önceliğini Artırın. |
+| [SuppressBottomSpacing](../../aspose.words.settings/compatibilityoptions/suppressbottomspacing/) { get; set; } | Sayfadaki Son Satır İçin Tam Satır Yüksekliğini Yoksay. |
+| [SuppressSpacingAtTopOfPage](../../aspose.words.settings/compatibilityoptions/suppressspacingattopofpage/) { get; set; } | Sayfadaki İlk Satır İçin Minimum Satır Yüksekliğini Yoksay. |
+| [SuppressSpBfAfterPgBrk](../../aspose.words.settings/compatibilityoptions/suppressspbfafterpgbrk/) { get; set; } | Sayfa Sonunun Ardından İlk Satırdan Önce Boşluk Kullanmayın. |
+| [SuppressTopSpacing](../../aspose.words.settings/compatibilityoptions/suppresstopspacing/) { get; set; } | Sayfadaki İlk Satır için Minimum ve Tam Satır Yüksekliğini Yoksay. |
+| [SuppressTopSpacingWP](../../aspose.words.settings/compatibilityoptions/suppresstopspacingwp/) { get; set; } | WordPerfect 5.x Satır Aralığını Öykün. |
+| [SwapBordersFacingPgs](../../aspose.words.settings/compatibilityoptions/swapbordersfacingpgs/) { get; set; } | Tek Numaralı Sayfalarda Paragraf Kenarlıklarını Değiştirin. |
+| [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } |  |
+| [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles/) { get; set; } | Meta dosyası resimlerinin arkasındaki alanın boş bırakılmayacağını belirtir. |
+| [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/) { get; set; } | WordPerfect 6.x Yazı Tipi Yüksekliği Hesaplamasına Öykün. |
+| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | **Doğru** Word97-2003 ile uyumlu olmayan UI işlevselliğini devre dışı bırakmak için. Varsayılan değer **yanlış** . |
+| [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace/) { get; set; } | Sondaki Tüm Boşlukların Altını Çizin. |
+| [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist/) { get; set; } | Numaralandırmadan Sonra Karakterin Altını Çizin. |
+| [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/) { get; set; } | Doğu Asya Satır Kesme Kurallarının Alternatif Kümesini Kullanın. |
+| [UseAnsiKerningPairs](../../aspose.words.settings/compatibilityoptions/useansikerningpairs/) { get; set; } | Fontlardan ANSI Karakter Aralığı Çiftlerini Kullanın. |
+| [UseFELayout](../../aspose.words.settings/compatibilityoptions/usefelayout/) { get; set; } | Doğu Asya/Karmaşık Komut Dosyası Düzen Kodunu Atlamayın. |
+| [UseNormalStyleForList](../../aspose.words.settings/compatibilityoptions/usenormalstyleforlist/) { get; set; } | Liste Paragraf Stilini Madde İşaretli/Numaralı Metne Otomatik Olarak Uygulamayın. |
+| [UsePrinterMetrics](../../aspose.words.settings/compatibilityoptions/useprintermetrics/) { get; set; } | Belgeleri Görüntülemek için Yazıcı Metriklerini Kullanın. |
+| [UseSingleBorderforContiguousCells](../../aspose.words.settings/compatibilityoptions/usesingleborderforcontiguouscells/) { get; set; } | Tablo Kenarlığı Çakışmaları İçin Basitleştirilmiş Kuralları Kullanın. |
+| [UseWord2002TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2002tablestylerules/) { get; set; } | Word 2002 Tablo Stili Kurallarını Öykün. |
+| [UseWord2010TableStyleRules](../../aspose.words.settings/compatibilityoptions/useword2010tablestylerules/) { get; set; } |  |
+| [UseWord97LineBreakRules](../../aspose.words.settings/compatibilityoptions/useword97linebreakrules/) { get; set; } | Word 97 Doğu Asya Satır Kesmesini Öykün. |
+| [WPJustification](../../aspose.words.settings/compatibilityoptions/wpjustification/) { get; set; } | WordPerfect 6.x Paragraf Yaslamasını Öykün. |
+| [WPSpaceWidth](../../aspose.words.settings/compatibilityoptions/wpspacewidth/) { get; set; } | WordPerfect 5.x. 'de olduğu gibi bir boşluk genişliğinin ayarlanıp ayarlanmadığını belirtir. |
+| [WrapTrailSpaces](../../aspose.words.settings/compatibilityoptions/wraptrailspaces/) { get; set; } | Satır Sarma Sondaki Boşluklar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor)(MsWordVersion) | Varsayılan Aspose.Words davranışının yanı sıra belge içeriğinin belirli bir MS Word sürümüne göre optimize edilmesini sağlar. |
+| [OptimizeFor](../../aspose.words.settings/compatibilityoptions/optimizefor/)(MsWordVersion) | Varsayılan Aspose.Words davranışının yanı sıra belge içeriğinin belirli bir MS Word sürümüne göre optimize edilmesini sağlar. |
 
 ### Örnekler
 
@@ -208,9 +208,9 @@ private static void PrintCompatibilityOptions(CompatibilityOptions options)
 
 ### Ayrıca bakınız
 
-* class [Document](../../aspose.words/document)
-* property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions)
-* ad alanı [Aspose.Words.Settings](../../aspose.words.settings)
+* class [Document](../../aspose.words/document/)
+* property [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/)
+* ad alanı [Aspose.Words.Settings](../../aspose.words.settings/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

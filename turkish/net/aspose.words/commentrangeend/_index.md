@@ -18,42 +18,42 @@ public sealed class CommentRangeEnd : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend)(DocumentBase, int) | Bu sınıfın yeni bir örneğini başlatır. |
+| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| [Id](../../aspose.words/commentrangeend/id) { get; set; } | Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/commentrangeend/nodetype) { get; } | İadeCommentRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Bu düğümün hemen üst öğesini alır. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
+| [Id](../../aspose.words/commentrangeend/id/) { get; set; } | Bu bölgenin bağlı olduğu yorumun tanımlayıcısını belirtir. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
+| override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | İadeCommentRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
-| [Clone](../../aspose.words/node/clone)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Metnin bir bölgesine sabitlenmiş bir yorum oluşturmak için, bir[`Comment`](../comment) and sonra oluştur[`CommentRangeStart`](../commentrangestart) ve[`CommentRangeEnd`](../commentrangeend)ve tanımlayıcılarını aynı şekilde ayarlayın[`Id`](../comment/id) değer.
+Metnin bir bölgesine sabitlenmiş bir yorum oluşturmak için, bir[`Comment`](../comment/) and sonra oluştur[`CommentRangeStart`](../commentrangestart/) ve[`CommentRangeEnd`](./commentrangeend/)ve tanımlayıcılarını aynı şekilde ayarlayın[`Id`](../comment/id/) değer.
 
-[`CommentRangeEnd`](../commentrangeend) satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph).
+[`CommentRangeEnd`](./commentrangeend/) satır içi düzey bir düğümdür ve yalnızca alt öğesi olabilir[`Paragraph`](../paragraph/).
 
 ### Örnekler
 
@@ -215,8 +215,8 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ### Ayrıca bakınız
 
-* class [Node](../node)
-* ad alanı [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

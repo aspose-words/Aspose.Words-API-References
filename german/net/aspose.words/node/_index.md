@@ -1,7 +1,7 @@
 ---
 title: Node
 second_title: Aspose.Words für .NET-API-Referenz
-description: Basisklasse für alle Knoten eines Word-Dokuments.
+description: Basisklasse für alle Knoten eines WordDokuments.
 type: docs
 weight: 3930
 url: /de/net/aspose.words/node/
@@ -18,30 +18,30 @@ public abstract class Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Ruft den Typ dieses Knotens ab. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
+| abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Ruft den Typ dieses Knotens ab. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [Remove](../../aspose.words/node/remove)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring#tostring_1)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring#tostring_2)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | Eine Dienstprogrammmethode, die einen Aufzählungswert eines Knotentyps in eine benutzerfreundliche Zeichenfolge umwandelt. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Eine Dienstprogrammmethode, die einen Aufzählungswert eines Knotentyps in eine benutzerfreundliche Zeichenfolge umwandelt. |
 
 ### Bemerkungen
 
@@ -49,7 +49,7 @@ Ein Dokument wird ähnlich wie DOM oder XmlDocument als Baum aus Knoten dargeste
 
 Weitere Informationen finden Sie im Composite-Designmuster.
 
-Das[`Node`](../node)Klasse:
+Das[`Node`](./node/)Klasse:
 
 * Definiert die Schnittstelle des untergeordneten Knotens.
 * Definiert die Schnittstelle für den Besuch von Knoten.
@@ -146,7 +146,7 @@ foreach (Node child in children)
 
 ### Siehe auch
 
-* namensraum [Aspose.Words](../../aspose.words)
+* namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,42 +18,42 @@ public class FieldDatabase : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldDatabase](fielddatabase)() | Default_Constructor |
+| [FieldDatabase](fielddatabase/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Connection](../../aspose.words.fields/fielddatabase/connection) { get; set; } | Hämtar eller ställer in en anslutning till datan. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end) { get; } | Hämtar noden som representerar fältänden. |
-| [FileName](../../aspose.words.fields/fielddatabase/filename) { get; set; } | Hämtar eller ställer in hela sökvägen och filnamnet för databasen |
-| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord) { get; set; } | Hämtar eller ställer in integralpostnumret för den första dataposten som ska infogas. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Får en[`FieldFormat`](../fieldformat) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes) { get; set; } | Hämtar eller ställer in vilka attribut av formatet som ska tillämpas på tabellen. |
-| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings) { get; set; } | Hämtar eller ställer in om fältnamnen från databasen ska infogas som kolumnrubriker i den resulterande tabellen. |
-| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge) { get; set; } | Hämtar eller ställer in om data ska infogas i början av en sammanslagning. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord) { get; set; } | Hämtar eller ställer in integralpostnumret för den senaste dataposten som ska infogas. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [Query](../../aspose.words.fields/fielddatabase/query) { get; set; } | Hämtar eller ställer in en uppsättning SQL-instruktioner som frågar databasen. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Hämtar noden som representerar början av fältet. |
-| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat) { get; set; } | Hämtar eller ställer in formatet som ska tillämpas på resultatet av databasfrågan. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Hämtar fälttypen Microsoft Word. |
+| [Connection](../../aspose.words.fields/fielddatabase/connection/) { get; set; } | Hämtar eller ställer in en anslutning till datan. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
+| [FileName](../../aspose.words.fields/fielddatabase/filename/) { get; set; } | Hämtar eller ställer in hela sökvägen och filnamnet för databasen |
+| [FirstRecord](../../aspose.words.fields/fielddatabase/firstrecord/) { get; set; } | Hämtar eller ställer in integralpostnumret för den första dataposten som ska infogas. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
+| [FormatAttributes](../../aspose.words.fields/fielddatabase/formatattributes/) { get; set; } | Hämtar eller ställer in vilka attribut av formatet som ska tillämpas på tabellen. |
+| [InsertHeadings](../../aspose.words.fields/fielddatabase/insertheadings/) { get; set; } | Hämtar eller ställer in om fältnamnen från databasen ska infogas som kolumnrubriker i den resulterande tabellen. |
+| [InsertOnceOnMailMerge](../../aspose.words.fields/fielddatabase/insertonceonmailmerge/) { get; set; } | Hämtar eller ställer in om data ska infogas i början av en sammanslagning. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
+| [LastRecord](../../aspose.words.fields/fielddatabase/lastrecord/) { get; set; } | Hämtar eller ställer in integralpostnumret för den senaste dataposten som ska infogas. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
+| [Query](../../aspose.words.fields/fielddatabase/query/) { get; set; } | Hämtar eller ställer in en uppsättning SQL-instruktioner som frågar databasen. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
+| [TableFormat](../../aspose.words.fields/fielddatabase/tableformat/) { get; set; } | Hämtar eller ställer in formatet som ska tillämpas på resultatet av databasfrågan. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
@@ -110,8 +110,8 @@ doc.Save(ArtifactsDir + "Field.DATABASE.docx");
 
 ### Se även
 
-* class [Field](../field)
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

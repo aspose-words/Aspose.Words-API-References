@@ -21,17 +21,17 @@ public bool BuildReport(Document document, object dataSource)
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il[`BuildReport`](../buildreport) sovraccarico per raggiungere questo obiettivo.
+Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati nel documento modello, ma non è possibile fare riferimento all'oggetto origine dati stesso. Dovresti usare il[`BuildReport`](./buildreport/) sovraccarico per raggiungere questo obiettivo.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -45,9 +45,9 @@ Per informazioni su come lavorare con origini dati di tipo diverso nei documenti
 
 ### Guarda anche
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -68,17 +68,17 @@ public bool BuildReport(Document document, object dataSource, string dataSourceN
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
-Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non hai intenzione di fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passando null o usa il[`BuildReport`](../buildreport) sovraccarico.
+Utilizzando questo overload è possibile fare riferimento ai membri dell'origine dati e all'oggetto origine dati stesso nel modello. Se non hai intenzione di fare riferimento all'oggetto origine dati stesso, puoi ometterlo*dataSourceName* passando null o usa il[`BuildReport`](./buildreport/) sovraccarico.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -92,9 +92,9 @@ Per informazioni su come lavorare con origini dati di tipo diverso nei documenti
 
 ### Guarda anche
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -115,19 +115,19 @@ public bool BuildReport(Document document, object[] dataSources, string[] dataSo
 
 ### Valore di ritorno
 
-Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options)la proprietà include ilInlineErrorMessages opzione.
+Un flag che indica se l'analisi del documento modello è riuscita. Il flag restituito ha senso solo se un valore del[`Options`](../options/)la proprietà include ilInlineErrorMessages opzione.
 
 ### Osservazioni
 
 Utilizzando questo overload è possibile fare riferimento a più oggetti origine dati e ai relativi membri nel modello. Il nome della prima origine dati può essere omesso (ovvero essere una stringa vuota o null) se si intende fare riferimento ai membri dell'origine dati ma non all'oggetto origine dati stesso. I nomi delle altre origini dati devono essere specificati e univoci.
 
-Se intendi utilizzare una singola origine dati, considera l'utilizzo di[`BuildReport`](../buildreport) e[`BuildReport`](../buildreport) sovraccarichi invece.
+Se intendi utilizzare una singola origine dati, considera l'utilizzo di[`BuildReport`](./buildreport/) e[`BuildReport`](./buildreport/) sovraccarichi invece.
 
 Un oggetto origine dati può essere di uno dei seguenti tipi:
 
-* [`XmlDataSource`](../../xmldatasource)
-* [`JsonDataSource`](../../jsondatasource)
-* [`CsvDataSource`](../../csvdatasource)
+* [`XmlDataSource`](../../xmldatasource/)
+* [`JsonDataSource`](../../jsondatasource/)
+* [`CsvDataSource`](../../csvdatasource/)
 * DataSet
 * DataTable
 * DataRow
@@ -141,9 +141,9 @@ Per informazioni su come lavorare con origini dati di tipo diverso nei documenti
 
 ### Guarda anche
 
-* class [Document](../../../aspose.words/document)
-* class [ReportingEngine](../../reportingengine)
-* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine)
+* class [Document](../../../aspose.words/document/)
+* class [ReportingEngine](../)
+* spazio dei nomi [Aspose.Words.Reporting](../../reportingengine/)
 * assemblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

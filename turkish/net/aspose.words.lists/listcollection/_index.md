@@ -18,33 +18,33 @@ public class ListCollection : IEnumerable<List>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.lists/listcollection/count) { get; } | Belgedeki numaralı ve madde işaretli listelerin sayısını alır. |
-| [Document](../../aspose.words.lists/listcollection/document) { get; } | Sahip belgesini alır. |
-| [Item](../../aspose.words.lists/listcollection/item) { get; } | Dizine göre bir liste alır. |
+| [Count](../../aspose.words.lists/listcollection/count/) { get; } | Belgedeki numaralı ve madde işaretli listelerin sayısını alır. |
+| [Document](../../aspose.words.lists/listcollection/document/) { get; } | Sahip belgesini alır. |
+| [Item](../../aspose.words.lists/listcollection/item/) { get; } | Dizine göre bir liste alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../aspose.words.lists/listcollection/add#add)(ListTemplate) | Önceden tanımlanmış bir şablona dayalı yeni bir liste oluşturur ve bunu belgedeki listeler koleksiyonuna ekler. |
-| [Add](../../aspose.words.lists/listcollection/add#add_1)(Style) | Bir liste stiline başvuran ve onu belgedeki listeler koleksiyonuna ekleyen yeni bir liste oluşturur. |
-| [AddCopy](../../aspose.words.lists/listcollection/addcopy)(List) | Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur. |
-| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator)() | Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır. |
-| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid)(int) | Liste tanımlayıcısına göre bir liste alır. |
+| [Add](../../aspose.words.lists/listcollection/add/#add)(ListTemplate) | Önceden tanımlanmış bir şablona dayalı yeni bir liste oluşturur ve bunu belgedeki listeler koleksiyonuna ekler. |
+| [Add](../../aspose.words.lists/listcollection/add/#add_1)(Style) | Bir liste stiline başvuran ve onu belgedeki listeler koleksiyonuna ekleyen yeni bir liste oluşturur. |
+| [AddCopy](../../aspose.words.lists/listcollection/addcopy/)(List) | Belirtilen listeyi kopyalayıp belgedeki listeler koleksiyonuna ekleyerek yeni bir liste oluşturur. |
+| [GetEnumerator](../../aspose.words.lists/listcollection/getenumerator/)() | Belgedeki listeleri numaralandıracak numaralandırıcı nesnesini alır. |
+| [GetListByListId](../../aspose.words.lists/listcollection/getlistbylistid/)(int) | Liste tanımlayıcısına göre bir liste alır. |
 
 ### Notlar
 
-Microsoft Word belgesindeki bir liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,[`ListCollection`](../listcollection) metin paragraflarından ayrı olarak toplama .
+Microsoft Word belgesindeki bir liste, bir dizi liste biçimlendirme özelliğidir. Listelerin biçimlendirmesi,[`ListCollection`](./listcollection/) metin paragraflarından ayrı olarak toplama .
 
-Bu sınıfın nesnelerini oluşturmazsınız. her zaman sadece bir tane vardır[`ListCollection`](../listcollection) Belge başına nesnesi ve şuradan erişilebilir:[`Lists`](../../aspose.words/documentbase/lists) Emlak.
+Bu sınıfın nesnelerini oluşturmazsınız. her zaman sadece bir tane vardır[`ListCollection`](./listcollection/) Belge başına nesnesi ve şuradan erişilebilir:[`Lists`](../../aspose.words/documentbase/lists/) Emlak.
 
-Önceden tanımlanmış bir liste şablonuna veya bir liste stiline dayalı olarak yeni bir liste oluşturmak için, [`Add`](./add) yöntem.
+Önceden tanımlanmış bir liste şablonuna veya bir liste stiline dayalı olarak yeni bir liste oluşturmak için, [`Add`](./add/) yöntem.
 
-Mevcut bir listeyle aynı biçimlendirmeye sahip yeni bir liste oluşturmak için, [`AddCopy`](./addcopy) yöntem.
+Mevcut bir listeyle aynı biçimlendirmeye sahip yeni bir liste oluşturmak için, [`AddCopy`](./addcopy/) yöntem.
 
-Bir paragrafı madde işaretli veya numaralandırılmış yapmak için, bir paragraf atayarak bir paragrafa formatting listesi uygulamanız gerekir.[`List`](../list) the nesnesi[`List`](../listformat/list) mülkiyet[`ListFormat`](../listformat).
+Bir paragrafı madde işaretli veya numaralandırılmış yapmak için, bir paragraf atayarak bir paragrafa formatting listesi uygulamanız gerekir.[`List`](../list/) the nesnesi[`List`](../listformat/list/) mülkiyet[`ListFormat`](../listformat/).
 
-Bir paragraftan liste biçimlendirmesini kaldırmak için[`RemoveNumbers`](../listformat/removenumbers) yöntemi.
+Bir paragraftan liste biçimlendirmesini kaldırmak için[`RemoveNumbers`](../listformat/removenumbers/) yöntemi.
 
 WordprocessingML hakkında biraz bilginiz varsa, bunun "liste" ve "liste tanımı" için ayrı concept tanımladığını biliyor olabilirsiniz. Bu tam olarak liste biçimlendirmesinin bir Microsoft Word belgesinde düşük düzeyde nasıl depolandığına karşılık gelir. Liste tanımı bir "şema" gibidir ve listesi, bir liste tanımının bir örneği gibidir.
 
@@ -177,8 +177,8 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Ayrıca bakınız
 
-* class [List](../list)
-* ad alanı [Aspose.Words.Lists](../../aspose.words.lists)
+* class [List](../list/)
+* ad alanı [Aspose.Words.Lists](../../aspose.words.lists/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

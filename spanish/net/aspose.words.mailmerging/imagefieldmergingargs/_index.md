@@ -1,14 +1,14 @@
 ---
 title: ImageFieldMergingArgs
 second_title: Referencia de API de Aspose.Words para .NET
-description: Proporciona datos para elImageFieldMerging./ifieldmergingcallback/imagefieldmerging evento.
+description: Proporciona datos para elImageFieldMerging./ifieldmergingcallback/imagefieldmerging/ evento.
 type: docs
 weight: 3610
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-Proporciona datos para el[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging) evento.
+Proporciona datos para el[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) evento.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -18,25 +18,25 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document) { get; } | Devuelve el[`Document`](../fieldmergingargsbase/document) objeto para el que se realiza la combinación de correspondencia. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname) { get; } | Obtiene el nombre del campo de combinación como se especifica en el documento. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field) { get; } | Obtiene el objeto que representa el campo de combinación actual. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname) { get; } | Obtiene el nombre del campo de combinación en la fuente de datos. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue) { get; set; } | Obtiene o establece el valor del campo de la fuente de datos. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image) { get; set; } | Especifica la imagen que el motor de combinación de correspondencia debe insertar en el documento. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename) { get; set; } | Establece el nombre de archivo de la imagen que el motor de combinación de correspondencia debe insertar en el documento. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight) { get; set; } | Especifica la altura de la imagen para que la imagen se inserte en el documento. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream) { get; set; } | Especifica la secuencia desde la que el motor de combinación de correo lee una imagen. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth) { get; set; } | Especifica el ancho de imagen para que la imagen se inserte en el documento. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex) { get; } | Obtiene el índice basado en cero del registro que se está fusionando. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape) { get; set; } | Especifica la forma que el motor de combinación de correspondencia debe insertar en el documento. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename) { get; } | Obtiene el nombre de la tabla de datos para la operación de fusión actual o una cadena vacía si el nombre no está disponible. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Devuelve el[`Document`](../fieldmergingargsbase/document/) objeto para el que se realiza la combinación de correspondencia. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Obtiene el nombre del campo de combinación como se especifica en el documento. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Obtiene el objeto que representa el campo de combinación actual. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Obtiene el nombre del campo de combinación en la fuente de datos. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Obtiene o establece el valor del campo de la fuente de datos. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Especifica la imagen que el motor de combinación de correspondencia debe insertar en el documento. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Establece el nombre de archivo de la imagen que el motor de combinación de correspondencia debe insertar en el documento. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Especifica la altura de la imagen para que la imagen se inserte en el documento. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Especifica la secuencia desde la que el motor de combinación de correo lee una imagen. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Especifica el ancho de imagen para que la imagen se inserte en el documento. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtiene el índice basado en cero del registro que se está fusionando. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Especifica la forma que el motor de combinación de correspondencia debe insertar en el documento. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtiene el nombre de la tabla de datos para la operación de fusión actual o una cadena vacía si el nombre no está disponible. |
 
 ### Observaciones
 
 Este evento ocurre durante la combinación de correo cuando se encuentra un campo de imagen de correo merge en el documento. Puede responder a este evento para devolver un nombre de archivo , una secuencia o unImage objeto al motor de correo merge para que se inserte en el documento.
 
-Hay tres propiedades disponibles[`ImageFileName`](./imagefilename) , [`ImageStream`](./imagestream) y[`Image`](./image) para especificar de dónde se debe tomar la imagen. Establezca solo una de estas propiedades.
+Hay tres propiedades disponibles[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) y[`Image`](./image/) para especificar de dónde se debe tomar la imagen. Establezca solo una de estas propiedades.
 
 Para insertar un campo de combinación de correo de imagen en un documento en Word, seleccione el comando Insertar/Campo, , luego seleccione MergeField y escriba Image:MyFieldName.
 
@@ -150,8 +150,8 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ### Ver también
 
-* class [FieldMergingArgsBase](../fieldmergingargsbase)
-* espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* class [FieldMergingArgsBase](../fieldmergingargsbase/)
+* espacio de nombres [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

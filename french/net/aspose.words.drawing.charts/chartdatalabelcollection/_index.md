@@ -1,14 +1,14 @@
 ---
 title: ChartDataLabelCollection
 second_title: Référence de l'API Aspose.Words pour .NET
-description: Représente une collection deChartDataLabel./chartdatalabel .
+description: Représente une collection deChartDataLabel./chartdatalabel/ .
 type: docs
 weight: 640
 url: /fr/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-Représente une collection de[`ChartDataLabel`](../chartdatalabel) .
+Représente une collection de[`ChartDataLabel`](../chartdatalabel/) .
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -18,25 +18,25 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count) { get; } | Renvoie le nombre de[`ChartDataLabel`](../chartdatalabel) dans cette collection. |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item) { get; } | Retours[`ChartDataLabel`](../chartdatalabel) pour l'index spécifié. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat) { get; } | Obtient un[`ChartNumberFormat`](../chartnumberformat) instance permettant de définir le format des nombres pour les étiquettes de données de la série entière. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator) { get; set; } | Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données de la série entière. La valeur par défaut est une virgule, sauf pour les graphiques circulaires affichant uniquement le nom de la catégorie et le pourcentage, lorsqu'un saut de ligne doit être utilisé à la place. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize) { get; set; } | Permet de spécifier si la taille des bulles doit être affichée pour les étiquettes de données de toute la série. S'applique uniquement aux graphiques à bulles. La valeur par défaut est **faux** . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname) { get; set; } | Permet de spécifier si le nom de la catégorie doit être affiché pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange) { get; set; } | Permet de spécifier si les valeurs des étiquettes de données doivent être affichées dans les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines) { get; set; } | Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées pour les étiquettes de données de la série entière. La valeur par défaut est **faux** . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey) { get; set; } | Permet de spécifier si la clé de légende doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage) { get; set; } | Permet de spécifier si la valeur en pourcentage doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . S'applique uniquement aux graphiques à secteurs. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname) { get; set; } | Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom de la série pour les étiquettes de données de la série entière.  **Vrai**pour afficher le nom de la série. **Faux** cacher. Par défaut **faux** . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue) { get; set; } | Permet de spécifier si les valeurs doivent être affichées dans les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Renvoie le nombre de[`ChartDataLabel`](../chartdatalabel/) dans cette collection. |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Retours[`ChartDataLabel`](../chartdatalabel/) pour l'index spécifié. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Obtient un[`ChartNumberFormat`](../chartnumberformat/) instance permettant de définir le format des nombres pour les étiquettes de données de la série entière. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Obtient ou définit le séparateur de chaîne utilisé pour les étiquettes de données de la série entière. La valeur par défaut est une virgule, sauf pour les graphiques circulaires affichant uniquement le nom de la catégorie et le pourcentage, lorsqu'un saut de ligne doit être utilisé à la place. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Permet de spécifier si la taille des bulles doit être affichée pour les étiquettes de données de toute la série. S'applique uniquement aux graphiques à bulles. La valeur par défaut est **faux** . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Permet de spécifier si le nom de la catégorie doit être affiché pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Permet de spécifier si les valeurs des étiquettes de données doivent être affichées dans les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Permet de spécifier si les lignes de repère des étiquettes de données doivent être affichées pour les étiquettes de données de la série entière. La valeur par défaut est **faux** . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Permet de spécifier si la clé de légende doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Permet de spécifier si la valeur en pourcentage doit être affichée pour les étiquettes de données de toute la série. La valeur par défaut est **faux** . S'applique uniquement aux graphiques à secteurs. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Renvoie ou définit un booléen pour indiquer le comportement d'affichage du nom de la série pour les étiquettes de données de la série entière.  **Vrai**pour afficher le nom de la série. **Faux** cacher. Par défaut **faux** . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Permet de spécifier si les valeurs doivent être affichées dans les étiquettes de données de toute la série. La valeur par défaut est **faux** . |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat)() | Efface le format de tous[`ChartDataLabel`](../chartdatalabel) dans cette collection. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator)() | Renvoie un objet énumérateur. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Efface le format de tous[`ChartDataLabel`](../chartdatalabel/) dans cette collection. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Renvoie un objet énumérateur. |
 
 ### Exemples
 
@@ -114,8 +114,8 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### Voir également
 
-* class [ChartDataLabel](../chartdatalabel)
-* espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* class [ChartDataLabel](../chartdatalabel/)
+* espace de noms [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

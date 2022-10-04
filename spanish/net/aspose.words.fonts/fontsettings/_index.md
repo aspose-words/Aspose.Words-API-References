@@ -18,33 +18,33 @@ public class FontSettings
 
 | Nombre | Descripción |
 | --- | --- |
-| [FontSettings](fontsettings)() | Constructor predeterminado |
+| [FontSettings](fontsettings/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | Configuración de fuente predeterminada estática. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | Ajustes relacionados con el mecanismo de reserva de fuentes. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | Ajustes relacionados con el mecanismo de sustitución de fuentes. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Configuración de fuente predeterminada estática. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Ajustes relacionados con el mecanismo de reserva de fuentes. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Ajustes relacionados con el mecanismo de sustitución de fuentes. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | Obtiene una copia de la matriz que contiene la lista de fuentes donde Aspose.Words busca fuentes TrueType. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | Restablece las fuentes de fuentes a los valores predeterminados del sistema. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Guarda la caché de búsqueda de fuentes en la secuencia. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Establece la carpeta donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. Este es un acceso directo a[`SetFontsFolders`](./setfontsfolders) para configurar solo un directorio de fuentes. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Establece las carpetas donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Establece las fuentes en las que Aspose.Words busca las fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Obtiene una copia de la matriz que contiene la lista de fuentes donde Aspose.Words busca fuentes TrueType. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Restablece las fuentes de fuentes a los valores predeterminados del sistema. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Guarda la caché de búsqueda de fuentes en la secuencia. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Establece la carpeta donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. Este es un acceso directo a[`SetFontsFolders`](./setfontsfolders/) para configurar solo un directorio de fuentes. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Establece las carpetas donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Establece las fuentes donde Aspose.Words busca fuentes TrueType al renderizar documentos o incrustar fuentes. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Establece las fuentes en las que Aspose.Words busca las fuentes TrueType y, además, carga la caché de búsqueda de fuentes previamente guardada. |
 
 ### Observaciones
 
-Aspose.Words usa la configuración de fuente para resolver las fuentes en el documento. Las fuentes se resuelven principalmente al crear el diseño del documento o al renderizar a formatos de página fijos. Pero al cargar algunos formatos, Aspose.Words también puede requerir resolver las fuentes. Por ejemplo, when cargar documentos HTML, Aspose.Words puede resolver las fuentes para realizar una reserva de fuentes. Por lo tanto, se recomienda que establezca la configuración de fuente en [`LoadOptions`](../../aspose.words.loading/loadoptions) al cargar el documento. O al menos antes de crear el diseño o representar el documento en el formato de página fija.
+Aspose.Words usa la configuración de fuente para resolver las fuentes en el documento. Las fuentes se resuelven principalmente al crear el diseño del documento o al renderizar a formatos de página fijos. Pero al cargar algunos formatos, Aspose.Words también puede requerir resolver las fuentes. Por ejemplo, when cargar documentos HTML, Aspose.Words puede resolver las fuentes para realizar una reserva de fuentes. Por lo tanto, se recomienda que establezca la configuración de fuente en [`LoadOptions`](../../aspose.words.loading/loadoptions/) al cargar el documento. O al menos antes de crear el diseño o representar el documento en el formato de página fija.
 
-De forma predeterminada, todos los documentos utilizan una sola instancia de configuración de fuente estática. Se puede acceder por [`DefaultInstance`](./defaultinstance) propiedad.
+De forma predeterminada, todos los documentos utilizan una sola instancia de configuración de fuente estática. Se puede acceder por [`DefaultInstance`](./defaultinstance/) propiedad.
 
 Cambiar la configuración de la fuente es seguro en cualquier momento desde cualquier hilo. Pero se recomienda que no cambie la configuración de la fuente mientras procesa algunos documentos que utilizan esta configuración. Esto puede llevar al hecho de que la misma fuente se resuelva de manera diferente en diferentes partes del documento.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts)
+* espacio de nombres [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

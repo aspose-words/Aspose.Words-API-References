@@ -18,29 +18,29 @@ public class Style
 
 | Nom | La description |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases) { get; } | Obtient tous les alias de ce style. Si le style n'a pas d'alias, un tableau vide de chaînes est renvoyé. |
-| [BaseStyleName](../../aspose.words/style/basestylename) { get; set; } | Obtient/définit le nom du style sur lequel ce style est basé. |
-| [BuiltIn](../../aspose.words/style/builtin) { get; } | Vrai si ce style est l'un des styles intégrés dans MS Word. |
-| [Document](../../aspose.words/style/document) { get; } | Obtient le document propriétaire. |
-| [Font](../../aspose.words/style/font) { get; } | Obtient la mise en forme des caractères du style. |
-| [IsHeading](../../aspose.words/style/isheading) { get; } | Vrai lorsque le style est l'un des styles de titre intégrés. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle) { get; set; } | Spécifie si ce style est affiché dans la galerie de styles rapides dans l'interface utilisateur de MS Word. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename) { get; } | Récupère le nom du Style lié à celui-ci. Renvoie une chaîne vide si aucun style n'est lié. |
-| [List](../../aspose.words/style/list) { get; } | Obtient la liste qui définit le formatage de ce style de liste. |
-| [ListFormat](../../aspose.words/style/listformat) { get; } | Fournit l'accès aux propriétés de formatage de liste d'un style de paragraphe. |
-| [Name](../../aspose.words/style/name) { get; set; } | Obtient ou définit le nom du style. |
-| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename) { get; set; } | Obtient/définit le nom du style à appliquer automatiquement à un nouveau paragraphe inséré après un paragraphe formaté avec le style spécifié. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat) { get; } | Obtient la mise en forme du paragraphe du style. |
-| [StyleIdentifier](../../aspose.words/style/styleidentifier) { get; } | Obtient l'identificateur de style indépendant des paramètres régionaux pour un style intégré. |
-| [Styles](../../aspose.words/style/styles) { get; } | Obtient la collection de styles à laquelle ce style appartient. |
-| [Type](../../aspose.words/style/type) { get; } | Obtient le type de style (paragraphe ou caractère). |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | Obtient tous les alias de ce style. Si le style n'a pas d'alias, un tableau vide de chaînes est renvoyé. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Obtient/définit le nom du style sur lequel ce style est basé. |
+| [BuiltIn](../../aspose.words/style/builtin/) { get; } | Vrai si ce style est l'un des styles intégrés dans MS Word. |
+| [Document](../../aspose.words/style/document/) { get; } | Obtient le document propriétaire. |
+| [Font](../../aspose.words/style/font/) { get; } | Obtient la mise en forme des caractères du style. |
+| [IsHeading](../../aspose.words/style/isheading/) { get; } | Vrai lorsque le style est l'un des styles de titre intégrés. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | Spécifie si ce style est affiché dans la galerie de styles rapides dans l'interface utilisateur de MS Word. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | Récupère le nom du Style lié à celui-ci. Renvoie une chaîne vide si aucun style n'est lié. |
+| [List](../../aspose.words/style/list/) { get; } | Obtient la liste qui définit le formatage de ce style de liste. |
+| [ListFormat](../../aspose.words/style/listformat/) { get; } | Fournit l'accès aux propriétés de formatage de liste d'un style de paragraphe. |
+| [Name](../../aspose.words/style/name/) { get; set; } | Obtient ou définit le nom du style. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | Obtient/définit le nom du style à appliquer automatiquement à un nouveau paragraphe inséré après un paragraphe formaté avec le style spécifié. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | Obtient la mise en forme du paragraphe du style. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | Obtient l'identificateur de style indépendant des paramètres régionaux pour un style intégré. |
+| [Styles](../../aspose.words/style/styles/) { get; } | Obtient la collection de styles à laquelle ce style appartient. |
+| [Type](../../aspose.words/style/type/) { get; } | Obtient le type de style (paragraphe ou caractère). |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals#equals)(Style) | Compare avec le style spécifié. Les styles Istds sont comparés uniquement pour les styles intégrés. Les styles par défaut ne sont pas inclus dans la comparaison. Le style de base, le style lié et le style de paragraphe suivant sont comparés de manière récursive. |
-| [Remove](../../aspose.words/style/remove)() | Supprime le style spécifié du document. |
+| [Equals](../../aspose.words/style/equals/#equals)(Style) | Compare avec le style spécifié. Les styles Istds sont comparés uniquement pour les styles intégrés. Les styles par défaut ne sont pas inclus dans la comparaison. Le style de base, le style lié et le style de paragraphe suivant sont comparés de manière récursive. |
+| [Remove](../../aspose.words/style/remove/)() | Supprime le style spécifié du document. |
 
 ### Exemples
 
@@ -105,7 +105,7 @@ Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
 
 ### Voir également
 
-* espace de noms [Aspose.Words](../../aspose.words)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

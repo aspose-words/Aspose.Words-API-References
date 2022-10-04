@@ -18,42 +18,42 @@ public sealed class CommentRangeEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend)(DocumentBase, int) | Initialisiert eine neue Instanz dieser Klasse. |
+| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initialisiert eine neue Instanz dieser Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [Id](../../aspose.words/commentrangeend/id) { get; set; } | Gibt die Kennung des Kommentars an, mit dem dieser Bereich verknüpft ist. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/commentrangeend/nodetype) { get; } | gibt zurückCommentRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
+| [Id](../../aspose.words/commentrangeend/id/) { get; set; } | Gibt die Kennung des Kommentars an, mit dem dieser Bereich verknüpft ist. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
+| override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | gibt zurückCommentRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [Remove](../../aspose.words/node/remove)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
-Um einen Kommentar zu erstellen, der mit einem Textbereich verankert ist, müssen Sie eine erstellen[`Comment`](../comment) and dann erstellen[`CommentRangeStart`](../commentrangestart) und[`CommentRangeEnd`](../commentrangeend)und setzen Sie ihre Kennungen auf die gleichen[`Id`](../comment/id) Wert.
+Um einen Kommentar zu erstellen, der mit einem Textbereich verankert ist, müssen Sie eine erstellen[`Comment`](../comment/) and dann erstellen[`CommentRangeStart`](../commentrangestart/) und[`CommentRangeEnd`](./commentrangeend/)und setzen Sie ihre Kennungen auf die gleichen[`Id`](../comment/id/) Wert.
 
-[`CommentRangeEnd`](../commentrangeend) ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph).
+[`CommentRangeEnd`](./commentrangeend/) ist ein Knoten auf Inline-Ebene und kann nur ein Kind von sein[`Paragraph`](../paragraph/).
 
 ### Beispiele
 
@@ -215,8 +215,8 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ### Siehe auch
 
-* class [Node](../node)
-* namensraum [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

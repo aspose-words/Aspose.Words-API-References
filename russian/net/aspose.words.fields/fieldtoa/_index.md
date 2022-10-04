@@ -18,43 +18,43 @@ public class FieldToa : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldToa](fieldtoa)() | Конструктор по умолчанию. |
+| [FieldToa](fieldtoa/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения таблицы. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory) { get; set; } | Получает или задает интегральную категорию для записей, включенных в таблицу. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения записи таблицы авторитетных источников и ее номера страницы. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения двух номеров страниц в списке номеров страниц. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения начала и конца диапазона страниц. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting) { get; set; } | Получает или задает, следует ли удалить форматирование текста записи в документе из записи в таблице авторитетных источников. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename) { get; set; } | Получает или задает имя последовательности, номер которой включен в номер страницы. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading) { get; set; } | Получает или задает, следует ли включать заголовок категории для записей в таблице авторитетных источников. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim) { get; set; } | Получает или задает, следует ли заменить пять или более различных ссылок на один и тот же источник на «passim», который используется для обозначения того, что слово или отрывок часто встречается в цитируемой работе. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения таблицы. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | Получает или задает интегральную категорию для записей, включенных в таблицу. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения записи таблицы авторитетных источников и ее номера страницы. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения двух номеров страниц в списке номеров страниц. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения начала и конца диапазона страниц. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Получает или задает, следует ли удалить форматирование текста записи в документе из записи в таблице авторитетных источников. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Получает или задает имя последовательности, номер которой включен в номер страницы. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Получает или задает, следует ли включать заголовок категории для записей в таблице авторитетных источников. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Получает или задает, следует ли заменить пять или более различных ссылок на один и тот же источник на «passim», который используется для обозначения того, что слово или отрывок часто встречается в цитируемой работе. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
@@ -180,8 +180,8 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

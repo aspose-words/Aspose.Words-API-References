@@ -1,7 +1,7 @@
 ---
 title: EditableRangeEnd
 second_title: Aspose.Words für .NET-API-Referenz
-description: Repräsentiert das Ende eines bearbeitbaren Bereichs in einem Word-Dokument.
+description: Repräsentiert das Ende eines bearbeitbaren Bereichs in einem WordDokument.
 type: docs
 weight: 1280
 url: /de/net/aspose.words/editablerangeend/
@@ -18,41 +18,41 @@ public sealed class EditableRangeEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart) { get; } | Entsprechender EditableRangeStart, empfangen von ID. |
-| [Id](../../aspose.words/editablerangeend/id) { get; set; } | Gibt die Kennung des editierbaren Bereichs an. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype) { get; } | gibt zurückEditableRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
-| [Range](../../aspose.words/node/range) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
+| [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Entsprechender EditableRangeStart, empfangen von ID. |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Gibt die Kennung des editierbaren Bereichs an. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt wahr zurück, wenn dieser Knoten andere Knoten enthalten kann. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | gibt zurückEditableRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten unmittelbar vor diesem Knoten ab. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück **Bereich** Objekt, das den Teil eines Dokuments darstellt, das in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept)(DocumentVisitor) | Akzeptiert einen Besucher. |
-| [Clone](../../aspose.words/node/clone)(bool) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
-| [Remove](../../aspose.words/node/remove)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(DocumentVisitor) | Akzeptiert einen Besucher. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Erstellt ein Duplikat des Knotens. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Ruft den ersten Vorfahren der angegebenen ab[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner Kinder ab. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ruft den nächsten Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ruft den vorherigen Knoten gemäß dem Traversalalgorithmus des Vorbestellungsbaums ab. |
+| [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in einen String. |
 
 ### Bemerkungen
 
-Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a[`EditableRangeStart`](./editablerangestart) und ein passendes[`EditableRangeEnd`](../editablerangeend) mit der gleichen ID.
+Ein vollständig bearbeitbarer Bereich in einem Word-Dokument besteht aus a[`EditableRangeStart`](./editablerangestart/) und ein passendes[`EditableRangeEnd`](./editablerangeend/) mit der gleichen ID.
 
-[`EditableRangeStart`](./editablerangestart) und[`EditableRangeEnd`](../editablerangeend) sind nur Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
+[`EditableRangeStart`](./editablerangestart/) und[`EditableRangeEnd`](./editablerangeend/) sind nur Markierungen innerhalb eines document , die angeben, wo der bearbeitbare Bereich beginnt und endet.
 
-Verwenden Sie die[`EditableRange`](../editablerange)Klasse als "Fassade", um mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
+Verwenden Sie die[`EditableRange`](../editablerange/)Klasse als "Fassade", um mit einem bearbeitbaren Bereich als einzelnes Objekt zu arbeiten.
 
-Derzeit bearbeitbare Bereiche werden nur auf der Inline-Ebene unterstützt, also innerhalb[`Paragraph`](../paragraph), aber bearbeitbarer Bereichsanfang und bearbeitbares Bereichsende können sich in unterschiedlichen Absätzen befinden.
+Derzeit bearbeitbare Bereiche werden nur auf der Inline-Ebene unterstützt, also innerhalb[`Paragraph`](../paragraph/), aber bearbeitbarer Bereichsanfang und bearbeitbares Bereichsende können sich in unterschiedlichen Absätzen befinden.
 
 ### Beispiele
 
@@ -164,8 +164,8 @@ public class EditableRangePrinter : DocumentVisitor
 
 ### Siehe auch
 
-* class [Node](../node)
-* namensraum [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

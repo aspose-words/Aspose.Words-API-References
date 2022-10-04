@@ -1,14 +1,14 @@
 ---
 title: OfficeMathRenderer
 second_title: Aspose.Words for .NET API Referansı
-description: Bir bireyi işlemek için yöntemler sağlarOfficeMath../aspose.words.math/officemath bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+description: Bir bireyi işlemek için yöntemler sağlarOfficeMath../aspose.words.math/officemath/ bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
 type: docs
 weight: 4300
 url: /tr/net/aspose.words.rendering/officemathrenderer/
 ---
 ## OfficeMathRenderer class
 
-Bir bireyi işlemek için yöntemler sağlar[`OfficeMath`](../../aspose.words.math/officemath) bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
+Bir bireyi işlemek için yöntemler sağlar[`OfficeMath`](../../aspose.words.math/officemath/) bir raster veya vektör görüntüsüne veya bir Graphics nesnesine.
 
 ```csharp
 public class OfficeMathRenderer : NodeRendererBase
@@ -18,30 +18,30 @@ public class OfficeMathRenderer : NodeRendererBase
 
 | İsim | Tanım |
 | --- | --- |
-| [OfficeMathRenderer](officemathrenderer)(OfficeMath) | Bu sınıfın yeni bir örneğini başlatır. |
+| [OfficeMathRenderer](officemathrenderer/)(OfficeMath) | Bu sınıfın yeni bir örneğini başlatır. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | Şeklin gerçek sınırlarını nokta olarak alır. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | Şeklin opak sınırlarını nokta olarak alır. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | Şeklin gerçek boyutunu nokta olarak alır. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Şeklin gerçek sınırlarını nokta olarak alır. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Şeklin opak sınırlarını nokta olarak alır. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Şeklin gerçek boyutunu nokta olarak alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin sınırlarını piksel cinsinden hesaplar. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin sınırlarını piksel cinsinden hesaplar. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Şekli birGraphics belirli bir ölçeğe nesne. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Şekli birGraphics belirli bir boyuta nesne. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(Stream, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir akışa kaydeder. |
-| [Save](../../aspose.words.rendering/noderendererbase/save)(string, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir dosyaya kaydeder. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin sınırlarını piksel cinsinden hesaplar. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin sınırlarını piksel cinsinden hesaplar. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin opak sınırlarını piksel cinsinden hesaplar. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(float, float, float) | Belirtilen yakınlaştırma faktörü ve çözünürlük için şeklin boyutunu piksel cinsinden hesaplar. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Şekli birGraphics belirli bir ölçeğe nesne. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Şekli birGraphics belirli bir boyuta nesne. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(Stream, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir akışa kaydeder. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(string, ImageSaveOptions) | Şekli bir görüntüye dönüştürür ve bir dosyaya kaydeder. |
 
 ### Örnekler
 
@@ -89,8 +89,8 @@ Assert.AreEqual(30, bounds.Height);
 
 ### Ayrıca bakınız
 
-* class [NodeRendererBase](../noderendererbase)
-* ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering)
+* class [NodeRendererBase](../noderendererbase/)
+* ad alanı [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

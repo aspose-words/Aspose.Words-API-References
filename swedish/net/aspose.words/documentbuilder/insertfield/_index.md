@@ -1,7 +1,7 @@
 ---
 title: InsertField
 second_title: Aspose.Words för .NET API Referens
-description: Infogar ett Word-fält i ett dokument och uppdaterar eventuellt fältresultatet.
+description: Infogar ett Wordfält i ett dokument och uppdaterar eventuellt fältresultatet.
 type: docs
 weight: 300
 url: /sv/net/aspose.words/documentbuilder/insertfield/
@@ -21,11 +21,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field) objekt som representerar det infogade fältet.
+A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ### Anmärkningar
 
-Denna metod infogar ett fält i ett dokument. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](../insertfield) överbelastning.
+Denna metod infogar ett fält i ett dokument. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](./insertfield/) överbelastning.
 
 ### Exempel
 
@@ -71,10 +71,10 @@ else
 
 ### Se även
 
-* class [Field](../../../aspose.words.fields/field)
-* enum [FieldType](../../../aspose.words.fields/fieldtype)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -93,11 +93,11 @@ public Field InsertField(string fieldCode)
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field) objekt som representerar det infogade fältet.
+A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ### Anmärkningar
 
-Denna metod infogar ett fält i ett dokument och uppdaterar fältresultatet omedelbart. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](../insertfield) överbelastning.
+Denna metod infogar ett fält i ett dokument och uppdaterar fältresultatet omedelbart. Aspose.Words kan uppdatera fält av de flesta typer, men inte alla. För mer information se the [`InsertField`](./insertfield/) överbelastning.
 
 ### Exempel
 
@@ -142,9 +142,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ### Se även
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -164,7 +164,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field) objekt som representerar det infogade fältet.
+A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ### Anmärkningar
 
@@ -174,7 +174,7 @@ Du kan växla mellan att visa fältkoder och resultat i ditt dokument i Microsof
 
 För att skapa ett fält måste du ange en fälttyp, fältkod och ett "platshållare"-fältvärde. Om du inte är säker på en viss fältkodssyntax, skapa fältet i Microsoft Word first och växla för att se dess fältkod .
 
-Aspose.Words kan beräkna fältresultat för de flesta fälttyper, men denna metod uppdaterar inte fältresultatet automatiskt. Eftersom fältresultatet inte beräknas automatiskt, förväntas du skicka något strängvärde (eller till och med en tom sträng) som kommer att infogas i fältresultatet. Detta värde kommer att finnas kvar i fältresultatet som en platshållare tills fältet är updated. För att uppdatera fältresultatet kan du ringa[`Update`](../../../aspose.words.fields/field/update)på fältobjektet returned till dig eller[`UpdateFields`](../../document/updatefields) för att uppdatera fält i hela dokumentet.
+Aspose.Words kan beräkna fältresultat för de flesta fälttyper, men denna metod uppdaterar inte fältresultatet automatiskt. Eftersom fältresultatet inte beräknas automatiskt, förväntas du skicka något strängvärde (eller till och med en tom sträng) som kommer att infogas i fältresultatet. Detta värde kommer att finnas kvar i fältresultatet som en platshållare tills fältet är updated. För att uppdatera fältresultatet kan du ringa[`Update`](../../../aspose.words.fields/field/update/)på fältobjektet returned till dig eller[`UpdateFields`](../../document/updatefields/) för att uppdatera fält i hela dokumentet.
 
 ### Exempel
 
@@ -232,9 +232,9 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 ### Se även
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* namnutrymme [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* namnutrymme [Aspose.Words](../../documentbuilder/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,30 +18,30 @@ public class TextPath
 
 | Имя | Описание |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Истинно, если шрифт отформатирован как полужирный. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Определяет, соответствует ли текст контуру фигуры. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Определяет, соответствует ли текст ограничивающей рамке фигуры. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Определяет семейство шрифтов textpath. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Истинно, если шрифт отформатирован как курсив. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Определяет, включен ли кернинг. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Определяет, будет ли отображаться текст. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Определяет, является ли порядок расположения строк обратным. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Определяет, повернуты ли буквы текста. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Определяет, будут ли все буквы одинаковой высоты независимо от начального регистра. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Определяет, применяется ли тень к тексту на текстовом пути. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Определяет размер шрифта в пунктах. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Истинно, если шрифт отформатирован как маленькие заглавные буквы. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Определяет расстояние между текстом. 1 означает 100%. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Истинно, если шрифт отформатирован как зачеркнутый текст. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Определяет текст текстового пути. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Определяет выравнивание текста. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Определяет, удаляется ли лишнее пространство над и под текстом. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Истинно, если шрифт подчеркнут. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Определяет, будет ли использоваться прямой текстовый путь вместо контура формы. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Истинно, если шрифт отформатирован как полужирный. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Определяет, соответствует ли текст контуру фигуры. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Определяет, соответствует ли текст ограничивающей рамке фигуры. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Определяет семейство шрифтов textpath. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Истинно, если шрифт отформатирован как курсив. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Определяет, включен ли кернинг. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Определяет, будет ли отображаться текст. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Определяет, является ли порядок расположения строк обратным. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Определяет, повернуты ли буквы текста. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Определяет, будут ли все буквы одинаковой высоты независимо от начального регистра. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Определяет, применяется ли тень к тексту на текстовом пути. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Определяет размер шрифта в пунктах. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Истинно, если шрифт отформатирован как маленькие заглавные буквы. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Определяет расстояние между текстом. 1 означает 100%. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Истинно, если шрифт отформатирован как зачеркнутый текст. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Определяет текст текстового пути. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Определяет выравнивание текста. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Определяет, удаляется ли лишнее пространство над и под текстом. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Истинно, если шрифт подчеркнут. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Определяет, будет ли использоваться прямой текстовый путь вместо контура формы. |
 
 ### Примечания
 
-Использовать[`TextPath`](../shape/textpath) для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры[`TextPath`](../textpath) класс напрямую.
+Использовать[`TextPath`](../shape/textpath/) для доступа к свойствам WordArt фигуры. Вы не создаете экземпляры[`TextPath`](./textpath/) класс напрямую.
 
 ### Примеры
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing)
+* пространство имен [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

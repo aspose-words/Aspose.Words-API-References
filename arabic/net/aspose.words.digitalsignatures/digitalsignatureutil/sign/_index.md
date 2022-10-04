@@ -1,14 +1,14 @@
 ---
 title: Sign
 second_title: Aspose.Words لمراجع .NET API
-description: يوقع المستند المصدر باستخدام معينCertificateHolderaspose.words.digitalsignatures/certificateholder وSignOptionsaspose.words.digitalsignatures/signoptions بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
+description: يوقع المستند المصدر باستخدام معينCertificateHolderaspose.words.digitalsignatures/certificateholder/ وSignOptionsaspose.words.digitalsignatures/signoptions/ بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 ## Sign(Stream, Stream, CertificateHolder, SignOptions) {#sign_1}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder) و[`SignOptions`](../../signoptions) بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) بالتوقيع الرقمي ويكتب المستند الموقع إلى تيار الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 
@@ -23,8 +23,8 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | الدفق الذي يحتوي على الوثيقة للتوقيع. |
 | dstStream | Stream | الدفق الذي ستتم كتابة المستند الموقع عليه. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) مع خيارات توقيع متنوعة. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) مع خيارات توقيع متنوعة. |
 
 ### أمثلة
 
@@ -54,17 +54,17 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ### أنظر أيضا
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder, SignOptions) {#sign_3}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder) و[`SignOptions`](../../signoptions) بالتوقيع الرقمي ويكتب المستند الموقع إلى ملف الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) و[`SignOptions`](../../signoptions/) بالتوقيع الرقمي ويكتب المستند الموقع إلى ملف الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 
@@ -77,8 +77,8 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | اسم ملف المستند المراد توقيعه. |
 | dstFileName | String | اسم ملف إخراج المستند الموقع. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
-| signOptions | SignOptions | [`SignOptions`](../../signoptions) مع خيارات توقيع متنوعة. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| signOptions | SignOptions | [`SignOptions`](../../signoptions/) مع خيارات توقيع متنوعة. |
 
 ### أمثلة
 
@@ -194,17 +194,17 @@ public static void Sign()
 
 ### أنظر أيضا
 
-* class [CertificateHolder](../../certificateholder)
-* class [SignOptions](../../signoptions)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [SignOptions](../../signoptions/)
+* class [DigitalSignatureUtil](../)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Sign(Stream, Stream, CertificateHolder) {#sign}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder)مع التوقيع الرقمي_ ويكتب المستند الموقع إلى تيار الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/)مع التوقيع الرقمي_ ويكتب المستند الموقع إلى تيار الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 
@@ -218,7 +218,7 @@ public static void Sign(Stream srcStream, Stream dstStream, CertificateHolder ce
 | --- | --- | --- |
 | srcStream | Stream | الدفق الذي يحتوي على الوثيقة للتوقيع. |
 | dstStream | Stream | الدفق الذي ستتم كتابة المستند الموقع عليه. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
 
 ### أمثلة
 
@@ -262,16 +262,16 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### أنظر أيضا
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Sign(string, string, CertificateHolder) {#sign_2}
 
-يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder) مع التوقيع الرقمي_ وكتابة المستند الموقع إلى الملف الوجهة.
+يوقع المستند المصدر باستخدام معين[`CertificateHolder`](../../certificateholder/) مع التوقيع الرقمي_ وكتابة المستند الموقع إلى الملف الوجهة.
 
 يجب أن يكون المستند إماDoc أوDocx.
 
@@ -283,7 +283,7 @@ public static void Sign(string srcFileName, string dstFileName, CertificateHolde
 | --- | --- | --- |
 | srcFileName | String | اسم ملف المستند المراد توقيعه. |
 | dstFileName | String | اسم ملف إخراج المستند الموقع. |
-| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
+| certHolder | CertificateHolder | [`CertificateHolder`](../../certificateholder/) بشهادة تستخدم لتوقيع الملف. يجب أن تحتوي الشهادة الموجودة في الحامل على مفاتيح خاصة وأن تحتوي على مجموعة العلامات X509KeyStorageFlags.Exportable. |
 
 ### أمثلة
 
@@ -327,9 +327,9 @@ Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
 
 ### أنظر أيضا
 
-* class [CertificateHolder](../../certificateholder)
-* class [DigitalSignatureUtil](../../digitalsignatureutil)
-* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil)
+* class [CertificateHolder](../../certificateholder/)
+* class [DigitalSignatureUtil](../)
+* مساحة الاسم [Aspose.Words.DigitalSignatures](../../digitalsignatureutil/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

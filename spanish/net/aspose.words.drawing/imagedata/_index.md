@@ -18,47 +18,47 @@ public class ImageData
 
 | Nombre | Descripción |
 | --- | --- |
-| [BiLevel](../../aspose.words.drawing/imagedata/bilevel) { get; set; } | Determina si una imagen se mostrará en blanco y negro. |
-| [Borders](../../aspose.words.drawing/imagedata/borders) { get; } | Obtiene la colección de bordes de la imagen. Los bordes solo tienen efecto para las imágenes en línea. |
-| [Brightness](../../aspose.words.drawing/imagedata/brightness) { get; set; } | Obtiene o establece el brillo de la imagen. El valor de esta propiedad debe ser un número de 0,0 (más tenue) a 1,0 (más brillante). |
-| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey) { get; set; } | Define el valor de color de la imagen que será tratada como transparente. |
-| [Contrast](../../aspose.words.drawing/imagedata/contrast) { get; set; } | Obtiene o establece el contraste de la imagen especificada. El valor para esta propiedad debe ser un número de 0,0 (el menor contraste) a 1,0 (el mayor contraste). |
-| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom) { get; set; } | Define la fracción de eliminación de la imagen desde el lado inferior. |
-| [CropLeft](../../aspose.words.drawing/imagedata/cropleft) { get; set; } | Define la fracción de eliminación de imágenes del lado izquierdo. |
-| [CropRight](../../aspose.words.drawing/imagedata/cropright) { get; set; } | Define la fracción de eliminación de imágenes del lado derecho. |
-| [CropTop](../../aspose.words.drawing/imagedata/croptop) { get; set; } | Define la fracción de eliminación de la imagen desde el lado superior. |
-| [GrayScale](../../aspose.words.drawing/imagedata/grayscale) { get; set; } | Determina si una imagen se mostrará en modo de escala de grises. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage) { get; } | Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen. |
-| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes) { get; set; } | Obtiene o establece los bytes sin procesar de la imagen almacenada en la forma. |
-| [ImageSize](../../aspose.words.drawing/imagedata/imagesize) { get; } | Obtiene la información sobre el tamaño y la resolución de la imagen. |
-| [ImageType](../../aspose.words.drawing/imagedata/imagetype) { get; } | Obtiene el tipo de imagen. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink) { get; } | Devuelve verdadero si la imagen está vinculada a la forma (cuando[`SourceFullName`](./sourcefullname) se especifica). |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly) { get; } | Devuelve verdadero si la imagen está vinculada y no está almacenada en el documento. |
-| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname) { get; set; } | Obtiene o establece la ruta y el nombre del archivo de origen de la imagen vinculada. |
-| [Title](../../aspose.words.drawing/imagedata/title) { get; set; } | Define el título de una imagen. |
+| [BiLevel](../../aspose.words.drawing/imagedata/bilevel/) { get; set; } | Determina si una imagen se mostrará en blanco y negro. |
+| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | Obtiene la colección de bordes de la imagen. Los bordes solo tienen efecto para las imágenes en línea. |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | Obtiene o establece el brillo de la imagen. El valor de esta propiedad debe ser un número de 0,0 (más tenue) a 1,0 (más brillante). |
+| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey/) { get; set; } | Define el valor de color de la imagen que será tratada como transparente. |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | Obtiene o establece el contraste de la imagen especificada. El valor para esta propiedad debe ser un número de 0,0 (el menor contraste) a 1,0 (el mayor contraste). |
+| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom/) { get; set; } | Define la fracción de eliminación de la imagen desde el lado inferior. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | Define la fracción de eliminación de imágenes del lado izquierdo. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Define la fracción de eliminación de imágenes del lado derecho. |
+| [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Define la fracción de eliminación de la imagen desde el lado superior. |
+| [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Determina si una imagen se mostrará en modo de escala de grises. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Devuelve verdadero si la forma tiene bytes de imagen o vincula una imagen. |
+| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | Obtiene o establece los bytes sin procesar de la imagen almacenada en la forma. |
+| [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | Obtiene la información sobre el tamaño y la resolución de la imagen. |
+| [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | Obtiene el tipo de imagen. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Devuelve verdadero si la imagen está vinculada a la forma (cuando[`SourceFullName`](./sourcefullname/) se especifica). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Devuelve verdadero si la imagen está vinculada y no está almacenada en el documento. |
+| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | Obtiene o establece la ruta y el nombre del archivo de origen de la imagen vinculada. |
+| [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | Define el título de una imagen. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Save](../../aspose.words.drawing/imagedata/save#save)(Stream) | Guarda la imagen en el flujo especificado. |
-| [Save](../../aspose.words.drawing/imagedata/save#save_1)(string) | Guarda la imagen en un archivo. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage)(Image) | Establece la imagen que muestra la forma. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_1)(Stream) | Establece la imagen que muestra la forma. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_2)(string) | Establece la imagen que muestra la forma. |
-| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | Devuelve bytes de imagen para cualquier imagen, independientemente de si la imagen está almacenada o vinculada. |
-| [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Obtiene la imagen almacenada en la forma como unImage objeto. |
-| [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Crea y devuelve un flujo que contiene los bytes de la imagen. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Guarda la imagen en el flujo especificado. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Guarda la imagen en un archivo. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Establece la imagen que muestra la forma. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Establece la imagen que muestra la forma. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Establece la imagen que muestra la forma. |
+| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Devuelve bytes de imagen para cualquier imagen, independientemente de si la imagen está almacenada o vinculada. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Obtiene la imagen almacenada en la forma como unImage objeto. |
+| [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Crea y devuelve un flujo que contiene los bytes de la imagen. |
 
 ### Observaciones
 
-Utilizar el[`ImageData`](../shape/imagedata) propiedad para acceder y modificar la imagen dentro de una forma. No crea instancias de la[`ImageData`](../imagedata) clase directamente.
+Utilizar el[`ImageData`](../shape/imagedata/) propiedad para acceder y modificar la imagen dentro de una forma. No crea instancias de la[`ImageData`](./imagedata/) clase directamente.
 
 Una imagen puede almacenarse dentro de una forma, vincularse a un archivo externo o ambos (vincularse y almacenarse en el documento).
 
-Independientemente de si la imagen está almacenada dentro de la forma o vinculada, siempre puede acceder a la imagen actual usando el[`ToByteArray`](./tobytearray) ,[`ToStream`](./tostream) ,[`ToImage`](./toimage) o[`Save`](./save) métodos. Si la imagen está almacenada dentro de la forma, también puede acceder a ella directamente usando el[`ImageBytes`](./imagebytes) propiedad.
+Independientemente de si la imagen está almacenada dentro de la forma o vinculada, siempre puede acceder a la imagen actual usando el[`ToByteArray`](./tobytearray/) ,[`ToStream`](./tostream/) ,[`ToImage`](./toimage/) o[`Save`](./save/) métodos. Si la imagen está almacenada dentro de la forma, también puede acceder a ella directamente usando el[`ImageBytes`](./imagebytes/) propiedad.
 
-Para almacenar una imagen dentro de una forma, use el[`SetImage`](./setimage) método. Para vincular una imagen a una forma, establezca el[`SourceFullName`](./sourcefullname) propiedad.
+Para almacenar una imagen dentro de una forma, use el[`SetImage`](./setimage/) método. Para vincular una imagen a una forma, establezca el[`SourceFullName`](./sourcefullname/) propiedad.
 
 ### Ejemplos
 
@@ -127,7 +127,7 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing)
+* espacio de nombres [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

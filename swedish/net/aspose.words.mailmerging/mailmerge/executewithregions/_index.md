@@ -1,7 +1,7 @@
 ---
 title: ExecuteWithRegions
 second_title: Aspose.Words för .NET API Referens
-description: Utför en koppling av e-post från en anpassad datakälla med kopplingsregioner.
+description: Utför en koppling av epost från en anpassad datakälla med kopplingsregioner.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.mailmerging/mailmerge/executewithregions/
@@ -20,9 +20,9 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 ### Anmärkningar
 
-Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource) gränssnitt.
+Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva din egen klass som implementerar[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
-Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
+Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
 ### Exempel
 
@@ -269,9 +269,9 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ### Se även
 
-* interface [IMailMergeDataSource](../../imailmergedatasource)
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSource](../../imailmergedatasource/)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -290,9 +290,9 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 ### Anmärkningar
 
-Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva dina egna classes som implementerar[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot) och[`IMailMergeDataSource`](../../imailmergedatasource) gränssnitt.
+Använd den här metoden för att fylla sammankopplingsfält i dokumentet med värden from alla anpassade datakällor som en XML-fil eller samlingar av affärsobjekt. Du måste skriva dina egna classes som implementerar[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) och[`IMailMergeDataSource`](../../imailmergedatasource/) gränssnitt.
 
-Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
+Du kan bara använda den här metoden när[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)är falsk, det vill säga att du inte behöver höger-till-vänster-språk (som arabiska eller hebreiska) kompatibilitet.
 
 ### Exempel
 
@@ -476,9 +476,9 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ### Se även
 
-* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot)
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -603,8 +603,8 @@ private static DataSet CreateDataSet()
 
 ### Se även
 
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -760,8 +760,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Se även
 
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -841,8 +841,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Se även
 
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 ---
@@ -911,8 +911,8 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 ### Se även
 
-* class [MailMerge](../../mailmerge)
-* namnutrymme [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* namnutrymme [Aspose.Words.MailMerging](../../mailmerge/)
 * hopsättning [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

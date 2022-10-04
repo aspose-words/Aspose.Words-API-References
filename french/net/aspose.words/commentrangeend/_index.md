@@ -18,42 +18,42 @@ public sealed class CommentRangeEnd : Node
 
 | Nom | La description |
 | --- | --- |
-| [CommentRangeEnd](commentrangeend)(DocumentBase, int) | Initialise une nouvelle instance de cette classe. |
+| [CommentRangeEnd](commentrangeend/)(DocumentBase, int) | Initialise une nouvelle instance de cette classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtient le document auquel ce nœud appartient. |
-| [Id](../../aspose.words/commentrangeend/id) { get; set; } | Spécifie l'identifiant du commentaire auquel cette région est liée. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
-| override [NodeType](../../aspose.words/commentrangeend/nodetype) { get; } | RetoursCommentRangeEnd . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtient le parent immédiat de ce nœud. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
+| [Id](../../aspose.words/commentrangeend/id/) { get; set; } | Spécifie l'identifiant du commentaire auquel cette région est liée. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
+| override [NodeType](../../aspose.words/commentrangeend/nodetype/) { get; } | RetoursCommentRangeEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangeend/accept)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crée un doublon du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Obtient le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
-| [Remove](../../aspose.words/node/remove)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| override [Accept](../../aspose.words/commentrangeend/accept/)(DocumentVisitor) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
 
 ### Remarques
 
-Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment) and puis créer[`CommentRangeStart`](../commentrangestart) et[`CommentRangeEnd`](../commentrangeend)et définissez leurs identifiants sur le même[`Id`](../comment/id) évaluer.
+Pour créer un commentaire ancré à une zone de texte, vous devez créer un[`Comment`](../comment/) and puis créer[`CommentRangeStart`](../commentrangestart/) et[`CommentRangeEnd`](./commentrangeend/)et définissez leurs identifiants sur le même[`Id`](../comment/id/) évaluer.
 
-[`CommentRangeEnd`](../commentrangeend) est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph).
+[`CommentRangeEnd`](./commentrangeend/) est un nœud de niveau en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
 ### Exemples
 
@@ -215,8 +215,8 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ### Voir également
 
-* class [Node](../node)
-* espace de noms [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

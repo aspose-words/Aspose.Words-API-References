@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
 | Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
 ### Örnekler
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Ayrıca bakınız
 
-* class [PlainTextDocument](../../plaintextdocument)
-* ad alanı [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* ad alanı [Aspose.Words](../../plaintextdocument/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
 | Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
 | ArgumentException | Dosyanın adı boş veya boş dize olamaz. |
 
 ### Örnekler
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* ad alanı [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* ad alanı [Aspose.Words](../../plaintextdocument/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
 | Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, elden çıkarılan bir nesnedir. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Ayrıca bakınız
 
-* class [PlainTextDocument](../../plaintextdocument)
-* ad alanı [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* ad alanı [Aspose.Words](../../plaintextdocument/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | istisna | şart |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Belge biçimi tanınmıyor veya desteklenmiyor. |
-| [FileCorruptedException](../../filecorruptedexception) | Belge bozuk görünüyor ve yüklenemiyor. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Belge biçimi tanınmıyor veya desteklenmiyor. |
+| [FileCorruptedException](../../filecorruptedexception/) | Belge bozuk görünüyor ve yüklenemiyor. |
 | Exception | Belgeyle ilgili bir sorun var ve Aspose.Words geliştiricilerine bildirilmelidir. |
 | IOException | Bir giriş/çıkış istisnası var. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Belge şifreli ve açmak için bir parola gerektiriyor, ancak yanlış bir parola girdiniz. |
 | ArgumentNullException | Akış boş olamaz. |
 | NotSupportedException | Akış, okumayı veya aramayı desteklemiyor. |
 | ObjectDisposedException | Akış, elden çıkarılan bir nesnedir. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Ayrıca bakınız
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* ad alanı [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* ad alanı [Aspose.Words](../../plaintextdocument/)
 * toplantı [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

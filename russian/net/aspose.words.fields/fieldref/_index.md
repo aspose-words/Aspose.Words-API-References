@@ -18,42 +18,42 @@ public class FieldRef : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldRef](fieldref)() | Конструктор по умолчанию. |
+| [FieldRef](fieldref/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname) { get; set; } | Получает или задает имя закладки, на которую указывает ссылка. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment) { get; set; } | Получает или задает, нужно ли увеличивать номера сносок, концевых сносок и аннотаций, которые помечены закладкой, и вставлять соответствующие сноски, концевые сноски и текст комментариев. |
-| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink) { get; set; } | Получает или задает, следует ли создавать гиперссылку на отмеченный закладкой абзац. |
-| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, точно так, как он отображается в документе. |
-| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, в полном контексте. |
-| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, в относительном контексте. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition) { get; set; } | Получает или задает, следует ли вставлять относительное положение абзаца, на который делается ссылка. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters) { get; set; } | Получает или задает, следует ли подавлять символы, не являющиеся разделителями. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
+| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname/) { get; set; } | Получает или задает имя закладки, на которую указывает ссылка. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment/) { get; set; } | Получает или задает, нужно ли увеличивать номера сносок, концевых сносок и аннотаций, которые помечены закладкой, и вставлять соответствующие сноски, концевые сноски и текст комментариев. |
+| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink/) { get; set; } | Получает или задает, следует ли создавать гиперссылку на отмеченный закладкой абзац. |
+| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber/) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, точно так, как он отображается в документе. |
+| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, в полном контексте. |
+| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/) { get; set; } | Получает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, в относительном контексте. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition/) { get; set; } | Получает или задает, следует ли вставлять относительное положение абзаца, на который делается ссылка. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters/) { get; set; } | Получает или задает, следует ли подавлять символы, не являющиеся разделителями. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
@@ -173,8 +173,8 @@ private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkN
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

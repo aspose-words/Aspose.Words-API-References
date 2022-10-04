@@ -1,14 +1,14 @@
 ---
 title: NodeRendererBase
 second_title: Справочник по API Aspose.Words для .NET
-description: Базовый класс дляShapeRenderer./shaperenderer а такжеOfficeMathRenderer./officemathrenderer .
+description: Базовый класс дляShapeRenderer./shaperenderer/ а такжеOfficeMathRenderer./officemathrenderer/ .
 type: docs
 weight: 4290
 url: /ru/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
-Базовый класс для[`ShapeRenderer`](../shaperenderer) а также[`OfficeMathRenderer`](../officemathrenderer) .
+Базовый класс для[`ShapeRenderer`](../shaperenderer/) а также[`OfficeMathRenderer`](../officemathrenderer/) .
 
 ```csharp
 public abstract class NodeRendererBase
@@ -18,24 +18,24 @@ public abstract class NodeRendererBase
 
 | Имя | Описание |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints) { get; } | Получает фактические границы фигуры в точках. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints) { get; } | Получает непрозрачные границы фигуры в точках. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints) { get; } | Получает фактический размер фигуры в точках. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Получает фактические границы фигуры в точках. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Получает непрозрачные границы фигуры в точках. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Получает фактический размер фигуры в точках. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels)(float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels#getboundsinpixels_1)(float, float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels)(float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels#getopaqueboundsinpixels_1)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels#getsizeinpixels_1)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#save)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
-| [Save](../../aspose.words.rendering/noderendererbase/save#save_1)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels)(float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/#getboundsinpixels_1)(float, float, float) | Вычисляет границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels)(float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/#getopaqueboundsinpixels_1)(float, float, float) | Вычисляет непрозрачные границы фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels)(float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/#getsizeinpixels_1)(float, float, float) | Вычисляет размер фигуры в пикселях для указанного коэффициента масштабирования и разрешения. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(Graphics, float, float, float) | Преобразует форму вGraphics объект в указанном масштабе. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(Graphics, float, float, float, float) | Преобразует форму вGraphics объекта указанного размера. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save)(Stream, ImageSaveOptions) | Преобразует форму в изображение и сохраняет в поток. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(string, ImageSaveOptions) | Преобразует фигуру в изображение и сохраняет в файл. |
 
 ### Примеры
 
@@ -83,7 +83,7 @@ Assert.AreEqual(30, bounds.Height);
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering)
+* пространство имен [Aspose.Words.Rendering](../../aspose.words.rendering/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

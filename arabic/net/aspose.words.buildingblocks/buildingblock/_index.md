@@ -18,70 +18,70 @@ public class BuildingBlock : CompositeNode
 
 | اسم | وصف |
 | --- | --- |
-| [BuildingBlock](buildingblock)(GlossaryDocument) | تهيئة مثيل جديد لهذه الفئة. |
+| [BuildingBlock](buildingblock/)(GlossaryDocument) | تهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior) { get; set; } | يحدد السلوك الذي يجب تطبيقه عند إدراج محتويات block في المستند الرئيسي. |
-| [Category](../../aspose.words.buildingblocks/buildingblock/category) { get; set; } | يحدد تصنيف المستوى الثاني للكتلة البرمجية الإنشائية. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
-| [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
-| [Description](../../aspose.words.buildingblocks/buildingblock/description) { get; set; } | الحصول على الوصف المرتبط بهذه الكتلة البرمجية الإنشائية أو تعيينه. |
-| virtual [Document](../../aspose.words/node/document) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
-| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection) { get; } | يحصل على القسم الأول في الكتلة البرمجية الإنشائية . |
-| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery) { get; set; } | يحدد تصنيف المستوى الأول للكتلة البرمجية الإنشائية لأغراض تصنيف أو فرز واجهة المستخدم . |
-| [Guid](../../aspose.words.buildingblocks/buildingblock/guid) { get; set; } | الحصول على أو تعيين معرّف (128 بت GUID) يعرّف بشكل فريد كتلة الإنشاء هذه. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
-| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection) { get; } | يحصل على القسم الأخير في الكتلة البرمجية الإنشائية . |
-| [Name](../../aspose.words.buildingblocks/buildingblock/name) { get; set; } | الحصول على اسم الكتلة البرمجية الإنشائية هذه أو تعيينه. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype) { get; } | إرجاع ملفBuildingBlock القيمة . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
-| [Sections](../../aspose.words.buildingblocks/buildingblock/sections) { get; } | إرجاع مجموعة تمثل كافة الأقسام في الكتلة البرمجية الإنشائية. |
-| [Type](../../aspose.words.buildingblocks/buildingblock/type) { get; set; } | يحدد نوع الكتلة البرمجية الإنشائية . |
+| [Behavior](../../aspose.words.buildingblocks/buildingblock/behavior/) { get; set; } | يحدد السلوك الذي يجب تطبيقه عند إدراج محتويات block في المستند الرئيسي. |
+| [Category](../../aspose.words.buildingblocks/buildingblock/category/) { get; set; } | يحدد تصنيف المستوى الثاني للكتلة البرمجية الإنشائية. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
+| [Description](../../aspose.words.buildingblocks/buildingblock/description/) { get; set; } | الحصول على الوصف المرتبط بهذه الكتلة البرمجية الإنشائية أو تعيينه. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | الحصول على المستند الذي تنتمي إليه هذه العقدة . |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | الحصول على الطفل الأول للعقدة . |
+| [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | يحصل على القسم الأول في الكتلة البرمجية الإنشائية . |
+| [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | يحدد تصنيف المستوى الأول للكتلة البرمجية الإنشائية لأغراض تصنيف أو فرز واجهة المستخدم . |
+| [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | الحصول على أو تعيين معرّف (128 بت GUID) يعرّف بشكل فريد كتلة الإنشاء هذه. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | الحصول على آخر تابع للعقدة . |
+| [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | يحصل على القسم الأخير في الكتلة البرمجية الإنشائية . |
+| [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | الحصول على اسم الكتلة البرمجية الإنشائية هذه أو تعيينه. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
+| override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | إرجاع ملفBuildingBlock القيمة . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | إرجاع مجموعة تمثل كافة الأقسام في الكتلة البرمجية الإنشائية. |
+| [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | يحدد نوع الكتلة البرمجية الإنشائية . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept)(DocumentVisitor) | يقبل الزائر . |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
-| [Clone](../../aspose.words/node/clone)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | محجوز لاستخدام النظام. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
-| override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [Remove](../../aspose.words/node/remove)() | يزيل نفسه من الأصل. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | يزيل كافة العقد التابعة للعقدة الحالية. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | يزيل العقدة الفرعية المحددة . |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag) العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| override [Accept](../../aspose.words.buildingblocks/buildingblock/accept/)(DocumentVisitor) | يقبل الزائر . |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
+| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | محجوز لاستخدام النظام. IXPathNavigable. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | يزيل كافة العقد التابعة للعقدة الحالية. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | يزيل العقدة الفرعية المحددة . |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/) العقد التابعة للعقدة الحالية. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
-[`BuildingBlock`](../buildingblock) يمكن أن تحتوي فقط[`Section`](../../aspose.words/section) العقد.
+[`BuildingBlock`](./buildingblock/) يمكن أن تحتوي فقط[`Section`](../../aspose.words/section/) العقد.
 
-[`BuildingBlock`](../buildingblock) يمكن أن يكون فقط تابعًا لـ[`GlossaryDocument`](../glossarydocument).
+[`BuildingBlock`](./buildingblock/) يمكن أن يكون فقط تابعًا لـ[`GlossaryDocument`](../glossarydocument/).
 
 يمكنك إنشاء كتل إنشاء جديدة وإدراجها في مستند قاموس المصطلحات . يمكنك تعديل أو حذف الكتل البرمجية الإنشائية الموجودة. يمكنك نسخ أو نقل الكتل البرمجية الإنشائية بين المستندات. يمكنك إدراج محتوى الكتلة البرمجية الإنشائية في مستند.
 
@@ -184,8 +184,8 @@ public class BuildingBlockVisitor : DocumentVisitor
 
 ### أنظر أيضا
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

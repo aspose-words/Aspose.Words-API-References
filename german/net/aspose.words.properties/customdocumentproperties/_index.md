@@ -18,30 +18,30 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count) { get; } | Ruft die Anzahl der Elemente in der Sammlung ab. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Gibt a zurück[`DocumentProperty`](../documentproperty) Objekt nach Index. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item) { get; } | Gibt a zurück[`DocumentProperty`](../documentproperty) Objekt nach dem Namen der Eigenschaft. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Ruft die Anzahl der Elemente in der Sammlung ab. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Gibt a zurück[`DocumentProperty`](../documentproperty/) Objekt nach Index. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Gibt a zurück[`DocumentProperty`](../documentproperty/) Objekt nach dem Namen der Eigenschaft. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add)(string, bool) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Boolean** Datentyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_3)(string, DateTime) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.DateTime** Datentyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_1)(string, double) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Float** Datentyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_2)(string, int) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Number** Datentyp. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add#add_4)(string, string) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.String** Datentyp. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent)(string, string) | Erstellt eine neue, mit Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft. |
-| [Clear](../../aspose.words.properties/documentpropertycollection/clear)() | Entfernt alle Eigenschaften aus der Sammlung. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains)(string) | Gibt „true“ zurück, wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen. |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof)(string) | Ruft den Index einer Eigenschaft nach Namen ab. |
-| [Remove](../../aspose.words.properties/documentpropertycollection/remove)(string) | Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung. |
-| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat)(int) | Entfernt eine Eigenschaft am angegebenen Index. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(string, bool) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Boolean** Datentyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(string, DateTime) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.DateTime** Datentyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(string, double) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Float** Datentyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(string, int) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.Number** Datentyp. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(string, string) | Erstellt eine neue benutzerdefinierte Dokumenteigenschaft des **PropertyType.String** Datentyp. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(string, string) | Erstellt eine neue, mit Inhalt verknüpfte benutzerdefinierte Dokumenteigenschaft. |
+| [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Entfernt alle Eigenschaften aus der Sammlung. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Gibt „true“ zurück, wenn eine Eigenschaft mit dem angegebenen Namen in der Sammlung vorhanden ist. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle Elemente in der Sammlung zu durchlaufen. |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Ruft den Index einer Eigenschaft nach Namen ab. |
+| [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Entfernt eine Eigenschaft mit dem angegebenen Namen aus der Sammlung. |
+| [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(int) | Entfernt eine Eigenschaft am angegebenen Index. |
 
 ### Bemerkungen
 
-Jeder[`DocumentProperty`](../documentproperty) Objekt stellt eine benutzerdefinierte Eigenschaft eines Containerdokuments dar.
+Jeder[`DocumentProperty`](../documentproperty/) Objekt stellt eine benutzerdefinierte Eigenschaft eines Containerdokuments dar.
 
 Bei den Namen der Eigenschaften wird die Groß-/Kleinschreibung nicht beachtet.
 
@@ -71,11 +71,11 @@ foreach (var customDocumentProperty in doc.CustomDocumentProperties)
 
 ### Siehe auch
 
-* class [Document](../../aspose.words/document)
-* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties)
-* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties)
-* class [DocumentPropertyCollection](../documentpropertycollection)
-* namensraum [Aspose.Words.Properties](../../aspose.words.properties)
+* class [Document](../../aspose.words/document/)
+* property [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/)
+* property [CustomDocumentProperties](../../aspose.words/document/customdocumentproperties/)
+* class [DocumentPropertyCollection](../documentpropertycollection/)
+* namensraum [Aspose.Words.Properties](../../aspose.words.properties/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

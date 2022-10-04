@@ -18,44 +18,44 @@ public class FieldDde : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDde](fielddde)() | Default_Constructor |
+| [FieldDde](fielddde/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate) { get; set; } | يحصل أو يحدد ما إذا كان سيتم تحديث هذا الحقل تلقائيًا. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كصورة نقطية. |
-| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML. |
-| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كصورة. |
-| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق rich-text (RTF). |
-| [InsertAsText](../../aspose.words.fields/fielddde/insertastext) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نصي فقط. |
-| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كنص Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLinked](../../aspose.words.fields/fielddde/islinked) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [ProgId](../../aspose.words.fields/fielddde/progid) { get; set; } | الحصول على أو تحديد نوع التطبيق لمعلومات الارتباط. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname) { get; set; } | الحصول على أو تحديد اسم وموقع الملف المصدر. |
-| [SourceItem](../../aspose.words.fields/fielddde/sourceitem) { get; set; } | الحصول على جزء من الملف المصدر الذي يتم ربطه أو تعيينه. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم تحديث هذا الحقل تلقائيًا. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كصورة نقطية. |
+| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML. |
+| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كصورة. |
+| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق rich-text (RTF). |
+| [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نصي فقط. |
+| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إدراج الكائن المرتبط كنص Unicode. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | الحصول على أو تحديد نوع التطبيق لمعلومات الارتباط. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | الحصول على أو تحديد اسم وموقع الملف المصدر. |
+| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | الحصول على جزء من الملف المصدر الذي يتم ربطه أو تعيينه. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -241,8 +241,8 @@ public enum InsertLinkedObjectAs
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

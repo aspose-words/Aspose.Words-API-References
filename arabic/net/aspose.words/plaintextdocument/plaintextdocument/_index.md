@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
 ### أمثلة
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### أنظر أيضا
 
-* class [PlainTextDocument](../../plaintextdocument)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
 
 ### أمثلة
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### أنظر أيضا
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### أنظر أيضا
 
-* class [PlainTextDocument](../../plaintextdocument)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | تنسيق المستند غير معروف أو غير مدعوم. |
-| [FileCorruptedException](../../filecorruptedexception) | يبدو أن المستند تالف ولا يمكن تحميله. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | تنسيق المستند غير معروف أو غير مدعوم. |
+| [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
 | Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
 | IOException | هناك استثناء الإدخال / الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه ، لكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
 | NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
 | ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### أنظر أيضا
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* مساحة الاسم [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* مساحة الاسم [Aspose.Words](../../plaintextdocument/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

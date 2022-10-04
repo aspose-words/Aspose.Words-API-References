@@ -21,11 +21,11 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 ### Valore di ritorno
 
-UN[`Field`](../../../aspose.words.fields/field) oggetto che rappresenta il campo inserito.
+UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il campo inserito.
 
 ### Osservazioni
 
-Questo metodo inserisce un campo in un documento. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](../insertfield) sovraccarico.
+Questo metodo inserisce un campo in un documento. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](./insertfield/) sovraccarico.
 
 ### Esempi
 
@@ -71,10 +71,10 @@ else
 
 ### Guarda anche
 
-* class [Field](../../../aspose.words.fields/field)
-* enum [FieldType](../../../aspose.words.fields/fieldtype)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* enum [FieldType](../../../aspose.words.fields/fieldtype/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -93,11 +93,11 @@ public Field InsertField(string fieldCode)
 
 ### Valore di ritorno
 
-UN[`Field`](../../../aspose.words.fields/field) oggetto che rappresenta il campo inserito.
+UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il campo inserito.
 
 ### Osservazioni
 
-Questo metodo inserisce un campo in un documento e aggiorna immediatamente il risultato del campo. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](../insertfield) sovraccarico.
+Questo metodo inserisce un campo in un documento e aggiorna immediatamente il risultato del campo. Aspose.Words può aggiornare i campi della maggior parte dei tipi, ma non di tutti. Per maggiori dettagli vedere il [`InsertField`](./insertfield/) sovraccarico.
 
 ### Esempi
 
@@ -142,9 +142,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ### Guarda anche
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 ---
@@ -164,7 +164,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 ### Valore di ritorno
 
-UN[`Field`](../../../aspose.words.fields/field) oggetto che rappresenta il campo inserito.
+UN[`Field`](../../../aspose.words.fields/field/) oggetto che rappresenta il campo inserito.
 
 ### Osservazioni
 
@@ -174,7 +174,7 @@ I campi nei documenti di Microsoft Word sono costituiti da un codice campo e un 
 
 Per creare un campo, devi specificare un tipo di campo, un codice di campo e un valore di campo "segnaposto". Se non sei sicuro di una particolare sintassi del codice di campo, crea prima il campo in Microsoft Word e passa a vedere il relativo codice di campo .
 
-Aspose.Words può calcolare i risultati del campo per la maggior parte dei tipi di campo, ma questo metodo non aggiorna automaticamente il risultato del campo. Poiché il risultato del campo non viene calcolato automaticamente, dovresti passare un valore stringa (o anche una stringa vuota) che verrà inserito nel risultato del campo. Questo valore rimarrà nel risultato del campo come segnaposto finché il campo non viene aggiornato. Per aggiornare il risultato del campo puoi chiamare[`Update`](../../../aspose.words.fields/field/update)sull'oggetto campo restituito a te o[`UpdateFields`](../../document/updatefields) per aggiornare i campi dell'intero documento.
+Aspose.Words può calcolare i risultati del campo per la maggior parte dei tipi di campo, ma questo metodo non aggiorna automaticamente il risultato del campo. Poiché il risultato del campo non viene calcolato automaticamente, dovresti passare un valore stringa (o anche una stringa vuota) che verrà inserito nel risultato del campo. Questo valore rimarrà nel risultato del campo come segnaposto finché il campo non viene aggiornato. Per aggiornare il risultato del campo puoi chiamare[`Update`](../../../aspose.words.fields/field/update/)sull'oggetto campo restituito a te o[`UpdateFields`](../../document/updatefields/) per aggiornare i campi dell'intero documento.
 
 ### Esempi
 
@@ -232,9 +232,9 @@ doc.Save(ArtifactsDir + "PageSetup.PageNumbering.docx");
 
 ### Guarda anche
 
-* class [Field](../../../aspose.words.fields/field)
-* class [DocumentBuilder](../../documentbuilder)
-* spazio dei nomi [Aspose.Words](../../documentbuilder)
+* class [Field](../../../aspose.words.fields/field/)
+* class [DocumentBuilder](../)
+* spazio dei nomi [Aspose.Words](../../documentbuilder/)
 * assemblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

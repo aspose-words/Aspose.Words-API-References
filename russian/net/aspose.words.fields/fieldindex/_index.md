@@ -18,49 +18,49 @@ public class FieldIndex : Field
 
 | Имя | Описание |
 | --- | --- |
-| [FieldIndex](fieldindex)() | Конструктор по умолчанию. |
+| [FieldIndex](fieldindex/)() | Конструктор по умолчанию. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения индекса. |
-| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения перекрестных ссылок и других записей. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Получает текст, представляющий результат отображаемого поля. |
-| [End](../../aspose.words.fields/field/end) { get; } | Получает узел, представляющий конец поля. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | Получает или задает тип записи индекса, используемый для построения индекса. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Получает[`FieldFormat`](../fieldformat) объект, предоставляющий типизированный доступ к форматированию поля. |
-| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | Получает значение, указывающее, переопределяется ли разделитель номеров страниц кодом поля. |
-| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | Получает значение, указывающее, следует ли использовать последовательность при построении результатов поля. |
-| [Heading](../../aspose.words.fields/fieldindex/heading) { get; set; } | Получает или задает заголовок, который появляется в начале каждого набора записей для любой заданной буквы. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
-| [LanguageId](../../aspose.words.fields/fieldindex/languageid) { get; set; } | Получает или задает идентификатор языка, используемый для создания индекса. |
-| [LetterRange](../../aspose.words.fields/fieldindex/letterrange) { get; set; } | Получает или задает диапазон букв, которым ограничивается индекс. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Получает или задает LCID поля. |
-| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns) { get; set; } | Получает или задает количество столбцов на странице, используемых при построении индекса. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения двух номеров страниц в списке номеров страниц. |
-| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения записи указателя и ее номера страницы. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения начала и конца диапазона страниц. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
-| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline) { get; set; } | Получает или задает, следует ли запускать подзаписи в той же строке, что и основная запись. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
-| [SequenceName](../../aspose.words.fields/fieldindex/sequencename) { get; set; } | Получает или задает имя последовательности, номер которой включен в номер страницы. |
-| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Получает узел, представляющий начало поля. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Получает тип поля Microsoft Word. |
-| [UseYomi](../../aspose.words.fields/fieldindex/useyomi) { get; set; } | Получает или задает, следует ли включить использование текста yomi для элементов указателя. |
+| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname/) { get; set; } | Получает или задает имя закладки, которая отмечает часть документа, используемую для построения индекса. |
+| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения перекрестных ссылок и других записей. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype/) { get; set; } | Получает или задает тип записи индекса, используемый для построения индекса. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, предоставляющий типизированный доступ к форматированию поля. |
+| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator/) { get; } | Получает значение, указывающее, переопределяется ли разделитель номеров страниц кодом поля. |
+| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename/) { get; } | Получает значение, указывающее, следует ли использовать последовательность при построении результатов поля. |
+| [Heading](../../aspose.words.fields/fieldindex/heading/) { get; set; } | Получает или задает заголовок, который появляется в начале каждого набора записей для любой заданной буквы. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [LanguageId](../../aspose.words.fields/fieldindex/languageid/) { get; set; } | Получает или задает идентификатор языка, используемый для создания индекса. |
+| [LetterRange](../../aspose.words.fields/fieldindex/letterrange/) { get; set; } | Получает или задает диапазон букв, которым ограничивается индекс. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
+| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns/) { get; set; } | Получает или задает количество столбцов на странице, используемых при построении индекса. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения двух номеров страниц в списке номеров страниц. |
+| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения записи указателя и ее номера страницы. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения начала и конца диапазона страниц. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, который находится между разделителем поля и концом поля. |
+| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | Получает или задает, следует ли запускать подзаписи в той же строке, что и основная запись. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть нулевым. |
+| [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | Получает или задает имя последовательности, номер которой включен в номер страницы. |
+| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | Получает или задает последовательность символов, используемую для разделения порядковых номеров и номеров страниц. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
+| [UseYomi](../../aspose.words.fields/fieldindex/useyomi/) { get; set; } | Получает или задает, следует ли включить использование текста yomi для элементов указателя. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Выполняет развязку поля. |
-| [Update](../../aspose.words.fields/field/update)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает **нулевой** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет развязку поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
 
 ### Примечания
 
@@ -189,8 +189,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### Смотрите также
 
-* class [Field](../field)
-* пространство имен [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* пространство имен [Aspose.Words.Fields](../../aspose.words.fields/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

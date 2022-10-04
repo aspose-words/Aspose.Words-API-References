@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words för .NET API Referens
-description: Representerar en samling avConditionalStyle./conditionalstyle objekt.
+description: Representerar en samling avConditionalStyle./conditionalstyle/ objekt.
 type: docs
 weight: 310
 url: /sv/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Representerar en samling av[`ConditionalStyle`](../conditionalstyle) objekt.
+Representerar en samling av[`ConditionalStyle`](../conditionalstyle/) objekt.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | namn | Beskrivning |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Hämtar cellformatet längst ner till vänster. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Får cellstilen längst ner till höger. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Hämtar antalet villkorade stilar i samlingen. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Får den jämna kolumnbandsstilen. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Får den jämna radbandsstilen. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | Hämtar den första kolumnstilen. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | Får den första radens stil. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Hämtar en[`ConditionalStyle`](../conditionalstyle) objekt efter villkorlig stiltyp. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Hämtar den sista kolumnstilen. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Hämtar den sista radens stil. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Får den udda kolumnbandsstilen. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Får den udda radbandsstilen. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Får den övre vänstra cellstilen. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Får den övre högra cellstilen. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Hämtar cellformatet längst ner till vänster. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Får cellstilen längst ner till höger. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Hämtar antalet villkorade stilar i samlingen. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Får den jämna kolumnbandsstilen. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Får den jämna radbandsstilen. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Hämtar den första kolumnstilen. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Får den första radens stil. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Hämtar en[`ConditionalStyle`](../conditionalstyle/) objekt efter villkorlig stiltyp. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Hämtar den sista kolumnstilen. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Hämtar den sista radens stil. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Får den udda kolumnbandsstilen. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Får den udda radbandsstilen. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Får den övre vänstra cellstilen. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Får den övre högra cellstilen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Rensar alla villkorliga stilar i tabellstilen. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla villkorliga stilar i samlingen. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Rensar alla villkorliga stilar i tabellstilen. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla villkorliga stilar i samlingen. |
 
 ### Anmärkningar
 
-Det är inte möjligt att lägga till eller ta bort objekt från den här samlingen. Den innehåller permanent uppsättning objekt: ett objekt för varje värde av[`ConditionalStyleType`](../conditionalstyletype) uppräkningstyp.
+Det är inte möjligt att lägga till eller ta bort objekt från den här samlingen. Den innehåller permanent uppsättning objekt: ett objekt för varje värde av[`ConditionalStyleType`](../conditionalstyletype/) uppräkningstyp.
 
 ### Exempel
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### Se även
 
-* class [ConditionalStyle](../conditionalstyle)
-* namnutrymme [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

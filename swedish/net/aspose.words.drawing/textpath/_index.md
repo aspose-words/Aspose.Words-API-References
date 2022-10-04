@@ -1,7 +1,7 @@
 ---
 title: TextPath
 second_title: Aspose.Words för .NET API Referens
-description: Definierar texten och formateringen av textsökvägen för ett WordArt-objekt.
+description: Definierar texten och formateringen av textsökvägen för ett WordArtobjekt.
 type: docs
 weight: 1200
 url: /sv/net/aspose.words.drawing/textpath/
@@ -18,30 +18,30 @@ public class TextPath
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Sant om teckensnittet är formaterat med fet stil. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Definierar om texten passar vägen för en form. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Definierar om texten passar en forms begränsningsram. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Definierar familjen för textpath-teckensnittet. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Sant om teckensnittet är formaterat som kursivt. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Bestämmer om kerning är aktiverat. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Definierar om texten ska visas. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Bestämmer om layoutordningen för rader är omvänd. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Bestämmer om bokstäverna i texten ska roteras. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Bestämmer om alla bokstäver ska ha samma höjd oavsett skiftläge. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Definierar om en skugga appliceras på texten på en textväg. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Definierar storleken på teckensnittet i punkter. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Sant om teckensnittet är formaterat som små versaler. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Definierar mängden mellanrum för text. 1 betyder 100%. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Sant om teckensnittet är formaterat som genomstruken text. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Definierar texten i textvägen. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Definierar justeringen av text. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Bestämmer om extra mellanslag ska tas bort ovanför och under texten. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Sant om teckensnittet är understruket. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Bestämmer om en rak textbana kommer att användas istället för formbanan. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Sant om teckensnittet är formaterat med fet stil. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Definierar om texten passar vägen för en form. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Definierar om texten passar en forms begränsningsram. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Definierar familjen för textpath-teckensnittet. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Sant om teckensnittet är formaterat som kursivt. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Bestämmer om kerning är aktiverat. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Definierar om texten ska visas. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Bestämmer om layoutordningen för rader är omvänd. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Bestämmer om bokstäverna i texten ska roteras. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Bestämmer om alla bokstäver ska ha samma höjd oavsett skiftläge. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Definierar om en skugga appliceras på texten på en textväg. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Definierar storleken på teckensnittet i punkter. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Sant om teckensnittet är formaterat som små versaler. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Definierar mängden mellanrum för text. 1 betyder 100%. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Sant om teckensnittet är formaterat som genomstruken text. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Definierar texten i textvägen. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Definierar justeringen av text. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Bestämmer om extra mellanslag ska tas bort ovanför och under texten. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Sant om teckensnittet är understruket. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Bestämmer om en rak textbana kommer att användas istället för formbanan. |
 
 ### Anmärkningar
 
-Använd[`TextPath`](../shape/textpath) egenskap för att komma åt WordArt-egenskaper för en shape. Du skapar inte instanser av[`TextPath`](../textpath) klass direkt.
+Använd[`TextPath`](../shape/textpath/) egenskap för att komma åt WordArt-egenskaper för en shape. Du skapar inte instanser av[`TextPath`](./textpath/) klass direkt.
 
 ### Exempel
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing)
+* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

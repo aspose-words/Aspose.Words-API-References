@@ -1,7 +1,7 @@
 ---
 title: FieldLink
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das LINK-Feld.
+description: Implementiert das LINKFeld.
 type: docs
 weight: 1960
 url: /de/net/aspose.words.fields/fieldlink/
@@ -18,45 +18,45 @@ public class FieldLink : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldLink](fieldlink)() | Default_Constructor |
+| [FieldLink](fieldlink/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate) { get; set; } | Ruft ab oder legt fest, ob dieses Feld automatisch aktualisiert werden soll. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype) { get; set; } | Ruft ab oder legt fest, wie das verknüpfte Objekt seine Formatierung aktualisiert. |
-| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Bitmap eingefügt werden soll. |
-| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Text im HTML-Format eingefügt werden soll. |
-| [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Bild eingefügt werden soll. |
-| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt im Rich-Text-Format (RTF) eingefügt werden soll. |
-| [InsertAsText](../../aspose.words.fields/fieldlink/insertastext) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt im Nur-Text-Format eingefügt werden soll. |
-| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Unicode-Text eingefügt werden soll. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLinked](../../aspose.words.fields/fieldlink/islinked) { get; set; } | Ruft ab oder legt fest, ob die Dateigröße reduziert werden soll, indem keine Grafikdaten mit dem Dokument gespeichert werden. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [ProgId](../../aspose.words.fields/fieldlink/progid) { get; set; } | Ruft den Anwendungstyp der Linkinformationen ab oder legt ihn fest. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname) { get; set; } | Ruft den Namen und Speicherort der Quelldatei ab oder legt ihn fest. |
-| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem) { get; set; } | Ruft den Teil der Quelldatei ab, der verknüpft wird, oder legt ihn fest. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [AutoUpdate](../../aspose.words.fields/fieldlink/autoupdate/) { get; set; } | Ruft ab oder legt fest, ob dieses Feld automatisch aktualisiert werden soll. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [FormatUpdateType](../../aspose.words.fields/fieldlink/formatupdatetype/) { get; set; } | Ruft ab oder legt fest, wie das verknüpfte Objekt seine Formatierung aktualisiert. |
+| [InsertAsBitmap](../../aspose.words.fields/fieldlink/insertasbitmap/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Bitmap eingefügt werden soll. |
+| [InsertAsHtml](../../aspose.words.fields/fieldlink/insertashtml/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Text im HTML-Format eingefügt werden soll. |
+| [InsertAsPicture](../../aspose.words.fields/fieldlink/insertaspicture/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Bild eingefügt werden soll. |
+| [InsertAsRtf](../../aspose.words.fields/fieldlink/insertasrtf/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt im Rich-Text-Format (RTF) eingefügt werden soll. |
+| [InsertAsText](../../aspose.words.fields/fieldlink/insertastext/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt im Nur-Text-Format eingefügt werden soll. |
+| [InsertAsUnicode](../../aspose.words.fields/fieldlink/insertasunicode/) { get; set; } | Ruft ab oder legt fest, ob das verknüpfte Objekt als Unicode-Text eingefügt werden soll. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLinked](../../aspose.words.fields/fieldlink/islinked/) { get; set; } | Ruft ab oder legt fest, ob die Dateigröße reduziert werden soll, indem keine Grafikdaten mit dem Dokument gespeichert werden. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [ProgId](../../aspose.words.fields/fieldlink/progid/) { get; set; } | Ruft den Anwendungstyp der Linkinformationen ab oder legt ihn fest. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [SourceFullName](../../aspose.words.fields/fieldlink/sourcefullname/) { get; set; } | Ruft den Namen und Speicherort der Quelldatei ab oder legt ihn fest. |
+| [SourceItem](../../aspose.words.fields/fieldlink/sourceitem/) { get; set; } | Ruft den Teil der Quelldatei ab, der verknüpft wird, oder legt ihn fest. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Bemerkungen
 
@@ -242,8 +242,8 @@ public enum InsertLinkedObjectAs
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

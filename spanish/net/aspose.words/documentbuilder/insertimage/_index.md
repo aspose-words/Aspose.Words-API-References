@@ -24,7 +24,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -56,9 +56,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -83,7 +83,7 @@ El nodo de imagen que se acaba de insertar.
 
 Esta sobrecarga descargará automáticamente la imagen antes de insertarla en document si especifica un URI remoto.
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -189,9 +189,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -214,7 +214,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -262,9 +262,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -287,7 +287,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -361,9 +361,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -388,7 +388,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -448,9 +448,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -475,7 +475,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -506,9 +506,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -533,7 +533,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -566,9 +566,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -593,7 +593,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -667,9 +667,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -700,7 +700,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -760,12 +760,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -796,7 +796,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -864,12 +864,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -900,7 +900,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -933,12 +933,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -969,7 +969,7 @@ El nodo de imagen que se acaba de insertar.
 
 ### Observaciones
 
-Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape) objeto devuelto por este método.
+Puede cambiar el tamaño de la imagen, la ubicación, el método de posicionamiento y otras configuraciones usando el [`Shape`](../../../aspose.words.drawing/shape/) objeto devuelto por este método.
 
 ### Ejemplos
 
@@ -1043,12 +1043,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Ver también
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* espacio de nombres [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* espacio de nombres [Aspose.Words](../../documentbuilder/)
 * asamblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | Nombre | Descripción |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Especifica el índice del elemento contenedor. Este índice determinará a cuál de las colecciones secundarias de los padres se aplica este elemento. El valor predeterminado es 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Obtiene/establece un indicador que indica si esta etiqueta está oculta. El valor predeterminado es **falso** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Devuelve verdadero si esta etiqueta de datos tiene algo que mostrar. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Devuelve el formato de número del elemento padre. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Obtiene o establece el separador de cadenas utilizado para las etiquetas de datos en un gráfico. El valor predeterminado es una coma, excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje, en los que se debe usar un salto de línea en su lugar. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos en un gráfico. Se aplica solo a gráficos de burbujas. El valor predeterminado es falso. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Permite especificar si se mostrará el nombre de la categoría para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Permite especificar si los valores del rango de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado es falso. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado es falso. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Permite especificar si se mostrará la clave de leyenda para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Permite especificar si se mostrará el valor porcentual para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. True para mostrar el nombre de la serie. Falso para ocultar. Por defecto false. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Permite especificar si los valores se mostrarán en las etiquetas de datos. El valor predeterminado es falso. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Especifica el índice del elemento contenedor. Este índice determinará a cuál de las colecciones secundarias de los padres se aplica este elemento. El valor predeterminado es 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Obtiene/establece un indicador que indica si esta etiqueta está oculta. El valor predeterminado es **falso** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Devuelve verdadero si esta etiqueta de datos tiene algo que mostrar. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Devuelve el formato de número del elemento padre. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Obtiene o establece el separador de cadenas utilizado para las etiquetas de datos en un gráfico. El valor predeterminado es una coma, excepto en los gráficos circulares que muestran solo el nombre de la categoría y el porcentaje, en los que se debe usar un salto de línea en su lugar. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos en un gráfico. Se aplica solo a gráficos de burbujas. El valor predeterminado es falso. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Permite especificar si se mostrará el nombre de la categoría para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Permite especificar si los valores del rango de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado es falso. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Permite especificar si es necesario mostrar las líneas guía de la etiqueta de datos. El valor predeterminado es falso. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Permite especificar si se mostrará la clave de leyenda para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Permite especificar si se mostrará el valor porcentual para las etiquetas de datos en un gráfico. El valor predeterminado es falso. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos en un gráfico. True para mostrar el nombre de la serie. Falso para ocultar. Por defecto false. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Permite especificar si los valores se mostrarán en las etiquetas de datos. El valor predeterminado es falso. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección de etiquetas principal data . |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Borra el formato de esta etiqueta de datos. Las propiedades se establecen en los valores predeterminados definidos en la colección de etiquetas principal data . |
 
 ### Observaciones
 
-En una serie, el[`ChartDataLabel`](../chartdatalabel) objeto es un miembro de la[`ChartDataLabelCollection`](../chartdatalabelcollection) . El[`ChartDataLabelCollection`](../chartdatalabelcollection) contiene una[`ChartDataLabel`](../chartdatalabel) objeto para cada punto.
+En una serie, el[`ChartDataLabel`](./chartdatalabel/) objeto es un miembro de la[`ChartDataLabelCollection`](../chartdatalabelcollection/) . El[`ChartDataLabelCollection`](../chartdatalabelcollection/) contiene una[`ChartDataLabel`](./chartdatalabel/) objeto para cada punto.
 
 ### Ejemplos
 
@@ -118,7 +118,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* espacio de nombres [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

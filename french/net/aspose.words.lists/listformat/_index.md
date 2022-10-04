@@ -18,36 +18,36 @@ public class ListFormat
 
 | Nom | La description |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | Vrai lorsqu'une mise en forme à puces ou numérotée a été appliquée au paragraphe. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Obtient ou définit la liste dont ce paragraphe fait partie. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Renvoie la mise en forme au niveau de la liste ainsi que tout remplacement de mise en forme appliqué au paragraphe actuel. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Obtient ou définit le numéro de niveau de liste (0 à 8) pour le paragraphe. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Vrai lorsqu'une mise en forme à puces ou numérotée a été appliquée au paragraphe. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Obtient ou définit la liste dont ce paragraphe fait partie. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Renvoie la mise en forme au niveau de la liste ainsi que tout remplacement de mise en forme appliqué au paragraphe actuel. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Obtient ou définit le numéro de niveau de liste (0 à 8) pour le paragraphe. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Démarre une nouvelle liste à puces par défaut et l'applique au paragraphe. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Démarre une nouvelle liste numérotée par défaut et l'applique au paragraphe. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Augmente le niveau de liste du paragraphe actuel d'un niveau. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Diminue le niveau de liste du paragraphe actuel d'un niveau. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Supprime les numéros ou les puces du paragraphe actuel et définit le niveau de la liste sur zéro. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Démarre une nouvelle liste à puces par défaut et l'applique au paragraphe. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Démarre une nouvelle liste numérotée par défaut et l'applique au paragraphe. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Augmente le niveau de liste du paragraphe actuel d'un niveau. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Diminue le niveau de liste du paragraphe actuel d'un niveau. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Supprime les numéros ou les puces du paragraphe actuel et définit le niveau de la liste sur zéro. |
 
 ### Remarques
 
 Un paragraphe dans un document Microsoft Word peut être à puces ou numéroté. Lorsqu'un paragraphe est à puces ou numéroté, on dit que la mise en forme de liste est appliquée au paragraphe.
 
-Vous ne créez pas d'objets du[`ListFormat`](../listformat) classe directement. Vous accédez[`ListFormat`](../listformat) en tant que propriété d'un autre objet qui peut avoir un formatage de liste associé. Pour le moment, les objets qui peuvent avoir un format de liste sont :[`Paragraph`](../../aspose.words/paragraph) , [`Style`](../../aspose.words/style) et[`DocumentBuilder`](../../aspose.words/documentbuilder).
+Vous ne créez pas d'objets du[`ListFormat`](./listformat/) classe directement. Vous accédez[`ListFormat`](./listformat/) en tant que propriété d'un autre objet qui peut avoir un formatage de liste associé. Pour le moment, les objets qui peuvent avoir un format de liste sont :[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) et[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](../listformat) d'un[`Paragraph`](../../aspose.words/paragraph) spécifie quel formatage de liste et quel niveau de liste sont appliqués à ce paragraphe particulier.
+[`ListFormat`](./listformat/) d'un[`Paragraph`](../../aspose.words/paragraph/) spécifie quel formatage de liste et quel niveau de liste sont appliqués à ce paragraphe particulier.
 
-[`ListFormat`](../listformat) d'un[`Style`](../../aspose.words/style)(applicable aux styles de paragraphe uniquement) permet de spécifier quel formatage de liste et quel niveau de liste sont appliqués à tous les paragraphes de ce style particulier.
+[`ListFormat`](./listformat/) d'un[`Style`](../../aspose.words/style/)(applicable aux styles de paragraphe uniquement) permet de spécifier quel formatage de liste et quel niveau de liste sont appliqués à tous les paragraphes de ce style particulier.
 
-[`ListFormat`](../listformat) d'un[`DocumentBuilder`](../../aspose.words/documentbuilder) permet d'accéder au formatage de la liste à la position actuelle du curseur à l'intérieur du[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](./listformat/) d'un[`DocumentBuilder`](../../aspose.words/documentbuilder/) permet d'accéder au formatage de la liste à la position actuelle du curseur à l'intérieur du[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-La mise en forme de la liste elle-même est stockée dans un[`List`](../list) objet stocké séparément des paragraphes. La liste objects est stockée dans un[`ListCollection`](../listcollection) le recueil. Il y a un single [`ListCollection`](../listcollection) collecte par[`Document`](../../aspose.words/document).
+La mise en forme de la liste elle-même est stockée dans un[`List`](../list/) objet stocké séparément des paragraphes. La liste objects est stockée dans un[`ListCollection`](../listcollection/) le recueil. Il y a un single [`ListCollection`](../listcollection/) collecte par[`Document`](../../aspose.words/document/).
 
-Les paragraphes n'appartiennent pas physiquement à une liste. Les paragraphes just font référence à un objet de liste particulier via le[`List`](./list) property et un niveau particulier dans la liste via le[`ListLevelNumber`](./listlevelnumber) propriété. En définissant ces deux propriétés, vous contrôlez les puces et la numérotation qui sont appliquées à un paragraphe.
+Les paragraphes n'appartiennent pas physiquement à une liste. Les paragraphes just font référence à un objet de liste particulier via le[`List`](./list/) property et un niveau particulier dans la liste via le[`ListLevelNumber`](./listlevelnumber/) propriété. En définissant ces deux propriétés, vous contrôlez les puces et la numérotation qui sont appliquées à un paragraphe.
 
 ### Exemples
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Lists](../../aspose.words.lists)
+* espace de noms [Aspose.Words.Lists](../../aspose.words.lists/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,36 +18,36 @@ public class ListLevel
 
 | اسم | وصف |
 | --- | --- |
-| [Alignment](../../aspose.words.lists/listlevel/alignment) { get; set; } | الحصول على أو تحديد تبرير العدد الفعلي لعنصر القائمة. |
-| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat) { get; } | الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." . |
-| [Font](../../aspose.words.lists/listlevel/font) { get; } | تحديد تنسيق الأحرف المستخدم لتسمية القائمة. |
-| [ImageData](../../aspose.words.lists/listlevel/imagedata) { get; } | إرجاع بيانات الصورة لشكل التعداد النقطي للصورة لمستوى القائمة الحالي. |
-| [IsLegal](../../aspose.words.lists/listlevel/islegal) { get; set; } | صحيح إذا قام المستوى بتحويل جميع الأرقام الموروثة إلى اللغة العربية ، خطأ إذا احتفظ بنمط الأرقام . |
-| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle) { get; set; } | الحصول على أو تحديد نمط الفقرة المرتبط بمستوى القائمة هذا. |
-| [NumberFormat](../../aspose.words.lists/listlevel/numberformat) { get; set; } | إرجاع أو تحديد تنسيق الأرقام لمستوى القائمة. |
-| [NumberPosition](../../aspose.words.lists/listlevel/numberposition) { get; set; } | إرجاع أو تعيين موضع الرقم أو الرمز النقطي لمستوى القائمة (بالنقاط). |
-| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle) { get; set; } | إرجاع أو تحديد نمط الرقم لمستوى القائمة. |
-| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel) { get; set; } | تعيين أو إرجاع مستوى القائمة الذي يجب أن يظهر قبل أن يقوم مستوى القائمة المحدد بإعادة تشغيل الترقيم. |
-| [StartAt](../../aspose.words.lists/listlevel/startat) { get; set; } | إرجاع أو تحديد رقم البداية لمستوى القائمة هذا. |
-| [TabPosition](../../aspose.words.lists/listlevel/tabposition) { get; set; } | إرجاع أو تعيين موضع علامة التبويب (بالنقاط) لمستوى القائمة. |
-| [TextPosition](../../aspose.words.lists/listlevel/textposition) { get; set; } | إرجاع أو تعيين الموضع (بالنقاط) للسطر الثاني من التفاف النص لمستوى القائمة. |
-| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter) { get; set; } | إرجاع أو تعيين الحرف الذي تم إدخاله بعد الرقم الخاص بمستوى القائمة. |
+| [Alignment](../../aspose.words.lists/listlevel/alignment/) { get; set; } | الحصول على أو تحديد تبرير العدد الفعلي لعنصر القائمة. |
+| [CustomNumberStyleFormat](../../aspose.words.lists/listlevel/customnumberstyleformat/) { get; } | الحصول على تنسيق نمط الرقم المخصص لمستوى القائمة هذا. على سبيل المثال: "a، ç، ĝ، ..." . |
+| [Font](../../aspose.words.lists/listlevel/font/) { get; } | تحديد تنسيق الأحرف المستخدم لتسمية القائمة. |
+| [ImageData](../../aspose.words.lists/listlevel/imagedata/) { get; } | إرجاع بيانات الصورة لشكل التعداد النقطي للصورة لمستوى القائمة الحالي. |
+| [IsLegal](../../aspose.words.lists/listlevel/islegal/) { get; set; } | صحيح إذا قام المستوى بتحويل جميع الأرقام الموروثة إلى اللغة العربية ، خطأ إذا احتفظ بنمط الأرقام . |
+| [LinkedStyle](../../aspose.words.lists/listlevel/linkedstyle/) { get; set; } | الحصول على أو تحديد نمط الفقرة المرتبط بمستوى القائمة هذا. |
+| [NumberFormat](../../aspose.words.lists/listlevel/numberformat/) { get; set; } | إرجاع أو تحديد تنسيق الأرقام لمستوى القائمة. |
+| [NumberPosition](../../aspose.words.lists/listlevel/numberposition/) { get; set; } | إرجاع أو تعيين موضع الرقم أو الرمز النقطي لمستوى القائمة (بالنقاط). |
+| [NumberStyle](../../aspose.words.lists/listlevel/numberstyle/) { get; set; } | إرجاع أو تحديد نمط الرقم لمستوى القائمة. |
+| [RestartAfterLevel](../../aspose.words.lists/listlevel/restartafterlevel/) { get; set; } | تعيين أو إرجاع مستوى القائمة الذي يجب أن يظهر قبل أن يقوم مستوى القائمة المحدد بإعادة تشغيل الترقيم. |
+| [StartAt](../../aspose.words.lists/listlevel/startat/) { get; set; } | إرجاع أو تحديد رقم البداية لمستوى القائمة هذا. |
+| [TabPosition](../../aspose.words.lists/listlevel/tabposition/) { get; set; } | إرجاع أو تعيين موضع علامة التبويب (بالنقاط) لمستوى القائمة. |
+| [TextPosition](../../aspose.words.lists/listlevel/textposition/) { get; set; } | إرجاع أو تعيين الموضع (بالنقاط) للسطر الثاني من التفاف النص لمستوى القائمة. |
+| [TrailingCharacter](../../aspose.words.lists/listlevel/trailingcharacter/) { get; set; } | إرجاع أو تعيين الحرف الذي تم إدخاله بعد الرقم الخاص بمستوى القائمة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet)() | إنشاء شكل تعداد نقطي للصورة لمستوى القائمة الحالية. |
-| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet)() | حذف رمز نقطي للصورة لمستوى القائمة الحالية. |
-| [Equals](../../aspose.words.lists/listlevel/equals#equals)(ListLevel) | يقارن مع مستوى القائمة المحدد . |
-| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode)() | حساب كود التجزئة لهذا الكائن. |
-| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue)(int, NumberStyle, string) | يبين تمثيل السلسلة لملف[`ListLevel`](../listlevel) كائن index المحدد لعنصر القائمة. تحدد المعلمات ملف[`NumberStyle`](../../aspose.words/numberstyle) وتنسيق اختياري string يتم استخدامه عندCustom محدد . |
+| [CreatePictureBullet](../../aspose.words.lists/listlevel/createpicturebullet/)() | إنشاء شكل تعداد نقطي للصورة لمستوى القائمة الحالية. |
+| [DeletePictureBullet](../../aspose.words.lists/listlevel/deletepicturebullet/)() | حذف رمز نقطي للصورة لمستوى القائمة الحالية. |
+| [Equals](../../aspose.words.lists/listlevel/equals/#equals)(ListLevel) | يقارن مع مستوى القائمة المحدد . |
+| override [GetHashCode](../../aspose.words.lists/listlevel/gethashcode/)() | حساب كود التجزئة لهذا الكائن. |
+| static [GetEffectiveValue](../../aspose.words.lists/listlevel/geteffectivevalue/)(int, NumberStyle, string) | يبين تمثيل السلسلة لملف[`ListLevel`](./listlevel/) كائن index المحدد لعنصر القائمة. تحدد المعلمات ملف[`NumberStyle`](../../aspose.words/numberstyle/) وتنسيق اختياري string يتم استخدامه عندCustom محدد . |
 
 ### ملاحظات
 
-لا تقوم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء قائمة. يمكنك الوصول[`ListLevel`](../listlevel) الكائنات عبر the [`ListLevelCollection`](../listlevelcollection) مجموعة.
+لا تقوم بإنشاء كائنات من هذه الفئة. يتم إنشاء كائنات مستوى القائمة تلقائيًا عند إنشاء قائمة. يمكنك الوصول[`ListLevel`](./listlevel/) الكائنات عبر the [`ListLevelCollection`](../listlevelcollection/) مجموعة.
 
-استخدم خصائص[`ListLevel`](../listlevel) لتحديد تنسيق القائمة لمستويات القائمة الفردية.
+استخدم خصائص[`ListLevel`](./listlevel/) لتحديد تنسيق القائمة لمستويات القائمة الفردية.
 
 ### أمثلة
 
@@ -107,7 +107,7 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateCustomList.docx");
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists)
+* مساحة الاسم [Aspose.Words.Lists](../../aspose.words.lists/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

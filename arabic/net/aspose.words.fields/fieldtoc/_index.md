@@ -18,50 +18,50 @@ public class FieldToc : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldToc](fieldtoc)() | Default_Constructor |
+| [FieldToc](fieldtoc/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الجدول. |
-| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel) { get; set; } | الحصول على أو تعيين اسم معرّف التسلسل المستخدم عند إنشاء جدول رسوم لا يتضمن التسمية التوضيحية والرقم . |
-| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles) { get; set; } | الحصول على أو تعيين قائمة من الأنماط بخلاف أنماط العناوين المضمنة لتضمينها في جدول المحتويات. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier) { get; set; } | الحصول على أو تعيين سلسلة يجب أن تتطابق مع معرفات النوع الخاصة بحقول TC التي يتم تضمينها. |
-| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator) { get; set; } | الحصول على أو تعيين تسلسل من الأحرف التي تفصل بين الإدخال ورقم الصفحة. |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange) { get; set; } | الحصول على نطاق من مستويات العناوين المراد تضمينها أو تعيينها . |
-| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إخفاء قائد علامة التبويب وأرقام الصفحات في عرض تخطيط الويب. |
-| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباطات تشعبية لإدخالات جدول المحتويات. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات التي يتم منها حذف أرقام الصفحات. |
-| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier) { get; set; } | الحصول على أو تحديد معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال. |
-| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks) { get; set; } | يحصل أو يحدد ما إذا كان سيتم الاحتفاظ بأحرف السطر الجديد داخل إدخالات الجدول. |
-| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs) { get; set; } | يحصل أو يحدد ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب داخل إدخالات الجدول. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel) { get; set; } | الحصول على أو تحديد اسم معرف التسلسل المستخدم عند إنشاء جدول الأرقام. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
-| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق. |
+| [BookmarkName](../../aspose.words.fields/fieldtoc/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الجدول. |
+| [CaptionlessTableOfFiguresLabel](../../aspose.words.fields/fieldtoc/captionlesstableoffigureslabel/) { get; set; } | الحصول على أو تعيين اسم معرّف التسلسل المستخدم عند إنشاء جدول رسوم لا يتضمن التسمية التوضيحية والرقم . |
+| [CustomStyles](../../aspose.words.fields/fieldtoc/customstyles/) { get; set; } | الحصول على أو تعيين قائمة من الأنماط بخلاف أنماط العناوين المضمنة لتضمينها في جدول المحتويات. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [EntryIdentifier](../../aspose.words.fields/fieldtoc/entryidentifier/) { get; set; } | الحصول على أو تعيين سلسلة يجب أن تتطابق مع معرفات النوع الخاصة بحقول TC التي يتم تضمينها. |
+| [EntryLevelRange](../../aspose.words.fields/fieldtoc/entrylevelrange/) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات المراد تضمينها. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoc/entryseparator/) { get; set; } | الحصول على أو تعيين تسلسل من الأحرف التي تفصل بين الإدخال ورقم الصفحة. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [HeadingLevelRange](../../aspose.words.fields/fieldtoc/headinglevelrange/) { get; set; } | الحصول على نطاق من مستويات العناوين المراد تضمينها أو تعيينها . |
+| [HideInWebLayout](../../aspose.words.fields/fieldtoc/hideinweblayout/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إخفاء قائد علامة التبويب وأرقام الصفحات في عرض تخطيط الويب. |
+| [InsertHyperlinks](../../aspose.words.fields/fieldtoc/inserthyperlinks/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم إنشاء ارتباطات تشعبية لإدخالات جدول المحتويات. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [PageNumberOmittingLevelRange](../../aspose.words.fields/fieldtoc/pagenumberomittinglevelrange/) { get; set; } | الحصول على أو تعيين نطاق من مستويات إدخالات جدول المحتويات التي يتم منها حذف أرقام الصفحات. |
+| [PrefixedSequenceIdentifier](../../aspose.words.fields/fieldtoc/prefixedsequenceidentifier/) { get; set; } | الحصول على أو تحديد معرف التسلسل الذي يجب إضافة بادئة له إلى رقم صفحة الإدخال. |
+| [PreserveLineBreaks](../../aspose.words.fields/fieldtoc/preservelinebreaks/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم الاحتفاظ بأحرف السطر الجديد داخل إدخالات الجدول. |
+| [PreserveTabs](../../aspose.words.fields/fieldtoc/preservetabs/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم الاحتفاظ بإدخالات علامة التبويب داخل إدخالات الجدول. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoc/sequenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| [TableOfFiguresLabel](../../aspose.words.fields/fieldtoc/tableoffigureslabel/) { get; set; } | الحصول على أو تحديد اسم معرف التسلسل المستخدم عند إنشاء جدول الأرقام. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [UseParagraphOutlineLevel](../../aspose.words.fields/fieldtoc/useparagraphoutlinelevel/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم استخدام مستوى مخطط الفقرة المطبق. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers)() | يقوم بتحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [UpdatePageNumbers](../../aspose.words.fields/fieldtoc/updatepagenumbers/)() | يقوم بتحديث أرقام الصفحات للعناصر الموجودة في جدول المحتويات هذا. |
 
 ### ملاحظات
 
@@ -220,8 +220,8 @@ doc.Save(ArtifactsDir + "Field.TOC.SEQ.docx");
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

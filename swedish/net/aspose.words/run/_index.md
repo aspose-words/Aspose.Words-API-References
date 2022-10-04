@@ -18,44 +18,44 @@ public class Run : Inline
 
 | namn | Beskrivning |
 | --- | --- |
-| [Run](run#constructor)(DocumentBase) | Initierar en ny instans av **Springa** class. |
-| [Run](run#constructor_1)(DocumentBase, string) | Initierar en ny instans av **Springa** class. |
+| [Run](run/#constructor)(DocumentBase) | Initierar en ny instans av **Springa** class. |
+| [Run](run/#constructor_1)(DocumentBase, string) | Initierar en ny instans av **Springa** class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Anger anpassad nodidentifierare. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [Font](../../aspose.words/inline/font) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/run/nodetype) { get; } | Returnerar **NodeType.Run** . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph) { get; } | Hämtar föräldern[`Paragraph`](../paragraph) av denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
-| [Text](../../aspose.words/run/text) { get; set; } | Hämtar eller ställer in texten för körningen. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
+| [Font](../../aspose.words/inline/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar sant om denna nod kan innehålla andra noder. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar **Sann** om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar **Sann** om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
+| override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returnerar **NodeType.Run** . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../paragraph/) av denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Text](../../aspose.words/run/text/) { get; set; } | Hämtar eller ställer in texten för körningen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/run/accept)(DocumentVisitor) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone)(bool) | Skapar en dubblett av noden. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| override [GetText](../../aspose.words/run/gettext)() | Hämtar texten för körningen. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
-| [Remove](../../aspose.words/node/remove)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| override [Accept](../../aspose.words/run/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| override [GetText](../../aspose.words/run/gettext/)() | Hämtar texten för körningen. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
 ### Anmärkningar
 
@@ -175,8 +175,8 @@ Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
 ### Se även
 
-* class [Inline](../inline)
-* namnutrymme [Aspose.Words](../../aspose.words)
+* class [Inline](../inline/)
+* namnutrymme [Aspose.Words](../../aspose.words/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

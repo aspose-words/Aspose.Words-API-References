@@ -18,26 +18,26 @@ public sealed class FieldOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator) { get; set; } | Hämtar eller ställer in anpassad streckkodsgenerator. |
-| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths) { get; set; } | Hämtar eller ställer in sökvägar för MS Words inbyggda mallar. |
-| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator) { get; set; } | Hämtar eller ställer in utvärderaren för fältjämförelseuttryck. |
-| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser) { get; set; } | Hämtar eller ställer in aktuell användarinformation. |
-| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator) { get; set; } | Hämtar eller ställer in anpassad stilseparator för \t-växeln[`FieldToc`](../fieldtoc) field. |
-| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor) { get; set; } | Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper, övervägs inte detta alternativ. |
-| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett frågeresultat för[`FieldDatabase`](../fielddatabase) field. |
-| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat) { get; set; } | Hämtar eller sätter en[`FieldIndexFormat`](./fieldindexformat) som representerar formateringen för[`FieldIndex`](../fieldindex)fält i dokumentet. |
-| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält. |
-| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource) { get; set; } | Anger vilken kultur som ska användas för att formatera fältresultatet. |
-| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback) { get; set; } | Hämtar eller sätter[`IFieldUpdatingCallback`](../ifieldupdatingcallback) implementering |
-| [FileName](../../aspose.words.fields/fieldoptions/filename) { get; set; } | Hämtar eller ställer in filnamnet på dokumentet. |
-| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate) { get; set; } | Hämtar eller ställer in värdet som anger om dubbelriktad text stöds fullt ut under fältuppdatering eller inte. |
-| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat) { get; set; } | Hämtar eller ställer in värdet som anger om äldre (tidigt än AW 13.10) nummerformat för fält är aktiverat eller inte. |
-| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture) { get; set; } | Hämtar eller ställer in kulturen för att förbehandla fältvärden. |
-| [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter) { get; set; } | Gör det möjligt att styra hur fältresultatet formateras. |
-| [TemplateName](../../aspose.words.fields/fieldoptions/templatename) { get; set; } | Hämtar eller ställer in filnamnet på mallen som används av dokumentet. |
-| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories) { get; set; } | Hämtar eller sätter tabellen över auktoritetskategorier. |
-| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat) { get; set; } | Hämtar eller ställer in värdet som indikerar att talformatet tolkas med invariant kultur eller inte |
-| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent) { get; set; } | Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering. |
+| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Hämtar eller ställer in anpassad streckkodsgenerator. |
+| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Hämtar eller ställer in sökvägar för MS Words inbyggda mallar. |
+| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | Hämtar eller ställer in utvärderaren för fältjämförelseuttryck. |
+| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | Hämtar eller ställer in aktuell användarinformation. |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | Hämtar eller ställer in anpassad stilseparator för \t-växeln[`FieldToc`](../fieldtoc/) field. |
+| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | Hämtar eller ställer in standarddokumentets författares namn. Om författarens namn redan är specificerat i inbyggda dokumentegenskaper, övervägs inte detta alternativ. |
+| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett frågeresultat för[`FieldDatabase`](../fielddatabase/) field. |
+| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | Hämtar eller sätter en[`FieldIndexFormat`](./fieldindexformat/) som representerar formateringen för[`FieldIndex`](../fieldindex/)fält i dokumentet. |
+| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält. |
+| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Anger vilken kultur som ska användas för att formatera fältresultatet. |
+| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | Hämtar eller sätter[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) implementering |
+| [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | Hämtar eller ställer in filnamnet på dokumentet. |
+| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | Hämtar eller ställer in värdet som anger om dubbelriktad text stöds fullt ut under fältuppdatering eller inte. |
+| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | Hämtar eller ställer in värdet som anger om äldre (tidigt än AW 13.10) nummerformat för fält är aktiverat eller inte. |
+| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture/) { get; set; } | Hämtar eller ställer in kulturen för att förbehandla fältvärden. |
+| [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter/) { get; set; } | Gör det möjligt att styra hur fältresultatet formateras. |
+| [TemplateName](../../aspose.words.fields/fieldoptions/templatename/) { get; set; } | Hämtar eller ställer in filnamnet på mallen som används av dokumentet. |
+| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories/) { get; set; } | Hämtar eller sätter tabellen över auktoritetskategorier. |
+| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Hämtar eller ställer in värdet som indikerar att talformatet tolkas med invariant kultur eller inte |
+| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Hämtar eller ställer in svaranden till användarmeddelanden under fältuppdatering. |
 
 ### Exempel
 
@@ -73,7 +73,7 @@ Thread.CurrentThread.CurrentCulture = currentCulture;
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

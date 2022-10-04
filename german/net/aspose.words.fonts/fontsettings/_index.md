@@ -18,33 +18,33 @@ public class FontSettings
 
 | Name | Beschreibung |
 | --- | --- |
-| [FontSettings](fontsettings)() | Default_Constructor |
+| [FontSettings](fontsettings/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | Statische Standardschrifteinstellungen. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | Einstellungen im Zusammenhang mit dem Font-Fallback-Mechanismus. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | Einstellungen in Bezug auf den Schriftersetzungsmechanismus. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Statische Standardschrifteinstellungen. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Einstellungen im Zusammenhang mit dem Font-Fallback-Mechanismus. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Einstellungen in Bezug auf den Schriftersetzungsmechanismus. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | Ruft eine Kopie des Arrays ab, das die Liste der Quellen enthält, in denen Aspose.Words nach TrueType-Schriftarten sucht. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | Setzt die Schriftartquellen auf die Systemvorgabe zurück. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Speichert den Schriftsuchcache im Stream. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Legt den Ordner fest, in dem Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. Dies ist eine Verknüpfung zu[`SetFontsFolders`](./setfontsfolders) zum Setzen nur eines Fontverzeichnisses. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Legt die Ordner fest, in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Legt die Quellen fest, in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Legt die Quellen fest, in denen Aspose.Words nach TrueType-Schriftarten sucht und lädt zusätzlich zuvor gespeicherte Schriftsuchcache. |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Ruft eine Kopie des Arrays ab, das die Liste der Quellen enthält, in denen Aspose.Words nach TrueType-Schriftarten sucht. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Setzt die Schriftartquellen auf die Systemvorgabe zurück. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Speichert den Schriftsuchcache im Stream. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Legt den Ordner fest, in dem Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. Dies ist eine Verknüpfung zu[`SetFontsFolders`](./setfontsfolders/) zum Setzen nur eines Fontverzeichnisses. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Legt die Ordner fest, in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Legt die Quellen fest, in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueType-Schriftarten sucht. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Legt die Quellen fest, in denen Aspose.Words nach TrueType-Schriftarten sucht und lädt zusätzlich zuvor gespeicherte Schriftsuchcache. |
 
 ### Bemerkungen
 
-Aspose.Words verwendet Schriftarteinstellungen, um die Schriftarten im Dokument aufzulösen. Schriftarten werden meistens aufgelöst, wenn Dokumentlayout erstellt oder in feste Seitenformate gerendert wird. Aber beim Laden einiger Formate kann Aspose.Words auch verlangen, dass die Schriftarten aufgelöst werden. Wenn beispielsweise beim HTML-Dokumente geladen werden, kann Aspose.Words die Schriftarten auflösen, um eine Fallback-Funktion für Schriftarten auszuführen. Es wird daher empfohlen, die Schriftarteinstellungen in [`LoadOptions`](../../aspose.words.loading/loadoptions) beim Einlegen des Dokuments. Oder zumindest vor dem Erstellen des Layouts oder dem Rendern des Dokuments in das Festseitenformat.
+Aspose.Words verwendet Schriftarteinstellungen, um die Schriftarten im Dokument aufzulösen. Schriftarten werden meistens aufgelöst, wenn Dokumentlayout erstellt oder in feste Seitenformate gerendert wird. Aber beim Laden einiger Formate kann Aspose.Words auch verlangen, dass die Schriftarten aufgelöst werden. Wenn beispielsweise beim HTML-Dokumente geladen werden, kann Aspose.Words die Schriftarten auflösen, um eine Fallback-Funktion für Schriftarten auszuführen. Es wird daher empfohlen, die Schriftarteinstellungen in [`LoadOptions`](../../aspose.words.loading/loadoptions/) beim Einlegen des Dokuments. Oder zumindest vor dem Erstellen des Layouts oder dem Rendern des Dokuments in das Festseitenformat.
 
-Standardmäßig verwenden alle Dokumente eine einzige statische Schrifteinstellungsinstanz. Es konnte von darauf zugegriffen werden[`DefaultInstance`](./defaultinstance) Eigentum.
+Standardmäßig verwenden alle Dokumente eine einzige statische Schrifteinstellungsinstanz. Es konnte von darauf zugegriffen werden[`DefaultInstance`](./defaultinstance/) Eigentum.
 
 Das Ändern von Schriftarteinstellungen ist jederzeit sicher von jedem Thread aus möglich. Es wird jedoch empfohlen, die Schriftarteinstellungen nicht zu ändern, während einige Dokumente verarbeitet werden, die diese Einstellungen verwenden. Dies kann dazu führen, dass derselbe Font in verschiedenen Teilen des Dokuments unterschiedlich aufgelöst wird.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### Siehe auch
 
-* namensraum [Aspose.Words.Fonts](../../aspose.words.fonts)
+* namensraum [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

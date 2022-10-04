@@ -18,30 +18,30 @@ public class TextPath
 
 | İsim | Tanım |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Yazı tipi kalın olarak biçimlendirilmişse doğrudur. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Metnin bir şeklin yoluna sığıp sığmayacağını tanımlar. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Metnin bir şeklin sınırlayıcı kutusuna sığıp sığmayacağını tanımlar. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Metin yolu yazı tipi ailesini tanımlar. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Yazı tipi italik olarak biçimlendirilmişse doğrudur. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Karakter aralığının açık olup olmadığını belirler. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Metnin görüntülenip görüntülenmeyeceğini tanımlar. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Satırların düzen sırasının tersine çevrilip çevrilmeyeceğini belirler. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Metnin harflerinin döndürülüp döndürülmeyeceğini belirler. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Başlangıç durumuna bakılmaksızın tüm harflerin aynı yükseklikte olup olmayacağını belirler. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Metin yolundaki metne gölge uygulanıp uygulanmayacağını tanımlar. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Yazı tipinin boyutunu nokta olarak tanımlar. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Metin için boşluk miktarını tanımlar. 1, %100 anlamına gelir. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Yazı tipi, üstü çizili metin olarak biçimlendirilmişse doğrudur. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Metin yolunun metnini tanımlar. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Metnin hizalamasını tanımlar. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Metnin üstünde ve altında fazladan boşluğun kaldırılıp kaldırılmayacağını belirler. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Yazı tipinin altı çiziliyse doğrudur. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Şekil yolu yerine düz bir metin yolunun kullanılıp kullanılmayacağını belirler. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Yazı tipi kalın olarak biçimlendirilmişse doğrudur. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Metnin bir şeklin yoluna sığıp sığmayacağını tanımlar. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Metnin bir şeklin sınırlayıcı kutusuna sığıp sığmayacağını tanımlar. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Metin yolu yazı tipi ailesini tanımlar. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Yazı tipi italik olarak biçimlendirilmişse doğrudur. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Karakter aralığının açık olup olmadığını belirler. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Metnin görüntülenip görüntülenmeyeceğini tanımlar. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Satırların düzen sırasının tersine çevrilip çevrilmeyeceğini belirler. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Metnin harflerinin döndürülüp döndürülmeyeceğini belirler. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Başlangıç durumuna bakılmaksızın tüm harflerin aynı yükseklikte olup olmayacağını belirler. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Metin yolundaki metne gölge uygulanıp uygulanmayacağını tanımlar. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Yazı tipinin boyutunu nokta olarak tanımlar. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Yazı tipi küçük büyük harflerle biçimlendirilmişse doğrudur. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Metin için boşluk miktarını tanımlar. 1, %100 anlamına gelir. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Yazı tipi, üstü çizili metin olarak biçimlendirilmişse doğrudur. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Metin yolunun metnini tanımlar. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Metnin hizalamasını tanımlar. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Metnin üstünde ve altında fazladan boşluğun kaldırılıp kaldırılmayacağını belirler. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Yazı tipinin altı çiziliyse doğrudur. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Şekil yolu yerine düz bir metin yolunun kullanılıp kullanılmayacağını belirler. |
 
 ### Notlar
 
-Kullan[`TextPath`](../shape/textpath) bir şeklin WordArt özelliklerine erişme özelliği. [`TextPath`](../textpath) doğrudan sınıf.
+Kullan[`TextPath`](../shape/textpath/) bir şeklin WordArt özelliklerine erişme özelliği. [`TextPath`](./textpath/) doğrudan sınıf.
 
 ### Örnekler
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing)
+* ad alanı [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

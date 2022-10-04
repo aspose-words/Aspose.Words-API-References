@@ -18,39 +18,39 @@ public class FieldTA : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldTA](fieldta)() | Constructor predeterminado |
+| [FieldTA](fieldta/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [EntryCategory](../../aspose.words.fields/fieldta/entrycategory) { get; set; } | Obtiene o establece la categoría de entrada integral, que es un número que corresponde al orden de categorías. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [IsBold](../../aspose.words.fields/fieldta/isbold) { get; set; } | Obtiene o establece si se aplica el formato de negrita al número de página de la entrada. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsItalic](../../aspose.words.fields/fieldta/isitalic) { get; set; } | Obtiene o establece si se aplica el formato de cursiva al número de página de la entrada. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [LongCitation](../../aspose.words.fields/fieldta/longcitation) { get; set; } | Obtiene o establece la cita larga de la entrada. |
-| [PageRangeBookmarkName](../../aspose.words.fields/fieldta/pagerangebookmarkname) { get; set; } | Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [ShortCitation](../../aspose.words.fields/fieldta/shortcitation) { get; set; } | Obtiene o establece la cita breve de la entrada. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [EntryCategory](../../aspose.words.fields/fieldta/entrycategory/) { get; set; } | Obtiene o establece la categoría de entrada integral, que es un número que corresponde al orden de categorías. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [IsBold](../../aspose.words.fields/fieldta/isbold/) { get; set; } | Obtiene o establece si se aplica el formato de negrita al número de página de la entrada. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsItalic](../../aspose.words.fields/fieldta/isitalic/) { get; set; } | Obtiene o establece si se aplica el formato de cursiva al número de página de la entrada. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [LongCitation](../../aspose.words.fields/fieldta/longcitation/) { get; set; } | Obtiene o establece la cita larga de la entrada. |
+| [PageRangeBookmarkName](../../aspose.words.fields/fieldta/pagerangebookmarkname/) { get; set; } | Obtiene o establece el nombre del marcador que marca un rango de páginas que se inserta como número de página de la entrada. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [ShortCitation](../../aspose.words.fields/fieldta/shortcitation/) { get; set; } | Obtiene o establece la cita breve de la entrada. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -176,8 +176,8 @@ private static FieldTA InsertToaEntry(DocumentBuilder builder, string entryCateg
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,7 +1,7 @@
 ---
 title: InsertOnlineVideo
 second_title: Справочник по API Aspose.Words для .NET
-description: Вставляет объект онлайн-видео в документ и масштабирует его до указанного размера.
+description: Вставляет объект онлайнвидео в документ и масштабирует его до указанного размера.
 type: docs
 weight: 390
 url: /ru/net/aspose.words/documentbuilder/insertonlinevideo/
@@ -26,14 +26,14 @@ public Shape InsertOnlineVideo(string videoUrl, double width, double height)
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 Поддерживается вставка онлайн-видео со следующих ресурсов:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Если ваше онлайн-видео отображается неправильно, используйте[`InsertOnlineVideo`](../insertonlinevideo), который принимает пользовательский встроенный HTML-код.
+Если ваше онлайн-видео отображается неправильно, используйте[`InsertOnlineVideo`](./insertonlinevideo/), который принимает пользовательский встроенный HTML-код.
 
 Код для встраивания видео может варьироваться в зависимости от провайдера, для получения подробной информации обратитесь к соответствующему провайдеру.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ public Shape InsertOnlineVideo(string videoUrl, RelativeHorizontalPosition horzP
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 Поддерживается вставка онлайн-видео со следующих ресурсов:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Если ваше онлайн-видео отображается неправильно, используйте[`InsertOnlineVideo`](../insertonlinevideo), который принимает пользовательский встроенный HTML-код.
+Если ваше онлайн-видео отображается неправильно, используйте[`InsertOnlineVideo`](./insertonlinevideo/), который принимает пользовательский встроенный HTML-код.
 
 Код для встраивания видео может варьироваться в зависимости от провайдера, для получения подробной информации обратитесь к соответствующему провайдеру.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ public Shape InsertOnlineVideo(string videoUrl, string videoEmbedCode, byte[] th
 
 ### Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ### Примеры
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Смотрите также
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* пространство имен [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* пространство имен [Aspose.Words](../../documentbuilder/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

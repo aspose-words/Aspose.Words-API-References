@@ -26,14 +26,14 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape) Bu yöntemle döndürülen nesne.
+öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](../insertonlinevideo), özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](./insertonlinevideo/), özel gömülü html kodunu kabul eder.
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
 
@@ -53,9 +53,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
 
 ### Ayrıca bakınız
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* ad alanı [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* ad alanı [Aspose.Words](../../documentbuilder/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -86,14 +86,14 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape) Bu yöntemle döndürülen nesne.
+öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 Aşağıdaki kaynaklardan çevrimiçi video eklenmesi desteklenir:
 
 * https://www.youtube.com/
 * https://vimeo.com/
 
-Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](../insertonlinevideo), özel gömülü html kodunu kabul eder.
+Çevrimiçi videonuz düzgün görüntülenmiyorsa, şunu kullanın:[`InsertOnlineVideo`](./insertonlinevideo/), özel gömülü html kodunu kabul eder.
 
 Video yerleştirme kodu sağlayıcılar arasında değişiklik gösterebilir, ayrıntılar için ilgili sağlayıcınıza danışın.
 
@@ -119,12 +119,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideo.docx");
 
 ### Ayrıca bakınız
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* ad alanı [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* ad alanı [Aspose.Words](../../documentbuilder/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -152,7 +152,7 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape) Bu yöntemle döndürülen nesne.
+öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
@@ -195,9 +195,9 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Ayrıca bakınız
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* ad alanı [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* ad alanı [Aspose.Words](../../documentbuilder/)
 * toplantı [Aspose.Words](../../../)
 
 ---
@@ -231,7 +231,7 @@ Yeni eklenen görüntü düğümü.
 
 ### Notlar
 
-öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape) Bu yöntemle döndürülen nesne.
+öğesini kullanarak görüntü boyutunu, konumunu, konumlandırma yöntemini ve diğer ayarları değiştirebilirsiniz.[`Shape`](../../../aspose.words.drawing/shape/) Bu yöntemle döndürülen nesne.
 
 ### Örnekler
 
@@ -274,12 +274,12 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 
 ### Ayrıca bakınız
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* ad alanı [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* ad alanı [Aspose.Words](../../documentbuilder/)
 * toplantı [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

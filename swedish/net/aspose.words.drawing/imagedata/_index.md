@@ -18,47 +18,47 @@ public class ImageData
 
 | namn | Beskrivning |
 | --- | --- |
-| [BiLevel](../../aspose.words.drawing/imagedata/bilevel) { get; set; } | Bestämmer om en bild ska visas i svartvitt. |
-| [Borders](../../aspose.words.drawing/imagedata/borders) { get; } | Hämtar samlingen av kanter för bilden. Kanter har endast effekt för inline-bilder. |
-| [Brightness](../../aspose.words.drawing/imagedata/brightness) { get; set; } | Hämtar eller ställer in bildens ljusstyrka. Värdet för den här egenskapen måste vara ett tal från 0,0 (dynast) till 1,0 (ljusast). |
-| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey) { get; set; } | Definierar färgvärdet för bilden som kommer att behandlas som transparent. |
-| [Contrast](../../aspose.words.drawing/imagedata/contrast) { get; set; } | Hämtar eller ställer in kontrasten för den angivna bilden. Värdet för den här egenskapen måste vara ett tal från 0,0 (den minsta kontrasten) till 1,0 (den största kontrasten). |
-| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom) { get; set; } | Definierar andelen av bildborttagning från undersidan. |
-| [CropLeft](../../aspose.words.drawing/imagedata/cropleft) { get; set; } | Definierar andelen av bildborttagning från vänster sida. |
-| [CropRight](../../aspose.words.drawing/imagedata/cropright) { get; set; } | Definierar andelen av bildborttagning från höger sida. |
-| [CropTop](../../aspose.words.drawing/imagedata/croptop) { get; set; } | Definierar andelen av bildborttagning från ovansidan. |
-| [GrayScale](../../aspose.words.drawing/imagedata/grayscale) { get; set; } | Bestämmer om en bild ska visas i gråskaleläge. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage) { get; } | Returnerar sant om formen har bildbytes eller länkar en bild. |
-| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes) { get; set; } | Hämtar eller ställer in råbyte för bilden som lagras i formen. |
-| [ImageSize](../../aspose.words.drawing/imagedata/imagesize) { get; } | Får information om bildstorlek och upplösning. |
-| [ImageType](../../aspose.words.drawing/imagedata/imagetype) { get; } | Hämtar typen av bild. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink) { get; } | Returnerar sant om bilden är länkad till formen (när[`SourceFullName`](./sourcefullname) anges). |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly) { get; } | Returnerar sant om bilden är länkad och inte lagrad i dokumentet. |
-| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden. |
-| [Title](../../aspose.words.drawing/imagedata/title) { get; set; } | Definierar titeln på en bild. |
+| [BiLevel](../../aspose.words.drawing/imagedata/bilevel/) { get; set; } | Bestämmer om en bild ska visas i svartvitt. |
+| [Borders](../../aspose.words.drawing/imagedata/borders/) { get; } | Hämtar samlingen av kanter för bilden. Kanter har endast effekt för inline-bilder. |
+| [Brightness](../../aspose.words.drawing/imagedata/brightness/) { get; set; } | Hämtar eller ställer in bildens ljusstyrka. Värdet för den här egenskapen måste vara ett tal från 0,0 (dynast) till 1,0 (ljusast). |
+| [ChromaKey](../../aspose.words.drawing/imagedata/chromakey/) { get; set; } | Definierar färgvärdet för bilden som kommer att behandlas som transparent. |
+| [Contrast](../../aspose.words.drawing/imagedata/contrast/) { get; set; } | Hämtar eller ställer in kontrasten för den angivna bilden. Värdet för den här egenskapen måste vara ett tal från 0,0 (den minsta kontrasten) till 1,0 (den största kontrasten). |
+| [CropBottom](../../aspose.words.drawing/imagedata/cropbottom/) { get; set; } | Definierar andelen av bildborttagning från undersidan. |
+| [CropLeft](../../aspose.words.drawing/imagedata/cropleft/) { get; set; } | Definierar andelen av bildborttagning från vänster sida. |
+| [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Definierar andelen av bildborttagning från höger sida. |
+| [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Definierar andelen av bildborttagning från ovansidan. |
+| [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Bestämmer om en bild ska visas i gråskaleläge. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Returnerar sant om formen har bildbytes eller länkar en bild. |
+| [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | Hämtar eller ställer in råbyte för bilden som lagras i formen. |
+| [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | Får information om bildstorlek och upplösning. |
+| [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | Hämtar typen av bild. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Returnerar sant om bilden är länkad till formen (när[`SourceFullName`](./sourcefullname/) anges). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Returnerar sant om bilden är länkad och inte lagrad i dokumentet. |
+| [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden. |
+| [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | Definierar titeln på en bild. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Save](../../aspose.words.drawing/imagedata/save#save)(Stream) | Sparar bilden i den angivna strömmen. |
-| [Save](../../aspose.words.drawing/imagedata/save#save_1)(string) | Sparar bilden i en fil. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage)(Image) | Ställer in bilden som formen visar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_1)(Stream) | Ställer in bilden som formen visar. |
-| [SetImage](../../aspose.words.drawing/imagedata/setimage#setimage_2)(string) | Ställer in bilden som formen visar. |
-| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray)() | Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad. |
-| [ToImage](../../aspose.words.drawing/imagedata/toimage)() | Får bilden lagrad i formen som enImage objekt. |
-| [ToStream](../../aspose.words.drawing/imagedata/tostream)() | Skapar och returnerar en ström som innehåller bildbytes. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save)(Stream) | Sparar bilden i den angivna strömmen. |
+| [Save](../../aspose.words.drawing/imagedata/save/#save_1)(string) | Sparar bilden i en fil. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage)(Image) | Ställer in bilden som formen visar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_1)(Stream) | Ställer in bilden som formen visar. |
+| [SetImage](../../aspose.words.drawing/imagedata/setimage/#setimage_2)(string) | Ställer in bilden som formen visar. |
+| [ToByteArray](../../aspose.words.drawing/imagedata/tobytearray/)() | Returnerar bildbyte för alla bilder oavsett om bilden är lagrad eller länkad. |
+| [ToImage](../../aspose.words.drawing/imagedata/toimage/)() | Får bilden lagrad i formen som enImage objekt. |
+| [ToStream](../../aspose.words.drawing/imagedata/tostream/)() | Skapar och returnerar en ström som innehåller bildbytes. |
 
 ### Anmärkningar
 
-Använd[`ImageData`](../shape/imagedata) egenskap för att komma åt och ändra bilden i en form. Du skapar inte instanser av[`ImageData`](../imagedata) klass direkt.
+Använd[`ImageData`](../shape/imagedata/) egenskap för att komma åt och ändra bilden i en form. Du skapar inte instanser av[`ImageData`](./imagedata/) klass direkt.
 
 En bild kan lagras i en form, länkas till extern fil eller båda (länkas och lagras i dokumentet).
 
-Oavsett om bilden är lagrad i formen eller länkad, kan du alltid komma åt den faktiska -bilden med hjälp av[`ToByteArray`](./tobytearray) ,[`ToStream`](./tostream) ,[`ToImage`](./toimage) eller[`Save`](./save) methods. Om bilden är lagrad i formen kan du också komma åt den direkt med hjälp av[`ImageBytes`](./imagebytes) fast egendom.
+Oavsett om bilden är lagrad i formen eller länkad, kan du alltid komma åt den faktiska -bilden med hjälp av[`ToByteArray`](./tobytearray/) ,[`ToStream`](./tostream/) ,[`ToImage`](./toimage/) eller[`Save`](./save/) methods. Om bilden är lagrad i formen kan du också komma åt den direkt med hjälp av[`ImageBytes`](./imagebytes/) fast egendom.
 
-För att lagra en bild i en form använd[`SetImage`](./setimage) metod. För att länka en bild till en form, ställ in[`SourceFullName`](./sourcefullname) fast egendom.
+För att lagra en bild i en form använd[`SetImage`](./setimage/) metod. För att länka en bild till en form, ställ in[`SourceFullName`](./sourcefullname/) fast egendom.
 
 ### Exempel
 
@@ -127,7 +127,7 @@ Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing)
+* namnutrymme [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

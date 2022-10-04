@@ -18,27 +18,27 @@ public class CellFormat
 
 | İsim | Tanım |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders) { get; } | Hücrenin kenarlıklarının koleksiyonunu alır. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding) { get; set; } | Hücre içeriğinin altına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [FitText](../../aspose.words.tables/cellformat/fittext) { get; set; } | Doğruysa, her paragrafı hücrenin genişliğine sıkıştırarak hücreye metin sığdırır. |
-| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge) { get; set; } | Hücrenin, satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding) { get; set; } | Hücre içeriğinin soluna eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation) { get; set; } | Tablo hücresindeki metnin yönünü döndürür veya ayarlar. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth) { get; set; } | Hücrenin tercih edilen genişliğini döndürür veya ayarlar. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding) { get; set; } | Hücre içeriğinin sağına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [Shading](../../aspose.words.tables/cellformat/shading) { get; } | Hücrenin gölgelendirme biçimlendirmesine başvuran bir Shading nesnesi döndürür. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding) { get; set; } | Hücre içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment) { get; set; } | Hücredeki metnin dikey hizalamasını döndürür veya ayarlar. |
-| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge) { get; set; } | Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir. |
-| [Width](../../aspose.words.tables/cellformat/width) { get; set; } | Nokta olarak hücrenin genişliğini alır. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext) { get; set; } | Doğruysa, hücre için metni kaydırın. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Hücrenin kenarlıklarının koleksiyonunu alır. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Hücre içeriğinin altına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Doğruysa, her paragrafı hücrenin genişliğine sıkıştırarak hücreye metin sığdırır. |
+| [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Hücrenin, satırdaki diğer hücrelerle yatay olarak nasıl birleştirileceğini belirtir. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Hücre içeriğinin soluna eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Tablo hücresindeki metnin yönünü döndürür veya ayarlar. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Hücrenin tercih edilen genişliğini döndürür veya ayarlar. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Hücre içeriğinin sağına eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Hücrenin gölgelendirme biçimlendirmesine başvuran bir Shading nesnesi döndürür. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Hücre içeriğinin üzerine eklenecek boşluk miktarını (puan olarak) döndürür veya ayarlar. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Hücredeki metnin dikey hizalamasını döndürür veya ayarlar. |
+| [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Hücrenin diğer hücrelerle dikey olarak nasıl birleştirileceğini belirtir. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Nokta olarak hücrenin genişliğini alır. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Doğruysa, hücre için metni kaydırın. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting)() | Varsayılan hücre biçimlendirmesine sıfırlar. Hücrenin genişliğini değiştirmez. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings)(double, double, double, double) | Hücre içeriğinin soluna/üstüne/sağına/altına eklenecek boşluk miktarını (puan olarak) ayarlar. |
+| [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Varsayılan hücre biçimlendirmesine sıfırlar. Hücrenin genişliğini değiştirmez. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(double, double, double, double) | Hücre içeriğinin soluna/üstüne/sağına/altına eklenecek boşluk miktarını (puan olarak) ayarlar. |
 
 ### Örnekler
 
@@ -152,7 +152,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
 
 ### Ayrıca bakınız
 
-* ad alanı [Aspose.Words.Tables](../../aspose.words.tables)
+* ad alanı [Aspose.Words.Tables](../../aspose.words.tables/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words for .NET API Referansı
-description: Bir koleksiyonu temsil ederConditionalStyle./conditionalstyle nesneler.
+description: Bir koleksiyonu temsil ederConditionalStyle./conditionalstyle/ nesneler.
 type: docs
 weight: 310
 url: /tr/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Bir koleksiyonu temsil eder[`ConditionalStyle`](../conditionalstyle) nesneler.
+Bir koleksiyonu temsil eder[`ConditionalStyle`](../conditionalstyle/) nesneler.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | İsim | Tanım |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Sol alt hücre stilini alır. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Sağ alttaki hücre stilini alır. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Koleksiyondaki koşullu stillerin sayısını alır. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Eşit sütun şeritleme stilini alır. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Eşit satır şeritleme stilini alır. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | İlk sütun stilini alır. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | İlk satır stilini alır. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Bir[`ConditionalStyle`](../conditionalstyle) koşullu stil türüne göre nesne. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Son sütun stilini alır. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Son satır stilini alır. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Tek sütun şeritleme stilini alır. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Tek satır bantlama stilini alır. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Sol üst hücre stilini alır. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Sağ üst hücre stilini alır. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Sol alt hücre stilini alır. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Sağ alttaki hücre stilini alır. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Koleksiyondaki koşullu stillerin sayısını alır. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Eşit sütun şeritleme stilini alır. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Eşit satır şeritleme stilini alır. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | İlk sütun stilini alır. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | İlk satır stilini alır. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Bir[`ConditionalStyle`](../conditionalstyle/) koşullu stil türüne göre nesne. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Son sütun stilini alır. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Son satır stilini alır. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Tek sütun şeritleme stilini alır. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Tek satır bantlama stilini alır. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Sol üst hücre stilini alır. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Sağ üst hücre stilini alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Tablo stilinin tüm koşullu stillerini temizler. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Tablo stilinin tüm koşullu stillerini temizler. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Koleksiyondaki tüm koşullu stilleri yinelemek için kullanılabilecek bir numaralandırıcı nesnesi döndürür. |
 
 ### Notlar
 
-Bu koleksiyona öğe eklemek veya bu koleksiyondan öğe çıkarmak mümkün değildir. Kalıcı öğe kümesi içerir: her bir değer için için bir öğe[`ConditionalStyleType`](../conditionalstyletype) numaralandırma türü.
+Bu koleksiyona öğe eklemek veya bu koleksiyondan öğe çıkarmak mümkün değildir. Kalıcı öğe kümesi içerir: her bir değer için için bir öğe[`ConditionalStyleType`](../conditionalstyletype/) numaralandırma türü.
 
 ### Örnekler
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### Ayrıca bakınız
 
-* class [ConditionalStyle](../conditionalstyle)
-* ad alanı [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

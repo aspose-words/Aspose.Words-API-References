@@ -22,11 +22,11 @@ public PlainTextDocument(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -47,8 +47,8 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Смотрите также
 
-* class [PlainTextDocument](../../plaintextdocument)
-* пространство имен [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* пространство имен [Aspose.Words](../../plaintextdocument/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -70,11 +70,11 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -101,9 +101,9 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ### Смотрите также
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* пространство имен [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* пространство имен [Aspose.Words](../../plaintextdocument/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -124,11 +124,11 @@ public PlainTextDocument(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -158,8 +158,8 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Смотрите также
 
-* class [PlainTextDocument](../../plaintextdocument)
-* пространство имен [Aspose.Words](../../plaintextdocument)
+* class [PlainTextDocument](../)
+* пространство имен [Aspose.Words](../../plaintextdocument/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -181,11 +181,11 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -222,9 +222,9 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ### Смотрите также
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [PlainTextDocument](../../plaintextdocument)
-* пространство имен [Aspose.Words](../../plaintextdocument)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [PlainTextDocument](../)
+* пространство имен [Aspose.Words](../../plaintextdocument/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,29 +18,29 @@ public class ChartDataLabel
 
 | namn | Beskrivning |
 | --- | --- |
-| [Index](../../aspose.words.drawing.charts/chartdatalabel/index) { get; } | Anger indexet för det innehållande elementet. Detta index ska avgöra vilken av förälderns barnsamling detta element gäller. Standardvärdet är 0. |
-| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden) { get; set; } | Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är **falsk** . |
-| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible) { get; } | Returnerar sant om denna dataetikett har något att visa. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat) { get; } | Returnerar talformatet för det överordnade elementet. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator) { get; set; } | Hämtar eller ställer in strängseparator som används för dataetiketterna i ett diagram. Standard är ett kommatecken, förutom för cirkeldiagram som endast visar kategorinamn och procent, då en radbrytning ska användas istället. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize) { get; set; } | Gör det möjligt att ange om bubbelstorlek ska visas för dataetiketterna i ett diagram. Gäller endast för bubbeldiagram. Standardvärdet är falskt. |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange) { get; set; } | Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är falskt. |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines) { get; set; } | Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är falskt. |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey) { get; set; } | Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet är falskt. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sant för att visa serienamnet. Falskt att dölja. Som standard false. |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna. Standardvärdet är falskt. |
+| [Index](../../aspose.words.drawing.charts/chartdatalabel/index/) { get; } | Anger indexet för det innehållande elementet. Detta index ska avgöra vilken av förälderns barnsamling detta element gäller. Standardvärdet är 0. |
+| [IsHidden](../../aspose.words.drawing.charts/chartdatalabel/ishidden/) { get; set; } | Hämtar/ställer in en flagga som indikerar om denna etikett är dold. Standardvärdet är **falsk** . |
+| [IsVisible](../../aspose.words.drawing.charts/chartdatalabel/isvisible/) { get; } | Returnerar sant om denna dataetikett har något att visa. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabel/numberformat/) { get; } | Returnerar talformatet för det överordnade elementet. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabel/separator/) { get; set; } | Hämtar eller ställer in strängseparator som används för dataetiketterna i ett diagram. Standard är ett kommatecken, förutom för cirkeldiagram som endast visar kategorinamn och procent, då en radbrytning ska användas istället. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabel/showbubblesize/) { get; set; } | Gör det möjligt att ange om bubbelstorlek ska visas för dataetiketterna i ett diagram. Gäller endast för bubbeldiagram. Standardvärdet är falskt. |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabel/showcategoryname/) { get; set; } | Gör det möjligt att ange om kategorinamnet ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/) { get; set; } | Gör det möjligt att ange om värden från dataetikettområdet ska visas i dataetiketterna. Standardvärdet är falskt. |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabel/showleaderlines/) { get; set; } | Tillåter att ange om dataetikettens ledarlinjer behöver visas. Standardvärdet är falskt. |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabel/showlegendkey/) { get; set; } | Tillåter att ange om förklaringsnyckeln ska visas för dataetiketterna på ett diagram. Standardvärdet är falskt. |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabel/showpercentage/) { get; set; } | Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna i ett diagram. Standardvärdet är falskt. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabel/showseriesname/) { get; set; } | Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sant för att visa serienamnet. Falskt att dölja. Som standard false. |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabel/showvalue/) { get; set; } | Gör det möjligt att ange om värden ska visas i dataetiketterna. Standardvärdet är falskt. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat)() | Rensar formatet för denna dataetikett. Egenskaperna är inställda på standardvärdena som definieras i den överordnade data etikettsamlingen. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabel/clearformat/)() | Rensar formatet för denna dataetikett. Egenskaperna är inställda på standardvärdena som definieras i den överordnade data etikettsamlingen. |
 
 ### Anmärkningar
 
-På en serie[`ChartDataLabel`](../chartdatalabel) objektet är medlem i[`ChartDataLabelCollection`](../chartdatalabelcollection) . Den[`ChartDataLabelCollection`](../chartdatalabelcollection) innehåller en[`ChartDataLabel`](../chartdatalabel) objekt för varje punkt.
+På en serie[`ChartDataLabel`](./chartdatalabel/) objektet är medlem i[`ChartDataLabelCollection`](../chartdatalabelcollection/) . Den[`ChartDataLabelCollection`](../chartdatalabelcollection/) innehåller en[`ChartDataLabel`](./chartdatalabel/) objekt för varje punkt.
 
 ### Exempel
 
@@ -118,7 +118,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts)
+* namnutrymme [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

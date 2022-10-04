@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator
 second_title: Справочник по API Aspose.Words для .NET
-description: Перечисляет объекты макета страницы документа. Этот класс можно использовать для просмотра модели макета страницы. Доступными свойствами являются тип геометрия текст и индекс страницы на которой отображается объект  а также общая структура и отношения. Используйте комбинациюGetEntity./layoutcollector/getentity а такжеCurrent./layoutenumerator/current перейти к объекту который соответствует узлу документа.
+description: Перечисляет объекты макета страницы документа. Этот класс можно использовать для просмотра модели макета страницы. Доступными свойствами являются тип геометрия текст и индекс страницы на которой отображается объект  а также общая структура и отношения. Используйте комбинациюGetEntity./layoutcollector/getentity/ а такжеCurrent./layoutenumerator/current/ перейти к объекту который соответствует узлу документа.
 type: docs
 weight: 3140
 url: /ru/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
-Перечисляет объекты макета страницы документа. Этот класс можно использовать для просмотра модели макета страницы. Доступными свойствами являются тип, геометрия, текст и индекс страницы, на которой отображается объект, , а также общая структура и отношения. Используйте комбинацию[`GetEntity`](../layoutcollector/getentity) а также[`Current`](./current) перейти к объекту, который соответствует узлу документа.
+Перечисляет объекты макета страницы документа. Этот класс можно использовать для просмотра модели макета страницы. Доступными свойствами являются тип, геометрия, текст и индекс страницы, на которой отображается объект, , а также общая структура и отношения. Используйте комбинацию[`GetEntity`](../layoutcollector/getentity/) а также[`Current`](./current/) перейти к объекту, который соответствует узлу документа.
 
 ```csharp
 public class LayoutEnumerator
@@ -18,33 +18,33 @@ public class LayoutEnumerator
 
 | Имя | Описание |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | Инициализирует новый экземпляр этого класса. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | Инициализирует новый экземпляр этого класса. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | Получает или задает текущую позицию в модели макета страницы. Это свойство возвращает непрозрачный объект, соответствующий текущему объекту макета. |
-| [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | Получает документ, перечисляемый этим экземпляром. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | Получает тип текущего объекта. Это может быть пустая строка, но не null. |
-| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | Получает отсчитываемый от 1 индекс страницы, содержащей текущий объект. |
-| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | Возвращает ограничивающий прямоугольник текущего объекта относительно верхнего левого угла страницы (в пунктах). |
-| [Text](../../aspose.words.layout/layoutenumerator/text) { get; } | Получает текст текущего объекта диапазона. Броски для других типов сущностей. |
-| [Type](../../aspose.words.layout/layoutenumerator/type) { get; } | Получает тип текущего объекта. |
+| [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Получает или задает текущую позицию в модели макета страницы. Это свойство возвращает непрозрачный объект, соответствующий текущему объекту макета. |
+| [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Получает документ, перечисляемый этим экземпляром. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Получает тип текущего объекта. Это может быть пустая строка, но не null. |
+| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Получает отсчитываемый от 1 индекс страницы, содержащей текущий объект. |
+| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Возвращает ограничивающий прямоугольник текущего объекта относительно верхнего левого угла страницы (в пунктах). |
+| [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Получает текст текущего объекта диапазона. Броски для других типов сущностей. |
+| [Type](../../aspose.words.layout/layoutenumerator/type/) { get; } | Получает тип текущего объекта. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild)() | Переход к первому дочернему объекту. |
-| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | Переход к последнему дочернему объекту. |
-| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | Переходит к следующему родственному объекту в визуальном порядке. При повторении строк абзаца, разбитых на страницах, этот метод не будет перемещаться на следующую страницу, а скорее перейдет к следующему объекту на той же странице. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | Переходит к следующему родственному объекту в логическом порядке. При повторении строк абзаца, разбитых на страницах, этот метод перейдет к следующей строке, даже если она находится на другой странице. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | Перемещается к родительскому объекту. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | Перемещается к родительскому объекту указанного типа. |
-| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | Переход к предыдущему родственному объекту. |
-| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Переходит к предыдущему родственному объекту в логическом порядке. При повторении строк абзаца, разбитых на страницы, этот метод переместится на предыдущую строку, даже если она находится на другой странице. |
-| [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Перемещает перечислитель на первую страницу документа. |
+| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | Переход к первому дочернему объекту. |
+| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | Переход к последнему дочернему объекту. |
+| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Переходит к следующему родственному объекту в визуальном порядке. При повторении строк абзаца, разбитых на страницах, этот метод не будет перемещаться на следующую страницу, а скорее перейдет к следующему объекту на той же странице. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Переходит к следующему родственному объекту в логическом порядке. При повторении строк абзаца, разбитых на страницах, этот метод перейдет к следующей строке, даже если она находится на другой странице. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Перемещается к родительскому объекту. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Перемещается к родительскому объекту указанного типа. |
+| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Переход к предыдущему родственному объекту. |
+| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Переходит к предыдущему родственному объекту в логическом порядке. При повторении строк абзаца, разбитых на страницы, этот метод переместится на предыдущую строку, даже если она находится на другой странице. |
+| [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Перемещает перечислитель на первую страницу документа. |
 
 ### Примеры
 
@@ -190,7 +190,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Layout](../../aspose.words.layout)
+* пространство имен [Aspose.Words.Layout](../../aspose.words.layout/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

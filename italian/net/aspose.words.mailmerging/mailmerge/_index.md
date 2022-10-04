@@ -18,47 +18,47 @@ public class MailMerge
 
 | Nome | Descrizione |
 | --- | --- |
-| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions) { get; set; } | Ottiene o imposta una serie di flag che specificano quali elementi devono essere rimossi durante la stampa unione. |
-| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks) { get; set; } | Ottiene o imposta un valore che indica se i paragrafi con segni di punteggiatura sono considerati vuoti e devono essere rimossi se ilRemoveEmptyParagraphs l'opzione è specificata. |
-| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback) { get; set; } | Si verifica durante la stampa unione quando viene rilevato un campo di stampa unione nel documento. |
-| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback) { get; set; } | Consente di gestire eventi particolari durante la stampa unione. |
-| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields) { get; } | Restituisce una raccolta che rappresenta i campi di dati mappati per l'operazione di stampa unione. |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions) { get; set; } | Ottiene o imposta un valore che indica se tutte le aree di stampa unione documenti con il nome di un'origine dati devono essere unite durante l'esecuzione di una stampa unione con aree rispetto all'origine dati o solo la prima. |
-| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument) { get; set; } | Ottiene o imposta un valore che indica se i campi dell'intero documento vengono aggiornati durante l'esecuzione di una stampa unione con le regioni. |
-| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags) { get; set; } | Ottiene o imposta un valore che indica se i tag "baffi" non utilizzati devono essere conservati. |
-| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag) { get; set; } | Ottiene o imposta un tag di fine regione per la stampa unione. |
-| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag) { get; set; } | Ottiene o imposta un tag di inizio della regione di stampa unione. |
-| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection) { get; set; } | Ottiene o imposta un valore che indica se gli elenchi vengono riavviati in ciascuna sezione dopo l'esecuzione di una stampa unione. |
-| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart) { get; set; } | Ottiene o imposta un valore che indica se il[`SectionStart`](../../aspose.words/pagesetup/sectionstart) della prima sezione del documento e le sue copie per l'origine dati successiva, le righe vengono conservate durante la stampa unione o aggiornate in base al comportamento di MS Word. |
-| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces) { get; set; } | Ottiene o imposta un valore che indica se gli spazi bianchi finali e iniziali vengono tagliati dai valori di stampa unione. |
-| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions) { get; set; } | Ottiene o imposta un valore che indica se i campi di unione e le regioni di unione vengono uniti indipendentemente dalle condizioni del campo IF padre. |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields) { get; set; } | Se true, specifica che oltre ai campi MERGEFIELD, la stampa unione viene eseguita in alcuni altri tipi di campi e anche nei tag "{{fieldName}}". |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion) { get; set; } | Ottiene o imposta un valore che indica se l'intero paragrafo con il campo TableStart o TableEnd o un particolare intervallo tra i campi TableStart e TableEnd deve essere incluso nell'area della stampa unione. |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | Ottiene o imposta una serie di flag che specificano quali elementi devono essere rimossi durante la stampa unione. |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | Ottiene o imposta un valore che indica se i paragrafi con segni di punteggiatura sono considerati vuoti e devono essere rimossi se ilRemoveEmptyParagraphs l'opzione è specificata. |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | Si verifica durante la stampa unione quando viene rilevato un campo di stampa unione nel documento. |
+| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | Consente di gestire eventi particolari durante la stampa unione. |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | Restituisce una raccolta che rappresenta i campi di dati mappati per l'operazione di stampa unione. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | Ottiene o imposta un valore che indica se tutte le aree di stampa unione documenti con il nome di un'origine dati devono essere unite durante l'esecuzione di una stampa unione con aree rispetto all'origine dati o solo la prima. |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | Ottiene o imposta un valore che indica se i campi dell'intero documento vengono aggiornati durante l'esecuzione di una stampa unione con le regioni. |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | Ottiene o imposta un valore che indica se i tag "baffi" non utilizzati devono essere conservati. |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | Ottiene o imposta un tag di fine regione per la stampa unione. |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | Ottiene o imposta un tag di inizio della regione di stampa unione. |
+| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | Ottiene o imposta un valore che indica se gli elenchi vengono riavviati in ciascuna sezione dopo l'esecuzione di una stampa unione. |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | Ottiene o imposta un valore che indica se il[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) della prima sezione del documento e le sue copie per l'origine dati successiva, le righe vengono conservate durante la stampa unione o aggiornate in base al comportamento di MS Word. |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Ottiene o imposta un valore che indica se gli spazi bianchi finali e iniziali vengono tagliati dai valori di stampa unione. |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Ottiene o imposta un valore che indica se i campi di unione e le regioni di unione vengono uniti indipendentemente dalle condizioni del campo IF padre. |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | Se true, specifica che oltre ai campi MERGEFIELD, la stampa unione viene eseguita in alcuni altri tipi di campi e anche nei tag "{{fieldName}}". |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Ottiene o imposta un valore che indica se l'intero paragrafo con il campo TableStart o TableEnd o un particolare intervallo tra i campi TableStart e TableEnd deve essere incluso nell'area della stampa unione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields)() | Rimuove i campi relativi alla stampa unione dal documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_1)(DataRow) | Esegue la stampa unione da un DataRow nel documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_2)(DataTable) | Esegue la stampa unione da una DataTable nel documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_3)(DataView) | Esegue la stampa unione da un DataView nel documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_4)(IDataReader) | Esegue la stampa unione da IDataReader nel documento. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute)(IMailMergeDataSource) | Esegue una stampa unione da un'origine dati personalizzata. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute#execute_5)(string[], object[]) | Esegue un'operazione di stampa unione per un singolo record. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado)(object) | Esegue la stampa unione da un oggetto Recordset ADO nel documento. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_2)(DataSet) | Esegue la stampa unione da un DataSet in un documento con aree di stampa unione. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_3)(DataTable) | Esegue la stampa unione da una DataTable nel documento con le regioni della stampa unione. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_4)(DataView) | Esegue la stampa unione da un DataView nel documento con le regioni della stampa unione. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions)(IMailMergeDataSource) | Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_1)(IMailMergeDataSourceRoot) | Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions#executewithregions_5)(IDataReader, string) | Esegue la stampa unione da IDataReader nel documento con le regioni della stampa unione. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado)(object, string) | Esegue la stampa unione da un oggetto Recordset ADO nel documento con le regioni della stampa unione. |
-| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames)() | Restituisce una raccolta di nomi di campi stampa unione disponibili nel documento. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion)(string) | Restituisce una raccolta di nomi di campi stampa unione disponibili nella regione. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion#getfieldnamesforregion_1)(string, int) | Restituisce una raccolta di nomi di campi stampa unione disponibili nella regione. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname)(string) | Restituisce una raccolta di regioni di stampa unione con il nome specificato. |
-| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy)() | Restituisce una gerarchia completa di regioni (con campi) disponibili nel documento. |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Rimuove i campi relativi alla stampa unione dal documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(DataRow) | Esegue la stampa unione da un DataRow nel documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(DataTable) | Esegue la stampa unione da una DataTable nel documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(DataView) | Esegue la stampa unione da un DataView nel documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(IDataReader) | Esegue la stampa unione da IDataReader nel documento. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(IMailMergeDataSource) | Esegue una stampa unione da un'origine dati personalizzata. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(string[], object[]) | Esegue un'operazione di stampa unione per un singolo record. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(object) | Esegue la stampa unione da un oggetto Recordset ADO nel documento. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(DataSet) | Esegue la stampa unione da un DataSet in un documento con aree di stampa unione. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(DataTable) | Esegue la stampa unione da una DataTable nel documento con le regioni della stampa unione. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(DataView) | Esegue la stampa unione da un DataView nel documento con le regioni della stampa unione. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(IMailMergeDataSource) | Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(IMailMergeDataSourceRoot) | Esegue una stampa unione da un'origine dati personalizzata con regioni di stampa unione. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(IDataReader, string) | Esegue la stampa unione da IDataReader nel documento con le regioni della stampa unione. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(object, string) | Esegue la stampa unione da un oggetto Recordset ADO nel documento con le regioni della stampa unione. |
+| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Restituisce una raccolta di nomi di campi stampa unione disponibili nel documento. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(string) | Restituisce una raccolta di nomi di campi stampa unione disponibili nella regione. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(string, int) | Restituisce una raccolta di nomi di campi stampa unione disponibili nella regione. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(string) | Restituisce una raccolta di regioni di stampa unione con il nome specificato. |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Restituisce una gerarchia completa di regioni (con campi) disponibili nel documento. |
 
 ### Osservazioni
 
@@ -121,7 +121,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging)
+* spazio dei nomi [Aspose.Words.MailMerging](../../aspose.words.mailmerging/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

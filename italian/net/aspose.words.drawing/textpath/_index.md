@@ -18,30 +18,30 @@ public class TextPath
 
 | Nome | Descrizione |
 | --- | --- |
-| [Bold](../../aspose.words.drawing/textpath/bold) { get; set; } | Vero se il carattere è formattato in grassetto. |
-| [FitPath](../../aspose.words.drawing/textpath/fitpath) { get; set; } | Definisce se il testo si adatta al percorso di una forma. |
-| [FitShape](../../aspose.words.drawing/textpath/fitshape) { get; set; } | Definisce se il testo si adatta al riquadro di delimitazione di una forma. |
-| [FontFamily](../../aspose.words.drawing/textpath/fontfamily) { get; set; } | Definisce la famiglia del font textpath. |
-| [Italic](../../aspose.words.drawing/textpath/italic) { get; set; } | Vero se il carattere è formattato in corsivo. |
-| [Kerning](../../aspose.words.drawing/textpath/kerning) { get; set; } | Determina se la crenatura è attivata. |
-| [On](../../aspose.words.drawing/textpath/on) { get; set; } | Definisce se il testo viene visualizzato. |
-| [ReverseRows](../../aspose.words.drawing/textpath/reverserows) { get; set; } | Determina se l'ordine di layout delle righe è invertito. |
-| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters) { get; set; } | Determina se le lettere del testo vengono ruotate. |
-| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights) { get; set; } | Determina se tutte le lettere avranno la stessa altezza indipendentemente dalle maiuscole iniziali. |
-| [Shadow](../../aspose.words.drawing/textpath/shadow) { get; set; } | Definisce se viene applicata un'ombra al testo su un percorso di testo. |
-| [Size](../../aspose.words.drawing/textpath/size) { get; set; } | Definisce la dimensione del carattere in punti. |
-| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps) { get; set; } | Vero se il carattere è formattato come lettere maiuscole minuscole. |
-| [Spacing](../../aspose.words.drawing/textpath/spacing) { get; set; } | Definisce la quantità di spazio per il testo. 1 significa 100%. |
-| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough) { get; set; } | Vero se il carattere è formattato come testo barrato. |
-| [Text](../../aspose.words.drawing/textpath/text) { get; set; } | Definisce il testo del percorso del testo. |
-| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment) { get; set; } | Definisce l'allineamento del testo. |
-| [Trim](../../aspose.words.drawing/textpath/trim) { get; set; } | Determina se lo spazio aggiuntivo viene rimosso sopra e sotto il testo. |
-| [Underline](../../aspose.words.drawing/textpath/underline) { get; set; } | Vero se il carattere è sottolineato. |
-| [XScale](../../aspose.words.drawing/textpath/xscale) { get; set; } | Determina se verrà utilizzato un percorso di testo dritto invece del percorso di forma. |
+| [Bold](../../aspose.words.drawing/textpath/bold/) { get; set; } | Vero se il carattere è formattato in grassetto. |
+| [FitPath](../../aspose.words.drawing/textpath/fitpath/) { get; set; } | Definisce se il testo si adatta al percorso di una forma. |
+| [FitShape](../../aspose.words.drawing/textpath/fitshape/) { get; set; } | Definisce se il testo si adatta al riquadro di delimitazione di una forma. |
+| [FontFamily](../../aspose.words.drawing/textpath/fontfamily/) { get; set; } | Definisce la famiglia del font textpath. |
+| [Italic](../../aspose.words.drawing/textpath/italic/) { get; set; } | Vero se il carattere è formattato in corsivo. |
+| [Kerning](../../aspose.words.drawing/textpath/kerning/) { get; set; } | Determina se la crenatura è attivata. |
+| [On](../../aspose.words.drawing/textpath/on/) { get; set; } | Definisce se il testo viene visualizzato. |
+| [ReverseRows](../../aspose.words.drawing/textpath/reverserows/) { get; set; } | Determina se l'ordine di layout delle righe è invertito. |
+| [RotateLetters](../../aspose.words.drawing/textpath/rotateletters/) { get; set; } | Determina se le lettere del testo vengono ruotate. |
+| [SameLetterHeights](../../aspose.words.drawing/textpath/sameletterheights/) { get; set; } | Determina se tutte le lettere avranno la stessa altezza indipendentemente dalle maiuscole iniziali. |
+| [Shadow](../../aspose.words.drawing/textpath/shadow/) { get; set; } | Definisce se viene applicata un'ombra al testo su un percorso di testo. |
+| [Size](../../aspose.words.drawing/textpath/size/) { get; set; } | Definisce la dimensione del carattere in punti. |
+| [SmallCaps](../../aspose.words.drawing/textpath/smallcaps/) { get; set; } | Vero se il carattere è formattato come lettere maiuscole minuscole. |
+| [Spacing](../../aspose.words.drawing/textpath/spacing/) { get; set; } | Definisce la quantità di spazio per il testo. 1 significa 100%. |
+| [StrikeThrough](../../aspose.words.drawing/textpath/strikethrough/) { get; set; } | Vero se il carattere è formattato come testo barrato. |
+| [Text](../../aspose.words.drawing/textpath/text/) { get; set; } | Definisce il testo del percorso del testo. |
+| [TextPathAlignment](../../aspose.words.drawing/textpath/textpathalignment/) { get; set; } | Definisce l'allineamento del testo. |
+| [Trim](../../aspose.words.drawing/textpath/trim/) { get; set; } | Determina se lo spazio aggiuntivo viene rimosso sopra e sotto il testo. |
+| [Underline](../../aspose.words.drawing/textpath/underline/) { get; set; } | Vero se il carattere è sottolineato. |
+| [XScale](../../aspose.words.drawing/textpath/xscale/) { get; set; } | Determina se verrà utilizzato un percorso di testo dritto invece del percorso di forma. |
 
 ### Osservazioni
 
-Utilizzare il[`TextPath`](../shape/textpath) per accedere alle proprietà WordArt di una forma. Non si creano istanze di[`TextPath`](../textpath) classe direttamente.
+Utilizzare il[`TextPath`](../shape/textpath/) per accedere alle proprietà WordArt di una forma. Non si creano istanze di[`TextPath`](./textpath/) classe direttamente.
 
 ### Esempi
 
@@ -143,7 +143,7 @@ private static Shape AppendWordArt(Document doc, string text, string textFontFam
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing)
+* spazio dei nomi [Aspose.Words.Drawing](../../aspose.words.drawing/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

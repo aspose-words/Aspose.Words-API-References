@@ -1,14 +1,14 @@
 ---
 title: ConditionalStyleCollection
 second_title: Aspose.Words für .NET-API-Referenz
-description: Repräsentiert eine Sammlung vonConditionalStyle./conditionalstyle Objekte.
+description: Repräsentiert eine Sammlung vonConditionalStyle./conditionalstyle/ Objekte.
 type: docs
 weight: 310
 url: /de/net/aspose.words/conditionalstylecollection/
 ---
 ## ConditionalStyleCollection class
 
-Repräsentiert eine Sammlung von[`ConditionalStyle`](../conditionalstyle) Objekte.
+Repräsentiert eine Sammlung von[`ConditionalStyle`](../conditionalstyle/) Objekte.
 
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
@@ -18,31 +18,31 @@ public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 
 | Name | Beschreibung |
 | --- | --- |
-| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell) { get; } | Ruft den Zellenstil unten links ab. |
-| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell) { get; } | Ruft den Zellenstil unten rechts ab. |
-| [Count](../../aspose.words/conditionalstylecollection/count) { get; } | Ruft die Anzahl der bedingten Stile in der Sammlung ab. |
-| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding) { get; } | Ruft den gleichmäßigen Spaltenbandstil ab. |
-| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding) { get; } | Ruft den Streifenstil für gleichmäßige Zeilen ab. |
-| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn) { get; } | Ruft den Stil der ersten Spalte ab. |
-| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow) { get; } | Ruft den Stil der ersten Zeile ab. |
-| [Item](../../aspose.words/conditionalstylecollection/item) { get; } | Ruft a[`ConditionalStyle`](../conditionalstyle) Objekt nach bedingtem Stiltyp. (2 indexers) |
-| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn) { get; } | Ruft den Stil der letzten Spalte ab. |
-| [LastRow](../../aspose.words/conditionalstylecollection/lastrow) { get; } | Ruft den Stil der letzten Zeile ab. |
-| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding) { get; } | Ruft den Streifenstil für ungerade Spalten ab. |
-| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding) { get; } | Ruft den Streifenstil für ungerade Zeilen ab. |
-| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell) { get; } | Ruft den Zellenstil oben links ab. |
-| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell) { get; } | Ruft den Zellenstil oben rechts ab. |
+| [BottomLeftCell](../../aspose.words/conditionalstylecollection/bottomleftcell/) { get; } | Ruft den Zellenstil unten links ab. |
+| [BottomRightCell](../../aspose.words/conditionalstylecollection/bottomrightcell/) { get; } | Ruft den Zellenstil unten rechts ab. |
+| [Count](../../aspose.words/conditionalstylecollection/count/) { get; } | Ruft die Anzahl der bedingten Stile in der Sammlung ab. |
+| [EvenColumnBanding](../../aspose.words/conditionalstylecollection/evencolumnbanding/) { get; } | Ruft den gleichmäßigen Spaltenbandstil ab. |
+| [EvenRowBanding](../../aspose.words/conditionalstylecollection/evenrowbanding/) { get; } | Ruft den Streifenstil für gleichmäßige Zeilen ab. |
+| [FirstColumn](../../aspose.words/conditionalstylecollection/firstcolumn/) { get; } | Ruft den Stil der ersten Spalte ab. |
+| [FirstRow](../../aspose.words/conditionalstylecollection/firstrow/) { get; } | Ruft den Stil der ersten Zeile ab. |
+| [Item](../../aspose.words/conditionalstylecollection/item/) { get; } | Ruft a[`ConditionalStyle`](../conditionalstyle/) Objekt nach bedingtem Stiltyp. (2 indexers) |
+| [LastColumn](../../aspose.words/conditionalstylecollection/lastcolumn/) { get; } | Ruft den Stil der letzten Spalte ab. |
+| [LastRow](../../aspose.words/conditionalstylecollection/lastrow/) { get; } | Ruft den Stil der letzten Zeile ab. |
+| [OddColumnBanding](../../aspose.words/conditionalstylecollection/oddcolumnbanding/) { get; } | Ruft den Streifenstil für ungerade Spalten ab. |
+| [OddRowBanding](../../aspose.words/conditionalstylecollection/oddrowbanding/) { get; } | Ruft den Streifenstil für ungerade Zeilen ab. |
+| [TopLeftCell](../../aspose.words/conditionalstylecollection/topleftcell/) { get; } | Ruft den Zellenstil oben links ab. |
+| [TopRightCell](../../aspose.words/conditionalstylecollection/toprightcell/) { get; } | Ruft den Zellenstil oben rechts ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting)() | Löscht alle bedingten Stile des Tabellenstils. |
-| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle bedingten Stile in der Sammlung zu durchlaufen. |
+| [ClearFormatting](../../aspose.words/conditionalstylecollection/clearformatting/)() | Löscht alle bedingten Stile des Tabellenstils. |
+| [GetEnumerator](../../aspose.words/conditionalstylecollection/getenumerator/)() | Gibt ein Aufzählungsobjekt zurück, das verwendet werden kann, um alle bedingten Stile in der Sammlung zu durchlaufen. |
 
 ### Bemerkungen
 
-Es ist nicht möglich, Artikel zu dieser Sammlung hinzuzufügen oder daraus zu entfernen. Es enthält einen dauerhaften Satz von Elementen: ein Element für jeden Wert des[`ConditionalStyleType`](../conditionalstyletype) Aufzählungstyp.
+Es ist nicht möglich, Artikel zu dieser Sammlung hinzuzufügen oder daraus zu entfernen. Es enthält einen dauerhaften Satz von Elementen: ein Element für jeden Wert des[`ConditionalStyleType`](../conditionalstyletype/) Aufzählungstyp.
 
 ### Beispiele
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ### Siehe auch
 
-* class [ConditionalStyle](../conditionalstyle)
-* namensraum [Aspose.Words](../../aspose.words)
+* class [ConditionalStyle](../conditionalstyle/)
+* namensraum [Aspose.Words](../../aspose.words/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

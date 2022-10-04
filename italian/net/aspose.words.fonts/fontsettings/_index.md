@@ -18,33 +18,33 @@ public class FontSettings
 
 | Nome | Descrizione |
 | --- | --- |
-| [FontSettings](fontsettings)() | Default_Costruttore |
+| [FontSettings](fontsettings/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance) { get; } | Impostazioni dei caratteri predefiniti statici. |
-| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings) { get; } | Impostazioni relative al meccanismo di fallback dei caratteri. |
-| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings) { get; } | Impostazioni relative al meccanismo di sostituzione dei caratteri. |
+| static [DefaultInstance](../../aspose.words.fonts/fontsettings/defaultinstance/) { get; } | Impostazioni dei caratteri predefiniti statici. |
+| [FallbackSettings](../../aspose.words.fonts/fontsettings/fallbacksettings/) { get; } | Impostazioni relative al meccanismo di fallback dei caratteri. |
+| [SubstitutionSettings](../../aspose.words.fonts/fontsettings/substitutionsettings/) { get; } | Impostazioni relative al meccanismo di sostituzione dei caratteri. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources)() | Ottiene una copia dell'array che contiene l'elenco delle origini in cui Aspose.Words cerca i caratteri TrueType. |
-| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources)() | Ripristina le origini dei caratteri alle impostazioni predefinite del sistema. |
-| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache)(Stream) | Salva la cache di ricerca dei caratteri nello stream. |
-| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder)(string, bool) | Imposta la cartella in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. Questa è una scorciatoia per[`SetFontsFolders`](./setfontsfolders) per impostare una sola directory di font. |
-| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders)(string[], bool) | Imposta le cartelle in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources)(FontSourceBase[]) | Imposta le origini in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. |
-| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources#setfontssources_1)(FontSourceBase[], Stream) | Imposta le origini in cui Aspose.Words cerca i caratteri TrueType e carica inoltre la cache di ricerca dei caratteri precedentemente salvata . |
+| [GetFontsSources](../../aspose.words.fonts/fontsettings/getfontssources/)() | Ottiene una copia dell'array che contiene l'elenco delle origini in cui Aspose.Words cerca i caratteri TrueType. |
+| [ResetFontSources](../../aspose.words.fonts/fontsettings/resetfontsources/)() | Ripristina le origini dei caratteri alle impostazioni predefinite del sistema. |
+| [SaveSearchCache](../../aspose.words.fonts/fontsettings/savesearchcache/)(Stream) | Salva la cache di ricerca dei caratteri nello stream. |
+| [SetFontsFolder](../../aspose.words.fonts/fontsettings/setfontsfolder/)(string, bool) | Imposta la cartella in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. Questa è una scorciatoia per[`SetFontsFolders`](./setfontsfolders/) per impostare una sola directory di font. |
+| [SetFontsFolders](../../aspose.words.fonts/fontsettings/setfontsfolders/)(string[], bool) | Imposta le cartelle in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources)(FontSourceBase[]) | Imposta le origini in cui Aspose.Words cerca i caratteri TrueType durante il rendering di documenti o l'incorporamento di caratteri. |
+| [SetFontsSources](../../aspose.words.fonts/fontsettings/setfontssources/#setfontssources_1)(FontSourceBase[], Stream) | Imposta le origini in cui Aspose.Words cerca i caratteri TrueType e carica inoltre la cache di ricerca dei caratteri precedentemente salvata . |
 
 ### Osservazioni
 
-Aspose.Words utilizza le impostazioni dei caratteri per risolvere i caratteri nel documento. I caratteri vengono risolti principalmente durante la creazione del layout del documento o il rendering in formati di pagina fissi. Ma quando si caricano alcuni formati, anche Aspose.Words potrebbe richiedere di risolvere i caratteri. Ad esempio, quando carica documenti HTML, Aspose.Words può risolvere i caratteri per eseguire il fallback dei caratteri. Quindi si consiglia di impostare le impostazioni dei caratteri in [`LoadOptions`](../../aspose.words.loading/loadoptions) durante il caricamento del documento. O almeno prima di costruire il layout o di eseguire il rendering del documento nel formato a pagina fissa.
+Aspose.Words utilizza le impostazioni dei caratteri per risolvere i caratteri nel documento. I caratteri vengono risolti principalmente durante la creazione del layout del documento o il rendering in formati di pagina fissi. Ma quando si caricano alcuni formati, anche Aspose.Words potrebbe richiedere di risolvere i caratteri. Ad esempio, quando carica documenti HTML, Aspose.Words può risolvere i caratteri per eseguire il fallback dei caratteri. Quindi si consiglia di impostare le impostazioni dei caratteri in [`LoadOptions`](../../aspose.words.loading/loadoptions/) durante il caricamento del documento. O almeno prima di costruire il layout o di eseguire il rendering del documento nel formato a pagina fissa.
 
-Per impostazione predefinita, tutti i documenti utilizzano un'unica istanza di impostazioni dei caratteri statici. Potrebbe essere accessibile da [`DefaultInstance`](./defaultinstance) proprietà.
+Per impostazione predefinita, tutti i documenti utilizzano un'unica istanza di impostazioni dei caratteri statici. Potrebbe essere accessibile da [`DefaultInstance`](./defaultinstance/) proprietà.
 
 La modifica delle impostazioni dei caratteri è sicura in qualsiasi momento da qualsiasi thread. Ma si consiglia di non modificare le impostazioni dei caratteri durante l'elaborazione di alcuni documenti che utilizzano queste impostazioni. Questo può portare al fatto che lo stesso font verrà risolto in modo diverso in diverse parti del documento.
 
@@ -205,7 +205,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ### Guarda anche
 
-* spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts)
+* spazio dei nomi [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

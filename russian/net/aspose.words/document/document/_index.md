@@ -16,9 +16,9 @@ public Document()
 
 ### Примечания
 
-Размер бумаги документа по умолчанию — Letter. Если вы хотите изменить настройки страницы, используйте [`Раздел.PageSetup`](../../section/pagesetup).
+Размер бумаги документа по умолчанию — Letter. Если вы хотите изменить настройки страницы, используйте [`Раздел.PageSetup`](../../section/pagesetup/).
 
-После создания вы можете использовать[`DocumentBuilder`](../../documentbuilder) легко добавлять содержимое документа.
+После создания вы можете использовать[`DocumentBuilder`](../../documentbuilder/) легко добавлять содержимое документа.
 
 ### Примеры
 
@@ -63,8 +63,8 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Смотрите также
 
-* class [Document](../../document)
-* пространство имен [Aspose.Words](../../document)
+* class [Document](../)
+* пространство имен [Aspose.Words](../../document/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -85,11 +85,11 @@ public Document(string fileName)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -145,8 +145,8 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ### Смотрите также
 
-* class [Document](../../document)
-* пространство имен [Aspose.Words](../../document)
+* class [Document](../)
+* пространство имен [Aspose.Words](../../document/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -168,11 +168,11 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentException | Имя файла не может быть нулевым или пустой строкой. |
 
 ### Примеры
@@ -223,9 +223,9 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Смотрите также
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* пространство имен [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* пространство имен [Aspose.Words](../../document/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -246,11 +246,11 @@ public Document(Stream stream)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -300,8 +300,8 @@ using (WebClient webClient = new WebClient())
 
 ### Смотрите также
 
-* class [Document](../../document)
-* пространство имен [Aspose.Words](../../document)
+* class [Document](../)
+* пространство имен [Aspose.Words](../../document/)
 * сборка [Aspose.Words](../../../)
 
 ---
@@ -323,11 +323,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | исключение | условие |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | Формат документа не распознан или не поддерживается. |
-| [FileCorruptedException](../../filecorruptedexception) | Документ поврежден и не может быть загружен. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | Формат документа не распознан или не поддерживается. |
+| [FileCorruptedException](../../filecorruptedexception/) | Документ поврежден и не может быть загружен. |
 | Exception | Возникла проблема с документом, о ней следует сообщить разработчикам Aspose.Words. |
 | IOException | Существует исключение ввода/вывода. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | Документ зашифрован, и для его открытия требуется пароль, но вы указали неверный пароль. |
 | ArgumentNullException | Поток не может быть нулевым. |
 | NotSupportedException | Поток не поддерживает чтение или поиск. |
 | ObjectDisposedException | Поток — это удаленный объект. |
@@ -403,9 +403,9 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ### Смотрите также
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* пространство имен [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* пространство имен [Aspose.Words](../../document/)
 * сборка [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

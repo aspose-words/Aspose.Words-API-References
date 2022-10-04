@@ -18,62 +18,62 @@ public class Row : CompositeNode
 
 | Nom | La description |
 | --- | --- |
-| [Row](row)(DocumentBase) | Initialise une nouvelle instance du **Ligne** classe. |
+| [Row](row/)(DocumentBase) | Initialise une nouvelle instance du **Ligne** classe. |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells) { get; } | Fournit un accès typé au **Cellule** nœuds enfants de la ligne. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Obtient tous les nœuds enfants immédiats de ce nœud. |
-| [Count](../../aspose.words/compositenode/count) { get; } | Obtient le nombre d'enfants immédiats de ce nœud. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtient le document auquel ce nœud appartient. |
-| [FirstCell](../../aspose.words.tables/row/firstcell) { get; } | Renvoie le premier **Cellule** dans la rangée. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Obtient le premier enfant du nœud. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Renvoie vrai si ce nœud a des nœuds enfants. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Renvoie true car ce nœud peut avoir des nœuds enfants. |
-| [IsFirstRow](../../aspose.words.tables/row/isfirstrow) { get; } | Vrai s'il s'agit de la première ligne d'un tableau ; faux sinon. |
-| [IsLastRow](../../aspose.words.tables/row/islastrow) { get; } | Vrai s'il s'agit de la dernière ligne d'un tableau ; faux sinon. |
-| [LastCell](../../aspose.words.tables/row/lastcell) { get; } | Renvoie le dernier **Cellule** dans la rangée. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Obtient le dernier enfant du nœud. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
-| override [NodeType](../../aspose.words.tables/row/nodetype) { get; } | Retours **NodeType.Row** . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtient le parent immédiat de ce nœud. |
-| [ParentTable](../../aspose.words.tables/row/parenttable) { get; } | Renvoie la table parent immédiate de la ligne. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
-| [RowFormat](../../aspose.words.tables/row/rowformat) { get; } | Permet d'accéder aux propriétés de formatage de la ligne. |
+| [Cells](../../aspose.words.tables/row/cells/) { get; } | Fournit un accès typé au **Cellule** nœuds enfants de la ligne. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Obtient tous les nœuds enfants immédiats de ce nœud. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Obtient le nombre d'enfants immédiats de ce nœud. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
+| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Renvoie le premier **Cellule** dans la rangée. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Obtient le premier enfant du nœud. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Renvoie vrai si ce nœud a des nœuds enfants. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Renvoie true car ce nœud peut avoir des nœuds enfants. |
+| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | Vrai s'il s'agit de la première ligne d'un tableau ; faux sinon. |
+| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | Vrai s'il s'agit de la dernière ligne d'un tableau ; faux sinon. |
+| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Renvoie le dernier **Cellule** dans la rangée. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Obtient le dernier enfant du nœud. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
+| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | Retours **NodeType.Row** . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
+| [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | Renvoie la table parent immédiate de la ligne. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | Permet d'accéder aux propriétés de formatage de la ligne. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/row/accept)(DocumentVisitor) | Accepte un visiteur. |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crée un doublon du nœud. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Réservé à l'utilisation du système. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum)() | Si le **Ligne** n'a pas de cellules, crée et ajoute une **Cellule** . |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Renvoie une collection dynamique de nœuds enfants correspondant au type spécifié. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
-| override [GetText](../../aspose.words.tables/row/gettext)() | Obtient le texte de toutes les cellules de cette ligne, y compris le caractère de fin de ligne. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Insère le nœud spécifié juste avant le nœud de référence spécifié. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
-| [Remove](../../aspose.words/node/remove)() | Se supprime du parent. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Supprime le nœud enfant spécifié. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag) nœuds descendants du nœud actuel. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Sélectionne le premier nœud qui correspond à l'expression XPath. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| override [Accept](../../aspose.words.tables/row/accept/)(DocumentVisitor) | Accepte un visiteur. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Réservé à l'utilisation du système. IXPathNavigable. |
+| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | Si le **Ligne** n'a pas de cellules, crée et ajoute une **Cellule** . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Renvoie une collection dynamique de nœuds enfants correspondant au type spécifié. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
+| override [GetText](../../aspose.words.tables/row/gettext/)() | Obtient le texte de toutes les cellules de cette ligne, y compris le caractère de fin de ligne. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Insère le nœud spécifié juste avant le nœud de référence spécifié. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Supprime le nœud enfant spécifié. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/) nœuds descendants du nœud actuel. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Sélectionne le premier nœud qui correspond à l'expression XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
 
 ### Remarques
 
@@ -206,8 +206,8 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 ### Voir également
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* espace de noms [Aspose.Words.Tables](../../aspose.words.tables)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* espace de noms [Aspose.Words.Tables](../../aspose.words.tables/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

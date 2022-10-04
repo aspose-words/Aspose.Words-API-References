@@ -20,9 +20,9 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 ### Observaciones
 
-Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesitas escribir tu propia clase que implementa el[`IMailMergeDataSource`](../../imailmergedatasource) interfaz.
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesitas escribir tu propia clase que implementa el[`IMailMergeDataSource`](../../imailmergedatasource/) interfaz.
 
-Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
+Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
 
 ### Ejemplos
 
@@ -269,9 +269,9 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ### Ver también
 
-* interface [IMailMergeDataSource](../../imailmergedatasource)
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSource](../../imailmergedatasource/)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -290,9 +290,9 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 ### Observaciones
 
-Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesita escribir sus propias clases que implementen el[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot) y[`IMailMergeDataSource`](../../imailmergedatasource) interfaces
+Utilice este método para completar campos de combinación de correspondencia en el documento con valores de cualquier origen de datos personalizado, como un archivo XML o colecciones de objetos comerciales. Necesita escribir sus propias clases que implementen el[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) y[`IMailMergeDataSource`](../../imailmergedatasource/) interfaces
 
-Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
+Puede utilizar este método sólo cuando[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/)es falso, es decir, no necesita compatibilidad con idiomas de derecha a izquierda (como árabe o hebreo).
 
 ### Ejemplos
 
@@ -476,9 +476,9 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ### Ver también
 
-* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot)
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* interface [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -603,8 +603,8 @@ private static DataSet CreateDataSet()
 
 ### Ver también
 
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -760,8 +760,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Ver también
 
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -841,8 +841,8 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ### Ver también
 
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -911,8 +911,8 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 
 ### Ver también
 
-* class [MailMerge](../../mailmerge)
-* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge)
+* class [MailMerge](../)
+* espacio de nombres [Aspose.Words.MailMerging](../../mailmerge/)
 * asamblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

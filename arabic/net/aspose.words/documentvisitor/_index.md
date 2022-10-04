@@ -18,56 +18,56 @@ public abstract class DocumentVisitor
 
 | اسم | وصف |
 | --- | --- |
-| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab)(AbsolutePositionTab) | عند استدعائها[`AbsolutePositionTab`](../absolutepositiontab) تم مصادفة العقدة في المستند. |
-| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend)(Body) | يتم الاستدعاء عند انتهاء تعداد القصة النصية الرئيسية في أحد الأقسام. |
-| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart)(Body) | يتم الاستدعاء عند بدء تعداد القصة النصية الرئيسية في أحد الأقسام. |
-| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend)(BookmarkEnd) | يتم استدعاؤه عند مواجهة نهاية إشارة مرجعية في المستند. |
-| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart)(BookmarkStart) | يتم الاتصال به عند مواجهة بداية إشارة مرجعية في المستند. |
-| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend)(BuildingBlock) | يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية . |
-| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart)(BuildingBlock) | يتم استدعاؤه عند بدء تعداد الكتلة البرمجية الإنشائية . |
-| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend)(Cell) | يتم استدعاؤها عند انتهاء تعداد خلية جدول . |
-| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart)(Cell) | يتم استدعاؤها عند بدء تعداد خلية جدول . |
-| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend)(Comment) | يتم الاستدعاء عند انتهاء تعداد نص التعليق. |
-| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend)(CommentRangeEnd) | يتم استدعاؤه عند مواجهة نهاية نطاق النص المعلق عليه . |
-| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart)(CommentRangeStart) | يتم استدعاؤه عند مواجهة بداية نطاق النص المعلق عليه . |
-| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart)(Comment) | يتم الاستدعاء عند بدء تعداد نص التعليق. |
-| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend)(Document) | يتم استدعاؤها عند انتهاء تعداد المستند. |
-| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart)(Document) | يتم استدعاؤها عند بدء تعداد المستند. |
-| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend)(EditableRangeEnd) | يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند. |
-| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart)(EditableRangeStart) | يتم استدعاؤها عند مواجهة بداية نطاق قابل للتحرير في المستند. |
-| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend)(FieldEnd) | يتم استدعائها عند انتهاء أحد الحقول في المستند. |
-| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator)(FieldSeparator) | يتم استدعاؤه عند مصادفة فاصل حقل في المستند. |
-| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart)(FieldStart) | يتم استدعاؤها عندما يبدأ أحد الحقول في المستند. |
-| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend)(Footnote) | يتم استدعاؤها عند انتهاء تعداد نص حاشية سفلية أو تعليق ختامي. |
-| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart)(Footnote) | يتم الاستدعاء عند بدء تعداد نص حاشية سفلية أو تعليق ختامي. |
-| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield)(FormField) | يتم استدعاؤه عند مواجهة حقل نموذج في المستند. |
-| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend)(GlossaryDocument) | يتم استدعاؤه عند انتهاء تعداد مستند مسرد المصطلحات. |
-| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart)(GlossaryDocument) | يتم استدعاؤه عند بدء تعداد مستند مسرد المصطلحات. |
-| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend)(GroupShape) | يتم استدعاؤها عند انتهاء تعداد شكل مجموعة . |
-| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart)(GroupShape) | يتم استدعاؤها عند بدء تعداد شكل مجموعة . |
-| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend)(HeaderFooter) | يتم استدعاؤه عند انتهاء تعداد رأس أو تذييل في قسم. |
-| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart)(HeaderFooter) | يتم استدعاؤه عند بدء تعداد رأس أو تذييل في أحد الأقسام. |
-| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend)(OfficeMath) | يتم استدعاؤه عند انتهاء تعداد كائن Office Math . |
-| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart)(OfficeMath) | يتم استدعاؤه عند بدء تعداد كائن Office Math . |
-| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend)(Paragraph) | يتم استدعاؤها عند انتهاء تعداد فقرة. |
-| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart)(Paragraph) | يتم استدعاؤها عند بدء تعداد فقرة. |
-| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend)(Row) | يتم استدعاؤه عند انتهاء تعداد صف جدول . |
-| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart)(Row) | يتم استدعاؤه عند بدء تعداد صف جدول . |
-| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun)(Run) | يتم استدعاؤه عند مصادفة تشغيل نص في . |
-| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend)(Section) | يتم استدعاؤه عند انتهاء تعداد القسم. |
-| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart)(Section) | يتم استدعاؤه عند بدء تعداد القسم . |
-| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend)(Shape) | يتم استدعاؤها عند انتهاء تعداد الشكل. |
-| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart)(Shape) | يتم استدعاؤها عند بدء تعداد الشكل. |
-| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend)(SmartTag) | يتم الاستدعاء عند انتهاء تعداد العلامة الذكية . |
-| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart)(SmartTag) | يتم الاستدعاء عند بدء تعداد علامة ذكية . |
-| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar)(SpecialChar) | عند استدعائها[`SpecialChar`](../specialchar) تم مصادفة العقدة في المستند. |
-| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend)(StructuredDocumentTag) | يتم استدعاؤها عند انتهاء تعداد علامة مستند منظم. |
-| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend)(StructuredDocumentTagRangeEnd) |  |
-| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart)(StructuredDocumentTagRangeStart) |  |
-| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart)(StructuredDocumentTag) | يتم استدعاؤها عند بدء تعداد علامة مستند منظم. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument)(SubDocument) | يتم استدعاؤه عند مصادفة مستند ثانوي . |
-| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend)(Table) | يتم استدعاؤه عند انتهاء تعداد جدول . |
-| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart)(Table) | يتم استدعاؤها عند بدء تعداد جدول . |
+| virtual [VisitAbsolutePositionTab](../../aspose.words/documentvisitor/visitabsolutepositiontab/)(AbsolutePositionTab) | عند استدعائها[`AbsolutePositionTab`](../absolutepositiontab/) تم مصادفة العقدة في المستند. |
+| virtual [VisitBodyEnd](../../aspose.words/documentvisitor/visitbodyend/)(Body) | يتم الاستدعاء عند انتهاء تعداد القصة النصية الرئيسية في أحد الأقسام. |
+| virtual [VisitBodyStart](../../aspose.words/documentvisitor/visitbodystart/)(Body) | يتم الاستدعاء عند بدء تعداد القصة النصية الرئيسية في أحد الأقسام. |
+| virtual [VisitBookmarkEnd](../../aspose.words/documentvisitor/visitbookmarkend/)(BookmarkEnd) | يتم استدعاؤه عند مواجهة نهاية إشارة مرجعية في المستند. |
+| virtual [VisitBookmarkStart](../../aspose.words/documentvisitor/visitbookmarkstart/)(BookmarkStart) | يتم الاتصال به عند مواجهة بداية إشارة مرجعية في المستند. |
+| virtual [VisitBuildingBlockEnd](../../aspose.words/documentvisitor/visitbuildingblockend/)(BuildingBlock) | يتم استدعاؤه عند انتهاء تعداد الكتلة البرمجية الإنشائية . |
+| virtual [VisitBuildingBlockStart](../../aspose.words/documentvisitor/visitbuildingblockstart/)(BuildingBlock) | يتم استدعاؤه عند بدء تعداد الكتلة البرمجية الإنشائية . |
+| virtual [VisitCellEnd](../../aspose.words/documentvisitor/visitcellend/)(Cell) | يتم استدعاؤها عند انتهاء تعداد خلية جدول . |
+| virtual [VisitCellStart](../../aspose.words/documentvisitor/visitcellstart/)(Cell) | يتم استدعاؤها عند بدء تعداد خلية جدول . |
+| virtual [VisitCommentEnd](../../aspose.words/documentvisitor/visitcommentend/)(Comment) | يتم الاستدعاء عند انتهاء تعداد نص التعليق. |
+| virtual [VisitCommentRangeEnd](../../aspose.words/documentvisitor/visitcommentrangeend/)(CommentRangeEnd) | يتم استدعاؤه عند مواجهة نهاية نطاق النص المعلق عليه . |
+| virtual [VisitCommentRangeStart](../../aspose.words/documentvisitor/visitcommentrangestart/)(CommentRangeStart) | يتم استدعاؤه عند مواجهة بداية نطاق النص المعلق عليه . |
+| virtual [VisitCommentStart](../../aspose.words/documentvisitor/visitcommentstart/)(Comment) | يتم الاستدعاء عند بدء تعداد نص التعليق. |
+| virtual [VisitDocumentEnd](../../aspose.words/documentvisitor/visitdocumentend/)(Document) | يتم استدعاؤها عند انتهاء تعداد المستند. |
+| virtual [VisitDocumentStart](../../aspose.words/documentvisitor/visitdocumentstart/)(Document) | يتم استدعاؤها عند بدء تعداد المستند. |
+| virtual [VisitEditableRangeEnd](../../aspose.words/documentvisitor/visiteditablerangeend/)(EditableRangeEnd) | يتم استدعاؤه عند مواجهة نهاية نطاق قابل للتحرير في المستند. |
+| virtual [VisitEditableRangeStart](../../aspose.words/documentvisitor/visiteditablerangestart/)(EditableRangeStart) | يتم استدعاؤها عند مواجهة بداية نطاق قابل للتحرير في المستند. |
+| virtual [VisitFieldEnd](../../aspose.words/documentvisitor/visitfieldend/)(FieldEnd) | يتم استدعائها عند انتهاء أحد الحقول في المستند. |
+| virtual [VisitFieldSeparator](../../aspose.words/documentvisitor/visitfieldseparator/)(FieldSeparator) | يتم استدعاؤه عند مصادفة فاصل حقل في المستند. |
+| virtual [VisitFieldStart](../../aspose.words/documentvisitor/visitfieldstart/)(FieldStart) | يتم استدعاؤها عندما يبدأ أحد الحقول في المستند. |
+| virtual [VisitFootnoteEnd](../../aspose.words/documentvisitor/visitfootnoteend/)(Footnote) | يتم استدعاؤها عند انتهاء تعداد نص حاشية سفلية أو تعليق ختامي. |
+| virtual [VisitFootnoteStart](../../aspose.words/documentvisitor/visitfootnotestart/)(Footnote) | يتم الاستدعاء عند بدء تعداد نص حاشية سفلية أو تعليق ختامي. |
+| virtual [VisitFormField](../../aspose.words/documentvisitor/visitformfield/)(FormField) | يتم استدعاؤه عند مواجهة حقل نموذج في المستند. |
+| virtual [VisitGlossaryDocumentEnd](../../aspose.words/documentvisitor/visitglossarydocumentend/)(GlossaryDocument) | يتم استدعاؤه عند انتهاء تعداد مستند مسرد المصطلحات. |
+| virtual [VisitGlossaryDocumentStart](../../aspose.words/documentvisitor/visitglossarydocumentstart/)(GlossaryDocument) | يتم استدعاؤه عند بدء تعداد مستند مسرد المصطلحات. |
+| virtual [VisitGroupShapeEnd](../../aspose.words/documentvisitor/visitgroupshapeend/)(GroupShape) | يتم استدعاؤها عند انتهاء تعداد شكل مجموعة . |
+| virtual [VisitGroupShapeStart](../../aspose.words/documentvisitor/visitgroupshapestart/)(GroupShape) | يتم استدعاؤها عند بدء تعداد شكل مجموعة . |
+| virtual [VisitHeaderFooterEnd](../../aspose.words/documentvisitor/visitheaderfooterend/)(HeaderFooter) | يتم استدعاؤه عند انتهاء تعداد رأس أو تذييل في قسم. |
+| virtual [VisitHeaderFooterStart](../../aspose.words/documentvisitor/visitheaderfooterstart/)(HeaderFooter) | يتم استدعاؤه عند بدء تعداد رأس أو تذييل في أحد الأقسام. |
+| virtual [VisitOfficeMathEnd](../../aspose.words/documentvisitor/visitofficemathend/)(OfficeMath) | يتم استدعاؤه عند انتهاء تعداد كائن Office Math . |
+| virtual [VisitOfficeMathStart](../../aspose.words/documentvisitor/visitofficemathstart/)(OfficeMath) | يتم استدعاؤه عند بدء تعداد كائن Office Math . |
+| virtual [VisitParagraphEnd](../../aspose.words/documentvisitor/visitparagraphend/)(Paragraph) | يتم استدعاؤها عند انتهاء تعداد فقرة. |
+| virtual [VisitParagraphStart](../../aspose.words/documentvisitor/visitparagraphstart/)(Paragraph) | يتم استدعاؤها عند بدء تعداد فقرة. |
+| virtual [VisitRowEnd](../../aspose.words/documentvisitor/visitrowend/)(Row) | يتم استدعاؤه عند انتهاء تعداد صف جدول . |
+| virtual [VisitRowStart](../../aspose.words/documentvisitor/visitrowstart/)(Row) | يتم استدعاؤه عند بدء تعداد صف جدول . |
+| virtual [VisitRun](../../aspose.words/documentvisitor/visitrun/)(Run) | يتم استدعاؤه عند مصادفة تشغيل نص في . |
+| virtual [VisitSectionEnd](../../aspose.words/documentvisitor/visitsectionend/)(Section) | يتم استدعاؤه عند انتهاء تعداد القسم. |
+| virtual [VisitSectionStart](../../aspose.words/documentvisitor/visitsectionstart/)(Section) | يتم استدعاؤه عند بدء تعداد القسم . |
+| virtual [VisitShapeEnd](../../aspose.words/documentvisitor/visitshapeend/)(Shape) | يتم استدعاؤها عند انتهاء تعداد الشكل. |
+| virtual [VisitShapeStart](../../aspose.words/documentvisitor/visitshapestart/)(Shape) | يتم استدعاؤها عند بدء تعداد الشكل. |
+| virtual [VisitSmartTagEnd](../../aspose.words/documentvisitor/visitsmarttagend/)(SmartTag) | يتم الاستدعاء عند انتهاء تعداد العلامة الذكية . |
+| virtual [VisitSmartTagStart](../../aspose.words/documentvisitor/visitsmarttagstart/)(SmartTag) | يتم الاستدعاء عند بدء تعداد علامة ذكية . |
+| virtual [VisitSpecialChar](../../aspose.words/documentvisitor/visitspecialchar/)(SpecialChar) | عند استدعائها[`SpecialChar`](../specialchar/) تم مصادفة العقدة في المستند. |
+| virtual [VisitStructuredDocumentTagEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagend/)(StructuredDocumentTag) | يتم استدعاؤها عند انتهاء تعداد علامة مستند منظم. |
+| virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
+| virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
+| virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | يتم استدعاؤها عند بدء تعداد علامة مستند منظم. |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | يتم استدعاؤه عند مصادفة مستند ثانوي . |
+| virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | يتم استدعاؤه عند انتهاء تعداد جدول . |
+| virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | يتم استدعاؤها عند بدء تعداد جدول . |
 
 ### ملاحظات
 
@@ -79,7 +79,7 @@ public abstract class DocumentVisitor
 
 1. قم بإنشاء فئة مشتقة من **وثيقة الزائر**.
 2. تجاوز وتوفير تطبيقات لبعض أو كل أساليب VisitXXX لإجراء بعض العمليات المخصصة.
-3. مكالمة[`العقدة قبول`](../node/accept) على ال **العقدة** that الذي تريد بدء التعداد منه.
+3. مكالمة[`العقدة قبول`](../node/accept/) على ال **العقدة** that الذي تريد بدء التعداد منه.
 
 **وثيقة الزائر**يوفر عمليات التنفيذ الافتراضية لجميع طرق VisitXXX لتسهيل إنشاء زوار مستند جديد حيث يجب تجاوز الطرق المطلوبة فقط للزائر المعين. ليس من الضروري تجاوز كل طرق الزائر.
 
@@ -253,7 +253,7 @@ public class DocStructurePrinter : DocumentVisitor
 
 ### أنظر أيضا
 
-* مساحة الاسم [Aspose.Words](../../aspose.words)
+* مساحة الاسم [Aspose.Words](../../aspose.words/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

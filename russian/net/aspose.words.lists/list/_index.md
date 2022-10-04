@@ -18,36 +18,36 @@ public class List : IComparable<List>
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.lists/list/document) { get; } | Получает документ владельца. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition) { get; } | Возвращает true, если этот список является определением стиля списка. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | Возвращает true, если этот список является ссылкой на стиль списка. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | Возвращает true, если список содержит 9 уровней; false при 1 уровне. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection) { get; set; } | Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию: **ЛОЖЬ** . |
-| [ListId](../../aspose.words.lists/list/listid) { get; } | Получает уникальный идентификатор списка. |
-| [ListLevels](../../aspose.words.lists/list/listlevels) { get; } | Получает набор уровней списка для этого списка. |
-| [Style](../../aspose.words.lists/list/style) { get; } | Получает стиль списка, на который ссылается или определяет этот список. |
+| [Document](../../aspose.words.lists/list/document/) { get; } | Получает документ владельца. |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Возвращает true, если этот список является определением стиля списка. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Возвращает true, если этот список является ссылкой на стиль списка. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Возвращает true, если список содержит 9 уровней; false при 1 уровне. |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Указывает, следует ли перезапускать список в каждом разделе. Значение по умолчанию: **ЛОЖЬ** . |
+| [ListId](../../aspose.words.lists/list/listid/) { get; } | Получает уникальный идентификатор списка. |
+| [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Получает набор уровней списка для этого списка. |
+| [Style](../../aspose.words.lists/list/style/) { get; } | Получает стиль списка, на который ссылается или определяет этот список. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | Сравнивает указанный список с текущим списком. |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | Сравнивает указанный объект с текущим объектом. |
-| [Equals](../../aspose.words.lists/list/equals#equals)(List) | Сравнивает с указанным списком. |
-| override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
-| override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Вычисляет хэш-код для этого объекта списка. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Сравнивает указанный список с текущим списком. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Сравнивает указанный объект с текущим объектом. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Сравнивает с указанным списком. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
+| override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Вычисляет хэш-код для этого объекта списка. |
 
 ### Примечания
 
 Список в документе Microsoft Word представляет собой набор свойств форматирования списка. Каждый список может иметь до 9 уровней, а свойства форматирования, такие как стиль чисел, начальное значение, отступ, позиция табуляции и т. д., определяются отдельно для каждого уровня.
 
-А[`List`](../list) объект всегда принадлежит[`ListCollection`](../listcollection) коллекция.
+А[`List`](./list/) объект всегда принадлежит[`ListCollection`](../listcollection/) коллекция.
 
-Чтобы создать новый список, используйте методы Add класса[`ListCollection`](../listcollection) коллекция.
+Чтобы создать новый список, используйте методы Add класса[`ListCollection`](../listcollection/) коллекция.
 
-Чтобы изменить форматирование списка, используйте[`ListLevel`](../listlevel) объекты, найденные в [`ListLevels`](./listlevels) коллекция.
+Чтобы изменить форматирование списка, используйте[`ListLevel`](../listlevel/) объекты, найденные в [`ListLevels`](./listlevels/) коллекция.
 
-Чтобы применить или удалить форматирование списка из абзаца, используйте[`ListFormat`](../listformat).
+Чтобы применить или удалить форматирование списка из абзаца, используйте[`ListFormat`](../listformat/).
 
 ### Примеры
 
@@ -194,7 +194,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Смотрите также
 
-* пространство имен [Aspose.Words.Lists](../../aspose.words.lists)
+* пространство имен [Aspose.Words.Lists](../../aspose.words.lists/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

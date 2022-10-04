@@ -18,30 +18,30 @@ public abstract class Node
 
 | Nom | La description |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Obtient le document auquel ce nœud appartient. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
-| abstract [NodeType](../../aspose.words/node/nodetype) { get; } | Obtient le type de ce nœud. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Obtient le parent immédiat de ce nœud. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel ce nœud appartient. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Renvoie true si ce nœud peut contenir d'autres nœuds. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
+| abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Obtient le type de ce nœud. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un **Intervalle** objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| abstract [Accept](../../aspose.words/node/accept)(DocumentVisitor) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone)(bool) | Crée un doublon du nœud. |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor#getancestor_1)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
-| virtual [GetText](../../aspose.words/node/gettext)() | Obtient le texte de ce nœud et de tous ses enfants. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
-| [Remove](../../aspose.words/node/remove)() | Se supprime du parent. |
-| [ToString](../../aspose.words/node/tostring#tostring_1)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring#tostring_2)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring)(NodeType) | Une méthode utilitaire qui convertit une valeur d'énumération de type de nœud en une chaîne conviviale. |
+| abstract [Accept](../../aspose.words/node/accept/)(DocumentVisitor) | Accepte un visiteur. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Crée un doublon du nœud. |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(NodeType) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(Type) | Obtient le premier ancêtre du type d'objet spécifié. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
+| [ToString](../../aspose.words/node/tostring/#tostring_1)(SaveFormat) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
+| [ToString](../../aspose.words/node/tostring/#tostring_2)(SaveOptions) | Exporte le contenu du nœud dans une chaîne à l'aide des options d'enregistrement spécifiées. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(NodeType) | Une méthode utilitaire qui convertit une valeur d'énumération de type de nœud en une chaîne conviviale. |
 
 ### Remarques
 
@@ -49,7 +49,7 @@ Un document est représenté comme une arborescence de nœuds, similaire à DOM 
 
 Pour plus d'informations, consultez le modèle de conception Composite.
 
-La[`Node`](../node)classer:
+La[`Node`](./node/)classer:
 
 * Définit l'interface du nœud enfant.
 * Définit l'interface pour visiter les nœuds.
@@ -146,7 +146,7 @@ foreach (Node child in children)
 
 ### Voir également
 
-* espace de noms [Aspose.Words](../../aspose.words)
+* espace de noms [Aspose.Words](../../aspose.words/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

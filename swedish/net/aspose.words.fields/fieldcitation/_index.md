@@ -18,43 +18,43 @@ public class FieldCitation : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldCitation](fieldcitation)() | Default_Constructor |
+| [FieldCitation](fieldcitation/)() | Default_Constructor |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Får en[`FieldFormat`](../fieldformat) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid) { get; set; } | Hämtar eller ställer in språk-ID som används i samband med den angivna bibliografiska stilen för att formatera citation i dokumentet. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber) { get; set; } | Hämtar eller ställer in ett sidnummer kopplat till citatet. |
-| [Prefix](../../aspose.words.fields/fieldcitation/prefix) { get; set; } | Hämtar eller ställer in ett prefix som föregås av citatet. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
-| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka**elementets värde för källan som ska infogas. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Hämtar noden som representerar början av fältet. |
-| [Suffix](../../aspose.words.fields/fieldcitation/suffix) { get; set; } | Hämtar eller ställer in ett suffix som läggs till citatet. |
-| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor) { get; set; } | Hämtar eller ställer in om författarens information dämpas från citatet. |
-| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle) { get; set; } | Hämtar eller ställer in om titelinformationen undertrycks från citatet. |
-| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear) { get; set; } | Hämtar eller ställer in om årsinformationen undertrycks från citatet. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Hämtar fälttypen Microsoft Word. |
-| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber) { get; set; } | Hämtar eller ställer in ett volymnummer kopplat till citatet. |
+| [AnotherSourceTag](../../aspose.words.fields/fieldcitation/anothersourcetag/) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka** elementets värde för en annan källa som ska inkluderas i citatet. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
+| [FormatLanguageId](../../aspose.words.fields/fieldcitation/formatlanguageid/) { get; set; } | Hämtar eller ställer in språk-ID som används i samband med den angivna bibliografiska stilen för att formatera citation i dokumentet. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
+| [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Hämtar eller ställer in ett sidnummer kopplat till citatet. |
+| [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Hämtar eller ställer in ett prefix som föregås av citatet. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara null. |
+| [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Hämtar eller ställer in ett värde som motsvarar **Märka**elementets värde för källan som ska infogas. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
+| [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Hämtar eller ställer in ett suffix som läggs till citatet. |
+| [SuppressAuthor](../../aspose.words.fields/fieldcitation/suppressauthor/) { get; set; } | Hämtar eller ställer in om författarens information dämpas från citatet. |
+| [SuppressTitle](../../aspose.words.fields/fieldcitation/suppresstitle/) { get; set; } | Hämtar eller ställer in om titelinformationen undertrycks från citatet. |
+| [SuppressYear](../../aspose.words.fields/fieldcitation/suppressyear/) { get; set; } | Hämtar eller ställer in om årsinformationen undertrycks från citatet. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
+| [VolumeNumber](../../aspose.words.fields/fieldcitation/volumenumber/) { get; set; } | Hämtar eller ställer in ett volymnummer kopplat till citatet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras **null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
 
 ### Anmärkningar
 
@@ -113,8 +113,8 @@ doc.Save(ArtifactsDir + "Field.CITATION.docx");
 
 ### Se även
 
-* class [Field](../field)
-* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namnutrymme [Aspose.Words.Fields](../../aspose.words.fields/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

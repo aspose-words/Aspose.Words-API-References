@@ -18,40 +18,40 @@ public class FieldSymbol : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldSymbol](fieldsymbol)() | Constructor predeterminado |
+| [FieldSymbol](fieldsymbol/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode) { get; set; } | Obtiene o establece el valor del punto de código del carácter en decimal o hexadecimal. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing) { get; set; } | Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [FontName](../../aspose.words.fields/fieldsymbol/fontname) { get; set; } | Obtiene o establece el nombre de la fuente del carácter recuperado por el campo. |
-| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize) { get; set; } | Obtiene o establece el tamaño en puntos de la fuente del carácter recuperado por el campo. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter ANSI. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter SHIFT-JIS. |
-| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter Unicode. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode/) { get; set; } | Obtiene o establece el valor del punto de código del carácter en decimal o hexadecimal. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing/) { get; set; } | Obtiene o establece si el carácter recuperado por el campo afecta el interlineado del párrafo. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [FontName](../../aspose.words.fields/fieldsymbol/fontname/) { get; set; } | Obtiene o establece el nombre de la fuente del carácter recuperado por el campo. |
+| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize/) { get; set; } | Obtiene o establece el tamaño en puntos de la fuente del carácter recuperado por el campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter ANSI. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter SHIFT-JIS. |
+| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode/) { get; set; } | Obtiene o establece si el código de carácter se interpreta como el valor de un carácter Unicode. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
@@ -112,8 +112,8 @@ doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

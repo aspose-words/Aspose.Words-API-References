@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words لمراجع .NET API
-description: إضافة جديدChartSeriesaspose.words.drawing.charts/chartseriesإلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+description: إضافة جديدChartSeriesaspose.words.drawing.charts/chartseries/إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartseriescollection/add/
 ---
 ## Add(string, string[], double[]) {#add_3}
 
-إضافة جديد[`ChartSeries`](../../chartseries)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
+إضافة جديد[`ChartSeries`](../../chartseries/)إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الشريطية والعمودية والخطية والسطحية.
 
 ```csharp
 public ChartSeries Add(string seriesName, string[] categories, double[] values)
@@ -16,7 +16,7 @@ public ChartSeries Add(string seriesName, string[] categories, double[] values)
 
 ### قيمة الإرجاع
 
-أضيف مؤخرا[`ChartSeries`](../../chartseries) هدف.
+أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
 ### أمثلة
 
@@ -105,16 +105,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### أنظر أيضا
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[]) {#add}
 
-إضافة جديد[`ChartSeries`](../../chartseries) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
+إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة . استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المبعثرة.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
@@ -122,7 +122,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues)
 
 ### قيمة الإرجاع
 
-أضيف مؤخرا[`ChartSeries`](../../chartseries) هدف.
+أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
 ### أمثلة
 
@@ -211,16 +211,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### أنظر أيضا
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, DateTime[], double[]) {#add_2}
 
-إضافة جديد[`ChartSeries`](../../chartseries) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادار والأسهم.
+إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات المساحية والرادار والأسهم.
 
 ```csharp
 public ChartSeries Add(string seriesName, DateTime[] dates, double[] values)
@@ -313,16 +313,16 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### أنظر أيضا
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * المجسم [Aspose.Words](../../../)
 
 ---
 
 ## Add(string, double[], double[], double[]) {#add_1}
 
-إضافة جديد[`ChartSeries`](../../chartseries) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية.
+إضافة جديد[`ChartSeries`](../../chartseries/) إلى هذه المجموعة. استخدم هذه الطريقة لإضافة سلسلة إلى أي نوع من المخططات الفقاعية.
 
 ```csharp
 public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
@@ -330,7 +330,7 @@ public ChartSeries Add(string seriesName, double[] xValues, double[] yValues, do
 
 ### قيمة الإرجاع
 
-أضيف مؤخرا[`ChartSeries`](../../chartseries) هدف.
+أضيف مؤخرا[`ChartSeries`](../../chartseries/) هدف.
 
 ### أمثلة
 
@@ -419,9 +419,9 @@ private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, d
 
 ### أنظر أيضا
 
-* class [ChartSeries](../../chartseries)
-* class [ChartSeriesCollection](../../chartseriescollection)
-* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection)
+* class [ChartSeries](../../chartseries/)
+* class [ChartSeriesCollection](../)
+* مساحة الاسم [Aspose.Words.Drawing.Charts](../../chartseriescollection/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

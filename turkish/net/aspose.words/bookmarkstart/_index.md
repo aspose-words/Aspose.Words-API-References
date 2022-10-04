@@ -18,45 +18,45 @@ public class BookmarkStart : Node
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarkStart](bookmarkstart)(DocumentBase, string) | Yeni bir örneğini başlatır[`BookmarkStart`](../bookmarkstart) sınıf. |
+| [BookmarkStart](bookmarkstart/)(DocumentBase, string) | Yeni bir örneğini başlatır[`BookmarkStart`](./bookmarkstart/) sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Bookmark](../../aspose.words/bookmarkstart/bookmark) { get; } | Bu yer iminin başlangıç ve bitişini kapsayan cephe nesnesini alır. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Bu düğümün ait olduğu belgeyi alır. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
-| [Name](../../aspose.words/bookmarkstart/name) { get; set; } | Yer imi adını alır veya ayarlar. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Bu düğümden hemen sonraki düğümü alır. |
-| override [NodeType](../../aspose.words/bookmarkstart/nodetype) { get; } | İadeBookmarkStart . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Bu düğümün hemen üst öğesini alır. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
+| [Bookmark](../../aspose.words/bookmarkstart/bookmark/) { get; } | Bu yer iminin başlangıç ve bitişini kapsayan cephe nesnesini alır. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Bu düğüm başka düğümler içerebiliyorsa true değerini döndürür. |
+| [Name](../../aspose.words/bookmarkstart/name/) { get; set; } | Yer imi adını alır veya ayarlar. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonraki düğümü alır. |
+| override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | İadeBookmarkStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün hemen üst öğesini alır. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir döndürür **Menzil** belgenin bu düğümde bulunan bölümünü temsil eden nesne. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkstart/accept)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
-| [Clone](../../aspose.words/node/clone)(bool) | Düğümün bir kopyasını oluşturur. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
-| override [GetText](../../aspose.words/bookmarkstart/gettext)() | Boş bir dize döndürür. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove)() | Kendini üst öğeden kaldırır. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
+| override [Accept](../../aspose.words/bookmarkstart/accept/)(DocumentVisitor) | Bir ziyaretçiyi kabul eder. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Düğümün bir kopyasını oluşturur. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Belirtilen nesne türünün ilk üst öğesini alır. |
+| override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Boş bir dize döndürür. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ### Notlar
 
-Bir Word belgesindeki eksiksiz bir yer imi, bir[`BookmarkStart`](../bookmarkstart) ve eşleşen[`BookmarkEnd`](../bookmarkend) aynı yer imi adıyla.
+Bir Word belgesindeki eksiksiz bir yer imi, bir[`BookmarkStart`](./bookmarkstart/) ve eşleşen[`BookmarkEnd`](../bookmarkend/) aynı yer imi adıyla.
 
-[`BookmarkStart`](../bookmarkstart) ve[`BookmarkEnd`](../bookmarkend) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
+[`BookmarkStart`](./bookmarkstart/) ve[`BookmarkEnd`](../bookmarkend/) sadece yer iminin nerede başlayıp nerede bittiğini belirten bir document içindeki işaretlerdir.
 
-Kullan[`Bookmark`](./bookmark) bookmark ile tek bir nesne olarak çalışmak için "cephe" olarak sınıflandırın.
+Kullan[`Bookmark`](./bookmark/) bookmark ile tek bir nesne olarak çalışmak için "cephe" olarak sınıflandırın.
 
 ### Örnekler
 
@@ -147,8 +147,8 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ### Ayrıca bakınız
 
-* class [Node](../node)
-* ad alanı [Aspose.Words](../../aspose.words)
+* class [Node](../node/)
+* ad alanı [Aspose.Words](../../aspose.words/)
 * toplantı [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

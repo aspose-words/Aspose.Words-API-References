@@ -18,49 +18,49 @@ public class FieldIndex : Field
 
 | Nome | Descrizione |
 | --- | --- |
-| [FieldIndex](fieldindex)() | Default_Costruttore |
+| [FieldIndex](fieldindex/)() | Default_Costruttore |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname) { get; set; } | Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare l'indice. |
-| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i riferimenti incrociati e altre voci. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | Ottiene o imposta un tipo di voce di indice utilizzato per creare l'indice. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Ottiene a[`FieldFormat`](../fieldformat) oggetto che fornisce l'accesso digitato alla formattazione del campo. |
-| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | Ottiene un valore che indica se un separatore del numero di pagina viene sovrascritto tramite il codice del campo. |
-| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | Ottiene un valore che indica se una sequenza deve essere utilizzata durante la creazione del risultato del campo. |
-| [Heading](../../aspose.words.fields/fieldindex/heading) { get; set; } | Ottiene o imposta un'intestazione che appare all'inizio di ogni serie di voci per una determinata lettera. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolarne il risultato). |
-| [LanguageId](../../aspose.words.fields/fieldindex/languageid) { get; set; } | Ottiene o imposta l'ID lingua utilizzato per generare l'indice. |
-| [LetterRange](../../aspose.words.fields/fieldindex/letterrange) { get; set; } | Ottiene o imposta un intervallo di lettere a cui limitare l'indice. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ottiene o imposta l'LCID del campo. |
-| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns) { get; set; } | Ottiene o imposta il numero di colonne per pagina utilizzate durante la creazione dell'indice. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare due numeri di pagina in un elenco di numeri di pagina. |
-| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce di indice e il relativo numero di pagina. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare l'inizio e la fine di un intervallo di pagine. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Ottiene o imposta il testo che si trova tra il separatore di campo e la fine del campo. |
-| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline) { get; set; } | Ottiene o imposta se eseguire voci secondarie nella stessa riga della voce principale. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere nullo. |
-| [SequenceName](../../aspose.words.fields/fieldindex/sequencename) { get; set; } | Ottiene o imposta il nome di una sequenza il cui numero è incluso nel numero di pagina. |
-| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ottiene il tipo di campo di Microsoft Word. |
-| [UseYomi](../../aspose.words.fields/fieldindex/useyomi) { get; set; } | Ottiene o imposta se abilitare l'uso del testo yomi per le voci dell'indice. |
+| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname/) { get; set; } | Ottiene o imposta il nome del segnalibro che contrassegna la parte del documento utilizzata per creare l'indice. |
+| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i riferimenti incrociati e altre voci. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype/) { get; set; } | Ottiene o imposta un tipo di voce di indice utilizzato per creare l'indice. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce l'accesso digitato alla formattazione del campo. |
+| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator/) { get; } | Ottiene un valore che indica se un separatore del numero di pagina viene sovrascritto tramite il codice del campo. |
+| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename/) { get; } | Ottiene un valore che indica se una sequenza deve essere utilizzata durante la creazione del risultato del campo. |
+| [Heading](../../aspose.words.fields/fieldindex/heading/) { get; set; } | Ottiene o imposta un'intestazione che appare all'inizio di ogni serie di voci per una determinata lettera. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolarne il risultato). |
+| [LanguageId](../../aspose.words.fields/fieldindex/languageid/) { get; set; } | Ottiene o imposta l'ID lingua utilizzato per generare l'indice. |
+| [LetterRange](../../aspose.words.fields/fieldindex/letterrange/) { get; set; } | Ottiene o imposta un intervallo di lettere a cui limitare l'indice. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
+| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns/) { get; set; } | Ottiene o imposta il numero di colonne per pagina utilizzate durante la creazione dell'indice. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare due numeri di pagina in un elenco di numeri di pagina. |
+| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare una voce di indice e il relativo numero di pagina. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare l'inizio e la fine di un intervallo di pagine. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo che si trova tra il separatore di campo e la fine del campo. |
+| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | Ottiene o imposta se eseguire voci secondarie nella stessa riga della voce principale. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere nullo. |
+| [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | Ottiene o imposta il nome di una sequenza il cui numero è incluso nel numero di pagina. |
+| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | Ottiene o imposta la sequenza di caratteri utilizzata per separare i numeri di sequenza e i numeri di pagina. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
+| [UseYomi](../../aspose.words.fields/fieldindex/useyomi/) { get; set; } | Ottiene o imposta se abilitare l'uso del testo yomi per le voci dell'indice. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). |
-| [Remove](../../aspose.words.fields/field/remove)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice campo che il risultato campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo padre, restituisce il suo paragrafo padre. Se il campo è già stato rimosso, ritorna **nullo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Esegue un aggiornamento del campo. Genera se il campo è già in fase di aggiornamento. |
 
 ### Osservazioni
 
@@ -189,8 +189,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### Guarda anche
 
-* class [Field](../field)
-* spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* spazio dei nomi [Aspose.Words.Fields](../../aspose.words.fields/)
 * assemblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

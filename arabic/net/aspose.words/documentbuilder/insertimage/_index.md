@@ -24,7 +24,7 @@ public Shape InsertImage(Image image)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -56,9 +56,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -83,7 +83,7 @@ public Shape InsertImage(string fileName)
 
 سيؤدي هذا التحميل الزائد إلى تنزيل الصورة تلقائيًا قبل إدراجها في document إذا قمت بتحديد URI بعيد.
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -189,9 +189,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -214,7 +214,7 @@ public Shape InsertImage(Stream stream)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -262,9 +262,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -287,7 +287,7 @@ public Shape InsertImage(byte[] imageBytes)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -361,9 +361,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -388,7 +388,7 @@ public Shape InsertImage(Image image, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -448,9 +448,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -475,7 +475,7 @@ public Shape InsertImage(string fileName, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -506,9 +506,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -533,7 +533,7 @@ public Shape InsertImage(Stream stream, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -566,9 +566,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -593,7 +593,7 @@ public Shape InsertImage(byte[] imageBytes, double width, double height)
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -667,9 +667,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -700,7 +700,7 @@ public Shape InsertImage(Image image, RelativeHorizontalPosition horzPos, double
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -760,12 +760,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -796,7 +796,7 @@ public Shape InsertImage(string fileName, RelativeHorizontalPosition horzPos, do
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -864,12 +864,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -900,7 +900,7 @@ public Shape InsertImage(Stream stream, RelativeHorizontalPosition horzPos, doub
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -933,12 +933,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 ---
@@ -969,7 +969,7 @@ public Shape InsertImage(byte[] imageBytes, RelativeHorizontalPosition horzPos, 
 
 ### ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape) تم إرجاع الكائن بهذه الطريقة.
+يمكنك تغيير حجم الصورة والموقع وطريقة تحديد المواقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) تم إرجاع الكائن بهذه الطريقة.
 
 ### أمثلة
 
@@ -1043,12 +1043,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### أنظر أيضا
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* مساحة الاسم [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* مساحة الاسم [Aspose.Words](../../documentbuilder/)
 * المجسم [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

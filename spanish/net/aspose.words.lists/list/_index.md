@@ -18,36 +18,36 @@ public class List : IComparable<List>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Document](../../aspose.words.lists/list/document) { get; } | Obtiene el documento del propietario. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition) { get; } | Devuelve verdadero si esta lista es una definición de un estilo de lista. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference) { get; } | Devuelve verdadero si esta lista es una referencia a un estilo de lista. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel) { get; } | Devuelve verdadero cuando la lista contiene 9 niveles; falso cuando 1 nivel. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection) { get; set; } | Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es **falso** . |
-| [ListId](../../aspose.words.lists/list/listid) { get; } | Obtiene el identificador único de la lista. |
-| [ListLevels](../../aspose.words.lists/list/listlevels) { get; } | Obtiene la colección de niveles de lista para esta lista. |
-| [Style](../../aspose.words.lists/list/style) { get; } | Obtiene el estilo de lista al que hace referencia o define esta lista. |
+| [Document](../../aspose.words.lists/list/document/) { get; } | Obtiene el documento del propietario. |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Devuelve verdadero si esta lista es una definición de un estilo de lista. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Devuelve verdadero si esta lista es una referencia a un estilo de lista. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Devuelve verdadero cuando la lista contiene 9 niveles; falso cuando 1 nivel. |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Especifica si la lista debe reiniciarse en cada sección. El valor predeterminado es **falso** . |
+| [ListId](../../aspose.words.lists/list/listid/) { get; } | Obtiene el identificador único de la lista. |
+| [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Obtiene la colección de niveles de lista para esta lista. |
+| [Style](../../aspose.words.lists/list/style/) { get; } | Obtiene el estilo de lista al que hace referencia o define esta lista. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto)(List) | Compara la lista especificada con la lista actual. |
-| [CompareTo](../../aspose.words.lists/list/compareto#compareto_1)(object) | Compara el objeto especificado con el objeto actual. |
-| [Equals](../../aspose.words.lists/list/equals#equals)(List) | Compara con la lista especificada. |
-| override [Equals](../../aspose.words.lists/list/equals#equals_1)(object) |  |
-| override [GetHashCode](../../aspose.words.lists/list/gethashcode)() | Calcula el código hash para este objeto de lista. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto)(List) | Compara la lista especificada con la lista actual. |
+| [CompareTo](../../aspose.words.lists/list/compareto/#compareto_1)(object) | Compara el objeto especificado con el objeto actual. |
+| [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Compara con la lista especificada. |
+| override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
+| override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calcula el código hash para este objeto de lista. |
 
 ### Observaciones
 
 Una lista en un documento de Microsoft Word es un conjunto de propiedades de formato de lista. Cada lista puede tener hasta 9 niveles y las propiedades de formato, como estilo de número, valor inicial, sangría, posición de tabulación, etc., se definen por separado para cada nivel.
 
-A[`List`](../list) objeto siempre pertenece a la[`ListCollection`](../listcollection) recopilación.
+A[`List`](./list/) objeto siempre pertenece a la[`ListCollection`](../listcollection/) recopilación.
 
-Para crear una nueva lista, use los métodos Agregar del[`ListCollection`](../listcollection) recopilación.
+Para crear una nueva lista, use los métodos Agregar del[`ListCollection`](../listcollection/) recopilación.
 
-Para modificar el formato de una lista, utilice[`ListLevel`](../listlevel) objetos encontrados en el[`ListLevels`](./listlevels) recopilación.
+Para modificar el formato de una lista, utilice[`ListLevel`](../listlevel/) objetos encontrados en el[`ListLevels`](./listlevels/) recopilación.
 
-Para aplicar o eliminar el formato de lista de un párrafo, use[`ListFormat`](../listformat).
+Para aplicar o eliminar el formato de lista de un párrafo, use[`ListFormat`](../listformat/).
 
 ### Ejemplos
 
@@ -194,7 +194,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists)
+* espacio de nombres [Aspose.Words.Lists](../../aspose.words.lists/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

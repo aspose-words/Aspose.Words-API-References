@@ -18,34 +18,34 @@ public class Odso
 
 | Nom | La description |
 | --- | --- |
-| [Odso](odso)() | Default_Constructor |
+| [Odso](odso/)() | Default_Constructor |
 
 ## Propriétés
 
 | Nom | La description |
 | --- | --- |
-| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter) { get; set; } | Spécifie le caractère qui doit être interprété comme le délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0, ce qui signifie qu'aucun délimiteur de colonne n'est défini. |
-| [DataSource](../../aspose.words.settings/odso/datasource) { get; set; } | Spécifie l'emplacement de la source de données externe à connecter à un document pour effectuer le publipostage. La valeur par défaut est une chaîne vide. |
-| [DataSourceType](../../aspose.words.settings/odso/datasourcetype) { get; set; } | Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO pour ce publipostage. La valeur par défaut estDefault . |
-| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas) { get; set; } | Obtient ou définit une collection d'objets qui spécifient comment les colonnes de la source de données externe sont mappées aux noms de champs de fusion prédéfinis dans le document. Cet objet n'est jamais null. |
-| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames) { get; set; } | Spécifie qu'une application d'hébergement doit traiter la première ligne de données dans la source de données externe spécifiée comme une ligne d'en-tête contenant les noms de chaque colonne dans la source de données. La valeur par défaut est`faux` . |
-| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas) { get; set; } | Obtient ou définit une collection d'objets qui spécifient l'inclusion/exclusion d'enregistrements individuels dans le publipostage. Cet objet n'est jamais null. |
-| [TableName](../../aspose.words.settings/odso/tablename) { get; set; } | Spécifie l'ensemble de données particulier auquel une source doit être connectée au sein d'une source de données externe. La valeur par défaut est une chaîne vide. |
-| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring) { get; set; } | Spécifie la chaîne de connexion UDL (Universal Data Link) utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide. |
+| [ColumnDelimiter](../../aspose.words.settings/odso/columndelimiter/) { get; set; } | Spécifie le caractère qui doit être interprété comme le délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0, ce qui signifie qu'aucun délimiteur de colonne n'est défini. |
+| [DataSource](../../aspose.words.settings/odso/datasource/) { get; set; } | Spécifie l'emplacement de la source de données externe à connecter à un document pour effectuer le publipostage. La valeur par défaut est une chaîne vide. |
+| [DataSourceType](../../aspose.words.settings/odso/datasourcetype/) { get; set; } | Spécifie le type de source de données externe à laquelle se connecter dans le cadre des informations de connexion ODSO pour ce publipostage. La valeur par défaut estDefault . |
+| [FieldMapDatas](../../aspose.words.settings/odso/fieldmapdatas/) { get; set; } | Obtient ou définit une collection d'objets qui spécifient comment les colonnes de la source de données externe sont mappées aux noms de champs de fusion prédéfinis dans le document. Cet objet n'est jamais null. |
+| [FirstRowContainsColumnNames](../../aspose.words.settings/odso/firstrowcontainscolumnnames/) { get; set; } | Spécifie qu'une application d'hébergement doit traiter la première ligne de données dans la source de données externe spécifiée comme une ligne d'en-tête contenant les noms de chaque colonne dans la source de données. La valeur par défaut est`faux` . |
+| [RecipientDatas](../../aspose.words.settings/odso/recipientdatas/) { get; set; } | Obtient ou définit une collection d'objets qui spécifient l'inclusion/exclusion d'enregistrements individuels dans le publipostage. Cet objet n'est jamais null. |
+| [TableName](../../aspose.words.settings/odso/tablename/) { get; set; } | Spécifie l'ensemble de données particulier auquel une source doit être connectée au sein d'une source de données externe. La valeur par défaut est une chaîne vide. |
+| [UdlConnectString](../../aspose.words.settings/odso/udlconnectstring/) { get; set; } | Spécifie la chaîne de connexion UDL (Universal Data Link) utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odso/clone)() | Renvoie un clone profond de cet objet. |
+| [Clone](../../aspose.words.settings/odso/clone/)() | Renvoie un clone profond de cet objet. |
 
 ### Remarques
 
 ODSO semble être la "nouvelle" façon que les nouvelles versions de Microsoft Word préfèrent utiliser lors de la spécification de certains types de sources de données pour un document de fusion et publipostage. ODSO est probablement apparu pour la première fois dans Microsoft Word 2000.
 
-L'utilisation d'ODSO est mal documentée et la meilleure façon d'apprendre à utiliser les propriétés de cet objet est de créer manuellement un document avec une source de données souhaitée dans Microsoft Word, puis d'ouvrir ce document à l'aide de Aspose.Words et d'examiner les propriétés de la[`MailMergeSettings`](../../aspose.words/document/mailmergesettings) et [`Odso`](../mailmergesettings/odso) objets. C'est une bonne approche à adopter si vous voulez apprendre à configurer par programme une source de données, par exemple.
+L'utilisation d'ODSO est mal documentée et la meilleure façon d'apprendre à utiliser les propriétés de cet objet est de créer manuellement un document avec une source de données souhaitée dans Microsoft Word, puis d'ouvrir ce document à l'aide de Aspose.Words et d'examiner les propriétés de la[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) et [`Odso`](../mailmergesettings/odso/) objets. C'est une bonne approche à adopter si vous voulez apprendre à configurer par programme une source de données, par exemple.
 
-Vous n'avez normalement pas besoin de créer directement des objets de cette classe car les paramètres ODSO sont toujours disponibles via le[`Odso`](../mailmergesettings/odso) propriété.
+Vous n'avez normalement pas besoin de créer directement des objets de cette classe car les paramètres ODSO sont toujours disponibles via le[`Odso`](../mailmergesettings/odso/) propriété.
 
 ### Exemples
 
@@ -98,7 +98,7 @@ doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 
 ### Voir également
 
-* espace de noms [Aspose.Words.Settings](../../aspose.words.settings)
+* espace de noms [Aspose.Words.Settings](../../aspose.words.settings/)
 * Assemblée [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

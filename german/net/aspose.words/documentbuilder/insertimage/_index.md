@@ -24,7 +24,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -56,9 +56,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObject.docx")
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -83,7 +83,7 @@ Der gerade eingefügte Bildknoten.
 
 Diese Überladung lädt das Bild automatisch herunter, bevor es in document eingefügt wird, wenn Sie einen Remote-URI angeben.
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -189,9 +189,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -214,7 +214,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -262,9 +262,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -287,7 +287,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -361,9 +361,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -388,7 +388,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -448,9 +448,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -475,7 +475,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -506,9 +506,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -533,7 +533,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -566,9 +566,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -593,7 +593,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -667,9 +667,9 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -700,7 +700,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -760,12 +760,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromImageObjectNetStan
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -796,7 +796,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -864,12 +864,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromFilename.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -900,7 +900,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -933,12 +933,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 ---
@@ -969,7 +969,7 @@ Der gerade eingefügte Bildknoten.
 
 ### Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape) Objekt, das von dieser Methode zurückgegeben wird.
+Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) Objekt, das von dieser Methode zurückgegeben wird.
 
 ### Beispiele
 
@@ -1043,12 +1043,12 @@ doc.Save(ArtifactsDir + "DocumentBuilderImages.InsertImageFromByteArrayNetStanda
 
 ### Siehe auch
 
-* class [Shape](../../../aspose.words.drawing/shape)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition)
-* enum [WrapType](../../../aspose.words.drawing/wraptype)
-* class [DocumentBuilder](../../documentbuilder)
-* namensraum [Aspose.Words](../../documentbuilder)
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../documentbuilder/)
 * Montage [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

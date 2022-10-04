@@ -18,40 +18,40 @@ public class FieldNextIf : Field
 
 | Nombre | Descripción |
 | --- | --- |
-| [FieldNextIf](fieldnextif)() | Constructor predeterminado |
+| [FieldNextIf](fieldnextif/)() | Constructor predeterminado |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/fieldnextif/comparisonoperator) { get; set; } | Obtiene o establece el operador de comparación. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
-| [End](../../aspose.words.fields/field/end) { get; } | Obtiene el nodo que representa el final del campo. |
-| [Format](../../aspose.words.fields/field/format) { get; } | Obtiene un[`FieldFormat`](../fieldformat) objeto que proporciona acceso escrito al formato del campo. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
-| [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression) { get; set; } | Obtiene o establece la parte izquierda de la expresión de comparación. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Obtiene o establece el LCID del campo. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
-| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression) { get; set; } | Obtiene o establece la parte derecha de la expresión de comparación. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Obtiene el nodo que representa el inicio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Obtiene el tipo de campo de Microsoft Word. |
+| [ComparisonOperator](../../aspose.words.fields/fieldnextif/comparisonoperator/) { get; set; } | Obtiene o establece el operador de comparación. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Obtiene el texto que representa el resultado del campo mostrado. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Obtiene el nodo que representa el final del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Obtiene un[`FieldFormat`](../fieldformat/) objeto que proporciona acceso escrito al formato del campo. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Obtiene o establece si el campo está bloqueado (no debe recalcular su resultado). |
+| [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression/) { get; set; } | Obtiene o establece la parte izquierda de la expresión de comparación. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Obtiene o establece el LCID del campo. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Obtiene o establece el texto que se encuentra entre el separador de campo y el final del campo. |
+| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression/) { get; set; } | Obtiene o establece la parte derecha de la expresión de comparación. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Obtiene el nodo que representa el separador de campos. Puede ser nulo. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Obtiene el nodo que representa el inicio del campo. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Obtiene el tipo de campo de Microsoft Word. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
-| [Remove](../../aspose.words.fields/field/remove)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Realiza el desvinculado del campo. |
-| [Update](../../aspose.words.fields/field/update)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). Se incluyen tanto el código de campo como el resultado de campo de los campos secundarios. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Devuelve el texto entre el inicio del campo y el separador de campo (o el final del campo si no hay separador). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Elimina el campo del documento. Devuelve un nodo justo después del campo. Si el final del campo es el último hijo de su nodo principal, devuelve su párrafo principal. Si el campo ya está eliminado, devuelve **nulo** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Realiza el desvinculado del campo. |
+| [Update](../../aspose.words.fields/field/update/)() | Realiza la actualización del campo. Se lanza si el campo ya se está actualizando. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Realiza una actualización de campo. Se lanza si el campo ya se está actualizando. |
 
 ### Observaciones
 
-Compara los valores designados por las expresiones[`LeftExpression`](./leftexpression) y[`RightExpression`](./rightexpression) en comparación usando el operador designado por[`ComparisonOperator`](./comparisonoperator) . Si la comparación es verdadera, el siguiente registro de datos se fusiona con el documento de fusión actual. (Los campos de combinación que siguen a NEXTIF en el documento main se reemplazan por valores del siguiente registro de datos en lugar del registro de datos actual). Si la comparación es falsa, el siguiente registro de datos se combina en un nuevo documento de combinación.
+Compara los valores designados por las expresiones[`LeftExpression`](./leftexpression/) y[`RightExpression`](./rightexpression/) en comparación usando el operador designado por[`ComparisonOperator`](./comparisonoperator/) . Si la comparación es verdadera, el siguiente registro de datos se fusiona con el documento de fusión actual. (Los campos de combinación que siguen a NEXTIF en el documento main se reemplazan por valores del siguiente registro de datos en lugar del registro de datos actual). Si la comparación es falsa, el siguiente registro de datos se combina en un nuevo documento de combinación.
 
 ### Ejemplos
 
@@ -132,8 +132,8 @@ public void InsertMergeField(DocumentBuilder builder, string fieldName, string t
 
 ### Ver también
 
-* class [Field](../field)
-* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* espacio de nombres [Aspose.Words.Fields](../../aspose.words.fields/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

@@ -18,49 +18,49 @@ public class FieldIndex : Field
 
 | اسم | وصف |
 | --- | --- |
-| [FieldIndex](fieldindex)() | Default_Constructor |
+| [FieldIndex](fieldindex/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الفهرس. |
-| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل المراجع التبادلية والإدخالات الأخرى. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
-| [End](../../aspose.words.fields/field/end) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryType](../../aspose.words.fields/fieldindex/entrytype) { get; set; } | الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس . |
-| [Format](../../aspose.words.fields/field/format) { get; } | يحصل على أ[`FieldFormat`](../fieldformat) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
-| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator) { get; } | يحصل على قيمة تشير إلى ما إذا كان فاصل رقم الصفحة قد تم تجاوزه من خلال كود الحقل. |
-| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename) { get; } | يحصل على قيمة تشير إلى ما إذا كان يجب استخدام تسلسل أثناء بناء نتيجة الحقل. |
-| [Heading](../../aspose.words.fields/fieldindex/heading) { get; set; } | الحصول على أو تعيين عنوان يظهر في بداية كل مجموعة من الإدخالات لأي حرف معين. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
-| [LanguageId](../../aspose.words.fields/fieldindex/languageid) { get; set; } | الحصول على أو تعيين معرّف اللغة المستخدم لإنشاء الفهرس. |
-| [LetterRange](../../aspose.words.fields/fieldindex/letterrange) { get; set; } | الحصول على أو تعيين نطاق من الحروف التي تحدد الفهرس. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | الحصول على أو تحديد LCID للحقل. |
-| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns) { get; set; } | الحصول على أو تعيين عدد الأعمدة لكل صفحة مستخدمة عند إنشاء الفهرس. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل رقمي صفحتين في قائمة أرقام الصفحات. |
-| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال الفهرس ورقم الصفحة. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل بداية نطاق الصفحات ونهايته. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تشغيل المدخلات الفرعية في نفس السطر مثل الإدخال الرئيسي. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
-| [SequenceName](../../aspose.words.fields/fieldindex/sequencename) { get; set; } | الحصول على أو تحديد اسم التسلسل الذي تم تضمين رقمه في رقم الصفحة. |
-| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
-| [Start](../../aspose.words.fields/field/start) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | يحصل على نوع حقل Microsoft Word . |
-| [UseYomi](../../aspose.words.fields/fieldindex/useyomi) { get; set; } | يحصل أو يحدد ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس. |
+| [BookmarkName](../../aspose.words.fields/fieldindex/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم في إنشاء الفهرس. |
+| [CrossReferenceSeparator](../../aspose.words.fields/fieldindex/crossreferenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل المراجع التبادلية والإدخالات الأخرى. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروض. |
+| [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
+| [EntryType](../../aspose.words.fields/fieldindex/entrytype/) { get; set; } | الحصول على أو تحديد نوع إدخال الفهرس المستخدم في إنشاء الفهرس . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على أ[`FieldFormat`](../fieldformat/) كائن يوفر وصولاً مكتوبًا إلى تنسيق الحقل. |
+| [HasPageNumberSeparator](../../aspose.words.fields/fieldindex/haspagenumberseparator/) { get; } | يحصل على قيمة تشير إلى ما إذا كان فاصل رقم الصفحة قد تم تجاوزه من خلال كود الحقل. |
+| [HasSequenceName](../../aspose.words.fields/fieldindex/hassequencename/) { get; } | يحصل على قيمة تشير إلى ما إذا كان يجب استخدام تسلسل أثناء بناء نتيجة الحقل. |
+| [Heading](../../aspose.words.fields/fieldindex/heading/) { get; set; } | الحصول على أو تعيين عنوان يظهر في بداية كل مجموعة من الإدخالات لأي حرف معين. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تحديد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | تحديد ما إذا كان الحقل مغلقًا أم لا (يجب عدم إعادة حساب النتيجة). |
+| [LanguageId](../../aspose.words.fields/fieldindex/languageid/) { get; set; } | الحصول على أو تعيين معرّف اللغة المستخدم لإنشاء الفهرس. |
+| [LetterRange](../../aspose.words.fields/fieldindex/letterrange/) { get; set; } | الحصول على أو تعيين نطاق من الحروف التي تحدد الفهرس. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تحديد LCID للحقل. |
+| [NumberOfColumns](../../aspose.words.fields/fieldindex/numberofcolumns/) { get; set; } | الحصول على أو تعيين عدد الأعمدة لكل صفحة مستخدمة عند إنشاء الفهرس. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldindex/pagenumberlistseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل رقمي صفحتين في قائمة أرقام الصفحات. |
+| [PageNumberSeparator](../../aspose.words.fields/fieldindex/pagenumberseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل إدخال الفهرس ورقم الصفحة. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل بداية نطاق الصفحات ونهايته. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
+| [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تشغيل المدخلات الفرعية في نفس السطر مثل الإدخال الرئيسي. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل المجال. يمكن أن يكون فارغًا. |
+| [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | الحصول على أو تحديد اسم التسلسل الذي تم تضمين رقمه في رقم الصفحة. |
+| [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word . |
+| [UseYomi](../../aspose.words.fields/fieldindex/useyomi/) { get; set; } | يحصل أو يحدد ما إذا كان سيتم تمكين استخدام نص yomi لإدخالات الفهرس. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
-| [Remove](../../aspose.words.fields/field/remove)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل) . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يزيل الحقل من المستند. إرجاع عقدة بعد الحقل مباشرة. إذا كانت نهاية الحقل هي آخر child من العقدة الأصلية ، يتم إرجاع فقرته الأصلية. إذا تمت إزالة الحقل بالفعل ، يعود **لا شيء** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
+| [Update](../../aspose.words.fields/field/update/)() | يقوم بالتحديث الميداني. يرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | يقوم بإجراء تحديث ميداني. يرمي إذا تم تحديث الحقل بالفعل. |
 
 ### ملاحظات
 
@@ -189,8 +189,8 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Formatting.docx");
 
 ### أنظر أيضا
 
-* class [Field](../field)
-* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* مساحة الاسم [Aspose.Words.Fields](../../aspose.words.fields/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

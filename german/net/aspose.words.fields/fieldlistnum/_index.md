@@ -1,7 +1,7 @@
 ---
 title: FieldListNum
 second_title: Aspose.Words für .NET-API-Referenz
-description: Implementiert das LISTNUM-Feld.
+description: Implementiert das LISTNUMFeld.
 type: docs
 weight: 1970
 url: /de/net/aspose.words.fields/fieldlistnum/
@@ -18,37 +18,37 @@ public class FieldListNum : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldListNum](fieldlistnum)() | Default_Constructor |
+| [FieldListNum](fieldlistnum/)() | Default_Constructor |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
-| [End](../../aspose.words.fields/field/end) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format) { get; } | erhält a[`FieldFormat`](../fieldformat) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
-| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname) { get; } | Gibt einen Wert zurück, der angibt, ob der Name einer abstrakten Nummerierungsdefinition durch den Feldcode bereitgestellt wird. |
-| [IsDirty](../../aspose.words.fields/field/isdirty) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel) { get; set; } | Ruft die Ebene in der Liste ab oder legt sie fest und überschreibt das Standardverhalten des Felds. |
-| [ListName](../../aspose.words.fields/fieldlistnum/listname) { get; set; } | Ruft den Namen der abstrakten Nummerierungsdefinition ab, die für die Nummerierung verwendet wird, oder legt ihn fest. |
-| [LocaleId](../../aspose.words.fields/field/localeid) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
-| [Separator](../../aspose.words.fields/field/separator) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
-| [Start](../../aspose.words.fields/field/start) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
-| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber) { get; set; } | Ruft den Startwert für dieses Feld ab oder legt ihn fest. |
-| virtual [Type](../../aspose.words.fields/field/type) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | erhält a[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Feldformatierung bereitstellt. |
+| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname/) { get; } | Gibt einen Wert zurück, der angibt, ob der Name einer abstrakten Nummerierungsdefinition durch den Feldcode bereitgestellt wird. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer Änderungen am Dokument nicht mehr korrekt (veraltet) ist. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel/) { get; set; } | Ruft die Ebene in der Liste ab oder legt sie fest und überschreibt das Standardverhalten des Felds. |
+| [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | Ruft den Namen der abstrakten Nummerierungsdefinition ab, die für die Nummerierung verwendet wird, oder legt ihn fest. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Liest oder setzt Text, der zwischen dem Feldtrennzeichen und dem Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann null sein. |
+| [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
+| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | Ruft den Startwert für dieses Feld ab oder legt ihn fest. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
-| [Remove](../../aspose.words.fields/field/remove)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
-| [Unlink](../../aspose.words.fields/field/unlink)() | Führt das Feld Unlink aus. |
-| [Update](../../aspose.words.fields/field/update)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
-| [Update](../../aspose.words.fields/field/update)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Gibt Text zwischen Feldanfang und Feldtrennzeichen (oder Feldende, wenn kein Trennzeichen vorhanden ist) zurück. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines Elternknotens ist, wird sein Elternabsatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben **Null** . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld Unlink aus. |
+| [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
+| [Update](../../aspose.words.fields/field/update/)(bool) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ### Beispiele
 
@@ -119,8 +119,8 @@ doc.Save(ArtifactsDir + "Field.LISTNUM.docx");
 
 ### Siehe auch
 
-* class [Field](../field)
-* namensraum [Aspose.Words.Fields](../../aspose.words.fields)
+* class [Field](../field/)
+* namensraum [Aspose.Words.Fields](../../aspose.words.fields/)
 * Montage [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

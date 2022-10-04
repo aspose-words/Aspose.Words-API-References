@@ -18,63 +18,63 @@ public class Cell : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [Cell](cell)(DocumentBase) | Инициализирует новый экземпляр **Клетка** класс. |
+| [Cell](cell/)(DocumentBase) | Инициализирует новый экземпляр **Клетка** класс. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CellFormat](../../aspose.words.tables/cell/cellformat) { get; } | Предоставляет доступ к свойствам форматирования ячейки. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Получает все непосредственные дочерние узлы этого узла. |
-| [Count](../../aspose.words/compositenode/count) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Указывает идентификатор пользовательского узла. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Получает документ, которому принадлежит этот узел. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Получает первого потомка узла. |
-| [FirstParagraph](../../aspose.words.tables/cell/firstparagraph) { get; } | Получает первый абзац среди непосредственных дочерних элементов. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
-| [IsFirstCell](../../aspose.words.tables/cell/isfirstcell) { get; } | Истинно, если это первая ячейка в строке; false иначе. |
-| [IsLastCell](../../aspose.words.tables/cell/islastcell) { get; } | Истинно, если это последняя ячейка в строке; false иначе. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Получает последний дочерний элемент узла. |
-| [LastParagraph](../../aspose.words.tables/cell/lastparagraph) { get; } | Получает последний абзац среди непосредственных дочерних элементов. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.tables/cell/nodetype) { get; } | Возвращает **NodeType.Cell** . |
-| [Paragraphs](../../aspose.words.tables/cell/paragraphs) { get; } | Получает коллекцию абзацев, которые являются непосредственными дочерними элементами ячейки. |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentRow](../../aspose.words.tables/cell/parentrow) { get; } | Возвращает родительскую строку ячейки. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
-| [Tables](../../aspose.words.tables/cell/tables) { get; } | Получает набор таблиц, которые являются непосредственными дочерними элементами ячейки. |
+| [CellFormat](../../aspose.words.tables/cell/cellformat/) { get; } | Предоставляет доступ к свойствам форматирования ячейки. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Получает все непосредственные дочерние узлы этого узла. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает идентификатор пользовательского узла. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого потомка узла. |
+| [FirstParagraph](../../aspose.words.tables/cell/firstparagraph/) { get; } | Получает первый абзац среди непосредственных дочерних элементов. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает true, если у этого узла есть дочерние узлы. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает true, так как этот узел может иметь дочерние узлы. |
+| [IsFirstCell](../../aspose.words.tables/cell/isfirstcell/) { get; } | Истинно, если это первая ячейка в строке; false иначе. |
+| [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | Истинно, если это последняя ячейка в строке; false иначе. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последний дочерний элемент узла. |
+| [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Получает последний абзац среди непосредственных дочерних элементов. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
+| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | Возвращает **NodeType.Cell** . |
+| [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Получает коллекцию абзацев, которые являются непосредственными дочерними элементами ячейки. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
+| [ParentRow](../../aspose.words.tables/cell/parentrow/) { get; } | Возвращает родительскую строку ячейки. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает **Диапазон** объект, представляющий часть документа, содержащегося в этом узле. |
+| [Tables](../../aspose.words.tables/cell/tables/) { get; } | Получает набор таблиц, которые являются непосредственными дочерними элементами ячейки. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/cell/accept)(DocumentVisitor) | Принимает посетителя. |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
-| [Clone](../../aspose.words/node/clone)(bool) | Создает дубликат узла. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Зарезервировано для системного использования. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum)() | Если последний дочерний элемент не является абзацем, создает и добавляет один пустой абзац. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Получает первого предка указанного типа объекта. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
-| override [GetText](../../aspose.words/compositenode/gettext)() | Получает текст этого узла и всех его дочерних элементов. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
-| [Remove](../../aspose.words/node/remove)() | Удаляет себя из родителя. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag) узлы-потомки текущего узла. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Выбирает первый узел, соответствующий выражению XPath. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
+| override [Accept](../../aspose.words.tables/cell/accept/)(DocumentVisitor) | Принимает посетителя. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Создает дубликат узла. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Зарезервировано для системного использования. IXPathNavigable. |
+| [EnsureMinimum](../../aspose.words.tables/cell/ensureminimum/)() | Если последний дочерний элемент не является абзацем, создает и добавляет один пустой абзац. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Получает первого предка указанного[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Получает первого предка указанного типа объекта. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Возвращает динамическую коллекцию дочерних узлов, соответствующих указанному типу. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Получает текст этого узла и всех его дочерних элементов. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Удаляет указанный дочерний узел. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/) узлы-потомки текущего узла. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Выбирает список узлов, соответствующих выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Выбирает первый узел, соответствующий выражению XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Экспортирует содержимое узла в строку в указанном формате. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ### Примечания
 
@@ -207,8 +207,8 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
 ### Смотрите также
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* пространство имен [Aspose.Words.Tables](../../aspose.words.tables)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* пространство имен [Aspose.Words.Tables](../../aspose.words.tables/)
 * сборка [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

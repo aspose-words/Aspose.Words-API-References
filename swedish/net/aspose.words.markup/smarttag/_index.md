@@ -18,65 +18,65 @@ public class SmartTag : CompositeNode
 
 | namn | Beskrivning |
 | --- | --- |
-| [SmartTag](smarttag)(DocumentBase) | Initierar en ny instans av[`SmartTag`](../smarttag) class. |
+| [SmartTag](smarttag/)(DocumentBase) | Initierar en ny instans av[`SmartTag`](./smarttag/) class. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
-| [Count](../../aspose.words/compositenode/count) { get; } | Hämtar antalet omedelbara barn till denna nod. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | Anger anpassad nodidentifierare. |
-| virtual [Document](../../aspose.words/node/document) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [Element](../../aspose.words.markup/smarttag/element) { get; set; } | Anger namnet på den smarta taggen i dokumentet. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | Får det första barnet i noden. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | Returnerar sant om denna nod har några underordnade noder. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | Hämtar nodens sista underordnade. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words.markup/smarttag/nodetype) { get; } | Returnerar **NodeType.SmartTag** . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Properties](../../aspose.words.markup/smarttag/properties) { get; } | En samling av egenskaperna för smarta taggar. |
-| [Range](../../aspose.words/node/range) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
-| [Uri](../../aspose.words.markup/smarttag/uri) { get; set; } | Anger namnutrymmes-URI för smarttaggen. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Hämtar alla omedelbara underordnade noder för denna nod. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
+| [Element](../../aspose.words.markup/smarttag/element/) { get; set; } | Anger namnet på den smarta taggen i dokumentet. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar sant om denna nod har några underordnade noder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar sant eftersom denna nod kan ha underordnade noder. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
+| override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | Returnerar **NodeType.SmartTag** . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
+| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | En samling av egenskaperna för smarta taggar. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en **Räckvidd** objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Anger namnutrymmes-URI för smarttaggen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.markup/smarttag/accept)(DocumentVisitor) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
-| [Clone](../../aspose.words/node/clone)(bool) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | Reserverad för systemanvändning. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| override [GetText](../../aspose.words/compositenode/gettext)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
-| [Remove](../../aspose.words/node/remove)() | Tar bort sig själv från föräldern. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | Tar bort alla[`SmartTag`](../smarttag) underliggande noder till den aktuella noden. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | Väljer den första noden som matchar XPath-uttrycket. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| override [Accept](../../aspose.words.markup/smarttag/accept/)(DocumentVisitor) | Accepterar en besökare. |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [Clone](../../aspose.words/node/clone/)(bool) | Skapar en dubblett av noden. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserverad för systemanvändning. IXPathNavigable. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Hämtar den första förfadern till den angivna objekttypen. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Tar bort den angivna underordnade noden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](./smarttag/) underliggande noder till den aktuella noden. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Väljer en lista med noder som matchar XPath-uttrycket. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Väljer den första noden som matchar XPath-uttrycket. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exporterar innehållet i noden till en sträng i angivet format. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
 
 ### Anmärkningar
 
 Smarta taggar är en slags anpassad XML-uppmärkning. Smarta taggar ger en möjlighet att bädda in kunddefinierad semantik i dokumentet via möjligheten att tillhandahålla ett grundläggande namnområde/namn för en körning eller uppsättning körningar i ett dokument.
 
-[`SmartTag`](../smarttag) kan vara ett barn till en[`Paragraph`](../../aspose.words/paragraph) eller en annan[`SmartTag`](../smarttag) nod.
+[`SmartTag`](./smarttag/) kan vara ett barn till en[`Paragraph`](../../aspose.words/paragraph/) eller en annan[`SmartTag`](./smarttag/) nod.
 
-Den kompletta listan över underordnade noder som kan förekomma inuti en smart tagg består av [`BookmarkStart`](../../aspose.words/bookmarkstart) ,[`BookmarkEnd`](../../aspose.words/bookmarkend) , [`FieldStart`](../../aspose.words.fields/fieldstart) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator) ,[`FieldEnd`](../../aspose.words.fields/fieldend) ,[`FormField`](../../aspose.words.fields/formfield) , [`Comment`](../../aspose.words/comment) ,[`Footnote`](../../aspose.words.notes/footnote) , [`Run`](../../aspose.words/run) ,[`SpecialChar`](../../aspose.words/specialchar) , [`Shape`](../../aspose.words.drawing/shape) ,[`GroupShape`](../../aspose.words.drawing/groupshape) , [`CommentRangeStart`](../../aspose.words/commentrangestart) , [`CommentRangeEnd`](../../aspose.words/commentrangeend) , [`SmartTag`](../smarttag).
+Den kompletta listan över underordnade noder som kan förekomma inuti en smart tagg består av [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , [`SmartTag`](./smarttag/).
 
 ### Exempel
 
@@ -178,8 +178,8 @@ private class SmartTagPrinter : DocumentVisitor
 
 ### Se även
 
-* class [CompositeNode](../../aspose.words/compositenode)
-* namnutrymme [Aspose.Words.Markup](../../aspose.words.markup)
+* class [CompositeNode](../../aspose.words/compositenode/)
+* namnutrymme [Aspose.Words.Markup](../../aspose.words.markup/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

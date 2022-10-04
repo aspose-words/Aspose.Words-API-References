@@ -16,9 +16,9 @@ public Document()
 
 ### Observaciones
 
-El tamaño de papel del documento es Carta de forma predeterminada. Si desea cambiar la configuración de la página, use [`Sección.Configuración de página`](../../section/pagesetup).
+El tamaño de papel del documento es Carta de forma predeterminada. Si desea cambiar la configuración de la página, use [`Sección.Configuración de página`](../../section/pagesetup/).
 
-Después de la creación, puede utilizar[`DocumentBuilder`](../../documentbuilder) para agregar contenido del documento fácilmente.
+Después de la creación, puede utilizar[`DocumentBuilder`](../../documentbuilder/) para agregar contenido del documento fácilmente.
 
 ### Ejemplos
 
@@ -63,8 +63,8 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Ver también
 
-* class [Document](../../document)
-* espacio de nombres [Aspose.Words](../../document)
+* class [Document](../)
+* espacio de nombres [Aspose.Words](../../document/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -85,11 +85,11 @@ public Document(string fileName)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | El formato del documento no se reconoce o no es compatible. |
-| [FileCorruptedException](../../filecorruptedexception) | El documento parece estar dañado y no se puede cargar. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no es compatible. |
+| [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
 | Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
 ### Ejemplos
@@ -145,8 +145,8 @@ Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
 
 ### Ver también
 
-* class [Document](../../document)
-* espacio de nombres [Aspose.Words](../../document)
+* class [Document](../)
+* espacio de nombres [Aspose.Words](../../document/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -168,11 +168,11 @@ public Document(string fileName, LoadOptions loadOptions)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | El formato del documento no se reconoce o no es compatible. |
-| [FileCorruptedException](../../filecorruptedexception) | El documento parece estar dañado y no se puede cargar. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no es compatible. |
+| [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
 | Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
 ### Ejemplos
@@ -223,9 +223,9 @@ Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph
 
 ### Ver también
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* espacio de nombres [Aspose.Words](../../document/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -246,11 +246,11 @@ public Document(Stream stream)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | El formato del documento no se reconoce o no es compatible. |
-| [FileCorruptedException](../../filecorruptedexception) | El documento parece estar dañado y no se puede cargar. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no es compatible. |
+| [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
 | Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
 | ArgumentNullException | La secuencia no puede ser nula. |
 | NotSupportedException | La transmisión no admite la lectura ni la búsqueda. |
 | ObjectDisposedException | La corriente es un objeto desechado. |
@@ -300,8 +300,8 @@ using (WebClient webClient = new WebClient())
 
 ### Ver también
 
-* class [Document](../../document)
-* espacio de nombres [Aspose.Words](../../document)
+* class [Document](../)
+* espacio de nombres [Aspose.Words](../../document/)
 * asamblea [Aspose.Words](../../../)
 
 ---
@@ -323,11 +323,11 @@ public Document(Stream stream, LoadOptions loadOptions)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception) | El formato del documento no se reconoce o no es compatible. |
-| [FileCorruptedException](../../filecorruptedexception) | El documento parece estar dañado y no se puede cargar. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no es compatible. |
+| [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
 | Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero proporcionó una contraseña incorrecta. |
 | ArgumentNullException | La secuencia no puede ser nula. |
 | NotSupportedException | La transmisión no admite la lectura ni la búsqueda. |
 | ObjectDisposedException | La corriente es un objeto desechado. |
@@ -403,9 +403,9 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 
 ### Ver también
 
-* class [LoadOptions](../../../aspose.words.loading/loadoptions)
-* class [Document](../../document)
-* espacio de nombres [Aspose.Words](../../document)
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
+* class [Document](../)
+* espacio de nombres [Aspose.Words](../../document/)
 * asamblea [Aspose.Words](../../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

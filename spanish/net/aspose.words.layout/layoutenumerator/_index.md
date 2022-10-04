@@ -1,14 +1,14 @@
 ---
 title: LayoutEnumerator
 second_title: Referencia de API de Aspose.Words para .NET
-description: Enumera entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son el tipo la geometría el texto y el índice de página donde se representa la entidad  así como la estructura general y las relaciones. Usar una combinación deGetEntity./layoutcollector/getentity yCurrent./layoutenumerator/current mover a la entidad que corresponde a un documento node.
+description: Enumera entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son el tipo la geometría el texto y el índice de página donde se representa la entidad  así como la estructura general y las relaciones. Usar una combinación deGetEntity./layoutcollector/getentity/ yCurrent./layoutenumerator/current/ mover a la entidad que corresponde a un documento node.
 type: docs
 weight: 3140
 url: /es/net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
 
-Enumera entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son el tipo, la geometría, el texto y el índice de página donde se representa la entidad, , así como la estructura general y las relaciones. Usar una combinación de[`GetEntity`](../layoutcollector/getentity) y[`Current`](./current) mover a la entidad que corresponde a un documento node.
+Enumera entidades de diseño de página de un documento. Puede utilizar esta clase para recorrer el modelo de diseño de página. Las propiedades disponibles son el tipo, la geometría, el texto y el índice de página donde se representa la entidad, , así como la estructura general y las relaciones. Usar una combinación de[`GetEntity`](../layoutcollector/getentity/) y[`Current`](./current/) mover a la entidad que corresponde a un documento node.
 
 ```csharp
 public class LayoutEnumerator
@@ -18,33 +18,33 @@ public class LayoutEnumerator
 
 | Nombre | Descripción |
 | --- | --- |
-| [LayoutEnumerator](layoutenumerator)(Document) | Inicializa una nueva instancia de esta clase. |
+| [LayoutEnumerator](layoutenumerator/)(Document) | Inicializa una nueva instancia de esta clase. |
 
 ## Propiedades
 
 | Nombre | Descripción |
 | --- | --- |
-| [Current](../../aspose.words.layout/layoutenumerator/current) { get; set; } | Obtiene o establece la posición actual en el modelo de diseño de página. Esta propiedad devuelve un objeto opaco que corresponde a la entidad de diseño actual. |
-| [Document](../../aspose.words.layout/layoutenumerator/document) { get; } | Obtiene el documento que enumera esta instancia. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind) { get; } | Obtiene el tipo de la entidad actual. Esta puede ser una cadena vacía pero nunca nula. |
-| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex) { get; } | Obtiene el índice basado en 1 de una página que contiene la entidad actual. |
-| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle) { get; } | Devuelve el rectángulo delimitador de la entidad actual en relación con la esquina superior izquierda de la página (en puntos). |
-| [Text](../../aspose.words.layout/layoutenumerator/text) { get; } | Obtiene el texto de la entidad de intervalo actual. Lanzamientos para otros tipos de entidades. |
-| [Type](../../aspose.words.layout/layoutenumerator/type) { get; } | Obtiene el tipo de la entidad actual. |
+| [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Obtiene o establece la posición actual en el modelo de diseño de página. Esta propiedad devuelve un objeto opaco que corresponde a la entidad de diseño actual. |
+| [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Obtiene el documento que enumera esta instancia. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Obtiene el tipo de la entidad actual. Esta puede ser una cadena vacía pero nunca nula. |
+| [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Obtiene el índice basado en 1 de una página que contiene la entidad actual. |
+| [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Devuelve el rectángulo delimitador de la entidad actual en relación con la esquina superior izquierda de la página (en puntos). |
+| [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Obtiene el texto de la entidad de intervalo actual. Lanzamientos para otros tipos de entidades. |
+| [Type](../../aspose.words.layout/layoutenumerator/type/) { get; } | Obtiene el tipo de la entidad actual. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild)() | Se mueve a la primera entidad secundaria. |
-| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild)() | Se mueve a la última entidad secundaria. |
-| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext)() | Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un párrafo dividido en páginas, este método no se moverá a la página siguiente sino a la siguiente entidad en la misma página. |
-| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical)() | Se mueve a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un párrafo dividido en páginas, este método se moverá a la siguiente línea incluso si reside en otra página. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent)() | Se mueve a la entidad padre. |
-| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent#moveparent_1)(LayoutEntityType) | Se mueve a la entidad principal del tipo especificado. |
-| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious)() | Se mueve a la entidad hermana anterior. |
-| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical)() | Se mueve a la entidad hermana anterior en un orden lógico. Al iterar líneas de un párrafo dividido en páginas, este método se moverá a la línea anterior incluso si reside en otra página. |
-| [Reset](../../aspose.words.layout/layoutenumerator/reset)() | Mueve el enumerador a la primera página del documento. |
+| [MoveFirstChild](../../aspose.words.layout/layoutenumerator/movefirstchild/)() | Se mueve a la primera entidad secundaria. |
+| [MoveLastChild](../../aspose.words.layout/layoutenumerator/movelastchild/)() | Se mueve a la última entidad secundaria. |
+| [MoveNext](../../aspose.words.layout/layoutenumerator/movenext/)() | Se mueve a la siguiente entidad hermana en orden visual. Al iterar líneas de un párrafo dividido en páginas, este método no se moverá a la página siguiente sino a la siguiente entidad en la misma página. |
+| [MoveNextLogical](../../aspose.words.layout/layoutenumerator/movenextlogical/)() | Se mueve a la siguiente entidad hermana en un orden lógico. Al iterar líneas de un párrafo dividido en páginas, este método se moverá a la siguiente línea incluso si reside en otra página. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent)() | Se mueve a la entidad padre. |
+| [MoveParent](../../aspose.words.layout/layoutenumerator/moveparent/#moveparent_1)(LayoutEntityType) | Se mueve a la entidad principal del tipo especificado. |
+| [MovePrevious](../../aspose.words.layout/layoutenumerator/moveprevious/)() | Se mueve a la entidad hermana anterior. |
+| [MovePreviousLogical](../../aspose.words.layout/layoutenumerator/movepreviouslogical/)() | Se mueve a la entidad hermana anterior en un orden lógico. Al iterar líneas de un párrafo dividido en páginas, este método se moverá a la línea anterior incluso si reside en otra página. |
+| [Reset](../../aspose.words.layout/layoutenumerator/reset/)() | Mueve el enumerador a la primera página del documento. |
 
 ### Ejemplos
 
@@ -190,7 +190,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
 
 ### Ver también
 
-* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout)
+* espacio de nombres [Aspose.Words.Layout](../../aspose.words.layout/)
 * asamblea [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

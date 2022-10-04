@@ -18,36 +18,36 @@ public class ListFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem) { get; } | Sant när stycket har en punkt- eller numrerad formatering. |
-| [List](../../aspose.words.lists/listformat/list) { get; set; } | Hämtar eller ställer in listan som detta stycke är medlem i. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel) { get; } | Returnerar formateringen på listnivå plus eventuella formateringsöverskridanden som tillämpas på det aktuella stycket. |
-| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber) { get; set; } | Hämtar eller ställer in listnivånumret (0 till 8) för stycket. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Sant när stycket har en punkt- eller numrerad formatering. |
+| [List](../../aspose.words.lists/listformat/list/) { get; set; } | Hämtar eller ställer in listan som detta stycke är medlem i. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Returnerar formateringen på listnivå plus eventuella formateringsöverskridanden som tillämpas på det aktuella stycket. |
+| [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Hämtar eller ställer in listnivånumret (0 till 8) för stycket. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault)() | Startar en ny standard punktlista och tillämpar den på stycket. |
-| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault)() | Startar en ny standardnumrerad lista och tillämpar den på stycket. |
-| [ListIndent](../../aspose.words.lists/listformat/listindent)() | Ökar listnivån för det aktuella stycket med en nivå. |
-| [ListOutdent](../../aspose.words.lists/listformat/listoutdent)() | Minskar listnivån för det aktuella stycket med en nivå. |
-| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers)() | Tar bort siffror eller punkter från det aktuella stycket och ställer in listnivån till noll. |
+| [ApplyBulletDefault](../../aspose.words.lists/listformat/applybulletdefault/)() | Startar en ny standard punktlista och tillämpar den på stycket. |
+| [ApplyNumberDefault](../../aspose.words.lists/listformat/applynumberdefault/)() | Startar en ny standardnumrerad lista och tillämpar den på stycket. |
+| [ListIndent](../../aspose.words.lists/listformat/listindent/)() | Ökar listnivån för det aktuella stycket med en nivå. |
+| [ListOutdent](../../aspose.words.lists/listformat/listoutdent/)() | Minskar listnivån för det aktuella stycket med en nivå. |
+| [RemoveNumbers](../../aspose.words.lists/listformat/removenumbers/)() | Tar bort siffror eller punkter från det aktuella stycket och ställer in listnivån till noll. |
 
 ### Anmärkningar
 
 Ett stycke i ett Microsoft Word-dokument kan punkteras eller numreras. När ett stycke är punkterat eller numrerat, sägs det att listformatering tillämpas på stycket.
 
-Du skapar inte objekt av[`ListFormat`](../listformat) klass direkt. Du kommer åt[`ListFormat`](../listformat) som en egenskap för ett annat objekt som kan ha listformatering kopplad till sig. För tillfället är objekten som can har listformatering:[`Paragraph`](../../aspose.words/paragraph) , [`Style`](../../aspose.words/style) och[`DocumentBuilder`](../../aspose.words/documentbuilder).
+Du skapar inte objekt av[`ListFormat`](./listformat/) klass direkt. Du kommer åt[`ListFormat`](./listformat/) som en egenskap för ett annat objekt som kan ha listformatering kopplad till sig. För tillfället är objekten som can har listformatering:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) och[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-[`ListFormat`](../listformat) av en[`Paragraph`](../../aspose.words/paragraph) anger vilken listformatering och listnivå som tillämpas på det specifika stycket.
+[`ListFormat`](./listformat/) av en[`Paragraph`](../../aspose.words/paragraph/) anger vilken listformatering och listnivå som tillämpas på det specifika stycket.
 
-[`ListFormat`](../listformat) av en[`Style`](../../aspose.words/style)(tillämplig endast för styckestilar) gör det möjligt att ange vilken listformatering och listnivå som tillämpas på alla stycken i den specifika stilen.
+[`ListFormat`](./listformat/) av en[`Style`](../../aspose.words/style/)(tillämplig endast för styckestilar) gör det möjligt att ange vilken listformatering och listnivå som tillämpas på alla stycken i den specifika stilen.
 
-[`ListFormat`](../listformat) av en[`DocumentBuilder`](../../aspose.words/documentbuilder) ger tillgång till listformateringen vid den aktuella markörpositionen inuti[`DocumentBuilder`](../../aspose.words/documentbuilder).
+[`ListFormat`](./listformat/) av en[`DocumentBuilder`](../../aspose.words/documentbuilder/) ger tillgång till listformateringen vid den aktuella markörpositionen inuti[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-Själva listformateringen lagras i en[`List`](../list) objekt som lagras separat från styckena. Listobjekten lagras i en[`ListCollection`](../listcollection) samling. Det finns en single [`ListCollection`](../listcollection) insamling pr[`Document`](../../aspose.words/document).
+Själva listformateringen lagras i en[`List`](../list/) objekt som lagras separat från styckena. Listobjekten lagras i en[`ListCollection`](../listcollection/) samling. Det finns en single [`ListCollection`](../listcollection/) insamling pr[`Document`](../../aspose.words/document/).
 
-Styckena hör inte fysiskt till en lista. Styckena just refererar till ett visst listobjekt via[`List`](./list) property och en viss nivå i listan via[`ListLevelNumber`](./listlevelnumber) property. Genom att ställa in dessa två egenskaper styr du vilka punkter och numrering som ska tillämpas på ett stycke.
+Styckena hör inte fysiskt till en lista. Styckena just refererar till ett visst listobjekt via[`List`](./list/) property och en viss nivå i listan via[`ListLevelNumber`](./listlevelnumber/) property. Genom att ställa in dessa två egenskaper styr du vilka punkter och numrering som ska tillämpas på ett stycke.
 
 ### Exempel
 
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ### Se även
 
-* namnutrymme [Aspose.Words.Lists](../../aspose.words.lists)
+* namnutrymme [Aspose.Words.Lists](../../aspose.words.lists/)
 * hopsättning [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->

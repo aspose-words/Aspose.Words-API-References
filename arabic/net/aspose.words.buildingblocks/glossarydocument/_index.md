@@ -18,76 +18,76 @@ public class GlossaryDocument : DocumentBase
 
 | اسم | وصف |
 | --- | --- |
-| [GlossaryDocument](glossarydocument)() | Default_Constructor |
+| [GlossaryDocument](glossarydocument/)() | Default_Constructor |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BackgroundShape](../../aspose.words/documentbase/backgroundshape) { get; set; } | الحصول على أو تحديد شكل خلفية المستند. يمكن أن يكون فارغًا. |
-| [BuildingBlocks](../../aspose.words.buildingblocks/glossarydocument/buildingblocks) { get; } | إرجاع مجموعة مكتوبة تمثل كل الكتل الإنشائية في مستند قاموس المصطلحات. |
-| [ChildNodes](../../aspose.words/compositenode/childnodes) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
-| [Count](../../aspose.words/compositenode/count) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
-| [CustomNodeId](../../aspose.words/node/customnodeid) { get; set; } | يحدد معرف العقدة المخصص . |
-| override [Document](../../aspose.words/documentbase/document) { get; } |  |
-| [FirstBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/firstbuildingblock) { get; } | الحصول على اللبنة البرمجية الإنشائية الأولى في مستند المسرد. |
-| [FirstChild](../../aspose.words/compositenode/firstchild) { get; } | الحصول على الطفل الأول للعقدة . |
-| [FontInfos](../../aspose.words/documentbase/fontinfos) { get; } | يوفر الوصول إلى خصائص الخطوط المستخدمة في هذا المستند. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
-| [LastBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/lastbuildingblock) { get; } | الحصول على الكتلة البرمجية الإنشائية الأخيرة في مستند المسرد. |
-| [LastChild](../../aspose.words/compositenode/lastchild) { get; } | الحصول على آخر تابع للعقدة . |
-| [Lists](../../aspose.words/documentbase/lists) { get; } | يوفر الوصول إلى تنسيق القائمة المستخدم في المستند. |
-| [NextSibling](../../aspose.words/node/nextsibling) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
-| [NodeChangingCallback](../../aspose.words/documentbase/nodechangingcallback) { get; set; } | يتم استدعائها عند إدراج عقدة أو إزالتها في المستند. |
-| override [NodeType](../../aspose.words.buildingblocks/glossarydocument/nodetype) { get; } | إرجاع ملفGlossaryDocument القيمة . |
-| [PageColor](../../aspose.words/documentbase/pagecolor) { get; set; } | الحصول على أو تحديد لون صفحة المستند. هذه الخاصية هي نسخة أبسط من[`BackgroundShape`](../../aspose.words/documentbase/backgroundshape) . |
-| [ParentNode](../../aspose.words/node/parentnode) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
-| [PreviousSibling](../../aspose.words/node/previoussibling) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
-| [Range](../../aspose.words/node/range) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
-| [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية. |
-| [Styles](../../aspose.words/documentbase/styles) { get; } | إرجاع مجموعة من الأنماط المحددة في المستند. |
-| [WarningCallback](../../aspose.words/documentbase/warningcallback) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق . |
+| [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | الحصول على أو تحديد شكل خلفية المستند. يمكن أن يكون فارغًا. |
+| [BuildingBlocks](../../aspose.words.buildingblocks/glossarydocument/buildingblocks/) { get; } | إرجاع مجموعة مكتوبة تمثل كل الكتل الإنشائية في مستند قاموس المصطلحات. |
+| [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | يحصل على جميع العقد الفرعية الفورية لهذه العقدة. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | الحصول على عدد الأطفال المباشرين لهذه العقدة. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | يحدد معرف العقدة المخصص . |
+| override [Document](../../aspose.words/documentbase/document/) { get; } |  |
+| [FirstBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/firstbuildingblock/) { get; } | الحصول على اللبنة البرمجية الإنشائية الأولى في مستند المسرد. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | الحصول على الطفل الأول للعقدة . |
+| [FontInfos](../../aspose.words/documentbase/fontinfos/) { get; } | يوفر الوصول إلى خصائص الخطوط المستخدمة في هذا المستند. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | إرجاع صحيح إذا كانت هذه العقدة بها أي عقد فرعية. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | إرجاع صحيح لأن هذه العقدة يمكن أن تحتوي على عقد فرعية. |
+| [LastBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/lastbuildingblock/) { get; } | الحصول على الكتلة البرمجية الإنشائية الأخيرة في مستند المسرد. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | الحصول على آخر تابع للعقدة . |
+| [Lists](../../aspose.words/documentbase/lists/) { get; } | يوفر الوصول إلى تنسيق القائمة المستخدم في المستند. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | يحصل على العقدة التي تلي هذه العقدة مباشرة. |
+| [NodeChangingCallback](../../aspose.words/documentbase/nodechangingcallback/) { get; set; } | يتم استدعائها عند إدراج عقدة أو إزالتها في المستند. |
+| override [NodeType](../../aspose.words.buildingblocks/glossarydocument/nodetype/) { get; } | إرجاع ملفGlossaryDocument القيمة . |
+| [PageColor](../../aspose.words/documentbase/pagecolor/) { get; set; } | الحصول على أو تحديد لون صفحة المستند. هذه الخاصية هي نسخة أبسط من[`BackgroundShape`](../../aspose.words/documentbase/backgroundshape/) . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | الحصول على الأصل المباشر لهذه العقدة. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | يحصل على العقدة التي تسبق هذه العقدة مباشرة. |
+| [Range](../../aspose.words/node/range/) { get; } | إرجاع أ **نطاق** الكائن الذي يمثل جزء المستند الموجود في هذه العقدة. |
+| [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback/) { get; set; } | يسمح بالتحكم في كيفية تحميل الموارد الخارجية. |
+| [Styles](../../aspose.words/documentbase/styles/) { get; } | إرجاع مجموعة من الأنماط المحددة في المستند. |
+| [WarningCallback](../../aspose.words/documentbase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء إجراءات معالجة المستندات المختلفة عند اكتشاف مشكلة قد تؤدي إلى في البيانات أو فقدان الدقة في التنسيق . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| override [Accept](../../aspose.words.buildingblocks/glossarydocument/accept)(DocumentVisitor) | يقبل الزائر . |
-| [AppendChild](../../aspose.words/compositenode/appendchild)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
-| [Clone](../../aspose.words/node/clone)(bool) | لإنشاء نسخة مكررة من العقدة . |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator)() | محجوز لاستخدام النظام. IXPathNavigable. |
-| [GetAncestor](../../aspose.words/node/getancestor)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype) . |
-| [GetAncestor](../../aspose.words/node/getancestor)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
-| [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock)(BuildingBlockGallery, string, string) | البحث عن كتلة إنشاء باستخدام المعرض والفئة والاسم المحدد. |
-| [GetChild](../../aspose.words/compositenode/getchild)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
-| override [GetText](../../aspose.words/compositenode/gettext)() | يحصل على نص هذه العقدة وجميع توابعها. |
-| [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية. |
-| [ImportNode](../../aspose.words/documentbase/importnode)(Node, bool, ImportFormatMode) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية مع خيار للتحكم في التنسيق. |
-| [IndexOf](../../aspose.words/compositenode/indexof)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [PrependChild](../../aspose.words/compositenode/prependchild)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
-| [Remove](../../aspose.words/node/remove)() | يزيل نفسه من الأصل. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren)() | يزيل كافة العقد التابعة للعقدة الحالية. |
-| [RemoveChild](../../aspose.words/compositenode/removechild)(Node) | يزيل العقدة الفرعية المحددة . |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag) العقد التابعة للعقدة الحالية. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
-| [ToString](../../aspose.words/node/tostring)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
-| [ToString](../../aspose.words/node/tostring)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
+| override [Accept](../../aspose.words.buildingblocks/glossarydocument/accept/)(DocumentVisitor) | يقبل الزائر . |
+| [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | يضيف العقدة المحددة إلى نهاية قائمة العقد الفرعية لهذه العقدة . |
+| [Clone](../../aspose.words/node/clone/)(bool) | لإنشاء نسخة مكررة من العقدة . |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | محجوز لاستخدام النظام. IXPathNavigable. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | يحصل على أول سلف محدد[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(Type) | الحصول على الأصل الأول لنوع الكائن المحدد. |
+| [GetBuildingBlock](../../aspose.words.buildingblocks/glossarydocument/getbuildingblock/)(BuildingBlockGallery, string, string) | البحث عن كتلة إنشاء باستخدام المعرض والفئة والاسم المحدد. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | إرجاع العقدة الفرعية رقم N التي تطابق النوع المحدد. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(NodeType, bool) | إرجاع مجموعة مباشرة من العقد الفرعية التي تطابق النوع المحدد. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | يوفر دعمًا لكل تكرار نمط على العقد التابعة لهذه العقدة . |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | يحصل على نص هذه العقدة وجميع توابعها. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية. |
+| [ImportNode](../../aspose.words/documentbase/importnode/)(Node, bool, ImportFormatMode) | يستورد عقدة من وثيقة أخرى إلى الوثيقة الحالية مع خيار للتحكم في التنسيق. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(Node) | إرجاع فهرس العقدة الفرعية المحددة في مصفوفة العقدة الفرعية. |
+| [InsertAfter](../../aspose.words/compositenode/insertafter/)(Node, Node) | يدخل العقدة المحددة مباشرة بعد العقدة المرجعية المحددة. |
+| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(Node, Node) | يقوم بإدراج العقدة المحددة مباشرة قبل العقدة المرجعية المحددة. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(Node) | الحصول على العقدة التالية وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [PrependChild](../../aspose.words/compositenode/prependchild/)(Node) | يضيف العقدة المحددة إلى بداية قائمة العقد الفرعية لهذه العقدة . |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(Node) | الحصول على العقدة السابقة وفقًا لخوارزمية اجتياز الشجرة بالطلب المسبق. |
+| [Remove](../../aspose.words/node/remove/)() | يزيل نفسه من الأصل. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | يزيل كافة العقد التابعة للعقدة الحالية. |
+| [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | يزيل العقدة الفرعية المحددة . |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | يزيل الكل[`SmartTag`](../../aspose.words.markup/smarttag/) العقد التابعة للعقدة الحالية. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | تحديد قائمة بالعقد المطابقة لتعبير XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | تحديد العقدة الأولى التي تطابق تعبير XPath. |
+| [ToString](../../aspose.words/node/tostring/)(SaveFormat) | يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد. |
+| [ToString](../../aspose.words/node/tostring/)(SaveOptions) | يصدر محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة. |
 
 ### ملاحظات
 
 يمكن أن تحتوي بعض المستندات ، عادةً قوالب ، على نص تلقائي وإدخالات التصحيح التلقائي و / أو كتل الإنشاء (تُعرف أيضًا باسمإدخالات وثيقة مسرد وأجزاء الوثيقة أواللبنات).
 
-للوصول إلى الكتل البرمجية الإنشائية ، تحتاج إلى تحميل مستند إلى ملف[`Document`](../../aspose.words/document) كائن. اللبنات الأساسية ستكون متاحة عبر[`GlossaryDocument`](../../aspose.words/document/glossarydocument) منشأه.
+للوصول إلى الكتل البرمجية الإنشائية ، تحتاج إلى تحميل مستند إلى ملف[`Document`](../../aspose.words/document/) كائن. اللبنات الأساسية ستكون متاحة عبر[`GlossaryDocument`](../../aspose.words/document/glossarydocument/) منشأه.
 
-[`GlossaryDocument`](../glossarydocument) يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock) الكائنات . لكل منهما[`BuildingBlock`](../buildingblock) يمثل جزءًا واحدًا من المستند.
+[`GlossaryDocument`](./glossarydocument/) يمكن أن تحتوي على أي عدد من[`BuildingBlock`](../buildingblock/) الكائنات . لكل منهما[`BuildingBlock`](../buildingblock/) يمثل جزءًا واحدًا من المستند.
 
 يتوافق مع **وثيقة** و **docParts**العناصر في OOXML.
 
@@ -195,8 +195,8 @@ public class GlossaryDocVisitor : DocumentVisitor
 
 ### أنظر أيضا
 
-* class [DocumentBase](../../aspose.words/documentbase)
-* مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks)
+* class [DocumentBase](../../aspose.words/documentbase/)
+* مساحة الاسم [Aspose.Words.BuildingBlocks](../../aspose.words.buildingblocks/)
 * المجسم [Aspose.Words](../../)
 
 <!-- DO NOT EDIT: generated by xmldocmd for Aspose.Words.dll -->
