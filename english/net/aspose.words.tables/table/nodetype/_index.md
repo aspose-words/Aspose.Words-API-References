@@ -60,11 +60,9 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 Shows how to find out if a tables are nested.
 
 ```csharp
-public void CalculateDepthOfNestedTables()
 {
     Document doc = new Document(MyDir + "Nested tables.docx");
     NodeCollection tables = doc.GetChildNodes(NodeType.Table, true);
-
     for (int i = 0; i < tables.Count; i++)
     {
         Table table = (Table)tables[i];

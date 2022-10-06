@@ -25,7 +25,6 @@ When cells are vertically merged, the display areas of the merged cells are cons
 Prints the horizontal and vertical merge type of a cell.
 
 ```csharp
-public void CheckCellsMerged()
 {
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
@@ -33,7 +32,6 @@ public void CheckCellsMerged()
     foreach (Row row in table.Rows.OfType<Row>())
         foreach (Cell cell in row.Cells.OfType<Cell>())
             Console.WriteLine(PrintCellMergeType(cell));
-}
 
 public string PrintCellMergeType(Cell cell)
 {

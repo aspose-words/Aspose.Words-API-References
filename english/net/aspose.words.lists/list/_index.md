@@ -36,6 +36,7 @@ public class List : IComparable<List>
 | [Equals](../../aspose.words.lists/list/equals/#equals)(List) | Compares with the specified list. |
 | override [Equals](../../aspose.words.lists/list/equals/#equals_1)(object) |  |
 | override [GetHashCode](../../aspose.words.lists/list/gethashcode/)() | Calculates hash code for this list object. |
+| [HasSameTemplate](../../aspose.words.lists/list/hassametemplate/)(List) | Returns true if the current list and the given list are created from the same template. |
 
 ## Remarks
 

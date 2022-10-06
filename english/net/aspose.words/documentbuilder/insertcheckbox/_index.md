@@ -3,7 +3,7 @@ title: InsertCheckBox
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a checkbox form field at the current position.
 type: docs
-weight: 270
+weight: 290
 url: /net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(string, bool, int) {#insertcheckbox_1}

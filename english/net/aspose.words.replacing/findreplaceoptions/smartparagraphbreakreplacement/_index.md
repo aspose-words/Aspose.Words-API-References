@@ -3,7 +3,7 @@ title: SmartParagraphBreakReplacement
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property

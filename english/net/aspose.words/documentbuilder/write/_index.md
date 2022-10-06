@@ -3,7 +3,7 @@ title: Write
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a string into the document at the current insert position.
 type: docs
-weight: 620
+weight: 650
 url: /net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method

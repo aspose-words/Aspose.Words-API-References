@@ -3,7 +3,7 @@ title: EndTable
 second_title: Aspose.Words for .NET API Reference
 description: Ends a table in the document.
 type: docs
-weight: 230
+weight: 250
 url: /net/aspose.words/documentbuilder/endtable/
 ---
 ## DocumentBuilder.EndTable method

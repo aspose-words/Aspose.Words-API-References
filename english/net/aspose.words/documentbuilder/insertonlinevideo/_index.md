@@ -3,7 +3,7 @@ title: InsertOnlineVideo
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an online video object into the document and scales it to the specified size.
 type: docs
-weight: 390
+weight: 410
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
 ## InsertOnlineVideo(string, double, double) {#insertonlinevideo_1}

@@ -33,9 +33,11 @@ public class DocumentBuilder
 | [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Gets the paragraph that is currently selected in this DocumentBuilder. |
 | [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Gets the section that is currently selected in this DocumentBuilder. |
 | [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Gets the story that is currently selected in this DocumentBuilder. |
+| [CurrentStructuredDocumentTag](../../aspose.words/documentbuilder/currentstructureddocumenttag/) { get; } | Gets the structured document tag that is currently selected in this DocumentBuilder. |
 | [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Gets or sets the [`Document`](./document/) object that this object is attached to. |
 | [Font](../../aspose.words/documentbuilder/font/) { get; } | Returns an object that represents current font formatting properties. |
 | [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Returns true if the cursor is at the end of the current paragraph. |
+| [IsAtEndOfStructuredDocumentTag](../../aspose.words/documentbuilder/isatendofstructureddocumenttag/) { get; } | Returns **true** if the cursor is at the end of a structured document tag. |
 | [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [Italic](../../aspose.words/documentbuilder/italic/) { get; set; } | True if the font is formatted as italic. |
 | [ListFormat](../../aspose.words/documentbuilder/listformat/) { get; } | Returns an object that represents current list formatting properties. |
@@ -86,7 +88,7 @@ public class DocumentBuilder
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_4)(Image, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a .NET Image object at the specified position and size. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_7)(Stream, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a stream at the specified position and size. |
 | [InsertImage](../../aspose.words/documentbuilder/insertimage/#insertimage_10)(string, RelativeHorizontalPosition, double, RelativeVerticalPosition, double, double, double, WrapType) | Inserts an image from a file or URL at the specified position and size. |
-| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Inserts a text level node inside the current paragraph before the cursor. |
+| [InsertNode](../../aspose.words/documentbuilder/insertnode/)(Node) | Inserts a node before the cursor. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject)(Stream, string, bool, Stream) | Inserts an embedded OLE object from a stream into the document. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_1)(string, bool, bool, Stream) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
 | [InsertOleObject](../../aspose.words/documentbuilder/insertoleobject/#insertoleobject_2)(string, string, bool, bool, Stream) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
@@ -117,6 +119,8 @@ public class DocumentBuilder
 | [MoveToMergeField](../../aspose.words/documentbuilder/movetomergefield/#movetomergefield_1)(string, bool, bool) | Moves the merge field to the specified merge field. |
 | [MoveToParagraph](../../aspose.words/documentbuilder/movetoparagraph/)(int, int) | Moves the cursor to a paragraph in the current section. |
 | [MoveToSection](../../aspose.words/documentbuilder/movetosection/)(int) | Moves the cursor to the beginning of the body in a specified section. |
+| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag_1)(int, int) | Moves the cursor to a structured document tag in the current section. |
+| [MoveToStructuredDocumentTag](../../aspose.words/documentbuilder/movetostructureddocumenttag/#movetostructureddocumenttag)(StructuredDocumentTag, int) | Moves the cursor to the structured document tag. |
 | [PopFont](../../aspose.words/documentbuilder/popfont/)() | Retrieves character formatting previously saved on the stack. |
 | [PushFont](../../aspose.words/documentbuilder/pushfont/)() | Saves current character formatting onto the stack. |
 | [StartBookmark](../../aspose.words/documentbuilder/startbookmark/)(string) | Marks the current position in the document as a bookmark start. |

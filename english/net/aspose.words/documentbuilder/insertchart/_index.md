@@ -3,7 +3,7 @@ title: InsertChart
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an chart object into the document and scales it to the specified size.
 type: docs
-weight: 260
+weight: 280
 url: /net/aspose.words/documentbuilder/insertchart/
 ---
 ## InsertChart(ChartType, double, double) {#insertchart_1}

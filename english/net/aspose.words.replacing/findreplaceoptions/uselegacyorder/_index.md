@@ -3,7 +3,7 @@ title: UseLegacyOrder
 second_title: Aspose.Words for .NET API Reference
 description: True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property

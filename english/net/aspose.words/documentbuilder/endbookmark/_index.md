@@ -3,7 +3,7 @@ title: EndBookmark
 second_title: Aspose.Words for .NET API Reference
 description: Marks the current position in the document as a bookmark end.
 type: docs
-weight: 190
+weight: 210
 url: /net/aspose.words/documentbuilder/endbookmark/
 ---
 ## DocumentBuilder.EndBookmark method

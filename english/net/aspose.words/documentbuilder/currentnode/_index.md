@@ -18,7 +18,7 @@ public Node CurrentNode { get; }
 
 **CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
 
-When the current paragraph is empty or the cursor is positioned just before the end of the paragraph, **CurrentNode** returns null.
+When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, **CurrentNode** returns null.
 
 ## Examples
 
