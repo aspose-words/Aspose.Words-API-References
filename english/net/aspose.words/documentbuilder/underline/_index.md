@@ -3,7 +3,7 @@ title: Underline
 second_title: Aspose.Words for .NET API Reference
 description: Gets/sets underline type for the current font.
 type: docs
-weight: 170
+weight: 190
 url: /net/aspose.words/documentbuilder/underline/
 ---
 ## DocumentBuilder.Underline property

@@ -3,7 +3,7 @@ title: LegacyMode
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a boolean value indicating that old find/replace algorithm is used.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.replacing/findreplaceoptions/legacymode/
 ---
 ## FindReplaceOptions.LegacyMode property

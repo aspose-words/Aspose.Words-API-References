@@ -3,7 +3,7 @@ title: Document
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the Documentaspose.words/documentbuilder/document/ object that this object is attached to.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property

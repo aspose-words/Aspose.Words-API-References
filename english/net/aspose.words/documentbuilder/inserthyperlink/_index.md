@@ -3,7 +3,7 @@ title: InsertHyperlink
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a hyperlink into the document.
 type: docs
-weight: 340
+weight: 360
 url: /net/aspose.words/documentbuilder/inserthyperlink/
 ---
 ## DocumentBuilder.InsertHyperlink method

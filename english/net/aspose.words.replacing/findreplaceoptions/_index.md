@@ -36,6 +36,7 @@ public class FindReplaceOptions
 | [IgnoreFields](../../aspose.words.replacing/findreplaceoptions/ignorefields/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is `false`. |
 | [IgnoreFootnotes](../../aspose.words.replacing/findreplaceoptions/ignorefootnotes/) { get; set; } | Gets or sets a boolean value indicating either to ignore footnotes. The default value is `false`. |
 | [IgnoreInserted](../../aspose.words.replacing/findreplaceoptions/ignoreinserted/) { get; set; } | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is `false`. |
+| [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Gets or sets a boolean value indicating either to ignore content of [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/). The default value is `false`. |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | The user-defined method which is called before every replace occurrence. |

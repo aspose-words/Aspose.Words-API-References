@@ -3,7 +3,7 @@ title: Italic
 second_title: Aspose.Words for .NET API Reference
 description: True if the font is formatted as italic.
 type: docs
-weight: 120
+weight: 140
 url: /net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property

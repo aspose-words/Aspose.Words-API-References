@@ -3,7 +3,7 @@ title: InsertOleObjectAsIcon
 second_title: Aspose.Words for .NET API Reference
 description: Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
 type: docs
-weight: 380
+weight: 400
 url: /net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(string, bool, string, string) {#insertoleobjectasicon_1}

@@ -3,7 +3,7 @@ title: MoveToMergeField
 second_title: Aspose.Words for .NET API Reference
 description: Moves the cursor to a position just beyond the specified merge field and removes the merge field.
 type: docs
-weight: 530
+weight: 550
 url: /net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(string) {#movetomergefield}

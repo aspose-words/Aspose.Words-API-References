@@ -3,7 +3,7 @@ title: Writeln
 second_title: Aspose.Words for .NET API Reference
 description: Inserts a string and a paragraph break into the document.
 type: docs
-weight: 630
+weight: 660
 url: /net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(string) {#writeln_1}
