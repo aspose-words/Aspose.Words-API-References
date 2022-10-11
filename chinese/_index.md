@@ -50,5 +50,18 @@ Aspose.Words for C++ 是一个原生类库，使 C++ 应用程序开发人员能
 
 - [Aspose.Words for C++ API 参考](/words/cpp)
 
+## Aspose.Words for Python 通过 .NET
+
+{{% alert color="primary" %}}
+
+![Aspose.Words for Python 通过 .NET 产品徽标](../home_4.png)
+
+Aspose.Words for Python via .NET 是一个类库，使您的应用程序能够执行大量文档处理任务。 Aspose.Words 支持 DOC、DOCX、RTF、HTML、OpenDocument、PDF、XPS、EPUB 和其他格式。 使用 Aspose.Words，您可以在不使用 Microsoft Word® 的情况下生成、修改、转换、渲染和打印文档。
+
+{{% /alert %}}
+
+这些是一些有用资源的链接：
+- [Aspose.Words for Python 通过 .NET API 参考](/words/python-net/)
+
 
 

@@ -50,5 +50,16 @@ Bunlar, bazı yararlı kaynaklara bağlantılar:
 
 - [Aspose.Words for C++ API Referansı](/words/cpp)
 
+## .NET üzerinden Python için Aspose.Words
 
+{{% alert color="primary" %}}
+
+![.NET Ürün Logosu ile Python için Aspose.Words](../home_4.png)
+
+.NET aracılığıyla Aspose.Words for Python, uygulamalarınızın çok çeşitli belge işleme görevlerini gerçekleştirmesini sağlayan bir sınıf kitaplığıdır. Aspose.Words DOC, DOCX, RTF, HTML, OpenDocument, PDF, XPS, EPUB ve diğer formatları destekler. Aspose.Words ile Microsoft Word® kullanmadan belgeler oluşturabilir, değiştirebilir, dönüştürebilir, oluşturabilir ve yazdırabilirsiniz.
+
+{{% /alert %}}
+
+Bunlar, bazı yararlı kaynaklara bağlantılar:
+- [.NET API Referansı ile Python için Aspose.Words](/words/python-net/)
 

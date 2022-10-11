@@ -50,5 +50,16 @@ Aspose.Words for C ++ هي مكتبة فئة أصلية تمكن مطوري تط
 
 - [Aspose.Words لمرجع API C ++](/words/cpp)
 
+## Aspose.Words for Python عبر .NET
 
+{{% alert color="primary" %}}
+
+![Aspose.Words for Python عبر .NET Product Logo](../home_4.png)
+
+Aspose.Words for Python via .NET هي مكتبة فئة تمكن تطبيقاتك من أداء مجموعة كبيرة من مهام معالجة المستندات. يدعم Aspose.Words تنسيقات DOC و DOCX و RTF و HTML و OpenDocument و PDF و XPS و EPUB وتنسيقات أخرى. باستخدام Aspose.Words يمكنك إنشاء وتعديل وتحويل وعرض وطباعة المستندات دون استخدام Microsoft Word®.
+
+{{% /alert %}}
+
+هذه روابط لبعض المصادر المفيدة:
+- [Aspose.Words for Python عبر مرجع .NET API](/words/python-net/)
 
