@@ -10,6 +10,8 @@ url: /net/aspose.words.properties/customdocumentproperties/
 
 A collection of custom document properties.
 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 ```csharp
 public class CustomDocumentProperties : DocumentPropertyCollection
 ```

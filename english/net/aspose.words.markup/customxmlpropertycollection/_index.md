@@ -10,6 +10,8 @@ url: /net/aspose.words.markup/customxmlpropertycollection/
 
 Represents a collection of custom XML attributes or smart tag properties.
 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 ```csharp
 public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/metered/
 
 Provides methods to set metered key.
 
+To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
+
 ```csharp
 public class Metered
 ```

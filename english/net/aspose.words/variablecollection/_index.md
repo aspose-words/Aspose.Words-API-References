@@ -10,6 +10,8 @@ url: /net/aspose.words/variablecollection/
 
 A collection of document variables.
 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 ```csharp
 public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 ```

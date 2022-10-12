@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/saveoutputparameters/
 
 This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
 
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 ```csharp
 public class SaveOutputParameters
 ```

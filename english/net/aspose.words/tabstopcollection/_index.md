@@ -10,6 +10,8 @@ url: /net/aspose.words/tabstopcollection/
 
 A collection of [`TabStop`](../tabstop/) objects that represent custom tabs for a paragraph or a style.
 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 ```csharp
 public class TabStopCollection : InternableComplexAttr
 ```

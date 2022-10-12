@@ -10,6 +10,8 @@ url: /net/aspose.words.settings/odsorecipientdata/
 
 Represents information about a single record within an external data source that is to be excluded from the mail merge.
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public class OdsoRecipientData
 ```

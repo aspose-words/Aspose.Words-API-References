@@ -10,6 +10,8 @@ url: /net/aspose.words/inlinestory/
 
 Base class for inline-level nodes that can contain paragraphs and tables.
 
+To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) documentation article.
+
 ```csharp
 public abstract class InlineStory : CompositeNode
 ```

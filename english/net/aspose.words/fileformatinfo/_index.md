@@ -10,6 +10,8 @@ url: /net/aspose.words/fileformatinfo/
 
 Contains data returned by [`FileFormatUtil`](../fileformatutil/) document format detection methods.
 
+To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) documentation article.
+
 ```csharp
 public class FileFormatInfo
 ```

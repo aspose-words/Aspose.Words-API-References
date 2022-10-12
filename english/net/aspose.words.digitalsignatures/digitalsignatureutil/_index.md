@@ -10,6 +10,8 @@ url: /net/aspose.words.digitalsignatures/digitalsignatureutil/
 
 Provides methods for signing document.
 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
 ```csharp
 public static class DigitalSignatureUtil
 ```

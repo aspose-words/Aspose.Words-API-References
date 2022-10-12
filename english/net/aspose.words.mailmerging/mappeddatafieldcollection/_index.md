@@ -10,6 +10,8 @@ url: /net/aspose.words.mailmerging/mappeddatafieldcollection/
 
 Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
 ```

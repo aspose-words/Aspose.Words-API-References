@@ -10,6 +10,8 @@ url: /net/aspose.words.layout/revisionoptions/
 
 Allows to control how document revisions are handled during layout process.
 
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
 ```csharp
 public class RevisionOptions
 ```

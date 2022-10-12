@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/pdfencryptiondetails/
 
 Contains details for encrypting and access permissions for a PDF document.
 
+To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) documentation article.
+
 ```csharp
 public class PdfEncryptionDetails
 ```

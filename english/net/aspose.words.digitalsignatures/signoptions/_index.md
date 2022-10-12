@@ -10,6 +10,8 @@ url: /net/aspose.words.digitalsignatures/signoptions/
 
 Allows to specify options for document signing.
 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
 ```csharp
 public class SignOptions
 ```

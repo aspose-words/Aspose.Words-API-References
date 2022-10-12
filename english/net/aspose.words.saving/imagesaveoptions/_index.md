@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/imagesaveoptions/
 
 Allows to specify additional options when rendering document pages or shapes to images.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public class ImageSaveOptions : FixedPageSaveOptions
 ```

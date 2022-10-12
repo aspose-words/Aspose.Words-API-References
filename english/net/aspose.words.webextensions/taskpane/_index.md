@@ -10,6 +10,8 @@ url: /net/aspose.words.webextensions/taskpane/
 
 Represents an add-in task pane object.
 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
 ```csharp
 public class TaskPane
 ```

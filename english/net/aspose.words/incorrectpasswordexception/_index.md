@@ -10,6 +10,8 @@ url: /net/aspose.words/incorrectpasswordexception/
 
 Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class IncorrectPasswordException : Exception
 ```

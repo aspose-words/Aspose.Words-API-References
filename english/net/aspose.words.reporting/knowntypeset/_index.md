@@ -10,6 +10,8 @@ url: /net/aspose.words.reporting/knowntypeset/
 
 Represents an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates to invoke the corresponding types' static members, perform type casts, etc.
 
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
 ```csharp
 public class KnownTypeSet : IEnumerable<Type>
 ```

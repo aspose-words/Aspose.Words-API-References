@@ -10,6 +10,8 @@ url: /net/aspose.words.reporting/jsondataloadoptions/
 
 Represents options for parsing JSON data.
 
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
 ```csharp
 public class JsonDataLoadOptions
 ```

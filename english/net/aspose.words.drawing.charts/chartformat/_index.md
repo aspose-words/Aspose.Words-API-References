@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chartformat/
 
 Represents the formatting of a chart element.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartFormat
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/markdownsaveoptions/
 
 Class to specify additional options when saving a document into the Markdown format.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public class MarkdownSaveOptions : TxtSaveOptionsBase
 ```

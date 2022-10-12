@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/signatureline/
 
 Provides access to signature line properties.
 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
 ```csharp
 public class SignatureLine
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/license/
 
 Provides methods to license the component.
 
+To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
+
 ```csharp
 public class License
 ```

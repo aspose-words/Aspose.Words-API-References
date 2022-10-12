@@ -1,12 +1,14 @@
 ---
 title: DeepClone
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns a deep clone of this instance.
 type: docs
 weight: 50
 url: /net/aspose.words.shaping/cluster/deepclone/
 ---
 ## Cluster.DeepClone method
+
+Returns a deep clone of this instance.
 
 ```csharp
 public Cluster DeepClone()
