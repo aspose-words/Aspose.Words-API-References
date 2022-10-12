@@ -10,6 +10,8 @@ url: /net/aspose.words.reporting/xmldatasource/
 
 Provides access to data of an XML file or stream to be used within a report.
 
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
 ```csharp
 public class XmlDataSource
 ```

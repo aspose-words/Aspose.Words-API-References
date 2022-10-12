@@ -10,6 +10,8 @@ url: /net/aspose.words.mailmerging/mailmergeregioninfo/
 
 Contains information about a mail merge region.
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public class MailMergeRegionInfo
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.digitalsignatures/digitalsignature/
 
 Represents a digital signature on a document and the result of its verification.
 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
 ```csharp
 public class DigitalSignature
 ```

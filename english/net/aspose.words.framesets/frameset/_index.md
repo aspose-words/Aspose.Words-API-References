@@ -10,6 +10,8 @@ url: /net/aspose.words.framesets/frameset/
 
 Represents a frames page or a single frame on a frames page.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class Frameset
 ```

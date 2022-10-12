@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/languagepreferences/
 
 Allows to set up language preferences.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public class LanguagePreferences
 ```

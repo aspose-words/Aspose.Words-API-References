@@ -10,6 +10,8 @@ url: /net/aspose.words/buildversioninfo/
 
 Provides information about the current product name and version.
 
+To learn more, visit the [Generator or Producer Name Included in Output Documents](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) documentation article.
+
 ```csharp
 public static class BuildVersionInfo
 ```

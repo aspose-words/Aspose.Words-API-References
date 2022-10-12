@@ -10,6 +10,8 @@ url: /net/aspose.words/cleanupoptions/
 
 Allows to specify options for document cleaning.
 
+To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/net/clean-up-a-document/) documentation article.
+
 ```csharp
 public class CleanupOptions
 ```

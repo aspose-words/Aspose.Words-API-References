@@ -10,6 +10,8 @@ url: /net/aspose.words/compositenode/
 
 Base class for nodes that can contain other nodes.
 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 ```csharp
 public abstract class CompositeNode : Node, IEnumerable<Node>, IXPathNavigable
 ```

@@ -1,12 +1,14 @@
 ---
 title: GetString
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Creates String using codepoints from the specified clusters.
 type: docs
 weight: 70
 url: /net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(Cluster[])
+
+Creates String using codepoints from the specified clusters.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -21,6 +23,8 @@ public static string GetString(Cluster[] clusters)
 ---
 
 ## GetString()
+
+Creates String using codepoints from this cluster.
 
 ```csharp
 public string GetString()

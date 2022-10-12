@@ -10,6 +10,8 @@ url: /net/aspose.words.webextensions/taskpanecollection/
 
 Specifies a list of persisted task pane objects.
 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
 ```csharp
 public class TaskPaneCollection : BaseWebExtensionCollection<TaskPane>
 ```

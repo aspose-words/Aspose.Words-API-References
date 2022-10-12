@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/htmlfixedsaveoptions/
 
 Can be used to specify additional options when saving a document into the HtmlFixed format.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public class HtmlFixedSaveOptions : FixedPageSaveOptions
 ```

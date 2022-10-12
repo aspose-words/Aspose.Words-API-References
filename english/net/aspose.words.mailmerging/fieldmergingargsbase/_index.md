@@ -10,6 +10,8 @@ url: /net/aspose.words.mailmerging/fieldmergingargsbase/
 
 Base class for [`FieldMergingArgs`](../fieldmergingargs/) and [`ImageFieldMergingArgs`](../imagefieldmergingargs/).
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public abstract class FieldMergingArgsBase
 ```

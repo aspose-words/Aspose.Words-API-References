@@ -10,6 +10,8 @@ url: /net/aspose.words.properties/builtindocumentproperties/
 
 A collection of built-in document properties.
 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 ```csharp
 public class BuiltInDocumentProperties : DocumentPropertyCollection
 ```

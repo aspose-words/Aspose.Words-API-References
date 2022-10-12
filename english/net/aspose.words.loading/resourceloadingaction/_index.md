@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/resourceloadingaction/
 
 Specifies the mode of resource loading.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public enum ResourceLoadingAction
 ```

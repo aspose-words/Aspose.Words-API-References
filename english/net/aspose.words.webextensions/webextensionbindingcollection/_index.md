@@ -10,6 +10,8 @@ url: /net/aspose.words.webextensions/webextensionbindingcollection/
 
 Specifies a list of web extension bindings.
 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
 ```csharp
 public class WebExtensionBindingCollection : BaseWebExtensionCollection<WebExtensionBinding>
 ```

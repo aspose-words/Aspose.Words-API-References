@@ -10,6 +10,8 @@ url: /net/aspose.words.properties/documentpropertycollection/
 
 Base class for [`BuiltInDocumentProperties`](../builtindocumentproperties/) and [`CustomDocumentProperties`](../customdocumentproperties/) collections.
 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 ```csharp
 public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/importformatoptions/
 
 Allows to specify various import options to format output.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public class ImportFormatOptions
 ```

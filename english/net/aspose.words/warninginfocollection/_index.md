@@ -10,6 +10,8 @@ url: /net/aspose.words/warninginfocollection/
 
 Represents a typed collection of [`WarningInfo`](../warninginfo/) objects.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 ```

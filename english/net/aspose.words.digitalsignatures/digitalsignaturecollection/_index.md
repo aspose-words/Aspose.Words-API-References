@@ -10,6 +10,8 @@ url: /net/aspose.words.digitalsignatures/digitalsignaturecollection/
 
 Provides a read-only collection of digital signatures attached to a document.
 
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
 ```csharp
 public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 ```

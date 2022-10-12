@@ -10,6 +10,8 @@ url: /net/aspose.words.webextensions/basewebextensioncollection-1/
 
 Base class for [`TaskPaneCollection`](../taskpanecollection/), [`WebExtensionBindingCollection`](../webextensionbindingcollection/), [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) and [`WebExtensionReferenceCollection`](../webextensionreferencecollection/) collections.
 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
     where T : class

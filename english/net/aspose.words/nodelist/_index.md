@@ -10,6 +10,8 @@ url: /net/aspose.words/nodelist/
 
 Represents a collection of nodes matching an XPath query executed using the [`SelectNodes`](../compositenode/selectnodes/) method.
 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 ```csharp
 public class NodeList : IEnumerable<Node>
 ```

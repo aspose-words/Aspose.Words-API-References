@@ -10,6 +10,8 @@ url: /net/aspose.words.markup/structureddocumenttag/
 
 Represents a structured document tag (SDT or content control) in a document.
 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 ```csharp
 public class StructuredDocumentTag : CompositeNode, IStructuredDocumentTag
 ```

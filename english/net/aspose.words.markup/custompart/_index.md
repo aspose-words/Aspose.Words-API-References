@@ -10,6 +10,8 @@ url: /net/aspose.words.markup/custompart/
 
 Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard.
 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 ```csharp
 public class CustomPart
 ```

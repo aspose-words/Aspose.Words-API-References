@@ -10,6 +10,8 @@ url: /net/aspose.words.replacing/replacingargs/
 
 Provides data for a custom replace operation.
 
+To learn more, visit the [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/) documentation article.
+
 ```csharp
 public class ReplacingArgs
 ```

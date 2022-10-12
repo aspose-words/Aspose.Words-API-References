@@ -1,12 +1,14 @@
 ---
 title: Direction
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Text direction.
 type: docs
 weight: 5720
 url: /net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
+
+Text direction.
 
 ```csharp
 public enum Direction
@@ -16,11 +18,11 @@ public enum Direction
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Default | `0` |  |
-| LTR | `0` |  |
-| RTL | `1` |  |
-| TTB | `2` |  |
-| BTT | `3` |  |
+| Default | `0` | Default value, same as LTR. |
+| LTR | `0` | Left-to-right writing direction. |
+| RTL | `1` | Right-to-left writing direction. |
+| TTB | `2` | Top-to-bottom writing direction. |
+| BTT | `3` | Bottom-to-top writing direction. |
 
 ### See Also
 

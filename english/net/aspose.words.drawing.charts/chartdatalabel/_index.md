@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chartdatalabel/
 
 Represents data label on a chart point or trendline.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartDataLabel
 ```

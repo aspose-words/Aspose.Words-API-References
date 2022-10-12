@@ -10,6 +10,8 @@ url: /net/aspose.words/revisiongroup/
 
 Represents a group of sequential [`Revision`](../revision/) objects.
 
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+
 ```csharp
 public class RevisionGroup
 ```

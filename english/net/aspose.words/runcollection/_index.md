@@ -10,6 +10,8 @@ url: /net/aspose.words/runcollection/
 
 Provides typed access to a collection of [`Run`](../run/) nodes.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class RunCollection : NodeCollection
 ```

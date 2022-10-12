@@ -10,6 +10,8 @@ url: /net/aspose.words/unsupportedfileformatexception/
 
 Thrown during document load, when the document format is not recognized or not supported by Aspose.Words.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class UnsupportedFileFormatException : Exception
 ```

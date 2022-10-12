@@ -10,6 +10,8 @@ url: /net/aspose.words.reporting/csvdataloadoptions/
 
 Represents options for parsing CSV data.
 
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
 ```csharp
 public class CsvDataLoadOptions
 ```

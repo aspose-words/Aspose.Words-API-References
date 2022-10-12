@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/
 
 A collection of individual bookmarks outline level.
 
+To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
 ```

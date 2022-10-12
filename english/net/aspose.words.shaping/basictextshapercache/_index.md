@@ -1,12 +1,14 @@
 ---
 title: BasicTextShaperCache
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Implements basic cache for ITextShaper./itextshaper/ instances. This class is threadsafe.
 type: docs
 weight: 5700
 url: /net/aspose.words.shaping/basictextshapercache/
 ---
 ## BasicTextShaperCache class
+
+Implements basic cache for [`ITextShaper`](../itextshaper/) instances. This class is thread-safe.
 
 ```csharp
 public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
@@ -16,7 +18,7 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | Name | Description |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) |  |
+| [BasicTextShaperCache](basictextshapercache/)(ITextShaperFactory) | Wraps *factory* and caches [`GetTextShaper`](../itextshaperfactory/gettextshaper/) results. |
 
 ## Methods
 

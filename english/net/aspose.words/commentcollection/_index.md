@@ -10,6 +10,8 @@ url: /net/aspose.words/commentcollection/
 
 Provides typed access to a collection of [`Comment`](../comment/) nodes.
 
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
 ```csharp
 public class CommentCollection : NodeCollection
 ```

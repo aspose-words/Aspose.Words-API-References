@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/axisbound/
 
 Represents minimum or maximum bound of axis values.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public sealed class AxisBound
 ```

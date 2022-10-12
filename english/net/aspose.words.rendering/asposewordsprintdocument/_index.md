@@ -10,6 +10,8 @@ url: /net/aspose.words.rendering/asposewordsprintdocument/
 
 Provides a default implementation for printing of a [`Document`](../../aspose.words/document/) within the .NET printing framework.
 
+To learn more, visit the [Printing a Document Programmatically or Using Dialogs](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) documentation article.
+
 ```csharp
 public class AsposeWordsPrintDocument : PrintDocument
 ```

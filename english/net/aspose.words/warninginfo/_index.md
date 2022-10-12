@@ -10,6 +10,8 @@ url: /net/aspose.words/warninginfo/
 
 Contains information about a warning that Aspose.Words issued during document loading or saving.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class WarningInfo
 ```

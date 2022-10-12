@@ -10,6 +10,8 @@ url: /net/aspose.words.properties/documentproperty/
 
 Represents a custom or built-in document property.
 
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 ```csharp
 public class DocumentProperty
 ```

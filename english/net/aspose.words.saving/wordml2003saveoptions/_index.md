@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/wordml2003saveoptions/
 
 Can be used to specify additional options when saving a document into the WordML format.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public class WordML2003SaveOptions : SaveOptions
 ```
