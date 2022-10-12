@@ -10,6 +10,8 @@ url: /net/aspose.words/nodecollection/
 
 Represents a collection of nodes of a specific type.
 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 ```csharp
 public class NodeCollection : IEnumerable<Node>
 ```

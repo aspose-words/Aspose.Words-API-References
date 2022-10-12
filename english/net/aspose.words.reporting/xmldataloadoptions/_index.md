@@ -10,6 +10,8 @@ url: /net/aspose.words.reporting/xmldataloadoptions/
 
 Represents options for XML data loading.
 
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
 ```csharp
 public class XmlDataLoadOptions
 ```

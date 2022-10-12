@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/documentloadingargs/
 
 An argument passed into [`Notify`](../idocumentloadingcallback/notify/).
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public sealed class DocumentLoadingArgs
 ```

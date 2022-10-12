@@ -10,6 +10,8 @@ url: /net/aspose.words/commentrangeend/
 
 Denotes the end of a region of text that has a comment associated with it.
 
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
 ```csharp
 public sealed class CommentRangeEnd : Node
 ```

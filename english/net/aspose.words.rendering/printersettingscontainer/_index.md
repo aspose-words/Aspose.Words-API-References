@@ -10,6 +10,8 @@ url: /net/aspose.words.rendering/printersettingscontainer/
 
 Represent a storage for some parameters of PrinterSettings object.
 
+To learn more, visit the [Printing a Document Programmatically or Using Dialogs](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) documentation article.
+
 ```csharp
 public class PrinterSettingsContainer
 ```

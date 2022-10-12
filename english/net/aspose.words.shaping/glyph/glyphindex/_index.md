@@ -1,12 +1,14 @@
 ---
 title: GlyphIndex
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Index of the glyph GID in the physical font.
 type: docs
 weight: 50
 url: /net/aspose.words.shaping/glyph/glyphindex/
 ---
 ## Glyph.GlyphIndex property
+
+Index of the glyph (GID) in the physical font.
 
 ```csharp
 public int GlyphIndex { get; }

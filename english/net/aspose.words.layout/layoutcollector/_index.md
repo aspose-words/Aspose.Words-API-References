@@ -10,6 +10,8 @@ url: /net/aspose.words.layout/layoutcollector/
 
 This class allows to compute page numbers of document nodes.
 
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
 ```csharp
 public class LayoutCollector
 ```

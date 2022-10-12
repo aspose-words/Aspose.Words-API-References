@@ -10,6 +10,8 @@ url: /net/aspose.words/bookmarkcollection/
 
 A collection of [`Bookmark`](../bookmark/) objects that represent the bookmarks in the specified range.
 
+To learn more, visit the [Working with Bookmarks](https://docs.aspose.com/words/net/working-with-bookmarks/) documentation article.
+
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.settings/viewoptions/
 
 Provides various options that control how a document is shown in Microsoft Word.
 
+To learn more, visit the [Work with Options and Appearance of Word Documents](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) documentation article.
+
 ```csharp
 public class ViewOptions
 ```

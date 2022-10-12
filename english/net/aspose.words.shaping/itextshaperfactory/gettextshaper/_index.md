@@ -1,16 +1,23 @@
 ---
 title: GetTextShaper
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Returns new instance of a text shaper for the font specified by fontPath and faceIndex.
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
 ## GetTextShaper(string, int) {#gettextshaper_1}
 
+Returns new instance of a text shaper for the font specified by *fontPath* and *faceIndex*.
+
 ```csharp
 public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontPath | String | An absolute path to the font file. |
+| faceIndex | Int32 | An index of the font face in the TrueType font collection, or 0 if specified font file is not TrueType font collection. |
 
 ### See Also
 
@@ -23,9 +30,17 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 ## GetTextShaper(string, byte[], int) {#gettextshaper}
 
+Returns new instance of a text shaper for the font represented by *fontBlob* and *faceIndex*.
+
 ```csharp
 public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontId | String | A unique identifier that can be uniquely associated with the provided font *fontBlob*. |
+| fontBlob | Byte[] | Byte array with the font data. |
+| faceIndex | Int32 | An index of the font face in the TrueType font collection, or 0 if *fontBlob* is not TrueType font collection. |
 
 ### See Also
 

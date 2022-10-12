@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/charttitle/
 
 Provides access to the chart title properties.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartTitle
 ```

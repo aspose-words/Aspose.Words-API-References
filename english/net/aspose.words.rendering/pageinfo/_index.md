@@ -10,6 +10,8 @@ url: /net/aspose.words.rendering/pageinfo/
 
 Represents information about a particular document page.
 
+To learn more, visit the [Rendering](https://docs.aspose.com/words/net/rendering/) documentation article.
+
 ```csharp
 public class PageInfo
 ```

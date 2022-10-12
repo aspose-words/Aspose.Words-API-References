@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/fixedpagesaveoptions/
 
 Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc).
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public abstract class FixedPageSaveOptions : SaveOptions
 ```

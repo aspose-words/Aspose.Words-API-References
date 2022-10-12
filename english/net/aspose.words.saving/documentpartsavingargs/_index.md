@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/documentpartsavingargs/
 
 Provides data for the [`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) callback.
 
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 ```csharp
 public class DocumentPartSavingArgs
 ```

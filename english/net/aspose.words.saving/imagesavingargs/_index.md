@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/imagesavingargs/
 
 Provides data for the [`ImageSaving`](../iimagesavingcallback/imagesaving/) event.
 
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 ```csharp
 public class ImageSavingArgs
 ```

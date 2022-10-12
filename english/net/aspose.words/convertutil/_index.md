@@ -10,6 +10,8 @@ url: /net/aspose.words/convertutil/
 
 Provides helper functions to convert between various measurement units.
 
+To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/net/convert-between-measurement-units/) documentation article.
+
 ```csharp
 public static class ConvertUtil
 ```

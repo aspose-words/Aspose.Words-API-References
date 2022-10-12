@@ -10,6 +10,8 @@ url: /net/aspose.words.webextensions/webextensionpropertycollection/
 
 Specifies a set of web extension custom properties.
 
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
 ```csharp
 public class WebExtensionPropertyCollection : BaseWebExtensionCollection<WebExtensionProperty>
 ```

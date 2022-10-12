@@ -10,6 +10,8 @@ url: /net/aspose.words.mailmerging/fieldmergingargs/
 
 Provides data for the **MergeField** event.
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
 ```

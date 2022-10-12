@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/metafilerenderingoptions/
 
 Allows to specify additional metafile rendering options.
 
+To learn more, visit the [Handling Windows Metafiles](https://docs.aspose.com/words/net/handling-windows-metafiles/) documentation article.
+
 ```csharp
 public class MetafileRenderingOptions
 ```

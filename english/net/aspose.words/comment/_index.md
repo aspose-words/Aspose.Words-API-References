@@ -10,6 +10,8 @@ url: /net/aspose.words/comment/
 
 Represents a container for text of a comment.
 
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
 ```csharp
 public sealed class Comment : InlineStory
 ```

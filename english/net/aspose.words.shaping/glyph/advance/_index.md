@@ -1,12 +1,14 @@
 ---
 title: Advance
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Advance width indicating placement for the subsequent glyph.
 type: docs
 weight: 20
 url: /net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
+
+Advance width indicating placement for the subsequent glyph.
 
 ```csharp
 public short Advance { get; set; }

@@ -10,6 +10,8 @@ url: /net/aspose.words/border/
 
 Represents a border of an object.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class Border : InternableComplexAttr
 ```

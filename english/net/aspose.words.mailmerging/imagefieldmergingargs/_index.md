@@ -10,6 +10,8 @@ url: /net/aspose.words.mailmerging/imagefieldmergingargs/
 
 Provides data for the [`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) event.
 
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
 ```

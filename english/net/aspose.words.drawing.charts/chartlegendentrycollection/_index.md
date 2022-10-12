@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chartlegendentrycollection/
 
 Represents a collection of chart legend entries.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 ```

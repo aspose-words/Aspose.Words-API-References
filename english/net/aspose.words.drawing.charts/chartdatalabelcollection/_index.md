@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chartdatalabelcollection/
 
 Represents a collection of [`ChartDataLabel`](../chartdatalabel/).
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 ```

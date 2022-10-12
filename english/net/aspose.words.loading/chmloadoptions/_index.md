@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/chmloadoptions/
 
 Allows to specify additional options when loading CHM document into a [`Document`](../../aspose.words/document/) object.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public class ChmLoadOptions : LoadOptions
 ```

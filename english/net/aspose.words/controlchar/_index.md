@@ -10,6 +10,8 @@ url: /net/aspose.words/controlchar/
 
 Control characters often encountered in documents.
 
+To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/net/working-with-control-characters/) documentation article.
+
 ```csharp
 public static class ControlChar
 ```

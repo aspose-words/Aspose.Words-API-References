@@ -1,12 +1,14 @@
 ---
 title: ScriptShapingLevel
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Describes shaping levels required by a script.
 type: docs
 weight: 5770
 url: /net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
+
+Describes shaping levels required by a script.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -16,10 +18,10 @@ public enum ScriptShapingLevel
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | `0` |  |
-| Unknown | `1` |  |
-| Minimum | `2` |  |
-| Full | `3` |  |
+| None | `0` | Script does not require shaping. |
+| Unknown | `1` | This is used when the level for the script is not specified. |
+| Minimum | `2` | Script requires minimum shaping support. |
+| Full | `3` | Script requires full shaping support. |
 
 ### See Also
 

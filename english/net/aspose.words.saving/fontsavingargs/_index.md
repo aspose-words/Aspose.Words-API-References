@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/fontsavingargs/
 
 Provides data for the [`FontSaving`](../ifontsavingcallback/fontsaving/) event.
 
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 ```csharp
 public class FontSavingArgs
 ```

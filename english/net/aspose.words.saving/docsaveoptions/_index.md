@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/docsaveoptions/
 
 Can be used to specify additional options when saving a document into the Doc or Dot format.
 
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 ```csharp
 public class DocSaveOptions : SaveOptions
 ```

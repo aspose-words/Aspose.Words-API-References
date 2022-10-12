@@ -10,6 +10,8 @@ url: /net/aspose.words.loading/txtloadoptions/
 
 Allows to specify additional options when loading Text document into a [`Document`](../../aspose.words/document/) object.
 
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 ```csharp
 public class TxtLoadOptions : LoadOptions
 ```

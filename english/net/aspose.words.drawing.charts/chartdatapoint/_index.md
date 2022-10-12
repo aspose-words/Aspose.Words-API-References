@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chartdatapoint/
 
 Allows to specify formatting of a single data point on the chart.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class ChartDataPoint : IChartDataPoint
 ```

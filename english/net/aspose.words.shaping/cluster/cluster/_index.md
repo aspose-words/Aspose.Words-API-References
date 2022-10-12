@@ -1,16 +1,23 @@
 ---
 title: Cluster
 second_title: Aspose.Words for .NET API Reference
-description: 
+description: Initializes new instance of this class.
 type: docs
 weight: 10
 url: /net/aspose.words.shaping/cluster/cluster/
 ---
 ## Cluster constructor
 
+Initializes new instance of this class.
+
 ```csharp
 public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| codepoints | Int32[] | Array of Unicode points composing a grapheme. |
+| glyphs | Glyph[] | Array of [`Glyph`](../../glyph/)&gt; composing a grapheme. |
 
 ### See Also
 

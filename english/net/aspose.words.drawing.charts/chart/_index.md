@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.charts/chart/
 
 Provides access to the chart shape properties.
 
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 ```csharp
 public class Chart
 ```

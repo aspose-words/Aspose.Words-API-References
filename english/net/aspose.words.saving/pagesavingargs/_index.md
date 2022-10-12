@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/pagesavingargs/
 
 Provides data for the [`PageSaving`](../ipagesavingcallback/pagesaving/) event.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class PageSavingArgs
 ```

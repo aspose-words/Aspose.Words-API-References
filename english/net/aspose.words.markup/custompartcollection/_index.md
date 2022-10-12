@@ -10,6 +10,8 @@ url: /net/aspose.words.markup/custompartcollection/
 
 Represents a collection of [`CustomPart`](../custompart/) objects.
 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
 ```

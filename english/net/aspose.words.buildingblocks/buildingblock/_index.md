@@ -10,6 +10,8 @@ url: /net/aspose.words.buildingblocks/buildingblock/
 
 Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry.
 
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 ```csharp
 public class BuildingBlock : CompositeNode
 ```

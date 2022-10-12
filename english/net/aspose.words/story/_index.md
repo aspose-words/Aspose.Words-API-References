@@ -10,6 +10,8 @@ url: /net/aspose.words/story/
 
 Base class for elements that contain block-level nodes [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/).
 
+To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) documentation article.
+
 ```csharp
 public abstract class Story : CompositeNode
 ```

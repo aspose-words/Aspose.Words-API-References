@@ -10,6 +10,8 @@ url: /net/aspose.words.saving/pageset/
 
 Describes a random set of pages.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public sealed class PageSet
 ```

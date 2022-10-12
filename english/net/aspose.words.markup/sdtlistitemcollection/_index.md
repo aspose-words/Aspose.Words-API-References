@@ -10,6 +10,8 @@ url: /net/aspose.words.markup/sdtlistitemcollection/
 
 Provides access to [`SdtListItem`](../sdtlistitem/) elements of a structured document tag.
 
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
 ```
