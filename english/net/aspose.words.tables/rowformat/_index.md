@@ -10,6 +10,8 @@ url: /net/aspose.words.tables/rowformat/
 
 Represents all formatting for a table row.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public class RowFormat
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.notes/endnoteoptions/
 
 Represents the endnote numbering options for a document or section.
 
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) documentation article.
+
 ```csharp
 public sealed class EndnoteOptions
 ```

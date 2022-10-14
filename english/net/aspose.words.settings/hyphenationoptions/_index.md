@@ -10,6 +10,8 @@ url: /net/aspose.words.settings/hyphenationoptions/
 
 Allows to configure document hyphenation options.
 
+To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+
 ```csharp
 public class HyphenationOptions
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/conditionalstylecollection/
 
 Represents a collection of [`ConditionalStyle`](../conditionalstyle/) objects.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public sealed class ConditionalStyleCollection : IEnumerable<ConditionalStyle>
 ```

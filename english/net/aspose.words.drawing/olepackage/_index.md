@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/olepackage/
 
 Allows to access OLE Package properties.
 
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
 ```csharp
 public class OlePackage
 ```

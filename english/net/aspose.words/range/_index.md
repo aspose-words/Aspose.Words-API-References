@@ -10,6 +10,8 @@ url: /net/aspose.words/range/
 
 Represents a contiguous area in a document.
 
+To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/net/working-with-ranges/) documentation article.
+
 ```csharp
 public class Range
 ```

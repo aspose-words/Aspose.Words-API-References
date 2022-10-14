@@ -10,6 +10,8 @@ url: /net/aspose.words.themes/theme/
 
 Represents document Theme, and provides access to main theme parts including [`MajorFonts`](./majorfonts/), [`MinorFonts`](./minorfonts/) and [`Colors`](./colors/)
 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
 ```csharp
 public class Theme
 ```

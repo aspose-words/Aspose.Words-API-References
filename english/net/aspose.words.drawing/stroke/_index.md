@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/stroke/
 
 Defines a stroke for a shape.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public class Stroke
 ```

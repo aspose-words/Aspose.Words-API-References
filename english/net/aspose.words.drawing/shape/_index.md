@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/shape/
 
 Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public sealed class Shape : ShapeBase
 ```

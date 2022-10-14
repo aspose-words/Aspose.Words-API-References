@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fieldnextif/
 
 Implements the NEXTIF field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldNextIf : Field
 ```

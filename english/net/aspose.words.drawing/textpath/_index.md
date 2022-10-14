@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/textpath/
 
 Defines the text and formatting of the text path (of a WordArt object).
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public class TextPath
 ```

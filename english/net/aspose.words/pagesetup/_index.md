@@ -10,6 +10,8 @@ url: /net/aspose.words/pagesetup/
 
 Represents the page setup properties of a section.
 
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+
 ```csharp
 public class PageSetup
 ```

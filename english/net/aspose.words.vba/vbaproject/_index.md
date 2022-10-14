@@ -10,6 +10,8 @@ url: /net/aspose.words.vba/vbaproject/
 
 Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules.
 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 ```csharp
 public class VbaProject
 ```

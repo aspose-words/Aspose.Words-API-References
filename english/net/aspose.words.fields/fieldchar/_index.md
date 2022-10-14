@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fieldchar/
 
 Base class for nodes that represent field characters in a document.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public abstract class FieldChar : SpecialChar
 ```

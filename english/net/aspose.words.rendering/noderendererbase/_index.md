@@ -10,6 +10,8 @@ url: /net/aspose.words.rendering/noderendererbase/
 
 Base class for [`ShapeRenderer`](../shaperenderer/) and [`OfficeMathRenderer`](../officemathrenderer/).
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public abstract class NodeRendererBase
 ```

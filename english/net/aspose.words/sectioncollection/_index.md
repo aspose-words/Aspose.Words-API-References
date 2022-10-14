@@ -10,6 +10,8 @@ url: /net/aspose.words/sectioncollection/
 
 A collection of **Section** objects in the document.
 
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+
 ```csharp
 public class SectionCollection : NodeCollection
 ```

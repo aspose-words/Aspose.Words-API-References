@@ -10,6 +10,8 @@ url: /net/aspose.words.tables/preferredwidth/
 
 Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public sealed class PreferredWidth
 ```

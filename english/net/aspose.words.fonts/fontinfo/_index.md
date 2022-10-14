@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/fontinfo/
 
 Specifies information about a font used in the document.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class FontInfo
 ```

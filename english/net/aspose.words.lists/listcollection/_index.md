@@ -10,6 +10,8 @@ url: /net/aspose.words.lists/listcollection/
 
 Stores and manages formatting of bulleted and numbered lists used in a document.
 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
 ```csharp
 public class ListCollection : IEnumerable<List>
 ```

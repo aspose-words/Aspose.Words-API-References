@@ -10,6 +10,8 @@ url: /net/aspose.words.lists/listlabel/
 
 Defines properties specific to a list label.
 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
 ```csharp
 public class ListLabel
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.tables/table/
 
 Represents a table in a Word document.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public class Table : CompositeNode
 ```

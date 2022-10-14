@@ -10,6 +10,8 @@ url: /net/aspose.words.themes/themefonts/
 
 Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [`Latin`](./latin/), [`EastAsian`](./eastasian/) and [`ComplexScript`](./complexscript/).
 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
 ```csharp
 public class ThemeFonts
 ```

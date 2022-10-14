@@ -10,6 +10,8 @@ url: /net/aspose.words/paragraph/
 
 Represents a paragraph of text.
 
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+
 ```csharp
 public class Paragraph : CompositeNode
 ```

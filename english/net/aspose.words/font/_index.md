@@ -10,6 +10,8 @@ url: /net/aspose.words/font/
 
 Contains font attributes (font name, font size, color, and so on) for an object.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class Font
 ```

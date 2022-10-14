@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/dropdownitemcollection/
 
 A collection of strings that represent all the items in a drop-down form field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class DropDownItemCollection : IEnumerable<string>
 ```

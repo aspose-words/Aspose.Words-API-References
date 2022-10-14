@@ -10,6 +10,8 @@ url: /net/aspose.words.lists/listformat/
 
 Allows to control what list formatting is applied to a paragraph.
 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
 ```csharp
 public class ListFormat
 ```
