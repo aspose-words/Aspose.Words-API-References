@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/folderfontsource/
 
 Represents the folder that contains TrueType font files.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class FolderFontSource : FontSourceBase
 ```

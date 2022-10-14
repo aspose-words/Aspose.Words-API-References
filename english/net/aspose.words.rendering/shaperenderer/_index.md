@@ -10,6 +10,8 @@ url: /net/aspose.words.rendering/shaperenderer/
 
 Provides methods to render an individual [`Shape`](../../aspose.words.drawing/shape/) or [`GroupShape`](../../aspose.words.drawing/groupshape/) to a raster or vector image or to a Graphics object.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public class ShapeRenderer : NodeRendererBase
 ```

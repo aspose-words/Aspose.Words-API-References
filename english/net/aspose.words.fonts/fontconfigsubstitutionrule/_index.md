@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/fontconfigsubstitutionrule/
 
 Font config substitution rule.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
 ```

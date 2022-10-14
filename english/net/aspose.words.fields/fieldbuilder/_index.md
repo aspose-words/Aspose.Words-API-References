@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fieldbuilder/
 
 Builds a field from field code tokens (arguments and switches).
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldBuilder
 ```

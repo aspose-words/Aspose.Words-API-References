@@ -10,6 +10,8 @@ url: /net/aspose.words/stylecollection/
 
 A collection of Style objects that represent both the built-in and user-defined styles in a document.
 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
 ```csharp
 public class StyleCollection : IEnumerable<Style>
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/toacategories/
 
 Represents a table of authorities categories.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class ToaCategories
 ```

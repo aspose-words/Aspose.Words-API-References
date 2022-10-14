@@ -10,6 +10,8 @@ url: /net/aspose.words/headerfooter/
 
 Represents a container for the header or footer text of a section.
 
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
+
 ```csharp
 public class HeaderFooter : Story
 ```

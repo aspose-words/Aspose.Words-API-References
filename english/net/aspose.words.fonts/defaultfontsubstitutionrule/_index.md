@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/defaultfontsubstitutionrule/
 
 Default font substitution rule.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
 ```

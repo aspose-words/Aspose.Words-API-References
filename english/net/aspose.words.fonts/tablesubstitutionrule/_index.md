@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/tablesubstitutionrule/
 
 Table font substitution rule.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
 ```

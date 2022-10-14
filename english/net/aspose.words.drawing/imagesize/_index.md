@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/imagesize/
 
 Contains information about image size and resolution.
 
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article.
+
 ```csharp
 public class ImageSize
 ```

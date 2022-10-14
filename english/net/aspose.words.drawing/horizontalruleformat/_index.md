@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/horizontalruleformat/
 
 Represents horizontal rule formatting.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public class HorizontalRuleFormat
 ```

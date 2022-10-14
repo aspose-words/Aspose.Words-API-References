@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fielddate/
 
 Implements the DATE field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldDate : Field
 ```

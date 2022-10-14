@@ -10,6 +10,8 @@ url: /net/aspose.words/paragraphcollection/
 
 Provides typed access to a collection of [`Paragraph`](../paragraph/) nodes.
 
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+
 ```csharp
 public class ParagraphCollection : NodeCollection
 ```

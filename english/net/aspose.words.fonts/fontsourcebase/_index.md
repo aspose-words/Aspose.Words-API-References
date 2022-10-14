@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/fontsourcebase/
 
 This is an abstract base class for the classes that allow the user to specify various font sources.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public abstract class FontSourceBase
 ```

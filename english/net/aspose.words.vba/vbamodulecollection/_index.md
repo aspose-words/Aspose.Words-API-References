@@ -10,6 +10,8 @@ url: /net/aspose.words.vba/vbamodulecollection/
 
 Represents a collection of [`VbaModule`](../vbamodule/) objects.
 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 ```

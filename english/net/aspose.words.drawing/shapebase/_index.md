@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/shapebase/
 
 Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public abstract class ShapeBase : CompositeNode
 ```

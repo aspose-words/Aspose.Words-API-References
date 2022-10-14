@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/textbox/
 
 Defines attributes that specify how a text is displayed inside a shape.
 
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
 ```csharp
 public class TextBox
 ```

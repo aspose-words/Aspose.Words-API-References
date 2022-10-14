@@ -10,6 +10,8 @@ url: /net/aspose.words.themes/themecolor/
 
 Specifies the theme colors for document themes.
 
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
 ```csharp
 public enum ThemeColor
 ```

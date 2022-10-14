@@ -10,6 +10,8 @@ url: /net/aspose.words/imagewatermarkoptions/
 
 Contains options that can be specified when adding a watermark with image.
 
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+
 ```csharp
 public class ImageWatermarkOptions
 ```

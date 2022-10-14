@@ -10,6 +10,8 @@ url: /net/aspose.words/textcolumncollection/
 
 A collection of [`TextColumn`](../textcolumn/) objects that represent all the columns of text in a section of a document.
 
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+
 ```csharp
 public class TextColumnCollection
 ```

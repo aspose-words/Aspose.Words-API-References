@@ -10,6 +10,8 @@ url: /net/aspose.words.lists/listlevelcollection/
 
 A collection of list formatting for each level in a list.
 
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
 ```csharp
 public class ListLevelCollection : IEnumerable<ListLevel>
 ```
