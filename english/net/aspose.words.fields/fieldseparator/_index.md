@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fieldseparator/
 
 Represents a Word field separator that separates the field code from the field result.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldSeparator : FieldChar
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words/shading/
 
 Contains shading attributes for an object.
 
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 ```csharp
 public class Shading : InternableComplexAttr
 ```

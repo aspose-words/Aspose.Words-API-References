@@ -10,6 +10,8 @@ url: /net/aspose.words.tables/cellcollection/
 
 Provides typed access to a collection of [`Cell`](../cell/) nodes.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public class CellCollection : NodeCollection
 ```

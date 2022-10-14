@@ -10,6 +10,8 @@ url: /net/aspose.words/conditionalstyle/
 
 Represents special formatting applied to some area of a table with assigned table style.
 
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 ```csharp
 public sealed class ConditionalStyle
 ```

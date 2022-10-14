@@ -10,6 +10,8 @@ url: /net/aspose.words.vba/vbamodule/
 
 Provides access to VBA project module.
 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 ```csharp
 public class VbaModule
 ```

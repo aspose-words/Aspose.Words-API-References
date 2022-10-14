@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing.ole/forms2olecontrolcollection/
 
 Represents collection of [`Forms2OleControl`](../forms2olecontrol/) objects.
 
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
 ```csharp
 public class Forms2OleControlCollection
 ```

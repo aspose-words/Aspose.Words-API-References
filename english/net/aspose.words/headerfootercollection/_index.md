@@ -10,6 +10,8 @@ url: /net/aspose.words/headerfootercollection/
 
 Provides typed access to [`HeaderFooter`](../headerfooter/) nodes of a **Section**.
 
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
+
 ```csharp
 public class HeaderFooterCollection : NodeCollection
 ```

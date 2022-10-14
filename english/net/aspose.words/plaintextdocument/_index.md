@@ -10,6 +10,8 @@ url: /net/aspose.words/plaintextdocument/
 
 Allows to extract plain-text representation of the document's content.
 
+To learn more, visit the [Working with Text Document](https://docs.aspose.com/words/net/work-with-text-document/) documentation article.
+
 ```csharp
 public class PlainTextDocument
 ```

@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/fontfallbacksettings/
 
 Specifies font fallback mechanism settings.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public class FontFallbackSettings
 ```

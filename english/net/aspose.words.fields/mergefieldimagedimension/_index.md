@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/mergefieldimagedimension/
 
 Represents an image dimension (i.e. the width or the height) used across a mail merge process.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class MergeFieldImageDimension
 ```

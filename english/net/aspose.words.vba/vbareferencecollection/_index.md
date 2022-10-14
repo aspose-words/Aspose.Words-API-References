@@ -10,6 +10,8 @@ url: /net/aspose.words.vba/vbareferencecollection/
 
 Represents a collection of [`VbaReference`](../vbareference/) objects.
 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 ```

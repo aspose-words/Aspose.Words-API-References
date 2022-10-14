@@ -10,6 +10,8 @@ url: /net/aspose.words.drawing/fill/
 
 Represents fill formatting for an object.
 
+To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article.
+
 ```csharp
 public class Fill
 ```

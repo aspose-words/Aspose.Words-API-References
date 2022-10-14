@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/fontsubstitutionrule/
 
 This is an abstract base class for the font substitution rule.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public abstract class FontSubstitutionRule
 ```

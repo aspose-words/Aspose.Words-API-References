@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fielddocproperty/
 
 Implements the DOCPROPERTY field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldDocProperty : Field
 ```

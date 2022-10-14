@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fielddata/
 
 Implements the DATA field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldData : Field
 ```

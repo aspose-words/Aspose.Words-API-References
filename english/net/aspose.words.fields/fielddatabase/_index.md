@@ -10,6 +10,8 @@ url: /net/aspose.words.fields/fielddatabase/
 
 Implements the DATABASE field.
 
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 ```csharp
 public class FieldDatabase : Field
 ```

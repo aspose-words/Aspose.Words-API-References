@@ -10,6 +10,8 @@ url: /net/aspose.words.vba/vbareference/
 
 Implements a reference to an Automation type library or VBA project.
 
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 ```csharp
 public abstract class VbaReference
 ```

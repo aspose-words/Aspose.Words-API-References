@@ -10,6 +10,8 @@ url: /net/aspose.words.fonts/streamfontsource/
 
 Base class for user-defined stream font source.
 
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
 ```csharp
 public abstract class StreamFontSource : FontSourceBase
 ```
