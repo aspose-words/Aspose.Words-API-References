@@ -1,0 +1,117 @@
+---
+title: PlainTextDocument
+second_title: Aspose.Words for Java API Reference
+description: Allows to extract plain-text representation of the documents content.
+type: docs
+weight: 465
+url: /java/com.aspose.words/plaintextdocument/
+---
+
+**Inheritance:**
+java.lang.Object
+```
+public class PlainTextDocument
+```
+
+Allows to extract plain-text representation of the document's content.
+
+To learn more, visit the **Working with Text Document** documentation article.
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [PlainTextDocument(String fileName)](#PlainTextDocument-java.lang.String-) | Creates a plain text document from a file. |
+| [PlainTextDocument(String fileName, LoadOptions loadOptions)](#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-) | Creates a plain text document from a file. |
+| [PlainTextDocument(InputStream stream)](#PlainTextDocument-java.io.InputStream-) | Initializes a new instance of this class. |
+| [PlainTextDocument(InputStream stream, LoadOptions loadOptions)](#PlainTextDocument-java.io.InputStream-com.aspose.words.LoadOptions-) | Initializes a new instance of this class. |
+## Methods
+
+| Method | Description |
+| --- | --- |
+| [getText()](#getText--) | Gets textual content of the document concatenated as a string. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document. |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--) | Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document. |
+### PlainTextDocument(String fileName) {#PlainTextDocument-java.lang.String-}
+```
+public PlainTextDocument(String fileName)
+```
+
+
+Creates a plain text document from a file. Automatically detects the file format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Name of the file to extract the text from. |
+
+### PlainTextDocument(String fileName, LoadOptions loadOptions) {#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-}
+```
+public PlainTextDocument(String fileName, LoadOptions loadOptions)
+```
+
+
+Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Name of the file to extract the text from. |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) | Additional options to use when loading a document. Can be null. |
+
+### PlainTextDocument(InputStream stream) {#PlainTextDocument-java.io.InputStream-}
+```
+public PlainTextDocument(InputStream stream)
+```
+
+
+Initializes a new instance of this class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream |  |
+
+### PlainTextDocument(InputStream stream, LoadOptions loadOptions) {#PlainTextDocument-java.io.InputStream-com.aspose.words.LoadOptions-}
+```
+public PlainTextDocument(InputStream stream, LoadOptions loadOptions)
+```
+
+
+Initializes a new instance of this class.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream |  |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) |  |
+
+### getText() {#getText--}
+```
+public String getText()
+```
+
+
+Gets textual content of the document concatenated as a string.
+
+**Returns:**
+java.lang.String - Textual content of the document concatenated as a string.
+### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
+```
+public BuiltInDocumentProperties getBuiltInDocumentProperties()
+```
+
+
+Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document.
+
+**Returns:**
+[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document.
+### getCustomDocumentProperties() {#getCustomDocumentProperties--}
+```
+public CustomDocumentProperties getCustomDocumentProperties()
+```
+
+
+Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document.
+
+**Returns:**
+[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document.
