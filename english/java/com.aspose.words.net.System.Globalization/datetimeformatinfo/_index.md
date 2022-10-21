@@ -1,7 +1,7 @@
 ---
 title: DateTimeFormatInfo
 second_title: Aspose.Words for Java API Reference
-description: Public wrapper around msDateTimeFormatInfo.
+description: Map for .Nets System.Globalization.DateTimeFormatInfo.
 type: docs
 weight: 12
 url: /java/com.aspose.words.net.system.globalization/datetimeformatinfo/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DateTimeFormatInfo
 ```
 
-Public wrapper around msDateTimeFormatInfo.
+Map for .Net's System.Globalization.DateTimeFormatInfo.
 ## Methods
 
 | Method | Description |

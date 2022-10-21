@@ -15,4 +15,4 @@ Provides types mimicking .NET types of the `System.Data.Common` namespace in Jav
 
 | Class | Description |
 | --- | --- |
-| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader) |  |
+| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader) | Reads a forward-only stream of rows from a data source. |

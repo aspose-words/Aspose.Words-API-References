@@ -1,7 +1,7 @@
 ---
 title: CultureNotFoundException
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Map for .Nets System.Globalization.CultureNotFoundException
 type: docs
 weight: 11
 url: /java/com.aspose.words.net.system.globalization/culturenotfoundexception/
@@ -12,6 +12,8 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 ```
 public class CultureNotFoundException extends RuntimeException
 ```
+
+Map for .Net's System.Globalization.CultureNotFoundException
 ## Constructors
 
 | Constructor | Description |

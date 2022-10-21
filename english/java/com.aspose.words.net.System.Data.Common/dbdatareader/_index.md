@@ -1,7 +1,7 @@
 ---
 title: DbDataReader
 second_title: Aspose.Words for Java API Reference
-description: 
+description: Reads a forward-only stream of rows from a data source.
 type: docs
 weight: 10
 url: /java/com.aspose.words.net.system.data.common/dbdatareader/
@@ -15,6 +15,8 @@ java.lang.Object
 ```
 public abstract class DbDataReader implements System.Data.IDataReader, System.Data.IDataRecord, Iterable
 ```
+
+Reads a forward-only stream of rows from a data source.
 ## Constructors
 
 | Constructor | Description |
@@ -24,7 +26,7 @@ public abstract class DbDataReader implements System.Data.IDataReader, System.Da
 
 | Method | Description |
 | --- | --- |
-| [get(String columnName)](#get-java.lang.String-) |  |
+| [get(String columnName)](#get-java.lang.String-) | This method belongs to IDataRecord in .NET |
 ### DbDataReader() {#DbDataReader--}
 ```
 public DbDataReader()
@@ -37,7 +39,7 @@ public abstract Object get(String columnName)
 ```
 
 
-
+This method belongs to IDataRecord in .NET
 
 **Parameters:**
 | Parameter | Type | Description |
