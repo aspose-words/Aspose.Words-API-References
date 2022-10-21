@@ -15,6 +15,6 @@ Provides types mimicking .NET types of the `System.Globalization` namespace in J
 
 | Class | Description |
 | --- | --- |
-| [CultureInfo](../com.aspose.words.net.system.globalization/cultureinfo) | Public wrapper around msCultureInfo. |
-| [CultureNotFoundException](../com.aspose.words.net.system.globalization/culturenotfoundexception) |  |
-| [DateTimeFormatInfo](../com.aspose.words.net.system.globalization/datetimeformatinfo) | Public wrapper around msDateTimeFormatInfo. |
+| [CultureInfo](../com.aspose.words.net.system.globalization/cultureinfo) | Map for .Net's System.Globalization.CultureInfo. |
+| [CultureNotFoundException](../com.aspose.words.net.system.globalization/culturenotfoundexception) | Map for .Net's System.Globalization.CultureNotFoundException |
+| [DateTimeFormatInfo](../com.aspose.words.net.system.globalization/datetimeformatinfo) | Map for .Net's System.Globalization.DateTimeFormatInfo. |
