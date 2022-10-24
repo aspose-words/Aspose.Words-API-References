@@ -1,7 +1,7 @@
 ---
 title: MailMergeCheckErrors
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Microsoft Word will report errors detected during mail merge.
 type: docs
 weight: 380
 url: /java/com.aspose.words/mailmergecheckerrors/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MailMergeCheckErrors
 ```
 
-A utility class providing constants. Specifies how Microsoft Word will report errors detected during mail merge.
+Specifies how Microsoft Word will report errors detected during mail merge.
 ## Fields
 
 | Field | Description |

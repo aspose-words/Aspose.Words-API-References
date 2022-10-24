@@ -1,7 +1,7 @@
 ---
 title: FillType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies fill type for a fillable object.
 type: docs
 weight: 268
 url: /java/com.aspose.words/filltype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FillType
 ```
 
-A utility class providing constants. Specifies fill type for a fillable object.
+Specifies fill type for a fillable object.
 ## Fields
 
 | Field | Description |

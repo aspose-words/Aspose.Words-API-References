@@ -1,7 +1,7 @@
 ---
 title: AxisCategoryType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies type of a category axis.
 type: docs
 weight: 18
 url: /java/com.aspose.words/axiscategorytype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisCategoryType
 ```
 
-A utility class providing constants. Specifies type of a category axis.
+Specifies type of a category axis.
 ## Fields
 
 | Field | Description |

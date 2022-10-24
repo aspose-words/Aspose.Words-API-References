@@ -1,7 +1,7 @@
 ---
 title: FlipOrientation
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Possible values for the orientation of a shape.
 type: docs
 weight: 273
 url: /java/com.aspose.words/fliporientation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FlipOrientation
 ```
 
-A utility class providing constants. Possible values for the orientation of a shape.
+Possible values for the orientation of a shape.
 ## Fields
 
 | Field | Description |

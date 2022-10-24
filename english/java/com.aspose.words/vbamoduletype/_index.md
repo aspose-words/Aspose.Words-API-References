@@ -1,7 +1,7 @@
 ---
 title: VbaModuleType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a model in a VBA project.
 type: docs
 weight: 595
 url: /java/com.aspose.words/vbamoduletype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class VbaModuleType
 ```
 
-A utility class providing constants. Specifies the type of a model in a VBA project.
+Specifies the type of a model in a VBA project.
 ## Fields
 
 | Field | Description |

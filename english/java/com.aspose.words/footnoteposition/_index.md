@@ -1,7 +1,7 @@
 ---
 title: FootnotePosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Defines the footnote position.
 type: docs
 weight: 294
 url: /java/com.aspose.words/footnoteposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FootnotePosition
 ```
 
-A utility class providing constants. Defines the footnote position.
+Defines the footnote position.
 ## Fields
 
 | Field | Description |

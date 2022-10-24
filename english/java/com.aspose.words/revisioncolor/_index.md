@@ -1,7 +1,7 @@
 ---
 title: RevisionColor
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify color of document revisions.
 type: docs
 weight: 485
 url: /java/com.aspose.words/revisioncolor/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RevisionColor
 ```
 
-A utility class providing constants. Allows to specify color of document revisions.
+Allows to specify color of document revisions.
 ## Fields
 
 | Field | Description |

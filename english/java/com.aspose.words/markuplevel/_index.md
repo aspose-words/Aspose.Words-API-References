@@ -1,7 +1,7 @@
 ---
 title: MarkupLevel
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the level in the document tree where a particular  can occur.
 type: docs
 weight: 390
 url: /java/com.aspose.words/markuplevel/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MarkupLevel
 ```
 
-A utility class providing constants. Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) can occur.
+Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) can occur.
 ## Fields
 
 | Field | Description |

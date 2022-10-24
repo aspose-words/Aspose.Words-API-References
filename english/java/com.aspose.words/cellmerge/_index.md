@@ -1,7 +1,7 @@
 ---
 title: CellMerge
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how a cell in a table is merged with other cells.
 type: docs
 weight: 51
 url: /java/com.aspose.words/cellmerge/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CellMerge
 ```
 
-A utility class providing constants. Specifies how a cell in a table is merged with other cells.
+Specifies how a cell in a table is merged with other cells.
 ## Fields
 
 | Field | Description |

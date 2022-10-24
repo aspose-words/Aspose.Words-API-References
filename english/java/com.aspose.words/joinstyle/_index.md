@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Line join style.
 type: docs
 weight: 352
 url: /java/com.aspose.words/joinstyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class JoinStyle
 ```
 
-A utility class providing constants. Line join style.
+Line join style.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: PdfFontEmbeddingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Aspose.Words should embed fonts.
 type: docs
 weight: 455
 url: /java/com.aspose.words/pdffontembeddingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfFontEmbeddingMode
 ```
 
-A utility class providing constants. Specifies how Aspose.Words should embed fonts.
+Specifies how Aspose.Words should embed fonts.
 ## Fields
 
 | Field | Description |

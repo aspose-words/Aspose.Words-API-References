@@ -1,7 +1,7 @@
 ---
 title: ListTemplate
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies one of the predefined list formats available in Microsoft Word.
 type: docs
 weight: 375
 url: /java/com.aspose.words/listtemplate/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ListTemplate
 ```
 
-A utility class providing constants. Specifies one of the predefined list formats available in Microsoft Word.
+Specifies one of the predefined list formats available in Microsoft Word.
 
 A list template value is used as a parameter into the **M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)** method.
 

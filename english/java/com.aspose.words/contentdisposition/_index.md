@@ -1,7 +1,7 @@
 ---
 title: ContentDisposition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Enumerates different ways of presenting the document at the client browser.
 type: docs
 weight: 92
 url: /java/com.aspose.words/contentdisposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ContentDisposition
 ```
 
-A utility class providing constants. Enumerates different ways of presenting the document at the client browser.
+Enumerates different ways of presenting the document at the client browser.
 
 Note that the actual behavior on the client browser might be affected by security configuration of the browser.
 ## Fields

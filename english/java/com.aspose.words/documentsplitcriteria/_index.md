@@ -1,7 +1,7 @@
 ---
 title: DocumentSplitCriteria
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how the document is split into parts when saving to   or  format.
 type: docs
 weight: 131
 url: /java/com.aspose.words/documentsplitcriteria/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DocumentSplitCriteria
 ```
 
-A utility class providing constants. Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format.
+Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format.
 
 [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) is a set of flags which can be combined. For instance you can split the document at page breaks and heading paragraphs in the same export operation.
 

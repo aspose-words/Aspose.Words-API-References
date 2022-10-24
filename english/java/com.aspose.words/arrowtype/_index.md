@@ -1,7 +1,7 @@
 ---
 title: ArrowType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of an arrow at a line end.
 type: docs
 weight: 12
 url: /java/com.aspose.words/arrowtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ArrowType
 ```
 
-A utility class providing constants. Specifies the type of an arrow at a line end.
+Specifies the type of an arrow at a line end.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: LayoutFlow
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Determines the flow of the text layout in a textbox.
 type: docs
 weight: 361
 url: /java/com.aspose.words/layoutflow/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LayoutFlow
 ```
 
-A utility class providing constants. Determines the flow of the text layout in a textbox.
+Determines the flow of the text layout in a textbox.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies vertical alignment of a floating shape text frame or a floating table.
 type: docs
 weight: 600
 url: /java/com.aspose.words/verticalalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class VerticalAlignment
 ```
 
-A utility class providing constants. Specifies vertical alignment of a floating shape, text frame or a floating table.
+Specifies vertical alignment of a floating shape, text frame or a floating table.
 ## Fields
 
 | Field | Description |

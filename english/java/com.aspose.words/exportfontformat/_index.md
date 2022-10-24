@@ -1,7 +1,7 @@
 ---
 title: ExportFontFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the format that is used to export fonts while rendering to HTML fixed format.
 type: docs
 weight: 148
 url: /java/com.aspose.words/exportfontformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ExportFontFormat
 ```
 
-A utility class providing constants. Indicates the format that is used to export fonts while rendering to HTML fixed format.
+Indicates the format that is used to export fonts while rendering to HTML fixed format.
 ## Fields
 
 | Field | Description |

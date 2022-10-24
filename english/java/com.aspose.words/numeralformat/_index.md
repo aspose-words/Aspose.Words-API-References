@@ -1,7 +1,7 @@
 ---
 title: NumeralFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 type: docs
 weight: 410
 url: /java/com.aspose.words/numeralformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NumeralFormat
 ```
 
-A utility class providing constants. Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
+Indicates the symbol set that is used to represent numbers while rendering to fixed page formats.
 ## Fields
 
 | Field | Description |

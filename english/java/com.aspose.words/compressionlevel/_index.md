@@ -1,7 +1,7 @@
 ---
 title: CompressionLevel
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Compression level for OOXML files.
 type: docs
 weight: 88
 url: /java/com.aspose.words/compressionlevel/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CompressionLevel
 ```
 
-A utility class providing constants. Compression level for OOXML files.
+Compression level for OOXML files.
 
 (DOCX and DOTX files are internally a ZIP-archive, this property controls the compression level of the archive.
 

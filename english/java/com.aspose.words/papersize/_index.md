@@ -1,7 +1,7 @@
 ---
 title: PaperSize
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies paper size.
 type: docs
 weight: 442
 url: /java/com.aspose.words/papersize/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PaperSize
 ```
 
-A utility class providing constants. Specifies paper size.
+Specifies paper size.
 ## Fields
 
 | Field | Description |

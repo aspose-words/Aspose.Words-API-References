@@ -1,7 +1,7 @@
 ---
 title: TableContentAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 type: docs
 weight: 551
 url: /java/com.aspose.words/tablecontentalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TableContentAlignment
 ```
 
-A utility class providing constants. Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
+Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
 ## Fields
 
 | Field | Description |

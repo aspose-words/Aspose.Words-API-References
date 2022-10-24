@@ -1,7 +1,7 @@
 ---
 title: FieldIndexFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the formatting for the  fields in a document.
 type: docs
 weight: 207
 url: /java/com.aspose.words/fieldindexformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FieldIndexFormat
 ```
 
-A utility class providing constants. Specifies the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in a document.
+Specifies the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in a document.
 ## Fields
 
 | Field | Description |

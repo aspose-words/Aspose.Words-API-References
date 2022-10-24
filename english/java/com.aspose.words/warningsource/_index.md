@@ -1,7 +1,7 @@
 ---
 title: WarningSource
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the module that produces a warning during document loading or saving.
 type: docs
 weight: 606
 url: /java/com.aspose.words/warningsource/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WarningSource
 ```
 
-A utility class providing constants. Specifies the module that produces a warning during document loading or saving.
+Specifies the module that produces a warning during document loading or saving.
 ## Fields
 
 | Field | Description |

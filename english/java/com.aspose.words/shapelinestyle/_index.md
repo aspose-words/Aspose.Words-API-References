@@ -1,7 +1,7 @@
 ---
 title: ShapeLineStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the compound line style of a .
 type: docs
 weight: 518
 url: /java/com.aspose.words/shapelinestyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShapeLineStyle
 ```
 
-A utility class providing constants. Specifies the compound line style of a [Shape](../../com.aspose.words/shape).
+Specifies the compound line style of a [Shape](../../com.aspose.words/shape).
 ## Fields
 
 | Field | Description |

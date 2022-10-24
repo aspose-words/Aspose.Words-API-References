@@ -1,7 +1,7 @@
 ---
 title: PdfZoomBehavior
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 type: docs
 weight: 463
 url: /java/com.aspose.words/pdfzoombehavior/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfZoomBehavior
 ```
 
-A utility class providing constants. Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
+Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer.
 ## Fields
 
 | Field | Description |

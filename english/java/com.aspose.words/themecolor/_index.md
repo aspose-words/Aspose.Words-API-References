@@ -1,7 +1,7 @@
 ---
 title: ThemeColor
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the theme colors for document themes.
 type: docs
 weight: 574
 url: /java/com.aspose.words/themecolor/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ThemeColor
 ```
 
-A utility class providing constants. Specifies the theme colors for document themes.
+Specifies the theme colors for document themes.
 
 To learn more, visit the **Working with Styles and Themes** documentation article.
 

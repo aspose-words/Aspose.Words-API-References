@@ -1,7 +1,7 @@
 ---
 title: FootnoteType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies whether this is a footnote or an endnote.
 type: docs
 weight: 295
 url: /java/com.aspose.words/footnotetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FootnoteType
 ```
 
-A utility class providing constants. Specifies whether this is a footnote or an endnote.
+Specifies whether this is a footnote or an endnote.
 
 Both footnotes and endnotes are represented by objects by the [FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE) class. Use [Footnote.getFootnoteType()](../../com.aspose.words/footnote\#getFootnoteType--) to distinguish between footnotes and endnotes.
 ## Fields

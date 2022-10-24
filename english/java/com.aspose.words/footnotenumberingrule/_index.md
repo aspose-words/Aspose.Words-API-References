@@ -1,7 +1,7 @@
 ---
 title: FootnoteNumberingRule
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Determines when automatic footnote or endnote numbering restarts.
 type: docs
 weight: 292
 url: /java/com.aspose.words/footnotenumberingrule/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FootnoteNumberingRule
 ```
 
-A utility class providing constants. Determines when automatic footnote or endnote numbering restarts.
+Determines when automatic footnote or endnote numbering restarts.
 ## Fields
 
 | Field | Description |

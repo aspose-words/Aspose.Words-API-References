@@ -1,7 +1,7 @@
 ---
 title: AxisTickLabelPosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible positions for tick labels.
 type: docs
 weight: 23
 url: /java/com.aspose.words/axisticklabelposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisTickLabelPosition
 ```
 
-A utility class providing constants. Specifies the possible positions for tick labels.
+Specifies the possible positions for tick labels.
 ## Fields
 
 | Field | Description |

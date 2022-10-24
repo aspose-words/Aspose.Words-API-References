@@ -1,7 +1,7 @@
 ---
 title: ArrowWidth
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Width of the arrow at the end of a line.
 type: docs
 weight: 13
 url: /java/com.aspose.words/arrowwidth/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ArrowWidth
 ```
 
-A utility class providing constants. Width of the arrow at the end of a line.
+Width of the arrow at the end of a line.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: GradientVariant
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the variant for a gradient fill.
 type: docs
 weight: 311
 url: /java/com.aspose.words/gradientvariant/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GradientVariant
 ```
 
-A utility class providing constants. Specifies the variant for a gradient fill. Corresponds to the four variants on the Gradient tab in the Fill Effects dialog box in Word.
+Specifies the variant for a gradient fill. Corresponds to the four variants on the Gradient tab in the Fill Effects dialog box in Word.
 ## Fields
 
 | Field | Description |

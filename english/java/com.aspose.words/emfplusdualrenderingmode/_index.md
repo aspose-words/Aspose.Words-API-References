@@ -1,7 +1,7 @@
 ---
 title: EmfPlusDualRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Aspose.Words should render EMF Dual metafiles.
 type: docs
 weight: 143
 url: /java/com.aspose.words/emfplusdualrenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EmfPlusDualRenderingMode
 ```
 
-A utility class providing constants. Specifies how Aspose.Words should render EMF+ Dual metafiles.
+Specifies how Aspose.Words should render EMF+ Dual metafiles.
 ## Fields
 
 | Field | Description |

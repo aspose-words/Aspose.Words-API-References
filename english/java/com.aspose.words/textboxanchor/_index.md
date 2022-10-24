@@ -1,7 +1,7 @@
 ---
 title: TextBoxAnchor
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies values used for shape text vertical alignment.
 type: docs
 weight: 559
 url: /java/com.aspose.words/textboxanchor/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextBoxAnchor
 ```
 
-A utility class providing constants. Specifies values used for shape text vertical alignment.
+Specifies values used for shape text vertical alignment.
 ## Fields
 
 | Field | Description |

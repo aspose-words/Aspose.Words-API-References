@@ -1,7 +1,7 @@
 ---
 title: ParagraphAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies text alignment in a paragraph.
 type: docs
 weight: 444
 url: /java/com.aspose.words/paragraphalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ParagraphAlignment
 ```
 
-A utility class providing constants. Specifies text alignment in a paragraph.
+Specifies text alignment in a paragraph.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: SdtType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a structured document tag SDT node.
 type: docs
 weight: 508
 url: /java/com.aspose.words/sdttype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SdtType
 ```
 
-A utility class providing constants. Specifies the type of a structured document tag (SDT) node.
+Specifies the type of a structured document tag (SDT) node.
 ## Fields
 
 | Field | Description |

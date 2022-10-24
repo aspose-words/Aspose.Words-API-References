@@ -1,7 +1,7 @@
 ---
 title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the way headers and footers are exported to plain text format.
 type: docs
 weight: 581
 url: /java/com.aspose.words/txtexportheadersfootersmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TxtExportHeadersFootersMode
 ```
 
-A utility class providing constants. Specifies the way headers and footers are exported to plain text format.
+Specifies the way headers and footers are exported to plain text format.
 ## Fields
 
 | Field | Description |

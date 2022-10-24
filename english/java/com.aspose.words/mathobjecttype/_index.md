@@ -1,7 +1,7 @@
 ---
 title: MathObjectType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies type of an Office Math object.
 type: docs
 weight: 391
 url: /java/com.aspose.words/mathobjecttype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MathObjectType
 ```
 
-A utility class providing constants. Specifies type of an Office Math object.
+Specifies type of an Office Math object.
 ## Fields
 
 | Field | Description |

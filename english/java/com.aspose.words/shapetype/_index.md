@@ -1,7 +1,7 @@
 ---
 title: ShapeType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of shape in a Microsoft Word document.
 type: docs
 weight: 521
 url: /java/com.aspose.words/shapetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShapeType
 ```
 
-A utility class providing constants. Specifies the type of shape in a Microsoft Word document.
+Specifies the type of shape in a Microsoft Word document.
 ## Fields
 
 | Field | Description |

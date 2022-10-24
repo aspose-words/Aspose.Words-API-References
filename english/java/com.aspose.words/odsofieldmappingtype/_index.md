@@ -1,7 +1,7 @@
 ---
 title: OdsoFieldMappingType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
 type: docs
 weight: 415
 url: /java/com.aspose.words/odsofieldmappingtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OdsoFieldMappingType
 ```
 
-A utility class providing constants. Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
+Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source.
 ## Fields
 
 | Field | Description |

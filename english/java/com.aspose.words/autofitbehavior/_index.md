@@ -1,7 +1,7 @@
 ---
 title: AutoFitBehavior
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Determines how Aspose.Words resizes the table when you invoke the MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior method.
 type: docs
 weight: 15
 url: /java/com.aspose.words/autofitbehavior/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AutoFitBehavior
 ```
 
-A utility class providing constants. Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)** method.
+Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)** method.
 ## Fields
 
 | Field | Description |

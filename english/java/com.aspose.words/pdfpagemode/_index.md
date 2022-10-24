@@ -1,7 +1,7 @@
 ---
 title: PdfPageMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how the PDF document should be displayed when opened in the PDF reader.
 type: docs
 weight: 459
 url: /java/com.aspose.words/pdfpagemode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfPageMode
 ```
 
-A utility class providing constants. Specifies how the PDF document should be displayed when opened in the PDF reader.
+Specifies how the PDF document should be displayed when opened in the PDF reader.
 ## Fields
 
 | Field | Description |

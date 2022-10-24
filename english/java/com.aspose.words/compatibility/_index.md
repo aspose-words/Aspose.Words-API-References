@@ -1,7 +1,7 @@
 ---
 title: Compatibility
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies names of compatibility options.
 type: docs
 weight: 85
 url: /java/com.aspose.words/compatibility/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Compatibility
 ```
 
-A utility class providing constants. Specifies names of compatibility options.
+Specifies names of compatibility options.
 ## Fields
 
 | Field | Description |

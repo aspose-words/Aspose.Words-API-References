@@ -1,7 +1,7 @@
 ---
 title: SdtAppearance
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the appearance of a structured document tag.
 type: docs
 weight: 503
 url: /java/com.aspose.words/sdtappearance/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SdtAppearance
 ```
 
-A utility class providing constants. Specifies the appearance of a structured document tag.
+Specifies the appearance of a structured document tag.
 ## Fields
 
 | Field | Description |

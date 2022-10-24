@@ -1,7 +1,7 @@
 ---
 title: GeneralFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies a general format that is applied to a numeric text or any field result.
 type: docs
 weight: 304
 url: /java/com.aspose.words/generalformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GeneralFormat
 ```
 
-A utility class providing constants. Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats.
+Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats.
 ## Fields
 
 | Field | Description |

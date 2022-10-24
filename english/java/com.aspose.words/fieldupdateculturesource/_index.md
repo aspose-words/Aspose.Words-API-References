@@ -1,7 +1,7 @@
 ---
 title: FieldUpdateCultureSource
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates what culture to use during field update.
 type: docs
 weight: 258
 url: /java/com.aspose.words/fieldupdateculturesource/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FieldUpdateCultureSource
 ```
 
-A utility class providing constants. Indicates what culture to use during field update.
+Indicates what culture to use during field update.
 ## Fields
 
 | Field | Description |

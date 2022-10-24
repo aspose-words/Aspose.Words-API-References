@@ -1,7 +1,7 @@
 ---
 title: PdfImageColorSpaceExportMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how the color space will be selected for the images in PDF document.
 type: docs
 weight: 456
 url: /java/com.aspose.words/pdfimagecolorspaceexportmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfImageColorSpaceExportMode
 ```
 
-A utility class providing constants. Specifies how the color space will be selected for the images in PDF document.
+Specifies how the color space will be selected for the images in PDF document.
 ## Fields
 
 | Field | Description |

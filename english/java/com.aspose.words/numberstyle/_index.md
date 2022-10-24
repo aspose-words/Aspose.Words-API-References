@@ -1,7 +1,7 @@
 ---
 title: NumberStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the number style for a list footnotes and endnotes page numbers.
 type: docs
 weight: 409
 url: /java/com.aspose.words/numberstyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NumberStyle
 ```
 
-A utility class providing constants. Specifies the number style for a list, footnotes and endnotes, page numbers.
+Specifies the number style for a list, footnotes and endnotes, page numbers.
 ## Fields
 
 | Field | Description |

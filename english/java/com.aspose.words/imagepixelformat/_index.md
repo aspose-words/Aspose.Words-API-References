@@ -1,7 +1,7 @@
 ---
 title: ImagePixelFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the pixel format for the generated images of document pages.
 type: docs
 weight: 339
 url: /java/com.aspose.words/imagepixelformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImagePixelFormat
 ```
 
-A utility class providing constants. Specifies the pixel format for the generated images of document pages.
+Specifies the pixel format for the generated images of document pages.
 ## Fields
 
 | Field | Description |

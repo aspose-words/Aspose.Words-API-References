@@ -1,7 +1,7 @@
 ---
 title: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB.
 type: docs
 weight: 330
 url: /java/com.aspose.words/htmlofficemathoutputmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlOfficeMathOutputMode
 ```
 
-A utility class providing constants. Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
+Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
 ## Fields
 
 | Field | Description |

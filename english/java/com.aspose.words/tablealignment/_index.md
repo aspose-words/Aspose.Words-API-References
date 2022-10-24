@@ -1,7 +1,7 @@
 ---
 title: TableAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies alignment for an inline table.
 type: docs
 weight: 549
 url: /java/com.aspose.words/tablealignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TableAlignment
 ```
 
-A utility class providing constants. Specifies alignment for an inline table.
+Specifies alignment for an inline table.
 ## Fields
 
 | Field | Description |

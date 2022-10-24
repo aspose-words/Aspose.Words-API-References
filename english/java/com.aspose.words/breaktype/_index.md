@@ -1,7 +1,7 @@
 ---
 title: BreakType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies type of a break inside a document.
 type: docs
 weight: 39
 url: /java/com.aspose.words/breaktype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BreakType
 ```
 
-A utility class providing constants. Specifies type of a break inside a document.
+Specifies type of a break inside a document.
 ## Fields
 
 | Field | Description |

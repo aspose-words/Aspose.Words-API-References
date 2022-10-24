@@ -1,7 +1,7 @@
 ---
 title: ExportListLabels
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how list labels are exported to HTML MHTML and EPUB.
 type: docs
 weight: 150
 url: /java/com.aspose.words/exportlistlabels/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ExportListLabels
 ```
 
-A utility class providing constants. Specifies how list labels are exported to HTML, MHTML and EPUB.
+Specifies how list labels are exported to HTML, MHTML and EPUB.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: PdfCustomPropertiesExport
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the way  are exported to PDF file.
 type: docs
 weight: 450
 url: /java/com.aspose.words/pdfcustompropertiesexport/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfCustomPropertiesExport
 ```
 
-A utility class providing constants. Specifies the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file.
+Specifies the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file.
 ## Fields
 
 | Field | Description |

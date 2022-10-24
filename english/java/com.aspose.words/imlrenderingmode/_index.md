@@ -1,7 +1,7 @@
 ---
 title: ImlRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how ink InkML objects are rendered to fixed page formats.
 type: docs
 weight: 345
 url: /java/com.aspose.words/imlrenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImlRenderingMode
 ```
 
-A utility class providing constants. Specifies how ink (InkML) objects are rendered to fixed page formats.
+Specifies how ink (InkML) objects are rendered to fixed page formats.
 ## Fields
 
 | Field | Description |

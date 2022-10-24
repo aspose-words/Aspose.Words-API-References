@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies a building block type.
 type: docs
 weight: 45
 url: /java/com.aspose.words/buildingblocktype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BuildingBlockType
 ```
 
-A utility class providing constants. Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
+Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
 
 Corresponds to the **ST\_DocPartType** type in OOXML.
 ## Fields

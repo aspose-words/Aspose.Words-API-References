@@ -1,7 +1,7 @@
 ---
 title: VbaReferenceType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify the type of a  object.
 type: docs
 weight: 599
 url: /java/com.aspose.words/vbareferencetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class VbaReferenceType
 ```
 
-A utility class providing constants. Allows to specify the type of a [VbaReference](../../com.aspose.words/vbareference) object.
+Allows to specify the type of a [VbaReference](../../com.aspose.words/vbareference) object.
 ## Fields
 
 | Field | Description |

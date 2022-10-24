@@ -1,7 +1,7 @@
 ---
 title: SdtDateStorageFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store.
 type: docs
 weight: 505
 url: /java/com.aspose.words/sdtdatestorageformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SdtDateStorageFormat
 ```
 
-A utility class providing constants. Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store.
+Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store.
 ## Fields
 
 | Field | Description |

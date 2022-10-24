@@ -1,7 +1,7 @@
 ---
 title: TextFormFieldType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a text form field.
 type: docs
 weight: 565
 url: /java/com.aspose.words/textformfieldtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextFormFieldType
 ```
 
-A utility class providing constants. Specifies the type of a text form field.
+Specifies the type of a text form field.
 ## Fields
 
 | Field | Description |

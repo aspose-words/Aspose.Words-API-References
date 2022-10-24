@@ -1,7 +1,7 @@
 ---
 title: FontFamily
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents the font family.
 type: docs
 weight: 278
 url: /java/com.aspose.words/fontfamily/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FontFamily
 ```
 
-A utility class providing constants. Represents the font family.
+Represents the font family.
 
 A font family is a set of fonts having common stroke width and serif characteristics.
 ## Fields

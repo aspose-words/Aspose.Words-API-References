@@ -1,7 +1,7 @@
 ---
 title: WrapSide
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies what sides of the shape or picture the text wraps around.
 type: docs
 weight: 621
 url: /java/com.aspose.words/wrapside/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WrapSide
 ```
 
-A utility class providing constants. Specifies what side(s) of the shape or picture the text wraps around.
+Specifies what side(s) of the shape or picture the text wraps around.
 ## Fields
 
 | Field | Description |

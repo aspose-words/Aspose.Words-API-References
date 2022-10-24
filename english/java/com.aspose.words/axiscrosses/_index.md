@@ -1,7 +1,7 @@
 ---
 title: AxisCrosses
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible crossing points for an axis.
 type: docs
 weight: 19
 url: /java/com.aspose.words/axiscrosses/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisCrosses
 ```
 
-A utility class providing constants. Specifies the possible crossing points for an axis.
+Specifies the possible crossing points for an axis.
 ## Fields
 
 | Field | Description |

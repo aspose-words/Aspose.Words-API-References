@@ -1,7 +1,7 @@
 ---
 title: NodeType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a Word document node.
 type: docs
 weight: 408
 url: /java/com.aspose.words/nodetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NodeType
 ```
 
-A utility class providing constants. Specifies the type of a Word document node.
+Specifies the type of a Word document node.
 ## Fields
 
 | Field | Description |

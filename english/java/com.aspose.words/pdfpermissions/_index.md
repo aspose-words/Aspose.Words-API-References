@@ -1,7 +1,7 @@
 ---
 title: PdfPermissions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the operations that are allowed to a user on an encrypted PDF document.
 type: docs
 weight: 460
 url: /java/com.aspose.words/pdfpermissions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfPermissions
 ```
 
-A utility class providing constants. Specifies the operations that are allowed to a user on an encrypted PDF document.
+Specifies the operations that are allowed to a user on an encrypted PDF document.
 ## Fields
 
 | Field | Description |

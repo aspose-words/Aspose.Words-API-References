@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents possible table areas to which conditional formatting may be defined in a table style.
 type: docs
 weight: 91
 url: /java/com.aspose.words/conditionalstyletype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ConditionalStyleType
 ```
 
-A utility class providing constants. Represents possible table areas to which conditional formatting may be defined in a table style.
+Represents possible table areas to which conditional formatting may be defined in a table style.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the format in which the document is saved.
 type: docs
 weight: 499
 url: /java/com.aspose.words/saveformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SaveFormat
 ```
 
-A utility class providing constants. Indicates the format in which the document is saved. **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
+Indicates the format in which the document is saved. **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**
 ## Fields
 
 | Field | Description |

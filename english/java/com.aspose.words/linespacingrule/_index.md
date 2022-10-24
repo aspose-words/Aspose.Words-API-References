@@ -1,7 +1,7 @@
 ---
 title: LineSpacingRule
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies line spacing values for a paragraph.
 type: docs
 weight: 366
 url: /java/com.aspose.words/linespacingrule/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LineSpacingRule
 ```
 
-A utility class providing constants. Specifies line spacing values for a paragraph.
+Specifies line spacing values for a paragraph.
 ## Fields
 
 | Field | Description |

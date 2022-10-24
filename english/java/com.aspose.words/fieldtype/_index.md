@@ -1,7 +1,7 @@
 ---
 title: FieldType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies Microsoft Word field types.
 type: docs
 weight: 256
 url: /java/com.aspose.words/fieldtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FieldType
 ```
 
-A utility class providing constants. Specifies Microsoft Word field types.
+Specifies Microsoft Word field types.
 ## Fields
 
 | Field | Description |

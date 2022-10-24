@@ -1,7 +1,7 @@
 ---
 title: ImageColorMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the color mode for the generated images of document pages.
 type: docs
 weight: 336
 url: /java/com.aspose.words/imagecolormode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImageColorMode
 ```
 
-A utility class providing constants. Specifies the color mode for the generated images of document pages.
+Specifies the color mode for the generated images of document pages.
 ## Fields
 
 | Field | Description |

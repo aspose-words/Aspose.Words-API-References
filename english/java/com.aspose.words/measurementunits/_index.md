@@ -1,7 +1,7 @@
 ---
 title: MeasurementUnits
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the unit of measurement.
 type: docs
 weight: 392
 url: /java/com.aspose.words/measurementunits/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MeasurementUnits
 ```
 
-A utility class providing constants. Specifies the unit of measurement.
+Specifies the unit of measurement.
 ## Fields
 
 | Field | Description |

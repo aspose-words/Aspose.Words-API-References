@@ -1,7 +1,7 @@
 ---
 title: HtmlVersion
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the version of HTML is used when saving the document to  and  formats.
 type: docs
 weight: 332
 url: /java/com.aspose.words/htmlversion/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlVersion
 ```
 
-A utility class providing constants. Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) and [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML) formats.
+Indicates the version of HTML is used when saving the document to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) and [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML) formats.
 ## Fields
 
 | Field | Description |

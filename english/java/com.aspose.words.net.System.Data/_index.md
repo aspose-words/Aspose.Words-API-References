@@ -36,7 +36,7 @@ Provides types mimicking .NET types of the `System.Data` namespace in Java.
 | [DataView](../com.aspose.words.net.system.data/dataview) | Represents a databindable, customized view of a [DataTable](../com.aspose.words.net.system.data/datatable) for sorting, filtering, searching, editing, and navigation. |
 | [ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint) | Represents an action restriction enforced on a set of columns in a primary key/foreign key relationship when a value or row is either deleted or updated. |
 | [InvalidConstraintException](../com.aspose.words.net.system.data/invalidconstraintexception) | Represents the exception that is thrown when incorrectly trying to create or access a relation. |
-| [MappingType](../com.aspose.words.net.system.data/mappingtype) | A utility class providing constants. |
+| [MappingType](../com.aspose.words.net.system.data/mappingtype) | Specifies how a [DataColumn](../com.aspose.words.net.system.data/datacolumn) is mapped. |
 | [UniqueConstraint](../com.aspose.words.net.system.data/uniqueconstraint) | Represents a restriction on a set of columns in which all values must be unique. |
 
 ## Interfaces
@@ -51,5 +51,5 @@ Provides types mimicking .NET types of the `System.Data` namespace in Java.
 
 | Enum | Description |
 | --- | --- |
-| [Rule](../com.aspose.words.net.system.data/rule) | A utility class providing constants. |
-| [XmlReadMode](../com.aspose.words.net.system.data/xmlreadmode) | A utility class providing constants. |
+| [Rule](../com.aspose.words.net.system.data/rule) | Indicates the action that occurs when a [ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced. |
+| [XmlReadMode](../com.aspose.words.net.system.data/xmlreadmode) | Specifies how to read XML data and a relational schema into a [DataSet](../com.aspose.words.net.system.data/dataset). |

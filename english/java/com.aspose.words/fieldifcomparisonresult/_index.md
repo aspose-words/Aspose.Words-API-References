@@ -1,7 +1,7 @@
 ---
 title: FieldIfComparisonResult
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the result of the IF field condition evaluation.
 type: docs
 weight: 201
 url: /java/com.aspose.words/fieldifcomparisonresult/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FieldIfComparisonResult
 ```
 
-A utility class providing constants. Specifies the result of the IF field condition evaluation.
+Specifies the result of the IF field condition evaluation.
 ## Fields
 
 | Field | Description |

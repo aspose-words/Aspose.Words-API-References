@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockGallery
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the predefined gallery into which a building block is classified.
 type: docs
 weight: 44
 url: /java/com.aspose.words/buildingblockgallery/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BuildingBlockGallery
 ```
 
-A utility class providing constants. Specifies the predefined gallery into which a building block is classified.
+Specifies the predefined gallery into which a building block is classified.
 
 Corresponds to the **ST\_DocPartGallery** type in OOXML.
 ## Fields

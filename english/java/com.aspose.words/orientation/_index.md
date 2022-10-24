@@ -1,7 +1,7 @@
 ---
 title: Orientation
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies page orientation.
 type: docs
 weight: 429
 url: /java/com.aspose.words/orientation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Orientation
 ```
 
-A utility class providing constants. Specifies page orientation.
+Specifies page orientation.
 ## Fields
 
 | Field | Description |

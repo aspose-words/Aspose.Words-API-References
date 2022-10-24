@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies horizontal alignment of a floating shape text frame or floating table.
 type: docs
 weight: 320
 url: /java/com.aspose.words/horizontalalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HorizontalAlignment
 ```
 
-A utility class providing constants. Specifies horizontal alignment of a floating shape, text frame or floating table.
+Specifies horizontal alignment of a floating shape, text frame or floating table.
 ## Fields
 
 | Field | Description |

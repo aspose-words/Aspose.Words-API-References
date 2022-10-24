@@ -1,7 +1,7 @@
 ---
 title: HtmlInsertOptions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method.
 type: docs
 weight: 327
 url: /java/com.aspose.words/htmlinsertoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlInsertOptions
 ```
 
-A utility class providing constants. Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** method.
+Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** method.
 ## Fields
 
 | Field | Description |

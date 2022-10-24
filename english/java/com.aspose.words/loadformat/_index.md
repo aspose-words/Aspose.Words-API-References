@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the format of the document that is to be loaded.
 type: docs
 weight: 377
 url: /java/com.aspose.words/loadformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LoadFormat
 ```
 
-A utility class providing constants. Indicates the format of the document that is to be loaded.
+Indicates the format of the document that is to be loaded.
 ## Fields
 
 | Field | Description |

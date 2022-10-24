@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a digital signature.
 type: docs
 weight: 113
 url: /java/com.aspose.words/digitalsignaturetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DigitalSignatureType
 ```
 
-A utility class providing constants. Specifies the type of a digital signature.
+Specifies the type of a digital signature.
 ## Fields
 
 | Field | Description |

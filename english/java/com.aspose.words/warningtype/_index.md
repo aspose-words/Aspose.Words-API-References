@@ -1,7 +1,7 @@
 ---
 title: WarningType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 type: docs
 weight: 607
 url: /java/com.aspose.words/warningtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WarningType
 ```
 
-A utility class providing constants. Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
+Specifies the type of a warning that is issued by Aspose.Words during document loading or saving.
 ## Fields
 
 | Field | Description |

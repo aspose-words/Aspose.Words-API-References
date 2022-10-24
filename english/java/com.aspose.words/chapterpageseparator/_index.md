@@ -1,7 +1,7 @@
 ---
 title: ChapterPageSeparator
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Defines the separator character that appears between the chapter and page number.
 type: docs
 weight: 54
 url: /java/com.aspose.words/chapterpageseparator/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ChapterPageSeparator
 ```
 
-A utility class providing constants. Defines the separator character that appears between the chapter and page number.
+Defines the separator character that appears between the chapter and page number.
 ## Fields
 
 | Field | Description |

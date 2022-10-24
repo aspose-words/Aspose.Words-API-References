@@ -1,7 +1,7 @@
 ---
 title: ThemeFont
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the types of theme font names for document themes.
 type: docs
 weight: 576
 url: /java/com.aspose.words/themefont/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ThemeFont
 ```
 
-A utility class providing constants. Specifies the types of theme font names for document themes. Specifies a theme font type which can be referenced as a theme font within the parent object properties. This theme font is a reference to one of the predefined theme fonts, located in the document's Theme part, which allows for font information to be set centrally in the document.
+Specifies the types of theme font names for document themes. Specifies a theme font type which can be referenced as a theme font within the parent object properties. This theme font is a reference to one of the predefined theme fonts, located in the document's Theme part, which allows for font information to be set centrally in the document.
 ## Fields
 
 | Field | Description |

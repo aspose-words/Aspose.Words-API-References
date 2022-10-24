@@ -1,7 +1,7 @@
 ---
 title: PageBorderDistanceFrom
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the positioning of the page border relative to the page margin.
 type: docs
 weight: 433
 url: /java/com.aspose.words/pageborderdistancefrom/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PageBorderDistanceFrom
 ```
 
-A utility class providing constants. Specifies the positioning of the page border relative to the page margin.
+Specifies the positioning of the page border relative to the page margin.
 ## Fields
 
 | Field | Description |

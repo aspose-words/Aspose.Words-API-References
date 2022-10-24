@@ -1,7 +1,7 @@
 ---
 title: RevisionsView
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify whether to work with the original or revised version of a document.
 type: docs
 weight: 491
 url: /java/com.aspose.words/revisionsview/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RevisionsView
 ```
 
-A utility class providing constants. Allows to specify whether to work with the original or revised version of a document.
+Allows to specify whether to work with the original or revised version of a document.
 ## Fields
 
 | Field | Description |

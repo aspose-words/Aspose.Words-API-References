@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the style for a gradient fill.
 type: docs
 weight: 310
 url: /java/com.aspose.words/gradientstyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class GradientStyle
 ```
 
-A utility class providing constants. Specifies the style for a gradient fill.
+Specifies the style for a gradient fill.
 ## Fields
 
 | Field | Description |

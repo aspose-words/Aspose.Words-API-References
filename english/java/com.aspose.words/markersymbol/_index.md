@@ -1,7 +1,7 @@
 ---
 title: MarkerSymbol
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies marker symbol style.
 type: docs
 weight: 389
 url: /java/com.aspose.words/markersymbol/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MarkerSymbol
 ```
 
-A utility class providing constants. Specifies marker symbol style.
+Specifies marker symbol style.
 ## Fields
 
 | Field | Description |

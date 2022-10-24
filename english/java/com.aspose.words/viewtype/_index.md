@@ -1,7 +1,7 @@
 ---
 title: ViewType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Possible values for the view mode in Microsoft Word.
 type: docs
 weight: 602
 url: /java/com.aspose.words/viewtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ViewType
 ```
 
-A utility class providing constants. Possible values for the view mode in Microsoft Word.
+Possible values for the view mode in Microsoft Word.
 ## Fields
 
 | Field | Description |

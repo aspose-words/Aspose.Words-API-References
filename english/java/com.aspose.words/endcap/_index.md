@@ -1,7 +1,7 @@
 ---
 title: EndCap
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies line cap style.
 type: docs
 weight: 145
 url: /java/com.aspose.words/endcap/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EndCap
 ```
 
-A utility class providing constants. Specifies line cap style.
+Specifies line cap style.
 ## Fields
 
 | Field | Description |

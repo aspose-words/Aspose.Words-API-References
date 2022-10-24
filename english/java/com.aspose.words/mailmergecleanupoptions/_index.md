@@ -1,7 +1,7 @@
 ---
 title: MailMergeCleanupOptions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies options that determine what items are removed during mail merge.
 type: docs
 weight: 381
 url: /java/com.aspose.words/mailmergecleanupoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MailMergeCleanupOptions
 ```
 
-A utility class providing constants. Specifies options that determine what items are removed during mail merge.
+Specifies options that determine what items are removed during mail merge.
 ## Fields
 
 | Field | Description |

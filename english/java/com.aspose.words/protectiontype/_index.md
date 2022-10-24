@@ -1,7 +1,7 @@
 ---
 title: ProtectionType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Protection type for a document.
 type: docs
 weight: 470
 url: /java/com.aspose.words/protectiontype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ProtectionType
 ```
 
-A utility class providing constants. Protection type for a document.
+Protection type for a document.
 ## Fields
 
 | Field | Description |

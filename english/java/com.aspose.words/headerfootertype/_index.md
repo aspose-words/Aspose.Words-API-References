@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Identifies the type of header or footer found in a Word file.
 type: docs
 weight: 318
 url: /java/com.aspose.words/headerfootertype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HeaderFooterType
 ```
 
-A utility class providing constants. Identifies the type of header or footer found in a Word file.  This is a per section header/footer. Do not renumber as the value of the enum used as an index into plcfhdd.
+Identifies the type of header or footer found in a Word file.  This is a per section header/footer. Do not renumber as the value of the enum used as an index into plcfhdd.
 ## Fields
 
 | Field | Description |

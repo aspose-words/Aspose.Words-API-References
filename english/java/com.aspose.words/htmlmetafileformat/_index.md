@@ -1,7 +1,7 @@
 ---
 title: HtmlMetafileFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the format in which metafiles are saved to HTML documents.
 type: docs
 weight: 329
 url: /java/com.aspose.words/htmlmetafileformat/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlMetafileFormat
 ```
 
-A utility class providing constants. Indicates the format in which metafiles are saved to HTML documents.
+Indicates the format in which metafiles are saved to HTML documents.
 ## Fields
 
 | Field | Description |

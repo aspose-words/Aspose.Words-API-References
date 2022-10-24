@@ -1,7 +1,7 @@
 ---
 title: ColorMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how colors are rendered.
 type: docs
 weight: 75
 url: /java/com.aspose.words/colormode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ColorMode
 ```
 
-A utility class providing constants. Specifies how colors are rendered.
+Specifies how colors are rendered.
 ## Fields
 
 | Field | Description |

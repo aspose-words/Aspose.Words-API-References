@@ -1,7 +1,7 @@
 ---
 title: Granularity
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the granularity of changes to track when comparing two documents.
 type: docs
 weight: 312
 url: /java/com.aspose.words/granularity/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Granularity
 ```
 
-A utility class providing constants. Specifies the granularity of changes to track when comparing two documents.
+Specifies the granularity of changes to track when comparing two documents.
 ## Fields
 
 | Field | Description |

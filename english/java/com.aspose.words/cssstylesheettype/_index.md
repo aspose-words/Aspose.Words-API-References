@@ -1,7 +1,7 @@
 ---
 title: CssStyleSheetType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how CSS Cascading Style Sheet styles are exported to HTML.
 type: docs
 weight: 97
 url: /java/com.aspose.words/cssstylesheettype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CssStyleSheetType
 ```
 
-A utility class providing constants. Specifies how CSS (Cascading Style Sheet) styles are exported to HTML.
+Specifies how CSS (Cascading Style Sheet) styles are exported to HTML.
 ## Fields
 
 | Field | Description |

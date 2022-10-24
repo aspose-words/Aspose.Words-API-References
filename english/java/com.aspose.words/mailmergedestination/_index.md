@@ -1,7 +1,7 @@
 ---
 title: MailMergeDestination
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible results which may be generated when a mail merge is carried out on a document.
 type: docs
 weight: 383
 url: /java/com.aspose.words/mailmergedestination/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MailMergeDestination
 ```
 
-A utility class providing constants. Specifies the possible results which may be generated when a mail merge is carried out on a document.
+Specifies the possible results which may be generated when a mail merge is carried out on a document.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: WatermarkType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the watermark type.
 type: docs
 weight: 610
 url: /java/com.aspose.words/watermarktype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WatermarkType
 ```
 
-A utility class providing constants. Specifies the watermark type.
+Specifies the watermark type.
 ## Fields
 
 | Field | Description |
