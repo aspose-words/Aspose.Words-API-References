@@ -1,7 +1,7 @@
 ---
 title: PageLayoutEvent
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: A code of event raised during page layout model build and rendering.
 type: docs
 weight: 436
 url: /java/com.aspose.words/pagelayoutevent/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PageLayoutEvent
 ```
 
-A utility class providing constants. A code of event raised during page layout model build and rendering.
+A code of event raised during page layout model build and rendering.
 
 Page layout model is built in two steps. First, "conversion step", this is when page layout pulls document content and creates object graph. Second, "reflow step", this is when structures are split, merged and arranged into pages.
 

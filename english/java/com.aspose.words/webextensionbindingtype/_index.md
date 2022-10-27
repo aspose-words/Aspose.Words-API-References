@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBindingType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Enumerates available types of binding between a web extension and the data in the document.
 type: docs
 weight: 614
 url: /java/com.aspose.words/webextensionbindingtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WebExtensionBindingType
 ```
 
-A utility class providing constants. Enumerates available types of binding between a web extension and the data in the document.
+Enumerates available types of binding between a web extension and the data in the document.
 ## Fields
 
 | Field | Description |

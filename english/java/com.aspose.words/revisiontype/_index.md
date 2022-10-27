@@ -1,7 +1,7 @@
 ---
 title: RevisionType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of change being tracked in .
 type: docs
 weight: 490
 url: /java/com.aspose.words/revisiontype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RevisionType
 ```
 
-A utility class providing constants. Specifies the type of change being tracked in [Revision](../../com.aspose.words/revision).
+Specifies the type of change being tracked in [Revision](../../com.aspose.words/revision).
 ## Fields
 
 | Field | Description |

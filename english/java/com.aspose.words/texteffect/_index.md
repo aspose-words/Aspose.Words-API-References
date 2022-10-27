@@ -1,7 +1,7 @@
 ---
 title: TextEffect
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Animation effect for text runs.
 type: docs
 weight: 564
 url: /java/com.aspose.words/texteffect/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextEffect
 ```
 
-A utility class providing constants. Animation effect for text runs.
+Animation effect for text runs.
 ## Fields
 
 | Field | Description |

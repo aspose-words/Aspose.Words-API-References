@@ -1,7 +1,7 @@
 ---
 title: FindReplaceDirection
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies direction for replace operations.
 type: docs
 weight: 269
 url: /java/com.aspose.words/findreplacedirection/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FindReplaceDirection
 ```
 
-A utility class providing constants. Specifies direction for replace operations.
+Specifies direction for replace operations.
 ## Fields
 
 | Field | Description |

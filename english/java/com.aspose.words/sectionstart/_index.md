@@ -1,7 +1,7 @@
 ---
 title: SectionStart
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: The type of break at the beginning of the section.
 type: docs
 weight: 512
 url: /java/com.aspose.words/sectionstart/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SectionStart
 ```
 
-A utility class providing constants. The type of break at the beginning of the section.
+The type of break at the beginning of the section.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: SdtCalendarType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible types of calendars which can be used to specify  /  in an Office Open XML document.
 type: docs
 weight: 504
 url: /java/com.aspose.words/sdtcalendartype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SdtCalendarType
 ```
 
-A utility class providing constants. Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int-) in an Office Open XML document.
+Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int-) in an Office Open XML document.
 ## Fields
 
 | Field | Description |

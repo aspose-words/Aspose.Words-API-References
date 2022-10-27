@@ -1,7 +1,7 @@
 ---
 title: SectionLayoutMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the layout mode for a section allowing to define the document grid behavior.
 type: docs
 weight: 511
 url: /java/com.aspose.words/sectionlayoutmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class SectionLayoutMode
 ```
 
-A utility class providing constants. Specifies the layout mode for a section allowing to define the document grid behavior.
+Specifies the layout mode for a section allowing to define the document grid behavior.
 ## Fields
 
 | Field | Description |

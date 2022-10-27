@@ -1,7 +1,7 @@
 ---
 title: Underline
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates type of the underline applied to a font.
 type: docs
 weight: 588
 url: /java/com.aspose.words/underline/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Underline
 ```
 
-A utility class providing constants. Indicates type of the underline applied to a font.
+Indicates type of the underline applied to a font.
 ## Fields
 
 | Field | Description |

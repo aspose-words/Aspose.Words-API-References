@@ -1,7 +1,7 @@
 ---
 title: BorderType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies sides of a border.
 type: docs
 weight: 38
 url: /java/com.aspose.words/bordertype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BorderType
 ```
 
-A utility class providing constants. Specifies sides of a border.
+Specifies sides of a border.
 
 To learn more, visit the **Programming with Documents** documentation article.
 ## Fields

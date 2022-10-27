@@ -1,7 +1,7 @@
 ---
 title: AxisTickMark
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible positions for tick marks.
 type: docs
 weight: 24
 url: /java/com.aspose.words/axistickmark/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisTickMark
 ```
 
-A utility class providing constants. Specifies the possible positions for tick marks.
+Specifies the possible positions for tick marks.
 ## Fields
 
 | Field | Description |

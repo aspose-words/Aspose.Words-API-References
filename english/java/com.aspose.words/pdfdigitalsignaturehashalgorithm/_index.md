@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies a digital hash algorithm used by a digital signature.
 type: docs
 weight: 452
 url: /java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfDigitalSignatureHashAlgorithm
 ```
 
-A utility class providing constants. Specifies a digital hash algorithm used by a digital signature.
+Specifies a digital hash algorithm used by a digital signature.
 ## Fields
 
 | Field | Description |

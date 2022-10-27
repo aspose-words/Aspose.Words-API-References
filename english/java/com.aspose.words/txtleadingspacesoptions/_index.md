@@ -1,7 +1,7 @@
 ---
 title: TxtLeadingSpacesOptions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies available options for leading space handling during import from  file.
 type: docs
 weight: 582
 url: /java/com.aspose.words/txtleadingspacesoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TxtLeadingSpacesOptions
 ```
 
-A utility class providing constants. Specifies available options for leading space handling during import from [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) file.
+Specifies available options for leading space handling during import from [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) file.
 ## Fields
 
 | Field | Description |

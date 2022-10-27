@@ -1,7 +1,7 @@
 ---
 title: CalendarType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a calendar.
 type: docs
 weight: 47
 url: /java/com.aspose.words/calendartype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CalendarType
 ```
 
-A utility class providing constants. Specifies the type of a calendar.
+Specifies the type of a calendar.
 ## Fields
 
 | Field | Description |

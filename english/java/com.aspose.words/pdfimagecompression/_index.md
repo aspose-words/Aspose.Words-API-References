@@ -1,7 +1,7 @@
 ---
 title: PdfImageCompression
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of compression applied to images in the PDF file.
 type: docs
 weight: 457
 url: /java/com.aspose.words/pdfimagecompression/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfImageCompression
 ```
 
-A utility class providing constants. Specifies the type of compression applied to images in the PDF file.
+Specifies the type of compression applied to images in the PDF file.
 ## Fields
 
 | Field | Description |

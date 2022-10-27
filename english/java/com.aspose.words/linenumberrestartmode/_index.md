@@ -1,7 +1,7 @@
 ---
 title: LineNumberRestartMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Determines when automatic line numbering restarts.
 type: docs
 weight: 365
 url: /java/com.aspose.words/linenumberrestartmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LineNumberRestartMode
 ```
 
-A utility class providing constants. Determines when automatic line numbering restarts.
+Determines when automatic line numbering restarts.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: PatternType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the fill pattern to be used to fill a shape.
 type: docs
 weight: 447
 url: /java/com.aspose.words/patterntype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PatternType
 ```
 
-A utility class providing constants. Specifies the fill pattern to be used to fill a shape.
+Specifies the fill pattern to be used to fill a shape.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: Rule
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Indicates the action that occurs when a  is enforced.
 type: docs
 weight: 36
 url: /java/com.aspose.words.net.system.data/rule/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum Rule extends Enum<System.Data.Rule>
 ```
 
-A utility class providing constants. Indicates the action that occurs when a [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced.
+Indicates the action that occurs when a [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced.
 ## Fields
 
 | Field | Description |

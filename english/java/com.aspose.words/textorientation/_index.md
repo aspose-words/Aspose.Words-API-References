@@ -1,7 +1,7 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies orientation of text on a page in a table cell or a text frame.
 type: docs
 weight: 566
 url: /java/com.aspose.words/textorientation/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextOrientation
 ```
 
-A utility class providing constants. Specifies orientation of text on a page, in a table cell or a text frame.
+Specifies orientation of text on a page, in a table cell or a text frame.
 ## Fields
 
 | Field | Description |

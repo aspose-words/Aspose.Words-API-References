@@ -1,7 +1,7 @@
 ---
 title: DocumentDirection
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify the direction to flow the text in a document.
 type: docs
 weight: 123
 url: /java/com.aspose.words/documentdirection/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DocumentDirection
 ```
 
-A utility class providing constants. Allows to specify the direction to flow the text in a document.
+Allows to specify the direction to flow the text in a document.
 ## Fields
 
 | Field | Description |

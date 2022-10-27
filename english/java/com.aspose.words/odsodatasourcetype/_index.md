@@ -1,7 +1,7 @@
 ---
 title: OdsoDataSourceType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 type: docs
 weight: 412
 url: /java/com.aspose.words/odsodatasourcetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OdsoDataSourceType
 ```
 
-A utility class providing constants. Specifies the type of the external data source to be connected to as part of the ODSO connection information.
+Specifies the type of the external data source to be connected to as part of the ODSO connection information.
 
 The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 ## Fields

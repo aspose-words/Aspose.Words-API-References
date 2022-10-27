@@ -1,7 +1,7 @@
 ---
 title: RelativeHorizontalPosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies to what the horizontal position of a shape or text frame is relative.
 type: docs
 weight: 473
 url: /java/com.aspose.words/relativehorizontalposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RelativeHorizontalPosition
 ```
 
-A utility class providing constants. Specifies to what the horizontal position of a shape or text frame is relative.
+Specifies to what the horizontal position of a shape or text frame is relative.
 ## Fields
 
 | Field | Description |

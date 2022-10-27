@@ -1,7 +1,7 @@
 ---
 title: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies an unit of an image dimension i.e.
 type: docs
 weight: 395
 url: /java/com.aspose.words/mergefieldimagedimensionunit/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MergeFieldImageDimensionUnit
 ```
 
-A utility class providing constants. Specifies an unit of an image dimension (i.e. the width or the height) used across a mail merge process.
+Specifies an unit of an image dimension (i.e. the width or the height) used across a mail merge process.
 ## Fields
 
 | Field | Description |

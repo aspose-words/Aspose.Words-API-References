@@ -1,7 +1,7 @@
 ---
 title: RevisionTextEffect
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify decoration effect for revisions of document text.
 type: docs
 weight: 489
 url: /java/com.aspose.words/revisiontexteffect/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RevisionTextEffect
 ```
 
-A utility class providing constants. Allows to specify decoration effect for revisions of document text.
+Allows to specify decoration effect for revisions of document text.
 ## Fields
 
 | Field | Description |

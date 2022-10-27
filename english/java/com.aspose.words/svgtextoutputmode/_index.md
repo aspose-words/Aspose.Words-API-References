@@ -1,7 +1,7 @@
 ---
 title: SvgTextOutputMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: 
 type: docs
 weight: 542
 url: /java/com.aspose.words/svgtextoutputmode/
@@ -12,8 +12,6 @@ java.lang.Object
 ```
 public class SvgTextOutputMode
 ```
-
-A utility class providing constants.
 ## Fields
 
 | Field | Description |

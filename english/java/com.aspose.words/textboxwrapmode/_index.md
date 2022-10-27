@@ -1,7 +1,7 @@
 ---
 title: TextBoxWrapMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how text wraps inside a shape.
 type: docs
 weight: 560
 url: /java/com.aspose.words/textboxwrapmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextBoxWrapMode
 ```
 
-A utility class providing constants. Specifies how text wraps inside a shape.
+Specifies how text wraps inside a shape.
 ## Fields
 
 | Field | Description |

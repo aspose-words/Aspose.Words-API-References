@@ -1,7 +1,7 @@
 ---
 title: MailMergeDataType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of an external mail merge data source.
 type: docs
 weight: 382
 url: /java/com.aspose.words/mailmergedatatype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MailMergeDataType
 ```
 
-A utility class providing constants. Specifies the type of an external mail merge data source.
+Specifies the type of an external mail merge data source.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: TextureAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the alignment for the tiling of the texture fill.
 type: docs
 weight: 571
 url: /java/com.aspose.words/texturealignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureAlignment
 ```
 
-A utility class providing constants. Specifies the alignment for the tiling of the texture fill.
+Specifies the alignment for the tiling of the texture fill.
 ## Fields
 
 | Field | Description |

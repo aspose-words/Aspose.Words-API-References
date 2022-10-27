@@ -1,7 +1,7 @@
 ---
 title: Dml3DEffectsRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how 3D shape effects are rendered.
 type: docs
 weight: 116
 url: /java/com.aspose.words/dml3deffectsrenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class Dml3DEffectsRenderingMode
 ```
 
-A utility class providing constants. Specifies how 3D shape effects are rendered.
+Specifies how 3D shape effects are rendered.
 ## Fields
 
 | Field | Description |

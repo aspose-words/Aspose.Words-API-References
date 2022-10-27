@@ -1,7 +1,7 @@
 ---
 title: HtmlControlType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Type of document nodes that represent  and  elements imported from HTML.
 type: docs
 weight: 323
 url: /java/com.aspose.words/htmlcontroltype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlControlType
 ```
 
-A utility class providing constants. Type of document nodes that represent  and  elements imported from HTML.
+Type of document nodes that represent  and  elements imported from HTML.
 ## Fields
 
 | Field | Description |

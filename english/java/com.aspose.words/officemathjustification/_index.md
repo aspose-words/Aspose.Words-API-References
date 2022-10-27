@@ -1,7 +1,7 @@
 ---
 title: OfficeMathJustification
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the justification of the equation.
 type: docs
 weight: 422
 url: /java/com.aspose.words/officemathjustification/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OfficeMathJustification
 ```
 
-A utility class providing constants. Specifies the justification of the equation.
+Specifies the justification of the equation.
 ## Fields
 
 | Field | Description |

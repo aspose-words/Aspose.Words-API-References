@@ -1,7 +1,7 @@
 ---
 title: EndnotePosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Defines the endnote position.
 type: docs
 weight: 147
 url: /java/com.aspose.words/endnoteposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EndnotePosition
 ```
 
-A utility class providing constants. Defines the endnote position.
+Defines the endnote position.
 ## Fields
 
 | Field | Description |

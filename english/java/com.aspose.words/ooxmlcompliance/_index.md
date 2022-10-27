@@ -1,7 +1,7 @@
 ---
 title: OoxmlCompliance
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
 type: docs
 weight: 427
 url: /java/com.aspose.words/ooxmlcompliance/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OoxmlCompliance
 ```
 
-A utility class providing constants. Allows to specify which OOXML specification will be used when saving in the DOCX format.
+Allows to specify which OOXML specification will be used when saving in the DOCX format.
 ## Fields
 
 | Field | Description |

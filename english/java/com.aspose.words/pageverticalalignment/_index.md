@@ -1,7 +1,7 @@
 ---
 title: PageVerticalAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies vertical justification of text on each page.
 type: docs
 weight: 441
 url: /java/com.aspose.words/pageverticalalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PageVerticalAlignment
 ```
 
-A utility class providing constants. Specifies vertical justification of text on each page.
+Specifies vertical justification of text on each page.
 ## Fields
 
 | Field | Description |

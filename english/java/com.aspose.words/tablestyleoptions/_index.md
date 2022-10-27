@@ -1,7 +1,7 @@
 ---
 title: TableStyleOptions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how table style is applied to a table.
 type: docs
 weight: 553
 url: /java/com.aspose.words/tablestyleoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TableStyleOptions
 ```
 
-A utility class providing constants. Specifies how table style is applied to a table.
+Specifies how table style is applied to a table.
 ## Fields
 
 | Field | Description |

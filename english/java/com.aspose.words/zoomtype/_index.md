@@ -1,7 +1,7 @@
 ---
 title: ZoomType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Possible values for how large or small the document appears on the screen in Microsoft Word.
 type: docs
 weight: 631
 url: /java/com.aspose.words/zoomtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ZoomType
 ```
 
-A utility class providing constants. Possible values for how large or small the document appears on the screen in Microsoft Word.
+Possible values for how large or small the document appears on the screen in Microsoft Word.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: HorizontalRuleAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents the alignment for the specified horizontal rule.
 type: docs
 weight: 321
 url: /java/com.aspose.words/horizontalrulealignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HorizontalRuleAlignment
 ```
 
-A utility class providing constants. Represents the alignment for the specified horizontal rule.
+Represents the alignment for the specified horizontal rule.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: FontPitch
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents the font pitch.
 type: docs
 weight: 284
 url: /java/com.aspose.words/fontpitch/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FontPitch
 ```
 
-A utility class providing constants. Represents the font pitch. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+Represents the font pitch. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
 ## Fields
 
 | Field | Description |

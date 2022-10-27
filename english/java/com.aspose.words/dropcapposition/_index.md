@@ -1,7 +1,7 @@
 ---
 title: DropCapPosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the position for a drop cap text.
 type: docs
 weight: 134
 url: /java/com.aspose.words/dropcapposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DropCapPosition
 ```
 
-A utility class providing constants. Specifies the position for a drop cap text.
+Specifies the position for a drop cap text.
 ## Fields
 
 | Field | Description |

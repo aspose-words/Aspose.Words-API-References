@@ -1,7 +1,7 @@
 ---
 title: OutlineLevel
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the outline level of a paragraph in the document.
 type: docs
 weight: 430
 url: /java/com.aspose.words/outlinelevel/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OutlineLevel
 ```
 
-A utility class providing constants. Specifies the outline level of a paragraph in the document.
+Specifies the outline level of a paragraph in the document.
 ## Fields
 
 | Field | Description |

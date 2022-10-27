@@ -1,7 +1,7 @@
 ---
 title: ShapeMarkupLanguage
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies Markup language used for the shape.
 type: docs
 weight: 519
 url: /java/com.aspose.words/shapemarkuplanguage/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShapeMarkupLanguage
 ```
 
-A utility class providing constants. Specifies Markup language used for the shape.
+Specifies Markup language used for the shape.
 ## Fields
 
 | Field | Description |

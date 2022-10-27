@@ -1,7 +1,7 @@
 ---
 title: PropertyType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies data type of a document property.
 type: docs
 weight: 469
 url: /java/com.aspose.words/propertytype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PropertyType
 ```
 
-A utility class providing constants. Specifies data type of a document property.
+Specifies data type of a document property.
 ## Fields
 
 | Field | Description |

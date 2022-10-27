@@ -1,7 +1,7 @@
 ---
 title: StyleType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents type of the style.
 type: docs
 weight: 539
 url: /java/com.aspose.words/styletype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StyleType
 ```
 
-A utility class providing constants. Represents type of the style.
+Represents type of the style.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalPosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies to what the vertical position of a shape or text frame is relative.
 type: docs
 weight: 474
 url: /java/com.aspose.words/relativeverticalposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class RelativeVerticalPosition
 ```
 
-A utility class providing constants. Specifies to what the vertical position of a shape or text frame is relative.
+Specifies to what the vertical position of a shape or text frame is relative.
 ## Fields
 
 | Field | Description |

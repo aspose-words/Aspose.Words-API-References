@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFontFormat
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies format of particular embedded font inside  object.
 type: docs
 weight: 141
 url: /java/com.aspose.words/embeddedfontformat/
@@ -12,8 +12,6 @@ java.lang.Object
 ```
 public class EmbeddedFontFormat
 ```
-
-A utility class providing constants.
 
 Specifies format of particular embedded font inside [FontInfo](../../com.aspose.words/fontinfo) object.
 

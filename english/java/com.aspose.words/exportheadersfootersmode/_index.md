@@ -1,7 +1,7 @@
 ---
 title: ExportHeadersFootersMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how headers and footers are exported to HTML MHTML or EPUB.
 type: docs
 weight: 149
 url: /java/com.aspose.words/exportheadersfootersmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ExportHeadersFootersMode
 ```
 
-A utility class providing constants. Specifies how headers and footers are exported to HTML, MHTML or EPUB.
+Specifies how headers and footers are exported to HTML, MHTML or EPUB.
 ## Fields
 
 | Field | Description |

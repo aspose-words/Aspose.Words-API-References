@@ -1,7 +1,7 @@
 ---
 title: LayoutEntityType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Types of the layout entities.
 type: docs
 weight: 359
 url: /java/com.aspose.words/layoutentitytype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LayoutEntityType
 ```
 
-A utility class providing constants. Types of the layout entities.
+Types of the layout entities.
 ## Fields
 
 | Field | Description |

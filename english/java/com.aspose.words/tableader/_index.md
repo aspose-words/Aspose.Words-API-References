@@ -1,7 +1,7 @@
 ---
 title: TabLeader
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of the leader line displayed under the tab character.
 type: docs
 weight: 545
 url: /java/com.aspose.words/tableader/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TabLeader
 ```
 
-A utility class providing constants. Specifies the type of the leader line displayed under the tab character.
+Specifies the type of the leader line displayed under the tab character.
 ## Fields
 
 | Field | Description |

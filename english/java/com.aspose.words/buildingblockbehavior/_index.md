@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockBehavior
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 type: docs
 weight: 42
 url: /java/com.aspose.words/buildingblockbehavior/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BuildingBlockBehavior
 ```
 
-A utility class providing constants. Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
+Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 
 Corresponds to the **ST\_DocPartBehavior** type in OOXML.
 ## Fields

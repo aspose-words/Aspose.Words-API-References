@@ -1,7 +1,7 @@
 ---
 title: EditorType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the set of possible aliases or editing groups which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
 type: docs
 weight: 140
 url: /java/com.aspose.words/editortype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EditorType
 ```
 
-A utility class providing constants. Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
+Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document.
 ## Fields
 
 | Field | Description |

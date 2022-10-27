@@ -1,7 +1,7 @@
 ---
 title: HeightRule
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the rule for determining the height of an object.
 type: docs
 weight: 319
 url: /java/com.aspose.words/heightrule/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HeightRule
 ```
 
-A utility class providing constants. Specifies the rule for determining the height of an object.
+Specifies the rule for determining the height of an object.
 ## Fields
 
 | Field | Description |

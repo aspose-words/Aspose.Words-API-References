@@ -1,7 +1,7 @@
 ---
 title: ImageBinarizationMethod
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the method used to binarize image.
 type: docs
 weight: 335
 url: /java/com.aspose.words/imagebinarizationmethod/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImageBinarizationMethod
 ```
 
-A utility class providing constants. Specifies the method used to binarize image.
+Specifies the method used to binarize image.
 ## Fields
 
 | Field | Description |

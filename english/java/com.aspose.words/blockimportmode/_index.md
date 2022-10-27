@@ -1,7 +1,7 @@
 ---
 title: BlockImportMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how properties of block-level elements are imported from HTML-based documents.
 type: docs
 weight: 29
 url: /java/com.aspose.words/blockimportmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class BlockImportMode
 ```
 
-A utility class providing constants. Specifies how properties of block-level elements are imported from HTML-based documents.
+Specifies how properties of block-level elements are imported from HTML-based documents.
 ## Fields
 
 | Field | Description |

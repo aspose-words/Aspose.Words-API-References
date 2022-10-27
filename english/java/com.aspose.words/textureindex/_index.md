@@ -1,7 +1,7 @@
 ---
 title: TextureIndex
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies shading texture.
 type: docs
 weight: 572
 url: /java/com.aspose.words/textureindex/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextureIndex
 ```
 
-A utility class providing constants. Specifies shading texture.
+Specifies shading texture.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: ResourceType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Type of loaded resource.
 type: docs
 weight: 482
 url: /java/com.aspose.words/resourcetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ResourceType
 ```
 
-A utility class providing constants. Type of loaded resource.
+Type of loaded resource.
 ## Fields
 
 | Field | Description |

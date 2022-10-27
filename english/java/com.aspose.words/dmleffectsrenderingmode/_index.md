@@ -1,7 +1,7 @@
 ---
 title: DmlEffectsRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how DrawingML effects are rendered to fixed page formats.
 type: docs
 weight: 117
 url: /java/com.aspose.words/dmleffectsrenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DmlEffectsRenderingMode
 ```
 
-A utility class providing constants. Specifies how DrawingML effects are rendered to fixed page formats.
+Specifies how DrawingML effects are rendered to fixed page formats.
 ## Fields
 
 | Field | Description |

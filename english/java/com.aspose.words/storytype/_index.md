@@ -1,7 +1,7 @@
 ---
 title: StoryType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Text of a Word document is stored in stories.
 type: docs
 weight: 529
 url: /java/com.aspose.words/storytype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class StoryType
 ```
 
-A utility class providing constants. Text of a Word document is stored in stories. **StoryType** identifies a story.
+Text of a Word document is stored in stories. **StoryType** identifies a story.
 ## Fields
 
 | Field | Description |

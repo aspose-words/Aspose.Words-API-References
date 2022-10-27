@@ -1,7 +1,7 @@
 ---
 title: DashStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Dashed line style.
 type: docs
 weight: 109
 url: /java/com.aspose.words/dashstyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DashStyle
 ```
 
-A utility class providing constants. Dashed line style.
+Dashed line style.
 ## Fields
 
 | Field | Description |

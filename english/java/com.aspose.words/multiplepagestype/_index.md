@@ -1,7 +1,7 @@
 ---
 title: MultiplePagesType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how document is printed out.
 type: docs
 weight: 400
 url: /java/com.aspose.words/multiplepagestype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MultiplePagesType
 ```
 
-A utility class providing constants. Specifies how document is printed out.
+Specifies how document is printed out.
 ## Fields
 
 | Field | Description |

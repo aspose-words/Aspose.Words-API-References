@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how bookmarks in headers/footers are exported.
 type: docs
 weight: 316
 url: /java/com.aspose.words/headerfooterbookmarksexportmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HeaderFooterBookmarksExportMode
 ```
 
-A utility class providing constants. Specifies how bookmarks in headers/footers are exported.
+Specifies how bookmarks in headers/footers are exported.
 ## Fields
 
 | Field | Description |

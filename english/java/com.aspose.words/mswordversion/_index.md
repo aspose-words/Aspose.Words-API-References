@@ -1,7 +1,7 @@
 ---
 title: MsWordVersion
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 type: docs
 weight: 399
 url: /java/com.aspose.words/mswordversion/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MsWordVersion
 ```
 
-A utility class providing constants. Allows Aspose.Wods to mimic MS Word version-specific application behavior.
+Allows Aspose.Wods to mimic MS Word version-specific application behavior.
 ## Fields
 
 | Field | Description |

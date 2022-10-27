@@ -1,7 +1,7 @@
 ---
 title: DmlRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how DrawingML shapes are rendered to fixed page formats.
 type: docs
 weight: 118
 url: /java/com.aspose.words/dmlrenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DmlRenderingMode
 ```
 
-A utility class providing constants. Specifies how DrawingML shapes are rendered to fixed page formats.
+Specifies how DrawingML shapes are rendered to fixed page formats.
 ## Fields
 
 | Field | Description |

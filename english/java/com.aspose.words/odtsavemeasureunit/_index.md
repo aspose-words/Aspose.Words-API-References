@@ -1,7 +1,7 @@
 ---
 title: OdtSaveMeasureUnit
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs
 weight: 418
 url: /java/com.aspose.words/odtsavemeasureunit/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OdtSaveMeasureUnit
 ```
 
-A utility class providing constants. Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
+Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
 ## Fields
 
 | Field | Description |

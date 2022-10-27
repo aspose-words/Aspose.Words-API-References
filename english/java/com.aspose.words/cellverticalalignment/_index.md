@@ -1,7 +1,7 @@
 ---
 title: CellVerticalAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies vertical justification of text inside a table cell.
 type: docs
 weight: 52
 url: /java/com.aspose.words/cellverticalalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CellVerticalAlignment
 ```
 
-A utility class providing constants. Specifies vertical justification of text inside a table cell.
+Specifies vertical justification of text inside a table cell.
 ## Fields
 
 | Field | Description |

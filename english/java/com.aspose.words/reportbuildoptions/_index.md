@@ -1,7 +1,7 @@
 ---
 title: ReportBuildOptions
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies options controlling behavior of  while building a report.
 type: docs
 weight: 477
 url: /java/com.aspose.words/reportbuildoptions/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ReportBuildOptions
 ```
 
-A utility class providing constants. Specifies options controlling behavior of [ReportingEngine](../../com.aspose.words/reportingengine) while building a report.
+Specifies options controlling behavior of [ReportingEngine](../../com.aspose.words/reportingengine) while building a report.
 ## Fields
 
 | Field | Description |

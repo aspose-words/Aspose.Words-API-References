@@ -1,7 +1,7 @@
 ---
 title: AxisScaleType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible scale types for an axis.
 type: docs
 weight: 21
 url: /java/com.aspose.words/axisscaletype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisScaleType
 ```
 
-A utility class providing constants. Specifies the possible scale types for an axis.
+Specifies the possible scale types for an axis.
 ## Fields
 
 | Field | Description |

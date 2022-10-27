@@ -1,7 +1,7 @@
 ---
 title: WebExtensionStoreType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Enumerates available types of a web extension store.
 type: docs
 weight: 619
 url: /java/com.aspose.words/webextensionstoretype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WebExtensionStoreType
 ```
 
-A utility class providing constants. Enumerates available types of a web extension store.
+Enumerates available types of a web extension store.
 ## Fields
 
 | Field | Description |

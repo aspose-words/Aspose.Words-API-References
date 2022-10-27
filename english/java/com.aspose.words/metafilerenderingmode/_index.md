@@ -1,7 +1,7 @@
 ---
 title: MetafileRenderingMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Aspose.Words should render WMF and EMF metafiles.
 type: docs
 weight: 396
 url: /java/com.aspose.words/metafilerenderingmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MetafileRenderingMode
 ```
 
-A utility class providing constants. Specifies how Aspose.Words should render WMF and EMF metafiles.
+Specifies how Aspose.Words should render WMF and EMF metafiles.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: DocumentSecurity
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Used as a value for the  /  property.
 type: docs
 weight: 130
 url: /java/com.aspose.words/documentsecurity/
@@ -13,7 +13,7 @@ java.lang.Object
 public class DocumentSecurity
 ```
 
-A utility class providing constants. Used as a value for the [BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-) property. Specifies the security level of a document as a numeric value.
+Used as a value for the [BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-) property. Specifies the security level of a document as a numeric value.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: PresetTexture
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies texture to be used to fill a shape.
 type: docs
 weight: 468
 url: /java/com.aspose.words/presettexture/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PresetTexture
 ```
 
-A utility class providing constants. Specifies texture to be used to fill a shape.
+Specifies texture to be used to fill a shape.
 ## Fields
 
 | Field | Description |

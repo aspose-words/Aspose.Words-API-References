@@ -1,7 +1,7 @@
 ---
 title: VisitorAction
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Allows the visitor to control the enumeration of nodes.
 type: docs
 weight: 603
 url: /java/com.aspose.words/visitoraction/
@@ -13,7 +13,7 @@ java.lang.Object
 public class VisitorAction
 ```
 
-A utility class providing constants. Allows the visitor to control the enumeration of nodes.
+Allows the visitor to control the enumeration of nodes.
 ## Fields
 
 | Field | Description |

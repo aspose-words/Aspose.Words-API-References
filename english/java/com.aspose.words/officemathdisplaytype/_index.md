@@ -1,7 +1,7 @@
 ---
 title: OfficeMathDisplayType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the display format type of the equation.
 type: docs
 weight: 421
 url: /java/com.aspose.words/officemathdisplaytype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class OfficeMathDisplayType
 ```
 
-A utility class providing constants. Specifies the display format type of the equation.
+Specifies the display format type of the equation.
 ## Fields
 
 | Field | Description |

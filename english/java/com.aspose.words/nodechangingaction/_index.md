@@ -1,7 +1,7 @@
 ---
 title: NodeChangingAction
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of node change.
 type: docs
 weight: 402
 url: /java/com.aspose.words/nodechangingaction/
@@ -13,7 +13,7 @@ java.lang.Object
 public class NodeChangingAction
 ```
 
-A utility class providing constants. Specifies the type of node change.
+Specifies the type of node change.
 ## Fields
 
 | Field | Description |

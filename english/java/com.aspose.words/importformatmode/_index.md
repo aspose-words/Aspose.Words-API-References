@@ -1,7 +1,7 @@
 ---
 title: ImportFormatMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how formatting is merged when importing content from another document.
 type: docs
 weight: 346
 url: /java/com.aspose.words/importformatmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImportFormatMode
 ```
 
-A utility class providing constants. Specifies how formatting is merged when importing content from another document.
+Specifies how formatting is merged when importing content from another document.
 
 When you copy nodes from one document to another, this option specifies how formatting is resolved when both documents have a style with the same name, but different formatting.
 

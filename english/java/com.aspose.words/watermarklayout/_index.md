@@ -1,7 +1,7 @@
 ---
 title: WatermarkLayout
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Defines layout of the watermark relative to the watermark center.
 type: docs
 weight: 609
 url: /java/com.aspose.words/watermarklayout/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WatermarkLayout
 ```
 
-A utility class providing constants. Defines layout of the watermark relative to the watermark center.
+Defines layout of the watermark relative to the watermark center.
 ## Fields
 
 | Field | Description |

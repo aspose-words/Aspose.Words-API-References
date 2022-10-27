@@ -1,7 +1,7 @@
 ---
 title: WrapType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how text is wrapped around a shape or picture.
 type: docs
 weight: 622
 url: /java/com.aspose.words/wraptype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class WrapType
 ```
 
-A utility class providing constants. Specifies how text is wrapped around a shape or picture.
+Specifies how text is wrapped around a shape or picture.
 ## Fields
 
 | Field | Description |

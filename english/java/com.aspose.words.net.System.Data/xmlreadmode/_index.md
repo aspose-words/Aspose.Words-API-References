@@ -1,7 +1,7 @@
 ---
 title: XmlReadMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how to read XML data and a relational schema into a .
 type: docs
 weight: 37
 url: /java/com.aspose.words.net.system.data/xmlreadmode/
@@ -13,7 +13,7 @@ java.lang.Object, java.lang.Enum
 public enum XmlReadMode extends Enum<System.Data.XmlReadMode>
 ```
 
-A utility class providing constants. Specifies how to read XML data and a relational schema into a [DataSet](../../com.aspose.words.net.system.data/dataset).
+Specifies how to read XML data and a relational schema into a [DataSet](../../com.aspose.words.net.system.data/dataset).
 ## Fields
 
 | Field | Description |

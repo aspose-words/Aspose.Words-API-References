@@ -1,7 +1,7 @@
 ---
 title: ListLevelAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies alignment for the list number or bullet.
 type: docs
 weight: 373
 url: /java/com.aspose.words/listlevelalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ListLevelAlignment
 ```
 
-A utility class providing constants. Specifies alignment for the list number or bullet.
+Specifies alignment for the list number or bullet.
 
 Used as a value for the [ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-) property.
 ## Fields

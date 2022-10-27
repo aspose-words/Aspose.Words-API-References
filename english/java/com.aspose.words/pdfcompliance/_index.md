@@ -1,7 +1,7 @@
 ---
 title: PdfCompliance
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the PDF standards compliance level.
 type: docs
 weight: 449
 url: /java/com.aspose.words/pdfcompliance/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PdfCompliance
 ```
 
-A utility class providing constants. Specifies the PDF standards compliance level.
+Specifies the PDF standards compliance level.
 ## Fields
 
 | Field | Description |

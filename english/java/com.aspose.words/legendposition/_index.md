@@ -1,7 +1,7 @@
 ---
 title: LegendPosition
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible positions for a chart legend.
 type: docs
 weight: 363
 url: /java/com.aspose.words/legendposition/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LegendPosition
 ```
 
-A utility class providing constants. Specifies the possible positions for a chart legend.
+Specifies the possible positions for a chart legend.
 ## Fields
 
 | Field | Description |

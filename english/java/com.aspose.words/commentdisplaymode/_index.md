@@ -1,7 +1,7 @@
 ---
 title: CommentDisplayMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the rendering mode for document comments.
 type: docs
 weight: 78
 url: /java/com.aspose.words/commentdisplaymode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class CommentDisplayMode
 ```
 
-A utility class providing constants. Specifies the rendering mode for document comments.
+Specifies the rendering mode for document comments.
 ## Fields
 
 | Field | Description |

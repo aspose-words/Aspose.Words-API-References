@@ -1,7 +1,7 @@
 ---
 title: HtmlElementSizeOutputMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how Aspose.Words exports element widths and heights to HTML MHTML and EPUB.
 type: docs
 weight: 324
 url: /java/com.aspose.words/htmlelementsizeoutputmode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlElementSizeOutputMode
 ```
 
-A utility class providing constants. Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB.
+Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB.
 ## Fields
 
 | Field | Description |

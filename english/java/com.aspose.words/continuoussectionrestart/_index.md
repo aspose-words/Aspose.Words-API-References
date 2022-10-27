@@ -1,7 +1,7 @@
 ---
 title: ContinuousSectionRestart
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 type: docs
 weight: 93
 url: /java/com.aspose.words/continuoussectionrestart/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ContinuousSectionRestart
 ```
 
-A utility class providing constants. Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
+Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 ## Fields
 
 | Field | Description |

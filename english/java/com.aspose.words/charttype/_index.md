@@ -1,7 +1,7 @@
 ---
 title: ChartType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies type of a chart.
 type: docs
 weight: 71
 url: /java/com.aspose.words/charttype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ChartType
 ```
 
-A utility class providing constants. Specifies type of a chart.
+Specifies type of a chart.
 ## Fields
 
 | Field | Description |

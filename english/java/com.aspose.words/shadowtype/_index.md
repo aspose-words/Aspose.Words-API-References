@@ -1,7 +1,7 @@
 ---
 title: ShadowType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a shape shadow.
 type: docs
 weight: 515
 url: /java/com.aspose.words/shadowtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ShadowType
 ```
 
-A utility class providing constants. Specifies the type of a shape shadow. ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
+Specifies the type of a shape shadow. ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
 ## Fields
 
 | Field | Description |

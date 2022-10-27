@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingAction
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the mode of resource loading.
 type: docs
 weight: 479
 url: /java/com.aspose.words/resourceloadingaction/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ResourceLoadingAction
 ```
 
-A utility class providing constants. Specifies the mode of resource loading.
+Specifies the mode of resource loading.
 
 To learn more, visit the **Specify Load Options** documentation article.
 ## Fields

@@ -1,7 +1,7 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies how text is wrapped around the table.
 type: docs
 weight: 570
 url: /java/com.aspose.words/textwrapping/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextWrapping
 ```
 
-A utility class providing constants. Specifies how text is wrapped around the table.
+Specifies how text is wrapped around the table.
 ## Fields
 
 | Field | Description |

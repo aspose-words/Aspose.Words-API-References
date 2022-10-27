@@ -1,7 +1,7 @@
 ---
 title: MailMergeMainDocumentType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the possible types for a mail merge source document.
 type: docs
 weight: 384
 url: /java/com.aspose.words/mailmergemaindocumenttype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class MailMergeMainDocumentType
 ```
 
-A utility class providing constants. Specifies the possible types for a mail merge source document.
+Specifies the possible types for a mail merge source document.
 ## Fields
 
 | Field | Description |

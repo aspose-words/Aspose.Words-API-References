@@ -1,7 +1,7 @@
 ---
 title: ChartAxisType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies type of chart axis.
 type: docs
 weight: 57
 url: /java/com.aspose.words/chartaxistype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ChartAxisType
 ```
 
-A utility class providing constants. Specifies type of chart axis.
+Specifies type of chart axis.
 ## Fields
 
 | Field | Description |

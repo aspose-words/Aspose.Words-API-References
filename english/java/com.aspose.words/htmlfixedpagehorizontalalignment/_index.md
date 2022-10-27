@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the horizontal alignment for pages in output HTML document.
 type: docs
 weight: 325
 url: /java/com.aspose.words/htmlfixedpagehorizontalalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class HtmlFixedPageHorizontalAlignment
 ```
 
-A utility class providing constants. Specifies the horizontal alignment for pages in output HTML document.
+Specifies the horizontal alignment for pages in output HTML document.
 ## Fields
 
 | Field | Description |

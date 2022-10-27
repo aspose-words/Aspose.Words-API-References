@@ -1,7 +1,7 @@
 ---
 title: PreferredWidthType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the unit of measurement for the preferred width of a table or cell.
 type: docs
 weight: 467
 url: /java/com.aspose.words/preferredwidthtype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PreferredWidthType
 ```
 
-A utility class providing constants. Specifies the unit of measurement for the preferred width of a table or cell.
+Specifies the unit of measurement for the preferred width of a table or cell.
 ## Fields
 
 | Field | Description |

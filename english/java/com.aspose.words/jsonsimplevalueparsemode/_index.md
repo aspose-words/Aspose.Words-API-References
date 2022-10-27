@@ -1,7 +1,7 @@
 ---
 title: JsonSimpleValueParseMode
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON.
 type: docs
 weight: 355
 url: /java/com.aspose.words/jsonsimplevalueparsemode/
@@ -13,7 +13,7 @@ java.lang.Object
 public class JsonSimpleValueParseMode
 ```
 
-A utility class providing constants. Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values.
+Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values.
 ## Fields
 
 | Field | Description |

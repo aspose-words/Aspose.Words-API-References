@@ -1,7 +1,7 @@
 ---
 title: ListTrailingCharacter
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the character that separates the list label from the text of the paragraph.
 type: docs
 weight: 376
 url: /java/com.aspose.words/listtrailingcharacter/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ListTrailingCharacter
 ```
 
-A utility class providing constants. Specifies the character that separates the list label from the text of the paragraph.
+Specifies the character that separates the list label from the text of the paragraph.
 
 Used as a value for the [ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-) property.
 ## Fields

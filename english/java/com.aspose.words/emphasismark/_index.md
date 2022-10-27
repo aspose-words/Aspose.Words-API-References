@@ -1,7 +1,7 @@
 ---
 title: EmphasisMark
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies possible types of emphasis mark.
 type: docs
 weight: 144
 url: /java/com.aspose.words/emphasismark/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EmphasisMark
 ```
 
-A utility class providing constants. Specifies possible types of emphasis mark.
+Specifies possible types of emphasis mark.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: PageBorderAppliesTo
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies which pages the page border is printed on.
 type: docs
 weight: 432
 url: /java/com.aspose.words/pageborderappliesto/
@@ -13,7 +13,7 @@ java.lang.Object
 public class PageBorderAppliesTo
 ```
 
-A utility class providing constants. Specifies which pages the page border is printed on.
+Specifies which pages the page border is printed on.
 ## Fields
 
 | Field | Description |

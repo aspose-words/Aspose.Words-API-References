@@ -1,7 +1,7 @@
 ---
 title: TextPathAlignment
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: WordArt alignment.
 type: docs
 weight: 568
 url: /java/com.aspose.words/textpathalignment/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextPathAlignment
 ```
 
-A utility class providing constants. WordArt alignment.
+WordArt alignment.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: TaskPaneDockState
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Enumerates available locations of task pane object.
 type: docs
 weight: 557
 url: /java/com.aspose.words/taskpanedockstate/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TaskPaneDockState
 ```
 
-A utility class providing constants. Enumerates available locations of task pane object.
+Enumerates available locations of task pane object.
 ## Fields
 
 | Field | Description |

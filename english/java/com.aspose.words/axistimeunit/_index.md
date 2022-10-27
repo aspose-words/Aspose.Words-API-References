@@ -1,7 +1,7 @@
 ---
 title: AxisTimeUnit
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the unit of time for axes.
 type: docs
 weight: 25
 url: /java/com.aspose.words/axistimeunit/
@@ -13,7 +13,7 @@ java.lang.Object
 public class AxisTimeUnit
 ```
 
-A utility class providing constants. Specifies the unit of time for axes.
+Specifies the unit of time for axes.
 ## Fields
 
 | Field | Description |

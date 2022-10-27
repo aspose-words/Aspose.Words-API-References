@@ -1,7 +1,7 @@
 ---
 title: TiffCompression
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs
 weight: 579
 url: /java/com.aspose.words/tiffcompression/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TiffCompression
 ```
 
-A utility class providing constants. Specifies what type of compression to apply when saving page images into a TIFF file.
+Specifies what type of compression to apply when saving page images into a TIFF file.
 ## Fields
 
 | Field | Description |

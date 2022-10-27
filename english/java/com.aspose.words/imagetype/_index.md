@@ -1,7 +1,7 @@
 ---
 title: ImageType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type format of an image in a Microsoft Word document.
 type: docs
 weight: 343
 url: /java/com.aspose.words/imagetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class ImageType
 ```
 
-A utility class providing constants. Specifies the type (format) of an image in a Microsoft Word document.
+Specifies the type (format) of an image in a Microsoft Word document.
 ## Fields
 
 | Field | Description |

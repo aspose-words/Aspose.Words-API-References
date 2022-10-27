@@ -1,7 +1,7 @@
 ---
 title: FontSourceType
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the type of a font source.
 type: docs
 weight: 288
 url: /java/com.aspose.words/fontsourcetype/
@@ -13,7 +13,7 @@ java.lang.Object
 public class FontSourceType
 ```
 
-A utility class providing constants. Specifies the type of a font source.
+Specifies the type of a font source.
 ## Fields
 
 | Field | Description |

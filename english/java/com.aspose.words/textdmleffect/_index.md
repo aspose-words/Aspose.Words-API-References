@@ -1,7 +1,7 @@
 ---
 title: TextDmlEffect
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Dml text effect for text runs.
 type: docs
 weight: 563
 url: /java/com.aspose.words/textdmleffect/
@@ -13,7 +13,7 @@ java.lang.Object
 public class TextDmlEffect
 ```
 
-A utility class providing constants. Dml text effect for text runs.
+Dml text effect for text runs.
 ## Fields
 
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: LineStyle
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies line style of a .
 type: docs
 weight: 367
 url: /java/com.aspose.words/linestyle/
@@ -13,7 +13,7 @@ java.lang.Object
 public class LineStyle
 ```
 
-A utility class providing constants. Specifies line style of a [Border](../../com.aspose.words/border).
+Specifies line style of a [Border](../../com.aspose.words/border).
 ## Fields
 
 | Field | Description |

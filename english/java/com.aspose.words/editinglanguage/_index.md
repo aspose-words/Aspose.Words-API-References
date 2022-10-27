@@ -1,7 +1,7 @@
 ---
 title: EditingLanguage
 second_title: Aspose.Words for Java API Reference
-description: A utility class providing constants.
+description: Specifies the editing language.
 type: docs
 weight: 139
 url: /java/com.aspose.words/editinglanguage/
@@ -13,7 +13,7 @@ java.lang.Object
 public class EditingLanguage
 ```
 
-A utility class providing constants. Specifies the editing language.
+Specifies the editing language.
 ## Fields
 
 | Field | Description |
