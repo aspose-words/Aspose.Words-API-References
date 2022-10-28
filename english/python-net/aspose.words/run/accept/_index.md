@@ -21,7 +21,7 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../documentvisitor/) |  |
 
-Calls DocumentVisitor.VisitRun.
+Calls [DocumentVisitor.visit_run()](../../documentvisitor/visit_run/#run).
 
 For more info see the Visitor design pattern.
 
@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-False if the visitor requested the enumeration to stop.
+``False`` if the visitor requested the enumeration to stop.
 
 
 ### Examples

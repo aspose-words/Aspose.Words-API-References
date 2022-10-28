@@ -1,7 +1,7 @@
 ﻿---
 title: MappedDataFieldCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to automatically map between names of fields in your data source and names of mail merge fields in the document."
+description: "Allows to automatically map between names of fields in your data source and names of mail merge fields in the document"
 type: docs
 weight: 110
 url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/
@@ -11,6 +11,9 @@ url: /python-net/aspose.words.mailmerging/mappeddatafieldcollection/
 
 Allows to automatically map between names of fields in your data source
 and names of mail merge fields in the document.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
+
 
 
 This is implemented as a collection of string keys into string values.

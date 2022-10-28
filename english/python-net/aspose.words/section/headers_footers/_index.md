@@ -50,7 +50,7 @@ Shows how to replace text in a document's footer.
 doc = aw.Document(MY_DIR + "Footer.docx")
 
 headers_footers = doc.first_section.headers_footers
-footer = headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY]
+footer = headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
 
 options = aw.replacing.FindReplaceOptions()
 options.match_case = False

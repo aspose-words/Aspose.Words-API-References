@@ -3,13 +3,16 @@ title: MergeFieldImageDimension class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents an image dimension (i.e"
 type: docs
-weight: 1260
+weight: 1280
 url: /python-net/aspose.words.fields/mergefieldimagedimension/
 ---
 
 ## MergeFieldImageDimension class
 
 Represents an image dimension (i.e. the width or the height) used across a mail merge process.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 To indicate that the image should be inserted with its original dimension during a mail merge,

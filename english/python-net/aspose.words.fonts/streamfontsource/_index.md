@@ -1,7 +1,7 @@
 ﻿---
 title: StreamFontSource class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for user-defined stream font source."
+description: "Base class for user-defined stream font source"
 type: docs
 weight: 210
 url: /python-net/aspose.words.fonts/streamfontsource/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/streamfontsource/
 ## StreamFontSource class
 
 Base class for user-defined stream font source.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 In order to use the stream font source you should create a derived class from the [StreamFontSource](./)

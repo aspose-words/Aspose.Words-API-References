@@ -3,7 +3,7 @@ title: file_name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the file name of the document."
 type: docs
-weight: 120
+weight: 130
 url: /python-net/aspose.words.fields/fieldoptions/file_name/
 ---
 

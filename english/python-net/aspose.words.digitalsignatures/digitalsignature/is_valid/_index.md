@@ -1,7 +1,7 @@
 ﻿---
 title: is_valid property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this digital signature is valid and the document has not been tampered with."
+description: "Returns ``True`` if this digital signature is valid and the document has not been tampered with."
 type: docs
 weight: 30
 url: /python-net/aspose.words.digitalsignatures/digitalsignature/is_valid/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignature/is_valid/
 
 ## DigitalSignature.is_valid property
 
-Returns true if this digital signature is valid and the document has not been tampered with.
+Returns ``True`` if this digital signature is valid and the document has not been tampered with.
+
 
 
 ### Examples

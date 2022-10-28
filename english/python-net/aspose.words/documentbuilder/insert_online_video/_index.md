@@ -3,7 +3,7 @@ title: insert_online_video method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.insert_online_video method"
 type: docs
-weight: 390
+weight: 410
 url: /python-net/aspose.words/documentbuilder/insert_online_video/
 ---
 

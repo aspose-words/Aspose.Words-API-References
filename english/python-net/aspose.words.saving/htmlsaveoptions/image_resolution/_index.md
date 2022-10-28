@@ -3,7 +3,7 @@ title: image_resolution property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the output resolution for images when exporting to HTML, MHTML or EPUB"
 type: docs
-weight: 360
+weight: 350
 url: /python-net/aspose.words.saving/htmlsaveoptions/image_resolution/
 ---
 
@@ -14,7 +14,7 @@ Default is ``96 dpi``.
 
 
 This property effects raster images when [HtmlSaveOptions.scale_image_to_shape_size](../scale_image_to_shape_size/) 
-is ``true`` and effects metafiles exported as raster images. Some image properties such as cropping
+is ``True`` and effects metafiles exported as raster images. Some image properties such as cropping
 or rotation require saving transformed images and in this case transformed images are created in the given
 resolution.
 

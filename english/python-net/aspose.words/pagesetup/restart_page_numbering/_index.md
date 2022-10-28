@@ -9,10 +9,9 @@ url: /python-net/aspose.words/pagesetup/restart_page_numbering/
 
 ## PageSetup.restart_page_numbering property
 
-**True** if page numbering restarts at the beginning of the section.
+True if page numbering restarts at the beginning of the section.
 
-
-If set to **false**, the **RestartPageNumbering** property will override the
+If set to ``False``, the [PageSetup.restart_page_numbering](./) property will override the
 [PageSetup.page_starting_number](../page_starting_number/) property so that page numbering can continue from the previous section.
 
 

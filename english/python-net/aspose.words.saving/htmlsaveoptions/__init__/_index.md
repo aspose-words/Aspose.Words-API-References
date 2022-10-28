@@ -22,8 +22,8 @@ def __init__(self):
 ## HtmlSaveOptions(save_format) {#saveformat}
 
 Initializes a new instance of this class that can be used to save a document
-in the [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML)
-or [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) format.
+in the [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML),
+[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: ancestor property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the parent Comment object"
+description: "Returns the parent [Comment](../) object"
 type: docs
 weight: 20
 url: /python-net/aspose.words/comment/ancestor/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/comment/ancestor/
 
 ## Comment.ancestor property
 
-Returns the parent Comment object. Returns null for top-level comments.
+Returns the parent [Comment](../) object. Returns ``None`` for top-level comments.
+
 
 
 ### Examples

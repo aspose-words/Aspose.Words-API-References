@@ -10,9 +10,9 @@ url: /python-net/aspose.words.saving/svgsaveoptions/fit_to_view_port/
 ## SvgSaveOptions.fit_to_view_port property
 
 Specifies if the output SVG should fill the available viewport area (browser window or container).
-When set to true width and height of output SVG are set to 100%.
+When set to ``True`` width and height of output SVG are set to 100%.
 
-The default value is false.
+The default value is ``False``.
 
 
 

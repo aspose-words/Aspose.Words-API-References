@@ -23,7 +23,7 @@ def has_dml_effect(self, dml_effect_type: aspose.words.TextDmlEffect):
 
 ### Returns
 
-True if particular DrawingML text effect is applied.
+``True`` if particular DrawingML text effect is applied.
 
 
 ### Examples

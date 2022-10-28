@@ -1,7 +1,7 @@
 ﻿---
 title: ListLabel class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines properties specific to a list label."
+description: "Defines properties specific to a list label"
 type: docs
 weight: 40
 url: /python-net/aspose.words.lists/listlabel/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.lists/listlabel/
 ## ListLabel class
 
 Defines properties specific to a list label.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
+
 
 
 ### Properties

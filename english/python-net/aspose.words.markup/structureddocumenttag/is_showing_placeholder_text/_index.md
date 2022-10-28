@@ -10,10 +10,11 @@ url: /python-net/aspose.words.markup/structureddocumenttag/is_showing_placeholde
 ## StructuredDocumentTag.is_showing_placeholder_text property
 
 Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text
-(as opposed to regular text contents within the SDT). 
+(as opposed to regular text contents within the SDT).
 
 
-if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+if set to ``True``, this state shall be resumed (showing placeholder text) upon opening this document.
+
 
 
 

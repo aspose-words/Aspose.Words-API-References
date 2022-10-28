@@ -1,7 +1,7 @@
 ﻿---
 title: ensure_minimum method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "If the table has no rows, creates and appends one Row."
+description: "If the table has no rows, creates and appends one [Row](../../row/)."
 type: docs
 weight: 400
 url: /python-net/aspose.words.tables/table/ensure_minimum/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/table/ensure_minimum/
 
 ## ensure_minimum() {#default}
 
-If the table has no rows, creates and appends one **Row**.
+If the table has no rows, creates and appends one [Row](../../row/).
 
 
 

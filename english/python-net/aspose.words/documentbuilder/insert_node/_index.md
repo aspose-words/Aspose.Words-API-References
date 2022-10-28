@@ -1,15 +1,15 @@
 ﻿---
 title: insert_node method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Inserts a text level node inside the current paragraph before the cursor."
+description: "Inserts a node before the cursor."
 type: docs
-weight: 360
+weight: 380
 url: /python-net/aspose.words/documentbuilder/insert_node/
 ---
 
 ## insert_node(node) {#node}
 
-Inserts a text level node inside the current paragraph before the cursor.
+Inserts a node before the cursor.
 
 
 ```python

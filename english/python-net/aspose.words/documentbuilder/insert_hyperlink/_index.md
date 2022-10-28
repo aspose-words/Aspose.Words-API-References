@@ -3,7 +3,7 @@ title: insert_hyperlink method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a hyperlink into the document."
 type: docs
-weight: 340
+weight: 360
 url: /python-net/aspose.words/documentbuilder/insert_hyperlink/
 ---
 

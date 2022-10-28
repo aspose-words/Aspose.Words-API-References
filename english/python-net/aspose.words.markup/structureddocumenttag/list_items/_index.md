@@ -9,7 +9,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/list_items/
 
 ## StructuredDocumentTag.list_items property
 
-Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this **SDT**. 
+Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this **SDT**.
 
 
 Accessing this property will only work for [SdtType.COMBO_BOX](../../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../../sdttype/#DROP_DOWN_LIST)

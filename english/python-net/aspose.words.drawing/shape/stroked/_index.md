@@ -13,7 +13,7 @@ Defines whether the path will be stroked.
 
 This is a shortcut to the [Stroke.on](../../stroke/on/) property.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

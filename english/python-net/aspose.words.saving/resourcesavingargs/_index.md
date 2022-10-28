@@ -1,7 +1,7 @@
 ﻿---
 title: ResourceSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event."
+description: "Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event"
 type: docs
 weight: 690
 url: /python-net/aspose.words.saving/resourcesavingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/resourcesavingargs/
 ## ResourceSavingArgs class
 
 Provides data for the [IResourceSavingCallback.resource_saving()](../iresourcesavingcallback/resource_saving/#resourcesavingargs) event.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 
 
 

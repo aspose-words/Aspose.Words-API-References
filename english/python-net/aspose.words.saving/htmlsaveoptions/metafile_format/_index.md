@@ -3,7 +3,7 @@ title: metafile_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB"
 type: docs
-weight: 400
+weight: 390
 url: /python-net/aspose.words.saving/htmlsaveoptions/metafile_format/
 ---
 

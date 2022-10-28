@@ -1,7 +1,7 @@
 ﻿---
 title: OleFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the data of an OLE object or ActiveX control."
+description: "Provides access to the data of an OLE object or ActiveX control"
 type: docs
 weight: 220
 url: /python-net/aspose.words.drawing/oleformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/oleformat/
 ## OleFormat class
 
 Provides access to the data of an OLE object or ActiveX control.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
+
 
 
 Use the [Shape.ole_format](../shape/ole_format/) property to access the data of an OLE object.
@@ -25,11 +28,11 @@ You do not create instances of the [OleFormat](./) class directly.
 | [auto_update](./auto_update/) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [clsid](./clsid/) | Gets the CLSID of the OLE object. |
 | [icon_caption](./icon_caption/) | Gets icon caption of OLE object. In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string. |
-| [is_link](./is_link/) | Returns true if the OLE object is linked (when [OleFormat.source_full_name](./source_full_name/) is specified). |
+| [is_link](./is_link/) | Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](./source_full_name/) is specified). |
 | [is_locked](./is_locked/) | Specifies whether the link to the OLE object is locked from updates. |
-| [ole_control](./ole_control/) | Gets [OleFormat.ole_control](./ole_control/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
-| [ole_icon](./ole_icon/) | Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon.  When **false**, the OLE object is displayed as content. |
-| [ole_package](./ole_package/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package.  Returns null otherwise. |
+| [ole_control](./ole_control/) | Gets [OleFormat.ole_control](./ole_control/) objects if this OLE object is an ActiveX control. Otherwise this property is ``None``. |
+| [ole_icon](./ole_icon/) | Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon.  When ``False``, the OLE object is displayed as content. |
+| [ole_package](./ole_package/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package.  Returns ``None`` otherwise. |
 | [prog_id](./prog_id/) | Gets or sets the ProgID of the OLE object. |
 | [source_full_name](./source_full_name/) | Gets or sets the path and name of the source file for the linked OLE object. |
 | [source_item](./source_item/) | Gets or sets a string that is used to identify the portion of the source file that is being linked. |
@@ -40,6 +43,7 @@ You do not create instances of the [OleFormat](./) class directly.
 
 | Name | Description |
 | --- | --- |
+|[ get_ole_entry(ole_entry_name)](./get_ole_entry/#str) | Gets OLE object data entry. |
 |[ get_raw_data()](./get_raw_data/#default) | Gets OLE object raw data. |
 |[ save(stream)](./save/#bytesio) | Saves the data of the embedded object into the specified stream. |
 |[ save(file_name)](./save/#str) | Saves the data of the embedded object into a file with the specified name. |

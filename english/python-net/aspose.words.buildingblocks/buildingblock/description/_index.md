@@ -13,7 +13,7 @@ Gets or sets the description associated with this building block.
 
 The description may contain any string content, usually additional information.
 
-Cannot be ``null``, but can be an empty string.
+Cannot be ``None``, but can be an empty string.
 
 Corresponds to the **docPartPr.description** element in OOXML.
 

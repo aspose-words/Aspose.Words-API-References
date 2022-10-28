@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/shape/ole_format/
 
 ## Shape.ole_format property
 
-Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns null.
+Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns ``None``.
+
 
 
 ### See Also

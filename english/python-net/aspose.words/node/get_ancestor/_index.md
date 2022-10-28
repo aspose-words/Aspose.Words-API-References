@@ -24,7 +24,7 @@ def get_ancestor(self, ancestor_type: aspose.words.NodeType):
 
 ### Returns
 
-The ancestor of the specified type or null if no ancestor of this type was found.
+The ancestor of the specified type or ``None`` if no ancestor of this type was found.
 
 
 ### Examples

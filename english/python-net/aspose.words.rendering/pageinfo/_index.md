@@ -1,7 +1,7 @@
 ﻿---
 title: PageInfo class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents information about a particular document page."
+description: "Represents information about a particular document page"
 type: docs
 weight: 30
 url: /python-net/aspose.words.rendering/pageinfo/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.rendering/pageinfo/
 ## PageInfo class
 
 Represents information about a particular document page.
+To learn more, visit the [Rendering](https://docs.aspose.com/words/net/rendering/) documentation article.
+
+
 
 
 The page width and height returned by this object represent the "final" size of the page e.g. they are
@@ -23,7 +26,7 @@ already rotated to the correct orientation.
 | Name | Description |
 | --- | --- |
 | [height_in_points](./height_in_points/) | Gets the height of the page in points. |
-| [landscape](./landscape/) | Returns true if the page orientation specified in the document for this page is landscape. |
+| [landscape](./landscape/) | Returns ``True`` if the page orientation specified in the document for this page is landscape. |
 | [paper_size](./paper_size/) | Gets the paper size as enumeration. |
 | [paper_tray](./paper_tray/) | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
 | [size_in_points](./size_in_points/) | Gets the page size in points. |

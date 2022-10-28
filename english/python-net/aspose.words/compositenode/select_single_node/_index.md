@@ -1,7 +1,7 @@
 ﻿---
 title: select_single_node method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Selects the first Node that matches the XPath expression."
+description: "Selects the first [Node](../../node/) that matches the XPath expression."
 type: docs
 weight: 190
 url: /python-net/aspose.words/compositenode/select_single_node/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/compositenode/select_single_node/
 
 ## select_single_node(xpath) {#str}
 
-Selects the first Node that matches the XPath expression.
+Selects the first [Node](../../node/) that matches the XPath expression.
+
 
 
 ```python
@@ -29,7 +30,7 @@ that use attribute names are not supported.
 
 ### Returns
 
-The first Node that matches the XPath query or null if no matching node is found.
+The first [Node](../../node/) that matches the XPath query or ``None`` if no matching node is found.
 
 
 ### Examples

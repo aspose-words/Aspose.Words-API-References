@@ -1,7 +1,7 @@
 ﻿---
 title: CommentCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Comment](../comment/) nodes."
+description: "Provides typed access to a collection of [Comment](../comment/) nodes"
 type: docs
 weight: 170
 url: /python-net/aspose.words/commentcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/commentcollection/
 ## CommentCollection class
 
 Provides typed access to a collection of [Comment](../comment/) nodes.
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
 
 
 
@@ -19,7 +21,7 @@ Provides typed access to a collection of [Comment](../comment/) nodes.
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **Comment** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Comment](../comment/) at the given index. |
 
 ### Properties
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.words.fields/formfield/calculate_on_exit/
 
 True if references to the specified form field are automatically updated whenever the field is exited.
 
-Setting **CalculateOnExit** only affects the behavior of the form field when
+Setting [FormField.calculate_on_exit](./) only affects the behavior of the form field when
 the document is opened in Microsoft Word. Aspose.Words never updates references
 to the form field.
 

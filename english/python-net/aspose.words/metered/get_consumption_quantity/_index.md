@@ -31,8 +31,8 @@ Shows how to activate a Metered license and track credit/consumption.
 metered = aw.Metered()
 metered.set_metered_key("MyPublicKey", "MyPrivateKey")
 
-print(f"Credit before operation: {metered.get_consumption_credit()}")
-print(f"Consumption quantity before operation: {metered.get_consumption_quantity()}")
+print("Credit before operation:", metered.get_consumption_credit())
+print("Consumption quantity before operation:", metered.get_consumption_quantity())
 
 # Operate using Aspose.Words, and then print our metered stats again to see how much we spent.
 doc = aw.Document(MY_DIR + "Document.docx")
@@ -42,8 +42,8 @@ doc.save(ARTIFACTS_DIR + "Metered.usage.pdf")
 # you need to use waiting.
 time.sleep(10)
 
-print(f"Credit after operation: {metered.get_consumption_credit()}")
-print(f"Consumption quantity after operation: {metered.get_consumption_quantity()}")
+print("Credit after operation:", metered.get_consumption_credit())
+print("Consumption quantity after operation:", metered.get_consumption_quantity())
 ```
 
 ### See Also

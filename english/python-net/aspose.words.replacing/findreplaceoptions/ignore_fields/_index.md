@@ -10,7 +10,7 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_fields/
 ## FindReplaceOptions.ignore_fields property
 
 Gets or sets a boolean value indicating either to ignore text inside fields.
-The default value is ``false``.
+The default value is ``False``.
 
 
 This option affects whole field (all nodes between

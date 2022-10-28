@@ -3,7 +3,7 @@ title: move_to_cell method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves the cursor to a table cell in the current section."
 type: docs
-weight: 480
+weight: 500
 url: /python-net/aspose.words/documentbuilder/move_to_cell/
 ---
 

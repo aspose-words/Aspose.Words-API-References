@@ -1,7 +1,7 @@
 ﻿---
 title: equals method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Compares with the specified TabStop."
+description: "Compares with the specified [TabStop](../)."
 type: docs
 weight: 60
 url: /python-net/aspose.words/tabstop/equals/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/tabstop/equals/
 
 ## equals(rhs) {#tabstop}
 
-Compares with the specified TabStop.
+Compares with the specified [TabStop](../).
+
 
 
 ```python

@@ -14,26 +14,27 @@ structured document tags (content controls).
 
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [CustomPart](./custompart/) | Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. |
-| [CustomPartCollection](./custompartcollection/) | Represents a collection of [CustomPart](./custompart/) objects. |
-| [CustomXmlPart](./customxmlpart/) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
-| [CustomXmlPartCollection](./customxmlpartcollection/) | Represents a collection of Custom XML Parts. The items are [CustomXmlPart](./customxmlpart/) objects. |
-| [CustomXmlProperty](./customxmlproperty/) | Represents a single custom XML attribute or a smart tag property. |
-| [CustomXmlPropertyCollection](./customxmlpropertycollection/) | Represents a collection of custom XML attributes or smart tag properties. |
-| [CustomXmlSchemaCollection](./customxmlschemacollection/) | A collection of strings that represent XML schemas that are associated with a custom XML part. |
+| [CustomPart](./custompart/) | Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomPartCollection](./custompartcollection/) | Represents a collection of [CustomPart](./custompart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomXmlPart](./customxmlpart/) | Represents a Custom XML Data Storage Part (custom XML data within a package). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomXmlPartCollection](./customxmlpartcollection/) | Represents a collection of Custom XML Parts. The items are [CustomXmlPart](./customxmlpart/) objects. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomXmlProperty](./customxmlproperty/) | Represents a single custom XML attribute or a smart tag property. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomXmlPropertyCollection](./customxmlpropertycollection/) | Represents a collection of custom XML attributes or smart tag properties. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [CustomXmlSchemaCollection](./customxmlschemacollection/) | A collection of strings that represent XML schemas that are associated with a custom XML part. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
 | [IStructuredDocumentTag](./istructureddocumenttag/) | Interface to define a common data for [StructuredDocumentTag](./structureddocumenttag/) and [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/). |
-| [SdtListItem](./sdtlistitem/) | This element specifies a single list item within a parent [SdtType.COMBO_BOX](./sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](./sdttype/#DROP_DOWN_LIST) structured document tag. |
-| [SdtListItemCollection](./sdtlistitemcollection/) | Provides access to [SdtListItem](./sdtlistitem/) elements of a structured document tag. |
-| [SmartTag](./smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
-| [StructuredDocumentTag](./structureddocumenttag/) | Represents a structured document tag (SDT or content control) in a document. |
-| [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | A collection of [IStructuredDocumentTag](./istructureddocumenttag/) instances that represent the structured document tags in the specified range. |
-| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) node. |
-| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/). |
-| [XmlMapping](./xmlmapping/) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
+| [SdtListItem](./sdtlistitem/) | This element specifies a single list item within a parent [SdtType.COMBO_BOX](./sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](./sdttype/#DROP_DOWN_LIST) structured document tag. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [SdtListItemCollection](./sdtlistitemcollection/) | Provides access to [SdtListItem](./sdtlistitem/) elements of a structured document tag. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [SmartTag](./smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [StructuredDocumentTag](./structureddocumenttag/) | Represents a structured document tag (SDT or content control) in a document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [StructuredDocumentTagCollection](./structureddocumenttagcollection/) | A collection of [IStructuredDocumentTag](./istructureddocumenttag/) instances that represent the structured document tags in the specified range. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/) | Represents an end of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) node. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [StructuredDocumentTagRangeStart](./structureddocumenttagrangestart/) | Represents a start of **ranged** structured document tag which accepts multi-sections content. See also [StructuredDocumentTagRangeEnd](./structureddocumenttagrangeend/). To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
+| [XmlMapping](./xmlmapping/) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article. |
 
 ## Enumerations
 

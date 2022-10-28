@@ -15,7 +15,7 @@ PANOSE is a compact 10-byte description of a fonts critical visual characteristi
 such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, 
 Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
-Can be ``null``.
+Can be ``None``.
 
 
 

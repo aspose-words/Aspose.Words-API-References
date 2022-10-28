@@ -3,7 +3,7 @@ title: progress_callback property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Called during saving a document and accepts data about saving progress."
 type: docs
-weight: 110
+weight: 100
 url: /python-net/aspose.words.saving/saveoptions/progress_callback/
 ---
 

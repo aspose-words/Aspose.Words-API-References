@@ -11,7 +11,7 @@ url: /python-net/aspose.words/importformatoptions/keep_source_numbering/
 
 Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and
 destination documents.
-The default value is ``false``.
+The default value is ``False``.
 
 
 

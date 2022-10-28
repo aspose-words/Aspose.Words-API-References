@@ -1,7 +1,7 @@
 ﻿---
 title: FieldDde class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the DDE field."
+description: "Implements the DDE field"
 type: docs
 weight: 320
 url: /python-net/aspose.words.fields/fielddde/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fielddde/
 ## FieldDde class
 
 Implements the DDE field.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 For information copied from another application, this field links that information to its original source file using DDE.
@@ -42,7 +45,7 @@ For information copied from another application, this field links that informati
 | [locale_id](../field/locale_id/) | Gets or sets the LCID of the field.<br>(Inherited from [Field](../field/)) |
 | [prog_id](./prog_id/) | Gets or sets the application type of the link information. |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
-| [separator](../field/separator/) | Gets the node that represents the field separator. Can be null.<br>(Inherited from [Field](../field/)) |
+| [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
 | [source_full_name](./source_full_name/) | Gets or sets the name and location of the source file. |
 | [source_item](./source_item/) | Gets or sets the portion of the source file that's being linked. |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
@@ -54,7 +57,7 @@ For information copied from another application, this field links that informati
 | --- | --- |
 |[ get_field_code()](../field/get_field_code/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../field/)) |
 |[ get_field_code(include_child_field_codes)](../field/get_field_code/#bool) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../field/)) |
-|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.<br>(Inherited from [Field](../field/)) |
+|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../field/)) |
 |[ unlink()](../field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../field/)) |
 |[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 |[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |

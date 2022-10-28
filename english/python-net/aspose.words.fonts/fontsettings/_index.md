@@ -1,7 +1,7 @@
 ﻿---
 title: FontSettings class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font settings for a document."
+description: "Specifies font settings for a document"
 type: docs
 weight: 140
 url: /python-net/aspose.words.fonts/fontsettings/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontsettings/
 ## FontSettings class
 
 Specifies font settings for a document.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout

@@ -1,7 +1,7 @@
 ﻿---
 title: ThemeColor enumeration
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the theme colors for document themes."
+description: "Specifies the theme colors for document themes"
 type: docs
 weight: 20
 url: /python-net/aspose.words.themes/themecolor/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.themes/themecolor/
 ## ThemeColor enumeration
 
 Specifies the theme colors for document themes.
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
+
 
 The specified theme color is a reference to one of the predefined theme colors, located in the
 document's Theme part, which allows color information to be set centrally in the document.

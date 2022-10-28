@@ -11,7 +11,7 @@ url: /python-net/aspose.words/document/last_section/
 
 Gets the last section in the document.
 
-Returns ``null`` if there are no sections.
+Returns ``None`` if there are no sections.
 
 
 

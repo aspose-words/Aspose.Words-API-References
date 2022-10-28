@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/trim/
 
 Determines whether extra space is removed above and below the text.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

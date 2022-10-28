@@ -1,15 +1,18 @@
 ﻿---
 title: ToaCategories class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table of authorities categories."
+description: "Represents a table of authorities categories"
 type: docs
-weight: 1290
+weight: 1310
 url: /python-net/aspose.words.fields/toacategories/
 ---
 
 ## ToaCategories class
 
 Represents a table of authorities categories.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Constructors

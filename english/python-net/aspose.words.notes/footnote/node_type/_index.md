@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Footnote."
+description: "Returns [NodeType.FOOTNOTE](../../../aspose.words/nodetype/#FOOTNOTE)."
 type: docs
 weight: 40
 url: /python-net/aspose.words.notes/footnote/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.notes/footnote/node_type/
 
 ## Footnote.node_type property
 
-Returns **NodeType.Footnote**.
+Returns [NodeType.FOOTNOTE](../../../aspose.words/nodetype/#FOOTNOTE).
 
 
 

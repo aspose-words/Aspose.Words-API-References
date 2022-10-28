@@ -1,7 +1,7 @@
 ﻿---
 title: spelling_checked property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the document has been checked for spelling."
+description: "Returns ``True`` if the document has been checked for spelling."
 type: docs
 weight: 390
 url: /python-net/aspose.words/document/spelling_checked/
@@ -9,10 +9,10 @@ url: /python-net/aspose.words/document/spelling_checked/
 
 ## Document.spelling_checked property
 
-Returns **true** if the document has been checked for spelling.
+Returns ``True`` if the document has been checked for spelling.
 
 
-To recheck the spelling in the document, set this property to **false**.
+To recheck the spelling in the document, set this property to ``False``.
 
 
 

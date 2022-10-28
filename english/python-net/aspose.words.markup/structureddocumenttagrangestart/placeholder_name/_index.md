@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/placeholder
 
 Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text.
 
-BuildingBlock with this name [BuildingBlock.name](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [Document.glossary_document](../../../aspose.words/document/glossary_document/)
+[BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) with this name [BuildingBlock.name](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [Document.glossary_document](../../../aspose.words/document/glossary_document/)
 otherwise System.InvalidOperationException will occur.
 
 
@@ -40,6 +40,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

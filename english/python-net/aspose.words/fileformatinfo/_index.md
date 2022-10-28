@@ -1,7 +1,7 @@
 ﻿---
 title: FileFormatInfo class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods."
+description: "Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods"
 type: docs
 weight: 390
 url: /python-net/aspose.words/fileformatinfo/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/fileformatinfo/
 ## FileFormatInfo class
 
 Contains data returned by [FileFormatUtil](../fileformatutil/) document format detection methods.
+To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) documentation article.
+
 
 
 
@@ -24,8 +26,8 @@ You do not create instances of this class directly. Objects of this class are re
 | Name | Description |
 | --- | --- |
 | [encoding](./encoding/) | Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents. |
-| [has_digital_signature](./has_digital_signature/) | Returns true if this document contains a digital signature.  This property merely informs that a digital signature is present on a document,  but it does not  specify whether the signature is valid or not. |
-| [is_encrypted](./is_encrypted/) | Returns true if the document is encrypted and requires a password to open. |
+| [has_digital_signature](./has_digital_signature/) | Returns ``True`` if this document contains a digital signature.  This property merely informs that a digital signature is present on a document,  but it does not  specify whether the signature is valid or not. |
+| [is_encrypted](./is_encrypted/) | Returns ``True`` if the document is encrypted and requires a password to open. |
 | [load_format](./load_format/) | Gets the detected document format. |
 
 ### Examples

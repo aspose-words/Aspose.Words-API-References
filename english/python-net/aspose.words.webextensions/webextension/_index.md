@@ -1,7 +1,7 @@
 ﻿---
 title: WebExtension class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a web extension object."
+description: "Represents a web extension object"
 type: docs
 weight: 40
 url: /python-net/aspose.words.webextensions/webextension/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.webextensions/webextension/
 ## WebExtension class
 
 Represents a web extension object.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
+
 
 
 ### Properties

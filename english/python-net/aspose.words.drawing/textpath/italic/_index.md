@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/italic/
 
 True if the font is formatted as italic.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

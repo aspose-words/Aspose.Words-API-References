@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/oleformat/is_locked/
 
 Specifies whether the link to the OLE object is locked from updates.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: is_composite property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true as this node can have child nodes."
+description: "Returns ``True`` as this node can have child nodes."
 type: docs
 weight: 50
 url: /python-net/aspose.words/compositenode/is_composite/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/compositenode/is_composite/
 
 ## CompositeNode.is_composite property
 
-Returns true as this node can have child nodes.
+Returns ``True`` as this node can have child nodes.
+
 
 
 ### Examples

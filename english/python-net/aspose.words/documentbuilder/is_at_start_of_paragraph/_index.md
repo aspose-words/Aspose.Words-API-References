@@ -1,15 +1,16 @@
 ﻿---
 title: is_at_start_of_paragraph property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor)."
+description: "Returns ``True`` if the cursor is at the beginning of the current paragraph (no text before the cursor)."
 type: docs
-weight: 110
+weight: 130
 url: /python-net/aspose.words/documentbuilder/is_at_start_of_paragraph/
 ---
 
 ## DocumentBuilder.is_at_start_of_paragraph property
 
-Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor).
+Returns ``True`` if the cursor is at the beginning of the current paragraph (no text before the cursor).
+
 
 
 ### Examples

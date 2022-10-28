@@ -1,7 +1,7 @@
 ﻿---
 title: JsonDataSource class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to data of a JSON file or stream to be used within a report."
+description: "Provides access to data of a JSON file or stream to be used within a report"
 type: docs
 weight: 40
 url: /python-net/aspose.words.reporting/jsondatasource/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.reporting/jsondatasource/
 ## JsonDataSource class
 
 Provides access to data of a JSON file or stream to be used within a report.
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
+
 
 
 To access data of the corresponding file or stream while generating a report, pass an instance of this class as

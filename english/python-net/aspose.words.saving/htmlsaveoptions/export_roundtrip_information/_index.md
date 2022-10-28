@@ -10,16 +10,16 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_roundtrip_informatio
 ## HtmlSaveOptions.export_roundtrip_information property
 
 Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB.
-Default value is ``true`` for HTML and ``false`` for MHTML and EPUB.
+Default value is ``True`` for HTML and ``False`` for MHTML and EPUB.
 
 
 Saving of the roundtrip information allows to restore document properties such as tab stops,
 comments, headers and footers during the HTML documents loading back into a [Document](../../../aspose.words/document/) object.
 
-When ``true``, the roundtrip information is exported as -aw-\* CSS properties
+When ``True``, the roundtrip information is exported as -aw-\* CSS properties
 of the corresponding HTML elements.
 
-When ``false``, causes no roundtrip information to be output into produced files.
+When ``False``, causes no roundtrip information to be output into produced files.
 
 
 

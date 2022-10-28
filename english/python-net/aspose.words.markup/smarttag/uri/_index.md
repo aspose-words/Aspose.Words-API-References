@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/smarttag/uri/
 
 Specifies the namespace URI of the smart tag.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

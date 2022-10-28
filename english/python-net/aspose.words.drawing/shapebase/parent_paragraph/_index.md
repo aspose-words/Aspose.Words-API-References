@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/shapebase/parent_paragraph/
 
 Returns the immediate parent paragraph.
 
-For child shapes of a group shape and child shapes of an Office Math object always returns null.
+For child shapes of a group shape and child shapes of an Office Math object always returns ``None``.
 
 
 ### Examples

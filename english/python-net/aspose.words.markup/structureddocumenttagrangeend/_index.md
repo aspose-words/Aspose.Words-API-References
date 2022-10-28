@@ -11,6 +11,8 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangeend/
 
 Represents an end of **ranged** structured document tag which accepts multi-sections content.
 See also [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 
 
 
@@ -32,12 +34,12 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **StructuredDocumentTagRange** node. Corresponding [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/) node has the same [StructuredDocumentTagRangeStart.id](../structureddocumenttagrangestart/id/). |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [node_type](../../aspose.words/node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 
 ### Methods
 
@@ -77,6 +79,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

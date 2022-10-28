@@ -9,10 +9,12 @@ url: /python-net/aspose.words/revision/group/
 
 ## Revision.group property
 
-Gets the revision group. Returns null if the revision does not belong to any group.
+Gets the revision group. Returns ``None`` if the revision does not belong to any group.
 
-Revision has no group if revision type is RevisionType.StyleDefinitionChange or
+
+Revision has no group if revision type is [RevisionType.STYLE_DEFINITION_CHANGE](../../revisiontype/#STYLE_DEFINITION_CHANGE) or
 if the revision is not longer exist in document context (accepted/rejected).
+
 
 
 ### Examples

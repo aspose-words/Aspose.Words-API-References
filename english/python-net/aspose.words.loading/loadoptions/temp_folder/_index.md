@@ -3,14 +3,14 @@ title: temp_folder property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to use temporary files when reading document"
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.words.loading/loadoptions/temp_folder/
 ---
 
 ## LoadOptions.temp_folder property
 
 Allows to use temporary files when reading document.
-By default this property is ``null`` and no temporary files are used.
+By default this property is ``None`` and no temporary files are used.
 
 
 The folder must exist and be writable, otherwise an exception will be thrown.

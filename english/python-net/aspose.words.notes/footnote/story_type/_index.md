@@ -1,7 +1,7 @@
 ﻿---
 title: story_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns StoryType.Footnotes or StoryType.Endnotes."
+description: "Returns [StoryType.FOOTNOTES](../../../aspose.words/storytype/#FOOTNOTES) or [StoryType.ENDNOTES](../../../aspose.words/storytype/#ENDNOTES)."
 type: docs
 weight: 60
 url: /python-net/aspose.words.notes/footnote/story_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.notes/footnote/story_type/
 
 ## Footnote.story_type property
 
-Returns **StoryType.Footnotes** or **StoryType.Endnotes**.
+Returns [StoryType.FOOTNOTES](../../../aspose.words/storytype/#FOOTNOTES) or [StoryType.ENDNOTES](../../../aspose.words/storytype/#ENDNOTES).
 
 
 

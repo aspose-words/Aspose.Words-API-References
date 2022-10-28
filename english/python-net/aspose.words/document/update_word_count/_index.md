@@ -17,11 +17,11 @@ def update_word_count(self):
     ...
 ```
 
-**UpdateWordCount** recalculates and updates Characters, Words and Paragraphs
-properties in the [Document.built_in_document_properties](../built_in_document_properties/) collection of the **Document**.
+[Document.update_word_count()](./#default) recalculates and updates Characters, Words and Paragraphs
+properties in the [Document.built_in_document_properties](../built_in_document_properties/) collection of the [Document](../).
 
-Note that **UpdateWordCount** does not update number of lines and pages properties.
-Use the [Document.update_word_count()](./#default) overload and pass True value as a parameter to do that.
+Note that [Document.update_word_count()](./#default) does not update number of lines and pages properties.
+Use the [Document.update_word_count()](./#default) overload and pass ``True`` value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included
 in the word count.

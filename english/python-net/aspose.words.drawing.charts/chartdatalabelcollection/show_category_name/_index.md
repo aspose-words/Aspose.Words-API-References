@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_categ
 ## ChartDataLabelCollection.show_category_name property
 
 Allows to specify whether category name is to be displayed for the data labels of the entire series.
-Default value is **false**.
+Default value is ``False``.
 
 
 Value defined for this property can be overridden for an individual data label with using the

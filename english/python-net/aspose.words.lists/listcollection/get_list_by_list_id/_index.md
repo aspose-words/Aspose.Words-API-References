@@ -30,7 +30,7 @@ of the [ListFormat](../../listformat/) object.
 
 ### Returns
 
-Returns the list object. Returns null if a list with the specified identifier was not found.
+Returns the list object. Returns ``None`` if a list with the specified identifier was not found.
 
 
 ### Examples

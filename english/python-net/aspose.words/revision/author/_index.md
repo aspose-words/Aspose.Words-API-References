@@ -9,7 +9,8 @@ url: /python-net/aspose.words/revision/author/
 
 ## Revision.author property
 
-Gets or sets the author of this revision. Can not be empty string or null.
+Gets or sets the author of this revision. Can not be empty string or ``None``.
+
 
 
 ### Examples

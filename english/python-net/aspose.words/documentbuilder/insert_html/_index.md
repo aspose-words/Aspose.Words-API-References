@@ -3,7 +3,7 @@ title: insert_html method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.insert_html method"
 type: docs
-weight: 330
+weight: 350
 url: /python-net/aspose.words/documentbuilder/insert_html/
 ---
 
@@ -41,12 +41,12 @@ def insert_html(self, html: str, use_builder_formatting: bool):
 
 You can use this method to insert an HTML fragment or whole HTML document.
 
-When  is``false``,
+When  is``False``,
 [DocumentBuilder](../) formating is ignored and formatting of inserted text
 is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
 
 
-When  is``true``,
+When  is``True``,
 formatting of inserted text is based on [DocumentBuilder](../) formatting,
 and the text looks as if it were inserted with [DocumentBuilder.write()](../write/#str).
 

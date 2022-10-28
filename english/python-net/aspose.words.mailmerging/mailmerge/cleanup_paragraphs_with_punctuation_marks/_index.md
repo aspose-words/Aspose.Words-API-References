@@ -13,7 +13,7 @@ Gets or sets a value indicating whether paragraphs with punctuation marks are co
 and should be removed if the [MailMergeCleanupOptions.REMOVE_EMPTY_PARAGRAPHS](../../mailmergecleanupoptions/#REMOVE_EMPTY_PARAGRAPHS) option is specified.
 
 
-The default value is ``true``.
+The default value is ``True``.
 
 
 Here is the complete list of cleanable punctuation marks:

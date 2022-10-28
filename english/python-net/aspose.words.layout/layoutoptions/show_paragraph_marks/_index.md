@@ -10,7 +10,8 @@ url: /python-net/aspose.words.layout/layoutoptions/show_paragraph_marks/
 ## LayoutOptions.show_paragraph_marks property
 
 Gets or sets indication of whether paragraph marks are rendered.
-Default is False.
+Default is ``False``.
+
 
 
 ### Examples

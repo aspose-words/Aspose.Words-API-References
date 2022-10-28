@@ -1,7 +1,7 @@
 ﻿---
 title: Stroke class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines a stroke for a shape."
+description: "Defines a stroke for a shape"
 type: docs
 weight: 360
 url: /python-net/aspose.words.drawing/stroke/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/stroke/
 ## Stroke class
 
 Defines a stroke for a shape.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
+
 
 
 Use the [Shape.stroke](../shape/stroke/) property to access stroke properties of a shape.

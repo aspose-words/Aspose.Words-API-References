@@ -11,7 +11,7 @@ url: /python-net/aspose.words/paragraphformat/bidi/
 
 Gets or sets whether this is a right-to-left paragraph.
 
-When true, the runs and other inline objects in this paragraph
+When ``True``, the runs and other inline objects in this paragraph
 are laid out right to left.
 
 

@@ -9,10 +9,11 @@ url: /python-net/aspose.words.mailmerging/mailmerge/use_whole_paragraph_as_regio
 
 ## MailMerge.use_whole_paragraph_as_region property
 
-Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field
-or particular range between TableStart and TableEnd fields should be included into mail merge region.
+Gets or sets a value indicating whether whole paragraph with **TableStart** or **TableEnd** field
+or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region.
 
-The default value is **true**.
+
+The default value is ``True``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: FontInfoSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Font info substitution rule."
+description: "Font info substitution rule"
 type: docs
 weight: 110
 url: /python-net/aspose.words.fonts/fontinfosubstitutionrule/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontinfosubstitutionrule/
 ## FontInfoSubstitutionRule class
 
 Font info substitution rule.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 According to this rule Aspose.Words evaluates all the related fields in [FontInfo](../fontinfo/) (Panose, Sig etc) for

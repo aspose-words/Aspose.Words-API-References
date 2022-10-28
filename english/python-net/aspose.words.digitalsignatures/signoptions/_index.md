@@ -1,7 +1,7 @@
 ﻿---
 title: SignOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify options for document signing."
+description: "Allows to specify options for document signing"
 type: docs
 weight: 60
 url: /python-net/aspose.words.digitalsignatures/signoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.digitalsignatures/signoptions/
 ## SignOptions class
 
 Allows to specify options for document signing.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
+
 
 
 ### Constructors
@@ -26,7 +29,7 @@ Allows to specify options for document signing.
 | [provider_id](./provider_id/) | Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**. |
 | [sign_time](./sign_time/) | The date of signing. Default value is **current time** (System.DateTime.Now). |
 | [signature_line_id](./signature_line_id/) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
-| [signature_line_image](./signature_line_image/) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is ``null``. |
+| [signature_line_image](./signature_line_image/) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is ``None``. |
 
 ### See Also
 

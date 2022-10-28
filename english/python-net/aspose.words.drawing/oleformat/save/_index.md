@@ -3,7 +3,7 @@ title: save method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.drawing.OleFormat.save method"
 type: docs
-weight: 150
+weight: 160
 url: /python-net/aspose.words.drawing/oleformat/save/
 ---
 

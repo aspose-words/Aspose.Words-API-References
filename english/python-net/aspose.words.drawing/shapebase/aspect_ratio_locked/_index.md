@@ -11,8 +11,8 @@ url: /python-net/aspose.words.drawing/shapebase/aspect_ratio_locked/
 
 Specifies whether the shape's aspect ratio is locked.
 
-The default value depends on the [ShapeBase.shape_type](../shape_type/), for the ShapeType.Image it is **true**
-but for the other shape types it is **false**.
+The default value depends on the [ShapeType](../../shapetype/), for the [ShapeType.IMAGE](../../shapetype/#IMAGE) it is ``True``
+but for the other shape types it is ``False``.
 
 Has effect for top level shapes only.
 

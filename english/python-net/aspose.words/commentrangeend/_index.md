@@ -1,7 +1,7 @@
 ﻿---
 title: CommentRangeEnd class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Denotes the end of a region of text that has a comment associated with it."
+description: "Denotes the end of a region of text that has a comment associated with it"
 type: docs
 weight: 180
 url: /python-net/aspose.words/commentrangeend/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/commentrangeend/
 ## CommentRangeEnd class
 
 Denotes the end of a region of text that has a comment associated with it.
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
+
 
 
 To create a comment anchored to a region of text, you need to create a [Comment](../comment/) and
@@ -35,12 +38,12 @@ to the same [Comment.id](../comment/id/) value.
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [id](./id/) | Specifies the identifier of the comment to which this region is linked to. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_type](./node_type/) | Returns [NodeType.COMMENT_RANGE_END](../nodetype/#COMMENT_RANGE_END). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Style class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single built-in or user-defined style."
+description: "Represents a single built-in or user-defined style"
 type: docs
 weight: 1080
 url: /python-net/aspose.words/style/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/style/
 ## Style class
 
 Represents a single built-in or user-defined style.
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
+
 
 
 ### Properties
@@ -23,7 +26,7 @@ Represents a single built-in or user-defined style.
 | [font](./font/) | Gets the character formatting of the style. |
 | [is_heading](./is_heading/) | True when the style is one of the built-in Heading styles. |
 | [is_quick_style](./is_quick_style/) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
-| [linked_style_name](./linked_style_name/) | Gets the name of the Style linked to this one. Returns Empty string if no styles are linked. |
+| [linked_style_name](./linked_style_name/) | Gets the name of the [Style](./) linked to this one. Returns empty string if no styles are linked. |
 | [list](./list/) | Gets the list that defines formatting of this list style. |
 | [list_format](./list_format/) | Provides access to the list formatting properties of a paragraph style. |
 | [name](./name/) | Gets or sets the name of the style. |

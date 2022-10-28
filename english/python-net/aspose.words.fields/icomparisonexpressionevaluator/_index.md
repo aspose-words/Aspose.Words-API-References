@@ -3,7 +3,7 @@ title: IComparisonExpressionEvaluator class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "When implemented, allows to override default comparison expressions evaluation for the [FieldIf](../fieldif/) and [FieldCompare](../fieldcompare/) fields."
 type: docs
-weight: 1200
+weight: 1210
 url: /python-net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 

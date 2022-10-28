@@ -1,7 +1,7 @@
 ﻿---
 title: range_end property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies end of range if the StructuredDocumentTag is a ranged structured document tag"
+description: "Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag"
 type: docs
 weight: 120
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/range_end/
@@ -9,8 +9,9 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/range_end/
 
 ## StructuredDocumentTagRangeStart.range_end property
 
-Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. 
-Otherwise returns null.
+Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag. 
+Otherwise returns ``None``.
+
 
 
 ### Examples
@@ -36,6 +37,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

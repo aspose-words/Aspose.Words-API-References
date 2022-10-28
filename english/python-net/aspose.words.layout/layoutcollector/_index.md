@@ -11,6 +11,8 @@ url: /python-net/aspose.words.layout/layoutcollector/
 
 This class allows to compute page numbers of document nodes.
 
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
 
 
 
@@ -21,7 +23,7 @@ You will be able to find out on which page a particular document node (e.g. run,
 by using the [LayoutCollector.get_start_page_index()](./get_start_page_index/#node), [LayoutCollector.get_end_page_index()](./get_end_page_index/#node) and [LayoutCollector.get_num_pages_spanned()](./get_num_pages_spanned/#node) methods. 
 These methods automatically build page layout model of the document and update fields if required.
 
-When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to null
+When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to ``None``
 to avoid unnecessary collection of more layout mappings.
 
 

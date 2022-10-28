@@ -16,7 +16,7 @@ Aspose.Words ignores the value of this property.
 
 This property is applicable only to top level shapes.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

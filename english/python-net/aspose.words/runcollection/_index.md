@@ -1,7 +1,7 @@
 ﻿---
 title: RunCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Run](../run/) nodes."
+description: "Provides typed access to a collection of [Run](../run/) nodes"
 type: docs
 weight: 970
 url: /python-net/aspose.words/runcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/runcollection/
 ## RunCollection class
 
 Provides typed access to a collection of [Run](../run/) nodes.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 
 
 
@@ -19,7 +21,7 @@ Provides typed access to a collection of [Run](../run/) nodes.
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **Run** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Run](../run/) at the given index. |
 
 ### Properties
 

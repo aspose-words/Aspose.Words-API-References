@@ -1,7 +1,7 @@
 ﻿---
 title: EndnoteOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the endnote numbering options for a document or section."
+description: "Represents the endnote numbering options for a document or section"
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/endnoteoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.notes/endnoteoptions/
 ## EndnoteOptions class
 
 Represents the endnote numbering options for a document or section.
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) documentation article.
+
+
 
 
 ### Properties

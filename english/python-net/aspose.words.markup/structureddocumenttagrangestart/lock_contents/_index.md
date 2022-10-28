@@ -1,7 +1,7 @@
 ﻿---
 title: lock_contents property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When set to true, this property will prohibit a user from editing the contents of this structured document tag."
+description: "When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag."
 type: docs
 weight: 90
 url: /python-net/aspose.words.markup/structureddocumenttagrangestart/lock_contents/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/lock_conten
 
 ## StructuredDocumentTagRangeStart.lock_contents property
 
-When set to true, this property will prohibit a user from editing the contents of this structured document tag.
+When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag.
+
 
 
 ### Examples
@@ -35,6 +36,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

@@ -9,8 +9,7 @@ url: /python-net/aspose.words/textcolumncollection/evenly_spaced/
 
 ## TextColumnCollection.evenly_spaced property
 
-**True** if text columns are of equal width and evenly spaced.
-
+True if text columns are of equal width and evenly spaced.
 
 
 ### Examples

@@ -12,7 +12,7 @@ url: /python-net/aspose.words/document/frameset/
 Returns a [Document.frameset](./) instance if this document represents a frames page.
 
 
-If the document is not framed, the property has the **null** value.
+If the document is not framed, the property has the ``None`` value.
 
 
 

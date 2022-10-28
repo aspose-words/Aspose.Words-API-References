@@ -1,7 +1,7 @@
 ﻿---
 title: last_cell property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the last Cell in the row."
+description: "Returns the last [Cell](../../cell/) in the row."
 type: docs
 weight: 60
 url: /python-net/aspose.words.tables/row/last_cell/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/row/last_cell/
 
 ## Row.last_cell property
 
-Returns the last **Cell** in the row.
+Returns the last [Cell](../../cell/) in the row.
 
 
 

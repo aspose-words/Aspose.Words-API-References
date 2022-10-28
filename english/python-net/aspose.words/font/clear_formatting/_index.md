@@ -18,7 +18,7 @@ def clear_formatting(self):
 ```
 
 Removes all font formatting specified explicitly on the object from which
-**Font** was obtained so the font formatting will be inherited from
+[Font](../) was obtained so the font formatting will be inherited from
 the appropriate parent.
 
 

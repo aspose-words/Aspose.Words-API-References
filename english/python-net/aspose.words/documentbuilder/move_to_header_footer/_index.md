@@ -3,7 +3,7 @@ title: move_to_header_footer method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves the cursor to the beginning of a header or footer in the current section."
 type: docs
-weight: 520
+weight: 540
 url: /python-net/aspose.words/documentbuilder/move_to_header_footer/
 ---
 
@@ -21,7 +21,7 @@ def move_to_header_footer(self, header_footer_type: aspose.words.HeaderFooterTyp
 | --- | --- | --- |
 | header_footer_type | [HeaderFooterType](../../headerfootertype/) |  |
 
-After you moved the cursor into a header or footer, you can use the rest of DocumentBuilder
+After you moved the cursor into a header or footer, you can use the rest of [DocumentBuilder](../)
 methods to modify the contents of the header or footer.
 
 If you want to create headers and footers different for the first page, you need

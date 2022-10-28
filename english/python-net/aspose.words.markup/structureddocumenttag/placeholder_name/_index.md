@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/placeholder_name/
 
 Gets or sets Name of the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text.
 
-BuildingBlock with this name [BuildingBlock.name](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [Document.glossary_document](../../../aspose.words/document/glossary_document/)
+[BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) with this name [BuildingBlock.name](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [Document.glossary_document](../../../aspose.words/document/glossary_document/)
 otherwise System.InvalidOperationException will occur.
 
 

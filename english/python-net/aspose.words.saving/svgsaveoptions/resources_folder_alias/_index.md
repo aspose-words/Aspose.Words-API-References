@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/svgsaveoptions/resources_folder_alias/
 ## SvgSaveOptions.resources_folder_alias property
 
 Specifies the name of the folder used to construct image URIs written into an SVG document.
-Default is ``null``.
+Default is ``None``.
 
 
 When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all 

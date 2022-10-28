@@ -1,7 +1,7 @@
 ﻿---
 title: MailMerge class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the mail merge functionality."
+description: "Represents the mail merge functionality"
 type: docs
 weight: 80
 url: /python-net/aspose.words.mailmerging/mailmerge/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.mailmerging/mailmerge/
 ## MailMerge class
 
 Represents the mail merge functionality.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
+
 
 
 For mail merge operation to work, the document should contain Word MERGEFIELD and
@@ -22,13 +25,13 @@ The simplest mail merge is without regions and it is very similar to how mail me
 works in Word. Use ``Execute`` methods to merge information from some
 data source such as **DataTable**, **DataSet**, **DataView**, **IDataReader**
 or an array of objects into your document. The
-**MailMerge** object processes all records of the data source and copies and appends
+[MailMerge](./) object processes all records of the data source and copies and appends
 content of the whole document for each record.
 
-Note that when **MailMerge** object encounters a NEXT field, it selects next record
+Note that when [MailMerge](./) object encounters a NEXT field, it selects next record
 in the data source and continues merging without copying any content.
 
-Use ``ExecuteWithRegions`` methods to merge information into a
+Use [MailMerge.execute_with_regions()](./execute_with_regions/#imailmergedatasource) and other overloads to merge information into a
 document with mail merge regions defined. You can use
 **DataSet**, **DataTable**, **DataView** or **IDataReader**
 as data sources for this operation.
@@ -58,8 +61,8 @@ the data source.
 | [retain_first_section_start](./retain_first_section_start/) | Gets or sets a value indicating whether the [PageSetup.section_start](../../aspose.words/pagesetup/section_start/) of the first document section and its copies for subsequent data source rows are retained during mail merge or updated according to MS Word behaviour. |
 | [trim_whitespaces](./trim_whitespaces/) | Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values. |
 | [unconditional_merge_fields_and_regions](./unconditional_merge_fields_and_regions/) | Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition. |
-| [use_non_merge_fields](./use_non_merge_fields/) | When true, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags. |
-| [use_whole_paragraph_as_region](./use_whole_paragraph_as_region/) | Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region. |
+| [use_non_merge_fields](./use_non_merge_fields/) | When ``True``, specifies that in addition to MERGEFIELD fields, mail merge is performed into some other types of fields and also into "{{fieldName}}" tags. |
+| [use_whole_paragraph_as_region](./use_whole_paragraph_as_region/) | Gets or sets a value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region. |
 
 ### Methods
 

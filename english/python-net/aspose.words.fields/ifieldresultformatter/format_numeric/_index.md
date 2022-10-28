@@ -22,7 +22,7 @@ def format_numeric(self, value: float, format: str):
 | value | float |  |
 | format | str |  |
 
-The implementation should return **null** to indicate that the default formatting should be applied.
+The implementation should return ``None`` to indicate that the default formatting should be applied.
 
 
 

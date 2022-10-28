@@ -1,7 +1,7 @@
 ﻿---
 title: visit_sub_document method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Called when a subDocument is encountered."
+description: "Called when a sub-document is encountered."
 type: docs
 weight: 480
 url: /python-net/aspose.words/documentvisitor/visit_sub_document/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/documentvisitor/visit_sub_document/
 
 ## visit_sub_document(sub_document) {#subdocument}
 
-Called when a subDocument is encountered.
+Called when a sub-document is encountered.
 
 
 ```python

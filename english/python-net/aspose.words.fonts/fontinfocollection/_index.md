@@ -1,7 +1,7 @@
 ﻿---
 title: FontInfoCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of fonts used in a document."
+description: "Represents a collection of fonts used in a document"
 type: docs
 weight: 100
 url: /python-net/aspose.words.fonts/fontinfocollection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontinfocollection/
 ## FontInfoCollection class
 
 Represents a collection of fonts used in a document.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 Items are [FontInfo](../fontinfo/) objects.
@@ -32,9 +35,9 @@ defined in the document.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of elements contained in the collection. |
-| [embed_system_fonts](./embed_system_fonts/) | Specifies whether or not to embed System fonts into the document. Default value for this property is **false**. |
-| [embed_true_type_fonts](./embed_true_type_fonts/) | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**. |
-| [save_subset_fonts](./save_subset_fonts/) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**. |
+| [embed_system_fonts](./embed_system_fonts/) | Specifies whether or not to embed System fonts into the document. Default value for this property is ``False``. |
+| [embed_true_type_fonts](./embed_true_type_fonts/) | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is ``False``. |
+| [save_subset_fonts](./save_subset_fonts/) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is ``False``. |
 
 ### Methods
 

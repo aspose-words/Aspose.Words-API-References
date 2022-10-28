@@ -11,7 +11,8 @@ url: /python-net/aspose.words/compositenode/last_child/
 
 Gets the last child of the node.
 
-If there is no last child node, a null is returned.
+If there is no last child node, a ``None`` is returned.
+
 
 
 ### Examples

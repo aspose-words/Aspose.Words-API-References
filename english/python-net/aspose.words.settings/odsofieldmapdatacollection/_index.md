@@ -1,7 +1,7 @@
 ﻿---
 title: OdsoFieldMapDataCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects."
+description: "A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects"
 type: docs
 weight: 140
 url: /python-net/aspose.words.settings/odsofieldmapdatacollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.settings/odsofieldmapdatacollection/
 ## OdsoFieldMapDataCollection class
 
 A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 
 
 

@@ -16,7 +16,7 @@ Implementation should find a dictionary and register it using[Hyphenation.regist
 
 
 If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language
-using[Hyphenation.register_dictionary()](../../hyphenation/register_dictionary/#str_str) with null value.
+using[Hyphenation.register_dictionary()](../../hyphenation/register_dictionary/#str_str) with ``None`` value.
 
 
 

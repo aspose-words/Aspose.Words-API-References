@@ -11,7 +11,7 @@ url: /python-net/aspose.words/paragraphformat/space_before_auto/
 
 True if the amount of spacing before the paragraph is set automatically.
 
-When set to true, overrides the effect of [ParagraphFormat.space_before](../space_before/).
+When set to ``True``, overrides the effect of [ParagraphFormat.space_before](../space_before/).
 
 
 

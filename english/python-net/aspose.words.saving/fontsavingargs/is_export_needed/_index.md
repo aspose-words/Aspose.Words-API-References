@@ -9,7 +9,7 @@ url: /python-net/aspose.words.saving/fontsavingargs/is_export_needed/
 
 ## FontSavingArgs.is_export_needed property
 
-Allows to specify whether the current font will be exported as a font resource. Default is ``true``.
+Allows to specify whether the current font will be exported as a font resource. Default is ``True``.
 
 
 

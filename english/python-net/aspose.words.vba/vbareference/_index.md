@@ -1,7 +1,7 @@
 ﻿---
 title: VbaReference class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements a reference to an Automation type library or VBA project."
+description: "Implements a reference to an Automation type library or VBA project"
 type: docs
 weight: 50
 url: /python-net/aspose.words.vba/vbareference/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.vba/vbareference/
 ## VbaReference class
 
 Implements a reference to an Automation type library or VBA project.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
+
 
 
 ### Properties
@@ -17,7 +20,7 @@ Implements a reference to an Automation type library or VBA project.
 | Name | Description |
 | --- | --- |
 | [lib_id](./lib_id/) | Gets a string value containing the identifier of an Automation type library. |
-| [type](./type/) | Gets [VbaReferenceType](../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents. |
+| [type](./type/) | Gets [VbaReferenceType](../vbareferencetype/) object that indicates the type of reference that a [VbaReference](./) object represents. |
 
 ### Examples
 

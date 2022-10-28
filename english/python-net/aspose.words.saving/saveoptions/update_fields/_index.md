@@ -3,14 +3,14 @@ title: update_fields property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format"
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.words.saving/saveoptions/update_fields/
 ---
 
 ## SaveOptions.update_fields property
 
 Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format.
-Default value for this property is **true**.
+Default value for this property is ``True``.
 
 
 Allows to specify whether to mimic or not MS Word behavior.

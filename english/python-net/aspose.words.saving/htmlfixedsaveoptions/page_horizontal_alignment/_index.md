@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/page_horizontal_alignm
 ## HtmlFixedSaveOptions.page_horizontal_alignment property
 
 Specifies the horizontal alignment of pages in an HTML document.
-Default value is ``HtmlFixedHorizontalPageAlignment.Center``.
+Default value is [HtmlFixedPageHorizontalAlignment.CENTER](../../htmlfixedpagehorizontalalignment/#CENTER).
 
 
 

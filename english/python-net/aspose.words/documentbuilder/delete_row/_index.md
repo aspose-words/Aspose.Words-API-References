@@ -3,7 +3,7 @@ title: delete_row method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Deletes a row from a table."
 type: docs
-weight: 180
+weight: 200
 url: /python-net/aspose.words/documentbuilder/delete_row/
 ---
 

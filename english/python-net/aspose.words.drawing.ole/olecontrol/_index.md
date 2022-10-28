@@ -1,7 +1,7 @@
 ﻿---
 title: OleControl class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents OLE ActiveX control."
+description: "Represents OLE ActiveX control"
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing.ole/olecontrol/
@@ -10,13 +10,16 @@ url: /python-net/aspose.words.drawing.ole/olecontrol/
 ## OleControl class
 
 Represents OLE ActiveX control.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
+
 
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [is_forms2_ole_control](./is_forms2_ole_control/) | Returns true if the control is a [Forms2OleControl](../forms2olecontrol/). |
+| [is_forms2_ole_control](./is_forms2_ole_control/) | Returns ``True`` if the control is a [Forms2OleControl](../forms2olecontrol/). |
 | [name](./name/) | Gets name of the ActiveX control. |
 
 ### Methods

@@ -10,7 +10,8 @@ url: /python-net/aspose.words.layout/layoutoptions/show_hidden_text/
 ## LayoutOptions.show_hidden_text property
 
 Gets or sets indication of whether hidden text in the document is rendered.
-Default is False.
+Default is ``False``.
+
 
 This property affects all hidden content, not just text.
 

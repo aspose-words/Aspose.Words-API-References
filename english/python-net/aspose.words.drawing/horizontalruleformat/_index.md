@@ -1,7 +1,7 @@
 ﻿---
 title: HorizontalRuleFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents horizontal rule formatting."
+description: "Represents horizontal rule formatting"
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/horizontalruleformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/
 ## HorizontalRuleFormat class
 
 Represents horizontal rule formatting.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
+
 
 
 ### Properties
@@ -19,7 +22,7 @@ Represents horizontal rule formatting.
 | [alignment](./alignment/) | Gets or sets the alignment of the horizontal rule. |
 | [color](./color/) | Gets or sets the brush color that fills the horizontal rule. |
 | [height](./height/) | Gets or sets the height of the horizontal rule. |
-| [no_shade](./no_shade/) | Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used. |
+| [no_shade](./no_shade/) | Indicates the presence of 3D shading for the horizontal rule. If ``True``, then the horizontal rule is without 3D shading and solid color is used. |
 | [width_percent](./width_percent/) | Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 
 ### Examples

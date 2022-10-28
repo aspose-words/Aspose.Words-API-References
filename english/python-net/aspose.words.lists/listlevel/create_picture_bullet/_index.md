@@ -17,8 +17,8 @@ def create_picture_bullet(self):
     ...
 ```
 
-Please note, NumberStyle will be set to Bullet and 
-NumberFormat to "\\xF0B7" to properly display picture bullet.
+Please note, [ListLevel.number_style](../number_style/) will be set to [NumberStyle.BULLET](../../../aspose.words/numberstyle/#BULLET) and 
+[ListLevel.number_format](../number_format/) to "\\xF0B7" to properly display picture bullet.
 Red cross image will be set as picture bullet image upon creating. 
 To change it please use [ListLevel.image_data](../image_data/).
 

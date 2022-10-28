@@ -1,7 +1,7 @@
 ﻿---
 title: ReplacingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for a custom replace operation."
+description: "Provides data for a custom replace operation"
 type: docs
 weight: 50
 url: /python-net/aspose.words.replacing/replacingargs/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.replacing/replacingargs/
 ## ReplacingArgs class
 
 Provides data for a custom replace operation.
+To learn more, visit the [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/) documentation article.
+
+
 
 
 ### Properties

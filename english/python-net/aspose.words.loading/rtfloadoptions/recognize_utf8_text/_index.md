@@ -1,7 +1,7 @@
 ﻿---
 title: recognize_utf8_text property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When set to true, Aspose.Charset.CharsetDetector will try to detect UTF8 characters,  they will be preserved during import."
+description: "When set to ``True``, Aspose.Charset.CharsetDetector will try to detect UTF8 characters,  they will be preserved during import."
 type: docs
 weight: 20
 url: /python-net/aspose.words.loading/rtfloadoptions/recognize_utf8_text/
@@ -9,12 +9,13 @@ url: /python-net/aspose.words.loading/rtfloadoptions/recognize_utf8_text/
 
 ## RtfLoadOptions.recognize_utf8_text property
 
-When set to true, Aspose.Charset.CharsetDetector will try to detect UTF8 characters, 
+When set to ``True``, Aspose.Charset.CharsetDetector will try to detect UTF8 characters, 
 they will be preserved during import.
 
 
 
-Default value is false.
+Default value is``False``.
+
 
 
 ### Examples

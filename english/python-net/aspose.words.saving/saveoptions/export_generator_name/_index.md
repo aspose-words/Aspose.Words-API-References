@@ -1,7 +1,7 @@
 ﻿---
 title: export_generator_name property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When true, causes the name and version of Aspose.Words to be embedded into produced files"
+description: "When ``True``, causes the name and version of Aspose.Words to be embedded into produced files"
 type: docs
 weight: 60
 url: /python-net/aspose.words.saving/saveoptions/export_generator_name/
@@ -9,8 +9,8 @@ url: /python-net/aspose.words.saving/saveoptions/export_generator_name/
 
 ## SaveOptions.export_generator_name property
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files.
-Default value is **true**.
+When ``True``, causes the name and version of Aspose.Words to be embedded into produced files.
+Default value is ``True``.
 
 
 

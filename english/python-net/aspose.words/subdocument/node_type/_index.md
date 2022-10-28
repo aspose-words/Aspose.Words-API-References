@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.SubDocument"
+description: "Returns [NodeType.SUB_DOCUMENT](../../nodetype/#SUB_DOCUMENT)."
 type: docs
 weight: 10
 url: /python-net/aspose.words/subdocument/node_type/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/subdocument/node_type/
 
 ## SubDocument.node_type property
 
-Returns **NodeType.SubDocument**
+Returns [NodeType.SUB_DOCUMENT](../../nodetype/#SUB_DOCUMENT).
+
 
 
 ### Examples

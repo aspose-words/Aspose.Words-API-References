@@ -10,7 +10,7 @@ url: /python-net/aspose.words/importformatoptions/merge_pasted_lists/
 ## ImportFormatOptions.merge_pasted_lists property
 
 Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists.
-The default value is ``false``.
+The default value is ``False``.
 
 
 

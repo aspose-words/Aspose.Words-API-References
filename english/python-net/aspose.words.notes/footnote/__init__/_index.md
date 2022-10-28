@@ -1,7 +1,7 @@
 ﻿---
 title: Footnote constructor
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes an instance of the Footnote class."
+description: "Initializes an instance of the [Footnote](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.notes/footnote/__init__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.notes/footnote/__init__/
 
 ## Footnote(doc, footnote_type) {#documentbase_footnotetype}
 
-Initializes an instance of the **Footnote** class.
+Initializes an instance of the [Footnote](../) class.
 
 
 
@@ -23,10 +23,10 @@ def __init__(self, doc: aspose.words.DocumentBase, footnote_type: aspose.words.n
 | doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
 | footnote_type | [FootnoteType](../../footnotetype/) |  |
 
-When **Footnote** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Footnote](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.
 
-To append **Footnote** to the document use InsertAfter or InsertBefore
+To append [Footnote](../) to the document use [CompositeNode.insert_after()](../../../aspose.words/compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../../aspose.words/compositenode/insert_before/#node_node)
 on the paragraph where you want the footnote inserted.
 
 

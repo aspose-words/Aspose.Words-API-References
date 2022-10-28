@@ -11,7 +11,7 @@ url: /python-net/aspose.words.fonts/fontinfo/alt_name/
 
 Gets or sets the alternate name for the font.
 
-Cannot be ``null``. Can be an empty string.
+Cannot be ``None``. Can be an empty string.
 
 
 

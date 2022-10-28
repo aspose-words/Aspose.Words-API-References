@@ -23,7 +23,7 @@ def get_by_id(self, id: str):
 
 ### Returns
 
-Returns ``null`` if a custom XML part with the specified identifier is not found.
+Returns ``None`` if a custom XML part with the specified identifier is not found.
 
 
 ### Examples

@@ -3,7 +3,7 @@ title: start_table method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Starts a table in the document."
 type: docs
-weight: 610
+weight: 640
 url: /python-net/aspose.words/documentbuilder/start_table/
 ---
 

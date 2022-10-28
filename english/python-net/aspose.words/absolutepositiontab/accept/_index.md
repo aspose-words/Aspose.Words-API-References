@@ -21,7 +21,7 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../documentvisitor/) |  |
 
-Calls DocumentVisitor.VisitAbsolutePositionTab.
+Calls [DocumentVisitor.visit_absolute_position_tab()](../../documentvisitor/visit_absolute_position_tab/#absolutepositiontab).
 
 For more info see the Visitor design pattern.
 
@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-False if the visitor requested the enumeration to stop.
+``False`` if the visitor requested the enumeration to stop.
 
 
 ### See Also

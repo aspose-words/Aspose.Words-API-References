@@ -10,9 +10,9 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/use_target_machine_fon
 ## HtmlFixedSaveOptions.use_target_machine_fonts property
 
 Flag indicates whether fonts from target machine must be used to display the document.
-If this flag is set to true, [HtmlFixedSaveOptions.font_format](../font_format/) and [HtmlFixedSaveOptions.export_embedded_fonts](../export_embedded_fonts/) properties do not have effect,
+If this flag is set to ``True``, [HtmlFixedSaveOptions.font_format](../font_format/) and [HtmlFixedSaveOptions.export_embedded_fonts](../export_embedded_fonts/) properties do not have effect,
 also [HtmlFixedSaveOptions.resource_saving_callback](../resource_saving_callback/) is not fired for fonts.
-Default is false.
+Default is ``False``.
 
 
 

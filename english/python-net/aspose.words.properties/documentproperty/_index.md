@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentProperty class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a custom or built-in document property."
+description: "Represents a custom or built-in document property"
 type: docs
 weight: 30
 url: /python-net/aspose.words.properties/documentproperty/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.properties/documentproperty/
 ## DocumentProperty class
 
 Represents a custom or built-in document property.
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
+
 
 
 ### Properties
@@ -28,7 +31,7 @@ Represents a custom or built-in document property.
 | --- | --- |
 |[ to_bool()](./to_bool/#default) | Returns the property value as bool. |
 |[ to_byte_array()](./to_byte_array/#default) | Returns the property value as byte array. |
-|[ to_date_time()](./to_date_time/#default) | Returns the property value as DateTime in UTC. |
+|[ to_date_time()](./to_date_time/#default) | Returns the property value as **DateTime** in UTC. |
 |[ to_double()](./to_double/#default) | Returns the property value as double. |
 |[ to_int()](./to_int/#default) | Returns the property value as integer. |
 

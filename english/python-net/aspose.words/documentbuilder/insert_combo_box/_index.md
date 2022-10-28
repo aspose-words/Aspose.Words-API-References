@@ -3,7 +3,7 @@ title: insert_combo_box method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a combobox form field at the current position."
 type: docs
-weight: 280
+weight: 300
 url: /python-net/aspose.words/documentbuilder/insert_combo_box/
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: License class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods to license the component."
+description: "Provides methods to license the component"
 type: docs
 weight: 610
 url: /python-net/aspose.words/license/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/license/
 ## License class
 
 Provides methods to license the component.
+To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/net/licensing/) documentation article.
+
+
 
 
 ### Constructors

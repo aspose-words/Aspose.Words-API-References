@@ -1,7 +1,7 @@
 ﻿---
 title: Forms2OleControl class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents Microsoft Forms 2.0 OLE control."
+description: "Represents Microsoft Forms 2.0 OLE control"
 type: docs
 weight: 10
 url: /python-net/aspose.words.drawing.ole/forms2olecontrol/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/
 ## Forms2OleControl class
 
 Represents Microsoft Forms 2.0 OLE control.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
+
 
 
 **Inheritance:** [Forms2OleControl](./) → [OleControl](../olecontrol/)
@@ -20,8 +23,8 @@ Represents Microsoft Forms 2.0 OLE control.
 | --- | --- |
 | [caption](./caption/) | Gets Caption property of control. Default value is an empty string. |
 | [child_nodes](./child_nodes/) | Gets collection of immediate child controls. |
-| [enabled](./enabled/) | Returns true if control is in enabled state. |
-| [is_forms2_ole_control](../olecontrol/is_forms2_ole_control/) | Returns true if the control is a [Forms2OleControl](./).<br>(Inherited from [OleControl](../olecontrol/)) |
+| [enabled](./enabled/) | Returns ``True`` if control is in enabled state. |
+| [is_forms2_ole_control](../olecontrol/is_forms2_ole_control/) | Returns ``True`` if the control is a [Forms2OleControl](./).<br>(Inherited from [OleControl](../olecontrol/)) |
 | [name](../olecontrol/name/) | Gets name of the ActiveX control.<br>(Inherited from [OleControl](../olecontrol/)) |
 | [type](./type/) | Gets type of Forms 2.0 control. |
 | [value](./value/) | Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string. |

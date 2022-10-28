@@ -1,7 +1,7 @@
 ﻿---
 title: get_value method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a value for the specified field name or false if the field is not found."
+description: "Returns a value for the specified field name or ``False`` if the field is not found."
 type: docs
 weight: 30
 url: /python-net/aspose.words.mailmerging/imailmergedatasource/get_value/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.mailmerging/imailmergedatasource/get_value/
 
 ## get_value(field_name, field_value) {#str_unknown}
 
-Returns a value for the specified field name or false if the field is not found.
+Returns a value for the specified field name or ``False`` if the field is not found.
+
 
 
 ```python
@@ -24,7 +25,7 @@ def get_value(self, field_name: str, field_value):
 
 ### Returns
 
-**true** if value was found.
+``True`` if value was found.
 
 
 ### Examples

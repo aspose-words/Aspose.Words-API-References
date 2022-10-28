@@ -1,7 +1,7 @@
 ﻿---
 title: type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [VbaReferenceType](../../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents."
+description: "Gets [VbaReferenceType](../../vbareferencetype/) object that indicates the type of reference that a [VbaReference](../) object represents."
 type: docs
 weight: 20
 url: /python-net/aspose.words.vba/vbareference/type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.vba/vbareference/type/
 
 ## VbaReference.type property
 
-Gets [VbaReferenceType](../../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents.
+Gets [VbaReferenceType](../../vbareferencetype/) object that indicates the type of reference that a [VbaReference](../) object represents.
 
 
 

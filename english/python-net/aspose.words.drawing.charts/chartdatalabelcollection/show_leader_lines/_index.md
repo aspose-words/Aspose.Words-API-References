@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_leade
 ## ChartDataLabelCollection.show_leader_lines property
 
 Allows to specify whether data label leader lines need be shown for the data labels of the entire series.
-Default value is **false**.
+Default value is ``False``.
 
 
 Applies to Pie charts only. 

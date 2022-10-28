@@ -3,14 +3,14 @@ title: use_substitutions property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns"
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.replacing/findreplaceoptions/use_substitutions/
 ---
 
 ## FindReplaceOptions.use_substitutions property
 
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns.
-The default value is ``false``.
+The default value is ``False``.
 
 
 For the details on substitution elements please refer to:

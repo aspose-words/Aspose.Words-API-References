@@ -1,7 +1,7 @@
 ﻿---
 title: body property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the Body child node of the section."
+description: "Returns the [Body](../../body/) child node of the section."
 type: docs
 weight: 20
 url: /python-net/aspose.words/section/body/
@@ -9,12 +9,12 @@ url: /python-net/aspose.words/section/body/
 
 ## Section.body property
 
-Returns the **Body** child node of the section.
+Returns the [Body](../../body/) child node of the section.
 
 
-**Body** contains main text of the section.
+[Body](../../body/) contains main text of the section.
 
-Returns null if the section does not have a **Body** node among its children.
+Returns ``None`` if the section does not have a [Body](../../body/) node among its children.
 
 
 

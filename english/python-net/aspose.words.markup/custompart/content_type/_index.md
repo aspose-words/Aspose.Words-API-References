@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/custompart/content_type/
 
 Specifies the content type of this custom part.
 
-This property is applicable only when [CustomPart.is_external](../is_external/) is ``false``.
+This property is applicable only when [CustomPart.is_external](../is_external/) is ``False``.
 
 The default value is an empty string. A valid value must be a non-empty string.
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/export_embedded_svg/
 ## HtmlFixedSaveOptions.export_embedded_svg property
 
 Specifies whether SVG resources should be embedded into Html document.
-Default value is ``true``.
+Default value is ``True``.
 
 
 

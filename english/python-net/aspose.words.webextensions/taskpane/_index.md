@@ -1,7 +1,7 @@
 ﻿---
 title: TaskPane class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents an add-in task pane object."
+description: "Represents an add-in task pane object"
 type: docs
 weight: 10
 url: /python-net/aspose.words.webextensions/taskpane/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.webextensions/taskpane/
 ## TaskPane class
 
 Represents an add-in task pane object.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
+
 
 
 ### Constructors

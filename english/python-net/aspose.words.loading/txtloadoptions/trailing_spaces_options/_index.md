@@ -3,7 +3,7 @@ title: trailing_spaces_options property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets preferred option of a trailing space handling"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.loading/txtloadoptions/trailing_spaces_options/
 ---
 

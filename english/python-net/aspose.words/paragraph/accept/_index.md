@@ -21,20 +21,21 @@ def accept(self, visitor: aspose.words.DocumentVisitor):
 | --- | --- | --- |
 | visitor | [DocumentVisitor](../../documentvisitor/) |  |
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 
 
 
-Calls DocumentVisitor.VisitParagraphStart, then calls Accept for all child nodes
-of the paragraph and calls DocumentVisitor.VisitParagraphEnd at the end.
+Calls [DocumentVisitor.visit_paragraph_start()](../../documentvisitor/visit_paragraph_start/#paragraph), then calls [Node.accept()](../../node/accept/#documentvisitor) for all child nodes
+of the paragraph and calls [DocumentVisitor.visit_paragraph_end()](../../documentvisitor/visit_paragraph_end/#paragraph) at the end.
+
 
 
 ### Returns
 
-True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
+True if all nodes were visited; false if [DocumentVisitor](../../documentvisitor/) stopped the operation before visiting all nodes.
 
 
 ### See Also

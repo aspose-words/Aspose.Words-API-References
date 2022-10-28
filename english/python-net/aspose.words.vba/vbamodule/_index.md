@@ -1,7 +1,7 @@
 ﻿---
 title: VbaModule class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to VBA project module."
+description: "Provides access to VBA project module"
 type: docs
 weight: 10
 url: /python-net/aspose.words.vba/vbamodule/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.vba/vbamodule/
 ## VbaModule class
 
 Provides access to VBA project module.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
+
 
 
 ### Constructors

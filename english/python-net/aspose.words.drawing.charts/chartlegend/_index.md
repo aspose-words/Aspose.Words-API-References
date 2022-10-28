@@ -1,7 +1,7 @@
 ﻿---
 title: ChartLegend class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents chart legend properties."
+description: "Represents chart legend properties"
 type: docs
 weight: 190
 url: /python-net/aspose.words.drawing.charts/chartlegend/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartlegend/
 ## ChartLegend class
 
 Represents chart legend properties.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 ### Constructors
@@ -22,7 +25,7 @@ Represents chart legend properties.
 | Name | Description |
 | --- | --- |
 | [legend_entries](./legend_entries/) | Returns a collection of legend entries for all series and trendlines of the parent chart. |
-| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap legend. Default value is false. |
+| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap legend. Default value is ``False``. |
 | [position](./position/) | Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../legendposition/#RIGHT). |
 
 ### Examples

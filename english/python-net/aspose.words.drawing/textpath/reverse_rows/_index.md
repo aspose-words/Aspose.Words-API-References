@@ -11,9 +11,9 @@ url: /python-net/aspose.words.drawing/textpath/reverse_rows/
 
 Determines whether the layout order of rows is reversed.
 
-The default value is **false**.
+The default value is ``False``.
 
-If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
+If ``True``, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
 
 

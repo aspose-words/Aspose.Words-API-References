@@ -12,11 +12,11 @@ url: /python-net/aspose.words.saving/rtfsaveoptions/export_compact_size/
 Allows to make output RTF documents smaller in size, but if they contain 
 RTL (right-to-left) text, it will not be displayed correctly.
 
-Default value is ``false``.
+Default value is ``False``.
 
 
 If the document that you want to convert to RTF using Aspose.Words does not contain
-right-to-left text in languages like Arabic, then you can set this option to ``true``
+right-to-left text in languages like Arabic, then you can set this option to ``True``
 to reduce the size of the resulting RTF.
 
 

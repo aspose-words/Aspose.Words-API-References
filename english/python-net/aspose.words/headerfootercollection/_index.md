@@ -1,7 +1,7 @@
 ﻿---
 title: HeaderFooterCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to [HeaderFooter](../headerfooter/) nodes of a Section."
+description: "Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
 type: docs
 weight: 440
 url: /python-net/aspose.words/headerfootercollection/
@@ -9,15 +9,17 @@ url: /python-net/aspose.words/headerfootercollection/
 
 ## HeaderFooterCollection class
 
-Provides typed access to [HeaderFooter](../headerfooter/) nodes of a **Section**.
+Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/).
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
 
 
 
-There can be maximum of one **HeaderFooter**
+
+There can be maximum of one [HeaderFooter](../headerfooter/)
 
  of each[HeaderFooterType](../headerfootertype/) per
-**Section**.
-**HeaderFooter** objects can occur in any order in the collection.
+[Section](../section/).
+[HeaderFooter](../headerfooter/) objects can occur in any order in the collection.
 
 
 
@@ -28,13 +30,19 @@ There can be maximum of one **HeaderFooter**
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **HeaderFooter** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [HeaderFooter](../headerfooter/) at the given index. |
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
 | [count](../nodecollection/count/) | Gets the number of nodes in the collection.<br>(Inherited from [NodeCollection](../nodecollection/)) |
+| [footer_even](./footer_even/) | Retrieves a footer for even numbered pages. |
+| [footer_first](./footer_first/) | Retrieves a footer for the first page of the section. |
+| [footer_primary](./footer_primary/) | Retrieves a primary footer, also used for odd numbered pages. |
+| [header_even](./header_even/) | Retrieves a header for even numbered pages. |
+| [header_first](./header_first/) | Retrieves a header for the first page of the section. |
+| [header_primary](./header_primary/) | Retrieves a primary header, also used for odd numbered pages. |
 
 ### Methods
 

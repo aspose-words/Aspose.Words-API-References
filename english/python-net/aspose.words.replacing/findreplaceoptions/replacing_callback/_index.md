@@ -3,7 +3,7 @@ title: replacing_callback property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "The user-defined method which is called before every replace occurrence."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.replacing/findreplaceoptions/replacing_callback/
 ---
 

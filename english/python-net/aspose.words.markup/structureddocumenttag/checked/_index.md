@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/checked/
 ## StructuredDocumentTag.checked property
 
 Gets/Sets current state of the Checkbox **SDT**.
-Default value for this property is false.
+Default value for this property is ``False``.
 
 
 Accessing this property will only work for [SdtType.CHECKBOX](../../sdttype/#CHECKBOX)

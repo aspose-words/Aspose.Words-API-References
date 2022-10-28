@@ -11,7 +11,7 @@ url: /python-net/aspose.words.settings/odso/first_row_contains_column_names/
 
 Specifies that a hosting application shall treat the first row of data in the specified external data
 source as a header row containing the names of each column in the data source.
-The default value is ``false``.
+The default value is ``False``.
 
 
 RK I have never seen this in use.

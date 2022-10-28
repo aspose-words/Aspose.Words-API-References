@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.SpecialChar."
+description: "Returns [NodeType.SPECIAL_CHAR](../../nodetype/#SPECIAL_CHAR)."
 type: docs
 weight: 10
 url: /python-net/aspose.words/specialchar/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/specialchar/node_type/
 
 ## SpecialChar.node_type property
 
-Returns **NodeType.SpecialChar**.
+Returns [NodeType.SPECIAL_CHAR](../../nodetype/#SPECIAL_CHAR).
 
 
 

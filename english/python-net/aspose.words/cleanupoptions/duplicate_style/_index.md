@@ -10,7 +10,7 @@ url: /python-net/aspose.words/cleanupoptions/duplicate_style/
 ## CleanupOptions.duplicate_style property
 
 Gets/sets a flag indicating whether duplicate styles should be removed from document.
-Default value is **false**.
+Default value is ``False``.
 
 
 

@@ -9,7 +9,8 @@ url: /python-net/aspose.words.fields/field/separator/
 
 ## Field.separator property
 
-Gets the node that represents the field separator. Can be null.
+Gets the node that represents the field separator. Can be ``None``.
+
 
 
 ### See Also

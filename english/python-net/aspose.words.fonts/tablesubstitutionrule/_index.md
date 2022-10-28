@@ -1,7 +1,7 @@
 ﻿---
 title: TableSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Table font substitution rule."
+description: "Table font substitution rule"
 type: docs
 weight: 230
 url: /python-net/aspose.words.fonts/tablesubstitutionrule/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/tablesubstitutionrule/
 ## TableSubstitutionRule class
 
 Table font substitution rule.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 This rule defines the list of substitute font names to be used if the original font is not available.

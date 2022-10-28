@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/smarttag/properties/
 
 A collection of the smart tag properties.
 
-Cannot be null.
+Cannot be ``None``.
 
 
 

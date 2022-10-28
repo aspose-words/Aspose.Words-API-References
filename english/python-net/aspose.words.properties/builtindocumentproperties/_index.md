@@ -1,7 +1,7 @@
 ﻿---
 title: BuiltInDocumentProperties class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of built-in document properties."
+description: "A collection of built-in document properties"
 type: docs
 weight: 10
 url: /python-net/aspose.words.properties/builtindocumentproperties/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/
 ## BuiltInDocumentProperties class
 
 A collection of built-in document properties.
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
+
 
 
 Provides access to [DocumentProperty](../documentproperty/) objects by their names (using an indexer) and
@@ -44,8 +47,8 @@ The properties in the collection are sorted alphabetically by name.
 | [characters_with_spaces](./characters_with_spaces/) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [comments](./comments/) | Gets or sets the document comments. |
 | [company](./company/) | Gets or sets the company property. |
-| [content_status](./content_status/) | Gets or sets the ContentStatus of the document. |
-| [content_type](./content_type/) | Gets or sets the ContentStatus of the document. |
+| [content_status](./content_status/) | Gets or sets the Aspose.Words.Properties.PropertyName.ContentStatus of the document. |
+| [content_type](./content_type/) | Gets or sets the Aspose.Words.Properties.PropertyName.ContentType of the document. |
 | [count](../documentpropertycollection/count/) | Gets number of items in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 | [created_time](./created_time/) | Gets or sets date of the document creation in UTC. |
 | [heading_pairs](./heading_pairs/) | Specifies document headings and their names. |
@@ -76,7 +79,7 @@ The properties in the collection are sorted alphabetically by name.
 | Name | Description |
 | --- | --- |
 |[ clear()](../documentpropertycollection/clear/#default) | Removes all properties from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
-|[ contains(name)](../documentpropertycollection/contains/#str) | Returns true if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
+|[ contains(name)](../documentpropertycollection/contains/#str) | Returns ``True`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ get_by_name(name)](../documentpropertycollection/get_by_name/#str) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ index_of(name)](../documentpropertycollection/index_of/#str) | Gets the index of a property by name.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ remove(name)](../documentpropertycollection/remove/#str) | Removes a property with the specified name from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |

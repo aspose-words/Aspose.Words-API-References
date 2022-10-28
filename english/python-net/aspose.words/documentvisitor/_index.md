@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentVisitor class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for custom document visitors."
+description: "Base class for custom document visitors"
 type: docs
 weight: 310
 url: /python-net/aspose.words/documentvisitor/
@@ -10,27 +10,30 @@ url: /python-net/aspose.words/documentvisitor/
 ## DocumentVisitor class
 
 Base class for custom document visitors.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 
-With **DocumentVisitor** you can define and execute custom operations
+
+
+With [DocumentVisitor](./) you can define and execute custom operations
 that require enumeration over the document tree.
 
-For example, Aspose.Words uses **DocumentVisitor** internally for saving **Document**
+For example, Aspose.Words uses [DocumentVisitor](./) internally for saving [Document](../document/)
 in various formats and for other operations like finding fields or bookmarks over
 a fragment of a document.
 
-To use **DocumentVisitor**:
+To use [DocumentVisitor](./):
 
 
-1. Create a class derived from **DocumentVisitor**.
+1. Create a class derived from [DocumentVisitor](./).
    
 1. Override and provide implementations for some or all of the VisitXXX methods
    to perform some custom operations.
    
-1. Call [Node.accept()](../node/accept/#documentvisitor) on the **Node** that
+1. Call [Node.accept()](../node/accept/#documentvisitor) on the [Node](../node/) that
    you want to start the enumeration from.
    
-**DocumentVisitor** provides default implementations for all of the VisitXXX methods 
+[DocumentVisitor](./) provides default implementations for all of the VisitXXX methods 
 to make it easier to create new document visitors as only the methods required for the particular
 visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
@@ -90,7 +93,7 @@ For more information see the Visitor design pattern.
 |[ visit_structured_document_tag_range_end(sdt_range_end)](./visit_structured_document_tag_range_end/#structureddocumenttagrangeend) |  |
 |[ visit_structured_document_tag_range_start(sdt_range_start)](./visit_structured_document_tag_range_start/#structureddocumenttagrangestart) |  |
 |[ visit_structured_document_tag_start(sdt)](./visit_structured_document_tag_start/#structureddocumenttag) | Called when enumeration of a structured document tag has started. |
-|[ visit_sub_document(sub_document)](./visit_sub_document/#subdocument) | Called when a subDocument is encountered. |
+|[ visit_sub_document(sub_document)](./visit_sub_document/#subdocument) | Called when a sub-document is encountered. |
 |[ visit_table_end(table)](./visit_table_end/#table) | Called when enumeration of a table has ended. |
 |[ visit_table_start(table)](./visit_table_start/#table) | Called when enumeration of a table has started. |
 

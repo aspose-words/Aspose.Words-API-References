@@ -1,7 +1,7 @@
 ﻿---
 title: is_external property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "``False`` if this custom part is stored inside the OOXML package"
+description: "False if this custom part is stored inside the OOXML package"
 type: docs
 weight: 40
 url: /python-net/aspose.words.markup/custompart/is_external/
@@ -9,10 +9,9 @@ url: /python-net/aspose.words.markup/custompart/is_external/
 
 ## CustomPart.is_external property
 
-``False`` if this custom part is stored inside the OOXML package. ``True`` if this custom part is an external target.
+False if this custom part is stored inside the OOXML package. True if this custom part is an external target.
 
-
-The default value is ``false``.
+The default value is ``False``.
 
 
 

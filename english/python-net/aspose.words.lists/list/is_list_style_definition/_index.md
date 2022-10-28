@@ -1,7 +1,7 @@
 ﻿---
 title: is_list_style_definition property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this list is a definition of a list style."
+description: "Returns ``True`` if this list is a definition of a list style."
 type: docs
 weight: 20
 url: /python-net/aspose.words.lists/list/is_list_style_definition/
@@ -9,9 +9,10 @@ url: /python-net/aspose.words.lists/list/is_list_style_definition/
 
 ## List.is_list_style_definition property
 
-Returns true if this list is a definition of a list style.
+Returns ``True`` if this list is a definition of a list style.
 
-When this property is true, the [List.style](../style/) property returns the list style that
+
+When this property is ``True``, the [List.style](../style/) property returns the list style that
 this list defines.
 
 By modifying properties of a list that defines a list style, you modify the properties

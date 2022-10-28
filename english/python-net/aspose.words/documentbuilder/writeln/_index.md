@@ -3,7 +3,7 @@ title: writeln method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.writeln method"
 type: docs
-weight: 630
+weight: 660
 url: /python-net/aspose.words/documentbuilder/writeln/
 ---
 

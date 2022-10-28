@@ -1,7 +1,7 @@
 ﻿---
 title: cells property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to the Cell child nodes of the row."
+description: "Provides typed access to the [Cell](../../cell/) child nodes of the row."
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/row/cells/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/row/cells/
 
 ## Row.cells property
 
-Provides typed access to the **Cell** child nodes of the row.
+Provides typed access to the [Cell](../../cell/) child nodes of the row.
 
 
 
@@ -24,7 +24,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -33,7 +33,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 

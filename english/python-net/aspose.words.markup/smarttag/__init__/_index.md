@@ -28,7 +28,7 @@ such as lists and styles. Although a node always belongs to a document, a node m
 not be a part of the document tree.
 
 When a node is created, it belongs to a document, but is not yet part of the document tree
-and [Node.parent_node](../../../aspose.words/node/parent_node/) is null. To insert a node into the document, use the
+and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``. To insert a node into the document, use the
 [CompositeNode.insert_after()](../../../aspose.words/compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../../aspose.words/compositenode/insert_before/#node_node) methods
 on the parent node.
 

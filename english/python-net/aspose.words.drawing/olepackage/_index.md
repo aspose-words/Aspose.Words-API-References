@@ -1,7 +1,7 @@
 ﻿---
 title: OlePackage class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to access OLE Package properties."
+description: "Allows to access OLE Package properties"
 type: docs
 weight: 230
 url: /python-net/aspose.words.drawing/olepackage/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/olepackage/
 ## OlePackage class
 
 Allows to access OLE Package properties.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
+
 
 
 OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown.

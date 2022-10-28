@@ -58,7 +58,7 @@ self.assertEqual(format.space_after, 0.0)
 
 format.line_unit_after = 10.9
 
-self.assertEqual(format.space_after, 130.8, 0.1)
+self.assertAlmostEqual(format.space_after, 130.8, delta=0.1)
 
 builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")

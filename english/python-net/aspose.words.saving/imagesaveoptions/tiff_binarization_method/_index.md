@@ -1,7 +1,7 @@
 ﻿---
 title: tiff_binarization_method property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.save_format](../save_format/) is  SaveFormat.Tiff and [ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4."
+description: "Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.save_format](../save_format/) is [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF) and [ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to [TiffCompression.CCITT3](../../tiffcompression/#CCITT3) or [TiffCompression.CCITT4](../../tiffcompression/#CCITT4)."
 type: docs
 weight: 140
 url: /python-net/aspose.words.saving/imagesaveoptions/tiff_binarization_method/
@@ -10,11 +10,11 @@ url: /python-net/aspose.words.saving/imagesaveoptions/tiff_binarization_method/
 ## ImageSaveOptions.tiff_binarization_method property
 
 Gets or sets method used while converting images to 1 bpp format
-when [ImageSaveOptions.save_format](../save_format/) is  SaveFormat.Tiff and
-[ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4.
+when [ImageSaveOptions.save_format](../save_format/) is [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF) and
+[ImageSaveOptions.tiff_compression](../tiff_compression/) is equal to [TiffCompression.CCITT3](../../tiffcompression/#CCITT3) or [TiffCompression.CCITT4](../../tiffcompression/#CCITT4).
 
 
-The default value is ImageBinarizationMethod.Threshold.
+The default value is [ImageBinarizationMethod.THRESHOLD](../../imagebinarizationmethod/#THRESHOLD).
 
 
 

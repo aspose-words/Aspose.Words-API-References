@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/smarttag/element/
 
 Specifies the name of the smart tag within the document.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

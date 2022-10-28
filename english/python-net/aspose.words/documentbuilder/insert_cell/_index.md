@@ -3,7 +3,7 @@ title: insert_cell method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a table cell into the document."
 type: docs
-weight: 250
+weight: 270
 url: /python-net/aspose.words/documentbuilder/insert_cell/
 ---
 
@@ -17,10 +17,10 @@ def insert_cell(self):
     ...
 ```
 
-To start a table, just call **InsertCell**. After this, any content you add using
+To start a table, just call [DocumentBuilder.insert_cell()](./#default). After this, any content you add using
 other methods of the [DocumentBuilder](../) class will be added to the current cell.
 
-To start a new cell in the same row, call **InsertCell** again.
+To start a new cell in the same row, call [DocumentBuilder.insert_cell()](./#default) again.
 
 To end a table row call [DocumentBuilder.end_row()](../end_row/#default).
 

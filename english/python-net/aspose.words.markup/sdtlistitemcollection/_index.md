@@ -1,7 +1,7 @@
 ﻿---
 title: SdtListItemCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag."
+description: "Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag"
 type: docs
 weight: 140
 url: /python-net/aspose.words.markup/sdtlistitemcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.markup/sdtlistitemcollection/
 ## SdtListItemCollection class
 
 Provides access to [SdtListItem](../sdtlistitem/) elements of a structured document tag.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 
 
 

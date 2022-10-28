@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.SmartTag."
+description: "Returns [NodeType.SMART_TAG](../../../aspose.words/nodetype/#SMART_TAG)."
 type: docs
 weight: 30
 url: /python-net/aspose.words.markup/smarttag/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.markup/smarttag/node_type/
 
 ## SmartTag.node_type property
 
-Returns **NodeType.SmartTag**.
+Returns [NodeType.SMART_TAG](../../../aspose.words/nodetype/#SMART_TAG).
 
 
 

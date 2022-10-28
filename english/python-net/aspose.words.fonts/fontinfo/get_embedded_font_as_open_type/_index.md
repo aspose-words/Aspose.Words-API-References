@@ -23,7 +23,7 @@ def get_embedded_font_as_open_type(self, style: aspose.words.fonts.EmbeddedFontS
 
 ### Returns
 
-Returns ``null`` if the specified font is not embedded.
+Returns ``None`` if the specified font is not embedded.
 
 
 ### Examples

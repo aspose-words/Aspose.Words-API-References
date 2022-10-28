@@ -21,7 +21,7 @@ def index_of(self, node: aspose.words.Node):
 | --- | --- | --- |
 | node | [Node](../../node/) |  |
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+This method performs a linear search; therefore, the average execution time is proportional to [NodeCollection.count](../count/).
 
 
 

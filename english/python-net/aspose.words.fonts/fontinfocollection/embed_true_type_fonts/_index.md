@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fonts/fontinfocollection/embed_true_type_fonts/
 ## FontInfoCollection.embed_true_type_fonts property
 
 Specifies whether or not to embed TrueType fonts in a document when it is saved.
-Default value for this property is **false**.
+Default value for this property is ``False``.
 
 
 Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it,

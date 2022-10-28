@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/allow_negative_indent/
 ## HtmlSaveOptions.allow_negative_indent property
 
 Specifies whether negative left and right indents of paragraphs are normalized
-when saving to HTML, MHTML or EPUB. Default value is ``false``.
+when saving to HTML, MHTML or EPUB. Default value is ``False``.
 
 
 When negative indent is not allowed, it is exported as zero margin to HTML.

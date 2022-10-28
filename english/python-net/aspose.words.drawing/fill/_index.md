@@ -1,7 +1,7 @@
 ﻿---
 title: Fill class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents fill formatting for an object."
+description: "Represents fill formatting for an object"
 type: docs
 weight: 60
 url: /python-net/aspose.words.drawing/fill/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/fill/
 ## Fill class
 
 Represents fill formatting for an object.
+To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article.
+
+
 
 
 Use the [ShapeBase.fill](../shapebase/fill/) or [Font.fill](../../aspose.words/font/fill/) property to access fill properties of an object.
@@ -31,14 +34,14 @@ You do not create instances of the [Fill](./) class directly.
 | [gradient_style](./gradient_style/) | Gets the gradient style [GradientStyle](../gradientstyle/) for the fill. |
 | [gradient_variant](./gradient_variant/) | Gets the gradient variant [GradientVariant](../gradientvariant/) for the fill. |
 | [image_bytes](./image_bytes/) | Gets the raw bytes of the fill texture or pattern. |
-| [on](./on/) | Gets or sets value that is ``true`` if the formatting applied to this instance, is visible. |
+| [on](./on/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
 | [opacity](./opacity/) | Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque). |
 | [pattern](./pattern/) | Gets a [PatternType](../patterntype/) for the fill. |
 | [preset_texture](./preset_texture/) | Gets a [PresetTexture](../presettexture/) for the fill. |
 | [rotate_with_object](./rotate_with_object/) | Gets or sets whether the fill rotates with the specified object. |
 | [texture_alignment](./texture_alignment/) | Gets or sets the alignment for tile texture fill. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
-| [visible](./visible/) | Gets or sets value that is ``true`` if the formatting applied to this instance, is visible. |
+| [visible](./visible/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
 
 ### Methods
 

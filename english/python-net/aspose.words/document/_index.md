@@ -1,7 +1,7 @@
 ﻿---
 title: Document class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a Word document."
+description: "Represents a Word document"
 type: docs
 weight: 270
 url: /python-net/aspose.words/document/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/document/
 ## Document class
 
 Represents a Word document.
+To learn more, visit the [Working with Document](https://docs.aspose.com/words/net/working-with-document/) documentation article.
+
+
 
 
 The **Document** is a central object in the Aspose.Words library.
@@ -21,14 +24,8 @@ constructor without parameters.
 Use one of the Save method overloads to save the document in any of the
 [SaveFormat](../saveformat/) formats.
 
-To draw document pages directly onto a **Graphics** object use
-Aspose.Words.Document.RenderToScale(System.Int32,SkiaSharp.SKCanvas,System.Single,System.Single,System.Single) or Aspose.Words.Document.RenderToSize(System.Int32,SkiaSharp.SKCanvas,System.Single,System.Single,System.Single,System.Single) method.
-
 [Document.mail_merge](./mail_merge/) is the Aspose.Words's reporting engine that allows to populate
 reports designed in Microsoft Word with data from various data sources quickly and easily.
-The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values.
-**MailMerge** will go through the records found in the data source and insert them into
-mail merge fields in the document growing it as necessary.
 
 **Document** stores document-wide information such as [DocumentBase.styles](../documentbase/styles/),
 [Document.built_in_document_properties](./built_in_document_properties/), [Document.custom_document_properties](./custom_document_properties/), lists and macros.
@@ -80,7 +77,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | --- | --- |
 | [attached_template](./attached_template/) | Gets or sets the full path of the template attached to the document. |
 | [automatically_update_styles](./automatically_update_styles/) | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
-| [background_shape](../documentbase/background_shape/) | Gets or sets the background shape of the document. Can be null.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [background_shape](../documentbase/background_shape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [built_in_document_properties](./built_in_document_properties/) | Returns a collection that represents all the built-in document properties of the document. |
 | [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [compatibility_options](./compatibility_options/) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
@@ -93,7 +90,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [digital_signatures](./digital_signatures/) | Gets the collection of digital signatures for this document and their validation results. |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [endnote_options](./endnote_options/) | Provides options that control numbering and positioning of endnotes in this document. |
-| [field_options](./field_options/) | Gets a **FieldOptions** object that represents options to control field handling in the document. |
+| [field_options](./field_options/) | Gets a [FieldOptions](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [first_section](./first_section/) | Gets the first section in the document. |
 | [font_infos](../documentbase/font_infos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../documentbase/)) |
@@ -101,21 +98,21 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [footnote_options](./footnote_options/) | Provides options that control numbering and positioning of footnotes in this document. |
 | [frameset](./frameset/) | Returns a [Document.frameset](./frameset/) instance if this document represents a frames page. |
 | [glossary_document](./glossary_document/) | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
-| [grammar_checked](./grammar_checked/) | Returns **true** if the document has been checked for grammar. |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [has_macros](./has_macros/) | Returns **true** if the document has a VBA project (macros). |
-| [has_revisions](./has_revisions/) | Returns **true** if the document has any tracked changes. |
+| [grammar_checked](./grammar_checked/) | Returns ``True`` if the document has been checked for grammar. |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [has_macros](./has_macros/) | Returns ``True`` if the document has a VBA project (macros). |
+| [has_revisions](./has_revisions/) | Returns ``True`` if the document has any tracked changes. |
 | [hyphenation_options](./hyphenation_options/) | Provides access to document hyphenation options. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [last_section](./last_section/) | Gets the last section in the document. |
-| [layout_options](./layout_options/) | Gets a **LayoutOptions** object that represents options to control the layout process of this document. |
+| [layout_options](./layout_options/) | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
 | [lists](../documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
-| [mail_merge](./mail_merge/) | Returns a **MailMerge** object that represents the mail merge functionality for the document. |
+| [mail_merge](./mail_merge/) | Returns a [MailMerge](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [mail_merge_settings](./mail_merge_settings/) | Gets or sets the object that contains all of the mail merge information for a document. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_changing_callback](../documentbase/node_changing_callback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
-| [node_type](./node_type/) | Returns **NodeType.Document**. |
+| [node_type](./node_type/) | Returns [NodeType.DOCUMENT](../nodetype/#DOCUMENT). |
 | [original_file_name](./original_file_name/) | Gets the original file name of the document. |
 | [original_load_format](./original_load_format/) | Gets the format of the original document that was loaded into this object. |
 | [package_custom_parts](./package_custom_parts/) | Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
@@ -124,7 +121,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
 | [protection_type](./protection_type/) | Gets the currently active document protection type. |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [remove_personal_information](./remove_personal_information/) | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [resource_loading_callback](../documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [revisions](./revisions/) | Gets a collection of revisions (tracked changes) that exist in this document. |
@@ -133,15 +130,15 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [shade_form_data](./shade_form_data/) | Specifies whether to turn on the gray shading on form fields. |
 | [show_grammatical_errors](./show_grammatical_errors/) | Specifies whether to display grammar errors in this document. |
 | [show_spelling_errors](./show_spelling_errors/) | Specifies whether to display spelling errors in this document. |
-| [spelling_checked](./spelling_checked/) | Returns **true** if the document has been checked for spelling. |
+| [spelling_checked](./spelling_checked/) | Returns ``True`` if the document has been checked for spelling. |
 | [styles](../documentbase/styles/) | Returns a collection of styles defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [theme](./theme/) | Gets the [Document.theme](./theme/) object for this document. |
-| [track_revisions](./track_revisions/) | **True** if changes are tracked when this document is edited in Microsoft Word. |
+| [track_revisions](./track_revisions/) | True if changes are tracked when this document is edited in Microsoft Word. |
 | [variables](./variables/) | Returns the collection of variables added to a document or template. |
 | [vba_project](./vba_project/) | Gets or sets a [Document.vba_project](./vba_project/). |
 | [versions_count](./versions_count/) | Gets the number of document versions that was stored in the DOC document. |
 | [view_options](./view_options/) | Provides options to control how the document is displayed in Microsoft Word. |
-| [warning_callback](../documentbase/warning_callback/) | Called during various document processing procedures when an issue is detected that might result  in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [warning_callback](../documentbase/warning_callback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [watermark](./watermark/) | Provides access to the document watermark. |
 | [web_extension_task_panes](./web_extension_task_panes/) | Returns a collection that represents a list of task pane add-ins. |
 | [write_protection](./write_protection/) | Provides access to the document write protection options. |
@@ -196,7 +193,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ save(stream, save_format)](./save/#bytesio_saveformat) | Saves the document to a stream using the specified format. |
 |[ save(stream, save_options)](./save/#bytesio_saveoptions) | Saves the document to a stream using the specified save options. |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ start_track_revisions(author, date_time)](./start_track_revisions/#str_datetime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 |[ start_track_revisions(author)](./start_track_revisions/#str) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 |[ stop_track_revisions()](./stop_track_revisions/#default) | Stops automatic marking of document changes as revisions. |

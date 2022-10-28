@@ -11,7 +11,7 @@ url: /python-net/aspose.words/style/paragraph_format/
 
 Gets the paragraph formatting of the style.
 
-For character and list styles this property returns null.
+For character and list styles this property returns ``None``.
 
 
 

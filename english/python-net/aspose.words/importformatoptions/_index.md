@@ -1,7 +1,7 @@
 ﻿---
 title: ImportFormatOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify various import options to format output."
+description: "Allows to specify various import options to format output"
 type: docs
 weight: 550
 url: /python-net/aspose.words/importformatoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/importformatoptions/
 ## ImportFormatOptions class
 
 Allows to specify various import options to format output.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
+
 
 
 ### Constructors
@@ -21,12 +24,12 @@ Allows to specify various import options to format output.
 
 | Name | Description |
 | --- | --- |
-| [force_copy_styles](./force_copy_styles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode. The default value is ``false``. |
-| [ignore_header_footer](./ignore_header_footer/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``true``. |
-| [ignore_text_boxes](./ignore_text_boxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``true``. |
-| [keep_source_numbering](./keep_source_numbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``false``. |
-| [merge_pasted_lists](./merge_pasted_lists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``false``. |
-| [smart_style_behavior](./smart_style_behavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``false``. |
+| [force_copy_styles](./force_copy_styles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode. The default value is ``False``. |
+| [ignore_header_footer](./ignore_header_footer/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``True``. |
+| [ignore_text_boxes](./ignore_text_boxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used. The default value is ``True``. |
+| [keep_source_numbering](./keep_source_numbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``False``. |
+| [merge_pasted_lists](./merge_pasted_lists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``False``. |
+| [smart_style_behavior](./smart_style_behavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``False``. |
 
 ### Examples
 

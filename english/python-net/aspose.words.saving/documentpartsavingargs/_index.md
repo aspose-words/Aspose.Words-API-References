@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentPartSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IDocumentPartSavingCallback.document_part_saving()](../idocumentpartsavingcallback/document_part_saving/#documentpartsavingargs) callback."
+description: "Provides data for the [IDocumentPartSavingCallback.document_part_saving()](../idocumentpartsavingcallback/document_part_saving/#documentpartsavingargs) callback"
 type: docs
 weight: 100
 url: /python-net/aspose.words.saving/documentpartsavingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/documentpartsavingargs/
 ## DocumentPartSavingArgs class
 
 Provides data for the [IDocumentPartSavingCallback.document_part_saving()](../idocumentpartsavingcallback/document_part_saving/#documentpartsavingargs) callback.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 
 
 

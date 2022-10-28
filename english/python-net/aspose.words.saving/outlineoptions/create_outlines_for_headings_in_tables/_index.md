@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/outlineoptions/create_outlines_for_headings
 
 Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
 
-Default value is **false**.
+Default value is ``False``.
 
 
 

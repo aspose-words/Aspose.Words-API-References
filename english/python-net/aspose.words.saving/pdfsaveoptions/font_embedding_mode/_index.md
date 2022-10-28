@@ -3,7 +3,7 @@ title: font_embedding_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the font embedding mode."
 type: docs
-weight: 140
+weight: 160
 url: /python-net/aspose.words.saving/pdfsaveoptions/font_embedding_mode/
 ---
 
@@ -58,7 +58,7 @@ elif pdf_font_embedding_mode == aw.saving.PdfFontEmbeddingMode.EMBED_NONSTANDARD
     self.assertLess(480000, os.path.getsize(ARTIFACTS_DIR + "PdfSaveOptions.embed_windows_fonts.pdf"))
 
 elif pdf_font_embedding_mode == aw.saving.PdfFontEmbeddingMode.EMBED_NONE:
-    self.assertGreater(4217, os.path.getsize(ARTIFACTS_DIR + "PdfSaveOptions.embed_windows_fonts.pdf"))
+    self.assertGreater(4243, os.path.getsize(ARTIFACTS_DIR + "PdfSaveOptions.embed_windows_fonts.pdf"))
 ```
 
 ### See Also

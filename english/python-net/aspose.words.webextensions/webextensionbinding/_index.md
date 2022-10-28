@@ -1,7 +1,7 @@
 ﻿---
 title: WebExtensionBinding class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies a binding relationship between a web extension and the data in the document."
+description: "Specifies a binding relationship between a web extension and the data in the document"
 type: docs
 weight: 50
 url: /python-net/aspose.words.webextensions/webextensionbinding/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.webextensions/webextensionbinding/
 ## WebExtensionBinding class
 
 Specifies a binding relationship between a web extension and the data in the document.
+To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article.
+
+
 
 
 ### Constructors

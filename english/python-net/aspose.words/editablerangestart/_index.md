@@ -1,7 +1,7 @@
 ﻿---
 title: EditableRangeStart class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a start of an editable range in a Word document."
+description: "Represents a start of an editable range in a Word document"
 type: docs
 weight: 350
 url: /python-net/aspose.words/editablerangestart/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/editablerangestart/
 ## EditableRangeStart class
 
 Represents a start of an editable range in a Word document.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 A complete editable range in a Word document consists of a [EditableRangeStart](./)
@@ -39,12 +42,12 @@ as a single object.
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [editable_range](./editable_range/) | Gets the facade object that encapsulates this editable range start and end. |
 | [id](./id/) | Specifies the identifier of the editable range. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_type](./node_type/) | Returns [NodeType.EDITABLE_RANGE_START](../nodetype/#EDITABLE_RANGE_START). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 

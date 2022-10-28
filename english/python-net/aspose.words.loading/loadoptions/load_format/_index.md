@@ -3,7 +3,7 @@ title: load_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the format of the document to be loaded"
 type: docs
-weight: 90
+weight: 80
 url: /python-net/aspose.words.loading/loadoptions/load_format/
 ---
 

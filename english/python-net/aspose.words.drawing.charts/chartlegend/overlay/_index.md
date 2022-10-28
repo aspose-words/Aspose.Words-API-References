@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartlegend/overlay/
 ## ChartLegend.overlay property
 
 Determines whether other chart elements shall be allowed to overlap legend.
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

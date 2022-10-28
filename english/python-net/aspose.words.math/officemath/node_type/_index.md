@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.OfficeMath."
+description: "Returns [NodeType.OFFICE_MATH](../../../aspose.words/nodetype/#OFFICE_MATH)."
 type: docs
 weight: 50
 url: /python-net/aspose.words.math/officemath/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.math/officemath/node_type/
 
 ## OfficeMath.node_type property
 
-Returns **NodeType.OfficeMath**.
+Returns [NodeType.OFFICE_MATH](../../../aspose.words/nodetype/#OFFICE_MATH).
 
 
 

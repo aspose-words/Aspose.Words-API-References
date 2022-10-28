@@ -72,6 +72,7 @@ options = aw.saving.PdfSaveOptions()
 # Set the "page_mode" property to "PdfPageMode.USE_OUTLINES" to get the PDF reader
 # also to display the outline, if possible.
 # Set the "page_mode" property to "PdfPageMode.USE_NONE" to get the PDF reader to display just the document itself.
+# Set the "page_mode" property to "PdfPageMode.USE_ATTACHMENTS" to make visible attachments panel.
 options.page_mode = page_mode
 
 doc.save(ARTIFACTS_DIR + "PdfSaveOptions.page_mode.pdf", options)

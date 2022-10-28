@@ -11,7 +11,7 @@ url: /python-net/aspose.words/importformatoptions/ignore_header_footer/
 
 Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored
 if [ImportFormatMode.KEEP_SOURCE_FORMATTING](../../importformatmode/#KEEP_SOURCE_FORMATTING) mode is used.
-The default value is ``true``.
+The default value is ``True``.
 
 
 

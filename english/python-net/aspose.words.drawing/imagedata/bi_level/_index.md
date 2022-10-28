@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/imagedata/bi_level/
 
 Determines whether an image will be displayed in black and white.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

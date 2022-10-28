@@ -10,7 +10,7 @@ url: /python-net/aspose.words/signaturelineoptions/show_date/
 ## SignatureLineOptions.show_date property
 
 Gets or sets a value indicating that sign date is shown in the signature line.
-Default value for this property is **true**.
+Default value for this property is ``True``.
 
 
 

@@ -237,7 +237,7 @@ image_options.jpeg_quality = 100
 
 doc.save(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_quality.jpg", image_options)
 
-self.assertLess(60000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_quality.jpg"))
+self.assertLess(40000, os.path.getsize(ARTIFACTS_DIR + "ImageSaveOptions.jpeg_quality.high_quality.jpg"))
 ```
 
 Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.

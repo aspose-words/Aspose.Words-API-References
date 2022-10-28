@@ -1,7 +1,7 @@
 ﻿---
 title: is_link property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the image is linked to the shape (when [ImageData.source_full_name](../source_full_name/) is specified)."
+description: "Returns ``True`` if the image is linked to the shape (when [ImageData.source_full_name](../source_full_name/) is specified)."
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing/imagedata/is_link/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing/imagedata/is_link/
 
 ## ImageData.is_link property
 
-Returns true if the image is linked to the shape (when [ImageData.source_full_name](../source_full_name/) is specified).
+Returns ``True`` if the image is linked to the shape (when [ImageData.source_full_name](../source_full_name/) is specified).
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: is_composite property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this node can contain other nodes."
+description: "Returns ``True`` if this node can contain other nodes."
 type: docs
 weight: 30
 url: /python-net/aspose.words/node/is_composite/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/node/is_composite/
 
 ## Node.is_composite property
 
-Returns true if this node can contain other nodes.
+Returns ``True`` if this node can contain other nodes.
+
 
 
 ### Examples

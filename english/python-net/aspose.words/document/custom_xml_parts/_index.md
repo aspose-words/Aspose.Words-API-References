@@ -13,7 +13,7 @@ Gets or sets the collection of Custom XML Data Storage Parts.
 
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
-This property cannot be ``null``.
+This property cannot be ``None``.
 
 
 

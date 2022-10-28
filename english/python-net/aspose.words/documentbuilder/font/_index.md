@@ -3,7 +3,7 @@ title: font property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns an object that represents current font formatting properties."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words/documentbuilder/font/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.words/documentbuilder/font/
 
 Returns an object that represents current font formatting properties.
 
-Use **Font** to access and modify font formatting properties.
+Use [DocumentBuilder.font](./) to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
 

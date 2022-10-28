@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/show_page_border/
 ## HtmlFixedSaveOptions.show_page_border property
 
 Specifies whether border around pages should be shown.
-Default is ``true``.
+Default is ``True``.
 
 
 

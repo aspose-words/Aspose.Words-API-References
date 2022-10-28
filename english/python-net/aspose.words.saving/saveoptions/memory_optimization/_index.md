@@ -3,17 +3,18 @@ title: memory_optimization property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets value determining if memory optimization should be performed before saving the document"
 type: docs
-weight: 90
+weight: 80
 url: /python-net/aspose.words.saving/saveoptions/memory_optimization/
 ---
 
 ## SaveOptions.memory_optimization property
 
 Gets or sets value determining if memory optimization should be performed before saving the document.
-Default value for this property is **false**.
+Default value for this property is ``False``.
 
 
-Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Setting this option to ``True`` can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+
 
 
 ### Examples

@@ -11,7 +11,7 @@ url: /python-net/aspose.words/comment/initial/
 
 Returns or sets the initials of the user associated with a specific comment.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

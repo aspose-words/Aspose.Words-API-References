@@ -1,7 +1,7 @@
 ﻿---
 title: ViewOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides various options that control how a document is shown in Microsoft Word."
+description: "Provides various options that control how a document is shown in Microsoft Word"
 type: docs
 weight: 180
 url: /python-net/aspose.words.settings/viewoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.settings/viewoptions/
 ## ViewOptions class
 
 Provides various options that control how a document is shown in Microsoft Word.
+To learn more, visit the [Work with Options and Appearance of Word Documents](https://docs.aspose.com/words/net/work-with-word-document-options-and-appearance/) documentation article.
+
+
 
 
 ### Properties

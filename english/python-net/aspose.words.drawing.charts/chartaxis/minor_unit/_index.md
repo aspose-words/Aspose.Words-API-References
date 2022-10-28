@@ -14,7 +14,7 @@ Returns or sets the distance between minor tick marks.
 Valid range of a value is greater than zero. The property has effect for time category and
 value axes.
 
-Setting this property sets the [ChartAxis.minor_unit_is_auto](../minor_unit_is_auto/) property to **false**.
+Setting this property sets the [ChartAxis.minor_unit_is_auto](../minor_unit_is_auto/) property to ``False``.
 
 
 

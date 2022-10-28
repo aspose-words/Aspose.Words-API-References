@@ -3,7 +3,7 @@ title: insert_document method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.insert_document method"
 type: docs
-weight: 290
+weight: 310
 url: /python-net/aspose.words/documentbuilder/insert_document/
 ---
 

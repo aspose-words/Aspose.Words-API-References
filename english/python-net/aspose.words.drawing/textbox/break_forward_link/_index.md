@@ -1,7 +1,7 @@
 ﻿---
 title: break_forward_link method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Breaks the link to the next TextBox."
+description: "Breaks the link to the next [TextBox](../)."
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing/textbox/break_forward_link/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/textbox/break_forward_link/
 
 ## break_forward_link() {#default}
 
-Breaks the link to the next TextBox.
+Breaks the link to the next [TextBox](../).
+
 
 
 ```python
@@ -17,9 +18,10 @@ def break_forward_link(self):
     ...
 ```
 
-BreakForwardLink() doesn't break all other links in the current sequence of shapes.
-For example: 1-2-3-4 sequence and BreakForwardLink at the 2-nd textbox will create
+[TextBox.break_forward_link()](./#default) doesn't break all other links in the current sequence of shapes.
+For example: 1-2-3-4 sequence and [TextBox.break_forward_link()](./#default) at the 2-nd textbox will create
 two sequences 1-2, 3-4.
+
 
 
 ### Examples

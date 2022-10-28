@@ -23,7 +23,7 @@ def format_date_time(self, value: datetime, format: str, calendar_type: aspose.w
 | format | str |  |
 | calendar_type | [CalendarType](../../../aspose.words/calendartype/) |  |
 
-The implementation should return **null** to indicate that the default formatting should be applied.
+The implementation should return ``None`` to indicate that the default formatting should be applied.
 
 
 

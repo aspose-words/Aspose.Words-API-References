@@ -16,7 +16,7 @@ You can use this object to specify a mail merge data source for a document and t
 Or you can use this object to query mail merge settings that the user has specified in Microsoft Word
 for this document.
 
-This object is never null.
+This object is never ``None``.
 
 
 

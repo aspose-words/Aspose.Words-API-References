@@ -24,7 +24,7 @@ def get_embedded_font(self, format: aspose.words.fonts.EmbeddedFontFormat, style
 
 ### Returns
 
-Returns ``null`` if the specified font is not embedded.
+Returns ``None`` if the specified font is not embedded.
 
 
 ### Examples

@@ -11,7 +11,7 @@ url: /python-net/aspose.words/pagesetup/orientation/
 
 Returns or sets the orientation of the page.
 
-Changing **Orientation** swaps [PageSetup.page_width](../page_width/) and [PageSetup.page_height](../page_height/).
+Changing [PageSetup.orientation](./) swaps [PageSetup.page_width](../page_width/) and [PageSetup.page_height](../page_height/).
 
 
 

@@ -20,7 +20,7 @@ def clone(self):
 
 ### Returns
 
-The cloned VbaProject.
+The cloned [VbaProject](../).
 
 
 ### Examples

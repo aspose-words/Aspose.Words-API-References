@@ -1,7 +1,7 @@
 ﻿---
 title: FieldMergingArgsBase class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/)."
+description: "Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/)"
 type: docs
 weight: 20
 url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.mailmerging/fieldmergingargsbase/
 ## FieldMergingArgsBase class
 
 Base class for [FieldMergingArgs](../fieldmergingargs/) and [ImageFieldMergingArgs](../imagefieldmergingargs/).
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 
 
 

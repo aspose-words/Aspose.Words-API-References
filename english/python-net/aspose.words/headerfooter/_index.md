@@ -1,7 +1,7 @@
 ﻿---
 title: HeaderFooter class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a container for the header or footer text of a section."
+description: "Represents a container for the header or footer text of a section"
 type: docs
 weight: 430
 url: /python-net/aspose.words/headerfooter/
@@ -10,18 +10,21 @@ url: /python-net/aspose.words/headerfooter/
 ## HeaderFooter class
 
 Represents a container for the header or footer text of a section.
+To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
 
 
-**HeaderFooter** can contain **Paragraph** and **Table** child nodes.
 
-**HeaderFooter** is a section-level node and can only be a child of **Section**.
-There can only be one **HeaderFooter** or each [HeaderFooter.header_footer_type](./header_footer_type/) in a **Section**.
 
-If **Section** does not have a **HeaderFooter** of a specific type or
-the **HeaderFooter** has no child nodes, this header/footer is considered linked to
+[HeaderFooter](./) can contain [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
+
+[HeaderFooter](./) is a section-level node and can only be a child of [Section](../section/).
+There can only be one [HeaderFooter](./) of each [HeaderFooter.header_footer_type](./header_footer_type/) in a [Section](../section/).
+
+If [Section](../section/) does not have a [HeaderFooter](./) of a specific type or
+the [HeaderFooter](./) has no child nodes, this header/footer is considered linked to
 the header/footer of the same type of the previous section in Microsoft Word.
 
-When **HeaderFooter** contains at least one **Paragraph**, it is no longer
+When [HeaderFooter](./) contains at least one [Paragraph](../paragraph/), it is no longer
 considered linked to previous in Microsoft Word.
 
 
@@ -44,20 +47,20 @@ considered linked to previous in Microsoft Word.
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [first_paragraph](../story/first_paragraph/) | Gets the first paragraph in the story.<br>(Inherited from [Story](../story/)) |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [header_footer_type](./header_footer_type/) | Gets the type of this header/footer. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
-| [is_header](./is_header/) | True if this **HeaderFooter** object is a header. |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_header](./is_header/) | True if this [HeaderFooter](./) object is a header. |
 | [is_linked_to_previous](./is_linked_to_previous/) | True if this header or footer is linked to the corresponding header or footer in the previous section. |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [last_paragraph](../story/last_paragraph/) | Gets the last paragraph in the story.<br>(Inherited from [Story](../story/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_type](./node_type/) | Returns **NodeType.HeaderFooter**. |
+| [node_type](./node_type/) | Returns [NodeType.HEADER_FOOTER](../nodetype/#HEADER_FOOTER). |
 | [paragraphs](../story/paragraphs/) | Gets a collection of paragraphs that are immediate children of the story.<br>(Inherited from [Story](../story/)) |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_section](./parent_section/) | Gets the parent section of this story. |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [story_type](../story/story_type/) | Gets the type of this story.<br>(Inherited from [Story](../story/)) |
 | [tables](../story/tables/) | Gets a collection of tables that are immediate children of the story.<br>(Inherited from [Story](../story/)) |
 
@@ -86,7 +89,7 @@ considered linked to previous in Microsoft Word.
 |[ remove_child(old_child)](../compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ remove_smart_tags()](../compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 
@@ -160,7 +163,7 @@ Shows how to replace text in a document's footer.
 doc = aw.Document(MY_DIR + "Footer.docx")
 
 headers_footers = doc.first_section.headers_footers
-footer = headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY]
+footer = headers_footers.get_by_header_footer_type(aw.HeaderFooterType.FOOTER_PRIMARY)
 
 options = aw.replacing.FindReplaceOptions()
 options.match_case = False

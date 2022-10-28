@@ -1,7 +1,7 @@
 ﻿---
 title: is_valid property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``true`` if there are no digital signatures"
+description: "Returns ``True`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``True`` if there are no digital signatures"
 type: docs
 weight: 40
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/is_valid/
@@ -9,9 +9,9 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/is_va
 
 ## DigitalSignatureCollection.is_valid property
 
-Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with
-Also returns ``true`` if there are no digital signatures.
-Returns ``false`` if at least one digital signature is invalid.
+Returns ``True`` if all digital signatures in this collection are valid and the document has not been tampered with
+Also returns ``True`` if there are no digital signatures.
+Returns ``False`` if at least one digital signature is invalid.
 
 
 

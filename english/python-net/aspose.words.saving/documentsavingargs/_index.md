@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs)."
+description: "An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs)"
 type: docs
 weight: 110
 url: /python-net/aspose.words.saving/documentsavingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/documentsavingargs/
 ## DocumentSavingArgs class
 
 An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs).
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 
 
 

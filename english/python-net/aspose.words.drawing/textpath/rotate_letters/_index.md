@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/rotate_letters/
 
 Determines whether the letters of the text are rotated.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

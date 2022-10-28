@@ -1,7 +1,7 @@
 ﻿---
 title: ChartDataLabelCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of [ChartDataLabel](../chartdatalabel/)."
+description: "Represents a collection of [ChartDataLabel](../chartdatalabel/)"
 type: docs
 weight: 150
 url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/
 ## ChartDataLabelCollection class
 
 Represents a collection of [ChartDataLabel](../chartdatalabel/).
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
 
 
 
@@ -26,14 +28,14 @@ Represents a collection of [ChartDataLabel](../chartdatalabel/).
 | [count](./count/) | Returns the number of [ChartDataLabel](../chartdatalabel/) in this collection. |
 | [number_format](./number_format/) | Gets an [ChartNumberFormat](../chartnumberformat/) instance allowing to set number format for the data labels of the entire series. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is **false**. |
-| [show_category_name](./show_category_name/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is **false**. |
-| [show_data_labels_range](./show_data_labels_range/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is **false**. |
-| [show_leader_lines](./show_leader_lines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is **false**. |
-| [show_legend_key](./show_legend_key/) | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is **false**. |
-| [show_percentage](./show_percentage/) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is **false**. Applies only to Pie charts. |
-| [show_series_name](./show_series_name/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. **True** to show the series name. **False** to hide. By default **false**. |
-| [show_value](./show_value/) | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is **false**. |
+| [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``False``. |
+| [show_category_name](./show_category_name/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``False``. |
+| [show_data_labels_range](./show_data_labels_range/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is ``False``. |
+| [show_leader_lines](./show_leader_lines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is ``False``. |
+| [show_legend_key](./show_legend_key/) | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is ``False``. |
+| [show_percentage](./show_percentage/) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is ``False``. Applies only to Pie charts. |
+| [show_series_name](./show_series_name/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. ``True`` to show the series name; ``False`` to hide. By default ``False``. |
+| [show_value](./show_value/) | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is ``False``. |
 
 ### Methods
 

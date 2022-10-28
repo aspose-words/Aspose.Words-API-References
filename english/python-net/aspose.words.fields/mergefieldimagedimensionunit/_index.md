@@ -3,7 +3,7 @@ title: MergeFieldImageDimensionUnit enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies an unit of an image dimension (i.e"
 type: docs
-weight: 1270
+weight: 1290
 url: /python-net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 

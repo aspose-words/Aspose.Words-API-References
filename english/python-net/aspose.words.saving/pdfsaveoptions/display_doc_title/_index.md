@@ -3,7 +3,7 @@ title: display_doc_title property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.saving/pdfsaveoptions/display_doc_title/
 ---
 
@@ -12,12 +12,12 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/display_doc_title/
 A flag specifying whether the window’s title bar should display the document title taken from
 the Title entry of the document information dictionary.
 
-If ``false``, the title bar should instead display the name of the PDF file containing the document.
+If ``False``, the title bar should instead display the name of the PDF file containing the document.
 
-This flag is required by PDF/UA compliance. ``true`` value will be used automatically when saving
+This flag is required by PDF/UA compliance. ``True`` value will be used automatically when saving
 to PDF/UA.
 
-The default value is ``false``.
+The default value is ``False``.
 
 
 

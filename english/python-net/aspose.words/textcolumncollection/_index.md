@@ -1,7 +1,7 @@
 ﻿---
 title: TextColumnCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document."
+description: "A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"
 type: docs
 weight: 1190
 url: /python-net/aspose.words/textcolumncollection/
@@ -10,16 +10,18 @@ url: /python-net/aspose.words/textcolumncollection/
 ## TextColumnCollection class
 
 A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
+
 
 
 
 Use [TextColumnCollection.set_count()](./set_count/#int) to set the number of text columns.
 
-To make all columns equal width and spaced evenly, set [TextColumnCollection.evenly_spaced](./evenly_spaced/) to **true**
+To make all columns equal width and spaced evenly, set [TextColumnCollection.evenly_spaced](./evenly_spaced/) to ``True``
 and specify the amount of space between the columns in [TextColumnCollection.spacing](./spacing/). MS Word will
 automatically calculate column widths.
 
-If you have **EvenlySpaced** set to **false**, you need to specify width and spacing for each
+If you have [TextColumnCollection.evenly_spaced](./evenly_spaced/) set to ``False``, you need to specify width and spacing for each
 column individually. Use the indexer to access individual [TextColumn](../textcolumn/) objects.
 
 When using custom column widths, make sure the sum of all column widths and spacings between them
@@ -39,8 +41,8 @@ equals page width minus left and right page margins.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of columns in the section of a document. |
-| [evenly_spaced](./evenly_spaced/) | **True** if text columns are of equal width and evenly spaced. |
-| [line_between](./line_between/) | When **true**, adds a vertical line between columns. |
+| [evenly_spaced](./evenly_spaced/) | True if text columns are of equal width and evenly spaced. |
+| [line_between](./line_between/) | When ``True``, adds a vertical line between columns. |
 | [spacing](./spacing/) | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
 | [width](./width/) | When columns are evenly spaced, gets the width of the columns. |
 

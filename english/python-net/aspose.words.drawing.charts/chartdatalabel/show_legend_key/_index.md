@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_legend_key/
 ## ChartDataLabel.show_legend_key property
 
 Allows to specify if legend key is to be displayed for the data labels on a chart. 
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

@@ -13,7 +13,7 @@ Gets or sets a value indicating whether the [PageSetup.section_start](../../../a
 are retained during mail merge or updated according to MS Word behaviour.
 
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

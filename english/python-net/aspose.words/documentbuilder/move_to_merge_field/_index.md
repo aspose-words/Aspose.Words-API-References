@@ -3,7 +3,7 @@ title: move_to_merge_field method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.move_to_merge_field method"
 type: docs
-weight: 530
+weight: 550
 url: /python-net/aspose.words/documentbuilder/move_to_merge_field/
 ---
 
@@ -28,7 +28,7 @@ Note that this method deletes the merge field from the document after moving the
 
 ### Returns
 
-True if the merge field was found and the cursor was moved; false otherwise.
+``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
 
 
 ## move_to_merge_field(field_name, is_after, is_delete_field) {#str_bool_bool}
@@ -49,7 +49,7 @@ def move_to_merge_field(self, field_name: str, is_after: bool, is_delete_field: 
 
 ### Returns
 
-True if the merge field was found and the cursor was moved; false otherwise.
+``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
 
 
 ## Examples

@@ -11,9 +11,9 @@ url: /python-net/aspose.words.saving/fontsavingargs/keep_font_stream_open/
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a font.
 
-Default is ``false`` and Aspose.Words will close the stream you provided
+Default is ``False`` and Aspose.Words will close the stream you provided
 in the [FontSavingArgs.font_stream](../font_stream/) property after writing a font into it.
-Specify ``true`` to keep the stream open.
+Specify ``True`` to keep the stream open.
 
 
 

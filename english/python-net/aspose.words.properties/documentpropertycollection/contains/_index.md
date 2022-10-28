@@ -1,7 +1,7 @@
 ﻿---
 title: contains method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if a property with the specified name exists in the collection."
+description: "Returns ``True`` if a property with the specified name exists in the collection."
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/documentpropertycollection/contains/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.properties/documentpropertycollection/contains/
 
 ## contains(name) {#str}
 
-Returns true if a property with the specified name exists in the collection.
+Returns ``True`` if a property with the specified name exists in the collection.
+
 
 
 ```python
@@ -23,7 +24,7 @@ def contains(self, name: str):
 
 ### Returns
 
-True if the property exists in the collection; false otherwise.
+``True`` if the property exists in the collection; ``False`` otherwise.
 
 
 ### Examples

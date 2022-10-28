@@ -1,15 +1,18 @@
 ﻿---
 title: UserInformation class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies information about the user."
+description: "Specifies information about the user"
 type: docs
-weight: 1300
+weight: 1320
 url: /python-net/aspose.words.fields/userinformation/
 ---
 
 ## UserInformation class
 
 Specifies information about the user.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Constructors

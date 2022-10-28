@@ -3,7 +3,7 @@ title: link_to_previous method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.HeaderFooterCollection.link_to_previous method"
 type: docs
-weight: 30
+weight: 90
 url: /python-net/aspose.words/headerfootercollection/link_to_previous/
 ---
 

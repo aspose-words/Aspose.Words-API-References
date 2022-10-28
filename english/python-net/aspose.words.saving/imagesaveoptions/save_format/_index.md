@@ -17,7 +17,7 @@ Can be a raster
 
 On different platforms, the supported formats may be different. The number of other options depends on the selected format.
 
-Also, it is possible to save to SVG both via ImageSaveOptions and via [SvgSaveOptions](../../svgsaveoptions/).
+Also, it is possible to save to SVG both via [ImageSaveOptions](../) and via [SvgSaveOptions](../../svgsaveoptions/).
 
 
 

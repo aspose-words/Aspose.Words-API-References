@@ -3,7 +3,7 @@ title: font_settings property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify document font settings."
 type: docs
-weight: 70
+weight: 60
 url: /python-net/aspose.words.loading/loadoptions/font_settings/
 ---
 
@@ -14,9 +14,9 @@ Allows to specify document font settings.
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words
 may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [FontSettings.default_instance](../../../aspose.words.fonts/fontsettings/default_instance/) will be used.
+If set to ``None``, default static font settings [FontSettings.default_instance](../../../aspose.words.fonts/fontsettings/default_instance/) will be used.
 
-The default value is null.
+The default value is ``None``.
 
 
 

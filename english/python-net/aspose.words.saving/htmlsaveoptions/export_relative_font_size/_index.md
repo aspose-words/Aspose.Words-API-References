@@ -10,13 +10,13 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_relative_font_size/
 ## HtmlSaveOptions.export_relative_font_size property
 
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB.
-Default is ``false``.
+Default is ``False``.
 
 
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows
 applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer
 has "View-\>Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size.
-If you expect this functionality to work then set [HtmlSaveOptions.export_relative_font_size](./) property to ``true``.
+If you expect this functionality to work then set [HtmlSaveOptions.export_relative_font_size](./) property to ``True``.
 
 
 Aspose Words document model contains and operates only with absolute font size units. Relative units need 
@@ -27,7 +27,7 @@ as **1.5em.** to the HTML.
 When this option is enabled, document elements other than text will still have absolute sizes. Also some 
 text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule 
 might produce unwanted results when scaling text. So the source documents should be properly designed and tested 
-when exporting with [HtmlSaveOptions.export_relative_font_size](./) set to ``true``.
+when exporting with [HtmlSaveOptions.export_relative_font_size](./) set to ``True``.
 
 
 

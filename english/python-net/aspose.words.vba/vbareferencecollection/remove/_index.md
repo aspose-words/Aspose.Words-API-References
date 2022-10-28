@@ -1,7 +1,7 @@
 ﻿---
 title: remove method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Removes the first occurrence of a specified VbaReference item from the collection."
+description: "Removes the first occurrence of a specified [VbaReference](../../vbareference/) item from the collection."
 type: docs
 weight: 30
 url: /python-net/aspose.words.vba/vbareferencecollection/remove/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.vba/vbareferencecollection/remove/
 
 ## remove(item) {#vbareference}
 
-Removes the first occurrence of a specified VbaReference item from the collection.
+Removes the first occurrence of a specified [VbaReference](../../vbareference/) item from the collection. 
+
 
 
 ```python

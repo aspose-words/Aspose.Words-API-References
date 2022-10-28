@@ -11,7 +11,7 @@ url: /python-net/aspose.words.tables/table/allow_overlap/
 
 Gets whether a floating table shall allow other floating objects in the document
 to overlap its extents when displayed.
-Default value is ``true``.
+Default value is ``True``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: ShapeBase class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture."
+description: "Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture"
 type: docs
 weight: 310
 url: /python-net/aspose.words.drawing/shapebase/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/shapebase/
 ## ShapeBase class
 
 Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
+
 
 
 This is an abstract class. The two derived classes that you can instantiate
@@ -54,7 +57,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [bounds](./bounds/) | Gets or sets the location and size of the containing block of the shape. |
 | [bounds_in_points](./bounds_in_points/) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [bounds_with_effects](./bounds_with_effects/) | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
-| [can_have_image](./can_have_image/) | Returns true if the shape type allows the shape to have an image. |
+| [can_have_image](./can_have_image/) | Returns ``True`` if the shape type allows the shape to have an image. |
 | [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [coord_origin](./coord_origin/) | The coordinates at the top-left corner of the containing block of this shape. |
 | [coord_size](./coord_size/) | The width and height of the coordinate space inside the containing block of this shape. |
@@ -69,24 +72,24 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [flip_orientation](./flip_orientation/) | Switches the orientation of a shape. |
 | [font](./font/) | Provides access to the font formatting of this object. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](./height/) | Gets or sets the height of the containing block of the shape. |
 | [horizontal_alignment](./horizontal_alignment/) | Specifies how the shape is positioned horizontally. |
 | [href](./href/) | Gets or sets the full hyperlink address for a shape. |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_decorative](./is_decorative/) | Gets or sets the flag that specifies whether the shape is decorative in the document. |
 | [is_delete_revision](./is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [is_group](./is_group/) | Returns true if this is a group shape. |
-| [is_horizontal_rule](./is_horizontal_rule/) | Returns true if this shape is a horizontal rule. |
-| [is_image](./is_image/) | Returns true if this shape is an image shape. |
+| [is_group](./is_group/) | Returns ``True`` if this is a group shape. |
+| [is_horizontal_rule](./is_horizontal_rule/) | Returns ``True`` if this shape is a horizontal rule. |
+| [is_image](./is_image/) | Returns ``True`` if this shape is an image shape. |
 | [is_inline](./is_inline/) | A quick way to determine if this shape is positioned inline with text. |
 | [is_insert_revision](./is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [is_layout_in_cell](./is_layout_in_cell/) | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. |
-| [is_move_from_revision](./is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [is_move_to_revision](./is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [is_signature_line](./is_signature_line/) | Indicates that shape is a SignatureLine. |
-| [is_top_level](./is_top_level/) | Returns true if this shape is not a child of a group shape. |
-| [is_word_art](./is_word_art/) | Returns true if this shape is a WordArt object. |
+| [is_move_from_revision](./is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [is_move_to_revision](./is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [is_signature_line](./is_signature_line/) | Indicates that shape is a [SignatureLine](../signatureline/). |
+| [is_top_level](./is_top_level/) | Returns ``True`` if this shape is not a child of a group shape. |
+| [is_word_art](./is_word_art/) | Returns ``True`` if this shape is a WordArt object. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [left](./left/) | Gets or sets the position of the left edge of the containing block of the shape. |
 | [markup_language](./markup_language/) | Gets MarkupLanguage used for this graphic object. |
@@ -96,7 +99,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_paragraph](./parent_paragraph/) | Returns the immediate parent paragraph. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [relative_horizontal_position](./relative_horizontal_position/) | Specifies relative to what the shape is positioned horizontally. |
 | [relative_vertical_position](./relative_vertical_position/) | Specifies relative to what the shape is positioned vertically. |
 | [right](./right/) | Gets the position of the right edge of the containing block of the shape. |
@@ -144,7 +147,7 @@ and [ShapeBase.vertical_alignment](./vertical_alignment/) properties.
 |[ remove_shape_attr(key)](./remove_shape_attr/#int) | Reserved for system use. IShapeAttrSource. |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ set_shape_attr(key, value)](./set_shape_attr/#int_object) | Reserved for system use. IShapeAttrSource. |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |

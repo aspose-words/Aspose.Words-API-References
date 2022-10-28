@@ -1,7 +1,7 @@
 ﻿---
 title: OutlineOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify outline options."
+description: "Allows to specify outline options"
 type: docs
 weight: 490
 url: /python-net/aspose.words.saving/outlineoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.saving/outlineoptions/
 ## OutlineOptions class
 
 Allows to specify outline options.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
+
 
 
 ### Constructors

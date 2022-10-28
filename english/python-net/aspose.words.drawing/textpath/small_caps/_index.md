@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/small_caps/
 
 True if the font is formatted as small capital letters.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

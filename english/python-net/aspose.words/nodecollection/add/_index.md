@@ -26,8 +26,6 @@ The node is inserted as a child into the node object from which the collection w
 
 
 
-If the newChild is already in the tree, it is first removed.
-
 If the node being inserted was created from another document, you should use 
 [DocumentBase.import_node()](../../documentbase/import_node/#node_bool_importformatmode) to import the node to the current document. 
 The imported node can then be inserted into the current document.
@@ -39,7 +37,7 @@ The imported node can then be inserted into the current document.
 
 | exception | condition |
 | --- | --- |
-| System.NotSupportedException | The **NodeCollection** is a "deep" collection. |
+| System.NotSupportedException | The [NodeCollection](../) is a "deep" collection. |
 
 ### Examples
 

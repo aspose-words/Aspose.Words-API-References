@@ -1,7 +1,7 @@
 ﻿---
 title: Odso class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the Office Data Source Object (ODSO) settings for a mail merge data source."
+description: "Specifies the Office Data Source Object (ODSO) settings for a mail merge data source"
 type: docs
 weight: 110
 url: /python-net/aspose.words.settings/odso/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.settings/odso/
 ## Odso class
 
 Specifies the Office Data Source Object (ODSO) settings for a mail merge data source.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
+
 
 
 ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain 
@@ -39,9 +42,9 @@ are always available via the [MailMergeSettings.odso](../mailmergesettings/odso/
 | [column_delimiter](./column_delimiter/) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined. |
 | [data_source](./data_source/) | Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string. |
 | [data_source_type](./data_source_type/) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../odsodatasourcetype/#DEFAULT). |
-| [field_map_datas](./field_map_datas/) | Gets or sets a collection of objects that specify how columns from the external data source  are mapped to the predefined merge field names in the document. This object is never null. |
-| [first_row_contains_column_names](./first_row_contains_column_names/) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is ``false``. |
-| [recipient_datas](./recipient_datas/) | Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null. |
+| [field_map_datas](./field_map_datas/) | Gets or sets a collection of objects that specify how columns from the external data source  are mapped to the predefined merge field names in the document. This object is never ``None``. |
+| [first_row_contains_column_names](./first_row_contains_column_names/) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is ``False``. |
+| [recipient_datas](./recipient_datas/) | Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never ``None``. |
 | [table_name](./table_name/) | Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string. |
 | [udl_connect_string](./udl_connect_string/) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string. |
 

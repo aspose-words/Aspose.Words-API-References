@@ -1,7 +1,7 @@
 ﻿---
 title: RowCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Row](../row/) nodes."
+description: "Provides typed access to a collection of [Row](../row/) nodes"
 type: docs
 weight: 100
 url: /python-net/aspose.words.tables/rowcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.tables/rowcollection/
 ## RowCollection class
 
 Provides typed access to a collection of [Row](../row/) nodes.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 
 
 
@@ -19,7 +21,7 @@ Provides typed access to a collection of [Row](../row/) nodes.
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **Row** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Row](../row/) at the given index. |
 
 ### Properties
 
@@ -51,7 +53,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -60,7 +62,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 
