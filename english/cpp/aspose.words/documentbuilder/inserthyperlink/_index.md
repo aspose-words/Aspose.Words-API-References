@@ -1,0 +1,109 @@
+---
+title: InsertHyperlink
+second_title: Aspose.Words for C++ API Reference
+description: Inserts a hyperlink into the document.
+type: docs
+weight: 456
+url: /cpp/aspose.words/documentbuilder/inserthyperlink/
+---
+## DocumentBuilder.InsertHyperlink method
+
+
+Inserts a hyperlink into the document.
+
+```cpp
+System::SharedPtr<Aspose::Words::Fields::Field> Aspose::Words::DocumentBuilder::InsertHyperlink(const System::String &displayText, const System::String &urlOrBookmark, bool isBookmark)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| displayText | const System::String\& | Text of the link to be displayed in the document. |
+| urlOrBookmark | const System::String\& | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
+| isBookmark | bool | True if the previous parameter is a name of a bookmark inside the document; false is the previous parameter is a URL. |
+
+### ReturnValue
+
+
+A [Field](../../../aspose.words.fields/field/) object that represents the inserted field.
+
+Note that you need to specify font formatting for the hyperlink display text explicitly using the [Font](../get_font/) property.
+
+This methods internally calls **InsertField()** to insert an MS Word HYPERLINK field into the document.
+
+## Examples
+
+
+
+
+Shows how to insert a hyperlink field. 
+```cpp
+auto doc = MakeObject<Document>();
+auto builder = MakeObject<DocumentBuilder>(doc);
+
+builder->Write(u"For more information, please visit the ");
+
+// Insert a hyperlink and emphasize it with custom formatting.
+// The hyperlink will be a clickable piece of text which will take us to the location specified in the URL.
+builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
+builder->get_Font()->set_Underline(Underline::Single);
+builder->InsertHyperlink(u"Google website", u"https://www.google.com", false);
+builder->get_Font()->ClearFormatting();
+builder->Writeln(u".");
+
+// Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
+doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlink.docx");
+```
+
+
+Shows how to use a document builder's formatting stack. 
+```cpp
+auto doc = MakeObject<Document>();
+auto builder = MakeObject<DocumentBuilder>(doc);
+
+// Set up font formatting, then write the text that goes before the hyperlink.
+builder->get_Font()->set_Name(u"Arial");
+builder->get_Font()->set_Size(24);
+builder->Write(u"To visit Google, hold Ctrl and click ");
+
+// Preserve our current formatting configuration on the stack.
+builder->PushFont();
+
+// Alter the builder's current formatting by applying a new style.
+builder->get_Font()->set_StyleIdentifier(StyleIdentifier::Hyperlink);
+builder->InsertHyperlink(u"here", u"http://www.google.com", false);
+
+ASSERT_EQ(System::Drawing::Color::get_Blue().ToArgb(), builder->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(Underline::Single, builder->get_Font()->get_Underline());
+
+// Restore the font formatting that we saved earlier and remove the element from the stack.
+builder->PopFont();
+
+ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), builder->get_Font()->get_Color().ToArgb());
+ASSERT_EQ(Underline::None, builder->get_Font()->get_Underline());
+
+builder->Write(u". We hope you enjoyed the example.");
+
+doc->Save(ArtifactsDir + u"DocumentBuilder.PushPopFont.docx");
+```
+
+
+Shows how to insert a hyperlink which references a local bookmark. 
+```cpp
+auto doc = MakeObject<Document>();
+auto builder = MakeObject<DocumentBuilder>(doc);
+
+builder->StartBookmark(u"Bookmark1");
+builder->Write(u"Bookmarked text. ");
+builder->EndBookmark(u"Bookmark1");
+builder->Writeln(u"Text outside of the bookmark.");
+
+// Insert a HYPERLINK field that links to the bookmark. We can pass field switches
+// to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
+builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
+builder->get_Font()->set_Underline(Underline::Single);
+builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1\" \\o \"Hyperlink Tip", true);
+
+doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+```
+

@@ -1,0 +1,45 @@
+---
+title: EmphasisMark
+second_title: Aspose.Words for C++ API Reference
+description: Specifies possible types of emphasis mark.
+type: docs
+weight: 1145
+url: /cpp/aspose.words/emphasismark/
+---
+## EmphasisMark enum
+
+
+Specifies possible types of emphasis mark.
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| None | 0 | No emphasis mark. |
+| OverSolidCircle | 1 | Emphasis mark is a solid black circle displayed above text. |
+| OverComma | 2 | Emphasis mark is a comma character displayed above text. |
+| OverWhiteCircle | 3 | Emphasis mark is an empty white circle displayed above text. |
+| UnderSolidCircle | 4 | Emphasis mark is a solid black circle displayed below text. |
+
+
+## Examples
+
+
+
+
+Shows how to add additional character rendered above/below the glyph-character. 
+```cpp
+auto builder = MakeObject<DocumentBuilder>();
+
+// Possible types of emphasis mark:
+// https://apireference.aspose.com/words/net/aspose.words/emphasismark
+builder->get_Font()->set_EmphasisMark(emphasisMark);
+
+builder->Write(u"Emphasis text");
+builder->Writeln();
+builder->get_Font()->ClearFormatting();
+builder->Write(u"Simple text");
+
+builder->get_Document()->Save(ArtifactsDir + u"Fonts.SetEmphasisMark.docx");
+```
+
