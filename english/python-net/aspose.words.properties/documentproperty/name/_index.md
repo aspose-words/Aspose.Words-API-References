@@ -11,7 +11,7 @@ url: /python-net/aspose.words.properties/documentproperty/name/
 
 Returns the name of the property.
 
-Cannot be null and cannot be an empty string.
+Cannot be ``None`` and cannot be an empty string.
 
 
 

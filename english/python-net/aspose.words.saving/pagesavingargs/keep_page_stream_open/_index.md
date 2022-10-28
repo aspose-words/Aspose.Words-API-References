@@ -11,9 +11,9 @@ url: /python-net/aspose.words.saving/pagesavingargs/keep_page_stream_open/
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving a document page.
 
-Default is ``false`` and Aspose.Words will close the stream you provided
+Default is ``False`` and Aspose.Words will close the stream you provided
 in the [PageSavingArgs.page_stream](../page_stream/) property after writing a document page into it.
-Specify ``true`` to keep the stream open.
+Specify ``True`` to keep the stream open.
 
 
 

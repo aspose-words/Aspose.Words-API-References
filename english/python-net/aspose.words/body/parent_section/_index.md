@@ -11,7 +11,7 @@ url: /python-net/aspose.words/body/parent_section/
 
 Gets the parent section of this story.
 
-**ParentSection** is equivalent to ``(Section)ParentNode``.
+[Body.parent_section](./) is equivalent to [Node.parent_node](../../node/parent_node/) casted to [Section](../../section/).
 
 
 

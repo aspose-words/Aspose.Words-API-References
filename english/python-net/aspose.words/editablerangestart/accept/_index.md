@@ -30,7 +30,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-False if the visitor requested the enumeration to stop.
+``False`` if the visitor requested the enumeration to stop.
 
 
 ### See Also

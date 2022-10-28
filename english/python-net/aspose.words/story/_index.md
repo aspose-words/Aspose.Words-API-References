@@ -1,7 +1,7 @@
 ﻿---
 title: Story class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)."
+description: "Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/)"
 type: docs
 weight: 1060
 url: /python-net/aspose.words/story/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/story/
 ## Story class
 
 Base class for elements that contain block-level nodes [Paragraph](../paragraph/) and [Table](../../aspose.words.tables/table/).
+To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) documentation article.
+
 
 
 
@@ -32,8 +34,8 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [first_paragraph](./first_paragraph/) | Gets the first paragraph in the story. |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [last_paragraph](./last_paragraph/) | Gets the last paragraph in the story. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
@@ -41,7 +43,7 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 | [paragraphs](./paragraphs/) | Gets a collection of paragraphs that are immediate children of the story. |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [story_type](./story_type/) | Gets the type of this story. |
 | [tables](./tables/) | Gets a collection of tables that are immediate children of the story. |
 
@@ -70,7 +72,7 @@ each header and footer is stored in a separate story represented by [HeaderFoote
 |[ remove_child(old_child)](../compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ remove_smart_tags()](../compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing/oleformat/ole_package/
 ## OleFormat.ole_package property
 
 Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package. 
-Returns null otherwise.
+Returns ``None`` otherwise.
 
 
 OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of 

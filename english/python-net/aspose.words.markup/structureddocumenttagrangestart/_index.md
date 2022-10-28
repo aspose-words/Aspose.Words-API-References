@@ -11,6 +11,8 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/
 
 Represents a start of **ranged** structured document tag which accepts multi-sections content.
 See also [StructuredDocumentTagRangeEnd](../structureddocumenttagrangeend/).
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 
 
 
@@ -36,23 +38,23 @@ Can be immediate child of [Body](../../aspose.words/body/) node **only**.
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this structured document tag. |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_showing_placeholder_text](./is_showing_placeholder_text/) | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [last_child](./last_child/) | Gets the last child in the stdContent range. |
 | [level](./level/) | Gets the level at which this structured document tag range start occurs in the document tree. |
-| [lock_content_control](./lock_content_control/) | When set to true, this property will prohibit a user from deleting this structured document tag. |
-| [lock_contents](./lock_contents/) | When set to true, this property will prohibit a user from editing the contents of this structured document tag. |
+| [lock_content_control](./lock_content_control/) | When set to ``True``, this property will prohibit a user from deleting this structured document tag. |
+| [lock_contents](./lock_contents/) | When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [node_type](../../aspose.words/node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTagRangeStart.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](./is_showing_placeholder_text/) element is true. |
+| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTagRangeStart.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTagRangeStart.is_showing_placeholder_text](./is_showing_placeholder_text/) element is ``True``. |
 | [placeholder_name](./placeholder_name/) | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range_end](./range_end/) | Specifies end of range if the StructuredDocumentTag is a ranged structured document tag.  Otherwise returns null. |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range_end](./range_end/) | Specifies end of range if the [StructuredDocumentTag](../structureddocumenttag/) is a ranged structured document tag.  Otherwise returns ``None``. |
 | [sdt_type](./sdt_type/) | Gets type of this structured document tag. |
-| [tag](./tag/) | Specifies a tag associated with the current structured document tag node. Can not be null. |
-| [title](./title/) | Specifies the friendly name associated with this structured document tag. Can not be null. |
+| [tag](./tag/) | Specifies a tag associated with the current structured document tag node. Can not be ``None``. |
+| [title](./title/) | Specifies the friendly name associated with this structured document tag. Can not be ``None``. |
 | [word_open_xml](./word_open_xml/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
 | [xml_mapping](./xml_mapping/) | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 
@@ -100,6 +102,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

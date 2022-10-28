@@ -10,7 +10,7 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_footnotes/
 ## FindReplaceOptions.ignore_footnotes property
 
 Gets or sets a boolean value indicating either to ignore footnotes.
-The default value is ``false``.
+The default value is ``False``.
 
 
 

@@ -44,7 +44,7 @@ If this data source object does not have a relation to the table with the specif
 a [IMailMergeDataSource](../) object that will provide access to all records of the specified table.
 
 
-If a table with the specified name does not exist, your implementation should return ``null``.
+If a table with the specified name does not exist, your implementation should return ``None``.
 
 
 

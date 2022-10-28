@@ -10,6 +10,9 @@ url: /python-net/aspose.words/hyphenation/
 ## Hyphenation class
 
 Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
+To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/net/working-with-hyphenation/) documentation article.
+
+
 
 
 ### Properties
@@ -23,7 +26,7 @@ Provides methods for working with hyphenation dictionaries. These dictionaries p
 
 | Name | Description |
 | --- | --- |
-|[ is_dictionary_registered(language)](./is_dictionary_registered/#str) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
+|[ is_dictionary_registered(language)](./is_dictionary_registered/#str) | Returns ``False`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``True`` otherwise. |
 |[ register_dictionary(language, stream)](./register_dictionary/#str_bytesio) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
 |[ register_dictionary(language, file_name)](./register_dictionary/#str_str) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
 |[ unregister_dictionary(language)](./unregister_dictionary/#str) | Unregisters a hyphenation dictionary for the specified language. |

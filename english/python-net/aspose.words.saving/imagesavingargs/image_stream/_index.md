@@ -13,7 +13,7 @@ Allows to specify the stream where the image will be saved to.
 
 This property allows you to save images to streams instead of files during HTML.
 
-The default value is ``null``. When this property is ``null``, the image 
+The default value is ``None``. When this property is ``None``, the image 
 will be saved to a file specified in the [ImageSavingArgs.image_file_name](../image_file_name/) property.
 
 Using [IImageSavingCallback](../../iimagesavingcallback/) you cannot substitute one image with 

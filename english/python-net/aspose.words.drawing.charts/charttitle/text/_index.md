@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/charttitle/text/
 ## ChartTitle.text property
 
 Gets or sets the text of the chart title.
-If null or empty value is specified, auto generated title will be shown.
+If ``None`` or empty value is specified, auto generated title will be shown.
+
 
 Use [ChartTitle.show](../show/) option if you need to hide the Title.
 

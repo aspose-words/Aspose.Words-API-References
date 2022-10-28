@@ -11,13 +11,13 @@ url: /python-net/aspose.words.lists/list/style/
 
 Gets the list style that this list references or defines.
 
-If this list is not associated with a list style, the property will return null.
+If this list is not associated with a list style, the property will return ``None``.
 
 A list could be a reference to a list style, in this case [List.is_list_style_reference](../is_list_style_reference/)
-will be true.
+will be ``True``.
 
 A list could be a definition of a list style, in this case [List.is_list_style_definition](../is_list_style_definition/)
-will be true. Such a list cannot be applied to paragraphs in the document directly.
+will be ``True``. Such a list cannot be applied to paragraphs in the document directly.
 
 
 

@@ -9,7 +9,7 @@ url: /python-net/aspose.words/comment/__init__/
 
 ## Comment(doc) {#documentbase}
 
-Initializes a new instance of the **Comment** class.
+Initializes a new instance of the [Comment](../) class.
 
 
 
@@ -22,10 +22,10 @@ def __init__(self, doc: aspose.words.DocumentBase):
 | --- | --- | --- |
 | doc | [DocumentBase](../../documentbase/) |  |
 
-When **Comment** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Comment](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append **Comment** to the document use InsertAfter or InsertBefore
+To append [Comment](../) to the document use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node)
 on the paragraph where you want the comment inserted.
 
 After creating a comment, don't forget to set its [Comment.author](../author/),
@@ -36,7 +36,7 @@ After creating a comment, don't forget to set its [Comment.author](../author/),
 
 ## Comment(doc, author, initial, date_time) {#documentbase_str_str_datetime}
 
-Initializes a new instance of the **Comment** class.
+Initializes a new instance of the [Comment](../) class.
 
 
 

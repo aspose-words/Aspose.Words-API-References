@@ -1,7 +1,7 @@
 ﻿---
 title: RevisionCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [Revision](../revision/) objects that represent revisions in the document."
+description: "A collection of [Revision](../revision/) objects that represent revisions in the document"
 type: docs
 weight: 910
 url: /python-net/aspose.words/revisioncollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/revisioncollection/
 ## RevisionCollection class
 
 A collection of [Revision](../revision/) objects that represent revisions in the document.
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+
 
 
 
@@ -22,7 +24,7 @@ You do not create instances of this class directly. Use the [Document.revisions]
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Returns a Revision at the specified index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Returns a [Revision](../revision/) at the specified index. |
 
 ### Properties
 

@@ -3,7 +3,7 @@ title: document property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words/documentbuilder/document/
 ---
 

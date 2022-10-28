@@ -11,7 +11,7 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/first_building_blo
 
 Gets the first building block in the glossary document.
 
-Returns ``null`` if there are no building blocks available.
+Returns ``None`` if there are no building blocks available.
 
 
 

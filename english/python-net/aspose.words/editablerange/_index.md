@@ -1,7 +1,7 @@
 ﻿---
 title: EditableRange class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single editable range."
+description: "Represents a single editable range"
 type: docs
 weight: 330
 url: /python-net/aspose.words/editablerange/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/editablerange/
 ## EditableRange class
 
 Represents a single editable range.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 [EditableRange](./) is a "facade" object that encapsulates two nodes [EditableRange.editable_range_start](./editable_range_start/)

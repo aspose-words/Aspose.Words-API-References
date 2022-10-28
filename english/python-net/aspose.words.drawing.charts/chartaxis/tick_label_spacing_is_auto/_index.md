@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/tick_label_spacing_is_aut
 
 Gets or sets a flag indicating whether automatic interval of drawing tick labels shall be used.
 
-Default value is **true**.
+Default value is ``True``.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016
 new charts.

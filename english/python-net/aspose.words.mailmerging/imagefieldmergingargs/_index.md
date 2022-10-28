@@ -1,7 +1,7 @@
 ﻿---
 title: ImageFieldMergingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IFieldMergingCallback.image_field_merging()](../ifieldmergingcallback/image_field_merging/#imagefieldmergingargs) event."
+description: "Provides data for the [IFieldMergingCallback.image_field_merging()](../ifieldmergingcallback/image_field_merging/#imagefieldmergingargs) event"
 type: docs
 weight: 70
 url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.mailmerging/imagefieldmergingargs/
 ## ImageFieldMergingArgs class
 
 Provides data for the [IFieldMergingCallback.image_field_merging()](../ifieldmergingcallback/image_field_merging/#imagefieldmergingargs) event.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
 
 
 

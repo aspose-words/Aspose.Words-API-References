@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_data_
 ## ChartDataLabelCollection.show_data_labels_range property
 
 Allows to specify whether values from data labels range to be displayed in the data labels of the entire series.
-Default value is **false**.
+Default value is ``False``.
 
 
 Value defined for this property can be overridden for an individual data label with using the

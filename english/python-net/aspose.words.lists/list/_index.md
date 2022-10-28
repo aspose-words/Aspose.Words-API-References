@@ -1,7 +1,7 @@
 ﻿---
 title: List class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents formatting of a list."
+description: "Represents formatting of a list"
 type: docs
 weight: 10
 url: /python-net/aspose.words.lists/list/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.lists/list/
 ## List class
 
 Represents formatting of a list.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
+
 
 
 A list in a Microsoft Word document is a set of list formatting properties.
@@ -33,10 +36,10 @@ To apply or remove list formatting from a paragraph, use [ListFormat](../listfor
 | Name | Description |
 | --- | --- |
 | [document](./document/) | Gets the owner document. |
-| [is_list_style_definition](./is_list_style_definition/) | Returns true if this list is a definition of a list style. |
-| [is_list_style_reference](./is_list_style_reference/) | Returns true if this list is a reference to a list style. |
-| [is_multi_level](./is_multi_level/) | Returns true when the list contains 9 levels; false when 1 level. |
-| [is_restart_at_each_section](./is_restart_at_each_section/) | Specifies whether list should be restarted at each section. Default value is **false**. |
+| [is_list_style_definition](./is_list_style_definition/) | Returns ``True`` if this list is a definition of a list style. |
+| [is_list_style_reference](./is_list_style_reference/) | Returns ``True`` if this list is a reference to a list style. |
+| [is_multi_level](./is_multi_level/) | Returns ``True`` when the list contains 9 levels; ``False`` when 1 level. |
+| [is_restart_at_each_section](./is_restart_at_each_section/) | Specifies whether list should be restarted at each section. Default value is ``False``. |
 | [list_id](./list_id/) | Gets the unique identifier of the list. |
 | [list_levels](./list_levels/) | Gets the collection of list levels for this list. |
 | [style](./style/) | Gets the list style that this list references or defines. |
@@ -48,6 +51,7 @@ To apply or remove list formatting from a paragraph, use [ListFormat](../listfor
 |[ compare_to(obj)](./compare_to/#object) | Compares the specified object to the current object. |
 |[ compare_to(other)](./compare_to/#list) | Compares the specified list to the current list. |
 |[ equals(list)](./equals/#list) | Compares with the specified list. |
+|[ has_same_template(other)](./has_same_template/#list) | Returns true if the current list and the given list are created from the same template. |
 
 ### Examples
 

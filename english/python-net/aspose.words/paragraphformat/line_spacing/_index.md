@@ -11,11 +11,11 @@ url: /python-net/aspose.words/paragraphformat/line_spacing/
 
 Gets or sets the line spacing (in points) for the paragraph.
 
-When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to,
-but never less than the specified LineSpacing value.
+When [ParagraphFormat.line_spacing_rule](../line_spacing_rule/) property is set to [LineSpacingRule.AT_LEAST](../../linespacingrule/#AT_LEAST), the line spacing can be greater than or equal to,
+but never less than the specified [ParagraphFormat.line_spacing](./) value.
 
-When LineSpacingRule property is set to Exactly, the line spacing never changes from
-the specified LineSpacing value, even if a larger font is used within the paragraph.
+When [ParagraphFormat.line_spacing_rule](../line_spacing_rule/) property is set to [LineSpacingRule.EXACTLY](../../linespacingrule/#EXACTLY), the line spacing never changes from
+the specified [ParagraphFormat.line_spacing](./) value, even if a larger font is used within the paragraph.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: NodeCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of nodes of a specific type."
+description: "Represents a collection of nodes of a specific type"
 type: docs
 weight: 710
 url: /python-net/aspose.words/nodecollection/
@@ -10,22 +10,25 @@ url: /python-net/aspose.words/nodecollection/
 ## NodeCollection class
 
 Represents a collection of nodes of a specific type.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 
-**NodeCollection** does not own the nodes it contains, rather, is just a selection of nodes
+
+
+[NodeCollection](./) does not own the nodes it contains, rather, is just a selection of nodes
 of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
-**NodeCollection** supports indexed access, iteration and provides add and remove methods.
+[NodeCollection](./) supports indexed access, iteration and provides add and remove methods.
 
-The **NodeCollection** collection is "live", i.e. changes to the children of the node object
-that it was created from are immediately reflected in the nodes returned by the **NodeCollection**
+The [NodeCollection](./) collection is "live", i.e. changes to the children of the node object
+that it was created from are immediately reflected in the nodes returned by the [NodeCollection](./)
 properties and methods.
 
-**NodeCollection** is returned by [CompositeNode.get_child_nodes()](../compositenode/get_child_nodes/#nodetype_bool)
+[NodeCollection](./) is returned by [CompositeNode.get_child_nodes()](../compositenode/get_child_nodes/#nodetype_bool)
 and also serves as a base class for typed node collections such as [SectionCollection](../sectioncollection/),
 [ParagraphCollection](../paragraphcollection/) etc.
 
-**NodeCollection** can be "flat" and contain only immediate children of the node it was created
+[NodeCollection](./) can be "flat" and contain only immediate children of the node it was created
 from, or it can be "deep" and contain all descendant children.
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: ParagraphCollection indexer
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a Paragraph at the given index."
+description: "Retrieves a [Paragraph](../../paragraph/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/paragraphcollection/__getitem__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/paragraphcollection/__getitem__/
 
 ## \_\_getitem\_\_(index) {#int}
 
-Retrieves a **Paragraph** at the given index.
+Retrieves a [Paragraph](../../paragraph/) at the given index.
 
 
 

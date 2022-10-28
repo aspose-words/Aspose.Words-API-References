@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/formfield/default/
 ## FormField.default property
 
 Gets or sets the default value of the check box form field.
-Default value for this property is **false**.
+Default value for this property is ``False``.
 
 
 Applicable for a check box form field only.

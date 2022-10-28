@@ -11,7 +11,7 @@ url: /python-net/aspose.words/importformatoptions/smart_style_behavior/
 
 Gets or sets a boolean value that specifies how styles will be imported
 when they have equal names in source and destination documents.
-The default value is ``false``.
+The default value is ``False``.
 
 
 When this option is **enabled**, the source style will be expanded into a direct attributes inside a

@@ -24,7 +24,7 @@ def add_link_to_content(self, name: str, link_source: str):
 
 ### Returns
 
-The newly created property object or null when the linkSource is invalid.
+The newly created property object or ``None`` when the  is invalid.
 
 
 ### Examples

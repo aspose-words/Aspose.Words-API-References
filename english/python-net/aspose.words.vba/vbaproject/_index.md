@@ -11,19 +11,22 @@ url: /python-net/aspose.words.vba/vbaproject/
 
 Provides access to VBA project information.
 A VBA project inside the document is defined as a collection of VBA modules.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
+
 
 
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [VbaProject()](./__init__/#default) | Creates a blank VbaProject. |
+| [VbaProject()](./__init__/#default) | Creates a blank [VbaProject](./). |
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
 | [code_page](./code_page/) | Returns the VBA project’s code page. |
-| [is_signed](./is_signed/) | Shows whether the VbaProject is signed or not. |
+| [is_signed](./is_signed/) | Shows whether the [VbaProject](./) is signed or not. |
 | [modules](./modules/) | Returns collection of VBA project modules. |
 | [name](./name/) | Gets or sets VBA project name. |
 | [references](./references/) | Gets a collection of VBA project references. |

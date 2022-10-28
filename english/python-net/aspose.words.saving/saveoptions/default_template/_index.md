@@ -13,7 +13,7 @@ Gets or sets path to default template (including filename).
 Default value for this property is **empty string** (System.String.Empty).
 
 
-If specified, this path is used to load template when [Document.automatically_update_styles](../../../aspose.words/document/automatically_update_styles/) is true,
+If specified, this path is used to load template when [Document.automatically_update_styles](../../../aspose.words/document/automatically_update_styles/) is ``True``,
 but [Document.attached_template](../../../aspose.words/document/attached_template/) is empty.
 
 

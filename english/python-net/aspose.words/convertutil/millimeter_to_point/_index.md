@@ -42,7 +42,7 @@ page_setup.left_margin = aw.ConvertUtil.millimeter_to_point(80)
 page_setup.right_margin = aw.ConvertUtil.millimeter_to_point(40)
 
 # A centimeter is approximately 28.3 points.
-self.assertAlmostEqual(28.34, aw.ConvertUtil.millimeter_to_point(10), 1)
+self.assertAlmostEqual(28.34, aw.ConvertUtil.millimeter_to_point(10), delta=0.01)
 
 # Add content to demonstrate the new margins.
 builder.writeln(

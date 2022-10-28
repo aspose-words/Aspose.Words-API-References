@@ -1,7 +1,7 @@
 ﻿---
 title: BorderCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of Border objects."
+description: "A collection of [Border](../border/) objects"
 type: docs
 weight: 80
 url: /python-net/aspose.words/bordercollection/
@@ -9,20 +9,24 @@ url: /python-net/aspose.words/bordercollection/
 
 ## BorderCollection class
 
-A collection of Border objects.
+A collection of [Border](../border/) objects.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
+
 
 
 Different document elements have different borders.
-For example, ParagraphFormat has Bottom, Left, Right and Top borders.
+For example, [ParagraphFormat](../paragraphformat/) has [BorderCollection.bottom](./bottom/), [BorderCollection.left](./left/), [BorderCollection.right](./right/) and [BorderCollection.top](./top/) borders.
 You can specify different formatting for each border independently or
 enumerate through all borders and apply same formatting.
+
 
 
 ### Indexers
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a Border object by index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Border](../border/) object by index. |
 
 ### Properties
 
@@ -47,7 +51,7 @@ enumerate through all borders and apply same formatting.
 | --- | --- |
 |[ clear_formatting()](./clear_formatting/#default) | Removes all borders of an object. |
 |[ equals(br_coll)](./equals/#bordercollection) | Compares collections of borders. |
-|[ get_by_border_type(border_type)](./get_by_border_type/#bordertype) | Retrieves a Border object by border type. |
+|[ get_by_border_type(border_type)](./get_by_border_type/#bordertype) | Retrieves a [Border](../border/) object by border type. |
 
 ### Examples
 

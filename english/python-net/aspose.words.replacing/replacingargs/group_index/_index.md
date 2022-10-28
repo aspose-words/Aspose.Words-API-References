@@ -13,7 +13,7 @@ Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingAr
 that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string.
 
 
-[ReplacingArgs.group_index](./) has effect only when [ReplacingArgs.group_name](../group_name/) is null.
+[ReplacingArgs.group_index](./) has effect only when [ReplacingArgs.group_name](../group_name/) is ``None``.
 
 Default is zero.
 

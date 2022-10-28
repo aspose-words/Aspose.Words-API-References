@@ -1,7 +1,7 @@
 ﻿---
 title: visible property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets value that is ``true`` if the formatting applied to this instance, is visible."
+description: "Gets or sets value that is ``True`` if the formatting applied to this instance, is visible."
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/fill/visible/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing/fill/visible/
 
 ## Fill.visible property
 
-Gets or sets value that is ``true`` if the formatting applied to this instance, is visible.
+Gets or sets value that is ``True`` if the formatting applied to this instance, is visible.
 
 
 

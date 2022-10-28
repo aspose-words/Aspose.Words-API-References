@@ -11,9 +11,9 @@ url: /python-net/aspose.words.drawing/textpath/x_scale/
 
 Determines whether a straight textpath will be used instead of the shape path.
 
-The default value is **false**.
+The default value is ``False``.
 
-If **true**, the text runs along a path from left to right along the x value of 
+If ``True``, the text runs along a path from left to right along the x value of 
 the lower boundary of the shape.
 
 

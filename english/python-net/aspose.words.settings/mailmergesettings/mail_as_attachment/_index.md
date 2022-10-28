@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/mailmergesettings/mail_as_attachment/
 ## MailMergeSettings.mail_as_attachment property
 
 Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather 
-than the body of the actual e-mail. The default value is ``false``.
+than the body of the actual e-mail. The default value is ``False``.
 
 
 

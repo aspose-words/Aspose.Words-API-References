@@ -1,7 +1,7 @@
 ﻿---
 title: Range class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a contiguous area in a document."
+description: "Represents a contiguous area in a document"
 type: docs
 weight: 890
 url: /python-net/aspose.words/range/
@@ -10,17 +10,20 @@ url: /python-net/aspose.words/range/
 ## Range class
 
 Represents a contiguous area in a document.
+To learn more, visit the [Working with Ranges](https://docs.aspose.com/words/net/working-with-ranges/) documentation article.
+
+
 
 
 The document is represented by a tree of nodes and the nodes provide operations
 to work with the tree, but some operations are easier to perform if the document
 is treated as a contiguous sequence of text.
 
-**Range** is a "facade" interface that provide methods that treat the document
+[Range](./) is a "facade" interface that provide methods that treat the document
 or portions of the document as "flat" text regardless of the fact that the document
 nodes are stored in a tree-like object model.
 
-**Range** does not contain any text or nodes, it is merely a view or "window"
+[Range](./) does not contain any text or nodes, it is merely a view or "window"
 over a fragment of a document.
 
 

@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing/shape/image_data/
 ## Shape.image_data property
 
 Provides access to the image of the shape.
-Returns null if the shape cannot have an image.
+Returns ``None`` if the shape cannot have an image.
+
 
 
 ### Examples

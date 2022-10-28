@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_serie
 ## ChartDataLabelCollection.show_series_name property
 
 Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series.
-**True** to show the series name. **False** to hide. By default **false**.
+``True`` to show the series name; ``False`` to hide. By default ``False``.
 
 
 Value defined for this property can be overridden for an individual data label with using the

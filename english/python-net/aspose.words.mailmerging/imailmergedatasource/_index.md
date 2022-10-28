@@ -30,7 +30,7 @@ then invoke [IMailMergeDataSource.get_value()](./get_value/#str_unknown) for eve
 | Name | Description |
 | --- | --- |
 |[ get_child_data_source(table_name)](./get_child_data_source/#str) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-|[ get_value(field_name, field_value)](./get_value/#str_unknown) | Returns a value for the specified field name or false if the field is not found. |
+|[ get_value(field_name, field_value)](./get_value/#str_unknown) | Returns a value for the specified field name or ``False`` if the field is not found. |
 |[ move_next()](./move_next/#default) | Advances to the next record in the data source. |
 
 ### Examples

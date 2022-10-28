@@ -11,13 +11,13 @@ url: /python-net/aspose.words.saving/saveoptions/allow_embedding_post_script_fon
 
 Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines
 when embedding TrueType fonts in a document upon it is saved.
-The default value is **false**.
+The default value is ``False``.
 
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.embed_true_type_fonts](../../../aspose.words.fonts/fontinfocollection/embed_true_type_fonts/) of the
-[DocumentBase.font_infos](../../../aspose.words/documentbase/font_infos/) property is set to ``true``.
+[DocumentBase.font_infos](../../../aspose.words/documentbase/font_infos/) property is set to ``True``.
 
 
 

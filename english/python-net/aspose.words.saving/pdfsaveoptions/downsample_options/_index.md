@@ -3,7 +3,7 @@ title: downsample_options property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify downsample options."
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.saving/pdfsaveoptions/downsample_options/
 ---
 

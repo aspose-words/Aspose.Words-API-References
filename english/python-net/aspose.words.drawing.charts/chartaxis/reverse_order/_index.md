@@ -12,7 +12,7 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/reverse_order/
 Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e.
 from max to min.
 
-The property is not supported by MS Office 2016 new charts. Default value is **false**.
+The property is not supported by MS Office 2016 new charts. Default value is ``False``.
 
 
 

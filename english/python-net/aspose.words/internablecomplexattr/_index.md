@@ -11,6 +11,9 @@ url: /python-net/aspose.words/internablecomplexattr/
 
 Base class for internable complex attribute.
 Internable complex attribute should notify parent collection when going to be changed.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 ### See Also

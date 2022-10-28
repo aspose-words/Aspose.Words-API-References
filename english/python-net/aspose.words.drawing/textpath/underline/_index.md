@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/underline/
 
 True if the font is underlined.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

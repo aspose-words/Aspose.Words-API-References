@@ -75,7 +75,7 @@ result_list = doc.select_nodes("//FieldStart/following-sibling::node()[following
 # Check if the specified run is one of the nodes that are inside the field.
 for node in result_list:
     if node.node_type == aw.NodeType.RUN:
-        print(f"Contents of the first Run node that's part of a field: {node.get_text().strip()}")
+        print("Contents of the first Run node that's part of a field:", node.get_text().strip())
         break
 ```
 

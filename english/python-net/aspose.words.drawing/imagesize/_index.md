@@ -1,7 +1,7 @@
 ﻿---
 title: ImageSize class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains information about image size and resolution."
+description: "Contains information about image size and resolution"
 type: docs
 weight: 180
 url: /python-net/aspose.words.drawing/imagesize/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/imagesize/
 ## ImageSize class
 
 Contains information about image size and resolution.
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article.
+
+
 
 
 ### Constructors

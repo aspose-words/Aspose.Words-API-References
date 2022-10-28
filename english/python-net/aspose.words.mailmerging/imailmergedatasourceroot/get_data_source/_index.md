@@ -26,7 +26,7 @@ it invokes [IMailMergeDataSourceRoot.get_data_source()](./#str) on this object. 
 Aspose.Words will use the returned data source to populate the mail merge region.
 
 
-If a data source (table) with the specified name does not exist, your implementation should return ``null``.
+If a data source (table) with the specified name does not exist, your implementation should return ``None``.
 
 
 

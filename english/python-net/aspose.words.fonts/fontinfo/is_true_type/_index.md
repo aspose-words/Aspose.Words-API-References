@@ -10,7 +10,8 @@ url: /python-net/aspose.words.fonts/fontinfo/is_true_type/
 ## FontInfo.is_true_type property
 
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font.
-Default is true.
+Default is ``True``.
+
 
 
 ### Examples

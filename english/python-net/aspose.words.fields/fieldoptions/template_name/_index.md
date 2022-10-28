@@ -3,7 +3,7 @@ title: template_name property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the file name of the template used by the document."
 type: docs
-weight: 160
+weight: 170
 url: /python-net/aspose.words.fields/fieldoptions/template_name/
 ---
 

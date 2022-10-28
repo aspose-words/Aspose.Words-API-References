@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/downsampleoptions/downsample_images/
 
 Specifies whether images should be downsampled.
 
-The default value is ``true``.
+The default value is ``True``.
 
 
 

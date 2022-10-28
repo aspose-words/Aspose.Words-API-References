@@ -9,16 +9,18 @@ url: /python-net/aspose.words/tabstop/
 
 ## TabStop class
 
-Represents a single custom tab stop. The **TabStop** object is a member of the
+Represents a single custom tab stop. The [TabStop](./) object is a member of the
 [TabStopCollection](../tabstopcollection/) collection.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 
 
 
 Normally, a tab stop specifies a position where a tab stop exists. But because
 tab stops can be inherited from parent styles, it might be needed for the child object
 to define explicitly that there is no tab stop at a given position. To clear
-an inherited tab stop at a given position, create a **TabStop** object and set
-[TabStop.alignment](./alignment/) to ``TabAlignment.Clear``.
+an inherited tab stop at a given position, create a [TabStop](./) object and set
+[TabStop.alignment](./alignment/) to [TabAlignment.CLEAR](../tabalignment/#CLEAR).
 
 For more information see [TabStopCollection](../tabstopcollection/).
 
@@ -36,7 +38,7 @@ For more information see [TabStopCollection](../tabstopcollection/).
 | Name | Description |
 | --- | --- |
 | [alignment](./alignment/) | Gets or sets the alignment of text at this tab stop. |
-| [is_clear](./is_clear/) | Returns true if this tab stop clears any existing tab stops in this position. |
+| [is_clear](./is_clear/) | Returns ``True`` if this tab stop clears any existing tab stops in this position. |
 | [leader](./leader/) | Gets or sets the type of the leader line displayed under the tab character. |
 | [position](./position/) | Gets the position of the tab stop in points. |
 
@@ -44,7 +46,7 @@ For more information see [TabStopCollection](../tabstopcollection/).
 
 | Name | Description |
 | --- | --- |
-|[ equals(rhs)](./equals/#tabstop) | Compares with the specified TabStop. |
+|[ equals(rhs)](./equals/#tabstop) | Compares with the specified [TabStop](./). |
 
 ### Examples
 

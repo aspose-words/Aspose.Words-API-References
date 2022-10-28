@@ -10,7 +10,8 @@ url: /python-net/aspose.words/variablecollection/__getitem__/
 ## \_\_getitem\_\_(index) {#int}
 
 Gets or sets a document variable at the specified index.
-null values are not allowed as a right hand side of the assignment and will be replaced by empty string.
+``None`` values are not allowed as a right hand side of the assignment and will be replaced by empty string.
+
 
 
 ```python

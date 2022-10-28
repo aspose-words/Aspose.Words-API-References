@@ -3,7 +3,7 @@ title: create_save_options method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.saving.SaveOptions.create_save_options method"
 type: docs
-weight: 210
+weight: 200
 url: /python-net/aspose.words.saving/saveoptions/create_save_options/
 ---
 

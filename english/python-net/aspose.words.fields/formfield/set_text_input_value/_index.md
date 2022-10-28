@@ -22,7 +22,7 @@ def set_text_input_value(self, new_value: object):
 | --- | --- | --- |
 | new_value | object |  |
 
-The [FormField.text_input_default](../text_input_default/) value is applied if  is``null``.
+The [FormField.text_input_default](../text_input_default/) value is applied if  is``None``.
 
 
 ### See Also

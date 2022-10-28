@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/txtsaveoptions/add_bidi_marks/
 
 Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

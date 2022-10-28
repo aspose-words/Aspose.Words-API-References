@@ -10,7 +10,7 @@ url: /python-net/aspose.words/cleanupoptions/unused_lists/
 ## CleanupOptions.unused_lists property
 
 Specifies whether unused list and list definitions should be removed from document.
-Default value is **true**.
+Default value is ``True``.
 
 
 

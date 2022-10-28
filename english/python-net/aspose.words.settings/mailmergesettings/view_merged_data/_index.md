@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/mailmergesettings/view_merged_data/
 ## MailMergeSettings.view_merged_data property
 
 Specifies that Microsoft Word shall display the data from the specified external data source where merge fields 
-have been inserted (e.g. preview merged data). The default value is ``false``.
+have been inserted (e.g. preview merged data). The default value is ``False``.
 
 
 

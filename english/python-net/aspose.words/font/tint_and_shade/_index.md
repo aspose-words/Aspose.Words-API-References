@@ -15,7 +15,7 @@ The allowed values are in range from -1 (darkest) to 1 (lightest) for this prope
 Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1
 results in a System.ArgumentOutOfRangeException.
 
-Setting this property for Font object with non-theme colors
+Setting this property for [Font](../) object with non-theme colors
 results in a System.InvalidOperationException.
 
 

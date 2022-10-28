@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/title/
 ## StructuredDocumentTag.title property
 
 Specifies the friendly name associated with this **SDT**.
-Can not be null.
+Can not be ``None``.
 
 
 

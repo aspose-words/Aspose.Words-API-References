@@ -11,7 +11,7 @@ url: /python-net/aspose.words/tablestyle/allow_break_across_pages/
 
 Gets or sets a flag indicating whether text in a table row is allowed to split across a page break.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

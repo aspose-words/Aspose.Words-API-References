@@ -1,7 +1,7 @@
 ﻿---
 title: line_between property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When true, adds a vertical line between columns."
+description: "When ``True``, adds a vertical line between columns."
 type: docs
 weight: 40
 url: /python-net/aspose.words/textcolumncollection/line_between/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/textcolumncollection/line_between/
 
 ## TextColumnCollection.line_between property
 
-When **true**, adds a vertical line between columns.
+When ``True``, adds a vertical line between columns.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentPropertyCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections."
+description: "Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections"
 type: docs
 weight: 40
 url: /python-net/aspose.words.properties/documentpropertycollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.properties/documentpropertycollection/
 ## DocumentPropertyCollection class
 
 Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections.
+To learn more, visit the [Work with Document Properties](https://docs.aspose.com/words/net/work-with-document-properties/) documentation article.
+
 
 
 
@@ -37,7 +39,7 @@ The properties in the collection are sorted alphabetically by name.
 | Name | Description |
 | --- | --- |
 |[ clear()](./clear/#default) | Removes all properties from the collection. |
-|[ contains(name)](./contains/#str) | Returns true if a property with the specified name exists in the collection. |
+|[ contains(name)](./contains/#str) | Returns ``True`` if a property with the specified name exists in the collection. |
 |[ get_by_name(name)](./get_by_name/#str) | Returns a [DocumentProperty](../documentproperty/) object by the name of the property. |
 |[ index_of(name)](./index_of/#str) | Gets the index of a property by name. |
 |[ remove(name)](./remove/#str) | Removes a property with the specified name from the collection. |

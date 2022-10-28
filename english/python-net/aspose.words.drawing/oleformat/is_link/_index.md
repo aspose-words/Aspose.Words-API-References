@@ -1,7 +1,7 @@
 ﻿---
 title: is_link property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified)."
+description: "Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified)."
 type: docs
 weight: 40
 url: /python-net/aspose.words.drawing/oleformat/is_link/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing/oleformat/is_link/
 
 ## OleFormat.is_link property
 
-Returns true if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified).
+Returns ``True`` if the OLE object is linked (when [OleFormat.source_full_name](../source_full_name/) is specified).
 
 
 
@@ -53,9 +53,10 @@ self.assertEqual("Microsoft Visio drawing.vsd", ole_format.icon_caption)
 doc.save(ARTIFACTS_DIR + "Shape.ole_links.docx")
 
 # If the object contains OLE data, we can access it using a stream.
-with ole_format.get_ole_entry("\x0001CompObj") as stream:
-    ole_entry_bytes = stream.to_array()
-    self.assertEqual(76, len(ole_entry_bytes))
+stream = ole_format.get_ole_entry("\u0001CompObj")
+stream.seek(0)
+ole_entry_bytes = stream.read()
+self.assertEqual(76, len(ole_entry_bytes))
 ```
 
 ### See Also

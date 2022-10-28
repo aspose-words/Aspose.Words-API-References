@@ -1,7 +1,7 @@
 ﻿---
 title: Cell class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table cell."
+description: "Represents a table cell"
 type: docs
 weight: 20
 url: /python-net/aspose.words.tables/cell/
@@ -10,13 +10,16 @@ url: /python-net/aspose.words.tables/cell/
 ## Cell class
 
 Represents a table cell.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
 
 
-**Cell** can only be a child of a **Row**.
 
-**Cell** can contain block-level nodes **Paragraph** and **Table**.
 
-A minimal valid cell needs to have at least one **Paragraph**.
+[Cell](./) can only be a child of a [Row](../row/).
+
+[Cell](./) can contain block-level nodes [Paragraph](../../aspose.words/paragraph/) and [Table](../table/).
+
+A minimal valid cell needs to have at least one [Paragraph](../../aspose.words/paragraph/).
 
 
 
@@ -26,7 +29,7 @@ A minimal valid cell needs to have at least one **Paragraph**.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Cell(doc)](./__init__/#documentbase) | Initializes a new instance of the **Cell** class. |
+| [Cell(doc)](./__init__/#documentbase) | Initializes a new instance of the [Cell](./) class. |
 
 ### Properties
 
@@ -39,19 +42,19 @@ A minimal valid cell needs to have at least one **Paragraph**.
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [first_paragraph](./first_paragraph/) | Gets the first paragraph among the immediate children. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_first_cell](./is_first_cell/) | True if this is the first cell inside a row; false otherwise. |
 | [is_last_cell](./is_last_cell/) | True if this is the last cell inside a row; false otherwise. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [last_paragraph](./last_paragraph/) | Gets the last paragraph among the immediate children. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.Cell**. |
+| [node_type](./node_type/) | Returns [NodeType.CELL](../../aspose.words/nodetype/#CELL). |
 | [paragraphs](./paragraphs/) | Gets a collection of paragraphs that are immediate children of the cell. |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_row](./parent_row/) | Returns the parent row of the cell. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [tables](./tables/) | Gets a collection of tables that are immediate children of the cell. |
 
 ### Methods
@@ -78,7 +81,7 @@ A minimal valid cell needs to have at least one **Paragraph**.
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 
@@ -104,7 +107,7 @@ first_row.append_child(first_cell)
 paragraph = aw.Paragraph(doc)
 first_cell.append_child(paragraph)
 
-# Add text to the first call in the first row of the table.
+# Add text to the first cell in the first row of the table.
 run = aw.Run(doc, "Hello world!")
 paragraph.append_child(run)
 
@@ -120,7 +123,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -129,7 +132,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 

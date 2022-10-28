@@ -1,7 +1,7 @@
 ﻿---
 title: ListLevel class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines formatting for a list level."
+description: "Defines formatting for a list level"
 type: docs
 weight: 50
 url: /python-net/aspose.words.lists/listlevel/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.lists/listlevel/
 ## ListLevel class
 
 Defines formatting for a list level.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
+
 
 
 You do not create objects of this class. List level objects are created automatically

@@ -12,6 +12,17 @@ url: /python-net/aspose.words.fields/fieldstart/field_data/
 Gets custom field data which is associated with the field.
 
 
+### Examples
+
+Shows how to get data associated with the field.
+
+```python
+doc = aw.Document(MY_DIR + "Field sample - Field with data.docx")
+
+field = doc.range.fields[2]
+print(field.start.field_data)
+```
+
 ### See Also
 
 * module [aspose.words.fields](../../)

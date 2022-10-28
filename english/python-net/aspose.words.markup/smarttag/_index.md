@@ -1,7 +1,7 @@
 ﻿---
 title: SmartTag class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph."
+description: "This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph"
 type: docs
 weight: 160
 url: /python-net/aspose.words.markup/smarttag/
@@ -11,6 +11,9 @@ url: /python-net/aspose.words.markup/smarttag/
 
 This element specifies the presence of a smart tag around one or more inline structures
 (runs, images, fields,etc.) within a paragraph.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
+
 
 
 Smart tags is a kind of custom XML markup. Smart tags provide a facility for embedding
@@ -50,15 +53,15 @@ The complete list of child nodes that can occur inside a smart tag consists of
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [element](./element/) | Specifies the name of the smart tag within the document. |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.SmartTag**. |
+| [node_type](./node_type/) | Returns [NodeType.SMART_TAG](../../aspose.words/nodetype/#SMART_TAG). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [properties](./properties/) | A collection of the smart tag properties. |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [uri](./uri/) | Specifies the namespace URI of the smart tag. |
 
 ### Methods
@@ -84,7 +87,7 @@ The complete list of child nodes that can occur inside a smart tag consists of
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](./) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

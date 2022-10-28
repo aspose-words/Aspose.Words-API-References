@@ -21,7 +21,7 @@ def append_child(self, new_child: aspose.words.Node):
 | --- | --- | --- |
 | new_child | [Node](../../node/) |  |
 
-If the newChild is already in the tree, it is first removed.
+If the  is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use 
 [DocumentBase.import_node()](../../documentbase/import_node/#node_bool_importformatmode) to import the node to the current document. 

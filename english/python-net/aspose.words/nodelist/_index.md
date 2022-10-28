@@ -1,7 +1,7 @@
 ﻿---
 title: NodeList class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) method."
+description: "Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) method"
 type: docs
 weight: 730
 url: /python-net/aspose.words/nodelist/
@@ -10,17 +10,19 @@ url: /python-net/aspose.words/nodelist/
 ## NodeList class
 
 Represents a collection of nodes matching an XPath query executed using the [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) method.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 
 
-**NodeList** is returned by [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) and contains a collection
+
+[NodeList](./) is returned by [CompositeNode.select_nodes()](../compositenode/select_nodes/#str) and contains a collection
 of nodes matching the XPath query.
 
-**NodeList** supports indexed access and iteration.
+[NodeList](./) supports indexed access and iteration.
 
 > **NOTE**
 >
-> Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts
+> Treat the [NodeList](./) collection as a "snapshot" collection. [NodeList](./) starts
 > as a "live" collection because the nodes are not actually retrieved when the XPath query is run.
 > The nodes are only retrieved upon access and at this time the node and all nodes that precede
 > it are cached forming a "snapshot" collection.

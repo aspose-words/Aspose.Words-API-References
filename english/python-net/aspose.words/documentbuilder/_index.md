@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentBuilder class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods to insert text, images and other content, specify font, paragraph and section formatting."
+description: "Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 290
 url: /python-net/aspose.words/documentbuilder/
@@ -10,19 +10,22 @@ url: /python-net/aspose.words/documentbuilder/
 ## DocumentBuilder class
 
 Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
+To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/net/document-builder-overview/) documentation article.
 
 
-**DocumentBuilder** makes the process of building a **Document** easier.
-**Document** is a composite object consisting of a tree of nodes and while inserting content
+
+
+[DocumentBuilder](./) makes the process of building a [Document](../document/) easier.
+[Document](../document/) is a composite object consisting of a tree of nodes and while inserting content
 nodes directly into the tree is possible, it requires good understanding of the tree structure.
-**DocumentBuilder** is a "facade" for the complex structure of **Document** and allows
+[DocumentBuilder](./) is a "facade" for the complex structure of [Document](../document/) and allows
 to insert content and formatting quickly and easily.
 
-Create a **DocumentBuilder** and associate it with a [DocumentBuilder.document](./document/).
+Create a [DocumentBuilder](./) and associate it with a [Document](../document/).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted
+The [DocumentBuilder](./) has an internal cursor where the text will be inserted
 when you call [DocumentBuilder.write()](./write/#str), [DocumentBuilder.writeln()](./writeln/#str), [DocumentBuilder.insert_break()](./insert_break/#breaktype)
-and other methods. You can navigate the **DocumentBuilder** cursor to a different location
+and other methods. You can navigate the [DocumentBuilder](./) cursor to a different location
 in a document using various MoveToXXX methods.
 
 Use the [DocumentBuilder.font](./font/) property to specify character formatting that will apply to
@@ -38,7 +41,7 @@ Use the [DocumentBuilder.cell_format](./cell_format/) and [DocumentBuilder.row_f
 formatting properties for table cells and rows. User the [DocumentBuilder.insert_cell()](./insert_cell/#default) and
 [DocumentBuilder.end_row()](./end_row/#default) methods to build a table.
 
-Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever
+Note that [DocumentBuilder.font](./font/), [DocumentBuilder.paragraph_format](./paragraph_format/) and [DocumentBuilder.page_setup](./page_setup/) properties are updated whenever
 you navigate to a different place in the document to reflect formatting properties available at the new location.
 
 
@@ -57,13 +60,15 @@ you navigate to a different place in the document to reflect formatting properti
 | [bold](./bold/) | True if the font is formatted as bold. |
 | [cell_format](./cell_format/) | Returns an object that represents current table cell formatting properties. |
 | [current_node](./current_node/) | Gets the node that is currently selected in this DocumentBuilder. |
-| [current_paragraph](./current_paragraph/) | Gets the paragraph that is currently selected in this DocumentBuilder. |
-| [current_section](./current_section/) | Gets the section that is currently selected in this DocumentBuilder. |
-| [current_story](./current_story/) | Gets the story that is currently selected in this DocumentBuilder. |
+| [current_paragraph](./current_paragraph/) | Gets the paragraph that is currently selected in this [DocumentBuilder](./). |
+| [current_section](./current_section/) | Gets the section that is currently selected in this [DocumentBuilder](./). |
+| [current_story](./current_story/) | Gets the story that is currently selected in this [DocumentBuilder](./). |
+| [current_structured_document_tag](./current_structured_document_tag/) | Gets the structured document tag that is currently selected in this [DocumentBuilder](./). |
 | [document](./document/) | Gets or sets the [DocumentBuilder.document](./document/) object that this object is attached to. |
 | [font](./font/) | Returns an object that represents current font formatting properties. |
-| [is_at_end_of_paragraph](./is_at_end_of_paragraph/) | Returns true if the cursor is at the end of the current paragraph. |
-| [is_at_start_of_paragraph](./is_at_start_of_paragraph/) | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [is_at_end_of_paragraph](./is_at_end_of_paragraph/) | Returns ``True`` if the cursor is at the end of the current paragraph. |
+| [is_at_end_of_structured_document_tag](./is_at_end_of_structured_document_tag/) | Returns **true** if the cursor is at the end of a structured document tag. |
+| [is_at_start_of_paragraph](./is_at_start_of_paragraph/) | Returns ``True`` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [italic](./italic/) | True if the font is formatted as italic. |
 | [list_format](./list_format/) | Returns an object that represents current list formatting properties. |
 | [page_setup](./page_setup/) | Returns an object that represents current page setup and section properties. |
@@ -110,7 +115,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_image(file_name, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#str_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a file or URL at the specified position and size. |
 |[ insert_image(stream, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytesio_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a stream at the specified position and size. |
 |[ insert_image(image_bytes, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytes_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a byte array at the specified position and size. |
-|[ insert_node(node)](./insert_node/#node) | Inserts a text level node inside the current paragraph before the cursor. |
+|[ insert_node(node)](./insert_node/#node) | Inserts a node before the cursor. |
 |[ insert_ole_object(stream, prog_id, as_icon, presentation)](./insert_ole_object/#bytesio_str_bool_bytesio) | Inserts an embedded OLE object from a stream into the document. |
 |[ insert_ole_object(file_name, is_linked, as_icon, presentation)](./insert_ole_object/#str_bool_bool_bytesio) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |
 |[ insert_ole_object(file_name, prog_id, is_linked, as_icon, presentation)](./insert_ole_object/#str_str_bool_bool_bytesio) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using given progID parameter. |
@@ -141,6 +146,8 @@ you navigate to a different place in the document to reflect formatting properti
 |[ move_to_merge_field(field_name, is_after, is_delete_field)](./move_to_merge_field/#str_bool_bool) | Moves the merge field to the specified merge field. |
 |[ move_to_paragraph(paragraph_index, character_index)](./move_to_paragraph/#int_int) | Moves the cursor to a paragraph in the current section. |
 |[ move_to_section(section_index)](./move_to_section/#int) | Moves the cursor to the beginning of the body in a specified section. |
+|[ move_to_structured_document_tag(structured_document_tag_index, character_index)](./move_to_structured_document_tag/#int_int) | Moves the cursor to a structured document tag in the current section. |
+|[ move_to_structured_document_tag(structured_document_tag, character_index)](./move_to_structured_document_tag/#structureddocumenttag_int) | Moves the cursor to the structured document tag. |
 |[ pop_font()](./pop_font/#default) | Retrieves character formatting previously saved on the stack. |
 |[ push_font()](./push_font/#default) | Saves current character formatting onto the stack. |
 |[ start_bookmark(bookmark_name)](./start_bookmark/#str) | Marks the current position in the document as a bookmark start. |

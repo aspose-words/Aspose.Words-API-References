@@ -21,14 +21,14 @@ def contains(self, node: aspose.words.Node):
 | --- | --- | --- |
 | node | [Node](../../node/) |  |
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+This method performs a linear search; therefore, the average execution time is proportional to [NodeCollection.count](../count/).
 
 
 
 
 ### Returns
 
-True if item is found in the collection; otherwise, false.
+``True`` if item is found in the collection; otherwise, ``False``.
 
 
 ### Examples

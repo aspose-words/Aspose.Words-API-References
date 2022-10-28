@@ -1,7 +1,7 @@
 ﻿---
 title: LanguagePreferences class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to set up language preferences."
+description: "Allows to set up language preferences"
 type: docs
 weight: 100
 url: /python-net/aspose.words.loading/languagepreferences/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.loading/languagepreferences/
 ## LanguagePreferences class
 
 Allows to set up language preferences.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
+
 
 
 Implements 'Set the Office Language Preferences' dialog in Word.

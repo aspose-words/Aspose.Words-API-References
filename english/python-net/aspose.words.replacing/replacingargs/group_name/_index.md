@@ -13,9 +13,9 @@ Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArg
 that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string.
 
 
-When group name is null, [ReplacingArgs.group_index](../group_index/) is used to identify the group.
+When group name is ``None``, [ReplacingArgs.group_index](../group_index/) is used to identify the group.
 
-Default is null.
+Default is ``None``.
 
 
 

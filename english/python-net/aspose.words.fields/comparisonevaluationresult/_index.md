@@ -1,7 +1,7 @@
 ﻿---
 title: ComparisonEvaluationResult class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "The comparison evaluation result."
+description: "The comparison evaluation result"
 type: docs
 weight: 20
 url: /python-net/aspose.words.fields/comparisonevaluationresult/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/comparisonevaluationresult/
 ## ComparisonEvaluationResult class
 
 The comparison evaluation result.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Constructors

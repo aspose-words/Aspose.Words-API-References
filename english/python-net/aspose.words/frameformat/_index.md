@@ -29,7 +29,7 @@ Use [FrameFormat.is_frame](./is_frame/) to check whether paragraph is a frame.
 | [horizontal_alignment](./horizontal_alignment/) | Gets horizontal alignment of the specified frame. |
 | [horizontal_distance_from_text](./horizontal_distance_from_text/) | Gets horizontal distance between a frame and the surrounding text, in points. |
 | [horizontal_position](./horizontal_position/) | Gets horizontal distance between the edge of the frame and the item specified by the [FrameFormat.relative_horizontal_position](./relative_horizontal_position/) property. |
-| [is_frame](./is_frame/) | Returns true if the paragraph is a frame. |
+| [is_frame](./is_frame/) | Returns ``True`` if the paragraph is a frame. |
 | [relative_horizontal_position](./relative_horizontal_position/) | Gets the relative horizontal position of a frame. |
 | [relative_vertical_position](./relative_vertical_position/) | Gets the relative vertical position of a frame. |
 | [vertical_alignment](./vertical_alignment/) | Gets vertical alignment of the specified frame. |

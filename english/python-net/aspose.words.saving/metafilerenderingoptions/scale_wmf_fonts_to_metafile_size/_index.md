@@ -13,13 +13,13 @@ Gets or sets a value determining whether or not to scale fonts in WMF metafile a
 
 When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
 
-When this value is set to ``true``, Aspose.Words emulates font scaling according to metafile size on the page.
+When this value is set to ``True``, Aspose.Words emulates font scaling according to metafile size on the page.
 
-When this value is set to ``false``, Aspose.Words displays the fonts as metafile is rendered to its default size.
+When this value is set to ``False``, Aspose.Words displays the fonts as metafile is rendered to its default size.
 
 This option is used only when metafile is rendered as vector graphics.
 
-The default value is ``true``.
+The default value is ``True``.
 
 
 

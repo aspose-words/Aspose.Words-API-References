@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/charttitle/show/
 ## ChartTitle.show property
 
 Determines whether the title shall be shown for this chart.
-Default value is true.
+Default value is ``True``.
+
 
 
 ### Examples

@@ -1,7 +1,7 @@
 ﻿---
 title: CsvDataLoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options for parsing CSV data."
+description: "Represents options for parsing CSV data"
 type: docs
 weight: 10
 url: /python-net/aspose.words.reporting/csvdataloadoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.reporting/csvdataloadoptions/
 ## CsvDataLoadOptions class
 
 Represents options for parsing CSV data.
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
+
 
 
 An instance of this class can be passed into constructors of [CsvDataSource](../csvdatasource/).

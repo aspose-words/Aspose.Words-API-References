@@ -13,7 +13,7 @@ Gets or sets the ProgID of the OLE object.
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
-Cannot be null.
+Cannot be ``None``.
 
 The default value is an empty string.
 

@@ -22,7 +22,7 @@ revisions = doc.revisions
 
 # This collection itself has a collection of revision groups.
 # Each group is a sequence of adjacent revisions.
-print(f"{revisions.groups.count} revision groups:")
+print(revisions.groups.count, "revision groups:")
 
 # Iterate over the collection of groups and print the text that the revision concerns.
 for group in revisions.groups:

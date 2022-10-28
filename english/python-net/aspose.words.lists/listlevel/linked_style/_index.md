@@ -11,8 +11,8 @@ url: /python-net/aspose.words.lists/listlevel/linked_style/
 
 Gets or sets the paragraph style that is linked to this list level.
 
-This property is null when the list level is not linked to a paragraph style.
-This property can be set to null.
+This property is ``None`` when the list level is not linked to a paragraph style.
+This property can be set to ``None``.
 
 
 

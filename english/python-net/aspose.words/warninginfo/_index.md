@@ -1,7 +1,7 @@
 ﻿---
 title: WarningInfo class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains information about a warning that Aspose.Words issued during document loading or saving."
+description: "Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
 weight: 1290
 url: /python-net/aspose.words/warninginfo/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/warninginfo/
 ## WarningInfo class
 
 Contains information about a warning that Aspose.Words issued during document loading or saving.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
+
 
 
 You do not create instances of this class. Objects of this class are created

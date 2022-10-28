@@ -10,7 +10,7 @@ url: /python-net/aspose.words/cleanupoptions/unused_styles/
 ## CleanupOptions.unused_styles property
 
 Specifies whether unused styles should be removed from document.
-Default value is **true**.
+Default value is ``True``.
 
 
 

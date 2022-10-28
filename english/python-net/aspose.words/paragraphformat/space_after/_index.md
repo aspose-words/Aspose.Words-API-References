@@ -11,7 +11,7 @@ url: /python-net/aspose.words/paragraphformat/space_after/
 
 Gets or sets the amount of spacing (in points) after the paragraph.
 
-Has no effect when [ParagraphFormat.space_after_auto](../space_after_auto/) is true.
+Has no effect when [ParagraphFormat.space_after_auto](../space_after_auto/) is ``True``.
 
 Valid values ​​range from 0 to 1584 inclusive.
 

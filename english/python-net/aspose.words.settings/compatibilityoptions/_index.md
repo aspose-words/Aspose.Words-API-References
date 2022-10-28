@@ -1,7 +1,7 @@
 ﻿---
 title: CompatibilityOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)."
+description: "Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
 weight: 20
 url: /python-net/aspose.words.settings/compatibilityoptions/
@@ -11,6 +11,8 @@ url: /python-net/aspose.words.settings/compatibilityoptions/
 
 Contains compatibility options (that is, the user preferences entered on the **Compatibility**
 tab of the **Options** dialog in Microsoft Word).
+To learn more, visit the [Detect File Format and Check Format Compatibility](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) documentation article.
+
 
 
 
@@ -74,7 +76,7 @@ tab of the **Options** dialog in Microsoft Word).
 | [swap_inside_and_outside_for_mirror_indents_and_relative_positioning](./swap_inside_and_outside_for_mirror_indents_and_relative_positioning/) |  |
 | [transparent_metafiles](./transparent_metafiles/) | Specifies not to blank the area behind metafile pictures. |
 | [truncate_font_heights_like_wp6](./truncate_font_heights_like_wp6/) | Emulate WordPerfect 6.x Font Height Calculation. |
-| [ui_compat_97_to_2003](./ui_compat_97_to_2003/) | **True** to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
+| [ui_compat_97_to_2003](./ui_compat_97_to_2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``False``. |
 | [ul_trail_space](./ul_trail_space/) | Underline All Trailing Spaces. |
 | [underline_tab_in_num_list](./underline_tab_in_num_list/) | Underline Following Character Following Numbering. |
 | [use_alt_kinsoku_line_break_rules](./use_alt_kinsoku_line_break_rules/) | Use Alternate Set of East Asian Line Breaking Rules. |

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/is_hidden/
 ## ChartDataLabel.is_hidden property
 
 Gets/sets a flag indicating whether this label is hidden.
-The default value is **false**.
+The default value is ``False``.
 
 
 

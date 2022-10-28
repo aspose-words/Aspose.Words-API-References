@@ -49,7 +49,7 @@ Write protection is specified using the [Document.write_protection](../write_pro
 
 ### Returns
 
-True if a correct password was specified and the document was unprotected.
+``True`` if a correct password was specified and the document was unprotected.
 
 
 ## Examples

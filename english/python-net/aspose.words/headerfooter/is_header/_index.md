@@ -1,7 +1,7 @@
 ﻿---
 title: is_header property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this HeaderFooter object is a header."
+description: "True if this [HeaderFooter](../) object is a header."
 type: docs
 weight: 30
 url: /python-net/aspose.words/headerfooter/is_header/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/headerfooter/is_header/
 
 ## HeaderFooter.is_header property
 
-True if this **HeaderFooter** object is a header.
+True if this [HeaderFooter](../) object is a header.
 
 
 

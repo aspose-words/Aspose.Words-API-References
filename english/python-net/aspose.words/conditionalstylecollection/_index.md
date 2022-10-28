@@ -1,7 +1,7 @@
 ﻿---
 title: ConditionalStyleCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of [ConditionalStyle](../conditionalstyle/) objects."
+description: "Represents a collection of [ConditionalStyle](../conditionalstyle/) objects"
 type: docs
 weight: 220
 url: /python-net/aspose.words/conditionalstylecollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/conditionalstylecollection/
 ## ConditionalStyleCollection class
 
 Represents a collection of [ConditionalStyle](../conditionalstyle/) objects.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 
 
 

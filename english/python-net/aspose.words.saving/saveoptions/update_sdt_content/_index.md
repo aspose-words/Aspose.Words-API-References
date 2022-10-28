@@ -3,7 +3,7 @@ title: update_sdt_content property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets value determining whether content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) is updated before saving."
 type: docs
-weight: 180
+weight: 170
 url: /python-net/aspose.words.saving/saveoptions/update_sdt_content/
 ---
 
@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/saveoptions/update_sdt_content/
 Gets or sets value determining whether content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) is updated before saving.
 
 
-The default value is ``true``.
+The default value is ``False``.
 
 
 
@@ -36,16 +36,7 @@ tag.list_items.selected_value = tag.list_items[1]
 
 doc.first_section.body.append_child(tag)
 
-# Create a "PdfSaveOptions" object to pass to the document's "Save" method
-# to modify how that method saves the document to .PDF.
-options = aw.saving.PdfSaveOptions()
-
-# Set the "update_sdt_content" property to "False" not to update the structured document tags
-# while saving the document to PDF. They will display their default values as they were at the time of construction.
-# Set the "update_sdt_content" property to "True" to make sure the tags display updated values in the PDF.
-options.update_sdt_content = update_sdt_content
-
-doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.update_sdt_content.pdf", options)
+doc.save(ARTIFACTS_DIR + "StructuredDocumentTag.update_sdt_content.pdf")
 ```
 
 ### See Also

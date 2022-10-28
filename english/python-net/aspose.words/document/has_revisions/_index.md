@@ -1,7 +1,7 @@
 ﻿---
 title: has_revisions property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the document has any tracked changes."
+description: "Returns ``True`` if the document has any tracked changes."
 type: docs
 weight: 200
 url: /python-net/aspose.words/document/has_revisions/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/document/has_revisions/
 
 ## Document.has_revisions property
 
-Returns **true** if the document has any tracked changes.
+Returns ``True`` if the document has any tracked changes.
 
 
 This property is a shortcut for comparing [RevisionCollection.count](../../revisioncollection/count/) to zero.

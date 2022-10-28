@@ -21,7 +21,7 @@ def set_count(self, new_count: int):
 | --- | --- | --- |
 | new_count | int |  |
 
-When [TextColumnCollection.evenly_spaced](../evenly_spaced/) is **false** and you increase the number of columns,
+When [TextColumnCollection.evenly_spaced](../evenly_spaced/) is ``False`` and you increase the number of columns,
 new [TextColumn](../../textcolumn/) objects are created with zero width and spacing.
 You need to set width and spacing for the new columns.
 

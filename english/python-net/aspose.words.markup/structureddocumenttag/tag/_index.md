@@ -10,7 +10,8 @@ url: /python-net/aspose.words.markup/structureddocumenttag/tag/
 ## StructuredDocumentTag.tag property
 
 Specifies a tag associated with the current SDT node.
-Can not be null.
+Can not be ``None``.
+
 
 A tag is an arbitrary string which applications can associate with SDT
 in order to identify it without providing a visible friendly name.

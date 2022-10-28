@@ -13,19 +13,20 @@ customize elements and attributes that extend the XML vocabulary for representin
 
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [TaskPane](./taskpane/) | Represents an add-in task pane object. |
-| [TaskPaneCollection](./taskpanecollection/) | Specifies a list of persisted task pane objects. |
-| [WebExtension](./webextension/) | Represents a web extension object. |
-| [WebExtensionBinding](./webextensionbinding/) | Specifies a binding relationship between a web extension and the data in the document. |
-| [WebExtensionBindingCollection](./webextensionbindingcollection/) | Specifies a list of web extension bindings. |
-| [WebExtensionProperty](./webextensionproperty/) | Specifies a web extension custom property. |
-| [WebExtensionPropertyCollection](./webextensionpropertycollection/) | Specifies a set of web extension custom properties. |
-| [WebExtensionReference](./webextensionreference/) | Represents the reference to a web extension. The reference is used to identify the provider location and version of the extension. |
-| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | Specifies a list of web extension references. |
+| [TaskPane](./taskpane/) | Represents an add-in task pane object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [TaskPaneCollection](./taskpanecollection/) | Specifies a list of persisted task pane objects. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtension](./webextension/) | Represents a web extension object. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionBinding](./webextensionbinding/) | Specifies a binding relationship between a web extension and the data in the document. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionBindingCollection](./webextensionbindingcollection/) | Specifies a list of web extension bindings. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionProperty](./webextensionproperty/) | Specifies a web extension custom property. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionPropertyCollection](./webextensionpropertycollection/) | Specifies a set of web extension custom properties. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionReference](./webextensionreference/) | Represents the reference to a web extension. The reference is used to identify the provider location and version of the extension. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
+| [WebExtensionReferenceCollection](./webextensionreferencecollection/) | Specifies a list of web extension references. To learn more, visit the [Work with Office Add-ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) documentation article. |
 
 ## Enumerations
 

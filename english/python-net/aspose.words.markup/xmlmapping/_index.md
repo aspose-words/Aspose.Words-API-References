@@ -1,7 +1,7 @@
 ﻿---
 title: XmlMapping class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document."
+description: "Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document"
 type: docs
 weight: 210
 url: /python-net/aspose.words.markup/xmlmapping/
@@ -11,6 +11,9 @@ url: /python-net/aspose.words.markup/xmlmapping/
 
 Specifies the information that is used to establish a mapping between the parent
 structured document tag and an XML element stored within a custom XML data part in the document.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
+
 
 
 ### Properties
@@ -18,7 +21,7 @@ structured document tag and an XML element stored within a custom XML data part 
 | Name | Description |
 | --- | --- |
 | [custom_xml_part](./custom_xml_part/) | Returns the custom XML data part to which the parent structured document tag is mapped. |
-| [is_mapped](./is_mapped/) | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
+| [is_mapped](./is_mapped/) | Returns ``True`` if the parent structured document tag is successfully mapped to XML data. |
 | [prefix_mappings](./prefix_mappings/) | Returns XML namespace prefix mappings to evaluate the [XmlMapping.xpath](./xpath/). |
 | [store_item_id](./store_item_id/) | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [XmlMapping.xpath](./xpath/) expression. |
 | [xpath](./xpath/) | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |

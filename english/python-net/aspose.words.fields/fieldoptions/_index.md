@@ -1,7 +1,7 @@
 ﻿---
 title: FieldOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options to control field handling in a document."
+description: "Represents options to control field handling in a document"
 type: docs
 weight: 790
 url: /python-net/aspose.words.fields/fieldoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fieldoptions/
 ## FieldOptions class
 
 Represents options to control field handling in a document.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Properties
@@ -27,6 +30,7 @@ Represents options to control field handling in a document.
 | [field_update_culture_provider](./field_update_culture_provider/) | Gets or sets a provider that returns a culture object specific for each particular field. |
 | [field_update_culture_source](./field_update_culture_source/) | Specifies what culture to use to format the field result. |
 | [field_updating_callback](./field_updating_callback/) | Gets or sets [IFieldUpdatingCallback](../ifieldupdatingcallback/) implementation |
+| [field_updating_progress_callback](./field_updating_progress_callback/) | Gets or sets [IFieldUpdatingProgressCallback](../ifieldupdatingprogresscallback/) implementation. |
 | [file_name](./file_name/) | Gets or sets the file name of the document. |
 | [is_bidi_text_supported_on_update](./is_bidi_text_supported_on_update/) | Gets or sets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [legacy_number_format](./legacy_number_format/) | Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |

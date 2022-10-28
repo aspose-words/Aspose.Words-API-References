@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_setup/
 ## HtmlSaveOptions.export_page_setup property
 
 Specifies whether page setup is exported to HTML, MHTML or EPUB.
-Default is ``false``.
+Default is ``False``.
 
 
 Each [Section](../../../aspose.words/section/) in Aspose.Words document model provides page setup information

@@ -9,15 +9,17 @@ url: /python-net/aspose.words/textcolumn/
 
 ## TextColumn class
 
-Represents a single text column. **TextColumn** is a member of the [TextColumnCollection](../textcolumncollection/) collection.
-The **TextColumns** collection includes all the columns in a section of a document.
+Represents a single text column. [TextColumn](./) is a member of the [TextColumnCollection](../textcolumncollection/) collection.
+The [TextColumn](./) collection includes all the columns in a section of a document.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
 
 
 
-**TextColumn** objects are only used to specify columns with custom width and spacing. If you want
-the columns in the document to be of equal width, set TextColumns.[TextColumnCollection.evenly_spaced](../textcolumncollection/evenly_spaced/) to **true**.
 
-When a new **TextColumn** is created it has its width and spacing set to zero.
+[TextColumn](./) objects are only used to specify columns with custom width and spacing. If you want
+the columns in the document to be of equal width, set TextColumns.[TextColumnCollection.evenly_spaced](../textcolumncollection/evenly_spaced/) to ``True``.
+
+When a new [TextColumn](./) is created it has its width and spacing set to zero.
 
 
 

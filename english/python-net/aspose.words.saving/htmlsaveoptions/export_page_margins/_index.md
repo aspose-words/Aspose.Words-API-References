@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_page_margins/
 ## HtmlSaveOptions.export_page_margins property
 
 Specifies whether page margins is exported to HTML, MHTML or EPUB.
-Default is ``false``.
+Default is ``False``.
 
 
 Aspose.Words does not show area of page margins by default. 
@@ -52,10 +52,10 @@ with open(ARTIFACTS_DIR + "HtmlSaveOptions.export_page_margins.html", "rt", enco
 
 if export_page_margins:
     self.assertIn("<style type=\"text/css\">div.Section1 { margin:70.85pt }</style>", out_doc_contents)
-    self.assertIn("<div class=\"Section1\"><p style=\"margin-top:0pt; margin-left:151pt; margin-bottom:0pt\">", out_doc_contents)
+    self.assertIn("<div class=\"Section1\"><p style=\"margin-top:0pt; margin-left:150pt; margin-bottom:0pt\">", out_doc_contents)
 else:
     self.assertNotIn("style type=\"text/css\">", out_doc_contents)
-    self.assertIn("<div><p style=\"margin-top:0pt; margin-left:221.85pt; margin-bottom:0pt\">", out_doc_contents)
+    self.assertIn("<div><p style=\"margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt\">", out_doc_contents)
 ```
 
 ### See Also

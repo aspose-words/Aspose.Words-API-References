@@ -19,9 +19,9 @@ def get_field_names(self):
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
-A new string[] array is created on every call.
+A new string array is created on every call.
 
-Includes "mustache" field names if [MailMerge.use_non_merge_fields](../use_non_merge_fields/) is **true**.
+Includes "mustache" field names if [MailMerge.use_non_merge_fields](../use_non_merge_fields/) is ``True``.
 
 
 

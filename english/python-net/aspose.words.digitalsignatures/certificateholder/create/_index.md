@@ -9,7 +9,8 @@ url: /python-net/aspose.words.digitalsignatures/certificateholder/create/
 
 ## create(cert_bytes, password) {#bytes_str}
 
-Creates CertificateHolder object using byte array of PKCS12 store and its password.
+Creates [CertificateHolder](../) object using byte array of PKCS12 store and its password.
+
 
 
 ```python
@@ -24,21 +25,22 @@ def create(self, cert_bytes: bytes, password: str):
 
 ### Returns
 
-An instance of CertificateHolder
+An instance of [CertificateHolder](../)
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **certBytes** is null |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **password** is null |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
 | System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
 | System.IO.IOException | Thrown if there is wrong password or corrupted file. |
 
 ## create(file_name, password) {#str_str}
 
-Creates CertificateHolder object using path to PKCS12 store and its password.
+Creates [CertificateHolder](../) object using path to PKCS12 store and its password.
+
 
 
 ```python
@@ -53,21 +55,22 @@ def create(self, file_name: str, password: str):
 
 ### Returns
 
-An instance of CertificateHolder
+An instance of [CertificateHolder](../)
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **fileName** is null |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **password** is null |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
 | System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
 | System.IO.IOException | Thrown if there is wrong password or corrupted file. |
 
 ## create(file_name, password, alias) {#str_str_str}
 
-Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
+Creates [CertificateHolder](../) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found.
+
 
 
 ```python
@@ -83,15 +86,15 @@ def create(self, file_name: str, password: str, alias: str):
 
 ### Returns
 
-An instance of CertificateHolder
+An instance of [CertificateHolder](../)
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **fileName** is null |
-| Org.BouncyCastle.Security.InvalidParameterException | Thrown if **password** is null |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
+| Org.BouncyCastle.Security.InvalidParameterException | Thrown if  is``None`` |
 | System.Security.SecurityException | Thrown if PKCS12 store contains no aliases |
 | System.IO.IOException | Thrown if there is wrong password or corrupted file. |
 | System.Security.SecurityException | Thrown if there is no private key with the given alias |
@@ -117,7 +120,7 @@ with open(MY_DIR + "morzal.pfx", "rb") as cert_stream:
     pkcs12_store = Pkcs12Store(cert_stream, "aw")
     for alias in pkcs12_store.aliases:
         if pkcs12_store.is_key_entry(alias) and pkcs12_store.get_key(alias).key.is_private:
-            print(f"Valid alias found: {alias}")
+            print("Valid alias found:", alias)
 
 # 3 -  Use a valid alias:
 aw.digitalsignatures.CertificateHolder.create(MY_DIR + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24")

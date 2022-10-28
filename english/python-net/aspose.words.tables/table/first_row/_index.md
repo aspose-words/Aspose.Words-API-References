@@ -1,7 +1,7 @@
 ﻿---
 title: first_row property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the first Row node in the table."
+description: "Returns the first [Row](../../row/) node in the table."
 type: docs
 weight: 160
 url: /python-net/aspose.words.tables/table/first_row/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/table/first_row/
 
 ## Table.first_row property
 
-Returns the first **Row** node in the table.
+Returns the first [Row](../../row/) node in the table.
 
 
 

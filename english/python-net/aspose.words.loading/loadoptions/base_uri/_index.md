@@ -10,7 +10,8 @@ url: /python-net/aspose.words.loading/loadoptions/base_uri/
 ## LoadOptions.base_uri property
 
 Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required.
-Can be null or empty string. Default is null.
+Can be ``None`` or empty string. Default is ``None``.
+
 
 This property is used to resolve relative URIs into absolute in the following cases:
 

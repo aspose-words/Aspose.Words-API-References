@@ -1,15 +1,18 @@
 ﻿---
 title: GeneralFormatCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a typed collection of general formats."
+description: "Represents a typed collection of general formats"
 type: docs
-weight: 1180
+weight: 1190
 url: /python-net/aspose.words.fields/generalformatcollection/
 ---
 
 ## GeneralFormatCollection class
 
 Represents a typed collection of general formats.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Indexers

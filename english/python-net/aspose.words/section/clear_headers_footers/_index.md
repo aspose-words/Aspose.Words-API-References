@@ -42,8 +42,8 @@ builder.writeln("This is the primary footer.")
 
 self.assertEqual(2, doc.first_section.headers_footers.count)
 
-self.assertEqual("This is the primary header.", doc.first_section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY].get_text().strip())
-self.assertEqual("This is the primary footer.", doc.first_section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY].get_text().strip())
+self.assertEqual("This is the primary header.", doc.first_section.headers_footers.header_primary.get_text().strip())
+self.assertEqual("This is the primary footer.", doc.first_section.headers_footers.footer_primary.get_text().strip())
 
 # Empty all the headers and footers in this section of all their contents.
 # The headers and footers themselves will still be present but will have nothing to display.
@@ -51,8 +51,8 @@ doc.first_section.clear_headers_footers()
 
 self.assertEqual(2, doc.first_section.headers_footers.count)
 
-self.assertEqual("", doc.first_section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY].get_text().strip())
-self.assertEqual("", doc.first_section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY].get_text().strip())
+self.assertEqual("", doc.first_section.headers_footers.header_primary.get_text().strip())
+self.assertEqual("", doc.first_section.headers_footers.footer_primary.get_text().strip())
 ```
 
 ### See Also

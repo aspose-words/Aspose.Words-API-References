@@ -3,7 +3,7 @@ title: move_to_bookmark method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.move_to_bookmark method"
 type: docs
-weight: 470
+weight: 490
 url: /python-net/aspose.words/documentbuilder/move_to_bookmark/
 ---
 
@@ -24,7 +24,7 @@ def move_to_bookmark(self, bookmark_name: str):
 Moves the cursor to a position just after the start of the bookmark with the
 specified name.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is
+The comparison is not case-sensitive. If the bookmark was not found, ``False`` is
 returned and the cursor is not moved.
 
 Inserting new text does not replace existing text of the bookmark.
@@ -39,7 +39,7 @@ text will not be visible because it becomes part of the field code.
 
 ### Returns
 
-True if the bookmark was found; false otherwise.
+``True`` if the bookmark was found; ``False`` otherwise.
 
 
 ## move_to_bookmark(bookmark_name, is_start, is_after) {#str_bool_bool}
@@ -62,7 +62,7 @@ Moves the cursor to a position before or after the bookmark start or end.
 
 If desired position is not at inline level, moves to the next paragraph.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is
+The comparison is not case-sensitive. If the bookmark was not found, ``False`` is
 returned and the cursor is not moved.
 
 
@@ -70,7 +70,7 @@ returned and the cursor is not moved.
 
 ### Returns
 
-True if the bookmark was found; false otherwise.
+``True`` if the bookmark was found; ``False`` otherwise.
 
 
 ## Examples

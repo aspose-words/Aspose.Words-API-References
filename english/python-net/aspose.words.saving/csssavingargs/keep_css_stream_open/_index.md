@@ -11,9 +11,9 @@ url: /python-net/aspose.words.saving/csssavingargs/keep_css_stream_open/
 
 Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information.
 
-Default is ``false`` and Aspose.Words will close the stream you provided
+Default is ``False`` and Aspose.Words will close the stream you provided
 in the [CssSavingArgs.css_stream](../css_stream/) property after writing an CSS information into it.
-Specify ``true`` to keep the stream open.
+Specify ``True`` to keep the stream open.
 
 
 

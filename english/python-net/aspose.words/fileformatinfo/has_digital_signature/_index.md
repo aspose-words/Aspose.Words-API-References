@@ -1,7 +1,7 @@
 ﻿---
 title: has_digital_signature property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this document contains a digital signature"
+description: "Returns ``True`` if this document contains a digital signature"
 type: docs
 weight: 20
 url: /python-net/aspose.words/fileformatinfo/has_digital_signature/
@@ -9,9 +9,10 @@ url: /python-net/aspose.words/fileformatinfo/has_digital_signature/
 
 ## FileFormatInfo.has_digital_signature property
 
-Returns true if this document contains a digital signature. 
+Returns ``True`` if this document contains a digital signature. 
 This property merely informs that a digital signature is present on a document, 
 but it does not  specify whether the signature is valid or not.
+
 
 This property exists to help you sort documents that are digitally signed from those that are not.
 If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will 

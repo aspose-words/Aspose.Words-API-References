@@ -3,7 +3,7 @@ title: pop_font method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Retrieves character formatting previously saved on the stack."
 type: docs
-weight: 560
+weight: 590
 url: /python-net/aspose.words/documentbuilder/pop_font/
 ---
 

@@ -25,7 +25,7 @@ Use this method to fill mail merge fields in the document with values from
 any custom data source such as an XML file or collections of business objects. You need to write your
 own class that implements the [IMailMergeDataSource](../../imailmergedatasource/) interface.
 
-You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is false,
+You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is ``False``,
 that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 
@@ -49,7 +49,7 @@ Use this method to fill mail merge fields in the document with values from
 any custom data source such as an XML file or collections of business objects. You need to write your own classes
 that implement the [IMailMergeDataSourceRoot](../../imailmergedatasourceroot/) and [IMailMergeDataSource](../../imailmergedatasource/) interfaces.
 
-You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is false,
+You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is ``False``,
 that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 

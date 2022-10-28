@@ -1,7 +1,7 @@
 ﻿---
 title: Paragraph constructor
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the Paragraph class."
+description: "Initializes a new instance of the [Paragraph](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words/paragraph/__init__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/paragraph/__init__/
 
 ## Paragraph(doc) {#documentbase}
 
-Initializes a new instance of the **Paragraph** class.
+Initializes a new instance of the [Paragraph](../) class.
 
 
 
@@ -22,10 +22,10 @@ def __init__(self, doc: aspose.words.DocumentBase):
 | --- | --- | --- |
 | doc | [DocumentBase](../../documentbase/) |  |
 
-When **Paragraph** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Paragraph](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append **Paragraph** to the document use InsertAfter or InsertBefore
+To append [Paragraph](../) to the document use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node)
 on the story where you want the paragraph inserted.
 
 

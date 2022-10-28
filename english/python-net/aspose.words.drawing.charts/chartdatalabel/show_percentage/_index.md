@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_percentage/
 ## ChartDataLabel.show_percentage property
 
 Allows to specify if percentage value is to be displayed for the data labels on a chart. 
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

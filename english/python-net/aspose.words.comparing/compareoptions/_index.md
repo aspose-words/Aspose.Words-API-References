@@ -1,7 +1,7 @@
 ﻿---
 title: CompareOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to choose advanced options for document comparison operation."
+description: "Allows to choose advanced options for document comparison operation"
 type: docs
 weight: 10
 url: /python-net/aspose.words.comparing/compareoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.comparing/compareoptions/
 ## CompareOptions class
 
 Allows to choose advanced options for document comparison operation.
+To learn more, visit the [Compare Documents](https://docs.aspose.com/words/net/compare-documents/) documentation article.
+
+
 
 
 ### Constructors
@@ -24,7 +27,7 @@ Allows to choose advanced options for document comparison operation.
 | [granularity](./granularity/) | Specifies whether changes are tracked by character or by word. Default value is Aspose.Words.Comparing.Granularity.WordLevel. |
 | [ignore_case_changes](./ignore_case_changes/) | True indicates that documents comparison is case insensitive.  By default comparison is case sensitive. |
 | [ignore_comments](./ignore_comments/) | Specifies whether to compare differences in comments.  By default comments are not ignored. |
-| [ignore_dml_unique_id](./ignore_dml_unique_id/) | Specifies whether to ignore difference in DrawingML unique Id.  Default value is **false**. |
+| [ignore_dml_unique_id](./ignore_dml_unique_id/) | Specifies whether to ignore difference in DrawingML unique Id.  Default value is ``False``. |
 | [ignore_fields](./ignore_fields/) | Specifies whether to compare differences in fields.  By default fields are not ignored. |
 | [ignore_footnotes](./ignore_footnotes/) | Specifies whether to compare differences in footnotes and endnotes.  By default footnotes are not ignored. |
 | [ignore_formatting](./ignore_formatting/) | True indicates that formatting is ignored.  By default document formatting is not ignored. |
@@ -77,13 +80,13 @@ doc_edited = doc_original.clone(True).as_document()
 first_paragraph = doc_edited.first_section.body.first_paragraph
 
 first_paragraph.runs[0].text = "hello world! this is the first paragraph, after editing."
-first_paragraph.paragraph_format.style = doc_edited.styles[aw.StyleIdentifier.HEADING1]
+first_paragraph.paragraph_format.style = doc_edited.styles.get_by_style_identifier(aw.StyleIdentifier.HEADING1)
 doc_edited.get_child(aw.NodeType.FOOTNOTE, 0, True).as_footnote().first_paragraph.runs[1].text = "Edited endnote text."
 doc_edited.get_child(aw.NodeType.TABLE, 0, True).as_table().first_row.cells[1].first_paragraph.runs[0].text = "Edited Cell 2 contents"
 doc_edited.get_child(aw.NodeType.SHAPE, 0, True).as_shape().first_paragraph.runs[0].text = "Edited textbox contents"
 doc_edited.range.fields[0].as_field_date().use_lunar_calendar = True
 doc_edited.get_child(aw.NodeType.COMMENT, 0, True).as_comment().first_paragraph.runs[0].text = "Edited comment."
-doc_edited.first_section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY].first_paragraph.runs[0].text = "Edited header contents."
+doc_edited.first_section.headers_footers.header_primary.first_paragraph.runs[0].text = "Edited header contents."
 
 # Comparing documents creates a revision for every edit in the edited document.
 # A CompareOptions object has a series of flags that can suppress revisions

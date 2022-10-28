@@ -1,7 +1,7 @@
 ﻿---
 title: BuildingBlock class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry."
+description: "Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry"
 type: docs
 weight: 10
 url: /python-net/aspose.words.buildingblocks/buildingblock/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.buildingblocks/buildingblock/
 ## BuildingBlock class
 
 Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 [BuildingBlock](./) can contain only [Section](../../aspose.words/section/) nodes.
@@ -47,8 +50,8 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 | [first_section](./first_section/) | Gets the first section in the building block. |
 | [gallery](./gallery/) | Specifies the first-level categorization for the building block for the purposes of  classification or user interface sorting. |
 | [guid](./guid/) | Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [last_section](./last_section/) | Gets the last section in the building block. |
 | [name](./name/) | Gets or sets the name of this building block. |
@@ -56,7 +59,7 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 | [node_type](./node_type/) | Returns the [NodeType.BUILDING_BLOCK](../../aspose.words/nodetype/#BUILDING_BLOCK) value. |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [sections](./sections/) | Returns a collection that represents all sections in the building block. |
 | [type](./type/) | Specifies the building block type. |
 
@@ -83,7 +86,7 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

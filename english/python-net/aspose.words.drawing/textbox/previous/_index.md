@@ -1,7 +1,7 @@
 ﻿---
 title: previous property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a TextBox that represents the previous TextBox in a sequence of shapes."
+description: "Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequence of shapes."
 type: docs
 weight: 90
 url: /python-net/aspose.words.drawing/textbox/previous/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/textbox/previous/
 
 ## TextBox.previous property
 
-Returns a TextBox that represents the previous TextBox in a sequence of shapes.
+Returns a [TextBox](../) that represents the previous [TextBox](../) in a sequence of shapes.
+
 
 
 ### Examples

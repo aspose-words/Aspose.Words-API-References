@@ -11,7 +11,8 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/passwo
 
 Timestamp server password.
 
-The default value is null.
+The default value is ``None``.
+
 
 
 ### Examples

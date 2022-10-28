@@ -1,7 +1,7 @@
 ﻿---
 title: DropDownItemCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of strings that represent all the items in a drop-down form field."
+description: "A collection of strings that represent all the items in a drop-down form field"
 type: docs
 weight: 40
 url: /python-net/aspose.words.fields/dropdownitemcollection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/dropdownitemcollection/
 ## DropDownItemCollection class
 
 A collection of strings that represent all the items in a drop-down form field.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Indexers

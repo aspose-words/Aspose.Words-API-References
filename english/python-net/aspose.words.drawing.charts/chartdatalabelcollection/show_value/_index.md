@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_value
 ## ChartDataLabelCollection.show_value property
 
 Allows to specify whether values are to be displayed in the data labels of the entire series.
-Default value is **false**.
+Default value is ``False``.
 
 
 Value defined for this property can be overridden for an individual data label with using the

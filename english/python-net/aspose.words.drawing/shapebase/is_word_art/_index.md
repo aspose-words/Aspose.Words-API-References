@@ -1,7 +1,7 @@
 ﻿---
 title: is_word_art property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this shape is a WordArt object."
+description: "Returns ``True`` if this shape is a WordArt object."
 type: docs
 weight: 350
 url: /python-net/aspose.words.drawing/shapebase/is_word_art/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/shapebase/is_word_art/
 
 ## ShapeBase.is_word_art property
 
-Returns true if this shape is a WordArt object.
+Returns ``True`` if this shape is a WordArt object.
+
 
 Works till 2007 compatibility mode.
 In 2010 and higher compatibility mode WordArt is just a TextBox with fancy fonts.

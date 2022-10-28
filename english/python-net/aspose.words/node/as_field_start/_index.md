@@ -1,12 +1,17 @@
 ﻿---
 title: as_field_start method
 second_title: Aspose.Words for Python via .NET API Reference
+description: "Cast node to [FieldStart](../../../aspose.words.fields/fieldstart/)."
 type: docs
 weight: 240
 url: /python-net/aspose.words/node/as_field_start/
 ---
 
 ## as_field_start() {#default}
+
+Cast node to [FieldStart](../../../aspose.words.fields/fieldstart/).
+
+
 
 ```python
 def as_field_start(self):

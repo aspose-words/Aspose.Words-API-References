@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/shapebase/is_layout_in_cell/
 
 Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.
 
-The default value is **true**.
+The default value is ``True``.
 
 Has effect only for top level shapes, the property [ShapeBase.wrap_type](../wrap_type/) of which is set to value
 other than [Inline](../../../aspose.words/inline/).

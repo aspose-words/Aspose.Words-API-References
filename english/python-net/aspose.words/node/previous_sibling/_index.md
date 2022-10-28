@@ -11,7 +11,8 @@ url: /python-net/aspose.words/node/previous_sibling/
 
 Gets the node immediately preceding this node.
 
-If there is no preceding node, a null is returned.
+If there is no preceding node, a ``None`` is returned.
+
 
 
 ### Examples

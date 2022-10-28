@@ -3,7 +3,7 @@ title: IFieldUserPromptRespondent class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Represents the respondent to user prompts during field update."
 type: docs
-weight: 1250
+weight: 1270
 url: /python-net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 
@@ -22,7 +22,7 @@ and the user.
 
 | Name | Description |
 | --- | --- |
-|[ respond(prompt_text, default_response)](./respond/#str_str) | When implemented, returns a response from the user on prompting. Your implementation should return **null** to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
+|[ respond(prompt_text, default_response)](./respond/#str_str) | When implemented, returns a response from the user on prompting. Your implementation should return ``None`` to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
 
 ### See Also
 

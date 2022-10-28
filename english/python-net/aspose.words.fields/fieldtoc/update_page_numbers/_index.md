@@ -19,7 +19,8 @@ def update_page_numbers(self):
 
 ### Returns
 
-True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
+``True`` if the operation is successful. If any of the related TOC bookmarks was removed, ``False`` will be returned.
+
 
 
 ### Examples

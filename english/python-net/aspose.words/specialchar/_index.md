@@ -1,7 +1,7 @@
 ﻿---
 title: SpecialChar class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for special characters in the document."
+description: "Base class for special characters in the document"
 type: docs
 weight: 1050
 url: /python-net/aspose.words/specialchar/
@@ -10,17 +10,20 @@ url: /python-net/aspose.words/specialchar/
 ## SpecialChar class
 
 Base class for special characters in the document.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 A Microsoft Word document can include a number of special characters
 that represent fields, form fields, shapes, OLE objects, footnotes etc. For the list
 of special characters see [ControlChar](../controlchar/).
 
-**SpecialChar** is an inline-node and can only be a child of **Paragraph**.
+[SpecialChar](./) is an inline-node and can only be a child of [Paragraph](../paragraph/).
 
-**SpecialChar** char is used as a base class for more specific classes
+[SpecialChar](./) char is used as a base class for more specific classes
 that represent special characters that Aspose.Words provides programmatic access for.
-The **SpecialChar** class is also used itself to represent special character for which
+The [SpecialChar](./) class is also used itself to represent special character for which
 Aspose.Words does not provide detailed programmatic access.
 
 
@@ -35,18 +38,18 @@ Aspose.Words does not provide detailed programmatic access.
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [font](../inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../inline/)) |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](../inline/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [is_format_revision](../inline/is_format_revision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [is_insert_revision](../inline/is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [is_move_from_revision](../inline/is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [is_move_to_revision](../inline/is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [is_move_from_revision](../inline/is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [is_move_to_revision](../inline/is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_type](./node_type/) | Returns **NodeType.SpecialChar**. |
+| [node_type](./node_type/) | Returns [NodeType.SPECIAL_CHAR](../nodetype/#SPECIAL_CHAR). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_paragraph](../inline/parent_paragraph/) | Retrieves the parent [Paragraph](../paragraph/) of this node.<br>(Inherited from [Inline](../inline/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 

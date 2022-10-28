@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_value/
 ## ChartDataLabel.show_value property
 
 Allows to specify if values are to be displayed in the data labels. 
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

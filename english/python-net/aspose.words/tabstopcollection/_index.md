@@ -1,7 +1,7 @@
 ﻿---
 title: TabStopCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style."
+description: "A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style"
 type: docs
 weight: 1160
 url: /python-net/aspose.words/tabstopcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/tabstopcollection/
 ## TabStopCollection class
 
 A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 
 
 
@@ -18,7 +20,7 @@ style or directly in the properties of a paragraph. A style can be based on anot
 Therefore, the complete set of tab stops for a given object is a combination of tab stops
 defined directly on this object and tab stops inherited from the parent styles.
 
-In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style,
+In Aspose.Words, when you obtain a [TabStopCollection](./) for a paragraph or a style,
 it contains only the custom tab stops defined directly for this paragraph or style.
 The collection does not include tab stops defined in the parent styles or default tab stops.
 
@@ -48,7 +50,7 @@ The collection does not include tab stops defined in the parent styles or defaul
 |[ after(position)](./after/#float) | Gets a first tab stop to the right of the specified position. |
 |[ before(position)](./before/#float) | Gets a first tab stop to the left of the specified position. |
 |[ clear()](./clear/#default) | Deletes all tab stop positions. |
-|[ equals(rhs)](./equals/#tabstopcollection) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+|[ equals(rhs)](./equals/#tabstopcollection) | Determines whether the specified [TabStopCollection](./) is equal in value to the current [TabStopCollection](./). |
 |[ get_index_by_position(position)](./get_index_by_position/#float) | Gets the index of a tab stop with the specified position in points. |
 |[ get_position_by_index(index)](./get_position_by_index/#int) | Gets the position (in points) of the tab stop at the specified index. |
 |[ remove_by_index(index)](./remove_by_index/#int) | Removes a tab stop at the specified index from the collection. |

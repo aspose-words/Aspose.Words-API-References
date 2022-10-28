@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/odsorecipientdata/unique_tag/
 ## OdsoRecipientData.unique_tag property
 
 Specifies the contents of a given record in the column containing unique data.
-The default value is ``null``.
+The default value is ``None``.
 
 
 

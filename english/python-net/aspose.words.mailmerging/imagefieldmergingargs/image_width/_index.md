@@ -17,7 +17,7 @@ template document. To override the initial value, you should assign an instance 
 of [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/) class, returned by this property.
 
 
-To indicate that the original value of the image width should be applied, you should assign the **null**
+To indicate that the original value of the image width should be applied, you should assign the ``None``
 value to this property or set the [MergeFieldImageDimension.value](../../../aspose.words.fields/mergefieldimagedimension/value/) property for the instance
 of [MergeFieldImageDimension](../../../aspose.words.fields/mergefieldimagedimension/) class, returned by this property, to a negative value.
 

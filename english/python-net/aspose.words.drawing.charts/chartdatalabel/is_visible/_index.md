@@ -1,7 +1,7 @@
 ﻿---
 title: is_visible property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this data label has something to display."
+description: "Returns ``True`` if this data label has something to display."
 type: docs
 weight: 30
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/is_visible/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/is_visible/
 
 ## ChartDataLabel.is_visible property
 
-Returns true if this data label has something to display.
+Returns ``True`` if this data label has something to display.
+
 
 
 ### Examples

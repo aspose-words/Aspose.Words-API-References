@@ -9,15 +9,16 @@ url: /python-net/aspose.words/documentbase/background_shape/
 
 ## DocumentBase.background_shape property
 
-Gets or sets the background shape of the document. Can be null.
+Gets or sets the background shape of the document. Can be ``None``.
 
-Microsoft Word allows only a shape that has its [ShapeBase.shape_type](../../../aspose.words.drawing/shapebase/shape_type/) property equal 
+
+Microsoft Word allows only a shape that has its [ShapeBase.shape_type](../../../aspose.words.drawing/shapebase/shape_type/) property equal
 to [ShapeType.RECTANGLE](../../../aspose.words.drawing/shapetype/#RECTANGLE) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties
 are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.display_background_shape](../../../aspose.words.settings/viewoptions/display_background_shape/) to true.
+Setting this property to a non-null value will also set the [ViewOptions.display_background_shape](../../../aspose.words.settings/viewoptions/display_background_shape/) to ``True``.
 
 
 

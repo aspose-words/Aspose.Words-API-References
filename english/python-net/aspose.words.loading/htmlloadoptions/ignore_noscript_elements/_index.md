@@ -10,12 +10,12 @@ url: /python-net/aspose.words.loading/htmlloadoptions/ignore_noscript_elements/
 ## HtmlLoadOptions.ignore_noscript_elements property
 
 Gets or sets a value indicating whether to ignore \<noscript\> HTML elements.
-Default value is ``false``.
+Default value is ``False``.
 
 
 Like MS Word, Aspose.Words does not support scripts and by default loads content of \<noscript\> elements
 into the resulting document. In most browsers, however, scripts are supported and content from \<noscript\>
-is not visible. Setting this property to ``true`` forces Aspose.Words to ignore all \<noscript\> elements
+is not visible. Setting this property to ``True`` forces Aspose.Words to ignore all \<noscript\> elements
 and helps to produce documents that look closer to what is seen in browsers.
 
 

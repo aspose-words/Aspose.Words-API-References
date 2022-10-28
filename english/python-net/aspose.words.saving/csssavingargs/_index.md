@@ -1,7 +1,7 @@
 ﻿---
 title: CssSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [ICssSavingCallback.css_saving()](../icsssavingcallback/css_saving/#csssavingargs) event."
+description: "Provides data for the [ICssSavingCallback.css_saving()](../icsssavingcallback/css_saving/#csssavingargs) event"
 type: docs
 weight: 40
 url: /python-net/aspose.words.saving/csssavingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/csssavingargs/
 ## CssSavingArgs class
 
 Provides data for the [ICssSavingCallback.css_saving()](../icsssavingcallback/css_saving/#csssavingargs) event.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 
 
 
@@ -32,7 +34,7 @@ To suppress saving CSS into a file and embedding to HTML document use the [CssSa
 | --- | --- |
 | [css_stream](./css_stream/) | Allows to specify the stream where the CSS information will be saved to. |
 | [document](./document/) | Gets the document object that is currently being saved. |
-| [is_export_needed](./is_export_needed/) | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``true``. When this property is ``false``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
+| [is_export_needed](./is_export_needed/) | Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``True``. When this property is ``False``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document. |
 | [keep_css_stream_open](./keep_css_stream_open/) | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
 
 ### See Also

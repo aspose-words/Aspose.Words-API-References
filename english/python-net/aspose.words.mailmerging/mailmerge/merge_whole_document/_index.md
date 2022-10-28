@@ -11,7 +11,7 @@ url: /python-net/aspose.words.mailmerging/mailmerge/merge_whole_document/
 
 Gets or sets a value indicating whether fields in whole document are updated while executing of a mail merge with regions.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

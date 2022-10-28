@@ -1,7 +1,7 @@
 ﻿---
 title: get_by_border_type method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a Border object by border type."
+description: "Retrieves a [Border](../../border/) object by border type."
 type: docs
 weight: 160
 url: /python-net/aspose.words/bordercollection/get_by_border_type/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/bordercollection/get_by_border_type/
 
 ## get_by_border_type(border_type) {#bordertype}
 
-Retrieves a Border object by border type.
+Retrieves a [Border](../../border/) object by border type.
+
 
 
 ```python

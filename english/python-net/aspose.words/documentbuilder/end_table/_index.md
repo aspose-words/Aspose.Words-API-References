@@ -3,7 +3,7 @@ title: end_table method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Ends a table in the document."
 type: docs
-weight: 230
+weight: 250
 url: /python-net/aspose.words/documentbuilder/end_table/
 ---
 
@@ -18,7 +18,7 @@ def end_table(self):
 ```
 
 This method should be called only once after [DocumentBuilder.end_row()](../end_row/#default) was called. When called,
-**EndTable** moves the cursor out of the current cell to point just after the table.
+[DocumentBuilder.end_table()](./#default) moves the cursor out of the current cell to point just after the table.
 
 
 

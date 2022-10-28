@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/hyphenationoptions/auto_hyphenation/
 ## HyphenationOptions.auto_hyphenation property
 
 Gets or sets value determining whether automatic hyphenation is turned on for the document.
-Default value for this property is **false**.
+Default value for this property is ``False``.
 
 
 

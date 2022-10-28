@@ -12,8 +12,8 @@ url: /python-net/aspose.words.saving/txtsaveoptions/simplify_list_labels/
 Specifies whether the program should simplify list labels in case of
 complex label formatting not being adequately represented by plain text.
 
-If set to **true**, numbered list labels are written in simple numeric format
-and itemized list labels as simple ASCII characters. The default value is **false**.
+If set to ``True``, numbered list labels are written in simple numeric format
+and itemized list labels as simple ASCII characters. The default value is ``False``.
 
 
 

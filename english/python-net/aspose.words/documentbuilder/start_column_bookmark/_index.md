@@ -3,7 +3,7 @@ title: start_column_bookmark method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Marks the current position in the document as a column bookmark start"
 type: docs
-weight: 590
+weight: 620
 url: /python-net/aspose.words/documentbuilder/start_column_bookmark/
 ---
 
@@ -23,7 +23,7 @@ def start_column_bookmark(self, bookmark_name: str):
 
 A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you
 need to call both [DocumentBuilder.start_column_bookmark()](./#str) and [DocumentBuilder.end_column_bookmark()](../end_column_bookmark/#str) with the same
-**bookmarkName** parameter.
+ parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 

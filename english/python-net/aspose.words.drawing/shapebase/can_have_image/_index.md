@@ -1,7 +1,7 @@
 ﻿---
 title: can_have_image property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the shape type allows the shape to have an image."
+description: "Returns ``True`` if the shape type allows the shape to have an image."
 type: docs
 weight: 100
 url: /python-net/aspose.words.drawing/shapebase/can_have_image/
@@ -9,10 +9,11 @@ url: /python-net/aspose.words.drawing/shapebase/can_have_image/
 
 ## ShapeBase.can_have_image property
 
-Returns true if the shape type allows the shape to have an image.
+Returns ``True`` if the shape type allows the shape to have an image.
+
 
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape
-except a group shape can have an image, therefore this property returns true for all shapes except [GroupShape](../../groupshape/).
+except a group shape can have an image, therefore this property returns ``True`` for all shapes except [GroupShape](../../groupshape/).
 
 
 

@@ -15,7 +15,7 @@ If you have a mapping from a document field name to a different data source fiel
 then this is the original field name as specified in the document.
 
 If you specified a field name prefix, for example "Image:MyFieldName" in the document,
-then **DocumentFieldName** returns field name without the prefix, that is "MyFieldName".
+then [FieldMergingArgsBase.document_field_name](./) returns field name without the prefix, that is "MyFieldName".
 
 
 

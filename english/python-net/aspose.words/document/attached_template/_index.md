@@ -15,7 +15,7 @@ Empty string means the document is attached to the Normal template.
 
 
 
-:raises System.ArgumentNullException: Throws if you attempt to set to a null value.
+:raises System.ArgumentNullException: Throws if you attempt to set to a ``None`` value.
                                       
 
 ### Examples

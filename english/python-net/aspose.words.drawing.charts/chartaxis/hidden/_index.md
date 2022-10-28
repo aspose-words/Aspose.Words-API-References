@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/hidden/
 
 Gets or sets a flag indicating whether this axis is hidden or not.
 
-Default value is **false**.
+Default value is ``False``.
 
 
 

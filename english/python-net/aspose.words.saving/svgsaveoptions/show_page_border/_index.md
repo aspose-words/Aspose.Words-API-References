@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/svgsaveoptions/show_page_border/
 ## SvgSaveOptions.show_page_border property
 
 Controls whether a border is added to the outline of the page.
-Default is ``true``.
+Default is ``True``.
 
 
 

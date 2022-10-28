@@ -1,7 +1,7 @@
 ﻿---
 title: Table class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a table in a Word document."
+description: "Represents a table in a Word document"
 type: docs
 weight: 120
 url: /python-net/aspose.words.tables/table/
@@ -10,14 +10,17 @@ url: /python-net/aspose.words.tables/table/
 ## Table class
 
 Represents a table in a Word document.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
 
 
-**Table** is a block-level node and can be a child of classes derived from **Story** or
-**InlineStory**.
 
-**Table** can contain one or more **Row** nodes.
 
-A minimal valid table needs to have at least one **Row**.
+[Table](./) is a block-level node and can be a child of classes derived from [Story](../../aspose.words/story/) or
+[InlineStory](../../aspose.words/inlinestory/).
+
+[Table](./) can contain one or more [Row](../row/) nodes.
+
+A minimal valid table needs to have at least one [Row](../row/).
 
 
 
@@ -27,7 +30,7 @@ A minimal valid table needs to have at least one **Row**.
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Table(doc)](./__init__/#documentbase) | Initializes a new instance of the **Table** class. |
+| [Table(doc)](./__init__/#documentbase) | Initializes a new instance of the [Table](./) class. |
 
 ### Properties
 
@@ -38,7 +41,7 @@ A minimal valid table needs to have at least one **Row**.
 | [alignment](./alignment/) | Specifies how an inline table is aligned in the document. |
 | [allow_auto_fit](./allow_auto_fit/) | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
 | [allow_cell_spacing](./allow_cell_spacing/) | Gets or sets the "Allow spacing between cells" option. |
-| [allow_overlap](./allow_overlap/) | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is ``true``. |
+| [allow_overlap](./allow_overlap/) | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is ``True``. |
 | [bidi](./bidi/) | Gets or sets whether this is a right-to-left table. |
 | [bottom_padding](./bottom_padding/) | Gets or sets the amount of space (in points) to add below the contents of cells. |
 | [cell_spacing](./cell_spacing/) | Gets or sets the amount of space (in points) between the cells. |
@@ -52,20 +55,20 @@ A minimal valid table needs to have at least one **Row**.
 | [distance_top](./distance_top/) | Gets distance between table top and the surrounding text, in points. |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [first_row](./first_row/) | Returns the first **Row** node in the table. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [first_row](./first_row/) | Returns the first [Row](../row/) node in the table. |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [horizontal_anchor](./horizontal_anchor/) | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../aspose.words.drawing/relativehorizontalposition/#COLUMN). |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [last_row](./last_row/) | Returns the last **Row** node in the table. |
+| [last_row](./last_row/) | Returns the last [Row](../row/) node in the table. |
 | [left_indent](./left_indent/) | Gets or sets the value that represents the left indent of the table. |
 | [left_padding](./left_padding/) | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.Table**. |
+| [node_type](./node_type/) | Returns [NodeType.TABLE](../../aspose.words/nodetype/#TABLE). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [preferred_width](./preferred_width/) | Gets or sets the table preferred width. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [relative_horizontal_alignment](./relative_horizontal_alignment/) | Gets or sets floating table relative horizontal alignment. |
 | [relative_vertical_alignment](./relative_vertical_alignment/) | Gets or sets floating table relative vertical alignment. |
 | [right_padding](./right_padding/) | Gets or sets the amount of space (in points) to add to the right of the contents of cells. |
@@ -90,7 +93,7 @@ A minimal valid table needs to have at least one **Row**.
 |[ clear_shading()](./clear_shading/#default) | Removes all shading on the table. |
 |[ clone(is_clone_children)](../../aspose.words/node/clone/#bool) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ convert_to_horizontally_merged_cells()](./convert_to_horizontally_merged_cells/#default) | Converts cells horizontally merged by width to cells merged by [CellFormat.horizontal_merge](../cellformat/horizontal_merge/). |
-|[ ensure_minimum()](./ensure_minimum/#default) | If the table has no rows, creates and appends one **Row**. |
+|[ ensure_minimum()](./ensure_minimum/#default) | If the table has no rows, creates and appends one [Row](../row/). |
 |[ get_ancestor(ancestor_type)](../../aspose.words/node/get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ get_child(node_type, index, is_deep)](../../aspose.words/compositenode/get_child/#nodetype_int_bool) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ get_child_nodes(node_type, is_deep)](../../aspose.words/compositenode/get_child_nodes/#nodetype_bool) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -107,7 +110,7 @@ A minimal valid table needs to have at least one **Row**.
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ set_border(border_type, line_style, line_width, color, is_override_cell_borders)](./set_border/#bordertype_linestyle_float_color_bool) | Sets the specified table border to the specified line style, width and color. |
 |[ set_borders(line_style, line_width, color)](./set_borders/#linestyle_float_color) | Sets all table borders to the specified line style, width and color. |
 |[ set_shading(texture, foreground_color, background_color)](./set_shading/#textureindex_color_color) | Sets shading to the specified values on whole table. |
@@ -177,7 +180,7 @@ first_row.append_child(first_cell)
 paragraph = aw.Paragraph(doc)
 first_cell.append_child(paragraph)
 
-# Add text to the first call in the first row of the table.
+# Add text to the first cell in the first row of the table.
 run = aw.Run(doc, "Hello world!")
 paragraph.append_child(run)
 
@@ -193,7 +196,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -202,7 +205,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 

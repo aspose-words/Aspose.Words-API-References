@@ -1,7 +1,7 @@
 ﻿---
 title: ChartAxis class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the axis options of the chart."
+description: "Represents the axis options of the chart"
 type: docs
 weight: 120
 url: /python-net/aspose.words.drawing.charts/chartaxis/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartaxis/
 ## ChartAxis class
 
 Represents the axis options of the chart.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 ### Properties

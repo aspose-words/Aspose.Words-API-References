@@ -25,7 +25,7 @@ Use this method to fill mail merge fields in the document with values from
 any data source such as a list or hashtable or objects. You need to write your
 own class that implements the [IMailMergeDataSource](../../imailmergedatasource/) interface.
 
-You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is false,
+You can use this method only when [FieldOptions.is_bidi_text_supported_on_update](../../../aspose.words.fields/fieldoptions/is_bidi_text_supported_on_update/) is ``False``,
 that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the [MailMergeCleanupOptions.REMOVE_UNUSED_REGIONS](../../mailmergecleanupoptions/#REMOVE_UNUSED_REGIONS) option.

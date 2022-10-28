@@ -10,7 +10,7 @@ url: /python-net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ## respond(prompt_text, default_response) {#str_str}
 
 When implemented, returns a response from the user on prompting.
-Your implementation should return **null** to indicate that the user has not responded to the prompt
+Your implementation should return ``None`` to indicate that the user has not responded to the prompt
 (i.e. the user has pressed the Cancel button in the prompt window).
 
 

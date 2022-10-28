@@ -1,7 +1,7 @@
 ﻿---
 title: Forms2OleControlCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents collection of [Forms2OleControl](../forms2olecontrol/) objects."
+description: "Represents collection of [Forms2OleControl](../forms2olecontrol/) objects"
 type: docs
 weight: 20
 url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ## Forms2OleControlCollection class
 
 Represents collection of [Forms2OleControl](../forms2olecontrol/) objects.
+To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article.
+
 
 
 

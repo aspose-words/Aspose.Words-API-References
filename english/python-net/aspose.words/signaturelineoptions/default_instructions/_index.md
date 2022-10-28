@@ -10,7 +10,7 @@ url: /python-net/aspose.words/signaturelineoptions/default_instructions/
 ## SignatureLineOptions.default_instructions property
 
 Gets or sets a value indicating that default instructions is shown in the Sign dialog.
-Default value for this property is **true**.
+Default value for this property is ``True``.
 
 
 

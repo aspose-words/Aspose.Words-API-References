@@ -1,7 +1,7 @@
 ﻿---
 title: FileFontSource class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the single TrueType font file stored in the file system."
+description: "Represents the single TrueType font file stored in the file system"
 type: docs
 weight: 40
 url: /python-net/aspose.words.fonts/filefontsource/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/filefontsource/
 ## FileFontSource class
 
 Represents the single TrueType font file stored in the file system.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 **Inheritance:** [FileFontSource](./) → [FontSourceBase](../fontsourcebase/)

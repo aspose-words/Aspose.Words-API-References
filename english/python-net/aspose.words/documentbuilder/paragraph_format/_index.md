@@ -3,7 +3,7 @@ title: paragraph_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns an object that represents current paragraph formatting properties."
 type: docs
-weight: 150
+weight: 170
 url: /python-net/aspose.words/documentbuilder/paragraph_format/
 ---
 

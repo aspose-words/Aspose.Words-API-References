@@ -9,7 +9,8 @@ url: /python-net/aspose.words/textwatermarkoptions/color/
 
 ## TextWatermarkOptions.color property
 
-Gets or sets font color. The default value is Color.Silver.
+Gets or sets font color. The default value is System.Drawing.Color.Silver.
+
 
 
 ### Examples

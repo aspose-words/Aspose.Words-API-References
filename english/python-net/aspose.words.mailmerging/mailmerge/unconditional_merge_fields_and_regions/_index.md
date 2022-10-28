@@ -11,7 +11,7 @@ url: /python-net/aspose.words.mailmerging/mailmerge/unconditional_merge_fields_a
 
 Gets or sets a value indicating whether merge fields and merge regions are merged regardless of the parent IF field's condition.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

@@ -34,6 +34,8 @@ doc = aw.Document(MY_DIR + "Images.docx")
 
 # Create a "PdfSaveOptions" object that we can pass to the document's "save" method
 # to modify how that method converts the document to .PDF.
+# Note that some PdfSaveOptions are prohibited when saving to one of the standards and automatically fixed.
+# Use IWarningCallback to know which options are automatically fixed.
 save_options = aw.saving.PdfSaveOptions()
 
 # Set the "compliance" property to "PdfCompliance.PDF_A1B" to comply with the "PDF/A-1b" standard,
@@ -41,6 +43,8 @@ save_options = aw.saving.PdfSaveOptions()
 # Set the "compliance" property to "PdfCompliance.PDF17" to comply with the "1.7" standard.
 # Set the "compliance" property to "PdfCompliance.PDF_A1A" to comply with the "PDF/A-1a" standard,
 # which complies with "PDF/A-1b" as well as preserving the document structure of the original document.
+# Set the "compliance" property to "PdfCompliance.PDF_UA1" to comply with the "PDF/UA-1" (ISO 14289-1) standard,
+# which aims to define represent electronic documents in PDF that allow the file to be accessible.
 # This helps with making documents searchable but may significantly increase the size of already large documents.
 save_options.compliance = pdf_compliance
 

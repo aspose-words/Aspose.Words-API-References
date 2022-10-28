@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/odsorecipientdata/active/
 ## OdsoRecipientData.active property
 
 Specifies whether the record from the data source shall be imported into a document when the mail merge is performed.
-The default value is ``true``.
+The default value is ``True``.
 
 
 

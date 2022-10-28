@@ -9,7 +9,8 @@ url: /python-net/aspose.words.properties/documentproperty/to_date_time/
 
 ## to_date_time() {#default}
 
-Returns the property value as DateTime in UTC.
+Returns the property value as **DateTime** in UTC.
+
 
 
 ```python

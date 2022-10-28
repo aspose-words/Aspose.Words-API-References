@@ -1,7 +1,7 @@
 ﻿---
 title: TableCollection indexer
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a Table at the given index."
+description: "Retrieves a [Table](../../table/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/tablecollection/__getitem__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/tablecollection/__getitem__/
 
 ## \_\_getitem\_\_(index) {#int}
 
-Retrieves a **Table** at the given index.
+Retrieves a [Table](../../table/) at the given index.
 
 
 
@@ -45,7 +45,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -54,7 +54,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 

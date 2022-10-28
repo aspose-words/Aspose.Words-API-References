@@ -1,7 +1,7 @@
 ﻿---
 title: PageSetup class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents the page setup properties of a section."
+description: "Represents the page setup properties of a section"
 type: docs
 weight: 800
 url: /python-net/aspose.words/pagesetup/
@@ -10,9 +10,12 @@ url: /python-net/aspose.words/pagesetup/
 ## PageSetup class
 
 Represents the page setup properties of a section.
+To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
 
 
-**PageSetup** object contains all the page setup attributes of a section
+
+
+[PageSetup](./) object contains all the page setup attributes of a section
 (left margin, bottom margin, paper size, and so on) as properties.
 
 
@@ -32,7 +35,7 @@ Represents the page setup properties of a section.
 | [bottom_margin](./bottom_margin/) | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
 | [chapter_page_separator](./chapter_page_separator/) | Gets or sets the separator character that appears between the chapter number and the page number. |
 | [characters_per_line](./characters_per_line/) | Gets or sets the number of characters per line in the document grid. |
-| [different_first_page_header_footer](./different_first_page_header_footer/) | **True** if a different header or footer is used on the first page. |
+| [different_first_page_header_footer](./different_first_page_header_footer/) | True if a different header or footer is used on the first page. |
 | [endnote_options](./endnote_options/) | Provides options that control numbering and positioning of endnotes in this section. |
 | [first_page_tray](./first_page_tray/) | Gets or sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific. |
 | [footer_distance](./footer_distance/) | Returns or sets the distance (in points) between the footer and the bottom of the page. |
@@ -48,7 +51,7 @@ Represents the page setup properties of a section.
 | [line_starting_number](./line_starting_number/) | Gets or sets the starting line number. |
 | [lines_per_page](./lines_per_page/) | Gets or sets the number of lines per page in the document grid. |
 | [multiple_pages](./multiple_pages/) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [odd_and_even_pages_header_footer](./odd_and_even_pages_header_footer/) | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
+| [odd_and_even_pages_header_footer](./odd_and_even_pages_header_footer/) | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [orientation](./orientation/) | Returns or sets the orientation of the page. |
 | [other_pages_tray](./other_pages_tray/) | Gets or sets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific. |
 | [page_height](./page_height/) | Returns or sets the height of the page in points. |
@@ -56,12 +59,12 @@ Represents the page setup properties of a section.
 | [page_starting_number](./page_starting_number/) | Gets or sets the starting page number of the section. |
 | [page_width](./page_width/) | Returns or sets the width of the page in points. |
 | [paper_size](./paper_size/) | Returns or sets the paper size. |
-| [restart_page_numbering](./restart_page_numbering/) | **True** if page numbering restarts at the beginning of the section. |
+| [restart_page_numbering](./restart_page_numbering/) | True if page numbering restarts at the beginning of the section. |
 | [right_margin](./right_margin/) | Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
 | [rtl_gutter](./rtl_gutter/) | Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
 | [section_start](./section_start/) | Returns or sets the type of section break for the specified object. |
 | [sheets_per_booklet](./sheets_per_booklet/) | Returns or sets the number of pages to be included in each booklet. |
-| [suppress_endnotes](./suppress_endnotes/) | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
+| [suppress_endnotes](./suppress_endnotes/) | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [text_columns](./text_columns/) | Returns a collection that represents the set of text columns. |
 | [text_orientation](./text_orientation/) | Allows to specify [PageSetup.text_orientation](./text_orientation/) for the whole page. Default value is [TextOrientation.HORIZONTAL](../textorientation/#HORIZONTAL) |
 | [top_margin](./top_margin/) | Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text. |

@@ -10,7 +10,8 @@ url: /python-net/aspose.words/imagewatermarkoptions/is_washout/
 ## ImageWatermarkOptions.is_washout property
 
 Gets or sets a boolean value which is responsible for washout effect of the watermark.
-The default value is True.
+The default value is ``True``.
+
 
 
 ### Examples

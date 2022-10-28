@@ -1,7 +1,7 @@
 ﻿---
 title: grammar_checked property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the document has been checked for grammar."
+description: "Returns ``True`` if the document has been checked for grammar."
 type: docs
 weight: 180
 url: /python-net/aspose.words/document/grammar_checked/
@@ -9,10 +9,10 @@ url: /python-net/aspose.words/document/grammar_checked/
 
 ## Document.grammar_checked property
 
-Returns **true** if the document has been checked for grammar.
+Returns ``True`` if the document has been checked for grammar.
 
 
-To recheck the grammar in the document, set this property to **false**.
+To recheck the grammar in the document, set this property to ``False``.
 
 
 

@@ -11,17 +11,17 @@ url: /python-net/aspose.words.saving/imagesaveoptions/use_gdi_emf_renderer/
 
 Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
 
-If set to ``true`` GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics
+If set to ``True`` GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics
 object and saved to metafile.
 
-If set to ``false`` Aspose.Words metafile renderer is used. I.e. content is written directly
+If set to ``False`` Aspose.Words metafile renderer is used. I.e. content is written directly
 to the metafile format with Aspose.Words.
 
 Has effect only when saving to EMF.
 
 GDI+ saving works only on .NET.
 
-The default value is ``true``.
+The default value is ``True``.
 
 
 

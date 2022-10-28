@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textbox/fit_shape_to_text/
 
 Determines whether Microsoft Word will grow the shape to fit text.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: HeaderFooterCollection indexer
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a HeaderFooter at the given index."
+description: "Retrieves a [HeaderFooter](../../headerfooter/) at the given index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/headerfootercollection/__getitem__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/headerfootercollection/__getitem__/
 
 ## \_\_getitem\_\_(index) {#int}
 
-Retrieves a **HeaderFooter** at the given index.
+Retrieves a [HeaderFooter](../../headerfooter/) at the given index.
 
 
 

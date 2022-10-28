@@ -1,7 +1,7 @@
 ﻿---
 title: WriteProtection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies write protection settings for a document."
+description: "Specifies write protection settings for a document"
 type: docs
 weight: 200
 url: /python-net/aspose.words.settings/writeprotection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.settings/writeprotection/
 ## WriteProtection class
 
 Specifies write protection settings for a document.
+To learn more, visit the [Protect or Encrypt a Document](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) documentation article.
+
+
 
 
 Write protection specifies whether the author has recommended that 
@@ -28,7 +31,7 @@ via the [Document.write_protection](../../aspose.words/document/write_protection
 
 | Name | Description |
 | --- | --- |
-| [is_write_protected](./is_write_protected/) | Returns true when a write protection password is set. |
+| [is_write_protected](./is_write_protected/) | Returns ``True`` when a write protection password is set. |
 | [read_only_recommended](./read_only_recommended/) | Specifies whether the document author has recommended that the document be opened as read-only. |
 
 ### Methods
@@ -36,7 +39,7 @@ via the [Document.write_protection](../../aspose.words/document/write_protection
 | Name | Description |
 | --- | --- |
 |[ set_password(password)](./set_password/#str) | Sets the write protection password for the document. |
-|[ validate_password(password)](./validate_password/#str) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
+|[ validate_password(password)](./validate_password/#str) | Returns ``True`` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns ``False``. |
 
 ### Examples
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/bold/
 
 True if the font is formatted as bold.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

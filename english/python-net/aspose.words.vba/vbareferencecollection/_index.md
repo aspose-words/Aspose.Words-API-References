@@ -1,7 +1,7 @@
 ﻿---
 title: VbaReferenceCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of [VbaReference](../vbareference/) objects."
+description: "Represents a collection of [VbaReference](../vbareference/) objects"
 type: docs
 weight: 60
 url: /python-net/aspose.words.vba/vbareferencecollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.vba/vbareferencecollection/
 ## VbaReferenceCollection class
 
 Represents a collection of [VbaReference](../vbareference/) objects.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 
 
 
@@ -29,8 +31,8 @@ Represents a collection of [VbaReference](../vbareference/) objects.
 
 | Name | Description |
 | --- | --- |
-|[ remove(item)](./remove/#vbareference) | Removes the first occurrence of a specified VbaReference item from the collection. |
-|[ remove_at(index)](./remove_at/#int) | Removes the VbaReference element at the specified index of the collection. |
+|[ remove(item)](./remove/#vbareference) | Removes the first occurrence of a specified [VbaReference](../vbareference/) item from the collection. |
+|[ remove_at(index)](./remove_at/#int) | Removes the [VbaReference](../vbareference/) element at the specified index of the collection. |
 
 ### Examples
 

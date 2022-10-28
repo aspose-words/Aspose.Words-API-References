@@ -22,7 +22,7 @@ def __init__(self, glossary_doc: aspose.words.buildingblocks.GlossaryDocument):
 | glossary_doc | [GlossaryDocument](../../glossarydocument/) |  |
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, 
-but is not yet part of the glossary document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``null``.
+but is not yet part of the glossary document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.
 
 To append [BuildingBlock](../) to a [GlossaryDocument](../../glossarydocument/) use 
 [CompositeNode.append_child()](../../../aspose.words/compositenode/append_child/#node).

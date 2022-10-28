@@ -13,7 +13,7 @@ Allows to specify the stream where the document part will be saved to.
 
 This property allows you to save document parts to streams instead of files during HTML export.
 
-The default value is ``null``. When this property is ``null``, the document part 
+The default value is ``None``. When this property is ``None``, the document part 
 will be saved to a file specified in the [DocumentPartSavingArgs.document_part_file_name](../document_part_file_name/) property.
 
 When saving to a stream in HTML format is requested by [Document.save()](../../../aspose.words/document/save/#bytesio_saveformat) 

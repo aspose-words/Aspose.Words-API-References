@@ -1,7 +1,7 @@
 ﻿---
 title: ConvertUtil class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides helper functions to convert between various measurement units."
+description: "Provides helper functions to convert between various measurement units"
 type: docs
 weight: 260
 url: /python-net/aspose.words/convertutil/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/convertutil/
 ## ConvertUtil class
 
 Provides helper functions to convert between various measurement units.
+To learn more, visit the [Convert Between Measurement Units](https://docs.aspose.com/words/net/convert-between-measurement-units/) documentation article.
+
+
 
 
 ### Methods

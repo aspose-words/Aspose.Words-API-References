@@ -3,7 +3,7 @@ title: move_to method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves the cursor to an inline node or to the end of a paragraph."
 type: docs
-weight: 460
+weight: 480
 url: /python-net/aspose.words/documentbuilder/move_to/
 ---
 
@@ -24,10 +24,10 @@ def move_to(self, node: aspose.words.Node):
 When *node* is an inline-level node, the cursor is moved to this node
 and further content will be inserted before that node.
 
-When *node* is a **Paragraph**, the cursor is moved to the end of the paragraph
+When *node* is a [Paragraph](../../paragraph/), the cursor is moved to the end of the paragraph
 and further content will be inserted just before the paragraph break.
 
-When *node* is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node
+When *node* is a block-level node but not a [Paragraph](../../paragraph/), the cursor is moved to the end of the first paragraph into block-level node
 and further content will be inserted just before the paragraph break.
 
 

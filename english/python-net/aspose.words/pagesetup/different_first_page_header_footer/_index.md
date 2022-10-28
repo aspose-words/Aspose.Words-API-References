@@ -9,8 +9,7 @@ url: /python-net/aspose.words/pagesetup/different_first_page_header_footer/
 
 ## PageSetup.different_first_page_header_footer property
 
-**True** if a different header or footer is used on the first page.
-
+True if a different header or footer is used on the first page.
 
 
 ### Examples

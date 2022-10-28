@@ -12,7 +12,7 @@ url: /python-net/aspose.words.notes/footnote/is_auto/
 Holds a value that specifies whether this is a auto-numbered footnote or 
 footnote with user defined custom reference mark.
 
-[Footnote.reference_mark](../reference_mark/) initialized with empty string if IsAuto set to false.
+[Footnote.reference_mark](../reference_mark/) initialized with empty string if [Footnote.is_auto](./) set to ``False``.
 
 
 

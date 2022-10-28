@@ -3,7 +3,7 @@ title: IBarcodeGenerator class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Public interface for barcode custom generator"
 type: docs
-weight: 1190
+weight: 1200
 url: /python-net/aspose.words.fields/ibarcodegenerator/
 ---
 

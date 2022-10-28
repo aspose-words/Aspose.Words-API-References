@@ -11,9 +11,9 @@ url: /python-net/aspose.words.tables/table/bidi/
 
 Gets or sets whether this is a right-to-left table.
 
-When ``true``, the cells in this row are laid out right to left.
+When ``True``, the cells in this row are laid out right to left.
 
-The default value is ``false``.
+The default value is ``False``.
 
 
 

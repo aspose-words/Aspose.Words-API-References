@@ -22,10 +22,11 @@ def __init__(self, doc: aspose.words.DocumentBase):
 | doc | [DocumentBase](../../documentbase/) |  |
 
 When the section is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To include Section into a document use Document.InsertAfter, Document.InsertBefore
-or Sections.Add and Section.Insert methods.
+To include [Section](../) into a document use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) and 
+[CompositeNode.insert_before()](../../compositenode/insert_before/#node_node) methods of the [Document](../../document/) OR
+[NodeCollection.add()](../../nodecollection/add/#node) and [NodeCollection.insert()](../../nodecollection/insert/#int_node) methods of the [Document.sections](../../document/sections/) property.
 
 
 

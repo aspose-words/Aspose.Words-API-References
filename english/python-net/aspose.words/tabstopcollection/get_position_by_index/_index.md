@@ -38,7 +38,7 @@ tab_stops.add(aw.ConvertUtil.millimeter_to_point(30), aw.TabAlignment.LEFT, aw.T
 tab_stops.add(aw.ConvertUtil.millimeter_to_point(60), aw.TabAlignment.LEFT, aw.TabLeader.DASHES)
 
 # Verify the position of the second tab stop in the collection.
-self.assertAlmostEqual(aw.ConvertUtil.millimeter_to_point(60), tab_stops.get_position_by_index(1), 1)
+self.assertAlmostEqual(aw.ConvertUtil.millimeter_to_point(60), tab_stops.get_position_by_index(1), delta=0.1)
 ```
 
 ### See Also

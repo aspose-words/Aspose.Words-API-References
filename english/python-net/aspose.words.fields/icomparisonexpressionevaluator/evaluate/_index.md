@@ -22,7 +22,7 @@ def evaluate(self, field: aspose.words.fields.Field, expression: aspose.words.fi
 | field | [Field](../../field/) |  |
 | expression | [ComparisonExpression](../../comparisonexpression/) |  |
 
-The implementation should return **null** to indicate that the default evaluation should be performed.
+The implementation should return ``None`` to indicate that the default evaluation should be performed.
 
 
 

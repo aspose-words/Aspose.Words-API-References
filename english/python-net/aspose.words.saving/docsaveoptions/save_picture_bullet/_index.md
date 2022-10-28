@@ -1,7 +1,7 @@
 ﻿---
 title: save_picture_bullet property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``false``, PictureBullet data is not saved to output document"
+description: "When ``False``, PictureBullet data is not saved to output document"
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/docsaveoptions/save_picture_bullet/
@@ -9,8 +9,8 @@ url: /python-net/aspose.words.saving/docsaveoptions/save_picture_bullet/
 
 ## DocSaveOptions.save_picture_bullet property
 
-When ``false``, PictureBullet data is not saved to output document.
-Default value is **true**.
+When ``False``, PictureBullet data is not saved to output document.
+Default value is ``True``.
 
 
 This option is provided for Word 97, which cannot work correctly with PictureBullet data. 

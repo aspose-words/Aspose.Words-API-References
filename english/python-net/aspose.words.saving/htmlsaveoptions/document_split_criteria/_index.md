@@ -1,7 +1,7 @@
 ﻿---
 title: document_split_criteria property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML)  or [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) format"
+description: "Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format"
 type: docs
 weight: 80
 url: /python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/
@@ -9,10 +9,10 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/
 
 ## HtmlSaveOptions.document_split_criteria property
 
-Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML) 
-or [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) format. 
+Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML),
+[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format. 
 Default is [DocumentSplitCriteria.NONE](../../documentsplitcriteria/#NONE) for HTML and 
-[DocumentSplitCriteria.HEADING_PARAGRAPH](../../documentsplitcriteria/#HEADING_PARAGRAPH) for EPUB.
+[DocumentSplitCriteria.HEADING_PARAGRAPH](../../documentsplitcriteria/#HEADING_PARAGRAPH) for EPUB and AZW3.
 
 
 Normally you would want a document saved to HTML as a single file. 

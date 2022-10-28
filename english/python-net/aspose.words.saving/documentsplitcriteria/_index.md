@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentSplitCriteria enumeration
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML)  or [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) format."
+description: "Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML), [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format."
 type: docs
 weight: 120
 url: /python-net/aspose.words.saving/documentsplitcriteria/
@@ -9,8 +9,8 @@ url: /python-net/aspose.words.saving/documentsplitcriteria/
 
 ## DocumentSplitCriteria enumeration
 
-Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML) 
-or [SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) format.
+Specifies how the document is split into parts when saving to [SaveFormat.HTML](../../aspose.words/saveformat/#HTML),
+[SaveFormat.EPUB](../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../aspose.words/saveformat/#AZW3) format.
 
 
 [DocumentSplitCriteria](./) is a set of flags which can be combined. For instance you can split the document
@@ -29,7 +29,7 @@ In typical cases specifying only one flag is the most practical option.
 | Name | Description |
 | --- | --- |
 | NONE | The document is not split. |
-| PAGE_BREAK | The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE_BREAK](../../aspose.words/controlchar/PAGE_BREAK/) character,  a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.page_break_before](../../aspose.words/paragraphformat/page_break_before/) property set to ``true``. |
+| PAGE_BREAK | The document is split into parts at explicit page breaks. A page break can be specified by a [ControlChar.PAGE_BREAK](../../aspose.words/controlchar/PAGE_BREAK/) character,  a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.page_break_before](../../aspose.words/paragraphformat/page_break_before/) property set to ``True``. |
 | COLUMN_BREAK | The document is split into parts at column breaks. A column break can be specified by a [ControlChar.COLUMN_BREAK](../../aspose.words/controlchar/COLUMN_BREAK/) character or a section break specifying start of new section in a new column. |
 | SECTION_BREAK | The document is split into parts at a section break of any type. |
 | HEADING_PARAGRAPH | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc.  Use together with [HtmlSaveOptions.document_split_heading_level](../htmlsaveoptions/document_split_heading_level/) to specify the heading levels  (from 1 to the specified level) at which to split. |

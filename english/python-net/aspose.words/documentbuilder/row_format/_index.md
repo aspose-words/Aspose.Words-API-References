@@ -3,7 +3,7 @@ title: row_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns an object that represents current table row formatting properties."
 type: docs
-weight: 160
+weight: 180
 url: /python-net/aspose.words/documentbuilder/row_format/
 ---
 

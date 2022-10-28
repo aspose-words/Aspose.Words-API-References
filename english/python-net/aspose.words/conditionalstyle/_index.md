@@ -1,7 +1,7 @@
 ﻿---
 title: ConditionalStyle class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents special formatting applied to some area of a table with assigned table style."
+description: "Represents special formatting applied to some area of a table with assigned table style"
 type: docs
 weight: 210
 url: /python-net/aspose.words/conditionalstyle/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/conditionalstyle/
 ## ConditionalStyle class
 
 Represents special formatting applied to some area of a table with assigned table style.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
+
 
 
 ### Properties

@@ -13,7 +13,7 @@ Allows to specify the stream where the font will be saved to.
 
 This property allows you to save fonts to streams instead of files during HTML export.
 
-The default value is ``null``. When this property is ``null``, the font 
+The default value is ``None``. When this property is ``None``, the font 
 will be saved to a file specified in the [FontSavingArgs.font_file_name](../font_file_name/) property.
 
 

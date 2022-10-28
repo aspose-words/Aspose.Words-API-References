@@ -12,7 +12,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/xml_mapping/
 Gets an object that represents the mapping of this structured document tag to XML data
 in a custom XML part of the current document.
 
-You can use the [XmlMapping.set_mapping()](../../xmlmapping/set_mapping/#customxmlpart_str_str) method of this object to map 
+You can use the [XmlMapping.set_mapping()](../../xmlmapping/set_mapping/#customxmlpart_str_str) method of this object to map
 a structured document tag to XML data.
 
 

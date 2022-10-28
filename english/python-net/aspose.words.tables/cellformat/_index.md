@@ -1,7 +1,7 @@
 ﻿---
 title: CellFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents all formatting for a table cell."
+description: "Represents all formatting for a table cell"
 type: docs
 weight: 40
 url: /python-net/aspose.words.tables/cellformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.tables/cellformat/
 ## CellFormat class
 
 Represents all formatting for a table cell.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
+
 
 
 ### Properties
@@ -18,18 +21,18 @@ Represents all formatting for a table cell.
 | --- | --- |
 | [borders](./borders/) | Gets collection of borders of the cell. |
 | [bottom_padding](./bottom_padding/) | Returns or sets the amount of space (in points) to add below the contents of cell. |
-| [fit_text](./fit_text/) | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [fit_text](./fit_text/) | If ``True``, fits text in the cell, compressing each paragraph to the width of the cell. |
 | [horizontal_merge](./horizontal_merge/) | Specifies how the cell is merged horizontally with other cells in the row. |
 | [left_padding](./left_padding/) | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [orientation](./orientation/) | Returns or sets the orientation of text in a table cell. |
 | [preferred_width](./preferred_width/) | Returns or sets the preferred width of the cell. |
 | [right_padding](./right_padding/) | Returns or sets the amount of space (in points) to add to the right of the contents of cell. |
-| [shading](./shading/) | Returns a Shading object that refers to the shading formatting for the cell. |
+| [shading](./shading/) | Returns a [Shading](../../aspose.words/shading/) object that refers to the shading formatting for the cell. |
 | [top_padding](./top_padding/) | Returns or sets the amount of space (in points) to add above the contents of cell. |
 | [vertical_alignment](./vertical_alignment/) | Returns or sets the vertical alignment of text in the cell. |
 | [vertical_merge](./vertical_merge/) | Specifies how the cell is merged with other cells vertically. |
 | [width](./width/) | Gets the width of the cell in points. |
-| [wrap_text](./wrap_text/) | If true, wrap text for the cell. |
+| [wrap_text](./wrap_text/) | If ``True``, wrap text for the cell. |
 
 ### Methods
 

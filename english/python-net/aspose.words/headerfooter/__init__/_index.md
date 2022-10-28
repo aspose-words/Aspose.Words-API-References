@@ -22,11 +22,11 @@ def __init__(self, doc: aspose.words.DocumentBase, header_footer_type: aspose.wo
 | doc | [DocumentBase](../../documentbase/) |  |
 | header_footer_type | [HeaderFooterType](../../headerfootertype/) |  |
 
-When **HeaderFooter** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [HeaderFooter](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append **HeaderFooter** to a **Section** use Section.InsertAfter, Section.InsertBefore,
-HeadersFooters.Add or HeadersFooters.Insert.
+To append [HeaderFooter](../) to a [Section](../../section/) use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node), [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node),
+or [Section.headers_footers](../../section/headers_footers/) property and methods [NodeCollection.add()](../../nodecollection/add/#node), [NodeCollection.insert()](../../nodecollection/insert/#int_node).
 
 
 

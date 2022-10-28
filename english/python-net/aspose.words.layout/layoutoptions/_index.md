@@ -1,7 +1,7 @@
 ﻿---
 title: LayoutOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Holds the options that allow controlling the document layout process."
+description: "Holds the options that allow controlling the document layout process"
 type: docs
 weight: 70
 url: /python-net/aspose.words.layout/layoutoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.layout/layoutoptions/
 ## LayoutOptions class
 
 Holds the options that allow controlling the document layout process.
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
+
 
 
 You do not create instances of this class directly. Use the [Document.layout_options](../../aspose.words/document/layout_options/) property to access layout options for this document.
@@ -33,10 +36,10 @@ should be called in order for the changed options to be applied to the layout.
 | [callback](./callback/) | Gets or sets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [comment_display_mode](./comment_display_mode/) | Gets or sets the way comments are rendered. Default value is [CommentDisplayMode.SHOW_IN_BALLOONS](../commentdisplaymode/#SHOW_IN_BALLOONS). |
 | [continuous_section_page_numbering_restart](./continuous_section_page_numbering_restart/) | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [ignore_printer_metrics](./ignore_printer_metrics/) | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True. |
+| [ignore_printer_metrics](./ignore_printer_metrics/) | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is ``True``. |
 | [revision_options](./revision_options/) | Gets revision options. |
-| [show_hidden_text](./show_hidden_text/) | Gets or sets indication of whether hidden text in the document is rendered. Default is False. |
-| [show_paragraph_marks](./show_paragraph_marks/) | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
+| [show_hidden_text](./show_hidden_text/) | Gets or sets indication of whether hidden text in the document is rendered. Default is ``False``. |
+| [show_paragraph_marks](./show_paragraph_marks/) | Gets or sets indication of whether paragraph marks are rendered. Default is ``False``. |
 | [text_shaper_factory](./text_shaper_factory/) | Gets or sets [ITextShaperFactory](../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
 
 ### Examples

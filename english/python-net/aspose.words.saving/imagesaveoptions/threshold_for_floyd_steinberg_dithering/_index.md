@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/imagesaveoptions/threshold_for_floyd_steinb
 
 Gets or sets the threshold that determines the value
 of the binarization error in the Floyd-Steinberg method.
-when [ImageBinarizationMethod](../../imagebinarizationmethod/) is ImageBinarizationMethod.FloydSteinbergDithering.
+when [ImageBinarizationMethod](../../imagebinarizationmethod/) is [ImageBinarizationMethod.FLOYD_STEINBERG_DITHERING](../../imagebinarizationmethod/#FLOYD_STEINBERG_DITHERING).
 
 
 The default value is 128.

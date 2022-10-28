@@ -11,8 +11,9 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/server
 
 Timestamp server URL.
 
-The default value is null.
-If null, then the digital signature will not be time-stamped.
+The default value is ``None``.
+If ``None``, then the digital signature will not be time-stamped.
+
 
 
 ### Examples

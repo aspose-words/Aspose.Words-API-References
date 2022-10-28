@@ -9,7 +9,7 @@ url: /python-net/aspose.words.reporting/jsondataloadoptions/exact_date_time_pars
 
 ## JsonDataLoadOptions.exact_date_time_parse_format property
 
-Gets or sets an exact format for parsing JSON date-time values while loading JSON. The default is **null**.
+Gets or sets an exact format for parsing JSON date-time values while loading JSON. The default is ``None``.
 
 
 Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always 
@@ -17,7 +17,7 @@ recognized as date-time values regardless of a value of this property. The prope
 formats to be used while parsing date-time values from strings in the following way:
 
 
-* When [JsonDataLoadOptions.exact_date_time_parse_format](./) is **null**, the ISO-8601 format and all date-time formats 
+* When [JsonDataLoadOptions.exact_date_time_parse_format](./) is ``None``, the ISO-8601 format and all date-time formats 
   supported for the current, English USA, and English New Zealand cultures are used additionally in 
   the mentioned order.
   

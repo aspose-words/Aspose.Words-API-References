@@ -1,7 +1,7 @@
 ﻿---
 title: SdtListItem class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag."
+description: "This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag"
 type: docs
 weight: 130
 url: /python-net/aspose.words.markup/sdtlistitem/
@@ -9,7 +9,9 @@ url: /python-net/aspose.words.markup/sdtlistitem/
 
 ## SdtListItem class
 
-This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag. 
+This element specifies a single list item within a parent [SdtType.COMBO_BOX](../sdttype/#COMBO_BOX) or [SdtType.DROP_DOWN_LIST](../sdttype/#DROP_DOWN_LIST) structured document tag.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
 
 
 

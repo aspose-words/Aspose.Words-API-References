@@ -1,7 +1,7 @@
 ﻿---
 title: ChartDataPoint class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify formatting of a single data point on the chart."
+description: "Allows to specify formatting of a single data point on the chart"
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing.charts/chartdatapoint/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartdatapoint/
 ## ChartDataPoint class
 
 Allows to specify formatting of a single data point on the chart.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 On a series, the [ChartDataPoint](./) object is a member of the [ChartDataPointCollection](../chartdatapointcollection/). 

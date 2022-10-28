@@ -1,7 +1,7 @@
 ﻿---
 title: equals method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection."
+description: "Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../)."
 type: docs
 weight: 70
 url: /python-net/aspose.words/tabstopcollection/equals/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/tabstopcollection/equals/
 
 ## equals(rhs) {#tabstopcollection}
 
-Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../).
+
 
 
 ```python

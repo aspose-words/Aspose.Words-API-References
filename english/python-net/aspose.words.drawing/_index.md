@@ -9,8 +9,10 @@ url: /python-net/aspose.words.drawing/
 
 The **aspose.words.drawing** module provides classes that allow to create and modify drawing objects.
 
+
 All drawing objects in Microsoft Word documents are represented by instances of the [Shape](./shape/) and [GroupShape](./groupshape/) classes.
 An object of  the [Shape](./shape/) class is a node in a document and can represent a picture, textbox, AutoShape or an OLE object.
+
 
 The classes in this module support the latest (Word 2007 - 2013 DrawingML) and the earlier (pre Word 2007 - Office Art) shapes.
 
@@ -21,22 +23,22 @@ The classes in this module support the latest (Word 2007 - 2013 DrawingML) and t
 
 | Class | Description |
 | --- | --- |
-| [Fill](./fill/) | Represents fill formatting for an object. |
-| [GradientStop](./gradientstop/) | Represents one gradient stop. |
-| [GradientStopCollection](./gradientstopcollection/) | Contains a collection of [GradientStop](./gradientstop/) objects. |
-| [GroupShape](./groupshape/) | Represents a group of shapes in a document. |
-| [HorizontalRuleFormat](./horizontalruleformat/) | Represents horizontal rule formatting. |
-| [ImageData](./imagedata/) | Defines an image for a shape. |
-| [ImageSize](./imagesize/) | Contains information about image size and resolution. |
-| [OleFormat](./oleformat/) | Provides access to the data of an OLE object or ActiveX control. |
-| [OlePackage](./olepackage/) | Allows to access OLE Package properties. |
-| [ShadowFormat](./shadowformat/) | Represents shadow formatting for an object. |
-| [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
-| [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
-| [SignatureLine](./signatureline/) | Provides access to signature line properties. |
-| [Stroke](./stroke/) | Defines a stroke for a shape. |
-| [TextBox](./textbox/) | Defines attributes that specify how a text is displayed inside a shape. |
-| [TextPath](./textpath/) | Defines the text and formatting of the text path (of a WordArt object). |
+| [Fill](./fill/) | Represents fill formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article. |
+| [GradientStop](./gradientstop/) | Represents one gradient stop. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article. |
+| [GradientStopCollection](./gradientstopcollection/) | Contains a collection of [GradientStop](./gradientstop/) objects. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article. |
+| [GroupShape](./groupshape/) | Represents a group of shapes in a document. To learn more, visit the [How to Add Group Shape into a Word Document](https://docs.aspose.com/words/net/how-to-add-group-shape-into-a-word-document/) documentation article. |
+| [HorizontalRuleFormat](./horizontalruleformat/) | Represents horizontal rule formatting. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
+| [ImageData](./imagedata/) | Defines an image for a shape. To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article. |
+| [ImageSize](./imagesize/) | Contains information about image size and resolution. To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article. |
+| [OleFormat](./oleformat/) | Provides access to the data of an OLE object or ActiveX control. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article. |
+| [OlePackage](./olepackage/) | Allows to access OLE Package properties. To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects-and-online-video/) documentation article. |
+| [ShadowFormat](./shadowformat/) | Represents shadow formatting for an object. To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article. |
+| [Shape](./shape/) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
+| [ShapeBase](./shapebase/) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
+| [SignatureLine](./signatureline/) | Provides access to signature line properties. To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article. |
+| [Stroke](./stroke/) | Defines a stroke for a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
+| [TextBox](./textbox/) | Defines attributes that specify how a text is displayed inside a shape. To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
+| [TextPath](./textpath/) | Defines the text and formatting of the text path (of a WordArt object). To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article. |
 
 ## Enumerations
 

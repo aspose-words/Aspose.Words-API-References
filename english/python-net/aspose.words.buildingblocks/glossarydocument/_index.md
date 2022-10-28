@@ -11,6 +11,9 @@ url: /python-net/aspose.words.buildingblocks/glossarydocument/
 
 Represents the root element for a glossary document within a Word document.
 A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 Some documents, usually templates, can contain AutoText, AutoCorrect entries
@@ -39,7 +42,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
 | Name | Description |
 | --- | --- |
-| [background_shape](../../aspose.words/documentbase/background_shape/) | Gets or sets the background shape of the document. Can be null.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
+| [background_shape](../../aspose.words/documentbase/background_shape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [building_blocks](./building_blocks/) | Returns a typed collection that represents all building blocks in the glossary document. |
 | [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -48,8 +51,8 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [first_building_block](./first_building_block/) | Gets the first building block in the glossary document. |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [font_infos](../../aspose.words/documentbase/font_infos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [last_building_block](./last_building_block/) | Gets the last building block in the glossary document. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [lists](../../aspose.words/documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
@@ -59,10 +62,10 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [page_color](../../aspose.words/documentbase/page_color/) | Gets or sets the page color of the document. This property is a simpler version of [DocumentBase.background_shape](../../aspose.words/documentbase/background_shape/).<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [resource_loading_callback](../../aspose.words/documentbase/resource_loading_callback/) | Allows to control how external resources are loaded.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [styles](../../aspose.words/documentbase/styles/) | Returns a collection of styles defined in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
-| [warning_callback](../../aspose.words/documentbase/warning_callback/) | Called during various document processing procedures when an issue is detected that might result  in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
+| [warning_callback](../../aspose.words/documentbase/warning_callback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 
 ### Methods
 
@@ -90,7 +93,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

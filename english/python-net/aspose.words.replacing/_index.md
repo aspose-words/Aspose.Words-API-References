@@ -13,13 +13,14 @@ with find/replace operations over the document tree.
 
 
 
+
 ## Classes
 
 | Class | Description |
 | --- | --- |
-| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. |
+| [FindReplaceOptions](./findreplaceoptions/) | Specifies options for find/replace operations. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/) documentation article. |
 | [IReplacingCallback](./ireplacingcallback/) | Implement this interface if you want to have your own custom method called during a find and replace operation. |
-| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. |
+| [ReplacingArgs](./replacingargs/) | Provides data for a custom replace operation. To learn more, visit the [Find and Replace](https://docs.aspose.com/words/net/find-and-replace/) documentation article. |
 
 ## Enumerations
 

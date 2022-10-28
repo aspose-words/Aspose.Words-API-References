@@ -3,7 +3,7 @@ title: TextFormFieldType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the type of a text form field."
 type: docs
-weight: 1280
+weight: 1300
 url: /python-net/aspose.words.fields/textformfieldtype/
 ---
 

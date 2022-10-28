@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_cid_urls_for_mhtml_r
 ## HtmlSaveOptions.export_cid_urls_for_mhtml_resources property
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML
-documents. Default value is ``false``.
+documents. Default value is ``False``.
 
 
 This option affects only documents being saved to MHTML.

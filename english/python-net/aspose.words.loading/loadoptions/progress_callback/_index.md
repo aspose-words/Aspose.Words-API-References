@@ -3,7 +3,7 @@ title: progress_callback property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Called during loading a document and accepts data about loading progress."
 type: docs
-weight: 130
+weight: 120
 url: /python-net/aspose.words.loading/loadoptions/progress_callback/
 ---
 

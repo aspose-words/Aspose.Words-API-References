@@ -1,7 +1,7 @@
 ﻿---
 title: placeholder property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](../xml_mapping/) element or the [StructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is true."
+description: "Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](../xml_mapping/) element or the [StructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is ``True``."
 type: docs
 weight: 230
 url: /python-net/aspose.words.markup/structureddocumenttag/placeholder/
@@ -9,12 +9,12 @@ url: /python-net/aspose.words.markup/structureddocumenttag/placeholder/
 
 ## StructuredDocumentTag.placeholder property
 
-Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, 
+Gets the [BuildingBlock](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,
 the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](../xml_mapping/) element
-or the [StructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is true. 
+or the [StructuredDocumentTag.is_showing_placeholder_text](../is_showing_placeholder_text/) element is ``True``.
 
 
-Can be null, meaning that the placeholder is not applicable for this Sdt.
+Can be ``None``, meaning that the placeholder is not applicable for this Sdt.
 
 
 ### Examples

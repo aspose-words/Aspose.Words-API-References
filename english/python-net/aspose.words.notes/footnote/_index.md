@@ -1,7 +1,7 @@
 ﻿---
 title: Footnote class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a container for text of a footnote or endnote."
+description: "Represents a container for text of a footnote or endnote"
 type: docs
 weight: 30
 url: /python-net/aspose.words.notes/footnote/
@@ -10,13 +10,16 @@ url: /python-net/aspose.words.notes/footnote/
 ## Footnote class
 
 Represents a container for text of a footnote or endnote.
+To learn more, visit the [Working with Footnote and Endnote](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) documentation article.
 
 
-The **Footnote** class is used to represent both footnotes and endnotes in a Word document.
 
-**Footnote** is an inline-level node and can only be a child of **Paragraph**.
 
-**Footnote** can contain **Paragraph** and **Table** child nodes.
+The [Footnote](./) class is used to represent both footnotes and endnotes in a Word document.
+
+[Footnote](./) is an inline-level node and can only be a child of [Paragraph](../../aspose.words/paragraph/).
+
+[Footnote](./) can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
 
 
 
@@ -26,7 +29,7 @@ The **Footnote** class is used to represent both footnotes and endnotes in a Wor
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Footnote(doc, footnote_type)](./__init__/#documentbase_footnotetype) | Initializes an instance of the **Footnote** class. |
+| [Footnote(doc, footnote_type)](./__init__/#documentbase_footnotetype) | Initializes an instance of the [Footnote](./) class. |
 
 ### Properties
 
@@ -40,24 +43,24 @@ The **Footnote** class is used to represent both footnotes and endnotes in a Wor
 | [first_paragraph](../../aspose.words/inlinestory/first_paragraph/) | Gets the first paragraph in the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [font](../../aspose.words/inlinestory/font/) | Provides access to the font formatting of the anchor character of this object.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [footnote_type](./footnote_type/) | Returns a value that specifies whether this is a footnote or endnote. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [is_auto](./is_auto/) | Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark. |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_delete_revision](../../aspose.words/inlinestory/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [is_insert_revision](../../aspose.words/inlinestory/is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
-| [is_move_from_revision](../../aspose.words/inlinestory/is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
-| [is_move_to_revision](../../aspose.words/inlinestory/is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
+| [is_move_from_revision](../../aspose.words/inlinestory/is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
+| [is_move_to_revision](../../aspose.words/inlinestory/is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [last_paragraph](../../aspose.words/inlinestory/last_paragraph/) | Gets the last paragraph in the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.Footnote**. |
+| [node_type](./node_type/) | Returns [NodeType.FOOTNOTE](../../aspose.words/nodetype/#FOOTNOTE). |
 | [paragraphs](../../aspose.words/inlinestory/paragraphs/) | Gets a collection of paragraphs that are immediate children of the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_paragraph](../../aspose.words/inlinestory/parent_paragraph/) | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [reference_mark](./reference_mark/) | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (System.String.Empty), meaning auto-numbered footnotes are used. |
-| [story_type](./story_type/) | Returns **StoryType.Footnotes** or **StoryType.Endnotes**. |
+| [story_type](./story_type/) | Returns [StoryType.FOOTNOTES](../../aspose.words/storytype/#FOOTNOTES) or [StoryType.ENDNOTES](../../aspose.words/storytype/#ENDNOTES). |
 | [tables](../../aspose.words/inlinestory/tables/) | Gets a collection of tables that are immediate children of the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 
 ### Methods
@@ -84,7 +87,7 @@ The **Footnote** class is used to represent both footnotes and endnotes in a Wor
 |[ remove_child(old_child)](../../aspose.words/compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ to_string(save_format)](../../aspose.words/node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ to_string(save_options)](../../aspose.words/node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
 

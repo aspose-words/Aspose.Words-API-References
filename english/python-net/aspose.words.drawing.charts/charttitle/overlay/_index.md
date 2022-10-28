@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/charttitle/overlay/
 ## ChartTitle.overlay property
 
 Determines whether other chart elements shall be allowed to overlap title.
-By default overlay is false.
+By default overlay is ``False``.
+
 
 
 ### Examples

@@ -1,7 +1,7 @@
 ﻿---
 title: CompositeNode class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for nodes that can contain other nodes."
+description: "Base class for nodes that can contain other nodes"
 type: docs
 weight: 200
 url: /python-net/aspose.words/compositenode/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/compositenode/
 ## CompositeNode class
 
 Base class for nodes that can contain other nodes.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
@@ -39,14 +42,14 @@ The [CompositeNode](./) class:
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](./first_child/) | Gets the first child of the node. |
-| [has_child_nodes](./has_child_nodes/) | Returns true if this node has any child nodes. |
-| [is_composite](./is_composite/) | Returns true as this node can have child nodes. |
+| [has_child_nodes](./has_child_nodes/) | Returns ``True`` if this node has any child nodes. |
+| [is_composite](./is_composite/) | Returns ``True`` as this node can have child nodes. |
 | [last_child](./last_child/) | Gets the last child of the node. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_type](../node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 
@@ -71,7 +74,7 @@ The [CompositeNode](./) class:
 |[ remove_child(old_child)](./remove_child/#node) | Removes the specified child node. |
 |[ remove_smart_tags()](./remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 |[ select_nodes(xpath)](./select_nodes/#str) | Selects a list of nodes matching the XPath expression. |
-|[ select_single_node(xpath)](./select_single_node/#str) | Selects the first Node that matches the XPath expression. |
+|[ select_single_node(xpath)](./select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression. |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 

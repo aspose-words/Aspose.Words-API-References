@@ -10,10 +10,10 @@ url: /python-net/aspose.words.saving/svgsaveoptions/resources_folder/
 ## SvgSaveOptions.resources_folder property
 
 Specifies the physical folder where resources (images) are saved when exporting a document to Svg format.
-Default is ``null``.
+Default is ``None``.
 
 
-Has effect only if [SvgSaveOptions.export_embedded_images](../export_embedded_images/) property is false.
+Has effect only if [SvgSaveOptions.export_embedded_images](../export_embedded_images/) property is ``False``.
 
 When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [SvgSaveOptions.resources_folder](./) 

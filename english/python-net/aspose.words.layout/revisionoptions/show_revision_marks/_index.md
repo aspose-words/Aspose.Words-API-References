@@ -10,7 +10,8 @@ url: /python-net/aspose.words.layout/revisionoptions/show_revision_marks/
 ## RevisionOptions.show_revision_marks property
 
 Allow to specify whether revision text should be marked with special formatting markup.
-Default value is True.
+Default value is ``True``.
+
 
 
 ### Examples

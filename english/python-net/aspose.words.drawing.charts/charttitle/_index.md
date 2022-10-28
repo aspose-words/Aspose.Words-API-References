@@ -1,7 +1,7 @@
 ﻿---
 title: ChartTitle class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides access to the chart title properties."
+description: "Provides access to the chart title properties"
 type: docs
 weight: 260
 url: /python-net/aspose.words.drawing.charts/charttitle/
@@ -10,15 +10,18 @@ url: /python-net/aspose.words.drawing.charts/charttitle/
 ## ChartTitle class
 
 Provides access to the chart title properties.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap title. By default overlay is false. |
-| [show](./show/) | Determines whether the title shall be shown for this chart. Default value is true. |
-| [text](./text/) | Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown. |
+| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap title. By default overlay is ``False``. |
+| [show](./show/) | Determines whether the title shall be shown for this chart. Default value is ``True``. |
+| [text](./text/) | Gets or sets the text of the chart title. If ``None`` or empty value is specified, auto generated title will be shown. |
 
 ### Examples
 

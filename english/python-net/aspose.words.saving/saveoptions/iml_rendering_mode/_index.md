@@ -3,7 +3,7 @@ title: iml_rendering_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining how ink (InkML) objects are rendered."
 type: docs
-weight: 80
+weight: 70
 url: /python-net/aspose.words.saving/saveoptions/iml_rendering_mode/
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: is_end_of_section property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "True if this paragraph is the last paragraph in the Body (main text story) of a Section; false otherwise."
+description: "True if this paragraph is the last paragraph in the [Body](../../body/) (main text story) of a [Section](../../section/); false otherwise."
 type: docs
 weight: 80
 url: /python-net/aspose.words/paragraph/is_end_of_section/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/paragraph/is_end_of_section/
 
 ## Paragraph.is_end_of_section property
 
-True if this paragraph is the last paragraph in the **Body** (main text story) of a **Section**; false otherwise.
+True if this paragraph is the last paragraph in the [Body](../../body/) (main text story) of a [Section](../../section/); false otherwise.
 
 
 

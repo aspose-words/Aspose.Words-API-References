@@ -23,7 +23,7 @@ def previous_pre_order(self, root_node: aspose.words.Node):
 
 ### Returns
 
-Previous node in pre-order order. Null if reached the rootNode.
+Previous node in pre-order order. Null if reached the .
 
 
 ### Examples

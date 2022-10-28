@@ -3,7 +3,7 @@ title: text_compression property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies compression type to be used for all textual content in the document."
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words.saving/pdfsaveoptions/text_compression/
 ---
 

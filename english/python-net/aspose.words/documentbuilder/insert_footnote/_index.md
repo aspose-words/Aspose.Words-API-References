@@ -3,7 +3,7 @@ title: insert_footnote method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.insert_footnote method"
 type: docs
-weight: 310
+weight: 330
 url: /python-net/aspose.words/documentbuilder/insert_footnote/
 ---
 

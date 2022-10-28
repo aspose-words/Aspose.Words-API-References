@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/customxmlproperty/uri/
 
 Gets or sets the namespace URI of the custom XML attribute or smart tag property.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

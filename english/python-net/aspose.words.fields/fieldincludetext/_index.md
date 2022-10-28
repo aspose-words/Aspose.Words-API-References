@@ -1,7 +1,7 @@
 ﻿---
 title: FieldIncludeText class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the INCLUDETEXT field."
+description: "Implements the INCLUDETEXT field"
 type: docs
 weight: 590
 url: /python-net/aspose.words.fields/fieldincludetext/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fieldincludetext/
 ## FieldIncludeText class
 
 Implements the INCLUDETEXT field.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 Inserts all or part of the text and graphics contained in another document.
@@ -38,7 +41,7 @@ Inserts all or part of the text and graphics contained in another document.
 | [mime_type](./mime_type/) | Gets or sets the MIME type of the referenced file. |
 | [namespace_mappings](./namespace_mappings/) | Gets or sets the namespace mappings for XPath queries. |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
-| [separator](../field/separator/) | Gets the node that represents the field separator. Can be null.<br>(Inherited from [Field](../field/)) |
+| [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
 | [source_full_name](./source_full_name/) | Gets or sets the location of the document using an IRI. |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
 | [text_converter](./text_converter/) | Gets or sets the name of the text converter for the format of the included file. |
@@ -52,7 +55,7 @@ Inserts all or part of the text and graphics contained in another document.
 | --- | --- |
 |[ get_field_code()](../field/get_field_code/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../field/)) |
 |[ get_field_code(include_child_field_codes)](../field/get_field_code/#bool) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../field/)) |
-|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.<br>(Inherited from [Field](../field/)) |
+|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../field/)) |
 |[ unlink()](../field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../field/)) |
 |[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 |[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |

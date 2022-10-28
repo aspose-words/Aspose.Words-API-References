@@ -1,7 +1,7 @@
 ﻿---
 title: PdfSaveOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format."
+description: "Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format"
 type: docs
 weight: 650
 url: /python-net/aspose.words.saving/pdfsaveoptions/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/
 ## PdfSaveOptions class
 
 Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../aspose.words/saveformat/#PDF) format.
+To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/net/specify-save-options/) documentation article.
+
 
 
 
@@ -25,10 +27,11 @@ Can be used to specify additional options when saving a document into the [SaveF
 | Name | Description |
 | --- | --- |
 | [additional_text_positioning](./additional_text_positioning/) | A flag specifying whether to write additional text positioning operators or not. |
-| [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [allow_embedding_post_script_fonts](../saveoptions/allow_embedding_post_script_fonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [cache_background_graphics](./cache_background_graphics/) | Gets or sets a value determining whether or not to cache graphics placed in document's background. |
 | [color_mode](../fixedpagesaveoptions/color_mode/) | Gets or sets a value determining how colors are rendered.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [compliance](./compliance/) | Specifies the PDF standards compliance level for output documents. |
-| [create_note_hyperlinks](./create_note_hyperlinks/) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is ``false``. |
+| [create_note_hyperlinks](./create_note_hyperlinks/) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is ``False``. |
 | [custom_properties_export](./custom_properties_export/) | Gets or sets a value determining the way [Document.custom_document_properties](../../aspose.words/document/custom_document_properties/) are exported to PDF file. |
 | [default_template](../saveoptions/default_template/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** (System.String.Empty).<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [digital_signature_details](./digital_signature_details/) | Gets or sets the details for signing the output PDF document. |
@@ -37,37 +40,37 @@ Can be used to specify additional options when saving a document into the [SaveF
 | [dml_effects_rendering_mode](./dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered. |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [downsample_options](./downsample_options/) | Allows to specify downsample options. |
+| [embed_attachments](./embed_attachments/) | Gets or sets a value determining whether or not to embed attachments to the PDF document. |
 | [embed_full_fonts](./embed_full_fonts/) | Controls how fonts are embedded into the resulting PDF documents. |
 | [encryption_details](./encryption_details/) | Gets or sets the details for encrypting the output PDF document. |
 | [export_document_structure](./export_document_structure/) | Gets or sets a value determining whether or not to export document structure. |
-| [export_generator_name](../saveoptions/export_generator_name/) | When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [export_language_to_span_tag](./export_language_to_span_tag/) | Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
-| [flat_opc_xml_mapping_only](../saveoptions/flat_opc_xml_mapping_only/) | Gets or sets value determining which document formats are allowed to be mapped by [StructuredDocumentTag.xml_mapping](../../aspose.words.markup/structureddocumenttag/xml_mapping/). By default only [LoadFormat.FLAT_OPC](../../aspose.words/loadformat/#FLAT_OPC) document format is allowed to be mapped.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [font_embedding_mode](./font_embedding_mode/) | Specifies the font embedding mode. |
 | [header_footer_bookmarks_export_mode](./header_footer_bookmarks_export_mode/) | Determines how bookmarks in headers/footers are exported. |
 | [image_color_space_export_mode](./image_color_space_export_mode/) | Specifies how the color space will be selected for the images in PDF document. |
 | [image_compression](./image_compression/) | Specifies compression type to be used for all images in the document. |
 | [iml_rendering_mode](../saveoptions/iml_rendering_mode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [interpolate_images](./interpolate_images/) | A flag indicating whether image interpolation shall be performed by a conforming reader. When ``false`` is specified, the flag is not written to the output document and the default behaviour of reader is used instead. |
+| [interpolate_images](./interpolate_images/) | A flag indicating whether image interpolation shall be performed by a conforming reader. When ``False`` is specified, the flag is not written to the output document and the default behaviour of reader is used instead. |
 | [jpeg_quality](./jpeg_quality/) | Gets or sets a value determining the quality of the JPEG images inside PDF document. |
-| [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [memory_optimization](../saveoptions/memory_optimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [metafile_rendering_options](../fixedpagesaveoptions/metafile_rendering_options/) | Allows to specify metafile rendering options.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [numeral_format](../fixedpagesaveoptions/numeral_format/) | Gets or sets [NumeralFormat](../numeralformat/) used for rendering of numerals. European numerals are used by default.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [open_hyperlinks_in_new_window](./open_hyperlinks_in_new_window/) | Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
-| [optimize_output](../fixedpagesaveoptions/optimize_output/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
+| [optimize_output](../fixedpagesaveoptions/optimize_output/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to ``True``.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [outline_options](./outline_options/) | Allows to specify outline options. |
 | [page_mode](./page_mode/) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
 | [page_saving_callback](../fixedpagesaveoptions/page_saving_callback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [page_set](../fixedpagesaveoptions/page_set/) | Gets or sets the pages to render. Default is all the pages in the document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [preblend_images](./preblend_images/) | Gets or sets a value determining whether or not to preblend transparent images with black background color. |
-| [preserve_form_fields](./preserve_form_fields/) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is ``false``. |
-| [pretty_format](../saveoptions/pretty_format/) | When ``true``, pretty formats output where applicable.  Default value is **false**.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [preserve_form_fields](./preserve_form_fields/) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is ``False``. |
+| [pretty_format](../saveoptions/pretty_format/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progress_callback](../saveoptions/progress_callback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [save_format](./save_format/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../aspose.words/saveformat/#PDF). |
-| [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [temp_folder](../saveoptions/temp_folder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [text_compression](./text_compression/) | Specifies compression type to be used for all textual content in the document. |
-| [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is false;<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_created_time_property](../saveoptions/update_created_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.created_time](../../aspose.words.properties/builtindocumentproperties/created_time/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [update_fields](../saveoptions/update_fields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_printed_property](../saveoptions/update_last_printed_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_printed](../../aspose.words.properties/builtindocumentproperties/last_printed/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_last_saved_time_property](../saveoptions/update_last_saved_time_property/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.last_saved_time](../../aspose.words.properties/builtindocumentproperties/last_saved_time/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [update_sdt_content](../saveoptions/update_sdt_content/) | Gets or sets value determining whether content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |

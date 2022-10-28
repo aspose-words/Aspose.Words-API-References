@@ -1,7 +1,7 @@
 ﻿---
 title: list_indentation property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels"
+description: "Gets a [TxtListIndentation](../../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels"
 type: docs
 weight: 30
 url: /python-net/aspose.words.saving/txtsaveoptions/list_indentation/
@@ -9,8 +9,9 @@ url: /python-net/aspose.words.saving/txtsaveoptions/list_indentation/
 
 ## TxtSaveOptions.list_indentation property
 
-Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels.
+Gets a [TxtListIndentation](../../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels.
 By default it is zero count of character '\\0', that means no indentation.
+
 
 
 ### Examples

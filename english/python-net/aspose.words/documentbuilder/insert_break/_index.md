@@ -3,7 +3,7 @@ title: insert_break method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a break of the specified type into the document."
 type: docs
-weight: 240
+weight: 260
 url: /python-net/aspose.words/documentbuilder/insert_break/
 ---
 

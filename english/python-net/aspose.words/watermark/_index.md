@@ -1,7 +1,7 @@
 ﻿---
 title: Watermark class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents class to work with document watermark."
+description: "Represents class to work with document watermark"
 type: docs
 weight: 1330
 url: /python-net/aspose.words/watermark/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/watermark/
 ## Watermark class
 
 Represents class to work with document watermark.
+To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/net/working-with-watermark/) documentation article.
+
+
 
 
 ### Properties

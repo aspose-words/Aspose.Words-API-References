@@ -9,7 +9,7 @@ url: /python-net/aspose.words.fields/formfield/check_box_size/
 
 ## FormField.check_box_size property
 
-Gets or sets the size of the checkbox in points. Has effect only when [FormField.is_check_box_exact_size](../is_check_box_exact_size/) is true.
+Gets or sets the size of the checkbox in points. Has effect only when [FormField.is_check_box_exact_size](../is_check_box_exact_size/) is ``True``.
 
 
 Applicable for a check box form field only.

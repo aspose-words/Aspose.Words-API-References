@@ -1,7 +1,7 @@
 ﻿---
 title: FontSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "This is an abstract base class for the font substitution rule."
+description: "This is an abstract base class for the font substitution rule"
 type: docs
 weight: 170
 url: /python-net/aspose.words.fonts/fontsubstitutionrule/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontsubstitutionrule/
 ## FontSubstitutionRule class
 
 This is an abstract base class for the font substitution rule.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 ### Properties

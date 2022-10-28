@@ -1,7 +1,7 @@
 ﻿---
 title: SubDocument class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a SubDocument - which is a reference to an externally stored document."
+description: "Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
 weight: 1120
 url: /python-net/aspose.words/subdocument/
@@ -10,12 +10,14 @@ url: /python-net/aspose.words/subdocument/
 ## SubDocument class
 
 Represents a **SubDocument** - which is a reference to an externally stored document.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
 
 
 
 In this version of Aspose.Words, [SubDocument](./) nodes do not provide public methods
 and properties to create or modify a subdocument. In this version you are not able to instantiate
-SubDocument nodes or modify existing except deleting them.
+[SubDocument](./) nodes or modify existing except deleting them.
 
 [SubDocument](./) can only be a child of [Paragraph](../paragraph/).
 
@@ -30,12 +32,12 @@ SubDocument nodes or modify existing except deleting them.
 | --- | --- |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_type](./node_type/) | Returns **NodeType.SubDocument** |
+| [node_type](./node_type/) | Returns [NodeType.SUB_DOCUMENT](../nodetype/#SUB_DOCUMENT). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 

@@ -21,14 +21,14 @@ def after(self, position: float):
 | --- | --- | --- |
 | position | float |  |
 
-Skips tab stops with **Alignment** set to ``TabAlignment.Bar``.
+Skips tab stops with [TabStop.alignment](../../tabstop/alignment/) set to [TabAlignment.BAR](../../tabalignment/#BAR).
 
 
 
 
 ### Returns
 
-A tab stop object or null if a suitable tab stop was not found.
+A tab stop object or ``None`` if a suitable tab stop was not found.
 
 
 ### Examples

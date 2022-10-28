@@ -1,7 +1,7 @@
 ﻿---
 title: BorderType enumeration
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies sides of a border."
+description: "Specifies sides of a border"
 type: docs
 weight: 90
 url: /python-net/aspose.words/bordertype/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/bordertype/
 ## BorderType enumeration
 
 Specifies sides of a border.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
+
 
 
 ### Members

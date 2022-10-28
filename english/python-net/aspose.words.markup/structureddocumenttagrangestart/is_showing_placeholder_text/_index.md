@@ -12,7 +12,8 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/is_showing_
 Specifies whether the content of this structured document tag shall be interpreted to contain
 placeholder text (as opposed to regular text contents within the structured document tag).
 
-if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+if set to ``True``, this state shall be resumed (showing placeholder text) upon opening this document.
+
 
 
 
@@ -40,6 +41,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

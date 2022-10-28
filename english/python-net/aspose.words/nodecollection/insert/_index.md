@@ -24,14 +24,12 @@ def insert(self, index: int, node: aspose.words.Node):
 
 The node is inserted as a child into the node object from which the collection was created.
 
-If the index is equal to or greater than Count, the node is added at the end of the collection.
+If the index is equal to or greater than [NodeCollection.count](../count/), the node is added at the end of the collection.
 
-If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
-
-
+If the index is negative and its absolute value is greater than [NodeCollection.count](../count/), the node is added at the end of the collection.
 
 
-If the newChild is already in the tree, it is first removed.
+
 
 If the node being inserted was created from another document, you should use 
 [DocumentBase.import_node()](../../documentbase/import_node/#node_bool_importformatmode) to import the node to the current document. 
@@ -44,7 +42,7 @@ The imported node can then be inserted into the current document.
 
 | exception | condition |
 | --- | --- |
-| System.NotSupportedException | The **NodeCollection** is a "deep" collection. |
+| System.NotSupportedException | The [NodeCollection](../) is a "deep" collection. |
 
 ### Examples
 

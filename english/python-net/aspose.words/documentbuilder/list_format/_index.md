@@ -3,7 +3,7 @@ title: list_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Returns an object that represents current list formatting properties."
 type: docs
-weight: 130
+weight: 150
 url: /python-net/aspose.words/documentbuilder/list_format/
 ---
 

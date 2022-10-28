@@ -1,7 +1,7 @@
 ﻿---
 title: ListLevelCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of list formatting for each level in a list."
+description: "A collection of list formatting for each level in a list"
 type: docs
 weight: 70
 url: /python-net/aspose.words.lists/listlevelcollection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.lists/listlevelcollection/
 ## ListLevelCollection class
 
 A collection of list formatting for each level in a list.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
+
 
 
 ### Indexers

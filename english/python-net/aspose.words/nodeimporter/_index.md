@@ -1,7 +1,7 @@
 ﻿---
 title: NodeImporter class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to efficiently perform repeated import of nodes from one document to another."
+description: "Allows to efficiently perform repeated import of nodes from one document to another"
 type: docs
 weight: 720
 url: /python-net/aspose.words/nodeimporter/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/nodeimporter/
 ## NodeImporter class
 
 Allows to efficiently perform repeated import of nodes from one document to another.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 Aspose.Words provides functionality for easy copying and moving fragments

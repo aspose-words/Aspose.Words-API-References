@@ -12,7 +12,7 @@ url: /python-net/aspose.words.layout/layoutcollector/document/
 Gets or sets the document this collector instance is attached to.
 
 If you need to access page indexes of the document nodes you need to set this property to point to a document instance,
-before page layout of the document is built. It is best to set this property to ``null`` afterwards, 
+before page layout of the document is built. It is best to set this property to ``None`` afterwards, 
 otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
 
 
