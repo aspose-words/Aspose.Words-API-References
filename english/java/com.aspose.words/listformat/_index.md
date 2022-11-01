@@ -36,15 +36,24 @@ The paragraphs do not physically belong to a list. The paragraphs just reference
 | --- | --- |
 | [applyBulletDefault()](#applyBulletDefault--) | Starts a new default bulleted list and applies it to the paragraph. |
 | [applyNumberDefault()](#applyNumberDefault--) | Starts a new default numbered list and applies it to the paragraph. |
-| [removeNumbers()](#removeNumbers--) | Removes numbers or bullets from the current paragraph and sets list level to zero. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getList()](#getList--) | Gets the list this paragraph is a member of. |
+| [getListLevel()](#getListLevel--) | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
+| [getListLevelNumber()](#getListLevelNumber--) | Gets the list level number (0 to 8) for the paragraph. |
+| [hashCode()](#hashCode--) |  |
+| [isListItem()](#isListItem--) | True when the paragraph has bulleted or numbered formatting applied to it. |
 | [listIndent()](#listIndent--) | Increases the list level of the current paragraph by one level. |
 | [listOutdent()](#listOutdent--) | Decreases the list level of the current paragraph by one level. |
-| [getListLevelNumber()](#getListLevelNumber--) | Gets the list level number (0 to 8) for the paragraph. |
-| [setListLevelNumber(int value)](#setListLevelNumber-int-) | Sets the list level number (0 to 8) for the paragraph. |
-| [isListItem()](#isListItem--) | True when the paragraph has bulleted or numbered formatting applied to it. |
-| [getList()](#getList--) | Gets the list this paragraph is a member of. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeNumbers()](#removeNumbers--) | Removes numbers or bullets from the current paragraph and sets list level to zero. |
 | [setList(List value)](#setList-com.aspose.words.List-) | Sets the list this paragraph is a member of. |
-| [getListLevel()](#getListLevel--) | Returns the list level formatting plus any formatting overrides applied to the current paragraph. |
+| [setListLevelNumber(int value)](#setListLevelNumber-int-) | Sets the list level number (0 to 8) for the paragraph. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### applyBulletDefault() {#applyBulletDefault--}
 ```
 public void applyBulletDefault()
@@ -65,16 +74,91 @@ Starts a new default numbered list and applies it to the paragraph.
 
 This is a shortcut method that creates a new list using the default numbered template, applies it to the paragraph and selects the 1st list level.
 
-### removeNumbers() {#removeNumbers--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void removeNumbers()
+public boolean equals(Object arg0)
 ```
 
 
-Removes numbers or bullets from the current paragraph and sets list level to zero.
 
-Calling this method is equivalent to setting the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property to null.
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getList() {#getList--}
+```
+public List getList()
+```
+
+
+Gets the list this paragraph is a member of.
+
+The list that is being assigned to this property must belong to the current document.
+
+The list that is being assigned to this property must not be a list style definition.
+
+Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [removeNumbers()](../../com.aspose.words/listformat\#removeNumbers--).
+
+**Returns:**
+[List](../../com.aspose.words/list) - The list this paragraph is a member of.
+### getListLevel() {#getListLevel--}
+```
+public ListLevel getListLevel()
+```
+
+
+Returns the list level formatting plus any formatting overrides applied to the current paragraph.
+
+**Returns:**
+[ListLevel](../../com.aspose.words/listlevel) - The list level formatting plus any formatting overrides applied to the current paragraph.
+### getListLevelNumber() {#getListLevelNumber--}
+```
+public int getListLevelNumber()
+```
+
+
+Gets the list level number (0 to 8) for the paragraph.
+
+In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
+
+Has effect only when the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property is set to reference a valid list.
+
+**Returns:**
+int - The list level number (0 to 8) for the paragraph.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isListItem() {#isListItem--}
+```
+public boolean isListItem()
+```
+
+
+True when the paragraph has bulleted or numbered formatting applied to it.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### listIndent() {#listIndent--}
 ```
 public void listIndent()
@@ -99,63 +183,32 @@ This method changes the list level and applies formatting properties of the new 
 
 In Word documents, lists may consist of up to nine levels. List formatting for each level specifies what bullet or number is used, left indent, space between the bullet and text etc.
 
-### getListLevelNumber() {#getListLevelNumber--}
+### notify() {#notify--}
 ```
-public int getListLevelNumber()
-```
-
-
-Gets the list level number (0 to 8) for the paragraph.
-
-In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
-
-Has effect only when the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property is set to reference a valid list.
-
-**Returns:**
-int - The list level number (0 to 8) for the paragraph.
-### setListLevelNumber(int value) {#setListLevelNumber-int-}
-```
-public void setListLevelNumber(int value)
+public final native void notify()
 ```
 
 
-Sets the list level number (0 to 8) for the paragraph.
 
-In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
 
-Has effect only when the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property is set to reference a valid list.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | The list level number (0 to 8) for the paragraph. |
-
-### isListItem() {#isListItem--}
+### notifyAll() {#notifyAll--}
 ```
-public boolean isListItem()
+public final native void notifyAll()
 ```
 
 
-True when the paragraph has bulleted or numbered formatting applied to it.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getList() {#getList--}
+
+### removeNumbers() {#removeNumbers--}
 ```
-public List getList()
+public void removeNumbers()
 ```
 
 
-Gets the list this paragraph is a member of.
+Removes numbers or bullets from the current paragraph and sets list level to zero.
 
-The list that is being assigned to this property must belong to the current document.
+Calling this method is equivalent to setting the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property to null.
 
-The list that is being assigned to this property must not be a list style definition.
-
-Setting this property to null removes bullets and numbering from the paragraph and sets the list level number to zero. Setting this property to null is equivalent to calling [removeNumbers()](../../com.aspose.words/listformat\#removeNumbers--).
-
-**Returns:**
-[List](../../com.aspose.words/list) - The list this paragraph is a member of.
 ### setList(List value) {#setList-com.aspose.words.List-}
 ```
 public void setList(List value)
@@ -175,13 +228,65 @@ Setting this property to null removes bullets and numbering from the paragraph a
 | --- | --- | --- |
 | value | [List](../../com.aspose.words/list) | The list this paragraph is a member of. |
 
-### getListLevel() {#getListLevel--}
+### setListLevelNumber(int value) {#setListLevelNumber-int-}
 ```
-public ListLevel getListLevel()
+public void setListLevelNumber(int value)
 ```
 
 
-Returns the list level formatting plus any formatting overrides applied to the current paragraph.
+Sets the list level number (0 to 8) for the paragraph.
+
+In Word documents, lists may consist of 1 or 9 levels, numbered 0 to 8.
+
+Has effect only when the [getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property is set to reference a valid list.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The list level number (0 to 8) for the paragraph. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[ListLevel](../../com.aspose.words/listlevel) - The list level formatting plus any formatting overrides applied to the current paragraph.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

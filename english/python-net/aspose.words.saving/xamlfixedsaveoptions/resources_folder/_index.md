@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/xamlfixedsaveoptions/resources_folder/
 ## XamlFixedSaveOptions.resources_folder property
 
 Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format.
-Default is ``null``.
+Default is ``None``.
 
 
 When you save a [Document](../../../aspose.words/document/) in fixed page Xaml format, Aspose.Words needs to save all 

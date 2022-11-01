@@ -1,7 +1,7 @@
 ﻿---
 title: PdfDigitalSignatureTimestampSettings class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains settings of the digital signature timestamp."
+description: "Contains settings of the digital signature timestamp"
 type: docs
 weight: 580
 url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ## PdfDigitalSignatureTimestampSettings class
 
 Contains settings of the digital signature timestamp.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
+
 
 
 ### Constructors

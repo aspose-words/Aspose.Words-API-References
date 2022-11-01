@@ -1,7 +1,7 @@
 ﻿---
 title: BorderCollection indexer
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Retrieves a Border object by index."
+description: "Retrieves a [Border](../../border/) object by index."
 type: docs
 weight: 10
 url: /python-net/aspose.words/bordercollection/__getitem__/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/bordercollection/__getitem__/
 
 ## \_\_getitem\_\_(index) {#int}
 
-Retrieves a Border object by index.
+Retrieves a [Border](../../border/) object by index.
+
 
 
 ```python

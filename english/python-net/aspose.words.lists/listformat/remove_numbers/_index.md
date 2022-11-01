@@ -17,7 +17,7 @@ def remove_numbers(self):
     ...
 ```
 
-Calling this method is equivalent to setting the [ListFormat.list](../list/) property to null.
+Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``None``.
 
 
 

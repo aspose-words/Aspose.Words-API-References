@@ -20,31 +20,40 @@ Corresponds to the **ST\_DocPartType** type in OOXML.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | No type information is specified for the building block. |
+| [ALL](#ALL) | The building block is associated with all types. |
 | [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | Allows the building block to be automatically inserted into the document whenever its name is entered into an application. |
-| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | The building block is a structured document tag placeholder text. |
-| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | The building block is a form field help text. |
-| [NORMAL](#NORMAL) | The building block is a normal (i.e. |
 | [AUTO_CORRECT](#AUTO-CORRECT) | The building block is associated with the spelling and grammar tools. |
 | [AUTO_TEXT](#AUTO-TEXT) | The building block is an AutoText entry. |
-| [ALL](#ALL) | The building block is associated with all types. |
 | [DEFAULT](#DEFAULT) | Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE). |
+| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | The building block is a form field help text. |
+| [NONE](#NONE) | No type information is specified for the building block. |
+| [NORMAL](#NORMAL) | The building block is a normal (i.e. |
+| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | The building block is a structured document tag placeholder text. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int buildingBlockType)](#getName-int-) |  |
-| [toString(int buildingBlockType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String buildingBlockTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int buildingBlockType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int buildingBlockType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ALL {#ALL}
 ```
-public static int NONE
+public static int ALL
 ```
 
 
-No type information is specified for the building block.
+The building block is associated with all types.
 
 ### AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT {#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT}
 ```
@@ -53,30 +62,6 @@ public static int AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT
 
 
 Allows the building block to be automatically inserted into the document whenever its name is entered into an application.
-
-### STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT {#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT}
-```
-public static int STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT
-```
-
-
-The building block is a structured document tag placeholder text.
-
-### FORM_FIELD_HELP_TEXT {#FORM-FIELD-HELP-TEXT}
-```
-public static int FORM_FIELD_HELP_TEXT
-```
-
-
-The building block is a form field help text.
-
-### NORMAL {#NORMAL}
-```
-public static int NORMAL
-```
-
-
-The building block is a normal (i.e. regular) glossary document entry.
 
 ### AUTO_CORRECT {#AUTO-CORRECT}
 ```
@@ -94,14 +79,6 @@ public static int AUTO_TEXT
 
 The building block is an AutoText entry.
 
-### ALL {#ALL}
-```
-public static int ALL
-```
-
-
-The building block is associated with all types.
-
 ### DEFAULT {#DEFAULT}
 ```
 public static int DEFAULT
@@ -110,12 +87,84 @@ public static int DEFAULT
 
 Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE).
 
+### FORM_FIELD_HELP_TEXT {#FORM-FIELD-HELP-TEXT}
+```
+public static int FORM_FIELD_HELP_TEXT
+```
+
+
+The building block is a form field help text.
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+No type information is specified for the building block.
+
+### NORMAL {#NORMAL}
+```
+public static int NORMAL
+```
+
+
+The building block is a normal (i.e. regular) glossary document entry.
+
+### STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT {#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT}
+```
+public static int STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT
+```
+
+
+The building block is a structured document tag placeholder text.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String buildingBlockTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String buildingBlockTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| buildingBlockTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int buildingBlockType) {#getName-int-}
 ```
 public static String getName(int buildingBlockType)
@@ -128,6 +177,52 @@ public static String getName(int buildingBlockType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -146,9 +241,17 @@ public static String toString(int buildingBlockType)
 
 **Returns:**
 java.lang.String
-### fromName(String buildingBlockTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String buildingBlockTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -157,17 +260,19 @@ public static int fromName(String buildingBlockTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| buildingBlockTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

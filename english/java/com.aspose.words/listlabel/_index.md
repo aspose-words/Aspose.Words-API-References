@@ -20,14 +20,86 @@ To learn more, visit the **Working with Lists** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [clearRunAttrs()](#clearRunAttrs--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getFont()](#getFont--) | Gets the list label font. |
 | [getLabelString()](#getLabelString--) | Gets a string representation of list label. |
 | [getLabelValue()](#getLabelValue--) | Gets a numeric value for this label. |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [clearRunAttrs()](#clearRunAttrs--) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### clearRunAttrs() {#clearRunAttrs--}
+```
+public void clearRunAttrs()
+```
+
+
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+```
+public Object fetchInheritedRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+```
+public Object getDirectRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+**Returns:**
+java.lang.Object
 ### getFont() {#getFont--}
 ```
 public Font getFont()
@@ -58,49 +130,31 @@ Gets a numeric value for this label. Use the [Document.updateListLabels()](../..
 
 **Returns:**
 int - A numeric value for this label.
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+### hashCode() {#hashCode--}
 ```
-public Object getDirectRunAttr(int key)
+public native int hashCode()
 ```
 
 
 
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
 
 **Returns:**
-java.lang.Object
-### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
+int
+### notify() {#notify--}
 ```
-public Object fetchInheritedRunAttr(int key)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-
-**Returns:**
-java.lang.Object
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
-```
-public void setRunAttr(int key, Object value)
+public final native void notify()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### removeRunAttr(int key) {#removeRunAttr-int-}
 ```
@@ -115,11 +169,62 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### clearRunAttrs() {#clearRunAttrs--}
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
-public void clearRunAttrs()
+public void setRunAttr(int key, Object value)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

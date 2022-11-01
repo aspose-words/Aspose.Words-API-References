@@ -3,7 +3,7 @@ title: use_anti_aliasing property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining whether or not to use anti-aliasing for rendering."
 type: docs
-weight: 190
+weight: 180
 url: /python-net/aspose.words.saving/saveoptions/use_anti_aliasing/
 ---
 
@@ -11,15 +11,15 @@ url: /python-net/aspose.words.saving/saveoptions/use_anti_aliasing/
 
 Gets or sets a value determining whether or not to use anti-aliasing for rendering.
 
-The default value is ``false``. When this value is set to ``true`` anti-aliasing is 
+The default value is ``False``. When this value is set to ``True`` anti-aliasing is
 used for rendering.
 
 
-This property is used when the document is exported to the following formats: 
-[SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), 
-[SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF). When the document is exported to the 
-[SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML) and [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) 
-formats this option is used for raster images.
+This property is used when the document is exported to the following formats:
+[SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),
+[SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF). When the document is exported to the
+[SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML), [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB)
+and [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) formats this option is used for raster images.
 
 
 

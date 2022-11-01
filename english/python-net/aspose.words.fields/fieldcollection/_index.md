@@ -1,7 +1,7 @@
 ﻿---
 title: FieldCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of [Field](../field/) objects that represents the fields in the specified range."
+description: "A collection of [Field](../field/) objects that represents the fields in the specified range"
 type: docs
 weight: 230
 url: /python-net/aspose.words.fields/fieldcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.fields/fieldcollection/
 ## FieldCollection class
 
 A collection of [Field](../field/) objects that represents the fields in the specified range.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
 
 
 

@@ -10,7 +10,8 @@ url: /python-net/aspose.words.layout/revisionoptions/show_revision_bars/
 ## RevisionOptions.show_revision_bars property
 
 Allows to specify whether revision bars should be rendered near lines containing revised content.
-Default value is True.
+Default value is ``True``.
+
 
 
 ### Examples

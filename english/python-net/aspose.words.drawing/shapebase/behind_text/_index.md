@@ -13,7 +13,7 @@ Specifies whether the shape is below or above text.
 
 Has effect only for top level shapes.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

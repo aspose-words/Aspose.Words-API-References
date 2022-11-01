@@ -11,7 +11,7 @@ url: /python-net/aspose.words/style/font/
 
 Gets the character formatting of the style.
 
-For list styles this property returns null.
+For list styles this property returns ``None``.
 
 
 

@@ -22,7 +22,8 @@ def set_text(self, text: str):
 | text | str |  |
 
 The text length must be in the range from 1 to 200 inclusive.
-The text cannot be null or contain only whitespaces.
+The text cannot be ``None`` or contain only whitespaces.
+
 
 
 ### Exceptions
@@ -30,7 +31,7 @@ The text cannot be null or contain only whitespaces.
 | exception | condition |
 | --- | --- |
 | System.ArgumentOutOfRangeException | Throws when the text length is out of range or the text contains only whitespaces. |
-| System.ArgumentNullException | Throws when the text is null. |
+| System.ArgumentNullException | Throws when the text is ``None``. |
 
 ## set_text(text, options) {#str_textwatermarkoptions}
 
@@ -48,10 +49,11 @@ def set_text(self, text: str, options: aspose.words.TextWatermarkOptions):
 | options | [TextWatermarkOptions](../../textwatermarkoptions/) |  |
 
 The text length must be in the range from 1 to 200 inclusive.
-The text cannot be null or contain only whitespaces.
+The text cannot be ``None`` or contain only whitespaces.
 
 
-If [TextWatermarkOptions](../../textwatermarkoptions/) is null, the watermark will be set with default options.
+
+If [TextWatermarkOptions](../../textwatermarkoptions/) is ``None``, the watermark will be set with default options.
 
 
 ### Exceptions
@@ -59,7 +61,7 @@ If [TextWatermarkOptions](../../textwatermarkoptions/) is null, the watermark wi
 | exception | condition |
 | --- | --- |
 | System.ArgumentOutOfRangeException | Throws when the text length is out of range or the text contain only whitespaces. |
-| System.ArgumentNullException | Throws when the text is null. |
+| System.ArgumentNullException | Throws when the text is ``None``. |
 
 ## Examples
 

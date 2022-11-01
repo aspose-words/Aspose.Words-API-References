@@ -1,7 +1,7 @@
 ﻿---
 title: CustomPart class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard."
+description: "Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard"
 type: docs
 weight: 10
 url: /python-net/aspose.words.markup/custompart/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.markup/custompart/
 ## CustomPart class
 
 Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
+
 
 
 This class represents an OOXML part that is a target of an "unknown relationship".
@@ -40,7 +43,7 @@ to access Custom XML Data.
 | --- | --- |
 | [content_type](./content_type/) | Specifies the content type of this custom part. |
 | [data](./data/) | Contains the data of this custom part. |
-| [is_external](./is_external/) | ``False`` if this custom part is stored inside the OOXML package. ``True`` if this custom part is an external target. |
+| [is_external](./is_external/) | False if this custom part is stored inside the OOXML package. True if this custom part is an external target. |
 | [name](./name/) | Gets or sets this part's absolute name within the OOXML package or the target URL. |
 | [relationship_type](./relationship_type/) | Gets or sets the relationship type from the parent part to this custom part. |
 

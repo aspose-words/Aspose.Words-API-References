@@ -23,37 +23,48 @@ To learn more, visit the **Working with Charts** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Gets scaling type of the axis. |
-| [setType(int value)](#setType-int-) | Sets scaling type of the axis. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getLogBase()](#getLogBase--) | Gets the logarithmic base for a logarithmic axis. |
-| [setLogBase(double value)](#setLogBase-double-) | Sets the logarithmic base for a logarithmic axis. |
-| [getMinimum()](#getMinimum--) | Gets minimum value of the axis. |
-| [setMinimum(AxisBound value)](#setMinimum-com.aspose.words.AxisBound-) | Sets minimum value of the axis. |
 | [getMaximum()](#getMaximum--) | Gets the maximum value of the axis. |
+| [getMinimum()](#getMinimum--) | Gets minimum value of the axis. |
+| [getType()](#getType--) | Gets scaling type of the axis. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setLogBase(double value)](#setLogBase-double-) | Sets the logarithmic base for a logarithmic axis. |
 | [setMaximum(AxisBound value)](#setMaximum-com.aspose.words.AxisBound-) | Sets the maximum value of the axis. |
-### getType() {#getType--}
+| [setMinimum(AxisBound value)](#setMinimum-com.aspose.words.AxisBound-) | Sets minimum value of the axis. |
+| [setType(int value)](#setType-int-) | Sets scaling type of the axis. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public int getType()
-```
-
-
-Gets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
-
-**Returns:**
-int - Scaling type of the axis. The returned value is one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants.
-### setType(int value) {#setType-int-}
-```
-public void setType(int value)
+public boolean equals(Object arg0)
 ```
 
 
-Sets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Scaling type of the axis. The value must be one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants. |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getLogBase() {#getLogBase--}
 ```
 public double getLogBase()
@@ -70,6 +81,62 @@ Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#g
 
 **Returns:**
 double - The logarithmic base for a logarithmic axis.
+### getMaximum() {#getMaximum--}
+```
+public AxisBound getMaximum()
+```
+
+
+Gets the maximum value of the axis. The default value is "auto".
+
+**Returns:**
+[AxisBound](../../com.aspose.words/axisbound) - The maximum value of the axis.
+### getMinimum() {#getMinimum--}
+```
+public AxisBound getMinimum()
+```
+
+
+Gets minimum value of the axis. The default value is "auto".
+
+**Returns:**
+[AxisBound](../../com.aspose.words/axisbound) - Minimum value of the axis.
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Gets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+
+**Returns:**
+int - Scaling type of the axis. The returned value is one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setLogBase(double value) {#setLogBase-double-}
 ```
 public void setLogBase(double value)
@@ -89,16 +156,19 @@ Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#g
 | --- | --- | --- |
 | value | double | The logarithmic base for a logarithmic axis. |
 
-### getMinimum() {#getMinimum--}
+### setMaximum(AxisBound value) {#setMaximum-com.aspose.words.AxisBound-}
 ```
-public AxisBound getMinimum()
+public void setMaximum(AxisBound value)
 ```
 
 
-Gets minimum value of the axis. The default value is "auto".
+Sets the maximum value of the axis. The default value is "auto".
 
-**Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - Minimum value of the axis.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [AxisBound](../../com.aspose.words/axisbound) | The maximum value of the axis. |
+
 ### setMinimum(AxisBound value) {#setMinimum-com.aspose.words.AxisBound-}
 ```
 public void setMinimum(AxisBound value)
@@ -112,26 +182,61 @@ Sets minimum value of the axis. The default value is "auto".
 | --- | --- | --- |
 | value | [AxisBound](../../com.aspose.words/axisbound) | Minimum value of the axis. |
 
-### getMaximum() {#getMaximum--}
+### setType(int value) {#setType-int-}
 ```
-public AxisBound getMaximum()
-```
-
-
-Gets the maximum value of the axis. The default value is "auto".
-
-**Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - The maximum value of the axis.
-### setMaximum(AxisBound value) {#setMaximum-com.aspose.words.AxisBound-}
-```
-public void setMaximum(AxisBound value)
+public void setType(int value)
 ```
 
 
-Sets the maximum value of the axis. The default value is "auto".
+Sets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [AxisBound](../../com.aspose.words/axisbound) | The maximum value of the axis. |
+| value | int | Scaling type of the axis. The value must be one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

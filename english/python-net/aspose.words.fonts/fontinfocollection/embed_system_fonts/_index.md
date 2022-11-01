@@ -10,9 +10,9 @@ url: /python-net/aspose.words.fonts/fontinfocollection/embed_system_fonts/
 ## FontInfoCollection.embed_system_fonts property
 
 Specifies whether or not to embed System fonts into the document.
-Default value for this property is **false**.
+Default value for this property is ``False``.
 
-This option works only when [FontInfoCollection.embed_true_type_fonts](../embed_true_type_fonts/) option is set to **true**.
+This option works only when [FontInfoCollection.embed_true_type_fonts](../embed_true_type_fonts/) option is set to ``True``.
 
 
 

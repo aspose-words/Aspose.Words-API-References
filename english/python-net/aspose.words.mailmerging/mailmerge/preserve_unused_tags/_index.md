@@ -11,7 +11,7 @@ url: /python-net/aspose.words.mailmerging/mailmerge/preserve_unused_tags/
 
 Gets or sets a value indicating whether the unused "mustache" tags should be preserved.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: content_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the ContentStatus of the document."
+description: "Gets or sets the Aspose.Words.Properties.PropertyName.ContentType of the document."
 type: docs
 weight: 100
 url: /python-net/aspose.words.properties/builtindocumentproperties/content_type/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.properties/builtindocumentproperties/content_type/
 
 ## BuiltInDocumentProperties.content_type property
 
-Gets or sets the ContentStatus of the document.
+Gets or sets the Aspose.Words.Properties.PropertyName.ContentType of the document.
+
 
 
 ### Examples

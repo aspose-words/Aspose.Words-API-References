@@ -3,7 +3,7 @@ title: page_mode property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies how the PDF document should be displayed when opened in the PDF reader."
 type: docs
-weight: 220
+weight: 240
 url: /python-net/aspose.words.saving/pdfsaveoptions/page_mode/
 ---
 
@@ -64,6 +64,7 @@ options = aw.saving.PdfSaveOptions()
 # Set the "page_mode" property to "PdfPageMode.USE_OUTLINES" to get the PDF reader
 # also to display the outline, if possible.
 # Set the "page_mode" property to "PdfPageMode.USE_NONE" to get the PDF reader to display just the document itself.
+# Set the "page_mode" property to "PdfPageMode.USE_ATTACHMENTS" to make visible attachments panel.
 options.page_mode = page_mode
 
 doc.save(ARTIFACTS_DIR + "PdfSaveOptions.page_mode.pdf", options)

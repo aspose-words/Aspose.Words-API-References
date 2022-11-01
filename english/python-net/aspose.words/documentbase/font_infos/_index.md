@@ -11,7 +11,7 @@ url: /python-net/aspose.words/documentbase/font_infos/
 
 Provides access to properties of fonts used in this document.
 
-This collection of font definitions is loaded as is from the document. 
+This collection of font definitions is loaded as is from the document.
 Font definitions might be optional, missing or incomplete in some documents.
 
 Do not rely on this collection to ascertain that a particular font is used in the document.

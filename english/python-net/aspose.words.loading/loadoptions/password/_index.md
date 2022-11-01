@@ -3,16 +3,17 @@ title: password property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the password for opening an encrypted document"
 type: docs
-weight: 110
+weight: 100
 url: /python-net/aspose.words.loading/loadoptions/password/
 ---
 
 ## LoadOptions.password property
 
 Gets or sets the password for opening an encrypted document.
-Can be null or empty string. Default is null.
+Can be ``None`` or empty string. Default is ``None``.
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to ``None`` or empty string.
 
 
 

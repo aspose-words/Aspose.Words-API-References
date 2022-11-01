@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/txtsaveoptionsbase/force_page_breaks/
 
 Allows to specify whether the page breaks should be preserved during export.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

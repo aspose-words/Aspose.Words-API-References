@@ -1,7 +1,7 @@
 ﻿---
 title: ShadowFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents shadow formatting for an object."
+description: "Represents shadow formatting for an object"
 type: docs
 weight: 280
 url: /python-net/aspose.words.drawing/shadowformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/shadowformat/
 ## ShadowFormat class
 
 Represents shadow formatting for an object.
+To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com/words/net/working-with-graphic-elements/) documentation article.
+
+
 
 
 ### Properties
@@ -17,7 +20,7 @@ Represents shadow formatting for an object.
 | Name | Description |
 | --- | --- |
 | [type](./type/) | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
-| [visible](./visible/) | Returns ``true`` if the formatting applied to this instance is visible. |
+| [visible](./visible/) | Returns ``True`` if the formatting applied to this instance is visible. |
 
 ### Methods
 

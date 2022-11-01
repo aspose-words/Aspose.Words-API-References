@@ -1,7 +1,7 @@
 ﻿---
 title: TableCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Table](../table/) nodes."
+description: "Provides typed access to a collection of [Table](../table/) nodes"
 type: docs
 weight: 140
 url: /python-net/aspose.words.tables/tablecollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.tables/tablecollection/
 ## TableCollection class
 
 Provides typed access to a collection of [Table](../table/) nodes.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
 
 
 
@@ -19,7 +21,7 @@ Provides typed access to a collection of [Table](../table/) nodes.
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **Table** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Table](../table/) at the given index. |
 
 ### Properties
 

@@ -12,7 +12,7 @@ url: /python-net/aspose.words/style/list_format/
 Provides access to the list formatting properties of a paragraph style.
 
 This property is only valid for paragraph styles.
-For other style types this property returns null.
+For other style types this property returns ``None``.
 
 
 

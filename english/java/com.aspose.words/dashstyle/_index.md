@@ -18,46 +18,95 @@ Dashed line style.
 
 | Field | Description |
 | --- | --- |
-| [SOLID](#SOLID) | Solid (continuous) pen. |
-| [SHORT_DASH](#SHORT-DASH) | System dash style. |
-| [SHORT_DOT](#SHORT-DOT) | System dash style. |
-| [SHORT_DASH_DOT](#SHORT-DASH-DOT) | System dash style. |
-| [SHORT_DASH_DOT_DOT](#SHORT-DASH-DOT-DOT) | System dash style. |
-| [DOT](#DOT) | Square dot style. |
 | [DASH](#DASH) | Dash style. |
-| [LONG_DASH](#LONG-DASH) | Long dash style. |
 | [DASH_DOT](#DASH-DOT) | Dash short dash. |
+| [DEFAULT](#DEFAULT) | Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID). |
+| [DOT](#DOT) | Square dot style. |
+| [LONG_DASH](#LONG-DASH) | Long dash style. |
 | [LONG_DASH_DOT](#LONG-DASH-DOT) | Long dash short dash. |
 | [LONG_DASH_DOT_DOT](#LONG-DASH-DOT-DOT) | Long dash short dash short dash. |
-| [DEFAULT](#DEFAULT) | Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID). |
+| [SHORT_DASH](#SHORT-DASH) | System dash style. |
+| [SHORT_DASH_DOT](#SHORT-DASH-DOT) | System dash style. |
+| [SHORT_DASH_DOT_DOT](#SHORT-DASH-DOT-DOT) | System dash style. |
+| [SHORT_DOT](#SHORT-DOT) | System dash style. |
+| [SOLID](#SOLID) | Solid (continuous) pen. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int dashStyle)](#getName-int-) |  |
-| [toString(int dashStyle)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dashStyleName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int dashStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### SOLID {#SOLID}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int dashStyle)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DASH {#DASH}
 ```
-public static int SOLID
+public static int DASH
 ```
 
 
-Solid (continuous) pen.
+Dash style.
+
+### DASH_DOT {#DASH-DOT}
+```
+public static int DASH_DOT
+```
+
+
+Dash short dash.
+
+### DEFAULT {#DEFAULT}
+```
+public static int DEFAULT
+```
+
+
+Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID).
+
+### DOT {#DOT}
+```
+public static int DOT
+```
+
+
+Square dot style.
+
+### LONG_DASH {#LONG-DASH}
+```
+public static int LONG_DASH
+```
+
+
+Long dash style.
+
+### LONG_DASH_DOT {#LONG-DASH-DOT}
+```
+public static int LONG_DASH_DOT
+```
+
+
+Long dash short dash.
+
+### LONG_DASH_DOT_DOT {#LONG-DASH-DOT-DOT}
+```
+public static int LONG_DASH_DOT_DOT
+```
+
+
+Long dash short dash short dash.
 
 ### SHORT_DASH {#SHORT-DASH}
 ```
 public static int SHORT_DASH
-```
-
-
-System dash style.
-
-### SHORT_DOT {#SHORT-DOT}
-```
-public static int SHORT_DOT
 ```
 
 
@@ -79,61 +128,21 @@ public static int SHORT_DASH_DOT_DOT
 
 System dash style.
 
-### DOT {#DOT}
+### SHORT_DOT {#SHORT-DOT}
 ```
-public static int DOT
-```
-
-
-Square dot style.
-
-### DASH {#DASH}
-```
-public static int DASH
+public static int SHORT_DOT
 ```
 
 
-Dash style.
+System dash style.
 
-### LONG_DASH {#LONG-DASH}
+### SOLID {#SOLID}
 ```
-public static int LONG_DASH
-```
-
-
-Long dash style.
-
-### DASH_DOT {#DASH-DOT}
-```
-public static int DASH_DOT
+public static int SOLID
 ```
 
 
-Dash short dash.
-
-### LONG_DASH_DOT {#LONG-DASH-DOT}
-```
-public static int LONG_DASH_DOT
-```
-
-
-Long dash short dash.
-
-### LONG_DASH_DOT_DOT {#LONG-DASH-DOT-DOT}
-```
-public static int LONG_DASH_DOT_DOT
-```
-
-
-Long dash short dash short dash.
-
-### DEFAULT {#DEFAULT}
-```
-public static int DEFAULT
-```
-
-
-Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID).
+Solid (continuous) pen.
 
 ### length {#length}
 ```
@@ -141,6 +150,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String dashStyleName) {#fromName-java.lang.String-}
+```
+public static int fromName(String dashStyleName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dashStyleName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int dashStyle) {#getName-int-}
 ```
 public static String getName(int dashStyle)
@@ -153,6 +202,52 @@ public static String getName(int dashStyle)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dashStyle | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -171,9 +266,17 @@ public static String toString(int dashStyle)
 
 **Returns:**
 java.lang.String
-### fromName(String dashStyleName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String dashStyleName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -182,17 +285,19 @@ public static int fromName(String dashStyleName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dashStyleName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

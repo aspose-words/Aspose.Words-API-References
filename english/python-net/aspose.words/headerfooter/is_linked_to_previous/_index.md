@@ -12,7 +12,7 @@ url: /python-net/aspose.words/headerfooter/is_linked_to_previous/
 True if this header or footer is linked to the corresponding header or footer
 in the previous section.
 
-Default is true.
+Default is ``True``.
 
 Note, when your link a header or footer, its contents is cleared.
 

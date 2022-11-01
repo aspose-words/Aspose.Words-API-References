@@ -29,22 +29,44 @@ The [FieldCollection](../../com.aspose.words/fieldcollection) collection is "liv
 
 | Method | Description |
 | --- | --- |
-| [getCount()](#getCount--) | Returns the number of the fields in the collection. |
+| [clear()](#clear--) | Removes all fields of this collection from the document and from this collection itself. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Returns a field at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of the fields in the collection. |
+| [hashCode()](#hashCode--) |  |
+| [iterator()](#iterator--) | Returns an enumerator object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [remove(Field field)](#remove-com.aspose.words.Field-) | Removes the specified field from this collection and from the document. |
 | [removeAt(int index)](#removeAt-int-) | Removes a field at the specified index from this collection and from the document. |
-| [clear()](#clear--) | Removes all fields of this collection from the document and from this collection itself. |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-### getCount() {#getCount--}
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### clear() {#clear--}
 ```
-public int getCount()
+public void clear()
 ```
 
 
-Returns the number of the fields in the collection.
+Removes all fields of this collection from the document and from this collection itself.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The number of the fields in the collection.
+boolean
 ### get(int index) {#get-int-}
 ```
 public Field get(int index)
@@ -68,6 +90,62 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [Field](../../com.aspose.words/field) - A field at the specified index.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Returns the number of the fields in the collection.
+
+**Returns:**
+int - The number of the fields in the collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Returns an enumerator object.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### remove(Field field) {#remove-com.aspose.words.Field-}
 ```
 public void remove(Field field)
@@ -94,21 +172,48 @@ Removes a field at the specified index from this collection and from the documen
 | --- | --- | --- |
 | index | int | An index into the collection. |
 
-### clear() {#clear--}
+### toString() {#toString--}
 ```
-public void clear()
-```
-
-
-Removes all fields of this collection from the document and from this collection itself.
-
-### iterator() {#iterator--}
-```
-public Iterator iterator()
+public String toString()
 ```
 
 
-Returns an enumerator object.
+
 
 **Returns:**
-java.util.Iterator
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

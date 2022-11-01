@@ -1,7 +1,7 @@
 ﻿---
 title: is_signature_line property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Indicates that shape is a SignatureLine."
+description: "Indicates that shape is a [SignatureLine](../../signatureline/)."
 type: docs
 weight: 330
 url: /python-net/aspose.words.drawing/shapebase/is_signature_line/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/shapebase/is_signature_line/
 
 ## ShapeBase.is_signature_line property
 
-Indicates that shape is a SignatureLine.
+Indicates that shape is a [SignatureLine](../../signatureline/).
+
 
 
 ### Examples

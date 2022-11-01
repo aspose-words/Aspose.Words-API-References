@@ -1,7 +1,7 @@
 ﻿---
 title: shading property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns a Shading object that refers to the shading formatting for the font."
+description: "Returns a [Shading](../../shading/) object that refers to the shading formatting for the font."
 type: docs
 weight: 320
 url: /python-net/aspose.words/font/shading/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/font/shading/
 
 ## Font.shading property
 
-Returns a Shading object that refers to the shading formatting for the font.
+Returns a [Shading](../../shading/) object that refers to the shading formatting for the font.
+
 
 
 ### Examples

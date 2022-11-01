@@ -1,7 +1,7 @@
 ﻿---
 title: FontSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event."
+description: "Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event"
 type: docs
 weight: 190
 url: /python-net/aspose.words.saving/fontsavingargs/
@@ -10,11 +10,13 @@ url: /python-net/aspose.words.saving/fontsavingargs/
 ## FontSavingArgs class
 
 Provides data for the [IFontSavingCallback.font_saving()](../ifontsavingcallback/font_saving/#fontsavingargs) event.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
 
 
 
 When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.export_font_resources](../htmlsaveoptions/export_font_resources/) 
-is set to **true**, it saves each font subject for export into a separate file.
+is set to ``True``, it saves each font subject for export into a separate file.
 
 [FontSavingArgs](./) controls whether particular font resource should be exported and how.
 
@@ -37,7 +39,7 @@ To save fonts into streams instead of files, use the [FontSavingArgs.font_stream
 | [font_family_name](./font_family_name/) | Indicates the current font family name. |
 | [font_file_name](./font_file_name/) | Gets or sets the file name (without path) where the font will be saved to. |
 | [font_stream](./font_stream/) | Allows to specify the stream where the font will be saved to. |
-| [is_export_needed](./is_export_needed/) | Allows to specify whether the current font will be exported as a font resource. Default is ``true``. |
+| [is_export_needed](./is_export_needed/) | Allows to specify whether the current font will be exported as a font resource. Default is ``True``. |
 | [is_subsetting_needed](./is_subsetting_needed/) | Allows to specify whether the current font will be subsetted before exporting as a font resource. |
 | [italic](./italic/) | Indicates whether the current font is italic. |
 | [keep_font_stream_open](./keep_font_stream_open/) | Specifies whether Aspose.Words should keep the stream open or close it after saving a font. |

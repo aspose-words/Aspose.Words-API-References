@@ -23,43 +23,56 @@ To learn more, visit the **Working with Charts** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [materializeSpPr()](#materializeSpPr--) |  |
-| [getSymbol()](#getSymbol--) | Gets chart marker symbol. |
-| [setSymbol(int value)](#setSymbol-int-) | Sets chart marker symbol. |
-| [getSize()](#getSize--) | Gets chart marker size. |
-| [setSize(int value)](#setSize-int-) | Sets chart marker size. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getFormat()](#getFormat--) | Provides access to fill and line formatting of this marker. |
-### materializeSpPr() {#materializeSpPr--}
+| [getSize()](#getSize--) | Gets chart marker size. |
+| [getSymbol()](#getSymbol--) | Gets chart marker symbol. |
+| [hashCode()](#hashCode--) |  |
+| [materializeSpPr()](#materializeSpPr--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setSize(int value)](#setSize-int-) | Sets chart marker size. |
+| [setSymbol(int value)](#setSymbol-int-) | Sets chart marker symbol. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void materializeSpPr()
-```
-
-
-
-
-### getSymbol() {#getSymbol--}
-```
-public int getSymbol()
-```
-
-
-Gets chart marker symbol.
-
-**Returns:**
-int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants.
-### setSymbol(int value) {#setSymbol-int-}
-```
-public void setSymbol(int value)
+public boolean equals(Object arg0)
 ```
 
 
-Sets chart marker symbol.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants. |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getFormat() {#getFormat--}
+```
+public ChartFormat getFormat()
+```
+
+
+Provides access to fill and line formatting of this marker.
+
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
 ### getSize() {#getSize--}
 ```
 public int getSize()
@@ -70,6 +83,50 @@ Gets chart marker size. Default value is 7.
 
 **Returns:**
 int - Chart marker size.
+### getSymbol() {#getSymbol--}
+```
+public int getSymbol()
+```
+
+
+Gets chart marker symbol.
+
+**Returns:**
+int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### materializeSpPr() {#materializeSpPr--}
+```
+public void materializeSpPr()
+```
+
+
+
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setSize(int value) {#setSize-int-}
 ```
 public void setSize(int value)
@@ -83,13 +140,61 @@ Sets chart marker size. Default value is 7.
 | --- | --- | --- |
 | value | int | Chart marker size. |
 
-### getFormat() {#getFormat--}
+### setSymbol(int value) {#setSymbol-int-}
 ```
-public ChartFormat getFormat()
+public void setSymbol(int value)
 ```
 
 
-Provides access to fill and line formatting of this marker.
+Sets chart marker symbol.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

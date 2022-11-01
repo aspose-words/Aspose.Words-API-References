@@ -9,8 +9,8 @@ url: /python-net/aspose.words.drawing/oleformat/ole_icon/
 
 ## OleFormat.ole_icon property
 
-Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. 
-When **false**, the OLE object is displayed as content.
+Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon. 
+When ``False``, the OLE object is displayed as content.
 
 
 Aspose.Words does not allow to set this property to avoid confusion. If you were able to change
@@ -60,9 +60,10 @@ self.assertEqual("Microsoft Visio drawing.vsd", ole_format.icon_caption)
 doc.save(ARTIFACTS_DIR + "Shape.ole_links.docx")
 
 # If the object contains OLE data, we can access it using a stream.
-with ole_format.get_ole_entry("\x0001CompObj") as stream:
-    ole_entry_bytes = stream.to_array()
-    self.assertEqual(76, len(ole_entry_bytes))
+stream = ole_format.get_ole_entry("\u0001CompObj")
+stream.seek(0)
+ole_entry_bytes = stream.read()
+self.assertEqual(76, len(ole_entry_bytes))
 ```
 
 ### See Also

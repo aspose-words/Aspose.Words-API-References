@@ -9,7 +9,7 @@ url: /python-net/aspose.words.properties/customdocumentproperties/add/
 
 ## add(name, value) {#str_str}
 
-Creates a new custom document property of the **PropertyType.String** data type.
+Creates a new custom document property of the [PropertyType.STRING](../../propertytype/#STRING) data type.
 
 
 
@@ -30,7 +30,7 @@ The newly created property object.
 
 ## add(name, value) {#str_int}
 
-Creates a new custom document property of the **PropertyType.Number** data type.
+Creates a new custom document property of the [PropertyType.NUMBER](../../propertytype/#NUMBER) data type.
 
 
 
@@ -51,7 +51,7 @@ The newly created property object.
 
 ## add(name, value) {#str_datetime}
 
-Creates a new custom document property of the **PropertyType.DateTime** data type.
+Creates a new custom document property of the [PropertyType.DATE_TIME](../../propertytype/#DATE_TIME) data type.
 
 
 
@@ -72,7 +72,7 @@ The newly created property object.
 
 ## add(name, value) {#str_bool}
 
-Creates a new custom document property of the **PropertyType.Boolean** data type.
+Creates a new custom document property of the [PropertyType.BOOLEAN](../../propertytype/#BOOLEAN) data type.
 
 
 
@@ -93,7 +93,7 @@ The newly created property object.
 
 ## add(name, value) {#str_float}
 
-Creates a new custom document property of the **PropertyType.Float** data type.
+Creates a new custom document property of the [PropertyType.DOUBLE](../../propertytype/#DOUBLE) data type.
 
 
 

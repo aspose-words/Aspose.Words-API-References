@@ -3,19 +3,19 @@ title: detect_numbering_with_whitespaces property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Allows to specify how numbered list items are recognized when document is imported from plain text format"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.loading/txtloadoptions/detect_numbering_with_whitespaces/
 ---
 
 ## TxtLoadOptions.detect_numbering_with_whitespaces property
 
 Allows to specify how numbered list items are recognized when document is imported from plain text format.
-The default value is true.
+The default value is ``True``.
 
-If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with 
+If this option is set to ``False``, lists recognition algorithm detects list paragraphs, when list numbers ends with
 either dot, right bracket or bullet symbols (such as "•", "\*", "-" or "o").
 
-If this option is set to true, whitespaces are also used as list number delimiters:
+If this option is set to ``True``, whitespaces are also used as list number delimiters:
 list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
 

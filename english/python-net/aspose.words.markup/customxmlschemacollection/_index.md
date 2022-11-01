@@ -1,7 +1,7 @@
 ﻿---
 title: CustomXmlSchemaCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of strings that represent XML schemas that are associated with a custom XML part."
+description: "A collection of strings that represent XML schemas that are associated with a custom XML part"
 type: docs
 weight: 70
 url: /python-net/aspose.words.markup/customxmlschemacollection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.markup/customxmlschemacollection/
 ## CustomXmlSchemaCollection class
 
 A collection of strings that represent XML schemas that are associated with a custom XML part.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
+
+
 
 
 You do not create instances of this class. You access the collection of XML schemas of a custom XML part

@@ -11,7 +11,7 @@ url: /python-net/aspose.words.tables/cell/parent_row/
 
 Returns the parent row of the cell.
 
-Equivalent to ``(Row)FirstNonMarkupParentNode``.
+Equivalent to Aspose.Words.Node.FirstNonMarkupParentNode casted to [Row](../../row/).
 
 
 ### Examples

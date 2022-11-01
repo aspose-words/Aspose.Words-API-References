@@ -11,7 +11,8 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 
 Gets or sets the reason for the signing.
 
-The default value is null.
+The default value is ``None``.
+
 
 
 ### Examples

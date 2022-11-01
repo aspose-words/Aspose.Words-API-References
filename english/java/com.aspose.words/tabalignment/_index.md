@@ -18,29 +18,38 @@ Specifies the alignment/type of a tab stop.
 
 | Field | Description |
 | --- | --- |
-| [LEFT](#LEFT) | Left-aligns the text after the tab stop. |
-| [CENTER](#CENTER) | Centers the text around the tab stop. |
-| [RIGHT](#RIGHT) | Right-aligns the text at the tab stop. |
-| [DECIMAL](#DECIMAL) | Aligns the text at the decimal dot. |
 | [BAR](#BAR) | Draws a vertical bar at the tab stop position. |
-| [LIST](#LIST) | The tab is a delimiter between the number/bullet and text in a list item. |
+| [CENTER](#CENTER) | Centers the text around the tab stop. |
 | [CLEAR](#CLEAR) | Clears any tab stop in this position. |
+| [DECIMAL](#DECIMAL) | Aligns the text at the decimal dot. |
+| [LEFT](#LEFT) | Left-aligns the text after the tab stop. |
+| [LIST](#LIST) | The tab is a delimiter between the number/bullet and text in a list item. |
+| [RIGHT](#RIGHT) | Right-aligns the text at the tab stop. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int tabAlignment)](#getName-int-) |  |
-| [toString(int tabAlignment)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabAlignmentName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int tabAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### LEFT {#LEFT}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int tabAlignment)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BAR {#BAR}
 ```
-public static int LEFT
+public static int BAR
 ```
 
 
-Left-aligns the text after the tab stop.
+Draws a vertical bar at the tab stop position.
 
 ### CENTER {#CENTER}
 ```
@@ -50,13 +59,13 @@ public static int CENTER
 
 Centers the text around the tab stop.
 
-### RIGHT {#RIGHT}
+### CLEAR {#CLEAR}
 ```
-public static int RIGHT
+public static int CLEAR
 ```
 
 
-Right-aligns the text at the tab stop.
+Clears any tab stop in this position.
 
 ### DECIMAL {#DECIMAL}
 ```
@@ -66,13 +75,13 @@ public static int DECIMAL
 
 Aligns the text at the decimal dot.
 
-### BAR {#BAR}
+### LEFT {#LEFT}
 ```
-public static int BAR
+public static int LEFT
 ```
 
 
-Draws a vertical bar at the tab stop position.
+Left-aligns the text after the tab stop.
 
 ### LIST {#LIST}
 ```
@@ -82,13 +91,13 @@ public static int LIST
 
 The tab is a delimiter between the number/bullet and text in a list item.
 
-### CLEAR {#CLEAR}
+### RIGHT {#RIGHT}
 ```
-public static int CLEAR
+public static int RIGHT
 ```
 
 
-Clears any tab stop in this position.
+Right-aligns the text at the tab stop.
 
 ### length {#length}
 ```
@@ -96,6 +105,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String tabAlignmentName) {#fromName-java.lang.String-}
+```
+public static int fromName(String tabAlignmentName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tabAlignmentName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int tabAlignment) {#getName-int-}
 ```
 public static String getName(int tabAlignment)
@@ -108,6 +157,52 @@ public static String getName(int tabAlignment)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tabAlignment | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -126,9 +221,17 @@ public static String toString(int tabAlignment)
 
 **Returns:**
 java.lang.String
-### fromName(String tabAlignmentName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String tabAlignmentName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -137,17 +240,19 @@ public static int fromName(String tabAlignmentName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabAlignmentName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

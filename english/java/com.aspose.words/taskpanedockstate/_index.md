@@ -18,25 +18,26 @@ Enumerates available locations of task pane object.
 
 | Field | Description |
 | --- | --- |
-| [RIGHT](#RIGHT) | Dock the task pane on the right side of the document window. |
 | [LEFT](#LEFT) | Dock the task pane on the left side of the document window. |
+| [RIGHT](#RIGHT) | Dock the task pane on the right side of the document window. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int taskPaneDockState)](#getName-int-) |  |
-| [toString(int taskPaneDockState)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String taskPaneDockStateName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int taskPaneDockState)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### RIGHT {#RIGHT}
-```
-public static int RIGHT
-```
-
-
-Dock the task pane on the right side of the document window.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int taskPaneDockState)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### LEFT {#LEFT}
 ```
 public static int LEFT
@@ -45,12 +46,60 @@ public static int LEFT
 
 Dock the task pane on the left side of the document window.
 
+### RIGHT {#RIGHT}
+```
+public static int RIGHT
+```
+
+
+Dock the task pane on the right side of the document window.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String taskPaneDockStateName) {#fromName-java.lang.String-}
+```
+public static int fromName(String taskPaneDockStateName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| taskPaneDockStateName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int taskPaneDockState) {#getName-int-}
 ```
 public static String getName(int taskPaneDockState)
@@ -63,6 +112,52 @@ public static String getName(int taskPaneDockState)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | taskPaneDockState | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -81,9 +176,17 @@ public static String toString(int taskPaneDockState)
 
 **Returns:**
 java.lang.String
-### fromName(String taskPaneDockStateName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String taskPaneDockStateName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -92,17 +195,19 @@ public static int fromName(String taskPaneDockStateName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| taskPaneDockStateName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

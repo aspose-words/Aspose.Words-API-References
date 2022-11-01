@@ -1,7 +1,7 @@
 ﻿---
 title: FieldHyperlink class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Implements the HYPERLINK field"
+description: "Implements the HYPERLINK field To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article."
 type: docs
 weight: 530
 url: /python-net/aspose.words.fields/fieldhyperlink/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fieldhyperlink/
 ## FieldHyperlink class
 
 Implements the HYPERLINK field
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 When selected, causes control to jump to the location such as a bookmark or a URL.
@@ -37,7 +40,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 | [open_in_new_window](./open_in_new_window/) | Gets or sets whether to open the destination site in a new web browser window. |
 | [result](../field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../field/)) |
 | [screen_tip](./screen_tip/) | Gets or sets the ScreenTip text for the hyperlink. |
-| [separator](../field/separator/) | Gets the node that represents the field separator. Can be null.<br>(Inherited from [Field](../field/)) |
+| [separator](../field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../field/)) |
 | [start](../field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../field/)) |
 | [sub_address](./sub_address/) | Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps. |
 | [target](./target/) | Gets or sets the target to which the link should be redirected. |
@@ -49,7 +52,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 | --- | --- |
 |[ get_field_code()](../field/get_field_code/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../field/)) |
 |[ get_field_code(include_child_field_codes)](../field/get_field_code/#bool) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../field/)) |
-|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.<br>(Inherited from [Field](../field/)) |
+|[ remove()](../field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../field/)) |
 |[ unlink()](../field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../field/)) |
 |[ update()](../field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |
 |[ update(ignore_merge_format)](../field/update/#bool) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../field/)) |

@@ -3,7 +3,7 @@ title: toa_categories property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the table of authorities categories."
 type: docs
-weight: 170
+weight: 180
 url: /python-net/aspose.words.fields/fieldoptions/toa_categories/
 ---
 

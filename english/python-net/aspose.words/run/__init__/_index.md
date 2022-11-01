@@ -9,7 +9,7 @@ url: /python-net/aspose.words/run/__init__/
 
 ## Run(doc) {#documentbase}
 
-Initializes a new instance of the **Run** class.
+Initializes a new instance of the [Run](../) class.
 
 
 
@@ -22,10 +22,10 @@ def __init__(self, doc: aspose.words.DocumentBase):
 | --- | --- | --- |
 | doc | [DocumentBase](../../documentbase/) |  |
 
-When **Run** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Run](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append **Run** to the document use InsertAfter or InsertBefore
+To append [Run](../) to the document use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node)
 on the paragraph where you want the run inserted.
 
 
@@ -47,10 +47,10 @@ def __init__(self, doc: aspose.words.DocumentBase, text: str):
 | doc | [DocumentBase](../../documentbase/) |  |
 | text | str |  |
 
-When **Run** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Run](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
-To append **Run** to the document use InsertAfter or InsertBefore
+To append [Run](../) to the document use [CompositeNode.insert_after()](../../compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../compositenode/insert_before/#node_node)
 on the paragraph where you want the run inserted.
 
 

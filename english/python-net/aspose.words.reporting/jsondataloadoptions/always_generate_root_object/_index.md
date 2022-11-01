@@ -12,7 +12,7 @@ url: /python-net/aspose.words.reporting/jsondataloadoptions/always_generate_root
 Gets or sets a flag indicating whether a generated data source will always contain an object for a JSON root
 element. If a JSON root element contains a single complex property, such an object is not created by default.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

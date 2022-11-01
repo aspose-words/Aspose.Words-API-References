@@ -26,14 +26,23 @@ If a record shall be merged into a merged document, then no information is neede
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone--) | Returns a deep clone of this object. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getActive()](#getActive--) | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. |
-| [setActive(boolean value)](#setActive-boolean-) | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. |
+| [getClass()](#getClass--) |  |
 | [getColumn()](#getColumn--) | Specifies the column within the data source that contains unique data for the current record. |
-| [setColumn(int value)](#setColumn-int-) | Specifies the column within the data source that contains unique data for the current record. |
-| [getUniqueTag()](#getUniqueTag--) | Specifies the contents of a given record in the column containing unique data. |
-| [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | Specifies the contents of a given record in the column containing unique data. |
 | [getHash()](#getHash--) | Represents the hash code for this record. |
+| [getUniqueTag()](#getUniqueTag--) | Specifies the contents of a given record in the column containing unique data. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setActive(boolean value)](#setActive-boolean-) | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. |
+| [setColumn(int value)](#setColumn-int-) | Specifies the column within the data source that contains unique data for the current record. |
 | [setHash(int value)](#setHash-int-) | Represents the hash code for this record. |
+| [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | Specifies the contents of a given record in the column containing unique data. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### deepClone() {#deepClone--}
 ```
 public OdsoRecipientData deepClone()
@@ -44,6 +53,21 @@ Returns a deep clone of this object.
 
 **Returns:**
 [OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getActive() {#getActive--}
 ```
 public boolean getActive()
@@ -54,6 +78,72 @@ Specifies whether the record from the data source shall be imported into a docum
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getColumn() {#getColumn--}
+```
+public int getColumn()
+```
+
+
+Specifies the column within the data source that contains unique data for the current record. The default value is 0.
+
+**Returns:**
+int - The corresponding  int  value.
+### getHash() {#getHash--}
+```
+public int getHash()
+```
+
+
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
+
+**Returns:**
+int - The corresponding  int  value.
+### getUniqueTag() {#getUniqueTag--}
+```
+public byte[] getUniqueTag()
+```
+
+
+Specifies the contents of a given record in the column containing unique data. The default value is  null .
+
+**Returns:**
+byte[] - The corresponding byte[] value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setActive(boolean value) {#setActive-boolean-}
 ```
 public void setActive(boolean value)
@@ -67,16 +157,6 @@ Specifies whether the record from the data source shall be imported into a docum
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getColumn() {#getColumn--}
-```
-public int getColumn()
-```
-
-
-Specifies the column within the data source that contains unique data for the current record. The default value is 0.
-
-**Returns:**
-int - The corresponding  int  value.
 ### setColumn(int value) {#setColumn-int-}
 ```
 public void setColumn(int value)
@@ -90,16 +170,19 @@ Specifies the column within the data source that contains unique data for the cu
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### getUniqueTag() {#getUniqueTag--}
+### setHash(int value) {#setHash-int-}
 ```
-public byte[] getUniqueTag()
+public void setHash(int value)
 ```
 
 
-Specifies the contents of a given record in the column containing unique data. The default value is  null .
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
 
-**Returns:**
-byte[] - The corresponding byte[] value.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
+
 ### setUniqueTag(byte[] value) {#setUniqueTag-byte---}
 ```
 public void setUniqueTag(byte[] value)
@@ -113,26 +196,48 @@ Specifies the contents of a given record in the column containing unique data. T
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
 
-### getHash() {#getHash--}
+### toString() {#toString--}
 ```
-public int getHash()
+public String toString()
 ```
 
 
-Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
+
 
 **Returns:**
-int - The corresponding  int  value.
-### setHash(int value) {#setHash-int-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setHash(int value)
+public final void wait()
 ```
 
 
-Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

@@ -18,44 +18,37 @@ Specifies the type of a text form field.
 
 | Field | Description |
 | --- | --- |
-| [REGULAR](#REGULAR) | The text form field can contain any text. |
-| [NUMBER](#NUMBER) | The text form field can contain only numbers. |
-| [DATE](#DATE) | The text form field can contain only a valid date value. |
+| [CALCULATED](#CALCULATED) | The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property. |
 | [CURRENT_DATE](#CURRENT-DATE) | The text form field value is the current date when the field is updated. |
 | [CURRENT_TIME](#CURRENT-TIME) | The text form field value is the current time when the field is updated. |
-| [CALCULATED](#CALCULATED) | The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property. |
+| [DATE](#DATE) | The text form field can contain only a valid date value. |
+| [NUMBER](#NUMBER) | The text form field can contain only numbers. |
+| [REGULAR](#REGULAR) | The text form field can contain any text. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int textFormFieldType)](#getName-int-) |  |
-| [toString(int textFormFieldType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textFormFieldTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int textFormFieldType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### REGULAR {#REGULAR}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int textFormFieldType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CALCULATED {#CALCULATED}
 ```
-public static int REGULAR
-```
-
-
-The text form field can contain any text.
-
-### NUMBER {#NUMBER}
-```
-public static int NUMBER
-```
-
-
-The text form field can contain only numbers.
-
-### DATE {#DATE}
-```
-public static int DATE
+public static int CALCULATED
 ```
 
 
-The text form field can contain only a valid date value.
+The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property.
 
 ### CURRENT_DATE {#CURRENT-DATE}
 ```
@@ -73,13 +66,29 @@ public static int CURRENT_TIME
 
 The text form field value is the current time when the field is updated.
 
-### CALCULATED {#CALCULATED}
+### DATE {#DATE}
 ```
-public static int CALCULATED
+public static int DATE
 ```
 
 
-The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property.
+The text form field can contain only a valid date value.
+
+### NUMBER {#NUMBER}
+```
+public static int NUMBER
+```
+
+
+The text form field can contain only numbers.
+
+### REGULAR {#REGULAR}
+```
+public static int REGULAR
+```
+
+
+The text form field can contain any text.
 
 ### length {#length}
 ```
@@ -87,6 +96,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String textFormFieldTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String textFormFieldTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| textFormFieldTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int textFormFieldType) {#getName-int-}
 ```
 public static String getName(int textFormFieldType)
@@ -99,6 +148,52 @@ public static String getName(int textFormFieldType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | textFormFieldType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -117,9 +212,17 @@ public static String toString(int textFormFieldType)
 
 **Returns:**
 java.lang.String
-### fromName(String textFormFieldTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String textFormFieldTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -128,17 +231,19 @@ public static int fromName(String textFormFieldTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textFormFieldTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

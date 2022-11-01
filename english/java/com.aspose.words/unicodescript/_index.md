@@ -17,10 +17,9 @@ public class UnicodeScript
 | Field | Description |
 | --- | --- |
 | [ADLAM](#ADLAM) |  |
-| [CAUCASIAN_ALBANIAN](#CAUCASIAN-ALBANIAN) |  |
 | [AHOM](#AHOM) |  |
+| [ANATOLIAN_HIEROGLYPHS](#ANATOLIAN-HIEROGLYPHS) |  |
 | [ARABIC](#ARABIC) |  |
-| [IMPERIAL_ARAMAIC](#IMPERIAL-ARAMAIC) |  |
 | [ARMENIAN](#ARMENIAN) |  |
 | [AVESTAN](#AVESTAN) |  |
 | [BALINESE](#BALINESE) |  |
@@ -34,19 +33,22 @@ public class UnicodeScript
 | [BRAILLE](#BRAILLE) |  |
 | [BUGINESE](#BUGINESE) |  |
 | [BUHID](#BUHID) |  |
-| [CHAKMA](#CHAKMA) |  |
 | [CANADIAN_ABORIGINAL](#CANADIAN-ABORIGINAL) |  |
 | [CARIAN](#CARIAN) |  |
+| [CAUCASIAN_ALBANIAN](#CAUCASIAN-ALBANIAN) |  |
+| [CHAKMA](#CHAKMA) |  |
 | [CHAM](#CHAM) |  |
 | [CHEROKEE](#CHEROKEE) |  |
 | [CHORASMIAN](#CHORASMIAN) |  |
+| [COMMON](#COMMON) |  |
 | [COPTIC](#COPTIC) |  |
+| [CUNEIFORM](#CUNEIFORM) |  |
 | [CYPRIOT](#CYPRIOT) |  |
 | [CYRILLIC](#CYRILLIC) |  |
+| [DESERET](#DESERET) |  |
 | [DEVANAGARI](#DEVANAGARI) |  |
 | [DIVES_AKURU](#DIVES-AKURU) |  |
 | [DOGRA](#DOGRA) |  |
-| [DESERET](#DESERET) |  |
 | [DUPLOYAN](#DUPLOYAN) |  |
 | [EGYPTIAN_HIEROGLYPHS](#EGYPTIAN-HIEROGLYPHS) |  |
 | [ELBASAN](#ELBASAN) |  |
@@ -54,35 +56,34 @@ public class UnicodeScript
 | [ETHIOPIC](#ETHIOPIC) |  |
 | [GEORGIAN](#GEORGIAN) |  |
 | [GLAGOLITIC](#GLAGOLITIC) |  |
-| [GUNJALA_GONDI](#GUNJALA-GONDI) |  |
-| [MASARAM_GONDI](#MASARAM-GONDI) |  |
 | [GOTHIC](#GOTHIC) |  |
 | [GRANTHA](#GRANTHA) |  |
 | [GREEK](#GREEK) |  |
 | [GUJARATI](#GUJARATI) |  |
+| [GUNJALA_GONDI](#GUNJALA-GONDI) |  |
 | [GURMUKHI](#GURMUKHI) |  |
-| [HANGUL](#HANGUL) |  |
 | [HAN](#HAN) |  |
+| [HANGUL](#HANGUL) |  |
+| [HANIFI_ROHINGYA](#HANIFI-ROHINGYA) |  |
 | [HANUNOO](#HANUNOO) |  |
 | [HATRAN](#HATRAN) |  |
 | [HEBREW](#HEBREW) |  |
 | [HIRAGANA](#HIRAGANA) |  |
-| [ANATOLIAN_HIEROGLYPHS](#ANATOLIAN-HIEROGLYPHS) |  |
-| [PAHAWH_HMONG](#PAHAWH-HMONG) |  |
-| [NYIAKENG_PUACHUE_HMONG](#NYIAKENG-PUACHUE-HMONG) |  |
-| [KATAKANA_OR_HIRAGANA](#KATAKANA-OR-HIRAGANA) |  |
-| [OLD_HUNGARIAN](#OLD-HUNGARIAN) |  |
-| [OLD_ITALIC](#OLD-ITALIC) |  |
+| [IMPERIAL_ARAMAIC](#IMPERIAL-ARAMAIC) |  |
+| [INHERITED](#INHERITED) |  |
+| [INSCRIPTIONAL_PAHLAVI](#INSCRIPTIONAL-PAHLAVI) |  |
+| [INSCRIPTIONAL_PARTHIAN](#INSCRIPTIONAL-PARTHIAN) |  |
 | [JAVANESE](#JAVANESE) |  |
-| [KAYAH_LI](#KAYAH-LI) |  |
+| [KAITHI](#KAITHI) |  |
+| [KANNADA](#KANNADA) |  |
 | [KATAKANA](#KATAKANA) |  |
+| [KATAKANA_OR_HIRAGANA](#KATAKANA-OR-HIRAGANA) |  |
+| [KAYAH_LI](#KAYAH-LI) |  |
 | [KHAROSHTHI](#KHAROSHTHI) |  |
+| [KHITAN_SMALL_SCRIPT](#KHITAN-SMALL-SCRIPT) |  |
 | [KHMER](#KHMER) |  |
 | [KHOJKI](#KHOJKI) |  |
-| [KHITAN_SMALL_SCRIPT](#KHITAN-SMALL-SCRIPT) |  |
-| [KANNADA](#KANNADA) |  |
-| [KAITHI](#KAITHI) |  |
-| [TAI_THAM](#TAI-THAM) |  |
+| [KHUDAWADI](#KHUDAWADI) |  |
 | [LAO](#LAO) |  |
 | [LATIN](#LATIN) |  |
 | [LEPCHA](#LEPCHA) |  |
@@ -94,104 +95,106 @@ public class UnicodeScript
 | [LYDIAN](#LYDIAN) |  |
 | [MAHAJANI](#MAHAJANI) |  |
 | [MAKASAR](#MAKASAR) |  |
+| [MALAYALAM](#MALAYALAM) |  |
 | [MANDAIC](#MANDAIC) |  |
 | [MANICHAEAN](#MANICHAEAN) |  |
 | [MARCHEN](#MARCHEN) |  |
+| [MASARAM_GONDI](#MASARAM-GONDI) |  |
 | [MEDEFAIDRIN](#MEDEFAIDRIN) |  |
+| [MEETEI_MAYEK](#MEETEI-MAYEK) |  |
 | [MENDE_KIKAKUI](#MENDE-KIKAKUI) |  |
 | [MEROITIC_CURSIVE](#MEROITIC-CURSIVE) |  |
 | [MEROITIC_HIEROGLYPHS](#MEROITIC-HIEROGLYPHS) |  |
-| [MALAYALAM](#MALAYALAM) |  |
+| [MIAO](#MIAO) |  |
 | [MODI](#MODI) |  |
 | [MONGOLIAN](#MONGOLIAN) |  |
 | [MRO](#MRO) |  |
-| [MEETEI_MAYEK](#MEETEI-MAYEK) |  |
 | [MULTANI](#MULTANI) |  |
 | [MYANMAR](#MYANMAR) |  |
-| [NANDINAGARI](#NANDINAGARI) |  |
-| [OLD_NORTH_ARABIAN](#OLD-NORTH-ARABIAN) |  |
 | [NABATAEAN](#NABATAEAN) |  |
+| [NANDINAGARI](#NANDINAGARI) |  |
 | [NEWA](#NEWA) |  |
+| [NEW_TAI_LUE](#NEW-TAI-LUE) |  |
 | [NKO](#NKO) |  |
 | [NUSHU](#NUSHU) |  |
+| [NYIAKENG_PUACHUE_HMONG](#NYIAKENG-PUACHUE-HMONG) |  |
 | [OGHAM](#OGHAM) |  |
-| [OL_CHIKI](#OL-CHIKI) |  |
+| [OLD_HUNGARIAN](#OLD-HUNGARIAN) |  |
+| [OLD_ITALIC](#OLD-ITALIC) |  |
+| [OLD_NORTH_ARABIAN](#OLD-NORTH-ARABIAN) |  |
+| [OLD_PERMIC](#OLD-PERMIC) |  |
+| [OLD_PERSIAN](#OLD-PERSIAN) |  |
+| [OLD_SOGDIAN](#OLD-SOGDIAN) |  |
+| [OLD_SOUTH_ARABIAN](#OLD-SOUTH-ARABIAN) |  |
 | [OLD_TURKIC](#OLD-TURKIC) |  |
+| [OL_CHIKI](#OL-CHIKI) |  |
 | [ORIYA](#ORIYA) |  |
 | [OSAGE](#OSAGE) |  |
 | [OSMANYA](#OSMANYA) |  |
+| [PAHAWH_HMONG](#PAHAWH-HMONG) |  |
 | [PALMYRENE](#PALMYRENE) |  |
 | [PAU_CIN_HAU](#PAU-CIN-HAU) |  |
-| [OLD_PERMIC](#OLD-PERMIC) |  |
 | [PHAGS_PA](#PHAGS-PA) |  |
-| [INSCRIPTIONAL_PAHLAVI](#INSCRIPTIONAL-PAHLAVI) |  |
-| [PSALTER_PAHLAVI](#PSALTER-PAHLAVI) |  |
 | [PHOENICIAN](#PHOENICIAN) |  |
-| [MIAO](#MIAO) |  |
-| [INSCRIPTIONAL_PARTHIAN](#INSCRIPTIONAL-PARTHIAN) |  |
+| [PSALTER_PAHLAVI](#PSALTER-PAHLAVI) |  |
 | [REJANG](#REJANG) |  |
-| [HANIFI_ROHINGYA](#HANIFI-ROHINGYA) |  |
 | [RUNIC](#RUNIC) |  |
 | [SAMARITAN](#SAMARITAN) |  |
-| [OLD_SOUTH_ARABIAN](#OLD-SOUTH-ARABIAN) |  |
 | [SAURASHTRA](#SAURASHTRA) |  |
-| [SIGN_WRITING](#SIGN-WRITING) |  |
-| [SHAVIAN](#SHAVIAN) |  |
 | [SHARADA](#SHARADA) |  |
+| [SHAVIAN](#SHAVIAN) |  |
 | [SIDDHAM](#SIDDHAM) |  |
-| [KHUDAWADI](#KHUDAWADI) |  |
+| [SIGN_WRITING](#SIGN-WRITING) |  |
 | [SINHALA](#SINHALA) |  |
 | [SOGDIAN](#SOGDIAN) |  |
-| [OLD_SOGDIAN](#OLD-SOGDIAN) |  |
 | [SORA_SOMPENG](#SORA-SOMPENG) |  |
 | [SOYOMBO](#SOYOMBO) |  |
 | [SUNDANESE](#SUNDANESE) |  |
 | [SYLOTI_NAGRI](#SYLOTI-NAGRI) |  |
 | [SYRIAC](#SYRIAC) |  |
+| [TAGALOG](#TAGALOG) |  |
 | [TAGBANWA](#TAGBANWA) |  |
-| [TAKRI](#TAKRI) |  |
 | [TAI_LE](#TAI-LE) |  |
-| [NEW_TAI_LUE](#NEW-TAI-LUE) |  |
+| [TAI_THAM](#TAI-THAM) |  |
+| [TAI_VIET](#TAI-VIET) |  |
+| [TAKRI](#TAKRI) |  |
 | [TAMIL](#TAMIL) |  |
 | [TANGUT](#TANGUT) |  |
-| [TAI_VIET](#TAI-VIET) |  |
 | [TELUGU](#TELUGU) |  |
-| [TIFINAGH](#TIFINAGH) |  |
-| [TAGALOG](#TAGALOG) |  |
 | [THAANA](#THAANA) |  |
 | [THAI](#THAI) |  |
 | [TIBETAN](#TIBETAN) |  |
+| [TIFINAGH](#TIFINAGH) |  |
 | [TIRHUTA](#TIRHUTA) |  |
 | [UGARITIC](#UGARITIC) |  |
+| [UNKNOWN](#UNKNOWN) |  |
 | [VAI](#VAI) |  |
-| [WARANG_CITI](#WARANG-CITI) |  |
 | [WANCHO](#WANCHO) |  |
-| [OLD_PERSIAN](#OLD-PERSIAN) |  |
-| [CUNEIFORM](#CUNEIFORM) |  |
+| [WARANG_CITI](#WARANG-CITI) |  |
 | [YEZIDI](#YEZIDI) |  |
 | [YI](#YI) |  |
 | [ZANABAZAR_SQUARE](#ZANABAZAR-SQUARE) |  |
-| [INHERITED](#INHERITED) |  |
-| [COMMON](#COMMON) |  |
-| [UNKNOWN](#UNKNOWN) |  |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int unicodeScript)](#getName-int-) |  |
-| [toString(int unicodeScript)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String unicodeScriptName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int unicodeScript)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int unicodeScript)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ADLAM {#ADLAM}
 ```
 public static int ADLAM
-```
-
-
-### CAUCASIAN_ALBANIAN {#CAUCASIAN-ALBANIAN}
-```
-public static int CAUCASIAN_ALBANIAN
 ```
 
 
@@ -201,15 +204,15 @@ public static int AHOM
 ```
 
 
+### ANATOLIAN_HIEROGLYPHS {#ANATOLIAN-HIEROGLYPHS}
+```
+public static int ANATOLIAN_HIEROGLYPHS
+```
+
+
 ### ARABIC {#ARABIC}
 ```
 public static int ARABIC
-```
-
-
-### IMPERIAL_ARAMAIC {#IMPERIAL-ARAMAIC}
-```
-public static int IMPERIAL_ARAMAIC
 ```
 
 
@@ -291,12 +294,6 @@ public static int BUHID
 ```
 
 
-### CHAKMA {#CHAKMA}
-```
-public static int CHAKMA
-```
-
-
 ### CANADIAN_ABORIGINAL {#CANADIAN-ABORIGINAL}
 ```
 public static int CANADIAN_ABORIGINAL
@@ -306,6 +303,18 @@ public static int CANADIAN_ABORIGINAL
 ### CARIAN {#CARIAN}
 ```
 public static int CARIAN
+```
+
+
+### CAUCASIAN_ALBANIAN {#CAUCASIAN-ALBANIAN}
+```
+public static int CAUCASIAN_ALBANIAN
+```
+
+
+### CHAKMA {#CHAKMA}
+```
+public static int CHAKMA
 ```
 
 
@@ -327,9 +336,21 @@ public static int CHORASMIAN
 ```
 
 
+### COMMON {#COMMON}
+```
+public static int COMMON
+```
+
+
 ### COPTIC {#COPTIC}
 ```
 public static int COPTIC
+```
+
+
+### CUNEIFORM {#CUNEIFORM}
+```
+public static int CUNEIFORM
 ```
 
 
@@ -342,6 +363,12 @@ public static int CYPRIOT
 ### CYRILLIC {#CYRILLIC}
 ```
 public static int CYRILLIC
+```
+
+
+### DESERET {#DESERET}
+```
+public static int DESERET
 ```
 
 
@@ -360,12 +387,6 @@ public static int DIVES_AKURU
 ### DOGRA {#DOGRA}
 ```
 public static int DOGRA
-```
-
-
-### DESERET {#DESERET}
-```
-public static int DESERET
 ```
 
 
@@ -411,18 +432,6 @@ public static int GLAGOLITIC
 ```
 
 
-### GUNJALA_GONDI {#GUNJALA-GONDI}
-```
-public static int GUNJALA_GONDI
-```
-
-
-### MASARAM_GONDI {#MASARAM-GONDI}
-```
-public static int MASARAM_GONDI
-```
-
-
 ### GOTHIC {#GOTHIC}
 ```
 public static int GOTHIC
@@ -447,9 +456,21 @@ public static int GUJARATI
 ```
 
 
+### GUNJALA_GONDI {#GUNJALA-GONDI}
+```
+public static int GUNJALA_GONDI
+```
+
+
 ### GURMUKHI {#GURMUKHI}
 ```
 public static int GURMUKHI
+```
+
+
+### HAN {#HAN}
+```
+public static int HAN
 ```
 
 
@@ -459,9 +480,9 @@ public static int HANGUL
 ```
 
 
-### HAN {#HAN}
+### HANIFI_ROHINGYA {#HANIFI-ROHINGYA}
 ```
-public static int HAN
+public static int HANIFI_ROHINGYA
 ```
 
 
@@ -489,39 +510,27 @@ public static int HIRAGANA
 ```
 
 
-### ANATOLIAN_HIEROGLYPHS {#ANATOLIAN-HIEROGLYPHS}
+### IMPERIAL_ARAMAIC {#IMPERIAL-ARAMAIC}
 ```
-public static int ANATOLIAN_HIEROGLYPHS
-```
-
-
-### PAHAWH_HMONG {#PAHAWH-HMONG}
-```
-public static int PAHAWH_HMONG
+public static int IMPERIAL_ARAMAIC
 ```
 
 
-### NYIAKENG_PUACHUE_HMONG {#NYIAKENG-PUACHUE-HMONG}
+### INHERITED {#INHERITED}
 ```
-public static int NYIAKENG_PUACHUE_HMONG
-```
-
-
-### KATAKANA_OR_HIRAGANA {#KATAKANA-OR-HIRAGANA}
-```
-public static int KATAKANA_OR_HIRAGANA
+public static int INHERITED
 ```
 
 
-### OLD_HUNGARIAN {#OLD-HUNGARIAN}
+### INSCRIPTIONAL_PAHLAVI {#INSCRIPTIONAL-PAHLAVI}
 ```
-public static int OLD_HUNGARIAN
+public static int INSCRIPTIONAL_PAHLAVI
 ```
 
 
-### OLD_ITALIC {#OLD-ITALIC}
+### INSCRIPTIONAL_PARTHIAN {#INSCRIPTIONAL-PARTHIAN}
 ```
-public static int OLD_ITALIC
+public static int INSCRIPTIONAL_PARTHIAN
 ```
 
 
@@ -531,9 +540,15 @@ public static int JAVANESE
 ```
 
 
-### KAYAH_LI {#KAYAH-LI}
+### KAITHI {#KAITHI}
 ```
-public static int KAYAH_LI
+public static int KAITHI
+```
+
+
+### KANNADA {#KANNADA}
+```
+public static int KANNADA
 ```
 
 
@@ -543,9 +558,27 @@ public static int KATAKANA
 ```
 
 
+### KATAKANA_OR_HIRAGANA {#KATAKANA-OR-HIRAGANA}
+```
+public static int KATAKANA_OR_HIRAGANA
+```
+
+
+### KAYAH_LI {#KAYAH-LI}
+```
+public static int KAYAH_LI
+```
+
+
 ### KHAROSHTHI {#KHAROSHTHI}
 ```
 public static int KHAROSHTHI
+```
+
+
+### KHITAN_SMALL_SCRIPT {#KHITAN-SMALL-SCRIPT}
+```
+public static int KHITAN_SMALL_SCRIPT
 ```
 
 
@@ -561,27 +594,9 @@ public static int KHOJKI
 ```
 
 
-### KHITAN_SMALL_SCRIPT {#KHITAN-SMALL-SCRIPT}
+### KHUDAWADI {#KHUDAWADI}
 ```
-public static int KHITAN_SMALL_SCRIPT
-```
-
-
-### KANNADA {#KANNADA}
-```
-public static int KANNADA
-```
-
-
-### KAITHI {#KAITHI}
-```
-public static int KAITHI
-```
-
-
-### TAI_THAM {#TAI-THAM}
-```
-public static int TAI_THAM
+public static int KHUDAWADI
 ```
 
 
@@ -651,6 +666,12 @@ public static int MAKASAR
 ```
 
 
+### MALAYALAM {#MALAYALAM}
+```
+public static int MALAYALAM
+```
+
+
 ### MANDAIC {#MANDAIC}
 ```
 public static int MANDAIC
@@ -669,9 +690,21 @@ public static int MARCHEN
 ```
 
 
+### MASARAM_GONDI {#MASARAM-GONDI}
+```
+public static int MASARAM_GONDI
+```
+
+
 ### MEDEFAIDRIN {#MEDEFAIDRIN}
 ```
 public static int MEDEFAIDRIN
+```
+
+
+### MEETEI_MAYEK {#MEETEI-MAYEK}
+```
+public static int MEETEI_MAYEK
 ```
 
 
@@ -693,9 +726,9 @@ public static int MEROITIC_HIEROGLYPHS
 ```
 
 
-### MALAYALAM {#MALAYALAM}
+### MIAO {#MIAO}
 ```
-public static int MALAYALAM
+public static int MIAO
 ```
 
 
@@ -717,12 +750,6 @@ public static int MRO
 ```
 
 
-### MEETEI_MAYEK {#MEETEI-MAYEK}
-```
-public static int MEETEI_MAYEK
-```
-
-
 ### MULTANI {#MULTANI}
 ```
 public static int MULTANI
@@ -735,27 +762,27 @@ public static int MYANMAR
 ```
 
 
-### NANDINAGARI {#NANDINAGARI}
-```
-public static int NANDINAGARI
-```
-
-
-### OLD_NORTH_ARABIAN {#OLD-NORTH-ARABIAN}
-```
-public static int OLD_NORTH_ARABIAN
-```
-
-
 ### NABATAEAN {#NABATAEAN}
 ```
 public static int NABATAEAN
 ```
 
 
+### NANDINAGARI {#NANDINAGARI}
+```
+public static int NANDINAGARI
+```
+
+
 ### NEWA {#NEWA}
 ```
 public static int NEWA
+```
+
+
+### NEW_TAI_LUE {#NEW-TAI-LUE}
+```
+public static int NEW_TAI_LUE
 ```
 
 
@@ -771,21 +798,69 @@ public static int NUSHU
 ```
 
 
+### NYIAKENG_PUACHUE_HMONG {#NYIAKENG-PUACHUE-HMONG}
+```
+public static int NYIAKENG_PUACHUE_HMONG
+```
+
+
 ### OGHAM {#OGHAM}
 ```
 public static int OGHAM
 ```
 
 
-### OL_CHIKI {#OL-CHIKI}
+### OLD_HUNGARIAN {#OLD-HUNGARIAN}
 ```
-public static int OL_CHIKI
+public static int OLD_HUNGARIAN
+```
+
+
+### OLD_ITALIC {#OLD-ITALIC}
+```
+public static int OLD_ITALIC
+```
+
+
+### OLD_NORTH_ARABIAN {#OLD-NORTH-ARABIAN}
+```
+public static int OLD_NORTH_ARABIAN
+```
+
+
+### OLD_PERMIC {#OLD-PERMIC}
+```
+public static int OLD_PERMIC
+```
+
+
+### OLD_PERSIAN {#OLD-PERSIAN}
+```
+public static int OLD_PERSIAN
+```
+
+
+### OLD_SOGDIAN {#OLD-SOGDIAN}
+```
+public static int OLD_SOGDIAN
+```
+
+
+### OLD_SOUTH_ARABIAN {#OLD-SOUTH-ARABIAN}
+```
+public static int OLD_SOUTH_ARABIAN
 ```
 
 
 ### OLD_TURKIC {#OLD-TURKIC}
 ```
 public static int OLD_TURKIC
+```
+
+
+### OL_CHIKI {#OL-CHIKI}
+```
+public static int OL_CHIKI
 ```
 
 
@@ -807,6 +882,12 @@ public static int OSMANYA
 ```
 
 
+### PAHAWH_HMONG {#PAHAWH-HMONG}
+```
+public static int PAHAWH_HMONG
+```
+
+
 ### PALMYRENE {#PALMYRENE}
 ```
 public static int PALMYRENE
@@ -819,27 +900,9 @@ public static int PAU_CIN_HAU
 ```
 
 
-### OLD_PERMIC {#OLD-PERMIC}
-```
-public static int OLD_PERMIC
-```
-
-
 ### PHAGS_PA {#PHAGS-PA}
 ```
 public static int PHAGS_PA
-```
-
-
-### INSCRIPTIONAL_PAHLAVI {#INSCRIPTIONAL-PAHLAVI}
-```
-public static int INSCRIPTIONAL_PAHLAVI
-```
-
-
-### PSALTER_PAHLAVI {#PSALTER-PAHLAVI}
-```
-public static int PSALTER_PAHLAVI
 ```
 
 
@@ -849,27 +912,15 @@ public static int PHOENICIAN
 ```
 
 
-### MIAO {#MIAO}
+### PSALTER_PAHLAVI {#PSALTER-PAHLAVI}
 ```
-public static int MIAO
-```
-
-
-### INSCRIPTIONAL_PARTHIAN {#INSCRIPTIONAL-PARTHIAN}
-```
-public static int INSCRIPTIONAL_PARTHIAN
+public static int PSALTER_PAHLAVI
 ```
 
 
 ### REJANG {#REJANG}
 ```
 public static int REJANG
-```
-
-
-### HANIFI_ROHINGYA {#HANIFI-ROHINGYA}
-```
-public static int HANIFI_ROHINGYA
 ```
 
 
@@ -885,27 +936,9 @@ public static int SAMARITAN
 ```
 
 
-### OLD_SOUTH_ARABIAN {#OLD-SOUTH-ARABIAN}
-```
-public static int OLD_SOUTH_ARABIAN
-```
-
-
 ### SAURASHTRA {#SAURASHTRA}
 ```
 public static int SAURASHTRA
-```
-
-
-### SIGN_WRITING {#SIGN-WRITING}
-```
-public static int SIGN_WRITING
-```
-
-
-### SHAVIAN {#SHAVIAN}
-```
-public static int SHAVIAN
 ```
 
 
@@ -915,15 +948,21 @@ public static int SHARADA
 ```
 
 
+### SHAVIAN {#SHAVIAN}
+```
+public static int SHAVIAN
+```
+
+
 ### SIDDHAM {#SIDDHAM}
 ```
 public static int SIDDHAM
 ```
 
 
-### KHUDAWADI {#KHUDAWADI}
+### SIGN_WRITING {#SIGN-WRITING}
 ```
-public static int KHUDAWADI
+public static int SIGN_WRITING
 ```
 
 
@@ -936,12 +975,6 @@ public static int SINHALA
 ### SOGDIAN {#SOGDIAN}
 ```
 public static int SOGDIAN
-```
-
-
-### OLD_SOGDIAN {#OLD-SOGDIAN}
-```
-public static int OLD_SOGDIAN
 ```
 
 
@@ -975,15 +1008,15 @@ public static int SYRIAC
 ```
 
 
+### TAGALOG {#TAGALOG}
+```
+public static int TAGALOG
+```
+
+
 ### TAGBANWA {#TAGBANWA}
 ```
 public static int TAGBANWA
-```
-
-
-### TAKRI {#TAKRI}
-```
-public static int TAKRI
 ```
 
 
@@ -993,9 +1026,21 @@ public static int TAI_LE
 ```
 
 
-### NEW_TAI_LUE {#NEW-TAI-LUE}
+### TAI_THAM {#TAI-THAM}
 ```
-public static int NEW_TAI_LUE
+public static int TAI_THAM
+```
+
+
+### TAI_VIET {#TAI-VIET}
+```
+public static int TAI_VIET
+```
+
+
+### TAKRI {#TAKRI}
+```
+public static int TAKRI
 ```
 
 
@@ -1011,27 +1056,9 @@ public static int TANGUT
 ```
 
 
-### TAI_VIET {#TAI-VIET}
-```
-public static int TAI_VIET
-```
-
-
 ### TELUGU {#TELUGU}
 ```
 public static int TELUGU
-```
-
-
-### TIFINAGH {#TIFINAGH}
-```
-public static int TIFINAGH
-```
-
-
-### TAGALOG {#TAGALOG}
-```
-public static int TAGALOG
 ```
 
 
@@ -1053,6 +1080,12 @@ public static int TIBETAN
 ```
 
 
+### TIFINAGH {#TIFINAGH}
+```
+public static int TIFINAGH
+```
+
+
 ### TIRHUTA {#TIRHUTA}
 ```
 public static int TIRHUTA
@@ -1065,15 +1098,15 @@ public static int UGARITIC
 ```
 
 
+### UNKNOWN {#UNKNOWN}
+```
+public static int UNKNOWN
+```
+
+
 ### VAI {#VAI}
 ```
 public static int VAI
-```
-
-
-### WARANG_CITI {#WARANG-CITI}
-```
-public static int WARANG_CITI
 ```
 
 
@@ -1083,15 +1116,9 @@ public static int WANCHO
 ```
 
 
-### OLD_PERSIAN {#OLD-PERSIAN}
+### WARANG_CITI {#WARANG-CITI}
 ```
-public static int OLD_PERSIAN
-```
-
-
-### CUNEIFORM {#CUNEIFORM}
-```
-public static int CUNEIFORM
+public static int WARANG_CITI
 ```
 
 
@@ -1113,30 +1140,52 @@ public static int ZANABAZAR_SQUARE
 ```
 
 
-### INHERITED {#INHERITED}
-```
-public static int INHERITED
-```
-
-
-### COMMON {#COMMON}
-```
-public static int COMMON
-```
-
-
-### UNKNOWN {#UNKNOWN}
-```
-public static int UNKNOWN
-```
-
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String unicodeScriptName) {#fromName-java.lang.String-}
+```
+public static int fromName(String unicodeScriptName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| unicodeScriptName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int unicodeScript) {#getName-int-}
 ```
 public static String getName(int unicodeScript)
@@ -1149,6 +1198,52 @@ public static String getName(int unicodeScript)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | unicodeScript | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -1167,9 +1262,17 @@ public static String toString(int unicodeScript)
 
 **Returns:**
 java.lang.String
-### fromName(String unicodeScriptName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String unicodeScriptName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -1178,17 +1281,19 @@ public static int fromName(String unicodeScriptName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| unicodeScriptName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

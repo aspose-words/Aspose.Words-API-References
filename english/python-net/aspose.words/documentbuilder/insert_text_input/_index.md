@@ -3,7 +3,7 @@ title: insert_text_input method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a text form field at the current position."
 type: docs
-weight: 450
+weight: 470
 url: /python-net/aspose.words/documentbuilder/insert_text_input/
 ---
 

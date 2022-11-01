@@ -22,82 +22,44 @@ This rule defines the list of substitute font names to be used if the original f
 
 | Method | Description |
 | --- | --- |
-| [load(String fileName)](#load-java.lang.String-) | Loads table substitution settings from XML file. |
-| [load(InputStream stream)](#load-java.io.InputStream-) |  |
-| [loadWindowsSettings()](#loadWindowsSettings--) | Loads predefined table substitution settings for Windows platform. |
-| [loadLinuxSettings()](#loadLinuxSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [loadAndroidSettings()](#loadAndroidSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [save(String fileName)](#save-java.lang.String-) | Saves the current table substitution settings to file. |
-| [save(OutputStream outputStream)](#save-java.io.OutputStream-) |  |
-| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | Returns array containing substitute font names for the specified original font name. |
-| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...-) | Override substitute font names for given original font name. |
 | [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...-) | Adds substitute font names for given original font name. |
-### load(String fileName) {#load-java.lang.String-}
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
+| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | Returns array containing substitute font names for the specified original font name. |
+| [hashCode()](#hashCode--) |  |
+| [load(InputStream stream)](#load-java.io.InputStream-) |  |
+| [load(String fileName)](#load-java.lang.String-) | Loads table substitution settings from XML file. |
+| [loadAndroidSettings()](#loadAndroidSettings--) | Loads predefined table substitution settings for Linux platform. |
+| [loadLinuxSettings()](#loadLinuxSettings--) | Loads predefined table substitution settings for Linux platform. |
+| [loadWindowsSettings()](#loadWindowsSettings--) | Loads predefined table substitution settings for Windows platform. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [save(OutputStream outputStream)](#save-java.io.OutputStream-) |  |
+| [save(String fileName)](#save-java.lang.String-) | Saves the current table substitution settings to file. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...-) | Override substitute font names for given original font name. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### addSubstitutes(String originalFontName, String[] substituteFontNames) {#addSubstitutes-java.lang.String-java.lang.String...-}
 ```
-public void load(String fileName)
+public void addSubstitutes(String originalFontName, String[] substituteFontNames)
 ```
 
 
-Loads table substitution settings from XML file.
+Adds substitute font names for given original font name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | Input file name. |
+| originalFontName | java.lang.String | Original font name. |
+| substituteFontNames | java.lang.String[] | List of alternative font names. |
 
-### load(InputStream stream) {#load-java.io.InputStream-}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void load(InputStream stream)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream |  |
-
-### loadWindowsSettings() {#loadWindowsSettings--}
-```
-public void loadWindowsSettings()
-```
-
-
-Loads predefined table substitution settings for Windows platform.
-
-### loadLinuxSettings() {#loadLinuxSettings--}
-```
-public void loadLinuxSettings()
-```
-
-
-Loads predefined table substitution settings for Linux platform.
-
-### loadAndroidSettings() {#loadAndroidSettings--}
-```
-public void loadAndroidSettings()
-```
-
-
-Loads predefined table substitution settings for Linux platform.
-
-### save(String fileName) {#save-java.lang.String-}
-```
-public void save(String fileName)
-```
-
-
-Saves the current table substitution settings to file.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fileName | java.lang.String | Output file name. |
-
-### save(OutputStream outputStream) {#save-java.io.OutputStream-}
-```
-public void save(OutputStream outputStream)
+public boolean equals(Object arg0)
 ```
 
 
@@ -106,8 +68,30 @@ public void save(OutputStream outputStream)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| outputStream | java.io.OutputStream |  |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEnabled() {#getEnabled--}
+```
+public boolean getEnabled()
+```
+
+
+Specifies whether the rule is enabled or not.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSubstitutes(String originalFontName) {#getSubstitutes-java.lang.String-}
 ```
 public Iterable getSubstitutes(String originalFontName)
@@ -123,6 +107,121 @@ Returns array containing substitute font names for the specified original font n
 
 **Returns:**
 java.lang.Iterable - List of alternative font names.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### load(InputStream stream) {#load-java.io.InputStream-}
+```
+public void load(InputStream stream)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream |  |
+
+### load(String fileName) {#load-java.lang.String-}
+```
+public void load(String fileName)
+```
+
+
+Loads table substitution settings from XML file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Input file name. |
+
+### loadAndroidSettings() {#loadAndroidSettings--}
+```
+public void loadAndroidSettings()
+```
+
+
+Loads predefined table substitution settings for Linux platform.
+
+### loadLinuxSettings() {#loadLinuxSettings--}
+```
+public void loadLinuxSettings()
+```
+
+
+Loads predefined table substitution settings for Linux platform.
+
+### loadWindowsSettings() {#loadWindowsSettings--}
+```
+public void loadWindowsSettings()
+```
+
+
+Loads predefined table substitution settings for Windows platform.
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### save(OutputStream outputStream) {#save-java.io.OutputStream-}
+```
+public void save(OutputStream outputStream)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| outputStream | java.io.OutputStream |  |
+
+### save(String fileName) {#save-java.lang.String-}
+```
+public void save(String fileName)
+```
+
+
+Saves the current table substitution settings to file.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileName | java.lang.String | Output file name. |
+
+### setEnabled(boolean value) {#setEnabled-boolean-}
+```
+public void setEnabled(boolean value)
+```
+
+
+Specifies whether the rule is enabled or not.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setSubstitutes(String originalFontName, String[] substituteFontNames) {#setSubstitutes-java.lang.String-java.lang.String...-}
 ```
 public void setSubstitutes(String originalFontName, String[] substituteFontNames)
@@ -137,17 +236,48 @@ Override substitute font names for given original font name.
 | originalFontName | java.lang.String | Original font name. |
 | substituteFontNames | java.lang.String[] | List of alternative font names. |
 
-### addSubstitutes(String originalFontName, String[] substituteFontNames) {#addSubstitutes-java.lang.String-java.lang.String...-}
+### toString() {#toString--}
 ```
-public void addSubstitutes(String originalFontName, String[] substituteFontNames)
+public String toString()
 ```
 
 
-Adds substitute font names for given original font name.
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-| substituteFontNames | java.lang.String[] | List of alternative font names. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

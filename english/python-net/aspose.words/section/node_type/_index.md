@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Section."
+description: "Returns [NodeType.SECTION](../../nodetype/#SECTION)."
 type: docs
 weight: 40
 url: /python-net/aspose.words/section/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/section/node_type/
 
 ## Section.node_type property
 
-Returns **NodeType.Section**.
+Returns [NodeType.SECTION](../../nodetype/#SECTION).
 
 
 

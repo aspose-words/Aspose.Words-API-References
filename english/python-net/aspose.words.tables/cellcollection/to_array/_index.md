@@ -33,7 +33,7 @@ tables = doc.first_section.body.tables
 self.assertEqual(2, len(tables.to_array()))
 
 for i in range(tables.count):
-    print(f"Start of Table {i}")
+    print("Start of Table", i)
 
     rows = tables[i].rows
 
@@ -42,7 +42,7 @@ for i in range(tables.count):
     #Assert.are_not_same(rows, rows.to_array())
 
     for j in range(rows.count):
-        print(f"\tStart of Row {j}")
+        print("\tStart of Row", j)
 
         cells = rows[j].cells
 

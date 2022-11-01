@@ -1,7 +1,7 @@
 ﻿---
 title: Inline class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own."
+description: "Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
 type: docs
 weight: 570
 url: /python-net/aspose.words/inline/
@@ -10,9 +10,12 @@ url: /python-net/aspose.words/inline/
 ## Inline class
 
 Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own.
+To learn more, visit the [Logical Levels of Nodes in a Document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) documentation article.
 
 
-A class derived from **Inline** can be a child of **Paragraph**.
+
+
+A class derived from [Inline](./) can be a child of [Paragraph](../paragraph/).
 
 
 
@@ -26,18 +29,18 @@ A class derived from **Inline** can be a child of **Paragraph**.
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [font](./font/) | Provides access to the font formatting of this object. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](./is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [is_format_revision](./is_format_revision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [is_insert_revision](./is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [is_move_from_revision](./is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [is_move_to_revision](./is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [is_move_from_revision](./is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [is_move_to_revision](./is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [node_type](../node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_paragraph](./parent_paragraph/) | Retrieves the parent [Paragraph](../paragraph/) of this node. |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 
 ### Methods
 

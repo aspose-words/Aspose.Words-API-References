@@ -26,14 +26,21 @@ To learn more, visit the **Programming with Documents** documentation article.
 | [clearFormatting()](#clearFormatting--) | Removes shading from the object. |
 | [equals(Shading rhs)](#equals-com.aspose.words.Shading-) | Determines whether the specified Shading is equal in value to the current Shading. |
 | [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
+| [getBackgroundPatternColor()](#getBackgroundPatternColor--) | Gets the color that's applied to the background of the Shading object. |
+| [getClass()](#getClass--) |  |
+| [getForegroundPatternColor()](#getForegroundPatternColor--) | Gets the color that's applied to the foreground of the Shading object. |
+| [getTexture()](#getTexture--) | Gets the shading texture. |
 | [hashCode()](#hashCode--) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
-| [getBackgroundPatternColor()](#getBackgroundPatternColor--) | Gets the color that's applied to the background of the Shading object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setBackgroundPatternColor(Color value)](#setBackgroundPatternColor-java.awt.Color-) | Sets the color that's applied to the background of the Shading object. |
-| [getForegroundPatternColor()](#getForegroundPatternColor--) | Gets the color that's applied to the foreground of the Shading object. |
 | [setForegroundPatternColor(Color value)](#setForegroundPatternColor-java.awt.Color-) | Sets the color that's applied to the foreground of the Shading object. |
-| [getTexture()](#getTexture--) | Gets the shading texture. |
 | [setTexture(int value)](#setTexture-int-) | Sets the shading texture. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### clearFormatting() {#clearFormatting--}
 ```
 public void clearFormatting()
@@ -72,6 +79,46 @@ Determines whether the specified object is equal in value to the current object.
 
 **Returns:**
 boolean
+### getBackgroundPatternColor() {#getBackgroundPatternColor--}
+```
+public Color getBackgroundPatternColor()
+```
+
+
+Gets the color that's applied to the background of the Shading object.
+
+**Returns:**
+java.awt.Color - The color that's applied to the background of the Shading object.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getForegroundPatternColor() {#getForegroundPatternColor--}
+```
+public Color getForegroundPatternColor()
+```
+
+
+Gets the color that's applied to the foreground of the Shading object.
+
+**Returns:**
+java.awt.Color - The color that's applied to the foreground of the Shading object.
+### getTexture() {#getTexture--}
+```
+public int getTexture()
+```
+
+
+Gets the shading texture.
+
+**Returns:**
+int - The shading texture. The returned value is one of [TextureIndex](../../com.aspose.words/textureindex) constants.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -92,16 +139,22 @@ public boolean isInheritedComplexAttr()
 
 **Returns:**
 boolean
-### getBackgroundPatternColor() {#getBackgroundPatternColor--}
+### notify() {#notify--}
 ```
-public Color getBackgroundPatternColor()
+public final native void notify()
 ```
 
 
-Gets the color that's applied to the background of the Shading object.
 
-**Returns:**
-java.awt.Color - The color that's applied to the background of the Shading object.
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setBackgroundPatternColor(Color value) {#setBackgroundPatternColor-java.awt.Color-}
 ```
 public void setBackgroundPatternColor(Color value)
@@ -115,16 +168,6 @@ Sets the color that's applied to the background of the Shading object.
 | --- | --- | --- |
 | value | java.awt.Color | The color that's applied to the background of the Shading object. |
 
-### getForegroundPatternColor() {#getForegroundPatternColor--}
-```
-public Color getForegroundPatternColor()
-```
-
-
-Gets the color that's applied to the foreground of the Shading object.
-
-**Returns:**
-java.awt.Color - The color that's applied to the foreground of the Shading object.
 ### setForegroundPatternColor(Color value) {#setForegroundPatternColor-java.awt.Color-}
 ```
 public void setForegroundPatternColor(Color value)
@@ -138,16 +181,6 @@ Sets the color that's applied to the foreground of the Shading object.
 | --- | --- | --- |
 | value | java.awt.Color | The color that's applied to the foreground of the Shading object. |
 
-### getTexture() {#getTexture--}
-```
-public int getTexture()
-```
-
-
-Gets the shading texture.
-
-**Returns:**
-int - The shading texture. The returned value is one of [TextureIndex](../../com.aspose.words/textureindex) constants.
 ### setTexture(int value) {#setTexture-int-}
 ```
 public void setTexture(int value)
@@ -160,4 +193,49 @@ Sets the shading texture.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The shading texture. The value must be one of [TextureIndex](../../com.aspose.words/textureindex) constants. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

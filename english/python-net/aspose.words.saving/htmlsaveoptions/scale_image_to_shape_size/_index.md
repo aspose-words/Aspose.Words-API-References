@@ -3,7 +3,7 @@ title: scale_image_to_shape_size property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
-weight: 460
+weight: 450
 url: /python-net/aspose.words.saving/htmlsaveoptions/scale_image_to_shape_size/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/scale_image_to_shape_size/
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML
 or EPUB.
-Default value is ``true``.
+Default value is ``True``.
 
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image
@@ -22,13 +22,13 @@ In order to display an image in the browser, it must be scaled to the shape size
 The [HtmlSaveOptions.scale_image_to_shape_size](./) property controls where the scaling of the image
 takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
-When [HtmlSaveOptions.scale_image_to_shape_size](./) is ``true``, the image is scaled by Aspose.Words
+When [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``, the image is scaled by Aspose.Words
 using high quality scaling during export to HTML. When [HtmlSaveOptions.scale_image_to_shape_size](./) 
-is ``false``, the image is output with its original size and the browser has to scale it.
+is ``False``, the image is output with its original size and the browser has to scale it.
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better 
-display quality in the browser and smaller file size when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``true``, 
-but better printing quality and faster conversion when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``false``.
+display quality in the browser and smaller file size when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``, 
+but better printing quality and faster conversion when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``False``.
 
 
 

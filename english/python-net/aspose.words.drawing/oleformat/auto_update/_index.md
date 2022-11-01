@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/oleformat/auto_update/
 
 Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

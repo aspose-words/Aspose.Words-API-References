@@ -11,7 +11,8 @@ url: /python-net/aspose.words/compositenode/first_child/
 
 Gets the first child of the node.
 
-If there is no first child node, a null is returned.
+If there is no first child node, a ``None`` is returned.
+
 
 
 ### Examples
@@ -61,7 +62,7 @@ doc = aw.Document(MY_DIR + "Paragraphs.docx")
 node = doc.first_section.body.first_child
 while node is not None:
     print()
-    print(f"Node type: {aw.Node.node_type_to_string(node.node_type)}")
+    print("Node type:", aw.Node.node_type_to_string(node.node_type))
 
     contents = node.get_text().strip()
     print("This node contains no text" if contents == "" else f'Contents: "{node.get_text().strip()}"')

@@ -16,18 +16,16 @@ public class FontFeature
 
 | Field | Description |
 | --- | --- |
-| [GLYPH_COMPOSITION_DECOMPOSITION](#GLYPH-COMPOSITION-DECOMPOSITION) |  |
-| [STANDARD_LIGATURES](#STANDARD-LIGATURES) |  |
-| [REQUIRED_LIGATURES](#REQUIRED-LIGATURES) |  |
 | [CONTEXTUAL_LIGATURES](#CONTEXTUAL-LIGATURES) |  |
 | [DISCRETIONARY_LIGATURES](#DISCRETIONARY-LIGATURES) |  |
+| [GLYPH_COMPOSITION_DECOMPOSITION](#GLYPH-COMPOSITION-DECOMPOSITION) |  |
 | [HISTORICAL_LIGATURES](#HISTORICAL-LIGATURES) |  |
-| [PROPORTIONAL_FIGURES](#PROPORTIONAL-FIGURES) |  |
-| [TABULAR_FIGURES](#TABULAR-FIGURES) |  |
+| [KERNING](#KERNING) |  |
 | [LINING_FIGURES](#LINING-FIGURES) |  |
 | [OLDSTYLE_FIGURES](#OLDSTYLE-FIGURES) |  |
-| [VERTICAL_ALTERNATES](#VERTICAL-ALTERNATES) |  |
-| [VERTICAL_ALTERNATES_AND_ROTATION](#VERTICAL-ALTERNATES-AND-ROTATION) |  |
+| [PROPORTIONAL_FIGURES](#PROPORTIONAL-FIGURES) |  |
+| [REQUIRED_LIGATURES](#REQUIRED-LIGATURES) |  |
+| [STANDARD_LIGATURES](#STANDARD-LIGATURES) |  |
 | [STYLISTIC_SET_01](#STYLISTIC-SET-01) |  |
 | [STYLISTIC_SET_02](#STYLISTIC-SET-02) |  |
 | [STYLISTIC_SET_03](#STYLISTIC-SET-03) |  |
@@ -48,34 +46,27 @@ public class FontFeature
 | [STYLISTIC_SET_18](#STYLISTIC-SET-18) |  |
 | [STYLISTIC_SET_19](#STYLISTIC-SET-19) |  |
 | [STYLISTIC_SET_20](#STYLISTIC-SET-20) |  |
-| [KERNING](#KERNING) |  |
+| [TABULAR_FIGURES](#TABULAR-FIGURES) |  |
+| [VERTICAL_ALTERNATES](#VERTICAL-ALTERNATES) |  |
+| [VERTICAL_ALTERNATES_AND_ROTATION](#VERTICAL-ALTERNATES-AND-ROTATION) |  |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int fontFeature)](#getName-int-) |  |
-| [toString(int fontFeature)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontFeatureName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fontFeature)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### GLYPH_COMPOSITION_DECOMPOSITION {#GLYPH-COMPOSITION-DECOMPOSITION}
-```
-public static int GLYPH_COMPOSITION_DECOMPOSITION
-```
-
-
-### STANDARD_LIGATURES {#STANDARD-LIGATURES}
-```
-public static int STANDARD_LIGATURES
-```
-
-
-### REQUIRED_LIGATURES {#REQUIRED-LIGATURES}
-```
-public static int REQUIRED_LIGATURES
-```
-
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int fontFeature)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CONTEXTUAL_LIGATURES {#CONTEXTUAL-LIGATURES}
 ```
 public static int CONTEXTUAL_LIGATURES
@@ -88,21 +79,21 @@ public static int DISCRETIONARY_LIGATURES
 ```
 
 
+### GLYPH_COMPOSITION_DECOMPOSITION {#GLYPH-COMPOSITION-DECOMPOSITION}
+```
+public static int GLYPH_COMPOSITION_DECOMPOSITION
+```
+
+
 ### HISTORICAL_LIGATURES {#HISTORICAL-LIGATURES}
 ```
 public static int HISTORICAL_LIGATURES
 ```
 
 
-### PROPORTIONAL_FIGURES {#PROPORTIONAL-FIGURES}
+### KERNING {#KERNING}
 ```
-public static int PROPORTIONAL_FIGURES
-```
-
-
-### TABULAR_FIGURES {#TABULAR-FIGURES}
-```
-public static int TABULAR_FIGURES
+public static int KERNING
 ```
 
 
@@ -118,15 +109,21 @@ public static int OLDSTYLE_FIGURES
 ```
 
 
-### VERTICAL_ALTERNATES {#VERTICAL-ALTERNATES}
+### PROPORTIONAL_FIGURES {#PROPORTIONAL-FIGURES}
 ```
-public static int VERTICAL_ALTERNATES
+public static int PROPORTIONAL_FIGURES
 ```
 
 
-### VERTICAL_ALTERNATES_AND_ROTATION {#VERTICAL-ALTERNATES-AND-ROTATION}
+### REQUIRED_LIGATURES {#REQUIRED-LIGATURES}
 ```
-public static int VERTICAL_ALTERNATES_AND_ROTATION
+public static int REQUIRED_LIGATURES
+```
+
+
+### STANDARD_LIGATURES {#STANDARD-LIGATURES}
+```
+public static int STANDARD_LIGATURES
 ```
 
 
@@ -250,9 +247,21 @@ public static int STYLISTIC_SET_20
 ```
 
 
-### KERNING {#KERNING}
+### TABULAR_FIGURES {#TABULAR-FIGURES}
 ```
-public static int KERNING
+public static int TABULAR_FIGURES
+```
+
+
+### VERTICAL_ALTERNATES {#VERTICAL-ALTERNATES}
+```
+public static int VERTICAL_ALTERNATES
+```
+
+
+### VERTICAL_ALTERNATES_AND_ROTATION {#VERTICAL-ALTERNATES-AND-ROTATION}
+```
+public static int VERTICAL_ALTERNATES_AND_ROTATION
 ```
 
 
@@ -262,6 +271,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String fontFeatureName) {#fromName-java.lang.String-}
+```
+public static int fromName(String fontFeatureName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFeatureName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int fontFeature) {#getName-int-}
 ```
 public static String getName(int fontFeature)
@@ -274,6 +323,52 @@ public static String getName(int fontFeature)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontFeature | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -292,9 +387,17 @@ public static String toString(int fontFeature)
 
 **Returns:**
 java.lang.String
-### fromName(String fontFeatureName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String fontFeatureName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -303,17 +406,19 @@ public static int fromName(String fontFeatureName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontFeatureName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

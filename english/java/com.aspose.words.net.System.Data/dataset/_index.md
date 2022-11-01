@@ -26,25 +26,34 @@ Represents an in-memory cache of data.
 
 | Method | Description |
 | --- | --- |
-| [getDataSetName()](#getDataSetName--) | Gets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getNamespace()](#getNamespace--) | Gets the namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getTables()](#getTables--) | Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getRelations()](#getRelations--) | Get the collection of relations that link tables and allow navigation from parent tables to child tables. |
-| [close()](#close--) |  |
+| [IsSchemaWasRead()](#IsSchemaWasRead--) |  |
 | [clear()](#clear--) | Clears the [DataSet](../../com.aspose.words.net.system.data/dataset) of any data by removing all rows in all tables. |
-| [reset()](#reset--) | Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. |
-| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) | Reads XML schema and data into the DataSet using the specified java.io.InputStream and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
+| [close()](#close--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getDataSetName()](#getDataSetName--) | Gets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getEnforceConstraints()](#getEnforceConstraints--) | Gets a value indicating whether constraint rules are followed when attempting any update operation. |
+| [getNamespace()](#getNamespace--) | Gets the namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getRelations()](#getRelations--) | Get the collection of relations that link tables and allow navigation from parent tables to child tables. |
+| [getTables()](#getTables--) | Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [hashCode()](#hashCode--) |  |
+| [isLocaleSpecified()](#isLocaleSpecified--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [readXml(InputStream stream)](#readXml-java.io.InputStream-) | Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified java.io.InputStream. |
+| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) | Reads XML schema and data into the DataSet using the specified java.io.InputStream and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
 | [readXml(String fileName)](#readXml-java.lang.String-) | Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified file. |
 | [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | Reads XML schema and data into the DataSet using the specified file and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
 | [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream-) | Reads the XML schema from the specified java.io.InputStream into the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String-) | Reads the XML schema from the specified file into the [DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Sets the locale information used to compare strings within the table. |
-| [isLocaleSpecified()](#isLocaleSpecified--) |  |
-| [getEnforceConstraints()](#getEnforceConstraints--) | Gets a value indicating whether constraint rules are followed when attempting any update operation. |
+| [reset()](#reset--) | Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. |
+| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | Sets a value indicating whether constraint rules are followed when attempting any update operation. |
-| [IsSchemaWasRead()](#IsSchemaWasRead--) |  |
+| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Sets the locale information used to compare strings within the table. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### DataSet() {#DataSet--}
 ```
 public DataSet()
@@ -101,6 +110,57 @@ Initializes a new instance of a [DataSet](../../com.aspose.words.net.system.data
 | --- | --- | --- |
 | dataSetName | java.lang.String | The name of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 
+### IsSchemaWasRead() {#IsSchemaWasRead--}
+```
+public boolean IsSchemaWasRead()
+```
+
+
+
+
+**Returns:**
+boolean - true if schema was read
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Clears the [DataSet](../../com.aspose.words.net.system.data/dataset) of any data by removing all rows in all tables.
+
+### close() {#close--}
+```
+public void close()
+```
+
+
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDataSetName() {#getDataSetName--}
 ```
 public String getDataSetName()
@@ -111,19 +171,16 @@ Gets the name of the current [DataSet](../../com.aspose.words.net.system.data/da
 
 **Returns:**
 java.lang.String - The name of the [DataSet](../../com.aspose.words.net.system.data/dataset).
-### setDataSetName(String value) {#setDataSetName-java.lang.String-}
+### getEnforceConstraints() {#getEnforceConstraints--}
 ```
-public void setDataSetName(String value)
+public boolean getEnforceConstraints()
 ```
 
 
-Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset).
+Gets a value indicating whether constraint rules are followed when attempting any update operation.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The name of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
-
+**Returns:**
+boolean - true if rules are enforced; otherwise false. The default is true.
 ### getNamespace() {#getNamespace--}
 ```
 public String getNamespace()
@@ -134,16 +191,6 @@ Gets the namespace of the [DataSet](../../com.aspose.words.net.system.data/datas
 
 **Returns:**
 java.lang.String - The namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset).
-### getTables() {#getTables--}
-```
-public System.Data.DataTableCollection getTables()
-```
-
-
-Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset).
-
-**Returns:**
-[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) - The [DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) contained by this [DataSet](../../com.aspose.words.net.system.data/dataset). An empty collection is returned if no [DataTable](../../com.aspose.words.net.system.data/datatable) objects exist.
 ### getRelations() {#getRelations--}
 ```
 public System.Data.DataRelationCollection getRelations()
@@ -154,30 +201,67 @@ Get the collection of relations that link tables and allow navigation from paren
 
 **Returns:**
 [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) that contains a collection of [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects exist.
-### close() {#close--}
+### getTables() {#getTables--}
 ```
-public void close()
-```
-
-
-
-
-### clear() {#clear--}
-```
-public void clear()
+public System.Data.DataTableCollection getTables()
 ```
 
 
-Clears the [DataSet](../../com.aspose.words.net.system.data/dataset) of any data by removing all rows in all tables.
+Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-### reset() {#reset--}
+**Returns:**
+[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) - The [DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) contained by this [DataSet](../../com.aspose.words.net.system.data/dataset). An empty collection is returned if no [DataTable](../../com.aspose.words.net.system.data/datatable) objects exist.
+### hashCode() {#hashCode--}
 ```
-public void reset()
+public native int hashCode()
 ```
 
 
-Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. Subclasses should override [reset()](../../com.aspose.words.net.system.data/dataset\#reset--) to restore a [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state.
 
+
+**Returns:**
+int
+### isLocaleSpecified() {#isLocaleSpecified--}
+```
+public boolean isLocaleSpecified()
+```
+
+
+
+
+**Returns:**
+boolean - true if locale was set
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### readXml(InputStream stream) {#readXml-java.io.InputStream-}
+```
+public System.Data.XmlReadMode readXml(InputStream stream)
+```
+
+
+Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified java.io.InputStream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | java.io.InputStream | An object that derives from java.io.InputStream. |
+
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) constants.
 ### readXml(InputStream xmlStream, System.Data.XmlReadMode mode) {#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-}
 ```
 public System.Data.XmlReadMode readXml(InputStream xmlStream, System.Data.XmlReadMode mode)
@@ -194,21 +278,6 @@ Reads XML schema and data into the DataSet using the specified java.io.InputStre
 
 **Returns:**
 [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The XmlReadMode used to read the data.
-### readXml(InputStream stream) {#readXml-java.io.InputStream-}
-```
-public System.Data.XmlReadMode readXml(InputStream stream)
-```
-
-
-Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified java.io.InputStream.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| stream | java.io.InputStream | An object that derives from java.io.InputStream. |
-
-**Returns:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) constants.
 ### readXml(String fileName) {#readXml-java.lang.String-}
 ```
 public System.Data.XmlReadMode readXml(String fileName)
@@ -266,39 +335,27 @@ Reads the XML schema from the specified file into the [DataSet](../../com.aspose
 | --- | --- | --- |
 | fileName | java.lang.String | The file name (including the path) from which to read. |
 
-### setLocale(Locale locale) {#setLocale-java.util.Locale-}
+### reset() {#reset--}
 ```
-public void setLocale(Locale locale)
+public void reset()
 ```
 
 
-Sets the locale information used to compare strings within the table.
+Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. Subclasses should override [reset()](../../com.aspose.words.net.system.data/dataset\#reset--) to restore a [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state.
+
+### setDataSetName(String value) {#setDataSetName-java.lang.String-}
+```
+public void setDataSetName(String value)
+```
+
+
+Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| locale | java.util.Locale | of this data set |
+| value | java.lang.String | The name of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 
-### isLocaleSpecified() {#isLocaleSpecified--}
-```
-public boolean isLocaleSpecified()
-```
-
-
-
-
-**Returns:**
-boolean - true if locale was set
-### getEnforceConstraints() {#getEnforceConstraints--}
-```
-public boolean getEnforceConstraints()
-```
-
-
-Gets a value indicating whether constraint rules are followed when attempting any update operation.
-
-**Returns:**
-boolean - true if rules are enforced; otherwise false. The default is true.
 ### setEnforceConstraints(boolean value) {#setEnforceConstraints-boolean-}
 ```
 public void setEnforceConstraints(boolean value)
@@ -312,13 +369,61 @@ Sets a value indicating whether constraint rules are followed when attempting an
 | --- | --- | --- |
 | value | boolean | true if rules are enforced; otherwise false. The default is true. |
 
-### IsSchemaWasRead() {#IsSchemaWasRead--}
+### setLocale(Locale locale) {#setLocale-java.util.Locale-}
 ```
-public boolean IsSchemaWasRead()
+public void setLocale(Locale locale)
+```
+
+
+Sets the locale information used to compare strings within the table.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| locale | java.util.Locale | of this data set |
+
+### toString() {#toString--}
+```
+public String toString()
 ```
 
 
 
 
 **Returns:**
-boolean - true if schema was read
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

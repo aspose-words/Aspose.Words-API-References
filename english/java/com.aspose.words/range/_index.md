@@ -26,20 +26,102 @@ The document is represented by a tree of nodes and the nodes provide operations 
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets the text of the range. |
-| [getFormFields()](#getFormFields--) | Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range. |
-| [getBookmarks()](#getBookmarks--) | Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range. |
-| [getFields()](#getFields--) | Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range. |
-| [getStructuredDocumentTags()](#getStructuredDocumentTags--) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range. |
 | [delete()](#delete--) | Deletes all characters of the range. |
-| [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [updateFields()](#updateFields--) | Updates the values of document fields in this range. |
-| [unlinkFields()](#unlinkFields--) | Unlinks fields in this range. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getBookmarks()](#getBookmarks--) | Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range. |
+| [getClass()](#getClass--) |  |
+| [getFields()](#getFields--) | Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range. |
+| [getFormFields()](#getFormFields--) | Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range. |
+| [getStructuredDocumentTags()](#getStructuredDocumentTags--) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range. |
+| [getText()](#getText--) | Gets the text of the range. |
+| [hashCode()](#hashCode--) |  |
 | [normalizeFieldTypes()](#normalizeFieldTypes--) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
+| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
+| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
 | [toDocument()](#toDocument--) | Constructs a new fully formed document that contains the range. |
+| [toString()](#toString--) |  |
+| [unlinkFields()](#unlinkFields--) | Unlinks fields in this range. |
+| [updateFields()](#updateFields--) | Updates the values of document fields in this range. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### delete() {#delete--}
+```
+public void delete()
+```
+
+
+Deletes all characters of the range.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getBookmarks() {#getBookmarks--}
+```
+public BookmarkCollection getBookmarks()
+```
+
+
+Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
+
+**Returns:**
+[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - A [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getFields() {#getFields--}
+```
+public FieldCollection getFields()
+```
+
+
+Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
+
+**Returns:**
+[FieldCollection](../../com.aspose.words/fieldcollection) - A [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
+### getFormFields() {#getFormFields--}
+```
+public FormFieldCollection getFormFields()
+```
+
+
+Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
+
+**Returns:**
+[FormFieldCollection](../../com.aspose.words/formfieldcollection) - A [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
+### getStructuredDocumentTags() {#getStructuredDocumentTags--}
+```
+public StructuredDocumentTagCollection getStructuredDocumentTags()
+```
+
+
+Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
+
+**Returns:**
+[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - A [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
 ### getText() {#getText--}
 ```
 public String getText()
@@ -52,53 +134,43 @@ The returned string includes all control and special characters as described in 
 
 **Returns:**
 java.lang.String - The text of the range.
-### getFormFields() {#getFormFields--}
+### hashCode() {#hashCode--}
 ```
-public FormFieldCollection getFormFields()
+public native int hashCode()
 ```
 
 
-Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
+
 
 **Returns:**
-[FormFieldCollection](../../com.aspose.words/formfieldcollection) - A [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
-### getBookmarks() {#getBookmarks--}
+int
+### normalizeFieldTypes() {#normalizeFieldTypes--}
 ```
-public BookmarkCollection getBookmarks()
-```
-
-
-Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
-
-**Returns:**
-[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - A [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
-### getFields() {#getFields--}
-```
-public FieldCollection getFields()
+public void normalizeFieldTypes()
 ```
 
 
-Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
+Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes.
 
-**Returns:**
-[FieldCollection](../../com.aspose.words/fieldcollection) - A [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
-### getStructuredDocumentTags() {#getStructuredDocumentTags--}
+Use this method after document changes that affect field types.
+
+To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes--).
+
+### notify() {#notify--}
 ```
-public StructuredDocumentTagCollection getStructuredDocumentTags()
-```
-
-
-Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
-
-**Returns:**
-[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - A [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
-### delete() {#delete--}
-```
-public void delete()
+public final native void notify()
 ```
 
 
-Deletes all characters of the range.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### replace(String pattern, String replacement) {#replace-java.lang.String-java.lang.String-}
 ```
@@ -128,6 +200,46 @@ Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindRep
 | --- | --- | --- |
 | pattern | java.lang.String | A string to be replaced. |
 | replacement | java.lang.String | A string to replace all occurrences of pattern. |
+
+**Returns:**
+int - The number of replacements made.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.Writeln("Numbers 1, 2, 3");
+
+ // Inserts paragraph break after Numbers.
+ doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
+ 
+```
+### replace(String pattern, String replacement, FindReplaceOptions options) {#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-}
+```
+public int replace(String pattern, String replacement, FindReplaceOptions options)
+```
+
+
+Replaces all occurrences of a specified character string pattern with a replacement string.
+
+The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-) if you need regular expressions.
+
+Method is able to process breaks in both pattern and replacement strings.
+
+You should use special meta-characters if you need to work with breaks:
+
+ *  **&p** \- paragraph break
+ *  **&b** \- section break
+ *  **&m** \- page break
+ *  **&l** \- manual line break
+ *  **&&** \- & character
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pattern | java.lang.String | A string to be replaced. |
+| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
 
 **Returns:**
 int - The number of replacements made.
@@ -182,46 +294,6 @@ int - The number of replacements made.
  doc.Range.Replace(new Regex(@"\d+"), "&p");
  
 ```
-### replace(String pattern, String replacement, FindReplaceOptions options) {#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-}
-```
-public int replace(String pattern, String replacement, FindReplaceOptions options)
-```
-
-
-Replaces all occurrences of a specified character string pattern with a replacement string.
-
-The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-) if you need regular expressions.
-
-Method is able to process breaks in both pattern and replacement strings.
-
-You should use special meta-characters if you need to work with breaks:
-
- *  **&p** \- paragraph break
- *  **&b** \- section break
- *  **&m** \- page break
- *  **&l** \- manual line break
- *  **&&** \- & character
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| pattern | java.lang.String | A string to be replaced. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
-
-**Returns:**
-int - The number of replacements made.
-
-```
-
- Document doc = new Document();
- DocumentBuilder builder = new DocumentBuilder(doc);
- builder.Writeln("Numbers 1, 2, 3");
-
- // Inserts paragraph break after Numbers.
- doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
- 
-```
 ### replace(Pattern pattern, String replacement, FindReplaceOptions options) {#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-}
 ```
 public int replace(Pattern pattern, String replacement, FindReplaceOptions options)
@@ -262,6 +334,38 @@ int - The number of replacements made.
  doc.Range.Replace(new Regex(@"\d+"), "&p", new FindReplaceOptions());
  
 ```
+### toDocument() {#toDocument--}
+```
+public Document toDocument()
+```
+
+
+Constructs a new fully formed document that contains the range.
+
+**Returns:**
+[Document](../../com.aspose.words/document)
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### unlinkFields() {#unlinkFields--}
+```
+public void unlinkFields()
+```
+
+
+Unlinks fields in this range.
+
+Replaces all the fields in this range with their most recent results.
+
+To unlink fields in the whole document use [unlinkFields()](../../com.aspose.words/range\#unlinkFields--).
+
 ### updateFields() {#updateFields--}
 ```
 public void updateFields()
@@ -280,37 +384,38 @@ This method does not update fields that are related to the page layout algorithm
 
 To update fields in the whole document use [Document.updateFields()](../../com.aspose.words/document\#updateFields--).
 
-### unlinkFields() {#unlinkFields--}
+### wait() {#wait--}
 ```
-public void unlinkFields()
-```
-
-
-Unlinks fields in this range.
-
-Replaces all the fields in this range with their most recent results.
-
-To unlink fields in the whole document use [unlinkFields()](../../com.aspose.words/range\#unlinkFields--).
-
-### normalizeFieldTypes() {#normalizeFieldTypes--}
-```
-public void normalizeFieldTypes()
+public final void wait()
 ```
 
 
-Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes.
 
-Use this method after document changes that affect field types.
 
-To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes--).
-
-### toDocument() {#toDocument--}
+### wait(long arg0) {#wait-long-}
 ```
-public Document toDocument()
+public final native void wait(long arg0)
 ```
 
 
-Constructs a new fully formed document that contains the range.
 
-**Returns:**
-[Document](../../com.aspose.words/document)
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

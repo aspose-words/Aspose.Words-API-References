@@ -11,7 +11,7 @@ url: /python-net/aspose.words.properties/documentproperty/value/
 
 Gets or sets the value of the property.
 
-Cannot be null.
+Cannot be ``None``.
 
 
 

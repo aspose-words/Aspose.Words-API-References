@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback class
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Implement this interface if you want to have your own custom methods called during a field update."
 type: docs
-weight: 1240
+weight: 1250
 url: /python-net/aspose.words.fields/ifieldupdatingcallback/
 ---
 

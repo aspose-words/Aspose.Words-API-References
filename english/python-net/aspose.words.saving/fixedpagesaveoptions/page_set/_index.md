@@ -47,7 +47,7 @@ doc = aw.Document()
 builder = aw.DocumentBuilder(doc)
 
 for i in range(5):
-    builder.writeln(f"Page {i + 1} ({'odd' if i % 2 == 0 else 'even'})")
+    builder.writeln("Page " + str(i + 1) + "(" + ("odd" if i % 2 == 0 else "even") + ")")
     if i < 4:
         builder.insert_break(aw.BreakType.PAGE_BREAK)
 
@@ -81,7 +81,7 @@ builder = aw.DocumentBuilder(doc)
 
 # Add five pages to the document.
 for i in range(1, 6):
-    builder.write(f"Page {i}")
+    builder.write("Page " + str(i))
     builder.insert_break(aw.BreakType.PAGE_BREAK)
 
 # Create an "XpsSaveOptions" object, which we can pass to the document's "save" method

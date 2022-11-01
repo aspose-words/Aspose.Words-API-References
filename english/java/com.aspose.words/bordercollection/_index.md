@@ -25,28 +25,45 @@ Different document elements have different borders. For example, ParagraphFormat
 
 | Method | Description |
 | --- | --- |
-| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | Compares collections of borders. |
-| [getByBorderType(int borderType)](#getByBorderType-int-) |  |
-| [get(int index)](#get-int-) | Retrieves a Border object by index. |
-| [getLeft()](#getLeft--) | Gets the left border. |
-| [getRight()](#getRight--) | Gets the right border. |
-| [getTop()](#getTop--) | Gets the top border. |
-| [getBottom()](#getBottom--) | Gets the bottom border. |
-| [getHorizontal()](#getHorizontal--) | Gets the horizontal border that is used between cells or conforming paragraphs. |
-| [getVertical()](#getVertical--) | Gets the vertical border that is used between cells. |
-| [getCount()](#getCount--) | Gets the number of borders in the collection. |
-| [getLineWidth()](#getLineWidth--) | Gets the border width in points. |
-| [setLineWidth(double value)](#setLineWidth-double-) | Sets the border width in points. |
-| [getLineStyle()](#getLineStyle--) | Gets the border style. |
-| [setLineStyle(int value)](#setLineStyle-int-) | Sets the border style. |
-| [getColor()](#getColor--) | Gets the border color. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the border color. |
-| [getDistanceFromText()](#getDistanceFromText--) | Gets distance of the border from text in points. |
-| [setDistanceFromText(double value)](#setDistanceFromText-double-) | Sets distance of the border from text in points. |
-| [getShadow()](#getShadow--) | Gets a value indicating whether the border has a shadow. |
-| [setShadow(boolean value)](#setShadow-boolean-) | Sets a value indicating whether the border has a shadow. |
 | [clearFormatting()](#clearFormatting--) | Removes all borders of an object. |
+| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | Compares collections of borders. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Retrieves a Border object by index. |
+| [getBottom()](#getBottom--) | Gets the bottom border. |
+| [getByBorderType(int borderType)](#getByBorderType-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Gets the border color. |
+| [getCount()](#getCount--) | Gets the number of borders in the collection. |
+| [getDistanceFromText()](#getDistanceFromText--) | Gets distance of the border from text in points. |
+| [getHorizontal()](#getHorizontal--) | Gets the horizontal border that is used between cells or conforming paragraphs. |
+| [getLeft()](#getLeft--) | Gets the left border. |
+| [getLineStyle()](#getLineStyle--) | Gets the border style. |
+| [getLineWidth()](#getLineWidth--) | Gets the border width in points. |
+| [getRight()](#getRight--) | Gets the right border. |
+| [getShadow()](#getShadow--) | Gets a value indicating whether the border has a shadow. |
+| [getTop()](#getTop--) | Gets the top border. |
+| [getVertical()](#getVertical--) | Gets the vertical border that is used between cells. |
+| [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Returns an enumerator object that can be used to iterate over all borders in the collection. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the border color. |
+| [setDistanceFromText(double value)](#setDistanceFromText-double-) | Sets distance of the border from text in points. |
+| [setLineStyle(int value)](#setLineStyle-int-) | Sets the border style. |
+| [setLineWidth(double value)](#setLineWidth-double-) | Sets the border width in points. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Sets a value indicating whether the border has a shadow. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### clearFormatting() {#clearFormatting--}
+```
+public void clearFormatting()
+```
+
+
+Removes all borders of an object.
+
 ### equals(BorderCollection brColl) {#equals-com.aspose.words.BorderCollection-}
 ```
 public boolean equals(BorderCollection brColl)
@@ -62,9 +79,9 @@ Compares collections of borders.
 
 **Returns:**
 boolean
-### getByBorderType(int borderType) {#getByBorderType-int-}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public Border getByBorderType(int borderType)
+public boolean equals(Object arg0)
 ```
 
 
@@ -73,10 +90,10 @@ public Border getByBorderType(int borderType)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| borderType | int |  |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-[Border](../../com.aspose.words/border)
+boolean
 ### get(int index) {#get-int-}
 ```
 public Border get(int index)
@@ -92,36 +109,6 @@ Retrieves a Border object by index.
 
 **Returns:**
 [Border](../../com.aspose.words/border) - The corresponding [Border](../../com.aspose.words/border) value.
-### getLeft() {#getLeft--}
-```
-public Border getLeft()
-```
-
-
-Gets the left border.
-
-**Returns:**
-[Border](../../com.aspose.words/border) - The left border.
-### getRight() {#getRight--}
-```
-public Border getRight()
-```
-
-
-Gets the right border.
-
-**Returns:**
-[Border](../../com.aspose.words/border) - The right border.
-### getTop() {#getTop--}
-```
-public Border getTop()
-```
-
-
-Gets the top border.
-
-**Returns:**
-[Border](../../com.aspose.words/border) - The top border.
 ### getBottom() {#getBottom--}
 ```
 public Border getBottom()
@@ -132,98 +119,31 @@ Gets the bottom border.
 
 **Returns:**
 [Border](../../com.aspose.words/border) - The bottom border.
-### getHorizontal() {#getHorizontal--}
+### getByBorderType(int borderType) {#getByBorderType-int-}
 ```
-public Border getHorizontal()
-```
-
-
-Gets the horizontal border that is used between cells or conforming paragraphs.
-
-**Returns:**
-[Border](../../com.aspose.words/border) - The horizontal border that is used between cells or conforming paragraphs.
-### getVertical() {#getVertical--}
-```
-public Border getVertical()
+public Border getByBorderType(int borderType)
 ```
 
 
-Gets the vertical border that is used between cells.
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The vertical border that is used between cells.
-### getCount() {#getCount--}
-```
-public int getCount()
-```
-
-
-Gets the number of borders in the collection.
-
-**Returns:**
-int - The number of borders in the collection.
-### getLineWidth() {#getLineWidth--}
-```
-public double getLineWidth()
-```
-
-
-Gets the border width in points.
-
-Returns the width of the first border in the collection.
-
-Sets the width of all borders in the collection excluding diagonal borders.
-
-**Returns:**
-double - The border width in points.
-### setLineWidth(double value) {#setLineWidth-double-}
-```
-public void setLineWidth(double value)
-```
-
-
-Sets the border width in points.
-
-Returns the width of the first border in the collection.
-
-Sets the width of all borders in the collection excluding diagonal borders.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | The border width in points. |
-
-### getLineStyle() {#getLineStyle--}
-```
-public int getLineStyle()
-```
-
-
-Gets the border style.
-
-Returns the style of the first border in the collection.
-
-Sets the style of all borders in the collection excluding diagonal borders.
+| borderType | int |  |
 
 **Returns:**
-int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
-### setLineStyle(int value) {#setLineStyle-int-}
+[Border](../../com.aspose.words/border)
+### getClass() {#getClass--}
 ```
-public void setLineStyle(int value)
+public final native Class<?> getClass()
 ```
 
 
-Sets the border style.
 
-Returns the style of the first border in the collection.
 
-Sets the style of all borders in the collection excluding diagonal borders.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
-
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -238,6 +158,160 @@ Sets the color of all borders in the collection excluding diagonal borders.
 
 **Returns:**
 java.awt.Color - The border color.
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of borders in the collection.
+
+**Returns:**
+int - The number of borders in the collection.
+### getDistanceFromText() {#getDistanceFromText--}
+```
+public double getDistanceFromText()
+```
+
+
+Gets distance of the border from text in points.
+
+Gets the distance from text for the first border.
+
+Sets the distance from text for all borders in the collection excluding diagonal borders.
+
+Has no effect and will be automatically reset to zero for borders of table cells.
+
+**Returns:**
+double - Distance of the border from text in points.
+### getHorizontal() {#getHorizontal--}
+```
+public Border getHorizontal()
+```
+
+
+Gets the horizontal border that is used between cells or conforming paragraphs.
+
+**Returns:**
+[Border](../../com.aspose.words/border) - The horizontal border that is used between cells or conforming paragraphs.
+### getLeft() {#getLeft--}
+```
+public Border getLeft()
+```
+
+
+Gets the left border.
+
+**Returns:**
+[Border](../../com.aspose.words/border) - The left border.
+### getLineStyle() {#getLineStyle--}
+```
+public int getLineStyle()
+```
+
+
+Gets the border style.
+
+Returns the style of the first border in the collection.
+
+Sets the style of all borders in the collection excluding diagonal borders.
+
+**Returns:**
+int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
+### getLineWidth() {#getLineWidth--}
+```
+public double getLineWidth()
+```
+
+
+Gets the border width in points.
+
+Returns the width of the first border in the collection.
+
+Sets the width of all borders in the collection excluding diagonal borders.
+
+**Returns:**
+double - The border width in points.
+### getRight() {#getRight--}
+```
+public Border getRight()
+```
+
+
+Gets the right border.
+
+**Returns:**
+[Border](../../com.aspose.words/border) - The right border.
+### getShadow() {#getShadow--}
+```
+public boolean getShadow()
+```
+
+
+Gets a value indicating whether the border has a shadow.
+
+Gets the value from the first border in the collection.
+
+Sets the value for all borders in the collection excluding diagonal borders.
+
+**Returns:**
+boolean - A value indicating whether the border has a shadow.
+### getTop() {#getTop--}
+```
+public Border getTop()
+```
+
+
+Gets the top border.
+
+**Returns:**
+[Border](../../com.aspose.words/border) - The top border.
+### getVertical() {#getVertical--}
+```
+public Border getVertical()
+```
+
+
+Gets the vertical border that is used between cells.
+
+**Returns:**
+[Border](../../com.aspose.words/border) - The vertical border that is used between cells.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Returns an enumerator object that can be used to iterate over all borders in the collection.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public void setColor(Color value)
@@ -255,22 +329,6 @@ Sets the color of all borders in the collection excluding diagonal borders.
 | --- | --- | --- |
 | value | java.awt.Color | The border color. |
 
-### getDistanceFromText() {#getDistanceFromText--}
-```
-public double getDistanceFromText()
-```
-
-
-Gets distance of the border from text in points.
-
-Gets the distance from text for the first border.
-
-Sets the distance from text for all borders in the collection excluding diagonal borders.
-
-Has no effect and will be automatically reset to zero for borders of table cells.
-
-**Returns:**
-double - Distance of the border from text in points.
 ### setDistanceFromText(double value) {#setDistanceFromText-double-}
 ```
 public void setDistanceFromText(double value)
@@ -290,20 +348,40 @@ Has no effect and will be automatically reset to zero for borders of table cells
 | --- | --- | --- |
 | value | double | Distance of the border from text in points. |
 
-### getShadow() {#getShadow--}
+### setLineStyle(int value) {#setLineStyle-int-}
 ```
-public boolean getShadow()
+public void setLineStyle(int value)
 ```
 
 
-Gets a value indicating whether the border has a shadow.
+Sets the border style.
 
-Gets the value from the first border in the collection.
+Returns the style of the first border in the collection.
 
-Sets the value for all borders in the collection excluding diagonal borders.
+Sets the style of all borders in the collection excluding diagonal borders.
 
-**Returns:**
-boolean - A value indicating whether the border has a shadow.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
+
+### setLineWidth(double value) {#setLineWidth-double-}
+```
+public void setLineWidth(double value)
+```
+
+
+Sets the border width in points.
+
+Returns the width of the first border in the collection.
+
+Sets the width of all borders in the collection excluding diagonal borders.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double | The border width in points. |
+
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
 public void setShadow(boolean value)
@@ -321,21 +399,48 @@ Sets the value for all borders in the collection excluding diagonal borders.
 | --- | --- | --- |
 | value | boolean | A value indicating whether the border has a shadow. |
 
-### clearFormatting() {#clearFormatting--}
+### toString() {#toString--}
 ```
-public void clearFormatting()
-```
-
-
-Removes all borders of an object.
-
-### iterator() {#iterator--}
-```
-public Iterator iterator()
+public String toString()
 ```
 
 
-Returns an enumerator object that can be used to iterate over all borders in the collection.
+
 
 **Returns:**
-java.util.Iterator
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

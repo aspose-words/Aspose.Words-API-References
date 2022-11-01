@@ -1,7 +1,7 @@
 ﻿---
 title: FontConfigSubstitutionRule class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Font config substitution rule."
+description: "Font config substitution rule"
 type: docs
 weight: 60
 url: /python-net/aspose.words.fonts/fontconfigsubstitutionrule/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontconfigsubstitutionrule/
 ## FontConfigSubstitutionRule class
 
 Font config substitution rule.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution

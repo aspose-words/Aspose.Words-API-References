@@ -1,7 +1,7 @@
 ﻿---
 title: RevisionOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control how document revisions are handled during layout process."
+description: "Allows to control how document revisions are handled during layout process"
 type: docs
 weight: 110
 url: /python-net/aspose.words.layout/revisionoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.layout/revisionoptions/
 ## RevisionOptions class
 
 Allows to control how document revisions are handled during layout process.
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
+
 
 
 ### Properties
@@ -32,9 +35,9 @@ Allows to control how document revisions are handled during layout process.
 | [revision_bars_position](./revision_bars_position/) | Gets or sets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../aspose.words.drawing/horizontalalignment/#OUTSIDE). |
 | [revision_bars_width](./revision_bars_width/) | Gets or sets width of revision bars, points. |
 | [show_in_balloons](./show_in_balloons/) | Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../showinballoons/#NONE). |
-| [show_original_revision](./show_original_revision/) | Allows to specify whether the original text should be shown instead of revised one. Default value is False. |
-| [show_revision_bars](./show_revision_bars/) | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True. |
-| [show_revision_marks](./show_revision_marks/) | Allow to specify whether revision text should be marked with special formatting markup. Default value is True. |
+| [show_original_revision](./show_original_revision/) | Allows to specify whether the original text should be shown instead of revised one. Default value is ``False``. |
+| [show_revision_bars](./show_revision_bars/) | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is ``True``. |
+| [show_revision_marks](./show_revision_marks/) | Allow to specify whether revision text should be marked with special formatting markup. Default value is ``True``. |
 
 ### Examples
 

@@ -26,8 +26,17 @@ To learn more, visit the **Working with Fields** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getResult()](#getResult--) | Gets the comparison evaluation result. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getErrorMessage()](#getErrorMessage--) | Gets the failed comparison evaluation result's error message. |
+| [getResult()](#getResult--) | Gets the comparison evaluation result. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ComparisonEvaluationResult(boolean result) {#ComparisonEvaluationResult-boolean-}
 ```
 public ComparisonEvaluationResult(boolean result)
@@ -54,16 +63,31 @@ Creates a failed comparison evaluation result with the corresponding error messa
 | --- | --- | --- |
 | errorMessage | java.lang.String |  |
 
-### getResult() {#getResult--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean getResult()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the comparison evaluation result.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean - The comparison evaluation result.
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getErrorMessage() {#getErrorMessage--}
 ```
 public String getErrorMessage()
@@ -74,3 +98,84 @@ Gets the failed comparison evaluation result's error message.
 
 **Returns:**
 java.lang.String - The failed comparison evaluation result's error message.
+### getResult() {#getResult--}
+```
+public boolean getResult()
+```
+
+
+Gets the comparison evaluation result.
+
+**Returns:**
+boolean - The comparison evaluation result.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

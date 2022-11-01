@@ -18,25 +18,34 @@ Specifies how DrawingML effects are rendered to fixed page formats.
 
 | Field | Description |
 | --- | --- |
-| [SIMPLIFIED](#SIMPLIFIED) | Rendering of DrawingML effects are simplified. |
-| [NONE](#NONE) | No DrawingML effects are rendered. |
 | [FINE](#FINE) | DrawingML effects are rendered in fine mode which involves advanced processing. |
+| [NONE](#NONE) | No DrawingML effects are rendered. |
+| [SIMPLIFIED](#SIMPLIFIED) | Rendering of DrawingML effects are simplified. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int dmlEffectsRenderingMode)](#getName-int-) |  |
-| [toString(int dmlEffectsRenderingMode)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dmlEffectsRenderingModeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int dmlEffectsRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### SIMPLIFIED {#SIMPLIFIED}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int dmlEffectsRenderingMode)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### FINE {#FINE}
 ```
-public static int SIMPLIFIED
+public static int FINE
 ```
 
 
-Rendering of DrawingML effects are simplified.
+DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED) mode.
 
 ### NONE {#NONE}
 ```
@@ -46,13 +55,13 @@ public static int NONE
 
 No DrawingML effects are rendered.
 
-### FINE {#FINE}
+### SIMPLIFIED {#SIMPLIFIED}
 ```
-public static int FINE
+public static int SIMPLIFIED
 ```
 
 
-DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED) mode.
+Rendering of DrawingML effects are simplified.
 
 ### length {#length}
 ```
@@ -60,6 +69,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String dmlEffectsRenderingModeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String dmlEffectsRenderingModeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| dmlEffectsRenderingModeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int dmlEffectsRenderingMode) {#getName-int-}
 ```
 public static String getName(int dmlEffectsRenderingMode)
@@ -72,6 +121,52 @@ public static String getName(int dmlEffectsRenderingMode)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | dmlEffectsRenderingMode | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int dmlEffectsRenderingMode)
 
 **Returns:**
 java.lang.String
-### fromName(String dmlEffectsRenderingModeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String dmlEffectsRenderingModeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String dmlEffectsRenderingModeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| dmlEffectsRenderingModeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

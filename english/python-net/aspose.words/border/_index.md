@@ -1,7 +1,7 @@
 ﻿---
 title: Border class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a border of an object."
+description: "Represents a border of an object"
 type: docs
 weight: 70
 url: /python-net/aspose.words/border/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/border/
 ## Border class
 
 Represents a border of an object.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
+
 
 
 Borders can be applied to various document elements including paragraph,
@@ -26,7 +29,7 @@ run of text inside a paragraph or a table cell.
 | --- | --- |
 | [color](./color/) | Gets or sets the border color. |
 | [distance_from_text](./distance_from_text/) | Gets or sets distance of the border from text or from the page edge in points. |
-| [is_visible](./is_visible/) | Returns true if the LineStyle is not LineStyle.None. |
+| [is_visible](./is_visible/) | Returns ``True`` if the [Border.line_style](./line_style/) is not [LineStyle.NONE](../linestyle/#NONE). |
 | [line_style](./line_style/) | Gets or sets the border style. |
 | [line_width](./line_width/) | Gets or sets the border width in points. |
 | [shadow](./shadow/) | Gets or sets a value indicating whether the border has a shadow. |

@@ -20,39 +20,90 @@ To learn more, visit the **Working with Watermark** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [setText(String text)](#setText-java.lang.String-) | Adds Text watermark into the document. |
-| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-) | Adds Text watermark into the document. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getType()](#getType--) | Gets the watermark type. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the watermark. |
 | [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | Adds Image watermark into the document. |
 | [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-) | Adds Image watermark into the document. |
 | [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-) | Adds Image watermark into the document. |
-| [getType()](#getType--) | Gets the watermark type. |
-| [remove()](#remove--) | Removes the watermark. |
-### setText(String text) {#setText-java.lang.String-}
+| [setText(String text)](#setText-java.lang.String-) | Adds Text watermark into the document. |
+| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-) | Adds Text watermark into the document. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void setText(String text)
+public boolean equals(Object arg0)
 ```
 
 
-Adds Text watermark into the document.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | Text that is displayed as a watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+| arg0 | java.lang.Object |  |
 
-### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public void setText(String text, TextWatermarkOptions options)
+public final native Class<?> getClass()
 ```
 
 
-Adds Text watermark into the document.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| text | java.lang.String | Text that is displayed as a watermark. |
-| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | Defines additional options for the text watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+
+**Returns:**
+java.lang.Class<?>
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Gets the watermark type.
+
+**Returns:**
+int - The watermark type. The returned value is one of [WatermarkType](../../com.aspose.words/watermarktype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public void remove()
+```
+
+
+Removes the watermark.
 
 ### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage-}
 ```
@@ -95,21 +146,75 @@ Adds Image watermark into the document.
 | imagePath | java.lang.String | Path to the image file that is displayed as a watermark. |
 | options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Defines additional options for the image watermark. |
 
-### getType() {#getType--}
+### setText(String text) {#setText-java.lang.String-}
 ```
-public int getType()
+public void setText(String text)
 ```
 
 
-Gets the watermark type.
+Adds Text watermark into the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | Text that is displayed as a watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+
+### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-}
+```
+public void setText(String text, TextWatermarkOptions options)
+```
+
+
+Adds Text watermark into the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| text | java.lang.String | Text that is displayed as a watermark. |
+| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | Defines additional options for the text watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-int - The watermark type. The returned value is one of [WatermarkType](../../com.aspose.words/watermarktype) constants.
-### remove() {#remove--}
+java.lang.String
+### wait() {#wait--}
 ```
-public void remove()
+public final void wait()
 ```
 
 
-Removes the watermark.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

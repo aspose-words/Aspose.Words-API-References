@@ -3,7 +3,7 @@ title: use_invariant_culture_number_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the value indicating that number format is parsed using invariant culture or not"
 type: docs
-weight: 180
+weight: 190
 url: /python-net/aspose.words.fields/fieldoptions/use_invariant_culture_number_format/
 ---
 
@@ -11,13 +11,13 @@ url: /python-net/aspose.words.fields/fieldoptions/use_invariant_culture_number_f
 
 Gets or sets the value indicating that number format is parsed using invariant culture or not
 
-When this property is set to **true**, number format is taken from an invariant culture.
+When this property is set to ``True``, number format is taken from an invariant culture.
 
 
-When this property is set to **false**, number format is taken from the current thread's culture.
+When this property is set to ``False``, number format is taken from the current thread's culture.
 
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

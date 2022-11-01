@@ -31,17 +31,89 @@ Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../../com.
 
 | Method | Description |
 | --- | --- |
+| [deepClone()](#deepClone--) | Makes a "deep enough" copy of the object. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getContentType()](#getContentType--) | Specifies the content type of this custom part. |
+| [getData()](#getData--) | Contains the data of this custom part. |
 | [getName()](#getName--) | Gets this part's absolute name within the OOXML package or the target URL. |
-| [setName(String value)](#setName-java.lang.String-) | Sets this part's absolute name within the OOXML package or the target URL. |
 | [getRelationshipType()](#getRelationshipType--) | Gets the relationship type from the parent part to this custom part. |
-| [setRelationshipType(String value)](#setRelationshipType-java.lang.String-) | Sets the relationship type from the parent part to this custom part. |
+| [hashCode()](#hashCode--) |  |
 | [isExternal()](#isExternal--) | \{ False  if this custom part is stored inside the OOXML package. |
 | [isExternal(boolean value)](#isExternal-boolean-) | \{ False  if this custom part is stored inside the OOXML package. |
-| [getContentType()](#getContentType--) | Specifies the content type of this custom part. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setContentType(String value)](#setContentType-java.lang.String-) | Specifies the content type of this custom part. |
-| [getData()](#getData--) | Contains the data of this custom part. |
 | [setData(byte[] value)](#setData-byte---) | Contains the data of this custom part. |
-| [deepClone()](#deepClone--) | Makes a "deep enough" copy of the object. |
+| [setName(String value)](#setName-java.lang.String-) | Sets this part's absolute name within the OOXML package or the target URL. |
+| [setRelationshipType(String value)](#setRelationshipType-java.lang.String-) | Sets the relationship type from the parent part to this custom part. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### deepClone() {#deepClone--}
+```
+public CustomPart deepClone()
+```
+
+
+Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---) value.
+
+**Returns:**
+[CustomPart](../../com.aspose.words/custompart)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getContentType() {#getContentType--}
+```
+public String getContentType()
+```
+
+
+Specifies the content type of this custom part.
+
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
+
+The default value is an empty string. A valid value must be a non-empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getData() {#getData--}
+```
+public byte[] getData()
+```
+
+
+Contains the data of this custom part.
+
+This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
+
+The default value is an empty byte array. The value cannot be  null .
+
+**Returns:**
+byte[] - The corresponding byte[] value.
 ### getName() {#getName--}
 ```
 public String getName()
@@ -56,23 +128,6 @@ The default value is an empty string. A valid value must be a non-empty string.
 
 **Returns:**
 java.lang.String - This part's absolute name within the OOXML package or the target URL.
-### setName(String value) {#setName-java.lang.String-}
-```
-public void setName(String value)
-```
-
-
-Sets this part's absolute name within the OOXML package or the target URL.
-
-If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
-
-The default value is an empty string. A valid value must be a non-empty string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | This part's absolute name within the OOXML package or the target URL. |
-
 ### getRelationshipType() {#getRelationshipType--}
 ```
 public String getRelationshipType()
@@ -87,23 +142,16 @@ The default value is an empty string. A valid value must be a non-empty string.
 
 **Returns:**
 java.lang.String - The relationship type from the parent part to this custom part.
-### setRelationshipType(String value) {#setRelationshipType-java.lang.String-}
+### hashCode() {#hashCode--}
 ```
-public void setRelationshipType(String value)
+public native int hashCode()
 ```
 
 
-Sets the relationship type from the parent part to this custom part.
 
-The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
 
-The default value is an empty string. A valid value must be a non-empty string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The relationship type from the parent part to this custom part. |
-
+**Returns:**
+int
 ### isExternal() {#isExternal--}
 ```
 public boolean isExternal()
@@ -131,20 +179,22 @@ The default value is  false .
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getContentType() {#getContentType--}
+### notify() {#notify--}
 ```
-public String getContentType()
+public final native void notify()
 ```
 
 
-Specifies the content type of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
 
-The default value is an empty string. A valid value must be a non-empty string.
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+
+
+
 ### setContentType(String value) {#setContentType-java.lang.String-}
 ```
 public void setContentType(String value)
@@ -162,20 +212,6 @@ The default value is an empty string. A valid value must be a non-empty string.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getData() {#getData--}
-```
-public byte[] getData()
-```
-
-
-Contains the data of this custom part.
-
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
-
-The default value is an empty byte array. The value cannot be  null .
-
-**Returns:**
-byte[] - The corresponding byte[] value.
 ### setData(byte[] value) {#setData-byte---}
 ```
 public void setData(byte[] value)
@@ -193,13 +229,82 @@ The default value is an empty byte array. The value cannot be  null .
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
 
-### deepClone() {#deepClone--}
+### setName(String value) {#setName-java.lang.String-}
 ```
-public CustomPart deepClone()
+public void setName(String value)
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---) value.
+Sets this part's absolute name within the OOXML package or the target URL.
+
+If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
+
+The default value is an empty string. A valid value must be a non-empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | This part's absolute name within the OOXML package or the target URL. |
+
+### setRelationshipType(String value) {#setRelationshipType-java.lang.String-}
+```
+public void setRelationshipType(String value)
+```
+
+
+Sets the relationship type from the parent part to this custom part.
+
+The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
+
+The default value is an empty string. A valid value must be a non-empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The relationship type from the parent part to this custom part. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[CustomPart](../../com.aspose.words/custompart)
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

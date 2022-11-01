@@ -1,7 +1,7 @@
 ﻿---
 title: is_dictionary_registered method
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise."
+description: "Returns ``False`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``True`` otherwise."
 type: docs
 weight: 30
 url: /python-net/aspose.words/hyphenation/is_dictionary_registered/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/hyphenation/is_dictionary_registered/
 
 ## is_dictionary_registered(language) {#str}
 
-Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise.
+Returns ``False`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``True`` otherwise.
+
 
 
 ```python

@@ -40,6 +40,7 @@ Indicates the format in which the document is saved.
 | HTML | Saves the document in the HTML format. |
 | MHTML | Saves the document in the MHTML (Web archive) format. |
 | EPUB | Saves the document in the EPUB format. |
+| AZW3 | Saves the document in the AZW3 format. |
 | ODT | Saves the document as an ODF Text Document. |
 | OTT | Saves the document as an ODF Text Document Template. |
 | TEXT | Saves the document in the plain text format. |

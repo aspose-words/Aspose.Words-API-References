@@ -9,9 +9,8 @@ url: /python-net/aspose.words/pagesetup/suppress_endnotes/
 
 ## PageSetup.suppress_endnotes property
 
-**True** if endnotes are printed at the end of the next section that doesn't suppress endnotes.
+True if endnotes are printed at the end of the next section that doesn't suppress endnotes.
 Suppressed endnotes are printed before the endnotes in that section.
-
 
 
 ### Examples

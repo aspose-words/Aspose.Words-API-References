@@ -33,20 +33,88 @@ The **NodeCollection** collection is "live", i.e. changes to the children of the
 
 | Method | Description |
 | --- | --- |
-| [get(int index)](#get-int-) | Retrieves a node at the given index. |
 | [add(Node node)](#add-com.aspose.words.Node-) | Adds a node to the end of the collection. |
-| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | Inserts a node into the collection at the specified index. |
-| [remove(Node node)](#remove-com.aspose.words.Node-) | Removes the node from the collection and from the document. |
-| [removeAt(int index)](#removeAt-int-) | Removes the node at the specified index from the collection and from the document. |
 | [clear()](#clear--) | Removes all nodes from this collection and from the document. |
 | [contains(Node node)](#contains-com.aspose.words.Node-) | Determines whether a node is in the collection. |
-| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | Returns the zero-based index of the specified node. |
-| [toArray()](#toArray--) | Copies all nodes from the collection to a new array of nodes. |
-| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Retrieves a node at the given index. |
+| [getClass()](#getClass--) |  |
+| [getContainer()](#getContainer--) |  |
 | [getCount()](#getCount--) | Gets the number of nodes in the collection. |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getContainer()](#getContainer--) |  |
+| [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
+| [hashCode()](#hashCode--) |  |
+| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | Returns the zero-based index of the specified node. |
+| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | Inserts a node into the collection at the specified index. |
+| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove(Node node)](#remove-com.aspose.words.Node-) | Removes the node from the collection and from the document. |
+| [removeAt(int index)](#removeAt-int-) | Removes the node at the specified index from the collection and from the document. |
+| [toArray()](#toArray--) | Copies all nodes from the collection to a new array of nodes. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### add(Node node) {#add-com.aspose.words.Node-}
+```
+public void add(Node node)
+```
+
+
+Adds a node to the end of the collection.
+
+The node is inserted as a child into the node object from which the collection was created.
+
+If the newChild is already in the tree, it is first removed.
+
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Removes all nodes from this collection and from the document.
+
+### contains(Node node) {#contains-com.aspose.words.Node-}
+```
+public boolean contains(Node node)
+```
+
+
+Determines whether a node is in the collection.
+
+This method performs a linear search; therefore, the average execution time is proportional to Count.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node) | The node to locate. |
+
+**Returns:**
+boolean - True if item is found in the collection; otherwise, false.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public Node get(int index)
@@ -70,25 +138,88 @@ If index is negative and its absolute value is greater than the number of items 
 
 **Returns:**
 [Node](../../com.aspose.words/node) - The corresponding [Node](../../com.aspose.words/node) value.
-### add(Node node) {#add-com.aspose.words.Node-}
+### getClass() {#getClass--}
 ```
-public void add(Node node)
+public final native Class<?> getClass()
 ```
 
 
-Adds a node to the end of the collection.
 
-The node is inserted as a child into the node object from which the collection was created.
 
-If the newChild is already in the tree, it is first removed.
+**Returns:**
+java.lang.Class<?>
+### getContainer() {#getContainer--}
+```
+public CompositeNode getContainer()
+```
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+
+
+
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode)
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of nodes in the collection.
+
+**Returns:**
+int - The number of nodes in the collection.
+### getCurrentNode() {#getCurrentNode--}
+```
+public Node getCurrentNode()
+```
+
+
+
+
+**Returns:**
+[Node](../../com.aspose.words/node)
+### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
+```
+public Node getNextMatchingNode(Node curNode)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+| curNode | [Node](../../com.aspose.words/node) |  |
 
+**Returns:**
+[Node](../../com.aspose.words/node)
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### indexOf(Node node) {#indexOf-com.aspose.words.Node-}
+```
+public int indexOf(Node node)
+```
+
+
+Returns the zero-based index of the specified node.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node) | The node to locate. |
+
+**Returns:**
+int - The zero-based index of the node within the collection, if found; otherwise, -1.
+
+This method performs a linear search; therefore, the average execution time is proportional to Count.
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node-}
 ```
 public void insert(int index, Node node)
@@ -112,6 +243,32 @@ If the node being inserted was created from another document, you should use **M
 | --- | --- | --- |
 | index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 | node | [Node](../../com.aspose.words/node) | The node to insert. |
+
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Provides a simple "foreach" style iteration over the collection of nodes.
+
+**Returns:**
+java.util.Iterator - An Iterator.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### remove(Node node) {#remove-com.aspose.words.Node-}
 ```
@@ -139,48 +296,6 @@ Removes the node at the specified index from the collection and from the documen
 | --- | --- | --- |
 | index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
 
-### clear() {#clear--}
-```
-public void clear()
-```
-
-
-Removes all nodes from this collection and from the document.
-
-### contains(Node node) {#contains-com.aspose.words.Node-}
-```
-public boolean contains(Node node)
-```
-
-
-Determines whether a node is in the collection.
-
-This method performs a linear search; therefore, the average execution time is proportional to Count.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
-
-**Returns:**
-boolean - True if item is found in the collection; otherwise, false.
-### indexOf(Node node) {#indexOf-com.aspose.words.Node-}
-```
-public int indexOf(Node node)
-```
-
-
-Returns the zero-based index of the specified node.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
-
-**Returns:**
-int - The zero-based index of the node within the collection, if found; otherwise, -1.
-
-This method performs a linear search; therefore, the average execution time is proportional to Count.
 ### toArray() {#toArray--}
 ```
 public Node[] toArray()
@@ -195,19 +310,27 @@ To be able to add/remove nodes during iteration, use this method to copy nodes i
 
 **Returns:**
 com.aspose.words.Node[] - An array of nodes.
-### iterator() {#iterator--}
+### toString() {#toString--}
 ```
-public Iterator iterator()
+public String toString()
 ```
 
 
-Provides a simple "foreach" style iteration over the collection of nodes.
+
 
 **Returns:**
-java.util.Iterator - An Iterator.
-### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
+java.lang.String
+### wait() {#wait--}
 ```
-public Node getNextMatchingNode(Node curNode)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -216,37 +339,19 @@ public Node getNextMatchingNode(Node curNode)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| curNode | [Node](../../com.aspose.words/node) |  |
+| arg0 | long |  |
 
-**Returns:**
-[Node](../../com.aspose.words/node)
-### getCount() {#getCount--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public int getCount()
-```
-
-
-Gets the number of nodes in the collection.
-
-**Returns:**
-int - The number of nodes in the collection.
-### getCurrentNode() {#getCurrentNode--}
-```
-public Node getCurrentNode()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-[Node](../../com.aspose.words/node)
-### getContainer() {#getContainer--}
-```
-public CompositeNode getContainer()
-```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 
-
-
-
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode)

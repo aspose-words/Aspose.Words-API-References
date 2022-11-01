@@ -18,38 +18,39 @@ Specifies vertical alignment of a floating shape, text frame or a floating table
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | The object is explicitly positioned, usually using its **Top** property. |
-| [TOP](#TOP) | Specifies that the object shall be at the top of the vertical alignment base. |
-| [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the vertical alignment base. |
 | [BOTTOM](#BOTTOM) | Specifies that the object shall be at the bottom of the vertical alignment base. |
-| [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
-| [OUTSIDE](#OUTSIDE) | Specifies that the object shall be outside of the vertical alignment base. |
-| [INLINE](#INLINE) | Not documented. |
+| [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the vertical alignment base. |
 | [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/verticalalignment\#NONE). |
+| [INLINE](#INLINE) | Not documented. |
+| [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
+| [NONE](#NONE) | The object is explicitly positioned, usually using its **Top** property. |
+| [OUTSIDE](#OUTSIDE) | Specifies that the object shall be outside of the vertical alignment base. |
+| [TOP](#TOP) | Specifies that the object shall be at the top of the vertical alignment base. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int verticalAlignment)](#getName-int-) |  |
-| [toString(int verticalAlignment)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String verticalAlignmentName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int verticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int verticalAlignment)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BOTTOM {#BOTTOM}
 ```
-public static int NONE
+public static int BOTTOM
 ```
 
 
-The object is explicitly positioned, usually using its **Top** property.
-
-### TOP {#TOP}
-```
-public static int TOP
-```
-
-
-Specifies that the object shall be at the top of the vertical alignment base.
+Specifies that the object shall be at the bottom of the vertical alignment base.
 
 ### CENTER {#CENTER}
 ```
@@ -59,29 +60,13 @@ public static int CENTER
 
 Specifies that the object shall be centered with respect to the vertical alignment base.
 
-### BOTTOM {#BOTTOM}
+### DEFAULT {#DEFAULT}
 ```
-public static int BOTTOM
-```
-
-
-Specifies that the object shall be at the bottom of the vertical alignment base.
-
-### INSIDE {#INSIDE}
-```
-public static int INSIDE
+public static int DEFAULT
 ```
 
 
-Specifies that the object shall be inside of the horizontal alignment base.
-
-### OUTSIDE {#OUTSIDE}
-```
-public static int OUTSIDE
-```
-
-
-Specifies that the object shall be outside of the vertical alignment base.
+Same as [NONE](../../com.aspose.words/verticalalignment\#NONE).
 
 ### INLINE {#INLINE}
 ```
@@ -91,13 +76,37 @@ public static int INLINE
 
 Not documented. Seems to be a possible value for floating paragraphs and tables.
 
-### DEFAULT {#DEFAULT}
+### INSIDE {#INSIDE}
 ```
-public static int DEFAULT
+public static int INSIDE
 ```
 
 
-Same as [NONE](../../com.aspose.words/verticalalignment\#NONE).
+Specifies that the object shall be inside of the horizontal alignment base.
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+The object is explicitly positioned, usually using its **Top** property.
+
+### OUTSIDE {#OUTSIDE}
+```
+public static int OUTSIDE
+```
+
+
+Specifies that the object shall be outside of the vertical alignment base.
+
+### TOP {#TOP}
+```
+public static int TOP
+```
+
+
+Specifies that the object shall be at the top of the vertical alignment base.
 
 ### length {#length}
 ```
@@ -105,6 +114,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String verticalAlignmentName) {#fromName-java.lang.String-}
+```
+public static int fromName(String verticalAlignmentName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| verticalAlignmentName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int verticalAlignment) {#getName-int-}
 ```
 public static String getName(int verticalAlignment)
@@ -117,6 +166,52 @@ public static String getName(int verticalAlignment)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | verticalAlignment | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -135,9 +230,17 @@ public static String toString(int verticalAlignment)
 
 **Returns:**
 java.lang.String
-### fromName(String verticalAlignmentName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String verticalAlignmentName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -146,17 +249,19 @@ public static int fromName(String verticalAlignmentName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| verticalAlignmentName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

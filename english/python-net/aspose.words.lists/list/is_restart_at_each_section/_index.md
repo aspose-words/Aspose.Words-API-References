@@ -10,7 +10,7 @@ url: /python-net/aspose.words.lists/list/is_restart_at_each_section/
 ## List.is_restart_at_each_section property
 
 Specifies whether list should be restarted at each section.
-Default value is **false**.
+Default value is ``False``.
 
 
 This option is supported only in RTF, DOC and DOCX document formats.

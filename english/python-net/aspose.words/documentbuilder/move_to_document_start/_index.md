@@ -3,7 +3,7 @@ title: move_to_document_start method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Moves the cursor to the beginning of the document."
 type: docs
-weight: 500
+weight: 520
 url: /python-net/aspose.words/documentbuilder/move_to_document_start/
 ---
 

@@ -11,7 +11,7 @@ url: /python-net/aspose.words/pagesetup/bidi/
 
 Specifies that this section contains bidirectional (complex scripts) text.
 
-When true, the columns in this section are laid out from right to left.
+When ``True``, the columns in this section are laid out from right to left.
 
 
 

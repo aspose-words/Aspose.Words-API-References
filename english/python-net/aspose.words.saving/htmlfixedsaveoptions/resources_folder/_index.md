@@ -10,10 +10,10 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/resources_folder/
 ## HtmlFixedSaveOptions.resources_folder property
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format.
-Default is ``null``.
+Default is ``None``.
 
 
-Has effect only if [HtmlFixedSaveOptions.export_embedded_images](../export_embedded_images/) property is false.
+Has effect only if [HtmlFixedSaveOptions.export_embedded_images](../export_embedded_images/) property is ``False``.
 
 When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [HtmlFixedSaveOptions.resources_folder](./)

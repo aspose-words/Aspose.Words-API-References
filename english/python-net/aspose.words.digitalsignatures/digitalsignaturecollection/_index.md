@@ -1,7 +1,7 @@
 ﻿---
 title: DigitalSignatureCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides a read-only collection of digital signatures attached to a document."
+description: "Provides a read-only collection of digital signatures attached to a document"
 type: docs
 weight: 30
 url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ## DigitalSignatureCollection class
 
 Provides a read-only collection of digital signatures attached to a document.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
+
+
 
 
 [Document.digital_signatures](../../aspose.words/document/digital_signatures/)
@@ -32,7 +35,7 @@ Provides a read-only collection of digital signatures attached to a document.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of elements contained in the collection. |
-| [is_valid](./is_valid/) | Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``true`` if there are no digital signatures. Returns ``false`` if at least one digital signature is invalid. |
+| [is_valid](./is_valid/) | Returns ``True`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``True`` if there are no digital signatures. Returns ``False`` if at least one digital signature is invalid. |
 
 ### Examples
 

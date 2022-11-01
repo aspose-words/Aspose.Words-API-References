@@ -41,39 +41,23 @@ It is not possible to delete lists once they are created in the current version 
 
 | Method | Description |
 | --- | --- |
-| [iterator()](#iterator--) | Gets the enumerator object that will enumerate lists in the document. |
-| [add(int listTemplate)](#add-int-) |  |
 | [add(Style listStyle)](#add-com.aspose.words.Style-) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
+| [add(int listTemplate)](#add-int-) |  |
 | [addCopy(List srcList)](#addCopy-com.aspose.words.List-) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
-| [getListByListId(int listId)](#getListByListId-int-) | Gets a list by a list identifier. |
-| [getCount()](#getCount--) | Gets the count of numbered and bulleted lists in the document. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets a list by index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the count of numbered and bulleted lists in the document. |
 | [getDocument()](#getDocument--) | Gets the owner document. |
-### iterator() {#iterator--}
-```
-public Iterator iterator()
-```
-
-
-Gets the enumerator object that will enumerate lists in the document.
-
-**Returns:**
-java.util.Iterator
-### add(int listTemplate) {#add-int-}
-```
-public List add(int listTemplate)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| listTemplate | int |  |
-
-**Returns:**
-[List](../../com.aspose.words/list)
+| [getListByListId(int listId)](#getListByListId-int-) | Gets a list by a list identifier. |
+| [hashCode()](#hashCode--) |  |
+| [iterator()](#iterator--) | Gets the enumerator object that will enumerate lists in the document. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### add(Style listStyle) {#add-com.aspose.words.Style-}
 ```
 public List add(Style listStyle)
@@ -91,6 +75,21 @@ Creates a new list that references a list style and adds it to the collection of
 [List](../../com.aspose.words/list) - The newly created list.
 
 The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
+### add(int listTemplate) {#add-int-}
+```
+public List add(int listTemplate)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| listTemplate | int |  |
+
+**Returns:**
+[List](../../com.aspose.words/list)
 ### addCopy(List srcList) {#addCopy-com.aspose.words.List-}
 ```
 public List addCopy(List srcList)
@@ -110,6 +109,66 @@ Creates a new list by copying the specified list and adding it to the collection
 The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
 
 If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### get(int index) {#get-int-}
+```
+public List get(int index)
+```
+
+
+Gets a list by index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
+
+**Returns:**
+[List](../../com.aspose.words/list) - A list by index.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the count of numbered and bulleted lists in the document.
+
+**Returns:**
+int - The count of numbered and bulleted lists in the document.
+### getDocument() {#getDocument--}
+```
+public DocumentBase getDocument()
+```
+
+
+Gets the owner document.
+
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
 ### getListByListId(int listId) {#getListByListId-int-}
 ```
 public List getListByListId(int listId)
@@ -127,38 +186,84 @@ Gets a list by a list identifier.
 [List](../../com.aspose.words/list) - Returns the list object. Returns null if a list with the specified identifier was not found.
 
 You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [ListFormat.getList()](../../com.aspose.words/listformat\#getList--) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property of the [ListFormat](../../com.aspose.words/listformat) object.
-### getCount() {#getCount--}
+### hashCode() {#hashCode--}
 ```
-public int getCount()
+public native int hashCode()
 ```
 
 
-Gets the count of numbered and bulleted lists in the document.
+
 
 **Returns:**
-int - The count of numbered and bulleted lists in the document.
-### get(int index) {#get-int-}
+int
+### iterator() {#iterator--}
 ```
-public List get(int index)
+public Iterator iterator()
 ```
 
 
-Gets a list by index.
+Gets the enumerator object that will enumerate lists in the document.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int |  |
+| arg0 | long |  |
 
-**Returns:**
-[List](../../com.aspose.words/list) - A list by index.
-### getDocument() {#getDocument--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public DocumentBase getDocument()
+public final void wait(long arg0, int arg1)
 ```
 
 
-Gets the owner document.
 
-**Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

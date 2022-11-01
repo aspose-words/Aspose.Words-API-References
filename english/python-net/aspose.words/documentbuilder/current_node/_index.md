@@ -11,12 +11,12 @@ url: /python-net/aspose.words/documentbuilder/current_node/
 
 Gets the node that is currently selected in this DocumentBuilder.
 
-**CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node**
-that is a direct child of a **Paragraph**. Any insert operations you perform using
-**DocumentBuilder** will insert before the **CurrentNode**.
+[DocumentBuilder.current_node](./) is a cursor of [DocumentBuilder](../) and points to a [Node](../../node/)
+that is a direct child of a [Paragraph](../../paragraph/). Any insert operations you perform using
+[DocumentBuilder](../) will insert before the [DocumentBuilder.current_node](./).
 
 When the current paragraph is empty or the cursor is positioned just
-before the end of the paragraph, **CurrentNode** returns null.
+before the end of a paragraph or structured document tag, [DocumentBuilder.current_node](./) returns ``None``.
 
 
 
@@ -77,4 +77,5 @@ self.assertTrue(builder.is_at_start_of_paragraph)
 * module [aspose.words](../../)
 * class [DocumentBuilder](../)
 * property [DocumentBuilder.current_paragraph](../current_paragraph/)
+* property [DocumentBuilder.current_structured_document_tag](../current_structured_document_tag/)
 

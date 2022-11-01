@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing.ole/forms2olecontrol/child_nodes/
 
 Gets collection of immediate child controls.
 
-Returns **null** if this control can not have children.
+Returns ``None`` if this control can not have children.
 
 
 ### Examples

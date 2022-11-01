@@ -11,6 +11,8 @@ url: /python-net/aspose.words/revision/
 
 Represents a revision (tracked change) in a document node or style.
 Use [Revision.revision_type](./revision_type/) to check the type of this revision.
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+
 
 
 
@@ -18,9 +20,9 @@ Use [Revision.revision_type](./revision_type/) to check the type of this revisio
 
 | Name | Description |
 | --- | --- |
-| [author](./author/) | Gets or sets the author of this revision. Can not be empty string or null. |
+| [author](./author/) | Gets or sets the author of this revision. Can not be empty string or ``None``. |
 | [date_time](./date_time/) | Gets or sets the date/time of this revision. |
-| [group](./group/) | Gets the revision group. Returns null if the revision does not belong to any group. |
+| [group](./group/) | Gets the revision group. Returns ``None`` if the revision does not belong to any group. |
 | [parent_node](./parent_node/) | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than [RevisionType.STYLE_DEFINITION_CHANGE](../revisiontype/#STYLE_DEFINITION_CHANGE). |
 | [parent_style](./parent_style/) | Gets the immediate parent style (owner) of this revision. This property will work for only for the [RevisionType.STYLE_DEFINITION_CHANGE](../revisiontype/#STYLE_DEFINITION_CHANGE) revision type. |
 | [revision_type](./revision_type/) | Gets the type of this revision. |

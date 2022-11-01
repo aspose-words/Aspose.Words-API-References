@@ -28,27 +28,49 @@ To learn more, visit the **Work with Office Add-ins** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [get(int index)](#get-int-) | Gets an item at the specified index. |
 | [clear()](#clear--) | Removes all elements from the collection. |
-| [remove(int index)](#remove-int-) | Removes the item at the specified index from the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Gets an item at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) | Returns an enumerator that can iterate through a collection. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove(int index)](#remove-int-) | Removes the item at the specified index from the collection. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### BaseWebExtensionCollection() {#BaseWebExtensionCollection--}
 ```
 public BaseWebExtensionCollection()
 ```
 
 
-### getCount() {#getCount--}
+### clear() {#clear--}
 ```
-public int getCount()
+public void clear()
 ```
 
 
-Gets the number of elements contained in the collection.
+Removes all elements from the collection.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The number of elements contained in the collection.
+boolean
 ### get(int index) {#get-int-}
 ```
 public Object get(int index)
@@ -64,13 +86,61 @@ Gets an item at the specified index.
 
 **Returns:**
 java.lang.Object - An item at the specified index.
-### clear() {#clear--}
+### getClass() {#getClass--}
 ```
-public void clear()
+public final native Class<?> getClass()
 ```
 
 
-Removes all elements from the collection.
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of elements contained in the collection.
+
+**Returns:**
+int - The number of elements contained in the collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Returns an enumerator that can iterate through a collection.
+
+**Returns:**
+java.util.Iterator - 
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### remove(int index) {#remove-int-}
 ```
@@ -85,13 +155,48 @@ Removes the item at the specified index from the collection.
 | --- | --- | --- |
 | index | int | The zero-based index of the collection item. |
 
-### iterator() {#iterator--}
+### toString() {#toString--}
 ```
-public Iterator iterator()
+public String toString()
 ```
 
 
-Returns an enumerator that can iterate through a collection.
+
 
 **Returns:**
-java.util.Iterator - 
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

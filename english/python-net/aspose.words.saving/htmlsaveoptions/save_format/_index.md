@@ -3,15 +3,15 @@ title: save_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the format in which the document will be saved if this save options object is used"
 type: docs
-weight: 450
+weight: 440
 url: /python-net/aspose.words.saving/htmlsaveoptions/save_format/
 ---
 
 ## HtmlSaveOptions.save_format property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can be [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML)
-or [SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB).
+Can be [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML), [SaveFormat.MHTML](../../../aspose.words/saveformat/#MHTML),
+[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3).
 
 
 

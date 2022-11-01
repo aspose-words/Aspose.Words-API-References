@@ -1,7 +1,7 @@
 ﻿---
 title: FontSubstitutionSettings class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font substitution mechanism settings."
+description: "Specifies font substitution mechanism settings"
 type: docs
 weight: 180
 url: /python-net/aspose.words.fonts/fontsubstitutionsettings/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontsubstitutionsettings/
 ## FontSubstitutionSettings class
 
 Specifies font substitution mechanism settings.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 Font substitution process consists of several rules which are checked one by one in specific order.

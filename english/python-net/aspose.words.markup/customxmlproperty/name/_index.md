@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/customxmlproperty/name/
 
 Specifies the name of the custom XML attribute or smart tag property.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

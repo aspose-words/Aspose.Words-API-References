@@ -21,7 +21,7 @@ def remove_child(self, old_child: aspose.words.Node):
 | --- | --- | --- |
 | old_child | [Node](../../node/) |  |
 
-The parent of oldChild is set to null after the node is removed.
+The parent of  is set to``None`` after the node is removed.
 
 
 

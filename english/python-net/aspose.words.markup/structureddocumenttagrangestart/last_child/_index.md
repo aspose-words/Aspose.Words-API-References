@@ -11,7 +11,8 @@ url: /python-net/aspose.words.markup/structureddocumenttagrangestart/last_child/
 
 Gets the last child in the stdContent range.
 
-If there is no last child node, a null is returned.
+If there is no last child node, a ``None`` is returned.
+
 
 
 ### See Also

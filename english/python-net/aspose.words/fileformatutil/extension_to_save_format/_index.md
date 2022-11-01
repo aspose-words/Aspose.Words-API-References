@@ -31,7 +31,7 @@ If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../savefo
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentNullException | Throws if the parameter is null. |
+| System.ArgumentNullException | Throws if the parameter is ``None``. |
 
 ### Examples
 

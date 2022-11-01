@@ -21,15 +21,24 @@ To learn more, visit the **Track Changes in a Document** documentation article.
 | Method | Description |
 | --- | --- |
 | [accept()](#accept--) | Accepts this revision. |
-| [reject()](#reject--) | Reject this revision. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAuthor()](#getAuthor--) | Gets the author of this revision. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of this revision. |
+| [getClass()](#getClass--) |  |
 | [getDateTime()](#getDateTime--) | Gets the date/time of this revision. |
-| [setDateTime(Date value)](#setDateTime-java.util.Date-) | Sets the date/time of this revision. |
-| [getRevisionType()](#getRevisionType--) | Gets the type of this revision. |
+| [getGroup()](#getGroup--) | Gets the revision group. |
 | [getParentNode()](#getParentNode--) | Gets the immediate parent node (owner) of this revision. |
 | [getParentStyle()](#getParentStyle--) | Gets the immediate parent style (owner) of this revision. |
-| [getGroup()](#getGroup--) | Gets the revision group. |
+| [getRevisionType()](#getRevisionType--) | Gets the type of this revision. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [reject()](#reject--) | Reject this revision. |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of this revision. |
+| [setDateTime(Date value)](#setDateTime-java.util.Date-) | Sets the date/time of this revision. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### accept() {#accept--}
 ```
 public void accept()
@@ -38,14 +47,21 @@ public void accept()
 
 Accepts this revision.
 
-### reject() {#reject--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void reject()
+public boolean equals(Object arg0)
 ```
 
 
-Reject this revision.
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
@@ -56,19 +72,16 @@ Gets the author of this revision. Can not be empty string or null.
 
 **Returns:**
 java.lang.String - The author of this revision.
-### setAuthor(String value) {#setAuthor-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public void setAuthor(String value)
+public final native Class<?> getClass()
 ```
 
 
-Sets the author of this revision. Can not be empty string or null.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The author of this revision. |
 
+**Returns:**
+java.lang.Class<?>
 ### getDateTime() {#getDateTime--}
 ```
 public Date getDateTime()
@@ -79,29 +92,16 @@ Gets the date/time of this revision.
 
 **Returns:**
 java.util.Date - The date/time of this revision.
-### setDateTime(Date value) {#setDateTime-java.util.Date-}
+### getGroup() {#getGroup--}
 ```
-public void setDateTime(Date value)
-```
-
-
-Sets the date/time of this revision.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.util.Date | The date/time of this revision. |
-
-### getRevisionType() {#getRevisionType--}
-```
-public int getRevisionType()
+public RevisionGroup getGroup()
 ```
 
 
-Gets the type of this revision.
+Gets the revision group. Returns null if the revision does not belong to any group. Revision has no group if revision type is RevisionType.StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
 
 **Returns:**
-int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+[RevisionGroup](../../com.aspose.words/revisiongroup) - The revision group.
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
@@ -122,13 +122,118 @@ Gets the immediate parent style (owner) of this revision. This property will wor
 
 **Returns:**
 [Style](../../com.aspose.words/style) - The immediate parent style (owner) of this revision.
-### getGroup() {#getGroup--}
+### getRevisionType() {#getRevisionType--}
 ```
-public RevisionGroup getGroup()
+public int getRevisionType()
 ```
 
 
-Gets the revision group. Returns null if the revision does not belong to any group. Revision has no group if revision type is RevisionType.StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
+Gets the type of this revision.
 
 **Returns:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - The revision group.
+int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### reject() {#reject--}
+```
+public void reject()
+```
+
+
+Reject this revision.
+
+### setAuthor(String value) {#setAuthor-java.lang.String-}
+```
+public void setAuthor(String value)
+```
+
+
+Sets the author of this revision. Can not be empty string or null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The author of this revision. |
+
+### setDateTime(Date value) {#setDateTime-java.util.Date-}
+```
+public void setDateTime(Date value)
+```
+
+
+Sets the date/time of this revision.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.util.Date | The date/time of this revision. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

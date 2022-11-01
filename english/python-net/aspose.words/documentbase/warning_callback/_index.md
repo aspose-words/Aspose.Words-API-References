@@ -1,7 +1,7 @@
 ﻿---
 title: warning_callback property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Called during various document processing procedures when an issue is detected that might result  in data or formatting fidelity loss."
+description: "Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss."
 type: docs
 weight: 80
 url: /python-net/aspose.words/documentbase/warning_callback/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/documentbase/warning_callback/
 
 ## DocumentBase.warning_callback property
 
-Called during various document processing procedures when an issue is detected that might result 
+Called during various document processing procedures when an issue is detected that might result
 in data or formatting fidelity loss.
 
 Document may generate warnings at any stage of its existence, so it's important to setup warning callback as

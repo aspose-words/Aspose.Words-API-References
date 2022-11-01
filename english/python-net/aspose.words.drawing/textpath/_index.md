@@ -1,7 +1,7 @@
 ﻿---
 title: TextPath class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines the text and formatting of the text path (of a WordArt object)."
+description: "Defines the text and formatting of the text path (of a WordArt object)"
 type: docs
 weight: 400
 url: /python-net/aspose.words.drawing/textpath/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/textpath/
 ## TextPath class
 
 Defines the text and formatting of the text path (of a WordArt object).
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
+
 
 
 Use the [Shape.text_path](../shape/text_path/) property to access WordArt properties of a shape.

@@ -20,19 +20,43 @@ To learn more, visit the **Working with Fields** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getLeftExpression()](#getLeftExpression--) | Gets the left expression. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getComparisonOperator()](#getComparisonOperator--) | Gets the comparison operator. |
+| [getLeftExpression()](#getLeftExpression--) | Gets the left expression. |
 | [getRightExpression()](#getRightExpression--) | Gets the right expression. |
-### getLeftExpression() {#getLeftExpression--}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public String getLeftExpression()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the left expression.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String - The left expression.
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getComparisonOperator() {#getComparisonOperator--}
 ```
 public String getComparisonOperator()
@@ -43,6 +67,16 @@ Gets the comparison operator.
 
 **Returns:**
 java.lang.String - The comparison operator.
+### getLeftExpression() {#getLeftExpression--}
+```
+public String getLeftExpression()
+```
+
+
+Gets the left expression.
+
+**Returns:**
+java.lang.String - The left expression.
 ### getRightExpression() {#getRightExpression--}
 ```
 public String getRightExpression()
@@ -53,3 +87,74 @@ Gets the right expression.
 
 **Returns:**
 java.lang.String - The right expression.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

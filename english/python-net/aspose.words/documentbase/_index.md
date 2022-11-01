@@ -1,7 +1,7 @@
 ﻿---
 title: DocumentBase class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides the abstract base class for a main document and a glossary document of a Word document."
+description: "Provides the abstract base class for a main document and a glossary document of a Word document"
 type: docs
 weight: 280
 url: /python-net/aspose.words/documentbase/
@@ -10,12 +10,15 @@ url: /python-net/aspose.words/documentbase/
 ## DocumentBase class
 
 Provides the abstract base class for a main document and a glossary document of a Word document.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
 
-Aspose.Words represents a Word document as a tree of nodes. [DocumentBase](./) is a 
+
+
+Aspose.Words represents a Word document as a tree of nodes. [DocumentBase](./) is a
 root node of the tree that contains all other nodes of the document.
 
-[DocumentBase](./) also stores document-wide information such as [DocumentBase.styles](./styles/) and 
+[DocumentBase](./) also stores document-wide information such as [DocumentBase.styles](./styles/) and
 [DocumentBase.lists](./lists/) that the tree nodes might refer to.
 
 
@@ -27,15 +30,15 @@ root node of the tree that contains all other nodes of the document.
 
 | Name | Description |
 | --- | --- |
-| [background_shape](./background_shape/) | Gets or sets the background shape of the document. Can be null. |
+| [background_shape](./background_shape/) | Gets or sets the background shape of the document. Can be ``None``. |
 | [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [custom_node_id](../node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [font_infos](./font_infos/) | Provides access to properties of fonts used in this document. |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lists](./lists/) | Provides access to the list formatting used in the document. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
@@ -44,10 +47,10 @@ root node of the tree that contains all other nodes of the document.
 | [page_color](./page_color/) | Gets or sets the page color of the document. This property is a simpler version of [DocumentBase.background_shape](./background_shape/). |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources are loaded. |
 | [styles](./styles/) | Returns a collection of styles defined in the document. |
-| [warning_callback](./warning_callback/) | Called during various document processing procedures when an issue is detected that might result  in data or formatting fidelity loss. |
+| [warning_callback](./warning_callback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 
 ### Methods
 
@@ -74,7 +77,7 @@ root node of the tree that contains all other nodes of the document.
 |[ remove_child(old_child)](../compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ remove_smart_tags()](../compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 

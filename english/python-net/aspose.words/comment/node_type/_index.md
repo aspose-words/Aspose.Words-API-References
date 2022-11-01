@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Comment."
+description: "Returns [NodeType.COMMENT](../../nodetype/#COMMENT)."
 type: docs
 weight: 80
 url: /python-net/aspose.words/comment/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/comment/node_type/
 
 ## Comment.node_type property
 
-Returns **NodeType.Comment**.
+Returns [NodeType.COMMENT](../../nodetype/#COMMENT).
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: MailMergeSettings class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies all of the mail merge information for a document."
+description: "Specifies all of the mail merge information for a document"
 type: docs
 weight: 80
 url: /python-net/aspose.words.settings/mailmergesettings/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.settings/mailmergesettings/
 ## MailMergeSettings class
 
 Specifies all of the mail merge information for a document.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
+
 
 
 You can use this object to specify a mail merge data source for a document and this information
@@ -56,15 +59,15 @@ using the [MailMerge](../../aspose.words.mailmerging/mailmerge/) object.
 | [data_source](./data_source/) | Specifies the path to the mail-merge data source. The default value is an empty string. |
 | [data_type](./data_type/) | Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../mailmergedatatype/#DEFAULT). |
 | [destination](./destination/) | Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../mailmergedestination/#DEFAULT). |
-| [do_not_supress_blank_lines](./do_not_supress_blank_lines/) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is ``false``. |
+| [do_not_supress_blank_lines](./do_not_supress_blank_lines/) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is ``False``. |
 | [header_source](./header_source/) | Specifies the path to the mail-merge header source. The default value is an empty string. |
-| [link_to_query](./link_to_query/) | Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document  is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is ``false``. |
-| [mail_as_attachment](./mail_as_attachment/) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather  than the body of the actual e-mail. The default value is ``false``. |
+| [link_to_query](./link_to_query/) | Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document  is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is ``False``. |
+| [mail_as_attachment](./mail_as_attachment/) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather  than the body of the actual e-mail. The default value is ``False``. |
 | [mail_subject](./mail_subject/) | Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string. |
 | [main_document_type](./main_document_type/) | Specifies the mail-merge main document type.  The default value is [MailMergeMainDocumentType.DEFAULT](../mailmergemaindocumenttype/#DEFAULT). |
 | [odso](./odso/) | Gets or sets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [query](./query/) | Contains the Structured Query Language string that shall be run against the specified external data source to  return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string. |
-| [view_merged_data](./view_merged_data/) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g. preview merged data). The default value is ``false``. |
+| [view_merged_data](./view_merged_data/) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g. preview merged data). The default value is ``False``. |
 
 ### Methods
 

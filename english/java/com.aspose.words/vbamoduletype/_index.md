@@ -18,35 +18,28 @@ Specifies the type of a model in a VBA project.
 
 | Field | Description |
 | --- | --- |
-| [DOCUMENT_MODULE](#DOCUMENT-MODULE) | A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document. |
-| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | A collection of subroutines and functions. |
 | [CLASS_MODULE](#CLASS-MODULE) | A module that contains the definition for a new object. |
 | [DESIGNER_MODULE](#DESIGNER-MODULE) | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
+| [DOCUMENT_MODULE](#DOCUMENT-MODULE) | A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document. |
+| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | A collection of subroutines and functions. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int vbaModuleType)](#getName-int-) |  |
-| [toString(int vbaModuleType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String vbaModuleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int vbaModuleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### DOCUMENT_MODULE {#DOCUMENT-MODULE}
-```
-public static int DOCUMENT_MODULE
-```
-
-
-A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document.
-
-### PROCEDURAL_MODULE {#PROCEDURAL-MODULE}
-```
-public static int PROCEDURAL_MODULE
-```
-
-
-A collection of subroutines and functions.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int vbaModuleType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CLASS_MODULE {#CLASS-MODULE}
 ```
 public static int CLASS_MODULE
@@ -63,12 +56,68 @@ public static int DESIGNER_MODULE
 
 A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project.
 
+### DOCUMENT_MODULE {#DOCUMENT-MODULE}
+```
+public static int DOCUMENT_MODULE
+```
+
+
+A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document.
+
+### PROCEDURAL_MODULE {#PROCEDURAL-MODULE}
+```
+public static int PROCEDURAL_MODULE
+```
+
+
+A collection of subroutines and functions.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String vbaModuleTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String vbaModuleTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| vbaModuleTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int vbaModuleType) {#getName-int-}
 ```
 public static String getName(int vbaModuleType)
@@ -81,6 +130,52 @@ public static String getName(int vbaModuleType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | vbaModuleType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -99,9 +194,17 @@ public static String toString(int vbaModuleType)
 
 **Returns:**
 java.lang.String
-### fromName(String vbaModuleTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String vbaModuleTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -110,17 +213,19 @@ public static int fromName(String vbaModuleTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| vbaModuleTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

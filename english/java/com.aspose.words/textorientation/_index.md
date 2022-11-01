@@ -18,10 +18,10 @@ Specifies orientation of text on a page, in a table cell or a text frame.
 
 | Field | Description |
 | --- | --- |
-| [HORIZONTAL](#HORIZONTAL) | Text is arranged horizontally (lr-tb). |
 | [DOWNWARD](#DOWNWARD) | Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl). |
-| [UPWARD](#UPWARD) | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
+| [HORIZONTAL](#HORIZONTAL) | Text is arranged horizontally (lr-tb). |
 | [HORIZONTAL_ROTATED_FAR_EAST](#HORIZONTAL-ROTATED-FAR-EAST) | Text is arranged horizontally, but Far East characters are rotated 90 degrees to the left (lr-tb-v). |
+| [UPWARD](#UPWARD) | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
 | [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v). |
 | [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v). |
 | [length](#length) |  |
@@ -29,18 +29,19 @@ Specifies orientation of text on a page, in a table cell or a text frame.
 
 | Method | Description |
 | --- | --- |
-| [getName(int textOrientation)](#getName-int-) |  |
-| [toString(int textOrientation)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textOrientationName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int textOrientation)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### HORIZONTAL {#HORIZONTAL}
-```
-public static int HORIZONTAL
-```
-
-
-Text is arranged horizontally (lr-tb).
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int textOrientation)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### DOWNWARD {#DOWNWARD}
 ```
 public static int DOWNWARD
@@ -49,13 +50,13 @@ public static int DOWNWARD
 
 Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl).
 
-### UPWARD {#UPWARD}
+### HORIZONTAL {#HORIZONTAL}
 ```
-public static int UPWARD
+public static int HORIZONTAL
 ```
 
 
-Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr).
+Text is arranged horizontally (lr-tb).
 
 ### HORIZONTAL_ROTATED_FAR_EAST {#HORIZONTAL-ROTATED-FAR-EAST}
 ```
@@ -64,6 +65,14 @@ public static int HORIZONTAL_ROTATED_FAR_EAST
 
 
 Text is arranged horizontally, but Far East characters are rotated 90 degrees to the left (lr-tb-v).
+
+### UPWARD {#UPWARD}
+```
+public static int UPWARD
+```
+
+
+Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr).
 
 ### VERTICAL_FAR_EAST {#VERTICAL-FAR-EAST}
 ```
@@ -87,6 +96,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String textOrientationName) {#fromName-java.lang.String-}
+```
+public static int fromName(String textOrientationName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| textOrientationName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int textOrientation) {#getName-int-}
 ```
 public static String getName(int textOrientation)
@@ -99,6 +148,52 @@ public static String getName(int textOrientation)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | textOrientation | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -117,9 +212,17 @@ public static String toString(int textOrientation)
 
 **Returns:**
 java.lang.String
-### fromName(String textOrientationName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String textOrientationName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -128,17 +231,19 @@ public static int fromName(String textOrientationName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| textOrientationName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

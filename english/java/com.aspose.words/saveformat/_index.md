@@ -18,59 +18,76 @@ Indicates the format in which the document is saved. **M:Aspose.Words.Document.S
 
 | Field | Description |
 | --- | --- |
-| [UNKNOWN](#UNKNOWN) | Default, invalid value for file format. |
+| [AZW_3](#AZW-3) | Saves the document in the AZW3 format. |
+| [BMP](#BMP) | Renders a page of the document and saves it as a BMP file. |
 | [DOC](#DOC) | Saves the document in the Microsoft Word 97 - 2007 Document format. |
-| [DOT](#DOT) | Saves the document in the Microsoft Word 97 - 2007 Template format. |
-| [DOCX](#DOCX) | Saves the document as an Office Open XML WordprocessingML Document (macro-free). |
 | [DOCM](#DOCM) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document. |
-| [DOTX](#DOTX) | Saves the document as an Office Open XML WordprocessingML Template (macro-free). |
+| [DOCX](#DOCX) | Saves the document as an Office Open XML WordprocessingML Document (macro-free). |
+| [DOT](#DOT) | Saves the document in the Microsoft Word 97 - 2007 Template format. |
 | [DOTM](#DOTM) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template. |
+| [DOTX](#DOTX) | Saves the document as an Office Open XML WordprocessingML Template (macro-free). |
+| [EMF](#EMF) | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
+| [EPUB](#EPUB) | Saves the document in the EPUB format. |
 | [FLAT_OPC](#FLAT-OPC) | Saves the document as an Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package. |
 | [FLAT_OPC_MACRO_ENABLED](#FLAT-OPC-MACRO-ENABLED) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package. |
 | [FLAT_OPC_TEMPLATE](#FLAT-OPC-TEMPLATE) | Saves the document as an Office Open XML WordprocessingML Template (macro-free) stored in a flat XML file instead of a ZIP package. |
 | [FLAT_OPC_TEMPLATE_MACRO_ENABLED](#FLAT-OPC-TEMPLATE-MACRO-ENABLED) | Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package. |
-| [RTF](#RTF) | Saves the document in the RTF format. |
-| [WORD_ML](#WORD-ML) | Saves the document in the Microsoft Word 2003 WordprocessingML format. |
-| [PDF](#PDF) | Saves the document as PDF (Adobe Portable Document) format. |
-| [XPS](#XPS) | Saves the document in the XPS (XML Paper Specification) format. |
-| [XAML_FIXED](#XAML-FIXED) | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document. |
-| [SVG](#SVG) | Saves the document in the Svg (Scalable Vector Graphics) format. |
-| [HTML_FIXED](#HTML-FIXED) | Saves the document in the HTML format using absolutely positioned elements |
-| [OPEN_XPS](#OPEN-XPS) | Saves the document in the OpenXPS (Ecma-388) format. |
-| [PS](#PS) | Saves the document in the PS (PostScript) format. |
-| [PCL](#PCL) | Saves the document in the PCL (Printer Control Language) format. |
+| [GIF](#GIF) | Renders a page of the document and saves it as a GIF file. |
 | [HTML](#HTML) | Saves the document in the HTML format. |
+| [HTML_FIXED](#HTML-FIXED) | Saves the document in the HTML format using absolutely positioned elements |
+| [JPEG](#JPEG) | Renders a page of the document and saves it as a JPEG file. |
+| [MARKDOWN](#MARKDOWN) | Saves the document in the Markdown format. |
 | [MHTML](#MHTML) | Saves the document in the MHTML (Web archive) format. |
-| [EPUB](#EPUB) | Saves the document in the EPUB format. |
-| [AZW_3](#AZW-3) | Saves the document in the AZW3 format. |
 | [ODT](#ODT) | Saves the document as an ODF Text Document. |
+| [OPEN_XPS](#OPEN-XPS) | Saves the document in the OpenXPS (Ecma-388) format. |
 | [OTT](#OTT) | Saves the document as an ODF Text Document Template. |
+| [PCL](#PCL) | Saves the document in the PCL (Printer Control Language) format. |
+| [PDF](#PDF) | Saves the document as PDF (Adobe Portable Document) format. |
+| [PNG](#PNG) | Renders a page of the document and saves it as a PNG file. |
+| [PS](#PS) | Saves the document in the PS (PostScript) format. |
+| [RTF](#RTF) | Saves the document in the RTF format. |
+| [SVG](#SVG) | Saves the document in the Svg (Scalable Vector Graphics) format. |
 | [TEXT](#TEXT) | Saves the document in the plain text format. |
+| [TIFF](#TIFF) | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
+| [UNKNOWN](#UNKNOWN) | Default, invalid value for file format. |
+| [WORD_ML](#WORD-ML) | Saves the document in the Microsoft Word 2003 WordprocessingML format. |
+| [XAML_FIXED](#XAML-FIXED) | Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document. |
 | [XAML_FLOW](#XAML-FLOW) | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) format as a flow document. |
 | [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document. |
-| [MARKDOWN](#MARKDOWN) | Saves the document in the Markdown format. |
-| [TIFF](#TIFF) | Renders a page or pages of the document and saves them into a single or multipage TIFF file. |
-| [PNG](#PNG) | Renders a page of the document and saves it as a PNG file. |
-| [BMP](#BMP) | Renders a page of the document and saves it as a BMP file. |
-| [EMF](#EMF) | Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file. |
-| [JPEG](#JPEG) | Renders a page of the document and saves it as a JPEG file. |
-| [GIF](#GIF) | Renders a page of the document and saves it as a GIF file. |
+| [XPS](#XPS) | Saves the document in the XPS (XML Paper Specification) format. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int saveFormat)](#getName-int-) |  |
-| [toString(int saveFormat)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String saveFormatName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int saveFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### UNKNOWN {#UNKNOWN}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int saveFormat)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AZW_3 {#AZW-3}
 ```
-public static int UNKNOWN
+public static int AZW_3
 ```
 
 
-Default, invalid value for file format.
+Saves the document in the AZW3 format.
+
+### BMP {#BMP}
+```
+public static int BMP
+```
+
+
+Renders a page of the document and saves it as a BMP file.
 
 ### DOC {#DOC}
 ```
@@ -80,13 +97,13 @@ public static int DOC
 
 Saves the document in the Microsoft Word 97 - 2007 Document format.
 
-### DOT {#DOT}
+### DOCM {#DOCM}
 ```
-public static int DOT
+public static int DOCM
 ```
 
 
-Saves the document in the Microsoft Word 97 - 2007 Template format.
+Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document.
 
 ### DOCX {#DOCX}
 ```
@@ -96,13 +113,21 @@ public static int DOCX
 
 Saves the document as an Office Open XML WordprocessingML Document (macro-free).
 
-### DOCM {#DOCM}
+### DOT {#DOT}
 ```
-public static int DOCM
+public static int DOT
 ```
 
 
-Saves the document as an Office Open XML WordprocessingML Macro-Enabled Document.
+Saves the document in the Microsoft Word 97 - 2007 Template format.
+
+### DOTM {#DOTM}
+```
+public static int DOTM
+```
+
+
+Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template.
 
 ### DOTX {#DOTX}
 ```
@@ -112,13 +137,21 @@ public static int DOTX
 
 Saves the document as an Office Open XML WordprocessingML Template (macro-free).
 
-### DOTM {#DOTM}
+### EMF {#EMF}
 ```
-public static int DOTM
+public static int EMF
 ```
 
 
-Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template.
+Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file.
+
+### EPUB {#EPUB}
+```
+public static int EPUB
+```
+
+
+Saves the document in the EPUB format.
 
 ### FLAT_OPC {#FLAT-OPC}
 ```
@@ -152,85 +185,13 @@ public static int FLAT_OPC_TEMPLATE_MACRO_ENABLED
 
 Saves the document as an Office Open XML WordprocessingML Macro-Enabled Template stored in a flat XML file instead of a ZIP package.
 
-### RTF {#RTF}
+### GIF {#GIF}
 ```
-public static int RTF
-```
-
-
-Saves the document in the RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters.
-
-### WORD_ML {#WORD-ML}
-```
-public static int WORD_ML
+public static int GIF
 ```
 
 
-Saves the document in the Microsoft Word 2003 WordprocessingML format.
-
-### PDF {#PDF}
-```
-public static int PDF
-```
-
-
-Saves the document as PDF (Adobe Portable Document) format.
-
-### XPS {#XPS}
-```
-public static int XPS
-```
-
-
-Saves the document in the XPS (XML Paper Specification) format.
-
-### XAML_FIXED {#XAML-FIXED}
-```
-public static int XAML_FIXED
-```
-
-
-Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document.
-
-### SVG {#SVG}
-```
-public static int SVG
-```
-
-
-Saves the document in the Svg (Scalable Vector Graphics) format.
-
-### HTML_FIXED {#HTML-FIXED}
-```
-public static int HTML_FIXED
-```
-
-
-Saves the document in the HTML format using absolutely positioned elements
-
-### OPEN_XPS {#OPEN-XPS}
-```
-public static int OPEN_XPS
-```
-
-
-Saves the document in the OpenXPS (Ecma-388) format.
-
-### PS {#PS}
-```
-public static int PS
-```
-
-
-Saves the document in the PS (PostScript) format.
-
-### PCL {#PCL}
-```
-public static int PCL
-```
-
-
-Saves the document in the PCL (Printer Control Language) format.
+Renders a page of the document and saves it as a GIF file.
 
 ### HTML {#HTML}
 ```
@@ -240,6 +201,30 @@ public static int HTML
 
 Saves the document in the HTML format.
 
+### HTML_FIXED {#HTML-FIXED}
+```
+public static int HTML_FIXED
+```
+
+
+Saves the document in the HTML format using absolutely positioned elements
+
+### JPEG {#JPEG}
+```
+public static int JPEG
+```
+
+
+Renders a page of the document and saves it as a JPEG file.
+
+### MARKDOWN {#MARKDOWN}
+```
+public static int MARKDOWN
+```
+
+
+Saves the document in the Markdown format.
+
 ### MHTML {#MHTML}
 ```
 public static int MHTML
@@ -247,22 +232,6 @@ public static int MHTML
 
 
 Saves the document in the MHTML (Web archive) format.
-
-### EPUB {#EPUB}
-```
-public static int EPUB
-```
-
-
-Saves the document in the EPUB format.
-
-### AZW_3 {#AZW-3}
-```
-public static int AZW_3
-```
-
-
-Saves the document in the AZW3 format.
 
 ### ODT {#ODT}
 ```
@@ -272,6 +241,14 @@ public static int ODT
 
 Saves the document as an ODF Text Document.
 
+### OPEN_XPS {#OPEN-XPS}
+```
+public static int OPEN_XPS
+```
+
+
+Saves the document in the OpenXPS (Ecma-388) format.
+
 ### OTT {#OTT}
 ```
 public static int OTT
@@ -280,6 +257,54 @@ public static int OTT
 
 Saves the document as an ODF Text Document Template.
 
+### PCL {#PCL}
+```
+public static int PCL
+```
+
+
+Saves the document in the PCL (Printer Control Language) format.
+
+### PDF {#PDF}
+```
+public static int PDF
+```
+
+
+Saves the document as PDF (Adobe Portable Document) format.
+
+### PNG {#PNG}
+```
+public static int PNG
+```
+
+
+Renders a page of the document and saves it as a PNG file.
+
+### PS {#PS}
+```
+public static int PS
+```
+
+
+Saves the document in the PS (PostScript) format.
+
+### RTF {#RTF}
+```
+public static int RTF
+```
+
+
+Saves the document in the RTF format. All characters above 7-bits are escaped as hexadecimal or Unicode characters.
+
+### SVG {#SVG}
+```
+public static int SVG
+```
+
+
+Saves the document in the Svg (Scalable Vector Graphics) format.
+
 ### TEXT {#TEXT}
 ```
 public static int TEXT
@@ -287,6 +312,38 @@ public static int TEXT
 
 
 Saves the document in the plain text format.
+
+### TIFF {#TIFF}
+```
+public static int TIFF
+```
+
+
+Renders a page or pages of the document and saves them into a single or multipage TIFF file.
+
+### UNKNOWN {#UNKNOWN}
+```
+public static int UNKNOWN
+```
+
+
+Default, invalid value for file format.
+
+### WORD_ML {#WORD-ML}
+```
+public static int WORD_ML
+```
+
+
+Saves the document in the Microsoft Word 2003 WordprocessingML format.
+
+### XAML_FIXED {#XAML-FIXED}
+```
+public static int XAML_FIXED
+```
+
+
+Saves the document in the Extensible Application Markup Language (XAML) format as a fixed document.
 
 ### XAML_FLOW {#XAML-FLOW}
 ```
@@ -304,61 +361,13 @@ public static int XAML_FLOW_PACK
 
 **Beta.** Saves the document in the Extensible Application Markup Language (XAML) package format as a flow document.
 
-### MARKDOWN {#MARKDOWN}
+### XPS {#XPS}
 ```
-public static int MARKDOWN
-```
-
-
-Saves the document in the Markdown format.
-
-### TIFF {#TIFF}
-```
-public static int TIFF
+public static int XPS
 ```
 
 
-Renders a page or pages of the document and saves them into a single or multipage TIFF file.
-
-### PNG {#PNG}
-```
-public static int PNG
-```
-
-
-Renders a page of the document and saves it as a PNG file.
-
-### BMP {#BMP}
-```
-public static int BMP
-```
-
-
-Renders a page of the document and saves it as a BMP file.
-
-### EMF {#EMF}
-```
-public static int EMF
-```
-
-
-Renders a page of the document and saves it as a vector EMF (Enhanced Meta File) file.
-
-### JPEG {#JPEG}
-```
-public static int JPEG
-```
-
-
-Renders a page of the document and saves it as a JPEG file.
-
-### GIF {#GIF}
-```
-public static int GIF
-```
-
-
-Renders a page of the document and saves it as a GIF file.
+Saves the document in the XPS (XML Paper Specification) format.
 
 ### length {#length}
 ```
@@ -366,6 +375,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String saveFormatName) {#fromName-java.lang.String-}
+```
+public static int fromName(String saveFormatName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| saveFormatName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int saveFormat) {#getName-int-}
 ```
 public static String getName(int saveFormat)
@@ -378,6 +427,52 @@ public static String getName(int saveFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -396,9 +491,17 @@ public static String toString(int saveFormat)
 
 **Returns:**
 java.lang.String
-### fromName(String saveFormatName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String saveFormatName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -407,17 +510,19 @@ public static int fromName(String saveFormatName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormatName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

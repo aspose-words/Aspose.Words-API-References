@@ -22,14 +22,88 @@ The page width and height returned by this object represent the "final" size of 
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getHeightInPoints()](#getHeightInPoints--) | Gets the height of the page in points. |
+| [getLandscape()](#getLandscape--) | Returns true if the page orientation specified in the document for this page is landscape. |
+| [getPaperSize()](#getPaperSize--) | Gets the paper size as enumeration. |
+| [getPaperTray()](#getPaperTray--) | Gets the paper tray (bin) for this page as specified in the document. |
 | [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | Calculates the page size in pixels for a specified zoom factor and resolution. |
 | [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | Calculates the page size in pixels for a specified zoom factor and resolution. |
-| [getPaperSize()](#getPaperSize--) | Gets the paper size as enumeration. |
-| [getWidthInPoints()](#getWidthInPoints--) | Gets the width of the page in points. |
-| [getHeightInPoints()](#getHeightInPoints--) | Gets the height of the page in points. |
 | [getSizeInPoints()](#getSizeInPoints--) | Gets the page size in points. |
-| [getPaperTray()](#getPaperTray--) | Gets the paper tray (bin) for this page as specified in the document. |
-| [getLandscape()](#getLandscape--) | Returns true if the page orientation specified in the document for this page is landscape. |
+| [getWidthInPoints()](#getWidthInPoints--) | Gets the width of the page in points. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getHeightInPoints() {#getHeightInPoints--}
+```
+public float getHeightInPoints()
+```
+
+
+Gets the height of the page in points.
+
+**Returns:**
+float - The height of the page in points.
+### getLandscape() {#getLandscape--}
+```
+public boolean getLandscape()
+```
+
+
+Returns true if the page orientation specified in the document for this page is landscape.
+
+**Returns:**
+boolean - True if the page orientation specified in the document for this page is landscape.
+### getPaperSize() {#getPaperSize--}
+```
+public int getPaperSize()
+```
+
+
+Gets the paper size as enumeration.
+
+**Returns:**
+int - The paper size as enumeration. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
+### getPaperTray() {#getPaperTray--}
+```
+public int getPaperTray()
+```
+
+
+Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific.
+
+**Returns:**
+int - The paper tray (bin) for this page as specified in the document.
 ### getSizeInPixels(float scale, float dpi) {#getSizeInPixels-float-float-}
 ```
 public Dimension getSizeInPixels(float scale, float dpi)
@@ -63,36 +137,6 @@ Calculates the page size in pixels for a specified zoom factor and resolution.
 
 **Returns:**
 java.awt.Dimension - The size of the page in pixels.
-### getPaperSize() {#getPaperSize--}
-```
-public int getPaperSize()
-```
-
-
-Gets the paper size as enumeration.
-
-**Returns:**
-int - The paper size as enumeration. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
-### getWidthInPoints() {#getWidthInPoints--}
-```
-public float getWidthInPoints()
-```
-
-
-Gets the width of the page in points.
-
-**Returns:**
-float - The width of the page in points.
-### getHeightInPoints() {#getHeightInPoints--}
-```
-public float getHeightInPoints()
-```
-
-
-Gets the height of the page in points.
-
-**Returns:**
-float - The height of the page in points.
 ### getSizeInPoints() {#getSizeInPoints--}
 ```
 public Point2D.Float getSizeInPoints()
@@ -103,23 +147,84 @@ Gets the page size in points.
 
 **Returns:**
 java.awt.geom.Point2D.Float - The page size in points.
-### getPaperTray() {#getPaperTray--}
+### getWidthInPoints() {#getWidthInPoints--}
 ```
-public int getPaperTray()
+public float getWidthInPoints()
 ```
 
 
-Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific.
+Gets the width of the page in points.
 
 **Returns:**
-int - The paper tray (bin) for this page as specified in the document.
-### getLandscape() {#getLandscape--}
+float - The width of the page in points.
+### hashCode() {#hashCode--}
 ```
-public boolean getLandscape()
+public native int hashCode()
 ```
 
 
-Returns true if the page orientation specified in the document for this page is landscape.
+
 
 **Returns:**
-boolean - True if the page orientation specified in the document for this page is landscape.
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -9,8 +9,8 @@ url: /python-net/aspose.words.saving/csssavingargs/is_export_needed/
 
 ## CssSavingArgs.is_export_needed property
 
-Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``true``.
-When this property is ``false``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
+Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``True``.
+When this property is ``False``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
 
 
 

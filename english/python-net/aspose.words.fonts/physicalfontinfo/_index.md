@@ -1,7 +1,7 @@
 ﻿---
 title: PhysicalFontInfo class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies information about physical font available to Aspose.Words font engine."
+description: "Specifies information about physical font available to Aspose.Words font engine"
 type: docs
 weight: 200
 url: /python-net/aspose.words.fonts/physicalfontinfo/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/physicalfontinfo/
 ## PhysicalFontInfo class
 
 Specifies information about physical font available to Aspose.Words font engine.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 ### Properties

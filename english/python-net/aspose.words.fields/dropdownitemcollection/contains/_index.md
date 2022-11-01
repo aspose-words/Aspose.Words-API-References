@@ -23,7 +23,7 @@ def contains(self, value: str):
 
 ### Returns
 
-True if the item is found in the collection; otherwise, false.
+``True`` if the item is found in the collection; otherwise, ``False``.
 
 
 ### Examples

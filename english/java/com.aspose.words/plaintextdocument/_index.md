@@ -28,9 +28,18 @@ To learn more, visit the **Working with Text Document** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets textual content of the document concatenated as a string. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document. |
+| [getClass()](#getClass--) |  |
 | [getCustomDocumentProperties()](#getCustomDocumentProperties--) | Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document. |
+| [getText()](#getText--) | Gets textual content of the document concatenated as a string. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PlainTextDocument(String fileName) {#PlainTextDocument-java.lang.String-}
 ```
 public PlainTextDocument(String fileName)
@@ -85,16 +94,21 @@ Initializes a new instance of this class.
 | stream | java.io.InputStream |  |
 | loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) |  |
 
-### getText() {#getText--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public String getText()
+public boolean equals(Object arg0)
 ```
 
 
-Gets textual content of the document concatenated as a string.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String - Textual content of the document concatenated as a string.
+boolean
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 ```
 public BuiltInDocumentProperties getBuiltInDocumentProperties()
@@ -105,6 +119,16 @@ Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#
 
 **Returns:**
 [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 ```
 public CustomDocumentProperties getCustomDocumentProperties()
@@ -115,3 +139,84 @@ Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#g
 
 **Returns:**
 [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document.
+### getText() {#getText--}
+```
+public String getText()
+```
+
+
+Gets textual content of the document concatenated as a string.
+
+**Returns:**
+java.lang.String - Textual content of the document concatenated as a string.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

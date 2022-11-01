@@ -22,10 +22,54 @@ OLE package is a legacy and "undocumented" way to store embedded object if OLE h
 
 | Method | Description |
 | --- | --- |
-| [getFileName()](#getFileName--) | Gets OLE Package file name. |
-| [setFileName(String value)](#setFileName-java.lang.String-) | Sets OLE Package file name. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayName()](#getDisplayName--) | Gets OLE Package display name. |
+| [getFileName()](#getFileName--) | Gets OLE Package file name. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets OLE Package display name. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets OLE Package file name. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayName() {#getDisplayName--}
+```
+public String getDisplayName()
+```
+
+
+Gets OLE Package display name.
+
+**Returns:**
+java.lang.String - OLE Package display name.
 ### getFileName() {#getFileName--}
 ```
 public String getFileName()
@@ -36,6 +80,45 @@ Gets OLE Package file name.
 
 **Returns:**
 java.lang.String - OLE Package file name.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setDisplayName(String value) {#setDisplayName-java.lang.String-}
+```
+public void setDisplayName(String value)
+```
+
+
+Sets OLE Package display name.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | OLE Package display name. |
+
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
 public void setFileName(String value)
@@ -49,26 +132,48 @@ Sets OLE Package file name.
 | --- | --- | --- |
 | value | java.lang.String | OLE Package file name. |
 
-### getDisplayName() {#getDisplayName--}
+### toString() {#toString--}
 ```
-public String getDisplayName()
+public String toString()
 ```
 
 
-Gets OLE Package display name.
+
 
 **Returns:**
-java.lang.String - OLE Package display name.
-### setDisplayName(String value) {#setDisplayName-java.lang.String-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setDisplayName(String value)
+public final void wait()
 ```
 
 
-Sets OLE Package display name.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | OLE Package display name. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

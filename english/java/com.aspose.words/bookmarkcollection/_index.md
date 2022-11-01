@@ -23,24 +23,46 @@ To learn more, visit the **Working with Bookmarks** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getCount()](#getCount--) | Returns the number of bookmarks in the collection. |
+| [clear()](#clear--) | Removes all bookmarks from this collection and from the document. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Returns a bookmark at the specified index. |
 | [get(String bookmarkName)](#get-java.lang.String-) | Returns a bookmark by name. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of bookmarks in the collection. |
+| [hashCode()](#hashCode--) |  |
+| [iterator()](#iterator--) | Returns an enumerator object. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [remove(Bookmark bookmark)](#remove-com.aspose.words.Bookmark-) | Removes the specified bookmark from the document. |
 | [remove(String bookmarkName)](#remove-java.lang.String-) | Removes a bookmark with the specified name. |
 | [removeAt(int index)](#removeAt-int-) | Removes a bookmark at the specified index. |
-| [clear()](#clear--) | Removes all bookmarks from this collection and from the document. |
-| [iterator()](#iterator--) | Returns an enumerator object. |
-### getCount() {#getCount--}
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### clear() {#clear--}
 ```
-public int getCount()
+public void clear()
 ```
 
 
-Returns the number of bookmarks in the collection.
+Removes all bookmarks from this collection and from the document.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The number of bookmarks in the collection.
+boolean
 ### get(int index) {#get-int-}
 ```
 public Bookmark get(int index)
@@ -81,6 +103,62 @@ Returns null if the bookmark with the specified name cannot be found.
 
 **Returns:**
 [Bookmark](../../com.aspose.words/bookmark) - A bookmark by name.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Returns the number of bookmarks in the collection.
+
+**Returns:**
+int - The number of bookmarks in the collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Returns an enumerator object.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### remove(Bookmark bookmark) {#remove-com.aspose.words.Bookmark-}
 ```
 public void remove(Bookmark bookmark)
@@ -120,21 +198,48 @@ Removes a bookmark at the specified index.
 | --- | --- | --- |
 | index | int | The zero-based index of the bookmark to remove. |
 
-### clear() {#clear--}
+### toString() {#toString--}
 ```
-public void clear()
-```
-
-
-Removes all bookmarks from this collection and from the document.
-
-### iterator() {#iterator--}
-```
-public Iterator iterator()
+public String toString()
 ```
 
 
-Returns an enumerator object.
+
 
 **Returns:**
-java.util.Iterator
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

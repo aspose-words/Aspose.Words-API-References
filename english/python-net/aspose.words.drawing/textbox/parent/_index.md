@@ -1,7 +1,7 @@
 ﻿---
 title: parent property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets a parent shape for the TextBox."
+description: "Gets a parent shape for the [TextBox](../)."
 type: docs
 weight: 80
 url: /python-net/aspose.words.drawing/textbox/parent/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.drawing/textbox/parent/
 
 ## TextBox.parent property
 
-Gets a parent shape for the TextBox.
+Gets a parent shape for the [TextBox](../).
+
 
 
 ### See Also

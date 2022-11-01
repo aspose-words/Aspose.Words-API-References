@@ -3,7 +3,7 @@ title: use_high_quality_rendering property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining whether or not to use high quality (i.e"
 type: docs
-weight: 200
+weight: 190
 url: /python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/
 ---
 
@@ -11,9 +11,9 @@ url: /python-net/aspose.words.saving/saveoptions/use_high_quality_rendering/
 
 Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.
 
-The default value is ``false``.
-This property is used when the document is exported to image formats: 
-[SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP), 
+The default value is ``False``.
+This property is used when the document is exported to image formats:
+[SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF), [SaveFormat.PNG](../../../aspose.words/saveformat/#PNG), [SaveFormat.BMP](../../../aspose.words/saveformat/#BMP),
 [SaveFormat.JPEG](../../../aspose.words/saveformat/#JPEG), [SaveFormat.EMF](../../../aspose.words/saveformat/#EMF).
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: Field class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a Microsoft Word document field."
+description: "Represents a Microsoft Word document field"
 type: docs
 weight: 50
 url: /python-net/aspose.words.fields/field/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/field/
 ## Field class
 
 Represents a Microsoft Word document field.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 A field in a Word document is a complex structure consisting of multiple nodes that include field start,
@@ -53,7 +56,7 @@ To create a new field use the [DocumentBuilder.insert_field()](../../aspose.word
 | [is_locked](./is_locked/) | Gets or sets whether the field is locked (should not recalculate its result). |
 | [locale_id](./locale_id/) | Gets or sets the LCID of the field. |
 | [result](./result/) | Gets or sets text that is between the field separator and field end. |
-| [separator](./separator/) | Gets the node that represents the field separator. Can be null. |
+| [separator](./separator/) | Gets the node that represents the field separator. Can be ``None``. |
 | [start](./start/) | Gets the node that represents the start of the field. |
 | [type](./type/) | Gets the Microsoft Word field type. |
 
@@ -158,7 +161,7 @@ To create a new field use the [DocumentBuilder.insert_field()](../../aspose.word
 |[ as_field_xe()](./as_field_xe/#default) |  |
 |[ get_field_code()](./get_field_code/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 |[ get_field_code(include_child_field_codes)](./get_field_code/#bool) | Returns text between field start and field separator (or field end if there is no separator). |
-|[ remove()](./remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+|[ remove()](./remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``. |
 |[ unlink()](./unlink/#default) | Performs the field unlink. |
 |[ update()](./update/#default) | Performs the field update. Throws if the field is being updated already. |
 |[ update(ignore_merge_format)](./update/#bool) | Performs a field update. Throws if the field is being updated already. |

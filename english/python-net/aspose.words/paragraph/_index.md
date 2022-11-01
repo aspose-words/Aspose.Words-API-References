@@ -1,7 +1,7 @@
 ﻿---
 title: Paragraph class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a paragraph of text."
+description: "Represents a paragraph of text"
 type: docs
 weight: 830
 url: /python-net/aspose.words/paragraph/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/paragraph/
 ## Paragraph class
 
 Represents a paragraph of text.
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+
+
 
 
 [Paragraph](./) is a block-level node and can be a child of classes derived from
@@ -27,10 +30,10 @@ The complete list of child nodes that can occur inside a paragraph consists of
 [SmartTag](../../aspose.words.markup/smarttag/).
 
 A valid paragraph in Microsoft Word always ends with a paragraph break character and
-a minimal valid paragraph consists just of a paragraph break. The **Paragraph**
+a minimal valid paragraph consists just of a paragraph break. The [Paragraph](./)
 class automatically appends the appropriate paragraph break character at the end
-and this character is not part of the child nodes of the **Paragraph**, therefore
-a **Paragraph** can be empty.
+and this character is not part of the child nodes of the [Paragraph](./), therefore
+a [Paragraph](./) can be empty.
 
 Do not include the end of paragraph [ControlChar.PARAGRAPH_BREAK](../controlchar/PARAGRAPH_BREAK/)
 or end of cell [ControlChar.CELL](../controlchar/CELL/) characters inside the text of
@@ -44,7 +47,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Paragraph(doc)](./__init__/#documentbase) | Initializes a new instance of the **Paragraph** class. |
+| [Paragraph(doc)](./__init__/#documentbase) | Initializes a new instance of the [Paragraph](./) class. |
 
 ### Properties
 
@@ -57,31 +60,31 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [frame_format](./frame_format/) | Provides access to the paragraph formatting properties. |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](./is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [is_end_of_cell](./is_end_of_cell/) | True if this paragraph is the last paragraph in a [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [is_end_of_document](./is_end_of_document/) | True if this paragraph is the last paragraph in the last section of the document. |
-| [is_end_of_header_footer](./is_end_of_header_footer/) | True if this paragraph is the last paragraph in the **HeaderFooter** (main text story) of a **Section**; false otherwise. |
-| [is_end_of_section](./is_end_of_section/) | True if this paragraph is the last paragraph in the **Body** (main text story) of a **Section**; false otherwise. |
+| [is_end_of_header_footer](./is_end_of_header_footer/) | True if this paragraph is the last paragraph in the [HeaderFooter](../headerfooter/) (main text story) of a [Section](../section/); false otherwise. |
+| [is_end_of_section](./is_end_of_section/) | True if this paragraph is the last paragraph in the [Body](../body/) (main text story) of a [Section](../section/); false otherwise. |
 | [is_format_revision](./is_format_revision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [is_in_cell](./is_in_cell/) | True if this paragraph is an immediate child of [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [is_insert_revision](./is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [is_list_item](./is_list_item/) | True when the paragraph is an item in a bulleted or numbered list in original revision. |
-| [is_move_from_revision](./is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [is_move_to_revision](./is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [is_move_from_revision](./is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [is_move_to_revision](./is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [list_format](./list_format/) | Provides access to the list formatting properties of the paragraph. |
 | [list_label](./list_label/) | Gets a [Paragraph.list_label](./list_label/) object that provides access to list numbering value and formatting for this paragraph. |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_type](./node_type/) | Returns **NodeType.Paragraph**. |
+| [node_type](./node_type/) | Returns [NodeType.PARAGRAPH](../nodetype/#PARAGRAPH). |
 | [paragraph_break_font](./paragraph_break_font/) | Provides access to the font formatting of the paragraph break character. |
 | [paragraph_format](./paragraph_format/) | Provides access to the paragraph formatting properties. |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_section](./parent_section/) | Retrieves the parent [Section](../section/) of the paragraph. |
 | [parent_story](./parent_story/) | Retrieves the parent section-level story that can be [Body](../body/) or [HeaderFooter](../headerfooter/). |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [runs](./runs/) | Provides access to the typed collection of pieces of text inside the paragraph. |
 
 ### Methods
@@ -115,7 +118,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ remove_child(old_child)](../compositenode/remove_child/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ remove_smart_tags()](../compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 

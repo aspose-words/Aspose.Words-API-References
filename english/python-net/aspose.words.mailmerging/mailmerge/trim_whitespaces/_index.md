@@ -11,7 +11,7 @@ url: /python-net/aspose.words.mailmerging/mailmerge/trim_whitespaces/
 
 Gets or sets a value indicating whether trailing and leading whitespaces are trimmed from mail merge values.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

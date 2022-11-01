@@ -23,7 +23,7 @@ def contains_value(self, data_source_field_name: str):
 
 ### Returns
 
-True if item is found in the collection; otherwise, false.
+``True`` if item is found in the collection; otherwise, ``False``.
 
 
 ### Examples

@@ -25,26 +25,71 @@ You do not create instances of this class. You access the collection of XML sche
 
 | Method | Description |
 | --- | --- |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [get(int index)](#get-int-) | Gets the element at the specified index. |
-| [set(int index, String value)](#set-int-java.lang.String-) | Sets the element at the specified index. |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [add(String value)](#add-java.lang.String-) | Adds an item to the collection. |
-| [indexOf(String value)](#indexOf-java.lang.String-) | Returns the zero-based index of the specified value in the collection. |
-| [remove(String name)](#remove-java.lang.String-) | Removes the specified value from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a value at the specified index. |
 | [clear()](#clear--) | Removes all elements from the collection. |
 | [deepClone()](#deepClone--) | Makes a deep clone of this object. |
-### getCount() {#getCount--}
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [get(int index)](#get-int-) | Gets the element at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode--) |  |
+| [indexOf(String value)](#indexOf-java.lang.String-) | Returns the zero-based index of the specified value in the collection. |
+| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove(String name)](#remove-java.lang.String-) | Removes the specified value from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a value at the specified index. |
+| [set(int index, String value)](#set-int-java.lang.String-) | Sets the element at the specified index. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### add(String value) {#add-java.lang.String-}
 ```
-public int getCount()
+public void add(String value)
 ```
 
 
-Gets the number of elements contained in the collection.
+Adds an item to the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The item to add. |
+
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Removes all elements from the collection.
+
+### deepClone() {#deepClone--}
+```
+public CustomXmlSchemaCollection deepClone()
+```
+
+
+Makes a deep clone of this object.
 
 **Returns:**
-int - The number of elements contained in the collection.
+[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public String get(int index)
@@ -60,43 +105,36 @@ Gets the element at the specified index.
 
 **Returns:**
 java.lang.String - The element at the specified index.
-### set(int index, String value) {#set-int-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public void set(int index, String value)
-```
-
-
-Sets the element at the specified index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int |  |
-| value | java.lang.String | The element at the specified index. |
-
-### iterator() {#iterator--}
-```
-public Iterator iterator()
+public final native Class<?> getClass()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+
 
 **Returns:**
-java.util.Iterator
-### add(String value) {#add-java.lang.String-}
+java.lang.Class<?>
+### getCount() {#getCount--}
 ```
-public void add(String value)
+public int getCount()
 ```
 
 
-Adds an item to the collection.
+Gets the number of elements contained in the collection.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The item to add. |
+**Returns:**
+int - The number of elements contained in the collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
 
+
+
+
+**Returns:**
+int
 ### indexOf(String value) {#indexOf-java.lang.String-}
 ```
 public int indexOf(String value)
@@ -112,6 +150,32 @@ Returns the zero-based index of the specified value in the collection.
 
 **Returns:**
 int - The zero based index. Negative value if not found.
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Returns an iterator object that can be used to iterate over all items in the collection.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### remove(String name) {#remove-java.lang.String-}
 ```
 public void remove(String name)
@@ -138,21 +202,62 @@ Removes a value at the specified index.
 | --- | --- | --- |
 | index | int | The zero based index. |
 
-### clear() {#clear--}
+### set(int index, String value) {#set-int-java.lang.String-}
 ```
-public void clear()
-```
-
-
-Removes all elements from the collection.
-
-### deepClone() {#deepClone--}
-```
-public CustomXmlSchemaCollection deepClone()
+public void set(int index, String value)
 ```
 
 
-Makes a deep clone of this object.
+Sets the element at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int |  |
+| value | java.lang.String | The element at the specified index. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection)
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

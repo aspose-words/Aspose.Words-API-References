@@ -1,7 +1,7 @@
 ﻿---
 title: ChartMarker class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a chart data marker."
+description: "Represents a chart data marker"
 type: docs
 weight: 220
 url: /python-net/aspose.words.drawing.charts/chartmarker/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartmarker/
 ## ChartMarker class
 
 Represents a chart data marker.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 ### Properties

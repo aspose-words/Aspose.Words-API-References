@@ -20,81 +20,82 @@ To learn more, visit the **Working with Charts** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [solid()](#solid--) |  |
-| [presetTextured(int presetTexture)](#presetTextured-int-) |  |
-| [patterned(int patternType)](#patterned-int-) |  |
-| [getPresetTexture()](#getPresetTexture--) |  |
-| [getPatternType()](#getPatternType--) |  |
-| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
-| [setImage(byte[] imageBytes)](#setImage-byte---) |  |
-| [getFilledColor()](#getFilledColor--) |  |
-| [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
-| [getOn()](#getOn--) |  |
-| [setOn(boolean value)](#setOn-boolean-) |  |
-| [getOpacity()](#getOpacity--) |  |
-| [setOpacity(double value)](#setOpacity-double-) |  |
-| [getFillableImageBytes()](#getFillableImageBytes--) |  |
-| [getFillableForeColor()](#getFillableForeColor--) |  |
-| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
-| [getFillableBackColor()](#getFillableBackColor--) |  |
-| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
-| [getFillableVisible()](#getFillableVisible--) |  |
-| [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
-| [getFillableTransparency()](#getFillableTransparency--) |  |
-| [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
-| [getRotateWithObject()](#getRotateWithObject--) |  |
-| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [getFillType()](#getFillType--) |  |
-| [getTextureAlignment()](#getTextureAlignment--) |  |
-| [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [getGradientAngle()](#getGradientAngle--) |  |
-| [setGradientAngle(double value)](#setGradientAngle-double-) |  |
-| [getGradientVariant()](#getGradientVariant--) |  |
-| [getGradientStyle()](#getGradientStyle--) |  |
-| [getGradientStops()](#getGradientStops--) |  |
-| [getStrokeVisible()](#getStrokeVisible--) |  |
-| [setStrokeVisible(boolean value)](#setStrokeVisible-boolean-) |  |
-| [getStrokeTransparency()](#getStrokeTransparency--) |  |
-| [setStrokeTransparency(double value)](#setStrokeTransparency-double-) |  |
-| [getWeight()](#getWeight--) |  |
-| [setWeight(double value)](#setWeight-double-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDashStyle()](#getDashStyle--) |  |
-| [setDashStyle(int value)](#setDashStyle-int-) |  |
-| [getJoinStyle()](#getJoinStyle--) |  |
-| [setJoinStyle(int value)](#setJoinStyle-int-) |  |
-| [getEndCap()](#getEndCap--) |  |
-| [setEndCap(int value)](#setEndCap-int-) |  |
-| [getLineStyle()](#getLineStyle--) |  |
-| [setLineStyle(int value)](#setLineStyle-int-) |  |
-| [getStartArrowType()](#getStartArrowType--) |  |
-| [setStartArrowType(int value)](#setStartArrowType-int-) |  |
-| [getEndArrowType()](#getEndArrowType--) |  |
-| [setEndArrowType(int value)](#setEndArrowType-int-) |  |
-| [getStartArrowWidth()](#getStartArrowWidth--) |  |
-| [setStartArrowWidth(int value)](#setStartArrowWidth-int-) |  |
-| [getStartArrowLength()](#getStartArrowLength--) |  |
-| [setStartArrowLength(int value)](#setStartArrowLength-int-) |  |
-| [getEndArrowWidth()](#getEndArrowWidth--) |  |
-| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) |  |
 | [getEndArrowLength()](#getEndArrowLength--) |  |
-| [setEndArrowLength(int value)](#setEndArrowLength-int-) |  |
-| [getLineFillType()](#getLineFillType--) |  |
-| [setLineFillType(int value)](#setLineFillType-int-) |  |
-| [getStrokeImageBytes()](#getStrokeImageBytes--) |  |
+| [getEndArrowType()](#getEndArrowType--) |  |
+| [getEndArrowWidth()](#getEndArrowWidth--) |  |
+| [getEndCap()](#getEndCap--) |  |
 | [getFill()](#getFill--) | Gets fill formatting for the parent chart element. |
+| [getFillType()](#getFillType--) |  |
+| [getFillableBackColor()](#getFillableBackColor--) |  |
+| [getFillableForeColor()](#getFillableForeColor--) |  |
+| [getFillableImageBytes()](#getFillableImageBytes--) |  |
+| [getFillableTransparency()](#getFillableTransparency--) |  |
+| [getFillableVisible()](#getFillableVisible--) |  |
+| [getFilledColor()](#getFilledColor--) |  |
+| [getGradientAngle()](#getGradientAngle--) |  |
+| [getGradientStops()](#getGradientStops--) |  |
+| [getGradientStyle()](#getGradientStyle--) |  |
+| [getGradientVariant()](#getGradientVariant--) |  |
+| [getJoinStyle()](#getJoinStyle--) |  |
+| [getLineFillType()](#getLineFillType--) |  |
+| [getLineStyle()](#getLineStyle--) |  |
+| [getOn()](#getOn--) |  |
+| [getOpacity()](#getOpacity--) |  |
+| [getPatternType()](#getPatternType--) |  |
+| [getPresetTexture()](#getPresetTexture--) |  |
+| [getRotateWithObject()](#getRotateWithObject--) |  |
+| [getStartArrowLength()](#getStartArrowLength--) |  |
+| [getStartArrowType()](#getStartArrowType--) |  |
+| [getStartArrowWidth()](#getStartArrowWidth--) |  |
 | [getStroke()](#getStroke--) | Gets line formatting for the parent chart element. |
-### solid() {#solid--}
+| [getStrokeImageBytes()](#getStrokeImageBytes--) |  |
+| [getStrokeTransparency()](#getStrokeTransparency--) |  |
+| [getStrokeVisible()](#getStrokeVisible--) |  |
+| [getTextureAlignment()](#getTextureAlignment--) |  |
+| [getWeight()](#getWeight--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
+| [patterned(int patternType)](#patterned-int-) |  |
+| [presetTextured(int presetTexture)](#presetTextured-int-) |  |
+| [setDashStyle(int value)](#setDashStyle-int-) |  |
+| [setEndArrowLength(int value)](#setEndArrowLength-int-) |  |
+| [setEndArrowType(int value)](#setEndArrowType-int-) |  |
+| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) |  |
+| [setEndCap(int value)](#setEndCap-int-) |  |
+| [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
+| [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
+| [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
+| [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
+| [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
+| [setGradientAngle(double value)](#setGradientAngle-double-) |  |
+| [setImage(byte[] imageBytes)](#setImage-byte---) |  |
+| [setJoinStyle(int value)](#setJoinStyle-int-) |  |
+| [setLineFillType(int value)](#setLineFillType-int-) |  |
+| [setLineStyle(int value)](#setLineStyle-int-) |  |
+| [setOn(boolean value)](#setOn-boolean-) |  |
+| [setOpacity(double value)](#setOpacity-double-) |  |
+| [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
+| [setStartArrowLength(int value)](#setStartArrowLength-int-) |  |
+| [setStartArrowType(int value)](#setStartArrowType-int-) |  |
+| [setStartArrowWidth(int value)](#setStartArrowWidth-int-) |  |
+| [setStrokeTransparency(double value)](#setStrokeTransparency-double-) |  |
+| [setStrokeVisible(boolean value)](#setStrokeVisible-boolean-) |  |
+| [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
+| [setWeight(double value)](#setWeight-double-) |  |
+| [solid()](#solid--) |  |
+| [toString()](#toString--) |  |
+| [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void solid()
-```
-
-
-
-
-### presetTextured(int presetTexture) {#presetTextured-int-}
-```
-public void presetTextured(int presetTexture)
+public boolean equals(Object arg0)
 ```
 
 
@@ -103,24 +104,23 @@ public void presetTextured(int presetTexture)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| presetTexture | int |  |
+| arg0 | java.lang.Object |  |
 
-### patterned(int patternType) {#patterned-int-}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public void patterned(int patternType)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| patternType | int |  |
-
-### getPresetTexture() {#getPresetTexture--}
+**Returns:**
+java.lang.Class<?>
+### getDashStyle() {#getDashStyle--}
 ```
-public int getPresetTexture()
+public int getDashStyle()
 ```
 
 
@@ -128,6 +128,216 @@ public int getPresetTexture()
 
 **Returns:**
 int
+### getEndArrowLength() {#getEndArrowLength--}
+```
+public int getEndArrowLength()
+```
+
+
+
+
+**Returns:**
+int
+### getEndArrowType() {#getEndArrowType--}
+```
+public int getEndArrowType()
+```
+
+
+
+
+**Returns:**
+int
+### getEndArrowWidth() {#getEndArrowWidth--}
+```
+public int getEndArrowWidth()
+```
+
+
+
+
+**Returns:**
+int
+### getEndCap() {#getEndCap--}
+```
+public int getEndCap()
+```
+
+
+
+
+**Returns:**
+int
+### getFill() {#getFill--}
+```
+public Fill getFill()
+```
+
+
+Gets fill formatting for the parent chart element.
+
+**Returns:**
+[Fill](../../com.aspose.words/fill) - Fill formatting for the parent chart element.
+### getFillType() {#getFillType--}
+```
+public int getFillType()
+```
+
+
+
+
+**Returns:**
+int
+### getFillableBackColor() {#getFillableBackColor--}
+```
+public Color getFillableBackColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
+### getFillableForeColor() {#getFillableForeColor--}
+```
+public Color getFillableForeColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
+### getFillableImageBytes() {#getFillableImageBytes--}
+```
+public byte[] getFillableImageBytes()
+```
+
+
+
+
+**Returns:**
+byte[]
+### getFillableTransparency() {#getFillableTransparency--}
+```
+public double getFillableTransparency()
+```
+
+
+
+
+**Returns:**
+double
+### getFillableVisible() {#getFillableVisible--}
+```
+public boolean getFillableVisible()
+```
+
+
+
+
+**Returns:**
+boolean
+### getFilledColor() {#getFilledColor--}
+```
+public Color getFilledColor()
+```
+
+
+
+
+**Returns:**
+java.awt.Color
+### getGradientAngle() {#getGradientAngle--}
+```
+public double getGradientAngle()
+```
+
+
+
+
+**Returns:**
+double
+### getGradientStops() {#getGradientStops--}
+```
+public GradientStopCollection getGradientStops()
+```
+
+
+
+
+**Returns:**
+[GradientStopCollection](../../com.aspose.words/gradientstopcollection)
+### getGradientStyle() {#getGradientStyle--}
+```
+public int getGradientStyle()
+```
+
+
+
+
+**Returns:**
+int
+### getGradientVariant() {#getGradientVariant--}
+```
+public int getGradientVariant()
+```
+
+
+
+
+**Returns:**
+int
+### getJoinStyle() {#getJoinStyle--}
+```
+public int getJoinStyle()
+```
+
+
+
+
+**Returns:**
+int
+### getLineFillType() {#getLineFillType--}
+```
+public int getLineFillType()
+```
+
+
+
+
+**Returns:**
+int
+### getLineStyle() {#getLineStyle--}
+```
+public int getLineStyle()
+```
+
+
+
+
+**Returns:**
+int
+### getOn() {#getOn--}
+```
+public boolean getOn()
+```
+
+
+
+
+**Returns:**
+boolean
+### getOpacity() {#getOpacity--}
+```
+public double getOpacity()
+```
+
+
+
+
+**Returns:**
+double
 ### getPatternType() {#getPatternType--}
 ```
 public int getPatternType()
@@ -138,6 +348,142 @@ public int getPatternType()
 
 **Returns:**
 int
+### getPresetTexture() {#getPresetTexture--}
+```
+public int getPresetTexture()
+```
+
+
+
+
+**Returns:**
+int
+### getRotateWithObject() {#getRotateWithObject--}
+```
+public boolean getRotateWithObject()
+```
+
+
+
+
+**Returns:**
+boolean
+### getStartArrowLength() {#getStartArrowLength--}
+```
+public int getStartArrowLength()
+```
+
+
+
+
+**Returns:**
+int
+### getStartArrowType() {#getStartArrowType--}
+```
+public int getStartArrowType()
+```
+
+
+
+
+**Returns:**
+int
+### getStartArrowWidth() {#getStartArrowWidth--}
+```
+public int getStartArrowWidth()
+```
+
+
+
+
+**Returns:**
+int
+### getStroke() {#getStroke--}
+```
+public Stroke getStroke()
+```
+
+
+Gets line formatting for the parent chart element.
+
+**Returns:**
+[Stroke](../../com.aspose.words/stroke) - Line formatting for the parent chart element.
+### getStrokeImageBytes() {#getStrokeImageBytes--}
+```
+public byte[] getStrokeImageBytes()
+```
+
+
+
+
+**Returns:**
+byte[]
+### getStrokeTransparency() {#getStrokeTransparency--}
+```
+public double getStrokeTransparency()
+```
+
+
+
+
+**Returns:**
+double
+### getStrokeVisible() {#getStrokeVisible--}
+```
+public boolean getStrokeVisible()
+```
+
+
+
+
+**Returns:**
+boolean
+### getTextureAlignment() {#getTextureAlignment--}
+```
+public int getTextureAlignment()
+```
+
+
+
+
+**Returns:**
+int
+### getWeight() {#getWeight--}
+```
+public double getWeight()
+```
+
+
+
+
+**Returns:**
+double
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### oneColorGradient(int style, int variant, double degree) {#oneColorGradient-int-int-double-}
 ```
 public void oneColorGradient(int style, int variant, double degree)
@@ -153,9 +499,9 @@ public void oneColorGradient(int style, int variant, double degree)
 | variant | int |  |
 | degree | double |  |
 
-### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
+### patterned(int patternType) {#patterned-int-}
 ```
-public void twoColorGradient(int style, int variant)
+public void patterned(int patternType)
 ```
 
 
@@ -164,8 +510,163 @@ public void twoColorGradient(int style, int variant)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| style | int |  |
-| variant | int |  |
+| patternType | int |  |
+
+### presetTextured(int presetTexture) {#presetTextured-int-}
+```
+public void presetTextured(int presetTexture)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presetTexture | int |  |
+
+### setDashStyle(int value) {#setDashStyle-int-}
+```
+public void setDashStyle(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEndArrowLength(int value) {#setEndArrowLength-int-}
+```
+public void setEndArrowLength(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEndArrowType(int value) {#setEndArrowType-int-}
+```
+public void setEndArrowType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEndArrowWidth(int value) {#setEndArrowWidth-int-}
+```
+public void setEndArrowWidth(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setEndCap(int value) {#setEndCap-int-}
+```
+public void setEndCap(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
+```
+public void setFillableBackColor(Color value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
+
+### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color-}
+```
+public void setFillableForeColor(Color value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
+
+### setFillableTransparency(double value) {#setFillableTransparency-double-}
+```
+public void setFillableTransparency(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setFillableVisible(boolean value) {#setFillableVisible-boolean-}
+```
+public void setFillableVisible(boolean value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setFilledColor(Color value) {#setFilledColor-java.awt.Color-}
+```
+public void setFilledColor(Color value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.awt.Color |  |
+
+### setGradientAngle(double value) {#setGradientAngle-double-}
+```
+public void setGradientAngle(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
 
 ### setImage(byte[] imageBytes) {#setImage-byte---}
 ```
@@ -180,388 +681,6 @@ public void setImage(byte[] imageBytes)
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
-### getFilledColor() {#getFilledColor--}
-```
-public Color getFilledColor()
-```
-
-
-
-
-**Returns:**
-java.awt.Color
-### setFilledColor(Color value) {#setFilledColor-java.awt.Color-}
-```
-public void setFilledColor(Color value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
-### getOn() {#getOn--}
-```
-public boolean getOn()
-```
-
-
-
-
-**Returns:**
-boolean
-### setOn(boolean value) {#setOn-boolean-}
-```
-public void setOn(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getOpacity() {#getOpacity--}
-```
-public double getOpacity()
-```
-
-
-
-
-**Returns:**
-double
-### setOpacity(double value) {#setOpacity-double-}
-```
-public void setOpacity(double value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### getFillableImageBytes() {#getFillableImageBytes--}
-```
-public byte[] getFillableImageBytes()
-```
-
-
-
-
-**Returns:**
-byte[]
-### getFillableForeColor() {#getFillableForeColor--}
-```
-public Color getFillableForeColor()
-```
-
-
-
-
-**Returns:**
-java.awt.Color
-### setFillableForeColor(Color value) {#setFillableForeColor-java.awt.Color-}
-```
-public void setFillableForeColor(Color value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
-### getFillableBackColor() {#getFillableBackColor--}
-```
-public Color getFillableBackColor()
-```
-
-
-
-
-**Returns:**
-java.awt.Color
-### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
-```
-public void setFillableBackColor(Color value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.awt.Color |  |
-
-### getFillableVisible() {#getFillableVisible--}
-```
-public boolean getFillableVisible()
-```
-
-
-
-
-**Returns:**
-boolean
-### setFillableVisible(boolean value) {#setFillableVisible-boolean-}
-```
-public void setFillableVisible(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getFillableTransparency() {#getFillableTransparency--}
-```
-public double getFillableTransparency()
-```
-
-
-
-
-**Returns:**
-double
-### setFillableTransparency(double value) {#setFillableTransparency-double-}
-```
-public void setFillableTransparency(double value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### getRotateWithObject() {#getRotateWithObject--}
-```
-public boolean getRotateWithObject()
-```
-
-
-
-
-**Returns:**
-boolean
-### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
-```
-public void setRotateWithObject(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getFillType() {#getFillType--}
-```
-public int getFillType()
-```
-
-
-
-
-**Returns:**
-int
-### getTextureAlignment() {#getTextureAlignment--}
-```
-public int getTextureAlignment()
-```
-
-
-
-
-**Returns:**
-int
-### setTextureAlignment(int value) {#setTextureAlignment-int-}
-```
-public void setTextureAlignment(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getGradientAngle() {#getGradientAngle--}
-```
-public double getGradientAngle()
-```
-
-
-
-
-**Returns:**
-double
-### setGradientAngle(double value) {#setGradientAngle-double-}
-```
-public void setGradientAngle(double value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### getGradientVariant() {#getGradientVariant--}
-```
-public int getGradientVariant()
-```
-
-
-
-
-**Returns:**
-int
-### getGradientStyle() {#getGradientStyle--}
-```
-public int getGradientStyle()
-```
-
-
-
-
-**Returns:**
-int
-### getGradientStops() {#getGradientStops--}
-```
-public GradientStopCollection getGradientStops()
-```
-
-
-
-
-**Returns:**
-[GradientStopCollection](../../com.aspose.words/gradientstopcollection)
-### getStrokeVisible() {#getStrokeVisible--}
-```
-public boolean getStrokeVisible()
-```
-
-
-
-
-**Returns:**
-boolean
-### setStrokeVisible(boolean value) {#setStrokeVisible-boolean-}
-```
-public void setStrokeVisible(boolean value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
-
-### getStrokeTransparency() {#getStrokeTransparency--}
-```
-public double getStrokeTransparency()
-```
-
-
-
-
-**Returns:**
-double
-### setStrokeTransparency(double value) {#setStrokeTransparency-double-}
-```
-public void setStrokeTransparency(double value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### getWeight() {#getWeight--}
-```
-public double getWeight()
-```
-
-
-
-
-**Returns:**
-double
-### setWeight(double value) {#setWeight-double-}
-```
-public void setWeight(double value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | double |  |
-
-### getDashStyle() {#getDashStyle--}
-```
-public int getDashStyle()
-```
-
-
-
-
-**Returns:**
-int
-### setDashStyle(int value) {#setDashStyle-int-}
-```
-public void setDashStyle(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getJoinStyle() {#getJoinStyle--}
-```
-public int getJoinStyle()
-```
-
-
-
-
-**Returns:**
-int
 ### setJoinStyle(int value) {#setJoinStyle-int-}
 ```
 public void setJoinStyle(int value)
@@ -575,200 +694,6 @@ public void setJoinStyle(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### getEndCap() {#getEndCap--}
-```
-public int getEndCap()
-```
-
-
-
-
-**Returns:**
-int
-### setEndCap(int value) {#setEndCap-int-}
-```
-public void setEndCap(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getLineStyle() {#getLineStyle--}
-```
-public int getLineStyle()
-```
-
-
-
-
-**Returns:**
-int
-### setLineStyle(int value) {#setLineStyle-int-}
-```
-public void setLineStyle(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getStartArrowType() {#getStartArrowType--}
-```
-public int getStartArrowType()
-```
-
-
-
-
-**Returns:**
-int
-### setStartArrowType(int value) {#setStartArrowType-int-}
-```
-public void setStartArrowType(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getEndArrowType() {#getEndArrowType--}
-```
-public int getEndArrowType()
-```
-
-
-
-
-**Returns:**
-int
-### setEndArrowType(int value) {#setEndArrowType-int-}
-```
-public void setEndArrowType(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getStartArrowWidth() {#getStartArrowWidth--}
-```
-public int getStartArrowWidth()
-```
-
-
-
-
-**Returns:**
-int
-### setStartArrowWidth(int value) {#setStartArrowWidth-int-}
-```
-public void setStartArrowWidth(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getStartArrowLength() {#getStartArrowLength--}
-```
-public int getStartArrowLength()
-```
-
-
-
-
-**Returns:**
-int
-### setStartArrowLength(int value) {#setStartArrowLength-int-}
-```
-public void setStartArrowLength(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getEndArrowWidth() {#getEndArrowWidth--}
-```
-public int getEndArrowWidth()
-```
-
-
-
-
-**Returns:**
-int
-### setEndArrowWidth(int value) {#setEndArrowWidth-int-}
-```
-public void setEndArrowWidth(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getEndArrowLength() {#getEndArrowLength--}
-```
-public int getEndArrowLength()
-```
-
-
-
-
-**Returns:**
-int
-### setEndArrowLength(int value) {#setEndArrowLength-int-}
-```
-public void setEndArrowLength(int value)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int |  |
-
-### getLineFillType() {#getLineFillType--}
-```
-public int getLineFillType()
-```
-
-
-
-
-**Returns:**
-int
 ### setLineFillType(int value) {#setLineFillType-int-}
 ```
 public void setLineFillType(int value)
@@ -782,33 +707,213 @@ public void setLineFillType(int value)
 | --- | --- | --- |
 | value | int |  |
 
-### getStrokeImageBytes() {#getStrokeImageBytes--}
+### setLineStyle(int value) {#setLineStyle-int-}
 ```
-public byte[] getStrokeImageBytes()
+public void setLineStyle(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setOn(boolean value) {#setOn-boolean-}
+```
+public void setOn(boolean value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setOpacity(double value) {#setOpacity-double-}
+```
+public void setOpacity(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
+```
+public void setRotateWithObject(boolean value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setStartArrowLength(int value) {#setStartArrowLength-int-}
+```
+public void setStartArrowLength(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStartArrowType(int value) {#setStartArrowType-int-}
+```
+public void setStartArrowType(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStartArrowWidth(int value) {#setStartArrowWidth-int-}
+```
+public void setStartArrowWidth(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setStrokeTransparency(double value) {#setStrokeTransparency-double-}
+```
+public void setStrokeTransparency(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### setStrokeVisible(boolean value) {#setStrokeVisible-boolean-}
+```
+public void setStrokeVisible(boolean value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### setTextureAlignment(int value) {#setTextureAlignment-int-}
+```
+public void setTextureAlignment(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### setWeight(double value) {#setWeight-double-}
+```
+public void setWeight(double value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | double |  |
+
+### solid() {#solid--}
+```
+public void solid()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
 ```
 
 
 
 
 **Returns:**
-byte[]
-### getFill() {#getFill--}
+java.lang.String
+### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
-public Fill getFill()
-```
-
-
-Gets fill formatting for the parent chart element.
-
-**Returns:**
-[Fill](../../com.aspose.words/fill) - Fill formatting for the parent chart element.
-### getStroke() {#getStroke--}
-```
-public Stroke getStroke()
+public void twoColorGradient(int style, int variant)
 ```
 
 
-Gets line formatting for the parent chart element.
 
-**Returns:**
-[Stroke](../../com.aspose.words/stroke) - Line formatting for the parent chart element.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| style | int |  |
+| variant | int |  |
+
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

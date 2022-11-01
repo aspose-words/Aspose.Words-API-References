@@ -1,7 +1,7 @@
 ﻿---
 title: first_cell property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns the first Cell in the row."
+description: "Returns the first [Cell](../../cell/) in the row."
 type: docs
 weight: 30
 url: /python-net/aspose.words.tables/row/first_cell/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/row/first_cell/
 
 ## Row.first_cell property
 
-Returns the first **Cell** in the row.
+Returns the first [Cell](../../cell/) in the row.
 
 
 

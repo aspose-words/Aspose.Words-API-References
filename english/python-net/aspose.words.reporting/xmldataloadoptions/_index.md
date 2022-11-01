@@ -1,7 +1,7 @@
 ﻿---
 title: XmlDataLoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents options for XML data loading."
+description: "Represents options for XML data loading"
 type: docs
 weight: 90
 url: /python-net/aspose.words.reporting/xmldataloadoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.reporting/xmldataloadoptions/
 ## XmlDataLoadOptions class
 
 Represents options for XML data loading.
+To learn more, visit the [LINQ Reporting Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) documentation article.
+
+
 
 
 An instance of this class can be passed into constructors of [XmlDataSource](../xmldatasource/).

@@ -33,14 +33,14 @@ builder.insert_shape(aw.drawing.ShapeType.RECTANGLE, 100, 100)
 builder.move_to_header_footer(aw.HeaderFooterType.FOOTER_PRIMARY)
 builder.insert_image(IMAGE_DIR + "Logo Icon.ico")
 
-self.assertEqual(1, doc.first_section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY].get_child_nodes(aw.NodeType.SHAPE, True).count)
-self.assertEqual(1, doc.first_section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY].get_child_nodes(aw.NodeType.SHAPE, True).count)
+self.assertEqual(1, doc.first_section.headers_footers.header_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)
+self.assertEqual(1, doc.first_section.headers_footers.footer_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)
 
 # Remove all shapes from the headers and footers in the first section.
 doc.first_section.delete_header_footer_shapes()
 
-self.assertEqual(0, doc.first_section.headers_footers[aw.HeaderFooterType.HEADER_PRIMARY].get_child_nodes(aw.NodeType.SHAPE, True).count)
-self.assertEqual(0, doc.first_section.headers_footers[aw.HeaderFooterType.FOOTER_PRIMARY].get_child_nodes(aw.NodeType.SHAPE, True).count)
+self.assertEqual(0, doc.first_section.headers_footers.header_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)
+self.assertEqual(0, doc.first_section.headers_footers.footer_primary.get_child_nodes(aw.NodeType.SHAPE, True).count)
 ```
 
 ### See Also

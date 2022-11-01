@@ -23,7 +23,7 @@ def __init__(self, doc: aspose.words.DocumentBase, id: int):
 | id | int |  |
 
 When [CommentRangeStart](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parent_node](../../node/parent_node/) is null.
+yet part of the document and [Node.parent_node](../../node/parent_node/) is ``None``.
 
 To append a [CommentRangeStart](../) to the document use InsertAfter or InsertBefore
 on the paragraph where you want the comment inserted.

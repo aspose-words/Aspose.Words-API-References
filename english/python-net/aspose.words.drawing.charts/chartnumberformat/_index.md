@@ -1,7 +1,7 @@
 ﻿---
 title: ChartNumberFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents number formatting of the parent element."
+description: "Represents number formatting of the parent element"
 type: docs
 weight: 230
 url: /python-net/aspose.words.drawing.charts/chartnumberformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartnumberformat/
 ## ChartNumberFormat class
 
 Represents number formatting of the parent element.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 ### Properties

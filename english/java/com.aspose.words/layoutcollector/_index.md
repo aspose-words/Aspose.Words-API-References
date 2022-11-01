@@ -31,13 +31,22 @@ When you no longer need to collect layout information, it is best to set the [ge
 
 | Method | Description |
 | --- | --- |
-| [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node begins. |
-| [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node ends. |
-| [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node-) | Gets number of pages the specified node spans. |
 | [clear()](#clear--) | Clears all collected layout data. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | Gets the document this collector instance is attached to. |
-| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | Sets the document this collector instance is attached to. |
+| [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node ends. |
 | [getEntity(Node node)](#getEntity-com.aspose.words.Node-) | Returns an opaque position of the [LayoutEnumerator](../../com.aspose.words/layoutenumerator) which corresponds to the specified node. |
+| [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node-) | Gets number of pages the specified node spans. |
+| [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node begins. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | Sets the document this collector instance is attached to. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### LayoutCollector(Document doc) {#LayoutCollector-com.aspose.words.Document-}
 ```
 public LayoutCollector(Document doc)
@@ -51,21 +60,49 @@ Initializes an instance of this class.
 | --- | --- | --- |
 | doc | [Document](../../com.aspose.words/document) | The document to which this collector instance will be attached to. |
 
-### getStartPageIndex(Node node) {#getStartPageIndex-com.aspose.words.Node-}
+### clear() {#clear--}
 ```
-public int getStartPageIndex(Node node)
+public void clear()
 ```
 
 
-Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
+Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) |  |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDocument() {#getDocument--}
+```
+public Document getDocument()
+```
+
+
+Gets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
+
+**Returns:**
+[Document](../../com.aspose.words/document) - The document this collector instance is attached to.
 ### getEndPageIndex(Node node) {#getEndPageIndex-com.aspose.words.Node-}
 ```
 public int getEndPageIndex(Node node)
@@ -81,52 +118,6 @@ Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapp
 
 **Returns:**
 int
-### getNumPagesSpanned(Node node) {#getNumPagesSpanned-com.aspose.words.Node-}
-```
-public int getNumPagesSpanned(Node node)
-```
-
-
-Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) - [getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) |  |
-
-**Returns:**
-int
-### clear() {#clear--}
-```
-public void clear()
-```
-
-
-Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt.
-
-### getDocument() {#getDocument--}
-```
-public Document getDocument()
-```
-
-
-Gets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
-
-**Returns:**
-[Document](../../com.aspose.words/document) - The document this collector instance is attached to.
-### setDocument(Document value) {#setDocument-com.aspose.words.Document-}
-```
-public void setDocument(Document value)
-```
-
-
-Sets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [Document](../../com.aspose.words/document) | The document this collector instance is attached to. |
-
 ### getEntity(Node node) {#getEntity-com.aspose.words.Node-}
 ```
 public Object getEntity(Node node)
@@ -150,3 +141,117 @@ If you need to navigate to a [Cell](../../com.aspose.words/cell) node then you c
 
 **Returns:**
 java.lang.Object
+### getNumPagesSpanned(Node node) {#getNumPagesSpanned-com.aspose.words.Node-}
+```
+public int getNumPagesSpanned(Node node)
+```
+
+
+Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) - [getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node) |  |
+
+**Returns:**
+int
+### getStartPageIndex(Node node) {#getStartPageIndex-com.aspose.words.Node-}
+```
+public int getStartPageIndex(Node node)
+```
+
+
+Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| node | [Node](../../com.aspose.words/node) |  |
+
+**Returns:**
+int
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setDocument(Document value) {#setDocument-com.aspose.words.Document-}
+```
+public void setDocument(Document value)
+```
+
+
+Sets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Document](../../com.aspose.words/document) | The document this collector instance is attached to. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

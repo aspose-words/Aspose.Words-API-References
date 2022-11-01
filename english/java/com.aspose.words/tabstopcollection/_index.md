@@ -27,140 +27,29 @@ In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a 
 
 | Method | Description |
 | --- | --- |
-| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection-) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [hashCode()](#hashCode--) |  |
-| [getCount()](#getCount--) | Gets the number of tab stops in the collection. |
-| [get(int index)](#get-int-) | Retrieves a tab stop from the collection. |
-| [get(double position)](#get-double-) | Gets a tab stop at the specified position. |
-| [clear()](#clear--) | Deletes all tab stop positions. |
-| [getPositionByIndex(int index)](#getPositionByIndex-int-) | Gets the position (in points) of the tab stop at the specified index. |
-| [getIndexByPosition(double position)](#getIndexByPosition-double-) | Gets the index of a tab stop with the specified position in points. |
 | [add(TabStop tabStop)](#add-com.aspose.words.TabStop-) | Adds or replaces a tab stop in the collection. |
 | [add(double position, int alignment, int leader)](#add-double-int-int-) |  |
-| [removeByPosition(double position)](#removeByPosition-double-) | Removes a tab stop at the specified position from the collection. |
-| [removeByIndex(int index)](#removeByIndex-int-) | Removes a tab stop at the specified index from the collection. |
 | [after(double position)](#after-double-) | Gets a first tab stop to the right of the specified position. |
 | [before(double position)](#before-double-) | Gets a first tab stop to the left of the specified position. |
+| [clear()](#clear--) | Deletes all tab stop positions. |
+| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection-) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
+| [get(double position)](#get-double-) | Gets a tab stop at the specified position. |
+| [get(int index)](#get-int-) | Retrieves a tab stop from the collection. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of tab stops in the collection. |
+| [getIndexByPosition(double position)](#getIndexByPosition-double-) | Gets the index of a tab stop with the specified position in points. |
+| [getPositionByIndex(int index)](#getPositionByIndex-int-) | Gets the position (in points) of the tab stop at the specified index. |
+| [hashCode()](#hashCode--) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
-### equals(TabStopCollection rhs) {#equals-com.aspose.words.TabStopCollection-}
-```
-public boolean equals(TabStopCollection rhs)
-```
-
-
-Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| rhs | [TabStopCollection](../../com.aspose.words/tabstopcollection) |  |
-
-**Returns:**
-boolean
-### equals(Object obj) {#equals-java.lang.Object-}
-```
-public boolean equals(Object obj)
-```
-
-
-Determines whether the specified object is equal in value to the current object.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| obj | java.lang.Object |  |
-
-**Returns:**
-boolean
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-
-
-**Returns:**
-int
-### getCount() {#getCount--}
-```
-public int getCount()
-```
-
-
-Gets the number of tab stops in the collection.
-
-**Returns:**
-int - The number of tab stops in the collection.
-### get(int index) {#get-int-}
-```
-public TabStop get(int index)
-```
-
-
-Retrieves a tab stop from the collection.  Gets a tab stop at the given index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops. |
-
-**Returns:**
-[TabStop](../../com.aspose.words/tabstop) - The corresponding [TabStop](../../com.aspose.words/tabstop) value.
-### get(double position) {#get-double-}
-```
-public TabStop get(double position)
-```
-
-
-Gets a tab stop at the specified position. Returns null if no tab stop is found at the specified position.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The position (in points) of the tab stop. |
-
-**Returns:**
-[TabStop](../../com.aspose.words/tabstop) - A tab stop at the specified position.
-### clear() {#clear--}
-```
-public void clear()
-```
-
-
-Deletes all tab stop positions.
-
-### getPositionByIndex(int index) {#getPositionByIndex-int-}
-```
-public double getPositionByIndex(int index)
-```
-
-
-Gets the position (in points) of the tab stop at the specified index.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops. |
-
-**Returns:**
-double - The position of the tab stop.
-### getIndexByPosition(double position) {#getIndexByPosition-double-}
-```
-public int getIndexByPosition(double position)
-```
-
-
-Gets the index of a tab stop with the specified position in points.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double |  |
-
-**Returns:**
-int
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeByIndex(int index)](#removeByIndex-int-) | Removes a tab stop at the specified index from the collection. |
+| [removeByPosition(double position)](#removeByPosition-double-) | Removes a tab stop at the specified position from the collection. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### add(TabStop tabStop) {#add-com.aspose.words.TabStop-}
 ```
 public void add(TabStop tabStop)
@@ -190,32 +79,6 @@ public void add(double position, int alignment, int leader)
 | position | double |  |
 | alignment | int |  |
 | leader | int |  |
-
-### removeByPosition(double position) {#removeByPosition-double-}
-```
-public void removeByPosition(double position)
-```
-
-
-Removes a tab stop at the specified position from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| position | double | The position (in points) of the tab stop to remove. |
-
-### removeByIndex(int index) {#removeByIndex-int-}
-```
-public void removeByIndex(int index)
-```
-
-
-Removes a tab stop at the specified index from the collection.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| index | int | An index into the collection of tab stops. |
 
 ### after(double position) {#after-double-}
 ```
@@ -251,6 +114,134 @@ Skips tab stops with **Alignment** set to  TabAlignment.Bar .
 
 **Returns:**
 [TabStop](../../com.aspose.words/tabstop) - A tab stop object or null if a suitable tab stop was not found.
+### clear() {#clear--}
+```
+public void clear()
+```
+
+
+Deletes all tab stop positions.
+
+### equals(TabStopCollection rhs) {#equals-com.aspose.words.TabStopCollection-}
+```
+public boolean equals(TabStopCollection rhs)
+```
+
+
+Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| rhs | [TabStopCollection](../../com.aspose.words/tabstopcollection) |  |
+
+**Returns:**
+boolean
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Determines whether the specified object is equal in value to the current object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
+### get(double position) {#get-double-}
+```
+public TabStop get(double position)
+```
+
+
+Gets a tab stop at the specified position. Returns null if no tab stop is found at the specified position.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The position (in points) of the tab stop. |
+
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - A tab stop at the specified position.
+### get(int index) {#get-int-}
+```
+public TabStop get(int index)
+```
+
+
+Retrieves a tab stop from the collection.  Gets a tab stop at the given index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
+
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - The corresponding [TabStop](../../com.aspose.words/tabstop) value.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of tab stops in the collection.
+
+**Returns:**
+int - The number of tab stops in the collection.
+### getIndexByPosition(double position) {#getIndexByPosition-double-}
+```
+public int getIndexByPosition(double position)
+```
+
+
+Gets the index of a tab stop with the specified position in points.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double |  |
+
+**Returns:**
+int
+### getPositionByIndex(int index) {#getPositionByIndex-int-}
+```
+public double getPositionByIndex(int index)
+```
+
+
+Gets the position (in points) of the tab stop at the specified index.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
+
+**Returns:**
+double - The position of the tab stop.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isInheritedComplexAttr() {#isInheritedComplexAttr--}
 ```
 public boolean isInheritedComplexAttr()
@@ -261,3 +252,90 @@ public boolean isInheritedComplexAttr()
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeByIndex(int index) {#removeByIndex-int-}
+```
+public void removeByIndex(int index)
+```
+
+
+Removes a tab stop at the specified index from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | int | An index into the collection of tab stops. |
+
+### removeByPosition(double position) {#removeByPosition-double-}
+```
+public void removeByPosition(double position)
+```
+
+
+Removes a tab stop at the specified position from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| position | double | The position (in points) of the tab stop to remove. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

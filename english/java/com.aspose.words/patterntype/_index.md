@@ -18,19 +18,6 @@ Specifies the fill pattern to be used to fill a shape.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | No pattern. |
-| [PERCENT_10](#PERCENT-10) | 10% of the foreground color. |
-| [PERCENT_20](#PERCENT-20) | 20% of the foreground color. |
-| [PERCENT_25](#PERCENT-25) | 25% of the foreground color. |
-| [PERCENT_30](#PERCENT-30) | 30% of the foreground color. |
-| [PERCENT_40](#PERCENT-40) | 40% of the foreground color |
-| [PERCENT_50](#PERCENT-50) | 50% of the foreground color |
-| [PERCENT_5](#PERCENT-5) | 5% of the foreground color. |
-| [PERCENT_60](#PERCENT-60) | 60% of the foreground color. |
-| [PERCENT_70](#PERCENT-70) | 70% of the foreground color. |
-| [PERCENT_75](#PERCENT-75) | 75% of the foreground color. |
-| [PERCENT_80](#PERCENT-80) | 80% of the foreground color. |
-| [PERCENT_90](#PERCENT-90) | 90% of the foreground color. |
 | [CROSS](#CROSS) | Cross. |
 | [DARK_DOWNWARD_DIAGONAL](#DARK-DOWNWARD-DIAGONAL) | Dark downward diagonal. |
 | [DARK_HORIZONTAL](#DARK-HORIZONTAL) | Dark horizontal. |
@@ -57,7 +44,20 @@ Specifies the fill pattern to be used to fill a shape.
 | [LIGHT_VERTICAL](#LIGHT-VERTICAL) | Light vertical. |
 | [NARROW_HORIZONTAL](#NARROW-HORIZONTAL) | Narrow horizontal. |
 | [NARROW_VERTICAL](#NARROW-VERTICAL) | Narrow vertical. |
+| [NONE](#NONE) | No pattern. |
 | [OUTLINED_DIAMOND](#OUTLINED-DIAMOND) | Outlined diamond. |
+| [PERCENT_10](#PERCENT-10) | 10% of the foreground color. |
+| [PERCENT_20](#PERCENT-20) | 20% of the foreground color. |
+| [PERCENT_25](#PERCENT-25) | 25% of the foreground color. |
+| [PERCENT_30](#PERCENT-30) | 30% of the foreground color. |
+| [PERCENT_40](#PERCENT-40) | 40% of the foreground color |
+| [PERCENT_5](#PERCENT-5) | 5% of the foreground color. |
+| [PERCENT_50](#PERCENT-50) | 50% of the foreground color |
+| [PERCENT_60](#PERCENT-60) | 60% of the foreground color. |
+| [PERCENT_70](#PERCENT-70) | 70% of the foreground color. |
+| [PERCENT_75](#PERCENT-75) | 75% of the foreground color. |
+| [PERCENT_80](#PERCENT-80) | 80% of the foreground color. |
+| [PERCENT_90](#PERCENT-90) | 90% of the foreground color. |
 | [PLAID](#PLAID) | Plaid. |
 | [SHINGLE](#SHINGLE) | Shingle. |
 | [SMALL_CHECKER_BOARD](#SMALL-CHECKER-BOARD) | Small checker board. |
@@ -78,114 +78,19 @@ Specifies the fill pattern to be used to fill a shape.
 
 | Method | Description |
 | --- | --- |
-| [getName(int patternType)](#getName-int-) |  |
-| [toString(int patternType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String patternTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int patternType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-No pattern.
-
-### PERCENT_10 {#PERCENT-10}
-```
-public static int PERCENT_10
-```
-
-
-10% of the foreground color.
-
-### PERCENT_20 {#PERCENT-20}
-```
-public static int PERCENT_20
-```
-
-
-20% of the foreground color.
-
-### PERCENT_25 {#PERCENT-25}
-```
-public static int PERCENT_25
-```
-
-
-25% of the foreground color.
-
-### PERCENT_30 {#PERCENT-30}
-```
-public static int PERCENT_30
-```
-
-
-30% of the foreground color.
-
-### PERCENT_40 {#PERCENT-40}
-```
-public static int PERCENT_40
-```
-
-
-40% of the foreground color
-
-### PERCENT_50 {#PERCENT-50}
-```
-public static int PERCENT_50
-```
-
-
-50% of the foreground color
-
-### PERCENT_5 {#PERCENT-5}
-```
-public static int PERCENT_5
-```
-
-
-5% of the foreground color.
-
-### PERCENT_60 {#PERCENT-60}
-```
-public static int PERCENT_60
-```
-
-
-60% of the foreground color.
-
-### PERCENT_70 {#PERCENT-70}
-```
-public static int PERCENT_70
-```
-
-
-70% of the foreground color.
-
-### PERCENT_75 {#PERCENT-75}
-```
-public static int PERCENT_75
-```
-
-
-75% of the foreground color.
-
-### PERCENT_80 {#PERCENT-80}
-```
-public static int PERCENT_80
-```
-
-
-80% of the foreground color.
-
-### PERCENT_90 {#PERCENT-90}
-```
-public static int PERCENT_90
-```
-
-
-90% of the foreground color.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int patternType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CROSS {#CROSS}
 ```
 public static int CROSS
@@ -394,6 +299,14 @@ public static int NARROW_VERTICAL
 
 Narrow vertical.
 
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+No pattern.
+
 ### OUTLINED_DIAMOND {#OUTLINED-DIAMOND}
 ```
 public static int OUTLINED_DIAMOND
@@ -401,6 +314,102 @@ public static int OUTLINED_DIAMOND
 
 
 Outlined diamond.
+
+### PERCENT_10 {#PERCENT-10}
+```
+public static int PERCENT_10
+```
+
+
+10% of the foreground color.
+
+### PERCENT_20 {#PERCENT-20}
+```
+public static int PERCENT_20
+```
+
+
+20% of the foreground color.
+
+### PERCENT_25 {#PERCENT-25}
+```
+public static int PERCENT_25
+```
+
+
+25% of the foreground color.
+
+### PERCENT_30 {#PERCENT-30}
+```
+public static int PERCENT_30
+```
+
+
+30% of the foreground color.
+
+### PERCENT_40 {#PERCENT-40}
+```
+public static int PERCENT_40
+```
+
+
+40% of the foreground color
+
+### PERCENT_5 {#PERCENT-5}
+```
+public static int PERCENT_5
+```
+
+
+5% of the foreground color.
+
+### PERCENT_50 {#PERCENT-50}
+```
+public static int PERCENT_50
+```
+
+
+50% of the foreground color
+
+### PERCENT_60 {#PERCENT-60}
+```
+public static int PERCENT_60
+```
+
+
+60% of the foreground color.
+
+### PERCENT_70 {#PERCENT-70}
+```
+public static int PERCENT_70
+```
+
+
+70% of the foreground color.
+
+### PERCENT_75 {#PERCENT-75}
+```
+public static int PERCENT_75
+```
+
+
+75% of the foreground color.
+
+### PERCENT_80 {#PERCENT-80}
+```
+public static int PERCENT_80
+```
+
+
+80% of the foreground color.
+
+### PERCENT_90 {#PERCENT-90}
+```
+public static int PERCENT_90
+```
+
+
+90% of the foreground color.
 
 ### PLAID {#PLAID}
 ```
@@ -528,6 +537,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String patternTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String patternTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| patternTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int patternType) {#getName-int-}
 ```
 public static String getName(int patternType)
@@ -540,6 +589,52 @@ public static String getName(int patternType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | patternType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -558,9 +653,17 @@ public static String toString(int patternType)
 
 **Returns:**
 java.lang.String
-### fromName(String patternTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String patternTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -569,17 +672,19 @@ public static int fromName(String patternTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| patternTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

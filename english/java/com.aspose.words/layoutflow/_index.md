@@ -18,21 +18,38 @@ Determines the flow of the text layout in a textbox.
 
 | Field | Description |
 | --- | --- |
-| [HORIZONTAL](#HORIZONTAL) | Text is displayed horizontally. |
-| [TOP_TO_BOTTOM_IDEOGRAPHIC](#TOP-TO-BOTTOM-IDEOGRAPHIC) | Ideographic text is displayed vertically. |
 | [BOTTOM_TO_TOP](#BOTTOM-TO-TOP) | Text is displayed vertically. |
-| [TOP_TO_BOTTOM](#TOP-TO-BOTTOM) | Text is displayed vertically. |
+| [HORIZONTAL](#HORIZONTAL) | Text is displayed horizontally. |
 | [HORIZONTAL_IDEOGRAPHIC](#HORIZONTAL-IDEOGRAPHIC) | Ideographic text is displayed horizontally. |
+| [TOP_TO_BOTTOM](#TOP-TO-BOTTOM) | Text is displayed vertically. |
+| [TOP_TO_BOTTOM_IDEOGRAPHIC](#TOP-TO-BOTTOM-IDEOGRAPHIC) | Ideographic text is displayed vertically. |
 | [VERTICAL](#VERTICAL) | Text is displayed vertically. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int layoutFlow)](#getName-int-) |  |
-| [toString(int layoutFlow)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String layoutFlowName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int layoutFlow)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int layoutFlow)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BOTTOM_TO_TOP {#BOTTOM-TO-TOP}
+```
+public static int BOTTOM_TO_TOP
+```
+
+
+Text is displayed vertically.
+
 ### HORIZONTAL {#HORIZONTAL}
 ```
 public static int HORIZONTAL
@@ -41,21 +58,13 @@ public static int HORIZONTAL
 
 Text is displayed horizontally.
 
-### TOP_TO_BOTTOM_IDEOGRAPHIC {#TOP-TO-BOTTOM-IDEOGRAPHIC}
+### HORIZONTAL_IDEOGRAPHIC {#HORIZONTAL-IDEOGRAPHIC}
 ```
-public static int TOP_TO_BOTTOM_IDEOGRAPHIC
-```
-
-
-Ideographic text is displayed vertically.
-
-### BOTTOM_TO_TOP {#BOTTOM-TO-TOP}
-```
-public static int BOTTOM_TO_TOP
+public static int HORIZONTAL_IDEOGRAPHIC
 ```
 
 
-Text is displayed vertically.
+Ideographic text is displayed horizontally.
 
 ### TOP_TO_BOTTOM {#TOP-TO-BOTTOM}
 ```
@@ -65,13 +74,13 @@ public static int TOP_TO_BOTTOM
 
 Text is displayed vertically.
 
-### HORIZONTAL_IDEOGRAPHIC {#HORIZONTAL-IDEOGRAPHIC}
+### TOP_TO_BOTTOM_IDEOGRAPHIC {#TOP-TO-BOTTOM-IDEOGRAPHIC}
 ```
-public static int HORIZONTAL_IDEOGRAPHIC
+public static int TOP_TO_BOTTOM_IDEOGRAPHIC
 ```
 
 
-Ideographic text is displayed horizontally.
+Ideographic text is displayed vertically.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -87,6 +96,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String layoutFlowName) {#fromName-java.lang.String-}
+```
+public static int fromName(String layoutFlowName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| layoutFlowName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int layoutFlow) {#getName-int-}
 ```
 public static String getName(int layoutFlow)
@@ -99,6 +148,52 @@ public static String getName(int layoutFlow)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | layoutFlow | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -117,9 +212,17 @@ public static String toString(int layoutFlow)
 
 **Returns:**
 java.lang.String
-### fromName(String layoutFlowName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String layoutFlowName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -128,17 +231,19 @@ public static int fromName(String layoutFlowName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| layoutFlowName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -18,34 +18,43 @@ Specifies the display units for an axis.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Specifies the values on the chart shall displayed as is. |
-| [CUSTOM](#CUSTOM) | Specifies the values on the chart shall be divided by a user-defined divisor. |
 | [BILLIONS](#BILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000. |
-| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies the values on the chart shall be divided by 100,000,000. |
+| [CUSTOM](#CUSTOM) | Specifies the values on the chart shall be divided by a user-defined divisor. |
 | [HUNDREDS](#HUNDREDS) | Specifies the values on the chart shall be divided by 100. |
+| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies the values on the chart shall be divided by 100,000,000. |
 | [HUNDRED_THOUSANDS](#HUNDRED-THOUSANDS) | Specifies the values on the chart shall be divided by 100,000. |
 | [MILLIONS](#MILLIONS) | Specifies the values on the chart shall be divided by 1,000,000. |
+| [NONE](#NONE) | Specifies the values on the chart shall displayed as is. |
+| [PERCENTAGE](#PERCENTAGE) | Specifies the values on the chart shall be divided by 0.01. |
 | [TEN_MILLIONS](#TEN-MILLIONS) | Specifies the values on the chart shall be divided by 10,000,000. |
 | [TEN_THOUSANDS](#TEN-THOUSANDS) | Specifies the values on the chart shall be divided by 10,000. |
 | [THOUSANDS](#THOUSANDS) | Specifies the values on the chart shall be divided by 1,000. |
 | [TRILLIONS](#TRILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000,0000. |
-| [PERCENTAGE](#PERCENTAGE) | Specifies the values on the chart shall be divided by 0.01. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int axisBuiltInUnit)](#getName-int-) |  |
-| [toString(int axisBuiltInUnit)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisBuiltInUnitName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int axisBuiltInUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int axisBuiltInUnit)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BILLIONS {#BILLIONS}
 ```
-public static int NONE
+public static int BILLIONS
 ```
 
 
-Specifies the values on the chart shall displayed as is.
+Specifies the values on the chart shall be divided by 1,000,000,000.
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -55,13 +64,13 @@ public static int CUSTOM
 
 Specifies the values on the chart shall be divided by a user-defined divisor. This value is not supported by the new chart types of MS Office 2016.
 
-### BILLIONS {#BILLIONS}
+### HUNDREDS {#HUNDREDS}
 ```
-public static int BILLIONS
+public static int HUNDREDS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000,000.
+Specifies the values on the chart shall be divided by 100.
 
 ### HUNDRED_MILLIONS {#HUNDRED-MILLIONS}
 ```
@@ -70,14 +79,6 @@ public static int HUNDRED_MILLIONS
 
 
 Specifies the values on the chart shall be divided by 100,000,000.
-
-### HUNDREDS {#HUNDREDS}
-```
-public static int HUNDREDS
-```
-
-
-Specifies the values on the chart shall be divided by 100.
 
 ### HUNDRED_THOUSANDS {#HUNDRED-THOUSANDS}
 ```
@@ -94,6 +95,22 @@ public static int MILLIONS
 
 
 Specifies the values on the chart shall be divided by 1,000,000.
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+Specifies the values on the chart shall displayed as is.
+
+### PERCENTAGE {#PERCENTAGE}
+```
+public static int PERCENTAGE
+```
+
+
+Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016.
 
 ### TEN_MILLIONS {#TEN-MILLIONS}
 ```
@@ -127,20 +144,52 @@ public static int TRILLIONS
 
 Specifies the values on the chart shall be divided by 1,000,000,000,0000.
 
-### PERCENTAGE {#PERCENTAGE}
-```
-public static int PERCENTAGE
-```
-
-
-Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String axisBuiltInUnitName) {#fromName-java.lang.String-}
+```
+public static int fromName(String axisBuiltInUnitName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisBuiltInUnitName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int axisBuiltInUnit) {#getName-int-}
 ```
 public static String getName(int axisBuiltInUnit)
@@ -153,6 +202,52 @@ public static String getName(int axisBuiltInUnit)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | axisBuiltInUnit | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -171,9 +266,17 @@ public static String toString(int axisBuiltInUnit)
 
 **Returns:**
 java.lang.String
-### fromName(String axisBuiltInUnitName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String axisBuiltInUnitName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -182,17 +285,19 @@ public static int fromName(String axisBuiltInUnitName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisBuiltInUnitName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

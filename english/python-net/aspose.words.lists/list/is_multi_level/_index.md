@@ -1,7 +1,7 @@
 ﻿---
 title: is_multi_level property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true when the list contains 9 levels; false when 1 level."
+description: "Returns ``True`` when the list contains 9 levels; ``False`` when 1 level."
 type: docs
 weight: 40
 url: /python-net/aspose.words.lists/list/is_multi_level/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.lists/list/is_multi_level/
 
 ## List.is_multi_level property
 
-Returns true when the list contains 9 levels; false when 1 level.
+Returns ``True`` when the list contains 9 levels; ``False`` when 1 level.
+
 
 The lists that you create with Aspose.Words are always multi-level lists and contain 9 levels.
 

@@ -13,7 +13,7 @@ Determines whether the closed path of the shape will be filled.
 
 This is a shortcut to the [Fill.on](../../fill/on/) property.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: ParagraphCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to a collection of [Paragraph](../paragraph/) nodes."
+description: "Provides typed access to a collection of [Paragraph](../paragraph/) nodes"
 type: docs
 weight: 850
 url: /python-net/aspose.words/paragraphcollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/paragraphcollection/
 ## ParagraphCollection class
 
 Provides typed access to a collection of [Paragraph](../paragraph/) nodes.
+To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words/net/working-with-paragraphs/) documentation article.
+
 
 
 
@@ -19,7 +21,7 @@ Provides typed access to a collection of [Paragraph](../paragraph/) nodes.
 
 | Name | Description |
 | --- | --- |
-| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a **Paragraph** at the given index. |
+| [``__getitem__(index)``](./__getitem__/#int) | Retrieves a [Paragraph](../paragraph/) at the given index. |
 
 ### Properties
 

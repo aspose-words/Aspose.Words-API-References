@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Row."
+description: "Returns [NodeType.ROW](../../../aspose.words/nodetype/#ROW)."
 type: docs
 weight: 70
 url: /python-net/aspose.words.tables/row/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/row/node_type/
 
 ## Row.node_type property
 
-Returns **NodeType.Row**.
+Returns [NodeType.ROW](../../../aspose.words/nodetype/#ROW).
 
 
 

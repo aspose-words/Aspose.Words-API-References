@@ -3,7 +3,7 @@ title: push_font method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Saves current character formatting onto the stack."
 type: docs
-weight: 570
+weight: 600
 url: /python-net/aspose.words/documentbuilder/push_font/
 ---
 

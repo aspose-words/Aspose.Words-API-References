@@ -12,7 +12,7 @@ url: /python-net/aspose.words/style/list/
 Gets the list that defines formatting of this list style.
 
 This property is only valid for list styles.
-For other style types this property returns null.
+For other style types this property returns ``None``.
 
 
 

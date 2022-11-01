@@ -11,7 +11,7 @@ url: /python-net/aspose.words.mailmerging/mailmerge/restart_lists_at_each_sectio
 
 Gets or sets a value indicating whether lists are restarted at each section after executing of a mail merge.
 
-The default value is **true**.
+The default value is ``True``.
 
 
 

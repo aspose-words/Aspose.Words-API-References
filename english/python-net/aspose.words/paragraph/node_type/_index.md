@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Paragraph."
+description: "Returns [NodeType.PARAGRAPH](../../nodetype/#PARAGRAPH)."
 type: docs
 weight: 170
 url: /python-net/aspose.words/paragraph/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/paragraph/node_type/
 
 ## Paragraph.node_type property
 
-Returns **NodeType.Paragraph**.
+Returns [NodeType.PARAGRAPH](../../nodetype/#PARAGRAPH).
 
 
 

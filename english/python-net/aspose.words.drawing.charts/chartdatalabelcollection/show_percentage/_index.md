@@ -10,7 +10,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_perce
 ## ChartDataLabelCollection.show_percentage property
 
 Allows to specify whether percentage value is to be displayed for the data labels of the entire series.
-Default value is **false**. Applies only to Pie charts. 
+Default value is ``False``. Applies only to Pie charts. 
 
 
 Value defined for this property can be overridden for an individual data label with using the

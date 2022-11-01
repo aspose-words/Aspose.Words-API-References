@@ -1,7 +1,7 @@
 ﻿---
 title: signature_line property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets [Shape.signature_line](./) object if the shape is a signature line"
+description: "Gets [SignatureLine](../../signatureline/) object if the shape is a signature line"
 type: docs
 weight: 160
 url: /python-net/aspose.words.drawing/shape/signature_line/
@@ -9,10 +9,10 @@ url: /python-net/aspose.words.drawing/shape/signature_line/
 
 ## Shape.signature_line property
 
-Gets [Shape.signature_line](./) object if the shape is a signature line. Returns **null** otherwise.
+Gets [SignatureLine](../../signatureline/) object if the shape is a signature line. Returns ``None`` otherwise.
 
 
-You can insert new SignatureLines into the document using [DocumentBuilder.insert_signature_line()](../../../aspose.words/documentbuilder/insert_signature_line/#signaturelineoptions) and
+You can insert new [SignatureLine](../../signatureline/) into the document using [DocumentBuilder.insert_signature_line()](../../../aspose.words/documentbuilder/insert_signature_line/#signaturelineoptions) and
 
 
 

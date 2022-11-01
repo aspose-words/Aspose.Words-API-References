@@ -37,6 +37,7 @@ print(f"\t|node_type: {range_start_tag.node_type}")
 print(f"\t|range_end: {range_start_tag.range_end}")
 print(f"\t|color: {range_start_tag.color.to_argb()}")
 print(f"\t|sdt_type: {range_start_tag.sdt_type}")
+print(f"\t|flat_opc_content: {range_start_tag.word_open_xml}")
 print(f"\t|tag: {range_start_tag.tag}\n")
 
 print("StructuredDocumentTagRangeEnd values:")

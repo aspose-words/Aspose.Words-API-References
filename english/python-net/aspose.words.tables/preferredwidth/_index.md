@@ -1,7 +1,7 @@
 ﻿---
 title: PreferredWidth class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell."
+description: "Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell"
 type: docs
 weight: 70
 url: /python-net/aspose.words.tables/preferredwidth/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.tables/preferredwidth/
 ## PreferredWidth class
 
 Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
+To learn more, visit the [Working with Tables](https://docs.aspose.com/words/net/working-with-tables/) documentation article.
+
+
 
 
 Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
@@ -31,7 +34,7 @@ The instances of this class are immutable.
 
 | Name | Description |
 | --- | --- |
-|[ equals(other)](./equals/#preferredwidth) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
+|[ equals(other)](./equals/#preferredwidth) | Determines whether the specified [PreferredWidth](./) is equal in value to the current [PreferredWidth](./). |
 |[ from_percent(percent)](./from_percent/#float) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
 |[ from_points(points)](./from_points/#float) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
 

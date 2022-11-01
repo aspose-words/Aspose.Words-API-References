@@ -3,7 +3,7 @@ title: insert_style_separator method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts style separator into the document."
 type: docs
-weight: 430
+weight: 450
 url: /python-net/aspose.words/documentbuilder/insert_style_separator/
 ---
 

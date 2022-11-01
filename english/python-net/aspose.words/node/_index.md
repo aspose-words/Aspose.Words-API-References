@@ -1,7 +1,7 @@
 ﻿---
 title: Node class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for all nodes of a Word document."
+description: "Base class for all nodes of a Word document"
 type: docs
 weight: 680
 url: /python-net/aspose.words/node/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/node/
 ## Node class
 
 Base class for all nodes of a Word document.
+To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
+
+
 
 
 A document is represented as a tree of nodes, similar to DOM or XmlDocument.
@@ -38,51 +41,51 @@ The [Node](./) class:
 | --- | --- |
 | [custom_node_id](./custom_node_id/) | Specifies custom node identifier. |
 | [document](./document/) | Gets the document to which this node belongs. |
-| [is_composite](./is_composite/) | Returns true if this node can contain other nodes. |
+| [is_composite](./is_composite/) | Returns ``True`` if this node can contain other nodes. |
 | [next_sibling](./next_sibling/) | Gets the node immediately following this node. |
 | [node_type](./node_type/) | Gets the type of this node. |
 | [parent_node](./parent_node/) | Gets the immediate parent of this node. |
 | [previous_sibling](./previous_sibling/) | Gets the node immediately preceding this node. |
-| [range](./range/) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [range](./range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node. |
 
 ### Methods
 
 | Name | Description |
 | --- | --- |
 |[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
-|[ as_body()](./as_body/#default) |  |
-|[ as_bookmark_end()](./as_bookmark_end/#default) |  |
-|[ as_bookmark_start()](./as_bookmark_start/#default) |  |
-|[ as_building_block()](./as_building_block/#default) |  |
-|[ as_cell()](./as_cell/#default) |  |
-|[ as_comment()](./as_comment/#default) |  |
-|[ as_comment_range_end()](./as_comment_range_end/#default) |  |
-|[ as_comment_range_start()](./as_comment_range_start/#default) |  |
-|[ as_composite_node()](./as_composite_node/#default) |  |
-|[ as_document()](./as_document/#default) |  |
-|[ as_editable_range_end()](./as_editable_range_end/#default) |  |
-|[ as_editable_range_start()](./as_editable_range_start/#default) |  |
-|[ as_field_end()](./as_field_end/#default) |  |
-|[ as_field_separator()](./as_field_separator/#default) |  |
-|[ as_field_start()](./as_field_start/#default) |  |
-|[ as_footnote()](./as_footnote/#default) |  |
-|[ as_form_field()](./as_form_field/#default) |  |
-|[ as_glossary_document()](./as_glossary_document/#default) |  |
-|[ as_group_shape()](./as_group_shape/#default) |  |
-|[ as_header_footer()](./as_header_footer/#default) |  |
-|[ as_office_math()](./as_office_math/#default) |  |
-|[ as_paragraph()](./as_paragraph/#default) |  |
-|[ as_row()](./as_row/#default) |  |
-|[ as_run()](./as_run/#default) |  |
-|[ as_section()](./as_section/#default) |  |
-|[ as_shape()](./as_shape/#default) |  |
-|[ as_smart_tag()](./as_smart_tag/#default) |  |
-|[ as_special_char()](./as_special_char/#default) |  |
-|[ as_structured_document_tag()](./as_structured_document_tag/#default) |  |
-|[ as_structured_document_tag_range_end()](./as_structured_document_tag_range_end/#default) |  |
-|[ as_structured_document_tag_range_start()](./as_structured_document_tag_range_start/#default) |  |
-|[ as_sub_document()](./as_sub_document/#default) |  |
-|[ as_table()](./as_table/#default) |  |
+|[ as_body()](./as_body/#default) | Cast node to [Body](../body/). |
+|[ as_bookmark_end()](./as_bookmark_end/#default) | Cast node to [BookmarkEnd](../bookmarkend/). |
+|[ as_bookmark_start()](./as_bookmark_start/#default) | Cast node to [BookmarkStart](../bookmarkstart/). |
+|[ as_building_block()](./as_building_block/#default) | Cast node to [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/). |
+|[ as_cell()](./as_cell/#default) | Cast node to [Cell](../../aspose.words.tables/cell/). |
+|[ as_comment()](./as_comment/#default) | Cast node to [Comment](../comment/). |
+|[ as_comment_range_end()](./as_comment_range_end/#default) | Cast node to [CommentRangeEnd](../commentrangeend/). |
+|[ as_comment_range_start()](./as_comment_range_start/#default) | Cast node to [CommentRangeStart](../commentrangestart/). |
+|[ as_composite_node()](./as_composite_node/#default) | Cast node to [CompositeNode](../compositenode/). |
+|[ as_document()](./as_document/#default) | Cast node to [Node.document](./document/). |
+|[ as_editable_range_end()](./as_editable_range_end/#default) | Cast node to [EditableRangeEnd](../editablerangeend/). |
+|[ as_editable_range_start()](./as_editable_range_start/#default) | Cast node to [EditableRangeStart](../editablerangestart/). |
+|[ as_field_end()](./as_field_end/#default) | Cast node to [FieldEnd](../../aspose.words.fields/fieldend/). |
+|[ as_field_separator()](./as_field_separator/#default) | Cast node to [FieldSeparator](../../aspose.words.fields/fieldseparator/). |
+|[ as_field_start()](./as_field_start/#default) | Cast node to [FieldStart](../../aspose.words.fields/fieldstart/). |
+|[ as_footnote()](./as_footnote/#default) | Cast node to [Footnote](../../aspose.words.notes/footnote/). |
+|[ as_form_field()](./as_form_field/#default) | Cast node to [FormField](../../aspose.words.fields/formfield/). |
+|[ as_glossary_document()](./as_glossary_document/#default) | Cast node to [GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/). |
+|[ as_group_shape()](./as_group_shape/#default) | Cast node to [GroupShape](../../aspose.words.drawing/groupshape/). |
+|[ as_header_footer()](./as_header_footer/#default) | Cast node to [HeaderFooter](../headerfooter/). |
+|[ as_office_math()](./as_office_math/#default) | Cast node to [OfficeMath](../../aspose.words.math/officemath/). |
+|[ as_paragraph()](./as_paragraph/#default) | Cast node to [Paragraph](../paragraph/). |
+|[ as_row()](./as_row/#default) | Cast node to [Row](../../aspose.words.tables/row/). |
+|[ as_run()](./as_run/#default) | Cast node to [Run](../run/). |
+|[ as_section()](./as_section/#default) | Cast node to [Section](../section/). |
+|[ as_shape()](./as_shape/#default) | Cast node to [Shape](../../aspose.words.drawing/shape/). |
+|[ as_smart_tag()](./as_smart_tag/#default) | Cast node to [SmartTag](../../aspose.words.markup/smarttag/). |
+|[ as_special_char()](./as_special_char/#default) | Cast node to [SpecialChar](../specialchar/). |
+|[ as_structured_document_tag()](./as_structured_document_tag/#default) | Cast node to [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). |
+|[ as_structured_document_tag_range_end()](./as_structured_document_tag_range_end/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/). |
+|[ as_structured_document_tag_range_start()](./as_structured_document_tag_range_start/#default) | Cast node to [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/). |
+|[ as_sub_document()](./as_sub_document/#default) | Cast node to [SubDocument](../subdocument/). |
+|[ as_table()](./as_table/#default) | Cast node to [Table](../../aspose.words.tables/table/). |
 |[ clone(is_clone_children)](./clone/#bool) | Creates a duplicate of the node. |
 |[ get_ancestor(ancestor_type)](./get_ancestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/). |
 |[ get_text()](./get_text/#default) | Gets the text of this node and of all its children. |

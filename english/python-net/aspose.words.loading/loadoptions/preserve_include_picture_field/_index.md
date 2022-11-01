@@ -3,14 +3,15 @@ title: preserve_include_picture_field property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats"
 type: docs
-weight: 120
+weight: 110
 url: /python-net/aspose.words.loading/loadoptions/preserve_include_picture_field/
 ---
 
 ## LoadOptions.preserve_include_picture_field property
 
 Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
-The default value is false.
+The default value is ``False``.
+
 
 By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need
 the field to be preserved, for example, if you wish to update it programmatically. Note however that this

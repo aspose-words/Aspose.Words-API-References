@@ -22,14 +22,14 @@ def set_image(self, image_path: str, options: aspose.words.ImageWatermarkOptions
 | image_path | str |  |
 | options | [ImageWatermarkOptions](../../imagewatermarkoptions/) |  |
 
-If [ImageWatermarkOptions](../../imagewatermarkoptions/) is null, the watermark will be set with default options.
+If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``None``, the watermark will be set with default options.
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentNullException | Throws when the path is null. |
+| System.ArgumentNullException | Throws when the path is ``None``. |
 
 ### See Also
 

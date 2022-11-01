@@ -11,7 +11,7 @@ url: /python-net/aspose.words/document/original_file_name/
 
 Gets the original file name of the document.
 
-Returns null if the document was loaded from a stream or created blank.
+Returns ``None`` if the document was loaded from a stream or created blank.
 
 
 

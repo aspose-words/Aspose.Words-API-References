@@ -22,6 +22,7 @@ Allows to specify color of document revisions.
 | [BLACK](#BLACK) | Represents 000000 color. |
 | [BLUE](#BLUE) | Represents 2e97d3 color. |
 | [BRIGHT_GREEN](#BRIGHT-GREEN) | Represents 84a35b color. |
+| [BY_AUTHOR](#BY-AUTHOR) | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
 | [CLASSIC_BLUE](#CLASSIC-BLUE) | Represents 0000ff color. |
 | [CLASSIC_RED](#CLASSIC-RED) | Represents ff0000 color. |
 | [DARK_BLUE](#DARK-BLUE) | Represents 376e96 color. |
@@ -30,6 +31,7 @@ Allows to specify color of document revisions.
 | [GRAY_25](#GRAY-25) | Represents a0a3a9 color. |
 | [GRAY_50](#GRAY-50) | Represents 50565e color. |
 | [GREEN](#GREEN) | Represents 2c6234 color. |
+| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | No color is used to highlight revision changes. |
 | [PINK](#PINK) | Represents ce338f color. |
 | [RED](#RED) | Represents b5082e color. |
 | [TEAL](#TEAL) | Represents 1b9cab color. |
@@ -37,17 +39,24 @@ Allows to specify color of document revisions.
 | [VIOLET](#VIOLET) | Represents 633277 color. |
 | [WHITE](#WHITE) | Represents ffffff color. |
 | [YELLOW](#YELLOW) | Represents fad272 color. |
-| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | No color is used to highlight revision changes. |
-| [BY_AUTHOR](#BY-AUTHOR) | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int revisionColor)](#getName-int-) |  |
-| [toString(int revisionColor)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String revisionColorName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int revisionColor)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int revisionColor)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -79,6 +88,14 @@ public static int BRIGHT_GREEN
 
 
 Represents 84a35b color.
+
+### BY_AUTHOR {#BY-AUTHOR}
+```
+public static int BY_AUTHOR
+```
+
+
+Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors.
 
 ### CLASSIC_BLUE {#CLASSIC-BLUE}
 ```
@@ -144,6 +161,14 @@ public static int GREEN
 
 Represents 2c6234 color.
 
+### NO_HIGHLIGHT {#NO-HIGHLIGHT}
+```
+public static int NO_HIGHLIGHT
+```
+
+
+No color is used to highlight revision changes.
+
 ### PINK {#PINK}
 ```
 public static int PINK
@@ -200,28 +225,52 @@ public static int YELLOW
 
 Represents fad272 color.
 
-### NO_HIGHLIGHT {#NO-HIGHLIGHT}
-```
-public static int NO_HIGHLIGHT
-```
-
-
-No color is used to highlight revision changes.
-
-### BY_AUTHOR {#BY-AUTHOR}
-```
-public static int BY_AUTHOR
-```
-
-
-Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String revisionColorName) {#fromName-java.lang.String-}
+```
+public static int fromName(String revisionColorName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| revisionColorName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int revisionColor) {#getName-int-}
 ```
 public static String getName(int revisionColor)
@@ -234,6 +283,52 @@ public static String getName(int revisionColor)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | revisionColor | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -252,9 +347,17 @@ public static String toString(int revisionColor)
 
 **Returns:**
 java.lang.String
-### fromName(String revisionColorName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String revisionColorName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -263,17 +366,19 @@ public static int fromName(String revisionColorName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| revisionColorName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

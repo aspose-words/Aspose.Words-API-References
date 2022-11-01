@@ -1,7 +1,7 @@
 ﻿---
 title: ControlChar class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Control characters often encountered in documents."
+description: "Control characters often encountered in documents"
 type: docs
 weight: 250
 url: /python-net/aspose.words/controlchar/
@@ -10,10 +10,14 @@ url: /python-net/aspose.words/controlchar/
 ## ControlChar class
 
 Control characters often encountered in documents.
+To learn more, visit the [Working With Control Characters](https://docs.aspose.com/words/net/working-with-control-characters/) documentation article.
+
+
 
 
 Provides both char and string versions of the same constants. For example:
-string ControlChar.LineBreak and char ControlChar.LineBreakChar have the same value.
+string [ControlChar.LINE_BREAK](./LINE_BREAK/) and char [ControlChar.LINE_BREAK_CHAR](./LINE_BREAK_CHAR/) have the same value.
+
 
 
 ### Properties
@@ -63,13 +67,13 @@ builder.writeln("Hello again!")
 
 # Converting the document to text form reveals that control characters
 # represent some of the document's structural elements, such as page breaks.
-self.assertEqual(f"Hello world!{aw.ControlChar.CR}" +
-                 f"Hello again!{aw.ControlChar.CR}" +
+self.assertEqual("Hello world!" + aw.ControlChar.CR +
+                 "Hello again!" + aw.ControlChar.CR +
                  aw.ControlChar.PAGE_BREAK, doc.get_text())
 
 # When converting a document to string form,
 # we can omit some of the control characters with the "strip" method.
-self.assertEqual(f"Hello world!{aw.ControlChar.CR}" +
+self.assertEqual("Hello world!" + aw.ControlChar.CR +
                  "Hello again!", doc.get_text().strip())
 ```
 

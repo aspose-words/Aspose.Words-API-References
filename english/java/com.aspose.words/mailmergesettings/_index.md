@@ -37,38 +37,47 @@ Aspose.Words preserves mail merge information when loading, saving and convertin
 | --- | --- |
 | [clear()](#clear--) | Clears the mail merge settings in such a way that when the document is saved, no mail merge settings will be saved and it will become a normal document. |
 | [deepClone()](#deepClone--) | Returns a deep clone of this object. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getActiveRecord()](#getActiveRecord--) | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. |
-| [setActiveRecord(int value)](#setActiveRecord-int-) | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. |
 | [getAddressFieldName()](#getAddressFieldName--) | Specifies the column within the data source that contains e-mail addresses. |
-| [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String-) | Specifies the column within the data source that contains e-mail addresses. |
 | [getCheckErrors()](#getCheckErrors--) | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. |
-| [setCheckErrors(int value)](#setCheckErrors-int-) | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. |
+| [getClass()](#getClass--) |  |
 | [getConnectString()](#getConnectString--) | Specifies the connection string used to connect to an external data source. |
-| [setConnectString(String value)](#setConnectString-java.lang.String-) | Specifies the connection string used to connect to an external data source. |
 | [getDataSource()](#getDataSource--) | Specifies the path to the mail-merge data source. |
-| [setDataSource(String value)](#setDataSource-java.lang.String-) | Specifies the path to the mail-merge data source. |
 | [getDataType()](#getDataType--) | Specifies the type of the mail-merge data source and the method of data access. |
-| [setDataType(int value)](#setDataType-int-) | Specifies the type of the mail-merge data source and the method of data access. |
 | [getDestination()](#getDestination--) | Specifies how Microsoft Word will output the results of a mail merge. |
-| [setDestination(int value)](#setDestination-int-) | Specifies how Microsoft Word will output the results of a mail merge. |
 | [getDoNotSupressBlankLines()](#getDoNotSupressBlankLines--) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. |
-| [setDoNotSupressBlankLines(boolean value)](#setDoNotSupressBlankLines-boolean-) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. |
 | [getHeaderSource()](#getHeaderSource--) | Specifies the path to the mail-merge header source. |
-| [setHeaderSource(String value)](#setHeaderSource-java.lang.String-) | Specifies the path to the mail-merge header source. |
 | [getLinkToQuery()](#getLinkToQuery--) | Not sure about this one. |
-| [setLinkToQuery(boolean value)](#setLinkToQuery-boolean-) | Not sure about this one. |
 | [getMailAsAttachment()](#getMailAsAttachment--) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. |
-| [setMailAsAttachment(boolean value)](#setMailAsAttachment-boolean-) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. |
 | [getMailSubject()](#getMailSubject--) | Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. |
-| [setMailSubject(String value)](#setMailSubject-java.lang.String-) | Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. |
 | [getMainDocumentType()](#getMainDocumentType--) | Specifies the mail-merge main document type. |
-| [setMainDocumentType(int value)](#setMainDocumentType-int-) | Specifies the mail-merge main document type. |
 | [getOdso()](#getOdso--) | Gets the object that specifies the Office Data Source Object (ODSO) settings. |
-| [setOdso(Odso value)](#setOdso-com.aspose.words.Odso-) | Sets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [getQuery()](#getQuery--) | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. |
-| [setQuery(String value)](#setQuery-java.lang.String-) | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. |
 | [getViewMergedData()](#getViewMergedData--) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setActiveRecord(int value)](#setActiveRecord-int-) | Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word. |
+| [setAddressFieldName(String value)](#setAddressFieldName-java.lang.String-) | Specifies the column within the data source that contains e-mail addresses. |
+| [setCheckErrors(int value)](#setCheckErrors-int-) | Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. |
+| [setConnectString(String value)](#setConnectString-java.lang.String-) | Specifies the connection string used to connect to an external data source. |
+| [setDataSource(String value)](#setDataSource-java.lang.String-) | Specifies the path to the mail-merge data source. |
+| [setDataType(int value)](#setDataType-int-) | Specifies the type of the mail-merge data source and the method of data access. |
+| [setDestination(int value)](#setDestination-int-) | Specifies how Microsoft Word will output the results of a mail merge. |
+| [setDoNotSupressBlankLines(boolean value)](#setDoNotSupressBlankLines-boolean-) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. |
+| [setHeaderSource(String value)](#setHeaderSource-java.lang.String-) | Specifies the path to the mail-merge header source. |
+| [setLinkToQuery(boolean value)](#setLinkToQuery-boolean-) | Not sure about this one. |
+| [setMailAsAttachment(boolean value)](#setMailAsAttachment-boolean-) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. |
+| [setMailSubject(String value)](#setMailSubject-java.lang.String-) | Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. |
+| [setMainDocumentType(int value)](#setMainDocumentType-int-) | Specifies the mail-merge main document type. |
+| [setOdso(Odso value)](#setOdso-com.aspose.words.Odso-) | Sets the object that specifies the Office Data Source Object (ODSO) settings. |
+| [setQuery(String value)](#setQuery-java.lang.String-) | Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. |
 | [setViewMergedData(boolean value)](#setViewMergedData-boolean-) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### clear() {#clear--}
 ```
 public void clear()
@@ -87,6 +96,21 @@ Returns a deep clone of this object.
 
 **Returns:**
 [MailMergeSettings](../../com.aspose.words/mailmergesettings)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getActiveRecord() {#getActiveRecord--}
 ```
 public int getActiveRecord()
@@ -97,6 +121,196 @@ Specifies the one-based index of the record from the data source which shall be 
 
 **Returns:**
 int - The corresponding  int  value.
+### getAddressFieldName() {#getAddressFieldName--}
+```
+public String getAddressFieldName()
+```
+
+
+Specifies the column within the data source that contains e-mail addresses. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getCheckErrors() {#getCheckErrors--}
+```
+public int getCheckErrors()
+```
+
+
+Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) constants.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getConnectString() {#getConnectString--}
+```
+public String getConnectString()
+```
+
+
+Specifies the connection string used to connect to an external data source. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getDataSource() {#getDataSource--}
+```
+public String getDataSource()
+```
+
+
+Specifies the path to the mail-merge data source. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getDataType() {#getDataType--}
+```
+public int getDataType()
+```
+
+
+Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype) constants.
+### getDestination() {#getDestination--}
+```
+public int getDestination()
+```
+
+
+Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MailMergeDestination](../../com.aspose.words/mailmergedestination) constants.
+### getDoNotSupressBlankLines() {#getDoNotSupressBlankLines--}
+```
+public boolean getDoNotSupressBlankLines()
+```
+
+
+Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getHeaderSource() {#getHeaderSource--}
+```
+public String getHeaderSource()
+```
+
+
+Specifies the path to the mail-merge header source. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getLinkToQuery() {#getLinkToQuery--}
+```
+public boolean getLinkToQuery()
+```
+
+
+Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getMailAsAttachment() {#getMailAsAttachment--}
+```
+public boolean getMailAsAttachment()
+```
+
+
+Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getMailSubject() {#getMailSubject--}
+```
+public String getMailSubject()
+```
+
+
+Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getMainDocumentType() {#getMainDocumentType--}
+```
+public int getMainDocumentType()
+```
+
+
+Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
+
+The main document is the document that contains information that is the same for each version of the merged document.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) constants.
+### getOdso() {#getOdso--}
+```
+public Odso getOdso()
+```
+
+
+Gets the object that specifies the Office Data Source Object (ODSO) settings.
+
+This object is never null.
+
+**Returns:**
+[Odso](../../com.aspose.words/odso) - The object that specifies the Office Data Source Object (ODSO) settings.
+### getQuery() {#getQuery--}
+```
+public String getQuery()
+```
+
+
+Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getViewMergedData() {#getViewMergedData--}
+```
+public boolean getViewMergedData()
+```
+
+
+Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is  false .
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setActiveRecord(int value) {#setActiveRecord-int-}
 ```
 public void setActiveRecord(int value)
@@ -110,16 +324,6 @@ Specifies the one-based index of the record from the data source which shall be 
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
 
-### getAddressFieldName() {#getAddressFieldName--}
-```
-public String getAddressFieldName()
-```
-
-
-Specifies the column within the data source that contains e-mail addresses. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setAddressFieldName(String value) {#setAddressFieldName-java.lang.String-}
 ```
 public void setAddressFieldName(String value)
@@ -133,16 +337,6 @@ Specifies the column within the data source that contains e-mail addresses. The 
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getCheckErrors() {#getCheckErrors--}
-```
-public int getCheckErrors()
-```
-
-
-Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge. The default value is [MailMergeCheckErrors.DEFAULT](../../com.aspose.words/mailmergecheckerrors\#DEFAULT).
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) constants.
 ### setCheckErrors(int value) {#setCheckErrors-int-}
 ```
 public void setCheckErrors(int value)
@@ -156,16 +350,6 @@ Specifies the type of error reporting which shall be conducted by Microsoft Word
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MailMergeCheckErrors](../../com.aspose.words/mailmergecheckerrors) constants. |
 
-### getConnectString() {#getConnectString--}
-```
-public String getConnectString()
-```
-
-
-Specifies the connection string used to connect to an external data source. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setConnectString(String value) {#setConnectString-java.lang.String-}
 ```
 public void setConnectString(String value)
@@ -179,16 +363,6 @@ Specifies the connection string used to connect to an external data source. The 
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getDataSource() {#getDataSource--}
-```
-public String getDataSource()
-```
-
-
-Specifies the path to the mail-merge data source. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setDataSource(String value) {#setDataSource-java.lang.String-}
 ```
 public void setDataSource(String value)
@@ -202,16 +376,6 @@ Specifies the path to the mail-merge data source. The default value is an empty 
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getDataType() {#getDataType--}
-```
-public int getDataType()
-```
-
-
-Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.DEFAULT](../../com.aspose.words/mailmergedatatype\#DEFAULT).
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype) constants.
 ### setDataType(int value) {#setDataType-int-}
 ```
 public void setDataType(int value)
@@ -225,16 +389,6 @@ Specifies the type of the mail-merge data source and the method of data access. 
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MailMergeDataType](../../com.aspose.words/mailmergedatatype) constants. |
 
-### getDestination() {#getDestination--}
-```
-public int getDestination()
-```
-
-
-Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.DEFAULT](../../com.aspose.words/mailmergedestination\#DEFAULT).
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeDestination](../../com.aspose.words/mailmergedestination) constants.
 ### setDestination(int value) {#setDestination-int-}
 ```
 public void setDestination(int value)
@@ -248,16 +402,6 @@ Specifies how Microsoft Word will output the results of a mail merge. The defaul
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MailMergeDestination](../../com.aspose.words/mailmergedestination) constants. |
 
-### getDoNotSupressBlankLines() {#getDoNotSupressBlankLines--}
-```
-public boolean getDoNotSupressBlankLines()
-```
-
-
-Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is  false .
-
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setDoNotSupressBlankLines(boolean value) {#setDoNotSupressBlankLines-boolean-}
 ```
 public void setDoNotSupressBlankLines(boolean value)
@@ -271,16 +415,6 @@ Specifies how an application performing the mail merge shall handle blank lines 
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getHeaderSource() {#getHeaderSource--}
-```
-public String getHeaderSource()
-```
-
-
-Specifies the path to the mail-merge header source. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setHeaderSource(String value) {#setHeaderSource-java.lang.String-}
 ```
 public void setHeaderSource(String value)
@@ -294,16 +428,6 @@ Specifies the path to the mail-merge header source. The default value is an empt
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getLinkToQuery() {#getLinkToQuery--}
-```
-public boolean getLinkToQuery()
-```
-
-
-Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is  false .
-
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setLinkToQuery(boolean value) {#setLinkToQuery-boolean-}
 ```
 public void setLinkToQuery(boolean value)
@@ -317,16 +441,6 @@ Not sure about this one. The Microsoft Word Automation Reference suggests that t
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getMailAsAttachment() {#getMailAsAttachment--}
-```
-public boolean getMailAsAttachment()
-```
-
-
-Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather than the body of the actual e-mail. The default value is  false .
-
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setMailAsAttachment(boolean value) {#setMailAsAttachment-boolean-}
 ```
 public void setMailAsAttachment(boolean value)
@@ -340,16 +454,6 @@ Specifies that the documents produced during a mail merge operation should be em
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getMailSubject() {#getMailSubject--}
-```
-public String getMailSubject()
-```
-
-
-Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setMailSubject(String value) {#setMailSubject-java.lang.String-}
 ```
 public void setMailSubject(String value)
@@ -363,18 +467,6 @@ Specifies the text which shall appear in the subject line of the e-mails or faxe
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getMainDocumentType() {#getMainDocumentType--}
-```
-public int getMainDocumentType()
-```
-
-
-Specifies the mail-merge main document type. The default value is [MailMergeMainDocumentType.DEFAULT](../../com.aspose.words/mailmergemaindocumenttype\#DEFAULT).
-
-The main document is the document that contains information that is the same for each version of the merged document.
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) constants.
 ### setMainDocumentType(int value) {#setMainDocumentType-int-}
 ```
 public void setMainDocumentType(int value)
@@ -390,18 +482,6 @@ The main document is the document that contains information that is the same for
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [MailMergeMainDocumentType](../../com.aspose.words/mailmergemaindocumenttype) constants. |
 
-### getOdso() {#getOdso--}
-```
-public Odso getOdso()
-```
-
-
-Gets the object that specifies the Office Data Source Object (ODSO) settings.
-
-This object is never null.
-
-**Returns:**
-[Odso](../../com.aspose.words/odso) - The object that specifies the Office Data Source Object (ODSO) settings.
 ### setOdso(Odso value) {#setOdso-com.aspose.words.Odso-}
 ```
 public void setOdso(Odso value)
@@ -417,16 +497,6 @@ This object is never null.
 | --- | --- | --- |
 | value | [Odso](../../com.aspose.words/odso) | The object that specifies the Office Data Source Object (ODSO) settings. |
 
-### getQuery() {#getQuery--}
-```
-public String getQuery()
-```
-
-
-Contains the Structured Query Language string that shall be run against the specified external data source to return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setQuery(String value) {#setQuery-java.lang.String-}
 ```
 public void setQuery(String value)
@@ -440,16 +510,6 @@ Contains the Structured Query Language string that shall be run against the spec
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getViewMergedData() {#getViewMergedData--}
-```
-public boolean getViewMergedData()
-```
-
-
-Specifies that Microsoft Word shall display the data from the specified external data source where merge fields have been inserted (e.g. preview merged data). The default value is  false .
-
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setViewMergedData(boolean value) {#setViewMergedData-boolean-}
 ```
 public void setViewMergedData(boolean value)
@@ -462,4 +522,49 @@ Specifies that Microsoft Word shall display the data from the specified external
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

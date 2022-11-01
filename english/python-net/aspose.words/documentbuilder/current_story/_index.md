@@ -1,7 +1,7 @@
 ﻿---
 title: current_story property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the story that is currently selected in this DocumentBuilder."
+description: "Gets the story that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 70
 url: /python-net/aspose.words/documentbuilder/current_story/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/documentbuilder/current_story/
 
 ## DocumentBuilder.current_story property
 
-Gets the story that is currently selected in this DocumentBuilder.
+Gets the story that is currently selected in this [DocumentBuilder](../).
+
 
 
 ### Examples

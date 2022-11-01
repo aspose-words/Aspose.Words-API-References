@@ -1,7 +1,7 @@
 ﻿---
 title: Shading class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains shading attributes for an object."
+description: "Contains shading attributes for an object"
 type: docs
 weight: 1030
 url: /python-net/aspose.words/shading/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/shading/
 ## Shading class
 
 Contains shading attributes for an object.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
+
 
 
 **Inheritance:** [Shading](./) → [InternableComplexAttr](../internablecomplexattr/)
@@ -18,8 +21,8 @@ Contains shading attributes for an object.
 
 | Name | Description |
 | --- | --- |
-| [background_pattern_color](./background_pattern_color/) | Gets or sets the color that's applied to the background of the Shading object. |
-| [foreground_pattern_color](./foreground_pattern_color/) | Gets or sets the color that's applied to the foreground of the Shading object. |
+| [background_pattern_color](./background_pattern_color/) | Gets or sets the color that's applied to the background of the [Shading](./) object. |
+| [foreground_pattern_color](./foreground_pattern_color/) | Gets or sets the color that's applied to the foreground of the [Shading](./) object. |
 | [texture](./texture/) | Gets or sets the shading texture. |
 
 ### Methods
@@ -27,7 +30,7 @@ Contains shading attributes for an object.
 | Name | Description |
 | --- | --- |
 |[ clear_formatting()](./clear_formatting/#default) | Removes shading from the object. |
-|[ equals(rhs)](./equals/#shading) | Determines whether the specified Shading is equal in value to the current Shading. |
+|[ equals(rhs)](./equals/#shading) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
 
 ### Examples
 

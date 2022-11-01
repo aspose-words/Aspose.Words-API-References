@@ -1,7 +1,7 @@
 ﻿---
 title: FontSourceBase class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "This is an abstract base class for the classes that allow the user to specify various font sources."
+description: "This is an abstract base class for the classes that allow the user to specify various font sources"
 type: docs
 weight: 150
 url: /python-net/aspose.words.fonts/fontsourcebase/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontsourcebase/
 ## FontSourceBase class
 
 This is an abstract base class for the classes that allow the user to specify various font sources.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 ### Properties
@@ -24,6 +27,11 @@ This is an abstract base class for the classes that allow the user to specify va
 
 | Name | Description |
 | --- | --- |
+|[ as_file_font_source()](./as_file_font_source/#default) | Cast [FontSourceBase](./) object to [FileFontSource](../filefontsource/). |
+|[ as_folder_font_source()](./as_folder_font_source/#default) | Cast [FontSourceBase](./) object to [FolderFontSource](../folderfontsource/). |
+|[ as_memory_font_source()](./as_memory_font_source/#default) | Cast [FontSourceBase](./) object to [MemoryFontSource](../memoryfontsource/). |
+|[ as_stream_font_source()](./as_stream_font_source/#default) | Cast [FontSourceBase](./) object to [StreamFontSource](../streamfontsource/). |
+|[ as_system_font_source()](./as_system_font_source/#default) | Cast [FontSourceBase](./) object to [SystemFontSource](../systemfontsource/). |
 |[ get_available_fonts()](./get_available_fonts/#default) | Returns list of fonts available via this source. |
 
 ### Examples

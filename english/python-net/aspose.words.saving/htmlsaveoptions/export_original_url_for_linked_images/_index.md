@@ -10,14 +10,14 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_original_url_for_lin
 ## HtmlSaveOptions.export_original_url_for_linked_images property
 
 Specifies whether original URL should be used as the URL of the linked images.
-Default value is ``false``.
+Default value is ``False``.
 
 
-If value is set to ``true``[ImageData.source_full_name](../../../aspose.words.drawing/imagedata/source_full_name/) value is used
+If value is set to ``True``[ImageData.source_full_name](../../../aspose.words.drawing/imagedata/source_full_name/) value is used
 as the URL of linked images and linked images are not loaded into document's folder
 or [HtmlSaveOptions.images_folder](../images_folder/).
 
-If value is set to ``false`` linked images are loaded into document's folder
+If value is set to ``False`` linked images are loaded into document's folder
 or [HtmlSaveOptions.images_folder](../images_folder/) and URL of each linked image is constructed depending
 on document's folder, [HtmlSaveOptions.images_folder](../images_folder/) 
 and [HtmlSaveOptions.images_folder_alias](../images_folder_alias/) properties.

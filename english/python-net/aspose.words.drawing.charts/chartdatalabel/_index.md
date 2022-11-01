@@ -1,7 +1,7 @@
 ﻿---
 title: ChartDataLabel class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents data label on a chart point or trendline."
+description: "Represents data label on a chart point or trendline"
 type: docs
 weight: 140
 url: /python-net/aspose.words.drawing.charts/chartdatalabel/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/
 ## ChartDataLabel class
 
 Represents data label on a chart point or trendline.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 On a series, the [ChartDataLabel](./) object is a member of the [ChartDataLabelCollection](../chartdatalabelcollection/). 
@@ -22,18 +25,18 @@ The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDa
 | Name | Description |
 | --- | --- |
 | [index](./index/) | Specifies the index of the containing element.  This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
-| [is_hidden](./is_hidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is **false**. |
-| [is_visible](./is_visible/) | Returns true if this data label has something to display. |
+| [is_hidden](./is_hidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is ``False``. |
+| [is_visible](./is_visible/) | Returns ``True`` if this data label has something to display. |
 | [number_format](./number_format/) | Returns number format of the parent element. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels on a chart.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [show_bubble_size](./show_bubble_size/) | Allows to specify if bubble size is to be displayed for the data labels on a chart.  Applies only to Bubble charts.  Default value is false. |
-| [show_category_name](./show_category_name/) | Allows to specify if category name is to be displayed for the data labels on a chart.  Default value is false. |
-| [show_data_labels_range](./show_data_labels_range/) | Allows to specify if values from data labels range to be displayed in the data labels.  Default value is false. |
-| [show_leader_lines](./show_leader_lines/) | Allows to specify if data label leader lines need be shown.  Default value is false. |
-| [show_legend_key](./show_legend_key/) | Allows to specify if legend key is to be displayed for the data labels on a chart.  Default value is false. |
-| [show_percentage](./show_percentage/) | Allows to specify if percentage value is to be displayed for the data labels on a chart.  Default value is false. |
-| [show_series_name](./show_series_name/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart.  True to show the series name. False to hide. By default false. |
-| [show_value](./show_value/) | Allows to specify if values are to be displayed in the data labels.  Default value is false. |
+| [show_bubble_size](./show_bubble_size/) | Allows to specify if bubble size is to be displayed for the data labels on a chart.  Applies only to Bubble charts.  Default value is ``False``. |
+| [show_category_name](./show_category_name/) | Allows to specify if category name is to be displayed for the data labels on a chart.  Default value is ``False``. |
+| [show_data_labels_range](./show_data_labels_range/) | Allows to specify if values from data labels range to be displayed in the data labels.  Default value is ``False``. |
+| [show_leader_lines](./show_leader_lines/) | Allows to specify if data label leader lines need be shown.  Default value is ``False``. |
+| [show_legend_key](./show_legend_key/) | Allows to specify if legend key is to be displayed for the data labels on a chart.  Default value is ``False``. |
+| [show_percentage](./show_percentage/) | Allows to specify if percentage value is to be displayed for the data labels on a chart.  Default value is ``False``. |
+| [show_series_name](./show_series_name/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart.  ``True`` to show the series name; ``False`` to hide. By default ``False``. |
+| [show_value](./show_value/) | Allows to specify if values are to be displayed in the data labels.  Default value is ``False``. |
 
 ### Methods
 

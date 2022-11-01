@@ -1,7 +1,7 @@
 ﻿---
 title: OfficeMathRenderer class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object."
+description: "Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object"
 type: docs
 weight: 20
 url: /python-net/aspose.words.rendering/officemathrenderer/
@@ -11,6 +11,8 @@ url: /python-net/aspose.words.rendering/officemathrenderer/
 
 Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/)
 to a raster or vector image or to a Graphics object.
+To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/net/working-with-officemath/) documentation article.
+
 
 
 

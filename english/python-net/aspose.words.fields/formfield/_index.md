@@ -1,22 +1,25 @@
 ﻿---
 title: FormField class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a single form field."
+description: "Represents a single form field"
 type: docs
-weight: 1150
+weight: 1160
 url: /python-net/aspose.words.fields/formfield/
 ---
 
 ## FormField class
 
 Represents a single form field.
+To learn more, visit the [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/) documentation article.
+
+
 
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
-**FormField** is an inline-node and can only be a child of **Paragraph**.
+[FormField](./) is an inline-node and can only be a child of [Paragraph](../../aspose.words/paragraph/).
 
-**FormField** is represented in a document by a special character and
+[FormField](./) is represented in a document by a special character and
 positioned as a character within a line of text.
 
 A complete form field in a Word document is a complex structure represented by several
@@ -37,10 +40,10 @@ make sure all of the form field nodes are created in a correct order and in a su
 | Name | Description |
 | --- | --- |
 | [calculate_on_exit](./calculate_on_exit/) | True if references to the specified form field are automatically updated whenever the field is exited. |
-| [check_box_size](./check_box_size/) | Gets or sets the size of the checkbox in points. Has effect only when [FormField.is_check_box_exact_size](./is_check_box_exact_size/) is true. |
-| [checked](./checked/) | Gets or sets the checked status of the check box form field. Default value for this property is **false**. |
+| [check_box_size](./check_box_size/) | Gets or sets the size of the checkbox in points. Has effect only when [FormField.is_check_box_exact_size](./is_check_box_exact_size/) is ``True``. |
+| [checked](./checked/) | Gets or sets the checked status of the check box form field. Default value for this property is ``False``. |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [default](./default/) | Gets or sets the default value of the check box form field. Default value for this property is **false**. |
+| [default](./default/) | Gets or sets the default value of the check box form field. Default value for this property is ``False``. |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [drop_down_items](./drop_down_items/) | Provides access to the items of a dropdown form field. |
 | [drop_down_selected_index](./drop_down_selected_index/) | Gets or sets the index specifying the currently selected item in a dropdown form field. |
@@ -50,22 +53,22 @@ make sure all of the form field nodes are created in a correct order and in a su
 | [font](../../aspose.words/inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [help_text](./help_text/) | Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1. |
 | [is_check_box_exact_size](./is_check_box_exact_size/) | Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_delete_revision](../../aspose.words/inline/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [is_format_revision](../../aspose.words/inline/is_format_revision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [is_insert_revision](../../aspose.words/inline/is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [is_move_from_revision](../../aspose.words/inline/is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [is_move_to_revision](../../aspose.words/inline/is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [is_move_from_revision](../../aspose.words/inline/is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [is_move_to_revision](../../aspose.words/inline/is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [max_length](./max_length/) | Maximum length for the text field. Zero when the length is not limited. |
 | [name](./name/) | Gets or sets the form field name. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.FormField**. |
+| [node_type](./node_type/) | Returns [NodeType.FORM_FIELD](../../aspose.words/nodetype/#FORM_FIELD). |
 | [own_help](./own_help/) | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
 | [own_status](./own_status/) | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_paragraph](../../aspose.words/inline/parent_paragraph/) | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [result](./result/) | Gets or sets a string that represents the result of this form field. |
 | [status_text](./status_text/) | Returns or sets the text that's displayed in the status bar when a form field has the focus. |
 | [text_input_default](./text_input_default/) | Gets or sets the default string or a calculation expression of a text form field. |

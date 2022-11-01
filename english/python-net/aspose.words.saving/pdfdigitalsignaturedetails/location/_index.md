@@ -11,7 +11,8 @@ url: /python-net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 
 Gets or sets the location of the signing.
 
-The default value is null.
+The default value is ``None``.
+
 
 
 ### Examples

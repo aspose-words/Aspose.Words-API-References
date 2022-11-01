@@ -10,9 +10,10 @@ url: /python-net/aspose.words.drawing/horizontalruleformat/no_shade/
 ## HorizontalRuleFormat.no_shade property
 
 Indicates the presence of 3D shading for the horizontal rule.
-If true, then the horizontal rule is without 3D shading and solid color is used.
+If ``True``, then the horizontal rule is without 3D shading and solid color is used.
 
-The default value is false.
+
+The default value is ``False``.
 
 
 

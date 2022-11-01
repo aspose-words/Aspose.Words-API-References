@@ -1,7 +1,7 @@
 ﻿---
 title: is_list_style_reference property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this list is a reference to a list style."
+description: "Returns ``True`` if this list is a reference to a list style."
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/list/is_list_style_reference/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.lists/list/is_list_style_reference/
 
 ## List.is_list_style_reference property
 
-Returns true if this list is a reference to a list style.
+Returns ``True`` if this list is a reference to a list style.
+
 
 Note, modifying properties of a list that is a reference to list style has no effect.
 The list formatting specified in the list style itself always takes precedence.

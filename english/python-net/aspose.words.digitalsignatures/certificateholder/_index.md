@@ -1,7 +1,7 @@
 ﻿---
 title: CertificateHolder class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a holder of X509Certificate2 instance."
+description: "Represents a holder of X509Certificate2 instance"
 type: docs
 weight: 10
 url: /python-net/aspose.words.digitalsignatures/certificateholder/
@@ -9,11 +9,13 @@ url: /python-net/aspose.words.digitalsignatures/certificateholder/
 
 ## CertificateHolder class
 
-Represents a holder of **X509Certificate2** instance. 
+Represents a holder of **X509Certificate2** instance.
+To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/words/net/working-with-digital-signatures/) documentation article.
 
 
 
-**CertificateHolder** can be created by static factory methods only. 
+
+[CertificateHolder](./) can be created by static factory methods only. 
 It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system.
 This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with 
 System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
@@ -25,9 +27,9 @@ System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
 
 | Name | Description |
 | --- | --- |
-|[ create(cert_bytes, password)](./create/#bytes_str) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
-|[ create(file_name, password)](./create/#str_str) | Creates CertificateHolder object using path to PKCS12 store and its password. |
-|[ create(file_name, password, alias)](./create/#str_str_str) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
+|[ create(cert_bytes, password)](./create/#bytes_str) | Creates [CertificateHolder](./) object using byte array of PKCS12 store and its password. |
+|[ create(file_name, password)](./create/#str_str) | Creates [CertificateHolder](./) object using path to PKCS12 store and its password. |
+|[ create(file_name, password, alias)](./create/#str_str_str) | Creates [CertificateHolder](./) object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
 
 ### Examples
 

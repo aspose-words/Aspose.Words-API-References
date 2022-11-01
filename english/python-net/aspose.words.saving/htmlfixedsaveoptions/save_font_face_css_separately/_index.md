@@ -1,7 +1,7 @@
 ﻿---
 title: save_font_face_css_separately property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Flag indicates whether @font-face CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.export_embedded_css](../export_embedded_css/) is ``false``)"
+description: "Flag indicates whether @font-face CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.export_embedded_css](../export_embedded_css/) is ``False``)"
 type: docs
 weight: 160
 url: /python-net/aspose.words.saving/htmlfixedsaveoptions/save_font_face_css_separately/
@@ -11,11 +11,11 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/save_font_face_css_sep
 
 Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css"
 when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.export_embedded_css](../export_embedded_css/)
-is ``false``).
-Default value is ``false``, all CSS rules are written into single file "styles.css".
+is ``False``).
+Default value is ``False``, all CSS rules are written into single file "styles.css".
 
 
-Setting this property to ``true`` restores the old behavior (separate files) for compatibility with legacy code.
+Setting this property to ``True`` restores the old behavior (separate files) for compatibility with legacy code.
 
 
 

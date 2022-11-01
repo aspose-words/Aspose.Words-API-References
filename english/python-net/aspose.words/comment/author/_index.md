@@ -11,7 +11,7 @@ url: /python-net/aspose.words/comment/author/
 
 Returns or sets the author name for a comment.
 
-Cannot be null.
+Cannot be ``None``.
 
 Default is empty string.
 

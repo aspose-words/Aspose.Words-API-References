@@ -11,9 +11,9 @@ url: /python-net/aspose.words/tablestyle/bidi/
 
 Gets or sets whether this is a style for a right-to-left table.
 
-When **true**, the cells in rows are laid out right to left.
+When ``True``, the cells in rows are laid out right to left.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

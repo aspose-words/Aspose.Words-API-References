@@ -10,7 +10,7 @@ url: /python-net/aspose.words.replacing/findreplaceoptions/ignore_inserted/
 ## FindReplaceOptions.ignore_inserted property
 
 Gets or sets a boolean value indicating either to ignore text inside insert revisions.
-The default value is ``false``.
+The default value is ``False``.
 
 
 

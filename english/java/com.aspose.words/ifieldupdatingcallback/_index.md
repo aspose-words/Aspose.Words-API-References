@@ -15,21 +15,8 @@ Implement this interface if you want to have your own custom methods called duri
 
 | Method | Description |
 | --- | --- |
-| [fieldUpdating(Field field)](#fieldUpdating-com.aspose.words.Field-) | A user defined method that is called just before a field is updated. |
 | [fieldUpdated(Field field)](#fieldUpdated-com.aspose.words.Field-) | A user defined method that is called just after a field is updated. |
-### fieldUpdating(Field field) {#fieldUpdating-com.aspose.words.Field-}
-```
-public abstract void fieldUpdating(Field field)
-```
-
-
-A user defined method that is called just before a field is updated.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) |  |
-
+| [fieldUpdating(Field field)](#fieldUpdating-com.aspose.words.Field-) | A user defined method that is called just before a field is updated. |
 ### fieldUpdated(Field field) {#fieldUpdated-com.aspose.words.Field-}
 ```
 public abstract void fieldUpdated(Field field)
@@ -37,6 +24,19 @@ public abstract void fieldUpdated(Field field)
 
 
 A user defined method that is called just after a field is updated.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| field | [Field](../../com.aspose.words/field) |  |
+
+### fieldUpdating(Field field) {#fieldUpdating-com.aspose.words.Field-}
+```
+public abstract void fieldUpdating(Field field)
+```
+
+
+A user defined method that is called just before a field is updated.
 
 **Parameters:**
 | Parameter | Type | Description |

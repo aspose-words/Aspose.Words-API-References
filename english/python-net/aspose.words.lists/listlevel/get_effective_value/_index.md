@@ -28,16 +28,15 @@ def get_effective_value(self, index: int, number_style: aspose.words.NumberStyle
 
 ### Returns
 
-The string representation of the [ListLevel](../) object, described by the numberStyle parameter and
-the customNumberStyleFormat parameter, in the list item at the position determined by the index parameter.
-
+The string representation of the [ListLevel](../) object, described by the  parameter and
+the parameter, in the list item at the position determined by the parameter.
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| System.ArgumentException | customNumberStyleFormat is null or empty when the numberStyle is custom.-or- customNumberStyleFormat is not null or empty when the numberStyle is non-custom.-or- customNumberStyleFormat is invalid. |
+| System.ArgumentException |  is``None`` or empty when the  is custom.-or- is not``None`` or empty when the  is non-custom.-or- is invalid. |
 | System.ArgumentOutOfRangeException | index is out of range. |
 
 ### Examples

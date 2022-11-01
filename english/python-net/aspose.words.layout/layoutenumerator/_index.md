@@ -14,6 +14,8 @@ Enumerates page layout entities of a document.
 You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered,
 as well as overall structure and relationships.
 Use combination of [LayoutCollector.get_entity()](../layoutcollector/get_entity/#node) and [LayoutEnumerator.current](./current/) move to the entity which corresponds to a document node.
+To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
 
 
 
@@ -28,7 +30,7 @@ Use combination of [LayoutCollector.get_entity()](../layoutcollector/get_entity/
 | --- | --- |
 | [current](./current/) | Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity. |
 | [document](./document/) | Gets document this instance enumerates. |
-| [kind](./kind/) | Gets the kind of the current entity. This can be an empty string but never null. |
+| [kind](./kind/) | Gets the kind of the current entity. This can be an empty string but never ``None``. |
 | [page_index](./page_index/) | Gets the 1-based index of a page which contains the current entity. |
 | [rectangle](./rectangle/) | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
 | [text](./text/) | Gets text of the current span entity. Throws for other entity types. |

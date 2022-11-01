@@ -11,7 +11,7 @@ url: /python-net/aspose.words.drawing/textpath/strike_through/
 
 True if the font is formatted as strikethrough text.
 
-The default value is **false**.
+The default value is ``False``.
 
 
 

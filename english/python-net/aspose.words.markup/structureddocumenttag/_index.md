@@ -1,7 +1,7 @@
 ﻿---
 title: StructuredDocumentTag class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a structured document tag (SDT or content control) in a document."
+description: "Represents a structured document tag (SDT or content control) in a document"
 type: docs
 weight: 170
 url: /python-net/aspose.words.markup/structureddocumenttag/
@@ -10,20 +10,23 @@ url: /python-net/aspose.words.markup/structureddocumenttag/
 ## StructuredDocumentTag class
 
 Represents a structured document tag (SDT or content control) in a document.
+To learn more, visit the [Structured Document Tags or Content Control](https://docs.aspose.com/words/net/structured-document-tags-or-content-control/) documentation article.
 
 
-Structured document tags (SDTs) allow to embed customer-defined semantics as well as its 
+
+
+Structured document tags (SDTs) allow to embed customer-defined semantics as well as its
 behavior and appearance into a document.
 
-In this version Aspose.Words provides a number of public methods and properties to 
-manipulate the behavior and content of [StructuredDocumentTag](./). 
-Mapping of SDT nodes to custom XML packages within a document can be performed with using 
+In this version Aspose.Words provides a number of public methods and properties to
+manipulate the behavior and content of [StructuredDocumentTag](./).
+Mapping of SDT nodes to custom XML packages within a document can be performed with using
 the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 
 [StructuredDocumentTag](./) can occur in a document in the following places:
 
 
-* Block-level - Among paragraphs and tables, as a child of a [Body](../../aspose.words/body/), [HeaderFooter](../../aspose.words/headerfooter/), 
+* Block-level - Among paragraphs and tables, as a child of a [Body](../../aspose.words/body/), [HeaderFooter](../../aspose.words/headerfooter/),
   [Comment](../../aspose.words/comment/), [Footnote](../../aspose.words.notes/footnote/) or a [Shape](../../aspose.words.drawing/shape/) node.
   
 * Row-level - Among rows in a table, as a child of a [Table](../../aspose.words.tables/table/) node.
@@ -51,45 +54,45 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 | Name | Description |
 | --- | --- |
 | [appearance](./appearance/) | Gets/sets the appearance of a structured document tag. |
-| [building_block_category](./building_block_category/) | Specifies category of building block for this **SDT** node. Can not be null. |
-| [building_block_gallery](./building_block_gallery/) | Specifies type of building block for this **SDT**.  Can not be null. |
+| [building_block_category](./building_block_category/) | Specifies category of building block for this **SDT** node. Can not be ``None``. |
+| [building_block_gallery](./building_block_gallery/) | Specifies type of building block for this **SDT**. Can not be ``None``. |
 | [calendar_type](./calendar_type/) | Specifies the type of calendar for this **SDT**. Default is [SdtCalendarType.DEFAULT](../sdtcalendartype/#DEFAULT) |
-| [checked](./checked/) | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false. |
+| [checked](./checked/) | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is ``False``. |
 | [child_nodes](../../aspose.words/compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [contents_font](./contents_font/) | Font formatting that will be applied to text entered into **SDT**. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [custom_node_id](../../aspose.words/node/custom_node_id/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [date_display_format](./date_display_format/) | String that represents the format in which dates are displayed. Can not be null. |
+| [date_display_format](./date_display_format/) | String that represents the format in which dates are displayed. Can not be ``None``. |
 | [date_display_locale](./date_display_locale/) | Allows to set/get the language format for the date displayed in this **SDT**. |
-| [date_storage_format](./date_storage_format/) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store.         Default value is [SdtDateStorageFormat.DATE_TIME](../sdtdatestorageformat/#DATE_TIME) |
+| [date_storage_format](./date_storage_format/) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [SdtDateStorageFormat.DATE_TIME](../sdtdatestorageformat/#DATE_TIME) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [end_character_font](./end_character_font/) | Font formatting that will be applied to the last character of text entered into **SDT**. |
 | [first_child](../../aspose.words/compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [full_date](./full_date/) | Specifies the full date and time last entered into this **SDT**. |
-| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [has_child_nodes](../../aspose.words/compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_showing_placeholder_text](./is_showing_placeholder_text/) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [is_temporary](./is_temporary/) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
 | [last_child](../../aspose.words/compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [level](./level/) | Gets the level at which this **SDT** occurs in the document tree. |
 | [list_items](./list_items/) | Gets [SdtListItemCollection](../sdtlistitemcollection/) associated with this **SDT**. |
-| [lock_content_control](./lock_content_control/) | When set to true, this property will prohibit a user from deleting this **SDT**. |
-| [lock_contents](./lock_contents/) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [lock_content_control](./lock_content_control/) | When set to ``True``, this property will prohibit a user from deleting this **SDT**. |
+| [lock_contents](./lock_contents/) | When set to ``True``, this property will prohibit a user from editing the contents of this **SDT**. |
 | [multiline](./multiline/) | Specifies whether this **SDT** allows multiple lines of text. |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [node_type](./node_type/) | Returns **NodeType.StructuredDocumentTag**. |
+| [node_type](./node_type/) | Returns [NodeType.STRUCTURED_DOCUMENT_TAG](../../aspose.words/nodetype/#STRUCTURED_DOCUMENT_TAG). |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTag.is_showing_placeholder_text](./is_showing_placeholder_text/) element is true. |
+| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xml_mapping](./xml_mapping/) element or the [StructuredDocumentTag.is_showing_placeholder_text](./is_showing_placeholder_text/) element is ``True``. |
 | [placeholder_name](./placeholder_name/) | Gets or sets Name of the [BuildingBlock](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [sdt_type](./sdt_type/) | Gets type of this **Structured document tag**. |
 | [style](./style/) | Gets or sets the Style of the structured document tag. |
 | [style_name](./style_name/) | Gets or sets the name of the style applied to the structured document tag. |
-| [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be null. |
-| [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be null. |
+| [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be ``None``. |
+| [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be ``None``. |
 | [word_open_xml](./word_open_xml/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT_OPC](../../aspose.words/saveformat/#FLAT_OPC) format. |
 | [xml_mapping](./xml_mapping/) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 
@@ -119,7 +122,7 @@ the [StructuredDocumentTag.xml_mapping](./xml_mapping/) property.
 |[ remove_self_only()](./remove_self_only/#default) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 |[ remove_smart_tags()](../../aspose.words/compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ select_nodes(xpath)](../../aspose.words/compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ select_single_node(xpath)](../../aspose.words/compositenode/select_single_node/#str) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ set_checked_symbol(character_code, font_name)](./set_checked_symbol/#int_str) | Sets the symbol used to represent the checked state of a check box content control. |
 |[ set_unchecked_symbol(character_code, font_name)](./set_unchecked_symbol/#int_str) | Sets the symbol used to represent the unchecked state of a check box content control. |
 |[ structured_document_tag_node()](../istructureddocumenttag/structured_document_tag_node/#default) | Returns Node object that implements this interface.<br>(Inherited from [IStructuredDocumentTag](../istructureddocumenttag/)) |

@@ -13,6 +13,21 @@ Gets a string that represents the XML contained within the node in the [SaveForm
 
 
 
+### Examples
+
+Shows how to get XML contained within the node in the FlatOpc format.
+
+```python
+doc = aw.Document(MY_DIR + "Structured document tags.docx")
+
+tags = [node.as_structured_document_tag()
+        for node in doc.get_child_nodes(aw.NodeType.STRUCTURED_DOCUMENT_TAG, True)]
+
+self.assertIn(
+    "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">",
+    tags[0].word_open_xml)
+```
+
 ### See Also
 
 * module [aspose.words.markup](../../)

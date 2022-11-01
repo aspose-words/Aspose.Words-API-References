@@ -12,15 +12,15 @@ url: /python-net/aspose.words.saving/rtfsaveoptions/export_images_for_old_reader
 Specifies whether the keywords for "old readers" are written to RTF or not.
 This can significantly affect the size of the RTF document.
 
-Default value is ``true``.
+Default value is ``True``.
 
 
 "Old readers" are pre-Microsoft Word 97 applications and also WordPad.
-When this option is ``true`` Aspose.Words writes additional RTF keywords.
+When this option is ``True`` Aspose.Words writes additional RTF keywords.
 These keywords allow the document to be displayed correctly when opened in an 
 "old reader" application, but can significantly increase the size of the document.
 
-If you set this option to ``false``, then only images in WMF, EMF and BMP formats
+If you set this option to ``False``, then only images in WMF, EMF and BMP formats
 will be displayed in "old readers".
 
 

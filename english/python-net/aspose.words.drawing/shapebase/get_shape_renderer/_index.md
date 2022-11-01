@@ -46,7 +46,7 @@ for shape in doc.get_child_nodes(aw.NodeType.SHAPE, True):
     shape = shape.as_shape()
     renderer = shape.get_shape_renderer()
     options = aw.saving.ImageSaveOptions(aw.SaveFormat.PNG)
-    renderer.save(ARTIFACTS_DIR + f"Shape.render_all_shapes.{shape.name}.png", options)
+    renderer.save(ARTIFACTS_DIR + "Shape.render_all_shapes." + shape.name + ".png", options)
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ﻿---
 title: has_child_nodes property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if this node has any child nodes."
+description: "Returns ``True`` if this node has any child nodes."
 type: docs
 weight: 40
 url: /python-net/aspose.words/compositenode/has_child_nodes/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/compositenode/has_child_nodes/
 
 ## CompositeNode.has_child_nodes property
 
-Returns true if this node has any child nodes.
+Returns ``True`` if this node has any child nodes.
+
 
 
 ### Examples

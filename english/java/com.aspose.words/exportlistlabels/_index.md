@@ -18,18 +18,37 @@ Specifies how list labels are exported to HTML, MHTML and EPUB.
 
 | Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Outputs list labels in auto mode. |
 | [AS_INLINE_TEXT](#AS-INLINE-TEXT) | Outputs all list labels as inline text. |
+| [AUTO](#AUTO) | Outputs list labels in auto mode. |
 | [BY_HTML_TAGS](#BY-HTML-TAGS) | Outputs all list labels as HTML native elements. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int exportListLabels)](#getName-int-) |  |
-| [toString(int exportListLabels)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportListLabelsName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int exportListLabels)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int exportListLabels)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### AS_INLINE_TEXT {#AS-INLINE-TEXT}
+```
+public static int AS_INLINE_TEXT
+```
+
+
+Outputs all list labels as inline text. HTML
+
+tag is used for any list label representation.
+
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -41,16 +60,6 @@ Outputs list labels in auto mode. Uses HTML native elements when possible. HTML
  *  tags are used for list label representation if it doesn't cause formatting loss, otherwise the HTML
     
     tag is used.
-
-### AS_INLINE_TEXT {#AS-INLINE-TEXT}
-```
-public static int AS_INLINE_TEXT
-```
-
-
-Outputs all list labels as inline text. HTML
-
-tag is used for any list label representation.
 
 ### BY_HTML_TAGS {#BY-HTML-TAGS}
 ```
@@ -68,6 +77,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String exportListLabelsName) {#fromName-java.lang.String-}
+```
+public static int fromName(String exportListLabelsName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| exportListLabelsName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int exportListLabels) {#getName-int-}
 ```
 public static String getName(int exportListLabels)
@@ -80,6 +129,52 @@ public static String getName(int exportListLabels)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | exportListLabels | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -98,9 +193,17 @@ public static String toString(int exportListLabels)
 
 **Returns:**
 java.lang.String
-### fromName(String exportListLabelsName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String exportListLabelsName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -109,17 +212,19 @@ public static int fromName(String exportListLabelsName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| exportListLabelsName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

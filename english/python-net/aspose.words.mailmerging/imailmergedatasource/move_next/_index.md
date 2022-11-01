@@ -19,7 +19,7 @@ def move_next(self):
 
 ### Returns
 
-True if moved to next record successfully. False if reached end of the data source.
+``True`` if moved to next record successfully; ``False`` if reached end of the data source.
 
 
 ### Examples

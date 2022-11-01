@@ -3,7 +3,7 @@ title: open_hyperlinks_in_new_window property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser."
 type: docs
-weight: 200
+weight: 220
 url: /python-net/aspose.words.saving/pdfsaveoptions/open_hyperlinks_in_new_window/
 ---
 
@@ -12,17 +12,17 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/open_hyperlinks_in_new_windo
 Gets or sets a value determining whether hyperlinks in the output Pdf document
 are forced to be opened in a new window (or tab) of a browser.
 
-The default value is ``false``. When this value is set to ``true``
+The default value is ``False``. When this value is set to ``True``
 hyperlinks are saved using JavaScript code.
 JavaScript code is ``app.launchURL("URL", true);``,
 where ``URL`` is a hyperlink.
 
 
-Note that if this option is set to ``true`` hyperlinks can't work
+Note that if this option is set to ``True`` hyperlinks can't work
 in some PDF readers e.g. Chrome, Firefox.
 
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. ``false`` will be used automatically when
+JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance. ``False`` will be used automatically when
 saving to PDF/A-1 and PDF/A-2.
 
 

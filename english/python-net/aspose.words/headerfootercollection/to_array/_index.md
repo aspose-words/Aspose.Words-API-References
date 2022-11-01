@@ -3,7 +3,7 @@ title: to_array method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Copies all ``HeaderFoorter`` s from the collection to a new array of ``HeaderFoorter`` s."
 type: docs
-weight: 40
+weight: 100
 url: /python-net/aspose.words/headerfootercollection/to_array/
 ---
 

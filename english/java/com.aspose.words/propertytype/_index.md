@@ -19,23 +19,32 @@ Specifies data type of a document property.
 | Field | Description |
 | --- | --- |
 | [BOOLEAN](#BOOLEAN) | The property is a boolean value. |
+| [BYTE_ARRAY](#BYTE-ARRAY) | The property is an array of bytes. |
 | [DATE_TIME](#DATE-TIME) | The property is a date time value. |
 | [DOUBLE](#DOUBLE) | The property is a floating number. |
 | [NUMBER](#NUMBER) | The property is an integer number. |
+| [OBJECT_ARRAY](#OBJECT-ARRAY) | The property is an array of objects. |
+| [OTHER](#OTHER) | The property is some other type. |
 | [STRING](#STRING) | The property is a string value. |
 | [STRING_ARRAY](#STRING-ARRAY) | The property is an array of strings. |
-| [OBJECT_ARRAY](#OBJECT-ARRAY) | The property is an array of objects. |
-| [BYTE_ARRAY](#BYTE-ARRAY) | The property is an array of bytes. |
-| [OTHER](#OTHER) | The property is some other type. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int propertyType)](#getName-int-) |  |
-| [toString(int propertyType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String propertyTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int propertyType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int propertyType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### BOOLEAN {#BOOLEAN}
 ```
 public static int BOOLEAN
@@ -43,6 +52,14 @@ public static int BOOLEAN
 
 
 The property is a boolean value.
+
+### BYTE_ARRAY {#BYTE-ARRAY}
+```
+public static int BYTE_ARRAY
+```
+
+
+The property is an array of bytes.
 
 ### DATE_TIME {#DATE-TIME}
 ```
@@ -68,6 +85,22 @@ public static int NUMBER
 
 The property is an integer number.
 
+### OBJECT_ARRAY {#OBJECT-ARRAY}
+```
+public static int OBJECT_ARRAY
+```
+
+
+The property is an array of objects.
+
+### OTHER {#OTHER}
+```
+public static int OTHER
+```
+
+
+The property is some other type.
+
 ### STRING {#STRING}
 ```
 public static int STRING
@@ -84,36 +117,52 @@ public static int STRING_ARRAY
 
 The property is an array of strings.
 
-### OBJECT_ARRAY {#OBJECT-ARRAY}
-```
-public static int OBJECT_ARRAY
-```
-
-
-The property is an array of objects.
-
-### BYTE_ARRAY {#BYTE-ARRAY}
-```
-public static int BYTE_ARRAY
-```
-
-
-The property is an array of bytes.
-
-### OTHER {#OTHER}
-```
-public static int OTHER
-```
-
-
-The property is some other type.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String propertyTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String propertyTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| propertyTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int propertyType) {#getName-int-}
 ```
 public static String getName(int propertyType)
@@ -126,6 +175,52 @@ public static String getName(int propertyType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | propertyType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -144,9 +239,17 @@ public static String toString(int propertyType)
 
 **Returns:**
 java.lang.String
-### fromName(String propertyTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String propertyTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -155,17 +258,19 @@ public static int fromName(String propertyTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| propertyTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

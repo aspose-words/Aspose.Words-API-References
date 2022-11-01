@@ -1,7 +1,7 @@
 ﻿---
 title: FieldChar class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Base class for nodes that represent field characters in a document."
+description: "Base class for nodes that represent field characters in a document"
 type: docs
 weight: 210
 url: /python-net/aspose.words.fields/fieldchar/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fieldchar/
 ## FieldChar class
 
 Base class for nodes that represent field characters in a document.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 A complete field in a Microsoft Word document is a complex structure consisting of
@@ -32,20 +35,20 @@ method.
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [field_type](./field_type/) | Returns the type of the field. |
 | [font](../../aspose.words/inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [is_composite](../../aspose.words/node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [is_composite](../../aspose.words/node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [is_delete_revision](../../aspose.words/inline/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [is_dirty](./is_dirty/) | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [is_format_revision](../../aspose.words/inline/is_format_revision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [is_insert_revision](../../aspose.words/inline/is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [is_locked](./is_locked/) | Gets or sets whether the parent field is locked (should not recalculate its result). |
-| [is_move_from_revision](../../aspose.words/inline/is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [is_move_to_revision](../../aspose.words/inline/is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [is_move_from_revision](../../aspose.words/inline/is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [is_move_to_revision](../../aspose.words/inline/is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [next_sibling](../../aspose.words/node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [node_type](../../aspose.words/node/node_type/) | Gets the type of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_node](../../aspose.words/node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parent_paragraph](../../aspose.words/inline/parent_paragraph/) | Retrieves the parent [Paragraph](../../aspose.words/paragraph/) of this node.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [previous_sibling](../../aspose.words/node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [range](../../aspose.words/node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 
 ### Methods
 

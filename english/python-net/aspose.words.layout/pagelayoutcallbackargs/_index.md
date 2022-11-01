@@ -1,7 +1,7 @@
 ﻿---
 title: PageLayoutCallbackArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "An argument passed into [IPageLayoutCallback.notify()](../ipagelayoutcallback/notify/#pagelayoutcallbackargs)"
+description: "An argument passed into [IPageLayoutCallback.notify()](../ipagelayoutcallback/notify/#pagelayoutcallbackargs)To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article."
 type: docs
 weight: 80
 url: /python-net/aspose.words.layout/pagelayoutcallbackargs/
@@ -9,7 +9,9 @@ url: /python-net/aspose.words.layout/pagelayoutcallbackargs/
 
 ## PageLayoutCallbackArgs class
 
-An argument passed into [IPageLayoutCallback.notify()](../ipagelayoutcallback/notify/#pagelayoutcallbackargs)
+An argument passed into [IPageLayoutCallback.notify()](../ipagelayoutcallback/notify/#pagelayoutcallbackargs)To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) documentation article.
+
+
 
 
 ### Properties

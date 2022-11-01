@@ -1,7 +1,7 @@
 ﻿---
 title: DownsampleOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify downsample options."
+description: "Allows to specify downsample options"
 type: docs
 weight: 130
 url: /python-net/aspose.words.saving/downsampleoptions/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.saving/downsampleoptions/
 ## DownsampleOptions class
 
 Allows to specify downsample options.
+To learn more, visit the [Save a Document](https://docs.aspose.com/words/net/save-a-document/) documentation article.
+
+
 
 
 ### Constructors

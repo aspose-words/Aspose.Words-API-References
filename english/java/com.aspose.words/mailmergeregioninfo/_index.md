@@ -20,13 +20,87 @@ To learn more, visit the **Mail Merge and Reporting** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getEndField()](#getEndField--) | Returns an end field for the region. |
+| [getFields()](#getFields--) | Returns a list of child fields. |
+| [getLevel()](#getLevel--) | Returns the nesting level for the region. |
+| [getName()](#getName--) | Returns the name of region. |
 | [getParentRegion()](#getParentRegion--) | Returns parent region info (null for top-level region). |
 | [getRegions()](#getRegions--) | Returns a list of child regions. |
-| [getFields()](#getFields--) | Returns a list of child fields. |
-| [getName()](#getName--) | Returns the name of region. |
 | [getStartField()](#getStartField--) | Returns a start field for the region. |
-| [getEndField()](#getEndField--) | Returns an end field for the region. |
-| [getLevel()](#getLevel--) | Returns the nesting level for the region. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEndField() {#getEndField--}
+```
+public FieldMergeField getEndField()
+```
+
+
+Returns an end field for the region.
+
+**Returns:**
+[FieldMergeField](../../com.aspose.words/fieldmergefield) - An end field for the region.
+### getFields() {#getFields--}
+```
+public ArrayList getFields()
+```
+
+
+Returns a list of child fields.
+
+**Returns:**
+java.util.ArrayList - A list of child fields.
+### getLevel() {#getLevel--}
+```
+public int getLevel()
+```
+
+
+Returns the nesting level for the region.
+
+**Returns:**
+int - The nesting level for the region.
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Returns the name of region.
+
+**Returns:**
+java.lang.String - The name of region.
 ### getParentRegion() {#getParentRegion--}
 ```
 public MailMergeRegionInfo getParentRegion()
@@ -47,26 +121,6 @@ Returns a list of child regions.
 
 **Returns:**
 java.util.ArrayList - A list of child regions.
-### getFields() {#getFields--}
-```
-public ArrayList getFields()
-```
-
-
-Returns a list of child fields.
-
-**Returns:**
-java.util.ArrayList - A list of child fields.
-### getName() {#getName--}
-```
-public String getName()
-```
-
-
-Returns the name of region.
-
-**Returns:**
-java.lang.String - The name of region.
 ### getStartField() {#getStartField--}
 ```
 public FieldMergeField getStartField()
@@ -77,23 +131,74 @@ Returns a start field for the region.
 
 **Returns:**
 [FieldMergeField](../../com.aspose.words/fieldmergefield) - A start field for the region.
-### getEndField() {#getEndField--}
+### hashCode() {#hashCode--}
 ```
-public FieldMergeField getEndField()
+public native int hashCode()
 ```
 
 
-Returns an end field for the region.
+
 
 **Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - An end field for the region.
-### getLevel() {#getLevel--}
+int
+### notify() {#notify--}
 ```
-public int getLevel()
+public final native void notify()
 ```
 
 
-Returns the nesting level for the region.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-int - The nesting level for the region.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

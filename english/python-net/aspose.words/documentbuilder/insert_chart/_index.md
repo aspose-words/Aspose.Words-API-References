@@ -3,7 +3,7 @@ title: insert_chart method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "aspose.words.DocumentBuilder.insert_chart method"
 type: docs
-weight: 260
+weight: 280
 url: /python-net/aspose.words/documentbuilder/insert_chart/
 ---
 

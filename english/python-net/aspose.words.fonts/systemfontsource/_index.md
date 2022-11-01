@@ -1,7 +1,7 @@
 ﻿---
 title: SystemFontSource class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents all TrueType fonts installed to the system."
+description: "Represents all TrueType fonts installed to the system"
 type: docs
 weight: 220
 url: /python-net/aspose.words.fonts/systemfontsource/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/systemfontsource/
 ## SystemFontSource class
 
 Represents all TrueType fonts installed to the system.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 **Inheritance:** [SystemFontSource](./) → [FontSourceBase](../fontsourcebase/)

@@ -93,7 +93,7 @@ def build_report(self, document: aspose.words.Document, data_source: object, dat
 
 Using this overload you can reference the data source's members and the data source object itself in the template. 
 If you are not going to reference the data source object itself, you can omit  
-passing null or use the[ReportingEngine.build_report()](./#document_object) overload.
+passing``None`` or use the [ReportingEngine.build_report()](./#document_object) overload.
 
 
 A data source object can be of one of the following types:
@@ -161,9 +161,10 @@ def build_report(self, document: aspose.words.Document, data_sources: List[objec
 | data_source_names | List[str] |  |
 
 Using this overload you can reference multiple data source objects and their members in the template. 
-The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to 
+The name of the first data source can be omitted (i.e. be an empty string or ``None``) if you are going to 
 reference the data source's members but not the data source object itself. Names of the other data sources 
 must be specified and unique.
+
 
 If you are going to use a single data source, consider using of [ReportingEngine.build_report()](./#document_object) 
 and [ReportingEngine.build_report()](./#document_object_str) overloads instead.

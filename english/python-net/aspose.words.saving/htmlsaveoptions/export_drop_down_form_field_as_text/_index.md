@@ -10,11 +10,11 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_drop_down_form_field
 ## HtmlSaveOptions.export_drop_down_form_field_as_text property
 
 Controls how drop-down form fields are saved to HTML or MHTML.
-Default value is ``false``.
+Default value is ``False``.
 
 
-When set to ``true``, exports drop-down form fields as normal text.
-When ``false``, exports drop-down form fields as SELECT element in HTML.
+When set to ``True``, exports drop-down form fields as normal text.
+When ``False``, exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due 
 to requirements of this format.

@@ -38,7 +38,7 @@ name is not guaranteed to be unique.
 
 ### Returns
 
-The matching building block or null if a match was not found.
+The matching building block or ``None`` if a match was not found.
 
 
 ### See Also

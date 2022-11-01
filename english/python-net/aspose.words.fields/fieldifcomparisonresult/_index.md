@@ -17,8 +17,8 @@ Specifies the result of the IF field condition evaluation.
 | Name | Description |
 | --- | --- |
 | ERROR | There is an error in the condition. |
-| TRUE | The condition is ``true``. |
-| FALSE | The condition is ``false``. |
+| TRUE | The condition is ``True``. |
+| FALSE | The condition is ``False``. |
 
 ### Examples
 

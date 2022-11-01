@@ -18,36 +18,29 @@ Specifies the level in the document tree where a particular [StructuredDocumentT
 
 | Field | Description |
 | --- | --- |
-| [UNKNOWN](#UNKNOWN) | Specifies the unknown or invalid value. |
-| [INLINE](#INLINE) | The element occurs at the inline level (e.g. |
 | [BLOCK](#BLOCK) | The element occurs at the block level (e.g. |
-| [ROW](#ROW) | The element occurs among rows in a table. |
 | [CELL](#CELL) | The element occurs among cells in a row. |
+| [INLINE](#INLINE) | The element occurs at the inline level (e.g. |
+| [ROW](#ROW) | The element occurs among rows in a table. |
+| [UNKNOWN](#UNKNOWN) | Specifies the unknown or invalid value. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int markupLevel)](#getName-int-) |  |
-| [toString(int markupLevel)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String markupLevelName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int markupLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### UNKNOWN {#UNKNOWN}
-```
-public static int UNKNOWN
-```
-
-
-Specifies the unknown or invalid value.
-
-### INLINE {#INLINE}
-```
-public static int INLINE
-```
-
-
-The element occurs at the inline level (e.g. among as runs of text).
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int markupLevel)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### BLOCK {#BLOCK}
 ```
 public static int BLOCK
@@ -55,14 +48,6 @@ public static int BLOCK
 
 
 The element occurs at the block level (e.g. among tables and paragraphs).
-
-### ROW {#ROW}
-```
-public static int ROW
-```
-
-
-The element occurs among rows in a table.
 
 ### CELL {#CELL}
 ```
@@ -72,12 +57,76 @@ public static int CELL
 
 The element occurs among cells in a row.
 
+### INLINE {#INLINE}
+```
+public static int INLINE
+```
+
+
+The element occurs at the inline level (e.g. among as runs of text).
+
+### ROW {#ROW}
+```
+public static int ROW
+```
+
+
+The element occurs among rows in a table.
+
+### UNKNOWN {#UNKNOWN}
+```
+public static int UNKNOWN
+```
+
+
+Specifies the unknown or invalid value.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String markupLevelName) {#fromName-java.lang.String-}
+```
+public static int fromName(String markupLevelName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| markupLevelName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int markupLevel) {#getName-int-}
 ```
 public static String getName(int markupLevel)
@@ -90,6 +139,52 @@ public static String getName(int markupLevel)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | markupLevel | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int markupLevel)
 
 **Returns:**
 java.lang.String
-### fromName(String markupLevelName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String markupLevelName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String markupLevelName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| markupLevelName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

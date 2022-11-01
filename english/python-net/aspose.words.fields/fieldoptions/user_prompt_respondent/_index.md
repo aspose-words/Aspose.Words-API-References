@@ -3,7 +3,7 @@ title: user_prompt_respondent property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets the respondent to user prompts during field update."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.fields/fieldoptions/user_prompt_respondent/
 ---
 
@@ -11,10 +11,10 @@ url: /python-net/aspose.words.fields/fieldoptions/user_prompt_respondent/
 
 Gets or sets the respondent to user prompts during field update.
 
-If the value of this property is set to **null**, the fields that require user response on prompting
+If the value of this property is set to ``None``, the fields that require user response on prompting
 (such as [FieldAsk](../../fieldask/) or [FieldFillIn](../../fieldfillin/)) are not updated.
 
-The default value is **null**.
+The default value is ``None``.
 
 
 

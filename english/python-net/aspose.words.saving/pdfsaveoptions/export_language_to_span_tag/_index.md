@@ -3,7 +3,7 @@ title: export_language_to_span_tag property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Gets or sets a value determining whether or not to create a Span tag in the document structure to export the text language."
 type: docs
-weight: 130
+weight: 150
 url: /python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/
 ---
 
@@ -11,12 +11,12 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/export_language_to_span_tag/
 
 Gets or sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
 
-Default value is ``false`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
+Default value is ``False`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
 
-When the value is ``true`` "Span" tag is created for the text with non-default language
+When the value is ``True`` "Span" tag is created for the text with non-default language
 and "Lang" attribute is attached to this tag.
 
-This value is ignored when [PdfSaveOptions.export_document_structure](../export_document_structure/) is ``false``. 
+This value is ignored when [PdfSaveOptions.export_document_structure](../export_document_structure/) is ``False``. 
 
 
 

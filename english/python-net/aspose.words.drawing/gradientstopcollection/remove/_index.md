@@ -24,7 +24,7 @@ def remove(self, gradient_stop: aspose.words.drawing.GradientStop):
 
 ### Returns
 
-True if gradient stop was successfully removed, otherwise false.
+``True`` if gradient stop was successfully removed, otherwise ``False``.
 
 
 ### Examples

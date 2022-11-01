@@ -26,13 +26,22 @@ To learn more, visit the **Working with Graphic Elements** documentation article
 
 | Method | Description |
 | --- | --- |
-| [remove()](#remove--) | Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection). |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getColor()](#getColor--) | Gets a value representing the color of the gradient stop. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets a value representing the color of the gradient stop. |
 | [getPosition()](#getPosition--) | Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
-| [setPosition(double value)](#setPosition-double-) | Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [getTransparency()](#getTransparency--) | Gets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection). |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets a value representing the color of the gradient stop. |
+| [setPosition(double value)](#setPosition-double-) | Sets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | [setTransparency(double value)](#setTransparency-double-) | Sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### GradientStop(Color color, double position) {#GradientStop-java.awt.Color-double-}
 ```
 public GradientStop(Color color, double position)
@@ -62,14 +71,31 @@ Initializes a new instance of the [GradientStop](../../com.aspose.words/gradient
 | position | double | Represents the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 | transparency | double | Represents the transparency of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### remove() {#remove--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void remove()
+public boolean equals(Object arg0)
 ```
 
 
-Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection).
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
@@ -80,6 +106,60 @@ Gets a value representing the color of the gradient stop.
 
 **Returns:**
 java.awt.Color - A value representing the color of the gradient stop.
+### getPosition() {#getPosition--}
+```
+public double getPosition()
+```
+
+
+Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
+
+**Returns:**
+double - A value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
+### getTransparency() {#getTransparency--}
+```
+public double getTransparency()
+```
+
+
+Gets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
+
+**Returns:**
+double - A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public void remove()
+```
+
+
+Removes the gradient stop from the parent [GradientStopCollection](../../com.aspose.words/gradientstopcollection).
+
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
 public void setColor(Color value)
@@ -93,16 +173,6 @@ Sets a value representing the color of the gradient stop.
 | --- | --- | --- |
 | value | java.awt.Color | A value representing the color of the gradient stop. |
 
-### getPosition() {#getPosition--}
-```
-public double getPosition()
-```
-
-
-Gets a value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
-
-**Returns:**
-double - A value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0.
 ### setPosition(double value) {#setPosition-double-}
 ```
 public void setPosition(double value)
@@ -116,16 +186,6 @@ Sets a value representing the position of a stop within the gradient expressed a
 | --- | --- | --- |
 | value | double | A value representing the position of a stop within the gradient expressed as a percent in range 0.0 to 1.0. |
 
-### getTransparency() {#getTransparency--}
-```
-public double getTransparency()
-```
-
-
-Gets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
-
-**Returns:**
-double - A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0.
 ### setTransparency(double value) {#setTransparency-double-}
 ```
 public void setTransparency(double value)
@@ -138,4 +198,49 @@ Sets a value representing the transparency of the gradient fill expressed as a p
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double | A value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

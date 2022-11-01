@@ -1,7 +1,7 @@
 ﻿---
 title: StyleCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "A collection of Style objects that represent both the built-in and user-defined styles in a document."
+description: "A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document"
 type: docs
 weight: 1090
 url: /python-net/aspose.words/stylecollection/
@@ -9,7 +9,10 @@ url: /python-net/aspose.words/stylecollection/
 
 ## StyleCollection class
 
-A collection of Style objects that represent both the built-in and user-defined styles in a document.
+A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document.
+To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
+
+
 
 
 ### Indexers

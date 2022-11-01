@@ -28,13 +28,20 @@ To learn more, visit the **LINQ Reporting Engine** documentation article.
 | [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | Populates the specified template document with data from the specified source making it a ready report. |
 | [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | Populates the specified template document with data from the specified sources making it a ready report. |
-| [hashCode()](#hashCode--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getOptions()](#getOptions--) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
-| [setOptions(int value)](#setOptions-int-) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
+| [getClass()](#getClass--) |  |
 | [getKnownTypes()](#getKnownTypes--) | Gets an unordered set (i.e. |
+| [getOptions()](#getOptions--) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
 | [getUseReflectionOptimization()](#getUseReflectionOptimization--) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setOptions(int value)](#setOptions-int-) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
 | [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ReportingEngine() {#ReportingEngine--}
 ```
 public ReportingEngine()
@@ -149,16 +156,6 @@ For information on how to work with data sources of different types in template 
 
 **Returns:**
 boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
-### hashCode() {#hashCode--}
-```
-public int hashCode()
-```
-
-
-
-
-**Returns:**
-int
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -174,6 +171,26 @@ public boolean equals(Object obj)
 
 **Returns:**
 boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getKnownTypes() {#getKnownTypes--}
+```
+public KnownTypeSet getKnownTypes()
+```
+
+
+Gets an unordered set (i.e. a collection of unique items) containing java.lang.Class objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc.
+
+**Returns:**
+[KnownTypeSet](../../com.aspose.words/knowntypeset) - An unordered set (i.e.
 ### getOptions() {#getOptions--}
 ```
 public int getOptions()
@@ -184,6 +201,42 @@ Gets a set of flags controlling behavior of this [ReportingEngine](../../com.asp
 
 **Returns:**
 int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants.
+### getUseReflectionOptimization() {#getUseReflectionOptimization--}
+```
+public static boolean getUseReflectionOptimization()
+```
+
+
+Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+
+**Returns:**
+boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setOptions(int value) {#setOptions-int-}
 ```
 public void setOptions(int value)
@@ -197,26 +250,6 @@ Sets a set of flags controlling behavior of this [ReportingEngine](../../com.asp
 | --- | --- | --- |
 | value | int | A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The value must be a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants. |
 
-### getKnownTypes() {#getKnownTypes--}
-```
-public KnownTypeSet getKnownTypes()
-```
-
-
-Gets an unordered set (i.e. a collection of unique items) containing java.lang.Class objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc.
-
-**Returns:**
-[KnownTypeSet](../../com.aspose.words/knowntypeset) - An unordered set (i.e.
-### getUseReflectionOptimization() {#getUseReflectionOptimization--}
-```
-public static boolean getUseReflectionOptimization()
-```
-
-
-Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
-
-**Returns:**
-boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
 ### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean-}
 ```
 public static void setUseReflectionOptimization(boolean value)
@@ -229,4 +262,49 @@ Sets a value indicating whether invocations of custom type members performed via
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

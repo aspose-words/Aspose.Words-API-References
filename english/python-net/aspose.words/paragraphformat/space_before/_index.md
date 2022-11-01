@@ -11,7 +11,7 @@ url: /python-net/aspose.words/paragraphformat/space_before/
 
 Gets or sets the amount of spacing (in points) before the paragraph.
 
-Has no effect when [ParagraphFormat.space_before_auto](../space_before_auto/) is true.
+Has no effect when [ParagraphFormat.space_before_auto](../space_before_auto/) is ``True``.
 
 Valid values range from 0 to 1584 inclusive.
 

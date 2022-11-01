@@ -3,18 +3,18 @@ title: export_text_input_form_field_as_text property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Controls how text input form fields are saved to HTML or MHTML"
 type: docs
-weight: 280
+weight: 270
 url: /python-net/aspose.words.saving/htmlsaveoptions/export_text_input_form_field_as_text/
 ---
 
 ## HtmlSaveOptions.export_text_input_form_field_as_text property
 
 Controls how text input form fields are saved to HTML or MHTML.
-Default value is ``false``.
+Default value is ``False``.
 
 
-When set to ``true``, exports text input form fields as normal text. 
-When ``false``, exports Word text input form fields as INPUT elements in HTML.
+When set to ``True``, exports text input form fields as normal text. 
+When ``False``, exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due 
 to requirements of this format.

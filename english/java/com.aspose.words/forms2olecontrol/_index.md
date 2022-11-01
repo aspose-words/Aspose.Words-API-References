@@ -25,18 +25,43 @@ To learn more, visit the **Working with Ole Objects** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCaption()](#getCaption--) | Gets Caption property of control. |
-| [getValue()](#getValue--) | Gets underlying Value property which often represents control state. |
-| [getEnabled()](#getEnabled--) | Returns true if control is in enabled state. |
 | [getChildNodes()](#getChildNodes--) | Gets collection of immediate child controls. |
+| [getClass()](#getClass--) |  |
+| [getEnabled()](#getEnabled--) | Returns true if control is in enabled state. |
+| [getName()](#getName--) | Gets name of the ActiveX control. |
 | [getType()](#getType--) | Gets type of Forms 2.0 control. |
+| [getValue()](#getValue--) | Gets underlying Value property which often represents control state. |
+| [hashCode()](#hashCode--) |  |
 | [isForms2OleControl()](#isForms2OleControl--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Forms2OleControl() {#Forms2OleControl--}
 ```
 public Forms2OleControl()
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getCaption() {#getCaption--}
 ```
 public String getCaption()
@@ -47,26 +72,6 @@ Gets Caption property of control. Default value is an empty string.
 
 **Returns:**
 java.lang.String - Caption property of control.
-### getValue() {#getValue--}
-```
-public String getValue()
-```
-
-
-Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string.
-
-**Returns:**
-java.lang.String - Underlying Value property which often represents control state.
-### getEnabled() {#getEnabled--}
-```
-public boolean getEnabled()
-```
-
-
-Returns true if control is in enabled state.
-
-**Returns:**
-boolean - True if control is in enabled state.
 ### getChildNodes() {#getChildNodes--}
 ```
 public Forms2OleControlCollection getChildNodes()
@@ -77,6 +82,36 @@ Gets collection of immediate child controls. Returns **null** if this control ca
 
 **Returns:**
 [Forms2OleControlCollection](../../com.aspose.words/forms2olecontrolcollection) - Collection of immediate child controls.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEnabled() {#getEnabled--}
+```
+public boolean getEnabled()
+```
+
+
+Returns true if control is in enabled state.
+
+**Returns:**
+boolean - True if control is in enabled state.
+### getName() {#getName--}
+```
+public String getName()
+```
+
+
+Gets name of the ActiveX control.
+
+**Returns:**
+java.lang.String - Name of the ActiveX control.
 ### getType() {#getType--}
 ```
 public int getType()
@@ -87,6 +122,26 @@ Gets type of Forms 2.0 control.
 
 **Returns:**
 int - Type of Forms 2.0 control. The returned value is one of [Forms2OleControlType](../../com.aspose.words/forms2olecontroltype) constants.
+### getValue() {#getValue--}
+```
+public String getValue()
+```
+
+
+Gets underlying Value property which often represents control state. For example checked option button has '1' value while unchecked has '0'. Default value is an empty string.
+
+**Returns:**
+java.lang.String - Underlying Value property which often represents control state.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isForms2OleControl() {#isForms2OleControl--}
 ```
 public boolean isForms2OleControl()
@@ -97,3 +152,64 @@ Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms
 
 **Returns:**
 boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

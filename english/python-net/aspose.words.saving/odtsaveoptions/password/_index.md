@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/odtsaveoptions/password/
 
 Gets or sets a password to encrypt document.
 
-In order to save document without encryption this property should be null or empty string.
+In order to save document without encryption this property should be ``None`` or empty string.
 
 
 

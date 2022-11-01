@@ -11,7 +11,7 @@ url: /python-net/aspose.words/bookmarkend/name/
 
 Gets or sets the bookmark name.
 
-Cannot be null.
+Cannot be ``None``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: is_encrypted property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the document is encrypted and requires a password to open."
+description: "Returns ``True`` if the document is encrypted and requires a password to open."
 type: docs
 weight: 30
 url: /python-net/aspose.words/fileformatinfo/is_encrypted/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/fileformatinfo/is_encrypted/
 
 ## FileFormatInfo.is_encrypted property
 
-Returns true if the document is encrypted and requires a password to open.
+Returns ``True`` if the document is encrypted and requires a password to open.
+
 
 This property exists to help you sort documents that are encrypted from those that are not.
 If you attempt to load an encrypted document using Aspose.Words without supplying a password an 

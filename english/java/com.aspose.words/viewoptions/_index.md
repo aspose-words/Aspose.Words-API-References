@@ -23,18 +23,84 @@ To learn more, visit the **Work with Options and Appearance of Word Documents** 
 
 | Method | Description |
 | --- | --- |
-| [getViewType()](#getViewType--) | Controls the view mode in Microsoft Word. |
-| [setViewType(int value)](#setViewType-int-) | Controls the view mode in Microsoft Word. |
-| [getZoomType()](#getZoomType--) | Gets a zoom value based on the size of the window. |
-| [setZoomType(int value)](#setZoomType-int-) | Sets a zoom value based on the size of the window. |
-| [getZoomPercent()](#getZoomPercent--) | Gets the percentage (between 10 and 500) at which you want to view your document. |
-| [setZoomPercent(int value)](#setZoomPercent-int-) | Sets the percentage (between 10 and 500) at which you want to view your document. |
-| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries--) | Turns off display of the space between the top of the text and the top edge of the page. |
-| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean-) | Turns off display of the space between the top of the text and the top edge of the page. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDisplayBackgroundShape()](#getDisplayBackgroundShape--) | Controls display of the background shape in print layout view. |
-| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean-) | Controls display of the background shape in print layout view. |
+| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries--) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [getFormsDesign()](#getFormsDesign--) | Specifies whether the document is in forms design mode. |
+| [getViewType()](#getViewType--) | Controls the view mode in Microsoft Word. |
+| [getZoomPercent()](#getZoomPercent--) | Gets the percentage (between 10 and 500) at which you want to view your document. |
+| [getZoomType()](#getZoomType--) | Gets a zoom value based on the size of the window. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean-) | Controls display of the background shape in print layout view. |
+| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean-) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [setFormsDesign(boolean value)](#setFormsDesign-boolean-) | Specifies whether the document is in forms design mode. |
+| [setViewType(int value)](#setViewType-int-) | Controls the view mode in Microsoft Word. |
+| [setZoomPercent(int value)](#setZoomPercent-int-) | Sets the percentage (between 10 and 500) at which you want to view your document. |
+| [setZoomType(int value)](#setZoomType-int-) | Sets a zoom value based on the size of the window. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayBackgroundShape() {#getDisplayBackgroundShape--}
+```
+public boolean getDisplayBackgroundShape()
+```
+
+
+Controls display of the background shape in print layout view.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries--}
+```
+public boolean getDoNotDisplayPageBoundaries()
+```
+
+
+Turns off display of the space between the top of the text and the top edge of the page.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getFormsDesign() {#getFormsDesign--}
+```
+public boolean getFormsDesign()
+```
+
+
+Specifies whether the document is in forms design mode.
+
+Currently works only for documents in WordML format.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getViewType() {#getViewType--}
 ```
 public int getViewType()
@@ -47,6 +113,97 @@ Although Aspose.Words is able to read and write this option, its usage is applic
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [ViewType](../../com.aspose.words/viewtype) constants.
+### getZoomPercent() {#getZoomPercent--}
+```
+public int getZoomPercent()
+```
+
+
+Gets the percentage (between 10 and 500) at which you want to view your document.
+
+If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
+
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
+
+**Returns:**
+int - The percentage (between 10 and 500) at which you want to view your document.
+### getZoomType() {#getZoomType--}
+```
+public int getZoomType()
+```
+
+
+Gets a zoom value based on the size of the window.
+
+**Returns:**
+int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setDisplayBackgroundShape(boolean value) {#setDisplayBackgroundShape-boolean-}
+```
+public void setDisplayBackgroundShape(boolean value)
+```
+
+
+Controls display of the background shape in print layout view.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### setDoNotDisplayPageBoundaries(boolean value) {#setDoNotDisplayPageBoundaries-boolean-}
+```
+public void setDoNotDisplayPageBoundaries(boolean value)
+```
+
+
+Turns off display of the space between the top of the text and the top edge of the page.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### setFormsDesign(boolean value) {#setFormsDesign-boolean-}
+```
+public void setFormsDesign(boolean value)
+```
+
+
+Specifies whether the document is in forms design mode.
+
+Currently works only for documents in WordML format.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setViewType(int value) {#setViewType-int-}
 ```
 public void setViewType(int value)
@@ -62,43 +219,6 @@ Although Aspose.Words is able to read and write this option, its usage is applic
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [ViewType](../../com.aspose.words/viewtype) constants. |
 
-### getZoomType() {#getZoomType--}
-```
-public int getZoomType()
-```
-
-
-Gets a zoom value based on the size of the window.
-
-**Returns:**
-int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype) constants.
-### setZoomType(int value) {#setZoomType-int-}
-```
-public void setZoomType(int value)
-```
-
-
-Sets a zoom value based on the size of the window.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype) constants. |
-
-### getZoomPercent() {#getZoomPercent--}
-```
-public int getZoomPercent()
-```
-
-
-Gets the percentage (between 10 and 500) at which you want to view your document.
-
-If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
-
-Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
-
-**Returns:**
-int - The percentage (between 10 and 500) at which you want to view your document.
 ### setZoomPercent(int value) {#setZoomPercent-int-}
 ```
 public void setZoomPercent(int value)
@@ -116,76 +236,61 @@ Although Aspose.Words is able to read and write this option, its usage is applic
 | --- | --- | --- |
 | value | int | The percentage (between 10 and 500) at which you want to view your document. |
 
-### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries--}
+### setZoomType(int value) {#setZoomType-int-}
 ```
-public boolean getDoNotDisplayPageBoundaries()
-```
-
-
-Turns off display of the space between the top of the text and the top edge of the page.
-
-**Returns:**
-boolean - The corresponding  boolean  value.
-### setDoNotDisplayPageBoundaries(boolean value) {#setDoNotDisplayPageBoundaries-boolean-}
-```
-public void setDoNotDisplayPageBoundaries(boolean value)
+public void setZoomType(int value)
 ```
 
 
-Turns off display of the space between the top of the text and the top edge of the page.
+Sets a zoom value based on the size of the window.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype) constants. |
 
-### getDisplayBackgroundShape() {#getDisplayBackgroundShape--}
+### toString() {#toString--}
 ```
-public boolean getDisplayBackgroundShape()
+public String toString()
 ```
 
 
-Controls display of the background shape in print layout view.
+
 
 **Returns:**
-boolean - The corresponding  boolean  value.
-### setDisplayBackgroundShape(boolean value) {#setDisplayBackgroundShape-boolean-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setDisplayBackgroundShape(boolean value)
+public final void wait()
 ```
 
 
-Controls display of the background shape in print layout view.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| arg0 | long |  |
 
-### getFormsDesign() {#getFormsDesign--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public boolean getFormsDesign()
-```
-
-
-Specifies whether the document is in forms design mode.
-
-Currently works only for documents in WordML format.
-
-**Returns:**
-boolean - The corresponding  boolean  value.
-### setFormsDesign(boolean value) {#setFormsDesign-boolean-}
-```
-public void setFormsDesign(boolean value)
+public final void wait(long arg0, int arg1)
 ```
 
 
-Specifies whether the document is in forms design mode.
 
-Currently works only for documents in WordML format.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| arg0 | long |  |
+| arg1 | int |  |
 

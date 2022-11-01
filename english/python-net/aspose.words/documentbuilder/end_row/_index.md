@@ -3,7 +3,7 @@ title: end_row method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Ends a table row in the document."
 type: docs
-weight: 220
+weight: 240
 url: /python-net/aspose.words/documentbuilder/end_row/
 ---
 
@@ -17,7 +17,7 @@ def end_row(self):
     ...
 ```
 
-Call **EndRow** to end a table row. If you call [DocumentBuilder.insert_cell()](../insert_cell/#default) immediately
+Call [DocumentBuilder.end_row()](./#default) to end a table row. If you call [DocumentBuilder.insert_cell()](../insert_cell/#default) immediately
 after that, then the table continues on a new row.
 
 Use the [DocumentBuilder.row_format](../row_format/) property to specify row formatting.

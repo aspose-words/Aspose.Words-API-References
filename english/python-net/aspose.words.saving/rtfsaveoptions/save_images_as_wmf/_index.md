@@ -1,7 +1,7 @@
 ﻿---
 title: save_images_as_wmf property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When true all images will be saved as WMF."
+description: "When ``True`` all images will be saved as WMF."
 type: docs
 weight: 50
 url: /python-net/aspose.words.saving/rtfsaveoptions/save_images_as_wmf/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words.saving/rtfsaveoptions/save_images_as_wmf/
 
 ## RtfSaveOptions.save_images_as_wmf property
 
-When true all images will be saved as WMF.
+When ``True`` all images will be saved as WMF.
+
 
 This option might help to avoid WordPad warning messages.
 

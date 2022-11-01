@@ -11,7 +11,7 @@ url: /python-net/aspose.words.fonts/fontinfo/name/
 
 Gets the name of the font.
 
-Cannot be ``null``. Can be an empty string.
+Cannot be ``None``. Can be an empty string.
 
 
 

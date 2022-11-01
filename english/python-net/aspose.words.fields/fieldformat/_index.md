@@ -1,7 +1,7 @@
 ﻿---
 title: FieldFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides typed access to field's numeric, date and time, and general formatting."
+description: "Provides typed access to field's numeric, date and time, and general formatting"
 type: docs
 weight: 480
 url: /python-net/aspose.words.fields/fieldformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fields/fieldformat/
 ## FieldFormat class
 
 Provides typed access to field's numeric, date and time, and general formatting.
+To learn more, visit the [Working with Fields](https://docs.aspose.com/words/net/working-with-fields/) documentation article.
+
+
 
 
 ### Properties

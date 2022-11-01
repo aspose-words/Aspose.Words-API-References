@@ -1,7 +1,7 @@
 ﻿---
 title: has_macros property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns true if the document has a VBA project (macros)."
+description: "Returns ``True`` if the document has a VBA project (macros)."
 type: docs
 weight: 190
 url: /python-net/aspose.words/document/has_macros/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/document/has_macros/
 
 ## Document.has_macros property
 
-Returns **true** if the document has a VBA project (macros).
+Returns ``True`` if the document has a VBA project (macros).
 
 
 

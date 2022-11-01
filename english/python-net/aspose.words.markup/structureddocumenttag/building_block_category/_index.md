@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/building_block_catego
 ## StructuredDocumentTag.building_block_category property
 
 Specifies category of building block for this **SDT** node.
-Can not be null.
+Can not be ``None``.
 
 
 Accessing this property will only work for [SdtType.BUILDING_BLOCK_GALLERY](../../sdttype/#BUILDING_BLOCK_GALLERY) and

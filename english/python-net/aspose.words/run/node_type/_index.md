@@ -1,7 +1,7 @@
 ﻿---
 title: node_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns NodeType.Run."
+description: "Returns [NodeType.RUN](../../nodetype/#RUN)."
 type: docs
 weight: 20
 url: /python-net/aspose.words/run/node_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/run/node_type/
 
 ## Run.node_type property
 
-Returns **NodeType.Run**.
+Returns [NodeType.RUN](../../nodetype/#RUN).
 
 
 

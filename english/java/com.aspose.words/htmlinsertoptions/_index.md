@@ -19,21 +19,30 @@ Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.Str
 | Field | Description |
 | --- | --- |
 | [NONE](#NONE) | Use the default options when inserting HTML. |
-| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML. |
-| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
 | [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | Preserve properties of block-level elements. |
+| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
+| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int htmlInsertOptions)](#getName-int-) |  |
-| [getNames(int htmlInsertOptions)](#getNames-int-) |  |
-| [toString(int htmlInsertOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int htmlInsertOptions)](#getName-int-) |  |
+| [getNames(int htmlInsertOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int htmlInsertOptions)](#toString-int-) |  |
+| [toStringSet(int attr)](#toStringSet-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
@@ -41,26 +50,6 @@ public static int NONE
 
 
 Use the default options when inserting HTML.
-
-### USE_BUILDER_FORMATTING {#USE-BUILDER-FORMATTING}
-```
-public static int USE_BUILDER_FORMATTING
-```
-
-
-Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML.
-
-If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
-
-If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
-
-### REMOVE_LAST_EMPTY_PARAGRAPH {#REMOVE-LAST-EMPTY-PARAGRAPH}
-```
-public static int REMOVE_LAST_EMPTY_PARAGRAPH
-```
-
-
-Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. By default, [DocumentBuilder](../../com.aspose.words/documentbuilder) makes sure that the last block-level element imported from HTML is closed after import and inserts a paragraph break after the element. This paragraph break separates content imported from HTML from content of the template document. However, if a HTML fragment is inserted into an empty paragraph, that paragraph break will create an extra empty paragraph. If this behavior is undesired, specify this option.
 
 ### PRESERVE_BLOCKS {#PRESERVE-BLOCKS}
 ```
@@ -76,30 +65,35 @@ Only margins and borders of 'body', 'div', and 'blockquote' HTML elements are pr
 
 If this option is specified, Aspose.Words mimics MS Word's behavior regarding import of block properties.
 
+### REMOVE_LAST_EMPTY_PARAGRAPH {#REMOVE-LAST-EMPTY-PARAGRAPH}
+```
+public static int REMOVE_LAST_EMPTY_PARAGRAPH
+```
+
+
+Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. By default, [DocumentBuilder](../../com.aspose.words/documentbuilder) makes sure that the last block-level element imported from HTML is closed after import and inserts a paragraph break after the element. This paragraph break separates content imported from HTML from content of the template document. However, if a HTML fragment is inserted into an empty paragraph, that paragraph break will create an extra empty paragraph. If this behavior is undesired, specify this option.
+
+### USE_BUILDER_FORMATTING {#USE-BUILDER-FORMATTING}
+```
+public static int USE_BUILDER_FORMATTING
+```
+
+
+Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML.
+
+If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
+
+If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
-### getName(int htmlInsertOptions) {#getName-int-}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public static String getName(int htmlInsertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| htmlInsertOptions | int |  |
-
-**Returns:**
-java.lang.String
-### getNames(int htmlInsertOptions) {#getNames-int-}
-```
-public static Set getNames(int htmlInsertOptions)
+public boolean equals(Object arg0)
 ```
 
 
@@ -108,40 +102,10 @@ public static Set getNames(int htmlInsertOptions)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| htmlInsertOptions | int |  |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.util.Set
-### toString(int htmlInsertOptions) {#toString-int-}
-```
-public static String toString(int htmlInsertOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| htmlInsertOptions | int |  |
-
-**Returns:**
-java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
-```
-public static String toStringSet(int attr)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| attr | int |  |
-
-**Returns:**
-java.lang.String
+boolean
 ### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlInsertOptionsName)
@@ -172,6 +136,46 @@ public static int fromNames(Set htmlInsertOptionsNames)
 
 **Returns:**
 int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getName(int htmlInsertOptions) {#getName-int-}
+```
+public static String getName(int htmlInsertOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlInsertOptions | int |  |
+
+**Returns:**
+java.lang.String
+### getNames(int htmlInsertOptions) {#getNames-int-}
+```
+public static Set getNames(int htmlInsertOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlInsertOptions | int |  |
+
+**Returns:**
+java.util.Set
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -182,3 +186,104 @@ public static int[] getValues()
 
 **Returns:**
 int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toString(int htmlInsertOptions) {#toString-int-}
+```
+public static String toString(int htmlInsertOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlInsertOptions | int |  |
+
+**Returns:**
+java.lang.String
+### toStringSet(int attr) {#toStringSet-int-}
+```
+public static String toStringSet(int attr)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| attr | int |  |
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

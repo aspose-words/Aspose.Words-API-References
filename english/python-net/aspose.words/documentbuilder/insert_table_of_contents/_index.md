@@ -3,7 +3,7 @@ title: insert_table_of_contents method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Inserts a TOC (table of contents) field into the document."
 type: docs
-weight: 440
+weight: 460
 url: /python-net/aspose.words/documentbuilder/insert_table_of_contents/
 ---
 
@@ -37,7 +37,7 @@ For example, after creating a table of contents, the following field is inserted
 into the document: **{ TOC \\o "1-3" \\h \\z \\u }**.
 You can copy **\\o "1-3" \\h \\z \\u** and use it as the switches parameter.
 
-Note that **InsertTableOfContents** will only insert a TOC field, but
+Note that [DocumentBuilder.insert_table_of_contents()](./#str) will only insert a TOC field, but
 will not actually build the table of contents. The table of contents is built by
 Microsoft Word when the field is updated.
 

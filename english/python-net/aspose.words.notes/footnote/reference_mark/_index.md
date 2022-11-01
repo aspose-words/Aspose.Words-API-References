@@ -13,8 +13,8 @@ Gets/sets custom reference mark to be used for this footnote.
 Default value is **empty string** (System.String.Empty), meaning auto-numbered footnotes are used.
 
 
-If this property is set to **empty string** (System.String.Empty) or null, then [Footnote.is_auto](../is_auto/) property will automatically be set to true, 
-if set to anything else then [Footnote.is_auto](../is_auto/) will be set to false.
+If this property is set to **empty string** (System.String.Empty) or ``None``, then [Footnote.is_auto](../is_auto/) property will automatically be set to ``True``, 
+if set to anything else then [Footnote.is_auto](../is_auto/) will be set to ``False``.
 
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.

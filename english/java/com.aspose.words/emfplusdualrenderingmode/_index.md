@@ -18,25 +18,34 @@ Specifies how Aspose.Words should render EMF+ Dual metafiles.
 
 | Field | Description |
 | --- | --- |
-| [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. |
-| [EMF_PLUS](#EMF-PLUS) | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
 | [EMF](#EMF) | Aspose.Words renders EMF part of EMF+ Dual metafile. |
+| [EMF_PLUS](#EMF-PLUS) | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
+| [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int emfPlusDualRenderingMode)](#getName-int-) |  |
-| [toString(int emfPlusDualRenderingMode)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String emfPlusDualRenderingModeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int emfPlusDualRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### EMF_PLUS_WITH_FALLBACK {#EMF-PLUS-WITH-FALLBACK}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int emfPlusDualRenderingMode)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### EMF {#EMF}
 ```
-public static int EMF_PLUS_WITH_FALLBACK
+public static int EMF
 ```
 
 
-Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. If some of the EMF+ records are not supported then Aspose.Words renders EMF part of EMF+ Dual metafile.
+Aspose.Words renders EMF part of EMF+ Dual metafile.
 
 ### EMF_PLUS {#EMF-PLUS}
 ```
@@ -46,13 +55,13 @@ public static int EMF_PLUS
 
 Aspose.Words renders EMF+ part of EMF+ Dual metafile.
 
-### EMF {#EMF}
+### EMF_PLUS_WITH_FALLBACK {#EMF-PLUS-WITH-FALLBACK}
 ```
-public static int EMF
+public static int EMF_PLUS_WITH_FALLBACK
 ```
 
 
-Aspose.Words renders EMF part of EMF+ Dual metafile.
+Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. If some of the EMF+ records are not supported then Aspose.Words renders EMF part of EMF+ Dual metafile.
 
 ### length {#length}
 ```
@@ -60,6 +69,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String emfPlusDualRenderingModeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String emfPlusDualRenderingModeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| emfPlusDualRenderingModeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int emfPlusDualRenderingMode) {#getName-int-}
 ```
 public static String getName(int emfPlusDualRenderingMode)
@@ -72,6 +121,52 @@ public static String getName(int emfPlusDualRenderingMode)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | emfPlusDualRenderingMode | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int emfPlusDualRenderingMode)
 
 **Returns:**
 java.lang.String
-### fromName(String emfPlusDualRenderingModeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String emfPlusDualRenderingModeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String emfPlusDualRenderingModeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| emfPlusDualRenderingModeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

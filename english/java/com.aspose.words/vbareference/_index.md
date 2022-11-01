@@ -28,24 +28,48 @@ To learn more, visit the **Working with VBA Macros** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getLibId()](#getLibId--) | Gets a string value containing the identifier of an Automation type library. |
+| [getType()](#getType--) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### VbaReference() {#VbaReference--}
 ```
 public VbaReference()
 ```
 
 
-### getType() {#getType--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public abstract int getType()
+public boolean equals(Object arg0)
 ```
 
 
-Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getLibId() {#getLibId--}
 ```
 public abstract String getLibId()
@@ -59,3 +83,84 @@ Gets a string value containing the identifier of an Automation type library. Dep
 
 **Returns:**
 java.lang.String - A string value containing the identifier of an Automation type library.
+### getType() {#getType--}
+```
+public abstract int getType()
+```
+
+
+Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents.
+
+**Returns:**
+int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

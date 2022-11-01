@@ -1,7 +1,7 @@
 ﻿---
 title: theme_color property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the theme color in the applied color scheme that is associated with this Font object."
+description: "Gets or sets the theme color in the applied color scheme that is associated with this [Font](../) object."
 type: docs
 weight: 460
 url: /python-net/aspose.words/font/theme_color/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/font/theme_color/
 
 ## Font.theme_color property
 
-Gets or sets the theme color in the applied color scheme that is associated with this Font object.
+Gets or sets the theme color in the applied color scheme that is associated with this [Font](../) object.
+
 
 
 ### Examples

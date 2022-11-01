@@ -11,9 +11,9 @@ url: /python-net/aspose.words.markup/custompart/data/
 
 Contains the data of this custom part.
 
-This property is applicable only when [CustomPart.is_external](../is_external/) is ``false``.
+This property is applicable only when [CustomPart.is_external](../is_external/) is ``False``.
 
-The default value is an empty byte array. The value cannot be ``null``.
+The default value is an empty byte array. The value cannot be ``None``.
 
 
 

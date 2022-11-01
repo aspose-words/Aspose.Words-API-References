@@ -1,7 +1,7 @@
 ﻿---
 title: ImageData class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines an image for a shape."
+description: "Defines an image for a shape"
 type: docs
 weight: 170
 url: /python-net/aspose.words.drawing/imagedata/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/imagedata/
 ## ImageData class
 
 Defines an image for a shape.
+To learn more, visit the [Working with Images](https://docs.aspose.com/words/net/working-with-images/) documentation article.
+
+
 
 
 Use the [Shape.image_data](../shape/image_data/) property to access and modify the image inside a shape.
@@ -40,12 +43,12 @@ To store an image inside a shape use the [ImageData.set_image()](./set_image/#st
 | [crop_right](./crop_right/) | Defines the fraction of picture removal from the right side. |
 | [crop_top](./crop_top/) | Defines the fraction of picture removal from the top side. |
 | [gray_scale](./gray_scale/) | Determines whether a picture will display in grayscale mode. |
-| [has_image](./has_image/) | Returns true if the shape has image bytes or links an image. |
+| [has_image](./has_image/) | Returns ``True`` if the shape has image bytes or links an image. |
 | [image_bytes](./image_bytes/) | Gets or sets the raw bytes of the image stored in the shape. |
 | [image_size](./image_size/) | Gets the information about image size and resolution. |
 | [image_type](./image_type/) | Gets the type of the image. |
-| [is_link](./is_link/) | Returns true if the image is linked to the shape (when [ImageData.source_full_name](./source_full_name/) is specified). |
-| [is_link_only](./is_link_only/) | Returns true if the image is linked and not stored in the document. |
+| [is_link](./is_link/) | Returns ``True`` if the image is linked to the shape (when [ImageData.source_full_name](./source_full_name/) is specified). |
+| [is_link_only](./is_link_only/) | Returns ``True`` if the image is linked and not stored in the document. |
 | [source_full_name](./source_full_name/) | Gets or sets the path and name of the source file for the linked image. |
 | [title](./title/) | Defines the title of an image. |
 

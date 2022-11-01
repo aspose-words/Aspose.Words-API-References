@@ -3,7 +3,7 @@ title: start_editable_range method
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Marks the current position in the document as an editable range start."
 type: docs
-weight: 600
+weight: 630
 url: /python-net/aspose.words/documentbuilder/start_editable_range/
 ---
 

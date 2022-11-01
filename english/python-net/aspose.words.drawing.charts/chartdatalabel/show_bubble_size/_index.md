@@ -11,7 +11,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_bubble_size/
 
 Allows to specify if bubble size is to be displayed for the data labels on a chart. 
 Applies only to Bubble charts. 
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

@@ -1,7 +1,7 @@
 ﻿---
 title: Font class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains font attributes (font name, font size, color, and so on) for an object."
+description: "Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
 weight: 410
 url: /python-net/aspose.words/font/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/font/
 ## Font class
 
 Contains font attributes (font name, font size, color, and so on) for an object.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 You do not create instances of the [Font](./) class directly. You just use
@@ -28,14 +31,14 @@ You do not create instances of the [Font](./) class directly. You just use
 | [bidi](./bidi/) | Specifies whether the contents of this run shall have right-to-left characteristics. |
 | [bold](./bold/) | True if the font is formatted as bold. |
 | [bold_bi](./bold_bi/) | True if the right-to-left text is formatted as bold. |
-| [border](./border/) | Returns a Border object that specifies border for the font. |
+| [border](./border/) | Returns a [Border](../border/) object that specifies border for the font. |
 | [color](./color/) | Gets or sets the color of the font. |
 | [complex_script](./complex_script/) | Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run. |
 | [double_strike_through](./double_strike_through/) | True if the font is formatted as double strikethrough text. |
 | [emboss](./emboss/) | True if the font is formatted as embossed. |
 | [emphasis_mark](./emphasis_mark/) | Gets or sets the emphasis mark applied to this formatting. |
 | [engrave](./engrave/) | True if the font is formatted as engraved. |
-| [fill](./fill/) | Gets fill formatting for the Font. |
+| [fill](./fill/) | Gets fill formatting for the [Font](./). |
 | [hidden](./hidden/) | True if the font is formatted as hidden text. |
 | [highlight_color](./highlight_color/) | Gets or sets the highlight (marker) color. |
 | [italic](./italic/) | True if the font is formatted as italic. |
@@ -54,7 +57,7 @@ You do not create instances of the [Font](./) class directly. You just use
 | [outline](./outline/) | True if the font is formatted as outline. |
 | [position](./position/) | Gets or sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it. |
 | [scaling](./scaling/) | Gets or sets character width scaling in percent. |
-| [shading](./shading/) | Returns a Shading object that refers to the shading formatting for the font. |
+| [shading](./shading/) | Returns a [Shading](../shading/) object that refers to the shading formatting for the font. |
 | [shadow](./shadow/) | True if the font is formatted as shadowed. |
 | [size](./size/) | Gets or sets the font size in points. |
 | [size_bi](./size_bi/) | Gets or sets the font size in points used in a right-to-left document. |
@@ -68,12 +71,12 @@ You do not create instances of the [Font](./) class directly. You just use
 | [subscript](./subscript/) | True if the font is formatted as subscript. |
 | [superscript](./superscript/) | True if the font is formatted as superscript. |
 | [text_effect](./text_effect/) | Gets or sets the font animation effect. |
-| [theme_color](./theme_color/) | Gets or sets the theme color in the applied color scheme that is associated with this Font object. |
-| [theme_font](./theme_font/) | Gets or sets the theme font in the applied font scheme that is associated with this Font object. |
-| [theme_font_ascii](./theme_font_ascii/) | Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. |
-| [theme_font_bi](./theme_font_bi/) | Gets or sets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. |
-| [theme_font_far_east](./theme_font_far_east/) | Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object. |
-| [theme_font_other](./theme_font_other/) | Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. |
+| [theme_color](./theme_color/) | Gets or sets the theme color in the applied color scheme that is associated with this [Font](./) object. |
+| [theme_font](./theme_font/) | Gets or sets the theme font in the applied font scheme that is associated with this [Font](./) object. |
+| [theme_font_ascii](./theme_font_ascii/) | Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this [Font](./) object. |
+| [theme_font_bi](./theme_font_bi/) | Gets or sets the theme font in the applied font scheme that is associated with this [Font](./) object in a right-to-left language document. |
+| [theme_font_far_east](./theme_font_far_east/) | Gets or sets the East Asian theme font in the applied font scheme that is associated with this [Font](./) object. |
+| [theme_font_other](./theme_font_other/) | Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this [Font](./) object. |
 | [tint_and_shade](./tint_and_shade/) | Gets or sets a double value that lightens or darkens a color. |
 | [underline](./underline/) | Gets or sets the type of underline applied to the font. |
 | [underline_color](./underline_color/) | Gets or sets the color of the underline applied to the font. |

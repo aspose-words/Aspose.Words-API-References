@@ -1,7 +1,7 @@
 ﻿---
 title: VbaModuleCollection class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a collection of [VbaModule](../vbamodule/) objects."
+description: "Represents a collection of [VbaModule](../vbamodule/) objects"
 type: docs
 weight: 20
 url: /python-net/aspose.words.vba/vbamodulecollection/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.vba/vbamodulecollection/
 ## VbaModuleCollection class
 
 Represents a collection of [VbaModule](../vbamodule/) objects.
+To learn more, visit the [Working with VBA Macros](https://docs.aspose.com/words/net/working-with-vba-macros/) documentation article.
+
 
 
 

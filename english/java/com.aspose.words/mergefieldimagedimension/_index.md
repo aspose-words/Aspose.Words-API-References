@@ -31,10 +31,19 @@ To indicate that the image should be inserted with its original dimension during
 
 | Method | Description |
 | --- | --- |
-| [getValue()](#getValue--) | The value. |
-| [setValue(double value)](#setValue-double-) | The value. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getUnit()](#getUnit--) | The unit. |
+| [getValue()](#getValue--) | The value. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setUnit(int value)](#setUnit-int-) | The unit. |
+| [setValue(double value)](#setValue-double-) | The value. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MergeFieldImageDimension(double value) {#MergeFieldImageDimension-double-}
 ```
 public MergeFieldImageDimension(double value)
@@ -62,6 +71,41 @@ Initializes a new instance of this class.
 | value | double |  |
 | unit | int |  |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getUnit() {#getUnit--}
+```
+public int getUnit()
+```
+
+
+The unit.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants.
 ### getValue() {#getValue--}
 ```
 public double getValue()
@@ -72,6 +116,45 @@ The value. You should use a negative value to indicate that the original value o
 
 **Returns:**
 double - The corresponding  double  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setUnit(int value) {#setUnit-int-}
+```
+public void setUnit(int value)
+```
+
+
+The unit.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants. |
+
 ### setValue(double value) {#setValue-double-}
 ```
 public void setValue(double value)
@@ -85,26 +168,48 @@ The value. You should use a negative value to indicate that the original value o
 | --- | --- | --- |
 | value | double | The corresponding  double  value. |
 
-### getUnit() {#getUnit--}
+### toString() {#toString--}
 ```
-public int getUnit()
+public String toString()
 ```
 
 
-The unit.
+
 
 **Returns:**
-int - The corresponding  int  value. The returned value is one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants.
-### setUnit(int value) {#setUnit-int-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setUnit(int value)
+public final void wait()
 ```
 
 
-The unit.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

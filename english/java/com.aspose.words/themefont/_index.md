@@ -18,26 +18,27 @@ Specifies the types of theme font names for document themes. Specifies a theme f
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | No theme font. |
 | [MAJOR](#MAJOR) | Major theme font. |
 | [MINOR](#MINOR) | Minor theme font. |
+| [NONE](#NONE) | No theme font. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int themeFont)](#getName-int-) |  |
-| [toString(int themeFont)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String themeFontName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int themeFont)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-No theme font.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int themeFont)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### MAJOR {#MAJOR}
 ```
 public static int MAJOR
@@ -54,12 +55,60 @@ public static int MINOR
 
 Minor theme font.
 
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+No theme font.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String themeFontName) {#fromName-java.lang.String-}
+```
+public static int fromName(String themeFontName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| themeFontName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int themeFont) {#getName-int-}
 ```
 public static String getName(int themeFont)
@@ -72,6 +121,52 @@ public static String getName(int themeFont)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | themeFont | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int themeFont)
 
 **Returns:**
 java.lang.String
-### fromName(String themeFontName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String themeFontName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String themeFontName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| themeFontName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

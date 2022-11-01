@@ -13,7 +13,7 @@ is_root: true
 | Module | Description |
 | --- | --- |
 | [aspose.words](./aspose.words/) | The **aspose.words** module provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word. |
-| [aspose.words.buildingblocks](./aspose.words.buildingblocks/) | The **aspose.words.buildingblocks** module provides classes that allow to access  and use AutoText, AutoCorrect entries and Building Blocks in a document. |
+| [aspose.words.buildingblocks](./aspose.words.buildingblocks/) | The **aspose.words.buildingblocks** module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document. |
 | [aspose.words.comparing](./aspose.words.comparing/) | The **aspose.words.comparing** module provides classes and enumerations that allow to specify additional options when comparing documents. |
 | [aspose.words.digitalsignatures](./aspose.words.digitalsignatures/) | The **aspose.words.digitalsignatures** module provides classes to sign documents and verify signatures. |
 | [aspose.words.drawing](./aspose.words.drawing/) | The **aspose.words.drawing** module provides classes that allow to create and modify drawing objects. |
@@ -22,7 +22,7 @@ is_root: true
 | [aspose.words.fields](./aspose.words.fields/) | The **aspose.words.fields** module contains classes that represent Microsoft Word fields in a document. |
 | [aspose.words.fonts](./aspose.words.fonts/) | The **aspose.words.fonts** module provides classes and enumerations to access information about fonts used in a document. |
 | [aspose.words.framesets](./aspose.words.framesets/) | The **aspose.words.framesets** module provides classes and enumerations that represents a frames page or a single frame on a frames page. |
-| [aspose.words.layout](./aspose.words.layout/) | The **aspose.words.layout** module provides classes that allow to access  information such as on what page and where on a page particular document elements  are positioned, when the document is formatted into pages. |
+| [aspose.words.layout](./aspose.words.layout/) | The **aspose.words.layout** module provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages. |
 | [aspose.words.lists](./aspose.words.lists/) | The **aspose.words.lists** module contains classes for working with bulleted and numbered lists defined in a document. |
 | [aspose.words.loading](./aspose.words.loading/) | The **aspose.words.loading** module provides classes and enumerations that allow to specify additional options when loading documents. |
 | [aspose.words.mailmerging](./aspose.words.mailmerging/) | The **aspose.words.mailmerging** module contains classes of the "original" mail merge reporting engine. |
@@ -32,7 +32,7 @@ is_root: true
 | [aspose.words.properties](./aspose.words.properties/) | The **aspose.words.properties** module provides classes to work with custom and built-in document properties such as title, keywords, company etc. |
 | [aspose.words.rendering](./aspose.words.rendering/) | The **aspose.words.rendering** module provides classes that allow to customize printing or rendering of documents. |
 | [aspose.words.replacing](./aspose.words.replacing/) | The **aspose.words.replacing** module provides classes to manipulate with find/replace operations over the document tree. |
-| [aspose.words.reporting](./aspose.words.reporting/) | This module contains classes of the Aspose.Words' new reporting engine that  supports report templates marked up with a language based on the LINQ Method Syntax. |
+| [aspose.words.reporting](./aspose.words.reporting/) | This module contains classes of the Aspose.Words' new reporting engine that supports report templates marked up with a language based on the LINQ Method Syntax. |
 | [aspose.words.saving](./aspose.words.saving/) | The **aspose.words.saving** module provides classes and enumerations that allow to specify additional options for saving or converting documents. |
 | [aspose.words.settings](./aspose.words.settings/) | The **aspose.words.settings** module contains classes and enums that are used when specifying various settings and options stored in a document. These are mail merge, write protection, compatibility and other settings. |
 | [aspose.words.shaping](./aspose.words.shaping/) | The **aspose.words.shaping** module contains classes to provide support for OpenType features using external text shaping engines. |

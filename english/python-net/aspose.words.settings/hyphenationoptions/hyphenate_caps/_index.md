@@ -10,7 +10,7 @@ url: /python-net/aspose.words.settings/hyphenationoptions/hyphenate_caps/
 ## HyphenationOptions.hyphenate_caps property
 
 Gets or sets value determining whether words written in all capital letters are hyphenated.
-Default value for this property is **true**.
+Default value for this property is ``True``.
 
 
 

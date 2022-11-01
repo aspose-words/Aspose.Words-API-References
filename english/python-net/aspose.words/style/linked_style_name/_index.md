@@ -1,7 +1,7 @@
 ﻿---
 title: linked_style_name property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets the name of the Style linked to this one"
+description: "Gets the name of the [Style](../) linked to this one"
 type: docs
 weight: 80
 url: /python-net/aspose.words/style/linked_style_name/
@@ -9,7 +9,8 @@ url: /python-net/aspose.words/style/linked_style_name/
 
 ## Style.linked_style_name property
 
-Gets the name of the Style linked to this one. Returns Empty string if no styles are linked.
+Gets the name of the [Style](../) linked to this one. Returns empty string if no styles are linked.
+
 
 
 ### Examples

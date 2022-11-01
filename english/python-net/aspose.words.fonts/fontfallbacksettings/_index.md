@@ -1,7 +1,7 @@
 ﻿---
 title: FontFallbackSettings class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Specifies font fallback mechanism settings."
+description: "Specifies font fallback mechanism settings"
 type: docs
 weight: 70
 url: /python-net/aspose.words.fonts/fontfallbacksettings/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.fonts/fontfallbacksettings/
 ## FontFallbackSettings class
 
 Specifies font fallback mechanism settings.
+To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/net/working-with-fonts/) documentation article.
+
+
 
 
 By default fallback settings are initialized with predefined settings which mimics the Microsoft Word fallback.

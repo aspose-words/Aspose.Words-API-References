@@ -1,7 +1,7 @@
 ﻿---
 title: TextBox class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Defines attributes that specify how a text is displayed inside a shape."
+description: "Defines attributes that specify how a text is displayed inside a shape"
 type: docs
 weight: 370
 url: /python-net/aspose.words.drawing/textbox/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing/textbox/
 ## TextBox class
 
 Defines attributes that specify how a text is displayed inside a shape.
+To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/net/working-with-shapes/) documentation article.
+
+
 
 
 Use the [Shape.text_box](../shape/text_box/) property to access text properties of a shape.
@@ -28,9 +31,9 @@ You do not create instances of the [TextBox](./) class directly.
 | [internal_margin_right](./internal_margin_right/) | Specifies the inner right margin in points for a shape. |
 | [internal_margin_top](./internal_margin_top/) | Specifies the inner top margin in points for a shape. |
 | [layout_flow](./layout_flow/) | Determines the flow of the text layout in a shape. |
-| [next](./next/) | Returns or sets a TextBox that represents the next TextBox in a sequence of shapes. |
-| [parent](./parent/) | Gets a parent shape for the TextBox. |
-| [previous](./previous/) | Returns a TextBox that represents the previous TextBox in a sequence of shapes. |
+| [next](./next/) | Returns or sets a [TextBox](./) that represents the next [TextBox](./) in a sequence of shapes. |
+| [parent](./parent/) | Gets a parent shape for the [TextBox](./). |
+| [previous](./previous/) | Returns a [TextBox](./) that represents the previous [TextBox](./) in a sequence of shapes. |
 | [text_box_wrap_mode](./text_box_wrap_mode/) | Determines how text wraps inside a shape. |
 | [vertical_anchor](./vertical_anchor/) | Specifies the vertical alignment of the text within a shape. |
 
@@ -38,8 +41,8 @@ You do not create instances of the [TextBox](./) class directly.
 
 | Name | Description |
 | --- | --- |
-|[ break_forward_link()](./break_forward_link/#default) | Breaks the link to the next TextBox. |
-|[ is_valid_link_target(target)](./is_valid_link_target/#textbox) | Determines whether this TextBox can be linked to the target Textbox. |
+|[ break_forward_link()](./break_forward_link/#default) | Breaks the link to the next [TextBox](./). |
+|[ is_valid_link_target(target)](./is_valid_link_target/#textbox) | Determines whether this [TextBox](./) can be linked to the target [TextBox](./). |
 
 ### Examples
 

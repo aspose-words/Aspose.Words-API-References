@@ -9,8 +9,8 @@ url: /python-net/aspose.words.markup/structureddocumenttag/building_block_galler
 
 ## StructuredDocumentTag.building_block_gallery property
 
-Specifies type of building block for this **SDT**. 
-Can not be null.
+Specifies type of building block for this **SDT**.
+Can not be ``None``.
 
 
 Accessing this property will only work for [SdtType.BUILDING_BLOCK_GALLERY](../../sdttype/#BUILDING_BLOCK_GALLERY) and

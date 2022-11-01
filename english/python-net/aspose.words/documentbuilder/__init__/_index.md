@@ -17,7 +17,7 @@ def __init__(self):
     ...
 ```
 
-Creates a new **DocumentBuilder** object and attaches it to a new [DocumentBuilder.document](../document/) object.
+Creates a new [DocumentBuilder](../) object and attaches it to a new [Document](../../document/) object.
 
 
 
@@ -35,7 +35,7 @@ def __init__(self, doc: aspose.words.Document):
 | --- | --- | --- |
 | doc | [Document](../../document/) |  |
 
-Creates a new **DocumentBuilder** object, attaches to the specified [DocumentBuilder.document](../document/) object.
+Creates a new [DocumentBuilder](../) object, attaches to the specified [Document](../../document/) object.
 The cursor is positioned at the beginning of the document.
 
 

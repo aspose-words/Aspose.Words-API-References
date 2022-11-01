@@ -1,7 +1,7 @@
 ﻿---
 title: ListFormat class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to control what list formatting is applied to a paragraph."
+description: "Allows to control what list formatting is applied to a paragraph"
 type: docs
 weight: 30
 url: /python-net/aspose.words.lists/listformat/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.lists/listformat/
 ## ListFormat class
 
 Allows to control what list formatting is applied to a paragraph.
+To learn more, visit the [Working with Lists](https://docs.aspose.com/words/net/working-with-lists/) documentation article.
+
+
 
 
 A paragraph in a Microsoft Word document can be bulleted or numbered.

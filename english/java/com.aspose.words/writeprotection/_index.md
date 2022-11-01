@@ -29,11 +29,45 @@ You do not create instances of this class directly. You access document protecti
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getReadOnlyRecommended()](#getReadOnlyRecommended--) | Specifies whether the document author has recommended that the document be opened as read-only. |
-| [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean-) | Specifies whether the document author has recommended that the document be opened as read-only. |
-| [setPassword(String password)](#setPassword-java.lang.String-) | Sets the write protection password for the document. |
-| [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the document was protected with. |
+| [hashCode()](#hashCode--) |  |
 | [isWriteProtected()](#isWriteProtected--) | Returns true when a write protection password is set. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setPassword(String password)](#setPassword-java.lang.String-) | Sets the write protection password for the document. |
+| [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean-) | Specifies whether the document author has recommended that the document be opened as read-only. |
+| [toString()](#toString--) |  |
+| [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the document was protected with. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getReadOnlyRecommended() {#getReadOnlyRecommended--}
 ```
 public boolean getReadOnlyRecommended()
@@ -44,18 +78,41 @@ Specifies whether the document author has recommended that the document be opene
 
 **Returns:**
 boolean - The corresponding  boolean  value.
-### setReadOnlyRecommended(boolean value) {#setReadOnlyRecommended-boolean-}
+### hashCode() {#hashCode--}
 ```
-public void setReadOnlyRecommended(boolean value)
+public native int hashCode()
 ```
 
 
-Specifies whether the document author has recommended that the document be opened as read-only.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+
+**Returns:**
+int
+### isWriteProtected() {#isWriteProtected--}
+```
+public boolean isWriteProtected()
+```
+
+
+Returns true when a write protection password is set.
+
+**Returns:**
+boolean - True when a write protection password is set.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### setPassword(String password) {#setPassword-java.lang.String-}
 ```
@@ -72,6 +129,29 @@ If a password is set, Microsoft Word will require the user to enter it or open t
 | --- | --- | --- |
 | password | java.lang.String | The password to set. Cannot be null, but can be an empty string. |
 
+### setReadOnlyRecommended(boolean value) {#setReadOnlyRecommended-boolean-}
+```
+public void setReadOnlyRecommended(boolean value)
+```
+
+
+Specifies whether the document author has recommended that the document be opened as read-only.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
 ### validatePassword(String password) {#validatePassword-java.lang.String-}
 ```
 public boolean validatePassword(String password)
@@ -87,13 +167,38 @@ Returns true if the specified password is the same as the write-protection passw
 
 **Returns:**
 boolean
-### isWriteProtected() {#isWriteProtected--}
+### wait() {#wait--}
 ```
-public boolean isWriteProtected()
+public final void wait()
 ```
 
 
-Returns true when a write protection password is set.
 
-**Returns:**
-boolean - True when a write protection password is set.
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -26,10 +26,19 @@ Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Wor
 
 | Method | Description |
 | --- | --- |
-| [getName(int autoFitBehavior)](#getName-int-) |  |
-| [toString(int autoFitBehavior)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String autoFitBehaviorName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int autoFitBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int autoFitBehavior)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO_FIT_TO_CONTENTS {#AUTO-FIT-TO-CONTENTS}
 ```
 public static int AUTO_FIT_TO_CONTENTS
@@ -66,6 +75,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String autoFitBehaviorName) {#fromName-java.lang.String-}
+```
+public static int fromName(String autoFitBehaviorName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| autoFitBehaviorName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int autoFitBehavior) {#getName-int-}
 ```
 public static String getName(int autoFitBehavior)
@@ -78,6 +127,52 @@ public static String getName(int autoFitBehavior)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | autoFitBehavior | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -96,9 +191,17 @@ public static String toString(int autoFitBehavior)
 
 **Returns:**
 java.lang.String
-### fromName(String autoFitBehaviorName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String autoFitBehaviorName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -107,17 +210,19 @@ public static int fromName(String autoFitBehaviorName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| autoFitBehaviorName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -1,7 +1,7 @@
 ﻿---
 title: RevisionGroup class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a group of sequential [Revision](../revision/) objects."
+description: "Represents a group of sequential [Revision](../revision/) objects"
 type: docs
 weight: 920
 url: /python-net/aspose.words/revisiongroup/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words/revisiongroup/
 ## RevisionGroup class
 
 Represents a group of sequential [Revision](../revision/) objects.
+To learn more, visit the [Track Changes in a Document](https://docs.aspose.com/words/net/track-changes-in-a-document/) documentation article.
+
 
 
 

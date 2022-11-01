@@ -9,7 +9,7 @@ url: /python-net/aspose.words.drawing/oleformat/ole_control/
 
 ## OleFormat.ole_control property
 
-Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX control. Otherwise this property is null.
+Gets [OleFormat.ole_control](./) objects if this OLE object is an ActiveX control. Otherwise this property is ``None``.
 
 
 

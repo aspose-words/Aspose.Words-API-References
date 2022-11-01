@@ -3,7 +3,7 @@ title: save_format property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies the format in which the document will be saved if this save options object is used."
 type: docs
-weight: 120
+weight: 110
 url: /python-net/aspose.words.saving/saveoptions/save_format/
 ---
 

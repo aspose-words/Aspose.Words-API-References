@@ -1,7 +1,7 @@
 ﻿---
 title: theme_font_ascii property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object."
+description: "Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this [Font](../) object."
 type: docs
 weight: 480
 url: /python-net/aspose.words/font/theme_font_ascii/
@@ -10,7 +10,8 @@ url: /python-net/aspose.words/font/theme_font_ascii/
 ## Font.theme_font_ascii property
 
 Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127)
-in the applied font scheme that is associated with this Font object.
+in the applied font scheme that is associated with this [Font](../) object.
+
 
 
 ### Examples

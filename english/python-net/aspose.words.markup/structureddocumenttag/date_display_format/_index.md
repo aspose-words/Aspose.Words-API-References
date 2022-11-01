@@ -10,7 +10,7 @@ url: /python-net/aspose.words.markup/structureddocumenttag/date_display_format/
 ## StructuredDocumentTag.date_display_format property
 
 String that represents the format in which dates are displayed.
-Can not be null.
+Can not be ``None``.
 
 
 Accessing this property will only work for [SdtType.DATE](../../sdttype/#DATE) SDT type.

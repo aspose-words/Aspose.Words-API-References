@@ -3,7 +3,7 @@ title: create_note_hyperlinks property
 second_title: Aspose.Words for Python via .NET API Reference
 description: "Specifies whether to convert footnote/endnote references in main text story into active hyperlinks"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/pdfsaveoptions/create_note_hyperlinks/
 ---
 
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.saving/pdfsaveoptions/create_note_hyperlinks/
 
 Specifies whether to convert footnote/endnote references in main text story into active hyperlinks.
 When clicked the hyperlink will lead to the corresponding footnote/endnote.
-Default is ``false``.
+Default is ``False``.
 
 
 

@@ -1,7 +1,7 @@
 ﻿---
 title: ChartLegendEntry class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a chart legend entry."
+description: "Represents a chart legend entry"
 type: docs
 weight: 200
 url: /python-net/aspose.words.drawing.charts/chartlegendentry/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.drawing.charts/chartlegendentry/
 ## ChartLegendEntry class
 
 Represents a chart legend entry.
+To learn more, visit the [Working with Charts](https://docs.aspose.com/words/net/working-with-charts/) documentation article.
+
+
 
 
 A legend entry corresponds to a specific chart series or trendline.

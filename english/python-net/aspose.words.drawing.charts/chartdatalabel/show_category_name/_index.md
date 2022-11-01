@@ -10,7 +10,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabel/show_category_name/
 ## ChartDataLabel.show_category_name property
 
 Allows to specify if category name is to be displayed for the data labels on a chart. 
-Default value is false.
+Default value is ``False``.
+
 
 
 ### Examples

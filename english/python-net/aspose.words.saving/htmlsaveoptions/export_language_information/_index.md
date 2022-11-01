@@ -10,10 +10,10 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_language_information
 ## HtmlSaveOptions.export_language_information property
 
 Specifies whether language information is exported to HTML, MHTML or EPUB.
-Default is ``false``.
+Default is ``False``.
 
 
-When this property is set to ``true`` Aspose.Words outputs **lang** HTML attribute on the document
+When this property is set to ``True`` Aspose.Words outputs **lang** HTML attribute on the document
 elements that specify language. This can be needed to preserve language related semantics.
 
 

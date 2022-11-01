@@ -1,19 +1,19 @@
 ﻿---
 title: pretty_format property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "When ``true``, pretty formats output where applicable"
+description: "When ``True``, pretty formats output where applicable"
 type: docs
-weight: 100
+weight: 90
 url: /python-net/aspose.words.saving/saveoptions/pretty_format/
 ---
 
 ## SaveOptions.pretty_format property
 
-When ``true``, pretty formats output where applicable. 
-Default value is **false**.
+When ``True``, pretty formats output where applicable.
+Default value is ``False``.
 
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. 
+Set to ``True`` to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable.
 Useful for testing or debugging.
 
 

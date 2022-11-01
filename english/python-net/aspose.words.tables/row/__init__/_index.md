@@ -1,7 +1,7 @@
 ﻿---
 title: Row constructor
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Initializes a new instance of the Row class."
+description: "Initializes a new instance of the [Row](../) class."
 type: docs
 weight: 10
 url: /python-net/aspose.words.tables/row/__init__/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words.tables/row/__init__/
 
 ## Row(doc) {#documentbase}
 
-Initializes a new instance of the **Row** class.
+Initializes a new instance of the [Row](../) class.
 
 
 
@@ -22,10 +22,10 @@ def __init__(self, doc: aspose.words.DocumentBase):
 | --- | --- | --- |
 | doc | [DocumentBase](../../../aspose.words/documentbase/) |  |
 
-When **Row** is created, it belongs to the specified document, but is not
-yet part of the document and **ParentNode** is null.
+When [Row](../) is created, it belongs to the specified document, but is not
+yet part of the document and [Node.parent_node](../../../aspose.words/node/parent_node/) is ``None``.
 
-To append **Row** to the document use InsertAfter or InsertBefore
+To append [Row](../) to the document use [CompositeNode.insert_after()](../../../aspose.words/compositenode/insert_after/#node_node) or [CompositeNode.insert_before()](../../../aspose.words/compositenode/insert_before/#node_node)
 on the table where you want the row inserted.
 
 

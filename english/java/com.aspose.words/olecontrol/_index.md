@@ -20,18 +20,42 @@ To learn more, visit the **Working with Ole Objects** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [isForms2OleControl()](#isForms2OleControl--) | Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getName()](#getName--) | Gets name of the ActiveX control. |
-### isForms2OleControl() {#isForms2OleControl--}
+| [hashCode()](#hashCode--) |  |
+| [isForms2OleControl()](#isForms2OleControl--) | Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean isForms2OleControl()
+public boolean equals(Object arg0)
 ```
 
 
-Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean - True if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
@@ -42,3 +66,84 @@ Gets name of the ActiveX control.
 
 **Returns:**
 java.lang.String - Name of the ActiveX control.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isForms2OleControl() {#isForms2OleControl--}
+```
+public boolean isForms2OleControl()
+```
+
+
+Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+
+**Returns:**
+boolean - True if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

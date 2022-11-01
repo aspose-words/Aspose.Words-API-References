@@ -1,7 +1,7 @@
 ﻿---
 title: Comment class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Represents a container for text of a comment."
+description: "Represents a container for text of a comment"
 type: docs
 weight: 160
 url: /python-net/aspose.words/comment/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words/comment/
 ## Comment class
 
 Represents a container for text of a comment.
+To learn more, visit the [Working with Comments](https://docs.aspose.com/words/net/working-with-comments/) documentation article.
+
+
 
 
 A comment is an annotation which is anchored to a region of text or to a position in text. 
@@ -34,14 +37,14 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [Comment(doc)](./__init__/#documentbase) | Initializes a new instance of the **Comment** class. |
-| [Comment(doc, author, initial, date_time)](./__init__/#documentbase_str_str_datetime) | Initializes a new instance of the **Comment** class. |
+| [Comment(doc)](./__init__/#documentbase) | Initializes a new instance of the [Comment](./) class. |
+| [Comment(doc, author, initial, date_time)](./__init__/#documentbase_str_str_datetime) | Initializes a new instance of the [Comment](./) class. |
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [ancestor](./ancestor/) | Returns the parent Comment object. Returns null for top-level comments. |
+| [ancestor](./ancestor/) | Returns the parent [Comment](./) object. Returns ``None`` for top-level comments. |
 | [author](./author/) | Returns or sets the author name for a comment. |
 | [child_nodes](../compositenode/child_nodes/) | Gets all immediate child nodes of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
@@ -52,25 +55,25 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | [first_child](../compositenode/first_child/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [first_paragraph](../inlinestory/first_paragraph/) | Gets the first paragraph in the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [font](../inlinestory/font/) | Provides access to the font formatting of the anchor character of this object.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [has_child_nodes](../compositenode/has_child_nodes/) | Returns true if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [has_child_nodes](../compositenode/has_child_nodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [id](./id/) | Gets the comment identifier. |
 | [initial](./initial/) | Returns or sets the initials of the user associated with a specific comment. |
-| [is_composite](../node/is_composite/) | Returns true if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [is_composite](../node/is_composite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [is_delete_revision](../inlinestory/is_delete_revision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [is_insert_revision](../inlinestory/is_insert_revision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [is_move_from_revision](../inlinestory/is_move_from_revision/) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [is_move_to_revision](../inlinestory/is_move_to_revision/) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
+| [is_move_from_revision](../inlinestory/is_move_from_revision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
+| [is_move_to_revision](../inlinestory/is_move_to_revision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [last_child](../compositenode/last_child/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [last_paragraph](../inlinestory/last_paragraph/) | Gets the last paragraph in the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [next_sibling](../node/next_sibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
-| [node_type](./node_type/) | Returns **NodeType.Comment**. |
+| [node_type](./node_type/) | Returns [NodeType.COMMENT](../nodetype/#COMMENT). |
 | [paragraphs](../inlinestory/paragraphs/) | Gets a collection of paragraphs that are immediate children of the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [parent_node](../node/parent_node/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |
 | [parent_paragraph](../inlinestory/parent_paragraph/) | Retrieves the parent [Paragraph](../paragraph/) of this node.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [previous_sibling](../node/previous_sibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../node/)) |
-| [range](../node/range/) | Returns a **Range** object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
+| [range](../node/range/) | Returns a [Range](../range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../node/)) |
 | [replies](./replies/) | Returns a collection of [Comment](./) objects that are immediate children of the specified comment. |
-| [story_type](./story_type/) | Returns **StoryType.Comments**. |
+| [story_type](./story_type/) | Returns [StoryType.COMMENTS](../storytype/#COMMENTS). |
 | [tables](../inlinestory/tables/) | Gets a collection of tables that are immediate children of the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 
 ### Methods
@@ -100,7 +103,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 |[ remove_reply(reply)](./remove_reply/#comment) | Removes the specified reply to this comment. |
 |[ remove_smart_tags()](../compositenode/remove_smart_tags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ select_nodes(xpath)](../compositenode/select_nodes/#str) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first Node that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ select_single_node(xpath)](../compositenode/select_single_node/#str) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ set_text(text)](./set_text/#str) | This is a convenience method that allows to easily set text of the comment. |
 |[ to_string(save_format)](../node/to_string/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |
 |[ to_string(save_options)](../node/to_string/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |

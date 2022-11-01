@@ -1,7 +1,7 @@
 ﻿---
 title: story_type property
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Returns StoryType.Comments."
+description: "Returns [StoryType.COMMENTS](../../storytype/#COMMENTS)."
 type: docs
 weight: 100
 url: /python-net/aspose.words/comment/story_type/
@@ -9,7 +9,7 @@ url: /python-net/aspose.words/comment/story_type/
 
 ## Comment.story_type property
 
-Returns **StoryType.Comments**.
+Returns [StoryType.COMMENTS](../../storytype/#COMMENTS).
 
 
 

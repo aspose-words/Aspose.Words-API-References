@@ -1,7 +1,7 @@
 ﻿---
 title: LoadOptions class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object."
+description: "Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 110
 url: /python-net/aspose.words.loading/loadoptions/
@@ -11,6 +11,8 @@ url: /python-net/aspose.words.loading/loadoptions/
 
 Allows to specify additional options (such as password or base URI) when
 loading a document into a [Document](../../aspose.words/document/) object.
+To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/net/specify-load-options/) documentation article.
+
 
 
 
@@ -25,20 +27,19 @@ loading a document into a [Document](../../aspose.words/document/) object.
 
 | Name | Description |
 | --- | --- |
-| [base_uri](./base_uri/) | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null. |
+| [base_uri](./base_uri/) | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be ``None`` or empty string. Default is ``None``. |
 | [convert_metafiles_to_png](./convert_metafiles_to_png/) | Gets or sets whether to convert metafile (Aspose.FileFormat.Wmf or Aspose.FileFormat.Emf) images to Aspose.FileFormat.Png image format. |
 | [convert_shape_to_office_math](./convert_shape_to_office_math/) | Gets or sets whether to convert shapes with EquationXML to Office Math objects. |
-| [encoding](./encoding/) | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null. |
-| [flat_opc_xml_mapping_only](./flat_opc_xml_mapping_only/) | Gets or sets value determining which document formats are allowed to be mapped by [StructuredDocumentTag.xml_mapping](../../aspose.words.markup/structureddocumenttag/xml_mapping/). By default only [LoadFormat.FLAT_OPC](../../aspose.words/loadformat/#FLAT_OPC) document format is allowed to be mapped. |
+| [encoding](./encoding/) | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be ``None``. Default is ``None``. |
 | [font_settings](./font_settings/) | Allows to specify document font settings. |
 | [language_preferences](./language_preferences/) | Gets language preferences that will be used when document is loading. |
 | [load_format](./load_format/) | Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../aspose.words/loadformat/#AUTO). |
 | [msw_version](./msw_version/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD2019](../../aspose.words.settings/mswordversion/#WORD2019) |
-| [password](./password/) | Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null. |
-| [preserve_include_picture_field](./preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false. |
+| [password](./password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``. |
+| [preserve_include_picture_field](./preserve_include_picture_field/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``. |
 | [progress_callback](./progress_callback/) | Called during loading a document and accepts data about loading progress. |
 | [resource_loading_callback](./resource_loading_callback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
-| [temp_folder](./temp_folder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used. |
+| [temp_folder](./temp_folder/) | Allows to use temporary files when reading document. By default this property is ``None`` and no temporary files are used. |
 | [update_dirty_fields](./update_dirty_fields/) | Specifies whether to update the fields with the ``dirty`` attribute. |
 | [warning_callback](./warning_callback/) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 

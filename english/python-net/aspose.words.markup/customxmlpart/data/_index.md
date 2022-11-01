@@ -11,7 +11,7 @@ url: /python-net/aspose.words.markup/customxmlpart/data/
 
 Gets or sets the XML content of this Custom XML Data Storage Part.
 
-The default value is an empty byte array. The value cannot be ``null``.
+The default value is an empty byte array. The value cannot be ``None``.
 
 
 

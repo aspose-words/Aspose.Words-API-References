@@ -27,9 +27,18 @@ To learn more, visit the **Programming with Documents** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAll()](#getAll--) | Gets a set with all the pages of the document in their original order. |
+| [getClass()](#getClass--) |  |
 | [getEven()](#getEven--) | Gets a set with all the even pages of the document in their original order. |
 | [getOdd()](#getOdd--) | Gets a set with all the odd pages of the document in their original order. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PageSet(int page) {#PageSet-int-}
 ```
 public PageSet(int page)
@@ -69,6 +78,21 @@ Creates a page set based on ranges.
 | --- | --- | --- |
 | ranges | [PageRange\[\]](../../com.aspose.words/pagerange) | Array of page ranges. If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document. |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAll() {#getAll--}
 ```
 public static PageSet getAll()
@@ -79,6 +103,16 @@ Gets a set with all the pages of the document in their original order.
 
 **Returns:**
 [PageSet](../../com.aspose.words/pageset) - A set with all the pages of the document in their original order.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getEven() {#getEven--}
 ```
 public static PageSet getEven()
@@ -99,3 +133,74 @@ Gets a set with all the odd pages of the document in their original order. Odd p
 
 **Returns:**
 [PageSet](../../com.aspose.words/pageset) - A set with all the odd pages of the document in their original order.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

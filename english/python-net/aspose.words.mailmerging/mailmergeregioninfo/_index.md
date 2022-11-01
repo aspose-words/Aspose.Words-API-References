@@ -1,7 +1,7 @@
 ﻿---
 title: MailMergeRegionInfo class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Contains information about a mail merge region."
+description: "Contains information about a mail merge region"
 type: docs
 weight: 100
 url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/
@@ -10,6 +10,9 @@ url: /python-net/aspose.words.mailmerging/mailmergeregioninfo/
 ## MailMergeRegionInfo class
 
 Contains information about a mail merge region.
+To learn more, visit the [Mail Merge and Reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) documentation article.
+
+
 
 
 ### Properties

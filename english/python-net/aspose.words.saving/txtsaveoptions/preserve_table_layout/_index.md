@@ -10,7 +10,7 @@ url: /python-net/aspose.words.saving/txtsaveoptions/preserve_table_layout/
 ## TxtSaveOptions.preserve_table_layout property
 
 Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format.
-The default value is **false**.
+The default value is ``False``.
 
 
 
@@ -51,8 +51,8 @@ with open(ARTIFACTS_DIR + "TxtSaveOptions.preserve_table_layout.txt", "rb") as f
 
 if preserve_table_layout:
     self.assertEqual(
-        "Row 1, cell 1                                            Row 1, cell 2\r\n" +
-        "Row 2, cell 1                                            Row 2, cell 2\r\n\r\n", doc_text)
+        "Row 1, cell 1                                           Row 1, cell 2\r\n" +
+        "Row 2, cell 1                                           Row 2, cell 2\r\n\r\n", doc_text)
 else:
     self.assertEqual(
         "Row 1, cell 1\r" +

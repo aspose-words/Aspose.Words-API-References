@@ -1,7 +1,7 @@
 ﻿---
 title: PageSavingArgs class
 second_title: Aspose.Words for Python via .NET API Reference
-description: "Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event."
+description: "Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event"
 type: docs
 weight: 510
 url: /python-net/aspose.words.saving/pagesavingargs/
@@ -10,6 +10,8 @@ url: /python-net/aspose.words.saving/pagesavingargs/
 ## PageSavingArgs class
 
 Provides data for the [IPageSavingCallback.page_saving()](../ipagesavingcallback/page_saving/#pagesavingargs) event.
+To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
+
 
 
 

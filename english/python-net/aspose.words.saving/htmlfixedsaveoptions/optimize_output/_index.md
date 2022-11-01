@@ -12,9 +12,10 @@ url: /python-net/aspose.words.saving/htmlfixedsaveoptions/optimize_output/
 Flag indicates whether it is required to optimize output.
 If this flag is set redundant nested canvases and empty canvases are removed,
 also neighbor glyphs with the same formating are concatenated.
-Note: The accuracy of the content display may be affected if this property is set to true.
+Note: The accuracy of the content display may be affected if this property is set to ``True``.
 
-Default is true.
+Default is ``True``.
+
 
 
 ### Examples

@@ -10,7 +10,7 @@ url: /python-net/aspose.words.comparing/compareoptions/ignore_dml_unique_id/
 ## CompareOptions.ignore_dml_unique_id property
 
 Specifies whether to ignore difference in DrawingML unique Id. 
-Default value is **false**.
+Default value is ``False``.
 
 
 

@@ -10,7 +10,8 @@ url: /python-net/aspose.words.layout/revisionoptions/show_original_revision/
 ## RevisionOptions.show_original_revision property
 
 Allows to specify whether the original text should be shown instead of revised one.
-Default value is False.
+Default value is ``False``.
+
 
 
 ### Examples
