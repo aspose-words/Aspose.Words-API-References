@@ -13,14 +13,14 @@ public interface DataTableEventListener
 
 | Method | Description |
 | --- | --- |
-| [onDataRowChanged(System.Data.DataRow row)](#onDataRowChanged-com.aspose.words.net.System.Data.DataRow-) |  |
-| [onDataRowInserted(System.Data.DataRow row)](#onDataRowInserted-com.aspose.words.net.System.Data.DataRow-) |  |
-| [onDataRowDeleted(System.Data.DataRow row)](#onDataRowDeleted-com.aspose.words.net.System.Data.DataRow-) |  |
-| [onDataColumnInserted(System.Data.DataColumn column)](#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn-) |  |
 | [onDataColumnDeleted(System.Data.DataColumn column)](#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn-) |  |
-### onDataRowChanged(System.Data.DataRow row) {#onDataRowChanged-com.aspose.words.net.System.Data.DataRow-}
+| [onDataColumnInserted(System.Data.DataColumn column)](#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn-) |  |
+| [onDataRowChanged(System.Data.DataRow row)](#onDataRowChanged-com.aspose.words.net.System.Data.DataRow-) |  |
+| [onDataRowDeleted(System.Data.DataRow row)](#onDataRowDeleted-com.aspose.words.net.System.Data.DataRow-) |  |
+| [onDataRowInserted(System.Data.DataRow row)](#onDataRowInserted-com.aspose.words.net.System.Data.DataRow-) |  |
+### onDataColumnDeleted(System.Data.DataColumn column) {#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn-}
 ```
-public abstract void onDataRowChanged(System.Data.DataRow row)
+public abstract void onDataColumnDeleted(System.Data.DataColumn column)
 ```
 
 
@@ -29,11 +29,24 @@ public abstract void onDataRowChanged(System.Data.DataRow row)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
 
-### onDataRowInserted(System.Data.DataRow row) {#onDataRowInserted-com.aspose.words.net.System.Data.DataRow-}
+### onDataColumnInserted(System.Data.DataColumn column) {#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn-}
 ```
-public abstract void onDataRowInserted(System.Data.DataRow row)
+public abstract void onDataColumnInserted(System.Data.DataColumn column)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
+
+### onDataRowChanged(System.Data.DataRow row) {#onDataRowChanged-com.aspose.words.net.System.Data.DataRow-}
+```
+public abstract void onDataRowChanged(System.Data.DataRow row)
 ```
 
 
@@ -57,22 +70,9 @@ public abstract void onDataRowDeleted(System.Data.DataRow row)
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
-### onDataColumnInserted(System.Data.DataColumn column) {#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn-}
+### onDataRowInserted(System.Data.DataRow row) {#onDataRowInserted-com.aspose.words.net.System.Data.DataRow-}
 ```
-public abstract void onDataColumnInserted(System.Data.DataColumn column)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
-
-### onDataColumnDeleted(System.Data.DataColumn column) {#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn-}
-```
-public abstract void onDataColumnDeleted(System.Data.DataColumn column)
+public abstract void onDataRowInserted(System.Data.DataRow row)
 ```
 
 
@@ -81,5 +81,5 @@ public abstract void onDataColumnDeleted(System.Data.DataColumn column)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
+| row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 

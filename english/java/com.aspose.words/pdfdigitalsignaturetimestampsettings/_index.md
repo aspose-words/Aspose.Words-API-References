@@ -27,14 +27,23 @@ To learn more, visit the **Work with Digital Signatures** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getServerUrl()](#getServerUrl--) | Timestamp server URL. |
-| [setServerUrl(String value)](#setServerUrl-java.lang.String-) | Timestamp server URL. |
-| [getUserName()](#getUserName--) | Timestamp server user name. |
-| [setUserName(String value)](#setUserName-java.lang.String-) | Timestamp server user name. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getPassword()](#getPassword--) | Timestamp server password. |
-| [setPassword(String value)](#setPassword-java.lang.String-) | Timestamp server password. |
+| [getServerUrl()](#getServerUrl--) | Timestamp server URL. |
 | [getTimeout()](#getTimeout--) | Time-out value in milliseconds for accessing timestamp server. |
+| [getUserName()](#getUserName--) | Timestamp server user name. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Timestamp server password. |
+| [setServerUrl(String value)](#setServerUrl-java.lang.String-) | Timestamp server URL. |
 | [setTimeout(long value)](#setTimeout-long-) | Time-out value in milliseconds for accessing timestamp server. |
+| [setUserName(String value)](#setUserName-java.lang.String-) | Timestamp server user name. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PdfDigitalSignatureTimestampSettings() {#PdfDigitalSignatureTimestampSettings--}
 ```
 public PdfDigitalSignatureTimestampSettings()
@@ -74,52 +83,31 @@ Initializes an instance of this class.
 | password | java.lang.String | Timestamp server password. |
 | timeout | long | Time-out value in milliseconds for accessing timestamp server. |
 
-### getServerUrl() {#getServerUrl--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public String getServerUrl()
-```
-
-
-Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setServerUrl(String value) {#setServerUrl-java.lang.String-}
-```
-public void setServerUrl(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
-
-### getUserName() {#getUserName--}
-```
-public String getUserName()
-```
-
-
-Timestamp server user name. The default value is null.
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setUserName(String value) {#setUserName-java.lang.String-}
+boolean
+### getClass() {#getClass--}
 ```
-public void setUserName(String value)
+public final native Class<?> getClass()
 ```
 
 
-Timestamp server user name. The default value is null.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
 
+**Returns:**
+java.lang.Class<?>
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
@@ -130,6 +118,62 @@ Timestamp server password. The default value is null.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
+### getServerUrl() {#getServerUrl--}
+```
+public String getServerUrl()
+```
+
+
+Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getTimeout() {#getTimeout--}
+```
+public long getTimeout()
+```
+
+
+Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
+
+**Returns:**
+long - The corresponding long value.
+### getUserName() {#getUserName--}
+```
+public String getUserName()
+```
+
+
+Timestamp server user name. The default value is null.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
 public void setPassword(String value)
@@ -143,16 +187,19 @@ Timestamp server password. The default value is null.
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getTimeout() {#getTimeout--}
+### setServerUrl(String value) {#setServerUrl-java.lang.String-}
 ```
-public long getTimeout()
+public void setServerUrl(String value)
 ```
 
 
-Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
+Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
 
-**Returns:**
-long - The corresponding long value.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
 ### setTimeout(long value) {#setTimeout-long-}
 ```
 public void setTimeout(long value)
@@ -165,4 +212,62 @@ Time-out value in milliseconds for accessing timestamp server. The default value
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | long | The corresponding long value. |
+
+### setUserName(String value) {#setUserName-java.lang.String-}
+```
+public void setUserName(String value)
+```
+
+
+Timestamp server user name. The default value is null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

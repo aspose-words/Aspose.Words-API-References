@@ -23,28 +23,37 @@ Specifies paper size.
 | [A5](#A5) | 148 x 210 mm. |
 | [B4](#B4) | 250 x 353 mm. |
 | [B5](#B5) | 176 x 250 mm. |
+| [CUSTOM](#CUSTOM) | Custom paper size. |
+| [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 mm. |
 | [EXECUTIVE](#EXECUTIVE) | 7.25 x 10.5 inches. |
 | [FOLIO](#FOLIO) | 8.5 x 13 inches. |
 | [LEDGER](#LEDGER) | 17 x 11 inches. |
 | [LEGAL](#LEGAL) | 8.5 x 14 inches. |
 | [LETTER](#LETTER) | 8.5 x 11 inches. |
-| [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 mm. |
+| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4.125 x 9.5 inches. |
+| [PAPER_10_X_14](#PAPER-10-X-14) | 10 x 14 inches. |
+| [PAPER_11_X_17](#PAPER-11-X-17) | 11 x 17 inches. |
 | [QUARTO](#QUARTO) | 8.47 x 10.83 inches. |
 | [STATEMENT](#STATEMENT) | 8.5 x 5.5 inches. |
 | [TABLOID](#TABLOID) | 11 x 17 inches. |
-| [PAPER_10_X_14](#PAPER-10-X-14) | 10 x 14 inches. |
-| [PAPER_11_X_17](#PAPER-11-X-17) | 11 x 17 inches. |
-| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4.125 x 9.5 inches. |
-| [CUSTOM](#CUSTOM) | Custom paper size. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int paperSize)](#getName-int-) |  |
-| [toString(int paperSize)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String paperSizeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int paperSize)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int paperSize)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### A3 {#A3}
 ```
 public static int A3
@@ -84,6 +93,22 @@ public static int B5
 
 
 176 x 250 mm.
+
+### CUSTOM {#CUSTOM}
+```
+public static int CUSTOM
+```
+
+
+Custom paper size.
+
+### ENVELOPE_DL {#ENVELOPE-DL}
+```
+public static int ENVELOPE_DL
+```
+
+
+110 x 220 mm.
 
 ### EXECUTIVE {#EXECUTIVE}
 ```
@@ -125,13 +150,29 @@ public static int LETTER
 
 8.5 x 11 inches.
 
-### ENVELOPE_DL {#ENVELOPE-DL}
+### NUMBER_10_ENVELOPE {#NUMBER-10-ENVELOPE}
 ```
-public static int ENVELOPE_DL
+public static int NUMBER_10_ENVELOPE
 ```
 
 
-110 x 220 mm.
+4.125 x 9.5 inches.
+
+### PAPER_10_X_14 {#PAPER-10-X-14}
+```
+public static int PAPER_10_X_14
+```
+
+
+10 x 14 inches.
+
+### PAPER_11_X_17 {#PAPER-11-X-17}
+```
+public static int PAPER_11_X_17
+```
+
+
+11 x 17 inches.
 
 ### QUARTO {#QUARTO}
 ```
@@ -157,44 +198,52 @@ public static int TABLOID
 
 11 x 17 inches.
 
-### PAPER_10_X_14 {#PAPER-10-X-14}
-```
-public static int PAPER_10_X_14
-```
-
-
-10 x 14 inches.
-
-### PAPER_11_X_17 {#PAPER-11-X-17}
-```
-public static int PAPER_11_X_17
-```
-
-
-11 x 17 inches.
-
-### NUMBER_10_ENVELOPE {#NUMBER-10-ENVELOPE}
-```
-public static int NUMBER_10_ENVELOPE
-```
-
-
-4.125 x 9.5 inches.
-
-### CUSTOM {#CUSTOM}
-```
-public static int CUSTOM
-```
-
-
-Custom paper size.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String paperSizeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String paperSizeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| paperSizeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int paperSize) {#getName-int-}
 ```
 public static String getName(int paperSize)
@@ -207,6 +256,52 @@ public static String getName(int paperSize)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | paperSize | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -225,9 +320,17 @@ public static String toString(int paperSize)
 
 **Returns:**
 java.lang.String
-### fromName(String paperSizeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String paperSizeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -236,17 +339,19 @@ public static int fromName(String paperSizeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| paperSizeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

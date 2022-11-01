@@ -61,8 +61,8 @@ Specifies the editing language.
 | [CHINESE_SINGAPORE](#CHINESE-SINGAPORE) |  |
 | [CHINESE_TAIWAN](#CHINESE-TAIWAN) |  |
 | [CORSICAN](#CORSICAN) |  |
-| [CROATIAN_BOZNIA_AND_HERZEGOVINA](#CROATIAN-BOZNIA-AND-HERZEGOVINA) |  |
 | [CROATIAN](#CROATIAN) |  |
+| [CROATIAN_BOZNIA_AND_HERZEGOVINA](#CROATIAN-BOZNIA-AND-HERZEGOVINA) |  |
 | [CZECH](#CZECH) |  |
 | [DANISH](#DANISH) |  |
 | [DIVEHI](#DIVEHI) |  |
@@ -149,9 +149,9 @@ Specifies the editing language.
 | [LULE_SAMI_SWEDEN](#LULE-SAMI-SWEDEN) |  |
 | [LUXEMBOUGISH](#LUXEMBOUGISH) |  |
 | [MACEDONIAN](#MACEDONIAN) |  |
-| [MALAY_MALAYSIA](#MALAY-MALAYSIA) |  |
-| [MALAY_BRUNEI_DARUSSALAM](#MALAY-BRUNEI-DARUSSALAM) |  |
 | [MALAYALAM](#MALAYALAM) |  |
+| [MALAY_BRUNEI_DARUSSALAM](#MALAY-BRUNEI-DARUSSALAM) |  |
+| [MALAY_MALAYSIA](#MALAY-MALAYSIA) |  |
 | [MALTESE](#MALTESE) |  |
 | [MANIPURI](#MANIPURI) |  |
 | [MAORI](#MAORI) |  |
@@ -250,10 +250,19 @@ Specifies the editing language.
 
 | Method | Description |
 | --- | --- |
-| [getName(int editingLanguage)](#getName-int-) |  |
-| [toString(int editingLanguage)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String editingLanguageName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int editingLanguage)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int editingLanguage)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AFRIKAANS {#AFRIKAANS}
 ```
 public static int AFRIKAANS
@@ -512,15 +521,15 @@ public static int CORSICAN
 ```
 
 
-### CROATIAN_BOZNIA_AND_HERZEGOVINA {#CROATIAN-BOZNIA-AND-HERZEGOVINA}
-```
-public static int CROATIAN_BOZNIA_AND_HERZEGOVINA
-```
-
-
 ### CROATIAN {#CROATIAN}
 ```
 public static int CROATIAN
+```
+
+
+### CROATIAN_BOZNIA_AND_HERZEGOVINA {#CROATIAN-BOZNIA-AND-HERZEGOVINA}
+```
+public static int CROATIAN_BOZNIA_AND_HERZEGOVINA
 ```
 
 
@@ -1040,9 +1049,9 @@ public static int MACEDONIAN
 ```
 
 
-### MALAY_MALAYSIA {#MALAY-MALAYSIA}
+### MALAYALAM {#MALAYALAM}
 ```
-public static int MALAY_MALAYSIA
+public static int MALAYALAM
 ```
 
 
@@ -1052,9 +1061,9 @@ public static int MALAY_BRUNEI_DARUSSALAM
 ```
 
 
-### MALAYALAM {#MALAYALAM}
+### MALAY_MALAYSIA {#MALAY-MALAYSIA}
 ```
-public static int MALAYALAM
+public static int MALAY_MALAYSIA
 ```
 
 
@@ -1622,6 +1631,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String editingLanguageName) {#fromName-java.lang.String-}
+```
+public static int fromName(String editingLanguageName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| editingLanguageName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int editingLanguage) {#getName-int-}
 ```
 public static String getName(int editingLanguage)
@@ -1634,6 +1683,52 @@ public static String getName(int editingLanguage)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | editingLanguage | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -1652,9 +1747,17 @@ public static String toString(int editingLanguage)
 
 **Returns:**
 java.lang.String
-### fromName(String editingLanguageName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String editingLanguageName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -1663,17 +1766,19 @@ public static int fromName(String editingLanguageName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| editingLanguageName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

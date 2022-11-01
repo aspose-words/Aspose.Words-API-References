@@ -15,23 +15,39 @@ Implement this interface if you want to control how the field result is formatte
 
 | Method | Description |
 | --- | --- |
-| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String-) | Called when Aspose.Words applies a numeric format switch, i.e. |
-| [formatDateTime(Date value, String format, int calendarType)](#formatDateTime-java.util.Date-java.lang.String-int-) |  |
-| [format(String value, int format)](#format-java.lang.String-int-) |  |
 | [format(double value, int format)](#format-double-int-) |  |
-### formatNumeric(double value, String format) {#formatNumeric-double-java.lang.String-}
+| [format(String value, int format)](#format-java.lang.String-int-) |  |
+| [formatDateTime(Date value, String format, int calendarType)](#formatDateTime-java.util.Date-java.lang.String-int-) |  |
+| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String-) | Called when Aspose.Words applies a numeric format switch, i.e. |
+### format(double value, int format) {#format-double-int-}
 ```
-public abstract String formatNumeric(double value, String format)
+public abstract String format(double value, int format)
 ```
 
 
-Called when Aspose.Words applies a numeric format switch, i.e. \\\# "\#.\#". The implementation should return **null** to indicate that the default formatting should be applied.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-| format | java.lang.String |  |
+| format | int |  |
+
+**Returns:**
+java.lang.String
+### format(String value, int format) {#format-java.lang.String-int-}
+```
+public abstract String format(String value, int format)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
+| format | int |  |
 
 **Returns:**
 java.lang.String
@@ -52,35 +68,19 @@ public abstract String formatDateTime(Date value, String format, int calendarTyp
 
 **Returns:**
 java.lang.String
-### format(String value, int format) {#format-java.lang.String-int-}
+### formatNumeric(double value, String format) {#formatNumeric-double-java.lang.String-}
 ```
-public abstract String format(String value, int format)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String |  |
-| format | int |  |
-
-**Returns:**
-java.lang.String
-### format(double value, int format) {#format-double-int-}
-```
-public abstract String format(double value, int format)
+public abstract String formatNumeric(double value, String format)
 ```
 
 
-
+Called when Aspose.Words applies a numeric format switch, i.e. \\\# "\#.\#". The implementation should return **null** to indicate that the default formatting should be applied.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
-| format | int |  |
+| format | java.lang.String |  |
 
 **Returns:**
 java.lang.String

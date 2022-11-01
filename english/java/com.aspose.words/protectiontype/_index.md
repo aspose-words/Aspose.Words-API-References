@@ -21,17 +21,26 @@ Protection type for a document.
 | [ALLOW_ONLY_COMMENTS](#ALLOW-ONLY-COMMENTS) | User can only modify comments in the document. |
 | [ALLOW_ONLY_FORM_FIELDS](#ALLOW-ONLY-FORM-FIELDS) | User can only enter data in the form fields in the document. |
 | [ALLOW_ONLY_REVISIONS](#ALLOW-ONLY-REVISIONS) | User can only add revision marks to the document. |
-| [READ_ONLY](#READ-ONLY) | No changes are allowed to the document. |
 | [NO_PROTECTION](#NO-PROTECTION) | The document is not protected. |
+| [READ_ONLY](#READ-ONLY) | No changes are allowed to the document. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int protectionType)](#getName-int-) |  |
-| [toString(int protectionType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String protectionTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int protectionType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int protectionType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ALLOW_ONLY_COMMENTS {#ALLOW-ONLY-COMMENTS}
 ```
 public static int ALLOW_ONLY_COMMENTS
@@ -56,14 +65,6 @@ public static int ALLOW_ONLY_REVISIONS
 
 User can only add revision marks to the document.
 
-### READ_ONLY {#READ-ONLY}
-```
-public static int READ_ONLY
-```
-
-
-No changes are allowed to the document. Available since Microsoft Word 2003.
-
 ### NO_PROTECTION {#NO-PROTECTION}
 ```
 public static int NO_PROTECTION
@@ -72,12 +73,60 @@ public static int NO_PROTECTION
 
 The document is not protected.
 
+### READ_ONLY {#READ-ONLY}
+```
+public static int READ_ONLY
+```
+
+
+No changes are allowed to the document. Available since Microsoft Word 2003.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String protectionTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String protectionTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| protectionTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int protectionType) {#getName-int-}
 ```
 public static String getName(int protectionType)
@@ -90,6 +139,52 @@ public static String getName(int protectionType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | protectionType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int protectionType)
 
 **Returns:**
 java.lang.String
-### fromName(String protectionTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String protectionTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String protectionTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

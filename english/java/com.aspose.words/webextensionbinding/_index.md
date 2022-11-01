@@ -25,12 +25,21 @@ To learn more, visit the **Work with Office Add-ins** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getId()](#getId--) | Specifies the binding identifier. |
-| [setId(String value)](#setId-java.lang.String-) | Specifies the binding identifier. |
-| [getBindingType()](#getBindingType--) | Specifies the binding type. |
-| [setBindingType(int value)](#setBindingType-int-) | Specifies the binding type. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAppRef()](#getAppRef--) | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getBindingType()](#getBindingType--) | Specifies the binding type. |
+| [getClass()](#getClass--) |  |
+| [getId()](#getId--) | Specifies the binding identifier. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setAppRef(String value)](#setAppRef-java.lang.String-) | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
+| [setBindingType(int value)](#setBindingType-int-) | Specifies the binding type. |
+| [setId(String value)](#setId-java.lang.String-) | Specifies the binding identifier. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### WebExtensionBinding(String id, int bindingType, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
 ```
 public WebExtensionBinding(String id, int bindingType, String appRef)
@@ -46,29 +55,31 @@ Initializes a new instance of this class.
 | bindingType | int |  |
 | appRef | java.lang.String |  |
 
-### getId() {#getId--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public String getId()
-```
-
-
-Specifies the binding identifier.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setId(String value) {#setId-java.lang.String-}
-```
-public void setId(String value)
+public boolean equals(Object arg0)
 ```
 
 
-Specifies the binding identifier.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getAppRef() {#getAppRef--}
+```
+public String getAppRef()
+```
+
+
+Specifies the binding key used to map the binding entry in this list with the bound data in the document.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getBindingType() {#getBindingType--}
 ```
 public int getBindingType()
@@ -79,6 +90,65 @@ Specifies the binding type.
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getId() {#getId--}
+```
+public String getId()
+```
+
+
+Specifies the binding identifier.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setAppRef(String value) {#setAppRef-java.lang.String-}
+```
+public void setAppRef(String value)
+```
+
+
+Specifies the binding key used to map the binding entry in this list with the bound data in the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
 ### setBindingType(int value) {#setBindingType-int-}
 ```
 public void setBindingType(int value)
@@ -92,26 +162,61 @@ Specifies the binding type.
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants. |
 
-### getAppRef() {#getAppRef--}
+### setId(String value) {#setId-java.lang.String-}
 ```
-public String getAppRef()
-```
-
-
-Specifies the binding key used to map the binding entry in this list with the bound data in the document.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setAppRef(String value) {#setAppRef-java.lang.String-}
-```
-public void setAppRef(String value)
+public void setId(String value)
 ```
 
 
-Specifies the binding key used to map the binding entry in this list with the bound data in the document.
+Specifies the binding identifier.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

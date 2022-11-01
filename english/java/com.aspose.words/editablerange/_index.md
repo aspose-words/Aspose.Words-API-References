@@ -22,22 +22,80 @@ To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentat
 
 | Method | Description |
 | --- | --- |
-| [remove()](#remove--) | Removes the editable range from the document. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getEditableRangeEnd()](#getEditableRangeEnd--) | Gets the node that represents the end of the editable range. |
+| [getEditableRangeStart()](#getEditableRangeStart--) | Gets the node that represents the start of the editable range. |
+| [getEditorGroup()](#getEditorGroup--) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
 | [getId()](#getId--) | Gets the editable range identifier. |
 | [getSingleUser()](#getSingleUser--) | Gets the single user for editable range. |
-| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | Sets the single user for editable range. |
-| [getEditorGroup()](#getEditorGroup--) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the editable range from the document. |
 | [setEditorGroup(int value)](#setEditorGroup-int-) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
-| [getEditableRangeStart()](#getEditableRangeStart--) | Gets the node that represents the start of the editable range. |
-| [getEditableRangeEnd()](#getEditableRangeEnd--) | Gets the node that represents the end of the editable range. |
-### remove() {#remove--}
+| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | Sets the single user for editable range. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public void remove()
+public boolean equals(Object arg0)
 ```
 
 
-Removes the editable range from the document. Does not remove content inside the editable range.
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEditableRangeEnd() {#getEditableRangeEnd--}
+```
+public EditableRangeEnd getEditableRangeEnd()
+```
+
+
+Gets the node that represents the end of the editable range.
+
+**Returns:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The node that represents the end of the editable range.
+### getEditableRangeStart() {#getEditableRangeStart--}
+```
+public EditableRangeStart getEditableRangeStart()
+```
+
+
+Gets the node that represents the start of the editable range.
+
+**Returns:**
+[EditableRangeStart](../../com.aspose.words/editablerangestart) - The node that represents the start of the editable range.
+### getEditorGroup() {#getEditorGroup--}
+```
+public int getEditorGroup()
+```
+
+
+Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
+
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
+
+**Returns:**
+int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype) constants.
 ### getId() {#getId--}
 ```
 public int getId()
@@ -72,6 +130,55 @@ Single user and editor group cannot be set simultaneously for the specific edita
 
 **Returns:**
 java.lang.String - The single user for editable range.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public void remove()
+```
+
+
+Removes the editable range from the document. Does not remove content inside the editable range.
+
+### setEditorGroup(int value) {#setEditorGroup-int-}
+```
+public void setEditorGroup(int value)
+```
+
+
+Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
+
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype) constants. |
+
 ### setSingleUser(String value) {#setSingleUser-java.lang.String-}
 ```
 public void setSingleUser(String value)
@@ -95,50 +202,48 @@ Single user and editor group cannot be set simultaneously for the specific edita
 | --- | --- | --- |
 | value | java.lang.String | The single user for editable range. |
 
-### getEditorGroup() {#getEditorGroup--}
+### toString() {#toString--}
 ```
-public int getEditorGroup()
+public String toString()
 ```
 
 
-Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
 
-Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
 **Returns:**
-int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype) constants.
-### setEditorGroup(int value) {#setEditorGroup-int-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setEditorGroup(int value)
+public final void wait()
 ```
 
 
-Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
 
-Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype) constants. |
+| arg0 | long |  |
 
-### getEditableRangeStart() {#getEditableRangeStart--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public EditableRangeStart getEditableRangeStart()
-```
-
-
-Gets the node that represents the start of the editable range.
-
-**Returns:**
-[EditableRangeStart](../../com.aspose.words/editablerangestart) - The node that represents the start of the editable range.
-### getEditableRangeEnd() {#getEditableRangeEnd--}
-```
-public EditableRangeEnd getEditableRangeEnd()
+public final void wait(long arg0, int arg1)
 ```
 
 
-Gets the node that represents the end of the editable range.
 
-**Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The node that represents the end of the editable range.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

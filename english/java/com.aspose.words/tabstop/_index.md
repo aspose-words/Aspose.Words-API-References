@@ -34,13 +34,21 @@ For more information see [TabStopCollection](../../com.aspose.words/tabstopcolle
 | Method | Description |
 | --- | --- |
 | [equals(TabStop rhs)](#equals-com.aspose.words.TabStop-) | Compares with the specified TabStop. |
-| [hashCode()](#hashCode--) |  |
-| [getPosition()](#getPosition--) | Gets the position of the tab stop in points. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAlignment()](#getAlignment--) | Gets the alignment of text at this tab stop. |
-| [setAlignment(int value)](#setAlignment-int-) | Sets the alignment of text at this tab stop. |
+| [getClass()](#getClass--) |  |
 | [getLeader()](#getLeader--) | Gets the type of the leader line displayed under the tab character. |
-| [setLeader(int value)](#setLeader-int-) | Sets the type of the leader line displayed under the tab character. |
+| [getPosition()](#getPosition--) | Gets the position of the tab stop in points. |
+| [hashCode()](#hashCode--) |  |
 | [isClear()](#isClear--) | Returns true if this tab stop clears any existing tab stops in this position. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAlignment(int value)](#setAlignment-int-) | Sets the alignment of text at this tab stop. |
+| [setLeader(int value)](#setLeader-int-) | Sets the type of the leader line displayed under the tab character. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### TabStop(double position) {#TabStop-double-}
 ```
 public TabStop(double position)
@@ -84,26 +92,21 @@ Compares with the specified TabStop.
 
 **Returns:**
 boolean
-### hashCode() {#hashCode--}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public int hashCode()
+public boolean equals(Object arg0)
 ```
 
 
 
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int
-### getPosition() {#getPosition--}
-```
-public double getPosition()
-```
-
-
-Gets the position of the tab stop in points.
-
-**Returns:**
-double - The position of the tab stop in points.
+boolean
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
@@ -114,6 +117,72 @@ Gets the alignment of text at this tab stop.
 
 **Returns:**
 int - The alignment of text at this tab stop. The returned value is one of [TabAlignment](../../com.aspose.words/tabalignment) constants.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getLeader() {#getLeader--}
+```
+public int getLeader()
+```
+
+
+Gets the type of the leader line displayed under the tab character.
+
+**Returns:**
+int - The type of the leader line displayed under the tab character. The returned value is one of [TabLeader](../../com.aspose.words/tableader) constants.
+### getPosition() {#getPosition--}
+```
+public double getPosition()
+```
+
+
+Gets the position of the tab stop in points.
+
+**Returns:**
+double - The position of the tab stop in points.
+### hashCode() {#hashCode--}
+```
+public int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isClear() {#isClear--}
+```
+public boolean isClear()
+```
+
+
+Returns true if this tab stop clears any existing tab stops in this position.
+
+**Returns:**
+boolean - True if this tab stop clears any existing tab stops in this position.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setAlignment(int value) {#setAlignment-int-}
 ```
 public void setAlignment(int value)
@@ -127,16 +196,6 @@ Sets the alignment of text at this tab stop.
 | --- | --- | --- |
 | value | int | The alignment of text at this tab stop. The value must be one of [TabAlignment](../../com.aspose.words/tabalignment) constants. |
 
-### getLeader() {#getLeader--}
-```
-public int getLeader()
-```
-
-
-Gets the type of the leader line displayed under the tab character.
-
-**Returns:**
-int - The type of the leader line displayed under the tab character. The returned value is one of [TabLeader](../../com.aspose.words/tableader) constants.
 ### setLeader(int value) {#setLeader-int-}
 ```
 public void setLeader(int value)
@@ -150,13 +209,48 @@ Sets the type of the leader line displayed under the tab character.
 | --- | --- | --- |
 | value | int | The type of the leader line displayed under the tab character. The value must be one of [TabLeader](../../com.aspose.words/tableader) constants. |
 
-### isClear() {#isClear--}
+### toString() {#toString--}
 ```
-public boolean isClear()
+public String toString()
 ```
 
 
-Returns true if this tab stop clears any existing tab stops in this position.
+
 
 **Returns:**
-boolean - True if this tab stop clears any existing tab stops in this position.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

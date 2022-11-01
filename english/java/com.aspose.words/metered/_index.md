@@ -34,9 +34,18 @@ In this example, an attempt will be made to set metered public and private key t
 
 | Method | Description |
 | --- | --- |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private key. |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private key. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Metered() {#Metered--}
 ```
 public Metered()
@@ -44,6 +53,77 @@ public Metered()
 
 
 Initializes a new instance of this class.
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getConsumptionCredit() {#getConsumptionCredit--}
+```
+public static BigDecimal getConsumptionCredit()
+```
+
+
+Gets consumption credit
+
+**Returns:**
+java.math.BigDecimal - consumption quantity
+### getConsumptionQuantity() {#getConsumptionQuantity--}
+```
+public static BigDecimal getConsumptionQuantity()
+```
+
+
+Gets consumption file size
+
+**Returns:**
+java.math.BigDecimal - consumption quantity
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### setMeteredKey(String publicKey, String privateKey) {#setMeteredKey-java.lang.String-java.lang.String-}
 ```
@@ -59,23 +139,48 @@ Sets metered public and private key. If you purchase metered license, when start
 | publicKey | java.lang.String | public key |
 | privateKey | java.lang.String | private key |
 
-### getConsumptionQuantity() {#getConsumptionQuantity--}
+### toString() {#toString--}
 ```
-public static BigDecimal getConsumptionQuantity()
+public String toString()
 ```
 
 
-Gets consumption file size
+
 
 **Returns:**
-java.math.BigDecimal - consumption quantity
-### getConsumptionCredit() {#getConsumptionCredit--}
+java.lang.String
+### wait() {#wait--}
 ```
-public static BigDecimal getConsumptionCredit()
+public final void wait()
 ```
 
 
-Gets consumption credit
 
-**Returns:**
-java.math.BigDecimal - consumption quantity
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

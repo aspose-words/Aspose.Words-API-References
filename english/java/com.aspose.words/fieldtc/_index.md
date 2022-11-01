@@ -22,22 +22,246 @@ Defines the text and page number for a table of contents (including a table of f
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getDocumentOutlineTitle()](#getDocumentOutlineTitle--) |  |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getEntryLevel()](#getEntryLevel--) | Gets the level of the entry. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getLevel()](#getLevel--) |  |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getOmitPageNumber()](#getOmitPageNumber--) | Gets whether page number in TOC should be omitted for this field. |
+| [getPageNumber()](#getPageNumber--) |  |
+| [getParagraph()](#getParagraph--) |  |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getSequenceValue(String sequenceIdentifier)](#getSequenceValue-java.lang.String-) |  |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
 | [getText()](#getText--) | Gets the text of the entry. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the text of the entry. |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
 | [getTypeIdentifier()](#getTypeIdentifier--) | Gets a type identifier for this field (which is typically a letter). |
-| [setTypeIdentifier(String value)](#setTypeIdentifier-java.lang.String-) | Sets a type identifier for this field (which is typically a letter). |
-| [getEntryLevel()](#getEntryLevel--) | Gets the level of the entry. |
-| [setEntryLevel(String value)](#setEntryLevel-java.lang.String-) | Sets the level of the entry. |
-| [getOmitPageNumber()](#getOmitPageNumber--) | Gets whether page number in TOC should be omitted for this field. |
-| [setOmitPageNumber(boolean value)](#setOmitPageNumber-boolean-) | Sets whether page number in TOC should be omitted for this field. |
-| [getParagraph()](#getParagraph--) |  |
-| [getLevel()](#getLevel--) |  |
-| [getDocumentOutlineTitle()](#getDocumentOutlineTitle--) |  |
-| [isInFieldCode()](#isInFieldCode--) |  |
 | [hasBookmark()](#hasBookmark--) |  |
-| [getSequenceValue(String sequenceIdentifier)](#getSequenceValue-java.lang.String-) |  |
-| [getPageNumber()](#getPageNumber--) |  |
+| [hashCode()](#hashCode--) |  |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isInFieldCode()](#isInFieldCode--) |  |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setEntryLevel(String value)](#setEntryLevel-java.lang.String-) | Sets the level of the entry. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setOmitPageNumber(boolean value)](#setOmitPageNumber-boolean-) | Sets whether page number in TOC should be omitted for this field. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the entry. |
+| [setTypeIdentifier(String value)](#setTypeIdentifier-java.lang.String-) | Sets a type identifier for this field (which is typically a letter). |
+| [toString()](#toString--) |  |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayResult() {#getDisplayResult--}
+```
+public String getDisplayResult()
+```
+
+
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
+### getDocumentOutlineTitle() {#getDocumentOutlineTitle--}
+```
+public String getDocumentOutlineTitle()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getEnd() {#getEnd--}
+```
+public FieldEnd getEnd()
+```
+
+
+Gets the node that represents the field end.
+
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getEntryLevel() {#getEntryLevel--}
+```
+public String getEntryLevel()
+```
+
+
+Gets the level of the entry.
+
+**Returns:**
+java.lang.String - The level of the entry.
+### getFieldCode() {#getFieldCode--}
+```
+public String getFieldCode()
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+
+**Returns:**
+java.lang.String
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+```
+public String getFieldCode(boolean includeChildFieldCodes)
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+
+**Returns:**
+java.lang.String
+### getFormat() {#getFormat--}
+```
+public FieldFormat getFormat()
+```
+
+
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+### getLevel() {#getLevel--}
+```
+public int getLevel()
+```
+
+
+
+
+**Returns:**
+int
+### getLocaleId() {#getLocaleId--}
+```
+public int getLocaleId()
+```
+
+
+Gets the LCID of the field.
+
+**Returns:**
+int - The LCID of the field.
+### getOmitPageNumber() {#getOmitPageNumber--}
+```
+public boolean getOmitPageNumber()
+```
+
+
+Gets whether page number in TOC should be omitted for this field.
+
+**Returns:**
+boolean - Whether page number in TOC should be omitted for this field.
+### getPageNumber() {#getPageNumber--}
+```
+public int getPageNumber()
+```
+
+
+
+
+**Returns:**
+int
+### getParagraph() {#getParagraph--}
+```
+public Paragraph getParagraph()
+```
+
+
+
+
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph)
+### getResult() {#getResult--}
+```
+public String getResult()
+```
+
+
+Gets text that is between the field separator and field end.
+
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
+### getSeparator() {#getSeparator--}
+```
+public FieldSeparator getSeparator()
+```
+
+
+Gets the node that represents the field separator. Can be null.
+
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+### getSequenceValue(String sequenceIdentifier) {#getSequenceValue-java.lang.String-}
+```
+public int getSequenceValue(String sequenceIdentifier)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| sequenceIdentifier | java.lang.String |  |
+
+**Returns:**
+int
+### getStart() {#getStart--}
+```
+public FieldStart getStart()
+```
+
+
+Gets the node that represents the start of the field.
+
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
 public int getSwitchType(String switchName)
@@ -63,19 +287,16 @@ Gets the text of the entry.
 
 **Returns:**
 java.lang.String - The text of the entry.
-### setText(String value) {#setText-java.lang.String-}
+### getType() {#getType--}
 ```
-public void setText(String value)
+public int getType()
 ```
 
 
-Sets the text of the entry.
+Gets the Microsoft Word field type.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The text of the entry. |
-
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### getTypeIdentifier() {#getTypeIdentifier--}
 ```
 public String getTypeIdentifier()
@@ -86,29 +307,108 @@ Gets a type identifier for this field (which is typically a letter).
 
 **Returns:**
 java.lang.String - A type identifier for this field (which is typically a letter).
-### setTypeIdentifier(String value) {#setTypeIdentifier-java.lang.String-}
+### hasBookmark() {#hasBookmark--}
 ```
-public void setTypeIdentifier(String value)
+public boolean hasBookmark()
 ```
 
 
-Sets a type identifier for this field (which is typically a letter).
+
+
+**Returns:**
+boolean
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isDirty() {#isDirty--}
+```
+public boolean isDirty()
+```
+
+
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+### isDirty(boolean value) {#isDirty-boolean-}
+```
+public void isDirty(boolean value)
+```
+
+
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | A type identifier for this field (which is typically a letter). |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### getEntryLevel() {#getEntryLevel--}
+### isInFieldCode() {#isInFieldCode--}
 ```
-public String getEntryLevel()
+public boolean isInFieldCode()
 ```
 
 
-Gets the level of the entry.
+
 
 **Returns:**
-java.lang.String - The level of the entry.
+boolean
+### isLocked() {#isLocked--}
+```
+public boolean isLocked()
+```
+
+
+Gets whether the field is locked (should not recalculate its result).
+
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
+### isLocked(boolean value) {#isLocked-boolean-}
+```
+public void isLocked(boolean value)
+```
+
+
+Sets whether the field is locked (should not recalculate its result).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public Node remove()
+```
+
+
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+
+**Returns:**
+[Node](../../com.aspose.words/node)
 ### setEntryLevel(String value) {#setEntryLevel-java.lang.String-}
 ```
 public void setEntryLevel(String value)
@@ -122,16 +422,19 @@ Sets the level of the entry.
 | --- | --- | --- |
 | value | java.lang.String | The level of the entry. |
 
-### getOmitPageNumber() {#getOmitPageNumber--}
+### setLocaleId(int value) {#setLocaleId-int-}
 ```
-public boolean getOmitPageNumber()
+public void setLocaleId(int value)
 ```
 
 
-Gets whether page number in TOC should be omitted for this field.
+Sets the LCID of the field.
 
-**Returns:**
-boolean - Whether page number in TOC should be omitted for this field.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The LCID of the field. |
+
 ### setOmitPageNumber(boolean value) {#setOmitPageNumber-boolean-}
 ```
 public void setOmitPageNumber(boolean value)
@@ -145,29 +448,48 @@ Sets whether page number in TOC should be omitted for this field.
 | --- | --- | --- |
 | value | boolean | Whether page number in TOC should be omitted for this field. |
 
-### getParagraph() {#getParagraph--}
+### setResult(String value) {#setResult-java.lang.String-}
 ```
-public Paragraph getParagraph()
-```
-
-
-
-
-**Returns:**
-[Paragraph](../../com.aspose.words/paragraph)
-### getLevel() {#getLevel--}
-```
-public int getLevel()
+public void setResult(String value)
 ```
 
 
+Sets text that is between the field separator and field end.
 
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
-**Returns:**
-int
-### getDocumentOutlineTitle() {#getDocumentOutlineTitle--}
+### setText(String value) {#setText-java.lang.String-}
 ```
-public String getDocumentOutlineTitle()
+public void setText(String value)
+```
+
+
+Sets the text of the entry.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The text of the entry. |
+
+### setTypeIdentifier(String value) {#setTypeIdentifier-java.lang.String-}
+```
+public void setTypeIdentifier(String value)
+```
+
+
+Sets a type identifier for this field (which is typically a letter).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A type identifier for this field (which is typically a letter). |
+
+### toString() {#toString--}
+```
+public String toString()
 ```
 
 
@@ -175,29 +497,52 @@ public String getDocumentOutlineTitle()
 
 **Returns:**
 java.lang.String
-### isInFieldCode() {#isInFieldCode--}
+### unlink() {#unlink--}
 ```
-public boolean isInFieldCode()
+public boolean unlink()
 ```
 
 
+Performs the field unlink.
 
+Replaces the field with its most recent result.
+
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
 **Returns:**
-boolean
-### hasBookmark() {#hasBookmark--}
+boolean - \{ True  if the field has been unlinked, otherwise  false .
+### update() {#update--}
 ```
-public boolean hasBookmark()
+public void update()
+```
+
+
+Performs the field update. Throws if the field is being updated already.
+
+### update(boolean ignoreMergeFormat) {#update-boolean-}
+```
+public void update(boolean ignoreMergeFormat)
+```
+
+
+Performs a field update. Throws if the field is being updated already.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+
+### wait() {#wait--}
+```
+public final void wait()
 ```
 
 
 
 
-**Returns:**
-boolean
-### getSequenceValue(String sequenceIdentifier) {#getSequenceValue-java.lang.String-}
+### wait(long arg0) {#wait-long-}
 ```
-public int getSequenceValue(String sequenceIdentifier)
+public final native void wait(long arg0)
 ```
 
 
@@ -206,17 +551,19 @@ public int getSequenceValue(String sequenceIdentifier)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sequenceIdentifier | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getPageNumber() {#getPageNumber--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public int getPageNumber()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -20,10 +20,54 @@ To learn more, visit the **Save a Document** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getCount()](#getCount--) | Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
-| [setCount(int value)](#setCount-int-) | Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCharacter()](#getCharacter--) | Gets which character to use for indenting list levels. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setCharacter(char value)](#setCharacter-char-) | Sets which character to use for indenting list levels. |
+| [setCount(int value)](#setCount-int-) | Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getCharacter() {#getCharacter--}
+```
+public char getCharacter()
+```
+
+
+Gets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
+
+**Returns:**
+char - Which character to use for indenting list levels.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -34,6 +78,45 @@ Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCha
 
 **Returns:**
 int - How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setCharacter(char value) {#setCharacter-char-}
+```
+public void setCharacter(char value)
+```
+
+
+Sets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | char | Which character to use for indenting list levels. |
+
 ### setCount(int value) {#setCount-int-}
 ```
 public void setCount(int value)
@@ -47,26 +130,48 @@ Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCha
 | --- | --- | --- |
 | value | int | How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
 
-### getCharacter() {#getCharacter--}
+### toString() {#toString--}
 ```
-public char getCharacter()
+public String toString()
 ```
 
 
-Gets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
+
 
 **Returns:**
-char - Which character to use for indenting list levels.
-### setCharacter(char value) {#setCharacter-char-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setCharacter(char value)
+public final void wait()
 ```
 
 
-Sets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | Which character to use for indenting list levels. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

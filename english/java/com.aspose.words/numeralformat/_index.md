@@ -18,28 +18,29 @@ Indicates the symbol set that is used to represent numbers while rendering to fi
 
 | Field | Description |
 | --- | --- |
-| [EUROPEAN](#EUROPEAN) | European numerals: 0123456789. |
 | [ARABIC_INDIC](#ARABIC-INDIC) | Numerals used in Arabic: \\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669. |
-| [EASTERN_ARABIC_INDIC](#EASTERN-ARABIC-INDIC) | Numerals used in Persian and Urdu: \\u06f0\\u06f1\\u06f2\\u06f3\\u06f4\\u06f5\\u06f6\\u06f7\\u06f8\\u06f9. |
 | [CONTEXT](#CONTEXT) | Symbol set is decided from context(locale and RTL property). |
+| [EASTERN_ARABIC_INDIC](#EASTERN-ARABIC-INDIC) | Numerals used in Persian and Urdu: \\u06f0\\u06f1\\u06f2\\u06f3\\u06f4\\u06f5\\u06f6\\u06f7\\u06f8\\u06f9. |
+| [EUROPEAN](#EUROPEAN) | European numerals: 0123456789. |
 | [SYSTEM](#SYSTEM) | THIS OPTION IS NOT SUPPORTED. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int numeralFormat)](#getName-int-) |  |
-| [toString(int numeralFormat)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String numeralFormatName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int numeralFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### EUROPEAN {#EUROPEAN}
-```
-public static int EUROPEAN
-```
-
-
-European numerals: 0123456789.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int numeralFormat)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ARABIC_INDIC {#ARABIC-INDIC}
 ```
 public static int ARABIC_INDIC
@@ -47,6 +48,14 @@ public static int ARABIC_INDIC
 
 
 Numerals used in Arabic: \\u0660\\u0661\\u0662\\u0663\\u0664\\u0665\\u0666\\u0667\\u0668\\u0669. Unicode range U+0660 - u+0669.
+
+### CONTEXT {#CONTEXT}
+```
+public static int CONTEXT
+```
+
+
+Symbol set is decided from context(locale and RTL property).
 
 ### EASTERN_ARABIC_INDIC {#EASTERN-ARABIC-INDIC}
 ```
@@ -56,13 +65,13 @@ public static int EASTERN_ARABIC_INDIC
 
 Numerals used in Persian and Urdu: \\u06f0\\u06f1\\u06f2\\u06f3\\u06f4\\u06f5\\u06f6\\u06f7\\u06f8\\u06f9. Unicode range U+06F0 - u+06F9.
 
-### CONTEXT {#CONTEXT}
+### EUROPEAN {#EUROPEAN}
 ```
-public static int CONTEXT
+public static int EUROPEAN
 ```
 
 
-Symbol set is decided from context(locale and RTL property).
+European numerals: 0123456789.
 
 ### SYSTEM {#SYSTEM}
 ```
@@ -78,6 +87,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String numeralFormatName) {#fromName-java.lang.String-}
+```
+public static int fromName(String numeralFormatName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| numeralFormatName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int numeralFormat) {#getName-int-}
 ```
 public static String getName(int numeralFormat)
@@ -90,6 +139,52 @@ public static String getName(int numeralFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | numeralFormat | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int numeralFormat)
 
 **Returns:**
 java.lang.String
-### fromName(String numeralFormatName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String numeralFormatName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String numeralFormatName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| numeralFormatName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

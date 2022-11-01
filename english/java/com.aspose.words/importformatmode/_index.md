@@ -38,25 +38,34 @@ Using **KeepDifferentStyles** option allows to reuse destination styles if the f
 
 | Field | Description |
 | --- | --- |
-| [USE_DESTINATION_STYLES](#USE-DESTINATION-STYLES) | Use the destination document styles and copy new styles. |
-| [KEEP_SOURCE_FORMATTING](#KEEP-SOURCE-FORMATTING) | Copy all required styles to the destination document, generate unique style names if needed. |
 | [KEEP_DIFFERENT_STYLES](#KEEP-DIFFERENT-STYLES) | Only copy styles that are different from those in the source document. |
+| [KEEP_SOURCE_FORMATTING](#KEEP-SOURCE-FORMATTING) | Copy all required styles to the destination document, generate unique style names if needed. |
+| [USE_DESTINATION_STYLES](#USE-DESTINATION-STYLES) | Use the destination document styles and copy new styles. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int importFormatMode)](#getName-int-) |  |
-| [toString(int importFormatMode)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String importFormatModeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int importFormatMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### USE_DESTINATION_STYLES {#USE-DESTINATION-STYLES}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int importFormatMode)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### KEEP_DIFFERENT_STYLES {#KEEP-DIFFERENT-STYLES}
 ```
-public static int USE_DESTINATION_STYLES
+public static int KEEP_DIFFERENT_STYLES
 ```
 
 
-Use the destination document styles and copy new styles. This is the default option.
+Only copy styles that are different from those in the source document.
 
 ### KEEP_SOURCE_FORMATTING {#KEEP-SOURCE-FORMATTING}
 ```
@@ -66,13 +75,13 @@ public static int KEEP_SOURCE_FORMATTING
 
 Copy all required styles to the destination document, generate unique style names if needed.
 
-### KEEP_DIFFERENT_STYLES {#KEEP-DIFFERENT-STYLES}
+### USE_DESTINATION_STYLES {#USE-DESTINATION-STYLES}
 ```
-public static int KEEP_DIFFERENT_STYLES
+public static int USE_DESTINATION_STYLES
 ```
 
 
-Only copy styles that are different from those in the source document.
+Use the destination document styles and copy new styles. This is the default option.
 
 ### length {#length}
 ```
@@ -80,6 +89,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String importFormatModeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String importFormatModeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| importFormatModeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int importFormatMode) {#getName-int-}
 ```
 public static String getName(int importFormatMode)
@@ -92,6 +141,52 @@ public static String getName(int importFormatMode)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | importFormatMode | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -110,9 +205,17 @@ public static String toString(int importFormatMode)
 
 **Returns:**
 java.lang.String
-### fromName(String importFormatModeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String importFormatModeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -121,17 +224,19 @@ public static int fromName(String importFormatModeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| importFormatModeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

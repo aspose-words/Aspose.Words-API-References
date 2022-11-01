@@ -22,40 +22,61 @@ Sequentially numbers chapters, tables, figures, and other user-defined lists of 
 
 | Method | Description |
 | --- | --- |
-| [getSequenceIdentifier()](#getSequenceIdentifier--) | Gets the name assigned to the series of items that are to be numbered. |
-| [setSequenceIdentifier(String value)](#setSequenceIdentifier-java.lang.String-) | Sets the name assigned to the series of items that are to be numbered. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBookmarkName()](#getBookmarkName--) | Gets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
 | [getInsertNextNumber()](#getInsertNextNumber--) | Gets whether to insert the next sequence number for the specified item. |
-| [setInsertNextNumber(boolean value)](#setInsertNextNumber-boolean-) | Sets whether to insert the next sequence number for the specified item. |
-| [getResetNumber()](#getResetNumber--) | Gets an integer number to reset the sequence number to. |
-| [setResetNumber(String value)](#setResetNumber-java.lang.String-) | Sets an integer number to reset the sequence number to. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
 | [getResetHeadingLevel()](#getResetHeadingLevel--) | Gets an integer number representing a heading level to reset the sequence number to. |
-| [setResetHeadingLevel(String value)](#setResetHeadingLevel-java.lang.String-) | Sets an integer number representing a heading level to reset the sequence number to. |
+| [getResetNumber()](#getResetNumber--) | Gets an integer number to reset the sequence number to. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getSequenceIdentifier()](#getSequenceIdentifier--) | Gets the name assigned to the series of items that are to be numbered. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
 | [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-### getSequenceIdentifier() {#getSequenceIdentifier--}
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [hashCode()](#hashCode--) |  |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+| [setInsertNextNumber(boolean value)](#setInsertNextNumber-boolean-) | Sets whether to insert the next sequence number for the specified item. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setResetHeadingLevel(String value)](#setResetHeadingLevel-java.lang.String-) | Sets an integer number representing a heading level to reset the sequence number to. |
+| [setResetNumber(String value)](#setResetNumber-java.lang.String-) | Sets an integer number to reset the sequence number to. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setSequenceIdentifier(String value)](#setSequenceIdentifier-java.lang.String-) | Sets the name assigned to the series of items that are to be numbered. |
+| [toString()](#toString--) |  |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public String getSequenceIdentifier()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the name assigned to the series of items that are to be numbered.
 
-**Returns:**
-java.lang.String - The name assigned to the series of items that are to be numbered.
-### setSequenceIdentifier(String value) {#setSequenceIdentifier-java.lang.String-}
-```
-public void setSequenceIdentifier(String value)
-```
-
-
-Sets the name assigned to the series of items that are to be numbered.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The name assigned to the series of items that are to be numbered. |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
 ### getBookmarkName() {#getBookmarkName--}
 ```
 public String getBookmarkName()
@@ -66,19 +87,71 @@ Gets a bookmark name that refers to an item elsewhere in the document rather tha
 
 **Returns:**
 java.lang.String - A bookmark name that refers to an item elsewhere in the document rather than in the current location.
-### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public void setBookmarkName(String value)
+public final native Class<?> getClass()
 ```
 
 
-Sets a bookmark name that refers to an item elsewhere in the document rather than in the current location.
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayResult() {#getDisplayResult--}
+```
+public String getDisplayResult()
+```
+
+
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
+### getEnd() {#getEnd--}
+```
+public FieldEnd getEnd()
+```
+
+
+Gets the node that represents the field end.
+
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
+```
+public String getFieldCode()
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+
+**Returns:**
+java.lang.String
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+```
+public String getFieldCode(boolean includeChildFieldCodes)
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | A bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
+**Returns:**
+java.lang.String
+### getFormat() {#getFormat--}
+```
+public FieldFormat getFormat()
+```
+
+
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getInsertNextNumber() {#getInsertNextNumber--}
 ```
 public boolean getInsertNextNumber()
@@ -89,42 +162,16 @@ Gets whether to insert the next sequence number for the specified item.
 
 **Returns:**
 boolean - Whether to insert the next sequence number for the specified item.
-### setInsertNextNumber(boolean value) {#setInsertNextNumber-boolean-}
+### getLocaleId() {#getLocaleId--}
 ```
-public void setInsertNextNumber(boolean value)
-```
-
-
-Sets whether to insert the next sequence number for the specified item.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Whether to insert the next sequence number for the specified item. |
-
-### getResetNumber() {#getResetNumber--}
-```
-public String getResetNumber()
+public int getLocaleId()
 ```
 
 
-Gets an integer number to reset the sequence number to. Returns -1 if the number is absent.
+Gets the LCID of the field.
 
 **Returns:**
-java.lang.String - An integer number to reset the sequence number to.
-### setResetNumber(String value) {#setResetNumber-java.lang.String-}
-```
-public void setResetNumber(String value)
-```
-
-
-Sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | An integer number to reset the sequence number to. |
-
+int - The LCID of the field.
 ### getResetHeadingLevel() {#getResetHeadingLevel--}
 ```
 public String getResetHeadingLevel()
@@ -135,19 +182,56 @@ Gets an integer number representing a heading level to reset the sequence number
 
 **Returns:**
 java.lang.String - An integer number representing a heading level to reset the sequence number to.
-### setResetHeadingLevel(String value) {#setResetHeadingLevel-java.lang.String-}
+### getResetNumber() {#getResetNumber--}
 ```
-public void setResetHeadingLevel(String value)
+public String getResetNumber()
 ```
 
 
-Sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent.
+Gets an integer number to reset the sequence number to. Returns -1 if the number is absent.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | An integer number representing a heading level to reset the sequence number to. |
+**Returns:**
+java.lang.String - An integer number to reset the sequence number to.
+### getResult() {#getResult--}
+```
+public String getResult()
+```
 
+
+Gets text that is between the field separator and field end.
+
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
+### getSeparator() {#getSeparator--}
+```
+public FieldSeparator getSeparator()
+```
+
+
+Gets the node that represents the field separator. Can be null.
+
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+### getSequenceIdentifier() {#getSequenceIdentifier--}
+```
+public String getSequenceIdentifier()
+```
+
+
+Gets the name assigned to the series of items that are to be numbered.
+
+**Returns:**
+java.lang.String - The name assigned to the series of items that are to be numbered.
+### getStart() {#getStart--}
+```
+public FieldStart getStart()
+```
+
+
+Gets the node that represents the start of the field.
+
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
 public int getSwitchType(String switchName)
@@ -163,3 +247,266 @@ public int getSwitchType(String switchName)
 
 **Returns:**
 int
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Gets the Microsoft Word field type.
+
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isDirty() {#isDirty--}
+```
+public boolean isDirty()
+```
+
+
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+### isDirty(boolean value) {#isDirty-boolean-}
+```
+public void isDirty(boolean value)
+```
+
+
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+
+### isLocked() {#isLocked--}
+```
+public boolean isLocked()
+```
+
+
+Gets whether the field is locked (should not recalculate its result).
+
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
+### isLocked(boolean value) {#isLocked-boolean-}
+```
+public void isLocked(boolean value)
+```
+
+
+Sets whether the field is locked (should not recalculate its result).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
+
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public Node remove()
+```
+
+
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+
+**Returns:**
+[Node](../../com.aspose.words/node)
+### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
+```
+public void setBookmarkName(String value)
+```
+
+
+Sets a bookmark name that refers to an item elsewhere in the document rather than in the current location.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | A bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+
+### setInsertNextNumber(boolean value) {#setInsertNextNumber-boolean-}
+```
+public void setInsertNextNumber(boolean value)
+```
+
+
+Sets whether to insert the next sequence number for the specified item.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to insert the next sequence number for the specified item. |
+
+### setLocaleId(int value) {#setLocaleId-int-}
+```
+public void setLocaleId(int value)
+```
+
+
+Sets the LCID of the field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The LCID of the field. |
+
+### setResetHeadingLevel(String value) {#setResetHeadingLevel-java.lang.String-}
+```
+public void setResetHeadingLevel(String value)
+```
+
+
+Sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | An integer number representing a heading level to reset the sequence number to. |
+
+### setResetNumber(String value) {#setResetNumber-java.lang.String-}
+```
+public void setResetNumber(String value)
+```
+
+
+Sets an integer number to reset the sequence number to. Returns -1 if the number is absent.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | An integer number to reset the sequence number to. |
+
+### setResult(String value) {#setResult-java.lang.String-}
+```
+public void setResult(String value)
+```
+
+
+Sets text that is between the field separator and field end.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Text that is between the field separator and field end. |
+
+### setSequenceIdentifier(String value) {#setSequenceIdentifier-java.lang.String-}
+```
+public void setSequenceIdentifier(String value)
+```
+
+
+Sets the name assigned to the series of items that are to be numbered.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The name assigned to the series of items that are to be numbered. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### unlink() {#unlink--}
+```
+public boolean unlink()
+```
+
+
+Performs the field unlink.
+
+Replaces the field with its most recent result.
+
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
+### update() {#update--}
+```
+public void update()
+```
+
+
+Performs the field update. Throws if the field is being updated already.
+
+### update(boolean ignoreMergeFormat) {#update-boolean-}
+```
+public void update(boolean ignoreMergeFormat)
+```
+
+
+Performs a field update. Throws if the field is being updated already.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -25,30 +25,34 @@ To learn more, visit the **Work with Digital Signatures** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [isValid()](#isValid--) | Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets a document signature at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [hashCode()](#hashCode--) |  |
+| [isValid()](#isValid--) | Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. |
 | [iterator()](#iterator--) | Returns a dictionary iterator object that can be used to iterate over all items in the collection. |
-### isValid() {#isValid--}
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public boolean isValid()
+public boolean equals(Object arg0)
 ```
 
 
-Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. Returns  false  if at least one digital signature is invalid.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-boolean - \{ true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures.
-### getCount() {#getCount--}
-```
-public int getCount()
-```
-
-
-Gets the number of elements contained in the collection.
-
-**Returns:**
-int - The number of elements contained in the collection.
+boolean
 ### get(int index) {#get-int-}
 ```
 public DigitalSignature get(int index)
@@ -64,6 +68,46 @@ Gets a document signature at the specified index.
 
 **Returns:**
 [DigitalSignature](../../com.aspose.words/digitalsignature) - A document signature at the specified index.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of elements contained in the collection.
+
+**Returns:**
+int - The number of elements contained in the collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isValid() {#isValid--}
+```
+public boolean isValid()
+```
+
+
+Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. Returns  false  if at least one digital signature is invalid.
+
+**Returns:**
+boolean - \{ true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -74,3 +118,64 @@ Returns a dictionary iterator object that can be used to iterate over all items 
 
 **Returns:**
 java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

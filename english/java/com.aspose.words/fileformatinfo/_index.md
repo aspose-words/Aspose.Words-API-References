@@ -22,10 +22,54 @@ You do not create instances of this class directly. Objects of this class are re
 
 | Method | Description |
 | --- | --- |
-| [getLoadFormat()](#getLoadFormat--) | Gets the detected document format. |
-| [isEncrypted()](#isEncrypted--) | Returns true if the document is encrypted and requires a password to open. |
-| [hasDigitalSignature()](#hasDigitalSignature--) | Returns true if this document contains a digital signature. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getEncoding()](#getEncoding--) | Gets the detected encoding if applicable to the current document format. |
+| [getLoadFormat()](#getLoadFormat--) | Gets the detected document format. |
+| [hasDigitalSignature()](#hasDigitalSignature--) | Returns true if this document contains a digital signature. |
+| [hashCode()](#hashCode--) |  |
+| [isEncrypted()](#isEncrypted--) | Returns true if the document is encrypted and requires a password to open. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEncoding() {#getEncoding--}
+```
+public Charset getEncoding()
+```
+
+
+Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
+
+**Returns:**
+java.nio.charset.Charset - The detected encoding if applicable to the current document format.
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public int getLoadFormat()
@@ -38,18 +82,6 @@ When an OOXML document is encrypted, it is not possible to ascertained whether i
 
 **Returns:**
 int - The detected document format. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
-### isEncrypted() {#isEncrypted--}
-```
-public boolean isEncrypted()
-```
-
-
-Returns true if the document is encrypted and requires a password to open.
-
-This property exists to help you sort documents that are encrypted from those that are not. If you attempt to load an encrypted document using Aspose.Words without supplying a password an exception will be thrown. You can use this property to detect whether a document requires a password and take some action before loading a document, for example, prompt the user for a password.
-
-**Returns:**
-boolean - True if the document is encrypted and requires a password to open.
 ### hasDigitalSignature() {#hasDigitalSignature--}
 ```
 public boolean hasDigitalSignature()
@@ -62,13 +94,86 @@ This property exists to help you sort documents that are digitally signed from t
 
 **Returns:**
 boolean - True if this document contains a digital signature.
-### getEncoding() {#getEncoding--}
+### hashCode() {#hashCode--}
 ```
-public Charset getEncoding()
+public native int hashCode()
 ```
 
 
-Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
+
 
 **Returns:**
-java.nio.charset.Charset - The detected encoding if applicable to the current document format.
+int
+### isEncrypted() {#isEncrypted--}
+```
+public boolean isEncrypted()
+```
+
+
+Returns true if the document is encrypted and requires a password to open.
+
+This property exists to help you sort documents that are encrypted from those that are not. If you attempt to load an encrypted document using Aspose.Words without supplying a password an exception will be thrown. You can use this property to detect whether a document requires a password and take some action before loading a document, for example, prompt the user for a password.
+
+**Returns:**
+boolean - True if the document is encrypted and requires a password to open.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

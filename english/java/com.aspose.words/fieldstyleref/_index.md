@@ -22,21 +22,240 @@ The STYLEREF is used to reference a fragment of text within the document that is
 
 | Method | Description |
 | --- | --- |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getStyleName()](#getStyleName--) | Gets the name of the style by which the text to search for is formatted. |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the style by which the text to search for is formatted. |
-| [getSearchFromBottom()](#getSearchFromBottom--) | Gets whether to search from the bottom of the current page, rather from the top. |
-| [setSearchFromBottom(boolean value)](#setSearchFromBottom-boolean-) | Sets whether to search from the bottom of the current page, rather from the top. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
 | [getInsertParagraphNumber()](#getInsertParagraphNumber--) | Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [getInsertRelativePosition()](#getInsertRelativePosition--) | Gets whether to insert the relative position of the referenced paragraph. |
-| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | Sets whether to insert the relative position of the referenced paragraph. |
-| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | Gets whether to suppress non-delimiter characters. |
-| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | Sets whether to suppress non-delimiter characters. |
 | [getInsertParagraphNumberInFullContext()](#getInsertParagraphNumberInFullContext--) | Gets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [getInsertRelativePosition()](#getInsertRelativePosition--) | Gets whether to insert the relative position of the referenced paragraph. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSearchFromBottom()](#getSearchFromBottom--) | Gets whether to search from the bottom of the current page, rather from the top. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getStyleName()](#getStyleName--) | Gets the name of the style by which the text to search for is formatted. |
+| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | Gets whether to suppress non-delimiter characters. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [hashCode()](#hashCode--) |  |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
 | [setInsertParagraphNumberInFullContext(boolean value)](#setInsertParagraphNumberInFullContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | Sets whether to insert the relative position of the referenced paragraph. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setSearchFromBottom(boolean value)](#setSearchFromBottom-boolean-) | Sets whether to search from the bottom of the current page, rather from the top. |
+| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the style by which the text to search for is formatted. |
+| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | Sets whether to suppress non-delimiter characters. |
+| [toString()](#toString--) |  |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayResult() {#getDisplayResult--}
+```
+public String getDisplayResult()
+```
+
+
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
+### getEnd() {#getEnd--}
+```
+public FieldEnd getEnd()
+```
+
+
+Gets the node that represents the field end.
+
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
+```
+public String getFieldCode()
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+
+**Returns:**
+java.lang.String
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+```
+public String getFieldCode(boolean includeChildFieldCodes)
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+
+**Returns:**
+java.lang.String
+### getFormat() {#getFormat--}
+```
+public FieldFormat getFormat()
+```
+
+
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+### getInsertParagraphNumber() {#getInsertParagraphNumber--}
+```
+public boolean getInsertParagraphNumber()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+### getInsertParagraphNumberInFullContext() {#getInsertParagraphNumberInFullContext--}
+```
+public boolean getInsertParagraphNumberInFullContext()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph in full context.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph in full context.
+### getInsertParagraphNumberInRelativeContext() {#getInsertParagraphNumberInRelativeContext--}
+```
+public boolean getInsertParagraphNumberInRelativeContext()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph in relative context.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph in relative context.
+### getInsertRelativePosition() {#getInsertRelativePosition--}
+```
+public boolean getInsertRelativePosition()
+```
+
+
+Gets whether to insert the relative position of the referenced paragraph.
+
+**Returns:**
+boolean - Whether to insert the relative position of the referenced paragraph.
+### getLocaleId() {#getLocaleId--}
+```
+public int getLocaleId()
+```
+
+
+Gets the LCID of the field.
+
+**Returns:**
+int - The LCID of the field.
+### getResult() {#getResult--}
+```
+public String getResult()
+```
+
+
+Gets text that is between the field separator and field end.
+
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
+### getSearchFromBottom() {#getSearchFromBottom--}
+```
+public boolean getSearchFromBottom()
+```
+
+
+Gets whether to search from the bottom of the current page, rather from the top.
+
+**Returns:**
+boolean - Whether to search from the bottom of the current page, rather from the top.
+### getSeparator() {#getSeparator--}
+```
+public FieldSeparator getSeparator()
+```
+
+
+Gets the node that represents the field separator. Can be null.
+
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+### getStart() {#getStart--}
+```
+public FieldStart getStart()
+```
+
+
+Gets the node that represents the start of the field.
+
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+### getStyleName() {#getStyleName--}
+```
+public String getStyleName()
+```
+
+
+Gets the name of the style by which the text to search for is formatted.
+
+**Returns:**
+java.lang.String - The name of the style by which the text to search for is formatted.
+### getSuppressNonDelimiters() {#getSuppressNonDelimiters--}
+```
+public boolean getSuppressNonDelimiters()
+```
+
+
+Gets whether to suppress non-delimiter characters.
+
+**Returns:**
+boolean - Whether to suppress non-delimiter characters.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
 public int getSwitchType(String switchName)
@@ -52,62 +271,98 @@ public int getSwitchType(String switchName)
 
 **Returns:**
 int
-### getStyleName() {#getStyleName--}
+### getType() {#getType--}
 ```
-public String getStyleName()
+public int getType()
 ```
 
 
-Gets the name of the style by which the text to search for is formatted.
+Gets the Microsoft Word field type.
 
 **Returns:**
-java.lang.String - The name of the style by which the text to search for is formatted.
-### setStyleName(String value) {#setStyleName-java.lang.String-}
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+### hashCode() {#hashCode--}
 ```
-public void setStyleName(String value)
+public native int hashCode()
 ```
 
 
-Sets the name of the style by which the text to search for is formatted.
+
+
+**Returns:**
+int
+### isDirty() {#isDirty--}
+```
+public boolean isDirty()
+```
+
+
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+### isDirty(boolean value) {#isDirty-boolean-}
+```
+public void isDirty(boolean value)
+```
+
+
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The name of the style by which the text to search for is formatted. |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### getSearchFromBottom() {#getSearchFromBottom--}
+### isLocked() {#isLocked--}
 ```
-public boolean getSearchFromBottom()
+public boolean isLocked()
 ```
 
 
-Gets whether to search from the bottom of the current page, rather from the top.
+Gets whether the field is locked (should not recalculate its result).
 
 **Returns:**
-boolean - Whether to search from the bottom of the current page, rather from the top.
-### setSearchFromBottom(boolean value) {#setSearchFromBottom-boolean-}
+boolean - Whether the field is locked (should not recalculate its result).
+### isLocked(boolean value) {#isLocked-boolean-}
 ```
-public void setSearchFromBottom(boolean value)
+public void isLocked(boolean value)
 ```
 
 
-Sets whether to search from the bottom of the current page, rather from the top.
+Sets whether the field is locked (should not recalculate its result).
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to search from the bottom of the current page, rather from the top. |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
-### getInsertParagraphNumber() {#getInsertParagraphNumber--}
+### notify() {#notify--}
 ```
-public boolean getInsertParagraphNumber()
+public final native void notify()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public Node remove()
+```
+
+
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
 **Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+[Node](../../com.aspose.words/node)
 ### setInsertParagraphNumber(boolean value) {#setInsertParagraphNumber-boolean-}
 ```
 public void setInsertParagraphNumber(boolean value)
@@ -121,39 +376,19 @@ Sets whether to insert the paragraph number of the referenced paragraph exactly 
 | --- | --- | --- |
 | value | boolean | Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
 
-### getInsertRelativePosition() {#getInsertRelativePosition--}
+### setInsertParagraphNumberInFullContext(boolean value) {#setInsertParagraphNumberInFullContext-boolean-}
 ```
-public boolean getInsertRelativePosition()
-```
-
-
-Gets whether to insert the relative position of the referenced paragraph.
-
-**Returns:**
-boolean - Whether to insert the relative position of the referenced paragraph.
-### setInsertRelativePosition(boolean value) {#setInsertRelativePosition-boolean-}
-```
-public void setInsertRelativePosition(boolean value)
+public void setInsertParagraphNumberInFullContext(boolean value)
 ```
 
 
-Sets whether to insert the relative position of the referenced paragraph.
+Sets whether to insert the paragraph number of the referenced paragraph in full context.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to insert the relative position of the referenced paragraph. |
+| value | boolean | Whether to insert the paragraph number of the referenced paragraph in full context. |
 
-### getInsertParagraphNumberInRelativeContext() {#getInsertParagraphNumberInRelativeContext--}
-```
-public boolean getInsertParagraphNumberInRelativeContext()
-```
-
-
-Gets whether to insert the paragraph number of the referenced paragraph in relative context.
-
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in relative context.
 ### setInsertParagraphNumberInRelativeContext(boolean value) {#setInsertParagraphNumberInRelativeContext-boolean-}
 ```
 public void setInsertParagraphNumberInRelativeContext(boolean value)
@@ -167,16 +402,71 @@ Sets whether to insert the paragraph number of the referenced paragraph in relat
 | --- | --- | --- |
 | value | boolean | Whether to insert the paragraph number of the referenced paragraph in relative context. |
 
-### getSuppressNonDelimiters() {#getSuppressNonDelimiters--}
+### setInsertRelativePosition(boolean value) {#setInsertRelativePosition-boolean-}
 ```
-public boolean getSuppressNonDelimiters()
+public void setInsertRelativePosition(boolean value)
 ```
 
 
-Gets whether to suppress non-delimiter characters.
+Sets whether to insert the relative position of the referenced paragraph.
 
-**Returns:**
-boolean - Whether to suppress non-delimiter characters.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to insert the relative position of the referenced paragraph. |
+
+### setLocaleId(int value) {#setLocaleId-int-}
+```
+public void setLocaleId(int value)
+```
+
+
+Sets the LCID of the field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The LCID of the field. |
+
+### setResult(String value) {#setResult-java.lang.String-}
+```
+public void setResult(String value)
+```
+
+
+Sets text that is between the field separator and field end.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Text that is between the field separator and field end. |
+
+### setSearchFromBottom(boolean value) {#setSearchFromBottom-boolean-}
+```
+public void setSearchFromBottom(boolean value)
+```
+
+
+Sets whether to search from the bottom of the current page, rather from the top.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to search from the bottom of the current page, rather from the top. |
+
+### setStyleName(String value) {#setStyleName-java.lang.String-}
+```
+public void setStyleName(String value)
+```
+
+
+Sets the name of the style by which the text to search for is formatted.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The name of the style by which the text to search for is formatted. |
+
 ### setSuppressNonDelimiters(boolean value) {#setSuppressNonDelimiters-boolean-}
 ```
 public void setSuppressNonDelimiters(boolean value)
@@ -190,26 +480,83 @@ Sets whether to suppress non-delimiter characters.
 | --- | --- | --- |
 | value | boolean | Whether to suppress non-delimiter characters. |
 
-### getInsertParagraphNumberInFullContext() {#getInsertParagraphNumberInFullContext--}
+### toString() {#toString--}
 ```
-public boolean getInsertParagraphNumberInFullContext()
+public String toString()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph in full context.
+
 
 **Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in full context.
-### setInsertParagraphNumberInFullContext(boolean value) {#setInsertParagraphNumberInFullContext-boolean-}
+java.lang.String
+### unlink() {#unlink--}
 ```
-public void setInsertParagraphNumberInFullContext(boolean value)
+public boolean unlink()
 ```
 
 
-Sets whether to insert the paragraph number of the referenced paragraph in full context.
+Performs the field unlink.
+
+Replaces the field with its most recent result.
+
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
+### update() {#update--}
+```
+public void update()
+```
+
+
+Performs the field update. Throws if the field is being updated already.
+
+### update(boolean ignoreMergeFormat) {#update-boolean-}
+```
+public void update(boolean ignoreMergeFormat)
+```
+
+
+Performs a field update. Throws if the field is being updated already.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to insert the paragraph number of the referenced paragraph in full context. |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

@@ -18,20 +18,37 @@ Specifies the type of a font source.
 
 | Field | Description |
 | --- | --- |
-| [FONT_FILE](#FONT-FILE) | A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file. |
 | [FONTS_FOLDER](#FONTS-FOLDER) | A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files. |
+| [FONT_FILE](#FONT-FILE) | A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file. |
+| [FONT_STREAM](#FONT-STREAM) | A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data. |
 | [MEMORY_FONT](#MEMORY-FONT) | A [MemoryFontSource](../../com.aspose.words/memoryfontsource) object that represents single font in memory. |
 | [SYSTEM_FONTS](#SYSTEM-FONTS) | A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system. |
-| [FONT_STREAM](#FONT-STREAM) | A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int fontSourceType)](#getName-int-) |  |
-| [toString(int fontSourceType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontSourceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fontSourceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int fontSourceType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### FONTS_FOLDER {#FONTS-FOLDER}
+```
+public static int FONTS_FOLDER
+```
+
+
+A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files.
+
 ### FONT_FILE {#FONT-FILE}
 ```
 public static int FONT_FILE
@@ -40,13 +57,13 @@ public static int FONT_FILE
 
 A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file.
 
-### FONTS_FOLDER {#FONTS-FOLDER}
+### FONT_STREAM {#FONT-STREAM}
 ```
-public static int FONTS_FOLDER
+public static int FONT_STREAM
 ```
 
 
-A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files.
+A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data.
 
 ### MEMORY_FONT {#MEMORY-FONT}
 ```
@@ -64,20 +81,52 @@ public static int SYSTEM_FONTS
 
 A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system.
 
-### FONT_STREAM {#FONT-STREAM}
-```
-public static int FONT_STREAM
-```
-
-
-A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String fontSourceTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String fontSourceTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontSourceTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int fontSourceType) {#getName-int-}
 ```
 public static String getName(int fontSourceType)
@@ -90,6 +139,52 @@ public static String getName(int fontSourceType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fontSourceType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int fontSourceType)
 
 **Returns:**
 java.lang.String
-### fromName(String fontSourceTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String fontSourceTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String fontSourceTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontSourceTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

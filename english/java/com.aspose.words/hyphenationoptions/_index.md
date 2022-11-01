@@ -23,14 +23,38 @@ To learn more, visit the **Working with Hyphenation** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAutoHyphenation()](#getAutoHyphenation--) | Gets value determining whether automatic hyphenation is turned on for the document. |
-| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean-) | Sets value determining whether automatic hyphenation is turned on for the document. |
+| [getClass()](#getClass--) |  |
 | [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit--) | Gets the maximum number of consecutive lines that can end with hyphens. |
-| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int-) | Sets the maximum number of consecutive lines that can end with hyphens. |
-| [getHyphenationZone()](#getHyphenationZone--) | Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
-| [setHyphenationZone(int value)](#setHyphenationZone-int-) | Sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
 | [getHyphenateCaps()](#getHyphenateCaps--) | Gets value determining whether words written in all capital letters are hyphenated. |
+| [getHyphenationZone()](#getHyphenationZone--) | Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean-) | Sets value determining whether automatic hyphenation is turned on for the document. |
+| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int-) | Sets the maximum number of consecutive lines that can end with hyphens. |
 | [setHyphenateCaps(boolean value)](#setHyphenateCaps-boolean-) | Sets value determining whether words written in all capital letters are hyphenated. |
+| [setHyphenationZone(int value)](#setHyphenationZone-int-) | Sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getAutoHyphenation() {#getAutoHyphenation--}
 ```
 public boolean getAutoHyphenation()
@@ -41,19 +65,16 @@ Gets value determining whether automatic hyphenation is turned on for the docume
 
 **Returns:**
 boolean - Value determining whether automatic hyphenation is turned on for the document.
-### setAutoHyphenation(boolean value) {#setAutoHyphenation-boolean-}
+### getClass() {#getClass--}
 ```
-public void setAutoHyphenation(boolean value)
+public final native Class<?> getClass()
 ```
 
 
-Sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | Value determining whether automatic hyphenation is turned on for the document. |
 
+**Returns:**
+java.lang.Class<?>
 ### getConsecutiveHyphenLimit() {#getConsecutiveHyphenLimit--}
 ```
 public int getConsecutiveHyphenLimit()
@@ -68,6 +89,65 @@ The property does not have effect when saving to fixed page formats e.g. PDF.
 
 **Returns:**
 int - The maximum number of consecutive lines that can end with hyphens.
+### getHyphenateCaps() {#getHyphenateCaps--}
+```
+public boolean getHyphenateCaps()
+```
+
+
+Gets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
+
+**Returns:**
+boolean - Value determining whether words written in all capital letters are hyphenated.
+### getHyphenationZone() {#getHyphenationZone--}
+```
+public int getHyphenationZone()
+```
+
+
+Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch).
+
+**Returns:**
+int - The distance in 1/20 of a point from the right margin within which you do not want to hyphenate words.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setAutoHyphenation(boolean value) {#setAutoHyphenation-boolean-}
+```
+public void setAutoHyphenation(boolean value)
+```
+
+
+Sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Value determining whether automatic hyphenation is turned on for the document. |
+
 ### setConsecutiveHyphenLimit(int value) {#setConsecutiveHyphenLimit-int-}
 ```
 public void setConsecutiveHyphenLimit(int value)
@@ -85,16 +165,19 @@ The property does not have effect when saving to fixed page formats e.g. PDF.
 | --- | --- | --- |
 | value | int | The maximum number of consecutive lines that can end with hyphens. |
 
-### getHyphenationZone() {#getHyphenationZone--}
+### setHyphenateCaps(boolean value) {#setHyphenateCaps-boolean-}
 ```
-public int getHyphenationZone()
+public void setHyphenateCaps(boolean value)
 ```
 
 
-Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch).
+Sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
-**Returns:**
-int - The distance in 1/20 of a point from the right margin within which you do not want to hyphenate words.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Value determining whether words written in all capital letters are hyphenated. |
+
 ### setHyphenationZone(int value) {#setHyphenationZone-int-}
 ```
 public void setHyphenationZone(int value)
@@ -108,26 +191,48 @@ Sets the distance in 1/20 of a point from the right margin within which you do n
 | --- | --- | --- |
 | value | int | The distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
 
-### getHyphenateCaps() {#getHyphenateCaps--}
+### toString() {#toString--}
 ```
-public boolean getHyphenateCaps()
+public String toString()
 ```
 
 
-Gets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
+
 
 **Returns:**
-boolean - Value determining whether words written in all capital letters are hyphenated.
-### setHyphenateCaps(boolean value) {#setHyphenateCaps-boolean-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setHyphenateCaps(boolean value)
+public final void wait()
 ```
 
 
-Sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Value determining whether words written in all capital letters are hyphenated. |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

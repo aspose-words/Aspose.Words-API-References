@@ -20,39 +20,60 @@ To learn more, visit the **Working with Footnote and Endnote** documentation art
 
 | Method | Description |
 | --- | --- |
-| [getPosition()](#getPosition--) | Specifies the endnotes position. |
-| [setPosition(int value)](#setPosition-int-) | Specifies the endnotes position. |
-| [getNumberStyle()](#getNumberStyle--) | Specifies the number format for automatically numbered endnotes. |
-| [setNumberStyle(int value)](#setNumberStyle-int-) | Specifies the number format for automatically numbered endnotes. |
-| [getStartNumber()](#getStartNumber--) | Specifies the starting number or character for the first automatically numbered endnotes. |
-| [setStartNumber(int value)](#setStartNumber-int-) | Specifies the starting number or character for the first automatically numbered endnotes. |
-| [getRestartRule()](#getRestartRule--) | Determines when automatic numbering restarts. |
-| [setRestartRule(int value)](#setRestartRule-int-) | Determines when automatic numbering restarts. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getLocation()](#getLocation--) |  |
+| [getNumberStyle()](#getNumberStyle--) | Specifies the number format for automatically numbered endnotes. |
+| [getPosition()](#getPosition--) | Specifies the endnotes position. |
+| [getRestartRule()](#getRestartRule--) | Determines when automatic numbering restarts. |
+| [getStartNumber()](#getStartNumber--) | Specifies the starting number or character for the first automatically numbered endnotes. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [setLocation(int value)](#setLocation-int-) |  |
-### getPosition() {#getPosition--}
+| [setNumberStyle(int value)](#setNumberStyle-int-) | Specifies the number format for automatically numbered endnotes. |
+| [setPosition(int value)](#setPosition-int-) | Specifies the endnotes position. |
+| [setRestartRule(int value)](#setRestartRule-int-) | Determines when automatic numbering restarts. |
+| [setStartNumber(int value)](#setStartNumber-int-) | Specifies the starting number or character for the first automatically numbered endnotes. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public int getPosition()
-```
-
-
-Specifies the endnotes position.
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [EndnotePosition](../../com.aspose.words/endnoteposition) constants.
-### setPosition(int value) {#setPosition-int-}
-```
-public void setPosition(int value)
+public boolean equals(Object arg0)
 ```
 
 
-Specifies the endnotes position.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [EndnotePosition](../../com.aspose.words/endnoteposition) constants. |
+| arg0 | java.lang.Object |  |
 
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getLocation() {#getLocation--}
+```
+public int getLocation()
+```
+
+
+
+
+**Returns:**
+int
 ### getNumberStyle() {#getNumberStyle--}
 ```
 public int getNumberStyle()
@@ -65,6 +86,79 @@ Not all number styles are applicable for this property. For the list of applicab
 
 **Returns:**
 int - The corresponding  int  value. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
+### getPosition() {#getPosition--}
+```
+public int getPosition()
+```
+
+
+Specifies the endnotes position.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [EndnotePosition](../../com.aspose.words/endnoteposition) constants.
+### getRestartRule() {#getRestartRule--}
+```
+public int getRestartRule()
+```
+
+
+Determines when automatic numbering restarts.
+
+Not all values are applicable to endnotes. To ascertain which values are applicable see [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule).
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants.
+### getStartNumber() {#getStartNumber--}
+```
+public int getStartNumber()
+```
+
+
+Specifies the starting number or character for the first automatically numbered endnotes.
+
+This property has effect only when [getRestartRule()](../../com.aspose.words/endnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/endnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+
+**Returns:**
+int - The corresponding  int  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setLocation(int value) {#setLocation-int-}
+```
+public void setLocation(int value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
 ### setNumberStyle(int value) {#setNumberStyle-int-}
 ```
 public void setNumberStyle(int value)
@@ -80,45 +174,19 @@ Not all number styles are applicable for this property. For the list of applicab
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
 
-### getStartNumber() {#getStartNumber--}
+### setPosition(int value) {#setPosition-int-}
 ```
-public int getStartNumber()
-```
-
-
-Specifies the starting number or character for the first automatically numbered endnotes.
-
-This property has effect only when [getRestartRule()](../../com.aspose.words/endnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/endnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
-
-**Returns:**
-int - The corresponding  int  value.
-### setStartNumber(int value) {#setStartNumber-int-}
-```
-public void setStartNumber(int value)
+public void setPosition(int value)
 ```
 
 
-Specifies the starting number or character for the first automatically numbered endnotes.
-
-This property has effect only when [getRestartRule()](../../com.aspose.words/endnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/endnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+Specifies the endnotes position.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | The corresponding  int  value. The value must be one of [EndnotePosition](../../com.aspose.words/endnoteposition) constants. |
 
-### getRestartRule() {#getRestartRule--}
-```
-public int getRestartRule()
-```
-
-
-Determines when automatic numbering restarts.
-
-Not all values are applicable to endnotes. To ascertain which values are applicable see [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule).
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants.
 ### setRestartRule(int value) {#setRestartRule-int-}
 ```
 public void setRestartRule(int value)
@@ -134,19 +202,42 @@ Not all values are applicable to endnotes. To ascertain which values are applica
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants. |
 
-### getLocation() {#getLocation--}
+### setStartNumber(int value) {#setStartNumber-int-}
 ```
-public int getLocation()
+public void setStartNumber(int value)
+```
+
+
+Specifies the starting number or character for the first automatically numbered endnotes.
+
+This property has effect only when [getRestartRule()](../../com.aspose.words/endnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/endnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. |
+
+### toString() {#toString--}
+```
+public String toString()
 ```
 
 
 
 
 **Returns:**
-int
-### setLocation(int value) {#setLocation-int-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setLocation(int value)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -155,5 +246,19 @@ public void setLocation(int value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

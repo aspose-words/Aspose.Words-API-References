@@ -18,61 +18,54 @@ Specifies type of an Office Math object.
 
 | Field | Description |
 | --- | --- |
-| [O_MATH](#O-MATH) | Instance of mathematical text. |
-| [O_MATH_PARA](#O-MATH-PARA) | Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode. |
 | [ACCENT](#ACCENT) | Accent function, consisting of a base and a combining diacritical mark. |
+| [ARGUMENT](#ARGUMENT) | Argument object. |
+| [ARRAY](#ARRAY) | Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line. |
 | [BAR](#BAR) | Bar function, consisting of a base argument and an overbar or underbar. |
 | [BORDER_BOX](#BORDER-BOX) | Border Box object, consisting of a border drawn around an instance of mathematical text (such as a formula or equation) |
 | [BOX](#BOX) | Box object, which is used to group components of an equation or other instance of mathematical text. |
-| [DELIMITER](#DELIMITER) | Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside. |
 | [DEGREE](#DEGREE) | Degree in the mathematical radical. |
-| [ARGUMENT](#ARGUMENT) | Argument object. |
-| [ARRAY](#ARRAY) | Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line. |
-| [FRACTION](#FRACTION) | Fraction object, consisting of a numerator and denominator separated by a fraction bar. |
+| [DELIMITER](#DELIMITER) | Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside. |
 | [DENOMINATOR](#DENOMINATOR) | Denominator of a fraction object. |
-| [NUMERATOR](#NUMERATOR) | Numerator of the Fraction object. |
+| [FRACTION](#FRACTION) | Fraction object, consisting of a numerator and denominator separated by a fraction bar. |
 | [FUNCTION](#FUNCTION) | Function-Apply object, which consists of a function name and an argument element acted upon. |
 | [FUNCTION_NAME](#FUNCTION-NAME) | Name of the function. |
 | [GROUP_CHARACTER](#GROUP-CHARACTER) | Group-Character object, consisting of a character drawn above or below text, often with the purpose of visually grouping items |
 | [LIMIT](#LIMIT) | Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT) function. |
 | [LOWER_LIMIT](#LOWER-LIMIT) | Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it. |
-| [UPPER_LIMIT](#UPPER-LIMIT) | Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it. |
 | [MATRIX](#MATRIX) | Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns. |
 | [MATRIX_ROW](#MATRIX-ROW) | Single row of the matrix. |
+| [NUMERATOR](#NUMERATOR) | Numerator of the Fraction object. |
 | [N_ARY](#N-ARY) | N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits. |
+| [O_MATH](#O-MATH) | Instance of mathematical text. |
+| [O_MATH_PARA](#O-MATH-PARA) | Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode. |
 | [PHANTOM](#PHANTOM) | Phantom object. |
-| [RADICAL](#RADICAL) | Radical object, consisting of a radical, a base element, and an optional degree . |
-| [SUBSCRIPT_PART](#SUBSCRIPT-PART) | Subscript of the object that can have subscript part. |
-| [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | Superscript of the superscript object. |
 | [PRE_SUB_SUPERSCRIPT](#PRE-SUB-SUPERSCRIPT) | Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base. |
+| [RADICAL](#RADICAL) | Radical object, consisting of a radical, a base element, and an optional degree . |
 | [SUBSCRIPT](#SUBSCRIPT) | Subscript object, which consists of a base element and a reduced-size script placed below and to the right. |
+| [SUBSCRIPT_PART](#SUBSCRIPT-PART) | Subscript of the object that can have subscript part. |
 | [SUB_SUPERSCRIPT](#SUB-SUPERSCRIPT) | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
 | [SUPERCRIPT](#SUPERCRIPT) | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | Superscript of the superscript object. |
+| [UPPER_LIMIT](#UPPER-LIMIT) | Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int mathObjectType)](#getName-int-) |  |
-| [toString(int mathObjectType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mathObjectTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mathObjectType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### O_MATH {#O-MATH}
-```
-public static int O_MATH
-```
-
-
-Instance of mathematical text.
-
-### O_MATH_PARA {#O-MATH-PARA}
-```
-public static int O_MATH_PARA
-```
-
-
-Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int mathObjectType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ACCENT {#ACCENT}
 ```
 public static int ACCENT
@@ -80,6 +73,22 @@ public static int ACCENT
 
 
 Accent function, consisting of a base and a combining diacritical mark.
+
+### ARGUMENT {#ARGUMENT}
+```
+public static int ARGUMENT
+```
+
+
+Argument object. Encloses Office Math entities when they are used as arguments to other Office Math entities.
+
+### ARRAY {#ARRAY}
+```
+public static int ARRAY
+```
+
+
+Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line.
 
 ### BAR {#BAR}
 ```
@@ -105,14 +114,6 @@ public static int BOX
 
 Box object, which is used to group components of an equation or other instance of mathematical text.
 
-### DELIMITER {#DELIMITER}
-```
-public static int DELIMITER
-```
-
-
-Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside.
-
 ### DEGREE {#DEGREE}
 ```
 public static int DEGREE
@@ -121,29 +122,13 @@ public static int DEGREE
 
 Degree in the mathematical radical.
 
-### ARGUMENT {#ARGUMENT}
+### DELIMITER {#DELIMITER}
 ```
-public static int ARGUMENT
-```
-
-
-Argument object. Encloses Office Math entities when they are used as arguments to other Office Math entities.
-
-### ARRAY {#ARRAY}
-```
-public static int ARRAY
+public static int DELIMITER
 ```
 
 
-Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line.
-
-### FRACTION {#FRACTION}
-```
-public static int FRACTION
-```
-
-
-Fraction object, consisting of a numerator and denominator separated by a fraction bar.
+Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside.
 
 ### DENOMINATOR {#DENOMINATOR}
 ```
@@ -153,13 +138,13 @@ public static int DENOMINATOR
 
 Denominator of a fraction object.
 
-### NUMERATOR {#NUMERATOR}
+### FRACTION {#FRACTION}
 ```
-public static int NUMERATOR
+public static int FRACTION
 ```
 
 
-Numerator of the Fraction object.
+Fraction object, consisting of a numerator and denominator separated by a fraction bar.
 
 ### FUNCTION {#FUNCTION}
 ```
@@ -201,14 +186,6 @@ public static int LOWER_LIMIT
 
 Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it.
 
-### UPPER_LIMIT {#UPPER-LIMIT}
-```
-public static int UPPER_LIMIT
-```
-
-
-Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it.
-
 ### MATRIX {#MATRIX}
 ```
 public static int MATRIX
@@ -225,6 +202,14 @@ public static int MATRIX_ROW
 
 Single row of the matrix.
 
+### NUMERATOR {#NUMERATOR}
+```
+public static int NUMERATOR
+```
+
+
+Numerator of the Fraction object.
+
 ### N_ARY {#N-ARY}
 ```
 public static int N_ARY
@@ -232,6 +217,22 @@ public static int N_ARY
 
 
 N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits.
+
+### O_MATH {#O-MATH}
+```
+public static int O_MATH
+```
+
+
+Instance of mathematical text.
+
+### O_MATH_PARA {#O-MATH-PARA}
+```
+public static int O_MATH_PARA
+```
+
+
+Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode.
 
 ### PHANTOM {#PHANTOM}
 ```
@@ -241,30 +242,6 @@ public static int PHANTOM
 
 Phantom object.
 
-### RADICAL {#RADICAL}
-```
-public static int RADICAL
-```
-
-
-Radical object, consisting of a radical, a base element, and an optional degree .
-
-### SUBSCRIPT_PART {#SUBSCRIPT-PART}
-```
-public static int SUBSCRIPT_PART
-```
-
-
-Subscript of the object that can have subscript part.
-
-### SUPERSCRIPT_PART {#SUPERSCRIPT-PART}
-```
-public static int SUPERSCRIPT_PART
-```
-
-
-Superscript of the superscript object.
-
 ### PRE_SUB_SUPERSCRIPT {#PRE-SUB-SUPERSCRIPT}
 ```
 public static int PRE_SUB_SUPERSCRIPT
@@ -273,6 +250,14 @@ public static int PRE_SUB_SUPERSCRIPT
 
 Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base.
 
+### RADICAL {#RADICAL}
+```
+public static int RADICAL
+```
+
+
+Radical object, consisting of a radical, a base element, and an optional degree .
+
 ### SUBSCRIPT {#SUBSCRIPT}
 ```
 public static int SUBSCRIPT
@@ -280,6 +265,14 @@ public static int SUBSCRIPT
 
 
 Subscript object, which consists of a base element and a reduced-size script placed below and to the right.
+
+### SUBSCRIPT_PART {#SUBSCRIPT-PART}
+```
+public static int SUBSCRIPT_PART
+```
+
+
+Subscript of the object that can have subscript part.
 
 ### SUB_SUPERSCRIPT {#SUB-SUPERSCRIPT}
 ```
@@ -297,12 +290,68 @@ public static int SUPERCRIPT
 
 Superscript object, which consists of a base element and a reduced-size script placed above and to the right.
 
+### SUPERSCRIPT_PART {#SUPERSCRIPT-PART}
+```
+public static int SUPERSCRIPT_PART
+```
+
+
+Superscript of the superscript object.
+
+### UPPER_LIMIT {#UPPER-LIMIT}
+```
+public static int UPPER_LIMIT
+```
+
+
+Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String mathObjectTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String mathObjectTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mathObjectTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int mathObjectType) {#getName-int-}
 ```
 public static String getName(int mathObjectType)
@@ -315,6 +364,52 @@ public static String getName(int mathObjectType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mathObjectType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -333,9 +428,17 @@ public static String toString(int mathObjectType)
 
 **Returns:**
 java.lang.String
-### fromName(String mathObjectTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String mathObjectTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -344,17 +447,19 @@ public static int fromName(String mathObjectTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mathObjectTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

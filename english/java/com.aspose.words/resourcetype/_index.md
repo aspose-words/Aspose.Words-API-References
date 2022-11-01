@@ -18,26 +18,27 @@ Type of loaded resource.
 
 | Field | Description |
 | --- | --- |
-| [IMAGE](#IMAGE) | Image. |
 | [CSS_STYLE_SHEET](#CSS-STYLE-SHEET) | Css style sheet. |
 | [DOCUMENT](#DOCUMENT) | Document. |
+| [IMAGE](#IMAGE) | Image. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int resourceType)](#getName-int-) |  |
-| [toString(int resourceType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String resourceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int resourceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### IMAGE {#IMAGE}
-```
-public static int IMAGE
-```
-
-
-Image.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int resourceType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CSS_STYLE_SHEET {#CSS-STYLE-SHEET}
 ```
 public static int CSS_STYLE_SHEET
@@ -54,12 +55,60 @@ public static int DOCUMENT
 
 Document.
 
+### IMAGE {#IMAGE}
+```
+public static int IMAGE
+```
+
+
+Image.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String resourceTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String resourceTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| resourceTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int resourceType) {#getName-int-}
 ```
 public static String getName(int resourceType)
@@ -72,6 +121,52 @@ public static String getName(int resourceType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | resourceType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int resourceType)
 
 **Returns:**
 java.lang.String
-### fromName(String resourceTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String resourceTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String resourceTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| resourceTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -25,16 +25,25 @@ Represents a collection of [DataColumn](../../com.aspose.words.net.system.data/d
 | [add(String columnName)](#add-java.lang.String-) | Creates and adds a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name to the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
 | [add(String columnName, Class type)](#add-java.lang.String-java.lang.Class-) | Creates and adds a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name and type to the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
 | [add(String columnName, Class type, int columnMapping, boolean allowAutoIncrement, boolean allowDBNull)](#add-java.lang.String-java.lang.Class-int-boolean-boolean-) | Creates and adds a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) with the specified name, type and specific values to the columns collection. |
-| [indexOf(String columnName)](#indexOf-java.lang.String-) | Gets the index of the column with the specific name (the name is not case sensitive). |
-| [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn-) | Gets the index of a column specified by name. |
+| [clear()](#clear--) | Clears the collection of any columns. |
+| [contains(String name)](#contains-java.lang.String-) | Checks whether the collection contains a column with the specified name. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) from the collection at the specified index. |
 | [get(String name)](#get-java.lang.String-) | Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) from the collection with the specified name. |
-| [contains(String name)](#contains-java.lang.String-) | Checks whether the collection contains a column with the specified name. |
-| [remove(String name)](#remove-java.lang.String-) | Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name from the collection. |
-| [remove(System.Data.DataColumn column)](#remove-com.aspose.words.net.System.Data.DataColumn-) | Removes the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object from the collection. |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
+| [hashCode()](#hashCode--) |  |
+| [indexOf(System.Data.DataColumn column)](#indexOf-com.aspose.words.net.System.Data.DataColumn-) | Gets the index of a column specified by name. |
+| [indexOf(String columnName)](#indexOf-java.lang.String-) | Gets the index of the column with the specific name (the name is not case sensitive). |
 | [iterator()](#iterator--) |  |
-| [clear()](#clear--) | Clears the collection of any columns. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove(System.Data.DataColumn column)](#remove-com.aspose.words.net.System.Data.DataColumn-) | Removes the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object from the collection. |
+| [remove(String name)](#remove-java.lang.String-) | Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name from the collection. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### add(System.Data.DataColumn column) {#add-com.aspose.words.net.System.Data.DataColumn-}
 ```
 public void add(System.Data.DataColumn column)
@@ -96,36 +105,44 @@ Creates and adds a [DataColumn](../../com.aspose.words.net.system.data/datacolum
 
 **Returns:**
 [DataColumn](../../com.aspose.words.net.system.data/datacolumn) - created a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) instance.
-### indexOf(String columnName) {#indexOf-java.lang.String-}
+### clear() {#clear--}
 ```
-public int indexOf(String columnName)
+public void clear()
 ```
 
 
-Gets the index of the column with the specific name (the name is not case sensitive).
+Clears the collection of any columns.
+
+### contains(String name) {#contains-java.lang.String-}
+```
+public boolean contains(String name)
+```
+
+
+Checks whether the collection contains a column with the specified name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| columnName | java.lang.String | The name of the column to find. |
+| name | java.lang.String | The [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) of the column to look for. |
 
 **Returns:**
-int - The zero-based index of the column with the specified name, or -1 if the column does not exist in the collection.
-### indexOf(System.Data.DataColumn column) {#indexOf-com.aspose.words.net.System.Data.DataColumn-}
+boolean - true if a column exists with this name; otherwise, false.
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public int indexOf(System.Data.DataColumn column)
+public boolean equals(Object arg0)
 ```
 
 
-Gets the index of a column specified by name.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The name of the column to return. |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The index of the column specified by  column  if it is found; otherwise, -1.
+boolean
 ### get(int index) {#get-int-}
 ```
 public System.Data.DataColumn get(int index)
@@ -156,33 +173,91 @@ Gets the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) from th
 
 **Returns:**
 [DataColumn](../../com.aspose.words.net.system.data/datacolumn) - The [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the collection with the specified [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-); otherwise a null value if the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) does not exist.
-### contains(String name) {#contains-java.lang.String-}
+### getClass() {#getClass--}
 ```
-public boolean contains(String name)
+public final native Class<?> getClass()
 ```
 
 
-Checks whether the collection contains a column with the specified name.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| name | java.lang.String | The [DataColumn.getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [DataColumn.setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) of the column to look for. |
 
 **Returns:**
-boolean - true if a column exists with this name; otherwise, false.
-### remove(String name) {#remove-java.lang.String-}
+java.lang.Class<?>
+### getCount() {#getCount--}
 ```
-public void remove(String name)
+public int getCount()
 ```
 
 
-Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name from the collection.
+
+
+**Returns:**
+int - the total number of elements in a collection.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### indexOf(System.Data.DataColumn column) {#indexOf-com.aspose.words.net.System.Data.DataColumn-}
+```
+public int indexOf(System.Data.DataColumn column)
+```
+
+
+Gets the index of a column specified by name.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | The name of the column to remove. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The name of the column to return. |
+
+**Returns:**
+int - The index of the column specified by  column  if it is found; otherwise, -1.
+### indexOf(String columnName) {#indexOf-java.lang.String-}
+```
+public int indexOf(String columnName)
+```
+
+
+Gets the index of the column with the specific name (the name is not case sensitive).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| columnName | java.lang.String | The name of the column to find. |
+
+**Returns:**
+int - The zero-based index of the column with the specified name, or -1 if the column does not exist in the collection.
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
 
 ### remove(System.Data.DataColumn column) {#remove-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -197,31 +272,61 @@ Removes the specified [DataColumn](../../com.aspose.words.net.system.data/dataco
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The [DataColumn](../../com.aspose.words.net.system.data/datacolumn) to remove. |
 
-### getCount() {#getCount--}
+### remove(String name) {#remove-java.lang.String-}
 ```
-public int getCount()
+public void remove(String name)
+```
+
+
+Removes the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) object that has the specified name from the collection.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| name | java.lang.String | The name of the column to remove. |
+
+### toString() {#toString--}
+```
+public String toString()
 ```
 
 
 
 
 **Returns:**
-int - the total number of elements in a collection.
-### iterator() {#iterator--}
+java.lang.String
+### wait() {#wait--}
 ```
-public Iterator iterator()
-```
-
-
-
-
-**Returns:**
-java.util.Iterator
-### clear() {#clear--}
-```
-public void clear()
+public final void wait()
 ```
 
 
-Clears the collection of any columns.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

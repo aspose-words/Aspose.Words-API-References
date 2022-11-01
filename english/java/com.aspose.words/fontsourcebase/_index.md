@@ -20,23 +20,67 @@ To learn more, visit the **Working with Fonts** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getType()](#getType--) | Returns the type of the font source. |
-| [getPriority()](#getPriority--) | Returns the font source priority. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
-| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
-| [getPriorityInternal()](#getPriorityInternal--) |  |
+| [getClass()](#getClass--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
-### getType() {#getType--}
+| [getPriority()](#getPriority--) | Returns the font source priority. |
+| [getPriorityInternal()](#getPriorityInternal--) |  |
+| [getType()](#getType--) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public abstract int getType()
+public boolean equals(Object arg0)
 ```
 
 
-Returns the type of the font source.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+boolean
+### getAvailableFonts() {#getAvailableFonts--}
+```
+public ArrayList getAvailableFonts()
+```
+
+
+Returns list of fonts available via this source.
+
+**Returns:**
+java.util.ArrayList
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getFontDataInternal() {#getFontDataInternal--}
+```
+public Iterable getFontDataInternal()
+```
+
+
+
+
+**Returns:**
+java.lang.Iterable
 ### getPriority() {#getPriority--}
 ```
 public int getPriority()
@@ -51,16 +95,26 @@ The default value is 0.
 
 **Returns:**
 int - The font source priority.
-### getAvailableFonts() {#getAvailableFonts--}
+### getPriorityInternal() {#getPriorityInternal--}
 ```
-public ArrayList getAvailableFonts()
+public int getPriorityInternal()
 ```
 
 
-Returns list of fonts available via this source.
+
 
 **Returns:**
-java.util.ArrayList
+int
+### getType() {#getType--}
+```
+public abstract int getType()
+```
+
+
+Returns the type of the font source.
+
+**Returns:**
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
@@ -71,6 +125,32 @@ Called during processing of font source when an issue is detected that might res
 
 **Returns:**
 [IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
 ```
 public void setWarningCallback(IWarningCallback value)
@@ -84,23 +164,48 @@ Called during processing of font source when an issue is detected that might res
 | --- | --- | --- |
 | value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
-### getPriorityInternal() {#getPriorityInternal--}
+### toString() {#toString--}
 ```
-public int getPriorityInternal()
-```
-
-
-
-
-**Returns:**
-int
-### getFontDataInternal() {#getFontDataInternal--}
-```
-public Iterable getFontDataInternal()
+public String toString()
 ```
 
 
 
 
 **Returns:**
-java.lang.Iterable
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

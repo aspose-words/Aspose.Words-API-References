@@ -19,24 +19,33 @@ Specifies options that determine what items are removed during mail merge.
 | Field | Description |
 | --- | --- |
 | [NONE](#NONE) | Specifies a default value. |
-| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. |
-| [REMOVE_UNUSED_REGIONS](#REMOVE-UNUSED-REGIONS) | Specifies whether unused mail merge regions should be removed from the document. |
-| [REMOVE_UNUSED_FIELDS](#REMOVE-UNUSED-FIELDS) | Specifies whether unused merge fields should be removed from the document. |
 | [REMOVE_CONTAINING_FIELDS](#REMOVE-CONTAINING-FIELDS) | Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed. |
-| [REMOVE_STATIC_FIELDS](#REMOVE-STATIC-FIELDS) | Specifies whether static fields should be removed from the document. |
+| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. |
 | [REMOVE_EMPTY_TABLE_ROWS](#REMOVE-EMPTY-TABLE-ROWS) | Specifies whether empty rows that contain mail merge regions should be removed from the document. |
+| [REMOVE_STATIC_FIELDS](#REMOVE-STATIC-FIELDS) | Specifies whether static fields should be removed from the document. |
+| [REMOVE_UNUSED_FIELDS](#REMOVE-UNUSED-FIELDS) | Specifies whether unused merge fields should be removed from the document. |
+| [REMOVE_UNUSED_REGIONS](#REMOVE-UNUSED-REGIONS) | Specifies whether unused mail merge regions should be removed from the document. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int mailMergeCleanupOptions)](#getName-int-) |  |
-| [getNames(int mailMergeCleanupOptions)](#getNames-int-) |  |
-| [toString(int mailMergeCleanupOptions)](#toString-int-) |  |
-| [toStringSet(int attr)](#toStringSet-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeCleanupOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set mailMergeCleanupOptionsNames)](#fromNames-java.util.Set-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mailMergeCleanupOptions)](#getName-int-) |  |
+| [getNames(int mailMergeCleanupOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int mailMergeCleanupOptions)](#toString-int-) |  |
+| [toStringSet(int attr)](#toStringSet-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### NONE {#NONE}
 ```
 public static int NONE
@@ -44,6 +53,14 @@ public static int NONE
 
 
 Specifies a default value.
+
+### REMOVE_CONTAINING_FIELDS {#REMOVE-CONTAINING-FIELDS}
+```
+public static int REMOVE_CONTAINING_FIELDS
+```
+
+
+Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed.
 
 ### REMOVE_EMPTY_PARAGRAPHS {#REMOVE-EMPTY-PARAGRAPHS}
 ```
@@ -53,29 +70,13 @@ public static int REMOVE_EMPTY_PARAGRAPHS
 
 Specifies whether paragraphs that contained mail merge fields with no data should be removed from the document. When this option is set, paragraphs which contain region start and end merge fields which are otherwise empty are also removed.
 
-### REMOVE_UNUSED_REGIONS {#REMOVE-UNUSED-REGIONS}
+### REMOVE_EMPTY_TABLE_ROWS {#REMOVE-EMPTY-TABLE-ROWS}
 ```
-public static int REMOVE_UNUSED_REGIONS
-```
-
-
-Specifies whether unused mail merge regions should be removed from the document. This option applies only to mail merge with regions.
-
-### REMOVE_UNUSED_FIELDS {#REMOVE-UNUSED-FIELDS}
-```
-public static int REMOVE_UNUSED_FIELDS
+public static int REMOVE_EMPTY_TABLE_ROWS
 ```
 
 
-Specifies whether unused merge fields should be removed from the document.
-
-### REMOVE_CONTAINING_FIELDS {#REMOVE-CONTAINING-FIELDS}
-```
-public static int REMOVE_CONTAINING_FIELDS
-```
-
-
-Specifies whether fields that contain merge fields (for example, IFs) should be removed from the document if the nested merge fields are removed.
+Specifies whether empty rows that contain mail merge regions should be removed from the document. This option applies only to mail merge with regions.
 
 ### REMOVE_STATIC_FIELDS {#REMOVE-STATIC-FIELDS}
 ```
@@ -119,13 +120,21 @@ Specifies whether static fields should be removed from the document. Static fiel
  *  [FieldType.FIELD\_TOA\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOA-ENTRY)
  *  [FieldType.FIELD\_TOC\_ENTRY](../../com.aspose.words/fieldtype\#FIELD-TOC-ENTRY)
 
-### REMOVE_EMPTY_TABLE_ROWS {#REMOVE-EMPTY-TABLE-ROWS}
+### REMOVE_UNUSED_FIELDS {#REMOVE-UNUSED-FIELDS}
 ```
-public static int REMOVE_EMPTY_TABLE_ROWS
+public static int REMOVE_UNUSED_FIELDS
 ```
 
 
-Specifies whether empty rows that contain mail merge regions should be removed from the document. This option applies only to mail merge with regions.
+Specifies whether unused merge fields should be removed from the document.
+
+### REMOVE_UNUSED_REGIONS {#REMOVE-UNUSED-REGIONS}
+```
+public static int REMOVE_UNUSED_REGIONS
+```
+
+
+Specifies whether unused mail merge regions should be removed from the document. This option applies only to mail merge with regions.
 
 ### length {#length}
 ```
@@ -133,24 +142,9 @@ public static int length
 ```
 
 
-### getName(int mailMergeCleanupOptions) {#getName-int-}
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public static String getName(int mailMergeCleanupOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mailMergeCleanupOptions | int |  |
-
-**Returns:**
-java.lang.String
-### getNames(int mailMergeCleanupOptions) {#getNames-int-}
-```
-public static Set getNames(int mailMergeCleanupOptions)
+public boolean equals(Object arg0)
 ```
 
 
@@ -159,40 +153,10 @@ public static Set getNames(int mailMergeCleanupOptions)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailMergeCleanupOptions | int |  |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.util.Set
-### toString(int mailMergeCleanupOptions) {#toString-int-}
-```
-public static String toString(int mailMergeCleanupOptions)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| mailMergeCleanupOptions | int |  |
-
-**Returns:**
-java.lang.String
-### toStringSet(int attr) {#toStringSet-int-}
-```
-public static String toStringSet(int attr)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| attr | int |  |
-
-**Returns:**
-java.lang.String
+boolean
 ### fromName(String mailMergeCleanupOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String mailMergeCleanupOptionsName)
@@ -223,6 +187,46 @@ public static int fromNames(Set mailMergeCleanupOptionsNames)
 
 **Returns:**
 int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getName(int mailMergeCleanupOptions) {#getName-int-}
+```
+public static String getName(int mailMergeCleanupOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailMergeCleanupOptions | int |  |
+
+**Returns:**
+java.lang.String
+### getNames(int mailMergeCleanupOptions) {#getNames-int-}
+```
+public static Set getNames(int mailMergeCleanupOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailMergeCleanupOptions | int |  |
+
+**Returns:**
+java.util.Set
 ### getValues() {#getValues--}
 ```
 public static int[] getValues()
@@ -233,3 +237,104 @@ public static int[] getValues()
 
 **Returns:**
 int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### toString(int mailMergeCleanupOptions) {#toString-int-}
+```
+public static String toString(int mailMergeCleanupOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailMergeCleanupOptions | int |  |
+
+**Returns:**
+java.lang.String
+### toStringSet(int attr) {#toStringSet-int-}
+```
+public static String toStringSet(int attr)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| attr | int |  |
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

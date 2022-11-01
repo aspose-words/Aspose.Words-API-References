@@ -26,13 +26,47 @@ To save document parts into streams instead of files, use the **P:Aspose.Words.S
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDocument()](#getDocument--) | Gets the document object that is being saved. |
 | [getDocumentPartFileName()](#getDocumentPartFileName--) | Gets the file name (without path) where the document part will be saved to. |
-| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String-) | Sets the file name (without path) where the document part will be saved to. |
-| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
-| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
 | [getDocumentPartStream()](#getDocumentPartStream--) |  |
+| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String-) | Sets the file name (without path) where the document part will be saved to. |
 | [setDocumentPartStream(OutputStream value)](#setDocumentPartStream-java.io.OutputStream-) |  |
+| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
@@ -61,6 +95,56 @@ When the callback is invoked, this property contains the file name that was gene
 
 **Returns:**
 java.lang.String - The file name (without path) where the document part will be saved to.
+### getDocumentPartStream() {#getDocumentPartStream--}
+```
+public OutputStream getDocumentPartStream()
+```
+
+
+
+
+**Returns:**
+java.io.OutputStream
+### getKeepDocumentPartStreamOpen() {#getKeepDocumentPartStreamOpen--}
+```
+public boolean getKeepDocumentPartStreamOpen()
+```
+
+
+Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
+
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** property after writing a document part into it. Specify  true  to keep the stream open. Please note that the main output stream provided in the call to **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** or **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** will never be closed by Aspose.Words even if [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-) is set to  false .
+
+**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setDocumentPartFileName(String value) {#setDocumentPartFileName-java.lang.String-}
 ```
 public void setDocumentPartFileName(String value)
@@ -82,20 +166,19 @@ When the callback is invoked, this property contains the file name that was gene
 | --- | --- | --- |
 | value | java.lang.String | The file name (without path) where the document part will be saved to. |
 
-### getKeepDocumentPartStreamOpen() {#getKeepDocumentPartStreamOpen--}
+### setDocumentPartStream(OutputStream value) {#setDocumentPartStream-java.io.OutputStream-}
 ```
-public boolean getKeepDocumentPartStreamOpen()
+public void setDocumentPartStream(OutputStream value)
 ```
 
 
-Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 
-Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** property after writing a document part into it. Specify  true  to keep the stream open. Please note that the main output stream provided in the call to **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** or **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** will never be closed by Aspose.Words even if [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-) is set to  false .
 
-**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.io.OutputStream |  |
 
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setKeepDocumentPartStreamOpen(boolean value) {#setKeepDocumentPartStreamOpen-boolean-}
 ```
 public void setKeepDocumentPartStreamOpen(boolean value)
@@ -113,19 +196,27 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getDocumentPartStream() {#getDocumentPartStream--}
+### toString() {#toString--}
 ```
-public OutputStream getDocumentPartStream()
+public String toString()
 ```
 
 
 
 
 **Returns:**
-java.io.OutputStream
-### setDocumentPartStream(OutputStream value) {#setDocumentPartStream-java.io.OutputStream-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setDocumentPartStream(OutputStream value)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -134,5 +225,19 @@ public void setDocumentPartStream(OutputStream value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.OutputStream |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

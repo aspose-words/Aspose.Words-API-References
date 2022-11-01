@@ -18,29 +18,38 @@ Specifies the formatting for the [FieldIndex](../../com.aspose.words/fieldindex)
 
 | Field | Description |
 | --- | --- |
-| [TEMPLATE](#TEMPLATE) | From template. |
+| [BULLETED](#BULLETED) | Bulleted. |
 | [CLASSIC](#CLASSIC) | Classic. |
 | [FANCY](#FANCY) | Fancy. |
-| [MODERN](#MODERN) | Modern. |
-| [BULLETED](#BULLETED) | Bulleted. |
 | [FORMAL](#FORMAL) | Formal. |
+| [MODERN](#MODERN) | Modern. |
 | [SIMPLE](#SIMPLE) | Simple. |
+| [TEMPLATE](#TEMPLATE) | From template. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int fieldIndexFormat)](#getName-int-) |  |
-| [toString(int fieldIndexFormat)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldIndexFormatName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fieldIndexFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### TEMPLATE {#TEMPLATE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int fieldIndexFormat)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BULLETED {#BULLETED}
 ```
-public static int TEMPLATE
+public static int BULLETED
 ```
 
 
-From template.
+Bulleted.
 
 ### CLASSIC {#CLASSIC}
 ```
@@ -58,22 +67,6 @@ public static int FANCY
 
 Fancy.
 
-### MODERN {#MODERN}
-```
-public static int MODERN
-```
-
-
-Modern.
-
-### BULLETED {#BULLETED}
-```
-public static int BULLETED
-```
-
-
-Bulleted.
-
 ### FORMAL {#FORMAL}
 ```
 public static int FORMAL
@@ -81,6 +74,14 @@ public static int FORMAL
 
 
 Formal.
+
+### MODERN {#MODERN}
+```
+public static int MODERN
+```
+
+
+Modern.
 
 ### SIMPLE {#SIMPLE}
 ```
@@ -90,12 +91,60 @@ public static int SIMPLE
 
 Simple.
 
+### TEMPLATE {#TEMPLATE}
+```
+public static int TEMPLATE
+```
+
+
+From template.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String fieldIndexFormatName) {#fromName-java.lang.String-}
+```
+public static int fromName(String fieldIndexFormatName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldIndexFormatName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int fieldIndexFormat) {#getName-int-}
 ```
 public static String getName(int fieldIndexFormat)
@@ -108,6 +157,52 @@ public static String getName(int fieldIndexFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndexFormat | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -126,9 +221,17 @@ public static String toString(int fieldIndexFormat)
 
 **Returns:**
 java.lang.String
-### fromName(String fieldIndexFormatName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String fieldIndexFormatName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -137,17 +240,19 @@ public static int fromName(String fieldIndexFormatName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldIndexFormatName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

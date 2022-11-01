@@ -22,19 +22,43 @@ You do not create instances of this class. Objects of this class are created and
 
 | Method | Description |
 | --- | --- |
-| [getWarningType()](#getWarningType--) | Returns the type of the warning. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDescription()](#getDescription--) | Returns the description of the warning. |
 | [getSource()](#getSource--) | Returns the source of the warning. |
-### getWarningType() {#getWarningType--}
+| [getWarningType()](#getWarningType--) | Returns the type of the warning. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public int getWarningType()
+public boolean equals(Object arg0)
 ```
 
 
-Returns the type of the warning.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-int - The type of the warning. The returned value is a bitwise combination of [WarningType](../../com.aspose.words/warningtype) constants.
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getDescription() {#getDescription--}
 ```
 public String getDescription()
@@ -55,3 +79,84 @@ Returns the source of the warning.
 
 **Returns:**
 int - The source of the warning. The returned value is one of [WarningSource](../../com.aspose.words/warningsource) constants.
+### getWarningType() {#getWarningType--}
+```
+public int getWarningType()
+```
+
+
+Returns the type of the warning.
+
+**Returns:**
+int - The type of the warning. The returned value is a bitwise combination of [WarningType](../../com.aspose.words/warningtype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

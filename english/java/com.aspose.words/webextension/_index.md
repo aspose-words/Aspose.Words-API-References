@@ -20,14 +20,68 @@ To learn more, visit the **Work with Office Add-ins** documentation article.
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAlternateReferences()](#getAlternateReferences--) | Specifies alternate references to a web extension. |
+| [getBindings()](#getBindings--) | Specifies a list of web extension bindings. |
+| [getClass()](#getClass--) |  |
 | [getId()](#getId--) | Uniquely identifies the web extension instance in the current document. |
-| [setId(String value)](#setId-java.lang.String-) | Uniquely identifies the web extension instance in the current document. |
+| [getProperties()](#getProperties--) | Represents a set of web extension custom properties. |
+| [getReference()](#getReference--) | Specifies the primary reference to an web extension. |
+| [hashCode()](#hashCode--) |  |
 | [isFrozen()](#isFrozen--) | Specifies whether the user can interact with the web extension or not. |
 | [isFrozen(boolean value)](#isFrozen-boolean-) | Specifies whether the user can interact with the web extension or not. |
-| [getReference()](#getReference--) | Specifies the primary reference to an web extension. |
-| [getBindings()](#getBindings--) | Specifies a list of web extension bindings. |
-| [getAlternateReferences()](#getAlternateReferences--) | Specifies alternate references to a web extension. |
-| [getProperties()](#getProperties--) | Represents a set of web extension custom properties. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setId(String value)](#setId-java.lang.String-) | Uniquely identifies the web extension instance in the current document. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAlternateReferences() {#getAlternateReferences--}
+```
+public WebExtensionReferenceCollection getAlternateReferences()
+```
+
+
+Specifies alternate references to a web extension.
+
+**Returns:**
+[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) value.
+### getBindings() {#getBindings--}
+```
+public WebExtensionBindingCollection getBindings()
+```
+
+
+Specifies a list of web extension bindings.
+
+**Returns:**
+[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) value.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getId() {#getId--}
 ```
 public String getId()
@@ -38,19 +92,36 @@ Uniquely identifies the web extension instance in the current document.
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### setId(String value) {#setId-java.lang.String-}
+### getProperties() {#getProperties--}
 ```
-public void setId(String value)
+public WebExtensionPropertyCollection getProperties()
 ```
 
 
-Uniquely identifies the web extension instance in the current document.
+Represents a set of web extension custom properties.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+**Returns:**
+[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) value.
+### getReference() {#getReference--}
+```
+public WebExtensionReference getReference()
+```
 
+
+Specifies the primary reference to an web extension.
+
+**Returns:**
+[WebExtensionReference](../../com.aspose.words/webextensionreference) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference) value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
 ### isFrozen() {#isFrozen--}
 ```
 public boolean isFrozen()
@@ -74,43 +145,77 @@ Specifies whether the user can interact with the web extension or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getReference() {#getReference--}
+### notify() {#notify--}
 ```
-public WebExtensionReference getReference()
+public final native void notify()
 ```
 
 
-Specifies the primary reference to an web extension.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setId(String value) {#setId-java.lang.String-}
+```
+public void setId(String value)
+```
+
+
+Uniquely identifies the web extension instance in the current document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[WebExtensionReference](../../com.aspose.words/webextensionreference) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference) value.
-### getBindings() {#getBindings--}
+java.lang.String
+### wait() {#wait--}
 ```
-public WebExtensionBindingCollection getBindings()
-```
-
-
-Specifies a list of web extension bindings.
-
-**Returns:**
-[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) value.
-### getAlternateReferences() {#getAlternateReferences--}
-```
-public WebExtensionReferenceCollection getAlternateReferences()
+public final void wait()
 ```
 
 
-Specifies alternate references to a web extension.
 
-**Returns:**
-[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) value.
-### getProperties() {#getProperties--}
+
+### wait(long arg0) {#wait-long-}
 ```
-public WebExtensionPropertyCollection getProperties()
+public final native void wait(long arg0)
 ```
 
 
-Represents a set of web extension custom properties.
 
-**Returns:**
-[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) value.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -19,18 +19,27 @@ Specifies the possible crossing points for an axis.
 | Field | Description |
 | --- | --- |
 | [AUTOMATIC](#AUTOMATIC) | The category axis crosses at the zero point of the value axis (if possible), or at the minimum value if the minimum is greater than zero, or at the maximum if the maximum is less than zero. |
+| [CUSTOM](#CUSTOM) | A perpendicular axis crosses at the specified value of the axis. |
 | [MAXIMUM](#MAXIMUM) | A perpendicular axis crosses at the maximum value of the axis. |
 | [MINIMUM](#MINIMUM) | A perpendicular axis crosses at the minimum value of the axis. |
-| [CUSTOM](#CUSTOM) | A perpendicular axis crosses at the specified value of the axis. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int axisCrosses)](#getName-int-) |  |
-| [toString(int axisCrosses)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisCrossesName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int axisCrosses)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int axisCrosses)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTOMATIC {#AUTOMATIC}
 ```
 public static int AUTOMATIC
@@ -38,6 +47,14 @@ public static int AUTOMATIC
 
 
 The category axis crosses at the zero point of the value axis (if possible), or at the minimum value if the minimum is greater than zero, or at the maximum if the maximum is less than zero.
+
+### CUSTOM {#CUSTOM}
+```
+public static int CUSTOM
+```
+
+
+A perpendicular axis crosses at the specified value of the axis.
 
 ### MAXIMUM {#MAXIMUM}
 ```
@@ -55,20 +72,52 @@ public static int MINIMUM
 
 A perpendicular axis crosses at the minimum value of the axis.
 
-### CUSTOM {#CUSTOM}
-```
-public static int CUSTOM
-```
-
-
-A perpendicular axis crosses at the specified value of the axis.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String axisCrossesName) {#fromName-java.lang.String-}
+```
+public static int fromName(String axisCrossesName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisCrossesName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int axisCrosses) {#getName-int-}
 ```
 public static String getName(int axisCrosses)
@@ -81,6 +130,52 @@ public static String getName(int axisCrosses)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | axisCrosses | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -99,9 +194,17 @@ public static String toString(int axisCrosses)
 
 **Returns:**
 java.lang.String
-### fromName(String axisCrossesName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String axisCrossesName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -110,17 +213,19 @@ public static int fromName(String axisCrossesName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisCrossesName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

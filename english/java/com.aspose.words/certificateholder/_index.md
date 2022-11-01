@@ -22,20 +22,19 @@ To learn more, visit the **Work with Digital Signatures** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [getCertificate()](#getCertificate--) | Returns the instance of **X509Certificate2Wrapper** that holds **X509Certificate2** which holds private, public keys and certificate chain. |
 | [create(byte[] certBytes, String password)](#create-byte---java.lang.String-) | Creates CertificateHolder object using byte array of PKCS12 store and its password. |
 | [create(String fileName, String password)](#create-java.lang.String-java.lang.String-) | Creates CertificateHolder object using path to PKCS12 store and its password. |
 | [create(String fileName, String password, String alias)](#create-java.lang.String-java.lang.String-java.lang.String-) | Creates CertificateHolder object using path to PKCS12 store, its password and the alias by using which private key and certificate will be found. |
-### getCertificate() {#getCertificate--}
-```
-public X509Certificate2Wrapper getCertificate()
-```
-
-
-Returns the instance of **X509Certificate2Wrapper** that holds **X509Certificate2** which holds private, public keys and certificate chain.
-
-**Returns:**
-[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper) -  instance
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getCertificate()](#getCertificate--) | Returns the instance of **X509Certificate2Wrapper** that holds **X509Certificate2** which holds private, public keys and certificate chain. |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### create(byte[] certBytes, String password) {#create-byte---java.lang.String-}
 ```
 public static CertificateHolder create(byte[] certBytes, String password)
@@ -85,3 +84,109 @@ Creates CertificateHolder object using path to PKCS12 store, its password and th
 
 **Returns:**
 [CertificateHolder](../../com.aspose.words/certificateholder) - An instance of CertificateHolder **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if **fileName** is null **T:Org.BouncyCastle.Security.InvalidParameterException** Thrown if **password** is null
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getCertificate() {#getCertificate--}
+```
+public X509Certificate2Wrapper getCertificate()
+```
+
+
+Returns the instance of **X509Certificate2Wrapper** that holds **X509Certificate2** which holds private, public keys and certificate chain.
+
+**Returns:**
+[X509Certificate2Wrapper](../../com.aspose.words/x509certificate2wrapper) -  instance
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

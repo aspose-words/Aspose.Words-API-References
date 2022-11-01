@@ -18,28 +18,37 @@ Specifies the type of the leader line displayed under the tab character.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | No leader line is displayed. |
-| [DOTS](#DOTS) | The leader line is made up from dots. |
 | [DASHES](#DASHES) | The leader line is made up from dashes. |
-| [LINE](#LINE) | The leader line is a single line. |
+| [DOTS](#DOTS) | The leader line is made up from dots. |
 | [HEAVY](#HEAVY) | The leader line is a single thick line. |
+| [LINE](#LINE) | The leader line is a single line. |
 | [MIDDLE_DOT](#MIDDLE-DOT) | The leader line is made up from middle-dots. |
+| [NONE](#NONE) | No leader line is displayed. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int tabLeader)](#getName-int-) |  |
-| [toString(int tabLeader)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabLeaderName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int tabLeader)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int tabLeader)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DASHES {#DASHES}
 ```
-public static int NONE
+public static int DASHES
 ```
 
 
-No leader line is displayed.
+The leader line is made up from dashes.
 
 ### DOTS {#DOTS}
 ```
@@ -49,13 +58,13 @@ public static int DOTS
 
 The leader line is made up from dots.
 
-### DASHES {#DASHES}
+### HEAVY {#HEAVY}
 ```
-public static int DASHES
+public static int HEAVY
 ```
 
 
-The leader line is made up from dashes.
+The leader line is a single thick line.
 
 ### LINE {#LINE}
 ```
@@ -65,14 +74,6 @@ public static int LINE
 
 The leader line is a single line.
 
-### HEAVY {#HEAVY}
-```
-public static int HEAVY
-```
-
-
-The leader line is a single thick line.
-
 ### MIDDLE_DOT {#MIDDLE-DOT}
 ```
 public static int MIDDLE_DOT
@@ -81,12 +82,60 @@ public static int MIDDLE_DOT
 
 The leader line is made up from middle-dots.
 
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+No leader line is displayed.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String tabLeaderName) {#fromName-java.lang.String-}
+```
+public static int fromName(String tabLeaderName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tabLeaderName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int tabLeader) {#getName-int-}
 ```
 public static String getName(int tabLeader)
@@ -99,6 +148,52 @@ public static String getName(int tabLeader)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tabLeader | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -117,9 +212,17 @@ public static String toString(int tabLeader)
 
 **Returns:**
 java.lang.String
-### fromName(String tabLeaderName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String tabLeaderName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -128,17 +231,19 @@ public static int fromName(String tabLeaderName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tabLeaderName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

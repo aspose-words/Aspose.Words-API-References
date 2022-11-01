@@ -18,35 +18,36 @@ Specifies the possible results which may be generated when a mail merge is carri
 
 | Field | Description |
 | --- | --- |
-| [NEW_DOCUMENT](#NEW-DOCUMENT) | Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source. |
-| [PRINTER](#PRINTER) | Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source. |
+| [DEFAULT](#DEFAULT) | Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value. |
 | [EMAIL](#EMAIL) | Specifies that conforming hosting applications shall generate emails using the documents that result from populating the fields within a given document with data from the specified external data source. |
 | [FAX](#FAX) | Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source. |
-| [DEFAULT](#DEFAULT) | Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value. |
+| [NEW_DOCUMENT](#NEW-DOCUMENT) | Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source. |
+| [PRINTER](#PRINTER) | Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int mailMergeDestination)](#getName-int-) |  |
-| [toString(int mailMergeDestination)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeDestinationName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mailMergeDestination)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NEW_DOCUMENT {#NEW-DOCUMENT}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int mailMergeDestination)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DEFAULT {#DEFAULT}
 ```
-public static int NEW_DOCUMENT
+public static int DEFAULT
 ```
 
 
-Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source.
-
-### PRINTER {#PRINTER}
-```
-public static int PRINTER
-```
-
-
-Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source.
+Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value.
 
 ### EMAIL {#EMAIL}
 ```
@@ -64,13 +65,21 @@ public static int FAX
 
 Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source.
 
-### DEFAULT {#DEFAULT}
+### NEW_DOCUMENT {#NEW-DOCUMENT}
 ```
-public static int DEFAULT
+public static int NEW_DOCUMENT
 ```
 
 
-Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value.
+Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source.
+
+### PRINTER {#PRINTER}
+```
+public static int PRINTER
+```
+
+
+Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source.
 
 ### length {#length}
 ```
@@ -78,6 +87,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String mailMergeDestinationName) {#fromName-java.lang.String-}
+```
+public static int fromName(String mailMergeDestinationName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mailMergeDestinationName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int mailMergeDestination) {#getName-int-}
 ```
 public static String getName(int mailMergeDestination)
@@ -90,6 +139,52 @@ public static String getName(int mailMergeDestination)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mailMergeDestination | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int mailMergeDestination)
 
 **Returns:**
 java.lang.String
-### fromName(String mailMergeDestinationName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String mailMergeDestinationName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String mailMergeDestinationName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mailMergeDestinationName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

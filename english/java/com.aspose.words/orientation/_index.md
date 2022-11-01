@@ -18,25 +18,26 @@ Specifies page orientation.
 
 | Field | Description |
 | --- | --- |
-| [PORTRAIT](#PORTRAIT) | Portrait page orientation (narrow and tall). |
 | [LANDSCAPE](#LANDSCAPE) | Landscape page orientation (wide and short). |
+| [PORTRAIT](#PORTRAIT) | Portrait page orientation (narrow and tall). |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int orientation)](#getName-int-) |  |
-| [toString(int orientation)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String orientationName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int orientation)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### PORTRAIT {#PORTRAIT}
-```
-public static int PORTRAIT
-```
-
-
-Portrait page orientation (narrow and tall).
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int orientation)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### LANDSCAPE {#LANDSCAPE}
 ```
 public static int LANDSCAPE
@@ -45,12 +46,60 @@ public static int LANDSCAPE
 
 Landscape page orientation (wide and short).
 
+### PORTRAIT {#PORTRAIT}
+```
+public static int PORTRAIT
+```
+
+
+Portrait page orientation (narrow and tall).
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String orientationName) {#fromName-java.lang.String-}
+```
+public static int fromName(String orientationName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| orientationName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int orientation) {#getName-int-}
 ```
 public static String getName(int orientation)
@@ -63,6 +112,52 @@ public static String getName(int orientation)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | orientation | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -81,9 +176,17 @@ public static String toString(int orientation)
 
 **Returns:**
 java.lang.String
-### fromName(String orientationName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String orientationName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -92,17 +195,19 @@ public static int fromName(String orientationName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| orientationName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

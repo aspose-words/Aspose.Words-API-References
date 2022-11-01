@@ -30,18 +30,27 @@ Aspose.Words creates a PKCS\#7 signature over the whole PDF document and uses th
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getCertificateHolder()](#getCertificateHolder--) | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [setCertificateHolder(CertificateHolder value)](#setCertificateHolder-com.aspose.words.CertificateHolder-) | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [getReason()](#getReason--) | Gets the reason for the signing. |
-| [setReason(String value)](#setReason-java.lang.String-) | Sets the reason for the signing. |
-| [getLocation()](#getLocation--) | Gets the location of the signing. |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the signing. |
-| [getSignatureDate()](#getSignatureDate--) | Gets the date of the signing. |
-| [setSignatureDate(Date value)](#setSignatureDate-java.util.Date-) | Sets the date of the signing. |
+| [getClass()](#getClass--) |  |
 | [getHashAlgorithm()](#getHashAlgorithm--) | Gets the hash algorithm. |
-| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | Sets the hash algorithm. |
+| [getLocation()](#getLocation--) | Gets the location of the signing. |
+| [getReason()](#getReason--) | Gets the reason for the signing. |
+| [getSignatureDate()](#getSignatureDate--) | Gets the date of the signing. |
 | [getTimestampSettings()](#getTimestampSettings--) | Gets the digital signature timestamp settings. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setCertificateHolder(CertificateHolder value)](#setCertificateHolder-com.aspose.words.CertificateHolder-) | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | Sets the hash algorithm. |
+| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the signing. |
+| [setReason(String value)](#setReason-java.lang.String-) | Sets the reason for the signing. |
+| [setSignatureDate(Date value)](#setSignatureDate-java.util.Date-) | Sets the date of the signing. |
 | [setTimestampSettings(PdfDigitalSignatureTimestampSettings value)](#setTimestampSettings-com.aspose.words.PdfDigitalSignatureTimestampSettings-) | Sets the digital signature timestamp settings. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PdfDigitalSignatureDetails() {#PdfDigitalSignatureDetails--}
 ```
 public PdfDigitalSignatureDetails()
@@ -66,6 +75,21 @@ Initializes an instance of this class.
 | location | java.lang.String | The location of signing. |
 | signatureDate | java.util.Date | The date and time of signing. |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getCertificateHolder() {#getCertificateHolder--}
 ```
 public CertificateHolder getCertificateHolder()
@@ -76,42 +100,26 @@ Returns the certificate holder object that contains the certificate was used to 
 
 **Returns:**
 [CertificateHolder](../../com.aspose.words/certificateholder) - The certificate holder object that contains the certificate was used to sign the document.
-### setCertificateHolder(CertificateHolder value) {#setCertificateHolder-com.aspose.words.CertificateHolder-}
+### getClass() {#getClass--}
 ```
-public void setCertificateHolder(CertificateHolder value)
-```
-
-
-Returns the certificate holder object that contains the certificate was used to sign the document.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [CertificateHolder](../../com.aspose.words/certificateholder) | The certificate holder object that contains the certificate was used to sign the document. |
-
-### getReason() {#getReason--}
-```
-public String getReason()
+public final native Class<?> getClass()
 ```
 
 
-Gets the reason for the signing. The default value is null.
+
 
 **Returns:**
-java.lang.String - The reason for the signing.
-### setReason(String value) {#setReason-java.lang.String-}
+java.lang.Class<?>
+### getHashAlgorithm() {#getHashAlgorithm--}
 ```
-public void setReason(String value)
+public int getHashAlgorithm()
 ```
 
 
-Sets the reason for the signing. The default value is null.
+Gets the hash algorithm. The default value is the SHA-256 algorithm.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The reason for the signing. |
-
+**Returns:**
+int - The hash algorithm. The returned value is one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants.
 ### getLocation() {#getLocation--}
 ```
 public String getLocation()
@@ -122,19 +130,16 @@ Gets the location of the signing. The default value is null.
 
 **Returns:**
 java.lang.String - The location of the signing.
-### setLocation(String value) {#setLocation-java.lang.String-}
+### getReason() {#getReason--}
 ```
-public void setLocation(String value)
+public String getReason()
 ```
 
 
-Sets the location of the signing. The default value is null.
+Gets the reason for the signing. The default value is null.
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The location of the signing. |
-
+**Returns:**
+java.lang.String - The reason for the signing.
 ### getSignatureDate() {#getSignatureDate--}
 ```
 public Date getSignatureDate()
@@ -149,6 +154,96 @@ This value will appear in the digital signature as an unverified computer time.
 
 **Returns:**
 java.util.Date - The date of the signing.
+### getTimestampSettings() {#getTimestampSettings--}
+```
+public PdfDigitalSignatureTimestampSettings getTimestampSettings()
+```
+
+
+Gets the digital signature timestamp settings.
+
+The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) object, then the digital signature in the PDF document will be time-stamped.
+
+**Returns:**
+[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) - The digital signature timestamp settings.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### setCertificateHolder(CertificateHolder value) {#setCertificateHolder-com.aspose.words.CertificateHolder-}
+```
+public void setCertificateHolder(CertificateHolder value)
+```
+
+
+Returns the certificate holder object that contains the certificate was used to sign the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [CertificateHolder](../../com.aspose.words/certificateholder) | The certificate holder object that contains the certificate was used to sign the document. |
+
+### setHashAlgorithm(int value) {#setHashAlgorithm-int-}
+```
+public void setHashAlgorithm(int value)
+```
+
+
+Sets the hash algorithm. The default value is the SHA-256 algorithm.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The hash algorithm. The value must be one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants. |
+
+### setLocation(String value) {#setLocation-java.lang.String-}
+```
+public void setLocation(String value)
+```
+
+
+Sets the location of the signing. The default value is null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The location of the signing. |
+
+### setReason(String value) {#setReason-java.lang.String-}
+```
+public void setReason(String value)
+```
+
+
+Sets the reason for the signing. The default value is null.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The reason for the signing. |
+
 ### setSignatureDate(Date value) {#setSignatureDate-java.util.Date-}
 ```
 public void setSignatureDate(Date value)
@@ -166,41 +261,6 @@ This value will appear in the digital signature as an unverified computer time.
 | --- | --- | --- |
 | value | java.util.Date | The date of the signing. |
 
-### getHashAlgorithm() {#getHashAlgorithm--}
-```
-public int getHashAlgorithm()
-```
-
-
-Gets the hash algorithm. The default value is the SHA-256 algorithm.
-
-**Returns:**
-int - The hash algorithm. The returned value is one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants.
-### setHashAlgorithm(int value) {#setHashAlgorithm-int-}
-```
-public void setHashAlgorithm(int value)
-```
-
-
-Sets the hash algorithm. The default value is the SHA-256 algorithm.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | int | The hash algorithm. The value must be one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants. |
-
-### getTimestampSettings() {#getTimestampSettings--}
-```
-public PdfDigitalSignatureTimestampSettings getTimestampSettings()
-```
-
-
-Gets the digital signature timestamp settings.
-
-The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) object, then the digital signature in the PDF document will be time-stamped.
-
-**Returns:**
-[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) - The digital signature timestamp settings.
 ### setTimestampSettings(PdfDigitalSignatureTimestampSettings value) {#setTimestampSettings-com.aspose.words.PdfDigitalSignatureTimestampSettings-}
 ```
 public void setTimestampSettings(PdfDigitalSignatureTimestampSettings value)
@@ -215,4 +275,49 @@ The default value is null and the digital signature will not be time-stamped. Wh
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) | The digital signature timestamp settings. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

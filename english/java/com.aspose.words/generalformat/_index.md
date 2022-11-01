@@ -18,16 +18,15 @@ Specifies a general format that is applied to a numeric, text, or any field resu
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | Used to specify a missing general format. |
 | [AIUEO](#AIUEO) | Numeric formatting. |
-| [UPPERCASE_ALPHABETIC](#UPPERCASE-ALPHABETIC) | Numeric formatting. |
-| [LOWERCASE_ALPHABETIC](#LOWERCASE-ALPHABETIC) | Numeric formatting. |
 | [ARABIC](#ARABIC) | Numeric formatting. |
 | [ARABIC_ABJAD](#ARABIC-ABJAD) | Numeric formatting. |
 | [ARABIC_ALPHA](#ARABIC-ALPHA) | Numeric formatting. |
 | [ARABIC_DASH](#ARABIC-DASH) | Numeric formatting. |
 | [BAHT_TEXT](#BAHT-TEXT) | Numeric formatting. |
+| [CAPS](#CAPS) | Text formatting. |
 | [CARD_TEXT](#CARD-TEXT) | Numeric formatting. |
+| [CHAR_FORMAT](#CHAR-FORMAT) | Field result formatting. |
 | [CHINESE_NUM_1](#CHINESE-NUM-1) | Numeric formatting. |
 | [CHINESE_NUM_2](#CHINESE-NUM-2) | Numeric formatting. |
 | [CHINESE_NUM_3](#CHINESE-NUM-3) | Numeric formatting. |
@@ -39,6 +38,7 @@ Specifies a general format that is applied to a numeric, text, or any field resu
 | [DB_NUM_3](#DB-NUM-3) |  |
 | [DB_NUM_4](#DB-NUM-4) |  |
 | [DOLLAR_TEXT](#DOLLAR-TEXT) | Numeric formatting. |
+| [FIRST_CAP](#FIRST-CAP) | Text formatting. |
 | [GANADA](#GANADA) | Numeric formatting. |
 | [GB_1](#GB-1) | Numeric formatting. |
 | [GB_2](#GB-2) | Numeric formatting. |
@@ -55,42 +55,43 @@ Specifies a general format that is applied to a numeric, text, or any field resu
 | [KANJI_NUM_1](#KANJI-NUM-1) | Numeric formatting. |
 | [KANJI_NUM_2](#KANJI-NUM-2) | Numeric formatting. |
 | [KANJI_NUM_3](#KANJI-NUM-3) | Numeric formatting. |
+| [LOWER](#LOWER) | Text formatting. |
+| [LOWERCASE_ALPHABETIC](#LOWERCASE-ALPHABETIC) | Numeric formatting. |
+| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | Numeric formatting. |
+| [MERGE_FORMAT](#MERGE-FORMAT) | Field result formatting. |
+| [MERGE_FORMAT_INET](#MERGE-FORMAT-INET) | Field result formatting. |
+| [NONE](#NONE) | Used to specify a missing general format. |
 | [ORDINAL](#ORDINAL) | Numeric formatting. |
 | [ORD_TEXT](#ORD-TEXT) | Numeric formatting. |
-| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | Numeric formatting. |
-| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | Numeric formatting. |
 | [SB_CHAR](#SB-CHAR) |  |
 | [THAI_ARABIC](#THAI-ARABIC) | Numeric formatting. |
 | [THAI_CARD_TEXT](#THAI-CARD-TEXT) | Numeric formatting. |
 | [THAI_LETTER](#THAI-LETTER) | Numeric formatting. |
+| [UPPER](#UPPER) | Text formatting. |
+| [UPPERCASE_ALPHABETIC](#UPPERCASE-ALPHABETIC) | Numeric formatting. |
+| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | Numeric formatting. |
 | [VIET_CARD_TEXT](#VIET-CARD-TEXT) | Numeric formatting. |
 | [ZODIAC_1](#ZODIAC-1) | Numeric formatting. |
 | [ZODIAC_2](#ZODIAC-2) | Numeric formatting. |
 | [ZODIAC_3](#ZODIAC-3) | Numeric formatting. |
-| [CAPS](#CAPS) | Text formatting. |
-| [FIRST_CAP](#FIRST-CAP) | Text formatting. |
-| [LOWER](#LOWER) | Text formatting. |
-| [UPPER](#UPPER) | Text formatting. |
-| [CHAR_FORMAT](#CHAR-FORMAT) | Field result formatting. |
-| [MERGE_FORMAT](#MERGE-FORMAT) | Field result formatting. |
-| [MERGE_FORMAT_INET](#MERGE-FORMAT-INET) | Field result formatting. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int generalFormat)](#getName-int-) |  |
-| [toString(int generalFormat)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String generalFormatName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int generalFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-Used to specify a missing general format.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int generalFormat)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AIUEO {#AIUEO}
 ```
 public static int AIUEO
@@ -98,22 +99,6 @@ public static int AIUEO
 
 
 Numeric formatting. Formats a numeric result using hiragana characters in the traditional a-i-u-e-o order.
-
-### UPPERCASE_ALPHABETIC {#UPPERCASE-ALPHABETIC}
-```
-public static int UPPERCASE_ALPHABETIC
-```
-
-
-Numeric formatting. Formats a numeric result as one or more occurrences of an uppercase alphabetic Latin character.
-
-### LOWERCASE_ALPHABETIC {#LOWERCASE-ALPHABETIC}
-```
-public static int LOWERCASE_ALPHABETIC
-```
-
-
-Numeric formatting. Formats a numeric result as one or more occurrences of an lowercase alphabetic Latin character.
 
 ### ARABIC {#ARABIC}
 ```
@@ -155,6 +140,14 @@ public static int BAHT_TEXT
 
 Numeric formatting. Formats a numeric result in the Thai counting system.
 
+### CAPS {#CAPS}
+```
+public static int CAPS
+```
+
+
+Text formatting. Capitalizes the first letter of each word.
+
 ### CARD_TEXT {#CARD-TEXT}
 ```
 public static int CARD_TEXT
@@ -162,6 +155,14 @@ public static int CARD_TEXT
 
 
 Numeric formatting. Cardinal text (One, Two, Three, ...).
+
+### CHAR_FORMAT {#CHAR-FORMAT}
+```
+public static int CHAR_FORMAT
+```
+
+
+Field result formatting. The CHARFORMAT instruction.
 
 ### CHINESE_NUM_1 {#CHINESE-NUM-1}
 ```
@@ -240,6 +241,14 @@ public static int DOLLAR_TEXT
 
 
 Numeric formatting. Dollar text (One, Two, Three, ... + AND 55/100).
+
+### FIRST_CAP {#FIRST-CAP}
+```
+public static int FIRST_CAP
+```
+
+
+Text formatting. Capitalizes the first letter of the first word.
 
 ### GANADA {#GANADA}
 ```
@@ -369,6 +378,54 @@ public static int KANJI_NUM_3
 
 Numeric formatting. Formats a numeric result using the appropriate counting system.
 
+### LOWER {#LOWER}
+```
+public static int LOWER
+```
+
+
+Text formatting. All letters are lowercase.
+
+### LOWERCASE_ALPHABETIC {#LOWERCASE-ALPHABETIC}
+```
+public static int LOWERCASE_ALPHABETIC
+```
+
+
+Numeric formatting. Formats a numeric result as one or more occurrences of an lowercase alphabetic Latin character.
+
+### LOWERCASE_ROMAN {#LOWERCASE-ROMAN}
+```
+public static int LOWERCASE_ROMAN
+```
+
+
+Numeric formatting. Lowercase Roman (i, ii, iii, ...).
+
+### MERGE_FORMAT {#MERGE-FORMAT}
+```
+public static int MERGE_FORMAT
+```
+
+
+Field result formatting. The MERGEFORMAT instruction.
+
+### MERGE_FORMAT_INET {#MERGE-FORMAT-INET}
+```
+public static int MERGE_FORMAT_INET
+```
+
+
+Field result formatting. The MERGEFORMATINET instruction.
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+Used to specify a missing general format.
+
 ### ORDINAL {#ORDINAL}
 ```
 public static int ORDINAL
@@ -384,22 +441,6 @@ public static int ORD_TEXT
 
 
 Numeric formatting. Ordinal text (First, Second, Third, ...).
-
-### UPPERCASE_ROMAN {#UPPERCASE-ROMAN}
-```
-public static int UPPERCASE_ROMAN
-```
-
-
-Numeric formatting. Uppercase Roman (I, II, III, ...).
-
-### LOWERCASE_ROMAN {#LOWERCASE-ROMAN}
-```
-public static int LOWERCASE_ROMAN
-```
-
-
-Numeric formatting. Lowercase Roman (i, ii, iii, ...).
 
 ### SB_CHAR {#SB-CHAR}
 ```
@@ -430,6 +471,30 @@ public static int THAI_LETTER
 
 
 Numeric formatting. Formats a numeric result using Thai letters.
+
+### UPPER {#UPPER}
+```
+public static int UPPER
+```
+
+
+Text formatting. All letters are uppercase.
+
+### UPPERCASE_ALPHABETIC {#UPPERCASE-ALPHABETIC}
+```
+public static int UPPERCASE_ALPHABETIC
+```
+
+
+Numeric formatting. Formats a numeric result as one or more occurrences of an uppercase alphabetic Latin character.
+
+### UPPERCASE_ROMAN {#UPPERCASE-ROMAN}
+```
+public static int UPPERCASE_ROMAN
+```
+
+
+Numeric formatting. Uppercase Roman (I, II, III, ...).
 
 ### VIET_CARD_TEXT {#VIET-CARD-TEXT}
 ```
@@ -463,68 +528,52 @@ public static int ZODIAC_3
 
 Numeric formatting. Formats a numeric result using sequential traditional zodiac ideographs.
 
-### CAPS {#CAPS}
-```
-public static int CAPS
-```
-
-
-Text formatting. Capitalizes the first letter of each word.
-
-### FIRST_CAP {#FIRST-CAP}
-```
-public static int FIRST_CAP
-```
-
-
-Text formatting. Capitalizes the first letter of the first word.
-
-### LOWER {#LOWER}
-```
-public static int LOWER
-```
-
-
-Text formatting. All letters are lowercase.
-
-### UPPER {#UPPER}
-```
-public static int UPPER
-```
-
-
-Text formatting. All letters are uppercase.
-
-### CHAR_FORMAT {#CHAR-FORMAT}
-```
-public static int CHAR_FORMAT
-```
-
-
-Field result formatting. The CHARFORMAT instruction.
-
-### MERGE_FORMAT {#MERGE-FORMAT}
-```
-public static int MERGE_FORMAT
-```
-
-
-Field result formatting. The MERGEFORMAT instruction.
-
-### MERGE_FORMAT_INET {#MERGE-FORMAT-INET}
-```
-public static int MERGE_FORMAT_INET
-```
-
-
-Field result formatting. The MERGEFORMATINET instruction.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String generalFormatName) {#fromName-java.lang.String-}
+```
+public static int fromName(String generalFormatName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| generalFormatName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int generalFormat) {#getName-int-}
 ```
 public static String getName(int generalFormat)
@@ -537,6 +586,52 @@ public static String getName(int generalFormat)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | generalFormat | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -555,9 +650,17 @@ public static String toString(int generalFormat)
 
 **Returns:**
 java.lang.String
-### fromName(String generalFormatName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String generalFormatName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -566,17 +669,19 @@ public static int fromName(String generalFormatName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| generalFormatName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

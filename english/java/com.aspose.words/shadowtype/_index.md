@@ -18,7 +18,6 @@ Specifies the type of a shape shadow. ShadowType is not a simple attribute, but 
 
 | Field | Description |
 | --- | --- |
-| [SHADOW_MIXED](#SHADOW-MIXED) | None of predefined shadow presets. |
 | [SHADOW_1](#SHADOW-1) | First shadow type. |
 | [SHADOW_10](#SHADOW-10) | Tenth shadow type. |
 | [SHADOW_11](#SHADOW-11) | Eleventh shadow type. |
@@ -62,23 +61,25 @@ Specifies the type of a shape shadow. ShadowType is not a simple attribute, but 
 | [SHADOW_7](#SHADOW-7) | Seventh shadow type. |
 | [SHADOW_8](#SHADOW-8) | Eighth shadow type. |
 | [SHADOW_9](#SHADOW-9) | Ninth shadow type. |
+| [SHADOW_MIXED](#SHADOW-MIXED) | None of predefined shadow presets. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int shadowType)](#getName-int-) |  |
-| [toString(int shadowType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String shadowTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int shadowType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### SHADOW_MIXED {#SHADOW-MIXED}
-```
-public static int SHADOW_MIXED
-```
-
-
-None of predefined shadow presets.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int shadowType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### SHADOW_1 {#SHADOW-1}
 ```
 public static int SHADOW_1
@@ -423,12 +424,60 @@ public static int SHADOW_9
 
 Ninth shadow type.
 
+### SHADOW_MIXED {#SHADOW-MIXED}
+```
+public static int SHADOW_MIXED
+```
+
+
+None of predefined shadow presets.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String shadowTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String shadowTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| shadowTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int shadowType) {#getName-int-}
 ```
 public static String getName(int shadowType)
@@ -441,6 +490,52 @@ public static String getName(int shadowType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | shadowType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -459,9 +554,17 @@ public static String toString(int shadowType)
 
 **Returns:**
 java.lang.String
-### fromName(String shadowTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String shadowTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -470,17 +573,19 @@ public static int fromName(String shadowTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shadowTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

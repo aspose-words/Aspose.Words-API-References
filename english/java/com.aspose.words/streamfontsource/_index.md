@@ -26,13 +26,52 @@ In order to use the stream font source you should create a derived class from th
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
 | [getCacheKey()](#getCacheKey--) | The key of this source in the cache. |
-| [getType()](#getType--) | Returns the type of the font source. |
-| [openFontDataStream()](#openFontDataStream--) | This method should open the stream with font data on demand. |
-| [getSize()](#getSize--) |  |
-| [getFilePath()](#getFilePath--) |  |
 | [getCacheKeyInternal()](#getCacheKeyInternal--) |  |
+| [getClass()](#getClass--) |  |
+| [getFilePath()](#getFilePath--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
+| [getPriority()](#getPriority--) | Returns the font source priority. |
+| [getPriorityInternal()](#getPriorityInternal--) |  |
+| [getSize()](#getSize--) |  |
+| [getType()](#getType--) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [openFontDataStream()](#openFontDataStream--) | This method should open the stream with font data on demand. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getAvailableFonts() {#getAvailableFonts--}
+```
+public ArrayList getAvailableFonts()
+```
+
+
+Returns list of fonts available via this source.
+
+**Returns:**
+java.util.ArrayList
 ### getCacheKey() {#getCacheKey--}
 ```
 public String getCacheKey()
@@ -43,39 +82,9 @@ The key of this source in the cache. This key is used to identify cache item whe
 
 **Returns:**
 java.lang.String - The corresponding java.lang.String value.
-### getType() {#getType--}
+### getCacheKeyInternal() {#getCacheKeyInternal--}
 ```
-public int getType()
-```
-
-
-Returns the type of the font source.
-
-**Returns:**
-int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
-### openFontDataStream() {#openFontDataStream--}
-```
-public abstract InputStream openFontDataStream()
-```
-
-
-This method should open the stream with font data on demand.
-
-**Returns:**
-java.io.InputStream - Font data stream. The stream will be closed after reading. There is no need to close it explicitly.
-### getSize() {#getSize--}
-```
-public int getSize()
-```
-
-
-
-
-**Returns:**
-int
-### getFilePath() {#getFilePath--}
-```
-public String getFilePath()
+public String getCacheKeyInternal()
 ```
 
 
@@ -83,9 +92,19 @@ public String getFilePath()
 
 **Returns:**
 java.lang.String
-### getCacheKeyInternal() {#getCacheKeyInternal--}
+### getClass() {#getClass--}
 ```
-public String getCacheKeyInternal()
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getFilePath() {#getFilePath--}
+```
+public String getFilePath()
 ```
 
 
@@ -103,3 +122,151 @@ public Iterable getFontDataInternal()
 
 **Returns:**
 java.lang.Iterable
+### getPriority() {#getPriority--}
+```
+public int getPriority()
+```
+
+
+Returns the font source priority.
+
+This value is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value.
+
+The default value is 0.
+
+**Returns:**
+int - The font source priority.
+### getPriorityInternal() {#getPriorityInternal--}
+```
+public int getPriorityInternal()
+```
+
+
+
+
+**Returns:**
+int
+### getSize() {#getSize--}
+```
+public int getSize()
+```
+
+
+
+
+**Returns:**
+int
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Returns the type of the font source.
+
+**Returns:**
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
+### getWarningCallback() {#getWarningCallback--}
+```
+public IWarningCallback getWarningCallback()
+```
+
+
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
+
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### openFontDataStream() {#openFontDataStream--}
+```
+public abstract InputStream openFontDataStream()
+```
+
+
+This method should open the stream with font data on demand.
+
+**Returns:**
+java.io.InputStream - Font data stream. The stream will be closed after reading. There is no need to close it explicitly.
+### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
+```
+public void setWarningCallback(IWarningCallback value)
+```
+
+
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -22,28 +22,287 @@ Inserts the text or graphics represented by the specified bookmark.
 
 | Method | Description |
 | --- | --- |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getMergeFieldName()](#getMergeFieldName--) |  |
 | [canWorkAsMergeField()](#canWorkAsMergeField--) |  |
-| [isMergeValueRequired()](#isMergeValueRequired--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBookmarkName()](#getBookmarkName--) | Gets the referenced bookmark's name. |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets the referenced bookmark's name. |
-| [getNumberSeparator()](#getNumberSeparator--) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
-| [setNumberSeparator(String value)](#setNumberSeparator-java.lang.String-) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
 | [getIncludeNoteOrComment()](#getIncludeNoteOrComment--) | Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
-| [setIncludeNoteOrComment(boolean value)](#setIncludeNoteOrComment-boolean-) | Sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
 | [getInsertHyperlink()](#getInsertHyperlink--) | Gets whether to create a hyperlink to the bookmarked paragraph. |
-| [setInsertHyperlink(boolean value)](#setInsertHyperlink-boolean-) | Sets whether to create a hyperlink to the bookmarked paragraph. |
 | [getInsertParagraphNumber()](#getInsertParagraphNumber--) | Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [getInsertRelativePosition()](#getInsertRelativePosition--) | Gets whether to insert the relative position of the referenced paragraph. |
-| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | Sets whether to insert the relative position of the referenced paragraph. |
-| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | Gets whether to suppress non-delimiter characters. |
-| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | Sets whether to suppress non-delimiter characters. |
 | [getInsertParagraphNumberInFullContext()](#getInsertParagraphNumberInFullContext--) | Gets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [getInsertRelativePosition()](#getInsertRelativePosition--) | Gets whether to insert the relative position of the referenced paragraph. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getMergeFieldName()](#getMergeFieldName--) |  |
+| [getNumberSeparator()](#getNumberSeparator--) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | Gets whether to suppress non-delimiter characters. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [hashCode()](#hashCode--) |  |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isMergeValueRequired()](#isMergeValueRequired--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets the referenced bookmark's name. |
+| [setIncludeNoteOrComment(boolean value)](#setIncludeNoteOrComment-boolean-) | Sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
+| [setInsertHyperlink(boolean value)](#setInsertHyperlink-boolean-) | Sets whether to create a hyperlink to the bookmarked paragraph. |
+| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
 | [setInsertParagraphNumberInFullContext(boolean value)](#setInsertParagraphNumberInFullContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in full context. |
+| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
+| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | Sets whether to insert the relative position of the referenced paragraph. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setNumberSeparator(String value)](#setNumberSeparator-java.lang.String-) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | Sets whether to suppress non-delimiter characters. |
+| [toString()](#toString--) |  |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### canWorkAsMergeField() {#canWorkAsMergeField--}
+```
+public boolean canWorkAsMergeField()
+```
+
+
+
+
+**Returns:**
+boolean
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getBookmarkName() {#getBookmarkName--}
+```
+public String getBookmarkName()
+```
+
+
+Gets the referenced bookmark's name.
+
+**Returns:**
+java.lang.String - The referenced bookmark's name.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getDisplayResult() {#getDisplayResult--}
+```
+public String getDisplayResult()
+```
+
+
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
+### getEnd() {#getEnd--}
+```
+public FieldEnd getEnd()
+```
+
+
+Gets the node that represents the field end.
+
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
+```
+public String getFieldCode()
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+
+**Returns:**
+java.lang.String
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+```
+public String getFieldCode(boolean includeChildFieldCodes)
+```
+
+
+Returns text between field start and field separator (or field end if there is no separator).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+
+**Returns:**
+java.lang.String
+### getFormat() {#getFormat--}
+```
+public FieldFormat getFormat()
+```
+
+
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+### getIncludeNoteOrComment() {#getIncludeNoteOrComment--}
+```
+public boolean getIncludeNoteOrComment()
+```
+
+
+Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+
+**Returns:**
+boolean - Whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+### getInsertHyperlink() {#getInsertHyperlink--}
+```
+public boolean getInsertHyperlink()
+```
+
+
+Gets whether to create a hyperlink to the bookmarked paragraph.
+
+**Returns:**
+boolean - Whether to create a hyperlink to the bookmarked paragraph.
+### getInsertParagraphNumber() {#getInsertParagraphNumber--}
+```
+public boolean getInsertParagraphNumber()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+### getInsertParagraphNumberInFullContext() {#getInsertParagraphNumberInFullContext--}
+```
+public boolean getInsertParagraphNumberInFullContext()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph in full context.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph in full context.
+### getInsertParagraphNumberInRelativeContext() {#getInsertParagraphNumberInRelativeContext--}
+```
+public boolean getInsertParagraphNumberInRelativeContext()
+```
+
+
+Gets whether to insert the paragraph number of the referenced paragraph in relative context.
+
+**Returns:**
+boolean - Whether to insert the paragraph number of the referenced paragraph in relative context.
+### getInsertRelativePosition() {#getInsertRelativePosition--}
+```
+public boolean getInsertRelativePosition()
+```
+
+
+Gets whether to insert the relative position of the referenced paragraph.
+
+**Returns:**
+boolean - Whether to insert the relative position of the referenced paragraph.
+### getLocaleId() {#getLocaleId--}
+```
+public int getLocaleId()
+```
+
+
+Gets the LCID of the field.
+
+**Returns:**
+int - The LCID of the field.
+### getMergeFieldName() {#getMergeFieldName--}
+```
+public String getMergeFieldName()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getNumberSeparator() {#getNumberSeparator--}
+```
+public String getNumberSeparator()
+```
+
+
+Gets the character sequence that is used to separate sequence numbers and page numbers.
+
+**Returns:**
+java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
+### getResult() {#getResult--}
+```
+public String getResult()
+```
+
+
+Gets text that is between the field separator and field end.
+
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
+### getSeparator() {#getSeparator--}
+```
+public FieldSeparator getSeparator()
+```
+
+
+Gets the node that represents the field separator. Can be null.
+
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+### getStart() {#getStart--}
+```
+public FieldStart getStart()
+```
+
+
+Gets the node that represents the start of the field.
+
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+### getSuppressNonDelimiters() {#getSuppressNonDelimiters--}
+```
+public boolean getSuppressNonDelimiters()
+```
+
+
+Gets whether to suppress non-delimiter characters.
+
+**Returns:**
+boolean - Whether to suppress non-delimiter characters.
 ### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
 public int getSwitchType(String switchName)
@@ -59,26 +318,72 @@ public int getSwitchType(String switchName)
 
 **Returns:**
 int
-### getMergeFieldName() {#getMergeFieldName--}
+### getType() {#getType--}
 ```
-public String getMergeFieldName()
+public int getType()
+```
+
+
+Gets the Microsoft Word field type.
+
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
 ```
 
 
 
 
 **Returns:**
-java.lang.String
-### canWorkAsMergeField() {#canWorkAsMergeField--}
+int
+### isDirty() {#isDirty--}
 ```
-public boolean canWorkAsMergeField()
+public boolean isDirty()
 ```
 
 
-
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
 **Returns:**
-boolean
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+### isDirty(boolean value) {#isDirty-boolean-}
+```
+public void isDirty(boolean value)
+```
+
+
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+
+### isLocked() {#isLocked--}
+```
+public boolean isLocked()
+```
+
+
+Gets whether the field is locked (should not recalculate its result).
+
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
+### isLocked(boolean value) {#isLocked-boolean-}
+```
+public void isLocked(boolean value)
+```
+
+
+Sets whether the field is locked (should not recalculate its result).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
+
 ### isMergeValueRequired() {#isMergeValueRequired--}
 ```
 public boolean isMergeValueRequired()
@@ -89,16 +394,32 @@ public boolean isMergeValueRequired()
 
 **Returns:**
 boolean
-### getBookmarkName() {#getBookmarkName--}
+### notify() {#notify--}
 ```
-public String getBookmarkName()
+public final native void notify()
 ```
 
 
-Gets the referenced bookmark's name.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### remove() {#remove--}
+```
+public Node remove()
+```
+
+
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
 **Returns:**
-java.lang.String - The referenced bookmark's name.
+[Node](../../com.aspose.words/node)
 ### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
 ```
 public void setBookmarkName(String value)
@@ -112,39 +433,6 @@ Sets the referenced bookmark's name.
 | --- | --- | --- |
 | value | java.lang.String | The referenced bookmark's name. |
 
-### getNumberSeparator() {#getNumberSeparator--}
-```
-public String getNumberSeparator()
-```
-
-
-Gets the character sequence that is used to separate sequence numbers and page numbers.
-
-**Returns:**
-java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
-### setNumberSeparator(String value) {#setNumberSeparator-java.lang.String-}
-```
-public void setNumberSeparator(String value)
-```
-
-
-Sets the character sequence that is used to separate sequence numbers and page numbers.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
-
-### getIncludeNoteOrComment() {#getIncludeNoteOrComment--}
-```
-public boolean getIncludeNoteOrComment()
-```
-
-
-Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
-
-**Returns:**
-boolean - Whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
 ### setIncludeNoteOrComment(boolean value) {#setIncludeNoteOrComment-boolean-}
 ```
 public void setIncludeNoteOrComment(boolean value)
@@ -158,16 +446,6 @@ Sets whether to increment footnote, endnote, and annotation numbers that are mar
 | --- | --- | --- |
 | value | boolean | Whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
 
-### getInsertHyperlink() {#getInsertHyperlink--}
-```
-public boolean getInsertHyperlink()
-```
-
-
-Gets whether to create a hyperlink to the bookmarked paragraph.
-
-**Returns:**
-boolean - Whether to create a hyperlink to the bookmarked paragraph.
 ### setInsertHyperlink(boolean value) {#setInsertHyperlink-boolean-}
 ```
 public void setInsertHyperlink(boolean value)
@@ -181,16 +459,6 @@ Sets whether to create a hyperlink to the bookmarked paragraph.
 | --- | --- | --- |
 | value | boolean | Whether to create a hyperlink to the bookmarked paragraph. |
 
-### getInsertParagraphNumber() {#getInsertParagraphNumber--}
-```
-public boolean getInsertParagraphNumber()
-```
-
-
-Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
-
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
 ### setInsertParagraphNumber(boolean value) {#setInsertParagraphNumber-boolean-}
 ```
 public void setInsertParagraphNumber(boolean value)
@@ -204,39 +472,19 @@ Sets whether to insert the paragraph number of the referenced paragraph exactly 
 | --- | --- | --- |
 | value | boolean | Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
 
-### getInsertRelativePosition() {#getInsertRelativePosition--}
+### setInsertParagraphNumberInFullContext(boolean value) {#setInsertParagraphNumberInFullContext-boolean-}
 ```
-public boolean getInsertRelativePosition()
-```
-
-
-Gets whether to insert the relative position of the referenced paragraph.
-
-**Returns:**
-boolean - Whether to insert the relative position of the referenced paragraph.
-### setInsertRelativePosition(boolean value) {#setInsertRelativePosition-boolean-}
-```
-public void setInsertRelativePosition(boolean value)
+public void setInsertParagraphNumberInFullContext(boolean value)
 ```
 
 
-Sets whether to insert the relative position of the referenced paragraph.
+Sets whether to insert the paragraph number of the referenced paragraph in full context.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to insert the relative position of the referenced paragraph. |
+| value | boolean | Whether to insert the paragraph number of the referenced paragraph in full context. |
 
-### getInsertParagraphNumberInRelativeContext() {#getInsertParagraphNumberInRelativeContext--}
-```
-public boolean getInsertParagraphNumberInRelativeContext()
-```
-
-
-Gets whether to insert the paragraph number of the referenced paragraph in relative context.
-
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in relative context.
 ### setInsertParagraphNumberInRelativeContext(boolean value) {#setInsertParagraphNumberInRelativeContext-boolean-}
 ```
 public void setInsertParagraphNumberInRelativeContext(boolean value)
@@ -250,16 +498,58 @@ Sets whether to insert the paragraph number of the referenced paragraph in relat
 | --- | --- | --- |
 | value | boolean | Whether to insert the paragraph number of the referenced paragraph in relative context. |
 
-### getSuppressNonDelimiters() {#getSuppressNonDelimiters--}
+### setInsertRelativePosition(boolean value) {#setInsertRelativePosition-boolean-}
 ```
-public boolean getSuppressNonDelimiters()
+public void setInsertRelativePosition(boolean value)
 ```
 
 
-Gets whether to suppress non-delimiter characters.
+Sets whether to insert the relative position of the referenced paragraph.
 
-**Returns:**
-boolean - Whether to suppress non-delimiter characters.
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | Whether to insert the relative position of the referenced paragraph. |
+
+### setLocaleId(int value) {#setLocaleId-int-}
+```
+public void setLocaleId(int value)
+```
+
+
+Sets the LCID of the field.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The LCID of the field. |
+
+### setNumberSeparator(String value) {#setNumberSeparator-java.lang.String-}
+```
+public void setNumberSeparator(String value)
+```
+
+
+Sets the character sequence that is used to separate sequence numbers and page numbers.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
+
+### setResult(String value) {#setResult-java.lang.String-}
+```
+public void setResult(String value)
+```
+
+
+Sets text that is between the field separator and field end.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | Text that is between the field separator and field end. |
+
 ### setSuppressNonDelimiters(boolean value) {#setSuppressNonDelimiters-boolean-}
 ```
 public void setSuppressNonDelimiters(boolean value)
@@ -273,26 +563,83 @@ Sets whether to suppress non-delimiter characters.
 | --- | --- | --- |
 | value | boolean | Whether to suppress non-delimiter characters. |
 
-### getInsertParagraphNumberInFullContext() {#getInsertParagraphNumberInFullContext--}
+### toString() {#toString--}
 ```
-public boolean getInsertParagraphNumberInFullContext()
+public String toString()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph in full context.
+
 
 **Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in full context.
-### setInsertParagraphNumberInFullContext(boolean value) {#setInsertParagraphNumberInFullContext-boolean-}
+java.lang.String
+### unlink() {#unlink--}
 ```
-public void setInsertParagraphNumberInFullContext(boolean value)
+public boolean unlink()
 ```
 
 
-Sets whether to insert the paragraph number of the referenced paragraph in full context.
+Performs the field unlink.
+
+Replaces the field with its most recent result.
+
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
+### update() {#update--}
+```
+public void update()
+```
+
+
+Performs the field update. Throws if the field is being updated already.
+
+### update(boolean ignoreMergeFormat) {#update-boolean-}
+```
+public void update(boolean ignoreMergeFormat)
+```
+
+
+Performs a field update. Throws if the field is being updated already.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | Whether to insert the paragraph number of the referenced paragraph in full context. |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

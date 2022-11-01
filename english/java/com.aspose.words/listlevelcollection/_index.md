@@ -23,20 +23,34 @@ To learn more, visit the **Working with Lists** documentation article.
 
 | Method | Description |
 | --- | --- |
-| [iterator()](#iterator--) | Gets the enumerator object that will enumerate levels in this list. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) | Gets a list level by index. |
-| [set(int index, ListLevel value)](#set-int-com.aspose.words.ListLevel-) | Gets a list level by index. |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) | Gets the number of levels in this list. |
-### iterator() {#iterator--}
+| [hashCode()](#hashCode--) |  |
+| [iterator()](#iterator--) | Gets the enumerator object that will enumerate levels in this list. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [set(int index, ListLevel value)](#set-int-com.aspose.words.ListLevel-) | Gets a list level by index. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public Iterator iterator()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the enumerator object that will enumerate levels in this list.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.util.Iterator
+boolean
 ### get(int index) {#get-int-}
 ```
 public ListLevel get(int index)
@@ -52,6 +66,64 @@ Gets a list level by index.
 
 **Returns:**
 [ListLevel](../../com.aspose.words/listlevel) - A list level by index.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getCount() {#getCount--}
+```
+public int getCount()
+```
+
+
+Gets the number of levels in this list.
+
+There could be 1 or 9 levels in a list.
+
+**Returns:**
+int - The number of levels in this list.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### iterator() {#iterator--}
+```
+public Iterator iterator()
+```
+
+
+Gets the enumerator object that will enumerate levels in this list.
+
+**Returns:**
+java.util.Iterator
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### set(int index, ListLevel value) {#set-int-com.aspose.words.ListLevel-}
 ```
 public void set(int index, ListLevel value)
@@ -66,15 +138,48 @@ Gets a list level by index.
 | index | int |  |
 | value | [ListLevel](../../com.aspose.words/listlevel) | A list level by index. |
 
-### getCount() {#getCount--}
+### toString() {#toString--}
 ```
-public int getCount()
+public String toString()
 ```
 
 
-Gets the number of levels in this list.
 
-There could be 1 or 9 levels in a list.
 
 **Returns:**
-int - The number of levels in this list.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

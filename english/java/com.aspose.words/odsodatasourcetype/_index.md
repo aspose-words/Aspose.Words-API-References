@@ -20,33 +20,42 @@ The OOXML specification is very vague for this enum. I guess it might correspond
 
 | Field | Description |
 | --- | --- |
-| [TEXT](#TEXT) | Specifies that a given document has been connected to a text file. |
-| [DATABASE](#DATABASE) | Specifies that a given document has been connected to a database. |
 | [ADDRESS_BOOK](#ADDRESS-BOOK) | Specifies that a given document has been connected to an address book of contacts. |
+| [DATABASE](#DATABASE) | Specifies that a given document has been connected to a database. |
+| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE). |
 | [DOCUMENT_1](#DOCUMENT-1) | Specifies that a given document has been connected to another document format supported by the producing application. |
 | [DOCUMENT_2](#DOCUMENT-2) | Specifies that a given document has been connected to another document format supported by the producing application. |
-| [NATIVE](#NATIVE) | Specifies that a given document has been connected to another document format native to the producing application. |
 | [EMAIL](#EMAIL) | Specifies that a given document has been connected to an e-mail application. |
-| [NONE](#NONE) | The type of the external data source is not specified. |
 | [LEGACY](#LEGACY) | Specifies that a given document has been connected to a legacy document format supported by the producing application Possibly wdMergeSubTypeWord2000. |
 | [MASTER](#MASTER) | Specifies that a given document has been connected to a data source which aggregates other data sources. |
-| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE). |
+| [NATIVE](#NATIVE) | Specifies that a given document has been connected to another document format native to the producing application. |
+| [NONE](#NONE) | The type of the external data source is not specified. |
+| [TEXT](#TEXT) | Specifies that a given document has been connected to a text file. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int odsoDataSourceType)](#getName-int-) |  |
-| [toString(int odsoDataSourceType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String odsoDataSourceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int odsoDataSourceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### TEXT {#TEXT}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int odsoDataSourceType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### ADDRESS_BOOK {#ADDRESS-BOOK}
 ```
-public static int TEXT
+public static int ADDRESS_BOOK
 ```
 
 
-Specifies that a given document has been connected to a text file. Possibly wdMergeSubTypeOther.
+Specifies that a given document has been connected to an address book of contacts. Possibly wdMergeSubTypeOAL.
 
 ### DATABASE {#DATABASE}
 ```
@@ -56,13 +65,13 @@ public static int DATABASE
 
 Specifies that a given document has been connected to a database. Possibly wdMergeSubTypeAccess.
 
-### ADDRESS_BOOK {#ADDRESS-BOOK}
+### DEFAULT {#DEFAULT}
 ```
-public static int ADDRESS_BOOK
+public static int DEFAULT
 ```
 
 
-Specifies that a given document has been connected to an address book of contacts. Possibly wdMergeSubTypeOAL.
+Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE).
 
 ### DOCUMENT_1 {#DOCUMENT-1}
 ```
@@ -80,14 +89,6 @@ public static int DOCUMENT_2
 
 Specifies that a given document has been connected to another document format supported by the producing application. Possibly wdMergeSubTypeWorks.
 
-### NATIVE {#NATIVE}
-```
-public static int NATIVE
-```
-
-
-Specifies that a given document has been connected to another document format native to the producing application. Possibly wdMergeSubTypeOLEDBText
-
 ### EMAIL {#EMAIL}
 ```
 public static int EMAIL
@@ -95,14 +96,6 @@ public static int EMAIL
 
 
 Specifies that a given document has been connected to an e-mail application. Possibly wdMergeSubTypeOutlook.
-
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-The type of the external data source is not specified. Possibly wdMergeSubTypeWord.
 
 ### LEGACY {#LEGACY}
 ```
@@ -120,13 +113,29 @@ public static int MASTER
 
 Specifies that a given document has been connected to a data source which aggregates other data sources.
 
-### DEFAULT {#DEFAULT}
+### NATIVE {#NATIVE}
 ```
-public static int DEFAULT
+public static int NATIVE
 ```
 
 
-Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE).
+Specifies that a given document has been connected to another document format native to the producing application. Possibly wdMergeSubTypeOLEDBText
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+The type of the external data source is not specified. Possibly wdMergeSubTypeWord.
+
+### TEXT {#TEXT}
+```
+public static int TEXT
+```
+
+
+Specifies that a given document has been connected to a text file. Possibly wdMergeSubTypeOther.
 
 ### length {#length}
 ```
@@ -134,6 +143,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String odsoDataSourceTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| odsoDataSourceTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int odsoDataSourceType) {#getName-int-}
 ```
 public static String getName(int odsoDataSourceType)
@@ -146,6 +195,52 @@ public static String getName(int odsoDataSourceType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | odsoDataSourceType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -164,9 +259,17 @@ public static String toString(int odsoDataSourceType)
 
 **Returns:**
 java.lang.String
-### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String odsoDataSourceTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -175,17 +278,19 @@ public static int fromName(String odsoDataSourceTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| odsoDataSourceTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

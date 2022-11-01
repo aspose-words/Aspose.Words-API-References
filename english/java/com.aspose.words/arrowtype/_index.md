@@ -18,30 +18,31 @@ Specifies the type of an arrow at a line end.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | The line does not have an arrow at the end. |
 | [ARROW](#ARROW) | The arrow is a solid triangle. |
-| [STEALTH](#STEALTH) | The arrow is a "stealth" arrow. |
-| [DIAMOND](#DIAMOND) | The line end is a solid diamond. |
-| [OVAL](#OVAL) | The line end is a solid oval. |
-| [OPEN](#OPEN) | The arrow is an open arrow. |
 | [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/arrowtype\#NONE). |
+| [DIAMOND](#DIAMOND) | The line end is a solid diamond. |
+| [NONE](#NONE) | The line does not have an arrow at the end. |
+| [OPEN](#OPEN) | The arrow is an open arrow. |
+| [OVAL](#OVAL) | The line end is a solid oval. |
+| [STEALTH](#STEALTH) | The arrow is a "stealth" arrow. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int arrowType)](#getName-int-) |  |
-| [toString(int arrowType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String arrowTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int arrowType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-The line does not have an arrow at the end.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int arrowType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### ARROW {#ARROW}
 ```
 public static int ARROW
@@ -49,38 +50,6 @@ public static int ARROW
 
 
 The arrow is a solid triangle.
-
-### STEALTH {#STEALTH}
-```
-public static int STEALTH
-```
-
-
-The arrow is a "stealth" arrow.
-
-### DIAMOND {#DIAMOND}
-```
-public static int DIAMOND
-```
-
-
-The line end is a solid diamond.
-
-### OVAL {#OVAL}
-```
-public static int OVAL
-```
-
-
-The line end is a solid oval.
-
-### OPEN {#OPEN}
-```
-public static int OPEN
-```
-
-
-The arrow is an open arrow.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -90,12 +59,92 @@ public static int DEFAULT
 
 Same as [NONE](../../com.aspose.words/arrowtype\#NONE).
 
+### DIAMOND {#DIAMOND}
+```
+public static int DIAMOND
+```
+
+
+The line end is a solid diamond.
+
+### NONE {#NONE}
+```
+public static int NONE
+```
+
+
+The line does not have an arrow at the end.
+
+### OPEN {#OPEN}
+```
+public static int OPEN
+```
+
+
+The arrow is an open arrow.
+
+### OVAL {#OVAL}
+```
+public static int OVAL
+```
+
+
+The line end is a solid oval.
+
+### STEALTH {#STEALTH}
+```
+public static int STEALTH
+```
+
+
+The arrow is a "stealth" arrow.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String arrowTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String arrowTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arrowTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int arrowType) {#getName-int-}
 ```
 public static String getName(int arrowType)
@@ -108,6 +157,52 @@ public static String getName(int arrowType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | arrowType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -126,9 +221,17 @@ public static String toString(int arrowType)
 
 **Returns:**
 java.lang.String
-### fromName(String arrowTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String arrowTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -137,17 +240,19 @@ public static int fromName(String arrowTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| arrowTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

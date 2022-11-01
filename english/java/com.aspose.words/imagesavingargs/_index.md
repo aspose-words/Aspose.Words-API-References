@@ -28,25 +28,49 @@ To save images into streams instead of files, use the **P:Aspose.Words.Saving.Im
 
 | Method | Description |
 | --- | --- |
-| [getDocument()](#getDocument--) | Gets the document object that is currently being saved. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getCurrentShape()](#getCurrentShape--) | Gets the [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved. |
-| [isImageAvailable()](#isImageAvailable--) | Returns  true  if the current image is available for export. |
+| [getDocument()](#getDocument--) | Gets the document object that is currently being saved. |
 | [getImageFileName()](#getImageFileName--) | Gets the file name (without path) where the image will be saved to. |
-| [setImageFileName(String value)](#setImageFileName-java.lang.String-) | Sets the file name (without path) where the image will be saved to. |
-| [getKeepImageStreamOpen()](#getKeepImageStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
-| [setKeepImageStreamOpen(boolean value)](#setKeepImageStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
 | [getImageStream()](#getImageStream--) |  |
+| [getKeepImageStreamOpen()](#getKeepImageStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [hashCode()](#hashCode--) |  |
+| [isImageAvailable()](#isImageAvailable--) | Returns  true  if the current image is available for export. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setImageFileName(String value)](#setImageFileName-java.lang.String-) | Sets the file name (without path) where the image will be saved to. |
 | [setImageStream(OutputStream value)](#setImageStream-java.io.OutputStream-) |  |
-### getDocument() {#getDocument--}
+| [setKeepImageStreamOpen(boolean value)](#setKeepImageStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public Document getDocument()
+public boolean equals(Object arg0)
 ```
 
 
-Gets the document object that is currently being saved.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-[Document](../../com.aspose.words/document) - The document object that is currently being saved.
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCurrentShape() {#getCurrentShape--}
 ```
 public ShapeBase getCurrentShape()
@@ -63,20 +87,16 @@ Some images in the document can be unavailable. To check image availability use 
 
 **Returns:**
 [ShapeBase](../../com.aspose.words/shapebase) - The [ShapeBase](../../com.aspose.words/shapebase) object corresponding to the shape or group shape that is about to be saved.
-### isImageAvailable() {#isImageAvailable--}
+### getDocument() {#getDocument--}
 ```
-public boolean isImageAvailable()
+public Document getDocument()
 ```
 
 
-Returns  true  if the current image is available for export.
-
-Some images in the document can be unavailable, for example, because the image is linked and the link is inaccessible or does not point to a valid image. In this case Aspose.Words exports an icon with a red cross. This property returns  true  if the original image is available; returns  false  if the original image is not available and a "no image" icon will be offered for save.
-
-When saving a group shape or a shape that doesn't require any image this property is always  true .
+Gets the document object that is currently being saved.
 
 **Returns:**
-boolean - \{ true  if the current image is available for export.
+[Document](../../com.aspose.words/document) - The document object that is currently being saved.
 ### getImageFileName() {#getImageFileName--}
 ```
 public String getImageFileName()
@@ -102,6 +122,70 @@ When saving a document to a stream, the generated image file name looks like *As
 
 **Returns:**
 java.lang.String - The file name (without path) where the image will be saved to.
+### getImageStream() {#getImageStream--}
+```
+public OutputStream getImageStream()
+```
+
+
+
+
+**Returns:**
+java.io.OutputStream
+### getKeepImageStreamOpen() {#getKeepImageStreamOpen--}
+```
+public boolean getKeepImageStreamOpen()
+```
+
+
+Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
+
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.ImageSavingArgs.ImageStream** property after writing an image into it. Specify  true  to keep the stream open.
+
+**P:Aspose.Words.Saving.ImageSavingArgs.ImageStream**
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isImageAvailable() {#isImageAvailable--}
+```
+public boolean isImageAvailable()
+```
+
+
+Returns  true  if the current image is available for export.
+
+Some images in the document can be unavailable, for example, because the image is linked and the link is inaccessible or does not point to a valid image. In this case Aspose.Words exports an icon with a red cross. This property returns  true  if the original image is available; returns  false  if the original image is not available and a "no image" icon will be offered for save.
+
+When saving a group shape or a shape that doesn't require any image this property is always  true .
+
+**Returns:**
+boolean - \{ true  if the current image is available for export.
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setImageFileName(String value) {#setImageFileName-java.lang.String-}
 ```
 public void setImageFileName(String value)
@@ -130,20 +214,19 @@ When saving a document to a stream, the generated image file name looks like *As
 | --- | --- | --- |
 | value | java.lang.String | The file name (without path) where the image will be saved to. |
 
-### getKeepImageStreamOpen() {#getKeepImageStreamOpen--}
+### setImageStream(OutputStream value) {#setImageStream-java.io.OutputStream-}
 ```
-public boolean getKeepImageStreamOpen()
+public void setImageStream(OutputStream value)
 ```
 
 
-Specifies whether Aspose.Words should keep the stream open or close it after saving an image.
 
-Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.ImageSavingArgs.ImageStream** property after writing an image into it. Specify  true  to keep the stream open.
 
-**P:Aspose.Words.Saving.ImageSavingArgs.ImageStream**
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.io.OutputStream |  |
 
-**Returns:**
-boolean - The corresponding  boolean  value.
 ### setKeepImageStreamOpen(boolean value) {#setKeepImageStreamOpen-boolean-}
 ```
 public void setKeepImageStreamOpen(boolean value)
@@ -161,19 +244,27 @@ Default is  false  and Aspose.Words will close the stream you provided in the **
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### getImageStream() {#getImageStream--}
+### toString() {#toString--}
 ```
-public OutputStream getImageStream()
+public String toString()
 ```
 
 
 
 
 **Returns:**
-java.io.OutputStream
-### setImageStream(OutputStream value) {#setImageStream-java.io.OutputStream-}
+java.lang.String
+### wait() {#wait--}
 ```
-public void setImageStream(OutputStream value)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -182,5 +273,19 @@ public void setImageStream(OutputStream value)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.io.OutputStream |  |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

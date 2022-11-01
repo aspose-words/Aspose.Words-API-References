@@ -24,10 +24,18 @@ Represents Out/Ref constructions for Integer primitive type
 
 | Method | Description |
 | --- | --- |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get()](#get--) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
+| [getClass()](#getClass--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [set(int anotherValue)](#set-int-) |  |
 | [set(long anotherValue)](#set-long-) |  |
 | [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### RefInt(int value) {#RefInt-int-}
 ```
 public RefInt(int value)
@@ -54,6 +62,21 @@ Gets Out/Ref parameter Value Should be used after calling the method with Out/Re
 | --- | --- | --- |
 | value | long |  |
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### get() {#get--}
 ```
 public int get()
@@ -64,6 +87,42 @@ Sets Out/Ref parameter Value Should be used inside the method with Out/Ref const
 
 **Returns:**
 int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### set(int anotherValue) {#set-int-}
 ```
 public int set(int anotherValue)
@@ -104,3 +163,38 @@ public String toString()
 
 **Returns:**
 java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -28,31 +28,45 @@ Note that font config substitution rule will resolve the font in most cases and 
 
 | Method | Description |
 | --- | --- |
-| [getTableSubstitution()](#getTableSubstitution--) | Settings related to table substitution rule. |
-| [getFontInfoSubstitution()](#getFontInfoSubstitution--) | Settings related to font info substitution rule. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getDefaultFontSubstitution()](#getDefaultFontSubstitution--) | Settings related to default font substitution rule. |
 | [getFontConfigSubstitution()](#getFontConfigSubstitution--) | Settings related to font config substitution rule. |
+| [getFontInfoSubstitution()](#getFontInfoSubstitution--) | Settings related to font info substitution rule. |
 | [getFontNameSubstitution()](#getFontNameSubstitution--) | Settings related to font name substitution rule. |
-### getTableSubstitution() {#getTableSubstitution--}
+| [getTableSubstitution()](#getTableSubstitution--) | Settings related to table substitution rule. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
 ```
-public TableSubstitutionRule getTableSubstitution()
+public boolean equals(Object arg0)
 ```
 
 
-Settings related to table substitution rule.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-[TableSubstitutionRule](../../com.aspose.words/tablesubstitutionrule) - The corresponding [TableSubstitutionRule](../../com.aspose.words/tablesubstitutionrule) value.
-### getFontInfoSubstitution() {#getFontInfoSubstitution--}
+boolean
+### getClass() {#getClass--}
 ```
-public FontInfoSubstitutionRule getFontInfoSubstitution()
+public final native Class<?> getClass()
 ```
 
 
-Settings related to font info substitution rule.
+
 
 **Returns:**
-[FontInfoSubstitutionRule](../../com.aspose.words/fontinfosubstitutionrule) - The corresponding [FontInfoSubstitutionRule](../../com.aspose.words/fontinfosubstitutionrule) value.
+java.lang.Class<?>
 ### getDefaultFontSubstitution() {#getDefaultFontSubstitution--}
 ```
 public DefaultFontSubstitutionRule getDefaultFontSubstitution()
@@ -73,6 +87,16 @@ Settings related to font config substitution rule.
 
 **Returns:**
 [FontConfigSubstitutionRule](../../com.aspose.words/fontconfigsubstitutionrule) - The corresponding [FontConfigSubstitutionRule](../../com.aspose.words/fontconfigsubstitutionrule) value.
+### getFontInfoSubstitution() {#getFontInfoSubstitution--}
+```
+public FontInfoSubstitutionRule getFontInfoSubstitution()
+```
+
+
+Settings related to font info substitution rule.
+
+**Returns:**
+[FontInfoSubstitutionRule](../../com.aspose.words/fontinfosubstitutionrule) - The corresponding [FontInfoSubstitutionRule](../../com.aspose.words/fontinfosubstitutionrule) value.
 ### getFontNameSubstitution() {#getFontNameSubstitution--}
 ```
 public FontNameSubstitutionRule getFontNameSubstitution()
@@ -83,3 +107,84 @@ Settings related to font name substitution rule.
 
 **Returns:**
 [FontNameSubstitutionRule](../../com.aspose.words/fontnamesubstitutionrule) - The corresponding [FontNameSubstitutionRule](../../com.aspose.words/fontnamesubstitutionrule) value.
+### getTableSubstitution() {#getTableSubstitution--}
+```
+public TableSubstitutionRule getTableSubstitution()
+```
+
+
+Settings related to table substitution rule.
+
+**Returns:**
+[TableSubstitutionRule](../../com.aspose.words/tablesubstitutionrule) - The corresponding [TableSubstitutionRule](../../com.aspose.words/tablesubstitutionrule) value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

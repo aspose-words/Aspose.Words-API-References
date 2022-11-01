@@ -18,20 +18,37 @@ Specifies the possible positions for tick labels.
 
 | Field | Description |
 | --- | --- |
+| [DEFAULT](#DEFAULT) | Specifies default value of tick labels position. |
 | [HIGH](#HIGH) | Specifies the axis labels shall be at the high end of the perpendicular axis. |
 | [LOW](#LOW) | Specifies the axis labels shall be at the low end of the perpendicular axis. |
 | [NEXT_TO_AXIS](#NEXT-TO-AXIS) | Specifies the axis labels shall be next to the axis. |
 | [NONE](#NONE) | Specifies the axis labels are not drawn. |
-| [DEFAULT](#DEFAULT) | Specifies default value of tick labels position. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int axisTickLabelPosition)](#getName-int-) |  |
-| [toString(int axisTickLabelPosition)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTickLabelPositionName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int axisTickLabelPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int axisTickLabelPosition)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### DEFAULT {#DEFAULT}
+```
+public static int DEFAULT
+```
+
+
+Specifies default value of tick labels position.
+
 ### HIGH {#HIGH}
 ```
 public static int HIGH
@@ -64,20 +81,52 @@ public static int NONE
 
 Specifies the axis labels are not drawn.
 
-### DEFAULT {#DEFAULT}
-```
-public static int DEFAULT
-```
-
-
-Specifies default value of tick labels position.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String axisTickLabelPositionName) {#fromName-java.lang.String-}
+```
+public static int fromName(String axisTickLabelPositionName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| axisTickLabelPositionName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int axisTickLabelPosition) {#getName-int-}
 ```
 public static String getName(int axisTickLabelPosition)
@@ -90,6 +139,52 @@ public static String getName(int axisTickLabelPosition)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | axisTickLabelPosition | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -108,9 +203,17 @@ public static String toString(int axisTickLabelPosition)
 
 **Returns:**
 java.lang.String
-### fromName(String axisTickLabelPositionName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String axisTickLabelPositionName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -119,17 +222,19 @@ public static int fromName(String axisTickLabelPositionName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| axisTickLabelPositionName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

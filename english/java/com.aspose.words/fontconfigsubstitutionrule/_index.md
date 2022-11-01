@@ -24,9 +24,98 @@ If fontconfig utility is not available then this rule will be ignored.
 
 | Method | Description |
 | --- | --- |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
+| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
+| [hashCode()](#hashCode--) |  |
 | [isFontConfigAvailable()](#isFontConfigAvailable--) | Check if fontconfig utility is available or not. |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
 | [resetCache()](#resetCache--) | Resets the cache of fontconfig calling results. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
+### getEnabled() {#getEnabled--}
+```
+public boolean getEnabled()
+```
+
+
+Specifies whether the rule is enabled or not.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### isFontConfigAvailable() {#isFontConfigAvailable--}
+```
+public boolean isFontConfigAvailable()
+```
+
+
+Check if fontconfig utility is available or not.
+
+**Returns:**
+boolean
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### resetCache() {#resetCache--}
+```
+public void resetCache()
+```
+
+
+Resets the cache of fontconfig calling results.
+
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
 public void setEnabled(boolean value)
@@ -40,21 +129,48 @@ Specifies whether the rule is enabled or not.
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
 
-### isFontConfigAvailable() {#isFontConfigAvailable--}
+### toString() {#toString--}
 ```
-public boolean isFontConfigAvailable()
+public String toString()
 ```
 
 
-Check if fontconfig utility is available or not.
+
 
 **Returns:**
-boolean
-### resetCache() {#resetCache--}
+java.lang.String
+### wait() {#wait--}
 ```
-public void resetCache()
+public final void wait()
 ```
 
 
-Resets the cache of fontconfig calling results.
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

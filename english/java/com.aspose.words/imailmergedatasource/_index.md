@@ -17,50 +17,10 @@ When a data source is created, it should be initialized to point to BOF (before 
 
 | Method | Description |
 | --- | --- |
-| [getTableName()](#getTableName--) | Returns the name of the data source. |
-| [moveNext()](#moveNext--) | Advances to the next record in the data source. |
-| [getValue(String fieldName, Ref fieldValue)](#getValue-java.lang.String-com.aspose.words.ref.Ref-) |  |
 | [getChildDataSource(String tableName)](#getChildDataSource-java.lang.String-) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-### getTableName() {#getTableName--}
-```
-public abstract String getTableName()
-```
-
-
-Returns the name of the data source.
-
-If you are implementing [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource), return the name of the data source from this property.
-
-Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
-
-**Returns:**
-java.lang.String - The name of the data source. Empty string if the data source has no name.
-### moveNext() {#moveNext--}
-```
-public abstract boolean moveNext()
-```
-
-
-Advances to the next record in the data source.
-
-**Returns:**
-boolean - True if moved to next record successfully. False if reached end of the data source.
-### getValue(String fieldName, Ref fieldValue) {#getValue-java.lang.String-com.aspose.words.ref.Ref-}
-```
-public abstract boolean getValue(String fieldName, Ref fieldValue)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fieldName | java.lang.String |  |
-| fieldValue | [Ref](../../com.aspose.words.ref/ref) |  |
-
-**Returns:**
-boolean
+| [getTableName()](#getTableName--) | Returns the name of the data source. |
+| [getValue(String fieldName, Ref fieldValue)](#getValue-java.lang.String-com.aspose.words.ref.Ref-) |  |
+| [moveNext()](#moveNext--) | Advances to the next record in the data source. |
 ### getChildDataSource(String tableName) {#getChildDataSource-java.lang.String-}
 ```
 public abstract IMailMergeDataSource getChildDataSource(String tableName)
@@ -86,3 +46,43 @@ If a table with the specified name does not exist, your implementation should re
 
 **Returns:**
 [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) - A data source object that will provide access to the data records of the specified table.
+### getTableName() {#getTableName--}
+```
+public abstract String getTableName()
+```
+
+
+Returns the name of the data source.
+
+If you are implementing [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource), return the name of the data source from this property.
+
+Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
+
+**Returns:**
+java.lang.String - The name of the data source. Empty string if the data source has no name.
+### getValue(String fieldName, Ref fieldValue) {#getValue-java.lang.String-com.aspose.words.ref.Ref-}
+```
+public abstract boolean getValue(String fieldName, Ref fieldValue)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fieldName | java.lang.String |  |
+| fieldValue | [Ref](../../com.aspose.words.ref/ref) |  |
+
+**Returns:**
+boolean
+### moveNext() {#moveNext--}
+```
+public abstract boolean moveNext()
+```
+
+
+Advances to the next record in the data source.
+
+**Returns:**
+boolean - True if moved to next record successfully. False if reached end of the data source.

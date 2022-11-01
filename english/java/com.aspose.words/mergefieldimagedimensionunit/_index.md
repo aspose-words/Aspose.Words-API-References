@@ -18,25 +18,26 @@ Specifies an unit of an image dimension (i.e. the width or the height) used acro
 
 | Field | Description |
 | --- | --- |
-| [POINT](#POINT) | The point (i.e. |
 | [PERCENT](#PERCENT) | The percent of the original image dimension value. |
+| [POINT](#POINT) | The point (i.e. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int mergeFieldImageDimensionUnit)](#getName-int-) |  |
-| [toString(int mergeFieldImageDimensionUnit)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mergeFieldImageDimensionUnitName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mergeFieldImageDimensionUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### POINT {#POINT}
-```
-public static int POINT
-```
-
-
-The point (i.e. 1/72 inch).
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int mergeFieldImageDimensionUnit)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### PERCENT {#PERCENT}
 ```
 public static int PERCENT
@@ -45,12 +46,60 @@ public static int PERCENT
 
 The percent of the original image dimension value.
 
+### POINT {#POINT}
+```
+public static int POINT
+```
+
+
+The point (i.e. 1/72 inch).
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String mergeFieldImageDimensionUnitName) {#fromName-java.lang.String-}
+```
+public static int fromName(String mergeFieldImageDimensionUnitName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| mergeFieldImageDimensionUnitName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int mergeFieldImageDimensionUnit) {#getName-int-}
 ```
 public static String getName(int mergeFieldImageDimensionUnit)
@@ -63,6 +112,52 @@ public static String getName(int mergeFieldImageDimensionUnit)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | mergeFieldImageDimensionUnit | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -81,9 +176,17 @@ public static String toString(int mergeFieldImageDimensionUnit)
 
 **Returns:**
 java.lang.String
-### fromName(String mergeFieldImageDimensionUnitName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String mergeFieldImageDimensionUnitName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -92,17 +195,19 @@ public static int fromName(String mergeFieldImageDimensionUnitName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| mergeFieldImageDimensionUnitName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

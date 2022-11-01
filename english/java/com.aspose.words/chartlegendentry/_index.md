@@ -27,17 +27,34 @@ The text of the entry is the name of the series or trendline. The text cannot be
 
 | Method | Description |
 | --- | --- |
-| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
+| [getFont()](#getFont--) | Provides access to the font formatting of this legend entry. |
+| [hashCode()](#hashCode--) |  |
 | [isHidden()](#isHidden--) | Gets a value indicating whether this entry is hidden in the chart legend. |
 | [isHidden(boolean value)](#isHidden-boolean-) | Sets a value indicating whether this entry is hidden in the chart legend. |
-| [getFont()](#getFont--) | Provides access to the font formatting of this legend entry. |
-### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [removeRunAttr(int key)](#removeRunAttr-int-) |  |
+| [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### clearRunAttrs() {#clearRunAttrs--}
 ```
-public Object getDirectRunAttr(int key)
+public void clearRunAttrs()
+```
+
+
+
+
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
 ```
 
 
@@ -46,10 +63,10 @@ public Object getDirectRunAttr(int key)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| key | int |  |
+| arg0 | java.lang.Object |  |
 
 **Returns:**
-java.lang.Object
+boolean
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -65,23 +82,19 @@ public Object fetchInheritedRunAttr(int key)
 
 **Returns:**
 java.lang.Object
-### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+### getClass() {#getClass--}
 ```
-public void setRunAttr(int key, Object value)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| key | int |  |
-| value | java.lang.Object |  |
-
-### removeRunAttr(int key) {#removeRunAttr-int-}
+**Returns:**
+java.lang.Class<?>
+### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
-public void removeRunAttr(int key)
+public Object getDirectRunAttr(int key)
 ```
 
 
@@ -92,14 +105,28 @@ public void removeRunAttr(int key)
 | --- | --- | --- |
 | key | int |  |
 
-### clearRunAttrs() {#clearRunAttrs--}
+**Returns:**
+java.lang.Object
+### getFont() {#getFont--}
 ```
-public void clearRunAttrs()
+public Font getFont()
+```
+
+
+Provides access to the font formatting of this legend entry.
+
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
 ```
 
 
 
 
+**Returns:**
+int
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()
@@ -123,13 +150,91 @@ Sets a value indicating whether this entry is hidden in the chart legend. The de
 | --- | --- | --- |
 | value | boolean | A value indicating whether this entry is hidden in the chart legend. |
 
-### getFont() {#getFont--}
+### notify() {#notify--}
 ```
-public Font getFont()
+public final native void notify()
 ```
 
 
-Provides access to the font formatting of this legend entry.
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### removeRunAttr(int key) {#removeRunAttr-int-}
+```
+public void removeRunAttr(int key)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+
+### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
+```
+public void setRunAttr(int key, Object value)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

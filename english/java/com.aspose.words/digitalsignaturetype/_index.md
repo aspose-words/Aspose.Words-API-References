@@ -18,26 +18,27 @@ Specifies the type of a digital signature.
 
 | Field | Description |
 | --- | --- |
-| [UNKNOWN](#UNKNOWN) | Indicates an error, unknown digital signature type. |
 | [CRYPTO_API](#CRYPTO-API) | The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents. |
+| [UNKNOWN](#UNKNOWN) | Indicates an error, unknown digital signature type. |
 | [XML_DSIG](#XML-DSIG) | The XmlDsig signature method used in OOXML and OpenDocument documents. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int digitalSignatureType)](#getName-int-) |  |
-| [toString(int digitalSignatureType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String digitalSignatureTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int digitalSignatureType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### UNKNOWN {#UNKNOWN}
-```
-public static int UNKNOWN
-```
-
-
-Indicates an error, unknown digital signature type.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int digitalSignatureType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CRYPTO_API {#CRYPTO-API}
 ```
 public static int CRYPTO_API
@@ -45,6 +46,14 @@ public static int CRYPTO_API
 
 
 The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents.
+
+### UNKNOWN {#UNKNOWN}
+```
+public static int UNKNOWN
+```
+
+
+Indicates an error, unknown digital signature type.
 
 ### XML_DSIG {#XML-DSIG}
 ```
@@ -60,6 +69,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String digitalSignatureTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String digitalSignatureTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| digitalSignatureTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int digitalSignatureType) {#getName-int-}
 ```
 public static String getName(int digitalSignatureType)
@@ -72,6 +121,52 @@ public static String getName(int digitalSignatureType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | digitalSignatureType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int digitalSignatureType)
 
 **Returns:**
 java.lang.String
-### fromName(String digitalSignatureTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String digitalSignatureTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String digitalSignatureTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignatureTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

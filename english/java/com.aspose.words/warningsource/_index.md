@@ -18,120 +18,57 @@ Specifies the module that produces a warning during document loading or saving.
 
 | Field | Description |
 | --- | --- |
-| [UNKNOWN](#UNKNOWN) | The warning source is not specified. |
-| [LAYOUT](#LAYOUT) | Module that builds a document layout. |
-| [DRAWING_ML](#DRAWING-ML) | Module that renders DrawingML shapes. |
-| [OFFICE_MATH](#OFFICE-MATH) | Module that renders OfficeMath. |
-| [SHAPES](#SHAPES) | Module that renders ordinary shapes. |
-| [METAFILE](#METAFILE) | Module that renders metafiles. |
-| [XPS](#XPS) | Module that renders XPS. |
-| [PDF](#PDF) | Module that renders PDF. |
-| [IMAGE](#IMAGE) | Module that renders images. |
-| [DOCX](#DOCX) | Module that reads/writes DOCX files. |
+| [CHM](#CHM) | Module that reads CHM files. |
 | [DOC](#DOC) | Module that reads/writes binary DOC files. |
-| [TEXT](#TEXT) | Module that reads/writes plaintext files. |
-| [RTF](#RTF) | Module that reads/writes RTF files. |
-| [WORD_ML](#WORD-ML) | Module that reads/writes WML files. |
+| [DOCX](#DOCX) | Module that reads/writes DOCX files. |
+| [DRAWING_ML](#DRAWING-ML) | Module that renders DrawingML shapes. |
+| [EPUB](#EPUB) | Module that reads/writes EPUB files. |
+| [FONT](#FONT) | Module that reads font files. |
+| [HTML](#HTML) | Module that reads/writes HTML/MHTML files. |
+| [IMAGE](#IMAGE) | Module that renders images. |
+| [LAYOUT](#LAYOUT) | Module that builds a document layout. |
+| [MARKDOWN](#MARKDOWN) | Module that reads/writes Markdown files. |
+| [MATH_ML](#MATH-ML) | Module that reads W3C MathML files. |
+| [METAFILE](#METAFILE) | Module that renders metafiles. |
 | [NRX](#NRX) | Common modules that are shared between DOCX/WML reader/writer modules. |
 | [ODT](#ODT) | Module that reads/writes ODT files. |
-| [HTML](#HTML) | Module that reads/writes HTML/MHTML files. |
-| [VALIDATOR](#VALIDATOR) | Module that verifies model consistency and validity. |
-| [XAML](#XAML) | Module that reads/writes Xaml files. |
-| [SVM](#SVM) | Module that reads Svm files. |
-| [MATH_ML](#MATH-ML) | Module that reads W3C MathML files. |
-| [FONT](#FONT) | Module that reads font files. |
+| [OFFICE_MATH](#OFFICE-MATH) | Module that renders OfficeMath. |
+| [PDF](#PDF) | Module that renders PDF. |
+| [RTF](#RTF) | Module that reads/writes RTF files. |
+| [SHAPES](#SHAPES) | Module that renders ordinary shapes. |
 | [SVG](#SVG) | Module that reads SVG files. |
-| [MARKDOWN](#MARKDOWN) | Module that reads/writes Markdown files. |
-| [CHM](#CHM) | Module that reads CHM files. |
-| [EPUB](#EPUB) | Module that reads/writes EPUB files. |
+| [SVM](#SVM) | Module that reads Svm files. |
+| [TEXT](#TEXT) | Module that reads/writes plaintext files. |
+| [UNKNOWN](#UNKNOWN) | The warning source is not specified. |
+| [VALIDATOR](#VALIDATOR) | Module that verifies model consistency and validity. |
+| [WORD_ML](#WORD-ML) | Module that reads/writes WML files. |
+| [XAML](#XAML) | Module that reads/writes Xaml files. |
+| [XPS](#XPS) | Module that renders XPS. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int warningSource)](#getName-int-) |  |
-| [toString(int warningSource)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String warningSourceName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int warningSource)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### UNKNOWN {#UNKNOWN}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int warningSource)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### CHM {#CHM}
 ```
-public static int UNKNOWN
-```
-
-
-The warning source is not specified.
-
-### LAYOUT {#LAYOUT}
-```
-public static int LAYOUT
-```
-
-
-Module that builds a document layout.
-
-### DRAWING_ML {#DRAWING-ML}
-```
-public static int DRAWING_ML
+public static int CHM
 ```
 
 
-Module that renders DrawingML shapes.
-
-### OFFICE_MATH {#OFFICE-MATH}
-```
-public static int OFFICE_MATH
-```
-
-
-Module that renders OfficeMath.
-
-### SHAPES {#SHAPES}
-```
-public static int SHAPES
-```
-
-
-Module that renders ordinary shapes.
-
-### METAFILE {#METAFILE}
-```
-public static int METAFILE
-```
-
-
-Module that renders metafiles.
-
-### XPS {#XPS}
-```
-public static int XPS
-```
-
-
-Module that renders XPS.
-
-### PDF {#PDF}
-```
-public static int PDF
-```
-
-
-Module that renders PDF.
-
-### IMAGE {#IMAGE}
-```
-public static int IMAGE
-```
-
-
-Module that renders images.
-
-### DOCX {#DOCX}
-```
-public static int DOCX
-```
-
-
-Module that reads/writes DOCX files.
+Module that reads CHM files.
 
 ### DOC {#DOC}
 ```
@@ -141,29 +78,85 @@ public static int DOC
 
 Module that reads/writes binary DOC files.
 
-### TEXT {#TEXT}
+### DOCX {#DOCX}
 ```
-public static int TEXT
-```
-
-
-Module that reads/writes plaintext files.
-
-### RTF {#RTF}
-```
-public static int RTF
+public static int DOCX
 ```
 
 
-Module that reads/writes RTF files.
+Module that reads/writes DOCX files.
 
-### WORD_ML {#WORD-ML}
+### DRAWING_ML {#DRAWING-ML}
 ```
-public static int WORD_ML
+public static int DRAWING_ML
 ```
 
 
-Module that reads/writes WML files.
+Module that renders DrawingML shapes.
+
+### EPUB {#EPUB}
+```
+public static int EPUB
+```
+
+
+Module that reads/writes EPUB files.
+
+### FONT {#FONT}
+```
+public static int FONT
+```
+
+
+Module that reads font files.
+
+### HTML {#HTML}
+```
+public static int HTML
+```
+
+
+Module that reads/writes HTML/MHTML files.
+
+### IMAGE {#IMAGE}
+```
+public static int IMAGE
+```
+
+
+Module that renders images.
+
+### LAYOUT {#LAYOUT}
+```
+public static int LAYOUT
+```
+
+
+Module that builds a document layout.
+
+### MARKDOWN {#MARKDOWN}
+```
+public static int MARKDOWN
+```
+
+
+Module that reads/writes Markdown files.
+
+### MATH_ML {#MATH-ML}
+```
+public static int MATH_ML
+```
+
+
+Module that reads W3C MathML files.
+
+### METAFILE {#METAFILE}
+```
+public static int METAFILE
+```
+
+
+Module that renders metafiles.
 
 ### NRX {#NRX}
 ```
@@ -181,53 +174,37 @@ public static int ODT
 
 Module that reads/writes ODT files.
 
-### HTML {#HTML}
+### OFFICE_MATH {#OFFICE-MATH}
 ```
-public static int HTML
-```
-
-
-Module that reads/writes HTML/MHTML files.
-
-### VALIDATOR {#VALIDATOR}
-```
-public static int VALIDATOR
+public static int OFFICE_MATH
 ```
 
 
-Module that verifies model consistency and validity.
+Module that renders OfficeMath.
 
-### XAML {#XAML}
+### PDF {#PDF}
 ```
-public static int XAML
-```
-
-
-Module that reads/writes Xaml files.
-
-### SVM {#SVM}
-```
-public static int SVM
+public static int PDF
 ```
 
 
-Module that reads Svm files.
+Module that renders PDF.
 
-### MATH_ML {#MATH-ML}
+### RTF {#RTF}
 ```
-public static int MATH_ML
-```
-
-
-Module that reads W3C MathML files.
-
-### FONT {#FONT}
-```
-public static int FONT
+public static int RTF
 ```
 
 
-Module that reads font files.
+Module that reads/writes RTF files.
+
+### SHAPES {#SHAPES}
+```
+public static int SHAPES
+```
+
+
+Module that renders ordinary shapes.
 
 ### SVG {#SVG}
 ```
@@ -237,29 +214,61 @@ public static int SVG
 
 Module that reads SVG files.
 
-### MARKDOWN {#MARKDOWN}
+### SVM {#SVM}
 ```
-public static int MARKDOWN
-```
-
-
-Module that reads/writes Markdown files.
-
-### CHM {#CHM}
-```
-public static int CHM
+public static int SVM
 ```
 
 
-Module that reads CHM files.
+Module that reads Svm files.
 
-### EPUB {#EPUB}
+### TEXT {#TEXT}
 ```
-public static int EPUB
+public static int TEXT
 ```
 
 
-Module that reads/writes EPUB files.
+Module that reads/writes plaintext files.
+
+### UNKNOWN {#UNKNOWN}
+```
+public static int UNKNOWN
+```
+
+
+The warning source is not specified.
+
+### VALIDATOR {#VALIDATOR}
+```
+public static int VALIDATOR
+```
+
+
+Module that verifies model consistency and validity.
+
+### WORD_ML {#WORD-ML}
+```
+public static int WORD_ML
+```
+
+
+Module that reads/writes WML files.
+
+### XAML {#XAML}
+```
+public static int XAML
+```
+
+
+Module that reads/writes Xaml files.
+
+### XPS {#XPS}
+```
+public static int XPS
+```
+
+
+Module that renders XPS.
 
 ### length {#length}
 ```
@@ -267,6 +276,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String warningSourceName) {#fromName-java.lang.String-}
+```
+public static int fromName(String warningSourceName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| warningSourceName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int warningSource) {#getName-int-}
 ```
 public static String getName(int warningSource)
@@ -279,6 +328,52 @@ public static String getName(int warningSource)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | warningSource | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -297,9 +392,17 @@ public static String toString(int warningSource)
 
 **Returns:**
 java.lang.String
-### fromName(String warningSourceName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String warningSourceName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -308,17 +411,19 @@ public static int fromName(String warningSourceName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| warningSourceName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

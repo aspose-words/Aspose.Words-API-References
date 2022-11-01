@@ -18,29 +18,30 @@ Specifies how text is wrapped around a shape or picture.
 
 | Field | Description |
 | --- | --- |
-| [NONE](#NONE) | No text wrapping around the shape. |
 | [INLINE](#INLINE) | The shape remains on the same layer as text and treated as a character. |
-| [TOP_BOTTOM](#TOP-BOTTOM) | The text stops at the top of the shape and restarts on the line below the shape. |
+| [NONE](#NONE) | No text wrapping around the shape. |
 | [SQUARE](#SQUARE) | Wraps text around all sides of the square bounding box of the shape. |
-| [TIGHT](#TIGHT) | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
 | [THROUGH](#THROUGH) | Same as Tight, but wraps inside any parts of the shape that are open. |
+| [TIGHT](#TIGHT) | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
+| [TOP_BOTTOM](#TOP-BOTTOM) | The text stops at the top of the shape and restarts on the line below the shape. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int wrapType)](#getName-int-) |  |
-| [toString(int wrapType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String wrapTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int wrapType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NONE {#NONE}
-```
-public static int NONE
-```
-
-
-No text wrapping around the shape. The shape is placed behind or in front of text.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int wrapType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### INLINE {#INLINE}
 ```
 public static int INLINE
@@ -49,13 +50,13 @@ public static int INLINE
 
 The shape remains on the same layer as text and treated as a character.
 
-### TOP_BOTTOM {#TOP-BOTTOM}
+### NONE {#NONE}
 ```
-public static int TOP_BOTTOM
+public static int NONE
 ```
 
 
-The text stops at the top of the shape and restarts on the line below the shape.
+No text wrapping around the shape. The shape is placed behind or in front of text.
 
 ### SQUARE {#SQUARE}
 ```
@@ -65,14 +66,6 @@ public static int SQUARE
 
 Wraps text around all sides of the square bounding box of the shape.
 
-### TIGHT {#TIGHT}
-```
-public static int TIGHT
-```
-
-
-Wraps tightly around the edges of the shape, instead of wrapping around the bounding box.
-
 ### THROUGH {#THROUGH}
 ```
 public static int THROUGH
@@ -81,12 +74,68 @@ public static int THROUGH
 
 Same as Tight, but wraps inside any parts of the shape that are open.
 
+### TIGHT {#TIGHT}
+```
+public static int TIGHT
+```
+
+
+Wraps tightly around the edges of the shape, instead of wrapping around the bounding box.
+
+### TOP_BOTTOM {#TOP-BOTTOM}
+```
+public static int TOP_BOTTOM
+```
+
+
+The text stops at the top of the shape and restarts on the line below the shape.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String wrapTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String wrapTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| wrapTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int wrapType) {#getName-int-}
 ```
 public static String getName(int wrapType)
@@ -99,6 +148,52 @@ public static String getName(int wrapType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | wrapType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -117,9 +212,17 @@ public static String toString(int wrapType)
 
 **Returns:**
 java.lang.String
-### fromName(String wrapTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String wrapTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -128,17 +231,19 @@ public static int fromName(String wrapTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| wrapTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

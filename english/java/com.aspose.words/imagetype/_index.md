@@ -18,38 +18,39 @@ Specifies the type (format) of an image in a Microsoft Word document.
 
 | Field | Description |
 | --- | --- |
-| [NO_IMAGE](#NO-IMAGE) | The is no image data. |
-| [UNKNOWN](#UNKNOWN) | An unknown image type or image type that cannot be directly stored inside a Microsoft Word document. |
-| [EMF](#EMF) | Windows Enhanced Metafile. |
-| [WMF](#WMF) | Windows Metafile. |
-| [PICT](#PICT) | Macintosh PICT. |
-| [JPEG](#JPEG) | JPEG JFIF. |
-| [PNG](#PNG) | Portable Network Graphics. |
 | [BMP](#BMP) | Windows Bitmap. |
+| [EMF](#EMF) | Windows Enhanced Metafile. |
+| [JPEG](#JPEG) | JPEG JFIF. |
+| [NO_IMAGE](#NO-IMAGE) | The is no image data. |
+| [PICT](#PICT) | Macintosh PICT. |
+| [PNG](#PNG) | Portable Network Graphics. |
+| [UNKNOWN](#UNKNOWN) | An unknown image type or image type that cannot be directly stored inside a Microsoft Word document. |
+| [WMF](#WMF) | Windows Metafile. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int imageType)](#getName-int-) |  |
-| [toString(int imageType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imageTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int imageType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NO_IMAGE {#NO-IMAGE}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int imageType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BMP {#BMP}
 ```
-public static int NO_IMAGE
+public static int BMP
 ```
 
 
-The is no image data.
-
-### UNKNOWN {#UNKNOWN}
-```
-public static int UNKNOWN
-```
-
-
-An unknown image type or image type that cannot be directly stored inside a Microsoft Word document.
+Windows Bitmap.
 
 ### EMF {#EMF}
 ```
@@ -59,13 +60,21 @@ public static int EMF
 
 Windows Enhanced Metafile.
 
-### WMF {#WMF}
+### JPEG {#JPEG}
 ```
-public static int WMF
+public static int JPEG
 ```
 
 
-Windows Metafile.
+JPEG JFIF.
+
+### NO_IMAGE {#NO-IMAGE}
+```
+public static int NO_IMAGE
+```
+
+
+The is no image data.
 
 ### PICT {#PICT}
 ```
@@ -75,14 +84,6 @@ public static int PICT
 
 Macintosh PICT. An existing image will be preserved in a document, but inserting new PICT images into a document is not supported.
 
-### JPEG {#JPEG}
-```
-public static int JPEG
-```
-
-
-JPEG JFIF.
-
 ### PNG {#PNG}
 ```
 public static int PNG
@@ -91,13 +92,21 @@ public static int PNG
 
 Portable Network Graphics.
 
-### BMP {#BMP}
+### UNKNOWN {#UNKNOWN}
 ```
-public static int BMP
+public static int UNKNOWN
 ```
 
 
-Windows Bitmap.
+An unknown image type or image type that cannot be directly stored inside a Microsoft Word document.
+
+### WMF {#WMF}
+```
+public static int WMF
+```
+
+
+Windows Metafile.
 
 ### length {#length}
 ```
@@ -105,6 +114,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String imageTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String imageTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int imageType) {#getName-int-}
 ```
 public static String getName(int imageType)
@@ -117,6 +166,52 @@ public static String getName(int imageType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -135,9 +230,17 @@ public static String toString(int imageType)
 
 **Returns:**
 java.lang.String
-### fromName(String imageTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String imageTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -146,17 +249,19 @@ public static int fromName(String imageTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

@@ -30,22 +30,31 @@ You do not normally need to create objects of this class directly because ODSO s
 | Method | Description |
 | --- | --- |
 | [deepClone()](#deepClone--) | Returns a deep clone of this object. |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getColumnDelimiter()](#getColumnDelimiter--) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
-| [setColumnDelimiter(char value)](#setColumnDelimiter-char-) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
-| [getFirstRowContainsColumnNames()](#getFirstRowContainsColumnNames--) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
-| [setFirstRowContainsColumnNames(boolean value)](#setFirstRowContainsColumnNames-boolean-) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
 | [getDataSource()](#getDataSource--) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
-| [setDataSource(String value)](#setDataSource-java.lang.String-) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
-| [getTableName()](#getTableName--) | Specifies the particular set of data that a source shall be connected to within an external data source. |
-| [setTableName(String value)](#setTableName-java.lang.String-) | Specifies the particular set of data that a source shall be connected to within an external data source. |
 | [getDataSourceType()](#getDataSourceType--) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
-| [setDataSourceType(int value)](#setDataSourceType-int-) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
-| [getUdlConnectString()](#getUdlConnectString--) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
-| [setUdlConnectString(String value)](#setUdlConnectString-java.lang.String-) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
 | [getFieldMapDatas()](#getFieldMapDatas--) | Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
-| [setFieldMapDatas(OdsoFieldMapDataCollection value)](#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection-) | Sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
+| [getFirstRowContainsColumnNames()](#getFirstRowContainsColumnNames--) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
 | [getRecipientDatas()](#getRecipientDatas--) | Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+| [getTableName()](#getTableName--) | Specifies the particular set of data that a source shall be connected to within an external data source. |
+| [getUdlConnectString()](#getUdlConnectString--) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [setColumnDelimiter(char value)](#setColumnDelimiter-char-) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
+| [setDataSource(String value)](#setDataSource-java.lang.String-) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
+| [setDataSourceType(int value)](#setDataSourceType-int-) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
+| [setFieldMapDatas(OdsoFieldMapDataCollection value)](#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection-) | Sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
+| [setFirstRowContainsColumnNames(boolean value)](#setFirstRowContainsColumnNames-boolean-) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
 | [setRecipientDatas(OdsoRecipientDataCollection value)](#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-) | Sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+| [setTableName(String value)](#setTableName-java.lang.String-) | Specifies the particular set of data that a source shall be connected to within an external data source. |
+| [setUdlConnectString(String value)](#setUdlConnectString-java.lang.String-) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### deepClone() {#deepClone--}
 ```
 public Odso deepClone()
@@ -56,6 +65,31 @@ Returns a deep clone of this object.
 
 **Returns:**
 [Odso](../../com.aspose.words/odso)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getColumnDelimiter() {#getColumnDelimiter--}
 ```
 public char getColumnDelimiter()
@@ -68,6 +102,106 @@ RK I have never seen this in use.
 
 **Returns:**
 char - The corresponding  char  value.
+### getDataSource() {#getDataSource--}
+```
+public String getDataSource()
+```
+
+
+Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getDataSourceType() {#getDataSourceType--}
+```
+public int getDataSourceType()
+```
+
+
+Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
+
+This setting is purely a suggestion of the data source type that is being used for this mail merge.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants.
+### getFieldMapDatas() {#getFieldMapDatas--}
+```
+public OdsoFieldMapDataCollection getFieldMapDatas()
+```
+
+
+Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null.
+
+**Returns:**
+[OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) - A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document.
+### getFirstRowContainsColumnNames() {#getFirstRowContainsColumnNames--}
+```
+public boolean getFirstRowContainsColumnNames()
+```
+
+
+Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
+
+RK I have never seen this in use.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getRecipientDatas() {#getRecipientDatas--}
+```
+public OdsoRecipientDataCollection getRecipientDatas()
+```
+
+
+Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
+
+**Returns:**
+[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) - A collection of objects that specify inclusion/exclusion of individual records in the mail merge.
+### getTableName() {#getTableName--}
+```
+public String getTableName()
+```
+
+
+Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getUdlConnectString() {#getUdlConnectString--}
+```
+public String getUdlConnectString()
+```
+
+
+Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
 ### setColumnDelimiter(char value) {#setColumnDelimiter-char-}
 ```
 public void setColumnDelimiter(char value)
@@ -83,43 +217,6 @@ RK I have never seen this in use.
 | --- | --- | --- |
 | value | char | The corresponding  char  value. |
 
-### getFirstRowContainsColumnNames() {#getFirstRowContainsColumnNames--}
-```
-public boolean getFirstRowContainsColumnNames()
-```
-
-
-Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
-
-RK I have never seen this in use.
-
-**Returns:**
-boolean - The corresponding  boolean  value.
-### setFirstRowContainsColumnNames(boolean value) {#setFirstRowContainsColumnNames-boolean-}
-```
-public void setFirstRowContainsColumnNames(boolean value)
-```
-
-
-Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
-
-RK I have never seen this in use.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
-
-### getDataSource() {#getDataSource--}
-```
-public String getDataSource()
-```
-
-
-Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
 ### setDataSource(String value) {#setDataSource-java.lang.String-}
 ```
 public void setDataSource(String value)
@@ -133,41 +230,6 @@ Specifies the location of the external data source to be connected to a document
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
 
-### getTableName() {#getTableName--}
-```
-public String getTableName()
-```
-
-
-Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setTableName(String value) {#setTableName-java.lang.String-}
-```
-public void setTableName(String value)
-```
-
-
-Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
-
-### getDataSourceType() {#getDataSourceType--}
-```
-public int getDataSourceType()
-```
-
-
-Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
-
-This setting is purely a suggestion of the data source type that is being used for this mail merge.
-
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants.
 ### setDataSourceType(int value) {#setDataSourceType-int-}
 ```
 public void setDataSourceType(int value)
@@ -183,39 +245,6 @@ This setting is purely a suggestion of the data source type that is being used f
 | --- | --- | --- |
 | value | int | The corresponding  int  value. The value must be one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants. |
 
-### getUdlConnectString() {#getUdlConnectString--}
-```
-public String getUdlConnectString()
-```
-
-
-Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
-
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### setUdlConnectString(String value) {#setUdlConnectString-java.lang.String-}
-```
-public void setUdlConnectString(String value)
-```
-
-
-Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
-
-### getFieldMapDatas() {#getFieldMapDatas--}
-```
-public OdsoFieldMapDataCollection getFieldMapDatas()
-```
-
-
-Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null.
-
-**Returns:**
-[OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) - A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document.
 ### setFieldMapDatas(OdsoFieldMapDataCollection value) {#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection-}
 ```
 public void setFieldMapDatas(OdsoFieldMapDataCollection value)
@@ -229,16 +258,21 @@ Sets a collection of objects that specify how columns from the external data sou
 | --- | --- | --- |
 | value | [OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) | A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
 
-### getRecipientDatas() {#getRecipientDatas--}
+### setFirstRowContainsColumnNames(boolean value) {#setFirstRowContainsColumnNames-boolean-}
 ```
-public OdsoRecipientDataCollection getRecipientDatas()
+public void setFirstRowContainsColumnNames(boolean value)
 ```
 
 
-Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
+Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
 
-**Returns:**
-[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) - A collection of objects that specify inclusion/exclusion of individual records in the mail merge.
+RK I have never seen this in use.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
 ### setRecipientDatas(OdsoRecipientDataCollection value) {#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-}
 ```
 public void setRecipientDatas(OdsoRecipientDataCollection value)
@@ -251,4 +285,75 @@ Sets a collection of objects that specify inclusion/exclusion of individual reco
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) | A collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+
+### setTableName(String value) {#setTableName-java.lang.String-}
+```
+public void setTableName(String value)
+```
+
+
+Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
+### setUdlConnectString(String value) {#setUdlConnectString-java.lang.String-}
+```
+public void setUdlConnectString(String value)
+```
+
+
+Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String | The corresponding java.lang.String value. |
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+
+### wait(long arg0, int arg1) {#wait-long-int-}
+```
+public final void wait(long arg0, int arg1)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 

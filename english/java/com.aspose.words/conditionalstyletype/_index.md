@@ -18,74 +18,59 @@ Represents possible table areas to which conditional formatting may be defined i
 
 | Field | Description |
 | --- | --- |
-| [FIRST_ROW](#FIRST-ROW) | Specifies formatting of the first row of a table. |
-| [FIRST_COLUMN](#FIRST-COLUMN) | Specifies formatting of the first column of a table. |
-| [LAST_ROW](#LAST-ROW) | Specifies formatting of the last row of a table. |
-| [LAST_COLUMN](#LAST-COLUMN) | Specifies formatting of the last column of a table. |
-| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | Specifies formatting of odd-numbered row stripe. |
-| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | Specifies formatting of odd-numbered column stripe. |
-| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | Specifies formatting of even-numbered row stripe. |
-| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | Specifies formatting of even-numbered column stripe. |
-| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | Specifies formatting of the top left cell of a table. |
-| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | Specifies formatting of the top right cell of a table. |
 | [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | Specifies formatting of the bottom left cell of a table. |
 | [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | Specifies formatting of the bottom right cell of a table. |
+| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | Specifies formatting of even-numbered column stripe. |
+| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | Specifies formatting of even-numbered row stripe. |
+| [FIRST_COLUMN](#FIRST-COLUMN) | Specifies formatting of the first column of a table. |
+| [FIRST_ROW](#FIRST-ROW) | Specifies formatting of the first row of a table. |
+| [LAST_COLUMN](#LAST-COLUMN) | Specifies formatting of the last column of a table. |
+| [LAST_ROW](#LAST-ROW) | Specifies formatting of the last row of a table. |
+| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | Specifies formatting of odd-numbered column stripe. |
+| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | Specifies formatting of odd-numbered row stripe. |
+| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | Specifies formatting of the top left cell of a table. |
+| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | Specifies formatting of the top right cell of a table. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int conditionalStyleType)](#getName-int-) |  |
-| [toString(int conditionalStyleType)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String conditionalStyleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int conditionalStyleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### FIRST_ROW {#FIRST-ROW}
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int conditionalStyleType)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
+### BOTTOM_LEFT_CELL {#BOTTOM-LEFT-CELL}
 ```
-public static int FIRST_ROW
-```
-
-
-Specifies formatting of the first row of a table.
-
-### FIRST_COLUMN {#FIRST-COLUMN}
-```
-public static int FIRST_COLUMN
-```
-
-
-Specifies formatting of the first column of a table.
-
-### LAST_ROW {#LAST-ROW}
-```
-public static int LAST_ROW
+public static int BOTTOM_LEFT_CELL
 ```
 
 
-Specifies formatting of the last row of a table.
+Specifies formatting of the bottom left cell of a table.
 
-### LAST_COLUMN {#LAST-COLUMN}
+### BOTTOM_RIGHT_CELL {#BOTTOM-RIGHT-CELL}
 ```
-public static int LAST_COLUMN
-```
-
-
-Specifies formatting of the last column of a table.
-
-### ODD_ROW_BANDING {#ODD-ROW-BANDING}
-```
-public static int ODD_ROW_BANDING
+public static int BOTTOM_RIGHT_CELL
 ```
 
 
-Specifies formatting of odd-numbered row stripe.
+Specifies formatting of the bottom right cell of a table.
 
-### ODD_COLUMN_BANDING {#ODD-COLUMN-BANDING}
+### EVEN_COLUMN_BANDING {#EVEN-COLUMN-BANDING}
 ```
-public static int ODD_COLUMN_BANDING
+public static int EVEN_COLUMN_BANDING
 ```
 
 
-Specifies formatting of odd-numbered column stripe.
+Specifies formatting of even-numbered column stripe.
 
 ### EVEN_ROW_BANDING {#EVEN-ROW-BANDING}
 ```
@@ -95,13 +80,53 @@ public static int EVEN_ROW_BANDING
 
 Specifies formatting of even-numbered row stripe.
 
-### EVEN_COLUMN_BANDING {#EVEN-COLUMN-BANDING}
+### FIRST_COLUMN {#FIRST-COLUMN}
 ```
-public static int EVEN_COLUMN_BANDING
+public static int FIRST_COLUMN
 ```
 
 
-Specifies formatting of even-numbered column stripe.
+Specifies formatting of the first column of a table.
+
+### FIRST_ROW {#FIRST-ROW}
+```
+public static int FIRST_ROW
+```
+
+
+Specifies formatting of the first row of a table.
+
+### LAST_COLUMN {#LAST-COLUMN}
+```
+public static int LAST_COLUMN
+```
+
+
+Specifies formatting of the last column of a table.
+
+### LAST_ROW {#LAST-ROW}
+```
+public static int LAST_ROW
+```
+
+
+Specifies formatting of the last row of a table.
+
+### ODD_COLUMN_BANDING {#ODD-COLUMN-BANDING}
+```
+public static int ODD_COLUMN_BANDING
+```
+
+
+Specifies formatting of odd-numbered column stripe.
+
+### ODD_ROW_BANDING {#ODD-ROW-BANDING}
+```
+public static int ODD_ROW_BANDING
+```
+
+
+Specifies formatting of odd-numbered row stripe.
 
 ### TOP_LEFT_CELL {#TOP-LEFT-CELL}
 ```
@@ -119,28 +144,52 @@ public static int TOP_RIGHT_CELL
 
 Specifies formatting of the top right cell of a table.
 
-### BOTTOM_LEFT_CELL {#BOTTOM-LEFT-CELL}
-```
-public static int BOTTOM_LEFT_CELL
-```
-
-
-Specifies formatting of the bottom left cell of a table.
-
-### BOTTOM_RIGHT_CELL {#BOTTOM-RIGHT-CELL}
-```
-public static int BOTTOM_RIGHT_CELL
-```
-
-
-Specifies formatting of the bottom right cell of a table.
-
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String conditionalStyleTypeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| conditionalStyleTypeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int conditionalStyleType) {#getName-int-}
 ```
 public static String getName(int conditionalStyleType)
@@ -153,6 +202,52 @@ public static String getName(int conditionalStyleType)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | conditionalStyleType | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -171,9 +266,17 @@ public static String toString(int conditionalStyleType)
 
 **Returns:**
 java.lang.String
-### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String conditionalStyleTypeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -182,17 +285,19 @@ public static int fromName(String conditionalStyleTypeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| conditionalStyleTypeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

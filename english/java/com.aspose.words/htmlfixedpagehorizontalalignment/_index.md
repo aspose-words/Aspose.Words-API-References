@@ -18,26 +18,27 @@ Specifies the horizontal alignment for pages in output HTML document.
 
 | Field | Description |
 | --- | --- |
-| [LEFT](#LEFT) | Align pages to the left. |
 | [CENTER](#CENTER) | Center pages. |
+| [LEFT](#LEFT) | Align pages to the left. |
 | [RIGHT](#RIGHT) | Align pages to the right. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int htmlFixedPageHorizontalAlignment)](#getName-int-) |  |
-| [toString(int htmlFixedPageHorizontalAlignment)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlFixedPageHorizontalAlignmentName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int htmlFixedPageHorizontalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### LEFT {#LEFT}
-```
-public static int LEFT
-```
-
-
-Align pages to the left.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int htmlFixedPageHorizontalAlignment)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### CENTER {#CENTER}
 ```
 public static int CENTER
@@ -45,6 +46,14 @@ public static int CENTER
 
 
 Center pages. This is the default value.
+
+### LEFT {#LEFT}
+```
+public static int LEFT
+```
+
+
+Align pages to the left.
 
 ### RIGHT {#RIGHT}
 ```
@@ -60,6 +69,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String htmlFixedPageHorizontalAlignmentName) {#fromName-java.lang.String-}
+```
+public static int fromName(String htmlFixedPageHorizontalAlignmentName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| htmlFixedPageHorizontalAlignmentName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int htmlFixedPageHorizontalAlignment) {#getName-int-}
 ```
 public static String getName(int htmlFixedPageHorizontalAlignment)
@@ -72,6 +121,52 @@ public static String getName(int htmlFixedPageHorizontalAlignment)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignment | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int htmlFixedPageHorizontalAlignment)
 
 **Returns:**
 java.lang.String
-### fromName(String htmlFixedPageHorizontalAlignmentName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String htmlFixedPageHorizontalAlignmentName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String htmlFixedPageHorizontalAlignmentName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| htmlFixedPageHorizontalAlignmentName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

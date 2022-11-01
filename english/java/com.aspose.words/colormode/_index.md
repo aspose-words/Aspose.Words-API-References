@@ -18,25 +18,26 @@ Specifies how colors are rendered.
 
 | Field | Description |
 | --- | --- |
-| [NORMAL](#NORMAL) | Rendering with unmodified colors. |
 | [GRAYSCALE](#GRAYSCALE) | Rendering with colors in a range of gray shades from white to black. |
+| [NORMAL](#NORMAL) | Rendering with unmodified colors. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int colorMode)](#getName-int-) |  |
-| [toString(int colorMode)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String colorModeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int colorMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
-### NORMAL {#NORMAL}
-```
-public static int NORMAL
-```
-
-
-Rendering with unmodified colors.
-
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int colorMode)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### GRAYSCALE {#GRAYSCALE}
 ```
 public static int GRAYSCALE
@@ -45,12 +46,60 @@ public static int GRAYSCALE
 
 Rendering with colors in a range of gray shades from white to black.
 
+### NORMAL {#NORMAL}
+```
+public static int NORMAL
+```
+
+
+Rendering with unmodified colors.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String colorModeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String colorModeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| colorModeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int colorMode) {#getName-int-}
 ```
 public static String getName(int colorMode)
@@ -63,6 +112,52 @@ public static String getName(int colorMode)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | colorMode | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -81,9 +176,17 @@ public static String toString(int colorMode)
 
 **Returns:**
 java.lang.String
-### fromName(String colorModeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String colorModeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -92,17 +195,19 @@ public static int fromName(String colorModeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| colorModeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

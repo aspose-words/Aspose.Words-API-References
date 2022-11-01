@@ -19,18 +19,27 @@ Allows to specify the alignment of the content of the table to be used when expo
 | Field | Description |
 | --- | --- |
 | [AUTO](#AUTO) | The alignment will be taken from the first paragraph in corresponding table column. |
-| [LEFT](#LEFT) | The content of tables will be aligned to the Left. |
 | [CENTER](#CENTER) | The content of tables will be aligned to the Center. |
+| [LEFT](#LEFT) | The content of tables will be aligned to the Left. |
 | [RIGHT](#RIGHT) | The content of tables will be aligned to the Right. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int tableContentAlignment)](#getName-int-) |  |
-| [toString(int tableContentAlignment)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableContentAlignmentName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int tableContentAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int tableContentAlignment)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### AUTO {#AUTO}
 ```
 public static int AUTO
@@ -39,14 +48,6 @@ public static int AUTO
 
 The alignment will be taken from the first paragraph in corresponding table column.
 
-### LEFT {#LEFT}
-```
-public static int LEFT
-```
-
-
-The content of tables will be aligned to the Left.
-
 ### CENTER {#CENTER}
 ```
 public static int CENTER
@@ -54,6 +55,14 @@ public static int CENTER
 
 
 The content of tables will be aligned to the Center.
+
+### LEFT {#LEFT}
+```
+public static int LEFT
+```
+
+
+The content of tables will be aligned to the Left.
 
 ### RIGHT {#RIGHT}
 ```
@@ -69,6 +78,46 @@ public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String tableContentAlignmentName) {#fromName-java.lang.String-}
+```
+public static int fromName(String tableContentAlignmentName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tableContentAlignmentName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int tableContentAlignment) {#getName-int-}
 ```
 public static String getName(int tableContentAlignment)
@@ -81,6 +130,52 @@ public static String getName(int tableContentAlignment)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | tableContentAlignment | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -99,9 +194,17 @@ public static String toString(int tableContentAlignment)
 
 **Returns:**
 java.lang.String
-### fromName(String tableContentAlignmentName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String tableContentAlignmentName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -110,17 +213,19 @@ public static int fromName(String tableContentAlignmentName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| tableContentAlignmentName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+

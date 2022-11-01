@@ -21,13 +21,22 @@ public class Cluster
 
 | Method | Description |
 | --- | --- |
+| [deepClone()](#deepClone--) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
+| [getClass()](#getClass--) |  |
 | [getCodepoints()](#getCodepoints--) |  |
 | [getCodepointsLength()](#getCodepointsLength--) |  |
 | [getGlyphs()](#getGlyphs--) |  |
-| [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
-| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster---) |  |
 | [getString()](#getString--) |  |
-| [deepClone()](#deepClone--) |  |
+| [getString(Cluster[] clusters)](#getString-com.aspose.words.Cluster---) |  |
+| [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### Cluster(int[] codepoints, Glyph[] glyphs) {#Cluster-int---com.aspose.words.Glyph---}
 ```
 public Cluster(int[] codepoints, Glyph[] glyphs)
@@ -42,6 +51,41 @@ Initializes a new instance of this class.
 | codepoints | int[] |  |
 | glyphs | [Glyph\[\]](../../com.aspose.words/glyph) |  |
 
+### deepClone() {#deepClone--}
+```
+public Cluster deepClone()
+```
+
+
+
+
+**Returns:**
+[Cluster](../../com.aspose.words/cluster)
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getCodepoints() {#getCodepoints--}
 ```
 public int[] getCodepoints()
@@ -72,6 +116,31 @@ public Glyph[] getGlyphs()
 
 **Returns:**
 com.aspose.words.Glyph[]
+### getString() {#getString--}
+```
+public String getString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
+```
+public static String getString(Cluster[] clusters)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
+
+**Returns:**
+java.lang.String
 ### getWidth(int em, float fontSize) {#getWidth-int-float-}
 ```
 public float getWidth(int em, float fontSize)
@@ -88,9 +157,53 @@ public float getWidth(int em, float fontSize)
 
 **Returns:**
 float
-### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
+### hashCode() {#hashCode--}
 ```
-public static String getString(Cluster[] clusters)
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### wait() {#wait--}
+```
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -99,27 +212,19 @@ public static String getString(Cluster[] clusters)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
+| arg0 | long |  |
 
-**Returns:**
-java.lang.String
-### getString() {#getString--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public String getString()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-java.lang.String
-### deepClone() {#deepClone--}
-```
-public Cluster deepClone()
-```
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
 
-
-
-
-**Returns:**
-[Cluster](../../com.aspose.words/cluster)

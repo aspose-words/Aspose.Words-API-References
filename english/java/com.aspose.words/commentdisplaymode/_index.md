@@ -19,17 +19,26 @@ Specifies the rendering mode for document comments.
 | Field | Description |
 | --- | --- |
 | [HIDE](#HIDE) | No document comments are rendered. |
-| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | Renders document comments in balloons in the margin. |
 | [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | Renders document comments in annotations. |
+| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | Renders document comments in balloons in the margin. |
 | [length](#length) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getName(int commentDisplayMode)](#getName-int-) |  |
-| [toString(int commentDisplayMode)](#toString-int-) |  |
+| [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String commentDisplayModeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int commentDisplayMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
+| [hashCode()](#hashCode--) |  |
+| [notify()](#notify--) |  |
+| [notifyAll()](#notifyAll--) |  |
+| [toString()](#toString--) |  |
+| [toString(int commentDisplayMode)](#toString-int-) |  |
+| [wait()](#wait--) |  |
+| [wait(long arg0)](#wait-long-) |  |
+| [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### HIDE {#HIDE}
 ```
 public static int HIDE
@@ -37,14 +46,6 @@ public static int HIDE
 
 
 No document comments are rendered.
-
-### SHOW_IN_BALLOONS {#SHOW-IN-BALLOONS}
-```
-public static int SHOW_IN_BALLOONS
-```
-
-
-Renders document comments in balloons in the margin. This is the default value.
 
 ### SHOW_IN_ANNOTATIONS {#SHOW-IN-ANNOTATIONS}
 ```
@@ -54,12 +55,60 @@ public static int SHOW_IN_ANNOTATIONS
 
 Renders document comments in annotations. This is only available for Pdf format.
 
+### SHOW_IN_BALLOONS {#SHOW-IN-BALLOONS}
+```
+public static int SHOW_IN_BALLOONS
+```
+
+
+Renders document comments in balloons in the margin. This is the default value.
+
 ### length {#length}
 ```
 public static int length
 ```
 
 
+### equals(Object arg0) {#equals-java.lang.Object-}
+```
+public boolean equals(Object arg0)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | java.lang.Object |  |
+
+**Returns:**
+boolean
+### fromName(String commentDisplayModeName) {#fromName-java.lang.String-}
+```
+public static int fromName(String commentDisplayModeName)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| commentDisplayModeName | java.lang.String |  |
+
+**Returns:**
+int
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
+
+
+
+
+**Returns:**
+java.lang.Class<?>
 ### getName(int commentDisplayMode) {#getName-int-}
 ```
 public static String getName(int commentDisplayMode)
@@ -72,6 +121,52 @@ public static String getName(int commentDisplayMode)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
+
+**Returns:**
+java.lang.String
+### getValues() {#getValues--}
+```
+public static int[] getValues()
+```
+
+
+
+
+**Returns:**
+int[]
+### hashCode() {#hashCode--}
+```
+public native int hashCode()
+```
+
+
+
+
+**Returns:**
+int
+### notify() {#notify--}
+```
+public final native void notify()
+```
+
+
+
+
+### notifyAll() {#notifyAll--}
+```
+public final native void notifyAll()
+```
+
+
+
+
+### toString() {#toString--}
+```
+public String toString()
+```
+
+
+
 
 **Returns:**
 java.lang.String
@@ -90,9 +185,17 @@ public static String toString(int commentDisplayMode)
 
 **Returns:**
 java.lang.String
-### fromName(String commentDisplayModeName) {#fromName-java.lang.String-}
+### wait() {#wait--}
 ```
-public static int fromName(String commentDisplayModeName)
+public final void wait()
+```
+
+
+
+
+### wait(long arg0) {#wait-long-}
+```
+public final native void wait(long arg0)
 ```
 
 
@@ -101,17 +204,19 @@ public static int fromName(String commentDisplayModeName)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| commentDisplayModeName | java.lang.String |  |
+| arg0 | long |  |
 
-**Returns:**
-int
-### getValues() {#getValues--}
+### wait(long arg0, int arg1) {#wait-long-int-}
 ```
-public static int[] getValues()
+public final void wait(long arg0, int arg1)
 ```
 
 
 
 
-**Returns:**
-int[]
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| arg0 | long |  |
+| arg1 | int |  |
+
