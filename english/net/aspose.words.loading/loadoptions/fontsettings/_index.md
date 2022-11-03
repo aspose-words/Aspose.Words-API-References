@@ -18,9 +18,9 @@ public FontSettings FontSettings { get; set; }
 
 When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-If set to null, default static font settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) will be used.
+If set to `null`, default static font settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) will be used.
 
-The default value is null.
+The default value is `null`.
 
 ## Examples
 

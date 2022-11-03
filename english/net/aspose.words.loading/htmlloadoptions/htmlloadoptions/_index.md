@@ -54,7 +54,7 @@ public HtmlLoadOptions(string password)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | String | The password to open an encrypted document. Can be null or empty string. |
+| password | String | The password to open an encrypted document. Can be `null` or empty string. |
 
 ## Examples
 
@@ -105,8 +105,8 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | LoadFormat | The format of the document to be loaded. |
-| password | String | The password to open an encrypted document. Can be null or empty string. |
-| baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be null or empty string. |
+| password | String | The password to open an encrypted document. Can be `null` or empty string. |
+| baseUri | String | The string that will be used to resolve relative URIs to absolute. Can be `null` or empty string. |
 
 ## Examples
 

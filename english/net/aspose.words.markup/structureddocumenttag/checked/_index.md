@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false.
+Gets/Sets current state of the Checkbox **SDT**. Default value for this property is `false`.
 
 ```csharp
 public bool Checked { get; set; }

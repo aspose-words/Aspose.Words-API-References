@@ -16,9 +16,9 @@ public void UpdateWordCount()
 
 ## Remarks
 
-**UpdateWordCount** recalculates and updates Characters, Words and Paragraphs properties in the [`BuiltInDocumentProperties`](../builtindocumentproperties/) collection of the **Document**.
+`UpdateWordCount` recalculates and updates Characters, Words and Paragraphs properties in the [`BuiltInDocumentProperties`](../builtindocumentproperties/) collection of the [`Document`](../).
 
-Note that **UpdateWordCount** does not update number of lines and pages properties. Use the `UpdateWordCount` overload and pass True value as a parameter to do that.
+Note that `UpdateWordCount` does not update number of lines and pages properties. Use the `UpdateWordCount` overload and pass `true` value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included in the word count.
 
@@ -74,7 +74,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updateLinesCount | Boolean | True if number of lines in the document shall be calculated. |
+| updateLinesCount | Boolean | `true` if number of lines in the document shall be calculated. |
 
 ## Remarks
 

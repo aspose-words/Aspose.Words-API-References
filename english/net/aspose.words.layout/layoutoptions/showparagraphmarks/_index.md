@@ -1,14 +1,14 @@
 ---
 title: ShowParagraphMarks
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets indication of whether paragraph marks are rendered. Default is False.
+description: Gets or sets indication of whether paragraph marks are rendered. Default is false.
 type: docs
 weight: 80
 url: /net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Gets or sets indication of whether paragraph marks are rendered. Default is False.
+Gets or sets indication of whether paragraph marks are rendered. Default is `false`.
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }

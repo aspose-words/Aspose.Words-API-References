@@ -1,14 +1,14 @@
 ---
 title: FirstRow
 second_title: Aspose.Words for .NET API Reference
-description: Returns the first Row node in the table.
+description: Returns the first Rowaspose.words.tables/row/ node in the table.
 type: docs
 weight: 160
 url: /net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Returns the first **Row** node in the table.
+Returns the first [`Row`](../../row/) node in the table.
 
 ```csharp
 public Row FirstRow { get; }

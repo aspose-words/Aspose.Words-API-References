@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttag/tag/
 ---
 ## StructuredDocumentTag.Tag property
 
-Specifies a tag associated with the current SDT node. Can not be null.
+Specifies a tag associated with the current SDT node. Can not be `null`.
 
 ```csharp
 public string Tag { get; set; }

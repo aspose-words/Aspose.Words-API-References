@@ -3,7 +3,7 @@ title: PageInfo
 second_title: Aspose.Words for .NET API Reference
 description: Represents information about a particular document page.
 type: docs
-weight: 4310
+weight: 4340
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -21,7 +21,7 @@ public class PageInfo
 | Name | Description |
 | --- | --- |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Gets the height of the page in points. |
-| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returns true if the page orientation specified in the document for this page is landscape. |
+| [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Returns `true` if the page orientation specified in the document for this page is landscape. |
 | [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Gets the paper size as enumeration. |
 | [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Gets the page size in points. |

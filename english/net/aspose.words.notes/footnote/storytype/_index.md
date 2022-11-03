@@ -1,14 +1,14 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: Returns StoryType.Footnotes or StoryType.Endnotes.
+description: Returns Footnotes or Endnotes.
 type: docs
 weight: 60
 url: /net/aspose.words.notes/footnote/storytype/
 ---
 ## Footnote.StoryType property
 
-Returns **StoryType.Footnotes** or **StoryType.Endnotes**.
+Returns Footnotes or Endnotes.
 
 ```csharp
 public override StoryType StoryType { get; }

@@ -16,7 +16,7 @@ public string ResourcesFolder { get; set; }
 
 ## Remarks
 
-Has effect only if [`ExportEmbeddedImages`](../exportembeddedimages/) property is false.
+Has effect only if [`ExportEmbeddedImages`](../exportembeddedimages/) property is `false`.
 
 When you save a [`Document`](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all images embedded in the document as standalone files. `ResourcesFolder` allows you to specify where the images will be saved and [`ResourcesFolderAlias`](../resourcesfolderalias/) allows to specify how the image URIs will be constructed.
 

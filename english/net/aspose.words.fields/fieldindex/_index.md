@@ -46,7 +46,7 @@ public class FieldIndex : Field
 | [PageRangeSeparator](../../aspose.words.fields/fieldindex/pagerangeseparator/) { get; set; } | Gets or sets the character sequence that is used to separate the start and end of a page range. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
 | [RunSubentriesOnSameLine](../../aspose.words.fields/fieldindex/runsubentriesonsameline/) { get; set; } | Gets or sets whether run subentries into the same line as the main entry. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
 | [SequenceName](../../aspose.words.fields/fieldindex/sequencename/) { get; set; } | Gets or sets the name of a sequence whose number is included with the page number. |
 | [SequenceSeparator](../../aspose.words.fields/fieldindex/sequenceseparator/) { get; set; } | Gets or sets the character sequence that is used to separate sequence numbers and page numbers. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
@@ -59,7 +59,7 @@ public class FieldIndex : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns `null`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
 | [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

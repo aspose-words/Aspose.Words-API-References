@@ -16,7 +16,7 @@ public bool StrikeThrough { get; set; }
 
 ## Remarks
 
-The default value is **false**.
+The default value is `false`.
 
 ## Examples
 

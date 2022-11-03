@@ -8,7 +8,7 @@ url: /net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
+Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is `false`.
 
 ```csharp
 public bool AutoHyphenation { get; set; }

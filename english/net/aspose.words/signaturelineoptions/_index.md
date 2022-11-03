@@ -3,7 +3,7 @@ title: SignatureLineOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify options for signature line being inserted. Used in DocumentBuilder./documentbuilder/.
 type: docs
-weight: 5790
+weight: 5820
 url: /net/aspose.words/signaturelineoptions/
 ---
 ## SignatureLineOptions class
@@ -26,11 +26,11 @@ public class SignatureLineOptions
 
 | Name | Description |
 | --- | --- |
-| [AllowComments](../../aspose.words/signaturelineoptions/allowcomments/) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**. |
-| [DefaultInstructions](../../aspose.words/signaturelineoptions/defaultinstructions/) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**. |
+| [AllowComments](../../aspose.words/signaturelineoptions/allowcomments/) { get; set; } | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is `false`. |
+| [DefaultInstructions](../../aspose.words/signaturelineoptions/defaultinstructions/) { get; set; } | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is `true`. |
 | [Email](../../aspose.words/signaturelineoptions/email/) { get; set; } | Gets or sets suggested signer's e-mail address. Default value for this property is **empty string** (Empty). |
 | [Instructions](../../aspose.words/signaturelineoptions/instructions/) { get; set; } | Gets or sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string** (Empty). |
-| [ShowDate](../../aspose.words/signaturelineoptions/showdate/) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**. |
+| [ShowDate](../../aspose.words/signaturelineoptions/showdate/) { get; set; } | Gets or sets a value indicating that sign date is shown in the signature line. Default value for this property is `true`. |
 | [Signer](../../aspose.words/signaturelineoptions/signer/) { get; set; } | Gets or sets suggested signer of the signature line. Default value for this property is **empty string** (Empty). |
 | [SignerTitle](../../aspose.words/signaturelineoptions/signertitle/) { get; set; } | Gets or sets suggested signer's title. Default value for this property is **empty string** (Empty). |
 

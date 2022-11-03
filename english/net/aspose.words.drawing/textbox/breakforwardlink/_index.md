@@ -1,14 +1,14 @@
 ---
 title: BreakForwardLink
 second_title: Aspose.Words for .NET API Reference
-description: Breaks the link to the next TextBox.
+description: Breaks the link to the next TextBoxaspose.words.drawing/textbox/.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing/textbox/breakforwardlink/
 ---
 ## TextBox.BreakForwardLink method
 
-Breaks the link to the next TextBox.
+Breaks the link to the next [`TextBox`](../).
 
 ```csharp
 public void BreakForwardLink()
@@ -16,7 +16,7 @@ public void BreakForwardLink()
 
 ## Remarks
 
-BreakForwardLink() doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and BreakForwardLink at the 2-nd textbox will create two sequences 1-2, 3-4.
+`BreakForwardLink` doesn't break all other links in the current sequence of shapes. For example: 1-2-3-4 sequence and `BreakForwardLink` at the 2-nd textbox will create two sequences 1-2, 3-4.
 
 ## Examples
 

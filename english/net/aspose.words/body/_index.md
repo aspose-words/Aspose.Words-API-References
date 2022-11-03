@@ -20,7 +20,7 @@ public class Body : Story
 
 | Name | Description |
 | --- | --- |
-| [Body](body/)(DocumentBase) | Initializes a new instance of the **Body** class. |
+| [Body](body/)(DocumentBase) | Initializes a new instance of the [`Body`](./body/) class. |
 
 ## Properties
 
@@ -32,17 +32,17 @@ public class Body : Story
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Gets the first paragraph in the story. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Gets the last paragraph in the story. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/body/nodetype/) { get; } | Returns **NodeType.Body**. |
+| override [NodeType](../../aspose.words/body/nodetype/) { get; } | Returns Body. |
 | [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentSection](../../aspose.words/body/parentsection/) { get; } | Gets the parent section of this story. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [StoryType](../../aspose.words/story/storytype/) { get; } | Gets the type of this story. |
 | [Tables](../../aspose.words/story/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
@@ -74,17 +74,17 @@ public class Body : Story
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**Body** can contain **Paragraph** and **Table** child nodes.
+[`Body`](./body/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
-**Body** is a section-level node and can only be a child of **Section**. There can only be one **Body** in a **Section**.
+[`Body`](./body/) is a section-level node and can only be a child of [`Section`](../section/). There can only be one [`Body`](./body/) in a [`Section`](../section/).
 
-A minimal valid **Body** needs to contain at least one **Paragraph**.
+A minimal valid [`Body`](./body/) needs to contain at least one [`Paragraph`](../paragraph/).
 
 ## Examples
 

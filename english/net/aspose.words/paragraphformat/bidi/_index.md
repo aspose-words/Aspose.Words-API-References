@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ## Remarks
 
-When true, the runs and other inline objects in this paragraph are laid out right to left.
+When `true`, the runs and other inline objects in this paragraph are laid out right to left.
 
 ## Examples
 

@@ -37,7 +37,7 @@ public class FieldSeq : Field
 | [ResetHeadingLevel](../../aspose.words.fields/fieldseq/resetheadinglevel/) { get; set; } | Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent. |
 | [ResetNumber](../../aspose.words.fields/fieldseq/resetnumber/) { get; set; } | Gets or sets an integer number to reset the sequence number to. Returns -1 if the number is absent. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
 | [SequenceIdentifier](../../aspose.words.fields/fieldseq/sequenceidentifier/) { get; set; } | Gets or sets the name assigned to the series of items that are to be numbered. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Gets the Microsoft Word field type. |
@@ -48,7 +48,7 @@ public class FieldSeq : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns `null`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
 | [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

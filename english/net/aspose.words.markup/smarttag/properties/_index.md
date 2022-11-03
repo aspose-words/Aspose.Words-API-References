@@ -16,7 +16,7 @@ public CustomXmlPropertyCollection Properties { get; }
 
 ## Remarks
 
-Cannot be null.
+Cannot be `null`.
 
 ## Examples
 

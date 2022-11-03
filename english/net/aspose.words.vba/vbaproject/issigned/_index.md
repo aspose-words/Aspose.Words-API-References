@@ -1,14 +1,14 @@
 ---
 title: IsSigned
 second_title: Aspose.Words for .NET API Reference
-description: Shows whether the VbaProject is signed or not.
+description: Shows whether the VbaProjectaspose.words.vba/vbaproject/ is signed or not.
 type: docs
 weight: 30
 url: /net/aspose.words.vba/vbaproject/issigned/
 ---
 ## VbaProject.IsSigned property
 
-Shows whether the VbaProject is signed or not.
+Shows whether the [`VbaProject`](../) is signed or not.
 
 ```csharp
 public bool IsSigned { get; }

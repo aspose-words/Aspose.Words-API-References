@@ -30,15 +30,15 @@ public class DocumentBuilder
 | [Bold](../../aspose.words/documentbuilder/bold/) { get; set; } | True if the font is formatted as bold. |
 | [CellFormat](../../aspose.words/documentbuilder/cellformat/) { get; } | Returns an object that represents current table cell formatting properties. |
 | [CurrentNode](../../aspose.words/documentbuilder/currentnode/) { get; } | Gets the node that is currently selected in this DocumentBuilder. |
-| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Gets the paragraph that is currently selected in this DocumentBuilder. |
-| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Gets the section that is currently selected in this DocumentBuilder. |
-| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Gets the story that is currently selected in this DocumentBuilder. |
-| [CurrentStructuredDocumentTag](../../aspose.words/documentbuilder/currentstructureddocumenttag/) { get; } | Gets the structured document tag that is currently selected in this DocumentBuilder. |
+| [CurrentParagraph](../../aspose.words/documentbuilder/currentparagraph/) { get; } | Gets the paragraph that is currently selected in this [`DocumentBuilder`](./documentbuilder/). |
+| [CurrentSection](../../aspose.words/documentbuilder/currentsection/) { get; } | Gets the section that is currently selected in this [`DocumentBuilder`](./documentbuilder/). |
+| [CurrentStory](../../aspose.words/documentbuilder/currentstory/) { get; } | Gets the story that is currently selected in this [`DocumentBuilder`](./documentbuilder/). |
+| [CurrentStructuredDocumentTag](../../aspose.words/documentbuilder/currentstructureddocumenttag/) { get; } | Gets the structured document tag that is currently selected in this [`DocumentBuilder`](./documentbuilder/). |
 | [Document](../../aspose.words/documentbuilder/document/) { get; set; } | Gets or sets the [`Document`](./document/) object that this object is attached to. |
 | [Font](../../aspose.words/documentbuilder/font/) { get; } | Returns an object that represents current font formatting properties. |
-| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Returns true if the cursor is at the end of the current paragraph. |
+| [IsAtEndOfParagraph](../../aspose.words/documentbuilder/isatendofparagraph/) { get; } | Returns `true` if the cursor is at the end of the current paragraph. |
 | [IsAtEndOfStructuredDocumentTag](../../aspose.words/documentbuilder/isatendofstructureddocumenttag/) { get; } | Returns **true** if the cursor is at the end of a structured document tag. |
-| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [IsAtStartOfParagraph](../../aspose.words/documentbuilder/isatstartofparagraph/) { get; } | Returns `true` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [Italic](../../aspose.words/documentbuilder/italic/) { get; set; } | True if the font is formatted as italic. |
 | [ListFormat](../../aspose.words/documentbuilder/listformat/) { get; } | Returns an object that represents current list formatting properties. |
 | [PageSetup](../../aspose.words/documentbuilder/pagesetup/) { get; } | Returns an object that represents current page setup and section properties. |
@@ -133,11 +133,11 @@ public class DocumentBuilder
 
 ## Remarks
 
-**DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
+[`DocumentBuilder`](./documentbuilder/) makes the process of building a [`Document`](../document/) easier. [`Document`](../document/) is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. [`DocumentBuilder`](./documentbuilder/) is a "facade" for the complex structure of [`Document`](../document/) and allows to insert content and formatting quickly and easily.
 
-Create a **DocumentBuilder** and associate it with a [`Document`](./document/).
+Create a [`DocumentBuilder`](./documentbuilder/) and associate it with a [`Document`](../document/).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted when you call [`Write`](./write/), [`Writeln`](./writeln/), [`InsertBreak`](./insertbreak/) and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
+The [`DocumentBuilder`](./documentbuilder/) has an internal cursor where the text will be inserted when you call [`Write`](./write/), [`Writeln`](./writeln/), [`InsertBreak`](./insertbreak/) and other methods. You can navigate the [`DocumentBuilder`](./documentbuilder/) cursor to a different location in a document using various MoveToXXX methods.
 
 Use the [`Font`](./font/) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
 
@@ -147,7 +147,7 @@ Use the [`PageSetup`](./pagesetup/) property to specify page and section propert
 
 Use the [`CellFormat`](./cellformat/) and [`RowFormat`](./rowformat/) properties to specify formatting properties for table cells and rows. User the [`InsertCell`](./insertcell/) and [`EndRow`](./endrow/) methods to build a table.
 
-Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
+Note that [`Font`](./font/), [`ParagraphFormat`](./paragraphformat/) and [`PageSetup`](./pagesetup/) properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
 
 ## Examples
 

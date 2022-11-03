@@ -16,7 +16,7 @@ public string DefaultTemplate { get; set; }
 
 ## Remarks
 
-If specified, this path is used to load template when [`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) is true, but [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) is empty.
+If specified, this path is used to load template when [`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) is `true`, but [`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) is empty.
 
 ## Examples
 

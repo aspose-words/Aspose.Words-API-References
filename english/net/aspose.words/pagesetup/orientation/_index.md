@@ -16,7 +16,7 @@ public Orientation Orientation { get; set; }
 
 ## Remarks
 
-Changing **Orientation** swaps [`PageWidth`](../pagewidth/) and [`PageHeight`](../pageheight/).
+Changing `Orientation` swaps [`PageWidth`](../pagewidth/) and [`PageHeight`](../pageheight/).
 
 ## Examples
 

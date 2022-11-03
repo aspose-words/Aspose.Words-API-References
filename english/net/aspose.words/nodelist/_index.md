@@ -3,7 +3,7 @@ title: NodeList
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of nodes matching an XPath query executed using the SelectNodes./compositenode/selectnodes/ method.
 type: docs
-weight: 3980
+weight: 4000
 url: /net/aspose.words/nodelist/
 ---
 ## NodeList class
@@ -32,11 +32,11 @@ public class NodeList : IEnumerable<Node>
 
 ## Remarks
 
-**NodeList** is returned by [`SelectNodes`](../compositenode/selectnodes/) and contains a collection of nodes matching the XPath query.
+[`NodeList`](./nodelist/) is returned by [`SelectNodes`](../compositenode/selectnodes/) and contains a collection of nodes matching the XPath query.
 
-**NodeList** supports indexed access and iteration.
+[`NodeList`](./nodelist/) supports indexed access and iteration.
 
-Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+Treat the [`NodeList`](./nodelist/) collection as a "snapshot" collection. [`NodeList`](./nodelist/) starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
 
 ## Examples
 

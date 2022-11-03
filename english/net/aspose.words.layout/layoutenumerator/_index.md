@@ -3,7 +3,7 @@ title: LayoutEnumerator
 second_title: Aspose.Words for .NET API Reference
 description: Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type geometry text and page index where entity is rendered as well as overall structure and relationships. Use combination of GetEntity./layoutcollector/getentity/ and Current./layoutenumerator/current/ move to the entity which corresponds to a document node.
 type: docs
-weight: 3140
+weight: 3160
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
@@ -29,7 +29,7 @@ public class LayoutEnumerator
 | [Current](../../aspose.words.layout/layoutenumerator/current/) { get; set; } | Gets or sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity. |
 | [Document](../../aspose.words.layout/layoutenumerator/document/) { get; } | Gets document this instance enumerates. |
 | [Item](../../aspose.words.layout/layoutenumerator/item/) { get; } | Gets a named property of the entity. |
-| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Gets the kind of the current entity. This can be an empty string but never null. |
+| [Kind](../../aspose.words.layout/layoutenumerator/kind/) { get; } | Gets the kind of the current entity. This can be an empty string but never `null`. |
 | [PageIndex](../../aspose.words.layout/layoutenumerator/pageindex/) { get; } | Gets the 1-based index of a page which contains the current entity. |
 | [Rectangle](../../aspose.words.layout/layoutenumerator/rectangle/) { get; } | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
 | [Text](../../aspose.words.layout/layoutenumerator/text/) { get; } | Gets text of the current span entity. Throws for other entity types. |

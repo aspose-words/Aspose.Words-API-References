@@ -1,14 +1,14 @@
 ---
 title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
-description: Gets a LayoutOptions object that represents options to control the layout process of this document.
+description: Gets a LayoutOptionsaspose.words.layout/layoutoptions/ object that represents options to control the layout process of this document.
 type: docs
 weight: 230
 url: /net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Gets a **LayoutOptions** object that represents options to control the layout process of this document.
+Gets a [`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }

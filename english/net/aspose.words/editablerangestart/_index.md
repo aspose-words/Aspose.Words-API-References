@@ -24,12 +24,12 @@ public sealed class EditableRangeStart : Node
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Gets the facade object that encapsulates this editable range start and end. |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Specifies the identifier of the editable range. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | Returns EditableRangeStart. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 

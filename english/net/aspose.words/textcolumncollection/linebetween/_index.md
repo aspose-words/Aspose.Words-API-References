@@ -8,7 +8,7 @@ url: /net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-When **true**, adds a vertical line between columns.
+When `true`, adds a vertical line between columns.
 
 ```csharp
 public bool LineBetween { get; set; }

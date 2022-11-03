@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/signatureline/defaultinstructions/
 ---
 ## SignatureLine.DefaultInstructions property
 
-Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
+Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is `true`.
 
 ```csharp
 public bool DefaultInstructions { get; set; }

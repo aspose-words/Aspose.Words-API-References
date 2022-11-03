@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-Determines whether other chart elements shall be allowed to overlap legend. Default value is false.
+Determines whether other chart elements shall be allowed to overlap legend. Default value is `false`.
 
 ```csharp
 public bool Overlay { get; set; }

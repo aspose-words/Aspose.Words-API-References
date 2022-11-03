@@ -16,7 +16,7 @@ public Document()
 
 ## Remarks
 
-The document paper size is Letter by default. If you want to change page setup, use [`Section.PageSetup`](../../section/pagesetup/).
+The document paper size is Letter by default. If you want to change page setup, use [`PageSetup`](../../section/pagesetup/).
 
 After creation, you can use [`DocumentBuilder`](../../documentbuilder/) to add document content easily.
 
@@ -162,7 +162,7 @@ public Document(string fileName, LoadOptions loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | File name of the document to open. |
-| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be `null`. |
 
 ### Exceptions
 
@@ -317,7 +317,7 @@ public Document(Stream stream, LoadOptions loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream where to load the document from. |
-| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be `null`. |
 
 ### Exceptions
 

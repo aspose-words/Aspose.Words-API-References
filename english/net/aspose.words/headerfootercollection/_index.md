@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterCollection
 second_title: Aspose.Words for .NET API Reference
-description: Provides typed access to HeaderFooter./headerfooter/ nodes of a Section.
+description: Provides typed access to HeaderFooter./headerfooter/ nodes of a Section./section/.
 type: docs
-weight: 2930
+weight: 2950
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Provides typed access to [`HeaderFooter`](../headerfooter/) nodes of a **Section**.
+Provides typed access to [`HeaderFooter`](../headerfooter/) nodes of a [`Section`](../section/).
 
 To learn more, visit the [Working with Headers and Footers](https://docs.aspose.com/words/net/working-with-headers-and-footers/) documentation article.
 
@@ -21,7 +21,7 @@ public class HeaderFooterCollection : NodeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Gets the number of nodes in the collection. |
-| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Retrieves a **HeaderFooter** at the given index. (3 indexers) |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Retrieves a [`HeaderFooter`](../headerfooter/) at the given index. (3 indexers) |
 
 ## Methods
 
@@ -41,11 +41,11 @@ public class HeaderFooterCollection : NodeCollection
 
 ## Remarks
 
-There can be maximum of one **HeaderFooter**
+There can be maximum of one [`HeaderFooter`](../headerfooter/)
 
-of each [`HeaderFooterType`](../headerfootertype/) per **Section**.
+of each [`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/).
 
-**HeaderFooter** objects can occur in any order in the collection.
+[`HeaderFooter`](../headerfooter/) objects can occur in any order in the collection.
 
 ## Examples
 

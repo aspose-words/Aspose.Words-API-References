@@ -1,14 +1,14 @@
 ---
 title: VbaProject
 second_title: Aspose.Words for .NET API Reference
-description: Creates a blank VbaProject.
+description: Creates a blank VbaProjectaspose.words.vba/vbaproject/.
 type: docs
 weight: 10
 url: /net/aspose.words.vba/vbaproject/vbaproject/
 ---
 ## VbaProject constructor
 
-Creates a blank VbaProject.
+Creates a blank [`VbaProject`](../).
 
 ```csharp
 public VbaProject()

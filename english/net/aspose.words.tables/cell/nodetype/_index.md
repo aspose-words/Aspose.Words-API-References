@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns NodeType.Cell.
+description: Returns Cell.
 type: docs
 weight: 70
 url: /net/aspose.words.tables/cell/nodetype/
 ---
 ## Cell.NodeType property
 
-Returns **NodeType.Cell**.
+Returns Cell.
 
 ```csharp
 public override NodeType NodeType { get; }

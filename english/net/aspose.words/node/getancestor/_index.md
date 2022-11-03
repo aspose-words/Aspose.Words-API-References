@@ -20,11 +20,11 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ### Return Value
 
-The ancestor of the specified type or null if no ancestor of this type was found.
+The ancestor of the specified type or `null` if no ancestor of this type was found.
 
 ## Remarks
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
+The ancestor type matches if it is equal to *ancestorType* or derived from *ancestorType*.
 
 ## Examples
 
@@ -123,7 +123,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 ### Return Value
 
-The ancestor of the specified type or null if no ancestor of this type was found.
+The ancestor of the specified type or `null` if no ancestor of this type was found.
 
 ## Examples
 

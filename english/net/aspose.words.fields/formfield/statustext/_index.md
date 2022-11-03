@@ -16,7 +16,7 @@ public string StatusText { get; set; }
 
 ## Remarks
 
-If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
+If the [`OwnStatus`](../ownstatus/) property is set to `true`, the `StatusText` property specifies the status bar text. If the [`OwnStatus`](../ownstatus/) property is set to `false`, the `StatusText` property specifies the name of an AutoText entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.
 

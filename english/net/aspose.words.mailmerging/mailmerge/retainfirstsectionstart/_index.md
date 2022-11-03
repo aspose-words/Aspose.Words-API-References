@@ -16,7 +16,7 @@ public bool RetainFirstSectionStart { get; set; }
 
 ## Remarks
 
-The default value is **true**.
+The default value is `true`.
 
 ### See Also
 

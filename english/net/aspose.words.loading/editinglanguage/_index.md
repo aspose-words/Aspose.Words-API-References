@@ -3,7 +3,7 @@ title: EditingLanguage
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the editing language.
 type: docs
-weight: 3400
+weight: 3420
 url: /net/aspose.words.loading/editinglanguage/
 ---
 ## EditingLanguage enumeration

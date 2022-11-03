@@ -18,7 +18,7 @@ public bool Stroked { get; set; }
 
 This is a shortcut to the [`On`](../../stroke/on/) property.
 
-The default value is **true**.
+The default value is `true`.
 
 ## Examples
 

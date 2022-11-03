@@ -20,11 +20,11 @@ public bool Contains(Node node)
 
 ### Return Value
 
-True if item is found in the collection; otherwise, false.
+`true` if item is found in the collection; otherwise, `false`.
 
 ## Remarks
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+This method performs a linear search; therefore, the average execution time is proportional to [`Count`](../count/).
 
 ## Examples
 

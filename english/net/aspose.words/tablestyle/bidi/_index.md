@@ -16,9 +16,9 @@ public bool Bidi { get; set; }
 
 ## Remarks
 
-When **true**, the cells in rows are laid out right to left.
+When `true`, the cells in rows are laid out right to left.
 
-The default value is **false**.
+The default value is `false`.
 
 ## Examples
 

@@ -8,7 +8,7 @@ url: /net/aspose.words/bookmark/iscolumn/
 ---
 ## Bookmark.IsColumn property
 
-Returns **true** if this bookmark is a table column bookmark.
+Returns `true` if this bookmark is a table column bookmark.
 
 ```csharp
 public bool IsColumn { get; }

@@ -1,14 +1,14 @@
 ---
 title: IsDictionaryRegistered
 second_title: Aspose.Words for .NET API Reference
-description: Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary True otherwise.
+description: Returns false if for the specified language there is no dictionary registered or if registered is Null dictionary true otherwise.
 type: docs
 weight: 30
 url: /net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise.
+Returns `false` if for the specified language there is no dictionary registered or if registered is Null dictionary, `true` otherwise.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)

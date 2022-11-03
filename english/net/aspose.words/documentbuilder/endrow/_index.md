@@ -20,7 +20,7 @@ The row node that was just finished.
 
 ## Remarks
 
-Call **EndRow** to end a table row. If you call [`InsertCell`](../insertcell/) immediately after that, then the table continues on a new row.
+Call `EndRow` to end a table row. If you call [`InsertCell`](../insertcell/) immediately after that, then the table continues on a new row.
 
 Use the [`RowFormat`](../rowformat/) property to specify row formatting.
 

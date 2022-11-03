@@ -8,7 +8,7 @@ url: /net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Gets or sets the text displayed if the comparison expression is false.
+Gets or sets the text displayed if the comparison expression is `false`.
 
 ```csharp
 public string FalseText { get; set; }

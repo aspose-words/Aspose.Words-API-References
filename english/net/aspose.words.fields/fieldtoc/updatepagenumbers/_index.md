@@ -16,7 +16,7 @@ public bool UpdatePageNumbers()
 
 ### Return Value
 
-True if the operation is successful. If any of the related TOC bookmarks was removed, false will be returned.
+`true` if the operation is successful. If any of the related TOC bookmarks was removed, `false` will be returned.
 
 ## Examples
 

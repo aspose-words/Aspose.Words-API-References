@@ -3,7 +3,7 @@ title: HyphenationOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to configure document hyphenation options.
 type: docs
-weight: 5500
+weight: 5530
 url: /net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
@@ -26,9 +26,9 @@ public class HyphenationOptions
 
 | Name | Description |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**. |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Gets or sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is `false`. |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Gets or sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Gets or sets value determining whether words written in all capital letters are hyphenated. Default value for this property is `true`. |
 | [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch). |
 
 ## Examples

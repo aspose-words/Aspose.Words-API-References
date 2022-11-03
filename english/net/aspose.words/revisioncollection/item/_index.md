@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Returns a Revision at the specified index.
+description: Returns a Revisionaspose.words/revision/ at the specified index.
 type: docs
 weight: 30
 url: /net/aspose.words/revisioncollection/item/
 ---
 ## RevisionCollection indexer
 
-Returns a Revision at the specified index.
+Returns a [`Revision`](../../revision/) at the specified index.
 
 ```csharp
 public Revision this[int index] { get; }

@@ -16,7 +16,7 @@ public Font Font { get; }
 
 ## Remarks
 
-Use **Font** to access and modify font formatting properties.
+Use `Font` to access and modify font formatting properties.
 
 Specify font formatting before inserting text.
 

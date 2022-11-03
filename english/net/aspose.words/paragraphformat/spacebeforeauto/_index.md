@@ -16,7 +16,7 @@ public bool SpaceBeforeAuto { get; set; }
 
 ## Remarks
 
-When set to true, overrides the effect of [`SpaceBefore`](../spacebefore/).
+When set to `true`, overrides the effect of [`SpaceBefore`](../spacebefore/).
 
 When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 

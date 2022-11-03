@@ -8,7 +8,7 @@ url: /net/aspose.words/inlinestory/ismovefromrevision/
 ---
 ## InlineStory.IsMoveFromRevision property
 
-Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
+Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
 ```csharp
 public bool IsMoveFromRevision { get; }

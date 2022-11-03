@@ -1,14 +1,14 @@
 ---
 title: EnsureMinimum
 second_title: Aspose.Words for .NET API Reference
-description: Ensures that the section has Body with one Paragraph.
+description: Ensures that the section has Bodyaspose.words/section/body/ with one Paragraphaspose.words/paragraph/.
 type: docs
 weight: 130
 url: /net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Ensures that the section has Body with one Paragraph.
+Ensures that the section has [`Body`](../body/) with one [`Paragraph`](../../paragraph/).
 
 ```csharp
 public void EnsureMinimum()

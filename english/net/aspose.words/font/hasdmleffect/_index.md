@@ -20,7 +20,7 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Return Value
 
-True if particular DrawingML text effect is applied.
+`true` if particular DrawingML text effect is applied.
 
 ## Examples
 

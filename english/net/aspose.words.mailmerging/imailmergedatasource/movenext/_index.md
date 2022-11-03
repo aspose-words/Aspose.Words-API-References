@@ -16,7 +16,7 @@ public bool MoveNext()
 
 ### Return Value
 
-True if moved to next record successfully. False if reached end of the data source.
+`true` if moved to next record successfully; `false` if reached end of the data source.
 
 ## Examples
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Returns true if this shape is not a child of a group shape.
+Returns `true` if this shape is not a child of a group shape.
 
 ```csharp
 public bool IsTopLevel { get; }

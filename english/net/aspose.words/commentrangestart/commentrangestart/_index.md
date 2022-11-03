@@ -21,7 +21,7 @@ public CommentRangeStart(DocumentBase doc, int id)
 
 ## Remarks
 
-When [`CommentRangeStart`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is null.
+When [`CommentRangeStart`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is `null`.
 
 To append a [`CommentRangeStart`](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 

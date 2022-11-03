@@ -20,9 +20,9 @@ public Section(DocumentBase doc)
 
 ## Remarks
 
-When the section is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When the section is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is `null`.
 
-To include Section into a document use Document.InsertAfter, Document.InsertBefore or Sections.Add and Section.Insert methods.
+To include [`Section`](../) into a document use [`InsertAfter`](../../compositenode/insertafter/) and [`InsertBefore`](../../compositenode/insertbefore/) methods of the [`Document`](../../document/) OR [`Add`](../../nodecollection/add/) and [`Insert`](../../nodecollection/insert/) methods of the [`Sections`](../../document/sections/) property.
 
 ## Examples
 

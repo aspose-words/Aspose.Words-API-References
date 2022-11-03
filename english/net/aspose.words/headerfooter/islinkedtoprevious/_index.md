@@ -16,7 +16,7 @@ public bool IsLinkedToPrevious { get; set; }
 
 ## Remarks
 
-Default is true.
+Default is `true`.
 
 Note, when your link a header or footer, its contents is cleared.
 

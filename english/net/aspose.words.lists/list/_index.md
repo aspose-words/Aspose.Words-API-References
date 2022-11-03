@@ -3,7 +3,7 @@ title: List
 second_title: Aspose.Words for .NET API Reference
 description: Represents formatting of a list.
 type: docs
-weight: 3260
+weight: 3280
 url: /net/aspose.words.lists/list/
 ---
 ## List class
@@ -21,10 +21,10 @@ public class List : IComparable<List>
 | Name | Description |
 | --- | --- |
 | [Document](../../aspose.words.lists/list/document/) { get; } | Gets the owner document. |
-| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Returns true if this list is a definition of a list style. |
-| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Returns true if this list is a reference to a list style. |
-| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Returns true when the list contains 9 levels; false when 1 level. |
-| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Specifies whether list should be restarted at each section. Default value is **false**. |
+| [IsListStyleDefinition](../../aspose.words.lists/list/isliststyledefinition/) { get; } | Returns `true` if this list is a definition of a list style. |
+| [IsListStyleReference](../../aspose.words.lists/list/isliststylereference/) { get; } | Returns `true` if this list is a reference to a list style. |
+| [IsMultiLevel](../../aspose.words.lists/list/ismultilevel/) { get; } | Returns `true` when the list contains 9 levels; `false` when 1 level. |
+| [IsRestartAtEachSection](../../aspose.words.lists/list/isrestartateachsection/) { get; set; } | Specifies whether list should be restarted at each section. Default value is `false`. |
 | [ListId](../../aspose.words.lists/list/listid/) { get; } | Gets the unique identifier of the list. |
 | [ListLevels](../../aspose.words.lists/list/listlevels/) { get; } | Gets the collection of list levels for this list. |
 | [Style](../../aspose.words.lists/list/style/) { get; } | Gets the list style that this list references or defines. |

@@ -8,7 +8,7 @@ url: /net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
+True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is `false`.
 
 ```csharp
 public bool UseLegacyOrder { get; set; }

@@ -3,7 +3,7 @@ title: FontInfo
 second_title: Aspose.Words for .NET API Reference
 description: Specifies information about a font used in the document.
 type: docs
-weight: 2740
+weight: 2760
 url: /net/aspose.words.fonts/fontinfo/
 ---
 ## FontInfo class
@@ -23,7 +23,7 @@ public class FontInfo
 | [AltName](../../aspose.words.fonts/fontinfo/altname/) { get; set; } | Gets or sets the alternate name for the font. |
 | [Charset](../../aspose.words.fonts/fontinfo/charset/) { get; set; } | Gets or sets the character set for the font. |
 | [Family](../../aspose.words.fonts/fontinfo/family/) { get; set; } | Gets or sets the font family this font belongs to. |
-| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true. |
+| [IsTrueType](../../aspose.words.fonts/fontinfo/istruetype/) { get; set; } | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is `true`. |
 | [Name](../../aspose.words.fonts/fontinfo/name/) { get; } | Gets the name of the font. |
 | [Panose](../../aspose.words.fonts/fontinfo/panose/) { get; set; } | Gets or sets the PANOSE typeface classification number. |
 | [Pitch](../../aspose.words.fonts/fontinfo/pitch/) { get; set; } | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |

@@ -8,7 +8,7 @@ url: /net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true.
+Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is `true`.
 
 ```csharp
 public bool IsTrueType { get; set; }

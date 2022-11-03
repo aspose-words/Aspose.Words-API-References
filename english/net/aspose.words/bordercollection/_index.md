@@ -1,14 +1,14 @@
 ---
 title: BorderCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of Border objects.
+description: A collection of Border./border/ objects.
 type: docs
 weight: 80
 url: /net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
 
-A collection of Border objects.
+A collection of [`Border`](../border/) objects.
 
 To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/net/programming-with-documents/) documentation article.
 
@@ -25,7 +25,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Count](../../aspose.words/bordercollection/count/) { get; } | Gets the number of borders in the collection. |
 | [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Gets or sets distance of the border from text in points. |
 | [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Gets the horizontal border that is used between cells or conforming paragraphs. |
-| [Item](../../aspose.words/bordercollection/item/) { get; } | Retrieves a Border object by border type. (2 indexers) |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | Retrieves a [`Border`](../border/) object by border type. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left/) { get; } | Gets the left border. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Gets or sets the border style. |
 | [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Gets or sets the border width in points. |
@@ -44,7 +44,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 ## Remarks
 
-Different document elements have different borders. For example, ParagraphFormat has Bottom, Left, Right and Top borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
+Different document elements have different borders. For example, [`ParagraphFormat`](../paragraphformat/) has [`Bottom`](./bottom/), [`Left`](./left/), [`Right`](./right/) and [`Top`](./top/) borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
 
 ## Examples
 

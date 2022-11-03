@@ -1,14 +1,14 @@
 ---
 title: ContentType
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the ContentStatus of the document.
+description: Gets or sets the ContentType of the document.
 type: docs
 weight: 90
 url: /net/aspose.words.properties/builtindocumentproperties/contenttype/
 ---
 ## BuiltInDocumentProperties.ContentType property
 
-Gets or sets the ContentStatus of the document.
+Gets or sets the ContentType of the document.
 
 ```csharp
 public string ContentType { get; set; }

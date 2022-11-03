@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Specifies category of building block for this **SDT** node. Can not be null.
+Specifies category of building block for this **SDT** node. Can not be `null`.
 
 ```csharp
 public string BuildingBlockCategory { get; set; }

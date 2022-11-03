@@ -21,7 +21,7 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Return Value
 
-The newly created property object or null when the linkSource is invalid.
+The newly created property object or `null` when the *linkSource* is invalid.
 
 ## Examples
 

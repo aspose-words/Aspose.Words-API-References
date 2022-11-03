@@ -22,7 +22,7 @@ public void SetImage(Image image)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Throws when the image is null. |
+| ArgumentNullException | Throws when the image is `null`. |
 
 ### See Also
 
@@ -49,11 +49,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Throws when the image is null. |
+| ArgumentNullException | Throws when the image is `null`. |
 
 ## Remarks
 
-If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is null, the watermark will be set with default options.
+If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is `null`, the watermark will be set with default options.
 
 ## Examples
 
@@ -106,11 +106,11 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Throws when the path is null. |
+| ArgumentNullException | Throws when the path is `null`. |
 
 ## Remarks
 
-If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is null, the watermark will be set with default options.
+If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is `null`, the watermark will be set with default options.
 
 ### See Also
 

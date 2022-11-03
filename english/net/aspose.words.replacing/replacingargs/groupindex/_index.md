@@ -16,7 +16,7 @@ public int GroupIndex { get; set; }
 
 ## Remarks
 
-`GroupIndex` has effect only when [`GroupName`](../groupname/) is null.
+`GroupIndex` has effect only when [`GroupName`](../groupname/) is `null`.
 
 Default is zero.
 

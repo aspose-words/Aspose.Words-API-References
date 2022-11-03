@@ -1,14 +1,14 @@
 ---
 title: HasChart
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if this Shape has a Chartaspose.words.drawing/shape/chart/.
+description: Returns true if this Shapeaspose.words.drawing/shape/ has a Chartaspose.words.drawing.charts/chart/.
 type: docs
 weight: 70
 url: /net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-Returns true if this Shape has a [`Chart`](../chart/).
+Returns `true` if this [`Shape`](../) has a [`Chart`](../../../aspose.words.drawing.charts/chart/).
 
 ```csharp
 public bool HasChart { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.words.tables/cellformat/fittext/
 ---
 ## CellFormat.FitText property
 
-If true, fits text in the cell, compressing each paragraph to the width of the cell.
+If `true`, fits text in the cell, compressing each paragraph to the width of the cell.
 
 ```csharp
 public bool FitText { get; set; }

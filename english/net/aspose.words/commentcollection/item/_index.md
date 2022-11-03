@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Comment at the given index.
+description: Retrieves a Commentaspose.words/comment/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-Retrieves a **Comment** at the given index.
+Retrieves a [`Comment`](../../comment/) at the given index.
 
 ```csharp
 public Comment this[int index] { get; }

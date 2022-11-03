@@ -3,7 +3,7 @@ title: FindReplaceOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options for find/replace operations.
 type: docs
-weight: 4360
+weight: 4390
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -43,7 +43,7 @@ public class FindReplaceOptions
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | The user-defined method which is called before every replace occurrence. |
 | [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false. |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is `false`. |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is `false`. |
 
 ## Examples

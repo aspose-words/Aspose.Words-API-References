@@ -23,7 +23,7 @@ public class HorizontalRuleFormat
 | [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Gets or sets the alignment of the horizontal rule. |
 | [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Gets or sets the brush color that fills the horizontal rule. |
 | [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Gets or sets the height of the horizontal rule. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indicates the presence of 3D shading for the horizontal rule. If `true`, then the horizontal rule is without 3D shading and solid color is used. |
 | [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 
 ## Examples

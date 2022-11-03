@@ -20,7 +20,7 @@ This property allows you to save document pages to streams instead of files.
 
 The default value is `null`. When this property is `null`, the document page will be saved to a file specified in the [`PageFileName`](../pagefilename/) property.
 
-If both PageStream and PageFileName are set, then PageStream will be used.
+If both `PageStream` and [`PageFileName`](../pagefilename/) are set, then PageStream will be used.
 
 ## Examples
 

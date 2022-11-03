@@ -3,7 +3,7 @@ title: ResourceType
 second_title: Aspose.Words for .NET API Reference
 description: Type of loaded resource.
 type: docs
-weight: 3500
+weight: 3520
 url: /net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration

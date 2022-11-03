@@ -1,14 +1,14 @@
 ---
 title: FirstCell
 second_title: Aspose.Words for .NET API Reference
-description: Returns the first Cell in the row.
+description: Returns the first Cellaspose.words.tables/cell/ in the row.
 type: docs
 weight: 30
 url: /net/aspose.words.tables/row/firstcell/
 ---
 ## Row.FirstCell property
 
-Returns the first **Cell** in the row.
+Returns the first [`Cell`](../../cell/) in the row.
 
 ```csharp
 public Cell FirstCell { get; }

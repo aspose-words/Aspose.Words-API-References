@@ -8,7 +8,7 @@ url: /net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
+Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is `false`.
 
 ```csharp
 public bool DuplicateStyle { get; set; }

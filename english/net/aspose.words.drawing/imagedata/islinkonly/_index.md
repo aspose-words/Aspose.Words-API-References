@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/imagedata/islinkonly/
 ---
 ## ImageData.IsLinkOnly property
 
-Returns true if the image is linked and not stored in the document.
+Returns `true` if the image is linked and not stored in the document.
 
 ```csharp
 public bool IsLinkOnly { get; }

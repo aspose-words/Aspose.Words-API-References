@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties
 second_title: Aspose.Words for .NET API Reference
 description: A collection of builtin document properties.
 type: docs
-weight: 4200
+weight: 4220
 url: /net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
@@ -28,7 +28,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Comments](../../aspose.words.properties/builtindocumentproperties/comments/) { get; set; } | Gets or sets the document comments. |
 | [Company](../../aspose.words.properties/builtindocumentproperties/company/) { get; set; } | Gets or sets the company property. |
 | [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Gets or sets the ContentStatus of the document. |
-| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Gets or sets the ContentStatus of the document. |
+| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Gets or sets the ContentType of the document. |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Gets number of items in the collection. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime/) { get; set; } | Gets or sets date of the document creation in UTC. |
 | [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Specifies document headings and their names. |
@@ -61,7 +61,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Name | Description |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Removes all properties from the collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returns true if a property with the specified name exists in the collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returns `true` if a property with the specified name exists in the collection. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Gets the index of a property by name. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Removes a property with the specified name from the collection. |

@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the specified Shading is equal in value to the current Shading.
+description: Determines whether the specified Shadingaspose.words/shading/ is equal in value to the current Shadingaspose.words/shading/.
 type: docs
 weight: 50
 url: /net/aspose.words/shading/equals/
 ---
 ## Equals(Shading) {#equals}
 
-Determines whether the specified Shading is equal in value to the current Shading.
+Determines whether the specified [`Shading`](../) is equal in value to the current [`Shading`](../).
 
 ```csharp
 public bool Equals(Shading rhs)

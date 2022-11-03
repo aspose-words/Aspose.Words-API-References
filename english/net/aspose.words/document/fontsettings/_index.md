@@ -16,9 +16,9 @@ public FontSettings FontSettings { get; set; }
 
 ## Remarks
 
-This property allows to specify font settings per document. If set to null, default static font settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) will be used.
+This property allows to specify font settings per document. If set to `null`, default static font settings [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) will be used.
 
-The default value is null.
+The default value is `null`.
 
 ## Examples
 

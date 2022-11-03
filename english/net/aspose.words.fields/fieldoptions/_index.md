@@ -31,6 +31,7 @@ public sealed class FieldOptions
 | [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | Gets or sets a provider that returns a culture object specific for each particular field. |
 | [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Specifies what culture to use to format the field result. |
 | [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | Gets or sets [`IFieldUpdatingCallback`](../ifieldupdatingcallback/) implementation |
+| [FieldUpdatingProgressCallback](../../aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/) { get; set; } | Gets or sets [`IFieldUpdatingProgressCallback`](../ifieldupdatingprogresscallback/) implementation. |
 | [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | Gets or sets the file name of the document. |
 | [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | Gets or sets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |

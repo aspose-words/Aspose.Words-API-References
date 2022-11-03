@@ -8,7 +8,7 @@ url: /net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Returns **true** if the document has a VBA project (macros).
+Returns `true` if the document has a VBA project (macros).
 
 ```csharp
 public bool HasMacros { get; }

@@ -3,7 +3,7 @@ title: RevisionColor
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify color of document revisions.
 type: docs
-weight: 3180
+weight: 3200
 url: /net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration

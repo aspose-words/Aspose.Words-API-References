@@ -8,7 +8,7 @@ url: /net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Gets or sets the password for opening an encrypted document. Can be null or empty string. Default is null.
+Gets or sets the password for opening an encrypted document. Can be `null` or empty string. Default is `null`.
 
 ```csharp
 public string Password { get; set; }
@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ## Remarks
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to `null` or empty string.
 
 ## Examples
 

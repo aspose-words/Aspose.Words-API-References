@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents all the formatting for a paragraph.
 type: docs
-weight: 4180
+weight: 4200
 url: /net/aspose.words/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -42,11 +42,11 @@ public class ParagraphFormat
 | [LinesToDrop](../../aspose.words/paragraphformat/linestodrop/) { get; set; } | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [LineUnitAfter](../../aspose.words/paragraphformat/lineunitafter/) { get; set; } | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [LineUnitBefore](../../aspose.words/paragraphformat/lineunitbefore/) { get; set; } | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
-| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | When true, [`SpaceBefore`](./spacebefore/) and [`SpaceAfter`](./spaceafter/) will be ignored between the paragraphs of the same style. |
+| [NoSpaceBetweenParagraphsOfSameStyle](../../aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/) { get; set; } | When `true`, [`SpaceBefore`](./spacebefore/) and [`SpaceAfter`](./spaceafter/) will be ignored between the paragraphs of the same style. |
 | [OutlineLevel](../../aspose.words/paragraphformat/outlinelevel/) { get; set; } | Specifies the outline level of the paragraph in the document. |
 | [PageBreakBefore](../../aspose.words/paragraphformat/pagebreakbefore/) { get; set; } | True if a page break is forced before the paragraph. |
 | [RightIndent](../../aspose.words/paragraphformat/rightindent/) { get; set; } | Gets or sets the value (in points) that represents the right indent for paragraph. |
-| [Shading](../../aspose.words/paragraphformat/shading/) { get; } | Returns a Shading object that refers to the shading formatting for the paragraph. |
+| [Shading](../../aspose.words/paragraphformat/shading/) { get; } | Returns a [`Shading`](../shading/) object that refers to the shading formatting for the paragraph. |
 | [SnapToGrid](../../aspose.words/paragraphformat/snaptogrid/) { get; set; } | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
 | [SpaceAfter](../../aspose.words/paragraphformat/spaceafter/) { get; set; } | Gets or sets the amount of spacing (in points) after the paragraph. |
 | [SpaceAfterAuto](../../aspose.words/paragraphformat/spaceafterauto/) { get; set; } | True if the amount of spacing after the paragraph is set automatically. |
@@ -59,7 +59,7 @@ public class ParagraphFormat
 | [SuppressLineNumbers](../../aspose.words/paragraphformat/suppresslinenumbers/) { get; set; } | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
 | [TabStops](../../aspose.words/paragraphformat/tabstops/) { get; } | Gets the collection of custom tab stops defined for this object. |
 | [WidowControl](../../aspose.words/paragraphformat/widowcontrol/) { get; set; } | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
-| [WordWrap](../../aspose.words/paragraphformat/wordwrap/) { get; set; } | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
+| [WordWrap](../../aspose.words/paragraphformat/wordwrap/) { get; set; } | If this property is `false`, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
 
 ## Methods
 

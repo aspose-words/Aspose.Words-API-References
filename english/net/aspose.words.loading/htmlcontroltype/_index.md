@@ -3,7 +3,7 @@ title: HtmlControlType
 second_title: Aspose.Words for .NET API Reference
 description: Type of document nodes that represent ltinputgt and ltselectgt elements imported from HTML.
 type: docs
-weight: 3410
+weight: 3430
 url: /net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration

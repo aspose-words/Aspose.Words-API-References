@@ -3,7 +3,7 @@ title: FrameFormat
 second_title: Aspose.Words for .NET API Reference
 description: Represents frame related formatting for a paragraph.
 type: docs
-weight: 2890
+weight: 2910
 url: /net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -23,7 +23,7 @@ public class FrameFormat
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Gets horizontal alignment of the specified frame. |
 | [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Gets horizontal distance between a frame and the surrounding text, in points. |
 | [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Gets horizontal distance between the edge of the frame and the item specified by the [`RelativeHorizontalPosition`](./relativehorizontalposition/) property. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returns true if the paragraph is a frame. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returns `true` if the paragraph is a frame. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Gets the relative horizontal position of a frame. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Gets the relative vertical position of a frame. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Gets vertical alignment of the specified frame. |

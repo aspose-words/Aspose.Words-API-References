@@ -3,7 +3,7 @@ title: IHyphenationCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implemented by classes which can register hyphenation dictionaries.
 type: docs
-weight: 2990
+weight: 3010
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface

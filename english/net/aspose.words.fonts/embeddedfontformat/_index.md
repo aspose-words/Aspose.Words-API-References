@@ -3,7 +3,7 @@ title: EmbeddedFontFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies format of particular embedded font inside FontInfo./fontinfo/ object.
 type: docs
-weight: 2670
+weight: 2690
 url: /net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration

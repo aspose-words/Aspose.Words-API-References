@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns NodeType.SpecialChar.
+description: Returns SpecialChar.
 type: docs
 weight: 10
 url: /net/aspose.words/specialchar/nodetype/
 ---
 ## SpecialChar.NodeType property
 
-Returns **NodeType.SpecialChar**.
+Returns SpecialChar.
 
 ```csharp
 public override NodeType NodeType { get; }

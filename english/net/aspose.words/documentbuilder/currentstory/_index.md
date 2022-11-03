@@ -1,14 +1,14 @@
 ---
 title: CurrentStory
 second_title: Aspose.Words for .NET API Reference
-description: Gets the story that is currently selected in this DocumentBuilder.
+description: Gets the story that is currently selected in this DocumentBuilderaspose.words/documentbuilder/.
 type: docs
 weight: 70
 url: /net/aspose.words/documentbuilder/currentstory/
 ---
 ## DocumentBuilder.CurrentStory property
 
-Gets the story that is currently selected in this DocumentBuilder.
+Gets the story that is currently selected in this [`DocumentBuilder`](../).
 
 ```csharp
 public Story CurrentStory { get; }

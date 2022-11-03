@@ -3,7 +3,7 @@ title: OdsoRecipientData
 second_title: Aspose.Words for .NET API Reference
 description: Represents information about a single record within an external data source that is to be excluded from the mail merge.
 type: docs
-weight: 5630
+weight: 5660
 url: /net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class

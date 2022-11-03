@@ -67,23 +67,23 @@ public abstract class DocumentVisitor
 | virtual [VisitStructuredDocumentTagRangeEnd](../../aspose.words/documentvisitor/visitstructureddocumenttagrangeend/)(StructuredDocumentTagRangeEnd) |  |
 | virtual [VisitStructuredDocumentTagRangeStart](../../aspose.words/documentvisitor/visitstructureddocumenttagrangestart/)(StructuredDocumentTagRangeStart) |  |
 | virtual [VisitStructuredDocumentTagStart](../../aspose.words/documentvisitor/visitstructureddocumenttagstart/)(StructuredDocumentTag) | Called when enumeration of a structured document tag has started. |
-| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Called when a subDocument is encountered. |
+| virtual [VisitSubDocument](../../aspose.words/documentvisitor/visitsubdocument/)(SubDocument) | Called when a sub-document is encountered. |
 | virtual [VisitTableEnd](../../aspose.words/documentvisitor/visittableend/)(Table) | Called when enumeration of a table has ended. |
 | virtual [VisitTableStart](../../aspose.words/documentvisitor/visittablestart/)(Table) | Called when enumeration of a table has started. |
 
 ## Remarks
 
-With **DocumentVisitor** you can define and execute custom operations that require enumeration over the document tree.
+With [`DocumentVisitor`](./documentvisitor/) you can define and execute custom operations that require enumeration over the document tree.
 
-For example, Aspose.Words uses **DocumentVisitor** internally for saving **Document** in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
+For example, Aspose.Words uses [`DocumentVisitor`](./documentvisitor/) internally for saving [`Document`](../document/) in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
 
-To use **DocumentVisitor**:
+To use [`DocumentVisitor`](./documentvisitor/):
 
-1. Create a class derived from **DocumentVisitor**.
+1. Create a class derived from [`DocumentVisitor`](./documentvisitor/).
 2. Override and provide implementations for some or all of the VisitXXX methods to perform some custom operations.
-3. Call [`Node.Accept`](../node/accept/) on the **Node** that you want to start the enumeration from.
+3. Call [`Node.Accept`](../node/accept/) on the [`Node`](../node/) that you want to start the enumeration from.
 
-**DocumentVisitor** provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
+[`DocumentVisitor`](./documentvisitor/) provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
 
 For more information see the Visitor design pattern.
 

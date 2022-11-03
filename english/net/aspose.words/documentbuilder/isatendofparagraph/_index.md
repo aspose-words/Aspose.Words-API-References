@@ -8,7 +8,7 @@ url: /net/aspose.words/documentbuilder/isatendofparagraph/
 ---
 ## DocumentBuilder.IsAtEndOfParagraph property
 
-Returns true if the cursor is at the end of the current paragraph.
+Returns `true` if the cursor is at the end of the current paragraph.
 
 ```csharp
 public bool IsAtEndOfParagraph { get; }

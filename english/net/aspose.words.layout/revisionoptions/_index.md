@@ -3,7 +3,7 @@ title: RevisionOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control how document revisions are handled during layout process.
 type: docs
-weight: 3190
+weight: 3210
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class
@@ -36,9 +36,9 @@ public class RevisionOptions
 | [RevisionBarsPosition](../../aspose.words.layout/revisionoptions/revisionbarsposition/) { get; set; } | Gets or sets rendering position of revision bars. Default value is Outside. |
 | [RevisionBarsWidth](../../aspose.words.layout/revisionoptions/revisionbarswidth/) { get; set; } | Gets or sets width of revision bars, points. |
 | [ShowInBalloons](../../aspose.words.layout/revisionoptions/showinballoons/) { get; set; } | Allows to specify whether the revisions are rendered in the balloons. Default value is None. |
-| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | Allows to specify whether the original text should be shown instead of revised one. Default value is False. |
-| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True. |
-| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Allow to specify whether revision text should be marked with special formatting markup. Default value is True. |
+| [ShowOriginalRevision](../../aspose.words.layout/revisionoptions/showoriginalrevision/) { get; set; } | Allows to specify whether the original text should be shown instead of revised one. Default value is `false`. |
+| [ShowRevisionBars](../../aspose.words.layout/revisionoptions/showrevisionbars/) { get; set; } | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is `true`. |
+| [ShowRevisionMarks](../../aspose.words.layout/revisionoptions/showrevisionmarks/) { get; set; } | Allow to specify whether revision text should be marked with special formatting markup. Default value is `true`. |
 
 ## Examples
 

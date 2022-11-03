@@ -37,7 +37,7 @@ public class FieldCitation : Field
 | [PageNumber](../../aspose.words.fields/fieldcitation/pagenumber/) { get; set; } | Gets or sets a page number associated with the citation. |
 | [Prefix](../../aspose.words.fields/fieldcitation/prefix/) { get; set; } | Gets or sets a prefix that is prepended to the citation. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
 | [SourceTag](../../aspose.words.fields/fieldcitation/sourcetag/) { get; set; } | Gets or sets a value that mathes the **Tag** element's value of the source to insert. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | [Suffix](../../aspose.words.fields/fieldcitation/suffix/) { get; set; } | Gets or sets a suffix that is appended to the citation. |
@@ -53,7 +53,7 @@ public class FieldCitation : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns `null`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
 | [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

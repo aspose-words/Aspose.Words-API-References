@@ -1,14 +1,14 @@
 ---
 title: Cell
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Cell class.
+description: Initializes a new instance of the Cellaspose.words.tables/cell/ class.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cell/cell/
 ---
 ## Cell constructor
 
-Initializes a new instance of the **Cell** class.
+Initializes a new instance of the [`Cell`](../) class.
 
 ```csharp
 public Cell(DocumentBase doc)
@@ -20,9 +20,9 @@ public Cell(DocumentBase doc)
 
 ## Remarks
 
-When **Cell** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [`Cell`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../../aspose.words/node/parentnode/) is `null`.
 
-To append **Cell** to the document use InsertAfter or InsertBefore on the row where you want the cell inserted.
+To append [`Cell`](../) to the document use [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) or [`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) on the row where you want the cell inserted.
 
 ## Examples
 

@@ -16,7 +16,7 @@ public DocumentBuilder()
 
 ## Remarks
 
-Creates a new **DocumentBuilder** object and attaches it to a new [`Document`](../document/) object.
+Creates a new [`DocumentBuilder`](../) object and attaches it to a new [`Document`](../../document/) object.
 
 ## Examples
 
@@ -55,11 +55,11 @@ public DocumentBuilder(Document doc)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | Document | The Document object to attach to. |
+| doc | Document | The [`Document`](../../document/) object to attach to. |
 
 ## Remarks
 
-Creates a new **DocumentBuilder** object, attaches to the specified [`Document`](../document/) object. The cursor is positioned at the beginning of the document.
+Creates a new [`DocumentBuilder`](../) object, attaches to the specified [`Document`](../../document/) object. The cursor is positioned at the beginning of the document.
 
 ## Examples
 

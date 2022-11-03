@@ -8,7 +8,7 @@ url: /net/aspose.words.lists/list/ismultilevel/
 ---
 ## List.IsMultiLevel property
 
-Returns true when the list contains 9 levels; false when 1 level.
+Returns `true` when the list contains 9 levels; `false` when 1 level.
 
 ```csharp
 public bool IsMultiLevel { get; }

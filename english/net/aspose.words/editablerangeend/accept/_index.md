@@ -20,7 +20,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return Value
 
-False if the visitor requested the enumeration to stop.
+`false` if the visitor requested the enumeration to stop.
 
 ## Remarks
 

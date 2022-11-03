@@ -20,7 +20,7 @@ This property affects behavior of the shape in Microsoft Word. Aspose.Words igno
 
 This property is applicable only to top level shapes.
 
-The default value is **true**.
+The default value is `true`.
 
 ## Examples
 

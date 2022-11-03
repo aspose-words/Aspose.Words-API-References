@@ -8,7 +8,7 @@ url: /net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Returns true if the page orientation specified in the document for this page is landscape.
+Returns `true` if the page orientation specified in the document for this page is landscape.
 
 ```csharp
 public bool Landscape { get; }

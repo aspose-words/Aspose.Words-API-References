@@ -8,7 +8,7 @@ url: /net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-Returns true if the document is encrypted and requires a password to open.
+Returns `true` if the document is encrypted and requires a password to open.
 
 ```csharp
 public bool IsEncrypted { get; }

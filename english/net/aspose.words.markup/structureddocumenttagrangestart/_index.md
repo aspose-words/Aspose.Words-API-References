@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a start of ranged structured document tag which accepts multisections content. See also StructuredDocumentTagRangeEnd./structureddocumenttagrangeend/.
 type: docs
-weight: 3850
+weight: 3870
 url: /net/aspose.words.markup/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart class
@@ -31,23 +31,23 @@ public class StructuredDocumentTagRangeStart : Node, IEnumerable<Node>, IStructu
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [Id](../../aspose.words.markup/structureddocumenttagrangestart/id/) { get; } | Specifies a unique read-only persistent numerical Id for this structured document tag. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [IsShowingPlaceholderText](../../aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/) { get; set; } | Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag). |
 | [LastChild](../../aspose.words.markup/structureddocumenttagrangestart/lastchild/) { get; } | Gets the last child in the stdContent range. |
 | [Level](../../aspose.words.markup/structureddocumenttagrangestart/level/) { get; } | Gets the level at which this structured document tag range start occurs in the document tree. |
-| [LockContentControl](../../aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/) { get; set; } | When set to true, this property will prohibit a user from deleting this structured document tag. |
-| [LockContents](../../aspose.words.markup/structureddocumenttagrangestart/lockcontents/) { get; set; } | When set to true, this property will prohibit a user from editing the contents of this structured document tag. |
+| [LockContentControl](../../aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/) { get; set; } | When set to `true`, this property will prohibit a user from deleting this structured document tag. |
+| [LockContents](../../aspose.words.markup/structureddocumenttagrangestart/lockcontents/) { get; set; } | When set to `true`, this property will prohibit a user from editing the contents of this structured document tag. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangestart/nodetype/) { get; } |  |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
-| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder/) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is true. |
+| [Placeholder](../../aspose.words.markup/structureddocumenttagrangestart/placeholder/) { get; } | Gets the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text which should be displayed when this structured document tag run contents are empty, the associated mapped XML element is empty as specified via the [`XmlMapping`](./xmlmapping/) element or the [`IsShowingPlaceholderText`](./isshowingplaceholdertext/) element is `true`. |
 | [PlaceholderName](../../aspose.words.markup/structureddocumenttagrangestart/placeholdername/) { get; set; } | Gets or sets Name of the [`BuildingBlock`](../../aspose.words.buildingblocks/buildingblock/) containing placeholder text. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend/) { get; } | Specifies end of range if the StructuredDocumentTag is a ranged structured document tag. Otherwise returns null. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
+| [RangeEnd](../../aspose.words.markup/structureddocumenttagrangestart/rangeend/) { get; } | Specifies end of range if the [`StructuredDocumentTag`](../structureddocumenttag/) is a ranged structured document tag. Otherwise returns `null`. |
 | [SdtType](../../aspose.words.markup/structureddocumenttagrangestart/sdttype/) { get; } | Gets type of this structured document tag. |
-| [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag/) { get; set; } | Specifies a tag associated with the current structured document tag node. Can not be null. |
-| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title/) { get; set; } | Specifies the friendly name associated with this structured document tag. Can not be null. |
+| [Tag](../../aspose.words.markup/structureddocumenttagrangestart/tag/) { get; set; } | Specifies a tag associated with the current structured document tag node. Can not be `null`. |
+| [Title](../../aspose.words.markup/structureddocumenttagrangestart/title/) { get; set; } | Specifies the friendly name associated with this structured document tag. Can not be `null`. |
 | [WordOpenXML](../../aspose.words.markup/structureddocumenttagrangestart/wordopenxml/) { get; } | Gets a string that represents the XML contained within the node in the FlatOpc format. |
 | [XmlMapping](../../aspose.words.markup/structureddocumenttagrangestart/xmlmapping/) { get; } | Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document. |
 

@@ -3,7 +3,7 @@ title: ReportingEngine
 second_title: Aspose.Words for .NET API Reference
 description: Provides routines to populate template documents with data and a set of settings to control these routines.
 type: docs
-weight: 4470
+weight: 4500
 url: /net/aspose.words.reporting/reportingengine/
 ---
 ## ReportingEngine class
@@ -28,7 +28,7 @@ public class ReportingEngine
 | --- | --- |
 | [KnownTypes](../../aspose.words.reporting/reportingengine/knowntypes/) { get; } | Gets an unordered set (i.e. a collection of unique items) containing Type objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc. |
 | [Options](../../aspose.words.reporting/reportingengine/options/) { get; set; } | Gets or sets a set of flags controlling behavior of this [`ReportingEngine`](./reportingengine/) instance while building a report. |
-| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. |
+| static [UseReflectionOptimization](../../aspose.words.reporting/reportingengine/usereflectionoptimization/) { get; set; } | Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is `true`. |
 
 ## Methods
 

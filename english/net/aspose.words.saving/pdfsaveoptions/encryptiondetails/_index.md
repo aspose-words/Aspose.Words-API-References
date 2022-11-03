@@ -3,7 +3,7 @@ title: EncryptionDetails
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets the details for encrypting the output PDF document.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 ---
 ## PdfSaveOptions.EncryptionDetails property
@@ -16,7 +16,7 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ## Remarks
 
-The default value is null and the output document will not be encrypted. When this property is set to a valid [`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, then the output PDF document will be encrypted.
+The default value is `null` and the output document will not be encrypted. When this property is set to a valid [`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, then the output PDF document will be encrypted.
 
 AES-128 encryption algorithm is used when saving to PDF 1.7 based compliance (including PDF/UA-1). AES-256 encryption algorithm is used when saving to PDF 2.0 based compliance.
 

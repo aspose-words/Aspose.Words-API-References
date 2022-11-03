@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/chartdatalabel/isvisible/
 ---
 ## ChartDataLabel.IsVisible property
 
-Returns true if this data label has something to display.
+Returns `true` if this data label has something to display.
 
 ```csharp
 public bool IsVisible { get; }

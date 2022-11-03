@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if the LineStyle is not LineStyle.None.
+description: Returns true if the LineStyleaspose.words/border/linestyle/ is not None.
 type: docs
 weight: 30
 url: /net/aspose.words/border/isvisible/
 ---
 ## Border.IsVisible property
 
-Returns true if the LineStyle is not LineStyle.None.
+Returns `true` if the [`LineStyle`](../linestyle/) is not None.
 
 ```csharp
 public bool IsVisible { get; }

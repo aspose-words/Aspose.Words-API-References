@@ -16,7 +16,7 @@ public CompositeNode ParentNode { get; }
 
 ## Remarks
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is `null`.
 
 ## Examples
 

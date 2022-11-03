@@ -3,7 +3,7 @@ title: SystemFontSource
 second_title: Aspose.Words for .NET API Reference
 description: Represents all TrueType fonts installed to the system.
 type: docs
-weight: 2870
+weight: 2890
 url: /net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class

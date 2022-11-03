@@ -8,7 +8,7 @@ url: /net/aspose.words.lists/list/isliststyledefinition/
 ---
 ## List.IsListStyleDefinition property
 
-Returns true if this list is a definition of a list style.
+Returns `true` if this list is a definition of a list style.
 
 ```csharp
 public bool IsListStyleDefinition { get; }
@@ -16,7 +16,7 @@ public bool IsListStyleDefinition { get; }
 
 ## Remarks
 
-When this property is true, the [`Style`](../style/) property returns the list style that this list defines.
+When this property is `true`, the [`Style`](../style/) property returns the list style that this list defines.
 
 By modifying properties of a list that defines a list style, you modify the properties of the list style.
 

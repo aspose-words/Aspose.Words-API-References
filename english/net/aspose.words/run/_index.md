@@ -3,7 +3,7 @@ title: Run
 second_title: Aspose.Words for .NET API Reference
 description: Represents a run of characters with the same font formatting.
 type: docs
-weight: 4560
+weight: 4590
 url: /net/aspose.words/run/
 ---
 ## Run class
@@ -20,7 +20,7 @@ public class Run : Inline
 
 | Name | Description |
 | --- | --- |
-| [Run](run/#constructor)(DocumentBase) | Initializes a new instance of the **Run** class. |
+| [Run](run/#constructor)(DocumentBase) | Initializes a new instance of the [`Run`](./run/) class. |
 | [Run](run/#constructor_1)(DocumentBase, string) | Initializes a new instance of the **Run** class. |
 
 ## Properties
@@ -30,18 +30,18 @@ public class Run : Inline
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [Font](../../aspose.words/inline/font/) { get; } | Provides access to the font formatting of this object. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returns **NodeType.Run**. |
+| override [NodeType](../../aspose.words/run/nodetype/) { get; } | Returns Run. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [Text](../../aspose.words/run/text/) { get; set; } | Gets or sets the text of the run. |
 
 ## Methods
@@ -63,7 +63,7 @@ public class Run : Inline
 
 All text of the document is stored in runs of text.
 
-**Run** can only be a child of **Paragraph** or inline **StructuredDocumentTag**.
+[`Run`](./run/) can only be a child of [`Paragraph`](../paragraph/) or inline [`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/).
 
 ## Examples
 

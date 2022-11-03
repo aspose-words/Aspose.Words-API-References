@@ -3,7 +3,7 @@ title: CustomPart
 second_title: Aspose.Words for .NET API Reference
 description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard.
 type: docs
-weight: 3660
+weight: 3680
 url: /net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
@@ -28,7 +28,7 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Specifies the content type of this custom part. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Contains the data of this custom part. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | `False` if this custom part is stored inside the OOXML package. `True` if this custom part is an external target. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | False if this custom part is stored inside the OOXML package. True if this custom part is an external target. |
 | [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Gets or sets this part's absolute name within the OOXML package or the target URL. |
 | [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Gets or sets the relationship type from the parent part to this custom part. |
 

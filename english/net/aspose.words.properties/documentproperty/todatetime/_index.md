@@ -8,7 +8,7 @@ url: /net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Returns the property value as DateTime in UTC.
+Returns the property value as **DateTime** in UTC.
 
 ```csharp
 public DateTime ToDateTime()

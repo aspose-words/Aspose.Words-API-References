@@ -35,7 +35,7 @@ public class GroupShape : ShapeBase
 | [Bounds](../../aspose.words.drawing/shapebase/bounds/) { get; set; } | Gets or sets the location and size of the containing block of the shape. |
 | [BoundsInPoints](../../aspose.words.drawing/shapebase/boundsinpoints/) { get; } | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
 | [BoundsWithEffects](../../aspose.words.drawing/shapebase/boundswitheffects/) { get; } | Gets final extent that this shape object has after applying drawing effects. Value is measured in points. |
-| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returns true if the shape type allows the shape to have an image. |
+| [CanHaveImage](../../aspose.words.drawing/shapebase/canhaveimage/) { get; } | Returns `true` if the shape type allows the shape to have an image. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [CoordOrigin](../../aspose.words.drawing/shapebase/coordorigin/) { get; set; } | The coordinates at the top-left corner of the containing block of this shape. |
 | [CoordSize](../../aspose.words.drawing/shapebase/coordsize/) { get; set; } | The width and height of the coordinate space inside the containing block of this shape. |
@@ -50,24 +50,24 @@ public class GroupShape : ShapeBase
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FlipOrientation](../../aspose.words.drawing/shapebase/fliporientation/) { get; set; } | Switches the orientation of a shape. |
 | [Font](../../aspose.words.drawing/shapebase/font/) { get; } | Provides access to the font formatting of this object. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [Height](../../aspose.words.drawing/shapebase/height/) { get; set; } | Gets or sets the height of the containing block of the shape. |
 | [HorizontalAlignment](../../aspose.words.drawing/shapebase/horizontalalignment/) { get; set; } | Specifies how the shape is positioned horizontally. |
 | [HRef](../../aspose.words.drawing/shapebase/href/) { get; set; } | Gets or sets the full hyperlink address for a shape. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDecorative](../../aspose.words.drawing/shapebase/isdecorative/) { get; set; } | Gets or sets the flag that specifies whether the shape is decorative in the document. |
 | [IsDeleteRevision](../../aspose.words.drawing/shapebase/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returns true if this is a group shape. |
-| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returns true if this shape is a horizontal rule. |
-| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returns true if this shape is an image shape. |
+| [IsGroup](../../aspose.words.drawing/shapebase/isgroup/) { get; } | Returns `true` if this is a group shape. |
+| [IsHorizontalRule](../../aspose.words.drawing/shapebase/ishorizontalrule/) { get; } | Returns `true` if this shape is a horizontal rule. |
+| [IsImage](../../aspose.words.drawing/shapebase/isimage/) { get; } | Returns `true` if this shape is an image shape. |
 | [IsInline](../../aspose.words.drawing/shapebase/isinline/) { get; } | A quick way to determine if this shape is positioned inline with text. |
 | [IsInsertRevision](../../aspose.words.drawing/shapebase/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [IsLayoutInCell](../../aspose.words.drawing/shapebase/islayoutincell/) { get; set; } | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. |
-| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
-| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indicates that shape is a SignatureLine. |
-| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returns true if this shape is not a child of a group shape. |
-| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returns true if this shape is a WordArt object. |
+| [IsMoveFromRevision](../../aspose.words.drawing/shapebase/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words.drawing/shapebase/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsSignatureLine](../../aspose.words.drawing/shapebase/issignatureline/) { get; } | Indicates that shape is a [`SignatureLine`](../signatureline/). |
+| [IsTopLevel](../../aspose.words.drawing/shapebase/istoplevel/) { get; } | Returns `true` if this shape is not a child of a group shape. |
+| [IsWordArt](../../aspose.words.drawing/shapebase/iswordart/) { get; } | Returns `true` if this shape is a WordArt object. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [Left](../../aspose.words.drawing/shapebase/left/) { get; set; } | Gets or sets the position of the left edge of the containing block of the shape. |
 | [MarkupLanguage](../../aspose.words.drawing/shapebase/markuplanguage/) { get; } | Gets MarkupLanguage used for this graphic object. |
@@ -77,7 +77,7 @@ public class GroupShape : ShapeBase
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words.drawing/shapebase/parentparagraph/) { get; } | Returns the immediate parent paragraph. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [RelativeHorizontalPosition](../../aspose.words.drawing/shapebase/relativehorizontalposition/) { get; set; } | Specifies relative to what the shape is positioned horizontally. |
 | [RelativeVerticalPosition](../../aspose.words.drawing/shapebase/relativeverticalposition/) { get; set; } | Specifies relative to what the shape is positioned vertically. |
 | [Right](../../aspose.words.drawing/shapebase/right/) { get; } | Gets the position of the right edge of the containing block of the shape. |
@@ -127,7 +127,7 @@ public class GroupShape : ShapeBase
 | [RemoveShapeAttr](../../aspose.words.drawing/shapebase/removeshapeattr/)(int) | Reserved for system use. IShapeAttrSource. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [SetShapeAttr](../../aspose.words.drawing/shapebase/setshapeattr/)(int, object) | Reserved for system use. IShapeAttrSource. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |

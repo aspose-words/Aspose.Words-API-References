@@ -16,7 +16,7 @@ public OutlineOptions OutlineOptions { get; }
 
 ## Remarks
 
-Note that ExpandedOutlineLevels option will not work when saving to XPS.
+Note that [`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) option will not work when saving to XPS.
 
 ## Examples
 

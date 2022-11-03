@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Specifies the friendly name associated with this structured document tag. Can not be null.
+Specifies the friendly name associated with this structured document tag. Can not be `null`.
 
 ```csharp
 public string Title { get; set; }

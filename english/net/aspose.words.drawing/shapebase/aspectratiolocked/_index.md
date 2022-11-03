@@ -16,7 +16,7 @@ public bool AspectRatioLocked { get; set; }
 
 ## Remarks
 
-The default value depends on the [`ShapeType`](../shapetype/), for the ShapeType.Image it is **true** but for the other shape types it is **false**.
+The default value depends on the [`ShapeType`](../../shapetype/), for the Image it is `true` but for the other shape types it is `false`.
 
 Has effect for top level shapes only.
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-When `false`, PictureBullet data is not saved to output document. Default value is **true**.
+When `false`, PictureBullet data is not saved to output document. Default value is `true`.
 
 ```csharp
 public bool SavePictureBullet { get; set; }

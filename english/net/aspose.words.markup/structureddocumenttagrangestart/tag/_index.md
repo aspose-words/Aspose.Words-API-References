@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-Specifies a tag associated with the current structured document tag node. Can not be null.
+Specifies a tag associated with the current structured document tag node. Can not be `null`.
 
 ```csharp
 public string Tag { get; set; }

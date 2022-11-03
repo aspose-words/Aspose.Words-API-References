@@ -16,7 +16,7 @@ public Node PreviousSibling { get; }
 
 ## Remarks
 
-If there is no preceding node, a null is returned.
+If there is no preceding node, a `null` is returned.
 
 ## Examples
 

@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Return Value
 
-True if the item is found in the collection; otherwise, false.
+`true` if the item is found in the collection; otherwise, `false`.
 
 ## Examples
 

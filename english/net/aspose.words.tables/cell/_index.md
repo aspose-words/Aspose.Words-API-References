@@ -3,7 +3,7 @@ title: Cell
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table cell.
 type: docs
-weight: 5940
+weight: 5970
 url: /net/aspose.words.tables/cell/
 ---
 ## Cell class
@@ -20,7 +20,7 @@ public class Cell : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Cell](cell/)(DocumentBase) | Initializes a new instance of the **Cell** class. |
+| [Cell](cell/)(DocumentBase) | Initializes a new instance of the [`Cell`](./cell/) class. |
 
 ## Properties
 
@@ -33,19 +33,19 @@ public class Cell : CompositeNode
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstParagraph](../../aspose.words.tables/cell/firstparagraph/) { get; } | Gets the first paragraph among the immediate children. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsFirstCell](../../aspose.words.tables/cell/isfirstcell/) { get; } | True if this is the first cell inside a row; false otherwise. |
 | [IsLastCell](../../aspose.words.tables/cell/islastcell/) { get; } | True if this is the last cell inside a row; false otherwise. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words.tables/cell/lastparagraph/) { get; } | Gets the last paragraph among the immediate children. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | Returns **NodeType.Cell**. |
+| override [NodeType](../../aspose.words.tables/cell/nodetype/) { get; } | Returns Cell. |
 | [Paragraphs](../../aspose.words.tables/cell/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the cell. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentRow](../../aspose.words.tables/cell/parentrow/) { get; } | Returns the parent row of the cell. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [Tables](../../aspose.words.tables/cell/tables/) { get; } | Gets a collection of tables that are immediate children of the cell. |
 
 ## Methods
@@ -74,17 +74,17 @@ public class Cell : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**Cell** can only be a child of a **Row**.
+[`Cell`](./cell/) can only be a child of a [`Row`](../row/).
 
-**Cell** can contain block-level nodes **Paragraph** and **Table**.
+[`Cell`](./cell/) can contain block-level nodes [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../table/).
 
-A minimal valid cell needs to have at least one **Paragraph**.
+A minimal valid cell needs to have at least one [`Paragraph`](../../aspose.words/paragraph/).
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument
 second_title: Aspose.Words for .NET API Reference
 description: Provides a default implementation for printing of a Document../aspose.words/document/ within the .NET printing framework.
 type: docs
-weight: 4280
+weight: 4300
 url: /net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
@@ -21,6 +21,13 @@ public class AsposeWordsPrintDocument : PrintDocument
 | Name | Description |
 | --- | --- |
 | [AsposeWordsPrintDocument](asposewordsprintdocument/)(Document) | Initializes a new instance of this class. |
+
+## Properties
+
+| Name | Description |
+| --- | --- |
+| [ColorMode](../../aspose.words.rendering/asposewordsprintdocument/colormode/) { get; set; } | Gets or sets how non-colored pages are printed if the device supports color printing. |
+| [ColorPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/) { get; } | Gets the number of pages printed in color (i.e. with Color set to true). |
 
 ## Methods
 

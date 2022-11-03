@@ -16,9 +16,9 @@ public bool ReverseRows { get; set; }
 
 ## Remarks
 
-The default value is **false**.
+The default value is `false`.
 
-If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
+If `true`, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
 ## Examples
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.ole/forms2olecontrol/enabled/
 ---
 ## Forms2OleControl.Enabled property
 
-Returns true if control is in enabled state.
+Returns `true` if control is in enabled state.
 
 ```csharp
 public bool Enabled { get; }

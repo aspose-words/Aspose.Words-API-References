@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | Node | The node being imported. |
-| isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | Boolean | `true` to import all child nodes recursively; otherwise, `false`. |
 
 ### Return Value
 
@@ -84,7 +84,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | Node | The node to imported. |
-| isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | Boolean | `true` to import all child nodes recursively; otherwise, `false`. |
 | importFormatMode | ImportFormatMode | Specifies how to merge style formatting that clashes. |
 
 ### Return Value

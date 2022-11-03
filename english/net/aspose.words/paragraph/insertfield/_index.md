@@ -18,7 +18,7 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | --- | --- | --- |
 | fieldType | FieldType | The type of the field to insert. |
 | updateField | Boolean | Specifies whether to update the field immediately. |
-| refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| refNode | Node | Reference node inside this paragraph (if *refNode* is `null`, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
 ### Return Value
@@ -83,7 +83,7 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | String | The field code to insert (without curly braces). |
-| refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| refNode | Node | Reference node inside this paragraph (if *refNode* is `null`, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
 ### Return Value
@@ -147,8 +147,8 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | String | The field code to insert (without curly braces). |
-| fieldValue | String | The field value to insert. Pass null for fields that do not have a value. |
-| refNode | Node | Reference node inside this paragraph (if refNode is null, then appends to the end of the paragraph). |
+| fieldValue | String | The field value to insert. Pass `null` for fields that do not have a value. |
+| refNode | Node | Reference node inside this paragraph (if *refNode* is `null`, then appends to the end of the paragraph). |
 | isAfter | Boolean | Whether to insert the field after or before reference node. |
 
 ### Return Value

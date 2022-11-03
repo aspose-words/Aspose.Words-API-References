@@ -1,14 +1,14 @@
 ---
 title: Shading
 second_title: Aspose.Words for .NET API Reference
-description: Returns a Shading object that refers to the shading formatting for the font.
+description: Returns a Shadingaspose.words/shading/ object that refers to the shading formatting for the font.
 type: docs
 weight: 320
 url: /net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Returns a Shading object that refers to the shading formatting for the font.
+Returns a [`Shading`](../../shading/) object that refers to the shading formatting for the font.
 
 ```csharp
 public Shading Shading { get; }

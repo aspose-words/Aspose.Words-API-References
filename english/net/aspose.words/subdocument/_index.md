@@ -3,7 +3,7 @@ title: SubDocument
 second_title: Aspose.Words for .NET API Reference
 description: Represents a SubDocument  which is a reference to an externally stored document.
 type: docs
-weight: 5870
+weight: 5900
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class
@@ -22,12 +22,12 @@ public class SubDocument : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/subdocument/nodetype/) { get; } | Returns **NodeType.SubDocument** |
+| override [NodeType](../../aspose.words/subdocument/nodetype/) { get; } | Returns SubDocument. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 
@@ -46,7 +46,7 @@ public class SubDocument : Node
 
 ## Remarks
 
-In this version of Aspose.Words, [`SubDocument`](./subdocument/) nodes do not provide public methods and properties to create or modify a subdocument. In this version you are not able to instantiate SubDocument nodes or modify existing except deleting them.
+In this version of Aspose.Words, [`SubDocument`](./subdocument/) nodes do not provide public methods and properties to create or modify a subdocument. In this version you are not able to instantiate [`SubDocument`](./subdocument/) nodes or modify existing except deleting them.
 
 [`SubDocument`](./subdocument/) can only be a child of [`Paragraph`](../paragraph/).
 

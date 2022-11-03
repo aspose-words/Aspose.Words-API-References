@@ -18,17 +18,17 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | --- | --- | --- |
 | nodeType | NodeType | Specifies the type of the child node. |
 | index | Int32 | Zero based index of the child node to select. Negative indexes are also allowed and indicate access from the end, that is -1 means the last node. |
-| isDeep | Boolean | True to select from all child nodes recursively. False to select only among immediate children. See remarks for more info. |
+| isDeep | Boolean | `true` to select from all child nodes recursively; `false` to select only among immediate children. See remarks for more info. |
 
 ### Return Value
 
-The child node that matches the criteria or null if no matching node is found.
+The child node that matches the criteria or `null` if no matching node is found.
 
 ## Remarks
 
-If index is out of range, a null is returned.
+If index is out of range, a `null` is returned.
 
-Note that markup nodes (StructuredDocumentTag and SmartTag) are traversed even when isDeep = false and GetChild is invoked for non-markup node type. For example if the first run in a para is wrapped in a StructuredDocumentTag, it will still be returned by GetChild(NodeType.Run, 0, false).
+Note that markup nodes (StructuredDocumentTag and SmartTag) are traversed even when *isDeep* = `false` and `GetChild` is invoked for non-markup node type. For example if the first run in a para is wrapped in a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by `GetChild`(Run, 0, `false`).
 
 ## Examples
 

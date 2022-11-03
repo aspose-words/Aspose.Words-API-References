@@ -3,7 +3,7 @@ title: LayoutCollector
 second_title: Aspose.Words for .NET API Reference
 description: This class allows to compute page numbers of document nodes.
 type: docs
-weight: 3120
+weight: 3140
 url: /net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
@@ -44,7 +44,7 @@ When you create a [`LayoutCollector`](./layoutcollector/) and specify a [`Docume
 
 You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [`GetStartPageIndex`](./getstartpageindex/), [`GetEndPageIndex`](./getendpageindex/) and [`GetNumPagesSpanned`](./getnumpagesspanned/) methods. These methods automatically build page layout model of the document and update fields if required.
 
-When you no longer need to collect layout information, it is best to set the [`Document`](./document/) property to null to avoid unnecessary collection of more layout mappings.
+When you no longer need to collect layout information, it is best to set the [`Document`](./document/) property to `null` to avoid unnecessary collection of more layout mappings.
 
 ## Examples
 

@@ -20,9 +20,9 @@ public class ChartTitle
 
 | Name | Description |
 | --- | --- |
-| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. By default overlay is false. |
-| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Determines whether the title shall be shown for this chart. Default value is true. |
-| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Gets or sets the text of the chart title. If null or empty value is specified, auto generated title will be shown. |
+| [Overlay](../../aspose.words.drawing.charts/charttitle/overlay/) { get; set; } | Determines whether other chart elements shall be allowed to overlap title. By default overlay is `false`. |
+| [Show](../../aspose.words.drawing.charts/charttitle/show/) { get; set; } | Determines whether the title shall be shown for this chart. Default value is `true`. |
+| [Text](../../aspose.words.drawing.charts/charttitle/text/) { get; set; } | Gets or sets the text of the chart title. If `null` or empty value is specified, auto generated title will be shown. |
 
 ## Examples
 

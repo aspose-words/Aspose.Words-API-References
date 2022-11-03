@@ -16,7 +16,7 @@ public int Add(OdsoRecipientData value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | OdsoRecipientData | The object to add. Cannot be null. |
+| value | OdsoRecipientData | The object to add. Cannot be `null`. |
 
 ## Examples
 

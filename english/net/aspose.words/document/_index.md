@@ -32,7 +32,7 @@ public class Document : DocumentBase
 | --- | --- |
 | [AttachedTemplate](../../aspose.words/document/attachedtemplate/) { get; set; } | Gets or sets the full path of the template attached to the document. |
 | [AutomaticallyUpdateStyles](../../aspose.words/document/automaticallyupdatestyles/) { get; set; } | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
-| [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Gets or sets the background shape of the document. Can be null. |
+| [BackgroundShape](../../aspose.words/documentbase/backgroundshape/) { get; set; } | Gets or sets the background shape of the document. Can be `null`. |
 | [BuiltInDocumentProperties](../../aspose.words/document/builtindocumentproperties/) { get; } | Returns a collection that represents all the built-in document properties of the document. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [CompatibilityOptions](../../aspose.words/document/compatibilityoptions/) { get; } | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
@@ -45,7 +45,7 @@ public class Document : DocumentBase
 | [DigitalSignatures](../../aspose.words/document/digitalsignatures/) { get; } | Gets the collection of digital signatures for this document and their validation results. |
 | override [Document](../../aspose.words/documentbase/document/) { get; } |  |
 | [EndnoteOptions](../../aspose.words/document/endnoteoptions/) { get; } | Provides options that control numbering and positioning of endnotes in this document. |
-| [FieldOptions](../../aspose.words/document/fieldoptions/) { get; } | Gets a **FieldOptions** object that represents options to control field handling in the document. |
+| [FieldOptions](../../aspose.words/document/fieldoptions/) { get; } | Gets a [`FieldOptions`](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstSection](../../aspose.words/document/firstsection/) { get; } | Gets the first section in the document. |
 | [FontInfos](../../aspose.words/documentbase/fontinfos/) { get; } | Provides access to properties of fonts used in this document. |
@@ -53,21 +53,21 @@ public class Document : DocumentBase
 | [FootnoteOptions](../../aspose.words/document/footnoteoptions/) { get; } | Provides options that control numbering and positioning of footnotes in this document. |
 | [Frameset](../../aspose.words/document/frameset/) { get; } | Returns a [`Frameset`](./frameset/) instance if this document represents a frames page. |
 | [GlossaryDocument](../../aspose.words/document/glossarydocument/) { get; set; } | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
-| [GrammarChecked](../../aspose.words/document/grammarchecked/) { get; set; } | Returns **true** if the document has been checked for grammar. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| [HasMacros](../../aspose.words/document/hasmacros/) { get; } | Returns **true** if the document has a VBA project (macros). |
-| [HasRevisions](../../aspose.words/document/hasrevisions/) { get; } | Returns **true** if the document has any tracked changes. |
+| [GrammarChecked](../../aspose.words/document/grammarchecked/) { get; set; } | Returns `true` if the document has been checked for grammar. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| [HasMacros](../../aspose.words/document/hasmacros/) { get; } | Returns `true` if the document has a VBA project (macros). |
+| [HasRevisions](../../aspose.words/document/hasrevisions/) { get; } | Returns `true` if the document has any tracked changes. |
 | [HyphenationOptions](../../aspose.words/document/hyphenationoptions/) { get; } | Provides access to document hyphenation options. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastSection](../../aspose.words/document/lastsection/) { get; } | Gets the last section in the document. |
-| [LayoutOptions](../../aspose.words/document/layoutoptions/) { get; } | Gets a **LayoutOptions** object that represents options to control the layout process of this document. |
+| [LayoutOptions](../../aspose.words/document/layoutoptions/) { get; } | Gets a [`LayoutOptions`](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
 | [Lists](../../aspose.words/documentbase/lists/) { get; } | Provides access to the list formatting used in the document. |
-| [MailMerge](../../aspose.words/document/mailmerge/) { get; } | Returns a **MailMerge** object that represents the mail merge functionality for the document. |
+| [MailMerge](../../aspose.words/document/mailmerge/) { get; } | Returns a [`MailMerge`](../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document. |
 | [MailMergeSettings](../../aspose.words/document/mailmergesettings/) { get; set; } | Gets or sets the object that contains all of the mail merge information for a document. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
 | [NodeChangingCallback](../../aspose.words/documentbase/nodechangingcallback/) { get; set; } | Called when a node is inserted or removed in the document. |
-| override [NodeType](../../aspose.words/document/nodetype/) { get; } | Returns **NodeType.Document**. |
+| override [NodeType](../../aspose.words/document/nodetype/) { get; } | Returns Document. |
 | [OriginalFileName](../../aspose.words/document/originalfilename/) { get; } | Gets the original file name of the document. |
 | [OriginalLoadFormat](../../aspose.words/document/originalloadformat/) { get; } | Gets the format of the original document that was loaded into this object. |
 | [PackageCustomParts](../../aspose.words/document/packagecustomparts/) { get; set; } | Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using "unknown relationships". |
@@ -76,7 +76,7 @@ public class Document : DocumentBase
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [ProtectionType](../../aspose.words/document/protectiontype/) { get; } | Gets the currently active document protection type. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [RemovePersonalInformation](../../aspose.words/document/removepersonalinformation/) { get; set; } | Gets or sets a flag indicating that Microsoft Word will remove all user information from comments, revisions and document properties upon saving the document. |
 | [ResourceLoadingCallback](../../aspose.words/documentbase/resourceloadingcallback/) { get; set; } | Allows to control how external resources are loaded. |
 | [Revisions](../../aspose.words/document/revisions/) { get; } | Gets a collection of revisions (tracked changes) that exist in this document. |
@@ -85,10 +85,10 @@ public class Document : DocumentBase
 | [ShadeFormData](../../aspose.words/document/shadeformdata/) { get; set; } | Specifies whether to turn on the gray shading on form fields. |
 | [ShowGrammaticalErrors](../../aspose.words/document/showgrammaticalerrors/) { get; set; } | Specifies whether to display grammar errors in this document. |
 | [ShowSpellingErrors](../../aspose.words/document/showspellingerrors/) { get; set; } | Specifies whether to display spelling errors in this document. |
-| [SpellingChecked](../../aspose.words/document/spellingchecked/) { get; set; } | Returns **true** if the document has been checked for spelling. |
+| [SpellingChecked](../../aspose.words/document/spellingchecked/) { get; set; } | Returns `true` if the document has been checked for spelling. |
 | [Styles](../../aspose.words/documentbase/styles/) { get; } | Returns a collection of styles defined in the document. |
 | [Theme](../../aspose.words/document/theme/) { get; } | Gets the [`Theme`](./theme/) object for this document. |
-| [TrackRevisions](../../aspose.words/document/trackrevisions/) { get; set; } | **True** if changes are tracked when this document is edited in Microsoft Word. |
+| [TrackRevisions](../../aspose.words/document/trackrevisions/) { get; set; } | True if changes are tracked when this document is edited in Microsoft Word. |
 | [Variables](../../aspose.words/document/variables/) { get; } | Returns the collection of variables added to a document or template. |
 | [VbaProject](../../aspose.words/document/vbaproject/) { get; set; } | Gets or sets a [`VbaProject`](./vbaproject/). |
 | [VersionsCount](../../aspose.words/document/versionscount/) { get; } | Gets the number of document versions that was stored in the DOC document. |
@@ -157,7 +157,7 @@ public class Document : DocumentBase
 | [Save](../../aspose.words/document/save/#save_4)(string, SaveOptions) | Saves the document to a file using the specified save options. |
 | [Save](../../aspose.words/document/save/#save_5)(HttpResponse, string, ContentDisposition, SaveOptions) | Sends the document to the client browser. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions)(string) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StartTrackRevisions](../../aspose.words/document/starttrackrevisions/#starttrackrevisions_1)(string, DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
 | [StopTrackRevisions](../../aspose.words/document/stoptrackrevisions/)() | Stops automatic marking of document changes as revisions. |
@@ -176,9 +176,9 @@ public class Document : DocumentBase
 
 ## Remarks
 
-The **Document** is a central object in the Aspose.Words library.
+The [`Document`](./document/) is a central object in the Aspose.Words library.
 
-To load an existing document in any of the [`LoadFormat`](../loadformat/) formats, pass a file name or a stream into one of the **Document** constructors. To create a blank document, call the constructor without parameters.
+To load an existing document in any of the [`LoadFormat`](../loadformat/) formats, pass a file name or a stream into one of the [`Document`](./document/) constructors. To create a blank document, call the constructor without parameters.
 
 Use one of the Save method overloads to save the document in any of the [`SaveFormat`](../saveformat/) formats.
 
@@ -188,9 +188,9 @@ To print the document, use one of the [`Print`](./print/) methods.
 
 [`MailMerge`](./mailmerge/) is the Aspose.Words's reporting engine that allows to populate reports designed in Microsoft Word with data from various data sources quickly and easily. The data can be from a DataSet, DataTable, DataView, IDataReader or an array of values. **MailMerge** will go through the records found in the data source and insert them into mail merge fields in the document growing it as necessary.
 
-**Document** stores document-wide information such as [`Styles`](../documentbase/styles/), [`BuiltInDocumentProperties`](./builtindocumentproperties/), [`CustomDocumentProperties`](./customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the **Document**.
+[`Document`](./document/) stores document-wide information such as [`Styles`](../documentbase/styles/), [`BuiltInDocumentProperties`](./builtindocumentproperties/), [`CustomDocumentProperties`](./customdocumentproperties/), lists and macros. Most of these objects are accessible via the corresponding properties of the [`Document`](./document/).
 
-The **Document** is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
+The [`Document`](./document/) is a root node of a tree that contains all other nodes of the document. The tree is a Composite design pattern and in many ways similar to XmlDocument. The content of the document can be manipulated freely programmatically:
 
 * The nodes of the document can be accessed via typed collections, for example [`Sections`](./sections/), [`ParagraphCollection`](../paragraphcollection/) etc.
 * The nodes of the document can be selected by their node type using [`GetChildNodes`](../compositenode/getchildnodes/) or using an XPath query with [`SelectNodes`](../compositenode/selectnodes/) or [`SelectSingleNode`](../compositenode/selectsinglenode/).
@@ -199,7 +199,7 @@ The **Document** is a root node of a tree that contains all other nodes of the d
 
 Consider using [`DocumentBuilder`](../documentbuilder/) that simplifies the task of programmatically creating or populating the document tree.
 
-The **Document** can contain only [`Section`](../section/) objects.
+The [`Document`](./document/) can contain only [`Section`](../section/) objects.
 
 In Microsoft Word, a valid document needs to have at least one section.
 

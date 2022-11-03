@@ -3,7 +3,7 @@ title: KnownTypeSet
 second_title: Aspose.Words for .NET API Reference
 description: Represents an unordered set i.e. a collection of unique items containing Type objects which fully or partially qualified names can be used within report templates to invoke the corresponding types static members perform type casts etc.
 type: docs
-weight: 4450
+weight: 4480
 url: /net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
@@ -29,7 +29,7 @@ public class KnownTypeSet : IEnumerable<Type>
 | [Add](../../aspose.words.reporting/knowntypeset/add/)(Type) | Adds the specified Type object to the set. Throws ArgumentException in the following cases: |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Removes all items from the set. |
 | [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | Returns An IEnumerator object to iterate over items of the set. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Removes the specified Type object from the set. Throws ArgumentException if *type* is null. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(Type) | Removes the specified Type object from the set. Throws ArgumentException if *type* is `null`. |
 
 ### See Also
 

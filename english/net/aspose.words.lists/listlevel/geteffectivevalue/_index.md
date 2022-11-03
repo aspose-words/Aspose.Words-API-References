@@ -19,17 +19,17 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | The index of the list item (must be in the range from 1 to 32767). |
 | numberStyle | NumberStyle | The [`NumberStyle`](../../../aspose.words/numberstyle/) of the [`ListLevel`](../) object. |
-| customNumberStyleFormat | String | The optional format string used when Custom is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be null or empty. |
+| customNumberStyleFormat | String | The optional format string used when Custom is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be `null` or empty. |
 
 ### Return Value
 
-The string representation of the [`ListLevel`](../) object, described by the numberStyle parameter and the customNumberStyleFormat parameter, in the list item at the position determined by the index parameter.
+The string representation of the [`ListLevel`](../) object, described by the *numberStyle* parameter and the *customNumberStyleFormat* parameter, in the list item at the position determined by the *index* parameter.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | customNumberStyleFormat is null or empty when the numberStyle is custom.-or- customNumberStyleFormat is not null or empty when the numberStyle is non-custom.-or- customNumberStyleFormat is invalid. |
+| ArgumentException | *customNumberStyleFormat* is `null` or empty when the *numberStyle* is custom.-or- *customNumberStyleFormat* is not `null` or empty when the *numberStyle* is non-custom.-or- *customNumberStyleFormat* is invalid. |
 | ArgumentOutOfRangeException | index is out of range. |
 
 ## Examples

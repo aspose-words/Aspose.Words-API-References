@@ -10,7 +10,7 @@ url: /net/aspose.words.saving/txtsaveoptions/addbidimarks/
 
 Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 
-The default value is **false**.
+The default value is `false`.
 
 ```csharp
 public bool AddBidiMarks { get; set; }

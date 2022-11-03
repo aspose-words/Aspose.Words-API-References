@@ -22,13 +22,11 @@ public void Add(Node node)
 
 | exception | condition |
 | --- | --- |
-| NotSupportedException | The **NodeCollection** is a "deep" collection. |
+| NotSupportedException | The [`NodeCollection`](../) is a "deep" collection. |
 
 ## Remarks
 
 The node is inserted as a child into the node object from which the collection was created.
-
-If the newChild is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode/) to import the node to the current document. The imported node can then be inserted into the current document.
 

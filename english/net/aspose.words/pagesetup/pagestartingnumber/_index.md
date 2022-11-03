@@ -16,7 +16,7 @@ public int PageStartingNumber { get; set; }
 
 ## Remarks
 
-The [`RestartPageNumbering`](../restartpagenumbering/) property, if set to **false**, will override the **PageStartingNumber** property so that page numbering can continue from the previous section.
+The [`RestartPageNumbering`](../restartpagenumbering/) property, if set to `false`, will override the `PageStartingNumber` property so that page numbering can continue from the previous section.
 
 ## Examples
 
