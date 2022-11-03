@@ -22,7 +22,7 @@ public double SpaceAfter { get; set; }
 
 ## Remarks
 
-Has no effect when [`SpaceAfterAuto`](../spaceafterauto/) is true.
+Has no effect when [`SpaceAfterAuto`](../spaceafterauto/) is `true`.
 
 Valid values ​​range from 0 to 1584 inclusive.
 

@@ -18,7 +18,7 @@ public string AttachedTemplate { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentNullException | Throws if you attempt to set to a null value. |
+| ArgumentNullException | Throws if you attempt to set to a `null` value. |
 
 ## Remarks
 

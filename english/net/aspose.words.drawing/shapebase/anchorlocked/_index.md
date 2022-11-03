@@ -16,7 +16,7 @@ public bool AnchorLocked { get; set; }
 
 ## Remarks
 
-The default value is **false**.
+The default value is `false`.
 
 Has effect only for top level shapes.
 

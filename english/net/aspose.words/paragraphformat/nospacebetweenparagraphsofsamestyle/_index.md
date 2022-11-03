@@ -8,7 +8,7 @@ url: /net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-When true, [`SpaceBefore`](../spacebefore/) and [`SpaceAfter`](../spaceafter/) will be ignored between the paragraphs of the same style.
+When `true`, [`SpaceBefore`](../spacebefore/) and [`SpaceAfter`](../spaceafter/) will be ignored between the paragraphs of the same style.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }

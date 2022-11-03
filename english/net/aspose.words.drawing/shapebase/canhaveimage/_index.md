@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Returns true if the shape type allows the shape to have an image.
+Returns `true` if the shape type allows the shape to have an image.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -16,7 +16,7 @@ public bool CanHaveImage { get; }
 
 ## Remarks
 
-Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns true for all shapes except [`GroupShape`](../../groupshape/).
+Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns `true` for all shapes except [`GroupShape`](../../groupshape/).
 
 ## Examples
 

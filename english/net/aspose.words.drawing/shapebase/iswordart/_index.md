@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/iswordart/
 ---
 ## ShapeBase.IsWordArt property
 
-Returns true if this shape is a WordArt object.
+Returns `true` if this shape is a WordArt object.
 
 ```csharp
 public bool IsWordArt { get; }

@@ -16,7 +16,7 @@ public Node LastChild { get; }
 
 ## Remarks
 
-If there is no last child node, a null is returned.
+If there is no last child node, a `null` is returned.
 
 ## Examples
 

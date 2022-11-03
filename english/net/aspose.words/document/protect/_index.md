@@ -72,7 +72,7 @@ public void Protect(ProtectionType type, string password)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | ProtectionType | Specifies the protection type for the document. |
-| password | String | The password to protect the document with. Specify null or empty string if you want to protect the document without a password. |
+| password | String | The password to protect the document with. Specify `null` or empty string if you want to protect the document without a password. |
 
 ## Remarks
 

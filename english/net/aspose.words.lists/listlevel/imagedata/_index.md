@@ -16,7 +16,7 @@ public ImageData ImageData { get; }
 
 ## Remarks
 
-If this level doesn't define picture bullet returns null. Before setting new image for non picture bullet shape, please use [`CreatePictureBullet`](../createpicturebullet/) method first.
+If this level doesn't define picture bullet returns `null`. Before setting new image for non picture bullet shape, please use [`CreatePictureBullet`](../createpicturebullet/) method first.
 
 ### See Also
 

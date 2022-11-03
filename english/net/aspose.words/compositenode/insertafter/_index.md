@@ -16,8 +16,8 @@ public Node InsertAfter(Node newChild, Node refChild)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | Node | The Node to insert. |
-| refChild | Node | The Node that is the reference node. The newNode is placed after the refNode. |
+| newChild | Node | The [`Node`](../../node/) to insert. |
+| refChild | Node | The [`Node`](../../node/) that is the reference node. The *newChild* is placed after the *refChild*. |
 
 ### Return Value
 
@@ -25,9 +25,9 @@ The inserted node.
 
 ## Remarks
 
-If refChild is null, inserts newChild at the beginning of the list of child nodes.
+If *refChild* is `null`, inserts *newChild* at the beginning of the list of child nodes.
 
-If the newChild is already in the tree, it is first removed.
+If the *newChild* is already in the tree, it is first removed.
 
 If the node being inserted was created from another document, you should use [`ImportNode`](../../documentbase/importnode/) to import the node to the current document. The imported node can then be inserted into the current document.
 

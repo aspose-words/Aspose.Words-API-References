@@ -3,7 +3,7 @@ title: DocumentProperty
 second_title: Aspose.Words for .NET API Reference
 description: Represents a custom or builtin document property.
 type: docs
-weight: 4220
+weight: 4240
 url: /net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
@@ -32,7 +32,7 @@ public class DocumentProperty
 | --- | --- |
 | [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Returns the property value as bool. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Returns the property value as byte array. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Returns the property value as DateTime in UTC. |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Returns the property value as **DateTime** in UTC. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Returns the property value as double. |
 | [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Returns the property value as integer. |
 | override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Returns the property value as a string formatted according to the current locale. |

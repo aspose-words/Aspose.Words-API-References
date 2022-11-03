@@ -29,7 +29,7 @@ public class CompareOptions
 | [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Specifies whether changes are tracked by character or by word. Default value is WordLevel. |
 | [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indicates that documents comparison is case insensitive. By default comparison is case sensitive. |
 | [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Specifies whether to compare differences in comments. By default comments are not ignored. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**. |
+| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Specifies whether to ignore difference in DrawingML unique Id. Default value is `false`. |
 | [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Specifies whether to compare differences in fields. By default fields are not ignored. |
 | [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored. |
 | [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indicates that formatting is ignored. By default document formatting is not ignored. |

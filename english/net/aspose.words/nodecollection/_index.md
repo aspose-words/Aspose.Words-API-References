@@ -3,7 +3,7 @@ title: NodeCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of nodes of a specific type.
 type: docs
-weight: 3960
+weight: 3980
 url: /net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
@@ -39,15 +39,15 @@ public class NodeCollection : IEnumerable<Node>
 
 ## Remarks
 
-**NodeCollection** does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
+[`NodeCollection`](./nodecollection/) does not own the nodes it contains, rather, is just a selection of nodes of the specified type, but the nodes are stored in the tree under their respective parent nodes.
 
-**NodeCollection** supports indexed access, iteration and provides add and remove methods.
+[`NodeCollection`](./nodecollection/) supports indexed access, iteration and provides add and remove methods.
 
-The **NodeCollection** collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the **NodeCollection** properties and methods.
+The [`NodeCollection`](./nodecollection/) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the nodes returned by the [`NodeCollection`](./nodecollection/) properties and methods.
 
-**NodeCollection** is returned by [`GetChildNodes`](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/) etc.
+[`NodeCollection`](./nodecollection/) is returned by [`GetChildNodes`](../compositenode/getchildnodes/) and also serves as a base class for typed node collections such as [`SectionCollection`](../sectioncollection/), [`ParagraphCollection`](../paragraphcollection/) etc.
 
-**NodeCollection** can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
+[`NodeCollection`](./nodecollection/) can be "flat" and contain only immediate children of the node it was created from, or it can be "deep" and contain all descendant children.
 
 ## Examples
 

@@ -21,7 +21,7 @@ public class CommentCollection : NodeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Gets the number of nodes in the collection. |
-| [Item](../../aspose.words/commentcollection/item/) { get; } | Retrieves a **Comment** at the given index. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item/) { get; } | Retrieves a [`Comment`](../comment/) at the given index. (2 indexers) |
 
 ## Methods
 

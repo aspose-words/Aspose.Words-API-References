@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Cell at the given index.
+description: Retrieves a Cellaspose.words.tables/cell/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/cellcollection/item/
 ---
 ## CellCollection indexer
 
-Retrieves a **Cell** at the given index.
+Retrieves a [`Cell`](../../cell/) at the given index.
 
 ```csharp
 public Cell this[int index] { get; }

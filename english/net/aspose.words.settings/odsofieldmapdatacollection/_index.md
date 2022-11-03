@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection
 second_title: Aspose.Words for .NET API Reference
 description: A typed collection of the OdsoFieldMapData./odsofieldmapdata/ objects.
 type: docs
-weight: 5610
+weight: 5640
 url: /net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class

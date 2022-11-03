@@ -8,7 +8,7 @@ url: /net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Gets or sets the background shape of the document. Can be null.
+Gets or sets the background shape of the document. Can be `null`.
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -20,7 +20,7 @@ Microsoft Word allows only a shape that has its [`ShapeType`](../../../aspose.wo
 
 Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-Setting this property to a non-null value will also set the [`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) to true.
+Setting this property to a non-null value will also set the [`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) to `true`.
 
 ## Examples
 
@@ -53,9 +53,14 @@ doc.BackgroundShape = shapeRectangle;
 
 Assert.IsTrue(doc.BackgroundShape.HasImage);
 
+Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSaveOptions
+{
+    CacheBackgroundGraphics = false
+};
+
 // Microsoft Word does not support shapes with images as backgrounds,
 // but we can still see these backgrounds in other save formats such as .pdf.
-doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf");
+doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 
 ### See Also

@@ -16,7 +16,7 @@ public Forms2OleControlCollection ChildNodes { get; }
 
 ## Remarks
 
-Returns **null** if this control can not have children.
+Returns `null` if this control can not have children.
 
 ## Examples
 

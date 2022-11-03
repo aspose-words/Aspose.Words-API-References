@@ -1,14 +1,14 @@
 ---
 title: Chart
 second_title: Aspose.Words for .NET API Reference
-description: Provides access to the chart properties if this shape has a Chart.
+description: Provides access to the chart properties if this shape has a Chartaspose.words.drawing.charts/chart/.
 type: docs
 weight: 20
 url: /net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Provides access to the chart properties if this shape has a Chart.
+Provides access to the chart properties if this shape has a [`Chart`](../../../aspose.words.drawing.charts/chart/).
 
 ```csharp
 public Chart Chart { get; }
@@ -16,7 +16,7 @@ public Chart Chart { get; }
 
 ## Remarks
 
-This property will return the `Chart` object only if [`HasChart`](../haschart/) property is true for this Shape, and will throw an exception otherwise.
+This property will return the [`Chart`](../../../aspose.words.drawing.charts/chart/) object only if [`HasChart`](../haschart/) property is `true` for this [`Shape`](../), and will throw an exception otherwise.
 
 ## Examples
 

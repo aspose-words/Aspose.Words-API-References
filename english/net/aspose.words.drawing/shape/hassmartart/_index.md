@@ -1,14 +1,14 @@
 ---
 title: HasSmartArt
 second_title: Aspose.Words for .NET API Reference
-description: Returns true if this Shape has a SmartArt object.
+description: Returns true if this Shapeaspose.words.drawing/shape/ has a SmartArt object.
 type: docs
 weight: 90
 url: /net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Returns true if this Shape has a SmartArt object.
+Returns `true` if this [`Shape`](../) has a SmartArt object.
 
 ```csharp
 public bool HasSmartArt { get; }

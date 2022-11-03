@@ -3,7 +3,7 @@ title: FontInfoCollection
 second_title: Aspose.Words for .NET API Reference
 description: Represents a collection of fonts used in a document.
 type: docs
-weight: 2750
+weight: 2770
 url: /net/aspose.words.fonts/fontinfocollection/
 ---
 ## FontInfoCollection class
@@ -21,10 +21,10 @@ public class FontInfoCollection : IEnumerable<FontInfo>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words.fonts/fontinfocollection/count/) { get; } | Gets the number of elements contained in the collection. |
-| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Specifies whether or not to embed System fonts into the document. Default value for this property is **false**. |
-| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**. |
+| [EmbedSystemFonts](../../aspose.words.fonts/fontinfocollection/embedsystemfonts/) { get; set; } | Specifies whether or not to embed System fonts into the document. Default value for this property is `false`. |
+| [EmbedTrueTypeFonts](../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) { get; set; } | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is `false`. |
 | [Item](../../aspose.words.fonts/fontinfocollection/item/) { get; } | Gets a font with the specified name. (2 indexers) |
-| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**. |
+| [SaveSubsetFonts](../../aspose.words.fonts/fontinfocollection/savesubsetfonts/) { get; set; } | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is `false`. |
 
 ## Methods
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Allows to specify if data label leader lines need be shown. Default value is false.
+Allows to specify if data label leader lines need be shown. Default value is `false`.
 
 ```csharp
 public bool ShowLeaderLines { get; set; }

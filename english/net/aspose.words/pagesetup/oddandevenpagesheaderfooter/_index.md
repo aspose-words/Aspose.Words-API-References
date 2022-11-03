@@ -8,7 +8,7 @@ url: /net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-**True** if the document has different headers and footers for odd-numbered and even-numbered pages.
+True if the document has different headers and footers for odd-numbered and even-numbered pages.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }

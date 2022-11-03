@@ -16,7 +16,7 @@ public bool Hidden { get; set; }
 
 ## Remarks
 
-Default value is **false**.
+Default value is `false`.
 
 ## Examples
 

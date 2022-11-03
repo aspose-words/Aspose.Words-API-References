@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property
 
-Returns true if this shape is a horizontal rule.
+Returns `true` if this shape is a horizontal rule.
 
 ```csharp
 public bool IsHorizontalRule { get; }

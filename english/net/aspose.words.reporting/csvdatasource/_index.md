@@ -3,7 +3,7 @@ title: CsvDataSource
 second_title: Aspose.Words for .NET API Reference
 description: Provides access to data of a CSV file or stream to be used within a report.
 type: docs
-weight: 4410
+weight: 4440
 url: /net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class

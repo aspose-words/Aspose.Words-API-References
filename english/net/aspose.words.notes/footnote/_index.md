@@ -3,7 +3,7 @@ title: Footnote
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for text of a footnote or endnote.
 type: docs
-weight: 4020
+weight: 4040
 url: /net/aspose.words.notes/footnote/
 ---
 ## Footnote class
@@ -20,7 +20,7 @@ public class Footnote : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Footnote](footnote/)(DocumentBase, FootnoteType) | Initializes an instance of the **Footnote** class. |
+| [Footnote](footnote/)(DocumentBase, FootnoteType) | Initializes an instance of the [`Footnote`](./footnote/) class. |
 
 ## Properties
 
@@ -34,24 +34,24 @@ public class Footnote : InlineStory
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Gets the first paragraph in the story. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Provides access to the font formatting of the anchor character of this object. |
 | [FootnoteType](../../aspose.words.notes/footnote/footnotetype/) { get; } | Returns a value that specifies whether this is a footnote or endnote. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [IsAuto](../../aspose.words.notes/footnote/isauto/) { get; set; } | Holds a value that specifies whether this is a auto-numbered footnote or footnote with user defined custom reference mark. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Gets the last paragraph in the story. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.notes/footnote/nodetype/) { get; } | Returns **NodeType.Footnote**. |
+| override [NodeType](../../aspose.words.notes/footnote/nodetype/) { get; } | Returns Footnote. |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [ReferenceMark](../../aspose.words.notes/footnote/referencemark/) { get; set; } | Gets/sets custom reference mark to be used for this footnote. Default value is **empty string** (Empty), meaning auto-numbered footnotes are used. |
-| override [StoryType](../../aspose.words.notes/footnote/storytype/) { get; } | Returns **StoryType.Footnotes** or **StoryType.Endnotes**. |
+| override [StoryType](../../aspose.words.notes/footnote/storytype/) { get; } | Returns Footnotes or Endnotes. |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
 ## Methods
@@ -80,17 +80,17 @@ public class Footnote : InlineStory
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-The **Footnote** class is used to represent both footnotes and endnotes in a Word document.
+The [`Footnote`](./footnote/) class is used to represent both footnotes and endnotes in a Word document.
 
-**Footnote** is an inline-level node and can only be a child of **Paragraph**.
+[`Footnote`](./footnote/) is an inline-level node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
-**Footnote** can contain **Paragraph** and **Table** child nodes.
+[`Footnote`](./footnote/) can contain [`Paragraph`](../../aspose.words/paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
 ## Examples
 

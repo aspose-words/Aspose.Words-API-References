@@ -1,14 +1,14 @@
 ---
 title: ThemeFont
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the theme font in the applied font scheme that is associated with this Font object.
+description: Gets or sets the theme font in the applied font scheme that is associated with this Fontaspose.words/font/ object.
 type: docs
 weight: 470
 url: /net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
 
-Gets or sets the theme font in the applied font scheme that is associated with this Font object.
+Gets or sets the theme font in the applied font scheme that is associated with this [`Font`](../) object.
 
 ```csharp
 public ThemeFont ThemeFont { get; set; }

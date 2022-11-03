@@ -3,7 +3,7 @@ title: IFieldResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to control how the field result is formatted.
 type: docs
-weight: 2530
+weight: 2540
 url: /net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface

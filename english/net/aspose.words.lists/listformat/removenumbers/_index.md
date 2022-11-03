@@ -16,7 +16,7 @@ public void RemoveNumbers()
 
 ## Remarks
 
-Calling this method is equivalent to setting the [`List`](../list/) property to null.
+Calling this method is equivalent to setting the [`List`](../list/) property to `null`.
 
 ## Examples
 

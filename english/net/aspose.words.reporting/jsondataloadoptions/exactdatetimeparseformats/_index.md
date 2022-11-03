@@ -8,7 +8,7 @@ url: /net/aspose.words.reporting/jsondataloadoptions/exactdatetimeparseformats/
 ---
 ## JsonDataLoadOptions.ExactDateTimeParseFormats property
 
-Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is **null**.
+Gets or sets exact formats for parsing JSON date-time values while loading JSON. The default is `null`.
 
 ```csharp
 public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
@@ -18,7 +18,7 @@ public IEnumerable<string> ExactDateTimeParseFormats { get; set; }
 
 Strings encoded using Microsoft® JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
-* When `ExactDateTimeParseFormats` is **null**, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
+* When `ExactDateTimeParseFormats` is `null`, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
 * When `ExactDateTimeParseFormats` contains strings, they are used as additional date-time formats utilizing the current culture.
 * When `ExactDateTimeParseFormats` is empty, no additional date-time formats are used.
 

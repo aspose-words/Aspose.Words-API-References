@@ -16,7 +16,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## Remarks
 
-For character and list styles this property returns null.
+For character and list styles this property returns `null`.
 
 ## Examples
 

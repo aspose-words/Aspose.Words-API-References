@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-Provides access to the image of the shape. Returns null if the shape cannot have an image.
+Provides access to the image of the shape. Returns `null` if the shape cannot have an image.
 
 ```csharp
 public ImageData ImageData { get; }

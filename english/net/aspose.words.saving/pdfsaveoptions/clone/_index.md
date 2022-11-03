@@ -3,7 +3,7 @@ title: Clone
 second_title: Aspose.Words for .NET API Reference
 description: Creates a deep clone of this object.
 type: docs
-weight: 320
+weight: 330
 url: /net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method

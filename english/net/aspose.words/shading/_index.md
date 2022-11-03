@@ -3,7 +3,7 @@ title: Shading
 second_title: Aspose.Words for .NET API Reference
 description: Contains shading attributes for an object.
 type: docs
-weight: 5690
+weight: 5720
 url: /net/aspose.words/shading/
 ---
 ## Shading class
@@ -20,8 +20,8 @@ public class Shading : InternableComplexAttr
 
 | Name | Description |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the background of the Shading object. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the foreground of the Shading object. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the background of the [`Shading`](./shading/) object. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Gets or sets the color that's applied to the foreground of the [`Shading`](./shading/) object. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Gets or sets the shading texture. |
 
 ## Methods
@@ -30,7 +30,7 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Removes shading from the object. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(object) | Determines whether the specified object is equal in value to the current object. |
-| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determines whether the specified Shading is equal in value to the current Shading. |
+| [Equals](../../aspose.words/shading/equals/#equals)(Shading) | Determines whether the specified [`Shading`](./shading/) is equal in value to the current [`Shading`](./shading/). |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Serves as a hash function for this type. |
 
 ## Examples

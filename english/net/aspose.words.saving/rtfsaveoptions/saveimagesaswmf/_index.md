@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/rtfsaveoptions/saveimagesaswmf/
 ---
 ## RtfSaveOptions.SaveImagesAsWmf property
 
-When true all images will be saved as WMF.
+When `true` all images will be saved as WMF.
 
 ```csharp
 public bool SaveImagesAsWmf { get; set; }

@@ -16,9 +16,9 @@ public CustomXmlProperty(string name, string uri, string value)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | String | The name of the property. Cannot be null. |
-| uri | String | The namespace URI of the property. Cannot be null. |
-| value | String | The value of the property. Cannot be null. |
+| name | String | The name of the property. Cannot be `null`. |
+| uri | String | The namespace URI of the property. Cannot be `null`. |
+| value | String | The value of the property. Cannot be `null`. |
 
 ## Examples
 

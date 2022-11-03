@@ -1,14 +1,14 @@
 ---
 title: MailMerge
 second_title: Aspose.Words for .NET API Reference
-description: Returns a MailMerge object that represents the mail merge functionality for the document.
+description: Returns a MailMergeaspose.words.mailmerging/mailmerge/ object that represents the mail merge functionality for the document.
 type: docs
 weight: 240
 url: /net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Returns a **MailMerge** object that represents the mail merge functionality for the document.
+Returns a [`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) object that represents the mail merge functionality for the document.
 
 ```csharp
 public MailMerge MailMerge { get; }

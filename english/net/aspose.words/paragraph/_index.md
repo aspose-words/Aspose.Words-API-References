@@ -3,7 +3,7 @@ title: Paragraph
 second_title: Aspose.Words for .NET API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 4150
+weight: 4170
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class
@@ -20,7 +20,7 @@ public class Paragraph : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Paragraph](paragraph/)(DocumentBase) | Initializes a new instance of the **Paragraph** class. |
+| [Paragraph](paragraph/)(DocumentBase) | Initializes a new instance of the [`Paragraph`](./paragraph/) class. |
 
 ## Properties
 
@@ -33,31 +33,31 @@ public class Paragraph : CompositeNode
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FrameFormat](../../aspose.words/paragraph/frameformat/) { get; } | Provides access to the paragraph formatting properties. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/paragraph/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsEndOfCell](../../aspose.words/paragraph/isendofcell/) { get; } | True if this paragraph is the last paragraph in a [`Cell`](../../aspose.words.tables/cell/); false otherwise. |
 | [IsEndOfDocument](../../aspose.words/paragraph/isendofdocument/) { get; } | True if this paragraph is the last paragraph in the last section of the document. |
-| [IsEndOfHeaderFooter](../../aspose.words/paragraph/isendofheaderfooter/) { get; } | True if this paragraph is the last paragraph in the **HeaderFooter** (main text story) of a **Section**; false otherwise. |
-| [IsEndOfSection](../../aspose.words/paragraph/isendofsection/) { get; } | True if this paragraph is the last paragraph in the **Body** (main text story) of a **Section**; false otherwise. |
+| [IsEndOfHeaderFooter](../../aspose.words/paragraph/isendofheaderfooter/) { get; } | True if this paragraph is the last paragraph in the [`HeaderFooter`](../headerfooter/) (main text story) of a [`Section`](../section/); false otherwise. |
+| [IsEndOfSection](../../aspose.words/paragraph/isendofsection/) { get; } | True if this paragraph is the last paragraph in the [`Body`](../body/) (main text story) of a [`Section`](../section/); false otherwise. |
 | [IsFormatRevision](../../aspose.words/paragraph/isformatrevision/) { get; } | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [IsInCell](../../aspose.words/paragraph/isincell/) { get; } | True if this paragraph is an immediate child of [`Cell`](../../aspose.words.tables/cell/); false otherwise. |
 | [IsInsertRevision](../../aspose.words/paragraph/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [IsListItem](../../aspose.words/paragraph/islistitem/) { get; } | True when the paragraph is an item in a bulleted or numbered list in original revision. |
-| [IsMoveFromRevision](../../aspose.words/paragraph/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/paragraph/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/paragraph/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/paragraph/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [ListFormat](../../aspose.words/paragraph/listformat/) { get; } | Provides access to the list formatting properties of the paragraph. |
 | [ListLabel](../../aspose.words/paragraph/listlabel/) { get; } | Gets a [`ListLabel`](./listlabel/) object that provides access to list numbering value and formatting for this paragraph. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/paragraph/nodetype/) { get; } | Returns **NodeType.Paragraph**. |
+| override [NodeType](../../aspose.words/paragraph/nodetype/) { get; } | Returns Paragraph. |
 | [ParagraphBreakFont](../../aspose.words/paragraph/paragraphbreakfont/) { get; } | Provides access to the font formatting of the paragraph break character. |
 | [ParagraphFormat](../../aspose.words/paragraph/paragraphformat/) { get; } | Provides access to the paragraph formatting properties. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentSection](../../aspose.words/paragraph/parentsection/) { get; } | Retrieves the parent [`Section`](../section/) of the paragraph. |
 | [ParentStory](../../aspose.words/paragraph/parentstory/) { get; } | Retrieves the parent section-level story that can be [`Body`](../body/) or [`HeaderFooter`](../headerfooter/). |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [Runs](../../aspose.words/paragraph/runs/) { get; } | Provides access to the typed collection of pieces of text inside the paragraph. |
 
 ## Methods
@@ -93,7 +93,7 @@ public class Paragraph : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
@@ -105,9 +105,9 @@ public class Paragraph : CompositeNode
 
 The complete list of child nodes that can occur inside a paragraph consists of [`BookmarkStart`](../bookmarkstart/), [`BookmarkEnd`](../bookmarkend/), [`FieldStart`](../../aspose.words.fields/fieldstart/), [`FieldSeparator`](../../aspose.words.fields/fieldseparator/), [`FieldEnd`](../../aspose.words.fields/fieldend/), [`FormField`](../../aspose.words.fields/formfield/), [`Comment`](../comment/), [`Footnote`](../../aspose.words.notes/footnote/), [`Run`](../run/), [`SpecialChar`](../specialchar/), [`Shape`](../../aspose.words.drawing/shape/), [`GroupShape`](../../aspose.words.drawing/groupshape/), [`SmartTag`](../../aspose.words.markup/smarttag/).
 
-A valid paragraph in Microsoft Word always ends with a paragraph break character and a minimal valid paragraph consists just of a paragraph break. The **Paragraph** class automatically appends the appropriate paragraph break character at the end and this character is not part of the child nodes of the **Paragraph**, therefore a **Paragraph** can be empty.
+A valid paragraph in Microsoft Word always ends with a paragraph break character and a minimal valid paragraph consists just of a paragraph break. The [`Paragraph`](./paragraph/) class automatically appends the appropriate paragraph break character at the end and this character is not part of the child nodes of the [`Paragraph`](./paragraph/), therefore a [`Paragraph`](./paragraph/) can be empty.
 
-Do not include the end of paragraph [`ControlChar.ParagraphBreak`](../controlchar/paragraphbreak/) or end of cell [`ControlChar.Cell`](../controlchar/cell/) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
+Do not include the end of paragraph [`ParagraphBreak`](../controlchar/paragraphbreak/) or end of cell [`Cell`](../controlchar/cell/) characters inside the text of the paragraph as it might make the paragraph invalid when the document is opened in Microsoft Word.
 
 ## Examples
 

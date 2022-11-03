@@ -1,14 +1,14 @@
 ---
 title: ListIndentation
 second_title: Aspose.Words for .NET API Reference
-description: Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character 0 that means no indentation.
+description: Gets a TxtListIndentationaspose.words.saving/txtlistindentation/ object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character 0 that means no indentation.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/txtsaveoptions/listindentation/
 ---
 ## TxtSaveOptions.ListIndentation property
 
-Gets a ListIndentation object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation.
+Gets a [`TxtListIndentation`](../../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels. By default it is zero count of character '\0', that means no indentation.
 
 ```csharp
 public TxtListIndentation ListIndentation { get; }

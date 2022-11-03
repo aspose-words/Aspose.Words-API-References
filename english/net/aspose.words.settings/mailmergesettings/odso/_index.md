@@ -16,7 +16,7 @@ public Odso Odso { get; set; }
 
 ## Remarks
 
-This object is never null.
+This object is never `null`.
 
 ## Examples
 

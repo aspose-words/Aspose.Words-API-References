@@ -118,12 +118,13 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [FieldToa](./fieldtoa/) | Implements the TOA field. |
 | [FieldToc](./fieldtoc/) | Implements the TOC field. |
 | [FieldUnknown](./fieldunknown/) | Implements an unknown or unrecognized field. |
+| [FieldUpdatingProgressArgs](./fieldupdatingprogressargs/) | Provides data for the field updating progress event. |
 | [FieldUserAddress](./fielduseraddress/) | Implements the USERADDRESS field. |
 | [FieldUserInitials](./fielduserinitials/) | Implements the USERINITIALS field. |
 | [FieldUserName](./fieldusername/) | Implements the USERNAME field. |
 | [FieldXE](./fieldxe/) | Implements the XE field. |
 | [FormField](./formfield/) | Represents a single form field. |
-| [FormFieldCollection](./formfieldcollection/) | A collection of **FormField** objects that represent all the form fields in a range. |
+| [FormFieldCollection](./formfieldcollection/) | A collection of [`FormField`](../aspose.words.fields/formfield/) objects that represent all the form fields in a range. |
 | [GeneralFormatCollection](./generalformatcollection/) | Represents a typed collection of general formats. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/) | Represents an image dimension (i.e. the width or the height) used across a mail merge process. |
 | [ToaCategories](./toacategories/) | Represents a table of authorities categories. |
@@ -138,6 +139,7 @@ The **Aspose.Words.Fields** namespace contains classes that represent Microsoft 
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implement this interface if you want to control how the field result is formatted. |
 | [IFieldUpdateCultureProvider](./ifieldupdatecultureprovider/) | When implemented, provides a CultureInfo object that should be used during the update of a particular field. |
 | [IFieldUpdatingCallback](./ifieldupdatingcallback/) | Implement this interface if you want to have your own custom methods called during a field update. |
+| [IFieldUpdatingProgressCallback](./ifieldupdatingprogresscallback/) | Implement this interface if you want to track field updating progress. |
 | [IFieldUserPromptRespondent](./ifielduserpromptrespondent/) | Represents the respondent to user prompts during field update. |
 ## Enumeration
 

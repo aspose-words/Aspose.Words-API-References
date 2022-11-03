@@ -3,7 +3,7 @@ title: MathObjectType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies type of an Office Math object.
 type: docs
-weight: 3870
+weight: 3890
 url: /net/aspose.words.math/mathobjecttype/
 ---
 ## MathObjectType enumeration

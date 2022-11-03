@@ -16,7 +16,7 @@ public bool Bidi { get; set; }
 
 ## Remarks
 
-When true, the columns in this section are laid out from right to left.
+When `true`, the columns in this section are laid out from right to left.
 
 ## Examples
 

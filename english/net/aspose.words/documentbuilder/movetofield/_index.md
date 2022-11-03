@@ -17,7 +17,7 @@ public void MoveToField(Field field, bool isAfter)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | field | Field | The field to move the cursor to. |
-| isAfter | Boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
+| isAfter | Boolean | When `true`, moves the cursor to be after the field end. When `false`, moves the cursor to be before the field start. |
 
 ## Examples
 

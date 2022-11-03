@@ -18,7 +18,7 @@ public Field InsertHyperlink(string displayText, string urlOrBookmark, bool isBo
 | --- | --- | --- |
 | displayText | String | Text of the link to be displayed in the document. |
 | urlOrBookmark | String | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | Boolean | True if the previous parameter is a name of a bookmark inside the document; false is the previous parameter is a URL. |
+| isBookmark | Boolean | `true` if the previous parameter is a name of a bookmark inside the document; `false` is the previous parameter is a URL. |
 
 ### Return Value
 

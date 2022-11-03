@@ -8,7 +8,7 @@ url: /net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Gets the node that represents the field separator. Can be null.
+Gets the node that represents the field separator. Can be `null`.
 
 ```csharp
 public FieldSeparator Separator { get; }

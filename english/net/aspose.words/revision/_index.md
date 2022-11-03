@@ -3,7 +3,7 @@ title: Revision
 second_title: Aspose.Words for .NET API Reference
 description: Represents a revision tracked change in a document node or style. Use RevisionType./revision/revisiontype/ to check the type of this revision.
 type: docs
-weight: 4500
+weight: 4530
 url: /net/aspose.words/revision/
 ---
 ## Revision class
@@ -20,9 +20,9 @@ public class Revision
 
 | Name | Description |
 | --- | --- |
-| [Author](../../aspose.words/revision/author/) { get; set; } | Gets or sets the author of this revision. Can not be empty string or null. |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Gets or sets the author of this revision. Can not be empty string or `null`. |
 | [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Gets or sets the date/time of this revision. |
-| [Group](../../aspose.words/revision/group/) { get; } | Gets the revision group. Returns null if the revision does not belong to any group. |
+| [Group](../../aspose.words/revision/group/) { get; } | Gets the revision group. Returns `null` if the revision does not belong to any group. |
 | [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than StyleDefinitionChange. |
 | [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Gets the immediate parent style (owner) of this revision. This property will work for only for the StyleDefinitionChange revision type. |
 | [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Gets the type of this revision. |

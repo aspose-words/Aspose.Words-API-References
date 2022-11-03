@@ -3,7 +3,7 @@ title: PropertyType
 second_title: Aspose.Words for .NET API Reference
 description: Specifies data type of a document property.
 type: docs
-weight: 4250
+weight: 4270
 url: /net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration

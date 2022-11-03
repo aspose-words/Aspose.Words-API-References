@@ -16,7 +16,7 @@ public string Name { get; }
 
 ## Remarks
 
-Cannot be null.
+Cannot be `null`.
 
 Default is empty string.
 

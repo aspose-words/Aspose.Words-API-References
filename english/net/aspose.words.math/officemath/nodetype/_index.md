@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns NodeType.OfficeMath.
+description: Returns OfficeMath.
 type: docs
 weight: 50
 url: /net/aspose.words.math/officemath/nodetype/
 ---
 ## OfficeMath.NodeType property
 
-Returns **NodeType.OfficeMath**.
+Returns OfficeMath.
 
 ```csharp
 public override NodeType NodeType { get; }

@@ -3,7 +3,7 @@ title: OutlineLevel
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the outline level of a paragraph in the document.
 type: docs
-weight: 4090
+weight: 4110
 url: /net/aspose.words/outlinelevel/
 ---
 ## OutlineLevel enumeration

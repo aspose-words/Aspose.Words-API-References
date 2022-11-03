@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/chartdatalabel/showvalue/
 ---
 ## ChartDataLabel.ShowValue property
 
-Allows to specify if values are to be displayed in the data labels. Default value is false.
+Allows to specify if values are to be displayed in the data labels. Default value is `false`.
 
 ```csharp
 public bool ShowValue { get; set; }

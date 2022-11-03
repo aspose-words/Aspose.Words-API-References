@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/oleformat/olecontrol/
 ---
 ## OleFormat.OleControl property
 
-Gets `OleControl` objects if this OLE object is an ActiveX control. Otherwise this property is null.
+Gets `OleControl` objects if this OLE object is an ActiveX control. Otherwise this property is `null`.
 
 ```csharp
 public OleControl OleControl { get; }

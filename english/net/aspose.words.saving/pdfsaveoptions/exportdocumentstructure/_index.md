@@ -3,7 +3,7 @@ title: ExportDocumentStructure
 second_title: Aspose.Words for .NET API Reference
 description: Gets or sets a value determining whether or not to export document structure.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property

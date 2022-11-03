@@ -3,7 +3,7 @@ title: InlineStory
 second_title: Aspose.Words for .NET API Reference
 description: Base class for inlinelevel nodes that can contain paragraphs and tables.
 type: docs
-weight: 3070
+weight: 3090
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class
@@ -27,12 +27,12 @@ public abstract class InlineStory : CompositeNode
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Gets the first paragraph in the story. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Provides access to the font formatting of the anchor character of this object. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Gets the last paragraph in the story. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
@@ -41,7 +41,7 @@ public abstract class InlineStory : CompositeNode
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | abstract [StoryType](../../aspose.words/inlinestory/storytype/) { get; } | Returns the type of the story. |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
@@ -71,15 +71,15 @@ public abstract class InlineStory : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**InlineStory** is a container for block-level nodes [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/).
+[`InlineStory`](./inlinestory/) is a container for block-level nodes [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/).
 
-The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
+The classes that derive from [`InlineStory`](./inlinestory/) are inline-level nodes that can contain their own text (paragraphs and tables). For example, a [`Comment`](../comment/) node contains text of a comment and a [`Footnote`](../../aspose.words.notes/footnote/) contains text of a footnote.
 
 ## Examples
 

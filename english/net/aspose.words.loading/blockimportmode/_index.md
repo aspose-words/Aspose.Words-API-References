@@ -3,7 +3,7 @@ title: BlockImportMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how properties of blocklevel elements are imported from HTMLbased documents.
 type: docs
-weight: 3360
+weight: 3380
 url: /net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration

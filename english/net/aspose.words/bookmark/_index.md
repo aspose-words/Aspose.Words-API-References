@@ -23,7 +23,7 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Gets the node that represents the end of the bookmark. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Gets the node that represents the start of the bookmark. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Gets the zero-based index of the first column of the table column range associated with the bookmark. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returns **true** if this bookmark is a table column bookmark. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Returns `true` if this bookmark is a table column bookmark. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Gets or sets the name of the bookmark. |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | Gets or sets the text enclosed in the bookmark. |

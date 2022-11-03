@@ -16,7 +16,7 @@ public bool ReverseOrder { get; set; }
 
 ## Remarks
 
-The property is not supported by MS Office 2016 new charts. Default value is **false**.
+The property is not supported by MS Office 2016 new charts. Default value is `false`.
 
 ## Examples
 

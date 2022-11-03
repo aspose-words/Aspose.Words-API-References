@@ -18,7 +18,7 @@ public double MinorUnit { get; set; }
 
 Valid range of a value is greater than zero. The property has effect for time category and value axes.
 
-Setting this property sets the [`MinorUnitIsAuto`](../minorunitisauto/) property to **false**.
+Setting this property sets the [`MinorUnitIsAuto`](../minorunitisauto/) property to `false`.
 
 ## Examples
 

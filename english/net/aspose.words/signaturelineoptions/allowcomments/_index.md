@@ -8,7 +8,7 @@ url: /net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
+Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is `false`.
 
 ```csharp
 public bool AllowComments { get; set; }

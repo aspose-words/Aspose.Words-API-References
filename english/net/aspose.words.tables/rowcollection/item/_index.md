@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Row at the given index.
+description: Retrieves a Rowaspose.words.tables/row/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/rowcollection/item/
 ---
 ## RowCollection indexer
 
-Retrieves a **Row** at the given index.
+Retrieves a [`Row`](../../row/) at the given index.
 
 ```csharp
 public Row this[int index] { get; }

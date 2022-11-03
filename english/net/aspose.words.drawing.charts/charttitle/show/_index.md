@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-Determines whether the title shall be shown for this chart. Default value is true.
+Determines whether the title shall be shown for this chart. Default value is `true`.
 
 ```csharp
 public bool Show { get; set; }

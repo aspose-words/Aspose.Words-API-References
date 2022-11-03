@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Returns true if this is a group shape.
+Returns `true` if this is a group shape.
 
 ```csharp
 public bool IsGroup { get; }

@@ -20,7 +20,7 @@ public bool MoveToMergeField(string fieldName)
 
 ### Return Value
 
-True if the merge field was found and the cursor was moved; false otherwise.
+`true` if the merge field was found and the cursor was moved; `false` otherwise.
 
 ## Remarks
 
@@ -153,12 +153,12 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | String | The case-insensitive name of the mail merge field. |
-| isAfter | Boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
-| isDeleteField | Boolean | When true, deletes the merge field. |
+| isAfter | Boolean | When `true`, moves the cursor to be after the field end. When `false`, moves the cursor to be before the field start. |
+| isDeleteField | Boolean | When `true`, deletes the merge field. |
 
 ### Return Value
 
-True if the merge field was found and the cursor was moved; false otherwise.
+`true` if the merge field was found and the cursor was moved; `false` otherwise.
 
 ## Examples
 

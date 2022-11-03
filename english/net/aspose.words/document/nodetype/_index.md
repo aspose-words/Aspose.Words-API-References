@@ -1,14 +1,14 @@
 ---
 title: NodeType
 second_title: Aspose.Words for .NET API Reference
-description: Returns NodeType.Document.
+description: Returns Document.
 type: docs
 weight: 260
 url: /net/aspose.words/document/nodetype/
 ---
 ## Document.NodeType property
 
-Returns **NodeType.Document**.
+Returns Document.
 
 ```csharp
 public override NodeType NodeType { get; }

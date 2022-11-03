@@ -3,7 +3,7 @@ title: PrinterSettingsContainer
 second_title: Aspose.Words for .NET API Reference
 description: Represent a storage for some parameters of PrinterSettings object.
 type: docs
-weight: 4320
+weight: 4350
 url: /net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class

@@ -1,14 +1,14 @@
 ---
 title: Ancestor
 second_title: Aspose.Words for .NET API Reference
-description: Returns the parent Comment object. Returns null for toplevel comments.
+description: Returns the parent Commentaspose.words/comment/ object. Returns null for toplevel comments.
 type: docs
 weight: 20
 url: /net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-Returns the parent Comment object. Returns null for top-level comments.
+Returns the parent [`Comment`](../) object. Returns `null` for top-level comments.
 
 ```csharp
 public Comment Ancestor { get; }

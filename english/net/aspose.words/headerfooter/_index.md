@@ -3,7 +3,7 @@ title: HeaderFooter
 second_title: Aspose.Words for .NET API Reference
 description: Represents a container for the header or footer text of a section.
 type: docs
-weight: 2920
+weight: 2940
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
@@ -32,20 +32,20 @@ public class HeaderFooter : Story
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Gets the first paragraph in the story. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HeaderFooterType](../../aspose.words/headerfooter/headerfootertype/) { get; } | Gets the type of this header/footer. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
-| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | True if this **HeaderFooter** object is a header. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
+| [IsHeader](../../aspose.words/headerfooter/isheader/) { get; } | True if this [`HeaderFooter`](./headerfooter/) object is a header. |
 | [IsLinkedToPrevious](../../aspose.words/headerfooter/islinkedtoprevious/) { get; set; } | True if this header or footer is linked to the corresponding header or footer in the previous section. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Gets the last paragraph in the story. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/headerfooter/nodetype/) { get; } | Returns **NodeType.HeaderFooter**. |
+| override [NodeType](../../aspose.words/headerfooter/nodetype/) { get; } | Returns HeaderFooter. |
 | [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentSection](../../aspose.words/headerfooter/parentsection/) { get; } | Gets the parent section of this story. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [StoryType](../../aspose.words/story/storytype/) { get; } | Gets the type of this story. |
 | [Tables](../../aspose.words/story/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
@@ -76,19 +76,19 @@ public class HeaderFooter : Story
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**HeaderFooter** can contain **Paragraph** and **Table** child nodes.
+[`HeaderFooter`](./headerfooter/) can contain [`Paragraph`](../paragraph/) and [`Table`](../../aspose.words.tables/table/) child nodes.
 
-**HeaderFooter** is a section-level node and can only be a child of **Section**. There can only be one **HeaderFooter** or each [`HeaderFooterType`](./headerfootertype/) in a **Section**.
+[`HeaderFooter`](./headerfooter/) is a section-level node and can only be a child of [`Section`](../section/). There can only be one [`HeaderFooter`](./headerfooter/) of each [`HeaderFooterType`](./headerfootertype/) in a [`Section`](../section/).
 
-If **Section** does not have a **HeaderFooter** of a specific type or the **HeaderFooter** has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
+If [`Section`](../section/) does not have a [`HeaderFooter`](./headerfooter/) of a specific type or the [`HeaderFooter`](./headerfooter/) has no child nodes, this header/footer is considered linked to the header/footer of the same type of the previous section in Microsoft Word.
 
-When **HeaderFooter** contains at least one **Paragraph**, it is no longer considered linked to previous in Microsoft Word.
+When [`HeaderFooter`](./headerfooter/) contains at least one [`Paragraph`](../paragraph/), it is no longer considered linked to previous in Microsoft Word.
 
 ## Examples
 

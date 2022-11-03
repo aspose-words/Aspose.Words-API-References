@@ -16,7 +16,7 @@ public bool OwnHelp { get; set; }
 
 ## Remarks
 
-If True, the text specified by the HelpText property is displayed. If False, the text in the AutoText entry specified by the HelpText property is displayed.
+If `true`, the text specified by the [`HelpText`](../helptext/) property is displayed. If `false`, the text in the AutoText entry specified by the [`HelpText`](../helptext/) property is displayed.
 
 ## Examples
 

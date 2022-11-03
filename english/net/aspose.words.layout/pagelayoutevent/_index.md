@@ -3,7 +3,7 @@ title: PageLayoutEvent
 second_title: Aspose.Words for .NET API Reference
 description: A code of event raised during page layout model build and rendering.
 type: docs
-weight: 3170
+weight: 3190
 url: /net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration

@@ -20,7 +20,7 @@ public virtual DocumentProperty this[string name] { get; }
 
 ## Remarks
 
-Returns null if a property with the specified name is not found.
+Returns `null` if a property with the specified name is not found.
 
 ## Examples
 

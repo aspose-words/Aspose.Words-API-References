@@ -8,7 +8,7 @@ url: /net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Returns true when a write protection password is set.
+Returns `true` when a write protection password is set.
 
 ```csharp
 public bool IsWriteProtected { get; }

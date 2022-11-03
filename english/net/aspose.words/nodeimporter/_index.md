@@ -3,7 +3,7 @@ title: NodeImporter
 second_title: Aspose.Words for .NET API Reference
 description: Allows to efficiently perform repeated import of nodes from one document to another.
 type: docs
-weight: 3970
+weight: 3990
 url: /net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class

@@ -16,7 +16,7 @@ public void SetTextInputValue(object newValue)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newValue | Object | Can be a string, number or a DateTime object. |
+| newValue | Object | Can be a string, number or a **DateTime** object. |
 
 ## Remarks
 

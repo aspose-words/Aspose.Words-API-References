@@ -21,9 +21,9 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 ## Remarks
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specified the index of the paragraph inside that header of that section.
+The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then *paragraphIndex* specified the index of the paragraph inside that header of that section.
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
+When *paragraphIndex* is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When *paragraphIndex* is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
 
 ## Examples
 

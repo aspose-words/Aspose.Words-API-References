@@ -8,7 +8,7 @@ url: /net/aspose.words.reporting/reportingengine/usereflectionoptimization/
 ---
 ## ReportingEngine.UseReflectionOptimization property
 
-Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true.
+Gets or sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is `true`.
 
 ```csharp
 public static bool UseReflectionOptimization { get; set; }

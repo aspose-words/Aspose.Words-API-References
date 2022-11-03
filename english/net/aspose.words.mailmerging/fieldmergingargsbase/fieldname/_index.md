@@ -18,7 +18,7 @@ public string FieldName { get; }
 
 If you have a mapping from a document field name to a different data source field name, then this is the mapped field name.
 
-If you specified a field name prefix, for example "Image:MyFieldName" in the document, then **FieldName** returns field name without the prefix, that is "MyFieldName".
+If you specified a field name prefix, for example "Image:MyFieldName" in the document, then `FieldName` returns field name without the prefix, that is "MyFieldName".
 
 ## Examples
 

@@ -3,7 +3,7 @@ title: FormField
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single form field.
 type: docs
-weight: 2460
+weight: 2470
 url: /net/aspose.words.fields/formfield/
 ---
 ## FormField class
@@ -21,10 +21,10 @@ public class FormField : SpecialChar
 | Name | Description |
 | --- | --- |
 | [CalculateOnExit](../../aspose.words.fields/formfield/calculateonexit/) { get; set; } | True if references to the specified form field are automatically updated whenever the field is exited. |
-| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize/) { get; set; } | Gets or sets the size of the checkbox in points. Has effect only when [`IsCheckBoxExactSize`](./ischeckboxexactsize/) is true. |
-| [Checked](../../aspose.words.fields/formfield/checked/) { get; set; } | Gets or sets the checked status of the check box form field. Default value for this property is **false**. |
+| [CheckBoxSize](../../aspose.words.fields/formfield/checkboxsize/) { get; set; } | Gets or sets the size of the checkbox in points. Has effect only when [`IsCheckBoxExactSize`](./ischeckboxexactsize/) is `true`. |
+| [Checked](../../aspose.words.fields/formfield/checked/) { get; set; } | Gets or sets the checked status of the check box form field. Default value for this property is `false`. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
-| [Default](../../aspose.words.fields/formfield/default/) { get; set; } | Gets or sets the default value of the check box form field. Default value for this property is **false**. |
+| [Default](../../aspose.words.fields/formfield/default/) { get; set; } | Gets or sets the default value of the check box form field. Default value for this property is `false`. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [DropDownItems](../../aspose.words.fields/formfield/dropdownitems/) { get; } | Provides access to the items of a dropdown form field. |
 | [DropDownSelectedIndex](../../aspose.words.fields/formfield/dropdownselectedindex/) { get; set; } | Gets or sets the index specifying the currently selected item in a dropdown form field. |
@@ -34,22 +34,22 @@ public class FormField : SpecialChar
 | [Font](../../aspose.words/inline/font/) { get; } | Provides access to the font formatting of this object. |
 | [HelpText](../../aspose.words.fields/formfield/helptext/) { get; set; } | Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1. |
 | [IsCheckBoxExactSize](../../aspose.words.fields/formfield/ischeckboxexactsize/) { get; set; } | Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns true if this node can contain other nodes. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returns `true` if this node can contain other nodes. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [MaxLength](../../aspose.words.fields/formfield/maxlength/) { get; set; } | Maximum length for the text field. Zero when the length is not limited. |
 | [Name](../../aspose.words.fields/formfield/name/) { get; set; } | Gets or sets the form field name. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.fields/formfield/nodetype/) { get; } | Returns **NodeType.FormField**. |
+| override [NodeType](../../aspose.words.fields/formfield/nodetype/) { get; } | Returns FormField. |
 | [OwnHelp](../../aspose.words.fields/formfield/ownhelp/) { get; set; } | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
 | [OwnStatus](../../aspose.words.fields/formfield/ownstatus/) { get; set; } | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [Result](../../aspose.words.fields/formfield/result/) { get; set; } | Gets or sets a string that represents the result of this form field. |
 | [StatusText](../../aspose.words.fields/formfield/statustext/) { get; set; } | Returns or sets the text that's displayed in the status bar when a form field has the focus. |
 | [TextInputDefault](../../aspose.words.fields/formfield/textinputdefault/) { get; set; } | Gets or sets the default string or a calculation expression of a text form field. |
@@ -78,11 +78,11 @@ public class FormField : SpecialChar
 
 Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
-**FormField** is an inline-node and can only be a child of **Paragraph**.
+[`FormField`](./formfield/) is an inline-node and can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 
-**FormField** is represented in a document by a special character and positioned as a character within a line of text.
+[`FormField`](./formfield/) is represented in a document by a special character and positioned as a character within a line of text.
 
-A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`DocumentBuilder.InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/), [`DocumentBuilder.InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) and [`DocumentBuilder.InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which make sure all of the form field nodes are created in a correct order and in a suitable state.
+A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [`InsertCheckBox`](../../aspose.words/documentbuilder/insertcheckbox/), [`InsertTextInput`](../../aspose.words/documentbuilder/inserttextinput/) and [`InsertComboBox`](../../aspose.words/documentbuilder/insertcombobox/) which make sure all of the form field nodes are created in a correct order and in a suitable state.
 
 ## Examples
 

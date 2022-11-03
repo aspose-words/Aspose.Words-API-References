@@ -3,7 +3,7 @@ title: RunCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Run./run/ nodes.
 type: docs
-weight: 4570
+weight: 4600
 url: /net/aspose.words/runcollection/
 ---
 ## RunCollection class
@@ -21,7 +21,7 @@ public class RunCollection : NodeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Gets the number of nodes in the collection. |
-| [Item](../../aspose.words/runcollection/item/) { get; } | Retrieves a **Run** at the given index. (2 indexers) |
+| [Item](../../aspose.words/runcollection/item/) { get; } | Retrieves a [`Run`](../run/) at the given index. (2 indexers) |
 
 ## Methods
 

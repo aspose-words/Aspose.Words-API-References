@@ -3,7 +3,7 @@ title: WriteProtection
 second_title: Aspose.Words for .NET API Reference
 description: Specifies write protection settings for a document.
 type: docs
-weight: 5670
+weight: 5700
 url: /net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -20,7 +20,7 @@ public class WriteProtection
 
 | Name | Description |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returns true when a write protection password is set. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Returns `true` when a write protection password is set. |
 | [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Specifies whether the document author has recommended that the document be opened as read-only. |
 
 ## Methods
@@ -28,7 +28,7 @@ public class WriteProtection
 | Name | Description |
 | --- | --- |
 | [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(string) | Sets the write protection password for the document. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(string) | Returns `true` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns `false`. |
 
 ## Remarks
 

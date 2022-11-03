@@ -16,7 +16,7 @@ public Style this[string name] { get; }
 
 ## Remarks
 
-Case sensitive, returns null if the style with the given name is not found.
+Case sensitive, returns `null` if the style with the given name is not found.
 
 If this is an English name of a built in style that does not yet exist, automatically creates it.
 

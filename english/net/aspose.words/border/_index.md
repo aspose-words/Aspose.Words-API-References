@@ -22,7 +22,7 @@ public class Border : InternableComplexAttr
 | --- | --- |
 | [Color](../../aspose.words/border/color/) { get; set; } | Gets or sets the border color. |
 | [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Gets or sets distance of the border from text or from the page edge in points. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Returns true if the LineStyle is not LineStyle.None. |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Returns `true` if the [`LineStyle`](./linestyle/) is not None. |
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Gets or sets the border style. |
 | [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Gets or sets the border width in points. |
 | [Shadow](../../aspose.words/border/shadow/) { get; set; } | Gets or sets a value indicating whether the border has a shadow. |

@@ -3,7 +3,7 @@ title: Font
 second_title: Aspose.Words for .NET API Reference
 description: Contains font attributes font name font size color and so on for an object.
 type: docs
-weight: 2650
+weight: 2670
 url: /net/aspose.words/font/
 ---
 ## Font class
@@ -25,14 +25,14 @@ public class Font
 | [Bidi](../../aspose.words/font/bidi/) { get; set; } | Specifies whether the contents of this run shall have right-to-left characteristics. |
 | [Bold](../../aspose.words/font/bold/) { get; set; } | True if the font is formatted as bold. |
 | [BoldBi](../../aspose.words/font/boldbi/) { get; set; } | True if the right-to-left text is formatted as bold. |
-| [Border](../../aspose.words/font/border/) { get; } | Returns a Border object that specifies border for the font. |
+| [Border](../../aspose.words/font/border/) { get; } | Returns a [`Border`](../border/) object that specifies border for the font. |
 | [Color](../../aspose.words/font/color/) { get; set; } | Gets or sets the color of the font. |
 | [ComplexScript](../../aspose.words/font/complexscript/) { get; set; } | Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run. |
 | [DoubleStrikeThrough](../../aspose.words/font/doublestrikethrough/) { get; set; } | True if the font is formatted as double strikethrough text. |
 | [Emboss](../../aspose.words/font/emboss/) { get; set; } | True if the font is formatted as embossed. |
 | [EmphasisMark](../../aspose.words/font/emphasismark/) { get; set; } | Gets or sets the emphasis mark applied to this formatting. |
 | [Engrave](../../aspose.words/font/engrave/) { get; set; } | True if the font is formatted as engraved. |
-| [Fill](../../aspose.words/font/fill/) { get; } | Gets fill formatting for the Font. |
+| [Fill](../../aspose.words/font/fill/) { get; } | Gets fill formatting for the [`Font`](./font/). |
 | [Hidden](../../aspose.words/font/hidden/) { get; set; } | True if the font is formatted as hidden text. |
 | [HighlightColor](../../aspose.words/font/highlightcolor/) { get; set; } | Gets or sets the highlight (marker) color. |
 | [Italic](../../aspose.words/font/italic/) { get; set; } | True if the font is formatted as italic. |
@@ -51,7 +51,7 @@ public class Font
 | [Outline](../../aspose.words/font/outline/) { get; set; } | True if the font is formatted as outline. |
 | [Position](../../aspose.words/font/position/) { get; set; } | Gets or sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it. |
 | [Scaling](../../aspose.words/font/scaling/) { get; set; } | Gets or sets character width scaling in percent. |
-| [Shading](../../aspose.words/font/shading/) { get; } | Returns a Shading object that refers to the shading formatting for the font. |
+| [Shading](../../aspose.words/font/shading/) { get; } | Returns a [`Shading`](../shading/) object that refers to the shading formatting for the font. |
 | [Shadow](../../aspose.words/font/shadow/) { get; set; } | True if the font is formatted as shadowed. |
 | [Size](../../aspose.words/font/size/) { get; set; } | Gets or sets the font size in points. |
 | [SizeBi](../../aspose.words/font/sizebi/) { get; set; } | Gets or sets the font size in points used in a right-to-left document. |
@@ -65,12 +65,12 @@ public class Font
 | [Subscript](../../aspose.words/font/subscript/) { get; set; } | True if the font is formatted as subscript. |
 | [Superscript](../../aspose.words/font/superscript/) { get; set; } | True if the font is formatted as superscript. |
 | [TextEffect](../../aspose.words/font/texteffect/) { get; set; } | Gets or sets the font animation effect. |
-| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Gets or sets the theme color in the applied color scheme that is associated with this Font object. |
-| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Gets or sets the theme font in the applied font scheme that is associated with this Font object. |
-| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. |
-| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Gets or sets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. |
-| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Gets or sets the East Asian theme font in the applied font scheme that is associated with this Font object. |
-| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. |
+| [ThemeColor](../../aspose.words/font/themecolor/) { get; set; } | Gets or sets the theme color in the applied color scheme that is associated with this [`Font`](./font/) object. |
+| [ThemeFont](../../aspose.words/font/themefont/) { get; set; } | Gets or sets the theme font in the applied font scheme that is associated with this [`Font`](./font/) object. |
+| [ThemeFontAscii](../../aspose.words/font/themefontascii/) { get; set; } | Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this [`Font`](./font/) object. |
+| [ThemeFontBi](../../aspose.words/font/themefontbi/) { get; set; } | Gets or sets the theme font in the applied font scheme that is associated with this [`Font`](./font/) object in a right-to-left language document. |
+| [ThemeFontFarEast](../../aspose.words/font/themefontfareast/) { get; set; } | Gets or sets the East Asian theme font in the applied font scheme that is associated with this [`Font`](./font/) object. |
+| [ThemeFontOther](../../aspose.words/font/themefontother/) { get; set; } | Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this [`Font`](./font/) object. |
 | [TintAndShade](../../aspose.words/font/tintandshade/) { get; set; } | Gets or sets a double value that lightens or darkens a color. |
 | [Underline](../../aspose.words/font/underline/) { get; set; } | Gets or sets the type of underline applied to the font. |
 | [UnderlineColor](../../aspose.words/font/underlinecolor/) { get; set; } | Gets or sets the color of the underline applied to the font. |

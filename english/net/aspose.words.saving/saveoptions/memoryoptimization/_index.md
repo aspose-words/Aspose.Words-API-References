@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**.
+Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is `false`.
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -16,7 +16,7 @@ public bool MemoryOptimization { get; set; }
 
 ## Remarks
 
-Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Setting this option to `true` can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 ## Examples
 

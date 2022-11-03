@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Border object by border type.
+description: Retrieves a Borderaspose.words/border/ object by border type.
 type: docs
 weight: 60
 url: /net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Retrieves a Border object by border type.
+Retrieves a [`Border`](../../border/) object by border type.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -58,7 +58,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Retrieves a Border object by index.
+Retrieves a [`Border`](../../border/) object by index.
 
 ```csharp
 public Border this[int index] { get; }

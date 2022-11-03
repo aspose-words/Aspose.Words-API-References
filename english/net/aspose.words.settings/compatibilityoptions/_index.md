@@ -3,7 +3,7 @@ title: CompatibilityOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains compatibility options that is the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word.
 type: docs
-weight: 5490
+weight: 5520
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -76,7 +76,7 @@ public class CompatibilityOptions
 | [SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning](../../aspose.words.settings/compatibilityoptions/swapinsideandoutsideformirrorindentsandrelativepositioning/) { get; set; } |  |
 | [TransparentMetafiles](../../aspose.words.settings/compatibilityoptions/transparentmetafiles/) { get; set; } | Specifies not to blank the area behind metafile pictures. |
 | [TruncateFontHeightsLikeWP6](../../aspose.words.settings/compatibilityoptions/truncatefontheightslikewp6/) { get; set; } | Emulate WordPerfect 6.x Font Height Calculation. |
-| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | **True** to disable UI functionality which is not compatible with Word97-2003. Default value is **false**. |
+| [UICompat97To2003](../../aspose.words.settings/compatibilityoptions/uicompat97to2003/) { get; set; } | True to disable UI functionality which is not compatible with Word97-2003. Default value is `false`. |
 | [UlTrailSpace](../../aspose.words.settings/compatibilityoptions/ultrailspace/) { get; set; } | Underline All Trailing Spaces. |
 | [UnderlineTabInNumList](../../aspose.words.settings/compatibilityoptions/underlinetabinnumlist/) { get; set; } | Underline Following Character Following Numbering. |
 | [UseAltKinsokuLineBreakRules](../../aspose.words.settings/compatibilityoptions/usealtkinsokulinebreakrules/) { get; set; } | Use Alternate Set of East Asian Line Breaking Rules. |

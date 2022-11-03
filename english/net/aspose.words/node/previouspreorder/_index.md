@@ -20,7 +20,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 ### Return Value
 
-Previous node in pre-order order. Null if reached the rootNode.
+Previous node in pre-order order. Null if reached the *rootNode*.
 
 ## Examples
 

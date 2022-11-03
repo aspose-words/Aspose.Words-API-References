@@ -8,7 +8,7 @@ url: /net/aspose.words/cleanupoptions/unusedstyles/
 ---
 ## CleanupOptions.UnusedStyles property
 
-Specifies whether unused styles should be removed from document. Default value is **true**.
+Specifies whether unused styles should be removed from document. Default value is `true`.
 
 ```csharp
 public bool UnusedStyles { get; set; }

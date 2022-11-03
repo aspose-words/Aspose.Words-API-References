@@ -3,7 +3,7 @@ title: DocumentPropertyCollection
 second_title: Aspose.Words for .NET API Reference
 description: Base class for BuiltInDocumentProperties./builtindocumentproperties/ and CustomDocumentProperties./customdocumentproperties/ collections.
 type: docs
-weight: 4230
+weight: 4250
 url: /net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
@@ -29,7 +29,7 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 | Name | Description |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Removes all properties from the collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returns true if a property with the specified name exists in the collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(string) | Returns `true` if a property with the specified name exists in the collection. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returns an enumerator object that can be used to iterate over all items in the collection. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(string) | Gets the index of a property by name. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(string) | Removes a property with the specified name from the collection. |

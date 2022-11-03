@@ -1,14 +1,14 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: Text of a Word document is stored in stories. StoryType identifies a story.
+description: Text of a Word document is stored in stories. StoryType./storytype/ identifies a story.
 type: docs
-weight: 5820
+weight: 5850
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration
 
-Text of a Word document is stored in stories. **StoryType** identifies a story.
+Text of a Word document is stored in stories. [`StoryType`](./storytype/) identifies a story.
 
 ```csharp
 public enum StoryType

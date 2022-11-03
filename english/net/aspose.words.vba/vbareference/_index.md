@@ -3,7 +3,7 @@ title: VbaReference
 second_title: Aspose.Words for .NET API Reference
 description: Implements a reference to an Automation type library or VBA project.
 type: docs
-weight: 6280
+weight: 6310
 url: /net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -21,7 +21,7 @@ public abstract class VbaReference
 | Name | Description |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Gets a string value containing the identifier of an Automation type library. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Gets [`VbaReferenceType`](../vbareferencetype/) object that indicates the type of reference that a VbaReference object represents. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Gets [`VbaReferenceType`](../vbareferencetype/) object that indicates the type of reference that a [`VbaReference`](./vbareference/) object represents. |
 
 ## Examples
 

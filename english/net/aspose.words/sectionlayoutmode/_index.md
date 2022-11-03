@@ -3,7 +3,7 @@ title: SectionLayoutMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the layout mode for a section allowing to define the document grid behavior.
 type: docs
-weight: 5460
+weight: 5490
 url: /net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration

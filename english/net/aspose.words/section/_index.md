@@ -3,7 +3,7 @@ title: Section
 second_title: Aspose.Words for .NET API Reference
 description: Represents a single section in a document.
 type: docs
-weight: 5440
+weight: 5470
 url: /net/aspose.words/section/
 ---
 ## Section class
@@ -26,23 +26,23 @@ public sealed class Section : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Body](../../aspose.words/section/body/) { get; } | Returns the **Body** child node of the section. |
+| [Body](../../aspose.words/section/body/) { get; } | Returns the [`Body`](../body/) child node of the section. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HeadersFooters](../../aspose.words/section/headersfooters/) { get; } | Provides access to the headers and footers nodes of the section. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/section/nodetype/) { get; } | Returns **NodeType.Section**. |
+| override [NodeType](../../aspose.words/section/nodetype/) { get; } | Returns Section. |
 | [PageSetup](../../aspose.words/section/pagesetup/) { get; } | Returns an object that represents page setup and section properties. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
 | [ProtectedForForms](../../aspose.words/section/protectedforforms/) { get; set; } | True if the section is protected for forms. When a section is protected for forms, users can select and modify text only in form fields in Microsoft Word. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 
@@ -57,7 +57,7 @@ public sealed class Section : CompositeNode
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
 | [DeleteHeaderFooterShapes](../../aspose.words/section/deleteheaderfootershapes/)() | Deletes all shapes (drawing objects) from the headers and footers of this section. |
-| [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Ensures that the section has Body with one Paragraph. |
+| [EnsureMinimum](../../aspose.words/section/ensureminimum/)() | Ensures that the section has [`Body`](./body/) with one [`Paragraph`](../paragraph/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -76,23 +76,23 @@ public sealed class Section : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**Section** can have one [`Body`](./body/) and maximum one [`HeaderFooter`](../headerfooter/) of each [`HeaderFooterType`](../headerfootertype/). **Body** and **HeaderFooter** nodes can be in any order inside **Section**.
+[`Section`](./section/) can have one [`Body`](../body/) and maximum one [`HeaderFooter`](../headerfooter/) of each [`HeaderFooterType`](../headerfootertype/). [`Body`](../body/) and [`HeaderFooter`](../headerfooter/) nodes can be in any order inside [`Section`](./section/).
 
-A minimal valid section needs to have **Body** with one **Paragraph**.
+A minimal valid section needs to have [`Body`](../body/) with one [`Paragraph`](../paragraph/).
 
 Each section has its own set of properties that specify page size, orientation, margins etc.
 
 You can create a copy of a section using [`Clone`](../node/clone/). The copy can be inserted into the same or different document.
 
-To add, insert or remove a whole section including section break and section properties use methods of the **Sections** object.
+To add, insert or remove a whole section including section break and section properties use methods of the [`Sections`](../document/sections/) object.
 
-To copy and insert just content of the section excluding the section break and section properties use **AppendContent** and **PrependContent** methods.
+To copy and insert just content of the section excluding the section break and section properties use [`AppendContent`](./appendcontent/) and [`PrependContent`](./prependcontent/) methods.
 
 ## Examples
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.mailmerging/imailmergedatasource/getvalue/
 ---
 ## IMailMergeDataSource.GetValue method
 
-Returns a value for the specified field name or false if the field is not found.
+Returns a value for the specified field name or `false` if the field is not found.
 
 ```csharp
 public bool GetValue(string fieldName, out object fieldValue)
@@ -21,7 +21,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 ### Return Value
 
-**true** if value was found.
+`true` if value was found.
 
 ## Examples
 

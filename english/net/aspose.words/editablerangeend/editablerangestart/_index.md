@@ -1,14 +1,14 @@
 ---
 title: EditableRangeStart
 second_title: Aspose.Words for .NET API Reference
-description: Corresponding EditableRangeStart received by ID.
+description: Corresponding EditableRangeStartaspose.words/editablerangestart/ received by ID.
 type: docs
 weight: 10
 url: /net/aspose.words/editablerangeend/editablerangestart/
 ---
 ## EditableRangeEnd.EditableRangeStart property
 
-Corresponding EditableRangeStart, received by ID.
+Corresponding [`EditableRangeStart`](../../editablerangestart/), received by ID.
 
 ```csharp
 public EditableRangeStart EditableRangeStart { get; }

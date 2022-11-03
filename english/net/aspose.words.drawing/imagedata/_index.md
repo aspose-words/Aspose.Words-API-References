@@ -30,12 +30,12 @@ public class ImageData
 | [CropRight](../../aspose.words.drawing/imagedata/cropright/) { get; set; } | Defines the fraction of picture removal from the right side. |
 | [CropTop](../../aspose.words.drawing/imagedata/croptop/) { get; set; } | Defines the fraction of picture removal from the top side. |
 | [GrayScale](../../aspose.words.drawing/imagedata/grayscale/) { get; set; } | Determines whether a picture will display in grayscale mode. |
-| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Returns true if the shape has image bytes or links an image. |
+| [HasImage](../../aspose.words.drawing/imagedata/hasimage/) { get; } | Returns `true` if the shape has image bytes or links an image. |
 | [ImageBytes](../../aspose.words.drawing/imagedata/imagebytes/) { get; set; } | Gets or sets the raw bytes of the image stored in the shape. |
 | [ImageSize](../../aspose.words.drawing/imagedata/imagesize/) { get; } | Gets the information about image size and resolution. |
 | [ImageType](../../aspose.words.drawing/imagedata/imagetype/) { get; } | Gets the type of the image. |
-| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Returns true if the image is linked to the shape (when [`SourceFullName`](./sourcefullname/) is specified). |
-| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Returns true if the image is linked and not stored in the document. |
+| [IsLink](../../aspose.words.drawing/imagedata/islink/) { get; } | Returns `true` if the image is linked to the shape (when [`SourceFullName`](./sourcefullname/) is specified). |
+| [IsLinkOnly](../../aspose.words.drawing/imagedata/islinkonly/) { get; } | Returns `true` if the image is linked and not stored in the document. |
 | [SourceFullName](../../aspose.words.drawing/imagedata/sourcefullname/) { get; set; } | Gets or sets the path and name of the source file for the linked image. |
 | [Title](../../aspose.words.drawing/imagedata/title/) { get; set; } | Defines the title of an image. |
 

@@ -18,7 +18,7 @@ public bool Filled { get; set; }
 
 This is a shortcut to the On property.
 
-The default value is **true**.
+The default value is `true`.
 
 ## Examples
 

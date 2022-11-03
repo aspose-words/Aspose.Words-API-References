@@ -1,14 +1,14 @@
 ---
 title: Row
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Row class.
+description: Initializes a new instance of the Rowaspose.words.tables/row/ class.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/row/row/
 ---
 ## Row constructor
 
-Initializes a new instance of the **Row** class.
+Initializes a new instance of the [`Row`](../) class.
 
 ```csharp
 public Row(DocumentBase doc)
@@ -20,9 +20,9 @@ public Row(DocumentBase doc)
 
 ## Remarks
 
-When **Row** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [`Row`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../../aspose.words/node/parentnode/) is `null`.
 
-To append **Row** to the document use InsertAfter or InsertBefore on the table where you want the row inserted.
+To append [`Row`](../) to the document use [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) or [`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) on the table where you want the row inserted.
 
 ## Examples
 

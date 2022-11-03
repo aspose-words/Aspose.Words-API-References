@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.ole/olecontrol/isforms2olecontrol/
 ---
 ## OleControl.IsForms2OleControl property
 
-Returns true if the control is a [`Forms2OleControl`](../../forms2olecontrol/).
+Returns `true` if the control is a [`Forms2OleControl`](../../forms2olecontrol/).
 
 ```csharp
 public virtual bool IsForms2OleControl { get; }

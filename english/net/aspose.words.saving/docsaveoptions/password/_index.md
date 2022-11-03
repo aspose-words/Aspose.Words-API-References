@@ -16,7 +16,7 @@ public string Password { get; set; }
 
 ## Remarks
 
-In order to save document without encryption this property should be null or empty string.
+In order to save document without encryption this property should be `null` or empty string.
 
 ## Examples
 

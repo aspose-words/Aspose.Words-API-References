@@ -22,7 +22,7 @@ public abstract class Forms2OleControl : OleControl
 | --- | --- |
 | [Caption](../../aspose.words.drawing.ole/forms2olecontrol/caption/) { get; } | Gets Caption property of control. Default value is an empty string. |
 | [ChildNodes](../../aspose.words.drawing.ole/forms2olecontrol/childnodes/) { get; } | Gets collection of immediate child controls. |
-| [Enabled](../../aspose.words.drawing.ole/forms2olecontrol/enabled/) { get; } | Returns true if control is in enabled state. |
+| [Enabled](../../aspose.words.drawing.ole/forms2olecontrol/enabled/) { get; } | Returns `true` if control is in enabled state. |
 | override [IsForms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/isforms2olecontrol/) { get; } |  |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; } | Gets name of the ActiveX control. |
 | [Type](../../aspose.words.drawing.ole/forms2olecontrol/type/) { get; } | Gets type of Forms 2.0 control. |

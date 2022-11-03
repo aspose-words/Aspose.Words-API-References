@@ -16,7 +16,7 @@ public List List { get; }
 
 ## Remarks
 
-This property is only valid for list styles. For other style types this property returns null.
+This property is only valid for list styles. For other style types this property returns `null`.
 
 ## Examples
 

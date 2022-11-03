@@ -16,7 +16,7 @@ public string Uri { get; set; }
 
 ## Remarks
 
-Cannot be null.
+Cannot be `null`.
 
 Default is empty string.
 

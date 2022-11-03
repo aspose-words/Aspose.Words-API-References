@@ -38,7 +38,7 @@ public class FieldIncludeText : Field
 | [MimeType](../../aspose.words.fields/fieldincludetext/mimetype/) { get; set; } | Gets or sets the MIME type of the referenced file. |
 | [NamespaceMappings](../../aspose.words.fields/fieldincludetext/namespacemappings/) { get; set; } | Gets or sets the namespace mappings for XPath queries. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Gets or sets text that is between the field separator and field end. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be null. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Gets the node that represents the field separator. Can be `null`. |
 | [SourceFullName](../../aspose.words.fields/fieldincludetext/sourcefullname/) { get; set; } | Gets or sets the location of the document using an IRI. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Gets the node that represents the start of the field. |
 | [TextConverter](../../aspose.words.fields/fieldincludetext/textconverter/) { get; set; } | Gets or sets the name of the text converter for the format of the included file. |
@@ -52,7 +52,7 @@ public class FieldIncludeText : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(bool) | Returns text between field start and field separator (or field end if there is no separator). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns `null`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Performs the field unlink. |
 | [Update](../../aspose.words.fields/field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../../aspose.words.fields/field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |

@@ -3,7 +3,7 @@ title: VariableCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of document variables.
 type: docs
-weight: 6230
+weight: 6260
 url: /net/aspose.words/variablecollection/
 ---
 ## VariableCollection class
@@ -21,7 +21,7 @@ public class VariableCollection : IEnumerable<KeyValuePair<string, string>>
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words/variablecollection/count/) { get; } | Gets the number of elements contained in the collection. |
-| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Gets or a sets a document variable by the case-insensitive name. null values are not allowed as a right hand side of the assignment and will be replaced by empty string. (2 indexers) |
+| [Item](../../aspose.words/variablecollection/item/) { get; set; } | Gets or a sets a document variable by the case-insensitive name. `null` values are not allowed as a right hand side of the assignment and will be replaced by empty string. (2 indexers) |
 
 ## Methods
 

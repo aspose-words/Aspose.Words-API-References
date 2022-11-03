@@ -8,7 +8,7 @@ url: /net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Gets or sets a value indicating whether whole paragraph with TableStart or TableEnd field or particular range between TableStart and TableEnd fields should be included into mail merge region.
+Gets or sets a value indicating whether whole paragraph with **TableStart** or **TableEnd** field or particular range between **TableStart** and **TableEnd** fields should be included into mail merge region.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -16,7 +16,7 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ## Remarks
 
-The default value is **true**.
+The default value is `true`.
 
 ## Examples
 

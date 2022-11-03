@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shape/shadowenabled/
 ---
 ## Shape.ShadowEnabled property
 
-Returns true if a shadow effect is enabled.
+Returns `true` if a shadow effect is enabled.
 
 ```csharp
 public bool ShadowEnabled { get; }

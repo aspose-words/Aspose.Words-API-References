@@ -16,7 +16,7 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ## Remarks
 
-The provider is requested when the value of [`FieldUpdateCultureSource`](../fieldupdateculturesource/) is **FieldUpdateCultureSource.FieldCode**.
+The provider is requested when the value of [`FieldUpdateCultureSource`](../fieldupdateculturesource/) is FieldCode.
 
 If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 

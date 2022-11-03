@@ -16,7 +16,7 @@ public bool RestartListsAtEachSection { get; set; }
 
 ## Remarks
 
-The default value is **true**.
+The default value is `true`.
 
 ## Examples
 

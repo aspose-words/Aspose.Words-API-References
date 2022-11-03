@@ -3,7 +3,7 @@ title: ListLevelAlignment
 second_title: Aspose.Words for .NET API Reference
 description: Specifies alignment for the list number or bullet.
 type: docs
-weight: 3310
+weight: 3330
 url: /net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration

@@ -3,7 +3,7 @@ title: RevisionTextEffect
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify decoration effect for revisions of document text.
 type: docs
-weight: 3200
+weight: 3220
 url: /net/aspose.words.layout/revisiontexteffect/
 ---
 ## RevisionTextEffect enumeration

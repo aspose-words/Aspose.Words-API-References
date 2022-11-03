@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shapebase/isimage/
 ---
 ## ShapeBase.IsImage property
 
-Returns true if this shape is an image shape.
+Returns `true` if this shape is an image shape.
 
 ```csharp
 public bool IsImage { get; }

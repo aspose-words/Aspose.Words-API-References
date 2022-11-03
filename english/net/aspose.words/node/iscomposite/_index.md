@@ -8,7 +8,7 @@ url: /net/aspose.words/node/iscomposite/
 ---
 ## Node.IsComposite property
 
-Returns true if this node can contain other nodes.
+Returns `true` if this node can contain other nodes.
 
 ```csharp
 public virtual bool IsComposite { get; }
@@ -16,7 +16,7 @@ public virtual bool IsComposite { get; }
 
 ### Property Value
 
-This method returns false as Node cannot have child nodes.
+This method returns `false` as [`Node`](../) cannot have child nodes.
 
 ## Examples
 

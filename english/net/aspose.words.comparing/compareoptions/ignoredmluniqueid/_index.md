@@ -8,7 +8,7 @@ url: /net/aspose.words.comparing/compareoptions/ignoredmluniqueid/
 ---
 ## CompareOptions.IgnoreDmlUniqueId property
 
-Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**.
+Specifies whether to ignore difference in DrawingML unique Id. Default value is `false`.
 
 ```csharp
 public bool IgnoreDmlUniqueId { get; set; }

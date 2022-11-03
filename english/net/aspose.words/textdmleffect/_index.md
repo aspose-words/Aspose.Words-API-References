@@ -3,7 +3,7 @@ title: TextDmlEffect
 second_title: Aspose.Words for .NET API Reference
 description: Dml text effect for text runs.
 type: docs
-weight: 6110
+weight: 6140
 url: /net/aspose.words/textdmleffect/
 ---
 ## TextDmlEffect enumeration

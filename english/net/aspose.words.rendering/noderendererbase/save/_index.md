@@ -17,7 +17,7 @@ public void Save(string fileName, ImageSaveOptions saveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be null. |
+| saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be `null`. |
 
 ## Examples
 
@@ -58,7 +58,7 @@ public void Save(Stream stream, ImageSaveOptions saveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream where to save the image of the shape. |
-| saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be null. If this is null, the image will be saved in the PNG format. |
+| saveOptions | ImageSaveOptions | Specifies the options that control how the shape is rendered and saved. Can be `null`. If this is `null`, the image will be saved in the PNG format. |
 
 ## Examples
 

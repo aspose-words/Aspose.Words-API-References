@@ -8,7 +8,7 @@ url: /net/aspose.words/compositenode/iscomposite/
 ---
 ## CompositeNode.IsComposite property
 
-Returns true as this node can have child nodes.
+Returns `true` as this node can have child nodes.
 
 ```csharp
 public override bool IsComposite { get; }

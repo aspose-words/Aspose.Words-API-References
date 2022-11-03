@@ -22,9 +22,9 @@ public override DocumentProperty this[string name] { get; }
 
 The string names of the properties correspond to the names of the typed properties available from [`BuiltInDocumentProperties`](../).
 
-If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [`DocumentProperty`](../../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).
+If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [`DocumentProperty`](../../documentproperty/) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, `false` or DateTime.MinValue depending on the type of the built-in property).
 
-If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
+If you request a property that is not present in the document and the name is not recognized as a built-in name, a `null` is returned.
 
 ## Examples
 

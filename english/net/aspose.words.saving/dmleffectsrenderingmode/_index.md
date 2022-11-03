@@ -3,7 +3,7 @@ title: DmlEffectsRenderingMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how DrawingML effects are rendered to fixed page formats.
 type: docs
-weight: 4650
+weight: 4680
 url: /net/aspose.words.saving/dmleffectsrenderingmode/
 ---
 ## DmlEffectsRenderingMode enumeration

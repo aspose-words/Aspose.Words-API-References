@@ -8,7 +8,7 @@ url: /net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Returns **true** if this field has a separator.
+Returns `true` if this field has a separator.
 
 ```csharp
 public bool HasSeparator { get; }

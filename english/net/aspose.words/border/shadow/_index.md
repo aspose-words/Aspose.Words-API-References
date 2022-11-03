@@ -16,7 +16,7 @@ public bool Shadow { get; set; }
 
 ## Remarks
 
-In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to true.
+In Microsoft Word, for a border to have a shadow, the borders on all four sides (left, top, right and bottom) should be of the same type, width, color and all should have the Shadow property set to `true`.
 
 ## Examples
 
