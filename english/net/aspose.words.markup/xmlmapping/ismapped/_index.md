@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/xmlmapping/ismapped/
 ---
 ## XmlMapping.IsMapped property
 
-Returns **true** if the parent structured document tag is successfully mapped to XML data.
+Returns `true` if the parent structured document tag is successfully mapped to XML data.
 
 ```csharp
 public bool IsMapped { get; }

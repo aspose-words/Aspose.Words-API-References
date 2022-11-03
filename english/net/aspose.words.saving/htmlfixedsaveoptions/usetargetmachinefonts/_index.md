@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true, [`FontFormat`](../fontformat/) and [`ExportEmbeddedFonts`](../exportembeddedfonts/) properties do not have effect, also [`ResourceSavingCallback`](../resourcesavingcallback/) is not fired for fonts. Default is false.
+Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to `true`, [`FontFormat`](../fontformat/) and [`ExportEmbeddedFonts`](../exportembeddedfonts/) properties do not have effect, also [`ResourceSavingCallback`](../resourcesavingcallback/) is not fired for fonts. Default is `false`.
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }

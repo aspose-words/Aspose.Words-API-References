@@ -1,14 +1,14 @@
 ---
 title: Table
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Table class.
+description: Initializes a new instance of the Tableaspose.words.tables/table/ class.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Initializes a new instance of the **Table** class.
+Initializes a new instance of the [`Table`](../) class.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -20,9 +20,9 @@ public Table(DocumentBase doc)
 
 ## Remarks
 
-When **Table** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [`Table`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../../aspose.words/node/parentnode/) is `null`.
 
-To append **Table** to the document use InsertAfter or InsertBefore on the story where you want the table inserted.
+To append [`Table`](../) to the document use [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) or [`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) on the story where you want the table inserted.
 
 ## Examples
 

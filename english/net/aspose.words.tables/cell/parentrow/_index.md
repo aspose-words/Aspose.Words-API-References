@@ -16,7 +16,7 @@ public Row ParentRow { get; }
 
 ## Remarks
 
-Equivalent to `(Row)FirstNonMarkupParentNode`.
+Equivalent to FirstNonMarkupParentNode casted to [`Row`](../../row/).
 
 ## Examples
 

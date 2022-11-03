@@ -16,7 +16,7 @@ public bool Unlink()
 
 ### Return Value
 
-`True` if the field has been unlinked, otherwise `false`.
+`true` if the field has been unlinked, otherwise `false`.
 
 ## Remarks
 

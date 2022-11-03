@@ -3,7 +3,7 @@ title: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET API Reference
 description: Specifies options that determine what items are removed during mail merge.
 type: docs
-weight: 3630
+weight: 3650
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration

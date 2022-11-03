@@ -12,7 +12,7 @@ Notifies application that hyphenation dictionary for the specified language wasn
 
 Implementation should find a dictionary and register it using [`RegisterDictionary`](../../hyphenation/registerdictionary/) methods.
 
-If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [`RegisterDictionary`](../../hyphenation/registerdictionary/) with null value.
+If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language using [`RegisterDictionary`](../../hyphenation/registerdictionary/) with `null` value.
 
 ```csharp
 public void RequestDictionary(string language)

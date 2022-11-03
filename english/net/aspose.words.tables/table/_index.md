@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table in a Word document.
 type: docs
-weight: 6040
+weight: 6070
 url: /net/aspose.words.tables/table/
 ---
 ## Table class
@@ -20,7 +20,7 @@ public class Table : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Table](table/)(DocumentBase) | Initializes a new instance of the **Table** class. |
+| [Table](table/)(DocumentBase) | Initializes a new instance of the [`Table`](./table/) class. |
 
 ## Properties
 
@@ -45,20 +45,20 @@ public class Table : CompositeNode
 | [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; } | Gets distance between table top and the surrounding text, in points. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
-| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Returns the first **Row** node in the table. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Returns the first [`Row`](../row/) node in the table. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is Column. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
-| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | Returns the last **Row** node in the table. |
+| [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | Returns the last [`Row`](../row/) node in the table. |
 | [LeftIndent](../../aspose.words.tables/table/leftindent/) { get; set; } | Gets or sets the value that represents the left indent of the table. |
 | [LeftPadding](../../aspose.words.tables/table/leftpadding/) { get; set; } | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | Returns **NodeType.Table**. |
+| override [NodeType](../../aspose.words.tables/table/nodetype/) { get; } | Returns Table. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreferredWidth](../../aspose.words.tables/table/preferredwidth/) { get; set; } | Gets or sets the table preferred width. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [RelativeHorizontalAlignment](../../aspose.words.tables/table/relativehorizontalalignment/) { get; set; } | Gets or sets floating table relative horizontal alignment. |
 | [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment/) { get; set; } | Gets or sets floating table relative vertical alignment. |
 | [RightPadding](../../aspose.words.tables/table/rightpadding/) { get; set; } | Gets or sets the amount of space (in points) to add to the right of the contents of cells. |
@@ -84,7 +84,7 @@ public class Table : CompositeNode
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Converts cells horizontally merged by width to cells merged by [`HorizontalMerge`](../cellformat/horizontalmerge/). |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | If the table has no rows, creates and appends one **Row**. |
+| [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | If the table has no rows, creates and appends one [`Row`](../row/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -102,7 +102,7 @@ public class Table : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [SetBorder](../../aspose.words.tables/table/setborder/)(BorderType, LineStyle, double, Color, bool) | Sets the specified table border to the specified line style, width and color. |
 | [SetBorders](../../aspose.words.tables/table/setborders/)(LineStyle, double, Color) | Sets all table borders to the specified line style, width and color. |
 | [SetShading](../../aspose.words.tables/table/setshading/)(TextureIndex, Color, Color) | Sets shading to the specified values on whole table. |
@@ -111,11 +111,11 @@ public class Table : CompositeNode
 
 ## Remarks
 
-**Table** is a block-level node and can be a child of classes derived from **Story** or **InlineStory**.
+[`Table`](./table/) is a block-level node and can be a child of classes derived from [`Story`](../../aspose.words/story/) or [`InlineStory`](../../aspose.words/inlinestory/).
 
-**Table** can contain one or more **Row** nodes.
+[`Table`](./table/) can contain one or more [`Row`](../row/) nodes.
 
-A minimal valid table needs to have at least one **Row**.
+A minimal valid table needs to have at least one [`Row`](../row/).
 
 ## Examples
 

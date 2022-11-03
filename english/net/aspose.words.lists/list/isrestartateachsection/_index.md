@@ -8,7 +8,7 @@ url: /net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Specifies whether list should be restarted at each section. Default value is **false**.
+Specifies whether list should be restarted at each section. Default value is `false`.
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: CurrentSection
 second_title: Aspose.Words for .NET API Reference
-description: Gets the section that is currently selected in this DocumentBuilder.
+description: Gets the section that is currently selected in this DocumentBuilderaspose.words/documentbuilder/.
 type: docs
 weight: 60
 url: /net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Gets the section that is currently selected in this DocumentBuilder.
+Gets the section that is currently selected in this [`DocumentBuilder`](../).
 
 ```csharp
 public Section CurrentSection { get; }

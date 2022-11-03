@@ -3,7 +3,7 @@ title: HeightRule
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the rule for determining the height of an object.
 type: docs
-weight: 2950
+weight: 2970
 url: /net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration

@@ -1,14 +1,14 @@
 ---
 title: SignatureLine
 second_title: Aspose.Words for .NET API Reference
-description: Gets SignatureLineaspose.words.drawing/shape/signatureline/ object if the shape is a signature line. Returns null otherwise.
+description: Gets SignatureLineaspose.words.drawing/signatureline/ object if the shape is a signature line. Returns null otherwise.
 type: docs
 weight: 160
 url: /net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Gets `SignatureLine` object if the shape is a signature line. Returns **null** otherwise.
+Gets [`SignatureLine`](../../signatureline/) object if the shape is a signature line. Returns `null` otherwise.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -16,7 +16,7 @@ public SignatureLine SignatureLine { get; }
 
 ## Remarks
 
-You can insert new SignatureLines into the document using [`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
+You can insert new [`SignatureLine`](../../signatureline/) into the document using [`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) and
 
 ## Examples
 

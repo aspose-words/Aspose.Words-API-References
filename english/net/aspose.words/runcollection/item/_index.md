@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Run at the given index.
+description: Retrieves a Runaspose.words/run/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words/runcollection/item/
 ---
 ## RunCollection indexer
 
-Retrieves a **Run** at the given index.
+Retrieves a [`Run`](../../run/) at the given index.
 
 ```csharp
 public Run this[int index] { get; }

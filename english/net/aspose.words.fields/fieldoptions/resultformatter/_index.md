@@ -3,7 +3,7 @@ title: ResultFormatter
 second_title: Aspose.Words for .NET API Reference
 description: Allows to control how the field result is formatted.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.fields/fieldoptions/resultformatter/
 ---
 ## FieldOptions.ResultFormatter property

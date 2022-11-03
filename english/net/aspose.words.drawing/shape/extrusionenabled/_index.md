@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Returns true if an extrusion effect is enabled.
+Returns `true` if an extrusion effect is enabled.
 
 ```csharp
 public bool ExtrusionEnabled { get; }

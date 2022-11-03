@@ -16,7 +16,7 @@ public bool CalculateOnExit { get; set; }
 
 ## Remarks
 
-Setting **CalculateOnExit** only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
+Setting `CalculateOnExit` only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
 ## Examples
 

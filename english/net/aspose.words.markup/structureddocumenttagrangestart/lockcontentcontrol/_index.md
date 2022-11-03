@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-When set to true, this property will prohibit a user from deleting this structured document tag.
+When set to `true`, this property will prohibit a user from deleting this structured document tag.
 
 ```csharp
 public bool LockContentControl { get; set; }

@@ -18,9 +18,9 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | Full path to the file. |
-| isLinked | Boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | Boolean | If `true` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | String | Full path to the ICO file. If the value is `null`, Aspose.Words will use a predefined image. |
+| iconCaption | String | Icon caption. If the value is `null`, Aspose.Words will use the file name. |
 
 ### Return Value
 
@@ -81,9 +81,9 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | --- | --- | --- |
 | fileName | String | Full path to the file. |
 | progId | String | ProgId of OLE object. |
-| isLinked | Boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| isLinked | Boolean | If `true` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | String | Full path to the ICO file. If the value is `null`, Aspose.Words will use a predefined image. |
+| iconCaption | String | Icon caption. If the value is `null`, Aspose.Words will use the file name. |
 
 ### Return Value
 
@@ -140,8 +140,8 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | --- | --- | --- |
 | stream | Stream | Stream containing application data. |
 | progId | String | ProgId of OLE object. |
-| iconFile | String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | String | Icon caption. If the value is null, Aspose.Words will use the a predefined icon caption. |
+| iconFile | String | Full path to the ICO file. If the value is `null`, Aspose.Words will use a predefined image. |
+| iconCaption | String | Icon caption. If the value is `null`, Aspose.Words will use the a predefined icon caption. |
 
 ### Return Value
 

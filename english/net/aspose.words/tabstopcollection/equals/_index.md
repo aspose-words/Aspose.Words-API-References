@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+description: Determines whether the specified TabStopCollectionaspose.words/tabstopcollection/ is equal in value to the current TabStopCollectionaspose.words/tabstopcollection/.
 type: docs
 weight: 70
 url: /net/aspose.words/tabstopcollection/equals/
 ---
 ## Equals(TabStopCollection) {#equals}
 
-Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
+Determines whether the specified [`TabStopCollection`](../) is equal in value to the current [`TabStopCollection`](../).
 
 ```csharp
 public bool Equals(TabStopCollection rhs)

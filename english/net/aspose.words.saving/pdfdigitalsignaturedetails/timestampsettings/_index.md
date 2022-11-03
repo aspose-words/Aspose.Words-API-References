@@ -16,7 +16,7 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ## Remarks
 
-The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
+The default value is `null` and the digital signature will not be time-stamped. When this property is set to a valid [`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, then the digital signature in the PDF document will be time-stamped.
 
 ## Examples
 

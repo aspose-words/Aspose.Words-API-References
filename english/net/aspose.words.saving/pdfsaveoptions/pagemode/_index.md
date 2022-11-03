@@ -3,7 +3,7 @@ title: PageMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies how the PDF document should be displayed when opened in the PDF reader.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property

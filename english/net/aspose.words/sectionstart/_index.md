@@ -3,7 +3,7 @@ title: SectionStart
 second_title: Aspose.Words for .NET API Reference
 description: The type of break at the beginning of the section.
 type: docs
-weight: 5470
+weight: 5500
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration

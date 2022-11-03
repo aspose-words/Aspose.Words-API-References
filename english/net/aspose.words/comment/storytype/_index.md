@@ -1,14 +1,14 @@
 ---
 title: StoryType
 second_title: Aspose.Words for .NET API Reference
-description: Returns StoryType.Comments.
+description: Returns Comments.
 type: docs
 weight: 100
 url: /net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
 
-Returns **StoryType.Comments**.
+Returns Comments.
 
 ```csharp
 public override StoryType StoryType { get; }

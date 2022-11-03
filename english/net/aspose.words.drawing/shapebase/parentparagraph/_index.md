@@ -16,7 +16,7 @@ public Paragraph ParentParagraph { get; }
 
 ## Remarks
 
-For child shapes of a group shape and child shapes of an Office Math object always returns null.
+For child shapes of a group shape and child shapes of an Office Math object always returns `null`.
 
 ## Examples
 

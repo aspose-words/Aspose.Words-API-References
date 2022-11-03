@@ -1,14 +1,14 @@
 ---
 title: TabStop
 second_title: Aspose.Words for .NET API Reference
-description: Represents a single custom tab stop. The TabStop object is a member of the TabStopCollection./tabstopcollection/ collection.
+description: Represents a single custom tab stop. The TabStop./tabstop/ object is a member of the TabStopCollection./tabstopcollection/ collection.
 type: docs
-weight: 5900
+weight: 5930
 url: /net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Represents a single custom tab stop. The **TabStop** object is a member of the [`TabStopCollection`](../tabstopcollection/) collection.
+Represents a single custom tab stop. The [`TabStop`](./tabstop/) object is a member of the [`TabStopCollection`](../tabstopcollection/) collection.
 
 To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) documentation article.
 
@@ -28,7 +28,7 @@ public sealed class TabStop
 | Name | Description |
 | --- | --- |
 | [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Gets or sets the alignment of text at this tab stop. |
-| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Returns true if this tab stop clears any existing tab stops in this position. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Returns `true` if this tab stop clears any existing tab stops in this position. |
 | [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Gets or sets the type of the leader line displayed under the tab character. |
 | [Position](../../aspose.words/tabstop/position/) { get; } | Gets the position of the tab stop in points. |
 
@@ -36,12 +36,12 @@ public sealed class TabStop
 
 | Name | Description |
 | --- | --- |
-| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified TabStop. |
+| [Equals](../../aspose.words/tabstop/equals/#equals)(TabStop) | Compares with the specified [`TabStop`](./tabstop/). |
 | override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Calculates hash code for this object. |
 
 ## Remarks
 
-Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a **TabStop** object and set [`Alignment`](./alignment/) to `TabAlignment.Clear`.
+Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a [`TabStop`](./tabstop/) object and set [`Alignment`](./alignment/) to Clear.
 
 For more information see [`TabStopCollection`](../tabstopcollection/).
 

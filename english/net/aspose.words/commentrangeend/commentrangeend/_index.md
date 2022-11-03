@@ -21,7 +21,7 @@ public CommentRangeEnd(DocumentBase doc, int id)
 
 ## Remarks
 
-When [`CommentRangeEnd`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is null.
+When [`CommentRangeEnd`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is `null`.
 
 To append a [`CommentRangeEnd`](../) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 

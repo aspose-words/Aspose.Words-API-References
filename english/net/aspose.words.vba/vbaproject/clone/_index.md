@@ -16,7 +16,7 @@ public VbaProject Clone()
 
 ### Return Value
 
-The cloned VbaProject.
+The cloned [`VbaProject`](../).
 
 ## Examples
 

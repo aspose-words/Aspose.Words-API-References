@@ -8,7 +8,7 @@ url: /net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor).
+Returns `true` if the cursor is at the beginning of the current paragraph (no text before the cursor).
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }

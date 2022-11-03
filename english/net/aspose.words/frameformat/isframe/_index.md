@@ -8,7 +8,7 @@ url: /net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Returns true if the paragraph is a frame.
+Returns `true` if the paragraph is a frame.
 
 ```csharp
 public bool IsFrame { get; }

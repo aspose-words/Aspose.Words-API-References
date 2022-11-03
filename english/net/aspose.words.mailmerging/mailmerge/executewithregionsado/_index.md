@@ -23,7 +23,7 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 
 This method is useful when you intend to use Aspose.Words classes as COM objects from unmanaged code such as an application built using ASP or Visual Basic 6.0.
 
-For more information see description of MailMerge.ExecuteWithRegions(DataTable).
+For more information see description of [`ExecuteWithRegions`](../executewithregions/).
 
 ## Examples
 

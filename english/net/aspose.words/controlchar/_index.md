@@ -51,7 +51,7 @@ public static class ControlChar
 
 ## Remarks
 
-Provides both char and string versions of the same constants. For example: string ControlChar.LineBreak and char ControlChar.LineBreakChar have the same value.
+Provides both char and string versions of the same constants. For example: string [`LineBreak`](./linebreak/) and char [`LineBreakChar`](./linebreakchar/) have the same value.
 
 ## Examples
 

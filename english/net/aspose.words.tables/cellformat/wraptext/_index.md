@@ -8,7 +8,7 @@ url: /net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-If true, wrap text for the cell.
+If `true`, wrap text for the cell.
 
 ```csharp
 public bool WrapText { get; set; }

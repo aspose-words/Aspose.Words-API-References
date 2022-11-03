@@ -20,11 +20,11 @@ public TabStop After(double position)
 
 ### Return Value
 
-A tab stop object or null if a suitable tab stop was not found.
+A tab stop object or `null` if a suitable tab stop was not found.
 
 ## Remarks
 
-Skips tab stops with **Alignment** set to `TabAlignment.Bar`.
+Skips tab stops with [`Alignment`](../../tabstop/alignment/) set to Bar.
 
 ## Examples
 

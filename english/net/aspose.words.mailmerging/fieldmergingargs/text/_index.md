@@ -16,9 +16,9 @@ public string Text { get; set; }
 
 ## Remarks
 
-When your event handler is called, this property is set to null.
+When your event handler is called, this property is set to `null`.
 
-If you leave Text as null, the mail merge engine will insert [`FieldValue`](../../fieldmergingargsbase/fieldvalue/) in place of the merge field.
+If you leave Text as `null`, the mail merge engine will insert [`FieldValue`](../../fieldmergingargsbase/fieldvalue/) in place of the merge field.
 
 If you set Text to any string (including empty), the string will be inserted into the document in place of the merge field.
 

@@ -16,7 +16,7 @@ public byte[] ImageBytes { get; }
 
 ## Remarks
 
-The default value is null.
+The default value is `null`.
 
 ## Examples
 

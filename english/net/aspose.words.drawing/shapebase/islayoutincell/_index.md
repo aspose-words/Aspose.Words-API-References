@@ -16,7 +16,7 @@ public bool IsLayoutInCell { get; set; }
 
 ## Remarks
 
-The default value is **true**.
+The default value is `true`.
 
 Has effect only for top level shapes, the property [`WrapType`](../wraptype/) of which is set to value other than [`Inline`](../../../aspose.words/inline/).
 

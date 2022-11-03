@@ -16,7 +16,7 @@ public Table ParentTable { get; }
 
 ## Remarks
 
-Equivalent to `(Table)FirstNonMarkupParentNode`.
+Equivalent to FirstNonMarkupParentNode casted to [`Table`](../../table/).
 
 ## Examples
 

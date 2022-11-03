@@ -20,9 +20,9 @@ The cell node that was just inserted.
 
 ## Remarks
 
-To start a table, just call **InsertCell**. After this, any content you add using other methods of the [`DocumentBuilder`](../) class will be added to the current cell.
+To start a table, just call `InsertCell`. After this, any content you add using other methods of the [`DocumentBuilder`](../) class will be added to the current cell.
 
-To start a new cell in the same row, call **InsertCell** again.
+To start a new cell in the same row, call `InsertCell` again.
 
 To end a table row call [`EndRow`](../endrow/).
 

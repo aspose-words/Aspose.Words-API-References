@@ -8,7 +8,7 @@ url: /net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Removes the specified Type object from the set. Throws ArgumentException if *type* is null.
+Removes the specified Type object from the set. Throws ArgumentException if *type* is `null`.
 
 ```csharp
 public void Remove(Type type)

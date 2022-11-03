@@ -1,14 +1,14 @@
 ---
 title: SectionCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of Section objects in the document.
+description: A collection of Section./section/ objects in the document.
 type: docs
-weight: 5450
+weight: 5480
 url: /net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
 
-A collection of **Section** objects in the document.
+A collection of [`Section`](../section/) objects in the document.
 
 To learn more, visit the [Working with Sections](https://docs.aspose.com/words/net/working-with-sections/) documentation article.
 

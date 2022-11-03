@@ -8,7 +8,7 @@ url: /net/aspose.words/document/hasrevisions/
 ---
 ## Document.HasRevisions property
 
-Returns **true** if the document has any tracked changes.
+Returns `true` if the document has any tracked changes.
 
 ```csharp
 public bool HasRevisions { get; }

@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/fixedpagesaveoptions/optimizeoutput/
 ---
 ## FixedPageSaveOptions.OptimizeOutput property
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false.
+Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to `true`. Default is `false`.
 
 ```csharp
 public virtual bool OptimizeOutput { get; set; }

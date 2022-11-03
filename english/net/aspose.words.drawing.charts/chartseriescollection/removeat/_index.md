@@ -16,7 +16,7 @@ public void RemoveAt(int index)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | Int32 | The zero-based index of the ChartSeries to remove. |
+| index | Int32 | The zero-based index of the [`ChartSeries`](../../chartseries/) to remove. |
 
 ## Examples
 

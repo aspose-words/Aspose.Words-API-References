@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/saveoptions/updatefields/
 ---
 ## SaveOptions.UpdateFields property
 
-Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**.
+Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is `true`.
 
 ```csharp
 public bool UpdateFields { get; set; }

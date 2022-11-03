@@ -8,7 +8,7 @@ url: /net/aspose.words/revision/group/
 ---
 ## Revision.Group property
 
-Gets the revision group. Returns null if the revision does not belong to any group.
+Gets the revision group. Returns `null` if the revision does not belong to any group.
 
 ```csharp
 public RevisionGroup Group { get; }
@@ -16,7 +16,7 @@ public RevisionGroup Group { get; }
 
 ## Remarks
 
-Revision has no group if revision type is RevisionType.StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
+Revision has no group if revision type is StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
 
 ## Examples
 

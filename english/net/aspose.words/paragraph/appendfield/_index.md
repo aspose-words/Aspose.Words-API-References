@@ -125,7 +125,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | String | The field code to append (without curly braces). |
-| fieldValue | String | The field value to append. Pass null for fields that do not have a value. |
+| fieldValue | String | The field value to append. Pass `null` for fields that do not have a value. |
 
 ### Return Value
 

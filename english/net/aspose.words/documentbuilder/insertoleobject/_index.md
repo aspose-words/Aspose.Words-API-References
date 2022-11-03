@@ -19,7 +19,7 @@ public Shape InsertOleObject(Stream stream, string progId, bool asIcon, Stream p
 | stream | Stream | Stream containing application data. |
 | progId | String | Programmatic Identifier of OLE object. |
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
+| presentation | Stream | Image presentation of OLE object. If value is `null` Aspose.Words will use one of the predefined images. |
 
 ### Return Value
 
@@ -85,9 +85,9 @@ public Shape InsertOleObject(string fileName, bool isLinked, bool asIcon, Stream
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | Full path to the file. |
-| isLinked | Boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | Boolean | If `true` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
+| presentation | Stream | Image presentation of OLE object. If value is `null` Aspose.Words will use one of the predefined images. |
 
 ### Return Value
 
@@ -148,9 +148,9 @@ public Shape InsertOleObject(string fileName, string progId, bool isLinked, bool
 | --- | --- | --- |
 | fileName | String | Full path to the file. |
 | progId | String | ProgId of OLE object. |
-| isLinked | Boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | Boolean | If `true` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | Boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Stream | Image presentation of OLE object. If value is null Aspose.Words will use one of the predefined images. |
+| presentation | Stream | Image presentation of OLE object. If value is `null` Aspose.Words will use one of the predefined images. |
 
 ### Return Value
 

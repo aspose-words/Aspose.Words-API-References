@@ -1,14 +1,14 @@
 ---
 title: IsSemitrasparent
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is True.
+description: Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is true.
 type: docs
 weight: 50
 url: /net/aspose.words/textwatermarkoptions/issemitrasparent/
 ---
 ## TextWatermarkOptions.IsSemitrasparent property
 
-Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is True.
+Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is `true`.
 
 ```csharp
 public bool IsSemitrasparent { get; set; }

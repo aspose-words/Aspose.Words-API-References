@@ -8,7 +8,7 @@ url: /net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Returns true if this node has any child nodes.
+Returns `true` if this node has any child nodes.
 
 ```csharp
 public bool HasChildNodes { get; }

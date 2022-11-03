@@ -1,14 +1,14 @@
 ---
 title: Paragraph
 second_title: Aspose.Words for .NET API Reference
-description: Initializes a new instance of the Paragraph class.
+description: Initializes a new instance of the Paragraphaspose.words/paragraph/ class.
 type: docs
 weight: 10
 url: /net/aspose.words/paragraph/paragraph/
 ---
 ## Paragraph constructor
 
-Initializes a new instance of the **Paragraph** class.
+Initializes a new instance of the [`Paragraph`](../) class.
 
 ```csharp
 public Paragraph(DocumentBase doc)
@@ -20,9 +20,9 @@ public Paragraph(DocumentBase doc)
 
 ## Remarks
 
-When **Paragraph** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
+When [`Paragraph`](../) is created, it belongs to the specified document, but is not yet part of the document and [`ParentNode`](../../node/parentnode/) is `null`.
 
-To append **Paragraph** to the document use InsertAfter or InsertBefore on the story where you want the paragraph inserted.
+To append [`Paragraph`](../) to the document use [`InsertAfter`](../../compositenode/insertafter/) or [`InsertBefore`](../../compositenode/insertbefore/) on the story where you want the paragraph inserted.
 
 ## Examples
 

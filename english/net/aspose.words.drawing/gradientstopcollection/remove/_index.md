@@ -16,7 +16,7 @@ public bool Remove(GradientStop gradientStop)
 
 ### Return Value
 
-True if gradient stop was successfully removed, otherwise false.
+`true` if gradient stop was successfully removed, otherwise `false`.
 
 ## Examples
 

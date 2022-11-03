@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`.
 
 ```csharp
 public bool ExportGeneratorName { get; set; }

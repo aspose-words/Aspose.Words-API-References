@@ -18,7 +18,7 @@ public string ProgId { get; set; }
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
-Cannot be null.
+Cannot be `null`.
 
 The default value is an empty string.
 

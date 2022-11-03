@@ -24,7 +24,7 @@ The bookmark start node that was just created.
 
 ## Remarks
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both `StartColumnBookmark` and [`EndColumnBookmark`](../endcolumnbookmark/) with the same **bookmarkName** parameter.
+A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both `StartColumnBookmark` and [`EndColumnBookmark`](../endcolumnbookmark/) with the same *bookmarkName* parameter.
 
 Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
 

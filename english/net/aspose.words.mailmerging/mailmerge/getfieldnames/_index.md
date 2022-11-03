@@ -18,9 +18,9 @@ public string[] GetFieldNames()
 
 Returns full merge field names including optional prefix. Does not eliminate duplicate field names.
 
-A new string[] array is created on every call.
+A new string array is created on every call.
 
-Includes "mustache" field names if [`UseNonMergeFields`](../usenonmergefields/) is **true**.
+Includes "mustache" field names if [`UseNonMergeFields`](../usenonmergefields/) is `true`.
 
 ## Examples
 

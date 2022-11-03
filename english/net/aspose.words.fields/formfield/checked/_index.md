@@ -8,7 +8,7 @@ url: /net/aspose.words.fields/formfield/checked/
 ---
 ## FormField.Checked property
 
-Gets or sets the checked status of the check box form field. Default value for this property is **false**.
+Gets or sets the checked status of the check box form field. Default value for this property is `false`.
 
 ```csharp
 public bool Checked { get; set; }

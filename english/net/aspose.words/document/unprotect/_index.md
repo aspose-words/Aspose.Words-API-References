@@ -84,7 +84,7 @@ public bool Unprotect(string password)
 
 ### Return Value
 
-True if a correct password was specified and the document was unprotected.
+`true` if a correct password was specified and the document was unprotected.
 
 ## Remarks
 

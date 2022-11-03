@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/imagedata/islink/
 ---
 ## ImageData.IsLink property
 
-Returns true if the image is linked to the shape (when [`SourceFullName`](../sourcefullname/) is specified).
+Returns `true` if the image is linked to the shape (when [`SourceFullName`](../sourcefullname/) is specified).
 
 ```csharp
 public bool IsLink { get; }

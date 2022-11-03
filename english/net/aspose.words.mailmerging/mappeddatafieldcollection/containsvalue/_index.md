@@ -20,7 +20,7 @@ public bool ContainsValue(string dataSourceFieldName)
 
 ### Return Value
 
-True if item is found in the collection; otherwise, false.
+`true` if item is found in the collection; otherwise, `false`.
 
 ## Examples
 

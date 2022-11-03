@@ -8,7 +8,7 @@ url: /net/aspose.words/cleanupoptions/unusedlists/
 ---
 ## CleanupOptions.UnusedLists property
 
-Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
+Specifies whether unused list and list definitions should be removed from document. Default value is `true`.
 
 ```csharp
 public bool UnusedLists { get; set; }

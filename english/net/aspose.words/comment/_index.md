@@ -20,14 +20,14 @@ public sealed class Comment : InlineStory
 
 | Name | Description |
 | --- | --- |
-| [Comment](comment/#constructor)(DocumentBase) | Initializes a new instance of the **Comment** class. |
-| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the **Comment** class. |
+| [Comment](comment/#constructor)(DocumentBase) | Initializes a new instance of the [`Comment`](./comment/) class. |
+| [Comment](comment/#constructor_1)(DocumentBase, string, string, DateTime) | Initializes a new instance of the [`Comment`](./comment/) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returns the parent Comment object. Returns null for top-level comments. |
+| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returns the parent [`Comment`](./comment/) object. Returns `null` for top-level comments. |
 | [Author](../../aspose.words/comment/author/) { get; set; } | Returns or sets the author name for a comment. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
@@ -38,25 +38,25 @@ public sealed class Comment : InlineStory
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Gets the first paragraph in the story. |
 | [Font](../../aspose.words/inlinestory/font/) { get; } | Provides access to the font formatting of the anchor character of this object. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
 | [Id](../../aspose.words/comment/id/) { get; } | Gets the comment identifier. |
 | [Initial](../../aspose.words/comment/initial/) { get; set; } | Returns or sets the initials of the user associated with a specific comment. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returns `true` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returns `true` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Gets the last paragraph in the story. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | Returns **NodeType.Comment**. |
+| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | Returns Comment. |
 | [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Gets a collection of paragraphs that are immediate children of the story. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../range/) object that represents the portion of a document that is contained in this node. |
 | [Replies](../../aspose.words/comment/replies/) { get; } | Returns a collection of [`Comment`](./comment/) objects that are immediate children of the specified comment. |
-| override [StoryType](../../aspose.words/comment/storytype/) { get; } | Returns **StoryType.Comments**. |
+| override [StoryType](../../aspose.words/comment/storytype/) { get; } | Returns Comments. |
 | [Tables](../../aspose.words/inlinestory/tables/) { get; } | Gets a collection of tables that are immediate children of the story. |
 
 ## Methods
@@ -88,7 +88,7 @@ public sealed class Comment : InlineStory
 | [RemoveReply](../../aspose.words/comment/removereply/)(Comment) | Removes the specified reply to this comment. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../node/) that matches the XPath expression. |
 | [SetText](../../aspose.words/comment/settext/)(string) | This is a convenience method that allows to easily set text of the comment. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |

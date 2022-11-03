@@ -8,7 +8,7 @@ url: /net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-Returns **true** if the document has been checked for grammar.
+Returns `true` if the document has been checked for grammar.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -16,7 +16,7 @@ public bool GrammarChecked { get; set; }
 
 ## Remarks
 
-To recheck the grammar in the document, set this property to **false**.
+To recheck the grammar in the document, set this property to `false`.
 
 ## Examples
 

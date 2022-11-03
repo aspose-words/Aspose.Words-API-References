@@ -3,7 +3,7 @@ title: LayoutOptions
 second_title: Aspose.Words for .NET API Reference
 description: Holds the options that allow controlling the document layout process.
 type: docs
-weight: 3150
+weight: 3170
 url: /net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
@@ -29,10 +29,10 @@ public class LayoutOptions
 | [Callback](../../aspose.words.layout/layoutoptions/callback/) { get; set; } | Gets or sets [`IPageLayoutCallback`](../ipagelayoutcallback/) implementation used by page layout model. |
 | [CommentDisplayMode](../../aspose.words.layout/layoutoptions/commentdisplaymode/) { get; set; } | Gets or sets the way comments are rendered. Default value is ShowInBalloons. |
 | [ContinuousSectionPageNumberingRestart](../../aspose.words.layout/layoutoptions/continuoussectionpagenumberingrestart/) { get; set; } | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True. |
+| [IgnorePrinterMetrics](../../aspose.words.layout/layoutoptions/ignoreprintermetrics/) { get; set; } | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is `true`. |
 | [RevisionOptions](../../aspose.words.layout/layoutoptions/revisionoptions/) { get; } | Gets revision options. |
-| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Gets or sets indication of whether hidden text in the document is rendered. Default is False. |
-| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is False. |
+| [ShowHiddenText](../../aspose.words.layout/layoutoptions/showhiddentext/) { get; set; } | Gets or sets indication of whether hidden text in the document is rendered. Default is `false`. |
+| [ShowParagraphMarks](../../aspose.words.layout/layoutoptions/showparagraphmarks/) { get; set; } | Gets or sets indication of whether paragraph marks are rendered. Default is `false`. |
 | [TextShaperFactory](../../aspose.words.layout/layoutoptions/textshaperfactory/) { get; set; } | Gets or sets [`ITextShaperFactory`](../../aspose.words.shaping/itextshaperfactory/) implementation used for Advanced Typography rendering features. |
 
 ## Remarks

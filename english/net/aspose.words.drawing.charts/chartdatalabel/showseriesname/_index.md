@@ -1,14 +1,14 @@
 ---
 title: ShowSeriesName
 second_title: Aspose.Words for .NET API Reference
-description: Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false.
+description: Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. true to show the series name false to hide. By default false.
 type: docs
 weight: 120
 url: /net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false.
+Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. `true` to show the series name; `false` to hide. By default `false`.
 
 ```csharp
 public bool ShowSeriesName { get; set; }

@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-`False` if this custom part is stored inside the OOXML package. `True` if this custom part is an external target.
+False if this custom part is stored inside the OOXML package. True if this custom part is an external target.
 
 ```csharp
 public bool IsExternal { get; set; }

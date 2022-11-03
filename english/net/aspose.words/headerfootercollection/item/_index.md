@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a HeaderFooter at the given index.
+description: Retrieves a HeaderFooteraspose.words/headerfooter/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Retrieves a **HeaderFooter** at the given index.
+Retrieves a [`HeaderFooter`](../../headerfooter/) at the given index.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -101,7 +101,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Retrieves a **HeaderFooter** of the specified type.
+Retrieves a [`HeaderFooter`](../../headerfooter/) of the specified type.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -113,7 +113,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ## Remarks
 
-Returns null if the header/footer of the specified type is not found.
+Returns `null` if the header/footer of the specified type is not found.
 
 ## Examples
 

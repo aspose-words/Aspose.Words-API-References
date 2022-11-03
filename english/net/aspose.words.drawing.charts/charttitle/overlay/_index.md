@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing.charts/charttitle/overlay/
 ---
 ## ChartTitle.Overlay property
 
-Determines whether other chart elements shall be allowed to overlap title. By default overlay is false.
+Determines whether other chart elements shall be allowed to overlap title. By default overlay is `false`.
 
 ```csharp
 public bool Overlay { get; set; }

@@ -68,7 +68,7 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `True` if child field codes should be included. |
+| includeChildFieldCodes | Boolean | `true` if child field codes should be included. |
 
 ## Examples
 

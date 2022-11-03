@@ -1,14 +1,14 @@
 ---
 title: ThemeFontOther
 second_title: Aspose.Words for .NET API Reference
-description: Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
+description: Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Fontaspose.words/font/ object.
 type: docs
 weight: 510
 url: /net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
+Gets or sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this [`Font`](../) object.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }

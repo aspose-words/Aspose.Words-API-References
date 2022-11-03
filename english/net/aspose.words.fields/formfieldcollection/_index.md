@@ -1,14 +1,14 @@
 ---
 title: FormFieldCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of FormField objects that represent all the form fields in a range.
+description: A collection of FormField./formfield/ objects that represent all the form fields in a range.
 type: docs
-weight: 2470
+weight: 2480
 url: /net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
-A collection of **FormField** objects that represent all the form fields in a range.
+A collection of [`FormField`](../formfield/) objects that represent all the form fields in a range.
 
 To learn more, visit the [Working with Form Fields](https://docs.aspose.com/words/net/working-with-form-fields/) documentation article.
 

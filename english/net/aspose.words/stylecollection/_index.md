@@ -1,14 +1,14 @@
 ---
 title: StyleCollection
 second_title: Aspose.Words for .NET API Reference
-description: A collection of Style objects that represent both the builtin and userdefined styles in a document.
+description: A collection of Style./style/ objects that represent both the builtin and userdefined styles in a document.
 type: docs
-weight: 5840
+weight: 5870
 url: /net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-A collection of Style objects that represent both the built-in and user-defined styles in a document.
+A collection of [`Style`](../style/) objects that represent both the built-in and user-defined styles in a document.
 
 To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) documentation article.
 

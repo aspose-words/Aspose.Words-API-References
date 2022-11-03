@@ -20,13 +20,13 @@ public bool MoveToBookmark(string bookmarkName)
 
 ### Return Value
 
-True if the bookmark was found; false otherwise.
+`true` if the bookmark was found; `false` otherwise.
 
 ## Remarks
 
 Moves the cursor to a position just after the start of the bookmark with the specified name.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+The comparison is not case-sensitive. If the bookmark was not found, `false` is returned and the cursor is not moved.
 
 Inserting new text does not replace existing text of the bookmark.
 
@@ -102,12 +102,12 @@ public bool MoveToBookmark(string bookmarkName, bool isStart, bool isAfter)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | bookmarkName | String | The name of the bookmark to move the cursor to. |
-| isStart | Boolean | When true, moves the cursor to the beginning of the bookmark. When false, moves the cursor to the end of the bookmark. |
-| isAfter | Boolean | When true, moves the cursor to be after the bookmark start or end position. When false, moves the cursor to be before the bookmark start or end position. |
+| isStart | Boolean | When `true`, moves the cursor to the beginning of the bookmark. When `false`, moves the cursor to the end of the bookmark. |
+| isAfter | Boolean | When `true`, moves the cursor to be after the bookmark start or end position. When `false`, moves the cursor to be before the bookmark start or end position. |
 
 ### Return Value
 
-True if the bookmark was found; false otherwise.
+`true` if the bookmark was found; `false` otherwise.
 
 ## Remarks
 
@@ -115,7 +115,7 @@ Moves the cursor to a position before or after the bookmark start or end.
 
 If desired position is not at inline level, moves to the next paragraph.
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+The comparison is not case-sensitive. If the bookmark was not found, `false` is returned and the cursor is not moved.
 
 ## Examples
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.lists/list/isliststylereference/
 ---
 ## List.IsListStyleReference property
 
-Returns true if this list is a reference to a list style.
+Returns `true` if this list is a reference to a list style.
 
 ```csharp
 public bool IsListStyleReference { get; }

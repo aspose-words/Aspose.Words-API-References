@@ -8,7 +8,7 @@ url: /net/aspose.words.digitalsignatures/digitalsignature/isvalid/
 ---
 ## DigitalSignature.IsValid property
 
-Returns true if this digital signature is valid and the document has not been tampered with.
+Returns `true` if this digital signature is valid and the document has not been tampered with.
 
 ```csharp
 public bool IsValid { get; }

@@ -37,8 +37,8 @@ public class BuildingBlock : CompositeNode
 | [FirstSection](../../aspose.words.buildingblocks/buildingblock/firstsection/) { get; } | Gets the first section in the building block. |
 | [Gallery](../../aspose.words.buildingblocks/buildingblock/gallery/) { get; set; } | Specifies the first-level categorization for the building block for the purposes of classification or user interface sorting. |
 | [Guid](../../aspose.words.buildingblocks/buildingblock/guid/) { get; set; } | Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [LastSection](../../aspose.words.buildingblocks/buildingblock/lastsection/) { get; } | Gets the last section in the building block. |
 | [Name](../../aspose.words.buildingblocks/buildingblock/name/) { get; set; } | Gets or sets the name of this building block. |
@@ -46,7 +46,7 @@ public class BuildingBlock : CompositeNode
 | override [NodeType](../../aspose.words.buildingblocks/buildingblock/nodetype/) { get; } | Returns the BuildingBlock value. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [Sections](../../aspose.words.buildingblocks/buildingblock/sections/) { get; } | Returns a collection that represents all sections in the building block. |
 | [Type](../../aspose.words.buildingblocks/buildingblock/type/) { get; set; } | Specifies the building block type. |
 
@@ -75,7 +75,7 @@ public class BuildingBlock : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 

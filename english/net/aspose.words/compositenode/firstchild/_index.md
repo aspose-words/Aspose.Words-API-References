@@ -16,7 +16,7 @@ public Node FirstChild { get; }
 
 ## Remarks
 
-If there is no first child node, a null is returned.
+If there is no first child node, a `null` is returned.
 
 ## Examples
 

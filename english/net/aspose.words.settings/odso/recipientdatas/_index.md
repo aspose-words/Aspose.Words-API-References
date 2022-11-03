@@ -8,7 +8,7 @@ url: /net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
+Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never `null`.
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }

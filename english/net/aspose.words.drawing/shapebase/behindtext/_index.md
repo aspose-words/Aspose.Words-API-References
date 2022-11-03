@@ -18,7 +18,7 @@ public bool BehindText { get; set; }
 
 Has effect only for top level shapes.
 
-The default value is **false**.
+The default value is `false`.
 
 ## Examples
 

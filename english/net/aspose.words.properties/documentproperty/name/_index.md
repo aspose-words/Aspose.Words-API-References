@@ -16,7 +16,7 @@ public string Name { get; }
 
 ## Remarks
 
-Cannot be null and cannot be an empty string.
+Cannot be `null` and cannot be an empty string.
 
 ## Examples
 

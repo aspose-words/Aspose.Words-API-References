@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns null.
+Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns `null`.
 
 ```csharp
 public OleFormat OleFormat { get; }

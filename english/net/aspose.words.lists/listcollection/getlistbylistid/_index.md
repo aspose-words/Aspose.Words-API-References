@@ -20,7 +20,7 @@ public List GetListByListId(int listId)
 
 ### Return Value
 
-Returns the list object. Returns null if a list with the specified identifier was not found.
+Returns the list object. Returns `null` if a list with the specified identifier was not found.
 
 ## Remarks
 

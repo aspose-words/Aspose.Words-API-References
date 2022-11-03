@@ -24,7 +24,7 @@ This method is useful when you intend to use Aspose.Words classes as COM objects
 
 This method ignores the RemoveUnusedRegions option.
 
-For more information see description of MailMerge.Execute(DataTable).
+For more information see description of [`Execute`](../execute/).
 
 ## Examples
 

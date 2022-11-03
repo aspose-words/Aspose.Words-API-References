@@ -16,7 +16,7 @@ public string ReferenceMark { get; set; }
 
 ## Remarks
 
-If this property is set to **empty string** (Empty) or null, then [`IsAuto`](../isauto/) property will automatically be set to true, if set to anything else then [`IsAuto`](../isauto/) will be set to false.
+If this property is set to **empty string** (Empty) or `null`, then [`IsAuto`](../isauto/) property will automatically be set to `true`, if set to anything else then [`IsAuto`](../isauto/) will be set to `false`.
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.
 

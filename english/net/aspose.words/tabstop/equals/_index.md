@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: Aspose.Words for .NET API Reference
-description: Compares with the specified TabStop.
+description: Compares with the specified TabStopaspose.words/tabstop/.
 type: docs
 weight: 60
 url: /net/aspose.words/tabstop/equals/
 ---
 ## TabStop.Equals method
 
-Compares with the specified TabStop.
+Compares with the specified [`TabStop`](../).
 
 ```csharp
 public bool Equals(TabStop rhs)

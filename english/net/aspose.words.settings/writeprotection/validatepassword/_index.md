@@ -8,7 +8,7 @@ url: /net/aspose.words.settings/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method
 
-Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false.
+Returns `true` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns `false`.
 
 ```csharp
 public bool ValidatePassword(string password)

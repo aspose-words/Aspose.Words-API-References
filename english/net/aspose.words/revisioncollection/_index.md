@@ -3,7 +3,7 @@ title: RevisionCollection
 second_title: Aspose.Words for .NET API Reference
 description: A collection of Revision./revision/ objects that represent revisions in the document.
 type: docs
-weight: 4510
+weight: 4540
 url: /net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class
@@ -22,7 +22,7 @@ public class RevisionCollection : IEnumerable<Revision>
 | --- | --- |
 | [Count](../../aspose.words/revisioncollection/count/) { get; } | Returns the number of revisions in the collection. |
 | [Groups](../../aspose.words/revisioncollection/groups/) { get; } | Collection of revision groups. |
-| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returns a Revision at the specified index. |
+| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returns a [`Revision`](../revision/) at the specified index. |
 
 ## Methods
 

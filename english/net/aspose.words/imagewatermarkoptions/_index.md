@@ -3,7 +3,7 @@ title: ImageWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains options that can be specified when adding a watermark with image.
 type: docs
-weight: 3020
+weight: 3040
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
@@ -26,7 +26,7 @@ public class ImageWatermarkOptions
 
 | Name | Description |
 | --- | --- |
-| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is True. |
+| [IsWashout](../../aspose.words/imagewatermarkoptions/iswashout/) { get; set; } | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is `true`. |
 | [Scale](../../aspose.words/imagewatermarkoptions/scale/) { get; set; } | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 
 ### See Also

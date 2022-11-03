@@ -28,7 +28,7 @@ The easiest way to specify the switches is to insert and configure a table of co
 
 For example, after creating a table of contents, the following field is inserted into the document: **{ TOC \o "1-3" \h \z \u }**. You can copy **\o "1-3" \h \z \u** and use it as the switches parameter.
 
-Note that **InsertTableOfContents** will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
+Note that `InsertTableOfContents` will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
 
 If you insert a table of contents using this method and then open the file in Microsoft Word, you will not see the table of contents because the TOC field has not yet been updated.
 

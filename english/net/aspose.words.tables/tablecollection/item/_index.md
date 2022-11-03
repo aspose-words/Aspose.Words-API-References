@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Table at the given index.
+description: Retrieves a Tableaspose.words.tables/table/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Retrieves a **Table** at the given index.
+Retrieves a [`Table`](../../table/) at the given index.
 
 ```csharp
 public Table this[int index] { get; }

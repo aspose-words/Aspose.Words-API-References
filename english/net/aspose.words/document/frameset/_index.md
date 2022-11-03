@@ -16,7 +16,7 @@ public Frameset Frameset { get; }
 
 ## Remarks
 
-If the document is not framed, the property has the **null** value.
+If the document is not framed, the property has the `null` value.
 
 ## Examples
 

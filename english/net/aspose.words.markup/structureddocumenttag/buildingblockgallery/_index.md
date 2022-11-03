@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Specifies type of building block for this **SDT**. Can not be null.
+Specifies type of building block for this **SDT**. Can not be `null`.
 
 ```csharp
 public string BuildingBlockGallery { get; set; }

@@ -16,7 +16,7 @@ public void SetPassword(string password)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | String | The password to set. Cannot be null, but can be an empty string. |
+| password | String | The password to set. Cannot be `null`, but can be an empty string. |
 
 ## Remarks
 

@@ -8,7 +8,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-When set to true, this property will prohibit a user from editing the contents of this structured document tag.
+When set to `true`, this property will prohibit a user from editing the contents of this structured document tag.
 
 ```csharp
 public bool LockContents { get; set; }

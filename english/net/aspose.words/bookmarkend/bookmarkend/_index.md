@@ -17,7 +17,7 @@ public BookmarkEnd(DocumentBase doc, string name)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | DocumentBase | The owner document. |
-| name | String | The name of the bookmark. Cannot be null. |
+| name | String | The name of the bookmark. Cannot be `null`. |
 
 ## Examples
 

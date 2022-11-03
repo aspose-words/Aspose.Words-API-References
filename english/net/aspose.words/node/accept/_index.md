@@ -20,11 +20,11 @@ public abstract bool Accept(DocumentVisitor visitor)
 
 ### Return Value
 
-True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
+True if all nodes were visited; false if [`DocumentVisitor`](../../documentvisitor/) stopped the operation before visiting all nodes.
 
 ## Remarks
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+Enumerates over this node and all of its children. Each node calls a corresponding method on [`DocumentVisitor`](../../documentvisitor/).
 
 For more info see the Visitor design pattern.
 

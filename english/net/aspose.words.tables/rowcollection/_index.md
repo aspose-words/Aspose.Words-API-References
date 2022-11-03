@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Words for .NET API Reference
 description: Provides typed access to a collection of Row./row/ nodes.
 type: docs
-weight: 6020
+weight: 6050
 url: /net/aspose.words.tables/rowcollection/
 ---
 ## RowCollection class
@@ -21,7 +21,7 @@ public class RowCollection : NodeCollection
 | Name | Description |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Gets the number of nodes in the collection. |
-| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Retrieves a **Row** at the given index. (2 indexers) |
+| [Item](../../aspose.words.tables/rowcollection/item/) { get; } | Retrieves a [`Row`](../row/) at the given index. (2 indexers) |
 
 ## Methods
 

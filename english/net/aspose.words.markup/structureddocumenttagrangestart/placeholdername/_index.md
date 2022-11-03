@@ -10,7 +10,7 @@ url: /net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 
 Gets or sets Name of the [`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) containing placeholder text.
 
-BuildingBlock with this name [`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) otherwise InvalidOperationException will occur.
+[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) with this name [`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) has to be present in the [`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) otherwise InvalidOperationException will occur.
 
 ```csharp
 public string PlaceholderName { get; set; }

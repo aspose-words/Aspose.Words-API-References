@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Aspose.Words for .NET API Reference
-description: Creates a new custom document property of the PropertyType.String data type.
+description: Creates a new custom document property of the String data type.
 type: docs
 weight: 10
 url: /net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(string, string) {#add_4}
 
-Creates a new custom document property of the **PropertyType.String** data type.
+Creates a new custom document property of the String data type.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -91,7 +91,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, int) {#add_2}
 
-Creates a new custom document property of the **PropertyType.Number** data type.
+Creates a new custom document property of the Number data type.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -174,7 +174,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, DateTime) {#add_3}
 
-Creates a new custom document property of the **PropertyType.DateTime** data type.
+Creates a new custom document property of the DateTime data type.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -267,7 +267,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, bool) {#add}
 
-Creates a new custom document property of the **PropertyType.Boolean** data type.
+Creates a new custom document property of the Boolean data type.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -350,7 +350,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(string, double) {#add_1}
 
-Creates a new custom document property of the **PropertyType.Float** data type.
+Creates a new custom document property of the Double data type.
 
 ```csharp
 public DocumentProperty Add(string name, double value)

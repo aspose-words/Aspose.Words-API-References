@@ -3,7 +3,7 @@ title: PageSetup
 second_title: Aspose.Words for .NET API Reference
 description: Represents the page setup properties of a section.
 type: docs
-weight: 4120
+weight: 4140
 url: /net/aspose.words/pagesetup/
 ---
 ## PageSetup class
@@ -30,7 +30,7 @@ public class PageSetup
 | [BottomMargin](../../aspose.words/pagesetup/bottommargin/) { get; set; } | Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
 | [ChapterPageSeparator](../../aspose.words/pagesetup/chapterpageseparator/) { get; set; } | Gets or sets the separator character that appears between the chapter number and the page number. |
 | [CharactersPerLine](../../aspose.words/pagesetup/charactersperline/) { get; set; } | Gets or sets the number of characters per line in the document grid. |
-| [DifferentFirstPageHeaderFooter](../../aspose.words/pagesetup/differentfirstpageheaderfooter/) { get; set; } | **True** if a different header or footer is used on the first page. |
+| [DifferentFirstPageHeaderFooter](../../aspose.words/pagesetup/differentfirstpageheaderfooter/) { get; set; } | True if a different header or footer is used on the first page. |
 | [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/) { get; } | Provides options that control numbering and positioning of endnotes in this section. |
 | [FirstPageTray](../../aspose.words/pagesetup/firstpagetray/) { get; set; } | Gets or sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific. |
 | [FooterDistance](../../aspose.words/pagesetup/footerdistance/) { get; set; } | Returns or sets the distance (in points) between the footer and the bottom of the page. |
@@ -46,7 +46,7 @@ public class PageSetup
 | [LinesPerPage](../../aspose.words/pagesetup/linesperpage/) { get; set; } | Gets or sets the number of lines per page in the document grid. |
 | [LineStartingNumber](../../aspose.words/pagesetup/linestartingnumber/) { get; set; } | Gets or sets the starting line number. |
 | [MultiplePages](../../aspose.words/pagesetup/multiplepages/) { get; set; } | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
+| [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | True if the document has different headers and footers for odd-numbered and even-numbered pages. |
 | [Orientation](../../aspose.words/pagesetup/orientation/) { get; set; } | Returns or sets the orientation of the page. |
 | [OtherPagesTray](../../aspose.words/pagesetup/otherpagestray/) { get; set; } | Gets or sets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific. |
 | [PageHeight](../../aspose.words/pagesetup/pageheight/) { get; set; } | Returns or sets the height of the page in points. |
@@ -54,12 +54,12 @@ public class PageSetup
 | [PageStartingNumber](../../aspose.words/pagesetup/pagestartingnumber/) { get; set; } | Gets or sets the starting page number of the section. |
 | [PageWidth](../../aspose.words/pagesetup/pagewidth/) { get; set; } | Returns or sets the width of the page in points. |
 | [PaperSize](../../aspose.words/pagesetup/papersize/) { get; set; } | Returns or sets the paper size. |
-| [RestartPageNumbering](../../aspose.words/pagesetup/restartpagenumbering/) { get; set; } | **True** if page numbering restarts at the beginning of the section. |
+| [RestartPageNumbering](../../aspose.words/pagesetup/restartpagenumbering/) { get; set; } | True if page numbering restarts at the beginning of the section. |
 | [RightMargin](../../aspose.words/pagesetup/rightmargin/) { get; set; } | Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
 | [RtlGutter](../../aspose.words/pagesetup/rtlgutter/) { get; set; } | Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
 | [SectionStart](../../aspose.words/pagesetup/sectionstart/) { get; set; } | Returns or sets the type of section break for the specified object. |
 | [SheetsPerBooklet](../../aspose.words/pagesetup/sheetsperbooklet/) { get; set; } | Returns or sets the number of pages to be included in each booklet. |
-| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
+| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section. |
 | [TextColumns](../../aspose.words/pagesetup/textcolumns/) { get; } | Returns a collection that represents the set of text columns. |
 | [TextOrientation](../../aspose.words/pagesetup/textorientation/) { get; set; } | Allows to specify [`TextOrientation`](./textorientation/) for the whole page. Default value is Horizontal |
 | [TopMargin](../../aspose.words/pagesetup/topmargin/) { get; set; } | Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
@@ -73,7 +73,7 @@ public class PageSetup
 
 ## Remarks
 
-**PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
+[`PageSetup`](./pagesetup/) object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
 
 ## Examples
 

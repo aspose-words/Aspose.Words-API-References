@@ -19,7 +19,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [BookmarkEnd](./bookmarkend/) | Represents an end of a bookmark in a Word document. |
 | [BookmarkStart](./bookmarkstart/) | Represents a start of a bookmark in a Word document. |
 | [Border](./border/) | Represents a border of an object. |
-| [BorderCollection](./bordercollection/) | A collection of Border objects. |
+| [BorderCollection](./bordercollection/) | A collection of [`Border`](../aspose.words/border/) objects. |
 | [BuildVersionInfo](./buildversioninfo/) | Provides information about the current product name and version. |
 | [CleanupOptions](./cleanupoptions/) | Allows to specify options for document cleaning. |
 | [ComHelper](./comhelper/) | Provides methods for COM clients to load a document into Aspose.Words. |
@@ -46,7 +46,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Font](./font/) | Contains font attributes (font name, font size, color, and so on) for an object. |
 | [FrameFormat](./frameformat/) | Represents frame related formatting for a paragraph. |
 | [HeaderFooter](./headerfooter/) | Represents a container for the header or footer text of a section. |
-| [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [`HeaderFooter`](../aspose.words/headerfooter/) nodes of a **Section**. |
+| [HeaderFooterCollection](./headerfootercollection/) | Provides typed access to [`HeaderFooter`](../aspose.words/headerfooter/) nodes of a [`Section`](../aspose.words/section/). |
 | [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. |
 | [ImageWatermarkOptions](./imagewatermarkoptions/) | Contains options that can be specified when adding a watermark with image. |
 | [ImportFormatOptions](./importformatoptions/) | Allows to specify various import options to format output. |
@@ -74,18 +74,18 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [Run](./run/) | Represents a run of characters with the same font formatting. |
 | [RunCollection](./runcollection/) | Provides typed access to a collection of [`Run`](../aspose.words/run/) nodes. |
 | [Section](./section/) | Represents a single section in a document. |
-| [SectionCollection](./sectioncollection/) | A collection of **Section** objects in the document. |
+| [SectionCollection](./sectioncollection/) | A collection of [`Section`](../aspose.words/section/) objects in the document. |
 | [Shading](./shading/) | Contains shading attributes for an object. |
 | [SignatureLineOptions](./signaturelineoptions/) | Allows to specify options for signature line being inserted. Used in [`DocumentBuilder`](../aspose.words/documentbuilder/). |
 | [SpecialChar](./specialchar/) | Base class for special characters in the document. |
 | [Story](./story/) | Base class for elements that contain block-level nodes [`Paragraph`](../aspose.words/paragraph/) and [`Table`](../aspose.words.tables/table/). |
 | [Style](./style/) | Represents a single built-in or user-defined style. |
-| [StyleCollection](./stylecollection/) | A collection of Style objects that represent both the built-in and user-defined styles in a document. |
+| [StyleCollection](./stylecollection/) | A collection of [`Style`](../aspose.words/style/) objects that represent both the built-in and user-defined styles in a document. |
 | [SubDocument](./subdocument/) | Represents a **SubDocument** - which is a reference to an externally stored document. |
 | [TableStyle](./tablestyle/) | Represents a table style. |
-| [TabStop](./tabstop/) | Represents a single custom tab stop. The **TabStop** object is a member of the [`TabStopCollection`](../aspose.words/tabstopcollection/) collection. |
+| [TabStop](./tabstop/) | Represents a single custom tab stop. The [`TabStop`](../aspose.words/tabstop/) object is a member of the [`TabStopCollection`](../aspose.words/tabstopcollection/) collection. |
 | [TabStopCollection](./tabstopcollection/) | A collection of [`TabStop`](../aspose.words/tabstop/) objects that represent custom tabs for a paragraph or a style. |
-| [TextColumn](./textcolumn/) | Represents a single text column. **TextColumn** is a member of the [`TextColumnCollection`](../aspose.words/textcolumncollection/) collection. The **TextColumns** collection includes all the columns in a section of a document. |
+| [TextColumn](./textcolumn/) | Represents a single text column. [`TextColumn`](../aspose.words/textcolumn/) is a member of the [`TextColumnCollection`](../aspose.words/textcolumncollection/) collection. The [`TextColumn`](../aspose.words/textcolumn/) collection includes all the columns in a section of a document. |
 | [TextColumnCollection](./textcolumncollection/) | A collection of [`TextColumn`](../aspose.words/textcolumn/) objects that represent all the columns of text in a section of a document. |
 | [TextWatermarkOptions](./textwatermarkoptions/) | Contains options that can be specified when adding a watermark with text. |
 | [UnsupportedFileFormatException](./unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
@@ -139,7 +139,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [SaveFormat](./saveformat/) | Indicates the format in which the document is saved. |
 | [SectionLayoutMode](./sectionlayoutmode/) | Specifies the layout mode for a section allowing to define the document grid behavior. |
 | [SectionStart](./sectionstart/) | The type of break at the beginning of the section. |
-| [StoryType](./storytype/) | Text of a Word document is stored in stories. **StoryType** identifies a story. |
+| [StoryType](./storytype/) | Text of a Word document is stored in stories. [`StoryType`](../aspose.words/storytype/) identifies a story. |
 | [StyleIdentifier](./styleidentifier/) | Locale independent style identifier. |
 | [StyleType](./styletype/) | Represents type of the style. |
 | [TabAlignment](./tabalignment/) | Specifies the alignment/type of a tab stop. |

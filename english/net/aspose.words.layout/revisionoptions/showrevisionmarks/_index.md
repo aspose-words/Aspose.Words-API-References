@@ -1,14 +1,14 @@
 ---
 title: ShowRevisionMarks
 second_title: Aspose.Words for .NET API Reference
-description: Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
+description: Allow to specify whether revision text should be marked with special formatting markup. Default value is true.
 type: docs
 weight: 190
 url: /net/aspose.words.layout/revisionoptions/showrevisionmarks/
 ---
 ## RevisionOptions.ShowRevisionMarks property
 
-Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
+Allow to specify whether revision text should be marked with special formatting markup. Default value is `true`.
 
 ```csharp
 public bool ShowRevisionMarks { get; set; }

@@ -22,7 +22,7 @@ public void Execute(IMailMergeDataSource dataSource)
 
 Use this method to fill mail merge fields in the document with values from any data source such as a list or hashtable or objects. You need to write your own class that implements the [`IMailMergeDataSource`](../../imailmergedatasource/) interface.
 
-You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) is false, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
+You can use this method only when [`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) is `false`, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the RemoveUnusedRegions option.
 
@@ -46,7 +46,7 @@ public void Execute(string[] fieldNames, object[] values)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| values | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+| values | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in *fieldNames*. |
 
 ## Remarks
 
@@ -134,9 +134,9 @@ Use this method to fill mail merge fields in the document with values from a **D
 
 All records from the table are merged into the document.
 
-You can use NEXT field in the Word document to cause **MailMerge** object to select next record from the **DataTable** and continue merging. This can be used when creating documents such as mailing labels.
+You can use NEXT field in the Word document to cause [`MailMerge`](../) object to select next record from the **DataTable** and continue merging. This can be used when creating documents such as mailing labels.
 
-When **MailMerge** object reaches end of the main document and there are still more rows in the **DataTable**, it copies entire content of the main document and appends it to the end of the destination document using a section break as a separator.
+When [`MailMerge`](../) object reaches end of the main document and there are still more rows in the **DataTable**, it copies entire content of the main document and appends it to the end of the destination document using a section break as a separator.
 
 This method ignores the RemoveUnusedRegions option.
 
@@ -195,7 +195,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(IDataReader) {#execute_4}
 
-Performs mail merge from IDataReader into the document.
+Performs mail merge from **IDataReader** into the document.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -270,7 +270,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(DataView) {#execute_3}
 
-Performs mail merge from a DataView into the document.
+Performs mail merge from a **DataView** into the document.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -332,7 +332,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(DataRow) {#execute_1}
 
-Performs mail merge from a DataRow into the document.
+Performs mail merge from a **DataRow** into the document.
 
 ```csharp
 public void Execute(DataRow row)

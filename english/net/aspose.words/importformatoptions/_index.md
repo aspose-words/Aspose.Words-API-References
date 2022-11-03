@@ -3,7 +3,7 @@ title: ImportFormatOptions
 second_title: Aspose.Words for .NET API Reference
 description: Allows to specify various import options to format output.
 type: docs
-weight: 3040
+weight: 3060
 url: /net/aspose.words/importformatoptions/
 ---
 ## ImportFormatOptions class

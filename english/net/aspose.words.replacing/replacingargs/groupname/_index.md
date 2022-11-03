@@ -16,9 +16,9 @@ public string GroupName { get; set; }
 
 ## Remarks
 
-When group name is null, [`GroupIndex`](../groupindex/) is used to identify the group.
+When group name is `null`, [`GroupIndex`](../groupindex/) is used to identify the group.
 
-Default is null.
+Default is `null`.
 
 ## Examples
 

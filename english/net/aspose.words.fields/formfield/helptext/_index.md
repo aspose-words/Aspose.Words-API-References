@@ -16,7 +16,7 @@ public string HelpText { get; set; }
 
 ## Remarks
 
-If the OwnHelp property is set to True, HelpText specifies the text string value. If OwnHelp is set to False, HelpText specifies the name of an AutoText entry that contains help text for the form field.
+If the [`OwnHelp`](../ownhelp/) property is set to `true`, `HelpText` specifies the text string value. If [`OwnHelp`](../ownhelp/) is set to `false`, `HelpText` specifies the name of an AutoText entry that contains help text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.
 

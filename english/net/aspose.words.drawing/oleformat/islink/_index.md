@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Returns true if the OLE object is linked (when [`SourceFullName`](../sourcefullname/) is specified).
+Returns `true` if the OLE object is linked (when [`SourceFullName`](../sourcefullname/) is specified).
 
 ```csharp
 public bool IsLink { get; }

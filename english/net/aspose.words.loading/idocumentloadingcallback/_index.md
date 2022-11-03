@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback
 second_title: Aspose.Words for .NET API Reference
 description: Implement this interface if you want to have your own custom method called during loading a document.
 type: docs
-weight: 3430
+weight: 3450
 url: /net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface

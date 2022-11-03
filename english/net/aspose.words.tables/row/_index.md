@@ -3,7 +3,7 @@ title: Row
 second_title: Aspose.Words for .NET API Reference
 description: Represents a table row.
 type: docs
-weight: 6010
+weight: 6040
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -20,31 +20,31 @@ public class Row : CompositeNode
 
 | Name | Description |
 | --- | --- |
-| [Row](row/)(DocumentBase) | Initializes a new instance of the **Row** class. |
+| [Row](row/)(DocumentBase) | Initializes a new instance of the [`Row`](./row/) class. |
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells/) { get; } | Provides typed access to the **Cell** child nodes of the row. |
+| [Cells](../../aspose.words.tables/row/cells/) { get; } | Provides typed access to the [`Cell`](../cell/) child nodes of the row. |
 | [ChildNodes](../../aspose.words/compositenode/childnodes/) { get; } | Gets all immediate child nodes of this node. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Gets the number of immediate children of this node. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifies custom node identifier. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
-| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Returns the first **Cell** in the row. |
+| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Returns the first [`Cell`](../cell/) in the row. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | True if this is the first row in a table; false otherwise. |
 | [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True if this is the last row in a table; false otherwise. |
-| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Returns the last **Cell** in the row. |
+| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Returns the last [`Cell`](../cell/) in the row. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | Returns **NodeType.Row**. |
+| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | Returns Row. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | Returns the immediate parent table of the row. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 | [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | Provides access to the formatting properties of the row. |
 
 ## Methods
@@ -55,7 +55,7 @@ public class Row : CompositeNode
 | [AppendChild](../../aspose.words/compositenode/appendchild/)(Node) | Adds the specified node to the end of the list of child nodes for this node. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Reserved for system use. IXPathNavigable. |
-| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | If the **Row** has no cells, creates and appends one **Cell**. |
+| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | If the [`Row`](./row/) has no cells, creates and appends one [`Cell`](../cell/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(NodeType) | Gets the first ancestor of the specified [`NodeType`](../../aspose.words/nodetype/). |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Type) | Gets the first ancestor of the specified object type. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(NodeType, int, bool) | Returns an Nth child node that matches the specified type. |
@@ -73,17 +73,17 @@ public class Row : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-**Row** can only be a child of a **Table**.
+[`Row`](./row/) can only be a child of a [`Table`](../table/).
 
-**Row** can contain one or more **Cell** nodes.
+[`Row`](./row/) can contain one or more [`Cell`](../cell/) nodes.
 
-A minimal valid row needs to have at least one **Cell**.
+A minimal valid row needs to have at least one [`Cell`](../cell/).
 
 ## Examples
 

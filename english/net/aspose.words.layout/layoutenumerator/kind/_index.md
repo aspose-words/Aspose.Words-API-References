@@ -8,7 +8,7 @@ url: /net/aspose.words.layout/layoutenumerator/kind/
 ---
 ## LayoutEnumerator.Kind property
 
-Gets the kind of the current entity. This can be an empty string but never null.
+Gets the kind of the current entity. This can be an empty string but never `null`.
 
 ```csharp
 public string Kind { get; }

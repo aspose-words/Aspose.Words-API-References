@@ -16,7 +16,7 @@ public void ClearFormatting()
 
 ## Remarks
 
-Removes all font formatting specified explicitly on the object from which **Font** was obtained so the font formatting will be inherited from the appropriate parent.
+Removes all font formatting specified explicitly on the object from which [`Font`](../) was obtained so the font formatting will be inherited from the appropriate parent.
 
 ## Examples
 

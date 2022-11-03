@@ -16,7 +16,7 @@ public bool IsAuto { get; set; }
 
 ## Remarks
 
-[`ReferenceMark`](../referencemark/) initialized with empty string if IsAuto set to false.
+[`ReferenceMark`](../referencemark/) initialized with empty string if `IsAuto` set to `false`.
 
 ## Examples
 

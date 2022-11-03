@@ -16,7 +16,7 @@ public Paragraph AppendParagraph(string text)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | String | The text for the paragraph. Can be null or empty string. |
+| text | String | The text for the paragraph. Can be `null` or empty string. |
 
 ### Return Value
 

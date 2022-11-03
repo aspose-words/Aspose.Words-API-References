@@ -1,14 +1,14 @@
 ---
 title: Item
 second_title: Aspose.Words for .NET API Reference
-description: Retrieves a Paragraph at the given index.
+description: Retrieves a Paragraphaspose.words/paragraph/ at the given index.
 type: docs
 weight: 10
 url: /net/aspose.words/paragraphcollection/item/
 ---
 ## ParagraphCollection indexer
 
-Retrieves a **Paragraph** at the given index.
+Retrieves a [`Paragraph`](../../paragraph/) at the given index.
 
 ```csharp
 public Paragraph this[int index] { get; }

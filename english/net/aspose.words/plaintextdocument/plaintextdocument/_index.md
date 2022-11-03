@@ -64,7 +64,7 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | String | Name of the file to extract the text from. |
-| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be `null`. |
 
 ### Exceptions
 
@@ -175,7 +175,7 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Stream | The stream where to extract the text from. |
-| loadOptions | LoadOptions | Additional options to use when loading a document. Can be null. |
+| loadOptions | LoadOptions | Additional options to use when loading a document. Can be `null`. |
 
 ### Exceptions
 

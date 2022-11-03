@@ -16,7 +16,7 @@ public Section ParentSection { get; }
 
 ## Remarks
 
-**ParentSection** is equivalent to `(Section)ParentNode`.
+`ParentSection` is equivalent to [`ParentNode`](../../node/parentnode/) casted to [`Section`](../../section/).
 
 ## Examples
 

@@ -16,7 +16,7 @@ public OfficeMathRenderer(OfficeMath math)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| math | OfficeMath | The OfficeMath object that you want to render. |
+| math | OfficeMath | The [`OfficeMath`](../../../aspose.words.math/officemath/) object that you want to render. |
 
 ## Examples
 

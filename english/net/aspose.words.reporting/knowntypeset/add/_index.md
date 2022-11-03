@@ -10,7 +10,7 @@ url: /net/aspose.words.reporting/knowntypeset/add/
 
 Adds the specified Type object to the set. Throws ArgumentException in the following cases:
 
-- *type* is null.
+- *type* is `null`.
 
 - *type* represents a void type.
 

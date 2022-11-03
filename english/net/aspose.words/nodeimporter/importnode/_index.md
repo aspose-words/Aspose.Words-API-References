@@ -17,7 +17,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | Node | The node to import. |
-| isImportChildren | Boolean | True to import all child nodes recursively; otherwise, false. |
+| isImportChildren | Boolean | `true` to import all child nodes recursively; otherwise, `false`. |
 
 ### Return Value
 

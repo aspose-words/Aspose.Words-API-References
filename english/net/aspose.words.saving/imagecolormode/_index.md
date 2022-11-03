@@ -3,7 +3,7 @@ title: ImageColorMode
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the color mode for the generated images of document pages.
 type: docs
-weight: 4950
+weight: 4980
 url: /net/aspose.words.saving/imagecolormode/
 ---
 ## ImageColorMode enumeration

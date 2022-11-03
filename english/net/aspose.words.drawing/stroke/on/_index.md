@@ -16,7 +16,7 @@ public bool On { get; set; }
 
 ## Remarks
 
-The default value for a [`Shape`](../../shape/) is **true**.
+The default value for a [`Shape`](../../shape/) is `true`.
 
 ## Examples
 

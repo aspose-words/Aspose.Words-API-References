@@ -20,7 +20,7 @@ public void SetCount(int newCount)
 
 ## Remarks
 
-When [`EvenlySpaced`](../evenlyspaced/) is **false** and you increase the number of columns, new [`TextColumn`](../../textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
+When [`EvenlySpaced`](../evenlyspaced/) is `false` and you increase the number of columns, new [`TextColumn`](../../textcolumn/) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
 ## Examples
 

@@ -16,7 +16,7 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | True to link the headers and footers to the previous section; false to unlink them. |
+| isLinkToPrevious | Boolean | `true` to link the headers and footers to the previous section; `false` to unlink them. |
 
 ## Remarks
 
@@ -103,7 +103,7 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headerFooterType | HeaderFooterType | A [`HeaderFooterType`](../../headerfootertype/) value that specifies the header or footer to link/unlink. |
-| isLinkToPrevious | Boolean | True to link the header or footer to the previous section; false to unlink. |
+| isLinkToPrevious | Boolean | `true` to link the header or footer to the previous section; `false` to unlink. |
 
 ## Remarks
 

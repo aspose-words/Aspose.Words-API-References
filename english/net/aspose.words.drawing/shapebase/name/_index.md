@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 Default is empty string.
 
-Cannot be null, but can be an empty string.
+Cannot be `null`, but can be an empty string.
 
 ## Examples
 

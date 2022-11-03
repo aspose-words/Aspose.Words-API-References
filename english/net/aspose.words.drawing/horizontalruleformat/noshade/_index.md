@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/horizontalruleformat/noshade/
 ---
 ## HorizontalRuleFormat.NoShade property
 
-Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used.
+Indicates the presence of 3D shading for the horizontal rule. If `true`, then the horizontal rule is without 3D shading and solid color is used.
 
 ```csharp
 public bool NoShade { get; set; }
@@ -16,7 +16,7 @@ public bool NoShade { get; set; }
 
 ## Remarks
 
-The default value is false.
+The default value is `false`.
 
 ## Examples
 

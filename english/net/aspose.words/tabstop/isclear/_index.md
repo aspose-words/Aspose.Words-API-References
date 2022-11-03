@@ -8,7 +8,7 @@ url: /net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Returns true if this tab stop clears any existing tab stops in this position.
+Returns `true` if this tab stop clears any existing tab stops in this position.
 
 ```csharp
 public bool IsClear { get; }

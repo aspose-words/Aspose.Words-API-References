@@ -8,7 +8,7 @@ url: /net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Returns true if a property with the specified name exists in the collection.
+Returns `true` if a property with the specified name exists in the collection.
 
 ```csharp
 public bool Contains(string name)
@@ -20,7 +20,7 @@ public bool Contains(string name)
 
 ### Return Value
 
-True if the property exists in the collection; false otherwise.
+`true` if the property exists in the collection; `false` otherwise.
 
 ## Examples
 

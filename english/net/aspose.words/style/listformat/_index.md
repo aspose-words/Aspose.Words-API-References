@@ -16,7 +16,7 @@ public ListFormat ListFormat { get; }
 
 ## Remarks
 
-This property is only valid for paragraph styles. For other style types this property returns null.
+This property is only valid for paragraph styles. For other style types this property returns `null`.
 
 ## Examples
 

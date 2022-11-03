@@ -3,7 +3,7 @@ title: OfficeMath
 second_title: Aspose.Words for .NET API Reference
 description: Represents an Office Math object such as function equation matrix or alike. Can contain child elements including runs of mathematical text bookmarks comments other OfficeMath./officemath/ instances and some other nodes.
 type: docs
-weight: 3880
+weight: 3900
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
@@ -27,17 +27,17 @@ public class OfficeMath : CompositeNode
 | virtual [Document](../../aspose.words/node/document/) { get; } | Gets the document to which this node belongs. |
 | [EquationXmlEncoding](../../aspose.words.math/officemath/equationxmlencoding/) { get; set; } | Gets/sets an encoding that was used to encode equation XML, if this office math object is read from equation XML. We use the encoding on saving a document to write in same encoding that it was read. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns true if this node has any child nodes. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns true as this node can have child nodes. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [Justification](../../aspose.words.math/officemath/justification/) { get; set; } | Gets/sets Office Math justification. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Gets the last child of the node. |
 | [MathObjectType](../../aspose.words.math/officemath/mathobjecttype/) { get; } | Gets type [`MathObjectType`](./mathobjecttype/) of this Office Math object. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Gets the node immediately following this node. |
-| override [NodeType](../../aspose.words.math/officemath/nodetype/) { get; } | Returns **NodeType.OfficeMath**. |
+| override [NodeType](../../aspose.words.math/officemath/nodetype/) { get; } | Returns OfficeMath. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Gets the immediate parent of this node. |
 | [ParentParagraph](../../aspose.words.math/officemath/parentparagraph/) { get; } | Retrieves the parent [`Paragraph`](../../aspose.words/paragraph/) of this node. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Gets the node immediately preceding this node. |
-| [Range](../../aspose.words/node/range/) { get; } | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [Range](../../aspose.words/node/range/) { get; } | Returns a [`Range`](../../aspose.words/range/) object that represents the portion of a document that is contained in this node. |
 
 ## Methods
 
@@ -65,13 +65,13 @@ public class OfficeMath : CompositeNode
 | [RemoveChild](../../aspose.words/compositenode/removechild/)(Node) | Removes the specified child node. |
 | [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Removes all [`SmartTag`](../../aspose.words.markup/smarttag/) descendant nodes of the current node. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(string) | Selects a list of nodes matching the XPath expression. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first Node that matches the XPath expression. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(string) | Selects the first [`Node`](../../aspose.words/node/) that matches the XPath expression. |
 | [ToString](../../aspose.words/node/tostring/)(SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../../aspose.words/node/tostring/)(SaveOptions) | Exports the content of the node into a string using the specified save options. |
 
 ## Remarks
 
-In this version of Aspose.Words, [`OfficeMath`](./officemath/) nodes do not provide public methods and properties to create or modify a OfficeMath object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
+In this version of Aspose.Words, [`OfficeMath`](./officemath/) nodes do not provide public methods and properties to create or modify a [`OfficeMath`](./officemath/) object. In this version you are not able to instantiate Math nodes or modify existing except deleting them.
 
 [`OfficeMath`](./officemath/) can only be a child of [`Paragraph`](../../aspose.words/paragraph/).
 

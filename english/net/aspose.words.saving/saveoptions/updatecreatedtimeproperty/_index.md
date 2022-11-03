@@ -8,7 +8,7 @@ url: /net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/
 ---
 ## SaveOptions.UpdateCreatedTimeProperty property
 
-Gets or sets a value determining whether the [`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is false;
+Gets or sets a value determining whether the [`CreatedTime`](../../../aspose.words.properties/builtindocumentproperties/createdtime/) property is updated before saving. Default value is `false`;
 
 ```csharp
 public bool UpdateCreatedTimeProperty { get; set; }

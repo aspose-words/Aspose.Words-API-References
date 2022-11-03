@@ -16,7 +16,7 @@ public bool OwnStatus { get; set; }
 
 ## Remarks
 
-If true, the text specified by the StatusText property is displayed. If false, the text of the AutoText entry specified by the StatusText property is displayed.
+If `true`, the text specified by the [`StatusText`](../statustext/) property is displayed. If `false`, the text of the AutoText entry specified by the [`StatusText`](../statustext/) property is displayed.
 
 ## Examples
 

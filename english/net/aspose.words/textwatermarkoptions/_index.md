@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 second_title: Aspose.Words for .NET API Reference
 description: Contains options that can be specified when adding a watermark with text.
 type: docs
-weight: 6140
+weight: 6170
 url: /net/aspose.words/textwatermarkoptions/
 ---
 ## TextWatermarkOptions class
@@ -26,10 +26,10 @@ public class TextWatermarkOptions
 
 | Name | Description |
 | --- | --- |
-| [Color](../../aspose.words/textwatermarkoptions/color/) { get; set; } | Gets or sets font color. The default value is Color.Silver. |
+| [Color](../../aspose.words/textwatermarkoptions/color/) { get; set; } | Gets or sets font color. The default value is Silver. |
 | [FontFamily](../../aspose.words/textwatermarkoptions/fontfamily/) { get; set; } | Gets or sets font family name. The default value is "Calibri". |
 | [FontSize](../../aspose.words/textwatermarkoptions/fontsize/) { get; set; } | Gets or sets a font size. The default value is 0 - auto. |
-| [IsSemitrasparent](../../aspose.words/textwatermarkoptions/issemitrasparent/) { get; set; } | Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is True. |
+| [IsSemitrasparent](../../aspose.words/textwatermarkoptions/issemitrasparent/) { get; set; } | Gets or sets a boolean value which is responsible for opacity of the watermark. The default value is `true`. |
 | [Layout](../../aspose.words/textwatermarkoptions/layout/) { get; set; } | Gets or sets layout of the watermark. The default value is Diagonal. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Words for .NET API Reference
 description: Specifies the format in which the document will be saved if this save options object is used. Can only be Pdf.
 type: docs
-weight: 260
+weight: 270
 url: /net/aspose.words.saving/pdfsaveoptions/saveformat/
 ---
 ## PdfSaveOptions.SaveFormat property

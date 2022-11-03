@@ -8,7 +8,7 @@ url: /net/aspose.words/revision/author/
 ---
 ## Revision.Author property
 
-Gets or sets the author of this revision. Can not be empty string or null.
+Gets or sets the author of this revision. Can not be empty string or `null`.
 
 ```csharp
 public string Author { get; set; }

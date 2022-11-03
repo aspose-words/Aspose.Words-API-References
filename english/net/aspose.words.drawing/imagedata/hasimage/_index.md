@@ -8,7 +8,7 @@ url: /net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Returns true if the shape has image bytes or links an image.
+Returns `true` if the shape has image bytes or links an image.
 
 ```csharp
 public bool HasImage { get; }
