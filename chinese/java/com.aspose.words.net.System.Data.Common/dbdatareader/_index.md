@@ -1,7 +1,7 @@
 ---
 title: DbDataReader
 second_title: Aspose.Words for Java API 参考
-description:从数据源读取只进的行流。
+description: 从数据源读取只进的行流。
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words.net.system.data.common/dbdatareader/
