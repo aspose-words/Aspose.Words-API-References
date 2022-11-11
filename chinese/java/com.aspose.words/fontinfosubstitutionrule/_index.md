@@ -1,7 +1,7 @@
 ---
 title: FontInfoSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:字体信息替换规则。
+second_title: Aspose.Words for Java API Reference
+description: 字体信息替换规则。
 type: docs
 weight: 282
 url: /zh/java/com.aspose.words/fontinfosubstitutionrule/
@@ -18,7 +18,7 @@ public class FontInfoSubstitutionRule extends FontSubstitutionRule
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 根据这条规则，Aspose.Words 评估所有相关字段[FontInfo](../../com.aspose.words/fontinfo)（Panose、Sig 等）查找丢失的字体，并在可用字体源中找到最接近的匹配项。如果[FontInfo](../../com.aspose.words/fontinfo)不适用于缺少的字体，则不会执行任何操作。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

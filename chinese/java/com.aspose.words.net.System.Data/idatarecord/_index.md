@@ -1,7 +1,7 @@
 ---
 title: IDataRecord
-second_title: Aspose.Words for Java API 参考
-description:为 DataReader 提供对每行中列值的访问，并由访问关系数据库的 .NET Framework 数据提供程序实现。
+second_title: Aspose.Words for Java API Reference
+description: 为 DataReader 提供对每行中列值的访问，并由访问关系数据库的 .NET Framework 数据提供程序实现。
 type: docs
 weight: 35
 url: /zh/java/com.aspose.words.net.system.data/idatarecord/
@@ -11,7 +11,7 @@ public interface IDataRecord
 ```
 
 为 DataReader 提供对每行中列值的访问，并由访问关系数据库的 .NET Framework 数据提供程序实现。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

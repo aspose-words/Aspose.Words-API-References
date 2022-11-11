@@ -1,7 +1,7 @@
 ---
 title: CompressionLevel
-second_title: Aspose.Words for Java API 参考
-description:OOXML 文件的压缩级别。
+second_title: Aspose.Words for Java API Reference
+description: OOXML 文件的压缩级别。
 type: docs
 weight: 88
 url: /zh/java/com.aspose.words/compressionlevel/
@@ -27,7 +27,7 @@ OOXML 文件的压缩级别。
 | [NORMAL](#NORMAL) | 正常压缩级别。 |
 | [SUPER_FAST](#SUPER-FAST) | 超快速压缩级别。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

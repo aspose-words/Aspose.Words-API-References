@@ -1,7 +1,7 @@
 ---
 title: Bookmark
-second_title: Aspose.Words for Java API 参考
-description:表示单个书签。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个书签。
 type: docs
 weight: 31
 url: /zh/java/com.aspose.words/bookmark/
@@ -18,7 +18,7 @@ public class Bookmark
 要了解更多信息，请访问**Working with Bookmarks**文档文章。
 
 [Bookmark](../../com.aspose.words/bookmark)是一个封装了两个节点的“门面”对象[getBookmarkStart()](../../com.aspose.words/bookmark\#getBookmarkStart--)和[getBookmarkEnd()](../../com.aspose.words/bookmark\#getBookmarkEnd--)在文档树中，并允许将书签作为单个对象使用。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

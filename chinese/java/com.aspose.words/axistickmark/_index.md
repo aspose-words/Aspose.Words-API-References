@@ -1,7 +1,7 @@
 ---
 title: AxisTickMark
-second_title: Aspose.Words for Java API 参考
-description:指定刻度线的可能位置。
+second_title: Aspose.Words for Java API Reference
+description: 指定刻度线的可能位置。
 type: docs
 weight: 24
 url: /zh/java/com.aspose.words/axistickmark/
@@ -23,7 +23,7 @@ public class AxisTickMark
 | [NONE](#NONE) | 指定不应有刻度线。 |
 | [OUTSIDE](#OUTSIDE) | 指定刻度线应位于绘图区域之外。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ChapterPageSeparator
-second_title: Aspose.Words for Java API 参考
-description:定义出现在章节和页码之间的分隔符。
+second_title: Aspose.Words for Java API Reference
+description: 定义出现在章节和页码之间的分隔符。
 type: docs
 weight: 54
 url: /zh/java/com.aspose.words/chapterpageseparator/
@@ -24,7 +24,7 @@ public class ChapterPageSeparator
 | [HYPHEN](#HYPHEN) | 一个冒号。 |
 | [PERIOD](#PERIOD) | 一段时间。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

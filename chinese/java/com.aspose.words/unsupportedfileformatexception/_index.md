@@ -1,7 +1,7 @@
 ---
 title: UnsupportedFileFormatException
-second_title: Aspose.Words for Java API 参考
-description:当 Aspose.Words 无法识别或不支持文档格式时，在文档加载期间引发。
+second_title: Aspose.Words for Java API Reference
+description: 当 Aspose.Words 无法识别或不支持文档格式时，在文档加载期间引发。
 type: docs
 weight: 590
 url: /zh/java/com.aspose.words/unsupportedfileformatexception/
@@ -16,7 +16,7 @@ public class UnsupportedFileFormatException extends Exception
 在文档加载期间，当 Aspose.Words 无法识别或不支持文档格式时抛出。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

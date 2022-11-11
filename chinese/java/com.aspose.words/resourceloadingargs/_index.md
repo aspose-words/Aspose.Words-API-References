@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingArgs
-second_title: Aspose.Words for Java API 参考
-description:为方法提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为方法提供数据。
 type: docs
 weight: 480
 url: /zh/java/com.aspose.words/resourceloadingargs/
@@ -14,7 +14,7 @@ public class ResourceLoadingArgs
 ```
 
 提供数据为[IResourceLoadingCallback.resourceLoading(com.aspose.words.ResourceLoadingArgs)](../../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs-)方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

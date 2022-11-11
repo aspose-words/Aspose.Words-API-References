@@ -1,7 +1,7 @@
 ---
 title: 字段MergingArgsBase
-second_title: Aspose.Words for Java API 参考
-description:和 的基类。
+second_title: Aspose.Words for Java API Reference
+description: 和 的基类。
 type: docs
 weight: 219
 url: /zh/java/com.aspose.words/fieldmergingargsbase/
@@ -16,12 +16,12 @@ public abstract class 字段MergingArgsBase
 基类[字段MergingArgs](../../com.aspose.words/fieldmergingargs)和[Image字段MergingArgs](../../com.aspose.words/imagefieldmergingargs).
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [字段MergingArgsBase()](#字段MergingArgsBase--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

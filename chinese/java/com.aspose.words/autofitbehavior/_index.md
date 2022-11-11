@@ -1,7 +1,7 @@
 ---
 title: AutoFitBehavior
-second_title: Aspose.Words for Java API 参考
-description:确定调用 MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior 方法时 Aspose.Words 如何调整表格大小。
+second_title: Aspose.Words for Java API Reference
+description: 确定调用 MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior 方法时 Aspose.Words 如何调整表格大小。
 type: docs
 weight: 15
 url: /zh/java/com.aspose.words/autofitbehavior/
@@ -22,7 +22,7 @@ public class AutoFitBehavior
 | [AUTO_FIT_TO_WINDOW](#AUTO-FIT-TO-WINDOW) | 当您使用此值时，Aspose.Words 启用 AutoFit 选项，将表格的首选宽度设置为 100%，从所有单元格中删除首选宽度，然后更新表格布局。 |
 | [FIXED_COLUMN_WIDTHS](#FIXED-COLUMN-WIDTHS) | Aspose.Words 禁用 AutoFit 选项并从表中删除首选。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

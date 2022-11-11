@@ -1,7 +1,7 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Words for Java API 参考
-description:允许指定图表上单个数据点的格式。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定图表上单个数据点的格式。
 type: docs
 weight: 60
 url: /zh/java/com.aspose.words/chartdatapoint/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartdatapoint/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
 ```
 public class ChartDataPoint implements IChartDataPoint, Cloneable
@@ -21,7 +21,7 @@ public class ChartDataPoint implements IChartDataPoint, Cloneable
 要了解更多信息，请访问**Working with Charts**文档文章。
 
 在一个系列中，[ChartDataPoint](../../com.aspose.words/chartdatapoint)对象是[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection).这[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection)包含一个[ChartDataPoint](../../com.aspose.words/chartdatapoint)每个点的对象。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

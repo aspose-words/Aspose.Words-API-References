@@ -1,6 +1,6 @@
 ---
 title: Cluster
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 74
@@ -12,12 +12,12 @@ java.lang.Object
 ```
 public class Cluster
 ```
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph---) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

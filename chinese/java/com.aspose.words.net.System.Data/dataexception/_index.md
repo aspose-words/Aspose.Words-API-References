@@ -1,7 +1,7 @@
 ---
 title: DataException
-second_title: Aspose.Words for Java API 参考
-description:表示使用 ADO.NET 组件生成错误时引发的异常。
+second_title: Aspose.Words for Java API Reference
+description: 表示使用 ADO.NET 组件生成错误时引发的异常。
 type: docs
 weight: 16
 url: /zh/java/com.aspose.words.net.system.data/dataexception/
@@ -14,13 +14,13 @@ public class DataException extends IllegalStateException
 ```
 
 表示使用 ADO.NET 组件生成错误时引发的异常。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DataException(String s)](#DataException-java.lang.String-) | 初始化一个新的实例[DataException](../../com.aspose.words.net.system.data/dataexception)具有指定字符串的类。 |
 | [DataException(Exception ex)](#DataException-java.lang.Exception-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

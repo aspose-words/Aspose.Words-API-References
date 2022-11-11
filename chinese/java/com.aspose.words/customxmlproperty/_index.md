@@ -1,7 +1,7 @@
 ---
 title: CustomXmlProperty
-second_title: Aspose.Words for Java API 参考
-description:表示单个自定义 XML 属性或智能标记属性。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个自定义 XML 属性或智能标记属性。
 type: docs
 weight: 106
 url: /zh/java/com.aspose.words/customxmlproperty/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/customxmlproperty/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class CustomXmlProperty implements Cloneable
@@ -21,12 +21,12 @@ public class CustomXmlProperty implements Cloneable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 作为一个项目使用[CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection)收藏。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [CustomXmlProperty(String name, String uri, String value)](#CustomXmlProperty-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

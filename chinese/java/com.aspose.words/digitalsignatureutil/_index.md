@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureUtil
-second_title: Aspose.Words for Java API 参考
-description:提供签署文件的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供签署文件的方法。
 type: docs
 weight: 114
 url: /zh/java/com.aspose.words/digitalsignatureutil/
@@ -20,7 +20,7 @@ public class DigitalSignatureUtil
 由于数字签名适用于文件内容而不是文档对象模型，因此这些方法被放入一个单独的类中。
 
 支持的格式是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)和[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

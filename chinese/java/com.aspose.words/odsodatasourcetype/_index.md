@@ -1,7 +1,7 @@
 ---
 title: OdsoDataSource类型
-second_title: Aspose.Words for Java API 参考
-description:指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
+second_title: Aspose.Words for Java API Reference
+description: 指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
 type: docs
 weight: 412
 url: /zh/java/com.aspose.words/odsodatasourcetype/
@@ -32,7 +32,7 @@ OOXML 规范对于这个枚举非常模糊。我猜它可能对应于 WdMergeSub
 | [NONE](#NONE) | 未指定外部数据源的类型。 |
 | [TEXT](#TEXT) | 指定给定文档已连接到文本文件。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

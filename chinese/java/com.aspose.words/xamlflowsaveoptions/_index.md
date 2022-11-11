@@ -1,7 +1,7 @@
 ---
 title: XamlFlowSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为 or 格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为 or 格式时指定其他选项。
 type: docs
 weight: 626
 url: /zh/java/com.aspose.words/xamlflowsaveoptions/
@@ -16,13 +16,13 @@ public class XamlFlowSaveOptions extends SaveOptions
 可用于在将文档保存到[SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [XamlFlowSaveOptions()](#XamlFlowSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)格式。 |
 | [XamlFlowSaveOptions(int saveFormat)](#XamlFlowSaveOptions-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

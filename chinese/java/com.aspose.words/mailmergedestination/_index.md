@@ -1,7 +1,7 @@
 ---
 title: MailMergeDestination
-second_title: Aspose.Words for Java API 参考
-description:指定对文档执行邮件合并时可能生成的结果。
+second_title: Aspose.Words for Java API Reference
+description: 指定对文档执行邮件合并时可能生成的结果。
 type: docs
 weight: 383
 url: /zh/java/com.aspose.words/mailmergedestination/
@@ -24,7 +24,7 @@ public class MailMergeDestination
 | [NEW_DOCUMENT](#NEW-DOCUMENT) | 指定符合要求的宿主应用程序应通过使用来自指定外部数据源的数据填充给定文档中的字段来生成新文档。 |
 | [PRINTER](#PRINTER) | 指定符合要求的托管应用程序应打印通过使用来自指定外部数据源的外部数据填充给定文档中的字段而产生的文档。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

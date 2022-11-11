@@ -1,7 +1,7 @@
 ---
 title: ImportFormatMode
-second_title: Aspose.Words for Java API 参考
-description:指定从另一个文档导入内容时如何合并格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定从另一个文档导入内容时如何合并格式。
 type: docs
 weight: 346
 url: /zh/java/com.aspose.words/importformatmode/
@@ -42,7 +42,7 @@ public class ImportFormatMode
 | [KEEP_SOURCE_FORMATTING](#KEEP-SOURCE-FORMATTING) | 将所有需要的样式复制到目标文档，如果需要，生成唯一的样式名称。 |
 | [USE_DESTINATION_STYLES](#USE-DESTINATION-STYLES) | 使用目标文档样式并复制新样式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

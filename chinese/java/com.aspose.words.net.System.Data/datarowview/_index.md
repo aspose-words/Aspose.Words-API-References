@@ -1,7 +1,7 @@
 ---
 title: DataRowView
-second_title: Aspose.Words for Java API 参考
-description:表示一个自定义视图。
+second_title: Aspose.Words for Java API Reference
+description: 表示一个自定义视图。
 type: docs
 weight: 23
 url: /zh/java/com.aspose.words.net.system.data/datarowview/
@@ -14,12 +14,12 @@ public class DataRowView
 ```
 
 表示一个自定义视图[DataRow](../../com.aspose.words.net.system.data/datarow).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DataRowView(System.Data.DataView view, System.Data.DataRow row)](#DataRowView-com.aspose.words.net.System.Data.DataView-com.aspose.words.net.System.Data.DataRow-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

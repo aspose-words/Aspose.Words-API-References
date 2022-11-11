@@ -1,7 +1,7 @@
 ---
 title: IComparisonExpressionEvaluator
-second_title: Aspose.Words for Java API 参考
-description:实现时允许覆盖和字段的默认比较表达式评估。
+second_title: Aspose.Words for Java API Reference
+description: 实现时允许覆盖和字段的默认比较表达式评估。
 type: docs
 weight: 634
 url: /zh/java/com.aspose.words/icomparisonexpressionevaluator/
@@ -11,7 +11,7 @@ public interface IComparisonExpressionEvaluator
 ```
 
 实施时，允许覆盖默认比较表达式评估[字段If](../../com.aspose.words/fieldif)和[字段Compare](../../com.aspose.words/fieldcompare)字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

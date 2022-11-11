@@ -1,7 +1,7 @@
 ---
 title: FontConfigSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:字体配置替换规则。
+second_title: Aspose.Words for Java API Reference
+description: 字体配置替换规则。
 type: docs
 weight: 276
 url: /zh/java/com.aspose.words/fontconfigsubstitutionrule/
@@ -20,7 +20,7 @@ public class FontConfigSubstitutionRule extends FontSubstitutionRule
 如果原始字体不可用，此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换。
 
 如果 fontconfig 实用程序不可用，则此规则将被忽略。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

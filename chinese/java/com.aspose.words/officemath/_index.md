@@ -1,7 +1,7 @@
 ---
 title: OfficeMath
-second_title: Aspose.Words for Java API 参考
-description:表示 Office Math 对象，例如函数方程矩阵等。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Office Math 对象，例如函数方程矩阵等。
 type: docs
 weight: 420
 url: /zh/java/com.aspose.words/officemath/
@@ -20,7 +20,7 @@ public class OfficeMath extends CompositeNode
 在这个版本的 Aspose.Words 中，[OfficeMath](../../com.aspose.words/officemath)节点不提供公共方法和属性来创建或修改 OfficeMath 对象。在此版本中，您无法实例化**N:Aspose.Words.Math**节点或修改现有节点，但删除它们。
 
 [OfficeMath](../../com.aspose.words/officemath)只能是[Paragraph](../../com.aspose.words/paragraph).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

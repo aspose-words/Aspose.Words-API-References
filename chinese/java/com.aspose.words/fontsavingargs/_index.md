@@ -1,7 +1,7 @@
 ---
 title: FontSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 285
 url: /zh/java/com.aspose.words/fontsavingargs/
@@ -26,7 +26,7 @@ public class FontSavingArgs
 要决定是否保存特定字体资源，请使用[isExportNeeded()](../../com.aspose.words/fontsavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/fontsavingargs\#isExportNeeded-boolean-)财产。
 
 要将字体保存到流而不是文件中，请使用**P:Aspose.Words.Saving.FontSavingArgs.FontStream**财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

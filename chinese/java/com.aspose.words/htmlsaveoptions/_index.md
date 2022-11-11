@@ -1,7 +1,7 @@
 ---
 title: HtmlSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为 or 格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为 or 格式时指定其他选项。
 type: docs
 weight: 331
 url: /zh/java/com.aspose.words/htmlsaveoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/htmlsaveoptions/
 **遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class HtmlSaveOptions extends SaveOptions implements Cloneable
@@ -19,13 +19,13 @@ public class HtmlSaveOptions extends SaveOptions implements Cloneable
 可用于在将文档保存到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [HtmlSaveOptions()](#HtmlSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML)格式。 |
 | [HtmlSaveOptions(int saveFormat)](#HtmlSaveOptions-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

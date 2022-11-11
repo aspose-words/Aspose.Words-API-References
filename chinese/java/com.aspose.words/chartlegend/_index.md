@@ -1,7 +1,7 @@
 ---
 title: ChartLegend
-second_title: Aspose.Words for Java API 参考
-description:表示图表图例属性。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表图例属性。
 type: docs
 weight: 63
 url: /zh/java/com.aspose.words/chartlegend/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartlegend/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ChartLegend implements Cloneable
@@ -19,12 +19,12 @@ public class ChartLegend implements Cloneable
 表示图表图例属性。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ChartLegend()](#ChartLegend--) | 初始化一个新的实例[ChartLegend](../../com.aspose.words/chartlegend)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

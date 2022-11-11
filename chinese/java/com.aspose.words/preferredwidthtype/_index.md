@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth类型
-second_title: Aspose.Words for Java API 参考
-description:指定表格或单元格的首选宽度的测量单位。
+second_title: Aspose.Words for Java API Reference
+description: 指定表格或单元格的首选宽度的测量单位。
 type: docs
 weight: 467
 url: /zh/java/com.aspose.words/preferredwidthtype/
@@ -22,7 +22,7 @@ public class PreferredWidth类型
 | [PERCENT](#PERCENT) | 使用指定百分比测量当前项目宽度。 |
 | [POINTS](#POINTS) | 使用指定的点数（1/72 英寸）测量当前项目的宽度。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

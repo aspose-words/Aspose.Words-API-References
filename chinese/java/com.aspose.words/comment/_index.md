@@ -1,7 +1,7 @@
 ---
 title: Comment
-second_title: Aspose.Words for Java API 参考
-description:表示注释文本的容器。
+second_title: Aspose.Words for Java API Reference
+description: 表示注释文本的容器。
 type: docs
 weight: 76
 url: /zh/java/com.aspose.words/comment/
@@ -26,13 +26,13 @@ public class Comment extends InlineStory
 [Comment](../../com.aspose.words/comment)是一个内联级节点，只能是[Paragraph](../../com.aspose.words/paragraph).
 
 [Comment](../../com.aspose.words/comment)可以包含[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)子节点。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Comment(DocumentBase doc)](#Comment-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Comment**班级。 |
 | [Comment(DocumentBase doc, String author, String initial, Date dateTime)](#Comment-com.aspose.words.DocumentBase-java.lang.String-java.lang.String-java.util.Date-) | 初始化一个新的实例**Comment**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

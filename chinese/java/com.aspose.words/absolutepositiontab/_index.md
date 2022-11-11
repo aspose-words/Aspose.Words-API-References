@@ -1,7 +1,7 @@
 ---
 title: AbsolutePositionTab
-second_title: Aspose.Words for Java API 参考
-description:绝对位置制表符是一个字符，用于在显示此 WordprocessingML 内容时在当前文本行上推进位置。
+second_title: Aspose.Words for Java API Reference
+description: 绝对位置制表符是一个字符，用于在显示此 WordprocessingML 内容时在当前文本行上推进位置。
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words/absolutepositiontab/
@@ -16,7 +16,7 @@ public class AbsolutePositionTab extends SpecialChar
 绝对位置制表符是一个字符，用于在显示此 WordprocessingML 内容时在当前文本行上推进位置。
 
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

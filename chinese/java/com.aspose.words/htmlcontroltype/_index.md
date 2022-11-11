@@ -1,7 +1,7 @@
 ---
 title: HtmlControl类型
-second_title: Aspose.Words for Java API 参考
-description:表示从 HTML 导入的元素的文档节点类型。
+second_title: Aspose.Words for Java API Reference
+description: 表示从 HTML 导入的元素的文档节点类型。
 type: docs
 weight: 323
 url: /zh/java/com.aspose.words/htmlcontroltype/
@@ -21,7 +21,7 @@ public class HtmlControl类型
 | [FORM_FIELD](#FORM-FIELD) |  |
 | [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

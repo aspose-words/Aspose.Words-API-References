@@ -1,6 +1,6 @@
 ---
 title: DataTableEventListener
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 33
@@ -9,7 +9,7 @@ url: /zh/java/com.aspose.words.net.system.data/datatableeventlistener/
 ```
 public interface DataTableEventListener
 ```
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

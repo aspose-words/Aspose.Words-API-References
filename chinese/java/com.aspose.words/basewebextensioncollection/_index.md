@@ -1,7 +1,7 @@
 ---
 title: BaseWebExtensionCollection
-second_title: Aspose.Words for Java API 参考
-description:和集合的基类。
+second_title: Aspose.Words for Java API Reference
+description: 和集合的基类。
 type: docs
 weight: 27
 url: /zh/java/com.aspose.words/basewebextensioncollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/basewebextensioncollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public abstract class BaseWebExtensionCollection implements Iterable
@@ -19,12 +19,12 @@ public abstract class BaseWebExtensionCollection implements Iterable
 基类[TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection)收藏品。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [BaseWebExtensionCollection()](#BaseWebExtensionCollection--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

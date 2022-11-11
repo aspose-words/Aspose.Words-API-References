@@ -1,7 +1,7 @@
 ---
 title: AxisScale类型
-second_title: Aspose.Words for Java API 参考
-description:指定轴的可能比例类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定轴的可能比例类型。
 type: docs
 weight: 21
 url: /zh/java/com.aspose.words/axisscaletype/
@@ -21,7 +21,7 @@ public class AxisScale类型
 | [LINEAR](#LINEAR) | 线性缩放。 |
 | [LOGARITHMIC](#LOGARITHMIC) | 对数缩放。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

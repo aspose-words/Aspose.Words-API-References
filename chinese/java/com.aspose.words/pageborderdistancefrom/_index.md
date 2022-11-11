@@ -1,7 +1,7 @@
 ---
 title: PageBorderDistanceFrom
-second_title: Aspose.Words for Java API 参考
-description:指定页面边框相对于页边距的位置。
+second_title: Aspose.Words for Java API Reference
+description: 指定页面边框相对于页边距的位置。
 type: docs
 weight: 433
 url: /zh/java/com.aspose.words/pageborderdistancefrom/
@@ -21,7 +21,7 @@ public class PageBorderDistanceFrom
 | [PAGE_EDGE](#PAGE-EDGE) | 边框位置从页面边缘开始测量。 |
 | [TEXT](#TEXT) | 边框位置从页边距开始测量。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

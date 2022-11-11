@@ -1,7 +1,7 @@
 ---
 title: ExportListLabels
-second_title: Aspose.Words for Java API 参考
-description:指定如何将列表标签导出为 HTML MHTML 和 EPUB。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将列表标签导出为 HTML MHTML 和 EPUB。
 type: docs
 weight: 150
 url: /zh/java/com.aspose.words/exportlistlabels/
@@ -22,7 +22,7 @@ public class ExportListLabels
 | [AUTO](#AUTO) | 在自动模式下输出列表标签。 |
 | [BY_HTML_TAGS](#BY-HTML-TAGS) | 将所有列表标签输出为 HTML 原生元素。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

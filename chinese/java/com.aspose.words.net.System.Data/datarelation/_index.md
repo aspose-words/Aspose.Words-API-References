@@ -1,7 +1,7 @@
 ---
 title: DataRelation
-second_title: Aspose.Words for Java API 参考
-description:表示两个对象之间的父/子关系。
+second_title: Aspose.Words for Java API Reference
+description: 表示两个对象之间的父/子关系。
 type: docs
 weight: 18
 url: /zh/java/com.aspose.words.net.system.data/datarelation/
@@ -14,7 +14,7 @@ public class DataRelation
 ```
 
 表示两个之间的父/子关系[DataTable](../../com.aspose.words.net.system.data/datatable)对象。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -22,7 +22,7 @@ public class DataRelation
 | [DataRelation(String relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns, boolean createConstraints)](#DataRelation-java.lang.String-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用指定名称的类，匹配的父子数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象和指示是否创建约束的值。 |
 | [DataRelation(String relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#DataRelation-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-) | 初始化一个新的实例[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用指定名称、父级和子级的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象，以及指示是否创建约束的值。 |
 | [DataRelation(String relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#DataRelation-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用指定的类[DataRelation](../../com.aspose.words.net.system.data/datarelation)姓名，父母和孩子[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

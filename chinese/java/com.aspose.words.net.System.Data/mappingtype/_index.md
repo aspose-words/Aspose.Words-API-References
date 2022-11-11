@@ -1,7 +1,7 @@
 ---
 title: Mapping类型
-second_title: Aspose.Words for Java API 参考
-description:指定如何映射 a。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何映射 a。
 type: docs
 weight: 31
 url: /zh/java/com.aspose.words.net.system.data/mappingtype/
@@ -22,7 +22,7 @@ public class Mapping类型
 | [ELEMENT](#ELEMENT) | 该列被映射到一个 XML 元素。 |
 | [HIDDEN](#HIDDEN) | 该列映射到内部结构。 |
 | [SIMPLE_CONTENT](#SIMPLE-CONTENT) | 该列映射到一个文本节点。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

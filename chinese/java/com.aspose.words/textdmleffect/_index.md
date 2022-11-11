@@ -1,7 +1,7 @@
 ---
 title: TextDmlEffect
-second_title: Aspose.Words for Java API 参考
-description:文本运行的 Dml 文本效果。
+second_title: Aspose.Words for Java API Reference
+description: 文本运行的 Dml 文本效果。
 type: docs
 weight: 563
 url: /zh/java/com.aspose.words/textdmleffect/
@@ -25,7 +25,7 @@ public class TextDmlEffect
 | [REFLECTION](#REFLECTION) | 反射效果。 |
 | [SHADOW](#SHADOW) | 阴影效果。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

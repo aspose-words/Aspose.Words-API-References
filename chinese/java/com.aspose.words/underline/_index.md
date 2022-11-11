@@ -1,7 +1,7 @@
 ---
 title: Underline
-second_title: Aspose.Words for Java API 参考
-description:指示应用于字体的下划线类型。
+second_title: Aspose.Words for Java API Reference
+description: 指示应用于字体的下划线类型。
 type: docs
 weight: 588
 url: /zh/java/com.aspose.words/underline/
@@ -37,7 +37,7 @@ public class Underline
 | [WAVY_HEAVY](#WAVY-HEAVY) |  |
 | [WORDS](#WORDS) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

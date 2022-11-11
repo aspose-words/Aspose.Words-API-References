@@ -1,7 +1,7 @@
 ---
 title: ChartMarker
-second_title: Aspose.Words for Java API 参考
-description:表示图表数据标记。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表数据标记。
 type: docs
 weight: 66
 url: /zh/java/com.aspose.words/chartmarker/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartmarker/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ChartMarker implements Cloneable
@@ -19,7 +19,7 @@ public class ChartMarker implements Cloneable
 表示图表数据标记。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

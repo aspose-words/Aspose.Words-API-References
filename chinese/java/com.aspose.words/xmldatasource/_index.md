@@ -1,7 +1,7 @@
 ---
 title: XmlDataSource
-second_title: Aspose.Words for Java API 参考
-description:提供对要在报告中使用的 XML 文件或流的数据的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对要在报告中使用的 XML 文件或流的数据的访问。
 type: docs
 weight: 628
 url: /zh/java/com.aspose.words/xmldatasource/
@@ -34,7 +34,7 @@ public class XmlDataSource
 请注意，为了使数据类型的自动识别起作用，简单 XML 元素和属性值的字符串表示应该使用不变的文化设置形成。
 
 要覆盖 XML 数据加载的默认行为，请初始化并传递[XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions)实例到此类的构造函数。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -46,7 +46,7 @@ public class XmlDataSource
 | [XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
 | [XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。 |
 | [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

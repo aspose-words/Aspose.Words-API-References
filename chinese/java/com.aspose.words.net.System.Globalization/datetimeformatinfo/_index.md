@@ -1,7 +1,7 @@
 ---
 title: DateTimeFormatInfo
-second_title: Aspose.Words for Java API 参考
-description:.Nets System.Globalization.DateTimeFormatInfo 的映射。
+second_title: Aspose.Words for Java API Reference
+description: .Nets System.Globalization.DateTimeFormatInfo 的映射。
 type: docs
 weight: 12
 url: /zh/java/com.aspose.words.net.system.globalization/datetimeformatinfo/
@@ -14,7 +14,7 @@ public class DateTimeFormatInfo
 ```
 
 .Net 的 System.Globalization.DateTimeFormatInfo 的映射。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: VariableCollection
-second_title: Aspose.Words for Java API 参考
-description:文档变量的集合。
+second_title: Aspose.Words for Java API Reference
+description: 文档变量的集合。
 type: docs
 weight: 592
 url: /zh/java/com.aspose.words/variablecollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/variablecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class VariableCollection implements Iterable
@@ -23,7 +23,7 @@ public class VariableCollection implements Iterable
 变量名和值是字符串。
 
 变量名不区分大小写。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

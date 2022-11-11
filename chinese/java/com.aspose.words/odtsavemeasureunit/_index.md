@@ -1,7 +1,7 @@
 ---
 title: OdtSaveMeasureUnit
-second_title: Aspose.Words for Java API 参考
-description:在保存期间应用于可测量的文档内容（例如形状宽度和其他）的指定测量单位。
+second_title: Aspose.Words for Java API Reference
+description: 在保存期间应用于可测量的文档内容（例如形状宽度和其他）的指定测量单位。
 type: docs
 weight: 418
 url: /zh/java/com.aspose.words/odtsavemeasureunit/
@@ -21,7 +21,7 @@ public class OdtSaveMeasureUnit
 | [CENTIMETERS](#CENTIMETERS) | 指定使用厘米保存文档内容。 |
 | [INCHES](#INCHES) | 指定使用英寸保存文档内容。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

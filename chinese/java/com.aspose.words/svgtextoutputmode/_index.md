@@ -1,6 +1,6 @@
 ---
 title: SvgTextOutputMode
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 542
@@ -20,7 +20,7 @@ public class SvgTextOutputMode
 | [USE_SVG_FONTS](#USE-SVG-FONTS) | SVG 字体用于渲染文本。 |
 | [USE_TARGET_MACHINE_FONTS](#USE-TARGET-MACHINE-FONTS) | 安装在目标机器上的字体用于渲染文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

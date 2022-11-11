@@ -1,7 +1,7 @@
 ---
 title: 字段Collection
-second_title: Aspose.Words for Java API 参考
-description:表示指定范围内的字段的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示指定范围内的字段的对象集合。
 type: docs
 weight: 169
 url: /zh/java/com.aspose.words/fieldcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/fieldcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class 字段Collection implements Iterable
@@ -25,7 +25,7 @@ public class 字段Collection implements Iterable
 这[字段Collection](../../com.aspose.words/fieldcollection)集合不拥有它包含的字段，而只是字段的选择。
 
 这[字段Collection](../../com.aspose.words/fieldcollection)集合是“实时的”，即对创建它的节点对象的子对象的更改会立即反映在由[字段Collection](../../com.aspose.words/fieldcollection)属性和方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

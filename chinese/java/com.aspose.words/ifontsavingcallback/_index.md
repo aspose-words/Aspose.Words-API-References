@@ -1,7 +1,7 @@
 ---
 title: IFontSavingCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
 type: docs
 weight: 646
 url: /zh/java/com.aspose.words/ifontsavingcallback/
@@ -11,7 +11,7 @@ public interface IFontSavingCallback
 ```
 
 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

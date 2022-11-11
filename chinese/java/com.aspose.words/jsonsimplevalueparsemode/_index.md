@@ -1,7 +1,7 @@
 ---
 title: JsonSimpleValueParseMode
-second_title: Aspose.Words for Java API 参考
-description:指定在加载 JSON 时解析 JSON 简单值 null 布尔数字整数和字符串的模式。
+second_title: Aspose.Words for Java API Reference
+description: 指定在加载 JSON 时解析 JSON 简单值 null 布尔数字整数和字符串的模式。
 type: docs
 weight: 355
 url: /zh/java/com.aspose.words/jsonsimplevalueparsemode/
@@ -21,7 +21,7 @@ public class JsonSimpleValueParseMode
 | [LOOSE](#LOOSE) | 指定在解析其字符串表示时确定 JSON 简单值类型的模式。 |
 | [STRICT](#STRICT) | 指定从 JSON 表示法本身确定 JSON 简单值类型的模式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

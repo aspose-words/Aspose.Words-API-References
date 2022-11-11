@@ -1,7 +1,7 @@
 ---
 title: DefaultFontSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:默认字体替换规则。
+second_title: Aspose.Words for Java API Reference
+description: 默认字体替换规则。
 type: docs
 weight: 110
 url: /zh/java/com.aspose.words/defaultfontsubstitutionrule/
@@ -18,7 +18,7 @@ public class DefaultFontSubstitutionRule extends FontSubstitutionRule
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 如果原始字体不可用，此规则定义用于替换的单个默认字体名称。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

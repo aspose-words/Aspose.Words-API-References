@@ -1,7 +1,7 @@
 ---
 title: FontInfoCollection
-second_title: Aspose.Words for Java API 参考
-description:表示文档中使用的字体集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中使用的字体集合。
 type: docs
 weight: 281
 url: /zh/java/com.aspose.words/fontinfocollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/fontinfocollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class FontInfoCollection implements Iterable
@@ -23,7 +23,7 @@ public class FontInfoCollection implements Iterable
 项目是[FontInfo](../../com.aspose.words/fontinfo)对象。
 
 您不直接创建此类的实例。使用[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性来访问文档中定义的字体集合。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

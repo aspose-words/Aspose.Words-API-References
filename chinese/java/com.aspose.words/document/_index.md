@@ -1,7 +1,7 @@
 ---
 title: Document
-second_title: Aspose.Words for Java API 参考
-description:表示 Word 文档。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Word 文档。
 type: docs
 weight: 120
 url: /zh/java/com.aspose.words/document/
@@ -43,7 +43,7 @@ public class Document extends DocumentBase
 这**Document**只能包含[Section](../../com.aspose.words/section)对象。
 
 在 Microsoft Word 中，一个有效的文档至少需要有一个部分。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -52,7 +52,7 @@ public class Document extends DocumentBase
 | [Document(String fileName, LoadOptions loadOptions)](#Document-java.lang.String-com.aspose.words.LoadOptions-) | 从文件中打开现有文档。 |
 | [Document(InputStream stream)](#Document-java.io.InputStream-) | 初始化此类的新实例。 |
 | [Document(InputStream stream, LoadOptions loadOptions)](#Document-java.io.InputStream-com.aspose.words.LoadOptions-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -258,7 +258,6 @@ public Document(String fileName)
 从文件中打开现有文档。自动检测文件格式。
 
 **参数:**
-
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String | 要打开的文档的文件名。 |

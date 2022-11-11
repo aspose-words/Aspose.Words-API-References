@@ -1,7 +1,7 @@
 ---
 title: ThemeFont
-second_title: Aspose.Words for Java API 参考
-description:指定文档主题的主题字体名称类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档主题的主题字体名称类型。
 type: docs
 weight: 576
 url: /zh/java/com.aspose.words/themefont/
@@ -22,7 +22,7 @@ public class ThemeFont
 | [MINOR](#MINOR) | 次要主题字体。 |
 | [NONE](#NONE) | 没有主题字体。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

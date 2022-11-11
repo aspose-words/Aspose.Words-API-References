@@ -1,7 +1,7 @@
 ---
 title: 字段Options
-second_title: Aspose.Words for Java API 参考
-description:表示用于控制文档中的字段处理的选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示用于控制文档中的字段处理的选项。
 type: docs
 weight: 227
 url: /zh/java/com.aspose.words/fieldoptions/
@@ -16,7 +16,7 @@ public class 字段Options
 表示用于控制文档中的字段处理的选项。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

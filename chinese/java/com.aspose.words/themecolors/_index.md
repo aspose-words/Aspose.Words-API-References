@@ -1,7 +1,7 @@
 ---
 title: ThemeColors
-second_title: Aspose.Words for Java API 参考
-description:表示包含十二种颜色的文档主题的配色方案。
+second_title: Aspose.Words for Java API Reference
+description: 表示包含十二种颜色的文档主题的配色方案。
 type: docs
 weight: 575
 url: /zh/java/com.aspose.words/themecolors/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/themecolors/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ThemeColors implements Cloneable
@@ -19,7 +19,7 @@ public class ThemeColors implements Cloneable
 表示包含十二种颜色的文档主题的配色方案。
 
 ThemeColors 对象包含六种强调色、两种深色、两种浅色和一种颜色，分别用于一个超链接和后续超链接。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

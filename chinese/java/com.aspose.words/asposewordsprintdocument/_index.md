@@ -1,7 +1,7 @@
 ---
 title: AsposeWordsPrintDocument
-second_title: Aspose.Words for Java API 参考
-description:为 Java 打印框架内的打印提供默认实现。
+second_title: Aspose.Words for Java API Reference
+description: 为 Java 打印框架内的打印提供默认实现。
 type: docs
 weight: 14
 url: /zh/java/com.aspose.words/asposewordsprintdocument/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/asposewordsprintdocument/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.awt.print.Pageable，java.awt.print.Printable
 ```
 public class AsposeWordsPrintDocument implements Pageable, Printable
@@ -25,12 +25,12 @@ public class AsposeWordsPrintDocument implements Pageable, Printable
 一个 Aspose.Words 文档可以由多个部分组成，这些部分指定具有不同尺寸、方向和纸盘的页面。[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)应用于正确打印每种不同的纸张尺寸、方向等。
 
 另一方面，如果文档只包含一个部分，开发人员可以使用[AsposeWordsPrintDocument](../../com.aspose.words/asposewordsprintdocument)以提高打印性能。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [AsposeWordsPrintDocument(Document document)](#AsposeWordsPrintDocument-com.aspose.words.Document-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

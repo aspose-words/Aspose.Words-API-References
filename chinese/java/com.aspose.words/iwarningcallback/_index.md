@@ -1,7 +1,7 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。
 type: docs
 weight: 661
 url: /zh/java/com.aspose.words/iwarningcallback/
@@ -11,7 +11,7 @@ public interface IWarningCallback
 ```
 
 如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

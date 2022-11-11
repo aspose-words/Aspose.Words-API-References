@@ -1,7 +1,7 @@
 ---
 title: Resource类型
-second_title: Aspose.Words for Java API 参考
-description:加载资源的类型。
+second_title: Aspose.Words for Java API Reference
+description: 加载资源的类型。
 type: docs
 weight: 482
 url: /zh/java/com.aspose.words/resourcetype/
@@ -22,7 +22,7 @@ public class Resource类型
 | [DOCUMENT](#DOCUMENT) | 文档。 |
 | [IMAGE](#IMAGE) | 图片。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

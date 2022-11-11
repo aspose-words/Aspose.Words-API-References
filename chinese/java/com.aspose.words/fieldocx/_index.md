@@ -1,7 +1,7 @@
 ---
 title: 字段Ocx
-second_title: Aspose.Words for Java API 参考
-description:实现 OCX 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 OCX 字段。
 type: docs
 weight: 226
 url: /zh/java/com.aspose.words/fieldocx/
@@ -16,7 +16,7 @@ public class 字段Ocx extends 字段
 实现 OCX 字段。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

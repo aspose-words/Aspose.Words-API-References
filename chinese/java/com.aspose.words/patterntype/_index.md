@@ -1,7 +1,7 @@
 ---
 title: Pattern类型
-second_title: Aspose.Words for Java API 参考
-description:指定用于填充形状的填充图案。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于填充形状的填充图案。
 type: docs
 weight: 447
 url: /zh/java/com.aspose.words/patterntype/
@@ -74,7 +74,7 @@ public class Pattern类型
 | [WIDE_UPWARD_DIAGONAL](#WIDE-UPWARD-DIAGONAL) | 宽向上对角线。 |
 | [ZIG_ZAG](#ZIG-ZAG) | 之字形。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

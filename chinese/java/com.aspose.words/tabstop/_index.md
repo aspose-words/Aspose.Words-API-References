@@ -1,7 +1,7 @@
 ---
 title: TabStop
-second_title: Aspose.Words for Java API 参考
-description:表示单个自定义制表位。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个自定义制表位。
 type: docs
 weight: 546
 url: /zh/java/com.aspose.words/tabstop/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/tabstop/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class TabStop implements Cloneable
@@ -23,13 +23,13 @@ public class TabStop implements Cloneable
 通常，制表位指定制表位存在的位置。但是因为制表位可以从父样式继承，所以子对象可能需要明确定义在给定位置没有制表位。要清除给定位置的继承制表位，请创建一个**TabStop**对象和集合[getAlignment()](../../com.aspose.words/tabstop\#getAlignment--) / [setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int-)到 TabAlignment.Clear 。
 
 有关更多信息，请参阅[TabStopCollection](../../com.aspose.words/tabstopcollection).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [TabStop(double position)](#TabStop-double-) | 初始化此类的新实例。 |
 | [TabStop(double position, int alignment, int leader)](#TabStop-double-int-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

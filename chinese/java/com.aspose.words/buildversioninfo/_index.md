@@ -1,7 +1,7 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Words for Java API 参考
-description:提供有关当前产品名称和版本的信息。
+second_title: Aspose.Words for Java API Reference
+description: 提供有关当前产品名称和版本的信息。
 type: docs
 weight: 40
 url: /zh/java/com.aspose.words/buildversioninfo/
@@ -16,7 +16,7 @@ public class BuildVersionInfo
 提供有关当前产品名称和版本的信息。
 
 要了解更多信息，请访问**Generator or Producer Name Included in Output Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

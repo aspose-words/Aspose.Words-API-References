@@ -1,7 +1,7 @@
 ---
 title: List
-second_title: Aspose.Words for Java API 参考
-description:表示列表的格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示列表的格式。
 type: docs
 weight: 368
 url: /zh/java/com.aspose.words/list/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/list/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable, java.lang.Comparable
 ```
 public class List implements Cloneable, Comparable
@@ -29,7 +29,7 @@ Microsoft Word 文档中的列表是一组列表格式属性。每个列表最�
 要修改列表的格式，请使用[ListLevel](../../com.aspose.words/listlevel)中发现的对象[getListLevels()](../../com.aspose.words/list\#getListLevels--)收藏。
 
 要在段落中应用或删除列表格式，请使用[ListFormat](../../com.aspose.words/listformat).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

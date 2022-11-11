@@ -1,7 +1,7 @@
 ---
 title: GradientStyle
-second_title: Aspose.Words for Java API 参考
-description:指定渐变填充的样式。
+second_title: Aspose.Words for Java API Reference
+description: 指定渐变填充的样式。
 type: docs
 weight: 310
 url: /zh/java/com.aspose.words/gradientstyle/
@@ -26,7 +26,7 @@ public class GradientStyle
 | [NONE](#NONE) | 没有渐变。 |
 | [VERTICAL](#VERTICAL) | 垂直向下运行的渐变对象。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

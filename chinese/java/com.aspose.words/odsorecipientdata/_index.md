@@ -1,7 +1,7 @@
 ---
 title: OdsoRecipientData
-second_title: Aspose.Words for Java API 参考
-description:表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。
+second_title: Aspose.Words for Java API Reference
+description: 表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。
 type: docs
 weight: 416
 url: /zh/java/com.aspose.words/odsorecipientdata/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/odsorecipientdata/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class OdsoRecipientData implements Cloneable
@@ -21,7 +21,7 @@ public class OdsoRecipientData implements Cloneable
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
 如果将记录合并到合并文档中，则不需要有关该记录的信息。但是，如果给定记录不应合并到合并文档中，则该记录的唯一键值应存储在[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)此对象的属性以指示此排除。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

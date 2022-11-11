@@ -1,7 +1,7 @@
 ---
 title: WebExtensionReferenceCollection
-second_title: Aspose.Words for Java API 参考
-description:指定 Web 扩展引用的列表。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Web 扩展引用的列表。
 type: docs
 weight: 618
 url: /zh/java/com.aspose.words/webextensionreferencecollection/
@@ -16,7 +16,7 @@ public class WebExtensionReferenceCollection extends BaseWebExtensionCollection
 指定 Web 扩展引用的列表。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

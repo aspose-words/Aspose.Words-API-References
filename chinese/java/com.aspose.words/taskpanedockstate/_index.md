@@ -1,7 +1,7 @@
 ---
 title: TaskPaneDockState
-second_title: Aspose.Words for Java API 参考
-description:枚举任务窗格对象的可用位置。
+second_title: Aspose.Words for Java API Reference
+description: 枚举任务窗格对象的可用位置。
 type: docs
 weight: 557
 url: /zh/java/com.aspose.words/taskpanedockstate/
@@ -21,7 +21,7 @@ public class TaskPaneDockState
 | [LEFT](#LEFT) | 将任务窗格停靠在文档窗口的左侧。 |
 | [RIGHT](#RIGHT) | 将任务窗格停靠在文档窗口的右侧。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

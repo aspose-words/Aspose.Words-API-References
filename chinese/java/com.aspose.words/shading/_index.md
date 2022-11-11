@@ -1,7 +1,7 @@
 ---
 title: Shading
-second_title: Aspose.Words for Java API 参考
-description:包含对象的着色属性。
+second_title: Aspose.Words for Java API Reference
+description: 包含对象的着色属性。
 type: docs
 weight: 513
 url: /zh/java/com.aspose.words/shading/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/shading/
 **遗产:**
 java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Shading extends InternableComplexAttr implements Cloneable
@@ -19,7 +19,7 @@ public class Shading extends InternableComplexAttr implements Cloneable
 包含对象的着色属性。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

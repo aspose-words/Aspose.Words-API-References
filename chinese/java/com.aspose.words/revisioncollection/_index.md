@@ -1,7 +1,7 @@
 ---
 title: RevisionCollection
-second_title: Aspose.Words for Java API 参考
-description:代表文档中修订的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 代表文档中修订的对象集合。
 type: docs
 weight: 484
 url: /zh/java/com.aspose.words/revisioncollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/revisioncollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class RevisionCollection implements Iterable
@@ -21,7 +21,7 @@ public class RevisionCollection implements Iterable
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
 
 您不直接创建此类的实例。使用[Document.getRevisions()](../../com.aspose.words/document\#getRevisions--)属性来获取文档中存在的修订。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

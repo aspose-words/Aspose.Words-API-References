@@ -1,7 +1,7 @@
 ---
 title: 字段Next
-second_title: Aspose.Words for Java API 参考
-description:实现 NEXT 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 NEXT 字段。
 type: docs
 weight: 220
 url: /zh/java/com.aspose.words/fieldnext/
@@ -18,7 +18,7 @@ public class 字段Next extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 将下一条数据记录合并到当前生成的合并文档中，而不是开始一个新的合并文档。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

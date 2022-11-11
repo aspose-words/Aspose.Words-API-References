@@ -1,7 +1,7 @@
 ---
 title: InternableComplexAttr
-second_title: Aspose.Words for Java API 参考
-description:可内部复杂属性的基类。
+second_title: Aspose.Words for Java API Reference
+description: 可内部复杂属性的基类。
 type: docs
 weight: 351
 url: /zh/java/com.aspose.words/internablecomplexattr/
@@ -16,12 +16,12 @@ public abstract class InternableComplexAttr
 可内部复杂属性的基类。可交互的复杂属性应在更改时通知父集合。
 
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [InternableComplexAttr()](#InternableComplexAttr--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockBehavior
-second_title: Aspose.Words for Java API 参考
-description:指定在将构建块插入主文档时应应用于构建块内容的行为。
+second_title: Aspose.Words for Java API Reference
+description: 指定在将构建块插入主文档时应应用于构建块内容的行为。
 type: docs
 weight: 42
 url: /zh/java/com.aspose.words/buildingblockbehavior/
@@ -25,7 +25,7 @@ public class BuildingBlockBehavior
 | [PAGE](#PAGE) | 指定应将构建块添加到其自己的页面中。 |
 | [PARAGRAPH](#PARAGRAPH) | 指定构建块应插入到其自己的段落中。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

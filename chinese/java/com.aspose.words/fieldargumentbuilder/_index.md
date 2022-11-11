@@ -1,7 +1,7 @@
 ---
 title: 字段ArgumentBuilder
-second_title: Aspose.Words for Java API 参考
-description:构建一个由字段节点和纯文本组成的复杂字段参数。
+second_title: Aspose.Words for Java API Reference
+description: 构建一个由字段节点和纯文本组成的复杂字段参数。
 type: docs
 weight: 155
 url: /zh/java/com.aspose.words/fieldargumentbuilder/
@@ -16,12 +16,12 @@ public class 字段ArgumentBuilder
 构建由字段、节点和纯文本组成的复杂字段参数。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [字段ArgumentBuilder()](#字段ArgumentBuilder--) | 初始化一个实例[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

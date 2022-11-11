@@ -1,7 +1,7 @@
 ---
 title: NumberStyle
-second_title: Aspose.Words for Java API 参考
-description:指定列表脚注和尾注页码的编号样式。
+second_title: Aspose.Words for Java API Reference
+description: 指定列表脚注和尾注页码的编号样式。
 type: docs
 weight: 409
 url: /zh/java/com.aspose.words/numberstyle/
@@ -81,7 +81,7 @@ public class NumberStyle
 | [ZODIAC_2](#ZODIAC-2) | 象形文字生肖 |
 | [ZODIAC_3](#ZODIAC-3) | 象形文字生肖传统 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

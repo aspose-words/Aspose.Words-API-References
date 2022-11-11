@@ -1,7 +1,7 @@
 ---
 title: TextPathAlignment
-second_title: Aspose.Words for Java API 参考
-description:艺术字对齐。
+second_title: Aspose.Words for Java API Reference
+description: 艺术字对齐。
 type: docs
 weight: 568
 url: /zh/java/com.aspose.words/textpathalignment/
@@ -25,7 +25,7 @@ public class TextPathAlignment
 | [STRETCH](#STRETCH) | 拉伸每一行文本以适应宽度。 |
 | [WORD_JUSTIFY](#WORD-JUSTIFY) | 展开文字以适应宽度。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

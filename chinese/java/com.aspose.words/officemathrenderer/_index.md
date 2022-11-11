@@ -1,7 +1,7 @@
 ---
 title: OfficeMathRenderer
-second_title: Aspose.Words for Java API 参考
-description:提供将个人渲染为光栅或矢量图像或图形对象的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供将个人渲染为光栅或矢量图像或图形对象的方法。
 type: docs
 weight: 423
 url: /zh/java/com.aspose.words/officemathrenderer/
@@ -16,12 +16,12 @@ public class OfficeMathRenderer extends NodeRendererBase
 提供渲染个体的方法[OfficeMath](../../com.aspose.words/officemath)到光栅或矢量图像或到图形对象。
 
 要了解更多信息，请访问**Working with OfficeMath**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [OfficeMathRenderer(OfficeMath math)](#OfficeMathRenderer-com.aspose.words.OfficeMath-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

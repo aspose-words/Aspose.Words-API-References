@@ -1,7 +1,7 @@
 ---
 title: 字段FillIn
-second_title: Aspose.Words for Java API 参考
-description:实现 FILLIN 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 FILLIN 字段。
 type: docs
 weight: 189
 url: /zh/java/com.aspose.words/fieldfillin/
@@ -18,7 +18,7 @@ public class 字段FillIn extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 提示用户输入文本。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

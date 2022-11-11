@@ -1,7 +1,7 @@
 ---
 title: WatermarkLayout
-second_title: Aspose.Words for Java API 参考
-description:定义相对于水印中心的水印布局。
+second_title: Aspose.Words for Java API Reference
+description: 定义相对于水印中心的水印布局。
 type: docs
 weight: 609
 url: /zh/java/com.aspose.words/watermarklayout/
@@ -21,7 +21,7 @@ public class WatermarkLayout
 | [DIAGONAL](#DIAGONAL) | 对角线水印布局。 |
 | [HORIZONTAL](#HORIZONTAL) | 水平水印布局。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

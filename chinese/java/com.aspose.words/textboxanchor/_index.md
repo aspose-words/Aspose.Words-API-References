@@ -1,7 +1,7 @@
 ---
 title: TextBoxAnchor
-second_title: Aspose.Words for Java API 参考
-description:指定用于形状文本垂直对齐的值。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于形状文本垂直对齐的值。
 type: docs
 weight: 559
 url: /zh/java/com.aspose.words/textboxanchor/
@@ -29,7 +29,7 @@ public class TextBoxAnchor
 | [TOP_CENTERED](#TOP-CENTERED) | 文本与文本框的顶部居中对齐。 |
 | [TOP_CENTERED_BASELINE](#TOP-CENTERED-BASELINE) | 文本与文本框的顶部居中基线对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

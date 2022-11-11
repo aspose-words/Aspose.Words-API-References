@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterCollection
-second_title: Aspose.Words for Java API 参考
-description:提供对 Section 节点的类型化访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对 Section 节点的类型化访问。
 type: docs
 weight: 317
 url: /zh/java/com.aspose.words/headerfootercollection/
@@ -22,7 +22,7 @@ public class HeaderFooterCollection extends NodeCollection
 每个[HeaderFooter类型](../../com.aspose.words/headerfootertype)每**Section**.
 
 **HeaderFooter**对象可以在集合中以任何顺序出现。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

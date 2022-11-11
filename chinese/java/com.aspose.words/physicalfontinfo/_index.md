@@ -1,7 +1,7 @@
 ---
 title: PhysicalFontInfo
-second_title: Aspose.Words for Java API 参考
-description:指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
+second_title: Aspose.Words for Java API Reference
+description: 指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
 type: docs
 weight: 464
 url: /zh/java/com.aspose.words/physicalfontinfo/
@@ -16,7 +16,7 @@ public class PhysicalFontInfo
 指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: PclSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 448
 url: /zh/java/com.aspose.words/pclsaveoptions/
@@ -16,7 +16,7 @@ public class PclSaveOptions extends FixedPageSaveOptions
 可用于在将文档保存到[SaveFormat.PCL](../../com.aspose.words/saveformat\#PCL)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

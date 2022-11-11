@@ -1,7 +1,7 @@
 ---
 title: 字段Ask
-second_title: Aspose.Words for Java API 参考
-description:实现 ASK 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 ASK 字段。
 type: docs
 weight: 156
 url: /zh/java/com.aspose.words/fieldask/
@@ -18,7 +18,7 @@ public class 字段Ask extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 提示用户输入信息并分配一个书签来表示用户的响应。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

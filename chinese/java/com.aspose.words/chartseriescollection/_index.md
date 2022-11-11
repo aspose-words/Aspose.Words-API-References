@@ -1,7 +1,7 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 a 的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 的集合。
 type: docs
 weight: 69
 url: /zh/java/com.aspose.words/chartseriescollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartseriescollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class ChartSeriesCollection implements Iterable
@@ -19,7 +19,7 @@ public class ChartSeriesCollection implements Iterable
 代表一个集合[ChartSeries](../../com.aspose.words/chartseries).
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

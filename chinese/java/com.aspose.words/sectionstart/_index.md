@@ -1,7 +1,7 @@
 ---
 title: SectionStart
-second_title: Aspose.Words for Java API 参考
-description:节开头的中断类型。
+second_title: Aspose.Words for Java API Reference
+description: 节开头的中断类型。
 type: docs
 weight: 512
 url: /zh/java/com.aspose.words/sectionstart/
@@ -24,7 +24,7 @@ public class SectionStart
 | [NEW_PAGE](#NEW-PAGE) | 该部分从新页面开始。 |
 | [ODD_PAGE](#ODD-PAGE) | 该部分从一个新的奇数页开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: AxisScaling
-second_title: Aspose.Words for Java API 参考
-description:表示轴的缩放选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示轴的缩放选项。
 type: docs
 weight: 22
 url: /zh/java/com.aspose.words/axisscaling/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/axisscaling/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class AxisScaling implements Cloneable
@@ -19,7 +19,7 @@ public class AxisScaling implements Cloneable
 表示轴的缩放选项。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

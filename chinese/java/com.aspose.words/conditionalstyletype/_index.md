@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle类型
-second_title: Aspose.Words for Java API 参考
-description:表示可以在表格样式中定义条件格式的可能表格区域。
+second_title: Aspose.Words for Java API Reference
+description: 表示可以在表格样式中定义条件格式的可能表格区域。
 type: docs
 weight: 91
 url: /zh/java/com.aspose.words/conditionalstyletype/
@@ -31,7 +31,7 @@ public class ConditionalStyle类型
 | [TOP_LEFT_CELL](#TOP-LEFT-CELL) | 指定表格左上角单元格的格式。 |
 | [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | 指定表格右上角单元格的格式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

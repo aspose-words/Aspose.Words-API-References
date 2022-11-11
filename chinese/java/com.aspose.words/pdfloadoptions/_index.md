@@ -1,7 +1,7 @@
 ---
 title: PdfLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将 Pdf 文档加载到对象时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将 Pdf 文档加载到对象时指定其他选项。
 type: docs
 weight: 458
 url: /zh/java/com.aspose.words/pdfloadoptions/
@@ -16,7 +16,7 @@ public class PdfLoadOptions extends LoadOptions
 允许在将 Pdf 文档加载到[Document](../../com.aspose.words/document)目的。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

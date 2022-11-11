@@ -1,7 +1,7 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Words for Java API 参考
-description:指定资源加载的模式。
+second_title: Aspose.Words for Java API Reference
+description: 指定资源加载的模式。
 type: docs
 weight: 479
 url: /zh/java/com.aspose.words/resourceloadingaction/
@@ -24,7 +24,7 @@ public class ResourceLoadingAction
 | [SKIP](#SKIP) | Aspose.Words 将跳过此资源的加载。 |
 | [USER_PROVIDED](#USER-PROVIDED) |  Aspose.Words 将使用用户提供的字节数组[ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---)作为资源数据。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

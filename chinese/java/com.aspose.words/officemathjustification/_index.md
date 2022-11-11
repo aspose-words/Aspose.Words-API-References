@@ -1,7 +1,7 @@
 ---
 title: OfficeMathJustification
-second_title: Aspose.Words for Java API 参考
-description:指定等式的对正。
+second_title: Aspose.Words for Java API Reference
+description: 指定等式的对正。
 type: docs
 weight: 422
 url: /zh/java/com.aspose.words/officemathjustification/
@@ -25,7 +25,7 @@ public class OfficeMathJustification
 | [LEFT](#LEFT) | 数学段落的左对齐。 |
 | [RIGHT](#RIGHT) | 数学段落的正确对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

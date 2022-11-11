@@ -1,7 +1,7 @@
 ---
 title: SaveFormat
-second_title: Aspose.Words for Java API 参考
-description:指示文档的保存格式。
+second_title: Aspose.Words for Java API Reference
+description: 指示文档的保存格式。
 type: docs
 weight: 499
 url: /zh/java/com.aspose.words/saveformat/
@@ -56,7 +56,7 @@ public class SaveFormat
 | [XAML_FLOW_PACK](#XAML-FLOW-PACK) | **Beta.**以可扩展应用程序标记语言 (XAML) 包格式将文档另存为流文档。 |
 | [XPS](#XPS) | 以 XPS（XML 纸张规范）格式保存文档。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

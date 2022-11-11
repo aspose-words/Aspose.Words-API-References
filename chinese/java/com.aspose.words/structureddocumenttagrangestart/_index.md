@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeStart
-second_title: Aspose.Words for Java API 参考
-description:表示接受多节内容的范围结构化文档标签的开始。
+second_title: Aspose.Words for Java API Reference
+description: 表示接受多节内容的范围结构化文档标签的开始。
 type: docs
 weight: 535
 url: /zh/java/com.aspose.words/structureddocumenttagrangestart/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/structureddocumenttagrangestart/
 **遗产:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag), java.lang.Iterable
 ```
 public class StructuredDocumentTagRangeStart extends Node implements IStructuredDocumentTag, Iterable
@@ -21,12 +21,12 @@ public class StructuredDocumentTagRangeStart extends Node implements IStructured
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 可以是直系子女[Body](../../com.aspose.words/body)节点**only**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [StructuredDocumentTagRangeStart(DocumentBase doc, int type)](#StructuredDocumentTagRangeStart-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -444,7 +444,7 @@ public String getTag()
 ```
 
 
-指定与当前结构化文档标签节点关联的标签。不能为空。标签是一个任意字符串，应用程序可以将其与结构化文档标签相关联，以便在不提供可见友好名称的情况下识别它。
+指定与当前结构化文档标签节点关联的标签。不能为空。标签是任意字符串，应用程序可以将其与结构化文档标签相关联，以便在不提供可见友好名称的情况下对其进行识别。
 
 **退货:**
 java.lang.String - 对应的 java.lang.String 值。
@@ -721,7 +721,7 @@ public void setTag(String value)
 ```
 
 
-指定与当前结构化文档标签节点关联的标签。不能为空。标签是一个任意字符串，应用程序可以将其与结构化文档标签相关联，以便在不提供可见友好名称的情况下识别它。
+指定与当前结构化文档标签节点关联的标签。不能为空。标签是任意字符串，应用程序可以将其与结构化文档标签相关联，以便在不提供可见友好名称的情况下对其进行识别。
 
 **参数:**
 | 范围 | 类型 | 描述 |

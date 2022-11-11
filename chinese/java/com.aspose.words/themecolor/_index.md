@@ -1,7 +1,7 @@
 ---
 title: ThemeColor
-second_title: Aspose.Words for Java API 参考
-description:指定文档主题的主题颜色。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档主题的主题颜色。
 type: docs
 weight: 574
 url: /zh/java/com.aspose.words/themecolor/
@@ -28,7 +28,7 @@ public class ThemeColor
 | [ACCENT_4](#ACCENT-4) | 强调色 4。 |
 | [ACCENT_5](#ACCENT-5) | 强调色 5。 |
 | [ACCENT_6](#ACCENT-6) | 强调色 6。 |
-| [BACKGROUND_1](#BACKGROUND-1) | 背景颜色 1. |
+| [BACKGROUND_1](#BACKGROUND-1) | 背景颜色 1。 |
 | [BACKGROUND_2](#BACKGROUND-2) | 背景颜色 2。 |
 | [DARK_1](#DARK-1) | 深色主色 1。 |
 | [DARK_2](#DARK-2) | 深色主色2。 |
@@ -40,7 +40,7 @@ public class ThemeColor
 | [TEXT_1](#TEXT-1) | 文字颜色 1。 |
 | [TEXT_2](#TEXT-2) | 文字颜色 2。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -111,7 +111,7 @@ public static int BACKGROUND_1
 ```
 
 
-背景颜色 1.
+背景颜色 1。
 
 ### BACKGROUND_2 {#BACKGROUND-2}
 ```

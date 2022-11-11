@@ -1,7 +1,7 @@
 ---
 title: CommentRangeStart
-second_title: Aspose.Words for Java API 参考
-description:表示具有关联注释的文本区域的开始。
+second_title: Aspose.Words for Java API Reference
+description: 表示具有关联注释的文本区域的开始。
 type: docs
 weight: 80
 url: /zh/java/com.aspose.words/commentrangestart/
@@ -20,12 +20,12 @@ public class CommentRangeStart extends Node
 要创建锚定到文本区域的注释，您需要创建一个[Comment](../../com.aspose.words/comment)然后创建[CommentRangeStart](../../com.aspose.words/commentrangestart)和[CommentRangeEnd](../../com.aspose.words/commentrangeend)并将它们的标识符设置为相同[Comment.getId()](../../com.aspose.words/comment\#getId--)价值。
 
 [CommentRangeStart](../../com.aspose.words/commentrangestart)是一个内联级节点，只能是[Paragraph](../../com.aspose.words/paragraph).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [CommentRangeStart(DocumentBase doc, int id)](#CommentRangeStart-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

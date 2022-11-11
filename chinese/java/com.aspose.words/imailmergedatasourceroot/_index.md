@@ -1,7 +1,7 @@
 ---
 title: IMailMergeDataSourceRoot
-second_title: Aspose.Words for Java API 参考
-description:实现此接口以允许来自自定义数据源的邮件与主从数据合并。
+second_title: Aspose.Words for Java API Reference
+description: 实现此接口以允许来自自定义数据源的邮件与主从数据合并。
 type: docs
 weight: 651
 url: /zh/java/com.aspose.words/imailmergedatasourceroot/
@@ -11,7 +11,7 @@ public interface IMailMergeDataSourceRoot
 ```
 
 实现此接口以允许来自自定义数据源的邮件与主从数据合并。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Compatibility
-second_title: Aspose.Words for Java API 参考
-description:指定兼容性选项的名称。
+second_title: Aspose.Words for Java API Reference
+description: 指定兼容性选项的名称。
 type: docs
 weight: 85
 url: /zh/java/com.aspose.words/compatibility/
@@ -90,7 +90,7 @@ public class Compatibility
 | [WP_SPACE_WIDTH](#WP-SPACE-WIDTH) |  |
 | [WRAP_TRAIL_SPACES](#WRAP-TRAIL-SPACES) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

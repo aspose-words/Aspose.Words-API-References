@@ -1,7 +1,7 @@
 ---
 title: Shape
-second_title: Aspose.Words for Java API 参考
-description:表示绘图层中的对象，例如自选图形文本框自由格式 OLE 对象 ActiveX 控件或图片。
+second_title: Aspose.Words for Java API Reference
+description: 表示绘图层中的对象，例如自选图形文本框自由格式 OLE 对象 ActiveX 控件或图片。
 type: docs
 weight: 516
 url: /zh/java/com.aspose.words/shape/
@@ -22,12 +22,12 @@ public class Shape extends ShapeBase
 形状的一个重要属性是它的[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--).不同类型的形状在 Word 文档中可以具有不同的功能。例如，只有图像和 OLE 形状可以在其中包含图像。大多数形状都可以有文本，但不是全部。
 
 可以有文本的形状，可以包含[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table)节点作为子节点。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Shape(DocumentBase doc, int shape类型)](#Shape-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Ole包裹
-second_title: Aspose.Words for Java API 参考
-description:允许访问 OLE 包属性。
+second_title: Aspose.Words for Java API Reference
+description: 允许访问 OLE 包属性。
 type: docs
 weight: 426
 url: /zh/java/com.aspose.words/olepackage/
@@ -18,7 +18,7 @@ public class Ole包裹
 要了解更多信息，请访问**Working with Ole Objects**文档文章。
 
 如果 OLE 处理程序未知，OLE 包是一种传统且“未记录”的方式来存储嵌入对象。早期的 Windows 版本，如 Windows 3.1、95 和 98 都有 包裹r.exe 应用程序，可用于将任何类型的数据嵌入到文档中。现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

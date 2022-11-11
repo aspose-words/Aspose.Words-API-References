@@ -1,7 +1,7 @@
 ---
 title: VbaModuleCollection
-second_title: Aspose.Words for Java API 参考
-description:表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的集合。
 type: docs
 weight: 594
 url: /zh/java/com.aspose.words/vbamodulecollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/vbamodulecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class VbaModuleCollection implements Iterable
@@ -19,7 +19,7 @@ public class VbaModuleCollection implements Iterable
 代表一个集合[VbaModule](../../com.aspose.words/vbamodule)对象。
 
 要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

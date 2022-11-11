@@ -1,7 +1,7 @@
 ---
 title: INodeChangingCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您想在文档中插入或删除节点时接收通知，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您想在文档中插入或删除节点时接收通知，请实现此接口。
 type: docs
 weight: 652
 url: /zh/java/com.aspose.words/inodechangingcallback/
@@ -11,7 +11,7 @@ public interface INodeChangingCallback
 ```
 
 如果您想在文档中插入或删除节点时接收通知，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

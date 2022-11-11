@@ -1,7 +1,7 @@
 ---
 title: RefDouble
-second_title: Aspose.Words for Java API 参考
-description:表示 Double 基本类型的 Out/Ref 构造
+second_title: Aspose.Words for Java API Reference
+description: 表示 Double 基本类型的 Out/Ref 构造
 type: docs
 weight: 13
 url: /zh/java/com.aspose.words.ref/refdouble/
@@ -14,12 +14,12 @@ public class RefDouble
 ```
 
 表示 Double 基本类型的 Out/Ref 构造
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RefDouble(double value)](#RefDouble-double-) | 使用给定值模拟 Out/Ref 参数初始化。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

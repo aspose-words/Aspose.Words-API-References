@@ -1,7 +1,7 @@
 ---
 title: PlainTextDocument
-second_title: Aspose.Words for Java API 参考
-description:允许提取文档内容的纯文本表示。
+second_title: Aspose.Words for Java API Reference
+description: 允许提取文档内容的纯文本表示。
 type: docs
 weight: 465
 url: /zh/java/com.aspose.words/plaintextdocument/
@@ -16,7 +16,7 @@ public class PlainTextDocument
 允许提取文档内容的纯文本表示。
 
 要了解更多信息，请访问**Working with Text Document**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -24,7 +24,7 @@ public class PlainTextDocument
 | [PlainTextDocument(String fileName, LoadOptions loadOptions)](#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-) | 从文件创建纯文本文档。 |
 | [PlainTextDocument(InputStream stream)](#PlainTextDocument-java.io.InputStream-) | 初始化此类的新实例。 |
 | [PlainTextDocument(InputStream stream, LoadOptions loadOptions)](#PlainTextDocument-java.io.InputStream-com.aspose.words.LoadOptions-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

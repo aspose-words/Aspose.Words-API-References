@@ -1,7 +1,7 @@
 ---
 title: JsonDataSource
-second_title: Aspose.Words for Java API 参考
-description:提供对要在报告中使用的 JSON 文件或流的数据的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对要在报告中使用的 JSON 文件或流的数据的访问。
 type: docs
 weight: 354
 url: /zh/java/com.aspose.words/jsondatasource/
@@ -32,7 +32,7 @@ public class JsonDataSource
 引擎会根据 JSON 表示形式自动识别额外类型的值。
 
 要覆盖 JSON 数据加载的默认行为，初始化并传递一个[JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions)实例到此类的构造函数。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -40,7 +40,7 @@ public class JsonDataSource
 | [JsonDataSource(InputStream jsonStream)](#JsonDataSource-java.io.InputStream-) | 初始化此类的新实例。 |
 | [JsonDataSource(String jsonPath, JsonDataLoadOptions options)](#JsonDataSource-java.lang.String-com.aspose.words.JsonDataLoadOptions-) | 使用用于解析 JSON 数据的指定选项创建包含来自 JSON 文件的数据的新数据源。 |
 | [JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options)](#JsonDataSource-java.io.InputStream-com.aspose.words.JsonDataLoadOptions-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

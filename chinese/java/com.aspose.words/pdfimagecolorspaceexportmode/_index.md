@@ -1,7 +1,7 @@
 ---
 title: PdfImageColorSpaceExportMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何为 PDF 文档中的图像选择色彩空间。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何为 PDF 文档中的图像选择色彩空间。
 type: docs
 weight: 456
 url: /zh/java/com.aspose.words/pdfimagecolorspaceexportmode/
@@ -21,7 +21,7 @@ public class PdfImageColorSpaceExportMode
 | [AUTO](#AUTO) | Aspose.Words 自动为每个图像选择最合适的色彩空间。 |
 | [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words 使用简单的公式将 RGB 图像转换为 CMYK 颜色空间。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

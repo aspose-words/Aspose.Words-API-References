@@ -1,6 +1,6 @@
 ---
 title: CultureInfo
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: .Nets System.Globalization.CultureInfo 的地图。
 type: docs
 weight: 10
@@ -14,14 +14,14 @@ public class CultureInfo
 ```
 
 .Net 的 System.Globalization.CultureInfo 的地图。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [CultureInfo(String cultureName)](#CultureInfo-java.lang.String-) | 具有 .Net 风格的文化名称的构造函数。 |
 | [CultureInfo(String cultureName, boolean useUserOverride)](#CultureInfo-java.lang.String-boolean-) | 具有 .Net 风格的文化名称的构造函数。 |
 | [CultureInfo(Locale locale)](#CultureInfo-java.util.Locale-) | 具有 Java 风格语言环境的构造函数。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CultureNotFoundException
-second_title: Aspose.Words for Java API 参考
-description:.Nets System.Globalization.CultureNotFoundException 的映射
+second_title: Aspose.Words for Java API Reference
+description: .Nets System.Globalization.CultureNotFoundException 的映射
 type: docs
 weight: 11
 url: /zh/java/com.aspose.words.net.system.globalization/culturenotfoundexception/
@@ -14,7 +14,7 @@ public class CultureNotFoundException extends RuntimeException
 ```
 
 .Net 的 System.Globalization.CultureNotFoundException 的映射
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -22,7 +22,7 @@ public class CultureNotFoundException extends RuntimeException
 | [CultureNotFoundException(int cultureId)](#CultureNotFoundException-int-) | 初始化此类的新实例。 |
 | [CultureNotFoundException(String cultureName)](#CultureNotFoundException-java.lang.String-) | 初始化此类的新实例。 |
 | [CultureNotFoundException(String cultureName, String altName)](#CultureNotFoundException-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

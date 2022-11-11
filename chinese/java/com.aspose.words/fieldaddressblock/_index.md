@@ -1,7 +1,7 @@
 ---
 title: 字段AddressBlock
-second_title: Aspose.Words for Java API 参考
-description:实现 ADDRESSBLOCK 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 ADDRESSBLOCK 字段。
 type: docs
 weight: 153
 url: /zh/java/com.aspose.words/fieldaddressblock/
@@ -18,7 +18,7 @@ public class 字段AddressBlock extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 代表一个地址块。一个*address block*是一个文本块，指定适合邮寄地址的信息，按目的地国家要求的顺序排列。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

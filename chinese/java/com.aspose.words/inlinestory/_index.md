@@ -1,7 +1,7 @@
 ---
 title: InlineStory
-second_title: Aspose.Words for Java API 参考
-description:可以包含段落和表格的内联级节点的基类。
+second_title: Aspose.Words for Java API Reference
+description: 可以包含段落和表格的内联级节点的基类。
 type: docs
 weight: 350
 url: /zh/java/com.aspose.words/inlinestory/
@@ -20,12 +20,12 @@ public abstract class InlineStory extends CompositeNode
 **InlineStory**是块级节点的容器[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table).
 
 派生自的类**InlineStory**是可以包含自己的文本（段落和表格）的内联级节点。例如，一个**Comment**节点包含评论文本和**Footnote**包含脚注的文本。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [InlineStory()](#InlineStory--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

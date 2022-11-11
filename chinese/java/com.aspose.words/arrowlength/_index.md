@@ -1,7 +1,7 @@
 ---
 title: ArrowLength
-second_title: Aspose.Words for Java API 参考
-description:行尾箭头的长度。
+second_title: Aspose.Words for Java API Reference
+description: 行尾箭头的长度。
 type: docs
 weight: 11
 url: /zh/java/com.aspose.words/arrowlength/
@@ -23,7 +23,7 @@ public class ArrowLength
 | [MEDIUM](#MEDIUM) |  |
 | [SHORT](#SHORT) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

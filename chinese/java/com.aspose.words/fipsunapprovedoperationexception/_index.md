@@ -1,6 +1,6 @@
 ---
 title: FipsUnapprovedOperationException
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 271
@@ -12,12 +12,12 @@ java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeExc
 ```
 public class FipsUnapprovedOperationException extends RuntimeException
 ```
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [FipsUnapprovedOperationException(String e)](#FipsUnapprovedOperationException-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

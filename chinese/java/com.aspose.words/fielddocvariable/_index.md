@@ -1,7 +1,7 @@
 ---
 title: 字段DocVariable
-second_title: Aspose.Words for Java API 参考
-description:实现 DOCVARIABLE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 DOCVARIABLE 字段。
 type: docs
 weight: 182
 url: /zh/java/com.aspose.words/fielddocvariable/
@@ -16,7 +16,7 @@ public class 字段DocVariable extends 字段
 实现 DOCVARIABLE 字段。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

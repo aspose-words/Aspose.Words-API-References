@@ -1,7 +1,7 @@
 ---
 title: 字段
-second_title: Aspose.Words for Java API 参考
-description:表示 Microsoft Word 文档字段。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Microsoft Word 文档字段。
 type: docs
 weight: 151
 url: /zh/java/com.aspose.words/field/
@@ -31,7 +31,7 @@ public class 字段
 
 
 [Working with 字段]: https://docs.aspose.com/words/java/working-with-fields/
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

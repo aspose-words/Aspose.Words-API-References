@@ -1,7 +1,7 @@
 ---
 title: 字段Comments
-second_title: Aspose.Words for Java API 参考
-description:实现 COMMENTS 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 COMMENTS 字段。
 type: docs
 weight: 170
 url: /zh/java/com.aspose.words/fieldcomments/
@@ -18,7 +18,7 @@ public class 字段Comments extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索并选择性地设置与当前文档相关的注释，如记录在**Comments**内置文档属性的属性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

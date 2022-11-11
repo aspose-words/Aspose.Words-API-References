@@ -1,7 +1,7 @@
 ---
 title: ComparisonTarget类型
-second_title: Aspose.Words for Java API 参考
-description:允许指定将在比较期间使用的基本文档。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定将在比较期间使用的基本文档。
 type: docs
 weight: 84
 url: /zh/java/com.aspose.words/comparisontargettype/
@@ -21,7 +21,7 @@ public class ComparisonTarget类型
 | [CURRENT](#CURRENT) | 本文件用作比较时的基础。 |
 | [NEW](#NEW) | 比较时以其他文件为基准。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

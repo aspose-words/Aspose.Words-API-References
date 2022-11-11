@@ -1,6 +1,6 @@
 ---
 title: Glyph
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 307
@@ -12,12 +12,12 @@ java.lang.Object
 ```
 public class Glyph
 ```
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)](#Glyph-int-short-short-short-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

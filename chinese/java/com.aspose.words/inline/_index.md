@@ -1,7 +1,7 @@
 ---
 title: Inline
-second_title: Aspose.Words for Java API 参考
-description:内联级节点的基类，可以有与之关联的字符格式，但不能有自己的子节点。
+second_title: Aspose.Words for Java API Reference
+description: 内联级节点的基类，可以有与之关联的字符格式，但不能有自己的子节点。
 type: docs
 weight: 349
 url: /zh/java/com.aspose.words/inline/
@@ -18,12 +18,12 @@ public abstract class Inline extends Node
 要了解更多信息，请访问**Logical Levels of Nodes in a Document**文档文章。
 
 派生自的类**Inline**可以是的孩子**Paragraph**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Inline()](#Inline--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

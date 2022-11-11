@@ -1,7 +1,7 @@
 ---
 title: ColorMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何呈现颜色。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何呈现颜色。
 type: docs
 weight: 75
 url: /zh/java/com.aspose.words/colormode/
@@ -21,7 +21,7 @@ public class ColorMode
 | [GRAYSCALE](#GRAYSCALE) | 使用从白色到黑色的一系列灰色阴影进行渲染。 |
 | [NORMAL](#NORMAL) | 使用未修改的颜色进行渲染。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

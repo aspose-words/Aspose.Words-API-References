@@ -1,7 +1,7 @@
 ---
 title: ConvertUtil
-second_title: Aspose.Words for Java API 参考
-description:提供帮助函数以在各种测量单位之间进行转换。
+second_title: Aspose.Words for Java API Reference
+description: 提供帮助函数以在各种测量单位之间进行转换。
 type: docs
 weight: 95
 url: /zh/java/com.aspose.words/convertutil/
@@ -16,7 +16,7 @@ public class ConvertUtil
 提供帮助函数以在各种测量单位之间进行转换。
 
 要了解更多信息，请访问**Convert Between Measurement Units**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

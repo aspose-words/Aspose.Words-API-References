@@ -1,7 +1,7 @@
 ---
 title: 字段Bibliography
-second_title: Aspose.Words for Java API 参考
-description:实现书目字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现书目字段。
 type: docs
 weight: 164
 url: /zh/java/com.aspose.words/fieldbibliography/
@@ -18,7 +18,7 @@ public class 字段Bibliography extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 以书目样式插入文档的书目部分的内容。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

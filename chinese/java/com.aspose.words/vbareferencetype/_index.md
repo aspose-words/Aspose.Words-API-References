@@ -1,7 +1,7 @@
 ---
 title: VbaReference类型
-second_title: Aspose.Words for Java API 参考
-description:允许指定对象的类型。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定对象的类型。
 type: docs
 weight: 599
 url: /zh/java/com.aspose.words/vbareferencetype/
@@ -23,7 +23,7 @@ public class VbaReference类型
 | [PROJECT](#PROJECT) | 指定了外部 VBA 项目引用类型。 |
 | [REGISTERED](#REGISTERED) | 指定自动化类型库引用类型。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

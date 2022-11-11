@@ -1,7 +1,7 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Words for Java API 参考
-description:表示段落的所有格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示段落的所有格式。
 type: docs
 weight: 446
 url: /zh/java/com.aspose.words/paragraphformat/
@@ -16,7 +16,7 @@ public class ParagraphFormat
 表示段落的所有格式。
 
 要了解更多信息，请访问**Working with Paragraphs**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

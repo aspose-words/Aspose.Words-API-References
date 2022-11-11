@@ -1,7 +1,7 @@
 ---
 title: MarkerSymbol
-second_title: Aspose.Words for Java API 参考
-description:指定标记符号样式。
+second_title: Aspose.Words for Java API Reference
+description: 指定标记符号样式。
 type: docs
 weight: 389
 url: /zh/java/com.aspose.words/markersymbol/
@@ -31,7 +31,7 @@ public class MarkerSymbol
 | [TRIANGLE](#TRIANGLE) | 指定应在每个数据点绘制一个三角形。 |
 | [X](#X) | 指定应在每个数据点绘制一个 X。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

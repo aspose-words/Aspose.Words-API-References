@@ -1,7 +1,7 @@
 ---
 title: StreamFontSource
-second_title: Aspose.Words for Java API 参考
-description:用户定义流字体源的基类。
+second_title: Aspose.Words for Java API Reference
+description: 用户定义流字体源的基类。
 type: docs
 weight: 530
 url: /zh/java/com.aspose.words/streamfontsource/
@@ -22,7 +22,7 @@ public abstract class StreamFontSource extends FontSourceBase
 [openFontDataStream()](../../com.aspose.words/streamfontsource\#openFontDataStream--)方法可以多次调用。当 Aspose.Words 扫描提供的字体源以获取可用字体列表时，将首次调用它。如果在文档中使用字体来解析字体数据并将字体数据嵌入到某些输出格式中，则稍后可能会调用它。
 
 [StreamFontSource](../../com.aspose.words/streamfontsource)可能很有用，因为它允许仅在需要时加载字体数据，而不是将其存储在内存中以供[FontSettings](../../com.aspose.words/fontsettings)寿命。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

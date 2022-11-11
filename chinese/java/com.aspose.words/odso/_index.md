@@ -1,7 +1,7 @@
 ---
 title: Odso
-second_title: Aspose.Words for Java API 参考
-description:指定邮件合并数据源的 Office 数据源对象 ODSO 设置。
+second_title: Aspose.Words for Java API Reference
+description: 指定邮件合并数据源的 Office 数据源对象 ODSO 设置。
 type: docs
 weight: 411
 url: /zh/java/com.aspose.words/odso/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/odso/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Odso implements Cloneable
@@ -25,7 +25,7 @@ ODSO 似乎是较新的 Microsoft Word 版本在为邮件合并文档指定某�
 ODSO 的使用文档很少，学习如何使用此对象的属性的最佳方法是在 Microsoft Word 中手动创建具有所需数据源的文档，然后使用 Aspose.Words 打开该文档并检查该对象的属性[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-)和[MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)对象。例如，如果您想学习如何以编程方式配置数据源，这是一个很好的方法。
 
 您通常不需要直接创建此类的对象，因为 ODSO 设置始终可以通过[MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -46,7 +46,7 @@ ODSO 的使用文档很少，学习如何使用此对象的属性的最佳方法
 | [setColumnDelimiter(char value)](#setColumnDelimiter-char-) | 指定应解释为用于分隔外部数据源中的列的列分隔符的字符。 |
 | [setDataSource(String value)](#setDataSource-java.lang.String-) | 指定要连接到文档以执行邮件合并的外部数据源的位置。 |
 | [setDataSource类型(int value)](#setDataSource类型-int-) | 指定要连接到的外部数据源的类型，作为此邮件合并的 ODSO 连接信息的一部分。 |
-| [set字段MapDatas(Odso字段MapDataCollection value)](#set字段MapDatas-com.aspose.words.Odso字段MapDataCollection-) | 设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。 |
+| [set字段MapDatas(Odso字段MapDataCollection value)](#set字段MapDatas-com.aspose.words.Odso字段MapDataCollection-) | 设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中的预定义合并字段名称。 |
 | [setFirstRowContainsColumnNames(boolean value)](#setFirstRowContainsColumnNames-boolean-) | 指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。 |
 | [setRecipientDatas(OdsoRecipientDataCollection value)](#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-) | 设置指定邮件合并中单个记录的包含/排除的对象集合。 |
 | [setTableName(String value)](#setTableName-java.lang.String-) | 指定源应连接到外部数据源中的特定数据集。 |
@@ -251,7 +251,7 @@ public void set字段MapDatas(Odso字段MapDataCollection value)
 ```
 
 
-设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。该对象永远不会为空。
+设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中的预定义合并字段名称。该对象永远不会为空。
 
 **参数:**
 | 范围 | 类型 | 描述 |

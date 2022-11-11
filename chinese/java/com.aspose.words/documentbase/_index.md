@@ -1,7 +1,7 @@
 ---
 title: DocumentBase
-second_title: Aspose.Words for Java API 参考
-description:为 Word 文档的主文档和词汇表文档提供抽象基类。
+second_title: Aspose.Words for Java API Reference
+description: 为 Word 文档的主文档和词汇表文档提供抽象基类。
 type: docs
 weight: 121
 url: /zh/java/com.aspose.words/documentbase/
@@ -20,7 +20,7 @@ public abstract class DocumentBase extends CompositeNode
  Aspose.Words 将 Word 文档表示为节点树。[DocumentBase](../../com.aspose.words/documentbase)是包含文档的所有其他节点的树的根节点。
 
 [DocumentBase](../../com.aspose.words/documentbase)还存储文档范围的信息，例如[getStyles()](../../com.aspose.words/documentbase\#getStyles--)和[getLists()](../../com.aspose.words/documentbase\#getLists--)树节点可能引用的。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

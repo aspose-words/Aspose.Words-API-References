@@ -1,7 +1,7 @@
 ---
 title: NodeList
-second_title: Aspose.Words for Java API 参考
-description:表示与使用该方法执行的 XPath 查询匹配的节点集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示与使用该方法执行的 XPath 查询匹配的节点集合。
 type: docs
 weight: 406
 url: /zh/java/com.aspose.words/nodelist/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/nodelist/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class NodeList implements Iterable
@@ -25,7 +25,7 @@ public class NodeList implements Iterable
 **NodeList**支持索引访问和迭代。
 
 对待**NodeList**集合作为“快照”集合。**NodeList**以“实时”集合开始，因为在运行 XPath 查询时实际上并未检索到节点。节点仅在访问时被检索，此时节点和它之前的所有节点都被缓存，形成一个“快照”集合。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Arrow类型
-second_title: Aspose.Words for Java API 参考
-description:指定线端的箭头类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定线端的箭头类型。
 type: docs
 weight: 12
 url: /zh/java/com.aspose.words/arrowtype/
@@ -26,7 +26,7 @@ public class Arrow类型
 | [OVAL](#OVAL) | 线端是实心椭圆形。 |
 | [STEALTH](#STEALTH) | 箭是“隐形”箭。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

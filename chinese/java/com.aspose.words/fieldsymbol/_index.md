@@ -1,7 +1,7 @@
 ---
 title: 字段Symbol
-second_title: Aspose.Words for Java API 参考
-description:实现一个符号字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现一个符号字段。
 type: docs
 weight: 248
 url: /zh/java/com.aspose.words/fieldsymbol/
@@ -18,7 +18,7 @@ public class 字段Symbol extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索其代码点值以十进制或十六进制指定的字符。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

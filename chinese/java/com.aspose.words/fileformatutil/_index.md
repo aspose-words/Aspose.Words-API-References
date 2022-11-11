@@ -1,7 +1,7 @@
 ---
 title: FileFormatUtil
-second_title: Aspose.Words for Java API 参考
-description:提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
+second_title: Aspose.Words for Java API Reference
+description: 提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
 type: docs
 weight: 266
 url: /zh/java/com.aspose.words/fileformatutil/
@@ -16,7 +16,7 @@ public class FileFormatUtil
 提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
 
 要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

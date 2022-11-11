@@ -1,7 +1,7 @@
 ---
 title: Wrap类型
-second_title: Aspose.Words for Java API 参考
-description:指定文本如何环绕形状或图片。
+second_title: Aspose.Words for Java API Reference
+description: 指定文本如何环绕形状或图片。
 type: docs
 weight: 622
 url: /zh/java/com.aspose.words/wraptype/
@@ -25,7 +25,7 @@ public class Wrap类型
 | [TIGHT](#TIGHT) | 紧紧围绕形状的边缘，而不是围绕边界框。 |
 | [TOP_BOTTOM](#TOP-BOTTOM) | 文本在形状顶部停止并在形状下方的行上重新开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

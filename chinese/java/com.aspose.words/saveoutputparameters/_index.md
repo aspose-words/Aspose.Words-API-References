@@ -1,7 +1,7 @@
 ---
 title: SaveOutput参数
-second_title: Aspose.Words for Java API 参考
-description:此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。
+second_title: Aspose.Words for Java API Reference
+description: 此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。
 type: docs
 weight: 501
 url: /zh/java/com.aspose.words/saveoutputparameters/
@@ -16,7 +16,7 @@ public class SaveOutput参数
 此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。调用者可以使用或忽略此对象。
 
 要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

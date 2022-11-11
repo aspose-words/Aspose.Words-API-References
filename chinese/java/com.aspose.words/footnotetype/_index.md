@@ -1,7 +1,7 @@
 ---
 title: Footnote类型
-second_title: Aspose.Words for Java API 参考
-description:指定这是脚注还是尾注。
+second_title: Aspose.Words for Java API Reference
+description: 指定这是脚注还是尾注。
 type: docs
 weight: 295
 url: /zh/java/com.aspose.words/footnotetype/
@@ -23,7 +23,7 @@ public class Footnote类型
 | [ENDNOTE](#ENDNOTE) | 对象是尾注。 |
 | [FOOTNOTE](#FOOTNOTE) | 对象是脚注。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

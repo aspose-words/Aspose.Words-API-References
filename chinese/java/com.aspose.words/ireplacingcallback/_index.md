@@ -1,7 +1,7 @@
 ---
 title: IReplacingCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您希望在查找和替换操作期间调用您自己的自定义方法，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您希望在查找和替换操作期间调用您自己的自定义方法，请实现此接口。
 type: docs
 weight: 655
 url: /zh/java/com.aspose.words/ireplacingcallback/
@@ -11,7 +11,7 @@ public interface IReplacingCallback
 ```
 
 如果您希望在查找和替换操作期间调用您自己的自定义方法，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

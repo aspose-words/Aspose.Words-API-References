@@ -1,7 +1,7 @@
 ---
 title: I字段DatabaseProvider
-second_title: Aspose.Words for Java API 参考
-description:实现此接口以在字段更新时为其提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 实现此接口以在字段更新时为其提供数据。
 type: docs
 weight: 640
 url: /zh/java/com.aspose.words/ifielddatabaseprovider/
@@ -11,7 +11,7 @@ public interface I字段DatabaseProvider
 ```
 
 实现此接口以提供数据[字段Database](../../com.aspose.words/fielddatabase)更新时的字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: HtmlInsertOptions
-second_title: Aspose.Words for Java API 参考
-description:指定 MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions 方法的选项。
+second_title: Aspose.Words for Java API Reference
+description: 指定 MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions 方法的选项。
 type: docs
 weight: 327
 url: /zh/java/com.aspose.words/htmlinsertoptions/
@@ -23,7 +23,7 @@ public class HtmlInsertOptions
 | [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
 | [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | 使用中指定的字体和段落格式[DocumentBuilder](../../com.aspose.words/documentbuilder)作为从 HTML 插入的文本的基本格式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

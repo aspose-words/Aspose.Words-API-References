@@ -1,7 +1,7 @@
 ---
 title: TableContentAlignment
-second_title: Aspose.Words for Java API 参考
-description:允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
 type: docs
 weight: 551
 url: /zh/java/com.aspose.words/tablecontentalignment/
@@ -23,7 +23,7 @@ public class TableContentAlignment
 | [LEFT](#LEFT) | 表格的内容将左对齐。 |
 | [RIGHT](#RIGHT) | 表格的内容将向右对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

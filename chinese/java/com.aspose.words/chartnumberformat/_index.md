@@ -1,7 +1,7 @@
 ---
 title: ChartNumberFormat
-second_title: Aspose.Words for Java API 参考
-description:表示父元素的数字格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示父元素的数字格式。
 type: docs
 weight: 67
 url: /zh/java/com.aspose.words/chartnumberformat/
@@ -16,7 +16,7 @@ public class ChartNumberFormat
 表示父元素的数字格式。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -84,7 +84,7 @@ public String getFormatCode()
 
 会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
 
-自定义颜色-"[红色的]-\#,\#\#0.0"
+自定义颜色-”[红色的]-\#,\#\#0.0"
 
 **退货:**
 java.lang.String - 应用于数据标签的格式代码。
@@ -163,7 +163,7 @@ public void setFormatCode(String value)
 
 会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
 
-自定义颜色-"[红色的]-\#,\#\#0.0"
+自定义颜色-”[红色的]-\#,\#\#0.0"
 
 **参数:**
 | 范围 | 类型 | 描述 |

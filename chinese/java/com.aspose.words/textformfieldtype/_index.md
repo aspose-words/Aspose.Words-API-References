@@ -1,7 +1,7 @@
 ---
 title: TextForm字段类型
-second_title: Aspose.Words for Java API 参考
-description:指定文本表单域的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定文本表单域的类型。
 type: docs
 weight: 565
 url: /zh/java/com.aspose.words/textformfieldtype/
@@ -25,7 +25,7 @@ public class TextForm字段类型
 | [NUMBER](#NUMBER) | 文本表单域只能包含数字。 |
 | [REGULAR](#REGULAR) | 文本表单域可以包含任何文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

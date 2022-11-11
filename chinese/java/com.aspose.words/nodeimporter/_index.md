@@ -1,7 +1,7 @@
 ---
 title: NodeImporter
-second_title: Aspose.Words for Java API 参考
-description:允许有效地将节点从一个文档重复导入到另一个文档。
+second_title: Aspose.Words for Java API Reference
+description: 允许有效地将节点从一个文档重复导入到另一个文档。
 type: docs
 weight: 405
 url: /zh/java/com.aspose.words/nodeimporter/
@@ -28,13 +28,13 @@ Aspose.Words 提供了在 Microsoft Word 文档之间轻松复制和移动片段
 挑战来自不同文档中的样式和列表不同的事实。例如，要将使用 Heading 1 样式格式化的段落从一个文档复制到另一个文档，必须考虑一些事情：决定是否将 Heading 1 样式从源文档复制到目标文档，克隆段落，更新克隆的段落，使其引用目标文档中正确的标题 1 样式。如果必须复制样式，则应分析它引用的所有样式（基于样式和下一段样式）并可能也复制等等。复制项目符号或编号段落时也存在类似问题，因为 Microsoft Word 将列表定义与文本分开存储。
 
 这[NodeImporter](../../com.aspose.words/nodeimporter)类就像一个上下文，在导入期间保存“翻译表”。它在源文档和目标文档中的样式和列表之间正确转换。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, int importFormatMode)](#NodeImporter-com.aspose.words.DocumentBase-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
 | [NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#NodeImporter-com.aspose.words.DocumentBase-com.aspose.words.DocumentBase-int-com.aspose.words.ImportFormatOptions-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

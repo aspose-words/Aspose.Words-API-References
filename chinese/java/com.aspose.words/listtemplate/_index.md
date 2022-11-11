@@ -1,7 +1,7 @@
 ---
 title: ListTemplate
-second_title: Aspose.Words for Java API 参考
-description:指定 Microsoft Word 中可用的预定义列表格式之一。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Microsoft Word 中可用的预定义列表格式之一。
 type: docs
 weight: 375
 url: /zh/java/com.aspose.words/listtemplate/
@@ -45,7 +45,7 @@ Aspose.Words 列表模板对应于 Microsoft Word 2003 中的“项目符号和�
 | [OUTLINE_LEGAL](#OUTLINE-LEGAL) | 具有级别的大纲列表编号为“1., 1.1., 1.1.1, ...”。 |
 | [OUTLINE_NUMBERS](#OUTLINE-NUMBERS) | 一个大纲列表，其级别编号为“1)、a)、i)、(1)、(a)、(i)、1.、a.、i.”。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControl
-second_title: Aspose.Words for Java API 参考
-description:表示 Microsoft Forms 2.0 OLE 控件。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Microsoft Forms 2.0 OLE 控件。
 type: docs
 weight: 298
 url: /zh/java/com.aspose.words/forms2olecontrol/
@@ -16,12 +16,12 @@ public abstract class Forms2OleControl extends OleControl
 表示 Microsoft Forms 2.0 OLE 控件。
 
 要了解更多信息，请访问**Working with Ole Objects**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Forms2OleControl()](#Forms2OleControl--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

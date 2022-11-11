@@ -1,7 +1,7 @@
 ---
 title: Run
-second_title: Aspose.Words for Java API 参考
-description:表示具有相同字体格式的一系列字符。
+second_title: Aspose.Words for Java API Reference
+description: 表示具有相同字体格式的一系列字符。
 type: docs
 weight: 497
 url: /zh/java/com.aspose.words/run/
@@ -20,13 +20,13 @@ public class Run extends Inline
 文档的所有文本都存储在文本运行中。
 
 **Run**只能是**Paragraph**或内联**StructuredDocumentTag**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Run(DocumentBase doc)](#Run-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Run**班级。 |
 | [Run(DocumentBase doc, String text)](#Run-com.aspose.words.DocumentBase-java.lang.String-) | 初始化一个新的实例**Run**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

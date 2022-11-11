@@ -1,7 +1,7 @@
 ---
 title: Revision
-second_title: Aspose.Words for Java API 参考
-description:表示文档节点或样式中的修订跟踪更改。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档节点或样式中的修订跟踪更改。
 type: docs
 weight: 483
 url: /zh/java/com.aspose.words/revision/
@@ -16,7 +16,7 @@ public class Revision
 表示文档节点或样式中的修订（跟踪更改）。利用[getRevision类型()](../../com.aspose.words/revision\#getRevision类型--)检查此修订的类型。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

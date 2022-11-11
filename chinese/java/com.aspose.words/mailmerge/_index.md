@@ -1,7 +1,7 @@
 ---
 title: MailMerge
-second_title: Aspose.Words for Java API 参考
-description:表示邮件合并功能。
+second_title: Aspose.Words for Java API Reference
+description: 表示邮件合并功能。
 type: docs
 weight: 379
 url: /zh/java/com.aspose.words/mailmerge/
@@ -28,7 +28,7 @@ public class MailMerge
 使用 ExecuteWithRegions 方法将信息合并到定义了邮件合并区域的文档中。您可以使用或作为此操作的数据源。
 
 如果要在文档内动态增长部分，则需要使用邮件合并区域。如果没有邮件合并区域，整个文档将针对数据源的每条记录重复。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

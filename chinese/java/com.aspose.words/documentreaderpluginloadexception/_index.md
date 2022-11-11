@@ -1,7 +1,7 @@
 ---
 title: DocumentReaderPluginLoadException
-second_title: Aspose.Words for Java API 参考
-description:当无法加载读取文档格式所需的插件时，在文档加载期间抛出。
+second_title: Aspose.Words for Java API Reference
+description: 当无法加载读取文档格式所需的插件时，在文档加载期间抛出。
 type: docs
 weight: 128
 url: /zh/java/com.aspose.words/documentreaderpluginloadexception/
@@ -14,7 +14,7 @@ public class DocumentReaderPluginLoadException extends Exception
 ```
 
 在文档加载过程中，无法加载读取文档格式所需的插件时抛出。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

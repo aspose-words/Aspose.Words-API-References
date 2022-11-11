@@ -1,7 +1,7 @@
 ---
 title: PdfPermissions
-second_title: Aspose.Words for Java API 参考
-description:指定允许用户对加密的 PDF 文档进行的操作。
+second_title: Aspose.Words for Java API Reference
+description: 指定允许用户对加密的 PDF 文档进行的操作。
 type: docs
 weight: 460
 url: /zh/java/com.aspose.words/pdfpermissions/
@@ -29,7 +29,7 @@ public class PdfPermissions
 | [MODIFY_CONTENTS](#MODIFY-CONTENTS) | 通过非受控者控制的操作修改文档内容[MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN)， 和[DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY). |
 | [PRINTING](#PRINTING) | 打印文档（可能不是最高质量级别，取决于是否[HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING)也设置）。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

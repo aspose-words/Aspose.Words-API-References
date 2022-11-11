@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPropertyCollection
-second_title: Aspose.Words for Java API 参考
-description:表示自定义 XML 属性或智能标记属性的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示自定义 XML 属性或智能标记属性的集合。
 type: docs
 weight: 107
 url: /zh/java/com.aspose.words/customxmlpropertycollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/customxmlpropertycollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class CustomXmlPropertyCollection implements Iterable
@@ -21,7 +21,7 @@ public class CustomXmlPropertyCollection implements Iterable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 项目是[CustomXmlProperty](../../com.aspose.words/customxmlproperty)对象。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

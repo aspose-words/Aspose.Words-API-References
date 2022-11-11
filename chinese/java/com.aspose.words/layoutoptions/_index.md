@@ -1,7 +1,7 @@
 ---
 title: LayoutOptions
-second_title: Aspose.Words for Java API 参考
-description:包含允许控制文档布局过程的选项。
+second_title: Aspose.Words for Java API Reference
+description: 包含允许控制文档布局过程的选项。
 type: docs
 weight: 362
 url: /zh/java/com.aspose.words/layoutoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/layoutoptions/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class LayoutOptions implements Cloneable
@@ -23,7 +23,7 @@ public class LayoutOptions implements Cloneable
 您不直接创建此类的实例。使用[Document.getLayoutOptions()](../../com.aspose.words/document\#getLayoutOptions--)属性以访问此文档的布局选项。
 
 请注意，在更改此类中存在的任何选项后，[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)应该调用方法以便将更改的选项应用于布局。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

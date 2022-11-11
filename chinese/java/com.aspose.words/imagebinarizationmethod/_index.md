@@ -1,7 +1,7 @@
 ---
 title: ImageBinarization方法
-second_title: Aspose.Words for Java API 参考
-description:指定用于二值化图像的方法。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于二值化图像的方法。
 type: docs
 weight: 335
 url: /zh/java/com.aspose.words/imagebinarizationmethod/
@@ -21,7 +21,7 @@ public class ImageBinarization方法
 | [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 使用 Floyd-Steinberg 误差扩散方法指定抖动。 |
 | [THRESHOLD](#THRESHOLD) | 指定阈值方法。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

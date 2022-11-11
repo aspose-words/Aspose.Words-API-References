@@ -1,7 +1,7 @@
 ---
 title: Story
-second_title: Aspose.Words for Java API 参考
-description:包含块级节点和 .
+second_title: Aspose.Words for Java API Reference
+description: 包含块级节点和 .
 type: docs
 weight: 528
 url: /zh/java/com.aspose.words/story/
@@ -18,12 +18,12 @@ public abstract class Story extends CompositeNode
 要了解更多信息，请访问**Logical Levels of Nodes in a Document**文档文章。
 
 据说 Word 文档的文本由几个故事组成。正文存储在正文故事中，由[Body](../../com.aspose.words/body)，每个页眉和页脚都存储在一个单独的故事中，由[HeaderFooter](../../com.aspose.words/headerfooter).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Story()](#Story--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

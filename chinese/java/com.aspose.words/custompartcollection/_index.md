@@ -1,7 +1,7 @@
 ---
 title: CustomPartCollection
-second_title: Aspose.Words for Java API 参考
-description:表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的集合。
 type: docs
 weight: 103
 url: /zh/java/com.aspose.words/custompartcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/custompartcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class CustomPartCollection implements Iterable
@@ -21,7 +21,7 @@ public class CustomPartCollection implements Iterable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 您通常不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部件[Document.get包裹CustomParts()](../../com.aspose.words/document\#get包裹CustomParts--) / [Document.set包裹CustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#set包裹CustomParts-com.aspose.words.CustomPartCollection-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

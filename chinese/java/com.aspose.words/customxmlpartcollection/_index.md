@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPartCollection
-second_title: Aspose.Words for Java API 参考
-description:表示自定义 XML 部件的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示自定义 XML 部件的集合。
 type: docs
 weight: 105
 url: /zh/java/com.aspose.words/customxmlpartcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/customxmlpartcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class CustomXmlPartCollection implements Iterable
@@ -21,7 +21,7 @@ public class CustomXmlPartCollection implements Iterable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 您通常不需要创建此类的实例。您可以通过以下方式访问存储在文档中的自定义 XML 数据[Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

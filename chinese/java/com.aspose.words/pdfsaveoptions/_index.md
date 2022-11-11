@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 461
 url: /zh/java/com.aspose.words/pdfsaveoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/pdfsaveoptions/
 **遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class PdfSaveOptions extends FixedPageSaveOptions implements Cloneable
@@ -19,12 +19,12 @@ public class PdfSaveOptions extends FixedPageSaveOptions implements Cloneable
 可用于在将文档保存到[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PdfSaveOptions()](#PdfSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF)格式。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

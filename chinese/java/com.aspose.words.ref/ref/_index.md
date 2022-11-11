@@ -1,7 +1,7 @@
 ---
 title: Ref
-second_title: Aspose.Words for Java API 参考
-description:表示通用输出/参考结构
+second_title: Aspose.Words for Java API Reference
+description: 表示通用输出/参考结构
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words.ref/ref/
@@ -14,7 +14,7 @@ public class Ref
 ```
 
 表示通用输出/参考结构
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

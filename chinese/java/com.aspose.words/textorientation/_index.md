@@ -1,7 +1,7 @@
 ---
 title: TextOrientation
-second_title: Aspose.Words for Java API 参考
-description:指定表格单元格或文本框架中页面上的文本方向。
+second_title: Aspose.Words for Java API Reference
+description: 指定表格单元格或文本框架中页面上的文本方向。
 type: docs
 weight: 566
 url: /zh/java/com.aspose.words/textorientation/
@@ -25,7 +25,7 @@ public class TextOrientation
 | [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | 远东字符垂直显示，其他文本向右旋转 90 度以从上到下显示 (tb-rl-v)。 |
 | [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | 远东字符垂直显示，其他文本向右旋转 90 度以从上到下垂直显示，然后从左到右水平显示 (tb-lr-v)。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Section
-second_title: Aspose.Words for Java API 参考
-description:表示文档中的单个部分。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中的单个部分。
 type: docs
 weight: 509
 url: /zh/java/com.aspose.words/section/
@@ -28,12 +28,12 @@ public class Section extends CompositeNode
 要添加、插入或删除整个部分，包括分节符和部分属性，请使用**Sections**目的。
 
 要仅复制和插入节的内容，不包括分节符和节属性，请使用**AppendContent**和**PrependContent**方法。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Section(DocumentBase doc)](#Section-com.aspose.words.DocumentBase-) | 初始化 Section 类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

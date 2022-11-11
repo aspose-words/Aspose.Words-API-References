@@ -1,7 +1,7 @@
 ---
 title: NodeChangingArgs
-second_title: Aspose.Words for Java API 参考
-description:为接口的方法提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为接口的方法提供数据。
 type: docs
 weight: 403
 url: /zh/java/com.aspose.words/nodechangingargs/
@@ -14,7 +14,7 @@ public class NodeChangingArgs
 ```
 
 为方法提供数据[INodeChangingCallback](../../com.aspose.words/inodechangingcallback)界面。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: WordML2003SaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 620
 url: /zh/java/com.aspose.words/wordml2003saveoptions/
@@ -18,7 +18,7 @@ public class WordML2003SaveOptions extends SaveOptions
 要了解更多信息，请访问**Specify Save Options**文档文章。
 
 目前只提供[getSaveFormat()](../../com.aspose.words/wordml2003saveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/wordml2003saveoptions\#setSaveFormat-int-)属性，但将来可能会添加其他选项。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

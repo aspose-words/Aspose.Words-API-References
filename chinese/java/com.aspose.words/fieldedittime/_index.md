@@ -1,7 +1,7 @@
 ---
 title: 字段EditTime
-second_title: Aspose.Words for Java API 参考
-description:实现 EDITTIME 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 EDITTIME 字段。
 type: docs
 weight: 184
 url: /zh/java/com.aspose.words/fieldedittime/
@@ -18,7 +18,7 @@ public class 字段EditTime extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索自文档创建以来的总编辑时间（以分钟为单位）。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

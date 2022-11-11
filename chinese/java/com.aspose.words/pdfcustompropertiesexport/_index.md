@@ -1,7 +1,7 @@
 ---
 title: PdfCustomPropertiesExport
-second_title: Aspose.Words for Java API 参考
-description:指定导出为 PDF 文件的方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定导出为 PDF 文件的方式。
 type: docs
 weight: 450
 url: /zh/java/com.aspose.words/pdfcustompropertiesexport/
@@ -22,7 +22,7 @@ public class PdfCustomPropertiesExport
 | [NONE](#NONE) | 不导出自定义属性。 |
 | [STANDARD](#STANDARD) | 自定义属性导出为 /Info 字典中的条目。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: PageRange
-second_title: Aspose.Words for Java API 参考
-description:表示连续范围的页面。
+second_title: Aspose.Words for Java API Reference
+description: 表示连续范围的页面。
 type: docs
 weight: 437
 url: /zh/java/com.aspose.words/pagerange/
@@ -16,12 +16,12 @@ public class PageRange
 表示连续范围的页面。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PageRange(int from, int to)](#PageRange-int-int-) | 创建一个新的页面范围对象。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

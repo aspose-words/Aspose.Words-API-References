@@ -1,7 +1,7 @@
 ---
 title: BookmarkCollection
-second_title: Aspose.Words for Java API 参考
-description:表示指定范围内的书签的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示指定范围内的书签的对象集合。
 type: docs
 weight: 32
 url: /zh/java/com.aspose.words/bookmarkcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/bookmarkcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class BookmarkCollection implements Iterable
@@ -19,7 +19,7 @@ public class BookmarkCollection implements Iterable
 一个集合[Bookmark](../../com.aspose.words/bookmark)表示指定范围内的书签的对象。
 
 要了解更多信息，请访问**Working with Bookmarks**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

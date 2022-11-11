@@ -1,7 +1,7 @@
 ---
 title: HtmlLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将 HTML 文档加载到对象时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将 HTML 文档加载到对象时指定其他选项。
 type: docs
 weight: 328
 url: /zh/java/com.aspose.words/htmlloadoptions/
@@ -16,14 +16,14 @@ public class HtmlLoadOptions extends LoadOptions
 允许在将 HTML 文档加载到[Document](../../com.aspose.words/document)目的。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [HtmlLoadOptions()](#HtmlLoadOptions--) | 使用默认值初始化此类的新实例。 |
 | [HtmlLoadOptions(String password)](#HtmlLoadOptions-java.lang.String-) | 使用指定密码初始化此类的新实例以加载加密文档的快捷方式。 |
 | [HtmlLoadOptions(int loadFormat, String password, String baseUri)](#HtmlLoadOptions-int-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

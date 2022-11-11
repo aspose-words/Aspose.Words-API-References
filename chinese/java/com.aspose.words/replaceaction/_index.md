@@ -1,7 +1,7 @@
 ---
 title: ReplaceAction
-second_title: Aspose.Words for Java API 参考
-description:允许用户指定在替换操作期间当前匹配发生的情况。
+second_title: Aspose.Words for Java API Reference
+description: 允许用户指定在替换操作期间当前匹配发生的情况。
 type: docs
 weight: 475
 url: /zh/java/com.aspose.words/replaceaction/
@@ -22,7 +22,7 @@ public class ReplaceAction
 | [SKIP](#SKIP) | 跳过当前比赛。 |
 | [STOP](#STOP) | 终止替换操作。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

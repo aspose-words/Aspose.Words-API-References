@@ -1,7 +1,7 @@
 ---
 title: Odso字段MapData
-second_title: Aspose.Words for Java API 参考
-description:指定如何将外部数据源中的列映射到文档中的预定义合并字段。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将外部数据源中的列映射到文档中的预定义合并字段。
 type: docs
 weight: 413
 url: /zh/java/com.aspose.words/odsofieldmapdata/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/odsofieldmapdata/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Odso字段MapData implements Cloneable
@@ -21,7 +21,7 @@ public class Odso字段MapData implements Cloneable
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
  Microsoft Word 提供了一些预定义的合并字段名称，它允许将其作为 MERGEFIELD 插入到文档中，或者在 ADDRESSBLOCK 或 GREETINGLINE 字段中使用。中指定的信息[Odso字段MapData](../../com.aspose.words/odsofieldmapdata)允许将外部数据源中的一列映射到单个预定义的合并字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

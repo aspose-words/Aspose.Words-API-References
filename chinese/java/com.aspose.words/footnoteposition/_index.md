@@ -1,7 +1,7 @@
 ---
 title: FootnotePosition
-second_title: Aspose.Words for Java API 参考
-description:定义脚注位置。
+second_title: Aspose.Words for Java API Reference
+description: 定义脚注位置。
 type: docs
 weight: 294
 url: /zh/java/com.aspose.words/footnoteposition/
@@ -21,7 +21,7 @@ public class FootnotePosition
 | [BENEATH_TEXT](#BENEATH-TEXT) | 脚注在每页的文本下方输出。 |
 | [BOTTOM_OF_PAGE](#BOTTOM-OF-PAGE) | 脚注输出在每页的底部。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

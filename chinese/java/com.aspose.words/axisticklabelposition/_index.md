@@ -1,7 +1,7 @@
 ---
 title: AxisTickLabelPosition
-second_title: Aspose.Words for Java API 参考
-description:指定刻度标签的可能位置。
+second_title: Aspose.Words for Java API Reference
+description: 指定刻度标签的可能位置。
 type: docs
 weight: 23
 url: /zh/java/com.aspose.words/axisticklabelposition/
@@ -24,7 +24,7 @@ public class AxisTickLabelPosition
 | [NEXT_TO_AXIS](#NEXT-TO-AXIS) | 指定轴标签应位于轴旁边。 |
 | [NONE](#NONE) | 指定不绘制轴标签。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

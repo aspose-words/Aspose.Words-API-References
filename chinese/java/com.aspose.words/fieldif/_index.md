@@ -1,7 +1,7 @@
 ---
 title: 字段If
-second_title: Aspose.Words for Java API 参考
-description:实现 IF 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 IF 字段。
 type: docs
 weight: 200
 url: /zh/java/com.aspose.words/fieldif/
@@ -20,7 +20,7 @@ public class 字段If extends 字段
 比较表达式指定的值[getLeftExpression()](../../com.aspose.words/fieldif\#getLeftExpression--) / [setLeftExpression(java.lang.String)](../../com.aspose.words/fieldif\#setLeftExpression-java.lang.String-)和[getRightExpression()](../../com.aspose.words/fieldif\#getRightExpression--) / [setRightExpression(java.lang.String)](../../com.aspose.words/fieldif\#setRightExpression-java.lang.String-)比较使用指定的运算符[getComparisonOperator()](../../com.aspose.words/fieldif\#getComparisonOperator--) / [setComparisonOperator(java.lang.String)](../../com.aspose.words/fieldif\#setComparisonOperator-java.lang.String-).
 
 以下格式的字段将用作邮件合并源：\{ 如果 0 = 0 "\{患者姓名FML\ }" ""\\\ * 合并格式\}
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

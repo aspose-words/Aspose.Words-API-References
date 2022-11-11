@@ -1,7 +1,7 @@
 ---
 title: Form字段
-second_title: Aspose.Words for Java API 参考
-description:表示单个表单域。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个表单域。
 type: docs
 weight: 296
 url: /zh/java/com.aspose.words/formfield/
@@ -24,7 +24,7 @@ Microsoft Word 提供以下表单域：复选框、文本输入和下拉列表�
 **Form字段**在文档中由一个特殊字符表示，并定位为一行文本中的一个字符。
 
 Word文档中一个完整的表单域是一个复杂的结构，由几个节点表示：域开始、FORMTEXT等域代码、表单域数据、域分隔符、域结果、域结束和书签。要以编程方式在 Word 文档中创建表单域，请使用[DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder\#insertCheckBox-java.lang.String--boolean--int-), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.字段.TextForm字段类型,System.String,System.String,System.Int32)**和[DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder\#insertComboBox-java.lang.String--java.lang.String----int-)这确保所有表单字段节点都以正确的顺序和适当的状态创建。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -46,7 +46,7 @@ Word文档中一个完整的表单域是一个复杂的结构，由几个节点�
 | [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
 | [getDropDownItems()](#getDropDownItems--) | 提供对下拉表单字段项目的访问。 |
-| [getDropDownSelectedIndex()](#getDropDownSelectedIndex--) | 获取指定下拉表单字段中当前选定项目的索引。 |
+| [getDropDownSelectedIndex()](#getDropDownSelectedIndex--) | 获取指定下拉表单字段中当前选定项的索引。 |
 | [getEnabled()](#getEnabled--) | 如果启用了表单域，则为真。 |
 | [getEntryMacro()](#getEntryMacro--) | 获取表单域的入口宏名称。 |
 | [getExitMacro()](#getExitMacro--) | 获取表单域的退出宏名称。 |
@@ -360,7 +360,7 @@ public int getDropDownSelectedIndex()
 ```
 
 
-获取指定下拉表单字段中当前选定项目的索引。
+获取指定下拉表单字段中当前选定项的索引。
 
 **退货:**
 int - 指定下拉表单字段中当前选定项目的索引。

@@ -1,7 +1,7 @@
 ---
 title: FrameFormat
-second_title: Aspose.Words for Java API 参考
-description:表示段落的框架相关格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示段落的框架相关格式。
 type: docs
 weight: 301
 url: /zh/java/com.aspose.words/frameformat/
@@ -18,7 +18,7 @@ public class FrameFormat
 始终创建此对象。如果一个段落是一个框架，那么所有属性都将包含各自的值，否则所有属性都设置为其默认值。
 
 利用[isFrame()](../../com.aspose.words/frameformat\#isFrame--)检查段落是否为框架。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

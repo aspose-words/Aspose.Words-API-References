@@ -1,7 +1,7 @@
 ---
 title: I字段MergingCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。
 type: docs
 weight: 641
 url: /zh/java/com.aspose.words/ifieldmergingcallback/
@@ -11,7 +11,7 @@ public interface I字段MergingCallback
 ```
 
 如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: PdfImageCompression
-second_title: Aspose.Words for Java API 参考
-description:指定应用于 PDF 文件中图像的压缩类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定应用于 PDF 文件中图像的压缩类型。
 type: docs
 weight: 457
 url: /zh/java/com.aspose.words/pdfimagecompression/
@@ -21,7 +21,7 @@ public class PdfImageCompression
 | [AUTO](#AUTO) | 自动为每个图像选择最合适的压缩。 |
 | [JPEG](#JPEG) | Jpeg 压缩。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

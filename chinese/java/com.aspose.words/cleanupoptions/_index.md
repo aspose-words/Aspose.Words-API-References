@@ -1,7 +1,7 @@
 ---
 title: CleanupOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定文档清理选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定文档清理选项。
 type: docs
 weight: 73
 url: /zh/java/com.aspose.words/cleanupoptions/
@@ -16,7 +16,7 @@ public class CleanupOptions
 允许指定文档清理选项。
 
 要了解更多信息，请访问**Clean Up a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

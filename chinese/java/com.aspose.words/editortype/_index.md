@@ -1,7 +1,7 @@
 ---
 title: Editor类型
-second_title: Aspose.Words for Java API 参考
-description:指定一组可能的别名或编辑组，这些别名或编辑组可用作别名以确定是否应允许当前用户编辑由文档内的可编辑范围定义的单个范围。
+second_title: Aspose.Words for Java API Reference
+description: 指定一组可能的别名或编辑组，这些别名或编辑组可用作别名以确定是否应允许当前用户编辑由文档内的可编辑范围定义的单个范围。
 type: docs
 weight: 140
 url: /zh/java/com.aspose.words/editortype/
@@ -28,7 +28,7 @@ public class Editor类型
 | [OWNERS](#OWNERS) | 指定启用文档保护时，应允许与 Owners 组关联的用户使用此编辑类型编辑可编辑范围。 |
 | [UNSPECIFIED](#UNSPECIFIED) | 表示未指定编辑器类型。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

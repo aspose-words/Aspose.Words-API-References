@@ -1,7 +1,7 @@
 ---
 title: ListCollection
-second_title: Aspose.Words for Java API 参考
-description:存储和管理文档中使用的项目符号和编号列表的格式。
+second_title: Aspose.Words for Java API Reference
+description: 存储和管理文档中使用的项目符号和编号列表的格式。
 type: docs
 weight: 369
 url: /zh/java/com.aspose.words/listcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/listcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class ListCollection implements Cloneable, Iterable
@@ -37,7 +37,7 @@ public class ListCollection implements Cloneable, Iterable
 为了简化编程模型，Aspose.Words 隐藏了列表和列表定义之间的区别，就像 Microsoft Word 在其用户界面中隐藏它一样。这使您可以更专注于您希望文档的外观，而不是构建低级对象以满足 Microsoft Word 文件格式的要求。
 
 一旦在当前版本的 Aspose.Words 中创建列表，就无法删除它们。这类似于 Microsoft Word，其中用户没有对列表定义的显式控制。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

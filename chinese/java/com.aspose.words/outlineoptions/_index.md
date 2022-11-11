@@ -1,7 +1,7 @@
 ---
 title: OutlineOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定大纲选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定大纲选项。
 type: docs
 weight: 431
 url: /zh/java/com.aspose.words/outlineoptions/
@@ -16,7 +16,7 @@ public class OutlineOptions
 允许指定大纲选项。
 
 要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

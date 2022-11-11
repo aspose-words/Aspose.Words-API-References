@@ -1,7 +1,7 @@
 ---
 title: ListFormat
-second_title: Aspose.Words for Java API 参考
-description:允许控制应用于段落的列表格式。
+second_title: Aspose.Words for Java API Reference
+description: 允许控制应用于段落的列表格式。
 type: docs
 weight: 370
 url: /zh/java/com.aspose.words/listformat/
@@ -30,7 +30,7 @@ Microsoft Word 文档中的段落可以使用项目符号或编号。当段落�
 列表格式本身存储在一个[List](../../com.aspose.words/list)与段落分开存储的对象。列表对象存储在一个[ListCollection](../../com.aspose.words/listcollection)收藏。有一个单[ListCollection](../../com.aspose.words/listcollection)收集每[Document](../../com.aspose.words/document).
 
 这些段落实际上不属于列表。这些段落只是通过[getList()](../../com.aspose.words/listformat\#getList--) / [setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)属性和列表中的特定级别通过[getListLevelNumber()](../../com.aspose.words/listformat\#getListLevelNumber--) / [setListLevelNumber(int)](../../com.aspose.words/listformat\#setListLevelNumber-int-)财产。通过设置这两个属性，您可以控制将哪些项目符号和编号应用于段落。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

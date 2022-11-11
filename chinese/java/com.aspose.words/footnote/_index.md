@@ -1,7 +1,7 @@
 ---
 title: Footnote
-second_title: Aspose.Words for Java API 参考
-description:表示脚注或尾注文本的容器。
+second_title: Aspose.Words for Java API Reference
+description: 表示脚注或尾注文本的容器。
 type: docs
 weight: 291
 url: /zh/java/com.aspose.words/footnote/
@@ -22,12 +22,12 @@ public class Footnote extends InlineStory
 **Footnote**是一个内联级节点，只能是**Paragraph**.
 
 **Footnote**可以包含**Paragraph**和**Table**子节点。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Footnote(DocumentBase doc, int footnote类型)](#Footnote-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

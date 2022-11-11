@@ -1,7 +1,7 @@
 ---
 title: PageBorderAppliesTo
-second_title: Aspose.Words for Java API 参考
-description:指定打印页面边框的页面。
+second_title: Aspose.Words for Java API Reference
+description: 指定打印页面边框的页面。
 type: docs
 weight: 432
 url: /zh/java/com.aspose.words/pageborderappliesto/
@@ -22,7 +22,7 @@ public class PageBorderAppliesTo
 | [FIRST_PAGE](#FIRST-PAGE) | 页面边框仅显示在该部分的第一页上。 |
 | [OTHER_PAGES](#OTHER-PAGES) | 页面边框显示在除该部分的第一页之外的所有页面上。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

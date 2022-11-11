@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.net.System.Data
-second_title: Aspose.Words for Java API 参考
-description:提供模仿 Java 中 System.Data 命名空间的 .NET 类型的类型。
+second_title: Aspose.Words for Java API Reference
+description: 提供模仿 Java 中 System.Data 命名空间的 .NET 类型的类型。
 type: docs
 weight: 12
 url: /zh/java/com.aspose.words.net.system.data/
@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words.net.system.data/
 提供模仿 .NET 类型的类型`System.Data`Java 中的命名空间。
 
 
-## 班级es
+## 课程
 
 | 班级 | 描述 |
 | --- | --- |
@@ -39,7 +39,7 @@ url: /zh/java/com.aspose.words.net.system.data/
 | [Mapping类型](../com.aspose.words.net.system.data/mappingtype) | 指定如何[DataColumn](../com.aspose.words.net.system.data/datacolumn)被映射。 |
 | [UniqueConstraint](../com.aspose.words.net.system.data/uniqueconstraint) | 表示对一组列的限制，其中所有值都必须是唯一的。 |
 
-## 界面s
+## 接口
 
 | 界面 | 描述 |
 | --- | --- |

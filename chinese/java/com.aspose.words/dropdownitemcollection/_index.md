@@ -1,7 +1,7 @@
 ---
 title: DropDownItemCollection
-second_title: Aspose.Words for Java API 参考
-description:表示下拉表单字段中所有项目的字符串集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示下拉表单字段中所有项目的字符串集合。
 type: docs
 weight: 135
 url: /zh/java/com.aspose.words/dropdownitemcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/dropdownitemcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DropDownItemCollection implements Iterable
@@ -19,7 +19,7 @@ public class DropDownItemCollection implements Iterable
 表示下拉表单字段中所有项目的字符串集合。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

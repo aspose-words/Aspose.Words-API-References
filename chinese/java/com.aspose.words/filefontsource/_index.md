@@ -1,7 +1,7 @@
 ---
 title: FileFontSource
-second_title: Aspose.Words for Java API 参考
-description:表示存储在文件系统中的单个 True类型 字体文件。
+second_title: Aspose.Words for Java API Reference
+description: 表示存储在文件系统中的单个 True类型 字体文件。
 type: docs
 weight: 264
 url: /zh/java/com.aspose.words/filefontsource/
@@ -16,14 +16,14 @@ public class FileFontSource extends FontSourceBase
 表示存储在文件系统中的单个 True类型 字体文件。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [FileFontSource(String filePath)](#FileFontSource-java.lang.String-) | 克托尔。 |
 | [FileFontSource(String filePath, int priority)](#FileFontSource-java.lang.String-int-) | 克托尔。 |
 | [FileFontSource(String filePath, int priority, String cacheKey)](#FileFontSource-java.lang.String-int-java.lang.String-) | 克托尔。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

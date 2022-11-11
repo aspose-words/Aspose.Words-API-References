@@ -1,7 +1,7 @@
 ---
 title: SmartTag
-second_title: Aspose.Words for Java API 参考
-description:此元素指定围绕一个或多个内联结构运行图像字段等的智能标签的存在。一个段落内。
+second_title: Aspose.Words for Java API Reference
+description: 此元素指定围绕一个或多个内联结构运行图像字段等的智能标签的存在。一个段落内。
 type: docs
 weight: 526
 url: /zh/java/com.aspose.words/smarttag/
@@ -22,12 +22,12 @@ public class SmartTag extends CompositeNode
 [SmartTag](../../com.aspose.words/smarttag)可以是一个孩子[Paragraph](../../com.aspose.words/paragraph)或其他[SmartTag](../../com.aspose.words/smarttag)节点。
 
 可以出现在智能标签内的子节点的完整列表包括[BookmarkStart](../../com.aspose.words/bookmarkstart), [BookmarkEnd](../../com.aspose.words/bookmarkend), [字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend), [Form字段](../../com.aspose.words/formfield), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote), [Run](../../com.aspose.words/run), [SpecialChar](../../com.aspose.words/specialchar), [Shape](../../com.aspose.words/shape), [GroupShape](../../com.aspose.words/groupshape), [CommentRangeStart](../../com.aspose.words/commentrangestart), [CommentRangeEnd](../../com.aspose.words/commentrangeend), [SmartTag](../../com.aspose.words/smarttag).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [SmartTag(DocumentBase doc)](#SmartTag-com.aspose.words.DocumentBase-) | 初始化一个新的实例[SmartTag](../../com.aspose.words/smarttag)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

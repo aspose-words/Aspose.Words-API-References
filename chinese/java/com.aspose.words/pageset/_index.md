@@ -1,7 +1,7 @@
 ---
 title: PageSet
-second_title: Aspose.Words for Java API 参考
-description:描述一组随机的页面。
+second_title: Aspose.Words for Java API Reference
+description: 描述一组随机的页面。
 type: docs
 weight: 439
 url: /zh/java/com.aspose.words/pageset/
@@ -16,14 +16,14 @@ public class PageSet
 描述一组随机的页面。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PageSet(int page)](#PageSet-int-) | 根据确切的页面索引创建单页集。 |
 | [PageSet(int[] pages)](#PageSet-int...-) | 根据确切的页面索引创建页面集。 |
 | [PageSet(PageRange[] ranges)](#PageSet-com.aspose.words.PageRange...-) | 根据范围创建页面集。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

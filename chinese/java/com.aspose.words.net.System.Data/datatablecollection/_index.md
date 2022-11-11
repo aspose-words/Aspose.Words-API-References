@@ -1,7 +1,7 @@
 ---
 title: DataTableCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 的表的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 的表的集合。
 type: docs
 weight: 26
 url: /zh/java/com.aspose.words.net.system.data/datatablecollection/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/datatablecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DataTableCollection implements Iterable
 ```
 
 表示表的集合[DataSet](../../com.aspose.words.net.system.data/dataset).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

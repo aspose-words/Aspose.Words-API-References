@@ -1,7 +1,7 @@
 ---
 title: Table
-second_title: Aspose.Words for Java API 参考
-description:表示 Word 文档中的表格。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Word 文档中的表格。
 type: docs
 weight: 548
 url: /zh/java/com.aspose.words/table/
@@ -22,12 +22,12 @@ public class Table extends CompositeNode
 **Table**可以包含一个或多个**Row**节点。
 
 一个最小有效表需要至少有一个**Row**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Table(DocumentBase doc)](#Table-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Table**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: DataRowState
-second_title: Aspose.Words for Java API 参考
-description:表示行的状态。
+second_title: Aspose.Words for Java API Reference
+description: 表示行的状态。
 type: docs
 weight: 22
 url: /zh/java/com.aspose.words.net.system.data/datarowstate/
@@ -23,7 +23,7 @@ public class DataRowState
 | [DETACHED](#DETACHED) |  |
 | [MODIFIED](#MODIFIED) |  |
 | [UNCHANGED](#UNCHANGED) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

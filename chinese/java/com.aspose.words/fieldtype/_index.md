@@ -1,7 +1,7 @@
 ---
 title: 字段类型
-second_title: Aspose.Words for Java API 参考
-description:指定 Microsoft Word 字段类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Microsoft Word 字段类型。
 type: docs
 weight: 256
 url: /zh/java/com.aspose.words/fieldtype/
@@ -116,7 +116,7 @@ public class 字段类型
 | [FIELD_USER_INITIALS](#FIELD-USER-INITIALS) | 指定 USERINITIALS 字段。 |
 | [FIELD_USER_NAME](#FIELD-USER-NAME) | 指定用户名字段。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

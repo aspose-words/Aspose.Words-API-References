@@ -1,7 +1,7 @@
 ---
 title: 字段Char
-second_title: Aspose.Words for Java API 参考
-description:表示文档中字段字符的节点的基类。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中字段字符的节点的基类。
 type: docs
 weight: 167
 url: /zh/java/com.aspose.words/fieldchar/
@@ -20,12 +20,12 @@ public abstract class 字段Char extends SpecialChar
 Microsoft Word 文档中的完整字段是由字段起始字符、字段代码、字段分隔符、字段结果和字段结束字符组成的复杂结构。有些字段只有字段开始、字段代码和字段结束。
 
 要轻松地将新字段插入到文档中，请使用[DocumentBuilder.insert字段(java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String-)方法。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [字段Char()](#字段Char--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

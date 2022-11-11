@@ -1,7 +1,7 @@
 ---
 title: SdtCalendar类型
-second_title: Aspose.Words for Java API 参考
-description:指定可用于在 Office Open XML 文档中指定 / 的可能类型的日历。
+second_title: Aspose.Words for Java API Reference
+description: 指定可用于在 Office Open XML 文档中指定 / 的可能类型的日历。
 type: docs
 weight: 504
 url: /zh/java/com.aspose.words/sdtcalendartype/
@@ -34,7 +34,7 @@ public class SdtCalendar类型
 | [TAIWAN](#TAIWAN) | 指定应使用由中国国家标准 CNS 7648 定义的台湾日历。 |
 | [THAI](#THAI) | 指定由 HM 皇家法令定义的泰国日历 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature类型
-second_title: Aspose.Words for Java API 参考
-description:指定数字签名的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定数字签名的类型。
 type: docs
 weight: 113
 url: /zh/java/com.aspose.words/digitalsignaturetype/
@@ -22,7 +22,7 @@ public class DigitalSignature类型
 | [UNKNOWN](#UNKNOWN) | 表示错误、未知的数字签名类型。 |
 | [XML_DSIG](#XML-DSIG) | OOXML 和 OpenDocument 文档中使用的 XmlDsig 签名方法。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

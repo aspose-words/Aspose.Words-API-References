@@ -1,7 +1,7 @@
 ---
 title: IBarcodeGenerator
-second_title: Aspose.Words for Java API 参考
-description:条形码自定义生成器的公共接口。
+second_title: Aspose.Words for Java API Reference
+description: 条形码自定义生成器的公共接口。
 type: docs
 weight: 632
 url: /zh/java/com.aspose.words/ibarcodegenerator/
@@ -11,7 +11,7 @@ public interface IBarcodeGenerator
 ```
 
 条形码自定义生成器的公共接口。实施应由用户提供。生成器实例应该通过[字段Options.getBarcodeGenerator()](../../com.aspose.words/fieldoptions\#getBarcodeGenerator--) / [字段Options.setBarcodeGenerator(com.aspose.words.IBarcodeGenerator)](../../com.aspose.words/fieldoptions\#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

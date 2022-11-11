@@ -1,7 +1,7 @@
 ---
 title: 字段Merge字段
-second_title: Aspose.Words for Java API 参考
-description:实现 MERGEFIELD 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 MERGEFIELD 字段。
 type: docs
 weight: 215
 url: /zh/java/com.aspose.words/fieldmergefield/
@@ -18,7 +18,7 @@ public class 字段Merge字段 extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索邮件合并主文档中合并字符内的数据字段的名称。当主文档与选定的数据源合并时，将插入来自指定数据字段的信息来代替合并字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

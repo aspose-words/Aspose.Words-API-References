@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFontFormat
-second_title: Aspose.Words for Java API 参考
-description:指定对象内特定嵌入字体的格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定对象内特定嵌入字体的格式。
 type: docs
 weight: 141
 url: /zh/java/com.aspose.words/embeddedfontformat/
@@ -23,7 +23,7 @@ public class EmbeddedFontFormat
 | [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | 指定嵌入式 Open类型 (EOT) 文件格式。 |
 | [OPEN_TYPE](#OPEN-TYPE) | 指定字体，嵌入为 Open类型 (True类型) 字体文件的纯副本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

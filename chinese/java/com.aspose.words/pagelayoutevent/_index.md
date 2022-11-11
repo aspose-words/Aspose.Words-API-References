@@ -1,7 +1,7 @@
 ---
 title: PageLayoutEvent
-second_title: Aspose.Words for Java API 参考
-description:在页面布局模型构建和渲染期间引发的事件代码。
+second_title: Aspose.Words for Java API Reference
+description: 在页面布局模型构建和渲染期间引发的事件代码。
 type: docs
 weight: 436
 url: /zh/java/com.aspose.words/pagelayoutevent/
@@ -35,7 +35,7 @@ public class PageLayoutEvent
 | [REFLOW_STARTED](#REFLOW-STARTED) | 页面布局的重排已开始。 |
 | [WATCH_DOG](#WATCH-DOG) | 对应于代码中经常被访问且适合中止进程的检查点。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

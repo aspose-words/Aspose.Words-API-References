@@ -1,7 +1,7 @@
 ---
 title: ShowInBalloons
-second_title: Aspose.Words for Java API 参考
-description:指定在气球中呈现哪些修订。
+second_title: Aspose.Words for Java API Reference
+description: 指定在气球中呈现哪些修订。
 type: docs
 weight: 522
 url: /zh/java/com.aspose.words/showinballoons/
@@ -22,7 +22,7 @@ public class ShowInBalloons
 | [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | 渲染在气球中插入修订、删除和格式化修订。 |
 | [NONE](#NONE) | 呈现插入、删除和格式化内联修订。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

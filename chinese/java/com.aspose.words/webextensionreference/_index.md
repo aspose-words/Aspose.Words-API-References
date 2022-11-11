@@ -1,7 +1,7 @@
 ---
 title: WebExtensionReference
-second_title: Aspose.Words for Java API 参考
-description:表示对 Web 扩展的引用。
+second_title: Aspose.Words for Java API Reference
+description: 表示对 Web 扩展的引用。
 type: docs
 weight: 617
 url: /zh/java/com.aspose.words/webextensionreference/
@@ -16,7 +16,7 @@ public class WebExtensionReference
 表示对 Web 扩展的引用。该引用用于标识提供程序的位置和扩展的版本。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

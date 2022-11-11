@@ -1,7 +1,7 @@
 ---
 title: VbaProject
-second_title: Aspose.Words for Java API 参考
-description:提供对 VBA 项目信息的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对 VBA 项目信息的访问。
 type: docs
 weight: 596
 url: /zh/java/com.aspose.words/vbaproject/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/vbaproject/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class VbaProject implements Cloneable
@@ -19,12 +19,12 @@ public class VbaProject implements Cloneable
 提供对 VBA 项目信息的访问。文档中的 VBA 项目被定义为 VBA 模块的集合。
 
 要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [VbaProject()](#VbaProject--) | 创建一个空白 VbaProject。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

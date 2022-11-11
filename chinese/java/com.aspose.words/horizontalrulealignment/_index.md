@@ -1,7 +1,7 @@
 ---
 title: HorizontalRuleAlignment
-second_title: Aspose.Words for Java API 参考
-description:表示指定水平线的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 表示指定水平线的对齐方式。
 type: docs
 weight: 321
 url: /zh/java/com.aspose.words/horizontalrulealignment/
@@ -22,7 +22,7 @@ public class HorizontalRuleAlignment
 | [LEFT](#LEFT) | 与左侧对齐。 |
 | [RIGHT](#RIGHT) | 向右对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: TxtExportHeadersFootersMode
-second_title: Aspose.Words for Java API 参考
-description:指定将页眉和页脚导出为纯文本格式的方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定将页眉和页脚导出为纯文本格式的方式。
 type: docs
 weight: 581
 url: /zh/java/com.aspose.words/txtexportheadersfootersmode/
@@ -22,7 +22,7 @@ public class TxtExportHeadersFootersMode
 | [NONE](#NONE) | 不导出页眉和页脚。 |
 | [PRIMARY_ONLY](#PRIMARY-ONLY) | 在每个部分的开头和结尾处仅导出主要页眉和页脚。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

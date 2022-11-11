@@ -1,7 +1,7 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Words for Java API 参考
-description:指定生成的文档页面图像的像素格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定生成的文档页面图像的像素格式。
 type: docs
 weight: 339
 url: /zh/java/com.aspose.words/imagepixelformat/
@@ -30,7 +30,7 @@ public class ImagePixelFormat
 | [FORMAT_64_BPP_ARGB](#FORMAT-64-BPP-ARGB) | 每像素 64 位，ARGB。 |
 | [FORMAT_64_BPP_P_ARGB](#FORMAT-64-BPP-P-ARGB) | 每像素 64 位，ARGB，预乘 alpha。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

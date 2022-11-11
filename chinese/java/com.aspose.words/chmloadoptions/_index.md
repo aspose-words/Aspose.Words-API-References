@@ -1,7 +1,7 @@
 ---
 title: ChmLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将 CHM 文档加载到对象时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将 CHM 文档加载到对象时指定其他选项。
 type: docs
 weight: 72
 url: /zh/java/com.aspose.words/chmloadoptions/
@@ -16,12 +16,12 @@ public class ChmLoadOptions extends LoadOptions
 允许在将 CHM 文档加载到[Document](../../com.aspose.words/document)目的。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ChmLoadOptions()](#ChmLoadOptions--) | 使用默认值初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

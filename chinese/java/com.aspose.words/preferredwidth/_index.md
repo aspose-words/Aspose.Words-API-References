@@ -1,7 +1,7 @@
 ---
 title: PreferredWidth
-second_title: Aspose.Words for Java API 参考
-description:表示一个值及其度量单位，用于指定表格或单元格的首选宽度。
+second_title: Aspose.Words for Java API Reference
+description: 表示一个值及其度量单位，用于指定表格或单元格的首选宽度。
 type: docs
 weight: 466
 url: /zh/java/com.aspose.words/preferredwidth/
@@ -25,7 +25,7 @@ public class PreferredWidth
 | 字段 | 描述 |
 | --- | --- |
 | [AUTO](#AUTO) | 返回一个表示“未指定首选宽度”值的实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

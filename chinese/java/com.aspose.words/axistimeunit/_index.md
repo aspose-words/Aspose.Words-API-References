@@ -1,7 +1,7 @@
 ---
 title: AxisTimeUnit
-second_title: Aspose.Words for Java API 参考
-description:指定轴的时间单位。
+second_title: Aspose.Words for Java API Reference
+description: 指定轴的时间单位。
 type: docs
 weight: 25
 url: /zh/java/com.aspose.words/axistimeunit/
@@ -23,7 +23,7 @@ public class AxisTimeUnit
 | [MONTHS](#MONTHS) | 指定图表数据应以月显示。 |
 | [YEARS](#YEARS) | 指定图表数据应以年显示。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

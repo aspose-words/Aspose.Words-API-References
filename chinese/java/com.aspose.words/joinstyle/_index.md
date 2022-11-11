@@ -1,7 +1,7 @@
 ---
 title: JoinStyle
-second_title: Aspose.Words for Java API 参考
-description:线连接样式。
+second_title: Aspose.Words for Java API Reference
+description: 线连接样式。
 type: docs
 weight: 352
 url: /zh/java/com.aspose.words/joinstyle/
@@ -22,7 +22,7 @@ public class JoinStyle
 | [MITER](#MITER) | 延伸边缘直到它们连接。 |
 | [ROUND](#ROUND) | 在两条边之间画一条弧线。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

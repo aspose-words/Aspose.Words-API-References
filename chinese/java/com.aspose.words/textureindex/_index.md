@@ -1,7 +1,7 @@
 ---
 title: TextureIndex
-second_title: Aspose.Words for Java API 参考
-description:指定着色纹理。
+second_title: Aspose.Words for Java API Reference
+description: 指定着色纹理。
 type: docs
 weight: 572
 url: /zh/java/com.aspose.words/textureindex/
@@ -73,7 +73,7 @@ public class TextureIndex
 | [TEXTURE_SOLID](#TEXTURE-SOLID) |  |
 | [TEXTURE_VERTICAL](#TEXTURE-VERTICAL) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

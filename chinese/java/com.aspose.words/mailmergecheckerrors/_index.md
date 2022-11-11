@@ -1,7 +1,7 @@
 ---
 title: MailMergeCheckErrors
-second_title: Aspose.Words for Java API 参考
-description:指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
 type: docs
 weight: 380
 url: /zh/java/com.aspose.words/mailmergecheckerrors/
@@ -23,7 +23,7 @@ public class MailMergeCheckErrors
 | [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | 完成合并并暂停以报告错误。 |
 | [SIMULATE](#SIMULATE) | 在新文档中模拟合并并报告错误。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

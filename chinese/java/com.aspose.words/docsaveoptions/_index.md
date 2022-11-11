@@ -1,7 +1,7 @@
 ---
 title: DocSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为 or 格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为 or 格式时指定其他选项。
 type: docs
 weight: 119
 url: /zh/java/com.aspose.words/docsaveoptions/
@@ -18,13 +18,13 @@ public class DocSaveOptions extends SaveOptions
 要了解更多信息，请访问**Specify Save Options**文档文章。
 
 目前只提供[getSaveFormat()](../../com.aspose.words/docsaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/docsaveoptions\#setSaveFormat-int-)属性，但将来会添加其他选项，例如加密密码或数字签名设置。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DocSaveOptions()](#DocSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.DOC](../../com.aspose.words/saveformat\#DOC)格式。 |
 | [DocSaveOptions(int saveFormat)](#DocSaveOptions-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

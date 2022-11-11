@@ -1,7 +1,7 @@
 ---
 title: SpecialChar
-second_title: Aspose.Words for Java API 参考
-description:文档中特殊字符的基类。
+second_title: Aspose.Words for Java API Reference
+description: 文档中特殊字符的基类。
 type: docs
 weight: 527
 url: /zh/java/com.aspose.words/specialchar/
@@ -22,7 +22,7 @@ public class SpecialChar extends Inline
 **SpecialChar**是一个内联节点，只能是**Paragraph**.
 
 **SpecialChar**char 用作更具体的类的基类，这些类表示 Aspose.Words 为其提供编程访问的特殊字符。这**SpecialChar**类本身也用于表示 Aspose.Words 不提供详细编程访问的特殊字符。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

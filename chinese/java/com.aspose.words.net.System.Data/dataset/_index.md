@@ -1,7 +1,7 @@
 ---
 title: DataSet
-second_title: Aspose.Words for Java API 参考
-description:表示数据的内存缓存。
+second_title: Aspose.Words for Java API Reference
+description: 表示数据的内存缓存。
 type: docs
 weight: 24
 url: /zh/java/com.aspose.words.net.system.data/dataset/
@@ -14,7 +14,7 @@ public class DataSet
 ```
 
 表示数据的内存缓存。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -22,7 +22,7 @@ public class DataSet
 | [DataSet(Connection connection)](#DataSet-java.sql.Connection-) | 使用从 Connection 获取的数据初始化 DataSet 类的新实例。 |
 | [DataSet(Connection connection, String schemaName)](#DataSet-java.sql.Connection-java.lang.String-) | 使用从 Connection 获取的数据初始化 DataSet 类的新实例。 |
 | [DataSet(String dataSetName)](#DataSet-java.lang.String-) | 初始化 a 的新实例[DataSet](../../com.aspose.words.net.system.data/dataset)具有给定名称的类。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

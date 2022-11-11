@@ -1,7 +1,7 @@
 ---
 title: ChartFormat
-second_title: Aspose.Words for Java API 参考
-description:表示图表元素的格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表元素的格式。
 type: docs
 weight: 62
 url: /zh/java/com.aspose.words/chartformat/
@@ -16,7 +16,7 @@ public class ChartFormat
 表示图表元素的格式。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: 字段Keywords
-second_title: Aspose.Words for Java API 参考
-description:实现 KEYWORDS 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 KEYWORDS 字段。
 type: docs
 weight: 209
 url: /zh/java/com.aspose.words/fieldkeywords/
@@ -18,7 +18,7 @@ public class 字段Keywords extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索并选择性地设置文档的关键字，如记录在**Keywords**内置文档属性的属性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

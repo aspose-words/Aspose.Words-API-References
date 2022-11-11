@@ -1,7 +1,7 @@
 ---
 title: HeaderFooter
-second_title: Aspose.Words for Java API 参考
-description:表示节的页眉或页脚文本的容器。
+second_title: Aspose.Words for Java API Reference
+description: 表示节的页眉或页脚文本的容器。
 type: docs
 weight: 315
 url: /zh/java/com.aspose.words/headerfooter/
@@ -24,12 +24,12 @@ public class HeaderFooter extends Story
 如果**Section**没有**HeaderFooter**特定类型或**HeaderFooter**如果没有子节点，则此页眉/页脚被认为链接到 Microsoft Word 中上一节的相同类型的页眉/页脚。
 
 什么时候**HeaderFooter**至少包含一个**Paragraph**，它不再被认为与 Microsoft Word 中的上一个链接。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [HeaderFooter(DocumentBase doc, int headerFooter类型)](#HeaderFooter-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

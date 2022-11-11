@@ -1,6 +1,6 @@
 ---
 title: ScriptShapingLevel
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 502
@@ -21,7 +21,7 @@ public class ScriptShapingLevel
 | [NONE](#NONE) |  |
 | [UNKNOWN](#UNKNOWN) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

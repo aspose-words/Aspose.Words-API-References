@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionSettings
-second_title: Aspose.Words for Java API 参考
-description:指定字体替换机制设置。
+second_title: Aspose.Words for Java API Reference
+description: 指定字体替换机制设置。
 type: docs
 weight: 290
 url: /zh/java/com.aspose.words/fontsubstitutionsettings/
@@ -24,7 +24,7 @@ public class FontSubstitutionSettings
 请注意，字体信息替换规则将始终解析字体，如果[FontInfo](../../com.aspose.words/fontinfo)可用并将覆盖默认字体规则。如果要使用默认字体规则，则应禁用字体信息替换规则。
 
 请注意，字体配置替换规则将在大多数情况下解析字体，从而覆盖所有其他规则。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

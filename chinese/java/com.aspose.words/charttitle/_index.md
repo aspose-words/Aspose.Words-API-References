@@ -1,7 +1,7 @@
 ---
 title: ChartTitle
-second_title: Aspose.Words for Java API 参考
-description:提供对图表标题属性的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对图表标题属性的访问。
 type: docs
 weight: 70
 url: /zh/java/com.aspose.words/charttitle/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/charttitle/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ChartTitle implements Cloneable
@@ -19,7 +19,7 @@ public class ChartTitle implements Cloneable
 提供对图表标题属性的访问。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

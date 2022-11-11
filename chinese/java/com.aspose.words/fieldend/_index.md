@@ -1,7 +1,7 @@
 ---
 title: 字段End
-second_title: Aspose.Words for Java API 参考
-description:表示文档中 Word 字段的结尾。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中 Word 字段的结尾。
 type: docs
 weight: 186
 url: /zh/java/com.aspose.words/fieldend/
@@ -24,7 +24,7 @@ public class 字段End extends 字段Char
 Microsoft Word 文档中的完整字段是由字段起始字符、字段代码、字段分隔符、字段结果和字段结束字符组成的复杂结构。有些字段只有字段开始、字段代码和字段结束。
 
 要轻松地将新字段插入到文档中，请使用[DocumentBuilder.insert字段(java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String-)方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

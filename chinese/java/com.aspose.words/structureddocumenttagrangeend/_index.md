@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTagRangeEnd
-second_title: Aspose.Words for Java API 参考
-description:表示接受多节内容的范围结构化文档标签的结尾。
+second_title: Aspose.Words for Java API Reference
+description: 表示接受多节内容的范围结构化文档标签的结尾。
 type: docs
 weight: 534
 url: /zh/java/com.aspose.words/structureddocumenttagrangeend/
@@ -18,12 +18,12 @@ public class StructuredDocumentTagRangeEnd extends Node
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 可以是直系子女[Body](../../com.aspose.words/body)节点**only**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [StructuredDocumentTagRangeEnd(DocumentBase doc, int id)](#StructuredDocumentTagRangeEnd-com.aspose.words.DocumentBase-int-) | 初始化一个新的实例**Structured document tag range end**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

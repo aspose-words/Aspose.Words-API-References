@@ -1,7 +1,7 @@
 ---
 title: FontSettings
-second_title: Aspose.Words for Java API 参考
-description:指定文档的字体设置。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档的字体设置。
 type: docs
 weight: 286
 url: /zh/java/com.aspose.words/fontsettings/
@@ -22,12 +22,12 @@ public class FontSettings
 默认情况下，所有文档都使用单个静态字体设置实例。它可以通过[getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)财产。
 
 随时从任何线程更改字体设置都是安全的。但建议您在处理某些使用此设置的文档时不要更改字体设置。这可能会导致相同的字体在文档的不同部分以不同的方式解析。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [FontSettings()](#FontSettings--) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

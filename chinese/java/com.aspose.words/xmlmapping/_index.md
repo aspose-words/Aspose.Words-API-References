@@ -1,7 +1,7 @@
 ---
 title: XmlMapping
-second_title: Aspose.Words for Java API 参考
-description:指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 type: docs
 weight: 629
 url: /zh/java/com.aspose.words/xmlmapping/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/xmlmapping/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class XmlMapping implements Cloneable
@@ -19,7 +19,7 @@ public class XmlMapping implements Cloneable
 指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: RefLong
-second_title: Aspose.Words for Java API 参考
-description:表示 Long 原始类型的 Out/Ref 构造
+second_title: Aspose.Words for Java API Reference
+description: 表示 Long 原始类型的 Out/Ref 构造
 type: docs
 weight: 16
 url: /zh/java/com.aspose.words.ref/reflong/
@@ -14,12 +14,12 @@ public class RefLong
 ```
 
 表示 Long 原始类型的 Out/Ref 构造
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RefLong(long value)](#RefLong-long-) | 使用给定值模拟 Out/Ref 参数初始化。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

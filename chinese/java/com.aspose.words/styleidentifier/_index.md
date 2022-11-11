@@ -1,7 +1,7 @@
 ---
 title: StyleIdentifier
-second_title: Aspose.Words for Java API 参考
-description:独立于语言环境的样式标识符。
+second_title: Aspose.Words for Java API Reference
+description: 独立于语言环境的样式标识符。
 type: docs
 weight: 538
 url: /zh/java/com.aspose.words/styleidentifier/
@@ -401,7 +401,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [UNRESOLVED_MENTION](#UNRESOLVED-MENTION) | 未解决的提及样式。 |
 | [USER](#USER) | 用户定义的样式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

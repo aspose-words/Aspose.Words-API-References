@@ -1,7 +1,7 @@
 ---
 title: Image类型
-second_title: Aspose.Words for Java API 参考
-description:指定 Microsoft Word 文档中图像的类型格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Microsoft Word 文档中图像的类型格式。
 type: docs
 weight: 343
 url: /zh/java/com.aspose.words/imagetype/
@@ -27,7 +27,7 @@ public class Image类型
 | [UNKNOWN](#UNKNOWN) | 无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。 |
 | [WMF](#WMF) | Windows 元文件。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

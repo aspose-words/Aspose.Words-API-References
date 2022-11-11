@@ -1,7 +1,7 @@
 ---
 title: ImlRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何将墨迹 InkML 对象呈现为固定页面格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将墨迹 InkML 对象呈现为固定页面格式。
 type: docs
 weight: 345
 url: /zh/java/com.aspose.words/imlrenderingmode/
@@ -21,7 +21,7 @@ public class ImlRenderingMode
 | [FALLBACK](#FALLBACK) | 如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。 |
 | [INK_ML](#INK-ML) | Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

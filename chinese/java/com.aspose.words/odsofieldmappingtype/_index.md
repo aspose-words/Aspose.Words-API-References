@@ -1,7 +1,7 @@
 ---
 title: Odso字段Mapping类型
-second_title: Aspose.Words for Java API 参考
-description:指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。
 type: docs
 weight: 415
 url: /zh/java/com.aspose.words/odsofieldmappingtype/
@@ -22,7 +22,7 @@ public class Odso字段Mapping类型
 | [DEFAULT](#DEFAULT) | 等于[NULL](../../com.aspose.words/odsofieldmappingtype\#NULL). |
 | [NULL](#NULL) | 指定邮件合并字段尚未映射到给定外部数据源中的列。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

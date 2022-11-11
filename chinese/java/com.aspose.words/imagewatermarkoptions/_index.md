@@ -1,7 +1,7 @@
 ---
 title: ImageWatermarkOptions
-second_title: Aspose.Words for Java API 参考
-description:包含在添加带有图像的水印时可以指定的选项。
+second_title: Aspose.Words for Java API Reference
+description: 包含在添加带有图像的水印时可以指定的选项。
 type: docs
 weight: 344
 url: /zh/java/com.aspose.words/imagewatermarkoptions/
@@ -16,7 +16,7 @@ public class ImageWatermarkOptions
 包含在添加带有图像的水印时可以指定的选项。
 
 要了解更多信息，请访问**Working with Watermark**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

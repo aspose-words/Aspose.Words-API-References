@@ -1,7 +1,7 @@
 ---
 title: ListLevel
-second_title: Aspose.Words for Java API 参考
-description:定义列表级别的格式。
+second_title: Aspose.Words for Java API Reference
+description: 定义列表级别的格式。
 type: docs
 weight: 372
 url: /zh/java/com.aspose.words/listlevel/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/listlevel/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ListLevel implements Cloneable
@@ -23,7 +23,7 @@ public class ListLevel implements Cloneable
 您不创建此类的对象。创建列表时会自动创建列表级对象。您访问[ListLevel](../../com.aspose.words/listlevel)对象通过[ListLevelCollection](../../com.aspose.words/listlevelcollection)收藏。
 
 使用的属性[ListLevel](../../com.aspose.words/listlevel)为各个列表级别指定列表格式。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

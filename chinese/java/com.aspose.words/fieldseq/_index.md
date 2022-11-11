@@ -1,7 +1,7 @@
 ---
 title: 字段Seq
-second_title: Aspose.Words for Java API 参考
-description:实现 SEQ 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 SEQ 字段。
 type: docs
 weight: 241
 url: /zh/java/com.aspose.words/fieldseq/
@@ -18,7 +18,7 @@ public class 字段Seq extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 按顺序编号文档中的章节、表格、图形和其他用户定义的项目列表。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

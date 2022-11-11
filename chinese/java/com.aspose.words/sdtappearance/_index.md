@@ -1,7 +1,7 @@
 ---
 title: SdtAppearance
-second_title: Aspose.Words for Java API 参考
-description:指定结构化文档标签的外观。
+second_title: Aspose.Words for Java API Reference
+description: 指定结构化文档标签的外观。
 type: docs
 weight: 503
 url: /zh/java/com.aspose.words/sdtappearance/
@@ -23,7 +23,7 @@ public class SdtAppearance
 | [HIDDEN](#HIDDEN) | 表示未显示的结构化文档标签。 |
 | [TAGS](#TAGS) | 表示显示为开始和结束标记的结构化文档标签。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

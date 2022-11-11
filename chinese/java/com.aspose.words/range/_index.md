@@ -1,7 +1,7 @@
 ---
 title: Range
-second_title: Aspose.Words for Java API 参考
-description:表示文档中的一个连续区域。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中的一个连续区域。
 type: docs
 weight: 472
 url: /zh/java/com.aspose.words/range/
@@ -22,7 +22,7 @@ public class Range
 **Range**是一个“外观”接口，它提供将文档或文档部分视为“平面”文本的方法，而不管文档节点是否存储在树状对象模型中。
 
 **Range**不包含任何文本或节点，它只是文档片段上的视图或“窗口”。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

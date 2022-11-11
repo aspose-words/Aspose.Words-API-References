@@ -1,7 +1,7 @@
 ---
 title: 字段NoteRef
-second_title: Aspose.Words for Java API 参考
-description:实现 NOTEREF 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 NOTEREF 字段。
 type: docs
 weight: 222
 url: /zh/java/com.aspose.words/fieldnoteref/
@@ -18,7 +18,7 @@ public class 字段NoteRef extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 插入由指定书签标记的脚注或尾注的标记。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

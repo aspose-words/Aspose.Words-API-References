@@ -1,7 +1,7 @@
 ---
 title: TabLeader
-second_title: Aspose.Words for Java API 参考
-description:指定制表符下显示的引线的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定制表符下显示的引线的类型。
 type: docs
 weight: 545
 url: /zh/java/com.aspose.words/tableader/
@@ -25,7 +25,7 @@ public class TabLeader
 | [MIDDLE_DOT](#MIDDLE-DOT) | 引导线由中间点组成。 |
 | [NONE](#NONE) | 不显示引导线。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

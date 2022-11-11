@@ -1,7 +1,7 @@
 ---
 title: TxtLeadingSpacesOptions
-second_title: Aspose.Words for Java API 参考
-description:指定从文件导入期间用于前导空间处理的可用选项。
+second_title: Aspose.Words for Java API Reference
+description: 指定从文件导入期间用于前导空间处理的可用选项。
 type: docs
 weight: 582
 url: /zh/java/com.aspose.words/txtleadingspacesoptions/
@@ -22,7 +22,7 @@ public class TxtLeadingSpacesOptions
 | [PRESERVE](#PRESERVE) |  |
 | [TRIM](#TRIM) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

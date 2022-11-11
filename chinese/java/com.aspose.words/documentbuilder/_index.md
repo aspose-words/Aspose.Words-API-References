@@ -1,7 +1,7 @@
 ---
 title: DocumentBuilder
-second_title: Aspose.Words for Java API 参考
-description:提供插入文本图像和其他内容的方法，指定字体段落和节格式。
+second_title: Aspose.Words for Java API Reference
+description: 提供插入文本图像和其他内容的方法，指定字体段落和节格式。
 type: docs
 weight: 122
 url: /zh/java/com.aspose.words/documentbuilder/
@@ -32,13 +32,13 @@ public class DocumentBuilder
 使用[getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--)和[getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--)属性来指定表格单元格和行的格式属性。用户[insertCell()](../../com.aspose.words/documentbuilder\#insertCell--)和[endRow()](../../com.aspose.words/documentbuilder\#endRow--)建表的方法。
 
 注意**Font**, **ParagraphFormat**和**PageSetup**每当您导航到文档中的不同位置时，属性都会更新，以反映新位置可用的格式属性。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DocumentBuilder()](#DocumentBuilder--) | 初始化此类的新实例。 |
 | [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

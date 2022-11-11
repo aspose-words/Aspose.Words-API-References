@@ -1,7 +1,7 @@
 ---
 title: 字段NextIf
-second_title: Aspose.Words for Java API 参考
-description:实现 NEXTIF 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 NEXTIF 字段。
 type: docs
 weight: 221
 url: /zh/java/com.aspose.words/fieldnextif/
@@ -18,7 +18,7 @@ public class 字段NextIf extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 比较表达式指定的值[getLeftExpression()](../../com.aspose.words/fieldnextif\#getLeftExpression--) / [setLeftExpression(java.lang.String)](../../com.aspose.words/fieldnextif\#setLeftExpression-java.lang.String-)和[getRightExpression()](../../com.aspose.words/fieldnextif\#getRightExpression--) / [setRightExpression(java.lang.String)](../../com.aspose.words/fieldnextif\#setRightExpression-java.lang.String-)比较使用指定的运算符[getComparisonOperator()](../../com.aspose.words/fieldnextif\#getComparisonOperator--) / [setComparisonOperator(java.lang.String)](../../com.aspose.words/fieldnextif\#setComparisonOperator-java.lang.String-).如果比较为真，则将下一条数据记录合并到当前合并文档中。 （主文档中 NEXTIF 之后的合并字段将替换为来自下一个数据记录而不是当前数据记录的值。）如果比较结果为假，则将下一个数据记录合并到一个新的合并文档中。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

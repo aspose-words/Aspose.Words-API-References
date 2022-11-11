@@ -1,7 +1,7 @@
 ---
 title: TextureAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定纹理填充平铺的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定纹理填充平铺的对齐方式。
 type: docs
 weight: 571
 url: /zh/java/com.aspose.words/texturealignment/
@@ -29,7 +29,7 @@ public class TextureAlignment
 | [TOP_LEFT](#TOP-LEFT) | 左上纹理对齐。 |
 | [TOP_RIGHT](#TOP-RIGHT) | 右上角纹理对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

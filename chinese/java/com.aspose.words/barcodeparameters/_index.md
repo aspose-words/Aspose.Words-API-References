@@ -1,7 +1,7 @@
 ---
 title: Barcode参数
-second_title: Aspose.Words for Java API 参考
-description:用于将条码参数传递给 BarcodeGenerator 的容器类。
+second_title: Aspose.Words for Java API Reference
+description: 用于将条码参数传递给 BarcodeGenerator 的容器类。
 type: docs
 weight: 26
 url: /zh/java/com.aspose.words/barcodeparameters/
@@ -21,7 +21,7 @@ public class Barcode参数
 
 
 [Link 1]: https://msdn.microsoft.com/en-us/library/hh745901%28v=office.12%29.aspx
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

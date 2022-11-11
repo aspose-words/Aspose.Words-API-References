@@ -1,7 +1,7 @@
 ---
 title: Merge字段ImageDimension
-second_title: Aspose.Words for Java API 参考
-description:表示图像尺寸，即
+second_title: Aspose.Words for Java API Reference
+description: 表示图像尺寸，即
 type: docs
 weight: 394
 url: /zh/java/com.aspose.words/mergefieldimagedimension/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/mergefieldimagedimension/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Merge字段ImageDimension implements Cloneable
@@ -21,13 +21,13 @@ public class Merge字段ImageDimension implements Cloneable
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 要指示在邮件合并期间应以其原始尺寸插入图像，您应该为[getValue()](../../com.aspose.words/mergefieldimagedimension\#getValue--) / [setValue(double)](../../com.aspose.words/mergefieldimagedimension\#setValue-double-)财产。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Merge字段ImageDimension(double value)](#Merge字段ImageDimension-double-) | 使用给定的点值创建图像尺寸实例。 |
 | [Merge字段ImageDimension(double value, int unit)](#Merge字段ImageDimension-double-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

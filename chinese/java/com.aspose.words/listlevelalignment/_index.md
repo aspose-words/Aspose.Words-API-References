@@ -1,7 +1,7 @@
 ---
 title: ListLevelAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定列表编号或项目符号的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定列表编号或项目符号的对齐方式。
 type: docs
 weight: 373
 url: /zh/java/com.aspose.words/listlevelalignment/
@@ -24,7 +24,7 @@ public class ListLevelAlignment
 | [LEFT](#LEFT) | 列表标签与编号位置的左侧对齐。 |
 | [RIGHT](#RIGHT) | 此列表标签与编号位置的右侧对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

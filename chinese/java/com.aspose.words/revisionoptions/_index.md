@@ -1,7 +1,7 @@
 ---
 title: RevisionOptions
-second_title: Aspose.Words for Java API 参考
-description:允许控制在布局过程中如何处理文档修订。
+second_title: Aspose.Words for Java API Reference
+description: 允许控制在布局过程中如何处理文档修订。
 type: docs
 weight: 488
 url: /zh/java/com.aspose.words/revisionoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/revisionoptions/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class RevisionOptions implements Cloneable
@@ -19,7 +19,7 @@ public class RevisionOptions implements Cloneable
 允许控制在布局过程中如何处理文档修订。
 
 要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

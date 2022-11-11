@@ -1,7 +1,7 @@
 ---
 title: ChartLegendEntryCollection
-second_title: Aspose.Words for Java API 参考
-description:表示图表图例条目的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表图例条目的集合。
 type: docs
 weight: 65
 url: /zh/java/com.aspose.words/chartlegendentrycollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartlegendentrycollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class ChartLegendEntryCollection implements Iterable
@@ -19,7 +19,7 @@ public class ChartLegendEntryCollection implements Iterable
 表示图表图例条目的集合。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

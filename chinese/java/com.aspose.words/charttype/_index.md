@@ -1,7 +1,7 @@
 ---
 title: Chart类型
-second_title: Aspose.Words for Java API 参考
-description:指定图表的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定图表的类型。
 type: docs
 weight: 71
 url: /zh/java/com.aspose.words/charttype/
@@ -54,7 +54,7 @@ public class Chart类型
 | [SURFACE](#SURFACE) | 曲面图。 |
 | [SURFACE_3_D](#SURFACE-3-D) | 3D 曲面图。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: FileCorruptedException
-second_title: Aspose.Words for Java API 参考
-description:当文档似乎已损坏且无法加载时，在文档加载期间抛出。
+second_title: Aspose.Words for Java API Reference
+description: 当文档似乎已损坏且无法加载时，在文档加载期间抛出。
 type: docs
 weight: 263
 url: /zh/java/com.aspose.words/filecorruptedexception/
@@ -16,7 +16,7 @@ public class FileCorruptedException extends Exception
 在文档加载过程中，当文档似乎已损坏且无法加载时抛出。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

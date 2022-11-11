@@ -1,7 +1,7 @@
 ---
 title: AxisCategory类型
-second_title: Aspose.Words for Java API 参考
-description:指定类别轴的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定类别轴的类型。
 type: docs
 weight: 18
 url: /zh/java/com.aspose.words/axiscategorytype/
@@ -22,7 +22,7 @@ public class AxisCategory类型
 | [CATEGORY](#CATEGORY) | 指定任意一组类别的轴。 |
 | [TIME](#TIME) | 指定时间类别轴。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: TabAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定制表位的对齐方式/类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定制表位的对齐方式/类型。
 type: docs
 weight: 544
 url: /zh/java/com.aspose.words/tabalignment/
@@ -26,7 +26,7 @@ public class TabAlignment
 | [LIST](#LIST) | 制表符是列表项中数字/项目符号和文本之间的分隔符。 |
 | [RIGHT](#RIGHT) | 右对齐制表位处的文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

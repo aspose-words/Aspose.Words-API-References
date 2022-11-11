@@ -1,7 +1,7 @@
 ---
 title: SectionLayoutMode
-second_title: Aspose.Words for Java API 参考
-description:指定允许定义文档网格行为的部分的布局模式。
+second_title: Aspose.Words for Java API Reference
+description: 指定允许定义文档网格行为的部分的布局模式。
 type: docs
 weight: 511
 url: /zh/java/com.aspose.words/sectionlayoutmode/
@@ -23,7 +23,7 @@ public class SectionLayoutMode
 | [LINE_GRID](#LINE-GRID) | 指定相应部分应为其中的每一行添加额外的行距，以保持每页的指定行数。 |
 | [SNAP_TO_CHARS](#SNAP-TO-CHARS) | 指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

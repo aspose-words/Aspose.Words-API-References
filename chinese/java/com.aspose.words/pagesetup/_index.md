@@ -1,7 +1,7 @@
 ---
 title: PageSetup
-second_title: Aspose.Words for Java API 参考
-description:表示部分的页面设置属性。
+second_title: Aspose.Words for Java API Reference
+description: 表示部分的页面设置属性。
 type: docs
 weight: 440
 url: /zh/java/com.aspose.words/pagesetup/
@@ -18,7 +18,7 @@ public class PageSetup
 要了解更多信息，请访问**Working with Sections**文档文章。
 
 **PageSetup**对象包含一个部分的所有页面设置属性（左边距、下边距、纸张大小等）作为属性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

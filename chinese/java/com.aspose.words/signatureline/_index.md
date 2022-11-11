@@ -1,7 +1,7 @@
 ---
 title: SignatureLine
-second_title: Aspose.Words for Java API 参考
-description:提供对签名行属性的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对签名行属性的访问。
 type: docs
 weight: 524
 url: /zh/java/com.aspose.words/signatureline/
@@ -16,7 +16,7 @@ public class SignatureLine
 提供对签名行属性的访问。
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

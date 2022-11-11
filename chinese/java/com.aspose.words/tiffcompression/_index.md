@@ -1,7 +1,7 @@
 ---
 title: TiffCompression
-second_title: Aspose.Words for Java API 参考
-description:指定将页面图像保存到 TIFF 文件时应用的压缩类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定将页面图像保存到 TIFF 文件时应用的压缩类型。
 type: docs
 weight: 579
 url: /zh/java/com.aspose.words/tiffcompression/
@@ -24,7 +24,7 @@ public class TiffCompression
 | [NONE](#NONE) | 指定不压缩。 |
 | [RLE](#RLE) | 指定 RLE 压缩方案。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

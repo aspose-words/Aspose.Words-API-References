@@ -1,7 +1,7 @@
 ---
 title: 字段FileSize
-second_title: Aspose.Words for Java API 参考
-description:实现 FILESIZE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 FILESIZE 字段。
 type: docs
 weight: 188
 url: /zh/java/com.aspose.words/fieldfilesize/
@@ -20,7 +20,7 @@ public class 字段FileSize extends 字段
 检索当前文档文件的大小，如果无法确定大小，则返回 0。
 
 在当前的实现中，使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)属性来检索用于确定文件大小的文件名。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

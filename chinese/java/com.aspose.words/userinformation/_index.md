@@ -1,7 +1,7 @@
 ---
 title: UserInformation
-second_title: Aspose.Words for Java API 参考
-description:指定有关用户的信息。
+second_title: Aspose.Words for Java API Reference
+description: 指定有关用户的信息。
 type: docs
 weight: 591
 url: /zh/java/com.aspose.words/userinformation/
@@ -16,7 +16,7 @@ public class UserInformation
 指定有关用户的信息。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: VerticalAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定浮动形状文本框或浮动表格的垂直对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定浮动形状文本框或浮动表格的垂直对齐方式。
 type: docs
 weight: 600
 url: /zh/java/com.aspose.words/verticalalignment/
@@ -27,7 +27,7 @@ public class VerticalAlignment
 | [OUTSIDE](#OUTSIDE) | 指定对象应在垂直对齐基准之外。 |
 | [TOP](#TOP) | 指定对象应位于垂直对齐基础的顶部。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: Direction
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 115
@@ -22,7 +22,7 @@ public class Direction
 | [RTL](#RTL) |  |
 | [TTB](#TTB) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

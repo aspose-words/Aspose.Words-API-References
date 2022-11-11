@@ -1,7 +1,7 @@
 ---
 title: 字段MergeBarcode
-second_title: Aspose.Words for Java API 参考
-description:实现 MERGEBARCODE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 MERGEBARCODE 字段。
 type: docs
 weight: 214
 url: /zh/java/com.aspose.words/fieldmergebarcode/
@@ -18,7 +18,7 @@ public class 字段MergeBarcode extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 邮件合并条形码。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

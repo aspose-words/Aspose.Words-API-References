@@ -1,7 +1,7 @@
 ---
 title: HeightRule
-second_title: Aspose.Words for Java API 参考
-description:指定确定对象高度的规则。
+second_title: Aspose.Words for Java API Reference
+description: 指定确定对象高度的规则。
 type: docs
 weight: 319
 url: /zh/java/com.aspose.words/heightrule/
@@ -22,7 +22,7 @@ public class HeightRule
 | [AUTO](#AUTO) | 高度将自动增加以容纳对象内的所有文本。 |
 | [EXACTLY](#EXACTLY) | 高度以磅为单位精确指定。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

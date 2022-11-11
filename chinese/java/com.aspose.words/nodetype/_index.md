@@ -1,7 +1,7 @@
 ---
 title: Node类型
-second_title: Aspose.Words for Java API 参考
-description:指定 Word 文档节点的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Word 文档节点的类型。
 type: docs
 weight: 408
 url: /zh/java/com.aspose.words/nodetype/
@@ -58,7 +58,7 @@ public class Node类型
 | [SYSTEM](#SYSTEM) | 保留供 Aspose.Words 内部使用。 |
 | [TABLE](#TABLE) | 一个[Table](../../com.aspose.words/table)表示 Word 文档中的表格的对象。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Style类型
-second_title: Aspose.Words for Java API 参考
-description:表示样式的类型。
+second_title: Aspose.Words for Java API Reference
+description: 表示样式的类型。
 type: docs
 weight: 539
 url: /zh/java/com.aspose.words/styletype/
@@ -23,7 +23,7 @@ public class Style类型
 | [PARAGRAPH](#PARAGRAPH) | 样式是段落样式。 |
 | [TABLE](#TABLE) | 样式是表格样式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

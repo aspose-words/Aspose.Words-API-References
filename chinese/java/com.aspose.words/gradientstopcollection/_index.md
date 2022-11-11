@@ -1,7 +1,7 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Words for Java API 参考
-description:包含对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 包含对象的集合。
 type: docs
 weight: 309
 url: /zh/java/com.aspose.words/gradientstopcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/gradientstopcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class GradientStopCollection implements Iterable
@@ -21,7 +21,7 @@ public class GradientStopCollection implements Iterable
 要了解更多信息，请访问**Working with Graphic Elements**文档文章。
 
 您不直接创建此类的实例。使用[Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops--)属性访问填充对象的渐变停止。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

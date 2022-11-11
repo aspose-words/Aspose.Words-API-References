@@ -1,6 +1,6 @@
 ---
 title: BasicTextShaperCache
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 28
@@ -10,17 +10,17 @@ url: /zh/java/com.aspose.words/basictextshapercache/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.ITextShaperFactory](../../com.aspose.words/itextshaperfactory)
 ```
 public class BasicTextShaperCache implements ITextShaperFactory
 ```
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

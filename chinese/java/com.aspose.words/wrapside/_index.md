@@ -1,7 +1,7 @@
 ---
 title: WrapSide
-second_title: Aspose.Words for Java API 参考
-description:指定文本环绕的形状或图片的哪一侧。
+second_title: Aspose.Words for Java API Reference
+description: 指定文本环绕的形状或图片的哪一侧。
 type: docs
 weight: 621
 url: /zh/java/com.aspose.words/wrapside/
@@ -24,7 +24,7 @@ public class WrapSide
 | [LEFT](#LEFT) | 文档文本仅在形状的左侧换行。 |
 | [RIGHT](#RIGHT) | 文档文本仅在形状的右侧换行。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MailMergeMainDocument类型
-second_title: Aspose.Words for Java API 参考
-description:指定邮件合并源文档的可能类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定邮件合并源文档的可能类型。
 type: docs
 weight: 384
 url: /zh/java/com.aspose.words/mailmergemaindocumenttype/
@@ -27,7 +27,7 @@ public class MailMergeMainDocument类型
 | [MAILING_LABELS](#MAILING-LABELS) | 指定邮件合并源文档属于邮寄标签类型。 |
 | [NOT_A_MERGE_DOCUMENT](#NOT-A-MERGE-DOCUMENT) | 此文档不是邮件合并文档。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

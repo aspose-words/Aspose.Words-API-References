@@ -1,7 +1,7 @@
 ---
 title: EditableRange
-second_title: Aspose.Words for Java API 参考
-description:表示单个可编辑范围。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个可编辑范围。
 type: docs
 weight: 136
 url: /zh/java/com.aspose.words/editablerange/
@@ -18,7 +18,7 @@ public class EditableRange
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
 [EditableRange](../../com.aspose.words/editablerange)是一个封装了两个节点的“门面”对象[getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--)和[getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--)在文档树中，并允许将可编辑范围作为单个对象使用。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

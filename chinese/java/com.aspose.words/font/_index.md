@@ -1,7 +1,7 @@
 ---
 title: Font
-second_title: Aspose.Words for Java API 参考
-description:包含对象的字体属性字体名称字体大小颜色等。
+second_title: Aspose.Words for Java API Reference
+description: 包含对象的字体属性字体名称字体大小颜色等。
 type: docs
 weight: 275
 url: /zh/java/com.aspose.words/font/
@@ -18,7 +18,7 @@ public class Font
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 您不创建的实例[Font](../../com.aspose.words/font)直接上课。你只需使用[Font](../../com.aspose.words/font)访问各种对象的字体属性，例如[Run](../../com.aspose.words/run), [Paragraph](../../com.aspose.words/paragraph), [Style](../../com.aspose.words/style), [DocumentBuilder](../../com.aspose.words/documentbuilder).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

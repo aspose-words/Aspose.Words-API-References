@@ -1,7 +1,7 @@
 ---
 title: OverflowException
-second_title: Aspose.Words for Java API 参考
-description:当检查上下文中的算术转换或转换操作导致溢出时引发的异常。
+second_title: Aspose.Words for Java API Reference
+description: 当检查上下文中的算术转换或转换操作导致溢出时引发的异常。
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words.net.system/overflowexception/
@@ -14,14 +14,14 @@ public class OverflowException extends ArithmeticException
 ```
 
 当检查上下文中的算术、强制转换或转换操作导致溢出时引发的异常。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [OverflowException()](#OverflowException--) | 初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)班级。 |
 | [OverflowException(String message)](#OverflowException-java.lang.String-) | 初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)具有指定错误消息的类。 |
 | [OverflowException(String message, Throwable cause)](#OverflowException-java.lang.String-java.lang.Throwable-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureDetails
-second_title: Aspose.Words for Java API 参考
-description:包含使用数字签名签署 PDF 文档的详细信息。
+second_title: Aspose.Words for Java API Reference
+description: 包含使用数字签名签署 PDF 文档的详细信息。
 type: docs
 weight: 451
 url: /zh/java/com.aspose.words/pdfdigitalsignaturedetails/
@@ -20,13 +20,13 @@ public class PdfDigitalSignatureDetails
 要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[PdfSaveOptions.getDigitalSignatureDetails()](../../com.aspose.words/pdfsaveoptions\#getDigitalSignatureDetails--) / [PdfSaveOptions.setDigitalSignatureDetails(com.aspose.words.PdfDigitalSignatureDetails)](../../com.aspose.words/pdfsaveoptions\#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-)属性为有效[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)对象，然后将文档保存为通过[PdfSaveOptions](../../com.aspose.words/pdfsaveoptions)作为参数进入[Document.save(java.lang.String, com.aspose.words.SaveOptions)](../../com.aspose.words/document\#save-java.lang.String--com.aspose.words.SaveOptions-)方法。
 
 Aspose.Words 创建一个 PKCS\#7 对整个 PDF 文档进行签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和“adbe.pkcs7.sha1”子过滤器。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PdfDigitalSignatureDetails()](#PdfDigitalSignatureDetails--) | 初始化此类的一个实例。 |
 | [PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate)](#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-) | 初始化此类的一个实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

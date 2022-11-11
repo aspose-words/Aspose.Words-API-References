@@ -1,7 +1,7 @@
 ---
 title: VbaReference
-second_title: Aspose.Words for Java API 参考
-description:实现对自动化类型库或 VBA 项目的引用。
+second_title: Aspose.Words for Java API Reference
+description: 实现对自动化类型库或 VBA 项目的引用。
 type: docs
 weight: 597
 url: /zh/java/com.aspose.words/vbareference/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/vbareference/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public abstract class VbaReference implements Cloneable
@@ -19,12 +19,12 @@ public abstract class VbaReference implements Cloneable
 实现对自动化类型库或 VBA 项目的引用。
 
 要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [VbaReference()](#VbaReference--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

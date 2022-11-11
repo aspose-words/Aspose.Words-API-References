@@ -1,7 +1,7 @@
 ---
 title: IPageLayoutCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您希望在构建和呈现页面布局模型期间调用自己的自定义方法，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您希望在构建和呈现页面布局模型期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 653
 url: /zh/java/com.aspose.words/ipagelayoutcallback/
@@ -17,7 +17,7 @@ public interface IPageLayoutCallback
 但是请注意，如果进程完成，渲染结果可能与每个页面的渲染结果不匹配。
 
 此技术可能不适用于每个文档，或者可能完全失败。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

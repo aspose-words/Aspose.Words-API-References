@@ -1,7 +1,7 @@
 ---
 title: FileFormatInfo
-second_title: Aspose.Words for Java API 参考
-description:包含文档格式检测方法返回的数据。
+second_title: Aspose.Words for Java API Reference
+description: 包含文档格式检测方法返回的数据。
 type: docs
 weight: 265
 url: /zh/java/com.aspose.words/fileformatinfo/
@@ -18,7 +18,7 @@ public class FileFormatInfo
 要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
 
 您不直接创建此类的实例。此类的对象由以下方式返回**M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)**方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

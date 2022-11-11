@@ -1,7 +1,7 @@
 ---
 title: 字段DocProperty
-second_title: Aspose.Words for Java API 参考
-description:实现 DOCPROPERTY 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 DOCPROPERTY 字段。
 type: docs
 weight: 181
 url: /zh/java/com.aspose.words/fielddocproperty/
@@ -18,7 +18,7 @@ public class 字段DocProperty extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索指示的文档信息。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

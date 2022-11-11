@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBinding类型
-second_title: Aspose.Words for Java API 参考
-description:枚举 Web 扩展和文档中数据之间的可用绑定类型。
+second_title: Aspose.Words for Java API Reference
+description: 枚举 Web 扩展和文档中数据之间的可用绑定类型。
 type: docs
 weight: 614
 url: /zh/java/com.aspose.words/webextensionbindingtype/
@@ -23,7 +23,7 @@ public class WebExtensionBinding类型
 | [TABLE](#TABLE) | 带有标题行的表格数据。 |
 | [TEXT](#TEXT) | 纯文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

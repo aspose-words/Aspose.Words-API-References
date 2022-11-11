@@ -1,7 +1,7 @@
 ---
 title: TaskPaneCollection
-second_title: Aspose.Words for Java API 参考
-description:指定持久任务窗格对象的列表。
+second_title: Aspose.Words for Java API Reference
+description: 指定持久任务窗格对象的列表。
 type: docs
 weight: 556
 url: /zh/java/com.aspose.words/taskpanecollection/
@@ -16,7 +16,7 @@ public class TaskPaneCollection extends BaseWebExtensionCollection
 指定持久任务窗格对象的列表。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

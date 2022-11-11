@@ -1,7 +1,7 @@
 ---
 title: IDocumentSavingCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 639
 url: /zh/java/com.aspose.words/idocumentsavingcallback/
@@ -11,7 +11,7 @@ public interface IDocumentSavingCallback
 ```
 
 如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

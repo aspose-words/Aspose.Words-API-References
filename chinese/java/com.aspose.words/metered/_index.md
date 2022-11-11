@@ -1,7 +1,7 @@
 ---
 title: Metered
-second_title: Aspose.Words for Java API 参考
-description:提供设置计量键的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供设置计量键的方法。
 type: docs
 weight: 398
 url: /zh/java/com.aspose.words/metered/
@@ -25,12 +25,12 @@ public class Metered
  matered.setMeteredKey("PublicKey", "PrivateKey");
  
 ```
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Metered()](#Metered--) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

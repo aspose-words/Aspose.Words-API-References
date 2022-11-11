@@ -1,7 +1,7 @@
 ---
 title: TextColumnCollection
-second_title: Aspose.Words for Java API 参考
-description:表示文档部分中所有文本列的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档部分中所有文本列的对象集合。
 type: docs
 weight: 562
 url: /zh/java/com.aspose.words/textcolumncollection/
@@ -24,7 +24,7 @@ public class TextColumnCollection
 如果你有**EvenlySpaced**调成**false**，您需要单独指定每列的宽度和间距。使用索引器访问个人[TextColumn](../../com.aspose.words/textcolumn)对象。
 
 使用自定义列宽时，请确保所有列宽和它们之间的间距之和等于页宽减去左右页边距。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

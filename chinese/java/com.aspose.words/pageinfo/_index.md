@@ -1,7 +1,7 @@
 ---
 title: PageInfo
-second_title: Aspose.Words for Java API 参考
-description:表示有关特定文档页面的信息。
+second_title: Aspose.Words for Java API Reference
+description: 表示有关特定文档页面的信息。
 type: docs
 weight: 434
 url: /zh/java/com.aspose.words/pageinfo/
@@ -18,7 +18,7 @@ public class PageInfo
 要了解更多信息，请访问**Rendering**文档文章。
 
 此对象返回的页面宽度和高度表示页面的“最终”大小，例如它们已经旋转到正确的方向。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

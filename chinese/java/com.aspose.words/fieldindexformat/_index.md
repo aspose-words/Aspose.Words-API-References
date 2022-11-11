@@ -1,7 +1,7 @@
 ---
 title: 字段IndexFormat
-second_title: Aspose.Words for Java API 参考
-description:指定文档中字段的格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档中字段的格式。
 type: docs
 weight: 207
 url: /zh/java/com.aspose.words/fieldindexformat/
@@ -26,7 +26,7 @@ public class 字段IndexFormat
 | [SIMPLE](#SIMPLE) | 简单的。 |
 | [TEMPLATE](#TEMPLATE) | 从模板。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

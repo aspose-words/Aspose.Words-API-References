@@ -1,7 +1,7 @@
 ---
 title: HorizontalAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定浮动形状文本框架或浮动表格的水平对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定浮动形状文本框架或浮动表格的水平对齐方式。
 type: docs
 weight: 320
 url: /zh/java/com.aspose.words/horizontalalignment/
@@ -26,7 +26,7 @@ public class HorizontalAlignment
 | [OUTSIDE](#OUTSIDE) | 指定对象应位于水平对齐基准之外。 |
 | [RIGHT](#RIGHT) | 指定对象应与水平对齐基准右对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

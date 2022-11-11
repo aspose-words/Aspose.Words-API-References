@@ -1,7 +1,7 @@
 ---
 title: PdfFontEmbeddingMode
-second_title: Aspose.Words for Java API 参考
-description:指定 Aspose.Words 应该如何嵌入字体。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Aspose.Words 应该如何嵌入字体。
 type: docs
 weight: 455
 url: /zh/java/com.aspose.words/pdffontembeddingmode/
@@ -22,7 +22,7 @@ public class PdfFontEmbeddingMode
 | [EMBED_NONE](#EMBED-NONE) | Aspose.Words 不嵌入任何字体。 |
 | [EMBED_NONSTANDARD](#EMBED-NONSTANDARD) | Aspose.Words 嵌入了除标准 Windows 字体 Arial 和 Times New Roman 之外的所有字体。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

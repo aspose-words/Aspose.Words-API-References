@@ -1,7 +1,7 @@
 ---
 title: RelativeHorizontalPosition
-second_title: Aspose.Words for Java API 参考
-description:指定形状或文本框的水平位置是相对的。
+second_title: Aspose.Words for Java API Reference
+description: 指定形状或文本框的水平位置是相对的。
 type: docs
 weight: 473
 url: /zh/java/com.aspose.words/relativehorizontalposition/
@@ -28,7 +28,7 @@ public class RelativeHorizontalPosition
 | [PAGE](#PAGE) | 对象相对于页面的左边缘定位。 |
 | [RIGHT_MARGIN](#RIGHT-MARGIN) | 指定水平定位应相对于页面的右边距。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

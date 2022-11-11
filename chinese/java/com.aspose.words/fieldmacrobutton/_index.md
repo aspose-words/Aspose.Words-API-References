@@ -1,7 +1,7 @@
 ---
 title: 字段MacroButton
-second_title: Aspose.Words for Java API 参考
-description:实现 MACROBUTTON 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 MACROBUTTON 字段。
 type: docs
 weight: 213
 url: /zh/java/com.aspose.words/fieldmacrobutton/
@@ -20,7 +20,7 @@ public class 字段MacroButton extends 字段
 允许运行宏或命令。
 
 在 Aspose.Words 中，这个字段也可以作为一个合并字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

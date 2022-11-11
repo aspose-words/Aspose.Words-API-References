@@ -1,7 +1,7 @@
 ---
 title: SectionCollection
-second_title: Aspose.Words for Java API 参考
-description:文档中 Section 对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 文档中 Section 对象的集合。
 type: docs
 weight: 510
 url: /zh/java/com.aspose.words/sectioncollection/
@@ -20,7 +20,7 @@ public class SectionCollection extends NodeCollection
 Microsoft Word 文档可以包含多个部分。要在 Microsoft Word 中创建节，请选择插入/中断命令并选择中断类型。中断指定部分是在新页面上还是在同一页面上开始。
 
 以编程方式插入和删除部分可用于自定义邮件合并期间生成的文档。如果文档需要根据某些条件具有不同的内容或部分内容，那么您可以创建一个包含多个部分的“主”文档，并在邮件合并之前或之后删除一些部分。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

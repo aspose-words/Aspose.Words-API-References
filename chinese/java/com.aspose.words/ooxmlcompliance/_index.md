@@ -1,7 +1,7 @@
 ---
 title: OoxmlCompliance
-second_title: Aspose.Words for Java API 参考
-description:允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
 type: docs
 weight: 427
 url: /zh/java/com.aspose.words/ooxmlcompliance/
@@ -22,7 +22,7 @@ public class OoxmlCompliance
 | [ISO_29500_2008_STRICT](#ISO-29500-2008-STRICT) | ISO/IEC 29500:2008 严格的合规级别。 |
 | [ISO_29500_2008_TRANSITIONAL](#ISO-29500-2008-TRANSITIONAL) | ISO/IEC 29500:2008 过渡合规级别。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

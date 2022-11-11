@@ -1,7 +1,7 @@
 ---
 title: VisitorAction
-second_title: Aspose.Words for Java API 参考
-description:允许访问者控制节点的枚举。
+second_title: Aspose.Words for Java API Reference
+description: 允许访问者控制节点的枚举。
 type: docs
 weight: 603
 url: /zh/java/com.aspose.words/visitoraction/
@@ -22,7 +22,7 @@ public class VisitorAction
 | [SKIP_THIS_NODE](#SKIP-THIS-NODE) | 访问者请求跳过当前节点并继续枚举。 |
 | [STOP](#STOP) | 访问者请求停止枚举节点。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

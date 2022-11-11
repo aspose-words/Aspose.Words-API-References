@@ -1,7 +1,7 @@
 ---
 title: PageLayoutCallbackArgs
-second_title: Aspose.Words for Java API 参考
-description:传入的参数
+second_title: Aspose.Words for Java API Reference
+description: 传入的参数
 type: docs
 weight: 435
 url: /zh/java/com.aspose.words/pagelayoutcallbackargs/
@@ -16,7 +16,7 @@ public class PageLayoutCallbackArgs
 传入的参数[IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)
 
 要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

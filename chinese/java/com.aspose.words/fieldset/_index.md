@@ -1,7 +1,7 @@
 ---
 title: 字段Set
-second_title: Aspose.Words for Java API 参考
-description:实现 SET 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 SET 字段。
 type: docs
 weight: 242
 url: /zh/java/com.aspose.words/fieldset/
@@ -18,7 +18,7 @@ public class 字段Set extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 将新文本分配给书签。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

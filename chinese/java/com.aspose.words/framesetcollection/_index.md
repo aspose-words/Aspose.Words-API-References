@@ -1,6 +1,6 @@
 ---
 title: FramesetCollection
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 303
@@ -10,12 +10,12 @@ url: /zh/java/com.aspose.words/framesetcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class FramesetCollection implements Iterable
 ```
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

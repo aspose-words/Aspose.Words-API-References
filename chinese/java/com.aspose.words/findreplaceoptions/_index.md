@@ -1,7 +1,7 @@
 ---
 title: FindReplaceOptions
-second_title: Aspose.Words for Java API 参考
-description:指定查找/替换操作的选项。
+second_title: Aspose.Words for Java API Reference
+description: 指定查找/替换操作的选项。
 type: docs
 weight: 270
 url: /zh/java/com.aspose.words/findreplaceoptions/
@@ -16,7 +16,7 @@ public class FindReplaceOptions
 指定查找/替换操作的选项。
 
 要了解更多信息，请访问**Find and Replace**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -24,7 +24,7 @@ public class FindReplaceOptions
 | [FindReplaceOptions(int direction)](#FindReplaceOptions-int-) | 初始化此类的新实例。 |
 | [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback-) | 初始化此类的新实例。 |
 | [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -33,7 +33,7 @@ public class FindReplaceOptions
 | [getApplyParagraphFormat()](#getApplyParagraphFormat--) | 应用于新内容的段落格式。 |
 | [get班级()](#get班级--) |  |
 | [getDirection()](#getDirection--) | 选择替换方向。 |
-| [getFindWholeWordsOnly()](#getFindWholeWordsOnly--) | True 表示 oldValue 必须是一个独立的单词。 |
+| [getFindWholeWordsOnly()](#getFindWholeWordsOnly--) | True 表示 oldValue 必须是一个独立的词。 |
 | [getIgnoreDeleted()](#getIgnoreDeleted--) | 获取一个布尔值，指示是否忽略删除修订中的文本。 |
 | [getIgnore字段Codes()](#getIgnore字段Codes--) | 获取一个布尔值，指示是否忽略域代码中的文本。 |
 | [getIgnore字段()](#getIgnore字段--) | 获取一个布尔值，指示是否忽略字段内的文本。 |
@@ -50,7 +50,7 @@ public class FindReplaceOptions
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDirection(int value)](#setDirection-int-) | 选择替换方向。 |
-| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean-) | True 表示 oldValue 必须是一个独立的单词。 |
+| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean-) | True 表示 oldValue 必须是一个独立的词。 |
 | [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean-) | 设置一个布尔值，指示忽略删除修订中的文本。 |
 | [setIgnore字段Codes(boolean value)](#setIgnore字段Codes-boolean-) | 设置一个布尔值，指示忽略域代码内的文本。 |
 | [setIgnore字段(boolean value)](#setIgnore字段-boolean-) | 设置一个布尔值，指示忽略字段内的文本。 |
@@ -176,7 +176,7 @@ public boolean getFindWholeWordsOnly()
 ```
 
 
-True 表示 oldValue 必须是一个独立的单词。
+True 表示 oldValue 必须是一个独立的词。
 
 **退货:**
 boolean - 对应的布尔值。
@@ -361,7 +361,7 @@ public void setFindWholeWordsOnly(boolean value)
 ```
 
 
-True 表示 oldValue 必须是一个独立的单词。
+True 表示 oldValue 必须是一个独立的词。
 
 **参数:**
 | 范围 | 类型 | 描述 |

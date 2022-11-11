@@ -1,7 +1,7 @@
 ---
 title: SaveOptions
-second_title: Aspose.Words for Java API 参考
-description:这是类的抽象基类，允许用户在将文档保存为特定格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 这是类的抽象基类，允许用户在将文档保存为特定格式时指定其他选项。
 type: docs
 weight: 500
 url: /zh/java/com.aspose.words/saveoptions/
@@ -18,7 +18,7 @@ public abstract class SaveOptions
 要了解更多信息，请访问**Specify Save Options**文档文章。
 
  SaveOptions 类或任何派生类的实例被传递给流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**或字符串[Document.save(java.lang.String, com.aspose.words.SaveOptions)](../../com.aspose.words/document\#save-java.lang.String--com.aspose.words.SaveOptions-)用户在保存文档时定义自定义选项的重载。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

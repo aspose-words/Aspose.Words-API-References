@@ -1,7 +1,7 @@
 ---
 title: MemoryFontSource
-second_title: Aspose.Words for Java API 参考
-description:表示存储在内存中的单个 True类型 字体文件。
+second_title: Aspose.Words for Java API Reference
+description: 表示存储在内存中的单个 True类型 字体文件。
 type: docs
 weight: 393
 url: /zh/java/com.aspose.words/memoryfontsource/
@@ -16,14 +16,14 @@ public class MemoryFontSource extends FontSourceBase
 表示存储在内存中的单个 True类型 字体文件。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [MemoryFontSource(byte[] fontData)](#MemoryFontSource-byte---) | 克托尔。 |
 | [MemoryFontSource(byte[] fontData, int priority)](#MemoryFontSource-byte---int-) | 克托尔。 |
 | [MemoryFontSource(byte[] fontData, int priority, String cacheKey)](#MemoryFontSource-byte---int-java.lang.String-) | 克托尔。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

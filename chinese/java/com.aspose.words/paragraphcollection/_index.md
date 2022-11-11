@@ -1,7 +1,7 @@
 ---
 title: ParagraphCollection
-second_title: Aspose.Words for Java API 参考
-description:提供对节点集合的类型化访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对节点集合的类型化访问。
 type: docs
 weight: 445
 url: /zh/java/com.aspose.words/paragraphcollection/
@@ -16,7 +16,7 @@ public class ParagraphCollection extends NodeCollection
 提供对集合的类型化访问[Paragraph](../../com.aspose.words/paragraph)节点。
 
 要了解更多信息，请访问**Working with Paragraphs**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

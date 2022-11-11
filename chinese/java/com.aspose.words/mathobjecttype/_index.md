@@ -1,7 +1,7 @@
 ---
 title: MathObject类型
-second_title: Aspose.Words for Java API 参考
-description:指定 Office Math 对象的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Office Math 对象的类型。
 type: docs
 weight: 391
 url: /zh/java/com.aspose.words/mathobjecttype/
@@ -49,7 +49,7 @@ public class MathObject类型
 | [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | 上标对象的上标。 |
 | [UPPER_LIMIT](#UPPER-LIMIT) | 上限对象，由基线上的文本和紧接其上方的缩小大小的文本组成。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

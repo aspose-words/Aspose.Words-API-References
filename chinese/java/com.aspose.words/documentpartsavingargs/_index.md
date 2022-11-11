@@ -1,7 +1,7 @@
 ---
 title: DocumentPartSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为回调提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为回调提供数据。
 type: docs
 weight: 125
 url: /zh/java/com.aspose.words/documentpartsavingargs/
@@ -22,7 +22,7 @@ public class DocumentPartSavingArgs
 班级[DocumentPartSavingArgs](../../com.aspose.words/documentpartsavingargs)允许您控制如何保存每个文档部分。它允许重新定义文件名的生成方式或通过提供您自己的流对象来完全避免将文档部分保存到文件中。
 
 要将文档部分保存到流而不是文件中，请使用**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

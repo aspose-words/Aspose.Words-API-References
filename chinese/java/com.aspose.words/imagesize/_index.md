@@ -1,7 +1,7 @@
 ---
 title: ImageSize
-second_title: Aspose.Words for Java API 参考
-description:包含有关图像大小和分辨率的信息。
+second_title: Aspose.Words for Java API Reference
+description: 包含有关图像大小和分辨率的信息。
 type: docs
 weight: 342
 url: /zh/java/com.aspose.words/imagesize/
@@ -16,13 +16,13 @@ public class ImageSize
 包含有关图像大小和分辨率的信息。
 
 要了解更多信息，请访问**Working with Images**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ImageSize(int widthPixels, int heightPixels)](#ImageSize-int-int-) | 将宽度和高度初始化为给定的像素值。 |
 | [ImageSize(int widthPixels, int heightPixels, double horizontalResolution, double verticalResolution)](#ImageSize-int-int-double-double-) | 将宽度、高度和分辨率初始化为给定值。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

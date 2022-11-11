@@ -1,7 +1,7 @@
 ---
 title: I字段UpdateCultureProvider
-second_title: Aspose.Words for Java API 参考
-description:实现时提供了一个在特定字段更新期间应使用的对象。
+second_title: Aspose.Words for Java API Reference
+description: 实现时提供了一个在特定字段更新期间应使用的对象。
 type: docs
 weight: 643
 url: /zh/java/com.aspose.words/ifieldupdatecultureprovider/
@@ -11,7 +11,7 @@ public interface I字段UpdateCultureProvider
 ```
 
 实施时，提供了一个[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo)在更新特定字段期间应使用的对象。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

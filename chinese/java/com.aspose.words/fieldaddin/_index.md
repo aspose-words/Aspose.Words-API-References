@@ -1,7 +1,7 @@
 ---
 title: 字段AddIn
-second_title: Aspose.Words for Java API 参考
-description:实现 ADDIN 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 ADDIN 字段。
 type: docs
 weight: 152
 url: /zh/java/com.aspose.words/fieldaddin/
@@ -14,7 +14,7 @@ public class 字段AddIn extends 字段
 ```
 
 实现 ADDIN 字段。包含由加载项创建的数据。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: HtmlOfficeMathOutputMode
-second_title: Aspose.Words for Java API 参考
-description:指定 Aspose.Words 如何将 OfficeMath 导出为 HTML MHTML 和 EPUB。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML MHTML 和 EPUB。
 type: docs
 weight: 330
 url: /zh/java/com.aspose.words/htmlofficemathoutputmode/
@@ -25,7 +25,7 @@ public class HtmlOfficeMathOutputMode
 | [MATH_ML](#MATH-ML) | OfficeMath is converted to HTML using MathML. |
 | [TEXT](#TEXT) | OfficeMath is converted to HTML as sequence of runs specified by  tags. |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

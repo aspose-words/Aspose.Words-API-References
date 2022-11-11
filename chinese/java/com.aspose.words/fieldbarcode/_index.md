@@ -1,7 +1,7 @@
 ---
 title: 字段Barcode
-second_title: Aspose.Words for Java API 参考
-description:实现 BARCODE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 BARCODE 字段。
 type: docs
 weight: 163
 url: /zh/java/com.aspose.words/fieldbarcode/
@@ -18,7 +18,7 @@ public class 字段Barcode extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 以美国邮政服务使用的机器可读地址形式插入邮政条形码。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

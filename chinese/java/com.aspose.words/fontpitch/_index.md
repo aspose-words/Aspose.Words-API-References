@@ -1,7 +1,7 @@
 ---
 title: FontPitch
-second_title: Aspose.Words for Java API 参考
-description:表示字体间距。
+second_title: Aspose.Words for Java API Reference
+description: 表示字体间距。
 type: docs
 weight: 284
 url: /zh/java/com.aspose.words/fontpitch/
@@ -22,7 +22,7 @@ public class FontPitch
 | [FIXED](#FIXED) | 指定这是一个固定宽度的字体。 |
 | [VARIABLE](#VARIABLE) | 指定这是一个比例宽度字体。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

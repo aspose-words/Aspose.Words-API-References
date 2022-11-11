@@ -1,7 +1,7 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Words for Java API 参考
-description:表示文档上的数字签名及其验证结果。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档上的数字签名及其验证结果。
 type: docs
 weight: 111
 url: /zh/java/com.aspose.words/digitalsignature/
@@ -16,7 +16,7 @@ public class DigitalSignature
 表示文档上的数字签名及其验证结果。
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

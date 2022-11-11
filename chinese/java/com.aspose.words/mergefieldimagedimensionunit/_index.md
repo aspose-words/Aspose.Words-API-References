@@ -1,7 +1,7 @@
 ---
 title: Merge字段ImageDimensionUnit
-second_title: Aspose.Words for Java API 参考
-description:指定图像尺寸的单位，即
+second_title: Aspose.Words for Java API Reference
+description: 指定图像尺寸的单位，即
 type: docs
 weight: 395
 url: /zh/java/com.aspose.words/mergefieldimagedimensionunit/
@@ -21,7 +21,7 @@ public class Merge字段ImageDimensionUnit
 | [PERCENT](#PERCENT) | 原始图像尺寸值的百分比。 |
 | [POINT](#POINT) | 要点（即 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

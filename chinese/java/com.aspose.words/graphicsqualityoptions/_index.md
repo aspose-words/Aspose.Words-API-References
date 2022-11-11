@@ -1,7 +1,7 @@
 ---
 title: GraphicsQualityOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定额外的 .
+second_title: Aspose.Words for Java API Reference
+description: 允许指定额外的 .
 type: docs
 weight: 313
 url: /zh/java/com.aspose.words/graphicsqualityoptions/
@@ -18,7 +18,7 @@ public class GraphicsQualityOptions
 要了解更多信息，请访问**Save a Document**文档文章。
 
 获取当前以查看或添加新提示。覆盖当前 .
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

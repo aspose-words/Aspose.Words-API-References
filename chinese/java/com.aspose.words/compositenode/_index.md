@@ -1,7 +1,7 @@
 ---
 title: CompositeNode
-second_title: Aspose.Words for Java API 参考
-description:可以包含其他节点的节点的基类。
+second_title: Aspose.Words for Java API Reference
+description: 可以包含其他节点的节点的基类。
 type: docs
 weight: 87
 url: /zh/java/com.aspose.words/compositenode/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/compositenode/
 **遗产:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public abstract class CompositeNode extends Node implements Iterable
@@ -29,7 +29,7 @@ public abstract class CompositeNode extends Node implements Iterable
  *  提供对子节点的访问。
  *  实现复合操作，例如插入和删除子项。
  *  提供用于 XPath 导航的方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

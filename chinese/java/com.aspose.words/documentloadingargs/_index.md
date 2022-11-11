@@ -1,7 +1,7 @@
 ---
 title: DocumentLoadingArgs
-second_title: Aspose.Words for Java API 参考
-description:传入的参数。
+second_title: Aspose.Words for Java API Reference
+description: 传入的参数。
 type: docs
 weight: 124
 url: /zh/java/com.aspose.words/documentloadingargs/
@@ -16,7 +16,7 @@ public class DocumentLoadingArgs
 传入的参数[IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-).
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: 字段Template
-second_title: Aspose.Words for Java API 参考
-description:实现 TEMPLATE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 TEMPLATE 字段。
 type: docs
 weight: 251
 url: /zh/java/com.aspose.words/fieldtemplate/
@@ -18,7 +18,7 @@ public class 字段Template extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索当前文档使用的模板的文件名。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

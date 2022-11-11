@@ -1,7 +1,7 @@
 ---
 title: IncorrectPasswordException
-second_title: Aspose.Words for Java API 参考
-description:如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。
+second_title: Aspose.Words for Java API Reference
+description: 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。
 type: docs
 weight: 348
 url: /zh/java/com.aspose.words/incorrectpasswordexception/
@@ -16,7 +16,7 @@ public class IncorrectPasswordException extends Exception
 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

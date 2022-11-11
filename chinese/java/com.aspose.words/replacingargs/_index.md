@@ -1,7 +1,7 @@
 ---
 title: ReplacingArgs
-second_title: Aspose.Words for Java API 参考
-description:为自定义替换操作提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为自定义替换操作提供数据。
 type: docs
 weight: 476
 url: /zh/java/com.aspose.words/replacingargs/
@@ -16,7 +16,7 @@ public class ReplacingArgs
 为自定义替换操作提供数据。
 
 要了解更多信息，请访问**Find and Replace**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

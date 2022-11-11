@@ -1,7 +1,7 @@
 ---
 title: GradientVariant
-second_title: Aspose.Words for Java API 参考
-description:指定渐变填充的变体。
+second_title: Aspose.Words for Java API Reference
+description: 指定渐变填充的变体。
 type: docs
 weight: 311
 url: /zh/java/com.aspose.words/gradientvariant/
@@ -24,7 +24,7 @@ public class GradientVariant
 | [VARIANT_3](#VARIANT-3) | 梯度变体 3。 |
 | [VARIANT_4](#VARIANT-4) | 梯度变体 4。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

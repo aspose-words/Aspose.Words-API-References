@@ -1,7 +1,7 @@
 ---
 title: 字段Private
-second_title: Aspose.Words for Java API 参考
-description:实现 PRIVATE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 PRIVATE 字段。
 type: docs
 weight: 232
 url: /zh/java/com.aspose.words/fieldprivate/
@@ -18,7 +18,7 @@ public class 字段Private extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 提供私人存储区域。此字段用于存储从其他文件格式转换的文档的数据。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

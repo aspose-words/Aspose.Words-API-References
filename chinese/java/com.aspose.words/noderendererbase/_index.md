@@ -1,7 +1,7 @@
 ---
 title: NodeRendererBase
-second_title: Aspose.Words for Java API 参考
-description:和 的基类。
+second_title: Aspose.Words for Java API Reference
+description: 和 的基类。
 type: docs
 weight: 407
 url: /zh/java/com.aspose.words/noderendererbase/
@@ -16,12 +16,12 @@ public abstract class NodeRendererBase
 基类[ShapeRenderer](../../com.aspose.words/shaperenderer)和[OfficeMathRenderer](../../com.aspose.words/officemathrenderer).
 
 要了解更多信息，请访问**Working with Shapes**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [NodeRendererBase()](#NodeRendererBase--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

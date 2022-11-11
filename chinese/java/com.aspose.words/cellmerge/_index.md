@@ -1,7 +1,7 @@
 ---
 title: CellMerge
-second_title: Aspose.Words for Java API 参考
-description:指定表格中的单元格如何与其他单元格合并。
+second_title: Aspose.Words for Java API Reference
+description: 指定表格中的单元格如何与其他单元格合并。
 type: docs
 weight: 51
 url: /zh/java/com.aspose.words/cellmerge/
@@ -22,7 +22,7 @@ public class CellMerge
 | [NONE](#NONE) | 单元格未合并。 |
 | [PREVIOUS](#PREVIOUS) | 单元格水平或垂直合并到前一个单元格。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

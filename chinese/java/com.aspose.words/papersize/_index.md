@@ -1,7 +1,7 @@
 ---
 title: PaperSize
-second_title: Aspose.Words for Java API 参考
-description:指定纸张尺寸。
+second_title: Aspose.Words for Java API Reference
+description: 指定纸张尺寸。
 type: docs
 weight: 442
 url: /zh/java/com.aspose.words/papersize/
@@ -37,7 +37,7 @@ public class PaperSize
 | [STATEMENT](#STATEMENT) | 8.5 x 5.5 英寸。 |
 | [TABLOID](#TABLOID) | 11 x 17 英寸。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

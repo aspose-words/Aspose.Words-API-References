@@ -1,7 +1,7 @@
 ---
 title: BookmarkEnd
-second_title: Aspose.Words for Java API 参考
-description:表示 Word 文档中书签的结尾。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Word 文档中书签的结尾。
 type: docs
 weight: 33
 url: /zh/java/com.aspose.words/bookmarkend/
@@ -22,12 +22,12 @@ public class BookmarkEnd extends Node
 [BookmarkStart](../../com.aspose.words/bookmarkstart)和[BookmarkEnd](../../com.aspose.words/bookmarkend)只是文档中指定书签开始和结束位置的标记。
 
 使用[Bookmark](../../com.aspose.words/bookmark)类作为“门面”，将书签作为单个对象使用。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [BookmarkEnd(DocumentBase doc, String name)](#BookmarkEnd-com.aspose.words.DocumentBase-java.lang.String-) | 初始化一个新的实例[BookmarkEnd](../../com.aspose.words/bookmarkend)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

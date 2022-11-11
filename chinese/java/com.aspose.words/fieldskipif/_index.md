@@ -1,7 +1,7 @@
 ---
 title: 字段SkipIf
-second_title: Aspose.Words for Java API 参考
-description:实现 SKIPIF 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 SKIPIF 字段。
 type: docs
 weight: 244
 url: /zh/java/com.aspose.words/fieldskipif/
@@ -18,7 +18,7 @@ public class 字段SkipIf extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 比较表达式指定的值[getLeftExpression()](../../com.aspose.words/fieldskipif\#getLeftExpression--) / [setLeftExpression(java.lang.String)](../../com.aspose.words/fieldskipif\#setLeftExpression-java.lang.String-)和[getRightExpression()](../../com.aspose.words/fieldskipif\#getRightExpression--) / [setRightExpression(java.lang.String)](../../com.aspose.words/fieldskipif\#setRightExpression-java.lang.String-)比较使用指定的运算符[getComparisonOperator()](../../com.aspose.words/fieldskipif\#getComparisonOperator--) / [setComparisonOperator(java.lang.String)](../../com.aspose.words/fieldskipif\#setComparisonOperator-java.lang.String-).如果比较为真，则 SKIPIF 取消当前的合并文档，移动到数据源中的下一条数据记录，并开始一个新的合并文档。如果比较为假，则继续当前合并文档。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

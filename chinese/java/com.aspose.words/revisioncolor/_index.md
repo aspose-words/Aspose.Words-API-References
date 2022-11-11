@@ -1,7 +1,7 @@
 ---
 title: RevisionColor
-second_title: Aspose.Words for Java API 参考
-description:允许指定文档修订的颜色。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定文档修订的颜色。
 type: docs
 weight: 485
 url: /zh/java/com.aspose.words/revisioncolor/
@@ -40,7 +40,7 @@ public class RevisionColor
 | [WHITE](#WHITE) | 代表 ffffff 颜色。 |
 | [YELLOW](#YELLOW) | 代表fad272颜色。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

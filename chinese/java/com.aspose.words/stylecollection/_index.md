@@ -1,6 +1,6 @@
 ---
 title: StyleCollection
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: Style 对象的集合，表示文档中的内置样式和用户定义的样式。
 type: docs
 weight: 537
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/stylecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class StyleCollection implements Cloneable, Iterable
@@ -19,7 +19,7 @@ public class StyleCollection implements Cloneable, Iterable
 Style 对象的集合，表示文档中的内置样式和用户定义的样式。
 
 要了解更多信息，请访问**Working with Styles and Themes**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

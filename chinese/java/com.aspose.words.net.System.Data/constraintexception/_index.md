@@ -1,7 +1,7 @@
 ---
 title: ConstraintException
-second_title: Aspose.Words for Java API 参考
-description:表示尝试违反约束的操作时引发的异常。
+second_title: Aspose.Words for Java API Reference
+description: 表示尝试违反约束的操作时引发的异常。
 type: docs
 weight: 12
 url: /zh/java/com.aspose.words.net.system.data/constraintexception/
@@ -14,12 +14,12 @@ public class ConstraintException extends IllegalStateException
 ```
 
 表示尝试违反约束的操作时引发的异常。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ConstraintException(String s)](#ConstraintException-java.lang.String-) | 初始化一个新的实例[ConstraintException](../../com.aspose.words.net.system.data/constraintexception)具有指定字符串的类。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: EditableRangeStart
-second_title: Aspose.Words for Java API 参考
-description:表示 Word 文档中可编辑范围的开始。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Word 文档中可编辑范围的开始。
 type: docs
 weight: 138
 url: /zh/java/com.aspose.words/editablerangestart/
@@ -24,7 +24,7 @@ public class EditableRangeStart extends Node
 使用[getEditableRange()](../../com.aspose.words/editablerangestart\#getEditableRange--)类作为“外观”以将可编辑范围作为单个对象使用。
 
 当前仅在内联级别支持可编辑范围，即在内部[Paragraph](../../com.aspose.words/paragraph)，但可编辑范围开始和可编辑范围结束可以在不同的段落中。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

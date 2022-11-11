@@ -1,7 +1,7 @@
 ---
 title: Theme
-second_title: Aspose.Words for Java API 参考
-description:代表文档主题并提供对主要主题部分的访问，包括和
+second_title: Aspose.Words for Java API Reference
+description: 代表文档主题并提供对主要主题部分的访问，包括和
 type: docs
 weight: 573
 url: /zh/java/com.aspose.words/theme/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/theme/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Theme implements Cloneable
@@ -19,7 +19,7 @@ public class Theme implements Cloneable
 代表文档主题，并提供对主要主题部分的访问，包括[getMajorFonts()](../../com.aspose.words/theme\#getMajorFonts--), [getMinorFonts()](../../com.aspose.words/theme\#getMinorFonts--)和[getColors()](../../com.aspose.words/theme\#getColors--)
 
 要了解更多信息，请访问**Working with Styles and Themes**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MsWordVersion
-second_title: Aspose.Words for Java API 参考
-description:允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
+second_title: Aspose.Words for Java API Reference
+description: 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
 type: docs
 weight: 399
 url: /zh/java/com.aspose.words/mswordversion/
@@ -27,7 +27,7 @@ public class MsWordVersion
 | [WORD_2016](#WORD-2016) | 优化 Aspose.Words 行为以匹配 MS Word 2016 版本。 |
 | [WORD_2019](#WORD-2019) | 优化 Aspose.Words 行为以匹配 MS Word 2019 版本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

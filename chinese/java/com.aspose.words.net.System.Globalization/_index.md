@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.net.System.Globalization
-second_title: Aspose.Words for Java API 参考
-description:提供模仿 Java 中 System.Globalization 命名空间的 .NET 类型的类型。
+second_title: Aspose.Words for Java API Reference
+description: 提供模仿 Java 中 System.Globalization 命名空间的 .NET 类型的类型。
 type: docs
 weight: 14
 url: /zh/java/com.aspose.words.net.system.globalization/
@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words.net.system.globalization/
 提供模仿 .NET 类型的类型`System.Globalization`Java 中的命名空间。
 
 
-## 班级es
+## 课程
 
 | 班级 | 描述 |
 | --- | --- |

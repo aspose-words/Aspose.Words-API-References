@@ -1,7 +1,7 @@
 ---
 title: Chart
-second_title: Aspose.Words for Java API 参考
-description:提供对图表形状属性的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对图表形状属性的访问。
 type: docs
 weight: 55
 url: /zh/java/com.aspose.words/chart/
@@ -16,7 +16,7 @@ public class Chart
 提供对图表形状属性的访问。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

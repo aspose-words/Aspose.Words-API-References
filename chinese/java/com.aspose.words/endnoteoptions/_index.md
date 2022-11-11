@@ -1,7 +1,7 @@
 ---
 title: EndnoteOptions
-second_title: Aspose.Words for Java API 参考
-description:表示文档或部分的尾注编号选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档或部分的尾注编号选项。
 type: docs
 weight: 146
 url: /zh/java/com.aspose.words/endnoteoptions/
@@ -16,7 +16,7 @@ public class EndnoteOptions
 表示文档或部分的尾注编号选项。
 
 要了解更多信息，请访问**Working with Footnote and Endnote**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

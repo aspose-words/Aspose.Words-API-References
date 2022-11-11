@@ -1,7 +1,7 @@
 ---
 title: UniqueConstraint
-second_title: Aspose.Words for Java API 参考
-description:表示对一组列的限制，其中所有值都必须是唯一的。
+second_title: Aspose.Words for Java API Reference
+description: 表示对一组列的限制，其中所有值都必须是唯一的。
 type: docs
 weight: 32
 url: /zh/java/com.aspose.words.net.system.data/uniqueconstraint/
@@ -14,7 +14,7 @@ public class UniqueConstraint extends System.Data.Constraint
 ```
 
 表示对一组列的限制，其中所有值都必须是唯一的。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -22,7 +22,7 @@ public class UniqueConstraint extends System.Data.Constraint
 | [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。 |
 | [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有给定数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
 | [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

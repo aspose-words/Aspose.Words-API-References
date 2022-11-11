@@ -1,7 +1,7 @@
 ---
 title: LayoutEnumerator
-second_title: Aspose.Words for Java API 参考
-description:枚举文档的页面布局实体。
+second_title: Aspose.Words for Java API Reference
+description: 枚举文档的页面布局实体。
 type: docs
 weight: 360
 url: /zh/java/com.aspose.words/layoutenumerator/
@@ -16,12 +16,12 @@ public class LayoutEnumerator
 枚举文档的页面布局实体。您可以使用此类来遍历页面布局模型。可用属性包括类型、几何、文本和呈现实体的页面索引，以及整体结构和关系。使用组合[LayoutCollector.getEntity(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEntity-com.aspose.words.Node-)和[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)移动到对应于文档节点的实体。
 
 要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [LayoutEnumerator(Document document)](#LayoutEnumerator-com.aspose.words.Document-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

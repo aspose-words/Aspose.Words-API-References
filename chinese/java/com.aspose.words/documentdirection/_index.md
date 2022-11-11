@@ -1,7 +1,7 @@
 ---
 title: DocumentDirection
-second_title: Aspose.Words for Java API 参考
-description:允许指定文档中文本的流动方向。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定文档中文本的流动方向。
 type: docs
 weight: 123
 url: /zh/java/com.aspose.words/documentdirection/
@@ -22,7 +22,7 @@ public class DocumentDirection
 | [LEFT_TO_RIGHT](#LEFT-TO-RIGHT) | 从左到右的方向。 |
 | [RIGHT_TO_LEFT](#RIGHT-TO-LEFT) | 从右到左的方向。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

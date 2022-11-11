@@ -1,7 +1,7 @@
 ---
 title: OleFormat
-second_title: Aspose.Words for Java API 参考
-description:提供对 OLE 对象或 ActiveX 控件的数据的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对 OLE 对象或 ActiveX 控件的数据的访问。
 type: docs
 weight: 425
 url: /zh/java/com.aspose.words/oleformat/
@@ -18,7 +18,7 @@ public class OleFormat
 要了解更多信息，请访问**Working with Ole Objects**文档文章。
 
 使用[Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat--)属性来访问 OLE 对象的数据。您不创建的实例[OleFormat](../../com.aspose.words/oleformat)直接上课。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

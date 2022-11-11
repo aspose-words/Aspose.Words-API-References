@@ -1,7 +1,7 @@
 ---
 title: Watermark
-second_title: Aspose.Words for Java API 参考
-description:表示使用文档水印的类。
+second_title: Aspose.Words for Java API Reference
+description: 表示使用文档水印的类。
 type: docs
 weight: 608
 url: /zh/java/com.aspose.words/watermark/
@@ -16,7 +16,7 @@ public class Watermark
 表示使用文档水印的类。
 
 要了解更多信息，请访问**Working with Watermark**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: 字段Formula
-second_title: Aspose.Words for Java API 参考
-description:实现公式字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现公式字段。
 type: docs
 weight: 195
 url: /zh/java/com.aspose.words/fieldformula/
@@ -18,7 +18,7 @@ public class 字段Formula extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 计算表达式的结果。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

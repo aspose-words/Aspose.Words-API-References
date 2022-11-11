@@ -1,7 +1,7 @@
 ---
 title: Row
-second_title: Aspose.Words for Java API 参考
-description:表示表格行。
+second_title: Aspose.Words for Java API Reference
+description: 表示表格行。
 type: docs
 weight: 492
 url: /zh/java/com.aspose.words/row/
@@ -22,12 +22,12 @@ public class Row extends CompositeNode
 **Row**可以包含一个或多个**Cell**节点。
 
 最小有效行需要至少有一个**Cell**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Row(DocumentBase doc)](#Row-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Row**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

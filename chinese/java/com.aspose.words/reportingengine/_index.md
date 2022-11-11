@@ -1,7 +1,7 @@
 ---
 title: ReportingEngine
-second_title: Aspose.Words for Java API 参考
-description:提供例程来使用数据填充模板文档和一组设置来控制这些例程。
+second_title: Aspose.Words for Java API Reference
+description: 提供例程来使用数据填充模板文档和一组设置来控制这些例程。
 type: docs
 weight: 478
 url: /zh/java/com.aspose.words/reportingengine/
@@ -16,12 +16,12 @@ public class ReportingEngine
 提供例程来使用数据填充模板文档和一组设置来控制这些例程。
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ReportingEngine()](#ReportingEngine--) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

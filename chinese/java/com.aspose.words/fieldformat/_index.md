@@ -1,7 +1,7 @@
 ---
 title: 字段Format
-second_title: Aspose.Words for Java API 参考
-description:提供对字段数字日期和时间以及一般格式的键入访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对字段数字日期和时间以及一般格式的键入访问。
 type: docs
 weight: 194
 url: /zh/java/com.aspose.words/fieldformat/
@@ -16,7 +16,7 @@ public class 字段Format
 提供对字段的数字、日期和时间以及一般格式的键入访问。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

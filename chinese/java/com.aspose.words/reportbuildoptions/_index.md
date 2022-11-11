@@ -1,7 +1,7 @@
 ---
 title: ReportBuildOptions
-second_title: Aspose.Words for Java API 参考
-description:指定在构建报告时控制行为的选项。
+second_title: Aspose.Words for Java API Reference
+description: 指定在构建报告时控制行为的选项。
 type: docs
 weight: 477
 url: /zh/java/com.aspose.words/reportbuildoptions/
@@ -25,7 +25,7 @@ public class ReportBuildOptions
 | [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应该使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。 |
 | [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | 指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

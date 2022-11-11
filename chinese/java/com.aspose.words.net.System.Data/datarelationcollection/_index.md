@@ -1,7 +1,7 @@
 ---
 title: DataRelationCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 this 的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 this 的对象集合。
 type: docs
 weight: 19
 url: /zh/java/com.aspose.words.net.system.data/datarelationcollection/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/datarelationcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DataRelationCollection implements Iterable
 ```
 
 代表集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)为此的对象[DataSet](../../com.aspose.words.net.system.data/dataset).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

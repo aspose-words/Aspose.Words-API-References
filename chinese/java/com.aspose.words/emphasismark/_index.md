@@ -1,7 +1,7 @@
 ---
 title: EmphasisMark
-second_title: Aspose.Words for Java API 参考
-description:指定可能的强调标记类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定可能的强调标记类型。
 type: docs
 weight: 144
 url: /zh/java/com.aspose.words/emphasismark/
@@ -24,7 +24,7 @@ public class EmphasisMark
 | [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白圆圈。 |
 | [UNDER_SOLID_CIRCLE](#UNDER-SOLID-CIRCLE) | 强调标记是显示在文本下方的实心黑色圆圈。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ImageSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 341
 url: /zh/java/com.aspose.words/imagesavingargs/
@@ -24,7 +24,7 @@ public class ImageSavingArgs
 要应用您自己的逻辑来生成图像文件名，请使用[getImageFileName()](../../com.aspose.words/imagesavingargs\#getImageFileName--) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagesavingargs\#setImageFileName-java.lang.String-), [getCurrentShape()](../../com.aspose.words/imagesavingargs\#getCurrentShape--)和[isImageAvailable()](../../com.aspose.words/imagesavingargs\#isImageAvailable--)特性。
 
 要将图像保存到流而不是文件中，请使用**P:Aspose.Words.Saving.ImageSavingArgs.ImageStream**财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

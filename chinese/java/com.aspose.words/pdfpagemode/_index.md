@@ -1,7 +1,7 @@
 ---
 title: PdfPageMode
-second_title: Aspose.Words for Java API 参考
-description:指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
 type: docs
 weight: 459
 url: /zh/java/com.aspose.words/pdfpagemode/
@@ -25,7 +25,7 @@ public class PdfPageMode
 | [USE_OUTLINES](#USE-OUTLINES) | 文档大纲可见。 |
 | [USE_THUMBS](#USE-THUMBS) | 缩略图图像可见。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

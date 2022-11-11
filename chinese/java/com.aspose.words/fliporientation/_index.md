@@ -1,7 +1,7 @@
 ---
 title: FlipOrientation
-second_title: Aspose.Words for Java API 参考
-description:形状方向的可能值。
+second_title: Aspose.Words for Java API Reference
+description: 形状方向的可能值。
 type: docs
 weight: 273
 url: /zh/java/com.aspose.words/fliporientation/
@@ -23,7 +23,7 @@ public class FlipOrientation
 | [NONE](#NONE) | 坐标不翻转。 |
 | [VERTICAL](#VERTICAL) | 沿 x 轴翻转，反转 y 坐标。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

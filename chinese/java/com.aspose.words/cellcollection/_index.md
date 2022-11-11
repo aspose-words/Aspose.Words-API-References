@@ -1,7 +1,7 @@
 ---
 title: CellCollection
-second_title: Aspose.Words for Java API 参考
-description:提供对节点集合的类型化访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对节点集合的类型化访问。
 type: docs
 weight: 49
 url: /zh/java/com.aspose.words/cellcollection/
@@ -16,7 +16,7 @@ public class CellCollection extends NodeCollection
 提供对集合的类型化访问[Cell](../../com.aspose.words/cell)节点。
 
 要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

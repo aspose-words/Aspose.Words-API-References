@@ -1,7 +1,7 @@
 ---
 title: InvalidConstraintException
-second_title: Aspose.Words for Java API 参考
-description:表示错误地尝试创建或访问关系时引发的异常。
+second_title: Aspose.Words for Java API Reference
+description: 表示错误地尝试创建或访问关系时引发的异常。
 type: docs
 weight: 30
 url: /zh/java/com.aspose.words.net.system.data/invalidconstraintexception/
@@ -14,12 +14,12 @@ public class InvalidConstraintException extends IllegalStateException
 ```
 
 表示错误地尝试创建或访问关系时引发的异常。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [InvalidConstraintException(String s)](#InvalidConstraintException-java.lang.String-) | 初始化一个新的实例[InvalidConstraintException](../../com.aspose.words.net.system.data/invalidconstraintexception)具有指定字符串的类。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

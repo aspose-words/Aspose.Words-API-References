@@ -1,7 +1,7 @@
 ---
 title: TextWrapping
-second_title: Aspose.Words for Java API 参考
-description:指定文本如何环绕表格。
+second_title: Aspose.Words for Java API Reference
+description: 指定文本如何环绕表格。
 type: docs
 weight: 570
 url: /zh/java/com.aspose.words/textwrapping/
@@ -22,7 +22,7 @@ public class TextWrapping
 | [DEFAULT](#DEFAULT) | 默认值。 |
 | [NONE](#NONE) | 文本和表格按照它们在文档中出现的顺序显示。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

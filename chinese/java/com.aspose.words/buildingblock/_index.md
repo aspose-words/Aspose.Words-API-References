@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock
-second_title: Aspose.Words for Java API 参考
-description:表示词汇表文档条目，例如 Building Block 自动图文集或自动更正条目。
+second_title: Aspose.Words for Java API Reference
+description: 表示词汇表文档条目，例如 Building Block 自动图文集或自动更正条目。
 type: docs
 weight: 41
 url: /zh/java/com.aspose.words/buildingblock/
@@ -24,12 +24,12 @@ public class BuildingBlock extends CompositeNode
 您可以创建新的构建块并将它们插入到词汇表文档中。您可以修改或删除现有的构建块。您可以在文档之间复制或移动构建基块。您可以将构建块的内容插入到文档中。
 
 对应于**docPart**, **docPartPr**和**docPartBody**OOXML 中的元素。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [BuildingBlock(GlossaryDocument glossaryDoc)](#BuildingBlock-com.aspose.words.GlossaryDocument-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

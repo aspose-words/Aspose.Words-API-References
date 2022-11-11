@@ -1,7 +1,7 @@
 ---
 title: Hyphenation
-second_title: Aspose.Words for Java API 参考
-description:提供使用连字字典的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供使用连字字典的方法。
 type: docs
 weight: 333
 url: /zh/java/com.aspose.words/hyphenation/
@@ -16,7 +16,7 @@ public class Hyphenation
 提供使用连字字典的方法。这些字典规定了特定语言的单词可以在何处连字。
 
 要了解更多信息，请访问**Working with Hyphenation**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

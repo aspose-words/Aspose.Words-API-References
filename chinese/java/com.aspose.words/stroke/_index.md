@@ -1,7 +1,7 @@
 ---
 title: Stroke
-second_title: Aspose.Words for Java API 参考
-description:定义形状的笔触。
+second_title: Aspose.Words for Java API Reference
+description: 定义形状的笔触。
 type: docs
 weight: 531
 url: /zh/java/com.aspose.words/stroke/
@@ -18,7 +18,7 @@ public class Stroke
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
 使用[Shape.getStroke()](../../com.aspose.words/shape\#getStroke--)属性来访问形状的笔触属性。您不创建的实例[Stroke](../../com.aspose.words/stroke)直接上课。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

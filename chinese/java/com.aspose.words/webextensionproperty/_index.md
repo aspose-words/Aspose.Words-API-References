@@ -1,7 +1,7 @@
 ---
 title: WebExtensionProperty
-second_title: Aspose.Words for Java API 参考
-description:指定 Web 扩展定制属性。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Web 扩展定制属性。
 type: docs
 weight: 615
 url: /zh/java/com.aspose.words/webextensionproperty/
@@ -16,12 +16,12 @@ public class WebExtensionProperty
 指定 Web 扩展定制属性。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [WebExtensionProperty(String name, String value)](#WebExtensionProperty-java.lang.String-java.lang.String-) | 创建具有指定名称和值的 Web 扩展自定义属性。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

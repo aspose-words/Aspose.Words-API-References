@@ -1,7 +1,7 @@
 ---
 title: WarningInfo
-second_title: Aspose.Words for Java API 参考
-description:包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息。
+second_title: Aspose.Words for Java API Reference
+description: 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息。
 type: docs
 weight: 604
 url: /zh/java/com.aspose.words/warninginfo/
@@ -18,7 +18,7 @@ public class WarningInfo
 要了解更多信息，请访问**Programming with Documents**文档文章。
 
 您不创建此类的实例。此类的对象由 Aspose.Words 创建并传递给[IWarningCallback.warning(com.aspose.words.WarningInfo)](../../com.aspose.words/iwarningcallback\#warning-com.aspose.words.WarningInfo-)方法。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

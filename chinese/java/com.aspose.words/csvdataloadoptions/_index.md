@@ -1,7 +1,7 @@
 ---
 title: CsvDataLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:表示用于解析 CSV 数据的选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示用于解析 CSV 数据的选项。
 type: docs
 weight: 98
 url: /zh/java/com.aspose.words/csvdataloadoptions/
@@ -18,13 +18,13 @@ public class CsvDataLoadOptions
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
 此类的实例可以传递给[CsvDataSource](../../com.aspose.words/csvdatasource).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [CsvDataLoadOptions()](#CsvDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
 | [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean-) | 通过指定 CSV 数据是否在第一行包含列名来初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

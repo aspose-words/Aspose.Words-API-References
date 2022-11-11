@@ -1,7 +1,7 @@
 ---
 title: I字段UserPromptRespondent
-second_title: Aspose.Words for Java API 参考
-description:代表字段更新期间用户提示的响应者。
+second_title: Aspose.Words for Java API Reference
+description: 代表字段更新期间用户提示的响应者。
 type: docs
 weight: 645
 url: /zh/java/com.aspose.words/ifielduserpromptrespondent/
@@ -11,7 +11,7 @@ public interface I字段UserPromptRespondent
 ```
 
 代表字段更新期间用户提示的响应者。 ASK 和 FILLIN 字段是提示用户做出某些响应的字段示例。实现此接口并将其分配给[字段Options.getUserPromptRespondent()](../../com.aspose.words/fieldoptions\#getUserPromptRespondent--) / [字段Options.setUserPromptRespondent(com.aspose.words.I字段UserPromptRespondent)](../../com.aspose.words/fieldoptions\#setUserPromptRespondent-com.aspose.words.I字段UserPromptRespondent-)属性来建立字段更新和用户之间的交互。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

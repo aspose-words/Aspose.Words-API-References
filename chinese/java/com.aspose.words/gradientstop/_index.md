@@ -1,7 +1,7 @@
 ---
 title: GradientStop
-second_title: Aspose.Words for Java API 参考
-description:代表一个梯度停止。
+second_title: Aspose.Words for Java API Reference
+description: 代表一个梯度停止。
 type: docs
 weight: 308
 url: /zh/java/com.aspose.words/gradientstop/
@@ -16,13 +16,13 @@ public class GradientStop
 代表一个梯度停止。
 
 要了解更多信息，请访问**Working with Graphic Elements**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [GradientStop(Color color, double position)](#GradientStop-java.awt.Color-double-) | 初始化一个新的实例[GradientStop](../../com.aspose.words/gradientstop)班级。 |
 | [GradientStop(Color color, double position, double transparency)](#GradientStop-java.awt.Color-double-double-) | 初始化一个新的实例[GradientStop](../../com.aspose.words/gradientstop)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

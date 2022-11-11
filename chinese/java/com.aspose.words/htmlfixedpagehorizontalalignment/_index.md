@@ -1,7 +1,7 @@
 ---
 title: HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定输出 HTML 文档中页面的水平对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定输出 HTML 文档中页面的水平对齐方式。
 type: docs
 weight: 325
 url: /zh/java/com.aspose.words/htmlfixedpagehorizontalalignment/
@@ -22,7 +22,7 @@ public class HtmlFixedPageHorizontalAlignment
 | [LEFT](#LEFT) | 将页面向左对齐。 |
 | [RIGHT](#RIGHT) | 将页面向右对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

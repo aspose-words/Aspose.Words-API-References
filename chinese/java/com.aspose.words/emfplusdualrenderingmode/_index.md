@@ -1,7 +1,7 @@
 ---
 title: EmfPlusDualRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定 Aspose.Words 应如何呈现 EMF Dual 元文件。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Aspose.Words 应如何呈现 EMF Dual 元文件。
 type: docs
 weight: 143
 url: /zh/java/com.aspose.words/emfplusdualrenderingmode/
@@ -22,7 +22,7 @@ public class EmfPlusDualRenderingMode
 | [EMF_PLUS](#EMF-PLUS) | Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。 |
 | [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

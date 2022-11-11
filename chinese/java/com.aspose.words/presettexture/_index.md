@@ -1,7 +1,7 @@
 ---
 title: PresetTexture
-second_title: Aspose.Words for Java API 参考
-description:指定用于填充形状的纹理。
+second_title: Aspose.Words for Java API Reference
+description: 指定用于填充形状的纹理。
 type: docs
 weight: 468
 url: /zh/java/com.aspose.words/presettexture/
@@ -31,7 +31,7 @@ public class PresetTexture
 | [NEWSPRINT](#NEWSPRINT) | 新闻纸质地。 |
 | [NONE](#NONE) | 没有纹理。 |
 | [OAK](#OAK) | 橡木纹理。 |
-| [PAPER_BAG](#PAPER-BAG) | 纸袋纹理。 |
+| [PAPER_BAG](#PAPER-BAG) | 纸袋质地。 |
 | [PAPYRUS](#PAPYRUS) | 纸莎草纸纹理。 |
 | [PARCHMENT](#PARCHMENT) | 羊皮纸质地。 |
 | [PINK_TISSUE_PAPER](#PINK-TISSUE-PAPER) | 粉红色的薄纸质地。 |
@@ -44,7 +44,7 @@ public class PresetTexture
 | [WHITE_MARBLE](#WHITE-MARBLE) | 白色大理石纹理。 |
 | [WOVEN_MAT](#WOVEN-MAT) | 编织垫质地。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -171,7 +171,7 @@ public static int PAPER_BAG
 ```
 
 
-纸袋纹理。
+纸袋质地。
 
 ### PAPYRUS {#PAPYRUS}
 ```

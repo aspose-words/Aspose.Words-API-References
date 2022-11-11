@@ -1,7 +1,7 @@
 ---
 title: RefInt
-second_title: Aspose.Words for Java API 参考
-description:表示 Integer 基本类型的 Out/Ref 构造
+second_title: Aspose.Words for Java API Reference
+description: 表示 Integer 基本类型的 Out/Ref 构造
 type: docs
 weight: 15
 url: /zh/java/com.aspose.words.ref/refint/
@@ -14,13 +14,13 @@ public class RefInt
 ```
 
 表示 Integer 基本类型的 Out/Ref 构造
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RefInt(int value)](#RefInt-int-) | 使用给定值模拟 Out/Ref 参数初始化。 |
 | [RefInt(long value)](#RefInt-long-) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: TableSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:表格字体替换规则。
+second_title: Aspose.Words for Java API Reference
+description: 表格字体替换规则。
 type: docs
 weight: 554
 url: /zh/java/com.aspose.words/tablesubstitutionrule/
@@ -18,7 +18,7 @@ public class TableSubstitutionRule extends FontSubstitutionRule
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 如果原始字体不可用，此规则定义要使用的替代字体名称列表。将检查替代品的字体名称和[FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName--) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String-)（如果有的话）。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

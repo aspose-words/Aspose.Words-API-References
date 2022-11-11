@@ -1,7 +1,7 @@
 ---
 title: BookmarksOutlineLevelCollection
-second_title: Aspose.Words for Java API 参考
-description:单个书签大纲级别的集合。
+second_title: Aspose.Words for Java API Reference
+description: 单个书签大纲级别的集合。
 type: docs
 weight: 35
 url: /zh/java/com.aspose.words/bookmarksoutlinelevelcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/bookmarksoutlinelevelcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class BookmarksOutlineLevelCollection implements Iterable
@@ -23,7 +23,7 @@ public class BookmarksOutlineLevelCollection implements Iterable
 Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
 
 书签大纲级别可以是 0 到 9 之间的值。指定 0 并且 Word 书签将不会显示在文档大纲中。指定 1，Word 书签将显示在第 1 级的文档大纲中； 2 表示 2 级，依此类推。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

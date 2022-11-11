@@ -1,7 +1,7 @@
 ---
 title: LayoutEntity类型
-second_title: Aspose.Words for Java API 参考
-description:布局实体的类型。
+second_title: Aspose.Words for Java API Reference
+description: 布局实体的类型。
 type: docs
 weight: 359
 url: /zh/java/com.aspose.words/layoutentitytype/
@@ -33,7 +33,7 @@ public class LayoutEntity类型
 | [SPAN](#SPAN) | 表示一行中的一个或多个字符。 |
 | [TEXT_BOX](#TEXT-BOX) | 表示形状内的文本区域。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

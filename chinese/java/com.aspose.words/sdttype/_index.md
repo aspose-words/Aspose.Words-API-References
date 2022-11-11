@@ -1,7 +1,7 @@
 ---
 title: Sdt类型
-second_title: Aspose.Words for Java API 参考
-description:指定结构化文档标签 SDT 节点的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定结构化文档标签 SDT 节点的类型。
 type: docs
 weight: 508
 url: /zh/java/com.aspose.words/sdttype/
@@ -36,7 +36,7 @@ public class Sdt类型
 | [REPEATING_SECTION_ITEM](#REPEATING-SECTION-ITEM) | SDT 代表重复部分项目。 |
 | [RICH_TEXT](#RICH-TEXT) | SDT 在文档中显示时表示富文本框。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

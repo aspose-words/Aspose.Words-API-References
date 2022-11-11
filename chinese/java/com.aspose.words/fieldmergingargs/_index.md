@@ -1,7 +1,7 @@
 ---
 title: 字段MergingArgs
-second_title: Aspose.Words for Java API 参考
-description:为 Merge字段 事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为 Merge字段 事件提供数据。
 type: docs
 weight: 218
 url: /zh/java/com.aspose.words/fieldmergingargs/
@@ -18,7 +18,7 @@ public class 字段MergingArgs extends 字段MergingArgsBase
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
 这**Merge字段**当在文档中遇到简单的邮件合并字段时，在邮件合并期间发生事件。您可以响应此事件以返回文本以供邮件合并引擎插入到文档中。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

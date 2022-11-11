@@ -1,7 +1,7 @@
 ---
 title: FontFamily
-second_title: Aspose.Words for Java API 参考
-description:表示字体系列。
+second_title: Aspose.Words for Java API Reference
+description: 表示字体系列。
 type: docs
 weight: 278
 url: /zh/java/com.aspose.words/fontfamily/
@@ -27,7 +27,7 @@ public class FontFamily
 | [SCRIPT](#SCRIPT) | 指定一种设计为看起来像手写的字体；示例包括脚本和草书。 |
 | [SWISS](#SWISS) | 指定不带衬线的比例字体。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: DataView
-second_title: Aspose.Words for Java API 参考
-description:表示用于排序过滤搜索编辑和导航的可数据绑定自定义视图。
+second_title: Aspose.Words for Java API Reference
+description: 表示用于排序过滤搜索编辑和导航的可数据绑定自定义视图。
 type: docs
 weight: 28
 url: /zh/java/com.aspose.words.net.system.data/dataview/
@@ -10,19 +10,19 @@ url: /zh/java/com.aspose.words.net.system.data/dataview/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DataView implements Iterable
 ```
 
 表示一个可数据绑定的自定义视图[DataTable](../../com.aspose.words.net.system.data/datatable)用于排序、过滤、搜索、编辑和导航。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataView](../../com.aspose.words.net.system.data/dataview)具有指定的类[DataTable](../../com.aspose.words.net.system.data/datatable). |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

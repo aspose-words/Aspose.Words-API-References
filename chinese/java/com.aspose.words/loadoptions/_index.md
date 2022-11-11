@@ -1,7 +1,7 @@
 ---
 title: LoadOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将文档加载到对象时指定其他选项，例如密码或基本 URI。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将文档加载到对象时指定其他选项，例如密码或基本 URI。
 type: docs
 weight: 378
 url: /zh/java/com.aspose.words/loadoptions/
@@ -16,14 +16,14 @@ public class LoadOptions
 允许在将文档加载到[Document](../../com.aspose.words/document)目的。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [LoadOptions()](#LoadOptions--) | 使用默认值初始化此类的新实例。 |
 | [LoadOptions(String password)](#LoadOptions-java.lang.String-) | 使用指定密码初始化此类的新实例以加载加密文档的快捷方式。 |
 | [LoadOptions(int loadFormat, String password, String baseUri)](#LoadOptions-int-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

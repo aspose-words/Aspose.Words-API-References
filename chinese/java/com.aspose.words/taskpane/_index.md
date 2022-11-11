@@ -1,7 +1,7 @@
 ---
 title: TaskPane
-second_title: Aspose.Words for Java API 参考
-description:表示加载项任务窗格对象。
+second_title: Aspose.Words for Java API Reference
+description: 表示加载项任务窗格对象。
 type: docs
 weight: 555
 url: /zh/java/com.aspose.words/taskpane/
@@ -16,14 +16,14 @@ public class TaskPane
 表示加载项任务窗格对象。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get班级()](#get班级--) |  |
 | [getDockState()](#getDockState--) | 指定此任务窗格对象的最后停靠位置。 |
-| [getRow()](#getRow--) | 指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。 |
+| [getRow()](#getRow--) | 在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。 |
 | [getWebExtension()](#getWebExtension--) | 表示一个 Web 扩展对象。 |
 | [getWidth()](#getWidth--) | 指定此任务窗格实例的默认宽度值。 |
 | [hashCode()](#hashCode--) |  |
@@ -34,7 +34,7 @@ public class TaskPane
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setDockState(int value)](#setDockState-int-) | 指定此任务窗格对象的最后停靠位置。 |
-| [setRow(int value)](#setRow-int-) | 指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。 |
+| [setRow(int value)](#setRow-int-) | 在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。 |
 | [setWidth(double value)](#setWidth-double-) | 指定此任务窗格实例的默认宽度值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -81,7 +81,7 @@ public int getRow()
 ```
 
 
-指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。
+在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。
 
 **退货:**
 int - 对应的 int 值。
@@ -196,7 +196,7 @@ public void setRow(int value)
 ```
 
 
-指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。
+在停靠在相同默认位置的其他持久任务窗格中，指定此任务窗格的索引，从外到内枚举。
 
 **参数:**
 | 范围 | 类型 | 描述 |

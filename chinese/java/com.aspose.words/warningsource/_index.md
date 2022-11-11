@@ -1,7 +1,7 @@
 ---
 title: WarningSource
-second_title: Aspose.Words for Java API 参考
-description:指定在文档加载或保存期间产生警告的模块。
+second_title: Aspose.Words for Java API Reference
+description: 指定在文档加载或保存期间产生警告的模块。
 type: docs
 weight: 606
 url: /zh/java/com.aspose.words/warningsource/
@@ -45,7 +45,7 @@ public class WarningSource
 | [XAML](#XAML) | 读取/写入 Xaml 文件的模块。 |
 | [XPS](#XPS) | 呈现 XPS 的模块。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

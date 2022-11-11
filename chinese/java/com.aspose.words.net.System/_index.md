@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.net.System
-second_title: Aspose.Words for Java API 参考
-description:提供模仿 Java 中 System 命名空间的 .NET 类型的类型。
+second_title: Aspose.Words for Java API Reference
+description: 提供模仿 Java 中 System 命名空间的 .NET 类型的类型。
 type: docs
 weight: 11
 url: /zh/java/com.aspose.words.net.system/
@@ -11,7 +11,7 @@ url: /zh/java/com.aspose.words.net.system/
 提供模仿 .NET 类型的类型`System`Java 中的命名空间。
 
 
-## 班级es
+## 课程
 
 | 班级 | 描述 |
 | --- | --- |

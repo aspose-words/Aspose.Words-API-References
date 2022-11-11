@@ -1,7 +1,7 @@
 ---
 title: Form字段Collection
-second_title: Aspose.Words for Java API 参考
-description:代表范围内所有表单字段的 Form字段 对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 代表范围内所有表单字段的 Form字段 对象的集合。
 type: docs
 weight: 297
 url: /zh/java/com.aspose.words/formfieldcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/formfieldcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class Form字段Collection implements Iterable
@@ -19,7 +19,7 @@ public class Form字段Collection implements Iterable
 一个集合**Form字段**表示范围内所有表单域的对象。
 
 要了解更多信息，请访问**Working with Form 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: AxisBound
-second_title: Aspose.Words for Java API 参考
-description:表示轴值的最小或最大界限。
+second_title: Aspose.Words for Java API Reference
+description: 表示轴值的最小或最大界限。
 type: docs
 weight: 16
 url: /zh/java/com.aspose.words/axisbound/
@@ -20,14 +20,14 @@ public class AxisBound
 Bound 可以指定为数字、日期时间或特殊的“自动”值。
 
 这个类的实例是不可变的。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [AxisBound()](#AxisBound--) | 创建一个新实例，指示轴边界应由文字处理应用程序自动确定。 |
 | [AxisBound(double value)](#AxisBound-double-) | 创建一个以数字表示的轴边界。 |
 | [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | 创建表示为日期时间值的轴边界。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

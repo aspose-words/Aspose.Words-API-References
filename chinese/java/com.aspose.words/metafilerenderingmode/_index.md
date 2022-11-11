@@ -1,7 +1,7 @@
 ---
 title: MetafileRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
 type: docs
 weight: 396
 url: /zh/java/com.aspose.words/metafilerenderingmode/
@@ -22,7 +22,7 @@ public class MetafileRenderingMode
 | [VECTOR](#VECTOR) | Aspose.Words 将元文件呈现为矢量图形。 |
 | [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words 尝试将元文件呈现为矢量图形。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

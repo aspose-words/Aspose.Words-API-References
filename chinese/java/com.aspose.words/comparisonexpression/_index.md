@@ -1,7 +1,7 @@
 ---
 title: ComparisonExpression
-second_title: Aspose.Words for Java API 参考
-description:比较表达式。
+second_title: Aspose.Words for Java API Reference
+description: 比较表达式。
 type: docs
 weight: 83
 url: /zh/java/com.aspose.words/comparisonexpression/
@@ -16,7 +16,7 @@ public class ComparisonExpression
 比较表达式。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

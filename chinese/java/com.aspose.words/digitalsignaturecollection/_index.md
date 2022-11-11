@@ -1,7 +1,7 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Words for Java API 参考
-description:提供附加到文档的数字签名的只读集合。
+second_title: Aspose.Words for Java API Reference
+description: 提供附加到文档的数字签名的只读集合。
 type: docs
 weight: 112
 url: /zh/java/com.aspose.words/digitalsignaturecollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/digitalsignaturecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DigitalSignatureCollection implements Iterable
@@ -21,7 +21,7 @@ public class DigitalSignatureCollection implements Iterable
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
 
 [Document.getDigitalSignatures()](../../com.aspose.words/document\#getDigitalSignatures--)
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

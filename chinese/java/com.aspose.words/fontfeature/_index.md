@@ -1,6 +1,6 @@
 ---
 title: FontFeature
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 279
@@ -50,7 +50,7 @@ public class FontFeature
 | [VERTICAL_ALTERNATES](#VERTICAL-ALTERNATES) |  |
 | [VERTICAL_ALTERNATES_AND_ROTATION](#VERTICAL-ALTERNATES-AND-ROTATION) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

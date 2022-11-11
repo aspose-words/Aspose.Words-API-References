@@ -1,7 +1,7 @@
 ---
 title: DataColumnCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 a 的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 的对象集合。
 type: docs
 weight: 15
 url: /zh/java/com.aspose.words.net.system.data/datacolumncollection/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/datacolumncollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DataColumnCollection implements Iterable
 ```
 
 代表一个集合[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象[DataTable](../../com.aspose.words.net.system.data/datatable).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

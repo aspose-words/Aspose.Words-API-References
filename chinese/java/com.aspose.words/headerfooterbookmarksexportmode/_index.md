@@ -1,7 +1,7 @@
 ---
 title: HeaderFooterBookmarksExportMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何导出页眉/页脚中的书签。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何导出页眉/页脚中的书签。
 type: docs
 weight: 316
 url: /zh/java/com.aspose.words/headerfooterbookmarksexportmode/
@@ -22,7 +22,7 @@ public class HeaderFooterBookmarksExportMode
 | [FIRST](#FIRST) | 仅导出该部分的第一个页眉/页脚中的书签。 |
 | [NONE](#NONE) | 页眉/页脚中的书签不会导出。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

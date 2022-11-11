@@ -1,7 +1,7 @@
 ---
 title: NumeralFormat
-second_title: Aspose.Words for Java API 参考
-description:指示在呈现为固定页面格式时用于表示数字的符号集。
+second_title: Aspose.Words for Java API Reference
+description: 指示在呈现为固定页面格式时用于表示数字的符号集。
 type: docs
 weight: 410
 url: /zh/java/com.aspose.words/numeralformat/
@@ -24,7 +24,7 @@ public class NumeralFormat
 | [EUROPEAN](#EUROPEAN) | 欧洲数字：0123456789。 |
 | [SYSTEM](#SYSTEM) | 不支持此选项。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

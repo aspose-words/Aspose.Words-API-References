@@ -1,7 +1,7 @@
 ---
 title: ControlChar
-second_title: Aspose.Words for Java API 参考
-description:控制字符在文档中经常遇到。
+second_title: Aspose.Words for Java API Reference
+description: 控制字符在文档中经常遇到。
 type: docs
 weight: 94
 url: /zh/java/com.aspose.words/controlchar/
@@ -50,7 +50,7 @@ public class ControlChar
 | [SPACE_CHAR](#SPACE-CHAR) | 空格字符：(char)32。 |
 | [TAB](#TAB) | 制表符："\\x0009" 或 "\\t"。 |
 | [TAB_CHAR](#TAB-CHAR) | 制表符：(char)9 或 "\\t"。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

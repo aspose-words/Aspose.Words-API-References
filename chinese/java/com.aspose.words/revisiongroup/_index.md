@@ -1,7 +1,7 @@
 ---
 title: RevisionGroup
-second_title: Aspose.Words for Java API 参考
-description:表示一组顺序对象。
+second_title: Aspose.Words for Java API Reference
+description: 表示一组顺序对象。
 type: docs
 weight: 486
 url: /zh/java/com.aspose.words/revisiongroup/
@@ -16,7 +16,7 @@ public class RevisionGroup
 代表一组顺序[Revision](../../com.aspose.words/revision)对象。
 
 要了解更多信息，请访问**Track Changes in a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

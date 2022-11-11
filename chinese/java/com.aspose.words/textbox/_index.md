@@ -1,7 +1,7 @@
 ---
 title: TextBox
-second_title: Aspose.Words for Java API 参考
-description:定义指定文本如何在形状内显示的属性。
+second_title: Aspose.Words for Java API Reference
+description: 定义指定文本如何在形状内显示的属性。
 type: docs
 weight: 558
 url: /zh/java/com.aspose.words/textbox/
@@ -18,7 +18,7 @@ public class TextBox
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
 使用[Shape.getTextBox()](../../com.aspose.words/shape\#getTextBox--)属性来访问形状的文本属性。您不创建的实例[TextBox](../../com.aspose.words/textbox)直接上课。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

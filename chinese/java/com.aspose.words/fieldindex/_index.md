@@ -1,7 +1,7 @@
 ---
 title: 字段Index
-second_title: Aspose.Words for Java API 参考
-description:实现 INDEX 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 INDEX 字段。
 type: docs
 weight: 206
 url: /zh/java/com.aspose.words/fieldindex/
@@ -18,7 +18,7 @@ public class 字段Index extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 使用 XE 字段指定的索引条目构建索引，并将该索引插入文档中的此位置。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

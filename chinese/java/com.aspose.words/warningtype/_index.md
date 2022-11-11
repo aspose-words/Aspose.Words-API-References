@@ -1,7 +1,7 @@
 ---
 title: Warning类型
-second_title: Aspose.Words for Java API 参考
-description:指定在文档加载或保存期间由 Aspose.Words 发出的警告的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定在文档加载或保存期间由 Aspose.Words 发出的警告的类型。
 type: docs
 weight: 607
 url: /zh/java/com.aspose.words/warningtype/
@@ -30,7 +30,7 @@ public class Warning类型
 | [UNEXPECTED_CONTENT](#UNEXPECTED-CONTENT) | 通用的意外内容，没有特定的代码。 |
 | [UNEXPECTED_CONTENT_CATEGORY](#UNEXPECTED-CONTENT-CATEGORY) | 无法识别源文档中的某些内容（即 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: com.aspose.words
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: com.aspose.words 包提供了在不使用 Microsoft Word 的情况下生成转换、修改渲染和打印 Microsoft Word 文档的类。
 type: docs
 weight: 10
@@ -26,7 +26,7 @@ Aspose.Words 完全用 Java 编写。使用 Aspose.Words 不需要 Microsoft Wor
 这**MailMerge**提供对报告功能的访问的对象可通过**Document.MailMerge**财产。
 
 
-## 班级es
+## 课程
 
 | 班级 | 描述 |
 | --- | --- |
@@ -653,7 +653,7 @@ Aspose.Words 完全用 Java 编写。使用 Aspose.Words 不需要 Microsoft Wor
 | [XpsSaveOptions](../com.aspose.words/xpssaveoptions) | 可用于在将文档保存到[SaveFormat.\#XPS](../com.aspose.words/saveformat\#XPS)格式。 |
 | [Zoom类型](../com.aspose.words/zoomtype) | 文档在 Microsoft Word 屏幕上显示的大小的可能值。 |
 
-## 界面s
+## 接口
 
 | 界面 | 描述 |
 | --- | --- |

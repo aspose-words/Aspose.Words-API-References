@@ -1,7 +1,7 @@
 ---
 title: CommentDisplayMode
-second_title: Aspose.Words for Java API 参考
-description:指定文档注释的呈现模式。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档注释的呈现模式。
 type: docs
 weight: 78
 url: /zh/java/com.aspose.words/commentdisplaymode/
@@ -22,7 +22,7 @@ public class CommentDisplayMode
 | [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | 在注释中呈现文档注释。 |
 | [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | 在边缘的气球中呈现文档注释。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

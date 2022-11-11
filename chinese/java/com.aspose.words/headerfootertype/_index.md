@@ -1,7 +1,7 @@
 ---
 title: HeaderFooter类型
-second_title: Aspose.Words for Java API 参考
-description:标识在 Word 文件中找到的页眉或页脚的类型。
+second_title: Aspose.Words for Java API Reference
+description: 标识在 Word 文件中找到的页眉或页脚的类型。
 type: docs
 weight: 318
 url: /zh/java/com.aspose.words/headerfootertype/
@@ -25,7 +25,7 @@ public class HeaderFooter类型
 | [HEADER_FIRST](#HEADER-FIRST) | 该部分第一页的页眉。 |
 | [HEADER_PRIMARY](#HEADER-PRIMARY) | 主页眉，也用于奇数页。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

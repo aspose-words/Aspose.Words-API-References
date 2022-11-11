@@ -1,7 +1,7 @@
 ---
 title: XmlReadMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何将 XML 数据和关系模式读入 .
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将 XML 数据和关系模式读入 .
 type: docs
 weight: 37
 url: /zh/java/com.aspose.words.net.system.data/xmlreadmode/
@@ -25,7 +25,7 @@ public enum XmlReadMode extends Enum<System.Data.XmlReadMode>
 | [INFER_SCHEMA](#INFER-SCHEMA) | 忽略任何内联模式，从数据中推断模式并加载数据。 |
 | [INFER_TYPED_SCHEMA](#INFER-TYPED-SCHEMA) | 忽略任何内联模式，从数据中推断出强类型模式，然后加载数据。 |
 | [READ_SCHEMA](#READ-SCHEMA) | 读取任何内联模式并加载数据。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

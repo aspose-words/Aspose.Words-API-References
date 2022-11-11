@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockCollection
-second_title: Aspose.Words for Java API 参考
-description:文档中的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 文档中的对象集合。
 type: docs
 weight: 43
 url: /zh/java/com.aspose.words/buildingblockcollection/
@@ -18,7 +18,7 @@ public class BuildingBlockCollection extends NodeCollection
 要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
 您不直接创建此类的实例。要访问构建块的集合，请使用[GlossaryDocument.getBuildingBlocks()](../../com.aspose.words/glossarydocument\#getBuildingBlocks--)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

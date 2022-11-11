@@ -1,7 +1,7 @@
 ---
 title: 字段Database
-second_title: Aspose.Words for Java API 参考
-description:实现 DATABASE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 DATABASE 字段。
 type: docs
 weight: 174
 url: /zh/java/com.aspose.words/fielddatabase/
@@ -18,7 +18,7 @@ public class 字段Database extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 将数据库查询的结果插入到 WordprocessingML 表中。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

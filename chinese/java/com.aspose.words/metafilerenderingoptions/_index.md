@@ -1,7 +1,7 @@
 ---
 title: MetafileRenderingOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定额外的元文件渲染选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定额外的元文件渲染选项。
 type: docs
 weight: 397
 url: /zh/java/com.aspose.words/metafilerenderingoptions/
@@ -16,7 +16,7 @@ public class MetafileRenderingOptions
 允许指定额外的元文件渲染选项。
 
 要了解更多信息，请访问**Handling Windows Metafiles**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

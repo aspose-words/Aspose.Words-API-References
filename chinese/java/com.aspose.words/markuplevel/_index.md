@@ -1,7 +1,7 @@
 ---
 title: MarkupLevel
-second_title: Aspose.Words for Java API 参考
-description:指定文档树中特定可能出现的级别。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档树中特定可能出现的级别。
 type: docs
 weight: 390
 url: /zh/java/com.aspose.words/markuplevel/
@@ -24,7 +24,7 @@ public class MarkupLevel
 | [ROW](#ROW) | 该元素出现在表中的行之间。 |
 | [UNKNOWN](#UNKNOWN) | 指定未知或无效值。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

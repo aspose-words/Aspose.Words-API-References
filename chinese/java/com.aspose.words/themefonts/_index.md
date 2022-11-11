@@ -1,7 +1,7 @@
 ---
 title: ThemeFonts
-second_title: Aspose.Words for Java API 参考
-description:表示字体方案中的字体集合，允许为不同的语言 / / 和 / 指定不同的字体。
+second_title: Aspose.Words for Java API Reference
+description: 表示字体方案中的字体集合，允许为不同的语言 / / 和 / 指定不同的字体。
 type: docs
 weight: 577
 url: /zh/java/com.aspose.words/themefonts/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/themefonts/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ThemeFonts implements Cloneable
@@ -19,7 +19,7 @@ public class ThemeFonts implements Cloneable
 表示字体方案中的字体集合，允许为不同的语言指定不同的字体[getLatin()](../../com.aspose.words/themefonts\#getLatin--) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts\#setLatin-java.lang.String-), [getEastAsian()](../../com.aspose.words/themefonts\#getEastAsian--) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts\#setEastAsian-java.lang.String-)和[getComplexScript()](../../com.aspose.words/themefonts\#getComplexScript--) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts\#setComplexScript-java.lang.String-).
 
 要了解更多信息，请访问**Working with Styles and Themes**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

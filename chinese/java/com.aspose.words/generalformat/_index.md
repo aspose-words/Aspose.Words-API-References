@@ -1,7 +1,7 @@
 ---
 title: GeneralFormat
-second_title: Aspose.Words for Java API 参考
-description:指定应用于数字文本或任何字段结果的通用格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定应用于数字文本或任何字段结果的通用格式。
 type: docs
 weight: 304
 url: /zh/java/com.aspose.words/generalformat/
@@ -75,7 +75,7 @@ public class GeneralFormat
 | [ZODIAC_2](#ZODIAC-2) | 数字格式。 |
 | [ZODIAC_3](#ZODIAC-3) | 数字格式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

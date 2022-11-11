@@ -1,7 +1,7 @@
 ---
 title: Image字段MergingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 338
 url: /zh/java/com.aspose.words/imagefieldmergingargs/
@@ -22,7 +22,7 @@ public class Image字段MergingArgs extends 字段MergingArgsBase
 共有三个属性可用[getImageFileName()](../../com.aspose.words/imagefieldmergingargs\#getImageFileName--) / [setImageFileName(java.lang.String)](../../com.aspose.words/imagefieldmergingargs\#setImageFileName-java.lang.String-), **P:Aspose.Words.MailMerging.Image字段MergingArgs.ImageStream**和[getImage()](../../com.aspose.words/imagefieldmergingargs\#getImage--) / [setImage(java.awt.image.BufferedImage)](../../com.aspose.words/imagefieldmergingargs\#setImage-java.awt.image.BufferedImage-)指定必须从哪里获取图像。仅设置这些属性之一。
 
 要将图像邮件合并字段插入 Word 中的文档，请选择插入/字段命令，然后选择 Merge字段 并键入 Image:My字段Name。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

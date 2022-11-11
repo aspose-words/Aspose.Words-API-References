@@ -1,7 +1,7 @@
 ---
 title: ArrowWidth
-second_title: Aspose.Words for Java API 参考
-description:行尾箭头的宽度。
+second_title: Aspose.Words for Java API Reference
+description: 行尾箭头的宽度。
 type: docs
 weight: 13
 url: /zh/java/com.aspose.words/arrowwidth/
@@ -23,7 +23,7 @@ public class ArrowWidth
 | [NARROW](#NARROW) |  |
 | [WIDE](#WIDE) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

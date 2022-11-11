@@ -1,7 +1,7 @@
 ---
 title: FolderFontSource
-second_title: Aspose.Words for Java API 参考
-description:表示包含 True类型 字体文件的文件夹。
+second_title: Aspose.Words for Java API Reference
+description: 表示包含 True类型 字体文件的文件夹。
 type: docs
 weight: 274
 url: /zh/java/com.aspose.words/folderfontsource/
@@ -16,13 +16,13 @@ public class FolderFontSource extends FontSourceBase
 表示包含 True类型 字体文件的文件夹。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [FolderFontSource(String folderPath, boolean scanSubfolders)](#FolderFontSource-java.lang.String-boolean-) | 克托尔。 |
 | [FolderFontSource(String folderPath, boolean scanSubfolders, int priority)](#FolderFontSource-java.lang.String-boolean-int-) | 克托尔。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: TableAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定内联表的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定内联表的对齐方式。
 type: docs
 weight: 549
 url: /zh/java/com.aspose.words/tablealignment/
@@ -22,7 +22,7 @@ public class TableAlignment
 | [LEFT](#LEFT) | 表格向左对齐。 |
 | [RIGHT](#RIGHT) | 表格向右对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

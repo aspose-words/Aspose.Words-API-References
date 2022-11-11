@@ -1,7 +1,7 @@
 ---
 title: RevisionTextEffect
-second_title: Aspose.Words for Java API 参考
-description:允许为文档文本的修订指定装饰效果。
+second_title: Aspose.Words for Java API Reference
+description: 允许为文档文本的修订指定装饰效果。
 type: docs
 weight: 489
 url: /zh/java/com.aspose.words/revisiontexteffect/
@@ -28,7 +28,7 @@ public class RevisionTextEffect
 | [STRIKE_THROUGH](#STRIKE-THROUGH) | 修改后的内容被描边并着色。 |
 | [UNDERLINE](#UNDERLINE) | 修改后的内容带有下划线和彩色。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

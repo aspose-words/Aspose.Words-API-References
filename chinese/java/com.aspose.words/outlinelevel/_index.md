@@ -1,7 +1,7 @@
 ---
 title: OutlineLevel
-second_title: Aspose.Words for Java API 参考
-description:指定文档中段落的大纲级别。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档中段落的大纲级别。
 type: docs
 weight: 430
 url: /zh/java/com.aspose.words/outlinelevel/
@@ -29,7 +29,7 @@ public class OutlineLevel
 | [LEVEL_8](#LEVEL-8) | 该段落处于大纲级别 8。 |
 | [LEVEL_9](#LEVEL-9) | 该段落处于大纲级别 9。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

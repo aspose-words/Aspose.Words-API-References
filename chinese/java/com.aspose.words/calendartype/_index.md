@@ -1,7 +1,7 @@
 ---
 title: Calendar类型
-second_title: Aspose.Words for Java API 参考
-description:指定日历的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定日历的类型。
 type: docs
 weight: 47
 url: /zh/java/com.aspose.words/calendartype/
@@ -24,7 +24,7 @@ public class Calendar类型
 | [SAKA_ERA](#SAKA-ERA) | 萨卡时代的日历。 |
 | [UM_AL_QURA](#UM-AL-QURA) | Um-al-Qura 日历。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

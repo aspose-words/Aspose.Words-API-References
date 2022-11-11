@@ -1,7 +1,7 @@
 ---
 title: EndnotePosition
-second_title: Aspose.Words for Java API 参考
-description:定义尾注位置。
+second_title: Aspose.Words for Java API Reference
+description: 定义尾注位置。
 type: docs
 weight: 147
 url: /zh/java/com.aspose.words/endnoteposition/
@@ -21,7 +21,7 @@ public class EndnotePosition
 | [END_OF_DOCUMENT](#END-OF-DOCUMENT) | 尾注在文档末尾输出。 |
 | [END_OF_SECTION](#END-OF-SECTION) | 尾注在该部分的末尾输出。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

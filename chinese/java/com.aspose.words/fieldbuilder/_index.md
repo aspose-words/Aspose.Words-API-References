@@ -1,7 +1,7 @@
 ---
 title: 字段Builder
-second_title: Aspose.Words for Java API 参考
-description:从字段代码标记参数和开关构建一个字段。
+second_title: Aspose.Words for Java API Reference
+description: 从字段代码标记参数和开关构建一个字段。
 type: docs
 weight: 166
 url: /zh/java/com.aspose.words/fieldbuilder/
@@ -16,12 +16,12 @@ public class 字段Builder
 从域代码标记（参数和开关）构建一个域。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [字段Builder(int field类型)](#字段Builder-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

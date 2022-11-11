@@ -1,7 +1,7 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Words for Java API 参考
-description:指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
 type: docs
 weight: 462
 url: /zh/java/com.aspose.words/pdftextcompression/
@@ -21,7 +21,7 @@ public class PdfTextCompression
 | [FLATE](#FLATE) | Flate (ZIP) 压缩。 |
 | [NONE](#NONE) | 没有压缩。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

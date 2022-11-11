@@ -1,7 +1,7 @@
 ---
 title: FindReplaceDirection
-second_title: Aspose.Words for Java API 参考
-description:指定替换操作的方向。
+second_title: Aspose.Words for Java API Reference
+description: 指定替换操作的方向。
 type: docs
 weight: 269
 url: /zh/java/com.aspose.words/findreplacedirection/
@@ -21,7 +21,7 @@ public class FindReplaceDirection
 | [BACKWARD](#BACKWARD) | 匹配的项目从最后一个到第一个被替换。 |
 | [FORWARD](#FORWARD) | 匹配的项目从第一个到最后一个被替换。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

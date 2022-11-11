@@ -1,7 +1,7 @@
 ---
 title: Protection类型
-second_title: Aspose.Words for Java API 参考
-description:文档的保护类型。
+second_title: Aspose.Words for Java API Reference
+description: 文档的保护类型。
 type: docs
 weight: 470
 url: /zh/java/com.aspose.words/protectiontype/
@@ -24,7 +24,7 @@ public class Protection类型
 | [NO_PROTECTION](#NO-PROTECTION) | 文档不受保护。 |
 | [READ_ONLY](#READ-ONLY) | 不允许对文档进行任何更改。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

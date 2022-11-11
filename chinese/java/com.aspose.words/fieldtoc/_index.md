@@ -1,7 +1,7 @@
 ---
 title: 字段Toc
-second_title: Aspose.Words for Java API 参考
-description:实现 TOC 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 TOC 字段。
 type: docs
 weight: 255
 url: /zh/java/com.aspose.words/fieldtoc/
@@ -18,7 +18,7 @@ public class 字段Toc extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 使用 TC 字段指定的条目、它们的标题级别和指定的样式构建目录（也可以是图表），并将该表插入到文档中的此位置。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

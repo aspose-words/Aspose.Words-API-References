@@ -1,7 +1,7 @@
 ---
 title: 字段XE
-second_title: Aspose.Words for Java API 参考
-description:实现 XE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 XE 字段。
 type: docs
 weight: 262
 url: /zh/java/com.aspose.words/fieldxe/
@@ -18,7 +18,7 @@ public class 字段XE extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 定义索引条目的文本和页码，由 INDEX 字段使用。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

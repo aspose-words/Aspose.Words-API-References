@@ -1,7 +1,7 @@
 ---
 title: Known类型Set
-second_title: Aspose.Words for Java API 参考
-description:表示一个无序集，即
+second_title: Aspose.Words for Java API Reference
+description: 表示一个无序集，即
 type: docs
 weight: 356
 url: /zh/java/com.aspose.words/knowntypeset/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/knowntypeset/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class Known类型Set implements Iterable
@@ -19,7 +19,7 @@ public class Known类型Set implements Iterable
 表示包含 java.lang.班级 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在报告模板中用于调用相应类型的静态成员、执行类型转换等。
 
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: IStructuredDocumentTag
-second_title: Aspose.Words for Java API 参考
-description:为 和 定义公共数据的接口。
+second_title: Aspose.Words for Java API Reference
+description: 为 和 定义公共数据的接口。
 type: docs
 weight: 658
 url: /zh/java/com.aspose.words/istructureddocumenttag/
@@ -11,7 +11,7 @@ public interface IStructuredDocumentTag
 ```
 
 定义通用数据的接口[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)和[StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

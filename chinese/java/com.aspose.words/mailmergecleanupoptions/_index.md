@@ -1,7 +1,7 @@
 ---
 title: MailMergeCleanupOptions
-second_title: Aspose.Words for Java API 参考
-description:指定确定在邮件合并期间删除哪些项目的选项。
+second_title: Aspose.Words for Java API Reference
+description: 指定确定在邮件合并期间删除哪些项目的选项。
 type: docs
 weight: 381
 url: /zh/java/com.aspose.words/mailmergecleanupoptions/
@@ -26,7 +26,7 @@ public class MailMergeCleanupOptions
 | [REMOVE_UNUSED_FIELDS](#REMOVE-UNUSED-FIELDS) | 指定是否应从文档中删除未使用的合并字段。 |
 | [REMOVE_UNUSED_REGIONS](#REMOVE-UNUSED-REGIONS) | 指定是否应从文档中删除未使用的邮件合并区域。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

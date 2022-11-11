@@ -1,7 +1,7 @@
 ---
 title: ForeignKeyConstraint
-second_title: Aspose.Words for Java API 参考
-description:表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
+second_title: Aspose.Words for Java API Reference
+description: 表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
 type: docs
 weight: 29
 url: /zh/java/com.aspose.words.net.system.data/foreignkeyconstraint/
@@ -14,14 +14,14 @@ public class ForeignKeyConstraint extends System.Data.Constraint
 ```
 
 表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ForeignKeyConstraint(String constraintName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称的类，以及父子数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
 | [ForeignKeyConstraint(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定父母和孩子的班级[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
 | [ForeignKeyConstraint(String constraintName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称、父级和子级的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

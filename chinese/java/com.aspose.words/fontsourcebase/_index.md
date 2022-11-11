@@ -1,7 +1,7 @@
 ---
 title: FontSourceBase
-second_title: Aspose.Words for Java API 参考
-description:这是允许用户指定各种字体源的类的抽象基类。
+second_title: Aspose.Words for Java API Reference
+description: 这是允许用户指定各种字体源的类的抽象基类。
 type: docs
 weight: 287
 url: /zh/java/com.aspose.words/fontsourcebase/
@@ -16,7 +16,7 @@ public abstract class FontSourceBase
 这是允许用户指定各种字体源的类的抽象基类。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

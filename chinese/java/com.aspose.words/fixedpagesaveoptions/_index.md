@@ -1,7 +1,7 @@
 ---
 title: FixedPageSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:包含在将文档保存为固定页面格式 PDF XPS 图像等时可以指定的常用选项。
+second_title: Aspose.Words for Java API Reference
+description: 包含在将文档保存为固定页面格式 PDF XPS 图像等时可以指定的常用选项。
 type: docs
 weight: 272
 url: /zh/java/com.aspose.words/fixedpagesaveoptions/
@@ -16,7 +16,7 @@ public abstract class FixedPageSaveOptions extends SaveOptions
 包含在将文档保存为固定页面格式（PDF、XPS、图像等）时可以指定的常用选项。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: DocumentVisitor
-second_title: Aspose.Words for Java API 参考
-description:自定义文档访问者的基类。
+second_title: Aspose.Words for Java API Reference
+description: 自定义文档访问者的基类。
 type: docs
 weight: 132
 url: /zh/java/com.aspose.words/documentvisitor/
@@ -30,7 +30,7 @@ public abstract class DocumentVisitor
 **DocumentVisitor**为所有 VisitXXX 方法提供默认实现，以便更轻松地创建新的文档访问者，因为只有特定访问者所需的方法需要被覆盖。没有必要覆盖所有的访问者方法。
 
 有关更多信息，请参阅访问者设计模式。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

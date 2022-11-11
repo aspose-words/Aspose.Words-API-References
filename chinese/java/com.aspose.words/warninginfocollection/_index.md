@@ -1,7 +1,7 @@
 ---
 title: WarningInfoCollection
-second_title: Aspose.Words for Java API 参考
-description:表示对象的类型化集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的类型化集合。
 type: docs
 weight: 605
 url: /zh/java/com.aspose.words/warninginfocollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/warninginfocollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.IWarningCallback](../../com.aspose.words/iwarningcallback), java.lang.Iterable
 ```
 public class WarningInfoCollection implements IWarningCallback, Iterable
@@ -21,7 +21,7 @@ public class WarningInfoCollection implements IWarningCallback, Iterable
 要了解更多信息，请访问**Programming with Documents**文档文章。
 
 您可以将此集合对象用作最简单的形式[IWarningCallback](../../com.aspose.words/iwarningcallback)实现来收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例并将其分配给[LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback--) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback-)或者[DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback--) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

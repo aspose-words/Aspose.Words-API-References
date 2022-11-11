@@ -1,7 +1,7 @@
 ---
 title: 字段DatabaseDataTable
-second_title: Aspose.Words for Java API 参考
-description:为字段结果提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为字段结果提供数据。
 type: docs
 weight: 176
 url: /zh/java/com.aspose.words/fielddatabasedatatable/
@@ -16,12 +16,12 @@ public class 字段DatabaseDataTable
 提供数据为[字段Database](../../com.aspose.words/fielddatabase)场结果。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [字段DatabaseDataTable(String[] columnNames)](#字段DatabaseDataTable-java.lang.String...-) | 初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MarkdownSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:类以在将文档保存为格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 类以在将文档保存为格式时指定其他选项。
 type: docs
 weight: 388
 url: /zh/java/com.aspose.words/markdownsaveoptions/
@@ -16,12 +16,12 @@ public class MarkdownSaveOptions extends TxtSaveOptionsBase
 将文档保存到[SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [MarkdownSaveOptions()](#MarkdownSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.MARKDOWN](../../com.aspose.words/saveformat\#MARKDOWN)格式。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

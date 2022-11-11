@@ -1,7 +1,7 @@
 ---
 title: SubDocument
-second_title: Aspose.Words for Java API 参考
-description:表示 SubDocument - 它是对外部存储文档的引用。
+second_title: Aspose.Words for Java API Reference
+description: 表示 SubDocument - 它是对外部存储文档的引用。
 type: docs
 weight: 540
 url: /zh/java/com.aspose.words/subdocument/
@@ -20,7 +20,7 @@ public class SubDocument extends Node
 在这个版本的 Aspose.Words 中，[SubDocument](../../com.aspose.words/subdocument)节点不提供公共方法和属性来创建或修改子文档。在此版本中，您无法实例化 SubDocument 节点或修改现有节点，除非删除它们。
 
 [SubDocument](../../com.aspose.words/subdocument)只能是[Paragraph](../../com.aspose.words/paragraph).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

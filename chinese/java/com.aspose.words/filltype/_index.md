@@ -1,7 +1,7 @@
 ---
 title: Fill类型
-second_title: Aspose.Words for Java API 参考
-description:指定可填充对象的填充类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定可填充对象的填充类型。
 type: docs
 weight: 268
 url: /zh/java/com.aspose.words/filltype/
@@ -25,7 +25,7 @@ public class Fill类型
 | [SOLID](#SOLID) | 实心填充。 |
 | [TEXTURED](#TEXTURED) | 纹理填充。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

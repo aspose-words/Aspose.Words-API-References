@@ -1,7 +1,7 @@
 ---
 title: LayoutFlow
-second_title: Aspose.Words for Java API 参考
-description:确定文本框中文本布局的流向。
+second_title: Aspose.Words for Java API Reference
+description: 确定文本框中文本布局的流向。
 type: docs
 weight: 361
 url: /zh/java/com.aspose.words/layoutflow/
@@ -25,7 +25,7 @@ public class LayoutFlow
 | [TOP_TO_BOTTOM_IDEOGRAPHIC](#TOP-TO-BOTTOM-IDEOGRAPHIC) | 表意文字垂直显示。 |
 | [VERTICAL](#VERTICAL) | 文本垂直显示。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

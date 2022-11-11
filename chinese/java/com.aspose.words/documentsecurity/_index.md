@@ -1,7 +1,7 @@
 ---
 title: DocumentSecurity
-second_title: Aspose.Words for Java API 参考
-description:用作 / 属性的值。
+second_title: Aspose.Words for Java API Reference
+description: 用作 / 属性的值。
 type: docs
 weight: 130
 url: /zh/java/com.aspose.words/documentsecurity/
@@ -24,7 +24,7 @@ public class DocumentSecurity
 | [READ_ONLY_EXCEPT_ANNOTATIONS](#READ-ONLY-EXCEPT-ANNOTATIONS) | 文档始终以只读方式打开，注释除外。 |
 | [READ_ONLY_RECOMMENDED](#READ-ONLY-RECOMMENDED) | 如果可能，要以只读方式打开的文档，但可以覆盖该设置。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

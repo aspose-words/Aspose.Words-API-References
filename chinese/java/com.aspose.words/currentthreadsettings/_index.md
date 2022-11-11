@@ -1,7 +1,7 @@
 ---
 title: CurrentThreadSettings
-second_title: Aspose.Words for Java API 参考
-description:此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。
+second_title: Aspose.Words for Java API Reference
+description: 此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。
 type: docs
 weight: 100
 url: /zh/java/com.aspose.words/currentthreadsettings/
@@ -14,7 +14,7 @@ public class CurrentThreadSettings
 ```
 
 此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

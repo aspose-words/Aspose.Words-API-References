@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将文档页面或形状渲染为图像时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将文档页面或形状渲染为图像时指定其他选项。
 type: docs
 weight: 340
 url: /zh/java/com.aspose.words/imagesaveoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/imagesaveoptions/
 **遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ImageSaveOptions extends FixedPageSaveOptions implements Cloneable
@@ -19,12 +19,12 @@ public class ImageSaveOptions extends FixedPageSaveOptions implements Cloneable
 允许在将文档页面或形状渲染为图像时指定其他选项。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ImageSaveOptions(int saveFormat)](#ImageSaveOptions-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

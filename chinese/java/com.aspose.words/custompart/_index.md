@@ -1,7 +1,7 @@
 ---
 title: CustomPart
-second_title: Aspose.Words for Java API 参考
-description:表示 ISO/IEC 29500 标准未定义的自定义任意内容部分。
+second_title: Aspose.Words for Java API Reference
+description: 表示 ISO/IEC 29500 标准未定义的自定义任意内容部分。
 type: docs
 weight: 102
 url: /zh/java/com.aspose.words/custompart/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/custompart/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class CustomPart implements Cloneable
@@ -27,7 +27,7 @@ Microsoft Word 在打开/保存周期中保留自定义部分。可以在此处�
  Aspose.Words 还往返自定义部件，此外，允许通过编程方式访问这些部件[CustomPart](../../com.aspose.words/custompart)和[CustomPartCollection](../../com.aspose.words/custompartcollection)对象。
 
 不要将自定义部件与自定义 XML 数据混淆。利用[CustomXmlPart](../../com.aspose.words/customxmlpart)如果您需要访问自定义 XML 数据。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

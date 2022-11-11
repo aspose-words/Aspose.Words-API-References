@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabel
-second_title: Aspose.Words for Java API 参考
-description:表示图表点或趋势线上的数据标签。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表点或趋势线上的数据标签。
 type: docs
 weight: 58
 url: /zh/java/com.aspose.words/chartdatalabel/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartdatalabel/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ChartDataLabel implements Cloneable
@@ -21,7 +21,7 @@ public class ChartDataLabel implements Cloneable
 要了解更多信息，请访问**Working with Charts**文档文章。
 
 在一个系列中，[ChartDataLabel](../../com.aspose.words/chartdatalabel)对象是[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection).这[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection)包含一个[ChartDataLabel](../../com.aspose.words/chartdatalabel)每个点的对象。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

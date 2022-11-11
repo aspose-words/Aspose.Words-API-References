@@ -1,7 +1,7 @@
 ---
 title: PdfZoomBehavior
-second_title: Aspose.Words for Java API 参考
-description:指定在 PDF 查看器中打开 PDF 文档时应用到的缩放类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定在 PDF 查看器中打开 PDF 文档时应用到的缩放类型。
 type: docs
 weight: 463
 url: /zh/java/com.aspose.words/pdfzoombehavior/
@@ -25,7 +25,7 @@ public class PdfZoomBehavior
 | [NONE](#NONE) | 文档的显示方式留给 PDF 查看器。 |
 | [ZOOM_FACTOR](#ZOOM-FACTOR) | 使用指定的缩放系数显示页面。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

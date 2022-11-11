@@ -1,7 +1,7 @@
 ---
 title: LoadFormat
-second_title: Aspose.Words for Java API 参考
-description:指示要加载的文档的格式。
+second_title: Aspose.Words for Java API Reference
+description: 指示要加载的文档的格式。
 type: docs
 weight: 377
 url: /zh/java/com.aspose.words/loadformat/
@@ -46,7 +46,7 @@ public class LoadFormat
 | [WORD_ML](#WORD-ML) | Microsoft Word 2003 WordprocessingML 格式。 |
 | [XML](#XML) | XML 文档。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

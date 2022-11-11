@@ -1,7 +1,7 @@
 ---
 title: LayoutCollector
-second_title: Aspose.Words for Java API 参考
-description:此类允许计算文档节点的页码。
+second_title: Aspose.Words for Java API Reference
+description: 此类允许计算文档节点的页码。
 type: docs
 weight: 358
 url: /zh/java/com.aspose.words/layoutcollector/
@@ -22,12 +22,12 @@ public class LayoutCollector
 您将能够通过使用[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-), [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-)和[getNumPagesSpanned(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getNumPagesSpanned-com.aspose.words.Node-)方法。如果需要，这些方法会自动构建文档的页面布局模型并更新字段。
 
 当您不再需要收集布局信息时，最好将[getDocument()](../../com.aspose.words/layoutcollector\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/layoutcollector\#setDocument-com.aspose.words.Document-)属性为 null 以避免不必要地收集更多布局映射。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的一个实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

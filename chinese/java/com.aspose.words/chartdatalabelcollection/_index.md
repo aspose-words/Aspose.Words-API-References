@@ -1,7 +1,7 @@
 ---
 title: ChartDataLabelCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 的集合。
 type: docs
 weight: 59
 url: /zh/java/com.aspose.words/chartdatalabelcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartdatalabelcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class ChartDataLabelCollection implements Iterable
@@ -19,7 +19,7 @@ public class ChartDataLabelCollection implements Iterable
 代表一个集合[ChartDataLabel](../../com.aspose.words/chartdatalabel).
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

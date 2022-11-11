@@ -1,7 +1,7 @@
 ---
 title: SignatureLineOptions
-second_title: Aspose.Words for Java API 参考
-description:允许为插入的签名行指定选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许为插入的签名行指定选项。
 type: docs
 weight: 525
 url: /zh/java/com.aspose.words/signaturelineoptions/
@@ -16,7 +16,7 @@ public class SignatureLineOptions
 允许为插入的签名行指定选项。用于[DocumentBuilder](../../com.aspose.words/documentbuilder).
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

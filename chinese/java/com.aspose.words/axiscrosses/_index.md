@@ -1,7 +1,7 @@
 ---
 title: AxisCrosses
-second_title: Aspose.Words for Java API 参考
-description:指定轴的可能交叉点。
+second_title: Aspose.Words for Java API Reference
+description: 指定轴的可能交叉点。
 type: docs
 weight: 19
 url: /zh/java/com.aspose.words/axiscrosses/
@@ -23,7 +23,7 @@ public class AxisCrosses
 | [MAXIMUM](#MAXIMUM) | 垂直轴与该轴的最大值相交。 |
 | [MINIMUM](#MINIMUM) | 垂直轴与轴的最小值相交。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

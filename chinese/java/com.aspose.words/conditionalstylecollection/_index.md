@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyleCollection
-second_title: Aspose.Words for Java API 参考
-description:表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的集合。
 type: docs
 weight: 90
 url: /zh/java/com.aspose.words/conditionalstylecollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/conditionalstylecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class ConditionalStyleCollection implements Iterable
@@ -21,7 +21,7 @@ public class ConditionalStyleCollection implements Iterable
 要了解更多信息，请访问**Working with Tables**文档文章。
 
 无法在此集合中添加或删除项目。它包含一组永久的项目：一个项目的每个值[ConditionalStyle类型](../../com.aspose.words/conditionalstyletype)枚举类型。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

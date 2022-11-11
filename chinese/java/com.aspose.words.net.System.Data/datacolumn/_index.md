@@ -1,7 +1,7 @@
 ---
 title: DataColumn
-second_title: Aspose.Words for Java API 参考
-description:表示 a 中列的架构。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 中列的架构。
 type: docs
 weight: 14
 url: /zh/java/com.aspose.words.net.system.data/datacolumn/
@@ -14,7 +14,7 @@ public class DataColumn
 ```
 
 表示 a 中列的架构[DataTable](../../com.aspose.words.net.system.data/datatable).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -23,7 +23,7 @@ public class DataColumn
 | [DataColumn(String name, System.Data.DataTable table)](#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-) | 初始化 @ 的新实例\{链接数据列\使用指定的列名和它所属的表的类。 |
 | [DataColumn(String columnName, 班级 data类型)](#DataColumn-java.lang.String-java.lang.班级-) | 初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名和数据类型。 |
 | [DataColumn(String name, 班级 type, System.Data.DataTable table)](#DataColumn-java.lang.String-java.lang.班级-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名、数据类型和它所属的数据表。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

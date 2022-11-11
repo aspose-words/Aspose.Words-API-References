@@ -1,7 +1,7 @@
 ---
 title: LineNumberRestartMode
-second_title: Aspose.Words for Java API 参考
-description:确定何时重新开始自动行编号。
+second_title: Aspose.Words for Java API Reference
+description: 确定何时重新开始自动行编号。
 type: docs
 weight: 365
 url: /zh/java/com.aspose.words/linenumberrestartmode/
@@ -22,7 +22,7 @@ public class LineNumberRestartMode
 | [RESTART_PAGE](#RESTART-PAGE) | 行号在每一页的开头重新开始。 |
 | [RESTART_SECTION](#RESTART-SECTION) | 行号在节开始处重新开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

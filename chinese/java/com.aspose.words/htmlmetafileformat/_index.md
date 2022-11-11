@@ -1,7 +1,7 @@
 ---
 title: HtmlMetafileFormat
-second_title: Aspose.Words for Java API 参考
-description:指示元文件保存到 HTML 文档的格式。
+second_title: Aspose.Words for Java API Reference
+description: 指示元文件保存到 HTML 文档的格式。
 type: docs
 weight: 329
 url: /zh/java/com.aspose.words/htmlmetafileformat/
@@ -22,7 +22,7 @@ public class HtmlMetafileFormat
 | [PNG](#PNG) | 元文件被渲染为光栅 PNG 图像。 |
 | [SVG](#SVG) | 元文件被转换为矢量 SVG 图像。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

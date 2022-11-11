@@ -1,7 +1,7 @@
 ---
 title: TextPath
-second_title: Aspose.Words for Java API 参考
-description:定义艺术字对象的文本路径的文本和格式。
+second_title: Aspose.Words for Java API Reference
+description: 定义艺术字对象的文本路径的文本和格式。
 type: docs
 weight: 567
 url: /zh/java/com.aspose.words/textpath/
@@ -18,7 +18,7 @@ public class TextPath
 要了解更多信息，请访问**Working with Shapes**文档文章。
 
 使用[Shape.getTextPath()](../../com.aspose.words/shape\#getTextPath--)属性以访问形状的艺术字属性。您不创建的实例[TextPath](../../com.aspose.words/textpath)直接上课。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: DashStyle
-second_title: Aspose.Words for Java API 参考
-description:虚线样式。
+second_title: Aspose.Words for Java API Reference
+description: 虚线样式。
 type: docs
 weight: 109
 url: /zh/java/com.aspose.words/dashstyle/
@@ -31,7 +31,7 @@ public class DashStyle
 | [SHORT_DOT](#SHORT-DOT) | 系统破折号样式。 |
 | [SOLID](#SOLID) | 实心（连续）笔。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

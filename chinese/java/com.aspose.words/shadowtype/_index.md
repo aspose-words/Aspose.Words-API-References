@@ -1,7 +1,7 @@
 ---
 title: Shadow类型
-second_title: Aspose.Words for Java API 参考
-description:指定形状阴影的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定形状阴影的类型。
 type: docs
 weight: 515
 url: /zh/java/com.aspose.words/shadowtype/
@@ -63,7 +63,7 @@ public class Shadow类型
 | [SHADOW_9](#SHADOW-9) | 第九影型。 |
 | [SHADOW_MIXED](#SHADOW-MIXED) | 没有预定义的阴影预设。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

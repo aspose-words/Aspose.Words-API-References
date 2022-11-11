@@ -1,7 +1,7 @@
 ---
 title: SdtDateStorageFormat
-second_title: Aspose.Words for Java API 参考
-description:指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
+second_title: Aspose.Words for Java API Reference
+description: 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
 type: docs
 weight: 505
 url: /zh/java/com.aspose.words/sdtdatestorageformat/
@@ -23,7 +23,7 @@ public class SdtDateStorageFormat
 | [DEFAULT](#DEFAULT) | 默认为[DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME) |
 | [TEXT](#TEXT) | 日期 SDT 的日期值存储为文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MailMergeRegionInfo
-second_title: Aspose.Words for Java API 参考
-description:包含有关邮件合并区域的信息。
+second_title: Aspose.Words for Java API Reference
+description: 包含有关邮件合并区域的信息。
 type: docs
 weight: 385
 url: /zh/java/com.aspose.words/mailmergeregioninfo/
@@ -16,7 +16,7 @@ public class MailMergeRegionInfo
 包含有关邮件合并区域的信息。
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: 字段GoToButton
-second_title: Aspose.Words for Java API 参考
-description:实现 GOTOBUTTON 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 GOTOBUTTON 字段。
 type: docs
 weight: 197
 url: /zh/java/com.aspose.words/fieldgotobutton/
@@ -18,7 +18,7 @@ public class 字段GoToButton extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 插入一个跳转命令，这样当它被激活时，文档的插入点就会移动到指定的位置。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

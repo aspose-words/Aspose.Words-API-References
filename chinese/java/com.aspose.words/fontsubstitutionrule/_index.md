@@ -1,7 +1,7 @@
 ---
 title: FontSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:这是字体替换规则的抽象基类。
+second_title: Aspose.Words for Java API Reference
+description: 这是字体替换规则的抽象基类。
 type: docs
 weight: 289
 url: /zh/java/com.aspose.words/fontsubstitutionrule/
@@ -16,12 +16,12 @@ public abstract class FontSubstitutionRule
 这是字体替换规则的抽象基类。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [FontSubstitutionRule()](#FontSubstitutionRule--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

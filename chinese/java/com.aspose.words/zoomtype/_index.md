@@ -1,7 +1,7 @@
 ---
 title: Zoom类型
-second_title: Aspose.Words for Java API 参考
-description:文档在 Microsoft Word 屏幕上显示的大小的可能值。
+second_title: Aspose.Words for Java API Reference
+description: 文档在 Microsoft Word 屏幕上显示的大小的可能值。
 type: docs
 weight: 631
 url: /zh/java/com.aspose.words/zoomtype/
@@ -24,7 +24,7 @@ public class Zoom类型
 | [PAGE_WIDTH](#PAGE-WIDTH) | 缩放百分比会自动重新计算以适应页面宽度。 |
 | [TEXT_FIT](#TEXT-FIT) | 缩放百分比会自动重新计算以适合文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

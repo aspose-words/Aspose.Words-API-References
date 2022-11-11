@@ -1,7 +1,7 @@
 ---
 title: VbaModule类型
-second_title: Aspose.Words for Java API 参考
-description:指定 VBA 项目中模型的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定 VBA 项目中模型的类型。
 type: docs
 weight: 595
 url: /zh/java/com.aspose.words/vbamoduletype/
@@ -23,7 +23,7 @@ public class VbaModule类型
 | [DOCUMENT_MODULE](#DOCUMENT-MODULE) | 一种 VBA 项目项，它为与文档关联的嵌入式宏和编程访问操作指定模块。 |
 | [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | 子程序和函数的集合。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

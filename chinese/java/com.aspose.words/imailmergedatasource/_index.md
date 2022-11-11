@@ -1,7 +1,7 @@
 ---
 title: IMailMergeDataSource
-second_title: Aspose.Words for Java API 参考
-description:实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。
+second_title: Aspose.Words for Java API Reference
+description: 实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。
 type: docs
 weight: 650
 url: /zh/java/com.aspose.words/imailmergedatasource/
@@ -13,7 +13,7 @@ public interface IMailMergeDataSource
 实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。还支持主从数据。
 
 创建数据源时，应将其初始化为指向 BOF（在第一条记录之前）。 Aspose.Words 邮件合并引擎将调用[moveNext()](../../com.aspose.words/imailmergedatasource\#moveNext--)前进到下一条记录，然后调用**M:Aspose.Words.MailMerging.IMailMergeDataSource.GetValue(System.String,System.Object@)**对于它在文档或当前邮件合并区域中遇到的每个合并字段。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

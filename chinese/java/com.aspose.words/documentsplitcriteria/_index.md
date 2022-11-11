@@ -1,7 +1,7 @@
 ---
 title: DocumentSplitCriteria
-second_title: Aspose.Words for Java API 参考
-description:指定在保存到或格式化时如何将文档拆分为多个部分。
+second_title: Aspose.Words for Java API Reference
+description: 指定在保存到或格式化时如何将文档拆分为多个部分。
 type: docs
 weight: 131
 url: /zh/java/com.aspose.words/documentsplitcriteria/
@@ -28,7 +28,7 @@ public class DocumentSplitCriteria
 | [PAGE_BREAK](#PAGE-BREAK) | 文档在显式分页符处分成几部分。 |
 | [SECTION_BREAK](#SECTION-BREAK) | 文档在任何类型的分节符处拆分为多个部分。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

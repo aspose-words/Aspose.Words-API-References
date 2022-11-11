@@ -1,7 +1,7 @@
 ---
 title: ComparisonEvaluationResult
-second_title: Aspose.Words for Java API 参考
-description:比较评价结果。
+second_title: Aspose.Words for Java API Reference
+description: 比较评价结果。
 type: docs
 weight: 82
 url: /zh/java/com.aspose.words/comparisonevaluationresult/
@@ -16,13 +16,13 @@ public class ComparisonEvaluationResult
 比较评价结果。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ComparisonEvaluationResult(boolean result)](#ComparisonEvaluationResult-boolean-) | 创建比较评估结果。 |
 | [ComparisonEvaluationResult(String errorMessage)](#ComparisonEvaluationResult-java.lang.String-) | 使用相应的错误消息创建失败的比较评估结果。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

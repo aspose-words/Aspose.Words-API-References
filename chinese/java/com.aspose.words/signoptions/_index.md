@@ -1,7 +1,7 @@
 ---
 title: SignOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定文档签名的选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定文档签名的选项。
 type: docs
 weight: 523
 url: /zh/java/com.aspose.words/signoptions/
@@ -16,7 +16,7 @@ public class SignOptions
 允许指定文档签名的选项。
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

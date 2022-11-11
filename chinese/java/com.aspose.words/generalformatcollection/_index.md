@@ -1,7 +1,7 @@
 ---
 title: GeneralFormatCollection
-second_title: Aspose.Words for Java API 参考
-description:表示一般格式的类型化集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示一般格式的类型化集合。
 type: docs
 weight: 305
 url: /zh/java/com.aspose.words/generalformatcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/generalformatcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class GeneralFormatCollection implements Iterable
@@ -19,7 +19,7 @@ public class GeneralFormatCollection implements Iterable
 表示一般格式的类型化集合。
 
 要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

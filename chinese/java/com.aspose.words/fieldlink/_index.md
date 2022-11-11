@@ -1,7 +1,7 @@
 ---
 title: 字段Link
-second_title: Aspose.Words for Java API 参考
-description:实现 LINK 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 LINK 字段。
 type: docs
 weight: 211
 url: /zh/java/com.aspose.words/fieldlink/
@@ -18,7 +18,7 @@ public class 字段Link extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 对于从另一个应用程序复制的信息，此字段将该信息链接到其原始源文件。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

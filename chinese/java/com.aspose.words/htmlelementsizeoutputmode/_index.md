@@ -1,7 +1,7 @@
 ---
 title: HtmlElementSizeOutputMode
-second_title: Aspose.Words for Java API 参考
-description:指定 Aspose.Words 如何将元素宽度和高度导出到 HTML MHTML 和 EPUB。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Aspose.Words 如何将元素宽度和高度导出到 HTML MHTML 和 EPUB。
 type: docs
 weight: 324
 url: /zh/java/com.aspose.words/htmlelementsizeoutputmode/
@@ -22,7 +22,7 @@ public class HtmlElementSizeOutputMode
 | [NONE](#NONE) | 不导出元素大小。 |
 | [RELATIVE_ONLY](#RELATIVE-ONLY) | 只有在文档中以相对单位指定元素大小时，才会导出元素大小。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: PageVerticalAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定每页上文本的垂直对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定每页上文本的垂直对齐方式。
 type: docs
 weight: 441
 url: /zh/java/com.aspose.words/pageverticalalignment/
@@ -23,7 +23,7 @@ public class PageVerticalAlignment
 | [JUSTIFY](#JUSTIFY) | 文本被展开以填满页面。 |
 | [TOP](#TOP) | 文本在页面顶部对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

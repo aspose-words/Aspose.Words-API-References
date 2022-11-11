@@ -1,7 +1,7 @@
 ---
 title: CellVerticalAlignment
-second_title: Aspose.Words for Java API 参考
-description:指定表格单元格内文本的垂直对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定表格单元格内文本的垂直对齐方式。
 type: docs
 weight: 52
 url: /zh/java/com.aspose.words/cellverticalalignment/
@@ -22,7 +22,7 @@ public class CellVerticalAlignment
 | [CENTER](#CENTER) | 文本在单元格的中间对齐。 |
 | [TOP](#TOP) | 文本在单元格顶部对齐。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

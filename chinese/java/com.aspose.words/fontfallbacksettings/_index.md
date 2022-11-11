@@ -1,7 +1,7 @@
 ---
 title: FontFallbackSettings
-second_title: Aspose.Words for Java API 参考
-description:指定字体回退机制设置。
+second_title: Aspose.Words for Java API Reference
+description: 指定字体回退机制设置。
 type: docs
 weight: 277
 url: /zh/java/com.aspose.words/fontfallbacksettings/
@@ -18,7 +18,7 @@ public class FontFallbackSettings
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 默认情况下，后备设置使用模仿 Microsoft Word 后备的预定义设置进行初始化。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

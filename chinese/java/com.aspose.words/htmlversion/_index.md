@@ -1,7 +1,7 @@
 ---
 title: HtmlVersion
-second_title: Aspose.Words for Java API 参考
-description:指示将文档保存为和格式时使用的 HTML 版本。
+second_title: Aspose.Words for Java API Reference
+description: 指示将文档保存为和格式时使用的 HTML 版本。
 type: docs
 weight: 332
 url: /zh/java/com.aspose.words/htmlversion/
@@ -21,7 +21,7 @@ public class HtmlVersion
 | [HTML_5](#HTML-5) | 按照 HTML 5 标准保存文档。 |
 | [XHTML](#XHTML) | 按照 XHTML 1.0 过渡标准保存文档。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

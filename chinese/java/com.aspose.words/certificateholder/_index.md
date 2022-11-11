@@ -1,7 +1,7 @@
 ---
 title: CertificateHolder
-second_title: Aspose.Words for Java API 参考
-description:表示 X509Certificate2 实例的持有者。
+second_title: Aspose.Words for Java API Reference
+description: 表示 X509Certificate2 实例的持有者。
 type: docs
 weight: 53
 url: /zh/java/com.aspose.words/certificateholder/
@@ -18,7 +18,7 @@ public class CertificateHolder
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
 
 **CertificateHolder**只能由静态工厂方法创建。它包含一个实例**X509Certificate2**用于将私钥、公钥和证书链引入系统。该类应用于[DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil)和[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)而不是过时的方法**X509Certificate2**作为参数。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

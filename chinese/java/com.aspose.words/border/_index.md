@@ -1,7 +1,7 @@
 ---
 title: Border
-second_title: Aspose.Words for Java API 参考
-description:表示对象的边框。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的边框。
 type: docs
 weight: 36
 url: /zh/java/com.aspose.words/border/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/border/
 **遗产:**
 java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Border extends InternableComplexAttr implements Cloneable
@@ -21,7 +21,7 @@ public class Border extends InternableComplexAttr implements Cloneable
 要了解更多信息，请访问**Programming with Documents**文档文章。
 
 边框可以应用于各种文档元素，包括段落、段落内的文本行或表格单元格。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

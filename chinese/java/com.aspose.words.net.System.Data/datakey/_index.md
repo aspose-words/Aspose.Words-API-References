@@ -1,6 +1,6 @@
 ---
 title: DataKey
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 17
@@ -12,7 +12,7 @@ java.lang.Object
 ```
 public class DataKey
 ```
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

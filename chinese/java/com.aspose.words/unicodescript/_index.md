@@ -1,6 +1,6 @@
 ---
 title: UnicodeScript
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 589
@@ -175,7 +175,7 @@ public class UnicodeScript
 | [YI](#YI) |  |
 | [ZANABAZAR_SQUARE](#ZANABAZAR-SQUARE) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

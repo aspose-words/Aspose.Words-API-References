@@ -1,7 +1,7 @@
 ---
 title: TextEffect
-second_title: Aspose.Words for Java API 参考
-description:文本运行的动画效果。
+second_title: Aspose.Words for Java API Reference
+description: 文本运行的动画效果。
 type: docs
 weight: 564
 url: /zh/java/com.aspose.words/texteffect/
@@ -26,7 +26,7 @@ public class TextEffect
 | [SHIMMER](#SHIMMER) |  |
 | [SPARKLE_TEXT](#SPARKLE-TEXT) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

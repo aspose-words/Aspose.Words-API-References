@@ -1,7 +1,7 @@
 ---
 title: ListTrailingCharacter
-second_title: Aspose.Words for Java API 参考
-description:指定将列表标签与段落文本分开的字符。
+second_title: Aspose.Words for Java API Reference
+description: 指定将列表标签与段落文本分开的字符。
 type: docs
 weight: 376
 url: /zh/java/com.aspose.words/listtrailingcharacter/
@@ -24,7 +24,7 @@ public class ListTrailingCharacter
 | [SPACE](#SPACE) | 在列表标签和段落文本之间放置一个空格字符。 |
 | [TAB](#TAB) | 在列表标签和段落文本之间放置一个制表符。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

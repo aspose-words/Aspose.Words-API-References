@@ -1,7 +1,7 @@
 ---
 title: ContinuousSectionRestart
-second_title: Aspose.Words for Java API 参考
-description:表示在重新开始页码的连续部分中计算页码时的不同行为。
+second_title: Aspose.Words for Java API Reference
+description: 表示在重新开始页码的连续部分中计算页码时的不同行为。
 type: docs
 weight: 93
 url: /zh/java/com.aspose.words/continuoussectionrestart/
@@ -21,7 +21,7 @@ public class ContinuousSectionRestart
 | [ALWAYS](#ALWAYS) | 无论内容流如何，页码总是会重新开始。 |
 | [FROM_NEW_PAGE_ONLY](#FROM-NEW-PAGE-ONLY) | 仅当节开始的页面上的节之前没有其他内容时，页码才会重新开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

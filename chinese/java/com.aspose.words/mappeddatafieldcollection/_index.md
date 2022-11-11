@@ -1,7 +1,7 @@
 ---
 title: MappedData字段Collection
-second_title: Aspose.Words for Java API 参考
-description:允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。
+second_title: Aspose.Words for Java API Reference
+description: 允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。
 type: docs
 weight: 387
 url: /zh/java/com.aspose.words/mappeddatafieldcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/mappeddatafieldcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class MappedData字段Collection implements Iterable
@@ -21,7 +21,7 @@ public class MappedData字段Collection implements Iterable
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
 这是作为字符串键的集合实现为字符串值的。键是文档中邮件合并字段的名称，值是数据源中的字段名称。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

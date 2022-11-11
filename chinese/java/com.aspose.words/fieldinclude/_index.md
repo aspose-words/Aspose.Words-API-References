@@ -1,7 +1,7 @@
 ---
 title: 字段Include
-second_title: Aspose.Words for Java API 参考
-description:实现 INCLUDE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 INCLUDE 字段。
 type: docs
 weight: 203
 url: /zh/java/com.aspose.words/fieldinclude/
@@ -18,7 +18,7 @@ public class 字段Include extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 插入包含在另一个文档中的全部或部分文本和图形。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

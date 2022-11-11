@@ -1,7 +1,7 @@
 ---
 title: Paragraph
-second_title: Aspose.Words for Java API 参考
-description:代表一段文字。
+second_title: Aspose.Words for Java API Reference
+description: 代表一段文字。
 type: docs
 weight: 443
 url: /zh/java/com.aspose.words/paragraph/
@@ -26,12 +26,12 @@ public class Paragraph extends CompositeNode
 Microsoft Word 中的有效段落始终以段落分隔符结尾，最小有效段落仅包含段落分隔符。这**Paragraph**类自动在末尾附加适当的分节符，并且该字符不是子节点的一部分**Paragraph**，因此一个**Paragraph**可以为空。
 
 不包括段落结尾[ControlChar.PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK)或单元格结尾[ControlChar.CELL](../../com.aspose.words/controlchar\#CELL)段落文本中的字符，因为在 Microsoft Word 中打开文档时，这可能会使段落无效。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Paragraph(DocumentBase doc)](#Paragraph-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Paragraph**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

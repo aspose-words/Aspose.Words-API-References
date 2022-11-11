@@ -1,7 +1,7 @@
 ---
 title: 字段Citation
-second_title: Aspose.Words for Java API 参考
-description:实现 CITATION 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 CITATION 字段。
 type: docs
 weight: 168
 url: /zh/java/com.aspose.words/fieldcitation/
@@ -18,7 +18,7 @@ public class 字段Citation extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 插入内容**Source**具有指定的元素**Tag**使用书目样式的元素。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
@@ -63,7 +63,7 @@ public class 字段Citation extends 字段
 | [setSuffix(String value)](#setSuffix-java.lang.String-) | 设置附加到引文的后缀。 |
 | [setSuppressAuthor(boolean value)](#setSuppressAuthor-boolean-) | 设置是否从引文中隐藏作者信息。 |
 | [setSuppressTitle(boolean value)](#setSuppressTitle-boolean-) | 设置是否从引文中隐藏标题信息。 |
-| [setSuppressYear(boolean value)](#setSuppressYear-boolean-) | 设置是否从引文中隐藏年份信息。 |
+| [setSuppressYear(boolean value)](#setSuppressYear-boolean-) | 设置是否从引文中抑制年份信息。 |
 | [setVolumeNumber(String value)](#setVolumeNumber-java.lang.String-) | 设置与引文关联的卷号。 |
 | [toString()](#toString--) |  |
 | [unlink()](#unlink--) | 执行字段取消链接。 |
@@ -535,7 +535,7 @@ public void setSuppressYear(boolean value)
 ```
 
 
-设置是否从引文中隐藏年份信息。
+设置是否从引文中抑制年份信息。
 
 **参数:**
 | 范围 | 类型 | 描述 |

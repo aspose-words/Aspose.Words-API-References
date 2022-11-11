@@ -1,7 +1,7 @@
 ---
 title: ChartAxis类型
-second_title: Aspose.Words for Java API 参考
-description:指定图表轴的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定图表轴的类型。
 type: docs
 weight: 57
 url: /zh/java/com.aspose.words/chartaxistype/
@@ -22,7 +22,7 @@ public class ChartAxis类型
 | [SERIES](#SERIES) | 图表的系列轴。 |
 | [VALUE](#VALUE) | 图表的值轴。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: LegendPosition
-second_title: Aspose.Words for Java API 参考
-description:指定图表图例的可能位置。
+second_title: Aspose.Words for Java API Reference
+description: 指定图表图例的可能位置。
 type: docs
 weight: 363
 url: /zh/java/com.aspose.words/legendposition/
@@ -25,7 +25,7 @@ public class LegendPosition
 | [TOP](#TOP) | 指定应在图表顶部绘制图例。 |
 | [TOP_RIGHT](#TOP-RIGHT) | 指定图例应绘制在图表的右上角。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

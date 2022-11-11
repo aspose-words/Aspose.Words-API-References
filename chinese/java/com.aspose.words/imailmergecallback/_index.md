@@ -1,7 +1,7 @@
 ---
 title: IMailMergeCallback
-second_title: Aspose.Words for Java API 参考
-description:如果您想在执行邮件合并时接收通知，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果您想在执行邮件合并时接收通知，请实现此接口。
 type: docs
 weight: 649
 url: /zh/java/com.aspose.words/imailmergecallback/
@@ -11,7 +11,7 @@ public interface IMailMergeCallback
 ```
 
 如果您想在执行邮件合并时接收通知，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

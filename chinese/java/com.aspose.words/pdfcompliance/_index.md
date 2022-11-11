@@ -1,7 +1,7 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Words for Java API 参考
-description:指定 PDF 标准合规级别。
+second_title: Aspose.Words for Java API Reference
+description: 指定 PDF 标准合规级别。
 type: docs
 weight: 449
 url: /zh/java/com.aspose.words/pdfcompliance/
@@ -27,7 +27,7 @@ public class PdfCompliance
 | [PDF_A_4](#PDF-A-4) | 输出文件将符合 PDF/A-4 (ISO 19005-4:2020) 标准。 |
 | [PDF_UA_1](#PDF-UA-1) | 输出文件将符合 PDF/UA-1 (ISO 14289-1) 标准。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

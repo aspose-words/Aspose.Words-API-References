@@ -1,7 +1,7 @@
 ---
 title: Watermark类型
-second_title: Aspose.Words for Java API 参考
-description:指定水印类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定水印类型。
 type: docs
 weight: 610
 url: /zh/java/com.aspose.words/watermarktype/
@@ -22,7 +22,7 @@ public class Watermark类型
 | [NONE](#NONE) | 表示未设置水印。 |
 | [TEXT](#TEXT) | 表示将文本用作水印。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

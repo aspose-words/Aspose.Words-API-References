@@ -1,7 +1,7 @@
 ---
 title: CompatibilityOptions
-second_title: Aspose.Words for Java API 参考
-description:包含兼容性选项，即在 Microsoft Word 中选项对话框的兼容性选项卡上输入的用户首选项。
+second_title: Aspose.Words for Java API Reference
+description: 包含兼容性选项，即在 Microsoft Word 中选项对话框的兼容性选项卡上输入的用户首选项。
 type: docs
 weight: 86
 url: /zh/java/com.aspose.words/compatibilityoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/compatibilityoptions/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class CompatibilityOptions implements Cloneable
@@ -19,7 +19,7 @@ public class CompatibilityOptions implements Cloneable
 包含兼容性选项（即，在**Compatibility**的选项卡**Options**Microsoft Word 中的对话框）。
 
 要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

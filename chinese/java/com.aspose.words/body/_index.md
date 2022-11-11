@@ -1,7 +1,7 @@
 ---
 title: Body
-second_title: Aspose.Words for Java API 参考
-description:表示部分正文的容器。
+second_title: Aspose.Words for Java API Reference
+description: 表示部分正文的容器。
 type: docs
 weight: 30
 url: /zh/java/com.aspose.words/body/
@@ -22,12 +22,12 @@ public class Body extends Story
 **Body**是节级节点，只能是**Section**.只能有一个**Body**在一个**Section**.
 
 最小有效**Body**至少需要包含一个**Paragraph**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Body(DocumentBase doc)](#Body-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Body**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

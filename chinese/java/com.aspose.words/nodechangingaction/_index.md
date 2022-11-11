@@ -1,7 +1,7 @@
 ---
 title: NodeChangingAction
-second_title: Aspose.Words for Java API 参考
-description:指定节点更改的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定节点更改的类型。
 type: docs
 weight: 402
 url: /zh/java/com.aspose.words/nodechangingaction/
@@ -21,7 +21,7 @@ public class NodeChangingAction
 | [INSERT](#INSERT) | 正在向树中插入一个节点。 |
 | [REMOVE](#REMOVE) | 正在从树中删除一个节点。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Property类型
-second_title: Aspose.Words for Java API 参考
-description:指定文档属性的数据类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档属性的数据类型。
 type: docs
 weight: 469
 url: /zh/java/com.aspose.words/propertytype/
@@ -28,7 +28,7 @@ public class Property类型
 | [STRING](#STRING) | 该属性是一个字符串值。 |
 | [STRING_ARRAY](#STRING-ARRAY) | 该属性是一个字符串数组。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

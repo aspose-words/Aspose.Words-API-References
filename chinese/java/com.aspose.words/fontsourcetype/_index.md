@@ -1,7 +1,7 @@
 ---
 title: FontSource类型
-second_title: Aspose.Words for Java API 参考
-description:指定字体源的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定字体源的类型。
 type: docs
 weight: 288
 url: /zh/java/com.aspose.words/fontsourcetype/
@@ -24,7 +24,7 @@ public class FontSource类型
 | [MEMORY_FONT](#MEMORY-FONT) | 一个[MemoryFontSource](../../com.aspose.words/memoryfontsource)表示内存中单个字体的对象。 |
 | [SYSTEM_FONTS](#SYSTEM-FONTS) | 一个[SystemFontSource](../../com.aspose.words/systemfontsource)表示安装到系统的所有字体的对象。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

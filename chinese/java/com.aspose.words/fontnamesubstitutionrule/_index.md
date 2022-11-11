@@ -1,7 +1,7 @@
 ---
 title: FontNameSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description:处理字体名称的字体替换规则。
+second_title: Aspose.Words for Java API Reference
+description: 处理字体名称的字体替换规则。
 type: docs
 weight: 283
 url: /zh/java/com.aspose.words/fontnamesubstitutionrule/
@@ -18,7 +18,7 @@ public class FontNameSubstitutionRule extends FontSubstitutionRule
 要了解更多信息，请访问**Working with Fonts**文档文章。
 
 根据此规则，Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试删除带有“-”和“,”分隔符的后缀，就像 MS Word 一样。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

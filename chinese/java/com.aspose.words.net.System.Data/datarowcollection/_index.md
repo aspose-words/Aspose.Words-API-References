@@ -1,7 +1,7 @@
 ---
 title: DataRowCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 a 的行集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 的行集合。
 type: docs
 weight: 21
 url: /zh/java/com.aspose.words.net.system.data/datarowcollection/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/datarowcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class DataRowCollection implements Iterable
 ```
 
 表示一个行的集合[DataTable](../../com.aspose.words.net.system.data/datatable).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: EndCap
-second_title: Aspose.Words for Java API 参考
-description:指定线帽样式。
+second_title: Aspose.Words for Java API Reference
+description: 指定线帽样式。
 type: docs
 weight: 145
 url: /zh/java/com.aspose.words/endcap/
@@ -23,7 +23,7 @@ public class EndCap
 | [ROUND](#ROUND) | 圆形末端。 |
 | [SQUARE](#SQUARE) | 正方形突出半线宽。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

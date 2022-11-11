@@ -1,7 +1,7 @@
 ---
 title: TableStyleOptions
-second_title: Aspose.Words for Java API 参考
-description:指定如何将表格样式应用于表格。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将表格样式应用于表格。
 type: docs
 weight: 553
 url: /zh/java/com.aspose.words/tablestyleoptions/
@@ -28,7 +28,7 @@ public class TableStyleOptions
 | [NONE](#NONE) | 不应用表格样式格式。 |
 | [ROW_BANDS](#ROW-BANDS) | 应用行带条件格式。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

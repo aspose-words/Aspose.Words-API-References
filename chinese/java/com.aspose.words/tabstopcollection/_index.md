@@ -1,7 +1,7 @@
 ---
 title: TabStopCollection
-second_title: Aspose.Words for Java API 参考
-description:代表段落或样式的自定义选项卡的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: 代表段落或样式的自定义选项卡的对象集合。
 type: docs
 weight: 547
 url: /zh/java/com.aspose.words/tabstopcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/tabstopcollection/
 **遗产:**
 java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class TabStopCollection extends InternableComplexAttr implements Cloneable
@@ -23,7 +23,7 @@ public class TabStopCollection extends InternableComplexAttr implements Cloneabl
 在 Microsoft Word 文档中，可以在段落样式的属性中或直接在段落的属性中定义制表位。一种风格可以基于另一种风格。因此，给定对象的完整制表位集是直接在该对象上定义的制表位和从父样式继承的制表位的组合。
 
 在 Aspose.Words 中，当您获得**TabStops**段落或样式的集合，它仅包含直接为此段落或样式定义的自定义制表位。该集合不包括在父样式中定义的制表位或默认制表位。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

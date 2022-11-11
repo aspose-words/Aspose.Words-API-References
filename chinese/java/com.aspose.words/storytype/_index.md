@@ -1,7 +1,7 @@
 ---
 title: Story类型
-second_title: Aspose.Words for Java API 参考
-description:Word 文档的文本存储在故事中。
+second_title: Aspose.Words for Java API Reference
+description: Word 文档的文本存储在故事中。
 type: docs
 weight: 529
 url: /zh/java/com.aspose.words/storytype/
@@ -37,7 +37,7 @@ public class Story类型
 | [PRIMARY_HEADER](#PRIMARY-HEADER) | 包含主标题的文本。 |
 | [TEXTBOX](#TEXTBOX) | 包含形状或文本框文本，由[Shape](../../com.aspose.words/shape). |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

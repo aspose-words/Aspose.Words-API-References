@@ -1,7 +1,7 @@
 ---
 title: AxisDisplayUnit
-second_title: Aspose.Words for Java API 参考
-description:提供对数值轴显示单位的缩放选项的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对数值轴显示单位的缩放选项的访问。
 type: docs
 weight: 20
 url: /zh/java/com.aspose.words/axisdisplayunit/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/axisdisplayunit/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class AxisDisplayUnit implements Cloneable
@@ -19,7 +19,7 @@ public class AxisDisplayUnit implements Cloneable
 提供对数值轴显示单位的缩放选项的访问。
 
 要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

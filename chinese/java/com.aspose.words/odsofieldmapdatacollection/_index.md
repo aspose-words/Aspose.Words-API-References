@@ -1,7 +1,7 @@
 ---
 title: Odso字段MapDataCollection
-second_title: Aspose.Words for Java API 参考
-description:对象的类型化集合。
+second_title: Aspose.Words for Java API Reference
+description: 对象的类型化集合。
 type: docs
 weight: 414
 url: /zh/java/com.aspose.words/odsofieldmapdatacollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/odsofieldmapdatacollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class Odso字段MapDataCollection implements Iterable
@@ -19,7 +19,7 @@ public class Odso字段MapDataCollection implements Iterable
 的类型化集合[Odso字段MapData](../../com.aspose.words/odsofieldmapdata)对象。
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

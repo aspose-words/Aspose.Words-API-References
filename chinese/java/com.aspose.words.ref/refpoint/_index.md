@@ -1,7 +1,7 @@
 ---
 title: RefPoint
-second_title: Aspose.Words for Java API 参考
-description:表示 Point 结构的 Out/Ref 结构
+second_title: Aspose.Words for Java API Reference
+description: 表示 Point 结构的 Out/Ref 结构
 type: docs
 weight: 17
 url: /zh/java/com.aspose.words.ref/refpoint/
@@ -14,12 +14,12 @@ public class RefPoint
 ```
 
 表示 Point 结构的 Out/Ref 结构
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RefPoint(long value)](#RefPoint-long-) | 使用给定值模拟 Out/Ref 参数初始化。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

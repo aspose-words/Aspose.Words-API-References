@@ -1,7 +1,7 @@
 ---
 title: 字段UpdateCultureSource
-second_title: Aspose.Words for Java API 参考
-description:指示在字段更新期间要使用的区域性。
+second_title: Aspose.Words for Java API Reference
+description: 指示在字段更新期间要使用的区域性。
 type: docs
 weight: 258
 url: /zh/java/com.aspose.words/fieldupdateculturesource/
@@ -21,7 +21,7 @@ public class 字段UpdateCultureSource
 | [CURRENT_THREAD](#CURRENT-THREAD) | 当前执行线程的文化用于更新字段。 |
 | [FIELD_CODE](#FIELD-CODE) | 使用通过语言设置在字段格式属性中指定的文化。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

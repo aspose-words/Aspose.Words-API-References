@@ -1,7 +1,7 @@
 ---
 title: 字段FileName
-second_title: Aspose.Words for Java API 参考
-description:实现 FILENAME 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 FILENAME 字段。
 type: docs
 weight: 187
 url: /zh/java/com.aspose.words/fieldfilename/
@@ -20,7 +20,7 @@ public class 字段FileName extends 字段
 从其存储位置检索当前文档的名称。
 
 在当前的实现中，使用[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)属性来检索文件名。如果文档是从流中加载或创建为空白，则使用要保存到的文件的名称（如果已知）。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

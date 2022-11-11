@@ -1,7 +1,7 @@
 ---
 title: DocumentPropertyCollection
-second_title: Aspose.Words for Java API 参考
-description:和集合的基类。
+second_title: Aspose.Words for Java API Reference
+description: 和集合的基类。
 type: docs
 weight: 127
 url: /zh/java/com.aspose.words/documentpropertycollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/documentpropertycollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public abstract class DocumentPropertyCollection implements Iterable
@@ -23,12 +23,12 @@ public abstract class DocumentPropertyCollection implements Iterable
 属性名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DocumentPropertyCollection()](#DocumentPropertyCollection--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

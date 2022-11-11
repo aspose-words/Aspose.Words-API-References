@@ -1,6 +1,6 @@
 ---
 title: Forms2OleControl类型
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 300
@@ -32,7 +32,7 @@ public class Forms2OleControl类型
 | [TEXTBOX](#TEXTBOX) |  |
 | [TOGGLE_BUTTON](#TOGGLE-BUTTON) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: ShapeBase
-second_title: Aspose.Words for Java API 参考
-description:绘图层中对象的基类，例如自选图形自由形式 OLE 对象 ActiveX 控件或图片。
+second_title: Aspose.Words for Java API Reference
+description: 绘图层中对象的基类，例如自选图形自由形式 OLE 对象 ActiveX 控件或图片。
 type: docs
 weight: 517
 url: /zh/java/com.aspose.words/shapebase/
@@ -30,7 +30,7 @@ public abstract class ShapeBase extends CompositeNode
 当一个形状浮动时，它是相对于某物（例如当前段落、页边距或页面）定位的。形状的相对定位使用[getRelativeHorizontalPosition()](../../com.aspose.words/shapebase\#getRelativeHorizontalPosition--) / [setRelativeHorizontalPosition(int)](../../com.aspose.words/shapebase\#setRelativeHorizontalPosition-int-)和[getRelativeVerticalPosition()](../../com.aspose.words/shapebase\#getRelativeVerticalPosition--) / [setRelativeVerticalPosition(int)](../../com.aspose.words/shapebase\#setRelativeVerticalPosition-int-)特性。
 
 使用[getLeft()](../../com.aspose.words/shapebase\#getLeft--) / [setLeft(double)](../../com.aspose.words/shapebase\#setLeft-double-)和[getTop()](../../com.aspose.words/shapebase\#getTop--) / [setTop(double)](../../com.aspose.words/shapebase\#setTop-double-)属性或相对于其他对象对齐使用[getHorizontalAlignment()](../../com.aspose.words/shapebase\#getHorizontalAlignment--) / [setHorizontalAlignment(int)](../../com.aspose.words/shapebase\#setHorizontalAlignment-int-)和[getVerticalAlignment()](../../com.aspose.words/shapebase\#getVerticalAlignment--) / [setVerticalAlignment(int)](../../com.aspose.words/shapebase\#setVerticalAlignment-int-)特性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

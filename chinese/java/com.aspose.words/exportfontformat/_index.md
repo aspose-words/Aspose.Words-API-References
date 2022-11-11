@@ -1,7 +1,7 @@
 ---
 title: ExportFontFormat
-second_title: Aspose.Words for Java API 参考
-description:指示在呈现为 HTML 固定格式时用于导出字体的格式。
+second_title: Aspose.Words for Java API Reference
+description: 指示在呈现为 HTML 固定格式时用于导出字体的格式。
 type: docs
 weight: 148
 url: /zh/java/com.aspose.words/exportfontformat/
@@ -21,7 +21,7 @@ public class ExportFontFormat
 | [TTF](#TTF) | TTF（True类型 字体格式）。 |
 | [WOFF](#WOFF) | WOFF（Web 开放字体格式）。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

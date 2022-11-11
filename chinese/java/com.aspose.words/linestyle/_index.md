@@ -1,7 +1,7 @@
 ---
 title: LineStyle
-second_title: Aspose.Words for Java API 参考
-description:指定 .
+second_title: Aspose.Words for Java API Reference
+description: 指定 .
 type: docs
 weight: 367
 url: /zh/java/com.aspose.words/linestyle/
@@ -46,7 +46,7 @@ public class LineStyle
 | [TRIPLE](#TRIPLE) |  |
 | [WAVE](#WAVE) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

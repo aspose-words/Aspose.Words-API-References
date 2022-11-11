@@ -1,7 +1,7 @@
 ---
 title: 字段AutoText
-second_title: Aspose.Words for Java API 参考
-description:实现自动文本字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现自动文本字段。
 type: docs
 weight: 161
 url: /zh/java/com.aspose.words/fieldautotext/
@@ -18,7 +18,7 @@ public class 字段AutoText extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 插入自动图文集条目。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

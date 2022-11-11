@@ -1,7 +1,7 @@
 ---
 title: DocumentSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:传入的参数。
+second_title: Aspose.Words for Java API Reference
+description: 传入的参数。
 type: docs
 weight: 129
 url: /zh/java/com.aspose.words/documentsavingargs/
@@ -16,7 +16,7 @@ public class DocumentSavingArgs
 传入的参数[IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
 
 要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

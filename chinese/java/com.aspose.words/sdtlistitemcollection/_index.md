@@ -1,7 +1,7 @@
 ---
 title: SdtListItemCollection
-second_title: Aspose.Words for Java API 参考
-description:提供对结构化文档标签元素的访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对结构化文档标签元素的访问。
 type: docs
 weight: 507
 url: /zh/java/com.aspose.words/sdtlistitemcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/sdtlistitemcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class SdtListItemCollection implements Cloneable, Iterable
@@ -19,7 +19,7 @@ public class SdtListItemCollection implements Cloneable, Iterable
 提供访问[SdtListItem](../../com.aspose.words/sdtlistitem)结构化文档标签的元素。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

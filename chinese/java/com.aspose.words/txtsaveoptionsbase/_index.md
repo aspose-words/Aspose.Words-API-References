@@ -1,7 +1,7 @@
 ---
 title: TxtSaveOptionsBase
-second_title: Aspose.Words for Java API 参考
-description:将文档保存为基于文本的格式时指定附加选项的基类。
+second_title: Aspose.Words for Java API Reference
+description: 将文档保存为基于文本的格式时指定附加选项的基类。
 type: docs
 weight: 586
 url: /zh/java/com.aspose.words/txtsaveoptionsbase/
@@ -16,12 +16,12 @@ public abstract class TxtSaveOptionsBase extends SaveOptions
 将文档保存为基于文本的格式时指定附加选项的基类。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [TxtSaveOptionsBase()](#TxtSaveOptionsBase--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

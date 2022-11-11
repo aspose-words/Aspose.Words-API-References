@@ -1,7 +1,7 @@
 ---
 title: MailMergeSettings
-second_title: Aspose.Words for Java API 参考
-description:指定文档的所有邮件合并信息。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档的所有邮件合并信息。
 type: docs
 weight: 386
 url: /zh/java/com.aspose.words/mailmergesettings/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/mailmergesettings/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class MailMergeSettings implements Cloneable
@@ -31,7 +31,7 @@ public class MailMergeSettings implements Cloneable
 学习如何使用该对象的属性的最佳方法是在 Microsoft Word 中手动创建一个包含所需数据源的文档，然后使用 Aspose.Words 打开该文档并检查该对象的属性[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-)和[getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)对象。例如，如果您想学习如何以编程方式配置数据源，这是一个很好的方法。
 
  Aspose.Words 在加载、保存和转换不同格式的文档时保留邮件合并信息，但在使用[MailMerge](../../com.aspose.words/mailmerge)目的。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

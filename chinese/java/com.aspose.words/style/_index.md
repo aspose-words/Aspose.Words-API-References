@@ -1,7 +1,7 @@
 ---
 title: Style
-second_title: Aspose.Words for Java API 参考
-description:表示单个内置或用户定义的样式。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个内置或用户定义的样式。
 type: docs
 weight: 536
 url: /zh/java/com.aspose.words/style/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/style/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class Style implements Cloneable
@@ -19,7 +19,7 @@ public class Style implements Cloneable
 表示单个内置或用户定义的样式。
 
 要了解更多信息，请访问**Working with Styles and Themes**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CustomDocumentProperties
-second_title: Aspose.Words for Java API 参考
-description:自定义文档属性的集合。
+second_title: Aspose.Words for Java API Reference
+description: 自定义文档属性的集合。
 type: docs
 weight: 101
 url: /zh/java/com.aspose.words/customdocumentproperties/
@@ -22,7 +22,7 @@ public class CustomDocumentProperties extends DocumentPropertyCollection
 属性名称不区分大小写。
 
 集合中的属性按名称的字母顺序排序。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

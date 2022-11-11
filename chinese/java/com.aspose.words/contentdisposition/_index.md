@@ -1,7 +1,7 @@
 ---
 title: ContentDisposition
-second_title: Aspose.Words for Java API 参考
-description:枚举在客户端浏览器上呈现文档的不同方式。
+second_title: Aspose.Words for Java API Reference
+description: 枚举在客户端浏览器上呈现文档的不同方式。
 type: docs
 weight: 92
 url: /zh/java/com.aspose.words/contentdisposition/
@@ -23,7 +23,7 @@ public class ContentDisposition
 | [ATTACHMENT](#ATTACHMENT) | 将文档发送到浏览器并提供将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。 |
 | [INLINE](#INLINE) | 将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

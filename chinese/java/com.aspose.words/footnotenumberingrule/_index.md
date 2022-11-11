@@ -1,7 +1,7 @@
 ---
 title: FootnoteNumberingRule
-second_title: Aspose.Words for Java API 参考
-description:确定自动脚注或尾注编号何时重新开始。
+second_title: Aspose.Words for Java API Reference
+description: 确定自动脚注或尾注编号何时重新开始。
 type: docs
 weight: 292
 url: /zh/java/com.aspose.words/footnotenumberingrule/
@@ -23,7 +23,7 @@ public class FootnoteNumberingRule
 | [RESTART_PAGE](#RESTART-PAGE) | 编号在每一页重新开始。 |
 | [RESTART_SECTION](#RESTART-SECTION) | 编号在每个部分重新开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

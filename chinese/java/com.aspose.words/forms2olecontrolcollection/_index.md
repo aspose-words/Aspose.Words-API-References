@@ -1,7 +1,7 @@
 ---
 title: Forms2OleControlCollection
-second_title: Aspose.Words for Java API 参考
-description:表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的集合。
 type: docs
 weight: 299
 url: /zh/java/com.aspose.words/forms2olecontrolcollection/
@@ -16,7 +16,7 @@ public class Forms2OleControlCollection
 代表集合[Forms2OleControl](../../com.aspose.words/forms2olecontrol)对象。
 
 要了解更多信息，请访问**Working with Ole Objects**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

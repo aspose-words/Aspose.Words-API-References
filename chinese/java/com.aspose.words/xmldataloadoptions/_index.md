@@ -1,7 +1,7 @@
 ---
 title: XmlDataLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:表示 XML 数据加载的选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示 XML 数据加载的选项。
 type: docs
 weight: 627
 url: /zh/java/com.aspose.words/xmldataloadoptions/
@@ -18,12 +18,12 @@ public class XmlDataLoadOptions
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
 此类的实例可以传递给[XmlDataSource](../../com.aspose.words/xmldatasource).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [XmlDataLoadOptions()](#XmlDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

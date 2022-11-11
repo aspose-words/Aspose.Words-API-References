@@ -1,7 +1,7 @@
 ---
 title: WebExtension
-second_title: Aspose.Words for Java API 参考
-description:表示一个 Web 扩展对象。
+second_title: Aspose.Words for Java API Reference
+description: 表示一个 Web 扩展对象。
 type: docs
 weight: 611
 url: /zh/java/com.aspose.words/webextension/
@@ -16,7 +16,7 @@ public class WebExtension
 表示一个 Web 扩展对象。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

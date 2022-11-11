@@ -1,7 +1,7 @@
 ---
 title: GroupShape
-second_title: Aspose.Words for Java API 参考
-description:表示文档中的一组形状。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中的一组形状。
 type: docs
 weight: 314
 url: /zh/java/com.aspose.words/groupshape/
@@ -20,12 +20,12 @@ public class GroupShape extends ShapeBase
 一个[GroupShape](../../com.aspose.words/groupshape)是一个复合节点，可以有[Shape](../../com.aspose.words/shape)和[GroupShape](../../com.aspose.words/groupshape)节点作为子节点。
 
 每个[GroupShape](../../com.aspose.words/groupshape)为其子形状定义一个新的坐标系。坐标系是使用定义的[ShapeBase.getCoordSize()](../../com.aspose.words/shapebase\#getCoordSize--) / [ShapeBase.setCoordSize(java.awt.Dimension)](../../com.aspose.words/shapebase\#setCoordSize-java.awt.Dimension-)和[ShapeBase.getCoordOrigin()](../../com.aspose.words/shapebase\#getCoordOrigin--) / [ShapeBase.setCoordOrigin(java.awt.Point)](../../com.aspose.words/shapebase\#setCoordOrigin-java.awt.Point-)特性。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [GroupShape(DocumentBase doc)](#GroupShape-com.aspose.words.DocumentBase-) | 创建一个新的组形状。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

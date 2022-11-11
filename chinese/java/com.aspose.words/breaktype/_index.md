@@ -1,7 +1,7 @@
 ---
 title: Break类型
-second_title: Aspose.Words for Java API 参考
-description:指定文档中的中断类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档中的中断类型。
 type: docs
 weight: 39
 url: /zh/java/com.aspose.words/breaktype/
@@ -28,7 +28,7 @@ public class Break类型
 | [SECTION_BREAK_NEW_PAGE](#SECTION-BREAK-NEW-PAGE) | 指定新页面上新部分的开始。 |
 | [SECTION_BREAK_ODD_PAGE](#SECTION-BREAK-ODD-PAGE) | 指定奇数页上新部分的开始。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

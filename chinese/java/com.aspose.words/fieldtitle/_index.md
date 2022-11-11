@@ -1,7 +1,7 @@
 ---
 title: 字段Title
-second_title: Aspose.Words for Java API 参考
-description:实现 TITLE 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 TITLE 字段。
 type: docs
 weight: 253
 url: /zh/java/com.aspose.words/fieldtitle/
@@ -18,7 +18,7 @@ public class 字段Title extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 检索并选择性地设置文档的标题，如记录在**Title**内置文档属性的属性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

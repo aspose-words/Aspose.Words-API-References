@@ -1,7 +1,7 @@
 ---
 title: ListLabel
-second_title: Aspose.Words for Java API 参考
-description:定义特定于列表标签的属性。
+second_title: Aspose.Words for Java API Reference
+description: 定义特定于列表标签的属性。
 type: docs
 weight: 371
 url: /zh/java/com.aspose.words/listlabel/
@@ -16,7 +16,7 @@ public class ListLabel
 定义特定于列表标签的属性。
 
 要了解更多信息，请访问**Working with Lists**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

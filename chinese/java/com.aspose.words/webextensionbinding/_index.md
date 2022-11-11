@@ -1,7 +1,7 @@
 ---
 title: WebExtensionBinding
-second_title: Aspose.Words for Java API 参考
-description:指定 Web 扩展和文档中的数据之间的绑定关系。
+second_title: Aspose.Words for Java API Reference
+description: 指定 Web 扩展和文档中的数据之间的绑定关系。
 type: docs
 weight: 612
 url: /zh/java/com.aspose.words/webextensionbinding/
@@ -16,12 +16,12 @@ public class WebExtensionBinding
 指定 Web 扩展和文档中的数据之间的绑定关系。
 
 要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [WebExtensionBinding(String id, int binding类型, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

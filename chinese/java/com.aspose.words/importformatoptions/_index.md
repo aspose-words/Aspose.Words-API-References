@@ -1,7 +1,7 @@
 ---
 title: ImportFormatOptions
-second_title: Aspose.Words for Java API 参考
-description:允许指定各种导入选项来格式化输出。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定各种导入选项来格式化输出。
 type: docs
 weight: 347
 url: /zh/java/com.aspose.words/importformatoptions/
@@ -16,7 +16,7 @@ public class ImportFormatOptions
 允许指定各种导入选项来格式化输出。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

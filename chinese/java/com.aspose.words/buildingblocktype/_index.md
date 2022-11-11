@@ -1,7 +1,7 @@
 ---
 title: BuildingBlock类型
-second_title: Aspose.Words for Java API 参考
-description:指定构建块类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定构建块类型。
 type: docs
 weight: 45
 url: /zh/java/com.aspose.words/buildingblocktype/
@@ -30,7 +30,7 @@ public class BuildingBlock类型
 | [NORMAL](#NORMAL) | 构建块是正常的（即 |
 | [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化的文档标签占位符文本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

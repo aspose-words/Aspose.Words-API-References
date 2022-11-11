@@ -1,7 +1,7 @@
 ---
 title: ImageColorMode
-second_title: Aspose.Words for Java API 参考
-description:指定生成的文档页面图像的颜色模式。
+second_title: Aspose.Words for Java API Reference
+description: 指定生成的文档页面图像的颜色模式。
 type: docs
 weight: 336
 url: /zh/java/com.aspose.words/imagecolormode/
@@ -22,7 +22,7 @@ public class ImageColorMode
 | [GRAYSCALE](#GRAYSCALE) | 文档的页面将呈现为灰度图像。 |
 | [NONE](#NONE) | 文档页面将呈现为彩色图像。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

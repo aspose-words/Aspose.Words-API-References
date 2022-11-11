@@ -1,7 +1,7 @@
 ---
 title: PdfEncryptionDetails
-second_title: Aspose.Words for Java API 参考
-description:包含 PDF 文档的加密和访问权限的详细信息。
+second_title: Aspose.Words for Java API Reference
+description: 包含 PDF 文档的加密和访问权限的详细信息。
 type: docs
 weight: 454
 url: /zh/java/com.aspose.words/pdfencryptiondetails/
@@ -16,12 +16,12 @@ public class PdfEncryptionDetails
 包含 PDF 文档的加密和访问权限的详细信息。
 
 要了解更多信息，请访问**Protect or Encrypt a Document**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PdfEncryptionDetails(String userPassword, String ownerPassword)](#PdfEncryptionDetails-java.lang.String-java.lang.String-) | 初始化此类的一个实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

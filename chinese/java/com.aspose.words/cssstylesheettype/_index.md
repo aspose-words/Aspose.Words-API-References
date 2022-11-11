@@ -1,7 +1,7 @@
 ---
 title: CssStyleSheet类型
-second_title: Aspose.Words for Java API 参考
-description:指定如何将 CSS 层叠样式表样式导出为 HTML。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将 CSS 层叠样式表样式导出为 HTML。
 type: docs
 weight: 97
 url: /zh/java/com.aspose.words/cssstylesheettype/
@@ -22,7 +22,7 @@ public class CssStyleSheet类型
 | [EXTERNAL](#EXTERNAL) | CSS 样式与外部文件的样式表中的内容分开编写。 |
 | [INLINE](#INLINE) |  CSS 样式是内联编写的（作为**style**每个元素的属性）。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

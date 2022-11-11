@@ -1,7 +1,7 @@
 ---
 title: JsonDataLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:表示解析 JSON 数据的选项。
+second_title: Aspose.Words for Java API Reference
+description: 表示解析 JSON 数据的选项。
 type: docs
 weight: 353
 url: /zh/java/com.aspose.words/jsondataloadoptions/
@@ -18,12 +18,12 @@ public class JsonDataLoadOptions
 要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
 此类的实例可以传递给[JsonDataSource](../../com.aspose.words/jsondatasource).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [JsonDataLoadOptions()](#JsonDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: License
-second_title: Aspose.Words for Java API 参考
-description:提供许可组件的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供许可组件的方法。
 type: docs
 weight: 364
 url: /zh/java/com.aspose.words/license/
@@ -16,12 +16,12 @@ public class License
 提供许可组件的方法。
 
 要了解更多信息，请访问**Licensing and Subscription**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [License()](#License--) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

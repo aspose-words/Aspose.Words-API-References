@@ -1,7 +1,7 @@
 ---
 title: DataTable
-second_title: Aspose.Words for Java API 参考
-description:表示一个内存数据表。
+second_title: Aspose.Words for Java API Reference
+description: 表示一个内存数据表。
 type: docs
 weight: 25
 url: /zh/java/com.aspose.words.net.system.data/datatable/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/datatable/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.net.System.Data.DataTableEventListener](../../com.aspose.words.net.system.data/datatableeventlistener)
 ```
 public class DataTable implements System.Data.DataTableEventListener
 ```
 
 表示一个内存数据表。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
@@ -25,7 +25,7 @@ public class DataTable implements System.Data.DataTableEventListener
 | [DataTable(String tableName)](#DataTable-java.lang.String-) | 初始化一个新的实例[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定表名的类。 |
 | [DataTable(ResultSet resultSet)](#DataTable-java.sql.ResultSet-) | 通过包装指定的 ResultSet 创建一个对象。 |
 | [DataTable(ResultSet resultSet, String tableName)](#DataTable-java.sql.ResultSet-java.lang.String-) | 通过包装指定的 ResultSet 创建一个对象。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

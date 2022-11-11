@@ -1,7 +1,7 @@
 ---
 title: TextColumn
-second_title: Aspose.Words for Java API 参考
-description:表示单个文本列。
+second_title: Aspose.Words for Java API Reference
+description: 表示单个文本列。
 type: docs
 weight: 561
 url: /zh/java/com.aspose.words/textcolumn/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/textcolumn/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class TextColumn implements Cloneable
@@ -23,7 +23,7 @@ public class TextColumn implements Cloneable
 **TextColumn**对象仅用于指定具有自定义宽度和间距的列。如果您希望文档中的列等宽，请设置 TextColumns。[TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)至**true**.
 
 当一个新的**TextColumn**创建它的宽度和间距设置为零。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

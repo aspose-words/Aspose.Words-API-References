@@ -1,7 +1,7 @@
 ---
 title: CustomXmlSchemaCollection
-second_title: Aspose.Words for Java API 参考
-description:表示与自定义 XML 部件关联的 XML 模式的字符串集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示与自定义 XML 部件关联的 XML 模式的字符串集合。
 type: docs
 weight: 108
 url: /zh/java/com.aspose.words/customxmlschemacollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/customxmlschemacollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class CustomXmlSchemaCollection implements Iterable
@@ -21,7 +21,7 @@ public class CustomXmlSchemaCollection implements Iterable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
 您不创建此类的实例。您可以通过以下方式访问自定义 XML 部件的 XML 模式集合[CustomXmlPart.getSchemas()](../../com.aspose.words/customxmlpart\#getSchemas--)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

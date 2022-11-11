@@ -1,7 +1,7 @@
 ---
 title: Fill
-second_title: Aspose.Words for Java API 参考
-description:表示对象的填充格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示对象的填充格式。
 type: docs
 weight: 267
 url: /zh/java/com.aspose.words/fill/
@@ -18,7 +18,7 @@ public class Fill
 要了解更多信息，请访问**Working with Graphic Elements**文档文章。
 
 使用[ShapeBase.getFill()](../../com.aspose.words/shapebase\#getFill--)或者[Font.getFill()](../../com.aspose.words/font\#getFill--)属性来访问对象的填充属性。您不创建的实例[Fill](../../com.aspose.words/fill)直接上课。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

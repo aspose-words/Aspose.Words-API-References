@@ -1,7 +1,7 @@
 ---
 title: ResourceSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 481
 url: /zh/java/com.aspose.words/resourcesavingargs/
@@ -24,7 +24,7 @@ public class ResourceSavingArgs
 要应用您自己的逻辑来生成资源文件名，请使用[getResourceFileName()](../../com.aspose.words/resourcesavingargs\#getResourceFileName--) / [setResourceFileName(java.lang.String)](../../com.aspose.words/resourcesavingargs\#setResourceFileName-java.lang.String-)财产。
 
 要将资源保存到流而不是文件中，请使用**P:Aspose.Words.Saving.ResourceSavingArgs.ResourceStream**财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CommentCollection
-second_title: Aspose.Words for Java API 参考
-description:提供对节点集合的类型化访问。
+second_title: Aspose.Words for Java API Reference
+description: 提供对节点集合的类型化访问。
 type: docs
 weight: 77
 url: /zh/java/com.aspose.words/commentcollection/
@@ -16,7 +16,7 @@ public class CommentCollection extends NodeCollection
 提供对集合的类型化访问[Comment](../../com.aspose.words/comment)节点。
 
 要了解更多信息，请访问**Working with Comments**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

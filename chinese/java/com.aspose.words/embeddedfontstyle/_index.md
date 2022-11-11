@@ -1,7 +1,7 @@
 ---
 title: EmbeddedFontStyle
-second_title: Aspose.Words for Java API 参考
-description:指定对象内嵌入字体的样式。
+second_title: Aspose.Words for Java API Reference
+description: 指定对象内嵌入字体的样式。
 type: docs
 weight: 142
 url: /zh/java/com.aspose.words/embeddedfontstyle/
@@ -23,7 +23,7 @@ public class EmbeddedFontStyle
 | [ITALIC](#ITALIC) | 指定斜体嵌入字体。 |
 | [REGULAR](#REGULAR) | 指定常规嵌入字体。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

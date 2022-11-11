@@ -1,7 +1,7 @@
 ---
 title: LanguagePreferences
-second_title: Aspose.Words for Java API 参考
-description:允许设置语言首选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许设置语言首选项。
 type: docs
 weight: 357
 url: /zh/java/com.aspose.words/languagepreferences/
@@ -18,7 +18,7 @@ public class LanguagePreferences
 要了解更多信息，请访问**Specify Load Options**文档文章。
 
 在 Word 中实现“设置 Office 语言首选项”对话框。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

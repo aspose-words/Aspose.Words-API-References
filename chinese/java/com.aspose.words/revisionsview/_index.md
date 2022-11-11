@@ -1,7 +1,7 @@
 ---
 title: RevisionsView
-second_title: Aspose.Words for Java API 参考
-description:允许指定是使用文档的原始版本还是修订版本。
+second_title: Aspose.Words for Java API Reference
+description: 允许指定是使用文档的原始版本还是修订版本。
 type: docs
 weight: 491
 url: /zh/java/com.aspose.words/revisionsview/
@@ -21,7 +21,7 @@ public class RevisionsView
 | [FINAL](#FINAL) | 指定文档的修订版本。 |
 | [ORIGINAL](#ORIGINAL) | 指定文档的原始版本。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

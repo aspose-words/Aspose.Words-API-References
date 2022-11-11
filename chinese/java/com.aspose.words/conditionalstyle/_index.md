@@ -1,7 +1,7 @@
 ---
 title: ConditionalStyle
-second_title: Aspose.Words for Java API 参考
-description:表示应用于具有指定表格样式的表格的某些区域的特殊格式。
+second_title: Aspose.Words for Java API Reference
+description: 表示应用于具有指定表格样式的表格的某些区域的特殊格式。
 type: docs
 weight: 89
 url: /zh/java/com.aspose.words/conditionalstyle/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/conditionalstyle/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ConditionalStyle implements Cloneable
@@ -19,7 +19,7 @@ public class ConditionalStyle implements Cloneable
 表示应用于具有指定表格样式的表格的某些区域的特殊格式。
 
 要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

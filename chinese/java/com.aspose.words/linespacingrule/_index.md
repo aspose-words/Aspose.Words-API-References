@@ -1,7 +1,7 @@
 ---
 title: LineSpacingRule
-second_title: Aspose.Words for Java API 参考
-description:指定段落的行距值。
+second_title: Aspose.Words for Java API Reference
+description: 指定段落的行距值。
 type: docs
 weight: 366
 url: /zh/java/com.aspose.words/linespacingrule/
@@ -22,7 +22,7 @@ public class LineSpacingRule
 | [EXACTLY](#EXACTLY) | 行距永远不会从[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性，即使段落中使用了较大的字体。 |
 | [MULTIPLE](#MULTIPLE) | 行间距在[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性为行数。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

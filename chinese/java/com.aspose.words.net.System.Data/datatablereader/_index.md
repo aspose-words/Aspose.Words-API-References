@@ -1,7 +1,7 @@
 ---
 title: DataTableReader
-second_title: Aspose.Words for Java API 参考
-description:以一个或多个只读只进结果集的形式获取一个或多个对象的内容。
+second_title: Aspose.Words for Java API Reference
+description: 以一个或多个只读只进结果集的形式获取一个或多个对象的内容。
 type: docs
 weight: 27
 url: /zh/java/com.aspose.words.net.system.data/datatablereader/
@@ -14,13 +14,13 @@ public class DataTableReader extends System.Data.Common.DbDataReader
 ```
 
 这[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)获取一个或多个的内容[DataTable](../../com.aspose.words.net.system.data/datatable)一个或多个只读、只进结果集形式的对象。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DataTableReader(System.Data.DataTable dataTable)](#DataTableReader-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)使用提供的数据进行分类[DataTable](../../com.aspose.words.net.system.data/datatable). |
 | [DataTableReader(System.Data.DataTable[] dataTables)](#DataTableReader-com.aspose.words.net.System.Data.DataTable---) | 初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)类使用提供的数组[DataTable](../../com.aspose.words.net.system.data/datatable)对象。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

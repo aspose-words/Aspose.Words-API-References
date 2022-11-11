@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
-second_title: Aspose.Words for Java API 参考
-description:指定数字签名使用的数字哈希算法。
+second_title: Aspose.Words for Java API Reference
+description: 指定数字签名使用的数字哈希算法。
 type: docs
 weight: 452
 url: /zh/java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
@@ -23,7 +23,7 @@ public class PdfDigitalSignatureHashAlgorithm
 | [SHA_384](#SHA-384) | SHA-384 哈希算法。 |
 | [SHA_512](#SHA-512) | SHA-512 哈希算法。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

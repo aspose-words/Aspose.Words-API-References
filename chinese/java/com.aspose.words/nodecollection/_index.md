@@ -1,7 +1,7 @@
 ---
 title: NodeCollection
-second_title: Aspose.Words for Java API 参考
-description:表示特定类型的节点的集合。
+second_title: Aspose.Words for Java API Reference
+description: 表示特定类型的节点的集合。
 type: docs
 weight: 404
 url: /zh/java/com.aspose.words/nodecollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/nodecollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class NodeCollection implements Iterable
@@ -29,7 +29,7 @@ public class NodeCollection implements Iterable
 **NodeCollection**由返回**M:Aspose.Words.CompositeNode.GetChildNodes(Aspose.Words.Node类型,System.Boolean)**并且还用作类型化节点集合的基类，例如[SectionCollection](../../com.aspose.words/sectioncollection), [ParagraphCollection](../../com.aspose.words/paragraphcollection)等等
 
 **NodeCollection**可以是“平面的”并且只包含创建它的节点的直接子节点，或者它可以是“深的”并且包含所有后代子节点。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

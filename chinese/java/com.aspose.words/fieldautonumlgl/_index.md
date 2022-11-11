@@ -1,7 +1,7 @@
 ---
 title: 字段AutoNumLgl
-second_title: Aspose.Words for Java API 参考
-description:实现 AUTONUMLGL 字段。
+second_title: Aspose.Words for Java API Reference
+description: 实现 AUTONUMLGL 字段。
 type: docs
 weight: 159
 url: /zh/java/com.aspose.words/fieldautonumlgl/
@@ -18,7 +18,7 @@ public class 字段AutoNumLgl extends 字段
 要了解更多信息，请访问**Working with 字段**文档文章。
 
 以合法格式插入自动编号。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: IChartDataPoint
-second_title: Aspose.Words for Java API 参考
-description:包含图表上单个数据点的属性。
+second_title: Aspose.Words for Java API Reference
+description: 包含图表上单个数据点的属性。
 type: docs
 weight: 633
 url: /zh/java/com.aspose.words/ichartdatapoint/
@@ -11,7 +11,7 @@ public interface IChartDataPoint
 ```
 
 包含图表上单个数据点的属性。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

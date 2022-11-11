@@ -1,7 +1,7 @@
 ---
 title: SdtListItem
-second_title: Aspose.Words for Java API 参考
-description:此元素指定父或结构化文档标记中的单个列表项。
+second_title: Aspose.Words for Java API Reference
+description: 此元素指定父或结构化文档标记中的单个列表项。
 type: docs
 weight: 506
 url: /zh/java/com.aspose.words/sdtlistitem/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/sdtlistitem/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class SdtListItem implements Cloneable
@@ -19,13 +19,13 @@ public class SdtListItem implements Cloneable
 此元素指定父项中的单个列表项[Sdt类型.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX)或者[Sdt类型.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST)结构化文档标签。
 
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [SdtListItem(String displayText, String value)](#SdtListItem-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
 | [SdtListItem(String value)](#SdtListItem-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CompareOptions
-second_title: Aspose.Words for Java API 参考
-description:允许选择文档比较操作的高级选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许选择文档比较操作的高级选项。
 type: docs
 weight: 81
 url: /zh/java/com.aspose.words/compareoptions/
@@ -16,7 +16,7 @@ public class CompareOptions
 允许选择文档比较操作的高级选项。
 
 要了解更多信息，请访问**Compare Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

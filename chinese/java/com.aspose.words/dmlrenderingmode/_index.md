@@ -1,7 +1,7 @@
 ---
 title: DmlRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何将 DrawingML 形状呈现为固定页面格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将 DrawingML 形状呈现为固定页面格式。
 type: docs
 weight: 118
 url: /zh/java/com.aspose.words/dmlrenderingmode/
@@ -21,7 +21,7 @@ public class DmlRenderingMode
 | [DRAWING_ML](#DRAWING-ML) | Aspose.Words 忽略 DrawingML 的后备形状并呈现 DrawingML 本身。 |
 | [FALLBACK](#FALLBACK) | 如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

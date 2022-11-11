@@ -1,7 +1,7 @@
 ---
 title: SystemFontSource
-second_title: Aspose.Words for Java API 参考
-description:表示安装到系统的所有 True类型 字体。
+second_title: Aspose.Words for Java API Reference
+description: 表示安装到系统的所有 True类型 字体。
 type: docs
 weight: 543
 url: /zh/java/com.aspose.words/systemfontsource/
@@ -16,13 +16,13 @@ public class SystemFontSource extends FontSourceBase
 表示安装到系统的所有 True类型 字体。
 
 要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [SystemFontSource()](#SystemFontSource--) | 克托尔。 |
 | [SystemFontSource(int priority)](#SystemFontSource-int-) | 克托尔。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

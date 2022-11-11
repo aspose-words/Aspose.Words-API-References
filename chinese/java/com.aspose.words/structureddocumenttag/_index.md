@@ -1,7 +1,7 @@
 ---
 title: StructuredDocumentTag
-second_title: Aspose.Words for Java API 参考
-description:表示文档中的结构化文档标签 SDT 或内容控件。
+second_title: Aspose.Words for Java API Reference
+description: 表示文档中的结构化文档标签 SDT 或内容控件。
 type: docs
 weight: 532
 url: /zh/java/com.aspose.words/structureddocumenttag/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/structureddocumenttag/
 **遗产:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
 ```
 public class StructuredDocumentTag extends CompositeNode implements IStructuredDocumentTag
@@ -31,12 +31,12 @@ public class StructuredDocumentTag extends CompositeNode implements IStructuredD
  *  单元格级别 - 在表格行中的单元格中，作为[Row](../../com.aspose.words/row)节点。
  *  Inline-level - 在里面的内联内容中，作为一个子级[Paragraph](../../com.aspose.words/paragraph).
  *  嵌套在另一个里面[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [StructuredDocumentTag(DocumentBase doc, int type, int level)](#StructuredDocumentTag-com.aspose.words.DocumentBase-int-int-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

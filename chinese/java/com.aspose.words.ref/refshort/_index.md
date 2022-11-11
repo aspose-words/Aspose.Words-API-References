@@ -1,7 +1,7 @@
 ---
 title: RefShort
-second_title: Aspose.Words for Java API 参考
-description:表示 Short 基本类型的 Out/Ref 构造
+second_title: Aspose.Words for Java API Reference
+description: 表示 Short 基本类型的 Out/Ref 构造
 type: docs
 weight: 19
 url: /zh/java/com.aspose.words.ref/refshort/
@@ -14,12 +14,12 @@ public class RefShort
 ```
 
 表示 Short 基本类型的 Out/Ref 构造
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RefShort(short value)](#RefShort-short-) | 使用给定值模拟 Out/Ref 参数初始化。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

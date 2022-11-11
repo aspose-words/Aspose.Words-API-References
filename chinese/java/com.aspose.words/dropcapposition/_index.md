@@ -1,7 +1,7 @@
 ---
 title: DropCapPosition
-second_title: Aspose.Words for Java API 参考
-description:指定首字下沉文本的位置。
+second_title: Aspose.Words for Java API Reference
+description: 指定首字下沉文本的位置。
 type: docs
 weight: 134
 url: /zh/java/com.aspose.words/dropcapposition/
@@ -22,7 +22,7 @@ public class DropCapPosition
 | [NONE](#NONE) | 该段落没有首字下沉。 |
 | [NORMAL](#NORMAL) | 首字下沉位于锚段落的文本边距内。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

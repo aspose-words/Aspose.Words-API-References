@@ -1,7 +1,7 @@
 ---
 title: MailMergeData类型
-second_title: Aspose.Words for Java API 参考
-description:指定外部邮件合并数据源的类型。
+second_title: Aspose.Words for Java API Reference
+description: 指定外部邮件合并数据源的类型。
 type: docs
 weight: 382
 url: /zh/java/com.aspose.words/mailmergedatatype/
@@ -27,7 +27,7 @@ public class MailMergeData类型
 | [SPREADSHEET](#SPREADSHEET) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到 Excel 电子表格。 |
 | [TEXT_FILE](#TEXT-FILE) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到文本文件。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

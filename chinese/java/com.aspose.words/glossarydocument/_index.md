@@ -1,7 +1,7 @@
 ---
 title: GlossaryDocument
-second_title: Aspose.Words for Java API 参考
-description:表示 Word 文档中词汇表文档的根元素。
+second_title: Aspose.Words for Java API Reference
+description: 表示 Word 文档中词汇表文档的根元素。
 type: docs
 weight: 306
 url: /zh/java/com.aspose.words/glossarydocument/
@@ -24,7 +24,7 @@ public class GlossaryDocument extends DocumentBase
 [GlossaryDocument](../../com.aspose.words/glossarydocument)可以包含任意数量的[BuildingBlock](../../com.aspose.words/buildingblock)对象。每个[BuildingBlock](../../com.aspose.words/buildingblock)代表一个文档部分。
 
 对应于**glossaryDocument**和**docParts**OOXML 中的元素。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

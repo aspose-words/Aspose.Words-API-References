@@ -1,7 +1,7 @@
 ---
 title: 字段IfComparisonResult
-second_title: Aspose.Words for Java API 参考
-description:指定 IF 字段条件评估的结果。
+second_title: Aspose.Words for Java API Reference
+description: 指定 IF 字段条件评估的结果。
 type: docs
 weight: 201
 url: /zh/java/com.aspose.words/fieldifcomparisonresult/
@@ -22,7 +22,7 @@ public class 字段IfComparisonResult
 | [FALSE](#FALSE) | 条件为假。 |
 | [TRUE](#TRUE) | 条件为真。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

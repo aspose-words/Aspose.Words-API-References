@@ -1,7 +1,7 @@
 ---
 title: DmlEffectsRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何将 DrawingML 效果呈现为固定页面格式。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何将 DrawingML 效果呈现为固定页面格式。
 type: docs
 weight: 117
 url: /zh/java/com.aspose.words/dmleffectsrenderingmode/
@@ -22,7 +22,7 @@ public class DmlEffectsRenderingMode
 | [NONE](#NONE) | 不渲染 DrawingML 效果。 |
 | [SIMPLIFIED](#SIMPLIFIED) | 简化了 DrawingML 效果的渲染。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

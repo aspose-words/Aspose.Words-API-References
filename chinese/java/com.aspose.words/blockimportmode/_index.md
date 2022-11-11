@@ -1,7 +1,7 @@
 ---
 title: BlockImportMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何从基于 HTML 的文档中导入块级元素的属性。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何从基于 HTML 的文档中导入块级元素的属性。
 type: docs
 weight: 29
 url: /zh/java/com.aspose.words/blockimportmode/
@@ -21,7 +21,7 @@ public class BlockImportMode
 | [MERGE](#MERGE) | 父块的属性被合并并存储在子元素上（即 |
 | [PRESERVE](#PRESERVE) | 父块的属性被导入到一个特殊的逻辑结构中，并与文档节点分开存储。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Words for Java API 参考
-description:表示包中的自定义 XML 数据存储部件自定义 XML 数据。
+second_title: Aspose.Words for Java API Reference
+description: 表示包中的自定义 XML 数据存储部件自定义 XML 数据。
 type: docs
 weight: 104
 url: /zh/java/com.aspose.words/customxmlpart/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/customxmlpart/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class CustomXmlPart implements Cloneable
@@ -21,7 +21,7 @@ public class CustomXmlPart implements Cloneable
 要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
  DOCX 或 DOC 文档可以包含一个或多个自定义 XML 数据存储部分。 Aspose.Words 保留并允许通过[Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-)收藏。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: MultiplePages类型
-second_title: Aspose.Words for Java API 参考
-description:指定如何打印文档。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何打印文档。
 type: docs
 weight: 400
 url: /zh/java/com.aspose.words/multiplepagestype/
@@ -25,7 +25,7 @@ public class MultiplePages类型
 | [NORMAL](#NORMAL) | 正常打印，未指定多页。 |
 | [TWO_PAGES_PER_SHEET](#TWO-PAGES-PER-SHEET) | 每张打印两页。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

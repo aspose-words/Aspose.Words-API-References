@@ -1,7 +1,7 @@
 ---
 title: Dml3DEffectsRenderingMode
-second_title: Aspose.Words for Java API 参考
-description:指定如何渲染 3D 形状效果。
+second_title: Aspose.Words for Java API Reference
+description: 指定如何渲染 3D 形状效果。
 type: docs
 weight: 116
 url: /zh/java/com.aspose.words/dml3deffectsrenderingmode/
@@ -21,7 +21,7 @@ public class Dml3DEffectsRenderingMode
 | [ADVANCED](#ADVANCED) | 渲染扩展的特殊效果列表，包括高级 3D 效果，例如斜面、照明和材质。 |
 | [BASIC](#BASIC) | 轻量级且稳定的渲染，基于内部引擎，但在使用此模式时不显示高级效果，如照明、材质和其他附加效果。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

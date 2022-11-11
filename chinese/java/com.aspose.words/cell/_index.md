@@ -1,7 +1,7 @@
 ---
 title: Cell
-second_title: Aspose.Words for Java API 参考
-description:表示表格单元格。
+second_title: Aspose.Words for Java API Reference
+description: 表示表格单元格。
 type: docs
 weight: 48
 url: /zh/java/com.aspose.words/cell/
@@ -22,12 +22,12 @@ public class Cell extends CompositeNode
 **Cell**可以包含块级节点**Paragraph**和**Table**.
 
 一个最小有效单元格至少需要一个**Paragraph**.
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Cell(DocumentBase doc)](#Cell-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Cell**班级。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,6 +1,6 @@
 ---
 title: DbDataReader
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 从数据源读取只进的行流。
 type: docs
 weight: 10
@@ -10,19 +10,19 @@ url: /zh/java/com.aspose.words.net.system.data.common/dbdatareader/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 [com.aspose.words.net.System.Data.IDataReader](../../com.aspose.words.net.system.data/idatareader), [com.aspose.words.net.System.Data.IDataRecord](../../com.aspose.words.net.system.data/idatarecord), java.lang.Iterable
 ```
 public abstract class DbDataReader implements System.Data.IDataReader, System.Data.IDataRecord, Iterable
 ```
 
 从数据源读取只进的行流。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [DbDataReader()](#DbDataReader--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

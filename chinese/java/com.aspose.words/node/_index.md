@@ -1,6 +1,6 @@
 ---
 title: Node
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: Word 文档的所有节点的基类。
 type: docs
 weight: 401
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/node/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public abstract class Node implements Cloneable
@@ -31,7 +31,7 @@ Word 文档的所有节点的基类。
  *  提供默认克隆功能。
  *  实现父节点和所有者文档机制。
  *  实现对兄弟节点的访问。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

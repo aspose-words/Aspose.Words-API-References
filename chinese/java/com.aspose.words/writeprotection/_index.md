@@ -1,7 +1,7 @@
 ---
 title: WriteProtection
-second_title: Aspose.Words for Java API 参考
-description:指定文档的写保护设置。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档的写保护设置。
 type: docs
 weight: 623
 url: /zh/java/com.aspose.words/writeprotection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/writeprotection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class WriteProtection implements Cloneable
@@ -25,7 +25,7 @@ public class WriteProtection implements Cloneable
 写保护不同于文档保护。在 Microsoft Word 中的“另存为”对话框的选项中指定写保护。
 
 您不直接创建此类的实例。您可以通过[Document.getWriteProtection()](../../com.aspose.words/document\#getWriteProtection--)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

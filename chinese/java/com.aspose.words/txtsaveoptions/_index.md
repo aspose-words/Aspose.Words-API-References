@@ -1,7 +1,7 @@
 ---
 title: TxtSaveOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在将文档保存为格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 585
 url: /zh/java/com.aspose.words/txtsaveoptions/
@@ -16,7 +16,7 @@ public class TxtSaveOptions extends TxtSaveOptionsBase
 可用于在将文档保存到[SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT)格式。
 
 要了解更多信息，请访问**Specify Save Options**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

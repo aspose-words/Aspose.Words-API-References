@@ -1,7 +1,7 @@
 ---
 title: MeasurementUnits
-second_title: Aspose.Words for Java API 参考
-description:指定测量单位。
+second_title: Aspose.Words for Java API Reference
+description: 指定测量单位。
 type: docs
 weight: 392
 url: /zh/java/com.aspose.words/measurementunits/
@@ -24,7 +24,7 @@ public class MeasurementUnits
 | [PICAS](#PICAS) | Picas（常用于传统打字机字体间距）。 |
 | [POINTS](#POINTS) | 点。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

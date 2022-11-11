@@ -1,7 +1,7 @@
 ---
 title: View类型
-second_title: Aspose.Words for Java API 参考
-description:Microsoft Word 中视图模式的可能值。
+second_title: Aspose.Words for Java API Reference
+description: Microsoft Word 中视图模式的可能值。
 type: docs
 weight: 602
 url: /zh/java/com.aspose.words/viewtype/
@@ -25,7 +25,7 @@ Microsoft Word 中视图模式的可能值。
 | [READING](#READING) | 该文档应在应用程序的默认视图中呈现。 |
 | [WEB](#WEB) | 该文档应在模仿该文档在网页中显示的方式的视图中呈现。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: RelativeVerticalPosition
-second_title: Aspose.Words for Java API 参考
-description:指定形状或文本框的垂直位置是相对的。
+second_title: Aspose.Words for Java API Reference
+description: 指定形状或文本框的垂直位置是相对的。
 type: docs
 weight: 474
 url: /zh/java/com.aspose.words/relativeverticalposition/
@@ -29,7 +29,7 @@ public class RelativeVerticalPosition
 | [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | 默认值为[PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH). |
 | [TOP_MARGIN](#TOP-MARGIN) | 指定垂直定位应相对于当前页面的上边距。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

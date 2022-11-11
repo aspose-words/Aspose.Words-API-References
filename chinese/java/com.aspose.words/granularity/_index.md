@@ -1,7 +1,7 @@
 ---
 title: Granularity
-second_title: Aspose.Words for Java API 参考
-description:指定比较两个文档时要跟踪的更改的粒度。
+second_title: Aspose.Words for Java API Reference
+description: 指定比较两个文档时要跟踪的更改的粒度。
 type: docs
 weight: 312
 url: /zh/java/com.aspose.words/granularity/
@@ -21,7 +21,7 @@ public class Granularity
 | [CHAR_LEVEL](#CHAR-LEVEL) |  |
 | [WORD_LEVEL](#WORD-LEVEL) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

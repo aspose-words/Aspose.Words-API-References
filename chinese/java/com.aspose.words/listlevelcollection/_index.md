@@ -1,7 +1,7 @@
 ---
 title: ListLevelCollection
-second_title: Aspose.Words for Java API 参考
-description:列表中每个级别的列表格式集合。
+second_title: Aspose.Words for Java API Reference
+description: 列表中每个级别的列表格式集合。
 type: docs
 weight: 374
 url: /zh/java/com.aspose.words/listlevelcollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/listlevelcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class ListLevelCollection implements Cloneable, Iterable
@@ -19,7 +19,7 @@ public class ListLevelCollection implements Cloneable, Iterable
 列表中每个级别的列表格式集合。
 
 要了解更多信息，请访问**Working with Lists**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

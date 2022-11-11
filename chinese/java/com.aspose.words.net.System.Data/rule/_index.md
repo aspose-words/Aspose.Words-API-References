@@ -1,7 +1,7 @@
 ---
 title: Rule
-second_title: Aspose.Words for Java API 参考
-description:指示执行 a 时发生的操作。
+second_title: Aspose.Words for Java API Reference
+description: 指示执行 a 时发生的操作。
 type: docs
 weight: 36
 url: /zh/java/com.aspose.words.net.system.data/rule/
@@ -22,7 +22,7 @@ public enum Rule extends Enum<System.Data.Rule>
 | [NONE](#NONE) | 未对相关行执行任何操作。 |
 | [SET_DEFAULT](#SET-DEFAULT) | 将相关行中的值设置为包含在[DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue--) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object-)财产。 |
 | [SET_NULL](#SET-NULL) | 将相关行中的值设置为 DBNull。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

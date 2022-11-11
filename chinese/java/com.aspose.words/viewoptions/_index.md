@@ -1,7 +1,7 @@
 ---
 title: ViewOptions
-second_title: Aspose.Words for Java API 参考
-description:提供各种选项来控制文档在 Microsoft Word 中的显示方式。
+second_title: Aspose.Words for Java API Reference
+description: 提供各种选项来控制文档在 Microsoft Word 中的显示方式。
 type: docs
 weight: 601
 url: /zh/java/com.aspose.words/viewoptions/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/viewoptions/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ViewOptions implements Cloneable
@@ -19,7 +19,7 @@ public class ViewOptions implements Cloneable
 提供各种选项来控制文档在 Microsoft Word 中的显示方式。
 
 要了解更多信息，请访问**Work with Options and Appearance of Word Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

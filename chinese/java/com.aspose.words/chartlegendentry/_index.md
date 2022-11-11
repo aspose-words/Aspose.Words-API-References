@@ -1,7 +1,7 @@
 ---
 title: ChartLegendEntry
-second_title: Aspose.Words for Java API 参考
-description:表示图表图例条目。
+second_title: Aspose.Words for Java API Reference
+description: 表示图表图例条目。
 type: docs
 weight: 64
 url: /zh/java/com.aspose.words/chartlegendentry/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/chartlegendentry/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Cloneable
 ```
 public class ChartLegendEntry implements Cloneable
@@ -23,7 +23,7 @@ public class ChartLegendEntry implements Cloneable
 图例条目对应于特定的图表系列或趋势线。
 
 条目的文本是系列或趋势线的名称。无法更改文本。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

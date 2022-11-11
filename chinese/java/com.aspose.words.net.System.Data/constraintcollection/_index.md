@@ -1,7 +1,7 @@
 ---
 title: ConstraintCollection
-second_title: Aspose.Words for Java API 参考
-description:表示 a 的一组约束。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 的一组约束。
 type: docs
 weight: 11
 url: /zh/java/com.aspose.words.net.system.data/constraintcollection/
@@ -10,14 +10,14 @@ url: /zh/java/com.aspose.words.net.system.data/constraintcollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class ConstraintCollection implements Iterable
 ```
 
 表示一个约束的集合[DataTable](../../com.aspose.words.net.system.data/datatable).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

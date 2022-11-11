@@ -1,7 +1,7 @@
 ---
 title: IHyphenationCallback
-second_title: Aspose.Words for Java API 参考
-description:由可以注册连字符字典的类实现。
+second_title: Aspose.Words for Java API Reference
+description: 由可以注册连字符字典的类实现。
 type: docs
 weight: 647
 url: /zh/java/com.aspose.words/ihyphenationcallback/
@@ -11,7 +11,7 @@ public interface IHyphenationCallback
 ```
 
 由可以注册连字符字典的类实现。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

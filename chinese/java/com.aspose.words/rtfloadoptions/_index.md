@@ -1,7 +1,7 @@
 ---
 title: RtfLoadOptions
-second_title: Aspose.Words for Java API 参考
-description:允许在将文档加载到对象时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 允许在将文档加载到对象时指定其他选项。
 type: docs
 weight: 495
 url: /zh/java/com.aspose.words/rtfloadoptions/
@@ -16,12 +16,12 @@ public class RtfLoadOptions extends LoadOptions
 允许在加载时指定其他选项[LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF)文档成一个[Document](../../com.aspose.words/document)目的。
 
 要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [RtfLoadOptions()](#RtfLoadOptions--) | 使用默认值初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

@@ -1,7 +1,7 @@
 ---
 title: Constraint
-second_title: Aspose.Words for Java API 参考
-description:表示可以对一个或多个对象实施的约束。
+second_title: Aspose.Words for Java API Reference
+description: 表示可以对一个或多个对象实施的约束。
 type: docs
 weight: 10
 url: /zh/java/com.aspose.words.net.system.data/constraint/
@@ -14,12 +14,12 @@ public abstract class Constraint
 ```
 
 表示可以对一个或多个强制执行的约束[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [Constraint()](#Constraint--) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

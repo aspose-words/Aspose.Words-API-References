@@ -1,7 +1,7 @@
 ---
 title: ShapeRenderer
-second_title: Aspose.Words for Java API 参考
-description:提供渲染个人或光栅或矢量图像或图形对象的方法。
+second_title: Aspose.Words for Java API Reference
+description: 提供渲染个人或光栅或矢量图像或图形对象的方法。
 type: docs
 weight: 520
 url: /zh/java/com.aspose.words/shaperenderer/
@@ -16,12 +16,12 @@ public class ShapeRenderer extends NodeRendererBase
 提供渲染个体的方法[Shape](../../com.aspose.words/shape)或者[GroupShape](../../com.aspose.words/groupshape)到光栅或矢量图像或到图形对象。
 
 要了解更多信息，请访问**Working with Shapes**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [ShapeRenderer(ShapeBase shape)](#ShapeRenderer-com.aspose.words.ShapeBase-) | 初始化此类的新实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

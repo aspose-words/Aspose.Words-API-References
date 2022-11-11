@@ -1,7 +1,7 @@
 ---
 title: WebExtensionStore类型
-second_title: Aspose.Words for Java API 参考
-description:枚举 Web 扩展商店的可用类型。
+second_title: Aspose.Words for Java API Reference
+description: 枚举 Web 扩展商店的可用类型。
 type: docs
 weight: 619
 url: /zh/java/com.aspose.words/webextensionstoretype/
@@ -27,7 +27,7 @@ public class WebExtensionStore类型
 | [SP_APP](#SP-APP) |  |
 | [SP_CATALOG](#SP-CATALOG) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

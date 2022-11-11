@@ -1,7 +1,7 @@
 ---
 title: TxtListIndentation
-second_title: Aspose.Words for Java API 参考
-description:指定文档导出为格式时列表级别的缩进方式。
+second_title: Aspose.Words for Java API Reference
+description: 指定文档导出为格式时列表级别的缩进方式。
 type: docs
 weight: 583
 url: /zh/java/com.aspose.words/txtlistindentation/
@@ -16,7 +16,7 @@ public class TxtListIndentation
 指定文档导出到时如何缩进列表级别[SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT)格式。
 
 要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

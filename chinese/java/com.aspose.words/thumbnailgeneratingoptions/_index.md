@@ -1,7 +1,7 @@
 ---
 title: ThumbnailGeneratingOptions
-second_title: Aspose.Words for Java API 参考
-description:可用于在为文档生成缩略图时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: 可用于在为文档生成缩略图时指定其他选项。
 type: docs
 weight: 578
 url: /zh/java/com.aspose.words/thumbnailgeneratingoptions/
@@ -14,7 +14,7 @@ public class ThumbnailGeneratingOptions
 ```
 
 可用于在为文档生成缩略图时指定其他选项。用户可以调用方法[Document.updateThumbnail(com.aspose.words.ThumbnailGeneratingOptions)](../../com.aspose.words/document\#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions-)生成[BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail--) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte---)为一份文件。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

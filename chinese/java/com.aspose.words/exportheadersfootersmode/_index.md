@@ -1,7 +1,7 @@
 ---
 title: ExportHeadersFootersMode
-second_title: Aspose.Words for Java API 参考
-description:指定页眉和页脚如何导出到 HTML MHTML 或 EPUB。
+second_title: Aspose.Words for Java API Reference
+description: 指定页眉和页脚如何导出到 HTML MHTML 或 EPUB。
 type: docs
 weight: 149
 url: /zh/java/com.aspose.words/exportheadersfootersmode/
@@ -23,7 +23,7 @@ public class ExportHeadersFootersMode
 | [NONE](#NONE) | 不导出页眉和页脚。 |
 | [PER_SECTION](#PER-SECTION) | 主要页眉和页脚在每个部分的开头和结尾导出。 |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

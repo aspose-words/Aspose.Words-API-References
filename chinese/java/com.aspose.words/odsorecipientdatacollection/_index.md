@@ -1,7 +1,7 @@
 ---
 title: OdsoRecipientDataCollection
-second_title: Aspose.Words for Java API 参考
-description:类型化的集合
+second_title: Aspose.Words for Java API Reference
+description: 类型化的集合
 type: docs
 weight: 417
 url: /zh/java/com.aspose.words/odsorecipientdatacollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/odsorecipientdatacollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class OdsoRecipientDataCollection implements Iterable
@@ -19,7 +19,7 @@ public class OdsoRecipientDataCollection implements Iterable
 类型化的集合[OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
 
 要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

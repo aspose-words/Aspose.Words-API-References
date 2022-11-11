@@ -1,7 +1,7 @@
 ---
 title: I字段ResultFormatter
-second_title: Aspose.Words for Java API 参考
-description:如果要控制字段结果的格式，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: 如果要控制字段结果的格式，请实现此接口。
 type: docs
 weight: 642
 url: /zh/java/com.aspose.words/ifieldresultformatter/
@@ -11,7 +11,7 @@ public interface I字段ResultFormatter
 ```
 
 如果要控制字段结果的格式，请实现此接口。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

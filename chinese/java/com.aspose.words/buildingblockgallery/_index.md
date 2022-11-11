@@ -1,7 +1,7 @@
 ---
 title: BuildingBlockGallery
-second_title: Aspose.Words for Java API 参考
-description:指定构建块分类到的预定义库。
+second_title: Aspose.Words for Java API Reference
+description: 指定构建块分类到的预定义库。
 type: docs
 weight: 44
 url: /zh/java/com.aspose.words/buildingblockgallery/
@@ -60,7 +60,7 @@ public class BuildingBlockGallery
 | [TEXT_BOX](#TEXT-BOX) |  |
 | [WATERMARKS](#WATERMARKS) |  |
 | [length](#length) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

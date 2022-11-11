@@ -1,7 +1,7 @@
 ---
 title: CssSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 96
 url: /zh/java/com.aspose.words/csssavingargs/
@@ -24,7 +24,7 @@ public class CssSavingArgs
 要将 CSS 保存到流中，请使用**P:Aspose.Words.Saving.CssSavingArgs.CssStream**财产。
 
 要禁止将 CSS 保存到文件中并嵌入到 HTML 文档中，请使用[isExportNeeded()](../../com.aspose.words/csssavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/csssavingargs\#isExportNeeded-boolean-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

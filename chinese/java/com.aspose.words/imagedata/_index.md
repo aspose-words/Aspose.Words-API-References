@@ -1,7 +1,7 @@
 ---
 title: ImageData
-second_title: Aspose.Words for Java API 参考
-description:定义形状的图像。
+second_title: Aspose.Words for Java API Reference
+description: 定义形状的图像。
 type: docs
 weight: 337
 url: /zh/java/com.aspose.words/imagedata/
@@ -24,7 +24,7 @@ public class ImageData
 无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
 
 要将图像存储在形状中，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请将[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

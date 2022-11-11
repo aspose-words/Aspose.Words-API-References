@@ -1,7 +1,7 @@
 ---
 title: DataRow
-second_title: Aspose.Words for Java API 参考
-description:表示 a 中的一行数据。
+second_title: Aspose.Words for Java API Reference
+description: 表示 a 中的一行数据。
 type: docs
 weight: 20
 url: /zh/java/com.aspose.words.net.system.data/datarow/
@@ -14,7 +14,7 @@ public class DataRow
 ```
 
 表示a中的一行数据[DataTable](../../com.aspose.words.net.system.data/datatable).
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

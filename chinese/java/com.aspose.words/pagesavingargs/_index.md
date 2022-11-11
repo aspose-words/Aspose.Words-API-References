@@ -1,7 +1,7 @@
 ---
 title: PageSavingArgs
-second_title: Aspose.Words for Java API 参考
-description:为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: 为事件提供数据。
 type: docs
 weight: 438
 url: /zh/java/com.aspose.words/pagesavingargs/
@@ -16,7 +16,7 @@ public class PageSavingArgs
 提供数据为[IPageSavingCallback.pageSaving(com.aspose.words.PageSavingArgs)](../../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-)事件。
 
 要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

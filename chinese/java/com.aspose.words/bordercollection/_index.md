@@ -1,7 +1,7 @@
 ---
 title: BorderCollection
-second_title: Aspose.Words for Java API 参考
-description:边框对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: 边框对象的集合。
 type: docs
 weight: 37
 url: /zh/java/com.aspose.words/bordercollection/
@@ -10,7 +10,7 @@ url: /zh/java/com.aspose.words/bordercollection/
 **遗产:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**所有实现的接口:**
 java.lang.Iterable
 ```
 public class BorderCollection implements Iterable
@@ -21,7 +21,7 @@ public class BorderCollection implements Iterable
 要了解更多信息，请访问**Programming with Documents**文档文章。
 
 不同的文档元素有不同的边界。例如，ParagraphFormat 具有底部、左侧、右侧和顶部边框。您可以为每个边框单独指定不同的格式，或者枚举所有边框并应用相同的格式。
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

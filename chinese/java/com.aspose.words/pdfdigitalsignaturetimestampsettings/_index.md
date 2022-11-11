@@ -1,7 +1,7 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for Java API 参考
-description:包含数字签名时间戳的设置。
+second_title: Aspose.Words for Java API Reference
+description: 包含数字签名时间戳的设置。
 type: docs
 weight: 453
 url: /zh/java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
@@ -16,14 +16,14 @@ public class PdfDigitalSignatureTimestampSettings
 包含数字签名时间戳的设置。
 
 要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 构造函数s
+## 构造函数
 
 | 构造函数 | 描述 |
 | --- | --- |
 | [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | 初始化此类的一个实例。 |
 | [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的一个实例。 |
 | [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | 初始化此类的一个实例。 |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |

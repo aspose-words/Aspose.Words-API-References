@@ -1,6 +1,6 @@
 ---
 title: DBNull
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 13
@@ -17,7 +17,7 @@ public class DBNull
 | 字段 | 描述 |
 | --- | --- |
 | [Value](#Value) |  |
-## 方法s
+## 方法
 
 | 方法 | 描述 |
 | --- | --- |
