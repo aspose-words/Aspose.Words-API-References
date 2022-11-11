@@ -1,34 +1,34 @@
 ---
 title: HtmlElementSizeOutputMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words exports element widths and heights to HTML MHTML and EPUB.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Aspose.Words 如何将元素宽度和高度导出到 HTML MHTML 和 EPUB。
 type: docs
 weight: 324
-url: /java/com.aspose.words/htmlelementsizeoutputmode/
+url: /zh/java/com.aspose.words/htmlelementsizeoutputmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class HtmlElementSizeOutputMode
 ```
 
-Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB.
-## Fields
+指定 Aspose.Words 如何将元素宽度和高度导出到 HTML、MHTML 和 EPUB。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ALL](#ALL) | All element sizes, both in absolute and relative units, specified in the document are exported. |
-| [NONE](#NONE) | Element sizes are not exported. |
-| [RELATIVE_ONLY](#RELATIVE-ONLY) | Element sizes are exported only if they are specified in relative units in the document. |
+| [ALL](#ALL) | 导出文档中指定的所有元素大小，包括绝对单位和相对单位。 |
+| [NONE](#NONE) | 不导出元素大小。 |
+| [RELATIVE_ONLY](#RELATIVE-ONLY) | 只有在文档中以相对单位指定元素大小时，才会导出元素大小。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlElementSizeOutputModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int htmlElementSizeOutputMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ALL
 ```
 
 
-All element sizes, both in absolute and relative units, specified in the document are exported.
+导出文档中指定的所有元素大小，包括绝对单位和相对单位。
 
 ### NONE {#NONE}
 ```
@@ -53,7 +53,7 @@ public static int NONE
 ```
 
 
-Element sizes are not exported. Visual agents will build layout automatically according to relationship between elements.
+不导出元素大小。视觉代理会根据元素之间的关系自动构建布局。
 
 ### RELATIVE_ONLY {#RELATIVE-ONLY}
 ```
@@ -61,7 +61,7 @@ public static int RELATIVE_ONLY
 ```
 
 
-Element sizes are exported only if they are specified in relative units in the document. Fixed sizes are not exported in this mode. Visual agents will calculate missing sizes to make document layout more natural.
+只有在文档中以相对单位指定元素大小时，才会导出元素大小。在此模式下不导出固定尺寸。视觉代理将计算缺失的尺寸以使文档布局更自然。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String htmlElementSizeOutputModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlElementSizeOutputModeName)
@@ -92,23 +92,23 @@ public static int fromName(String htmlElementSizeOutputModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlElementSizeOutputModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int htmlElementSizeOutputMode) {#getName-int-}
 ```
 public static String getName(int htmlElementSizeOutputMode)
@@ -117,12 +117,12 @@ public static String getName(int htmlElementSizeOutputMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlElementSizeOutputMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int htmlElementSizeOutputMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int htmlElementSizeOutputMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlElementSizeOutputMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

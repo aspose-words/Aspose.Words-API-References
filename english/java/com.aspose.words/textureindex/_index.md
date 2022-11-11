@@ -1,22 +1,22 @@
 ---
 title: TextureIndex
 second_title: Aspose.Words for Java API Reference
-description: Specifies shading texture.
+description: 指定着色纹理。
 type: docs
 weight: 572
-url: /java/com.aspose.words/textureindex/
+url: /zh/java/com.aspose.words/textureindex/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextureIndex
 ```
 
-Specifies shading texture.
-## Fields
+指定着色纹理。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
 | [TEXTURE_10_PERCENT](#TEXTURE-10-PERCENT) |  |
 | [TEXTURE_12_PT_5_PERCENT](#TEXTURE-12-PT-5-PERCENT) |  |
@@ -68,18 +68,18 @@ Specifies shading texture.
 | [TEXTURE_DIAGONAL_DOWN](#TEXTURE-DIAGONAL-DOWN) |  |
 | [TEXTURE_DIAGONAL_UP](#TEXTURE-DIAGONAL-UP) |  |
 | [TEXTURE_HORIZONTAL](#TEXTURE-HORIZONTAL) |  |
-| [TEXTURE_NIL](#TEXTURE-NIL) | Specifies that there shall be no pattern used on the current shaded region (i.e. |
+| [TEXTURE_NIL](#TEXTURE-NIL) | 指定当前阴影区域不应使用任何图案（即 |
 | [TEXTURE_NONE](#TEXTURE-NONE) |  |
 | [TEXTURE_SOLID](#TEXTURE-SOLID) |  |
 | [TEXTURE_VERTICAL](#TEXTURE-VERTICAL) |  |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textureIndexName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int textureIndex)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -496,7 +496,7 @@ public static int TEXTURE_NIL
 ```
 
 
-Specifies that there shall be no pattern used on the current shaded region (i.e. the pattern shall be a complete fill with the background color).
+指定当前阴影区域不应使用任何图案（即图案应为背景颜色的完整填充）。
 
 ### TEXTURE_NONE {#TEXTURE-NONE}
 ```
@@ -536,13 +536,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String textureIndexName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textureIndexName)
@@ -551,23 +551,23 @@ public static int fromName(String textureIndexName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureIndexName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int textureIndex) {#getName-int-}
 ```
 public static String getName(int textureIndex)
@@ -576,12 +576,12 @@ public static String getName(int textureIndex)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureIndex | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -591,8 +591,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -601,8 +601,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -627,7 +627,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int textureIndex) {#toString-int-}
 ```
@@ -637,12 +637,12 @@ public static String toString(int textureIndex)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureIndex | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -660,8 +660,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -673,9 +673,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

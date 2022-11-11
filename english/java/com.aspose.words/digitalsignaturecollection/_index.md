@@ -1,37 +1,37 @@
 ---
 title: DigitalSignatureCollection
-second_title: Aspose.Words for Java API Reference
-description: Provides a read-only collection of digital signatures attached to a document.
+second_title: Aspose.Words for Java API 参考
+description: 提供附加到文档的数字签名的只读集合。
 type: docs
 weight: 112
-url: /java/com.aspose.words/digitalsignaturecollection/
+url: /zh/java/com.aspose.words/digitalsignaturecollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class DigitalSignatureCollection implements Iterable
 ```
 
-Provides a read-only collection of digital signatures attached to a document.
+提供附加到文档的数字签名的只读集合。
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
+要了解更多信息，请访问**Work with Digital Signatures**文档文章。
 
 [Document.getDigitalSignatures()](../../com.aspose.words/document\#getDigitalSignatures--)
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a document signature at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [get(int index)](#get-int-) | 获取指定索引处的文档签名。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
-| [isValid()](#isValid--) | Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. |
-| [iterator()](#iterator--) | Returns a dictionary iterator object that can be used to iterate over all items in the collection. |
+| [isValid()](#isValid--) | 如果此集合中的所有数字签名都有效并且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。 |
+| [iterator()](#iterator--) | 返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -46,48 +46,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public DigitalSignature get(int index)
 ```
 
 
-Gets a document signature at the specified index.
+获取指定索引处的文档签名。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the signature. |
+| index | int | 签名的从零开始的索引。 |
 
-**Returns:**
-[DigitalSignature](../../com.aspose.words/digitalsignature) - A document signature at the specified index.
-### getClass() {#getClass--}
+**退货:**
+[DigitalSignature](../../com.aspose.words/digitalsignature) - 指定索引处的文档签名。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of elements contained in the collection.
+获取集合中包含的元素数。
 
-**Returns:**
-int - The number of elements contained in the collection.
+**退货:**
+int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -96,27 +96,27 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isValid() {#isValid--}
 ```
 public boolean isValid()
 ```
 
 
-Returns  true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures. Returns  false  if at least one digital signature is invalid.
+如果此集合中的所有数字签名都有效并且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。如果至少一个数字签名无效，则返回 false。
 
-**Returns:**
-boolean - \{ true  if all digital signatures in this collection are valid and the document has not been tampered with Also returns  true  if there are no digital signatures.
+**退货:**
+布尔值 -\{ 如果此集合中的所有数字签名均有效且文档未被篡改，则返回 true 如果没有数字签名，则返回 true。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns a dictionary iterator object that can be used to iterate over all items in the collection.
+返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -142,7 +142,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -160,8 +160,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -173,9 +173,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,34 +1,34 @@
 ---
 title: FontNameSubstitutionRule
-second_title: Aspose.Words for Java API Reference
-description: Font substitution rule for processing font name.
+second_title: Aspose.Words for Java API 参考
+description: 处理字体名称的字体替换规则。
 type: docs
 weight: 283
-url: /java/com.aspose.words/fontnamesubstitutionrule/
+url: /zh/java/com.aspose.words/fontnamesubstitutionrule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class FontNameSubstitutionRule extends FontSubstitutionRule
 ```
 
-Font substitution rule for processing font name.
+处理字体名称的字体替换规则。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-According to this rule Aspose.Words tries to process the font name to get the substitution. Particularly Aspose.Words tries to removes suffixes with '-' and ',' separators like it does the MS Word.
-## Methods
+根据此规则，Aspose.Words 尝试处理字体名称以获取替换。特别是 Aspose.Words 尝试删除带有“-”和“,”分隔符的后缀，就像 MS Word 一样。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
+| [get班级()](#get班级--) |  |
+| [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | 指定是否启用规则。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,33 +41,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -76,8 +76,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -100,12 +100,12 @@ public void setEnabled(boolean value)
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -115,7 +115,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -133,8 +133,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -146,9 +146,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

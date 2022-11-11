@@ -1,39 +1,39 @@
 ---
 title: PdfCompliance
-second_title: Aspose.Words for Java API Reference
-description: Specifies the PDF standards compliance level.
+second_title: Aspose.Words for Java API 参考
+description: 指定 PDF 标准合规级别。
 type: docs
 weight: 449
-url: /java/com.aspose.words/pdfcompliance/
+url: /zh/java/com.aspose.words/pdfcompliance/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PdfCompliance
 ```
 
-Specifies the PDF standards compliance level.
-## Fields
+指定 PDF 标准合规级别。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [PDF_17](#PDF-17) | The output file will comply with the PDF 1.7 (ISO 32000-1) standard. |
-| [PDF_20](#PDF-20) | The output file will comply with the PDF 2.0 (ISO 32000-2) standard. |
-| [PDF_A_1_A](#PDF-A-1-A) | The output file will comply with the PDF/A-1a (ISO 19005-1) standard. |
-| [PDF_A_1_B](#PDF-A-1-B) | The output file will comply with the PDF/A-1b (ISO 19005-1) standard. |
-| [PDF_A_2_A](#PDF-A-2-A) | The output file will comply with the PDF/A-2a (ISO 19005-2) standard. |
-| [PDF_A_2_U](#PDF-A-2-U) | The output file will comply with the PDF/A-2u (ISO 19005-2) standard. |
-| [PDF_A_4](#PDF-A-4) | The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. |
-| [PDF_UA_1](#PDF-UA-1) | The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. |
+| [PDF_17](#PDF-17) | 输出文件将符合 PDF 1.7 (ISO 32000-1) 标准。 |
+| [PDF_20](#PDF-20) | 输出文件将符合 PDF 2.0 (ISO 32000-2) 标准。 |
+| [PDF_A_1_A](#PDF-A-1-A) | 输出文件将符合 PDF/A-1a (ISO 19005-1) 标准。 |
+| [PDF_A_1_B](#PDF-A-1-B) | 输出文件将符合 PDF/A-1b (ISO 19005-1) 标准。 |
+| [PDF_A_2_A](#PDF-A-2-A) | 输出文件将符合 PDF/A-2a (ISO 19005-2) 标准。 |
+| [PDF_A_2_U](#PDF-A-2-U) | 输出文件将符合 PDF/A-2u (ISO 19005-2) 标准。 |
+| [PDF_A_4](#PDF-A-4) | 输出文件将符合 PDF/A-4 (ISO 19005-4:2020) 标准。 |
+| [PDF_UA_1](#PDF-UA-1) | 输出文件将符合 PDF/UA-1 (ISO 14289-1) 标准。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfComplianceName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pdfCompliance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public static int PDF_17
 ```
 
 
-The output file will comply with the PDF 1.7 (ISO 32000-1) standard.
+输出文件将符合 PDF 1.7 (ISO 32000-1) 标准。
 
 ### PDF_20 {#PDF-20}
 ```
@@ -58,7 +58,7 @@ public static int PDF_20
 ```
 
 
-The output file will comply with the PDF 2.0 (ISO 32000-2) standard.
+输出文件将符合 PDF 2.0 (ISO 32000-2) 标准。
 
 ### PDF_A_1_A {#PDF-A-1-A}
 ```
@@ -66,7 +66,7 @@ public static int PDF_A_1_A
 ```
 
 
-The output file will comply with the PDF/A-1a (ISO 19005-1) standard. This level includes all the requirements of PDF/A-1b and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed. Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+输出文件将符合 PDF/A-1a (ISO 19005-1) 标准。此级别包括 PDF/A-1b 的所有要求，另外还要求包含文档结构（也称为“标记”），目的是确保可以搜索和重新利用文档内容。请注意，导出文档结构会显着增加内存消耗，尤其是对于大型文档。
 
 ### PDF_A_1_B {#PDF-A-1-B}
 ```
@@ -74,7 +74,7 @@ public static int PDF_A_1_B
 ```
 
 
-The output file will comply with the PDF/A-1b (ISO 19005-1) standard. PDF/A-1b has the objective of ensuring reliable reproduction of the visual appearance of the document.
+输出文件将符合 PDF/A-1b (ISO 19005-1) 标准。 PDF/A-1b 的目标是确保可靠地复制文档的视觉外观。
 
 ### PDF_A_2_A {#PDF-A-2-A}
 ```
@@ -82,7 +82,7 @@ public static int PDF_A_2_A
 ```
 
 
-The output file will comply with the PDF/A-2a (ISO 19005-2) standard. This level includes all the requirements of PDF/A-2u and additionally requires that document structure be included (also known as being "tagged"), with the objective of ensuring that document content can be searched and repurposed. Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+输出文件将符合 PDF/A-2a (ISO 19005-2) 标准。此级别包括 PDF/A-2u 的所有要求，另外还要求包含文档结构（也称为“标记”），目的是确保可以搜索和重新利用文档内容。请注意，导出文档结构会显着增加内存消耗，尤其是对于大型文档。
 
 ### PDF_A_2_U {#PDF-A-2-U}
 ```
@@ -90,7 +90,7 @@ public static int PDF_A_2_U
 ```
 
 
-The output file will comply with the PDF/A-2u (ISO 19005-2) standard. PDF/A-2u has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints.
+输出文件将符合 PDF/A-2u (ISO 19005-2) 标准。 PDF/A-2u 的目标是随着时间的推移保持文档静态视觉外观，独立于用于创建、存储或呈现文件的工具和系统。此外，文档中包含的任何文本都可以可靠地提取为一系列 Unicode 代码点。
 
 ### PDF_A_4 {#PDF-A-4}
 ```
@@ -98,7 +98,7 @@ public static int PDF_A_4
 ```
 
 
-The output file will comply with the PDF/A-4 (ISO 19005-4:2020) standard. PDF/A-4 has the objective of preserving document static visual appearance over time, independent of the tools and systems used for creating, storing or rendering the files. Additionally any text contained in the document can be reliably extracted as a series of Unicode codepoints.
+输出文件将符合 PDF/A-4 (ISO 19005-4:2020) 标准。 PDF/A-4 的目标是随着时间的推移保持文档静态视觉外观，独立于用于创建、存储或呈现文件的工具和系统。此外，文档中包含的任何文本都可以可靠地提取为一系列 Unicode 代码点。
 
 ### PDF_UA_1 {#PDF-UA-1}
 ```
@@ -106,7 +106,7 @@ public static int PDF_UA_1
 ```
 
 
-The output file will comply with the PDF/UA-1 (ISO 14289-1) standard. The primary purpose of PDF/UA is to define how to represent electronic documents in the PDF format in a manner that allows the file to be accessible.
+输出文件将符合 PDF/UA-1 (ISO 14289-1) 标准。 PDF/UA 的主要目的是定义如何以允许文件可访问的方式以 PDF 格式表示电子文档。
 
 ### length {#length}
 ```
@@ -122,13 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pdfComplianceName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfComplianceName)
@@ -137,23 +137,23 @@ public static int fromName(String pdfComplianceName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfComplianceName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pdfCompliance) {#getName-int-}
 ```
 public static String getName(int pdfCompliance)
@@ -162,12 +162,12 @@ public static String getName(int pdfCompliance)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfCompliance | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,7 +213,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pdfCompliance) {#toString-int-}
 ```
@@ -223,12 +223,12 @@ public static String toString(int pdfCompliance)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfCompliance | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,9 +259,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

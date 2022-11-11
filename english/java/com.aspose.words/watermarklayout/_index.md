@@ -1,33 +1,33 @@
 ---
 title: WatermarkLayout
 second_title: Aspose.Words for Java API Reference
-description: Defines layout of the watermark relative to the watermark center.
+description: 定义相对于水印中心的水印布局。
 type: docs
 weight: 609
-url: /java/com.aspose.words/watermarklayout/
+url: /zh/java/com.aspose.words/watermarklayout/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WatermarkLayout
 ```
 
-Defines layout of the watermark relative to the watermark center.
-## Fields
+定义相对于水印中心的水印布局。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DIAGONAL](#DIAGONAL) | Diagonal watermark layout. |
-| [HORIZONTAL](#HORIZONTAL) | Horizontal watermark layout. |
+| [DIAGONAL](#DIAGONAL) | 对角线水印布局。 |
+| [HORIZONTAL](#HORIZONTAL) | 水平水印布局。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String watermarkLayoutName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int watermarkLayout)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int DIAGONAL
 ```
 
 
-Diagonal watermark layout. Corresponds to 315 degrees of rotation.
+对角线水印布局。对应315度旋转。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -52,7 +52,7 @@ public static int HORIZONTAL
 ```
 
 
-Horizontal watermark layout. Corresponds to 0 degrees of rotation.
+水平水印布局。对应于 0 度的旋转。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String watermarkLayoutName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String watermarkLayoutName)
@@ -83,23 +83,23 @@ public static int fromName(String watermarkLayoutName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | watermarkLayoutName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int watermarkLayout) {#getName-int-}
 ```
 public static String getName(int watermarkLayout)
@@ -108,12 +108,12 @@ public static String getName(int watermarkLayout)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | watermarkLayout | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int watermarkLayout) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int watermarkLayout)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | watermarkLayout | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

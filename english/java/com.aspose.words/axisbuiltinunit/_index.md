@@ -1,43 +1,43 @@
 ---
 title: AxisBuiltInUnit
-second_title: Aspose.Words for Java API Reference
-description: Specifies the display units for an axis.
+second_title: Aspose.Words for Java API 参考
+description: 指定轴的显示单位。
 type: docs
 weight: 17
-url: /java/com.aspose.words/axisbuiltinunit/
+url: /zh/java/com.aspose.words/axisbuiltinunit/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class AxisBuiltInUnit
 ```
 
-Specifies the display units for an axis.
-## Fields
+指定轴的显示单位。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BILLIONS](#BILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000. |
-| [CUSTOM](#CUSTOM) | Specifies the values on the chart shall be divided by a user-defined divisor. |
-| [HUNDREDS](#HUNDREDS) | Specifies the values on the chart shall be divided by 100. |
-| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | Specifies the values on the chart shall be divided by 100,000,000. |
-| [HUNDRED_THOUSANDS](#HUNDRED-THOUSANDS) | Specifies the values on the chart shall be divided by 100,000. |
-| [MILLIONS](#MILLIONS) | Specifies the values on the chart shall be divided by 1,000,000. |
-| [NONE](#NONE) | Specifies the values on the chart shall displayed as is. |
-| [PERCENTAGE](#PERCENTAGE) | Specifies the values on the chart shall be divided by 0.01. |
-| [TEN_MILLIONS](#TEN-MILLIONS) | Specifies the values on the chart shall be divided by 10,000,000. |
-| [TEN_THOUSANDS](#TEN-THOUSANDS) | Specifies the values on the chart shall be divided by 10,000. |
-| [THOUSANDS](#THOUSANDS) | Specifies the values on the chart shall be divided by 1,000. |
-| [TRILLIONS](#TRILLIONS) | Specifies the values on the chart shall be divided by 1,000,000,000,0000. |
+| [BILLIONS](#BILLIONS) | 指定图表上的值应除以 1,000,000,000。 |
+| [CUSTOM](#CUSTOM) | 指定图表上的值应除以用户定义的除数。 |
+| [HUNDREDS](#HUNDREDS) | 指定图表上的值应除以 100。 |
+| [HUNDRED_MILLIONS](#HUNDRED-MILLIONS) | 指定图表上的值应除以 100,000,000。 |
+| [HUNDRED_THOUSANDS](#HUNDRED-THOUSANDS) | 指定图表上的值应除以 100,000。 |
+| [MILLIONS](#MILLIONS) | 指定图表上的值应除以 1,000,000。 |
+| [NONE](#NONE) | 指定图表上的值应按原样显示。 |
+| [PERCENTAGE](#PERCENTAGE) | 指定图表上的值应除以 0.01。 |
+| [TEN_MILLIONS](#TEN-MILLIONS) | 指定图表上的值应除以 10,000,000。 |
+| [TEN_THOUSANDS](#TEN-THOUSANDS) | 指定图表上的值应除以 10,000。 |
+| [THOUSANDS](#THOUSANDS) | 指定图表上的值应除以 1,000。 |
+| [TRILLIONS](#TRILLIONS) | 指定图表上的值应除以 1,000,000,000,0000。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisBuiltInUnitName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int axisBuiltInUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -54,7 +54,7 @@ public static int BILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000,000.
+指定图表上的值应除以 1,000,000,000。
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -62,7 +62,7 @@ public static int CUSTOM
 ```
 
 
-Specifies the values on the chart shall be divided by a user-defined divisor. This value is not supported by the new chart types of MS Office 2016.
+指定图表上的值应除以用户定义的除数。 MS Office 2016 的新图表类型不支持此值。
 
 ### HUNDREDS {#HUNDREDS}
 ```
@@ -70,7 +70,7 @@ public static int HUNDREDS
 ```
 
 
-Specifies the values on the chart shall be divided by 100.
+指定图表上的值应除以 100。
 
 ### HUNDRED_MILLIONS {#HUNDRED-MILLIONS}
 ```
@@ -78,7 +78,7 @@ public static int HUNDRED_MILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 100,000,000.
+指定图表上的值应除以 100,000,000。
 
 ### HUNDRED_THOUSANDS {#HUNDRED-THOUSANDS}
 ```
@@ -86,7 +86,7 @@ public static int HUNDRED_THOUSANDS
 ```
 
 
-Specifies the values on the chart shall be divided by 100,000.
+指定图表上的值应除以 100,000。
 
 ### MILLIONS {#MILLIONS}
 ```
@@ -94,7 +94,7 @@ public static int MILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000.
+指定图表上的值应除以 1,000,000。
 
 ### NONE {#NONE}
 ```
@@ -102,7 +102,7 @@ public static int NONE
 ```
 
 
-Specifies the values on the chart shall displayed as is.
+指定图表上的值应按原样显示。
 
 ### PERCENTAGE {#PERCENTAGE}
 ```
@@ -110,7 +110,7 @@ public static int PERCENTAGE
 ```
 
 
-Specifies the values on the chart shall be divided by 0.01. This value is supported only by the new chart types of MS Office 2016.
+指定图表上的值应除以 0.01。此值仅受 MS Office 2016 的新图表类型支持。
 
 ### TEN_MILLIONS {#TEN-MILLIONS}
 ```
@@ -118,7 +118,7 @@ public static int TEN_MILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 10,000,000.
+指定图表上的值应除以 10,000,000。
 
 ### TEN_THOUSANDS {#TEN-THOUSANDS}
 ```
@@ -126,7 +126,7 @@ public static int TEN_THOUSANDS
 ```
 
 
-Specifies the values on the chart shall be divided by 10,000.
+指定图表上的值应除以 10,000。
 
 ### THOUSANDS {#THOUSANDS}
 ```
@@ -134,7 +134,7 @@ public static int THOUSANDS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000.
+指定图表上的值应除以 1,000。
 
 ### TRILLIONS {#TRILLIONS}
 ```
@@ -142,7 +142,7 @@ public static int TRILLIONS
 ```
 
 
-Specifies the values on the chart shall be divided by 1,000,000,000,0000.
+指定图表上的值应除以 1,000,000,000,0000。
 
 ### length {#length}
 ```
@@ -158,13 +158,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String axisBuiltInUnitName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String axisBuiltInUnitName)
@@ -173,23 +173,23 @@ public static int fromName(String axisBuiltInUnitName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisBuiltInUnitName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int axisBuiltInUnit) {#getName-int-}
 ```
 public static String getName(int axisBuiltInUnit)
@@ -198,12 +198,12 @@ public static String getName(int axisBuiltInUnit)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisBuiltInUnit | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -213,8 +213,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,8 +223,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -249,7 +249,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int axisBuiltInUnit) {#toString-int-}
 ```
@@ -259,12 +259,12 @@ public static String toString(int axisBuiltInUnit)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisBuiltInUnit | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -282,8 +282,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -295,9 +295,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,35 +1,35 @@
 ---
 title: SdtDateStorageFormat
-second_title: Aspose.Words for Java API Reference
-description: Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the documents data store.
+second_title: Aspose.Words for Java API 参考
+description: 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
 type: docs
 weight: 505
-url: /java/com.aspose.words/sdtdatestorageformat/
+url: /zh/java/com.aspose.words/sdtdatestorageformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class SdtDateStorageFormat
 ```
 
-Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store.
-## Fields
+指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DATE](#DATE) | The date value for a date SDT is stored as a date in the standard XML Schema Date format. |
-| [DATE_TIME](#DATE-TIME) | The date value for a date SDT is stored as a date in the standard XML Schema DateTime format. |
-| [DEFAULT](#DEFAULT) | Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME) |
-| [TEXT](#TEXT) | The date value for a date SDT is stored as text. |
+| [DATE](#DATE) | 日期 SDT 的日期值以标准 XML Schema Date 格式存储为日期。 |
+| [DATE_TIME](#DATE-TIME) | 日期 SDT 的日期值以标准 XML Schema DateTime 格式存储为日期。 |
+| [DEFAULT](#DEFAULT) | 默认为[DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME) |
+| [TEXT](#TEXT) | 日期 SDT 的日期值存储为文本。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sdtDateStorageFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int sdtDateStorageFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int DATE
 ```
 
 
-The date value for a date SDT is stored as a date in the standard XML Schema Date format.
+日期 SDT 的日期值以标准 XML Schema Date 格式存储为日期。
 
 ### DATE_TIME {#DATE-TIME}
 ```
@@ -54,7 +54,7 @@ public static int DATE_TIME
 ```
 
 
-The date value for a date SDT is stored as a date in the standard XML Schema DateTime format.
+日期 SDT 的日期值以标准 XML Schema DateTime 格式存储为日期。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +62,7 @@ public static int DEFAULT
 ```
 
 
-Defaults to [DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
+默认为[DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
 
 ### TEXT {#TEXT}
 ```
@@ -70,7 +70,7 @@ public static int TEXT
 ```
 
 
-The date value for a date SDT is stored as text.
+日期 SDT 的日期值存储为文本。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String sdtDateStorageFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String sdtDateStorageFormatName)
@@ -101,23 +101,23 @@ public static int fromName(String sdtDateStorageFormatName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sdtDateStorageFormatName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int sdtDateStorageFormat) {#getName-int-}
 ```
 public static String getName(int sdtDateStorageFormat)
@@ -126,12 +126,12 @@ public static String getName(int sdtDateStorageFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sdtDateStorageFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int sdtDateStorageFormat) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int sdtDateStorageFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sdtDateStorageFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

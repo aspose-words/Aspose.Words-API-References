@@ -1,33 +1,33 @@
 ---
 title: ShapeMarkupLanguage
 second_title: Aspose.Words for Java API Reference
-description: Specifies Markup language used for the shape.
+description: 指定用于形状的标记语言。
 type: docs
 weight: 519
-url: /java/com.aspose.words/shapemarkuplanguage/
+url: /zh/java/com.aspose.words/shapemarkuplanguage/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ShapeMarkupLanguage
 ```
 
-Specifies Markup language used for the shape.
-## Fields
+指定用于形状的标记语言。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DML](#DML) | Drawing Markup Language is used to define the shape. |
-| [VML](#VML) | Vector Markup Language is used to define the shape. |
+| [DML](#DML) | 绘图标记语言用于定义形状。 |
+| [VML](#VML) | 矢量标记语言用于定义形状。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String shapeMarkupLanguageName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(byte shapeMarkupLanguage)](#getName-byte-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static byte DML
 ```
 
 
-Drawing Markup Language is used to define the shape. This is the new standard for drawing for Office Open XML which has appeared first in ECMA-376 1st edition (2006), first appeared in MS Word 2007.
+绘图标记语言用于定义形状。这是 Office Open XML 绘图的新标准，最早出现在 ECMA-376 第一版 (2006) 中，最早出现在 MS Word 2007 中。
 
 ### VML {#VML}
 ```
@@ -52,7 +52,7 @@ public static byte VML
 ```
 
 
-Vector Markup Language is used to define the shape. A deprecated format included in Office Open XML for legacy reasons only.
+矢量标记语言用于定义形状。仅出于遗留原因，Office Open XML 中包含的已弃用格式。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String shapeMarkupLanguageName) {#fromName-java.lang.String-}
 ```
 public static byte fromName(String shapeMarkupLanguageName)
@@ -83,23 +83,23 @@ public static byte fromName(String shapeMarkupLanguageName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeMarkupLanguageName | java.lang.String |  |
 
-**Returns:**
-byte
-### getClass() {#getClass--}
+**退货:**
+字节
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(byte shapeMarkupLanguage) {#getName-byte-}
 ```
 public static String getName(byte shapeMarkupLanguage)
@@ -108,12 +108,12 @@ public static String getName(byte shapeMarkupLanguage)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeMarkupLanguage | byte |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static byte[] getValues()
 
 
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(byte shapeMarkupLanguage) {#toString-byte-}
 ```
@@ -169,12 +169,12 @@ public static String toString(byte shapeMarkupLanguage)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeMarkupLanguage | byte |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

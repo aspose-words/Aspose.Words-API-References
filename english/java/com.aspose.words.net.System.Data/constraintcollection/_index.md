@@ -1,38 +1,38 @@
 ---
 title: ConstraintCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of constraints for a .
+description: 表示 a 的一组约束。
 type: docs
 weight: 11
-url: /java/com.aspose.words.net.system.data/constraintcollection/
+url: /zh/java/com.aspose.words.net.system.data/constraintcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class ConstraintCollection implements Iterable
 ```
 
-Represents a collection of constraints for a [DataTable](../../com.aspose.words.net.system.data/datatable).
-## Methods
+表示一个约束的集合[DataTable](../../com.aspose.words.net.system.data/datatable).
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(System.Data.Constraint constraint)](#add-com.aspose.words.net.System.Data.Constraint-) | Adds the specified [Constraint](../../com.aspose.words.net.system.data/constraint) object to the collection. |
-| [contains(System.Data.Constraint cc)](#contains-com.aspose.words.net.System.Data.Constraint-) | Indicates whether the Constraint object specified by name exists in the collection. |
+| [add(System.Data.Constraint constraint)](#add-com.aspose.words.net.System.Data.Constraint-) | 添加指定的[Constraint](../../com.aspose.words.net.system.data/constraint)反对集合。 |
+| [contains(System.Data.Constraint cc)](#contains-com.aspose.words.net.System.Data.Constraint-) | 指示集合中是否存在 name 指定的 Constraint 对象。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Gets the [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection with the specified name. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the total number of elements in a collection. |
+| [get(int index)](#get-int-) | 获取[Constraint](../../com.aspose.words.net.system.data/constraint)来自指定索引处的集合。 |
+| [get(String name)](#get-java.lang.String-) | 获取[Constraint](../../com.aspose.words.net.system.data/constraint)从具有指定名称的集合中。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中元素的总数。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(System.Data.Constraint constraint)](#remove-com.aspose.words.net.System.Data.Constraint-) | Removes the specified [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection. |
+| [remove(System.Data.Constraint constraint)](#remove-com.aspose.words.net.System.Data.Constraint-) | 删除指定的[Constraint](../../com.aspose.words.net.system.data/constraint)从收藏。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,12 +43,12 @@ public void add(System.Data.Constraint constraint)
 ```
 
 
-Adds the specified [Constraint](../../com.aspose.words.net.system.data/constraint) object to the collection.
+添加指定的[Constraint](../../com.aspose.words.net.system.data/constraint)反对集合。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constraint | [Constraint](../../com.aspose.words.net.system.data/constraint) | The Constraint to add. |
+| constraint | [Constraint](../../com.aspose.words.net.system.data/constraint) | 要添加的约束。 |
 
 ### contains(System.Data.Constraint cc) {#contains-com.aspose.words.net.System.Data.Constraint-}
 ```
@@ -56,15 +56,15 @@ public boolean contains(System.Data.Constraint cc)
 ```
 
 
-Indicates whether the Constraint object specified by name exists in the collection.
+指示集合中是否存在 name 指定的 Constraint 对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cc | [Constraint](../../com.aspose.words.net.system.data/constraint) | The Constraint to remove. |
+| cc | [Constraint](../../com.aspose.words.net.system.data/constraint) | 要删除的约束。 |
 
-**Returns:**
-boolean - true if the collection contains the specified constraint; otherwise, false.
+**退货:**
+boolean - 如果集合包含指定的约束，则为 true；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -73,63 +73,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public System.Data.Constraint get(int index)
 ```
 
 
-Gets the [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection at the specified index.
+获取[Constraint](../../com.aspose.words.net.system.data/constraint)来自指定索引处的集合。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The index of the constraint to return. |
+| index | int | 要返回的约束的索引。 |
 
-**Returns:**
-[Constraint](../../com.aspose.words.net.system.data/constraint) - The [Constraint](../../com.aspose.words.net.system.data/constraint) at the specified index.
+**退货:**
+[Constraint](../../com.aspose.words.net.system.data/constraint) - 这[Constraint](../../com.aspose.words.net.system.data/constraint)在指定索引处。
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.Constraint get(String name)
 ```
 
 
-Gets the [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection with the specified name.
+获取[Constraint](../../com.aspose.words.net.system.data/constraint)从具有指定名称的集合中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The [Constraint.getConstraintName()](../../com.aspose.words.net.system.data/constraint\#getConstraintName--) / [Constraint.setConstraintName(java.lang.String)](../../com.aspose.words.net.system.data/constraint\#setConstraintName-java.lang.String-) of the constraint to return. |
+| name | java.lang.String | 这[Constraint.getConstraintName()](../../com.aspose.words.net.system.data/constraint\#getConstraintName--) / [Constraint.setConstraintName(java.lang.String)](../../com.aspose.words.net.system.data/constraint\#setConstraintName-java.lang.String-)要返回的约束。 |
 
-**Returns:**
-[Constraint](../../com.aspose.words.net.system.data/constraint) - The [Constraint](../../com.aspose.words.net.system.data/constraint) with the specified name; otherwise a null value if the [Constraint](../../com.aspose.words.net.system.data/constraint) does not exist.
-### getClass() {#getClass--}
+**退货:**
+[Constraint](../../com.aspose.words.net.system.data/constraint) - 这[Constraint](../../com.aspose.words.net.system.data/constraint)具有指定名称；否则为空值，如果[Constraint](../../com.aspose.words.net.system.data/constraint)不存在。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the total number of elements in a collection.
+获取集合中元素的总数。
 
-**Returns:**
-int - The total number of elements in a collection.
+**退货:**
+int - 集合中的元素总数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -138,8 +138,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -148,7 +148,7 @@ public Iterator iterator()
 
 
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -172,12 +172,12 @@ public void remove(System.Data.Constraint constraint)
 ```
 
 
-Removes the specified [Constraint](../../com.aspose.words.net.system.data/constraint) from the collection.
+删除指定的[Constraint](../../com.aspose.words.net.system.data/constraint)从收藏。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constraint | [Constraint](../../com.aspose.words.net.system.data/constraint) | The [Constraint](../../com.aspose.words.net.system.data/constraint) to remove. |
+| constraint | [Constraint](../../com.aspose.words.net.system.data/constraint) | 这[Constraint](../../com.aspose.words.net.system.data/constraint)去除。 |
 
 ### toString() {#toString--}
 ```
@@ -187,7 +187,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -205,8 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -218,9 +218,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

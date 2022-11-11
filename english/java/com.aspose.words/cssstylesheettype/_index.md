@@ -1,41 +1,41 @@
 ---
-title: CssStyleSheetType
-second_title: Aspose.Words for Java API Reference
-description: Specifies how CSS Cascading Style Sheet styles are exported to HTML.
+title: CssStyleSheet类型
+second_title: Aspose.Words for Java API 参考
+description: 指定如何将 CSS 层叠样式表样式导出为 HTML。
 type: docs
 weight: 97
-url: /java/com.aspose.words/cssstylesheettype/
+url: /zh/java/com.aspose.words/cssstylesheettype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class CssStyleSheetType
+public class CssStyleSheet类型
 ```
 
-Specifies how CSS (Cascading Style Sheet) styles are exported to HTML.
-## Fields
+指定如何将 CSS（层叠样式表）样式导出为 HTML。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [EMBEDDED](#EMBEDDED) | CSS styles are written separately from the content in a style sheet embedded in the HTML file. |
-| [EXTERNAL](#EXTERNAL) | CSS styles are written separately from the content in a style sheet in an external file. |
-| [INLINE](#INLINE) | CSS styles are written inline (as a value of the **style** attribute on every element). |
+| [EMBEDDED](#EMBEDDED) | CSS 样式与嵌入在 HTML 文件中的样式表中的内容分开编写。 |
+| [EXTERNAL](#EXTERNAL) | CSS 样式与外部文件的样式表中的内容分开编写。 |
+| [INLINE](#INLINE) |  CSS 样式是内联编写的（作为**style**每个元素的属性）。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String cssStyleSheetTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int cssStyleSheetType)](#getName-int-) |  |
+| [fromName(String cssStyleSheet类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int cssStyleSheet类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int cssStyleSheetType)](#toString-int-) |  |
+| [toString(int cssStyleSheet类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,7 +45,7 @@ public static int EMBEDDED
 ```
 
 
-CSS styles are written separately from the content in a style sheet embedded in the HTML file.
+CSS 样式与嵌入在 HTML 文件中的样式表中的内容分开编写。
 
 ### EXTERNAL {#EXTERNAL}
 ```
@@ -53,7 +53,7 @@ public static int EXTERNAL
 ```
 
 
-CSS styles are written separately from the content in a style sheet in an external file. The HTML file links the style sheet.
+CSS 样式与外部文件的样式表中的内容分开编写。 HTML 文件链接样式表。
 
 ### INLINE {#INLINE}
 ```
@@ -61,7 +61,7 @@ public static int INLINE
 ```
 
 
-CSS styles are written inline (as a value of the **style** attribute on every element).
+ CSS 样式是内联编写的（作为**style**每个元素的属性）。
 
 ### length {#length}
 ```
@@ -77,52 +77,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String cssStyleSheetTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String cssStyleSheet类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String cssStyleSheetTypeName)
+public static int fromName(String cssStyleSheet类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheetTypeName | java.lang.String |  |
+| cssStyleSheet类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int cssStyleSheetType) {#getName-int-}
-```
-public static String getName(int cssStyleSheetType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int cssStyleSheet类型) {#getName-int-}
+```
+public static String getName(int cssStyleSheet类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheetType | int |  |
+| cssStyleSheet类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,22 +168,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int cssStyleSheetType) {#toString-int-}
+### toString(int cssStyleSheet类型) {#toString-int-}
 ```
-public static String toString(int cssStyleSheetType)
+public static String toString(int cssStyleSheet类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cssStyleSheetType | int |  |
+| cssStyleSheet类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

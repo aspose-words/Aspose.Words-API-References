@@ -1,34 +1,34 @@
 ---
 title: ChartNumberFormat
-second_title: Aspose.Words for Java API Reference
-description: Represents number formatting of the parent element.
+second_title: Aspose.Words for Java API 参考
+description: 表示父元素的数字格式。
 type: docs
 weight: 67
-url: /java/com.aspose.words/chartnumberformat/
+url: /zh/java/com.aspose.words/chartnumberformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ChartNumberFormat
 ```
 
-Represents number formatting of the parent element.
+表示父元素的数字格式。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFormatCode()](#getFormatCode--) | Gets the format code applied to a data label. |
+| [get班级()](#get班级--) |  |
+| [getFormatCode()](#getFormatCode--) | 获取应用于数据标签的格式代码。 |
 | [hashCode()](#hashCode--) |  |
-| [isLinkedToSource()](#isLinkedToSource--) | Specifies whether the format code is linked to a source cell. |
-| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean-) | Specifies whether the format code is linked to a source cell. |
+| [isLinkedToSource()](#isLinkedToSource--) | 指定格式代码是否链接到源单元格。 |
+| [isLinkedToSource(boolean value)](#isLinkedToSource-boolean-) | 指定格式代码是否链接到源单元格。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setFormatCode(String value)](#setFormatCode-java.lang.String-) | Sets the format code applied to a data label. |
+| [setFormatCode(String value)](#setFormatCode-java.lang.String-) | 设置应用于数据标签的格式代码。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,53 +41,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getFormatCode() {#getFormatCode--}
 ```
 public String getFormatCode()
 ```
 
 
-Gets the format code applied to a data label. Number formatting is used to change the way a value appears in data label and can be used in some very creative ways. The examples of number formats:
+获取应用于数据标签的格式代码。数字格式用于更改值在数据标签中的显示方式，并且可以以一些非常有创意的方式使用。数字格式示例：
 
-Number - "\#,\#\#0.00"
+数字 - ”\#,\#\#0.00"
 
-Currency - "\\"$\\"\#,\#\#0.00"
+货币 - ”\\"$\\"\#,\#\#0.00"
 
-Time - "[$-x-systime]h:mm:ss AM/PM"
+时间 - ”[$-x-systime]h:mm:ss AM/PM"
 
-Date - "d/mm/yyyy"
+日期 - “d/mm/yyyy”
 
-Percentage - "0.00%"
+百分比 - “0.00%”
 
-Fraction - "\# ?/?"
+分数 - ”\# ?/?”
 
-Scientific - "0.00E+00"
+科学——“0.00E+00”
 
-Text - "@"
+文本 - ”@”
 
-Accounting - "\_-\\"$\\"\* \#,\#\#0.00\_-;-\\"$\\"\* \#,\#\#0.00\_-;\_-\\"$\\"\* \\"-\\"??\_-;\_-@\_-"
+会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
 
-Custom with color - "[Red]-\#,\#\#0.0"
+自定义颜色-"[红色的]-\#,\#\#0.0"
 
-**Returns:**
-java.lang.String - The format code applied to a data label.
+**退货:**
+java.lang.String - 应用于数据标签的格式代码。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -96,30 +96,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isLinkedToSource() {#isLinkedToSource--}
 ```
 public boolean isLinkedToSource()
 ```
 
 
-Specifies whether the format code is linked to a source cell. Default is true. The NumberFormat will be reset to general if format code is linked to source.
+指定格式代码是否链接到源单元格。默认为真。如果格式代码链接到源，NumberFormat 将被重置为一般。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isLinkedToSource(boolean value) {#isLinkedToSource-boolean-}
 ```
 public void isLinkedToSource(boolean value)
 ```
 
 
-Specifies whether the format code is linked to a source cell. Default is true. The NumberFormat will be reset to general if format code is linked to source.
+指定格式代码是否链接到源单元格。默认为真。如果格式代码链接到源，NumberFormat 将被重置为一般。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -143,32 +143,32 @@ public void setFormatCode(String value)
 ```
 
 
-Sets the format code applied to a data label. Number formatting is used to change the way a value appears in data label and can be used in some very creative ways. The examples of number formats:
+设置应用于数据标签的格式代码。数字格式用于更改值在数据标签中的显示方式，并且可以以一些非常有创意的方式使用。数字格式示例：
 
-Number - "\#,\#\#0.00"
+数字 - ”\#,\#\#0.00"
 
-Currency - "\\"$\\"\#,\#\#0.00"
+货币 - ”\\"$\\"\#,\#\#0.00"
 
-Time - "[$-x-systime]h:mm:ss AM/PM"
+时间 - ”[$-x-systime]h:mm:ss AM/PM"
 
-Date - "d/mm/yyyy"
+日期 - “d/mm/yyyy”
 
-Percentage - "0.00%"
+百分比 - “0.00%”
 
-Fraction - "\# ?/?"
+分数 - ”\# ?/?”
 
-Scientific - "0.00E+00"
+科学——“0.00E+00”
 
-Text - "@"
+文本 - ”@”
 
-Accounting - "\_-\\"$\\"\* \#,\#\#0.00\_-;-\\"$\\"\* \#,\#\#0.00\_-;\_-\\"$\\"\* \\"-\\"??\_-;\_-@\_-"
+会计——”\_-\\"$\\"\ *\#,\#\#0.00\_-;-\\"$\\"\ *\#,\#\#0.00\_-;\_-\\"$\\"\ *\\"-\\"??\_-;\_-@\_-”
 
-Custom with color - "[Red]-\#,\#\#0.0"
+自定义颜色-"[红色的]-\#,\#\#0.0"
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The format code applied to a data label. |
+| value | java.lang.String | 应用于数据标签的格式代码。 |
 
 ### toString() {#toString--}
 ```
@@ -178,7 +178,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -196,8 +196,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -209,9 +209,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

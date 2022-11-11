@@ -1,36 +1,36 @@
 ---
 title: ListTrailingCharacter
-second_title: Aspose.Words for Java API Reference
-description: Specifies the character that separates the list label from the text of the paragraph.
+second_title: Aspose.Words for Java API 参考
+description: 指定将列表标签与段落文本分开的字符。
 type: docs
 weight: 376
-url: /java/com.aspose.words/listtrailingcharacter/
+url: /zh/java/com.aspose.words/listtrailingcharacter/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ListTrailingCharacter
 ```
 
-Specifies the character that separates the list label from the text of the paragraph.
+指定将列表标签与段落文本分开的字符。
 
-Used as a value for the [ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-) property.
-## Fields
+用作[ListLevel.getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [ListLevel.setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-)财产。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [NOTHING](#NOTHING) | There is no separator character between the list label and text of the paragraph. |
-| [SPACE](#SPACE) | A space character is placed between the list label and text of the paragraph. |
-| [TAB](#TAB) | A tab character is placed between the list label and text of the paragraph. |
+| [NOTHING](#NOTHING) | 列表标签和段落文本之间没有分隔符。 |
+| [SPACE](#SPACE) | 在列表标签和段落文本之间放置一个空格字符。 |
+| [TAB](#TAB) | 在列表标签和段落文本之间放置一个制表符。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listTrailingCharacterName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int listTrailingCharacter)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int NOTHING
 ```
 
 
-There is no separator character between the list label and text of the paragraph.
+列表标签和段落文本之间没有分隔符。
 
 ### SPACE {#SPACE}
 ```
@@ -55,7 +55,7 @@ public static int SPACE
 ```
 
 
-A space character is placed between the list label and text of the paragraph.
+在列表标签和段落文本之间放置一个空格字符。
 
 ### TAB {#TAB}
 ```
@@ -63,7 +63,7 @@ public static int TAB
 ```
 
 
-A tab character is placed between the list label and text of the paragraph.
+在列表标签和段落文本之间放置一个制表符。
 
 ### length {#length}
 ```
@@ -79,13 +79,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String listTrailingCharacterName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String listTrailingCharacterName)
@@ -94,23 +94,23 @@ public static int fromName(String listTrailingCharacterName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTrailingCharacterName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int listTrailingCharacter) {#getName-int-}
 ```
 public static String getName(int listTrailingCharacter)
@@ -119,12 +119,12 @@ public static String getName(int listTrailingCharacter)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTrailingCharacter | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -134,8 +134,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -144,8 +144,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -170,7 +170,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int listTrailingCharacter) {#toString-int-}
 ```
@@ -180,12 +180,12 @@ public static String toString(int listTrailingCharacter)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTrailingCharacter | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -203,8 +203,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -216,9 +216,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

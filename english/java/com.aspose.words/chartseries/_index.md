@@ -1,50 +1,50 @@
 ---
 title: ChartSeries
-second_title: Aspose.Words for Java API Reference
-description: Represents chart series properties.
+second_title: Aspose.Words for Java API 参考
+description: 表示图表系列属性。
 type: docs
 weight: 68
-url: /java/com.aspose.words/chartseries/
+url: /zh/java/com.aspose.words/chartseries/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 [com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
 ```
 public class ChartSeries implements IChartDataPoint, Cloneable
 ```
 
-Represents chart series properties.
+表示图表系列属性。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBubble3D()](#getBubble3D--) |  |
-| [getClass()](#getClass--) |  |
-| [getDataLabels()](#getDataLabels--) | Specifies the settings for the data labels for the entire series. |
-| [getDataPoints()](#getDataPoints--) | Returns a collection of formatting objects for all data points in this series. |
+| [get班级()](#get班级--) |  |
+| [getDataLabels()](#getDataLabels--) | 指定整个系列的数据标签设置。 |
+| [getDataPoints()](#getDataPoints--) | 返回此系列中所有数据点的格式化对象的集合。 |
 | [getExplosion()](#getExplosion--) |  |
-| [getFormat()](#getFormat--) | Provides access to fill and line formatting of the series. |
+| [getFormat()](#getFormat--) | 提供对系列的填充和线条格式的访问。 |
 | [getInvertIfNegative()](#getInvertIfNegative--) |  |
-| [getLegendEntry()](#getLegendEntry--) | Gets a legend entry for this chart series. |
+| [getLegendEntry()](#getLegendEntry--) | 获取此图表系列的图例条目。 |
 | [getMarker()](#getMarker--) |  |
-| [getName()](#getName--) | Gets the name of the series, if name is not set explicitly it is generated using index. |
-| [getSmooth()](#getSmooth--) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
-| [hasDataLabels()](#hasDataLabels--) | Gets a flag indicating whether data labels are displayed for the series. |
-| [hasDataLabels(boolean value)](#hasDataLabels-boolean-) | Sets a flag indicating whether data labels are displayed for the series. |
+| [getName()](#getName--) | 获取系列的名称，如果未明确设置名称，则使用索引生成。 |
+| [getSmooth()](#getSmooth--) | 允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。 |
+| [hasDataLabels()](#hasDataLabels--) | 获取一个标志，该标志指示是否为系列显示数据标签。 |
+| [hasDataLabels(boolean value)](#hasDataLabels-boolean-) | 设置一个标志，指示是否为系列显示数据标签。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBubble3D(boolean value)](#setBubble3D-boolean-) |  |
 | [setExplosion(int value)](#setExplosion-int-) |  |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) |  |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of the series, if name is not set explicitly it is generated using index. |
-| [setSmooth(boolean value)](#setSmooth-boolean-) | Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines. |
+| [setName(String value)](#setName-java.lang.String-) | 设置系列的名称，如果未明确设置名称，则使用索引生成。 |
+| [setSmooth(boolean value)](#setSmooth-boolean-) | 允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,102 +57,102 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBubble3D() {#getBubble3D--}
 ```
 public boolean getBubble3D()
 ```
 
 
-Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
+指定气泡图中的气泡是否应应用 3-D 效果。
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDataLabels() {#getDataLabels--}
 ```
 public ChartDataLabelCollection getDataLabels()
 ```
 
 
-Specifies the settings for the data labels for the entire series.
+指定整个系列的数据标签设置。
 
-**Returns:**
-[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) - The corresponding [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) value.
+**退货:**
+[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) - 相应的[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection)价值。
 ### getDataPoints() {#getDataPoints--}
 ```
 public ChartDataPointCollection getDataPoints()
 ```
 
 
-Returns a collection of formatting objects for all data points in this series.
+返回此系列中所有数据点的格式化对象的集合。
 
-**Returns:**
-[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) - A collection of formatting objects for all data points in this series.
+**退货:**
+[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) - 本系列中所有数据点的格式化对象集合。
 ### getExplosion() {#getExplosion--}
 ```
 public int getExplosion()
 ```
 
 
-Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
+指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
 
-**Returns:**
-int
+**退货:**
+整数
 ### getFormat() {#getFormat--}
 ```
 public ChartFormat getFormat()
 ```
 
 
-Provides access to fill and line formatting of the series.
+提供对系列的填充和线条格式的访问。
 
-**Returns:**
-[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
+**退货:**
+[ChartFormat](../../com.aspose.words/chartformat) - 相应的[ChartFormat](../../com.aspose.words/chartformat)价值。
 ### getInvertIfNegative() {#getInvertIfNegative--}
 ```
 public boolean getInvertIfNegative()
 ```
 
 
-Specifies whether the parent element shall inverts its colors if the value is negative.
+指定如果值为负数，父元素是否应反转其颜色。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getLegendEntry() {#getLegendEntry--}
 ```
 public ChartLegendEntry getLegendEntry()
 ```
 
 
-Gets a legend entry for this chart series.
+获取此图表系列的图例条目。
 
-**Returns:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry) - A legend entry for this chart series.
+**退货:**
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry) - 此图表系列的图例条目。
 ### getMarker() {#getMarker--}
 ```
 public ChartMarker getMarker()
 ```
 
 
-Specifies a data marker. Marker is automatically created when requested.
+指定数据标记。请求时会自动创建标记。
 
-**Returns:**
+**退货:**
 [ChartMarker](../../com.aspose.words/chartmarker)
 ### getName() {#getName--}
 ```
@@ -160,42 +160,42 @@ public String getName()
 ```
 
 
-Gets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index.
+获取系列的名称，如果未明确设置名称，则使用索引生成。默认情况下返回 Series 加一个基于索引的索引。
 
-**Returns:**
-java.lang.String - The name of the series, if name is not set explicitly it is generated using index.
+**退货:**
+java.lang.String - 系列的名称，如果未明确设置名称，则使用索引生成。
 ### getSmooth() {#getSmooth--}
 ```
 public boolean getSmooth()
 ```
 
 
-Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
+允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hasDataLabels() {#hasDataLabels--}
 ```
 public boolean hasDataLabels()
 ```
 
 
-Gets a flag indicating whether data labels are displayed for the series.
+获取一个标志，该标志指示是否为系列显示数据标签。
 
-**Returns:**
-boolean - A flag indicating whether data labels are displayed for the series.
+**退货:**
+boolean - 指示是否为系列显示数据标签的标志。
 ### hasDataLabels(boolean value) {#hasDataLabels-boolean-}
 ```
 public void hasDataLabels(boolean value)
 ```
 
 
-Sets a flag indicating whether data labels are displayed for the series.
+设置一个标志，指示是否为系列显示数据标签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A flag indicating whether data labels are displayed for the series. |
+| value | boolean | 指示是否为系列显示数据标签的标志。 |
 
 ### hashCode() {#hashCode--}
 ```
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -229,10 +229,10 @@ public void setBubble3D(boolean value)
 ```
 
 
-Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
+指定气泡图中的气泡是否应应用 3-D 效果。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -242,10 +242,10 @@ public void setExplosion(int value)
 ```
 
 
-Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
+指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -255,10 +255,10 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-Specifies whether the parent element shall inverts its colors if the value is negative.
+指定如果值为负数，父元素是否应反转其颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -268,12 +268,12 @@ public void setName(String value)
 ```
 
 
-Sets the name of the series, if name is not set explicitly it is generated using index. By default returns Series plus one based index.
+设置系列的名称，如果未明确设置名称，则使用索引生成。默认情况下返回 Series 加一个基于索引的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the series, if name is not set explicitly it is generated using index. |
+| value | java.lang.String | 系列的名称，如果未明确设置名称，则使用索引生成。 |
 
 ### setSmooth(boolean value) {#setSmooth-boolean-}
 ```
@@ -281,12 +281,12 @@ public void setSmooth(boolean value)
 ```
 
 
-Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines.
+允许指定连接图表上的点的线是否应使用 Catmull-Rom 样条进行平滑。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -296,7 +296,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -314,8 +314,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -327,9 +327,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

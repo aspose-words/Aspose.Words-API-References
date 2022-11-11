@@ -1,31 +1,31 @@
 ---
 title: PhysicalFontInfo
-second_title: Aspose.Words for Java API Reference
-description: Specifies information about physical font available to Aspose.Words font engine.
+second_title: Aspose.Words for Java API 参考
+description: 指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
 type: docs
 weight: 464
-url: /java/com.aspose.words/physicalfontinfo/
+url: /zh/java/com.aspose.words/physicalfontinfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PhysicalFontInfo
 ```
 
-Specifies information about physical font available to Aspose.Words font engine.
+指定有关 Aspose.Words 字体引擎可用的物理字体的信息。
 
-To learn more, visit the **Working with Fonts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Fonts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getFilePath()](#getFilePath--) | Path to the font file if any. |
-| [getFontFamilyName()](#getFontFamilyName--) | Family name of the font. |
-| [getFullFontName()](#getFullFontName--) | Full name of the font. |
-| [getVersion()](#getVersion--) | Version string of the font. |
+| [get班级()](#get班级--) |  |
+| [getFilePath()](#getFilePath--) | 字体文件的路径（如果有）。 |
+| [getFontFamilyName()](#getFontFamilyName--) | 字体的家族名称。 |
+| [getFullFontName()](#getFullFontName--) | 字体的全名。 |
+| [getVersion()](#getVersion--) | 字体的版本字符串。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -41,63 +41,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getFilePath() {#getFilePath--}
 ```
 public String getFilePath()
 ```
 
 
-Path to the font file if any.
+字体文件的路径（如果有）。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getFontFamilyName() {#getFontFamilyName--}
 ```
 public String getFontFamilyName()
 ```
 
 
-Family name of the font.
+字体的家族名称。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getFullFontName() {#getFullFontName--}
 ```
 public String getFullFontName()
 ```
 
 
-Full name of the font.
+字体的全名。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getVersion() {#getVersion--}
 ```
 public String getVersion()
 ```
 
 
-Version string of the font.
+字体的版本字符串。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -106,8 +106,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -132,7 +132,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -150,8 +150,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -163,9 +163,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

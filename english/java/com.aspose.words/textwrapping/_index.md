@@ -1,34 +1,34 @@
 ---
 title: TextWrapping
 second_title: Aspose.Words for Java API Reference
-description: Specifies how text is wrapped around the table.
+description: 指定文本如何环绕表格。
 type: docs
 weight: 570
-url: /java/com.aspose.words/textwrapping/
+url: /zh/java/com.aspose.words/textwrapping/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextWrapping
 ```
 
-Specifies how text is wrapped around the table.
-## Fields
+指定文本如何环绕表格。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AROUND](#AROUND) | Text is wrapped around the table occupying available side space. |
-| [DEFAULT](#DEFAULT) | Default value. |
-| [NONE](#NONE) | Text and table is displayed in the order of their appearance in the document. |
+| [AROUND](#AROUND) | 文本环绕在表格周围，占用可用的侧面空间。 |
+| [DEFAULT](#DEFAULT) | 默认值。 |
+| [NONE](#NONE) | 文本和表格按照它们在文档中出现的顺序显示。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textWrappingName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int textWrapping)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int AROUND
 ```
 
 
-Text is wrapped around the table occupying available side space.
+文本环绕在表格周围，占用可用的侧面空间。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -53,7 +53,7 @@ public static int DEFAULT
 ```
 
 
-Default value.
+默认值。
 
 ### NONE {#NONE}
 ```
@@ -61,7 +61,7 @@ public static int NONE
 ```
 
 
-Text and table is displayed in the order of their appearance in the document.
+文本和表格按照它们在文档中出现的顺序显示。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String textWrappingName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textWrappingName)
@@ -92,23 +92,23 @@ public static int fromName(String textWrappingName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrappingName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int textWrapping) {#getName-int-}
 ```
 public static String getName(int textWrapping)
@@ -117,12 +117,12 @@ public static String getName(int textWrapping)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int textWrapping) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int textWrapping)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textWrapping | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

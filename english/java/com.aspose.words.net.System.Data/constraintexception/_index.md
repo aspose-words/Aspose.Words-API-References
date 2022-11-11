@@ -1,33 +1,33 @@
 ---
 title: ConstraintException
 second_title: Aspose.Words for Java API Reference
-description: Represents the exception that is thrown when attempting an action that violates a constraint.
+description: 表示尝试违反约束的操作时引发的异常。
 type: docs
 weight: 12
-url: /java/com.aspose.words.net.system.data/constraintexception/
+url: /zh/java/com.aspose.words.net.system.data/constraintexception/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, java.lang.IllegalStateException
 ```
 public class ConstraintException extends IllegalStateException
 ```
 
-Represents the exception that is thrown when attempting an action that violates a constraint.
-## Constructors
+表示尝试违反约束的操作时引发的异常。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ConstraintException(String s)](#ConstraintException-java.lang.String-) | Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception) class with the specified string. |
-## Methods
+| [ConstraintException(String s)](#ConstraintException-java.lang.String-) | 初始化一个新的实例[ConstraintException](../../com.aspose.words.net.system.data/constraintexception)具有指定字符串的类。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -50,12 +50,12 @@ public ConstraintException(String s)
 ```
 
 
-Initializes a new instance of the [ConstraintException](../../com.aspose.words.net.system.data/constraintexception) class with the specified string.
+初始化一个新的实例[ConstraintException](../../com.aspose.words.net.system.data/constraintexception)具有指定字符串的类。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| s | java.lang.String | The string to display when the exception is thrown. |
+| s | java.lang.String | 抛出异常时显示的字符串。 |
 
 ### addSuppressed(Throwable arg0) {#addSuppressed-java.lang.Throwable-}
 ```
@@ -65,8 +65,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
@@ -78,13 +78,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()
@@ -93,7 +93,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -103,18 +103,18 @@ public synchronized Throwable getCause()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -123,7 +123,7 @@ public String getLocalizedMessage()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getMessage() {#getMessage--}
 ```
@@ -133,7 +133,7 @@ public String getMessage()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getStackTrace() {#getStackTrace--}
 ```
@@ -143,7 +143,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**Returns:**
+**退货:**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -153,7 +153,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -163,8 +163,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
 public synchronized Throwable initCause(Throwable arg0)
@@ -173,12 +173,12 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**Returns:**
+**退货:**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -212,8 +212,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
@@ -225,8 +225,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
@@ -238,8 +238,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
@@ -251,7 +251,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -269,8 +269,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -282,9 +282,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

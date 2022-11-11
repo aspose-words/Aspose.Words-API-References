@@ -1,71 +1,71 @@
 ---
 title: ListLevel
-second_title: Aspose.Words for Java API Reference
-description: Defines formatting for a list level.
+second_title: Aspose.Words for Java API 参考
+description: 定义列表级别的格式。
 type: docs
 weight: 372
-url: /java/com.aspose.words/listlevel/
+url: /zh/java/com.aspose.words/listlevel/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class ListLevel implements Cloneable
 ```
 
-Defines formatting for a list level.
+定义列表级别的格式。
 
-To learn more, visit the **Working with Lists** documentation article.
+要了解更多信息，请访问**Working with Lists**文档文章。
 
-You do not create objects of this class. List level objects are created automatically when a list is created. You access [ListLevel](../../com.aspose.words/listlevel) objects via the [ListLevelCollection](../../com.aspose.words/listlevelcollection) collection.
+您不创建此类的对象。创建列表时会自动创建列表级对象。您访问[ListLevel](../../com.aspose.words/listlevel)对象通过[ListLevelCollection](../../com.aspose.words/listlevelcollection)收藏。
 
-Use the properties of [ListLevel](../../com.aspose.words/listlevel) to specify list formatting for individual list levels.
-## Methods
+使用的属性[ListLevel](../../com.aspose.words/listlevel)为各个列表级别指定列表格式。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
-| [createPictureBullet()](#createPictureBullet--) | Creates picture bullet shape for the current list level. |
-| [deletePictureBullet()](#deletePictureBullet--) | Deletes picture bullet for the current list level. |
-| [equals(ListLevel level)](#equals-com.aspose.words.ListLevel-) | Compares with the specified ListLevel. |
+| [createPictureBullet()](#createPictureBullet--) | 为当前列表级别创建图片项目符号形状。 |
+| [deletePictureBullet()](#deletePictureBullet--) | 删除当前列表级别的图片项目符号。 |
+| [equals(ListLevel level)](#equals-com.aspose.words.ListLevel-) | 与指定的 ListLevel 进行比较。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getAlignment()](#getAlignment--) | Gets the justification of the actual number of the list item. |
-| [getClass()](#getClass--) |  |
-| [getCustomNumberStyleFormat()](#getCustomNumberStyleFormat--) | Gets the custom number style format for this list level. |
+| [getAlignment()](#getAlignment--) | 获取列表项的实际数量的对齐方式。 |
+| [get班级()](#get班级--) |  |
+| [getCustomNumberStyleFormat()](#getCustomNumberStyleFormat--) | 获取此列表级别的自定义数字样式格式。 |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
 | [getEffectiveValue(int index, int numberStyle, String customNumberStyleFormat)](#getEffectiveValue-int-int-java.lang.String-) |  |
-| [getFont()](#getFont--) | Specifies character formatting used for the list label. |
-| [getImageData()](#getImageData--) | Returns image data of the picture bullet shape for the current list level. |
-| [getLinkedStyle()](#getLinkedStyle--) | Gets the paragraph style that is linked to this list level. |
-| [getNumberFormat()](#getNumberFormat--) | Gets the number format for the list level. |
-| [getNumberPosition()](#getNumberPosition--) | Gets the position (in points) of the number or bullet for the list level. |
-| [getNumberStyle()](#getNumberStyle--) | Gets the number style for this list level. |
-| [getRestartAfterLevel()](#getRestartAfterLevel--) | Gets the list level that must appear before the specified list level restarts numbering. |
-| [getStartAt()](#getStartAt--) | Gets the starting number for this list level. |
-| [getTabPosition()](#getTabPosition--) | Gets the tab position (in points) for the list level. |
-| [getTextPosition()](#getTextPosition--) | Gets the position (in points) for the second line of wrapping text for the list level. |
-| [getTrailingCharacter()](#getTrailingCharacter--) | Gets the character inserted after the number for the list level. |
+| [getFont()](#getFont--) | 指定用于列表标签的字符格式。 |
+| [getImageData()](#getImageData--) | 返回当前列表级别的图片子弹形状的图像数据。 |
+| [getLinkedStyle()](#getLinkedStyle--) | 获取链接到此列表级别的段落样式。 |
+| [getNumberFormat()](#getNumberFormat--) | 获取列表级别的数字格式。 |
+| [getNumberPosition()](#getNumberPosition--) | 获取列表级别的数字或项目符号的位置（以磅为单位）。 |
+| [getNumberStyle()](#getNumberStyle--) | 获取此列表级别的数字样式。 |
+| [getRestartAfterLevel()](#getRestartAfterLevel--) | 获取在指定列表级别重新开始编号之前必须出现的列表级别。 |
+| [getStartAt()](#getStartAt--) | 获取此列表级别的起始编号。 |
+| [getTabPosition()](#getTabPosition--) | 获取列表级别的制表符位置（以磅为单位）。 |
+| [getTextPosition()](#getTextPosition--) | 获取列表级别的第二行换行文本的位置（以磅为单位）。 |
+| [getTrailingCharacter()](#getTrailingCharacter--) | 获取在列表级别的数字之后插入的字符。 |
 | [hashCode()](#hashCode--) |  |
-| [isLegal()](#isLegal--) | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |
-| [isLegal(boolean value)](#isLegal-boolean-) | True if the level turns all inherited numbers to Arabic, false if it preserves their number style. |
+| [isLegal()](#isLegal--) | 如果关卡将所有继承的数字转换为阿拉伯语，则为真，如果保留其数字样式，则为假。 |
+| [isLegal(boolean value)](#isLegal-boolean-) | 如果关卡将所有继承的数字转换为阿拉伯语，则为真，如果保留其数字样式，则为假。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setAlignment(int value)](#setAlignment-int-) | Sets the justification of the actual number of the list item. |
-| [setLinkedStyle(Style value)](#setLinkedStyle-com.aspose.words.Style-) | Sets the paragraph style that is linked to this list level. |
-| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | Sets the number format for the list level. |
-| [setNumberPosition(double value)](#setNumberPosition-double-) | Sets the position (in points) of the number or bullet for the list level. |
-| [setNumberStyle(int value)](#setNumberStyle-int-) | Sets the number style for this list level. |
-| [setRestartAfterLevel(int value)](#setRestartAfterLevel-int-) | Sets the list level that must appear before the specified list level restarts numbering. |
+| [setAlignment(int value)](#setAlignment-int-) | 设置列表项的实际数量的对齐方式。 |
+| [setLinkedStyle(Style value)](#setLinkedStyle-com.aspose.words.Style-) | 设置链接到此列表级别的段落样式。 |
+| [setNumberFormat(String value)](#setNumberFormat-java.lang.String-) | 设置列表级别的数字格式。 |
+| [setNumberPosition(double value)](#setNumberPosition-double-) | 设置列表级别的数字或项目符号的位置（以磅为单位）。 |
+| [setNumberStyle(int value)](#setNumberStyle-int-) | 设置此列表级别的编号样式。 |
+| [setRestartAfterLevel(int value)](#setRestartAfterLevel-int-) | 设置在指定列表级别重新开始编号之前必须出现的列表级别。 |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setStartAt(int value)](#setStartAt-int-) | Sets the starting number for this list level. |
-| [setTabPosition(double value)](#setTabPosition-double-) | Sets the tab position (in points) for the list level. |
-| [setTextPosition(double value)](#setTextPosition-double-) | Sets the position (in points) for the second line of wrapping text for the list level. |
-| [setTrailingCharacter(int value)](#setTrailingCharacter-int-) | Sets the character inserted after the number for the list level. |
+| [setStartAt(int value)](#setStartAt-int-) | 设置此列表级别的起始编号。 |
+| [setTabPosition(double value)](#setTabPosition-double-) | 设置列表级别的制表符位置（以磅为单位）。 |
+| [setTextPosition(double value)](#setTextPosition-double-) | 设置列表级别的第二行换行文本的位置（以磅为单位）。 |
+| [setTrailingCharacter(int value)](#setTrailingCharacter-int-) | 设置在列表级别的数字之后插入的字符。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -84,7 +84,7 @@ public void createPictureBullet()
 ```
 
 
-Creates picture bullet shape for the current list level. Please note, NumberStyle will be set to Bullet and NumberFormat to "\\xF0B7" to properly display picture bullet. Red cross image will be set as picture bullet image upon creating. To change it please use [getImageData()](../../com.aspose.words/listlevel\#getImageData--).
+为当前列表级别创建图片项目符号形状。请注意，NumberStyle 将设置为 Bullet 和 NumberFormat 为“\\xF0B7" 以正确显示图片子弹。红十字图像将在创建时设置为图片子弹图像。要更改它，请使用[getImageData()](../../com.aspose.words/listlevel\#getImageData--).
 
 ### deletePictureBullet() {#deletePictureBullet--}
 ```
@@ -92,7 +92,7 @@ public void deletePictureBullet()
 ```
 
 
-Deletes picture bullet for the current list level. Default bullet will be shown after deleting.
+删除当前列表级别的图片项目符号。默认项目符号将在删除后显示。
 
 ### equals(ListLevel level) {#equals-com.aspose.words.ListLevel-}
 ```
@@ -100,15 +100,15 @@ public boolean equals(ListLevel level)
 ```
 
 
-Compares with the specified ListLevel.
+与指定的 ListLevel 进行比较。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | level | [ListLevel](../../com.aspose.words/listlevel) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -117,13 +117,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -132,12 +132,12 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getAlignment() {#getAlignment--}
 ```
@@ -145,32 +145,32 @@ public int getAlignment()
 ```
 
 
-Gets the justification of the actual number of the list item.
+获取列表项的实际数量的对齐方式。
 
-The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-) property.
+列表标签相对于[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-)财产。
 
-**Returns:**
-int - The justification of the actual number of the list item. The returned value is one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment) constants.
-### getClass() {#getClass--}
+**退货:**
+int - 列表项的实际数量的理由。返回值是以下之一[ListLevelAlignment](../../com.aspose.words/listlevelalignment)常数。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCustomNumberStyleFormat() {#getCustomNumberStyleFormat--}
 ```
 public String getCustomNumberStyleFormat()
 ```
 
 
-Gets the custom number style format for this list level. For example: "a, �, \\u011d, ...".
+获取此列表级别的自定义数字样式格式。例如：“a, �,\\u011d，...”。
 
-**Returns:**
-java.lang.String - The custom number style format for this list level.
+**退货:**
+java.lang.String - 此列表级别的自定义数字样式格式。
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -179,12 +179,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getEffectiveValue(int index, int numberStyle, String customNumberStyleFormat) {#getEffectiveValue-int-int-java.lang.String-}
 ```
@@ -194,14 +194,14 @@ public static String getEffectiveValue(int index, int numberStyle, String custom
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 | numberStyle | int |  |
 | customNumberStyleFormat | java.lang.String |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getFont() {#getFont--}
 ```
@@ -209,128 +209,128 @@ public Font getFont()
 ```
 
 
-Specifies character formatting used for the list label.
+指定用于列表标签的字符格式。
 
-**Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+**退货:**
+[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### getImageData() {#getImageData--}
 ```
 public ImageData getImageData()
 ```
 
 
-Returns image data of the picture bullet shape for the current list level. If this level doesn't define picture bullet returns null. Before setting new image for non picture bullet shape, please use [createPictureBullet()](../../com.aspose.words/listlevel\#createPictureBullet--) method first.
+返回当前列表级别的图片子弹形状的图像数据。如果此级别未定义图片项目符号，则返回 null。在为非图片子弹形状设置新图像之前，请使用[createPictureBullet()](../../com.aspose.words/listlevel\#createPictureBullet--)先说方法。
 
-**Returns:**
-[ImageData](../../com.aspose.words/imagedata) - Image data of the picture bullet shape for the current list level.
+**退货:**
+[ImageData](../../com.aspose.words/imagedata) - 当前列表级别的图片子弹形状的图像数据。
 ### getLinkedStyle() {#getLinkedStyle--}
 ```
 public Style getLinkedStyle()
 ```
 
 
-Gets the paragraph style that is linked to this list level.
+获取链接到此列表级别的段落样式。
 
-This property is null when the list level is not linked to a paragraph style. This property can be set to null.
+当列表级别未链接到段落样式时，此属性为 null。该属性可以设置为空。
 
-**Returns:**
-[Style](../../com.aspose.words/style) - The paragraph style that is linked to this list level.
+**退货:**
+[Style](../../com.aspose.words/style) 链接到此列表级别的段落样式。
 ### getNumberFormat() {#getNumberFormat--}
 ```
 public String getNumberFormat()
 ```
 
 
-Gets the number format for the list level.
+获取列表级别的数字格式。
 
-Among normal text characters, the string can contain placeholder characters \\x0000 to \\x0008 representing the numbers from the corresponding list levels.
+在普通文本字符中，字符串可以包含占位符字符\\x0000 到\\x0008 表示来自相应列表级别的数字。
 
-For example, the string "\\x0000.\\x0001)" will generate a list label that looks something like "1.5)". The number "1" is the current number from the 1st list level, the number "5" is the current number from the 2nd list level.
+例如，字符串“\\x0000。\\x0001)" 将生成一个类似于 "1.5)" 的列表标签。数字 "1" 是第一级列表的当前数字，数字 "5" 是第二级列表的当前数字。
 
-Null is not allowed, but an empty string meaning no number is valid.
+不允许为 Null，但表示没有数字的空字符串是有效的。
 
-**Returns:**
-java.lang.String - The number format for the list level.
+**退货:**
+java.lang.String - 列表级别的数字格式。
 ### getNumberPosition() {#getNumberPosition--}
 ```
 public double getNumberPosition()
 ```
 
 
-Gets the position (in points) of the number or bullet for the list level.
+获取列表级别的数字或项目符号的位置（以磅为单位）。
 
-[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
+[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-)对应段落的 LeftIndent 加上 FirstLineIndent。
 
-**Returns:**
-double - The position (in points) of the number or bullet for the list level.
+**退货:**
+double - 列表级别的数字或项目符号的位置（以磅为单位）。
 ### getNumberStyle() {#getNumberStyle--}
 ```
 public int getNumberStyle()
 ```
 
 
-Gets the number style for this list level.
+获取此列表级别的数字样式。
 
-**Returns:**
-int - The number style for this list level. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
+**退货:**
+ int - 此列表级别的数字样式。返回值是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。
 ### getRestartAfterLevel() {#getRestartAfterLevel--}
 ```
 public int getRestartAfterLevel()
 ```
 
 
-Gets the list level that must appear before the specified list level restarts numbering.
+获取在指定列表级别重新开始编号之前必须出现的列表级别。
 
-The value of -1 means the numbering will continue.
+-1 的值表示将继续编号。
 
-**Returns:**
-int - The list level that must appear before the specified list level restarts numbering.
+**退货:**
+int - 在指定列表级别重新开始编号之前必须出现的列表级别。
 ### getStartAt() {#getStartAt--}
 ```
 public int getStartAt()
 ```
 
 
-Gets the starting number for this list level.
+获取此列表级别的起始编号。
 
-Default value is 1.
+默认值为 1。
 
-**Returns:**
-int - The starting number for this list level.
+**退货:**
+int - 此列表级别的起始编号。
 ### getTabPosition() {#getTabPosition--}
 ```
 public double getTabPosition()
 ```
 
 
-Gets the tab position (in points) for the list level.
+获取列表级别的制表符位置（以磅为单位）。
 
-Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-) is a tab.
+仅在以下情况下生效[getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-)是一个标签。
 
-**Returns:**
-double - The tab position (in points) for the list level.
+**退货:**
+double - 列表级别的制表符位置（以磅为单位）。
 ### getTextPosition() {#getTextPosition--}
 ```
 public double getTextPosition()
 ```
 
 
-Gets the position (in points) for the second line of wrapping text for the list level.
+获取列表级别的第二行换行文本的位置（以磅为单位）。
 
-[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition--) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double-) corresponds to LeftIndent of the paragraph.
+[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition--) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double-)对应段落的 LeftIndent。
 
-**Returns:**
-double - The position (in points) for the second line of wrapping text for the list level.
+**退货:**
+double - 列表级别的第二行换行文本的位置（以磅为单位）。
 ### getTrailingCharacter() {#getTrailingCharacter--}
 ```
 public int getTrailingCharacter()
 ```
 
 
-Gets the character inserted after the number for the list level.
+获取在列表级别的数字之后插入的字符。
 
-**Returns:**
-int - The character inserted after the number for the list level. The returned value is one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter) constants.
+**退货:**
+ int - 在列表级别的数字之后插入的字符。返回值是以下之一[ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -339,30 +339,30 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isLegal() {#isLegal--}
 ```
 public boolean isLegal()
 ```
 
 
-True if the level turns all inherited numbers to Arabic, false if it preserves their number style.
+如果关卡将所有继承的数字转换为阿拉伯语，则为真，如果保留其数字样式，则为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isLegal(boolean value) {#isLegal-boolean-}
 ```
 public void isLegal(boolean value)
 ```
 
 
-True if the level turns all inherited numbers to Arabic, false if it preserves their number style.
+如果关卡将所有继承的数字转换为阿拉伯语，则为真，如果保留其数字样式，则为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -388,8 +388,8 @@ public void removeRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
@@ -399,14 +399,14 @@ public void setAlignment(int value)
 ```
 
 
-Sets the justification of the actual number of the list item.
+设置列表项的实际数量的对齐方式。
 
-The list label is justified relative to the [getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-) property.
+列表标签相对于[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-)财产。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The justification of the actual number of the list item. The value must be one of [ListLevelAlignment](../../com.aspose.words/listlevelalignment) constants. |
+| value | int | 列表项的实际数量的理由。该值必须是以下之一[ListLevelAlignment](../../com.aspose.words/listlevelalignment)常数。 |
 
 ### setLinkedStyle(Style value) {#setLinkedStyle-com.aspose.words.Style-}
 ```
@@ -414,14 +414,14 @@ public void setLinkedStyle(Style value)
 ```
 
 
-Sets the paragraph style that is linked to this list level.
+设置链接到此列表级别的段落样式。
 
-This property is null when the list level is not linked to a paragraph style. This property can be set to null.
+当列表级别未链接到段落样式时，此属性为 null。该属性可以设置为空。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The paragraph style that is linked to this list level. |
+| value | [Style](../../com.aspose.words/style) | 链接到此列表级别的段落样式。 |
 
 ### setNumberFormat(String value) {#setNumberFormat-java.lang.String-}
 ```
@@ -429,18 +429,18 @@ public void setNumberFormat(String value)
 ```
 
 
-Sets the number format for the list level.
+设置列表级别的数字格式。
 
-Among normal text characters, the string can contain placeholder characters \\x0000 to \\x0008 representing the numbers from the corresponding list levels.
+在普通文本字符中，字符串可以包含占位符字符\\x0000 到\\x0008 表示来自相应列表级别的数字。
 
-For example, the string "\\x0000.\\x0001)" will generate a list label that looks something like "1.5)". The number "1" is the current number from the 1st list level, the number "5" is the current number from the 2nd list level.
+例如，字符串“\\x0000。\\x0001)" 将生成一个类似于 "1.5)" 的列表标签。数字 "1" 是第一级列表的当前数字，数字 "5" 是第二级列表的当前数字。
 
-Null is not allowed, but an empty string meaning no number is valid.
+不允许为 Null，但表示没有数字的空字符串是有效的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The number format for the list level. |
+| value | java.lang.String | 列表级别的数字格式。 |
 
 ### setNumberPosition(double value) {#setNumberPosition-double-}
 ```
@@ -448,14 +448,14 @@ public void setNumberPosition(double value)
 ```
 
 
-Sets the position (in points) of the number or bullet for the list level.
+设置列表级别的数字或项目符号的位置（以磅为单位）。
 
-[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-) corresponds to LeftIndent plus FirstLineIndent of the paragraph.
+[getNumberPosition()](../../com.aspose.words/listlevel\#getNumberPosition--) / [setNumberPosition(double)](../../com.aspose.words/listlevel\#setNumberPosition-double-)对应段落的 LeftIndent 加上 FirstLineIndent。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The position (in points) of the number or bullet for the list level. |
+| value | double | 列表级别的数字或项目符号的位置（以磅为单位）。 |
 
 ### setNumberStyle(int value) {#setNumberStyle-int-}
 ```
@@ -463,12 +463,12 @@ public void setNumberStyle(int value)
 ```
 
 
-Sets the number style for this list level.
+设置此列表级别的编号样式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The number style for this list level. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
+| value | int | 此列表级别的编号样式。该值必须是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。 |
 
 ### setRestartAfterLevel(int value) {#setRestartAfterLevel-int-}
 ```
@@ -476,14 +476,14 @@ public void setRestartAfterLevel(int value)
 ```
 
 
-Sets the list level that must appear before the specified list level restarts numbering.
+设置在指定列表级别重新开始编号之前必须出现的列表级别。
 
-The value of -1 means the numbering will continue.
+-1 的值表示将继续编号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The list level that must appear before the specified list level restarts numbering. |
+| value | int | 在指定的列表级别重新开始编号之前必须出现的列表级别。 |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -493,8 +493,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -505,14 +505,14 @@ public void setStartAt(int value)
 ```
 
 
-Sets the starting number for this list level.
+设置此列表级别的起始编号。
 
-Default value is 1.
+默认值为 1。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The starting number for this list level. |
+| value | int | 此列表级别的起始编号。 |
 
 ### setTabPosition(double value) {#setTabPosition-double-}
 ```
@@ -520,14 +520,14 @@ public void setTabPosition(double value)
 ```
 
 
-Sets the tab position (in points) for the list level.
+设置列表级别的制表符位置（以磅为单位）。
 
-Has effect only when [getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-) is a tab.
+仅在以下情况下生效[getTrailingCharacter()](../../com.aspose.words/listlevel\#getTrailingCharacter--) / [setTrailingCharacter(int)](../../com.aspose.words/listlevel\#setTrailingCharacter-int-)是一个标签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The tab position (in points) for the list level. |
+| value | double | 列表级别的制表符位置（以磅为单位）。 |
 
 ### setTextPosition(double value) {#setTextPosition-double-}
 ```
@@ -535,14 +535,14 @@ public void setTextPosition(double value)
 ```
 
 
-Sets the position (in points) for the second line of wrapping text for the list level.
+设置列表级别的第二行换行文本的位置（以磅为单位）。
 
-[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition--) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double-) corresponds to LeftIndent of the paragraph.
+[getTextPosition()](../../com.aspose.words/listlevel\#getTextPosition--) / [setTextPosition(double)](../../com.aspose.words/listlevel\#setTextPosition-double-)对应段落的 LeftIndent。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The position (in points) for the second line of wrapping text for the list level. |
+| value | double | 列表级别的第二行换行文本的位置（以磅为单位）。 |
 
 ### setTrailingCharacter(int value) {#setTrailingCharacter-int-}
 ```
@@ -550,12 +550,12 @@ public void setTrailingCharacter(int value)
 ```
 
 
-Sets the character inserted after the number for the list level.
+设置在列表级别的数字之后插入的字符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The character inserted after the number for the list level. The value must be one of [ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter) constants. |
+| value | int | 在列表级别的数字之后插入的字符。该值必须是以下之一[ListTrailingCharacter](../../com.aspose.words/listtrailingcharacter)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -565,7 +565,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -583,8 +583,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -596,9 +596,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

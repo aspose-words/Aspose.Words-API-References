@@ -1,35 +1,35 @@
 ---
 title: RefDouble
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Double primitive type
+description: 表示 Double 基本类型的 Out/Ref 构造
 type: docs
 weight: 13
-url: /java/com.aspose.words.ref/refdouble/
+url: /zh/java/com.aspose.words.ref/refdouble/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class RefDouble
 ```
 
-Represents Out/Ref constructions for Double primitive type
-## Constructors
+表示 Double 基本类型的 Out/Ref 构造
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [RefDouble(double value)](#RefDouble-double-) | Mimics Out/Ref parameter initialisation with given Value. |
-## Methods
+| [RefDouble(double value)](#RefDouble-double-) | 使用给定值模拟 Out/Ref 参数初始化。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
-| [getClass()](#getClass--) |  |
+| [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(double anotherValue)](#set-double-) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
+| [set(double anotherValue)](#set-double-) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,10 +40,10 @@ public RefDouble(double value)
 ```
 
 
-Mimics Out/Ref parameter initialisation with given Value. Should be used before calling the method with Out/Ref constructions
+使用给定值模拟 Out/Ref 参数初始化。应该在调用具有 Out/Ref 结构的方法之前使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -55,33 +55,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get() {#get--}
 ```
 public double get()
 ```
 
 
-Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions
+获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
 
-**Returns:**
-double
-### getClass() {#getClass--}
+**退货:**
+双倍的
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,15 +114,15 @@ public double set(double anotherValue)
 ```
 
 
-Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions
+设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | anotherValue | double |  |
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### toString() {#toString--}
 ```
 public String toString()
@@ -131,7 +131,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -149,8 +149,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -162,9 +162,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

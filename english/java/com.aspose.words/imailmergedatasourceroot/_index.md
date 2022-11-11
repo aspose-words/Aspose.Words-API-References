@@ -1,37 +1,37 @@
 ---
 title: IMailMergeDataSourceRoot
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface to allow mail merge from a custom data source with master-detail data.
+second_title: Aspose.Words for Java API 参考
+description: 实现此接口以允许来自自定义数据源的邮件与主从数据合并。
 type: docs
 weight: 651
-url: /java/com.aspose.words/imailmergedatasourceroot/
+url: /zh/java/com.aspose.words/imailmergedatasourceroot/
 ---
 ```
 public interface IMailMergeDataSourceRoot
 ```
 
-Implement this interface to allow mail merge from a custom data source with master-detail data.
-## Methods
+实现此接口以允许来自自定义数据源的邮件与主从数据合并。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [getDataSource(String tableName)](#getDataSource-java.lang.String-) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region. |
+| [getDataSource(String tableName)](#getDataSource-java.lang.String-) | Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法。 |
 ### getDataSource(String tableName) {#getDataSource-java.lang.String-}
 ```
 public abstract IMailMergeDataSource getDataSource(String tableName)
 ```
 
 
-The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a top-level mail merge region.
+Aspose.Words 邮件合并引擎在遇到顶级邮件合并区域的开头时调用此方法。
 
-When the Aspose.Words mail merge engines populates a document with data and encounters MERGEFIELD TableStart:TableName, it invokes [getDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasourceroot\#getDataSource-java.lang.String-) on this object. Your implementation needs to return a new data source object. Aspose.Words will use the returned data source to populate the mail merge region.
+当 Aspose.Words 邮件合并引擎使用数据填充文档并遇到 MERGEFIELD TableStart:TableName 时，它会调用[getDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasourceroot\#getDataSource-java.lang.String-)在这个物体上。您的实现需要返回一个新的数据源对象。 Aspose.Words 将使用返回的数据源来填充邮件合并区域。
 
-If a data source (table) with the specified name does not exist, your implementation should return  null .
+如果具有指定名称的数据源（表）不存在，则您的实现应返回 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
+| tableName | java.lang.String | 模板文档中指定的邮件合并区域的名称。不区分大小写。 |
 
-**Returns:**
-[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) - A data source object that will provide access to the data records of the specified table.
+**退货:**
+[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) - 将提供对指定表的数据记录的访问的数据源对象。

@@ -1,40 +1,40 @@
 ---
 title: XmlMapping
 second_title: Aspose.Words for Java API Reference
-description: Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document.
+description: 指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 type: docs
 weight: 629
-url: /java/com.aspose.words/xmlmapping/
+url: /zh/java/com.aspose.words/xmlmapping/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class XmlMapping implements Cloneable
 ```
 
-Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document.
+指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
-## Methods
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [delete()](#delete--) | Deletes mapping of the parent structured document to XML data. |
+| [delete()](#delete--) | 删除父结构化文档到 XML 数据的映射。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCustomXmlPart()](#getCustomXmlPart--) | Returns the custom XML data part to which the parent structured document tag is mapped. |
-| [getPrefixMappings()](#getPrefixMappings--) | Returns XML namespace prefix mappings to evaluate the [getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). |
-| [getStoreItemId()](#getStoreItemId--) | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [getXPath()](../../com.aspose.words/xmlmapping\#getXPath--) expression. |
-| [getXPath()](#getXPath--) | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |
+| [get班级()](#get班级--) |  |
+| [getCustomXmlPart()](#getCustomXmlPart--) | 返回父结构化文档标记映射到的自定义 XML 数据部分。 |
+| [getPrefixMappings()](#getPrefixMappings--) | 返回 XML 命名空间前缀映射以评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). |
+| [getStoreItemId()](#getStoreItemId--) | 为自定义 XML 数据部分指定自定义 XML 数据标识符，用于评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--)表达。 |
+| [getXPath()](#getXPath--) | 返回 XPath 表达式，对其求值以查找映射到父结构化文档标记的自定义 XML 节点。 |
 | [hashCode()](#hashCode--) |  |
-| [isMapped()](#isMapped--) | Returns **true** if the parent structured document tag is successfully mapped to XML data. |
+| [isMapped()](#isMapped--) | 退货**true**如果父结构化文档标记成功映射到 XML 数据。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)](#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String-) | Sets a mapping between the parent structured document tag and an XML node of a custom XML data part. |
+| [setMapping(CustomXmlPart customXmlPart, String xPath, String prefixMapping)](#setMapping-com.aspose.words.CustomXmlPart-java.lang.String-java.lang.String-) | 设置父结构化文档标签和自定义 XML 数据部件的 XML 节点之间的映射。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +45,7 @@ public void delete()
 ```
 
 
-Deletes mapping of the parent structured document to XML data.
+删除父结构化文档到 XML 数据的映射。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -55,63 +55,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCustomXmlPart() {#getCustomXmlPart--}
 ```
 public CustomXmlPart getCustomXmlPart()
 ```
 
 
-Returns the custom XML data part to which the parent structured document tag is mapped.
+返回父结构化文档标记映射到的自定义 XML 数据部分。
 
-**Returns:**
-[CustomXmlPart](../../com.aspose.words/customxmlpart) - The custom XML data part to which the parent structured document tag is mapped.
+**退货:**
+[CustomXmlPart](../../com.aspose.words/customxmlpart) - 父结构化文档标记映射到的自定义 XML 数据部分。
 ### getPrefixMappings() {#getPrefixMappings--}
 ```
 public String getPrefixMappings()
 ```
 
 
-Returns XML namespace prefix mappings to evaluate the [getXPath()](../../com.aspose.words/xmlmapping\#getXPath--). Specifies the set of prefix mappings, which shall be used to interpret the XPath expression when the XPath expression is evaluated against the custom XML data parts in the document.
+返回 XML 命名空间前缀映射以评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--).指定前缀映射集，当针对文档中的自定义 XML 数据部分评估 XPath 表达式时，应使用该前缀映射来解释 XPath 表达式。
 
-**Returns:**
-java.lang.String - XML namespace prefix mappings to evaluate the [getXPath()](../../com.aspose.words/xmlmapping\#getXPath--).
+**退货:**
+ java.lang.String - XML 命名空间前缀映射来评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--).
 ### getStoreItemId() {#getStoreItemId--}
 ```
 public String getStoreItemId()
 ```
 
 
-Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [getXPath()](../../com.aspose.words/xmlmapping\#getXPath--) expression.
+为自定义 XML 数据部分指定自定义 XML 数据标识符，用于评估[getXPath()](../../com.aspose.words/xmlmapping\#getXPath--)表达。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getXPath() {#getXPath--}
 ```
 public String getXPath()
 ```
 
 
-Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
+返回 XPath 表达式，对其求值以查找映射到父结构化文档标记的自定义 XML 节点。
 
-**Returns:**
-java.lang.String - The XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag.
+**退货:**
+java.lang.String - XPath 表达式，用于查找映射到父结构化文档标记的自定义 XML 节点。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -120,18 +120,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isMapped() {#isMapped--}
 ```
 public boolean isMapped()
 ```
 
 
-Returns **true** if the parent structured document tag is successfully mapped to XML data.
+退货**true**如果父结构化文档标记成功映射到 XML 数据。
 
-**Returns:**
-boolean - **true** if the parent structured document tag is successfully mapped to XML data.
+**退货:**
+布尔值 -**true**如果父结构化文档标记成功映射到 XML 数据。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -154,17 +154,17 @@ public boolean setMapping(CustomXmlPart customXmlPart, String xPath, String pref
 ```
 
 
-Sets a mapping between the parent structured document tag and an XML node of a custom XML data part.
+设置父结构化文档标签和自定义 XML 数据部件的 XML 节点之间的映射。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| customXmlPart | [CustomXmlPart](../../com.aspose.words/customxmlpart) | A custom XML data part to map to. |
-| xPath | java.lang.String | An XPath expression to find the XML node. |
-| prefixMapping | java.lang.String | XML namespace prefix mappings to evaluate the XPath. |
+| customXmlPart | [CustomXmlPart](../../com.aspose.words/customxmlpart) | 要映射到的自定义 XML 数据部分。 |
+| xPath | java.lang.String | 用于查找 XML 节点的 XPath 表达式。 |
+| prefixMapping | java.lang.String | 用于评估 XPath 的 XML 命名空间前缀映射。 |
 
-**Returns:**
-boolean - A flag indicating whether the parent structured document tag is successfully mapped to the XML node.
+**退货:**
+boolean - 指示父结构化文档标记是否成功映射到 XML 节点的标志。
 ### toString() {#toString--}
 ```
 public String toString()
@@ -173,7 +173,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -191,8 +191,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -204,9 +204,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

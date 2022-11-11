@@ -1,33 +1,33 @@
 ---
 title: IResourceLoadingCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using .
+second_title: Aspose.Words for Java API 参考
+description: 如果您想控制 Aspose.Words 在导入文档和使用 .
 type: docs
 weight: 656
-url: /java/com.aspose.words/iresourceloadingcallback/
+url: /zh/java/com.aspose.words/iresourceloadingcallback/
 ---
 ```
 public interface IResourceLoadingCallback
 ```
 
-Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using [DocumentBuilder](../../com.aspose.words/documentbuilder).
-## Methods
+如果您想控制 Aspose.Words 在导入文档和插入图像时如何加载外部资源，请实现此接口[DocumentBuilder](../../com.aspose.words/documentbuilder).
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [resourceLoading(ResourceLoadingArgs args)](#resourceLoading-com.aspose.words.ResourceLoadingArgs-) | Called when Aspose.Words loads any external resource. |
+| [resourceLoading(ResourceLoadingArgs args)](#resourceLoading-com.aspose.words.ResourceLoadingArgs-) | 当 Aspose.Words 加载任何外部资源时调用。 |
 ### resourceLoading(ResourceLoadingArgs args) {#resourceLoading-com.aspose.words.ResourceLoadingArgs-}
 ```
 public abstract int resourceLoading(ResourceLoadingArgs args)
 ```
 
 
-Called when Aspose.Words loads any external resource.
+当 Aspose.Words 加载任何外部资源时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [ResourceLoadingArgs](../../com.aspose.words/resourceloadingargs) |  |
 
-**Returns:**
-int
+**退货:**
+整数

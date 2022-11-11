@@ -1,32 +1,32 @@
 ---
 title: BasicTextShaperCache
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 28
-url: /java/com.aspose.words/basictextshapercache/
+url: /zh/java/com.aspose.words/basictextshapercache/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 [com.aspose.words.ITextShaperFactory](../../com.aspose.words/itextshaperfactory)
 ```
 public class BasicTextShaperCache implements ITextShaperFactory
 ```
-## Constructors
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory-) | Initializes a new instance of this class. |
-## Methods
+| [BasicTextShaperCache(ITextShaperFactory factory)](#BasicTextShaperCache-com.aspose.words.ITextShaperFactory-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [dispose()](#dispose--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getTextShaper(String fontId, byte[] fontBlob, int faceIndex)](#getTextShaper-java.lang.String-byte---int-) |  |
 | [getTextShaper(String fontPath, int faceIndex)](#getTextShaper-java.lang.String-int-) |  |
 | [hashCode()](#hashCode--) |  |
@@ -42,10 +42,10 @@ public BasicTextShaperCache(ITextShaperFactory factory)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | factory | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) |  |
 
@@ -65,23 +65,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getTextShaper(String fontId, byte[] fontBlob, int faceIndex) {#getTextShaper-java.lang.String-byte---int-}
 ```
 public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
@@ -90,14 +90,14 @@ public ITextShaper getTextShaper(String fontId, byte[] fontBlob, int faceIndex)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontId | java.lang.String |  |
 | fontBlob | byte[] |  |
 | faceIndex | int |  |
 
-**Returns:**
+**退货:**
 [ITextShaper](../../com.aspose.words/itextshaper)
 ### getTextShaper(String fontPath, int faceIndex) {#getTextShaper-java.lang.String-int-}
 ```
@@ -107,13 +107,13 @@ public ITextShaper getTextShaper(String fontPath, int faceIndex)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontPath | java.lang.String |  |
 | faceIndex | int |  |
 
-**Returns:**
+**退货:**
 [ITextShaper](../../com.aspose.words/itextshaper)
 ### hashCode() {#hashCode--}
 ```
@@ -123,8 +123,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -149,7 +149,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -167,8 +167,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -180,9 +180,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

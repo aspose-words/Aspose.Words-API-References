@@ -1,36 +1,36 @@
 ---
-title: FieldArgumentBuilder
-second_title: Aspose.Words for Java API Reference
-description: Builds a complex field argument consisting of fields nodes and plain text.
+title: 字段ArgumentBuilder
+second_title: Aspose.Words for Java API 参考
+description: 构建一个由字段节点和纯文本组成的复杂字段参数。
 type: docs
 weight: 155
-url: /java/com.aspose.words/fieldargumentbuilder/
+url: /zh/java/com.aspose.words/fieldargumentbuilder/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class FieldArgumentBuilder
+public class 字段ArgumentBuilder
 ```
 
-Builds a complex field argument consisting of fields, nodes, and plain text.
+构建由字段、节点和纯文本组成的复杂字段参数。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [FieldArgumentBuilder()](#FieldArgumentBuilder--) | Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) class. |
-## Methods
+| [字段ArgumentBuilder()](#字段ArgumentBuilder--) | 初始化一个实例[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [addField(FieldBuilder fieldBuilder)](#addField-com.aspose.words.FieldBuilder-) | Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder) to the argument. |
-| [addNode(Inline node)](#addNode-com.aspose.words.Inline-) | Adds a node to the argument. |
-| [addText(String text)](#addText-java.lang.String-) | Adds a plain text to the argument. |
+| [add字段(字段Builder fieldBuilder)](#add字段-com.aspose.words.字段Builder-) | 添加一个由 a 表示的字段[字段Builder](../../com.aspose.words/fieldbuilder)到论点。 |
+| [addNode(Inline node)](#addNode-com.aspose.words.Inline-) | 向参数添加一个节点。 |
+| [addText(String text)](#addText-java.lang.String-) | 向参数添加纯文本。 |
 | [buildBlock(DocumentBuilder documentBuilder)](#buildBlock-com.aspose.words.DocumentBuilder-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,59 +38,59 @@ To learn more, visit the **Working with Fields** documentation article.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FieldArgumentBuilder() {#FieldArgumentBuilder--}
+### 字段ArgumentBuilder() {#字段ArgumentBuilder--}
 ```
-public FieldArgumentBuilder()
-```
-
-
-Initializes an instance of the [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) class.
-
-### addField(FieldBuilder fieldBuilder) {#addField-com.aspose.words.FieldBuilder-}
-```
-public FieldArgumentBuilder addField(FieldBuilder fieldBuilder)
+public 字段ArgumentBuilder()
 ```
 
 
-Adds a field represented by a [FieldBuilder](../../com.aspose.words/fieldbuilder) to the argument.
+初始化一个实例[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)班级。
 
-**Parameters:**
-| Parameter | Type | Description |
+### add字段(字段Builder fieldBuilder) {#add字段-com.aspose.words.字段Builder-}
+```
+public 字段ArgumentBuilder add字段(字段Builder fieldBuilder)
+```
+
+
+添加一个由 a 表示的字段[字段Builder](../../com.aspose.words/fieldbuilder)到论点。
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldBuilder | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
+| fieldBuilder | [字段Builder](../../com.aspose.words/fieldbuilder) |  |
 
-**Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+**退货:**
+[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addNode(Inline node) {#addNode-com.aspose.words.Inline-}
 ```
-public FieldArgumentBuilder addNode(Inline node)
+public 字段ArgumentBuilder addNode(Inline node)
 ```
 
 
-Adds a node to the argument. Only text level nodes are supported at the moment.
+向参数添加一个节点。目前仅支持文本级节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Inline](../../com.aspose.words/inline) |  |
 
-**Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+**退货:**
+[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### addText(String text) {#addText-java.lang.String-}
 ```
-public FieldArgumentBuilder addText(String text)
+public 字段ArgumentBuilder addText(String text)
 ```
 
 
-Adds a plain text to the argument.
+向参数添加纯文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | text | java.lang.String |  |
 
-**Returns:**
-[FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
+**退货:**
+[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder-}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -99,8 +99,8 @@ public void buildBlock(DocumentBuilder documentBuilder)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder) |  |
 
@@ -112,23 +112,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,8 +137,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -163,7 +163,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -181,8 +181,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -194,9 +194,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

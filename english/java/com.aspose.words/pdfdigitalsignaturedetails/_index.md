@@ -1,52 +1,52 @@
 ---
 title: PdfDigitalSignatureDetails
-second_title: Aspose.Words for Java API Reference
-description: Contains details for signing a PDF document with a digital signature.
+second_title: Aspose.Words for Java API 参考
+description: 包含使用数字签名签署 PDF 文档的详细信息。
 type: docs
 weight: 451
-url: /java/com.aspose.words/pdfdigitalsignaturedetails/
+url: /zh/java/com.aspose.words/pdfdigitalsignaturedetails/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PdfDigitalSignatureDetails
 ```
 
-Contains details for signing a PDF document with a digital signature.
+包含使用数字签名签署 PDF 文档的详细信息。
 
-At the moment digitally signing PDF documents is only available on .NET 2.0 or higher.
+目前，数字签名 PDF 文档仅适用于 .NET 2.0 或更高版本。
 
-To digitally sign a PDF document when it is created by Aspose.Words, set the [PdfSaveOptions.getDigitalSignatureDetails()](../../com.aspose.words/pdfsaveoptions\#getDigitalSignatureDetails--) / [PdfSaveOptions.setDigitalSignatureDetails(com.aspose.words.PdfDigitalSignatureDetails)](../../com.aspose.words/pdfsaveoptions\#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-) property to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) object and then save the document in the PDF format passing the [PdfSaveOptions](../../com.aspose.words/pdfsaveoptions) as a parameter into the [Document.save(java.lang.String, com.aspose.words.SaveOptions)](../../com.aspose.words/document\#save-java.lang.String--com.aspose.words.SaveOptions-) method.
+要在 Aspose.Words 创建 PDF 文档时对其进行数字签名，请设置[PdfSaveOptions.getDigitalSignatureDetails()](../../com.aspose.words/pdfsaveoptions\#getDigitalSignatureDetails--) / [PdfSaveOptions.setDigitalSignatureDetails(com.aspose.words.PdfDigitalSignatureDetails)](../../com.aspose.words/pdfsaveoptions\#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-)属性为有效[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)对象，然后将文档保存为通过[PdfSaveOptions](../../com.aspose.words/pdfsaveoptions)作为参数进入[Document.save(java.lang.String, com.aspose.words.SaveOptions)](../../com.aspose.words/document\#save-java.lang.String--com.aspose.words.SaveOptions-)方法。
 
-Aspose.Words creates a PKCS\#7 signature over the whole PDF document and uses the "Adobe.PPKMS" filter and "adbe.pkcs7.sha1" subfilter when creating a digital signature.
-## Constructors
+Aspose.Words 创建一个 PKCS\#7 对整个 PDF 文档进行签名，并在创建数字签名时使用“Adobe.PPKMS”过滤器和“adbe.pkcs7.sha1”子过滤器。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [PdfDigitalSignatureDetails()](#PdfDigitalSignatureDetails--) | Initializes an instance of this class. |
-| [PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate)](#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-) | Initializes an instance of this class. |
-## Methods
+| [PdfDigitalSignatureDetails()](#PdfDigitalSignatureDetails--) | 初始化此类的一个实例。 |
+| [PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate)](#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-) | 初始化此类的一个实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCertificateHolder()](#getCertificateHolder--) | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [getClass()](#getClass--) |  |
-| [getHashAlgorithm()](#getHashAlgorithm--) | Gets the hash algorithm. |
-| [getLocation()](#getLocation--) | Gets the location of the signing. |
-| [getReason()](#getReason--) | Gets the reason for the signing. |
-| [getSignatureDate()](#getSignatureDate--) | Gets the date of the signing. |
-| [getTimestampSettings()](#getTimestampSettings--) | Gets the digital signature timestamp settings. |
+| [getCertificateHolder()](#getCertificateHolder--) | 返回包含用于签署文档的证书的证书持有者对象。 |
+| [get班级()](#get班级--) |  |
+| [getHashAlgorithm()](#getHashAlgorithm--) | 获取哈希算法。 |
+| [getLocation()](#getLocation--) | 获取签名的位置。 |
+| [getReason()](#getReason--) | 获取签名的原因。 |
+| [getSignatureDate()](#getSignatureDate--) | 获取签署日期。 |
+| [getTimestampSettings()](#getTimestampSettings--) | 获取数字签名时间戳设置。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCertificateHolder(CertificateHolder value)](#setCertificateHolder-com.aspose.words.CertificateHolder-) | Returns the certificate holder object that contains the certificate was used to sign the document. |
-| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | Sets the hash algorithm. |
-| [setLocation(String value)](#setLocation-java.lang.String-) | Sets the location of the signing. |
-| [setReason(String value)](#setReason-java.lang.String-) | Sets the reason for the signing. |
-| [setSignatureDate(Date value)](#setSignatureDate-java.util.Date-) | Sets the date of the signing. |
-| [setTimestampSettings(PdfDigitalSignatureTimestampSettings value)](#setTimestampSettings-com.aspose.words.PdfDigitalSignatureTimestampSettings-) | Sets the digital signature timestamp settings. |
+| [setCertificateHolder(CertificateHolder value)](#setCertificateHolder-com.aspose.words.CertificateHolder-) | 返回包含用于签署文档的证书的证书持有者对象。 |
+| [setHashAlgorithm(int value)](#setHashAlgorithm-int-) | 设置哈希算法。 |
+| [setLocation(String value)](#setLocation-java.lang.String-) | 设置签名的位置。 |
+| [setReason(String value)](#setReason-java.lang.String-) | 设置签名的原因。 |
+| [setSignatureDate(Date value)](#setSignatureDate-java.util.Date-) | 设置签署日期。 |
+| [setTimestampSettings(PdfDigitalSignatureTimestampSettings value)](#setTimestampSettings-com.aspose.words.PdfDigitalSignatureTimestampSettings-) | 设置数字签名时间戳设置。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,7 +57,7 @@ public PdfDigitalSignatureDetails()
 ```
 
 
-Initializes an instance of this class.
+初始化此类的一个实例。
 
 ### PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String reason, String location, Date signatureDate) {#PdfDigitalSignatureDetails-com.aspose.words.CertificateHolder-java.lang.String-java.lang.String-java.util.Date-}
 ```
@@ -65,15 +65,15 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, String re
 ```
 
 
-Initializes an instance of this class.
+初始化此类的一个实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| certificateHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | A certificate holder which contains the certificate itself. |
-| reason | java.lang.String | The reason for signing. |
-| location | java.lang.String | The location of signing. |
-| signatureDate | java.util.Date | The date and time of signing. |
+| certificateHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | 包含证书本身的证书持有者。 |
+| reason | java.lang.String | 签约的原因。 |
+| location | java.lang.String | 签约地点。 |
+| signatureDate | java.util.Date | 签字的日期和时间。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -83,89 +83,89 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getCertificateHolder() {#getCertificateHolder--}
 ```
 public CertificateHolder getCertificateHolder()
 ```
 
 
-Returns the certificate holder object that contains the certificate was used to sign the document.
+返回包含用于签署文档的证书的证书持有者对象。
 
-**Returns:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - The certificate holder object that contains the certificate was used to sign the document.
-### getClass() {#getClass--}
+**退货:**
+[CertificateHolder](../../com.aspose.words/certificateholder) - 包含证书的证书持有者对象用于签署文档。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getHashAlgorithm() {#getHashAlgorithm--}
 ```
 public int getHashAlgorithm()
 ```
 
 
-Gets the hash algorithm. The default value is the SHA-256 algorithm.
+获取哈希算法。默认值为 SHA-256 算法。
 
-**Returns:**
-int - The hash algorithm. The returned value is one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants.
+**退货:**
+int - 哈希算法。返回值是以下之一[PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm)常数。
 ### getLocation() {#getLocation--}
 ```
 public String getLocation()
 ```
 
 
-Gets the location of the signing. The default value is null.
+获取签名的位置。默认值为空。
 
-**Returns:**
-java.lang.String - The location of the signing.
+**退货:**
+java.lang.String - 签名的位置。
 ### getReason() {#getReason--}
 ```
 public String getReason()
 ```
 
 
-Gets the reason for the signing. The default value is null.
+获取签名的原因。默认值为空。
 
-**Returns:**
-java.lang.String - The reason for the signing.
+**退货:**
+java.lang.String - 签名的原因。
 ### getSignatureDate() {#getSignatureDate--}
 ```
 public Date getSignatureDate()
 ```
 
 
-Gets the date of the signing.
+获取签署日期。
 
-The default value is the current time.
+默认值为当前时间。
 
-This value will appear in the digital signature as an unverified computer time.
+该值将作为未经验证的计算机时间出现在数字签名中。
 
-**Returns:**
-java.util.Date - The date of the signing.
+**退货:**
+java.util.Date - 签署日期。
 ### getTimestampSettings() {#getTimestampSettings--}
 ```
 public PdfDigitalSignatureTimestampSettings getTimestampSettings()
 ```
 
 
-Gets the digital signature timestamp settings.
+获取数字签名时间戳设置。
 
-The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) object, then the digital signature in the PDF document will be time-stamped.
+默认值为空，数字签名不会加时间戳。当此属性设置为有效时[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings)对象，则 PDF 文档中的数字签名将被加盖时间戳。
 
-**Returns:**
-[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) - The digital signature timestamp settings.
+**退货:**
+[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) - 数字签名时间戳设置。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -174,8 +174,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -198,12 +198,12 @@ public void setCertificateHolder(CertificateHolder value)
 ```
 
 
-Returns the certificate holder object that contains the certificate was used to sign the document.
+返回包含用于签署文档的证书的证书持有者对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [CertificateHolder](../../com.aspose.words/certificateholder) | The certificate holder object that contains the certificate was used to sign the document. |
+| value | [CertificateHolder](../../com.aspose.words/certificateholder) | 包含证书的证书持有者对象用于签署文档。 |
 
 ### setHashAlgorithm(int value) {#setHashAlgorithm-int-}
 ```
@@ -211,12 +211,12 @@ public void setHashAlgorithm(int value)
 ```
 
 
-Sets the hash algorithm. The default value is the SHA-256 algorithm.
+设置哈希算法。默认值为 SHA-256 算法。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The hash algorithm. The value must be one of [PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm) constants. |
+| value | int | 哈希算法。该值必须是以下之一[PdfDigitalSignatureHashAlgorithm](../../com.aspose.words/pdfdigitalsignaturehashalgorithm)常数。 |
 
 ### setLocation(String value) {#setLocation-java.lang.String-}
 ```
@@ -224,12 +224,12 @@ public void setLocation(String value)
 ```
 
 
-Sets the location of the signing. The default value is null.
+设置签名的位置。默认值为空。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The location of the signing. |
+| value | java.lang.String | 签约地点。 |
 
 ### setReason(String value) {#setReason-java.lang.String-}
 ```
@@ -237,12 +237,12 @@ public void setReason(String value)
 ```
 
 
-Sets the reason for the signing. The default value is null.
+设置签名的原因。默认值为空。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The reason for the signing. |
+| value | java.lang.String | 签约的原因。 |
 
 ### setSignatureDate(Date value) {#setSignatureDate-java.util.Date-}
 ```
@@ -250,16 +250,16 @@ public void setSignatureDate(Date value)
 ```
 
 
-Sets the date of the signing.
+设置签署日期。
 
-The default value is the current time.
+默认值为当前时间。
 
-This value will appear in the digital signature as an unverified computer time.
+该值将作为未经验证的计算机时间出现在数字签名中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The date of the signing. |
+| value | java.util.Date | 签署日期。 |
 
 ### setTimestampSettings(PdfDigitalSignatureTimestampSettings value) {#setTimestampSettings-com.aspose.words.PdfDigitalSignatureTimestampSettings-}
 ```
@@ -267,14 +267,14 @@ public void setTimestampSettings(PdfDigitalSignatureTimestampSettings value)
 ```
 
 
-Sets the digital signature timestamp settings.
+设置数字签名时间戳设置。
 
-The default value is null and the digital signature will not be time-stamped. When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) object, then the digital signature in the PDF document will be time-stamped.
+默认值为空，数字签名不会加时间戳。当此属性设置为有效时[PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings)对象，则 PDF 文档中的数字签名将被加盖时间戳。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) | The digital signature timestamp settings. |
+| value | [PdfDigitalSignatureTimestampSettings](../../com.aspose.words/pdfdigitalsignaturetimestampsettings) | 数字签名时间戳设置。 |
 
 ### toString() {#toString--}
 ```
@@ -284,7 +284,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -302,8 +302,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -315,9 +315,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

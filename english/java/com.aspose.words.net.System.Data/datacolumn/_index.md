@@ -1,73 +1,73 @@
 ---
 title: DataColumn
 second_title: Aspose.Words for Java API Reference
-description: Represents the schema of a column in a .
+description: 表示 a 中列的架构。
 type: docs
 weight: 14
-url: /java/com.aspose.words.net.system.data/datacolumn/
+url: /zh/java/com.aspose.words.net.system.data/datacolumn/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DataColumn
 ```
 
-Represents the schema of a column in a [DataTable](../../com.aspose.words.net.system.data/datatable).
-## Constructors
+表示 a 中列的架构[DataTable](../../com.aspose.words.net.system.data/datatable).
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [DataColumn()](#DataColumn--) | Initializes a new instance of a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class as type string. |
-| [DataColumn(String columnName)](#DataColumn-java.lang.String-) | Inititalizes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class, as type string, using the specified column name. |
-| [DataColumn(String name, System.Data.DataTable table)](#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-) | Initializes a new instance of the @\{link DataColumn\} class using the specified column name and table it belongs to. |
-| [DataColumn(String columnName, Class dataType)](#DataColumn-java.lang.String-java.lang.Class-) | Inititalizes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class using the specified column name and data type. |
-| [DataColumn(String name, Class type, System.Data.DataTable table)](#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable-) | Initializes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class using the specified column name, data type and data table it belongs to. |
-## Methods
+| [DataColumn()](#DataColumn--) | 初始化 a 的新实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类作为类型字符串。 |
+| [DataColumn(String columnName)](#DataColumn-java.lang.String-) | 初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类，作为类型字符串，使用指定的列名。 |
+| [DataColumn(String name, System.Data.DataTable table)](#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-) | 初始化 @ 的新实例\{链接数据列\使用指定的列名和它所属的表的类。 |
+| [DataColumn(String columnName, 班级 data类型)](#DataColumn-java.lang.String-java.lang.班级-) | 初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名和数据类型。 |
+| [DataColumn(String name, 班级 type, System.Data.DataTable table)](#DataColumn-java.lang.String-java.lang.班级-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名、数据类型和它所属的数据表。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet)](#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowDBNull()](#getAllowDBNull--) | Gets a value that indicates whether null values are allowed in this column for rows that belong to the table. |
-| [getAutoIncrement()](#getAutoIncrement--) | Gets a value that indicates whether the column automatically increments the value of the column for new rows added to the table. |
-| [getAutoIncrementSeed()](#getAutoIncrementSeed--) | Gets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true. |
-| [getAutoIncrementStep()](#getAutoIncrementStep--) | Gets the increment used by a column with its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true. |
-| [getCaption()](#getCaption--) | Gets the caption for the column. |
-| [getClass()](#getClass--) |  |
-| [getColumnMapping()](#getColumnMapping--) | Gets the [MappingType](../../com.aspose.words.net.system.data/mappingtype) of the column. |
-| [getColumnName()](#getColumnName--) | Gets the name of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [getDataType()](#getDataType--) | Gets the type of data stored in the column. |
-| [getDefaultValue()](#getDefaultValue--) | Gets the default value for the column when you are creating new rows. |
-| [getExpression()](#getExpression--) | Gets the expression used to filter rows, calculate the values in a column, or create an aggregate column. |
-| [getMaxLength()](#getMaxLength--) | Gets the maximum length of a text column. |
-| [getNamespace()](#getNamespace--) | Gets the namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [getOrdinal()](#getOrdinal--) | Gets the position of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) collection. |
-| [getPrefix()](#getPrefix--) | Gets an XML prefix that aliases the namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [getReadOnly()](#getReadOnly--) | Gets a value that indicates whether the column allows for changes as soon as a row has been added to the table. |
-| [getTable()](#getTable--) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) to which the column belongs to. |
-| [getUnique()](#getUnique--) | Gets a value that indicates whether the values in each row of the column must be unique. |
+| [getAllowDBNull()](#getAllowDBNull--) | 获取一个值，该值指示此列中是否允许属于该表的行的空值。 |
+| [getAutoIncrement()](#getAutoIncrement--) | 获取一个值，该值指示该列是否为添加到表中的新行自动增加该列的值。 |
+| [getAutoIncrementSeed()](#getAutoIncrementSeed--) | 获取具有它的列的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。 |
+| [getAutoIncrementStep()](#getAutoIncrementStep--) | 获取列使用的增量及其[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。 |
+| [getCaption()](#getCaption--) | 获取列的标题。 |
+| [get班级()](#get班级--) |  |
+| [getColumnMapping()](#getColumnMapping--) | 获取[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)的列。 |
+| [getColumnName()](#getColumnName--) | 获取列中的名称[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
+| [getData类型()](#getData类型--) | 获取存储在列中的数据类型。 |
+| [getDefaultValue()](#getDefaultValue--) | 创建新行时获取列的默认值。 |
+| [getExpression()](#getExpression--) | 获取用于筛选行、计算列中的值或创建聚合列的表达式。 |
+| [getMaxLength()](#getMaxLength--) | 获取文本列的最大长度。 |
+| [getNamespace()](#getNamespace--) | 获取命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [getOrdinal()](#getOrdinal--) | 获取列在[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection)收藏。 |
+| [getPrefix()](#getPrefix--) | 获取一个 XML 前缀，该前缀为[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getReadOnly()](#getReadOnly--) | 获取一个值，该值指示列是否允许在将行添加到表后立即进行更改。 |
+| [getTable()](#getTable--) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)该列所属的列。 |
+| [getUnique()](#getUnique--) | 获取一个值，该值指示列的每一行中的值是否必须唯一。 |
 | [hashCode()](#hashCode--) |  |
 | [isReadOnly()](#isReadOnly--) |  |
 | [isUnique()](#isUnique--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowDBNull(boolean value)](#setAllowDBNull-boolean-) | Sets a value that indicates whether null values are allowed in this column for rows that belong to the table. |
-| [setAutoIncrement(boolean value)](#setAutoIncrement-boolean-) | Sets a value that indicates whether the column automatically increments the value of the column for new rows added to the table. |
-| [setAutoIncrementSeed(long value)](#setAutoIncrementSeed-long-) | Sets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true. |
-| [setAutoIncrementStep(long value)](#setAutoIncrementStep-long-) | Sets the increment used by a column with its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true. |
-| [setCaption(String value)](#setCaption-java.lang.String-) | Sets the caption for the column. |
-| [setColumnMapping(int value)](#setColumnMapping-int-) | Sets the [MappingType](../../com.aspose.words.net.system.data/mappingtype) of the column. |
-| [setColumnName(String value)](#setColumnName-java.lang.String-) | Sets the name of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
-| [setDataType(Class value)](#setDataType-java.lang.Class-) | Sets the type of data stored in the column. |
-| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | Sets the default value for the column when you are creating new rows. |
-| [setMaxLength(int value)](#setMaxLength-int-) | Sets the maximum length of a text column. |
-| [setNamespace(String value)](#setNamespace-java.lang.String-) | Sets the namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [setOrdinal(int ordinal)](#setOrdinal-int-) | Changes the ordinal or position of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) to the specified ordinal or position. |
-| [setPrefix(String value)](#setPrefix-java.lang.String-) | Sets an XML prefix that aliases the namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [setReadOnly(boolean value)](#setReadOnly-boolean-) | Sets a value that indicates whether the column allows for changes as soon as a row has been added to the table. |
-| [setUnique(boolean value)](#setUnique-boolean-) | Sets a value that indicates whether the values in each row of the column must be unique. |
-| [toString()](#toString--) | Gets the [getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) of the column, if one exists. |
+| [setAllowDBNull(boolean value)](#setAllowDBNull-boolean-) | 设置一个值，该值指示此列中是否允许属于该表的行的空值。 |
+| [setAutoIncrement(boolean value)](#setAutoIncrement-boolean-) | 设置一个值，该值指示列是否为添加到表中的新行自动增加列的值。 |
+| [setAutoIncrementSeed(long value)](#setAutoIncrementSeed-long-) | 设置具有它的列的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。 |
+| [setAutoIncrementStep(long value)](#setAutoIncrementStep-long-) | 设置列使用的增量及其[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。 |
+| [setCaption(String value)](#setCaption-java.lang.String-) | 设置列的标题。 |
+| [setColumnMapping(int value)](#setColumnMapping-int-) | 设置[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)的列。 |
+| [setColumnName(String value)](#setColumnName-java.lang.String-) | 设置列的名称[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection). |
+| [setData类型(班级 value)](#setData类型-java.lang.班级-) | 设置存储在列中的数据类型。 |
+| [setDefaultValue(Object value)](#setDefaultValue-java.lang.Object-) | 创建新行时设置列的默认值。 |
+| [setMaxLength(int value)](#setMaxLength-int-) | 设置文本列的最大长度。 |
+| [setNamespace(String value)](#setNamespace-java.lang.String-) | 设置命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [setOrdinal(int ordinal)](#setOrdinal-int-) | 改变序数或位置[DataColumn](../../com.aspose.words.net.system.data/datacolumn)到指定的序数或位置。 |
+| [setPrefix(String value)](#setPrefix-java.lang.String-) | 设置一个 XML 前缀，为[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [setReadOnly(boolean value)](#setReadOnly-boolean-) | 设置一个值，该值指示列是否允许在将行添加到表后立即进行更改。 |
+| [setUnique(boolean value)](#setUnique-boolean-) | 设置一个值，该值指示列的每一行中的值是否必须唯一。 |
+| [toString()](#toString--) | 获取[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--)列的，如果存在的话。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -77,7 +77,7 @@ public DataColumn()
 ```
 
 
-Initializes a new instance of a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class as type string.
+初始化 a 的新实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类作为类型字符串。
 
 ### DataColumn(String columnName) {#DataColumn-java.lang.String-}
 ```
@@ -85,12 +85,12 @@ public DataColumn(String columnName)
 ```
 
 
-Inititalizes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class, as type string, using the specified column name.
+初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类，作为类型字符串，使用指定的列名。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnName | java.lang.String | A string that represents the name of the column to be created. If set to null or an empty string (""), a default name will be specified when added to the columns collection. |
+| columnName | java.lang.String | 一个字符串，表示要创建的列的名称。如果设置为 null 或空字符串 ("")，则在添加到列集合时将指定默认名称。 |
 
 ### DataColumn(String name, System.Data.DataTable table) {#DataColumn-java.lang.String-com.aspose.words.net.System.Data.DataTable-}
 ```
@@ -98,42 +98,42 @@ public DataColumn(String name, System.Data.DataTable table)
 ```
 
 
-Initializes a new instance of the @\{link DataColumn\} class using the specified column name and table it belongs to.
+初始化 @ 的新实例\{链接数据列\使用指定的列名和它所属的表的类。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | name of the DataColumn |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | the table this column belongs to |
+| name | java.lang.String | 数据列的名称 |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | 此列所属的表 |
 
-### DataColumn(String columnName, Class dataType) {#DataColumn-java.lang.String-java.lang.Class-}
+### DataColumn(String columnName, 班级 data类型) {#DataColumn-java.lang.String-java.lang.班级-}
 ```
-public DataColumn(String columnName, Class dataType)
+public DataColumn(String columnName, 班级 data类型)
 ```
 
 
-Inititalizes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class using the specified column name and data type.
+初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名和数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnName | java.lang.String | A string that represents the name of the column to be created. If set to null or an empty string (""), a default name will be specified when added to the columns collection. |
-| dataType | java.lang.Class | A supported [getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-). |
+| columnName | java.lang.String | 一个字符串，表示要创建的列的名称。如果设置为 null 或空字符串 ("")，则在添加到列集合时将指定默认名称。 |
+| data类型 | java.lang.班级 | 支持的[getData类型()](../../com.aspose.words.net.system.data/datacolumn\#getData类型--) / [setData类型(java.lang.班级)](../../com.aspose.words.net.system.data/datacolumn\#setData类型-java.lang.班级-). |
 
-### DataColumn(String name, Class type, System.Data.DataTable table) {#DataColumn-java.lang.String-java.lang.Class-com.aspose.words.net.System.Data.DataTable-}
+### DataColumn(String name, 班级 type, System.Data.DataTable table) {#DataColumn-java.lang.String-java.lang.班级-com.aspose.words.net.System.Data.DataTable-}
 ```
-public DataColumn(String name, Class type, System.Data.DataTable table)
+public DataColumn(String name, 班级 type, System.Data.DataTable table)
 ```
 
 
-Initializes a new instance of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) class using the specified column name, data type and data table it belongs to.
+初始化一个新的实例[DataColumn](../../com.aspose.words.net.system.data/datacolumn)类使用指定的列名、数据类型和它所属的数据表。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | name of the DataColumn |
-| type | java.lang.Class | data type |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | the table this column belongs to |
+| name | java.lang.String | 数据列的名称 |
+| type | java.lang.班级 | 数据类型 |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | 此列所属的表 |
 
 ### areColumnSetsTheSame(System.Data.DataColumn[] columnSet, System.Data.DataColumn[] compareSet) {#areColumnSetsTheSame-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---}
 ```
@@ -143,14 +143,14 @@ public static boolean areColumnSetsTheSame(System.Data.DataColumn[] columnSet, S
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  |
 | compareSet | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -159,193 +159,193 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAllowDBNull() {#getAllowDBNull--}
 ```
 public boolean getAllowDBNull()
 ```
 
 
-Gets a value that indicates whether null values are allowed in this column for rows that belong to the table.
+获取一个值，该值指示此列中是否允许属于该表的行的空值。
 
-**Returns:**
-boolean - true if null values values are allowed; otherwise, false. The default is true.
+**退货:**
+boolean - 如果允许 null 值，则为 true；否则为假。默认值为真。
 ### getAutoIncrement() {#getAutoIncrement--}
 ```
 public boolean getAutoIncrement()
 ```
 
 
-Gets a value that indicates whether the column automatically increments the value of the column for new rows added to the table.
+获取一个值，该值指示该列是否为添加到表中的新行自动增加该列的值。
 
-**Returns:**
-boolean - true if the value of the column increments automatically; otherwise, false. The default is false.
+**退货:**
+boolean - 如果列的值自动增加，则为 true；否则为假。默认值为假。
 ### getAutoIncrementSeed() {#getAutoIncrementSeed--}
 ```
 public long getAutoIncrementSeed()
 ```
 
 
-Gets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true.
+获取具有它的列的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。
 
-**Returns:**
-long - The starting value for the [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) feature.
+**退货:**
+ long - 的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)特征。
 ### getAutoIncrementStep() {#getAutoIncrementStep--}
 ```
 public long getAutoIncrementStep()
 ```
 
 
-Gets the increment used by a column with its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true.
+获取列使用的增量及其[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。
 
-**Returns:**
-long - The number by which the value of the column is automatically incremented. The default is 1.
+**退货:**
+long - 列值自动递增的数字。默认值为 1。
 ### getCaption() {#getCaption--}
 ```
 public String getCaption()
 ```
 
 
-Gets the caption for the column.
+获取列的标题。
 
-**Returns:**
-java.lang.String - The caption of the column. If not set, returns the [getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) value.
-### getClass() {#getClass--}
+**退货:**
+ java.lang.String - 列的标题。如果未设置，则返回[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColumnMapping() {#getColumnMapping--}
 ```
 public int getColumnMapping()
 ```
 
 
-Gets the [MappingType](../../com.aspose.words.net.system.data/mappingtype) of the column.
+获取[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)的列。
 
-**Returns:**
-int - One of the [MappingType](../../com.aspose.words.net.system.data/mappingtype) values. The returned value is one of [MappingType](../../com.aspose.words.net.system.data/mappingtype) constants.
+**退货:**
+int - 其中之一[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)价值观。返回值是以下之一[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)常数。
 ### getColumnName() {#getColumnName--}
 ```
 public String getColumnName()
 ```
 
 
-Gets the name of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+获取列中的名称[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
 
-**Returns:**
-java.lang.String - The name of the column.
-### getDataType() {#getDataType--}
+**退货:**
+java.lang.String - 列的名称。
+### getData类型() {#getData类型--}
 ```
-public Class getDataType()
+public 班级 getData类型()
 ```
 
 
-Gets the type of data stored in the column.
+获取存储在列中的数据类型。
 
-**Returns:**
-java.lang.Class - A java.lang.Class object that represents the column data type.
+**退货:**
+java.lang.班级 - 表示列数据类型的 java.lang.班级 对象。
 ### getDefaultValue() {#getDefaultValue--}
 ```
 public Object getDefaultValue()
 ```
 
 
-Gets the default value for the column when you are creating new rows.
+创建新行时获取列的默认值。
 
-**Returns:**
-java.lang.Object - A value appropriate to the column's [getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-).
+**退货:**
+ java.lang.Object - 适合列的值[getData类型()](../../com.aspose.words.net.system.data/datacolumn\#getData类型--) / [setData类型(java.lang.班级)](../../com.aspose.words.net.system.data/datacolumn\#setData类型-java.lang.班级-).
 ### getExpression() {#getExpression--}
 ```
 public String getExpression()
 ```
 
 
-Gets the expression used to filter rows, calculate the values in a column, or create an aggregate column.
+获取用于筛选行、计算列中的值或创建聚合列的表达式。
 
-**Returns:**
-java.lang.String - An expression to calculate the value of a column, or create an aggregate column. The return type of an expression is determined by the [getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-) of the column.
+**退货:**
+java.lang.String - 计算列值或创建聚合列的表达式。表达式的返回类型由[getData类型()](../../com.aspose.words.net.system.data/datacolumn\#getData类型--) / [setData类型(java.lang.班级)](../../com.aspose.words.net.system.data/datacolumn\#setData类型-java.lang.班级-)的列。
 ### getMaxLength() {#getMaxLength--}
 ```
 public int getMaxLength()
 ```
 
 
-Gets the maximum length of a text column.
+获取文本列的最大长度。
 
-**Returns:**
-int - The maximum length of the column in characters. If the column has no maximum length, the value is -1 (default).
+**退货:**
+int - 列的最大长度（以字符为单位）。如果列没有最大长度，则值为 -1（默认值）。
 ### getNamespace() {#getNamespace--}
 ```
 public String getNamespace()
 ```
 
 
-Gets the namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+获取命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
-**Returns:**
-java.lang.String - The namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+**退货:**
+ java.lang.String - 的命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 ### getOrdinal() {#getOrdinal--}
 ```
 public int getOrdinal()
 ```
 
 
-Gets the position of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) collection.
+获取列在[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection)收藏。
 
-**Returns:**
-int - The position of the column. Gets -1 if the column is not a member of a collection.
+**退货:**
+int - 列的位置。如果列不是集合的成员，则获取 -1。
 ### getPrefix() {#getPrefix--}
 ```
 public String getPrefix()
 ```
 
 
-Gets an XML prefix that aliases the namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable).
+获取一个 XML 前缀，该前缀为[DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**Returns:**
-java.lang.String - The XML prefix for the [DataTable](../../com.aspose.words.net.system.data/datatable) namespace.
+**退货:**
+ java.lang.String - 的 XML 前缀[DataTable](../../com.aspose.words.net.system.data/datatable)命名空间。
 ### getReadOnly() {#getReadOnly--}
 ```
 public boolean getReadOnly()
 ```
 
 
-Gets a value that indicates whether the column allows for changes as soon as a row has been added to the table.
+获取一个值，该值指示列是否允许在将行添加到表后立即进行更改。
 
-**Returns:**
-boolean - true if the column is read only; otherwise, false. The default is false.
+**退货:**
+boolean - 如果该列是只读的，则为 true；否则为假。默认值为假。
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) to which the column belongs to.
+获取[DataTable](../../com.aspose.words.net.system.data/datatable)该列所属的列。
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - The [DataTable](../../com.aspose.words.net.system.data/datatable) that the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) belongs to.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 这[DataTable](../../com.aspose.words.net.system.data/datatable)那个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)属于。
 ### getUnique() {#getUnique--}
 ```
 public boolean getUnique()
 ```
 
 
-Gets a value that indicates whether the values in each row of the column must be unique.
+获取一个值，该值指示列的每一行中的值是否必须唯一。
 
-**Returns:**
-boolean - true if the value must be unique; otherwise, false. The default is false.
+**退货:**
+boolean - 如果值必须是唯一的，则为 true；否则为假。默认值为假。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -354,8 +354,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isReadOnly() {#isReadOnly--}
 ```
 public boolean isReadOnly()
@@ -364,8 +364,8 @@ public boolean isReadOnly()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### isUnique() {#isUnique--}
 ```
 public boolean isUnique()
@@ -374,8 +374,8 @@ public boolean isUnique()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -398,12 +398,12 @@ public void setAllowDBNull(boolean value)
 ```
 
 
-Sets a value that indicates whether null values are allowed in this column for rows that belong to the table.
+设置一个值，该值指示此列中是否允许属于该表的行的空值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | true if null values values are allowed; otherwise, false. The default is true. |
+| value | boolean | 如果允许 null 值，则为 true；否则为假。默认值为真。 |
 
 ### setAutoIncrement(boolean value) {#setAutoIncrement-boolean-}
 ```
@@ -411,12 +411,12 @@ public void setAutoIncrement(boolean value)
 ```
 
 
-Sets a value that indicates whether the column automatically increments the value of the column for new rows added to the table.
+设置一个值，该值指示列是否为添加到表中的新行自动增加列的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | true if the value of the column increments automatically; otherwise, false. The default is false. |
+| value | boolean | 如果列的值自动增加，则为 true；否则为假。默认值为假。 |
 
 ### setAutoIncrementSeed(long value) {#setAutoIncrementSeed-long-}
 ```
@@ -424,12 +424,12 @@ public void setAutoIncrementSeed(long value)
 ```
 
 
-Sets the starting value for a column that has its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true.
+设置具有它的列的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | The starting value for the [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) feature. |
+| value | long | 的起始值[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)特征。 |
 
 ### setAutoIncrementStep(long value) {#setAutoIncrementStep-long-}
 ```
@@ -437,12 +437,12 @@ public void setAutoIncrementStep(long value)
 ```
 
 
-Sets the increment used by a column with its [getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-) property set to true.
+设置列使用的增量及其[getAutoIncrement()](../../com.aspose.words.net.system.data/datacolumn\#getAutoIncrement--) / [setAutoIncrement(boolean)](../../com.aspose.words.net.system.data/datacolumn\#setAutoIncrement-boolean-)属性设置为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | long | The number by which the value of the column is automatically incremented. The default is 1. |
+| value | long | 列值自动递增的数字。默认值为 1。 |
 
 ### setCaption(String value) {#setCaption-java.lang.String-}
 ```
@@ -450,12 +450,12 @@ public void setCaption(String value)
 ```
 
 
-Sets the caption for the column.
+设置列的标题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The caption of the column. If not set, returns the [getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) value. |
+| value | java.lang.String | 列的标题。如果未设置，则返回[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-)价值。 |
 
 ### setColumnMapping(int value) {#setColumnMapping-int-}
 ```
@@ -463,12 +463,12 @@ public void setColumnMapping(int value)
 ```
 
 
-Sets the [MappingType](../../com.aspose.words.net.system.data/mappingtype) of the column.
+设置[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)的列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | One of the [MappingType](../../com.aspose.words.net.system.data/mappingtype) values. The value must be one of [MappingType](../../com.aspose.words.net.system.data/mappingtype) constants. |
+| value | int | 中的一个[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)价值观。该值必须是以下之一[Mapping类型](../../com.aspose.words.net.system.data/mappingtype)常数。 |
 
 ### setColumnName(String value) {#setColumnName-java.lang.String-}
 ```
@@ -476,25 +476,25 @@ public void setColumnName(String value)
 ```
 
 
-Sets the name of the column in the [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
+设置列的名称[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the column. |
+| value | java.lang.String | 列的名称。 |
 
-### setDataType(Class value) {#setDataType-java.lang.Class-}
+### setData类型(班级 value) {#setData类型-java.lang.班级-}
 ```
-public void setDataType(Class value)
+public void setData类型(班级 value)
 ```
 
 
-Sets the type of data stored in the column.
+设置存储在列中的数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Class | A java.lang.Class object that represents the column data type. |
+| value | java.lang.班级 | 表示列数据类型的 java.lang.班级 对象。 |
 
 ### setDefaultValue(Object value) {#setDefaultValue-java.lang.Object-}
 ```
@@ -502,12 +502,12 @@ public void setDefaultValue(Object value)
 ```
 
 
-Sets the default value for the column when you are creating new rows.
+创建新行时设置列的默认值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | A value appropriate to the column's [getDataType()](../../com.aspose.words.net.system.data/datacolumn\#getDataType--) / [setDataType(java.lang.Class)](../../com.aspose.words.net.system.data/datacolumn\#setDataType-java.lang.Class-). |
+| value | java.lang.Object | 适合列的值[getData类型()](../../com.aspose.words.net.system.data/datacolumn\#getData类型--) / [setData类型(java.lang.班级)](../../com.aspose.words.net.system.data/datacolumn\#setData类型-java.lang.班级-). |
 
 ### setMaxLength(int value) {#setMaxLength-int-}
 ```
@@ -515,12 +515,12 @@ public void setMaxLength(int value)
 ```
 
 
-Sets the maximum length of a text column.
+设置文本列的最大长度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The maximum length of the column in characters. If the column has no maximum length, the value is -1 (default). |
+| value | int | 列的最大长度（以字符为单位）。如果列没有最大长度，则值为 -1（默认值）。 |
 
 ### setNamespace(String value) {#setNamespace-java.lang.String-}
 ```
@@ -528,12 +528,12 @@ public void setNamespace(String value)
 ```
 
 
-Sets the namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+设置命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The namespace of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| value | java.lang.String | 的命名空间[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
 
 ### setOrdinal(int ordinal) {#setOrdinal-int-}
 ```
@@ -541,12 +541,12 @@ public void setOrdinal(int ordinal)
 ```
 
 
-Changes the ordinal or position of the [DataColumn](../../com.aspose.words.net.system.data/datacolumn) to the specified ordinal or position.
+改变序数或位置[DataColumn](../../com.aspose.words.net.system.data/datacolumn)到指定的序数或位置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ordinal | int | The specified ordinal. |
+| ordinal | int | 指定的序数。 |
 
 ### setPrefix(String value) {#setPrefix-java.lang.String-}
 ```
@@ -554,12 +554,12 @@ public void setPrefix(String value)
 ```
 
 
-Sets an XML prefix that aliases the namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable).
+设置一个 XML 前缀，为[DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The XML prefix for the [DataTable](../../com.aspose.words.net.system.data/datatable) namespace. |
+| value | java.lang.String | 的 XML 前缀[DataTable](../../com.aspose.words.net.system.data/datatable)命名空间。 |
 
 ### setReadOnly(boolean value) {#setReadOnly-boolean-}
 ```
@@ -567,12 +567,12 @@ public void setReadOnly(boolean value)
 ```
 
 
-Sets a value that indicates whether the column allows for changes as soon as a row has been added to the table.
+设置一个值，该值指示列是否允许在将行添加到表后立即进行更改。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | true if the column is read only; otherwise, false. The default is false. |
+| value | boolean | 如果该列是只读的，则为 true；否则为假。默认值为假。 |
 
 ### setUnique(boolean value) {#setUnique-boolean-}
 ```
@@ -580,12 +580,12 @@ public void setUnique(boolean value)
 ```
 
 
-Sets a value that indicates whether the values in each row of the column must be unique.
+设置一个值，该值指示列的每一行中的值是否必须唯一。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | true if the value must be unique; otherwise, false. The default is false. |
+| value | boolean | 如果值必须是唯一的，则为 true；否则为假。默认值为假。 |
 
 ### toString() {#toString--}
 ```
@@ -593,10 +593,10 @@ public String toString()
 ```
 
 
-Gets the [getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) of the column, if one exists.
+获取[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--)列的，如果存在的话。
 
-**Returns:**
-java.lang.String - The [getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--) value, if the property is set; otherwise, the [getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-) property.
+**退货:**
+ java.lang.String - 的[getExpression()](../../com.aspose.words.net.system.data/datacolumn\#getExpression--)值，如果设置了属性；否则，[getColumnName()](../../com.aspose.words.net.system.data/datacolumn\#getColumnName--) / [setColumnName(java.lang.String)](../../com.aspose.words.net.system.data/datacolumn\#setColumnName-java.lang.String-)财产。
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -613,8 +613,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -626,9 +626,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

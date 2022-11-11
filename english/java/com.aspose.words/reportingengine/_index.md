@@ -1,43 +1,43 @@
 ---
 title: ReportingEngine
-second_title: Aspose.Words for Java API Reference
-description: Provides routines to populate template documents with data and a set of settings to control these routines.
+second_title: Aspose.Words for Java API 参考
+description: 提供例程来使用数据填充模板文档和一组设置来控制这些例程。
 type: docs
 weight: 478
-url: /java/com.aspose.words/reportingengine/
+url: /zh/java/com.aspose.words/reportingengine/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ReportingEngine
 ```
 
-Provides routines to populate template documents with data and a set of settings to control these routines.
+提供例程来使用数据填充模板文档和一组设置来控制这些例程。
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
-## Constructors
+要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ReportingEngine()](#ReportingEngine--) | Initializes a new instance of this class. |
-## Methods
+| [ReportingEngine()](#ReportingEngine--) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | Populates the specified template document with data from the specified source making it a ready report. |
-| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | Populates the specified template document with data from the specified source making it a ready report. |
-| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | Populates the specified template document with data from the specified sources making it a ready report. |
+| [buildReport(Document document, Object dataSource)](#buildReport-com.aspose.words.Document-java.lang.Object-) | 使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。 |
+| [buildReport(Document document, Object dataSource, String dataSourceName)](#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-) | 使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。 |
+| [buildReport(Document document, Object[] dataSources, String[] dataSourceNames)](#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---) | 使用来自指定来源的数据填充指定的模板文档，使其成为准备好的报告。 |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getKnownTypes()](#getKnownTypes--) | Gets an unordered set (i.e. |
-| [getOptions()](#getOptions--) | Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
-| [getUseReflectionOptimization()](#getUseReflectionOptimization--) | Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [get班级()](#get班级--) |  |
+| [getKnown类型s()](#getKnown类型s--) | 获取一个无序集（即 |
+| [getOptions()](#getOptions--) | 获取一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。 |
+| [getUseReflectionOptimization()](#getUseReflectionOptimization--) | 获取一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOptions(int value)](#setOptions-int-) | Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. |
-| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| [setOptions(int value)](#setOptions-int-) | 设置一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。 |
+| [setUseReflectionOptimization(boolean value)](#setUseReflectionOptimization-boolean-) | 设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public ReportingEngine()
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
 ### buildReport(Document document, Object dataSource) {#buildReport-com.aspose.words.Document-java.lang.Object-}
 ```
@@ -56,11 +56,11 @@ public boolean buildReport(Document document, Object dataSource)
 ```
 
 
-Populates the specified template document with data from the specified source making it a ready report.
+使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
 
-Using this overload you can reference the data source's members in the template document, but you cannot reference the data source object itself. You should use the [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-) overload to achieve this.
+使用此重载，您可以在模板文档中引用数据源的成员，但不能引用数据源对象本身。你应该使用[buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-)超载来实现这一点。
 
-A data source object can be of one of the following types:
+数据源对象可以是以下类型之一：
 
  *  [XmlDataSource](../../com.aspose.words/xmldatasource)
  *  [JsonDataSource](../../com.aspose.words/jsondatasource)
@@ -72,29 +72,29 @@ A data source object can be of one of the following types:
  *  [IDataRecord](../../com.aspose.words.net.system.data/idatarecord)
  *  [DataView](../../com.aspose.words.net.system.data/dataview)
  *  [DataRowView](../../com.aspose.words.net.system.data/datarowview)
- *  Any other arbitrary Java type
+ *  任何其他任意 Java 类型
 
-For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | A template document to be populated with data. |
-| dataSource | java.lang.Object | A data source object. |
+| document | [Document](../../com.aspose.words/document) | 要填充数据的模板文档。 |
+| dataSource | java.lang.Object | 数据源对象。 |
 
-**Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+**退货:**
+boolean - 指示模板文档解析是否成功的标志。返回的标志只有在[getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)财产包括[ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES)选项。
 ### buildReport(Document document, Object dataSource, String dataSourceName) {#buildReport-com.aspose.words.Document-java.lang.Object-java.lang.String-}
 ```
 public boolean buildReport(Document document, Object dataSource, String dataSourceName)
 ```
 
 
-Populates the specified template document with data from the specified source making it a ready report.
+使用来自指定源的数据填充指定的模板文档，使其成为准备好的报告。
 
-Using this overload you can reference the data source's members and the data source object itself in the template. If you are not going to reference the data source object itself, you can omit  dataSourceName  passing null or use the [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-) overload.
+使用此重载，您可以在模板中引用数据源的成员和数据源对象本身。如果您不打算引用数据源对象本身，则可以省略传递 null 的 dataSourceName 或使用[buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-)超载。
 
-A data source object can be of one of the following types:
+数据源对象可以是以下类型之一：
 
  *  [XmlDataSource](../../com.aspose.words/xmldatasource)
  *  [JsonDataSource](../../com.aspose.words/jsondatasource)
@@ -106,32 +106,32 @@ A data source object can be of one of the following types:
  *  [IDataRecord](../../com.aspose.words.net.system.data/idatarecord)
  *  [DataView](../../com.aspose.words.net.system.data/dataview)
  *  [DataRowView](../../com.aspose.words.net.system.data/datarowview)
- *  Any other arbitrary Java type
+ *  任何其他任意 Java 类型
 
-For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | A template document to be populated with data. |
-| dataSource | java.lang.Object | A data source object. |
-| dataSourceName | java.lang.String | A name to reference the data source object in the template. |
+| document | [Document](../../com.aspose.words/document) | 要填充数据的模板文档。 |
+| dataSource | java.lang.Object | 数据源对象。 |
+| dataSourceName | java.lang.String | 引用模板中数据源对象的名称。 |
 
-**Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+**退货:**
+boolean - 指示模板文档解析是否成功的标志。返回的标志只有在[getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)财产包括[ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES)选项。
 ### buildReport(Document document, Object[] dataSources, String[] dataSourceNames) {#buildReport-com.aspose.words.Document-java.lang.Object---java.lang.String---}
 ```
 public boolean buildReport(Document document, Object[] dataSources, String[] dataSourceNames)
 ```
 
 
-Populates the specified template document with data from the specified sources making it a ready report.
+使用来自指定来源的数据填充指定的模板文档，使其成为准备好的报告。
 
-Using this overload you can reference multiple data source objects and their members in the template. The name of the first data source can be omitted (i.e. be an empty string or null) if you are going to reference the data source's members but not the data source object itself. Names of the other data sources must be specified and unique.
+使用此重载，您可以在模板中引用多个数据源对象及其成员。如果您要引用数据源的成员而不是数据源对象本身，则可以省略第一个数据源的名称（即为空字符串或 null）。其他数据源的名称必须指定且唯一。
 
-If you are going to use a single data source, consider using of [buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-) and [buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-) overloads instead.
+如果要使用单个数据源，请考虑使用[buildReport(com.aspose.words.Document, java.lang.Object)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object-)和[buildReport(com.aspose.words.Document, java.lang.Object, java.lang.String)](../../com.aspose.words/reportingengine\#buildReport-com.aspose.words.Document--java.lang.Object--java.lang.String-)而是重载。
 
-A data source object can be of one of the following types:
+数据源对象可以是以下类型之一：
 
  *  [XmlDataSource](../../com.aspose.words/xmldatasource)
  *  [JsonDataSource](../../com.aspose.words/jsondatasource)
@@ -143,19 +143,19 @@ A data source object can be of one of the following types:
  *  [IDataRecord](../../com.aspose.words.net.system.data/idatarecord)
  *  [DataView](../../com.aspose.words.net.system.data/dataview)
  *  [DataRowView](../../com.aspose.words.net.system.data/datarowview)
- *  Any other arbitrary Java type
+ *  任何其他任意 Java 类型
 
-For information on how to work with data sources of different types in template documents, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+有关如何在模板文档中使用不同类型的数据源的信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | A template document to be populated with data. |
-| dataSources | java.lang.Object[] | An array of data source objects. |
-| dataSourceNames | java.lang.String[] | An array of names to reference the data source objects within the template. |
+| document | [Document](../../com.aspose.words/document) | 要填充数据的模板文档。 |
+| dataSources | java.lang.Object[] | 一组数据源对象。 |
+| dataSourceNames | java.lang.String[] | 引用模板中数据源对象的名称数组。 |
 
-**Returns:**
-boolean - A flag indicating whether parsing of the template document was successful. The returned flag makes sense only if a value of the [getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) property includes the [ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES) option.
+**退货:**
+boolean - 指示模板文档解析是否成功的标志。返回的标志只有在[getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)财产包括[ReportBuildOptions.INLINE\_ERROR\_MESSAGES](../../com.aspose.words/reportbuildoptions\#INLINE-ERROR-MESSAGES)选项。
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
@@ -164,53 +164,53 @@ public boolean equals(Object obj)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getKnownTypes() {#getKnownTypes--}
-```
-public KnownTypeSet getKnownTypes()
+public final native 班级<?> get班级()
 ```
 
 
-Gets an unordered set (i.e. a collection of unique items) containing java.lang.Class objects which fully or partially qualified names can be used within report templates processed by this engine instance to invoke the corresponding types' static members, perform type casts, etc.
 
-**Returns:**
-[KnownTypeSet](../../com.aspose.words/knowntypeset) - An unordered set (i.e.
+
+**退货:**
+java.lang.班级<?>
+### getKnown类型s() {#getKnown类型s--}
+```
+public Known类型Set getKnown类型s()
+```
+
+
+获取包含 java.lang.班级 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在此引擎实例处理的报告模板中使用，以调用相应类型的静态成员、执行类型转换等.
+
+**退货:**
+[Known类型Set](../../com.aspose.words/knowntypeset) - 一个无序集（即
 ### getOptions() {#getOptions--}
 ```
 public int getOptions()
 ```
 
 
-Gets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report.
+获取一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。
 
-**Returns:**
-int - A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The returned value is a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants.
+**退货:**
+int - 一组控制 this 行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。返回值是按位组合[ReportBuildOptions](../../com.aspose.words/reportbuildoptions)常数。
 ### getUseReflectionOptimization() {#getUseReflectionOptimization--}
 ```
 public static boolean getUseReflectionOptimization()
 ```
 
 
-Gets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+获取一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。默认值是true。在某些情况下，最好禁用此优化。例如，如果您一直在处理小型数据项集合，那么动态类生成的开销可能比直接反射 API 调用的开销更明显。该选项在 iOS 上运行且不使用反射优化时无效。
 
-**Returns:**
-boolean - A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not.
+**退货:**
+boolean - 一个值，指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -219,8 +219,8 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -243,12 +243,12 @@ public void setOptions(int value)
 ```
 
 
-Sets a set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report.
+设置一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A set of flags controlling behavior of this [ReportingEngine](../../com.aspose.words/reportingengine) instance while building a report. The value must be a bitwise combination of [ReportBuildOptions](../../com.aspose.words/reportbuildoptions) constants. |
+| value | int | 一组控制此行为的标志[ReportingEngine](../../com.aspose.words/reportingengine)构建报告时的实例。该值必须是按位组合[ReportBuildOptions](../../com.aspose.words/reportbuildoptions)常数。 |
 
 ### setUseReflectionOptimization(boolean value) {#setUseReflectionOptimization-boolean-}
 ```
@@ -256,12 +256,12 @@ public static void setUseReflectionOptimization(boolean value)
 ```
 
 
-Sets a value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. The default value is true. There are some scenarios where it is preferrable to disable this optimization. For example, if you are dealing with small collections of data items all the time, then an overhead of dynamic class generation can be more noticeable than an overhead of direct reflection API calls. The option does not have effect when run on iOS and reflection optimization is not used.
+设置一个值，该值指示通过反射 API 执行的自定义类型成员的调用是否使用动态类生成进行了优化。默认值是true。在某些情况下，最好禁用此优化。例如，如果您一直在处理小型数据项集合，那么动态类生成的开销可能比直接反射 API 调用的开销更明显。该选项在 iOS 上运行且不使用反射优化时无效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value indicating whether invocations of custom type members performed via reflection API are optimized using dynamic class generation or not. |
+| value | boolean | 一个值，指示是否使用动态类生成优化通过反射 API 执行的自定义类型成员的调用。 |
 
 ### toString() {#toString--}
 ```
@@ -271,7 +271,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -289,8 +289,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -302,9 +302,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

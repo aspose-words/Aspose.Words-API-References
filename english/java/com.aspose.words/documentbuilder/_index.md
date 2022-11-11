@@ -1,181 +1,181 @@
 ---
 title: DocumentBuilder
-second_title: Aspose.Words for Java API Reference
-description: Provides methods to insert text images and other content specify font paragraph and section formatting.
+second_title: Aspose.Words for Java API 参考
+description: 提供插入文本图像和其他内容的方法，指定字体段落和节格式。
 type: docs
 weight: 122
-url: /java/com.aspose.words/documentbuilder/
+url: /zh/java/com.aspose.words/documentbuilder/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DocumentBuilder
 ```
 
-Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
+提供插入文本、图像和其他内容、指定字体、段落和部分格式的方法。
 
-To learn more, visit the **Document Builder Overview** documentation article.
+要了解更多信息，请访问**Document Builder Overview**文档文章。
 
-**DocumentBuilder** makes the process of building a **Document** easier. **Document** is a composite object consisting of a tree of nodes and while inserting content nodes directly into the tree is possible, it requires good understanding of the tree structure. **DocumentBuilder** is a "facade" for the complex structure of **Document** and allows to insert content and formatting quickly and easily.
+**DocumentBuilder**使构建过程**Document**更轻松。**Document**是由节点树组成的复合对象，虽然可以将内容节点直接插入树中，但需要对树结构有很好的理解。**DocumentBuilder**是复杂结构的“门面”**Document**并允许快速轻松地插入内容和格式。
 
-Create a **DocumentBuilder** and associate it with a [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-).
+创建一个**DocumentBuilder**并将其与[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-).
 
-The **DocumentBuilder** has an internal cursor where the text will be inserted when you call [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-), [writeln(java.lang.String)](../../com.aspose.words/documentbuilder\#writeln-java.lang.String-), **M:Aspose.Words.DocumentBuilder.InsertBreak(Aspose.Words.BreakType)** and other methods. You can navigate the **DocumentBuilder** cursor to a different location in a document using various MoveToXXX methods.
+这**DocumentBuilder**有一个内部光标，当您调用时将在其中插入文本[write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-), [writeln(java.lang.String)](../../com.aspose.words/documentbuilder\#writeln-java.lang.String-), **M:Aspose.Words.DocumentBuilder.InsertBreak(Aspose.Words.Break类型)**和其他方法。您可以浏览**DocumentBuilder**使用各种 MoveToXXX 方法将光标移动到文档中的不同位置。
 
-Use the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property to specify character formatting that will apply to all text inserted from the current position in the document onwards.
+使用[getFont()](../../com.aspose.words/documentbuilder\#getFont--)属性来指定将应用于从文档中当前位置开始插入的所有文本的字符格式。
 
-Use the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) property to specify paragraph formatting for the current and all paragraphs that will be inserted.
+使用[getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--)属性来指定将插入的当前和所有段落的段落格式。
 
-Use the [getPageSetup()](../../com.aspose.words/documentbuilder\#getPageSetup--) property to specify page and section properties for the current section and all section that will be inserted.
+使用[getPageSetup()](../../com.aspose.words/documentbuilder\#getPageSetup--)属性来指定当前部分和将插入的所有部分的页面和部分属性。
 
-Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--) and [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--) properties to specify formatting properties for table cells and rows. User the [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--) and [endRow()](../../com.aspose.words/documentbuilder\#endRow--) methods to build a table.
+使用[getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--)和[getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--)属性来指定表格单元格和行的格式属性。用户[insertCell()](../../com.aspose.words/documentbuilder\#insertCell--)和[endRow()](../../com.aspose.words/documentbuilder\#endRow--)建表的方法。
 
-Note that **Font**, **ParagraphFormat** and **PageSetup** properties are updated whenever you navigate to a different place in the document to reflect formatting properties available at the new location.
-## Constructors
+注意**Font**, **ParagraphFormat**和**PageSetup**每当您导航到文档中的不同位置时，属性都会更新，以反映新位置可用的格式属性。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [DocumentBuilder()](#DocumentBuilder--) | Initializes a new instance of this class. |
-| [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document-) | Initializes a new instance of this class. |
-## Methods
+| [DocumentBuilder()](#DocumentBuilder--) | 初始化此类的新实例。 |
+| [DocumentBuilder(Document doc)](#DocumentBuilder-com.aspose.words.Document-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [clearCellAttrs()](#clearCellAttrs--) |  |
 | [clearRowAttrs()](#clearRowAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
-| [deleteRow(int tableIndex, int rowIndex)](#deleteRow-int-int-) | Deletes a row from a table. |
-| [endBookmark(String bookmarkName)](#endBookmark-java.lang.String-) | Marks the current position in the document as a bookmark end. |
-| [endColumnBookmark(String bookmarkName)](#endColumnBookmark-java.lang.String-) | Marks the current position in the document as a column bookmark end. |
-| [endEditableRange()](#endEditableRange--) | Marks the current position in the document as an editable range end. |
-| [endEditableRange(EditableRangeStart start)](#endEditableRange-com.aspose.words.EditableRangeStart-) | Marks the current position in the document as an editable range end. |
-| [endRow()](#endRow--) | Ends a table row in the document. |
-| [endTable()](#endTable--) | Ends a table in the document. |
+| [deleteRow(int tableIndex, int rowIndex)](#deleteRow-int-int-) | 从表中删除一行。 |
+| [endBookmark(String bookmarkName)](#endBookmark-java.lang.String-) | 将文档中的当前位置标记为书签结束。 |
+| [endColumnBookmark(String bookmarkName)](#endColumnBookmark-java.lang.String-) | 将文档中的当前位置标记为列书签结束。 |
+| [endEditableRange()](#endEditableRange--) | 将文档中的当前位置标记为可编辑范围结束。 |
+| [endEditableRange(EditableRangeStart start)](#endEditableRange-com.aspose.words.EditableRangeStart-) | 将文档中的当前位置标记为可编辑范围结束。 |
+| [endRow()](#endRow--) | 结束文档中的表格行。 |
+| [endTable()](#endTable--) | 结束文档中的表格。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
 | [fetchInheritedCellAttr(int key)](#fetchInheritedCellAttr-int-) |  |
 | [fetchInheritedRowAttr(int key)](#fetchInheritedRowAttr-int-) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
 | [fetchRowAttr(int key)](#fetchRowAttr-int-) |  |
-| [getBold()](#getBold--) | True if the font is formatted as bold. |
-| [getCellFormat()](#getCellFormat--) | Returns an object that represents current table cell formatting properties. |
-| [getClass()](#getClass--) |  |
-| [getCurrentNode()](#getCurrentNode--) | Gets the node that is currently selected in this DocumentBuilder. |
-| [getCurrentParagraph()](#getCurrentParagraph--) | Gets the paragraph that is currently selected in this DocumentBuilder. |
-| [getCurrentSection()](#getCurrentSection--) | Gets the section that is currently selected in this DocumentBuilder. |
-| [getCurrentStory()](#getCurrentStory--) | Gets the story that is currently selected in this DocumentBuilder. |
-| [getCurrentStructuredDocumentTag()](#getCurrentStructuredDocumentTag--) | Gets the structured document tag that is currently selected in this DocumentBuilder. |
+| [getBold()](#getBold--) | 如果字体格式为粗体，则为真。 |
+| [getCellFormat()](#getCellFormat--) | 返回一个表示当前表格单元格格式属性的对象。 |
+| [get班级()](#get班级--) |  |
+| [getCurrentNode()](#getCurrentNode--) | 获取当前在此 DocumentBuilder 中选择的节点。 |
+| [getCurrentParagraph()](#getCurrentParagraph--) | 获取当前在此 DocumentBuilder 中选择的段落。 |
+| [getCurrentSection()](#getCurrentSection--) | 获取当前在此 DocumentBuilder 中选择的部分。 |
+| [getCurrentStory()](#getCurrentStory--) | 获取当前在此 DocumentBuilder 中选择的故事。 |
+| [getCurrentStructuredDocumentTag()](#getCurrentStructuredDocumentTag--) | 获取当前在此 DocumentBuilder 中选择的结构化文档标记。 |
 | [getDirectCellAttr(int key)](#getDirectCellAttr-int-) |  |
 | [getDirectRowAttr(int key)](#getDirectRowAttr-int-) |  |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
-| [getFont()](#getFont--) | Returns an object that represents current font formatting properties. |
-| [getItalic()](#getItalic--) | True if the font is formatted as italic. |
-| [getListFormat()](#getListFormat--) | Returns an object that represents current list formatting properties. |
-| [getPageSetup()](#getPageSetup--) | Returns an object that represents current page setup and section properties. |
-| [getParagraphFormat()](#getParagraphFormat--) | Returns an object that represents current paragraph formatting properties. |
-| [getRowFormat()](#getRowFormat--) | Returns an object that represents current table row formatting properties. |
-| [getUnderline()](#getUnderline--) | Gets/sets underline type for the current font. |
+| [getDocument()](#getDocument--) | 获取[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。 |
+| [getFont()](#getFont--) | 返回一个表示当前字体格式属性的对象。 |
+| [getItalic()](#getItalic--) | 如果字体格式为斜体，则为真。 |
+| [getListFormat()](#getListFormat--) | 返回一个表示当前列表格式属性的对象。 |
+| [getPageSetup()](#getPageSetup--) | 返回一个表示当前页面设置和部分属性的对象。 |
+| [getParagraphFormat()](#getParagraphFormat--) | 返回一个表示当前段落格式属性的对象。 |
+| [getRowFormat()](#getRowFormat--) | 返回一个表示当前表格行格式属性的对象。 |
+| [getUnderline()](#getUnderline--) | 获取/设置当前字体的下划线类型。 |
 | [hashCode()](#hashCode--) |  |
-| [insertBreak(int breakType)](#insertBreak-int-) |  |
-| [insertCell()](#insertCell--) | Inserts a table cell into the document. |
-| [insertChart(int chartType, double width, double height)](#insertChart-int-double-double-) |  |
-| [insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertChart-int-int-double-int-double-double-double-int-) |  |
-| [insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-boolean-int-) | Inserts a checkbox form field at the current position. |
-| [insertCheckBox(String name, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-int-) | Inserts a checkbox form field at the current position. |
-| [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int-) | Inserts a combobox form field at the current position. |
+| [insertBreak(int break类型)](#insertBreak-int-) |  |
+| [insertCell()](#insertCell--) | 将表格单元格插入到文档中。 |
+| [insertChart(int chart类型, double width, double height)](#insertChart-int-double-double-) |  |
+| [insertChart(int chart类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertChart-int-int-double-int-double-double-double-int-) |  |
+| [insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-boolean-int-) | 在当前位置插入一个复选框表单域。 |
+| [insertCheckBox(String name, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-int-) | 在当前位置插入一个复选框表单域。 |
+| [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int-) | 在当前位置插入一个组合框表单域。 |
 | [insertDocument(Document srcDoc, int importFormatMode)](#insertDocument-com.aspose.words.Document-int-) |  |
 | [insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions)](#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions-) |  |
-| [insertField(int fieldType, boolean updateField)](#insertField-int-boolean-) |  |
-| [insertField(String fieldCode)](#insertField-java.lang.String-) | Inserts a Word field into a document. |
-| [insertField(String fieldCode, String fieldValue)](#insertField-java.lang.String-java.lang.String-) | Inserts a Word field into a document without updating the field result. |
-| [insertFootnote(int footnoteType, String footnoteText)](#insertFootnote-int-java.lang.String-) |  |
-| [insertFootnote(int footnoteType, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String-) |  |
-| [insertHorizontalRule()](#insertHorizontalRule--) | Inserts a horizontal rule shape into the document. |
-| [insertHtml(String html)](#insertHtml-java.lang.String-) | Inserts an HTML string into the document. |
-| [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean-) | Inserts an HTML string into the document. |
+| [insert字段(int field类型, boolean update字段)](#insert字段-int-boolean-) |  |
+| [insert字段(String fieldCode)](#insert字段-java.lang.String-) | 将 Word 域插入到文档中。 |
+| [insert字段(String fieldCode, String fieldValue)](#insert字段-java.lang.String-java.lang.String-) | 将 Word 字段插入文档而不更新字段结果。 |
+| [insertFootnote(int footnote类型, String footnoteText)](#insertFootnote-int-java.lang.String-) |  |
+| [insertFootnote(int footnote类型, String footnoteText, String referenceMark)](#insertFootnote-int-java.lang.String-java.lang.String-) |  |
+| [insertHorizontalRule()](#insertHorizontalRule--) | 将水平线形插入文档。 |
+| [insertHtml(String html)](#insertHtml-java.lang.String-) | 在文档中插入一个 HTML 字符串。 |
+| [insertHtml(String html, boolean useBuilderFormatting)](#insertHtml-java.lang.String-boolean-) | 在文档中插入一个 HTML 字符串。 |
 | [insertHtml(String html, int options)](#insertHtml-java.lang.String-int-) |  |
-| [insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)](#insertHyperlink-java.lang.String-java.lang.String-boolean-) | Inserts a hyperlink into the document. |
-| [insertImage(byte[] imageBytes)](#insertImage-byte---) | Inserts an image from a byte array into the document. |
-| [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double-) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
-| [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-byte---int-double-int-double-double-double-int-) |  |
-| [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage-) | Inserts an image into the document. |
-| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double-) | Inserts an inline image from a  object into the document and scales it to the specified size. |
-| [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-) |  |
+| [insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)](#insertHyperlink-java.lang.String-java.lang.String-boolean-) | 在文档中插入超链接。 |
+| [insertImage(byte[] imageBytes)](#insertImage-byte---) | 将字节数组中的图像插入到文档中。 |
+| [insertImage(byte[] imageBytes, double width, double height)](#insertImage-byte---double-double-) | 将字节数组中的内联图像插入到文档中并将其缩放到指定的大小。 |
+| [insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertImage-byte---int-double-int-double-double-double-int-) |  |
+| [insertImage(BufferedImage image)](#insertImage-java.awt.image.BufferedImage-) | 在文档中插入图像。 |
+| [insertImage(BufferedImage image, double width, double height)](#insertImage-java.awt.image.BufferedImage-double-double-) | 将来自对象的内嵌图像插入到文档中并将其缩放到指定的大小。 |
+| [insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-) |  |
 | [insertImage(InputStream stream)](#insertImage-java.io.InputStream-) |  |
 | [insertImage(InputStream stream, double width, double height)](#insertImage-java.io.InputStream-double-double-) |  |
-| [insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.io.InputStream-int-double-int-double-double-double-int-) |  |
-| [insertImage(String fileName)](#insertImage-java.lang.String-) | Inserts an image from a file or URL into the document. |
-| [insertImage(String fileName, double width, double height)](#insertImage-java.lang.String-double-double-) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
-| [insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertImage-java.lang.String-int-double-int-double-double-double-int-) |  |
-| [insertNode(Node node)](#insertNode-com.aspose.words.Node-) | Inserts a node before the cursor. |
+| [insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertImage-java.io.InputStream-int-double-int-double-double-double-int-) |  |
+| [insertImage(String fileName)](#insertImage-java.lang.String-) | 将文件或 URL 中的图像插入到文档中。 |
+| [insertImage(String fileName, double width, double height)](#insertImage-java.lang.String-double-double-) | 将文件或 URL 中的内联图像插入到文档中，并将其缩放到指定的大小。 |
+| [insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertImage-java.lang.String-int-double-int-double-double-double-int-) |  |
+| [insertNode(Node node)](#insertNode-com.aspose.words.Node-) | 在光标前插入一个节点。 |
 | [insertOleObject(InputStream stream, String progId, boolean asIcon, InputStream presentation)](#insertOleObject-java.io.InputStream-java.lang.String-boolean-java.io.InputStream-) |  |
 | [insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream-) |  |
 | [insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation)](#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream-) |  |
 | [insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String-) |  |
-| [insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String-) | Inserts an embedded or linked OLE object as icon into the document. |
-| [insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String-) | Inserts an embedded or linked OLE object as icon into the document. |
-| [insertOnlineVideo(String videoUrl, double width, double height)](#insertOnlineVideo-java.lang.String-double-double-) | Inserts an online video object into the document and scales it to the specified size. |
-| [insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-) |  |
-| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double-) | Inserts an online video object into the document and scales it to the specified size. |
-| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-) |  |
-| [insertParagraph()](#insertParagraph--) | Inserts a paragraph break into the document. |
-| [insertShape(int shapeType, double width, double height)](#insertShape-int-double-double-) |  |
-| [insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertShape-int-int-double-int-double-double-double-int-) |  |
-| [insertSignatureLine(SignatureLineOptions signatureLineOptions)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-) | Inserts a signature line at the current position. |
-| [insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-) |  |
-| [insertStyleSeparator()](#insertStyleSeparator--) | Inserts style separator into the document. |
-| [insertTableOfContents(String switches)](#insertTableOfContents-java.lang.String-) | Inserts a TOC (table of contents) field into the document. |
+| [insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String-) | 将嵌入或链接的 OLE 对象作为图标插入到文档中。 |
+| [insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)](#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String-) | 将嵌入或链接的 OLE 对象作为图标插入到文档中。 |
+| [insertOnlineVideo(String videoUrl, double width, double height)](#insertOnlineVideo-java.lang.String-double-double-) | 将在线视频对象插入文档并将其缩放到指定大小。 |
+| [insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-) |  |
+| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double-) | 将在线视频对象插入文档并将其缩放到指定大小。 |
+| [insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-) |  |
+| [insertParagraph()](#insertParagraph--) | 在文档中插入段落分隔符。 |
+| [insertShape(int shape类型, double width, double height)](#insertShape-int-double-double-) |  |
+| [insertShape(int shape类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)](#insertShape-int-int-double-int-double-double-double-int-) |  |
+| [insertSignatureLine(SignatureLineOptions signatureLineOptions)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-) | 在当前位置插入签名行。 |
+| [insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrap类型)](#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-) |  |
+| [insertStyleSeparator()](#insertStyleSeparator--) | 在文档中插入样式分隔符。 |
+| [insertTableOfContents(String switches)](#insertTableOfContents-java.lang.String-) | 在文档中插入一个 TOC（目录）字段。 |
 | [insertTextInput(String name, int type, String format, String fieldValue, int maxLength)](#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int-) |  |
-| [isAtEndOfParagraph()](#isAtEndOfParagraph--) | Returns true if the cursor is at the end of the current paragraph. |
-| [isAtEndOfStructuredDocumentTag()](#isAtEndOfStructuredDocumentTag--) | Returns **true** if the cursor is at the end of a structured document tag. |
-| [isAtStartOfParagraph()](#isAtStartOfParagraph--) | Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor). |
-| [moveTo(Node node)](#moveTo-com.aspose.words.Node-) | Moves the cursor to an inline node or to the end of a paragraph. |
-| [moveToBookmark(String bookmarkName)](#moveToBookmark-java.lang.String-) | Moves the cursor to a bookmark. |
-| [moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)](#moveToBookmark-java.lang.String-boolean-boolean-) | Moves the cursor to a bookmark with greater precision. |
-| [moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)](#moveToCell-int-int-int-int-) | Moves the cursor to a table cell in the current section. |
-| [moveToDocumentEnd()](#moveToDocumentEnd--) | Moves the cursor to the end of the document. |
-| [moveToDocumentStart()](#moveToDocumentStart--) | Moves the cursor to the beginning of the document. |
-| [moveToField(Field field, boolean isAfter)](#moveToField-com.aspose.words.Field-boolean-) | Moves the cursor to a field in the document. |
-| [moveToHeaderFooter(int headerFooterType)](#moveToHeaderFooter-int-) |  |
-| [moveToMergeField(String fieldName)](#moveToMergeField-java.lang.String-) | Moves the cursor to the specified merge field. |
-| [moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)](#moveToMergeField-java.lang.String-boolean-boolean-) | Moves the merge field to the specified merge field. |
-| [moveToParagraph(int paragraphIndex, int characterIndex)](#moveToParagraph-int-int-) | Moves the cursor to a paragraph in the current section. |
-| [moveToSection(int sectionIndex)](#moveToSection-int-) | Moves the cursor to the beginning of the body in a specified section. |
-| [moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)](#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int-) | Moves the cursor to the structured document tag. |
-| [moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)](#moveToStructuredDocumentTag-int-int-) | Moves the cursor to a structured document tag in the current section. |
+| [isAtEndOfParagraph()](#isAtEndOfParagraph--) | 如果光标位于当前段落的末尾，则返回 true。 |
+| [isAtEndOfStructuredDocumentTag()](#isAtEndOfStructuredDocumentTag--) | 退货**true**如果光标位于结构化文档标签的末尾。 |
+| [isAtStartOfParagraph()](#isAtStartOfParagraph--) | 如果光标位于当前段落的开头（光标前没有文本），则返回 true。 |
+| [moveTo(Node node)](#moveTo-com.aspose.words.Node-) | 将光标移动到内联节点或段落末尾。 |
+| [moveToBookmark(String bookmarkName)](#moveToBookmark-java.lang.String-) | 将光标移动到书签。 |
+| [moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)](#moveToBookmark-java.lang.String-boolean-boolean-) | 以更高的精度将光标移动到书签。 |
+| [moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)](#moveToCell-int-int-int-int-) | 将光标移动到当前部分中的表格单元格。 |
+| [moveToDocumentEnd()](#moveToDocumentEnd--) | 将光标移动到文档的末尾。 |
+| [moveToDocumentStart()](#moveToDocumentStart--) | 将光标移动到文档的开头。 |
+| [moveTo字段(字段 field, boolean isAfter)](#moveTo字段-com.aspose.words.字段-boolean-) | 将光标移动到文档中的某个字段。 |
+| [moveToHeaderFooter(int headerFooter类型)](#moveToHeaderFooter-int-) |  |
+| [moveToMerge字段(String fieldName)](#moveToMerge字段-java.lang.String-) | 将光标移动到指定的合并字段。 |
+| [moveToMerge字段(String fieldName, boolean isAfter, boolean isDelete字段)](#moveToMerge字段-java.lang.String-boolean-boolean-) | 将合并字段移动到指定的合并字段。 |
+| [moveToParagraph(int paragraphIndex, int characterIndex)](#moveToParagraph-int-int-) | 将光标移动到当前节中的段落。 |
+| [moveToSection(int sectionIndex)](#moveToSection-int-) | 将光标移动到指定部分的正文开头。 |
+| [moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex)](#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int-) | 将光标移动到结构化文档标签。 |
+| [moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)](#moveToStructuredDocumentTag-int-int-) | 将光标移动到当前部分中的结构化文档标签。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [popFont()](#popFont--) | Retrieves character formatting previously saved on the stack. |
-| [pushFont()](#pushFont--) | Saves current character formatting onto the stack. |
+| [popFont()](#popFont--) | 检索以前保存在堆栈中的字符格式。 |
+| [pushFont()](#pushFont--) | 将当前字符格式保存到堆栈中。 |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [resetToDefaultAttrs()](#resetToDefaultAttrs--) |  |
-| [setBold(boolean value)](#setBold-boolean-) | True if the font is formatted as bold. |
+| [setBold(boolean value)](#setBold-boolean-) | 如果字体格式为粗体，则为真。 |
 | [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object-) |  |
-| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
-| [setItalic(boolean value)](#setItalic-boolean-) | True if the font is formatted as italic. |
+| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | 设置[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。 |
+| [setItalic(boolean value)](#setItalic-boolean-) | 如果字体格式为斜体，则为真。 |
 | [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object-) |  |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setUnderline(int value)](#setUnderline-int-) | Gets/sets underline type for the current font. |
-| [startBookmark(String bookmarkName)](#startBookmark-java.lang.String-) | Marks the current position in the document as a bookmark start. |
-| [startColumnBookmark(String bookmarkName)](#startColumnBookmark-java.lang.String-) | Marks the current position in the document as a column bookmark start. |
-| [startEditableRange()](#startEditableRange--) | Marks the current position in the document as an editable range start. |
-| [startTable()](#startTable--) | Starts a table in the document. |
+| [setUnderline(int value)](#setUnderline-int-) | 获取/设置当前字体的下划线类型。 |
+| [startBookmark(String bookmarkName)](#startBookmark-java.lang.String-) | 将文档中的当前位置标记为书签开始。 |
+| [startColumnBookmark(String bookmarkName)](#startColumnBookmark-java.lang.String-) | 将文档中的当前位置标记为列书签开始。 |
+| [startEditableRange()](#startEditableRange--) | 将文档中的当前位置标记为可编辑范围开始。 |
+| [startTable()](#startTable--) | 在文档中启动一个表格。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [write(String text)](#write-java.lang.String-) | Inserts a string into the document at the current insert position. |
-| [writeln()](#writeln--) | Inserts a paragraph break into the document. |
-| [writeln(String text)](#writeln-java.lang.String-) | Inserts a string and a paragraph break into the document. |
+| [write(String text)](#write-java.lang.String-) | 在文档的当前插入位置插入一个字符串。 |
+| [writeln()](#writeln--) | 在文档中插入段落分隔符。 |
+| [writeln(String text)](#writeln-java.lang.String-) | 在文档中插入一个字符串和一个段落分隔符。 |
 ### DocumentBuilder() {#DocumentBuilder--}
 ```
 public DocumentBuilder()
 ```
 
 
-Initializes a new instance of this class. Creates a new **DocumentBuilder** object and attaches it to a new [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object.
+初始化此类的新实例。创建一个新的**DocumentBuilder**对象并将其附加到新的[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)目的。
 
 ### DocumentBuilder(Document doc) {#DocumentBuilder-com.aspose.words.Document-}
 ```
@@ -183,12 +183,12 @@ public DocumentBuilder(Document doc)
 ```
 
 
-Initializes a new instance of this class. Creates a new **DocumentBuilder** object, attaches to the specified [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object. The cursor is positioned at the beginning of the document.
+初始化此类的新实例。创建一个新的**DocumentBuilder**对象，附加到指定的[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)目的。光标位于文档的开头。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | The Document object to attach to. |
+| doc | [Document](../../com.aspose.words/document) | 要附加到的 Document 对象。 |
 
 ### clearCellAttrs() {#clearCellAttrs--}
 ```
@@ -220,123 +220,123 @@ public Row deleteRow(int tableIndex, int rowIndex)
 ```
 
 
-Deletes a row from a table.
+从表中删除一行。
 
-If the cursor is inside the row that is being deleted, the cursor is moved out to the next row or to the next paragraph after the table.
+如果光标位于要删除的行内，则将光标移到下一行或表后的下一段。
 
-If you delete a row from a table that contains only one row, the whole table is deleted.
+如果从只包含一行的表中删除一行，则整个表都会被删除。
 
-For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
+对于索引参数，当index大于等于0时，指定从头开始的索引，0为第一个元素。当 index 小于 0 时，它指定从末尾开始的索引，-1 是最后一个元素。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableIndex | int | The index of the table. |
-| rowIndex | int | The index of the row in the table. |
+| tableIndex | int | 表的索引。 |
+| rowIndex | int | 表中行的索引。 |
 
-**Returns:**
-[Row](../../com.aspose.words/row) - The row node that was just removed.
+**退货:**
+[Row](../../com.aspose.words/row) - 刚刚删除的行节点。
 ### endBookmark(String bookmarkName) {#endBookmark-java.lang.String-}
 ```
 public BookmarkEnd endBookmark(String bookmarkName)
 ```
 
 
-Marks the current position in the document as a bookmark end.
+将文档中的当前位置标记为书签结束。
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要同时调用[startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-)和[endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-)同**bookmarkName**范围。
 
-Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
+| bookmarkName | java.lang.String | 书签的名称。 |
 
-**Returns:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend) - The bookmark end node that was just created.
+**退货:**
+[BookmarkEnd](../../com.aspose.words/bookmarkend) - 刚刚创建的书签结束节点。
 ### endColumnBookmark(String bookmarkName) {#endColumnBookmark-java.lang.String-}
 ```
 public BookmarkEnd endColumnBookmark(String bookmarkName)
 ```
 
 
-Marks the current position in the document as a column bookmark end. The position must be in a table cell.
+将文档中的当前位置标记为列书签结束。该位置必须在表格单元格中。
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+列书签涵盖一系列行中的一个或多个列。要创建有效的书签，您需要同时调用[startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-)和[endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-)同**bookmarkName**范围。
 
-Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
-The actual position of the inserted [BookmarkEnd](../../com.aspose.words/bookmarkend) node may differ from the current document builder position.
+插入的实际位置[BookmarkEnd](../../com.aspose.words/bookmarkend)节点可能与当前文档构建器位置不同。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
+| bookmarkName | java.lang.String | 书签的名称。 |
 
-**Returns:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend) - The bookmark end node that was just created.
+**退货:**
+[BookmarkEnd](../../com.aspose.words/bookmarkend) - 刚刚创建的书签结束节点。
 ### endEditableRange() {#endEditableRange--}
 ```
 public EditableRangeEnd endEditableRange()
 ```
 
 
-Marks the current position in the document as an editable range end.
+将文档中的当前位置标记为可编辑范围结束。
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要同时调用[startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--)和[endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--)或者[endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-)方法。
 
-Badly formed editable range will be ignored when the document is saved.
+保存文档时将忽略格式错误的可编辑范围。
 
-**Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The editable range end node that was just created.
+**退货:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend) 刚刚创建的可编辑范围结束节点。
 ### endEditableRange(EditableRangeStart start) {#endEditableRange-com.aspose.words.EditableRangeStart-}
 ```
 public EditableRangeEnd endEditableRange(EditableRangeStart start)
 ```
 
 
-Marks the current position in the document as an editable range end.
+将文档中的当前位置标记为可编辑范围结束。
 
-Use this overload during creating nested editable ranges.
+在创建嵌套的可编辑范围时使用此重载。
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要同时调用[startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--)和[endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--)或者[endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-)方法。
 
-Badly formed editable range will be ignored when the document is saved.
+保存文档时将忽略格式错误的可编辑范围。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| start | [EditableRangeStart](../../com.aspose.words/editablerangestart) | This editable range start. |
+| start | [EditableRangeStart](../../com.aspose.words/editablerangestart) | 这个可编辑的范围开始。 |
 
-**Returns:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The editable range end node that was just created.
+**退货:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend) 刚刚创建的可编辑范围结束节点。
 ### endRow() {#endRow--}
 ```
 public Row endRow()
 ```
 
 
-Ends a table row in the document.
+结束文档中的表格行。
 
-Call **EndRow** to end a table row. If you call [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--) immediately after that, then the table continues on a new row.
+称呼**EndRow**结束表格行。如果你打电话[insertCell()](../../com.aspose.words/documentbuilder\#insertCell--)紧接着，表格在新行上继续。
 
-Use the [getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--) property to specify row formatting.
+使用[getRowFormat()](../../com.aspose.words/documentbuilder\#getRowFormat--)属性来指定行格式。
 
-**Returns:**
-[Row](../../com.aspose.words/row) - The row node that was just finished.
+**退货:**
+[Row](../../com.aspose.words/row) - 刚刚完成的行节点。
 ### endTable() {#endTable--}
 ```
 public Table endTable()
 ```
 
 
-Ends a table in the document.
+结束文档中的表格。
 
-This method should be called only once after [endRow()](../../com.aspose.words/documentbuilder\#endRow--) was called. When called, **EndTable** moves the cursor out of the current cell to point just after the table.
+这个方法应该只在之后调用一次[endRow()](../../com.aspose.words/documentbuilder\#endRow--)被称为。打电话时，**EndTable**将光标移出当前单元格以指向表格之后。
 
-**Returns:**
-[Table](../../com.aspose.words/table) - The table node that was just finished.
+**退货:**
+[Table](../../com.aspose.words/table) - 刚刚完成的表节点。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -345,13 +345,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchCellAttr(int key) {#fetchCellAttr-int-}
 ```
 public Object fetchCellAttr(int key)
@@ -360,12 +360,12 @@ public Object fetchCellAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int-}
 ```
@@ -375,12 +375,12 @@ public Object fetchInheritedCellAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int-}
 ```
@@ -390,12 +390,12 @@ public Object fetchInheritedRowAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
 ```
@@ -405,12 +405,12 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### fetchRowAttr(int key) {#fetchRowAttr-int-}
 ```
@@ -420,12 +420,12 @@ public Object fetchRowAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getBold() {#getBold--}
 ```
@@ -433,84 +433,84 @@ public boolean getBold()
 ```
 
 
-True if the font is formatted as bold.
+如果字体格式为粗体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getCellFormat() {#getCellFormat--}
 ```
 public CellFormat getCellFormat()
 ```
 
 
-Returns an object that represents current table cell formatting properties.
+返回一个表示当前表格单元格格式属性的对象。
 
-**Returns:**
-[CellFormat](../../com.aspose.words/cellformat) - An object that represents current table cell formatting properties.
-### getClass() {#getClass--}
+**退货:**
+[CellFormat](../../com.aspose.words/cellformat) - 表示当前表格单元格格式属性的对象。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
 ```
 
 
-Gets the node that is currently selected in this DocumentBuilder.
+获取当前在此 DocumentBuilder 中选择的节点。
 
-**CurrentNode** is a cursor of **DocumentBuilder** and points to a **Node** that is a direct child of a **Paragraph**. Any insert operations you perform using **DocumentBuilder** will insert before the **CurrentNode**.
+**CurrentNode**是一个光标**DocumentBuilder**并指向一个**Node**那是 a 的直系孩子**Paragraph**.您使用执行的任何插入操作**DocumentBuilder**将在之前插入**CurrentNode**.
 
-When the current paragraph is empty or the cursor is positioned just before the end of a paragraph or structured document tag, **CurrentNode** returns null.
+当当前段落为空或光标位于段落结尾或结构化文档标记之前，**CurrentNode**返回空值。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The node that is currently selected in this DocumentBuilder.
+**退货:**
+[Node](../../com.aspose.words/node) 当前在此 DocumentBuilder 中选择的节点。
 ### getCurrentParagraph() {#getCurrentParagraph--}
 ```
 public Paragraph getCurrentParagraph()
 ```
 
 
-Gets the paragraph that is currently selected in this DocumentBuilder. [getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode--)
+获取当前在此 DocumentBuilder 中选择的段落。[getCurrentNode()](../../com.aspose.words/documentbuilder\#getCurrentNode--)
 
-**Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The paragraph that is currently selected in this DocumentBuilder.
+**退货:**
+[Paragraph](../../com.aspose.words/paragraph) - 当前在此 DocumentBuilder 中选择的段落。
 ### getCurrentSection() {#getCurrentSection--}
 ```
 public Section getCurrentSection()
 ```
 
 
-Gets the section that is currently selected in this DocumentBuilder.
+获取当前在此 DocumentBuilder 中选择的部分。
 
-**Returns:**
-[Section](../../com.aspose.words/section) - The section that is currently selected in this DocumentBuilder.
+**退货:**
+[Section](../../com.aspose.words/section) - 当前在此 DocumentBuilder 中选择的部分。
 ### getCurrentStory() {#getCurrentStory--}
 ```
 public Story getCurrentStory()
 ```
 
 
-Gets the story that is currently selected in this DocumentBuilder.
+获取当前在此 DocumentBuilder 中选择的故事。
 
-**Returns:**
-[Story](../../com.aspose.words/story) - The story that is currently selected in this DocumentBuilder.
+**退货:**
+[Story](../../com.aspose.words/story) - 当前在此 DocumentBuilder 中选择的故事。
 ### getCurrentStructuredDocumentTag() {#getCurrentStructuredDocumentTag--}
 ```
 public StructuredDocumentTag getCurrentStructuredDocumentTag()
 ```
 
 
-Gets the structured document tag that is currently selected in this DocumentBuilder.
+获取当前在此 DocumentBuilder 中选择的结构化文档标记。
 
-**Returns:**
-[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) - The structured document tag that is currently selected in this DocumentBuilder.
+**退货:**
+[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) - 当前在此 DocumentBuilder 中选择的结构化文档标签。
 ### getDirectCellAttr(int key) {#getDirectCellAttr-int-}
 ```
 public Object getDirectCellAttr(int key)
@@ -519,12 +519,12 @@ public Object getDirectCellAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getDirectRowAttr(int key) {#getDirectRowAttr-int-}
 ```
@@ -534,12 +534,12 @@ public Object getDirectRowAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
 ```
@@ -549,12 +549,12 @@ public Object getDirectRunAttr(int fontAttr)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -562,84 +562,84 @@ public Document getDocument()
 ```
 
 
-Gets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
+获取[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。
 
-**Returns:**
-[Document](../../com.aspose.words/document) - The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
+**退货:**
+[Document](../../com.aspose.words/document) - 这[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。
 ### getFont() {#getFont--}
 ```
 public Font getFont()
 ```
 
 
-Returns an object that represents current font formatting properties.
+返回一个表示当前字体格式属性的对象。
 
-Use **Font** to access and modify font formatting properties.
+利用**Font**访问和修改字体格式属性。
 
-Specify font formatting before inserting text.
+在插入文本之前指定字体格式。
 
-**Returns:**
-[Font](../../com.aspose.words/font) - An object that represents current font formatting properties.
+**退货:**
+[Font](../../com.aspose.words/font) - 表示当前字体格式属性的对象。
 ### getItalic() {#getItalic--}
 ```
 public boolean getItalic()
 ```
 
 
-True if the font is formatted as italic.
+如果字体格式为斜体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getListFormat() {#getListFormat--}
 ```
 public ListFormat getListFormat()
 ```
 
 
-Returns an object that represents current list formatting properties.
+返回一个表示当前列表格式属性的对象。
 
-**Returns:**
-[ListFormat](../../com.aspose.words/listformat) - An object that represents current list formatting properties.
+**退货:**
+[ListFormat](../../com.aspose.words/listformat) - 表示当前列表格式属性的对象。
 ### getPageSetup() {#getPageSetup--}
 ```
 public PageSetup getPageSetup()
 ```
 
 
-Returns an object that represents current page setup and section properties.
+返回一个表示当前页面设置和部分属性的对象。
 
-**Returns:**
-[PageSetup](../../com.aspose.words/pagesetup) - An object that represents current page setup and section properties.
+**退货:**
+[PageSetup](../../com.aspose.words/pagesetup) - 表示当前页面设置和部分属性的对象。
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
 
 
-Returns an object that represents current paragraph formatting properties.
+返回一个表示当前段落格式属性的对象。
 
-**Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - An object that represents current paragraph formatting properties.
+**退货:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat) - 表示当前段落格式属性的对象。
 ### getRowFormat() {#getRowFormat--}
 ```
 public RowFormat getRowFormat()
 ```
 
 
-Returns an object that represents current table row formatting properties.
+返回一个表示当前表格行格式属性的对象。
 
-**Returns:**
-[RowFormat](../../com.aspose.words/rowformat) - An object that represents current table row formatting properties.
+**退货:**
+[RowFormat](../../com.aspose.words/rowformat) - 表示当前表格行格式属性的对象。
 ### getUnderline() {#getUnderline--}
 ```
 public int getUnderline()
 ```
 
 
-Gets/sets underline type for the current font.
+获取/设置当前字体的下划线类型。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [Underline](../../com.aspose.words/underline) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[Underline](../../com.aspose.words/underline)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -648,20 +648,20 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
-### insertBreak(int breakType) {#insertBreak-int-}
+**退货:**
+整数
+### insertBreak(int break类型) {#insertBreak-int-}
 ```
-public void insertBreak(int breakType)
+public void insertBreak(int break类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| breakType | int |  |
+| break类型 | int |  |
 
 ### insertCell() {#insertCell--}
 ```
@@ -669,115 +669,115 @@ public Cell insertCell()
 ```
 
 
-Inserts a table cell into the document.
+将表格单元格插入到文档中。
 
-To start a table, just call **InsertCell**. After this, any content you add using other methods of the [DocumentBuilder](../../com.aspose.words/documentbuilder) class will be added to the current cell.
+要开始一个表，只需调用**InsertCell**.在此之后，您使用其他方法添加的任何内容[DocumentBuilder](../../com.aspose.words/documentbuilder)类将被添加到当前单元格。
 
-To start a new cell in the same row, call **InsertCell** again.
+要在同一行中开始一个新单元格，请调用**InsertCell**再次。
 
-To end a table row call [endRow()](../../com.aspose.words/documentbuilder\#endRow--).
+结束表格行调用[endRow()](../../com.aspose.words/documentbuilder\#endRow--).
 
-Use the [getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--) property to specify cell formatting.
+使用[getCellFormat()](../../com.aspose.words/documentbuilder\#getCellFormat--)属性来指定单元格格式。
 
-**Returns:**
-[Cell](../../com.aspose.words/cell) - The cell node that was just inserted.
-### insertChart(int chartType, double width, double height) {#insertChart-int-double-double-}
+**退货:**
+[Cell](../../com.aspose.words/cell) - 刚刚插入的单元节点。
+### insertChart(int chart类型, double width, double height) {#insertChart-int-double-double-}
 ```
-public Shape insertChart(int chartType, double width, double height)
+public Shape insertChart(int chart类型, double width, double height)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chartType | int |  |
+| chart类型 | int |  |
 | width | double |  |
 | height | double |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
-### insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertChart-int-int-double-int-double-double-double-int-}
+### insertChart(int chart类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertChart-int-int-double-int-double-double-double-int-}
 ```
-public Shape insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertChart(int chart类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| chartType | int |  |
+| chart类型 | int |  |
 | horzPos | int |  |
 | left | double |  |
 | vertPos | int |  |
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-boolean-int-}
 ```
-public FormField insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)
+public Form字段 insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)
 ```
 
 
-Inserts a checkbox form field at the current position.
+在当前位置插入一个复选框表单域。
 
-If you specify a name for the form field, then a bookmark is automatically created with the same name.
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| defaultValue | boolean | Default value of the checkbox form field. |
-| checkedValue | boolean | Current checked status of the checkbox form field. |
-| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+| name | java.lang.String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| defaultValue | boolean | 复选框表单字段的默认值。 |
+| checkedValue | boolean | 复选框表单字段的当前选中状态。 |
+| size | int | 以磅为单位指定复选框的大小。为 MS Word 指定 0 以自动计算复选框的大小。 |
 
-**Returns:**
-[FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
+**退货:**
+[Form字段](../../com.aspose.words/formfield) - 刚刚插入的表单域节点。
 ### insertCheckBox(String name, boolean checkedValue, int size) {#insertCheckBox-java.lang.String-boolean-int-}
 ```
-public FormField insertCheckBox(String name, boolean checkedValue, int size)
+public Form字段 insertCheckBox(String name, boolean checkedValue, int size)
 ```
 
 
-Inserts a checkbox form field at the current position.
+在当前位置插入一个复选框表单域。
 
-If you specify a name for the form field, then a bookmark is automatically created with the same name.
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| checkedValue | boolean | Checked status of the checkbox form field. |
-| size | int | Specifies the size of the checkbox in points. Specify 0 for MS Word to calculate the size of the checkbox automatically. |
+| name | java.lang.String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| checkedValue | boolean | 检查复选框表单字段的状态。 |
+| size | int | 以磅为单位指定复选框的大小。为 MS Word 指定 0 以自动计算复选框的大小。 |
 
-**Returns:**
-[FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
+**退货:**
+[Form字段](../../com.aspose.words/formfield) - 刚刚插入的表单域节点。
 ### insertComboBox(String name, String[] items, int selectedIndex) {#insertComboBox-java.lang.String-java.lang.String---int-}
 ```
-public FormField insertComboBox(String name, String[] items, int selectedIndex)
+public Form字段 insertComboBox(String name, String[] items, int selectedIndex)
 ```
 
 
-Inserts a combobox form field at the current position.
+在当前位置插入一个组合框表单域。
 
-If you specify a name for the form field, then a bookmark is automatically created with the same name.
+如果您为表单域指定名称，则会自动创建具有相同名称的书签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the form field. Can be an empty string. The value longer than 20 characters will be truncated. |
-| items | java.lang.String[] | The items of the ComboBox. Maximum is 25 items. |
-| selectedIndex | int | The index of the selected item in the ComboBox. |
+| name | java.lang.String | 表单域的名称。可以是空字符串。超过 20 个字符的值将被截断。 |
+| items | java.lang.String[] | ComboBox 的项目。最多为 25 个项目。 |
+| selectedIndex | int | 组合框中所选项目的索引。 |
 
-**Returns:**
-[FormField](../../com.aspose.words/formfield) - The form field node that was just inserted.
+**退货:**
+[Form字段](../../com.aspose.words/formfield) - 刚刚插入的表单域节点。
 ### insertDocument(Document srcDoc, int importFormatMode) {#insertDocument-com.aspose.words.Document-int-}
 ```
 public Node insertDocument(Document srcDoc, int importFormatMode)
@@ -786,13 +786,13 @@ public Node insertDocument(Document srcDoc, int importFormatMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcDoc | [Document](../../com.aspose.words/document) |  |
 | importFormatMode | int |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### insertDocument(Document srcDoc, int importFormatMode, ImportFormatOptions importFormatOptions) {#insertDocument-com.aspose.words.Document-int-com.aspose.words.ImportFormatOptions-}
 ```
@@ -802,104 +802,104 @@ public Node insertDocument(Document srcDoc, int importFormatMode, ImportFormatOp
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcDoc | [Document](../../com.aspose.words/document) |  |
 | importFormatMode | int |  |
 | importFormatOptions | [ImportFormatOptions](../../com.aspose.words/importformatoptions) |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
-### insertField(int fieldType, boolean updateField) {#insertField-int-boolean-}
+### insert字段(int field类型, boolean update字段) {#insert字段-int-boolean-}
 ```
-public Field insertField(int fieldType, boolean updateField)
+public 字段 insert字段(int field类型, boolean update字段)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldType | int |  |
-| updateField | boolean |  |
+| field类型 | int |  |
+| update字段 | boolean |  |
 
-**Returns:**
-[Field](../../com.aspose.words/field)
-### insertField(String fieldCode) {#insertField-java.lang.String-}
+**退货:**
+[字段](../../com.aspose.words/field)
+### insert字段(String fieldCode) {#insert字段-java.lang.String-}
 ```
-public Field insertField(String fieldCode)
+public 字段 insert字段(String fieldCode)
 ```
 
 
-Inserts a Word field into a document.  Inserts a Word field into a document and updates the field result.
+将 Word 域插入到文档中。将 Word 字段插入文档并更新字段结果。
 
-This method inserts a field into a document and updates the field result immediately. Aspose.Words can update fields of most types, but not all. For more details see the [insertField(java.lang.String, java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String--java.lang.String-) overload.
+此方法将字段插入文档并立即更新字段结果。 Aspose.Words 可以更新大多数类型的字段，但不是全部。有关更多详细信息，请参阅[insert字段(java.lang.String, java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String--java.lang.String-)超载。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | java.lang.String | The field code to insert (without curly braces). |
+| fieldCode | java.lang.String | 要插入的域代码（不带花括号）。 |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertField(String fieldCode, String fieldValue) {#insertField-java.lang.String-java.lang.String-}
+**退货:**
+[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
+### insert字段(String fieldCode, String fieldValue) {#insert字段-java.lang.String-java.lang.String-}
 ```
-public Field insertField(String fieldCode, String fieldValue)
+public 字段 insert字段(String fieldCode, String fieldValue)
 ```
 
 
-Inserts a Word field into a document without updating the field result.
+将 Word 字段插入文档而不更新字段结果。
 
-Fields in Microsoft Word documents consist of a field code and a field result. The field code is like a formula and the field result is like the value that the formula produces. The field code may also contain field switches that are like additional instructions to perform a specific action.
+Microsoft Word 文档中的字段由字段代码和字段结果组成。字段代码就像一个公式，字段结果就像公式产生的值。域代码还可能包含域开关，类似于执行特定操作的附加指令。
 
-You can switch between displaying field codes and results in your document in Microsoft Word using the keyboard shortcut Alt+F9. Field codes appear between curly braces ( \{ \} ).
+您可以使用键盘快捷键 Alt+F9 在 Microsoft Word 文档中显示域代码和结果之间切换。字段代码出现在大括号 (\ {\}）。
 
-To create a field, you need to specify a field type, field code and a "placeholder" field value. If you are not sure about a particular field code syntax, create the field in Microsoft Word first and switch to see its field code.
+要创建字段，您需要指定字段类型、字段代码和“占位符”字段值。如果您不确定特定的域代码语法，请先在 Microsoft Word 中创建该域，然后切换以查看其域代码。
 
-Aspose.Words can calculate field results for most of the field types, but this method does not update the field result automatically. Because the field result is not calculated automatically, you are expected to pass some string value (or even an empty string) that will be inserted into the field result. This value will remain in the field result as a placeholder until the field is updated. To update the field result you can call [Field.update()](../../com.aspose.words/field\#update--) on the field object returned to you or [Document.updateFields()](../../com.aspose.words/document\#updateFields--) to update fields in the whole document.
+ Aspose.Words 可以计算大部分字段类型的字段结果，但是这种方法不会自动更新字段结果。由于字段结果不是自动计算的，因此您需要传递一些将插入到字段结果中的字符串值（甚至是空字符串）。该值将作为占位符保留在字段结果中，直到字段更新。要更新字段结果，您可以调用[字段.update()](../../com.aspose.words/field\#update--)在返回给您的字段对象上或[Document.update字段()](../../com.aspose.words/document\#update字段--)更新整个文档中的字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldCode | java.lang.String | The field code to insert (without curly braces). |
-| fieldValue | java.lang.String | The field value to insert. Pass null for fields that do not have a value. |
+| fieldCode | java.lang.String | 要插入的域代码（不带花括号）。 |
+| fieldValue | java.lang.String | 要插入的字段值。为没有值的字段传递 null。 |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
-### insertFootnote(int footnoteType, String footnoteText) {#insertFootnote-int-java.lang.String-}
+**退货:**
+[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
+### insertFootnote(int footnote类型, String footnoteText) {#insertFootnote-int-java.lang.String-}
 ```
-public Footnote insertFootnote(int footnoteType, String footnoteText)
+public Footnote insertFootnote(int footnote类型, String footnoteText)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnoteType | int |  |
+| footnote类型 | int |  |
 | footnoteText | java.lang.String |  |
 
-**Returns:**
+**退货:**
 [Footnote](../../com.aspose.words/footnote)
-### insertFootnote(int footnoteType, String footnoteText, String referenceMark) {#insertFootnote-int-java.lang.String-java.lang.String-}
+### insertFootnote(int footnote类型, String footnoteText, String referenceMark) {#insertFootnote-int-java.lang.String-java.lang.String-}
 ```
-public Footnote insertFootnote(int footnoteType, String footnoteText, String referenceMark)
+public Footnote insertFootnote(int footnote类型, String footnoteText, String referenceMark)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnoteType | int |  |
+| footnote类型 | int |  |
 | footnoteText | java.lang.String |  |
 | referenceMark | java.lang.String |  |
 
-**Returns:**
+**退货:**
 [Footnote](../../com.aspose.words/footnote)
 ### insertHorizontalRule() {#insertHorizontalRule--}
 ```
@@ -907,22 +907,22 @@ public Shape insertHorizontalRule()
 ```
 
 
-Inserts a horizontal rule shape into the document.
+将水平线形插入文档。
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The shape that is a horizontal rule.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 水平规则的形状。
 ### insertHtml(String html) {#insertHtml-java.lang.String-}
 ```
 public void insertHtml(String html)
 ```
 
 
-Inserts an HTML string into the document.
+在文档中插入一个 HTML 字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| html | java.lang.String | An HTML string to insert into the document. You can use this method to insert an HTML fragment or whole HTML document. |
+| html | java.lang.String | 要插入到文档中的 HTML 字符串。您可以使用此方法插入 HTML 片段或整个 HTML 文档。 |
 
 ### insertHtml(String html, boolean useBuilderFormatting) {#insertHtml-java.lang.String-boolean-}
 ```
@@ -930,19 +930,19 @@ public void insertHtml(String html, boolean useBuilderFormatting)
 ```
 
 
-Inserts an HTML string into the document.
+在文档中插入一个 HTML 字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| html | java.lang.String | An HTML string to insert into the document. |
-| useBuilderFormatting | boolean | A value indicating whether formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) is used as base formatting for text imported from HTML.
+| html | java.lang.String | 要插入到文档中的 HTML 字符串。 |
+| useBuilderFormatting | boolean | 一个值，指示是否在[DocumentBuilder](../../com.aspose.words/documentbuilder)用作从 HTML 导入的文本的基本格式。
 
-You can use this method to insert an HTML fragment or whole HTML document.
+您可以使用此方法插入 HTML 片段或整个 HTML 文档。
 
-When  useBuilderFormatting  is  false , [DocumentBuilder](../../com.aspose.words/documentbuilder) formating is ignored and formatting of inserted text is based on default HTML formatting. As a result, the text looks as it is rendered in browsers.
+当 useBuilderFormatting 为 false 时，[DocumentBuilder](../../com.aspose.words/documentbuilder)格式被忽略，插入文本的格式基于默认的 HTML 格式。因此，文本看起来就像在浏览器中呈现的一样。
 
-When  useBuilderFormatting  is  true , formatting of inserted text is based on [DocumentBuilder](../../com.aspose.words/documentbuilder) formatting, and the text looks as if it were inserted with [write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-). |
+当 useBuilderFormatting 为 true 时，插入文本的格式基于[DocumentBuilder](../../com.aspose.words/documentbuilder)格式，并且文本看起来好像是插入的[write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-). |
 
 ### insertHtml(String html, int options) {#insertHtml-java.lang.String-int-}
 ```
@@ -952,79 +952,79 @@ public void insertHtml(String html, int options)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | html | java.lang.String |  |
 | options | int |  |
 
 ### insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark) {#insertHyperlink-java.lang.String-java.lang.String-boolean-}
 ```
-public Field insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)
+public 字段 insertHyperlink(String displayText, String urlOrBookmark, boolean isBookmark)
 ```
 
 
-Inserts a hyperlink into the document.
+在文档中插入超链接。
 
-Note that you need to specify font formatting for the hyperlink display text explicitly using the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property.
+请注意，您需要使用显式指定超链接显示文本的字体格式[getFont()](../../com.aspose.words/documentbuilder\#getFont--)财产。
 
-This methods internally calls [insertField(java.lang.String)](../../com.aspose.words/documentbuilder\#insertField-java.lang.String-) to insert an MS Word HYPERLINK field into the document.
+此方法在内部调用[insert字段(java.lang.String)](../../com.aspose.words/documentbuilder\#insert字段-java.lang.String-)在文档中插入一个 MS Word HYPERLINK 字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| displayText | java.lang.String | Text of the link to be displayed in the document. |
-| urlOrBookmark | java.lang.String | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | boolean | True if the previous parameter is a name of a bookmark inside the document; false is the previous parameter is a URL. |
+| displayText | java.lang.String | 要在文档中显示的链接的文本。 |
+| urlOrBookmark | java.lang.String | 链接目的地。可以是文档中的 url 或书签的名称。此方法总是在 url 的开头和结尾添加撇号。 |
+| isBookmark | boolean | 如果前一个参数是文档中书签的名称，则为真； false 是前面的参数是一个 URL。 |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
+**退货:**
+[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
 ### insertImage(byte[] imageBytes) {#insertImage-byte---}
 ```
 public Shape insertImage(byte[] imageBytes)
 ```
 
 
-Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
+将字节数组中的图像插入到文档中。图像以 100% 的比例内嵌插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBytes | byte[] | The byte array that contains the image. |
+| imageBytes | byte[] | 包含图像的字节数组。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
 ### insertImage(byte[] imageBytes, double width, double height) {#insertImage-byte---double-double-}
 ```
 public Shape insertImage(byte[] imageBytes, double width, double height)
 ```
 
 
-Inserts an inline image from a byte array into the document and scales it to the specified size.
+将字节数组中的内联图像插入到文档中并将其缩放到指定的大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBytes | byte[] | The byte array that contains the image. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| imageBytes | byte[] | 包含图像的字节数组。 |
+| width | double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| height | double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-byte---int-double-int-double-double-double-int-}
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
+### insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertImage-byte---int-double-int-double-double-double-int-}
 ```
-public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 | horzPos | int |  |
@@ -1033,9 +1033,9 @@ public Shape insertImage(byte[] imageBytes, int horzPos, double left, int vertPo
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertImage(BufferedImage image) {#insertImage-java.awt.image.BufferedImage-}
 ```
@@ -1043,50 +1043,50 @@ public Shape insertImage(BufferedImage image)
 ```
 
 
-Inserts an image into the document.  Inserts an image from a  object into the document. The image is inserted inline and at 100% scale.
+在文档中插入图像。将对象中的图像插入到文档中。图像以 100% 的比例内嵌插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | The image to insert into the document. |
+| image | java.awt.image.BufferedImage | 要插入到文档中的图像。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
+Aspose.Words 将以 PNG 格式和默认设置插入图像。如果要插入另一种格式或其他设置的 BufferedImage，则需要将图像保存到字节数组中并使用[insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
 ### insertImage(BufferedImage image, double width, double height) {#insertImage-java.awt.image.BufferedImage-double-double-}
 ```
 public Shape insertImage(BufferedImage image, double width, double height)
 ```
 
 
-Inserts an inline image from a  object into the document and scales it to the specified size.
+将来自对象的内嵌图像插入到文档中并将其缩放到指定的大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | The image to insert into the document. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| image | java.awt.image.BufferedImage | 要插入到文档中的图像。 |
+| width | double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| height | double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
 
-Aspose.Words will insert the image in the PNG format and with default settings. If you want to insert a  BufferedImage  in another format or with other settings, you need to save the image into a byte array and use [insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
-### insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-}
+Aspose.Words 将以 PNG 格式和默认设置插入图像。如果要插入另一种格式或其他设置的 BufferedImage，则需要将图像保存到字节数组中并使用[insertImage(byte[])](../../com.aspose.words/documentbuilder\#insertImage-byte---).
+### insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertImage-java.awt.image.BufferedImage-int-double-int-double-double-double-int-}
 ```
-public Shape insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertImage(BufferedImage image, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage |  |
 | horzPos | int |  |
@@ -1095,9 +1095,9 @@ public Shape insertImage(BufferedImage image, int horzPos, double left, int vert
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertImage(InputStream stream) {#insertImage-java.io.InputStream-}
 ```
@@ -1107,12 +1107,12 @@ public Shape insertImage(InputStream stream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertImage(InputStream stream, double width, double height) {#insertImage-java.io.InputStream-double-double-}
 ```
@@ -1122,25 +1122,25 @@ public Shape insertImage(InputStream stream, double width, double height)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 | width | double |  |
 | height | double |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
-### insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.io.InputStream-int-double-int-double-double-double-int-}
+### insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertImage-java.io.InputStream-int-double-int-double-double-double-int-}
 ```
-public Shape insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertImage(InputStream stream, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 | horzPos | int |  |
@@ -1149,9 +1149,9 @@ public Shape insertImage(InputStream stream, int horzPos, double left, int vertP
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertImage(String fileName) {#insertImage-java.lang.String-}
 ```
@@ -1159,48 +1159,48 @@ public Shape insertImage(String fileName)
 ```
 
 
-Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
+将文件或 URL 中的图像插入到文档中。图像以 100% 的比例内嵌插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The file with the image. Can be any valid local or remote URI. |
+| fileName | java.lang.String | 带有图像的文件。可以是任何有效的本地或远程 URI。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-This overload will automatically download the image before inserting into the document if you specify a remote URI.
+如果您指定远程 URI，此重载将在插入文档之前自动下载图像。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
 ### insertImage(String fileName, double width, double height) {#insertImage-java.lang.String-double-double-}
 ```
 public Shape insertImage(String fileName, double width, double height)
 ```
 
 
-Inserts an inline image from a file or URL into the document and scales it to the specified size.
+将文件或 URL 中的内联图像插入到文档中，并将其缩放到指定的大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The file that contains the image. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| fileName | java.lang.String | 包含图像的文件。 |
+| width | double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| height | double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertImage-java.lang.String-int-double-int-double-double-double-int-}
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
+### insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertImage-java.lang.String-int-double-int-double-double-double-int-}
 ```
-public Shape insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertImage(String fileName, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String |  |
 | horzPos | int |  |
@@ -1209,9 +1209,9 @@ public Shape insertImage(String fileName, int horzPos, double left, int vertPos,
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertNode(Node node) {#insertNode-com.aspose.words.Node-}
 ```
@@ -1219,10 +1219,10 @@ public void insertNode(Node node)
 ```
 
 
-Inserts a node before the cursor.
+在光标前插入一个节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
@@ -1234,15 +1234,15 @@ public Shape insertOleObject(InputStream stream, String progId, boolean asIcon, 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 | progId | java.lang.String |  |
 | asIcon | boolean |  |
 | presentation | java.io.InputStream |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertOleObject(String fileName, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-boolean-boolean-java.io.InputStream-}
 ```
@@ -1252,15 +1252,15 @@ public Shape insertOleObject(String fileName, boolean isLinked, boolean asIcon, 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String |  |
 | isLinked | boolean |  |
 | asIcon | boolean |  |
 | presentation | java.io.InputStream |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertOleObject(String fileName, String progId, boolean isLinked, boolean asIcon, InputStream presentation) {#insertOleObject-java.lang.String-java.lang.String-boolean-boolean-java.io.InputStream-}
 ```
@@ -1270,8 +1270,8 @@ public Shape insertOleObject(String fileName, String progId, boolean isLinked, b
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fileName | java.lang.String |  |
 | progId | java.lang.String |  |
@@ -1279,7 +1279,7 @@ public Shape insertOleObject(String fileName, String progId, boolean isLinked, b
 | asIcon | boolean |  |
 | presentation | java.io.InputStream |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertOleObjectAsIcon(InputStream stream, String progId, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.io.InputStream-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -1289,15 +1289,15 @@ public Shape insertOleObjectAsIcon(InputStream stream, String progId, String ico
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 | progId | java.lang.String |  |
 | iconFile | java.lang.String |  |
 | iconCaption | java.lang.String |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertOleObjectAsIcon(String fileName, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-boolean-java.lang.String-java.lang.String-}
 ```
@@ -1305,75 +1305,75 @@ public Shape insertOleObjectAsIcon(String fileName, boolean isLinked, String ico
 ```
 
 
-Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using file extension.
+将嵌入或链接的 OLE 对象作为图标插入到文档中。允许指定图标文件和标题。使用文件扩展名检测 OLE 对象类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Full path to the file. |
-| isLinked | boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| fileName | java.lang.String | 文件的完整路径。 |
+| isLinked | boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
+| iconFile | java.lang.String | ICO 文件的完整路径。如果值为 null，Aspose.Words 将使用预定义的图像。 |
+| iconCaption | java.lang.String | 图标标题。如果值为 null，Aspose.Words 将使用文件名。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - Shape node containing Ole object and inserted at the current Builder position.
+**退货:**
+[Shape](../../com.aspose.words/shape) 包含 Ole 对象并插入到当前 Builder 位置的形状节点。
 ### insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption) {#insertOleObjectAsIcon-java.lang.String-java.lang.String-boolean-java.lang.String-java.lang.String-}
 ```
 public Shape insertOleObjectAsIcon(String fileName, String progId, boolean isLinked, String iconFile, String iconCaption)
 ```
 
 
-Inserts an embedded or linked OLE object as icon into the document. Allows to specify icon file and caption. Detects OLE object type using given progID parameter.
+将嵌入或链接的 OLE 对象作为图标插入到文档中。允许指定图标文件和标题。使用给定的 progID 参数检测 OLE 对象类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Full path to the file. |
-| progId | java.lang.String | ProgId of OLE object. |
-| isLinked | boolean | If true then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | java.lang.String | Full path to the ICO file. If the value is null, Aspose.Words will use a predefined image. |
-| iconCaption | java.lang.String | Icon caption. If the value is null, Aspose.Words will use the file name. |
+| fileName | java.lang.String | 文件的完整路径。 |
+| progId | java.lang.String | OLE 对象的 ProgId。 |
+| isLinked | boolean | 如果为真，则插入链接的 OLE 对象，否则插入嵌入的 OLE 对象。 |
+| iconFile | java.lang.String | ICO 文件的完整路径。如果值为 null，Aspose.Words 将使用预定义的图像。 |
+| iconCaption | java.lang.String | 图标标题。如果值为 null，Aspose.Words 将使用文件名。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - Shape node containing Ole object and inserted at the current Builder position.
+**退货:**
+[Shape](../../com.aspose.words/shape) 包含 Ole 对象并插入到当前 Builder 位置的形状节点。
 ### insertOnlineVideo(String videoUrl, double width, double height) {#insertOnlineVideo-java.lang.String-double-double-}
 ```
 public Shape insertOnlineVideo(String videoUrl, double width, double height)
 ```
 
 
-Inserts an online video object into the document and scales it to the specified size.
+将在线视频对象插入文档并将其缩放到指定大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| videoUrl | java.lang.String | The URL to the video. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| videoUrl | java.lang.String | 视频的 URL。 |
+| width | double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| height | double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
 
-Insertion of online video from the following resources is supported:
+支持从以下资源插入在线视频：
 
  *  https://www.youtube.com/
  *  https://vimeo.com/
 
-If your online video is not displaying correctly, use [insertOnlineVideo(java.lang.String, java.lang.String, byte[], double, double)](../../com.aspose.words/documentbuilder\#insertOnlineVideo-java.lang.String--java.lang.String--byte----double--double-), which accepts custom embedded html code.
+如果您的在线视频显示不正确，请使用[insertOnlineVideo(java.lang.String, java.lang.String, byte[], double, double)](../../com.aspose.words/documentbuilder\#insertOnlineVideo-java.lang.String--java.lang.String--byte----double--double-)，它接受自定义嵌入的 html 代码。
 
-The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
-### insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-}
+嵌入视频的代码可能因提供商而异，详情请咨询您选择的相应提供商。
+### insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertOnlineVideo-java.lang.String-int-double-int-double-double-double-int-}
 ```
-public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | videoUrl | java.lang.String |  |
 | horzPos | int |  |
@@ -1382,9 +1382,9 @@ public Shape insertOnlineVideo(String videoUrl, int horzPos, double left, int ve
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, double width, double height) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---double-double-}
 ```
@@ -1392,31 +1392,31 @@ public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] th
 ```
 
 
-Inserts an online video object into the document and scales it to the specified size.
+将在线视频对象插入文档并将其缩放到指定大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| videoUrl | java.lang.String | The URL to the video. |
-| videoEmbedCode | java.lang.String | The embed code for the video. |
-| thumbnailImageBytes | byte[] | The thumbnail image bytes. |
-| width | double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+| videoUrl | java.lang.String | 视频的 URL。 |
+| videoEmbedCode | java.lang.String | 视频的嵌入代码。 |
+| thumbnailImageBytes | byte[] | 缩略图图像字节。 |
+| width | double | 图像的宽度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
+| height | double | 图像的高度（以磅为单位）。可以是负值或零值以请求 100% 比例。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The image node that was just inserted.
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的图像节点。
 
-You can change the image size, location, positioning method and other settings using the [Shape](../../com.aspose.words/shape) object returned by this method.
-### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-}
+您可以使用[Shape](../../com.aspose.words/shape)此方法返回的对象。
+### insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertOnlineVideo-java.lang.String-java.lang.String-byte---int-double-int-double-double-double-int-}
 ```
-public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] thumbnailImageBytes, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | videoUrl | java.lang.String |  |
 | videoEmbedCode | java.lang.String |  |
@@ -1427,9 +1427,9 @@ public Shape insertOnlineVideo(String videoUrl, String videoEmbedCode, byte[] th
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertParagraph() {#insertParagraph--}
 ```
@@ -1437,52 +1437,52 @@ public Paragraph insertParagraph()
 ```
 
 
-Inserts a paragraph break into the document.
+在文档中插入段落分隔符。
 
-Current paragraph formatting specified by the [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) property is used.
+指定的当前段落格式[getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--)使用属性。
 
-Breaks the current paragraph in two. After inserting the paragraph, the cursor is placed at the beginning of the new paragraph.
+将当前段落一分为二。插入段落后，光标位于新段落的开头。
 
-**Returns:**
-[Paragraph](../../com.aspose.words/paragraph) - The paragraph node that was just inserted. It is the same node as [getCurrentParagraph()](../../com.aspose.words/documentbuilder\#getCurrentParagraph--).
-### insertShape(int shapeType, double width, double height) {#insertShape-int-double-double-}
+**退货:**
+[Paragraph](../../com.aspose.words/paragraph) 刚刚插入的段落节点。它是同一个节点[getCurrentParagraph()](../../com.aspose.words/documentbuilder\#getCurrentParagraph--).
+### insertShape(int shape类型, double width, double height) {#insertShape-int-double-double-}
 ```
-public Shape insertShape(int shapeType, double width, double height)
+public Shape insertShape(int shape类型, double width, double height)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | int |  |
+| shape类型 | int |  |
 | width | double |  |
 | height | double |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
-### insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertShape-int-int-double-int-double-double-double-int-}
+### insertShape(int shape类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型) {#insertShape-int-int-double-int-double-double-double-int-}
 ```
-public Shape insertShape(int shapeType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
+public Shape insertShape(int shape类型, int horzPos, double left, int vertPos, double top, double width, double height, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | int |  |
+| shape类型 | int |  |
 | horzPos | int |  |
 | left | double |  |
 | vertPos | int |  |
 | top | double |  |
 | width | double |  |
 | height | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertSignatureLine(SignatureLineOptions signatureLineOptions) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-}
 ```
@@ -1490,34 +1490,34 @@ public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions)
 ```
 
 
-Inserts a signature line at the current position.
+在当前位置插入签名行。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| signatureLineOptions | [SignatureLineOptions](../../com.aspose.words/signaturelineoptions) | The object that stores parameters of creating signature line. |
+| signatureLineOptions | [SignatureLineOptions](../../com.aspose.words/signaturelineoptions) | 存储创建签名行参数的对象。 |
 
-**Returns:**
-[Shape](../../com.aspose.words/shape) - The signature line node that was just inserted.
-### insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-}
+**退货:**
+[Shape](../../com.aspose.words/shape) - 刚刚插入的签名行节点。
+### insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrap类型) {#insertSignatureLine-com.aspose.words.SignatureLineOptions-int-double-int-double-int-}
 ```
-public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrapType)
+public Shape insertSignatureLine(SignatureLineOptions signatureLineOptions, int horzPos, double left, int vertPos, double top, int wrap类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | signatureLineOptions | [SignatureLineOptions](../../com.aspose.words/signaturelineoptions) |  |
 | horzPos | int |  |
 | left | double |  |
 | vertPos | int |  |
 | top | double |  |
-| wrapType | int |  |
+| wrap类型 | int |  |
 
-**Returns:**
+**退货:**
 [Shape](../../com.aspose.words/shape)
 ### insertStyleSeparator() {#insertStyleSeparator--}
 ```
@@ -1525,47 +1525,47 @@ public void insertStyleSeparator()
 ```
 
 
-Inserts style separator into the document. This method allows to apply different paragraph styles to two different parts of a text line.
+在文档中插入样式分隔符。此方法允许将不同的段落样式应用于文本行的两个不同部分。
 
 ### insertTableOfContents(String switches) {#insertTableOfContents-java.lang.String-}
 ```
-public Field insertTableOfContents(String switches)
+public 字段 insertTableOfContents(String switches)
 ```
 
 
-Inserts a TOC (table of contents) field into the document.
+在文档中插入一个 TOC（目录）字段。
 
-This method inserts a TOC (table of contents) field into the document at the current position.
+此方法在文档的当前位置插入一个 TOC（目录）字段。
 
-A table of contents in a Word document can be built in a number of ways and formatted using a variety of options. The way the table is built and displayed by Microsoft Word is controlled by the field switches.
+Word 文档中的目录可以通过多种方式构建，并使用多种选项进行格式化。 Microsoft Word 构建和显示表格的方式由字段开关控制。
 
-The easiest way to specify the switches is to insert and configure a table of contents into a Word document using the Insert->Reference->Index and Tables menu, then switch display of field codes on to see the switches. You can press Alt+F9 in Microsoft Word to toggle display of field codes on or off.
+指定开关的最简单方法是使用插入->参考->索引和表格菜单将目录插入和配置到 Word 文档中，然后打开域代码显示以查看开关。您可以在 Microsoft Word 中按 Alt+F9 来打开或关闭域代码的显示。
 
-For example, after creating a table of contents, the following field is inserted into the document: **\{ TOC \\o "1-3" \\h \\z \}**. You can copy **\\o "1-3" \\h \\z**  and use it as the switches parameter.
+例如，创建目录后，将以下字段插入到文档中：**\{ TOC \\o "1-3" \\h \\z \}** .你可以复制**\\o "1-3" \\h \\z**并将其用作开关参数。
 
-Note that **InsertTableOfContents** will only insert a TOC field, but will not actually build the table of contents. The table of contents is built by Microsoft Word when the field is updated.
+注意**InsertTableOfContents**只会插入一个 TOC 字段，但不会实际构建目录。更新字段时，目录由 Microsoft Word 构建。
 
-If you insert a table of contents using this method and then open the file in Microsoft Word, you will not see the table of contents because the TOC field has not yet been updated.
+如果您使用此方法插入目录，然后在 Microsoft Word 中打开文件，您将看不到目录，因为 TOC 字段尚未更新。
 
-In Microsoft Word, fields are not automatically updated when a document is opened, but you can update fields in a document at any time by pressing F9.
+在 Microsoft Word 中，打开文档时字段不会自动更新，但您可以随时按 F9 更新文档中的字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switches | java.lang.String | The TOC field switches. |
+| switches | java.lang.String | TOC 字段切换。 |
 
-**Returns:**
-[Field](../../com.aspose.words/field)
+**退货:**
+[字段](../../com.aspose.words/field)
 ### insertTextInput(String name, int type, String format, String fieldValue, int maxLength) {#insertTextInput-java.lang.String-int-java.lang.String-java.lang.String-int-}
 ```
-public FormField insertTextInput(String name, int type, String format, String fieldValue, int maxLength)
+public Form字段 insertTextInput(String name, int type, String format, String fieldValue, int maxLength)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | java.lang.String |  |
 | type | int |  |
@@ -1573,56 +1573,56 @@ public FormField insertTextInput(String name, int type, String format, String fi
 | fieldValue | java.lang.String |  |
 | maxLength | int |  |
 
-**Returns:**
-[FormField](../../com.aspose.words/formfield)
+**退货:**
+[Form字段](../../com.aspose.words/formfield)
 ### isAtEndOfParagraph() {#isAtEndOfParagraph--}
 ```
 public boolean isAtEndOfParagraph()
 ```
 
 
-Returns true if the cursor is at the end of the current paragraph.
+如果光标位于当前段落的末尾，则返回 true。
 
-**Returns:**
-boolean - True if the cursor is at the end of the current paragraph.
+**退货:**
+boolean - 如果光标位于当前段落的末尾，则为真。
 ### isAtEndOfStructuredDocumentTag() {#isAtEndOfStructuredDocumentTag--}
 ```
 public boolean isAtEndOfStructuredDocumentTag()
 ```
 
 
-Returns **true** if the cursor is at the end of a structured document tag.
+退货**true**如果光标位于结构化文档标签的末尾。
 
-**Returns:**
-boolean - **true** if the cursor is at the end of a structured document tag.
+**退货:**
+布尔值 -**true**如果光标位于结构化文档标签的末尾。
 ### isAtStartOfParagraph() {#isAtStartOfParagraph--}
 ```
 public boolean isAtStartOfParagraph()
 ```
 
 
-Returns true if the cursor is at the beginning of the current paragraph (no text before the cursor).
+如果光标位于当前段落的开头（光标前没有文本），则返回 true。
 
-**Returns:**
-boolean - True if the cursor is at the beginning of the current paragraph (no text before the cursor).
+**退货:**
+boolean - 如果光标位于当前段落的开头，则为真（光标前没有文本）。
 ### moveTo(Node node) {#moveTo-com.aspose.words.Node-}
 ```
 public void moveTo(Node node)
 ```
 
 
-Moves the cursor to an inline node or to the end of a paragraph.
+将光标移动到内联节点或段落末尾。
 
-When *node* is an inline-level node, the cursor is moved to this node and further content will be inserted before that node.
+什么时候*node*是一个内联级节点，光标移动到该节点，将在该节点之前插入更多内容。
 
-When *node* is a **Paragraph**, the cursor is moved to the end of the paragraph and further content will be inserted just before the paragraph break.
+什么时候*node*是一个**Paragraph**，光标移动到段落的末尾，更多的内容将被插入到段落分隔符之前。
 
-When *node* is a block-level node but not a Paragraph, the cursor is moved to the end of the first paragraph into block-level node and further content will be inserted just before the paragraph break.
+什么时候*node*是一个块级节点但不是一个段落，光标移动到第一个段落的末尾进入块级节点，更多的内容将在段落中断之前插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node must be a paragraph or a direct child of a paragraph. |
+| node | [Node](../../com.aspose.words/node) | 节点必须是段落或段落的直接子级。 |
 
 ### moveToBookmark(String bookmarkName) {#moveToBookmark-java.lang.String-}
 ```
@@ -1630,65 +1630,65 @@ public boolean moveToBookmark(String bookmarkName)
 ```
 
 
-Moves the cursor to a bookmark.
+将光标移动到书签。
 
-Moves the cursor to a position just after the start of the bookmark with the specified name.
+将光标移动到具有指定名称的书签开始之后的位置。
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+比较不区分大小写。如果未找到书签，则返回 false 并且不移动光标。
 
-Inserting new text does not replace existing text of the bookmark.
+插入新文本不会替换书签的现有文本。
 
-Note that some bookmarks in the document are assigned to form fields. Moving to such a bookmark and inserting text there inserts the text into the form field code. Although this will not invalidate the form field, the inserted text will not be visible because it becomes part of the field code.
+请注意，文档中的某些书签已分配给表单域。移动到这样的书签并在那里插入文本会将文本插入到表单域代码中。虽然这不会使表单域无效，但插入的文本将不可见，因为它成为域代码的一部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
+| bookmarkName | java.lang.String | 要将光标移动到的书签的名称。 |
 
-**Returns:**
-boolean - True if the bookmark was found; false otherwise.
+**退货:**
+boolean - 如果找到书签则为真；否则为假。
 ### moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter) {#moveToBookmark-java.lang.String-boolean-boolean-}
 ```
 public boolean moveToBookmark(String bookmarkName, boolean isStart, boolean isAfter)
 ```
 
 
-Moves the cursor to a bookmark with greater precision.
+以更高的精度将光标移动到书签。
 
-Moves the cursor to a position before or after the bookmark start or end.
+将光标移动到书签开始或结束之前或之后的位置。
 
-If desired position is not at inline level, moves to the next paragraph.
+如果所需位置不在行内级别，则移至下一段。
 
-The comparison is not case-sensitive. If the bookmark was not found, false is returned and the cursor is not moved.
+比较不区分大小写。如果未找到书签，则返回 false 并且不移动光标。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | The name of the bookmark to move the cursor to. |
-| isStart | boolean | When true, moves the cursor to the beginning of the bookmark. When false, moves the cursor to the end of the bookmark. |
-| isAfter | boolean | When true, moves the cursor to be after the bookmark start or end position. When false, moves the cursor to be before the bookmark start or end position. |
+| bookmarkName | java.lang.String | 要将光标移动到的书签的名称。 |
+| isStart | boolean | 如果为 true，则将光标移动到书签的开头。如果为 false，则将光标移动到书签的末尾。 |
+| isAfter | boolean | 如果为 true，则将光标移动到书签开始或结束位置之后。如果为 false，则将光标移动到书签开始或结束位置之前。 |
 
-**Returns:**
-boolean - True if the bookmark was found; false otherwise.
+**退货:**
+boolean - 如果找到书签则为真；否则为假。
 ### moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex) {#moveToCell-int-int-int-int-}
 ```
 public void moveToCell(int tableIndex, int rowIndex, int columnIndex, int characterIndex)
 ```
 
 
-Moves the cursor to a table cell in the current section.
+将光标移动到当前部分中的表格单元格。
 
-The navigation is performed inside the current story of the current section.
+导航在当前部分的当前故事内执行。
 
-For the index parameters, when index is greater than or equal to 0, it specifies an index from the beginning with 0 being the first element. When index is less than 0, it specified an index from the end with -1 being the last element.
+对于索引参数，当index大于等于0时，指定从头开始的索引，0为第一个元素。当 index 小于 0 时，它指定从末尾开始的索引，-1 是最后一个元素。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableIndex | int | The index of the table to move to. |
-| rowIndex | int | The index of the row in the table. |
-| columnIndex | int | The index of the column in the table. |
-| characterIndex | int | The index of the character inside the cell. A negative value allows you to specify a position from the end of the cell. Use -1 to move to the end of the cell. |
+| tableIndex | int | 要移动到的表的索引。 |
+| rowIndex | int | 表中行的索引。 |
+| columnIndex | int | 表中列的索引。 |
+| characterIndex | int | 单元格内字符的索引。负值允许您指定从单元格末尾开始的位置。使用 -1 移动到单元格的末尾。 |
 
 ### moveToDocumentEnd() {#moveToDocumentEnd--}
 ```
@@ -1696,7 +1696,7 @@ public void moveToDocumentEnd()
 ```
 
 
-Moves the cursor to the end of the document.
+将光标移动到文档的末尾。
 
 ### moveToDocumentStart() {#moveToDocumentStart--}
 ```
@@ -1704,86 +1704,86 @@ public void moveToDocumentStart()
 ```
 
 
-Moves the cursor to the beginning of the document.
+将光标移动到文档的开头。
 
-### moveToField(Field field, boolean isAfter) {#moveToField-com.aspose.words.Field-boolean-}
+### moveTo字段(字段 field, boolean isAfter) {#moveTo字段-com.aspose.words.字段-boolean-}
 ```
-public void moveToField(Field field, boolean isAfter)
+public void moveTo字段(字段 field, boolean isAfter)
 ```
 
 
-Moves the cursor to a field in the document.
+将光标移动到文档中的某个字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) | The field to move the cursor to. |
-| isAfter | boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
+| field | [字段](../../com.aspose.words/field) | 要将光标移动到的字段。 |
+| isAfter | boolean | 当为 true 时，将光标移动到字段结束之后。如果为 false，则将光标移动到字段开始之前。 |
 
-### moveToHeaderFooter(int headerFooterType) {#moveToHeaderFooter-int-}
+### moveToHeaderFooter(int headerFooter类型) {#moveToHeaderFooter-int-}
 ```
-public void moveToHeaderFooter(int headerFooterType)
+public void moveToHeaderFooter(int headerFooter类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | int |  |
+| headerFooter类型 | int |  |
 
-### moveToMergeField(String fieldName) {#moveToMergeField-java.lang.String-}
+### moveToMerge字段(String fieldName) {#moveToMerge字段-java.lang.String-}
 ```
-public boolean moveToMergeField(String fieldName)
+public boolean moveToMerge字段(String fieldName)
 ```
 
 
-Moves the cursor to the specified merge field.  Moves the cursor to a position just beyond the specified merge field and removes the merge field.
+将光标移动到指定的合并字段。将光标移动到刚好超出指定合并字段的位置并删除合并字段。
 
-Note that this method deletes the merge field from the document after moving the cursor.
+请注意，此方法会在移动光标后从文档中删除合并字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
+| fieldName | java.lang.String | 邮件合并字段的不区分大小写的名称。 |
 
-**Returns:**
-boolean - True if the merge field was found and the cursor was moved; false otherwise.
-### moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField) {#moveToMergeField-java.lang.String-boolean-boolean-}
+**退货:**
+boolean - 如果找到合并字段并且光标已移动，则为真；否则为假。
+### moveToMerge字段(String fieldName, boolean isAfter, boolean isDelete字段) {#moveToMerge字段-java.lang.String-boolean-boolean-}
 ```
-public boolean moveToMergeField(String fieldName, boolean isAfter, boolean isDeleteField)
+public boolean moveToMerge字段(String fieldName, boolean isAfter, boolean isDelete字段)
 ```
 
 
-Moves the merge field to the specified merge field.
+将合并字段移动到指定的合并字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldName | java.lang.String | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When true, moves the cursor to be after the field end. When false, moves the cursor to be before the field start. |
-| isDeleteField | boolean | When true, deletes the merge field. |
+| fieldName | java.lang.String | 邮件合并字段的不区分大小写的名称。 |
+| isAfter | boolean | 当为 true 时，将光标移动到字段结束之后。如果为 false，则将光标移动到字段开始之前。 |
+| isDelete字段 | boolean | 如果为 true，则删除合并字段。 |
 
-**Returns:**
-boolean - True if the merge field was found and the cursor was moved; false otherwise.
+**退货:**
+boolean - 如果找到合并字段并且光标已移动，则为真；否则为假。
 ### moveToParagraph(int paragraphIndex, int characterIndex) {#moveToParagraph-int-int-}
 ```
 public void moveToParagraph(int paragraphIndex, int characterIndex)
 ```
 
 
-Moves the cursor to a paragraph in the current section.
+将光标移动到当前节中的段落。
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then paragraphIndex specified the index of the paragraph inside that header of that section.
+导航在当前部分的当前故事内执行。也就是说，如果您将光标移动到第一节的主标题，则paragraphIndex 指定该节的该标题内的段落索引。
 
-When paragraphIndex is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first paragraph. When paragraphIndex is less than 0, it specified an index from the end of the section with -1 being the last paragraph.
+当paragraphIndex 大于或等于0 时，它指定从section 开始的索引，0 是第一个段落。当paragraphIndex 小于0 时，它指定从节末尾开始的索引，-1 是最后一个段落。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| paragraphIndex | int | The index of the paragraph to move to. |
-| characterIndex | int | The index of the character inside the paragraph. A negative value allows you to specify a position from the end of the paragraph. Use -1 to move to the end of the paragraph. |
+| paragraphIndex | int | 要移动到的段落的索引。 |
+| characterIndex | int | 段落内字符的索引。负值允许您指定从段落末尾开始的位置。使用 -1 移动到段落的末尾。 |
 
 ### moveToSection(int sectionIndex) {#moveToSection-int-}
 ```
@@ -1791,16 +1791,16 @@ public void moveToSection(int sectionIndex)
 ```
 
 
-Moves the cursor to the beginning of the body in a specified section.
+将光标移动到指定部分的正文开头。
 
-When sectionIndex is greater than or equal to 0, it specifies an index from the beginning of the document with 0 being the first section. When sectionIndex is less than 0, it specified an index from the end of the document with -1 being the last section.
+当 sectionIndex 大于或等于 0 时，它指定从文档开头开始的索引，其中 0 为第一节。当 sectionIndex 小于 0 时，它指定从文档末尾开始的索引，-1 是最后一个部分。
 
-The cursor is moved to the first paragraph in the **Body** of the specified section.
+光标移动到第一段**Body**的指定部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sectionIndex | int | The index of the section to move to. |
+| sectionIndex | int | 要移动到的部分的索引。 |
 
 ### moveToStructuredDocumentTag(StructuredDocumentTag structuredDocumentTag, int characterIndex) {#moveToStructuredDocumentTag-com.aspose.words.StructuredDocumentTag-int-}
 ```
@@ -1808,13 +1808,13 @@ public void moveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 ```
 
 
-Moves the cursor to the structured document tag.
+将光标移动到结构化文档标签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| structuredDocumentTag | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | The structured document tag to move to. |
-| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
+| structuredDocumentTag | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | 要移动到的结构化文档标签。 |
+| characterIndex | int | 结构化文档标签内字符的索引。负值允许您指定从结构化文档标签末尾开始的位置。使用 -1 移动到结构化文档标签的末尾。如果结构化文档标记处于块级别，并且您要将光标移动到其最后一段的末尾，请指定 -2。 |
 
 ### moveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex) {#moveToStructuredDocumentTag-int-int-}
 ```
@@ -1822,17 +1822,17 @@ public void moveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 ```
 
 
-Moves the cursor to a structured document tag in the current section.
+将光标移动到当前部分中的结构化文档标签。
 
-The navigation is performed inside the current story of the current section. That is, if you moved the cursor to the primary header of the first section, then  structuredDocumentTagIndex  specified the index of the structured document tag inside that header of that section.
+导航在当前部分的当前故事内执行。也就是说，如果您将光标移动到第一节的主标题，那么structuredDocumentTagIndex 指定了该节标题内的结构化文档标签的索引。
 
-When  structuredDocumentTagIndex  is greater than or equal to 0, it specifies an index from the beginning of the section with 0 being the first structured document tag. When  structuredDocumentTagIndex  is less than 0, it specified an index from the end of the section with -1 being the last structured document tag.
+当structuredDocumentTagIndex 大于或等于0 时，它指定从节开头开始的索引，其中0 是第一个结构化文档标签。当structuredDocumentTagIndex 小于0 时，它指定从节末尾开始的索引，-1 是最后一个结构化文档标记。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| structuredDocumentTagIndex | int | The index of the structured document tag to move to. |
-| characterIndex | int | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
+| structuredDocumentTagIndex | int | 要移动到的结构化文档标签的索引。 |
+| characterIndex | int | 结构化文档标签内字符的索引。负值允许您指定从结构化文档标签末尾开始的位置。使用 -1 移动到结构化文档标签的末尾。如果结构化文档标记处于块级别，并且您要将光标移动到其最后一段的末尾，请指定 -2。 |
 
 ### notify() {#notify--}
 ```
@@ -1856,7 +1856,7 @@ public void popFont()
 ```
 
 
-Retrieves character formatting previously saved on the stack.
+检索以前保存在堆栈中的字符格式。
 
 ### pushFont() {#pushFont--}
 ```
@@ -1864,7 +1864,7 @@ public void pushFont()
 ```
 
 
-Saves current character formatting onto the stack.
+将当前字符格式保存到堆栈中。
 
 ### removeRunAttr(int key) {#removeRunAttr-int-}
 ```
@@ -1874,8 +1874,8 @@ public void removeRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
@@ -1893,12 +1893,12 @@ public void setBold(boolean value)
 ```
 
 
-True if the font is formatted as bold.
+如果字体格式为粗体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object-}
 ```
@@ -1908,8 +1908,8 @@ public void setCellAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1920,12 +1920,12 @@ public void setDocument(Document value)
 ```
 
 
-Sets the [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to.
+设置[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Document](../../com.aspose.words/document) | The [getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-) object that this object is attached to. |
+| value | [Document](../../com.aspose.words/document) | 这[getDocument()](../../com.aspose.words/documentbuilder\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/documentbuilder\#setDocument-com.aspose.words.Document-)此对象附加到的对象。 |
 
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
@@ -1933,12 +1933,12 @@ public void setItalic(boolean value)
 ```
 
 
-True if the font is formatted as italic.
+如果字体格式为斜体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object-}
 ```
@@ -1948,8 +1948,8 @@ public void setRowAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1962,8 +1962,8 @@ public void setRunAttr(int fontAttr, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontAttr | int |  |
 | value | java.lang.Object |  |
@@ -1974,12 +1974,12 @@ public void setUnderline(int value)
 ```
 
 
-Gets/sets underline type for the current font.
+获取/设置当前字体的下划线类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [Underline](../../com.aspose.words/underline) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[Underline](../../com.aspose.words/underline)常数。 |
 
 ### startBookmark(String bookmarkName) {#startBookmark-java.lang.String-}
 ```
@@ -1987,68 +1987,68 @@ public BookmarkStart startBookmark(String bookmarkName)
 ```
 
 
-Marks the current position in the document as a bookmark start.
+将文档中的当前位置标记为书签开始。
 
-Bookmarks in a document can overlap and span any range. To create a valid bookmark you need to call both [startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-) and [endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要同时调用[startBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startBookmark-java.lang.String-)和[endBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endBookmark-java.lang.String-)同**bookmarkName**范围。
 
-Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
+| bookmarkName | java.lang.String | 书签的名称。 |
 
-**Returns:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart) - The bookmark start node that was just created.
+**退货:**
+[BookmarkStart](../../com.aspose.words/bookmarkstart) 刚刚创建的书签开始节点。
 ### startColumnBookmark(String bookmarkName) {#startColumnBookmark-java.lang.String-}
 ```
 public BookmarkStart startColumnBookmark(String bookmarkName)
 ```
 
 
-Marks the current position in the document as a column bookmark start. The position must be in a table cell.
+将文档中的当前位置标记为列书签开始。该位置必须在表格单元格中。
 
-A column bookmark covers one or more columns in a range of rows. To create a valid bookmark you need to call both [startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-) and [endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-) with the same **bookmarkName** parameter.
+列书签涵盖一系列行中的一个或多个列。要创建有效的书签，您需要同时调用[startColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#startColumnBookmark-java.lang.String-)和[endColumnBookmark(java.lang.String)](../../com.aspose.words/documentbuilder\#endColumnBookmark-java.lang.String-)同**bookmarkName**范围。
 
-Badly formed bookmarks or bookmarks with duplicate names will be ignored when the document is saved.
+保存文档时将忽略格式错误的书签或具有重复名称的书签。
 
-The actual position of the inserted [BookmarkStart](../../com.aspose.words/bookmarkstart) node may differ from the current document builder position.
+插入的实际位置[BookmarkStart](../../com.aspose.words/bookmarkstart)节点可能与当前文档构建器位置不同。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkName | java.lang.String | Name of the bookmark. |
+| bookmarkName | java.lang.String | 书签的名称。 |
 
-**Returns:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart) - The bookmark start node that was just created.
+**退货:**
+[BookmarkStart](../../com.aspose.words/bookmarkstart) 刚刚创建的书签开始节点。
 ### startEditableRange() {#startEditableRange--}
 ```
 public EditableRangeStart startEditableRange()
 ```
 
 
-Marks the current position in the document as an editable range start.
+将文档中的当前位置标记为可编辑范围开始。
 
-Editable range in a document can overlap and span any range. To create a valid editable range you need to call both [startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--) and [endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--) or [endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-) methods.
+文档中的可编辑范围可以重叠并跨越任何范围。要创建有效的可编辑范围，您需要同时调用[startEditableRange()](../../com.aspose.words/documentbuilder\#startEditableRange--)和[endEditableRange()](../../com.aspose.words/documentbuilder\#endEditableRange--)或者[endEditableRange(com.aspose.words.EditableRangeStart)](../../com.aspose.words/documentbuilder\#endEditableRange-com.aspose.words.EditableRangeStart-)方法。
 
-Badly formed editable range will be ignored when the document is saved.
+保存文档时将忽略格式错误的可编辑范围。
 
-**Returns:**
-[EditableRangeStart](../../com.aspose.words/editablerangestart) - The editable range start node that was just created.
+**退货:**
+[EditableRangeStart](../../com.aspose.words/editablerangestart) - 刚刚创建的可编辑范围起始节点。
 ### startTable() {#startTable--}
 ```
 public Table startTable()
 ```
 
 
-Starts a table in the document.
+在文档中启动一个表格。
 
-The next method to call is [insertCell()](../../com.aspose.words/documentbuilder\#insertCell--).
+下一个调用方法是[insertCell()](../../com.aspose.words/documentbuilder\#insertCell--).
 
-This method starts a nested table when called inside a cell.
+此方法在单元格内调用时会启动一个嵌套表。
 
-**Returns:**
-[Table](../../com.aspose.words/table) - The table node that was just created.
+**退货:**
+[Table](../../com.aspose.words/table) - 刚刚创建的表节点。
 ### toString() {#toString--}
 ```
 public String toString()
@@ -2057,7 +2057,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -2075,8 +2075,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -2088,8 +2088,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
@@ -2100,12 +2100,12 @@ public void write(String text)
 ```
 
 
-Inserts a string into the document at the current insert position. Current font formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) property is used.
+在文档的当前插入位置插入一个字符串。指定的当前字体格式[getFont()](../../com.aspose.words/documentbuilder\#getFont--)使用属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | java.lang.String | The string to insert into the document. |
+| text | java.lang.String | 要插入到文档中的字符串。 |
 
 ### writeln() {#writeln--}
 ```
@@ -2113,9 +2113,9 @@ public void writeln()
 ```
 
 
-Inserts a paragraph break into the document.
+在文档中插入段落分隔符。
 
-Calls [insertParagraph()](../../com.aspose.words/documentbuilder\#insertParagraph--).
+来电[insertParagraph()](../../com.aspose.words/documentbuilder\#insertParagraph--).
 
 ### writeln(String text) {#writeln-java.lang.String-}
 ```
@@ -2123,10 +2123,9 @@ public void writeln(String text)
 ```
 
 
-Inserts a string and a paragraph break into the document. Current font and paragraph formatting specified by the [getFont()](../../com.aspose.words/documentbuilder\#getFont--) and [getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--) properties are used.
+在文档中插入一个字符串和一个段落分隔符。指定的当前字体和段落格式[getFont()](../../com.aspose.words/documentbuilder\#getFont--)和[getParagraphFormat()](../../com.aspose.words/documentbuilder\#getParagraphFormat--)使用属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | java.lang.String | The string to insert into the document. |
-
+| text | java.lang.String | 要插入到文档中的字符串。 |

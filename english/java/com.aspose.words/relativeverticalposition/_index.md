@@ -1,41 +1,41 @@
 ---
 title: RelativeVerticalPosition
-second_title: Aspose.Words for Java API Reference
-description: Specifies to what the vertical position of a shape or text frame is relative.
+second_title: Aspose.Words for Java API 参考
+description: 指定形状或文本框的垂直位置是相对的。
 type: docs
 weight: 474
-url: /java/com.aspose.words/relativeverticalposition/
+url: /zh/java/com.aspose.words/relativeverticalposition/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class RelativeVerticalPosition
 ```
 
-Specifies to what the vertical position of a shape or text frame is relative.
-## Fields
+指定形状或文本框的垂直位置是相对的。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTTOM_MARGIN](#BOTTOM-MARGIN) | Specifies that the vertical positioning shall be relative to the bottom margin of the current page. |
-| [INSIDE_MARGIN](#INSIDE-MARGIN) | Specifies that the vertical positioning shall be relative to the inside margin of the current page. |
-| [LINE](#LINE) | Undocumented. |
-| [MARGIN](#MARGIN) | Specifies that the vertical positioning shall be relative to the page margins. |
-| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Specifies that the vertical positioning shall be relative to the outside margin of the current page. |
-| [PAGE](#PAGE) | The object is positioned relative to the top edge of the page. |
-| [PARAGRAPH](#PARAGRAPH) | The object is positioned relative to the top of the paragraph that contains the anchor. |
-| [TABLE_DEFAULT](#TABLE-DEFAULT) | Default value is [MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN). |
-| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH). |
-| [TOP_MARGIN](#TOP-MARGIN) | Specifies that the vertical positioning shall be relative to the top margin of the current page. |
+| [BOTTOM_MARGIN](#BOTTOM-MARGIN) | 指定垂直定位应相对于当前页面的下边距。 |
+| [INSIDE_MARGIN](#INSIDE-MARGIN) | 指定垂直定位应相对于当前页面的内边距。 |
+| [LINE](#LINE) | 无证。 |
+| [MARGIN](#MARGIN) | 指定垂直定位应相对于页边距。 |
+| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | 指定垂直定位应相对于当前页面的外边距。 |
+| [PAGE](#PAGE) | 该对象相对于页面的上边缘定位。 |
+| [PARAGRAPH](#PARAGRAPH) | 该对象相对于包含锚点的段落的顶部定位。 |
+| [TABLE_DEFAULT](#TABLE-DEFAULT) | 默认值为[MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN). |
+| [TEXT_FRAME_DEFAULT](#TEXT-FRAME-DEFAULT) | 默认值为[PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH). |
+| [TOP_MARGIN](#TOP-MARGIN) | 指定垂直定位应相对于当前页面的上边距。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String relativeVerticalPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int relativeVerticalPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BOTTOM_MARGIN
 ```
 
 
-Specifies that the vertical positioning shall be relative to the bottom margin of the current page.
+指定垂直定位应相对于当前页面的下边距。
 
 ### INSIDE_MARGIN {#INSIDE-MARGIN}
 ```
@@ -60,7 +60,7 @@ public static int INSIDE_MARGIN
 ```
 
 
-Specifies that the vertical positioning shall be relative to the inside margin of the current page.
+指定垂直定位应相对于当前页面的内边距。
 
 ### LINE {#LINE}
 ```
@@ -68,7 +68,7 @@ public static int LINE
 ```
 
 
-Undocumented.
+无证。
 
 ### MARGIN {#MARGIN}
 ```
@@ -76,7 +76,7 @@ public static int MARGIN
 ```
 
 
-Specifies that the vertical positioning shall be relative to the page margins.
+指定垂直定位应相对于页边距。
 
 ### OUTSIDE_MARGIN {#OUTSIDE-MARGIN}
 ```
@@ -84,7 +84,7 @@ public static int OUTSIDE_MARGIN
 ```
 
 
-Specifies that the vertical positioning shall be relative to the outside margin of the current page.
+指定垂直定位应相对于当前页面的外边距。
 
 ### PAGE {#PAGE}
 ```
@@ -92,7 +92,7 @@ public static int PAGE
 ```
 
 
-The object is positioned relative to the top edge of the page.
+该对象相对于页面的上边缘定位。
 
 ### PARAGRAPH {#PARAGRAPH}
 ```
@@ -100,7 +100,7 @@ public static int PARAGRAPH
 ```
 
 
-The object is positioned relative to the top of the paragraph that contains the anchor.
+该对象相对于包含锚点的段落的顶部定位。
 
 ### TABLE_DEFAULT {#TABLE-DEFAULT}
 ```
@@ -108,7 +108,7 @@ public static int TABLE_DEFAULT
 ```
 
 
-Default value is [MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+默认值为[MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
 
 ### TEXT_FRAME_DEFAULT {#TEXT-FRAME-DEFAULT}
 ```
@@ -116,7 +116,7 @@ public static int TEXT_FRAME_DEFAULT
 ```
 
 
-Default value is [PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+默认值为[PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
 
 ### TOP_MARGIN {#TOP-MARGIN}
 ```
@@ -124,7 +124,7 @@ public static int TOP_MARGIN
 ```
 
 
-Specifies that the vertical positioning shall be relative to the top margin of the current page.
+指定垂直定位应相对于当前页面的上边距。
 
 ### length {#length}
 ```
@@ -140,13 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String relativeVerticalPositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String relativeVerticalPositionName)
@@ -155,23 +155,23 @@ public static int fromName(String relativeVerticalPositionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | relativeVerticalPositionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int relativeVerticalPosition) {#getName-int-}
 ```
 public static String getName(int relativeVerticalPosition)
@@ -180,12 +180,12 @@ public static String getName(int relativeVerticalPosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | relativeVerticalPosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -195,8 +195,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -231,7 +231,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int relativeVerticalPosition) {#toString-int-}
 ```
@@ -241,12 +241,12 @@ public static String toString(int relativeVerticalPosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | relativeVerticalPosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,9 +277,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

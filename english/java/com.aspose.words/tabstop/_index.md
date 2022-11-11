@@ -1,50 +1,50 @@
 ---
 title: TabStop
 second_title: Aspose.Words for Java API Reference
-description: Represents a single custom tab stop.
+description: 表示单个自定义制表位。
 type: docs
 weight: 546
-url: /java/com.aspose.words/tabstop/
+url: /zh/java/com.aspose.words/tabstop/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class TabStop implements Cloneable
 ```
 
-Represents a single custom tab stop. The **TabStop** object is a member of the [TabStopCollection](../../com.aspose.words/tabstopcollection) collection.
+表示单个自定义制表位。这**TabStop**对象是[TabStopCollection](../../com.aspose.words/tabstopcollection)收藏。
 
-To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
+要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
-Normally, a tab stop specifies a position where a tab stop exists. But because tab stops can be inherited from parent styles, it might be needed for the child object to define explicitly that there is no tab stop at a given position. To clear an inherited tab stop at a given position, create a **TabStop** object and set [getAlignment()](../../com.aspose.words/tabstop\#getAlignment--) / [setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int-) to  TabAlignment.Clear .
+通常，制表位指定制表位存在的位置。但是因为制表位可以从父样式继承，所以子对象可能需要明确定义在给定位置没有制表位。要清除给定位置的继承制表位，请创建一个**TabStop**对象和集合[getAlignment()](../../com.aspose.words/tabstop\#getAlignment--) / [setAlignment(int)](../../com.aspose.words/tabstop\#setAlignment-int-)到 TabAlignment.Clear 。
 
-For more information see [TabStopCollection](../../com.aspose.words/tabstopcollection).
-## Constructors
+有关更多信息，请参阅[TabStopCollection](../../com.aspose.words/tabstopcollection).
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [TabStop(double position)](#TabStop-double-) | Initializes a new instance of this class. |
-| [TabStop(double position, int alignment, int leader)](#TabStop-double-int-int-) | Initializes a new instance of this class. |
-## Methods
+| [TabStop(double position)](#TabStop-double-) | 初始化此类的新实例。 |
+| [TabStop(double position, int alignment, int leader)](#TabStop-double-int-int-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop-) | Compares with the specified TabStop. |
+| [equals(TabStop rhs)](#equals-com.aspose.words.TabStop-) | 与指定的 TabStop 进行比较。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignment()](#getAlignment--) | Gets the alignment of text at this tab stop. |
-| [getClass()](#getClass--) |  |
-| [getLeader()](#getLeader--) | Gets the type of the leader line displayed under the tab character. |
-| [getPosition()](#getPosition--) | Gets the position of the tab stop in points. |
+| [getAlignment()](#getAlignment--) | 获取此制表位处的文本对齐方式。 |
+| [get班级()](#get班级--) |  |
+| [getLeader()](#getLeader--) | 获取制表符下显示的引导线类型。 |
+| [getPosition()](#getPosition--) | 获取制表位的位置（以磅为单位）。 |
 | [hashCode()](#hashCode--) |  |
-| [isClear()](#isClear--) | Returns true if this tab stop clears any existing tab stops in this position. |
+| [isClear()](#isClear--) | 如果此制表位清除此位置的任何现有制表位，则返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | Sets the alignment of text at this tab stop. |
-| [setLeader(int value)](#setLeader-int-) | Sets the type of the leader line displayed under the tab character. |
+| [setAlignment(int value)](#setAlignment-int-) | 设置此制表位处的文本对齐方式。 |
+| [setLeader(int value)](#setLeader-int-) | 设置制表符下显示的引线类型。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,10 +55,10 @@ public TabStop(double position)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | position | double |  |
 
@@ -68,10 +68,10 @@ public TabStop(double position, int alignment, int leader)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | position | double |  |
 | alignment | int |  |
@@ -83,15 +83,15 @@ public boolean equals(TabStop rhs)
 ```
 
 
-Compares with the specified TabStop.
+与指定的 TabStop 进行比较。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | rhs | [TabStop](../../com.aspose.words/tabstop) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -100,53 +100,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
 ```
 
 
-Gets the alignment of text at this tab stop.
+获取此制表位处的文本对齐方式。
 
-**Returns:**
-int - The alignment of text at this tab stop. The returned value is one of [TabAlignment](../../com.aspose.words/tabalignment) constants.
-### getClass() {#getClass--}
+**退货:**
+int - 此制表位处的文本对齐方式。返回值是以下之一[TabAlignment](../../com.aspose.words/tabalignment)常数。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLeader() {#getLeader--}
 ```
 public int getLeader()
 ```
 
 
-Gets the type of the leader line displayed under the tab character.
+获取制表符下显示的引导线类型。
 
-**Returns:**
-int - The type of the leader line displayed under the tab character. The returned value is one of [TabLeader](../../com.aspose.words/tableader) constants.
+**退货:**
+int - 制表符下显示的引导线类型。返回值是以下之一[TabLeader](../../com.aspose.words/tableader)常数。
 ### getPosition() {#getPosition--}
 ```
 public double getPosition()
 ```
 
 
-Gets the position of the tab stop in points.
+获取制表位的位置（以磅为单位）。
 
-**Returns:**
-double - The position of the tab stop in points.
+**退货:**
+double - 制表位的位置，以磅为单位。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -155,18 +155,18 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isClear() {#isClear--}
 ```
 public boolean isClear()
 ```
 
 
-Returns true if this tab stop clears any existing tab stops in this position.
+如果此制表位清除此位置的任何现有制表位，则返回 true。
 
-**Returns:**
-boolean - True if this tab stop clears any existing tab stops in this position.
+**退货:**
+boolean - 如果此制表位清除此位置的任何现有制表位，则为真。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -189,12 +189,12 @@ public void setAlignment(int value)
 ```
 
 
-Sets the alignment of text at this tab stop.
+设置此制表位处的文本对齐方式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The alignment of text at this tab stop. The value must be one of [TabAlignment](../../com.aspose.words/tabalignment) constants. |
+| value | int | 此制表位处的文本对齐方式。该值必须是以下之一[TabAlignment](../../com.aspose.words/tabalignment)常数。 |
 
 ### setLeader(int value) {#setLeader-int-}
 ```
@@ -202,12 +202,12 @@ public void setLeader(int value)
 ```
 
 
-Sets the type of the leader line displayed under the tab character.
+设置制表符下显示的引线类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The type of the leader line displayed under the tab character. The value must be one of [TabLeader](../../com.aspose.words/tableader) constants. |
+| value | int | 制表符下方显示的引线类型。该值必须是以下之一[TabLeader](../../com.aspose.words/tableader)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -217,7 +217,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -235,8 +235,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -248,9 +248,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

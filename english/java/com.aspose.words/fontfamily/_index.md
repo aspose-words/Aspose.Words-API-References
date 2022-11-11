@@ -1,39 +1,39 @@
 ---
 title: FontFamily
-second_title: Aspose.Words for Java API Reference
-description: Represents the font family.
+second_title: Aspose.Words for Java API 参考
+description: 表示字体系列。
 type: docs
 weight: 278
-url: /java/com.aspose.words/fontfamily/
+url: /zh/java/com.aspose.words/fontfamily/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class FontFamily
 ```
 
-Represents the font family.
+表示字体系列。
 
-A font family is a set of fonts having common stroke width and serif characteristics.
-## Fields
+字体系列是一组具有共同笔画宽度和衬线特征的字体。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AUTO](#AUTO) | Specifies a generic family name. |
-| [DECORATIVE](#DECORATIVE) | Specifies a novelty font. |
-| [MODERN](#MODERN) | Specifies a monospace font with or without serifs. |
-| [ROMAN](#ROMAN) | Specifies a proportional font with serifs. |
-| [SCRIPT](#SCRIPT) | Specifies a font that is designed to look like handwriting; examples include Script and Cursive. |
-| [SWISS](#SWISS) | Specifies a proportional font without serifs. |
+| [AUTO](#AUTO) | 指定通用家族名称。 |
+| [DECORATIVE](#DECORATIVE) | 指定新奇字体。 |
+| [MODERN](#MODERN) | 指定带或不带衬线的等宽字体。 |
+| [ROMAN](#ROMAN) | 指定带衬线的比例字体。 |
+| [SCRIPT](#SCRIPT) | 指定一种设计为看起来像手写的字体；示例包括脚本和草书。 |
+| [SWISS](#SWISS) | 指定不带衬线的比例字体。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontFamilyName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int fontFamily)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public static int AUTO
 ```
 
 
-Specifies a generic family name. This name is used when information about a font does not exist or does not matter. The default font is used.
+指定通用家族名称。当有关字体的信息不存在或无关紧要时使用此名称。使用默认字体。
 
 ### DECORATIVE {#DECORATIVE}
 ```
@@ -58,7 +58,7 @@ public static int DECORATIVE
 ```
 
 
-Specifies a novelty font. An example is Old English.
+指定新奇字体。一个例子是古英语。
 
 ### MODERN {#MODERN}
 ```
@@ -66,7 +66,7 @@ public static int MODERN
 ```
 
 
-Specifies a monospace font with or without serifs. Monospace fonts are usually modern; examples include Pica, Elite, and Courier New.
+指定带或不带衬线的等宽字体。等宽字体通常是现代的；示例包括 Pica、Elite 和 Courier New。
 
 ### ROMAN {#ROMAN}
 ```
@@ -74,7 +74,7 @@ public static int ROMAN
 ```
 
 
-Specifies a proportional font with serifs. An example is Times New Roman.
+指定带衬线的比例字体。一个例子是Times New Roman。
 
 ### SCRIPT {#SCRIPT}
 ```
@@ -82,7 +82,7 @@ public static int SCRIPT
 ```
 
 
-Specifies a font that is designed to look like handwriting; examples include Script and Cursive.
+指定一种设计为看起来像手写的字体；示例包括脚本和草书。
 
 ### SWISS {#SWISS}
 ```
@@ -90,7 +90,7 @@ public static int SWISS
 ```
 
 
-Specifies a proportional font without serifs. An example is Arial.
+指定不带衬线的比例字体。一个例子是 Arial。
 
 ### length {#length}
 ```
@@ -106,13 +106,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String fontFamilyName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String fontFamilyName)
@@ -121,23 +121,23 @@ public static int fromName(String fontFamilyName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFamilyName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int fontFamily) {#getName-int-}
 ```
 public static String getName(int fontFamily)
@@ -146,12 +146,12 @@ public static String getName(int fontFamily)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFamily | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -161,8 +161,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -171,8 +171,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -197,7 +197,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int fontFamily) {#toString-int-}
 ```
@@ -207,12 +207,12 @@ public static String toString(int fontFamily)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontFamily | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -230,8 +230,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -243,9 +243,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

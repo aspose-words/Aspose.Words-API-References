@@ -1,65 +1,65 @@
 ---
 title: IMailMergeDataSource
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface to allow mail merge from a custom data source such as a list of objects.
+second_title: Aspose.Words for Java API 参考
+description: 实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。
 type: docs
 weight: 650
-url: /java/com.aspose.words/imailmergedatasource/
+url: /zh/java/com.aspose.words/imailmergedatasource/
 ---
 ```
 public interface IMailMergeDataSource
 ```
 
-Implement this interface to allow mail merge from a custom data source, such as a list of objects. Master-detail data is also supported.
+实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。还支持主从数据。
 
-When a data source is created, it should be initialized to point to BOF (before the first record). The Aspose.Words mail merge engine will invoke [moveNext()](../../com.aspose.words/imailmergedatasource\#moveNext--) to advance to next record and then invoke **M:Aspose.Words.MailMerging.IMailMergeDataSource.GetValue(System.String,System.Object@)** for every merge field it encounters in the document or the current mail merge region.
-## Methods
+创建数据源时，应将其初始化为指向 BOF（在第一条记录之前）。 Aspose.Words 邮件合并引擎将调用[moveNext()](../../com.aspose.words/imailmergedatasource\#moveNext--)前进到下一条记录，然后调用**M:Aspose.Words.MailMerging.IMailMergeDataSource.GetValue(System.String,System.Object@)**对于它在文档或当前邮件合并区域中遇到的每个合并字段。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [getChildDataSource(String tableName)](#getChildDataSource-java.lang.String-) | The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region. |
-| [getTableName()](#getTableName--) | Returns the name of the data source. |
+| [getChildDataSource(String tableName)](#getChildDataSource-java.lang.String-) | Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法。 |
+| [getTableName()](#getTableName--) | 返回数据源的名称。 |
 | [getValue(String fieldName, Ref fieldValue)](#getValue-java.lang.String-com.aspose.words.ref.Ref-) |  |
-| [moveNext()](#moveNext--) | Advances to the next record in the data source. |
+| [moveNext()](#moveNext--) | 前进到数据源中的下一条记录。 |
 ### getChildDataSource(String tableName) {#getChildDataSource-java.lang.String-}
 ```
 public abstract IMailMergeDataSource getChildDataSource(String tableName)
 ```
 
 
-The Aspose.Words mail merge engine invokes this method when it encounters a beginning of a nested mail merge region.
+Aspose.Words 邮件合并引擎在遇到嵌套邮件合并区域的开头时调用此方法。
 
-When the Aspose.Words mail merge engines populates a mail merge region with data and encounters the beginning of a nested mail merge region in the form of MERGEFIELD TableStart:TableName, it invokes [getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-) on the current data source object. Your implementation needs to return a new data source object that will provide access to the child records of the current parent record. Aspose.Words will use the returned data source to populate the nested mail merge region.
+当 Aspose.Words 邮件合并引擎用数据填充邮件合并区域并遇到 MERGEFIELD TableStart:TableName 形式的嵌套邮件合并区域的开头时，它调用[getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-)在当前数据源对象上。您的实现需要返回一个新的数据源对象，该对象将提供对当前父记录的子记录的访问。 Aspose.Words 将使用返回的数据源来填充嵌套的邮件合并区域。
 
-Below are the rules that the implementation of [getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-) must follow.
+以下是执行的规则[getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-)必须遵循。
 
-If the table that is represented by this data source object has a related child (detail) table with the specified name, then your implementation needs to return a new [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) object that will provide access to the child records of the current record. An example of this is Orders / OrderDetails relationship. Let's assume that the current [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) object represents the Orders table and it has a current order record. Next, Aspose.Words encounters "MERGEFIELD TableStart:OrderDetails" in the document and invokes [getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-). You need to create and return a [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) object that will allow Aspose.Words to access the OrderDetails record for the current order.
+如果此数据源对象表示的表有一个具有指定名称的相关子（明细）表，那么您的实现需要返回一个新的[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)对象，它将提供对当前记录的子记录的访问。一个例子是 Orders / OrderDetails 关系。我们假设当前[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)object 表示 Orders 表，它有一个当前的订单记录。接下来，Aspose.Words 在文档中遇到“MERGEFIELD TableStart:OrderDetails”并调用[getChildDataSource(java.lang.String)](../../com.aspose.words/imailmergedatasource\#getChildDataSource-java.lang.String-).您需要创建并返回一个[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)允许 Aspose.Words 访问当前订单的 OrderDetails 记录的对象。
 
-If this data source object does not have a relation to the table with the specified name, then you need to return a [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) object that will provide access to all records of the specified table.
+如果此数据源对象与指定名称的表没有关系，则需要返回一个[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)对象，它将提供对指定表的所有记录的访问。
 
-If a table with the specified name does not exist, your implementation should return  null .
+如果具有指定名称的表不存在，您的实现应返回 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tableName | java.lang.String | The name of the mail merge region as specified in the template document. Case-insensitive. |
+| tableName | java.lang.String | 模板文档中指定的邮件合并区域的名称。不区分大小写。 |
 
-**Returns:**
-[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) - A data source object that will provide access to the data records of the specified table.
+**退货:**
+[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource) - 将提供对指定表的数据记录的访问的数据源对象。
 ### getTableName() {#getTableName--}
 ```
 public abstract String getTableName()
 ```
 
 
-Returns the name of the data source.
+返回数据源的名称。
 
-If you are implementing [IMailMergeDataSource](../../com.aspose.words/imailmergedatasource), return the name of the data source from this property.
+如果您正在实施[IMailMergeDataSource](../../com.aspose.words/imailmergedatasource)，从该属性返回数据源的名称。
 
-Aspose.Words uses this name to match against the mail merge region name specified in the template document. The comparison between the data source name and the mail merge region name is not case sensitive.
+Aspose.Words 使用此名称来匹配模板文档中指定的邮件合并区域名称。数据源名称和邮件合并区域名称之间的比较不区分大小写。
 
-**Returns:**
-java.lang.String - The name of the data source. Empty string if the data source has no name.
+**退货:**
+java.lang.String - 数据源的名称。如果数据源没有名称，则为空字符串。
 ### getValue(String fieldName, Ref fieldValue) {#getValue-java.lang.String-com.aspose.words.ref.Ref-}
 ```
 public abstract boolean getValue(String fieldName, Ref fieldValue)
@@ -68,21 +68,21 @@ public abstract boolean getValue(String fieldName, Ref fieldValue)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fieldName | java.lang.String |  |
 | fieldValue | [Ref](../../com.aspose.words.ref/ref) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveNext() {#moveNext--}
 ```
 public abstract boolean moveNext()
 ```
 
 
-Advances to the next record in the data source.
+前进到数据源中的下一条记录。
 
-**Returns:**
-boolean - True if moved to next record successfully. False if reached end of the data source.
+**退货:**
+boolean - 如果成功移动到下一条记录，则为真。如果到达数据源的末尾，则为 False。

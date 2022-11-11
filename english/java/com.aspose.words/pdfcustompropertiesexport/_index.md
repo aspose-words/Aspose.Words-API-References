@@ -1,34 +1,34 @@
 ---
 title: PdfCustomPropertiesExport
-second_title: Aspose.Words for Java API Reference
-description: Specifies the way  are exported to PDF file.
+second_title: Aspose.Words for Java API 参考
+description: 指定导出为 PDF 文件的方式。
 type: docs
 weight: 450
-url: /java/com.aspose.words/pdfcustompropertiesexport/
+url: /zh/java/com.aspose.words/pdfcustompropertiesexport/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PdfCustomPropertiesExport
 ```
 
-Specifies the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file.
-## Fields
+指定方式[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [METADATA](#METADATA) | Custom properties are Metadata. |
-| [NONE](#NONE) | No custom properties are exported. |
-| [STANDARD](#STANDARD) | Custom properties are exported as entries in /Info dictionary. |
+| [METADATA](#METADATA) | 自定义属性是元数据。 |
+| [NONE](#NONE) | 不导出自定义属性。 |
+| [STANDARD](#STANDARD) | 自定义属性导出为 /Info 字典中的条目。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfCustomPropertiesExportName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pdfCustomPropertiesExport)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,9 +45,9 @@ public static int METADATA
 ```
 
 
-Custom properties are Metadata.
+自定义属性是元数据。
 
-The namespace of exported properties in XMP packet is "custprops". Every property has an associated xml-element "custprops:Property1", "custprops:Property2" and so on. There is "rdf:Description" element inside property element. The description element has two elements "custprops:Name", containing custom property's name as a value of this xml-element, and "custprops:Value", containing custom property's value as value of this xml-element.
+XMP 数据包中导出属性的命名空间是“custprops”。每个属性都有一个关联的 xml 元素“custprops:Property1”、“custprops:Property2”等等。属性元素中有“rdf:描述”元素。 description 元素有两个元素“custprops:Name”，包含自定义属性的名称作为此 xml 元素的值，以及“custprops:Value”，包含自定义属性的值作为此 xml 元素的值。
 
 ### NONE {#NONE}
 ```
@@ -55,7 +55,7 @@ public static int NONE
 ```
 
 
-No custom properties are exported.
+不导出自定义属性。
 
 ### STANDARD {#STANDARD}
 ```
@@ -63,9 +63,9 @@ public static int STANDARD
 ```
 
 
-Custom properties are exported as entries in /Info dictionary.
+自定义属性导出为 /Info 字典中的条目。
 
-Custom properties with the following names are not exported: "Title", "Author", "Subject", "Keywords", "Creator", "Producer", "CreationDate", "ModDate", "Trapped".
+不导出具有以下名称的自定义属性：“Title”、“Author”、“Subject”、“Keywords”、“Creator”、“Producer”、“CreationDate”、“ModDate”、“Trapped”。
 
 ### length {#length}
 ```
@@ -81,13 +81,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pdfCustomPropertiesExportName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfCustomPropertiesExportName)
@@ -96,23 +96,23 @@ public static int fromName(String pdfCustomPropertiesExportName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfCustomPropertiesExportName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pdfCustomPropertiesExport) {#getName-int-}
 ```
 public static String getName(int pdfCustomPropertiesExport)
@@ -121,12 +121,12 @@ public static String getName(int pdfCustomPropertiesExport)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfCustomPropertiesExport | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -136,8 +136,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -146,8 +146,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -172,7 +172,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pdfCustomPropertiesExport) {#toString-int-}
 ```
@@ -182,12 +182,12 @@ public static String toString(int pdfCustomPropertiesExport)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfCustomPropertiesExport | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -205,8 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -218,9 +218,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

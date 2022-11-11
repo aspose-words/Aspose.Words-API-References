@@ -1,35 +1,35 @@
 ---
 title: ExportHeadersFootersMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how headers and footers are exported to HTML MHTML or EPUB.
+second_title: Aspose.Words for Java API 参考
+description: 指定页眉和页脚如何导出到 HTML MHTML 或 EPUB。
 type: docs
 weight: 149
-url: /java/com.aspose.words/exportheadersfootersmode/
+url: /zh/java/com.aspose.words/exportheadersfootersmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ExportHeadersFootersMode
 ```
 
-Specifies how headers and footers are exported to HTML, MHTML or EPUB.
-## Fields
+指定页眉和页脚如何导出为 HTML、MHTML 或 EPUB。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FIRST_PAGE_HEADER_FOOTER_PER_SECTION](#FIRST-PAGE-HEADER-FOOTER-PER-SECTION) | First page header and footer are exported at the beginning and the end of each section. |
-| [FIRST_SECTION_HEADER_LAST_SECTION_FOOTER](#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) | Primary header of the first section is exported at the beginning of the document and primary footer is at the end. |
-| [NONE](#NONE) | Headers and footers are not exported. |
-| [PER_SECTION](#PER-SECTION) | Primary headers and footers are exported at the beginning and the end of each section. |
+| [FIRST_PAGE_HEADER_FOOTER_PER_SECTION](#FIRST-PAGE-HEADER-FOOTER-PER-SECTION) | 第一页页眉和页脚在每个部分的开头和结尾处导出。 |
+| [FIRST_SECTION_HEADER_LAST_SECTION_FOOTER](#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) | 第一部分的主页眉在文档开头导出，主页脚在末尾。 |
+| [NONE](#NONE) | 不导出页眉和页脚。 |
+| [PER_SECTION](#PER-SECTION) | 主要页眉和页脚在每个部分的开头和结尾导出。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportHeadersFootersModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int exportHeadersFootersMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int FIRST_PAGE_HEADER_FOOTER_PER_SECTION
 ```
 
 
-First page header and footer are exported at the beginning and the end of each section.
+第一页页眉和页脚在每个部分的开头和结尾处导出。
 
 ### FIRST_SECTION_HEADER_LAST_SECTION_FOOTER {#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER}
 ```
@@ -54,7 +54,7 @@ public static int FIRST_SECTION_HEADER_LAST_SECTION_FOOTER
 ```
 
 
-Primary header of the first section is exported at the beginning of the document and primary footer is at the end.
+第一部分的主页眉在文档开头导出，主页脚在末尾。
 
 ### NONE {#NONE}
 ```
@@ -62,7 +62,7 @@ public static int NONE
 ```
 
 
-Headers and footers are not exported.
+不导出页眉和页脚。
 
 ### PER_SECTION {#PER-SECTION}
 ```
@@ -70,7 +70,7 @@ public static int PER_SECTION
 ```
 
 
-Primary headers and footers are exported at the beginning and the end of each section.
+主要页眉和页脚在每个部分的开头和结尾导出。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String exportHeadersFootersModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String exportHeadersFootersModeName)
@@ -101,23 +101,23 @@ public static int fromName(String exportHeadersFootersModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportHeadersFootersModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int exportHeadersFootersMode) {#getName-int-}
 ```
 public static String getName(int exportHeadersFootersMode)
@@ -126,12 +126,12 @@ public static String getName(int exportHeadersFootersMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportHeadersFootersMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int exportHeadersFootersMode) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int exportHeadersFootersMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportHeadersFootersMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,33 +1,33 @@
 ---
 title: ImlRenderingMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how ink InkML objects are rendered to fixed page formats.
+second_title: Aspose.Words for Java API 参考
+description: 指定如何将墨迹 InkML 对象呈现为固定页面格式。
 type: docs
 weight: 345
-url: /java/com.aspose.words/imlrenderingmode/
+url: /zh/java/com.aspose.words/imlrenderingmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ImlRenderingMode
 ```
 
-Specifies how ink (InkML) objects are rendered to fixed page formats.
-## Fields
+指定如何将墨迹 (InkML) 对象呈现为固定页面格式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FALLBACK](#FALLBACK) | If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. |
-| [INK_ML](#INK-ML) | Aspose.Words ignores fall-back shape of ink (InkML) object and renders InkML itself. |
+| [FALLBACK](#FALLBACK) | 如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。 |
+| [INK_ML](#INK-ML) | Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int imlRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int FALLBACK
 ```
 
 
-If fall-back shape is available for ink (InkML) object, Aspose.Words renders fall-back shape instead of the InkML. Please note that after saving a document to a fixed page format with fall-back rendering mode, InkML objects in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if ImlRenderingMode is set to InkML.
+如果后备形状可用于墨水 (InkML) 对象，Aspose.Words 会呈现后备形状而不是 InkML。请注意，在使用回退呈现模式将文档保存为固定页面格式后，AW 文档模型中的 InkML 对象将永久替换为其回退对应对象。因此，即使 ImlRenderingMode 设置为 InkML，再次保存同一个文档将始终使用回退形状。
 
 ### INK_ML {#INK-ML}
 ```
@@ -52,7 +52,7 @@ public static int INK_ML
 ```
 
 
-Aspose.Words ignores fall-back shape of ink (InkML) object and renders InkML itself. This is the default mode.
+Aspose.Words 忽略墨迹 (InkML) 对象的后备形状并呈现 InkML 本身。这是默认模式。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String imlRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String imlRenderingModeName)
@@ -83,23 +83,23 @@ public static int fromName(String imlRenderingModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imlRenderingModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int imlRenderingMode) {#getName-int-}
 ```
 public static String getName(int imlRenderingMode)
@@ -108,12 +108,12 @@ public static String getName(int imlRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imlRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int imlRenderingMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int imlRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imlRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,41 +1,41 @@
 ---
 title: ParagraphAlignment
-second_title: Aspose.Words for Java API Reference
-description: Specifies text alignment in a paragraph.
+second_title: Aspose.Words for Java API 参考
+description: 指定段落中的文本对齐方式。
 type: docs
 weight: 444
-url: /java/com.aspose.words/paragraphalignment/
+url: /zh/java/com.aspose.words/paragraphalignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ParagraphAlignment
 ```
 
-Specifies text alignment in a paragraph.
-## Fields
+指定段落中的文本对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ARABIC_HIGH_KASHIDA](#ARABIC-HIGH-KASHIDA) | Arabic only. |
-| [ARABIC_LOW_KASHIDA](#ARABIC-LOW-KASHIDA) | Arabic only. |
-| [ARABIC_MEDIUM_KASHIDA](#ARABIC-MEDIUM-KASHIDA) | Arabic only. |
-| [CENTER](#CENTER) | Text is centered horizontally. |
-| [DISTRIBUTED](#DISTRIBUTED) | Text is evenly distributed. |
-| [JUSTIFY](#JUSTIFY) | Text is aligned to both left and right. |
-| [LEFT](#LEFT) | Text is aligned to the left. |
-| [MATH_ELEMENT_CENTER_AS_GROUP](#MATH-ELEMENT-CENTER-AS-GROUP) | The only Math element in a line, aligned as 'Centered As Group'. |
-| [RIGHT](#RIGHT) | Text is aligned to the right. |
-| [THAI_DISTRIBUTED](#THAI-DISTRIBUTED) | Thai only. |
+| [ARABIC_HIGH_KASHIDA](#ARABIC-HIGH-KASHIDA) | 仅限阿拉伯语。 |
+| [ARABIC_LOW_KASHIDA](#ARABIC-LOW-KASHIDA) | 仅限阿拉伯语。 |
+| [ARABIC_MEDIUM_KASHIDA](#ARABIC-MEDIUM-KASHIDA) | 仅限阿拉伯语。 |
+| [CENTER](#CENTER) | 文本水平居中。 |
+| [DISTRIBUTED](#DISTRIBUTED) | 文字分布均匀。 |
+| [JUSTIFY](#JUSTIFY) | 文本左右对齐。 |
+| [LEFT](#LEFT) | 文本左对齐。 |
+| [MATH_ELEMENT_CENTER_AS_GROUP](#MATH-ELEMENT-CENTER-AS-GROUP) | 一行中唯一的数学元素，对齐为“居中作为组”。 |
+| [RIGHT](#RIGHT) | 文本向右对齐。 |
+| [THAI_DISTRIBUTED](#THAI-DISTRIBUTED) | 仅限泰语。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String paragraphAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int paragraphAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int ARABIC_HIGH_KASHIDA
 ```
 
 
-Arabic only. Kashida length for text is extended to its widest possible length.
+仅限阿拉伯语。文本的 Kashida 长度已扩展到其可能的最大长度。
 
 ### ARABIC_LOW_KASHIDA {#ARABIC-LOW-KASHIDA}
 ```
@@ -60,7 +60,7 @@ public static int ARABIC_LOW_KASHIDA
 ```
 
 
-Arabic only. Kashida length for text is extended to a slightly longer length.
+仅限阿拉伯语。文本的 Kashida 长度扩展为稍长的长度。
 
 ### ARABIC_MEDIUM_KASHIDA {#ARABIC-MEDIUM-KASHIDA}
 ```
@@ -68,7 +68,7 @@ public static int ARABIC_MEDIUM_KASHIDA
 ```
 
 
-Arabic only. Kashida length for text is extended to a medium length determined by the consumer.
+仅限阿拉伯语。文本的 Kashida 长度扩展为消费者确定的中等长度。
 
 ### CENTER {#CENTER}
 ```
@@ -76,7 +76,7 @@ public static int CENTER
 ```
 
 
-Text is centered horizontally.
+文本水平居中。
 
 ### DISTRIBUTED {#DISTRIBUTED}
 ```
@@ -84,7 +84,7 @@ public static int DISTRIBUTED
 ```
 
 
-Text is evenly distributed.
+文字分布均匀。
 
 ### JUSTIFY {#JUSTIFY}
 ```
@@ -92,7 +92,7 @@ public static int JUSTIFY
 ```
 
 
-Text is aligned to both left and right.
+文本左右对齐。
 
 ### LEFT {#LEFT}
 ```
@@ -100,7 +100,7 @@ public static int LEFT
 ```
 
 
-Text is aligned to the left.
+文本左对齐。
 
 ### MATH_ELEMENT_CENTER_AS_GROUP {#MATH-ELEMENT-CENTER-AS-GROUP}
 ```
@@ -108,7 +108,7 @@ public static int MATH_ELEMENT_CENTER_AS_GROUP
 ```
 
 
-The only Math element in a line, aligned as 'Centered As Group'.
+一行中唯一的数学元素，对齐为“居中作为组”。
 
 ### RIGHT {#RIGHT}
 ```
@@ -116,7 +116,7 @@ public static int RIGHT
 ```
 
 
-Text is aligned to the right.
+文本向右对齐。
 
 ### THAI_DISTRIBUTED {#THAI-DISTRIBUTED}
 ```
@@ -124,7 +124,7 @@ public static int THAI_DISTRIBUTED
 ```
 
 
-Thai only. Text is justified with an optimization for Thai.
+仅限泰语。文本通过对泰语的优化来证明是合理的。
 
 ### length {#length}
 ```
@@ -140,13 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String paragraphAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String paragraphAlignmentName)
@@ -155,23 +155,23 @@ public static int fromName(String paragraphAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | paragraphAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int paragraphAlignment) {#getName-int-}
 ```
 public static String getName(int paragraphAlignment)
@@ -180,12 +180,12 @@ public static String getName(int paragraphAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | paragraphAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -195,8 +195,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -231,7 +231,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int paragraphAlignment) {#toString-int-}
 ```
@@ -241,12 +241,12 @@ public static String toString(int paragraphAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | paragraphAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,9 +277,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

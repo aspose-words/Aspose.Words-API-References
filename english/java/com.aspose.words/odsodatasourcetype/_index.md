@@ -1,51 +1,51 @@
 ---
-title: OdsoDataSourceType
-second_title: Aspose.Words for Java API Reference
-description: Specifies the type of the external data source to be connected to as part of the ODSO connection information.
+title: OdsoDataSource类型
+second_title: Aspose.Words for Java API 参考
+description: 指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
 type: docs
 weight: 412
-url: /java/com.aspose.words/odsodatasourcetype/
+url: /zh/java/com.aspose.words/odsodatasourcetype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class OdsoDataSourceType
+public class OdsoDataSource类型
 ```
 
-Specifies the type of the external data source to be connected to as part of the ODSO connection information.
+指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。
 
-The OOXML specification is very vague for this enum. I guess it might correspond to the WdMergeSubType enumeration http://msdn.microsoft.com/en-us/library/bb237801.aspx.
-## Fields
+OOXML 规范对于这个枚举非常模糊。我猜它可能对应于 WdMergeSub类型 枚举 http://msdn.microsoft.com/en-us/library/bb237801.aspx。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ADDRESS_BOOK](#ADDRESS-BOOK) | Specifies that a given document has been connected to an address book of contacts. |
-| [DATABASE](#DATABASE) | Specifies that a given document has been connected to a database. |
-| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE). |
-| [DOCUMENT_1](#DOCUMENT-1) | Specifies that a given document has been connected to another document format supported by the producing application. |
-| [DOCUMENT_2](#DOCUMENT-2) | Specifies that a given document has been connected to another document format supported by the producing application. |
-| [EMAIL](#EMAIL) | Specifies that a given document has been connected to an e-mail application. |
-| [LEGACY](#LEGACY) | Specifies that a given document has been connected to a legacy document format supported by the producing application Possibly wdMergeSubTypeWord2000. |
-| [MASTER](#MASTER) | Specifies that a given document has been connected to a data source which aggregates other data sources. |
-| [NATIVE](#NATIVE) | Specifies that a given document has been connected to another document format native to the producing application. |
-| [NONE](#NONE) | The type of the external data source is not specified. |
-| [TEXT](#TEXT) | Specifies that a given document has been connected to a text file. |
+| [ADDRESS_BOOK](#ADDRESS-BOOK) | 指定给定文档已连接到联系人地址簿。 |
+| [DATABASE](#DATABASE) | 指定给定文档已连接到数据库。 |
+| [DEFAULT](#DEFAULT) | 等于[NONE](../../com.aspose.words/odsodatasourcetype\#NONE). |
+| [DOCUMENT_1](#DOCUMENT-1) | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 |
+| [DOCUMENT_2](#DOCUMENT-2) | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 |
+| [EMAIL](#EMAIL) | 指定给定文档已连接到电子邮件应用程序。 |
+| [LEGACY](#LEGACY) | 指定给定文档已连接到生产应用程序支持的旧文档格式，可能是 wdMergeSub类型Word2000。 |
+| [MASTER](#MASTER) | 指定给定文档已连接到聚合其他数据源的数据源。 |
+| [NATIVE](#NATIVE) | 指定给定文档已连接到生成应用程序本机的另一种文档格式。 |
+| [NONE](#NONE) | 未指定外部数据源的类型。 |
+| [TEXT](#TEXT) | 指定给定文档已连接到文本文件。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String odsoDataSourceTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int odsoDataSourceType)](#getName-int-) |  |
+| [fromName(String odsoDataSource类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int odsoDataSource类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int odsoDataSourceType)](#toString-int-) |  |
+| [toString(int odsoDataSource类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +55,7 @@ public static int ADDRESS_BOOK
 ```
 
 
-Specifies that a given document has been connected to an address book of contacts. Possibly wdMergeSubTypeOAL.
+指定给定文档已连接到联系人地址簿。可能是 wdMergeSub类型OAL。
 
 ### DATABASE {#DATABASE}
 ```
@@ -63,7 +63,7 @@ public static int DATABASE
 ```
 
 
-Specifies that a given document has been connected to a database. Possibly wdMergeSubTypeAccess.
+指定给定文档已连接到数据库。可能是 wdMergeSub类型Access。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -71,7 +71,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NONE](../../com.aspose.words/odsodatasourcetype\#NONE).
+等于[NONE](../../com.aspose.words/odsodatasourcetype\#NONE).
 
 ### DOCUMENT_1 {#DOCUMENT-1}
 ```
@@ -79,7 +79,7 @@ public static int DOCUMENT_1
 ```
 
 
-Specifies that a given document has been connected to another document format supported by the producing application. Possibly wdMergeSubTypeOLEDBWord.
+指定给定文档已连接到生成应用程序支持的另一种文档格式。可能是 wdMergeSub类型OLEDBWord。
 
 ### DOCUMENT_2 {#DOCUMENT-2}
 ```
@@ -87,7 +87,7 @@ public static int DOCUMENT_2
 ```
 
 
-Specifies that a given document has been connected to another document format supported by the producing application. Possibly wdMergeSubTypeWorks.
+指定给定文档已连接到生成应用程序支持的另一种文档格式。可能是 wdMergeSub类型Works。
 
 ### EMAIL {#EMAIL}
 ```
@@ -95,7 +95,7 @@ public static int EMAIL
 ```
 
 
-Specifies that a given document has been connected to an e-mail application. Possibly wdMergeSubTypeOutlook.
+指定给定文档已连接到电子邮件应用程序。可能是 wdMergeSub类型Outlook。
 
 ### LEGACY {#LEGACY}
 ```
@@ -103,7 +103,7 @@ public static int LEGACY
 ```
 
 
-Specifies that a given document has been connected to a legacy document format supported by the producing application Possibly wdMergeSubTypeWord2000.
+指定给定文档已连接到生产应用程序支持的旧文档格式，可能是 wdMergeSub类型Word2000。
 
 ### MASTER {#MASTER}
 ```
@@ -111,7 +111,7 @@ public static int MASTER
 ```
 
 
-Specifies that a given document has been connected to a data source which aggregates other data sources.
+指定给定文档已连接到聚合其他数据源的数据源。
 
 ### NATIVE {#NATIVE}
 ```
@@ -119,7 +119,7 @@ public static int NATIVE
 ```
 
 
-Specifies that a given document has been connected to another document format native to the producing application. Possibly wdMergeSubTypeOLEDBText
+指定给定文档已连接到生成应用程序本机的另一种文档格式。可能是 wdMergeSub类型OLEDBText
 
 ### NONE {#NONE}
 ```
@@ -127,7 +127,7 @@ public static int NONE
 ```
 
 
-The type of the external data source is not specified. Possibly wdMergeSubTypeWord.
+未指定外部数据源的类型。可能是 wdMergeSub类型Word。
 
 ### TEXT {#TEXT}
 ```
@@ -135,7 +135,7 @@ public static int TEXT
 ```
 
 
-Specifies that a given document has been connected to a text file. Possibly wdMergeSubTypeOther.
+指定给定文档已连接到文本文件。可能是 wdMergeSub类型Other。
 
 ### length {#length}
 ```
@@ -151,52 +151,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String odsoDataSourceTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String odsoDataSource类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String odsoDataSourceTypeName)
+public static int fromName(String odsoDataSource类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odsoDataSourceTypeName | java.lang.String |  |
+| odsoDataSource类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int odsoDataSourceType) {#getName-int-}
-```
-public static String getName(int odsoDataSourceType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int odsoDataSource类型) {#getName-int-}
+```
+public static String getName(int odsoDataSource类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odsoDataSourceType | int |  |
+| odsoDataSource类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -206,8 +206,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -216,8 +216,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -242,22 +242,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int odsoDataSourceType) {#toString-int-}
+### toString(int odsoDataSource类型) {#toString-int-}
 ```
-public static String toString(int odsoDataSourceType)
+public static String toString(int odsoDataSource类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| odsoDataSourceType | int |  |
+| odsoDataSource类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -275,8 +275,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -288,9 +288,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,69 +1,69 @@
 ---
-title: BarcodeParameters
-second_title: Aspose.Words for Java API Reference
-description: Container class for barcode parameters to pass-through to BarcodeGenerator.
+title: Barcode参数
+second_title: Aspose.Words for Java API 参考
+description: 用于将条码参数传递给 BarcodeGenerator 的容器类。
 type: docs
 weight: 26
-url: /java/com.aspose.words/barcodeparameters/
+url: /zh/java/com.aspose.words/barcodeparameters/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class BarcodeParameters
+public class Barcode参数
 ```
 
-Container class for barcode parameters to pass-through to BarcodeGenerator.
+用于将条码参数传递给 BarcodeGenerator 的容器类。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-The set of parameters are according to DISPLAYBARCODE field options. See the exact list at [ ][Link 1]
+参数集根据 DISPLAYBARCODE 字段选项而定。详细列表见[ ][Link 1]
 
 
 [Link 1]: https://msdn.microsoft.com/en-us/library/hh745901%28v=office.12%29.aspx
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddStartStopChar()](#getAddStartStopChar--) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
-| [getBackgroundColor()](#getBackgroundColor--) | Bar code background color (0x000000 - 0xFFFFFF) |
-| [getBarcodeType()](#getBarcodeType--) | Bar code type. |
-| [getBarcodeValue()](#getBarcodeValue--) | Data to be encoded. |
-| [getCaseCodeStyle()](#getCaseCodeStyle--) | Style of a Case Code for barcode type ITF14. |
-| [getClass()](#getClass--) |  |
-| [getDisplayText()](#getDisplayText--) | Whether to display barcode data (text) along with image. |
-| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | Error correction level of QR Code. |
-| [getFacingIdentificationMark()](#getFacingIdentificationMark--) | Type of a Facing Identification Mark (FIM). |
-| [getFixCheckDigit()](#getFixCheckDigit--) | Whether to fix the check digit if it\\u2019s invalid. |
-| [getForegroundColor()](#getForegroundColor--) | Bar code foreground color (0x000000 - 0xFFFFFF) |
-| [getPosCodeStyle()](#getPosCodeStyle--) | Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). |
-| [getPostalAddress()](#getPostalAddress--) | Barcode postal address. |
-| [getScalingFactor()](#getScalingFactor--) | Scaling factor for the symbol. |
-| [getSymbolHeight()](#getSymbolHeight--) | Bar code image height (in twips - 1/1440 inches) |
-| [getSymbolRotation()](#getSymbolRotation--) | Rotation of the barcode symbol. |
+| [getAddStartStopChar()](#getAddStartStopChar--) | 是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
+| [getBackgroundColor()](#getBackgroundColor--) | 条码背景颜色 (0x000000 - 0xFFFFFF) |
+| [getBarcode类型()](#getBarcode类型--) | 条码类型。 |
+| [getBarcodeValue()](#getBarcodeValue--) | 要编码的数据。 |
+| [getCaseCodeStyle()](#getCaseCodeStyle--) | 条码类型 ITF14 的案例代码样式。 |
+| [get班级()](#get班级--) |  |
+| [getDisplayText()](#getDisplayText--) | 是否与图像一起显示条形码数据（文本）。 |
+| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | QR码的纠错级别。 |
+| [getFacingIdentificationMark()](#getFacingIdentificationMark--) | 正面识别标记 (FIM) 的类型。 |
+| [getFixCheckDigit()](#getFixCheckDigit--) | 是否固定校验位\\u2019s 无效。 |
+| [getForegroundColor()](#getForegroundColor--) | 条码前景色 (0x000000 - 0xFFFFFF) |
+| [getPosCodeStyle()](#getPosCodeStyle--) | 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
+| [getPostalAddress()](#getPostalAddress--) | 条形码邮政地址。 |
+| [getScalingFactor()](#getScalingFactor--) | 符号的比例因子。 |
+| [getSymbolHeight()](#getSymbolHeight--) | 条码图像高度（缇 - 1/1440 英寸） |
+| [getSymbolRotation()](#getSymbolRotation--) | 条码符号的旋转。 |
 | [hashCode()](#hashCode--) |  |
-| [isBookmark()](#isBookmark--) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is the name of a bookmark. |
-| [isBookmark(boolean value)](#isBookmark-boolean-) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is the name of a bookmark. |
-| [isUSPostalAddress()](#isUSPostalAddress--) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is a U.S. |
-| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean-) | Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is a U.S. |
+| [isBookmark()](#isBookmark--) | 无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是书签的名称。 |
+| [isBookmark(boolean value)](#isBookmark-boolean-) | 无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是书签的名称。 |
+| [isUSPostalAddress()](#isUSPostalAddress--) | 无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是美国 |
+| [isUSPostalAddress(boolean value)](#isUSPostalAddress-boolean-) | 无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是美国 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
-| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | Bar code background color (0x000000 - 0xFFFFFF) |
-| [setBarcodeType(String value)](#setBarcodeType-java.lang.String-) | Bar code type. |
-| [setBarcodeValue(String value)](#setBarcodeValue-java.lang.String-) | Data to be encoded. |
-| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | Style of a Case Code for barcode type ITF14. |
-| [setDisplayText(boolean value)](#setDisplayText-boolean-) | Whether to display barcode data (text) along with image. |
-| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | Error correction level of QR Code. |
-| [setFacingIdentificationMark(String value)](#setFacingIdentificationMark-java.lang.String-) | Type of a Facing Identification Mark (FIM). |
-| [setFixCheckDigit(boolean value)](#setFixCheckDigit-boolean-) | Whether to fix the check digit if it\\u2019s invalid. |
-| [setForegroundColor(String value)](#setForegroundColor-java.lang.String-) | Bar code foreground color (0x000000 - 0xFFFFFF) |
-| [setPosCodeStyle(String value)](#setPosCodeStyle-java.lang.String-) | Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). |
-| [setPostalAddress(String value)](#setPostalAddress-java.lang.String-) | Barcode postal address. |
-| [setScalingFactor(String value)](#setScalingFactor-java.lang.String-) | Scaling factor for the symbol. |
-| [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String-) | Bar code image height (in twips - 1/1440 inches) |
-| [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String-) | Rotation of the barcode symbol. |
+| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | 是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
+| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | 条码背景颜色 (0x000000 - 0xFFFFFF) |
+| [setBarcode类型(String value)](#setBarcode类型-java.lang.String-) | 条码类型。 |
+| [setBarcodeValue(String value)](#setBarcodeValue-java.lang.String-) | 要编码的数据。 |
+| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | 条码类型 ITF14 的案例代码样式。 |
+| [setDisplayText(boolean value)](#setDisplayText-boolean-) | 是否与图像一起显示条形码数据（文本）。 |
+| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | QR码的纠错级别。 |
+| [setFacingIdentificationMark(String value)](#setFacingIdentificationMark-java.lang.String-) | 正面识别标记 (FIM) 的类型。 |
+| [setFixCheckDigit(boolean value)](#setFixCheckDigit-boolean-) | 是否固定校验位\\u2019s 无效。 |
+| [setForegroundColor(String value)](#setForegroundColor-java.lang.String-) | 条码前景色 (0x000000 - 0xFFFFFF) |
+| [setPosCodeStyle(String value)](#setPosCodeStyle-java.lang.String-) | 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
+| [setPostalAddress(String value)](#setPostalAddress-java.lang.String-) | 条形码邮政地址。 |
+| [setScalingFactor(String value)](#setScalingFactor-java.lang.String-) | 符号的比例因子。 |
+| [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String-) | 条码图像高度（缇 - 1/1440 英寸） |
+| [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String-) | 条码符号的旋转。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -76,173 +76,173 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAddStartStopChar() {#getAddStartStopChar--}
 ```
 public boolean getAddStartStopChar()
 ```
 
 
-Whether to add Start/Stop characters for barcode types NW7 and CODE39.
+是否为条码类型 NW7 和 CODE39 添加开始/停止字符。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public String getBackgroundColor()
 ```
 
 
-Bar code background color (0x000000 - 0xFFFFFF)
+条码背景颜色 (0x000000 - 0xFFFFFF)
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### getBarcodeType() {#getBarcodeType--}
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
+### getBarcode类型() {#getBarcode类型--}
 ```
-public String getBarcodeType()
+public String getBarcode类型()
 ```
 
 
-Bar code type.
+条码类型。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getBarcodeValue() {#getBarcodeValue--}
 ```
 public String getBarcodeValue()
 ```
 
 
-Data to be encoded.
+要编码的数据。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getCaseCodeStyle() {#getCaseCodeStyle--}
 ```
 public String getCaseCodeStyle()
 ```
 
 
-Style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
+条码类型 ITF14 的案例代码样式。有效值为[性病|EXT|ADD]
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDisplayText() {#getDisplayText--}
 ```
 public boolean getDisplayText()
 ```
 
 
-Whether to display barcode data (text) along with image.
+是否与图像一起显示条形码数据（文本）。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getErrorCorrectionLevel() {#getErrorCorrectionLevel--}
 ```
 public String getErrorCorrectionLevel()
 ```
 
 
-Error correction level of QR Code. Valid values are [0, 3].
+QR码的纠错级别。有效值为[0, 3]。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getFacingIdentificationMark() {#getFacingIdentificationMark--}
 ```
 public String getFacingIdentificationMark()
 ```
 
 
-Type of a Facing Identification Mark (FIM).
+正面识别标记 (FIM) 的类型。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getFixCheckDigit() {#getFixCheckDigit--}
 ```
 public boolean getFixCheckDigit()
 ```
 
 
-Whether to fix the check digit if it\\u2019s invalid.
+是否固定校验位\\u2019s 无效。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getForegroundColor() {#getForegroundColor--}
 ```
 public String getForegroundColor()
 ```
 
 
-Bar code foreground color (0x000000 - 0xFFFFFF)
+条码前景色 (0x000000 - 0xFFFFFF)
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getPosCodeStyle() {#getPosCodeStyle--}
 ```
 public String getPosCodeStyle()
 ```
 
 
-Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
+销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getPostalAddress() {#getPostalAddress--}
 ```
 public String getPostalAddress()
 ```
 
 
-Barcode postal address.
+条形码邮政地址。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getScalingFactor() {#getScalingFactor--}
 ```
 public String getScalingFactor()
 ```
 
 
-Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
+符号的比例因子。该值以整数个百分点表示，有效值为[10, 1000]。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getSymbolHeight() {#getSymbolHeight--}
 ```
 public String getSymbolHeight()
 ```
 
 
-Bar code image height (in twips - 1/1440 inches)
+条码图像高度（缇 - 1/1440 英寸）
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getSymbolRotation() {#getSymbolRotation--}
 ```
 public String getSymbolRotation()
 ```
 
 
-Rotation of the barcode symbol. Valid values are [0, 3].
+条码符号的旋转。有效值为[0, 3]。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -251,30 +251,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isBookmark() {#isBookmark--}
 ```
 public boolean isBookmark()
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is the name of a bookmark.
+无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是书签的名称。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isBookmark(boolean value) {#isBookmark-boolean-}
 ```
 public void isBookmark(boolean value)
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is the name of a bookmark.
+无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是书签的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### isUSPostalAddress() {#isUSPostalAddress--}
 ```
@@ -282,22 +282,22 @@ public boolean isUSPostalAddress()
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is a U.S. postal address.
+无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是美国邮政地址。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isUSPostalAddress(boolean value) {#isUSPostalAddress-boolean-}
 ```
 public void isUSPostalAddress(boolean value)
 ```
 
 
-Whether [getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-) is a U.S. postal address.
+无论[getPostalAddress()](../../com.aspose.words/barcodeparameters\#getPostalAddress--) / [setPostalAddress(java.lang.String)](../../com.aspose.words/barcodeparameters\#setPostalAddress-java.lang.String-)是美国邮政地址。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -321,12 +321,12 @@ public void setAddStartStopChar(boolean value)
 ```
 
 
-Whether to add Start/Stop characters for barcode types NW7 and CODE39.
+是否为条码类型 NW7 和 CODE39 添加开始/停止字符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBackgroundColor(String value) {#setBackgroundColor-java.lang.String-}
 ```
@@ -334,25 +334,25 @@ public void setBackgroundColor(String value)
 ```
 
 
-Bar code background color (0x000000 - 0xFFFFFF)
+条码背景颜色 (0x000000 - 0xFFFFFF)
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setBarcodeType(String value) {#setBarcodeType-java.lang.String-}
+### setBarcode类型(String value) {#setBarcode类型-java.lang.String-}
 ```
-public void setBarcodeType(String value)
+public void setBarcode类型(String value)
 ```
 
 
-Bar code type.
+条码类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setBarcodeValue(String value) {#setBarcodeValue-java.lang.String-}
 ```
@@ -360,12 +360,12 @@ public void setBarcodeValue(String value)
 ```
 
 
-Data to be encoded.
+要编码的数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setCaseCodeStyle(String value) {#setCaseCodeStyle-java.lang.String-}
 ```
@@ -373,12 +373,12 @@ public void setCaseCodeStyle(String value)
 ```
 
 
-Style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
+条码类型 ITF14 的案例代码样式。有效值为[性病|EXT|ADD]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setDisplayText(boolean value) {#setDisplayText-boolean-}
 ```
@@ -386,12 +386,12 @@ public void setDisplayText(boolean value)
 ```
 
 
-Whether to display barcode data (text) along with image.
+是否与图像一起显示条形码数据（文本）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setErrorCorrectionLevel(String value) {#setErrorCorrectionLevel-java.lang.String-}
 ```
@@ -399,12 +399,12 @@ public void setErrorCorrectionLevel(String value)
 ```
 
 
-Error correction level of QR Code. Valid values are [0, 3].
+QR码的纠错级别。有效值为[0, 3]。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setFacingIdentificationMark(String value) {#setFacingIdentificationMark-java.lang.String-}
 ```
@@ -412,12 +412,12 @@ public void setFacingIdentificationMark(String value)
 ```
 
 
-Type of a Facing Identification Mark (FIM).
+正面识别标记 (FIM) 的类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setFixCheckDigit(boolean value) {#setFixCheckDigit-boolean-}
 ```
@@ -425,12 +425,12 @@ public void setFixCheckDigit(boolean value)
 ```
 
 
-Whether to fix the check digit if it\\u2019s invalid.
+是否固定校验位\\u2019s 无效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setForegroundColor(String value) {#setForegroundColor-java.lang.String-}
 ```
@@ -438,12 +438,12 @@ public void setForegroundColor(String value)
 ```
 
 
-Bar code foreground color (0x000000 - 0xFFFFFF)
+条码前景色 (0x000000 - 0xFFFFFF)
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setPosCodeStyle(String value) {#setPosCodeStyle-java.lang.String-}
 ```
@@ -451,12 +451,12 @@ public void setPosCodeStyle(String value)
 ```
 
 
-Style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
+销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setPostalAddress(String value) {#setPostalAddress-java.lang.String-}
 ```
@@ -464,12 +464,12 @@ public void setPostalAddress(String value)
 ```
 
 
-Barcode postal address.
+条形码邮政地址。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setScalingFactor(String value) {#setScalingFactor-java.lang.String-}
 ```
@@ -477,12 +477,12 @@ public void setScalingFactor(String value)
 ```
 
 
-Scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000].
+符号的比例因子。该值以整数个百分点表示，有效值为[10, 1000]。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setSymbolHeight(String value) {#setSymbolHeight-java.lang.String-}
 ```
@@ -490,12 +490,12 @@ public void setSymbolHeight(String value)
 ```
 
 
-Bar code image height (in twips - 1/1440 inches)
+条码图像高度（缇 - 1/1440 英寸）
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setSymbolRotation(String value) {#setSymbolRotation-java.lang.String-}
 ```
@@ -503,12 +503,12 @@ public void setSymbolRotation(String value)
 ```
 
 
-Rotation of the barcode symbol. Valid values are [0, 3].
+条码符号的旋转。有效值为[0, 3]。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### toString() {#toString--}
 ```
@@ -518,7 +518,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -536,8 +536,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -549,9 +549,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,27 +1,27 @@
 ---
 title: FramesetCollection
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 303
-url: /java/com.aspose.words/framesetcollection/
+url: /zh/java/com.aspose.words/framesetcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class FramesetCollection implements Iterable
 ```
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [get(int index)](#get-int-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -39,13 +39,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public Frameset get(int index)
@@ -54,23 +54,23 @@ public Frameset get(int index)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**Returns:**
+**退货:**
 [Frameset](../../com.aspose.words/frameset)
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -79,8 +79,8 @@ public int getCount()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -89,8 +89,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -99,7 +99,7 @@ public Iterator iterator()
 
 
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -125,7 +125,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -143,8 +143,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -156,9 +156,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

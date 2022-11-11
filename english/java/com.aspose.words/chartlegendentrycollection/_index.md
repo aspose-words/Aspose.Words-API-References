@@ -1,34 +1,34 @@
 ---
 title: ChartLegendEntryCollection
-second_title: Aspose.Words for Java API Reference
-description: Represents a collection of chart legend entries.
+second_title: Aspose.Words for Java API 参考
+description: 表示图表图例条目的集合。
 type: docs
 weight: 65
-url: /java/com.aspose.words/chartlegendentrycollection/
+url: /zh/java/com.aspose.words/chartlegendentrycollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class ChartLegendEntryCollection implements Iterable
 ```
 
-Represents a collection of chart legend entries.
+表示图表图例条目的集合。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection. |
+| [get(int index)](#get-int-) | 退货[ChartLegendEntry](../../com.aspose.words/chartlegendentry)对于指定的索引。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 返回数量[ChartLegendEntry](../../com.aspose.words/chartlegendentry)在这个集合中。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
+| [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -43,48 +43,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public ChartLegendEntry get(int index)
 ```
 
 
-Returns [ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index.
+退货[ChartLegendEntry](../../com.aspose.words/chartlegendentry)对于指定的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**Returns:**
-[ChartLegendEntry](../../com.aspose.words/chartlegendentry) - \{[ChartLegendEntry](../../com.aspose.words/chartlegendentry) for the specified index.
-### getClass() {#getClass--}
+**退货:**
+[ChartLegendEntry](../../com.aspose.words/chartlegendentry) -\{[ChartLegendEntry](../../com.aspose.words/chartlegendentry)对于指定的索引。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Returns the number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection.
+返回数量[ChartLegendEntry](../../com.aspose.words/chartlegendentry)在这个集合中。
 
-**Returns:**
-int - The number of [ChartLegendEntry](../../com.aspose.words/chartlegendentry) in this collection.
+**退货:**
+ int - 的数量[ChartLegendEntry](../../com.aspose.words/chartlegendentry)在这个集合中。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -93,17 +93,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator object.
+返回一个枚举器对象。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -129,7 +129,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -147,8 +147,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -160,9 +160,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

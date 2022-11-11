@@ -1,42 +1,42 @@
 ---
 title: ImagePixelFormat
-second_title: Aspose.Words for Java API Reference
-description: Specifies the pixel format for the generated images of document pages.
+second_title: Aspose.Words for Java API 参考
+description: 指定生成的文档页面图像的像素格式。
 type: docs
 weight: 339
-url: /java/com.aspose.words/imagepixelformat/
+url: /zh/java/com.aspose.words/imagepixelformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ImagePixelFormat
 ```
 
-Specifies the pixel format for the generated images of document pages.
-## Fields
+指定生成的文档页面图像的像素格式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FORMAT_16_BPP_ARGB_1555](#FORMAT-16-BPP-ARGB-1555) | 16 bits per pixel, ARGB. |
-| [FORMAT_16_BPP_RGB_555](#FORMAT-16-BPP-RGB-555) | 16 bits per pixel, RGB. |
-| [FORMAT_16_BPP_RGB_565](#FORMAT-16-BPP-RGB-565) | 16 bits per pixel, RGB. |
-| [FORMAT_1_BPP_INDEXED](#FORMAT-1-BPP-INDEXED) | 1 bit per pixel, Indexed. |
-| [FORMAT_24_BPP_RGB](#FORMAT-24-BPP-RGB) | 24 bits per pixel, RGB. |
-| [FORMAT_32_BPP_ARGB](#FORMAT-32-BPP-ARGB) | 32 bits per pixel, ARGB. |
-| [FORMAT_32_BPP_P_ARGB](#FORMAT-32-BPP-P-ARGB) | 32 bits per pixel, ARGB, premultiplied alpha. |
-| [FORMAT_32_BPP_RGB](#FORMAT-32-BPP-RGB) | 32 bits per pixel, RGB. |
-| [FORMAT_48_BPP_RGB](#FORMAT-48-BPP-RGB) | 48 bits per pixel, RGB. |
-| [FORMAT_64_BPP_ARGB](#FORMAT-64-BPP-ARGB) | 64 bits per pixel, ARGB. |
-| [FORMAT_64_BPP_P_ARGB](#FORMAT-64-BPP-P-ARGB) | 64 bits per pixel, ARGB, premultiplied alpha. |
+| [FORMAT_16_BPP_ARGB_1555](#FORMAT-16-BPP-ARGB-1555) | 每像素 16 位，ARGB。 |
+| [FORMAT_16_BPP_RGB_555](#FORMAT-16-BPP-RGB-555) | 每像素 16 位，RGB。 |
+| [FORMAT_16_BPP_RGB_565](#FORMAT-16-BPP-RGB-565) | 每像素 16 位，RGB。 |
+| [FORMAT_1_BPP_INDEXED](#FORMAT-1-BPP-INDEXED) | 每像素 1 位，索引。 |
+| [FORMAT_24_BPP_RGB](#FORMAT-24-BPP-RGB) | 每像素 24 位，RGB。 |
+| [FORMAT_32_BPP_ARGB](#FORMAT-32-BPP-ARGB) | 每像素 32 位，ARGB。 |
+| [FORMAT_32_BPP_P_ARGB](#FORMAT-32-BPP-P-ARGB) | 每像素 32 位，ARGB，预乘 alpha。 |
+| [FORMAT_32_BPP_RGB](#FORMAT-32-BPP-RGB) | 每像素 32 位，RGB。 |
+| [FORMAT_48_BPP_RGB](#FORMAT-48-BPP-RGB) | 每像素 48 位，RGB。 |
+| [FORMAT_64_BPP_ARGB](#FORMAT-64-BPP-ARGB) | 每像素 64 位，ARGB。 |
+| [FORMAT_64_BPP_P_ARGB](#FORMAT-64-BPP-P-ARGB) | 每像素 64 位，ARGB，预乘 alpha。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String imagePixelFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int imagePixelFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -53,7 +53,7 @@ public static int FORMAT_16_BPP_ARGB_1555
 ```
 
 
-16 bits per pixel, ARGB.
+每像素 16 位，ARGB。
 
 ### FORMAT_16_BPP_RGB_555 {#FORMAT-16-BPP-RGB-555}
 ```
@@ -61,7 +61,7 @@ public static int FORMAT_16_BPP_RGB_555
 ```
 
 
-16 bits per pixel, RGB.
+每像素 16 位，RGB。
 
 ### FORMAT_16_BPP_RGB_565 {#FORMAT-16-BPP-RGB-565}
 ```
@@ -69,7 +69,7 @@ public static int FORMAT_16_BPP_RGB_565
 ```
 
 
-16 bits per pixel, RGB.
+每像素 16 位，RGB。
 
 ### FORMAT_1_BPP_INDEXED {#FORMAT-1-BPP-INDEXED}
 ```
@@ -77,7 +77,7 @@ public static int FORMAT_1_BPP_INDEXED
 ```
 
 
-1 bit per pixel, Indexed.
+每像素 1 位，索引。
 
 ### FORMAT_24_BPP_RGB {#FORMAT-24-BPP-RGB}
 ```
@@ -85,7 +85,7 @@ public static int FORMAT_24_BPP_RGB
 ```
 
 
-24 bits per pixel, RGB.
+每像素 24 位，RGB。
 
 ### FORMAT_32_BPP_ARGB {#FORMAT-32-BPP-ARGB}
 ```
@@ -93,7 +93,7 @@ public static int FORMAT_32_BPP_ARGB
 ```
 
 
-32 bits per pixel, ARGB.
+每像素 32 位，ARGB。
 
 ### FORMAT_32_BPP_P_ARGB {#FORMAT-32-BPP-P-ARGB}
 ```
@@ -101,7 +101,7 @@ public static int FORMAT_32_BPP_P_ARGB
 ```
 
 
-32 bits per pixel, ARGB, premultiplied alpha.
+每像素 32 位，ARGB，预乘 alpha。
 
 ### FORMAT_32_BPP_RGB {#FORMAT-32-BPP-RGB}
 ```
@@ -109,7 +109,7 @@ public static int FORMAT_32_BPP_RGB
 ```
 
 
-32 bits per pixel, RGB.
+每像素 32 位，RGB。
 
 ### FORMAT_48_BPP_RGB {#FORMAT-48-BPP-RGB}
 ```
@@ -117,7 +117,7 @@ public static int FORMAT_48_BPP_RGB
 ```
 
 
-48 bits per pixel, RGB.
+每像素 48 位，RGB。
 
 ### FORMAT_64_BPP_ARGB {#FORMAT-64-BPP-ARGB}
 ```
@@ -125,7 +125,7 @@ public static int FORMAT_64_BPP_ARGB
 ```
 
 
-64 bits per pixel, ARGB.
+每像素 64 位，ARGB。
 
 ### FORMAT_64_BPP_P_ARGB {#FORMAT-64-BPP-P-ARGB}
 ```
@@ -133,7 +133,7 @@ public static int FORMAT_64_BPP_P_ARGB
 ```
 
 
-64 bits per pixel, ARGB, premultiplied alpha.
+每像素 64 位，ARGB，预乘 alpha。
 
 ### length {#length}
 ```
@@ -149,13 +149,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String imagePixelFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String imagePixelFormatName)
@@ -164,23 +164,23 @@ public static int fromName(String imagePixelFormatName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imagePixelFormatName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int imagePixelFormat) {#getName-int-}
 ```
 public static String getName(int imagePixelFormat)
@@ -189,12 +189,12 @@ public static String getName(int imagePixelFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imagePixelFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -204,8 +204,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -214,8 +214,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -240,7 +240,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int imagePixelFormat) {#toString-int-}
 ```
@@ -250,12 +250,12 @@ public static String toString(int imagePixelFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imagePixelFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -273,8 +273,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -286,9 +286,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

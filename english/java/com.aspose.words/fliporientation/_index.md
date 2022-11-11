@@ -1,36 +1,36 @@
 ---
 title: FlipOrientation
-second_title: Aspose.Words for Java API Reference
-description: Possible values for the orientation of a shape.
+second_title: Aspose.Words for Java API 参考
+description: 形状方向的可能值。
 type: docs
 weight: 273
-url: /java/com.aspose.words/fliporientation/
+url: /zh/java/com.aspose.words/fliporientation/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class FlipOrientation
 ```
 
-Possible values for the orientation of a shape.
-## Fields
+形状方向的可能值。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTH](#BOTH) | Flip along both the y- and x-axis. |
-| [HORIZONTAL](#HORIZONTAL) | Flip along the y-axis, reversing the x-coordinates. |
-| [NONE](#NONE) | Coordinates are not flipped. |
-| [VERTICAL](#VERTICAL) | Flip along the x-axis, reversing the y-coordinates. |
+| [BOTH](#BOTH) | 沿 y 轴和 x 轴翻转。 |
+| [HORIZONTAL](#HORIZONTAL) | 沿 y 轴翻转，反转 x 坐标。 |
+| [NONE](#NONE) | 坐标不翻转。 |
+| [VERTICAL](#VERTICAL) | 沿 x 轴翻转，反转 y 坐标。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String flipOrientationName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set flipOrientationNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int flipOrientation)](#getName-int-) |  |
 | [getNames(int flipOrientation)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -49,7 +49,7 @@ public static int BOTH
 ```
 
 
-Flip along both the y- and x-axis.
+沿 y 轴和 x 轴翻转。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -57,7 +57,7 @@ public static int HORIZONTAL
 ```
 
 
-Flip along the y-axis, reversing the x-coordinates.
+沿 y 轴翻转，反转 x 坐标。
 
 ### NONE {#NONE}
 ```
@@ -65,7 +65,7 @@ public static int NONE
 ```
 
 
-Coordinates are not flipped.
+坐标不翻转。
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -73,7 +73,7 @@ public static int VERTICAL
 ```
 
 
-Flip along the x-axis, reversing the y-coordinates.
+沿 x 轴翻转，反转 y 坐标。
 
 ### length {#length}
 ```
@@ -89,13 +89,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String flipOrientationName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String flipOrientationName)
@@ -104,13 +104,13 @@ public static int fromName(String flipOrientationName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | flipOrientationName | java.lang.String |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### fromNames(Set flipOrientationNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set flipOrientationNames)
@@ -119,23 +119,23 @@ public static int fromNames(Set flipOrientationNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | flipOrientationNames | java.util.Set |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int flipOrientation) {#getName-int-}
 ```
 public static String getName(int flipOrientation)
@@ -144,12 +144,12 @@ public static String getName(int flipOrientation)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getNames(int flipOrientation) {#getNames-int-}
 ```
@@ -159,12 +159,12 @@ public static Set getNames(int flipOrientation)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Returns:**
+**退货:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -174,8 +174,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -184,8 +184,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -210,7 +210,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int flipOrientation) {#toString-int-}
 ```
@@ -220,12 +220,12 @@ public static String toString(int flipOrientation)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | flipOrientation | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -235,12 +235,12 @@ public static String toStringSet(int attr)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -258,8 +258,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -271,9 +271,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

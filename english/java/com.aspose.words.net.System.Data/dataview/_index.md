@@ -1,39 +1,39 @@
 ---
 title: DataView
 second_title: Aspose.Words for Java API Reference
-description: Represents a databindable customized view of a  for sorting filtering searching editing and navigation.
+description: 表示用于排序过滤搜索编辑和导航的可数据绑定自定义视图。
 type: docs
 weight: 28
-url: /java/com.aspose.words.net.system.data/dataview/
+url: /zh/java/com.aspose.words.net.system.data/dataview/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class DataView implements Iterable
 ```
 
-Represents a databindable, customized view of a [DataTable](../../com.aspose.words.net.system.data/datatable) for sorting, filtering, searching, editing, and navigation.
-## Constructors
+表示一个可数据绑定的自定义视图[DataTable](../../com.aspose.words.net.system.data/datatable)用于排序、过滤、搜索、编辑和导航。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable-) | Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable). |
-## Methods
+| [DataView(System.Data.DataTable table)](#DataView-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataView](../../com.aspose.words.net.system.data/dataview)具有指定的类[DataTable](../../com.aspose.words.net.system.data/datatable). |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [close()](#close--) | Closes the [DataView](../../com.aspose.words.net.system.data/dataview). |
+| [close()](#close--) | 关闭[DataView](../../com.aspose.words.net.system.data/dataview). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int recordIndex)](#get-int-) | Gets a row of data from a specified table. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview). |
-| [getTable()](#getTable--) | Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [get(int recordIndex)](#get-int-) | 从指定的表中获取一行数据。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取记录的数量[DataView](../../com.aspose.words.net.system.data/dataview). |
+| [getTable()](#getTable--) | 获取源[DataTable](../../com.aspose.words.net.system.data/datatable). |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview). |
+| [iterator()](#iterator--) | 为此获取一个枚举器[DataView](../../com.aspose.words.net.system.data/dataview). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -46,12 +46,12 @@ public DataView(System.Data.DataTable table)
 ```
 
 
-Initializes a new instance of the [DataView](../../com.aspose.words.net.system.data/dataview) class with the specified [DataTable](../../com.aspose.words.net.system.data/datatable).
+初始化一个新的实例[DataView](../../com.aspose.words.net.system.data/dataview)具有指定的类[DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | A [DataTable](../../com.aspose.words.net.system.data/datatable) to add to the [DataView](../../com.aspose.words.net.system.data/dataview). |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | 一个[DataTable](../../com.aspose.words.net.system.data/datatable)添加到[DataView](../../com.aspose.words.net.system.data/dataview). |
 
 ### close() {#close--}
 ```
@@ -59,7 +59,7 @@ public void close()
 ```
 
 
-Closes the [DataView](../../com.aspose.words.net.system.data/dataview).
+关闭[DataView](../../com.aspose.words.net.system.data/dataview).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,58 +69,58 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int recordIndex) {#get-int-}
 ```
 public System.Data.DataRowView get(int recordIndex)
 ```
 
 
-Gets a row of data from a specified table.
+从指定的表中获取一行数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| recordIndex | int | The index of a record in the [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| recordIndex | int | 记录中的索引[DataTable](../../com.aspose.words.net.system.data/datatable). |
 
-**Returns:**
-[DataRowView](../../com.aspose.words.net.system.data/datarowview) - A [DataRowView](../../com.aspose.words.net.system.data/datarowview) of the row that you want.
-### getClass() {#getClass--}
+**退货:**
+[DataRowView](../../com.aspose.words.net.system.data/datarowview) - 一个[DataRowView](../../com.aspose.words.net.system.data/datarowview)你想要的行。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of records in the [DataView](../../com.aspose.words.net.system.data/dataview).
+获取记录的数量[DataView](../../com.aspose.words.net.system.data/dataview).
 
-**Returns:**
-int - The number of records in the [DataView](../../com.aspose.words.net.system.data/dataview).
+**退货:**
+ int - 中的记录数[DataView](../../com.aspose.words.net.system.data/dataview).
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the source [DataTable](../../com.aspose.words.net.system.data/datatable).
+获取源[DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) that provides the data for this view.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)为该视图提供数据。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,18 +129,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Gets an enumerator for this [DataView](../../com.aspose.words.net.system.data/dataview).
+为此获取一个枚举器[DataView](../../com.aspose.words.net.system.data/dataview).
 
-**Returns:**
-java.util.Iterator - An java.util.Iterator for navigating through the list.
+**退货:**
+java.util.Iterator - 用于在列表中导航的 java.util.Iterator。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -165,7 +165,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -183,8 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -196,9 +196,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

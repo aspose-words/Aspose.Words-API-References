@@ -1,34 +1,34 @@
 ---
 title: ReplaceAction
-second_title: Aspose.Words for Java API Reference
-description: Allows the user to specify what happens to the current match during a replace operation.
+second_title: Aspose.Words for Java API 参考
+description: 允许用户指定在替换操作期间当前匹配发生的情况。
 type: docs
 weight: 475
-url: /java/com.aspose.words/replaceaction/
+url: /zh/java/com.aspose.words/replaceaction/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ReplaceAction
 ```
 
-Allows the user to specify what happens to the current match during a replace operation.
-## Fields
+允许用户指定在替换操作期间当前匹配发生的情况。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [REPLACE](#REPLACE) | Replace the current match. |
-| [SKIP](#SKIP) | Skip the current match. |
-| [STOP](#STOP) | Terminate the replace operation. |
+| [REPLACE](#REPLACE) | 替换当前匹配。 |
+| [SKIP](#SKIP) | 跳过当前比赛。 |
+| [STOP](#STOP) | 终止替换操作。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String replaceActionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int replaceAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int REPLACE
 ```
 
 
-Replace the current match.
+替换当前匹配。
 
 ### SKIP {#SKIP}
 ```
@@ -53,7 +53,7 @@ public static int SKIP
 ```
 
 
-Skip the current match.
+跳过当前比赛。
 
 ### STOP {#STOP}
 ```
@@ -61,7 +61,7 @@ public static int STOP
 ```
 
 
-Terminate the replace operation.
+终止替换操作。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String replaceActionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String replaceActionName)
@@ -92,23 +92,23 @@ public static int fromName(String replaceActionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | replaceActionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int replaceAction) {#getName-int-}
 ```
 public static String getName(int replaceAction)
@@ -117,12 +117,12 @@ public static String getName(int replaceAction)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | replaceAction | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int replaceAction) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int replaceAction)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | replaceAction | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

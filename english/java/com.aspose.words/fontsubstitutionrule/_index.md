@@ -1,37 +1,37 @@
 ---
 title: FontSubstitutionRule
-second_title: Aspose.Words for Java API Reference
-description: This is an abstract base class for the font substitution rule.
+second_title: Aspose.Words for Java API 参考
+description: 这是字体替换规则的抽象基类。
 type: docs
 weight: 289
-url: /java/com.aspose.words/fontsubstitutionrule/
+url: /zh/java/com.aspose.words/fontsubstitutionrule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public abstract class FontSubstitutionRule
 ```
 
-This is an abstract base class for the font substitution rule.
+这是字体替换规则的抽象基类。
 
-To learn more, visit the **Working with Fonts** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with Fonts**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
 | [FontSubstitutionRule()](#FontSubstitutionRule--) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
+| [get班级()](#get班级--) |  |
+| [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | 指定是否启用规则。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,33 +50,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -85,8 +85,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -109,12 +109,12 @@ public void setEnabled(boolean value)
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -124,7 +124,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -142,8 +142,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -155,9 +155,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -4,20 +4,20 @@ second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 17
-url: /java/com.aspose.words.net.system.data/datakey/
+url: /zh/java/com.aspose.words.net.system.data/datakey/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DataKey
 ```
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getKeyValues(System.Data.DataRow dataRow)](#getKeyValues-com.aspose.words.net.System.Data.DataRow-) |  |
 | [getTable()](#getTable--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -35,23 +35,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getKeyValues(System.Data.DataRow dataRow) {#getKeyValues-com.aspose.words.net.System.Data.DataRow-}
 ```
 public Object[] getKeyValues(System.Data.DataRow dataRow)
@@ -60,12 +60,12 @@ public Object[] getKeyValues(System.Data.DataRow dataRow)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
-**Returns:**
+**退货:**
 java.lang.Object[]
 ### getTable() {#getTable--}
 ```
@@ -75,7 +75,7 @@ public System.Data.DataTable getTable()
 
 
 
-**Returns:**
+**退货:**
 [DataTable](../../com.aspose.words.net.system.data/datatable)
 ### hashCode() {#hashCode--}
 ```
@@ -85,8 +85,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -111,7 +111,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -129,8 +129,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -142,9 +142,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

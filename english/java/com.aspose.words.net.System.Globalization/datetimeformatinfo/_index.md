@@ -1,28 +1,28 @@
 ---
 title: DateTimeFormatInfo
 second_title: Aspose.Words for Java API Reference
-description: Map for .Nets System.Globalization.DateTimeFormatInfo.
+description: .Nets System.Globalization.DateTimeFormatInfo 的映射。
 type: docs
 weight: 12
-url: /java/com.aspose.words.net.system.globalization/datetimeformatinfo/
+url: /zh/java/com.aspose.words.net.system.globalization/datetimeformatinfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DateTimeFormatInfo
 ```
 
-Map for .Net's System.Globalization.DateTimeFormatInfo.
-## Methods
+.Net 的 System.Globalization.DateTimeFormatInfo 的映射。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAMDesignator()](#getAMDesignator--) |  |
 | [getAbbreviatedDayNames()](#getAbbreviatedDayNames--) |  |
 | [getAbbreviatedMonthNames()](#getAbbreviatedMonthNames--) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getDayNames()](#getDayNames--) |  |
 | [getLongDatePattern()](#getLongDatePattern--) |  |
 | [getLongTimePattern()](#getLongTimePattern--) |  |
@@ -59,13 +59,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAMDesignator() {#getAMDesignator--}
 ```
 public String getAMDesignator()
@@ -74,7 +74,7 @@ public String getAMDesignator()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getAbbreviatedDayNames() {#getAbbreviatedDayNames--}
 ```
@@ -84,7 +84,7 @@ public String[] getAbbreviatedDayNames()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String[]
 ### getAbbreviatedMonthNames() {#getAbbreviatedMonthNames--}
 ```
@@ -94,18 +94,18 @@ public String[] getAbbreviatedMonthNames()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String[]
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDayNames() {#getDayNames--}
 ```
 public String[] getDayNames()
@@ -114,7 +114,7 @@ public String[] getDayNames()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String[]
 ### getLongDatePattern() {#getLongDatePattern--}
 ```
@@ -124,7 +124,7 @@ public String getLongDatePattern()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getLongTimePattern() {#getLongTimePattern--}
 ```
@@ -134,7 +134,7 @@ public String getLongTimePattern()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getMonthNames() {#getMonthNames--}
 ```
@@ -144,7 +144,7 @@ public String[] getMonthNames()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String[]
 ### getPMDesignator() {#getPMDesignator--}
 ```
@@ -154,7 +154,7 @@ public String getPMDesignator()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getShortDatePattern() {#getShortDatePattern--}
 ```
@@ -164,7 +164,7 @@ public String getShortDatePattern()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getShortTimePattern() {#getShortTimePattern--}
 ```
@@ -174,7 +174,7 @@ public String getShortTimePattern()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getShortestDayNames() {#getShortestDayNames--}
 ```
@@ -184,7 +184,7 @@ public String[] getShortestDayNames()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String[]
 ### hashCode() {#hashCode--}
 ```
@@ -194,8 +194,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -220,8 +220,8 @@ public void setAMDesignator(String amDesignator)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | amDesignator | java.lang.String |  |
 
@@ -233,8 +233,8 @@ public void setAbbreviatedDayNames(String[] abbreviatedDayNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedDayNames | java.lang.String[] |  |
 
@@ -246,8 +246,8 @@ public void setAbbreviatedMonthGenitiveNames(String[] abbreviatedMonthNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
@@ -259,8 +259,8 @@ public void setAbbreviatedMonthNames(String[] abbreviatedMonthNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | abbreviatedMonthNames | java.lang.String[] |  |
 
@@ -272,8 +272,8 @@ public void setDayNames(String[] dayNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dayNames | java.lang.String[] |  |
 
@@ -285,8 +285,8 @@ public void setLongDatePattern(String longDatePat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | longDatePat | java.lang.String |  |
 
@@ -298,8 +298,8 @@ public void setLongTimePattern(String longTimePattern)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | longTimePattern | java.lang.String |  |
 
@@ -311,8 +311,8 @@ public void setMonthGenitiveNames(String[] monthNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
@@ -324,8 +324,8 @@ public void setMonthNames(String[] monthNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | monthNames | java.lang.String[] |  |
 
@@ -337,8 +337,8 @@ public void setPMDesignator(String pmDesignator)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pmDesignator | java.lang.String |  |
 
@@ -350,8 +350,8 @@ public void setShortDatePattern(String shortDatePattern)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortDatePattern | java.lang.String |  |
 
@@ -363,8 +363,8 @@ public void setShortTimePattern(String shortTimePatt)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortTimePatt | java.lang.String |  |
 
@@ -376,8 +376,8 @@ public void setShortestDayNames(String[] shortestDayNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shortestDayNames | java.lang.String[] |  |
 
@@ -389,7 +389,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -407,8 +407,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -420,9 +420,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

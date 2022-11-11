@@ -1,30 +1,30 @@
 ---
 title: ComparisonExpression
-second_title: Aspose.Words for Java API Reference
-description: The comparison expression.
+second_title: Aspose.Words for Java API 参考
+description: 比较表达式。
 type: docs
 weight: 83
-url: /java/com.aspose.words/comparisonexpression/
+url: /zh/java/com.aspose.words/comparisonexpression/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ComparisonExpression
 ```
 
-The comparison expression.
+比较表达式。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Methods
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComparisonOperator()](#getComparisonOperator--) | Gets the comparison operator. |
-| [getLeftExpression()](#getLeftExpression--) | Gets the left expression. |
-| [getRightExpression()](#getRightExpression--) | Gets the right expression. |
+| [get班级()](#get班级--) |  |
+| [getComparisonOperator()](#getComparisonOperator--) | 获取比较运算符。 |
+| [getLeftExpression()](#getLeftExpression--) | 获取左侧表达式。 |
+| [getRightExpression()](#getRightExpression--) | 得到正确的表达。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,53 +40,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getComparisonOperator() {#getComparisonOperator--}
 ```
 public String getComparisonOperator()
 ```
 
 
-Gets the comparison operator.
+获取比较运算符。
 
-**Returns:**
-java.lang.String - The comparison operator.
+**退货:**
+java.lang.String - 比较运算符。
 ### getLeftExpression() {#getLeftExpression--}
 ```
 public String getLeftExpression()
 ```
 
 
-Gets the left expression.
+获取左侧表达式。
 
-**Returns:**
-java.lang.String - The left expression.
+**退货:**
+java.lang.String - 左边的表达式。
 ### getRightExpression() {#getRightExpression--}
 ```
 public String getRightExpression()
 ```
 
 
-Gets the right expression.
+得到正确的表达。
 
-**Returns:**
-java.lang.String - The right expression.
+**退货:**
+java.lang.String - 正确的表达式。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,8 +95,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -121,7 +121,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -139,8 +139,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -152,9 +152,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

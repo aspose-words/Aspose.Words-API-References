@@ -1,28 +1,28 @@
 ---
 title: DocumentSavingArgs
-second_title: Aspose.Words for Java API Reference
-description: An argument passed into .
+second_title: Aspose.Words for Java API 参考
+description: 传入的参数。
 type: docs
 weight: 129
-url: /java/com.aspose.words/documentsavingargs/
+url: /zh/java/com.aspose.words/documentsavingargs/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DocumentSavingArgs
 ```
 
-An argument passed into [IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
+传入的参数[IDocumentSavingCallback.notify(com.aspose.words.DocumentSavingArgs)](../../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-).
 
-To learn more, visit the **Save a Document** documentation article.
-## Methods
+要了解更多信息，请访问**Save a Document**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEstimatedProgress()](#getEstimatedProgress--) | Overall estimated percentage progress. |
+| [get班级()](#get班级--) |  |
+| [getEstimatedProgress()](#getEstimatedProgress--) | 总体估计百分比进度。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,33 +38,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEstimatedProgress() {#getEstimatedProgress--}
 ```
 public double getEstimatedProgress()
 ```
 
 
-Overall estimated percentage progress.
+总体估计百分比进度。
 
-**Returns:**
-double - The corresponding  double  value.
+**退货:**
+double - 对应的双精度值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -73,8 +73,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -99,7 +99,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -117,8 +117,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -130,9 +130,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

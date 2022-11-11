@@ -1,29 +1,29 @@
 ---
 title: BuildVersionInfo
-second_title: Aspose.Words for Java API Reference
-description: Provides information about the current product name and version.
+second_title: Aspose.Words for Java API 参考
+description: 提供有关当前产品名称和版本的信息。
 type: docs
 weight: 40
-url: /java/com.aspose.words/buildversioninfo/
+url: /zh/java/com.aspose.words/buildversioninfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class BuildVersionInfo
 ```
 
-Provides information about the current product name and version.
+提供有关当前产品名称和版本的信息。
 
-To learn more, visit the **Generator or Producer Name Included in Output Documents** documentation article.
-## Methods
+要了解更多信息，请访问**Generator or Producer Name Included in Output Documents**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getProduct()](#getProduct--) | Gets the full name of the product. |
-| [getVersion()](#getVersion--) | Gets the product version. |
+| [get班级()](#get班级--) |  |
+| [getProduct()](#getProduct--) | 获取产品的全名。 |
+| [getVersion()](#getVersion--) | 获取产品版本。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -39,45 +39,45 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getProduct() {#getProduct--}
 ```
 public static String getProduct()
 ```
 
 
-Gets the full name of the product.
+获取产品的全名。
 
-**Returns:**
-java.lang.String - The full name of the product.
+**退货:**
+java.lang.String - 产品的全名。
 ### getVersion() {#getVersion--}
 ```
 public static String getVersion()
 ```
 
 
-Gets the product version.
+获取产品版本。
 
-The product version is in the "Major.Minor.Hotfix.0" format.
+产品版本采用“Major.Minor.Hotfix.0”格式。
 
-**Returns:**
-java.lang.String - The product version.
+**退货:**
+java.lang.String - 产品版本。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -86,8 +86,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -112,7 +112,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -130,8 +130,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -143,9 +143,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

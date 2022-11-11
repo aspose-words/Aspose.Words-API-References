@@ -1,32 +1,32 @@
 ---
 title: Glyph
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 307
-url: /java/com.aspose.words/glyph/
+url: /zh/java/com.aspose.words/glyph/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Glyph
 ```
-## Constructors
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)](#Glyph-int-short-short-short-) | Initializes a new instance of this class. |
-## Methods
+| [Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)](#Glyph-int-short-short-short-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [deepClone()](#deepClone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getAdvance()](#getAdvance--) |  |
 | [getAdvanceOffset()](#getAdvanceOffset--) |  |
 | [getAscenderOffset()](#getAscenderOffset--) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getGlyphIndex()](#getGlyphIndex--) |  |
 | [getWidth(int em, float fontSize)](#getWidth-int-float-) |  |
 | [hashCode()](#hashCode--) |  |
@@ -43,10 +43,10 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | glyphIndex | int |  |
 | advance | short |  |
@@ -61,7 +61,7 @@ public Glyph deepClone()
 
 
 
-**Returns:**
+**退货:**
 [Glyph](../../com.aspose.words/glyph)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -71,13 +71,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAdvance() {#getAdvance--}
 ```
 public short getAdvance()
@@ -86,8 +86,8 @@ public short getAdvance()
 
 
 
-**Returns:**
-short
+**退货:**
+短的
 ### getAdvanceOffset() {#getAdvanceOffset--}
 ```
 public short getAdvanceOffset()
@@ -96,8 +96,8 @@ public short getAdvanceOffset()
 
 
 
-**Returns:**
-short
+**退货:**
+短的
 ### getAscenderOffset() {#getAscenderOffset--}
 ```
 public short getAscenderOffset()
@@ -106,18 +106,18 @@ public short getAscenderOffset()
 
 
 
-**Returns:**
-short
-### getClass() {#getClass--}
+**退货:**
+短的
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getGlyphIndex() {#getGlyphIndex--}
 ```
 public int getGlyphIndex()
@@ -126,8 +126,8 @@ public int getGlyphIndex()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getWidth(int em, float fontSize) {#getWidth-int-float-}
 ```
 public float getWidth(int em, float fontSize)
@@ -136,14 +136,14 @@ public float getWidth(int em, float fontSize)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**Returns:**
-float
+**退货:**
+漂浮
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -152,8 +152,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -178,8 +178,8 @@ public void setAdvance(short value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | short |  |
 
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,9 +222,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

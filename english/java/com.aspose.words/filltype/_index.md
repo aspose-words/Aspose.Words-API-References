@@ -1,44 +1,44 @@
 ---
-title: FillType
-second_title: Aspose.Words for Java API Reference
-description: Specifies fill type for a fillable object.
+title: Fill类型
+second_title: Aspose.Words for Java API 参考
+description: 指定可填充对象的填充类型。
 type: docs
 weight: 268
-url: /java/com.aspose.words/filltype/
+url: /zh/java/com.aspose.words/filltype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class FillType
+public class Fill类型
 ```
 
-Specifies fill type for a fillable object.
-## Fields
+指定可填充对象的填充类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BACKGROUND](#BACKGROUND) | Fill is the same as the background. |
-| [GRADIENT](#GRADIENT) | Gradient fill. |
-| [PATTERNED](#PATTERNED) | Patterned fill. |
-| [PICTURE](#PICTURE) | Picture fill. |
-| [SOLID](#SOLID) | Solid fill. |
-| [TEXTURED](#TEXTURED) | Textured fill. |
+| [BACKGROUND](#BACKGROUND) | 填充与背景相同。 |
+| [GRADIENT](#GRADIENT) | 渐变填充。 |
+| [PATTERNED](#PATTERNED) | 图案填充。 |
+| [PICTURE](#PICTURE) | 图片填充。 |
+| [SOLID](#SOLID) | 实心填充。 |
+| [TEXTURED](#TEXTURED) | 纹理填充。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fillTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fillType)](#getName-int-) |  |
+| [fromName(String fill类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int fill类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int fillType)](#toString-int-) |  |
+| [toString(int fill类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int BACKGROUND
 ```
 
 
-Fill is the same as the background.
+填充与背景相同。
 
 ### GRADIENT {#GRADIENT}
 ```
@@ -56,7 +56,7 @@ public static int GRADIENT
 ```
 
 
-Gradient fill.
+渐变填充。
 
 ### PATTERNED {#PATTERNED}
 ```
@@ -64,7 +64,7 @@ public static int PATTERNED
 ```
 
 
-Patterned fill.
+图案填充。
 
 ### PICTURE {#PICTURE}
 ```
@@ -72,7 +72,7 @@ public static int PICTURE
 ```
 
 
-Picture fill.
+图片填充。
 
 ### SOLID {#SOLID}
 ```
@@ -80,7 +80,7 @@ public static int SOLID
 ```
 
 
-Solid fill.
+实心填充。
 
 ### TEXTURED {#TEXTURED}
 ```
@@ -88,7 +88,7 @@ public static int TEXTURED
 ```
 
 
-Textured fill.
+纹理填充。
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String fillTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String fill类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String fillTypeName)
+public static int fromName(String fill类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillTypeName | java.lang.String |  |
+| fill类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int fillType) {#getName-int-}
-```
-public static String getName(int fillType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int fill类型) {#getName-int-}
+```
+public static String getName(int fill类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillType | int |  |
+| fill类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int fillType) {#toString-int-}
+### toString(int fill类型) {#toString-int-}
 ```
-public static String toString(int fillType)
+public static String toString(int fill类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fillType | int |  |
+| fill类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

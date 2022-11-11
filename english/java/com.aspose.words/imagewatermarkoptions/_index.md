@@ -1,34 +1,34 @@
 ---
 title: ImageWatermarkOptions
-second_title: Aspose.Words for Java API Reference
-description: Contains options that can be specified when adding a watermark with image.
+second_title: Aspose.Words for Java API 参考
+description: 包含在添加带有图像的水印时可以指定的选项。
 type: docs
 weight: 344
-url: /java/com.aspose.words/imagewatermarkoptions/
+url: /zh/java/com.aspose.words/imagewatermarkoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ImageWatermarkOptions
 ```
 
-Contains options that can be specified when adding a watermark with image.
+包含在添加带有图像的水印时可以指定的选项。
 
-To learn more, visit the **Working with Watermark** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Watermark**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getScale()](#getScale--) | Gets the scale factor expressed as a fraction of the image. |
+| [get班级()](#get班级--) |  |
+| [getScale()](#getScale--) | 获取表示为图像分数的比例因子。 |
 | [hashCode()](#hashCode--) |  |
-| [isWashout()](#isWashout--) | Gets a boolean value which is responsible for washout effect of the watermark. |
-| [isWashout(boolean value)](#isWashout-boolean-) | Sets a boolean value which is responsible for washout effect of the watermark. |
+| [isWashout()](#isWashout--) | 获取一个布尔值，该值负责水印的冲刷效果。 |
+| [isWashout(boolean value)](#isWashout-boolean-) | 设置一个布尔值，负责水印的冲洗效果。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setScale(double value)](#setScale-double-) | Sets the scale factor expressed as a fraction of the image. |
+| [setScale(double value)](#setScale-double-) | 设置表示为图像分数的比例因子。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,37 +41,37 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getScale() {#getScale--}
 ```
 public double getScale()
 ```
 
 
-Gets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
+获取表示为图像分数的比例因子。默认值为 0 - 自动。
 
-Valid values range from 0 to 65.5 inclusive.
+有效值范围从 0 到 65.5（含）。
 
-Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
+自动缩放意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
 
-**Returns:**
-double - The scale factor expressed as a fraction of the image.
+**退货:**
+double - 表示为图像分数的比例因子。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -80,30 +80,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isWashout() {#isWashout--}
 ```
 public boolean isWashout()
 ```
 
 
-Gets a boolean value which is responsible for washout effect of the watermark. The default value is True.
+获取一个布尔值，该值负责水印的冲刷效果。默认值是true。
 
-**Returns:**
-boolean - A boolean value which is responsible for washout effect of the watermark.
+**退货:**
+boolean - 一个布尔值，负责水印的冲刷效果。
 ### isWashout(boolean value) {#isWashout-boolean-}
 ```
 public void isWashout(boolean value)
 ```
 
 
-Sets a boolean value which is responsible for washout effect of the watermark. The default value is True.
+设置一个布尔值，负责水印的冲洗效果。默认值是true。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value which is responsible for washout effect of the watermark. |
+| value | boolean | 一个布尔值，负责水印的冲刷效果。 |
 
 ### notify() {#notify--}
 ```
@@ -127,16 +127,16 @@ public void setScale(double value)
 ```
 
 
-Sets the scale factor expressed as a fraction of the image. The default value is 0 - auto.
+设置表示为图像分数的比例因子。默认值为 0 - 自动。
 
-Valid values range from 0 to 65.5 inclusive.
+有效值范围从 0 到 65.5（含）。
 
-Auto scale means that the watermark will be scaled to its max width and max height relative to the page margins.
+自动缩放意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The scale factor expressed as a fraction of the image. |
+| value | double | 比例因子表示为图像的一部分。 |
 
 ### toString() {#toString--}
 ```
@@ -146,7 +146,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -164,8 +164,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -177,9 +177,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

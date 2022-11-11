@@ -1,38 +1,38 @@
 ---
 title: PlainTextDocument
-second_title: Aspose.Words for Java API Reference
-description: Allows to extract plain-text representation of the documents content.
+second_title: Aspose.Words for Java API 参考
+description: 允许提取文档内容的纯文本表示。
 type: docs
 weight: 465
-url: /java/com.aspose.words/plaintextdocument/
+url: /zh/java/com.aspose.words/plaintextdocument/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PlainTextDocument
 ```
 
-Allows to extract plain-text representation of the document's content.
+允许提取文档内容的纯文本表示。
 
-To learn more, visit the **Working with Text Document** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with Text Document**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [PlainTextDocument(String fileName)](#PlainTextDocument-java.lang.String-) | Creates a plain text document from a file. |
-| [PlainTextDocument(String fileName, LoadOptions loadOptions)](#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-) | Creates a plain text document from a file. |
-| [PlainTextDocument(InputStream stream)](#PlainTextDocument-java.io.InputStream-) | Initializes a new instance of this class. |
-| [PlainTextDocument(InputStream stream, LoadOptions loadOptions)](#PlainTextDocument-java.io.InputStream-com.aspose.words.LoadOptions-) | Initializes a new instance of this class. |
-## Methods
+| [PlainTextDocument(String fileName)](#PlainTextDocument-java.lang.String-) | 从文件创建纯文本文档。 |
+| [PlainTextDocument(String fileName, LoadOptions loadOptions)](#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-) | 从文件创建纯文本文档。 |
+| [PlainTextDocument(InputStream stream)](#PlainTextDocument-java.io.InputStream-) | 初始化此类的新实例。 |
+| [PlainTextDocument(InputStream stream, LoadOptions loadOptions)](#PlainTextDocument-java.io.InputStream-com.aspose.words.LoadOptions-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document. |
-| [getClass()](#getClass--) |  |
-| [getCustomDocumentProperties()](#getCustomDocumentProperties--) | Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document. |
-| [getText()](#getText--) | Gets textual content of the document concatenated as a string. |
+| [getBuiltInDocumentProperties()](#getBuiltInDocumentProperties--) | 获取[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--)的文件。 |
+| [get班级()](#get班级--) |  |
+| [getCustomDocumentProperties()](#getCustomDocumentProperties--) | 获取[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--)的文件。 |
+| [getText()](#getText--) | 获取连接为字符串的文档的文本内容。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,12 +46,12 @@ public PlainTextDocument(String fileName)
 ```
 
 
-Creates a plain text document from a file. Automatically detects the file format.
+从文件创建纯文本文档。自动检测文件格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file to extract the text from. |
+| fileName | java.lang.String | 要从中提取文本的文件的名称。 |
 
 ### PlainTextDocument(String fileName, LoadOptions loadOptions) {#PlainTextDocument-java.lang.String-com.aspose.words.LoadOptions-}
 ```
@@ -59,13 +59,13 @@ public PlainTextDocument(String fileName, LoadOptions loadOptions)
 ```
 
 
-Creates a plain text document from a file. Allows to specify additional options such as an encryption password.
+从文件创建纯文本文档。允许指定其他选项，例如加密密码。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file to extract the text from. |
-| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) | Additional options to use when loading a document. Can be null. |
+| fileName | java.lang.String | 要从中提取文本的文件的名称。 |
+| loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) | 加载文档时使用的其他选项。可以为空。 |
 
 ### PlainTextDocument(InputStream stream) {#PlainTextDocument-java.io.InputStream-}
 ```
@@ -73,10 +73,10 @@ public PlainTextDocument(InputStream stream)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
@@ -86,10 +86,10 @@ public PlainTextDocument(InputStream stream, LoadOptions loadOptions)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 | loadOptions | [LoadOptions](../../com.aspose.words/loadoptions) |  |
@@ -102,53 +102,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBuiltInDocumentProperties() {#getBuiltInDocumentProperties--}
 ```
 public BuiltInDocumentProperties getBuiltInDocumentProperties()
 ```
 
 
-Gets [getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document.
+获取[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--)的文件。
 
-**Returns:**
-[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) - \{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--) of the document.
-### getClass() {#getClass--}
+**退货:**
+[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) -\{[getBuiltInDocumentProperties()](../../com.aspose.words/plaintextdocument\#getBuiltInDocumentProperties--)的文件。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCustomDocumentProperties() {#getCustomDocumentProperties--}
 ```
 public CustomDocumentProperties getCustomDocumentProperties()
 ```
 
 
-Gets [getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document.
+获取[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--)的文件。
 
-**Returns:**
-[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) - \{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--) of the document.
+**退货:**
+[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) -\{[getCustomDocumentProperties()](../../com.aspose.words/plaintextdocument\#getCustomDocumentProperties--)的文件。
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-Gets textual content of the document concatenated as a string.
+获取连接为字符串的文档的文本内容。
 
-**Returns:**
-java.lang.String - Textual content of the document concatenated as a string.
+**退货:**
+java.lang.String - 连接为字符串的文档的文本内容。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -157,8 +157,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -183,7 +183,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

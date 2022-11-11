@@ -1,38 +1,38 @@
 ---
 title: ReportBuildOptions
-second_title: Aspose.Words for Java API Reference
-description: Specifies options controlling behavior of  while building a report.
+second_title: Aspose.Words for Java API 参考
+description: 指定在构建报告时控制行为的选项。
 type: docs
 weight: 477
-url: /java/com.aspose.words/reportbuildoptions/
+url: /zh/java/com.aspose.words/reportbuildoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ReportBuildOptions
 ```
 
-Specifies options controlling behavior of [ReportingEngine](../../com.aspose.words/reportingengine) while building a report.
-## Fields
+指定控制行为的选项[ReportingEngine](../../com.aspose.words/reportingengine)在构建报告时。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ALLOW_MISSING_MEMBERS](#ALLOW-MISSING-MEMBERS) | Specifies that missing object members should be treated as null literals by the engine. |
-| [INLINE_ERROR_MESSAGES](#INLINE-ERROR-MESSAGES) | Specifies that the engine should inline template syntax error messages into output documents. |
-| [NONE](#NONE) | Specifies default options. |
-| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | Specifies that the engine should remove paragraphs becoming empty after template syntax tags are removed or replaced with empty values. |
-| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | Specifies that the engine should use EXIF \\u200b\\u200bimage orientation values to appropriately rotate inserted JPEG images. |
-| [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9. |
+| [ALLOW_MISSING_MEMBERS](#ALLOW-MISSING-MEMBERS) | 指定缺少的对象成员应被引擎视为空文字。 |
+| [INLINE_ERROR_MESSAGES](#INLINE-ERROR-MESSAGES) | 指定引擎应将模板语法错误消息内联到输出文档中。 |
+| [NONE](#NONE) | 指定默认选项。 |
+| [REMOVE_EMPTY_PARAGRAPHS](#REMOVE-EMPTY-PARAGRAPHS) | 指定在模板语法标签被删除或替换为空值后引擎应删除变为空的段落。 |
+| [RESPECT_JPEG_EXIF_ORIENTATION](#RESPECT-JPEG-EXIF-ORIENTATION) | 指定引擎应该使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。 |
+| [USE_LEGACY_HEADER_FOOTER_VISITING](#USE-LEGACY-HEADER-FOOTER-VISITING) | 指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String reportBuildOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set reportBuildOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int reportBuildOptions)](#getName-int-) |  |
 | [getNames(int reportBuildOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -51,7 +51,7 @@ public static int ALLOW_MISSING_MEMBERS
 ```
 
 
-Specifies that missing object members should be treated as null literals by the engine. This option affects only access to instance (that is, non-static) object members and extension methods. If this option is not set, the engine throws an exception when encounters a missing object member.
+指定缺少的对象成员应被引擎视为空文字。此选项仅影响对实例（即非静态）对象成员和扩展方法的访问。如果未设置此选项，则引擎在遇到缺少的对象成员时会引发异常。
 
 ### INLINE_ERROR_MESSAGES {#INLINE-ERROR-MESSAGES}
 ```
@@ -59,7 +59,7 @@ public static int INLINE_ERROR_MESSAGES
 ```
 
 
-Specifies that the engine should inline template syntax error messages into output documents. If this option is not set, the engine throws an exception when encounters a syntax error.
+指定引擎应将模板语法错误消息内联到输出文档中。如果未设置此选项，则引擎在遇到语法错误时会抛出异常。
 
 ### NONE {#NONE}
 ```
@@ -67,7 +67,7 @@ public static int NONE
 ```
 
 
-Specifies default options.
+指定默认选项。
 
 ### REMOVE_EMPTY_PARAGRAPHS {#REMOVE-EMPTY-PARAGRAPHS}
 ```
@@ -75,7 +75,7 @@ public static int REMOVE_EMPTY_PARAGRAPHS
 ```
 
 
-Specifies that the engine should remove paragraphs becoming empty after template syntax tags are removed or replaced with empty values.
+指定在模板语法标签被删除或替换为空值后引擎应删除变为空的段落。
 
 ### RESPECT_JPEG_EXIF_ORIENTATION {#RESPECT-JPEG-EXIF-ORIENTATION}
 ```
@@ -83,7 +83,7 @@ public static int RESPECT_JPEG_EXIF_ORIENTATION
 ```
 
 
-Specifies that the engine should use EXIF \\u200b\\u200bimage orientation values to appropriately rotate inserted JPEG images.
+指定引擎应该使用 EXIF\\u200b\\u200bimage 方向值以适当地旋转插入的 JPEG 图像。
 
 ### USE_LEGACY_HEADER_FOOTER_VISITING {#USE-LEGACY-HEADER-FOOTER-VISITING}
 ```
@@ -91,11 +91,11 @@ public static int USE_LEGACY_HEADER_FOOTER_VISITING
 ```
 
 
-Specifies that the engine should visit section child nodes (headers, footers, bodies) in an order compatible with Aspose.Words versions prior 21.9.
+指定引擎应该按照与 Aspose.Words 21.9 之前的版本兼容的顺序访问部分子节点（页眉、页脚、正文）。
 
-By default, the engine treats headers and footers as if they were linked to section breaks. That is, when visiting section child nodes, a body is visited first and only then, headers and footers are visited. This agrees with Microsoft Word behavior when copy-pasting or removing multi-section contents and produces more correct results in most scenarios.
+默认情况下，引擎将页眉和页脚视为链接到分节符。也就是说，当访问section子节点时，首先访问body，然后才访问header和footer。这与 Microsoft Word 在复制粘贴或删除多节内容时的行为一致，并在大多数情况下产生更正确的结果。
 
-Prior to Aspose.Words 21.9, the engine used another visiting order: Section child nodes were visited in an order they appear in a document. Apply this value to [ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-) if compatibility with older versions of Aspose.Words is required.
+在 Aspose.Words 21.9 之前，引擎使用另一种访问顺序：按照它们在文档中出现的顺序访问部分子节点。将此值应用于[ReportingEngine.getOptions()](../../com.aspose.words/reportingengine\#getOptions--) / [ReportingEngine.setOptions(int)](../../com.aspose.words/reportingengine\#setOptions-int-)如果需要与旧版本的 Aspose.Words 兼容。
 
 ### length {#length}
 ```
@@ -111,13 +111,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String reportBuildOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String reportBuildOptionsName)
@@ -126,13 +126,13 @@ public static int fromName(String reportBuildOptionsName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptionsName | java.lang.String |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### fromNames(Set reportBuildOptionsNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set reportBuildOptionsNames)
@@ -141,23 +141,23 @@ public static int fromNames(Set reportBuildOptionsNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptionsNames | java.util.Set |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int reportBuildOptions) {#getName-int-}
 ```
 public static String getName(int reportBuildOptions)
@@ -166,12 +166,12 @@ public static String getName(int reportBuildOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getNames(int reportBuildOptions) {#getNames-int-}
 ```
@@ -181,12 +181,12 @@ public static Set getNames(int reportBuildOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**Returns:**
+**退货:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -196,8 +196,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -206,8 +206,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -232,7 +232,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int reportBuildOptions) {#toString-int-}
 ```
@@ -242,12 +242,12 @@ public static String toString(int reportBuildOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | reportBuildOptions | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -257,12 +257,12 @@ public static String toStringSet(int attr)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -280,8 +280,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -293,9 +293,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

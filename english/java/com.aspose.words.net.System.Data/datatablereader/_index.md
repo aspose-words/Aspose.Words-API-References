@@ -1,49 +1,49 @@
 ---
 title: DataTableReader
 second_title: Aspose.Words for Java API Reference
-description: The  obtains the contents of one or more  objects in the form of one or more read-only forward-only result sets.
+description: 以一个或多个只读只进结果集的形式获取一个或多个对象的内容。
 type: docs
 weight: 27
-url: /java/com.aspose.words.net.system.data/datatablereader/
+url: /zh/java/com.aspose.words.net.system.data/datatablereader/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.net.System.Data.Common.DbDataReader](../../com.aspose.words.net.system.data.common/dbdatareader)
 ```
 public class DataTableReader extends System.Data.Common.DbDataReader
 ```
 
-The [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) obtains the contents of one or more [DataTable](../../com.aspose.words.net.system.data/datatable) objects in the form of one or more read-only, forward-only result sets.
-## Constructors
+这[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)获取一个或多个的内容[DataTable](../../com.aspose.words.net.system.data/datatable)一个或多个只读、只进结果集形式的对象。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [DataTableReader(System.Data.DataTable dataTable)](#DataTableReader-com.aspose.words.net.System.Data.DataTable-) | Initializes a new instance of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) class by using data from the supplied [DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [DataTableReader(System.Data.DataTable[] dataTables)](#DataTableReader-com.aspose.words.net.System.Data.DataTable---) | Initializes a new instance of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) class using the supplied array of [DataTable](../../com.aspose.words.net.system.data/datatable) objects. |
-## Methods
+| [DataTableReader(System.Data.DataTable dataTable)](#DataTableReader-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)使用提供的数据进行分类[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [DataTableReader(System.Data.DataTable[] dataTables)](#DataTableReader-com.aspose.words.net.System.Data.DataTable---) | 初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)类使用提供的数组[DataTable](../../com.aspose.words.net.system.data/datatable)对象。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [close()](#close--) | Closes the current [DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
+| [close()](#close--) | 关闭当前[DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int ordinal)](#get-int-) | Gets the value of the specified column in its native format given the column ordinal. |
-| [get(String name)](#get-java.lang.String-) | Gets the value of the specified column in its native format given the column name. |
-| [getClass()](#getClass--) |  |
-| [getDepth()](#getDepth--) | The depth of nesting for the current row of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
-| [getFieldCount()](#getFieldCount--) | Returns the number of columns in the current row. |
-| [getFieldType(int ordinal)](#getFieldType-int-) | Gets the java.lang.Class that is the data type of the object. |
-| [getName(int ordinal)](#getName-int-) | Gets the value of the specified column as a java.lang.String. |
-| [getRecordsAffected()](#getRecordsAffected--) | Gets the number of rows inserted, changed, or deleted by execution of the SQL statement. |
-| [getSchemaTable()](#getSchemaTable--) | Returns a [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
-| [getValue(int ordinal)](#getValue-int-) | Gets the value of the specified column in its native format. |
-| [hasRows()](#hasRows--) | Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) contains one or more rows. |
+| [get(int ordinal)](#get-int-) | 在给定列序号的情况下，以其本机格式获取指定列的值。 |
+| [get(String name)](#get-java.lang.String-) | 在给定列名的情况下，以本机格式获取指定列的值。 |
+| [get班级()](#get班级--) |  |
+| [getDepth()](#getDepth--) | 当前行的嵌套深度[DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
+| [get字段Count()](#get字段Count--) | 返回当前行的列数。 |
+| [get字段类型(int ordinal)](#get字段类型-int-) | 获取作为对象数据类型的 java.lang.班级。 |
+| [getName(int ordinal)](#getName-int-) | 以 java.lang.String 形式获取指定列的值。 |
+| [getRecordsAffected()](#getRecordsAffected--) | 获取通过执行 SQL 语句插入、更改或删除的行数。 |
+| [getSchemaTable()](#getSchemaTable--) | 返回一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据的[DataTableReader](../../com.aspose.words.net.system.data/datatablereader). |
+| [getValue(int ordinal)](#getValue-int-) | 以本机格式获取指定列的值。 |
+| [hasRows()](#hasRows--) | 获取一个值，该值指示是否[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)包含一或多行。 |
 | [hashCode()](#hashCode--) |  |
-| [isClosed()](#isClosed--) | Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) is closed. |
-| [iterator()](#iterator--) | Returns an enumerator that can be used to iterate through the item collection. |
-| [nextResult()](#nextResult--) | Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) to the next result set, if any. |
+| [isClosed()](#isClosed--) | 获取一个值，该值指示是否[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)已经关了。 |
+| [iterator()](#iterator--) | 返回一个可用于遍历项目集合的枚举器。 |
+| [nextResult()](#nextResult--) | 推进[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)到下一个结果集，如果有的话。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [read()](#read--) | Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) to the next record. |
+| [read()](#read--) | 推进[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)到下一条记录。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,12 +54,12 @@ public DataTableReader(System.Data.DataTable dataTable)
 ```
 
 
-Initializes a new instance of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) class by using data from the supplied [DataTable](../../com.aspose.words.net.system.data/datatable).
+初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)使用提供的数据进行分类[DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | The [DataTable](../../com.aspose.words.net.system.data/datatable) from which the new [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) obtains its result set. |
+| dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 这[DataTable](../../com.aspose.words.net.system.data/datatable)从哪个新[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)获得其结果集。 |
 
 ### DataTableReader(System.Data.DataTable[] dataTables) {#DataTableReader-com.aspose.words.net.System.Data.DataTable---}
 ```
@@ -67,12 +67,12 @@ public DataTableReader(System.Data.DataTable[] dataTables)
 ```
 
 
-Initializes a new instance of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) class using the supplied array of [DataTable](../../com.aspose.words.net.system.data/datatable) objects.
+初始化一个新的实例[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)类使用提供的数组[DataTable](../../com.aspose.words.net.system.data/datatable)对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dataTables | [DataTable\[\]](../../com.aspose.words.net.system.data/datatable) | The array of [DataTable](../../com.aspose.words.net.system.data/datatable) objects that supplies the results for the new [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) object. |
+| dataTables | [DataTable\[\]](../../com.aspose.words.net.system.data/datatable) | 数组[DataTable](../../com.aspose.words.net.system.data/datatable)提供新结果的对象[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)目的。 |
 
 ### close() {#close--}
 ```
@@ -80,7 +80,7 @@ public void close()
 ```
 
 
-Closes the current [DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
+关闭当前[DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -90,148 +90,148 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int ordinal) {#get-int-}
 ```
 public Object get(int ordinal)
 ```
 
 
-Gets the value of the specified column in its native format given the column ordinal.
+在给定列序号的情况下，以其本机格式获取指定列的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ordinal | int | The zero-based column ordinal. |
+| ordinal | int | 从零开始的列序号。 |
 
-**Returns:**
-java.lang.Object - The value of the specified column in its native format.
+**退货:**
+java.lang.Object - 本机格式的指定列的值。
 ### get(String name) {#get-java.lang.String-}
 ```
 public Object get(String name)
 ```
 
 
-Gets the value of the specified column in its native format given the column name.
+在给定列名的情况下，以本机格式获取指定列的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the column. |
+| name | java.lang.String | 列的名称。 |
 
-**Returns:**
-java.lang.Object - The value of the specified column in its native format.
-### getClass() {#getClass--}
+**退货:**
+java.lang.Object - 本机格式的指定列的值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDepth() {#getDepth--}
 ```
 public int getDepth()
 ```
 
 
-The depth of nesting for the current row of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
+当前行的嵌套深度[DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
 
-**Returns:**
-int - The depth of nesting for the current row; always zero.
-### getFieldCount() {#getFieldCount--}
+**退货:**
+int - 当前行的嵌套深度；始终为零。
+### get字段Count() {#get字段Count--}
 ```
-public int getFieldCount()
-```
-
-
-Returns the number of columns in the current row.
-
-**Returns:**
-int - When not positioned in a valid result set, 0; otherwise the number of columns in the current row.
-### getFieldType(int ordinal) {#getFieldType-int-}
-```
-public Class getFieldType(int ordinal)
+public int get字段Count()
 ```
 
 
-Gets the java.lang.Class that is the data type of the object.
+返回当前行的列数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+int - 未定位在有效结果集中时，为 0；否则为当前行的列数。
+### get字段类型(int ordinal) {#get字段类型-int-}
+```
+public 班级 get字段类型(int ordinal)
+```
+
+
+获取作为对象数据类型的 java.lang.班级。
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ordinal | int | The zero-based column ordinal. |
+| ordinal | int | 从零开始的列序号。 |
 
-**Returns:**
-java.lang.Class - The java.lang.Class that is the data type of the object.
+**退货:**
+java.lang.班级 - 作为对象数据类型的 java.lang.班级。
 ### getName(int ordinal) {#getName-int-}
 ```
 public String getName(int ordinal)
 ```
 
 
-Gets the value of the specified column as a java.lang.String.
+以 java.lang.String 形式获取指定列的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ordinal | int | The zero-based column ordinal |
+| ordinal | int | 从零开始的列序号 |
 
-**Returns:**
-java.lang.String - The name of the specified column.
+**退货:**
+java.lang.String - 指定列的名称。
 ### getRecordsAffected() {#getRecordsAffected--}
 ```
 public int getRecordsAffected()
 ```
 
 
-Gets the number of rows inserted, changed, or deleted by execution of the SQL statement.
+获取通过执行 SQL 语句插入、更改或删除的行数。
 
-**Returns:**
-int - The [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) does not support this property and always returns 0.
+**退货:**
+诠释 - 的[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)不支持此属性，始终返回 0。
 ### getSchemaTable() {#getSchemaTable--}
 ```
 public System.Data.DataTable getSchemaTable()
 ```
 
 
-Returns a [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata of the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
+返回一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据的[DataTableReader](../../com.aspose.words.net.system.data/datatablereader).
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据。
 ### getValue(int ordinal) {#getValue-int-}
 ```
 public Object getValue(int ordinal)
 ```
 
 
-Gets the value of the specified column in its native format.
+以本机格式获取指定列的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ordinal | int | The zero-based column ordinal |
+| ordinal | int | 从零开始的列序号 |
 
-**Returns:**
-java.lang.Object - The value of the specified column. This method returns DBNull for null columns.
+**退货:**
+java.lang.Object - 指定列的值。此方法为空列返回 DBNull。
 ### hasRows() {#hasRows--}
 ```
 public boolean hasRows()
 ```
 
 
-Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) contains one or more rows.
+获取一个值，该值指示是否[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)包含一或多行。
 
-**Returns:**
-boolean - true if the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) contains one or more rows; otherwise false.
+**退货:**
+布尔值 - 如果[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)包含一行或多行；否则为假。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -240,38 +240,38 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isClosed() {#isClosed--}
 ```
 public boolean isClosed()
 ```
 
 
-Gets a value that indicates whether the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) is closed.
+获取一个值，该值指示是否[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)已经关了。
 
-**Returns:**
-boolean - Returns true if the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) is closed; otherwise, false.
+**退货:**
+ boolean - 如果[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)已经关了;否则为假。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator that can be used to iterate through the item collection.
+返回一个可用于遍历项目集合的枚举器。
 
-**Returns:**
-java.util.Iterator - An java.util.Iterator object that represents the item collection.
+**退货:**
+java.util.Iterator - 一个表示项目集合的 java.util.Iterator 对象。
 ### nextResult() {#nextResult--}
 ```
 public boolean nextResult()
 ```
 
 
-Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) to the next result set, if any.
+推进[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)到下一个结果集，如果有的话。
 
-**Returns:**
-boolean - true if there was another result set; otherwise false.
+**退货:**
+boolean - 如果有另一个结果集，则为 true；否则为假。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -294,10 +294,10 @@ public boolean read()
 ```
 
 
-Advances the [DataTableReader](../../com.aspose.words.net.system.data/datatablereader) to the next record.
+推进[DataTableReader](../../com.aspose.words.net.system.data/datatablereader)到下一条记录。
 
-**Returns:**
-boolean - true if there was another row to read; otherwise false.
+**退货:**
+boolean - 如果还有另一行要读取，则为 true；否则为假。
 ### toString() {#toString--}
 ```
 public String toString()
@@ -306,7 +306,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -324,8 +324,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -337,9 +337,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

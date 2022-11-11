@@ -1,37 +1,37 @@
 ---
 title: License
-second_title: Aspose.Words for Java API Reference
-description: Provides methods to license the component.
+second_title: Aspose.Words for Java API 参考
+description: 提供许可组件的方法。
 type: docs
 weight: 364
-url: /java/com.aspose.words/license/
+url: /zh/java/com.aspose.words/license/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class License
 ```
 
-Provides methods to license the component.
+提供许可组件的方法。
 
-To learn more, visit the **Licensing and Subscription** documentation article.
-## Constructors
+要了解更多信息，请访问**Licensing and Subscription**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [License()](#License--) | Initializes a new instance of this class. |
-## Methods
+| [License()](#License--) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setLicense(InputStream stream)](#setLicense-java.io.InputStream-) |  |
-| [setLicense(String licenseName)](#setLicense-java.lang.String-) | Licenses the component. |
+| [setLicense(String licenseName)](#setLicense-java.lang.String-) | 许可组件。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,7 +42,7 @@ public License()
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -52,23 +52,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -77,8 +77,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -103,8 +103,8 @@ public void setLicense(InputStream stream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
@@ -114,20 +114,20 @@ public void setLicense(String licenseName)
 ```
 
 
-Licenses the component.
+许可组件。
 
-Tries to find the license in the following locations:
+尝试在以下位置查找许可证：
 
-1. Explicit path.
+1. 显式路径。
 
-2. The folder that contains the Aspose component JAR file.
+2. 包含 Aspose 组件 JAR 文件的文件夹。
 
-3. The folder that contains the client's calling JAR file.
+3. 包含客户端调用 JAR 文件的文件夹。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| licenseName | java.lang.String | Can be a full or short file name. Use an empty string to switch to evaluation mode. |
+| licenseName | java.lang.String | 可以是完整或短文件名。使用空字符串切换到评估模式。 |
 
 ### toString() {#toString--}
 ```
@@ -137,7 +137,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -155,8 +155,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -168,9 +168,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

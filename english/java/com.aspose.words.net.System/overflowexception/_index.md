@@ -1,35 +1,35 @@
 ---
 title: OverflowException
 second_title: Aspose.Words for Java API Reference
-description: The exception that is thrown when an arithmetic casting or conversion operation in a checked context results in an overflow.
+description: 当检查上下文中的算术转换或转换操作导致溢出时引发的异常。
 type: docs
 weight: 10
-url: /java/com.aspose.words.net.system/overflowexception/
+url: /zh/java/com.aspose.words.net.system/overflowexception/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException, java.lang.ArithmeticException
 ```
 public class OverflowException extends ArithmeticException
 ```
 
-The exception that is thrown when an arithmetic, casting, or conversion operation in a checked context results in an overflow.
-## Constructors
+当检查上下文中的算术、强制转换或转换操作导致溢出时引发的异常。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [OverflowException()](#OverflowException--) | Initializes a new instance of the [OverflowException](../../com.aspose.words.net.system/overflowexception) class. |
-| [OverflowException(String message)](#OverflowException-java.lang.String-) | Initializes a new instance of the [OverflowException](../../com.aspose.words.net.system/overflowexception) class with a specified error message. |
-| [OverflowException(String message, Throwable cause)](#OverflowException-java.lang.String-java.lang.Throwable-) | Initializes a new instance of this class. |
-## Methods
+| [OverflowException()](#OverflowException--) | 初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)班级。 |
+| [OverflowException(String message)](#OverflowException-java.lang.String-) | 初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)具有指定错误消息的类。 |
+| [OverflowException(String message, Throwable cause)](#OverflowException-java.lang.String-java.lang.Throwable-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -52,7 +52,7 @@ public OverflowException()
 ```
 
 
-Initializes a new instance of the [OverflowException](../../com.aspose.words.net.system/overflowexception) class.
+初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)班级。
 
 ### OverflowException(String message) {#OverflowException-java.lang.String-}
 ```
@@ -60,12 +60,12 @@ public OverflowException(String message)
 ```
 
 
-Initializes a new instance of the [OverflowException](../../com.aspose.words.net.system/overflowexception) class with a specified error message.
+初始化一个新的实例[OverflowException](../../com.aspose.words.net.system/overflowexception)具有指定错误消息的类。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | java.lang.String | The message that describes the error. |
+| message | java.lang.String | 描述错误的消息。 |
 
 ### OverflowException(String message, Throwable cause) {#OverflowException-java.lang.String-java.lang.Throwable-}
 ```
@@ -73,10 +73,10 @@ public OverflowException(String message, Throwable cause)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | message | java.lang.String |  |
 | cause | java.lang.Throwable |  |
@@ -89,8 +89,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
@@ -102,13 +102,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()
@@ -117,7 +117,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -127,18 +127,18 @@ public synchronized Throwable getCause()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -147,7 +147,7 @@ public String getLocalizedMessage()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getMessage() {#getMessage--}
 ```
@@ -157,7 +157,7 @@ public String getMessage()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getStackTrace() {#getStackTrace--}
 ```
@@ -167,7 +167,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**Returns:**
+**退货:**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -177,7 +177,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**Returns:**
+**退货:**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
 public synchronized Throwable initCause(Throwable arg0)
@@ -197,12 +197,12 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**Returns:**
+**退货:**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -236,8 +236,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
@@ -249,8 +249,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
@@ -262,8 +262,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
@@ -275,7 +275,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -293,8 +293,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -306,9 +306,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

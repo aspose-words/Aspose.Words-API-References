@@ -1,55 +1,55 @@
 ---
 title: com.aspose.words.net.System.Data
-second_title: Aspose.Words for Java API Reference
-description: Provides types mimicking .NET types of the System.Data namespace in Java.
+second_title: Aspose.Words for Java API 参考
+description: 提供模仿 Java 中 System.Data 命名空间的 .NET 类型的类型。
 type: docs
 weight: 12
-url: /java/com.aspose.words.net.system.data/
+url: /zh/java/com.aspose.words.net.system.data/
 ---
 
 
-Provides types mimicking .NET types of the `System.Data` namespace in Java.
+提供模仿 .NET 类型的类型`System.Data`Java 中的命名空间。
 
 
-## Classes
+## 班级es
 
-| Class | Description |
+| 班级 | 描述 |
 | --- | --- |
-| [Constraint](../com.aspose.words.net.system.data/constraint) | Represents a constraint that can be enforced on one or more [DataColumn](../com.aspose.words.net.system.data/datacolumn) objects. |
-| [ConstraintCollection](../com.aspose.words.net.system.data/constraintcollection) | Represents a collection of constraints for a [DataTable](../com.aspose.words.net.system.data/datatable). |
-| [ConstraintException](../com.aspose.words.net.system.data/constraintexception) | Represents the exception that is thrown when attempting an action that violates a constraint. |
+| [Constraint](../com.aspose.words.net.system.data/constraint) | 表示可以对一个或多个强制执行的约束[DataColumn](../com.aspose.words.net.system.data/datacolumn)对象。 |
+| [ConstraintCollection](../com.aspose.words.net.system.data/constraintcollection) | 表示一个约束的集合[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [ConstraintException](../com.aspose.words.net.system.data/constraintexception) | 表示尝试违反约束的操作时引发的异常。 |
 | [DBNull](../com.aspose.words.net.system.data/dbnull) |  |
-| [DataColumn](../com.aspose.words.net.system.data/datacolumn) | Represents the schema of a column in a [DataTable](../com.aspose.words.net.system.data/datatable). |
-| [DataColumnCollection](../com.aspose.words.net.system.data/datacolumncollection) | Represents a collection of [DataColumn](../com.aspose.words.net.system.data/datacolumn) objects for a [DataTable](../com.aspose.words.net.system.data/datatable). |
-| [DataException](../com.aspose.words.net.system.data/dataexception) | Represents the exception that is thrown when errors are generated using ADO.NET components. |
+| [DataColumn](../com.aspose.words.net.system.data/datacolumn) | 表示 a 中列的架构[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataColumnCollection](../com.aspose.words.net.system.data/datacolumncollection) | 代表一个集合[DataColumn](../com.aspose.words.net.system.data/datacolumn)对象[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataException](../com.aspose.words.net.system.data/dataexception) | 表示使用 ADO.NET 组件生成错误时引发的异常。 |
 | [DataKey](../com.aspose.words.net.system.data/datakey) |  |
-| [DataRelation](../com.aspose.words.net.system.data/datarelation) | Represents a parent/child relationship between two [DataTable](../com.aspose.words.net.system.data/datatable) objects. |
-| [DataRelationCollection](../com.aspose.words.net.system.data/datarelationcollection) | Represents the collection of [DataRelation](../com.aspose.words.net.system.data/datarelation) objects for this [DataSet](../com.aspose.words.net.system.data/dataset). |
-| [DataRow](../com.aspose.words.net.system.data/datarow) | Represents a row of data in a [DataTable](../com.aspose.words.net.system.data/datatable). |
-| [DataRowCollection](../com.aspose.words.net.system.data/datarowcollection) | Represents a collection of rows for a [DataTable](../com.aspose.words.net.system.data/datatable). |
-| [DataRowState](../com.aspose.words.net.system.data/datarowstate) | Represents a state of rows. |
-| [DataRowView](../com.aspose.words.net.system.data/datarowview) | Represents a customized view of a [DataRow](../com.aspose.words.net.system.data/datarow). |
-| [DataSet](../com.aspose.words.net.system.data/dataset) | Represents an in-memory cache of data. |
-| [DataTable](../com.aspose.words.net.system.data/datatable) | Represents one table of in-memory data. |
-| [DataTableCollection](../com.aspose.words.net.system.data/datatablecollection) | Represents the collection of tables for the [DataSet](../com.aspose.words.net.system.data/dataset). |
-| [DataTableReader](../com.aspose.words.net.system.data/datatablereader) | The [DataTableReader](../com.aspose.words.net.system.data/datatablereader) obtains the contents of one or more [DataTable](../com.aspose.words.net.system.data/datatable) objects in the form of one or more read-only, forward-only result sets. |
-| [DataView](../com.aspose.words.net.system.data/dataview) | Represents a databindable, customized view of a [DataTable](../com.aspose.words.net.system.data/datatable) for sorting, filtering, searching, editing, and navigation. |
-| [ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint) | Represents an action restriction enforced on a set of columns in a primary key/foreign key relationship when a value or row is either deleted or updated. |
-| [InvalidConstraintException](../com.aspose.words.net.system.data/invalidconstraintexception) | Represents the exception that is thrown when incorrectly trying to create or access a relation. |
-| [MappingType](../com.aspose.words.net.system.data/mappingtype) | Specifies how a [DataColumn](../com.aspose.words.net.system.data/datacolumn) is mapped. |
-| [UniqueConstraint](../com.aspose.words.net.system.data/uniqueconstraint) | Represents a restriction on a set of columns in which all values must be unique. |
+| [DataRelation](../com.aspose.words.net.system.data/datarelation) | 表示两个之间的父/子关系[DataTable](../com.aspose.words.net.system.data/datatable)对象。 |
+| [DataRelationCollection](../com.aspose.words.net.system.data/datarelationcollection) | 代表集合[DataRelation](../com.aspose.words.net.system.data/datarelation)为此的对象[DataSet](../com.aspose.words.net.system.data/dataset). |
+| [DataRow](../com.aspose.words.net.system.data/datarow) | 表示a中的一行数据[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataRowCollection](../com.aspose.words.net.system.data/datarowcollection) | 表示一个行的集合[DataTable](../com.aspose.words.net.system.data/datatable). |
+| [DataRowState](../com.aspose.words.net.system.data/datarowstate) | 表示行的状态。 |
+| [DataRowView](../com.aspose.words.net.system.data/datarowview) | 表示一个自定义视图[DataRow](../com.aspose.words.net.system.data/datarow). |
+| [DataSet](../com.aspose.words.net.system.data/dataset) | 表示数据的内存缓存。 |
+| [DataTable](../com.aspose.words.net.system.data/datatable) | 表示一个内存数据表。 |
+| [DataTableCollection](../com.aspose.words.net.system.data/datatablecollection) | 表示表的集合[DataSet](../com.aspose.words.net.system.data/dataset). |
+| [DataTableReader](../com.aspose.words.net.system.data/datatablereader) | 这[DataTableReader](../com.aspose.words.net.system.data/datatablereader)获取一个或多个的内容[DataTable](../com.aspose.words.net.system.data/datatable)一个或多个只读、只进结果集形式的对象。 |
+| [DataView](../com.aspose.words.net.system.data/dataview) | 表示一个可数据绑定的自定义视图[DataTable](../com.aspose.words.net.system.data/datatable)用于排序、过滤、搜索、编辑和导航。 |
+| [ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint) | 表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。 |
+| [InvalidConstraintException](../com.aspose.words.net.system.data/invalidconstraintexception) | 表示错误地尝试创建或访问关系时引发的异常。 |
+| [Mapping类型](../com.aspose.words.net.system.data/mappingtype) | 指定如何[DataColumn](../com.aspose.words.net.system.data/datacolumn)被映射。 |
+| [UniqueConstraint](../com.aspose.words.net.system.data/uniqueconstraint) | 表示对一组列的限制，其中所有值都必须是唯一的。 |
 
-## Interfaces
+## 界面s
 
-| Interface | Description |
+| 界面 | 描述 |
 | --- | --- |
 | [DataTableEventListener](../com.aspose.words.net.system.data/datatableeventlistener) |  |
-| [IDataReader](../com.aspose.words.net.system.data/idatareader) | Provides a means of reading one or more forward-only streams of result sets obtained by executing a command at a data source, and is implemented by .NET Framework data providers that access relational databases. |
-| [IDataRecord](../com.aspose.words.net.system.data/idatarecord) | Provides access to the column values within each row for a DataReader, and is implemented by .NET Framework data providers that access relational databases. |
+| [IDataReader](../com.aspose.words.net.system.data/idatareader) | 提供一种读取通过在数据源处执行命令获得的一个或多个只进结果集流的方法，由访问关系数据库的 .NET Framework 数据提供程序实现。 |
+| [IDataRecord](../com.aspose.words.net.system.data/idatarecord) | 为 DataReader 提供对每行中列值的访问，并由访问关系数据库的 .NET Framework 数据提供程序实现。 |
 
 ## Enumerations
 
-| Enum | Description |
+| 枚举 | 描述 |
 | --- | --- |
-| [Rule](../com.aspose.words.net.system.data/rule) | Indicates the action that occurs when a [ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced. |
-| [XmlReadMode](../com.aspose.words.net.system.data/xmlreadmode) | Specifies how to read XML data and a relational schema into a [DataSet](../com.aspose.words.net.system.data/dataset). |
+| [Rule](../com.aspose.words.net.system.data/rule) | 表示当一个[ForeignKeyConstraint](../com.aspose.words.net.system.data/foreignkeyconstraint)被强制执行。 |
+| [XmlReadMode](../com.aspose.words.net.system.data/xmlreadmode) | 指定如何将 XML 数据和关系模式读入[DataSet](../com.aspose.words.net.system.data/dataset). |

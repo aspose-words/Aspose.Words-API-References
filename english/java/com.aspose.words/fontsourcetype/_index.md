@@ -1,43 +1,43 @@
 ---
-title: FontSourceType
-second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a font source.
+title: FontSource类型
+second_title: Aspose.Words for Java API 参考
+description: 指定字体源的类型。
 type: docs
 weight: 288
-url: /java/com.aspose.words/fontsourcetype/
+url: /zh/java/com.aspose.words/fontsourcetype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class FontSourceType
+public class FontSource类型
 ```
 
-Specifies the type of a font source.
-## Fields
+指定字体源的类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FONTS_FOLDER](#FONTS-FOLDER) | A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files. |
-| [FONT_FILE](#FONT-FILE) | A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file. |
-| [FONT_STREAM](#FONT-STREAM) | A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data. |
-| [MEMORY_FONT](#MEMORY-FONT) | A [MemoryFontSource](../../com.aspose.words/memoryfontsource) object that represents single font in memory. |
-| [SYSTEM_FONTS](#SYSTEM-FONTS) | A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system. |
+| [FONTS_FOLDER](#FONTS-FOLDER) | 一个[FolderFontSource](../../com.aspose.words/folderfontsource)表示带有字体文件的文件夹的对象。 |
+| [FONT_FILE](#FONT-FILE) | 一个[FileFontSource](../../com.aspose.words/filefontsource)表示单个字体文件的对象。 |
+| [FONT_STREAM](#FONT-STREAM) | 一个[StreamFontSource](../../com.aspose.words/streamfontsource)表示带有字体数据的流的对象。 |
+| [MEMORY_FONT](#MEMORY-FONT) | 一个[MemoryFontSource](../../com.aspose.words/memoryfontsource)表示内存中单个字体的对象。 |
+| [SYSTEM_FONTS](#SYSTEM-FONTS) | 一个[SystemFontSource](../../com.aspose.words/systemfontsource)表示安装到系统的所有字体的对象。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String fontSourceTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int fontSourceType)](#getName-int-) |  |
+| [fromName(String fontSource类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int fontSource类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int fontSourceType)](#toString-int-) |  |
+| [toString(int fontSource类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,7 +47,7 @@ public static int FONTS_FOLDER
 ```
 
 
-A [FolderFontSource](../../com.aspose.words/folderfontsource) object that represents folder with font files.
+一个[FolderFontSource](../../com.aspose.words/folderfontsource)表示带有字体文件的文件夹的对象。
 
 ### FONT_FILE {#FONT-FILE}
 ```
@@ -55,7 +55,7 @@ public static int FONT_FILE
 ```
 
 
-A [FileFontSource](../../com.aspose.words/filefontsource) object that represents single font file.
+一个[FileFontSource](../../com.aspose.words/filefontsource)表示单个字体文件的对象。
 
 ### FONT_STREAM {#FONT-STREAM}
 ```
@@ -63,7 +63,7 @@ public static int FONT_STREAM
 ```
 
 
-A [StreamFontSource](../../com.aspose.words/streamfontsource) object that represents a stream with font data.
+一个[StreamFontSource](../../com.aspose.words/streamfontsource)表示带有字体数据的流的对象。
 
 ### MEMORY_FONT {#MEMORY-FONT}
 ```
@@ -71,7 +71,7 @@ public static int MEMORY_FONT
 ```
 
 
-A [MemoryFontSource](../../com.aspose.words/memoryfontsource) object that represents single font in memory.
+一个[MemoryFontSource](../../com.aspose.words/memoryfontsource)表示内存中单个字体的对象。
 
 ### SYSTEM_FONTS {#SYSTEM-FONTS}
 ```
@@ -79,7 +79,7 @@ public static int SYSTEM_FONTS
 ```
 
 
-A [SystemFontSource](../../com.aspose.words/systemfontsource) object that represents all fonts installed to the system.
+一个[SystemFontSource](../../com.aspose.words/systemfontsource)表示安装到系统的所有字体的对象。
 
 ### length {#length}
 ```
@@ -95,52 +95,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String fontSourceTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String fontSource类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String fontSourceTypeName)
+public static int fromName(String fontSource类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSourceTypeName | java.lang.String |  |
+| fontSource类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int fontSourceType) {#getName-int-}
-```
-public static String getName(int fontSourceType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int fontSource类型) {#getName-int-}
+```
+public static String getName(int fontSource类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSourceType | int |  |
+| fontSource类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,22 +186,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int fontSourceType) {#toString-int-}
+### toString(int fontSource类型) {#toString-int-}
 ```
-public static String toString(int fontSourceType)
+public static String toString(int fontSource类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fontSourceType | int |  |
+| fontSource类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,9 +232,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

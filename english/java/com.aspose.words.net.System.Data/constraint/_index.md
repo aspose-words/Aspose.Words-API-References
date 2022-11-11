@@ -1,35 +1,35 @@
 ---
 title: Constraint
 second_title: Aspose.Words for Java API Reference
-description: Represents a constraint that can be enforced on one or more  objects.
+description: 表示可以对一个或多个对象实施的约束。
 type: docs
 weight: 10
-url: /java/com.aspose.words.net.system.data/constraint/
+url: /zh/java/com.aspose.words.net.system.data/constraint/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public abstract class Constraint
 ```
 
-Represents a constraint that can be enforced on one or more [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
-## Constructors
+表示可以对一个或多个强制执行的约束[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
 | [Constraint()](#Constraint--) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getConstraintName()](#getConstraintName--) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [get班级()](#get班级--) |  |
+| [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,33 +48,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getConstraintName() {#getConstraintName--}
 ```
 public String getConstraintName()
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**Returns:**
-java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
+**退货:**
+java.lang.String - 的名称[Constraint](../../com.aspose.words.net.system.data/constraint).
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -83,8 +83,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -107,12 +107,12 @@ public void setConstraintName(String value)
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
+| value | java.lang.String | 的名称[Constraint](../../com.aspose.words.net.system.data/constraint). |
 
 ### toString() {#toString--}
 ```
@@ -122,7 +122,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -140,8 +140,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -153,9 +153,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

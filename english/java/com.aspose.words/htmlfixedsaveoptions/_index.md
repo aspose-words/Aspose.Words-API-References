@@ -1,116 +1,116 @@
 ---
 title: HtmlFixedSaveOptions
-second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when saving a document into the  format.
+second_title: Aspose.Words for Java API 参考
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 326
-url: /java/com.aspose.words/htmlfixedsaveoptions/
+url: /zh/java/com.aspose.words/htmlfixedsaveoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
 ```
 public class HtmlFixedSaveOptions extends FixedPageSaveOptions
 ```
 
-Can be used to specify additional options when saving a document into the [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED) format.
+可用于在将文档保存到[SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED)格式。
 
-To learn more, visit the **Specify Save Options** documentation article.
-## Methods
+要了解更多信息，请访问**Specify Save Options**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
-| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass--) |  |
-| [getColorMode()](#getColorMode--) | Gets a value determining how colors are rendered. |
-| [getCssClassNamesPrefix()](#getCssClassNamesPrefix--) | Specifies prefix which is added to all class names in style.css file. |
-| [getDefaultTemplate()](#getDefaultTemplate--) | Gets path to default template (including filename). |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | Gets a value determining how 3D effects are rendered. |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | Gets a value determining how DrawingML effects are rendered. |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | Gets a value determining how DrawingML shapes are rendered. |
+| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [get班级()](#get班级--) |  |
+| [getColorMode()](#getColorMode--) | 获取一个值，该值确定如何呈现颜色。 |
+| [getCss班级NamesPrefix()](#getCss班级NamesPrefix--) | 指定添加到 style.css 文件中所有类名的前缀。 |
+| [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
 | [getEncoding()](#getEncoding--) |  |
-| [getExportEmbeddedCss()](#getExportEmbeddedCss--) | Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document. |
-| [getExportEmbeddedFonts()](#getExportEmbeddedFonts--) | Specifies whether fonts should be embedded into Html document in Base64 format. |
-| [getExportEmbeddedImages()](#getExportEmbeddedImages--) | Specifies whether images should be embedded into Html document in Base64 format. |
-| [getExportEmbeddedSvg()](#getExportEmbeddedSvg--) | Specifies whether SVG resources should be embedded into Html document. |
-| [getExportFormFields()](#getExportFormFields--) | Gets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
-| [getExportGeneratorName()](#getExportGeneratorName--) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [getFontFormat()](#getFontFormat--) | Gets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. |
-| [getImlRenderingMode()](#getImlRenderingMode--) | Gets a value determining how ink (InkML) objects are rendered. |
-| [getJpegQuality()](#getJpegQuality--) | Gets a value determining the quality of the JPEG images inside Html document. |
-| [getMemoryOptimization()](#getMemoryOptimization--) | Gets value determining if memory optimization should be performed before saving the document. |
-| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | Allows to specify metafile rendering options. |
-| [getNumeralFormat()](#getNumeralFormat--) | Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [getOptimizeOutput()](#getOptimizeOutput--) | Flag indicates whether it is required to optimize output. |
-| [getPageHorizontalAlignment()](#getPageHorizontalAlignment--) | Specifies the horizontal alignment of pages in an HTML document. |
-| [getPageMargins()](#getPageMargins--) | Specifies the margins around pages in an HTML document. |
-| [getPageSavingCallback()](#getPageSavingCallback--) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [getPageSet()](#getPageSet--) | Gets the pages to render. |
-| [getPrettyFormat()](#getPrettyFormat--) | When  true , pretty formats output where applicable. |
-| [getProgressCallback()](#getProgressCallback--) | Called during saving a document and accepts data about saving progress. |
-| [getResourceSavingCallback()](#getResourceSavingCallback--) | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
-| [getResourcesFolder()](#getResourcesFolder--) | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. |
-| [getResourcesFolderAlias()](#getResourcesFolderAlias--) | Specifies the name of the folder used to construct image URIs written into an Html document. |
-| [getSaveFontFaceCssSeparately()](#getSaveFontFaceCssSeparately--) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-) is  false ). |
-| [getSaveFormat()](#getSaveFormat--) | Specifies the format in which the document will be saved if this save options object is used. |
-| [getShowPageBorder()](#getShowPageBorder--) | Specifies whether border around pages should be shown. |
-| [getTempFolder()](#getTempFolder--) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateFields()](#getUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent--) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [getUseAntiAliasing()](#getUseAntiAliasing--) | Gets a value determining whether or not to use anti-aliasing for rendering. |
-| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | Gets a value determining whether or not to use high quality (i.e. |
-| [getUseTargetMachineFonts()](#getUseTargetMachineFonts--) | Flag indicates whether fonts from target machine must be used to display the document. |
+| [getExportEmbeddedCss()](#getExportEmbeddedCss--) | 指定是否应将 CSS（层叠样式表）嵌入到 Html 文档中。 |
+| [getExportEmbeddedFonts()](#getExportEmbeddedFonts--) | 指定字体是否应嵌入到 Base64 格式的 Html 文档中。 |
+| [getExportEmbeddedImages()](#getExportEmbeddedImages--) | 指定是否应将图像嵌入到 Base64 格式的 Html 文档中。 |
+| [getExportEmbeddedSvg()](#getExportEmbeddedSvg--) | 指定是否应将 SVG 资源嵌入到 Html 文档中。 |
+| [getExportForm字段()](#getExportForm字段--) | 获取有关表单字段是否导出为交互式项目（作为“输入”标签）而不是转换为文本或图形的指示。 |
+| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [getFontFormat()](#getFontFormat--) | 获取[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。 |
+| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
+| [getJpegQuality()](#getJpegQuality--) | 获取确定 Html 文档中 JPEG 图像质量的值。 |
+| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
+| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | 允许指定元文件渲染选项。 |
+| [getNumeralFormat()](#getNumeralFormat--) | 获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [getOptimizeOutput()](#getOptimizeOutput--) | Flag 表示是否需要优化输出。 |
+| [getPageHorizontalAlignment()](#getPageHorizontalAlignment--) | 指定 HTML 文档中页面的水平对齐方式。 |
+| [getPageMargins()](#getPageMargins--) | 指定 HTML 文档中页面周围的边距。 |
+| [getPageSavingCallback()](#getPageSavingCallback--) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [getPageSet()](#getPageSet--) | 获取要呈现的页面。 |
+| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [getResourceSavingCallback()](#getResourceSavingCallback--) | 允许控制在将文档导出为固定页面 Html 格式时如何保存资源（图像、字体和 css）。 |
+| [getResourcesFolder()](#getResourcesFolder--) | 指定将文档导出为 Html 格式时保存资源（图像、字体、css）的物理文件夹。 |
+| [getResourcesFolderAlias()](#getResourcesFolderAlias--) | 指定用于构造写入 Html 文档的图像 URI 的文件夹的名称。 |
+| [getSaveFontFaceCssSeparately()](#getSaveFontFaceCssSeparately--) | 标志指示当使用外部样式表保存文档时（即，当[getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-)是假的）。 |
+| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存文档的格式。 |
+| [getShowPageBorder()](#getShowPageBorder--) | 指定是否应显示页面边框。 |
+| [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdate字段()](#getUpdate字段--) | 获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdateSdtContent()](#getUpdateSdtContent--) | 获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
+| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
+| [getUseTargetMachineFonts()](#getUseTargetMachineFonts--) | 标志指示是否必须使用来自目标机器的字体来显示文档。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [setColorMode(int value)](#setColorMode-int-) | Sets a value determining how colors are rendered. |
-| [setCssClassNamesPrefix(String value)](#setCssClassNamesPrefix-java.lang.String-) | Specifies prefix which is added to all class names in style.css file. |
-| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | Sets path to default template (including filename). |
-| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | Sets a value determining how 3D effects are rendered. |
-| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | Sets a value determining how DrawingML effects are rendered. |
-| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | Sets a value determining how DrawingML shapes are rendered. |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [setColorMode(int value)](#setColorMode-int-) | 设置一个值来确定如何呈现颜色。 |
+| [setCss班级NamesPrefix(String value)](#setCss班级NamesPrefix-java.lang.String-) | 指定添加到 style.css 文件中所有类名的前缀。 |
+| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
+| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
+| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
+| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) |  |
-| [setExportEmbeddedCss(boolean value)](#setExportEmbeddedCss-boolean-) | Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document. |
-| [setExportEmbeddedFonts(boolean value)](#setExportEmbeddedFonts-boolean-) | Specifies whether fonts should be embedded into Html document in Base64 format. |
-| [setExportEmbeddedImages(boolean value)](#setExportEmbeddedImages-boolean-) | Specifies whether images should be embedded into Html document in Base64 format. |
-| [setExportEmbeddedSvg(boolean value)](#setExportEmbeddedSvg-boolean-) | Specifies whether SVG resources should be embedded into Html document. |
-| [setExportFormFields(boolean value)](#setExportFormFields-boolean-) | Sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [setFontFormat(int value)](#setFontFormat-int-) | Sets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. |
-| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | Sets a value determining how ink (InkML) objects are rendered. |
-| [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a value determining the quality of the JPEG images inside Html document. |
-| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | Sets value determining if memory optimization should be performed before saving the document. |
-| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | Allows to specify metafile rendering options. |
-| [setNumeralFormat(int value)](#setNumeralFormat-int-) | Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag indicates whether it is required to optimize output. |
-| [setPageHorizontalAlignment(int value)](#setPageHorizontalAlignment-int-) | Specifies the horizontal alignment of pages in an HTML document. |
-| [setPageMargins(double value)](#setPageMargins-double-) | Specifies the margins around pages in an HTML document. |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | Sets the pages to render. |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | When  true , pretty formats output where applicable. |
-| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | Called during saving a document and accepts data about saving progress. |
-| [setResourceSavingCallback(IResourceSavingCallback value)](#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-) | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
-| [setResourcesFolder(String value)](#setResourcesFolder-java.lang.String-) | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. |
-| [setResourcesFolderAlias(String value)](#setResourcesFolderAlias-java.lang.String-) | Specifies the name of the folder used to construct image URIs written into an Html document. |
-| [setSaveFontFaceCssSeparately(boolean value)](#setSaveFontFaceCssSeparately-boolean-) | Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-) is  false ). |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Specifies the format in which the document will be saved if this save options object is used. |
-| [setShowPageBorder(boolean value)](#setShowPageBorder-boolean-) | Specifies whether border around pages should be shown. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateFields(boolean value)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | Sets a value determining whether or not to use anti-aliasing for rendering. |
-| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | Sets a value determining whether or not to use high quality (i.e. |
-| [setUseTargetMachineFonts(boolean value)](#setUseTargetMachineFonts-boolean-) | Flag indicates whether fonts from target machine must be used to display the document. |
+| [setExportEmbeddedCss(boolean value)](#setExportEmbeddedCss-boolean-) | 指定是否应将 CSS（层叠样式表）嵌入到 Html 文档中。 |
+| [setExportEmbeddedFonts(boolean value)](#setExportEmbeddedFonts-boolean-) | 指定字体是否应嵌入到 Base64 格式的 Html 文档中。 |
+| [setExportEmbeddedImages(boolean value)](#setExportEmbeddedImages-boolean-) | 指定是否应将图像嵌入到 Base64 格式的 Html 文档中。 |
+| [setExportEmbeddedSvg(boolean value)](#setExportEmbeddedSvg-boolean-) | 指定是否应将 SVG 资源嵌入到 Html 文档中。 |
+| [setExportForm字段(boolean value)](#setExportForm字段-boolean-) | 设置是否将表单字段导出为交互式项目（作为“输入”标签）而不是转换为文本或图形的指示。 |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [setFontFormat(int value)](#setFontFormat-int-) | 套[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。 |
+| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
+| [setJpegQuality(int value)](#setJpegQuality-int-) | 设置一个值来确定 Html 文档中 JPEG 图像的质量。 |
+| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
+| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | 允许指定元文件渲染选项。 |
+| [setNumeralFormat(int value)](#setNumeralFormat-int-) | 套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag 表示是否需要优化输出。 |
+| [setPageHorizontalAlignment(int value)](#setPageHorizontalAlignment-int-) | 指定 HTML 文档中页面的水平对齐方式。 |
+| [setPageMargins(double value)](#setPageMargins-double-) | 指定 HTML 文档中页面周围的边距。 |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | 设置要呈现的页面。 |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [setResourceSavingCallback(IResourceSavingCallback value)](#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-) | 允许控制在将文档导出为固定页面 Html 格式时如何保存资源（图像、字体和 css）。 |
+| [setResourcesFolder(String value)](#setResourcesFolder-java.lang.String-) | 指定将文档导出为 Html 格式时保存资源（图像、字体、css）的物理文件夹。 |
+| [setResourcesFolderAlias(String value)](#setResourcesFolderAlias-java.lang.String-) | 指定用于构造写入 Html 文档的图像 URI 的文件夹的名称。 |
+| [setSaveFontFaceCssSeparately(boolean value)](#setSaveFontFaceCssSeparately-boolean-) | 标志指示当使用外部样式表保存文档时（即，当[getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-)是假的）。 |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存文档的格式。 |
+| [setShowPageBorder(boolean value)](#setShowPageBorder-boolean-) | 指定是否应显示页面边框。 |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdate字段(boolean value)](#setUpdate字段-boolean-) | 设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | 设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | 设置一个值，确定是否使用抗锯齿进行渲染。 |
+| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | 设置一个值来确定是否使用高质量（即 |
+| [setUseTargetMachineFonts(boolean value)](#setUseTargetMachineFonts-boolean-) | 标志指示是否必须使用来自目标机器的字体来显示文档。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -123,12 +123,12 @@ public static SaveOptions createSaveOptions(int saveFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Returns:**
+**退货:**
 [SaveOptions](../../com.aspose.words/saveoptions)
 ### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String-}
 ```
@@ -136,118 +136,118 @@ public static SaveOptions createSaveOptions(String fileName)
 ```
 
 
-Creates a save options object of a class suitable for the file extension specified in the given file name.
+创建适合给定文件名中指定的文件扩展名的类的保存选项对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
+| fileName | java.lang.String | 此文件名的扩展名确定要创建的保存选项对象的类。 |
 
-**Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
+**退货:**
+[SaveOptions](../../com.aspose.words/saveoptions) - 派生自的类的对象[SaveOptions](../../com.aspose.words/saveoptions).
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified object is equal in value to the current object.
+确定指定对象的值是否与当前对象相等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts--}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Returns:**
-boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass--}
+**退货:**
+boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColorMode() {#getColorMode--}
 ```
 public int getColorMode()
 ```
 
 
-Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+获取一个值，该值确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Returns:**
-int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode) constants.
-### getCssClassNamesPrefix() {#getCssClassNamesPrefix--}
+**退货:**
+int - 确定颜色如何呈现的值。返回值是以下之一[ColorMode](../../com.aspose.words/colormode)常数。
+### getCss班级NamesPrefix() {#getCss班级NamesPrefix--}
 ```
-public String getCssClassNamesPrefix()
+public String getCss班级NamesPrefix()
 ```
 
 
-Specifies prefix which is added to all class names in style.css file. Default value is  "aw" .
+指定添加到 style.css 文件中所有类名的前缀。默认值为 "aw" 。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+获取默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Returns:**
-java.lang.String - Path to default template (including filename).
+**退货:**
+java.lang.String - 默认模板的路径（包括文件名）。
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode--}
 ```
 public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Returns:**
-int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
+**退货:**
+int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
+**退货:**
+ int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -256,7 +256,7 @@ public Charset getEncoding()
 
 
 
-**Returns:**
+**退货:**
 java.nio.charset.Charset
 ### getExportEmbeddedCss() {#getExportEmbeddedCss--}
 ```
@@ -264,382 +264,382 @@ public boolean getExportEmbeddedCss()
 ```
 
 
-Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
+指定是否应将 CSS（层叠样式表）嵌入到 Html 文档中。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getExportEmbeddedFonts() {#getExportEmbeddedFonts--}
 ```
 public boolean getExportEmbeddedFonts()
 ```
 
 
-Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
+指定字体是否应嵌入到 Base64 格式的 Html 文档中。注意设置此标志可以显着增加输出 Html 文件的大小。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getExportEmbeddedImages() {#getExportEmbeddedImages--}
 ```
 public boolean getExportEmbeddedImages()
 ```
 
 
-Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
+指定是否应将图像嵌入到 Base64 格式的 Html 文档中。注意设置此标志可以显着增加输出 Html 文件的大小。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getExportEmbeddedSvg() {#getExportEmbeddedSvg--}
 ```
 public boolean getExportEmbeddedSvg()
 ```
 
 
-Specifies whether SVG resources should be embedded into Html document. Default value is  true .
+指定是否应将 SVG 资源嵌入到 Html 文档中。默认值为 true 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getExportFormFields() {#getExportFormFields--}
+**退货:**
+boolean - 对应的布尔值。
+### getExportForm字段() {#getExportForm字段--}
 ```
-public boolean getExportFormFields()
+public boolean getExportForm字段()
 ```
 
 
-Gets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
+获取有关表单字段是否导出为交互式项目（作为“输入”标签）而不是转换为文本或图形的指示。
 
-**Returns:**
-boolean - Indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
+**退货:**
+boolean - 指示表单字段是否导出为交互式项目（作为“输入”标签）而不是转换为文本或图形。
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getFontFormat() {#getFontFormat--}
 ```
 public int getFontFormat()
 ```
 
 
-Gets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
+获取[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。默认值为[ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
 
-**Returns:**
-int - \{[ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. The returned value is one of [ExportFontFormat](../../com.aspose.words/exportfontformat) constants.
+**退货:**
+诠释 -\{[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。返回值是以下之一[ExportFontFormat](../../com.aspose.words/exportfontformat)常数。
 ### getImlRenderingMode() {#getImlRenderingMode--}
 ```
 public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
 ### getJpegQuality() {#getJpegQuality--}
 ```
 public int getJpegQuality()
 ```
 
 
-Gets a value determining the quality of the JPEG images inside Html document.
+获取确定 Html 文档中 JPEG 图像质量的值。
 
-Has effect only when a document contains JPEG images.
+仅当文档包含 JPEG 图像时才有效。
 
-Use this property to get or set the quality of the images inside a document when saving in fixed page format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
+当以固定页面格式保存时，使用此属性可以获取或设置文档中图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
-The default value is 95.
+默认值为 95。
 
-**Returns:**
-int - A value determining the quality of the JPEG images inside Html document.
+**退货:**
+int - 确定 Html 文档中 JPEG 图像质量的值。
 ### getMemoryOptimization() {#getMemoryOptimization--}
 ```
 public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+获取确定是否应在保存文档之前执行内存优化的值。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Returns:**
-boolean - Value determining if memory optimization should be performed before saving the document.
+**退货:**
+boolean - 确定是否应在保存文档之前执行内存优化的值。
 ### getMetafileRenderingOptions() {#getMetafileRenderingOptions--}
 ```
 public MetafileRenderingOptions getMetafileRenderingOptions()
 ```
 
 
-Allows to specify metafile rendering options.
+允许指定元文件渲染选项。
 
-**Returns:**
-[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value.
+**退货:**
+[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。
 ### getNumeralFormat() {#getNumeralFormat--}
 ```
 public int getNumeralFormat()
 ```
 
 
-Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Returns:**
-int - \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat) constants.
+**退货:**
+诠释 -\{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。返回值是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。
 ### getOptimizeOutput() {#getOptimizeOutput--}
 ```
 public boolean getOptimizeOutput()
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formating are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is true.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getPageHorizontalAlignment() {#getPageHorizontalAlignment--}
 ```
 public int getPageHorizontalAlignment()
 ```
 
 
-Specifies the horizontal alignment of pages in an HTML document. Default value is  HtmlFixedHorizontalPageAlignment.Center .
+指定 HTML 文档中页面的水平对齐方式。默认值为 HtmlFixedHorizontalPageAlignment.Center 。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment)常数。
 ### getPageMargins() {#getPageMargins--}
 ```
 public double getPageMargins()
 ```
 
 
-Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points.
+指定 HTML 文档中页面周围的边距。边距值以磅为单位，应等于或大于 0。默认值为 10 磅。
 
-Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment--) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int-) property:
+取决于价值[getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment--) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int-)财产：
 
- *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
- *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
- *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
 
-**Returns:**
-double - The corresponding  double  value.
+**退货:**
+double - 对应的双精度值。
 ### getPageSavingCallback() {#getPageSavingCallback--}
 ```
 public IPageSavingCallback getPageSavingCallback()
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Returns:**
-[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value.
+**退货:**
+[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。
 ### getPageSet() {#getPageSet--}
 ```
 public PageSet getPageSet()
 ```
 
 
-Gets the pages to render. Default is all the pages in the document.
+获取要呈现的页面。默认为文档中的所有页面。
 
-**Returns:**
-[PageSet](../../com.aspose.words/pageset) - The pages to render.
+**退货:**
+[PageSet](../../com.aspose.words/pageset) - 要呈现的页面。
 ### getPrettyFormat() {#getPrettyFormat--}
 ```
 public boolean getPrettyFormat()
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentSavingCallback getProgressCallback()
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Returns:**
-[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
+**退货:**
+[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。
 ### getResourceSavingCallback() {#getResourceSavingCallback--}
 ```
 public IResourceSavingCallback getResourceSavingCallback()
 ```
 
 
-Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format.
+允许控制在将文档导出为固定页面 Html 格式时如何保存资源（图像、字体和 css）。
 
-**Returns:**
-[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) - The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) value.
+**退货:**
+[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) - 相应的[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback)价值。
 ### getResourcesFolder() {#getResourcesFolder--}
 ```
 public String getResourcesFolder()
 ```
 
 
-Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is  null .
+指定将文档导出为 Html 格式时保存资源（图像、字体、css）的物理文件夹。默认为 null 。
 
-Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages--) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean-) property is false.
+仅在以下情况下有效[getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages--) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean-)属性为假。
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+当你保存一个[Document](../../com.aspose.words/document)在 Html 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)允许您指定图像的保存位置和[getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) to override this behavior.
+如果您将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将图像保存在保存文档文件的同一文件夹中。利用[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)覆盖此行为。
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) property
+如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹，但仍需要将图像保存在某个位置。在这种情况下，您需要使用[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)财产
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getResourcesFolderAlias() {#getResourcesFolderAlias--}
 ```
 public String getResourcesFolderAlias()
 ```
 
 
-Specifies the name of the folder used to construct image URIs written into an Html document. Default is  null .
+指定用于构造写入 Html 文档的图像 URI 的文件夹的名称。默认为 null 。
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+当你保存一个[Document](../../com.aspose.words/document)在 Html 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)允许您指定图像的保存位置和[getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getSaveFontFaceCssSeparately() {#getSaveFontFaceCssSeparately--}
 ```
 public boolean getSaveFontFaceCssSeparately()
 ```
 
 
-Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
+标志指示当使用外部样式表保存文档时（即，当[getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-)是假的）。默认值为 false ，所有 CSS 规则都写入单个文件“styles.css”。将此属性设置为 true 会恢复旧行为（单独的文件）以与旧代码兼容。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
+如果使用此保存选项对象，则指定保存文档的格式。只能是[SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。
 ### getShowPageBorder() {#getShowPageBorder--}
 ```
 public boolean getShowPageBorder()
 ```
 
 
-Specifies whether border around pages should be shown. Default is  true .
+指定是否应显示页面边框。默认为 true 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty--}
 ```
 public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving.
-### getUpdateFields() {#getUpdateFields--}
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。
+### getUpdate字段() {#getUpdate字段--}
 ```
-public boolean getUpdateFields()
+public boolean getUpdate字段()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Returns:**
-boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
+**退货:**
+boolean - 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty--}
 ```
 public boolean getUpdateLastPrintedProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty--}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 ### getUpdateSdtContent() {#getUpdateSdtContent--}
 ```
 public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
+**退货:**
+ boolean - 确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。
 ### getUseAntiAliasing() {#getUseAntiAliasing--}
 ```
 public boolean getUseAntiAliasing()
 ```
 
 
-Gets a value determining whether or not to use anti-aliasing for rendering.
+获取一个值，该值确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Returns:**
-boolean - A value determining whether or not to use anti-aliasing for rendering.
+**退货:**
+boolean - 确定是否使用抗锯齿进行渲染的值。
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Returns:**
-boolean - A value determining whether or not to use high quality (i.e.
+**退货:**
+boolean - 确定是否使用高质量的值（即
 ### getUseTargetMachineFonts() {#getUseTargetMachineFonts--}
 ```
 public boolean getUseTargetMachineFonts()
 ```
 
 
-Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true, [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat--) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int-) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts--) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean-) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback--) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-) is not fired for fonts. Default is false.
+标志指示是否必须使用来自目标机器的字体来显示文档。如果此标志设置为真，[getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat--) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int-)和[getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts--) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean-)属性也没有效果[getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback--) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-)不会因字体而被解雇。默认为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -648,8 +648,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -672,16 +672,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 
 ### setColorMode(int value) {#setColorMode-int-}
 ```
@@ -689,25 +689,25 @@ public void setColorMode(int value)
 ```
 
 
-Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+设置一个值来确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode) constants. |
+| value | int | 确定如何呈现颜色的值。该值必须是以下之一[ColorMode](../../com.aspose.words/colormode)常数。 |
 
-### setCssClassNamesPrefix(String value) {#setCssClassNamesPrefix-java.lang.String-}
+### setCss班级NamesPrefix(String value) {#setCss班级NamesPrefix-java.lang.String-}
 ```
-public void setCssClassNamesPrefix(String value)
+public void setCss班级NamesPrefix(String value)
 ```
 
 
-Specifies prefix which is added to all class names in style.css file. Default value is  "aw" .
+指定添加到 style.css 文件中所有类名的前缀。默认值为 "aw" 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -715,12 +715,12 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Path to default template (including filename). |
+| value | java.lang.String | 默认模板的路径（包括文件名）。 |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int-}
 ```
@@ -728,12 +728,12 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+设置确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
+| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -741,14 +741,14 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+设置一个值，确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -756,14 +756,14 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+设置一个值，确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -773,8 +773,8 @@ public void setEncoding(Charset value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
 
@@ -784,12 +784,12 @@ public void setExportEmbeddedCss(boolean value)
 ```
 
 
-Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document.
+指定是否应将 CSS（层叠样式表）嵌入到 Html 文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setExportEmbeddedFonts(boolean value) {#setExportEmbeddedFonts-boolean-}
 ```
@@ -797,12 +797,12 @@ public void setExportEmbeddedFonts(boolean value)
 ```
 
 
-Specifies whether fonts should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
+指定字体是否应嵌入到 Base64 格式的 Html 文档中。注意设置此标志可以显着增加输出 Html 文件的大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setExportEmbeddedImages(boolean value) {#setExportEmbeddedImages-boolean-}
 ```
@@ -810,12 +810,12 @@ public void setExportEmbeddedImages(boolean value)
 ```
 
 
-Specifies whether images should be embedded into Html document in Base64 format. Note setting this flag can significantly increase size of output Html file.
+指定是否应将图像嵌入到 Base64 格式的 Html 文档中。注意设置此标志可以显着增加输出 Html 文件的大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setExportEmbeddedSvg(boolean value) {#setExportEmbeddedSvg-boolean-}
 ```
@@ -823,25 +823,25 @@ public void setExportEmbeddedSvg(boolean value)
 ```
 
 
-Specifies whether SVG resources should be embedded into Html document. Default value is  true .
+指定是否应将 SVG 资源嵌入到 Html 文档中。默认值为 true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
-### setExportFormFields(boolean value) {#setExportFormFields-boolean-}
+### setExportForm字段(boolean value) {#setExportForm字段-boolean-}
 ```
-public void setExportFormFields(boolean value)
+public void setExportForm字段(boolean value)
 ```
 
 
-Sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics.
+设置是否将表单字段导出为交互式项目（作为“输入”标签）而不是转换为文本或图形的指示。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics. |
+| value | boolean | 指示表单字段是否导出为交互式项目（作为“输入”标签）而不是转换为文本或图形。 |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -849,12 +849,12 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setFontFormat(int value) {#setFontFormat-int-}
 ```
@@ -862,12 +862,12 @@ public void setFontFormat(int value)
 ```
 
 
-Sets [ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. Default value is [ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
+套[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。默认值为[ExportFontFormat.WOFF](../../com.aspose.words/exportfontformat\#WOFF).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[ExportFontFormat](../../com.aspose.words/exportfontformat) used for font exporting. The value must be one of [ExportFontFormat](../../com.aspose.words/exportfontformat) constants. |
+| value | int | \{[ExportFontFormat](../../com.aspose.words/exportfontformat)用于字体导出。该值必须是以下之一[ExportFontFormat](../../com.aspose.words/exportfontformat)常数。 |
 
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int-}
 ```
@@ -875,14 +875,14 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+设置一个值，确定如何呈现墨水 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
+| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
 
 ### setJpegQuality(int value) {#setJpegQuality-int-}
 ```
@@ -890,18 +890,18 @@ public void setJpegQuality(int value)
 ```
 
 
-Sets a value determining the quality of the JPEG images inside Html document.
+设置一个值来确定 Html 文档中 JPEG 图像的质量。
 
-Has effect only when a document contains JPEG images.
+仅当文档包含 JPEG 图像时才有效。
 
-Use this property to get or set the quality of the images inside a document when saving in fixed page format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
+当以固定页面格式保存时，使用此属性可以获取或设置文档中图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
-The default value is 95.
+默认值为 95。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining the quality of the JPEG images inside Html document. |
+| value | int | 确定 Html 文档中 JPEG 图像质量的值。 |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean-}
 ```
@@ -909,12 +909,12 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+设置值确定是否应在保存文档之前执行内存优化。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining if memory optimization should be performed before saving the document. |
+| value | boolean | 确定是否应在保存文档之前执行内存优化的值。 |
 
 ### setMetafileRenderingOptions(MetafileRenderingOptions value) {#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-}
 ```
@@ -922,12 +922,12 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 ```
 
 
-Allows to specify metafile rendering options.
+允许指定元文件渲染选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value. |
+| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。 |
 
 ### setNumeralFormat(int value) {#setNumeralFormat-int-}
 ```
@@ -935,12 +935,12 @@ public void setNumeralFormat(int value)
 ```
 
 
-Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat) constants. |
+| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。该值必须是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。 |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean-}
 ```
@@ -948,12 +948,12 @@ public void setOptimizeOutput(boolean value)
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formating are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is true.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPageHorizontalAlignment(int value) {#setPageHorizontalAlignment-int-}
 ```
@@ -961,12 +961,12 @@ public void setPageHorizontalAlignment(int value)
 ```
 
 
-Specifies the horizontal alignment of pages in an HTML document. Default value is  HtmlFixedHorizontalPageAlignment.Center .
+指定 HTML 文档中页面的水平对齐方式。默认值为 HtmlFixedHorizontalPageAlignment.Center 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[HtmlFixedPageHorizontalAlignment](../../com.aspose.words/htmlfixedpagehorizontalalignment)常数。 |
 
 ### setPageMargins(double value) {#setPageMargins-double-}
 ```
@@ -974,18 +974,18 @@ public void setPageMargins(double value)
 ```
 
 
-Specifies the margins around pages in an HTML document. The margins value is measured in points and should be equal to or greater than 0. Default value is 10 points.
+指定 HTML 文档中页面周围的边距。边距值以磅为单位，应等于或大于 0。默认值为 10 磅。
 
-Depends on the value of [getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment--) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int-) property:
+取决于价值[getPageHorizontalAlignment()](../../com.aspose.words/htmlfixedsaveoptions\#getPageHorizontalAlignment--) / [setPageHorizontalAlignment(int)](../../com.aspose.words/htmlfixedsaveoptions\#setPageHorizontalAlignment-int-)财产：
 
- *  Defines top, bottom and left page margins if the value is [HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
- *  Defines top, bottom and right page margins if the value is [HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
- *  Defines top and bottom page margins if the value is [HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.LEFT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#LEFT).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.RIGHT](../../com.aspose.words/htmlfixedpagehorizontalalignment\#RIGHT).
+ *  如果值为[HtmlFixedPageHorizontalAlignment.CENTER](../../com.aspose.words/htmlfixedpagehorizontalalignment\#CENTER).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The corresponding  double  value. |
+| value | double | 对应的双精度值。 |
 
 ### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.words.IPageSavingCallback-}
 ```
@@ -993,12 +993,12 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value. |
+| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。 |
 
 ### setPageSet(PageSet value) {#setPageSet-com.aspose.words.PageSet-}
 ```
@@ -1006,12 +1006,12 @@ public void setPageSet(PageSet value)
 ```
 
 
-Sets the pages to render. Default is all the pages in the document.
+设置要呈现的页面。默认为文档中的所有页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PageSet](../../com.aspose.words/pageset) | The pages to render. |
+| value | [PageSet](../../com.aspose.words/pageset) | 要呈现的页面。 |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
 ```
@@ -1019,14 +1019,14 @@ public void setPrettyFormat(boolean value)
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback-}
 ```
@@ -1034,14 +1034,14 @@ public void setProgressCallback(IDocumentSavingCallback value)
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
+| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。 |
 
 ### setResourceSavingCallback(IResourceSavingCallback value) {#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-}
 ```
@@ -1049,12 +1049,12 @@ public void setResourceSavingCallback(IResourceSavingCallback value)
 ```
 
 
-Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format.
+允许控制在将文档导出为固定页面 Html 格式时如何保存资源（图像、字体和 css）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) | The corresponding [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) value. |
+| value | [IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback) | 相应的[IResourceSavingCallback](../../com.aspose.words/iresourcesavingcallback)价值。 |
 
 ### setResourcesFolder(String value) {#setResourcesFolder-java.lang.String-}
 ```
@@ -1062,20 +1062,20 @@ public void setResourcesFolder(String value)
 ```
 
 
-Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is  null .
+指定将文档导出为 Html 格式时保存资源（图像、字体、css）的物理文件夹。默认为 null 。
 
-Has effect only if [getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages--) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean-) property is false.
+仅在以下情况下有效[getExportEmbeddedImages()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedImages--) / [setExportEmbeddedImages(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedImages-boolean-)属性为假。
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+当你保存一个[Document](../../com.aspose.words/document)在 Html 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)允许您指定图像的保存位置和[getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) to override this behavior.
+如果您将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将图像保存在保存文档文件的同一文件夹中。利用[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)覆盖此行为。
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder by using the [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) property
+如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹，但仍需要将图像保存在某个位置。在这种情况下，您需要使用[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)财产
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setResourcesFolderAlias(String value) {#setResourcesFolderAlias-java.lang.String-}
 ```
@@ -1083,14 +1083,14 @@ public void setResourcesFolderAlias(String value)
 ```
 
 
-Specifies the name of the folder used to construct image URIs written into an Html document. Default is  null .
+指定用于构造写入 Html 文档的图像 URI 的文件夹的名称。默认为 null 。
 
-When you save a [Document](../../com.aspose.words/document) in Html format, Aspose.Words needs to save all images embedded in the document as standalone files. [getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-) allows you to specify where the images will be saved and [getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
+当你保存一个[Document](../../com.aspose.words/document)在 Html 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getResourcesFolder()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolder--) / [setResourcesFolder(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolder-java.lang.String-)允许您指定图像的保存位置和[getResourcesFolderAlias()](../../com.aspose.words/htmlfixedsaveoptions\#getResourcesFolderAlias--) / [setResourcesFolderAlias(java.lang.String)](../../com.aspose.words/htmlfixedsaveoptions\#setResourcesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setSaveFontFaceCssSeparately(boolean value) {#setSaveFontFaceCssSeparately-boolean-}
 ```
@@ -1098,12 +1098,12 @@ public void setSaveFontFaceCssSeparately(boolean value)
 ```
 
 
-Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css" when a document is being saved with external stylesheet (that is, when [getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-) is  false ). Default value is  false , all CSS rules are written into single file "styles.css". Setting this property to  true  restores the old behavior (separate files) for compatibility with legacy code.
+标志指示当使用外部样式表保存文档时（即，当[getExportEmbeddedCss()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedCss--) / [setExportEmbeddedCss(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedCss-boolean-)是假的）。默认值为 false ，所有 CSS 规则都写入单个文件“styles.css”。将此属性设置为 true 会恢复旧行为（单独的文件）以与旧代码兼容。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSaveFormat(int value) {#setSaveFormat-int-}
 ```
@@ -1111,12 +1111,12 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
+如果使用此保存选项对象，则指定保存文档的格式。只能是[SaveFormat.HTML\_FIXED](../../com.aspose.words/saveformat\#HTML-FIXED).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。 |
 
 ### setShowPageBorder(boolean value) {#setShowPageBorder-boolean-}
 ```
@@ -1124,12 +1124,12 @@ public void setShowPageBorder(boolean value)
 ```
 
 
-Specifies whether border around pages should be shown. Default is  true .
+指定是否应显示页面边框。默认为 true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -1137,20 +1137,20 @@ public void setTempFolder(String value)
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
 ```
@@ -1158,25 +1158,25 @@ public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
 
-### setUpdateFields(boolean value) {#setUpdateFields-boolean-}
+### setUpdate字段(boolean value) {#setUpdate字段-boolean-}
 ```
-public void setUpdateFields(boolean value)
+public void setUpdate字段(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| value | boolean | 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。 |
 
 ### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean-}
 ```
@@ -1184,12 +1184,12 @@ public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean-}
 ```
@@ -1197,12 +1197,12 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean-}
 ```
@@ -1210,12 +1210,12 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -1223,16 +1223,16 @@ public void setUseAntiAliasing(boolean value)
 ```
 
 
-Sets a value determining whether or not to use anti-aliasing for rendering.
+设置一个值，确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use anti-aliasing for rendering. |
+| value | boolean | 确定是否使用抗锯齿进行渲染的值。 |
 
 ### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean-}
 ```
@@ -1240,14 +1240,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use high quality (i.e. |
+| value | boolean | 决定是否使用高质量的值（即 |
 
 ### setUseTargetMachineFonts(boolean value) {#setUseTargetMachineFonts-boolean-}
 ```
@@ -1255,12 +1255,12 @@ public void setUseTargetMachineFonts(boolean value)
 ```
 
 
-Flag indicates whether fonts from target machine must be used to display the document. If this flag is set to true, [getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat--) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int-) and [getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts--) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean-) properties do not have effect, also [getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback--) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-) is not fired for fonts. Default is false.
+标志指示是否必须使用来自目标机器的字体来显示文档。如果此标志设置为真，[getFontFormat()](../../com.aspose.words/htmlfixedsaveoptions\#getFontFormat--) / [setFontFormat(int)](../../com.aspose.words/htmlfixedsaveoptions\#setFontFormat-int-)和[getExportEmbeddedFonts()](../../com.aspose.words/htmlfixedsaveoptions\#getExportEmbeddedFonts--) / [setExportEmbeddedFonts(boolean)](../../com.aspose.words/htmlfixedsaveoptions\#setExportEmbeddedFonts-boolean-)属性也没有效果[getResourceSavingCallback()](../../com.aspose.words/htmlfixedsaveoptions\#getResourceSavingCallback--) / [setResourceSavingCallback(com.aspose.words.IResourceSavingCallback)](../../com.aspose.words/htmlfixedsaveoptions\#setResourceSavingCallback-com.aspose.words.IResourceSavingCallback-)不会因字体而被解雇。默认为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -1270,7 +1270,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1288,8 +1288,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1301,9 +1301,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

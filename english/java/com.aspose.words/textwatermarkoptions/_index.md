@@ -1,40 +1,40 @@
 ---
 title: TextWatermarkOptions
 second_title: Aspose.Words for Java API Reference
-description: Contains options that can be specified when adding a watermark with text.
+description: 包含在添加带文本的水印时可以指定的选项。
 type: docs
 weight: 569
-url: /java/com.aspose.words/textwatermarkoptions/
+url: /zh/java/com.aspose.words/textwatermarkoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextWatermarkOptions
 ```
 
-Contains options that can be specified when adding a watermark with text.
+包含在添加带文本的水印时可以指定的选项。
 
-To learn more, visit the **Working with Watermark** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Watermark**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets font color. |
-| [getFontFamily()](#getFontFamily--) | Gets font family name. |
-| [getFontSize()](#getFontSize--) | Gets a font size. |
-| [getLayout()](#getLayout--) | Gets layout of the watermark. |
+| [get班级()](#get班级--) |  |
+| [getColor()](#getColor--) | 获取字体颜色。 |
+| [getFontFamily()](#getFontFamily--) | 获取字体系列名称。 |
+| [getFontSize()](#getFontSize--) | 获取字体大小。 |
+| [getLayout()](#getLayout--) | 获取水印的布局。 |
 | [hashCode()](#hashCode--) |  |
-| [isSemitrasparent()](#isSemitrasparent--) | Gets a boolean value which is responsible for opacity of the watermark. |
-| [isSemitrasparent(boolean value)](#isSemitrasparent-boolean-) | Sets a boolean value which is responsible for opacity of the watermark. |
+| [isSemitrasparent()](#isSemitrasparent--) | 获取一个布尔值，它负责水印的不透明度。 |
+| [isSemitrasparent(boolean value)](#isSemitrasparent-boolean-) | 设置一个布尔值，它负责水印的不透明度。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets font color. |
-| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | Sets font family name. |
-| [setFontSize(float value)](#setFontSize-float-) | Sets a font size. |
-| [setLayout(int value)](#setLayout-int-) | Sets layout of the watermark. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置字体颜色。 |
+| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | 设置字体系列名称。 |
+| [setFontSize(float value)](#setFontSize-float-) | 设置字体大小。 |
+| [setLayout(int value)](#setLayout-int-) | 设置水印的布局。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,67 +47,67 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-Gets font color. The default value is Color.Silver.
+获取字体颜色。默认值为 Color.Silver。
 
-**Returns:**
-java.awt.Color - Font color.
+**退货:**
+java.awt.Color - 字体颜色。
 ### getFontFamily() {#getFontFamily--}
 ```
 public String getFontFamily()
 ```
 
 
-Gets font family name. The default value is "Calibri".
+获取字体系列名称。默认值为“Calibri”。
 
-**Returns:**
-java.lang.String - Font family name.
+**退货:**
+java.lang.String - 字体系列名称。
 ### getFontSize() {#getFontSize--}
 ```
 public float getFontSize()
 ```
 
 
-Gets a font size. The default value is 0 - auto.
+获取字体大小。默认值为 0 - 自动。
 
-Valid values range from 0 to 65.5 inclusive.
+有效值范围从 0 到 65.5（含）。
 
-Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
+自动字体大小意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
 
-**Returns:**
-float - A font size.
+**退货:**
+float - 字体大小。
 ### getLayout() {#getLayout--}
 ```
 public int getLayout()
 ```
 
 
-Gets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+获取水印的布局。默认值为[WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
 
-**Returns:**
-int - Layout of the watermark. The returned value is one of [WatermarkLayout](../../com.aspose.words/watermarklayout) constants.
+**退货:**
+int - 水印的布局。返回值是以下之一[WatermarkLayout](../../com.aspose.words/watermarklayout)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -116,30 +116,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isSemitrasparent() {#isSemitrasparent--}
 ```
 public boolean isSemitrasparent()
 ```
 
 
-Gets a boolean value which is responsible for opacity of the watermark. The default value is True.
+获取一个布尔值，它负责水印的不透明度。默认值是true。
 
-**Returns:**
-boolean - A boolean value which is responsible for opacity of the watermark.
+**退货:**
+boolean - 一个布尔值，负责水印的不透明度。
 ### isSemitrasparent(boolean value) {#isSemitrasparent-boolean-}
 ```
 public void isSemitrasparent(boolean value)
 ```
 
 
-Sets a boolean value which is responsible for opacity of the watermark. The default value is True.
+设置一个布尔值，它负责水印的不透明度。默认值是true。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value which is responsible for opacity of the watermark. |
+| value | boolean | 一个布尔值，负责水印的不透明度。 |
 
 ### notify() {#notify--}
 ```
@@ -163,12 +163,12 @@ public void setColor(Color value)
 ```
 
 
-Sets font color. The default value is Color.Silver.
+设置字体颜色。默认值为 Color.Silver。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | Font color. |
+| value | java.awt.Color | 字体颜色。 |
 
 ### setFontFamily(String value) {#setFontFamily-java.lang.String-}
 ```
@@ -176,12 +176,12 @@ public void setFontFamily(String value)
 ```
 
 
-Sets font family name. The default value is "Calibri".
+设置字体系列名称。默认值为“Calibri”。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Font family name. |
+| value | java.lang.String | 字体系列名称。 |
 
 ### setFontSize(float value) {#setFontSize-float-}
 ```
@@ -189,16 +189,16 @@ public void setFontSize(float value)
 ```
 
 
-Sets a font size. The default value is 0 - auto.
+设置字体大小。默认值为 0 - 自动。
 
-Valid values range from 0 to 65.5 inclusive.
+有效值范围从 0 到 65.5（含）。
 
-Auto font size means that the watermark will be scaled to its max width and max height relative to the page margins.
+自动字体大小意味着水印将缩放到其相对于页边距的最大宽度和最大高度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | A font size. |
+| value | float | 字体大小。 |
 
 ### setLayout(int value) {#setLayout-int-}
 ```
@@ -206,12 +206,12 @@ public void setLayout(int value)
 ```
 
 
-Sets layout of the watermark. The default value is [WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
+设置水印的布局。默认值为[WatermarkLayout.DIAGONAL](../../com.aspose.words/watermarklayout\#DIAGONAL).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Layout of the watermark. The value must be one of [WatermarkLayout](../../com.aspose.words/watermarklayout) constants. |
+| value | int | 水印的布局。该值必须是以下之一[WatermarkLayout](../../com.aspose.words/watermarklayout)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -221,7 +221,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -239,8 +239,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -252,9 +252,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

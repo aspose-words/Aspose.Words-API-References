@@ -1,32 +1,32 @@
 ---
 title: RefInt
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Integer primitive type
+description: 表示 Integer 基本类型的 Out/Ref 构造
 type: docs
 weight: 15
-url: /java/com.aspose.words.ref/refint/
+url: /zh/java/com.aspose.words.ref/refint/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class RefInt
 ```
 
-Represents Out/Ref constructions for Integer primitive type
-## Constructors
+表示 Integer 基本类型的 Out/Ref 构造
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [RefInt(int value)](#RefInt-int-) | Mimics Out/Ref parameter initialisation with given Value. |
-| [RefInt(long value)](#RefInt-long-) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
-## Methods
+| [RefInt(int value)](#RefInt-int-) | 使用给定值模拟 Out/Ref 参数初始化。 |
+| [RefInt(long value)](#RefInt-long-) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
-| [getClass()](#getClass--) |  |
+| [get()](#get--) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,10 +42,10 @@ public RefInt(int value)
 ```
 
 
-Mimics Out/Ref parameter initialisation with given Value. Should be used before calling the method with Out/Ref constructions
+使用给定值模拟 Out/Ref 参数初始化。应该在调用具有 Out/Ref 结构的方法之前使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -55,10 +55,10 @@ public RefInt(long value)
 ```
 
 
-Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions
+获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | long |  |
 
@@ -70,33 +70,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get() {#get--}
 ```
 public int get()
 ```
 
 
-Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions
+设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -105,8 +105,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -131,13 +131,13 @@ public int set(int anotherValue)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | anotherValue | int |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### set(long anotherValue) {#set-long-}
 ```
 public int set(long anotherValue)
@@ -146,13 +146,13 @@ public int set(long anotherValue)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | anotherValue | long |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### toString() {#toString--}
 ```
 public String toString()
@@ -161,7 +161,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -179,8 +179,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -192,9 +192,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

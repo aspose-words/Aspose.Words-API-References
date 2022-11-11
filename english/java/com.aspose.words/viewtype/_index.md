@@ -1,44 +1,44 @@
 ---
-title: ViewType
+title: View类型
 second_title: Aspose.Words for Java API Reference
-description: Possible values for the view mode in Microsoft Word.
+description: Microsoft Word 中视图模式的可能值。
 type: docs
 weight: 602
-url: /java/com.aspose.words/viewtype/
+url: /zh/java/com.aspose.words/viewtype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class ViewType
+public class View类型
 ```
 
-Possible values for the view mode in Microsoft Word.
-## Fields
+Microsoft Word 中视图模式的可能值。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [NONE](#NONE) | The document shall be rendered in the default view of the application. |
-| [NORMAL](#NORMAL) | The document shall be rendered in a view optimized for outlining or creating long documents. |
-| [OUTLINE](#OUTLINE) | The document shall be rendered in a view optimized for outlining or creating long documents. |
-| [PAGE_LAYOUT](#PAGE-LAYOUT) | The document shall be opened in a view that displays the document as it will print. |
-| [READING](#READING) | The document shall be rendered in the default view of the application. |
-| [WEB](#WEB) | The document shall be rendered in a view mimicking the way this document would be displayed in a web page. |
+| [NONE](#NONE) | 该文档应在应用程序的默认视图中呈现。 |
+| [NORMAL](#NORMAL) | 文档应在为概述或创建长文档而优化的视图中呈现。 |
+| [OUTLINE](#OUTLINE) | 文档应在为概述或创建长文档而优化的视图中呈现。 |
+| [PAGE_LAYOUT](#PAGE-LAYOUT) | 文档应在显示文档打印时的视图中打开。 |
+| [READING](#READING) | 该文档应在应用程序的默认视图中呈现。 |
+| [WEB](#WEB) | 该文档应在模仿该文档在网页中显示的方式的视图中呈现。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String viewTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int viewType)](#getName-int-) |  |
+| [fromName(String view类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int view类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int viewType)](#toString-int-) |  |
+| [toString(int view类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int NONE
 ```
 
 
-The document shall be rendered in the default view of the application.
+该文档应在应用程序的默认视图中呈现。
 
 ### NORMAL {#NORMAL}
 ```
@@ -56,7 +56,7 @@ public static int NORMAL
 ```
 
 
-The document shall be rendered in a view optimized for outlining or creating long documents.
+文档应在为概述或创建长文档而优化的视图中呈现。
 
 ### OUTLINE {#OUTLINE}
 ```
@@ -64,7 +64,7 @@ public static int OUTLINE
 ```
 
 
-The document shall be rendered in a view optimized for outlining or creating long documents.
+文档应在为概述或创建长文档而优化的视图中呈现。
 
 ### PAGE_LAYOUT {#PAGE-LAYOUT}
 ```
@@ -72,7 +72,7 @@ public static int PAGE_LAYOUT
 ```
 
 
-The document shall be opened in a view that displays the document as it will print.
+文档应在显示文档打印时的视图中打开。
 
 ### READING {#READING}
 ```
@@ -80,7 +80,7 @@ public static int READING
 ```
 
 
-The document shall be rendered in the default view of the application.
+该文档应在应用程序的默认视图中呈现。
 
 ### WEB {#WEB}
 ```
@@ -88,7 +88,7 @@ public static int WEB
 ```
 
 
-The document shall be rendered in a view mimicking the way this document would be displayed in a web page.
+该文档应在模仿该文档在网页中显示的方式的视图中呈现。
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String viewTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String view类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String viewTypeName)
+public static int fromName(String view类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| viewTypeName | java.lang.String |  |
+| view类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int viewType) {#getName-int-}
-```
-public static String getName(int viewType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int view类型) {#getName-int-}
+```
+public static String getName(int view类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| viewType | int |  |
+| view类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int viewType) {#toString-int-}
+### toString(int view类型) {#toString-int-}
 ```
-public static String toString(int viewType)
+public static String toString(int view类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| viewType | int |  |
+| view类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,40 +1,40 @@
 ---
 title: Revision
-second_title: Aspose.Words for Java API Reference
-description: Represents a revision tracked change in a document node or style.
+second_title: Aspose.Words for Java API 参考
+description: 表示文档节点或样式中的修订跟踪更改。
 type: docs
 weight: 483
-url: /java/com.aspose.words/revision/
+url: /zh/java/com.aspose.words/revision/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Revision
 ```
 
-Represents a revision (tracked change) in a document node or style. Use [getRevisionType()](../../com.aspose.words/revision\#getRevisionType--) to check the type of this revision.
+表示文档节点或样式中的修订（跟踪更改）。利用[getRevision类型()](../../com.aspose.words/revision\#getRevision类型--)检查此修订的类型。
 
-To learn more, visit the **Track Changes in a Document** documentation article.
-## Methods
+要了解更多信息，请访问**Track Changes in a Document**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [accept()](#accept--) | Accepts this revision. |
+| [accept()](#accept--) | 接受此修订。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | Gets the author of this revision. |
-| [getClass()](#getClass--) |  |
-| [getDateTime()](#getDateTime--) | Gets the date/time of this revision. |
-| [getGroup()](#getGroup--) | Gets the revision group. |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent node (owner) of this revision. |
-| [getParentStyle()](#getParentStyle--) | Gets the immediate parent style (owner) of this revision. |
-| [getRevisionType()](#getRevisionType--) | Gets the type of this revision. |
+| [getAuthor()](#getAuthor--) | 获取此修订的作者。 |
+| [get班级()](#get班级--) |  |
+| [getDateTime()](#getDateTime--) | 获取此修订的日期/时间。 |
+| [getGroup()](#getGroup--) | 获取修订组。 |
+| [getParentNode()](#getParentNode--) | 获取此修订的直接父节点（所有者）。 |
+| [getParentStyle()](#getParentStyle--) | 获取此修订的直接父样式（所有者）。 |
+| [getRevision类型()](#getRevision类型--) | 获取此修订的类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [reject()](#reject--) | Reject this revision. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the author of this revision. |
-| [setDateTime(Date value)](#setDateTime-java.util.Date-) | Sets the date/time of this revision. |
+| [reject()](#reject--) | 拒绝此修订。 |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | 设置此修订的作者。 |
+| [setDateTime(Date value)](#setDateTime-java.util.Date-) | 设置此修订的日期/时间。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,7 +45,7 @@ public void accept()
 ```
 
 
-Accepts this revision.
+接受此修订。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -55,83 +55,83 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
 ```
 
 
-Gets the author of this revision. Can not be empty string or null.
+获取此修订的作者。不能为空字符串或 null。
 
-**Returns:**
-java.lang.String - The author of this revision.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 此版本的作者。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDateTime() {#getDateTime--}
 ```
 public Date getDateTime()
 ```
 
 
-Gets the date/time of this revision.
+获取此修订的日期/时间。
 
-**Returns:**
-java.util.Date - The date/time of this revision.
+**退货:**
+java.util.Date - 本次修订的日期/时间。
 ### getGroup() {#getGroup--}
 ```
 public RevisionGroup getGroup()
 ```
 
 
-Gets the revision group. Returns null if the revision does not belong to any group. Revision has no group if revision type is RevisionType.StyleDefinitionChange or if the revision is not longer exist in document context (accepted/rejected).
+获取修订组。如果修订不属于任何组，则返回 null。如果修订类型为 Revision类型.StyleDefinitionChange 或如果修订不再存在于文档上下文中（接受/拒绝），则修订没有组。
 
-**Returns:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - The revision group.
+**退货:**
+[RevisionGroup](../../com.aspose.words/revisiongroup) - 修订组。
 ### getParentNode() {#getParentNode--}
 ```
 public Node getParentNode()
 ```
 
 
-Gets the immediate parent node (owner) of this revision. This property will work for any revision type other than [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE). If this revision relates to change of Style formatting, use [getParentStyle()](../../com.aspose.words/revision\#getParentStyle--) instead.
+获取此修订的直接父节点（所有者）。此属性适用于除[Revision类型.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE).如果此修订涉及样式格式的更改，请使用[getParentStyle()](../../com.aspose.words/revision\#getParentStyle--)反而。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The immediate parent node (owner) of this revision.
+**退货:**
+[Node](../../com.aspose.words/node) - 此修订的直接父节点（所有者）。
 ### getParentStyle() {#getParentStyle--}
 ```
 public Style getParentStyle()
 ```
 
 
-Gets the immediate parent style (owner) of this revision. This property will work for only for the [RevisionType.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE) revision type. If this revision relates to changes on document nodes, use [getParentNode()](../../com.aspose.words/revision\#getParentNode--) instead.
+获取此修订的直接父样式（所有者）。此属性仅适用于[Revision类型.STYLE\_DEFINITION\_CHANGE](../../com.aspose.words/revisiontype\#STYLE-DEFINITION-CHANGE)修订类型。如果此修订涉及文档节点上的更改，请使用[getParentNode()](../../com.aspose.words/revision\#getParentNode--)反而。
 
-**Returns:**
-[Style](../../com.aspose.words/style) - The immediate parent style (owner) of this revision.
-### getRevisionType() {#getRevisionType--}
+**退货:**
+[Style](../../com.aspose.words/style) 此修订的直接父样式（所有者）。
+### getRevision类型() {#getRevision类型--}
 ```
-public int getRevisionType()
+public int getRevision类型()
 ```
 
 
-Gets the type of this revision.
+获取此修订的类型。
 
-**Returns:**
-int - The type of this revision. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+**退货:**
+ int - 此修订的类型。返回值是以下之一[Revision类型](../../com.aspose.words/revisiontype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,7 +164,7 @@ public void reject()
 ```
 
 
-Reject this revision.
+拒绝此修订。
 
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
@@ -172,12 +172,12 @@ public void setAuthor(String value)
 ```
 
 
-Sets the author of this revision. Can not be empty string or null.
+设置此修订的作者。不能为空字符串或 null。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The author of this revision. |
+| value | java.lang.String | 本次修订的作者。 |
 
 ### setDateTime(Date value) {#setDateTime-java.util.Date-}
 ```
@@ -185,12 +185,12 @@ public void setDateTime(Date value)
 ```
 
 
-Sets the date/time of this revision.
+设置此修订的日期/时间。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The date/time of this revision. |
+| value | java.util.Date | 本次修订的日期/时间。 |
 
 ### toString() {#toString--}
 ```
@@ -200,7 +200,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -218,8 +218,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -231,9 +231,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

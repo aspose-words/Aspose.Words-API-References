@@ -1,41 +1,41 @@
 ---
 title: RevisionCollection
-second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represent revisions in the document.
+second_title: Aspose.Words for Java API 参考
+description: 代表文档中修订的对象集合。
 type: docs
 weight: 484
-url: /java/com.aspose.words/revisioncollection/
+url: /zh/java/com.aspose.words/revisioncollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class RevisionCollection implements Iterable
 ```
 
-A collection of [Revision](../../com.aspose.words/revision) objects that represent revisions in the document.
+一个集合[Revision](../../com.aspose.words/revision)表示文档中的修订的对象。
 
-To learn more, visit the **Track Changes in a Document** documentation article.
+要了解更多信息，请访问**Track Changes in a Document**文档文章。
 
-You do not create instances of this class directly. Use the [Document.getRevisions()](../../com.aspose.words/document\#getRevisions--) property to get revisions present in a document.
-## Methods
+您不直接创建此类的实例。使用[Document.getRevisions()](../../com.aspose.words/document\#getRevisions--)属性来获取文档中存在的修订。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [acceptAll()](#acceptAll--) | Accepts all revisions in this collection. |
+| [acceptAll()](#acceptAll--) | 接受此集合中的所有修订。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a Revision at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of revisions in the collection. |
-| [getGroups()](#getGroups--) | Collection of revision groups. |
+| [get(int index)](#get-int-) | 返回指定索引处的修订。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 返回集合中的修订数。 |
+| [getGroups()](#getGroups--) | 修订组的集合。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
+| [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [rejectAll()](#rejectAll--) | Rejects all revisions in this collection. |
+| [rejectAll()](#rejectAll--) | 拒绝此集合中的所有修订。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,7 +46,7 @@ public void acceptAll()
 ```
 
 
-Accepts all revisions in this collection.
+接受此集合中的所有修订。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -56,66 +56,66 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public Revision get(int index)
 ```
 
 
-Returns a Revision at the specified index.
+返回指定索引处的修订。
 
-The index is zero-based.
+该索引从零开始。
 
-Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
-If index is greater than or equal to the number of items in the list, this returns a null reference.
+如果 index 大于或等于列表中的项目数，则返回空引用。
 
-If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int | 集合中的索引。 |
 
-**Returns:**
-[Revision](../../com.aspose.words/revision) - A Revision at the specified index.
-### getClass() {#getClass--}
+**退货:**
+[Revision](../../com.aspose.words/revision) - 指定索引处的修订。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Returns the number of revisions in the collection.
+返回集合中的修订数。
 
-**Returns:**
-int - The number of revisions in the collection.
+**退货:**
+int - 集合中的修订数。
 ### getGroups() {#getGroups--}
 ```
 public RevisionGroupCollection getGroups()
 ```
 
 
-Collection of revision groups.
+修订组的集合。
 
-**Returns:**
-[RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) - The corresponding [RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) value.
+**退货:**
+[RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection) - 相应的[RevisionGroupCollection](../../com.aspose.words/revisiongroupcollection)价值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -124,17 +124,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator object.
+返回一个枚举器对象。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -158,7 +158,7 @@ public void rejectAll()
 ```
 
 
-Rejects all revisions in this collection.
+拒绝此集合中的所有修订。
 
 ### toString() {#toString--}
 ```
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -186,8 +186,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -199,9 +199,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

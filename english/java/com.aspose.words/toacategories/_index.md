@@ -1,38 +1,38 @@
 ---
 title: ToaCategories
 second_title: Aspose.Words for Java API Reference
-description: Represents a table of authorities categories.
+description: 表示权限类别表。
 type: docs
 weight: 580
-url: /java/com.aspose.words/toacategories/
+url: /zh/java/com.aspose.words/toacategories/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ToaCategories
 ```
 
-Represents a table of authorities categories.
+表示权限类别表。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ToaCategories()](#ToaCategories--) | Initializes a new instance of this class. |
-## Methods
+| [ToaCategories()](#ToaCategories--) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int number)](#get-int-) | Gets the category heading by category number. |
-| [getClass()](#getClass--) |  |
-| [getDefaultCategories()](#getDefaultCategories--) | Gets the default table of authorities categories. |
+| [get(int number)](#get-int-) | 按类别编号获取类别标题。 |
+| [get班级()](#get班级--) |  |
+| [getDefaultCategories()](#getDefaultCategories--) | 获取权限类别的默认表。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(int number, String value)](#set-int-java.lang.String-) | Sets the category heading by category number. |
+| [set(int number, String value)](#set-int-java.lang.String-) | 按类别编号设置类别标题。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,7 +43,7 @@ public ToaCategories()
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -53,48 +53,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int number) {#get-int-}
 ```
 public String get(int number)
 ```
 
 
-Gets the category heading by category number.
+按类别编号获取类别标题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | number | int |  |
 
-**Returns:**
-java.lang.String - The category heading by category number.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 按类别编号的类别标题。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDefaultCategories() {#getDefaultCategories--}
 ```
 public static ToaCategories getDefaultCategories()
 ```
 
 
-Gets the default table of authorities categories. Use the [FieldOptions.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [FieldOptions.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-) property to specify table of authorities categories for a single document.
+获取权限类别的默认表。使用[字段Options.getToaCategories()](../../com.aspose.words/fieldoptions\#getToaCategories--) / [字段Options.setToaCategories(com.aspose.words.ToaCategories)](../../com.aspose.words/fieldoptions\#setToaCategories-com.aspose.words.ToaCategories-)属性来指定单个文档的权限类别表。
 
-**Returns:**
-[ToaCategories](../../com.aspose.words/toacategories) - The default table of authorities categories.
+**退货:**
+[ToaCategories](../../com.aspose.words/toacategories) - 权限类别的默认表。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -103,8 +103,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -127,13 +127,13 @@ public void set(int number, String value)
 ```
 
 
-Sets the category heading by category number.
+按类别编号设置类别标题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | number | int |  |
-| value | java.lang.String | The category heading by category number. |
+| value | java.lang.String | 按类别编号的类别标题。 |
 
 ### toString() {#toString--}
 ```
@@ -143,7 +143,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -161,8 +161,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -174,9 +174,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,45 +1,45 @@
 ---
 title: DropDownItemCollection
-second_title: Aspose.Words for Java API Reference
-description: A collection of strings that represent all the items in a drop-down form field.
+second_title: Aspose.Words for Java API 参考
+description: 表示下拉表单字段中所有项目的字符串集合。
 type: docs
 weight: 135
-url: /java/com.aspose.words/dropdownitemcollection/
+url: /zh/java/com.aspose.words/dropdownitemcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class DropDownItemCollection implements Iterable
 ```
 
-A collection of strings that represent all the items in a drop-down form field.
+表示下拉表单字段中所有项目的字符串集合。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Methods
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [add(String value)](#add-java.lang.String-) |  |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [contains(String value)](#contains-java.lang.String-) | Determines whether the collection contains the specified value. |
+| [clear()](#clear--) | 从集合中移除所有元素。 |
+| [contains(String value)](#contains-java.lang.String-) | 确定集合是否包含指定的值。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets the element at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [get(int index)](#get-int-) | 获取指定索引处的元素。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(String value)](#indexOf-java.lang.String-) | Returns the zero-based index of the specified value in the collection. |
-| [insert(int index, String value)](#insert-int-java.lang.String-) | Inserts a string into the collection at the specified index. |
+| [indexOf(String value)](#indexOf-java.lang.String-) | 返回集合中指定值的从零开始的索引。 |
+| [insert(int index, String value)](#insert-int-java.lang.String-) | 在指定索引处将字符串插入集合中。 |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes the specified value from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a value at the specified index. |
-| [set(int index, String value)](#set-int-java.lang.String-) | Sets the element at the specified index. |
+| [remove(String name)](#remove-java.lang.String-) | 从集合中移除指定的值。 |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的值。 |
+| [set(int index, String value)](#set-int-java.lang.String-) | 在指定索引处设置元素。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,20 +52,20 @@ public int add(String value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-Removes all elements from the collection.
+从集合中移除所有元素。
 
 ### contains(String value) {#contains-java.lang.String-}
 ```
@@ -73,15 +73,15 @@ public boolean contains(String value)
 ```
 
 
-Determines whether the collection contains the specified value.
+确定集合是否包含指定的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Case-sensitive value to locate. |
+| value | java.lang.String | 要定位的区分大小写的值。 |
 
-**Returns:**
-boolean - True if the item is found in the collection; otherwise, false.
+**退货:**
+boolean - 如果在集合中找到该项目，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -90,48 +90,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public String get(int index)
 ```
 
 
-Gets the element at the specified index.
+获取指定索引处的元素。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**Returns:**
-java.lang.String - The element at the specified index.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 指定索引处的元素。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of elements contained in the collection.
+获取集合中包含的元素数。
 
-**Returns:**
-int - The number of elements contained in the collection.
+**退货:**
+int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,36 +140,36 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(String value) {#indexOf-java.lang.String-}
 ```
 public int indexOf(String value)
 ```
 
 
-Returns the zero-based index of the specified value in the collection.
+返回集合中指定值的从零开始的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The case-sensitive value to locate. |
+| value | java.lang.String | 要定位的区分大小写的值。 |
 
-**Returns:**
-int - The zero based index. Negative value if not found.
+**退货:**
+int - 从零开始的索引。如果未找到，则为负值。
 ### insert(int index, String value) {#insert-int-java.lang.String-}
 ```
 public void insert(int index, String value)
 ```
 
 
-Inserts a string into the collection at the specified index.
+在指定索引处将字符串插入集合中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index at which value is inserted. |
-| value | java.lang.String | The string to insert. |
+| index | int | 插入值的从零开始的索引。 |
+| value | java.lang.String | 要插入的字符串。 |
 
 ### isInheritedComplexAttr() {#isInheritedComplexAttr--}
 ```
@@ -179,17 +179,17 @@ public boolean isInheritedComplexAttr()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -213,12 +213,12 @@ public void remove(String name)
 ```
 
 
-Removes the specified value from the collection.
+从集合中移除指定的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-sensitive value to remove. |
+| name | java.lang.String | 要删除的区分大小写的值。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -226,12 +226,12 @@ public void removeAt(int index)
 ```
 
 
-Removes a value at the specified index.
+删除指定索引处的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero based index. |
+| index | int | 从零开始的索引。 |
 
 ### set(int index, String value) {#set-int-java.lang.String-}
 ```
@@ -239,13 +239,13 @@ public void set(int index, String value)
 ```
 
 
-Sets the element at the specified index.
+在指定索引处设置元素。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
-| value | java.lang.String | The element at the specified index. |
+| value | java.lang.String | 指定索引处的元素。 |
 
 ### toString() {#toString--}
 ```
@@ -255,7 +255,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -273,8 +273,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -286,9 +286,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

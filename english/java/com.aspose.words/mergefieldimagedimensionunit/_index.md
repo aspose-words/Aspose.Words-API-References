@@ -1,40 +1,40 @@
 ---
-title: MergeFieldImageDimensionUnit
-second_title: Aspose.Words for Java API Reference
-description: Specifies an unit of an image dimension i.e.
+title: Merge字段ImageDimensionUnit
+second_title: Aspose.Words for Java API 参考
+description: 指定图像尺寸的单位，即
 type: docs
 weight: 395
-url: /java/com.aspose.words/mergefieldimagedimensionunit/
+url: /zh/java/com.aspose.words/mergefieldimagedimensionunit/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class MergeFieldImageDimensionUnit
+public class Merge字段ImageDimensionUnit
 ```
 
-Specifies an unit of an image dimension (i.e. the width or the height) used across a mail merge process.
-## Fields
+指定在邮件合并过程中使用的图像尺寸单位（即宽度或高度）。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [PERCENT](#PERCENT) | The percent of the original image dimension value. |
-| [POINT](#POINT) | The point (i.e. |
+| [PERCENT](#PERCENT) | 原始图像尺寸值的百分比。 |
+| [POINT](#POINT) | 要点（即 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mergeFieldImageDimensionUnitName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int mergeFieldImageDimensionUnit)](#getName-int-) |  |
+| [fromName(String merge字段ImageDimensionUnitName)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int merge字段ImageDimensionUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int mergeFieldImageDimensionUnit)](#toString-int-) |  |
+| [toString(int merge字段ImageDimensionUnit)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int PERCENT
 ```
 
 
-The percent of the original image dimension value.
+原始图像尺寸值的百分比。
 
 ### POINT {#POINT}
 ```
@@ -52,7 +52,7 @@ public static int POINT
 ```
 
 
-The point (i.e. 1/72 inch).
+点（即 1/72 英寸）。
 
 ### length {#length}
 ```
@@ -68,52 +68,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String mergeFieldImageDimensionUnitName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String merge字段ImageDimensionUnitName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String mergeFieldImageDimensionUnitName)
+public static int fromName(String merge字段ImageDimensionUnitName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mergeFieldImageDimensionUnitName | java.lang.String |  |
+| merge字段ImageDimensionUnitName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int mergeFieldImageDimensionUnit) {#getName-int-}
-```
-public static String getName(int mergeFieldImageDimensionUnit)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int merge字段ImageDimensionUnit) {#getName-int-}
+```
+public static String getName(int merge字段ImageDimensionUnit)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mergeFieldImageDimensionUnit | int |  |
+| merge字段ImageDimensionUnit | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,22 +159,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int mergeFieldImageDimensionUnit) {#toString-int-}
+### toString(int merge字段ImageDimensionUnit) {#toString-int-}
 ```
-public static String toString(int mergeFieldImageDimensionUnit)
+public static String toString(int merge字段ImageDimensionUnit)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mergeFieldImageDimensionUnit | int |  |
+| merge字段ImageDimensionUnit | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

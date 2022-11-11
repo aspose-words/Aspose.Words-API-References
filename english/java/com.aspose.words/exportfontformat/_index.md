@@ -1,33 +1,33 @@
 ---
 title: ExportFontFormat
-second_title: Aspose.Words for Java API Reference
-description: Indicates the format that is used to export fonts while rendering to HTML fixed format.
+second_title: Aspose.Words for Java API 参考
+description: 指示在呈现为 HTML 固定格式时用于导出字体的格式。
 type: docs
 weight: 148
-url: /java/com.aspose.words/exportfontformat/
+url: /zh/java/com.aspose.words/exportfontformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ExportFontFormat
 ```
 
-Indicates the format that is used to export fonts while rendering to HTML fixed format.
-## Fields
+指示在呈现为 HTML 固定格式时用于导出字体的格式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [TTF](#TTF) | TTF (TrueType Font format). |
-| [WOFF](#WOFF) | WOFF (Web Open Font Format). |
+| [TTF](#TTF) | TTF（True类型 字体格式）。 |
+| [WOFF](#WOFF) | WOFF（Web 开放字体格式）。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportFontFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int exportFontFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int TTF
 ```
 
 
-TTF (TrueType Font format).
+TTF（True类型 字体格式）。
 
 ### WOFF {#WOFF}
 ```
@@ -52,7 +52,7 @@ public static int WOFF
 ```
 
 
-WOFF (Web Open Font Format).
+WOFF（Web 开放字体格式）。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String exportFontFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String exportFontFormatName)
@@ -83,23 +83,23 @@ public static int fromName(String exportFontFormatName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportFontFormatName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int exportFontFormat) {#getName-int-}
 ```
 public static String getName(int exportFontFormat)
@@ -108,12 +108,12 @@ public static String getName(int exportFontFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportFontFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int exportFontFormat) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int exportFontFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportFontFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

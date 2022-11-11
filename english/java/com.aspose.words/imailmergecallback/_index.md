@@ -1,26 +1,25 @@
 ---
 title: IMailMergeCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to receive notifications while mail merge is performed.
+second_title: Aspose.Words for Java API 参考
+description: 如果您想在执行邮件合并时接收通知，请实现此接口。
 type: docs
 weight: 649
-url: /java/com.aspose.words/imailmergecallback/
+url: /zh/java/com.aspose.words/imailmergecallback/
 ---
 ```
 public interface IMailMergeCallback
 ```
 
-Implement this interface if you want to receive notifications while mail merge is performed.
-## Methods
+如果您想在执行邮件合并时接收通知，请实现此接口。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [tagsReplaced()](#tagsReplaced--) | Called when "mustache" text tags are replaced with MERGEFIELD fields. |
+| [tagsReplaced()](#tagsReplaced--) | 当“mustache”文本标签被 MERGEFIELD 字段替换时调用。 |
 ### tagsReplaced() {#tagsReplaced--}
 ```
 public abstract void tagsReplaced()
 ```
 
 
-Called when "mustache" text tags are replaced with MERGEFIELD fields.
-
+当“mustache”文本标签被 MERGEFIELD 字段替换时调用。

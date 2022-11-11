@@ -1,35 +1,35 @@
 ---
 title: EmbeddedFontFormat
-second_title: Aspose.Words for Java API Reference
-description: Specifies format of particular embedded font inside  object.
+second_title: Aspose.Words for Java API 参考
+description: 指定对象内特定嵌入字体的格式。
 type: docs
 weight: 141
-url: /java/com.aspose.words/embeddedfontformat/
+url: /zh/java/com.aspose.words/embeddedfontformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class EmbeddedFontFormat
 ```
 
-Specifies format of particular embedded font inside [FontInfo](../../com.aspose.words/fontinfo) object.
+指定内部特定嵌入字体的格式[FontInfo](../../com.aspose.words/fontinfo)目的。
 
-When saving a document to a file, only embedded fonts of corresponding format are written down.
-## Fields
+将文档保存到文件时，只记下相应格式的嵌入字体。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | Specifies Embedded OpenType (EOT) File Format. |
-| [OPEN_TYPE](#OPEN-TYPE) | Specifies font, embedded as plain copy of OpenType (TrueType) font file. |
+| [EMBEDDED_OPEN_TYPE](#EMBEDDED-OPEN-TYPE) | 指定嵌入式 Open类型 (EOT) 文件格式。 |
+| [OPEN_TYPE](#OPEN-TYPE) | 指定字体，嵌入为 Open类型 (True类型) 字体文件的纯副本。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String embeddedFontFormatName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int embeddedFontFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,11 +46,11 @@ public static int EMBEDDED_OPEN_TYPE
 ```
 
 
-Specifies Embedded OpenType (EOT) File Format.
+指定嵌入式 Open类型 (EOT) 文件格式。
 
-This format of embedded fonts used in DOC files.
+这种格式的嵌入字体在 DOC 文件中使用。
 
-See http://www.w3.org/Submission/EOT for description of the format.
+有关格式的说明，请参见 http://www.w3.org/Submission/EOT。
 
 ### OPEN_TYPE {#OPEN-TYPE}
 ```
@@ -58,9 +58,9 @@ public static int OPEN_TYPE
 ```
 
 
-Specifies font, embedded as plain copy of OpenType (TrueType) font file.
+指定字体，嵌入为 Open类型 (True类型) 字体文件的纯副本。
 
-This format of embedded fonts used in Open Office XML format, including DOCX files.
+这种嵌入字体格式用于 Open Office XML 格式，包括 DOCX 文件。
 
 ### length {#length}
 ```
@@ -76,13 +76,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String embeddedFontFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String embeddedFontFormatName)
@@ -91,23 +91,23 @@ public static int fromName(String embeddedFontFormatName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontFormatName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int embeddedFontFormat) {#getName-int-}
 ```
 public static String getName(int embeddedFontFormat)
@@ -116,12 +116,12 @@ public static String getName(int embeddedFontFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -131,8 +131,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -141,8 +141,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -167,7 +167,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int embeddedFontFormat) {#toString-int-}
 ```
@@ -177,12 +177,12 @@ public static String toString(int embeddedFontFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | embeddedFontFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -200,8 +200,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -213,9 +213,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

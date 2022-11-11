@@ -1,67 +1,67 @@
 ---
-title: FieldAddressBlock
-second_title: Aspose.Words for Java API Reference
-description: Implements the ADDRESSBLOCK field.
+title: 字段AddressBlock
+second_title: Aspose.Words for Java API 参考
+description: 实现 ADDRESSBLOCK 字段。
 type: docs
 weight: 153
-url: /java/com.aspose.words/fieldaddressblock/
+url: /zh/java/com.aspose.words/fieldaddressblock/
 ---
 
-**Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+**遗产:**
+java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
 ```
-public class FieldAddressBlock extends Field
+public class 字段AddressBlock extends 字段
 ```
 
-Implements the ADDRESSBLOCK field.
+实现 ADDRESSBLOCK 字段。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-Represents an address block. An *address block* is a block of text specifying information appropriate for a postal mailing address, in the order required by the destination country.
-## Methods
+代表一个地址块。一个*address block*是一个文本块，指定适合邮寄地址的信息，按目的地国家要求的顺序排列。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getExcludedCountryOrRegionName()](#getExcludedCountryOrRegionName--) | Gets the excluded country/region name. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldNames()](#getFieldNames--) | Returns a collection of mail merge field names used by the field. |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getFormatAddressOnCountryOrRegion()](#getFormatAddressOnCountryOrRegion--) | Gets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
-| [getIncludeCountryOrRegionName()](#getIncludeCountryOrRegionName--) | Gets whether to include the name of the country/region. |
-| [getLanguageId()](#getLanguageId--) | Gets the language ID used to format the address. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [get班级()](#get班级--) |  |
+| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
+| [getExcludedCountryOrRegionName()](#getExcludedCountryOrRegionName--) | 获取排除的国家/地区名称。 |
+| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Names()](#get字段Names--) | 返回字段使用的邮件合并字段名称的集合。 |
+| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getFormatAddressOnCountryOrRegion()](#getFormatAddressOnCountryOrRegion--) | 获取是否根据 POST 定义的收件人国家/地区格式化地址\*CODE（万国邮政联盟 2006）。 |
+| [getIncludeCountryOrRegionName()](#getIncludeCountryOrRegionName--) | 获取是否包含国家/地区的名称。 |
+| [getLanguageId()](#getLanguageId--) | 获取用于格式化地址的语言 ID。 |
+| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
 | [getMergeFormat()](#getMergeFormat--) |  |
-| [getNameAndAddressFormat()](#getNameAndAddressFormat--) | Gets the name and address format. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getNameAndAddressFormat()](#getNameAndAddressFormat--) | 获取名称和地址格式。 |
+| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
+| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
+| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
-| [iFormattableMergeField_FetchDocument()](#iFormattableMergeField-FetchDocument--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [iFormattableMerge字段_FetchDocument()](#iFormattableMerge字段-FetchDocument--) |  |
+| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
+| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setExcludedCountryOrRegionName(String value)](#setExcludedCountryOrRegionName-java.lang.String-) | Sets the excluded country/region name. |
-| [setFormatAddressOnCountryOrRegion(boolean value)](#setFormatAddressOnCountryOrRegion-boolean-) | Sets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
-| [setIncludeCountryOrRegionName(String value)](#setIncludeCountryOrRegionName-java.lang.String-) | Sets whether to include the name of the country/region. |
-| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | Sets the language ID used to format the address. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setNameAndAddressFormat(String value)](#setNameAndAddressFormat-java.lang.String-) | Sets the name and address format. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [remove()](#remove--) | 从文档中删除字段。 |
+| [setExcludedCountryOrRegionName(String value)](#setExcludedCountryOrRegionName-java.lang.String-) | 设置排除的国家/地区名称。 |
+| [setFormatAddressOnCountryOrRegion(boolean value)](#setFormatAddressOnCountryOrRegion-boolean-) | 设置是否根据 POST 定义的收件人国家/地区格式化地址\*CODE（万国邮政联盟 2006）。 |
+| [setIncludeCountryOrRegionName(String value)](#setIncludeCountryOrRegionName-java.lang.String-) | 设置是否包含国家/地区的名称。 |
+| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | 设置用于格式化地址的语言 ID。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
+| [setNameAndAddressFormat(String value)](#setNameAndAddressFormat-java.lang.String-) | 设置名称和地址格式。 |
+| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [unlink()](#unlink--) | 执行字段取消链接。 |
+| [update()](#update--) | 执行字段更新。 |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -73,138 +73,138 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
-**Returns:**
-java.lang.String - The text that represents the displayed field result.
+**退货:**
+java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public FieldEnd getEnd()
+public 字段End getEnd()
 ```
 
 
-Gets the node that represents the field end.
+获取表示字段结束的节点。
 
-**Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+**退货:**
+[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
 ### getExcludedCountryOrRegionName() {#getExcludedCountryOrRegionName--}
 ```
 public String getExcludedCountryOrRegionName()
 ```
 
 
-Gets the excluded country/region name.
+获取排除的国家/地区名称。
 
-**Returns:**
-java.lang.String - The excluded country/region name.
-### getFieldCode() {#getFieldCode--}
+**退货:**
+java.lang.String - 排除的国家/地区名称。
+### get字段Code() {#get字段Code--}
 ```
-public String getFieldCode()
+public String get字段Code()
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
 
-**Returns:**
+**退货:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
 ```
-public String getFieldCode(boolean includeChildFieldCodes)
+public String get字段Code(boolean includeChild字段Codes)
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator).
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
 
-**Returns:**
+**退货:**
 java.lang.String
-### getFieldNames() {#getFieldNames--}
+### get字段Names() {#get字段Names--}
 ```
-public String[] getFieldNames()
+public String[] get字段Names()
 ```
 
 
-Returns a collection of mail merge field names used by the field.
+返回字段使用的邮件合并字段名称的集合。
 
-**Returns:**
+**退货:**
 java.lang.String[]
 ### getFormat() {#getFormat--}
 ```
-public FieldFormat getFormat()
+public 字段Format getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
-**Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+**退货:**
+[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getFormatAddressOnCountryOrRegion() {#getFormatAddressOnCountryOrRegion--}
 ```
 public boolean getFormatAddressOnCountryOrRegion()
 ```
 
 
-Gets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006).
+获取是否根据 POST 定义的收件人国家/地区格式化地址\*CODE（万国邮政联盟 2006）。
 
-**Returns:**
-boolean - Whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006).
+**退货:**
+boolean - 是否根据 POST 定义的收件人的国家/地区格式化地址\*CODE（万国邮政联盟 2006）。
 ### getIncludeCountryOrRegionName() {#getIncludeCountryOrRegionName--}
 ```
 public String getIncludeCountryOrRegionName()
 ```
 
 
-Gets whether to include the name of the country/region.
+获取是否包含国家/地区的名称。
 
-**Returns:**
-java.lang.String - Whether to include the name of the country/region.
+**退货:**
+java.lang.String - 是否包含国家/地区的名称。
 ### getLanguageId() {#getLanguageId--}
 ```
 public String getLanguageId()
 ```
 
 
-Gets the language ID used to format the address.
+获取用于格式化地址的语言 ID。
 
-**Returns:**
-java.lang.String - The language ID used to format the address.
+**退货:**
+java.lang.String - 用于格式化地址的语言 ID。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the LCID of the field.
+获取字段的 LCID。
 
-**Returns:**
-int - The LCID of the field.
+**退货:**
+int - 字段的 LCID。
 ### getMergeFormat() {#getMergeFormat--}
 ```
 public String getMergeFormat()
@@ -213,7 +213,7 @@ public String getMergeFormat()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getNameAndAddressFormat() {#getNameAndAddressFormat--}
 ```
@@ -221,65 +221,65 @@ public String getNameAndAddressFormat()
 ```
 
 
-Gets the name and address format.
+获取名称和地址格式。
 
-**Returns:**
-java.lang.String - The name and address format.
+**退货:**
+java.lang.String - 名称和地址格式。
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-Gets text that is between the field separator and field end.
+获取字段分隔符和字段结尾之间的文本。
 
-**Returns:**
-java.lang.String - Text that is between the field separator and field end.
+**退货:**
+java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public FieldSeparator getSeparator()
+public 字段Separator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+获取表示字段分隔符的节点。可以为空。
 
-**Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+**退货:**
+[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getStart() {#getStart--}
 ```
-public FieldStart getStart()
+public 字段Start getStart()
 ```
 
 
-Gets the node that represents the start of the field.
+获取表示字段开始的节点。
 
-**Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+**退货:**
+[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
 ```
-public int getSwitchType(String switchName)
+public int getSwitch类型(String switchName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**Returns:**
-int
-### getType() {#getType--}
+**退货:**
+整数
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the Microsoft Word field type.
+获取 Microsoft Word 字段类型。
 
-**Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+**退货:**
+ int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -288,17 +288,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
-### iFormattableMergeField_FetchDocument() {#iFormattableMergeField-FetchDocument--}
+**退货:**
+整数
+### iFormattableMerge字段_FetchDocument() {#iFormattableMerge字段-FetchDocument--}
 ```
-public Document iFormattableMergeField_FetchDocument()
+public Document iFormattableMerge字段_FetchDocument()
 ```
 
 
 
 
-**Returns:**
+**退货:**
 [Document](../../com.aspose.words/document)
 ### isDirty() {#isDirty--}
 ```
@@ -306,22 +306,22 @@ public boolean isDirty()
 ```
 
 
-Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
 
-**Returns:**
-boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+**退货:**
+boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -329,22 +329,22 @@ public boolean isLocked()
 ```
 
 
-Gets whether the field is locked (should not recalculate its result).
+获取字段是否被锁定（不应重新计算其结果）。
 
-**Returns:**
-boolean - Whether the field is locked (should not recalculate its result).
+**退货:**
+boolean - 字段是否被锁定（不应重新计算其结果）。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Sets whether the field is locked (should not recalculate its result).
+设置字段是否被锁定（不应重新计算其结果）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the field is locked (should not recalculate its result). |
+| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
 
 ### notify() {#notify--}
 ```
@@ -368,9 +368,9 @@ public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### setExcludedCountryOrRegionName(String value) {#setExcludedCountryOrRegionName-java.lang.String-}
 ```
@@ -378,12 +378,12 @@ public void setExcludedCountryOrRegionName(String value)
 ```
 
 
-Sets the excluded country/region name.
+设置排除的国家/地区名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The excluded country/region name. |
+| value | java.lang.String | 排除的国家/地区名称。 |
 
 ### setFormatAddressOnCountryOrRegion(boolean value) {#setFormatAddressOnCountryOrRegion-boolean-}
 ```
@@ -391,12 +391,12 @@ public void setFormatAddressOnCountryOrRegion(boolean value)
 ```
 
 
-Sets whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006).
+设置是否根据 POST 定义的收件人国家/地区格式化地址\*CODE（万国邮政联盟 2006）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to format the address according to the country/region of the recipient as defined by POST\*CODE (Universal Postal Union 2006). |
+| value | boolean | 是否根据 POST 定义的收件人国家/地区格式化地址\*CODE（万国邮政联盟 2006）。 |
 
 ### setIncludeCountryOrRegionName(String value) {#setIncludeCountryOrRegionName-java.lang.String-}
 ```
@@ -404,12 +404,12 @@ public void setIncludeCountryOrRegionName(String value)
 ```
 
 
-Sets whether to include the name of the country/region.
+设置是否包含国家/地区的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Whether to include the name of the country/region. |
+| value | java.lang.String | 是否包含国家/地区的名称。 |
 
 ### setLanguageId(String value) {#setLanguageId-java.lang.String-}
 ```
@@ -417,12 +417,12 @@ public void setLanguageId(String value)
 ```
 
 
-Sets the language ID used to format the address.
+设置用于格式化地址的语言 ID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The language ID used to format the address. |
+| value | java.lang.String | 用于格式化地址的语言 ID。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -430,12 +430,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the LCID of the field.
+设置字段的 LCID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The LCID of the field. |
+| value | int | 字段的 LCID。 |
 
 ### setNameAndAddressFormat(String value) {#setNameAndAddressFormat-java.lang.String-}
 ```
@@ -443,12 +443,12 @@ public void setNameAndAddressFormat(String value)
 ```
 
 
-Sets the name and address format.
+设置名称和地址格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name and address format. |
+| value | java.lang.String | 名称和地址格式。 |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -456,12 +456,12 @@ public void setResult(String value)
 ```
 
 
-Sets text that is between the field separator and field end.
+设置字段分隔符和字段结尾之间的文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Text that is between the field separator and field end. |
+| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
 
 ### toString() {#toString--}
 ```
@@ -471,7 +471,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -479,21 +479,21 @@ public boolean unlink()
 ```
 
 
-Performs the field unlink.
+执行字段取消链接。
 
-Replaces the field with its most recent result.
+用其最新结果替换该字段。
 
-Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
-**Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
+**退货:**
+布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-Performs the field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -501,12 +501,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-Performs a field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```
@@ -524,8 +524,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -537,9 +537,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

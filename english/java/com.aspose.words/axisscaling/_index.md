@@ -1,41 +1,41 @@
 ---
 title: AxisScaling
-second_title: Aspose.Words for Java API Reference
-description: Represents the scaling options of the axis.
+second_title: Aspose.Words for Java API 参考
+description: 表示轴的缩放选项。
 type: docs
 weight: 22
-url: /java/com.aspose.words/axisscaling/
+url: /zh/java/com.aspose.words/axisscaling/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class AxisScaling implements Cloneable
 ```
 
-Represents the scaling options of the axis.
+表示轴的缩放选项。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLogBase()](#getLogBase--) | Gets the logarithmic base for a logarithmic axis. |
-| [getMaximum()](#getMaximum--) | Gets the maximum value of the axis. |
-| [getMinimum()](#getMinimum--) | Gets minimum value of the axis. |
-| [getType()](#getType--) | Gets scaling type of the axis. |
+| [get班级()](#get班级--) |  |
+| [getLogBase()](#getLogBase--) | 获取对数轴的对数底。 |
+| [getMaximum()](#getMaximum--) | 获取轴的最大值。 |
+| [getMinimum()](#getMinimum--) | 获取轴的最小值。 |
+| [get类型()](#get类型--) | 获取轴的缩放类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLogBase(double value)](#setLogBase-double-) | Sets the logarithmic base for a logarithmic axis. |
-| [setMaximum(AxisBound value)](#setMaximum-com.aspose.words.AxisBound-) | Sets the maximum value of the axis. |
-| [setMinimum(AxisBound value)](#setMinimum-com.aspose.words.AxisBound-) | Sets minimum value of the axis. |
-| [setType(int value)](#setType-int-) | Sets scaling type of the axis. |
+| [setLogBase(double value)](#setLogBase-double-) | 设置对数轴的对数底。 |
+| [setMaximum(AxisBound value)](#setMaximum-com.aspose.words.AxisBound-) | 设置轴的最大值。 |
+| [setMinimum(AxisBound value)](#setMinimum-com.aspose.words.AxisBound-) | 设置轴的最小值。 |
+| [set类型(int value)](#set类型-int-) | 设置轴的缩放类型。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,69 +48,69 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLogBase() {#getLogBase--}
 ```
 public double getLogBase()
 ```
 
 
-Gets the logarithmic base for a logarithmic axis.
+获取对数轴的对数底。
 
-The property is not supported by MS Office 2016 new charts.
+MS Office 2016 新图表不支持该属性。
 
-Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling\#getType--) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int-) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+浮点值的有效范围大于等于 2 小于等于 1000。该属性只有在[get类型()](../../com.aspose.words/axisscaling\#get类型--) / [set类型(int)](../../com.aspose.words/axisscaling\#set类型-int-)被设定为[AxisScale类型.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
 
-Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#getType--) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int-) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+设置此属性会设置[get类型()](../../com.aspose.words/axisscaling\#get类型--) / [set类型(int)](../../com.aspose.words/axisscaling\#set类型-int-)财产[AxisScale类型.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
 
-**Returns:**
-double - The logarithmic base for a logarithmic axis.
+**退货:**
+double - 对数轴的对数底。
 ### getMaximum() {#getMaximum--}
 ```
 public AxisBound getMaximum()
 ```
 
 
-Gets the maximum value of the axis. The default value is "auto".
+获取轴的最大值。默认值为“自动”。
 
-**Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - The maximum value of the axis.
+**退货:**
+[AxisBound](../../com.aspose.words/axisbound) - 轴的最大值。
 ### getMinimum() {#getMinimum--}
 ```
 public AxisBound getMinimum()
 ```
 
 
-Gets minimum value of the axis. The default value is "auto".
+获取轴的最小值。默认值为“自动”。
 
-**Returns:**
-[AxisBound](../../com.aspose.words/axisbound) - Minimum value of the axis.
-### getType() {#getType--}
+**退货:**
+[AxisBound](../../com.aspose.words/axisbound) - 轴的最小值。
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+获取轴的缩放类型。这[AxisScale类型.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR)value 是 MS Office 2016 新图表中唯一允许的值。
 
-**Returns:**
-int - Scaling type of the axis. The returned value is one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants.
+**退货:**
+int - 轴的缩放类型。返回值是以下之一[AxisScale类型](../../com.aspose.words/axisscaletype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -119,8 +119,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -143,18 +143,18 @@ public void setLogBase(double value)
 ```
 
 
-Sets the logarithmic base for a logarithmic axis.
+设置对数轴的对数底。
 
-The property is not supported by MS Office 2016 new charts.
+MS Office 2016 新图表不支持该属性。
 
-Valid range of a floating point value is greater than or equal to 2 and less than or equal to 1000. The property has effect only if [getType()](../../com.aspose.words/axisscaling\#getType--) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int-) is set to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+浮点值的有效范围大于等于 2 小于等于 1000。该属性只有在[get类型()](../../com.aspose.words/axisscaling\#get类型--) / [set类型(int)](../../com.aspose.words/axisscaling\#set类型-int-)被设定为[AxisScale类型.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
 
-Setting this property sets the [getType()](../../com.aspose.words/axisscaling\#getType--) / [setType(int)](../../com.aspose.words/axisscaling\#setType-int-) property to [AxisScaleType.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
+设置此属性会设置[get类型()](../../com.aspose.words/axisscaling\#get类型--) / [set类型(int)](../../com.aspose.words/axisscaling\#set类型-int-)财产[AxisScale类型.LOGARITHMIC](../../com.aspose.words/axisscaletype\#LOGARITHMIC).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The logarithmic base for a logarithmic axis. |
+| value | double | 对数轴的对数底。 |
 
 ### setMaximum(AxisBound value) {#setMaximum-com.aspose.words.AxisBound-}
 ```
@@ -162,12 +162,12 @@ public void setMaximum(AxisBound value)
 ```
 
 
-Sets the maximum value of the axis. The default value is "auto".
+设置轴的最大值。默认值为“自动”。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [AxisBound](../../com.aspose.words/axisbound) | The maximum value of the axis. |
+| value | [AxisBound](../../com.aspose.words/axisbound) | 轴的最大值。 |
 
 ### setMinimum(AxisBound value) {#setMinimum-com.aspose.words.AxisBound-}
 ```
@@ -175,25 +175,25 @@ public void setMinimum(AxisBound value)
 ```
 
 
-Sets minimum value of the axis. The default value is "auto".
+设置轴的最小值。默认值为“自动”。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [AxisBound](../../com.aspose.words/axisbound) | Minimum value of the axis. |
+| value | [AxisBound](../../com.aspose.words/axisbound) | 轴的最小值。 |
 
-### setType(int value) {#setType-int-}
+### set类型(int value) {#set类型-int-}
 ```
-public void setType(int value)
+public void set类型(int value)
 ```
 
 
-Sets scaling type of the axis. The [AxisScaleType.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR) value is the only that is allowed in MS Office 2016 new charts.
+设置轴的缩放类型。这[AxisScale类型.LINEAR](../../com.aspose.words/axisscaletype\#LINEAR)value 是 MS Office 2016 新图表中唯一允许的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Scaling type of the axis. The value must be one of [AxisScaleType](../../com.aspose.words/axisscaletype) constants. |
+| value | int | 轴的缩放类型。该值必须是以下之一[AxisScale类型](../../com.aspose.words/axisscaletype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -203,7 +203,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -221,8 +221,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -234,9 +234,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,45 +1,44 @@
 ---
-title: IFieldUpdatingCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom methods called during a field update.
+title: I字段UpdatingCallback
+second_title: Aspose.Words for Java API 参考
+description: 如果您想在字段更新期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 644
-url: /java/com.aspose.words/ifieldupdatingcallback/
+url: /zh/java/com.aspose.words/ifieldupdatingcallback/
 ---
 ```
-public interface IFieldUpdatingCallback
+public interface I字段UpdatingCallback
 ```
 
-Implement this interface if you want to have your own custom methods called during a field update.
-## Methods
+如果您想在字段更新期间调用自己的自定义方法，请实现此接口。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [fieldUpdated(Field field)](#fieldUpdated-com.aspose.words.Field-) | A user defined method that is called just after a field is updated. |
-| [fieldUpdating(Field field)](#fieldUpdating-com.aspose.words.Field-) | A user defined method that is called just before a field is updated. |
-### fieldUpdated(Field field) {#fieldUpdated-com.aspose.words.Field-}
+| [fieldUpdated(字段 field)](#fieldUpdated-com.aspose.words.字段-) | 在字段更新后立即调用的用户定义方法。 |
+| [fieldUpdating(字段 field)](#fieldUpdating-com.aspose.words.字段-) | 在字段更新之前调用的用户定义方法。 |
+### fieldUpdated(字段 field) {#fieldUpdated-com.aspose.words.字段-}
 ```
-public abstract void fieldUpdated(Field field)
+public abstract void fieldUpdated(字段 field)
 ```
 
 
-A user defined method that is called just after a field is updated.
+在字段更新后立即调用的用户定义方法。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) |  |
+| field | [字段](../../com.aspose.words/field) |  |
 
-### fieldUpdating(Field field) {#fieldUpdating-com.aspose.words.Field-}
+### fieldUpdating(字段 field) {#fieldUpdating-com.aspose.words.字段-}
 ```
-public abstract void fieldUpdating(Field field)
+public abstract void fieldUpdating(字段 field)
 ```
 
 
-A user defined method that is called just before a field is updated.
+在字段更新之前调用的用户定义方法。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) |  |
-
+| field | [字段](../../com.aspose.words/field) |  |

@@ -1,46 +1,46 @@
 ---
-title: MailMergeDataType
-second_title: Aspose.Words for Java API Reference
-description: Specifies the type of an external mail merge data source.
+title: MailMergeData类型
+second_title: Aspose.Words for Java API 参考
+description: 指定外部邮件合并数据源的类型。
 type: docs
 weight: 382
-url: /java/com.aspose.words/mailmergedatatype/
+url: /zh/java/com.aspose.words/mailmergedatatype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class MailMergeDataType
+public class MailMergeData类型
 ```
 
-Specifies the type of an external mail merge data source.
-## Fields
+指定外部邮件合并数据源的类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DATABASE](#DATABASE) | Specifies that a given document has been connected to an Access database via the Dynamic Data Exchange (DDE) system. |
-| [DEFAULT](#DEFAULT) | Equals to [NONE](../../com.aspose.words/mailmergedatatype\#NONE). |
-| [NATIVE](#NATIVE) | Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface. |
-| [NONE](#NONE) | No mail merge data source is specified. |
-| [ODBC](#ODBC) | Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface. |
-| [QUERY](#QUERY) | Specifies that a given document has been connected to an external data source using an external query tool. |
-| [SPREADSHEET](#SPREADSHEET) | Specifies that a given document has been connected to an Excel spreadsheet via the Dynamic Data Exchange (DDE) system. |
-| [TEXT_FILE](#TEXT-FILE) | Specifies that a given document has been connected to a text file via the Dynamic Data Exchange (DDE) system. |
+| [DATABASE](#DATABASE) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到 Access 数据库。 |
+| [DEFAULT](#DEFAULT) | 等于[NONE](../../com.aspose.words/mailmergedatatype\#NONE). |
+| [NATIVE](#NATIVE) | 指定给定文档已通过 Office 数据源对象 (ODSO) 接口连接到外部数据源。 |
+| [NONE](#NONE) | 未指定邮件合并数据源。 |
+| [ODBC](#ODBC) | 指定给定文档已通过 Open Database Connectivity 接口连接到外部数据源。 |
+| [QUERY](#QUERY) | 指定给定文档已使用外部查询工具连接到外部数据源。 |
+| [SPREADSHEET](#SPREADSHEET) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到 Excel 电子表格。 |
+| [TEXT_FILE](#TEXT-FILE) | 指定给定文档已通过动态数据交换 (DDE) 系统连接到文本文件。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mailMergeDataTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int mailMergeDataType)](#getName-int-) |  |
+| [fromName(String mailMergeData类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int mailMergeData类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int mailMergeDataType)](#toString-int-) |  |
+| [toString(int mailMergeData类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -50,7 +50,7 @@ public static int DATABASE
 ```
 
 
-Specifies that a given document has been connected to an Access database via the Dynamic Data Exchange (DDE) system.
+指定给定文档已通过动态数据交换 (DDE) 系统连接到 Access 数据库。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -58,7 +58,7 @@ public static int DEFAULT
 ```
 
 
-Equals to [NONE](../../com.aspose.words/mailmergedatatype\#NONE).
+等于[NONE](../../com.aspose.words/mailmergedatatype\#NONE).
 
 ### NATIVE {#NATIVE}
 ```
@@ -66,7 +66,7 @@ public static int NATIVE
 ```
 
 
-Specifies that a given document has been connected to an external data source via the Office Data Source Object (ODSO) interface.
+指定给定文档已通过 Office 数据源对象 (ODSO) 接口连接到外部数据源。
 
 ### NONE {#NONE}
 ```
@@ -74,7 +74,7 @@ public static int NONE
 ```
 
 
-No mail merge data source is specified.
+未指定邮件合并数据源。
 
 ### ODBC {#ODBC}
 ```
@@ -82,7 +82,7 @@ public static int ODBC
 ```
 
 
-Specifies that a given document has been connected to an external data source via the Open Database Connectivity interface.
+指定给定文档已通过 Open Database Connectivity 接口连接到外部数据源。
 
 ### QUERY {#QUERY}
 ```
@@ -90,7 +90,7 @@ public static int QUERY
 ```
 
 
-Specifies that a given document has been connected to an external data source using an external query tool.
+指定给定文档已使用外部查询工具连接到外部数据源。
 
 ### SPREADSHEET {#SPREADSHEET}
 ```
@@ -98,7 +98,7 @@ public static int SPREADSHEET
 ```
 
 
-Specifies that a given document has been connected to an Excel spreadsheet via the Dynamic Data Exchange (DDE) system.
+指定给定文档已通过动态数据交换 (DDE) 系统连接到 Excel 电子表格。
 
 ### TEXT_FILE {#TEXT-FILE}
 ```
@@ -106,7 +106,7 @@ public static int TEXT_FILE
 ```
 
 
-Specifies that a given document has been connected to a text file via the Dynamic Data Exchange (DDE) system.
+指定给定文档已通过动态数据交换 (DDE) 系统连接到文本文件。
 
 ### length {#length}
 ```
@@ -122,52 +122,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String mailMergeDataTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String mailMergeData类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String mailMergeDataTypeName)
+public static int fromName(String mailMergeData类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeDataTypeName | java.lang.String |  |
+| mailMergeData类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int mailMergeDataType) {#getName-int-}
-```
-public static String getName(int mailMergeDataType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int mailMergeData类型) {#getName-int-}
+```
+public static String getName(int mailMergeData类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeDataType | int |  |
+| mailMergeData类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,22 +213,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int mailMergeDataType) {#toString-int-}
+### toString(int mailMergeData类型) {#toString-int-}
 ```
-public static String toString(int mailMergeDataType)
+public static String toString(int mailMergeData类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| mailMergeDataType | int |  |
+| mailMergeData类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,9 +259,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

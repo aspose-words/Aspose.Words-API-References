@@ -1,27 +1,27 @@
 ---
 title: JsonDataSource
-second_title: Aspose.Words for Java API Reference
-description: Provides access to data of a JSON file or stream to be used within a report.
+second_title: Aspose.Words for Java API 参考
+description: 提供对要在报告中使用的 JSON 文件或流的数据的访问。
 type: docs
 weight: 354
-url: /java/com.aspose.words/jsondatasource/
+url: /zh/java/com.aspose.words/jsondatasource/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class JsonDataSource
 ```
 
-Provides access to data of a JSON file or stream to be used within a report.
+提供对要在报告中使用的 JSON 文件或流的数据的访问。
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
-To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
+要在生成报告时访问相应文件或流的数据，请将此类的实例作为数据源传递给其中一个[ReportingEngine](../../com.aspose.words/reportingengine)buildReport 重载。
 
-In template documents, if a top-level JSON element is an array, a [JsonDataSource](../../com.aspose.words/jsondatasource) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable) instance. If a top-level JSON element is an object, a [JsonDataSource](../../com.aspose.words/jsondatasource) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+在模板文档中，如果顶级 JSON 元素是数组，则[JsonDataSource](../../com.aspose.words/jsondatasource)实例的处理方式应与它是[DataTable](../../com.aspose.words.net.system.data/datatable)实例。如果顶级 JSON 元素是对象，则[JsonDataSource](../../com.aspose.words/jsondatasource)实例的处理方式应与它是[DataRow](../../com.aspose.words.net.system.data/datarow)实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-In template documents, you can work with typed values of JSON elements. For convenience, the engine replaces the set of JSON simple types with the following one:
+在模板文档中，您可以使用 JSON 元素的类型值。为方便起见，引擎将一组 JSON 简单类型替换为以下类型：
 
  *  
  *  
@@ -29,23 +29,23 @@ In template documents, you can work with typed values of JSON elements. For conv
  *  
  *  
 
-The engine automatically recognizes values of the extra types upon their JSON representations.
+引擎会根据 JSON 表示形式自动识别额外类型的值。
 
-To override default behavior of JSON data loading, initialize and pass a [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) instance to a constructor of this class.
-## Constructors
+要覆盖 JSON 数据加载的默认行为，初始化并传递一个[JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions)实例到此类的构造函数。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [JsonDataSource(String jsonPath)](#JsonDataSource-java.lang.String-) | Creates a new data source with data from a JSON file using default options for parsing JSON data. |
-| [JsonDataSource(InputStream jsonStream)](#JsonDataSource-java.io.InputStream-) | Initializes a new instance of this class. |
-| [JsonDataSource(String jsonPath, JsonDataLoadOptions options)](#JsonDataSource-java.lang.String-com.aspose.words.JsonDataLoadOptions-) | Creates a new data source with data from a JSON file using the specified options for parsing JSON data. |
-| [JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options)](#JsonDataSource-java.io.InputStream-com.aspose.words.JsonDataLoadOptions-) | Initializes a new instance of this class. |
-## Methods
+| [JsonDataSource(String jsonPath)](#JsonDataSource-java.lang.String-) | 使用解析 JSON 数据的默认选项，使用来自 JSON 文件的数据创建新数据源。 |
+| [JsonDataSource(InputStream jsonStream)](#JsonDataSource-java.io.InputStream-) | 初始化此类的新实例。 |
+| [JsonDataSource(String jsonPath, JsonDataLoadOptions options)](#JsonDataSource-java.lang.String-com.aspose.words.JsonDataLoadOptions-) | 使用用于解析 JSON 数据的指定选项创建包含来自 JSON 文件的数据的新数据源。 |
+| [JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options)](#JsonDataSource-java.io.InputStream-com.aspose.words.JsonDataLoadOptions-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -59,12 +59,12 @@ public JsonDataSource(String jsonPath)
 ```
 
 
-Creates a new data source with data from a JSON file using default options for parsing JSON data.
+使用解析 JSON 数据的默认选项，使用来自 JSON 文件的数据创建新数据源。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| jsonPath | java.lang.String | The path to the JSON file to be used as the data source. |
+| jsonPath | java.lang.String | 要用作数据源的 JSON 文件的路径。 |
 
 ### JsonDataSource(InputStream jsonStream) {#JsonDataSource-java.io.InputStream-}
 ```
@@ -72,10 +72,10 @@ public JsonDataSource(InputStream jsonStream)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | jsonStream | java.io.InputStream |  |
 
@@ -85,13 +85,13 @@ public JsonDataSource(String jsonPath, JsonDataLoadOptions options)
 ```
 
 
-Creates a new data source with data from a JSON file using the specified options for parsing JSON data.
+使用用于解析 JSON 数据的指定选项创建包含来自 JSON 文件的数据的新数据源。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| jsonPath | java.lang.String | The path to the JSON file to be used as the data source. |
-| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) | Options for parsing JSON data. |
+| jsonPath | java.lang.String | 要用作数据源的 JSON 文件的路径。 |
+| options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) | 解析 JSON 数据的选项。 |
 
 ### JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options) {#JsonDataSource-java.io.InputStream-com.aspose.words.JsonDataLoadOptions-}
 ```
@@ -99,10 +99,10 @@ public JsonDataSource(InputStream jsonStream, JsonDataLoadOptions options)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | jsonStream | java.io.InputStream |  |
 | options | [JsonDataLoadOptions](../../com.aspose.words/jsondataloadoptions) |  |
@@ -115,23 +115,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -166,7 +166,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -184,8 +184,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -197,9 +197,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

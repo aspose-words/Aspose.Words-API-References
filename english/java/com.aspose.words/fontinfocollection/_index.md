@@ -1,48 +1,48 @@
 ---
 title: FontInfoCollection
-second_title: Aspose.Words for Java API Reference
-description: Represents a collection of fonts used in a document.
+second_title: Aspose.Words for Java API 参考
+description: 表示文档中使用的字体集合。
 type: docs
 weight: 281
-url: /java/com.aspose.words/fontinfocollection/
+url: /zh/java/com.aspose.words/fontinfocollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class FontInfoCollection implements Iterable
 ```
 
-Represents a collection of fonts used in a document.
+表示文档中使用的字体集合。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-Items are [FontInfo](../../com.aspose.words/fontinfo) objects.
+项目是[FontInfo](../../com.aspose.words/fontinfo)对象。
 
-You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property to access the collection of fonts defined in the document.
-## Methods
+您不直接创建此类的实例。使用[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性来访问文档中定义的字体集合。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [contains(String name)](#contains-java.lang.String-) | Determines whether the collection contains a font with the given name. |
+| [contains(String name)](#contains-java.lang.String-) | 确定集合是否包含具有给定名称的字体。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets a font at the specified index. |
-| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
-| [getEmbedSystemFonts()](#getEmbedSystemFonts--) | Specifies whether or not to embed System fonts into the document. |
-| [getEmbedTrueTypeFonts()](#getEmbedTrueTypeFonts--) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
-| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
+| [get(int index)](#get-int-) | 获取指定索引处的字体。 |
+| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [getEmbedSystemFonts()](#getEmbedSystemFonts--) | 指定是否将系统字体嵌入到文档中。 |
+| [getEmbedTrue类型Fonts()](#getEmbedTrue类型Fonts--) | 指定保存时是否在文档中嵌入 True类型 字体。 |
+| [getSaveSubsetFonts()](#getSaveSubsetFonts--) | 指定是否将嵌入的 True类型 字体的子集与文档一起保存。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean-) | Specifies whether or not to embed System fonts into the document. |
-| [setEmbedTrueTypeFonts(boolean value)](#setEmbedTrueTypeFonts-boolean-) | Specifies whether or not to embed TrueType fonts in a document when it is saved. |
-| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. |
+| [setEmbedSystemFonts(boolean value)](#setEmbedSystemFonts-boolean-) | 指定是否将系统字体嵌入到文档中。 |
+| [setEmbedTrue类型Fonts(boolean value)](#setEmbedTrue类型Fonts-boolean-) | 指定保存时是否在文档中嵌入 True类型 字体。 |
+| [setSaveSubsetFonts(boolean value)](#setSaveSubsetFonts-boolean-) | 指定是否将嵌入的 True类型 字体的子集与文档一起保存。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,15 +53,15 @@ public boolean contains(String name)
 ```
 
 
-Determines whether the collection contains a font with the given name.
+确定集合是否包含具有给定名称的字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the font to locate. |
+| name | java.lang.String | 要查找的字体的不区分大小写的名称。 |
 
-**Returns:**
-boolean - True if the item is found in the collection; otherwise, false.
+**退货:**
+boolean - 如果在集合中找到该项目，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -70,107 +70,107 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public FontInfo get(int index)
 ```
 
 
-Gets a font at the specified index.
+获取指定索引处的字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the font. |
+| index | int | 字体的从零开始的索引。 |
 
-**Returns:**
-[FontInfo](../../com.aspose.words/fontinfo) - A font at the specified index.
+**退货:**
+[FontInfo](../../com.aspose.words/fontinfo) - 指定索引处的字体。
 ### get(String name) {#get-java.lang.String-}
 ```
 public FontInfo get(String name)
 ```
 
 
-Provides access to the collection items.  Gets a font with the specified name.
+提供对集合项目的访问。获取具有指定名称的字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | Case-insensitive name of the font to locate. |
+| name | java.lang.String | 要查找的字体的不区分大小写的名称。 |
 
-**Returns:**
-[FontInfo](../../com.aspose.words/fontinfo) - The corresponding [FontInfo](../../com.aspose.words/fontinfo) value.
-### getClass() {#getClass--}
+**退货:**
+[FontInfo](../../com.aspose.words/fontinfo) - 相应的[FontInfo](../../com.aspose.words/fontinfo)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of elements contained in the collection.
+获取集合中包含的元素数。
 
-**Returns:**
-int - The number of elements contained in the collection.
+**退货:**
+int - 集合中包含的元素数。
 ### getEmbedSystemFonts() {#getEmbedSystemFonts--}
 ```
 public boolean getEmbedSystemFonts()
 ```
 
 
-Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
+指定是否将系统字体嵌入到文档中。此属性的默认值为**false**.
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) option is set to **true**.
+此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)选项设置为**true**.
 
-Setting this property to  True  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
+如果用户在东亚系统上并且想要创建一个可供系统上没有该语言字体的其他人可读的文档，则将此属性设置为 True 很有用。例如，日文系统上的用户可以选择将字体嵌入文档中，以便日文文档在所有系统上都可以阅读。
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getEmbedTrueTypeFonts() {#getEmbedTrueTypeFonts--}
+**退货:**
+boolean - 对应的布尔值。
+### getEmbedTrue类型Fonts() {#getEmbedTrue类型Fonts--}
 ```
-public boolean getEmbedTrueTypeFonts()
+public boolean getEmbedTrue类型Fonts()
 ```
 
 
-Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
+指定保存时是否在文档中嵌入 True类型 字体。此属性的默认值为**false**.
 
-Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
+嵌入 True类型 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSaveSubsetFonts() {#getSaveSubsetFonts--}
 ```
 public boolean getSaveSubsetFonts()
 ```
 
 
-Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
+指定是否将嵌入的 True类型 字体的子集与文档一起保存。此属性的默认值为**false**.
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) property is set to **true**.
+此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)属性设置为**true**.
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -179,17 +179,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -213,35 +213,35 @@ public void setEmbedSystemFonts(boolean value)
 ```
 
 
-Specifies whether or not to embed System fonts into the document. Default value for this property is **false**.
+指定是否将系统字体嵌入到文档中。此属性的默认值为**false**.
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) option is set to **true**.
+此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)选项设置为**true**.
 
-Setting this property to  True  is useful if the user is on an East Asian system and wants to create a document that is readable by others who do not have fonts for that language on their system. For example, a user on a Japanese system could choose to embed the fonts in a document so that the Japanese document would be readable on all systems.
+如果用户在东亚系统上并且想要创建一个可供系统上没有该语言字体的其他人可读的文档，则将此属性设置为 True 很有用。例如，日文系统上的用户可以选择将字体嵌入文档中，以便日文文档在所有系统上都可以阅读。
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
-### setEmbedTrueTypeFonts(boolean value) {#setEmbedTrueTypeFonts-boolean-}
+### setEmbedTrue类型Fonts(boolean value) {#setEmbedTrue类型Fonts-boolean-}
 ```
-public void setEmbedTrueTypeFonts(boolean value)
+public void setEmbedTrue类型Fonts(boolean value)
 ```
 
 
-Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is **false**.
+指定保存时是否在文档中嵌入 True类型 字体。此属性的默认值为**false**.
 
-Embedding TrueType fonts allows others to view the document with the same fonts that were used to create it, but may substantially increase the document size.
+嵌入 True类型 字体允许其他人使用创建它时使用的相同字体查看文档，但可能会大大增加文档大小。
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSaveSubsetFonts(boolean value) {#setSaveSubsetFonts-boolean-}
 ```
@@ -249,16 +249,16 @@ public void setSaveSubsetFonts(boolean value)
 ```
 
 
-Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is **false**.
+指定是否将嵌入的 True类型 字体的子集与文档一起保存。此属性的默认值为**false**.
 
-This option works only when [getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) property is set to **true**.
+此选项仅在以下情况下有效[getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)属性设置为**true**.
 
-This option works for DOC, DOCX and RTF formats only.
+此选项仅适用于 DOC、DOCX 和 RTF 格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -268,7 +268,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -286,8 +286,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -299,9 +299,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

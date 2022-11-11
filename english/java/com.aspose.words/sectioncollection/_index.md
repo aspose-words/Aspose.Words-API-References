@@ -1,48 +1,48 @@
 ---
 title: SectionCollection
 second_title: Aspose.Words for Java API Reference
-description: A collection of Section objects in the document.
+description: 文档中 Section 对象的集合。
 type: docs
 weight: 510
-url: /java/com.aspose.words/sectioncollection/
+url: /zh/java/com.aspose.words/sectioncollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.NodeCollection](../../com.aspose.words/nodecollection)
 ```
 public class SectionCollection extends NodeCollection
 ```
 
-A collection of **Section** objects in the document.
+一个集合**Section**文档中的对象。
 
-To learn more, visit the **Working with Sections** documentation article.
+要了解更多信息，请访问**Working with Sections**文档文章。
 
-A Microsoft Word document can contain multiple sections. To create a section in a Microsoft Word, select the Insert/Break command and select a break type. The break specifies whether section starts on a new page or on the same page.
+Microsoft Word 文档可以包含多个部分。要在 Microsoft Word 中创建节，请选择插入/中断命令并选择中断类型。中断指定部分是在新页面上还是在同一页面上开始。
 
-Programmatically inserting and removing sections can be used to customize documents produced during mail merge. If a document needs to have different content or parts of the content depending on some criteria, then you can create a "master" document that contains multiple sections and delete some of the sections before or after mail merge.
-## Methods
+以编程方式插入和删除部分可用于自定义邮件合并期间生成的文档。如果文档需要根据某些条件具有不同的内容或部分内容，那么您可以创建一个包含多个部分的“主”文档，并在邮件合并之前或之后删除一些部分。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(Node node)](#add-com.aspose.words.Node-) | Adds a node to the end of the collection. |
-| [clear()](#clear--) | Removes all nodes from this collection and from the document. |
-| [contains(Node node)](#contains-com.aspose.words.Node-) | Determines whether a node is in the collection. |
+| [add(Node node)](#add-com.aspose.words.Node-) | 将节点添加到集合的末尾。 |
+| [clear()](#clear--) | 从此集合和文档中删除所有节点。 |
+| [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Retrieves a section at the given index. |
-| [getClass()](#getClass--) |  |
+| [get(int index)](#get-int-) | 检索给定索引处的部分。 |
+| [get班级()](#get班级--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | Gets the number of nodes in the collection. |
+| [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | Returns the zero-based index of the specified node. |
-| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | Inserts a node into the collection at the specified index. |
-| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
+| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | 返回指定节点的从零开始的索引。 |
+| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | 将节点插入到集合中指定索引处。 |
+| [iterator()](#iterator--) | 在节点集合上提供简单的“foreach”样式迭代。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(Node node)](#remove-com.aspose.words.Node-) | Removes the node from the collection and from the document. |
-| [removeAt(int index)](#removeAt-int-) | Removes the node at the specified index from the collection and from the document. |
-| [toArray()](#toArray--) | Copies all sections from the collection to a new array of sections. |
+| [remove(Node node)](#remove-com.aspose.words.Node-) | 从集合和文档中删除节点。 |
+| [removeAt(int index)](#removeAt-int-) | 从集合和文档中删除指定索引处的节点。 |
+| [toArray()](#toArray--) | 将集合中的所有部分复制到新的部分数组中。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,18 +53,18 @@ public void add(Node node)
 ```
 
 
-Adds a node to the end of the collection.
+将节点添加到集合的末尾。
 
-The node is inserted as a child into the node object from which the collection was created.
+该节点作为子节点插入到从中创建集合的节点对象中。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+| node | [Node](../../com.aspose.words/node) | 要添加到集合末尾的节点。 |
 
 ### clear() {#clear--}
 ```
@@ -72,7 +72,7 @@ public void clear()
 ```
 
 
-Removes all nodes from this collection and from the document.
+从此集合和文档中删除所有节点。
 
 ### contains(Node node) {#contains-com.aspose.words.Node-}
 ```
@@ -80,17 +80,17 @@ public boolean contains(Node node)
 ```
 
 
-Determines whether a node is in the collection.
+确定节点是否在集合中。
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node) | 要定位的节点。 |
 
-**Returns:**
-boolean - True if item is found in the collection; otherwise, false.
+**退货:**
+boolean - 如果在集合中找到项目，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -99,46 +99,46 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public Node get(int index)
 ```
 
 
-Retrieves a section at the given index.
+检索给定索引处的部分。
 
-The index is zero-based.
+该索引从零开始。
 
-Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
-If index is greater than or equal to the number of items in the list, this returns a null reference.
+如果 index 大于或等于列表中的项目数，则返回空引用。
 
-If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | An index into the list of sections. |
+| index | int | 部分列表的索引。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The corresponding [Section](../../com.aspose.words/section) value.
-### getClass() {#getClass--}
+**退货:**
+[Node](../../com.aspose.words/node) - 相应的[Section](../../com.aspose.words/section)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -147,7 +147,7 @@ public CompositeNode getContainer()
 
 
 
-**Returns:**
+**退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -155,10 +155,10 @@ public int getCount()
 ```
 
 
-Gets the number of nodes in the collection.
+获取集合中的节点数。
 
-**Returns:**
-int - The number of nodes in the collection.
+**退货:**
+int - 集合中的节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -167,7 +167,7 @@ public Node getCurrentNode()
 
 
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
@@ -177,12 +177,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### hashCode() {#hashCode--}
 ```
@@ -192,48 +192,48 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(Node node) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node node)
 ```
 
 
-Returns the zero-based index of the specified node.
+返回指定节点的从零开始的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node) | 要定位的节点。 |
 
-**Returns:**
-int - The zero-based index of the node within the collection, if found; otherwise, -1.
+**退货:**
+int - 集合中节点的从零开始的索引（如果找到）；否则，-1。
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node-}
 ```
 public void insert(int index, Node node)
 ```
 
 
-Inserts a node into the collection at the specified index.
+将节点插入到集合中指定索引处。
 
-The node is inserted as a child into the node object from which the collection was created.
+该节点作为子节点插入到从中创建集合的节点对象中。
 
-If the index is equal to or greater than Count, the node is added at the end of the collection.
+如果索引等于或大于 Count，则将节点添加到集合的末尾。
 
-If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
+如果索引为负且其绝对值大于 Count，则将节点添加到集合的末尾。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
-| node | [Node](../../com.aspose.words/node) | The node to insert. |
+| index | int | 节点的从零开始的索引。允许使用负索引并指示从列表后面进行访问。例如 -1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
+| node | [Node](../../com.aspose.words/node) | 要插入的节点。 |
 
 ### iterator() {#iterator--}
 ```
@@ -241,10 +241,10 @@ public Iterator iterator()
 ```
 
 
-Provides a simple "foreach" style iteration over the collection of nodes.
+在节点集合上提供简单的“foreach”样式迭代。
 
-**Returns:**
-java.util.Iterator - An Iterator.
+**退货:**
+java.util.Iterator - 一个迭代器。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -267,12 +267,12 @@ public void remove(Node node)
 ```
 
 
-Removes the node from the collection and from the document.
+从集合和文档中删除节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to remove. |
+| node | [Node](../../com.aspose.words/node) | 要移除的节点。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -280,12 +280,12 @@ public void removeAt(int index)
 ```
 
 
-Removes the node at the specified index from the collection and from the document.
+从集合和文档中删除指定索引处的节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
+| index | int | 节点的从零开始的索引。允许使用负索引并指示从列表后面进行访问。例如 -1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
 
 ### toArray() {#toArray--}
 ```
@@ -293,10 +293,10 @@ public Node[] toArray()
 ```
 
 
-Copies all sections from the collection to a new array of sections.
+将集合中的所有部分复制到新的部分数组中。
 
-**Returns:**
-com.aspose.words.Node[] - An array of sections.
+**退货:**
+com.aspose.words.Node[] - 一组部分。
 ### toString() {#toString--}
 ```
 public String toString()
@@ -305,7 +305,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -323,8 +323,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -336,9 +336,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,44 +1,44 @@
 ---
-title: FieldBuilder
-second_title: Aspose.Words for Java API Reference
-description: Builds a field from field code tokens arguments and switches.
+title: 字段Builder
+second_title: Aspose.Words for Java API 参考
+description: 从字段代码标记参数和开关构建一个字段。
 type: docs
 weight: 166
-url: /java/com.aspose.words/fieldbuilder/
+url: /zh/java/com.aspose.words/fieldbuilder/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class FieldBuilder
+public class 字段Builder
 ```
 
-Builds a field from field code tokens (arguments and switches).
+从域代码标记（参数和开关）构建一个域。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [FieldBuilder(int fieldType)](#FieldBuilder-int-) | Initializes a new instance of this class. |
-## Methods
+| [字段Builder(int field类型)](#字段Builder-int-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [addArgument(FieldArgumentBuilder argument)](#addArgument-com.aspose.words.FieldArgumentBuilder-) | Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) to the field's code. |
-| [addArgument(FieldBuilder argument)](#addArgument-com.aspose.words.FieldBuilder-) | Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder) to the field's code. |
-| [addArgument(double argument)](#addArgument-double-) | Adds a field's argument. |
-| [addArgument(int argument)](#addArgument-int-) | Adds a field's argument. |
-| [addArgument(String argument)](#addArgument-java.lang.String-) | Adds a field's argument. |
-| [addSwitch(String switchName)](#addSwitch-java.lang.String-) | Adds a field's switch. |
-| [addSwitch(String switchName, double switchArgument)](#addSwitch-java.lang.String-double-) | Adds a field's switch. |
-| [addSwitch(String switchName, int switchArgument)](#addSwitch-java.lang.String-int-) | Adds a field's switch. |
-| [addSwitch(String switchName, String switchArgument)](#addSwitch-java.lang.String-java.lang.String-) | Adds a field's switch. |
-| [buildAndInsert(Inline refNode)](#buildAndInsert-com.aspose.words.Inline-) | Builds and inserts a field into the document before the specified inline node. |
-| [buildAndInsert(Paragraph refNode)](#buildAndInsert-com.aspose.words.Paragraph-) | Builds and inserts a field into the document to the end of the specified paragraph. |
+| [addArgument(字段ArgumentBuilder argument)](#addArgument-com.aspose.words.字段ArgumentBuilder-) | 添加一个字段的参数，由[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。 |
+| [addArgument(字段Builder argument)](#addArgument-com.aspose.words.字段Builder-) | 添加另一个表示的子字段[字段Builder](../../com.aspose.words/fieldbuilder)到字段的代码。 |
+| [addArgument(double argument)](#addArgument-double-) | 添加字段的参数。 |
+| [addArgument(int argument)](#addArgument-int-) | 添加字段的参数。 |
+| [addArgument(String argument)](#addArgument-java.lang.String-) | 添加字段的参数。 |
+| [addSwitch(String switchName)](#addSwitch-java.lang.String-) | 添加字段的开关。 |
+| [addSwitch(String switchName, double switchArgument)](#addSwitch-java.lang.String-double-) | 添加字段的开关。 |
+| [addSwitch(String switchName, int switchArgument)](#addSwitch-java.lang.String-int-) | 添加字段的开关。 |
+| [addSwitch(String switchName, String switchArgument)](#addSwitch-java.lang.String-java.lang.String-) | 添加字段的开关。 |
+| [buildAndInsert(Inline refNode)](#buildAndInsert-com.aspose.words.Inline-) | 在指定的内联节点之前构建并插入一个字段到文档中。 |
+| [buildAndInsert(Paragraph refNode)](#buildAndInsert-com.aspose.words.Paragraph-) | 在文档中构建并插入一个字段到指定段落的末尾。 |
 | [buildBlock(DocumentBuilder documentBuilder)](#buildBlock-com.aspose.words.DocumentBuilder-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,187 +46,187 @@ To learn more, visit the **Working with Fields** documentation article.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FieldBuilder(int fieldType) {#FieldBuilder-int-}
+### 字段Builder(int field类型) {#字段Builder-int-}
 ```
-public FieldBuilder(int fieldType)
+public 字段Builder(int field类型)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldType | int |  |
+| field类型 | int |  |
 
-### addArgument(FieldArgumentBuilder argument) {#addArgument-com.aspose.words.FieldArgumentBuilder-}
+### addArgument(字段ArgumentBuilder argument) {#addArgument-com.aspose.words.字段ArgumentBuilder-}
 ```
-public FieldBuilder addArgument(FieldArgumentBuilder argument)
+public 字段Builder addArgument(字段ArgumentBuilder argument)
 ```
 
 
-Adds a field's argument represented by [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) to the field's code. This overload is used when the argument consists of a mixture of different parts such as child fields, nodes, and plain text.
+添加一个字段的参数，由[字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder)到字段的代码。当参数包含不同部分（例如子字段、节点和纯文本）的混合时，将使用此重载。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | [FieldArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) |  |
+| argument | [字段ArgumentBuilder](../../com.aspose.words/fieldargumentbuilder) |  |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
-### addArgument(FieldBuilder argument) {#addArgument-com.aspose.words.FieldBuilder-}
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
+### addArgument(字段Builder argument) {#addArgument-com.aspose.words.字段Builder-}
 ```
-public FieldBuilder addArgument(FieldBuilder argument)
+public 字段Builder addArgument(字段Builder argument)
 ```
 
 
-Adds a child field represented by another [FieldBuilder](../../com.aspose.words/fieldbuilder) to the field's code. This overload is used when the argument consists of a single child field.
+添加另一个表示的子字段[字段Builder](../../com.aspose.words/fieldbuilder)到字段的代码。当参数由单个子字段组成时使用此重载。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | [FieldBuilder](../../com.aspose.words/fieldbuilder) |  |
+| argument | [字段Builder](../../com.aspose.words/fieldbuilder) |  |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addArgument(double argument) {#addArgument-double-}
 ```
-public FieldBuilder addArgument(double argument)
+public 字段Builder addArgument(double argument)
 ```
 
 
-Adds a field's argument.
+添加字段的参数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | double | The argument value. |
+| argument | double | 参数值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addArgument(int argument) {#addArgument-int-}
 ```
-public FieldBuilder addArgument(int argument)
+public 字段Builder addArgument(int argument)
 ```
 
 
-Adds a field's argument.
+添加字段的参数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | int | The argument value. |
+| argument | int | 参数值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addArgument(String argument) {#addArgument-java.lang.String-}
 ```
-public FieldBuilder addArgument(String argument)
+public 字段Builder addArgument(String argument)
 ```
 
 
-Adds a field's argument.
+添加字段的参数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argument | java.lang.String | The argument value. |
+| argument | java.lang.String | 参数值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName) {#addSwitch-java.lang.String-}
 ```
-public FieldBuilder addSwitch(String switchName)
+public 字段Builder addSwitch(String switchName)
 ```
 
 
-Adds a field's switch. This overload adds a flag (switch without argument).
+添加字段的开关。此重载添加了一个标志（不带参数的开关）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
+| switchName | java.lang.String | 交换机名称。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, double switchArgument) {#addSwitch-java.lang.String-double-}
 ```
-public FieldBuilder addSwitch(String switchName, double switchArgument)
+public 字段Builder addSwitch(String switchName, double switchArgument)
 ```
 
 
-Adds a field's switch.
+添加字段的开关。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | double | The switch value. |
+| switchName | java.lang.String | 交换机名称。 |
+| switchArgument | double | 开关值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, int switchArgument) {#addSwitch-java.lang.String-int-}
 ```
-public FieldBuilder addSwitch(String switchName, int switchArgument)
+public 字段Builder addSwitch(String switchName, int switchArgument)
 ```
 
 
-Adds a field's switch.
+添加字段的开关。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | int | The switch value. |
+| switchName | java.lang.String | 交换机名称。 |
+| switchArgument | int | 开关值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### addSwitch(String switchName, String switchArgument) {#addSwitch-java.lang.String-java.lang.String-}
 ```
-public FieldBuilder addSwitch(String switchName, String switchArgument)
+public 字段Builder addSwitch(String switchName, String switchArgument)
 ```
 
 
-Adds a field's switch.
+添加字段的开关。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| switchName | java.lang.String | The switch name. |
-| switchArgument | java.lang.String | The switch value. |
+| switchName | java.lang.String | 交换机名称。 |
+| switchArgument | java.lang.String | 开关值。 |
 
-**Returns:**
-[FieldBuilder](../../com.aspose.words/fieldbuilder)
+**退货:**
+[字段Builder](../../com.aspose.words/fieldbuilder)
 ### buildAndInsert(Inline refNode) {#buildAndInsert-com.aspose.words.Inline-}
 ```
-public Field buildAndInsert(Inline refNode)
+public 字段 buildAndInsert(Inline refNode)
 ```
 
 
-Builds and inserts a field into the document before the specified inline node.
+在指定的内联节点之前构建并插入一个字段到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | refNode | [Inline](../../com.aspose.words/inline) |  |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
+**退货:**
+[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
 ### buildAndInsert(Paragraph refNode) {#buildAndInsert-com.aspose.words.Paragraph-}
 ```
-public Field buildAndInsert(Paragraph refNode)
+public 字段 buildAndInsert(Paragraph refNode)
 ```
 
 
-Builds and inserts a field into the document to the end of the specified paragraph.
+在文档中构建并插入一个字段到指定段落的末尾。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | refNode | [Paragraph](../../com.aspose.words/paragraph) |  |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A [Field](../../com.aspose.words/field) object that represents the inserted field.
+**退货:**
+[字段](../../com.aspose.words/field) - 一个[字段](../../com.aspose.words/field)表示插入字段的对象。
 ### buildBlock(DocumentBuilder documentBuilder) {#buildBlock-com.aspose.words.DocumentBuilder-}
 ```
 public void buildBlock(DocumentBuilder documentBuilder)
@@ -235,8 +235,8 @@ public void buildBlock(DocumentBuilder documentBuilder)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | documentBuilder | [DocumentBuilder](../../com.aspose.words/documentbuilder) |  |
 
@@ -248,23 +248,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -273,8 +273,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -299,7 +299,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -317,8 +317,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -330,9 +330,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

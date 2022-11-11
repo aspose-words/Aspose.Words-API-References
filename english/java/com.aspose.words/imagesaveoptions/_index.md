@@ -1,120 +1,120 @@
 ---
 title: ImageSaveOptions
-second_title: Aspose.Words for Java API Reference
-description: Allows to specify additional options when rendering document pages or shapes to images.
+second_title: Aspose.Words for Java API 参考
+description: 允许在将文档页面或形状渲染为图像时指定其他选项。
 type: docs
 weight: 340
-url: /java/com.aspose.words/imagesaveoptions/
+url: /zh/java/com.aspose.words/imagesaveoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class ImageSaveOptions extends FixedPageSaveOptions implements Cloneable
 ```
 
-Allows to specify additional options when rendering document pages or shapes to images.
+允许在将文档页面或形状渲染为图像时指定其他选项。
 
-To learn more, visit the **Specify Save Options** documentation article.
-## Constructors
+要了解更多信息，请访问**Specify Save Options**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ImageSaveOptions(int saveFormat)](#ImageSaveOptions-int-) | Initializes a new instance of this class. |
-## Methods
+| [ImageSaveOptions(int saveFormat)](#ImageSaveOptions-int-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
-| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [deepClone()](#deepClone--) | Creates a deep clone of this object. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getClass()](#getClass--) |  |
-| [getColorMode()](#getColorMode--) | Gets a value determining how colors are rendered. |
-| [getDefaultTemplate()](#getDefaultTemplate--) | Gets path to default template (including filename). |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | Gets a value determining how 3D effects are rendered. |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | Gets a value determining how DrawingML effects are rendered. |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | Gets a value determining how DrawingML shapes are rendered. |
-| [getExportGeneratorName()](#getExportGeneratorName--) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [getGraphicsQualityOptions()](#getGraphicsQualityOptions--) | Allows to specify rendering mode and quality for the java.awt.Graphics2D object. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution for the generated images, in dots per inch. |
-| [getImageBrightness()](#getImageBrightness--) | Gets the brightness for the generated images. |
-| [getImageColorMode()](#getImageColorMode--) | Gets the color mode for the generated images. |
-| [getImageContrast()](#getImageContrast--) | Gets the contrast for the generated images. |
-| [getImlRenderingMode()](#getImlRenderingMode--) | Gets a value determining how ink (InkML) objects are rendered. |
-| [getJpegQuality()](#getJpegQuality--) | Gets a value determining the quality of the generated JPEG images. |
-| [getMemoryOptimization()](#getMemoryOptimization--) | Gets value determining if memory optimization should be performed before saving the document. |
-| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | Allows to specify how metafiles are treated in the rendered output. |
-| [getNumeralFormat()](#getNumeralFormat--) | Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [getOptimizeOutput()](#getOptimizeOutput--) | Flag indicates whether it is required to optimize output. |
-| [getPageSavingCallback()](#getPageSavingCallback--) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [getPageSet()](#getPageSet--) | Gets the pages to render. |
-| [getPaperColor()](#getPaperColor--) | Gets the background (paper) color for the generated images. |
-| [getPixelFormat()](#getPixelFormat--) | Gets the pixel format for the generated images. |
-| [getPrettyFormat()](#getPrettyFormat--) | When  true , pretty formats output where applicable. |
-| [getProgressCallback()](#getProgressCallback--) | Called during saving a document and accepts data about saving progress. |
-| [getSaveFormat()](#getSaveFormat--) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. |
-| [getScale()](#getScale--) | Gets the zoom factor for the generated images. |
-| [getTempFolder()](#getTempFolder--) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [getThresholdForFloydSteinbergDithering()](#getThresholdForFloydSteinbergDithering--) | Gets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. |
-| [getTiffBinarizationMethod()](#getTiffBinarizationMethod--) | Gets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4. |
-| [getTiffCompression()](#getTiffCompression--) | Gets the type of compression to apply when saving generated images to the TIFF format. |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateFields()](#getUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent--) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [getUseAntiAliasing()](#getUseAntiAliasing--) | Gets a value determining whether or not to use anti-aliasing for rendering. |
-| [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer--) | Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
-| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | Gets a value determining whether or not to use high quality (i.e. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution for the generated images, in dots per inch. |
+| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
+| [deepClone()](#deepClone--) | 创建此对象的深层克隆。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [get班级()](#get班级--) |  |
+| [getColorMode()](#getColorMode--) | 获取一个值，该值确定如何呈现颜色。 |
+| [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
+| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [getGraphicsQualityOptions()](#getGraphicsQualityOptions--) | 允许为 java.awt.Graphics2D 对象指定渲染模式和质量。 |
+| [getHorizontalResolution()](#getHorizontalResolution--) | 获取生成图像的水平分辨率，以每英寸点数为单位。 |
+| [getImageBrightness()](#getImageBrightness--) | 获取生成图像的亮度。 |
+| [getImageColorMode()](#getImageColorMode--) | 获取生成图像的颜色模式。 |
+| [getImageContrast()](#getImageContrast--) | 获取生成图像的对比度。 |
+| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
+| [getJpegQuality()](#getJpegQuality--) | 获取确定生成的 JPEG 图像质量的值。 |
+| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
+| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | 允许指定如何在渲染输出中处理元文件。 |
+| [getNumeralFormat()](#getNumeralFormat--) | 获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [getOptimizeOutput()](#getOptimizeOutput--) | Flag 表示是否需要优化输出。 |
+| [getPageSavingCallback()](#getPageSavingCallback--) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [getPageSet()](#getPageSet--) | 获取要呈现的页面。 |
+| [getPaperColor()](#getPaperColor--) | 获取生成图像的背景（纸张）颜色。 |
+| [getPixelFormat()](#getPixelFormat--) | 获取生成图像的像素格式。 |
+| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 |
+| [getScale()](#getScale--) | 获取生成图像的缩放系数。 |
+| [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [getThresholdForFloydSteinbergDithering()](#getThresholdForFloydSteinbergDithering--) | 获取确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
+| [getTiffBinarization方法()](#getTiffBinarization方法--) | 获取将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
+| [getTiffCompression()](#getTiffCompression--) | 获取将生成的图像保存为 TIFF 格式时应用的压缩类型。 |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdate字段()](#getUpdate字段--) | 获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdateSdtContent()](#getUpdateSdtContent--) | 获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
+| [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer--) | 获取一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。 |
+| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
+| [getVerticalResolution()](#getVerticalResolution--) | 获取生成图像的垂直分辨率，以每英寸点数为单位。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [setColorMode(int value)](#setColorMode-int-) | Sets a value determining how colors are rendered. |
-| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | Sets path to default template (including filename). |
-| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | Sets a value determining how 3D effects are rendered. |
-| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | Sets a value determining how DrawingML effects are rendered. |
-| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | Sets a value determining how DrawingML shapes are rendered. |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [setGraphicsQualityOptions(GraphicsQualityOptions value)](#setGraphicsQualityOptions-com.aspose.words.GraphicsQualityOptions-) | Allows to specify rendering mode and quality for the java.awt.Graphics2D object. |
-| [setHorizontalResolution(float value)](#setHorizontalResolution-float-) | Sets the horizontal resolution for the generated images, in dots per inch. |
-| [setImageBrightness(float value)](#setImageBrightness-float-) | Sets the brightness for the generated images. |
-| [setImageColorMode(int value)](#setImageColorMode-int-) | Sets the color mode for the generated images. |
-| [setImageContrast(float value)](#setImageContrast-float-) | Sets the contrast for the generated images. |
-| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | Sets a value determining how ink (InkML) objects are rendered. |
-| [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a value determining the quality of the generated JPEG images. |
-| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | Sets value determining if memory optimization should be performed before saving the document. |
-| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | Allows to specify metafile rendering options. |
-| [setNumeralFormat(int value)](#setNumeralFormat-int-) | Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag indicates whether it is required to optimize output. |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | Sets the pages to render. |
-| [setPaperColor(Color value)](#setPaperColor-java.awt.Color-) | Sets the background (paper) color for the generated images. |
-| [setPixelFormat(int value)](#setPixelFormat-int-) | Sets the pixel format for the generated images. |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | When  true , pretty formats output where applicable. |
-| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | Called during saving a document and accepts data about saving progress. |
-| [setResolution(float value)](#setResolution-float-) | Sets both horizontal and vertical resolution for the generated images, in dots per inch. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. |
-| [setScale(float value)](#setScale-float-) | Sets the zoom factor for the generated images. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [setThresholdForFloydSteinbergDithering(byte value)](#setThresholdForFloydSteinbergDithering-byte-) | Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. |
-| [setTiffBinarizationMethod(int value)](#setTiffBinarizationMethod-int-) | Sets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4. |
-| [setTiffCompression(int value)](#setTiffCompression-int-) | Sets the type of compression to apply when saving generated images to the TIFF format. |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateFields(boolean value)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | Sets a value determining whether or not to use anti-aliasing for rendering. |
-| [setUseGdiEmfRenderer(boolean value)](#setUseGdiEmfRenderer-boolean-) | Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
-| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | Sets a value determining whether or not to use high quality (i.e. |
-| [setVerticalResolution(float value)](#setVerticalResolution-float-) | Sets the vertical resolution for the generated images, in dots per inch. |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [setColorMode(int value)](#setColorMode-int-) | 设置一个值来确定如何呈现颜色。 |
+| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
+| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
+| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
+| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [setGraphicsQualityOptions(GraphicsQualityOptions value)](#setGraphicsQualityOptions-com.aspose.words.GraphicsQualityOptions-) | 允许为 java.awt.Graphics2D 对象指定渲染模式和质量。 |
+| [setHorizontalResolution(float value)](#setHorizontalResolution-float-) | 设置生成图像的水平分辨率，以每英寸点数为单位。 |
+| [setImageBrightness(float value)](#setImageBrightness-float-) | 设置生成图像的亮度。 |
+| [setImageColorMode(int value)](#setImageColorMode-int-) | 设置生成图像的颜色模式。 |
+| [setImageContrast(float value)](#setImageContrast-float-) | 设置生成图像的对比度。 |
+| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
+| [setJpegQuality(int value)](#setJpegQuality-int-) | 设置确定生成的 JPEG 图像质量的值。 |
+| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
+| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | 允许指定元文件渲染选项。 |
+| [setNumeralFormat(int value)](#setNumeralFormat-int-) | 套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag 表示是否需要优化输出。 |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | 设置要呈现的页面。 |
+| [setPaperColor(Color value)](#setPaperColor-java.awt.Color-) | 为生成的图像设置背景（纸张）颜色。 |
+| [setPixelFormat(int value)](#setPixelFormat-int-) | 设置生成图像的像素格式。 |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [setResolution(float value)](#setResolution-float-) | 为生成的图像设置水平和垂直分辨率，以每英寸点数为单位。 |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。 |
+| [setScale(float value)](#setScale-float-) | 设置生成图像的缩放系数。 |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [setThresholdForFloydSteinbergDithering(byte value)](#setThresholdForFloydSteinbergDithering-byte-) | 设置确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
+| [setTiffBinarization方法(int value)](#setTiffBinarization方法-int-) | 设置将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。 |
+| [setTiffCompression(int value)](#setTiffCompression-int-) | 设置将生成的图像保存为 TIFF 格式时应用的压缩类型。 |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdate字段(boolean value)](#setUpdate字段-boolean-) | 设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | 设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | 设置一个值，确定是否使用抗锯齿进行渲染。 |
+| [setUseGdiEmfRenderer(boolean value)](#setUseGdiEmfRenderer-boolean-) | 设置一个值，确定在保存到 EMF 时是否使用 GDI+ 或 Aspose.Words 图元文件渲染器。 |
+| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | 设置一个值来确定是否使用高质量（即 |
+| [setVerticalResolution(float value)](#setVerticalResolution-float-) | 设置生成图像的垂直分辨率，以每英寸点数为单位。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,10 +125,10 @@ public ImageSaveOptions(int saveFormat)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
@@ -140,12 +140,12 @@ public static SaveOptions createSaveOptions(int saveFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Returns:**
+**退货:**
 [SaveOptions](../../com.aspose.words/saveoptions)
 ### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String-}
 ```
@@ -153,24 +153,24 @@ public static SaveOptions createSaveOptions(String fileName)
 ```
 
 
-Creates a save options object of a class suitable for the file extension specified in the given file name.
+创建适合给定文件名中指定的文件扩展名的类的保存选项对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
+| fileName | java.lang.String | 此文件名的扩展名确定要创建的保存选项对象的类。 |
 
-**Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
+**退货:**
+[SaveOptions](../../com.aspose.words/saveoptions) - 派生自的类的对象[SaveOptions](../../com.aspose.words/saveoptions).
 ### deepClone() {#deepClone--}
 ```
 public ImageSaveOptions deepClone()
 ```
 
 
-Creates a deep clone of this object.
+创建此对象的深层克隆。
 
-**Returns:**
+**退货:**
 [ImageSaveOptions](../../com.aspose.words/imagesaveoptions)
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -178,515 +178,515 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified object is equal in value to the current object.
+确定指定对象的值是否与当前对象相等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts--}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Returns:**
-boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
-### getClass() {#getClass--}
+**退货:**
+boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColorMode() {#getColorMode--}
 ```
 public int getColorMode()
 ```
 
 
-Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+获取一个值，该值确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Returns:**
-int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode) constants.
+**退货:**
+int - 确定颜色如何呈现的值。返回值是以下之一[ColorMode](../../com.aspose.words/colormode)常数。
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+获取默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Returns:**
-java.lang.String - Path to default template (including filename).
+**退货:**
+java.lang.String - 默认模板的路径（包括文件名）。
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode--}
 ```
 public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Returns:**
-int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
+**退货:**
+int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
+**退货:**
+ int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getGraphicsQualityOptions() {#getGraphicsQualityOptions--}
 ```
 public GraphicsQualityOptions getGraphicsQualityOptions()
 ```
 
 
-Allows to specify rendering mode and quality for the java.awt.Graphics2D object.
+允许为 java.awt.Graphics2D 对象指定渲染模式和质量。
 
-Use this property to override the Graphics settings provided by Aspose.Words engine by default.
+使用此属性覆盖 Aspose.Words 引擎默认提供的图形设置。
 
-It will take effect only when a document is being saved to an image-like format.
+只有在将文档保存为类似图像的格式时才会生效。
 
-**Returns:**
-[GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) - The corresponding [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) value.
+**退货:**
+[GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) - 相应的[GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions)价值。
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public float getHorizontalResolution()
 ```
 
 
-Gets the horizontal resolution for the generated images, in dots per inch.
+获取生成图像的水平分辨率，以每英寸点数为单位。
 
-This property has effect only when saving to raster image formats and affects the output size in pixels.
+此属性仅在保存为光栅图像格式时有效，并影响以像素为单位的输出大小。
 
-The default value is 96.
+默认值为 96。
 
-**Returns:**
-float - The horizontal resolution for the generated images, in dots per inch.
+**退货:**
+float - 生成图像的水平分辨率，以每英寸点数为单位。
 ### getImageBrightness() {#getImageBrightness--}
 ```
 public float getImageBrightness()
 ```
 
 
-Gets the brightness for the generated images.
+获取生成图像的亮度。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is 0.5. The value must be in the range between 0 and 1.
+默认值为 0.5。该值必须在 0 和 1 之间的范围内。
 
-**Returns:**
-float - The brightness for the generated images.
+**退货:**
+float - 生成图像的亮度。
 ### getImageColorMode() {#getImageColorMode--}
 ```
 public int getImageColorMode()
 ```
 
 
-Gets the color mode for the generated images.
+获取生成图像的颜色模式。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is [ImageColorMode.NONE](../../com.aspose.words/imagecolormode\#NONE).
+默认值为[ImageColorMode.NONE](../../com.aspose.words/imagecolormode\#NONE).
 
-**Returns:**
-int - The color mode for the generated images. The returned value is one of [ImageColorMode](../../com.aspose.words/imagecolormode) constants.
+**退货:**
+ int - 生成图像的颜色模式。返回值是以下之一[ImageColorMode](../../com.aspose.words/imagecolormode)常数。
 ### getImageContrast() {#getImageContrast--}
 ```
 public float getImageContrast()
 ```
 
 
-Gets the contrast for the generated images.
+获取生成图像的对比度。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is 0.5. The value must be in the range between 0 and 1.
+默认值为 0.5。该值必须在 0 和 1 之间的范围内。
 
-**Returns:**
-float - The contrast for the generated images.
+**退货:**
+float - 生成图像的对比度。
 ### getImlRenderingMode() {#getImlRenderingMode--}
 ```
 public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
 ### getJpegQuality() {#getJpegQuality--}
 ```
 public int getJpegQuality()
 ```
 
 
-Gets a value determining the quality of the generated JPEG images.
+获取确定生成的 JPEG 图像质量的值。
 
-Has effect only when saving to JPEG.
+仅在保存为 JPEG 时有效。
 
-Use this property to get or set the quality of generated images when saving in JPEG format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
+以 JPEG 格式保存时，使用此属性获取或设置生成图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
-The default value is 95.
+默认值为 95。
 
-**Returns:**
-int - A value determining the quality of the generated JPEG images.
+**退货:**
+int - 确定生成的 JPEG 图像质量的值。
 ### getMemoryOptimization() {#getMemoryOptimization--}
 ```
 public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+获取确定是否应在保存文档之前执行内存优化的值。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Returns:**
-boolean - Value determining if memory optimization should be performed before saving the document.
+**退货:**
+boolean - 确定是否应在保存文档之前执行内存优化的值。
 ### getMetafileRenderingOptions() {#getMetafileRenderingOptions--}
 ```
 public MetafileRenderingOptions getMetafileRenderingOptions()
 ```
 
 
-Allows to specify how metafiles are treated in the rendered output.
+允许指定如何在渲染输出中处理元文件。
 
-When [MetafileRenderingMode.VECTOR](../../com.aspose.words/metafilerenderingmode\#VECTOR) is specified, Aspose.Words renders metafile to vector graphics using its own metafile rendering engine first and then renders vector graphics to the image.
+什么时候[MetafileRenderingMode.VECTOR](../../com.aspose.words/metafilerenderingmode\#VECTOR)指定时，Aspose.Words 先使用自己的图元文件渲染引擎将图元文件渲染为矢量图形，然后再将矢量图形渲染为图像。
 
-When [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP) is specified, Aspose.Words renders metafile directly to the image using the GDI+ metafile rendering engine.
+什么时候[MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP)指定时，Aspose.Words 使用 GDI+ 图元文件渲染引擎将图元文件直接渲染到图像。
 
-GDI+ metafile rendering engine works faster, supports almost all metafile features but on low resolutions may produce inconsistent result when compared to the rest of vector graphics (especially for text) on the page. Aspose.Words metafile rendering engine will produce more consistent result even on low resolutions but works slower and may inaccurately render complex metafiles.
+GDI+ 图元文件渲染引擎运行速度更快，支持几乎所有图元文件功能，但与页面上的其余矢量图形（尤其是文本）相比，在低分辨率下可能会产生不一致的结果。 Aspose.Words 元文件渲染引擎即使在低分辨率下也会产生更一致的结果，但工作速度较慢，并且可能不准确地渲染复杂的元文件。
 
-The default value for [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP).
+默认值为[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)是[MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP).
 
-**Returns:**
-[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value.
+**退货:**
+[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。
 ### getNumeralFormat() {#getNumeralFormat--}
 ```
 public int getNumeralFormat()
 ```
 
 
-Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Returns:**
-int - \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat) constants.
+**退货:**
+诠释 -\{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。返回值是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。
 ### getOptimizeOutput() {#getOptimizeOutput--}
 ```
 public boolean getOptimizeOutput()
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getPageSavingCallback() {#getPageSavingCallback--}
 ```
 public IPageSavingCallback getPageSavingCallback()
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Returns:**
-[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value.
+**退货:**
+[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。
 ### getPageSet() {#getPageSet--}
 ```
 public PageSet getPageSet()
 ```
 
 
-Gets the pages to render. Default is all the pages in the document.
+获取要呈现的页面。默认为文档中的所有页面。
 
-This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
+此属性仅在呈现文档页面时有效。将形状渲染到图像时会忽略此属性。
 
-**Returns:**
-[PageSet](../../com.aspose.words/pageset) - The pages to render.
+**退货:**
+[PageSet](../../com.aspose.words/pageset) - 要呈现的页面。
 ### getPaperColor() {#getPaperColor--}
 ```
 public Color getPaperColor()
 ```
 
 
-Gets the background (paper) color for the generated images.
+获取生成图像的背景（纸张）颜色。
 
-The default value is .
+默认值为 。
 
-When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
+当呈现指定了自己的背景颜色的文档页面时，文档背景颜色将覆盖此属性指定的颜色。
 
-**Returns:**
-java.awt.Color - The background (paper) color for the generated images.
+**退货:**
+java.awt.Color - 生成图像的背景（纸张）颜色。
 ### getPixelFormat() {#getPixelFormat--}
 ```
 public int getPixelFormat()
 ```
 
 
-Gets the pixel format for the generated images.
+获取生成图像的像素格式。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is [ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat\#FORMAT-32-BPP-ARGB).
+默认值为[ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat\#FORMAT-32-BPP-ARGB).
 
-Pixel format of the output image may differ from the set value because of work of GDI+.
+由于 GDI+ 的工作，输出图像的像素格式可能与设定值不同。
 
-**Returns:**
-int - The pixel format for the generated images. The returned value is one of [ImagePixelFormat](../../com.aspose.words/imagepixelformat) constants.
+**退货:**
+int - 生成图像的像素格式。返回值是以下之一[ImagePixelFormat](../../com.aspose.words/imagepixelformat)常数。
 ### getPrettyFormat() {#getPrettyFormat--}
 ```
 public boolean getPrettyFormat()
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentSavingCallback getProgressCallback()
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Returns:**
-[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
+**退货:**
+[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat\#SVG).
+如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。可以是栅格[SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG)或矢量[SaveFormat.SVG](../../com.aspose.words/saveformat\#SVG).
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+在不同的平台上，支持的格式可能不同。其他选项的数量取决于所选格式。
 
-Also, it is possible to save to SVG both via ImageSaveOptions and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions).
+此外，可以通过 ImageSaveOptions 和通过[SvgSaveOptions](../../com.aspose.words/svgsaveoptions).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。
 ### getScale() {#getScale--}
 ```
 public float getScale()
 ```
 
 
-Gets the zoom factor for the generated images. The default value is 1.0. The value must be greater than 0.
+获取生成图像的缩放系数。默认值为 1.0。该值必须大于 0。
 
-**Returns:**
-float - The zoom factor for the generated images.
+**退货:**
+float - 生成图像的缩放系数。
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getThresholdForFloydSteinbergDithering() {#getThresholdForFloydSteinbergDithering--}
 ```
 public byte getThresholdForFloydSteinbergDithering()
 ```
 
 
-Gets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod) is ImageBinarizationMethod.FloydSteinbergDithering.
+获取确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarization方法.FloydSteinbergDithering。
 
-The default value is 128.
+默认值为 128。
 
-**Returns:**
-byte - The threshold that determines the value of the binarization error in the Floyd-Steinberg method.
-### getTiffBinarizationMethod() {#getTiffBinarizationMethod--}
+**退货:**
+byte - 确定 Floyd-Steinberg 方法中二值化误差值的阈值。
+### getTiffBinarization方法() {#getTiffBinarization方法--}
 ```
-public int getTiffBinarizationMethod()
+public int getTiffBinarization方法()
 ```
 
 
-Gets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4.
+获取将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。
 
-The default value is ImageBinarizationMethod.Threshold.
+默认值为 ImageBinarization方法.Threshold。
 
-**Returns:**
-int - Method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4. The returned value is one of [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod) constants.
+**退货:**
+int - 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。返回值是以下之一[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)常数。
 ### getTiffCompression() {#getTiffCompression--}
 ```
 public int getTiffCompression()
 ```
 
 
-Gets the type of compression to apply when saving generated images to the TIFF format.
+获取将生成的图像保存为 TIFF 格式时应用的压缩类型。
 
-Has effect only when saving to TIFF.
+仅在保存到 TIFF 时有效。
 
-The default value is [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
+默认值为[TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
 
-**Returns:**
-int - The type of compression to apply when saving generated images to the TIFF format. The returned value is one of [TiffCompression](../../com.aspose.words/tiffcompression) constants.
+**退货:**
+ int - 将生成的图像保存为 TIFF 格式时应用的压缩类型。返回值是以下之一[TiffCompression](../../com.aspose.words/tiffcompression)常数。
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty--}
 ```
 public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving.
-### getUpdateFields() {#getUpdateFields--}
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。
+### getUpdate字段() {#getUpdate字段--}
 ```
-public boolean getUpdateFields()
+public boolean getUpdate字段()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Returns:**
-boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
+**退货:**
+boolean - 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty--}
 ```
 public boolean getUpdateLastPrintedProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty--}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 ### getUpdateSdtContent() {#getUpdateSdtContent--}
 ```
 public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
+**退货:**
+ boolean - 确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。
 ### getUseAntiAliasing() {#getUseAntiAliasing--}
 ```
 public boolean getUseAntiAliasing()
 ```
 
 
-Gets a value determining whether or not to use anti-aliasing for rendering.
+获取一个值，该值确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Returns:**
-boolean - A value determining whether or not to use anti-aliasing for rendering.
+**退货:**
+boolean - 确定是否使用抗锯齿进行渲染的值。
 ### getUseGdiEmfRenderer() {#getUseGdiEmfRenderer--}
 ```
 public boolean getUseGdiEmfRenderer()
 ```
 
 
-Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
+获取一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。
 
-If set to  true  GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics object and saved to metafile.
+如果设置为 true，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到元文件。
 
-If set to  false  Aspose.Words metafile renderer is used. I.e. content is written directly to the metafile format with Aspose.Words.
+如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容使用Aspose.Words 直接写入元文件格式。
 
-Has effect only when saving to EMF.
+仅在保存到 EMF 时有效。
 
-GDI+ saving works only on .NET.
+GDI+ 保存仅适用于 .NET。
 
-The default value is  true .
+默认值是true 。
 
-**Returns:**
-boolean - A value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
+**退货:**
+boolean - 一个值，用于确定在保存到 EMF 时是否使用 GDI+ 或 Aspose.Words 图元文件渲染器。
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Returns:**
-boolean - A value determining whether or not to use high quality (i.e.
+**退货:**
+boolean - 确定是否使用高质量的值（即
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
 public float getVerticalResolution()
 ```
 
 
-Gets the vertical resolution for the generated images, in dots per inch.
+获取生成图像的垂直分辨率，以每英寸点数为单位。
 
-This property has effect only when saving to raster image formats and affects the output size in pixels.
+此属性仅在保存为光栅图像格式时有效，并影响以像素为单位的输出大小。
 
-The default value is 96.
+默认值为 96。
 
-**Returns:**
-float - The vertical resolution for the generated images, in dots per inch.
+**退货:**
+float - 生成图像的垂直分辨率，以每英寸点数为单位。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -695,8 +695,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -719,16 +719,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 
 ### setColorMode(int value) {#setColorMode-int-}
 ```
@@ -736,12 +736,12 @@ public void setColorMode(int value)
 ```
 
 
-Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+设置一个值来确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode) constants. |
+| value | int | 确定如何呈现颜色的值。该值必须是以下之一[ColorMode](../../com.aspose.words/colormode)常数。 |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -749,12 +749,12 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Path to default template (including filename). |
+| value | java.lang.String | 默认模板的路径（包括文件名）。 |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int-}
 ```
@@ -762,12 +762,12 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+设置确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
+| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -775,14 +775,14 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+设置一个值，确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -790,14 +790,14 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+设置一个值，确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -805,12 +805,12 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setGraphicsQualityOptions(GraphicsQualityOptions value) {#setGraphicsQualityOptions-com.aspose.words.GraphicsQualityOptions-}
 ```
@@ -818,16 +818,16 @@ public void setGraphicsQualityOptions(GraphicsQualityOptions value)
 ```
 
 
-Allows to specify rendering mode and quality for the java.awt.Graphics2D object.
+允许为 java.awt.Graphics2D 对象指定渲染模式和质量。
 
-Use this property to override the Graphics settings provided by Aspose.Words engine by default.
+使用此属性覆盖 Aspose.Words 引擎默认提供的图形设置。
 
-It will take effect only when a document is being saved to an image-like format.
+只有在将文档保存为类似图像的格式时才会生效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) | The corresponding [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) value. |
+| value | [GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions) | 相应的[GraphicsQualityOptions](../../com.aspose.words/graphicsqualityoptions)价值。 |
 
 ### setHorizontalResolution(float value) {#setHorizontalResolution-float-}
 ```
@@ -835,16 +835,16 @@ public void setHorizontalResolution(float value)
 ```
 
 
-Sets the horizontal resolution for the generated images, in dots per inch.
+设置生成图像的水平分辨率，以每英寸点数为单位。
 
-This property has effect only when saving to raster image formats and affects the output size in pixels.
+此属性仅在保存为光栅图像格式时有效，并影响以像素为单位的输出大小。
 
-The default value is 96.
+默认值为 96。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | The horizontal resolution for the generated images, in dots per inch. |
+| value | float | 生成图像的水平分辨率，以每英寸点数为单位。 |
 
 ### setImageBrightness(float value) {#setImageBrightness-float-}
 ```
@@ -852,16 +852,16 @@ public void setImageBrightness(float value)
 ```
 
 
-Sets the brightness for the generated images.
+设置生成图像的亮度。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is 0.5. The value must be in the range between 0 and 1.
+默认值为 0.5。该值必须在 0 和 1 之间的范围内。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | The brightness for the generated images. |
+| value | float | 生成图像的亮度。 |
 
 ### setImageColorMode(int value) {#setImageColorMode-int-}
 ```
@@ -869,16 +869,16 @@ public void setImageColorMode(int value)
 ```
 
 
-Sets the color mode for the generated images.
+设置生成图像的颜色模式。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is [ImageColorMode.NONE](../../com.aspose.words/imagecolormode\#NONE).
+默认值为[ImageColorMode.NONE](../../com.aspose.words/imagecolormode\#NONE).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The color mode for the generated images. The value must be one of [ImageColorMode](../../com.aspose.words/imagecolormode) constants. |
+| value | int | 生成图像的颜色模式。该值必须是以下之一[ImageColorMode](../../com.aspose.words/imagecolormode)常数。 |
 
 ### setImageContrast(float value) {#setImageContrast-float-}
 ```
@@ -886,16 +886,16 @@ public void setImageContrast(float value)
 ```
 
 
-Sets the contrast for the generated images.
+设置生成图像的对比度。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is 0.5. The value must be in the range between 0 and 1.
+默认值为 0.5。该值必须在 0 和 1 之间的范围内。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | The contrast for the generated images. |
+| value | float | 生成图像的对比度。 |
 
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int-}
 ```
@@ -903,14 +903,14 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+设置一个值，确定如何呈现墨水 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
+| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
 
 ### setJpegQuality(int value) {#setJpegQuality-int-}
 ```
@@ -918,18 +918,18 @@ public void setJpegQuality(int value)
 ```
 
 
-Sets a value determining the quality of the generated JPEG images.
+设置确定生成的 JPEG 图像质量的值。
 
-Has effect only when saving to JPEG.
+仅在保存为 JPEG 时有效。
 
-Use this property to get or set the quality of generated images when saving in JPEG format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression.
+以 JPEG 格式保存时，使用此属性获取或设置生成图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。
 
-The default value is 95.
+默认值为 95。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining the quality of the generated JPEG images. |
+| value | int | 确定生成的 JPEG 图像质量的值。 |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean-}
 ```
@@ -937,12 +937,12 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+设置值确定是否应在保存文档之前执行内存优化。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining if memory optimization should be performed before saving the document. |
+| value | boolean | 确定是否应在保存文档之前执行内存优化的值。 |
 
 ### setMetafileRenderingOptions(MetafileRenderingOptions value) {#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-}
 ```
@@ -950,12 +950,12 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 ```
 
 
-Allows to specify metafile rendering options.
+允许指定元文件渲染选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value. |
+| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。 |
 
 ### setNumeralFormat(int value) {#setNumeralFormat-int-}
 ```
@@ -963,12 +963,12 @@ public void setNumeralFormat(int value)
 ```
 
 
-Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat) constants. |
+| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。该值必须是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。 |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean-}
 ```
@@ -976,12 +976,12 @@ public void setOptimizeOutput(boolean value)
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.words.IPageSavingCallback-}
 ```
@@ -989,12 +989,12 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value. |
+| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。 |
 
 ### setPageSet(PageSet value) {#setPageSet-com.aspose.words.PageSet-}
 ```
@@ -1002,14 +1002,14 @@ public void setPageSet(PageSet value)
 ```
 
 
-Sets the pages to render. Default is all the pages in the document.
+设置要呈现的页面。默认为文档中的所有页面。
 
-This property has effect only when rendering document pages. This property is ignored when rendering shapes to images.
+此属性仅在呈现文档页面时有效。将形状渲染到图像时会忽略此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PageSet](../../com.aspose.words/pageset) | The pages to render. |
+| value | [PageSet](../../com.aspose.words/pageset) | 要呈现的页面。 |
 
 ### setPaperColor(Color value) {#setPaperColor-java.awt.Color-}
 ```
@@ -1017,16 +1017,16 @@ public void setPaperColor(Color value)
 ```
 
 
-Sets the background (paper) color for the generated images.
+为生成的图像设置背景（纸张）颜色。
 
-The default value is .
+默认值为 。
 
-When rendering pages of a document that specifies its own background color, then the document background color will override the color specified by this property.
+当呈现指定了自己的背景颜色的文档页面时，文档背景颜色将覆盖此属性指定的颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The background (paper) color for the generated images. |
+| value | java.awt.Color | 生成图像的背景（纸张）颜色。 |
 
 ### setPixelFormat(int value) {#setPixelFormat-int-}
 ```
@@ -1034,18 +1034,18 @@ public void setPixelFormat(int value)
 ```
 
 
-Sets the pixel format for the generated images.
+设置生成图像的像素格式。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-The default value is [ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat\#FORMAT-32-BPP-ARGB).
+默认值为[ImagePixelFormat.FORMAT\_32\_BPP\_ARGB](../../com.aspose.words/imagepixelformat\#FORMAT-32-BPP-ARGB).
 
-Pixel format of the output image may differ from the set value because of work of GDI+.
+由于 GDI+ 的工作，输出图像的像素格式可能与设定值不同。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The pixel format for the generated images. The value must be one of [ImagePixelFormat](../../com.aspose.words/imagepixelformat) constants. |
+| value | int | 生成图像的像素格式。该值必须是以下之一[ImagePixelFormat](../../com.aspose.words/imagepixelformat)常数。 |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
 ```
@@ -1053,14 +1053,14 @@ public void setPrettyFormat(boolean value)
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback-}
 ```
@@ -1068,14 +1068,14 @@ public void setProgressCallback(IDocumentSavingCallback value)
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
+| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。 |
 
 ### setResolution(float value) {#setResolution-float-}
 ```
@@ -1083,14 +1083,14 @@ public void setResolution(float value)
 ```
 
 
-Sets both horizontal and vertical resolution for the generated images, in dots per inch.
+为生成的图像设置水平和垂直分辨率，以每英寸点数为单位。
 
-This property has effect only when saving to raster image formats.
+此属性仅在保存为光栅图像格式时有效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | Both horizontal and vertical resolution for the generated images, in dots per inch. |
+| value | float | 生成图像的水平和垂直分辨率，以每英寸点数为单位。 |
 
 ### setSaveFormat(int value) {#setSaveFormat-int-}
 ```
@@ -1098,16 +1098,16 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG) or vector [SaveFormat.SVG](../../com.aspose.words/saveformat\#SVG).
+如果使用此保存选项对象，则指定保存呈现的文档页面或形状的格式。可以是栅格[SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG)或矢量[SaveFormat.SVG](../../com.aspose.words/saveformat\#SVG).
 
-On different platforms, the supported formats may be different. The number of other options depends on the selected format.
+在不同的平台上，支持的格式可能不同。其他选项的数量取决于所选格式。
 
-Also, it is possible to save to SVG both via ImageSaveOptions and via [SvgSaveOptions](../../com.aspose.words/svgsaveoptions).
+此外，可以通过 ImageSaveOptions 和通过[SvgSaveOptions](../../com.aspose.words/svgsaveoptions).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。 |
 
 ### setScale(float value) {#setScale-float-}
 ```
@@ -1115,12 +1115,12 @@ public void setScale(float value)
 ```
 
 
-Sets the zoom factor for the generated images. The default value is 1.0. The value must be greater than 0.
+设置生成图像的缩放系数。默认值为 1.0。该值必须大于 0。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | The zoom factor for the generated images. |
+| value | float | 生成图像的缩放系数。 |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -1128,20 +1128,20 @@ public void setTempFolder(String value)
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setThresholdForFloydSteinbergDithering(byte value) {#setThresholdForFloydSteinbergDithering-byte-}
 ```
@@ -1149,29 +1149,29 @@ public void setThresholdForFloydSteinbergDithering(byte value)
 ```
 
 
-Sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method. when [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod) is ImageBinarizationMethod.FloydSteinbergDithering.
+设置确定 Floyd-Steinberg 方法中二值化误差值的阈值。什么时候[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)是 ImageBinarization方法.FloydSteinbergDithering。
 
-The default value is 128.
+默认值为 128。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte | The threshold that determines the value of the binarization error in the Floyd-Steinberg method. |
+| value | byte | 确定 Floyd-Steinberg 方法中二值化误差值的阈值。 |
 
-### setTiffBinarizationMethod(int value) {#setTiffBinarizationMethod-int-}
+### setTiffBinarization方法(int value) {#setTiffBinarization方法-int-}
 ```
-public void setTiffBinarizationMethod(int value)
+public void setTiffBinarization方法(int value)
 ```
 
 
-Sets method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4.
+设置将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。
 
-The default value is ImageBinarizationMethod.Threshold.
+默认值为 ImageBinarization方法.Threshold。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Method used while converting images to 1 bpp format when [getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-) is SaveFormat.Tiff and [getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-) is equal to TiffCompression.Ccitt3 or TiffCompression.Ccitt4. The value must be one of [ImageBinarizationMethod](../../com.aspose.words/imagebinarizationmethod) constants. |
+| value | int | 将图像转换为 1 bpp 格式时使用的方法[getSaveFormat()](../../com.aspose.words/imagesaveoptions\#getSaveFormat--) / [setSaveFormat(int)](../../com.aspose.words/imagesaveoptions\#setSaveFormat-int-)是 SaveFormat.Tiff 和[getTiffCompression()](../../com.aspose.words/imagesaveoptions\#getTiffCompression--) / [setTiffCompression(int)](../../com.aspose.words/imagesaveoptions\#setTiffCompression-int-)等于 TiffCompression.Ccitt3 或 TiffCompression.Ccitt4。该值必须是以下之一[ImageBinarization方法](../../com.aspose.words/imagebinarizationmethod)常数。 |
 
 ### setTiffCompression(int value) {#setTiffCompression-int-}
 ```
@@ -1179,16 +1179,16 @@ public void setTiffCompression(int value)
 ```
 
 
-Sets the type of compression to apply when saving generated images to the TIFF format.
+设置将生成的图像保存为 TIFF 格式时应用的压缩类型。
 
-Has effect only when saving to TIFF.
+仅在保存到 TIFF 时有效。
 
-The default value is [TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
+默认值为[TiffCompression.CCITT\_4](../../com.aspose.words/tiffcompression\#CCITT-4).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The type of compression to apply when saving generated images to the TIFF format. The value must be one of [TiffCompression](../../com.aspose.words/tiffcompression) constants. |
+| value | int | 将生成的图像保存为 TIFF 格式时应用的压缩类型。该值必须是以下之一[TiffCompression](../../com.aspose.words/tiffcompression)常数。 |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
 ```
@@ -1196,25 +1196,25 @@ public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
 
-### setUpdateFields(boolean value) {#setUpdateFields-boolean-}
+### setUpdate字段(boolean value) {#setUpdate字段-boolean-}
 ```
-public void setUpdateFields(boolean value)
+public void setUpdate字段(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| value | boolean | 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。 |
 
 ### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean-}
 ```
@@ -1222,12 +1222,12 @@ public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean-}
 ```
@@ -1235,12 +1235,12 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean-}
 ```
@@ -1248,12 +1248,12 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -1261,16 +1261,16 @@ public void setUseAntiAliasing(boolean value)
 ```
 
 
-Sets a value determining whether or not to use anti-aliasing for rendering.
+设置一个值，确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use anti-aliasing for rendering. |
+| value | boolean | 确定是否使用抗锯齿进行渲染的值。 |
 
 ### setUseGdiEmfRenderer(boolean value) {#setUseGdiEmfRenderer-boolean-}
 ```
@@ -1278,22 +1278,22 @@ public void setUseGdiEmfRenderer(boolean value)
 ```
 
 
-Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF.
+设置一个值，确定在保存到 EMF 时是否使用 GDI+ 或 Aspose.Words 图元文件渲染器。
 
-If set to  true  GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics object and saved to metafile.
+如果设置为 true，则使用 GDI+ 图元文件渲染器。即内容写入 GDI+ 图形对象并保存到元文件。
 
-If set to  false  Aspose.Words metafile renderer is used. I.e. content is written directly to the metafile format with Aspose.Words.
+如果设置为 false，则使用 Aspose.Words 图元文件渲染器。即内容使用Aspose.Words 直接写入元文件格式。
 
-Has effect only when saving to EMF.
+仅在保存到 EMF 时有效。
 
-GDI+ saving works only on .NET.
+GDI+ 保存仅适用于 .NET。
 
-The default value is  true .
+默认值是true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
+| value | boolean | 一个值，用于确定在保存到 EMF 时是使用 GDI+ 还是 Aspose.Words 图元文件渲染器。 |
 
 ### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean-}
 ```
@@ -1301,14 +1301,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use high quality (i.e. |
+| value | boolean | 决定是否使用高质量的值（即 |
 
 ### setVerticalResolution(float value) {#setVerticalResolution-float-}
 ```
@@ -1316,16 +1316,16 @@ public void setVerticalResolution(float value)
 ```
 
 
-Sets the vertical resolution for the generated images, in dots per inch.
+设置生成图像的垂直分辨率，以每英寸点数为单位。
 
-This property has effect only when saving to raster image formats and affects the output size in pixels.
+此属性仅在保存为光栅图像格式时有效，并影响以像素为单位的输出大小。
 
-The default value is 96.
+默认值为 96。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | float | The vertical resolution for the generated images, in dots per inch. |
+| value | float | 生成图像的垂直分辨率，以每英寸点数为单位。 |
 
 ### toString() {#toString--}
 ```
@@ -1335,7 +1335,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1353,8 +1353,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1366,9 +1366,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

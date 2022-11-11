@@ -1,78 +1,78 @@
 ---
-title: FieldLink
-second_title: Aspose.Words for Java API Reference
-description: Implements the LINK field.
+title: 字段Link
+second_title: Aspose.Words for Java API 参考
+description: 实现 LINK 字段。
 type: docs
 weight: 211
-url: /java/com.aspose.words/fieldlink/
+url: /zh/java/com.aspose.words/fieldlink/
 ---
 
-**Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+**遗产:**
+java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
 ```
-public class FieldLink extends Field
+public class 字段Link extends 字段
 ```
 
-Implements the LINK field.
+实现 LINK 字段。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-For information copied from another application, this field links that information to its original source file.
-## Methods
+对于从另一个应用程序复制的信息，此字段将该信息链接到其原始源文件。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoUpdate()](#getAutoUpdate--) | Gets whether to update this field automatically. |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getFormatUpdateType()](#getFormatUpdateType--) | Gets a way the linked object updates its formatting. |
-| [getInsertAsBitmap()](#getInsertAsBitmap--) | Gets whether to insert the linked object as a bitmap. |
-| [getInsertAsHtml()](#getInsertAsHtml--) | Gets whether to insert the linked object as HTML format text. |
-| [getInsertAsPicture()](#getInsertAsPicture--) | Gets whether to insert the linked object as a picture. |
-| [getInsertAsRtf()](#getInsertAsRtf--) | Gets whether to insert the linked object in rich-text format (RTF). |
-| [getInsertAsText()](#getInsertAsText--) | Gets whether to insert the linked object in text-only format. |
-| [getInsertAsUnicode()](#getInsertAsUnicode--) | Gets whether to insert the linked object as Unicode text. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getProgId()](#getProgId--) | Gets the application type of the link information. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getSourceFullName()](#getSourceFullName--) | Gets the name and location of the source file. |
-| [getSourceItem()](#getSourceItem--) | Gets the portion of the source file that's being linked. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getAutoUpdate()](#getAutoUpdate--) | 获取是否自动更新该字段。 |
+| [get班级()](#get班级--) |  |
+| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
+| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getFormatUpdate类型()](#getFormatUpdate类型--) | 获取链接对象更新其格式的方式。 |
+| [getInsertAsBitmap()](#getInsertAsBitmap--) | 获取是否将链接对象作为位图插入。 |
+| [getInsertAsHtml()](#getInsertAsHtml--) | 获取是否将链接对象作为 HTML 格式文本插入。 |
+| [getInsertAsPicture()](#getInsertAsPicture--) | 获取是否将链接对象作为图片插入。 |
+| [getInsertAsRtf()](#getInsertAsRtf--) | 获取是否以 RTF 格式 (RTF) 插入链接对象。 |
+| [getInsertAsText()](#getInsertAsText--) | 获取是否以纯文本格式插入链接对象。 |
+| [getInsertAsUnicode()](#getInsertAsUnicode--) | 获取是否将链接对象作为 Unicode 文本插入。 |
+| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
+| [getProgId()](#getProgId--) | 获取链接信息的应用类型。 |
+| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
+| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getSourceFullName()](#getSourceFullName--) | 获取源文件的名称和位置。 |
+| [getSourceItem()](#getSourceItem--) | 获取正在链接的源文件部分。 |
+| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
+| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLinked()](#isLinked--) | Gets whether to reduce the file size by not storing graphics data with the document. |
-| [isLinked(boolean value)](#isLinked-boolean-) | Sets whether to reduce the file size by not storing graphics data with the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
+| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [isLinked()](#isLinked--) | 获取是否通过不随文档存储图形数据来减小文件大小。 |
+| [isLinked(boolean value)](#isLinked-boolean-) | 设置是否通过不在文档中存储图形数据来减小文件大小。 |
+| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) | Sets whether to update this field automatically. |
-| [setFormatUpdateType(String value)](#setFormatUpdateType-java.lang.String-) | Sets a way the linked object updates its formatting. |
-| [setInsertAsBitmap(boolean value)](#setInsertAsBitmap-boolean-) | Sets whether to insert the linked object as a bitmap. |
-| [setInsertAsHtml(boolean value)](#setInsertAsHtml-boolean-) | Sets whether to insert the linked object as HTML format text. |
-| [setInsertAsPicture(boolean value)](#setInsertAsPicture-boolean-) | Sets whether to insert the linked object as a picture. |
-| [setInsertAsRtf(boolean value)](#setInsertAsRtf-boolean-) | Sets whether to insert the linked object in rich-text format (RTF). |
-| [setInsertAsText(boolean value)](#setInsertAsText-boolean-) | Sets whether to insert the linked object in text-only format. |
-| [setInsertAsUnicode(boolean value)](#setInsertAsUnicode-boolean-) | Sets whether to insert the linked object as Unicode text. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setProgId(String value)](#setProgId-java.lang.String-) | Sets the application type of the link information. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the name and location of the source file. |
-| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | Sets the portion of the source file that's being linked. |
+| [remove()](#remove--) | 从文档中删除字段。 |
+| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) | 设置是否自动更新该字段。 |
+| [setFormatUpdate类型(String value)](#setFormatUpdate类型-java.lang.String-) | 设置链接对象更新其格式的方式。 |
+| [setInsertAsBitmap(boolean value)](#setInsertAsBitmap-boolean-) | 设置是否将链接对象作为位图插入。 |
+| [setInsertAsHtml(boolean value)](#setInsertAsHtml-boolean-) | 设置是否将链接对象作为 HTML 格式文本插入。 |
+| [setInsertAsPicture(boolean value)](#setInsertAsPicture-boolean-) | 设置是否将链接对象作为图片插入。 |
+| [setInsertAsRtf(boolean value)](#setInsertAsRtf-boolean-) | 设置是否以 RTF 格式插入链接对象。 |
+| [setInsertAsText(boolean value)](#setInsertAsText-boolean-) | 设置是否以纯文本格式插入链接对象。 |
+| [setInsertAsUnicode(boolean value)](#setInsertAsUnicode-boolean-) | 设置是否将链接对象作为 Unicode 文本插入。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
+| [setProgId(String value)](#setProgId-java.lang.String-) | 设置链接信息的应用类型。 |
+| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | 设置源文件的名称和位置。 |
+| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | 设置正在链接的源文件部分。 |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [unlink()](#unlink--) | 执行字段取消链接。 |
+| [update()](#update--) | 执行字段更新。 |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -84,253 +84,253 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAutoUpdate() {#getAutoUpdate--}
 ```
 public boolean getAutoUpdate()
 ```
 
 
-Gets whether to update this field automatically.
+获取是否自动更新该字段。
 
-**Returns:**
-boolean - Whether to update this field automatically.
-### getClass() {#getClass--}
+**退货:**
+boolean - 是否自动更新此字段。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
-**Returns:**
-java.lang.String - The text that represents the displayed field result.
+**退货:**
+java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public FieldEnd getEnd()
+public 字段End getEnd()
 ```
 
 
-Gets the node that represents the field end.
+获取表示字段结束的节点。
 
-**Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getFieldCode() {#getFieldCode--}
+**退货:**
+[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### get字段Code() {#get字段Code--}
 ```
-public String getFieldCode()
+public String get字段Code()
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
 
-**Returns:**
+**退货:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
 ```
-public String getFieldCode(boolean includeChildFieldCodes)
+public String get字段Code(boolean includeChild字段Codes)
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator).
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public FieldFormat getFormat()
+public 字段Format getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
-**Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
-### getFormatUpdateType() {#getFormatUpdateType--}
+**退货:**
+[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+### getFormatUpdate类型() {#getFormatUpdate类型--}
 ```
-public String getFormatUpdateType()
+public String getFormatUpdate类型()
 ```
 
 
-Gets a way the linked object updates its formatting.
+获取链接对象更新其格式的方式。
 
-**Returns:**
-java.lang.String - A way the linked object updates its formatting.
+**退货:**
+java.lang.String - 链接对象更新其格式的一种方式。
 ### getInsertAsBitmap() {#getInsertAsBitmap--}
 ```
 public boolean getInsertAsBitmap()
 ```
 
 
-Gets whether to insert the linked object as a bitmap.
+获取是否将链接对象作为位图插入。
 
-**Returns:**
-boolean - Whether to insert the linked object as a bitmap.
+**退货:**
+boolean - 是否将链接对象作为位图插入。
 ### getInsertAsHtml() {#getInsertAsHtml--}
 ```
 public boolean getInsertAsHtml()
 ```
 
 
-Gets whether to insert the linked object as HTML format text.
+获取是否将链接对象作为 HTML 格式文本插入。
 
-**Returns:**
-boolean - Whether to insert the linked object as HTML format text.
+**退货:**
+boolean - 是否将链接对象作为 HTML 格式文本插入。
 ### getInsertAsPicture() {#getInsertAsPicture--}
 ```
 public boolean getInsertAsPicture()
 ```
 
 
-Gets whether to insert the linked object as a picture.
+获取是否将链接对象作为图片插入。
 
-**Returns:**
-boolean - Whether to insert the linked object as a picture.
+**退货:**
+boolean - 是否将链接对象作为图片插入。
 ### getInsertAsRtf() {#getInsertAsRtf--}
 ```
 public boolean getInsertAsRtf()
 ```
 
 
-Gets whether to insert the linked object in rich-text format (RTF).
+获取是否以 RTF 格式 (RTF) 插入链接对象。
 
-**Returns:**
-boolean - Whether to insert the linked object in rich-text format (RTF).
+**退货:**
+boolean - 是否以富文本格式 (RTF) 插入链接对象。
 ### getInsertAsText() {#getInsertAsText--}
 ```
 public boolean getInsertAsText()
 ```
 
 
-Gets whether to insert the linked object in text-only format.
+获取是否以纯文本格式插入链接对象。
 
-**Returns:**
-boolean - Whether to insert the linked object in text-only format.
+**退货:**
+boolean - 是否以纯文本格式插入链接对象。
 ### getInsertAsUnicode() {#getInsertAsUnicode--}
 ```
 public boolean getInsertAsUnicode()
 ```
 
 
-Gets whether to insert the linked object as Unicode text.
+获取是否将链接对象作为 Unicode 文本插入。
 
-**Returns:**
-boolean - Whether to insert the linked object as Unicode text.
+**退货:**
+boolean - 是否将链接对象作为 Unicode 文本插入。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the LCID of the field.
+获取字段的 LCID。
 
-**Returns:**
-int - The LCID of the field.
+**退货:**
+int - 字段的 LCID。
 ### getProgId() {#getProgId--}
 ```
 public String getProgId()
 ```
 
 
-Gets the application type of the link information.
+获取链接信息的应用类型。
 
-**Returns:**
-java.lang.String - The application type of the link information.
+**退货:**
+java.lang.String - 链接信息的应用类型。
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-Gets text that is between the field separator and field end.
+获取字段分隔符和字段结尾之间的文本。
 
-**Returns:**
-java.lang.String - Text that is between the field separator and field end.
+**退货:**
+java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public FieldSeparator getSeparator()
+public 字段Separator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+获取表示字段分隔符的节点。可以为空。
 
-**Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+**退货:**
+[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
 ```
 
 
-Gets the name and location of the source file.
+获取源文件的名称和位置。
 
-**Returns:**
-java.lang.String - The name and location of the source file.
+**退货:**
+java.lang.String - 源文件的名称和位置。
 ### getSourceItem() {#getSourceItem--}
 ```
 public String getSourceItem()
 ```
 
 
-Gets the portion of the source file that's being linked.
+获取正在链接的源文件部分。
 
-**Returns:**
-java.lang.String - The portion of the source file that's being linked.
+**退货:**
+java.lang.String - 被链接的源文件部分。
 ### getStart() {#getStart--}
 ```
-public FieldStart getStart()
+public 字段Start getStart()
 ```
 
 
-Gets the node that represents the start of the field.
+获取表示字段开始的节点。
 
-**Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+**退货:**
+[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
 ```
-public int getSwitchType(String switchName)
+public int getSwitch类型(String switchName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**Returns:**
-int
-### getType() {#getType--}
+**退货:**
+整数
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the Microsoft Word field type.
+获取 Microsoft Word 字段类型。
 
-**Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+**退货:**
+ int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -339,30 +339,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
 
-**Returns:**
-boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+**退货:**
+boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
 
 ### isLinked() {#isLinked--}
 ```
@@ -370,22 +370,22 @@ public boolean isLinked()
 ```
 
 
-Gets whether to reduce the file size by not storing graphics data with the document.
+获取是否通过不随文档存储图形数据来减小文件大小。
 
-**Returns:**
-boolean - Whether to reduce the file size by not storing graphics data with the document.
+**退货:**
+boolean - 是否通过不在文档中存储图形数据来减小文件大小。
 ### isLinked(boolean value) {#isLinked-boolean-}
 ```
 public void isLinked(boolean value)
 ```
 
 
-Sets whether to reduce the file size by not storing graphics data with the document.
+设置是否通过不在文档中存储图形数据来减小文件大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to reduce the file size by not storing graphics data with the document. |
+| value | boolean | 是否通过不在文档中存储图形数据来减小文件大小。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -393,22 +393,22 @@ public boolean isLocked()
 ```
 
 
-Gets whether the field is locked (should not recalculate its result).
+获取字段是否被锁定（不应重新计算其结果）。
 
-**Returns:**
-boolean - Whether the field is locked (should not recalculate its result).
+**退货:**
+boolean - 字段是否被锁定（不应重新计算其结果）。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Sets whether the field is locked (should not recalculate its result).
+设置字段是否被锁定（不应重新计算其结果）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the field is locked (should not recalculate its result). |
+| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
 
 ### notify() {#notify--}
 ```
@@ -432,9 +432,9 @@ public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### setAutoUpdate(boolean value) {#setAutoUpdate-boolean-}
 ```
@@ -442,25 +442,25 @@ public void setAutoUpdate(boolean value)
 ```
 
 
-Sets whether to update this field automatically.
+设置是否自动更新该字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to update this field automatically. |
+| value | boolean | 是否自动更新该字段。 |
 
-### setFormatUpdateType(String value) {#setFormatUpdateType-java.lang.String-}
+### setFormatUpdate类型(String value) {#setFormatUpdate类型-java.lang.String-}
 ```
-public void setFormatUpdateType(String value)
+public void setFormatUpdate类型(String value)
 ```
 
 
-Sets a way the linked object updates its formatting.
+设置链接对象更新其格式的方式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | A way the linked object updates its formatting. |
+| value | java.lang.String | 链接对象更新其格式的一种方式。 |
 
 ### setInsertAsBitmap(boolean value) {#setInsertAsBitmap-boolean-}
 ```
@@ -468,12 +468,12 @@ public void setInsertAsBitmap(boolean value)
 ```
 
 
-Sets whether to insert the linked object as a bitmap.
+设置是否将链接对象作为位图插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object as a bitmap. |
+| value | boolean | 是否将链接对象作为位图插入。 |
 
 ### setInsertAsHtml(boolean value) {#setInsertAsHtml-boolean-}
 ```
@@ -481,12 +481,12 @@ public void setInsertAsHtml(boolean value)
 ```
 
 
-Sets whether to insert the linked object as HTML format text.
+设置是否将链接对象作为 HTML 格式文本插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object as HTML format text. |
+| value | boolean | 是否将链接对象作为 HTML 格式文本插入。 |
 
 ### setInsertAsPicture(boolean value) {#setInsertAsPicture-boolean-}
 ```
@@ -494,12 +494,12 @@ public void setInsertAsPicture(boolean value)
 ```
 
 
-Sets whether to insert the linked object as a picture.
+设置是否将链接对象作为图片插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object as a picture. |
+| value | boolean | 是否将链接对象作为图片插入。 |
 
 ### setInsertAsRtf(boolean value) {#setInsertAsRtf-boolean-}
 ```
@@ -507,12 +507,12 @@ public void setInsertAsRtf(boolean value)
 ```
 
 
-Sets whether to insert the linked object in rich-text format (RTF).
+设置是否以 RTF 格式插入链接对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object in rich-text format (RTF). |
+| value | boolean | 是否以 RTF 格式插入链接对象。 |
 
 ### setInsertAsText(boolean value) {#setInsertAsText-boolean-}
 ```
@@ -520,12 +520,12 @@ public void setInsertAsText(boolean value)
 ```
 
 
-Sets whether to insert the linked object in text-only format.
+设置是否以纯文本格式插入链接对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object in text-only format. |
+| value | boolean | 是否以纯文本格式插入链接对象。 |
 
 ### setInsertAsUnicode(boolean value) {#setInsertAsUnicode-boolean-}
 ```
@@ -533,12 +533,12 @@ public void setInsertAsUnicode(boolean value)
 ```
 
 
-Sets whether to insert the linked object as Unicode text.
+设置是否将链接对象作为 Unicode 文本插入。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the linked object as Unicode text. |
+| value | boolean | 是否将链接对象作为 Unicode 文本插入。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -546,12 +546,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the LCID of the field.
+设置字段的 LCID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The LCID of the field. |
+| value | int | 字段的 LCID。 |
 
 ### setProgId(String value) {#setProgId-java.lang.String-}
 ```
@@ -559,12 +559,12 @@ public void setProgId(String value)
 ```
 
 
-Sets the application type of the link information.
+设置链接信息的应用类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The application type of the link information. |
+| value | java.lang.String | 链接信息的应用类型。 |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -572,12 +572,12 @@ public void setResult(String value)
 ```
 
 
-Sets text that is between the field separator and field end.
+设置字段分隔符和字段结尾之间的文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Text that is between the field separator and field end. |
+| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
 
 ### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
 ```
@@ -585,12 +585,12 @@ public void setSourceFullName(String value)
 ```
 
 
-Sets the name and location of the source file.
+设置源文件的名称和位置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name and location of the source file. |
+| value | java.lang.String | 源文件的名称和位置。 |
 
 ### setSourceItem(String value) {#setSourceItem-java.lang.String-}
 ```
@@ -598,12 +598,12 @@ public void setSourceItem(String value)
 ```
 
 
-Sets the portion of the source file that's being linked.
+设置正在链接的源文件部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The portion of the source file that's being linked. |
+| value | java.lang.String | 正在链接的源文件部分。 |
 
 ### toString() {#toString--}
 ```
@@ -613,7 +613,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -621,21 +621,21 @@ public boolean unlink()
 ```
 
 
-Performs the field unlink.
+执行字段取消链接。
 
-Replaces the field with its most recent result.
+用其最新结果替换该字段。
 
-Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
-**Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
+**退货:**
+布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-Performs the field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -643,12 +643,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-Performs a field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```
@@ -666,8 +666,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -679,9 +679,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

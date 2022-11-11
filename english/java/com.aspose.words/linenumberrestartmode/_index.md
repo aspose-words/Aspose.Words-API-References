@@ -1,34 +1,34 @@
 ---
 title: LineNumberRestartMode
-second_title: Aspose.Words for Java API Reference
-description: Determines when automatic line numbering restarts.
+second_title: Aspose.Words for Java API 参考
+description: 确定何时重新开始自动行编号。
 type: docs
 weight: 365
-url: /java/com.aspose.words/linenumberrestartmode/
+url: /zh/java/com.aspose.words/linenumberrestartmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class LineNumberRestartMode
 ```
 
-Determines when automatic line numbering restarts.
-## Fields
+确定何时重新开始自动行编号。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CONTINUOUS](#CONTINUOUS) | Line numbering continuous from the previous section. |
-| [RESTART_PAGE](#RESTART-PAGE) | Line numbering restarts at the start of every page. |
-| [RESTART_SECTION](#RESTART-SECTION) | Line numbering restarts at the section start. |
+| [CONTINUOUS](#CONTINUOUS) | 行号与上一节连续。 |
+| [RESTART_PAGE](#RESTART-PAGE) | 行号在每一页的开头重新开始。 |
+| [RESTART_SECTION](#RESTART-SECTION) | 行号在节开始处重新开始。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineNumberRestartModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int lineNumberRestartMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int CONTINUOUS
 ```
 
 
-Line numbering continuous from the previous section.
+行号与上一节连续。
 
 ### RESTART_PAGE {#RESTART-PAGE}
 ```
@@ -53,7 +53,7 @@ public static int RESTART_PAGE
 ```
 
 
-Line numbering restarts at the start of every page.
+行号在每一页的开头重新开始。
 
 ### RESTART_SECTION {#RESTART-SECTION}
 ```
@@ -61,7 +61,7 @@ public static int RESTART_SECTION
 ```
 
 
-Line numbering restarts at the section start.
+行号在节开始处重新开始。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String lineNumberRestartModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String lineNumberRestartModeName)
@@ -92,23 +92,23 @@ public static int fromName(String lineNumberRestartModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int lineNumberRestartMode) {#getName-int-}
 ```
 public static String getName(int lineNumberRestartMode)
@@ -117,12 +117,12 @@ public static String getName(int lineNumberRestartMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int lineNumberRestartMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int lineNumberRestartMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | lineNumberRestartMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

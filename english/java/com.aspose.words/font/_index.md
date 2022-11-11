@@ -1,47 +1,47 @@
 ---
 title: Font
-second_title: Aspose.Words for Java API Reference
-description: Contains font attributes font name font size color and so on for an object.
+second_title: Aspose.Words for Java API 参考
+description: 包含对象的字体属性字体名称字体大小颜色等。
 type: docs
 weight: 275
-url: /java/com.aspose.words/font/
+url: /zh/java/com.aspose.words/font/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Font
 ```
 
-Contains font attributes (font name, font size, color, and so on) for an object.
+包含对象的字体属性（字体名称、字体大小、颜色等）。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-You do not create instances of the [Font](../../com.aspose.words/font) class directly. You just use [Font](../../com.aspose.words/font) to access the font properties of the various objects such as [Run](../../com.aspose.words/run), [Paragraph](../../com.aspose.words/paragraph), [Style](../../com.aspose.words/style), [DocumentBuilder](../../com.aspose.words/documentbuilder).
-## Methods
+您不创建的实例[Font](../../com.aspose.words/font)直接上课。你只需使用[Font](../../com.aspose.words/font)访问各种对象的字体属性，例如[Run](../../com.aspose.words/run), [Paragraph](../../com.aspose.words/paragraph), [Style](../../com.aspose.words/style), [DocumentBuilder](../../com.aspose.words/documentbuilder).
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Resets to default font formatting. |
+| [clearFormatting()](#clearFormatting--) | 重置为默认字体格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [getAllCaps()](#getAllCaps--) | True if the font is formatted as all capital letters. |
-| [getAutoColor()](#getAutoColor--) | Returns the present calculated color of the text (black or white) to be used for 'auto color'. |
-| [getBidi()](#getBidi--) | Specifies whether the contents of this run shall have right-to-left characteristics. |
-| [getBold()](#getBold--) | True if the font is formatted as bold. |
-| [getBoldBi()](#getBoldBi--) | True if the right-to-left text is formatted as bold. |
-| [getBorder()](#getBorder--) | Returns a Border object that specifies border for the font. |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets the color of the font. |
-| [getComplexScript()](#getComplexScript--) | Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run. |
+| [getAllCaps()](#getAllCaps--) | 如果字体格式全部为大写字母，则为真。 |
+| [getAutoColor()](#getAutoColor--) | 返回要用于“自动颜色”的文本的当前计算颜色（黑色或白色）。 |
+| [getBidi()](#getBidi--) | 指定此运行的内容是否应具有从右到左的特征。 |
+| [getBold()](#getBold--) | 如果字体格式为粗体，则为真。 |
+| [getBoldBi()](#getBoldBi--) | 如果从右到左的文本格式设置为粗体，则为真。 |
+| [getBorder()](#getBorder--) | 返回一个 Border 对象，该对象指定字体的边框。 |
+| [get班级()](#get班级--) |  |
+| [getColor()](#getColor--) | 获取字体的颜色。 |
+| [getComplexScript()](#getComplexScript--) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。 |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDoubleStrikeThrough()](#getDoubleStrikeThrough--) | True if the font is formatted as double strikethrough text. |
-| [getEmboss()](#getEmboss--) | True if the font is formatted as embossed. |
-| [getEmphasisMark()](#getEmphasisMark--) | Gets the emphasis mark applied to this formatting. |
-| [getEngrave()](#getEngrave--) | True if the font is formatted as engraved. |
-| [getFill()](#getFill--) | Gets fill formatting for the Font. |
-| [getFillType()](#getFillType--) |  |
+| [getDoubleStrikeThrough()](#getDoubleStrikeThrough--) | 如果字体格式为双删除线文本，则为真。 |
+| [getEmboss()](#getEmboss--) | 如果字体被格式化为浮雕，则为真。 |
+| [getEmphasisMark()](#getEmphasisMark--) | 获取应用于此格式的强调标记。 |
+| [getEngrave()](#getEngrave--) | 如果字体格式为雕刻，则为真。 |
+| [getFill()](#getFill--) | 获取字体的填充格式。 |
+| [getFill类型()](#getFill类型--) |  |
 | [getFillableBackColor()](#getFillableBackColor--) |  |
 | [getFillableForeColor()](#getFillableForeColor--) |  |
 | [getFillableImageBytes()](#getFillableImageBytes--) |  |
@@ -52,121 +52,121 @@ You do not create instances of the [Font](../../com.aspose.words/font) class dir
 | [getGradientStops()](#getGradientStops--) |  |
 | [getGradientStyle()](#getGradientStyle--) |  |
 | [getGradientVariant()](#getGradientVariant--) |  |
-| [getHidden()](#getHidden--) | True if the font is formatted as hidden text. |
-| [getHighlightColor()](#getHighlightColor--) | Gets the highlight (marker) color. |
-| [getItalic()](#getItalic--) | True if the font is formatted as italic. |
-| [getItalicBi()](#getItalicBi--) | True if the right-to-left text is formatted as italic. |
-| [getKerning()](#getKerning--) | Gets the font size at which kerning starts. |
-| [getLineSpacing()](#getLineSpacing--) | Returns line spacing of this font (in points). |
-| [getLocaleId()](#getLocaleId--) | Gets the locale identifier (language) of the formatted characters. |
-| [getLocaleIdBi()](#getLocaleIdBi--) | Gets the locale identifier (language) of the formatted right-to-left characters. |
-| [getLocaleIdFarEast()](#getLocaleIdFarEast--) | Gets the locale identifier (language) of the formatted Asian characters. |
-| [getName()](#getName--) | Gets the name of the font. |
-| [getNameAscii()](#getNameAscii--) | Gets the font used for Latin text (characters with character codes from 0 (zero) through 127). |
-| [getNameBi()](#getNameBi--) | Gets the name of the font in a right-to-left language document. |
-| [getNameFarEast()](#getNameFarEast--) | Gets an East Asian font name. |
-| [getNameOther()](#getNameOther--) | Gets the font used for characters with character codes from 128 through 255. |
-| [getNoProofing()](#getNoProofing--) | True when the formatted characters are not to be spell checked. |
+| [getHidden()](#getHidden--) | 如果字体被格式化为隐藏文本，则为真。 |
+| [getHighlightColor()](#getHighlightColor--) | 获取高亮（标记）颜色。 |
+| [getItalic()](#getItalic--) | 如果字体格式为斜体，则为真。 |
+| [getItalicBi()](#getItalicBi--) | 如果从右到左的文本格式为斜体，则为真。 |
+| [getKerning()](#getKerning--) | 获取字距调整开始的字体大小。 |
+| [getLineSpacing()](#getLineSpacing--) | 返回此字体的行距（以磅为单位）。 |
+| [getLocaleId()](#getLocaleId--) | 获取格式化字符的区域设置标识符（语言）。 |
+| [getLocaleIdBi()](#getLocaleIdBi--) | 获取格式化的从右到左字符的区域设置标识符（语言）。 |
+| [getLocaleIdFarEast()](#getLocaleIdFarEast--) | 获取格式化亚洲字符的区域设置标识符（语言）。 |
+| [getName()](#getName--) | 获取字体的名称。 |
+| [getNameAscii()](#getNameAscii--) | 获取用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
+| [getNameBi()](#getNameBi--) | 获取从右到左的语言文档中的字体名称。 |
+| [getNameFarEast()](#getNameFarEast--) | 获取东亚字体名称。 |
+| [getNameOther()](#getNameOther--) | 获取用于字符代码从 128 到 255 的字符的字体。 |
+| [getNoProofing()](#getNoProofing--) | 当格式化字符不进行拼写检查时为真。 |
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
-| [getOutline()](#getOutline--) | True if the font is formatted as outline. |
-| [getPatternType()](#getPatternType--) |  |
-| [getPosition()](#getPosition--) | Gets the position of text (in points) relative to the base line. |
+| [getOutline()](#getOutline--) | 如果字体被格式化为轮廓，则为真。 |
+| [getPattern类型()](#getPattern类型--) |  |
+| [getPosition()](#getPosition--) | 获取文本相对于基线的位置（以磅为单位）。 |
 | [getPresetTexture()](#getPresetTexture--) |  |
 | [getRotateWithObject()](#getRotateWithObject--) |  |
-| [getScaling()](#getScaling--) | Gets character width scaling in percent. |
-| [getShading()](#getShading--) | Returns a Shading object that refers to the shading formatting for the font. |
-| [getShadow()](#getShadow--) | True if the font is formatted as shadowed. |
-| [getSize()](#getSize--) | Gets the font size in points. |
-| [getSizeBi()](#getSizeBi--) | Gets the font size in points used in a right-to-left document. |
-| [getSmallCaps()](#getSmallCaps--) | True if the font is formatted as small capital letters. |
-| [getSnapToGrid()](#getSnapToGrid--) | Specifies whether the current font should use the document grid characters per line settings when laying out. |
-| [getSpacing()](#getSpacing--) | Gets the spacing (in points) between characters . |
-| [getStrikeThrough()](#getStrikeThrough--) | True if the font is formatted as strikethrough text. |
-| [getStyle()](#getStyle--) | Gets the character style applied to this formatting. |
-| [getStyleIdentifier()](#getStyleIdentifier--) | Gets the locale independent style identifier of the character style applied to this formatting. |
-| [getStyleName()](#getStyleName--) | Gets the name of the character style applied to this formatting. |
-| [getSubscript()](#getSubscript--) | True if the font is formatted as subscript. |
-| [getSuperscript()](#getSuperscript--) | True if the font is formatted as superscript. |
-| [getTextEffect()](#getTextEffect--) | Gets the font animation effect. |
+| [getScaling()](#getScaling--) | 获取字符宽度缩放百分比。 |
+| [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用字体的着色格式。 |
+| [getShadow()](#getShadow--) | 如果字体被格式化为阴影，则为真。 |
+| [getSize()](#getSize--) | 获取以磅为单位的字体大小。 |
+| [getSizeBi()](#getSizeBi--) | 获取从右到左文档中使用的字体大小（以磅为单位）。 |
+| [getSmallCaps()](#getSmallCaps--) | 如果字体格式为小写大写字母，则为真。 |
+| [getSnapToGrid()](#getSnapToGrid--) | 指定当前字体在布局时是否应使用每行设置的文档网格字符。 |
+| [getSpacing()](#getSpacing--) | 获取字符之间的间距（以磅为单位）。 |
+| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式设置为删除线文本，则为真。 |
+| [getStyle()](#getStyle--) | 获取应用于此格式的字符样式。 |
+| [getStyleIdentifier()](#getStyleIdentifier--) | 获取应用于此格式的字符样式的与区域设置无关的样式标识符。 |
+| [getStyleName()](#getStyleName--) | 获取应用于此格式的字符样式的名称。 |
+| [getSubscript()](#getSubscript--) | 如果字体被格式化为下标，则为真。 |
+| [getSuperscript()](#getSuperscript--) | 如果字体格式为上标，则为真。 |
+| [getTextEffect()](#getTextEffect--) | 获取字体动画效果。 |
 | [getTextureAlignment()](#getTextureAlignment--) |  |
-| [getThemeColor()](#getThemeColor--) | Gets the theme color in the applied color scheme that is associated with this Font object. |
-| [getThemeFont()](#getThemeFont--) | Gets the theme font in the applied font scheme that is associated with this Font object. |
-| [getThemeFontAscii()](#getThemeFontAscii--) | Gets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. |
-| [getThemeFontBi()](#getThemeFontBi--) | Gets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. |
-| [getThemeFontFarEast()](#getThemeFontFarEast--) | Gets the East Asian theme font in the applied font scheme that is associated with this Font object. |
-| [getThemeFontOther()](#getThemeFontOther--) | Gets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. |
-| [getTintAndShade()](#getTintAndShade--) | Gets a double value that lightens or darkens a color. |
-| [getUnderline()](#getUnderline--) | Gets the type of underline applied to the font. |
-| [getUnderlineColor()](#getUnderlineColor--) | Gets the color of the underline applied to the font. |
-| [hasDmlEffect(int dmlEffectType)](#hasDmlEffect-int-) |  |
+| [getThemeColor()](#getThemeColor--) | 获取与此 Font 对象关联的已应用配色方案中的主题颜色。 |
+| [getThemeFont()](#getThemeFont--) | 获取与此 Font 对象关联的应用字体方案中的主题字体。 |
+| [getThemeFontAscii()](#getThemeFontAscii--) | 获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。 |
+| [getThemeFontBi()](#getThemeFontBi--) | 在从右到左的语言文档中获取与此 Font 对象关联的应用字体方案中的主题字体。 |
+| [getThemeFontFarEast()](#getThemeFontFarEast--) | 获取与此 Font 对象关联的应用字体方案中的东亚主题字体。 |
+| [getThemeFontOther()](#getThemeFontOther--) | 获取与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体。 |
+| [getTintAndShade()](#getTintAndShade--) | 获取使颜色变亮或变暗的双精度值。 |
+| [getUnderline()](#getUnderline--) | 获取应用于字体的下划线类型。 |
+| [getUnderlineColor()](#getUnderlineColor--) | 获取应用于字体的下划线颜色。 |
+| [hasDmlEffect(int dmlEffect类型)](#hasDmlEffect-int-) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int patternType)](#patterned-int-) |  |
+| [patterned(int pattern类型)](#patterned-int-) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
-| [setAllCaps(boolean value)](#setAllCaps-boolean-) | True if the font is formatted as all capital letters. |
-| [setBidi(boolean value)](#setBidi-boolean-) | Specifies whether the contents of this run shall have right-to-left characteristics. |
-| [setBold(boolean value)](#setBold-boolean-) | True if the font is formatted as bold. |
-| [setBoldBi(boolean value)](#setBoldBi-boolean-) | True if the right-to-left text is formatted as bold. |
+| [setAllCaps(boolean value)](#setAllCaps-boolean-) | 如果字体格式全部为大写字母，则为真。 |
+| [setBidi(boolean value)](#setBidi-boolean-) | 指定此运行的内容是否应具有从右到左的特征。 |
+| [setBold(boolean value)](#setBold-boolean-) | 如果字体格式为粗体，则为真。 |
+| [setBoldBi(boolean value)](#setBoldBi-boolean-) | 如果从右到左的文本格式设置为粗体，则为真。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the color of the font. |
-| [setComplexScript(boolean value)](#setComplexScript-boolean-) | Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run. |
-| [setDoubleStrikeThrough(boolean value)](#setDoubleStrikeThrough-boolean-) | True if the font is formatted as double strikethrough text. |
-| [setEmboss(boolean value)](#setEmboss-boolean-) | True if the font is formatted as embossed. |
-| [setEmphasisMark(int value)](#setEmphasisMark-int-) | Sets the emphasis mark applied to this formatting. |
-| [setEngrave(boolean value)](#setEngrave-boolean-) | True if the font is formatted as engraved. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置字体的颜色。 |
+| [setComplexScript(boolean value)](#setComplexScript-boolean-) | 指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。 |
+| [setDoubleStrikeThrough(boolean value)](#setDoubleStrikeThrough-boolean-) | 如果字体格式为双删除线文本，则为真。 |
+| [setEmboss(boolean value)](#setEmboss-boolean-) | 如果字体被格式化为浮雕，则为真。 |
+| [setEmphasisMark(int value)](#setEmphasisMark-int-) | 设置应用于此格式的强调标记。 |
+| [setEngrave(boolean value)](#setEngrave-boolean-) | 如果字体格式为雕刻，则为真。 |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
 | [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
 | [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
 | [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
 | [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
 | [setGradientAngle(double value)](#setGradientAngle-double-) |  |
-| [setHidden(boolean value)](#setHidden-boolean-) | True if the font is formatted as hidden text. |
-| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | Sets the highlight (marker) color. |
+| [setHidden(boolean value)](#setHidden-boolean-) | 如果字体被格式化为隐藏文本，则为真。 |
+| [setHighlightColor(Color value)](#setHighlightColor-java.awt.Color-) | 设置高亮（标记）颜色。 |
 | [setImage(byte[] imageBytes)](#setImage-byte---) |  |
-| [setItalic(boolean value)](#setItalic-boolean-) | True if the font is formatted as italic. |
-| [setItalicBi(boolean value)](#setItalicBi-boolean-) | True if the right-to-left text is formatted as italic. |
-| [setKerning(double value)](#setKerning-double-) | Sets the font size at which kerning starts. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the locale identifier (language) of the formatted characters. |
-| [setLocaleIdBi(int value)](#setLocaleIdBi-int-) | Sets the locale identifier (language) of the formatted right-to-left characters. |
-| [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int-) | Sets the locale identifier (language) of the formatted Asian characters. |
-| [setName(String value)](#setName-java.lang.String-) | Sets the name of the font. |
-| [setNameAscii(String value)](#setNameAscii-java.lang.String-) | Sets the font used for Latin text (characters with character codes from 0 (zero) through 127). |
-| [setNameBi(String value)](#setNameBi-java.lang.String-) | Sets the name of the font in a right-to-left language document. |
-| [setNameFarEast(String value)](#setNameFarEast-java.lang.String-) | Sets an East Asian font name. |
-| [setNameOther(String value)](#setNameOther-java.lang.String-) | Sets the font used for characters with character codes from 128 through 255. |
-| [setNoProofing(boolean value)](#setNoProofing-boolean-) | True when the formatted characters are not to be spell checked. |
+| [setItalic(boolean value)](#setItalic-boolean-) | 如果字体格式为斜体，则为真。 |
+| [setItalicBi(boolean value)](#setItalicBi-boolean-) | 如果从右到左的文本格式为斜体，则为真。 |
+| [setKerning(double value)](#setKerning-double-) | 设置字距调整开始的字体大小。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置格式化字符的区域设置标识符（语言）。 |
+| [setLocaleIdBi(int value)](#setLocaleIdBi-int-) | 设置格式化的从右到左字符的区域设置标识符（语言）。 |
+| [setLocaleIdFarEast(int value)](#setLocaleIdFarEast-int-) | 设置格式化亚洲字符的区域设置标识符（语言）。 |
+| [setName(String value)](#setName-java.lang.String-) | 设置字体的名称。 |
+| [setNameAscii(String value)](#setNameAscii-java.lang.String-) | 设置用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
+| [setNameBi(String value)](#setNameBi-java.lang.String-) | 在从右到左的语言文档中设置字体的名称。 |
+| [setNameFarEast(String value)](#setNameFarEast-java.lang.String-) | 设置东亚字体名称。 |
+| [setNameOther(String value)](#setNameOther-java.lang.String-) | 设置用于字符代码从 128 到 255 的字符的字体。 |
+| [setNoProofing(boolean value)](#setNoProofing-boolean-) | 当格式化字符不进行拼写检查时为真。 |
 | [setOn(boolean value)](#setOn-boolean-) |  |
 | [setOpacity(double value)](#setOpacity-double-) |  |
-| [setOutline(boolean value)](#setOutline-boolean-) | True if the font is formatted as outline. |
-| [setPosition(double value)](#setPosition-double-) | Sets the position of text (in points) relative to the base line. |
+| [setOutline(boolean value)](#setOutline-boolean-) | 如果字体被格式化为轮廓，则为真。 |
+| [setPosition(double value)](#setPosition-double-) | 设置文本相对于基线的位置（以磅为单位）。 |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [setScaling(int value)](#setScaling-int-) | Sets character width scaling in percent. |
-| [setShadow(boolean value)](#setShadow-boolean-) | True if the font is formatted as shadowed. |
-| [setSize(double value)](#setSize-double-) | Sets the font size in points. |
-| [setSizeBi(double value)](#setSizeBi-double-) | Sets the font size in points used in a right-to-left document. |
-| [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | True if the font is formatted as small capital letters. |
-| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | Specifies whether the current font should use the document grid characters per line settings when laying out. |
-| [setSpacing(double value)](#setSpacing-double-) | Sets the spacing (in points) between characters . |
-| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | True if the font is formatted as strikethrough text. |
-| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | Sets the character style applied to this formatting. |
-| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | Sets the locale independent style identifier of the character style applied to this formatting. |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the character style applied to this formatting. |
-| [setSubscript(boolean value)](#setSubscript-boolean-) | True if the font is formatted as subscript. |
-| [setSuperscript(boolean value)](#setSuperscript-boolean-) | True if the font is formatted as superscript. |
-| [setTextEffect(int value)](#setTextEffect-int-) | Sets the font animation effect. |
+| [setScaling(int value)](#setScaling-int-) | 以百分比设置字符宽度缩放。 |
+| [setShadow(boolean value)](#setShadow-boolean-) | 如果字体被格式化为阴影，则为真。 |
+| [setSize(double value)](#setSize-double-) | 以磅为单位设置字体大小。 |
+| [setSizeBi(double value)](#setSizeBi-double-) | 设置从右到左文档中使用的字体大小（以磅为单位）。 |
+| [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | 如果字体格式为小写大写字母，则为真。 |
+| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | 指定当前字体在布局时是否应使用每行设置的文档网格字符。 |
+| [setSpacing(double value)](#setSpacing-double-) | 设置字符之间的间距（以磅为单位）。 |
+| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式设置为删除线文本，则为真。 |
+| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置应用于此格式的字符样式。 |
+| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此格式的字符样式的与区域设置无关的样式标识符。 |
+| [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于此格式的字符样式的名称。 |
+| [setSubscript(boolean value)](#setSubscript-boolean-) | 如果字体被格式化为下标，则为真。 |
+| [setSuperscript(boolean value)](#setSuperscript-boolean-) | 如果字体格式为上标，则为真。 |
+| [setTextEffect(int value)](#setTextEffect-int-) | 设置字体动画效果。 |
 | [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [setThemeColor(int value)](#setThemeColor-int-) | Sets the theme color in the applied color scheme that is associated with this Font object. |
-| [setThemeFont(int value)](#setThemeFont-int-) | Sets the theme font in the applied font scheme that is associated with this Font object. |
-| [setThemeFontAscii(int value)](#setThemeFontAscii-int-) | Sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. |
-| [setThemeFontBi(int value)](#setThemeFontBi-int-) | Sets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. |
-| [setThemeFontFarEast(int value)](#setThemeFontFarEast-int-) | Sets the East Asian theme font in the applied font scheme that is associated with this Font object. |
-| [setThemeFontOther(int value)](#setThemeFontOther-int-) | Sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. |
-| [setTintAndShade(double value)](#setTintAndShade-double-) | Sets a double value that lightens or darkens a color. |
-| [setUnderline(int value)](#setUnderline-int-) | Sets the type of underline applied to the font. |
-| [setUnderlineColor(Color value)](#setUnderlineColor-java.awt.Color-) | Sets the color of the underline applied to the font. |
+| [setThemeColor(int value)](#setThemeColor-int-) | 在与此 Font 对象关联的应用颜色方案中设置主题颜色。 |
+| [setThemeFont(int value)](#setThemeFont-int-) | 在与此 Font 对象关联的应用字体方案中设置主题字体。 |
+| [setThemeFontAscii(int value)](#setThemeFontAscii-int-) | 在与此 Font 对象关联的应用字体方案中设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。 |
+| [setThemeFontBi(int value)](#setThemeFontBi-int-) | 在从右到左的语言文档中设置与此 Font 对象关联的应用字体方案中的主题字体。 |
+| [setThemeFontFarEast(int value)](#setThemeFontFarEast-int-) | 在与此 Font 对象关联的应用字体方案中设置东亚主题字体。 |
+| [setThemeFontOther(int value)](#setThemeFontOther-int-) | 在与此 Font 对象关联的应用字体方案中，设置用于字符代码从 128 到 255 的字符的主题字体。 |
+| [setTintAndShade(double value)](#setTintAndShade-double-) | 设置使颜色变亮或变暗的双精度值。 |
+| [setUnderline(int value)](#setUnderline-int-) | 设置应用于字体的下划线类型。 |
+| [setUnderlineColor(Color value)](#setUnderlineColor-java.awt.Color-) | 设置应用于字体的下划线颜色。 |
 | [solid()](#solid--) |  |
 | [toString()](#toString--) |  |
 | [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
@@ -179,9 +179,9 @@ public void clearFormatting()
 ```
 
 
-Resets to default font formatting.
+重置为默认字体格式。
 
-Removes all font formatting specified explicitly on the object from which **Font** was obtained so the font formatting will be inherited from the appropriate parent.
+删除在对象上明确指定的所有字体格式**Font**已获得，因此字体格式将从相应的父级继承。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -191,13 +191,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -206,12 +206,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -221,12 +221,12 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getAllCaps() {#getAllCaps--}
 ```
@@ -234,98 +234,98 @@ public boolean getAllCaps()
 ```
 
 
-True if the font is formatted as all capital letters.
+如果字体格式全部为大写字母，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getAutoColor() {#getAutoColor--}
 ```
 public Color getAutoColor()
 ```
 
 
-Returns the present calculated color of the text (black or white) to be used for 'auto color'. If the color is not 'auto' then returns [getColor()](../../com.aspose.words/font\#getColor--) / [setColor(java.awt.Color)](../../com.aspose.words/font\#setColor-java.awt.Color-).
+返回要用于“自动颜色”的文本的当前计算颜色（黑色或白色）。如果颜色不是“自动”，则返回[getColor()](../../com.aspose.words/font\#getColor--) / [setColor(java.awt.Color)](../../com.aspose.words/font\#setColor-java.awt.Color-).
 
-When text has 'automatic color', the actual color of text is calculated automatically so that it is readable against the background color. As you change the background color, the text color will automatically switch to black or white in MS Word to maximize legibility.
+当文本具有“自动颜色”时，会自动计算文本的实际颜色，使其在背景颜色下可读。当您更改背景颜色时，文本颜色将在 MS Word 中自动切换为黑色或白色，以最大限度地提高可读性。
 
-**Returns:**
-java.awt.Color - The present calculated color of the text (black or white) to be used for 'auto color'.
+**退货:**
+java.awt.Color - 用于“自动颜色”的文本的当前计算颜色（黑色或白色）。
 ### getBidi() {#getBidi--}
 ```
 public boolean getBidi()
 ```
 
 
-Specifies whether the contents of this run shall have right-to-left characteristics.
+指定此运行的内容是否应具有从右到左的特征。
 
-This property, when on, shall not be used with strongly left-to-right text. Any behavior under that condition is unspecified. This property, when off, shall not be used with strong right-to-left text. Any behavior under that condition is unspecified.
+此属性在打开时不应与从左到右的文本一起使用。在这种情况下的任何行为都是未指定的。此属性在关闭时不应与从右到左的强文本一起使用。在这种情况下的任何行为都是未指定的。
 
-When the contents of this run are displayed, all characters shall be treated as complex script characters for formatting purposes. This means that [getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-) and a corresponding font name will be used when rendering this run.
+当显示本次运行的内容时，出于格式化目的，所有字符都应被视为复杂的脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并且在渲染此运行时将使用相应的字体名称。
 
-Also, when the contents of this run are displayed, this property acts as a right-to-left override for characters which are classified as "weak types" and "neutral types".
+此外，当显示此运行的内容时，此属性充当从右到左的覆盖，用于分类为“弱类型”和“中性类型”的字符。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBold() {#getBold--}
 ```
 public boolean getBold()
 ```
 
 
-True if the font is formatted as bold.
+如果字体格式为粗体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBoldBi() {#getBoldBi--}
 ```
 public boolean getBoldBi()
 ```
 
 
-True if the right-to-left text is formatted as bold.
+如果从右到左的文本格式设置为粗体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBorder() {#getBorder--}
 ```
 public Border getBorder()
 ```
 
 
-Returns a Border object that specifies border for the font.
+返回一个 Border 对象，该对象指定字体的边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - A Border object that specifies border for the font.
-### getClass() {#getClass--}
+**退货:**
+[Border](../../com.aspose.words/border) - 为字体指定边框的 Border 对象。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-Gets the color of the font.
+获取字体的颜色。
 
-**Returns:**
-java.awt.Color - The color of the font.
+**退货:**
+java.awt.Color - 字体的颜色。
 ### getComplexScript() {#getComplexScript--}
 ```
 public boolean getComplexScript()
 ```
 
 
-Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run.
+指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -334,12 +334,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getDoubleStrikeThrough() {#getDoubleStrikeThrough--}
 ```
@@ -347,60 +347,60 @@ public boolean getDoubleStrikeThrough()
 ```
 
 
-True if the font is formatted as double strikethrough text.
+如果字体格式为双删除线文本，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getEmboss() {#getEmboss--}
 ```
 public boolean getEmboss()
 ```
 
 
-True if the font is formatted as embossed.
+如果字体被格式化为浮雕，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getEmphasisMark() {#getEmphasisMark--}
 ```
 public int getEmphasisMark()
 ```
 
 
-Gets the emphasis mark applied to this formatting.
+获取应用于此格式的强调标记。
 
-**Returns:**
-int - The emphasis mark applied to this formatting. The returned value is one of [EmphasisMark](../../com.aspose.words/emphasismark) constants.
+**退货:**
+ int - 应用于此格式的强调标记。返回值是以下之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。
 ### getEngrave() {#getEngrave--}
 ```
 public boolean getEngrave()
 ```
 
 
-True if the font is formatted as engraved.
+如果字体格式为雕刻，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getFill() {#getFill--}
 ```
 public Fill getFill()
 ```
 
 
-Gets fill formatting for the Font.
+获取字体的填充格式。
 
-**Returns:**
-[Fill](../../com.aspose.words/fill) - Fill formatting for the Font.
-### getFillType() {#getFillType--}
+**退货:**
+[Fill](../../com.aspose.words/fill) 填写字体格式。
+### getFill类型() {#getFill类型--}
 ```
-public int getFillType()
+public int getFill类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getFillableBackColor() {#getFillableBackColor--}
 ```
 public Color getFillableBackColor()
@@ -409,8 +409,8 @@ public Color getFillableBackColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getFillableForeColor() {#getFillableForeColor--}
 ```
 public Color getFillableForeColor()
@@ -419,8 +419,8 @@ public Color getFillableForeColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getFillableImageBytes() {#getFillableImageBytes--}
 ```
 public byte[] getFillableImageBytes()
@@ -429,8 +429,8 @@ public byte[] getFillableImageBytes()
 
 
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getFillableTransparency() {#getFillableTransparency--}
 ```
 public double getFillableTransparency()
@@ -439,8 +439,8 @@ public double getFillableTransparency()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getFillableVisible() {#getFillableVisible--}
 ```
 public boolean getFillableVisible()
@@ -449,8 +449,8 @@ public boolean getFillableVisible()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getFilledColor() {#getFilledColor--}
 ```
 public Color getFilledColor()
@@ -459,8 +459,8 @@ public Color getFilledColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getGradientAngle() {#getGradientAngle--}
 ```
 public double getGradientAngle()
@@ -469,8 +469,8 @@ public double getGradientAngle()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getGradientStops() {#getGradientStops--}
 ```
 public GradientStopCollection getGradientStops()
@@ -479,7 +479,7 @@ public GradientStopCollection getGradientStops()
 
 
 
-**Returns:**
+**退货:**
 [GradientStopCollection](../../com.aspose.words/gradientstopcollection)
 ### getGradientStyle() {#getGradientStyle--}
 ```
@@ -489,8 +489,8 @@ public int getGradientStyle()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getGradientVariant() {#getGradientVariant--}
 ```
 public int getGradientVariant()
@@ -499,162 +499,162 @@ public int getGradientVariant()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getHidden() {#getHidden--}
 ```
 public boolean getHidden()
 ```
 
 
-True if the font is formatted as hidden text.
+如果字体被格式化为隐藏文本，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getHighlightColor() {#getHighlightColor--}
 ```
 public Color getHighlightColor()
 ```
 
 
-Gets the highlight (marker) color.
+获取高亮（标记）颜色。
 
-**Returns:**
-java.awt.Color - The highlight (marker) color.
+**退货:**
+java.awt.Color - 高亮（标记）颜色。
 ### getItalic() {#getItalic--}
 ```
 public boolean getItalic()
 ```
 
 
-True if the font is formatted as italic.
+如果字体格式为斜体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getItalicBi() {#getItalicBi--}
 ```
 public boolean getItalicBi()
 ```
 
 
-True if the right-to-left text is formatted as italic.
+如果从右到左的文本格式为斜体，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getKerning() {#getKerning--}
 ```
 public double getKerning()
 ```
 
 
-Gets the font size at which kerning starts.
+获取字距调整开始的字体大小。
 
-**Returns:**
-double - The font size at which kerning starts.
+**退货:**
+double - 字距调整开始的字体大小。
 ### getLineSpacing() {#getLineSpacing--}
 ```
 public double getLineSpacing()
 ```
 
 
-Returns line spacing of this font (in points).
+返回此字体的行距（以磅为单位）。
 
-**Returns:**
-double - Line spacing of this font (in points).
+**退货:**
+double - 此字体的行距（以磅为单位）。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the locale identifier (language) of the formatted characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Returns:**
-int - The locale identifier (language) of the formatted characters.
+**退货:**
+int - 格式化字符的区域设置标识符（语言）。
 ### getLocaleIdBi() {#getLocaleIdBi--}
 ```
 public int getLocaleIdBi()
 ```
 
 
-Gets the locale identifier (language) of the formatted right-to-left characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Returns:**
-int - The locale identifier (language) of the formatted right-to-left characters.
+**退货:**
+int - 格式化的从右到左字符的区域设置标识符（语言）。
 ### getLocaleIdFarEast() {#getLocaleIdFarEast--}
 ```
 public int getLocaleIdFarEast()
 ```
 
 
-Gets the locale identifier (language) of the formatted Asian characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+获取格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Returns:**
-int - The locale identifier (language) of the formatted Asian characters.
+**退货:**
+int - 格式化亚洲字符的区域设置标识符（语言）。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Gets the name of the font.
+获取字体的名称。
 
-When getting, returns [getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
+获取时返回[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
 
-When setting, sets [getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-) and [getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-) to the specified value.
+设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定的值。
 
-**Returns:**
-java.lang.String - The name of the font.
+**退货:**
+java.lang.String - 字体的名称。
 ### getNameAscii() {#getNameAscii--}
 ```
 public String getNameAscii()
 ```
 
 
-Gets the font used for Latin text (characters with character codes from 0 (zero) through 127).
+获取用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
 
-**Returns:**
-java.lang.String - The font used for Latin text (characters with character codes from 0 (zero) through 127).
+**退货:**
+java.lang.String - 用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
 ### getNameBi() {#getNameBi--}
 ```
 public String getNameBi()
 ```
 
 
-Gets the name of the font in a right-to-left language document.
+获取从右到左的语言文档中的字体名称。
 
-**Returns:**
-java.lang.String - The name of the font in a right-to-left language document.
+**退货:**
+java.lang.String - 从右到左的语言文档中的字体名称。
 ### getNameFarEast() {#getNameFarEast--}
 ```
 public String getNameFarEast()
 ```
 
 
-Gets an East Asian font name.
+获取东亚字体名称。
 
-**Returns:**
-java.lang.String - An East Asian font name.
+**退货:**
+java.lang.String - 东亚字体名称。
 ### getNameOther() {#getNameOther--}
 ```
 public String getNameOther()
 ```
 
 
-Gets the font used for characters with character codes from 128 through 255.
+获取用于字符代码从 128 到 255 的字符的字体。
 
-**Returns:**
-java.lang.String - The font used for characters with character codes from 128 through 255.
+**退货:**
+java.lang.String - 用于字符代码从 128 到 255 的字符的字体。
 ### getNoProofing() {#getNoProofing--}
 ```
 public boolean getNoProofing()
 ```
 
 
-True when the formatted characters are not to be spell checked.
+当格式化字符不进行拼写检查时为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
@@ -663,8 +663,8 @@ public boolean getOn()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getOpacity() {#getOpacity--}
 ```
 public double getOpacity()
@@ -673,38 +673,38 @@ public double getOpacity()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getOutline() {#getOutline--}
 ```
 public boolean getOutline()
 ```
 
 
-True if the font is formatted as outline.
+如果字体被格式化为轮廓，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getPatternType() {#getPatternType--}
+**退货:**
+boolean - 对应的布尔值。
+### getPattern类型() {#getPattern类型--}
 ```
-public int getPatternType()
+public int getPattern类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getPosition() {#getPosition--}
 ```
 public double getPosition()
 ```
 
 
-Gets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it.
+获取文本相对于基线的位置（以磅为单位）。正数提高文本，负数降低文本。
 
-**Returns:**
-double - The position of text (in points) relative to the base line.
+**退货:**
+double - 文本相对于基线的位置（以磅为单位）。
 ### getPresetTexture() {#getPresetTexture--}
 ```
 public int getPresetTexture()
@@ -713,8 +713,8 @@ public int getPresetTexture()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
 public boolean getRotateWithObject()
@@ -723,158 +723,158 @@ public boolean getRotateWithObject()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getScaling() {#getScaling--}
 ```
 public int getScaling()
 ```
 
 
-Gets character width scaling in percent.
+获取字符宽度缩放百分比。
 
-**Returns:**
-int - Character width scaling in percent.
+**退货:**
+int - 字符宽度缩放百分比。
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
 ```
 
 
-Returns a Shading object that refers to the shading formatting for the font.
+返回一个 Shading 对象，该对象引用字体的着色格式。
 
-**Returns:**
-[Shading](../../com.aspose.words/shading) - A Shading object that refers to the shading formatting for the font.
+**退货:**
+[Shading](../../com.aspose.words/shading) - 一个 Shading 对象，它指的是字体的着色格式。
 ### getShadow() {#getShadow--}
 ```
 public boolean getShadow()
 ```
 
 
-True if the font is formatted as shadowed.
+如果字体被格式化为阴影，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSize() {#getSize--}
 ```
 public double getSize()
 ```
 
 
-Gets the font size in points.
+获取以磅为单位的字体大小。
 
-**Returns:**
-double - The font size in points.
+**退货:**
+double - 以磅为单位的字体大小。
 ### getSizeBi() {#getSizeBi--}
 ```
 public double getSizeBi()
 ```
 
 
-Gets the font size in points used in a right-to-left document.
+获取从右到左文档中使用的字体大小（以磅为单位）。
 
-**Returns:**
-double - The font size in points used in a right-to-left document.
+**退货:**
+double - 在从右到左的文档中使用的字体大小（以磅为单位）。
 ### getSmallCaps() {#getSmallCaps--}
 ```
 public boolean getSmallCaps()
 ```
 
 
-True if the font is formatted as small capital letters.
+如果字体格式为小写大写字母，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSnapToGrid() {#getSnapToGrid--}
 ```
 public boolean getSnapToGrid()
 ```
 
 
-Specifies whether the current font should use the document grid characters per line settings when laying out.
+指定当前字体在布局时是否应使用每行设置的文档网格字符。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSpacing() {#getSpacing--}
 ```
 public double getSpacing()
 ```
 
 
-Gets the spacing (in points) between characters .
+获取字符之间的间距（以磅为单位）。
 
-**Returns:**
-double - The spacing (in points) between characters .
+**退货:**
+double - 字符之间的间距（以磅为单位）。
 ### getStrikeThrough() {#getStrikeThrough--}
 ```
 public boolean getStrikeThrough()
 ```
 
 
-True if the font is formatted as strikethrough text.
+如果字体格式设置为删除线文本，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
 ```
 
 
-Gets the character style applied to this formatting.
+获取应用于此格式的字符样式。
 
-**Returns:**
-[Style](../../com.aspose.words/style) - The character style applied to this formatting.
+**退货:**
+[Style](../../com.aspose.words/style) - 应用于此格式的字符样式。
 ### getStyleIdentifier() {#getStyleIdentifier--}
 ```
 public int getStyleIdentifier()
 ```
 
 
-Gets the locale independent style identifier of the character style applied to this formatting.
+获取应用于此格式的字符样式的与区域设置无关的样式标识符。
 
-**Returns:**
-int - The locale independent style identifier of the character style applied to this formatting. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
+**退货:**
+ int - 应用于此格式的字符样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
 ```
 
 
-Gets the name of the character style applied to this formatting.
+获取应用于此格式的字符样式的名称。
 
-**Returns:**
-java.lang.String - The name of the character style applied to this formatting.
+**退货:**
+java.lang.String - 应用于此格式的字符样式的名称。
 ### getSubscript() {#getSubscript--}
 ```
 public boolean getSubscript()
 ```
 
 
-True if the font is formatted as subscript.
+如果字体被格式化为下标，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSuperscript() {#getSuperscript--}
 ```
 public boolean getSuperscript()
 ```
 
 
-True if the font is formatted as superscript.
+如果字体格式为上标，则为真。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getTextEffect() {#getTextEffect--}
 ```
 public int getTextEffect()
 ```
 
 
-Gets the font animation effect.
+获取字体动画效果。
 
-**Returns:**
-int - The font animation effect. The returned value is one of [TextEffect](../../com.aspose.words/texteffect) constants.
+**退货:**
+ int - 字体动画效果。返回值是以下之一[TextEffect](../../com.aspose.words/texteffect)常数。
 ### getTextureAlignment() {#getTextureAlignment--}
 ```
 public int getTextureAlignment()
@@ -883,117 +883,117 @@ public int getTextureAlignment()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getThemeColor() {#getThemeColor--}
 ```
 public int getThemeColor()
 ```
 
 
-Gets the theme color in the applied color scheme that is associated with this Font object.
+获取与此 Font 对象关联的已应用配色方案中的主题颜色。
 
-**Returns:**
-int - The theme color in the applied color scheme that is associated with this Font object. The returned value is one of [ThemeColor](../../com.aspose.words/themecolor) constants.
+**退货:**
+int - 应用的配色方案中与此 Font 对象关联的主题颜色。返回值是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。
 ### getThemeFont() {#getThemeFont--}
 ```
 public int getThemeFont()
 ```
 
 
-Gets the theme font in the applied font scheme that is associated with this Font object.
+获取与此 Font 对象关联的应用字体方案中的主题字体。
 
-**Returns:**
-int - The theme font in the applied font scheme that is associated with this Font object. The returned value is one of [ThemeFont](../../com.aspose.words/themefont) constants.
+**退货:**
+int - 与此 Font 对象关联的应用字体方案中的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontAscii() {#getThemeFontAscii--}
 ```
 public int getThemeFontAscii()
 ```
 
 
-Gets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object.
+获取与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。
 
-**Returns:**
-int - The theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. The returned value is one of [ThemeFont](../../com.aspose.words/themefont) constants.
+**退货:**
+int - 在与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontBi() {#getThemeFontBi--}
 ```
 public int getThemeFontBi()
 ```
 
 
-Gets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document.
+在从右到左的语言文档中获取与此 Font 对象关联的应用字体方案中的主题字体。
 
-**Returns:**
-int - The theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. The returned value is one of [ThemeFont](../../com.aspose.words/themefont) constants.
+**退货:**
+int - 在从右到左的语言文档中与此 Font 对象关联的应用字体方案中的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontFarEast() {#getThemeFontFarEast--}
 ```
 public int getThemeFontFarEast()
 ```
 
 
-Gets the East Asian theme font in the applied font scheme that is associated with this Font object.
+获取与此 Font 对象关联的应用字体方案中的东亚主题字体。
 
-**Returns:**
-int - The East Asian theme font in the applied font scheme that is associated with this Font object. The returned value is one of [ThemeFont](../../com.aspose.words/themefont) constants.
+**退货:**
+int - 与此 Font 对象关联的应用字体方案中的东亚主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getThemeFontOther() {#getThemeFontOther--}
 ```
 public int getThemeFontOther()
 ```
 
 
-Gets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
+获取与此 Font 对象关联的应用字体方案中字符代码从 128 到 255 的字符使用的主题字体。
 
-**Returns:**
-int - The theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. The returned value is one of [ThemeFont](../../com.aspose.words/themefont) constants.
+**退货:**
+int - 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。返回值是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。
 ### getTintAndShade() {#getTintAndShade--}
 ```
 public double getTintAndShade()
 ```
 
 
-Gets a double value that lightens or darkens a color.
+获取使颜色变亮或变暗的双精度值。
 
-The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a java.lang.IllegalArgumentException.
+此属性的允许值范围为 -1（最暗）到 1（最亮）。零 (0) 是中性的。尝试将此属性设置为小于 -1 或大于 1 的值会导致 java.lang.IllegalArgumentException。
 
-Setting this property for Font object with non-theme colors results in a java.lang.IllegalStateException.
+为具有非主题颜色的 Font 对象设置此属性会导致 java.lang.IllegalStateException。
 
-**Returns:**
-double - A double value that lightens or darkens a color.
+**退货:**
+double - 使颜色变亮或变暗的 double 值。
 ### getUnderline() {#getUnderline--}
 ```
 public int getUnderline()
 ```
 
 
-Gets the type of underline applied to the font.
+获取应用于字体的下划线类型。
 
-**Returns:**
-int - The type of underline applied to the font. The returned value is one of [Underline](../../com.aspose.words/underline) constants.
+**退货:**
+ int - 应用于字体的下划线类型。返回值是以下之一[Underline](../../com.aspose.words/underline)常数。
 ### getUnderlineColor() {#getUnderlineColor--}
 ```
 public Color getUnderlineColor()
 ```
 
 
-Gets the color of the underline applied to the font.
+获取应用于字体的下划线颜色。
 
-**Returns:**
-java.awt.Color - The color of the underline applied to the font.
-### hasDmlEffect(int dmlEffectType) {#hasDmlEffect-int-}
+**退货:**
+java.awt.Color - 应用于字体的下划线颜色。
+### hasDmlEffect(int dmlEffect类型) {#hasDmlEffect-int-}
 ```
-public boolean hasDmlEffect(int dmlEffectType)
+public boolean hasDmlEffect(int dmlEffect类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| dmlEffectType | int |  |
+| dmlEffect类型 | int |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1002,8 +1002,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1028,25 +1028,25 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int patternType) {#patterned-int-}
+### patterned(int pattern类型) {#patterned-int-}
 ```
-public void patterned(int patternType)
+public void patterned(int pattern类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| patternType | int |  |
+| pattern类型 | int |  |
 
 ### presetTextured(int presetTexture) {#presetTextured-int-}
 ```
@@ -1056,8 +1056,8 @@ public void presetTextured(int presetTexture)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
@@ -1067,12 +1067,12 @@ public void setAllCaps(boolean value)
 ```
 
 
-True if the font is formatted as all capital letters.
+如果字体格式全部为大写字母，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBidi(boolean value) {#setBidi-boolean-}
 ```
@@ -1080,18 +1080,18 @@ public void setBidi(boolean value)
 ```
 
 
-Specifies whether the contents of this run shall have right-to-left characteristics.
+指定此运行的内容是否应具有从右到左的特征。
 
-This property, when on, shall not be used with strongly left-to-right text. Any behavior under that condition is unspecified. This property, when off, shall not be used with strong right-to-left text. Any behavior under that condition is unspecified.
+此属性在打开时不应与从左到右的文本一起使用。在这种情况下的任何行为都是未指定的。此属性在关闭时不应与从右到左的强文本一起使用。在这种情况下的任何行为都是未指定的。
 
-When the contents of this run are displayed, all characters shall be treated as complex script characters for formatting purposes. This means that [getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-) and a corresponding font name will be used when rendering this run.
+当显示本次运行的内容时，出于格式化目的，所有字符都应被视为复杂的脚本字符。这意味着[getBoldBi()](../../com.aspose.words/font\#getBoldBi--) / [setBoldBi(boolean)](../../com.aspose.words/font\#setBoldBi-boolean-), [getItalicBi()](../../com.aspose.words/font\#getItalicBi--) / [setItalicBi(boolean)](../../com.aspose.words/font\#setItalicBi-boolean-), [getSizeBi()](../../com.aspose.words/font\#getSizeBi--) / [setSizeBi(double)](../../com.aspose.words/font\#setSizeBi-double-)并且在渲染此运行时将使用相应的字体名称。
 
-Also, when the contents of this run are displayed, this property acts as a right-to-left override for characters which are classified as "weak types" and "neutral types".
+此外，当显示此运行的内容时，此属性充当从右到左的覆盖，用于分类为“弱类型”和“中性类型”的字符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBold(boolean value) {#setBold-boolean-}
 ```
@@ -1099,12 +1099,12 @@ public void setBold(boolean value)
 ```
 
 
-True if the font is formatted as bold.
+如果字体格式为粗体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBoldBi(boolean value) {#setBoldBi-boolean-}
 ```
@@ -1112,12 +1112,12 @@ public void setBoldBi(boolean value)
 ```
 
 
-True if the right-to-left text is formatted as bold.
+如果从右到左的文本格式设置为粗体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -1127,8 +1127,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1139,12 +1139,12 @@ public void setColor(Color value)
 ```
 
 
-Sets the color of the font.
+设置字体的颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The color of the font. |
+| value | java.awt.Color | 字体的颜色。 |
 
 ### setComplexScript(boolean value) {#setComplexScript-boolean-}
 ```
@@ -1152,12 +1152,12 @@ public void setComplexScript(boolean value)
 ```
 
 
-Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run.
+指定在确定此运行的格式时，是否应将此运行的内容视为复杂脚本文本，而不管其 Unicode 字符值如何。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setDoubleStrikeThrough(boolean value) {#setDoubleStrikeThrough-boolean-}
 ```
@@ -1165,12 +1165,12 @@ public void setDoubleStrikeThrough(boolean value)
 ```
 
 
-True if the font is formatted as double strikethrough text.
+如果字体格式为双删除线文本，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setEmboss(boolean value) {#setEmboss-boolean-}
 ```
@@ -1178,12 +1178,12 @@ public void setEmboss(boolean value)
 ```
 
 
-True if the font is formatted as embossed.
+如果字体被格式化为浮雕，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setEmphasisMark(int value) {#setEmphasisMark-int-}
 ```
@@ -1191,12 +1191,12 @@ public void setEmphasisMark(int value)
 ```
 
 
-Sets the emphasis mark applied to this formatting.
+设置应用于此格式的强调标记。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The emphasis mark applied to this formatting. The value must be one of [EmphasisMark](../../com.aspose.words/emphasismark) constants. |
+| value | int | 应用于此格式的强调标记。该值必须是以下之一[EmphasisMark](../../com.aspose.words/emphasismark)常数。 |
 
 ### setEngrave(boolean value) {#setEngrave-boolean-}
 ```
@@ -1204,12 +1204,12 @@ public void setEngrave(boolean value)
 ```
 
 
-True if the font is formatted as engraved.
+如果字体格式为雕刻，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
 ```
@@ -1219,8 +1219,8 @@ public void setFillableBackColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -1232,8 +1232,8 @@ public void setFillableForeColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -1245,8 +1245,8 @@ public void setFillableTransparency(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -1258,8 +1258,8 @@ public void setFillableVisible(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -1271,8 +1271,8 @@ public void setFilledColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -1284,8 +1284,8 @@ public void setGradientAngle(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -1295,12 +1295,12 @@ public void setHidden(boolean value)
 ```
 
 
-True if the font is formatted as hidden text.
+如果字体被格式化为隐藏文本，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setHighlightColor(Color value) {#setHighlightColor-java.awt.Color-}
 ```
@@ -1308,12 +1308,12 @@ public void setHighlightColor(Color value)
 ```
 
 
-Sets the highlight (marker) color.
+设置高亮（标记）颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The highlight (marker) color. |
+| value | java.awt.Color | 突出显示（标记）颜色。 |
 
 ### setImage(byte[] imageBytes) {#setImage-byte---}
 ```
@@ -1323,8 +1323,8 @@ public void setImage(byte[] imageBytes)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
@@ -1334,12 +1334,12 @@ public void setItalic(boolean value)
 ```
 
 
-True if the font is formatted as italic.
+如果字体格式为斜体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setItalicBi(boolean value) {#setItalicBi-boolean-}
 ```
@@ -1347,12 +1347,12 @@ public void setItalicBi(boolean value)
 ```
 
 
-True if the right-to-left text is formatted as italic.
+如果从右到左的文本格式为斜体，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setKerning(double value) {#setKerning-double-}
 ```
@@ -1360,12 +1360,12 @@ public void setKerning(double value)
 ```
 
 
-Sets the font size at which kerning starts.
+设置字距调整开始的字体大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The font size at which kerning starts. |
+| value | double | 字距调整开始的字体大小。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -1373,12 +1373,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the locale identifier (language) of the formatted characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The locale identifier (language) of the formatted characters. |
+| value | int | 格式化字符的区域设置标识符（语言）。 |
 
 ### setLocaleIdBi(int value) {#setLocaleIdBi-int-}
 ```
@@ -1386,12 +1386,12 @@ public void setLocaleIdBi(int value)
 ```
 
 
-Sets the locale identifier (language) of the formatted right-to-left characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化的从右到左字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The locale identifier (language) of the formatted right-to-left characters. |
+| value | int | 格式化的从右到左字符的区域设置标识符（语言）。 |
 
 ### setLocaleIdFarEast(int value) {#setLocaleIdFarEast-int-}
 ```
@@ -1399,12 +1399,12 @@ public void setLocaleIdFarEast(int value)
 ```
 
 
-Sets the locale identifier (language) of the formatted Asian characters. For the list of locale identifiers see https://msdn.microsoft.com/en-us/library/cc233965.aspx
+设置格式化亚洲字符的区域设置标识符（语言）。有关区域设置标识符的列表，请参见 https://msdn.microsoft.com/en-us/library/cc233965.aspx
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The locale identifier (language) of the formatted Asian characters. |
+| value | int | 格式化亚洲字符的区域设置标识符（语言）。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -1412,16 +1412,16 @@ public void setName(String value)
 ```
 
 
-Sets the name of the font.
+设置字体的名称。
 
-When getting, returns [getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
+获取时返回[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-).
 
-When setting, sets [getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-) and [getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-) to the specified value.
+设置时，设置[getNameAscii()](../../com.aspose.words/font\#getNameAscii--) / [setNameAscii(java.lang.String)](../../com.aspose.words/font\#setNameAscii-java.lang.String-), [getNameBi()](../../com.aspose.words/font\#getNameBi--) / [setNameBi(java.lang.String)](../../com.aspose.words/font\#setNameBi-java.lang.String-), [getNameFarEast()](../../com.aspose.words/font\#getNameFarEast--) / [setNameFarEast(java.lang.String)](../../com.aspose.words/font\#setNameFarEast-java.lang.String-)和[getNameOther()](../../com.aspose.words/font\#getNameOther--) / [setNameOther(java.lang.String)](../../com.aspose.words/font\#setNameOther-java.lang.String-)到指定的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the font. |
+| value | java.lang.String | 字体的名称。 |
 
 ### setNameAscii(String value) {#setNameAscii-java.lang.String-}
 ```
@@ -1429,12 +1429,12 @@ public void setNameAscii(String value)
 ```
 
 
-Sets the font used for Latin text (characters with character codes from 0 (zero) through 127).
+设置用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The font used for Latin text (characters with character codes from 0 (zero) through 127). |
+| value | java.lang.String | 用于拉丁文本的字体（字符代码从 0（零）到 127 的字符）。 |
 
 ### setNameBi(String value) {#setNameBi-java.lang.String-}
 ```
@@ -1442,12 +1442,12 @@ public void setNameBi(String value)
 ```
 
 
-Sets the name of the font in a right-to-left language document.
+在从右到左的语言文档中设置字体的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the font in a right-to-left language document. |
+| value | java.lang.String | 从右到左的语言文档中的字体名称。 |
 
 ### setNameFarEast(String value) {#setNameFarEast-java.lang.String-}
 ```
@@ -1455,12 +1455,12 @@ public void setNameFarEast(String value)
 ```
 
 
-Sets an East Asian font name.
+设置东亚字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | An East Asian font name. |
+| value | java.lang.String | 东亚字体名称。 |
 
 ### setNameOther(String value) {#setNameOther-java.lang.String-}
 ```
@@ -1468,12 +1468,12 @@ public void setNameOther(String value)
 ```
 
 
-Sets the font used for characters with character codes from 128 through 255.
+设置用于字符代码从 128 到 255 的字符的字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The font used for characters with character codes from 128 through 255. |
+| value | java.lang.String | 用于字符代码从 128 到 255 的字符的字体。 |
 
 ### setNoProofing(boolean value) {#setNoProofing-boolean-}
 ```
@@ -1481,12 +1481,12 @@ public void setNoProofing(boolean value)
 ```
 
 
-True when the formatted characters are not to be spell checked.
+当格式化字符不进行拼写检查时为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setOn(boolean value) {#setOn-boolean-}
 ```
@@ -1496,8 +1496,8 @@ public void setOn(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -1509,8 +1509,8 @@ public void setOpacity(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -1520,12 +1520,12 @@ public void setOutline(boolean value)
 ```
 
 
-True if the font is formatted as outline.
+如果字体被格式化为轮廓，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPosition(double value) {#setPosition-double-}
 ```
@@ -1533,12 +1533,12 @@ public void setPosition(double value)
 ```
 
 
-Sets the position of text (in points) relative to the base line. A positive number raises the text, and a negative number lowers it.
+设置文本相对于基线的位置（以磅为单位）。正数提高文本，负数降低文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The position of text (in points) relative to the base line. |
+| value | double | 文本相对于基线的位置（以磅为单位）。 |
 
 ### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
 ```
@@ -1548,8 +1548,8 @@ public void setRotateWithObject(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -1559,12 +1559,12 @@ public void setScaling(int value)
 ```
 
 
-Sets character width scaling in percent.
+以百分比设置字符宽度缩放。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | Character width scaling in percent. |
+| value | int | 字符宽度缩放百分比。 |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
@@ -1572,12 +1572,12 @@ public void setShadow(boolean value)
 ```
 
 
-True if the font is formatted as shadowed.
+如果字体被格式化为阴影，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSize(double value) {#setSize-double-}
 ```
@@ -1585,12 +1585,12 @@ public void setSize(double value)
 ```
 
 
-Sets the font size in points.
+以磅为单位设置字体大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The font size in points. |
+| value | double | 以磅为单位的字体大小。 |
 
 ### setSizeBi(double value) {#setSizeBi-double-}
 ```
@@ -1598,12 +1598,12 @@ public void setSizeBi(double value)
 ```
 
 
-Sets the font size in points used in a right-to-left document.
+设置从右到左文档中使用的字体大小（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The font size in points used in a right-to-left document. |
+| value | double | 在从右到左的文档中使用的字体大小（以磅为单位）。 |
 
 ### setSmallCaps(boolean value) {#setSmallCaps-boolean-}
 ```
@@ -1611,12 +1611,12 @@ public void setSmallCaps(boolean value)
 ```
 
 
-True if the font is formatted as small capital letters.
+如果字体格式为小写大写字母，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSnapToGrid(boolean value) {#setSnapToGrid-boolean-}
 ```
@@ -1624,12 +1624,12 @@ public void setSnapToGrid(boolean value)
 ```
 
 
-Specifies whether the current font should use the document grid characters per line settings when laying out.
+指定当前字体在布局时是否应使用每行设置的文档网格字符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSpacing(double value) {#setSpacing-double-}
 ```
@@ -1637,12 +1637,12 @@ public void setSpacing(double value)
 ```
 
 
-Sets the spacing (in points) between characters .
+设置字符之间的间距（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The spacing (in points) between characters . |
+| value | double | 字符之间的间距（以磅为单位）。 |
 
 ### setStrikeThrough(boolean value) {#setStrikeThrough-boolean-}
 ```
@@ -1650,12 +1650,12 @@ public void setStrikeThrough(boolean value)
 ```
 
 
-True if the font is formatted as strikethrough text.
+如果字体格式设置为删除线文本，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setStyle(Style value) {#setStyle-com.aspose.words.Style-}
 ```
@@ -1663,12 +1663,12 @@ public void setStyle(Style value)
 ```
 
 
-Sets the character style applied to this formatting.
+设置应用于此格式的字符样式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The character style applied to this formatting. |
+| value | [Style](../../com.aspose.words/style) | 应用于此格式的字符样式。 |
 
 ### setStyleIdentifier(int value) {#setStyleIdentifier-int-}
 ```
@@ -1676,12 +1676,12 @@ public void setStyleIdentifier(int value)
 ```
 
 
-Sets the locale independent style identifier of the character style applied to this formatting.
+设置应用于此格式的字符样式的与区域设置无关的样式标识符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The locale independent style identifier of the character style applied to this formatting. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants. |
+| value | int | 应用于此格式的字符样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1689,12 +1689,12 @@ public void setStyleName(String value)
 ```
 
 
-Sets the name of the character style applied to this formatting.
+设置应用于此格式的字符样式的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the character style applied to this formatting. |
+| value | java.lang.String | 应用于此格式的字符样式的名称。 |
 
 ### setSubscript(boolean value) {#setSubscript-boolean-}
 ```
@@ -1702,12 +1702,12 @@ public void setSubscript(boolean value)
 ```
 
 
-True if the font is formatted as subscript.
+如果字体被格式化为下标，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSuperscript(boolean value) {#setSuperscript-boolean-}
 ```
@@ -1715,12 +1715,12 @@ public void setSuperscript(boolean value)
 ```
 
 
-True if the font is formatted as superscript.
+如果字体格式为上标，则为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setTextEffect(int value) {#setTextEffect-int-}
 ```
@@ -1728,12 +1728,12 @@ public void setTextEffect(int value)
 ```
 
 
-Sets the font animation effect.
+设置字体动画效果。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The font animation effect. The value must be one of [TextEffect](../../com.aspose.words/texteffect) constants. |
+| value | int | 字体动画效果。该值必须是以下之一[TextEffect](../../com.aspose.words/texteffect)常数。 |
 
 ### setTextureAlignment(int value) {#setTextureAlignment-int-}
 ```
@@ -1743,8 +1743,8 @@ public void setTextureAlignment(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -1754,12 +1754,12 @@ public void setThemeColor(int value)
 ```
 
 
-Sets the theme color in the applied color scheme that is associated with this Font object.
+在与此 Font 对象关联的应用颜色方案中设置主题颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The theme color in the applied color scheme that is associated with this Font object. The value must be one of [ThemeColor](../../com.aspose.words/themecolor) constants. |
+| value | int | 与此 Font 对象关联的应用配色方案中的主题颜色。该值必须是以下之一[ThemeColor](../../com.aspose.words/themecolor)常数。 |
 
 ### setThemeFont(int value) {#setThemeFont-int-}
 ```
@@ -1767,12 +1767,12 @@ public void setThemeFont(int value)
 ```
 
 
-Sets the theme font in the applied font scheme that is associated with this Font object.
+在与此 Font 对象关联的应用字体方案中设置主题字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The theme font in the applied font scheme that is associated with this Font object. The value must be one of [ThemeFont](../../com.aspose.words/themefont) constants. |
+| value | int | 与此 Font 对象关联的应用字体方案中的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontAscii(int value) {#setThemeFontAscii-int-}
 ```
@@ -1780,12 +1780,12 @@ public void setThemeFontAscii(int value)
 ```
 
 
-Sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object.
+在与此 Font 对象关联的应用字体方案中设置用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this Font object. The value must be one of [ThemeFont](../../com.aspose.words/themefont) constants. |
+| value | int | 与此 Font 对象关联的应用字体方案中用于拉丁文本（字符代码从 0（零）到 127 的字符）的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontBi(int value) {#setThemeFontBi-int-}
 ```
@@ -1793,12 +1793,12 @@ public void setThemeFontBi(int value)
 ```
 
 
-Sets the theme font in the applied font scheme that is associated with this Font object in a right-to-left language document.
+在从右到左的语言文档中设置与此 Font 对象关联的应用字体方案中的主题字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The theme font in the applied font scheme that is associated with this Font object in a right-to-left language document. The value must be one of [ThemeFont](../../com.aspose.words/themefont) constants. |
+| value | int | 在从右到左的语言文档中，与此 Font 对象关联的应用字体方案中的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontFarEast(int value) {#setThemeFontFarEast-int-}
 ```
@@ -1806,12 +1806,12 @@ public void setThemeFontFarEast(int value)
 ```
 
 
-Sets the East Asian theme font in the applied font scheme that is associated with this Font object.
+在与此 Font 对象关联的应用字体方案中设置东亚主题字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The East Asian theme font in the applied font scheme that is associated with this Font object. The value must be one of [ThemeFont](../../com.aspose.words/themefont) constants. |
+| value | int | 与此 Font 对象关联的应用字体方案中的东亚主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setThemeFontOther(int value) {#setThemeFontOther-int-}
 ```
@@ -1819,12 +1819,12 @@ public void setThemeFontOther(int value)
 ```
 
 
-Sets the theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object.
+在与此 Font 对象关联的应用字体方案中，设置用于字符代码从 128 到 255 的字符的主题字体。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The theme font used for characters with character codes from 128 through 255 in the applied font scheme that is associated with this Font object. The value must be one of [ThemeFont](../../com.aspose.words/themefont) constants. |
+| value | int | 在与此 Font 对象关联的应用字体方案中，用于字符代码从 128 到 255 的字符的主题字体。该值必须是以下之一[ThemeFont](../../com.aspose.words/themefont)常数。 |
 
 ### setTintAndShade(double value) {#setTintAndShade-double-}
 ```
@@ -1832,16 +1832,16 @@ public void setTintAndShade(double value)
 ```
 
 
-Sets a double value that lightens or darkens a color.
+设置使颜色变亮或变暗的双精度值。
 
-The allowed values are in range from -1 (darkest) to 1 (lightest) for this property. Zero (0) is neutral. Attempting to set this property to a value less than -1 or more than 1 results in a java.lang.IllegalArgumentException.
+此属性的允许值范围为 -1（最暗）到 1（最亮）。零 (0) 是中性的。尝试将此属性设置为小于 -1 或大于 1 的值会导致 java.lang.IllegalArgumentException。
 
-Setting this property for Font object with non-theme colors results in a java.lang.IllegalStateException.
+为具有非主题颜色的 Font 对象设置此属性会导致 java.lang.IllegalStateException。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | A double value that lightens or darkens a color. |
+| value | double | 使颜色变亮或变暗的双精度值。 |
 
 ### setUnderline(int value) {#setUnderline-int-}
 ```
@@ -1849,12 +1849,12 @@ public void setUnderline(int value)
 ```
 
 
-Sets the type of underline applied to the font.
+设置应用于字体的下划线类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The type of underline applied to the font. The value must be one of [Underline](../../com.aspose.words/underline) constants. |
+| value | int | 应用于字体的下划线类型。该值必须是以下之一[Underline](../../com.aspose.words/underline)常数。 |
 
 ### setUnderlineColor(Color value) {#setUnderlineColor-java.awt.Color-}
 ```
@@ -1862,12 +1862,12 @@ public void setUnderlineColor(Color value)
 ```
 
 
-Sets the color of the underline applied to the font.
+设置应用于字体的下划线颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The color of the underline applied to the font. |
+| value | java.awt.Color | 应用于字体的下划线颜色。 |
 
 ### solid() {#solid--}
 ```
@@ -1885,7 +1885,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
@@ -1895,8 +1895,8 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
@@ -1917,8 +1917,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1930,9 +1930,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,37 +1,37 @@
 ---
 title: TextOrientation
 second_title: Aspose.Words for Java API Reference
-description: Specifies orientation of text on a page in a table cell or a text frame.
+description: 指定表格单元格或文本框架中页面上的文本方向。
 type: docs
 weight: 566
-url: /java/com.aspose.words/textorientation/
+url: /zh/java/com.aspose.words/textorientation/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextOrientation
 ```
 
-Specifies orientation of text on a page, in a table cell or a text frame.
-## Fields
+指定页面、表格单元格或文本框架中文本的方向。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DOWNWARD](#DOWNWARD) | Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl). |
-| [HORIZONTAL](#HORIZONTAL) | Text is arranged horizontally (lr-tb). |
-| [HORIZONTAL_ROTATED_FAR_EAST](#HORIZONTAL-ROTATED-FAR-EAST) | Text is arranged horizontally, but Far East characters are rotated 90 degrees to the left (lr-tb-v). |
-| [UPWARD](#UPWARD) | Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr). |
-| [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v). |
-| [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v). |
+| [DOWNWARD](#DOWNWARD) | 文本向右旋转 90 度以从上到下显示 (tb-rl)。 |
+| [HORIZONTAL](#HORIZONTAL) | 文本水平排列 (lr-tb)。 |
+| [HORIZONTAL_ROTATED_FAR_EAST](#HORIZONTAL-ROTATED-FAR-EAST) | 文本水平排列，但远东字符向左旋转 90 度 (lr-tb-v)。 |
+| [UPWARD](#UPWARD) | 文本向左旋转 90 度以从下到上显示 (bt-lr)。 |
+| [VERTICAL_FAR_EAST](#VERTICAL-FAR-EAST) | 远东字符垂直显示，其他文本向右旋转 90 度以从上到下显示 (tb-rl-v)。 |
+| [VERTICAL_ROTATED_FAR_EAST](#VERTICAL-ROTATED-FAR-EAST) | 远东字符垂直显示，其他文本向右旋转 90 度以从上到下垂直显示，然后从左到右水平显示 (tb-lr-v)。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textOrientationName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int textOrientation)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int DOWNWARD
 ```
 
 
-Text is rotated 90 degrees to the right to appear from top to bottom (tb-rl).
+文本向右旋转 90 度以从上到下显示 (tb-rl)。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -56,7 +56,7 @@ public static int HORIZONTAL
 ```
 
 
-Text is arranged horizontally (lr-tb).
+文本水平排列 (lr-tb)。
 
 ### HORIZONTAL_ROTATED_FAR_EAST {#HORIZONTAL-ROTATED-FAR-EAST}
 ```
@@ -64,7 +64,7 @@ public static int HORIZONTAL_ROTATED_FAR_EAST
 ```
 
 
-Text is arranged horizontally, but Far East characters are rotated 90 degrees to the left (lr-tb-v).
+文本水平排列，但远东字符向左旋转 90 度 (lr-tb-v)。
 
 ### UPWARD {#UPWARD}
 ```
@@ -72,7 +72,7 @@ public static int UPWARD
 ```
 
 
-Text is rotated 90 degrees to the left to appear from bottom to top (bt-lr).
+文本向左旋转 90 度以从下到上显示 (bt-lr)。
 
 ### VERTICAL_FAR_EAST {#VERTICAL-FAR-EAST}
 ```
@@ -80,7 +80,7 @@ public static int VERTICAL_FAR_EAST
 ```
 
 
-Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom (tb-rl-v).
+远东字符垂直显示，其他文本向右旋转 90 度以从上到下显示 (tb-rl-v)。
 
 ### VERTICAL_ROTATED_FAR_EAST {#VERTICAL-ROTATED-FAR-EAST}
 ```
@@ -88,7 +88,7 @@ public static int VERTICAL_ROTATED_FAR_EAST
 ```
 
 
-Far East characters appear vertical, other text is rotated 90 degrees to the right to appear from top to bottom vertically, then left to right horizontally (tb-lr-v).
+远东字符垂直显示，其他文本向右旋转 90 度以从上到下垂直显示，然后从左到右水平显示 (tb-lr-v)。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String textOrientationName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textOrientationName)
@@ -119,23 +119,23 @@ public static int fromName(String textOrientationName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textOrientationName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int textOrientation) {#getName-int-}
 ```
 public static String getName(int textOrientation)
@@ -144,12 +144,12 @@ public static String getName(int textOrientation)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textOrientation | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int textOrientation) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int textOrientation)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textOrientation | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

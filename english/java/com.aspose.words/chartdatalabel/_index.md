@@ -1,60 +1,60 @@
 ---
 title: ChartDataLabel
-second_title: Aspose.Words for Java API Reference
-description: Represents data label on a chart point or trendline.
+second_title: Aspose.Words for Java API 参考
+description: 表示图表点或趋势线上的数据标签。
 type: docs
 weight: 58
-url: /java/com.aspose.words/chartdatalabel/
+url: /zh/java/com.aspose.words/chartdatalabel/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class ChartDataLabel implements Cloneable
 ```
 
-Represents data label on a chart point or trendline.
+表示图表点或趋势线上的数据标签。
 
-To learn more, visit the **Working with Charts** documentation article.
+要了解更多信息，请访问**Working with Charts**文档文章。
 
-On a series, the [ChartDataLabel](../../com.aspose.words/chartdatalabel) object is a member of the [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection). The [ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection) contains a [ChartDataLabel](../../com.aspose.words/chartdatalabel) object for each point.
-## Methods
+在一个系列中，[ChartDataLabel](../../com.aspose.words/chartdatalabel)对象是[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection).这[ChartDataLabelCollection](../../com.aspose.words/chartdatalabelcollection)包含一个[ChartDataLabel](../../com.aspose.words/chartdatalabel)每个点的对象。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clearFormat()](#clearFormat--) | Clears format of this data label. |
+| [clearFormat()](#clearFormat--) | 清除此数据标签的格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getIndex()](#getIndex--) | Specifies the index of the containing element. |
-| [getNumberFormat()](#getNumberFormat--) | Returns number format of the parent element. |
-| [getSeparator()](#getSeparator--) | Gets string separator used for the data labels on a chart. |
-| [getShowBubbleSize()](#getShowBubbleSize--) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
-| [getShowCategoryName()](#getShowCategoryName--) | Allows to specify if category name is to be displayed for the data labels on a chart. |
-| [getShowDataLabelsRange()](#getShowDataLabelsRange--) | Allows to specify if values from data labels range to be displayed in the data labels. |
-| [getShowLeaderLines()](#getShowLeaderLines--) | Allows to specify if data label leader lines need be shown. |
-| [getShowLegendKey()](#getShowLegendKey--) | Allows to specify if legend key is to be displayed for the data labels on a chart. |
-| [getShowPercentage()](#getShowPercentage--) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
-| [getShowSeriesName()](#getShowSeriesName--) | Gets a Boolean to indicate the series name display behavior for the data labels on a chart. |
-| [getShowValue()](#getShowValue--) | Allows to specify if values are to be displayed in the data labels. |
+| [get班级()](#get班级--) |  |
+| [getIndex()](#getIndex--) | 指定包含元素的索引。 |
+| [getNumberFormat()](#getNumberFormat--) | 返回父元素的数字格式。 |
+| [getSeparator()](#getSeparator--) | 获取用于图表上数据标签的字符串分隔符。 |
+| [getShowBubbleSize()](#getShowBubbleSize--) | 允许指定是否为图表上的数据标签显示气泡大小。 |
+| [getShowCategoryName()](#getShowCategoryName--) | 允许指定是否为图表上的数据标签显示类别名称。 |
+| [getShowDataLabelsRange()](#getShowDataLabelsRange--) | 允许指定数据标签范围内的值是否显示在数据标签中。 |
+| [getShowLeaderLines()](#getShowLeaderLines--) | 允许指定是否需要显示数据标签前导线。 |
+| [getShowLegendKey()](#getShowLegendKey--) | 允许指定是否要为图表上的数据标签显示图例键。 |
+| [getShowPercentage()](#getShowPercentage--) | 允许指定是否为图表上的数据标签显示百分比值。 |
+| [getShowSeriesName()](#getShowSeriesName--) | 获取一个布尔值，以指示图表上数据标签的系列名称显示行为。 |
+| [getShowValue()](#getShowValue--) | 允许指定值是否显示在数据标签中。 |
 | [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | Gets/sets a flag indicating whether this label is hidden. |
-| [isHidden(boolean value)](#isHidden-boolean-) | Gets/sets a flag indicating whether this label is hidden. |
+| [isHidden()](#isHidden--) | 获取/设置一个标志，指示此标签是否隐藏。 |
+| [isHidden(boolean value)](#isHidden-boolean-) | 获取/设置一个标志，指示此标签是否隐藏。 |
 | [isInherited()](#isInherited--) |  |
-| [isVisible()](#isVisible--) | Returns true if this data label has something to display. |
+| [isVisible()](#isVisible--) | 如果此数据标签有要显示的内容，则返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets string separator used for the data labels on a chart. |
-| [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean-) | Allows to specify if bubble size is to be displayed for the data labels on a chart. |
-| [setShowCategoryName(boolean value)](#setShowCategoryName-boolean-) | Allows to specify if category name is to be displayed for the data labels on a chart. |
-| [setShowDataLabelsRange(boolean value)](#setShowDataLabelsRange-boolean-) | Allows to specify if values from data labels range to be displayed in the data labels. |
-| [setShowLeaderLines(boolean value)](#setShowLeaderLines-boolean-) | Allows to specify if data label leader lines need be shown. |
-| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | Allows to specify if legend key is to be displayed for the data labels on a chart. |
-| [setShowPercentage(boolean value)](#setShowPercentage-boolean-) | Allows to specify if percentage value is to be displayed for the data labels on a chart. |
-| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | Sets a Boolean to indicate the series name display behavior for the data labels on a chart. |
-| [setShowValue(boolean value)](#setShowValue-boolean-) | Allows to specify if values are to be displayed in the data labels. |
+| [setSeparator(String value)](#setSeparator-java.lang.String-) | 设置用于图表上数据标签的字符串分隔符。 |
+| [setShowBubbleSize(boolean value)](#setShowBubbleSize-boolean-) | 允许指定是否为图表上的数据标签显示气泡大小。 |
+| [setShowCategoryName(boolean value)](#setShowCategoryName-boolean-) | 允许指定是否为图表上的数据标签显示类别名称。 |
+| [setShowDataLabelsRange(boolean value)](#setShowDataLabelsRange-boolean-) | 允许指定数据标签范围内的值是否显示在数据标签中。 |
+| [setShowLeaderLines(boolean value)](#setShowLeaderLines-boolean-) | 允许指定是否需要显示数据标签前导线。 |
+| [setShowLegendKey(boolean value)](#setShowLegendKey-boolean-) | 允许指定是否要为图表上的数据标签显示图例键。 |
+| [setShowPercentage(boolean value)](#setShowPercentage-boolean-) | 允许指定是否为图表上的数据标签显示百分比值。 |
+| [setShowSeriesName(boolean value)](#setShowSeriesName-boolean-) | 设置一个布尔值以指示图表上数据标签的系列名称显示行为。 |
+| [setShowValue(boolean value)](#setShowValue-boolean-) | 允许指定值是否显示在数据标签中。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -65,7 +65,7 @@ public void clearFormat()
 ```
 
 
-Clears format of this data label. The properties are set to the default values defined in the parent data label collection.
+清除此数据标签的格式。属性设置为父数据标签集合中定义的默认值。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,133 +75,133 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getIndex() {#getIndex--}
 ```
 public int getIndex()
 ```
 
 
-Specifies the index of the containing element. This index shall determine which of the parent's children collection this element applies to. Default value is 0.
+指定包含元素的索引。该索引应确定该元素适用于哪个父子集合。默认值为 0。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getNumberFormat() {#getNumberFormat--}
 ```
 public ChartNumberFormat getNumberFormat()
 ```
 
 
-Returns number format of the parent element.
+返回父元素的数字格式。
 
-**Returns:**
-[ChartNumberFormat](../../com.aspose.words/chartnumberformat) - Number format of the parent element.
+**退货:**
+[ChartNumberFormat](../../com.aspose.words/chartnumberformat) - 父元素的数字格式。
 ### getSeparator() {#getSeparator--}
 ```
 public String getSeparator()
 ```
 
 
-Gets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
+获取用于图表上数据标签的字符串分隔符。默认是逗号，除了只显示类别名称和百分比的饼图，此时应使用换行符。
 
-**Returns:**
-java.lang.String - String separator used for the data labels on a chart.
+**退货:**
+java.lang.String - 用于图表上数据标签的字符串分隔符。
 ### getShowBubbleSize() {#getShowBubbleSize--}
 ```
 public boolean getShowBubbleSize()
 ```
 
 
-Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false.
+允许指定是否为图表上的数据标签显示气泡大小。仅适用于气泡图。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowCategoryName() {#getShowCategoryName--}
 ```
 public boolean getShowCategoryName()
 ```
 
 
-Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否为图表上的数据标签显示类别名称。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowDataLabelsRange() {#getShowDataLabelsRange--}
 ```
 public boolean getShowDataLabelsRange()
 ```
 
 
-Allows to specify if values from data labels range to be displayed in the data labels. Default value is false.
+允许指定数据标签范围内的值是否显示在数据标签中。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowLeaderLines() {#getShowLeaderLines--}
 ```
 public boolean getShowLeaderLines()
 ```
 
 
-Allows to specify if data label leader lines need be shown. Default value is false. Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+允许指定是否需要显示数据标签前导线。默认值为假。仅适用于饼图。引导线在数据标签与其对应的数据点之间创建视觉连接。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowLegendKey() {#getShowLegendKey--}
 ```
 public boolean getShowLegendKey()
 ```
 
 
-Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否要为图表上的数据标签显示图例键。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowPercentage() {#getShowPercentage--}
 ```
 public boolean getShowPercentage()
 ```
 
 
-Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否为图表上的数据标签显示百分比值。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getShowSeriesName() {#getShowSeriesName--}
 ```
 public boolean getShowSeriesName()
 ```
 
 
-Gets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false.
+获取一个布尔值，以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为假。
 
-**Returns:**
-boolean - A Boolean to indicate the series name display behavior for the data labels on a chart.
+**退货:**
+boolean - 一个布尔值，用于指示图表上数据标签的系列名称显示行为。
 ### getShowValue() {#getShowValue--}
 ```
 public boolean getShowValue()
 ```
 
 
-Allows to specify if values are to be displayed in the data labels. Default value is false.
+允许指定值是否显示在数据标签中。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -210,30 +210,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()
 ```
 
 
-Gets/sets a flag indicating whether this label is hidden. The default value is **false**.
+获取/设置一个标志，指示此标签是否隐藏。默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isHidden(boolean value) {#isHidden-boolean-}
 ```
 public void isHidden(boolean value)
 ```
 
 
-Gets/sets a flag indicating whether this label is hidden. The default value is **false**.
+获取/设置一个标志，指示此标签是否隐藏。默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### isInherited() {#isInherited--}
 ```
@@ -243,18 +243,18 @@ public boolean isInherited()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### isVisible() {#isVisible--}
 ```
 public boolean isVisible()
 ```
 
 
-Returns true if this data label has something to display.
+如果此数据标签有要显示的内容，则返回 true。
 
-**Returns:**
-boolean - True if this data label has something to display.
+**退货:**
+boolean - 如果此数据标签有要显示的内容，则为真。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -277,12 +277,12 @@ public void setSeparator(String value)
 ```
 
 
-Sets string separator used for the data labels on a chart. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead.
+设置用于图表上数据标签的字符串分隔符。默认是逗号，除了只显示类别名称和百分比的饼图，此时应使用换行符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | String separator used for the data labels on a chart. |
+| value | java.lang.String | 用于图表上数据标签的字符串分隔符。 |
 
 ### setShowBubbleSize(boolean value) {#setShowBubbleSize-boolean-}
 ```
@@ -290,12 +290,12 @@ public void setShowBubbleSize(boolean value)
 ```
 
 
-Allows to specify if bubble size is to be displayed for the data labels on a chart. Applies only to Bubble charts. Default value is false.
+允许指定是否为图表上的数据标签显示气泡大小。仅适用于气泡图。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowCategoryName(boolean value) {#setShowCategoryName-boolean-}
 ```
@@ -303,12 +303,12 @@ public void setShowCategoryName(boolean value)
 ```
 
 
-Allows to specify if category name is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否为图表上的数据标签显示类别名称。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowDataLabelsRange(boolean value) {#setShowDataLabelsRange-boolean-}
 ```
@@ -316,12 +316,12 @@ public void setShowDataLabelsRange(boolean value)
 ```
 
 
-Allows to specify if values from data labels range to be displayed in the data labels. Default value is false.
+允许指定数据标签范围内的值是否显示在数据标签中。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowLeaderLines(boolean value) {#setShowLeaderLines-boolean-}
 ```
@@ -329,12 +329,12 @@ public void setShowLeaderLines(boolean value)
 ```
 
 
-Allows to specify if data label leader lines need be shown. Default value is false. Applies to Pie charts only. Leader lines create a visual connection between a data label and its corresponding data point.
+允许指定是否需要显示数据标签前导线。默认值为假。仅适用于饼图。引导线在数据标签与其对应的数据点之间创建视觉连接。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowLegendKey(boolean value) {#setShowLegendKey-boolean-}
 ```
@@ -342,12 +342,12 @@ public void setShowLegendKey(boolean value)
 ```
 
 
-Allows to specify if legend key is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否要为图表上的数据标签显示图例键。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowPercentage(boolean value) {#setShowPercentage-boolean-}
 ```
@@ -355,12 +355,12 @@ public void setShowPercentage(boolean value)
 ```
 
 
-Allows to specify if percentage value is to be displayed for the data labels on a chart. Default value is false.
+允许指定是否为图表上的数据标签显示百分比值。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setShowSeriesName(boolean value) {#setShowSeriesName-boolean-}
 ```
@@ -368,12 +368,12 @@ public void setShowSeriesName(boolean value)
 ```
 
 
-Sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. By default false.
+设置一个布尔值以指示图表上数据标签的系列名称显示行为。 True 显示系列名称。虚假隐藏。默认为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A Boolean to indicate the series name display behavior for the data labels on a chart. |
+| value | boolean | 一个布尔值，用于指示图表上数据标签的系列名称显示行为。 |
 
 ### setShowValue(boolean value) {#setShowValue-boolean-}
 ```
@@ -381,12 +381,12 @@ public void setShowValue(boolean value)
 ```
 
 
-Allows to specify if values are to be displayed in the data labels. Default value is false.
+允许指定值是否显示在数据标签中。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -396,7 +396,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -414,8 +414,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -427,9 +427,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

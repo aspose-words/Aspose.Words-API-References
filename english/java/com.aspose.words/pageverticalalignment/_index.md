@@ -1,35 +1,35 @@
 ---
 title: PageVerticalAlignment
-second_title: Aspose.Words for Java API Reference
-description: Specifies vertical justification of text on each page.
+second_title: Aspose.Words for Java API 参考
+description: 指定每页上文本的垂直对齐方式。
 type: docs
 weight: 441
-url: /java/com.aspose.words/pageverticalalignment/
+url: /zh/java/com.aspose.words/pageverticalalignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PageVerticalAlignment
 ```
 
-Specifies vertical justification of text on each page.
-## Fields
+指定每页上文本的垂直对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Text is aligned at the bottom of the page. |
-| [CENTER](#CENTER) | Text is aligned in the middle of the page. |
-| [JUSTIFY](#JUSTIFY) | Text is spread to fill the page. |
-| [TOP](#TOP) | Text is aligned at the top of the page. |
+| [BOTTOM](#BOTTOM) | 文本在页面底部对齐。 |
+| [CENTER](#CENTER) | 文本在页面中间对齐。 |
+| [JUSTIFY](#JUSTIFY) | 文本被展开以填满页面。 |
+| [TOP](#TOP) | 文本在页面顶部对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pageVerticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int BOTTOM
 ```
 
 
-Text is aligned at the bottom of the page.
+文本在页面底部对齐。
 
 ### CENTER {#CENTER}
 ```
@@ -54,7 +54,7 @@ public static int CENTER
 ```
 
 
-Text is aligned in the middle of the page.
+文本在页面中间对齐。
 
 ### JUSTIFY {#JUSTIFY}
 ```
@@ -62,7 +62,7 @@ public static int JUSTIFY
 ```
 
 
-Text is spread to fill the page.
+文本被展开以填满页面。
 
 ### TOP {#TOP}
 ```
@@ -70,7 +70,7 @@ public static int TOP
 ```
 
 
-Text is aligned at the top of the page.
+文本在页面顶部对齐。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pageVerticalAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pageVerticalAlignmentName)
@@ -101,23 +101,23 @@ public static int fromName(String pageVerticalAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageVerticalAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pageVerticalAlignment) {#getName-int-}
 ```
 public static String getName(int pageVerticalAlignment)
@@ -126,12 +126,12 @@ public static String getName(int pageVerticalAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageVerticalAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pageVerticalAlignment) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int pageVerticalAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageVerticalAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

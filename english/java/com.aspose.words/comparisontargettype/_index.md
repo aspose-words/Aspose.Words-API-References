@@ -1,40 +1,40 @@
 ---
-title: ComparisonTargetType
-second_title: Aspose.Words for Java API Reference
-description: Allows to specify base document which will be used during comparison.
+title: ComparisonTarget类型
+second_title: Aspose.Words for Java API 参考
+description: 允许指定将在比较期间使用的基本文档。
 type: docs
 weight: 84
-url: /java/com.aspose.words/comparisontargettype/
+url: /zh/java/com.aspose.words/comparisontargettype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class ComparisonTargetType
+public class ComparisonTarget类型
 ```
 
-Allows to specify base document which will be used during comparison. Default value is [CURRENT](../../com.aspose.words/comparisontargettype\#CURRENT). Relates to Microsoft Word "Show changes in" option in "Compare Documents" dialog box.
-## Fields
+允许指定将在比较期间使用的基本文档。默认值为[CURRENT](../../com.aspose.words/comparisontargettype\#CURRENT).与“比较文档”对话框中的 Microsoft Word“显示更改”选项相关。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CURRENT](#CURRENT) | This document is used as a base during comparison. |
-| [NEW](#NEW) | Other document is used as a base during comparison. |
+| [CURRENT](#CURRENT) | 本文件用作比较时的基础。 |
+| [NEW](#NEW) | 比较时以其他文件为基准。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String comparisonTargetTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int comparisonTargetType)](#getName-int-) |  |
+| [fromName(String comparisonTarget类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int comparisonTarget类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int comparisonTargetType)](#toString-int-) |  |
+| [toString(int comparisonTarget类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int CURRENT
 ```
 
 
-This document is used as a base during comparison.
+本文件用作比较时的基础。
 
 ### NEW {#NEW}
 ```
@@ -52,7 +52,7 @@ public static int NEW
 ```
 
 
-Other document is used as a base during comparison.
+比较时以其他文件为基准。
 
 ### length {#length}
 ```
@@ -68,52 +68,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String comparisonTargetTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String comparisonTarget类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String comparisonTargetTypeName)
+public static int fromName(String comparisonTarget类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTargetTypeName | java.lang.String |  |
+| comparisonTarget类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int comparisonTargetType) {#getName-int-}
-```
-public static String getName(int comparisonTargetType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int comparisonTarget类型) {#getName-int-}
+```
+public static String getName(int comparisonTarget类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTargetType | int |  |
+| comparisonTarget类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,22 +159,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int comparisonTargetType) {#toString-int-}
+### toString(int comparisonTarget类型) {#toString-int-}
 ```
-public static String toString(int comparisonTargetType)
+public static String toString(int comparisonTarget类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comparisonTargetType | int |  |
+| comparisonTarget类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

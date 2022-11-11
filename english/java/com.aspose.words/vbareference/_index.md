@@ -1,37 +1,37 @@
 ---
 title: VbaReference
 second_title: Aspose.Words for Java API Reference
-description: Implements a reference to an Automation type library or VBA project.
+description: 实现对自动化类型库或 VBA 项目的引用。
 type: docs
 weight: 597
-url: /java/com.aspose.words/vbareference/
+url: /zh/java/com.aspose.words/vbareference/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public abstract class VbaReference implements Cloneable
 ```
 
-Implements a reference to an Automation type library or VBA project.
+实现对自动化类型库或 VBA 项目的引用。
 
-To learn more, visit the **Working with VBA Macros** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with VBA Macros**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
 | [VbaReference()](#VbaReference--) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLibId()](#getLibId--) | Gets a string value containing the identifier of an Automation type library. |
-| [getType()](#getType--) | Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. |
+| [get班级()](#get班级--) |  |
+| [getLibId()](#getLibId--) | 获取一个包含自动化类型库标识符的字符串值。 |
+| [get类型()](#get类型--) | 获取[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -53,46 +53,46 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLibId() {#getLibId--}
 ```
 public abstract String getLibId()
 ```
 
 
-Gets a string value containing the identifier of an Automation type library. Depending on reference type, the value of this property can be:
+获取一个包含自动化类型库标识符的字符串值。根据引用类型，此属性的值可以是：
 
- *  a LibidReference specified at 2.1.1.8 LibidReference of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
- *  a ProjectReference specified at 2.1.1.12 ProjectReference of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+ *  在 2.1.1.8 LibidReference 中指定的 LibidReference[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+ *  在 2.1.1.12 ProjectReference 中指定的 ProjectReference[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
-**Returns:**
-java.lang.String - A string value containing the identifier of an Automation type library.
-### getType() {#getType--}
+**退货:**
+java.lang.String - 一个包含自动化类型库标识符的字符串值。
+### get类型() {#get类型--}
 ```
-public abstract int getType()
+public abstract int get类型()
 ```
 
 
-Gets [VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents.
+获取[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。
 
-**Returns:**
-int - \{[VbaReferenceType](../../com.aspose.words/vbareferencetype) object that indicates the type of reference that a VbaReference object represents. The returned value is one of [VbaReferenceType](../../com.aspose.words/vbareferencetype) constants.
+**退货:**
+诠释 -\{[VbaReference类型](../../com.aspose.words/vbareferencetype)指示 VbaReference 对象表示的引用类型的对象。返回值是以下之一[VbaReference类型](../../com.aspose.words/vbareferencetype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,8 +101,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -127,7 +127,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -145,8 +145,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -158,9 +158,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

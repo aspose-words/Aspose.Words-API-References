@@ -1,40 +1,40 @@
 ---
 title: MetafileRenderingOptions
-second_title: Aspose.Words for Java API Reference
-description: Allows to specify additional metafile rendering options.
+second_title: Aspose.Words for Java API 参考
+description: 允许指定额外的元文件渲染选项。
 type: docs
 weight: 397
-url: /java/com.aspose.words/metafilerenderingoptions/
+url: /zh/java/com.aspose.words/metafilerenderingoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class MetafileRenderingOptions
 ```
 
-Allows to specify additional metafile rendering options.
+允许指定额外的元文件渲染选项。
 
-To learn more, visit the **Handling Windows Metafiles** documentation article.
-## Methods
+要了解更多信息，请访问**Handling Windows Metafiles**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode--) | Gets a value determining how EMF+ Dual metafiles should be rendered. |
-| [getEmulateRasterOperations()](#getEmulateRasterOperations--) | Gets a value determining whether or not the raster operations should be emulated. |
-| [getRenderingMode()](#getRenderingMode--) | Gets a value determining how metafile images should be rendered. |
-| [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize--) | Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
-| [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf--) | Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [get班级()](#get班级--) |  |
+| [getEmfPlusDualRenderingMode()](#getEmfPlusDualRenderingMode--) | 获取一个值，该值确定应如何呈现 EMF+ Dual 图元文件。 |
+| [getEmulateRasterOperations()](#getEmulateRasterOperations--) | 获取一个值，该值确定是否应模拟光栅操作。 |
+| [getRenderingMode()](#getRenderingMode--) | 获取一个值，该值确定应如何呈现图元文件图像。 |
+| [getScaleWmfFontsToMetafileSize()](#getScaleWmfFontsToMetafileSize--) | 获取一个值，该值确定是否根据页面上的图元文件大小来缩放 WMF 图元文件中的字体。 |
+| [getUseEmfEmbeddedToWmf()](#getUseEmfEmbeddedToWmf--) | 获取一个值，该值确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int-) | Sets a value determining how EMF+ Dual metafiles should be rendered. |
-| [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean-) | Sets a value determining whether or not the raster operations should be emulated. |
-| [setRenderingMode(int value)](#setRenderingMode-int-) | Sets a value determining how metafile images should be rendered. |
-| [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean-) | Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
-| [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean-) | Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| [setEmfPlusDualRenderingMode(int value)](#setEmfPlusDualRenderingMode-int-) | 设置一个值，确定应如何呈现 EMF+ Dual 图元文件。 |
+| [setEmulateRasterOperations(boolean value)](#setEmulateRasterOperations-boolean-) | 设置一个值，确定是否应模拟光栅操作。 |
+| [setRenderingMode(int value)](#setRenderingMode-int-) | 设置一个值，确定应如何呈现元文件图像。 |
+| [setScaleWmfFontsToMetafileSize(boolean value)](#setScaleWmfFontsToMetafileSize-boolean-) | 设置一个值，确定是否根据页面上的图元文件大小缩放 WMF 图元文件中的字体。 |
+| [setUseEmfEmbeddedToWmf(boolean value)](#setUseEmfEmbeddedToWmf-boolean-) | 设置一个值，确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,111 +47,111 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEmfPlusDualRenderingMode() {#getEmfPlusDualRenderingMode--}
 ```
 public int getEmfPlusDualRenderingMode()
 ```
 
 
-Gets a value determining how EMF+ Dual metafiles should be rendered.
+获取一个值，该值确定应如何呈现 EMF+ Dual 图元文件。
 
-EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always renders EMF+ part. Aspose.Words currently doesn't fully supports all EMF+ records and in some cases rendering result of EMF part looks better then rendering result of EMF+ part.
+EMF+ 双元文件包含 EMF+ 和 EMF 部分。 MS Word 和 GDI+ 总是呈现 EMF+ 部分。 Aspose.Words 目前并不完全支持所有 EMF+ 记录，在某些情况下，EMF 部分的渲染结果看起来比 EMF+ 部分的渲染结果更好。
 
-This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
+此选项仅在元文件呈现为矢量图形时使用。当元文件被渲染为位图时，总是使用 EMF+ 部分。
 
-The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
+默认值为[EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
 
-**Returns:**
-int - A value determining how EMF+ Dual metafiles should be rendered. The returned value is one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants.
+**退货:**
+ int - 决定如何呈现 EMF+ Dual 图元文件的值。返回值是以下之一[EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode)常数。
 ### getEmulateRasterOperations() {#getEmulateRasterOperations--}
 ```
 public boolean getEmulateRasterOperations()
 ```
 
 
-Gets a value determining whether or not the raster operations should be emulated.
+获取一个值，该值确定是否应模拟光栅操作。
 
-Specific raster operations could be used in metafiles. They can not be rendered directly to vector graphics. Emulating raster operations requires partial rasterization of the resulting vector graphics which may affect the metafile rendering performance.
+可以在元文件中使用特定的光栅操作。它们不能直接渲染为矢量图形。模拟光栅操作需要对结果矢量图形进行部分光栅化，这可能会影响图元文件的渲染性能。
 
-When this value is set to  true , Aspose.Words emulates the raster operations. The resulting output maybe partially rasterized and performance might be slower.
+当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化并且性能可能会变慢。
 
-When this value is set to  false , Aspose.Words does not emulate the raster operations. When Aspose.Words encounters a raster operation in a metafile it fallbacks to rendering the metafile into a bitmap by using the operating system.
+当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用操作系统将元文件渲染为位图。
 
-This option is used only when metafile is rendered as vector graphics.
+此选项仅在元文件呈现为矢量图形时使用。
 
-The default value is  true .
+默认值是true 。
 
-**Returns:**
-boolean - A value determining whether or not the raster operations should be emulated.
+**退货:**
+boolean - 确定是否应模拟光栅操作的值。
 ### getRenderingMode() {#getRenderingMode--}
 ```
 public int getRenderingMode()
 ```
 
 
-Gets a value determining how metafile images should be rendered.
+获取一个值，该值确定应如何呈现图元文件图像。
 
-The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
+默认值取决于保存格式。对于图像它是[MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP).对于其他格式，它是[MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
 
-**Returns:**
-int - A value determining how metafile images should be rendered. The returned value is one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants.
+**退货:**
+int - 确定应如何呈现元文件图像的值。返回值是以下之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。
 ### getScaleWmfFontsToMetafileSize() {#getScaleWmfFontsToMetafileSize--}
 ```
 public boolean getScaleWmfFontsToMetafileSize()
 ```
 
 
-Gets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
+获取一个值，该值确定是否根据页面上的图元文件大小来缩放 WMF 图元文件中的字体。
 
-When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
+当 WMF 图元文件在 MS Word 中显示时，字体可能会根据页面上的实际图元文件大小进行缩放。
 
-When this value is set to  true , Aspose.Words emulates font scaling according to metafile size on the page.
+当此值设置为 true 时，Aspose.Words 根据页面上的图元文件大小模拟字体缩放。
 
-When this value is set to  false , Aspose.Words displays the fonts as metafile is rendered to its default size.
+当此值设置为 false 时，Aspose.Words 会在元文件呈现为其默认大小时显示字体。
 
-This option is used only when metafile is rendered as vector graphics.
+此选项仅在元文件呈现为矢量图形时使用。
 
-The default value is  true .
+默认值是true 。
 
-**Returns:**
-boolean - A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
+**退货:**
+boolean - 一个值，用于确定是否根据页面上的图元文件大小来缩放 WMF 图元文件中的字体。
 ### getUseEmfEmbeddedToWmf() {#getUseEmfEmbeddedToWmf--}
 ```
 public boolean getUseEmfEmbeddedToWmf()
 ```
 
 
-Gets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
+获取一个值，该值确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。
 
-WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data. GDI+ always uses WMF data.
+WMF 元文件可以包含嵌入的 EMF 数据。 MS Word 在大多数情况下使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
 
-When this value is set to  true , Aspose.Words uses embedded EMF data when rendering.
+当此值设置为 true 时，Aspose.Words 在渲染时使用嵌入的 EMF 数据。
 
-When this value is set to  false , Aspose.Words uses WMF data when rendering.
+当此值设置为 false 时，Aspose.Words 在渲染时使用 WMF 数据。
 
-This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
+此选项仅在元文件呈现为矢量图形时使用。当元文件被渲染为位图时，总是使用 WMF 数据。
 
-The default value is  true .
+默认值是true 。
 
-**Returns:**
-boolean - A value determining how WMF metafiles with embedded EMF metafiles should be rendered.
+**退货:**
+boolean - 一个值，确定应如何呈现带有嵌入式 EMF 图元文件的 WMF 图元文件。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -184,18 +184,18 @@ public void setEmfPlusDualRenderingMode(int value)
 ```
 
 
-Sets a value determining how EMF+ Dual metafiles should be rendered.
+设置一个值，确定应如何呈现 EMF+ Dual 图元文件。
 
-EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always renders EMF+ part. Aspose.Words currently doesn't fully supports all EMF+ records and in some cases rendering result of EMF part looks better then rendering result of EMF+ part.
+EMF+ 双元文件包含 EMF+ 和 EMF 部分。 MS Word 和 GDI+ 总是呈现 EMF+ 部分。 Aspose.Words 目前并不完全支持所有 EMF+ 记录，在某些情况下，EMF 部分的渲染结果看起来比 EMF+ 部分的渲染结果更好。
 
-This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
+此选项仅在元文件呈现为矢量图形时使用。当元文件被渲染为位图时，总是使用 EMF+ 部分。
 
-The default value is [EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
+默认值为[EmfPlusDualRenderingMode.EMF\_PLUS\_WITH\_FALLBACK](../../com.aspose.words/emfplusdualrenderingmode\#EMF-PLUS-WITH-FALLBACK).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how EMF+ Dual metafiles should be rendered. The value must be one of [EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode) constants. |
+| value | int | 决定如何呈现 EMF+ Dual 图元文件的值。该值必须是以下之一[EmfPlusDualRenderingMode](../../com.aspose.words/emfplusdualrenderingmode)常数。 |
 
 ### setEmulateRasterOperations(boolean value) {#setEmulateRasterOperations-boolean-}
 ```
@@ -203,22 +203,22 @@ public void setEmulateRasterOperations(boolean value)
 ```
 
 
-Sets a value determining whether or not the raster operations should be emulated.
+设置一个值，确定是否应模拟光栅操作。
 
-Specific raster operations could be used in metafiles. They can not be rendered directly to vector graphics. Emulating raster operations requires partial rasterization of the resulting vector graphics which may affect the metafile rendering performance.
+可以在元文件中使用特定的光栅操作。它们不能直接渲染为矢量图形。模拟光栅操作需要对结果矢量图形进行部分光栅化，这可能会影响图元文件的渲染性能。
 
-When this value is set to  true , Aspose.Words emulates the raster operations. The resulting output maybe partially rasterized and performance might be slower.
+当此值设置为 true 时，Aspose.Words 模拟光栅操作。生成的输出可能会部分光栅化并且性能可能会变慢。
 
-When this value is set to  false , Aspose.Words does not emulate the raster operations. When Aspose.Words encounters a raster operation in a metafile it fallbacks to rendering the metafile into a bitmap by using the operating system.
+当此值设置为 false 时，Aspose.Words 不会模拟光栅操作。当 Aspose.Words 在元文件中遇到光栅操作时，它会回退到使用操作系统将元文件渲染为位图。
 
-This option is used only when metafile is rendered as vector graphics.
+此选项仅在元文件呈现为矢量图形时使用。
 
-The default value is  true .
+默认值是true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not the raster operations should be emulated. |
+| value | boolean | 确定是否应模拟栅格操作的值。 |
 
 ### setRenderingMode(int value) {#setRenderingMode-int-}
 ```
@@ -226,14 +226,14 @@ public void setRenderingMode(int value)
 ```
 
 
-Sets a value determining how metafile images should be rendered.
+设置一个值，确定应如何呈现元文件图像。
 
-The default value depends on the save format. For images it is [MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP). For other formats it is [MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
+默认值取决于保存格式。对于图像它是[MetafileRenderingMode.BITMAP](../../com.aspose.words/metafilerenderingmode\#BITMAP).对于其他格式，它是[MetafileRenderingMode.VECTOR\_WITH\_FALLBACK](../../com.aspose.words/metafilerenderingmode\#VECTOR-WITH-FALLBACK).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how metafile images should be rendered. The value must be one of [MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode) constants. |
+| value | int | 确定应如何呈现元文件图像的值。该值必须是以下之一[MetafileRenderingMode](../../com.aspose.words/metafilerenderingmode)常数。 |
 
 ### setScaleWmfFontsToMetafileSize(boolean value) {#setScaleWmfFontsToMetafileSize-boolean-}
 ```
@@ -241,22 +241,22 @@ public void setScaleWmfFontsToMetafileSize(boolean value)
 ```
 
 
-Sets a value determining whether or not to scale fonts in WMF metafile according to metafile size on the page.
+设置一个值，确定是否根据页面上的图元文件大小缩放 WMF 图元文件中的字体。
 
-When WMF metafiles are displayed in MS Word, fonts may be scaled according to actual metafile size on the page.
+当 WMF 图元文件在 MS Word 中显示时，字体可能会根据页面上的实际图元文件大小进行缩放。
 
-When this value is set to  true , Aspose.Words emulates font scaling according to metafile size on the page.
+当此值设置为 true 时，Aspose.Words 根据页面上的图元文件大小模拟字体缩放。
 
-When this value is set to  false , Aspose.Words displays the fonts as metafile is rendered to its default size.
+当此值设置为 false 时，Aspose.Words 会在元文件呈现为其默认大小时显示字体。
 
-This option is used only when metafile is rendered as vector graphics.
+此选项仅在元文件呈现为矢量图形时使用。
 
-The default value is  true .
+默认值是true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to scale fonts in WMF metafile according to metafile size on the page. |
+| value | boolean | 确定是否根据页面上的图元文件大小缩放 WMF 图元文件中的字体的值。 |
 
 ### setUseEmfEmbeddedToWmf(boolean value) {#setUseEmfEmbeddedToWmf-boolean-}
 ```
@@ -264,22 +264,22 @@ public void setUseEmfEmbeddedToWmf(boolean value)
 ```
 
 
-Sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered.
+设置一个值，确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件。
 
-WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data. GDI+ always uses WMF data.
+WMF 元文件可以包含嵌入的 EMF 数据。 MS Word 在大多数情况下使用嵌入的 EMF 数据。 GDI+ 始终使用 WMF 数据。
 
-When this value is set to  true , Aspose.Words uses embedded EMF data when rendering.
+当此值设置为 true 时，Aspose.Words 在渲染时使用嵌入的 EMF 数据。
 
-When this value is set to  false , Aspose.Words uses WMF data when rendering.
+当此值设置为 false 时，Aspose.Words 在渲染时使用 WMF 数据。
 
-This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, WMF data is always used.
+此选项仅在元文件呈现为矢量图形时使用。当元文件被渲染为位图时，总是使用 WMF 数据。
 
-The default value is  true .
+默认值是true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining how WMF metafiles with embedded EMF metafiles should be rendered. |
+| value | boolean | 确定应如何呈现具有嵌入式 EMF 图元文件的 WMF 图元文件的值。 |
 
 ### toString() {#toString--}
 ```
@@ -289,7 +289,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -307,8 +307,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -320,9 +320,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

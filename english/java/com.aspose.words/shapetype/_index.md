@@ -1,22 +1,22 @@
 ---
-title: ShapeType
+title: Shape类型
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of shape in a Microsoft Word document.
+description: 指定 Microsoft Word 文档中的形状类型。
 type: docs
 weight: 521
-url: /java/com.aspose.words/shapetype/
+url: /zh/java/com.aspose.words/shapetype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class ShapeType
+public class Shape类型
 ```
 
-Specifies the type of shape in a Microsoft Word document.
-## Fields
+指定 Microsoft Word 文档中的形状类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
 | [ACCENT_BORDER_CALLOUT_1](#ACCENT-BORDER-CALLOUT-1) |  |
 | [ACCENT_BORDER_CALLOUT_2](#ACCENT-BORDER-CALLOUT-2) |  |
@@ -60,16 +60,16 @@ Specifies the type of shape in a Microsoft Word document.
 | [CALLOUT_3](#CALLOUT-3) |  |
 | [CALLOUT_90](#CALLOUT-90) |  |
 | [CAN](#CAN) |  |
-| [CHART_PLUS](#CHART-PLUS) | Chart plus. |
-| [CHART_STAR](#CHART-STAR) | Chart star. |
-| [CHART_X](#CHART-X) | Chart X. |
+| [CHART_PLUS](#CHART-PLUS) | 图表加。 |
+| [CHART_STAR](#CHART-STAR) | 图表星。 |
+| [CHART_X](#CHART-X) | 图十。 |
 | [CHEVRON](#CHEVRON) |  |
-| [CHORD](#CHORD) | Chord. |
+| [CHORD](#CHORD) | 弦。 |
 | [CIRCULAR_ARROW](#CIRCULAR-ARROW) |  |
-| [CLOUD](#CLOUD) | Cloud. |
+| [CLOUD](#CLOUD) | 云。 |
 | [CLOUD_CALLOUT](#CLOUD-CALLOUT) |  |
-| [CORNER](#CORNER) | Corner. |
-| [CORNER_TABS](#CORNER-TABS) | Corner tabs. |
+| [CORNER](#CORNER) | 角落。 |
+| [CORNER_TABS](#CORNER-TABS) | 角落标签。 |
 | [CUBE](#CUBE) |  |
 | [CURVED_CONNECTOR_2](#CURVED-CONNECTOR-2) |  |
 | [CURVED_CONNECTOR_3](#CURVED-CONNECTOR-3) |  |
@@ -79,13 +79,13 @@ Specifies the type of shape in a Microsoft Word document.
 | [CURVED_LEFT_ARROW](#CURVED-LEFT-ARROW) |  |
 | [CURVED_RIGHT_ARROW](#CURVED-RIGHT-ARROW) |  |
 | [CURVED_UP_ARROW](#CURVED-UP-ARROW) |  |
-| [CUSTOM_SHAPE](#CUSTOM-SHAPE) | This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. |
-| [DECAGON](#DECAGON) | Decagon. |
-| [DIAGONAL_CORNERS_ROUNDED](#DIAGONAL-CORNERS-ROUNDED) | Round diagonal corner rectangle. |
-| [DIAGONAL_CORNERS_SNIPPED](#DIAGONAL-CORNERS-SNIPPED) | Snip diagonal corner rectangle. |
-| [DIAGONAL_STRIPE](#DIAGONAL-STRIPE) | Diagonal stripe. |
+| [CUSTOM_SHAPE](#CUSTOM-SHAPE) | 此形状类型似乎是为不属于 Microsoft Word 中自动形状标准集的形状设置的。 |
+| [DECAGON](#DECAGON) | 十边形。 |
+| [DIAGONAL_CORNERS_ROUNDED](#DIAGONAL-CORNERS-ROUNDED) | 圆形对角矩形。 |
+| [DIAGONAL_CORNERS_SNIPPED](#DIAGONAL-CORNERS-SNIPPED) | 剪断对角矩形。 |
+| [DIAGONAL_STRIPE](#DIAGONAL-STRIPE) | 对角条纹。 |
 | [DIAMOND](#DIAMOND) |  |
-| [DODECAGON](#DODECAGON) | Dodecagon. |
+| [DODECAGON](#DODECAGON) | 十二边形。 |
 | [DONUT](#DONUT) |  |
 | [DOUBLE_WAVE](#DOUBLE-WAVE) |  |
 | [DOWN_ARROW](#DOWN-ARROW) |  |
@@ -123,54 +123,54 @@ Specifies the type of shape in a Microsoft Word document.
 | [FLOW_CHART_SUMMING_JUNCTION](#FLOW-CHART-SUMMING-JUNCTION) |  |
 | [FLOW_CHART_TERMINATOR](#FLOW-CHART-TERMINATOR) |  |
 | [FOLDED_CORNER](#FOLDED-CORNER) |  |
-| [FRAME](#FRAME) | Frame. |
-| [FUNNEL](#FUNNEL) | Funnel. |
-| [GEAR_6](#GEAR-6) | Six-tooth gear. |
-| [GEAR_9](#GEAR-9) | Nine-tooth gear. |
-| [GROUP](#GROUP) | The shape is a group shape. |
-| [HALF_FRAME](#HALF-FRAME) | Half frame. |
+| [FRAME](#FRAME) | 框架。 |
+| [FUNNEL](#FUNNEL) | 漏斗。 |
+| [GEAR_6](#GEAR-6) | 六齿齿轮。 |
+| [GEAR_9](#GEAR-9) | 九齿齿轮。 |
+| [GROUP](#GROUP) | 形状是组形状。 |
+| [HALF_FRAME](#HALF-FRAME) | 半帧。 |
 | [HEART](#HEART) |  |
-| [HEPTAGON](#HEPTAGON) | Heptagon. |
+| [HEPTAGON](#HEPTAGON) | 七边形。 |
 | [HEXAGON](#HEXAGON) |  |
 | [HOME_PLATE](#HOME-PLATE) |  |
 | [HORIZONTAL_SCROLL](#HORIZONTAL-SCROLL) |  |
-| [IMAGE](#IMAGE) | The shape is an image. |
-| [INVERSE_LINE](#INVERSE-LINE) | Inverse line. |
+| [IMAGE](#IMAGE) | 形状是图像。 |
+| [INVERSE_LINE](#INVERSE-LINE) | 逆线。 |
 | [IRREGULAR_SEAL_1](#IRREGULAR-SEAL-1) |  |
 | [IRREGULAR_SEAL_2](#IRREGULAR-SEAL-2) |  |
 | [LEFT_ARROW](#LEFT-ARROW) |  |
 | [LEFT_ARROW_CALLOUT](#LEFT-ARROW-CALLOUT) |  |
 | [LEFT_BRACE](#LEFT-BRACE) |  |
 | [LEFT_BRACKET](#LEFT-BRACKET) |  |
-| [LEFT_CIRCULAR_ARROW](#LEFT-CIRCULAR-ARROW) | Left circular arrow. |
+| [LEFT_CIRCULAR_ARROW](#LEFT-CIRCULAR-ARROW) | 左圆形箭头。 |
 | [LEFT_RIGHT_ARROW](#LEFT-RIGHT-ARROW) |  |
 | [LEFT_RIGHT_ARROW_CALLOUT](#LEFT-RIGHT-ARROW-CALLOUT) |  |
-| [LEFT_RIGHT_CIRCULAR_ARROW](#LEFT-RIGHT-CIRCULAR-ARROW) | Left-right circular arrow. |
-| [LEFT_RIGHT_RIBBON](#LEFT-RIGHT-RIBBON) | Left-right ribbon. |
+| [LEFT_RIGHT_CIRCULAR_ARROW](#LEFT-RIGHT-CIRCULAR-ARROW) | 左右圆形箭头。 |
+| [LEFT_RIGHT_RIBBON](#LEFT-RIGHT-RIBBON) | 左右丝带。 |
 | [LEFT_RIGHT_UP_ARROW](#LEFT-RIGHT-UP-ARROW) |  |
 | [LEFT_UP_ARROW](#LEFT-UP-ARROW) |  |
 | [LIGHTNING_BOLT](#LIGHTNING-BOLT) |  |
 | [LINE](#LINE) |  |
-| [MATH_DIVIDE](#MATH-DIVIDE) | Math divide. |
-| [MATH_EQUAL](#MATH-EQUAL) | Math equal. |
-| [MATH_MINUS](#MATH-MINUS) | Math minus. |
-| [MATH_MULTIPLY](#MATH-MULTIPLY) | Math multiply. |
-| [MATH_NOT_EQUAL](#MATH-NOT-EQUAL) | Math not equal. |
-| [MATH_PLUS](#MATH-PLUS) | Math plus. |
-| [MIN_VALUE](#MIN-VALUE) | Reserved for the system use. |
+| [MATH_DIVIDE](#MATH-DIVIDE) | 数学划分。 |
+| [MATH_EQUAL](#MATH-EQUAL) | 数学相等。 |
+| [MATH_MINUS](#MATH-MINUS) | 数学减。 |
+| [MATH_MULTIPLY](#MATH-MULTIPLY) | 数学乘法。 |
+| [MATH_NOT_EQUAL](#MATH-NOT-EQUAL) | 数学不相等。 |
+| [MATH_PLUS](#MATH-PLUS) | 数学加。 |
+| [MIN_VALUE](#MIN-VALUE) | 保留供系统使用。 |
 | [MOON](#MOON) |  |
-| [NON_ISOSCELES_TRAPEZOID](#NON-ISOSCELES-TRAPEZOID) | Non-isosceles trapezoid. |
-| [NON_PRIMITIVE](#NON-PRIMITIVE) | A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble). |
+| [NON_ISOSCELES_TRAPEZOID](#NON-ISOSCELES-TRAPEZOID) | 非等腰梯形。 |
+| [NON_PRIMITIVE](#NON-PRIMITIVE) | 由用户绘制并由多个段和/或顶点（曲线、自由形式或涂鸦）组成的形状。 |
 | [NOTCHED_RIGHT_ARROW](#NOTCHED-RIGHT-ARROW) |  |
 | [NO_SMOKING](#NO-SMOKING) |  |
 | [OCTAGON](#OCTAGON) |  |
-| [OLE_CONTROL](#OLE-CONTROL) | The shape is an ActiveX control. |
-| [OLE_OBJECT](#OLE-OBJECT) | The shape is an OLE object. |
+| [OLE_CONTROL](#OLE-CONTROL) | 该形状是一个 ActiveX 控件。 |
+| [OLE_OBJECT](#OLE-OBJECT) | 该形状是一个 OLE 对象。 |
 | [PARALLELOGRAM](#PARALLELOGRAM) |  |
 | [PENTAGON](#PENTAGON) |  |
-| [PIE](#PIE) | Pie. |
+| [PIE](#PIE) | 馅饼。 |
 | [PLAQUE](#PLAQUE) |  |
-| [PLAQUE_TABS](#PLAQUE-TABS) | Plaque tabs. |
+| [PLAQUE_TABS](#PLAQUE-TABS) | 牌匾标签。 |
 | [PLUS](#PLUS) |  |
 | [QUAD_ARROW](#QUAD-ARROW) |  |
 | [QUAD_ARROW_CALLOUT](#QUAD-ARROW-CALLOUT) |  |
@@ -183,78 +183,78 @@ Specifies the type of shape in a Microsoft Word document.
 | [RIGHT_TRIANGLE](#RIGHT-TRIANGLE) |  |
 | [ROUND_RECTANGLE](#ROUND-RECTANGLE) |  |
 | [SEAL](#SEAL) |  |
-| [SEAL_10](#SEAL-10) | Ten-pointed star. |
-| [SEAL_12](#SEAL-12) | Twelve-pointed star. |
+| [SEAL_10](#SEAL-10) | 十角星。 |
+| [SEAL_12](#SEAL-12) | 十二角星。 |
 | [SEAL_16](#SEAL-16) |  |
 | [SEAL_24](#SEAL-24) |  |
 | [SEAL_32](#SEAL-32) |  |
 | [SEAL_4](#SEAL-4) |  |
-| [SEAL_6](#SEAL-6) | Six-pointed star. |
-| [SEAL_7](#SEAL-7) | Seven-pointed star. |
+| [SEAL_6](#SEAL-6) | 六角星。 |
+| [SEAL_7](#SEAL-7) | 七角星。 |
 | [SEAL_8](#SEAL-8) |  |
-| [SINGLE_CORNER_ROUNDED](#SINGLE-CORNER-ROUNDED) | Round single corner rectangle. |
-| [SINGLE_CORNER_SNIPPED](#SINGLE-CORNER-SNIPPED) | Snip single corner rectangle object. |
+| [SINGLE_CORNER_ROUNDED](#SINGLE-CORNER-ROUNDED) | 圆形单角矩形。 |
+| [SINGLE_CORNER_SNIPPED](#SINGLE-CORNER-SNIPPED) | 剪断单个角矩形对象。 |
 | [SMILEY_FACE](#SMILEY-FACE) |  |
-| [SQUARE_TABS](#SQUARE-TABS) | Square tabs. |
+| [SQUARE_TABS](#SQUARE-TABS) | 方形标签。 |
 | [STAR](#STAR) |  |
 | [STRAIGHT_CONNECTOR_1](#STRAIGHT-CONNECTOR-1) |  |
 | [STRIPED_RIGHT_ARROW](#STRIPED-RIGHT-ARROW) |  |
 | [SUN](#SUN) |  |
-| [SWOOSH_ARROW](#SWOOSH-ARROW) | Swoosh arrow. |
-| [TEARDROP](#TEARDROP) | Teardrop. |
-| [TEXT_ARCH_DOWN_CURVE](#TEXT-ARCH-DOWN-CURVE) | WordArt object. |
-| [TEXT_ARCH_DOWN_POUR](#TEXT-ARCH-DOWN-POUR) | WordArt object. |
-| [TEXT_ARCH_UP_CURVE](#TEXT-ARCH-UP-CURVE) | WordArt object. |
-| [TEXT_ARCH_UP_POUR](#TEXT-ARCH-UP-POUR) | WordArt object. |
-| [TEXT_BOX](#TEXT-BOX) | The shape is a textbox. |
-| [TEXT_BUTTON_CURVE](#TEXT-BUTTON-CURVE) | WordArt object. |
-| [TEXT_BUTTON_POUR](#TEXT-BUTTON-POUR) | WordArt object. |
-| [TEXT_CAN_DOWN](#TEXT-CAN-DOWN) | WordArt object. |
-| [TEXT_CAN_UP](#TEXT-CAN-UP) | WordArt object. |
-| [TEXT_CASCADE_DOWN](#TEXT-CASCADE-DOWN) | WordArt object. |
-| [TEXT_CASCADE_UP](#TEXT-CASCADE-UP) | WordArt object. |
-| [TEXT_CHEVRON](#TEXT-CHEVRON) | WordArt object. |
-| [TEXT_CHEVRON_INVERTED](#TEXT-CHEVRON-INVERTED) | WordArt object. |
-| [TEXT_CIRCLE_CURVE](#TEXT-CIRCLE-CURVE) | WordArt object. |
-| [TEXT_CIRCLE_POUR](#TEXT-CIRCLE-POUR) | WordArt object. |
+| [SWOOSH_ARROW](#SWOOSH-ARROW) | 旋风箭头。 |
+| [TEARDROP](#TEARDROP) | 泪珠。 |
+| [TEXT_ARCH_DOWN_CURVE](#TEXT-ARCH-DOWN-CURVE) | 艺术字对象。 |
+| [TEXT_ARCH_DOWN_POUR](#TEXT-ARCH-DOWN-POUR) | 艺术字对象。 |
+| [TEXT_ARCH_UP_CURVE](#TEXT-ARCH-UP-CURVE) | 艺术字对象。 |
+| [TEXT_ARCH_UP_POUR](#TEXT-ARCH-UP-POUR) | 艺术字对象。 |
+| [TEXT_BOX](#TEXT-BOX) | 形状是一个文本框。 |
+| [TEXT_BUTTON_CURVE](#TEXT-BUTTON-CURVE) | 艺术字对象。 |
+| [TEXT_BUTTON_POUR](#TEXT-BUTTON-POUR) | 艺术字对象。 |
+| [TEXT_CAN_DOWN](#TEXT-CAN-DOWN) | 艺术字对象。 |
+| [TEXT_CAN_UP](#TEXT-CAN-UP) | 艺术字对象。 |
+| [TEXT_CASCADE_DOWN](#TEXT-CASCADE-DOWN) | 艺术字对象。 |
+| [TEXT_CASCADE_UP](#TEXT-CASCADE-UP) | 艺术字对象。 |
+| [TEXT_CHEVRON](#TEXT-CHEVRON) | 艺术字对象。 |
+| [TEXT_CHEVRON_INVERTED](#TEXT-CHEVRON-INVERTED) | 艺术字对象。 |
+| [TEXT_CIRCLE_CURVE](#TEXT-CIRCLE-CURVE) | 艺术字对象。 |
+| [TEXT_CIRCLE_POUR](#TEXT-CIRCLE-POUR) | 艺术字对象。 |
 | [TEXT_CURVE](#TEXT-CURVE) |  |
-| [TEXT_CURVE_DOWN](#TEXT-CURVE-DOWN) | WordArt object. |
-| [TEXT_CURVE_UP](#TEXT-CURVE-UP) | WordArt object. |
-| [TEXT_DEFLATE](#TEXT-DEFLATE) | WordArt object. |
-| [TEXT_DEFLATE_BOTTOM](#TEXT-DEFLATE-BOTTOM) | WordArt object. |
-| [TEXT_DEFLATE_INFLATE](#TEXT-DEFLATE-INFLATE) | WordArt object. |
-| [TEXT_DEFLATE_INFLATE_DEFLATE](#TEXT-DEFLATE-INFLATE-DEFLATE) | WordArt object. |
-| [TEXT_DEFLATE_TOP](#TEXT-DEFLATE-TOP) | WordArt object. |
-| [TEXT_FADE_DOWN](#TEXT-FADE-DOWN) | WordArt object. |
-| [TEXT_FADE_LEFT](#TEXT-FADE-LEFT) | WordArt object. |
-| [TEXT_FADE_RIGHT](#TEXT-FADE-RIGHT) | WordArt object. |
-| [TEXT_FADE_UP](#TEXT-FADE-UP) | WordArt object. |
+| [TEXT_CURVE_DOWN](#TEXT-CURVE-DOWN) | 艺术字对象。 |
+| [TEXT_CURVE_UP](#TEXT-CURVE-UP) | 艺术字对象。 |
+| [TEXT_DEFLATE](#TEXT-DEFLATE) | 艺术字对象。 |
+| [TEXT_DEFLATE_BOTTOM](#TEXT-DEFLATE-BOTTOM) | 艺术字对象。 |
+| [TEXT_DEFLATE_INFLATE](#TEXT-DEFLATE-INFLATE) | 艺术字对象。 |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](#TEXT-DEFLATE-INFLATE-DEFLATE) | 艺术字对象。 |
+| [TEXT_DEFLATE_TOP](#TEXT-DEFLATE-TOP) | 艺术字对象。 |
+| [TEXT_FADE_DOWN](#TEXT-FADE-DOWN) | 艺术字对象。 |
+| [TEXT_FADE_LEFT](#TEXT-FADE-LEFT) | 艺术字对象。 |
+| [TEXT_FADE_RIGHT](#TEXT-FADE-RIGHT) | 艺术字对象。 |
+| [TEXT_FADE_UP](#TEXT-FADE-UP) | 艺术字对象。 |
 | [TEXT_HEXAGON](#TEXT-HEXAGON) |  |
-| [TEXT_INFLATE](#TEXT-INFLATE) | WordArt object. |
-| [TEXT_INFLATE_BOTTOM](#TEXT-INFLATE-BOTTOM) | WordArt object. |
-| [TEXT_INFLATE_TOP](#TEXT-INFLATE-TOP) | WordArt object. |
+| [TEXT_INFLATE](#TEXT-INFLATE) | 艺术字对象。 |
+| [TEXT_INFLATE_BOTTOM](#TEXT-INFLATE-BOTTOM) | 艺术字对象。 |
+| [TEXT_INFLATE_TOP](#TEXT-INFLATE-TOP) | 艺术字对象。 |
 | [TEXT_OCTAGON](#TEXT-OCTAGON) |  |
 | [TEXT_ON_CURVE](#TEXT-ON-CURVE) |  |
 | [TEXT_ON_RING](#TEXT-ON-RING) |  |
-| [TEXT_PLAIN_TEXT](#TEXT-PLAIN-TEXT) | WordArt object. |
+| [TEXT_PLAIN_TEXT](#TEXT-PLAIN-TEXT) | 艺术字对象。 |
 | [TEXT_RING](#TEXT-RING) |  |
-| [TEXT_RING_INSIDE](#TEXT-RING-INSIDE) | WordArt object. |
-| [TEXT_RING_OUTSIDE](#TEXT-RING-OUTSIDE) | WordArt object. |
+| [TEXT_RING_INSIDE](#TEXT-RING-INSIDE) | 艺术字对象。 |
+| [TEXT_RING_OUTSIDE](#TEXT-RING-OUTSIDE) | 艺术字对象。 |
 | [TEXT_SIMPLE](#TEXT-SIMPLE) |  |
-| [TEXT_SLANT_DOWN](#TEXT-SLANT-DOWN) | WordArt object. |
-| [TEXT_SLANT_UP](#TEXT-SLANT-UP) | WordArt object. |
-| [TEXT_STOP](#TEXT-STOP) | WordArt object. |
-| [TEXT_TRIANGLE](#TEXT-TRIANGLE) | WordArt object. |
-| [TEXT_TRIANGLE_INVERTED](#TEXT-TRIANGLE-INVERTED) | WordArt object. |
+| [TEXT_SLANT_DOWN](#TEXT-SLANT-DOWN) | 艺术字对象。 |
+| [TEXT_SLANT_UP](#TEXT-SLANT-UP) | 艺术字对象。 |
+| [TEXT_STOP](#TEXT-STOP) | 艺术字对象。 |
+| [TEXT_TRIANGLE](#TEXT-TRIANGLE) | 艺术字对象。 |
+| [TEXT_TRIANGLE_INVERTED](#TEXT-TRIANGLE-INVERTED) | 艺术字对象。 |
 | [TEXT_WAVE](#TEXT-WAVE) |  |
-| [TEXT_WAVE_1](#TEXT-WAVE-1) | WordArt object. |
-| [TEXT_WAVE_2](#TEXT-WAVE-2) | WordArt object. |
-| [TEXT_WAVE_3](#TEXT-WAVE-3) | WordArt object. |
-| [TEXT_WAVE_4](#TEXT-WAVE-4) | WordArt object. |
+| [TEXT_WAVE_1](#TEXT-WAVE-1) | 艺术字对象。 |
+| [TEXT_WAVE_2](#TEXT-WAVE-2) | 艺术字对象。 |
+| [TEXT_WAVE_3](#TEXT-WAVE-3) | 艺术字对象。 |
+| [TEXT_WAVE_4](#TEXT-WAVE-4) | 艺术字对象。 |
 | [THICK_ARROW](#THICK-ARROW) |  |
-| [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED) | Snip and round single corner rectangle. |
-| [TOP_CORNERS_ROUNDED](#TOP-CORNERS-ROUNDED) | Round same side corner rectangle. |
-| [TOP_CORNERS_SNIPPED](#TOP-CORNERS-SNIPPED) | Snip same side corner rectangle. |
+| [TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED](#TOP-CORNERS-ONE-ROUNDED-ONE-SNIPPED) | 剪断并圆化单角矩形。 |
+| [TOP_CORNERS_ROUNDED](#TOP-CORNERS-ROUNDED) | 圆形相同的边角矩形。 |
+| [TOP_CORNERS_SNIPPED](#TOP-CORNERS-SNIPPED) | 剪下相同的边角矩形。 |
 | [TRAPEZOID](#TRAPEZOID) |  |
 | [TRIANGLE](#TRIANGLE) |  |
 | [UP_ARROW](#UP-ARROW) |  |
@@ -265,24 +265,24 @@ Specifies the type of shape in a Microsoft Word document.
 | [VERTICAL_SCROLL](#VERTICAL-SCROLL) |  |
 | [WAVE](#WAVE) |  |
 | [WEDGE_ELLIPSE_CALLOUT](#WEDGE-ELLIPSE-CALLOUT) |  |
-| [WEDGE_PIE](#WEDGE-PIE) | Wedge pie. |
+| [WEDGE_PIE](#WEDGE-PIE) | 楔形馅饼。 |
 | [WEDGE_RECT_CALLOUT](#WEDGE-RECT-CALLOUT) |  |
 | [WEDGE_R_RECT_CALLOUT](#WEDGE-R-RECT-CALLOUT) |  |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String shapeTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int shapeType)](#getName-int-) |  |
+| [fromName(String shape类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int shape类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int shapeType)](#toString-int-) |  |
+| [toString(int shape类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -628,7 +628,7 @@ public static int CHART_PLUS
 ```
 
 
-Chart plus. Applicable only for DML shapes.
+图表加。仅适用于 DML 形状。
 
 ### CHART_STAR {#CHART-STAR}
 ```
@@ -636,7 +636,7 @@ public static int CHART_STAR
 ```
 
 
-Chart star. Applicable only for DML shapes.
+图表星。仅适用于 DML 形状。
 
 ### CHART_X {#CHART-X}
 ```
@@ -644,7 +644,7 @@ public static int CHART_X
 ```
 
 
-Chart X. Applicable only for DML shapes.
+图表 X。仅适用于 DML 形状。
 
 ### CHEVRON {#CHEVRON}
 ```
@@ -660,7 +660,7 @@ public static int CHORD
 ```
 
 
-Chord. Applicable only for DML shapes.
+弦。仅适用于 DML 形状。
 
 ### CIRCULAR_ARROW {#CIRCULAR-ARROW}
 ```
@@ -676,7 +676,7 @@ public static int CLOUD
 ```
 
 
-Cloud. Applicable only for DML shapes.
+云。仅适用于 DML 形状。
 
 ### CLOUD_CALLOUT {#CLOUD-CALLOUT}
 ```
@@ -692,7 +692,7 @@ public static int CORNER
 ```
 
 
-Corner. Applicable only for DML shapes.
+角落。仅适用于 DML 形状。
 
 ### CORNER_TABS {#CORNER-TABS}
 ```
@@ -700,7 +700,7 @@ public static int CORNER_TABS
 ```
 
 
-Corner tabs. Applicable only for DML shapes.
+角落标签。仅适用于 DML 形状。
 
 ### CUBE {#CUBE}
 ```
@@ -780,9 +780,9 @@ public static int CUSTOM_SHAPE
 ```
 
 
-This shape type seems to be set for shapes that are not part of the standard set of the auto shapes in Microsoft Word. For example, if you insert a new auto shape from ClipArt.
+此形状类型似乎是为不属于 Microsoft Word 中自动形状标准集的形状设置的。例如，如果您从剪贴画插入一个新的自动形状。
 
-You cannot create shapes of this type in the document.
+您不能在文档中创建这种类型的形状。
 
 ### DECAGON {#DECAGON}
 ```
@@ -790,7 +790,7 @@ public static int DECAGON
 ```
 
 
-Decagon. Applicable only for DML shapes.
+十边形。仅适用于 DML 形状。
 
 ### DIAGONAL_CORNERS_ROUNDED {#DIAGONAL-CORNERS-ROUNDED}
 ```
@@ -798,7 +798,7 @@ public static int DIAGONAL_CORNERS_ROUNDED
 ```
 
 
-Round diagonal corner rectangle. Applicable only for DML shapes.
+圆形对角矩形。仅适用于 DML 形状。
 
 ### DIAGONAL_CORNERS_SNIPPED {#DIAGONAL-CORNERS-SNIPPED}
 ```
@@ -806,7 +806,7 @@ public static int DIAGONAL_CORNERS_SNIPPED
 ```
 
 
-Snip diagonal corner rectangle. Applicable only for DML shapes.
+剪断对角矩形。仅适用于 DML 形状。
 
 ### DIAGONAL_STRIPE {#DIAGONAL-STRIPE}
 ```
@@ -814,7 +814,7 @@ public static int DIAGONAL_STRIPE
 ```
 
 
-Diagonal stripe. Applicable only for DML shapes.
+对角条纹。仅适用于 DML 形状。
 
 ### DIAMOND {#DIAMOND}
 ```
@@ -830,7 +830,7 @@ public static int DODECAGON
 ```
 
 
-Dodecagon. Applicable only for DML shapes.
+十二边形。仅适用于 DML 形状。
 
 ### DONUT {#DONUT}
 ```
@@ -1134,7 +1134,7 @@ public static int FRAME
 ```
 
 
-Frame. Applicable only for DML shapes.
+框架。仅适用于 DML 形状。
 
 ### FUNNEL {#FUNNEL}
 ```
@@ -1142,7 +1142,7 @@ public static int FUNNEL
 ```
 
 
-Funnel. Applicable only for DML shapes.
+漏斗。仅适用于 DML 形状。
 
 ### GEAR_6 {#GEAR-6}
 ```
@@ -1150,7 +1150,7 @@ public static int GEAR_6
 ```
 
 
-Six-tooth gear. Applicable only for DML shapes.
+六齿齿轮。仅适用于 DML 形状。
 
 ### GEAR_9 {#GEAR-9}
 ```
@@ -1158,7 +1158,7 @@ public static int GEAR_9
 ```
 
 
-Nine-tooth gear. Applicable only for DML shapes.
+九齿齿轮。仅适用于 DML 形状。
 
 ### GROUP {#GROUP}
 ```
@@ -1166,7 +1166,7 @@ public static int GROUP
 ```
 
 
-The shape is a group shape.
+形状是组形状。
 
 ### HALF_FRAME {#HALF-FRAME}
 ```
@@ -1174,7 +1174,7 @@ public static int HALF_FRAME
 ```
 
 
-Half frame. Applicable only for DML shapes.
+半帧。仅适用于 DML 形状。
 
 ### HEART {#HEART}
 ```
@@ -1190,7 +1190,7 @@ public static int HEPTAGON
 ```
 
 
-Heptagon. Applicable only for DML shapes.
+七边形。仅适用于 DML 形状。
 
 ### HEXAGON {#HEXAGON}
 ```
@@ -1222,7 +1222,7 @@ public static int IMAGE
 ```
 
 
-The shape is an image.
+形状是图像。
 
 ### INVERSE_LINE {#INVERSE-LINE}
 ```
@@ -1230,7 +1230,7 @@ public static int INVERSE_LINE
 ```
 
 
-Inverse line. Applicable only for DML shapes.
+逆线。仅适用于 DML 形状。
 
 ### IRREGULAR_SEAL_1 {#IRREGULAR-SEAL-1}
 ```
@@ -1286,7 +1286,7 @@ public static int LEFT_CIRCULAR_ARROW
 ```
 
 
-Left circular arrow. Applicable only for DML shapes.
+左圆形箭头。仅适用于 DML 形状。
 
 ### LEFT_RIGHT_ARROW {#LEFT-RIGHT-ARROW}
 ```
@@ -1310,7 +1310,7 @@ public static int LEFT_RIGHT_CIRCULAR_ARROW
 ```
 
 
-Left-right circular arrow. Applicable only for DML shapes.
+左右圆形箭头。仅适用于 DML 形状。
 
 ### LEFT_RIGHT_RIBBON {#LEFT-RIGHT-RIBBON}
 ```
@@ -1318,7 +1318,7 @@ public static int LEFT_RIGHT_RIBBON
 ```
 
 
-Left-right ribbon. Applicable only for DML shapes.
+左右丝带。仅适用于 DML 形状。
 
 ### LEFT_RIGHT_UP_ARROW {#LEFT-RIGHT-UP-ARROW}
 ```
@@ -1358,7 +1358,7 @@ public static int MATH_DIVIDE
 ```
 
 
-Math divide. Applicable only for DML shapes.
+数学划分。仅适用于 DML 形状。
 
 ### MATH_EQUAL {#MATH-EQUAL}
 ```
@@ -1366,7 +1366,7 @@ public static int MATH_EQUAL
 ```
 
 
-Math equal. Applicable only for DML shapes.
+数学相等。仅适用于 DML 形状。
 
 ### MATH_MINUS {#MATH-MINUS}
 ```
@@ -1374,7 +1374,7 @@ public static int MATH_MINUS
 ```
 
 
-Math minus. Applicable only for DML shapes.
+数学减。仅适用于 DML 形状。
 
 ### MATH_MULTIPLY {#MATH-MULTIPLY}
 ```
@@ -1382,7 +1382,7 @@ public static int MATH_MULTIPLY
 ```
 
 
-Math multiply. Applicable only for DML shapes.
+数学乘法。仅适用于 DML 形状。
 
 ### MATH_NOT_EQUAL {#MATH-NOT-EQUAL}
 ```
@@ -1390,7 +1390,7 @@ public static int MATH_NOT_EQUAL
 ```
 
 
-Math not equal. Applicable only for DML shapes.
+数学不相等。仅适用于 DML 形状。
 
 ### MATH_PLUS {#MATH-PLUS}
 ```
@@ -1398,7 +1398,7 @@ public static int MATH_PLUS
 ```
 
 
-Math plus. Applicable only for DML shapes.
+数学加。仅适用于 DML 形状。
 
 ### MIN_VALUE {#MIN-VALUE}
 ```
@@ -1406,7 +1406,7 @@ public static int MIN_VALUE
 ```
 
 
-Reserved for the system use.
+保留供系统使用。
 
 ### MOON {#MOON}
 ```
@@ -1422,7 +1422,7 @@ public static int NON_ISOSCELES_TRAPEZOID
 ```
 
 
-Non-isosceles trapezoid. Applicable only for DML shapes.
+非等腰梯形。仅适用于 DML 形状。
 
 ### NON_PRIMITIVE {#NON-PRIMITIVE}
 ```
@@ -1430,9 +1430,9 @@ public static int NON_PRIMITIVE
 ```
 
 
-A shape drawn by user and consisting of multiple segments and/or vertices (curve, freeform or scribble).
+由用户绘制并由多个段和/或顶点（曲线、自由形式或涂鸦）组成的形状。
 
-You cannot create shapes of this type in the document.
+您不能在文档中创建这种类型的形状。
 
 ### NOTCHED_RIGHT_ARROW {#NOTCHED-RIGHT-ARROW}
 ```
@@ -1464,9 +1464,9 @@ public static int OLE_CONTROL
 ```
 
 
-The shape is an ActiveX control.
+该形状是一个 ActiveX 控件。
 
-You cannot create shapes of this type in the document.
+您不能在文档中创建这种类型的形状。
 
 ### OLE_OBJECT {#OLE-OBJECT}
 ```
@@ -1474,9 +1474,9 @@ public static int OLE_OBJECT
 ```
 
 
-The shape is an OLE object.
+该形状是一个 OLE 对象。
 
-You cannot create shapes of this type in the document.
+您不能在文档中创建这种类型的形状。
 
 ### PARALLELOGRAM {#PARALLELOGRAM}
 ```
@@ -1500,7 +1500,7 @@ public static int PIE
 ```
 
 
-Pie. Applicable only for DML shapes.
+馅饼。仅适用于 DML 形状。
 
 ### PLAQUE {#PLAQUE}
 ```
@@ -1516,7 +1516,7 @@ public static int PLAQUE_TABS
 ```
 
 
-Plaque tabs. Applicable only for DML shapes.
+牌匾标签。仅适用于 DML 形状。
 
 ### PLUS {#PLUS}
 ```
@@ -1620,7 +1620,7 @@ public static int SEAL_10
 ```
 
 
-Ten-pointed star. Applicable only for DML shapes.
+十角星。仅适用于 DML 形状。
 
 ### SEAL_12 {#SEAL-12}
 ```
@@ -1628,7 +1628,7 @@ public static int SEAL_12
 ```
 
 
-Twelve-pointed star. Applicable only for DML shapes.
+十二角星。仅适用于 DML 形状。
 
 ### SEAL_16 {#SEAL-16}
 ```
@@ -1668,7 +1668,7 @@ public static int SEAL_6
 ```
 
 
-Six-pointed star. Applicable only for DML shapes.
+六角星。仅适用于 DML 形状。
 
 ### SEAL_7 {#SEAL-7}
 ```
@@ -1676,7 +1676,7 @@ public static int SEAL_7
 ```
 
 
-Seven-pointed star. Applicable only for DML shapes.
+七角星。仅适用于 DML 形状。
 
 ### SEAL_8 {#SEAL-8}
 ```
@@ -1692,7 +1692,7 @@ public static int SINGLE_CORNER_ROUNDED
 ```
 
 
-Round single corner rectangle. Applicable only for DML shapes.
+圆形单角矩形。仅适用于 DML 形状。
 
 ### SINGLE_CORNER_SNIPPED {#SINGLE-CORNER-SNIPPED}
 ```
@@ -1700,7 +1700,7 @@ public static int SINGLE_CORNER_SNIPPED
 ```
 
 
-Snip single corner rectangle object. Applicable only for DML shapes.
+剪断单个角矩形对象。仅适用于 DML 形状。
 
 ### SMILEY_FACE {#SMILEY-FACE}
 ```
@@ -1716,7 +1716,7 @@ public static int SQUARE_TABS
 ```
 
 
-Square tabs. Applicable only for DML shapes.
+方形标签。仅适用于 DML 形状。
 
 ### STAR {#STAR}
 ```
@@ -1756,7 +1756,7 @@ public static int SWOOSH_ARROW
 ```
 
 
-Swoosh arrow. Applicable only for DML shapes.
+旋风箭头。仅适用于 DML 形状。
 
 ### TEARDROP {#TEARDROP}
 ```
@@ -1764,7 +1764,7 @@ public static int TEARDROP
 ```
 
 
-Teardrop. Applicable only for DML shapes.
+泪珠。仅适用于 DML 形状。
 
 ### TEXT_ARCH_DOWN_CURVE {#TEXT-ARCH-DOWN-CURVE}
 ```
@@ -1772,7 +1772,7 @@ public static int TEXT_ARCH_DOWN_CURVE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_ARCH_DOWN_POUR {#TEXT-ARCH-DOWN-POUR}
 ```
@@ -1780,7 +1780,7 @@ public static int TEXT_ARCH_DOWN_POUR
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_ARCH_UP_CURVE {#TEXT-ARCH-UP-CURVE}
 ```
@@ -1788,7 +1788,7 @@ public static int TEXT_ARCH_UP_CURVE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_ARCH_UP_POUR {#TEXT-ARCH-UP-POUR}
 ```
@@ -1796,7 +1796,7 @@ public static int TEXT_ARCH_UP_POUR
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_BOX {#TEXT-BOX}
 ```
@@ -1804,7 +1804,7 @@ public static int TEXT_BOX
 ```
 
 
-The shape is a textbox. Note that shapes of many other types can also have text inside them too. A shape does not have to have this type to contain text.
+形状是一个文本框。请注意，许多其他类型的形状也可以在其中包含文本。形状不必具有此类型即可包含文本。
 
 ### TEXT_BUTTON_CURVE {#TEXT-BUTTON-CURVE}
 ```
@@ -1812,7 +1812,7 @@ public static int TEXT_BUTTON_CURVE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_BUTTON_POUR {#TEXT-BUTTON-POUR}
 ```
@@ -1820,7 +1820,7 @@ public static int TEXT_BUTTON_POUR
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CAN_DOWN {#TEXT-CAN-DOWN}
 ```
@@ -1828,7 +1828,7 @@ public static int TEXT_CAN_DOWN
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CAN_UP {#TEXT-CAN-UP}
 ```
@@ -1836,7 +1836,7 @@ public static int TEXT_CAN_UP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CASCADE_DOWN {#TEXT-CASCADE-DOWN}
 ```
@@ -1844,7 +1844,7 @@ public static int TEXT_CASCADE_DOWN
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CASCADE_UP {#TEXT-CASCADE-UP}
 ```
@@ -1852,7 +1852,7 @@ public static int TEXT_CASCADE_UP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CHEVRON {#TEXT-CHEVRON}
 ```
@@ -1860,7 +1860,7 @@ public static int TEXT_CHEVRON
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CHEVRON_INVERTED {#TEXT-CHEVRON-INVERTED}
 ```
@@ -1868,7 +1868,7 @@ public static int TEXT_CHEVRON_INVERTED
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CIRCLE_CURVE {#TEXT-CIRCLE-CURVE}
 ```
@@ -1876,7 +1876,7 @@ public static int TEXT_CIRCLE_CURVE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CIRCLE_POUR {#TEXT-CIRCLE-POUR}
 ```
@@ -1884,7 +1884,7 @@ public static int TEXT_CIRCLE_POUR
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CURVE {#TEXT-CURVE}
 ```
@@ -1900,7 +1900,7 @@ public static int TEXT_CURVE_DOWN
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_CURVE_UP {#TEXT-CURVE-UP}
 ```
@@ -1908,7 +1908,7 @@ public static int TEXT_CURVE_UP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_DEFLATE {#TEXT-DEFLATE}
 ```
@@ -1916,7 +1916,7 @@ public static int TEXT_DEFLATE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_DEFLATE_BOTTOM {#TEXT-DEFLATE-BOTTOM}
 ```
@@ -1924,7 +1924,7 @@ public static int TEXT_DEFLATE_BOTTOM
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_DEFLATE_INFLATE {#TEXT-DEFLATE-INFLATE}
 ```
@@ -1932,7 +1932,7 @@ public static int TEXT_DEFLATE_INFLATE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_DEFLATE_INFLATE_DEFLATE {#TEXT-DEFLATE-INFLATE-DEFLATE}
 ```
@@ -1940,7 +1940,7 @@ public static int TEXT_DEFLATE_INFLATE_DEFLATE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_DEFLATE_TOP {#TEXT-DEFLATE-TOP}
 ```
@@ -1948,7 +1948,7 @@ public static int TEXT_DEFLATE_TOP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_FADE_DOWN {#TEXT-FADE-DOWN}
 ```
@@ -1956,7 +1956,7 @@ public static int TEXT_FADE_DOWN
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_FADE_LEFT {#TEXT-FADE-LEFT}
 ```
@@ -1964,7 +1964,7 @@ public static int TEXT_FADE_LEFT
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_FADE_RIGHT {#TEXT-FADE-RIGHT}
 ```
@@ -1972,7 +1972,7 @@ public static int TEXT_FADE_RIGHT
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_FADE_UP {#TEXT-FADE-UP}
 ```
@@ -1980,7 +1980,7 @@ public static int TEXT_FADE_UP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_HEXAGON {#TEXT-HEXAGON}
 ```
@@ -1996,7 +1996,7 @@ public static int TEXT_INFLATE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_INFLATE_BOTTOM {#TEXT-INFLATE-BOTTOM}
 ```
@@ -2004,7 +2004,7 @@ public static int TEXT_INFLATE_BOTTOM
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_INFLATE_TOP {#TEXT-INFLATE-TOP}
 ```
@@ -2012,7 +2012,7 @@ public static int TEXT_INFLATE_TOP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_OCTAGON {#TEXT-OCTAGON}
 ```
@@ -2044,7 +2044,7 @@ public static int TEXT_PLAIN_TEXT
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_RING {#TEXT-RING}
 ```
@@ -2060,7 +2060,7 @@ public static int TEXT_RING_INSIDE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_RING_OUTSIDE {#TEXT-RING-OUTSIDE}
 ```
@@ -2068,7 +2068,7 @@ public static int TEXT_RING_OUTSIDE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_SIMPLE {#TEXT-SIMPLE}
 ```
@@ -2084,7 +2084,7 @@ public static int TEXT_SLANT_DOWN
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_SLANT_UP {#TEXT-SLANT-UP}
 ```
@@ -2092,7 +2092,7 @@ public static int TEXT_SLANT_UP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_STOP {#TEXT-STOP}
 ```
@@ -2100,7 +2100,7 @@ public static int TEXT_STOP
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_TRIANGLE {#TEXT-TRIANGLE}
 ```
@@ -2108,7 +2108,7 @@ public static int TEXT_TRIANGLE
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_TRIANGLE_INVERTED {#TEXT-TRIANGLE-INVERTED}
 ```
@@ -2116,7 +2116,7 @@ public static int TEXT_TRIANGLE_INVERTED
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_WAVE {#TEXT-WAVE}
 ```
@@ -2132,7 +2132,7 @@ public static int TEXT_WAVE_1
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_WAVE_2 {#TEXT-WAVE-2}
 ```
@@ -2140,7 +2140,7 @@ public static int TEXT_WAVE_2
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_WAVE_3 {#TEXT-WAVE-3}
 ```
@@ -2148,7 +2148,7 @@ public static int TEXT_WAVE_3
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### TEXT_WAVE_4 {#TEXT-WAVE-4}
 ```
@@ -2156,7 +2156,7 @@ public static int TEXT_WAVE_4
 ```
 
 
-WordArt object.
+艺术字对象。
 
 ### THICK_ARROW {#THICK-ARROW}
 ```
@@ -2172,7 +2172,7 @@ public static int TOP_CORNERS_ONE_ROUNDED_ONE_SNIPPED
 ```
 
 
-Snip and round single corner rectangle. Applicable only for DML shapes.
+剪断并圆化单角矩形。仅适用于 DML 形状。
 
 ### TOP_CORNERS_ROUNDED {#TOP-CORNERS-ROUNDED}
 ```
@@ -2180,7 +2180,7 @@ public static int TOP_CORNERS_ROUNDED
 ```
 
 
-Round same side corner rectangle. Applicable only for DML shapes.
+圆形相同的边角矩形。仅适用于 DML 形状。
 
 ### TOP_CORNERS_SNIPPED {#TOP-CORNERS-SNIPPED}
 ```
@@ -2188,7 +2188,7 @@ public static int TOP_CORNERS_SNIPPED
 ```
 
 
-Snip same side corner rectangle. Applicable only for DML shapes.
+剪下相同的边角矩形。仅适用于 DML 形状。
 
 ### TRAPEZOID {#TRAPEZOID}
 ```
@@ -2276,7 +2276,7 @@ public static int WEDGE_PIE
 ```
 
 
-Wedge pie. Applicable only for DML shapes.
+楔形馅饼。仅适用于 DML 形状。
 
 ### WEDGE_RECT_CALLOUT {#WEDGE-RECT-CALLOUT}
 ```
@@ -2308,52 +2308,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String shapeTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String shape类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String shapeTypeName)
+public static int fromName(String shape类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeTypeName | java.lang.String |  |
+| shape类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int shapeType) {#getName-int-}
-```
-public static String getName(int shapeType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int shape类型) {#getName-int-}
+```
+public static String getName(int shape类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | int |  |
+| shape类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -2363,8 +2363,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -2373,8 +2373,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -2399,22 +2399,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int shapeType) {#toString-int-}
+### toString(int shape类型) {#toString-int-}
 ```
-public static String toString(int shapeType)
+public static String toString(int shape类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | int |  |
+| shape类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -2432,8 +2432,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -2445,9 +2445,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

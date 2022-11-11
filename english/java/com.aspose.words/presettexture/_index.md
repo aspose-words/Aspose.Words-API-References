@@ -1,56 +1,56 @@
 ---
 title: PresetTexture
-second_title: Aspose.Words for Java API Reference
-description: Specifies texture to be used to fill a shape.
+second_title: Aspose.Words for Java API 参考
+description: 指定用于填充形状的纹理。
 type: docs
 weight: 468
-url: /java/com.aspose.words/presettexture/
+url: /zh/java/com.aspose.words/presettexture/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PresetTexture
 ```
 
-Specifies texture to be used to fill a shape.
-## Fields
+指定用于填充形状的纹理。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BLUE_TISSUE_PAPER](#BLUE-TISSUE-PAPER) | Blue tissue paper texture. |
-| [BOUQUET](#BOUQUET) | Bouquet texture. |
-| [BROWN_MARBLE](#BROWN-MARBLE) | Brown marble texture. |
-| [CANVAS](#CANVAS) | Canvas texture. |
-| [CORK](#CORK) | Cork texture. |
-| [DENIM](#DENIM) | Denim texture. |
-| [FISH_FOSSIL](#FISH-FOSSIL) | Fish fossil texture. |
-| [GRANITE](#GRANITE) | Granite texture. |
-| [GREEN_MARBLE](#GREEN-MARBLE) | Green marble texture. |
-| [MEDIUM_WOOD](#MEDIUM-WOOD) | Medium wood texture. |
-| [NEWSPRINT](#NEWSPRINT) | Newsprint texture. |
-| [NONE](#NONE) | No Texture. |
-| [OAK](#OAK) | Oak texture. |
-| [PAPER_BAG](#PAPER-BAG) | Paper bag texture. |
-| [PAPYRUS](#PAPYRUS) | Papyrus texture. |
-| [PARCHMENT](#PARCHMENT) | Parchment texture. |
-| [PINK_TISSUE_PAPER](#PINK-TISSUE-PAPER) | Pink tissue paper texture. |
-| [PURPLE_MESH](#PURPLE-MESH) | Purple mesh texture. |
-| [RECYCLED_PAPER](#RECYCLED-PAPER) | Recycled paper texture. |
-| [SAND](#SAND) | Sand texture. |
-| [STATIONERY](#STATIONERY) | Stationery texture. |
-| [WALNUT](#WALNUT) | Walnut texture. |
-| [WATER_DROPLETS](#WATER-DROPLETS) | Water droplets texture. |
-| [WHITE_MARBLE](#WHITE-MARBLE) | White marble texture. |
-| [WOVEN_MAT](#WOVEN-MAT) | Woven mat texture. |
+| [BLUE_TISSUE_PAPER](#BLUE-TISSUE-PAPER) | 蓝色薄纸纹理。 |
+| [BOUQUET](#BOUQUET) | 花束质地。 |
+| [BROWN_MARBLE](#BROWN-MARBLE) | 棕色大理石质地。 |
+| [CANVAS](#CANVAS) | 画布纹理。 |
+| [CORK](#CORK) | 软木质地。 |
+| [DENIM](#DENIM) | 牛仔布质地。 |
+| [FISH_FOSSIL](#FISH-FOSSIL) | 鱼化石质地。 |
+| [GRANITE](#GRANITE) | 花岗岩质地。 |
+| [GREEN_MARBLE](#GREEN-MARBLE) | 绿色大理石纹理。 |
+| [MEDIUM_WOOD](#MEDIUM-WOOD) | 中等木材纹理。 |
+| [NEWSPRINT](#NEWSPRINT) | 新闻纸质地。 |
+| [NONE](#NONE) | 没有纹理。 |
+| [OAK](#OAK) | 橡木纹理。 |
+| [PAPER_BAG](#PAPER-BAG) | 纸袋纹理。 |
+| [PAPYRUS](#PAPYRUS) | 纸莎草纸纹理。 |
+| [PARCHMENT](#PARCHMENT) | 羊皮纸质地。 |
+| [PINK_TISSUE_PAPER](#PINK-TISSUE-PAPER) | 粉红色的薄纸质地。 |
+| [PURPLE_MESH](#PURPLE-MESH) | 紫色网状纹理。 |
+| [RECYCLED_PAPER](#RECYCLED-PAPER) | 再生纸质地。 |
+| [SAND](#SAND) | 砂质感。 |
+| [STATIONERY](#STATIONERY) | 文具纹理。 |
+| [WALNUT](#WALNUT) | 核桃质地。 |
+| [WATER_DROPLETS](#WATER-DROPLETS) | 水滴纹理。 |
+| [WHITE_MARBLE](#WHITE-MARBLE) | 白色大理石纹理。 |
+| [WOVEN_MAT](#WOVEN-MAT) | 编织垫质地。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String presetTextureName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int presetTexture)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -67,7 +67,7 @@ public static int BLUE_TISSUE_PAPER
 ```
 
 
-Blue tissue paper texture.
+蓝色薄纸纹理。
 
 ### BOUQUET {#BOUQUET}
 ```
@@ -75,7 +75,7 @@ public static int BOUQUET
 ```
 
 
-Bouquet texture.
+花束质地。
 
 ### BROWN_MARBLE {#BROWN-MARBLE}
 ```
@@ -83,7 +83,7 @@ public static int BROWN_MARBLE
 ```
 
 
-Brown marble texture.
+棕色大理石质地。
 
 ### CANVAS {#CANVAS}
 ```
@@ -91,7 +91,7 @@ public static int CANVAS
 ```
 
 
-Canvas texture.
+画布纹理。
 
 ### CORK {#CORK}
 ```
@@ -99,7 +99,7 @@ public static int CORK
 ```
 
 
-Cork texture.
+软木质地。
 
 ### DENIM {#DENIM}
 ```
@@ -107,7 +107,7 @@ public static int DENIM
 ```
 
 
-Denim texture.
+牛仔布质地。
 
 ### FISH_FOSSIL {#FISH-FOSSIL}
 ```
@@ -115,7 +115,7 @@ public static int FISH_FOSSIL
 ```
 
 
-Fish fossil texture.
+鱼化石质地。
 
 ### GRANITE {#GRANITE}
 ```
@@ -123,7 +123,7 @@ public static int GRANITE
 ```
 
 
-Granite texture.
+花岗岩质地。
 
 ### GREEN_MARBLE {#GREEN-MARBLE}
 ```
@@ -131,7 +131,7 @@ public static int GREEN_MARBLE
 ```
 
 
-Green marble texture.
+绿色大理石纹理。
 
 ### MEDIUM_WOOD {#MEDIUM-WOOD}
 ```
@@ -139,7 +139,7 @@ public static int MEDIUM_WOOD
 ```
 
 
-Medium wood texture.
+中等木材纹理。
 
 ### NEWSPRINT {#NEWSPRINT}
 ```
@@ -147,7 +147,7 @@ public static int NEWSPRINT
 ```
 
 
-Newsprint texture.
+新闻纸质地。
 
 ### NONE {#NONE}
 ```
@@ -155,7 +155,7 @@ public static int NONE
 ```
 
 
-No Texture.
+没有纹理。
 
 ### OAK {#OAK}
 ```
@@ -163,7 +163,7 @@ public static int OAK
 ```
 
 
-Oak texture.
+橡木纹理。
 
 ### PAPER_BAG {#PAPER-BAG}
 ```
@@ -171,7 +171,7 @@ public static int PAPER_BAG
 ```
 
 
-Paper bag texture.
+纸袋纹理。
 
 ### PAPYRUS {#PAPYRUS}
 ```
@@ -179,7 +179,7 @@ public static int PAPYRUS
 ```
 
 
-Papyrus texture.
+纸莎草纸纹理。
 
 ### PARCHMENT {#PARCHMENT}
 ```
@@ -187,7 +187,7 @@ public static int PARCHMENT
 ```
 
 
-Parchment texture.
+羊皮纸质地。
 
 ### PINK_TISSUE_PAPER {#PINK-TISSUE-PAPER}
 ```
@@ -195,7 +195,7 @@ public static int PINK_TISSUE_PAPER
 ```
 
 
-Pink tissue paper texture.
+粉红色的薄纸质地。
 
 ### PURPLE_MESH {#PURPLE-MESH}
 ```
@@ -203,7 +203,7 @@ public static int PURPLE_MESH
 ```
 
 
-Purple mesh texture.
+紫色网状纹理。
 
 ### RECYCLED_PAPER {#RECYCLED-PAPER}
 ```
@@ -211,7 +211,7 @@ public static int RECYCLED_PAPER
 ```
 
 
-Recycled paper texture.
+再生纸质地。
 
 ### SAND {#SAND}
 ```
@@ -219,7 +219,7 @@ public static int SAND
 ```
 
 
-Sand texture.
+砂质感。
 
 ### STATIONERY {#STATIONERY}
 ```
@@ -227,7 +227,7 @@ public static int STATIONERY
 ```
 
 
-Stationery texture.
+文具纹理。
 
 ### WALNUT {#WALNUT}
 ```
@@ -235,7 +235,7 @@ public static int WALNUT
 ```
 
 
-Walnut texture.
+核桃质地。
 
 ### WATER_DROPLETS {#WATER-DROPLETS}
 ```
@@ -243,7 +243,7 @@ public static int WATER_DROPLETS
 ```
 
 
-Water droplets texture.
+水滴纹理。
 
 ### WHITE_MARBLE {#WHITE-MARBLE}
 ```
@@ -251,7 +251,7 @@ public static int WHITE_MARBLE
 ```
 
 
-White marble texture.
+白色大理石纹理。
 
 ### WOVEN_MAT {#WOVEN-MAT}
 ```
@@ -259,7 +259,7 @@ public static int WOVEN_MAT
 ```
 
 
-Woven mat texture.
+编织垫质地。
 
 ### length {#length}
 ```
@@ -275,13 +275,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String presetTextureName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String presetTextureName)
@@ -290,23 +290,23 @@ public static int fromName(String presetTextureName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTextureName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int presetTexture) {#getName-int-}
 ```
 public static String getName(int presetTexture)
@@ -315,12 +315,12 @@ public static String getName(int presetTexture)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -330,8 +330,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -340,8 +340,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -366,7 +366,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int presetTexture) {#toString-int-}
 ```
@@ -376,12 +376,12 @@ public static String toString(int presetTexture)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -399,8 +399,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -412,9 +412,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

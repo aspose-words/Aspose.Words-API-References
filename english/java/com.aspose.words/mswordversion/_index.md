@@ -1,39 +1,39 @@
 ---
 title: MsWordVersion
-second_title: Aspose.Words for Java API Reference
-description: Allows Aspose.Wods to mimic MS Word version-specific application behavior.
+second_title: Aspose.Words for Java API 参考
+description: 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
 type: docs
 weight: 399
-url: /java/com.aspose.words/mswordversion/
+url: /zh/java/com.aspose.words/mswordversion/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class MsWordVersion
 ```
 
-Allows Aspose.Wods to mimic MS Word version-specific application behavior.
-## Fields
+允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [WORD_2000](#WORD-2000) | Optimize Aspose.Words behavior to match MS Word 2000 version. |
-| [WORD_2002](#WORD-2002) | Optimize Aspose.Words behavior to match MS Word 2002 version. |
-| [WORD_2003](#WORD-2003) | Optimize Aspose.Words behavior to match MS Word 2003 version. |
-| [WORD_2007](#WORD-2007) | Optimize Aspose.Words behavior to match MS Word 2007 version. |
-| [WORD_2010](#WORD-2010) | Optimize Aspose.Words behavior to match MS Word 2010 version. |
-| [WORD_2013](#WORD-2013) | Optimize Aspose.Words behavior to match MS Word 2013 version. |
-| [WORD_2016](#WORD-2016) | Optimize Aspose.Words behavior to match MS Word 2016 version. |
-| [WORD_2019](#WORD-2019) | Optimize Aspose.Words behavior to match MS Word 2019 version. |
+| [WORD_2000](#WORD-2000) | 优化 Aspose.Words 行为以匹配 MS Word 2000 版本。 |
+| [WORD_2002](#WORD-2002) | 优化 Aspose.Words 行为以匹配 MS Word 2002 版本。 |
+| [WORD_2003](#WORD-2003) | 优化 Aspose.Words 行为以匹配 MS Word 2003 版本。 |
+| [WORD_2007](#WORD-2007) | 优化 Aspose.Words 行为以匹配 MS Word 2007 版本。 |
+| [WORD_2010](#WORD-2010) | 优化 Aspose.Words 行为以匹配 MS Word 2010 版本。 |
+| [WORD_2013](#WORD-2013) | 优化 Aspose.Words 行为以匹配 MS Word 2013 版本。 |
+| [WORD_2016](#WORD-2016) | 优化 Aspose.Words 行为以匹配 MS Word 2016 版本。 |
+| [WORD_2019](#WORD-2019) | 优化 Aspose.Words 行为以匹配 MS Word 2019 版本。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String msWordVersionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int msWordVersion)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public static int WORD_2000
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2000 version.
+优化 Aspose.Words 行为以匹配 MS Word 2000 版本。
 
 ### WORD_2002 {#WORD-2002}
 ```
@@ -58,7 +58,7 @@ public static int WORD_2002
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2002 version.
+优化 Aspose.Words 行为以匹配 MS Word 2002 版本。
 
 ### WORD_2003 {#WORD-2003}
 ```
@@ -66,7 +66,7 @@ public static int WORD_2003
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2003 version.
+优化 Aspose.Words 行为以匹配 MS Word 2003 版本。
 
 ### WORD_2007 {#WORD-2007}
 ```
@@ -74,7 +74,7 @@ public static int WORD_2007
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2007 version.
+优化 Aspose.Words 行为以匹配 MS Word 2007 版本。
 
 ### WORD_2010 {#WORD-2010}
 ```
@@ -82,7 +82,7 @@ public static int WORD_2010
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2010 version.
+优化 Aspose.Words 行为以匹配 MS Word 2010 版本。
 
 ### WORD_2013 {#WORD-2013}
 ```
@@ -90,7 +90,7 @@ public static int WORD_2013
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2013 version.
+优化 Aspose.Words 行为以匹配 MS Word 2013 版本。
 
 ### WORD_2016 {#WORD-2016}
 ```
@@ -98,7 +98,7 @@ public static int WORD_2016
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2016 version.
+优化 Aspose.Words 行为以匹配 MS Word 2016 版本。
 
 ### WORD_2019 {#WORD-2019}
 ```
@@ -106,7 +106,7 @@ public static int WORD_2019
 ```
 
 
-Optimize Aspose.Words behavior to match MS Word 2019 version.
+优化 Aspose.Words 行为以匹配 MS Word 2019 版本。
 
 ### length {#length}
 ```
@@ -122,13 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String msWordVersionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String msWordVersionName)
@@ -137,23 +137,23 @@ public static int fromName(String msWordVersionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int msWordVersion) {#getName-int-}
 ```
 public static String getName(int msWordVersion)
@@ -162,12 +162,12 @@ public static String getName(int msWordVersion)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersion | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,7 +213,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int msWordVersion) {#toString-int-}
 ```
@@ -223,12 +223,12 @@ public static String toString(int msWordVersion)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | msWordVersion | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,9 +259,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

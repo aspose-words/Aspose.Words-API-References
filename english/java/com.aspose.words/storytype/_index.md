@@ -1,56 +1,56 @@
 ---
-title: StoryType
+title: Story类型
 second_title: Aspose.Words for Java API Reference
-description: Text of a Word document is stored in stories.
+description: Word 文档的文本存储在故事中。
 type: docs
 weight: 529
-url: /java/com.aspose.words/storytype/
+url: /zh/java/com.aspose.words/storytype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class StoryType
+public class Story类型
 ```
 
-Text of a Word document is stored in stories. **StoryType** identifies a story.
-## Fields
+ Word 文档的文本存储在故事中。**Story类型**确定一个故事。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [COMMENTS](#COMMENTS) | Contains document comments (annotations), represented by [Comment](../../com.aspose.words/comment). |
-| [ENDNOTES](#ENDNOTES) | Contains endnotes text, represented by [Footnote](../../com.aspose.words/footnote). |
-| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | Contains the text of the endnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | Contains the text of the endnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | Contains the text of the endnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) | Contains text of the even pages footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter). |
-| [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) | Contains text of the even pages header, represented by [HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) | Contains text of the first page footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) | Contains text of the first page header, represented by [HeaderFooter](../../com.aspose.words/headerfooter). |
-| [FOOTNOTES](#FOOTNOTES) | Contains footnote text, represented by [Footnote](../../com.aspose.words/footnote). |
-| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | Contains the text of the footnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | Contains the text of the footnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | Contains the text of the footnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**. |
-| [MAIN_TEXT](#MAIN-TEXT) | Contains the main text of the document, represented by [Body](../../com.aspose.words/body). |
-| [NONE](#NONE) | Default value. |
-| [PRIMARY_FOOTER](#PRIMARY-FOOTER) | Contains text of the primary footer. |
-| [PRIMARY_HEADER](#PRIMARY-HEADER) | Contains text of the primary header. |
-| [TEXTBOX](#TEXTBOX) | Contains shape or textbox text, represented by [Shape](../../com.aspose.words/shape). |
+| [COMMENTS](#COMMENTS) | 包含文档注释（注解），由[Comment](../../com.aspose.words/comment). |
+| [ENDNOTES](#ENDNOTES) | 包含尾注文本，由[Footnote](../../com.aspose.words/footnote). |
+| [ENDNOTE_CONTINUATION_NOTICE](#ENDNOTE-CONTINUATION-NOTICE) | 包含尾注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [ENDNOTE_CONTINUATION_SEPARATOR](#ENDNOTE-CONTINUATION-SEPARATOR) | 包含尾注继续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [ENDNOTE_SEPARATOR](#ENDNOTE-SEPARATOR) | 包含尾注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [EVEN_PAGES_FOOTER](#EVEN-PAGES-FOOTER) | 包含偶数页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
+| [EVEN_PAGES_HEADER](#EVEN-PAGES-HEADER) | 包含偶数页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
+| [FIRST_PAGE_FOOTER](#FIRST-PAGE-FOOTER) | 包含第一页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
+| [FIRST_PAGE_HEADER](#FIRST-PAGE-HEADER) | 包含第一页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter). |
+| [FOOTNOTES](#FOOTNOTES) | 包含脚注文本，由[Footnote](../../com.aspose.words/footnote). |
+| [FOOTNOTE_CONTINUATION_NOTICE](#FOOTNOTE-CONTINUATION-NOTICE) | 包含脚注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [FOOTNOTE_CONTINUATION_SEPARATOR](#FOOTNOTE-CONTINUATION-SEPARATOR) | 包含脚注延续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [FOOTNOTE_SEPARATOR](#FOOTNOTE-SEPARATOR) | 包含脚注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**. |
+| [MAIN_TEXT](#MAIN-TEXT) | 包含文档的主要文本，由[Body](../../com.aspose.words/body). |
+| [NONE](#NONE) | 默认值。 |
+| [PRIMARY_FOOTER](#PRIMARY-FOOTER) | 包含主要页脚的文本。 |
+| [PRIMARY_HEADER](#PRIMARY-HEADER) | 包含主标题的文本。 |
+| [TEXTBOX](#TEXTBOX) | 包含形状或文本框文本，由[Shape](../../com.aspose.words/shape). |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String storyTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int storyType)](#getName-int-) |  |
+| [fromName(String story类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int story类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int storyType)](#toString-int-) |  |
+| [toString(int story类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -60,7 +60,7 @@ public static int COMMENTS
 ```
 
 
-Contains document comments (annotations), represented by [Comment](../../com.aspose.words/comment).
+包含文档注释（注解），由[Comment](../../com.aspose.words/comment).
 
 ### ENDNOTES {#ENDNOTES}
 ```
@@ -68,7 +68,7 @@ public static int ENDNOTES
 ```
 
 
-Contains endnotes text, represented by [Footnote](../../com.aspose.words/footnote).
+包含尾注文本，由[Footnote](../../com.aspose.words/footnote).
 
 ### ENDNOTE_CONTINUATION_NOTICE {#ENDNOTE-CONTINUATION-NOTICE}
 ```
@@ -76,7 +76,7 @@ public static int ENDNOTE_CONTINUATION_NOTICE
 ```
 
 
-Contains the text of the endnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含尾注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### ENDNOTE_CONTINUATION_SEPARATOR {#ENDNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -84,7 +84,7 @@ public static int ENDNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-Contains the text of the endnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含尾注继续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### ENDNOTE_SEPARATOR {#ENDNOTE-SEPARATOR}
 ```
@@ -92,7 +92,7 @@ public static int ENDNOTE_SEPARATOR
 ```
 
 
-Contains the text of the endnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含尾注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### EVEN_PAGES_FOOTER {#EVEN-PAGES-FOOTER}
 ```
@@ -100,7 +100,7 @@ public static int EVEN_PAGES_FOOTER
 ```
 
 
-Contains text of the even pages footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含偶数页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### EVEN_PAGES_HEADER {#EVEN-PAGES-HEADER}
 ```
@@ -108,7 +108,7 @@ public static int EVEN_PAGES_HEADER
 ```
 
 
-Contains text of the even pages header, represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含偶数页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### FIRST_PAGE_FOOTER {#FIRST-PAGE-FOOTER}
 ```
@@ -116,7 +116,7 @@ public static int FIRST_PAGE_FOOTER
 ```
 
 
-Contains text of the first page footer, represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含第一页页脚的文本，由[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### FIRST_PAGE_HEADER {#FIRST-PAGE-HEADER}
 ```
@@ -124,7 +124,7 @@ public static int FIRST_PAGE_HEADER
 ```
 
 
-Contains text of the first page header, represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含第一页标题的文本，由[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### FOOTNOTES {#FOOTNOTES}
 ```
@@ -132,7 +132,7 @@ public static int FOOTNOTES
 ```
 
 
-Contains footnote text, represented by [Footnote](../../com.aspose.words/footnote).
+包含脚注文本，由[Footnote](../../com.aspose.words/footnote).
 
 ### FOOTNOTE_CONTINUATION_NOTICE {#FOOTNOTE-CONTINUATION-NOTICE}
 ```
@@ -140,7 +140,7 @@ public static int FOOTNOTE_CONTINUATION_NOTICE
 ```
 
 
-Contains the text of the footnote continuation notice separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含脚注继续通知分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### FOOTNOTE_CONTINUATION_SEPARATOR {#FOOTNOTE-CONTINUATION-SEPARATOR}
 ```
@@ -148,7 +148,7 @@ public static int FOOTNOTE_CONTINUATION_SEPARATOR
 ```
 
 
-Contains the text of the footnote continuation separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含脚注延续分隔符的文本，表示为**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### FOOTNOTE_SEPARATOR {#FOOTNOTE-SEPARATOR}
 ```
@@ -156,7 +156,7 @@ public static int FOOTNOTE_SEPARATOR
 ```
 
 
-Contains the text of the footnote separator, represented by **T:Aspose.Words.Notes.FootnoteSeparator**.
+包含脚注分隔符的文本，由**T:Aspose.Words.Notes.FootnoteSeparator**.
 
 ### MAIN_TEXT {#MAIN-TEXT}
 ```
@@ -164,7 +164,7 @@ public static int MAIN_TEXT
 ```
 
 
-Contains the main text of the document, represented by [Body](../../com.aspose.words/body).
+包含文档的主要文本，由[Body](../../com.aspose.words/body).
 
 ### NONE {#NONE}
 ```
@@ -172,7 +172,7 @@ public static int NONE
 ```
 
 
-Default value. There is no such story in the document.
+默认值。文件中没有这样的故事。
 
 ### PRIMARY_FOOTER {#PRIMARY-FOOTER}
 ```
@@ -180,7 +180,7 @@ public static int PRIMARY_FOOTER
 ```
 
 
-Contains text of the primary footer. When footer is different for odd and even pages, contains text of the odd pages footer. Represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含主要页脚的文本。当奇数页和偶数页的页脚不同时，包含奇数页页脚的文本。代表人[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### PRIMARY_HEADER {#PRIMARY-HEADER}
 ```
@@ -188,7 +188,7 @@ public static int PRIMARY_HEADER
 ```
 
 
-Contains text of the primary header. When header is different for odd and even pages, contains text of the odd pages header. Represented by [HeaderFooter](../../com.aspose.words/headerfooter).
+包含主标题的文本。当奇数页和偶数页的页眉不同时，包含奇数页页眉的文本。代表人[HeaderFooter](../../com.aspose.words/headerfooter).
 
 ### TEXTBOX {#TEXTBOX}
 ```
@@ -196,7 +196,7 @@ public static int TEXTBOX
 ```
 
 
-Contains shape or textbox text, represented by [Shape](../../com.aspose.words/shape).
+包含形状或文本框文本，由[Shape](../../com.aspose.words/shape).
 
 ### length {#length}
 ```
@@ -212,52 +212,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String storyTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String story类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String storyTypeName)
+public static int fromName(String story类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| storyTypeName | java.lang.String |  |
+| story类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int storyType) {#getName-int-}
-```
-public static String getName(int storyType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int story类型) {#getName-int-}
+```
+public static String getName(int story类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| storyType | int |  |
+| story类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -267,8 +267,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -277,8 +277,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -303,22 +303,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int storyType) {#toString-int-}
+### toString(int story类型) {#toString-int-}
 ```
-public static String toString(int storyType)
+public static String toString(int story类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| storyType | int |  |
+| story类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -336,8 +336,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -349,9 +349,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,57 +1,57 @@
 ---
 title: ListTemplate
-second_title: Aspose.Words for Java API Reference
-description: Specifies one of the predefined list formats available in Microsoft Word.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Microsoft Word 中可用的预定义列表格式之一。
 type: docs
 weight: 375
-url: /java/com.aspose.words/listtemplate/
+url: /zh/java/com.aspose.words/listtemplate/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ListTemplate
 ```
 
-Specifies one of the predefined list formats available in Microsoft Word.
+指定 Microsoft Word 中可用的预定义列表格式之一。
 
-A list template value is used as a parameter into the **M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)** method.
+列表模板值用作参数**M:Aspose.Words.Lists.ListCollection.Add(Aspose.Words.Lists.ListTemplate)**方法。
 
-Aspose.Words list templates correspond to the 21 list templates available in the Bullets and Numbering dialog box in Microsoft Word 2003.
-## Fields
+Aspose.Words 列表模板对应于 Microsoft Word 2003 中的“项目符号和编号”对话框中的 21 个列表模板。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | The bullet of the first level is an arrow head Wingding character. |
-| [BULLET_CIRCLE](#BULLET-CIRCLE) | The bullet of the first level is a circle. |
-| [BULLET_DEFAULT](#BULLET-DEFAULT) | Default bulleted list with 9 levels. |
-| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | The bullet of the first level is a 4-diamond Wingding character. |
-| [BULLET_DISK](#BULLET-DISK) | Same as BulletDefault. |
-| [BULLET_SQUARE](#BULLET-SQUARE) | The bullet of the first level is a square. |
-| [BULLET_TICK](#BULLET-TICK) | The bullet of the first level is a tick Wingding character. |
-| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | Same as NumberDefault. |
-| [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | The number of the first level is "1)". |
-| [NUMBER_DEFAULT](#NUMBER-DEFAULT) | Default numbered list with 9 levels. |
-| [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | The number of the first level is "a.". |
-| [NUMBER_LOWERCASE_LETTER_PARENTHESIS](#NUMBER-LOWERCASE-LETTER-PARENTHESIS) | The number of the first level is "a)". |
-| [NUMBER_LOWERCASE_ROMAN_DOT](#NUMBER-LOWERCASE-ROMAN-DOT) | The number of the first level is "i.". |
-| [NUMBER_UPPERCASE_LETTER_DOT](#NUMBER-UPPERCASE-LETTER-DOT) | The number of the first level is "A.". |
-| [NUMBER_UPPERCASE_ROMAN_DOT](#NUMBER-UPPERCASE-ROMAN-DOT) | The number of the first level is "I.". |
-| [OUTLINE_BULLETS](#OUTLINE-BULLETS) | An outline lists with various bullets for different levels. |
-| [OUTLINE_HEADINGS_ARTICLE_SECTION](#OUTLINE-HEADINGS-ARTICLE-SECTION) | An outline list with levels linked to Heading styles. |
-| [OUTLINE_HEADINGS_CHAPTER](#OUTLINE-HEADINGS-CHAPTER) | An outline list with levels linked to Heading styles. |
-| [OUTLINE_HEADINGS_LEGAL](#OUTLINE-HEADINGS-LEGAL) | An outline list with levels linked to Heading styles. |
-| [OUTLINE_HEADINGS_NUMBERS](#OUTLINE-HEADINGS-NUMBERS) | An outline list with levels linked to Heading styles. |
-| [OUTLINE_LEGAL](#OUTLINE-LEGAL) | An outline list with levels are numbered "1., 1.1., 1.1.1, ...". |
-| [OUTLINE_NUMBERS](#OUTLINE-NUMBERS) | An outline list with levels numbered "1), a), i), (1), (a), (i), 1., a., i.". |
+| [BULLET_ARROW_HEAD](#BULLET-ARROW-HEAD) | 第一关的子弹是箭头永定字。 |
+| [BULLET_CIRCLE](#BULLET-CIRCLE) | 第一级的子弹是一个圆圈。 |
+| [BULLET_DEFAULT](#BULLET-DEFAULT) | 具有 9 个级别的默认项目符号列表。 |
+| [BULLET_DIAMONDS](#BULLET-DIAMONDS) | 第一关的子弹是一个4钻的Wingding角色。 |
+| [BULLET_DISK](#BULLET-DISK) | 与 BulletDefault 相同。 |
+| [BULLET_SQUARE](#BULLET-SQUARE) | 第一级的子弹是一个正方形。 |
+| [BULLET_TICK](#BULLET-TICK) | 第一级的子弹是一个打勾的Wingding 字符。 |
+| [NUMBER_ARABIC_DOT](#NUMBER-ARABIC-DOT) | 与 NumberDefault 相同。 |
+| [NUMBER_ARABIC_PARENTHESIS](#NUMBER-ARABIC-PARENTHESIS) | 第一级的数字是“1)”。 |
+| [NUMBER_DEFAULT](#NUMBER-DEFAULT) | 具有 9 个级别的默认编号列表。 |
+| [NUMBER_LOWERCASE_LETTER_DOT](#NUMBER-LOWERCASE-LETTER-DOT) | 第一级的数字是“a.”。 |
+| [NUMBER_LOWERCASE_LETTER_PARENTHESIS](#NUMBER-LOWERCASE-LETTER-PARENTHESIS) | 第一级的数字是“a)”。 |
+| [NUMBER_LOWERCASE_ROMAN_DOT](#NUMBER-LOWERCASE-ROMAN-DOT) | 第一级的数字是“i.”。 |
+| [NUMBER_UPPERCASE_LETTER_DOT](#NUMBER-UPPERCASE-LETTER-DOT) | 第一级的数字是“A.”。 |
+| [NUMBER_UPPERCASE_ROMAN_DOT](#NUMBER-UPPERCASE-ROMAN-DOT) | 第一级的数字是“I.”。 |
+| [OUTLINE_BULLETS](#OUTLINE-BULLETS) | 大纲列出了不同级别的各种项目符号。 |
+| [OUTLINE_HEADINGS_ARTICLE_SECTION](#OUTLINE-HEADINGS-ARTICLE-SECTION) | 具有链接到标题样式的级别的大纲列表。 |
+| [OUTLINE_HEADINGS_CHAPTER](#OUTLINE-HEADINGS-CHAPTER) | 具有链接到标题样式的级别的大纲列表。 |
+| [OUTLINE_HEADINGS_LEGAL](#OUTLINE-HEADINGS-LEGAL) | 具有链接到标题样式的级别的大纲列表。 |
+| [OUTLINE_HEADINGS_NUMBERS](#OUTLINE-HEADINGS-NUMBERS) | 具有链接到标题样式的级别的大纲列表。 |
+| [OUTLINE_LEGAL](#OUTLINE-LEGAL) | 具有级别的大纲列表编号为“1., 1.1., 1.1.1, ...”。 |
+| [OUTLINE_NUMBERS](#OUTLINE-NUMBERS) | 一个大纲列表，其级别编号为“1)、a)、i)、(1)、(a)、(i)、1.、a.、i.”。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listTemplateName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int listTemplate)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -68,9 +68,9 @@ public static int BULLET_ARROW_HEAD
 ```
 
 
-The bullet of the first level is an arrow head Wingding character. The remaining levels are same as in BulletDefault.
+第一关的子弹是箭头永定字。其余级别与 BulletDefault 中的相同。
 
-Corresponds to the 6th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 6 个项目符号列表模板。
 
 ### BULLET_CIRCLE {#BULLET-CIRCLE}
 ```
@@ -78,9 +78,9 @@ public static int BULLET_CIRCLE
 ```
 
 
-The bullet of the first level is a circle. The remaining levels are same as in BulletDefault.
+第一级的子弹是一个圆圈。其余级别与 BulletDefault 中的相同。
 
-Corresponds to the 2nd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第二个项目符号列表模板。
 
 ### BULLET_DEFAULT {#BULLET-DEFAULT}
 ```
@@ -88,11 +88,11 @@ public static int BULLET_DEFAULT
 ```
 
 
-Default bulleted list with 9 levels. Bullet of the first level is a disc, bullet of the second level is a circle, bullet of the third level is a square. Then formatting repeats for the remaining levels.
+具有 9 个级别的默认项目符号列表。第一级子弹是圆盘，第二级子弹是圆形，第三级子弹是方形。然后对其余级别重复格式化。
 
-Each level is indented to the right by 0.25" relative to the previous level.
+每个级别相对于前一个级别向右缩进 0.25"。
 
-Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第一个项目符号列表模板。
 
 ### BULLET_DIAMONDS {#BULLET-DIAMONDS}
 ```
@@ -100,9 +100,9 @@ public static int BULLET_DIAMONDS
 ```
 
 
-The bullet of the first level is a 4-diamond Wingding character. The remaining levels are same as in BulletDefault.
+第一关的子弹是一个4钻的Wingding角色。其余级别与 BulletDefault 中的相同。
 
-Corresponds to the 5th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 5 个项目符号列表模板。
 
 ### BULLET_DISK {#BULLET-DISK}
 ```
@@ -110,9 +110,9 @@ public static int BULLET_DISK
 ```
 
 
-Same as BulletDefault.
+与 BulletDefault 相同。
 
-Corresponds to the 1st bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第一个项目符号列表模板。
 
 ### BULLET_SQUARE {#BULLET-SQUARE}
 ```
@@ -120,9 +120,9 @@ public static int BULLET_SQUARE
 ```
 
 
-The bullet of the first level is a square. The remaining levels are same as in BulletDefault.
+第一级的子弹是一个正方形。其余级别与 BulletDefault 中的相同。
 
-Corresponds to the 3rd bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 3 个项目符号列表模板。
 
 ### BULLET_TICK {#BULLET-TICK}
 ```
@@ -130,9 +130,9 @@ public static int BULLET_TICK
 ```
 
 
-The bullet of the first level is a tick Wingding character. The remaining levels are same as in BulletDefault.
+第一级的子弹是一个打勾的Wingding 字符。其余级别与 BulletDefault 中的相同。
 
-Corresponds to the 7th bulleted list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 7 个项目符号列表模板。
 
 ### NUMBER_ARABIC_DOT {#NUMBER-ARABIC-DOT}
 ```
@@ -140,9 +140,9 @@ public static int NUMBER_ARABIC_DOT
 ```
 
 
-Same as NumberDefault.
+与 NumberDefault 相同。
 
-Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第一个编号列表模板。
 
 ### NUMBER_ARABIC_PARENTHESIS {#NUMBER-ARABIC-PARENTHESIS}
 ```
@@ -150,9 +150,9 @@ public static int NUMBER_ARABIC_PARENTHESIS
 ```
 
 
-The number of the first level is "1)". The remaining levels are same as in NumberDefault.
+第一级的数字是“1)”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 2nd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第二个编号列表模板。
 
 ### NUMBER_DEFAULT {#NUMBER-DEFAULT}
 ```
@@ -160,11 +160,11 @@ public static int NUMBER_DEFAULT
 ```
 
 
-Default numbered list with 9 levels. Arabic numbering (1., 2., 3., ...) for the first level, lowercase letter numbering (a., b., c., ...) for the second level, lowercase roman numbering (i., ii., iii., ...) for the third level. Then formatting repeats for the remaining levels.
+具有 9 个级别的默认编号列表。第一级为阿拉伯编号（1., 2., 3., ...），第二级为小写字母编号（a., b., c., ...），小写罗马编号（i., ii., iii., ...) 用于第三级。然后对其余级别重复格式化。
 
-Each level is indented to the right by 0.25" relative to the previous level.
+每个级别相对于前一个级别向右缩进 0.25"。
 
-Corresponds to the 1st numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第一个编号列表模板。
 
 ### NUMBER_LOWERCASE_LETTER_DOT {#NUMBER-LOWERCASE-LETTER-DOT}
 ```
@@ -172,9 +172,9 @@ public static int NUMBER_LOWERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "a.". The remaining levels are same as in NumberDefault.
+第一级的数字是“a.”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 6th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 6 个编号列表模板。
 
 ### NUMBER_LOWERCASE_LETTER_PARENTHESIS {#NUMBER-LOWERCASE-LETTER-PARENTHESIS}
 ```
@@ -182,9 +182,9 @@ public static int NUMBER_LOWERCASE_LETTER_PARENTHESIS
 ```
 
 
-The number of the first level is "a)". The remaining levels are same as in NumberDefault.
+第一级的数字是“a)”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 5th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 5 个编号列表模板。
 
 ### NUMBER_LOWERCASE_ROMAN_DOT {#NUMBER-LOWERCASE-ROMAN-DOT}
 ```
@@ -192,9 +192,9 @@ public static int NUMBER_LOWERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "i.". The remaining levels are same as in NumberDefault.
+第一级的数字是“i.”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 7th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 7 个编号列表模板。
 
 ### NUMBER_UPPERCASE_LETTER_DOT {#NUMBER-UPPERCASE-LETTER-DOT}
 ```
@@ -202,9 +202,9 @@ public static int NUMBER_UPPERCASE_LETTER_DOT
 ```
 
 
-The number of the first level is "A.". The remaining levels are same as in NumberDefault.
+第一级的数字是“A.”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 4th numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中“项目符号和编号”对话框中的第 4 个编号列表模板。
 
 ### NUMBER_UPPERCASE_ROMAN_DOT {#NUMBER-UPPERCASE-ROMAN-DOT}
 ```
@@ -212,9 +212,9 @@ public static int NUMBER_UPPERCASE_ROMAN_DOT
 ```
 
 
-The number of the first level is "I.". The remaining levels are same as in NumberDefault.
+第一级的数字是“I.”。其余级别与 NumberDefault 中的相同。
 
-Corresponds to the 3rd numbered list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 的“项目符号和编号”对话框中的第 3 个编号列表模板。
 
 ### OUTLINE_BULLETS {#OUTLINE-BULLETS}
 ```
@@ -222,9 +222,9 @@ public static int OUTLINE_BULLETS
 ```
 
 
-An outline lists with various bullets for different levels.
+大纲列出了不同级别的各种项目符号。
 
-Corresponds to the 3rd outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 3 个大纲列表模板。
 
 ### OUTLINE_HEADINGS_ARTICLE_SECTION {#OUTLINE-HEADINGS-ARTICLE-SECTION}
 ```
@@ -232,9 +232,9 @@ public static int OUTLINE_HEADINGS_ARTICLE_SECTION
 ```
 
 
-An outline list with levels linked to Heading styles.
+具有链接到标题样式的级别的大纲列表。
 
-Corresponds to the 4th outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的“项目符号和编号”对话框中的第 4 个大纲列表模板。
 
 ### OUTLINE_HEADINGS_CHAPTER {#OUTLINE-HEADINGS-CHAPTER}
 ```
@@ -242,9 +242,9 @@ public static int OUTLINE_HEADINGS_CHAPTER
 ```
 
 
-An outline list with levels linked to Heading styles.
+具有链接到标题样式的级别的大纲列表。
 
-Corresponds to the 7th outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第 7 个大纲列表模板。
 
 ### OUTLINE_HEADINGS_LEGAL {#OUTLINE-HEADINGS-LEGAL}
 ```
@@ -252,9 +252,9 @@ public static int OUTLINE_HEADINGS_LEGAL
 ```
 
 
-An outline list with levels linked to Heading styles.
+具有链接到标题样式的级别的大纲列表。
 
-Corresponds to the 5th outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第 5 个大纲列表模板。
 
 ### OUTLINE_HEADINGS_NUMBERS {#OUTLINE-HEADINGS-NUMBERS}
 ```
@@ -262,9 +262,9 @@ public static int OUTLINE_HEADINGS_NUMBERS
 ```
 
 
-An outline list with levels linked to Heading styles.
+具有链接到标题样式的级别的大纲列表。
 
-Corresponds to the 6th outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第 6 个大纲列表模板。
 
 ### OUTLINE_LEGAL {#OUTLINE-LEGAL}
 ```
@@ -272,9 +272,9 @@ public static int OUTLINE_LEGAL
 ```
 
 
-An outline list with levels are numbered "1., 1.1., 1.1.1, ...".
+具有级别的大纲列表编号为“1., 1.1., 1.1.1, ...”。
 
-Corresponds to the 2nd outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第二个大纲列表模板。
 
 ### OUTLINE_NUMBERS {#OUTLINE-NUMBERS}
 ```
@@ -282,9 +282,9 @@ public static int OUTLINE_NUMBERS
 ```
 
 
-An outline list with levels numbered "1), a), i), (1), (a), (i), 1., a., i.".
+一个大纲列表，其级别编号为“1)、a)、i)、(1)、(a)、(i)、1.、a.、i.”。
 
-Corresponds to the 1st outline list template in the Bullets and Numbering dialog box in Microsoft Word.
+对应于 Microsoft Word 中的项目符号和编号对话框中的第一个大纲列表模板。
 
 ### length {#length}
 ```
@@ -300,13 +300,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String listTemplateName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String listTemplateName)
@@ -315,23 +315,23 @@ public static int fromName(String listTemplateName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTemplateName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int listTemplate) {#getName-int-}
 ```
 public static String getName(int listTemplate)
@@ -340,12 +340,12 @@ public static String getName(int listTemplate)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTemplate | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -355,8 +355,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -365,8 +365,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -391,7 +391,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int listTemplate) {#toString-int-}
 ```
@@ -401,12 +401,12 @@ public static String toString(int listTemplate)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | listTemplate | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -424,8 +424,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -437,9 +437,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

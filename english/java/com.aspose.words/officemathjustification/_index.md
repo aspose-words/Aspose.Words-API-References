@@ -1,37 +1,37 @@
 ---
 title: OfficeMathJustification
-second_title: Aspose.Words for Java API Reference
-description: Specifies the justification of the equation.
+second_title: Aspose.Words for Java API 参考
+description: 指定等式的对正。
 type: docs
 weight: 422
-url: /java/com.aspose.words/officemathjustification/
+url: /zh/java/com.aspose.words/officemathjustification/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class OfficeMathJustification
 ```
 
-Specifies the justification of the equation.
-## Fields
+指定等式的对正。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CENTER](#CENTER) | Centers each instance of mathematical text individually with respect to margins. |
-| [CENTER_GROUP](#CENTER-GROUP) | Justifies instances of mathematical text to the left with respect to each other, and centers the group of mathematical text (the Math Paragraph) with respect to the page. |
-| [DEFAULT](#DEFAULT) | Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP). |
-| [INLINE](#INLINE) | Inline position of Math. |
-| [LEFT](#LEFT) | Left justification of Math Paragraph. |
-| [RIGHT](#RIGHT) | Right Justification of Math Paragraph. |
+| [CENTER](#CENTER) | 相对于边距将每个数学文本实例单独居中。 |
+| [CENTER_GROUP](#CENTER-GROUP) | 将数学文本实例相对于左侧对齐，并将数学文本组（数学段落）相对于页面居中。 |
+| [DEFAULT](#DEFAULT) | 默认值[CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP). |
+| [INLINE](#INLINE) | 数学的内联位置。 |
+| [LEFT](#LEFT) | 数学段落的左对齐。 |
+| [RIGHT](#RIGHT) | 数学段落的正确对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String officeMathJustificationName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int officeMathJustification)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int CENTER
 ```
 
 
-Centers each instance of mathematical text individually with respect to margins.
+相对于边距将每个数学文本实例单独居中。
 
 ### CENTER_GROUP {#CENTER-GROUP}
 ```
@@ -56,7 +56,7 @@ public static int CENTER_GROUP
 ```
 
 
-Justifies instances of mathematical text to the left with respect to each other, and centers the group of mathematical text (the Math Paragraph) with respect to the page.
+将数学文本实例相对于左侧对齐，并将数学文本组（数学段落）相对于页面居中。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -64,7 +64,7 @@ public static int DEFAULT
 ```
 
 
-Default value [CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP).
+默认值[CENTER\_GROUP](../../com.aspose.words/officemathjustification\#CENTER-GROUP).
 
 ### INLINE {#INLINE}
 ```
@@ -72,7 +72,7 @@ public static int INLINE
 ```
 
 
-Inline position of Math.
+数学的内联位置。
 
 ### LEFT {#LEFT}
 ```
@@ -80,7 +80,7 @@ public static int LEFT
 ```
 
 
-Left justification of Math Paragraph.
+数学段落的左对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -88,7 +88,7 @@ public static int RIGHT
 ```
 
 
-Right Justification of Math Paragraph.
+数学段落的正确对齐。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String officeMathJustificationName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String officeMathJustificationName)
@@ -119,23 +119,23 @@ public static int fromName(String officeMathJustificationName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | officeMathJustificationName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int officeMathJustification) {#getName-int-}
 ```
 public static String getName(int officeMathJustification)
@@ -144,12 +144,12 @@ public static String getName(int officeMathJustification)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | officeMathJustification | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int officeMathJustification) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int officeMathJustification)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | officeMathJustification | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

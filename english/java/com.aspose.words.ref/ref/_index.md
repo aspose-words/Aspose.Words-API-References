@@ -1,26 +1,26 @@
 ---
 title: Ref
 second_title: Aspose.Words for Java API Reference
-description: Represents Generic Out/Ref constructions
+description: 表示通用输出/参考结构
 type: docs
 weight: 10
-url: /java/com.aspose.words.ref/ref/
+url: /zh/java/com.aspose.words.ref/ref/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Ref
 ```
 
-Represents Generic Out/Ref constructions
-## Methods
+表示通用输出/参考结构
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
-| [getClass()](#getClass--) |  |
+| [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,33 +36,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get() {#get--}
 ```
 public Object get()
 ```
 
 
-Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions
+获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
 
-**Returns:**
+**退货:**
 java.lang.Object
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -71,8 +71,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -97,7 +97,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -115,8 +115,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -128,9 +128,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

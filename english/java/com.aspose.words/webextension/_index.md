@@ -1,38 +1,38 @@
 ---
 title: WebExtension
 second_title: Aspose.Words for Java API Reference
-description: Represents a web extension object.
+description: 表示一个 Web 扩展对象。
 type: docs
 weight: 611
-url: /java/com.aspose.words/webextension/
+url: /zh/java/com.aspose.words/webextension/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WebExtension
 ```
 
-Represents a web extension object.
+表示一个 Web 扩展对象。
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Office Add-ins**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlternateReferences()](#getAlternateReferences--) | Specifies alternate references to a web extension. |
-| [getBindings()](#getBindings--) | Specifies a list of web extension bindings. |
-| [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Uniquely identifies the web extension instance in the current document. |
-| [getProperties()](#getProperties--) | Represents a set of web extension custom properties. |
-| [getReference()](#getReference--) | Specifies the primary reference to an web extension. |
+| [getAlternateReferences()](#getAlternateReferences--) | 指定对 Web 扩展的替代引用。 |
+| [getBindings()](#getBindings--) | 指定 Web 扩展绑定列表。 |
+| [get班级()](#get班级--) |  |
+| [getId()](#getId--) | 唯一标识当前文档中的 Web 扩展实例。 |
+| [getProperties()](#getProperties--) | 表示一组 Web 扩展自定义属性。 |
+| [getReference()](#getReference--) | 指定对 Web 扩展的主要引用。 |
 | [hashCode()](#hashCode--) |  |
-| [isFrozen()](#isFrozen--) | Specifies whether the user can interact with the web extension or not. |
-| [isFrozen(boolean value)](#isFrozen-boolean-) | Specifies whether the user can interact with the web extension or not. |
+| [isFrozen()](#isFrozen--) | 指定用户是否可以与 Web 扩展交互。 |
+| [isFrozen(boolean value)](#isFrozen-boolean-) | 指定用户是否可以与 Web 扩展交互。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Uniquely identifies the web extension instance in the current document. |
+| [setId(String value)](#setId-java.lang.String-) | 唯一标识当前文档中的 Web 扩展实例。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,73 +45,73 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAlternateReferences() {#getAlternateReferences--}
 ```
 public WebExtensionReferenceCollection getAlternateReferences()
 ```
 
 
-Specifies alternate references to a web extension.
+指定对 Web 扩展的替代引用。
 
-**Returns:**
-[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - The corresponding [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) value.
+**退货:**
+[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) - 相应的[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection)价值。
 ### getBindings() {#getBindings--}
 ```
 public WebExtensionBindingCollection getBindings()
 ```
 
 
-Specifies a list of web extension bindings.
+指定 Web 扩展绑定列表。
 
-**Returns:**
-[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - The corresponding [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) value.
-### getClass() {#getClass--}
+**退货:**
+[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection) - 相应的[WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getId() {#getId--}
 ```
 public String getId()
 ```
 
 
-Uniquely identifies the web extension instance in the current document.
+唯一标识当前文档中的 Web 扩展实例。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getProperties() {#getProperties--}
 ```
 public WebExtensionPropertyCollection getProperties()
 ```
 
 
-Represents a set of web extension custom properties.
+表示一组 Web 扩展自定义属性。
 
-**Returns:**
-[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - The corresponding [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) value.
+**退货:**
+[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) - 相应的[WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection)价值。
 ### getReference() {#getReference--}
 ```
 public WebExtensionReference getReference()
 ```
 
 
-Specifies the primary reference to an web extension.
+指定对 Web 扩展的主要引用。
 
-**Returns:**
-[WebExtensionReference](../../com.aspose.words/webextensionreference) - The corresponding [WebExtensionReference](../../com.aspose.words/webextensionreference) value.
+**退货:**
+[WebExtensionReference](../../com.aspose.words/webextensionreference) - 相应的[WebExtensionReference](../../com.aspose.words/webextensionreference)价值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -120,30 +120,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isFrozen() {#isFrozen--}
 ```
 public boolean isFrozen()
 ```
 
 
-Specifies whether the user can interact with the web extension or not.
+指定用户是否可以与 Web 扩展交互。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isFrozen(boolean value) {#isFrozen-boolean-}
 ```
 public void isFrozen(boolean value)
 ```
 
 
-Specifies whether the user can interact with the web extension or not.
+指定用户是否可以与 Web 扩展交互。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -167,12 +167,12 @@ public void setId(String value)
 ```
 
 
-Uniquely identifies the web extension instance in the current document.
+唯一标识当前文档中的 Web 扩展实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### toString() {#toString--}
 ```
@@ -182,7 +182,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -200,8 +200,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -213,9 +213,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

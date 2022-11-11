@@ -1,42 +1,42 @@
 ---
 title: SignOptions
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify options for document signing.
+description: 允许指定文档签名的选项。
 type: docs
 weight: 523
-url: /java/com.aspose.words/signoptions/
+url: /zh/java/com.aspose.words/signoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class SignOptions
 ```
 
-Allows to specify options for document signing.
+允许指定文档签名的选项。
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Digital Signatures**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Specifies comments on the digital signature. |
-| [getDecryptionPassword()](#getDecryptionPassword--) | The password to decrypt source document. |
-| [getProviderId()](#getProviderId--) | Specifies the class ID of the signature provider. |
-| [getSignTime()](#getSignTime--) | The date of signing. |
-| [getSignatureLineId()](#getSignatureLineId--) | Signature line identifier. |
-| [getSignatureLineImage()](#getSignatureLineImage--) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [get班级()](#get班级--) |  |
+| [getComments()](#getComments--) | 指定对数字签名的注释。 |
+| [getDecryptionPassword()](#getDecryptionPassword--) | 解密源文档的密码。 |
+| [getProviderId()](#getProviderId--) | 指定签名提供者的类 ID。 |
+| [getSignTime()](#getSignTime--) | 签署日期。 |
+| [getSignatureLineId()](#getSignatureLineId--) | 签名行标识符。 |
+| [getSignatureLineImage()](#getSignatureLineImage--) | 将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline). |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComments(String value)](#setComments-java.lang.String-) | Specifies comments on the digital signature. |
-| [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | The password to decrypt source document. |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Specifies the class ID of the signature provider. |
-| [setSignTime(Date value)](#setSignTime-java.util.Date-) | The date of signing. |
-| [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID-) | Signature line identifier. |
-| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte---) | The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). |
+| [setComments(String value)](#setComments-java.lang.String-) | 指定对数字签名的注释。 |
+| [setDecryptionPassword(String value)](#setDecryptionPassword-java.lang.String-) | 解密源文档的密码。 |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | 指定签名提供者的类 ID。 |
+| [setSignTime(Date value)](#setSignTime-java.util.Date-) | 签署日期。 |
+| [setSignatureLineId(UUID value)](#setSignatureLineId-java.util.UUID-) | 签名行标识符。 |
+| [setSignatureLineImage(byte[] value)](#setSignatureLineImage-byte---) | 将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,89 +49,89 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
 ```
 
 
-Specifies comments on the digital signature. Default value is **empty string**.
+指定对数字签名的注释。默认值为**empty string**.
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getDecryptionPassword() {#getDecryptionPassword--}
 ```
 public String getDecryptionPassword()
 ```
 
 
-The password to decrypt source document. Default value is **empty string**. If OOXML document is encrypted, you should provide decryption password to decrypt source document before it will be signed. This is not required for documents in binary DOC format.
+解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该提供解密密码来解密源文档，然后才能对其进行签名。对于二进制 DOC 格式的文档，这不是必需的。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getProviderId() {#getProviderId--}
 ```
 public UUID getProviderId()
 ```
 
 
-Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
+指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider.
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
-The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\\SOFTWARE\\Microsoft\\Cryptography\\Defaults\\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**Returns:**
-java.util.UUID - The corresponding java.util.UUID value.
+**退货:**
+java.util.UUID - 对应的 java.util.UUID 值。
 ### getSignTime() {#getSignTime--}
 ```
 public Date getSignTime()
 ```
 
 
-The date of signing. Default value is **current time**.
+签署日期。默认值为**current time**.
 
-**Returns:**
-java.util.Date - The corresponding java.util.Date value.
+**退货:**
+java.util.Date - 对应的 java.util.Date 值。
 ### getSignatureLineId() {#getSignatureLineId--}
 ```
 public UUID getSignatureLineId()
 ```
 
 
-Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature).
+签名行标识符。默认值为**Empty (all zeroes) Guid**.设置后，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
-**Returns:**
-java.util.UUID - The corresponding java.util.UUID value.
+**退货:**
+java.util.UUID - 对应的 java.util.UUID 值。
 ### getSignatureLineImage() {#getSignatureLineImage--}
 ```
 public byte[] getSignatureLineImage()
 ```
 
 
-The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). Default value is  null .
+将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline).默认值为 null 。
 
-**Returns:**
-byte[] - The corresponding byte[] value.
+**退货:**
+字节[- 对应的字节[] 价值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,12 +164,12 @@ public void setComments(String value)
 ```
 
 
-Specifies comments on the digital signature. Default value is **empty string**.
+指定对数字签名的注释。默认值为**empty string**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setDecryptionPassword(String value) {#setDecryptionPassword-java.lang.String-}
 ```
@@ -177,12 +177,12 @@ public void setDecryptionPassword(String value)
 ```
 
 
-The password to decrypt source document. Default value is **empty string**. If OOXML document is encrypted, you should provide decryption password to decrypt source document before it will be signed. This is not required for documents in binary DOC format.
+解密源文档的密码。默认值为**empty string**.如果 OOXML 文档是加密的，您应该提供解密密码来解密源文档，然后才能对其进行签名。对于二进制 DOC 格式的文档，这不是必需的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setProviderId(UUID value) {#setProviderId-java.util.UUID-}
 ```
@@ -190,18 +190,18 @@ public void setProviderId(UUID value)
 ```
 
 
-Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**.
+指定签名提供者的类 ID。默认值为**Empty (all zeroes) Guid**.
 
-The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider.
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
-The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\\SOFTWARE\\Microsoft\\Cryptography\\Defaults\\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID | The corresponding java.util.UUID value. |
+| value | java.util.UUID | 对应的 java.util.UUID 值。 |
 
 ### setSignTime(Date value) {#setSignTime-java.util.Date-}
 ```
@@ -209,12 +209,12 @@ public void setSignTime(Date value)
 ```
 
 
-The date of signing. Default value is **current time**.
+签署日期。默认值为**current time**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The corresponding java.util.Date value. |
+| value | java.util.Date | 对应的 java.util.Date 值。 |
 
 ### setSignatureLineId(UUID value) {#setSignatureLineId-java.util.UUID-}
 ```
@@ -222,12 +222,12 @@ public void setSignatureLineId(UUID value)
 ```
 
 
-Signature line identifier. Default value is **Empty (all zeroes) Guid**. When set, it associates [SignatureLine](../../com.aspose.words/signatureline) with corresponding [DigitalSignature](../../com.aspose.words/digitalsignature).
+签名行标识符。默认值为**Empty (all zeroes) Guid**.设置后，它关联[SignatureLine](../../com.aspose.words/signatureline)与相应的[DigitalSignature](../../com.aspose.words/digitalsignature).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID | The corresponding java.util.UUID value. |
+| value | java.util.UUID | 对应的 java.util.UUID 值。 |
 
 ### setSignatureLineImage(byte[] value) {#setSignatureLineImage-byte---}
 ```
@@ -235,12 +235,12 @@ public void setSignatureLineImage(byte[] value)
 ```
 
 
-The image that will be shown in associated [SignatureLine](../../com.aspose.words/signatureline). Default value is  null .
+将在关联中显示的图像[SignatureLine](../../com.aspose.words/signatureline).默认值为 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | The corresponding byte[] value. |
+| value | byte[] | 对应的字节[] 价值。 |
 
 ### toString() {#toString--}
 ```
@@ -250,7 +250,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -268,8 +268,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -281,9 +281,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

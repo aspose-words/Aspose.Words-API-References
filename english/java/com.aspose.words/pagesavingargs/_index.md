@@ -1,36 +1,36 @@
 ---
 title: PageSavingArgs
-second_title: Aspose.Words for Java API Reference
-description: Provides data for the  event.
+second_title: Aspose.Words for Java API 参考
+description: 为事件提供数据。
 type: docs
 weight: 438
-url: /java/com.aspose.words/pagesavingargs/
+url: /zh/java/com.aspose.words/pagesavingargs/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PageSavingArgs
 ```
 
-Provides data for the [IPageSavingCallback.pageSaving(com.aspose.words.PageSavingArgs)](../../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-) event.
+提供数据为[IPageSavingCallback.pageSaving(com.aspose.words.PageSavingArgs)](../../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-)事件。
 
-To learn more, visit the **Programming with Documents** documentation article.
-## Methods
+要了解更多信息，请访问**Programming with Documents**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getKeepPageStreamOpen()](#getKeepPageStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
-| [getPageFileName()](#getPageFileName--) | Gets the file name where the document page will be saved to. |
-| [getPageIndex()](#getPageIndex--) | Current page index. |
+| [get班级()](#get班级--) |  |
+| [getKeepPageStreamOpen()](#getKeepPageStreamOpen--) | 指定 Aspose.Words 应该在保存文档页面后保持流打开还是关闭它。 |
+| [getPageFileName()](#getPageFileName--) | 获取将保存文档页面的文件名。 |
+| [getPageIndex()](#getPageIndex--) | 当前页面索引。 |
 | [getPageStream()](#getPageStream--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setKeepPageStreamOpen(boolean value)](#setKeepPageStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document page. |
-| [setPageFileName(String value)](#setPageFileName-java.lang.String-) | Sets the file name where the document page will be saved to. |
+| [setKeepPageStreamOpen(boolean value)](#setKeepPageStreamOpen-boolean-) | 指定 Aspose.Words 应该在保存文档页面后保持流打开还是关闭它。 |
+| [setPageFileName(String value)](#setPageFileName-java.lang.String-) | 设置将保存文档页面的文件名。 |
 | [setPageStream(OutputStream value)](#setPageStream-java.io.OutputStream-) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
@@ -44,57 +44,57 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getKeepPageStreamOpen() {#getKeepPageStreamOpen--}
 ```
 public boolean getKeepPageStreamOpen()
 ```
 
 
-Specifies whether Aspose.Words should keep the stream open or close it after saving a document page.
+指定 Aspose.Words 应该在保存文档页面后保持流打开还是关闭它。
 
-Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.PageSavingArgs.PageStream** property after writing a document page into it. Specify  true  to keep the stream open.
+默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.PageSavingArgs.PageStream**将文档页面写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.PageSavingArgs.PageStream**
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getPageFileName() {#getPageFileName--}
 ```
 public String getPageFileName()
 ```
 
 
-Gets the file name where the document page will be saved to. If not specified then page file name and path will be generated automatically using original file name.
+获取将保存文档页面的文件名。如果未指定，则将使用原始文件名自动生成页面文件名和路径。
 
-**Returns:**
-java.lang.String - The file name where the document page will be saved to.
+**退货:**
+java.lang.String - 文档页面将被保存到的文件名。
 ### getPageIndex() {#getPageIndex--}
 ```
 public int getPageIndex()
 ```
 
 
-Current page index.
+当前页面索引。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getPageStream() {#getPageStream--}
 ```
 public OutputStream getPageStream()
@@ -103,7 +103,7 @@ public OutputStream getPageStream()
 
 
 
-**Returns:**
+**退货:**
 java.io.OutputStream
 ### hashCode() {#hashCode--}
 ```
@@ -113,8 +113,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -137,16 +137,16 @@ public void setKeepPageStreamOpen(boolean value)
 ```
 
 
-Specifies whether Aspose.Words should keep the stream open or close it after saving a document page.
+指定 Aspose.Words 应该在保存文档页面后保持流打开还是关闭它。
 
-Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.PageSavingArgs.PageStream** property after writing a document page into it. Specify  true  to keep the stream open.
+默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.PageSavingArgs.PageStream**将文档页面写入其中后的属性。指定 true 以保持流打开。
 
 **P:Aspose.Words.Saving.PageSavingArgs.PageStream**
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPageFileName(String value) {#setPageFileName-java.lang.String-}
 ```
@@ -154,12 +154,12 @@ public void setPageFileName(String value)
 ```
 
 
-Sets the file name where the document page will be saved to. If not specified then page file name and path will be generated automatically using original file name.
+设置将保存文档页面的文件名。如果未指定，则将使用原始文件名自动生成页面文件名和路径。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The file name where the document page will be saved to. |
+| value | java.lang.String | 将保存文档页面的文件名。 |
 
 ### setPageStream(OutputStream value) {#setPageStream-java.io.OutputStream-}
 ```
@@ -169,8 +169,8 @@ public void setPageStream(OutputStream value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
 
@@ -182,7 +182,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -200,8 +200,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -213,9 +213,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

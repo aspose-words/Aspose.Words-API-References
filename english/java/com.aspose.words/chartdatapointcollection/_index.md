@@ -1,35 +1,35 @@
 ---
 title: ChartDataPointCollection
-second_title: Aspose.Words for Java API Reference
-description: Represents collection of a .
+second_title: Aspose.Words for Java API 参考
+description: 表示 a 的集合。
 type: docs
 weight: 61
-url: /java/com.aspose.words/chartdatapointcollection/
+url: /zh/java/com.aspose.words/chartdatapointcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class ChartDataPointCollection implements Iterable
 ```
 
-Represents collection of a [ChartDataPoint](../../com.aspose.words/chartdatapoint).
+代表一个集合[ChartDataPoint](../../com.aspose.words/chartdatapoint).
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clearFormat()](#clearFormat--) | Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [clearFormat()](#clearFormat--) | 清除所有格式[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection. |
+| [get(int index)](#get-int-) | 退货[ChartDataPoint](../../com.aspose.words/chartdatapoint)对于指定的索引。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 返回数量[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
+| [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -42,7 +42,7 @@ public void clearFormat()
 ```
 
 
-Clears format of all [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+清除所有格式[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -52,48 +52,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public ChartDataPoint get(int index)
 ```
 
 
-Returns [ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index.
+退货[ChartDataPoint](../../com.aspose.words/chartdatapoint)对于指定的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**Returns:**
-[ChartDataPoint](../../com.aspose.words/chartdatapoint) - \{[ChartDataPoint](../../com.aspose.words/chartdatapoint) for the specified index.
-### getClass() {#getClass--}
+**退货:**
+[ChartDataPoint](../../com.aspose.words/chartdatapoint) -\{[ChartDataPoint](../../com.aspose.words/chartdatapoint)对于指定的索引。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Returns the number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+返回数量[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。
 
-**Returns:**
-int - The number of [ChartDataPoint](../../com.aspose.words/chartdatapoint) in this collection.
+**退货:**
+ int - 的数量[ChartDataPoint](../../com.aspose.words/chartdatapoint)在这个集合中。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -102,17 +102,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator object.
+返回一个枚举器对象。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -138,7 +138,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -156,8 +156,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -169,9 +169,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

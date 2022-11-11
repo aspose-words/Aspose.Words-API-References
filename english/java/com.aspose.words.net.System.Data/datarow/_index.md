@@ -1,46 +1,46 @@
 ---
 title: DataRow
 second_title: Aspose.Words for Java API Reference
-description: Represents a row of data in a .
+description: 表示 a 中的一行数据。
 type: docs
 weight: 20
-url: /java/com.aspose.words.net.system.data/datarow/
+url: /zh/java/com.aspose.words.net.system.data/datarow/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DataRow
 ```
 
-Represents a row of data in a [DataTable](../../com.aspose.words.net.system.data/datatable).
-## Methods
+表示a中的一行数据[DataTable](../../com.aspose.words.net.system.data/datatable).
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [delete()](#delete--) | Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow). |
+| [delete()](#delete--) | 删除[DataRow](../../com.aspose.words.net.system.data/datarow). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn-) | Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [get(int columnIndex)](#get-int-) | Gets the data stored in the column specified by index. |
-| [get(String columnName)](#get-java.lang.String-) | Gets the data stored in the column specified by name. |
-| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation-) | Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getClass()](#getClass--) |  |
-| [getItemArray()](#getItemArray--) | Gets all the values for this row through an array. |
+| [get(System.Data.DataColumn column)](#get-com.aspose.words.net.System.Data.DataColumn-) | 获取存储在指定的数据[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [get(int columnIndex)](#get-int-) | 获取存储在索引指定的列中的数据。 |
+| [get(String columnName)](#get-java.lang.String-) | 获取存储在 name 指定的列中的数据。 |
+| [getChildRows(System.Data.DataRelation relation)](#getChildRows-com.aspose.words.net.System.Data.DataRelation-) | 获取 this 的子行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
+| [get班级()](#get班级--) |  |
+| [getItemArray()](#getItemArray--) | 通过数组获取该行的所有值。 |
 | [getKeyValues(System.Data.DataKey childKey)](#getKeyValues-com.aspose.words.net.System.Data.DataKey-) |  |
 | [getOriginalValue(String columnName)](#getOriginalValue-java.lang.String-) |  |
-| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation-) | Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation-) | Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation). |
-| [getRowState()](#getRowState--) | Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
-| [getTable()](#getTable--) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) for which this row has a schema. |
+| [getParentRow(System.Data.DataRelation relation)](#getParentRow-com.aspose.words.net.System.Data.DataRelation-) | 获取 a 的父行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
+| [getParentRows(System.Data.DataRelation relation)](#getParentRows-com.aspose.words.net.System.Data.DataRelation-) | 获取 a 的父行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation). |
+| [getRowState()](#getRowState--) | 获取行的当前状态与它的关系[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection). |
+| [getTable()](#getTable--) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)此行有一个架构。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet-) | Reads values from the java.sql.ResultSet |
+| [readFrom(ResultSet resultSet)](#readFrom-java.sql.ResultSet-) | 从 java.sql.ResultSet 中读取值 |
 | [remove(int index)](#remove-int-) |  |
-| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object-) | Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-| [set(int value, Object columnIndex)](#set-int-java.lang.Object-) | Sets the data stored in the column specified by index. |
-| [set(String value, Object columnName)](#set-java.lang.String-java.lang.Object-) | Sets the data stored in the column specified by name. |
-| [setItemArray(Object[] value)](#setItemArray-java.lang.Object---) | Sets all the values for this row through an array. |
+| [set(System.Data.DataColumn value, Object column)](#set-com.aspose.words.net.System.Data.DataColumn-java.lang.Object-) | 设置存储在指定的数据[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+| [set(int value, Object columnIndex)](#set-int-java.lang.Object-) | 设置存储在索引指定的列中的数据。 |
+| [set(String value, Object columnName)](#set-java.lang.String-java.lang.Object-) | 设置存储在由名称指定的列中的数据。 |
+| [setItemArray(Object[] value)](#setItemArray-java.lang.Object---) | 通过数组设置该行的所有值。 |
 | [setOriginalValue(String columnName, Object data)](#setOriginalValue-java.lang.String-java.lang.Object-) |  |
 | [setRowState(int state)](#setRowState-int-) |  |
 | [toString()](#toString--) |  |
@@ -53,7 +53,7 @@ public void delete()
 ```
 
 
-Deletes the [DataRow](../../com.aspose.words.net.system.data/datarow).
+删除[DataRow](../../com.aspose.words.net.system.data/datarow).
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -63,93 +63,93 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(System.Data.DataColumn column) {#get-com.aspose.words.net.System.Data.DataColumn-}
 ```
 public Object get(System.Data.DataColumn column)
 ```
 
 
-Gets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+获取存储在指定的数据[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn) that contains the data. |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)包含数据。 |
 
-**Returns:**
-java.lang.Object - An java.lang.Object that contains the data.
+**退货:**
+java.lang.Object - 包含数据的 java.lang.Object。
 ### get(int columnIndex) {#get-int-}
 ```
 public Object get(int columnIndex)
 ```
 
 
-Gets the data stored in the column specified by index.
+获取存储在索引指定的列中的数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnIndex | int | The zero-based index of the column. |
+| columnIndex | int | 列的从零开始的索引。 |
 
-**Returns:**
-java.lang.Object - An java.lang.Object that contains the data.
+**退货:**
+java.lang.Object - 包含数据的 java.lang.Object。
 ### get(String columnName) {#get-java.lang.String-}
 ```
 public Object get(String columnName)
 ```
 
 
-Gets the data stored in the column specified by name.
+获取存储在 name 指定的列中的数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| columnName | java.lang.String | The name of the column. |
+| columnName | java.lang.String | 列的名称。 |
 
-**Returns:**
-java.lang.Object - An java.lang.Object that contains the data.
+**退货:**
+java.lang.Object - 包含数据的 java.lang.Object。
 ### getChildRows(System.Data.DataRelation relation) {#getChildRows-com.aspose.words.net.System.Data.DataRelation-}
 ```
 public System.Data.DataRow[] getChildRows(System.Data.DataRelation relation)
 ```
 
 
-Gets the child rows of this [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+获取 this 的子行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 这[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用。 |
 
-**Returns:**
-com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow) objects or an array of length zero.
-### getClass() {#getClass--}
+**退货:**
+com.aspose.words.net.System.Data.DataRow[ ] - 一个数组[DataRow](../../com.aspose.words.net.system.data/datarow)对象或长度为零的数组。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getItemArray() {#getItemArray--}
 ```
 public Object[] getItemArray()
 ```
 
 
-Gets all the values for this row through an array.
+通过数组获取该行的所有值。
 
-**Returns:**
-java.lang.Object[] - An array of type java.lang.Object.
+**退货:**
+java.lang.Object[- java.lang.Object 类型的数组。
 ### getKeyValues(System.Data.DataKey childKey) {#getKeyValues-com.aspose.words.net.System.Data.DataKey-}
 ```
 public Object[] getKeyValues(System.Data.DataKey childKey)
@@ -158,12 +158,12 @@ public Object[] getKeyValues(System.Data.DataKey childKey)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | childKey | [DataKey](../../com.aspose.words.net.system.data/datakey) |  |
 
-**Returns:**
+**退货:**
 java.lang.Object[]
 ### getOriginalValue(String columnName) {#getOriginalValue-java.lang.String-}
 ```
@@ -173,12 +173,12 @@ public Object getOriginalValue(String columnName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnName | java.lang.String |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getParentRow(System.Data.DataRelation relation) {#getParentRow-com.aspose.words.net.System.Data.DataRelation-}
 ```
@@ -186,50 +186,50 @@ public System.Data.DataRow getParentRow(System.Data.DataRelation relation)
 ```
 
 
-Gets the parent row of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+获取 a 的父行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 这[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用。 |
 
-**Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - The parent [DataRow](../../com.aspose.words.net.system.data/datarow) of the current row.
+**退货:**
+[DataRow](../../com.aspose.words.net.system.data/datarow) - 父母[DataRow](../../com.aspose.words.net.system.data/datarow)当前行的。
 ### getParentRows(System.Data.DataRelation relation) {#getParentRows-com.aspose.words.net.System.Data.DataRelation-}
 ```
 public System.Data.DataRow[] getParentRows(System.Data.DataRelation relation)
 ```
 
 
-Gets the parent rows of a [DataRow](../../com.aspose.words.net.system.data/datarow) using the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation).
+获取 a 的父行[DataRow](../../com.aspose.words.net.system.data/datarow)使用指定的[DataRelation](../../com.aspose.words.net.system.data/datarelation).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The [DataRelation](../../com.aspose.words.net.system.data/datarelation) to use. |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 这[DataRelation](../../com.aspose.words.net.system.data/datarelation)使用。 |
 
-**Returns:**
-com.aspose.words.net.System.Data.DataRow[] - An array of [DataRow](../../com.aspose.words.net.system.data/datarow) objects or an array of length zero.
+**退货:**
+com.aspose.words.net.System.Data.DataRow[ ] - 一个数组[DataRow](../../com.aspose.words.net.system.data/datarow)对象或长度为零的数组。
 ### getRowState() {#getRowState--}
 ```
 public int getRowState()
 ```
 
 
-Gets the current state of the row with regard to its relationship to the [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
+获取行的当前状态与它的关系[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection).
 
-**Returns:**
-int - One of the [DataRowState](../../com.aspose.words.net.system.data/datarowstate) values. The returned value is a bitwise combination of [DataRowState](../../com.aspose.words.net.system.data/datarowstate) constants.
+**退货:**
+int - 其中之一[DataRowState](../../com.aspose.words.net.system.data/datarowstate)价值观。返回值是按位组合[DataRowState](../../com.aspose.words.net.system.data/datarowstate)常数。
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) for which this row has a schema.
+获取[DataTable](../../com.aspose.words.net.system.data/datatable)此行有一个架构。
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - The [DataTable](../../com.aspose.words.net.system.data/datatable) to which this row belongs.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 这[DataTable](../../com.aspose.words.net.system.data/datatable)该行所属的。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -238,8 +238,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -262,15 +262,15 @@ public boolean readFrom(ResultSet resultSet)
 ```
 
 
-Reads values from the java.sql.ResultSet
+从 java.sql.ResultSet 中读取值
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| resultSet | java.sql.ResultSet | storage to read from |
+| resultSet | java.sql.ResultSet | 要读取的存储 |
 
-**Returns:**
-boolean - true if no read errors occurred
+**退货:**
+boolean - 如果没有发生读取错误，则为 true
 ### remove(int index) {#remove-int-}
 ```
 public void remove(int index)
@@ -279,8 +279,8 @@ public void remove(int index)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
@@ -290,13 +290,13 @@ public void set(System.Data.DataColumn value, Object column)
 ```
 
 
-Sets the data stored in the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+设置存储在指定的数据[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | An java.lang.Object that contains the data. |
-| column | java.lang.Object | A [DataColumn](../../com.aspose.words.net.system.data/datacolumn) that contains the data. |
+| value | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 包含数据的 java.lang.Object。 |
+| column | java.lang.Object | 一个[DataColumn](../../com.aspose.words.net.system.data/datacolumn)包含数据。 |
 
 ### set(int value, Object columnIndex) {#set-int-java.lang.Object-}
 ```
@@ -304,13 +304,13 @@ public void set(int value, Object columnIndex)
 ```
 
 
-Sets the data stored in the column specified by index.
+设置存储在索引指定的列中的数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | An java.lang.Object that contains the data. |
-| columnIndex | java.lang.Object | The zero-based index of the column. |
+| value | int | 包含数据的 java.lang.Object。 |
+| columnIndex | java.lang.Object | 列的从零开始的索引。 |
 
 ### set(String value, Object columnName) {#set-java.lang.String-java.lang.Object-}
 ```
@@ -318,13 +318,13 @@ public void set(String value, Object columnName)
 ```
 
 
-Sets the data stored in the column specified by name.
+设置存储在由名称指定的列中的数据。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | An java.lang.Object that contains the data. |
-| columnName | java.lang.Object | The name of the column. |
+| value | java.lang.String | 包含数据的 java.lang.Object。 |
+| columnName | java.lang.Object | 列的名称。 |
 
 ### setItemArray(Object[] value) {#setItemArray-java.lang.Object---}
 ```
@@ -332,12 +332,12 @@ public void setItemArray(Object[] value)
 ```
 
 
-Sets all the values for this row through an array.
+通过数组设置该行的所有值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object[] | An array of type java.lang.Object. |
+| value | java.lang.Object[] | java.lang.Object 类型的数组。 |
 
 ### setOriginalValue(String columnName, Object data) {#setOriginalValue-java.lang.String-java.lang.Object-}
 ```
@@ -347,8 +347,8 @@ public void setOriginalValue(String columnName, Object data)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnName | java.lang.String |  |
 | data | java.lang.Object |  |
@@ -361,8 +361,8 @@ public void setRowState(int state)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | state | int |  |
 
@@ -374,7 +374,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -392,8 +392,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -405,9 +405,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

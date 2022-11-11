@@ -1,36 +1,36 @@
 ---
 title: HtmlInsertOptions
-second_title: Aspose.Words for Java API Reference
-description: Specifies options for the MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions method.
+second_title: Aspose.Words for Java API 参考
+description: 指定 MAspose.Words.DocumentBuilder.InsertHtmlSystem.StringAspose.Words.HtmlInsertOptions 方法的选项。
 type: docs
 weight: 327
-url: /java/com.aspose.words/htmlinsertoptions/
+url: /zh/java/com.aspose.words/htmlinsertoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class HtmlInsertOptions
 ```
 
-Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** method.
-## Fields
+指定选项**M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)**方法。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [NONE](#NONE) | Use the default options when inserting HTML. |
-| [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | Preserve properties of block-level elements. |
-| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. |
-| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML. |
+| [NONE](#NONE) | 插入 HTML 时使用默认选项。 |
+| [PRESERVE_BLOCKS](#PRESERVE-BLOCKS) | 保留块级元素的属性。 |
+| [REMOVE_LAST_EMPTY_PARAGRAPH](#REMOVE-LAST-EMPTY-PARAGRAPH) | 删除通常插入到以块级元素结尾的 HTML 之后的空段落。 |
+| [USE_BUILDER_FORMATTING](#USE-BUILDER-FORMATTING) | 使用中指定的字体和段落格式[DocumentBuilder](../../com.aspose.words/documentbuilder)作为从 HTML 插入的文本的基本格式。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlInsertOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set htmlInsertOptionsNames)](#fromNames-java.util.Set-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int htmlInsertOptions)](#getName-int-) |  |
 | [getNames(int htmlInsertOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -49,7 +49,7 @@ public static int NONE
 ```
 
 
-Use the default options when inserting HTML.
+插入 HTML 时使用默认选项。
 
 ### PRESERVE_BLOCKS {#PRESERVE-BLOCKS}
 ```
@@ -57,13 +57,13 @@ public static int PRESERVE_BLOCKS
 ```
 
 
-Preserve properties of block-level elements.
+保留块级元素的属性。
 
-By default, properties of parent blocks are merged and stored on their child elements (i.e. paragraphs or tables). If this option is specified, properties of each block are stored separately in a special logical structure. As a result, this option allows to better preserve individual borders and margins seen in the HTML document and get better conversion results. The downside is that the resulting document gets harder to modify, since borders and margins stored in the logical structure are not available for editing.
+默认情况下，父块的属性被合并并存储在其子元素（即段落或表格）中。如果指定此选项，则每个块的属性将单独存储在特殊的逻辑结构中。因此，此选项可以更好地保留 HTML 文档中的各个边框和边距，并获得更好的转换结果。缺点是生成的文档更难修改，因为存储在逻辑结构中的边框和边距不可用于编辑。
 
-Only margins and borders of 'body', 'div', and 'blockquote' HTML elements are preserved. Properties of each HTML element are stored separately.
+仅保留“body”、“div”和“blockquote”HTML 元素的边距和边框。每个 HTML 元素的属性都是单独存储的。
 
-If this option is specified, Aspose.Words mimics MS Word's behavior regarding import of block properties.
+如果指定了此选项，Aspose.Words 会模仿 MS Word 的有关导入块属性的行为。
 
 ### REMOVE_LAST_EMPTY_PARAGRAPH {#REMOVE-LAST-EMPTY-PARAGRAPH}
 ```
@@ -71,7 +71,7 @@ public static int REMOVE_LAST_EMPTY_PARAGRAPH
 ```
 
 
-Remove the empty paragraph that is normally inserted after HTML that ends with a block-level element. By default, [DocumentBuilder](../../com.aspose.words/documentbuilder) makes sure that the last block-level element imported from HTML is closed after import and inserts a paragraph break after the element. This paragraph break separates content imported from HTML from content of the template document. However, if a HTML fragment is inserted into an empty paragraph, that paragraph break will create an extra empty paragraph. If this behavior is undesired, specify this option.
+删除通常插入到以块级元素结尾的 HTML 之后的空段落。默认，[DocumentBuilder](../../com.aspose.words/documentbuilder)确保从 HTML 导入的最后一个块级元素在导入后关闭，并在元素后插入一个分节符。此段落分隔符将从 HTML 导入的内容与模板文档的内容分开。但是，如果将 HTML 片段插入到空段落中，则该段落分隔符将创建一个额外的空段落。如果不希望出现这种行为，请指定此选项。
 
 ### USE_BUILDER_FORMATTING {#USE-BUILDER-FORMATTING}
 ```
@@ -79,11 +79,11 @@ public static int USE_BUILDER_FORMATTING
 ```
 
 
-Use font and paragraph formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder) as base formatting for text inserted from HTML.
+使用中指定的字体和段落格式[DocumentBuilder](../../com.aspose.words/documentbuilder)作为从 HTML 插入的文本的基本格式。
 
-If this option is not specified, formatting of [DocumentBuilder](../../com.aspose.words/documentbuilder) is ignored and text is inserted with default HTML formatting. As a result, the text looks as it is rendered in browsers.
+如果未指定此选项，则格式化[DocumentBuilder](../../com.aspose.words/documentbuilder)被忽略并使用默认 HTML 格式插入文本。因此，文本看起来就像在浏览器中呈现的一样。
 
-If this option is specified, formatting of inserted text is based on formatting specified in [DocumentBuilder](../../com.aspose.words/documentbuilder), and the text looks as if it were inserted using [DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
+如果指定了此选项，则插入文本的格式将基于中指定的格式[DocumentBuilder](../../com.aspose.words/documentbuilder)，并且文本看起来好像是使用[DocumentBuilder.write(java.lang.String)](../../com.aspose.words/documentbuilder\#write-java.lang.String-).
 
 ### length {#length}
 ```
@@ -99,13 +99,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String htmlInsertOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlInsertOptionsName)
@@ -114,13 +114,13 @@ public static int fromName(String htmlInsertOptionsName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlInsertOptionsName | java.lang.String |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### fromNames(Set htmlInsertOptionsNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set htmlInsertOptionsNames)
@@ -129,23 +129,23 @@ public static int fromNames(Set htmlInsertOptionsNames)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlInsertOptionsNames | java.util.Set |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int htmlInsertOptions) {#getName-int-}
 ```
 public static String getName(int htmlInsertOptions)
@@ -154,12 +154,12 @@ public static String getName(int htmlInsertOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getNames(int htmlInsertOptions) {#getNames-int-}
 ```
@@ -169,12 +169,12 @@ public static Set getNames(int htmlInsertOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Returns:**
+**退货:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -184,8 +184,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -194,8 +194,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -220,7 +220,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int htmlInsertOptions) {#toString-int-}
 ```
@@ -230,12 +230,12 @@ public static String toString(int htmlInsertOptions)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | htmlInsertOptions | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -245,12 +245,12 @@ public static String toStringSet(int attr)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | attr | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -268,8 +268,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -281,9 +281,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

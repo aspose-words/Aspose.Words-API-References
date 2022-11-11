@@ -1,51 +1,51 @@
 ---
 title: CustomDocumentProperties
-second_title: Aspose.Words for Java API Reference
-description: A collection of custom document properties.
+second_title: Aspose.Words for Java API 参考
+description: 自定义文档属性的集合。
 type: docs
 weight: 101
-url: /java/com.aspose.words/customdocumentproperties/
+url: /zh/java/com.aspose.words/customdocumentproperties/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.DocumentPropertyCollection](../../com.aspose.words/documentpropertycollection)
 ```
 public class CustomDocumentProperties extends DocumentPropertyCollection
 ```
 
-A collection of custom document properties.
+自定义文档属性的集合。
 
-To learn more, visit the **Work with Document Properties** documentation article.
+要了解更多信息，请访问**Work with Document Properties**文档文章。
 
-Each [DocumentProperty](../../com.aspose.words/documentproperty) object represents a custom property of a container document.
+每个[DocumentProperty](../../com.aspose.words/documentproperty)object 表示容器文档的自定义属性。
 
-The names of the properties are case-insensitive.
+属性名称不区分大小写。
 
-The properties in the collection are sorted alphabetically by name.
-## Methods
+集合中的属性按名称的字母顺序排序。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(String name, boolean value)](#add-java.lang.String-boolean-) | Creates a new custom document property of the **PropertyType.Boolean** data type. |
-| [add(String name, double value)](#add-java.lang.String-double-) | Creates a new custom document property of the **PropertyType.Float** data type. |
-| [add(String name, int value)](#add-java.lang.String-int-) | Creates a new custom document property of the **PropertyType.Number** data type. |
-| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | Creates a new custom document property. |
-| [add(String name, Date value)](#add-java.lang.String-java.util.Date-) | Creates a new custom document property of the **PropertyType.DateTime** data type. |
-| [addLinkToContent(String name, String linkSource)](#addLinkToContent-java.lang.String-java.lang.String-) | Creates a new linked to content custom document property. |
-| [clear()](#clear--) | Removes all properties from the collection. |
-| [contains(String name)](#contains-java.lang.String-) | Returns true if a property with the specified name exists in the collection. |
+| [add(String name, boolean value)](#add-java.lang.String-boolean-) | 创建一个新的自定义文档属性**Property类型.Boolean**数据类型。 |
+| [add(String name, double value)](#add-java.lang.String-double-) | 创建一个新的自定义文档属性**Property类型.Float**数据类型。 |
+| [add(String name, int value)](#add-java.lang.String-int-) | 创建一个新的自定义文档属性**Property类型.Number**数据类型。 |
+| [add(String name, String value)](#add-java.lang.String-java.lang.String-) | 创建一个新的自定义文档属性。 |
+| [add(String name, Date value)](#add-java.lang.String-java.util.Date-) | 创建一个新的自定义文档属性**Property类型.DateTime**数据类型。 |
+| [addLinkToContent(String name, String linkSource)](#addLinkToContent-java.lang.String-java.lang.String-) | 创建一个新的链接到内容自定义文档属性。 |
+| [clear()](#clear--) | 从集合中删除所有属性。 |
+| [contains(String name)](#contains-java.lang.String-) | 如果集合中存在具有指定名称的属性，则返回 true。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
-| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets number of items in the collection. |
+| [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
+| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中的项目数。 |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(String name)](#indexOf-java.lang.String-) | Gets the index of a property by name. |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [indexOf(String name)](#indexOf-java.lang.String-) | 按名称获取属性的索引。 |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
+| [remove(String name)](#remove-java.lang.String-) | 从集合中移除具有指定名称的属性。 |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的属性。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,103 +56,103 @@ public DocumentProperty add(String name, boolean value)
 ```
 
 
-Creates a new custom document property of the **PropertyType.Boolean** data type.
+创建一个新的自定义文档属性**Property类型.Boolean**数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | boolean | The value of the property. |
+| name | java.lang.String | 属性的名称。 |
+| value | boolean | 财产的价值。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 新创建的属性对象。
 ### add(String name, double value) {#add-java.lang.String-double-}
 ```
 public DocumentProperty add(String name, double value)
 ```
 
 
-Creates a new custom document property of the **PropertyType.Float** data type.
+创建一个新的自定义文档属性**Property类型.Float**数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | double | The value of the property. |
+| name | java.lang.String | 属性的名称。 |
+| value | double | 财产的价值。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 新创建的属性对象。
 ### add(String name, int value) {#add-java.lang.String-int-}
 ```
 public DocumentProperty add(String name, int value)
 ```
 
 
-Creates a new custom document property of the **PropertyType.Number** data type.
+创建一个新的自定义文档属性**Property类型.Number**数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | int | The value of the property. |
+| name | java.lang.String | 属性的名称。 |
+| value | int | 财产的价值。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 新创建的属性对象。
 ### add(String name, String value) {#add-java.lang.String-java.lang.String-}
 ```
 public DocumentProperty add(String name, String value)
 ```
 
 
-Creates a new custom document property.  Creates a new custom document property of the **PropertyType.String** data type.
+创建一个新的自定义文档属性。创建一个新的自定义文档属性**Property类型.String**数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | java.lang.String | The value of the property. |
+| name | java.lang.String | 属性的名称。 |
+| value | java.lang.String | 财产的价值。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 新创建的属性对象。
 ### add(String name, Date value) {#add-java.lang.String-java.util.Date-}
 ```
 public DocumentProperty add(String name, Date value)
 ```
 
 
-Creates a new custom document property of the **PropertyType.DateTime** data type.
+创建一个新的自定义文档属性**Property类型.DateTime**数据类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| value | java.util.Date | The value of the property. |
+| name | java.lang.String | 属性的名称。 |
+| value | java.util.Date | 财产的价值。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 新创建的属性对象。
 ### addLinkToContent(String name, String linkSource) {#addLinkToContent-java.lang.String-java.lang.String-}
 ```
 public DocumentProperty addLinkToContent(String name, String linkSource)
 ```
 
 
-Creates a new linked to content custom document property.
+创建一个新的链接到内容自定义文档属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The name of the property. |
-| linkSource | java.lang.String | The source of the property. |
+| name | java.lang.String | 属性的名称。 |
+| linkSource | java.lang.String | 财产的来源。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The newly created property object or null when the linkSource is invalid.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) 新创建的属性对象或链接源无效时为空。
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-Removes all properties from the collection.
+从集合中删除所有属性。
 
 ### contains(String name) {#contains-java.lang.String-}
 ```
@@ -160,15 +160,15 @@ public boolean contains(String name)
 ```
 
 
-Returns true if a property with the specified name exists in the collection.
+如果集合中存在具有指定名称的属性，则返回 true。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**Returns:**
-boolean - True if the property exists in the collection; false otherwise.
+**退货:**
+boolean - 如果属性存在于集合中，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -177,67 +177,67 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public DocumentProperty get(int index)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty) to retrieve. |
+| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 ### get(String name) {#get-java.lang.String-}
 ```
 public DocumentProperty get(String name)
 ```
 
 
-Provides access to the collection items.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by the name of the property.
+提供对集合项目的访问。返回一个[DocumentProperty](../../com.aspose.words/documentproperty)对象的属性名称。
 
-Returns null if a property with the specified name is not found.
+如果未找到具有指定名称的属性，则返回 null。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property to retrieve. |
+| name | java.lang.String | 要检索的属性的不区分大小写的名称。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
-### getClass() {#getClass--}
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets number of items in the collection.
+获取集合中的项目数。
 
-**Returns:**
-int - Number of items in the collection.
+**退货:**
+int - 集合中的项目数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -246,34 +246,34 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(String name) {#indexOf-java.lang.String-}
 ```
 public int indexOf(String name)
 ```
 
 
-Gets the index of a property by name.
+按名称获取属性的索引。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**Returns:**
-int - The zero based index. Negative value if not found.
+**退货:**
+int - 从零开始的索引。如果未找到，则为负值。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -297,12 +297,12 @@ public void remove(String name)
 ```
 
 
-Removes a property with the specified name from the collection.
+从集合中移除具有指定名称的属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -310,14 +310,14 @@ public void removeAt(int index)
 ```
 
 
-Removes a property at the specified index.
+删除指定索引处的属性。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero based index. |
+| index | int | 从零开始的索引。 |
 
 ### toString() {#toString--}
 ```
@@ -327,7 +327,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -345,8 +345,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -358,9 +358,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

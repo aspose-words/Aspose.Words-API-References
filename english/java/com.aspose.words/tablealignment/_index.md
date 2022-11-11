@@ -1,34 +1,34 @@
 ---
 title: TableAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies alignment for an inline table.
+description: 指定内联表的对齐方式。
 type: docs
 weight: 549
-url: /java/com.aspose.words/tablealignment/
+url: /zh/java/com.aspose.words/tablealignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TableAlignment
 ```
 
-Specifies alignment for an inline table.
-## Fields
+指定内联表的对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CENTER](#CENTER) | The table is centered. |
-| [LEFT](#LEFT) | The table is aligned to the left. |
-| [RIGHT](#RIGHT) | The table is aligned to the right. |
+| [CENTER](#CENTER) | 表格居中。 |
+| [LEFT](#LEFT) | 表格向左对齐。 |
+| [RIGHT](#RIGHT) | 表格向右对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int tableAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int CENTER
 ```
 
 
-The table is centered.
+表格居中。
 
 ### LEFT {#LEFT}
 ```
@@ -53,7 +53,7 @@ public static int LEFT
 ```
 
 
-The table is aligned to the left.
+表格向左对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -61,7 +61,7 @@ public static int RIGHT
 ```
 
 
-The table is aligned to the right.
+表格向右对齐。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String tableAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tableAlignmentName)
@@ -92,23 +92,23 @@ public static int fromName(String tableAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int tableAlignment) {#getName-int-}
 ```
 public static String getName(int tableAlignment)
@@ -117,12 +117,12 @@ public static String getName(int tableAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int tableAlignment) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int tableAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

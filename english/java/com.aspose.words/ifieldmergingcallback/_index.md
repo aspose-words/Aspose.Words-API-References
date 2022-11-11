@@ -1,45 +1,44 @@
 ---
-title: IFieldMergingCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
+title: I字段MergingCallback
+second_title: Aspose.Words for Java API 参考
+description: 如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。
 type: docs
 weight: 641
-url: /java/com.aspose.words/ifieldmergingcallback/
+url: /zh/java/com.aspose.words/ifieldmergingcallback/
 ---
 ```
-public interface IFieldMergingCallback
+public interface I字段MergingCallback
 ```
 
-Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation.
-## Methods
+如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [fieldMerging(FieldMergingArgs args)](#fieldMerging-com.aspose.words.FieldMergingArgs-) | Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document. |
-| [imageFieldMerging(ImageFieldMergingArgs args)](#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-) | Called when the Aspose.Words mail merge engine is about to insert an image into a merge field. |
-### fieldMerging(FieldMergingArgs args) {#fieldMerging-com.aspose.words.FieldMergingArgs-}
+| [fieldMerging(字段MergingArgs args)](#fieldMerging-com.aspose.words.字段MergingArgs-) | 当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用。 |
+| [image字段Merging(Image字段MergingArgs args)](#image字段Merging-com.aspose.words.Image字段MergingArgs-) | 当 Aspose.Words 邮件合并引擎将图像插入合并字段时调用。 |
+### fieldMerging(字段MergingArgs args) {#fieldMerging-com.aspose.words.字段MergingArgs-}
 ```
-public abstract void fieldMerging(FieldMergingArgs args)
+public abstract void fieldMerging(字段MergingArgs args)
 ```
 
 
-Called when the Aspose.Words mail merge engine is about to insert data into a merge field in the document.
+当 Aspose.Words 邮件合并引擎即将将数据插入文档中的合并字段时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | [FieldMergingArgs](../../com.aspose.words/fieldmergingargs) |  |
+| args | [字段MergingArgs](../../com.aspose.words/fieldmergingargs) |  |
 
-### imageFieldMerging(ImageFieldMergingArgs args) {#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-}
+### image字段Merging(Image字段MergingArgs args) {#image字段Merging-com.aspose.words.Image字段MergingArgs-}
 ```
-public abstract void imageFieldMerging(ImageFieldMergingArgs args)
+public abstract void image字段Merging(Image字段MergingArgs args)
 ```
 
 
-Called when the Aspose.Words mail merge engine is about to insert an image into a merge field.
+当 Aspose.Words 邮件合并引擎将图像插入合并字段时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | [ImageFieldMergingArgs](../../com.aspose.words/imagefieldmergingargs) |  |
-
+| args | [Image字段MergingArgs](../../com.aspose.words/imagefieldmergingargs) |  |

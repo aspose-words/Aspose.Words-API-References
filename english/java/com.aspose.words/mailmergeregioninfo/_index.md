@@ -1,34 +1,34 @@
 ---
 title: MailMergeRegionInfo
-second_title: Aspose.Words for Java API Reference
-description: Contains information about a mail merge region.
+second_title: Aspose.Words for Java API 参考
+description: 包含有关邮件合并区域的信息。
 type: docs
 weight: 385
-url: /java/com.aspose.words/mailmergeregioninfo/
+url: /zh/java/com.aspose.words/mailmergeregioninfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class MailMergeRegionInfo
 ```
 
-Contains information about a mail merge region.
+包含有关邮件合并区域的信息。
 
-To learn more, visit the **Mail Merge and Reporting** documentation article.
-## Methods
+要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEndField()](#getEndField--) | Returns an end field for the region. |
-| [getFields()](#getFields--) | Returns a list of child fields. |
-| [getLevel()](#getLevel--) | Returns the nesting level for the region. |
-| [getName()](#getName--) | Returns the name of region. |
-| [getParentRegion()](#getParentRegion--) | Returns parent region info (null for top-level region). |
-| [getRegions()](#getRegions--) | Returns a list of child regions. |
-| [getStartField()](#getStartField--) | Returns a start field for the region. |
+| [get班级()](#get班级--) |  |
+| [getEnd字段()](#getEnd字段--) | 返回区域的结束字段。 |
+| [get字段()](#get字段--) | 返回子字段的列表。 |
+| [getLevel()](#getLevel--) | 返回区域的嵌套级别。 |
+| [getName()](#getName--) | 返回区域的名称。 |
+| [getParentRegion()](#getParentRegion--) | 返回父区域信息（顶级区域为 null）。 |
+| [getRegions()](#getRegions--) | 返回子区域的列表。 |
+| [getStart字段()](#getStart字段--) | 返回区域的起始字段。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -44,93 +44,93 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getEndField() {#getEndField--}
-```
-public FieldMergeField getEndField()
+public final native 班级<?> get班级()
 ```
 
 
-Returns an end field for the region.
 
-**Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - An end field for the region.
-### getFields() {#getFields--}
+
+**退货:**
+java.lang.班级<?>
+### getEnd字段() {#getEnd字段--}
 ```
-public ArrayList getFields()
+public 字段Merge字段 getEnd字段()
 ```
 
 
-Returns a list of child fields.
+返回区域的结束字段。
 
-**Returns:**
-java.util.ArrayList - A list of child fields.
+**退货:**
+[字段Merge字段](../../com.aspose.words/fieldmergefield) - 区域的结束字段。
+### get字段() {#get字段--}
+```
+public ArrayList get字段()
+```
+
+
+返回子字段的列表。
+
+**退货:**
+java.util.ArrayList - 子字段列表。
 ### getLevel() {#getLevel--}
 ```
 public int getLevel()
 ```
 
 
-Returns the nesting level for the region.
+返回区域的嵌套级别。
 
-**Returns:**
-int - The nesting level for the region.
+**退货:**
+int - 区域的嵌套级别。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Returns the name of region.
+返回区域的名称。
 
-**Returns:**
-java.lang.String - The name of region.
+**退货:**
+java.lang.String - 区域名称。
 ### getParentRegion() {#getParentRegion--}
 ```
 public MailMergeRegionInfo getParentRegion()
 ```
 
 
-Returns parent region info (null for top-level region).
+返回父区域信息（顶级区域为 null）。
 
-**Returns:**
-[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo) - Parent region info (null for top-level region).
+**退货:**
+[MailMergeRegionInfo](../../com.aspose.words/mailmergeregioninfo) - 父区域信息（顶级区域为空）。
 ### getRegions() {#getRegions--}
 ```
 public ArrayList getRegions()
 ```
 
 
-Returns a list of child regions.
+返回子区域的列表。
 
-**Returns:**
-java.util.ArrayList - A list of child regions.
-### getStartField() {#getStartField--}
+**退货:**
+java.util.ArrayList - 子区域列表。
+### getStart字段() {#getStart字段--}
 ```
-public FieldMergeField getStartField()
+public 字段Merge字段 getStart字段()
 ```
 
 
-Returns a start field for the region.
+返回区域的起始字段。
 
-**Returns:**
-[FieldMergeField](../../com.aspose.words/fieldmergefield) - A start field for the region.
+**退货:**
+[字段Merge字段](../../com.aspose.words/fieldmergefield) - 区域的起始字段。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -139,8 +139,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -165,7 +165,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -183,8 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -196,9 +196,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

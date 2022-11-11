@@ -1,34 +1,34 @@
 ---
 title: FileFormatInfo
-second_title: Aspose.Words for Java API Reference
-description: Contains data returned by  document format detection methods.
+second_title: Aspose.Words for Java API 参考
+description: 包含文档格式检测方法返回的数据。
 type: docs
 weight: 265
-url: /java/com.aspose.words/fileformatinfo/
+url: /zh/java/com.aspose.words/fileformatinfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class FileFormatInfo
 ```
 
-Contains data returned by [FileFormatUtil](../../com.aspose.words/fileformatutil) document format detection methods.
+包含由返回的数据[FileFormatUtil](../../com.aspose.words/fileformatutil)文档格式检测方法。
 
-To learn more, visit the **Detect File Format and Check Format Compatibility** documentation article.
+要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
 
-You do not create instances of this class directly. Objects of this class are returned by **M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)** methods.
-## Methods
+您不直接创建此类的实例。此类的对象由以下方式返回**M:Aspose.Words.FileFormatUtil.DetectFileFormat(System.IO.Stream)**方法。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEncoding()](#getEncoding--) | Gets the detected encoding if applicable to the current document format. |
-| [getLoadFormat()](#getLoadFormat--) | Gets the detected document format. |
-| [hasDigitalSignature()](#hasDigitalSignature--) | Returns true if this document contains a digital signature. |
+| [get班级()](#get班级--) |  |
+| [getEncoding()](#getEncoding--) | 如果适用于当前文档格式，则获取检测到的编码。 |
+| [getLoadFormat()](#getLoadFormat--) | 获取检测到的文档格式。 |
+| [hasDigitalSignature()](#hasDigitalSignature--) | 如果此文档包含数字签名，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
-| [isEncrypted()](#isEncrypted--) | Returns true if the document is encrypted and requires a password to open. |
+| [isEncrypted()](#isEncrypted--) | 如果文档已加密并且需要密码才能打开，则返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -43,57 +43,57 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents.
+如果适用于当前文档格式，则获取检测到的编码。目前仅检测 HTML 文档的编码。
 
-**Returns:**
-java.nio.charset.Charset - The detected encoding if applicable to the current document format.
+**退货:**
+java.nio.charset.Charset - 检测到的编码（如果适用于当前文档格式）。
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public int getLoadFormat()
 ```
 
 
-Gets the detected document format.
+获取检测到的文档格式。
 
-When an OOXML document is encrypted, it is not possible to ascertained whether it is an Excel, Word or PowerPoint document without decrypting it first so for an encrypted OOXML document this property will always return [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+当 OOXML 文档被加密时，如果不首先解密就无法确定它是 Excel、Word 还是 PowerPoint 文档，因此对于加密的 OOXML 文档，此属性将始终返回[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 
-**Returns:**
-int - The detected document format. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
+**退货:**
+int - 检测到的文档格式。返回值是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。
 ### hasDigitalSignature() {#hasDigitalSignature--}
 ```
 public boolean hasDigitalSignature()
 ```
 
 
-Returns true if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not specify whether the signature is valid or not.
+如果此文档包含数字签名，则返回 true。此属性仅告知文档上存在数字签名，但并未指定签名是否有效。
 
-This property exists to help you sort documents that are digitally signed from those that are not. If you use Aspose.Words to modify and save a document that is digitally signed, then the digital signature will be lost. This is by design because a digital signature exists to guard the authenticity of a document. Using this property you can detect digitally signed documents before processing them in the same way as normal documents and take some action to avoid losing the digital signature, for example notify the user.
+此属性的存在是为了帮助您将经过数字签名的文档与未经过数字签名的文档分类。如果您使用 Aspose.Words 修改并保存经过数字签名的文档，则数字签名将丢失。这是设计使然，因为存在数字签名以保护文档的真实性。使用此属性，您可以在以与普通文档相同的方式处理它们之前检测数字签名的文档，并采取一些措施来避免丢失数字签名，例如通知用户。
 
-**Returns:**
-boolean - True if this document contains a digital signature.
+**退货:**
+boolean - 如果此文档包含数字签名，则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -102,20 +102,20 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isEncrypted() {#isEncrypted--}
 ```
 public boolean isEncrypted()
 ```
 
 
-Returns true if the document is encrypted and requires a password to open.
+如果文档已加密并且需要密码才能打开，则返回 true。
 
-This property exists to help you sort documents that are encrypted from those that are not. If you attempt to load an encrypted document using Aspose.Words without supplying a password an exception will be thrown. You can use this property to detect whether a document requires a password and take some action before loading a document, for example, prompt the user for a password.
+此属性的存在是为了帮助您对已加密的文档和未加密的文档进行排序。如果您尝试使用 Aspose.Words 加载加密文档而不提供密码，则会引发异常。您可以使用此属性来检测文档是否需要密码并在加载文档之前执行一些操作，例如提示用户输入密码。
 
-**Returns:**
-boolean - True if the document is encrypted and requires a password to open.
+**退货:**
+boolean - 如果文档已加密并且需要密码才能打开，则为真。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -140,7 +140,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -158,8 +158,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -171,9 +171,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

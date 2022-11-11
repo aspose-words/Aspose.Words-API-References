@@ -1,50 +1,50 @@
 ---
 title: FontInfo
-second_title: Aspose.Words for Java API Reference
-description: Specifies information about a font used in the document.
+second_title: Aspose.Words for Java API 参考
+description: 指定有关文档中使用的字体的信息。
 type: docs
 weight: 280
-url: /java/com.aspose.words/fontinfo/
+url: /zh/java/com.aspose.words/fontinfo/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class FontInfo implements Cloneable
 ```
 
-Specifies information about a font used in the document.
+指定有关文档中使用的字体的信息。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-You do not create instances of this class directly. Use the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property to access the collection of fonts defined in a document.
-## Methods
+您不直接创建此类的实例。使用[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性来访问文档中定义的字体集合。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAltName()](#getAltName--) | Gets the alternate name for the font. |
-| [getCharset()](#getCharset--) | Gets the character set for the font. |
-| [getClass()](#getClass--) |  |
+| [getAltName()](#getAltName--) | 获取字体的备用名称。 |
+| [getCharset()](#getCharset--) | 获取字体的字符集。 |
+| [get班级()](#get班级--) |  |
 | [getEmbeddedFont(int format, int style)](#getEmbeddedFont-int-int-) |  |
-| [getEmbeddedFontAsOpenType(int style)](#getEmbeddedFontAsOpenType-int-) |  |
-| [getFamily()](#getFamily--) | Gets the font family this font belongs to. |
-| [getName()](#getName--) | Gets the name of the font. |
-| [getPanose()](#getPanose--) | Gets the PANOSE typeface classification number. |
-| [getPitch()](#getPitch--) | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |
+| [getEmbeddedFontAsOpen类型(int style)](#getEmbeddedFontAsOpen类型-int-) |  |
+| [getFamily()](#getFamily--) | 获取此字体所属的字体系列。 |
+| [getName()](#getName--) | 获取字体的名称。 |
+| [getPanose()](#getPanose--) | 获取 PANOSE 字体分类号。 |
+| [getPitch()](#getPitch--) | 间距指示字体是固定间距、按比例间隔还是依赖于默认设置。 |
 | [hashCode()](#hashCode--) |  |
-| [isTrueType()](#isTrueType--) | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. |
-| [isTrueType(boolean value)](#isTrueType-boolean-) | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. |
+| [isTrue类型()](#isTrue类型--) | 指示此字体是 True类型 或 Open类型 字体，而不是光栅或矢量字体。 |
+| [isTrue类型(boolean value)](#isTrue类型-boolean-) | 指示此字体是 True类型 或 Open类型 字体，而不是光栅或矢量字体。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAltName(String value)](#setAltName-java.lang.String-) | Sets the alternate name for the font. |
-| [setCharset(int value)](#setCharset-int-) | Sets the character set for the font. |
-| [setFamily(int value)](#setFamily-int-) | Sets the font family this font belongs to. |
-| [setPanose(byte[] value)](#setPanose-byte---) | Sets the PANOSE typeface classification number. |
-| [setPitch(int value)](#setPitch-int-) | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |
+| [setAltName(String value)](#setAltName-java.lang.String-) | 设置字体的备用名称。 |
+| [setCharset(int value)](#setCharset-int-) | 设置字体的字符集。 |
+| [setFamily(int value)](#setFamily-int-) | 设置此字体所属的字体系列。 |
+| [setPanose(byte[] value)](#setPanose-byte---) | 设置 PANOSE 字体分类号。 |
+| [setPitch(int value)](#setPitch-int-) | 间距指示字体是固定间距、按比例间隔还是依赖于默认设置。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,45 +57,45 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAltName() {#getAltName--}
 ```
 public String getAltName()
 ```
 
 
-Gets the alternate name for the font.
+获取字体的备用名称。
 
-Cannot be  null . Can be an empty string.
+不能为 null 。可以是空字符串。
 
-**Returns:**
-java.lang.String - The alternate name for the font.
+**退货:**
+java.lang.String - 字体的备用名称。
 ### getCharset() {#getCharset--}
 ```
 public int getCharset()
 ```
 
 
-Gets the character set for the font.
+获取字体的字符集。
 
-**Returns:**
-int - The character set for the font.
-### getClass() {#getClass--}
+**退货:**
+int - 字体的字符集。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEmbeddedFont(int format, int style) {#getEmbeddedFont-int-int-}
 ```
 public byte[] getEmbeddedFont(int format, int style)
@@ -104,75 +104,75 @@ public byte[] getEmbeddedFont(int format, int style)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | format | int |  |
 | style | int |  |
 
-**Returns:**
-byte[]
-### getEmbeddedFontAsOpenType(int style) {#getEmbeddedFontAsOpenType-int-}
+**退货:**
+字节[]
+### getEmbeddedFontAsOpen类型(int style) {#getEmbeddedFontAsOpen类型-int-}
 ```
-public byte[] getEmbeddedFontAsOpenType(int style)
+public byte[] getEmbeddedFontAsOpen类型(int style)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getFamily() {#getFamily--}
 ```
 public int getFamily()
 ```
 
 
-Gets the font family this font belongs to.
+获取此字体所属的字体系列。
 
-**Returns:**
-int - The font family this font belongs to. The returned value is one of [FontFamily](../../com.aspose.words/fontfamily) constants.
+**退货:**
+ int - 此字体所属的字体系列。返回值是以下之一[FontFamily](../../com.aspose.words/fontfamily)常数。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Gets the name of the font.
+获取字体的名称。
 
-Cannot be  null . Can be an empty string.
+不能为 null 。可以是空字符串。
 
-**Returns:**
-java.lang.String - The name of the font.
+**退货:**
+java.lang.String - 字体的名称。
 ### getPanose() {#getPanose--}
 ```
 public byte[] getPanose()
 ```
 
 
-Gets the PANOSE typeface classification number.
+获取 PANOSE 字体分类号。
 
-PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
+PANOSE 是对字体关键视觉特征（例如对比度、粗细和衬线样式）的紧凑型 10 字节描述。数字代表家庭种类、衬线样式、重量、比例、对比度、笔画变化、手臂样式、字母形式、中线和 X 高度。
 
-Can be  null .
+可以为 null 。
 
-**Returns:**
-byte[] - The PANOSE typeface classification number.
+**退货:**
+字节[] - PANOSE 字体分类号。
 ### getPitch() {#getPitch--}
 ```
 public int getPitch()
 ```
 
 
-The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+间距指示字体是固定间距、按比例间隔还是依赖于默认设置。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [FontPitch](../../com.aspose.words/fontpitch) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[FontPitch](../../com.aspose.words/fontpitch)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -181,30 +181,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
-### isTrueType() {#isTrueType--}
+**退货:**
+整数
+### isTrue类型() {#isTrue类型--}
 ```
-public boolean isTrueType()
-```
-
-
-Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true.
-
-**Returns:**
-boolean - The corresponding  boolean  value.
-### isTrueType(boolean value) {#isTrueType-boolean-}
-```
-public void isTrueType(boolean value)
+public boolean isTrue类型()
 ```
 
 
-Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is true.
+指示此字体是 True类型 或 Open类型 字体，而不是光栅或矢量字体。默认为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+boolean - 对应的布尔值。
+### isTrue类型(boolean value) {#isTrue类型-boolean-}
+```
+public void isTrue类型(boolean value)
+```
+
+
+指示此字体是 True类型 或 Open类型 字体，而不是光栅或矢量字体。默认为真。
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -228,14 +228,14 @@ public void setAltName(String value)
 ```
 
 
-Sets the alternate name for the font.
+设置字体的备用名称。
 
-Cannot be  null . Can be an empty string.
+不能为 null 。可以是空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The alternate name for the font. |
+| value | java.lang.String | 字体的备用名称。 |
 
 ### setCharset(int value) {#setCharset-int-}
 ```
@@ -243,12 +243,12 @@ public void setCharset(int value)
 ```
 
 
-Sets the character set for the font.
+设置字体的字符集。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The character set for the font. |
+| value | int | 字体的字符集。 |
 
 ### setFamily(int value) {#setFamily-int-}
 ```
@@ -256,12 +256,12 @@ public void setFamily(int value)
 ```
 
 
-Sets the font family this font belongs to.
+设置此字体所属的字体系列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The font family this font belongs to. The value must be one of [FontFamily](../../com.aspose.words/fontfamily) constants. |
+| value | int | 此字体所属的字体系列。该值必须是以下之一[FontFamily](../../com.aspose.words/fontfamily)常数。 |
 
 ### setPanose(byte[] value) {#setPanose-byte---}
 ```
@@ -269,16 +269,16 @@ public void setPanose(byte[] value)
 ```
 
 
-Sets the PANOSE typeface classification number.
+设置 PANOSE 字体分类号。
 
-PANOSE is a compact 10-byte description of a fonts critical visual characteristics, such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style, Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
+PANOSE 是对字体关键视觉特征（例如对比度、粗细和衬线样式）的紧凑型 10 字节描述。数字代表家庭种类、衬线样式、重量、比例、对比度、笔画变化、手臂样式、字母形式、中线和 X 高度。
 
-Can be  null .
+可以为 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | The PANOSE typeface classification number. |
+| value | byte[] | PANOSE 字体分类号。 |
 
 ### setPitch(int value) {#setPitch-int-}
 ```
@@ -286,12 +286,12 @@ public void setPitch(int value)
 ```
 
 
-The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+间距指示字体是固定间距、按比例间隔还是依赖于默认设置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [FontPitch](../../com.aspose.words/fontpitch) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[FontPitch](../../com.aspose.words/fontpitch)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -301,7 +301,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -319,8 +319,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -332,9 +332,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

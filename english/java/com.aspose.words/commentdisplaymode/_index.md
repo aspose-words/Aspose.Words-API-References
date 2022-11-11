@@ -1,34 +1,34 @@
 ---
 title: CommentDisplayMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies the rendering mode for document comments.
+second_title: Aspose.Words for Java API 参考
+description: 指定文档注释的呈现模式。
 type: docs
 weight: 78
-url: /java/com.aspose.words/commentdisplaymode/
+url: /zh/java/com.aspose.words/commentdisplaymode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class CommentDisplayMode
 ```
 
-Specifies the rendering mode for document comments.
-## Fields
+指定文档注释的呈现模式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [HIDE](#HIDE) | No document comments are rendered. |
-| [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | Renders document comments in annotations. |
-| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | Renders document comments in balloons in the margin. |
+| [HIDE](#HIDE) | 不呈现文档注释。 |
+| [SHOW_IN_ANNOTATIONS](#SHOW-IN-ANNOTATIONS) | 在注释中呈现文档注释。 |
+| [SHOW_IN_BALLOONS](#SHOW-IN-BALLOONS) | 在边缘的气球中呈现文档注释。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String commentDisplayModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int commentDisplayMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int HIDE
 ```
 
 
-No document comments are rendered.
+不呈现文档注释。
 
 ### SHOW_IN_ANNOTATIONS {#SHOW-IN-ANNOTATIONS}
 ```
@@ -53,7 +53,7 @@ public static int SHOW_IN_ANNOTATIONS
 ```
 
 
-Renders document comments in annotations. This is only available for Pdf format.
+在注释中呈现文档注释。这仅适用于 Pdf 格式。
 
 ### SHOW_IN_BALLOONS {#SHOW-IN-BALLOONS}
 ```
@@ -61,7 +61,7 @@ public static int SHOW_IN_BALLOONS
 ```
 
 
-Renders document comments in balloons in the margin. This is the default value.
+在边缘的气球中呈现文档注释。这是默认值。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String commentDisplayModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String commentDisplayModeName)
@@ -92,23 +92,23 @@ public static int fromName(String commentDisplayModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int commentDisplayMode) {#getName-int-}
 ```
 public static String getName(int commentDisplayMode)
@@ -117,12 +117,12 @@ public static String getName(int commentDisplayMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int commentDisplayMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int commentDisplayMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | commentDisplayMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

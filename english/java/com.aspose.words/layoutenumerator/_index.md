@@ -1,53 +1,53 @@
 ---
 title: LayoutEnumerator
-second_title: Aspose.Words for Java API Reference
-description: Enumerates page layout entities of a document.
+second_title: Aspose.Words for Java API 参考
+description: 枚举文档的页面布局实体。
 type: docs
 weight: 360
-url: /java/com.aspose.words/layoutenumerator/
+url: /zh/java/com.aspose.words/layoutenumerator/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class LayoutEnumerator
 ```
 
-Enumerates page layout entities of a document. You can use this class to walk over the page layout model. Available properties are type, geometry, text and page index where entity is rendered, as well as overall structure and relationships. Use combination of [LayoutCollector.getEntity(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEntity-com.aspose.words.Node-) and [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-) move to the entity which corresponds to a document node.
+枚举文档的页面布局实体。您可以使用此类来遍历页面布局模型。可用属性包括类型、几何、文本和呈现实体的页面索引，以及整体结构和关系。使用组合[LayoutCollector.getEntity(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEntity-com.aspose.words.Node-)和[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)移动到对应于文档节点的实体。
 
-To learn more, visit the **Converting to Fixed-page Format** documentation article.
-## Constructors
+要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [LayoutEnumerator(Document document)](#LayoutEnumerator-com.aspose.words.Document-) | Initializes new instance of this class. |
-## Methods
+| [LayoutEnumerator(Document document)](#LayoutEnumerator-com.aspose.words.Document-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(String key)](#get-java.lang.String-) | Gets a named property of the entity. |
-| [getClass()](#getClass--) |  |
-| [getCurrent()](#getCurrent--) | Gets current position in the page layout model. |
-| [getDocument()](#getDocument--) | Gets document this instance enumerates. |
-| [getKind()](#getKind--) | Gets the kind of the current entity. |
-| [getPageIndex()](#getPageIndex--) | Gets the 1-based index of a page which contains the current entity. |
-| [getRectangle()](#getRectangle--) | Returns the bounding rectangle of the current entity relative to the page top left corner (in points). |
-| [getText()](#getText--) | Gets text of the current span entity. |
-| [getType()](#getType--) | Gets the type of the current entity. |
+| [get(String key)](#get-java.lang.String-) | 获取实体的命名属性。 |
+| [get班级()](#get班级--) |  |
+| [getCurrent()](#getCurrent--) | 获取页面布局模型中的当前位置。 |
+| [getDocument()](#getDocument--) | 获取此实例枚举的文档。 |
+| [getKind()](#getKind--) | 获取当前实体的种类。 |
+| [getPageIndex()](#getPageIndex--) | 获取包含当前实体的页面的从 1 开始的索引。 |
+| [getRectangle()](#getRectangle--) | 返回当前实体相对于页面左上角的边界矩形（以磅为单位）。 |
+| [getText()](#getText--) | 获取当前 span 实体的文本。 |
+| [get类型()](#get类型--) | 获取当前实体的类型。 |
 | [hashCode()](#hashCode--) |  |
-| [moveFirstChild()](#moveFirstChild--) | Moves to the first child entity. |
-| [moveLastChild()](#moveLastChild--) | Moves to the last child entity. |
-| [moveNext()](#moveNext--) | Moves to the next sibling entity in visual order. |
-| [moveNextLogical()](#moveNextLogical--) | Moves to the next sibling entity in a logical order. |
-| [moveParent()](#moveParent--) | Moves to the parent entity. |
+| [moveFirstChild()](#moveFirstChild--) | 移动到第一个子实体。 |
+| [moveLastChild()](#moveLastChild--) | 移动到最后一个子实体。 |
+| [moveNext()](#moveNext--) | 按视觉顺序移动到下一个兄弟实体。 |
+| [moveNextLogical()](#moveNextLogical--) | 按逻辑顺序移动到下一个兄弟实体。 |
+| [moveParent()](#moveParent--) | 移动到父实体。 |
 | [moveParent(int types)](#moveParent-int-) |  |
-| [movePrevious()](#movePrevious--) | Moves to the previous sibling entity. |
-| [movePreviousLogical()](#movePreviousLogical--) | Moves to the previous sibling entity in a logical order. |
+| [movePrevious()](#movePrevious--) | 移动到上一个兄弟实体。 |
+| [movePreviousLogical()](#movePreviousLogical--) | 按逻辑顺序移动到上一个兄弟实体。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [reset()](#reset--) | Moves the enumerator to the first page of the document. |
-| [setCurrent(Object value)](#setCurrent-java.lang.Object-) | Sets current position in the page layout model. |
+| [reset()](#reset--) | 将枚举器移动到文档的第一页。 |
+| [setCurrent(Object value)](#setCurrent-java.lang.Object-) | 设置页面布局模型中的当前位置。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -58,16 +58,16 @@ public LayoutEnumerator(Document document)
 ```
 
 
-Initializes new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | [Document](../../com.aspose.words/document) | A document whose page layout model to enumerate.
+| document | [Document](../../com.aspose.words/document) | 要枚举其页面布局模型的文档。
 
-If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) to build it.
+如果尚未建立文档的页面布局模型，则枚举器调用[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)建造它。
 
-Whenever document is updated and new page layout model is created, a new enumerator must be used to access it. |
+每当更新文档并创建新的页面布局模型时，都必须使用新的枚举器来访问它。|
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -77,108 +77,108 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(String key) {#get-java.lang.String-}
 ```
 public Object get(String key)
 ```
 
 
-Gets a named property of the entity.
+获取实体的命名属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | java.lang.String | A name of the property (case-sensitive). |
+| key | java.lang.String | 属性的名称（区分大小写）。 |
 
-**Returns:**
-java.lang.Object - Null if property is not available, otherwise value of the property. This is currently used to get font properties of spans. See [Font](../../com.aspose.words/font) class for possible properties names. Not all properties are supported.
-### getClass() {#getClass--}
+**退货:**
+java.lang.Object - 如果属性不可用，则为 Null，否则为属性值。这目前用于获取跨度的字体属性。看[Font](../../com.aspose.words/font)可能的属性名称的类。并非所有属性都受支持。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCurrent() {#getCurrent--}
 ```
 public Object getCurrent()
 ```
 
 
-Gets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity.
+获取页面布局模型中的当前位置。此属性返回对应于当前布局实体的不透明对象。
 
-**Returns:**
-java.lang.Object - Current position in the page layout model.
+**退货:**
+java.lang.Object - 页面布局模型中的当前位置。
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
 ```
 
 
-Gets document this instance enumerates.
+获取此实例枚举的文档。
 
-**Returns:**
-[Document](../../com.aspose.words/document) - Document this instance enumerates.
+**退货:**
+[Document](../../com.aspose.words/document) - 记录此实例枚举。
 ### getKind() {#getKind--}
 ```
 public String getKind()
 ```
 
 
-Gets the kind of the current entity. This can be an empty string but never null. This is a more specific type of the current entity, e.g. bookmark span has [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) type and may have either a BOOKMARKSTART or BOOKMARKEND kind.
+获取当前实体的种类。这可以是一个空字符串，但绝不是 null。这是当前实体的更具体类型，例如书签跨度有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)type 并且可以有 BOOKMARKSTART 或 BOOKMARKEND 类型。
 
-**Returns:**
-java.lang.String - The kind of the current entity.
+**退货:**
+java.lang.String - 当前实体的种类。
 ### getPageIndex() {#getPageIndex--}
 ```
 public int getPageIndex()
 ```
 
 
-Gets the 1-based index of a page which contains the current entity.
+获取包含当前实体的页面的从 1 开始的索引。
 
-**Returns:**
-int - The 1-based index of a page which contains the current entity.
+**退货:**
+int - 包含当前实体的页面的从 1 开始的索引。
 ### getRectangle() {#getRectangle--}
 ```
 public Rectangle2D.Float getRectangle()
 ```
 
 
-Returns the bounding rectangle of the current entity relative to the page top left corner (in points).
+返回当前实体相对于页面左上角的边界矩形（以磅为单位）。
 
-**Returns:**
-java.awt.geom.Rectangle2D.Float - The bounding rectangle of the current entity relative to the page top left corner (in points).
+**退货:**
+java.awt.geom.Rectangle2D.Float - 当前实体相对于页面左上角的边界矩形（以磅为单位）。
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-Gets text of the current span entity. Throws for other entity types.
+获取当前 span 实体的文本。引发其他实体类型。
 
-**Returns:**
-java.lang.String - Text of the current span entity.
-### getType() {#getType--}
+**退货:**
+java.lang.String - 当前跨度实体的文本。
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the type of the current entity.
+获取当前实体的类型。
 
-**Returns:**
-int - The type of the current entity. The returned value is a bitwise combination of [LayoutEntityType](../../com.aspose.words/layoutentitytype) constants.
+**退货:**
+ int - 当前实体的类型。返回值是按位组合[LayoutEntity类型](../../com.aspose.words/layoutentitytype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,58 +187,58 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### moveFirstChild() {#moveFirstChild--}
 ```
 public boolean moveFirstChild()
 ```
 
 
-Moves to the first child entity.
+移动到第一个子实体。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveLastChild() {#moveLastChild--}
 ```
 public boolean moveLastChild()
 ```
 
 
-Moves to the last child entity.
+移动到最后一个子实体。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveNext() {#moveNext--}
 ```
 public boolean moveNext()
 ```
 
 
-Moves to the next sibling entity in visual order. When iterating lines of a paragraph broken across pages this method will not move to the next page but rather move to the next entity on the same page.
+按视觉顺序移动到下一个兄弟实体。当迭代跨页中断的段落行时，此方法不会移动到下一页，而是移动到同一页上的下一个实体。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveNextLogical() {#moveNextLogical--}
 ```
 public boolean moveNextLogical()
 ```
 
 
-Moves to the next sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the next line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-) entity is span repeated calling of this method will iterates complete story of the document.
+按逻辑顺序移动到下一个兄弟实体。当迭代跨页中断的段落行时，此方法将移至下一行，即使它位于另一页上。请注意，所有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体被链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveParent() {#moveParent--}
 ```
 public boolean moveParent()
 ```
 
 
-Moves to the parent entity.
+移动到父实体。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### moveParent(int types) {#moveParent-int-}
 ```
 public boolean moveParent(int types)
@@ -247,33 +247,33 @@ public boolean moveParent(int types)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | types | int |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### movePrevious() {#movePrevious--}
 ```
 public boolean movePrevious()
 ```
 
 
-Moves to the previous sibling entity.
+移动到上一个兄弟实体。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### movePreviousLogical() {#movePreviousLogical--}
 ```
 public boolean movePreviousLogical()
 ```
 
 
-Moves to the previous sibling entity in a logical order. When iterating lines of a paragraph broken across pages this method will move to the previous line even if it resides on another page. Note that all [LayoutEntityType.SPAN](../../com.aspose.words/layoutentitytype\#SPAN) entities are linked together thus if [getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-) entity is span repeated calling of this method will iterates complete story of the document.
+按逻辑顺序移动到上一个兄弟实体。当迭代跨页中断的段落行时，此方法将移至上一行，即使它位于另一页上。请注意，所有[LayoutEntity类型.SPAN](../../com.aspose.words/layoutentitytype\#SPAN)实体被链接在一起，因此如果[getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)entity is span 重复调用此方法将迭代文档的完整故事。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -296,7 +296,7 @@ public void reset()
 ```
 
 
-Moves the enumerator to the first page of the document.
+将枚举器移动到文档的第一页。
 
 ### setCurrent(Object value) {#setCurrent-java.lang.Object-}
 ```
@@ -304,12 +304,12 @@ public void setCurrent(Object value)
 ```
 
 
-Sets current position in the page layout model. This property returns an opaque object which corresponds to the current layout entity.
+设置页面布局模型中的当前位置。此属性返回对应于当前布局实体的不透明对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | Current position in the page layout model. |
+| value | java.lang.Object | 页面布局模型中的当前位置。 |
 
 ### toString() {#toString--}
 ```
@@ -319,7 +319,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -337,8 +337,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -350,9 +350,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

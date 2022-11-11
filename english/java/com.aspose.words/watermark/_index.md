@@ -1,37 +1,37 @@
 ---
 title: Watermark
 second_title: Aspose.Words for Java API Reference
-description: Represents class to work with document watermark.
+description: 表示使用文档水印的类。
 type: docs
 weight: 608
-url: /java/com.aspose.words/watermark/
+url: /zh/java/com.aspose.words/watermark/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Watermark
 ```
 
-Represents class to work with document watermark.
+表示使用文档水印的类。
 
-To learn more, visit the **Working with Watermark** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Watermark**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Gets the watermark type. |
+| [get班级()](#get班级--) |  |
+| [get类型()](#get类型--) | 获取水印类型。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the watermark. |
-| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | Adds Image watermark into the document. |
-| [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-) | Adds Image watermark into the document. |
-| [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-) | Adds Image watermark into the document. |
-| [setText(String text)](#setText-java.lang.String-) | Adds Text watermark into the document. |
-| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-) | Adds Text watermark into the document. |
+| [remove()](#remove--) | 去除水印。 |
+| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | 将图像水印添加到文档中。 |
+| [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-) | 将图像水印添加到文档中。 |
+| [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-) | 将图像水印添加到文档中。 |
+| [setText(String text)](#setText-java.lang.String-) | 将文本水印添加到文档中。 |
+| [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-) | 将文本水印添加到文档中。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,33 +44,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getType() {#getType--}
-```
-public int getType()
+public final native 班级<?> get班级()
 ```
 
 
-Gets the watermark type.
 
-**Returns:**
-int - The watermark type. The returned value is one of [WatermarkType](../../com.aspose.words/watermarktype) constants.
+
+**退货:**
+java.lang.班级<?>
+### get类型() {#get类型--}
+```
+public int get类型()
+```
+
+
+获取水印类型。
+
+**退货:**
+ int - 水印类型。返回值是以下之一[Watermark类型](../../com.aspose.words/watermarktype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -79,8 +79,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -103,7 +103,7 @@ public void remove()
 ```
 
 
-Removes the watermark.
+去除水印。
 
 ### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage-}
 ```
@@ -111,12 +111,12 @@ public void setImage(BufferedImage image)
 ```
 
 
-Adds Image watermark into the document.
+将图像水印添加到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | Image that is displayed as a watermark. |
+| image | java.awt.image.BufferedImage | 显示为水印的图像。 |
 
 ### setImage(BufferedImage image, ImageWatermarkOptions options) {#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions-}
 ```
@@ -124,13 +124,13 @@ public void setImage(BufferedImage image, ImageWatermarkOptions options)
 ```
 
 
-Adds Image watermark into the document.
+将图像水印添加到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | Image that is displayed as a watermark. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Defines additional options for the image watermark. |
+| image | java.awt.image.BufferedImage | 显示为水印的图像。 |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | 定义图像水印的附加选项。 |
 
 ### setImage(String imagePath, ImageWatermarkOptions options) {#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions-}
 ```
@@ -138,13 +138,13 @@ public void setImage(String imagePath, ImageWatermarkOptions options)
 ```
 
 
-Adds Image watermark into the document.
+将图像水印添加到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imagePath | java.lang.String | Path to the image file that is displayed as a watermark. |
-| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | Defines additional options for the image watermark. |
+| imagePath | java.lang.String | 显示为水印的图像文件的路径。 |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions) | 定义图像水印的附加选项。 |
 
 ### setText(String text) {#setText-java.lang.String-}
 ```
@@ -152,12 +152,12 @@ public void setText(String text)
 ```
 
 
-Adds Text watermark into the document.
+将文本水印添加到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | java.lang.String | Text that is displayed as a watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+| text | java.lang.String | 显示为水印的文本。文本长度必须在 1 到 200 的范围内。文本不能为空或仅包含空格。 |
 
 ### setText(String text, TextWatermarkOptions options) {#setText-java.lang.String-com.aspose.words.TextWatermarkOptions-}
 ```
@@ -165,13 +165,13 @@ public void setText(String text, TextWatermarkOptions options)
 ```
 
 
-Adds Text watermark into the document.
+将文本水印添加到文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| text | java.lang.String | Text that is displayed as a watermark. |
-| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | Defines additional options for the text watermark. The text length must be in the range from 1 to 200 inclusive. The text cannot be null or contain only whitespaces. |
+| text | java.lang.String | 显示为水印的文本。 |
+| options | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions) | 定义文本水印的附加选项。文本长度必须在 1 到 200 的范围内。文本不能为空或仅包含空格。 |
 
 ### toString() {#toString--}
 ```
@@ -181,7 +181,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -199,8 +199,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -212,9 +212,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,35 +1,35 @@
 ---
-title: FieldDatabaseDataTable
-second_title: Aspose.Words for Java API Reference
-description: Provides data for the  field result.
+title: 字段DatabaseDataTable
+second_title: Aspose.Words for Java API 参考
+description: 为字段结果提供数据。
 type: docs
 weight: 176
-url: /java/com.aspose.words/fielddatabasedatatable/
+url: /zh/java/com.aspose.words/fielddatabasedatatable/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class FieldDatabaseDataTable
+public class 字段DatabaseDataTable
 ```
 
-Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase) field result.
+提供数据为[字段Database](../../com.aspose.words/fielddatabase)场结果。
 
-To learn more, visit the **Working with Fields** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with 字段**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [FieldDatabaseDataTable(String[] columnNames)](#FieldDatabaseDataTable-java.lang.String...-) | Initializes a new instance of the [FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) class. |
-## Methods
+| [字段DatabaseDataTable(String[] columnNames)](#字段DatabaseDataTable-java.lang.String...-) | 初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [createFrom(System.Data.DataTable dataTable)](#createFrom-com.aspose.words.net.System.Data.DataTable-) | Initializes a new instance of the [FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) class from the [DataTable](../../com.aspose.words.net.system.data/datatable) instance. |
+| [createFrom(System.Data.DataTable dataTable)](#createFrom-com.aspose.words.net.System.Data.DataTable-) | 初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColumnNames()](#getColumnNames--) | Gets columns that belong to this table. |
-| [getRows()](#getRows--) | Gets rows that belong to this table. |
+| [get班级()](#get班级--) |  |
+| [getColumnNames()](#getColumnNames--) | 获取属于该表的列。 |
+| [getRows()](#getRows--) | 获取属于该表的行。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -37,34 +37,34 @@ To learn more, visit the **Working with Fields** documentation article.
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### FieldDatabaseDataTable(String[] columnNames) {#FieldDatabaseDataTable-java.lang.String...-}
+### 字段DatabaseDataTable(String[] columnNames) {#字段DatabaseDataTable-java.lang.String...-}
 ```
-public FieldDatabaseDataTable(String[] columnNames)
+public 字段DatabaseDataTable(String[] columnNames)
 ```
 
 
-Initializes a new instance of the [FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) class.
+初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)班级。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | columnNames | java.lang.String[] |  |
 
 ### createFrom(System.Data.DataTable dataTable) {#createFrom-com.aspose.words.net.System.Data.DataTable-}
 ```
-public static FieldDatabaseDataTable createFrom(System.Data.DataTable dataTable)
+public static 字段DatabaseDataTable createFrom(System.Data.DataTable dataTable)
 ```
 
 
-Initializes a new instance of the [FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) class from the [DataTable](../../com.aspose.words.net.system.data/datatable) instance.
+初始化一个新的实例[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)类从[DataTable](../../com.aspose.words.net.system.data/datatable)实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dataTable | [DataTable](../../com.aspose.words.net.system.data/datatable) |  |
 
-**Returns:**
-[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)
+**退货:**
+[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -73,43 +73,43 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColumnNames() {#getColumnNames--}
 ```
 public String[] getColumnNames()
 ```
 
 
-Gets columns that belong to this table.
+获取属于该表的列。
 
-**Returns:**
-java.lang.String[] - Columns that belong to this table.
+**退货:**
+java.lang.String[] - 属于此表的列。
 ### getRows() {#getRows--}
 ```
 public ArrayList getRows()
 ```
 
 
-Gets rows that belong to this table.
+获取属于该表的行。
 
-**Returns:**
-java.util.ArrayList - Rows that belong to this table.
+**退货:**
+java.util.ArrayList - 属于该表的行。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -118,8 +118,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -144,7 +144,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -162,8 +162,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -175,9 +175,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

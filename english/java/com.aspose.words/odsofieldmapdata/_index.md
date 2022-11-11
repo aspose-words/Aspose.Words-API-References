@@ -1,58 +1,58 @@
 ---
-title: OdsoFieldMapData
-second_title: Aspose.Words for Java API Reference
-description: Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
+title: Odso字段MapData
+second_title: Aspose.Words for Java API 参考
+description: 指定如何将外部数据源中的列映射到文档中的预定义合并字段。
 type: docs
 weight: 413
-url: /java/com.aspose.words/odsofieldmapdata/
+url: /zh/java/com.aspose.words/odsofieldmapdata/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
-public class OdsoFieldMapData implements Cloneable
+public class Odso字段MapData implements Cloneable
 ```
 
-Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document.
+指定如何将外部数据源中的列映射到文档中的预定义合并字段。
 
-To learn more, visit the **Mail Merge and Reporting** documentation article.
+要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
 
-Microsoft Word provides some predefined merge field names that it allows to insert into a document as MERGEFIELD or use in the ADDRESSBLOCK or GREETINGLINE fields. The information specified in [OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata) allows to map one column in the external data source to a single predefined merge field.
-## Methods
+ Microsoft Word 提供了一些预定义的合并字段名称，它允许将其作为 MERGEFIELD 插入到文档中，或者在 ADDRESSBLOCK 或 GREETINGLINE 字段中使用。中指定的信息[Odso字段MapData](../../com.aspose.words/odsofieldmapdata)允许将外部数据源中的一列映射到单个预定义的合并字段。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | Returns a deep clone of this object. |
+| [deepClone()](#deepClone--) | 返回此对象的深层克隆。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getColumn()](#getColumn--) | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. |
-| [getMappedName()](#getMappedName--) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property within this field mapping. |
-| [getName()](#getName--) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property. |
-| [getType()](#getType--) | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. |
+| [get班级()](#get班级--) |  |
+| [getColumn()](#getColumn--) | 指定外部数据源中列的从零开始的索引，该索引应映射到特定 MERGEFIELD 字段的本地名称。 |
+| [getMappedName()](#getMappedName--) | 指定预定义的合并字段名称，该名称应映射到由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)此字段映射中的属性。 |
+| [getName()](#getName--) | 指定外部数据源中的列名，该列的索引由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)财产。 |
+| [get类型()](#get类型--) | 指定给定的邮件合并字段是否已映射到给定外部数据源中的列。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumn(int value)](#setColumn-int-) | Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. |
-| [setMappedName(String value)](#setMappedName-java.lang.String-) | Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property within this field mapping. |
-| [setName(String value)](#setName-java.lang.String-) | Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property. |
-| [setType(int value)](#setType-int-) | Specifies if a given mail merge field has been mapped to a column in the given external data source or not. |
+| [setColumn(int value)](#setColumn-int-) | 指定外部数据源中列的从零开始的索引，该索引应映射到特定 MERGEFIELD 字段的本地名称。 |
+| [setMappedName(String value)](#setMappedName-java.lang.String-) | 指定预定义的合并字段名称，该名称应映射到由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)此字段映射中的属性。 |
+| [setName(String value)](#setName-java.lang.String-) | 指定外部数据源中的列名，该列的索引由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)财产。 |
+| [set类型(int value)](#set类型-int-) | 指定给定的邮件合并字段是否已映射到给定外部数据源中的列。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
 ### deepClone() {#deepClone--}
 ```
-public OdsoFieldMapData deepClone()
+public Odso字段MapData deepClone()
 ```
 
 
-Returns a deep clone of this object.
+返回此对象的深层克隆。
 
-**Returns:**
-[OdsoFieldMapData](../../com.aspose.words/odsofieldmapdata)
+**退货:**
+[Odso字段MapData](../../com.aspose.words/odsofieldmapdata)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -61,63 +61,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColumn() {#getColumn--}
 ```
 public int getColumn()
 ```
 
 
-Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0.
+指定外部数据源中列的从零开始的索引，该索引应映射到特定 MERGEFIELD 字段的本地名称。默认值为 0。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getMappedName() {#getMappedName--}
 ```
 public String getMappedName()
 ```
 
 
-Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property within this field mapping. The default value is an empty string.
+指定预定义的合并字段名称，该名称应映射到由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)此字段映射中的属性。默认值为空字符串。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property. The default value is an empty string.
+指定外部数据源中的列名，该列的索引由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)财产。默认值为空字符串。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### getType() {#getType--}
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+指定给定的邮件合并字段是否已映射到给定外部数据源中的列。默认值为[Odso字段Mapping类型.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[Odso字段Mapping类型](../../com.aspose.words/odsofieldmappingtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -126,8 +126,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -150,12 +150,12 @@ public void setColumn(int value)
 ```
 
 
-Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field. The default value is 0.
+指定外部数据源中列的从零开始的索引，该索引应映射到特定 MERGEFIELD 字段的本地名称。默认值为 0。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setMappedName(String value) {#setMappedName-java.lang.String-}
 ```
@@ -163,12 +163,12 @@ public void setMappedName(String value)
 ```
 
 
-Specifies the predefined merge field name which shall be mapped to the column number specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property within this field mapping. The default value is an empty string.
+指定预定义的合并字段名称，该名称应映射到由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)此字段映射中的属性。默认值为空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -176,25 +176,25 @@ public void setName(String value)
 ```
 
 
-Specifies the column name within an external data source for the column whose index is specified by the [getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-) property. The default value is an empty string.
+指定外部数据源中的列名，该列的索引由[getColumn()](../../com.aspose.words/odsofieldmapdata\#getColumn--) / [setColumn(int)](../../com.aspose.words/odsofieldmapdata\#setColumn-int-)财产。默认值为空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setType(int value) {#setType-int-}
+### set类型(int value) {#set类型-int-}
 ```
-public void setType(int value)
+public void set类型(int value)
 ```
 
 
-Specifies if a given mail merge field has been mapped to a column in the given external data source or not. The default value is [OdsoFieldMappingType.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
+指定给定的邮件合并字段是否已映射到给定外部数据源中的列。默认值为[Odso字段Mapping类型.DEFAULT](../../com.aspose.words/odsofieldmappingtype\#DEFAULT).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [OdsoFieldMappingType](../../com.aspose.words/odsofieldmappingtype) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[Odso字段Mapping类型](../../com.aspose.words/odsofieldmappingtype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -222,8 +222,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -235,9 +235,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

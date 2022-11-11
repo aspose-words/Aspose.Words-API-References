@@ -1,64 +1,64 @@
 ---
-title: KnownTypeSet
-second_title: Aspose.Words for Java API Reference
-description: Represents an unordered set i.e.
+title: Known类型Set
+second_title: Aspose.Words for Java API 参考
+description: 表示一个无序集，即
 type: docs
 weight: 356
-url: /java/com.aspose.words/knowntypeset/
+url: /zh/java/com.aspose.words/knowntypeset/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
-public class KnownTypeSet implements Iterable
+public class Known类型Set implements Iterable
 ```
 
-Represents an unordered set (i.e. a collection of unique items) containing java.lang.Class objects which fully or partially qualified names can be used within report templates to invoke the corresponding types' static members, perform type casts, etc.
+表示包含 java.lang.班级 对象的无序集（即唯一项的集合），这些对象的完全或部分限定名称可在报告模板中用于调用相应类型的静态成员、执行类型转换等。
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
-## Methods
+要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(Class type)](#add-java.lang.Class-) | Adds the specified java.lang.Class object to the set. |
-| [clear()](#clear--) | Removes all items from the set. |
+| [add(班级 type)](#add-java.lang.班级-) | 将指定的 java.lang.班级 对象添加到集合中。 |
+| [clear()](#clear--) | 从集合中移除所有项目。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the count of items in the set. |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中项目的计数。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns An java.util.Iterator object to iterate over items of the set. |
+| [iterator()](#iterator--) | 返回 一个 java.util.Iterator 对象，用于迭代集合中的项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(Class type)](#remove-java.lang.Class-) | Removes the specified java.lang.Class object from the set. |
+| [remove(班级 type)](#remove-java.lang.班级-) | 从集合中移除指定的 java.lang.班级 对象。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(Class type) {#add-java.lang.Class-}
+### add(班级 type) {#add-java.lang.班级-}
 ```
-public void add(Class type)
+public void add(班级 type)
 ```
 
 
-Adds the specified java.lang.Class object to the set. Throws java.lang.IllegalArgumentException in the following cases:
+将指定的 java.lang.班级 对象添加到集合中。在以下情况下抛出 java.lang.IllegalArgumentException：
 
-\-  type  is null.
+\- 类型为空。
 
-\-  type  represents a void type.
+\- type 表示空类型。
 
-\-  type  represents an invisible type, i.e. a non-public type or a public nested type which has a non-public outer type.
+\- type 表示不可见类型，即非公共类型或具有非公共外部类型的公共嵌套类型。
 
-\-  type  represents an array type.
+\- type 表示数组类型。
 
-\-  type  has been added to the set already.
+\- 类型已添加到集合中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | java.lang.Class | A java.lang.Class object to add. |
+| type | java.lang.班级 | 要添加的 java.lang.班级 对象。 |
 
 ### clear() {#clear--}
 ```
@@ -66,7 +66,7 @@ public void clear()
 ```
 
 
-Removes all items from the set.
+从集合中移除所有项目。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -76,33 +76,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the count of items in the set.
+获取集合中项目的计数。
 
-**Returns:**
-int - The count of items in the set.
+**退货:**
+int - 集合中的项目数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -111,18 +111,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns An java.util.Iterator object to iterate over items of the set.
+返回 一个 java.util.Iterator 对象，用于迭代集合中的项目。
 
-**Returns:**
-java.util.Iterator - An java.util.Iterator object to iterate over items of the set.
+**退货:**
+java.util.Iterator - 一个 java.util.Iterator 对象，用于迭代集合中的项目。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -139,18 +139,18 @@ public final native void notifyAll()
 
 
 
-### remove(Class type) {#remove-java.lang.Class-}
+### remove(班级 type) {#remove-java.lang.班级-}
 ```
-public void remove(Class type)
+public void remove(班级 type)
 ```
 
 
-Removes the specified java.lang.Class object from the set. Throws java.lang.IllegalArgumentException if  type  is null.
+从集合中移除指定的 java.lang.班级 对象。如果 type 为 null，则抛出 java.lang.IllegalArgumentException。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| type | java.lang.Class | A java.lang.Class object to remove. |
+| type | java.lang.班级 | 要删除的 java.lang.班级 对象。 |
 
 ### toString() {#toString--}
 ```
@@ -160,7 +160,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -178,8 +178,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -191,9 +191,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

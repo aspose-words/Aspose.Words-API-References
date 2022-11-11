@@ -1,37 +1,37 @@
 ---
 title: PdfPageMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how the PDF document should be displayed when opened in the PDF reader.
+second_title: Aspose.Words for Java API 参考
+description: 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
 type: docs
 weight: 459
-url: /java/com.aspose.words/pdfpagemode/
+url: /zh/java/com.aspose.words/pdfpagemode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PdfPageMode
 ```
 
-Specifies how the PDF document should be displayed when opened in the PDF reader.
-## Fields
+指定 PDF 文档在 PDF 阅读器中打开时的显示方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FULL_SCREEN](#FULL-SCREEN) | Full-screen mode, with no menu bar, window controls, or any other window visible. |
-| [USE_ATTACHMENTS](#USE-ATTACHMENTS) | Attachments panel is visible. |
-| [USE_NONE](#USE-NONE) | Neither document outline nor thumbnail images are visible. |
-| [USE_OC](#USE-OC) | Optional content group panel is visible. |
-| [USE_OUTLINES](#USE-OUTLINES) | Document outline is visible. |
-| [USE_THUMBS](#USE-THUMBS) | Thumbnail images are visible. |
+| [FULL_SCREEN](#FULL-SCREEN) | 全屏模式，没有菜单栏、窗口控件或任何其他可见的窗口。 |
+| [USE_ATTACHMENTS](#USE-ATTACHMENTS) | 附件面板可见。 |
+| [USE_NONE](#USE-NONE) | 文档大纲和缩略图图像均不可见。 |
+| [USE_OC](#USE-OC) | 可选的内容组面板可见。 |
+| [USE_OUTLINES](#USE-OUTLINES) | 文档大纲可见。 |
+| [USE_THUMBS](#USE-THUMBS) | 缩略图图像可见。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfPageModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pdfPageMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int FULL_SCREEN
 ```
 
 
-Full-screen mode, with no menu bar, window controls, or any other window visible.
+全屏模式，没有菜单栏、窗口控件或任何其他可见的窗口。
 
 ### USE_ATTACHMENTS {#USE-ATTACHMENTS}
 ```
@@ -56,7 +56,7 @@ public static int USE_ATTACHMENTS
 ```
 
 
-Attachments panel is visible. Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B).
+附件面板可见。以下 PDF 版本不支持：[PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B).
 
 ### USE_NONE {#USE-NONE}
 ```
@@ -64,7 +64,7 @@ public static int USE_NONE
 ```
 
 
-Neither document outline nor thumbnail images are visible.
+文档大纲和缩略图图像均不可见。
 
 ### USE_OC {#USE-OC}
 ```
@@ -72,7 +72,7 @@ public static int USE_OC
 ```
 
 
-Optional content group panel is visible. Not supported in the following PDF versions: [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B).
+可选的内容组面板可见。以下 PDF 版本不支持：[PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A), [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B).
 
 ### USE_OUTLINES {#USE-OUTLINES}
 ```
@@ -80,7 +80,7 @@ public static int USE_OUTLINES
 ```
 
 
-Document outline is visible. Note that if there're no outlines in the PDF document then outline navigation pane will not be visible anyway.
+文档大纲可见。请注意，如果 PDF 文档中没有大纲，那么大纲导航窗格无论如何都不会可见。
 
 ### USE_THUMBS {#USE-THUMBS}
 ```
@@ -88,7 +88,7 @@ public static int USE_THUMBS
 ```
 
 
-Thumbnail images are visible.
+缩略图图像可见。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pdfPageModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfPageModeName)
@@ -119,23 +119,23 @@ public static int fromName(String pdfPageModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfPageModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pdfPageMode) {#getName-int-}
 ```
 public static String getName(int pdfPageMode)
@@ -144,12 +144,12 @@ public static String getName(int pdfPageMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfPageMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pdfPageMode) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int pdfPageMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfPageMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,29 +1,29 @@
 ---
 title: Cluster
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 74
-url: /java/com.aspose.words/cluster/
+url: /zh/java/com.aspose.words/cluster/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Cluster
 ```
-## Constructors
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph---) | Initializes a new instance of this class. |
-## Methods
+| [Cluster(int[] codepoints, Glyph[] glyphs)](#Cluster-int---com.aspose.words.Glyph---) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [deepClone()](#deepClone--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getCodepoints()](#getCodepoints--) |  |
 | [getCodepointsLength()](#getCodepointsLength--) |  |
 | [getGlyphs()](#getGlyphs--) |  |
@@ -43,10 +43,10 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | codepoints | int[] |  |
 | glyphs | [Glyph\[\]](../../com.aspose.words/glyph) |  |
@@ -59,7 +59,7 @@ public Cluster deepClone()
 
 
 
-**Returns:**
+**退货:**
 [Cluster](../../com.aspose.words/cluster)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,23 +69,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCodepoints() {#getCodepoints--}
 ```
 public int[] getCodepoints()
@@ -94,8 +94,8 @@ public int[] getCodepoints()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### getCodepointsLength() {#getCodepointsLength--}
 ```
 public int getCodepointsLength()
@@ -104,8 +104,8 @@ public int getCodepointsLength()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getGlyphs() {#getGlyphs--}
 ```
 public Glyph[] getGlyphs()
@@ -114,8 +114,8 @@ public Glyph[] getGlyphs()
 
 
 
-**Returns:**
-com.aspose.words.Glyph[]
+**退货:**
+com.aspose.words.glyph[]
 ### getString() {#getString--}
 ```
 public String getString()
@@ -124,7 +124,7 @@ public String getString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getString(Cluster[] clusters) {#getString-com.aspose.words.Cluster---}
 ```
@@ -134,12 +134,12 @@ public static String getString(Cluster[] clusters)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | clusters | [Cluster\[\]](../../com.aspose.words/cluster) |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getWidth(int em, float fontSize) {#getWidth-int-float-}
 ```
@@ -149,14 +149,14 @@ public float getWidth(int em, float fontSize)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | em | int |  |
 | fontSize | float |  |
 
-**Returns:**
-float
+**退货:**
+漂浮
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -165,8 +165,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,9 +222,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

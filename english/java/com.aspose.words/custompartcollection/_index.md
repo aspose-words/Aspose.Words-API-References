@@ -1,43 +1,43 @@
 ---
 title: CustomPartCollection
-second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+second_title: Aspose.Words for Java API 参考
+description: 表示对象的集合。
 type: docs
 weight: 103
-url: /java/com.aspose.words/custompartcollection/
+url: /zh/java/com.aspose.words/custompartcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class CustomPartCollection implements Iterable
 ```
 
-Represents a collection of [CustomPart](../../com.aspose.words/custompart) objects.
+代表一个集合[CustomPart](../../com.aspose.words/custompart)对象。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-You do not normally need to create instances of this class. You access custom parts related to the OOXML package via the [Document.getPackageCustomParts()](../../com.aspose.words/document\#getPackageCustomParts--) / [Document.setPackageCustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#setPackageCustomParts-com.aspose.words.CustomPartCollection-) property.
-## Methods
+您通常不需要创建此类的实例。您可以通过以下方式访问与 OOXML 包相关的自定义部件[Document.get包裹CustomParts()](../../com.aspose.words/document\#get包裹CustomParts--) / [Document.set包裹CustomParts(com.aspose.words.CustomPartCollection)](../../com.aspose.words/document\#set包裹CustomParts-com.aspose.words.CustomPartCollection-)财产。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(CustomPart part)](#add-com.aspose.words.CustomPart-) | Adds an item to the collection. |
-| [clear()](#clear--) | Removes all elements from the collection. |
-| [deepClone()](#deepClone--) | Makes a deep copy of this collection and its items. |
+| [add(CustomPart part)](#add-com.aspose.words.CustomPart-) | 将项目添加到集合中。 |
+| [clear()](#clear--) | 从集合中移除所有元素。 |
+| [deepClone()](#deepClone--) | 制作此集合及其项目的深层副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets an item at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
+| [get(int index)](#get-int-) | 获取指定索引处的项目。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes an item at the specified index. |
-| [set(int index, CustomPart value)](#set-int-com.aspose.words.CustomPart-) | Sets an item at the specified index. |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的项目。 |
+| [set(int index, CustomPart value)](#set-int-com.aspose.words.CustomPart-) | 在指定索引处设置项目。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,12 +48,12 @@ public void add(CustomPart part)
 ```
 
 
-Adds an item to the collection.
+将项目添加到集合中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| part | [CustomPart](../../com.aspose.words/custompart) | The item to add. |
+| part | [CustomPart](../../com.aspose.words/custompart) | 要添加的项目。 |
 
 ### clear() {#clear--}
 ```
@@ -61,7 +61,7 @@ public void clear()
 ```
 
 
-Removes all elements from the collection.
+从集合中移除所有元素。
 
 ### deepClone() {#deepClone--}
 ```
@@ -69,9 +69,9 @@ public CustomPartCollection deepClone()
 ```
 
 
-Makes a deep copy of this collection and its items.
+制作此集合及其项目的深层副本。
 
-**Returns:**
+**退货:**
 [CustomPartCollection](../../com.aspose.words/custompartcollection)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -81,48 +81,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public CustomPart get(int index)
 ```
 
 
-Gets an item at the specified index.
+获取指定索引处的项目。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the item. |
+| index | int | 项目的从零开始的索引。 |
 
-**Returns:**
-[CustomPart](../../com.aspose.words/custompart) - An item at the specified index.
-### getClass() {#getClass--}
+**退货:**
+[CustomPart](../../com.aspose.words/custompart) - 指定索引处的项目。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of elements contained in the collection.
+获取集合中包含的元素数。
 
-**Returns:**
-int - The number of elements contained in the collection.
+**退货:**
+int - 集合中包含的元素数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -131,17 +131,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -165,12 +165,12 @@ public void removeAt(int index)
 ```
 
 
-Removes an item at the specified index.
+删除指定索引处的项目。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero based index. |
+| index | int | 从零开始的索引。 |
 
 ### set(int index, CustomPart value) {#set-int-com.aspose.words.CustomPart-}
 ```
@@ -178,13 +178,13 @@ public void set(int index, CustomPart value)
 ```
 
 
-Sets an item at the specified index.
+在指定索引处设置项目。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the item. |
-| value | [CustomPart](../../com.aspose.words/custompart) | An item at the specified index. |
+| index | int | 项目的从零开始的索引。 |
+| value | [CustomPart](../../com.aspose.words/custompart) | 指定索引处的项目。 |
 
 ### toString() {#toString--}
 ```
@@ -194,7 +194,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -212,8 +212,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -225,9 +225,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

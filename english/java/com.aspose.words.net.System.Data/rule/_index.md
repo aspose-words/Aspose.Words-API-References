@@ -1,36 +1,36 @@
 ---
 title: Rule
 second_title: Aspose.Words for Java API Reference
-description: Indicates the action that occurs when a  is enforced.
+description: 指示执行 a 时发生的操作。
 type: docs
 weight: 36
-url: /java/com.aspose.words.net.system.data/rule/
+url: /zh/java/com.aspose.words.net.system.data/rule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, java.lang.Enum
 ```
 public enum Rule extends Enum<System.Data.Rule>
 ```
 
-Indicates the action that occurs when a [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is enforced.
-## Fields
+表示当一个[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)被强制执行。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CASCADE](#CASCADE) | Delete or update related rows. |
-| [NONE](#NONE) | No action taken on related rows. |
-| [SET_DEFAULT](#SET-DEFAULT) | Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue--) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object-) property. |
-| [SET_NULL](#SET-NULL) | Set values in related rows to DBNull. |
-## Methods
+| [CASCADE](#CASCADE) | 删除或更新相关行。 |
+| [NONE](#NONE) | 未对相关行执行任何操作。 |
+| [SET_DEFAULT](#SET-DEFAULT) | 将相关行中的值设置为包含在[DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue--) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object-)财产。 |
+| [SET_NULL](#SET-NULL) | 将相关行中的值设置为 DBNull。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [<T>valueOf(Class<T> arg0, String arg1)](#-T-valueOf-java.lang.Class-T--java.lang.String-) |  |
+| [<T>valueOf(班级<T> arg0, String arg1)](#-T-valueOf-java.lang.班级-T--java.lang.String-) |  |
 | [compareTo(E arg0)](#compareTo-E-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDeclaringClass()](#getDeclaringClass--) |  |
+| [get班级()](#get班级--) |  |
+| [getDeclaring班级()](#getDeclaring班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [name()](#name--) |  |
 | [notify()](#notify--) |  |
@@ -48,7 +48,7 @@ public static final System.Data.Rule CASCADE
 ```
 
 
-Delete or update related rows. This is the default.
+删除或更新相关行。这是默认设置。
 
 ### NONE {#NONE}
 ```
@@ -56,7 +56,7 @@ public static final System.Data.Rule NONE
 ```
 
 
-No action taken on related rows.
+未对相关行执行任何操作。
 
 ### SET_DEFAULT {#SET-DEFAULT}
 ```
@@ -64,7 +64,7 @@ public static final System.Data.Rule SET_DEFAULT
 ```
 
 
-Set values in related rows to the value contained in the [DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue--) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object-) property.
+将相关行中的值设置为包含在[DataColumn.getDefaultValue()](../../com.aspose.words.net.system.data/datacolumn\#getDefaultValue--) / [DataColumn.setDefaultValue(java.lang.Object)](../../com.aspose.words.net.system.data/datacolumn\#setDefaultValue-java.lang.Object-)财产。
 
 ### SET_NULL {#SET-NULL}
 ```
@@ -72,24 +72,24 @@ public static final System.Data.Rule SET_NULL
 ```
 
 
-Set values in related rows to DBNull.
+将相关行中的值设置为 DBNull。
 
-### <T>valueOf(Class<T> arg0, String arg1) {#-T-valueOf-java.lang.Class-T--java.lang.String-}
+### <T>valueOf(班级<T> arg0, String arg1) {#-T-valueOf-java.lang.班级-T--java.lang.String-}
 ```
-public static T <T>valueOf(Class<T> arg0, String arg1)
+public static T <T>valueOf(班级<T> arg0, String arg1)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| arg0 | java.lang.Class<T> |  |
+| arg0 | java.lang.班级<T> |  |
 | arg1 | java.lang.String |  |
 
-**Returns:**
-T
+**退货:**
+吨
 ### compareTo(E arg0) {#compareTo-E-}
 ```
 public final int compareTo(E arg0)
@@ -98,13 +98,13 @@ public final int compareTo(E arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | E |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public final boolean equals(Object arg0)
@@ -113,33 +113,33 @@ public final boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getDeclaringClass() {#getDeclaringClass--}
-```
-public final Class<E> getDeclaringClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<E>
+**退货:**
+java.lang.班级<?>
+### getDeclaring班级() {#getDeclaring班级--}
+```
+public final 班级<E> getDeclaring班级()
+```
+
+
+
+
+**退货:**
+java.lang.类<E>
 ### hashCode() {#hashCode--}
 ```
 public final int hashCode()
@@ -148,8 +148,8 @@ public final int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### name() {#name--}
 ```
 public final String name()
@@ -158,7 +158,7 @@ public final String name()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -184,8 +184,8 @@ public final int ordinal()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### toString() {#toString--}
 ```
 public String toString()
@@ -194,7 +194,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### valueOf(String name) {#valueOf-java.lang.String-}
 ```
@@ -204,12 +204,12 @@ public static System.Data.Rule valueOf(String name)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | name | java.lang.String |  |
 
-**Returns:**
+**退货:**
 [Rule](../../com.aspose.words.net.system.data/rule)
 ### values() {#values--}
 ```
@@ -219,7 +219,7 @@ public static System.Data.Rule[] values()
 
 
 
-**Returns:**
+**退货:**
 com.aspose.words.net.System.Data.Rule[]
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,9 +250,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

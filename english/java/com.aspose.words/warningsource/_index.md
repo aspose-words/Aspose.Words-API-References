@@ -1,57 +1,57 @@
 ---
 title: WarningSource
 second_title: Aspose.Words for Java API Reference
-description: Specifies the module that produces a warning during document loading or saving.
+description: 指定在文档加载或保存期间产生警告的模块。
 type: docs
 weight: 606
-url: /java/com.aspose.words/warningsource/
+url: /zh/java/com.aspose.words/warningsource/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WarningSource
 ```
 
-Specifies the module that produces a warning during document loading or saving.
-## Fields
+指定在文档加载或保存期间产生警告的模块。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CHM](#CHM) | Module that reads CHM files. |
-| [DOC](#DOC) | Module that reads/writes binary DOC files. |
-| [DOCX](#DOCX) | Module that reads/writes DOCX files. |
-| [DRAWING_ML](#DRAWING-ML) | Module that renders DrawingML shapes. |
-| [EPUB](#EPUB) | Module that reads/writes EPUB files. |
-| [FONT](#FONT) | Module that reads font files. |
-| [HTML](#HTML) | Module that reads/writes HTML/MHTML files. |
-| [IMAGE](#IMAGE) | Module that renders images. |
-| [LAYOUT](#LAYOUT) | Module that builds a document layout. |
-| [MARKDOWN](#MARKDOWN) | Module that reads/writes Markdown files. |
-| [MATH_ML](#MATH-ML) | Module that reads W3C MathML files. |
-| [METAFILE](#METAFILE) | Module that renders metafiles. |
-| [NRX](#NRX) | Common modules that are shared between DOCX/WML reader/writer modules. |
-| [ODT](#ODT) | Module that reads/writes ODT files. |
-| [OFFICE_MATH](#OFFICE-MATH) | Module that renders OfficeMath. |
-| [PDF](#PDF) | Module that renders PDF. |
-| [RTF](#RTF) | Module that reads/writes RTF files. |
-| [SHAPES](#SHAPES) | Module that renders ordinary shapes. |
-| [SVG](#SVG) | Module that reads SVG files. |
-| [SVM](#SVM) | Module that reads Svm files. |
-| [TEXT](#TEXT) | Module that reads/writes plaintext files. |
-| [UNKNOWN](#UNKNOWN) | The warning source is not specified. |
-| [VALIDATOR](#VALIDATOR) | Module that verifies model consistency and validity. |
-| [WORD_ML](#WORD-ML) | Module that reads/writes WML files. |
-| [XAML](#XAML) | Module that reads/writes Xaml files. |
-| [XPS](#XPS) | Module that renders XPS. |
+| [CHM](#CHM) | 读取 CHM 文件的模块。 |
+| [DOC](#DOC) | 读取/写入二进制 DOC 文件的模块。 |
+| [DOCX](#DOCX) | 读取/写入 DOCX 文件的模块。 |
+| [DRAWING_ML](#DRAWING-ML) | 呈现 DrawingML 形状的模块。 |
+| [EPUB](#EPUB) | 读取/写入 EPUB 文件的模块。 |
+| [FONT](#FONT) | 读取字体文件的模块。 |
+| [HTML](#HTML) | 读取/写入 HTML/MHTML 文件的模块。 |
+| [IMAGE](#IMAGE) | 渲染图像的模块。 |
+| [LAYOUT](#LAYOUT) | 构建文档布局的模块。 |
+| [MARKDOWN](#MARKDOWN) | 读取/写入 Markdown 文件的模块。 |
+| [MATH_ML](#MATH-ML) | 读取 W3C MathML 文件的模块。 |
+| [METAFILE](#METAFILE) | 呈现元文件的模块。 |
+| [NRX](#NRX) | 在 DOCX/WML 读取器/写入器模块之间共享的通用模块。 |
+| [ODT](#ODT) | 读取/写入 ODT 文件的模块。 |
+| [OFFICE_MATH](#OFFICE-MATH) | 呈现 OfficeMath 的模块。 |
+| [PDF](#PDF) | 呈现 PDF 的模块。 |
+| [RTF](#RTF) | 读取/写入 RTF 文件的模块。 |
+| [SHAPES](#SHAPES) | 渲染普通形状的模块。 |
+| [SVG](#SVG) | 读取 SVG 文件的模块。 |
+| [SVM](#SVM) | 读取 Svm 文件的模块。 |
+| [TEXT](#TEXT) | 读取/写入纯文本文件的模块。 |
+| [UNKNOWN](#UNKNOWN) | 未指定警告源。 |
+| [VALIDATOR](#VALIDATOR) | 验证模型一致性和有效性的模块。 |
+| [WORD_ML](#WORD-ML) | 读取/写入 WML 文件的模块。 |
+| [XAML](#XAML) | 读取/写入 Xaml 文件的模块。 |
+| [XPS](#XPS) | 呈现 XPS 的模块。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String warningSourceName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int warningSource)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -68,7 +68,7 @@ public static int CHM
 ```
 
 
-Module that reads CHM files.
+读取 CHM 文件的模块。
 
 ### DOC {#DOC}
 ```
@@ -76,7 +76,7 @@ public static int DOC
 ```
 
 
-Module that reads/writes binary DOC files.
+读取/写入二进制 DOC 文件的模块。
 
 ### DOCX {#DOCX}
 ```
@@ -84,7 +84,7 @@ public static int DOCX
 ```
 
 
-Module that reads/writes DOCX files.
+读取/写入 DOCX 文件的模块。
 
 ### DRAWING_ML {#DRAWING-ML}
 ```
@@ -92,7 +92,7 @@ public static int DRAWING_ML
 ```
 
 
-Module that renders DrawingML shapes.
+呈现 DrawingML 形状的模块。
 
 ### EPUB {#EPUB}
 ```
@@ -100,7 +100,7 @@ public static int EPUB
 ```
 
 
-Module that reads/writes EPUB files.
+读取/写入 EPUB 文件的模块。
 
 ### FONT {#FONT}
 ```
@@ -108,7 +108,7 @@ public static int FONT
 ```
 
 
-Module that reads font files.
+读取字体文件的模块。
 
 ### HTML {#HTML}
 ```
@@ -116,7 +116,7 @@ public static int HTML
 ```
 
 
-Module that reads/writes HTML/MHTML files.
+读取/写入 HTML/MHTML 文件的模块。
 
 ### IMAGE {#IMAGE}
 ```
@@ -124,7 +124,7 @@ public static int IMAGE
 ```
 
 
-Module that renders images.
+渲染图像的模块。
 
 ### LAYOUT {#LAYOUT}
 ```
@@ -132,7 +132,7 @@ public static int LAYOUT
 ```
 
 
-Module that builds a document layout.
+构建文档布局的模块。
 
 ### MARKDOWN {#MARKDOWN}
 ```
@@ -140,7 +140,7 @@ public static int MARKDOWN
 ```
 
 
-Module that reads/writes Markdown files.
+读取/写入 Markdown 文件的模块。
 
 ### MATH_ML {#MATH-ML}
 ```
@@ -148,7 +148,7 @@ public static int MATH_ML
 ```
 
 
-Module that reads W3C MathML files.
+读取 W3C MathML 文件的模块。
 
 ### METAFILE {#METAFILE}
 ```
@@ -156,7 +156,7 @@ public static int METAFILE
 ```
 
 
-Module that renders metafiles.
+呈现元文件的模块。
 
 ### NRX {#NRX}
 ```
@@ -164,7 +164,7 @@ public static int NRX
 ```
 
 
-Common modules that are shared between DOCX/WML reader/writer modules.
+在 DOCX/WML 读取器/写入器模块之间共享的通用模块。
 
 ### ODT {#ODT}
 ```
@@ -172,7 +172,7 @@ public static int ODT
 ```
 
 
-Module that reads/writes ODT files.
+读取/写入 ODT 文件的模块。
 
 ### OFFICE_MATH {#OFFICE-MATH}
 ```
@@ -180,7 +180,7 @@ public static int OFFICE_MATH
 ```
 
 
-Module that renders OfficeMath.
+呈现 OfficeMath 的模块。
 
 ### PDF {#PDF}
 ```
@@ -188,7 +188,7 @@ public static int PDF
 ```
 
 
-Module that renders PDF.
+呈现 PDF 的模块。
 
 ### RTF {#RTF}
 ```
@@ -196,7 +196,7 @@ public static int RTF
 ```
 
 
-Module that reads/writes RTF files.
+读取/写入 RTF 文件的模块。
 
 ### SHAPES {#SHAPES}
 ```
@@ -204,7 +204,7 @@ public static int SHAPES
 ```
 
 
-Module that renders ordinary shapes.
+渲染普通形状的模块。
 
 ### SVG {#SVG}
 ```
@@ -212,7 +212,7 @@ public static int SVG
 ```
 
 
-Module that reads SVG files.
+读取 SVG 文件的模块。
 
 ### SVM {#SVM}
 ```
@@ -220,7 +220,7 @@ public static int SVM
 ```
 
 
-Module that reads Svm files.
+读取 Svm 文件的模块。
 
 ### TEXT {#TEXT}
 ```
@@ -228,7 +228,7 @@ public static int TEXT
 ```
 
 
-Module that reads/writes plaintext files.
+读取/写入纯文本文件的模块。
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -236,7 +236,7 @@ public static int UNKNOWN
 ```
 
 
-The warning source is not specified.
+未指定警告源。
 
 ### VALIDATOR {#VALIDATOR}
 ```
@@ -244,7 +244,7 @@ public static int VALIDATOR
 ```
 
 
-Module that verifies model consistency and validity.
+验证模型一致性和有效性的模块。
 
 ### WORD_ML {#WORD-ML}
 ```
@@ -252,7 +252,7 @@ public static int WORD_ML
 ```
 
 
-Module that reads/writes WML files.
+读取/写入 WML 文件的模块。
 
 ### XAML {#XAML}
 ```
@@ -260,7 +260,7 @@ public static int XAML
 ```
 
 
-Module that reads/writes Xaml files.
+读取/写入 Xaml 文件的模块。
 
 ### XPS {#XPS}
 ```
@@ -268,7 +268,7 @@ public static int XPS
 ```
 
 
-Module that renders XPS.
+呈现 XPS 的模块。
 
 ### length {#length}
 ```
@@ -284,13 +284,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String warningSourceName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String warningSourceName)
@@ -299,23 +299,23 @@ public static int fromName(String warningSourceName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningSourceName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int warningSource) {#getName-int-}
 ```
 public static String getName(int warningSource)
@@ -324,12 +324,12 @@ public static String getName(int warningSource)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningSource | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -339,8 +339,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -349,8 +349,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -375,7 +375,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int warningSource) {#toString-int-}
 ```
@@ -385,12 +385,12 @@ public static String toString(int warningSource)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | warningSource | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -408,8 +408,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -421,9 +421,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

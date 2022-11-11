@@ -1,37 +1,37 @@
 ---
 title: LayoutFlow
-second_title: Aspose.Words for Java API Reference
-description: Determines the flow of the text layout in a textbox.
+second_title: Aspose.Words for Java API 参考
+description: 确定文本框中文本布局的流向。
 type: docs
 weight: 361
-url: /java/com.aspose.words/layoutflow/
+url: /zh/java/com.aspose.words/layoutflow/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class LayoutFlow
 ```
 
-Determines the flow of the text layout in a textbox.
-## Fields
+确定文本框中文本布局的流向。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTTOM_TO_TOP](#BOTTOM-TO-TOP) | Text is displayed vertically. |
-| [HORIZONTAL](#HORIZONTAL) | Text is displayed horizontally. |
-| [HORIZONTAL_IDEOGRAPHIC](#HORIZONTAL-IDEOGRAPHIC) | Ideographic text is displayed horizontally. |
-| [TOP_TO_BOTTOM](#TOP-TO-BOTTOM) | Text is displayed vertically. |
-| [TOP_TO_BOTTOM_IDEOGRAPHIC](#TOP-TO-BOTTOM-IDEOGRAPHIC) | Ideographic text is displayed vertically. |
-| [VERTICAL](#VERTICAL) | Text is displayed vertically. |
+| [BOTTOM_TO_TOP](#BOTTOM-TO-TOP) | 文本垂直显示。 |
+| [HORIZONTAL](#HORIZONTAL) | 文本水平显示。 |
+| [HORIZONTAL_IDEOGRAPHIC](#HORIZONTAL-IDEOGRAPHIC) | 表意文字水平显示。 |
+| [TOP_TO_BOTTOM](#TOP-TO-BOTTOM) | 文本垂直显示。 |
+| [TOP_TO_BOTTOM_IDEOGRAPHIC](#TOP-TO-BOTTOM-IDEOGRAPHIC) | 表意文字垂直显示。 |
+| [VERTICAL](#VERTICAL) | 文本垂直显示。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String layoutFlowName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int layoutFlow)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int BOTTOM_TO_TOP
 ```
 
 
-Text is displayed vertically.
+文本垂直显示。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -56,7 +56,7 @@ public static int HORIZONTAL
 ```
 
 
-Text is displayed horizontally.
+文本水平显示。
 
 ### HORIZONTAL_IDEOGRAPHIC {#HORIZONTAL-IDEOGRAPHIC}
 ```
@@ -64,7 +64,7 @@ public static int HORIZONTAL_IDEOGRAPHIC
 ```
 
 
-Ideographic text is displayed horizontally.
+表意文字水平显示。
 
 ### TOP_TO_BOTTOM {#TOP-TO-BOTTOM}
 ```
@@ -72,7 +72,7 @@ public static int TOP_TO_BOTTOM
 ```
 
 
-Text is displayed vertically.
+文本垂直显示。
 
 ### TOP_TO_BOTTOM_IDEOGRAPHIC {#TOP-TO-BOTTOM-IDEOGRAPHIC}
 ```
@@ -80,7 +80,7 @@ public static int TOP_TO_BOTTOM_IDEOGRAPHIC
 ```
 
 
-Ideographic text is displayed vertically.
+表意文字垂直显示。
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -88,7 +88,7 @@ public static int VERTICAL
 ```
 
 
-Text is displayed vertically.
+文本垂直显示。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String layoutFlowName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String layoutFlowName)
@@ -119,23 +119,23 @@ public static int fromName(String layoutFlowName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | layoutFlowName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int layoutFlow) {#getName-int-}
 ```
 public static String getName(int layoutFlow)
@@ -144,12 +144,12 @@ public static String getName(int layoutFlow)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | layoutFlow | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int layoutFlow) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int layoutFlow)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | layoutFlow | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

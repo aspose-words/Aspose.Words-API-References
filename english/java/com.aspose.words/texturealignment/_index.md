@@ -1,41 +1,41 @@
 ---
 title: TextureAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies the alignment for the tiling of the texture fill.
+description: 指定纹理填充平铺的对齐方式。
 type: docs
 weight: 571
-url: /java/com.aspose.words/texturealignment/
+url: /zh/java/com.aspose.words/texturealignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextureAlignment
 ```
 
-Specifies the alignment for the tiling of the texture fill.
-## Fields
+指定纹理填充平铺的对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | Bottom texture alignment. |
-| [BOTTOM_LEFT](#BOTTOM-LEFT) | Bottom left texture alignment. |
-| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | Bottom right texture alignment. |
-| [CENTER](#CENTER) | Center texture alignment. |
-| [LEFT](#LEFT) | Left texture alignment. |
-| [NONE](#NONE) | None texture alignment. |
-| [RIGHT](#RIGHT) | Right texture alignment. |
-| [TOP](#TOP) | Top texture alignment. |
-| [TOP_LEFT](#TOP-LEFT) | Top left texture alignment. |
-| [TOP_RIGHT](#TOP-RIGHT) | Top right texture alignment. |
+| [BOTTOM](#BOTTOM) | 底部纹理对齐。 |
+| [BOTTOM_LEFT](#BOTTOM-LEFT) | 左下纹理对齐。 |
+| [BOTTOM_RIGHT](#BOTTOM-RIGHT) | 右下纹理对齐。 |
+| [CENTER](#CENTER) | 中心纹理对齐。 |
+| [LEFT](#LEFT) | 左纹理对齐。 |
+| [NONE](#NONE) | 无纹理对齐。 |
+| [RIGHT](#RIGHT) | 右纹理对齐。 |
+| [TOP](#TOP) | 顶部纹理对齐。 |
+| [TOP_LEFT](#TOP-LEFT) | 左上纹理对齐。 |
+| [TOP_RIGHT](#TOP-RIGHT) | 右上角纹理对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textureAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int textureAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BOTTOM
 ```
 
 
-Bottom texture alignment.
+底部纹理对齐。
 
 ### BOTTOM_LEFT {#BOTTOM-LEFT}
 ```
@@ -60,7 +60,7 @@ public static int BOTTOM_LEFT
 ```
 
 
-Bottom left texture alignment.
+左下纹理对齐。
 
 ### BOTTOM_RIGHT {#BOTTOM-RIGHT}
 ```
@@ -68,7 +68,7 @@ public static int BOTTOM_RIGHT
 ```
 
 
-Bottom right texture alignment.
+右下纹理对齐。
 
 ### CENTER {#CENTER}
 ```
@@ -76,7 +76,7 @@ public static int CENTER
 ```
 
 
-Center texture alignment.
+中心纹理对齐。
 
 ### LEFT {#LEFT}
 ```
@@ -84,7 +84,7 @@ public static int LEFT
 ```
 
 
-Left texture alignment.
+左纹理对齐。
 
 ### NONE {#NONE}
 ```
@@ -92,7 +92,7 @@ public static int NONE
 ```
 
 
-None texture alignment.
+无纹理对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -100,7 +100,7 @@ public static int RIGHT
 ```
 
 
-Right texture alignment.
+右纹理对齐。
 
 ### TOP {#TOP}
 ```
@@ -108,7 +108,7 @@ public static int TOP
 ```
 
 
-Top texture alignment.
+顶部纹理对齐。
 
 ### TOP_LEFT {#TOP-LEFT}
 ```
@@ -116,7 +116,7 @@ public static int TOP_LEFT
 ```
 
 
-Top left texture alignment.
+左上纹理对齐。
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -124,7 +124,7 @@ public static int TOP_RIGHT
 ```
 
 
-Top right texture alignment.
+右上角纹理对齐。
 
 ### length {#length}
 ```
@@ -140,13 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String textureAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textureAlignmentName)
@@ -155,23 +155,23 @@ public static int fromName(String textureAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int textureAlignment) {#getName-int-}
 ```
 public static String getName(int textureAlignment)
@@ -180,12 +180,12 @@ public static String getName(int textureAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -195,8 +195,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -231,7 +231,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int textureAlignment) {#toString-int-}
 ```
@@ -241,12 +241,12 @@ public static String toString(int textureAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textureAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,9 +277,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

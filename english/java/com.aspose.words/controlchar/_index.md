@@ -1,61 +1,61 @@
 ---
 title: ControlChar
-second_title: Aspose.Words for Java API Reference
-description: Control characters often encountered in documents.
+second_title: Aspose.Words for Java API 参考
+description: 控制字符在文档中经常遇到。
 type: docs
 weight: 94
-url: /java/com.aspose.words/controlchar/
+url: /zh/java/com.aspose.words/controlchar/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ControlChar
 ```
 
-Control characters often encountered in documents.
+控制字符在文档中经常遇到。
 
-To learn more, visit the **Working With Control Characters** documentation article.
+要了解更多信息，请访问**Working With Control Characters**文档文章。
 
-Provides both char and string versions of the same constants. For example: string ControlChar.LineBreak and char ControlChar.LineBreakChar have the same value.
-## Fields
+提供相同常量的字符和字符串版本。例如：字符串 ControlChar.LineBreak 和 char ControlChar.LineBreakChar 具有相同的值。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CELL](#CELL) | End of a table cell or end of a table row character: "\\x0007" or "\\a". |
-| [CELL_CHAR](#CELL-CHAR) | End of a table cell or end of a table row character: (char)7 or "\\a". |
-| [COLUMN_BREAK](#COLUMN-BREAK) | End of column character: "\\x000e". |
-| [COLUMN_BREAK_CHAR](#COLUMN-BREAK-CHAR) | End of column character: (char)14. |
-| [CR](#CR) | Carriage return character: "\\x000d" or "\\r". |
-| [CR_LF](#CR-LF) | Carriage return followed by line feed character: "\\x000d\\x000a" or "\\r\\n". |
-| [DEFAULT_TEXT_INPUT_CHAR](#DEFAULT-TEXT-INPUT-CHAR) | This is the "o" character used as a default value in text input form fields. |
-| [FIELD_END_CHAR](#FIELD-END-CHAR) | End of MS Word field character: (char)21. |
-| [FIELD_SEPARATOR_CHAR](#FIELD-SEPARATOR-CHAR) | Field separator character separates field code from field value. |
-| [FIELD_START_CHAR](#FIELD-START-CHAR) | Start of MS Word field character: (char)19. |
-| [LF](#LF) | Line feed character: "\\x000a" or "\\n". |
-| [LINE_BREAK](#LINE-BREAK) | Line break character: "\\x000b" or "\\v". |
-| [LINE_BREAK_CHAR](#LINE-BREAK-CHAR) | Line break character: (char)11 or "\\v". |
-| [LINE_FEED](#LINE-FEED) | Line feed character: "\\x000a" or "\\n". |
-| [LINE_FEED_CHAR](#LINE-FEED-CHAR) | Line feed character: (char)10 or "\\n". |
-| [NON_BREAKING_HYPHEN_CHAR](#NON-BREAKING-HYPHEN-CHAR) | Nonbreaking Hyphen in Microsoft Word is (char)30. |
-| [NON_BREAKING_SPACE](#NON-BREAKING-SPACE) | Non-breaking space character: "\\x00a0". |
-| [NON_BREAKING_SPACE_CHAR](#NON-BREAKING-SPACE-CHAR) | Non-breaking space character: (char)160. |
-| [OPTIONAL_HYPHEN_CHAR](#OPTIONAL-HYPHEN-CHAR) | Optional Hyphen in Microsoft Word is (char)31. |
-| [PAGE_BREAK](#PAGE-BREAK) | Page break character: "\\x000c" or "\\f". |
-| [PAGE_BREAK_CHAR](#PAGE-BREAK-CHAR) | Page break character: (char)12 or "\\f". |
-| [PARAGRAPH_BREAK](#PARAGRAPH-BREAK) | End of paragraph character: "\\x000d" or "\\r". |
-| [PARAGRAPH_BREAK_CHAR](#PARAGRAPH-BREAK-CHAR) | End of paragraph character: (char)13 or "\\r". |
-| [SECTION_BREAK](#SECTION-BREAK) | End of section character: "\\x000c" or "\\f". |
-| [SECTION_BREAK_CHAR](#SECTION-BREAK-CHAR) | End of section character: (char)12 or "\\f". |
-| [SPACE_CHAR](#SPACE-CHAR) | Space character: (char)32. |
-| [TAB](#TAB) | Tab character: "\\x0009" or "\\t". |
-| [TAB_CHAR](#TAB-CHAR) | Tab character: (char)9 or "\\t". |
-## Methods
+| [CELL](#CELL) | 表格单元格结束或表格行结束字符："\\x0007" 或 "\\一个”。 |
+| [CELL_CHAR](#CELL-CHAR) | 表格单元格结尾或表格行结尾字符：(char)7 或 "\\一个”。 |
+| [COLUMN_BREAK](#COLUMN-BREAK) | 列结束符："\\x000e”。 |
+| [COLUMN_BREAK_CHAR](#COLUMN-BREAK-CHAR) | 列尾字符：(char)14。 |
+| [CR](#CR) | 回车符："\\x000d" 或 "\\r”。 |
+| [CR_LF](#CR-LF) | 回车后跟换行符："\\x000d\\x000a" 或 "\\r\\n”。 |
+| [DEFAULT_TEXT_INPUT_CHAR](#DEFAULT-TEXT-INPUT-CHAR) | 这是在文本输入表单字段中用作默认值的“o”字符。 |
+| [FIELD_END_CHAR](#FIELD-END-CHAR) | MS Word 字段字符的结尾：(char)21。 |
+| [FIELD_SEPARATOR_CHAR](#FIELD-SEPARATOR-CHAR) | 字段分隔符将字段代码与字段值分开。 |
+| [FIELD_START_CHAR](#FIELD-START-CHAR) | MS Word 字段字符的开头：(char)19。 |
+| [LF](#LF) | 换行符："\\x000a" 或 "\\n”。 |
+| [LINE_BREAK](#LINE-BREAK) | 换行符："\\x000b" 或 "\\v"。 |
+| [LINE_BREAK_CHAR](#LINE-BREAK-CHAR) | 换行符：(char)11 或 "\\v"。 |
+| [LINE_FEED](#LINE-FEED) | 换行符："\\x000a" 或 "\\n”。 |
+| [LINE_FEED_CHAR](#LINE-FEED-CHAR) | 换行符：(char)10 或 "\\n”。 |
+| [NON_BREAKING_HYPHEN_CHAR](#NON-BREAKING-HYPHEN-CHAR) | Microsoft Word 中的不间断连字符是 (char)30。 |
+| [NON_BREAKING_SPACE](#NON-BREAKING-SPACE) | 不间断空格字符："\\x00a0”。 |
+| [NON_BREAKING_SPACE_CHAR](#NON-BREAKING-SPACE-CHAR) | 不间断空格字符：(char)160。 |
+| [OPTIONAL_HYPHEN_CHAR](#OPTIONAL-HYPHEN-CHAR) | Microsoft Word 中的可选连字符是 (char)31。 |
+| [PAGE_BREAK](#PAGE-BREAK) | 分页符："\\x000c" 或 "\\F”。 |
+| [PAGE_BREAK_CHAR](#PAGE-BREAK-CHAR) | 分页符：(char)12 或 "\\F”。 |
+| [PARAGRAPH_BREAK](#PARAGRAPH-BREAK) | 段落结尾字符："\\x000d" 或 "\\r”。 |
+| [PARAGRAPH_BREAK_CHAR](#PARAGRAPH-BREAK-CHAR) | 段落结尾字符：(char)13 或 "\\r”。 |
+| [SECTION_BREAK](#SECTION-BREAK) | 部分字符的结尾："\\x000c" 或 "\\F”。 |
+| [SECTION_BREAK_CHAR](#SECTION-BREAK-CHAR) | 节结束符：(char)12 或 "\\F”。 |
+| [SPACE_CHAR](#SPACE-CHAR) | 空格字符：(char)32。 |
+| [TAB](#TAB) | 制表符："\\x0009" 或 "\\t"。 |
+| [TAB_CHAR](#TAB-CHAR) | 制表符：(char)9 或 "\\t"。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -69,7 +69,7 @@ public static String CELL
 ```
 
 
-End of a table cell or end of a table row character: "\\x0007" or "\\a".
+表格单元格结束或表格行结束字符："\\x0007" 或 "\\一个”。
 
 ### CELL_CHAR {#CELL-CHAR}
 ```
@@ -77,7 +77,7 @@ public static char CELL_CHAR
 ```
 
 
-End of a table cell or end of a table row character: (char)7 or "\\a".
+表格单元格结尾或表格行结尾字符：(char)7 或 "\\一个”。
 
 ### COLUMN_BREAK {#COLUMN-BREAK}
 ```
@@ -85,7 +85,7 @@ public static String COLUMN_BREAK
 ```
 
 
-End of column character: "\\x000e".
+列结束符："\\x000e”。
 
 ### COLUMN_BREAK_CHAR {#COLUMN-BREAK-CHAR}
 ```
@@ -93,7 +93,7 @@ public static char COLUMN_BREAK_CHAR
 ```
 
 
-End of column character: (char)14.
+列尾字符：(char)14。
 
 ### CR {#CR}
 ```
@@ -101,7 +101,7 @@ public static String CR
 ```
 
 
-Carriage return character: "\\x000d" or "\\r". Same as [PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK).
+回车符："\\x000d" 或 "\ \r"。同[PARAGRAPH\_BREAK](../../com.aspose.words/controlchar\#PARAGRAPH-BREAK).
 
 ### CR_LF {#CR-LF}
 ```
@@ -109,7 +109,7 @@ public static String CR_LF
 ```
 
 
-Carriage return followed by line feed character: "\\x000d\\x000a" or "\\r\\n". Not used as such in Microsoft Word documents, but commonly used in text files for paragraph breaks.
+回车后跟换行符："\\x000d\\x000a" 或 "\\r\\n"。在 Microsoft Word 文档中不这样使用，但通常用于文本文件中的段落分隔符。
 
 ### DEFAULT_TEXT_INPUT_CHAR {#DEFAULT-TEXT-INPUT-CHAR}
 ```
@@ -117,7 +117,7 @@ public static char DEFAULT_TEXT_INPUT_CHAR
 ```
 
 
-This is the "o" character used as a default value in text input form fields.
+这是在文本输入表单字段中用作默认值的“o”字符。
 
 ### FIELD_END_CHAR {#FIELD-END-CHAR}
 ```
@@ -125,7 +125,7 @@ public static char FIELD_END_CHAR
 ```
 
 
-End of MS Word field character: (char)21.
+MS Word 字段字符的结尾：(char)21。
 
 ### FIELD_SEPARATOR_CHAR {#FIELD-SEPARATOR-CHAR}
 ```
@@ -133,7 +133,7 @@ public static char FIELD_SEPARATOR_CHAR
 ```
 
 
-Field separator character separates field code from field value. Optional in some fields. Value: (char)20.
+字段分隔符将字段代码与字段值分开。在某些领域是可选的。值：（字符）20。
 
 ### FIELD_START_CHAR {#FIELD-START-CHAR}
 ```
@@ -141,7 +141,7 @@ public static char FIELD_START_CHAR
 ```
 
 
-Start of MS Word field character: (char)19.
+MS Word 字段字符的开头：(char)19。
 
 ### LF {#LF}
 ```
@@ -149,7 +149,7 @@ public static String LF
 ```
 
 
-Line feed character: "\\x000a" or "\\n". Same as [LINE\_FEED](../../com.aspose.words/controlchar\#LINE-FEED).
+换行符："\\x000a" 或 "\ \n"。同[LINE\_FEED](../../com.aspose.words/controlchar\#LINE-FEED).
 
 ### LINE_BREAK {#LINE-BREAK}
 ```
@@ -157,7 +157,7 @@ public static String LINE_BREAK
 ```
 
 
-Line break character: "\\x000b" or "\\v".
+换行符："\\x000b" 或 "\\v"。
 
 ### LINE_BREAK_CHAR {#LINE-BREAK-CHAR}
 ```
@@ -165,7 +165,7 @@ public static char LINE_BREAK_CHAR
 ```
 
 
-Line break character: (char)11 or "\\v".
+换行符：(char)11 或 "\\v"。
 
 ### LINE_FEED {#LINE-FEED}
 ```
@@ -173,7 +173,7 @@ public static String LINE_FEED
 ```
 
 
-Line feed character: "\\x000a" or "\\n". Same as [LF](../../com.aspose.words/controlchar\#LF).
+换行符："\\x000a" 或 "\ \n"。同[LF](../../com.aspose.words/controlchar\#LF).
 
 ### LINE_FEED_CHAR {#LINE-FEED-CHAR}
 ```
@@ -181,7 +181,7 @@ public static char LINE_FEED_CHAR
 ```
 
 
-Line feed character: (char)10 or "\\n".
+换行符：(char)10 或 "\\n”。
 
 ### NON_BREAKING_HYPHEN_CHAR {#NON-BREAKING-HYPHEN-CHAR}
 ```
@@ -189,11 +189,11 @@ public static char NON_BREAKING_HYPHEN_CHAR
 ```
 
 
-Nonbreaking Hyphen in Microsoft Word is (char)30.
+Microsoft Word 中的不间断连字符是 (char)30。
 
-Nonbreaking Hyphen in Microsoft Word does not correspond to the Unicode character U+2011 non-breaking hyphen but instead represents internal information that tells Microsoft Word to display a hyphen and not to break a line.
+Microsoft Word 中的不间断连字符不对应于 Unicode 字符 U+2011 不间断连字符，而是表示告诉 Microsoft Word 显示连字符而不是换行的内部信息。
 
-Useful info: http://www.cs.tut.fi/~jkorpela/dashes.html\#linebreaks.
+有用信息：http://www.cs.tut.fi/~jkorpela/dashes.html\#换行符。
 
 ### NON_BREAKING_SPACE {#NON-BREAKING-SPACE}
 ```
@@ -201,7 +201,7 @@ public static String NON_BREAKING_SPACE
 ```
 
 
-Non-breaking space character: "\\x00a0".
+不间断空格字符："\\x00a0”。
 
 ### NON_BREAKING_SPACE_CHAR {#NON-BREAKING-SPACE-CHAR}
 ```
@@ -209,7 +209,7 @@ public static char NON_BREAKING_SPACE_CHAR
 ```
 
 
-Non-breaking space character: (char)160.
+不间断空格字符：(char)160。
 
 ### OPTIONAL_HYPHEN_CHAR {#OPTIONAL-HYPHEN-CHAR}
 ```
@@ -217,9 +217,9 @@ public static char OPTIONAL_HYPHEN_CHAR
 ```
 
 
-Optional Hyphen in Microsoft Word is (char)31.
+Microsoft Word 中的可选连字符是 (char)31。
 
-Optional Hyphen in Microsoft Word does not correspond to the Unicode character U+00AD soft hyphen. Instead, it inserts internal information that tells Word about a possible hyphenation point.
+Microsoft Word 中的可选连字符与 Unicode 字符 U+00AD 软连字符不对应。相反，它会插入告诉 Word 可能的断字点的内部信息。
 
 ### PAGE_BREAK {#PAGE-BREAK}
 ```
@@ -227,7 +227,7 @@ public static String PAGE_BREAK
 ```
 
 
-Page break character: "\\x000c" or "\\f". Note it has the same value as [SECTION\_BREAK](../../com.aspose.words/controlchar\#SECTION-BREAK).
+分页符："\\x000c" 或 "\ \f"。注意它的值与[SECTION\_BREAK](../../com.aspose.words/controlchar\#SECTION-BREAK).
 
 ### PAGE_BREAK_CHAR {#PAGE-BREAK-CHAR}
 ```
@@ -235,7 +235,7 @@ public static char PAGE_BREAK_CHAR
 ```
 
 
-Page break character: (char)12 or "\\f".
+分页符：(char)12 或 "\\F”。
 
 ### PARAGRAPH_BREAK {#PARAGRAPH-BREAK}
 ```
@@ -243,7 +243,7 @@ public static String PARAGRAPH_BREAK
 ```
 
 
-End of paragraph character: "\\x000d" or "\\r". Same as [CR](../../com.aspose.words/controlchar\#CR)
+段落结尾字符："\\x000d" 或 "\ \r"。同[CR](../../com.aspose.words/controlchar\#CR)
 
 ### PARAGRAPH_BREAK_CHAR {#PARAGRAPH-BREAK-CHAR}
 ```
@@ -251,7 +251,7 @@ public static char PARAGRAPH_BREAK_CHAR
 ```
 
 
-End of paragraph character: (char)13 or "\\r".
+段落结尾字符：(char)13 或 "\\r”。
 
 ### SECTION_BREAK {#SECTION-BREAK}
 ```
@@ -259,7 +259,7 @@ public static String SECTION_BREAK
 ```
 
 
-End of section character: "\\x000c" or "\\f". Note it has the same value as [PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK).
+部分字符的结尾："\\x000c" 或 "\ \f"。注意它的值与[PAGE\_BREAK](../../com.aspose.words/controlchar\#PAGE-BREAK).
 
 ### SECTION_BREAK_CHAR {#SECTION-BREAK-CHAR}
 ```
@@ -267,7 +267,7 @@ public static char SECTION_BREAK_CHAR
 ```
 
 
-End of section character: (char)12 or "\\f".
+节结束符：(char)12 或 "\\F”。
 
 ### SPACE_CHAR {#SPACE-CHAR}
 ```
@@ -275,7 +275,7 @@ public static char SPACE_CHAR
 ```
 
 
-Space character: (char)32.
+空格字符：(char)32。
 
 ### TAB {#TAB}
 ```
@@ -283,7 +283,7 @@ public static String TAB
 ```
 
 
-Tab character: "\\x0009" or "\\t".
+制表符："\\x0009" 或 "\\t"。
 
 ### TAB_CHAR {#TAB-CHAR}
 ```
@@ -291,7 +291,7 @@ public static char TAB_CHAR
 ```
 
 
-Tab character: (char)9 or "\\t".
+制表符：(char)9 或 "\\t"。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -301,23 +301,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -326,8 +326,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -352,7 +352,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -370,8 +370,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -383,9 +383,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

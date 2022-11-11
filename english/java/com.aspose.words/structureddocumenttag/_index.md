@@ -1,154 +1,154 @@
 ---
 title: StructuredDocumentTag
 second_title: Aspose.Words for Java API Reference
-description: Represents a structured document tag SDT or content control in a document.
+description: 表示文档中的结构化文档标签 SDT 或内容控件。
 type: docs
 weight: 532
-url: /java/com.aspose.words/structureddocumenttag/
+url: /zh/java/com.aspose.words/structureddocumenttag/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 [com.aspose.words.IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
 ```
 public class StructuredDocumentTag extends CompositeNode implements IStructuredDocumentTag
 ```
 
-Represents a structured document tag (SDT or content control) in a document.
+表示文档中的结构化文档标签（SDT 或内容控件）。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-Structured document tags (SDTs) allow to embed customer-defined semantics as well as its behavior and appearance into a document.
+结构化文档标签 (SDT) 允许将客户定义的语义及其行为和外观嵌入到文档中。
 
-In this version Aspose.Words provides a number of public methods and properties to manipulate the behavior and content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). Mapping of SDT nodes to custom XML packages within a document can be performed with using the [getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--) property.
+在这个版本中，Aspose.Words 提供了许多公共方法和属性来操纵行为和内容[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).将 SDT 节点映射到文档中的自定义 XML 包可以使用[getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--)财产。
 
-[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) can occur in a document in the following places:
+[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)可能出现在文档中的以下位置：
 
- *  Block-level - Among paragraphs and tables, as a child of a [Body](../../com.aspose.words/body), [HeaderFooter](../../com.aspose.words/headerfooter), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote) or a [Shape](../../com.aspose.words/shape) node.
- *  Row-level - Among rows in a table, as a child of a [Table](../../com.aspose.words/table) node.
- *  Cell-level - Among cells in a table row, as a child of a [Row](../../com.aspose.words/row) node.
- *  Inline-level - Among inline content inside, as a child of a [Paragraph](../../com.aspose.words/paragraph).
- *  Nested inside another [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
-## Constructors
+ *  块级 - 在段落和表格中，作为 a 的子级[Body](../../com.aspose.words/body), [HeaderFooter](../../com.aspose.words/headerfooter), [Comment](../../com.aspose.words/comment), [Footnote](../../com.aspose.words/footnote)或一个[Shape](../../com.aspose.words/shape)节点。
+ *  行级 - 在表中的行中，作为[Table](../../com.aspose.words/table)节点。
+ *  单元格级别 - 在表格行中的单元格中，作为[Row](../../com.aspose.words/row)节点。
+ *  Inline-level - 在里面的内联内容中，作为一个子级[Paragraph](../../com.aspose.words/paragraph).
+ *  嵌套在另一个里面[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [StructuredDocumentTag(DocumentBase doc, int type, int level)](#StructuredDocumentTag-com.aspose.words.DocumentBase-int-int-) | Initializes a new instance of this class. |
-## Methods
+| [StructuredDocumentTag(DocumentBase doc, int type, int level)](#StructuredDocumentTag-com.aspose.words.DocumentBase-int-int-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
-| [clear()](#clear--) | Clears contents of this structured document tag and displays a placeholder if it is defined. |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
+| [clear()](#clear--) | 清除此结构化文档标记的内容并显示占位符（如果已定义）。 |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
-| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
-| [getAppearance()](#getAppearance--) | Gets/sets the appearance of a structured document tag. |
-| [getBuildingBlockCategory()](#getBuildingBlockCategory--) | Specifies category of building block for this **SDT** node. |
-| [getBuildingBlockGallery()](#getBuildingBlockGallery--) | Specifies type of building block for this **SDT**. |
-| [getCalendarType()](#getCalendarType--) | Specifies the type of calendar for this **SDT**. |
-| [getChecked()](#getChecked--) | Gets/Sets current state of the Checkbox **SDT**. |
-| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
-| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets the color of the structured document tag. |
+| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
+| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
+| [getAppearance()](#getAppearance--) | 获取/设置结构化文档标签的外观。 |
+| [getBuildingBlockCategory()](#getBuildingBlockCategory--) | 为此指定构建块的类别**SDT**节点。 |
+| [getBuildingBlockGallery()](#getBuildingBlockGallery--) | 为此指定构建块的类型**SDT**. |
+| [getCalendar类型()](#getCalendar类型--) | 为此指定日历的类型**SDT**. |
+| [getChecked()](#getChecked--) | 获取/设置复选框的当前状态**SDT**. |
+| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
+| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [get班级()](#get班级--) |  |
+| [getColor()](#getColor--) | 获取结构化文档标签的颜色。 |
 | [getContainer()](#getContainer--) |  |
-| [getContentsFont()](#getContentsFont--) | Font formatting that will be applied to text entered into **SDT**. |
-| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
+| [getContentsFont()](#getContentsFont--) | 将应用于输入的文本的字体格式**SDT**. |
+| [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
-| [getDateDisplayFormat()](#getDateDisplayFormat--) | String that represents the format in which dates are displayed. |
-| [getDateDisplayLocale()](#getDateDisplayLocale--) | Allows to set/get the language format for the date displayed in this **SDT**. |
-| [getDateStorageFormat()](#getDateStorageFormat--) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. |
+| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
+| [getDateDisplayFormat()](#getDateDisplayFormat--) | 表示日期显示格式的字符串。 |
+| [getDateDisplayLocale()](#getDateDisplayLocale--) | 允许设置/获取在此显示的日期的语言格式**SDT**. |
+| [getDateStorageFormat()](#getDateStorageFormat--) | 获取/设置日期 SDT 的日期存储格式，当**SDT**绑定到文档数据存储中的 XML 节点。 |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
-| [getEndCharacterFont()](#getEndCharacterFont--) | Font formatting that will be applied to the last character of text entered into **SDT**. |
-| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
-| [getFullDate()](#getFullDate--) | Specifies the full date and time last entered into this **SDT**. |
-| [getId()](#getId--) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
-| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
-| [getLevel()](#getLevel--) | Gets the level at which this **SDT** occurs in the document tree. |
+| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getEndCharacterFont()](#getEndCharacterFont--) | 将应用于输入文本的最后一个字符的字体格式**SDT**. |
+| [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
+| [getFullDate()](#getFullDate--) | 指定上次输入的完整日期和时间**SDT**. |
+| [getId()](#getId--) | 为此指定一个唯一的只读持久数字 ID**SDT**. |
+| [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
+| [getLevel()](#getLevel--) | 获取此级别**SDT**出现在文档树中。 |
 | [getLevel_IMarkupNode()](#getLevel-IMarkupNode--) |  |
-| [getListItems()](#getListItems--) | Gets [SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection) associated with this **SDT**. |
-| [getLockContentControl()](#getLockContentControl--) | When set to true, this property will prohibit a user from deleting this **SDT**. |
-| [getLockContents()](#getLockContents--) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
-| [getMultiline()](#getMultiline--) | Specifies whether this **SDT** allows multiple lines of text. |
+| [getListItems()](#getListItems--) | 获取[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection)与此相关**SDT**. |
+| [getLockContentControl()](#getLockContentControl--) | 当设置为 true 时，此属性将禁止用户删除此**SDT**. |
+| [getLockContents()](#getLockContents--) | 当设置为 true 时，此属性将禁止用户编辑此内容**SDT**. |
+| [getMultiline()](#getMultiline--) | 指定这是否**SDT**允许多行文本。 |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
-| [getNodeType()](#getNodeType--) | Returns **NodeType.StructuredDocumentTag**. |
-| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
-| [getPlaceholder()](#getPlaceholder--) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-) element is true. |
-| [getPlaceholderName()](#getPlaceholderName--) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
-| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
-| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
-| [getSdtType()](#getSdtType--) | Gets type of this **Structured document tag**. |
-| [getStyle()](#getStyle--) | Gets the Style of the structured document tag. |
-| [getStyleName()](#getStyleName--) | Gets the name of the style applied to the structured document tag. |
-| [getTag()](#getTag--) | Specifies a tag associated with the current SDT node. |
-| [getText()](#getText--) | Gets the text of this node and of all its children. |
-| [getTitle()](#getTitle--) | Specifies the friendly name associated with this **SDT**. |
-| [getWordOpenXML()](#getWordOpenXML--) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format. |
-| [getXmlMapping()](#getXmlMapping--) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
-| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
+| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
+| [getNode类型()](#getNode类型--) | 退货**Node类型.StructuredDocumentTag**. |
+| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
+| [getPlaceholder()](#getPlaceholder--) | 获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。 |
+| [getPlaceholderName()](#getPlaceholderName--) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
+| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
+| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
+| [getSdt类型()](#getSdt类型--) | 获取 this 的类型**Structured document tag**. |
+| [getStyle()](#getStyle--) | 获取结构化文档标签的样式。 |
+| [getStyleName()](#getStyleName--) | 获取应用于结构化文档标签的样式名称。 |
+| [getTag()](#getTag--) | 指定与当前 SDT 节点关联的标签。 |
+| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
+| [getTitle()](#getTitle--) | 指定与此关联的友好名称**SDT**. |
+| [getWordOpenXML()](#getWordOpenXML--) | 获取一个字符串，该字符串表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。 |
+| [getXmlMapping()](#getXmlMapping--) | 获取一个对象，该对象表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射。 |
+| [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
-| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
+| [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
 | [isRanged()](#isRanged--) |  |
-| [isShowingPlaceholderText()](#isShowingPlaceholderText--) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
-| [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean-) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
-| [isTemporary()](#isTemporary--) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
-| [isTemporary(boolean value)](#isTemporary-boolean-) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
-| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
-| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
+| [isShowingPlaceholderText()](#isShowingPlaceholderText--) | 指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。 |
+| [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean-) | 指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。 |
+| [isTemporary()](#isTemporary--) | 指定这是否**SDT**当其内容被修改时，应从 WordProcessingML 文档中删除。 |
+| [isTemporary(boolean value)](#isTemporary-boolean-) | 指定这是否**SDT**当其内容被修改时，应从 WordProcessingML 文档中删除。 |
+| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
+| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
-| [remove()](#remove--) | Removes itself from the parent. |
-| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
+| [remove()](#remove--) | 从父级中移除自身。 |
+| [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [removeSelfOnly()](#removeSelfOnly--) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
-| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
-| [setAppearance(int value)](#setAppearance-int-) | Gets/sets the appearance of a structured document tag. |
-| [setBuildingBlockCategory(String value)](#setBuildingBlockCategory-java.lang.String-) | Specifies category of building block for this **SDT** node. |
-| [setBuildingBlockGallery(String value)](#setBuildingBlockGallery-java.lang.String-) | Specifies type of building block for this **SDT**. |
-| [setCalendarType(int value)](#setCalendarType-int-) | Specifies the type of calendar for this **SDT**. |
-| [setChecked(boolean value)](#setChecked-boolean-) | Gets/Sets current state of the Checkbox **SDT**. |
-| [setCheckedSymbol(int characterCode, String fontName)](#setCheckedSymbol-int-java.lang.String-) | Sets the symbol used to represent the checked state of a check box content control. |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the color of the structured document tag. |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
-| [setDateDisplayFormat(String value)](#setDateDisplayFormat-java.lang.String-) | String that represents the format in which dates are displayed. |
-| [setDateDisplayLocale(int value)](#setDateDisplayLocale-int-) | Allows to set/get the language format for the date displayed in this **SDT**. |
-| [setDateStorageFormat(int value)](#setDateStorageFormat-int-) | Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. |
-| [setFullDate(Date value)](#setFullDate-java.util.Date-) | Specifies the full date and time last entered into this **SDT**. |
-| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | When set to true, this property will prohibit a user from deleting this **SDT**. |
-| [setLockContents(boolean value)](#setLockContents-boolean-) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
-| [setMultiline(boolean value)](#setMultiline-boolean-) | Specifies whether this **SDT** allows multiple lines of text. |
-| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String-) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [removeSelfOnly()](#removeSelfOnly--) | 仅删除此 SDT 节点本身，但将其内容保留在文档树中。 |
+| [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
+| [setAppearance(int value)](#setAppearance-int-) | 获取/设置结构化文档标签的外观。 |
+| [setBuildingBlockCategory(String value)](#setBuildingBlockCategory-java.lang.String-) | 为此指定构建块的类别**SDT**节点。 |
+| [setBuildingBlockGallery(String value)](#setBuildingBlockGallery-java.lang.String-) | 为此指定构建块的类型**SDT**. |
+| [setCalendar类型(int value)](#setCalendar类型-int-) | 为此指定日历的类型**SDT**. |
+| [setChecked(boolean value)](#setChecked-boolean-) | 获取/设置复选框的当前状态**SDT**. |
+| [setCheckedSymbol(int characterCode, String fontName)](#setCheckedSymbol-int-java.lang.String-) | 设置用于表示复选框内容控件的选中状态的符号。 |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置结构化文档标签的颜色。 |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
+| [setDateDisplayFormat(String value)](#setDateDisplayFormat-java.lang.String-) | 表示日期显示格式的字符串。 |
+| [setDateDisplayLocale(int value)](#setDateDisplayLocale-int-) | 允许设置/获取在此显示的日期的语言格式**SDT**. |
+| [setDateStorageFormat(int value)](#setDateStorageFormat-int-) | 获取/设置日期 SDT 的日期存储格式，当**SDT**绑定到文档数据存储中的 XML 节点。 |
+| [setFullDate(Date value)](#setFullDate-java.util.Date-) | 指定上次输入的完整日期和时间**SDT**. |
+| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | 当设置为 true 时，此属性将禁止用户删除此**SDT**. |
+| [setLockContents(boolean value)](#setLockContents-boolean-) | 当设置为 true 时，此属性将禁止用户编辑此内容**SDT**. |
+| [setMultiline(boolean value)](#setMultiline-boolean-) | 指定这是否**SDT**允许多行文本。 |
+| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String-) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | Sets the Style of the structured document tag. |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the style applied to the structured document tag. |
-| [setTag(String value)](#setTag-java.lang.String-) | Specifies a tag associated with the current SDT node. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the friendly name associated with this **SDT**. |
-| [setUncheckedSymbol(int characterCode, String fontName)](#setUncheckedSymbol-int-java.lang.String-) | Sets the symbol used to represent the unchecked state of a check box content control. |
+| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置结构化文档标签的样式。 |
+| [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于结构化文档标签的样式名称。 |
+| [setTag(String value)](#setTag-java.lang.String-) | 指定与当前 SDT 节点关联的标签。 |
+| [setTitle(String value)](#setTitle-java.lang.String-) | 指定与此关联的友好名称**SDT**. |
+| [setUncheckedSymbol(int characterCode, String fontName)](#setUncheckedSymbol-int-java.lang.String-) | 设置用于表示复选框内容控件的未选中状态的符号。 |
 | [structuredDocumentTagNode()](#structuredDocumentTagNode--) |  |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -159,10 +159,10 @@ public StructuredDocumentTag(DocumentBase doc, int type, int level)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | [DocumentBase](../../com.aspose.words/documentbase) |  |
 | type | int |  |
@@ -174,49 +174,49 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-Accepts a visitor.
+接受访客。
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
+枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
 
-For more info see the Visitor design pattern.
+有关更多信息，请参阅访问者设计模式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
 
-**Returns:**
-boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitStructuredDocumentTagStart(com.aspose.words.StructuredDocumentTag)](../../com.aspose.words/documentvisitor\#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-) for all child nodes of the smart tag and calls [DocumentVisitor.visitStructuredDocumentTagEnd(com.aspose.words.StructuredDocumentTag)](../../com.aspose.words/documentvisitor\#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-) at the end.
+**退货:**
+ boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。来电[DocumentVisitor.visitStructuredDocumentTagStart(com.aspose.words.StructuredDocumentTag)](../../com.aspose.words/documentvisitor\#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-) ，然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)用于智能标签的所有子节点并调用[DocumentVisitor.visitStructuredDocumentTagEnd(com.aspose.words.StructuredDocumentTag)](../../com.aspose.words/documentvisitor\#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-)在最后。
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
 public Node appendChild(Node newChild)
 ```
 
 
-Adds the specified node to the end of the list of child nodes for this node.
+将指定节点添加到此节点的子节点列表的末尾。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+**退货:**
+[Node](../../com.aspose.words/node) - 添加的节点。
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-Clears contents of this structured document tag and displays a placeholder if it is defined.
+清除此结构化文档标记的内容并显示占位符（如果已定义）。
 
-It is not possible to clear contents of a structured document tag if it has revisions.
+如果结构化文档标签有修订，则无法清除它的内容。
 
-If this structured document tag is mapped to custom XML (with using the [getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--) property), the referenced XML node is cleared.
+如果此结构化文档标记映射到自定义 XML（使用[getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--)属性），被引用的 XML 节点被清除。
 
 ### clearRunAttrs() {#clearRunAttrs--}
 ```
@@ -240,19 +240,19 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-Creates a duplicate of the node.
+创建节点的副本。
 
-This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
+此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
 
-This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
+此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
+| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The cloned node.
+**退货:**
+[Node](../../com.aspose.words/node) - 克隆的节点。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -261,13 +261,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -276,127 +276,127 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
-### getAncestor(int ancestorType) {#getAncestor-int-}
+### getAncestor(int ancestor类型) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestorType)
+public CompositeNode getAncestor(int ancestor类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestorType | int |  |
+| ancestor类型 | int |  |
 
-**Returns:**
+**退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
+### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
 ```
-public CompositeNode getAncestor(Class ancestorType)
+public CompositeNode getAncestor(班级 ancestor类型)
 ```
 
 
-Gets the first ancestor of the specified object type.
+获取指定对象类型的第一个祖先。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
+| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
 
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
+**退货:**
+[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
 
-The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
+如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
 ### getAppearance() {#getAppearance--}
 ```
 public int getAppearance()
 ```
 
 
-Gets/sets the appearance of a structured document tag.
+获取/设置结构化文档标签的外观。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SdtAppearance](../../com.aspose.words/sdtappearance) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SdtAppearance](../../com.aspose.words/sdtappearance)常数。
 ### getBuildingBlockCategory() {#getBuildingBlockCategory--}
 ```
 public String getBuildingBlockCategory()
 ```
 
 
-Specifies category of building block for this **SDT** node. Can not be null.
+为此指定构建块的类别**SDT**节点。不能为空。
 
-Accessing this property will only work for [SdtType.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY) and [SdtType.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ) SDT types. It is read-only for **SDT** of the document part type.
+访问此属性仅适用于[Sdt类型.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY)和[Sdt类型.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ)SDT 类型。它是只读的**SDT**文档部件类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getBuildingBlockGallery() {#getBuildingBlockGallery--}
 ```
 public String getBuildingBlockGallery()
 ```
 
 
-Specifies type of building block for this **SDT**. Can not be null.
+为此指定构建块的类型**SDT**.不能为空。
 
-Accessing this property will only work for [SdtType.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY) and [SdtType.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ) SDT types. It is read-only for **SDT** of the document part type.
+访问此属性仅适用于[Sdt类型.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY)和[Sdt类型.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ)SDT 类型。它是只读的**SDT**文档部件类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### getCalendarType() {#getCalendarType--}
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
+### getCalendar类型() {#getCalendar类型--}
 ```
-public int getCalendarType()
+public int getCalendar类型()
 ```
 
 
-Specifies the type of calendar for this **SDT**. Default is [SdtCalendarType.DEFAULT](../../com.aspose.words/sdtcalendartype\#DEFAULT)
+为此指定日历的类型**SDT** .默认为[SdtCalendar类型.DEFAULT](../../com.aspose.words/sdtcalendartype\#DEFAULT)
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SdtCalendarType](../../com.aspose.words/sdtcalendartype) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SdtCalendar类型](../../com.aspose.words/sdtcalendartype)常数。
 ### getChecked() {#getChecked--}
 ```
 public boolean getChecked()
 ```
 
 
-Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false.
+获取/设置复选框的当前状态**SDT**.此属性的默认值为 false。
 
-Accessing this property will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT types.
+访问此属性仅适用于[Sdt类型.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
+**退货:**
+boolean - 对应的布尔值。
+### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int nodeType, int index, boolean isDeep)
+public Node getChild(int node类型, int index, boolean isDeep)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nodeType | int |  |
+| node类型 | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -404,50 +404,50 @@ public NodeCollection getChildNodes()
 ```
 
 
-Gets all immediate child nodes of this node.
+获取此节点的所有直接子节点。
 
-Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
+笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
 
-If there are no child nodes, this property returns an empty collection.
+如果没有子节点，则此属性返回一个空集合。
 
-**Returns:**
-[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
-### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
+**退货:**
+[NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
+### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int nodeType, boolean isDeep)
+public NodeCollection getChildNodes(int node类型, boolean isDeep)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nodeType | int |  |
+| node类型 | int |  |
 | isDeep | boolean |  |
 
-**Returns:**
+**退货:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-Gets the color of the structured document tag.
+获取结构化文档标签的颜色。
 
-**Returns:**
-java.awt.Color - The color of the structured document tag.
+**退货:**
+java.awt.Color - 结构化文档标签的颜色。
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -456,7 +456,7 @@ public CompositeNode getContainer()
 
 
 
-**Returns:**
+**退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getContentsFont() {#getContentsFont--}
 ```
@@ -464,20 +464,20 @@ public Font getContentsFont()
 ```
 
 
-Font formatting that will be applied to text entered into **SDT**.
+将应用于输入的文本的字体格式**SDT**.
 
-**Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+**退货:**
+[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of immediate children of this node.
+获取此节点的直接子节点数。
 
-**Returns:**
-int - The number of immediate children of this node.
+**退货:**
+int - 此节点的直接子节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -486,7 +486,7 @@ public Node getCurrentNode()
 
 
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -494,58 +494,58 @@ public int getCustomNodeId()
 ```
 
 
-Specifies custom node identifier.
+指定自定义节点标识符。
 
-Default is zero.
+默认为零。
 
-This identifier can be set and used arbitrarily. For example, as a key to get external data.
+这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
 
-Important note, specified value is not saved to an output file and exists only during the node lifetime.
+重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getDateDisplayFormat() {#getDateDisplayFormat--}
 ```
 public String getDateDisplayFormat()
 ```
 
 
-String that represents the format in which dates are displayed. Can not be null. The dates for English (U.S.) is "mm/dd/yyyy"
+表示日期显示格式的字符串。不能为空。英语（美国）的日期是“mm/dd/yyyy”
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getDateDisplayLocale() {#getDateDisplayLocale--}
 ```
 public int getDateDisplayLocale()
 ```
 
 
-Allows to set/get the language format for the date displayed in this **SDT**.
+允许设置/获取在此显示的日期的语言格式**SDT**.
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getDateStorageFormat() {#getDateStorageFormat--}
 ```
 public int getDateStorageFormat()
 ```
 
 
-Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [SdtDateStorageFormat.DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
+获取/设置日期 SDT 的日期存储格式，当**SDT**绑定到文档数据存储中的 XML 节点。默认值为[SdtDateStorageFormat.DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SdtDateStorageFormat](../../com.aspose.words/sdtdatestorageformat) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SdtDateStorageFormat](../../com.aspose.words/sdtdatestorageformat)常数。
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -554,12 +554,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -567,84 +567,84 @@ public DocumentBase getDocument()
 ```
 
 
-Gets the document to which this node belongs.
+获取该节点所属的文档。
 
-The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
+该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
 
-**Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
+**退货:**
+[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
 ### getEndCharacterFont() {#getEndCharacterFont--}
 ```
 public Font getEndCharacterFont()
 ```
 
 
-Font formatting that will be applied to the last character of text entered into **SDT**.
+将应用于输入文本的最后一个字符的字体格式**SDT**.
 
-**Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+**退货:**
+[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### getFirstChild() {#getFirstChild--}
 ```
 public Node getFirstChild()
 ```
 
 
-Gets the first child of the node. If there is no first child node, a null is returned.
+获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The first child of the node.
+**退货:**
+[Node](../../com.aspose.words/node) - 节点的第一个子节点。
 ### getFullDate() {#getFullDate--}
 ```
 public Date getFullDate()
 ```
 
 
-Specifies the full date and time last entered into this **SDT**.
+指定上次输入的完整日期和时间**SDT**.
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-java.util.Date - The corresponding java.util.Date value.
+**退货:**
+java.util.Date - 对应的 java.util.Date 值。
 ### getId() {#getId--}
 ```
 public int getId()
 ```
 
 
-Specifies a unique read-only persistent numerical Id for this **SDT**.
+为此指定一个唯一的只读持久数字 ID**SDT**.
 
-Id attribute shall follow these rules:
+id 属性应遵循以下规则：
 
- *  The document shall retain SDT ids only if the whole document is cloned [Document.deepClone()](../../com.aspose.words/document\#deepClone--).
- *  During [DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase\#importNode-com.aspose.words.Node--boolean-) Id shall be retained if import does not cause conflicts with other SDT Ids in the target document.
- *  If multiple SDT nodes specify the same decimal number value for the Id attribute, then the first SDT in the document shall maintain this original Id, and all subsequent SDT nodes shall have new identifiers assigned to them when the document is loaded.
- *  During standalone SDT **M:Aspose.Words.Markup.StructuredDocumentTag.Clone(System.Boolean,Aspose.Words.INodeCloningListener)** operation new unique ID will be generated for the cloned SDT node.
- *  If Id is not specified in the source document, then the SDT node shall have a new unique identifier assigned to it when the document is loaded.
+ *  仅当克隆整个文档时，文档才应保留 SDT id[Document.deepClone()](../../com.aspose.words/document\#deepClone--).
+ *  期间[DocumentBase.importNode(com.aspose.words.Node, boolean)](../../com.aspose.words/documentbase\#importNode-com.aspose.words.Node--boolean-)如果导入不会与目标文档中的其他 SDT Id 发生冲突，则应保留 Id。
+ *  如果多个 SDT 节点为 Id 属性指定相同的十进制数字值，则文档中的第一个 SDT 应保持此原始 Id，并且所有后续 SDT 节点应在加载文档时为其分配新的标识符。
+ *  在独立 SDT 期间**M:Aspose.Words.Markup.StructuredDocumentTag.Clone(System.Boolean,Aspose.Words.INodeCloningListener)**操作将为克隆的 SDT 节点生成新的唯一 ID。
+ *  如果源文档中未指定 Id，则 SDT 节点应在加载文档时分配一个新的唯一标识符。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
 ```
 
 
-Gets the last child of the node. If there is no last child node, a null is returned.
+获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The last child of the node.
+**退货:**
+[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
 ### getLevel() {#getLevel--}
 ```
 public int getLevel()
 ```
 
 
-Gets the level at which this **SDT** occurs in the document tree.
+获取此级别**SDT**出现在文档树中。
 
-**Returns:**
-int - The level at which this **SDT** occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel) constants.
+**退货:**
+ int - 这个级别**SDT**出现在文档树中。返回值是以下之一[MarkupLevel](../../com.aspose.words/markuplevel)常数。
 ### getLevel_IMarkupNode() {#getLevel-IMarkupNode--}
 ```
 public int getLevel_IMarkupNode()
@@ -653,56 +653,56 @@ public int getLevel_IMarkupNode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getListItems() {#getListItems--}
 ```
 public SdtListItemCollection getListItems()
 ```
 
 
-Gets [SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection) associated with this **SDT**.
+获取[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection)与此相关**SDT**.
 
-Accessing this property will only work for [SdtType.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST) SDT types.
+访问此属性仅适用于[Sdt类型.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX)或者[Sdt类型.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST) SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection) - \{[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection) associated with this **SDT**.
+**退货:**
+[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection) -\{[SdtListItemCollection](../../com.aspose.words/sdtlistitemcollection)与此相关**SDT**.
 ### getLockContentControl() {#getLockContentControl--}
 ```
 public boolean getLockContentControl()
 ```
 
 
-When set to true, this property will prohibit a user from deleting this **SDT**.
+当设置为 true 时，此属性将禁止用户删除此**SDT**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getLockContents() {#getLockContents--}
 ```
 public boolean getLockContents()
 ```
 
 
-When set to true, this property will prohibit a user from editing the contents of this **SDT**.
+当设置为 true 时，此属性将禁止用户编辑此内容**SDT**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getMultiline() {#getMultiline--}
 ```
 public boolean getMultiline()
 ```
 
 
-Specifies whether this **SDT** allows multiple lines of text.
+指定这是否**SDT**允许多行文本。
 
-Accessing this property will only work for [SdtType.RICH\_TEXT](../../com.aspose.words/sdttype\#RICH-TEXT) and [SdtType.PLAIN\_TEXT](../../com.aspose.words/sdttype\#PLAIN-TEXT) SDT type.
+访问此属性仅适用于[Sdt类型.RICH\_TEXT](../../com.aspose.words/sdttype\#RICH-TEXT)和[Sdt类型.PLAIN\_TEXT](../../com.aspose.words/sdttype\#PLAIN-TEXT)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -711,12 +711,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -724,125 +724,125 @@ public Node getNextSibling()
 ```
 
 
-Gets the node immediately following this node. If there is no next node, a null is returned.
+获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The node immediately following this node.
-### getNodeType() {#getNodeType--}
+**退货:**
+[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
+### getNode类型() {#getNode类型--}
 ```
-public int getNodeType()
+public int getNode类型()
 ```
 
 
-Returns **NodeType.StructuredDocumentTag**.
+退货**Node类型.StructuredDocumentTag**.
 
-**Returns:**
-int - **NodeType.StructuredDocumentTag**. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
+**退货:**
+诠释 -**Node类型.StructuredDocumentTag** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-Gets the immediate parent of this node.
+获取此节点的直接父节点。
 
-If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
+如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
 
-**Returns:**
-[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
+**退货:**
+[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public BuildingBlock getPlaceholder()
 ```
 
 
-Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-) element is true. Can be null, meaning that the placeholder is not applicable for this Sdt.
+获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。可以为 null，表示占位符不适用于此 Sdt。
 
-**Returns:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - The [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-) element is true.
+**退货:**
+[BuildingBlock](../../com.aspose.words/buildingblock) - 这[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/structureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/structureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。
 ### getPlaceholderName() {#getPlaceholderName--}
 ```
 public String getPlaceholderName()
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。
 
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-) otherwise java.lang.IllegalStateException will occur.
+具有此名称的 BuildingBlock[BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-)必须出现在[Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-)否则会发生 java.lang.IllegalStateException。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
+获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The node immediately preceding this node.
+**退货:**
+[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-Returns a **Range** object that represents the portion of a document that is contained in this node.
+返回一个**Range**表示包含在此节点中的文档部分的对象。
 
-**Returns:**
-[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
-### getSdtType() {#getSdtType--}
+**退货:**
+[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+### getSdt类型() {#getSdt类型--}
 ```
-public int getSdtType()
+public int getSdt类型()
 ```
 
 
-Gets type of this **Structured document tag**.
+获取 this 的类型**Structured document tag**.
 
-**Returns:**
-int - Type of this **Structured document tag**. The returned value is one of [SdtType](../../com.aspose.words/sdttype) constants.
+**退货:**
+ int - 这个的类型**Structured document tag** .返回值是以下之一[Sdt类型](../../com.aspose.words/sdttype)常数。
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
 ```
 
 
-Gets the Style of the structured document tag. Only [StyleType.CHARACTER](../../com.aspose.words/styletype\#CHARACTER) style or [StyleType.PARAGRAPH](../../com.aspose.words/styletype\#PARAGRAPH) style with linked character style can be set.
+获取结构化文档标签的样式。仅有的[Style类型.CHARACTER](../../com.aspose.words/styletype\#CHARACTER)风格或[Style类型.PARAGRAPH](../../com.aspose.words/styletype\#PARAGRAPH)可以设置链接字符样式的样式。
 
-**Returns:**
-[Style](../../com.aspose.words/style) - The Style of the structured document tag.
+**退货:**
+[Style](../../com.aspose.words/style) - 结构化文档标签的样式。
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
 ```
 
 
-Gets the name of the style applied to the structured document tag.
+获取应用于结构化文档标签的样式名称。
 
-**Returns:**
-java.lang.String - The name of the style applied to the structured document tag.
+**退货:**
+java.lang.String - 应用于结构化文档标签的样式名称。
 ### getTag() {#getTag--}
 ```
 public String getTag()
 ```
 
 
-Specifies a tag associated with the current SDT node. Can not be null. A tag is an arbitrary string which applications can associate with SDT in order to identify it without providing a visible friendly name.
+指定与当前 SDT 节点关联的标签。不能为空。标记是应用程序可以与 SDT 关联的任意字符串，以便在不提供可见友好名称的情况下识别它。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-Gets the text of this node and of all its children.
+获取此节点及其所有子节点的文本。
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getTitle() {#getTitle--}
 ```
@@ -850,40 +850,40 @@ public String getTitle()
 ```
 
 
-Specifies the friendly name associated with this **SDT**. Can not be null.
+指定与此关联的友好名称**SDT**.不能为空。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getWordOpenXML() {#getWordOpenXML--}
 ```
 public String getWordOpenXML()
 ```
 
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+获取一个字符串，该字符串表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。
 
-**Returns:**
-java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
+**退货:**
+ java.lang.String - 一个字符串，表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。
 ### getXmlMapping() {#getXmlMapping--}
 ```
 public XmlMapping getXmlMapping()
 ```
 
 
-Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String-) method of this object to map a structured document tag to XML data.
+获取一个对象，该对象表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射。您可以使用[XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String-)此对象的方法将结构化文档标记映射到 XML 数据。
 
-**Returns:**
-[XmlMapping](../../com.aspose.words/xmlmapping) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
+**退货:**
+[XmlMapping](../../com.aspose.words/xmlmapping) - 表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射的对象。
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
 ```
 
 
-Returns true if this node has any child nodes.
+如果此节点有任何子节点，则返回 true。
 
-**Returns:**
-boolean - True if this node has any child nodes.
+**退货:**
+boolean - 如果此节点有任何子节点，则为真。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -892,113 +892,113 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node child)
 ```
 
 
-Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
+返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-Inserts the specified node immediately after the specified reference node.
+在指定的参考节点之后立即插入指定的节点。
 
-If refChild is null, inserts newChild at the beginning of the list of child nodes.
+如果 refChild 为 null，则在子节点列表的开头插入 newChild。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
+| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
+| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+**退货:**
+[Node](../../com.aspose.words/node) - 插入的节点。
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-Inserts the specified node immediately before the specified reference node.
+在指定的参考节点之前插入指定的节点。
 
-If refChild is null, inserts newChild at the end of the list of child nodes.
+如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
-| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
+| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
+| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The inserted node.
+**退货:**
+[Node](../../com.aspose.words/node) - 插入的节点。
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-Returns true as this node can have child nodes.
+返回 true，因为此节点可以有子节点。
 
-**Returns:**
-boolean - True as this node can have child nodes.
+**退货:**
+boolean - True 因为这个节点可以有子节点。
 ### isRanged() {#isRanged--}
 ```
 public boolean isRanged()
 ```
 
 
-Returns true if this instance is a ranged structured document tag.
+如果此实例是范围结构化文档标记，则返回 true。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### isShowingPlaceholderText() {#isShowingPlaceholderText--}
 ```
 public boolean isShowingPlaceholderText()
 ```
 
 
-Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).
+指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。
 
-if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isShowingPlaceholderText(boolean value) {#isShowingPlaceholderText-boolean-}
 ```
 public void isShowingPlaceholderText(boolean value)
 ```
 
 
-Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).
+指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。
 
-if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### isTemporary() {#isTemporary--}
 ```
@@ -1006,22 +1006,22 @@ public boolean isTemporary()
 ```
 
 
-Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
+指定这是否**SDT**当其内容被修改时，应从 WordProcessingML 文档中删除。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isTemporary(boolean value) {#isTemporary-boolean-}
 ```
 public void isTemporary(boolean value)
 ```
 
 
-Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified.
+指定这是否**SDT**当其内容被修改时，应从 WordProcessingML 文档中删除。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### iterator() {#iterator--}
 ```
@@ -1029,9 +1029,9 @@ public Iterator iterator()
 ```
 
 
-Provides support for the for each style iteration over the child nodes of this node.
+为在此节点的子节点上的每个样式迭代提供支持。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
@@ -1039,29 +1039,29 @@ public Node nextPreOrder(Node rootNode)
 ```
 
 
-Gets next node according to the pre-order tree traversal algorithm.
+根据前序树遍历算法获取下一个节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
-### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
+**退货:**
+[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
+### node类型ToString(int node类型) {#node类型ToString-int-}
 ```
-public static String nodeTypeToString(int nodeType)
+public static String node类型ToString(int node类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| nodeType | int |  |
+| node类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -1085,41 +1085,41 @@ public Node prependChild(Node newChild)
 ```
 
 
-Adds the specified node to the beginning of the list of child nodes for this node.
+将指定节点添加到此节点的子节点列表的开头。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | The node to add. |
+| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The node added.
+**退货:**
+[Node](../../com.aspose.words/node) - 添加的节点。
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
 
 
-Gets the previous node according to the pre-order tree traversal algorithm.
+根据前序树遍历算法获取上一个节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
+| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
+**退货:**
+[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-Removes itself from the parent.
+从父级中移除自身。
 
 ### removeAllChildren() {#removeAllChildren--}
 ```
@@ -1127,7 +1127,7 @@ public void removeAllChildren()
 ```
 
 
-Removes all the child nodes of the current node.
+移除当前节点的所有子节点。
 
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
 ```
@@ -1135,17 +1135,17 @@ public Node removeChild(Node oldChild)
 ```
 
 
-Removes the specified child node.
+移除指定的子节点。
 
-The parent of oldChild is set to null after the node is removed.
+删除节点后，oldChild 的父级设置为 null。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
+| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The removed node.
+**退货:**
+[Node](../../com.aspose.words/node) - 删除的节点。
 ### removeMoveRevisions() {#removeMoveRevisions--}
 ```
 public void removeMoveRevisions()
@@ -1162,8 +1162,8 @@ public void removeRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
@@ -1173,7 +1173,7 @@ public void removeSelfOnly()
 ```
 
 
-Removes just this SDT node itself, but keeps the content of it inside the document tree.
+仅删除此 SDT 节点本身，但将其内容保留在文档树中。
 
 ### removeSmartTags() {#removeSmartTags--}
 ```
@@ -1181,7 +1181,7 @@ public void removeSmartTags()
 ```
 
 
-Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
+删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。此方法不会删除智能标记的内容。
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String-}
 ```
@@ -1189,46 +1189,46 @@ public NodeList selectNodes(String xpath)
 ```
 
 
-Selects a list of nodes matching the XPath expression.
+选择与 XPath 表达式匹配的节点列表。
 
-Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
+目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
+| xpath | java.lang.String | XPath 表达式。 |
 
-**Returns:**
-[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
+**退货:**
+[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-Selects the first Node that matches the XPath expression.
+选择与 XPath 表达式匹配的第一个节点。
 
-Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
+目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xpath | java.lang.String | The XPath expression. |
+| xpath | java.lang.String | XPath 表达式。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
+**退货:**
+[Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
 ### setAppearance(int value) {#setAppearance-int-}
 ```
 public void setAppearance(int value)
 ```
 
 
-Gets/sets the appearance of a structured document tag.
+获取/设置结构化文档标签的外观。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SdtAppearance](../../com.aspose.words/sdtappearance) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SdtAppearance](../../com.aspose.words/sdtappearance)常数。 |
 
 ### setBuildingBlockCategory(String value) {#setBuildingBlockCategory-java.lang.String-}
 ```
@@ -1236,16 +1236,16 @@ public void setBuildingBlockCategory(String value)
 ```
 
 
-Specifies category of building block for this **SDT** node. Can not be null.
+为此指定构建块的类别**SDT**节点。不能为空。
 
-Accessing this property will only work for [SdtType.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY) and [SdtType.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ) SDT types. It is read-only for **SDT** of the document part type.
+访问此属性仅适用于[Sdt类型.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY)和[Sdt类型.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ)SDT 类型。它是只读的**SDT**文档部件类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setBuildingBlockGallery(String value) {#setBuildingBlockGallery-java.lang.String-}
 ```
@@ -1253,33 +1253,33 @@ public void setBuildingBlockGallery(String value)
 ```
 
 
-Specifies type of building block for this **SDT**. Can not be null.
+为此指定构建块的类型**SDT**.不能为空。
 
-Accessing this property will only work for [SdtType.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY) and [SdtType.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ) SDT types. It is read-only for **SDT** of the document part type.
+访问此属性仅适用于[Sdt类型.BUILDING\_BLOCK\_GALLERY](../../com.aspose.words/sdttype\#BUILDING-BLOCK-GALLERY)和[Sdt类型.DOC\_PART\_OBJ](../../com.aspose.words/sdttype\#DOC-PART-OBJ)SDT 类型。它是只读的**SDT**文档部件类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setCalendarType(int value) {#setCalendarType-int-}
+### setCalendar类型(int value) {#setCalendar类型-int-}
 ```
-public void setCalendarType(int value)
+public void setCalendar类型(int value)
 ```
 
 
-Specifies the type of calendar for this **SDT**. Default is [SdtCalendarType.DEFAULT](../../com.aspose.words/sdtcalendartype\#DEFAULT)
+为此指定日历的类型**SDT** .默认为[SdtCalendar类型.DEFAULT](../../com.aspose.words/sdtcalendartype\#DEFAULT)
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SdtCalendarType](../../com.aspose.words/sdtcalendartype) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SdtCalendar类型](../../com.aspose.words/sdtcalendartype)常数。 |
 
 ### setChecked(boolean value) {#setChecked-boolean-}
 ```
@@ -1287,16 +1287,16 @@ public void setChecked(boolean value)
 ```
 
 
-Gets/Sets current state of the Checkbox **SDT**. Default value for this property is false.
+获取/设置复选框的当前状态**SDT**.此属性的默认值为 false。
 
-Accessing this property will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT types.
+访问此属性仅适用于[Sdt类型.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setCheckedSymbol(int characterCode, String fontName) {#setCheckedSymbol-int-java.lang.String-}
 ```
@@ -1304,17 +1304,17 @@ public void setCheckedSymbol(int characterCode, String fontName)
 ```
 
 
-Sets the symbol used to represent the checked state of a check box content control.
+设置用于表示复选框内容控件的选中状态的符号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| characterCode | int | The character code for the specified symbol. |
-| fontName | java.lang.String | The name of the font that contains the symbol.
+| characterCode | int | 指定符号的字符代码。 |
+| fontName | java.lang.String | 包含符号的字体的名称。
 
-Accessing this method will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT types.
+访问此方法仅适用于[Sdt类型.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT 类型。
 
-For all other SDT types exception will occur. |
+对于所有其他 SDT 类型，将发生异常。|
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -1322,12 +1322,12 @@ public void setColor(Color value)
 ```
 
 
-Sets the color of the structured document tag.
+设置结构化文档标签的颜色。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The color of the structured document tag. |
+| value | java.awt.Color | 结构化文档标签的颜色。 |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -1335,18 +1335,18 @@ public void setCustomNodeId(int value)
 ```
 
 
-Specifies custom node identifier.
+指定自定义节点标识符。
 
-Default is zero.
+默认为零。
 
-This identifier can be set and used arbitrarily. For example, as a key to get external data.
+这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
 
-Important note, specified value is not saved to an output file and exists only during the node lifetime.
+重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setDateDisplayFormat(String value) {#setDateDisplayFormat-java.lang.String-}
 ```
@@ -1354,16 +1354,16 @@ public void setDateDisplayFormat(String value)
 ```
 
 
-String that represents the format in which dates are displayed. Can not be null. The dates for English (U.S.) is "mm/dd/yyyy"
+表示日期显示格式的字符串。不能为空。英语（美国）的日期是“mm/dd/yyyy”
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setDateDisplayLocale(int value) {#setDateDisplayLocale-int-}
 ```
@@ -1371,16 +1371,16 @@ public void setDateDisplayLocale(int value)
 ```
 
 
-Allows to set/get the language format for the date displayed in this **SDT**.
+允许设置/获取在此显示的日期的语言格式**SDT**.
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setDateStorageFormat(int value) {#setDateStorageFormat-int-}
 ```
@@ -1388,16 +1388,16 @@ public void setDateStorageFormat(int value)
 ```
 
 
-Gets/sets format in which the date for a date SDT is stored when the **SDT** is bound to an XML node in the document's data store. Default value is [SdtDateStorageFormat.DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
+获取/设置日期 SDT 的日期存储格式，当**SDT**绑定到文档数据存储中的 XML 节点。默认值为[SdtDateStorageFormat.DATE\_TIME](../../com.aspose.words/sdtdatestorageformat\#DATE-TIME)
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SdtDateStorageFormat](../../com.aspose.words/sdtdatestorageformat) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SdtDateStorageFormat](../../com.aspose.words/sdtdatestorageformat)常数。 |
 
 ### setFullDate(Date value) {#setFullDate-java.util.Date-}
 ```
@@ -1405,16 +1405,16 @@ public void setFullDate(Date value)
 ```
 
 
-Specifies the full date and time last entered into this **SDT**.
+指定上次输入的完整日期和时间**SDT**.
 
-Accessing this property will only work for [SdtType.DATE](../../com.aspose.words/sdttype\#DATE) SDT type.
+访问此属性仅适用于[Sdt类型.DATE](../../com.aspose.words/sdttype\#DATE)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The corresponding java.util.Date value. |
+| value | java.util.Date | 对应的 java.util.Date 值。 |
 
 ### setLockContentControl(boolean value) {#setLockContentControl-boolean-}
 ```
@@ -1422,12 +1422,12 @@ public void setLockContentControl(boolean value)
 ```
 
 
-When set to true, this property will prohibit a user from deleting this **SDT**.
+当设置为 true 时，此属性将禁止用户删除此**SDT**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setLockContents(boolean value) {#setLockContents-boolean-}
 ```
@@ -1435,12 +1435,12 @@ public void setLockContents(boolean value)
 ```
 
 
-When set to true, this property will prohibit a user from editing the contents of this **SDT**.
+当设置为 true 时，此属性将禁止用户编辑此内容**SDT**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setMultiline(boolean value) {#setMultiline-boolean-}
 ```
@@ -1448,16 +1448,16 @@ public void setMultiline(boolean value)
 ```
 
 
-Specifies whether this **SDT** allows multiple lines of text.
+指定这是否**SDT**允许多行文本。
 
-Accessing this property will only work for [SdtType.RICH\_TEXT](../../com.aspose.words/sdttype\#RICH-TEXT) and [SdtType.PLAIN\_TEXT](../../com.aspose.words/sdttype\#PLAIN-TEXT) SDT type.
+访问此属性仅适用于[Sdt类型.RICH\_TEXT](../../com.aspose.words/sdttype\#RICH-TEXT)和[Sdt类型.PLAIN\_TEXT](../../com.aspose.words/sdttype\#PLAIN-TEXT)SDT 类型。
 
-For all other SDT types exception will occur.
+对于所有其他 SDT 类型，将发生异常。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPlaceholderName(String value) {#setPlaceholderName-java.lang.String-}
 ```
@@ -1465,14 +1465,14 @@ public void setPlaceholderName(String value)
 ```
 
 
-Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
+获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。
 
-BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-) otherwise java.lang.IllegalStateException will occur.
+具有此名称的 BuildingBlock[BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-)必须出现在[Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-)否则会发生 java.lang.IllegalStateException。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -1482,8 +1482,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1494,12 +1494,12 @@ public void setStyle(Style value)
 ```
 
 
-Sets the Style of the structured document tag. Only [StyleType.CHARACTER](../../com.aspose.words/styletype\#CHARACTER) style or [StyleType.PARAGRAPH](../../com.aspose.words/styletype\#PARAGRAPH) style with linked character style can be set.
+设置结构化文档标签的样式。仅有的[Style类型.CHARACTER](../../com.aspose.words/styletype\#CHARACTER)风格或[Style类型.PARAGRAPH](../../com.aspose.words/styletype\#PARAGRAPH)可以设置链接字符样式的样式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | The Style of the structured document tag. |
+| value | [Style](../../com.aspose.words/style) | 结构化文档标签的样式。 |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1507,12 +1507,12 @@ public void setStyleName(String value)
 ```
 
 
-Sets the name of the style applied to the structured document tag.
+设置应用于结构化文档标签的样式名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the style applied to the structured document tag. |
+| value | java.lang.String | 应用于结构化文档标签的样式名称。 |
 
 ### setTag(String value) {#setTag-java.lang.String-}
 ```
@@ -1520,12 +1520,12 @@ public void setTag(String value)
 ```
 
 
-Specifies a tag associated with the current SDT node. Can not be null. A tag is an arbitrary string which applications can associate with SDT in order to identify it without providing a visible friendly name.
+指定与当前 SDT 节点关联的标签。不能为空。标记是应用程序可以与 SDT 关联的任意字符串，以便在不提供可见友好名称的情况下识别它。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -1533,12 +1533,12 @@ public void setTitle(String value)
 ```
 
 
-Specifies the friendly name associated with this **SDT**. Can not be null.
+指定与此关联的友好名称**SDT**.不能为空。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setUncheckedSymbol(int characterCode, String fontName) {#setUncheckedSymbol-int-java.lang.String-}
 ```
@@ -1546,17 +1546,17 @@ public void setUncheckedSymbol(int characterCode, String fontName)
 ```
 
 
-Sets the symbol used to represent the unchecked state of a check box content control.
+设置用于表示复选框内容控件的未选中状态的符号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| characterCode | int | The character code for the specified symbol. |
-| fontName | java.lang.String | The name of the font that contains the symbol.
+| characterCode | int | 指定符号的字符代码。 |
+| fontName | java.lang.String | 包含符号的字体的名称。
 
-Accessing this method will only work for [SdtType.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT types.
+访问此方法仅适用于[Sdt类型.CHECKBOX](../../com.aspose.words/sdttype\#CHECKBOX) SDT 类型。
 
-For all other SDT types exception will occur. |
+对于所有其他 SDT 类型，将发生异常。|
 
 ### structuredDocumentTagNode() {#structuredDocumentTagNode--}
 ```
@@ -1564,9 +1564,9 @@ public Node structuredDocumentTagNode()
 ```
 
 
-Returns Node object that implements this interface.
+返回实现此接口的 Node 对象。
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### toString() {#toString--}
 ```
@@ -1576,7 +1576,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -1584,15 +1584,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-Exports the content of the node into a string using the specified save options.
+使用指定的保存选项将节点的内容导出为字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
 
-**Returns:**
-java.lang.String - The content of the node in the specified format.
+**退货:**
+java.lang.String - 指定格式的节点内容。
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -1601,12 +1601,12 @@ public String toString(int saveFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1624,8 +1624,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1637,9 +1637,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,34 +1,34 @@
 ---
 title: PdfFontEmbeddingMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words should embed fonts.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Aspose.Words 应该如何嵌入字体。
 type: docs
 weight: 455
-url: /java/com.aspose.words/pdffontembeddingmode/
+url: /zh/java/com.aspose.words/pdffontembeddingmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PdfFontEmbeddingMode
 ```
 
-Specifies how Aspose.Words should embed fonts.
-## Fields
+指定 Aspose.Words 应该如何嵌入字体。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [EMBED_ALL](#EMBED-ALL) | Aspose.Words embeds all fonts. |
-| [EMBED_NONE](#EMBED-NONE) | Aspose.Words do not embed any fonts. |
-| [EMBED_NONSTANDARD](#EMBED-NONSTANDARD) | Aspose.Words embeds all fonts excepting standard Windows fonts Arial and Times New Roman. |
+| [EMBED_ALL](#EMBED-ALL) | Aspose.Words 嵌入所有字体。 |
+| [EMBED_NONE](#EMBED-NONE) | Aspose.Words 不嵌入任何字体。 |
+| [EMBED_NONSTANDARD](#EMBED-NONSTANDARD) | Aspose.Words 嵌入了除标准 Windows 字体 Arial 和 Times New Roman 之外的所有字体。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfFontEmbeddingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pdfFontEmbeddingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int EMBED_ALL
 ```
 
 
-Aspose.Words embeds all fonts.
+Aspose.Words 嵌入所有字体。
 
 ### EMBED_NONE {#EMBED-NONE}
 ```
@@ -53,7 +53,7 @@ public static int EMBED_NONE
 ```
 
 
-Aspose.Words do not embed any fonts.
+Aspose.Words 不嵌入任何字体。
 
 ### EMBED_NONSTANDARD {#EMBED-NONSTANDARD}
 ```
@@ -61,7 +61,7 @@ public static int EMBED_NONSTANDARD
 ```
 
 
-Aspose.Words embeds all fonts excepting standard Windows fonts Arial and Times New Roman. Only Arial and Times New Roman fonts are affected in this mode because MS Word doesn't embed only these fonts when saving document to PDF.
+Aspose.Words 嵌入了除标准 Windows 字体 Arial 和 Times New Roman 之外的所有字体。此模式仅影响 Arial 和 Times New Roman 字体，因为 MS Word 在将文档保存为 PDF 时不会仅嵌入这些字体。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pdfFontEmbeddingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfFontEmbeddingModeName)
@@ -92,23 +92,23 @@ public static int fromName(String pdfFontEmbeddingModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfFontEmbeddingModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pdfFontEmbeddingMode) {#getName-int-}
 ```
 public static String getName(int pdfFontEmbeddingMode)
@@ -117,12 +117,12 @@ public static String getName(int pdfFontEmbeddingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfFontEmbeddingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pdfFontEmbeddingMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int pdfFontEmbeddingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pdfFontEmbeddingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

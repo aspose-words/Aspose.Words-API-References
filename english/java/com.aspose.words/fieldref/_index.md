@@ -1,88 +1,88 @@
 ---
-title: FieldRef
-second_title: Aspose.Words for Java API Reference
-description: Implements the REF field.
+title: 字段Ref
+second_title: Aspose.Words for Java API 参考
+description: 实现 REF 字段。
 type: docs
 weight: 235
-url: /java/com.aspose.words/fieldref/
+url: /zh/java/com.aspose.words/fieldref/
 ---
 
-**Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+**遗产:**
+java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
 ```
-public class FieldRef extends Field
+public class 字段Ref extends 字段
 ```
 
-Implements the REF field.
+实现 REF 字段。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-Inserts the text or graphics represented by the specified bookmark.
-## Methods
+插入由指定书签表示的文本或图形。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [canWorkAsMergeField()](#canWorkAsMergeField--) |  |
+| [canWorkAsMerge字段()](#canWorkAsMerge字段--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarkName()](#getBookmarkName--) | Gets the referenced bookmark's name. |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getIncludeNoteOrComment()](#getIncludeNoteOrComment--) | Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
-| [getInsertHyperlink()](#getInsertHyperlink--) | Gets whether to create a hyperlink to the bookmarked paragraph. |
-| [getInsertParagraphNumber()](#getInsertParagraphNumber--) | Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [getInsertParagraphNumberInFullContext()](#getInsertParagraphNumberInFullContext--) | Gets whether to insert the paragraph number of the referenced paragraph in full context. |
-| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [getInsertRelativePosition()](#getInsertRelativePosition--) | Gets whether to insert the relative position of the referenced paragraph. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getMergeFieldName()](#getMergeFieldName--) |  |
-| [getNumberSeparator()](#getNumberSeparator--) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | Gets whether to suppress non-delimiter characters. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getBookmarkName()](#getBookmarkName--) | 获取引用书签的名称。 |
+| [get班级()](#get班级--) |  |
+| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
+| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getIncludeNoteOrComment()](#getIncludeNoteOrComment--) | 获取是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。 |
+| [getInsertHyperlink()](#getInsertHyperlink--) | 获取是否创建到书签段落的超链接。 |
+| [getInsertParagraphNumber()](#getInsertParagraphNumber--) | 获取是否插入被引用段落的段落编号，与它在文档中出现的完全一样。 |
+| [getInsertParagraphNumberInFullContext()](#getInsertParagraphNumberInFullContext--) | 获取是否在完整上下文中插入引用段落的段落编号。 |
+| [getInsertParagraphNumberInRelativeContext()](#getInsertParagraphNumberInRelativeContext--) | 获取是否在相关上下文中插入被引用段落的段落编号。 |
+| [getInsertRelativePosition()](#getInsertRelativePosition--) | 获取是否插入被引用段落的相对位置。 |
+| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
+| [getMerge字段Name()](#getMerge字段Name--) |  |
+| [getNumberSeparator()](#getNumberSeparator--) | 获取用于分隔序号和页码的字符序列。 |
+| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
+| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
+| [getSuppressNonDelimiters()](#getSuppressNonDelimiters--) | 获取是否抑制非分隔符。 |
+| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
+| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [isMergeValueRequired()](#isMergeValueRequired--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets the referenced bookmark's name. |
-| [setIncludeNoteOrComment(boolean value)](#setIncludeNoteOrComment-boolean-) | Sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
-| [setInsertHyperlink(boolean value)](#setInsertHyperlink-boolean-) | Sets whether to create a hyperlink to the bookmarked paragraph. |
-| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
-| [setInsertParagraphNumberInFullContext(boolean value)](#setInsertParagraphNumberInFullContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in full context. |
-| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
-| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | Sets whether to insert the relative position of the referenced paragraph. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setNumberSeparator(String value)](#setNumberSeparator-java.lang.String-) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | Sets whether to suppress non-delimiter characters. |
+| [remove()](#remove--) | 从文档中删除字段。 |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | 设置引用书签的名称。 |
+| [setIncludeNoteOrComment(boolean value)](#setIncludeNoteOrComment-boolean-) | 设置是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。 |
+| [setInsertHyperlink(boolean value)](#setInsertHyperlink-boolean-) | 设置是否创建到书签段落的超链接。 |
+| [setInsertParagraphNumber(boolean value)](#setInsertParagraphNumber-boolean-) | 设置是否插入引用段落的段落编号，使其与文档中出现的完全相同。 |
+| [setInsertParagraphNumberInFullContext(boolean value)](#setInsertParagraphNumberInFullContext-boolean-) | 设置是否在完整上下文中插入引用段落的段落编号。 |
+| [setInsertParagraphNumberInRelativeContext(boolean value)](#setInsertParagraphNumberInRelativeContext-boolean-) | 设置是否在相关上下文中插入被引用段落的段落编号。 |
+| [setInsertRelativePosition(boolean value)](#setInsertRelativePosition-boolean-) | 设置是否插入被引用段落的相对位置。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
+| [setNumberSeparator(String value)](#setNumberSeparator-java.lang.String-) | 设置用于分隔序号和页码的字符序列。 |
+| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
+| [setSuppressNonDelimiters(boolean value)](#setSuppressNonDelimiters-boolean-) | 设置是否禁止非分隔符。 |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [unlink()](#unlink--) | 执行字段取消链接。 |
+| [update()](#update--) | 执行字段更新。 |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### canWorkAsMergeField() {#canWorkAsMergeField--}
+### canWorkAsMerge字段() {#canWorkAsMerge字段--}
 ```
-public boolean canWorkAsMergeField()
+public boolean canWorkAsMerge字段()
 ```
 
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -91,167 +91,167 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBookmarkName() {#getBookmarkName--}
 ```
 public String getBookmarkName()
 ```
 
 
-Gets the referenced bookmark's name.
+获取引用书签的名称。
 
-**Returns:**
-java.lang.String - The referenced bookmark's name.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 引用书签的名称。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
-**Returns:**
-java.lang.String - The text that represents the displayed field result.
+**退货:**
+java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public FieldEnd getEnd()
+public 字段End getEnd()
 ```
 
 
-Gets the node that represents the field end.
+获取表示字段结束的节点。
 
-**Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getFieldCode() {#getFieldCode--}
+**退货:**
+[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### get字段Code() {#get字段Code--}
 ```
-public String getFieldCode()
+public String get字段Code()
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
 
-**Returns:**
+**退货:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
 ```
-public String getFieldCode(boolean includeChildFieldCodes)
+public String get字段Code(boolean includeChild字段Codes)
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator).
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public FieldFormat getFormat()
+public 字段Format getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
-**Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+**退货:**
+[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getIncludeNoteOrComment() {#getIncludeNoteOrComment--}
 ```
 public boolean getIncludeNoteOrComment()
 ```
 
 
-Gets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+获取是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。
 
-**Returns:**
-boolean - Whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+**退货:**
+boolean - 是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。
 ### getInsertHyperlink() {#getInsertHyperlink--}
 ```
 public boolean getInsertHyperlink()
 ```
 
 
-Gets whether to create a hyperlink to the bookmarked paragraph.
+获取是否创建到书签段落的超链接。
 
-**Returns:**
-boolean - Whether to create a hyperlink to the bookmarked paragraph.
+**退货:**
+boolean - 是否创建到书签段落的超链接。
 ### getInsertParagraphNumber() {#getInsertParagraphNumber--}
 ```
 public boolean getInsertParagraphNumber()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+获取是否插入被引用段落的段落编号，与它在文档中出现的完全一样。
 
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+**退货:**
+boolean - 是否插入引用段落的段落编号，与文档中出现的完全相同。
 ### getInsertParagraphNumberInFullContext() {#getInsertParagraphNumberInFullContext--}
 ```
 public boolean getInsertParagraphNumberInFullContext()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph in full context.
+获取是否在完整上下文中插入引用段落的段落编号。
 
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in full context.
+**退货:**
+boolean - 是否在完整上下文中插入引用段落的段落编号。
 ### getInsertParagraphNumberInRelativeContext() {#getInsertParagraphNumberInRelativeContext--}
 ```
 public boolean getInsertParagraphNumberInRelativeContext()
 ```
 
 
-Gets whether to insert the paragraph number of the referenced paragraph in relative context.
+获取是否在相关上下文中插入被引用段落的段落编号。
 
-**Returns:**
-boolean - Whether to insert the paragraph number of the referenced paragraph in relative context.
+**退货:**
+boolean - 是否在相关上下文中插入引用段落的段落编号。
 ### getInsertRelativePosition() {#getInsertRelativePosition--}
 ```
 public boolean getInsertRelativePosition()
 ```
 
 
-Gets whether to insert the relative position of the referenced paragraph.
+获取是否插入被引用段落的相对位置。
 
-**Returns:**
-boolean - Whether to insert the relative position of the referenced paragraph.
+**退货:**
+boolean - 是否插入被引用段落的相对位置。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the LCID of the field.
+获取字段的 LCID。
 
-**Returns:**
-int - The LCID of the field.
-### getMergeFieldName() {#getMergeFieldName--}
+**退货:**
+int - 字段的 LCID。
+### getMerge字段Name() {#getMerge字段Name--}
 ```
-public String getMergeFieldName()
+public String getMerge字段Name()
 ```
 
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getNumberSeparator() {#getNumberSeparator--}
 ```
@@ -259,75 +259,75 @@ public String getNumberSeparator()
 ```
 
 
-Gets the character sequence that is used to separate sequence numbers and page numbers.
+获取用于分隔序号和页码的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
+**退货:**
+java.lang.String - 用于分隔序列号和页码的字符序列。
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-Gets text that is between the field separator and field end.
+获取字段分隔符和字段结尾之间的文本。
 
-**Returns:**
-java.lang.String - Text that is between the field separator and field end.
+**退货:**
+java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getSeparator() {#getSeparator--}
 ```
-public FieldSeparator getSeparator()
+public 字段Separator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+获取表示字段分隔符的节点。可以为空。
 
-**Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+**退货:**
+[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getStart() {#getStart--}
 ```
-public FieldStart getStart()
+public 字段Start getStart()
 ```
 
 
-Gets the node that represents the start of the field.
+获取表示字段开始的节点。
 
-**Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+**退货:**
+[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
 ### getSuppressNonDelimiters() {#getSuppressNonDelimiters--}
 ```
 public boolean getSuppressNonDelimiters()
 ```
 
 
-Gets whether to suppress non-delimiter characters.
+获取是否抑制非分隔符。
 
-**Returns:**
-boolean - Whether to suppress non-delimiter characters.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+**退货:**
+boolean - 是否抑制非分隔符。
+### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
 ```
-public int getSwitchType(String switchName)
+public int getSwitch类型(String switchName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**Returns:**
-int
-### getType() {#getType--}
+**退货:**
+整数
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the Microsoft Word field type.
+获取 Microsoft Word 字段类型。
 
-**Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+**退货:**
+ int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -336,30 +336,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
 
-**Returns:**
-boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+**退货:**
+boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -367,22 +367,22 @@ public boolean isLocked()
 ```
 
 
-Gets whether the field is locked (should not recalculate its result).
+获取字段是否被锁定（不应重新计算其结果）。
 
-**Returns:**
-boolean - Whether the field is locked (should not recalculate its result).
+**退货:**
+boolean - 字段是否被锁定（不应重新计算其结果）。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Sets whether the field is locked (should not recalculate its result).
+设置字段是否被锁定（不应重新计算其结果）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the field is locked (should not recalculate its result). |
+| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
 
 ### isMergeValueRequired() {#isMergeValueRequired--}
 ```
@@ -392,8 +392,8 @@ public boolean isMergeValueRequired()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -416,9 +416,9 @@ public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
 ```
@@ -426,12 +426,12 @@ public void setBookmarkName(String value)
 ```
 
 
-Sets the referenced bookmark's name.
+设置引用书签的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The referenced bookmark's name. |
+| value | java.lang.String | 引用书签的名称。 |
 
 ### setIncludeNoteOrComment(boolean value) {#setIncludeNoteOrComment-boolean-}
 ```
@@ -439,12 +439,12 @@ public void setIncludeNoteOrComment(boolean value)
 ```
 
 
-Sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text.
+设置是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text. |
+| value | boolean | 是否增加书签标记的脚注、尾注和注释编号，并插入相应的脚注、尾注和注释文本。 |
 
 ### setInsertHyperlink(boolean value) {#setInsertHyperlink-boolean-}
 ```
@@ -452,12 +452,12 @@ public void setInsertHyperlink(boolean value)
 ```
 
 
-Sets whether to create a hyperlink to the bookmarked paragraph.
+设置是否创建到书签段落的超链接。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to create a hyperlink to the bookmarked paragraph. |
+| value | boolean | 是否创建到书签段落的超链接。 |
 
 ### setInsertParagraphNumber(boolean value) {#setInsertParagraphNumber-boolean-}
 ```
@@ -465,12 +465,12 @@ public void setInsertParagraphNumber(boolean value)
 ```
 
 
-Sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document.
+设置是否插入引用段落的段落编号，使其与文档中出现的完全相同。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document. |
+| value | boolean | 是否插入引用段落的段落编号，与它在文档中出现的完全一样。 |
 
 ### setInsertParagraphNumberInFullContext(boolean value) {#setInsertParagraphNumberInFullContext-boolean-}
 ```
@@ -478,12 +478,12 @@ public void setInsertParagraphNumberInFullContext(boolean value)
 ```
 
 
-Sets whether to insert the paragraph number of the referenced paragraph in full context.
+设置是否在完整上下文中插入引用段落的段落编号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the paragraph number of the referenced paragraph in full context. |
+| value | boolean | 是否在完整上下文中插入引用段落的段落编号。 |
 
 ### setInsertParagraphNumberInRelativeContext(boolean value) {#setInsertParagraphNumberInRelativeContext-boolean-}
 ```
@@ -491,12 +491,12 @@ public void setInsertParagraphNumberInRelativeContext(boolean value)
 ```
 
 
-Sets whether to insert the paragraph number of the referenced paragraph in relative context.
+设置是否在相关上下文中插入被引用段落的段落编号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the paragraph number of the referenced paragraph in relative context. |
+| value | boolean | 是否在相对上下文中插入引用段落的段落编号。 |
 
 ### setInsertRelativePosition(boolean value) {#setInsertRelativePosition-boolean-}
 ```
@@ -504,12 +504,12 @@ public void setInsertRelativePosition(boolean value)
 ```
 
 
-Sets whether to insert the relative position of the referenced paragraph.
+设置是否插入被引用段落的相对位置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to insert the relative position of the referenced paragraph. |
+| value | boolean | 是否插入被引用段落的相对位置。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -517,12 +517,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the LCID of the field.
+设置字段的 LCID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The LCID of the field. |
+| value | int | 字段的 LCID。 |
 
 ### setNumberSeparator(String value) {#setNumberSeparator-java.lang.String-}
 ```
@@ -530,12 +530,12 @@ public void setNumberSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate sequence numbers and page numbers.
+设置用于分隔序号和页码的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
+| value | java.lang.String | 用于分隔序号和页码的字符序列。 |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -543,12 +543,12 @@ public void setResult(String value)
 ```
 
 
-Sets text that is between the field separator and field end.
+设置字段分隔符和字段结尾之间的文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Text that is between the field separator and field end. |
+| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
 
 ### setSuppressNonDelimiters(boolean value) {#setSuppressNonDelimiters-boolean-}
 ```
@@ -556,12 +556,12 @@ public void setSuppressNonDelimiters(boolean value)
 ```
 
 
-Sets whether to suppress non-delimiter characters.
+设置是否禁止非分隔符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to suppress non-delimiter characters. |
+| value | boolean | 是否抑制非定界字符。 |
 
 ### toString() {#toString--}
 ```
@@ -571,7 +571,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -579,21 +579,21 @@ public boolean unlink()
 ```
 
 
-Performs the field unlink.
+执行字段取消链接。
 
-Replaces the field with its most recent result.
+用其最新结果替换该字段。
 
-Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
-**Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
+**退货:**
+布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-Performs the field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -601,12 +601,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-Performs a field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```
@@ -624,8 +624,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -637,9 +637,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,34 +1,34 @@
 ---
 title: ShowInBalloons
 second_title: Aspose.Words for Java API Reference
-description: Specifies which revisions are rendered in balloons.
+description: 指定在气球中呈现哪些修订。
 type: docs
 weight: 522
-url: /java/com.aspose.words/showinballoons/
+url: /zh/java/com.aspose.words/showinballoons/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ShowInBalloons
 ```
 
-Specifies which revisions are rendered in balloons. Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
-## Fields
+指定在气球中呈现哪些修订。请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FORMAT](#FORMAT) | Renders insert and delete revisions inline, format revisions in balloons. |
-| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | Renders insert revisions inline, delete and format revisions in balloons. |
-| [NONE](#NONE) | Renders insert, delete and format revisions inline. |
+| [FORMAT](#FORMAT) | 呈现插入和删除内联修订，在气球中格式化修订。 |
+| [FORMAT_AND_DELETE](#FORMAT-AND-DELETE) | 渲染在气球中插入修订、删除和格式化修订。 |
+| [NONE](#NONE) | 呈现插入、删除和格式化内联修订。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String showInBalloonsName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int showInBalloons)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int FORMAT
 ```
 
 
-Renders insert and delete revisions inline, format revisions in balloons.
+呈现插入和删除内联修订，在气球中格式化修订。
 
 ### FORMAT_AND_DELETE {#FORMAT-AND-DELETE}
 ```
@@ -53,7 +53,7 @@ public static int FORMAT_AND_DELETE
 ```
 
 
-Renders insert revisions inline, delete and format revisions in balloons.
+渲染在气球中插入修订、删除和格式化修订。
 
 ### NONE {#NONE}
 ```
@@ -61,7 +61,7 @@ public static int NONE
 ```
 
 
-Renders insert, delete and format revisions inline.
+呈现插入、删除和格式化内联修订。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String showInBalloonsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String showInBalloonsName)
@@ -92,23 +92,23 @@ public static int fromName(String showInBalloonsName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloonsName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int showInBalloons) {#getName-int-}
 ```
 public static String getName(int showInBalloons)
@@ -117,12 +117,12 @@ public static String getName(int showInBalloons)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int showInBalloons) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int showInBalloons)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | showInBalloons | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,35 +1,35 @@
 ---
 title: RefPoint
 second_title: Aspose.Words for Java API Reference
-description: Represents Out/Ref constructions for Point struct
+description: 表示 Point 结构的 Out/Ref 结构
 type: docs
 weight: 17
-url: /java/com.aspose.words.ref/refpoint/
+url: /zh/java/com.aspose.words.ref/refpoint/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class RefPoint
 ```
 
-Represents Out/Ref constructions for Point struct
-## Constructors
+表示 Point 结构的 Out/Ref 结构
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [RefPoint(long value)](#RefPoint-long-) | Mimics Out/Ref parameter initialisation with given Value. |
-## Methods
+| [RefPoint(long value)](#RefPoint-long-) | 使用给定值模拟 Out/Ref 参数初始化。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
-| [getClass()](#getClass--) |  |
+| [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(long anotherValue)](#set-long-) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
+| [set(long anotherValue)](#set-long-) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,10 +40,10 @@ public RefPoint(long value)
 ```
 
 
-Mimics Out/Ref parameter initialisation with given Value. Should be used before calling the method with Out/Ref constructions
+使用给定值模拟 Out/Ref 参数初始化。应该在调用具有 Out/Ref 结构的方法之前使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | long |  |
 
@@ -55,33 +55,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get() {#get--}
 ```
 public long get()
 ```
 
 
-Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions
+获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
 
-**Returns:**
-long
-### getClass() {#getClass--}
+**退货:**
+长
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,15 +114,15 @@ public long set(long anotherValue)
 ```
 
 
-Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions
+设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | anotherValue | long |  |
 
-**Returns:**
-long
+**退货:**
+长
 ### toString() {#toString--}
 ```
 public String toString()
@@ -131,7 +131,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -149,8 +149,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -162,9 +162,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

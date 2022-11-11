@@ -1,33 +1,33 @@
 ---
 title: FootnotePosition
-second_title: Aspose.Words for Java API Reference
-description: Defines the footnote position.
+second_title: Aspose.Words for Java API 参考
+description: 定义脚注位置。
 type: docs
 weight: 294
-url: /java/com.aspose.words/footnoteposition/
+url: /zh/java/com.aspose.words/footnoteposition/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class FootnotePosition
 ```
 
-Defines the footnote position.
-## Fields
+定义脚注位置。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BENEATH_TEXT](#BENEATH-TEXT) | Footnotes are output beneath text on each page. |
-| [BOTTOM_OF_PAGE](#BOTTOM-OF-PAGE) | Footnotes are output at the bottom of each page. |
+| [BENEATH_TEXT](#BENEATH-TEXT) | 脚注在每页的文本下方输出。 |
+| [BOTTOM_OF_PAGE](#BOTTOM-OF-PAGE) | 脚注输出在每页的底部。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String footnotePositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int footnotePosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int BENEATH_TEXT
 ```
 
 
-Footnotes are output beneath text on each page.
+脚注在每页的文本下方输出。
 
 ### BOTTOM_OF_PAGE {#BOTTOM-OF-PAGE}
 ```
@@ -52,7 +52,7 @@ public static int BOTTOM_OF_PAGE
 ```
 
 
-Footnotes are output at the bottom of each page.
+脚注输出在每页的底部。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String footnotePositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String footnotePositionName)
@@ -83,23 +83,23 @@ public static int fromName(String footnotePositionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | footnotePositionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int footnotePosition) {#getName-int-}
 ```
 public static String getName(int footnotePosition)
@@ -108,12 +108,12 @@ public static String getName(int footnotePosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | footnotePosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int footnotePosition) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int footnotePosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | footnotePosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

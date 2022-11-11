@@ -1,37 +1,37 @@
 ---
 title: IDataReader
 second_title: Aspose.Words for Java API Reference
-description: Provides a means of reading one or more forward-only streams of result sets obtained by executing a command at a data source and is implemented by .NET Framework data providers that access relational databases.
+description: 提供一种读取通过在数据源处执行命令获得的一个或多个只进结果集流的方法，由访问关系数据库的 .NET Framework 数据提供程序实现。
 type: docs
 weight: 34
-url: /java/com.aspose.words.net.system.data/idatareader/
+url: /zh/java/com.aspose.words.net.system.data/idatareader/
 ---
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 [com.aspose.words.net.System.Data.IDataRecord](../../com.aspose.words.net.system.data/idatarecord)
 ```
 public interface IDataReader extends System.Data.IDataRecord
 ```
 
-Provides a means of reading one or more forward-only streams of result sets obtained by executing a command at a data source, and is implemented by .NET Framework data providers that access relational databases.
-## Methods
+提供一种读取通过在数据源处执行命令获得的一个或多个只进结果集流的方法，由访问关系数据库的 .NET Framework 数据提供程序实现。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [close()](#close--) | Closes the [IDataReader](../../com.aspose.words.net.system.data/idatareader) Object. |
-| [getDepth()](#getDepth--) | Gets a value indicating the depth of nesting for the current row. |
-| [getRecordsAffected()](#getRecordsAffected--) | Gets the number of rows changed, inserted, or deleted by execution of the SQL statement. |
-| [getSchemaTable()](#getSchemaTable--) | Returns a [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata of the [IDataReader](../../com.aspose.words.net.system.data/idatareader). |
-| [isClosed()](#isClosed--) | Gets a value indicating whether the data reader is closed. |
-| [nextResult()](#nextResult--) | Advances the data reader to the next result, when reading the results of batch SQL statements. |
-| [read()](#read--) | Advances the [IDataReader](../../com.aspose.words.net.system.data/idatareader) to the next record. |
+| [close()](#close--) | 关闭[IDataReader](../../com.aspose.words.net.system.data/idatareader)目的。 |
+| [getDepth()](#getDepth--) | 获取一个值，该值指示当前行的嵌套深度。 |
+| [getRecordsAffected()](#getRecordsAffected--) | 获取通过执行 SQL 语句更改、插入或删除的行数。 |
+| [getSchemaTable()](#getSchemaTable--) | 返回一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据的[IDataReader](../../com.aspose.words.net.system.data/idatareader). |
+| [isClosed()](#isClosed--) | 获取一个值，该值指示数据读取器是否已关闭。 |
+| [nextResult()](#nextResult--) | 读取批处理 SQL 语句的结果时，将数据读取器推进到下一个结果。 |
+| [read()](#read--) | 推进[IDataReader](../../com.aspose.words.net.system.data/idatareader)到下一条记录。 |
 ### close() {#close--}
 ```
 public abstract void close()
 ```
 
 
-Closes the [IDataReader](../../com.aspose.words.net.system.data/idatareader) Object.
+关闭[IDataReader](../../com.aspose.words.net.system.data/idatareader)目的。
 
 ### getDepth() {#getDepth--}
 ```
@@ -39,57 +39,57 @@ public abstract int getDepth()
 ```
 
 
-Gets a value indicating the depth of nesting for the current row.
+获取一个值，该值指示当前行的嵌套深度。
 
-**Returns:**
-int - The level of nesting.
+**退货:**
+int - 嵌套级别。
 ### getRecordsAffected() {#getRecordsAffected--}
 ```
 public abstract int getRecordsAffected()
 ```
 
 
-Gets the number of rows changed, inserted, or deleted by execution of the SQL statement.
+获取通过执行 SQL 语句更改、插入或删除的行数。
 
-**Returns:**
-int - The number of rows changed, inserted, or deleted; 0 if no rows were affected or the statement failed; and -1 for SELECT statements.
+**退货:**
+int - 更改、插入或删除的行数；如果没有行受到影响或语句失败，则为 0；和 -1 用于 SELECT 语句。
 ### getSchemaTable() {#getSchemaTable--}
 ```
 public abstract System.Data.DataTable getSchemaTable()
 ```
 
 
-Returns a [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata of the [IDataReader](../../com.aspose.words.net.system.data/idatareader).
+返回一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据的[IDataReader](../../com.aspose.words.net.system.data/idatareader).
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) that describes the column metadata.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)描述列元数据。
 ### isClosed() {#isClosed--}
 ```
 public abstract boolean isClosed()
 ```
 
 
-Gets a value indicating whether the data reader is closed.
+获取一个值，该值指示数据读取器是否已关闭。
 
-**Returns:**
-boolean - true if the data reader is closed; otherwise, false.
+**退货:**
+boolean - 如果数据读取器已关闭，则为 true；否则为假。
 ### nextResult() {#nextResult--}
 ```
 public abstract boolean nextResult()
 ```
 
 
-Advances the data reader to the next result, when reading the results of batch SQL statements.
+读取批处理 SQL 语句的结果时，将数据读取器推进到下一个结果。
 
-**Returns:**
-boolean - true if there are more rows; otherwise, false.
+**退货:**
+boolean - 如果有更多行，则为 true；否则为假。
 ### read() {#read--}
 ```
 public abstract boolean read()
 ```
 
 
-Advances the [IDataReader](../../com.aspose.words.net.system.data/idatareader) to the next record.
+推进[IDataReader](../../com.aspose.words.net.system.data/idatareader)到下一条记录。
 
-**Returns:**
-boolean - true if there are more rows; otherwise, false.
+**退货:**
+boolean - 如果有更多行，则为 true；否则为假。

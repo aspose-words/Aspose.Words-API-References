@@ -1,52 +1,52 @@
 ---
 title: CompareOptions
-second_title: Aspose.Words for Java API Reference
-description: Allows to choose advanced options for document comparison operation.
+second_title: Aspose.Words for Java API 参考
+description: 允许选择文档比较操作的高级选项。
 type: docs
 weight: 81
-url: /java/com.aspose.words/compareoptions/
+url: /zh/java/com.aspose.words/compareoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class CompareOptions
 ```
 
-Allows to choose advanced options for document comparison operation.
+允许选择文档比较操作的高级选项。
 
-To learn more, visit the **Compare Documents** documentation article.
-## Methods
+要了解更多信息，请访问**Compare Documents**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getGranularity()](#getGranularity--) | Specifies whether changes are tracked by character or by word. |
-| [getIgnoreCaseChanges()](#getIgnoreCaseChanges--) | True indicates that documents comparison is case insensitive. |
-| [getIgnoreComments()](#getIgnoreComments--) | Specifies whether to compare differences in comments. |
-| [getIgnoreDmlUniqueId()](#getIgnoreDmlUniqueId--) | Specifies whether to ignore difference in DrawingML unique Id. |
-| [getIgnoreFields()](#getIgnoreFields--) | Specifies whether to compare differences in fields. |
-| [getIgnoreFootnotes()](#getIgnoreFootnotes--) | Specifies whether to compare differences in footnotes and endnotes. |
-| [getIgnoreFormatting()](#getIgnoreFormatting--) | True indicates that formatting is ignored. |
-| [getIgnoreHeadersAndFooters()](#getIgnoreHeadersAndFooters--) | True indicates that headers and footers content is ignored. |
-| [getIgnoreTables()](#getIgnoreTables--) | Specifies whether to compare the differences in data contained in tables. |
-| [getIgnoreTextboxes()](#getIgnoreTextboxes--) | Specifies whether to compare differences in the data contained within text boxes. |
-| [getTarget()](#getTarget--) | Specifies which document shall be used as a target during comparison. |
+| [get班级()](#get班级--) |  |
+| [getGranularity()](#getGranularity--) | 指定是按字符还是按单词跟踪更改。 |
+| [getIgnoreCaseChanges()](#getIgnoreCaseChanges--) | True 表示文档比较不区分大小写。 |
+| [getIgnoreComments()](#getIgnoreComments--) | 指定是否比较注释中的差异。 |
+| [getIgnoreDmlUniqueId()](#getIgnoreDmlUniqueId--) | 指定是否忽略 DrawingML 唯一 ID 中的差异。 |
+| [getIgnore字段()](#getIgnore字段--) | 指定是否比较字段的差异。 |
+| [getIgnoreFootnotes()](#getIgnoreFootnotes--) | 指定是否比较脚注和尾注的差异。 |
+| [getIgnoreFormatting()](#getIgnoreFormatting--) | True 表示忽略格式。 |
+| [getIgnoreHeadersAndFooters()](#getIgnoreHeadersAndFooters--) | True 表示忽略页眉和页脚内容。 |
+| [getIgnoreTables()](#getIgnoreTables--) | 指定是否比较表中包含的数据的差异。 |
+| [getIgnoreTextboxes()](#getIgnoreTextboxes--) | 指定是否比较文本框中包含的数据的差异。 |
+| [getTarget()](#getTarget--) | 指定在比较期间应将哪个文档用作目标。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setGranularity(int value)](#setGranularity-int-) | Specifies whether changes are tracked by character or by word. |
-| [setIgnoreCaseChanges(boolean value)](#setIgnoreCaseChanges-boolean-) | True indicates that documents comparison is case insensitive. |
-| [setIgnoreComments(boolean value)](#setIgnoreComments-boolean-) | Specifies whether to compare differences in comments. |
-| [setIgnoreDmlUniqueId(boolean value)](#setIgnoreDmlUniqueId-boolean-) | Specifies whether to ignore difference in DrawingML unique Id. |
-| [setIgnoreFields(boolean value)](#setIgnoreFields-boolean-) | Specifies whether to compare differences in fields. |
-| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean-) | Specifies whether to compare differences in footnotes and endnotes. |
-| [setIgnoreFormatting(boolean value)](#setIgnoreFormatting-boolean-) | True indicates that formatting is ignored. |
-| [setIgnoreHeadersAndFooters(boolean value)](#setIgnoreHeadersAndFooters-boolean-) | True indicates that headers and footers content is ignored. |
-| [setIgnoreTables(boolean value)](#setIgnoreTables-boolean-) | Specifies whether to compare the differences in data contained in tables. |
-| [setIgnoreTextboxes(boolean value)](#setIgnoreTextboxes-boolean-) | Specifies whether to compare differences in the data contained within text boxes. |
-| [setTarget(int value)](#setTarget-int-) | Specifies which document shall be used as a target during comparison. |
+| [setGranularity(int value)](#setGranularity-int-) | 指定是按字符还是按单词跟踪更改。 |
+| [setIgnoreCaseChanges(boolean value)](#setIgnoreCaseChanges-boolean-) | True 表示文档比较不区分大小写。 |
+| [setIgnoreComments(boolean value)](#setIgnoreComments-boolean-) | 指定是否比较注释中的差异。 |
+| [setIgnoreDmlUniqueId(boolean value)](#setIgnoreDmlUniqueId-boolean-) | 指定是否忽略 DrawingML 唯一 ID 中的差异。 |
+| [setIgnore字段(boolean value)](#setIgnore字段-boolean-) | 指定是否比较字段的差异。 |
+| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean-) | 指定是否比较脚注和尾注的差异。 |
+| [setIgnoreFormatting(boolean value)](#setIgnoreFormatting-boolean-) | True 表示忽略格式。 |
+| [setIgnoreHeadersAndFooters(boolean value)](#setIgnoreHeadersAndFooters-boolean-) | True 表示忽略页眉和页脚内容。 |
+| [setIgnoreTables(boolean value)](#setIgnoreTables-boolean-) | 指定是否比较表中包含的数据的差异。 |
+| [setIgnoreTextboxes(boolean value)](#setIgnoreTextboxes-boolean-) | 指定是否比较文本框中包含的数据的差异。 |
+| [setTarget(int value)](#setTarget-int-) | 指定在比较期间应将哪个文档用作目标。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,133 +59,133 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getGranularity() {#getGranularity--}
 ```
 public int getGranularity()
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
+指定是按字符还是按单词跟踪更改。默认值为[Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [Granularity](../../com.aspose.words/granularity) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[Granularity](../../com.aspose.words/granularity)常数。
 ### getIgnoreCaseChanges() {#getIgnoreCaseChanges--}
 ```
 public boolean getIgnoreCaseChanges()
 ```
 
 
-True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
+True 表示文档比较不区分大小写。默认情况下，比较区分大小写。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreComments() {#getIgnoreComments--}
 ```
 public boolean getIgnoreComments()
 ```
 
 
-Specifies whether to compare differences in comments. By default comments are not ignored.
+指定是否比较注释中的差异。默认情况下不会忽略注释。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreDmlUniqueId() {#getIgnoreDmlUniqueId--}
 ```
 public boolean getIgnoreDmlUniqueId()
 ```
 
 
-Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**.
+指定是否忽略 DrawingML 唯一 ID 中的差异。默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getIgnoreFields() {#getIgnoreFields--}
+**退货:**
+boolean - 对应的布尔值。
+### getIgnore字段() {#getIgnore字段--}
 ```
-public boolean getIgnoreFields()
+public boolean getIgnore字段()
 ```
 
 
-Specifies whether to compare differences in fields. By default fields are not ignored.
+指定是否比较字段的差异。默认情况下，不会忽略字段。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreFootnotes() {#getIgnoreFootnotes--}
 ```
 public boolean getIgnoreFootnotes()
 ```
 
 
-Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
+指定是否比较脚注和尾注的差异。默认情况下不会忽略脚注。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreFormatting() {#getIgnoreFormatting--}
 ```
 public boolean getIgnoreFormatting()
 ```
 
 
-True indicates that formatting is ignored. By default document formatting is not ignored.
+True 表示忽略格式。默认情况下，不会忽略文档格式。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreHeadersAndFooters() {#getIgnoreHeadersAndFooters--}
 ```
 public boolean getIgnoreHeadersAndFooters()
 ```
 
 
-True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
+True 表示忽略页眉和页脚内容。默认情况下，不会忽略页眉和页脚。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreTables() {#getIgnoreTables--}
 ```
 public boolean getIgnoreTables()
 ```
 
 
-Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
+指定是否比较表中包含的数据的差异。默认情况下，不会忽略表。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreTextboxes() {#getIgnoreTextboxes--}
 ```
 public boolean getIgnoreTextboxes()
 ```
 
 
-Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
+指定是否比较文本框中包含的数据的差异。默认情况下，文本框不会被忽略。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getTarget() {#getTarget--}
 ```
 public int getTarget()
 ```
 
 
-Specifies which document shall be used as a target during comparison.
+指定在比较期间应将哪个文档用作目标。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[ComparisonTarget类型](../../com.aspose.words/comparisontargettype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -194,8 +194,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -218,12 +218,12 @@ public void setGranularity(int value)
 ```
 
 
-Specifies whether changes are tracked by character or by word. Default value is [Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
+指定是按字符还是按单词跟踪更改。默认值为[Granularity.WORD\_LEVEL](../../com.aspose.words/granularity\#WORD-LEVEL).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [Granularity](../../com.aspose.words/granularity) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[Granularity](../../com.aspose.words/granularity)常数。 |
 
 ### setIgnoreCaseChanges(boolean value) {#setIgnoreCaseChanges-boolean-}
 ```
@@ -231,12 +231,12 @@ public void setIgnoreCaseChanges(boolean value)
 ```
 
 
-True indicates that documents comparison is case insensitive. By default comparison is case sensitive.
+True 表示文档比较不区分大小写。默认情况下，比较区分大小写。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreComments(boolean value) {#setIgnoreComments-boolean-}
 ```
@@ -244,12 +244,12 @@ public void setIgnoreComments(boolean value)
 ```
 
 
-Specifies whether to compare differences in comments. By default comments are not ignored.
+指定是否比较注释中的差异。默认情况下不会忽略注释。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreDmlUniqueId(boolean value) {#setIgnoreDmlUniqueId-boolean-}
 ```
@@ -257,25 +257,25 @@ public void setIgnoreDmlUniqueId(boolean value)
 ```
 
 
-Specifies whether to ignore difference in DrawingML unique Id. Default value is **false**.
+指定是否忽略 DrawingML 唯一 ID 中的差异。默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
-### setIgnoreFields(boolean value) {#setIgnoreFields-boolean-}
+### setIgnore字段(boolean value) {#setIgnore字段-boolean-}
 ```
-public void setIgnoreFields(boolean value)
+public void setIgnore字段(boolean value)
 ```
 
 
-Specifies whether to compare differences in fields. By default fields are not ignored.
+指定是否比较字段的差异。默认情况下，不会忽略字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreFootnotes(boolean value) {#setIgnoreFootnotes-boolean-}
 ```
@@ -283,12 +283,12 @@ public void setIgnoreFootnotes(boolean value)
 ```
 
 
-Specifies whether to compare differences in footnotes and endnotes. By default footnotes are not ignored.
+指定是否比较脚注和尾注的差异。默认情况下不会忽略脚注。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreFormatting(boolean value) {#setIgnoreFormatting-boolean-}
 ```
@@ -296,12 +296,12 @@ public void setIgnoreFormatting(boolean value)
 ```
 
 
-True indicates that formatting is ignored. By default document formatting is not ignored.
+True 表示忽略格式。默认情况下，不会忽略文档格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreHeadersAndFooters(boolean value) {#setIgnoreHeadersAndFooters-boolean-}
 ```
@@ -309,12 +309,12 @@ public void setIgnoreHeadersAndFooters(boolean value)
 ```
 
 
-True indicates that headers and footers content is ignored. By default headers and footers are not ignored.
+True 表示忽略页眉和页脚内容。默认情况下，不会忽略页眉和页脚。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreTables(boolean value) {#setIgnoreTables-boolean-}
 ```
@@ -322,12 +322,12 @@ public void setIgnoreTables(boolean value)
 ```
 
 
-Specifies whether to compare the differences in data contained in tables. By default tables are not ignored.
+指定是否比较表中包含的数据的差异。默认情况下，不会忽略表。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreTextboxes(boolean value) {#setIgnoreTextboxes-boolean-}
 ```
@@ -335,12 +335,12 @@ public void setIgnoreTextboxes(boolean value)
 ```
 
 
-Specifies whether to compare differences in the data contained within text boxes. By default textboxes are not ignored.
+指定是否比较文本框中包含的数据的差异。默认情况下，文本框不会被忽略。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setTarget(int value) {#setTarget-int-}
 ```
@@ -348,12 +348,12 @@ public void setTarget(int value)
 ```
 
 
-Specifies which document shall be used as a target during comparison.
+指定在比较期间应将哪个文档用作目标。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [ComparisonTargetType](../../com.aspose.words/comparisontargettype) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[ComparisonTarget类型](../../com.aspose.words/comparisontargettype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -363,7 +363,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -381,8 +381,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -394,9 +394,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

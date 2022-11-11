@@ -1,42 +1,42 @@
 ---
 title: CustomXmlPart
-second_title: Aspose.Words for Java API Reference
-description: Represents a Custom XML Data Storage Part custom XML data within a package.
+second_title: Aspose.Words for Java API 参考
+description: 表示包中的自定义 XML 数据存储部件自定义 XML 数据。
 type: docs
 weight: 104
-url: /java/com.aspose.words/customxmlpart/
+url: /zh/java/com.aspose.words/customxmlpart/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class CustomXmlPart implements Cloneable
 ```
 
-Represents a Custom XML Data Storage Part (custom XML data within a package).
+表示自定义 XML 数据存储部件（包中的自定义 XML 数据）。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and allows to create and extract Custom XML Data via the [Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-) collection.
-## Methods
+ DOCX 或 DOC 文档可以包含一个或多个自定义 XML 数据存储部分。 Aspose.Words 保留并允许通过[Document.getCustomXmlParts()](../../com.aspose.words/document\#getCustomXmlParts--) / [Document.setCustomXmlParts(com.aspose.words.CustomXmlPartCollection)](../../com.aspose.words/document\#setCustomXmlParts-com.aspose.words.CustomXmlPartCollection-)收藏。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | Makes a "deep enough" copy of the object. |
+| [deepClone()](#deepClone--) | 制作对象的“足够深”的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getData()](#getData--) | Gets the XML content of this Custom XML Data Storage Part. |
-| [getDataChecksum()](#getDataChecksum--) | Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) content. |
-| [getId()](#getId--) | Gets the string that identifies this custom XML part within an OOXML document. |
-| [getSchemas()](#getSchemas--) | Specifies the set of XML schemas that are associated with this custom XML part. |
+| [get班级()](#get班级--) |  |
+| [getData()](#getData--) | 获取此自定义 XML 数据存储部件的 XML 内容。 |
+| [getDataChecksum()](#getDataChecksum--) | 指定循环冗余校验 (CRC) 校验和[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---)内容。 |
+| [getId()](#getId--) | 获取在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
+| [getSchemas()](#getSchemas--) | 指定与此自定义 XML 部件关联的 XML 模式集。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setData(byte[] value)](#setData-byte---) | Sets the XML content of this Custom XML Data Storage Part. |
-| [setId(String value)](#setId-java.lang.String-) | Sets the string that identifies this custom XML part within an OOXML document. |
+| [setData(byte[] value)](#setData-byte---) | 设置此自定义 XML 数据存储部件的 XML 内容。 |
+| [setId(String value)](#setId-java.lang.String-) | 设置在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,9 +47,9 @@ public CustomXmlPart deepClone()
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) value.
+制作对象的“足够深”的副本。不重复的字节[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---)价值。
 
-**Returns:**
+**退货:**
 [CustomXmlPart](../../com.aspose.words/customxmlpart)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -59,71 +59,71 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getData() {#getData--}
 ```
 public byte[] getData()
 ```
 
 
-Gets the XML content of this Custom XML Data Storage Part.
+获取此自定义 XML 数据存储部件的 XML 内容。
 
-The default value is an empty byte array. The value cannot be  null .
+默认值为空字节数组。该值不能为 null 。
 
-**Returns:**
-byte[] - The XML content of this Custom XML Data Storage Part.
+**退货:**
+字节[- 此自定义 XML 数据存储部件的 XML 内容。
 ### getDataChecksum() {#getDataChecksum--}
 ```
 public long getDataChecksum()
 ```
 
 
-Specifies a cyclic redundancy check (CRC) checksum of the [getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---) content.
+指定循环冗余校验 (CRC) 校验和[getData()](../../com.aspose.words/customxmlpart\#getData--) / [setData(byte[])](../../com.aspose.words/customxmlpart\#setData-byte---)内容。
 
-**Returns:**
-long - The corresponding  long  value.
+**退货:**
+long - 对应的 long 值。
 ### getId() {#getId--}
 ```
 public String getId()
 ```
 
 
-Gets the string that identifies this custom XML part within an OOXML document.
+获取在 OOXML 文档中标识此自定义 XML 部件的字符串。
 
-ISO/IEC 29500 specifies that this value is a GUID, but old versions of Microsoft Word allowed any string here. Aspose.Words does the same for ECMA-376 format. But note, that Microsoft Word Online fails to open a document created with a non-GUID value. So, a GUID is preferred value for this property.
+ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 允许此处的任何字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-A valid value must be an identifier that is unique among all custom XML data parts in this document.
+有效值必须是在本文档的所有自定义 XML 数据部分中唯一的标识符。
 
-The default value is an empty string. The value cannot be  null .
+默认值为空字符串。该值不能为 null 。
 
-**Returns:**
-java.lang.String - The string that identifies this custom XML part within an OOXML document.
+**退货:**
+java.lang.String - 在 OOXML 文档中标识此自定义 XML 部分的字符串。
 ### getSchemas() {#getSchemas--}
 ```
 public CustomXmlSchemaCollection getSchemas()
 ```
 
 
-Specifies the set of XML schemas that are associated with this custom XML part.
+指定与此自定义 XML 部件关联的 XML 模式集。
 
-**Returns:**
-[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) - The corresponding [CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) value.
+**退货:**
+[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection) - 相应的[CustomXmlSchemaCollection](../../com.aspose.words/customxmlschemacollection)价值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -132,8 +132,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -156,14 +156,14 @@ public void setData(byte[] value)
 ```
 
 
-Sets the XML content of this Custom XML Data Storage Part.
+设置此自定义 XML 数据存储部件的 XML 内容。
 
-The default value is an empty byte array. The value cannot be  null .
+默认值为空字节数组。该值不能为 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | The XML content of this Custom XML Data Storage Part. |
+| value | byte[] | 此自定义 XML 数据存储部件的 XML 内容。 |
 
 ### setId(String value) {#setId-java.lang.String-}
 ```
@@ -171,18 +171,18 @@ public void setId(String value)
 ```
 
 
-Sets the string that identifies this custom XML part within an OOXML document.
+设置在 OOXML 文档中标识此自定义 XML 部件的字符串。
 
-ISO/IEC 29500 specifies that this value is a GUID, but old versions of Microsoft Word allowed any string here. Aspose.Words does the same for ECMA-376 format. But note, that Microsoft Word Online fails to open a document created with a non-GUID value. So, a GUID is preferred value for this property.
+ISO/IEC 29500 指定此值为 GUID，但旧版本的 Microsoft Word 允许此处的任何字符串。 Aspose.Words 对 ECMA-376 格式执行相同的操作。但请注意，Microsoft Word Online 无法打开使用非 GUID 值创建的文档。因此，GUID 是此属性的首选值。
 
-A valid value must be an identifier that is unique among all custom XML data parts in this document.
+有效值必须是在本文档的所有自定义 XML 数据部分中唯一的标识符。
 
-The default value is an empty string. The value cannot be  null .
+默认值为空字符串。该值不能为 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The string that identifies this custom XML part within an OOXML document. |
+| value | java.lang.String | 在 OOXML 文档中标识此自定义 XML 部件的字符串。 |
 
 ### toString() {#toString--}
 ```
@@ -192,7 +192,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

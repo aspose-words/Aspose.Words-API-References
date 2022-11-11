@@ -1,50 +1,50 @@
 ---
 title: SignatureLine
 second_title: Aspose.Words for Java API Reference
-description: Provides access to signature line properties.
+description: 提供对签名行属性的访问。
 type: docs
 weight: 524
-url: /java/com.aspose.words/signatureline/
+url: /zh/java/com.aspose.words/signatureline/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class SignatureLine
 ```
 
-Provides access to signature line properties.
+提供对签名行属性的访问。
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Digital Signatures**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowComments()](#getAllowComments--) | Gets a value indicating that the signer can add comments in the Sign dialog. |
-| [getClass()](#getClass--) |  |
-| [getDefaultInstructions()](#getDefaultInstructions--) | Gets a value indicating that default instructions is shown in the Sign dialog. |
-| [getEmail()](#getEmail--) | Gets suggested signer's e-mail address. |
-| [getId()](#getId--) | Gets identifier for this signature line. |
-| [getInstructions()](#getInstructions--) | Gets instructions to the signer that are displayed on signing the signature line. |
-| [getProviderId()](#getProviderId--) | Gets signature provider identifier for this signature line. |
-| [getShowDate()](#getShowDate--) | Gets a value indicating that sign date is shown in the signature line. |
-| [getSigner()](#getSigner--) | Gets suggested signer of the signature line. |
-| [getSignerTitle()](#getSignerTitle--) | Gets suggested signer's title (for example, Manager). |
+| [getAllowComments()](#getAllowComments--) | 获取一个值，该值指示签名者可以在“签名”对话框中添加注释。 |
+| [get班级()](#get班级--) |  |
+| [getDefaultInstructions()](#getDefaultInstructions--) | 获取一个值，该值指示默认指令显示在“签名”对话框中。 |
+| [getEmail()](#getEmail--) | 获取建议的签名者的电子邮件地址。 |
+| [getId()](#getId--) | 获取此签名行的标识符。 |
+| [getInstructions()](#getInstructions--) | 获取在签署签名行时显示的对签名者的说明。 |
+| [getProviderId()](#getProviderId--) | 获取此签名行的签名提供者标识符。 |
+| [getShowDate()](#getShowDate--) | 获取一个值，该值指示签名日期显示在签名行中。 |
+| [getSigner()](#getSigner--) | 获取签名行的建议签名者。 |
+| [getSignerTitle()](#getSignerTitle--) | 获取建议的签名者的头衔（例如，经理）。 |
 | [hashCode()](#hashCode--) |  |
-| [isSigned()](#isSigned--) | Indicates that signature line is signed by digital signature. |
-| [isValid()](#isValid--) | Indicates that signature line is signed by digital signature and this digital signature is valid. |
+| [isSigned()](#isSigned--) | 表示签名行是数字签名的。 |
+| [isValid()](#isValid--) | 表示签名行是经过数字签名的，并且这个数字签名是有效的。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) | Sets a value indicating that the signer can add comments in the Sign dialog. |
-| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean-) | Sets a value indicating that default instructions is shown in the Sign dialog. |
-| [setEmail(String value)](#setEmail-java.lang.String-) | Sets suggested signer's e-mail address. |
-| [setId(UUID value)](#setId-java.util.UUID-) | Sets identifier for this signature line. |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) | Sets instructions to the signer that are displayed on signing the signature line. |
-| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | Sets signature provider identifier for this signature line. |
-| [setShowDate(boolean value)](#setShowDate-boolean-) | Sets a value indicating that sign date is shown in the signature line. |
-| [setSigner(String value)](#setSigner-java.lang.String-) | Sets suggested signer of the signature line. |
-| [setSignerTitle(String value)](#setSignerTitle-java.lang.String-) | Sets suggested signer's title (for example, Manager). |
+| [setAllowComments(boolean value)](#setAllowComments-boolean-) | 设置一个值，指示签名者可以在“签名”对话框中添加注释。 |
+| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean-) | 设置一个值，指示默认指令显示在“签名”对话框中。 |
+| [setEmail(String value)](#setEmail-java.lang.String-) | 设置建议的签名者的电子邮件地址。 |
+| [setId(UUID value)](#setId-java.util.UUID-) | 设置此签名行的标识符。 |
+| [setInstructions(String value)](#setInstructions-java.lang.String-) | 为签名者设置在签名行签名时显示的说明。 |
+| [setProviderId(UUID value)](#setProviderId-java.util.UUID-) | 设置此签名行的签名提供者标识符。 |
+| [setShowDate(boolean value)](#setShowDate-boolean-) | 设置一个值，指示签名日期显示在签名行中。 |
+| [setSigner(String value)](#setSigner-java.lang.String-) | 设置签名行的建议签名者。 |
+| [setSignerTitle(String value)](#setSignerTitle-java.lang.String-) | 设置建议的签名者的头衔（例如，经理）。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,121 +57,121 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAllowComments() {#getAllowComments--}
 ```
 public boolean getAllowComments()
 ```
 
 
-Gets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
+获取一个值，该值指示签名者可以在“签名”对话框中添加注释。此属性的默认值为**false**.
 
-**Returns:**
-boolean - A value indicating that the signer can add comments in the Sign dialog.
-### getClass() {#getClass--}
+**退货:**
+boolean - 指示签名者可以在“签名”对话框中添加注释的值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDefaultInstructions() {#getDefaultInstructions--}
 ```
 public boolean getDefaultInstructions()
 ```
 
 
-Gets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
+获取一个值，该值指示默认指令显示在“签名”对话框中。此属性的默认值为**true**.
 
-**Returns:**
-boolean - A value indicating that default instructions is shown in the Sign dialog.
+**退货:**
+boolean - 指示默认指令显示在“签名”对话框中的值。
 ### getEmail() {#getEmail--}
 ```
 public String getEmail()
 ```
 
 
-Gets suggested signer's e-mail address. Default value for this property is **empty string**.
+获取建议的签名者的电子邮件地址。此属性的默认值为**empty string**.
 
-**Returns:**
-java.lang.String - Suggested signer's e-mail address.
+**退货:**
+java.lang.String - 建议的签名者的电子邮件地址。
 ### getId() {#getId--}
 ```
 public UUID getId()
 ```
 
 
-Gets identifier for this signature line.
+获取此签名行的标识符。
 
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid.
+当使用签名文档时，此标识符可以与数字签名相关联[DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil).此值必须是唯一的，默认情况下它是随机生成的新 Guid。
 
-**Returns:**
-java.util.UUID - Identifier for this signature line.
+**退货:**
+java.util.UUID - 此签名行的标识符。
 ### getInstructions() {#getInstructions--}
 ```
 public String getInstructions()
 ```
 
 
-Gets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions--) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean-) is set. Default value for this property is **empty string**.
+获取在签署签名行时显示的对签名者的说明。如果出现此属性，则忽略此属性[getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions--) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean-)已设置。此属性的默认值为**empty string**.
 
-**Returns:**
-java.lang.String - Instructions to the signer that are displayed on signing the signature line.
+**退货:**
+java.lang.String - 在签署签名行时显示给签名者的说明。
 ### getProviderId() {#getProviderId--}
 ```
 public UUID getProviderId()
 ```
 
 
-Gets signature provider identifier for this signature line. Default value is "\{00000000-0000-0000-0000-000000000000\}".
+获取此签名行的签名提供者标识符。默认值为“\{00000000-0000-0000-0000-000000000000\}”。
 
-The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider.
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
-The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\\SOFTWARE\\Microsoft\\Cryptography\\Defaults\\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**Returns:**
-java.util.UUID - Signature provider identifier for this signature line.
+**退货:**
+java.util.UUID - 此签名行的签名提供者标识符。
 ### getShowDate() {#getShowDate--}
 ```
 public boolean getShowDate()
 ```
 
 
-Gets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
+获取一个值，该值指示签名日期显示在签名行中。此属性的默认值为**true**.
 
-**Returns:**
-boolean - A value indicating that sign date is shown in the signature line.
+**退货:**
+boolean - 指示签名日期显示在签名行中的值。
 ### getSigner() {#getSigner--}
 ```
 public String getSigner()
 ```
 
 
-Gets suggested signer of the signature line. Default value for this property is **empty string**.
+获取签名行的建议签名者。此属性的默认值为**empty string**.
 
-**Returns:**
-java.lang.String - Suggested signer of the signature line.
+**退货:**
+java.lang.String - 签名行的建议签名者。
 ### getSignerTitle() {#getSignerTitle--}
 ```
 public String getSignerTitle()
 ```
 
 
-Gets suggested signer's title (for example, Manager). Default value for this property is **empty string**.
+获取建议的签名者的头衔（例如，经理）。此属性的默认值为**empty string**.
 
-**Returns:**
-java.lang.String - Suggested signer's title (for example, Manager).
+**退货:**
+java.lang.String - 建议的签名者头衔（例如，经理）。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -180,28 +180,28 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isSigned() {#isSigned--}
 ```
 public boolean isSigned()
 ```
 
 
-Indicates that signature line is signed by digital signature.
+表示签名行是数字签名的。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isValid() {#isValid--}
 ```
 public boolean isValid()
 ```
 
 
-Indicates that signature line is signed by digital signature and this digital signature is valid.
+表示签名行是经过数字签名的，并且这个数字签名是有效的。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -224,12 +224,12 @@ public void setAllowComments(boolean value)
 ```
 
 
-Sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
+设置一个值，指示签名者可以在“签名”对话框中添加注释。此属性的默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value indicating that the signer can add comments in the Sign dialog. |
+| value | boolean | 指示签名者可以在“签名”对话框中添加注释的值。 |
 
 ### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean-}
 ```
@@ -237,12 +237,12 @@ public void setDefaultInstructions(boolean value)
 ```
 
 
-Sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
+设置一个值，指示默认指令显示在“签名”对话框中。此属性的默认值为**true**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value indicating that default instructions is shown in the Sign dialog. |
+| value | boolean | 指示默认指令的值显示在“签名”对话框中。 |
 
 ### setEmail(String value) {#setEmail-java.lang.String-}
 ```
@@ -250,12 +250,12 @@ public void setEmail(String value)
 ```
 
 
-Sets suggested signer's e-mail address. Default value for this property is **empty string**.
+设置建议的签名者的电子邮件地址。此属性的默认值为**empty string**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Suggested signer's e-mail address. |
+| value | java.lang.String | 建议的签名者的电子邮件地址。 |
 
 ### setId(UUID value) {#setId-java.util.UUID-}
 ```
@@ -263,14 +263,14 @@ public void setId(UUID value)
 ```
 
 
-Sets identifier for this signature line.
+设置此签名行的标识符。
 
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil). This value must be unique and by default it is randomly generated new Guid.
+当使用签名文档时，此标识符可以与数字签名相关联[DigitalSignatureUtil](../../com.aspose.words/digitalsignatureutil).此值必须是唯一的，默认情况下它是随机生成的新 Guid。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID | Identifier for this signature line. |
+| value | java.util.UUID | 此签名行的标识符。 |
 
 ### setInstructions(String value) {#setInstructions-java.lang.String-}
 ```
@@ -278,12 +278,12 @@ public void setInstructions(String value)
 ```
 
 
-Sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions--) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean-) is set. Default value for this property is **empty string**.
+为签名者设置在签名行签名时显示的说明。如果出现此属性，则忽略此属性[getDefaultInstructions()](../../com.aspose.words/signatureline\#getDefaultInstructions--) / [setDefaultInstructions(boolean)](../../com.aspose.words/signatureline\#setDefaultInstructions-boolean-)已设置。此属性的默认值为**empty string**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Instructions to the signer that are displayed on signing the signature line. |
+| value | java.lang.String | 在签署签名行时显示给签名者的说明。 |
 
 ### setProviderId(UUID value) {#setProviderId-java.util.UUID-}
 ```
@@ -291,18 +291,18 @@ public void setProviderId(UUID value)
 ```
 
 
-Sets signature provider identifier for this signature line. Default value is "\{00000000-0000-0000-0000-000000000000\}".
+设置此签名行的签名提供者标识符。默认值为“\{00000000-0000-0000-0000-000000000000\}”。
 
-The cryptographic service provider (CSP) is an independent software module that actually performs cryptography algorithms for authentication, encoding, and encryption. MS Office reserves the value of \{00000000-0000-0000-0000-000000000000\} for its default signature provider.
+加密服务提供者 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。 MS Office 保留的价值\{00000000-0000-0000-0000-000000000000\为其默认签名提供者。
 
-The GUID of the additionally installed provider should be obtained from the documentation shipped with the provider.
+额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
 
-In addition, all the installed cryptographic providers are enumerated in windows registry. It can be found in the following path: HKLM\\SOFTWARE\\Microsoft\\Cryptography\\Defaults\\Provider. There is a key name "CP Service UUID" which corresponds to a GUID of signature provider.
+此外，所有已安装的加密提供程序都在 Windows 注册表中枚举。可以在以下路径中找到：HKLM\\软件\\微软\\密码学\\默认值\\提供者。有一个密钥名称“CP Service UUID”，它对应于签名提供者的 GUID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.UUID | Signature provider identifier for this signature line. |
+| value | java.util.UUID | 此签名行的签名提供者标识符。 |
 
 ### setShowDate(boolean value) {#setShowDate-boolean-}
 ```
@@ -310,12 +310,12 @@ public void setShowDate(boolean value)
 ```
 
 
-Sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
+设置一个值，指示签名日期显示在签名行中。此属性的默认值为**true**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value indicating that sign date is shown in the signature line. |
+| value | boolean | 指示签名日期的值显示在签名行中。 |
 
 ### setSigner(String value) {#setSigner-java.lang.String-}
 ```
@@ -323,12 +323,12 @@ public void setSigner(String value)
 ```
 
 
-Sets suggested signer of the signature line. Default value for this property is **empty string**.
+设置签名行的建议签名者。此属性的默认值为**empty string**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Suggested signer of the signature line. |
+| value | java.lang.String | 签名行的建议签名者。 |
 
 ### setSignerTitle(String value) {#setSignerTitle-java.lang.String-}
 ```
@@ -336,12 +336,12 @@ public void setSignerTitle(String value)
 ```
 
 
-Sets suggested signer's title (for example, Manager). Default value for this property is **empty string**.
+设置建议的签名者的头衔（例如，经理）。此属性的默认值为**empty string**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Suggested signer's title (for example, Manager). |
+| value | java.lang.String | 建议的签名者头衔（例如，经理）。 |
 
 ### toString() {#toString--}
 ```
@@ -351,7 +351,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -369,8 +369,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -382,9 +382,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

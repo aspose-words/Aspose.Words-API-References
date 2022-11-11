@@ -1,38 +1,38 @@
 ---
 title: GradientStyle
-second_title: Aspose.Words for Java API Reference
-description: Specifies the style for a gradient fill.
+second_title: Aspose.Words for Java API 参考
+description: 指定渐变填充的样式。
 type: docs
 weight: 310
-url: /java/com.aspose.words/gradientstyle/
+url: /zh/java/com.aspose.words/gradientstyle/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class GradientStyle
 ```
 
-Specifies the style for a gradient fill.
-## Fields
+指定渐变填充的样式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | Diagonal gradient moving from a top corner down to the opposite corner. |
-| [DIAGONAL_UP](#DIAGONAL-UP) | Diagonal gradient moving from a bottom corner up to the opposite corner. |
-| [FROM_CENTER](#FROM-CENTER) | Gradient running from the center out to the corners. |
-| [FROM_CORNER](#FROM-CORNER) | Gradient running from a corner to the other three corners. |
-| [HORIZONTAL](#HORIZONTAL) | Gradient running horizontally across an object. |
-| [NONE](#NONE) | No gradient. |
-| [VERTICAL](#VERTICAL) | Gradient running vertically down an object. |
+| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 从顶角向下移动到对角的对角梯度。 |
+| [DIAGONAL_UP](#DIAGONAL-UP) | 从底角向上移动到对角的对角梯度。 |
+| [FROM_CENTER](#FROM-CENTER) | 从中心到角落的渐变。 |
+| [FROM_CORNER](#FROM-CORNER) | 从一个角落到其他三个角落的渐变。 |
+| [HORIZONTAL](#HORIZONTAL) | 在对象上水平运行的渐变。 |
+| [NONE](#NONE) | 没有渐变。 |
+| [VERTICAL](#VERTICAL) | 垂直向下运行的渐变对象。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String gradientStyleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int gradientStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public static int DIAGONAL_DOWN
 ```
 
 
-Diagonal gradient moving from a top corner down to the opposite corner.
+从顶角向下移动到对角的对角梯度。
 
 ### DIAGONAL_UP {#DIAGONAL-UP}
 ```
@@ -57,7 +57,7 @@ public static int DIAGONAL_UP
 ```
 
 
-Diagonal gradient moving from a bottom corner up to the opposite corner.
+从底角向上移动到对角的对角梯度。
 
 ### FROM_CENTER {#FROM-CENTER}
 ```
@@ -65,7 +65,7 @@ public static int FROM_CENTER
 ```
 
 
-Gradient running from the center out to the corners.
+从中心到角落的渐变。
 
 ### FROM_CORNER {#FROM-CORNER}
 ```
@@ -73,7 +73,7 @@ public static int FROM_CORNER
 ```
 
 
-Gradient running from a corner to the other three corners.
+从一个角落到其他三个角落的渐变。
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -81,7 +81,7 @@ public static int HORIZONTAL
 ```
 
 
-Gradient running horizontally across an object.
+在对象上水平运行的渐变。
 
 ### NONE {#NONE}
 ```
@@ -89,7 +89,7 @@ public static int NONE
 ```
 
 
-No gradient.
+没有渐变。
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -97,7 +97,7 @@ public static int VERTICAL
 ```
 
 
-Gradient running vertically down an object.
+垂直向下运行的渐变对象。
 
 ### length {#length}
 ```
@@ -113,13 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String gradientStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String gradientStyleName)
@@ -128,23 +128,23 @@ public static int fromName(String gradientStyleName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyleName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int gradientStyle) {#getName-int-}
 ```
 public static String getName(int gradientStyle)
@@ -153,12 +153,12 @@ public static String getName(int gradientStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -168,8 +168,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,8 +178,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int gradientStyle) {#toString-int-}
 ```
@@ -214,12 +214,12 @@ public static String toString(int gradientStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | gradientStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,9 +250,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

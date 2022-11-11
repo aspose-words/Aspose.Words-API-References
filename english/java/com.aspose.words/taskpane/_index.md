@@ -1,41 +1,41 @@
 ---
 title: TaskPane
 second_title: Aspose.Words for Java API Reference
-description: Represents an add-in task pane object.
+description: 表示加载项任务窗格对象。
 type: docs
 weight: 555
-url: /java/com.aspose.words/taskpane/
+url: /zh/java/com.aspose.words/taskpane/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TaskPane
 ```
 
-Represents an add-in task pane object.
+表示加载项任务窗格对象。
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Office Add-ins**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDockState()](#getDockState--) | Specifies the last-docked location of this task pane object. |
-| [getRow()](#getRow--) | Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location. |
-| [getWebExtension()](#getWebExtension--) | Represents an web extension object. |
-| [getWidth()](#getWidth--) | Specifies the default width value for this task pane instance. |
+| [get班级()](#get班级--) |  |
+| [getDockState()](#getDockState--) | 指定此任务窗格对象的最后停靠位置。 |
+| [getRow()](#getRow--) | 指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。 |
+| [getWebExtension()](#getWebExtension--) | 表示一个 Web 扩展对象。 |
+| [getWidth()](#getWidth--) | 指定此任务窗格实例的默认宽度值。 |
 | [hashCode()](#hashCode--) |  |
-| [isLocked()](#isLocked--) | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
-| [isLocked(boolean value)](#isLocked-boolean-) | Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user. |
-| [isVisible()](#isVisible--) | Specifies whether the task pane shows as visible by default when the document opens. |
-| [isVisible(boolean value)](#isVisible-boolean-) | Specifies whether the task pane shows as visible by default when the document opens. |
+| [isLocked()](#isLocked--) | 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。 |
+| [isVisible()](#isVisible--) | 指定当文档打开时任务窗格是否默认显示为可见。 |
+| [isVisible(boolean value)](#isVisible-boolean-) | 指定当文档打开时任务窗格是否默认显示为可见。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDockState(int value)](#setDockState-int-) | Specifies the last-docked location of this task pane object. |
-| [setRow(int value)](#setRow-int-) | Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location. |
-| [setWidth(double value)](#setWidth-double-) | Specifies the default width value for this task pane instance. |
+| [setDockState(int value)](#setDockState-int-) | 指定此任务窗格对象的最后停靠位置。 |
+| [setRow(int value)](#setRow-int-) | 指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。 |
+| [setWidth(double value)](#setWidth-double-) | 指定此任务窗格实例的默认宽度值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,63 +48,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDockState() {#getDockState--}
 ```
 public int getDockState()
 ```
 
 
-Specifies the last-docked location of this task pane object.
+指定此任务窗格对象的最后停靠位置。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。
 ### getRow() {#getRow--}
 ```
 public int getRow()
 ```
 
 
-Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location.
+指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getWebExtension() {#getWebExtension--}
 ```
 public WebExtension getWebExtension()
 ```
 
 
-Represents an web extension object.
+表示一个 Web 扩展对象。
 
-**Returns:**
-[WebExtension](../../com.aspose.words/webextension) - The corresponding [WebExtension](../../com.aspose.words/webextension) value.
+**退货:**
+[WebExtension](../../com.aspose.words/webextension) - 相应的[WebExtension](../../com.aspose.words/webextension)价值。
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-Specifies the default width value for this task pane instance.
+指定此任务窗格实例的默认宽度值。
 
-**Returns:**
-double - The corresponding  double  value.
+**退货:**
+double - 对应的双精度值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -113,30 +113,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isLocked() {#isLocked--}
 ```
 public boolean isLocked()
 ```
 
 
-Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
+指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Specifies whether the task pane is locked to the document in the UI and cannot be closed by the user.
+指定任务窗格是否锁定到 UI 中的文档并且不能由用户关闭。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### isVisible() {#isVisible--}
 ```
@@ -144,22 +144,22 @@ public boolean isVisible()
 ```
 
 
-Specifies whether the task pane shows as visible by default when the document opens.
+指定当文档打开时任务窗格是否默认显示为可见。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isVisible(boolean value) {#isVisible-boolean-}
 ```
 public void isVisible(boolean value)
 ```
 
 
-Specifies whether the task pane shows as visible by default when the document opens.
+指定当文档打开时任务窗格是否默认显示为可见。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -183,12 +183,12 @@ public void setDockState(int value)
 ```
 
 
-Specifies the last-docked location of this task pane object.
+指定此任务窗格对象的最后停靠位置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TaskPaneDockState](../../com.aspose.words/taskpanedockstate) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[TaskPaneDockState](../../com.aspose.words/taskpanedockstate)常数。 |
 
 ### setRow(int value) {#setRow-int-}
 ```
@@ -196,12 +196,12 @@ public void setRow(int value)
 ```
 
 
-Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location.
+指定此任务窗格以及停靠在相同默认位置的其他持久任务窗格中从外到内枚举的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -209,12 +209,12 @@ public void setWidth(double value)
 ```
 
 
-Specifies the default width value for this task pane instance.
+指定此任务窗格实例的默认宽度值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The corresponding  double  value. |
+| value | double | 对应的双精度值。 |
 
 ### toString() {#toString--}
 ```
@@ -224,7 +224,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -242,8 +242,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -255,9 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

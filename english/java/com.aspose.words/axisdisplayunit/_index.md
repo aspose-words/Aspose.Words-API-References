@@ -1,44 +1,44 @@
 ---
 title: AxisDisplayUnit
-second_title: Aspose.Words for Java API Reference
-description: Provides access to the scaling options of the display units for the value axis.
+second_title: Aspose.Words for Java API 参考
+description: 提供对数值轴显示单位的缩放选项的访问。
 type: docs
 weight: 20
-url: /java/com.aspose.words/axisdisplayunit/
+url: /zh/java/com.aspose.words/axisdisplayunit/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class AxisDisplayUnit implements Cloneable
 ```
 
-Provides access to the scaling options of the display units for the value axis.
+提供对数值轴显示单位的缩放选项的访问。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCustomUnit()](#getCustomUnit--) | Gets a user-defined divisor to scale display units on the value axis. |
-| [getDocument()](#getDocument--) | Returns the Document the title holder belongs. |
+| [get班级()](#get班级--) |  |
+| [getCustomUnit()](#getCustomUnit--) | 获取用户定义的除数以缩放值轴上的显示单位。 |
+| [getDocument()](#getDocument--) | 返回标题持有者所属的文档。 |
 | [getTitle()](#getTitle--) |  |
 | [getTitleDeleted()](#getTitleDeleted--) |  |
 | [getTitlePosition()](#getTitlePosition--) |  |
-| [getUnit()](#getUnit--) | Gets the scaling value of the display units as one of the predefined values. |
+| [getUnit()](#getUnit--) | 获取显示单位的缩放值作为预定义值之一。 |
 | [hashCode()](#hashCode--) |  |
 | [isVisible()](#isVisible--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCustomUnit(double value)](#setCustomUnit-double-) | Sets a user-defined divisor to scale display units on the value axis. |
+| [setCustomUnit(double value)](#setCustomUnit-double-) | 设置用户定义的除数以缩放值轴上的显示单位。 |
 | [setTitle(ChartTitle value)](#setTitle-com.aspose.words.ChartTitle-) |  |
 | [setTitleDeleted(boolean value)](#setTitleDeleted-boolean-) |  |
-| [setUnit(int value)](#setUnit-int-) | Sets the scaling value of the display units as one of the predefined values. |
+| [setUnit(int value)](#setUnit-int-) | 将显示单位的缩放值设置为预定义值之一。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,47 +51,47 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCustomUnit() {#getCustomUnit--}
 ```
 public double getCustomUnit()
 ```
 
 
-Gets a user-defined divisor to scale display units on the value axis.
+获取用户定义的除数以缩放值轴上的显示单位。
 
-The property is not supported by MS Office 2016 new charts. Default value is 1.
+MS Office 2016 新图表不支持该属性。默认值为 1。
 
-Setting this property sets the [getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-) property to [AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
+设置此属性会设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
 
-**Returns:**
-double - A user-defined divisor to scale display units on the value axis.
+**退货:**
+double - 用户定义的除数，用于在值轴上缩放显示单位。
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-Returns the Document the title holder belongs.
+返回标题持有者所属的文档。
 
-**Returns:**
-[DocumentBase](../../com.aspose.words/documentbase) - The Document the title holder belongs.
+**退货:**
+[DocumentBase](../../com.aspose.words/documentbase) - 所有权人所属的文件。
 ### getTitle() {#getTitle--}
 ```
 public ChartTitle getTitle()
@@ -100,7 +100,7 @@ public ChartTitle getTitle()
 
 
 
-**Returns:**
+**退货:**
 [ChartTitle](../../com.aspose.words/charttitle)
 ### getTitleDeleted() {#getTitleDeleted--}
 ```
@@ -110,8 +110,8 @@ public boolean getTitleDeleted()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getTitlePosition() {#getTitlePosition--}
 ```
 public int getTitlePosition()
@@ -120,18 +120,18 @@ public int getTitlePosition()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getUnit() {#getUnit--}
 ```
 public int getUnit()
 ```
 
 
-Gets the scaling value of the display units as one of the predefined values. Default value is [AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE). The [AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM) and [AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE) values are not available in some chart types; see [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit) for more information.
+获取显示单位的缩放值作为预定义值之一。默认值为[AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE).这[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM)和[AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE)值在某些图表类型中不可用；看[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)了解更多信息。
 
-**Returns:**
-int - The scaling value of the display units as one of the predefined values. The returned value is one of [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit) constants.
+**退货:**
+ int - 作为预定义值之一的显示单位的缩放值。返回值是以下之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isVisible() {#isVisible--}
 ```
 public boolean isVisible()
@@ -150,8 +150,8 @@ public boolean isVisible()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -174,16 +174,16 @@ public void setCustomUnit(double value)
 ```
 
 
-Sets a user-defined divisor to scale display units on the value axis.
+设置用户定义的除数以缩放值轴上的显示单位。
 
-The property is not supported by MS Office 2016 new charts. Default value is 1.
+MS Office 2016 新图表不支持该属性。默认值为 1。
 
-Setting this property sets the [getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-) property to [AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
+设置此属性会设置[getUnit()](../../com.aspose.words/axisdisplayunit\#getUnit--) / [setUnit(int)](../../com.aspose.words/axisdisplayunit\#setUnit-int-)财产[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | A user-defined divisor to scale display units on the value axis. |
+| value | double | 用户定义的除数，用于在值轴上缩放显示单位。 |
 
 ### setTitle(ChartTitle value) {#setTitle-com.aspose.words.ChartTitle-}
 ```
@@ -193,8 +193,8 @@ public void setTitle(ChartTitle value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | [ChartTitle](../../com.aspose.words/charttitle) |  |
 
@@ -206,8 +206,8 @@ public void setTitleDeleted(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -217,12 +217,12 @@ public void setUnit(int value)
 ```
 
 
-Sets the scaling value of the display units as one of the predefined values. Default value is [AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE). The [AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM) and [AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE) values are not available in some chart types; see [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit) for more information.
+将显示单位的缩放值设置为预定义值之一。默认值为[AxisBuiltInUnit.NONE](../../com.aspose.words/axisbuiltinunit\#NONE).这[AxisBuiltInUnit.CUSTOM](../../com.aspose.words/axisbuiltinunit\#CUSTOM)和[AxisBuiltInUnit.PERCENTAGE](../../com.aspose.words/axisbuiltinunit\#PERCENTAGE)值在某些图表类型中不可用；看[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)了解更多信息。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The scaling value of the display units as one of the predefined values. The value must be one of [AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit) constants. |
+| value | int | 显示单元的缩放值作为预定义值之一。该值必须是以下之一[AxisBuiltInUnit](../../com.aspose.words/axisbuiltinunit)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -232,7 +232,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -250,8 +250,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -263,9 +263,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

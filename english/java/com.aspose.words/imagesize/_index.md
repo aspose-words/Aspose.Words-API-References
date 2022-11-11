@@ -1,39 +1,39 @@
 ---
 title: ImageSize
-second_title: Aspose.Words for Java API Reference
-description: Contains information about image size and resolution.
+second_title: Aspose.Words for Java API 参考
+description: 包含有关图像大小和分辨率的信息。
 type: docs
 weight: 342
-url: /java/com.aspose.words/imagesize/
+url: /zh/java/com.aspose.words/imagesize/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ImageSize
 ```
 
-Contains information about image size and resolution.
+包含有关图像大小和分辨率的信息。
 
-To learn more, visit the **Working with Images** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with Images**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ImageSize(int widthPixels, int heightPixels)](#ImageSize-int-int-) | Initializes width and height to the given values in pixels. |
-| [ImageSize(int widthPixels, int heightPixels, double horizontalResolution, double verticalResolution)](#ImageSize-int-int-double-double-) | Initializes width, height and resolution to the given values. |
-## Methods
+| [ImageSize(int widthPixels, int heightPixels)](#ImageSize-int-int-) | 将宽度和高度初始化为给定的像素值。 |
+| [ImageSize(int widthPixels, int heightPixels, double horizontalResolution, double verticalResolution)](#ImageSize-int-int-double-double-) | 将宽度、高度和分辨率初始化为给定值。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getHeightPixels()](#getHeightPixels--) | Gets the height of the image in pixels. |
-| [getHeightPoints()](#getHeightPoints--) | Gets the height of the image in points. |
-| [getHorizontalResolution()](#getHorizontalResolution--) | Gets the horizontal resolution in DPI. |
-| [getVerticalResolution()](#getVerticalResolution--) | Gets the vertical resolution in DPI. |
-| [getWidthPixels()](#getWidthPixels--) | Gets the width of the image in pixels. |
-| [getWidthPoints()](#getWidthPoints--) | Gets the width of the image in points. |
+| [get班级()](#get班级--) |  |
+| [getHeightPixels()](#getHeightPixels--) | 获取图像的高度（以像素为单位）。 |
+| [getHeightPoints()](#getHeightPoints--) | 获取图像的高度（以磅为单位）。 |
+| [getHorizontalResolution()](#getHorizontalResolution--) | 获取以 DPI 为单位的水平分辨率。 |
+| [getVerticalResolution()](#getVerticalResolution--) | 获取 DPI 中的垂直分辨率。 |
+| [getWidthPixels()](#getWidthPixels--) | 获取图像的宽度（以像素为单位）。 |
+| [getWidthPoints()](#getWidthPoints--) | 以点为单位获取图像的宽度。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -47,13 +47,13 @@ public ImageSize(int widthPixels, int heightPixels)
 ```
 
 
-Initializes width and height to the given values in pixels. Initializes resolution to 96 dpi.
+将宽度和高度初始化为给定的像素值。将分辨率初始化为 96 dpi。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| widthPixels | int | Width in pixels. |
-| heightPixels | int | Height in pixels. |
+| widthPixels | int | 以像素为单位的宽度。 |
+| heightPixels | int | 以像素为单位的高度。 |
 
 ### ImageSize(int widthPixels, int heightPixels, double horizontalResolution, double verticalResolution) {#ImageSize-int-int-double-double-}
 ```
@@ -61,15 +61,15 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 ```
 
 
-Initializes width, height and resolution to the given values.
+将宽度、高度和分辨率初始化为给定值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| widthPixels | int | Width in pixels. |
-| heightPixels | int | Height in pixels. |
-| horizontalResolution | double | Horizontal resolution in DPI. |
-| verticalResolution | double | Vertical resolution in DPI. |
+| widthPixels | int | 以像素为单位的宽度。 |
+| heightPixels | int | 以像素为单位的高度。 |
+| horizontalResolution | double | DPI 中的水平分辨率。 |
+| verticalResolution | double | DPI 中的垂直分辨率。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -79,83 +79,83 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getHeightPixels() {#getHeightPixels--}
 ```
 public int getHeightPixels()
 ```
 
 
-Gets the height of the image in pixels.
+获取图像的高度（以像素为单位）。
 
-**Returns:**
-int - The height of the image in pixels.
+**退货:**
+int - 图像的高度（以像素为单位）。
 ### getHeightPoints() {#getHeightPoints--}
 ```
 public double getHeightPoints()
 ```
 
 
-Gets the height of the image in points. 1 point is 1/72 inch.
+获取图像的高度（以磅为单位）。 1 点是 1/72 英寸。
 
-**Returns:**
-double - The height of the image in points.
+**退货:**
+double - 图像的高度（以磅为单位）。
 ### getHorizontalResolution() {#getHorizontalResolution--}
 ```
 public double getHorizontalResolution()
 ```
 
 
-Gets the horizontal resolution in DPI.
+获取以 DPI 为单位的水平分辨率。
 
-**Returns:**
-double - The horizontal resolution in DPI.
+**退货:**
+double - DPI 中的水平分辨率。
 ### getVerticalResolution() {#getVerticalResolution--}
 ```
 public double getVerticalResolution()
 ```
 
 
-Gets the vertical resolution in DPI.
+获取 DPI 中的垂直分辨率。
 
-**Returns:**
-double - The vertical resolution in DPI.
+**退货:**
+double - DPI 中的垂直分辨率。
 ### getWidthPixels() {#getWidthPixels--}
 ```
 public int getWidthPixels()
 ```
 
 
-Gets the width of the image in pixels.
+获取图像的宽度（以像素为单位）。
 
-**Returns:**
-int - The width of the image in pixels.
+**退货:**
+int - 图像的宽度（以像素为单位）。
 ### getWidthPoints() {#getWidthPoints--}
 ```
 public double getWidthPoints()
 ```
 
 
-Gets the width of the image in points. 1 point is 1/72 inch.
+以点为单位获取图像的宽度。 1 点是 1/72 英寸。
 
-**Returns:**
-double - The width of the image in points.
+**退货:**
+double - 图像的宽度（以磅为单位）。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -164,8 +164,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -190,7 +190,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -208,8 +208,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -221,9 +221,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

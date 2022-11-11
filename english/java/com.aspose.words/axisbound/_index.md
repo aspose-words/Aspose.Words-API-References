@@ -1,45 +1,45 @@
 ---
 title: AxisBound
-second_title: Aspose.Words for Java API Reference
-description: Represents minimum or maximum bound of axis values.
+second_title: Aspose.Words for Java API 参考
+description: 表示轴值的最小或最大界限。
 type: docs
 weight: 16
-url: /java/com.aspose.words/axisbound/
+url: /zh/java/com.aspose.words/axisbound/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class AxisBound
 ```
 
-Represents minimum or maximum bound of axis values.
+表示轴值的最小或最大界限。
 
-To learn more, visit the **Working with Charts** documentation article.
+要了解更多信息，请访问**Working with Charts**文档文章。
 
-Bound can be specified as a numeric, datetime or a special "auto" value.
+Bound 可以指定为数字、日期时间或特殊的“自动”值。
 
-The instances of this class are immutable.
-## Constructors
+这个类的实例是不可变的。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [AxisBound()](#AxisBound--) | Creates a new instance indicating that axis bound should be determined automatically by a word-processing application. |
-| [AxisBound(double value)](#AxisBound-double-) | Creates an axis bound represented as a number. |
-| [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | Creates an axis bound represented as datetime value. |
-## Methods
+| [AxisBound()](#AxisBound--) | 创建一个新实例，指示轴边界应由文字处理应用程序自动确定。 |
+| [AxisBound(double value)](#AxisBound-double-) | 创建一个以数字表示的轴边界。 |
+| [AxisBound(Date datetime)](#AxisBound-java.util.Date-) | 创建表示为日期时间值的轴边界。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getClass()](#getClass--) |  |
-| [getValue()](#getValue--) | Returns numeric value of axis bound. |
-| [getValueAsDate()](#getValueAsDate--) | Returns value of axis bound represented as datetime. |
+| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
+| [get班级()](#get班级--) |  |
+| [getValue()](#getValue--) | 返回轴边界的数值。 |
+| [getValueAsDate()](#getValueAsDate--) | 返回表示为日期时间的轴边界值。 |
 | [hashCode()](#hashCode--) |  |
-| [isAuto()](#isAuto--) | Returns a flag indicating that axis bound should be determined automatically. |
+| [isAuto()](#isAuto--) | 返回一个标志，指示应自动确定轴边界。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a user-friendly string that displays the value of this object. |
+| [toString()](#toString--) | 返回显示此对象值的用户友好字符串。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -49,7 +49,7 @@ public AxisBound()
 ```
 
 
-Creates a new instance indicating that axis bound should be determined automatically by a word-processing application.
+创建一个新实例，指示轴边界应由文字处理应用程序自动确定。
 
 ### AxisBound(double value) {#AxisBound-double-}
 ```
@@ -57,10 +57,10 @@ public AxisBound(double value)
 ```
 
 
-Creates an axis bound represented as a number.
+创建一个以数字表示的轴边界。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -70,10 +70,10 @@ public AxisBound(Date datetime)
 ```
 
 
-Creates an axis bound represented as datetime value.
+创建表示为日期时间值的轴边界。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | datetime | java.util.Date |  |
 
@@ -83,45 +83,45 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified object is equal in value to the current object.
+确定指定对象的值是否与当前对象相等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getValue() {#getValue--}
 ```
 public double getValue()
 ```
 
 
-Returns numeric value of axis bound.
+返回轴边界的数值。
 
-**Returns:**
-double - Numeric value of axis bound.
+**退货:**
+double - 轴边界的数值。
 ### getValueAsDate() {#getValueAsDate--}
 ```
 public Date getValueAsDate()
 ```
 
 
-Returns value of axis bound represented as datetime.
+返回表示为日期时间的轴边界值。
 
-**Returns:**
-java.util.Date - Value of axis bound represented as datetime.
+**退货:**
+java.util.Date - 表示为日期时间的轴边界值。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -130,18 +130,18 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isAuto() {#isAuto--}
 ```
 public boolean isAuto()
 ```
 
 
-Returns a flag indicating that axis bound should be determined automatically.
+返回一个标志，指示应自动确定轴边界。
 
-**Returns:**
-boolean - A flag indicating that axis bound should be determined automatically.
+**退货:**
+boolean - 一个标志，表示应该自动确定轴边界。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,9 +164,9 @@ public String toString()
 ```
 
 
-Returns a user-friendly string that displays the value of this object.
+返回显示此对象值的用户友好字符串。
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -184,8 +184,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -197,9 +197,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

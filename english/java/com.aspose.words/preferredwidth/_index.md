@@ -1,45 +1,45 @@
 ---
 title: PreferredWidth
-second_title: Aspose.Words for Java API Reference
-description: Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
+second_title: Aspose.Words for Java API 参考
+description: 表示一个值及其度量单位，用于指定表格或单元格的首选宽度。
 type: docs
 weight: 466
-url: /java/com.aspose.words/preferredwidth/
+url: /zh/java/com.aspose.words/preferredwidth/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PreferredWidth
 ```
 
-Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell.
+表示一个值及其度量单位，用于指定表格或单元格的首选宽度。
 
-To learn more, visit the **Working with Tables** documentation article.
+要了解更多信息，请访问**Working with Tables**文档文章。
 
-Preferred width can be specified as a percentage, number of points or a special "none/auto" value.
+首选宽度可以指定为百分比、点数或特殊的“无/自动”值。
 
-The instances of this class are immutable.
-## Fields
+这个类的实例是不可变的。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AUTO](#AUTO) | Returns an instance that represents the "preferred width is not specified" value. |
-## Methods
+| [AUTO](#AUTO) | 返回一个表示“未指定首选宽度”值的实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [equals(PreferredWidth other)](#equals-com.aspose.words.PreferredWidth-) | Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [fromPercent(double percent)](#fromPercent-double-) | A creation method that returns a new instance that represents a preferred width specified as a percentage. |
-| [fromPoints(double points)](#fromPoints-double-) | A creation method that returns a new instance that represents a preferred width specified using a number of points. |
-| [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Gets the unit of measure used for this preferred width value. |
-| [getValue()](#getValue--) | Gets the preferred width value. |
+| [equals(PreferredWidth other)](#equals-com.aspose.words.PreferredWidth-) | 确定指定的 PreferredWidth 值是否等于当前 PreferredWidth。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
+| [fromPercent(double percent)](#fromPercent-double-) | 一种创建方法，它返回一个新实例，该实例表示以百分比指定的首选宽度。 |
+| [fromPoints(double points)](#fromPoints-double-) | 一种创建方法，它返回一个新实例，该实例表示使用多个点指定的首选宽度。 |
+| [get班级()](#get班级--) |  |
+| [get类型()](#get类型--) | 获取用于此首选宽度值的度量单位。 |
+| [getValue()](#getValue--) | 获取首选宽度值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | Returns a user-friendly string that displays the value of this object. |
+| [toString()](#toString--) | 返回显示此对象值的用户友好字符串。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -49,7 +49,7 @@ public static PreferredWidth AUTO
 ```
 
 
-Returns an instance that represents the "preferred width is not specified" value.
+返回一个表示“未指定首选宽度”值的实例。
 
 ### equals(PreferredWidth other) {#equals-com.aspose.words.PreferredWidth-}
 ```
@@ -57,44 +57,44 @@ public boolean equals(PreferredWidth other)
 ```
 
 
-Determines whether the specified PreferredWidth is equal in value to the current PreferredWidth.
+确定指定的 PreferredWidth 值是否等于当前 PreferredWidth。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | other | [PreferredWidth](../../com.aspose.words/preferredwidth) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified object is equal in value to the current object.
+确定指定对象的值是否与当前对象相等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromPercent(double percent) {#fromPercent-double-}
 ```
 public static PreferredWidth fromPercent(double percent)
 ```
 
 
-A creation method that returns a new instance that represents a preferred width specified as a percentage.
+一种创建方法，它返回一个新实例，该实例表示以百分比指定的首选宽度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| percent | double | The value must be from 0 to 100. |
+| percent | double | 该值必须介于 0 到 100 之间。 |
 
-**Returns:**
+**退货:**
 [PreferredWidth](../../com.aspose.words/preferredwidth)
 ### fromPoints(double points) {#fromPoints-double-}
 ```
@@ -102,45 +102,45 @@ public static PreferredWidth fromPoints(double points)
 ```
 
 
-A creation method that returns a new instance that represents a preferred width specified using a number of points.
+一种创建方法，它返回一个新实例，该实例表示使用多个点指定的首选宽度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| points | double | The value must be from 0 to 22 inches (22 \* 72 points). |
+| points | double | 该值必须介于 0 到 22 英寸（22\* 72 分）。 |
 
-**Returns:**
+**退货:**
 [PreferredWidth](../../com.aspose.words/preferredwidth)
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getType() {#getType--}
-```
-public int getType()
+public final native 班级<?> get班级()
 ```
 
 
-Gets the unit of measure used for this preferred width value.
 
-**Returns:**
-int - The unit of measure used for this preferred width value. The returned value is one of [PreferredWidthType](../../com.aspose.words/preferredwidthtype) constants.
+
+**退货:**
+java.lang.班级<?>
+### get类型() {#get类型--}
+```
+public int get类型()
+```
+
+
+获取用于此首选宽度值的度量单位。
+
+**退货:**
+ int - 用于此首选宽度值的度量单位。返回值是以下之一[PreferredWidth类型](../../com.aspose.words/preferredwidthtype)常数。
 ### getValue() {#getValue--}
 ```
 public double getValue()
 ```
 
 
-Gets the preferred width value. The unit of measure is specified in the [getType()](../../com.aspose.words/preferredwidth\#getType--) property.
+获取首选宽度值。计量单位在[get类型()](../../com.aspose.words/preferredwidth\#get类型--)财产。
 
-**Returns:**
-double - The preferred width value.
+**退货:**
+double - 首选宽度值。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -149,8 +149,8 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -173,9 +173,9 @@ public String toString()
 ```
 
 
-Returns a user-friendly string that displays the value of this object.
+返回显示此对象值的用户友好字符串。
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -193,8 +193,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -206,9 +206,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

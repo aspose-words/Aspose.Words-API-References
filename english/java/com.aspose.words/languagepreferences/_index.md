@@ -1,36 +1,36 @@
 ---
 title: LanguagePreferences
-second_title: Aspose.Words for Java API Reference
-description: Allows to set up language preferences.
+second_title: Aspose.Words for Java API 参考
+description: 允许设置语言首选项。
 type: docs
 weight: 357
-url: /java/com.aspose.words/languagepreferences/
+url: /zh/java/com.aspose.words/languagepreferences/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class LanguagePreferences
 ```
 
-Allows to set up language preferences.
+允许设置语言首选项。
 
-To learn more, visit the **Specify Load Options** documentation article.
+要了解更多信息，请访问**Specify Load Options**文档文章。
 
-Implements 'Set the Office Language Preferences' dialog in Word.
-## Methods
+在 Word 中实现“设置 Office 语言首选项”对话框。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [addEditingLanguage(int language)](#addEditingLanguage-int-) |  |
 | [addEditingLanguages(int[] languages)](#addEditingLanguages-int---) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDefaultEditingLanguage()](#getDefaultEditingLanguage--) | Gets or sets default editing language. |
+| [get班级()](#get班级--) |  |
+| [getDefaultEditingLanguage()](#getDefaultEditingLanguage--) | 获取或设置默认编辑语言。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultEditingLanguage(int value)](#setDefaultEditingLanguage-int-) | Gets or sets default editing language. |
+| [setDefaultEditingLanguage(int value)](#setDefaultEditingLanguage-int-) | 获取或设置默认编辑语言。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,8 +43,8 @@ public void addEditingLanguage(int language)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | language | int |  |
 
@@ -56,8 +56,8 @@ public void addEditingLanguages(int[] languages)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | languages | int[] |  |
 
@@ -69,35 +69,35 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDefaultEditingLanguage() {#getDefaultEditingLanguage--}
 ```
 public int getDefaultEditingLanguage()
 ```
 
 
-Gets or sets default editing language.
+获取或设置默认编辑语言。
 
-The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
+默认值为[EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [EditingLanguage](../../com.aspose.words/editinglanguage) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[EditingLanguage](../../com.aspose.words/editinglanguage)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -106,8 +106,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -130,14 +130,14 @@ public void setDefaultEditingLanguage(int value)
 ```
 
 
-Gets or sets default editing language.
+获取或设置默认编辑语言。
 
-The default value is [EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
+默认值为[EditingLanguage.ENGLISH\_US](../../com.aspose.words/editinglanguage\#ENGLISH-US).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [EditingLanguage](../../com.aspose.words/editinglanguage) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[EditingLanguage](../../com.aspose.words/editinglanguage)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -147,7 +147,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -165,8 +165,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -178,9 +178,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

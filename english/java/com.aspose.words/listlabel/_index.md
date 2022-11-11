@@ -1,33 +1,33 @@
 ---
 title: ListLabel
-second_title: Aspose.Words for Java API Reference
-description: Defines properties specific to a list label.
+second_title: Aspose.Words for Java API 参考
+description: 定义特定于列表标签的属性。
 type: docs
 weight: 371
-url: /java/com.aspose.words/listlabel/
+url: /zh/java/com.aspose.words/listlabel/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ListLabel
 ```
 
-Defines properties specific to a list label.
+定义特定于列表标签的属性。
 
-To learn more, visit the **Working with Lists** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Lists**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | Gets the list label font. |
-| [getLabelString()](#getLabelString--) | Gets a string representation of list label. |
-| [getLabelValue()](#getLabelValue--) | Gets a numeric value for this label. |
+| [getFont()](#getFont--) | 获取列表标签字体。 |
+| [getLabelString()](#getLabelString--) | 获取列表标签的字符串表示形式。 |
+| [getLabelValue()](#getLabelValue--) | 获取此标签的数值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -53,13 +53,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -68,23 +68,23 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -93,12 +93,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -106,30 +106,30 @@ public Font getFont()
 ```
 
 
-Gets the list label font.
+获取列表标签字体。
 
-**Returns:**
-[Font](../../com.aspose.words/font) - The list label font.
+**退货:**
+[Font](../../com.aspose.words/font) - 列表标签字体。
 ### getLabelString() {#getLabelString--}
 ```
 public String getLabelString()
 ```
 
 
-Gets a string representation of list label.
+获取列表标签的字符串表示形式。
 
-**Returns:**
-java.lang.String - A string representation of list label.
+**退货:**
+java.lang.String - 列表标签的字符串表示。
 ### getLabelValue() {#getLabelValue--}
 ```
 public int getLabelValue()
 ```
 
 
-Gets a numeric value for this label. Use the [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method to update the value of this property.
+获取此标签的数值。使用[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)方法来更新此属性的值。
 
-**Returns:**
-int - A numeric value for this label.
+**退货:**
+int - 此标签的数值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -138,8 +138,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,8 +164,8 @@ public void removeRunAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
@@ -177,8 +177,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,9 +222,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

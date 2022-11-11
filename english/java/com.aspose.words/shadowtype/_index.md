@@ -1,82 +1,82 @@
 ---
-title: ShadowType
+title: Shadow类型
 second_title: Aspose.Words for Java API Reference
-description: Specifies the type of a shape shadow.
+description: 指定形状阴影的类型。
 type: docs
 weight: 515
-url: /java/com.aspose.words/shadowtype/
+url: /zh/java/com.aspose.words/shadowtype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class ShadowType
+public class Shadow类型
 ```
 
-Specifies the type of a shape shadow. ShadowType is not a simple attribute, but a preset that sets at once several attributes which form the shadow appearance.
-## Fields
+指定形状阴影的类型。 Shadow类型 不是一个简单的属性，而是一个预设，它同时设置了几个属性，这些属性形成了阴影外观。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [SHADOW_1](#SHADOW-1) | First shadow type. |
-| [SHADOW_10](#SHADOW-10) | Tenth shadow type. |
-| [SHADOW_11](#SHADOW-11) | Eleventh shadow type. |
-| [SHADOW_12](#SHADOW-12) | Twelfth shadow type. |
-| [SHADOW_13](#SHADOW-13) | Thirteenth shadow type. |
-| [SHADOW_14](#SHADOW-14) | Fourteenth shadow type. |
-| [SHADOW_15](#SHADOW-15) | Fifteenth shadow type. |
-| [SHADOW_16](#SHADOW-16) | Sixteenth shadow type. |
-| [SHADOW_17](#SHADOW-17) | Seventeenth shadow type. |
-| [SHADOW_18](#SHADOW-18) | Eighteenth shadow type. |
-| [SHADOW_19](#SHADOW-19) | Nineteenth shadow type. |
-| [SHADOW_2](#SHADOW-2) | Second shadow type. |
-| [SHADOW_20](#SHADOW-20) | Twentieth shadow type. |
-| [SHADOW_21](#SHADOW-21) | Twenty first shadow type. |
-| [SHADOW_22](#SHADOW-22) | Twenty second shadow type. |
-| [SHADOW_23](#SHADOW-23) | Twenty third shadow type. |
-| [SHADOW_24](#SHADOW-24) | Twenty forth shadow type. |
-| [SHADOW_25](#SHADOW-25) | Twenty fifth shadow type. |
-| [SHADOW_26](#SHADOW-26) | Twenty sixth shadow type. |
-| [SHADOW_27](#SHADOW-27) | Twenty seventh shadow type. |
-| [SHADOW_28](#SHADOW-28) | Twenty eighth shadow type. |
-| [SHADOW_29](#SHADOW-29) | Twenty ninth shadow type. |
-| [SHADOW_3](#SHADOW-3) | Third shadow type. |
-| [SHADOW_30](#SHADOW-30) | Thirtieth shadow type. |
-| [SHADOW_31](#SHADOW-31) | Thirty first shadow type. |
-| [SHADOW_32](#SHADOW-32) | Thirty second shadow type. |
-| [SHADOW_33](#SHADOW-33) | Thirty third shadow type. |
-| [SHADOW_34](#SHADOW-34) | Thirty forth shadow type. |
-| [SHADOW_35](#SHADOW-35) | Thirty fifth shadow type. |
-| [SHADOW_36](#SHADOW-36) | Thirty sixth shadow type. |
-| [SHADOW_37](#SHADOW-37) | Thirty seventh shadow type. |
-| [SHADOW_38](#SHADOW-38) | Thirty eighth shadow type. |
-| [SHADOW_39](#SHADOW-39) | Thirty ninth shadow type. |
-| [SHADOW_4](#SHADOW-4) | Fourth shadow type. |
-| [SHADOW_40](#SHADOW-40) | Fortieth shadow type. |
-| [SHADOW_41](#SHADOW-41) | Forty first shadow type. |
-| [SHADOW_42](#SHADOW-42) | Forty second shadow type. |
-| [SHADOW_43](#SHADOW-43) | Forty third shadow type. |
-| [SHADOW_5](#SHADOW-5) | Fifth shadow type. |
-| [SHADOW_6](#SHADOW-6) | Sixth shadow type. |
-| [SHADOW_7](#SHADOW-7) | Seventh shadow type. |
-| [SHADOW_8](#SHADOW-8) | Eighth shadow type. |
-| [SHADOW_9](#SHADOW-9) | Ninth shadow type. |
-| [SHADOW_MIXED](#SHADOW-MIXED) | None of predefined shadow presets. |
+| [SHADOW_1](#SHADOW-1) | 第一种阴影类型。 |
+| [SHADOW_10](#SHADOW-10) | 第十阴影类型。 |
+| [SHADOW_11](#SHADOW-11) | 第十一阴影类型。 |
+| [SHADOW_12](#SHADOW-12) | 第十二阴影类型。 |
+| [SHADOW_13](#SHADOW-13) | 第十三影型。 |
+| [SHADOW_14](#SHADOW-14) | 第十四影型。 |
+| [SHADOW_15](#SHADOW-15) | 第十五种阴影类型。 |
+| [SHADOW_16](#SHADOW-16) | 第十六影型。 |
+| [SHADOW_17](#SHADOW-17) | 第十七影型。 |
+| [SHADOW_18](#SHADOW-18) | 第十八影型。 |
+| [SHADOW_19](#SHADOW-19) | 第十九影型。 |
+| [SHADOW_2](#SHADOW-2) | 第二种阴影类型。 |
+| [SHADOW_20](#SHADOW-20) | 第二十阴影类型。 |
+| [SHADOW_21](#SHADOW-21) | 二十第一阴影类型。 |
+| [SHADOW_22](#SHADOW-22) | 二十秒阴影类型。 |
+| [SHADOW_23](#SHADOW-23) | 第二十三阴影类型。 |
+| [SHADOW_24](#SHADOW-24) | 第二十阴影类型。 |
+| [SHADOW_25](#SHADOW-25) | 第二十五个阴影类型。 |
+| [SHADOW_26](#SHADOW-26) | 第二十六影型。 |
+| [SHADOW_27](#SHADOW-27) | 第二十七影型。 |
+| [SHADOW_28](#SHADOW-28) | 二十八影型。 |
+| [SHADOW_29](#SHADOW-29) | 第二十九影型。 |
+| [SHADOW_3](#SHADOW-3) | 第三种阴影类型。 |
+| [SHADOW_30](#SHADOW-30) | 第三十阴影类型。 |
+| [SHADOW_31](#SHADOW-31) | 三十第一阴影类型。 |
+| [SHADOW_32](#SHADOW-32) | 三十秒阴影类型。 |
+| [SHADOW_33](#SHADOW-33) | 第三十三阴影类型。 |
+| [SHADOW_34](#SHADOW-34) | 第三十阴影类型。 |
+| [SHADOW_35](#SHADOW-35) | 第三十五个阴影类型。 |
+| [SHADOW_36](#SHADOW-36) | 第三十六影型。 |
+| [SHADOW_37](#SHADOW-37) | 第三十七影型。 |
+| [SHADOW_38](#SHADOW-38) | 第三十八个影子类型。 |
+| [SHADOW_39](#SHADOW-39) | 第三十九影型。 |
+| [SHADOW_4](#SHADOW-4) | 第四种阴影类型。 |
+| [SHADOW_40](#SHADOW-40) | 第四十种阴影类型。 |
+| [SHADOW_41](#SHADOW-41) | 四十第一阴影类型。 |
+| [SHADOW_42](#SHADOW-42) | 四十秒阴影类型。 |
+| [SHADOW_43](#SHADOW-43) | 第四十三阴影类型。 |
+| [SHADOW_5](#SHADOW-5) | 第五种阴影类型。 |
+| [SHADOW_6](#SHADOW-6) | 第六阴影类型。 |
+| [SHADOW_7](#SHADOW-7) | 第七阴影类型。 |
+| [SHADOW_8](#SHADOW-8) | 第八阴影类型。 |
+| [SHADOW_9](#SHADOW-9) | 第九影型。 |
+| [SHADOW_MIXED](#SHADOW-MIXED) | 没有预定义的阴影预设。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String shadowTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int shadowType)](#getName-int-) |  |
+| [fromName(String shadow类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int shadow类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int shadowType)](#toString-int-) |  |
+| [toString(int shadow类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -86,7 +86,7 @@ public static int SHADOW_1
 ```
 
 
-First shadow type.
+第一种阴影类型。
 
 ### SHADOW_10 {#SHADOW-10}
 ```
@@ -94,7 +94,7 @@ public static int SHADOW_10
 ```
 
 
-Tenth shadow type.
+第十阴影类型。
 
 ### SHADOW_11 {#SHADOW-11}
 ```
@@ -102,7 +102,7 @@ public static int SHADOW_11
 ```
 
 
-Eleventh shadow type.
+第十一阴影类型。
 
 ### SHADOW_12 {#SHADOW-12}
 ```
@@ -110,7 +110,7 @@ public static int SHADOW_12
 ```
 
 
-Twelfth shadow type.
+第十二阴影类型。
 
 ### SHADOW_13 {#SHADOW-13}
 ```
@@ -118,7 +118,7 @@ public static int SHADOW_13
 ```
 
 
-Thirteenth shadow type.
+第十三影型。
 
 ### SHADOW_14 {#SHADOW-14}
 ```
@@ -126,7 +126,7 @@ public static int SHADOW_14
 ```
 
 
-Fourteenth shadow type.
+第十四影型。
 
 ### SHADOW_15 {#SHADOW-15}
 ```
@@ -134,7 +134,7 @@ public static int SHADOW_15
 ```
 
 
-Fifteenth shadow type.
+第十五种阴影类型。
 
 ### SHADOW_16 {#SHADOW-16}
 ```
@@ -142,7 +142,7 @@ public static int SHADOW_16
 ```
 
 
-Sixteenth shadow type.
+第十六影型。
 
 ### SHADOW_17 {#SHADOW-17}
 ```
@@ -150,7 +150,7 @@ public static int SHADOW_17
 ```
 
 
-Seventeenth shadow type.
+第十七影型。
 
 ### SHADOW_18 {#SHADOW-18}
 ```
@@ -158,7 +158,7 @@ public static int SHADOW_18
 ```
 
 
-Eighteenth shadow type.
+第十八影型。
 
 ### SHADOW_19 {#SHADOW-19}
 ```
@@ -166,7 +166,7 @@ public static int SHADOW_19
 ```
 
 
-Nineteenth shadow type.
+第十九影型。
 
 ### SHADOW_2 {#SHADOW-2}
 ```
@@ -174,7 +174,7 @@ public static int SHADOW_2
 ```
 
 
-Second shadow type.
+第二种阴影类型。
 
 ### SHADOW_20 {#SHADOW-20}
 ```
@@ -182,7 +182,7 @@ public static int SHADOW_20
 ```
 
 
-Twentieth shadow type.
+第二十阴影类型。
 
 ### SHADOW_21 {#SHADOW-21}
 ```
@@ -190,7 +190,7 @@ public static int SHADOW_21
 ```
 
 
-Twenty first shadow type.
+二十第一阴影类型。
 
 ### SHADOW_22 {#SHADOW-22}
 ```
@@ -198,7 +198,7 @@ public static int SHADOW_22
 ```
 
 
-Twenty second shadow type.
+二十秒阴影类型。
 
 ### SHADOW_23 {#SHADOW-23}
 ```
@@ -206,7 +206,7 @@ public static int SHADOW_23
 ```
 
 
-Twenty third shadow type.
+第二十三阴影类型。
 
 ### SHADOW_24 {#SHADOW-24}
 ```
@@ -214,7 +214,7 @@ public static int SHADOW_24
 ```
 
 
-Twenty forth shadow type.
+第二十阴影类型。
 
 ### SHADOW_25 {#SHADOW-25}
 ```
@@ -222,7 +222,7 @@ public static int SHADOW_25
 ```
 
 
-Twenty fifth shadow type.
+第二十五个阴影类型。
 
 ### SHADOW_26 {#SHADOW-26}
 ```
@@ -230,7 +230,7 @@ public static int SHADOW_26
 ```
 
 
-Twenty sixth shadow type.
+第二十六影型。
 
 ### SHADOW_27 {#SHADOW-27}
 ```
@@ -238,7 +238,7 @@ public static int SHADOW_27
 ```
 
 
-Twenty seventh shadow type.
+第二十七影型。
 
 ### SHADOW_28 {#SHADOW-28}
 ```
@@ -246,7 +246,7 @@ public static int SHADOW_28
 ```
 
 
-Twenty eighth shadow type.
+二十八影型。
 
 ### SHADOW_29 {#SHADOW-29}
 ```
@@ -254,7 +254,7 @@ public static int SHADOW_29
 ```
 
 
-Twenty ninth shadow type.
+第二十九影型。
 
 ### SHADOW_3 {#SHADOW-3}
 ```
@@ -262,7 +262,7 @@ public static int SHADOW_3
 ```
 
 
-Third shadow type.
+第三种阴影类型。
 
 ### SHADOW_30 {#SHADOW-30}
 ```
@@ -270,7 +270,7 @@ public static int SHADOW_30
 ```
 
 
-Thirtieth shadow type.
+第三十阴影类型。
 
 ### SHADOW_31 {#SHADOW-31}
 ```
@@ -278,7 +278,7 @@ public static int SHADOW_31
 ```
 
 
-Thirty first shadow type.
+三十第一阴影类型。
 
 ### SHADOW_32 {#SHADOW-32}
 ```
@@ -286,7 +286,7 @@ public static int SHADOW_32
 ```
 
 
-Thirty second shadow type.
+三十秒阴影类型。
 
 ### SHADOW_33 {#SHADOW-33}
 ```
@@ -294,7 +294,7 @@ public static int SHADOW_33
 ```
 
 
-Thirty third shadow type.
+第三十三阴影类型。
 
 ### SHADOW_34 {#SHADOW-34}
 ```
@@ -302,7 +302,7 @@ public static int SHADOW_34
 ```
 
 
-Thirty forth shadow type.
+第三十阴影类型。
 
 ### SHADOW_35 {#SHADOW-35}
 ```
@@ -310,7 +310,7 @@ public static int SHADOW_35
 ```
 
 
-Thirty fifth shadow type.
+第三十五个阴影类型。
 
 ### SHADOW_36 {#SHADOW-36}
 ```
@@ -318,7 +318,7 @@ public static int SHADOW_36
 ```
 
 
-Thirty sixth shadow type.
+第三十六影型。
 
 ### SHADOW_37 {#SHADOW-37}
 ```
@@ -326,7 +326,7 @@ public static int SHADOW_37
 ```
 
 
-Thirty seventh shadow type.
+第三十七影型。
 
 ### SHADOW_38 {#SHADOW-38}
 ```
@@ -334,7 +334,7 @@ public static int SHADOW_38
 ```
 
 
-Thirty eighth shadow type.
+第三十八个影子类型。
 
 ### SHADOW_39 {#SHADOW-39}
 ```
@@ -342,7 +342,7 @@ public static int SHADOW_39
 ```
 
 
-Thirty ninth shadow type.
+第三十九影型。
 
 ### SHADOW_4 {#SHADOW-4}
 ```
@@ -350,7 +350,7 @@ public static int SHADOW_4
 ```
 
 
-Fourth shadow type.
+第四种阴影类型。
 
 ### SHADOW_40 {#SHADOW-40}
 ```
@@ -358,7 +358,7 @@ public static int SHADOW_40
 ```
 
 
-Fortieth shadow type.
+第四十种阴影类型。
 
 ### SHADOW_41 {#SHADOW-41}
 ```
@@ -366,7 +366,7 @@ public static int SHADOW_41
 ```
 
 
-Forty first shadow type.
+四十第一阴影类型。
 
 ### SHADOW_42 {#SHADOW-42}
 ```
@@ -374,7 +374,7 @@ public static int SHADOW_42
 ```
 
 
-Forty second shadow type.
+四十秒阴影类型。
 
 ### SHADOW_43 {#SHADOW-43}
 ```
@@ -382,7 +382,7 @@ public static int SHADOW_43
 ```
 
 
-Forty third shadow type.
+第四十三阴影类型。
 
 ### SHADOW_5 {#SHADOW-5}
 ```
@@ -390,7 +390,7 @@ public static int SHADOW_5
 ```
 
 
-Fifth shadow type.
+第五种阴影类型。
 
 ### SHADOW_6 {#SHADOW-6}
 ```
@@ -398,7 +398,7 @@ public static int SHADOW_6
 ```
 
 
-Sixth shadow type.
+第六阴影类型。
 
 ### SHADOW_7 {#SHADOW-7}
 ```
@@ -406,7 +406,7 @@ public static int SHADOW_7
 ```
 
 
-Seventh shadow type.
+第七阴影类型。
 
 ### SHADOW_8 {#SHADOW-8}
 ```
@@ -414,7 +414,7 @@ public static int SHADOW_8
 ```
 
 
-Eighth shadow type.
+第八阴影类型。
 
 ### SHADOW_9 {#SHADOW-9}
 ```
@@ -422,7 +422,7 @@ public static int SHADOW_9
 ```
 
 
-Ninth shadow type.
+第九影型。
 
 ### SHADOW_MIXED {#SHADOW-MIXED}
 ```
@@ -430,7 +430,7 @@ public static int SHADOW_MIXED
 ```
 
 
-None of predefined shadow presets.
+没有预定义的阴影预设。
 
 ### length {#length}
 ```
@@ -446,52 +446,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String shadowTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String shadow类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String shadowTypeName)
+public static int fromName(String shadow类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shadowTypeName | java.lang.String |  |
+| shadow类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int shadowType) {#getName-int-}
-```
-public static String getName(int shadowType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int shadow类型) {#getName-int-}
+```
+public static String getName(int shadow类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shadowType | int |  |
+| shadow类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -501,8 +501,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -511,8 +511,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -537,22 +537,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int shadowType) {#toString-int-}
+### toString(int shadow类型) {#toString-int-}
 ```
-public static String toString(int shadowType)
+public static String toString(int shadow类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shadowType | int |  |
+| shadow类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -570,8 +570,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -583,9 +583,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

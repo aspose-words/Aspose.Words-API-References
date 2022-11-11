@@ -1,34 +1,34 @@
 ---
 title: MetafileRenderingMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words should render WMF and EMF metafiles.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
 type: docs
 weight: 396
-url: /java/com.aspose.words/metafilerenderingmode/
+url: /zh/java/com.aspose.words/metafilerenderingmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class MetafileRenderingMode
 ```
 
-Specifies how Aspose.Words should render WMF and EMF metafiles.
-## Fields
+指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BITMAP](#BITMAP) | Aspose.Words invokes GDI+ to render a metafile to a bitmap and then saves the bitmap to the output document. |
-| [VECTOR](#VECTOR) | Aspose.Words renders a metafile as vector graphics. |
-| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words tries to render a metafile as vector graphics. |
+| [BITMAP](#BITMAP) | Aspose.Words 调用 GDI+ 将元文件呈现为位图，然后将位图保存到输出文档。 |
+| [VECTOR](#VECTOR) | Aspose.Words 将元文件呈现为矢量图形。 |
+| [VECTOR_WITH_FALLBACK](#VECTOR-WITH-FALLBACK) | Aspose.Words 尝试将元文件呈现为矢量图形。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String metafileRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int metafileRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int BITMAP
 ```
 
 
-Aspose.Words invokes GDI+ to render a metafile to a bitmap and then saves the bitmap to the output document.
+Aspose.Words 调用 GDI+ 将元文件呈现为位图，然后将位图保存到输出文档。
 
 ### VECTOR {#VECTOR}
 ```
@@ -53,7 +53,7 @@ public static int VECTOR
 ```
 
 
-Aspose.Words renders a metafile as vector graphics.
+Aspose.Words 将元文件呈现为矢量图形。
 
 ### VECTOR_WITH_FALLBACK {#VECTOR-WITH-FALLBACK}
 ```
@@ -61,7 +61,7 @@ public static int VECTOR_WITH_FALLBACK
 ```
 
 
-Aspose.Words tries to render a metafile as vector graphics. If Aspose.Words cannot correctly render some of the metafile records to vector graphics then Aspose.Words renders this metafile to a bitmap.
+Aspose.Words 尝试将元文件呈现为矢量图形。如果 Aspose.Words 无法正确地将某些元文件记录呈现为矢量图形，那么 Aspose.Words 会将此元文件呈现为位图。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String metafileRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String metafileRenderingModeName)
@@ -92,23 +92,23 @@ public static int fromName(String metafileRenderingModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int metafileRenderingMode) {#getName-int-}
 ```
 public static String getName(int metafileRenderingMode)
@@ -117,12 +117,12 @@ public static String getName(int metafileRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int metafileRenderingMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int metafileRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | metafileRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,33 +1,33 @@
 ---
 title: EndnotePosition
-second_title: Aspose.Words for Java API Reference
-description: Defines the endnote position.
+second_title: Aspose.Words for Java API 参考
+description: 定义尾注位置。
 type: docs
 weight: 147
-url: /java/com.aspose.words/endnoteposition/
+url: /zh/java/com.aspose.words/endnoteposition/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class EndnotePosition
 ```
 
-Defines the endnote position.
-## Fields
+定义尾注位置。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [END_OF_DOCUMENT](#END-OF-DOCUMENT) | Endnotes are output at the end of the document. |
-| [END_OF_SECTION](#END-OF-SECTION) | Endnotes are output at the end of the section. |
+| [END_OF_DOCUMENT](#END-OF-DOCUMENT) | 尾注在文档末尾输出。 |
+| [END_OF_SECTION](#END-OF-SECTION) | 尾注在该部分的末尾输出。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String endnotePositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int endnotePosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int END_OF_DOCUMENT
 ```
 
 
-Endnotes are output at the end of the document.
+尾注在文档末尾输出。
 
 ### END_OF_SECTION {#END-OF-SECTION}
 ```
@@ -52,7 +52,7 @@ public static int END_OF_SECTION
 ```
 
 
-Endnotes are output at the end of the section.
+尾注在该部分的末尾输出。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String endnotePositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String endnotePositionName)
@@ -83,23 +83,23 @@ public static int fromName(String endnotePositionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | endnotePositionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int endnotePosition) {#getName-int-}
 ```
 public static String getName(int endnotePosition)
@@ -108,12 +108,12 @@ public static String getName(int endnotePosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | endnotePosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int endnotePosition) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int endnotePosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | endnotePosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,35 +1,35 @@
 ---
 title: AxisCrosses
-second_title: Aspose.Words for Java API Reference
-description: Specifies the possible crossing points for an axis.
+second_title: Aspose.Words for Java API 参考
+description: 指定轴的可能交叉点。
 type: docs
 weight: 19
-url: /java/com.aspose.words/axiscrosses/
+url: /zh/java/com.aspose.words/axiscrosses/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class AxisCrosses
 ```
 
-Specifies the possible crossing points for an axis.
-## Fields
+指定轴的可能交叉点。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AUTOMATIC](#AUTOMATIC) | The category axis crosses at the zero point of the value axis (if possible), or at the minimum value if the minimum is greater than zero, or at the maximum if the maximum is less than zero. |
-| [CUSTOM](#CUSTOM) | A perpendicular axis crosses at the specified value of the axis. |
-| [MAXIMUM](#MAXIMUM) | A perpendicular axis crosses at the maximum value of the axis. |
-| [MINIMUM](#MINIMUM) | A perpendicular axis crosses at the minimum value of the axis. |
+| [AUTOMATIC](#AUTOMATIC) | 类别轴在值轴的零点处交叉（如果可能），或者如果最小值大于零，则在最小值处相交，或者如果最大值小于零，则在最大值处相交。 |
+| [CUSTOM](#CUSTOM) | 垂直轴与轴的指定值相交。 |
+| [MAXIMUM](#MAXIMUM) | 垂直轴与该轴的最大值相交。 |
+| [MINIMUM](#MINIMUM) | 垂直轴与轴的最小值相交。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisCrossesName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int axisCrosses)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int AUTOMATIC
 ```
 
 
-The category axis crosses at the zero point of the value axis (if possible), or at the minimum value if the minimum is greater than zero, or at the maximum if the maximum is less than zero.
+类别轴在值轴的零点处交叉（如果可能），或者如果最小值大于零，则在最小值处相交，或者如果最大值小于零，则在最大值处相交。
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -54,7 +54,7 @@ public static int CUSTOM
 ```
 
 
-A perpendicular axis crosses at the specified value of the axis.
+垂直轴与轴的指定值相交。
 
 ### MAXIMUM {#MAXIMUM}
 ```
@@ -62,7 +62,7 @@ public static int MAXIMUM
 ```
 
 
-A perpendicular axis crosses at the maximum value of the axis.
+垂直轴与该轴的最大值相交。
 
 ### MINIMUM {#MINIMUM}
 ```
@@ -70,7 +70,7 @@ public static int MINIMUM
 ```
 
 
-A perpendicular axis crosses at the minimum value of the axis.
+垂直轴与轴的最小值相交。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String axisCrossesName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String axisCrossesName)
@@ -101,23 +101,23 @@ public static int fromName(String axisCrossesName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisCrossesName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int axisCrosses) {#getName-int-}
 ```
 public static String getName(int axisCrosses)
@@ -126,12 +126,12 @@ public static String getName(int axisCrosses)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisCrosses | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int axisCrosses) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int axisCrosses)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisCrosses | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

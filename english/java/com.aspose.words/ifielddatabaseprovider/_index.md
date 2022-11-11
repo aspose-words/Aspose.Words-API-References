@@ -1,36 +1,36 @@
 ---
-title: IFieldDatabaseProvider
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface to provide data for the  field when its updated.
+title: I字段DatabaseProvider
+second_title: Aspose.Words for Java API 参考
+description: 实现此接口以在字段更新时为其提供数据。
 type: docs
 weight: 640
-url: /java/com.aspose.words/ifielddatabaseprovider/
+url: /zh/java/com.aspose.words/ifielddatabaseprovider/
 ---
 ```
-public interface IFieldDatabaseProvider
+public interface I字段DatabaseProvider
 ```
 
-Implement this interface to provide data for the [FieldDatabase](../../com.aspose.words/fielddatabase) field when it's updated.
-## Methods
+实现此接口以提供数据[字段Database](../../com.aspose.words/fielddatabase)更新时的字段。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [getQueryResult(String fileName, String connection, String query, FieldDatabase field)](#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase-) | Returns query result. |
-### getQueryResult(String fileName, String connection, String query, FieldDatabase field) {#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.FieldDatabase-}
+| [getQueryResult(String fileName, String connection, String query, 字段Database field)](#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.字段Database-) | 返回查询结果。 |
+### getQueryResult(String fileName, String connection, String query, 字段Database field) {#getQueryResult-java.lang.String-java.lang.String-java.lang.String-com.aspose.words.字段Database-}
 ```
-public abstract FieldDatabaseDataTable getQueryResult(String fileName, String connection, String query, FieldDatabase field)
+public abstract 字段DatabaseDataTable getQueryResult(String fileName, String connection, String query, 字段Database field)
 ```
 
 
-Returns query result.
+返回查询结果。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The complete path and file name of the database specified in the \\d field switch. |
-| connection | java.lang.String | The connection to the data specified in the \\c field switch. |
-| query | java.lang.String | The set of SQL instructions that query the database specified in the \\s field switch. |
-| field | [FieldDatabase](../../com.aspose.words/fielddatabase) | The field being updated. |
+| fileName | java.lang.String | 中指定的数据库的完整路径和文件名\\d 字段切换。 |
+| connection | java.lang.String | 与指定数据的连接\\c 字段切换。 |
+| query | java.lang.String | 查询数据库中指定的 SQL 指令集\\s 字段切换。 |
+| field | [字段Database](../../com.aspose.words/fielddatabase) | 正在更新的字段。 |
 
-**Returns:**
-[FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) - The [FieldDatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) instance that should be used for the field's update.
+**退货:**
+[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable) - 这[字段DatabaseDataTable](../../com.aspose.words/fielddatabasedatatable)应该用于字段更新的实例。

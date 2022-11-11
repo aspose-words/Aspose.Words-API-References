@@ -1,43 +1,43 @@
 ---
 title: ForeignKeyConstraint
 second_title: Aspose.Words for Java API Reference
-description: Represents an action restriction enforced on a set of columns in a primary key/foreign key relationship when a value or row is either deleted or updated.
+description: 表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
 type: docs
 weight: 29
-url: /java/com.aspose.words.net.system.data/foreignkeyconstraint/
+url: /zh/java/com.aspose.words.net.system.data/foreignkeyconstraint/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.net.System.Data.Constraint](../../com.aspose.words.net.system.data/constraint)
 ```
 public class ForeignKeyConstraint extends System.Data.Constraint
 ```
 
-Represents an action restriction enforced on a set of columns in a primary key/foreign key relationship when a value or row is either deleted or updated.
-## Constructors
+表示在删除或更新值或行时对主键/外键关系中的一组列实施的操作限制。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [ForeignKeyConstraint(String constraintName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---) | Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified name, and arrays of parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
-| [ForeignKeyConstraint(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
-| [ForeignKeyConstraint(String constraintName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified name, parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
-## Methods
+| [ForeignKeyConstraint(String constraintName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---com.aspose.words.net.System.Data.DataColumn---) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称的类，以及父子数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
+| [ForeignKeyConstraint(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定父母和孩子的班级[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
+| [ForeignKeyConstraint(String constraintName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称、父级和子级的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [equals(Object key)](#equals-java.lang.Object-) | Gets a value indicating whether the current [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is identical to the specified object. |
-| [getClass()](#getClass--) |  |
-| [getColumns()](#getColumns--) | Gets the child columns of this constraint. |
-| [getConstraintName()](#getConstraintName--) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [getDeleteRule()](#getDeleteRule--) | Gets the action that occurs across this constraint when a row is deleted. |
-| [getRelatedColumns()](#getRelatedColumns--) | The parent columns of this constraint. |
-| [getRelatedTable()](#getRelatedTable--) | Gets the parent table of this constraint. |
-| [getTable()](#getTable--) | Gets the child table of this constraint. |
-| [getUpdateRule()](#getUpdateRule--) | Gets the action that occurs across this constraint on when a row is updated. |
+| [equals(Object key)](#equals-java.lang.Object-) | 获取一个值，该值指示当前是否[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)与指定的对象相同。 |
+| [get班级()](#get班级--) |  |
+| [getColumns()](#getColumns--) | 获取此约束的子列。 |
+| [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [getDeleteRule()](#getDeleteRule--) | 获取删除行时跨此约束发生的操作。 |
+| [getRelatedColumns()](#getRelatedColumns--) | 此约束的父列。 |
+| [getRelatedTable()](#getRelatedTable--) | 获取此约束的父表。 |
+| [getTable()](#getTable--) | 获取此约束的子表。 |
+| [getUpdateRule()](#getUpdateRule--) | 获取在更新行时跨此约束发生的操作。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,14 +48,14 @@ public ForeignKeyConstraint(String constraintName, System.Data.DataColumn[] pare
 ```
 
 
-Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified name, and arrays of parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
+初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称的类，以及父子数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constraintName | java.lang.String | The name of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint). If null or empty string, a default name will be given when added to the constraints collection. |
-| parentColumns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of parent [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
-| childColumns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
+| constraintName | java.lang.String | 的名称[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint).如果为 null 或空字符串，则在添加到约束集合时将给出默认名称。 |
+| parentColumns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 一个父数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
+| childColumns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 一组孩子[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
 
 ### ForeignKeyConstraint(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#ForeignKeyConstraint-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -63,13 +63,13 @@ public ForeignKeyConstraint(System.Data.DataColumn parentColumn, System.Data.Dat
 ```
 
 
-Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
+初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定父母和孩子的班级[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
-| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
+| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 父母[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
+| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 孩子[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
 
 ### ForeignKeyConstraint(String constraintName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#ForeignKeyConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -77,14 +77,14 @@ public ForeignKeyConstraint(String constraintName, System.Data.DataColumn parent
 ```
 
 
-Initializes a new instance of the [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) class with the specified name, parent and child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
+初始化一个新的实例[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)具有指定名称、父级和子级的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| constraintName | java.lang.String | The name of the constraint. |
-| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
-| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child [DataColumn](../../com.aspose.words.net.system.data/datacolumn) in the constraint. |
+| constraintName | java.lang.String | 约束的名称。 |
+| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 父母[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
+| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 孩子[DataColumn](../../com.aspose.words.net.system.data/datacolumn)在约束中。 |
 
 ### equals(Object key) {#equals-java.lang.Object-}
 ```
@@ -92,95 +92,95 @@ public boolean equals(Object key)
 ```
 
 
-Gets a value indicating whether the current [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is identical to the specified object.
+获取一个值，该值指示当前是否[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)与指定的对象相同。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| key | java.lang.Object | The object to which this [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) is compared. Two [ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint) are equal if they constrain the same columns. |
+| key | java.lang.Object | 这个对象[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)进行比较。二[ForeignKeyConstraint](../../com.aspose.words.net.system.data/foreignkeyconstraint)如果它们约束相同的列，则它们是相等的。 |
 
-**Returns:**
-boolean - true, if the objects are identical; otherwise, false.
-### getClass() {#getClass--}
+**退货:**
+boolean - 如果对象相同，则为 true；否则为假。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColumns() {#getColumns--}
 ```
 public System.Data.DataColumn[] getColumns()
 ```
 
 
-Gets the child columns of this constraint.
+获取此约束的子列。
 
-**Returns:**
-com.aspose.words.net.System.Data.DataColumn[] - An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects that are the child columns of the constraint.
+**退货:**
+com.aspose.words.net.System.Data.DataColumn[ ] - 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)作为约束的子列的对象。
 ### getConstraintName() {#getConstraintName--}
 ```
 public String getConstraintName()
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**Returns:**
-java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
+**退货:**
+java.lang.String - 的名称[Constraint](../../com.aspose.words.net.system.data/constraint).
 ### getDeleteRule() {#getDeleteRule--}
 ```
 public System.Data.Rule getDeleteRule()
 ```
 
 
-Gets the action that occurs across this constraint when a row is deleted.
+获取删除行时跨此约束发生的操作。
 
-**Returns:**
-[Rule](../../com.aspose.words.net.system.data/rule) - One of the [Rule](../../com.aspose.words.net.system.data/rule) values. The default is Cascade. The returned value is one of [Rule](../../com.aspose.words.net.system.data/rule) constants.
+**退货:**
+[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)价值观。默认值为级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
 ### getRelatedColumns() {#getRelatedColumns--}
 ```
 public System.Data.DataColumn[] getRelatedColumns()
 ```
 
 
-The parent columns of this constraint.
+此约束的父列。
 
-**Returns:**
-com.aspose.words.net.System.Data.DataColumn[] - An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects that are the parent columns of the constraint.
+**退货:**
+com.aspose.words.net.System.Data.DataColumn[ ] - 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)作为约束的父列的对象。
 ### getRelatedTable() {#getRelatedTable--}
 ```
 public System.Data.DataTable getRelatedTable()
 ```
 
 
-Gets the parent table of this constraint.
+获取此约束的父表。
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - The parent [DataTable](../../com.aspose.words.net.system.data/datatable) of this constraint.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 父母[DataTable](../../com.aspose.words.net.system.data/datatable)的这个约束。
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-Gets the child table of this constraint.
+获取此约束的子表。
 
-**Returns:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) that is the child table in the constraint.
+**退货:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)那是约束中的子表。
 ### getUpdateRule() {#getUpdateRule--}
 ```
 public System.Data.Rule getUpdateRule()
 ```
 
 
-Gets the action that occurs across this constraint on when a row is updated.
+获取在更新行时跨此约束发生的操作。
 
-**Returns:**
-[Rule](../../com.aspose.words.net.system.data/rule) - One of the [Rule](../../com.aspose.words.net.system.data/rule) values. The default is Cascade. The returned value is one of [Rule](../../com.aspose.words.net.system.data/rule) constants.
+**退货:**
+[Rule](../../com.aspose.words.net.system.data/rule) - 中的一个[Rule](../../com.aspose.words.net.system.data/rule)价值观。默认值为级联。返回值是以下之一[Rule](../../com.aspose.words.net.system.data/rule)常数。
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -189,8 +189,8 @@ public int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,12 +213,12 @@ public void setConstraintName(String value)
 ```
 
 
-The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
+| value | java.lang.String | 的名称[Constraint](../../com.aspose.words.net.system.data/constraint). |
 
 ### toString() {#toString--}
 ```
@@ -228,7 +228,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,9 +259,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

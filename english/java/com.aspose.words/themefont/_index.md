@@ -1,34 +1,34 @@
 ---
 title: ThemeFont
 second_title: Aspose.Words for Java API Reference
-description: Specifies the types of theme font names for document themes.
+description: 指定文档主题的主题字体名称类型。
 type: docs
 weight: 576
-url: /java/com.aspose.words/themefont/
+url: /zh/java/com.aspose.words/themefont/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ThemeFont
 ```
 
-Specifies the types of theme font names for document themes. Specifies a theme font type which can be referenced as a theme font within the parent object properties. This theme font is a reference to one of the predefined theme fonts, located in the document's Theme part, which allows for font information to be set centrally in the document.
-## Fields
+指定文档主题的主题字体名称类型。指定可以在父对象属性中作为主题字体引用的主题字体类型。此主题字体是对位于文档的主题部分中的预定义主题字体之一的引用，它允许在文档中集中设置字体信息。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [MAJOR](#MAJOR) | Major theme font. |
-| [MINOR](#MINOR) | Minor theme font. |
-| [NONE](#NONE) | No theme font. |
+| [MAJOR](#MAJOR) | 主要主题字体。 |
+| [MINOR](#MINOR) | 次要主题字体。 |
+| [NONE](#NONE) | 没有主题字体。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String themeFontName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int themeFont)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int MAJOR
 ```
 
 
-Major theme font.
+主要主题字体。
 
 ### MINOR {#MINOR}
 ```
@@ -53,7 +53,7 @@ public static int MINOR
 ```
 
 
-Minor theme font.
+次要主题字体。
 
 ### NONE {#NONE}
 ```
@@ -61,7 +61,7 @@ public static int NONE
 ```
 
 
-No theme font.
+没有主题字体。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String themeFontName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String themeFontName)
@@ -92,23 +92,23 @@ public static int fromName(String themeFontName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | themeFontName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int themeFont) {#getName-int-}
 ```
 public static String getName(int themeFont)
@@ -117,12 +117,12 @@ public static String getName(int themeFont)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | themeFont | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int themeFont) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int themeFont)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | themeFont | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

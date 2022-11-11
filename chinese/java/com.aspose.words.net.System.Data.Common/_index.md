@@ -1,7 +1,7 @@
 ---
 title: com.aspose.words.net.System.Data.Common
 second_title: Aspose.Words for Java API 参考
-description:提供模仿 Java 中 System.Data.Common 命名空间的 .NET 类型的类型。
+description: 提供模仿 Java 中 System.Data.Common 命名空间的 .NET 类型的类型。
 type: docs
 weight: 13
 url: /zh/java/com.aspose.words.net.system.data.common/

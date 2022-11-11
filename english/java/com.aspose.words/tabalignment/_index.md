@@ -1,38 +1,38 @@
 ---
 title: TabAlignment
 second_title: Aspose.Words for Java API Reference
-description: Specifies the alignment/type of a tab stop.
+description: 指定制表位的对齐方式/类型。
 type: docs
 weight: 544
-url: /java/com.aspose.words/tabalignment/
+url: /zh/java/com.aspose.words/tabalignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TabAlignment
 ```
 
-Specifies the alignment/type of a tab stop.
-## Fields
+指定制表位的对齐方式/类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BAR](#BAR) | Draws a vertical bar at the tab stop position. |
-| [CENTER](#CENTER) | Centers the text around the tab stop. |
-| [CLEAR](#CLEAR) | Clears any tab stop in this position. |
-| [DECIMAL](#DECIMAL) | Aligns the text at the decimal dot. |
-| [LEFT](#LEFT) | Left-aligns the text after the tab stop. |
-| [LIST](#LIST) | The tab is a delimiter between the number/bullet and text in a list item. |
-| [RIGHT](#RIGHT) | Right-aligns the text at the tab stop. |
+| [BAR](#BAR) | 在制表位位置绘制竖线。 |
+| [CENTER](#CENTER) | 使文本围绕制表位居中。 |
+| [CLEAR](#CLEAR) | 清除此位置的任何制表位。 |
+| [DECIMAL](#DECIMAL) | 在小数点处对齐文本。 |
+| [LEFT](#LEFT) | 将制表位后的文本左对齐。 |
+| [LIST](#LIST) | 制表符是列表项中数字/项目符号和文本之间的分隔符。 |
+| [RIGHT](#RIGHT) | 右对齐制表位处的文本。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int tabAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public static int BAR
 ```
 
 
-Draws a vertical bar at the tab stop position.
+在制表位位置绘制竖线。
 
 ### CENTER {#CENTER}
 ```
@@ -57,7 +57,7 @@ public static int CENTER
 ```
 
 
-Centers the text around the tab stop.
+使文本围绕制表位居中。
 
 ### CLEAR {#CLEAR}
 ```
@@ -65,7 +65,7 @@ public static int CLEAR
 ```
 
 
-Clears any tab stop in this position.
+清除此位置的任何制表位。
 
 ### DECIMAL {#DECIMAL}
 ```
@@ -73,7 +73,7 @@ public static int DECIMAL
 ```
 
 
-Aligns the text at the decimal dot.
+在小数点处对齐文本。
 
 ### LEFT {#LEFT}
 ```
@@ -81,7 +81,7 @@ public static int LEFT
 ```
 
 
-Left-aligns the text after the tab stop.
+将制表位后的文本左对齐。
 
 ### LIST {#LIST}
 ```
@@ -89,7 +89,7 @@ public static int LIST
 ```
 
 
-The tab is a delimiter between the number/bullet and text in a list item.
+制表符是列表项中数字/项目符号和文本之间的分隔符。
 
 ### RIGHT {#RIGHT}
 ```
@@ -97,7 +97,7 @@ public static int RIGHT
 ```
 
 
-Right-aligns the text at the tab stop.
+右对齐制表位处的文本。
 
 ### length {#length}
 ```
@@ -113,13 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String tabAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tabAlignmentName)
@@ -128,23 +128,23 @@ public static int fromName(String tabAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int tabAlignment) {#getName-int-}
 ```
 public static String getName(int tabAlignment)
@@ -153,12 +153,12 @@ public static String getName(int tabAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -168,8 +168,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,8 +178,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int tabAlignment) {#toString-int-}
 ```
@@ -214,12 +214,12 @@ public static String toString(int tabAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tabAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,9 +250,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

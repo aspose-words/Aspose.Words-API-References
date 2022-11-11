@@ -1,36 +1,36 @@
 ---
 title: AxisTickLabelPosition
-second_title: Aspose.Words for Java API Reference
-description: Specifies the possible positions for tick labels.
+second_title: Aspose.Words for Java API 参考
+description: 指定刻度标签的可能位置。
 type: docs
 weight: 23
-url: /java/com.aspose.words/axisticklabelposition/
+url: /zh/java/com.aspose.words/axisticklabelposition/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class AxisTickLabelPosition
 ```
 
-Specifies the possible positions for tick labels.
-## Fields
+指定刻度标签的可能位置。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Specifies default value of tick labels position. |
-| [HIGH](#HIGH) | Specifies the axis labels shall be at the high end of the perpendicular axis. |
-| [LOW](#LOW) | Specifies the axis labels shall be at the low end of the perpendicular axis. |
-| [NEXT_TO_AXIS](#NEXT-TO-AXIS) | Specifies the axis labels shall be next to the axis. |
-| [NONE](#NONE) | Specifies the axis labels are not drawn. |
+| [DEFAULT](#DEFAULT) | 指定刻度标签位置的默认值。 |
+| [HIGH](#HIGH) | 指定轴标签应位于垂直轴的高端。 |
+| [LOW](#LOW) | 指定轴标签应位于垂直轴的低端。 |
+| [NEXT_TO_AXIS](#NEXT-TO-AXIS) | 指定轴标签应位于轴旁边。 |
+| [NONE](#NONE) | 指定不绘制轴标签。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTickLabelPositionName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int axisTickLabelPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-Specifies default value of tick labels position.
+指定刻度标签位置的默认值。
 
 ### HIGH {#HIGH}
 ```
@@ -55,7 +55,7 @@ public static int HIGH
 ```
 
 
-Specifies the axis labels shall be at the high end of the perpendicular axis.
+指定轴标签应位于垂直轴的高端。
 
 ### LOW {#LOW}
 ```
@@ -63,7 +63,7 @@ public static int LOW
 ```
 
 
-Specifies the axis labels shall be at the low end of the perpendicular axis.
+指定轴标签应位于垂直轴的低端。
 
 ### NEXT_TO_AXIS {#NEXT-TO-AXIS}
 ```
@@ -71,7 +71,7 @@ public static int NEXT_TO_AXIS
 ```
 
 
-Specifies the axis labels shall be next to the axis.
+指定轴标签应位于轴旁边。
 
 ### NONE {#NONE}
 ```
@@ -79,7 +79,7 @@ public static int NONE
 ```
 
 
-Specifies the axis labels are not drawn.
+指定不绘制轴标签。
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String axisTickLabelPositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String axisTickLabelPositionName)
@@ -110,23 +110,23 @@ public static int fromName(String axisTickLabelPositionName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisTickLabelPositionName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int axisTickLabelPosition) {#getName-int-}
 ```
 public static String getName(int axisTickLabelPosition)
@@ -135,12 +135,12 @@ public static String getName(int axisTickLabelPosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisTickLabelPosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int axisTickLabelPosition) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int axisTickLabelPosition)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | axisTickLabelPosition | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,9 +232,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,38 +1,38 @@
 ---
 title: FontConfigSubstitutionRule
-second_title: Aspose.Words for Java API Reference
-description: Font config substitution rule.
+second_title: Aspose.Words for Java API 参考
+description: 字体配置替换规则。
 type: docs
 weight: 276
-url: /java/com.aspose.words/fontconfigsubstitutionrule/
+url: /zh/java/com.aspose.words/fontconfigsubstitutionrule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class FontConfigSubstitutionRule extends FontSubstitutionRule
 ```
 
-Font config substitution rule.
+字体配置替换规则。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-This rule uses fontconfig utility on Linux (and other Unix-like) platforms to get the substitution if the original font is not available.
+如果原始字体不可用，此规则使用 Linux（和其他类 Unix）平台上的 fontconfig 实用程序来获取替换。
 
-If fontconfig utility is not available then this rule will be ignored.
-## Methods
+如果 fontconfig 实用程序不可用，则此规则将被忽略。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
+| [get班级()](#get班级--) |  |
+| [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
 | [hashCode()](#hashCode--) |  |
-| [isFontConfigAvailable()](#isFontConfigAvailable--) | Check if fontconfig utility is available or not. |
+| [isFontConfigAvailable()](#isFontConfigAvailable--) | 检查 fontconfig 实用程序是否可用。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [resetCache()](#resetCache--) | Resets the cache of fontconfig calling results. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
+| [resetCache()](#resetCache--) | 重置 fontconfig 调用结果的缓存。 |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | 指定是否启用规则。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,33 +45,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -80,18 +80,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isFontConfigAvailable() {#isFontConfigAvailable--}
 ```
 public boolean isFontConfigAvailable()
 ```
 
 
-Check if fontconfig utility is available or not.
+检查 fontconfig 实用程序是否可用。
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,7 +114,7 @@ public void resetCache()
 ```
 
 
-Resets the cache of fontconfig calling results.
+重置 fontconfig 调用结果的缓存。
 
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
@@ -122,12 +122,12 @@ public void setEnabled(boolean value)
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -137,7 +137,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -155,8 +155,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -168,9 +168,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

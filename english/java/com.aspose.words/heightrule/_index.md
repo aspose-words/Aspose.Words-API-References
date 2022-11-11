@@ -1,34 +1,34 @@
 ---
 title: HeightRule
-second_title: Aspose.Words for Java API Reference
-description: Specifies the rule for determining the height of an object.
+second_title: Aspose.Words for Java API 参考
+description: 指定确定对象高度的规则。
 type: docs
 weight: 319
-url: /java/com.aspose.words/heightrule/
+url: /zh/java/com.aspose.words/heightrule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class HeightRule
 ```
 
-Specifies the rule for determining the height of an object.
-## Fields
+指定确定对象高度的规则。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AT_LEAST](#AT-LEAST) | The height will be at least the specified height in points. |
-| [AUTO](#AUTO) | The height will grow automatically to accommodate all text inside an object. |
-| [EXACTLY](#EXACTLY) | The height is specified exactly in points. |
+| [AT_LEAST](#AT-LEAST) | 高度将至少是指定的高度（以磅为单位）。 |
+| [AUTO](#AUTO) | 高度将自动增加以容纳对象内的所有文本。 |
+| [EXACTLY](#EXACTLY) | 高度以磅为单位精确指定。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String heightRuleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int heightRule)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int AT_LEAST
 ```
 
 
-The height will be at least the specified height in points. It will grow, if needed, to accommodate all text inside an object.
+高度将至少是指定的高度（以磅为单位）。如果需要，它将增长以容纳对象内的所有文本。
 
 ### AUTO {#AUTO}
 ```
@@ -53,7 +53,7 @@ public static int AUTO
 ```
 
 
-The height will grow automatically to accommodate all text inside an object.
+高度将自动增加以容纳对象内的所有文本。
 
 ### EXACTLY {#EXACTLY}
 ```
@@ -61,7 +61,7 @@ public static int EXACTLY
 ```
 
 
-The height is specified exactly in points. Please note that if the text cannot fit inside the object of this height, it will appear truncated.
+高度以磅为单位精确指定。请注意，如果文本无法容纳在此高度的对象内，它将被截断。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String heightRuleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String heightRuleName)
@@ -92,23 +92,23 @@ public static int fromName(String heightRuleName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | heightRuleName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int heightRule) {#getName-int-}
 ```
 public static String getName(int heightRule)
@@ -117,12 +117,12 @@ public static String getName(int heightRule)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | heightRule | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int heightRule) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int heightRule)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | heightRule | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

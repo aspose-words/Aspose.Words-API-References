@@ -1,84 +1,84 @@
 ---
-title: FieldIndex
-second_title: Aspose.Words for Java API Reference
-description: Implements the INDEX field.
+title: 字段Index
+second_title: Aspose.Words for Java API 参考
+description: 实现 INDEX 字段。
 type: docs
 weight: 206
-url: /java/com.aspose.words/fieldindex/
+url: /zh/java/com.aspose.words/fieldindex/
 ---
 
-**Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+**遗产:**
+java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
 ```
-public class FieldIndex extends Field
+public class 字段Index extends 字段
 ```
 
-Implements the INDEX field.
+实现 INDEX 字段。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-Builds an index using the index entries specified by XE fields, and inserts that index at this place in the document.
-## Methods
+使用 XE 字段指定的索引条目构建索引，并将该索引插入文档中的此位置。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarkName()](#getBookmarkName--) | Gets the name of the bookmark that marks the portion of the document used to build the index. |
-| [getClass()](#getClass--) |  |
-| [getCrossReferenceSeparator()](#getCrossReferenceSeparator--) | Gets the character sequence that is used to separate cross references and other entries. |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getEntryType()](#getEntryType--) | Gets an index entry type used to build the index. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getHeading()](#getHeading--) | Gets a heading that appears at the start of each set of entries for any given letter. |
-| [getLanguageId()](#getLanguageId--) | Gets the language ID used to generate the index. |
-| [getLetterRange()](#getLetterRange--) | Gets a range of letters to which limit the index. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getNumberOfColumns()](#getNumberOfColumns--) | Gets the number of columns per page used when building the index. |
-| [getPageNumberListSeparator()](#getPageNumberListSeparator--) | Gets the character sequence that is used to separate two page numbers in a page number list. |
-| [getPageNumberSeparator()](#getPageNumberSeparator--) | Gets the character sequence that is used to separate an index entry and its page number. |
-| [getPageRangeSeparator()](#getPageRangeSeparator--) | Gets the character sequence that is used to separate the start and end of a page range. |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getRunSubentriesOnSameLine()](#getRunSubentriesOnSameLine--) | Gets whether run subentries into the same line as the main entry. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getSequenceName()](#getSequenceName--) | Gets the name of a sequence whose number is included with the page number. |
-| [getSequenceSeparator()](#getSequenceSeparator--) | Gets the character sequence that is used to separate sequence numbers and page numbers. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
-| [getUseYomi()](#getUseYomi--) | Gets whether to enable the use of yomi text for index entries. |
-| [hasPageNumberSeparator()](#hasPageNumberSeparator--) | Gets a value indicating whether a page number separator is overridden through the field's code. |
-| [hasSequenceName()](#hasSequenceName--) | Gets a value indicating whether a sequence should be used while the field's result building. |
+| [getBookmarkName()](#getBookmarkName--) | 获取标记用于构建索引的文档部分的书签的名称。 |
+| [get班级()](#get班级--) |  |
+| [getCrossReferenceSeparator()](#getCrossReferenceSeparator--) | 获取用于分隔交叉引用和其他条目的字符序列。 |
+| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
+| [getEntry类型()](#getEntry类型--) | 获取用于构建索引的索引条目类型。 |
+| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getHeading()](#getHeading--) | 获取出现在任何给定字母的每组条目开头的标题。 |
+| [getLanguageId()](#getLanguageId--) | 获取用于生成索引的语言 ID。 |
+| [getLetterRange()](#getLetterRange--) | 获取限制索引的字母范围。 |
+| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
+| [getNumberOfColumns()](#getNumberOfColumns--) | 获取构建索引时使用的每页的列数。 |
+| [getPageNumberListSeparator()](#getPageNumberListSeparator--) | 获取用于分隔页码列表中两个页码的字符序列。 |
+| [getPageNumberSeparator()](#getPageNumberSeparator--) | 获取用于分隔索引条目及其页码的字符序列。 |
+| [getPageRangeSeparator()](#getPageRangeSeparator--) | 获取用于分隔页面范围的开始和结束的字符序列。 |
+| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
+| [getRunSubentriesOnSameLine()](#getRunSubentriesOnSameLine--) | 获取是否将子条目运行到与主条目相同的行中。 |
+| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getSequenceName()](#getSequenceName--) | 获取其编号包含在页码中的序列的名称。 |
+| [getSequenceSeparator()](#getSequenceSeparator--) | 获取用于分隔序号和页码的字符序列。 |
+| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
+| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getUseYomi()](#getUseYomi--) | 获取是否为索引条目启用 yomi 文本。 |
+| [hasPageNumberSeparator()](#hasPageNumberSeparator--) | 获取一个值，该值指示是否通过字段的代码覆盖页码分隔符。 |
+| [hasSequenceName()](#hasSequenceName--) | 获取一个值，该值指示在构建字段结果时是否应使用序列。 |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
+| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | Sets the name of the bookmark that marks the portion of the document used to build the index. |
-| [setCrossReferenceSeparator(String value)](#setCrossReferenceSeparator-java.lang.String-) | Sets the character sequence that is used to separate cross references and other entries. |
-| [setEntryType(String value)](#setEntryType-java.lang.String-) | Sets an index entry type used to build the index. |
-| [setHeading(String value)](#setHeading-java.lang.String-) | Sets a heading that appears at the start of each set of entries for any given letter. |
-| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | Sets the language ID used to generate the index. |
-| [setLetterRange(String value)](#setLetterRange-java.lang.String-) | Sets a range of letters to which limit the index. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setNumberOfColumns(String value)](#setNumberOfColumns-java.lang.String-) | Sets the number of columns per page used when building the index. |
-| [setPageNumberListSeparator(String value)](#setPageNumberListSeparator-java.lang.String-) | Sets the character sequence that is used to separate two page numbers in a page number list. |
-| [setPageNumberSeparator(String value)](#setPageNumberSeparator-java.lang.String-) | Sets the character sequence that is used to separate an index entry and its page number. |
-| [setPageRangeSeparator(String value)](#setPageRangeSeparator-java.lang.String-) | Sets the character sequence that is used to separate the start and end of a page range. |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [setRunSubentriesOnSameLine(boolean value)](#setRunSubentriesOnSameLine-boolean-) | Sets whether run subentries into the same line as the main entry. |
-| [setSequenceName(String value)](#setSequenceName-java.lang.String-) | Sets the name of a sequence whose number is included with the page number. |
-| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String-) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
-| [setUseYomi(boolean value)](#setUseYomi-boolean-) | Sets whether to enable the use of yomi text for index entries. |
+| [remove()](#remove--) | 从文档中删除字段。 |
+| [setBookmarkName(String value)](#setBookmarkName-java.lang.String-) | 设置标记用于构建索引的文档部分的书签的名称。 |
+| [setCrossReferenceSeparator(String value)](#setCrossReferenceSeparator-java.lang.String-) | 设置用于分隔交叉引用和其他条目的字符序列。 |
+| [setEntry类型(String value)](#setEntry类型-java.lang.String-) | 设置用于构建索引的索引条目类型。 |
+| [setHeading(String value)](#setHeading-java.lang.String-) | 为任何给定字母设置出现在每组条目开头的标题。 |
+| [setLanguageId(String value)](#setLanguageId-java.lang.String-) | 设置用于生成索引的语言 ID。 |
+| [setLetterRange(String value)](#setLetterRange-java.lang.String-) | 设置限制索引的字母范围。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
+| [setNumberOfColumns(String value)](#setNumberOfColumns-java.lang.String-) | 设置构建索引时使用的每页的列数。 |
+| [setPageNumberListSeparator(String value)](#setPageNumberListSeparator-java.lang.String-) | 设置用于分隔页码列表中两个页码的字符序列。 |
+| [setPageNumberSeparator(String value)](#setPageNumberSeparator-java.lang.String-) | 设置用于分隔索引条目及其页码的字符序列。 |
+| [setPageRangeSeparator(String value)](#setPageRangeSeparator-java.lang.String-) | 设置用于分隔页面范围的开始和结束的字符序列。 |
+| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
+| [setRunSubentriesOnSameLine(boolean value)](#setRunSubentriesOnSameLine-boolean-) | 设置是否将子条目运行到与主条目相同的行中。 |
+| [setSequenceName(String value)](#setSequenceName-java.lang.String-) | 设置其编号包含在页码中的序列的名称。 |
+| [setSequenceSeparator(String value)](#setSequenceSeparator-java.lang.String-) | 设置用于分隔序号和页码的字符序列。 |
+| [setUseYomi(boolean value)](#setUseYomi-boolean-) | 设置是否为索引条目启用 yomi 文本。 |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [unlink()](#unlink--) | 执行字段取消链接。 |
+| [update()](#update--) | 执行字段更新。 |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -90,303 +90,303 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBookmarkName() {#getBookmarkName--}
 ```
 public String getBookmarkName()
 ```
 
 
-Gets the name of the bookmark that marks the portion of the document used to build the index.
+获取标记用于构建索引的文档部分的书签的名称。
 
-**Returns:**
-java.lang.String - The name of the bookmark that marks the portion of the document used to build the index.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 标记用于构建索引的文档部分的书签的名称。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCrossReferenceSeparator() {#getCrossReferenceSeparator--}
 ```
 public String getCrossReferenceSeparator()
 ```
 
 
-Gets the character sequence that is used to separate cross references and other entries.
+获取用于分隔交叉引用和其他条目的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate cross references and other entries.
+**退货:**
+java.lang.String - 用于分隔交叉引用和其他条目的字符序列。
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
-**Returns:**
-java.lang.String - The text that represents the displayed field result.
+**退货:**
+java.lang.String - 表示显示的字段结果的文本。
 ### getEnd() {#getEnd--}
 ```
-public FieldEnd getEnd()
+public 字段End getEnd()
 ```
 
 
-Gets the node that represents the field end.
+获取表示字段结束的节点。
 
-**Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
-### getEntryType() {#getEntryType--}
+**退货:**
+[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+### getEntry类型() {#getEntry类型--}
 ```
-public String getEntryType()
-```
-
-
-Gets an index entry type used to build the index.
-
-**Returns:**
-java.lang.String - An index entry type used to build the index.
-### getFieldCode() {#getFieldCode--}
-```
-public String getFieldCode()
+public String getEntry类型()
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+获取用于构建索引的索引条目类型。
 
-**Returns:**
+**退货:**
+java.lang.String - 用于构建索引的索引条目类型。
+### get字段Code() {#get字段Code--}
+```
+public String get字段Code()
+```
+
+
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+
+**退货:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
 ```
-public String getFieldCode(boolean includeChildFieldCodes)
+public String get字段Code(boolean includeChild字段Codes)
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator).
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public FieldFormat getFormat()
+public 字段Format getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
-**Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+**退货:**
+[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getHeading() {#getHeading--}
 ```
 public String getHeading()
 ```
 
 
-Gets a heading that appears at the start of each set of entries for any given letter.
+获取出现在任何给定字母的每组条目开头的标题。
 
-**Returns:**
-java.lang.String - A heading that appears at the start of each set of entries for any given letter.
+**退货:**
+java.lang.String - 出现在任何给定字母的每组条目开头的标题。
 ### getLanguageId() {#getLanguageId--}
 ```
 public String getLanguageId()
 ```
 
 
-Gets the language ID used to generate the index.
+获取用于生成索引的语言 ID。
 
-**Returns:**
-java.lang.String - The language ID used to generate the index.
+**退货:**
+java.lang.String - 用于生成索引的语言 ID。
 ### getLetterRange() {#getLetterRange--}
 ```
 public String getLetterRange()
 ```
 
 
-Gets a range of letters to which limit the index.
+获取限制索引的字母范围。
 
-**Returns:**
-java.lang.String - A range of letters to which limit the index.
+**退货:**
+java.lang.String - 限制索引的字母范围。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the LCID of the field.
+获取字段的 LCID。
 
-**Returns:**
-int - The LCID of the field.
+**退货:**
+int - 字段的 LCID。
 ### getNumberOfColumns() {#getNumberOfColumns--}
 ```
 public String getNumberOfColumns()
 ```
 
 
-Gets the number of columns per page used when building the index.
+获取构建索引时使用的每页的列数。
 
-**Returns:**
-java.lang.String - The number of columns per page used when building the index.
+**退货:**
+java.lang.String - 构建索引时每页使用的列数。
 ### getPageNumberListSeparator() {#getPageNumberListSeparator--}
 ```
 public String getPageNumberListSeparator()
 ```
 
 
-Gets the character sequence that is used to separate two page numbers in a page number list.
+获取用于分隔页码列表中两个页码的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate two page numbers in a page number list.
+**退货:**
+java.lang.String - 用于分隔页码列表中两个页码的字符序列。
 ### getPageNumberSeparator() {#getPageNumberSeparator--}
 ```
 public String getPageNumberSeparator()
 ```
 
 
-Gets the character sequence that is used to separate an index entry and its page number.
+获取用于分隔索引条目及其页码的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate an index entry and its page number.
+**退货:**
+java.lang.String - 用于分隔索引条目及其页码的字符序列。
 ### getPageRangeSeparator() {#getPageRangeSeparator--}
 ```
 public String getPageRangeSeparator()
 ```
 
 
-Gets the character sequence that is used to separate the start and end of a page range.
+获取用于分隔页面范围的开始和结束的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate the start and end of a page range.
+**退货:**
+java.lang.String - 用于分隔页面范围的开始和结束的字符序列。
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-Gets text that is between the field separator and field end.
+获取字段分隔符和字段结尾之间的文本。
 
-**Returns:**
-java.lang.String - Text that is between the field separator and field end.
+**退货:**
+java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getRunSubentriesOnSameLine() {#getRunSubentriesOnSameLine--}
 ```
 public boolean getRunSubentriesOnSameLine()
 ```
 
 
-Gets whether run subentries into the same line as the main entry.
+获取是否将子条目运行到与主条目相同的行中。
 
-**Returns:**
-boolean - Whether run subentries into the same line as the main entry.
+**退货:**
+boolean - 是否将子条目运行到与主条目相同的行中。
 ### getSeparator() {#getSeparator--}
 ```
-public FieldSeparator getSeparator()
+public 字段Separator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+获取表示字段分隔符的节点。可以为空。
 
-**Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+**退货:**
+[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getSequenceName() {#getSequenceName--}
 ```
 public String getSequenceName()
 ```
 
 
-Gets the name of a sequence whose number is included with the page number.
+获取其编号包含在页码中的序列的名称。
 
-**Returns:**
-java.lang.String - The name of a sequence whose number is included with the page number.
+**退货:**
+java.lang.String - 序列的名称，其编号包含在页码中。
 ### getSequenceSeparator() {#getSequenceSeparator--}
 ```
 public String getSequenceSeparator()
 ```
 
 
-Gets the character sequence that is used to separate sequence numbers and page numbers.
+获取用于分隔序号和页码的字符序列。
 
-**Returns:**
-java.lang.String - The character sequence that is used to separate sequence numbers and page numbers.
+**退货:**
+java.lang.String - 用于分隔序列号和页码的字符序列。
 ### getStart() {#getStart--}
 ```
-public FieldStart getStart()
+public 字段Start getStart()
 ```
 
 
-Gets the node that represents the start of the field.
+获取表示字段开始的节点。
 
-**Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+**退货:**
+[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
 ```
-public int getSwitchType(String switchName)
+public int getSwitch类型(String switchName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**Returns:**
-int
-### getType() {#getType--}
+**退货:**
+整数
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the Microsoft Word field type.
+获取 Microsoft Word 字段类型。
 
-**Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+**退货:**
+ int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
 ### getUseYomi() {#getUseYomi--}
 ```
 public boolean getUseYomi()
 ```
 
 
-Gets whether to enable the use of yomi text for index entries.
+获取是否为索引条目启用 yomi 文本。
 
-**Returns:**
-boolean - Whether to enable the use of yomi text for index entries.
+**退货:**
+boolean - 是否为索引条目启用 yomi 文本。
 ### hasPageNumberSeparator() {#hasPageNumberSeparator--}
 ```
 public boolean hasPageNumberSeparator()
 ```
 
 
-Gets a value indicating whether a page number separator is overridden through the field's code.
+获取一个值，该值指示是否通过字段的代码覆盖页码分隔符。
 
-**Returns:**
-boolean - A value indicating whether a page number separator is overridden through the field's code.
+**退货:**
+boolean - 一个值，指示是否通过字段的代码覆盖页码分隔符。
 ### hasSequenceName() {#hasSequenceName--}
 ```
 public boolean hasSequenceName()
 ```
 
 
-Gets a value indicating whether a sequence should be used while the field's result building.
+获取一个值，该值指示在构建字段结果时是否应使用序列。
 
-**Returns:**
-boolean - A value indicating whether a sequence should be used while the field's result building.
+**退货:**
+boolean - 一个值，指示在构建字段结果时是否应使用序列。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -395,30 +395,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
 
-**Returns:**
-boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+**退货:**
+boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -426,22 +426,22 @@ public boolean isLocked()
 ```
 
 
-Gets whether the field is locked (should not recalculate its result).
+获取字段是否被锁定（不应重新计算其结果）。
 
-**Returns:**
-boolean - Whether the field is locked (should not recalculate its result).
+**退货:**
+boolean - 字段是否被锁定（不应重新计算其结果）。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Sets whether the field is locked (should not recalculate its result).
+设置字段是否被锁定（不应重新计算其结果）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the field is locked (should not recalculate its result). |
+| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
 
 ### notify() {#notify--}
 ```
@@ -465,9 +465,9 @@ public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### setBookmarkName(String value) {#setBookmarkName-java.lang.String-}
 ```
@@ -475,12 +475,12 @@ public void setBookmarkName(String value)
 ```
 
 
-Sets the name of the bookmark that marks the portion of the document used to build the index.
+设置标记用于构建索引的文档部分的书签的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the bookmark that marks the portion of the document used to build the index. |
+| value | java.lang.String | 标记用于构建索引的文档部分的书签的名称。 |
 
 ### setCrossReferenceSeparator(String value) {#setCrossReferenceSeparator-java.lang.String-}
 ```
@@ -488,25 +488,25 @@ public void setCrossReferenceSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate cross references and other entries.
+设置用于分隔交叉引用和其他条目的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate cross references and other entries. |
+| value | java.lang.String | 用于分隔交叉引用和其他条目的字符序列。 |
 
-### setEntryType(String value) {#setEntryType-java.lang.String-}
+### setEntry类型(String value) {#setEntry类型-java.lang.String-}
 ```
-public void setEntryType(String value)
+public void setEntry类型(String value)
 ```
 
 
-Sets an index entry type used to build the index.
+设置用于构建索引的索引条目类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | An index entry type used to build the index. |
+| value | java.lang.String | 用于构建索引的索引条目类型。 |
 
 ### setHeading(String value) {#setHeading-java.lang.String-}
 ```
@@ -514,12 +514,12 @@ public void setHeading(String value)
 ```
 
 
-Sets a heading that appears at the start of each set of entries for any given letter.
+为任何给定字母设置出现在每组条目开头的标题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | A heading that appears at the start of each set of entries for any given letter. |
+| value | java.lang.String | 出现在任何给定字母的每组条目开头的标题。 |
 
 ### setLanguageId(String value) {#setLanguageId-java.lang.String-}
 ```
@@ -527,12 +527,12 @@ public void setLanguageId(String value)
 ```
 
 
-Sets the language ID used to generate the index.
+设置用于生成索引的语言 ID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The language ID used to generate the index. |
+| value | java.lang.String | 用于生成索引的语言 ID。 |
 
 ### setLetterRange(String value) {#setLetterRange-java.lang.String-}
 ```
@@ -540,12 +540,12 @@ public void setLetterRange(String value)
 ```
 
 
-Sets a range of letters to which limit the index.
+设置限制索引的字母范围。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | A range of letters to which limit the index. |
+| value | java.lang.String | 限制索引的字母范围。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -553,12 +553,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the LCID of the field.
+设置字段的 LCID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The LCID of the field. |
+| value | int | 字段的 LCID。 |
 
 ### setNumberOfColumns(String value) {#setNumberOfColumns-java.lang.String-}
 ```
@@ -566,12 +566,12 @@ public void setNumberOfColumns(String value)
 ```
 
 
-Sets the number of columns per page used when building the index.
+设置构建索引时使用的每页的列数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The number of columns per page used when building the index. |
+| value | java.lang.String | 构建索引时使用的每页的列数。 |
 
 ### setPageNumberListSeparator(String value) {#setPageNumberListSeparator-java.lang.String-}
 ```
@@ -579,12 +579,12 @@ public void setPageNumberListSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate two page numbers in a page number list.
+设置用于分隔页码列表中两个页码的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate two page numbers in a page number list. |
+| value | java.lang.String | 用于分隔页码列表中两个页码的字符序列。 |
 
 ### setPageNumberSeparator(String value) {#setPageNumberSeparator-java.lang.String-}
 ```
@@ -592,12 +592,12 @@ public void setPageNumberSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate an index entry and its page number.
+设置用于分隔索引条目及其页码的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate an index entry and its page number. |
+| value | java.lang.String | 用于分隔索引条目及其页码的字符序列。 |
 
 ### setPageRangeSeparator(String value) {#setPageRangeSeparator-java.lang.String-}
 ```
@@ -605,12 +605,12 @@ public void setPageRangeSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate the start and end of a page range.
+设置用于分隔页面范围的开始和结束的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate the start and end of a page range. |
+| value | java.lang.String | 用于分隔页面范围的开始和结束的字符序列。 |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -618,12 +618,12 @@ public void setResult(String value)
 ```
 
 
-Sets text that is between the field separator and field end.
+设置字段分隔符和字段结尾之间的文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Text that is between the field separator and field end. |
+| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
 
 ### setRunSubentriesOnSameLine(boolean value) {#setRunSubentriesOnSameLine-boolean-}
 ```
@@ -631,12 +631,12 @@ public void setRunSubentriesOnSameLine(boolean value)
 ```
 
 
-Sets whether run subentries into the same line as the main entry.
+设置是否将子条目运行到与主条目相同的行中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether run subentries into the same line as the main entry. |
+| value | boolean | 是否将子条目运行到与主条目相同的行中。 |
 
 ### setSequenceName(String value) {#setSequenceName-java.lang.String-}
 ```
@@ -644,12 +644,12 @@ public void setSequenceName(String value)
 ```
 
 
-Sets the name of a sequence whose number is included with the page number.
+设置其编号包含在页码中的序列的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of a sequence whose number is included with the page number. |
+| value | java.lang.String | 其编号包含在页码中的序列的名称。 |
 
 ### setSequenceSeparator(String value) {#setSequenceSeparator-java.lang.String-}
 ```
@@ -657,12 +657,12 @@ public void setSequenceSeparator(String value)
 ```
 
 
-Sets the character sequence that is used to separate sequence numbers and page numbers.
+设置用于分隔序号和页码的字符序列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The character sequence that is used to separate sequence numbers and page numbers. |
+| value | java.lang.String | 用于分隔序号和页码的字符序列。 |
 
 ### setUseYomi(boolean value) {#setUseYomi-boolean-}
 ```
@@ -670,12 +670,12 @@ public void setUseYomi(boolean value)
 ```
 
 
-Sets whether to enable the use of yomi text for index entries.
+设置是否为索引条目启用 yomi 文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to enable the use of yomi text for index entries. |
+| value | boolean | 是否为索引条目启用 yomi 文本。 |
 
 ### toString() {#toString--}
 ```
@@ -685,7 +685,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -693,21 +693,21 @@ public boolean unlink()
 ```
 
 
-Performs the field unlink.
+执行字段取消链接。
 
-Replaces the field with its most recent result.
+用其最新结果替换该字段。
 
-Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
-**Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
+**退货:**
+布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-Performs the field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -715,12 +715,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-Performs a field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```
@@ -738,8 +738,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -751,9 +751,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

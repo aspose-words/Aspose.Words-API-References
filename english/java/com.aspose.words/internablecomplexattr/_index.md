@@ -1,32 +1,32 @@
 ---
 title: InternableComplexAttr
-second_title: Aspose.Words for Java API Reference
-description: Base class for internable complex attribute.
+second_title: Aspose.Words for Java API 参考
+description: 可内部复杂属性的基类。
 type: docs
 weight: 351
-url: /java/com.aspose.words/internablecomplexattr/
+url: /zh/java/com.aspose.words/internablecomplexattr/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public abstract class InternableComplexAttr
 ```
 
-Base class for internable complex attribute. Internable complex attribute should notify parent collection when going to be changed.
+可内部复杂属性的基类。可交互的复杂属性应在更改时通知父集合。
 
-To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
-## Constructors
+要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
 | [InternableComplexAttr()](#InternableComplexAttr--) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -48,23 +48,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -73,8 +73,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -99,7 +99,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -117,8 +117,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -130,9 +130,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

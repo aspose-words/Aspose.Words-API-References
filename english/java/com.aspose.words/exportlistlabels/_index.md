@@ -1,34 +1,34 @@
 ---
 title: ExportListLabels
-second_title: Aspose.Words for Java API Reference
-description: Specifies how list labels are exported to HTML MHTML and EPUB.
+second_title: Aspose.Words for Java API 参考
+description: 指定如何将列表标签导出为 HTML MHTML 和 EPUB。
 type: docs
 weight: 150
-url: /java/com.aspose.words/exportlistlabels/
+url: /zh/java/com.aspose.words/exportlistlabels/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ExportListLabels
 ```
 
-Specifies how list labels are exported to HTML, MHTML and EPUB.
-## Fields
+指定如何将列表标签导出为 HTML、MHTML 和 EPUB。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AS_INLINE_TEXT](#AS-INLINE-TEXT) | Outputs all list labels as inline text. |
-| [AUTO](#AUTO) | Outputs list labels in auto mode. |
-| [BY_HTML_TAGS](#BY-HTML-TAGS) | Outputs all list labels as HTML native elements. |
+| [AS_INLINE_TEXT](#AS-INLINE-TEXT) | 将所有列表标签输出为内联文本。 |
+| [AUTO](#AUTO) | 在自动模式下输出列表标签。 |
+| [BY_HTML_TAGS](#BY-HTML-TAGS) | 将所有列表标签输出为 HTML 原生元素。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String exportListLabelsName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int exportListLabels)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,9 +45,9 @@ public static int AS_INLINE_TEXT
 ```
 
 
-Outputs all list labels as inline text. HTML
+将所有列表标签输出为内联文本。 HTML
 
-tag is used for any list label representation.
+tag 用于任何列表标签表示。
 
 ### AUTO {#AUTO}
 ```
@@ -55,11 +55,11 @@ public static int AUTO
 ```
 
 
-Outputs list labels in auto mode. Uses HTML native elements when possible. HTML
+在自动模式下输出列表标签。尽可能使用 HTML 原生元素。 HTML
 
- *  tags are used for list label representation if it doesn't cause formatting loss, otherwise the HTML
+ *  标签用于列表标签表示，如果它不会导致格式丢失，否则 HTML
     
-    tag is used.
+    使用标签。
 
 ### BY_HTML_TAGS {#BY-HTML-TAGS}
 ```
@@ -67,9 +67,9 @@ public static int BY_HTML_TAGS
 ```
 
 
-Outputs all list labels as HTML native elements. HTML
+将所有列表标签输出为 HTML 原生元素。 HTML
 
- *  tags are used for list label representation. Some formatting loss is possible.
+ *  标签用于列表标签表示。一些格式丢失是可能的。
 
 ### length {#length}
 ```
@@ -85,13 +85,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String exportListLabelsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String exportListLabelsName)
@@ -100,23 +100,23 @@ public static int fromName(String exportListLabelsName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabelsName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int exportListLabels) {#getName-int-}
 ```
 public static String getName(int exportListLabels)
@@ -125,12 +125,12 @@ public static String getName(int exportListLabels)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabels | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -140,8 +140,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -150,8 +150,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -176,7 +176,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int exportListLabels) {#toString-int-}
 ```
@@ -186,12 +186,12 @@ public static String toString(int exportListLabels)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | exportListLabels | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,9 +222,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

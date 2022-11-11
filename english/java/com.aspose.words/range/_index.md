@@ -1,51 +1,51 @@
 ---
 title: Range
-second_title: Aspose.Words for Java API Reference
-description: Represents a contiguous area in a document.
+second_title: Aspose.Words for Java API 参考
+description: 表示文档中的一个连续区域。
 type: docs
 weight: 472
-url: /java/com.aspose.words/range/
+url: /zh/java/com.aspose.words/range/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Range
 ```
 
-Represents a contiguous area in a document.
+表示文档中的一个连续区域。
 
-To learn more, visit the **Working with Ranges** documentation article.
+要了解更多信息，请访问**Working with Ranges**文档文章。
 
-The document is represented by a tree of nodes and the nodes provide operations to work with the tree, but some operations are easier to perform if the document is treated as a contiguous sequence of text.
+文档由节点树表示，节点提供与树一起使用的操作，但如果将文档视为连续的文本序列，则某些操作更容易执行。
 
-**Range** is a "facade" interface that provide methods that treat the document or portions of the document as "flat" text regardless of the fact that the document nodes are stored in a tree-like object model.
+**Range**是一个“外观”接口，它提供将文档或文档部分视为“平面”文本的方法，而不管文档节点是否存储在树状对象模型中。
 
-**Range** does not contain any text or nodes, it is merely a view or "window" over a fragment of a document.
-## Methods
+**Range**不包含任何文本或节点，它只是文档片段上的视图或“窗口”。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [delete()](#delete--) | Deletes all characters of the range. |
+| [delete()](#delete--) | 删除范围内的所有字符。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarks()](#getBookmarks--) | Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range. |
-| [getClass()](#getClass--) |  |
-| [getFields()](#getFields--) | Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range. |
-| [getFormFields()](#getFormFields--) | Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range. |
-| [getStructuredDocumentTags()](#getStructuredDocumentTags--) | Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range. |
-| [getText()](#getText--) | Gets the text of the range. |
+| [getBookmarks()](#getBookmarks--) | 返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。 |
+| [get班级()](#get班级--) |  |
+| [get字段()](#get字段--) | 返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。 |
+| [getForm字段()](#getForm字段--) | 返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。 |
+| [getStructuredDocumentTags()](#getStructuredDocumentTags--) | 返回一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。 |
+| [getText()](#getText--) | 获取范围的文本。 |
 | [hashCode()](#hashCode--) |  |
-| [normalizeFieldTypes()](#normalizeFieldTypes--) | Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes. |
+| [normalize字段类型s()](#normalize字段类型s--) | 更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在此范围内，以便它们对应于域代码中包含的域类型。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a specified character string pattern with a replacement string. |
-| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |
-| [toDocument()](#toDocument--) | Constructs a new fully formed document that contains the range. |
+| [replace(String pattern, String replacement)](#replace-java.lang.String-java.lang.String-) | 用替换字符串替换所有出现的指定字符串模式。 |
+| [replace(String pattern, String replacement, FindReplaceOptions options)](#replace-java.lang.String-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用替换字符串替换所有出现的指定字符串模式。 |
+| [replace(Pattern pattern, String replacement)](#replace-java.util.regex.Pattern-java.lang.String-) | 用另一个字符串替换所有出现的由正则表达式指定的字符模式。 |
+| [replace(Pattern pattern, String replacement, FindReplaceOptions options)](#replace-java.util.regex.Pattern-java.lang.String-com.aspose.words.FindReplaceOptions-) | 用另一个字符串替换所有出现的由正则表达式指定的字符模式。 |
+| [toDocument()](#toDocument--) | 构造一个包含范围的新完整文档。 |
 | [toString()](#toString--) |  |
-| [unlinkFields()](#unlinkFields--) | Unlinks fields in this range. |
-| [updateFields()](#updateFields--) | Updates the values of document fields in this range. |
+| [unlink字段()](#unlink字段--) | 取消链接此范围内的字段。 |
+| [update字段()](#update字段--) | 更新此范围内文档字段的值。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -55,7 +55,7 @@ public void delete()
 ```
 
 
-Deletes all characters of the range.
+删除范围内的所有字符。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -65,75 +65,75 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBookmarks() {#getBookmarks--}
 ```
 public BookmarkCollection getBookmarks()
 ```
 
 
-Returns a [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
+返回一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。
 
-**Returns:**
-[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - A [getBookmarks()](../../com.aspose.words/range\#getBookmarks--) collection that represents all bookmarks in the range.
-### getClass() {#getClass--}
+**退货:**
+[BookmarkCollection](../../com.aspose.words/bookmarkcollection) - 一个[getBookmarks()](../../com.aspose.words/range\#getBookmarks--)表示范围内所有书签的集合。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getFields() {#getFields--}
-```
-public FieldCollection getFields()
+public final native 班级<?> get班级()
 ```
 
 
-Returns a [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
 
-**Returns:**
-[FieldCollection](../../com.aspose.words/fieldcollection) - A [getFields()](../../com.aspose.words/range\#getFields--) collection that represents all fields in the range.
-### getFormFields() {#getFormFields--}
+
+**退货:**
+java.lang.班级<?>
+### get字段() {#get字段--}
 ```
-public FormFieldCollection getFormFields()
+public 字段Collection get字段()
 ```
 
 
-Returns a [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
+返回一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
 
-**Returns:**
-[FormFieldCollection](../../com.aspose.words/formfieldcollection) - A [getFormFields()](../../com.aspose.words/range\#getFormFields--) collection that represents all form fields in the range.
+**退货:**
+[字段Collection](../../com.aspose.words/fieldcollection) - 一个[get字段()](../../com.aspose.words/range\#get字段--)表示范围内所有字段的集合。
+### getForm字段() {#getForm字段--}
+```
+public Form字段Collection getForm字段()
+```
+
+
+返回一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
+
+**退货:**
+[Form字段Collection](../../com.aspose.words/formfieldcollection) - 一个[getForm字段()](../../com.aspose.words/range\#getForm字段--)表示范围内所有表单字段的集合。
 ### getStructuredDocumentTags() {#getStructuredDocumentTags--}
 ```
 public StructuredDocumentTagCollection getStructuredDocumentTags()
 ```
 
 
-Returns a [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
+返回一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。
 
-**Returns:**
-[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - A [getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--) collection that represents all structured document tags in the range.
+**退货:**
+[StructuredDocumentTagCollection](../../com.aspose.words/structureddocumenttagcollection) - 一个[getStructuredDocumentTags()](../../com.aspose.words/range\#getStructuredDocumentTags--)表示范围内所有结构化文档标签的集合。
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-Gets the text of the range.
+获取范围的文本。
 
-The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
+返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
 
-**Returns:**
-java.lang.String - The text of the range.
+**退货:**
+java.lang.String - 范围的文本。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,19 +142,19 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
-### normalizeFieldTypes() {#normalizeFieldTypes--}
+**退货:**
+整数
+### normalize字段类型s() {#normalize字段类型s--}
 ```
-public void normalizeFieldTypes()
+public void normalize字段类型s()
 ```
 
 
-Changes field type values [FieldChar.getFieldType()](../../com.aspose.words/fieldchar\#getFieldType--) of [FieldStart](../../com.aspose.words/fieldstart), [FieldSeparator](../../com.aspose.words/fieldseparator), [FieldEnd](../../com.aspose.words/fieldend) in this range so that they correspond to the field types contained in the field codes.
+更改字段类型值[字段Char.get字段类型()](../../com.aspose.words/fieldchar\#get字段类型--)的[字段Start](../../com.aspose.words/fieldstart), [字段Separator](../../com.aspose.words/fieldseparator), [字段End](../../com.aspose.words/fieldend)在此范围内，以便它们对应于域代码中包含的域类型。
 
-Use this method after document changes that affect field types.
+在影响字段类型的文档更改后使用此方法。
 
-To change field type values in the whole document use [Document.normalizeFieldTypes()](../../com.aspose.words/document\#normalizeFieldTypes--).
+要更改整个文档中的字段类型值，请使用[Document.normalize字段类型s()](../../com.aspose.words/document\#normalize字段类型s--).
 
 ### notify() {#notify--}
 ```
@@ -178,31 +178,31 @@ public int replace(String pattern, String replacement)
 ```
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+用替换字符串替换所有出现的指定字符串模式。
 
-The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String-) if you need regular expressions.
+该模式不会用作正则表达式。请用[replace(java.util.regex.Pattern, java.lang.String)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String-)如果你需要正则表达式。
 
-Used case-insensitive comparison.
+使用不区分大小写的比较。
 
-Method is able to process breaks in both pattern and replacement strings.
+方法能够处理模式和替换字符串中的中断。
 
-You should use special meta-characters if you need to work with breaks:
+如果您需要使用中断，您应该使用特殊的元字符：
 
- *  **&p** \- paragraph break
- *  **&b** \- section break
- *  **&m** \- page break
- *  **&l** \- manual line break
+ *  **&p** \- 段落中断
+ *  **&b** \分节符
+ *  **&m** \分页符
+ *  **&l** \手动换行
 
-Use method [replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-) to have more flexible customization.
+使用方法[replace(java.lang.String, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.lang.String--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | java.lang.String | A string to be replaced. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+| pattern | java.lang.String | 要替换的字符串。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
 
-**Returns:**
-int - The number of replacements made.
+**退货:**
+int - 替换的次数。
 
 ```
 
@@ -220,29 +220,29 @@ public int replace(String pattern, String replacement, FindReplaceOptions option
 ```
 
 
-Replaces all occurrences of a specified character string pattern with a replacement string.
+用替换字符串替换所有出现的指定字符串模式。
 
-The pattern will not be used as regular expression. Please use [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-) if you need regular expressions.
+该模式不会用作正则表达式。请用[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)如果你需要正则表达式。
 
-Method is able to process breaks in both pattern and replacement strings.
+方法能够处理模式和替换字符串中的中断。
 
-You should use special meta-characters if you need to work with breaks:
+如果您需要使用中断，您应该使用特殊的元字符：
 
- *  **&p** \- paragraph break
- *  **&b** \- section break
- *  **&m** \- page break
- *  **&l** \- manual line break
- *  **&&** \- & character
+ *  **&p** \- 段落中断
+ *  **&b** \分节符
+ *  **&m** \分页符
+ *  **&l** \手动换行
+ *  **&&** \- ＆ 特点
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | java.lang.String | A string to be replaced. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
+| pattern | java.lang.String | 要替换的字符串。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
 
-**Returns:**
-int - The number of replacements made.
+**退货:**
+int - 替换的次数。
 
 ```
 
@@ -260,29 +260,29 @@ public int replace(Pattern pattern, String replacement)
 ```
 
 
-Replaces all occurrences of a character pattern specified by a regular expression with another string.
+用另一个字符串替换所有出现的由正则表达式指定的字符模式。
 
-Replaces the whole match captured by the regular expression.
+替换正则表达式捕获的整个匹配项。
 
-Method is able to process breaks in both pattern and replacement strings.
+方法能够处理模式和替换字符串中的中断。
 
-You should use special meta-characters if you need to work with breaks:
+如果您需要使用中断，您应该使用特殊的元字符：
 
- *  **&p** \- paragraph break
- *  **&b** \- section break
- *  **&m** \- page break
- *  **&l** \- manual line break
+ *  **&p** \- 段落中断
+ *  **&b** \分节符
+ *  **&m** \分页符
+ *  **&l** \手动换行
 
-Use method [replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-) to have more flexible customization.
+使用方法[replace(java.util.regex.Pattern, java.lang.String, com.aspose.words.FindReplaceOptions)](../../com.aspose.words/range\#replace-java.util.regex.Pattern--java.lang.String--com.aspose.words.FindReplaceOptions-)进行更灵活的定制。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
+| pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
 
-**Returns:**
-int - The number of replacements made.
+**退货:**
+int - 替换的次数。
 
 ```
 
@@ -300,29 +300,29 @@ public int replace(Pattern pattern, String replacement, FindReplaceOptions optio
 ```
 
 
-Replaces all occurrences of a character pattern specified by a regular expression with another string.
+用另一个字符串替换所有出现的由正则表达式指定的字符模式。
 
-Replaces the whole match captured by the regular expression.
+替换正则表达式捕获的整个匹配项。
 
-Method is able to process breaks in both pattern and replacement strings.
+方法能够处理模式和替换字符串中的中断。
 
-You should use special meta-characters if you need to work with breaks:
+如果您需要使用中断，您应该使用特殊的元字符：
 
- *  **&p** \- paragraph break
- *  **&b** \- section break
- *  **&m** \- page break
- *  **&l** \- manual line break
- *  **&&** \- & character
+ *  **&p** \- 段落中断
+ *  **&b** \分节符
+ *  **&m** \分页符
+ *  **&l** \手动换行
+ *  **&&** \- ＆ 特点
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| pattern | java.util.regex.Pattern | A regular expression pattern used to find matches. |
-| replacement | java.lang.String | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions) object to specify additional options. |
+| pattern | java.util.regex.Pattern | 用于查找匹配项的正则表达式模式。 |
+| replacement | java.lang.String | 替换所有出现的模式的字符串。 |
+| options | [FindReplaceOptions](../../com.aspose.words/findreplaceoptions) | \{[FindReplaceOptions](../../com.aspose.words/findreplaceoptions)对象以指定其他选项。 |
 
-**Returns:**
-int - The number of replacements made.
+**退货:**
+int - 替换的次数。
 
 ```
 
@@ -340,9 +340,9 @@ public Document toDocument()
 ```
 
 
-Constructs a new fully formed document that contains the range.
+构造一个包含范围的新完整文档。
 
-**Returns:**
+**退货:**
 [Document](../../com.aspose.words/document)
 ### toString() {#toString--}
 ```
@@ -352,37 +352,37 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### unlinkFields() {#unlinkFields--}
+### unlink字段() {#unlink字段--}
 ```
-public void unlinkFields()
-```
-
-
-Unlinks fields in this range.
-
-Replaces all the fields in this range with their most recent results.
-
-To unlink fields in the whole document use [unlinkFields()](../../com.aspose.words/range\#unlinkFields--).
-
-### updateFields() {#updateFields--}
-```
-public void updateFields()
+public void unlink字段()
 ```
 
 
-Updates the values of document fields in this range.
+取消链接此范围内的字段。
 
-When you open, modify and then save a document, Aspose.Words does not update fields automatically, it keeps them intact. Therefore, you would usually want to call this method before saving if you have modified the document programmatically and want to make sure the proper (calculated) field values appear in the saved document.
+将此范围内的所有字段替换为其最近的结果。
 
-There is no need to update fields after executing a mail merge because mail merge is a kind of field update and automatically updates all fields in the document.
+要取消链接整个文档中的字段，请使用[unlink字段()](../../com.aspose.words/range\#unlink字段--).
 
-This method does not update all field types. For the detailed list of supported field types, see the Programmers Guide.
+### update字段() {#update字段--}
+```
+public void update字段()
+```
 
-This method does not update fields that are related to the page layout algorithms (e.g. PAGE, PAGES, PAGEREF). The page layout-related fields are updated when you render a document or call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
 
-To update fields in the whole document use [Document.updateFields()](../../com.aspose.words/document\#updateFields--).
+更新此范围内文档字段的值。
+
+当您打开、修改并保存文档时，Aspose.Words 不会自动更新字段，它会保持它们完好无损。因此，如果您以编程方式修改了文档并希望确保正确的（计算的）字段值出现在保存的文档中，则通常需要在保存之前调用此方法。
+
+执行邮件合并后不需要更新字段，因为邮件合并是一种字段更新，会自动更新文档中的所有字段。
+
+此方法不会更新所有字段类型。有关支持的字段类型的详细列表，请参阅程序员指南。
+
+此方法不会更新与页面布局算法相关的字段（例如 PAGE、PAGES、PAGEREF）。渲染文档或调用时更新页面布局相关字段[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+
+要更新整个文档中的字段，请使用[Document.update字段()](../../com.aspose.words/document\#update字段--).
 
 ### wait() {#wait--}
 ```
@@ -400,8 +400,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -413,9 +413,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

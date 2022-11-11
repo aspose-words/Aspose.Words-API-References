@@ -1,38 +1,38 @@
 ---
 title: WebExtensionReference
 second_title: Aspose.Words for Java API Reference
-description: Represents the reference to a web extension.
+description: 表示对 Web 扩展的引用。
 type: docs
 weight: 617
-url: /java/com.aspose.words/webextensionreference/
+url: /zh/java/com.aspose.words/webextensionreference/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WebExtensionReference
 ```
 
-Represents the reference to a web extension. The reference is used to identify the provider location and version of the extension.
+表示对 Web 扩展的引用。该引用用于标识提供程序的位置和扩展的版本。
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Office Add-ins**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getId()](#getId--) | Identifier associated with the web extension within a catalog provider. |
-| [getStore()](#getStore--) | Specifies the instance of the marketplace where the web extension is stored. |
-| [getStoreType()](#getStoreType--) | Specifies the type of marketplace. |
-| [getVersion()](#getVersion--) | Specifies the version of the web extension. |
+| [get班级()](#get班级--) |  |
+| [getId()](#getId--) | 与目录提供程序中的 Web 扩展关联的标识符。 |
+| [getStore()](#getStore--) | 指定存储 Web 扩展的市场实例。 |
+| [getStore类型()](#getStore类型--) | 指定市场的类型。 |
+| [getVersion()](#getVersion--) | 指定 Web 扩展的版本。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setId(String value)](#setId-java.lang.String-) | Identifier associated with the web extension within a catalog provider. |
-| [setStore(String value)](#setStore-java.lang.String-) | Specifies the instance of the marketplace where the web extension is stored. |
-| [setStoreType(int value)](#setStoreType-int-) | Specifies the type of marketplace. |
-| [setVersion(String value)](#setVersion-java.lang.String-) | Specifies the version of the web extension. |
+| [setId(String value)](#setId-java.lang.String-) | 与目录提供程序中的 Web 扩展关联的标识符。 |
+| [setStore(String value)](#setStore-java.lang.String-) | 指定存储 Web 扩展的市场实例。 |
+| [setStore类型(int value)](#setStore类型-int-) | 指定市场的类型。 |
+| [setVersion(String value)](#setVersion-java.lang.String-) | 指定 Web 扩展的版本。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,63 +45,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getId() {#getId--}
 ```
 public String getId()
 ```
 
 
-Identifier associated with the web extension within a catalog provider.
+与目录提供程序中的 Web 扩展关联的标识符。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getStore() {#getStore--}
 ```
 public String getStore()
 ```
 
 
-Specifies the instance of the marketplace where the web extension is stored.
+指定存储 Web 扩展的市场实例。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
-### getStoreType() {#getStoreType--}
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
+### getStore类型() {#getStore类型--}
 ```
-public int getStoreType()
+public int getStore类型()
 ```
 
 
-Specifies the type of marketplace.
+指定市场的类型。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[WebExtensionStore类型](../../com.aspose.words/webextensionstoretype)常数。
 ### getVersion() {#getVersion--}
 ```
 public String getVersion()
 ```
 
 
-Specifies the version of the web extension.
+指定 Web 扩展的版本。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -110,8 +110,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -134,12 +134,12 @@ public void setId(String value)
 ```
 
 
-Identifier associated with the web extension within a catalog provider.
+与目录提供程序中的 Web 扩展关联的标识符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setStore(String value) {#setStore-java.lang.String-}
 ```
@@ -147,25 +147,25 @@ public void setStore(String value)
 ```
 
 
-Specifies the instance of the marketplace where the web extension is stored.
+指定存储 Web 扩展的市场实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
-### setStoreType(int value) {#setStoreType-int-}
+### setStore类型(int value) {#setStore类型-int-}
 ```
-public void setStoreType(int value)
+public void setStore类型(int value)
 ```
 
 
-Specifies the type of marketplace.
+指定市场的类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [WebExtensionStoreType](../../com.aspose.words/webextensionstoretype) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionStore类型](../../com.aspose.words/webextensionstoretype)常数。 |
 
 ### setVersion(String value) {#setVersion-java.lang.String-}
 ```
@@ -173,12 +173,12 @@ public void setVersion(String value)
 ```
 
 
-Specifies the version of the web extension.
+指定 Web 扩展的版本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### toString() {#toString--}
 ```
@@ -188,7 +188,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -206,8 +206,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -219,9 +219,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

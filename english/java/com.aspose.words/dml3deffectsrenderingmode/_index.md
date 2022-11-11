@@ -1,33 +1,33 @@
 ---
 title: Dml3DEffectsRenderingMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how 3D shape effects are rendered.
+second_title: Aspose.Words for Java API 参考
+description: 指定如何渲染 3D 形状效果。
 type: docs
 weight: 116
-url: /java/com.aspose.words/dml3deffectsrenderingmode/
+url: /zh/java/com.aspose.words/dml3deffectsrenderingmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class Dml3DEffectsRenderingMode
 ```
 
-Specifies how 3D shape effects are rendered.
-## Fields
+指定如何渲染 3D 形状效果。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ADVANCED](#ADVANCED) | Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. |
-| [BASIC](#BASIC) | A lightweight and stable rendering, based on the internal engine, but advanced effects such as lighting, materials and other additional effects are not displayed when using this mode. |
+| [ADVANCED](#ADVANCED) | 渲染扩展的特殊效果列表，包括高级 3D 效果，例如斜面、照明和材质。 |
+| [BASIC](#BASIC) | 轻量级且稳定的渲染，基于内部引擎，但在使用此模式时不显示高级效果，如照明、材质和其他附加效果。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dml3DEffectsRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int dml3DEffectsRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int ADVANCED
 ```
 
 
-Rendering of an extended list of special effects including advanced 3D effects such as bevels, lighting and materials. The current implementation uses OpenGL. Please make sure that OpenGL library version 1.1 or higher is installed on your system before use. This mode is still under development, and some things may not be supported, so it's recommended to use the [BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC) mode if the rendering result is not acceptable. Please see documentation for details.
+渲染扩展的特殊效果列表，包括高级 3D 效果，例如斜面、照明和材质。当前的实现使用 OpenGL。使用前请确保您的系统上安装了 OpenGL 库版本 1.1 或更高版本。这个模式还在开发中，可能有些东西不支持，推荐使用[BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC)如果渲染结果不可接受，则为模式。有关详细信息，请参阅文档。
 
 ### BASIC {#BASIC}
 ```
@@ -52,7 +52,7 @@ public static int BASIC
 ```
 
 
-A lightweight and stable rendering, based on the internal engine, but advanced effects such as lighting, materials and other additional effects are not displayed when using this mode. Please see documentation for details.
+轻量级且稳定的渲染，基于内部引擎，但在使用此模式时不显示高级效果，如照明、材质和其他附加效果。有关详细信息，请参阅文档。
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String dml3DEffectsRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String dml3DEffectsRenderingModeName)
@@ -83,23 +83,23 @@ public static int fromName(String dml3DEffectsRenderingModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dml3DEffectsRenderingModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int dml3DEffectsRenderingMode) {#getName-int-}
 ```
 public static String getName(int dml3DEffectsRenderingMode)
@@ -108,12 +108,12 @@ public static String getName(int dml3DEffectsRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dml3DEffectsRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int dml3DEffectsRenderingMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int dml3DEffectsRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dml3DEffectsRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

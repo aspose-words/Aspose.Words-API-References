@@ -1,49 +1,49 @@
 ---
-title: BuildingBlockType
-second_title: Aspose.Words for Java API Reference
-description: Specifies a building block type.
+title: BuildingBlock类型
+second_title: Aspose.Words for Java API 参考
+description: 指定构建块类型。
 type: docs
 weight: 45
-url: /java/com.aspose.words/buildingblocktype/
+url: /zh/java/com.aspose.words/buildingblocktype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class BuildingBlockType
+public class BuildingBlock类型
 ```
 
-Specifies a building block type. The type might affect the visibility and behavior of the building block in Microsoft Word.
+指定构建块类型。该类型可能会影响 Microsoft Word 中构建基块的可见性和行为。
 
-Corresponds to the **ST\_DocPartType** type in OOXML.
-## Fields
+对应于**ST\_DocPart类型**输入 OOXML。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ALL](#ALL) | The building block is associated with all types. |
-| [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | Allows the building block to be automatically inserted into the document whenever its name is entered into an application. |
-| [AUTO_CORRECT](#AUTO-CORRECT) | The building block is associated with the spelling and grammar tools. |
-| [AUTO_TEXT](#AUTO-TEXT) | The building block is an AutoText entry. |
-| [DEFAULT](#DEFAULT) | Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE). |
-| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | The building block is a form field help text. |
-| [NONE](#NONE) | No type information is specified for the building block. |
-| [NORMAL](#NORMAL) | The building block is a normal (i.e. |
-| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | The building block is a structured document tag placeholder text. |
+| [ALL](#ALL) | 构建块与所有类型相关联。 |
+| [AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT](#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT) | 每当在应用程序中输入其名称时，允许将构建块自动插入到文档中。 |
+| [AUTO_CORRECT](#AUTO-CORRECT) | 构建块与拼写和语法工具相关联。 |
+| [AUTO_TEXT](#AUTO-TEXT) | 构建块是自动图文集条目。 |
+| [DEFAULT](#DEFAULT) | 另存为[NONE](../../com.aspose.words/buildingblocktype\#NONE). |
+| [FORM_FIELD_HELP_TEXT](#FORM-FIELD-HELP-TEXT) | 构建块是表单字段帮助文本。 |
+| [NONE](#NONE) | 没有为构建块指定类型信息。 |
+| [NORMAL](#NORMAL) | 构建块是正常的（即 |
+| [STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT](#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT) | 构建块是结构化的文档标签占位符文本。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String buildingBlockTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int buildingBlockType)](#getName-int-) |  |
+| [fromName(String buildingBlock类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int buildingBlock类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int buildingBlockType)](#toString-int-) |  |
+| [toString(int buildingBlock类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,7 +53,7 @@ public static int ALL
 ```
 
 
-The building block is associated with all types.
+构建块与所有类型相关联。
 
 ### AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT {#AUTOMATICALLY-REPLACE-NAME-WITH-CONTENT}
 ```
@@ -61,7 +61,7 @@ public static int AUTOMATICALLY_REPLACE_NAME_WITH_CONTENT
 ```
 
 
-Allows the building block to be automatically inserted into the document whenever its name is entered into an application.
+每当在应用程序中输入其名称时，允许将构建块自动插入到文档中。
 
 ### AUTO_CORRECT {#AUTO-CORRECT}
 ```
@@ -69,7 +69,7 @@ public static int AUTO_CORRECT
 ```
 
 
-The building block is associated with the spelling and grammar tools.
+构建块与拼写和语法工具相关联。
 
 ### AUTO_TEXT {#AUTO-TEXT}
 ```
@@ -77,7 +77,7 @@ public static int AUTO_TEXT
 ```
 
 
-The building block is an AutoText entry.
+构建块是自动图文集条目。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -85,7 +85,7 @@ public static int DEFAULT
 ```
 
 
-Save as [NONE](../../com.aspose.words/buildingblocktype\#NONE).
+另存为[NONE](../../com.aspose.words/buildingblocktype\#NONE).
 
 ### FORM_FIELD_HELP_TEXT {#FORM-FIELD-HELP-TEXT}
 ```
@@ -93,7 +93,7 @@ public static int FORM_FIELD_HELP_TEXT
 ```
 
 
-The building block is a form field help text.
+构建块是表单字段帮助文本。
 
 ### NONE {#NONE}
 ```
@@ -101,7 +101,7 @@ public static int NONE
 ```
 
 
-No type information is specified for the building block.
+没有为构建块指定类型信息。
 
 ### NORMAL {#NORMAL}
 ```
@@ -109,7 +109,7 @@ public static int NORMAL
 ```
 
 
-The building block is a normal (i.e. regular) glossary document entry.
+构建块是一个正常的（即常规的）词汇表文档条目。
 
 ### STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT {#STRUCTURED-DOCUMENT-TAG-PLACEHOLDER-TEXT}
 ```
@@ -117,7 +117,7 @@ public static int STRUCTURED_DOCUMENT_TAG_PLACEHOLDER_TEXT
 ```
 
 
-The building block is a structured document tag placeholder text.
+构建块是结构化的文档标签占位符文本。
 
 ### length {#length}
 ```
@@ -133,52 +133,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String buildingBlockTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String buildingBlock类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String buildingBlockTypeName)
+public static int fromName(String buildingBlock类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlockTypeName | java.lang.String |  |
+| buildingBlock类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int buildingBlockType) {#getName-int-}
-```
-public static String getName(int buildingBlockType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int buildingBlock类型) {#getName-int-}
+```
+public static String getName(int buildingBlock类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlockType | int |  |
+| buildingBlock类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -188,8 +188,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -198,8 +198,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -224,22 +224,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int buildingBlockType) {#toString-int-}
+### toString(int buildingBlock类型) {#toString-int-}
 ```
-public static String toString(int buildingBlockType)
+public static String toString(int buildingBlock类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| buildingBlockType | int |  |
+| buildingBlock类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -257,8 +257,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -270,9 +270,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

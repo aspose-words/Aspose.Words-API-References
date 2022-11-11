@@ -1,72 +1,72 @@
 ---
-title: MergeFieldImageDimension
-second_title: Aspose.Words for Java API Reference
-description: Represents an image dimension i.e.
+title: Merge字段ImageDimension
+second_title: Aspose.Words for Java API 参考
+description: 表示图像尺寸，即
 type: docs
 weight: 394
-url: /java/com.aspose.words/mergefieldimagedimension/
+url: /zh/java/com.aspose.words/mergefieldimagedimension/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
-public class MergeFieldImageDimension implements Cloneable
+public class Merge字段ImageDimension implements Cloneable
 ```
 
-Represents an image dimension (i.e. the width or the height) used across a mail merge process.
+表示在邮件合并过程中使用的图像尺寸（即宽度或高度）。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-To indicate that the image should be inserted with its original dimension during a mail merge, you should assign a negative value to the [getValue()](../../com.aspose.words/mergefieldimagedimension\#getValue--) / [setValue(double)](../../com.aspose.words/mergefieldimagedimension\#setValue-double-) property.
-## Constructors
+要指示在邮件合并期间应以其原始尺寸插入图像，您应该为[getValue()](../../com.aspose.words/mergefieldimagedimension\#getValue--) / [setValue(double)](../../com.aspose.words/mergefieldimagedimension\#setValue-double-)财产。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [MergeFieldImageDimension(double value)](#MergeFieldImageDimension-double-) | Creates an image dimension instance with the given value in points. |
-| [MergeFieldImageDimension(double value, int unit)](#MergeFieldImageDimension-double-int-) | Initializes a new instance of this class. |
-## Methods
+| [Merge字段ImageDimension(double value)](#Merge字段ImageDimension-double-) | 使用给定的点值创建图像尺寸实例。 |
+| [Merge字段ImageDimension(double value, int unit)](#Merge字段ImageDimension-double-int-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getUnit()](#getUnit--) | The unit. |
-| [getValue()](#getValue--) | The value. |
+| [get班级()](#get班级--) |  |
+| [getUnit()](#getUnit--) | 那个单位。 |
+| [getValue()](#getValue--) | 价值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUnit(int value)](#setUnit-int-) | The unit. |
-| [setValue(double value)](#setValue-double-) | The value. |
+| [setUnit(int value)](#setUnit-int-) | 那个单位。 |
+| [setValue(double value)](#setValue-double-) | 价值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### MergeFieldImageDimension(double value) {#MergeFieldImageDimension-double-}
+### Merge字段ImageDimension(double value) {#Merge字段ImageDimension-double-}
 ```
-public MergeFieldImageDimension(double value)
+public Merge字段ImageDimension(double value)
 ```
 
 
-Creates an image dimension instance with the given value in points. You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
+使用给定的点值创建图像尺寸实例。您应该使用负值表示应应用相应图像尺寸的原始值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The value. |
+| value | double | 价值。 |
 
-### MergeFieldImageDimension(double value, int unit) {#MergeFieldImageDimension-double-int-}
+### Merge字段ImageDimension(double value, int unit) {#Merge字段ImageDimension-double-int-}
 ```
-public MergeFieldImageDimension(double value, int unit)
+public Merge字段ImageDimension(double value, int unit)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 | unit | int |  |
@@ -79,43 +79,43 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getUnit() {#getUnit--}
 ```
 public int getUnit()
 ```
 
 
-The unit.
+那个单位。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[Merge字段ImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。
 ### getValue() {#getValue--}
 ```
 public double getValue()
 ```
 
 
-The value. You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
+价值。您应该使用负值表示应应用相应图像尺寸的原始值。
 
-**Returns:**
-double - The corresponding  double  value.
+**退货:**
+double - 对应的双精度值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -124,8 +124,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -148,12 +148,12 @@ public void setUnit(int value)
 ```
 
 
-The unit.
+那个单位。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MergeFieldImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[Merge字段ImageDimensionUnit](../../com.aspose.words/mergefieldimagedimensionunit)常数。 |
 
 ### setValue(double value) {#setValue-double-}
 ```
@@ -161,12 +161,12 @@ public void setValue(double value)
 ```
 
 
-The value. You should use a negative value to indicate that the original value of the corresponding image dimension should be applied.
+价值。您应该使用负值表示应应用相应图像尺寸的原始值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The corresponding  double  value. |
+| value | double | 对应的双精度值。 |
 
 ### toString() {#toString--}
 ```
@@ -176,7 +176,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -194,8 +194,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -207,9 +207,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

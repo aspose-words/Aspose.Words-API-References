@@ -1,39 +1,39 @@
 ---
 title: WebExtensionProperty
 second_title: Aspose.Words for Java API Reference
-description: Specifies a web extension custom property.
+description: 指定 Web 扩展定制属性。
 type: docs
 weight: 615
-url: /java/com.aspose.words/webextensionproperty/
+url: /zh/java/com.aspose.words/webextensionproperty/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WebExtensionProperty
 ```
 
-Specifies a web extension custom property.
+指定 Web 扩展定制属性。
 
-To learn more, visit the **Work with Office Add-ins** documentation article.
-## Constructors
+要了解更多信息，请访问**Work with Office Add-ins**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [WebExtensionProperty(String name, String value)](#WebExtensionProperty-java.lang.String-java.lang.String-) | Creates web extension custom property with specified name and value. |
-## Methods
+| [WebExtensionProperty(String name, String value)](#WebExtensionProperty-java.lang.String-java.lang.String-) | 创建具有指定名称和值的 Web 扩展自定义属性。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getName()](#getName--) | Specifies a custom property name |
-| [getValue()](#getValue--) | Specifies a custom property value. |
+| [get班级()](#get班级--) |  |
+| [getName()](#getName--) | 指定自定义属性名称 |
+| [getValue()](#getValue--) | 指定自定义属性值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Specifies a custom property name |
-| [setValue(String value)](#setValue-java.lang.String-) | Specifies a custom property value. |
+| [setName(String value)](#setName-java.lang.String-) | 指定自定义属性名称 |
+| [setValue(String value)](#setValue-java.lang.String-) | 指定自定义属性值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,13 +44,13 @@ public WebExtensionProperty(String name, String value)
 ```
 
 
-Creates web extension custom property with specified name and value.
+创建具有指定名称和值的 Web 扩展自定义属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | Property name. |
-| value | java.lang.String | Property value. |
+| name | java.lang.String | 属性名称。 |
+| value | java.lang.String | 适当的价值。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -60,43 +60,43 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Specifies a custom property name
+指定自定义属性名称
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getValue() {#getValue--}
 ```
 public String getValue()
 ```
 
 
-Specifies a custom property value.
+指定自定义属性值。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -105,8 +105,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -129,12 +129,12 @@ public void setName(String value)
 ```
 
 
-Specifies a custom property name
+指定自定义属性名称
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setValue(String value) {#setValue-java.lang.String-}
 ```
@@ -142,12 +142,12 @@ public void setValue(String value)
 ```
 
 
-Specifies a custom property value.
+指定自定义属性值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### toString() {#toString--}
 ```
@@ -157,7 +157,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -175,8 +175,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -188,9 +188,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

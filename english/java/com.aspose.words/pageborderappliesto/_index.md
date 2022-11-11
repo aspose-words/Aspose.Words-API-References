@@ -1,34 +1,34 @@
 ---
 title: PageBorderAppliesTo
-second_title: Aspose.Words for Java API Reference
-description: Specifies which pages the page border is printed on.
+second_title: Aspose.Words for Java API 参考
+description: 指定打印页面边框的页面。
 type: docs
 weight: 432
-url: /java/com.aspose.words/pageborderappliesto/
+url: /zh/java/com.aspose.words/pageborderappliesto/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PageBorderAppliesTo
 ```
 
-Specifies which pages the page border is printed on.
-## Fields
+指定打印页面边框的页面。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ALL_PAGES](#ALL-PAGES) | Page border is shown on all pages of the section. |
-| [FIRST_PAGE](#FIRST-PAGE) | Page border is shown on the first page of the section only. |
-| [OTHER_PAGES](#OTHER-PAGES) | Page border is shown on all pages except the first page of the section. |
+| [ALL_PAGES](#ALL-PAGES) | 页面边框显示在该部分的所有页面上。 |
+| [FIRST_PAGE](#FIRST-PAGE) | 页面边框仅显示在该部分的第一页上。 |
+| [OTHER_PAGES](#OTHER-PAGES) | 页面边框显示在除该部分的第一页之外的所有页面上。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageBorderAppliesToName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int pageBorderAppliesTo)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ALL_PAGES
 ```
 
 
-Page border is shown on all pages of the section.
+页面边框显示在该部分的所有页面上。
 
 ### FIRST_PAGE {#FIRST-PAGE}
 ```
@@ -53,7 +53,7 @@ public static int FIRST_PAGE
 ```
 
 
-Page border is shown on the first page of the section only.
+页面边框仅显示在该部分的第一页上。
 
 ### OTHER_PAGES {#OTHER-PAGES}
 ```
@@ -61,7 +61,7 @@ public static int OTHER_PAGES
 ```
 
 
-Page border is shown on all pages except the first page of the section.
+页面边框显示在除该部分的第一页之外的所有页面上。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String pageBorderAppliesToName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pageBorderAppliesToName)
@@ -92,23 +92,23 @@ public static int fromName(String pageBorderAppliesToName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesToName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int pageBorderAppliesTo) {#getName-int-}
 ```
 public static String getName(int pageBorderAppliesTo)
@@ -117,12 +117,12 @@ public static String getName(int pageBorderAppliesTo)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int pageBorderAppliesTo) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int pageBorderAppliesTo)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | pageBorderAppliesTo | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

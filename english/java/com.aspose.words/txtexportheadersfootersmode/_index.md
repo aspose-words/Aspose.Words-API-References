@@ -1,34 +1,34 @@
 ---
 title: TxtExportHeadersFootersMode
 second_title: Aspose.Words for Java API Reference
-description: Specifies the way headers and footers are exported to plain text format.
+description: 指定将页眉和页脚导出为纯文本格式的方式。
 type: docs
 weight: 581
-url: /java/com.aspose.words/txtexportheadersfootersmode/
+url: /zh/java/com.aspose.words/txtexportheadersfootersmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TxtExportHeadersFootersMode
 ```
 
-Specifies the way headers and footers are exported to plain text format.
-## Fields
+指定将页眉和页脚导出为纯文本格式的方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [ALL_AT_END](#ALL-AT-END) | All headers and footers are placed after all section bodies at the very end of a document. |
-| [NONE](#NONE) | No headers and footers are exported. |
-| [PRIMARY_ONLY](#PRIMARY-ONLY) | Only primary headers and footers are exported at the beginning and end of each section. |
+| [ALL_AT_END](#ALL-AT-END) | 所有页眉和页脚都放在文档末尾的所有节正文之后。 |
+| [NONE](#NONE) | 不导出页眉和页脚。 |
+| [PRIMARY_ONLY](#PRIMARY-ONLY) | 在每个部分的开头和结尾处仅导出主要页眉和页脚。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String txtExportHeadersFootersModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int txtExportHeadersFootersMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ALL_AT_END
 ```
 
 
-All headers and footers are placed after all section bodies at the very end of a document. This mode is similar to Word.
+所有页眉和页脚都放在文档末尾的所有节正文之后。此模式类似于 Word。
 
 ### NONE {#NONE}
 ```
@@ -53,7 +53,7 @@ public static int NONE
 ```
 
 
-No headers and footers are exported.
+不导出页眉和页脚。
 
 ### PRIMARY_ONLY {#PRIMARY-ONLY}
 ```
@@ -61,11 +61,11 @@ public static int PRIMARY_ONLY
 ```
 
 
-Only primary headers and footers are exported at the beginning and end of each section.
+在每个部分的开头和结尾处仅导出主要页眉和页脚。
 
-It is hard to meaningfully output headers and footers to plain text because it is not paginated.
+很难将页眉和页脚有意义地输出为纯文本，因为它没有分页。
 
-When this mode is used, only primary headers and footers are exported at the beginning and end of each section.
+使用此模式时，仅在每个部分的开头和结尾导出主要页眉和页脚。
 
 ### length {#length}
 ```
@@ -81,13 +81,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String txtExportHeadersFootersModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String txtExportHeadersFootersModeName)
@@ -96,23 +96,23 @@ public static int fromName(String txtExportHeadersFootersModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | txtExportHeadersFootersModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int txtExportHeadersFootersMode) {#getName-int-}
 ```
 public static String getName(int txtExportHeadersFootersMode)
@@ -121,12 +121,12 @@ public static String getName(int txtExportHeadersFootersMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | txtExportHeadersFootersMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -136,8 +136,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -146,8 +146,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -172,7 +172,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int txtExportHeadersFootersMode) {#toString-int-}
 ```
@@ -182,12 +182,12 @@ public static String toString(int txtExportHeadersFootersMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | txtExportHeadersFootersMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -205,8 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -218,9 +218,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,41 +1,41 @@
 ---
 title: SdtListItemCollection
-second_title: Aspose.Words for Java API Reference
-description: Provides access to  elements of a structured document tag.
+second_title: Aspose.Words for Java API 参考
+description: 提供对结构化文档标签元素的访问。
 type: docs
 weight: 507
-url: /java/com.aspose.words/sdtlistitemcollection/
+url: /zh/java/com.aspose.words/sdtlistitemcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class SdtListItemCollection implements Cloneable, Iterable
 ```
 
-Provides access to [SdtListItem](../../com.aspose.words/sdtlistitem) elements of a structured document tag.
+提供访问[SdtListItem](../../com.aspose.words/sdtlistitem)结构化文档标签的元素。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
-## Methods
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(SdtListItem item)](#add-com.aspose.words.SdtListItem-) | Adds an item to this collection. |
-| [clear()](#clear--) | Clears all items from this collection. |
+| [add(SdtListItem item)](#add-com.aspose.words.SdtListItem-) | 将项目添加到此集合。 |
+| [clear()](#clear--) | 清除此集合中的所有项目。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Gets number of items in the collection. |
-| [getSelectedValue()](#getSelectedValue--) | Specifies currently selected value in this list. |
+| [get(int index)](#get-int-) | 返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 获取集合中的项目数。 |
+| [getSelectedValue()](#getSelectedValue--) | 指定此列表中当前选定的值。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | Removes a list item at the specified index. |
-| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem-) | Specifies currently selected value in this list. |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的列表项。 |
+| [setSelectedValue(SdtListItem value)](#setSelectedValue-com.aspose.words.SdtListItem-) | 指定此列表中当前选定的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,10 +46,10 @@ public void add(SdtListItem item)
 ```
 
 
-Adds an item to this collection.
+将项目添加到此集合。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | [SdtListItem](../../com.aspose.words/sdtlistitem) |  |
 
@@ -59,7 +59,7 @@ public void clear()
 ```
 
 
-Clears all items from this collection.
+清除此集合中的所有项目。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,58 +69,58 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public SdtListItem get(int index)
 ```
 
 
-Returns a [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection.
+返回一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
-**Returns:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - A [SdtListItem](../../com.aspose.words/sdtlistitem) object given its zero-based index in the collection.
-### getClass() {#getClass--}
+**退货:**
+[SdtListItem](../../com.aspose.words/sdtlistitem) - 一个[SdtListItem](../../com.aspose.words/sdtlistitem)给定集合中从零开始的索引的对象。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets number of items in the collection.
+获取集合中的项目数。
 
-**Returns:**
-int - Number of items in the collection.
+**退货:**
+int - 集合中的项目数。
 ### getSelectedValue() {#getSelectedValue--}
 ```
 public SdtListItem getSelectedValue()
 ```
 
 
-Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection.
+指定此列表中当前选定的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
 
-**Returns:**
-[SdtListItem](../../com.aspose.words/sdtlistitem) - The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem) value.
+**退货:**
+[SdtListItem](../../com.aspose.words/sdtlistitem) - 相应的[SdtListItem](../../com.aspose.words/sdtlistitem)价值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,17 +129,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -163,12 +163,12 @@ public void removeAt(int index)
 ```
 
 
-Removes a list item at the specified index.
+删除指定索引处的列表项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
+| index | int | 要删除的项目的从零开始的索引。 |
 
 ### setSelectedValue(SdtListItem value) {#setSelectedValue-com.aspose.words.SdtListItem-}
 ```
@@ -176,12 +176,12 @@ public void setSelectedValue(SdtListItem value)
 ```
 
 
-Specifies currently selected value in this list. Null value allowed, meaning that no currently selected entry is associated with this list item collection.
+指定此列表中当前选定的值。允许空值，这意味着当前选择的条目没有与此列表项集合相关联。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [SdtListItem](../../com.aspose.words/sdtlistitem) | The corresponding [SdtListItem](../../com.aspose.words/sdtlistitem) value. |
+| value | [SdtListItem](../../com.aspose.words/sdtlistitem) | 相应的[SdtListItem](../../com.aspose.words/sdtlistitem)价值。 |
 
 ### toString() {#toString--}
 ```
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,9 +222,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

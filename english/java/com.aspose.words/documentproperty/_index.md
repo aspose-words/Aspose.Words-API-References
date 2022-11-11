@@ -1,45 +1,45 @@
 ---
 title: DocumentProperty
-second_title: Aspose.Words for Java API Reference
-description: Represents a custom or built-in document property.
+second_title: Aspose.Words for Java API 参考
+description: 表示自定义或内置文档属性。
 type: docs
 weight: 126
-url: /java/com.aspose.words/documentproperty/
+url: /zh/java/com.aspose.words/documentproperty/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class DocumentProperty implements Cloneable
 ```
 
-Represents a custom or built-in document property.
+表示自定义或内置文档属性。
 
-To learn more, visit the **Work with Document Properties** documentation article.
-## Methods
+要了解更多信息，请访问**Work with Document Properties**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getLinkSource()](#getLinkSource--) | Gets the source of a linked custom document property. |
-| [getName()](#getName--) | Returns the name of the property. |
-| [getType()](#getType--) | Gets the data type of the property. |
-| [getValue()](#getValue--) | Gets the value of the property. |
+| [get班级()](#get班级--) |  |
+| [getLinkSource()](#getLinkSource--) | 获取链接的自定义文档属性的来源。 |
+| [getName()](#getName--) | 返回属性的名称。 |
+| [get类型()](#get类型--) | 获取属性的数据类型。 |
+| [getValue()](#getValue--) | 获取属性的值。 |
 | [hashCode()](#hashCode--) |  |
-| [isLinkToContent()](#isLinkToContent--) | Shows whether this property is linked to content or not. |
+| [isLinkToContent()](#isLinkToContent--) | 显示此属性是否链接到内容。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setValue(Object value)](#setValue-java.lang.Object-) | Sets the value of the property. |
-| [toBool()](#toBool--) | Returns the property value as bool. |
-| [toByteArray()](#toByteArray--) | Returns the property value as byte array. |
-| [toDateTime()](#toDateTime--) | Returns the property value as DateTime in UTC. |
-| [toDouble()](#toDouble--) | Returns the property value as double. |
-| [toInt()](#toInt--) | Returns the property value as integer. |
-| [toString()](#toString--) | Returns the property value as a string formatted according to the current locale. |
+| [setValue(Object value)](#setValue-java.lang.Object-) | 设置属性的值。 |
+| [toBool()](#toBool--) | 将属性值返回为布尔值。 |
+| [toByteArray()](#toByteArray--) | 以字节数组的形式返回属性值。 |
+| [toDateTime()](#toDateTime--) | 以 UTC 格式将属性值返回为 DateTime。 |
+| [toDouble()](#toDouble--) | 以 double 形式返回属性值。 |
+| [toInt()](#toInt--) | 以整数形式返回属性值。 |
+| [toString()](#toString--) | 将属性值作为根据当前语言环境格式化的字符串返回。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -51,67 +51,67 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getLinkSource() {#getLinkSource--}
 ```
 public String getLinkSource()
 ```
 
 
-Gets the source of a linked custom document property.
+获取链接的自定义文档属性的来源。
 
-**Returns:**
-java.lang.String - The source of a linked custom document property.
+**退货:**
+java.lang.String - 链接的自定义文档属性的来源。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Returns the name of the property.
+返回属性的名称。
 
-Cannot be null and cannot be an empty string.
+不能为 null，也不能为空字符串。
 
-**Returns:**
-java.lang.String - The name of the property.
-### getType() {#getType--}
+**退货:**
+java.lang.String - 属性的名称。
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the data type of the property.
+获取属性的数据类型。
 
-**Returns:**
-int - The data type of the property. The returned value is one of [PropertyType](../../com.aspose.words/propertytype) constants.
+**退货:**
+ int - 属性的数据类型。返回值是以下之一[Property类型](../../com.aspose.words/propertytype)常数。
 ### getValue() {#getValue--}
 ```
 public Object getValue()
 ```
 
 
-Gets the value of the property.
+获取属性的值。
 
-Cannot be null.
+不能为空。
 
-**Returns:**
-java.lang.Object - The value of the property.
+**退货:**
+java.lang.Object - 属性的值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -120,18 +120,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isLinkToContent() {#isLinkToContent--}
 ```
 public boolean isLinkToContent()
 ```
 
 
-Shows whether this property is linked to content or not.
+显示此属性是否链接到内容。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -154,14 +154,14 @@ public void setValue(Object value)
 ```
 
 
-Sets the value of the property.
+设置属性的值。
 
-Cannot be null.
+不能为空。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object | The value of the property. |
+| value | java.lang.Object | 财产的价值。 |
 
 ### toBool() {#toBool--}
 ```
@@ -169,69 +169,69 @@ public boolean toBool()
 ```
 
 
-Returns the property value as bool.
+将属性值返回为布尔值。
 
-Throws an exception if the property type is not [PropertyType.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
+如果属性类型不是，则引发异常[Property类型.BOOLEAN](../../com.aspose.words/propertytype\#BOOLEAN).
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### toByteArray() {#toByteArray--}
 ```
 public byte[] toByteArray()
 ```
 
 
-Returns the property value as byte array.
+以字节数组的形式返回属性值。
 
-Throws an exception if the property type is not [PropertyType.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
+如果属性类型不是，则引发异常[Property类型.BYTE\_ARRAY](../../com.aspose.words/propertytype\#BYTE-ARRAY).
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### toDateTime() {#toDateTime--}
 ```
 public Date toDateTime()
 ```
 
 
-Returns the property value as DateTime in UTC.
+以 UTC 格式将属性值返回为 DateTime。
 
-Throws an exception if the property type is not [PropertyType.DATE\_TIME](../../com.aspose.words/propertytype\#DATE-TIME).
+如果属性类型不是，则引发异常[Property类型.DATE\_TIME](../../com.aspose.words/propertytype\#DATE-TIME).
 
-Microsoft Word stores only the date part (no time) for custom date properties.
+Microsoft Word 仅存储自定义日期属性的日期部分（无时间）。
 
-**Returns:**
-java.util.Date
+**退货:**
+java.util.日期
 ### toDouble() {#toDouble--}
 ```
 public double toDouble()
 ```
 
 
-Returns the property value as double. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+以 double 形式返回属性值。如果属性类型不是，则引发异常[Property类型.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### toInt() {#toInt--}
 ```
 public int toInt()
 ```
 
 
-Returns the property value as integer. Throws an exception if the property type is not [PropertyType.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
+以整数形式返回属性值。如果属性类型不是，则引发异常[Property类型.NUMBER](../../com.aspose.words/propertytype\#NUMBER).
 
-**Returns:**
-int
+**退货:**
+整数
 ### toString() {#toString--}
 ```
 public String toString()
 ```
 
 
-Returns the property value as a string formatted according to the current locale.
+将属性值作为根据当前语言环境格式化的字符串返回。
 
-Converts a boolean property into "Y" or "N". Converts a date property into a short date string. For all other types converts a property using Object.ToString().
+将布尔属性转换为“Y”或“N”。将日期属性转换为短日期字符串。对于所有其他类型，使用 Object.ToString() 转换属性。
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -249,8 +249,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -262,9 +262,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

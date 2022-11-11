@@ -1,37 +1,37 @@
 ---
 title: ShapeLineStyle
 second_title: Aspose.Words for Java API Reference
-description: Specifies the compound line style of a .
+description: 指定 a 的复合线型。
 type: docs
 weight: 518
-url: /java/com.aspose.words/shapelinestyle/
+url: /zh/java/com.aspose.words/shapelinestyle/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ShapeLineStyle
 ```
 
-Specifies the compound line style of a [Shape](../../com.aspose.words/shape).
-## Fields
+指定 a 的复合线型[Shape](../../com.aspose.words/shape).
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Default value is [SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE). |
-| [DOUBLE](#DOUBLE) | Double lines of equal width. |
-| [SINGLE](#SINGLE) | Single line. |
-| [THICK_THIN](#THICK-THIN) | Double lines, one thick, one thin. |
-| [THIN_THICK](#THIN-THICK) | Double lines, one thin, one thick. |
-| [TRIPLE](#TRIPLE) | Three lines, thin, thick, thin. |
+| [DEFAULT](#DEFAULT) | 默认值为[SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE). |
+| [DOUBLE](#DOUBLE) | 等宽的双线。 |
+| [SINGLE](#SINGLE) | 单线。 |
+| [THICK_THIN](#THICK-THIN) | 双线，一粗，一细。 |
+| [THIN_THICK](#THIN-THICK) | 双线，一细，一粗。 |
+| [TRIPLE](#TRIPLE) | 三行，细、粗、细。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String shapeLineStyleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int shapeLineStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+默认值为[SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -56,7 +56,7 @@ public static int DOUBLE
 ```
 
 
-Double lines of equal width.
+等宽的双线。
 
 ### SINGLE {#SINGLE}
 ```
@@ -64,7 +64,7 @@ public static int SINGLE
 ```
 
 
-Single line.
+单线。
 
 ### THICK_THIN {#THICK-THIN}
 ```
@@ -72,7 +72,7 @@ public static int THICK_THIN
 ```
 
 
-Double lines, one thick, one thin.
+双线，一粗，一细。
 
 ### THIN_THICK {#THIN-THICK}
 ```
@@ -80,7 +80,7 @@ public static int THIN_THICK
 ```
 
 
-Double lines, one thin, one thick.
+双线，一细，一粗。
 
 ### TRIPLE {#TRIPLE}
 ```
@@ -88,7 +88,7 @@ public static int TRIPLE
 ```
 
 
-Three lines, thin, thick, thin.
+三行，细、粗、细。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String shapeLineStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String shapeLineStyleName)
@@ -119,23 +119,23 @@ public static int fromName(String shapeLineStyleName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeLineStyleName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int shapeLineStyle) {#getName-int-}
 ```
 public static String getName(int shapeLineStyle)
@@ -144,12 +144,12 @@ public static String getName(int shapeLineStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeLineStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int shapeLineStyle) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int shapeLineStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeLineStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

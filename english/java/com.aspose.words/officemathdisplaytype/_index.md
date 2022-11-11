@@ -1,40 +1,40 @@
 ---
-title: OfficeMathDisplayType
-second_title: Aspose.Words for Java API Reference
-description: Specifies the display format type of the equation.
+title: OfficeMathDisplay类型
+second_title: Aspose.Words for Java API 参考
+description: 指定方程的显示格式类型。
 type: docs
 weight: 421
-url: /java/com.aspose.words/officemathdisplaytype/
+url: /zh/java/com.aspose.words/officemathdisplaytype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class OfficeMathDisplayType
+public class OfficeMathDisplay类型
 ```
 
-Specifies the display format type of the equation.
-## Fields
+指定方程的显示格式类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DISPLAY](#DISPLAY) | The Office Math is displayed on its own line. |
-| [INLINE](#INLINE) | The Office Math is displayed inline with the text. |
+| [DISPLAY](#DISPLAY) | Office Math 单独显示在一行中。 |
+| [INLINE](#INLINE) | Office Math 与文本内嵌显示。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String officeMathDisplayTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int officeMathDisplayType)](#getName-int-) |  |
+| [fromName(String officeMathDisplay类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int officeMathDisplay类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int officeMathDisplayType)](#toString-int-) |  |
+| [toString(int officeMathDisplay类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int DISPLAY
 ```
 
 
-The Office Math is displayed on its own line.
+Office Math 单独显示在一行中。
 
 ### INLINE {#INLINE}
 ```
@@ -52,7 +52,7 @@ public static int INLINE
 ```
 
 
-The Office Math is displayed inline with the text.
+Office Math 与文本内嵌显示。
 
 ### length {#length}
 ```
@@ -68,52 +68,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String officeMathDisplayTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String officeMathDisplay类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String officeMathDisplayTypeName)
+public static int fromName(String officeMathDisplay类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| officeMathDisplayTypeName | java.lang.String |  |
+| officeMathDisplay类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int officeMathDisplayType) {#getName-int-}
-```
-public static String getName(int officeMathDisplayType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int officeMathDisplay类型) {#getName-int-}
+```
+public static String getName(int officeMathDisplay类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| officeMathDisplayType | int |  |
+| officeMathDisplay类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,22 +159,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int officeMathDisplayType) {#toString-int-}
+### toString(int officeMathDisplay类型) {#toString-int-}
 ```
-public static String toString(int officeMathDisplayType)
+public static String toString(int officeMathDisplay类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| officeMathDisplayType | int |  |
+| officeMathDisplay类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

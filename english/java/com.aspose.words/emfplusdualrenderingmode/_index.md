@@ -1,34 +1,34 @@
 ---
 title: EmfPlusDualRenderingMode
-second_title: Aspose.Words for Java API Reference
-description: Specifies how Aspose.Words should render EMF Dual metafiles.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Aspose.Words 应如何呈现 EMF Dual 元文件。
 type: docs
 weight: 143
-url: /java/com.aspose.words/emfplusdualrenderingmode/
+url: /zh/java/com.aspose.words/emfplusdualrenderingmode/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class EmfPlusDualRenderingMode
 ```
 
-Specifies how Aspose.Words should render EMF+ Dual metafiles.
-## Fields
+指定 Aspose.Words 应如何呈现 EMF+ Dual 元文件。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [EMF](#EMF) | Aspose.Words renders EMF part of EMF+ Dual metafile. |
-| [EMF_PLUS](#EMF-PLUS) | Aspose.Words renders EMF+ part of EMF+ Dual metafile. |
-| [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. |
+| [EMF](#EMF) | Aspose.Words 呈现 EMF+ Dual 图元文件的 EMF 部分。 |
+| [EMF_PLUS](#EMF-PLUS) | Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。 |
+| [EMF_PLUS_WITH_FALLBACK](#EMF-PLUS-WITH-FALLBACK) | Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String emfPlusDualRenderingModeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int emfPlusDualRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int EMF
 ```
 
 
-Aspose.Words renders EMF part of EMF+ Dual metafile.
+Aspose.Words 呈现 EMF+ Dual 图元文件的 EMF 部分。
 
 ### EMF_PLUS {#EMF-PLUS}
 ```
@@ -53,7 +53,7 @@ public static int EMF_PLUS
 ```
 
 
-Aspose.Words renders EMF+ part of EMF+ Dual metafile.
+Aspose.Words 呈现 EMF+ 双元文件的 EMF+ 部分。
 
 ### EMF_PLUS_WITH_FALLBACK {#EMF-PLUS-WITH-FALLBACK}
 ```
@@ -61,7 +61,7 @@ public static int EMF_PLUS_WITH_FALLBACK
 ```
 
 
-Aspose.Words tries to render EMF+ part of EMF+ Dual metafile. If some of the EMF+ records are not supported then Aspose.Words renders EMF part of EMF+ Dual metafile.
+Aspose.Words 尝试渲染 EMF+ Dual 图元文件的 EMF+ 部分。如果不支持某些 EMF+ 记录，那么 Aspose.Words 会呈现 EMF+ Dual 图元文件的 EMF 部分。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String emfPlusDualRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String emfPlusDualRenderingModeName)
@@ -92,23 +92,23 @@ public static int fromName(String emfPlusDualRenderingModeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emfPlusDualRenderingModeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int emfPlusDualRenderingMode) {#getName-int-}
 ```
 public static String getName(int emfPlusDualRenderingMode)
@@ -117,12 +117,12 @@ public static String getName(int emfPlusDualRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emfPlusDualRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int emfPlusDualRenderingMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int emfPlusDualRenderingMode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emfPlusDualRenderingMode | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

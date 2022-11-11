@@ -1,95 +1,95 @@
 ---
 title: DocumentVisitor
-second_title: Aspose.Words for Java API Reference
-description: Base class for custom document visitors.
+second_title: Aspose.Words for Java API 参考
+description: 自定义文档访问者的基类。
 type: docs
 weight: 132
-url: /java/com.aspose.words/documentvisitor/
+url: /zh/java/com.aspose.words/documentvisitor/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public abstract class DocumentVisitor
 ```
 
-Base class for custom document visitors.
+自定义文档访问者的基类。
 
-To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
+要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
 
-With **DocumentVisitor** you can define and execute custom operations that require enumeration over the document tree.
+和**DocumentVisitor**您可以定义和执行需要枚举文档树的自定义操作。
 
-For example, Aspose.Words uses **DocumentVisitor** internally for saving **Document** in various formats and for other operations like finding fields or bookmarks over a fragment of a document.
+例如，Aspose.Words 使用**DocumentVisitor**内部保存**Document**以各种格式和其他操作，例如在文档片段上查找字段或书签。
 
-To use **DocumentVisitor**:
+使用**DocumentVisitor**：
 
-1.  Create a class derived from **DocumentVisitor**.
-2.  Override and provide implementations for some or all of the VisitXXX methods to perform some custom operations.
-3.  Call [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-) on the **Node** that you want to start the enumeration from.
+1.  创建一个派生自的类**DocumentVisitor**.
+2.  覆盖并提供部分或全部 VisitXXX 方法的实现，以执行一些自定义操作。
+3.  称呼[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)在**Node**您要从中开始枚举。
 
-**DocumentVisitor** provides default implementations for all of the VisitXXX methods to make it easier to create new document visitors as only the methods required for the particular visitor need to be overridden. It is not necessary to override all of the visitor methods.
+**DocumentVisitor**为所有 VisitXXX 方法提供默认实现，以便更轻松地创建新的文档访问者，因为只有特定访问者所需的方法需要被覆盖。没有必要覆盖所有的访问者方法。
 
-For more information see the Visitor design pattern.
-## Methods
+有关更多信息，请参阅访问者设计模式。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [visitAbsolutePositionTab(AbsolutePositionTab tab)](#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab-) | Called when a [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) node is encountered in the document. |
-| [visitBodyEnd(Body body)](#visitBodyEnd-com.aspose.words.Body-) | Called when enumeration of the main text story in a section has ended. |
-| [visitBodyStart(Body body)](#visitBodyStart-com.aspose.words.Body-) | Called when enumeration of the main text story in a section has started. |
-| [visitBookmarkEnd(BookmarkEnd bookmarkEnd)](#visitBookmarkEnd-com.aspose.words.BookmarkEnd-) | Called when an end of a bookmark is encountered in the document. |
-| [visitBookmarkStart(BookmarkStart bookmarkStart)](#visitBookmarkStart-com.aspose.words.BookmarkStart-) | Called when a start of a bookmark is encountered in the document. |
-| [visitBuildingBlockEnd(BuildingBlock block)](#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-) | Called when enumeration of a building block has ended. |
-| [visitBuildingBlockStart(BuildingBlock block)](#visitBuildingBlockStart-com.aspose.words.BuildingBlock-) | Called when enumeration of a building block has started. |
-| [visitCellEnd(Cell cell)](#visitCellEnd-com.aspose.words.Cell-) | Called when enumeration of a table cell has ended. |
-| [visitCellStart(Cell cell)](#visitCellStart-com.aspose.words.Cell-) | Called when enumeration of a table cell has started. |
-| [visitCommentEnd(Comment comment)](#visitCommentEnd-com.aspose.words.Comment-) | Called when enumeration of a comment text has ended. |
-| [visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)](#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd-) | Called when the end of a commented range of text is encountered. |
-| [visitCommentRangeStart(CommentRangeStart commentRangeStart)](#visitCommentRangeStart-com.aspose.words.CommentRangeStart-) | Called when the start of a commented range of text is encountered. |
-| [visitCommentStart(Comment comment)](#visitCommentStart-com.aspose.words.Comment-) | Called when enumeration of a comment text has started. |
-| [visitDocumentEnd(Document doc)](#visitDocumentEnd-com.aspose.words.Document-) | Called when enumeration of the document has finished. |
-| [visitDocumentStart(Document doc)](#visitDocumentStart-com.aspose.words.Document-) | Called when enumeration of the document has started. |
-| [visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)](#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd-) | Called when an end of an editable range is encountered in the document. |
-| [visitEditableRangeStart(EditableRangeStart editableRangeStart)](#visitEditableRangeStart-com.aspose.words.EditableRangeStart-) | Called when a start of an editable range is encountered in the document. |
-| [visitFieldEnd(FieldEnd fieldEnd)](#visitFieldEnd-com.aspose.words.FieldEnd-) | Called when a field ends in the document. |
-| [visitFieldSeparator(FieldSeparator fieldSeparator)](#visitFieldSeparator-com.aspose.words.FieldSeparator-) | Called when a field separator is encountered in the document. |
-| [visitFieldStart(FieldStart fieldStart)](#visitFieldStart-com.aspose.words.FieldStart-) | Called when a field starts in the document. |
-| [visitFootnoteEnd(Footnote footnote)](#visitFootnoteEnd-com.aspose.words.Footnote-) | Called when enumeration of a footnote or endnote text has ended. |
-| [visitFootnoteStart(Footnote footnote)](#visitFootnoteStart-com.aspose.words.Footnote-) | Called when enumeration of a footnote or endnote text has started. |
-| [visitFormField(FormField formField)](#visitFormField-com.aspose.words.FormField-) | Called when a form field is encountered in the document. |
-| [visitGlossaryDocumentEnd(GlossaryDocument glossary)](#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-) | Called when enumeration of a glossary document has ended. |
-| [visitGlossaryDocumentStart(GlossaryDocument glossary)](#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-) | Called when enumeration of a glossary document has started. |
-| [visitGroupShapeEnd(GroupShape groupShape)](#visitGroupShapeEnd-com.aspose.words.GroupShape-) | Called when enumeration of a group shape has ended. |
-| [visitGroupShapeStart(GroupShape groupShape)](#visitGroupShapeStart-com.aspose.words.GroupShape-) | Called when enumeration of a group shape has started. |
-| [visitHeaderFooterEnd(HeaderFooter headerFooter)](#visitHeaderFooterEnd-com.aspose.words.HeaderFooter-) | Called when enumeration of a header or footer in a section has ended. |
-| [visitHeaderFooterStart(HeaderFooter headerFooter)](#visitHeaderFooterStart-com.aspose.words.HeaderFooter-) | Called when enumeration of a header or footer in a section has started. |
-| [visitOfficeMathEnd(OfficeMath officeMath)](#visitOfficeMathEnd-com.aspose.words.OfficeMath-) | Called when enumeration of a Office Math object has ended. |
-| [visitOfficeMathStart(OfficeMath officeMath)](#visitOfficeMathStart-com.aspose.words.OfficeMath-) | Called when enumeration of a Office Math object has started. |
-| [visitParagraphEnd(Paragraph paragraph)](#visitParagraphEnd-com.aspose.words.Paragraph-) | Called when enumeration of a paragraph has ended. |
-| [visitParagraphStart(Paragraph paragraph)](#visitParagraphStart-com.aspose.words.Paragraph-) | Called when enumeration of a paragraph has started. |
-| [visitRowEnd(Row row)](#visitRowEnd-com.aspose.words.Row-) | Called when enumeration of a table row has ended. |
-| [visitRowStart(Row row)](#visitRowStart-com.aspose.words.Row-) | Called when enumeration of a table row has started. |
-| [visitRun(Run run)](#visitRun-com.aspose.words.Run-) | Called when a run of text in the is encountered. |
-| [visitSectionEnd(Section section)](#visitSectionEnd-com.aspose.words.Section-) | Called when enumeration of a section has ended. |
-| [visitSectionStart(Section section)](#visitSectionStart-com.aspose.words.Section-) | Called when enumeration of a section has started. |
-| [visitShapeEnd(Shape shape)](#visitShapeEnd-com.aspose.words.Shape-) | Called when enumeration of a shape has ended. |
-| [visitShapeStart(Shape shape)](#visitShapeStart-com.aspose.words.Shape-) | Called when enumeration of a shape has started. |
-| [visitSmartTagEnd(SmartTag smartTag)](#visitSmartTagEnd-com.aspose.words.SmartTag-) | Called when enumeration of a smart tag has ended. |
-| [visitSmartTagStart(SmartTag smartTag)](#visitSmartTagStart-com.aspose.words.SmartTag-) | Called when enumeration of a smart tag has started. |
-| [visitSpecialChar(SpecialChar specialChar)](#visitSpecialChar-com.aspose.words.SpecialChar-) | Called when a [SpecialChar](../../com.aspose.words/specialchar) node is encountered in the document. |
-| [visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)](#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-) | Called when enumeration of a structured document tag has ended. |
+| [visitAbsolutePositionTab(AbsolutePositionTab tab)](#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab-) | 当一个[AbsolutePositionTab](../../com.aspose.words/absolutepositiontab)在文档中遇到节点。 |
+| [visitBodyEnd(Body body)](#visitBodyEnd-com.aspose.words.Body-) | 当一节中主要文本故事的枚举结束时调用。 |
+| [visitBodyStart(Body body)](#visitBodyStart-com.aspose.words.Body-) | 当一节中的主要文本故事的枚举开始时调用。 |
+| [visitBookmarkEnd(BookmarkEnd bookmarkEnd)](#visitBookmarkEnd-com.aspose.words.BookmarkEnd-) | 在文档中遇到书签结尾时调用。 |
+| [visitBookmarkStart(BookmarkStart bookmarkStart)](#visitBookmarkStart-com.aspose.words.BookmarkStart-) | 在文档中遇到书签开始时调用。 |
+| [visitBuildingBlockEnd(BuildingBlock block)](#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-) | 当构建块的枚举结束时调用。 |
+| [visitBuildingBlockStart(BuildingBlock block)](#visitBuildingBlockStart-com.aspose.words.BuildingBlock-) | 在开始枚举构建块时调用。 |
+| [visitCellEnd(Cell cell)](#visitCellEnd-com.aspose.words.Cell-) | 当表格单元格的枚举结束时调用。 |
+| [visitCellStart(Cell cell)](#visitCellStart-com.aspose.words.Cell-) | 在开始枚举表格单元格时调用。 |
+| [visitCommentEnd(Comment comment)](#visitCommentEnd-com.aspose.words.Comment-) | 当评论文本的枚举结束时调用。 |
+| [visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)](#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd-) | 当遇到注释文本范围的结尾时调用。 |
+| [visitCommentRangeStart(CommentRangeStart commentRangeStart)](#visitCommentRangeStart-com.aspose.words.CommentRangeStart-) | 当遇到注释文本范围的开头时调用。 |
+| [visitCommentStart(Comment comment)](#visitCommentStart-com.aspose.words.Comment-) | 当注释文本的枚举开始时调用。 |
+| [visitDocumentEnd(Document doc)](#visitDocumentEnd-com.aspose.words.Document-) | 当文档的枚举完成时调用。 |
+| [visitDocumentStart(Document doc)](#visitDocumentStart-com.aspose.words.Document-) | 当文档的枚举开始时调用。 |
+| [visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)](#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd-) | 在文档中遇到可编辑范围的结尾时调用。 |
+| [visitEditableRangeStart(EditableRangeStart editableRangeStart)](#visitEditableRangeStart-com.aspose.words.EditableRangeStart-) | 在文档中遇到可编辑范围的开始时调用。 |
+| [visit字段End(字段End fieldEnd)](#visit字段End-com.aspose.words.字段End-) | 当字段在文档中结束时调用。 |
+| [visit字段Separator(字段Separator fieldSeparator)](#visit字段Separator-com.aspose.words.字段Separator-) | 在文档中遇到字段分隔符时调用。 |
+| [visit字段Start(字段Start fieldStart)](#visit字段Start-com.aspose.words.字段Start-) | 当文档中的字段开始时调用。 |
+| [visitFootnoteEnd(Footnote footnote)](#visitFootnoteEnd-com.aspose.words.Footnote-) | 当脚注或尾注文本的枚举结束时调用。 |
+| [visitFootnoteStart(Footnote footnote)](#visitFootnoteStart-com.aspose.words.Footnote-) | 当开始枚举脚注或尾注文本时调用。 |
+| [visitForm字段(Form字段 form字段)](#visitForm字段-com.aspose.words.Form字段-) | 在文档中遇到表单域时调用。 |
+| [visitGlossaryDocumentEnd(GlossaryDocument glossary)](#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-) | 当词汇表文档的枚举结束时调用。 |
+| [visitGlossaryDocumentStart(GlossaryDocument glossary)](#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-) | 当词汇表文档的枚举开始时调用。 |
+| [visitGroupShapeEnd(GroupShape groupShape)](#visitGroupShapeEnd-com.aspose.words.GroupShape-) | 当组形状的枚举结束时调用。 |
+| [visitGroupShapeStart(GroupShape groupShape)](#visitGroupShapeStart-com.aspose.words.GroupShape-) | 当组形状的枚举开始时调用。 |
+| [visitHeaderFooterEnd(HeaderFooter headerFooter)](#visitHeaderFooterEnd-com.aspose.words.HeaderFooter-) | 当节中的页眉或页脚枚举结束时调用。 |
+| [visitHeaderFooterStart(HeaderFooter headerFooter)](#visitHeaderFooterStart-com.aspose.words.HeaderFooter-) | 当开始枚举节中的页眉或页脚时调用。 |
+| [visitOfficeMathEnd(OfficeMath officeMath)](#visitOfficeMathEnd-com.aspose.words.OfficeMath-) | 在 Office Math 对象的枚举结束时调用。 |
+| [visitOfficeMathStart(OfficeMath officeMath)](#visitOfficeMathStart-com.aspose.words.OfficeMath-) | 当 Office Math 对象的枚举开始时调用。 |
+| [visitParagraphEnd(Paragraph paragraph)](#visitParagraphEnd-com.aspose.words.Paragraph-) | 当段落的枚举结束时调用。 |
+| [visitParagraphStart(Paragraph paragraph)](#visitParagraphStart-com.aspose.words.Paragraph-) | 当开始枚举段落时调用。 |
+| [visitRowEnd(Row row)](#visitRowEnd-com.aspose.words.Row-) | 当表行的枚举结束时调用。 |
+| [visitRowStart(Row row)](#visitRowStart-com.aspose.words.Row-) | 当表行的枚举开始时调用。 |
+| [visitRun(Run run)](#visitRun-com.aspose.words.Run-) | 当遇到文本中的运行时调用。 |
+| [visitSectionEnd(Section section)](#visitSectionEnd-com.aspose.words.Section-) | 当一个部分的枚举结束时调用。 |
+| [visitSectionStart(Section section)](#visitSectionStart-com.aspose.words.Section-) | 当一个节的枚举开始时调用。 |
+| [visitShapeEnd(Shape shape)](#visitShapeEnd-com.aspose.words.Shape-) | 当形状的枚举结束时调用。 |
+| [visitShapeStart(Shape shape)](#visitShapeStart-com.aspose.words.Shape-) | 在开始枚举形状时调用。 |
+| [visitSmartTagEnd(SmartTag smartTag)](#visitSmartTagEnd-com.aspose.words.SmartTag-) | 当智能标签的枚举结束时调用。 |
+| [visitSmartTagStart(SmartTag smartTag)](#visitSmartTagStart-com.aspose.words.SmartTag-) | 当智能标签的枚举开始时调用。 |
+| [visitSpecialChar(SpecialChar specialChar)](#visitSpecialChar-com.aspose.words.SpecialChar-) | 当一个[SpecialChar](../../com.aspose.words/specialchar)在文档中遇到节点。 |
+| [visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)](#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-) | 当结构化文档标签的枚举结束时调用。 |
 | [visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)](#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd-) |  |
 | [visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)](#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart-) |  |
-| [visitStructuredDocumentTagStart(StructuredDocumentTag sdt)](#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-) | Called when enumeration of a structured document tag has started. |
-| [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument-) | Called when a subDocument is encountered. |
-| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table-) | Called when enumeration of a table has ended. |
-| [visitTableStart(Table table)](#visitTableStart-com.aspose.words.Table-) | Called when enumeration of a table has started. |
+| [visitStructuredDocumentTagStart(StructuredDocumentTag sdt)](#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-) | 当结构化文档标签的枚举开始时调用。 |
+| [visitSubDocument(SubDocument subDocument)](#visitSubDocument-com.aspose.words.SubDocument-) | 遇到子文档时调用。 |
+| [visitTableEnd(Table table)](#visitTableEnd-com.aspose.words.Table-) | 当表的枚举结束时调用。 |
+| [visitTableStart(Table table)](#visitTableStart-com.aspose.words.Table-) | 当表的枚举开始时调用。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -101,23 +101,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -126,8 +126,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -152,7 +152,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### visitAbsolutePositionTab(AbsolutePositionTab tab) {#visitAbsolutePositionTab-com.aspose.words.AbsolutePositionTab-}
 ```
@@ -160,684 +160,684 @@ public int visitAbsolutePositionTab(AbsolutePositionTab tab)
 ```
 
 
-Called when a [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) node is encountered in the document.
+当一个[AbsolutePositionTab](../../com.aspose.words/absolutepositiontab)在文档中遇到节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) | The object that is being visited. |
+| tab | [AbsolutePositionTab](../../com.aspose.words/absolutepositiontab) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBodyEnd(Body body) {#visitBodyEnd-com.aspose.words.Body-}
 ```
 public int visitBodyEnd(Body body)
 ```
 
 
-Called when enumeration of the main text story in a section has ended.
+当一节中主要文本故事的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| body | [Body](../../com.aspose.words/body) | The object that is being visited. |
+| body | [Body](../../com.aspose.words/body) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBodyStart(Body body) {#visitBodyStart-com.aspose.words.Body-}
 ```
 public int visitBodyStart(Body body)
 ```
 
 
-Called when enumeration of the main text story in a section has started.
+当一节中的主要文本故事的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| body | [Body](../../com.aspose.words/body) | The object that is being visited. |
+| body | [Body](../../com.aspose.words/body) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBookmarkEnd(BookmarkEnd bookmarkEnd) {#visitBookmarkEnd-com.aspose.words.BookmarkEnd-}
 ```
 public int visitBookmarkEnd(BookmarkEnd bookmarkEnd)
 ```
 
 
-Called when an end of a bookmark is encountered in the document.
+在文档中遇到书签结尾时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend) | The object that is being visited. |
+| bookmarkEnd | [BookmarkEnd](../../com.aspose.words/bookmarkend) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBookmarkStart(BookmarkStart bookmarkStart) {#visitBookmarkStart-com.aspose.words.BookmarkStart-}
 ```
 public int visitBookmarkStart(BookmarkStart bookmarkStart)
 ```
 
 
-Called when a start of a bookmark is encountered in the document.
+在文档中遇到书签开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart) | The object that is being visited. |
+| bookmarkStart | [BookmarkStart](../../com.aspose.words/bookmarkstart) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBuildingBlockEnd(BuildingBlock block) {#visitBuildingBlockEnd-com.aspose.words.BuildingBlock-}
 ```
 public int visitBuildingBlockEnd(BuildingBlock block)
 ```
 
 
-Called when enumeration of a building block has ended.
+当构建块的枚举结束时调用。
 
-Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../com.aspose.words/glossarydocument) or call [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
+注意：当您通过一个访问者执行一个构建块节点及其子节点[Document](../../com.aspose.words/document).如果要在构建块上执行访问者，则需要执行访问者[GlossaryDocument](../../com.aspose.words/glossarydocument)或致电[BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock) | The object that is being visited. |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitBuildingBlockStart(BuildingBlock block) {#visitBuildingBlockStart-com.aspose.words.BuildingBlock-}
 ```
 public int visitBuildingBlockStart(BuildingBlock block)
 ```
 
 
-Called when enumeration of a building block has started.
+在开始枚举构建块时调用。
 
-Note: A building block node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a building block, you need to execute the visitor over [GlossaryDocument](../../com.aspose.words/glossarydocument) or call [BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
+注意：当您通过一个访问者执行一个构建块节点及其子节点[Document](../../com.aspose.words/document).如果要在构建块上执行访问者，则需要执行访问者[GlossaryDocument](../../com.aspose.words/glossarydocument)或致电[BuildingBlock.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/buildingblock\#accept-com.aspose.words.DocumentVisitor-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| block | [BuildingBlock](../../com.aspose.words/buildingblock) | The object that is being visited. |
+| block | [BuildingBlock](../../com.aspose.words/buildingblock) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCellEnd(Cell cell) {#visitCellEnd-com.aspose.words.Cell-}
 ```
 public int visitCellEnd(Cell cell)
 ```
 
 
-Called when enumeration of a table cell has ended.
+当表格单元格的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell) | The object that is being visited. |
+| cell | [Cell](../../com.aspose.words/cell) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCellStart(Cell cell) {#visitCellStart-com.aspose.words.Cell-}
 ```
 public int visitCellStart(Cell cell)
 ```
 
 
-Called when enumeration of a table cell has started.
+在开始枚举表格单元格时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| cell | [Cell](../../com.aspose.words/cell) | The object that is being visited. |
+| cell | [Cell](../../com.aspose.words/cell) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCommentEnd(Comment comment) {#visitCommentEnd-com.aspose.words.Comment-}
 ```
 public int visitCommentEnd(Comment comment)
 ```
 
 
-Called when enumeration of a comment text has ended.
+当评论文本的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment) | The object that is being visited. |
+| comment | [Comment](../../com.aspose.words/comment) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCommentRangeEnd(CommentRangeEnd commentRangeEnd) {#visitCommentRangeEnd-com.aspose.words.CommentRangeEnd-}
 ```
 public int visitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
 ```
 
 
-Called when the end of a commented range of text is encountered.
+当遇到注释文本范围的结尾时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend) | The object that is being visited. |
+| commentRangeEnd | [CommentRangeEnd](../../com.aspose.words/commentrangeend) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCommentRangeStart(CommentRangeStart commentRangeStart) {#visitCommentRangeStart-com.aspose.words.CommentRangeStart-}
 ```
 public int visitCommentRangeStart(CommentRangeStart commentRangeStart)
 ```
 
 
-Called when the start of a commented range of text is encountered.
+当遇到注释文本范围的开头时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart) | The object that is being visited. |
+| commentRangeStart | [CommentRangeStart](../../com.aspose.words/commentrangestart) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitCommentStart(Comment comment) {#visitCommentStart-com.aspose.words.Comment-}
 ```
 public int visitCommentStart(Comment comment)
 ```
 
 
-Called when enumeration of a comment text has started.
+当注释文本的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| comment | [Comment](../../com.aspose.words/comment) | The object that is being visited. |
+| comment | [Comment](../../com.aspose.words/comment) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitDocumentEnd(Document doc) {#visitDocumentEnd-com.aspose.words.Document-}
 ```
 public int visitDocumentEnd(Document doc)
 ```
 
 
-Called when enumeration of the document has finished.
+当文档的枚举完成时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | The object that is being visited. |
+| doc | [Document](../../com.aspose.words/document) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitDocumentStart(Document doc) {#visitDocumentStart-com.aspose.words.Document-}
 ```
 public int visitDocumentStart(Document doc)
 ```
 
 
-Called when enumeration of the document has started.
+当文档的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | The object that is being visited. |
+| doc | [Document](../../com.aspose.words/document) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitEditableRangeEnd(EditableRangeEnd editableRangeEnd) {#visitEditableRangeEnd-com.aspose.words.EditableRangeEnd-}
 ```
 public int visitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
 ```
 
 
-Called when an end of an editable range is encountered in the document.
+在文档中遇到可编辑范围的结尾时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend) | The object that is being visited. |
+| editableRangeEnd | [EditableRangeEnd](../../com.aspose.words/editablerangeend) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitEditableRangeStart(EditableRangeStart editableRangeStart) {#visitEditableRangeStart-com.aspose.words.EditableRangeStart-}
 ```
 public int visitEditableRangeStart(EditableRangeStart editableRangeStart)
 ```
 
 
-Called when a start of an editable range is encountered in the document.
+在文档中遇到可编辑范围的开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart) | The object that is being visited. |
+| editableRangeStart | [EditableRangeStart](../../com.aspose.words/editablerangestart) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
-### visitFieldEnd(FieldEnd fieldEnd) {#visitFieldEnd-com.aspose.words.FieldEnd-}
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
+### visit字段End(字段End fieldEnd) {#visit字段End-com.aspose.words.字段End-}
 ```
-public int visitFieldEnd(FieldEnd fieldEnd)
+public int visit字段End(字段End fieldEnd)
 ```
 
 
-Called when a field ends in the document.
+当字段在文档中结束时调用。
 
-For more info see [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor\#visitFieldStart-com.aspose.words.FieldStart-)
+有关更多信息，请参阅[visit字段Start(com.aspose.words.字段Start)](../../com.aspose.words/documentvisitor\#visit字段Start-com.aspose.words.字段Start-)
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldEnd | [FieldEnd](../../com.aspose.words/fieldend) | The object that is being visited. |
+| fieldEnd | [字段End](../../com.aspose.words/fieldend) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
-### visitFieldSeparator(FieldSeparator fieldSeparator) {#visitFieldSeparator-com.aspose.words.FieldSeparator-}
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
+### visit字段Separator(字段Separator fieldSeparator) {#visit字段Separator-com.aspose.words.字段Separator-}
 ```
-public int visitFieldSeparator(FieldSeparator fieldSeparator)
+public int visit字段Separator(字段Separator fieldSeparator)
 ```
 
 
-Called when a field separator is encountered in the document.
+在文档中遇到字段分隔符时调用。
 
-The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.
+字段分隔符将文档中的字段代码与字段值分开。请注意，有些字段只有字段代码，没有字段分隔符和字段值。
 
-For more info see [visitFieldStart(com.aspose.words.FieldStart)](../../com.aspose.words/documentvisitor\#visitFieldStart-com.aspose.words.FieldStart-)
+有关更多信息，请参阅[visit字段Start(com.aspose.words.字段Start)](../../com.aspose.words/documentvisitor\#visit字段Start-com.aspose.words.字段Start-)
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldSeparator | [FieldSeparator](../../com.aspose.words/fieldseparator) | The object that is being visited. |
+| fieldSeparator | [字段Separator](../../com.aspose.words/fieldseparator) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
-### visitFieldStart(FieldStart fieldStart) {#visitFieldStart-com.aspose.words.FieldStart-}
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
+### visit字段Start(字段Start fieldStart) {#visit字段Start-com.aspose.words.字段Start-}
 ```
-public int visitFieldStart(FieldStart fieldStart)
+public int visit字段Start(字段Start fieldStart)
 ```
 
 
-Called when a field starts in the document.
+当文档中的字段开始时调用。
 
-A field in a Word document consists of a field code and field value.
+Word 文档中的字段由字段代码和字段值组成。
 
-For example, a field that displays a page number can be represented as follows:
+例如，显示页码的字段可以表示如下：
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[字段Start]PAGE[场分离器]98[场结束]
 
-The field separator separates field code from field value in the document. Note that some fields have only field code and do not have field separator and field value.
+字段分隔符将文档中的字段代码与字段值分开。请注意，有些字段只有字段代码，没有字段分隔符和字段值。
 
-Fields can be nested.
+字段可以嵌套。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fieldStart | [FieldStart](../../com.aspose.words/fieldstart) | The object that is being visited. |
+| fieldStart | [字段Start](../../com.aspose.words/fieldstart) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitFootnoteEnd(Footnote footnote) {#visitFootnoteEnd-com.aspose.words.Footnote-}
 ```
 public int visitFootnoteEnd(Footnote footnote)
 ```
 
 
-Called when enumeration of a footnote or endnote text has ended.
+当脚注或尾注文本的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote) | The object that is being visited. |
+| footnote | [Footnote](../../com.aspose.words/footnote) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitFootnoteStart(Footnote footnote) {#visitFootnoteStart-com.aspose.words.Footnote-}
 ```
 public int visitFootnoteStart(Footnote footnote)
 ```
 
 
-Called when enumeration of a footnote or endnote text has started.
+当开始枚举脚注或尾注文本时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| footnote | [Footnote](../../com.aspose.words/footnote) | The object that is being visited. |
+| footnote | [Footnote](../../com.aspose.words/footnote) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
-### visitFormField(FormField formField) {#visitFormField-com.aspose.words.FormField-}
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
+### visitForm字段(Form字段 form字段) {#visitForm字段-com.aspose.words.Form字段-}
 ```
-public int visitFormField(FormField formField)
+public int visitForm字段(Form字段 form字段)
 ```
 
 
-Called when a form field is encountered in the document.
+在文档中遇到表单域时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| formField | [FormField](../../com.aspose.words/formfield) | The object that is being visited. |
+| form字段 | [Form字段](../../com.aspose.words/formfield) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitGlossaryDocumentEnd(GlossaryDocument glossary) {#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-}
 ```
 public int visitGlossaryDocumentEnd(GlossaryDocument glossary)
 ```
 
 
-Called when enumeration of a glossary document has ended.
+当词汇表文档的枚举结束时调用。
 
-Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a glossary document, you need to call [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
+注意：当您在[Document](../../com.aspose.words/document).如果要对词汇表文档执行访问者，则需要调用[GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | The object that is being visited. |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitGlossaryDocumentStart(GlossaryDocument glossary) {#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-}
 ```
 public int visitGlossaryDocumentStart(GlossaryDocument glossary)
 ```
 
 
-Called when enumeration of a glossary document has started.
+当词汇表文档的枚举开始时调用。
 
-Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a glossary document, you need to call [GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
+注意：当您在[Document](../../com.aspose.words/document).如果要对词汇表文档执行访问者，则需要调用[GlossaryDocument.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | The object that is being visited. |
+| glossary | [GlossaryDocument](../../com.aspose.words/glossarydocument) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitGroupShapeEnd(GroupShape groupShape) {#visitGroupShapeEnd-com.aspose.words.GroupShape-}
 ```
 public int visitGroupShapeEnd(GroupShape groupShape)
 ```
 
 
-Called when enumeration of a group shape has ended.
+当组形状的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape) | The object that is being visited. |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitGroupShapeStart(GroupShape groupShape) {#visitGroupShapeStart-com.aspose.words.GroupShape-}
 ```
 public int visitGroupShapeStart(GroupShape groupShape)
 ```
 
 
-Called when enumeration of a group shape has started.
+当组形状的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../com.aspose.words/groupshape) | The object that is being visited. |
+| groupShape | [GroupShape](../../com.aspose.words/groupshape) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitHeaderFooterEnd(HeaderFooter headerFooter) {#visitHeaderFooterEnd-com.aspose.words.HeaderFooter-}
 ```
 public int visitHeaderFooterEnd(HeaderFooter headerFooter)
 ```
 
 
-Called when enumeration of a header or footer in a section has ended.
+当节中的页眉或页脚枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | The object that is being visited. |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitHeaderFooterStart(HeaderFooter headerFooter) {#visitHeaderFooterStart-com.aspose.words.HeaderFooter-}
 ```
 public int visitHeaderFooterStart(HeaderFooter headerFooter)
 ```
 
 
-Called when enumeration of a header or footer in a section has started.
+当开始枚举节中的页眉或页脚时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | The object that is being visited. |
+| headerFooter | [HeaderFooter](../../com.aspose.words/headerfooter) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitOfficeMathEnd(OfficeMath officeMath) {#visitOfficeMathEnd-com.aspose.words.OfficeMath-}
 ```
 public int visitOfficeMathEnd(OfficeMath officeMath)
 ```
 
 
-Called when enumeration of a Office Math object has ended.
+在 Office Math 对象的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath) | The object that is being visited. |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitOfficeMathStart(OfficeMath officeMath) {#visitOfficeMathStart-com.aspose.words.OfficeMath-}
 ```
 public int visitOfficeMathStart(OfficeMath officeMath)
 ```
 
 
-Called when enumeration of a Office Math object has started.
+当 Office Math 对象的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../com.aspose.words/officemath) | The object that is being visited. |
+| officeMath | [OfficeMath](../../com.aspose.words/officemath) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitParagraphEnd(Paragraph paragraph) {#visitParagraphEnd-com.aspose.words.Paragraph-}
 ```
 public int visitParagraphEnd(Paragraph paragraph)
 ```
 
 
-Called when enumeration of a paragraph has ended.
+当段落的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph) | The object that is being visited. |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitParagraphStart(Paragraph paragraph) {#visitParagraphStart-com.aspose.words.Paragraph-}
 ```
 public int visitParagraphStart(Paragraph paragraph)
 ```
 
 
-Called when enumeration of a paragraph has started.
+当开始枚举段落时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../com.aspose.words/paragraph) | The object that is being visited. |
+| paragraph | [Paragraph](../../com.aspose.words/paragraph) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitRowEnd(Row row) {#visitRowEnd-com.aspose.words.Row-}
 ```
 public int visitRowEnd(Row row)
 ```
 
 
-Called when enumeration of a table row has ended.
+当表行的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| row | [Row](../../com.aspose.words/row) | The object that is being visited. |
+| row | [Row](../../com.aspose.words/row) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitRowStart(Row row) {#visitRowStart-com.aspose.words.Row-}
 ```
 public int visitRowStart(Row row)
 ```
 
 
-Called when enumeration of a table row has started.
+当表行的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| row | [Row](../../com.aspose.words/row) | The object that is being visited. |
+| row | [Row](../../com.aspose.words/row) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitRun(Run run) {#visitRun-com.aspose.words.Run-}
 ```
 public int visitRun(Run run)
 ```
 
 
-Called when a run of text in the is encountered.
+当遇到文本中的运行时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| run | [Run](../../com.aspose.words/run) | The object that is being visited. |
+| run | [Run](../../com.aspose.words/run) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSectionEnd(Section section) {#visitSectionEnd-com.aspose.words.Section-}
 ```
 public int visitSectionEnd(Section section)
 ```
 
 
-Called when enumeration of a section has ended.
+当一个部分的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | [Section](../../com.aspose.words/section) | The object that is being visited. |
+| section | [Section](../../com.aspose.words/section) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSectionStart(Section section) {#visitSectionStart-com.aspose.words.Section-}
 ```
 public int visitSectionStart(Section section)
 ```
 
 
-Called when enumeration of a section has started.
+当一个节的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| section | [Section](../../com.aspose.words/section) | The object that is being visited. |
+| section | [Section](../../com.aspose.words/section) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitShapeEnd(Shape shape) {#visitShapeEnd-com.aspose.words.Shape-}
 ```
 public int visitShapeEnd(Shape shape)
 ```
 
 
-Called when enumeration of a shape has ended.
+当形状的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.words/shape) | The object that is being visited. |
+| shape | [Shape](../../com.aspose.words/shape) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitShapeStart(Shape shape) {#visitShapeStart-com.aspose.words.Shape-}
 ```
 public int visitShapeStart(Shape shape)
 ```
 
 
-Called when enumeration of a shape has started.
+在开始枚举形状时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | [Shape](../../com.aspose.words/shape) | The object that is being visited. |
+| shape | [Shape](../../com.aspose.words/shape) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSmartTagEnd(SmartTag smartTag) {#visitSmartTagEnd-com.aspose.words.SmartTag-}
 ```
 public int visitSmartTagEnd(SmartTag smartTag)
 ```
 
 
-Called when enumeration of a smart tag has ended.
+当智能标签的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag) | The object that is being visited. |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSmartTagStart(SmartTag smartTag) {#visitSmartTagStart-com.aspose.words.SmartTag-}
 ```
 public int visitSmartTagStart(SmartTag smartTag)
 ```
 
 
-Called when enumeration of a smart tag has started.
+当智能标签的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../com.aspose.words/smarttag) | The object that is being visited. |
+| smartTag | [SmartTag](../../com.aspose.words/smarttag) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSpecialChar(SpecialChar specialChar) {#visitSpecialChar-com.aspose.words.SpecialChar-}
 ```
 public int visitSpecialChar(SpecialChar specialChar)
 ```
 
 
-Called when a [SpecialChar](../../com.aspose.words/specialchar) node is encountered in the document.
+当一个[SpecialChar](../../com.aspose.words/specialchar)在文档中遇到节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| specialChar | [SpecialChar](../../com.aspose.words/specialchar) | The object that is being visited. |
+| specialChar | [SpecialChar](../../com.aspose.words/specialchar) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants. This method is not be called for generic control characters (see [ControlChar](../../com.aspose.words/controlchar)) that can be present in the document.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。通用控制字符不调用此方法（请参阅[ControlChar](../../com.aspose.words/controlchar)可以出现在文档中。
 ### visitStructuredDocumentTagEnd(StructuredDocumentTag sdt) {#visitStructuredDocumentTagEnd-com.aspose.words.StructuredDocumentTag-}
 ```
 public int visitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
 ```
 
 
-Called when enumeration of a structured document tag has ended.
+当结构化文档标签的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | The object that is being visited. |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd) {#visitStructuredDocumentTagRangeEnd-com.aspose.words.StructuredDocumentTagRangeEnd-}
 ```
 public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
@@ -846,13 +846,13 @@ public int visitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtR
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../com.aspose.words/structureddocumenttagrangeend) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart) {#visitStructuredDocumentTagRangeStart-com.aspose.words.StructuredDocumentTagRangeStart-}
 ```
 public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
@@ -861,73 +861,73 @@ public int visitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | sdtRangeStart | [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### visitStructuredDocumentTagStart(StructuredDocumentTag sdt) {#visitStructuredDocumentTagStart-com.aspose.words.StructuredDocumentTag-}
 ```
 public int visitStructuredDocumentTagStart(StructuredDocumentTag sdt)
 ```
 
 
-Called when enumeration of a structured document tag has started.
+当结构化文档标签的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | The object that is being visited. |
+| sdt | [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitSubDocument(SubDocument subDocument) {#visitSubDocument-com.aspose.words.SubDocument-}
 ```
 public int visitSubDocument(SubDocument subDocument)
 ```
 
 
-Called when a subDocument is encountered.
+遇到子文档时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| subDocument | [SubDocument](../../com.aspose.words/subdocument) | The object that is being visited. |
+| subDocument | [SubDocument](../../com.aspose.words/subdocument) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitTableEnd(Table table) {#visitTableEnd-com.aspose.words.Table-}
 ```
 public int visitTableEnd(Table table)
 ```
 
 
-Called when enumeration of a table has ended.
+当表的枚举结束时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| table | [Table](../../com.aspose.words/table) | The object that is being visited. |
+| table | [Table](../../com.aspose.words/table) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### visitTableStart(Table table) {#visitTableStart-com.aspose.words.Table-}
 ```
 public int visitTableStart(Table table)
 ```
 
 
-Called when enumeration of a table has started.
+当表的枚举开始时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| table | [Table](../../com.aspose.words/table) | The object that is being visited. |
+| table | [Table](../../com.aspose.words/table) | 正在访问的对象。 |
 
-**Returns:**
-int - A [VisitorAction](../../com.aspose.words/visitoraction) value that specifies how to continue the enumeration. The returned value is one of [VisitorAction](../../com.aspose.words/visitoraction) constants.
+**退货:**
+诠释 - A[VisitorAction](../../com.aspose.words/visitoraction)指定如何继续枚举的值。返回值是以下之一[VisitorAction](../../com.aspose.words/visitoraction)常数。
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -944,8 +944,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -957,9 +957,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

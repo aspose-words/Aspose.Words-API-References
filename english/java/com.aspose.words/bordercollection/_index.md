@@ -1,57 +1,57 @@
 ---
 title: BorderCollection
-second_title: Aspose.Words for Java API Reference
-description: A collection of Border objects.
+second_title: Aspose.Words for Java API 参考
+description: 边框对象的集合。
 type: docs
 weight: 37
-url: /java/com.aspose.words/bordercollection/
+url: /zh/java/com.aspose.words/bordercollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class BorderCollection implements Iterable
 ```
 
-A collection of Border objects.
+边框对象的集合。
 
-To learn more, visit the **Programming with Documents** documentation article.
+要了解更多信息，请访问**Programming with Documents**文档文章。
 
-Different document elements have different borders. For example, ParagraphFormat has Bottom, Left, Right and Top borders. You can specify different formatting for each border independently or enumerate through all borders and apply same formatting.
-## Methods
+不同的文档元素有不同的边界。例如，ParagraphFormat 具有底部、左侧、右侧和顶部边框。您可以为每个边框单独指定不同的格式，或者枚举所有边框并应用相同的格式。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Removes all borders of an object. |
-| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | Compares collections of borders. |
+| [clearFormatting()](#clearFormatting--) | 移除对象的所有边框。 |
+| [equals(BorderCollection brColl)](#equals-com.aspose.words.BorderCollection-) | 比较边框的集合。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Retrieves a Border object by index. |
-| [getBottom()](#getBottom--) | Gets the bottom border. |
-| [getByBorderType(int borderType)](#getByBorderType-int-) |  |
-| [getClass()](#getClass--) |  |
-| [getColor()](#getColor--) | Gets the border color. |
-| [getCount()](#getCount--) | Gets the number of borders in the collection. |
-| [getDistanceFromText()](#getDistanceFromText--) | Gets distance of the border from text in points. |
-| [getHorizontal()](#getHorizontal--) | Gets the horizontal border that is used between cells or conforming paragraphs. |
-| [getLeft()](#getLeft--) | Gets the left border. |
-| [getLineStyle()](#getLineStyle--) | Gets the border style. |
-| [getLineWidth()](#getLineWidth--) | Gets the border width in points. |
-| [getRight()](#getRight--) | Gets the right border. |
-| [getShadow()](#getShadow--) | Gets a value indicating whether the border has a shadow. |
-| [getTop()](#getTop--) | Gets the top border. |
-| [getVertical()](#getVertical--) | Gets the vertical border that is used between cells. |
+| [get(int index)](#get-int-) | 按索引检索 Border 对象。 |
+| [getBottom()](#getBottom--) | 获取底部边框。 |
+| [getByBorder类型(int border类型)](#getByBorder类型-int-) |  |
+| [get班级()](#get班级--) |  |
+| [getColor()](#getColor--) | 获取边框颜色。 |
+| [getCount()](#getCount--) | 获取集合中的边框数。 |
+| [getDistanceFromText()](#getDistanceFromText--) | 以点为单位获取边框与文本的距离。 |
+| [getHorizontal()](#getHorizontal--) | 获取在单元格或符合段落之间使用的水平边框。 |
+| [getLeft()](#getLeft--) | 获取左边框。 |
+| [getLineStyle()](#getLineStyle--) | 获取边框样式。 |
+| [getLineWidth()](#getLineWidth--) | 以磅为单位获取边框宽度。 |
+| [getRight()](#getRight--) | 获取正确的边框。 |
+| [getShadow()](#getShadow--) | 获取一个值，该值指示边框是否有阴影。 |
+| [getTop()](#getTop--) | 获取上边框。 |
+| [getVertical()](#getVertical--) | 获取单元格之间使用的垂直边框。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object that can be used to iterate over all borders in the collection. |
+| [iterator()](#iterator--) | 返回一个可用于遍历集合中所有边框的枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the border color. |
-| [setDistanceFromText(double value)](#setDistanceFromText-double-) | Sets distance of the border from text in points. |
-| [setLineStyle(int value)](#setLineStyle-int-) | Sets the border style. |
-| [setLineWidth(double value)](#setLineWidth-double-) | Sets the border width in points. |
-| [setShadow(boolean value)](#setShadow-boolean-) | Sets a value indicating whether the border has a shadow. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | 设置边框颜色。 |
+| [setDistanceFromText(double value)](#setDistanceFromText-double-) | 以点为单位设置边框与文本的距离。 |
+| [setLineStyle(int value)](#setLineStyle-int-) | 设置边框样式。 |
+| [setLineWidth(double value)](#setLineWidth-double-) | 以磅为单位设置边框宽度。 |
+| [setShadow(boolean value)](#setShadow-boolean-) | 设置一个值，指示边框是否有阴影。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public void clearFormatting()
 ```
 
 
-Removes all borders of an object.
+移除对象的所有边框。
 
 ### equals(BorderCollection brColl) {#equals-com.aspose.words.BorderCollection-}
 ```
@@ -70,15 +70,15 @@ public boolean equals(BorderCollection brColl)
 ```
 
 
-Compares collections of borders.
+比较边框的集合。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | brColl | [BorderCollection](../../com.aspose.words/bordercollection) |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -87,195 +87,195 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public Border get(int index)
 ```
 
 
-Retrieves a Border object by index.
+按索引检索 Border 对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the border to retrieve. |
+| index | int | 要检索的边界的从零开始的索引。 |
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The corresponding [Border](../../com.aspose.words/border) value.
+**退货:**
+[Border](../../com.aspose.words/border) - 相应的[Border](../../com.aspose.words/border)价值。
 ### getBottom() {#getBottom--}
 ```
 public Border getBottom()
 ```
 
 
-Gets the bottom border.
+获取底部边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The bottom border.
-### getByBorderType(int borderType) {#getByBorderType-int-}
+**退货:**
+[Border](../../com.aspose.words/border) - 底部边框。
+### getByBorder类型(int border类型) {#getByBorder类型-int-}
 ```
-public Border getByBorderType(int borderType)
+public Border getByBorder类型(int border类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| borderType | int |  |
+| border类型 | int |  |
 
-**Returns:**
+**退货:**
 [Border](../../com.aspose.words/border)
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-Gets the border color.
+获取边框颜色。
 
-Returns the color of the first border in the collection.
+返回集合中第一个边框的颜色。
 
-Sets the color of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的颜色，不包括对角线边框。
 
-**Returns:**
-java.awt.Color - The border color.
+**退货:**
+java.awt.Color - 边框颜色。
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets the number of borders in the collection.
+获取集合中的边框数。
 
-**Returns:**
-int - The number of borders in the collection.
+**退货:**
+int - 集合中的边框数。
 ### getDistanceFromText() {#getDistanceFromText--}
 ```
 public double getDistanceFromText()
 ```
 
 
-Gets distance of the border from text in points.
+以点为单位获取边框与文本的距离。
 
-Gets the distance from text for the first border.
+获取第一个边框与文本的距离。
 
-Sets the distance from text for all borders in the collection excluding diagonal borders.
+为集合中的所有边框设置与文本的距离，不包括对角线边框。
 
-Has no effect and will be automatically reset to zero for borders of table cells.
+没有效果，表格单元格的边框将自动重置为零。
 
-**Returns:**
-double - Distance of the border from text in points.
+**退货:**
+double - 边框与文本的距离（以磅为单位）。
 ### getHorizontal() {#getHorizontal--}
 ```
 public Border getHorizontal()
 ```
 
 
-Gets the horizontal border that is used between cells or conforming paragraphs.
+获取在单元格或符合段落之间使用的水平边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The horizontal border that is used between cells or conforming paragraphs.
+**退货:**
+[Border](../../com.aspose.words/border) - 在单元格或符合段落之间使用的水平边框。
 ### getLeft() {#getLeft--}
 ```
 public Border getLeft()
 ```
 
 
-Gets the left border.
+获取左边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The left border.
+**退货:**
+[Border](../../com.aspose.words/border) - 左边框。
 ### getLineStyle() {#getLineStyle--}
 ```
 public int getLineStyle()
 ```
 
 
-Gets the border style.
+获取边框样式。
 
-Returns the style of the first border in the collection.
+返回集合中第一个边框的样式。
 
-Sets the style of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的样式，不包括对角线边框。
 
-**Returns:**
-int - The border style. The returned value is one of [LineStyle](../../com.aspose.words/linestyle) constants.
+**退货:**
+ int - 边框样式。返回值是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。
 ### getLineWidth() {#getLineWidth--}
 ```
 public double getLineWidth()
 ```
 
 
-Gets the border width in points.
+以磅为单位获取边框宽度。
 
-Returns the width of the first border in the collection.
+返回集合中第一个边框的宽度。
 
-Sets the width of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的宽度，不包括对角线边框。
 
-**Returns:**
-double - The border width in points.
+**退货:**
+double - 以磅为单位的边框宽度。
 ### getRight() {#getRight--}
 ```
 public Border getRight()
 ```
 
 
-Gets the right border.
+获取正确的边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The right border.
+**退货:**
+[Border](../../com.aspose.words/border) - 右边框。
 ### getShadow() {#getShadow--}
 ```
 public boolean getShadow()
 ```
 
 
-Gets a value indicating whether the border has a shadow.
+获取一个值，该值指示边框是否有阴影。
 
-Gets the value from the first border in the collection.
+从集合中的第一个边框获取值。
 
-Sets the value for all borders in the collection excluding diagonal borders.
+设置集合中所有边框的值，不包括对角线边框。
 
-**Returns:**
-boolean - A value indicating whether the border has a shadow.
+**退货:**
+boolean - 指示边框是否有阴影的值。
 ### getTop() {#getTop--}
 ```
 public Border getTop()
 ```
 
 
-Gets the top border.
+获取上边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The top border.
+**退货:**
+[Border](../../com.aspose.words/border) - 顶部边框。
 ### getVertical() {#getVertical--}
 ```
 public Border getVertical()
 ```
 
 
-Gets the vertical border that is used between cells.
+获取单元格之间使用的垂直边框。
 
-**Returns:**
-[Border](../../com.aspose.words/border) - The vertical border that is used between cells.
+**退货:**
+[Border](../../com.aspose.words/border) - 单元格之间使用的垂直边框。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -284,17 +284,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator object that can be used to iterate over all borders in the collection.
+返回一个可用于遍历集合中所有边框的枚举器对象。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -318,16 +318,16 @@ public void setColor(Color value)
 ```
 
 
-Sets the border color.
+设置边框颜色。
 
-Returns the color of the first border in the collection.
+返回集合中第一个边框的颜色。
 
-Sets the color of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的颜色，不包括对角线边框。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.awt.Color | The border color. |
+| value | java.awt.Color | 边框颜色。 |
 
 ### setDistanceFromText(double value) {#setDistanceFromText-double-}
 ```
@@ -335,18 +335,18 @@ public void setDistanceFromText(double value)
 ```
 
 
-Sets distance of the border from text in points.
+以点为单位设置边框与文本的距离。
 
-Gets the distance from text for the first border.
+获取第一个边框与文本的距离。
 
-Sets the distance from text for all borders in the collection excluding diagonal borders.
+为集合中的所有边框设置与文本的距离，不包括对角线边框。
 
-Has no effect and will be automatically reset to zero for borders of table cells.
+没有效果，表格单元格的边框将自动重置为零。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | Distance of the border from text in points. |
+| value | double | 边框与文本的距离（以磅为单位）。 |
 
 ### setLineStyle(int value) {#setLineStyle-int-}
 ```
@@ -354,16 +354,16 @@ public void setLineStyle(int value)
 ```
 
 
-Sets the border style.
+设置边框样式。
 
-Returns the style of the first border in the collection.
+返回集合中第一个边框的样式。
 
-Sets the style of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的样式，不包括对角线边框。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The border style. The value must be one of [LineStyle](../../com.aspose.words/linestyle) constants. |
+| value | int | 边框样式。该值必须是以下之一[LineStyle](../../com.aspose.words/linestyle)常数。 |
 
 ### setLineWidth(double value) {#setLineWidth-double-}
 ```
@@ -371,16 +371,16 @@ public void setLineWidth(double value)
 ```
 
 
-Sets the border width in points.
+以磅为单位设置边框宽度。
 
-Returns the width of the first border in the collection.
+返回集合中第一个边框的宽度。
 
-Sets the width of all borders in the collection excluding diagonal borders.
+设置集合中所有边框的宽度，不包括对角线边框。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The border width in points. |
+| value | double | 以磅为单位的边框宽度。 |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
@@ -388,16 +388,16 @@ public void setShadow(boolean value)
 ```
 
 
-Sets a value indicating whether the border has a shadow.
+设置一个值，指示边框是否有阴影。
 
-Gets the value from the first border in the collection.
+从集合中的第一个边框获取值。
 
-Sets the value for all borders in the collection excluding diagonal borders.
+设置集合中所有边框的值，不包括对角线边框。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value indicating whether the border has a shadow. |
+| value | boolean | 指示边框是否有阴影的值。 |
 
 ### toString() {#toString--}
 ```
@@ -407,7 +407,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -425,8 +425,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -438,9 +438,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

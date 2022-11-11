@@ -1,37 +1,37 @@
 ---
 title: TextDmlEffect
 second_title: Aspose.Words for Java API Reference
-description: Dml text effect for text runs.
+description: 文本运行的 Dml 文本效果。
 type: docs
 weight: 563
-url: /java/com.aspose.words/textdmleffect/
+url: /zh/java/com.aspose.words/textdmleffect/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TextDmlEffect
 ```
 
-Dml text effect for text runs.
-## Fields
+文本运行的 Dml 文本效果。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [EFFECT_3_D](#EFFECT-3-D) | 3D effect. |
-| [FILL](#FILL) | Fill overlay effect. |
-| [GLOW](#GLOW) | Glow effect, in which a color blurred outline is added outside the edges of the object. |
-| [OUTLINE](#OUTLINE) | Outline effect. |
-| [REFLECTION](#REFLECTION) | Reflection effect. |
-| [SHADOW](#SHADOW) | Shadow effect. |
+| [EFFECT_3_D](#EFFECT-3-D) | 3D效果。 |
+| [FILL](#FILL) | 填充叠加效果。 |
+| [GLOW](#GLOW) | 发光效果，其中在对象边缘之外添加颜色模糊的轮廓。 |
+| [OUTLINE](#OUTLINE) | 轮廓效果。 |
+| [REFLECTION](#REFLECTION) | 反射效果。 |
+| [SHADOW](#SHADOW) | 阴影效果。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textDmlEffectName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int textDmlEffect)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int EFFECT_3_D
 ```
 
 
-3D effect.
+3D效果。
 
 ### FILL {#FILL}
 ```
@@ -56,7 +56,7 @@ public static int FILL
 ```
 
 
-Fill overlay effect.
+填充叠加效果。
 
 ### GLOW {#GLOW}
 ```
@@ -64,7 +64,7 @@ public static int GLOW
 ```
 
 
-Glow effect, in which a color blurred outline is added outside the edges of the object.
+发光效果，其中在对象边缘之外添加颜色模糊的轮廓。
 
 ### OUTLINE {#OUTLINE}
 ```
@@ -72,7 +72,7 @@ public static int OUTLINE
 ```
 
 
-Outline effect.
+轮廓效果。
 
 ### REFLECTION {#REFLECTION}
 ```
@@ -80,7 +80,7 @@ public static int REFLECTION
 ```
 
 
-Reflection effect.
+反射效果。
 
 ### SHADOW {#SHADOW}
 ```
@@ -88,7 +88,7 @@ public static int SHADOW
 ```
 
 
-Shadow effect.
+阴影效果。
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String textDmlEffectName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textDmlEffectName)
@@ -119,23 +119,23 @@ public static int fromName(String textDmlEffectName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffectName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int textDmlEffect) {#getName-int-}
 ```
 public static String getName(int textDmlEffect)
@@ -144,12 +144,12 @@ public static String getName(int textDmlEffect)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int textDmlEffect) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int textDmlEffect)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | textDmlEffect | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

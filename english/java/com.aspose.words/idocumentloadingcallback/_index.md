@@ -1,33 +1,32 @@
 ---
 title: IDocumentLoadingCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to have your own custom method called during loading a document.
+second_title: Aspose.Words for Java API 参考
+description: 如果您想在加载文档期间调用自己的自定义方法，请实现此接口。
 type: docs
 weight: 636
-url: /java/com.aspose.words/idocumentloadingcallback/
+url: /zh/java/com.aspose.words/idocumentloadingcallback/
 ---
 ```
 public interface IDocumentLoadingCallback
 ```
 
-Implement this interface if you want to have your own custom method called during loading a document.
-## Methods
+如果您想在加载文档期间调用自己的自定义方法，请实现此接口。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs-) | This is called to notify of document loading progress. |
+| [notify(DocumentLoadingArgs args)](#notify-com.aspose.words.DocumentLoadingArgs-) | 调用它来通知文档加载进度。 |
 ### notify(DocumentLoadingArgs args) {#notify-com.aspose.words.DocumentLoadingArgs-}
 ```
 public abstract void notify(DocumentLoadingArgs args)
 ```
 
 
-This is called to notify of document loading progress.
+调用它来通知文档加载进度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort loading process.
+| args | [DocumentLoadingArgs](../../com.aspose.words/documentloadingargs) | 事件的论据。此接口的主要用途是允许应用程序代码获取进度状态并中止加载过程。
 
-An exception should be threw from the progress callback for abortion and it should be caught in the consumer code. |
-
+应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。|

@@ -1,45 +1,45 @@
 ---
 title: VbaProject
 second_title: Aspose.Words for Java API Reference
-description: Provides access to VBA project information.
+description: 提供对 VBA 项目信息的访问。
 type: docs
 weight: 596
-url: /java/com.aspose.words/vbaproject/
+url: /zh/java/com.aspose.words/vbaproject/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class VbaProject implements Cloneable
 ```
 
-Provides access to VBA project information. A VBA project inside the document is defined as a collection of VBA modules.
+提供对 VBA 项目信息的访问。文档中的 VBA 项目被定义为 VBA 模块的集合。
 
-To learn more, visit the **Working with VBA Macros** documentation article.
-## Constructors
+要了解更多信息，请访问**Working with VBA Macros**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [VbaProject()](#VbaProject--) | Creates a blank VbaProject. |
-## Methods
+| [VbaProject()](#VbaProject--) | 创建一个空白 VbaProject。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject). |
+| [deepClone()](#deepClone--) | 执行副本[VbaProject](../../com.aspose.words/vbaproject). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getCodePage()](#getCodePage--) | Returns the VBA project\\u2019s code page. |
-| [getModules()](#getModules--) | Returns collection of VBA project modules. |
-| [getName()](#getName--) | Gets VBA project name. |
-| [getReferences()](#getReferences--) | Gets a collection of VBA project references. |
+| [get班级()](#get班级--) |  |
+| [getCodePage()](#getCodePage--) | 返回 VBA 项目\\u2019s 代码页。 |
+| [getModules()](#getModules--) | 返回 VBA 项目模块的集合。 |
+| [getName()](#getName--) | 获取 VBA 项目名称。 |
+| [getReferences()](#getReferences--) | 获取 VBA 项目引用的集合。 |
 | [hashCode()](#hashCode--) |  |
-| [isSigned()](#isSigned--) | Shows whether the VbaProject is signed or not. |
+| [isSigned()](#isSigned--) | 显示 VbaProject 是否已签名。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | Sets VBA project name. |
+| [setName(String value)](#setName-java.lang.String-) | 设置 VBA 项目名称。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public VbaProject()
 ```
 
 
-Creates a blank VbaProject.
+创建一个空白 VbaProject。
 
 ### deepClone() {#deepClone--}
 ```
@@ -58,10 +58,10 @@ public VbaProject deepClone()
 ```
 
 
-Performs a copy of the [VbaProject](../../com.aspose.words/vbaproject).
+执行副本[VbaProject](../../com.aspose.words/vbaproject).
 
-**Returns:**
-[VbaProject](../../com.aspose.words/vbaproject) - The cloned VbaProject.
+**退货:**
+[VbaProject](../../com.aspose.words/vbaproject) - 克隆的 VbaProject。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -70,63 +70,63 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCodePage() {#getCodePage--}
 ```
 public int getCodePage()
 ```
 
 
-Returns the VBA project\\u2019s code page.
+返回 VBA 项目\\u2019s 代码页。
 
-**Returns:**
-int - The VBA project\\u2019s code page.
+**退货:**
+int - VBA 项目\\u2019s 代码页。
 ### getModules() {#getModules--}
 ```
 public VbaModuleCollection getModules()
 ```
 
 
-Returns collection of VBA project modules.
+返回 VBA 项目模块的集合。
 
-**Returns:**
-[VbaModuleCollection](../../com.aspose.words/vbamodulecollection) - Collection of VBA project modules.
+**退货:**
+[VbaModuleCollection](../../com.aspose.words/vbamodulecollection) VBA 项目模块的集合。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Gets VBA project name.
+获取 VBA 项目名称。
 
-**Returns:**
-java.lang.String - VBA project name.
+**退货:**
+java.lang.String - VBA 项目名称。
 ### getReferences() {#getReferences--}
 ```
 public VbaReferenceCollection getReferences()
 ```
 
 
-Gets a collection of VBA project references.
+获取 VBA 项目引用的集合。
 
-**Returns:**
-[VbaReferenceCollection](../../com.aspose.words/vbareferencecollection) - A collection of VBA project references.
+**退货:**
+[VbaReferenceCollection](../../com.aspose.words/vbareferencecollection) - VBA 项目参考的集合。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -135,18 +135,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isSigned() {#isSigned--}
 ```
 public boolean isSigned()
 ```
 
 
-Shows whether the VbaProject is signed or not.
+显示 VbaProject 是否已签名。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,12 +169,12 @@ public void setName(String value)
 ```
 
 
-Sets VBA project name.
+设置 VBA 项目名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | VBA project name. |
+| value | java.lang.String | VBA 项目名称。 |
 
 ### toString() {#toString--}
 ```
@@ -184,7 +184,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -202,8 +202,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -215,9 +215,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

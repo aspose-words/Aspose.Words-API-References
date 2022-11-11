@@ -1,42 +1,42 @@
 ---
 title: DigitalSignatureUtil
-second_title: Aspose.Words for Java API Reference
-description: Provides methods for signing document.
+second_title: Aspose.Words for Java API 参考
+description: 提供签署文件的方法。
 type: docs
 weight: 114
-url: /java/com.aspose.words/digitalsignatureutil/
+url: /zh/java/com.aspose.words/digitalsignatureutil/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DigitalSignatureUtil
 ```
 
-Provides methods for signing document.
+提供签署文件的方法。
 
-To learn more, visit the **Work with Digital Signatures** documentation article.
+要了解更多信息，请访问**Work with Digital Signatures**文档文章。
 
-Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
+由于数字签名适用于文件内容而不是文档对象模型，因此这些方法被放入一个单独的类中。
 
-Supported formats are [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) and [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
-## Methods
+支持的格式是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)和[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [loadSignatures(InputStream stream)](#loadSignatures-java.io.InputStream-) |  |
-| [loadSignatures(String fileName)](#loadSignatures-java.lang.String-) | Loads digital signatures from document. |
+| [loadSignatures(String fileName)](#loadSignatures-java.lang.String-) | 从文档加载数字签名。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeAllSignatures(InputStream srcStream, OutputStream dstStream)](#removeAllSignatures-java.io.InputStream-java.io.OutputStream-) |  |
-| [removeAllSignatures(String srcFileName, String dstFileName)](#removeAllSignatures-java.lang.String-java.lang.String-) | Removes all digital signatures from source file and writes unsigned file to destination file. |
+| [removeAllSignatures(String srcFileName, String dstFileName)](#removeAllSignatures-java.lang.String-java.lang.String-) | 从源文件中删除所有数字签名并将未签名的文件写入目标文件。 |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-) |  |
 | [sign(InputStream srcStream, OutputStream dstStream, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.io.InputStream-java.io.OutputStream-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) |  |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) with digital signature and writes signed document to destination file. |
-| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) | Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) and [SignOptions](../../com.aspose.words/signoptions) with digital signature and writes signed document to destination file. |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-) | 使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。 |
+| [sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions)](#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-) | 使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,23 +49,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -74,8 +74,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### loadSignatures(InputStream stream) {#loadSignatures-java.io.InputStream-}
 ```
 public static DigitalSignatureCollection loadSignatures(InputStream stream)
@@ -84,12 +84,12 @@ public static DigitalSignatureCollection loadSignatures(InputStream stream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-**Returns:**
+**退货:**
 [DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection)
 ### loadSignatures(String fileName) {#loadSignatures-java.lang.String-}
 ```
@@ -97,15 +97,15 @@ public static DigitalSignatureCollection loadSignatures(String fileName)
 ```
 
 
-Loads digital signatures from document.
+从文档加载数字签名。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Path to the document. |
+| fileName | java.lang.String | 文档的路径。 |
 
-**Returns:**
-[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection) - Collection of digital signatures. Returns empty collection if file is not signed.
+**退货:**
+[DigitalSignatureCollection](../../com.aspose.words/digitalsignaturecollection) - 收集数字签名。如果文件未签名，则返回空集合。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -130,8 +130,8 @@ public static void removeAllSignatures(InputStream srcStream, OutputStream dstSt
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
 | dstStream | java.io.OutputStream |  |
@@ -142,10 +142,10 @@ public static void removeAllSignatures(String srcFileName, String dstFileName)
 ```
 
 
-Removes all digital signatures from source file and writes unsigned file to destination file.
+从源文件中删除所有数字签名并将未签名的文件写入目标文件。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcFileName | java.lang.String |  |
 | dstFileName | java.lang.String |  |
@@ -158,8 +158,8 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
 | dstStream | java.io.OutputStream |  |
@@ -173,8 +173,8 @@ public static void sign(InputStream srcStream, OutputStream dstStream, Certifica
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | srcStream | java.io.InputStream |  |
 | dstStream | java.io.OutputStream |  |
@@ -187,16 +187,16 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) with digital signature and writes signed document to destination file.
+使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)带有数字签名并将签名的文档写入目标文件。
 
-Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+文件应该是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)或者[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| srcFileName | java.lang.String | The file name of the document to sign. |
-| dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder) object with certificate that used to sign file. |
+| srcFileName | java.lang.String | 要签名的文档的文件名。 |
+| dstFileName | java.lang.String | 签名文档输出的文件名。 |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder)带有用于签署文件的证书的对象。 |
 
 ### sign(String srcFileName, String dstFileName, CertificateHolder certHolder, SignOptions signOptions) {#sign-java.lang.String-java.lang.String-com.aspose.words.CertificateHolder-com.aspose.words.SignOptions-}
 ```
@@ -204,17 +204,17 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 ```
 
 
-Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder) and [SignOptions](../../com.aspose.words/signoptions) with digital signature and writes signed document to destination file.
+使用给定的标志源文档[CertificateHolder](../../com.aspose.words/certificateholder)和[SignOptions](../../com.aspose.words/signoptions)带有数字签名并将签名的文档写入目标文件。
 
-Document should be either [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC) or [LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
+文件应该是[LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC)或者[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| srcFileName | java.lang.String | The file name of the document to sign. |
-| dstFileName | java.lang.String | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder) object with certificate that used to sign file. |
-| signOptions | [SignOptions](../../com.aspose.words/signoptions) | \{[SignOptions](../../com.aspose.words/signoptions) object with various signing options. |
+| srcFileName | java.lang.String | 要签名的文档的文件名。 |
+| dstFileName | java.lang.String | 签名文档输出的文件名。 |
+| certHolder | [CertificateHolder](../../com.aspose.words/certificateholder) | \{[CertificateHolder](../../com.aspose.words/certificateholder)带有用于签署文件的证书的对象。 |
+| signOptions | [SignOptions](../../com.aspose.words/signoptions) | \{[SignOptions](../../com.aspose.words/signoptions)具有各种签名选项的对象。 |
 
 ### toString() {#toString--}
 ```
@@ -224,7 +224,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -242,8 +242,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -255,9 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

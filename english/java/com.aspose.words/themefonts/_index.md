@@ -1,39 +1,39 @@
 ---
 title: ThemeFonts
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of fonts in the font scheme allowing to specify different fonts for different languages  /   /  and  / .
+description: 表示字体方案中的字体集合，允许为不同的语言 / / 和 / 指定不同的字体。
 type: docs
 weight: 577
-url: /java/com.aspose.words/themefonts/
+url: /zh/java/com.aspose.words/themefonts/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class ThemeFonts implements Cloneable
 ```
 
-Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [getLatin()](../../com.aspose.words/themefonts\#getLatin--) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts\#setLatin-java.lang.String-), [getEastAsian()](../../com.aspose.words/themefonts\#getEastAsian--) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts\#setEastAsian-java.lang.String-) and [getComplexScript()](../../com.aspose.words/themefonts\#getComplexScript--) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts\#setComplexScript-java.lang.String-).
+表示字体方案中的字体集合，允许为不同的语言指定不同的字体[getLatin()](../../com.aspose.words/themefonts\#getLatin--) / [setLatin(java.lang.String)](../../com.aspose.words/themefonts\#setLatin-java.lang.String-), [getEastAsian()](../../com.aspose.words/themefonts\#getEastAsian--) / [setEastAsian(java.lang.String)](../../com.aspose.words/themefonts\#setEastAsian-java.lang.String-)和[getComplexScript()](../../com.aspose.words/themefonts\#getComplexScript--) / [setComplexScript(java.lang.String)](../../com.aspose.words/themefonts\#setComplexScript-java.lang.String-).
 
-To learn more, visit the **Working with Styles and Themes** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Styles and Themes**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getComplexScript()](#getComplexScript--) | Specifies font name for ComplexScript characters. |
-| [getEastAsian()](#getEastAsian--) | Specifies font name for EastAsian characters. |
-| [getLatin()](#getLatin--) | Specifies font name for Latin characters. |
+| [get班级()](#get班级--) |  |
+| [getComplexScript()](#getComplexScript--) | 指定 ComplexScript 字符的字体名称。 |
+| [getEastAsian()](#getEastAsian--) | 指定东亚字符的字体名称。 |
+| [getLatin()](#getLatin--) | 指定拉丁字符的字体名称。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setComplexScript(String value)](#setComplexScript-java.lang.String-) | Specifies font name for ComplexScript characters. |
-| [setEastAsian(String value)](#setEastAsian-java.lang.String-) | Specifies font name for EastAsian characters. |
-| [setLatin(String value)](#setLatin-java.lang.String-) | Specifies font name for Latin characters. |
+| [setComplexScript(String value)](#setComplexScript-java.lang.String-) | 指定 ComplexScript 字符的字体名称。 |
+| [setEastAsian(String value)](#setEastAsian-java.lang.String-) | 指定东亚字符的字体名称。 |
+| [setLatin(String value)](#setLatin-java.lang.String-) | 指定拉丁字符的字体名称。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,53 +46,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getComplexScript() {#getComplexScript--}
 ```
 public String getComplexScript()
 ```
 
 
-Specifies font name for ComplexScript characters.
+指定 ComplexScript 字符的字体名称。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getEastAsian() {#getEastAsian--}
 ```
 public String getEastAsian()
 ```
 
 
-Specifies font name for EastAsian characters.
+指定东亚字符的字体名称。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getLatin() {#getLatin--}
 ```
 public String getLatin()
 ```
 
 
-Specifies font name for Latin characters.
+指定拉丁字符的字体名称。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,8 +101,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -125,12 +125,12 @@ public void setComplexScript(String value)
 ```
 
 
-Specifies font name for ComplexScript characters.
+指定 ComplexScript 字符的字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setEastAsian(String value) {#setEastAsian-java.lang.String-}
 ```
@@ -138,12 +138,12 @@ public void setEastAsian(String value)
 ```
 
 
-Specifies font name for EastAsian characters.
+指定东亚字符的字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setLatin(String value) {#setLatin-java.lang.String-}
 ```
@@ -151,12 +151,12 @@ public void setLatin(String value)
 ```
 
 
-Specifies font name for Latin characters.
+指定拉丁字符的字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### toString() {#toString--}
 ```
@@ -166,7 +166,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -184,8 +184,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -197,9 +197,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

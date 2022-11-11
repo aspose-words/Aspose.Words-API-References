@@ -1,44 +1,44 @@
 ---
 title: TableSubstitutionRule
 second_title: Aspose.Words for Java API Reference
-description: Table font substitution rule.
+description: 表格字体替换规则。
 type: docs
 weight: 554
-url: /java/com.aspose.words/tablesubstitutionrule/
+url: /zh/java/com.aspose.words/tablesubstitutionrule/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class TableSubstitutionRule extends FontSubstitutionRule
 ```
 
-Table font substitution rule.
+表格字体替换规则。
 
-To learn more, visit the **Working with Fonts** documentation article.
+要了解更多信息，请访问**Working with Fonts**文档文章。
 
-This rule defines the list of substitute font names to be used if the original font is not available. Substitutes will be checked for the font name and the [FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName--) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String-) (if any).
-## Methods
+如果原始字体不可用，此规则定义要使用的替代字体名称列表。将检查替代品的字体名称和[FontInfo.getAltName()](../../com.aspose.words/fontinfo\#getAltName--) / [FontInfo.setAltName(java.lang.String)](../../com.aspose.words/fontinfo\#setAltName-java.lang.String-)（如果有的话）。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...-) | Adds substitute font names for given original font name. |
+| [addSubstitutes(String originalFontName, String[] substituteFontNames)](#addSubstitutes-java.lang.String-java.lang.String...-) | 为给定的原始字体名称添加替代字体名称。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
-| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | Returns array containing substitute font names for the specified original font name. |
+| [get班级()](#get班级--) |  |
+| [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
+| [getSubstitutes(String originalFontName)](#getSubstitutes-java.lang.String-) | 返回包含指定原始字体名称的替代字体名称的数组。 |
 | [hashCode()](#hashCode--) |  |
 | [load(InputStream stream)](#load-java.io.InputStream-) |  |
-| [load(String fileName)](#load-java.lang.String-) | Loads table substitution settings from XML file. |
-| [loadAndroidSettings()](#loadAndroidSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [loadLinuxSettings()](#loadLinuxSettings--) | Loads predefined table substitution settings for Linux platform. |
-| [loadWindowsSettings()](#loadWindowsSettings--) | Loads predefined table substitution settings for Windows platform. |
+| [load(String fileName)](#load-java.lang.String-) | 从 XML 文件加载表替换设置。 |
+| [loadAndroidSettings()](#loadAndroidSettings--) | 为 Linux 平台加载预定义的表替换设置。 |
+| [loadLinuxSettings()](#loadLinuxSettings--) | 为 Linux 平台加载预定义的表替换设置。 |
+| [loadWindowsSettings()](#loadWindowsSettings--) | 为 Windows 平台加载预定义的表替换设置。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream outputStream)](#save-java.io.OutputStream-) |  |
-| [save(String fileName)](#save-java.lang.String-) | Saves the current table substitution settings to file. |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
-| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...-) | Override substitute font names for given original font name. |
+| [save(String fileName)](#save-java.lang.String-) | 将当前表替换设置保存到文件。 |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | 指定是否启用规则。 |
+| [setSubstitutes(String originalFontName, String[] substituteFontNames)](#setSubstitutes-java.lang.String-java.lang.String...-) | 覆盖给定原始字体名称的替代字体名称。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,13 +49,13 @@ public void addSubstitutes(String originalFontName, String[] substituteFontNames
 ```
 
 
-Adds substitute font names for given original font name.
+为给定的原始字体名称添加替代字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-| substituteFontNames | java.lang.String[] | List of alternative font names. |
+| originalFontName | java.lang.String | 原始字体名称。 |
+| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -65,48 +65,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getSubstitutes(String originalFontName) {#getSubstitutes-java.lang.String-}
 ```
 public Iterable getSubstitutes(String originalFontName)
 ```
 
 
-Returns array containing substitute font names for the specified original font name.
+返回包含指定原始字体名称的替代字体名称的数组。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
+| originalFontName | java.lang.String | 原始字体名称。 |
 
-**Returns:**
-java.lang.Iterable - List of alternative font names.
+**退货:**
+java.lang.Iterable - 替代字体名称列表。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -115,8 +115,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### load(InputStream stream) {#load-java.io.InputStream-}
 ```
 public void load(InputStream stream)
@@ -125,8 +125,8 @@ public void load(InputStream stream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
@@ -136,12 +136,12 @@ public void load(String fileName)
 ```
 
 
-Loads table substitution settings from XML file.
+从 XML 文件加载表替换设置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Input file name. |
+| fileName | java.lang.String | 输入文件名。 |
 
 ### loadAndroidSettings() {#loadAndroidSettings--}
 ```
@@ -149,7 +149,7 @@ public void loadAndroidSettings()
 ```
 
 
-Loads predefined table substitution settings for Linux platform.
+为 Linux 平台加载预定义的表替换设置。
 
 ### loadLinuxSettings() {#loadLinuxSettings--}
 ```
@@ -157,7 +157,7 @@ public void loadLinuxSettings()
 ```
 
 
-Loads predefined table substitution settings for Linux platform.
+为 Linux 平台加载预定义的表替换设置。
 
 ### loadWindowsSettings() {#loadWindowsSettings--}
 ```
@@ -165,7 +165,7 @@ public void loadWindowsSettings()
 ```
 
 
-Loads predefined table substitution settings for Windows platform.
+为 Windows 平台加载预定义的表替换设置。
 
 ### notify() {#notify--}
 ```
@@ -191,8 +191,8 @@ public void save(OutputStream outputStream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outputStream | java.io.OutputStream |  |
 
@@ -202,12 +202,12 @@ public void save(String fileName)
 ```
 
 
-Saves the current table substitution settings to file.
+将当前表替换设置保存到文件。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Output file name. |
+| fileName | java.lang.String | 输出文件名。 |
 
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
@@ -215,12 +215,12 @@ public void setEnabled(boolean value)
 ```
 
 
-Specifies whether the rule is enabled or not.
+指定是否启用规则。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setSubstitutes(String originalFontName, String[] substituteFontNames) {#setSubstitutes-java.lang.String-java.lang.String...-}
 ```
@@ -228,13 +228,13 @@ public void setSubstitutes(String originalFontName, String[] substituteFontNames
 ```
 
 
-Override substitute font names for given original font name.
+覆盖给定原始字体名称的替代字体名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| originalFontName | java.lang.String | Original font name. |
-| substituteFontNames | java.lang.String[] | List of alternative font names. |
+| originalFontName | java.lang.String | 原始字体名称。 |
+| substituteFontNames | java.lang.String[] | 替代字体名称列表。 |
 
 ### toString() {#toString--}
 ```
@@ -244,7 +244,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -262,8 +262,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -275,9 +275,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,53 +1,53 @@
 ---
-title: SdtCalendarType
-second_title: Aspose.Words for Java API Reference
-description: Specifies the possible types of calendars which can be used to specify  /  in an Office Open XML document.
+title: SdtCalendar类型
+second_title: Aspose.Words for Java API 参考
+description: 指定可用于在 Office Open XML 文档中指定 / 的可能类型的日历。
 type: docs
 weight: 504
-url: /java/com.aspose.words/sdtcalendartype/
+url: /zh/java/com.aspose.words/sdtcalendartype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class SdtCalendarType
+public class SdtCalendar类型
 ```
 
-Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.getCalendarType()](../../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.setCalendarType(int)](../../com.aspose.words/structureddocumenttag\#setCalendarType-int-) in an Office Open XML document.
-## Fields
+指定可用于指定的可能的日历类型[StructuredDocumentTag.getCalendar类型()](../../com.aspose.words/structureddocumenttag\#getCalendar类型--) / [StructuredDocumentTag.setCalendar类型(int)](../../com.aspose.words/structureddocumenttag\#setCalendar类型-int-)在 Office Open XML 文档中。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Used as default value in OOXML. |
-| [GREGORIAN](#GREGORIAN) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [GREGORIAN_ARABIC](#GREGORIAN-ARABIC) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [GREGORIAN_ME_FRENCH](#GREGORIAN-ME-FRENCH) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [GREGORIAN_US](#GREGORIAN-US) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [GREGORIAN_XLIT_ENGLISH](#GREGORIAN-XLIT-ENGLISH) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [GREGORIAN_XLIT_FRENCH](#GREGORIAN-XLIT-FRENCH) | Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. |
-| [HEBREW](#HEBREW) | Specifies that the Hebrew lunar calendar, as described by the Gauss formula for Passover [CITATION] and The Complete Restatement of Oral Law (Mishneh Torah),shall be used. |
-| [HIJRI](#HIJRI) | Specifies that the Hijri lunar calendar, as described by the Kingdom of Saudi Arabia, Ministry of Islamic Affairs, Endowments, Da\\u2018wah and Guidance, shall be used. |
-| [JAPAN](#JAPAN) | Specifies that the Japanese Emperor Era calendar, as described by Japanese Industrial Standard JIS X 0301, shall be used. |
-| [KOREA](#KOREA) | Specifies that the Korean Tangun Era calendar, as described by Korean Law Enactment No. |
-| [NONE](#NONE) | Specifies that no calendar should be used. |
-| [SAKA](#SAKA) | Specifies that the Saka Era calendar, as described by the Calendar Reform Committee of India, as part of the Indian Ephemeris and Nautical Almanac, shall be used. |
-| [TAIWAN](#TAIWAN) | Specifies that the Taiwanese calendar, as defined by the Chinese National Standard CNS 7648, shall be used. |
-| [THAI](#THAI) | Specifies that the Thai calendar, as defined by the Royal Decree of H.M. |
+| [DEFAULT](#DEFAULT) | 在 OOXML 中用作默认值。 |
+| [GREGORIAN](#GREGORIAN) | 指定应使用 ISO 8601 中定义的公历。 |
+| [GREGORIAN_ARABIC](#GREGORIAN-ARABIC) | 指定应使用 ISO 8601 中定义的公历。 |
+| [GREGORIAN_ME_FRENCH](#GREGORIAN-ME-FRENCH) | 指定应使用 ISO 8601 中定义的公历。 |
+| [GREGORIAN_US](#GREGORIAN-US) | 指定应使用 ISO 8601 中定义的公历。 |
+| [GREGORIAN_XLIT_ENGLISH](#GREGORIAN-XLIT-ENGLISH) | 指定应使用 ISO 8601 中定义的公历。 |
+| [GREGORIAN_XLIT_FRENCH](#GREGORIAN-XLIT-FRENCH) | 指定应使用 ISO 8601 中定义的公历。 |
+| [HEBREW](#HEBREW) | 指定希伯来农历，如逾越节的高斯公式所述[引文]和口述法的完整重述（Mishneh Torah），应使用。 |
+| [HIJRI](#HIJRI) | 指定回历农历，如沙特阿拉伯王国伊斯兰事务部、捐赠基金、Da\\u2018wah 和指导，应使用。 |
+| [JAPAN](#JAPAN) | 指定应使用日本工业标准 JIS X 0301 所描述的日本天皇时代日历。 |
+| [KOREA](#KOREA) | 指定韩国檀君时代的历法，如韩国法律颁布第 1 号所述。 |
+| [NONE](#NONE) | 指定不应使用日历。 |
+| [SAKA](#SAKA) | 指定应使用印度历法改革委员会所描述的萨卡时代历法，作为印度星历和航海年历的一部分。 |
+| [TAIWAN](#TAIWAN) | 指定应使用由中国国家标准 CNS 7648 定义的台湾日历。 |
+| [THAI](#THAI) | 指定由 HM 皇家法令定义的泰国日历 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String sdtCalendarTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int sdtCalendarType)](#getName-int-) |  |
+| [fromName(String sdtCalendar类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int sdtCalendar类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int sdtCalendarType)](#toString-int-) |  |
+| [toString(int sdtCalendar类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -57,7 +57,7 @@ public static int DEFAULT
 ```
 
 
-Used as default value in OOXML. Equals [GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN).
+在 OOXML 中用作默认值。等于[GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN).
 
 ### GREGORIAN {#GREGORIAN}
 ```
@@ -65,7 +65,7 @@ public static int GREGORIAN
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. This calendar should be localized into the appropriate language.
+指定应使用 ISO 8601 中定义的公历。此日历应本地化为适当的语言。
 
 ### GREGORIAN_ARABIC {#GREGORIAN-ARABIC}
 ```
@@ -73,7 +73,7 @@ public static int GREGORIAN_ARABIC
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be presented in Arabic.
+指定应使用 ISO 8601 中定义的公历。此日历的值应以阿拉伯语显示。
 
 ### GREGORIAN_ME_FRENCH {#GREGORIAN-ME-FRENCH}
 ```
@@ -81,7 +81,7 @@ public static int GREGORIAN_ME_FRENCH
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be presented in Middle East French.
+指定应使用 ISO 8601 中定义的公历。此日历的值应以中东法语显示。
 
 ### GREGORIAN_US {#GREGORIAN-US}
 ```
@@ -89,7 +89,7 @@ public static int GREGORIAN_US
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be presented in English.
+指定应使用 ISO 8601 中定义的公历。此日历的值应以英文显示。
 
 ### GREGORIAN_XLIT_ENGLISH {#GREGORIAN-XLIT-ENGLISH}
 ```
@@ -97,7 +97,7 @@ public static int GREGORIAN_XLIT_ENGLISH
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be the representation of the English strings in the corresponding Arabic characters (the Arabic transliteration of the English for the Gregorian calendar).
+指定应使用 ISO 8601 中定义的公历。此日历的值应该是对应阿拉伯字符中英文字符串的表示（格里高利历中英文的阿拉伯音译）。
 
 ### GREGORIAN_XLIT_FRENCH {#GREGORIAN-XLIT-FRENCH}
 ```
@@ -105,7 +105,7 @@ public static int GREGORIAN_XLIT_FRENCH
 ```
 
 
-Specifies that the Gregorian calendar, as defined in ISO 8601, shall be used. The values for this calendar should be the representation of the French strings in the corresponding Arabic characters (the Arabic transliteration of the French for the Gregorian calendar).
+指定应使用 ISO 8601 中定义的公历。此日历的值应该是对应阿拉伯字符中法语字符串的表示（公历中法语的阿拉伯语音译）。
 
 ### HEBREW {#HEBREW}
 ```
@@ -113,7 +113,7 @@ public static int HEBREW
 ```
 
 
-Specifies that the Hebrew lunar calendar, as described by the Gauss formula for Passover [CITATION] and The Complete Restatement of Oral Law (Mishneh Torah),shall be used.
+指定希伯来农历，如逾越节的高斯公式所述[引文]和口述法的完整重述（Mishneh Torah），应使用。
 
 ### HIJRI {#HIJRI}
 ```
@@ -121,7 +121,7 @@ public static int HIJRI
 ```
 
 
-Specifies that the Hijri lunar calendar, as described by the Kingdom of Saudi Arabia, Ministry of Islamic Affairs, Endowments, Da\\u2018wah and Guidance, shall be used.
+指定回历农历，如沙特阿拉伯王国伊斯兰事务部、捐赠基金、Da\\u2018wah 和指导，应使用。
 
 ### JAPAN {#JAPAN}
 ```
@@ -129,7 +129,7 @@ public static int JAPAN
 ```
 
 
-Specifies that the Japanese Emperor Era calendar, as described by Japanese Industrial Standard JIS X 0301, shall be used.
+指定应使用日本工业标准 JIS X 0301 所描述的日本天皇时代日历。
 
 ### KOREA {#KOREA}
 ```
@@ -137,7 +137,7 @@ public static int KOREA
 ```
 
 
-Specifies that the Korean Tangun Era calendar, as described by Korean Law Enactment No. 4, shall be used.
+指定应使用韩国法律第 4 号所述的韩国檀君时代日历。
 
 ### NONE {#NONE}
 ```
@@ -145,7 +145,7 @@ public static int NONE
 ```
 
 
-Specifies that no calendar should be used. Usually in AW, None is the first and default value for enums, but not in this case. None is not default for OOXML, instead [GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN) is default and is first member of this enum.
+指定不应使用日历。通常在 AW 中，None 是枚举的第一个默认值，但在这种情况下不是。 None 不是 OOXML 的默认值，而是[GREGORIAN](../../com.aspose.words/sdtcalendartype\#GREGORIAN)是默认值，并且是此枚举的第一个成员。
 
 ### SAKA {#SAKA}
 ```
@@ -153,7 +153,7 @@ public static int SAKA
 ```
 
 
-Specifies that the Saka Era calendar, as described by the Calendar Reform Committee of India, as part of the Indian Ephemeris and Nautical Almanac, shall be used.
+指定应使用印度历法改革委员会所描述的萨卡时代历法，作为印度星历和航海年历的一部分。
 
 ### TAIWAN {#TAIWAN}
 ```
@@ -161,7 +161,7 @@ public static int TAIWAN
 ```
 
 
-Specifies that the Taiwanese calendar, as defined by the Chinese National Standard CNS 7648, shall be used.
+指定应使用由中国国家标准 CNS 7648 定义的台湾日历。
 
 ### THAI {#THAI}
 ```
@@ -169,7 +169,7 @@ public static int THAI
 ```
 
 
-Specifies that the Thai calendar, as defined by the Royal Decree of H.M. King Vajiravudh (Rama VI) in Royal Gazette B. E. 2456 (1913 A.D.) and by the decree of Prime Minister Phibunsongkhram (1941 A.D.) to start the year on the Gregorian January 1 and to map year zero to Gregorian year 543 B.C., shall be used.
+指定泰国历法，如皇家公报 BE 2456（公元 1913 年）中的 HM King Vajiravudh（拉玛六世）的皇家法令和总理披汶颂喀拉姆（公元 1941 年）的法令所定义的，以公历 1 月 1 日开始这一年并将零年映射到公历 543 BC，应使用。
 
 ### length {#length}
 ```
@@ -185,52 +185,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String sdtCalendarTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String sdtCalendar类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String sdtCalendarTypeName)
+public static int fromName(String sdtCalendar类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendarTypeName | java.lang.String |  |
+| sdtCalendar类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int sdtCalendarType) {#getName-int-}
-```
-public static String getName(int sdtCalendarType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int sdtCalendar类型) {#getName-int-}
+```
+public static String getName(int sdtCalendar类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendarType | int |  |
+| sdtCalendar类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -240,8 +240,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -250,8 +250,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -276,22 +276,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int sdtCalendarType) {#toString-int-}
+### toString(int sdtCalendar类型) {#toString-int-}
 ```
-public static String toString(int sdtCalendarType)
+public static String toString(int sdtCalendar类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sdtCalendarType | int |  |
+| sdtCalendar类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -309,8 +309,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -322,9 +322,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

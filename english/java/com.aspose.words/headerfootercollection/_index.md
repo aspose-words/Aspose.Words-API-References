@@ -1,53 +1,53 @@
 ---
 title: HeaderFooterCollection
-second_title: Aspose.Words for Java API Reference
-description: Provides typed access to  nodes of a Section.
+second_title: Aspose.Words for Java API 参考
+description: 提供对 Section 节点的类型化访问。
 type: docs
 weight: 317
-url: /java/com.aspose.words/headerfootercollection/
+url: /zh/java/com.aspose.words/headerfootercollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.NodeCollection](../../com.aspose.words/nodecollection)
 ```
 public class HeaderFooterCollection extends NodeCollection
 ```
 
-Provides typed access to [HeaderFooter](../../com.aspose.words/headerfooter) nodes of a **Section**.
+提供键入访问[HeaderFooter](../../com.aspose.words/headerfooter)a的节点**Section**.
 
-To learn more, visit the **Working with Headers and Footers** documentation article.
+要了解更多信息，请访问**Working with Headers and Footers**文档文章。
 
-There can be maximum of one **HeaderFooter**
+最多可以有一个**HeaderFooter**
 
-of each [HeaderFooterType](../../com.aspose.words/headerfootertype) per **Section**.
+每个[HeaderFooter类型](../../com.aspose.words/headerfootertype)每**Section**.
 
-**HeaderFooter** objects can occur in any order in the collection.
-## Methods
+**HeaderFooter**对象可以在集合中以任何顺序出现。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [add(Node node)](#add-com.aspose.words.Node-) | Adds a node to the end of the collection. |
-| [clear()](#clear--) | Removes all nodes from this collection and from the document. |
-| [contains(Node node)](#contains-com.aspose.words.Node-) | Determines whether a node is in the collection. |
+| [add(Node node)](#add-com.aspose.words.Node-) | 将节点添加到集合的末尾。 |
+| [clear()](#clear--) | 从此集合和文档中删除所有节点。 |
+| [contains(Node node)](#contains-com.aspose.words.Node-) | 确定节点是否在集合中。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Retrieves a **HeaderFooter** at the given index. |
-| [getByHeaderFooterType(int headerFooterType)](#getByHeaderFooterType-int-) |  |
-| [getClass()](#getClass--) |  |
+| [get(int index)](#get-int-) | 检索一个**HeaderFooter**在给定的索引处。 |
+| [getByHeaderFooter类型(int headerFooter类型)](#getByHeaderFooter类型-int-) |  |
+| [get班级()](#get班级--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | Gets the number of nodes in the collection. |
+| [getCount()](#getCount--) | 获取集合中的节点数。 |
 | [getCurrentNode()](#getCurrentNode--) |  |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | Returns the zero-based index of the specified node. |
-| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | Inserts a node into the collection at the specified index. |
-| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
-| [linkToPrevious(boolean isLinkToPrevious)](#linkToPrevious-boolean-) | Links or unlinks all headers and footers to the corresponding headers and footers in the previous section. |
-| [linkToPrevious(int headerFooterType, boolean isLinkToPrevious)](#linkToPrevious-int-boolean-) |  |
+| [indexOf(Node node)](#indexOf-com.aspose.words.Node-) | 返回指定节点的从零开始的索引。 |
+| [insert(int index, Node node)](#insert-int-com.aspose.words.Node-) | 将节点插入到集合中指定索引处。 |
+| [iterator()](#iterator--) | 在节点集合上提供简单的“foreach”样式迭代。 |
+| [linkToPrevious(boolean isLinkToPrevious)](#linkToPrevious-boolean-) | 将所有页眉和页脚链接或取消链接到上一节中的相应页眉和页脚。 |
+| [linkToPrevious(int headerFooter类型, boolean isLinkToPrevious)](#linkToPrevious-int-boolean-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(Node node)](#remove-com.aspose.words.Node-) | Removes the node from the collection and from the document. |
-| [removeAt(int index)](#removeAt-int-) | Removes the node at the specified index from the collection and from the document. |
-| [toArray()](#toArray--) | Copies all  HeaderFoorter  s from the collection to a new array of  HeaderFoorter  s. |
+| [remove(Node node)](#remove-com.aspose.words.Node-) | 从集合和文档中删除节点。 |
+| [removeAt(int index)](#removeAt-int-) | 从集合和文档中删除指定索引处的节点。 |
+| [toArray()](#toArray--) | 将集合中的所有 HeaderFoorter 复制到新的 HeaderFoorter 数组中。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -58,18 +58,18 @@ public void add(Node node)
 ```
 
 
-Adds a node to the end of the collection.
+将节点添加到集合的末尾。
 
-The node is inserted as a child into the node object from which the collection was created.
+该节点作为子节点插入到从中创建集合的节点对象中。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to be added to the end of the collection. |
+| node | [Node](../../com.aspose.words/node) | 要添加到集合末尾的节点。 |
 
 ### clear() {#clear--}
 ```
@@ -77,7 +77,7 @@ public void clear()
 ```
 
 
-Removes all nodes from this collection and from the document.
+从此集合和文档中删除所有节点。
 
 ### contains(Node node) {#contains-com.aspose.words.Node-}
 ```
@@ -85,17 +85,17 @@ public boolean contains(Node node)
 ```
 
 
-Determines whether a node is in the collection.
+确定节点是否在集合中。
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node) | 要定位的节点。 |
 
-**Returns:**
-boolean - True if item is found in the collection; otherwise, false.
+**退货:**
+boolean - 如果在集合中找到项目，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -104,61 +104,61 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public Node get(int index)
 ```
 
 
-Retrieves a **HeaderFooter** at the given index.
+检索一个**HeaderFooter**在给定的索引处。
 
-The index is zero-based.
+该索引从零开始。
 
-Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
-If index is greater than or equal to the number of items in the list, this returns a null reference.
+如果 index 大于或等于列表中的项目数，则返回空引用。
 
-If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int | 集合中的索引。 |
 
-**Returns:**
-[Node](../../com.aspose.words/node) - The corresponding [HeaderFooter](../../com.aspose.words/headerfooter) value.
-### getByHeaderFooterType(int headerFooterType) {#getByHeaderFooterType-int-}
+**退货:**
+[Node](../../com.aspose.words/node) - 相应的[HeaderFooter](../../com.aspose.words/headerfooter)价值。
+### getByHeaderFooter类型(int headerFooter类型) {#getByHeaderFooter类型-int-}
 ```
-public HeaderFooter getByHeaderFooterType(int headerFooterType)
+public HeaderFooter getByHeaderFooter类型(int headerFooter类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | int |  |
+| headerFooter类型 | int |  |
 
-**Returns:**
+**退货:**
 [HeaderFooter](../../com.aspose.words/headerfooter)
-### getClass() {#getClass--}
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -167,7 +167,7 @@ public CompositeNode getContainer()
 
 
 
-**Returns:**
+**退货:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -175,10 +175,10 @@ public int getCount()
 ```
 
 
-Gets the number of nodes in the collection.
+获取集合中的节点数。
 
-**Returns:**
-int - The number of nodes in the collection.
+**退货:**
+int - 集合中的节点数。
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -187,7 +187,7 @@ public Node getCurrentNode()
 
 
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
@@ -197,12 +197,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### hashCode() {#hashCode--}
 ```
@@ -212,48 +212,48 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(Node node) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node node)
 ```
 
 
-Returns the zero-based index of the specified node.
+返回指定节点的从零开始的索引。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to locate. |
+| node | [Node](../../com.aspose.words/node) | 要定位的节点。 |
 
-**Returns:**
-int - The zero-based index of the node within the collection, if found; otherwise, -1.
+**退货:**
+int - 集合中节点的从零开始的索引（如果找到）；否则，-1。
 
-This method performs a linear search; therefore, the average execution time is proportional to Count.
+该方法执行线性搜索；因此，平均执行时间与 Count 成正比。
 ### insert(int index, Node node) {#insert-int-com.aspose.words.Node-}
 ```
 public void insert(int index, Node node)
 ```
 
 
-Inserts a node into the collection at the specified index.
+将节点插入到集合中指定索引处。
 
-The node is inserted as a child into the node object from which the collection was created.
+该节点作为子节点插入到从中创建集合的节点对象中。
 
-If the index is equal to or greater than Count, the node is added at the end of the collection.
+如果索引等于或大于 Count，则将节点添加到集合的末尾。
 
-If the index is negative and its absolute value is greater than Count, the node is added at the end of the collection.
+如果索引为负且其绝对值大于 Count，则将节点添加到集合的末尾。
 
-If the newChild is already in the tree, it is first removed.
+如果 newChild 已经在树中，则首先将其移除。
 
-If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
+如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
-| node | [Node](../../com.aspose.words/node) | The node to insert. |
+| index | int | 节点的从零开始的索引。允许使用负索引并指示从列表后面进行访问。例如 -1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
+| node | [Node](../../com.aspose.words/node) | 要插入的节点。 |
 
 ### iterator() {#iterator--}
 ```
@@ -261,37 +261,37 @@ public Iterator iterator()
 ```
 
 
-Provides a simple "foreach" style iteration over the collection of nodes.
+在节点集合上提供简单的“foreach”样式迭代。
 
-**Returns:**
-java.util.Iterator - An Iterator.
+**退货:**
+java.util.Iterator - 一个迭代器。
 ### linkToPrevious(boolean isLinkToPrevious) {#linkToPrevious-boolean-}
 ```
 public void linkToPrevious(boolean isLinkToPrevious)
 ```
 
 
-Links or unlinks all headers and footers to the corresponding headers and footers in the previous section.
+将所有页眉和页脚链接或取消链接到上一节中的相应页眉和页脚。
 
-If any of the headers or footers do not exist, creates them automatically.
+如果任何页眉或页脚不存在，则自动创建它们。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isLinkToPrevious | boolean | True to link the headers and footers to the previous section; false to unlink them. |
+| isLinkToPrevious | boolean | True 将页眉和页脚链接到上一节； false 取消链接。 |
 
-### linkToPrevious(int headerFooterType, boolean isLinkToPrevious) {#linkToPrevious-int-boolean-}
+### linkToPrevious(int headerFooter类型, boolean isLinkToPrevious) {#linkToPrevious-int-boolean-}
 ```
-public void linkToPrevious(int headerFooterType, boolean isLinkToPrevious)
+public void linkToPrevious(int headerFooter类型, boolean isLinkToPrevious)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | int |  |
+| headerFooter类型 | int |  |
 | isLinkToPrevious | boolean |  |
 
 ### notify() {#notify--}
@@ -316,12 +316,12 @@ public void remove(Node node)
 ```
 
 
-Removes the node from the collection and from the document.
+从集合和文档中删除节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| node | [Node](../../com.aspose.words/node) | The node to remove. |
+| node | [Node](../../com.aspose.words/node) | 要移除的节点。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -329,12 +329,12 @@ public void removeAt(int index)
 ```
 
 
-Removes the node at the specified index from the collection and from the document.
+从集合和文档中删除指定索引处的节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the node. Negative indexes are allowed and indicate access from the back of the list. For example -1 means the last node, -2 means the second before last and so on. |
+| index | int | 节点的从零开始的索引。允许使用负索引并指示从列表后面进行访问。例如 -1 表示最后一个节点，-2 表示倒数第二个，依此类推。 |
 
 ### toArray() {#toArray--}
 ```
@@ -342,10 +342,10 @@ public HeaderFooter[] toArray()
 ```
 
 
-Copies all  HeaderFoorter  s from the collection to a new array of  HeaderFoorter  s.
+将集合中的所有 HeaderFoorter 复制到新的 HeaderFoorter 数组中。
 
-**Returns:**
-com.aspose.words.HeaderFooter[] - An array of  HeaderFoorter  s.
+**退货:**
+com.aspose.words.HeaderFooter[] - 一个 HeaderFoorter 数组。
 ### toString() {#toString--}
 ```
 public String toString()
@@ -354,7 +354,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -372,8 +372,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -385,9 +385,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

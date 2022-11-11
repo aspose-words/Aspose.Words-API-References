@@ -1,31 +1,31 @@
 ---
 title: DataRowView
 second_title: Aspose.Words for Java API Reference
-description: Represents a customized view of a .
+description: 表示一个自定义视图。
 type: docs
 weight: 23
-url: /java/com.aspose.words.net.system.data/datarowview/
+url: /zh/java/com.aspose.words.net.system.data/datarowview/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DataRowView
 ```
 
-Represents a customized view of a [DataRow](../../com.aspose.words.net.system.data/datarow).
-## Constructors
+表示一个自定义视图[DataRow](../../com.aspose.words.net.system.data/datarow).
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [DataRowView(System.Data.DataView view, System.Data.DataRow row)](#DataRowView-com.aspose.words.net.System.Data.DataView-com.aspose.words.net.System.Data.DataRow-) | Initializes a new instance of this class. |
-## Methods
+| [DataRowView(System.Data.DataView view, System.Data.DataRow row)](#DataRowView-com.aspose.words.net.System.Data.DataView-com.aspose.words.net.System.Data.DataRow-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getRow()](#getRow--) | Gets the [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed. |
+| [get班级()](#get班级--) |  |
+| [getRow()](#getRow--) | 获取[DataRow](../../com.aspose.words.net.system.data/datarow)被查看。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -39,10 +39,10 @@ public DataRowView(System.Data.DataView view, System.Data.DataRow row)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | view | [DataView](../../com.aspose.words.net.system.data/dataview) |  |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
@@ -55,33 +55,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getRow() {#getRow--}
 ```
 public System.Data.DataRow getRow()
 ```
 
 
-Gets the [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed.
+获取[DataRow](../../com.aspose.words.net.system.data/datarow)被查看。
 
-**Returns:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - The [DataRow](../../com.aspose.words.net.system.data/datarow) being viewed by the [DataRowView](../../com.aspose.words.net.system.data/datarowview).
+**退货:**
+[DataRow](../../com.aspose.words.net.system.data/datarow) - 这[DataRow](../../com.aspose.words.net.system.data/datarow)被观看[DataRowView](../../com.aspose.words.net.system.data/datarowview).
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -116,7 +116,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -134,8 +134,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -147,9 +147,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

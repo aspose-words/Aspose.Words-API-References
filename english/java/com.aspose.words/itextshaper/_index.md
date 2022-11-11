@@ -1,17 +1,17 @@
 ---
 title: ITextShaper
-second_title: Aspose.Words for Java API Reference
+second_title: Aspose.Words for Java API 参考
 description: 
 type: docs
 weight: 659
-url: /java/com.aspose.words/itextshaper/
+url: /zh/java/com.aspose.words/itextshaper/
 ---
 ```
 public interface ITextShaper
 ```
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [shapeText(String[] runs, int direction, int script, int[] fontFeatures)](#shapeText-java.lang.String---int-int-int...-) |  |
 ### shapeText(String[] runs, int direction, int script, int[] fontFeatures) {#shapeText-java.lang.String---int-int-int...-}
@@ -22,13 +22,13 @@ public abstract Cluster[][] shapeText(String[] runs, int direction, int script, 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | runs | java.lang.String[] |  |
 | direction | int |  |
 | script | int |  |
 | fontFeatures | int[] |  |
 
-**Returns:**
+**退货:**
 com.aspose.words.Cluster[][]

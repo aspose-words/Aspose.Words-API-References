@@ -1,35 +1,35 @@
 ---
 title: ArrowWidth
-second_title: Aspose.Words for Java API Reference
-description: Width of the arrow at the end of a line.
+second_title: Aspose.Words for Java API 参考
+description: 行尾箭头的宽度。
 type: docs
 weight: 13
-url: /java/com.aspose.words/arrowwidth/
+url: /zh/java/com.aspose.words/arrowwidth/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ArrowWidth
 ```
 
-Width of the arrow at the end of a line.
-## Fields
+行尾箭头的宽度。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Same as [NARROW](../../com.aspose.words/arrowwidth\#NARROW). |
+| [DEFAULT](#DEFAULT) | 如同[NARROW](../../com.aspose.words/arrowwidth\#NARROW). |
 | [MEDIUM](#MEDIUM) |  |
 | [NARROW](#NARROW) |  |
 | [WIDE](#WIDE) |  |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String arrowWidthName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int arrowWidth)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NARROW](../../com.aspose.words/arrowwidth\#NARROW).
+如同[NARROW](../../com.aspose.words/arrowwidth\#NARROW).
 
 ### MEDIUM {#MEDIUM}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String arrowWidthName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String arrowWidthName)
@@ -101,23 +101,23 @@ public static int fromName(String arrowWidthName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrowWidthName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int arrowWidth) {#getName-int-}
 ```
 public static String getName(int arrowWidth)
@@ -126,12 +126,12 @@ public static String getName(int arrowWidth)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrowWidth | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int arrowWidth) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int arrowWidth)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arrowWidth | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

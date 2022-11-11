@@ -1,45 +1,45 @@
 ---
 title: WriteProtection
 second_title: Aspose.Words for Java API Reference
-description: Specifies write protection settings for a document.
+description: 指定文档的写保护设置。
 type: docs
 weight: 623
-url: /java/com.aspose.words/writeprotection/
+url: /zh/java/com.aspose.words/writeprotection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class WriteProtection implements Cloneable
 ```
 
-Specifies write protection settings for a document.
+指定文档的写保护设置。
 
-To learn more, visit the **Protect or Encrypt a Document** documentation article.
+要了解更多信息，请访问**Protect or Encrypt a Document**文档文章。
 
-Write protection specifies whether the author has recommended that the document is to be opened as read-only and/or require a password to modify a document.
+写保护指定作者是否建议以只读方式打开文档和/或需要密码才能修改文档。
 
-Write protection is different from document protection. Write protection is specified in Microsoft Word in the options of the Save As dialog box.
+写保护不同于文档保护。在 Microsoft Word 中的“另存为”对话框的选项中指定写保护。
 
-You do not create instances of this class directly. You access document protection settings via the [Document.getWriteProtection()](../../com.aspose.words/document\#getWriteProtection--) property.
-## Methods
+您不直接创建此类的实例。您可以通过[Document.getWriteProtection()](../../com.aspose.words/document\#getWriteProtection--)财产。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getReadOnlyRecommended()](#getReadOnlyRecommended--) | Specifies whether the document author has recommended that the document be opened as read-only. |
+| [get班级()](#get班级--) |  |
+| [getReadOnlyRecommended()](#getReadOnlyRecommended--) | 指定文档作者是否建议以只读方式打开文档。 |
 | [hashCode()](#hashCode--) |  |
-| [isWriteProtected()](#isWriteProtected--) | Returns true when a write protection password is set. |
+| [isWriteProtected()](#isWriteProtected--) | 设置写保护密码时返回 true。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPassword(String password)](#setPassword-java.lang.String-) | Sets the write protection password for the document. |
-| [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean-) | Specifies whether the document author has recommended that the document be opened as read-only. |
+| [setPassword(String password)](#setPassword-java.lang.String-) | 设置文档的写保护密码。 |
+| [setReadOnlyRecommended(boolean value)](#setReadOnlyRecommended-boolean-) | 指定文档作者是否建议以只读方式打开文档。 |
 | [toString()](#toString--) |  |
-| [validatePassword(String password)](#validatePassword-java.lang.String-) | Returns true if the specified password is the same as the write-protection password the document was protected with. |
+| [validatePassword(String password)](#validatePassword-java.lang.String-) | 如果指定的密码与保护文档的写保护密码相同，则返回 true。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -51,33 +51,33 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getReadOnlyRecommended() {#getReadOnlyRecommended--}
 ```
 public boolean getReadOnlyRecommended()
 ```
 
 
-Specifies whether the document author has recommended that the document be opened as read-only.
+指定文档作者是否建议以只读方式打开文档。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -86,18 +86,18 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isWriteProtected() {#isWriteProtected--}
 ```
 public boolean isWriteProtected()
 ```
 
 
-Returns true when a write protection password is set.
+设置写保护密码时返回 true。
 
-**Returns:**
-boolean - True when a write protection password is set.
+**退货:**
+boolean - 设置写保护密码时为真。
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -120,14 +120,14 @@ public void setPassword(String password)
 ```
 
 
-Sets the write protection password for the document.
+设置文档的写保护密码。
 
-If a password is set, Microsoft Word will require the user to enter it or open the document as read-only.
+如果设置了密码，Microsoft Word 将要求用户输入密码或以只读方式打开文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | java.lang.String | The password to set. Cannot be null, but can be an empty string. |
+| password | java.lang.String | 要设置的密码。不能为空，但可以是空字符串。 |
 
 ### setReadOnlyRecommended(boolean value) {#setReadOnlyRecommended-boolean-}
 ```
@@ -135,12 +135,12 @@ public void setReadOnlyRecommended(boolean value)
 ```
 
 
-Specifies whether the document author has recommended that the document be opened as read-only.
+指定文档作者是否建议以只读方式打开文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### toString() {#toString--}
 ```
@@ -150,7 +150,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### validatePassword(String password) {#validatePassword-java.lang.String-}
 ```
@@ -158,15 +158,15 @@ public boolean validatePassword(String password)
 ```
 
 
-Returns true if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns false.
+如果指定的密码与保护文档的写保护密码相同，则返回 true。如果文档未使用密码进行写保护，则返回 false。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | password | java.lang.String |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### wait() {#wait--}
 ```
 public final void wait()
@@ -183,8 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -196,9 +196,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

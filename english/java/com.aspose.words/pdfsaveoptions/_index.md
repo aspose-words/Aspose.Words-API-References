@@ -1,146 +1,146 @@
 ---
 title: PdfSaveOptions
-second_title: Aspose.Words for Java API Reference
-description: Can be used to specify additional options when saving a document into the  format.
+second_title: Aspose.Words for Java API 参考
+description: 可用于在将文档保存为格式时指定其他选项。
 type: docs
 weight: 461
-url: /java/com.aspose.words/pdfsaveoptions/
+url: /zh/java/com.aspose.words/pdfsaveoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions), [com.aspose.words.FixedPageSaveOptions](../../com.aspose.words/fixedpagesaveoptions)
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class PdfSaveOptions extends FixedPageSaveOptions implements Cloneable
 ```
 
-Can be used to specify additional options when saving a document into the [SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF) format.
+可用于在将文档保存到[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF)格式。
 
-To learn more, visit the **Specify Save Options** documentation article.
-## Constructors
+要了解更多信息，请访问**Specify Save Options**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [PdfSaveOptions()](#PdfSaveOptions--) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF) format. |
-## Methods
+| [PdfSaveOptions()](#PdfSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF)格式。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
-| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
-| [deepClone()](#deepClone--) | Creates a deep clone of this object. |
-| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
-| [getAdditionalTextPositioning()](#getAdditionalTextPositioning--) | A flag specifying whether to write additional text positioning operators or not. |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [getCacheHeaderFooterShapes()](#getCacheHeaderFooterShapes--) | Gets a value determining whether or not to cache shapes placed in header and footer of document. |
-| [getClass()](#getClass--) |  |
-| [getColorMode()](#getColorMode--) | Gets a value determining how colors are rendered. |
-| [getCompliance()](#getCompliance--) | Specifies the PDF standards compliance level for output documents. |
-| [getCreateNoteHyperlinks()](#getCreateNoteHyperlinks--) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. |
-| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | Gets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. |
-| [getDefaultTemplate()](#getDefaultTemplate--) | Gets path to default template (including filename). |
-| [getDigitalSignatureDetails()](#getDigitalSignatureDetails--) | Gets the details for signing the output PDF document. |
-| [getDisplayDocTitle()](#getDisplayDocTitle--) | A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary. |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | Gets a value determining how 3D effects are rendered. |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | Gets a value determining how DrawingML effects are rendered. |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | Gets a value determining how DrawingML shapes are rendered. |
-| [getDownsampleOptions()](#getDownsampleOptions--) | Allows to specify downsample options. |
-| [getEmbedFullFonts()](#getEmbedFullFonts--) | Controls how fonts are embedded into the resulting PDF documents. |
-| [getEncryptionDetails()](#getEncryptionDetails--) | Gets the details for encrypting the output PDF document. |
-| [getExportDocumentStructure()](#getExportDocumentStructure--) | Gets a value determining whether or not to export document structure. |
-| [getExportGeneratorName()](#getExportGeneratorName--) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [getExportLanguageToSpanTag()](#getExportLanguageToSpanTag--) | Gets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
-| [getFontEmbeddingMode()](#getFontEmbeddingMode--) | Specifies the font embedding mode. |
-| [getHeaderFooterBookmarksExportMode()](#getHeaderFooterBookmarksExportMode--) | Determines how bookmarks in headers/footers are exported. |
-| [getImageColorSpaceExportMode()](#getImageColorSpaceExportMode--) | Specifies how the color space will be selected for the images in PDF document. |
-| [getImageCompression()](#getImageCompression--) | Specifies compression type to be used for all images in the document. |
-| [getImlRenderingMode()](#getImlRenderingMode--) | Gets a value determining how ink (InkML) objects are rendered. |
-| [getInterpolateImages()](#getInterpolateImages--) | A flag indicating whether image interpolation shall be performed by a conforming reader. |
-| [getJpegQuality()](#getJpegQuality--) | Gets a value determining the quality of the JPEG images inside PDF document. |
-| [getMemoryOptimization()](#getMemoryOptimization--) | Gets value determining if memory optimization should be performed before saving the document. |
-| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | Allows to specify metafile rendering options. |
-| [getNumeralFormat()](#getNumeralFormat--) | Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [getOpenHyperlinksInNewWindow()](#getOpenHyperlinksInNewWindow--) | Gets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
-| [getOptimizeOutput()](#getOptimizeOutput--) | Flag indicates whether it is required to optimize output. |
-| [getOutlineOptions()](#getOutlineOptions--) | Allows to specify outline options. |
-| [getPageMode()](#getPageMode--) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
-| [getPageSavingCallback()](#getPageSavingCallback--) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [getPageSet()](#getPageSet--) | Gets the pages to render. |
-| [getPreblendImages()](#getPreblendImages--) | Gets a value determining whether or not to preblend transparent images with black background color. |
-| [getPreserveFormFields()](#getPreserveFormFields--) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. |
-| [getPrettyFormat()](#getPrettyFormat--) | When  true , pretty formats output where applicable. |
-| [getProgressCallback()](#getProgressCallback--) | Called during saving a document and accepts data about saving progress. |
-| [getSaveFormat()](#getSaveFormat--) | Specifies the format in which the document will be saved if this save options object is used. |
-| [getTempFolder()](#getTempFolder--) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [getTextCompression()](#getTextCompression--) | Specifies compression type to be used for all textual content in the document. |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateFields()](#getUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [getUpdateSdtContent()](#getUpdateSdtContent--) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [getUseAntiAliasing()](#getUseAntiAliasing--) | Gets a value determining whether or not to use anti-aliasing for rendering. |
-| [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings--) | Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
-| [getUseCoreFonts()](#getUseCoreFonts--) | Gets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
-| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | Gets a value determining whether or not to use high quality (i.e. |
-| [getZoomBehavior()](#getZoomBehavior--) | Gets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
-| [getZoomFactor()](#getZoomFactor--) | Gets a value determining zoom factor (in percentages) for a document. |
+| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
+| [deepClone()](#deepClone--) | 创建此对象的深层克隆。 |
+| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
+| [getAdditionalTextPositioning()](#getAdditionalTextPositioning--) | 一个标志，指定是否编写额外的文本定位运算符。 |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [getCacheHeaderFooterShapes()](#getCacheHeaderFooterShapes--) | 获取一个值，该值确定是否缓存放置在文档页眉和页脚中的形状。 |
+| [get班级()](#get班级--) |  |
+| [getColorMode()](#getColorMode--) | 获取一个值，该值确定如何呈现颜色。 |
+| [getCompliance()](#getCompliance--) | 指定输出文档的 PDF 标准合规级别。 |
+| [getCreateNoteHyperlinks()](#getCreateNoteHyperlinks--) | 指定是否将正文故事中的脚注/尾注引用转换为活动超链接。 |
+| [getCustomPropertiesExport()](#getCustomPropertiesExport--) | 获取确定方式的值[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。 |
+| [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
+| [getDigitalSignatureDetails()](#getDigitalSignatureDetails--) | 获取用于签署输出 PDF 文档的详细信息。 |
+| [getDisplayDocTitle()](#getDisplayDocTitle--) | 一个标志，指定窗口是否\\u2019s 标题栏应显示从文档信息字典的 Title 条目中获取的文档标题。 |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
+| [getDownsampleOptions()](#getDownsampleOptions--) | 允许指定下采样选项。 |
+| [getEmbedFullFonts()](#getEmbedFullFonts--) | 控制字体如何嵌入到生成的 PDF 文档中。 |
+| [getEncryptionDetails()](#getEncryptionDetails--) | 获取加密输出 PDF 文档的详细信息。 |
+| [getExportDocumentStructure()](#getExportDocumentStructure--) | 获取确定是否导出文档结构的值。 |
+| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [getExportLanguageToSpanTag()](#getExportLanguageToSpanTag--) | 获取一个值，该值确定是否在文档结构中创建“Span”标签以导出文本语言。 |
+| [getFontEmbeddingMode()](#getFontEmbeddingMode--) | 指定字体嵌入模式。 |
+| [getHeaderFooterBookmarksExportMode()](#getHeaderFooterBookmarksExportMode--) | 确定如何导出页眉/页脚中的书签。 |
+| [getImageColorSpaceExportMode()](#getImageColorSpaceExportMode--) | 指定如何为 PDF 文档中的图像选择色彩空间。 |
+| [getImageCompression()](#getImageCompression--) | 指定要用于文档中所有图像的压缩类型。 |
+| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
+| [getInterpolateImages()](#getInterpolateImages--) | 指示图像插值是否应由合格阅读器执行的标志。 |
+| [getJpegQuality()](#getJpegQuality--) | 获取确定 PDF 文档中 JPEG 图像质量的值。 |
+| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
+| [getMetafileRenderingOptions()](#getMetafileRenderingOptions--) | 允许指定元文件渲染选项。 |
+| [getNumeralFormat()](#getNumeralFormat--) | 获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [getOpenHyperlinksInNewWindow()](#getOpenHyperlinksInNewWindow--) | 获取一个值，该值确定是否强制在浏览器的新窗口（或选项卡）中打开输出 Pdf 文档中的超链接。 |
+| [getOptimizeOutput()](#getOptimizeOutput--) | Flag 表示是否需要优化输出。 |
+| [getOutlineOptions()](#getOutlineOptions--) | 允许指定大纲选项。 |
+| [getPageMode()](#getPageMode--) | 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。 |
+| [getPageSavingCallback()](#getPageSavingCallback--) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [getPageSet()](#getPageSet--) | 获取要呈现的页面。 |
+| [getPreblendImages()](#getPreblendImages--) | 获取一个值，该值确定是否将透明图像与黑色背景颜色预混合。 |
+| [getPreserveForm字段()](#getPreserveForm字段--) | 指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。 |
+| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存文档的格式。 |
+| [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [getTextCompression()](#getTextCompression--) | 指定要用于文档中所有文本内容的压缩类型。 |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdate字段()](#getUpdate字段--) | 获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [getUpdateSdtContent()](#getUpdateSdtContent--) | 获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
+| [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings--) | 获取一个布尔值，指示是否应使用小册子打印布局保存文档（如果通过以下方式指定）[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
+| [getUseCoreFonts()](#getUseCoreFonts--) | 获取一个值，该值确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体。 |
+| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
+| [getZoomBehavior()](#getZoomBehavior--) | 获取一个值，该值确定使用 PDF 查看器打开文档时应应用哪种类型的缩放。 |
+| [getZoomFactor()](#getZoomFactor--) | 获取确定文档缩放系数（以百分比为单位）的值。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAdditionalTextPositioning(boolean value)](#setAdditionalTextPositioning-boolean-) | A flag specifying whether to write additional text positioning operators or not. |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
-| [setCacheHeaderFooterShapes(boolean value)](#setCacheHeaderFooterShapes-boolean-) | Sets a value determining whether or not to cache shapes placed in header and footer of document. |
-| [setColorMode(int value)](#setColorMode-int-) | Sets a value determining how colors are rendered. |
-| [setCompliance(int value)](#setCompliance-int-) | Specifies the PDF standards compliance level for output documents. |
-| [setCreateNoteHyperlinks(boolean value)](#setCreateNoteHyperlinks-boolean-) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. |
-| [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | Sets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. |
-| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | Sets path to default template (including filename). |
-| [setDigitalSignatureDetails(PdfDigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-) | Sets the details for signing the output PDF document. |
-| [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary. |
-| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | Sets a value determining how 3D effects are rendered. |
-| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | Sets a value determining how DrawingML effects are rendered. |
-| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | Sets a value determining how DrawingML shapes are rendered. |
-| [setDownsampleOptions(DownsampleOptions value)](#setDownsampleOptions-com.aspose.words.DownsampleOptions-) | Allows to specify downsample options. |
-| [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean-) | Controls how fonts are embedded into the resulting PDF documents. |
-| [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.words.PdfEncryptionDetails-) | Sets the details for encrypting the output PDF document. |
-| [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | Sets a value determining whether or not to export document structure. |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
-| [setExportLanguageToSpanTag(boolean value)](#setExportLanguageToSpanTag-boolean-) | Sets a value determining whether or not to create a "Span" tag in the document structure to export the text language. |
-| [setFontEmbeddingMode(int value)](#setFontEmbeddingMode-int-) | Specifies the font embedding mode. |
-| [setHeaderFooterBookmarksExportMode(int value)](#setHeaderFooterBookmarksExportMode-int-) | Determines how bookmarks in headers/footers are exported. |
-| [setImageColorSpaceExportMode(int value)](#setImageColorSpaceExportMode-int-) | Specifies how the color space will be selected for the images in PDF document. |
-| [setImageCompression(int value)](#setImageCompression-int-) | Specifies compression type to be used for all images in the document. |
-| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | Sets a value determining how ink (InkML) objects are rendered. |
-| [setInterpolateImages(boolean value)](#setInterpolateImages-boolean-) | A flag indicating whether image interpolation shall be performed by a conforming reader. |
-| [setJpegQuality(int value)](#setJpegQuality-int-) | Sets a value determining the quality of the JPEG images inside PDF document. |
-| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | Sets value determining if memory optimization should be performed before saving the document. |
-| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | Allows to specify metafile rendering options. |
-| [setNumeralFormat(int value)](#setNumeralFormat-int-) | Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. |
-| [setOpenHyperlinksInNewWindow(boolean value)](#setOpenHyperlinksInNewWindow-boolean-) | Sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
-| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag indicates whether it is required to optimize output. |
-| [setPageMode(int value)](#setPageMode-int-) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
-| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
-| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | Sets the pages to render. |
-| [setPreblendImages(boolean value)](#setPreblendImages-boolean-) | Sets a value determining whether or not to preblend transparent images with black background color. |
-| [setPreserveFormFields(boolean value)](#setPreserveFormFields-boolean-) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | When  true , pretty formats output where applicable. |
-| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | Called during saving a document and accepts data about saving progress. |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | Specifies the format in which the document will be saved if this save options object is used. |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
-| [setTextCompression(int value)](#setTextCompression-int-) | Specifies compression type to be used for all textual content in the document. |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateFields(boolean value)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
-| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | Sets a value determining whether or not to use anti-aliasing for rendering. |
-| [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean-) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
-| [setUseCoreFonts(boolean value)](#setUseCoreFonts-boolean-) | Sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
-| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | Sets a value determining whether or not to use high quality (i.e. |
-| [setZoomBehavior(int value)](#setZoomBehavior-int-) | Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
-| [setZoomFactor(int value)](#setZoomFactor-int-) | Sets a value determining zoom factor (in percentages) for a document. |
+| [setAdditionalTextPositioning(boolean value)](#setAdditionalTextPositioning-boolean-) | 一个标志，指定是否编写额外的文本定位运算符。 |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| [setCacheHeaderFooterShapes(boolean value)](#setCacheHeaderFooterShapes-boolean-) | 设置一个值，确定是否缓存放置在文档页眉和页脚中的形状。 |
+| [setColorMode(int value)](#setColorMode-int-) | 设置一个值来确定如何呈现颜色。 |
+| [setCompliance(int value)](#setCompliance-int-) | 指定输出文档的 PDF 标准合规级别。 |
+| [setCreateNoteHyperlinks(boolean value)](#setCreateNoteHyperlinks-boolean-) | 指定是否将正文故事中的脚注/尾注引用转换为活动超链接。 |
+| [setCustomPropertiesExport(int value)](#setCustomPropertiesExport-int-) | 设置确定方式的值[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。 |
+| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
+| [setDigitalSignatureDetails(PdfDigitalSignatureDetails value)](#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-) | 设置用于签署输出 PDF 文档的详细信息。 |
+| [setDisplayDocTitle(boolean value)](#setDisplayDocTitle-boolean-) | 一个标志，指定窗口是否\\u2019s 标题栏应显示从文档信息字典的 Title 条目中获取的文档标题。 |
+| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
+| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
+| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
+| [setDownsampleOptions(DownsampleOptions value)](#setDownsampleOptions-com.aspose.words.DownsampleOptions-) | 允许指定下采样选项。 |
+| [setEmbedFullFonts(boolean value)](#setEmbedFullFonts-boolean-) | 控制字体如何嵌入到生成的 PDF 文档中。 |
+| [setEncryptionDetails(PdfEncryptionDetails value)](#setEncryptionDetails-com.aspose.words.PdfEncryptionDetails-) | 设置加密输出 PDF 文档的详细信息。 |
+| [setExportDocumentStructure(boolean value)](#setExportDocumentStructure-boolean-) | 设置确定是否导出文档结构的值。 |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
+| [setExportLanguageToSpanTag(boolean value)](#setExportLanguageToSpanTag-boolean-) | 设置一个值，确定是否在文档结构中创建“Span”标签以导出文本语言。 |
+| [setFontEmbeddingMode(int value)](#setFontEmbeddingMode-int-) | 指定字体嵌入模式。 |
+| [setHeaderFooterBookmarksExportMode(int value)](#setHeaderFooterBookmarksExportMode-int-) | 确定如何导出页眉/页脚中的书签。 |
+| [setImageColorSpaceExportMode(int value)](#setImageColorSpaceExportMode-int-) | 指定如何为 PDF 文档中的图像选择色彩空间。 |
+| [setImageCompression(int value)](#setImageCompression-int-) | 指定要用于文档中所有图像的压缩类型。 |
+| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
+| [setInterpolateImages(boolean value)](#setInterpolateImages-boolean-) | 指示图像插值是否应由合格阅读器执行的标志。 |
+| [setJpegQuality(int value)](#setJpegQuality-int-) | 设置确定 PDF 文档中 JPEG 图像质量的值。 |
+| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
+| [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-) | 允许指定元文件渲染选项。 |
+| [setNumeralFormat(int value)](#setNumeralFormat-int-) | 套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。 |
+| [setOpenHyperlinksInNewWindow(boolean value)](#setOpenHyperlinksInNewWindow-boolean-) | 设置一个值，确定是否强制在浏览器的新窗口（或选项卡）中打开输出 Pdf 文档中的超链接。 |
+| [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean-) | Flag 表示是否需要优化输出。 |
+| [setPageMode(int value)](#setPageMode-int-) | 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。 |
+| [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback-) | 允许控制将文档导出为固定页面格式时如何保存单独的页面。 |
+| [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet-) | 设置要呈现的页面。 |
+| [setPreblendImages(boolean value)](#setPreblendImages-boolean-) | 设置一个值，确定是否将透明图像与黑色背景颜色预混合。 |
+| [setPreserveForm字段(boolean value)](#setPreserveForm字段-boolean-) | 指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。 |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
+| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存文档的格式。 |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
+| [setTextCompression(int value)](#setTextCompression-int-) | 指定要用于文档中所有文本内容的压缩类型。 |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdate字段(boolean value)](#setUpdate字段-boolean-) | 设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | 设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | 设置一个值，确定是否使用抗锯齿进行渲染。 |
+| [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean-) | 设置一个布尔值，指示是否应使用小册子打印布局保存文档，如果它是通过指定的[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
+| [setUseCoreFonts(boolean value)](#setUseCoreFonts-boolean-) | 设置一个值，确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体。 |
+| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | 设置一个值来确定是否使用高质量（即 |
+| [setZoomBehavior(int value)](#setZoomBehavior-int-) | 设置一个值，用于确定使用 PDF 查看器打开文档时应应用的缩放类型。 |
+| [setZoomFactor(int value)](#setZoomFactor-int-) | 设置确定文档缩放系数（以百分比为单位）的值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -151,7 +151,7 @@ public PdfSaveOptions()
 ```
 
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF) format.
+初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF)格式。
 
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int-}
 ```
@@ -161,12 +161,12 @@ public static SaveOptions createSaveOptions(int saveFormat)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**Returns:**
+**退货:**
 [SaveOptions](../../com.aspose.words/saveoptions)
 ### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String-}
 ```
@@ -174,24 +174,24 @@ public static SaveOptions createSaveOptions(String fileName)
 ```
 
 
-Creates a save options object of a class suitable for the file extension specified in the given file name.
+创建适合给定文件名中指定的文件扩展名的类的保存选项对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
+| fileName | java.lang.String | 此文件名的扩展名确定要创建的保存选项对象的类。 |
 
-**Returns:**
-[SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
+**退货:**
+[SaveOptions](../../com.aspose.words/saveoptions) - 派生自的类的对象[SaveOptions](../../com.aspose.words/saveoptions).
 ### deepClone() {#deepClone--}
 ```
 public PdfSaveOptions deepClone()
 ```
 
 
-Creates a deep clone of this object.
+创建此对象的深层克隆。
 
-**Returns:**
+**退货:**
 [PdfSaveOptions](../../com.aspose.words/pdfsaveoptions)
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
@@ -199,729 +199,729 @@ public boolean equals(Object obj)
 ```
 
 
-Determines whether the specified object is equal in value to the current object.
+确定指定对象的值是否与当前对象相等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAdditionalTextPositioning() {#getAdditionalTextPositioning--}
 ```
 public boolean getAdditionalTextPositioning()
 ```
 
 
-A flag specifying whether to write additional text positioning operators or not.
+一个标志，指定是否编写额外的文本定位运算符。
 
-If  true , additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
+如果为 true ，则会将其他文本定位运算符写入输出 PDF。这可能有助于克服某些打印机的文本定位不准确的问题。缺点是增加了 PDF 文档的大小。
 
-The default value is  false .
+默认值为 false 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts--}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Returns:**
-boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
+**退货:**
+boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
 ### getCacheHeaderFooterShapes() {#getCacheHeaderFooterShapes--}
 ```
 public boolean getCacheHeaderFooterShapes()
 ```
 
 
-Gets a value determining whether or not to cache shapes placed in header and footer of document.
+获取一个值，该值确定是否缓存放置在文档页眉和页脚中的形状。
 
-Default value is  false  and shapes are not cached.
+默认值为 false 并且不缓存形状。
 
-When the value is  true  shapes graphics are written to the PDF document as an xObject.
+当值为 true 时，图形将作为 xObject 写入 PDF 文档。
 
-Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
+某些形状不支持缓存（带有字段、书签、HRef 的形状）。
 
-**Returns:**
-boolean - A value determining whether or not to cache shapes placed in header and footer of document.
-### getClass() {#getClass--}
+**退货:**
+boolean - 确定是否缓存放置在文档页眉和页脚中的形状的值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getColorMode() {#getColorMode--}
 ```
 public int getColorMode()
 ```
 
 
-Gets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+获取一个值，该值确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Returns:**
-int - A value determining how colors are rendered. The returned value is one of [ColorMode](../../com.aspose.words/colormode) constants.
+**退货:**
+int - 确定颜色如何呈现的值。返回值是以下之一[ColorMode](../../com.aspose.words/colormode)常数。
 ### getCompliance() {#getCompliance--}
 ```
 public int getCompliance()
 ```
 
 
-Specifies the PDF standards compliance level for output documents.
+指定输出文档的 PDF 标准合规级别。
 
-Default is [PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance\#PDF-17).
+默认为[PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance\#PDF-17).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfCompliance](../../com.aspose.words/pdfcompliance) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfCompliance](../../com.aspose.words/pdfcompliance)常数。
 ### getCreateNoteHyperlinks() {#getCreateNoteHyperlinks--}
 ```
 public boolean getCreateNoteHyperlinks()
 ```
 
 
-Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is  false .
+指定是否将正文故事中的脚注/尾注引用转换为活动超链接。点击后，超链接将指向相应的脚注/尾注。默认为 false 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getCustomPropertiesExport() {#getCustomPropertiesExport--}
 ```
 public int getCustomPropertiesExport()
 ```
 
 
-Gets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file.
+获取确定方式的值[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。
 
-Default value is [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE).
+默认值为[PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE).
 
-[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA) value is not supported when saving to PDF/A. [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD) will be used instead for PDF/A-1 and PDF/A-2 and [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE) for PDF/A-4.
+[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA)保存为 PDF/A 时不支持 value。[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD)将用于 PDF/A-1 和 PDF/A-2 和[PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE)对于 PDF/A-4。
 
-[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD) value is not supported when saving to PDF 2.0. [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA) will be used instead.
+[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD)保存为 PDF 2.0 时不支持 value。[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA)将被使用。
 
-**Returns:**
-int - A value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. The returned value is one of [PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport) constants.
+**退货:**
+int - 确定方式的值[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。返回值是以下之一[PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport)常数。
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
 ```
 
 
-Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+获取默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Returns:**
-java.lang.String - Path to default template (including filename).
+**退货:**
+java.lang.String - 默认模板的路径（包括文件名）。
 ### getDigitalSignatureDetails() {#getDigitalSignatureDetails--}
 ```
 public PdfDigitalSignatureDetails getDigitalSignatureDetails()
 ```
 
 
-Gets the details for signing the output PDF document.
+获取用于签署输出 PDF 文档的详细信息。
 
-The default value is null and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) object, then the output PDF document will be digitally signed.
+默认值为空，输出文档不会被签名。当此属性设置为有效时[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)对象，则输出的 PDF 文档将被数字签名。
 
-**Returns:**
-[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) - The details for signing the output PDF document.
+**退货:**
+[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) - 签署输出 PDF 文档的详细信息。
 ### getDisplayDocTitle() {#getDisplayDocTitle--}
 ```
 public boolean getDisplayDocTitle()
 ```
 
 
-A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary.
+一个标志，指定窗口是否\\u2019s 标题栏应显示从文档信息字典的 Title 条目中获取的文档标题。
 
-If  false , the title bar should instead display the name of the PDF file containing the document.
+如果为 false ，则标题栏应改为显示包含该文档的 PDF 文件的名称。
 
-This flag is required by PDF/UA compliance.  true  value will be used automatically when saving to PDF/UA.
+PDF/UA 合规性需要此标志。保存到 PDF/UA 时将自动使用 true 值。
 
-The default value is  false .
+默认值为 false 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode--}
 ```
 public int getDml3DEffectsRenderingMode()
 ```
 
 
-Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Returns:**
-int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
+**退货:**
+int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-If [getCompliance()](../../com.aspose.words/pdfsaveoptions\#getCompliance--) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions\#setCompliance-int-) is set to [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A) or [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B), property always returns [DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode\#NONE).
+如果[getCompliance()](../../com.aspose.words/pdfsaveoptions\#getCompliance--) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions\#setCompliance-int-)被设定为[PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A)或者[PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B) , 属性总是返回[DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode\#NONE).
 
-**Returns:**
-int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
+**退货:**
+ int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
 ### getDownsampleOptions() {#getDownsampleOptions--}
 ```
 public DownsampleOptions getDownsampleOptions()
 ```
 
 
-Allows to specify downsample options.
+允许指定下采样选项。
 
-**Returns:**
-[DownsampleOptions](../../com.aspose.words/downsampleoptions) - The corresponding [DownsampleOptions](../../com.aspose.words/downsampleoptions) value.
+**退货:**
+[DownsampleOptions](../../com.aspose.words/downsampleoptions) - 相应的[DownsampleOptions](../../com.aspose.words/downsampleoptions)价值。
 ### getEmbedFullFonts() {#getEmbedFullFonts--}
 ```
 public boolean getEmbedFullFonts()
 ```
 
 
-Controls how fonts are embedded into the resulting PDF documents.
+控制字体如何嵌入到生成的 PDF 文档中。
 
-The default value is  false , which means the fonts are subsetted before embedding. Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all unused glyphs from a font.
+默认值为 false ，这意味着字体在嵌入之前被子集化。如果您想保持输出文件的大小更小，子集化很有用。子集从字体中删除所有未使用的字形。
 
-When this value is set to  true , a complete font file is embedded into PDF without subsetting. This will result in larger output files, but can be a useful option when you want to edit the resulting PDF later (e.g. add more text).
+当此值设置为 true 时，将完整的字体文件嵌入到 PDF 中而不设置子集。这将导致更大的输出文件，但当您想稍后编辑生成的 PDF（例如添加更多文本）时，它可能是一个有用的选项。
 
-Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
+某些字体很大（几兆字节）并且在没有子集的情况下嵌入它们会导致输出文档很大。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getEncryptionDetails() {#getEncryptionDetails--}
 ```
 public PdfEncryptionDetails getEncryptionDetails()
 ```
 
 
-Gets the details for encrypting the output PDF document.
+获取加密输出 PDF 文档的详细信息。
 
-The default value is null and the output document will not be encrypted. When this property is set to a valid [PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) object, then the output PDF document will be encrypted.
+默认值为空，输出文档不会被加密。当此属性设置为有效时[PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails)对象，则输出的 PDF 文档将被加密。
 
-AES-128 encryption algorithm is used when saving to PDF 1.7 based compliance (including PDF/UA-1). AES-256 encryption algorithm is used when saving to PDF 2.0 based compliance.
+保存到基于 PDF 1.7 的合规性（包括 PDF/UA-1）时使用 AES-128 加密算法。保存到基于 PDF 2.0 的合规性时使用 AES-256 加密算法。
 
-Encryption is prohibited by PDF/A compliance. This option will be ignored when saving to PDF/A.
+PDF/A 合规性禁止加密。保存为 PDF/A 时将忽略此选项。
 
-[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is required by PDF/UA compliance if the output document is encrypted. This permission will automatically used when saving to PDF/UA.
+[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY)如果输出文档是加密的，则 PDF/UA 合规性需要许可。保存到 PDF/UA 时将自动使用此权限。
 
-[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
+[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY)PDF 2.0 格式不推荐使用权限。保存到 PDF 2.0 时将忽略此权限。
 
-**Returns:**
-[PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) - The details for encrypting the output PDF document.
+**退货:**
+[PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) - 加密输出 PDF 文档的详细信息。
 ### getExportDocumentStructure() {#getExportDocumentStructure--}
 ```
 public boolean getExportDocumentStructure()
 ```
 
 
-Gets a value determining whether or not to export document structure.
+获取确定是否导出文档结构的值。
 
-This value is ignored when saving to PDF/A-1a, PDF/A-2a and PDF/UA-1 because document structure is required for this compliance.
+保存到 PDF/A-1a、PDF/A-2a 和 PDF/UA-1 时忽略此值，因为此合规性需要文档结构。
 
-Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+请注意，导出文档结构会显着增加内存消耗，尤其是对于大型文档。
 
-**Returns:**
-boolean - A value determining whether or not to export document structure.
+**退货:**
+boolean - 确定是否导出文档结构的值。
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getExportLanguageToSpanTag() {#getExportLanguageToSpanTag--}
 ```
 public boolean getExportLanguageToSpanTag()
 ```
 
 
-Gets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
+获取一个值，该值确定是否在文档结构中创建“Span”标签以导出文本语言。
 
-Default value is  false  and "Lang" attribute is attached to a marked-content sequence in a page content stream.
+默认值为 false，并且“Lang”属性附加到页面内容流中的标记内容序列。
 
-When the value is  true  "Span" tag is created for the text with non-default language and "Lang" attribute is attached to this tag.
+当值为 true 时，将为具有非默认语言的文本创建“Span”标签，并将“Lang”属性附加到此标签。
 
-This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions\#getExportDocumentStructure--) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions\#setExportDocumentStructure-boolean-) is  false .
+该值被忽略时[getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions\#getExportDocumentStructure--) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions\#setExportDocumentStructure-boolean-)是假的。
 
-**Returns:**
-boolean - A value determining whether or not to create a "Span" tag in the document structure to export the text language.
+**退货:**
+boolean - 确定是否在文档结构中创建“Span”标签以导出文本语言的值。
 ### getFontEmbeddingMode() {#getFontEmbeddingMode--}
 ```
 public int getFontEmbeddingMode()
 ```
 
 
-Specifies the font embedding mode.
+指定字体嵌入模式。
 
-The default value is [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL).
+默认值为[PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL).
 
-This setting works only for the text in ANSI (Windows-1252) encoding. If the document contains non-ANSI text then corresponding fonts will be embedded regardless of this setting.
+此设置仅适用于 ANSI (Windows-1252) 编码的文本。如果文档包含非 ANSI 文本，则无论此设置如何，都将嵌入相应的字体。
 
-PDF/A and PDF/UA compliance requires all fonts to be embedded. [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL) value will be used automatically when saving to PDF/A and PDF/UA.
+ PDF/A 和 PDF/UA 合规性要求嵌入所有字体。[PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL)保存为 PDF/A 和 PDF/UA 时将自动使用该值。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode)常数。
 ### getHeaderFooterBookmarksExportMode() {#getHeaderFooterBookmarksExportMode--}
 ```
 public int getHeaderFooterBookmarksExportMode()
 ```
 
 
-Determines how bookmarks in headers/footers are exported.
+确定如何导出页眉/页脚中的书签。
 
-The default value is [HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode\#ALL).
+默认值为[HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode\#ALL).
 
-This property is used in conjunction with the [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--) option.
+此属性与[getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--)选项。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [HeaderFooterBookmarksExportMode](../../com.aspose.words/headerfooterbookmarksexportmode) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[HeaderFooterBookmarksExportMode](../../com.aspose.words/headerfooterbookmarksexportmode)常数。
 ### getImageColorSpaceExportMode() {#getImageColorSpaceExportMode--}
 ```
 public int getImageColorSpaceExportMode()
 ```
 
 
-Specifies how the color space will be selected for the images in PDF document.
+指定如何为 PDF 文档中的图像选择色彩空间。
 
-The default value is [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO).
+默认值为[PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO).
 
-If [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK) value is specified, [getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-) option is ignored and Flate compression is used for all images in the document.
+如果[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK)指定值，[getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-)选项被忽略，Flate 压缩用于文档中的所有图像。
 
-[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK) value is not supported when saving to PDF/A. [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO) value will be used instead.
+[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK)保存为 PDF/A 时不支持 value。[PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO) value 将被使用。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfImageColorSpaceExportMode](../../com.aspose.words/pdfimagecolorspaceexportmode) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfImageColorSpaceExportMode](../../com.aspose.words/pdfimagecolorspaceexportmode)常数。
 ### getImageCompression() {#getImageCompression--}
 ```
 public int getImageCompression()
 ```
 
 
-Specifies compression type to be used for all images in the document.
+指定要用于文档中所有图像的压缩类型。
 
-Default is [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO).
+默认为[PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO).
 
-Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG) lets you control the quality of images in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-) property.
+使用[PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG)让您可以通过[getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-)财产。
 
-Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG) provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
+使用[PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG)与其他压缩类型的性能相比，它提供了最快的转换速度，但在这种情况下，存在有损 JPEG 压缩。
 
-Using [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO) lets to control the quality of Jpeg in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
+使用[PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO)让我们通过控制输出文档中 Jpeg 的质量[getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-)属性，但对于其他格式，使用 Flate 压缩提取和保存原始像素数据。这种情况比 Jpeg 转换慢但无损。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfImageCompression](../../com.aspose.words/pdfimagecompression) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfImageCompression](../../com.aspose.words/pdfimagecompression)常数。
 ### getImlRenderingMode() {#getImlRenderingMode--}
 ```
 public int getImlRenderingMode()
 ```
 
 
-Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Returns:**
-int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
+**退货:**
+int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
 ### getInterpolateImages() {#getInterpolateImages--}
 ```
 public boolean getInterpolateImages()
 ```
 
 
-A flag indicating whether image interpolation shall be performed by a conforming reader. When  false  is specified, the flag is not written to the output document and the default behaviour of reader is used instead.
+指示图像插值是否应由合格阅读器执行的标志。指定 false 时，该标志不会写入输出文档，而是使用 reader 的默认行为。
 
-When the resolution of a source image is significantly lower than that of the output device, each source sample covers many device pixels. As a result, images can appear jaggy or blocky. These visual artifacts can be reduced by applying an image interpolation algorithm during rendering. Instead of painting all pixels covered by a source sample with the same color, image interpolation attempts to produce a smooth transition between adjacent sample values.
+当源图像的分辨率明显低于输出设备的分辨率时，每个源样本会覆盖许多设备像素。因此，图像可能会出现锯齿状或块状。这些视觉伪影可以通过在渲染过程中应用图像插值算法来减少。图像插值不是用相同的颜色绘制源样本覆盖的所有像素，而是尝试在相邻样本值之间产生平滑过渡。
 
-A conforming Reader may choose to not implement this feature of PDF, or may use any specific implementation of interpolation that it wishes.
+符合要求的阅读器可以选择不实现 PDF 的此功能，或者可以使用它希望的任何特定的插值实现。
 
-The default value is  false .
+默认值为 false 。
 
-Interpolation flag is prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
+PDF/A 合规性禁止插值标志。保存为 PDF/A 时将自动使用 false 值。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getJpegQuality() {#getJpegQuality--}
 ```
 public int getJpegQuality()
 ```
 
 
-Gets a value determining the quality of the JPEG images inside PDF document.
+获取确定 PDF 文档中 JPEG 图像质量的值。
 
-The default value is 100.
+默认值为 100。
 
-This property is used in conjunction with the [getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-) option.
+此属性与[getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-)选项。
 
-Has effect only when a document contains JPEG images.
+仅当文档包含 JPEG 图像时才有效。
 
-Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
+以 PDF 格式保存时，使用此属性可获取或设置文档中图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。如果质量为 100 且源图像为 JPEG，则表示不压缩 - 将保存原始字节。
 
-**Returns:**
-int - A value determining the quality of the JPEG images inside PDF document.
+**退货:**
+int - 确定 PDF 文档中 JPEG 图像质量的值。
 ### getMemoryOptimization() {#getMemoryOptimization--}
 ```
 public boolean getMemoryOptimization()
 ```
 
 
-Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+获取确定是否应在保存文档之前执行内存优化的值。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Returns:**
-boolean - Value determining if memory optimization should be performed before saving the document.
+**退货:**
+boolean - 确定是否应在保存文档之前执行内存优化的值。
 ### getMetafileRenderingOptions() {#getMetafileRenderingOptions--}
 ```
 public MetafileRenderingOptions getMetafileRenderingOptions()
 ```
 
 
-Allows to specify metafile rendering options.
+允许指定元文件渲染选项。
 
-**Returns:**
-[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value.
+**退货:**
+[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) - 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。
 ### getNumeralFormat() {#getNumeralFormat--}
 ```
 public int getNumeralFormat()
 ```
 
 
-Gets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+获取[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Returns:**
-int - \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The returned value is one of [NumeralFormat](../../com.aspose.words/numeralformat) constants.
+**退货:**
+诠释 -\{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。返回值是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。
 ### getOpenHyperlinksInNewWindow() {#getOpenHyperlinksInNewWindow--}
 ```
 public boolean getOpenHyperlinksInNewWindow()
 ```
 
 
-Gets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
+获取一个值，该值确定是否强制在浏览器的新窗口（或选项卡）中打开输出 Pdf 文档中的超链接。
 
-The default value is  false . When this value is set to  true  hyperlinks are saved using JavaScript code. JavaScript code is  app.launchURL("URL", true); , where  URL  is a hyperlink.
+默认值为 false 。当此值设置为 true 时，超链接将使用 JavaScript 代码保存。 JavaScript 代码是 app.launchURL("URL", true); ，其中 URL 是一个超链接。
 
-Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
+请注意，如果此选项设置为 true，则超链接在某些 PDF 阅读器（例如 Chrome、Firefox）中无法使用。
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+PDF/A-1 和 PDF/A-2 合规性禁止 JavaScript 操作。保存到 PDF/A-1 和 PDF/A-2 时将自动使用 false。
 
-**Returns:**
-boolean - A value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
+**退货:**
+boolean - 确定输出 Pdf 文档中的超链接是否强制在浏览器的新窗口（或选项卡）中打开的值。
 ### getOptimizeOutput() {#getOptimizeOutput--}
 ```
 public boolean getOptimizeOutput()
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getOutlineOptions() {#getOutlineOptions--}
 ```
 public OutlineOptions getOutlineOptions()
 ```
 
 
-Allows to specify outline options.
+允许指定大纲选项。
 
-Outlines can be created from headings and bookmarks.
+可以从标题和书签创建大纲。
 
-For headings outline level is determined by the heading level.
+对于标题大纲级别由标题级别决定。
 
-It is possible to set the max heading level to be included into outlines or disable heading outlines at all.
+可以将最大标题级别设置为包含在大纲中或完全禁用标题大纲。
 
-For bookmarks outline level may be set in options as a default value for all bookmarks or as individual values for particular bookmarks.
+对于书签，大纲级别可以在选项中设置为所有书签的默认值或特定书签的单独值。
 
-Also, outlines can be exported to XPS format by using the same [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--) class.
+此外，可以使用相同的方法将轮廓导出为 XPS 格式[getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--)班级。
 
-**Returns:**
-[OutlineOptions](../../com.aspose.words/outlineoptions) - The corresponding [OutlineOptions](../../com.aspose.words/outlineoptions) value.
+**退货:**
+[OutlineOptions](../../com.aspose.words/outlineoptions) - 相应的[OutlineOptions](../../com.aspose.words/outlineoptions)价值。
 ### getPageMode() {#getPageMode--}
 ```
 public int getPageMode()
 ```
 
 
-Specifies how the PDF document should be displayed when opened in the PDF reader. The default value is [PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode\#USE-OUTLINES).
+指定 PDF 文档在 PDF 阅读器中打开时的显示方式。默认值为[PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode\#USE-OUTLINES).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfPageMode](../../com.aspose.words/pdfpagemode) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfPageMode](../../com.aspose.words/pdfpagemode)常数。
 ### getPageSavingCallback() {#getPageSavingCallback--}
 ```
 public IPageSavingCallback getPageSavingCallback()
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Returns:**
-[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value.
+**退货:**
+[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) - 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。
 ### getPageSet() {#getPageSet--}
 ```
 public PageSet getPageSet()
 ```
 
 
-Gets the pages to render. Default is all the pages in the document.
+获取要呈现的页面。默认为文档中的所有页面。
 
-**Returns:**
-[PageSet](../../com.aspose.words/pageset) - The pages to render.
+**退货:**
+[PageSet](../../com.aspose.words/pageset) - 要呈现的页面。
 ### getPreblendImages() {#getPreblendImages--}
 ```
 public boolean getPreblendImages()
 ```
 
 
-Gets a value determining whether or not to preblend transparent images with black background color.
+获取一个值，该值确定是否将透明图像与黑色背景颜色预混合。
 
-Preblending images may improve PDF document visual appearance in Adobe Reader and remove anti-aliasing artifacts.
+预混合图像可以改善 PDF 文档在 Adobe Reader 中的视觉外观并消除抗锯齿伪影。
 
-In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary. Also preblending images may decrease PDF rendering performance.
+为了正确显示预混合图像，PDF 查看器应用程序必须支持软掩模图像字典中的 /Matte 条目。此外，预混合图像可能会降低 PDF 渲染性能。
 
-The default value is  false .
+默认值为 false 。
 
-**Returns:**
-boolean - A value determining whether or not to preblend transparent images with black background color.
-### getPreserveFormFields() {#getPreserveFormFields--}
+**退货:**
+boolean - 确定是否将透明图像与黑色背景颜色预混合的值。
+### getPreserveForm字段() {#getPreserveForm字段--}
 ```
-public boolean getPreserveFormFields()
+public boolean getPreserveForm字段()
 ```
 
 
-Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is  false .
+指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。默认为 false 。
 
-Microsoft Word form fields include text input, drop down and check box controls.
+Microsoft Word 表单域包括文本输入、下拉和复选框控件。
 
-When set to  false , these fields will be exported as text to PDF. When set to  true , these fields will be exported as PDF form fields.
+当设置为 false 时，这些字段将作为文本导出为 PDF。设置为 true 时，这些字段将导出为 PDF 表单字段。
 
-When exporting form fields to PDF as form fields, some formatting loss might occur because PDF form fields do not support all features of Microsoft Word form fields.
+将表单域作为表单域导出为 PDF 时，可能会出现一些格式丢失，因为 PDF 表单域不支持 Microsoft Word 表单域的所有功能。
 
-Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
+此外，输出大小取决于内容大小，因为 Microsoft Word 中的可编辑表单是内联对象。
 
-Editable forms are prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
+PDF/A 合规性禁止可编辑表单。保存为 PDF/A 时将自动使用 false 值。
 
-Form fields are not supported when saving to PDF/UA.  false  value will be used automatically.
+保存为 PDF/UA 时不支持表单域。 false 值将被自动使用。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getPrettyFormat() {#getPrettyFormat--}
 ```
 public boolean getPrettyFormat()
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentSavingCallback getProgressCallback()
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Returns:**
-[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
+**退货:**
+[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF).
+如果使用此保存选项对象，则指定保存文档的格式。只能是[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getTextCompression() {#getTextCompression--}
 ```
 public int getTextCompression()
 ```
 
 
-Specifies compression type to be used for all textual content in the document.
+指定要用于文档中所有文本内容的压缩类型。
 
-Default is [PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression\#FLATE).
+默认为[PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression\#FLATE).
 
-Significantly increases output size when saving a document without compression.
+保存未压缩的文档时显着增加输出大小。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PdfTextCompression](../../com.aspose.words/pdftextcompression) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PdfTextCompression](../../com.aspose.words/pdftextcompression)常数。
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty--}
 ```
 public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving.
-### getUpdateFields() {#getUpdateFields--}
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。
+### getUpdate字段() {#getUpdate字段--}
 ```
-public boolean getUpdateFields()
+public boolean getUpdate字段()
 ```
 
 
-Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Returns:**
-boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
+**退货:**
+boolean - 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty--}
 ```
 public boolean getUpdateLastPrintedProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty--}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Returns:**
-boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+**退货:**
+ boolean - 确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 ### getUpdateSdtContent() {#getUpdateSdtContent--}
 ```
 public boolean getUpdateSdtContent()
 ```
 
 
-Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Returns:**
-boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
+**退货:**
+ boolean - 确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。
 ### getUseAntiAliasing() {#getUseAntiAliasing--}
 ```
 public boolean getUseAntiAliasing()
 ```
 
 
-Gets a value determining whether or not to use anti-aliasing for rendering.
+获取一个值，该值确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Returns:**
-boolean - A value determining whether or not to use anti-aliasing for rendering.
+**退货:**
+boolean - 确定是否使用抗锯齿进行渲染的值。
 ### getUseBookFoldPrintingSettings() {#getUseBookFoldPrintingSettings--}
 ```
 public boolean getUseBookFoldPrintingSettings()
 ```
 
 
-Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
+获取一个布尔值，指示是否应使用小册子打印布局保存文档（如果通过以下方式指定）[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
 
-If this option is specified, [FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions\#getPageSet--) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions\#setPageSet-com.aspose.words.PageSet-) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
+如果指定了此选项，[FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions\#getPageSet--) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions\#setPageSet-com.aspose.words.PageSet-)保存时被忽略。此行为与 MS Word 匹配。如果页面设置中没有指定折页打印设置，此选项将无效。
 
-**Returns:**
-boolean - A boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
+**退货:**
+ boolean - 一个布尔值，指示是否应使用小册子打印布局保存文档，如果它是通过指定的[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
 ### getUseCoreFonts() {#getUseCoreFonts--}
 ```
 public boolean getUseCoreFonts()
 ```
 
 
-Gets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
+获取一个值，该值确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体。
 
-The default value is  false . When this value is set to  true  Arial, Times New Roman, Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
+默认值为 false 。当此值设置为真 Arial 时，Times New Roman、Courier New 和 Symbol 字体在 PDF 文档中被替换为对应的核心 类型 1 字体。
 
-Core PDF fonts, or their font metrics and suitable substitution fonts, are required to be available to any PDF viewer application.
+任何 PDF 查看器应用程序都需要核心 PDF 字体或其字体规格和合适的替代字体。
 
-This setting works only for the text in ANSI (Windows-1252) encoding. Non-ANSI text will be written with embedded TrueType font regardless of this setting.
+此设置仅适用于 ANSI (Windows-1252) 编码的文本。无论此设置如何，非 ANSI 文本都将使用嵌入的 True类型 字体写入。
 
-PDF/A and PDF/UA compliance requires all fonts to be embedded.  false  value will be used automatically when saving to PDF/A and PDF/UA.
+PDF/A 和 PDF/UA 合规性要求嵌入所有字体。保存到 PDF/A 和 PDF/UA 时将自动使用 false 值。
 
-Core fonts are not supported when saving to PDF 2.0 format.  false  value will be used automatically when saving to PDF 2.0.
+保存为 PDF 2.0 格式时不支持核心字体。保存到 PDF 2.0 时将自动使用 false 值。
 
-This option has a higher priority then [getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions\#getFontEmbeddingMode--) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions\#setFontEmbeddingMode-int-) option.
+此选项具有更高的优先级[getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions\#getFontEmbeddingMode--) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions\#setFontEmbeddingMode-int-)选项。
 
-**Returns:**
-boolean - A value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
+**退货:**
+boolean - 确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体的值。
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Returns:**
-boolean - A value determining whether or not to use high quality (i.e.
+**退货:**
+boolean - 确定是否使用高质量的值（即
 ### getZoomBehavior() {#getZoomBehavior--}
 ```
 public int getZoomBehavior()
 ```
 
 
-Gets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. The default value is [PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior\#NONE), i.e. no fit is applied.
+获取一个值，该值确定使用 PDF 查看器打开文档时应应用哪种类型的缩放。默认值为[PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior\#NONE)，即不应用拟合。
 
-**Returns:**
-int - A value determining what type of zoom should be applied when a document is opened with a PDF viewer. The returned value is one of [PdfZoomBehavior](../../com.aspose.words/pdfzoombehavior) constants.
+**退货:**
+ int - 确定使用 PDF 查看器打开文档时应应用哪种缩放类型的值。返回值是以下之一[PdfZoomBehavior](../../com.aspose.words/pdfzoombehavior)常数。
 ### getZoomFactor() {#getZoomFactor--}
 ```
 public int getZoomFactor()
 ```
 
 
-Gets a value determining zoom factor (in percentages) for a document. This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveoptions\#getZoomBehavior--) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions\#setZoomBehavior-int-) is set to [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior\#ZOOM-FACTOR).
+获取确定文档缩放系数（以百分比为单位）的值。此值仅在以下情况下使用[getZoomBehavior()](../../com.aspose.words/pdfsaveoptions\#getZoomBehavior--) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions\#setZoomBehavior-int-)被设定为[PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior\#ZOOM-FACTOR).
 
-**Returns:**
-int - A value determining zoom factor (in percentages) for a document.
+**退货:**
+int - 确定文档缩放系数（百分比）的值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -930,8 +930,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -954,16 +954,16 @@ public void setAdditionalTextPositioning(boolean value)
 ```
 
 
-A flag specifying whether to write additional text positioning operators or not.
+一个标志，指定是否编写额外的文本定位运算符。
 
-If  true , additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
+如果为 true ，则会将其他文本定位运算符写入输出 PDF。这可能有助于克服某些打印机的文本定位不准确的问题。缺点是增加了 PDF 文档的大小。
 
-The default value is  false .
+默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean-}
 ```
@@ -971,16 +971,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
+设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
 
-Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
+请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
 
-This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
+此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
 
 ### setCacheHeaderFooterShapes(boolean value) {#setCacheHeaderFooterShapes-boolean-}
 ```
@@ -988,18 +988,18 @@ public void setCacheHeaderFooterShapes(boolean value)
 ```
 
 
-Sets a value determining whether or not to cache shapes placed in header and footer of document.
+设置一个值，确定是否缓存放置在文档页眉和页脚中的形状。
 
-Default value is  false  and shapes are not cached.
+默认值为 false 并且不缓存形状。
 
-When the value is  true  shapes graphics are written to the PDF document as an xObject.
+当值为 true 时，图形将作为 xObject 写入 PDF 文档。
 
-Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
+某些形状不支持缓存（带有字段、书签、HRef 的形状）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to cache shapes placed in header and footer of document. |
+| value | boolean | 确定是否缓存放置在文档页眉和页脚中的形状的值。 |
 
 ### setColorMode(int value) {#setColorMode-int-}
 ```
@@ -1007,12 +1007,12 @@ public void setColorMode(int value)
 ```
 
 
-Sets a value determining how colors are rendered. The default value is [ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
+设置一个值来确定如何呈现颜色。默认值为[ColorMode.NORMAL](../../com.aspose.words/colormode\#NORMAL).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how colors are rendered. The value must be one of [ColorMode](../../com.aspose.words/colormode) constants. |
+| value | int | 确定如何呈现颜色的值。该值必须是以下之一[ColorMode](../../com.aspose.words/colormode)常数。 |
 
 ### setCompliance(int value) {#setCompliance-int-}
 ```
@@ -1020,14 +1020,14 @@ public void setCompliance(int value)
 ```
 
 
-Specifies the PDF standards compliance level for output documents.
+指定输出文档的 PDF 标准合规级别。
 
-Default is [PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance\#PDF-17).
+默认为[PdfCompliance.PDF\_17](../../com.aspose.words/pdfcompliance\#PDF-17).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfCompliance](../../com.aspose.words/pdfcompliance) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfCompliance](../../com.aspose.words/pdfcompliance)常数。 |
 
 ### setCreateNoteHyperlinks(boolean value) {#setCreateNoteHyperlinks-boolean-}
 ```
@@ -1035,12 +1035,12 @@ public void setCreateNoteHyperlinks(boolean value)
 ```
 
 
-Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is  false .
+指定是否将正文故事中的脚注/尾注引用转换为活动超链接。点击后，超链接将指向相应的脚注/尾注。默认为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setCustomPropertiesExport(int value) {#setCustomPropertiesExport-int-}
 ```
@@ -1048,18 +1048,18 @@ public void setCustomPropertiesExport(int value)
 ```
 
 
-Sets a value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file.
+设置确定方式的值[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。
 
-Default value is [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE).
+默认值为[PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE).
 
-[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA) value is not supported when saving to PDF/A. [PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD) will be used instead for PDF/A-1 and PDF/A-2 and [PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE) for PDF/A-4.
+[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA)保存为 PDF/A 时不支持 value。[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD)将用于 PDF/A-1 和 PDF/A-2 和[PdfCustomPropertiesExport.NONE](../../com.aspose.words/pdfcustompropertiesexport\#NONE)对于 PDF/A-4。
 
-[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD) value is not supported when saving to PDF 2.0. [PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA) will be used instead.
+[PdfCustomPropertiesExport.STANDARD](../../com.aspose.words/pdfcustompropertiesexport\#STANDARD)保存为 PDF 2.0 时不支持 value。[PdfCustomPropertiesExport.METADATA](../../com.aspose.words/pdfcustompropertiesexport\#METADATA)将被使用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining the way [Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. The value must be one of [PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport) constants. |
+| value | int | 价值决定方式[Document.getCustomDocumentProperties()](../../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。该值必须是以下之一[PdfCustomPropertiesExport](../../com.aspose.words/pdfcustompropertiesexport)常数。 |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -1067,12 +1067,12 @@ public void setDefaultTemplate(String value)
 ```
 
 
-Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
+设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Path to default template (including filename). |
+| value | java.lang.String | 默认模板的路径（包括文件名）。 |
 
 ### setDigitalSignatureDetails(PdfDigitalSignatureDetails value) {#setDigitalSignatureDetails-com.aspose.words.PdfDigitalSignatureDetails-}
 ```
@@ -1080,14 +1080,14 @@ public void setDigitalSignatureDetails(PdfDigitalSignatureDetails value)
 ```
 
 
-Sets the details for signing the output PDF document.
+设置用于签署输出 PDF 文档的详细信息。
 
-The default value is null and the output document will not be signed. When this property is set to a valid [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) object, then the output PDF document will be digitally signed.
+默认值为空，输出文档不会被签名。当此属性设置为有效时[PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails)对象，则输出的 PDF 文档将被数字签名。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) | The details for signing the output PDF document. |
+| value | [PdfDigitalSignatureDetails](../../com.aspose.words/pdfdigitalsignaturedetails) | 签署输出 PDF 文档的详细信息。 |
 
 ### setDisplayDocTitle(boolean value) {#setDisplayDocTitle-boolean-}
 ```
@@ -1095,18 +1095,18 @@ public void setDisplayDocTitle(boolean value)
 ```
 
 
-A flag specifying whether the window\\u2019s title bar should display the document title taken from the Title entry of the document information dictionary.
+一个标志，指定窗口是否\\u2019s 标题栏应显示从文档信息字典的 Title 条目中获取的文档标题。
 
-If  false , the title bar should instead display the name of the PDF file containing the document.
+如果为 false ，则标题栏应改为显示包含该文档的 PDF 文件的名称。
 
-This flag is required by PDF/UA compliance.  true  value will be used automatically when saving to PDF/UA.
+PDF/UA 合规性需要此标志。保存到 PDF/UA 时将自动使用 true 值。
 
-The default value is  false .
+默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int-}
 ```
@@ -1114,12 +1114,12 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+设置确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
+| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -1127,16 +1127,16 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+设置一个值，确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-If [getCompliance()](../../com.aspose.words/pdfsaveoptions\#getCompliance--) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions\#setCompliance-int-) is set to [PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A) or [PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B), property always returns [DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode\#NONE).
+如果[getCompliance()](../../com.aspose.words/pdfsaveoptions\#getCompliance--) / [setCompliance(int)](../../com.aspose.words/pdfsaveoptions\#setCompliance-int-)被设定为[PdfCompliance.PDF\_A\_1\_A](../../com.aspose.words/pdfcompliance\#PDF-A-1-A)或者[PdfCompliance.PDF\_A\_1\_B](../../com.aspose.words/pdfcompliance\#PDF-A-1-B) , 属性总是返回[DmlEffectsRenderingMode.NONE](../../com.aspose.words/dmleffectsrenderingmode\#NONE).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -1144,14 +1144,14 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+设置一个值，确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
+| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
 
 ### setDownsampleOptions(DownsampleOptions value) {#setDownsampleOptions-com.aspose.words.DownsampleOptions-}
 ```
@@ -1159,12 +1159,12 @@ public void setDownsampleOptions(DownsampleOptions value)
 ```
 
 
-Allows to specify downsample options.
+允许指定下采样选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [DownsampleOptions](../../com.aspose.words/downsampleoptions) | The corresponding [DownsampleOptions](../../com.aspose.words/downsampleoptions) value. |
+| value | [DownsampleOptions](../../com.aspose.words/downsampleoptions) | 相应的[DownsampleOptions](../../com.aspose.words/downsampleoptions)价值。 |
 
 ### setEmbedFullFonts(boolean value) {#setEmbedFullFonts-boolean-}
 ```
@@ -1172,18 +1172,18 @@ public void setEmbedFullFonts(boolean value)
 ```
 
 
-Controls how fonts are embedded into the resulting PDF documents.
+控制字体如何嵌入到生成的 PDF 文档中。
 
-The default value is  false , which means the fonts are subsetted before embedding. Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all unused glyphs from a font.
+默认值为 false ，这意味着字体在嵌入之前被子集化。如果您想保持输出文件的大小更小，子集化很有用。子集从字体中删除所有未使用的字形。
 
-When this value is set to  true , a complete font file is embedded into PDF without subsetting. This will result in larger output files, but can be a useful option when you want to edit the resulting PDF later (e.g. add more text).
+当此值设置为 true 时，将完整的字体文件嵌入到 PDF 中而不设置子集。这将导致更大的输出文件，但当您想稍后编辑生成的 PDF（例如添加更多文本）时，它可能是一个有用的选项。
 
-Some fonts are large (several megabytes) and embedding them without subsetting will result in large output documents.
+某些字体很大（几兆字节）并且在没有子集的情况下嵌入它们会导致输出文档很大。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setEncryptionDetails(PdfEncryptionDetails value) {#setEncryptionDetails-com.aspose.words.PdfEncryptionDetails-}
 ```
@@ -1191,22 +1191,22 @@ public void setEncryptionDetails(PdfEncryptionDetails value)
 ```
 
 
-Sets the details for encrypting the output PDF document.
+设置加密输出 PDF 文档的详细信息。
 
-The default value is null and the output document will not be encrypted. When this property is set to a valid [PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) object, then the output PDF document will be encrypted.
+默认值为空，输出文档不会被加密。当此属性设置为有效时[PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails)对象，则输出的 PDF 文档将被加密。
 
-AES-128 encryption algorithm is used when saving to PDF 1.7 based compliance (including PDF/UA-1). AES-256 encryption algorithm is used when saving to PDF 2.0 based compliance.
+保存到基于 PDF 1.7 的合规性（包括 PDF/UA-1）时使用 AES-128 加密算法。保存到基于 PDF 2.0 的合规性时使用 AES-256 加密算法。
 
-Encryption is prohibited by PDF/A compliance. This option will be ignored when saving to PDF/A.
+PDF/A 合规性禁止加密。保存为 PDF/A 时将忽略此选项。
 
-[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is required by PDF/UA compliance if the output document is encrypted. This permission will automatically used when saving to PDF/UA.
+[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY)如果输出文档是加密的，则 PDF/UA 合规性需要许可。保存到 PDF/UA 时将自动使用此权限。
 
-[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY) permission is deprecated in PDF 2.0 format. This permission will be ignored when saving to PDF 2.0.
+[PdfPermissions.CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY)PDF 2.0 格式不推荐使用权限。保存到 PDF 2.0 时将忽略此权限。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) | The details for encrypting the output PDF document. |
+| value | [PdfEncryptionDetails](../../com.aspose.words/pdfencryptiondetails) | 加密输出 PDF 文档的详细信息。 |
 
 ### setExportDocumentStructure(boolean value) {#setExportDocumentStructure-boolean-}
 ```
@@ -1214,16 +1214,16 @@ public void setExportDocumentStructure(boolean value)
 ```
 
 
-Sets a value determining whether or not to export document structure.
+设置确定是否导出文档结构的值。
 
-This value is ignored when saving to PDF/A-1a, PDF/A-2a and PDF/UA-1 because document structure is required for this compliance.
+保存到 PDF/A-1a、PDF/A-2a 和 PDF/UA-1 时忽略此值，因为此合规性需要文档结构。
 
-Note that exporting the document structure significantly increases the memory consumption, especially for the large documents.
+请注意，导出文档结构会显着增加内存消耗，尤其是对于大型文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to export document structure. |
+| value | boolean | 确定是否导出文档结构的值。 |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -1231,12 +1231,12 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
+如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setExportLanguageToSpanTag(boolean value) {#setExportLanguageToSpanTag-boolean-}
 ```
@@ -1244,18 +1244,18 @@ public void setExportLanguageToSpanTag(boolean value)
 ```
 
 
-Sets a value determining whether or not to create a "Span" tag in the document structure to export the text language.
+设置一个值，确定是否在文档结构中创建“Span”标签以导出文本语言。
 
-Default value is  false  and "Lang" attribute is attached to a marked-content sequence in a page content stream.
+默认值为 false，并且“Lang”属性附加到页面内容流中的标记内容序列。
 
-When the value is  true  "Span" tag is created for the text with non-default language and "Lang" attribute is attached to this tag.
+当值为 true 时，将为具有非默认语言的文本创建“Span”标签，并将“Lang”属性附加到此标签。
 
-This value is ignored when [getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions\#getExportDocumentStructure--) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions\#setExportDocumentStructure-boolean-) is  false .
+该值被忽略时[getExportDocumentStructure()](../../com.aspose.words/pdfsaveoptions\#getExportDocumentStructure--) / [setExportDocumentStructure(boolean)](../../com.aspose.words/pdfsaveoptions\#setExportDocumentStructure-boolean-)是假的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to create a "Span" tag in the document structure to export the text language. |
+| value | boolean | 确定是否在文档结构中创建“Span”标签以导出文本语言的值。 |
 
 ### setFontEmbeddingMode(int value) {#setFontEmbeddingMode-int-}
 ```
@@ -1263,18 +1263,18 @@ public void setFontEmbeddingMode(int value)
 ```
 
 
-Specifies the font embedding mode.
+指定字体嵌入模式。
 
-The default value is [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL).
+默认值为[PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL).
 
-This setting works only for the text in ANSI (Windows-1252) encoding. If the document contains non-ANSI text then corresponding fonts will be embedded regardless of this setting.
+此设置仅适用于 ANSI (Windows-1252) 编码的文本。如果文档包含非 ANSI 文本，则无论此设置如何，都将嵌入相应的字体。
 
-PDF/A and PDF/UA compliance requires all fonts to be embedded. [PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL) value will be used automatically when saving to PDF/A and PDF/UA.
+ PDF/A 和 PDF/UA 合规性要求嵌入所有字体。[PdfFontEmbeddingMode.EMBED\_ALL](../../com.aspose.words/pdffontembeddingmode\#EMBED-ALL)保存为 PDF/A 和 PDF/UA 时将自动使用该值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfFontEmbeddingMode](../../com.aspose.words/pdffontembeddingmode)常数。 |
 
 ### setHeaderFooterBookmarksExportMode(int value) {#setHeaderFooterBookmarksExportMode-int-}
 ```
@@ -1282,16 +1282,16 @@ public void setHeaderFooterBookmarksExportMode(int value)
 ```
 
 
-Determines how bookmarks in headers/footers are exported.
+确定如何导出页眉/页脚中的书签。
 
-The default value is [HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode\#ALL).
+默认值为[HeaderFooterBookmarksExportMode.ALL](../../com.aspose.words/headerfooterbookmarksexportmode\#ALL).
 
-This property is used in conjunction with the [getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--) option.
+此属性与[getOutlineOptions()](../../com.aspose.words/pdfsaveoptions\#getOutlineOptions--)选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [HeaderFooterBookmarksExportMode](../../com.aspose.words/headerfooterbookmarksexportmode) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[HeaderFooterBookmarksExportMode](../../com.aspose.words/headerfooterbookmarksexportmode)常数。 |
 
 ### setImageColorSpaceExportMode(int value) {#setImageColorSpaceExportMode-int-}
 ```
@@ -1299,18 +1299,18 @@ public void setImageColorSpaceExportMode(int value)
 ```
 
 
-Specifies how the color space will be selected for the images in PDF document.
+指定如何为 PDF 文档中的图像选择色彩空间。
 
-The default value is [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO).
+默认值为[PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO).
 
-If [PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK) value is specified, [getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-) option is ignored and Flate compression is used for all images in the document.
+如果[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK)指定值，[getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-)选项被忽略，Flate 压缩用于文档中的所有图像。
 
-[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK) value is not supported when saving to PDF/A. [PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO) value will be used instead.
+[PdfImageColorSpaceExportMode.SIMPLE\_CMYK](../../com.aspose.words/pdfimagecolorspaceexportmode\#SIMPLE-CMYK)保存为 PDF/A 时不支持 value。[PdfImageColorSpaceExportMode.AUTO](../../com.aspose.words/pdfimagecolorspaceexportmode\#AUTO) value 将被使用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfImageColorSpaceExportMode](../../com.aspose.words/pdfimagecolorspaceexportmode) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfImageColorSpaceExportMode](../../com.aspose.words/pdfimagecolorspaceexportmode)常数。 |
 
 ### setImageCompression(int value) {#setImageCompression-int-}
 ```
@@ -1318,20 +1318,20 @@ public void setImageCompression(int value)
 ```
 
 
-Specifies compression type to be used for all images in the document.
+指定要用于文档中所有图像的压缩类型。
 
-Default is [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO).
+默认为[PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO).
 
-Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG) lets you control the quality of images in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-) property.
+使用[PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG)让您可以通过[getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-)财产。
 
-Using [PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG) provides the fastest conversion speed when compared to the performance of other compression types, but in this case, there is lossy JPEG compression.
+使用[PdfImageCompression.JPEG](../../com.aspose.words/pdfimagecompression\#JPEG)与其他压缩类型的性能相比，它提供了最快的转换速度，但在这种情况下，存在有损 JPEG 压缩。
 
-Using [PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO) lets to control the quality of Jpeg in the output document through the [getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-) property, but for other formats, raw pixel data is extracted and saved with Flate compression. This case is slower than Jpeg conversion but lossless.
+使用[PdfImageCompression.AUTO](../../com.aspose.words/pdfimagecompression\#AUTO)让我们通过控制输出文档中 Jpeg 的质量[getJpegQuality()](../../com.aspose.words/pdfsaveoptions\#getJpegQuality--) / [setJpegQuality(int)](../../com.aspose.words/pdfsaveoptions\#setJpegQuality-int-)属性，但对于其他格式，使用 Flate 压缩提取和保存原始像素数据。这种情况比 Jpeg 转换慢但无损。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfImageCompression](../../com.aspose.words/pdfimagecompression) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfImageCompression](../../com.aspose.words/pdfimagecompression)常数。 |
 
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int-}
 ```
@@ -1339,14 +1339,14 @@ public void setImlRenderingMode(int value)
 ```
 
 
-Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+设置一个值，确定如何呈现墨水 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-This property is used when the document is exported to fixed page formats.
+当文档导出为固定页面格式时使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
+| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
 
 ### setInterpolateImages(boolean value) {#setInterpolateImages-boolean-}
 ```
@@ -1354,20 +1354,20 @@ public void setInterpolateImages(boolean value)
 ```
 
 
-A flag indicating whether image interpolation shall be performed by a conforming reader. When  false  is specified, the flag is not written to the output document and the default behaviour of reader is used instead.
+指示图像插值是否应由合格阅读器执行的标志。指定 false 时，该标志不会写入输出文档，而是使用 reader 的默认行为。
 
-When the resolution of a source image is significantly lower than that of the output device, each source sample covers many device pixels. As a result, images can appear jaggy or blocky. These visual artifacts can be reduced by applying an image interpolation algorithm during rendering. Instead of painting all pixels covered by a source sample with the same color, image interpolation attempts to produce a smooth transition between adjacent sample values.
+当源图像的分辨率明显低于输出设备的分辨率时，每个源样本会覆盖许多设备像素。因此，图像可能会出现锯齿状或块状。这些视觉伪影可以通过在渲染过程中应用图像插值算法来减少。图像插值不是用相同的颜色绘制源样本覆盖的所有像素，而是尝试在相邻样本值之间产生平滑过渡。
 
-A conforming Reader may choose to not implement this feature of PDF, or may use any specific implementation of interpolation that it wishes.
+符合要求的阅读器可以选择不实现 PDF 的此功能，或者可以使用它希望的任何特定的插值实现。
 
-The default value is  false .
+默认值为 false 。
 
-Interpolation flag is prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
+PDF/A 合规性禁止插值标志。保存为 PDF/A 时将自动使用 false 值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setJpegQuality(int value) {#setJpegQuality-int-}
 ```
@@ -1375,20 +1375,20 @@ public void setJpegQuality(int value)
 ```
 
 
-Sets a value determining the quality of the JPEG images inside PDF document.
+设置确定 PDF 文档中 JPEG 图像质量的值。
 
-The default value is 100.
+默认值为 100。
 
-This property is used in conjunction with the [getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-) option.
+此属性与[getImageCompression()](../../com.aspose.words/pdfsaveoptions\#getImageCompression--) / [setImageCompression(int)](../../com.aspose.words/pdfsaveoptions\#setImageCompression-int-)选项。
 
-Has effect only when a document contains JPEG images.
+仅当文档包含 JPEG 图像时才有效。
 
-Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. If quality is 100 and source image is JPEG, it means no compression - original bytes will be saved.
+以 PDF 格式保存时，使用此属性可获取或设置文档中图像的质量。该值可能在 0 到 100 之间变化，其中 0 表示质量最差但压缩最大，100 表示质量最好但压缩最小。如果质量为 100 且源图像为 JPEG，则表示不压缩 - 将保存原始字节。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining the quality of the JPEG images inside PDF document. |
+| value | int | 确定 PDF 文档中 JPEG 图像质量的值。 |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean-}
 ```
@@ -1396,12 +1396,12 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+设置值确定是否应在保存文档之前执行内存优化。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining if memory optimization should be performed before saving the document. |
+| value | boolean | 确定是否应在保存文档之前执行内存优化的值。 |
 
 ### setMetafileRenderingOptions(MetafileRenderingOptions value) {#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions-}
 ```
@@ -1409,12 +1409,12 @@ public void setMetafileRenderingOptions(MetafileRenderingOptions value)
 ```
 
 
-Allows to specify metafile rendering options.
+允许指定元文件渲染选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | The corresponding [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) value. |
+| value | [MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions) | 相应的[MetafileRenderingOptions](../../com.aspose.words/metafilerenderingoptions)价值。 |
 
 ### setNumeralFormat(int value) {#setNumeralFormat-int-}
 ```
@@ -1422,12 +1422,12 @@ public void setNumeralFormat(int value)
 ```
 
 
-Sets [NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. European numerals are used by default. If the value of this property is changed and page layout is already built then [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is invoked automatically to update any changes.
+套[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。默认使用欧洲数字。如果此属性的值已更改且页面布局已构建，则[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)自动调用以更新任何更改。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat) used for rendering of numerals. The value must be one of [NumeralFormat](../../com.aspose.words/numeralformat) constants. |
+| value | int | \{[NumeralFormat](../../com.aspose.words/numeralformat)用于渲染数字。该值必须是以下之一[NumeralFormat](../../com.aspose.words/numeralformat)常数。 |
 
 ### setOpenHyperlinksInNewWindow(boolean value) {#setOpenHyperlinksInNewWindow-boolean-}
 ```
@@ -1435,18 +1435,18 @@ public void setOpenHyperlinksInNewWindow(boolean value)
 ```
 
 
-Sets a value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser.
+设置一个值，确定是否强制在浏览器的新窗口（或选项卡）中打开输出 Pdf 文档中的超链接。
 
-The default value is  false . When this value is set to  true  hyperlinks are saved using JavaScript code. JavaScript code is  app.launchURL("URL", true); , where  URL  is a hyperlink.
+默认值为 false 。当此值设置为 true 时，超链接将使用 JavaScript 代码保存。 JavaScript 代码是 app.launchURL("URL", true); ，其中 URL 是一个超链接。
 
-Note that if this option is set to  true  hyperlinks can't work in some PDF readers e.g. Chrome, Firefox.
+请注意，如果此选项设置为 true，则超链接在某些 PDF 阅读器（例如 Chrome、Firefox）中无法使用。
 
-JavaScript actions are prohibited by PDF/A-1 and PDF/A-2 compliance.  false  will be used automatically when saving to PDF/A-1 and PDF/A-2.
+PDF/A-1 和 PDF/A-2 合规性禁止 JavaScript 操作。保存到 PDF/A-1 和 PDF/A-2 时将自动使用 false。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether hyperlinks in the output Pdf document are forced to be opened in a new window (or tab) of a browser. |
+| value | boolean | 确定输出 Pdf 文档中的超链接是否强制在浏览器的新窗口（或选项卡）中打开的值。 |
 
 ### setOptimizeOutput(boolean value) {#setOptimizeOutput-boolean-}
 ```
@@ -1454,12 +1454,12 @@ public void setOptimizeOutput(boolean value)
 ```
 
 
-Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to true. Default is false.
+Flag 表示是否需要优化输出。如果设置了此标志，则多余的嵌套画布和空画布被删除，具有相同格式的相邻字形也会被连接。注意：如果此属性设置为 true，可能会影响内容显示的准确性。默认为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPageMode(int value) {#setPageMode-int-}
 ```
@@ -1467,12 +1467,12 @@ public void setPageMode(int value)
 ```
 
 
-Specifies how the PDF document should be displayed when opened in the PDF reader. The default value is [PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode\#USE-OUTLINES).
+指定 PDF 文档在 PDF 阅读器中打开时的显示方式。默认值为[PdfPageMode.USE\_OUTLINES](../../com.aspose.words/pdfpagemode\#USE-OUTLINES).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfPageMode](../../com.aspose.words/pdfpagemode) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfPageMode](../../com.aspose.words/pdfpagemode)常数。 |
 
 ### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.words.IPageSavingCallback-}
 ```
@@ -1480,12 +1480,12 @@ public void setPageSavingCallback(IPageSavingCallback value)
 ```
 
 
-Allows to control how separate pages are saved when a document is exported to fixed page format.
+允许控制将文档导出为固定页面格式时如何保存单独的页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | The corresponding [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) value. |
+| value | [IPageSavingCallback](../../com.aspose.words/ipagesavingcallback) | 相应的[IPageSavingCallback](../../com.aspose.words/ipagesavingcallback)价值。 |
 
 ### setPageSet(PageSet value) {#setPageSet-com.aspose.words.PageSet-}
 ```
@@ -1493,12 +1493,12 @@ public void setPageSet(PageSet value)
 ```
 
 
-Sets the pages to render. Default is all the pages in the document.
+设置要呈现的页面。默认为文档中的所有页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [PageSet](../../com.aspose.words/pageset) | The pages to render. |
+| value | [PageSet](../../com.aspose.words/pageset) | 要呈现的页面。 |
 
 ### setPreblendImages(boolean value) {#setPreblendImages-boolean-}
 ```
@@ -1506,43 +1506,43 @@ public void setPreblendImages(boolean value)
 ```
 
 
-Sets a value determining whether or not to preblend transparent images with black background color.
+设置一个值，确定是否将透明图像与黑色背景颜色预混合。
 
-Preblending images may improve PDF document visual appearance in Adobe Reader and remove anti-aliasing artifacts.
+预混合图像可以改善 PDF 文档在 Adobe Reader 中的视觉外观并消除抗锯齿伪影。
 
-In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary. Also preblending images may decrease PDF rendering performance.
+为了正确显示预混合图像，PDF 查看器应用程序必须支持软掩模图像字典中的 /Matte 条目。此外，预混合图像可能会降低 PDF 渲染性能。
 
-The default value is  false .
+默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to preblend transparent images with black background color. |
+| value | boolean | 确定是否将透明图像与黑色背景颜色预混合的值。 |
 
-### setPreserveFormFields(boolean value) {#setPreserveFormFields-boolean-}
+### setPreserveForm字段(boolean value) {#setPreserveForm字段-boolean-}
 ```
-public void setPreserveFormFields(boolean value)
+public void setPreserveForm字段(boolean value)
 ```
 
 
-Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is  false .
+指定是将 Microsoft Word 表单域保留为 PDF 中的表单域还是将它们转换为文本。默认为 false 。
 
-Microsoft Word form fields include text input, drop down and check box controls.
+Microsoft Word 表单域包括文本输入、下拉和复选框控件。
 
-When set to  false , these fields will be exported as text to PDF. When set to  true , these fields will be exported as PDF form fields.
+当设置为 false 时，这些字段将作为文本导出为 PDF。设置为 true 时，这些字段将导出为 PDF 表单字段。
 
-When exporting form fields to PDF as form fields, some formatting loss might occur because PDF form fields do not support all features of Microsoft Word form fields.
+将表单域作为表单域导出为 PDF 时，可能会出现一些格式丢失，因为 PDF 表单域不支持 Microsoft Word 表单域的所有功能。
 
-Also, the output size depends on the content size because editable forms in Microsoft Word are inline objects.
+此外，输出大小取决于内容大小，因为 Microsoft Word 中的可编辑表单是内联对象。
 
-Editable forms are prohibited by PDF/A compliance.  false  value will be used automatically when saving to PDF/A.
+PDF/A 合规性禁止可编辑表单。保存为 PDF/A 时将自动使用 false 值。
 
-Form fields are not supported when saving to PDF/UA.  false  value will be used automatically.
+保存为 PDF/UA 时不支持表单域。 false 值将被自动使用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
 ```
@@ -1550,14 +1550,14 @@ public void setPrettyFormat(boolean value)
 ```
 
 
-When  true , pretty formats output where applicable. Default value is **false**.
+如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
 
-Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
+调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback-}
 ```
@@ -1565,14 +1565,14 @@ public void setProgressCallback(IDocumentSavingCallback value)
 ```
 
 
-Called during saving a document and accepts data about saving progress.
+在保存文档期间调用并接受有关保存进度的数据。
 
-Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
+| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。 |
 
 ### setSaveFormat(int value) {#setSaveFormat-int-}
 ```
@@ -1580,12 +1580,12 @@ public void setSaveFormat(int value)
 ```
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF).
+如果使用此保存选项对象，则指定保存文档的格式。只能是[SaveFormat.PDF](../../com.aspose.words/saveformat\#PDF).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。 |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -1593,20 +1593,20 @@ public void setTempFolder(String value)
 ```
 
 
-Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
+指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
 
-When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
+当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
 
-If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
+如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
 
-The folder must exist and be writable, otherwise an exception will be thrown.
+文件夹必须存在且可写，否则会抛出异常。
 
-Aspose.Words automatically deletes all temporary files when saving is complete.
+保存完成后，Aspose.Words 会自动删除所有临时文件。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setTextCompression(int value) {#setTextCompression-int-}
 ```
@@ -1614,16 +1614,16 @@ public void setTextCompression(int value)
 ```
 
 
-Specifies compression type to be used for all textual content in the document.
+指定要用于文档中所有文本内容的压缩类型。
 
-Default is [PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression\#FLATE).
+默认为[PdfTextCompression.FLATE](../../com.aspose.words/pdftextcompression\#FLATE).
 
-Significantly increases output size when saving a document without compression.
+保存未压缩的文档时显着增加输出大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PdfTextCompression](../../com.aspose.words/pdftextcompression) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PdfTextCompression](../../com.aspose.words/pdftextcompression)常数。 |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
 ```
@@ -1631,25 +1631,25 @@ public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
+设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
 
-### setUpdateFields(boolean value) {#setUpdateFields-boolean-}
+### setUpdate字段(boolean value) {#setUpdate字段-boolean-}
 ```
-public void setUpdateFields(boolean value)
+public void setUpdate字段(boolean value)
 ```
 
 
-Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
+设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| value | boolean | 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。 |
 
 ### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean-}
 ```
@@ -1657,12 +1657,12 @@ public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean-}
 ```
@@ -1670,12 +1670,12 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
+设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
 
 ### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean-}
 ```
@@ -1683,12 +1683,12 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
+设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -1696,16 +1696,16 @@ public void setUseAntiAliasing(boolean value)
 ```
 
 
-Sets a value determining whether or not to use anti-aliasing for rendering.
+设置一个值，确定是否使用抗锯齿进行渲染。
 
-The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
+默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
 
-This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
+当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use anti-aliasing for rendering. |
+| value | boolean | 确定是否使用抗锯齿进行渲染的值。 |
 
 ### setUseBookFoldPrintingSettings(boolean value) {#setUseBookFoldPrintingSettings-boolean-}
 ```
@@ -1713,14 +1713,14 @@ public void setUseBookFoldPrintingSettings(boolean value)
 ```
 
 
-Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
+设置一个布尔值，指示是否应使用小册子打印布局保存文档，如果它是通过指定的[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-).
 
-If this option is specified, [FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions\#getPageSet--) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions\#setPageSet-com.aspose.words.PageSet-) is ignored when saving. This behavior matches MS Word. If book fold printing settings are not specified in page setup, this option will have no effect.
+如果指定了此选项，[FixedPageSaveOptions.getPageSet()](../../com.aspose.words/fixedpagesaveoptions\#getPageSet--) / [FixedPageSaveOptions.setPageSet(com.aspose.words.PageSet)](../../com.aspose.words/fixedpagesaveoptions\#setPageSet-com.aspose.words.PageSet-)保存时被忽略。此行为与 MS Word 匹配。如果页面设置中没有指定折页打印设置，此选项将无效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
+| value | boolean | 一个布尔值，指示是否应使用小册子打印布局保存文档（如果通过以下方式指定）[PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup\#getMultiplePages--) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup\#setMultiplePages-int-). |
 
 ### setUseCoreFonts(boolean value) {#setUseCoreFonts-boolean-}
 ```
@@ -1728,24 +1728,24 @@ public void setUseCoreFonts(boolean value)
 ```
 
 
-Sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts.
+设置一个值，确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体。
 
-The default value is  false . When this value is set to  true  Arial, Times New Roman, Courier New and Symbol fonts are replaced in PDF document with corresponding core Type 1 font.
+默认值为 false 。当此值设置为真 Arial 时，Times New Roman、Courier New 和 Symbol 字体在 PDF 文档中被替换为对应的核心 类型 1 字体。
 
-Core PDF fonts, or their font metrics and suitable substitution fonts, are required to be available to any PDF viewer application.
+任何 PDF 查看器应用程序都需要核心 PDF 字体或其字体规格和合适的替代字体。
 
-This setting works only for the text in ANSI (Windows-1252) encoding. Non-ANSI text will be written with embedded TrueType font regardless of this setting.
+此设置仅适用于 ANSI (Windows-1252) 编码的文本。无论此设置如何，非 ANSI 文本都将使用嵌入的 True类型 字体写入。
 
-PDF/A and PDF/UA compliance requires all fonts to be embedded.  false  value will be used automatically when saving to PDF/A and PDF/UA.
+PDF/A 和 PDF/UA 合规性要求嵌入所有字体。保存到 PDF/A 和 PDF/UA 时将自动使用 false 值。
 
-Core fonts are not supported when saving to PDF 2.0 format.  false  value will be used automatically when saving to PDF 2.0.
+保存为 PDF 2.0 格式时不支持核心字体。保存到 PDF 2.0 时将自动使用 false 值。
 
-This option has a higher priority then [getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions\#getFontEmbeddingMode--) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions\#setFontEmbeddingMode-int-) option.
+此选项具有更高的优先级[getFontEmbeddingMode()](../../com.aspose.words/pdfsaveoptions\#getFontEmbeddingMode--) / [setFontEmbeddingMode(int)](../../com.aspose.words/pdfsaveoptions\#setFontEmbeddingMode-int-)选项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
+| value | boolean | 确定是否将 True类型 字体 Arial、Times New Roman、Courier New 和 Symbol 替换为核心 PDF 类型 1 字体的值。 |
 
 ### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean-}
 ```
@@ -1753,14 +1753,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
+设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
 
-This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A value determining whether or not to use high quality (i.e. |
+| value | boolean | 决定是否使用高质量的值（即 |
 
 ### setZoomBehavior(int value) {#setZoomBehavior-int-}
 ```
@@ -1768,12 +1768,12 @@ public void setZoomBehavior(int value)
 ```
 
 
-Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. The default value is [PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior\#NONE), i.e. no fit is applied.
+设置一个值，用于确定使用 PDF 查看器打开文档时应应用的缩放类型。默认值为[PdfZoomBehavior.NONE](../../com.aspose.words/pdfzoombehavior\#NONE)，即不应用拟合。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining what type of zoom should be applied when a document is opened with a PDF viewer. The value must be one of [PdfZoomBehavior](../../com.aspose.words/pdfzoombehavior) constants. |
+| value | int | 一个值，用于确定使用 PDF 查看器打开文档时应应用哪种类型的缩放。该值必须是以下之一[PdfZoomBehavior](../../com.aspose.words/pdfzoombehavior)常数。 |
 
 ### setZoomFactor(int value) {#setZoomFactor-int-}
 ```
@@ -1781,12 +1781,12 @@ public void setZoomFactor(int value)
 ```
 
 
-Sets a value determining zoom factor (in percentages) for a document. This value is used only if [getZoomBehavior()](../../com.aspose.words/pdfsaveoptions\#getZoomBehavior--) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions\#setZoomBehavior-int-) is set to [PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior\#ZOOM-FACTOR).
+设置确定文档缩放系数（以百分比为单位）的值。此值仅在以下情况下使用[getZoomBehavior()](../../com.aspose.words/pdfsaveoptions\#getZoomBehavior--) / [setZoomBehavior(int)](../../com.aspose.words/pdfsaveoptions\#setZoomBehavior-int-)被设定为[PdfZoomBehavior.ZOOM\_FACTOR](../../com.aspose.words/pdfzoombehavior\#ZOOM-FACTOR).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value determining zoom factor (in percentages) for a document. |
+| value | int | 确定文档缩放系数（百分比）的值。 |
 
 ### toString() {#toString--}
 ```
@@ -1796,7 +1796,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1814,8 +1814,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1827,9 +1827,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

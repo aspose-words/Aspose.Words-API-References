@@ -1,38 +1,38 @@
 ---
 title: HorizontalAlignment
-second_title: Aspose.Words for Java API Reference
-description: Specifies horizontal alignment of a floating shape text frame or floating table.
+second_title: Aspose.Words for Java API 参考
+description: 指定浮动形状文本框架或浮动表格的水平对齐方式。
 type: docs
 weight: 320
-url: /java/com.aspose.words/horizontalalignment/
+url: /zh/java/com.aspose.words/horizontalalignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class HorizontalAlignment
 ```
 
-Specifies horizontal alignment of a floating shape, text frame or floating table.
-## Fields
+指定浮动形状、文本框或浮动表格的水平对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the horizontal alignment base. |
-| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/horizontalalignment\#NONE). |
-| [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
-| [LEFT](#LEFT) | Specifies that the object shall be left aligned to the horizontal alignment base. |
-| [NONE](#NONE) | The object is explicitly positioned, usually using its **Left** property. |
-| [OUTSIDE](#OUTSIDE) | Specifies that the object shall be outside of the horizontal alignment base. |
-| [RIGHT](#RIGHT) | Specifies that the object shall be right aligned to the horizontal alignment base. |
+| [CENTER](#CENTER) | 指定对象应相对于水平对齐基准居中。 |
+| [DEFAULT](#DEFAULT) | 如同[NONE](../../com.aspose.words/horizontalalignment\#NONE). |
+| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基础内。 |
+| [LEFT](#LEFT) | 指定对象应与水平对齐基准左对齐。 |
+| [NONE](#NONE) | 对象被显式定位，通常使用它的**Left**财产。 |
+| [OUTSIDE](#OUTSIDE) | 指定对象应位于水平对齐基准之外。 |
+| [RIGHT](#RIGHT) | 指定对象应与水平对齐基准右对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String horizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int horizontalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public static int CENTER
 ```
 
 
-Specifies that the object shall be centered with respect to the horizontal alignment base.
+指定对象应相对于水平对齐基准居中。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -57,7 +57,7 @@ public static int DEFAULT
 ```
 
 
-Same as [NONE](../../com.aspose.words/horizontalalignment\#NONE).
+如同[NONE](../../com.aspose.words/horizontalalignment\#NONE).
 
 ### INSIDE {#INSIDE}
 ```
@@ -65,7 +65,7 @@ public static int INSIDE
 ```
 
 
-Specifies that the object shall be inside of the horizontal alignment base.
+指定对象应位于水平对齐基础内。
 
 ### LEFT {#LEFT}
 ```
@@ -73,7 +73,7 @@ public static int LEFT
 ```
 
 
-Specifies that the object shall be left aligned to the horizontal alignment base.
+指定对象应与水平对齐基准左对齐。
 
 ### NONE {#NONE}
 ```
@@ -81,7 +81,7 @@ public static int NONE
 ```
 
 
-The object is explicitly positioned, usually using its **Left** property.
+对象被显式定位，通常使用它的**Left**财产。
 
 ### OUTSIDE {#OUTSIDE}
 ```
@@ -89,7 +89,7 @@ public static int OUTSIDE
 ```
 
 
-Specifies that the object shall be outside of the horizontal alignment base.
+指定对象应位于水平对齐基准之外。
 
 ### RIGHT {#RIGHT}
 ```
@@ -97,7 +97,7 @@ public static int RIGHT
 ```
 
 
-Specifies that the object shall be right aligned to the horizontal alignment base.
+指定对象应与水平对齐基准右对齐。
 
 ### length {#length}
 ```
@@ -113,13 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String horizontalAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String horizontalAlignmentName)
@@ -128,23 +128,23 @@ public static int fromName(String horizontalAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int horizontalAlignment) {#getName-int-}
 ```
 public static String getName(int horizontalAlignment)
@@ -153,12 +153,12 @@ public static String getName(int horizontalAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -168,8 +168,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,8 +178,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int horizontalAlignment) {#toString-int-}
 ```
@@ -214,12 +214,12 @@ public static String toString(int horizontalAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | horizontalAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,9 +250,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

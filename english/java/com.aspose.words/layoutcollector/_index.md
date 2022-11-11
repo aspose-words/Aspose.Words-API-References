@@ -1,48 +1,48 @@
 ---
 title: LayoutCollector
-second_title: Aspose.Words for Java API Reference
-description: This class allows to compute page numbers of document nodes.
+second_title: Aspose.Words for Java API 参考
+description: 此类允许计算文档节点的页码。
 type: docs
 weight: 358
-url: /java/com.aspose.words/layoutcollector/
+url: /zh/java/com.aspose.words/layoutcollector/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class LayoutCollector
 ```
 
-This class allows to compute page numbers of document nodes.
+此类允许计算文档节点的页码。
 
-To learn more, visit the **Converting to Fixed-page Format** documentation article.
+要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
 
-When you create a [LayoutCollector](../../com.aspose.words/layoutcollector) and specify a [Document](../../com.aspose.words/document) document object to attach to, the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
+当你创建一个[LayoutCollector](../../com.aspose.words/layoutcollector)并指定一个[Document](../../com.aspose.words/document)要附加到的文档对象，当文档被格式化为页面时，收集器将记录文档节点到布局对象的映射。
 
-You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located by using the [getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-), [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) and [getNumPagesSpanned(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getNumPagesSpanned-com.aspose.words.Node-) methods. These methods automatically build page layout model of the document and update fields if required.
+您将能够通过使用[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-), [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-)和[getNumPagesSpanned(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getNumPagesSpanned-com.aspose.words.Node-)方法。如果需要，这些方法会自动构建文档的页面布局模型并更新字段。
 
-When you no longer need to collect layout information, it is best to set the [getDocument()](../../com.aspose.words/layoutcollector\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/layoutcollector\#setDocument-com.aspose.words.Document-) property to null to avoid unnecessary collection of more layout mappings.
-## Constructors
+当您不再需要收集布局信息时，最好将[getDocument()](../../com.aspose.words/layoutcollector\#getDocument--) / [setDocument(com.aspose.words.Document)](../../com.aspose.words/layoutcollector\#setDocument-com.aspose.words.Document-)属性为 null 以避免不必要地收集更多布局映射。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | Initializes an instance of this class. |
-## Methods
+| [LayoutCollector(Document doc)](#LayoutCollector-com.aspose.words.Document-) | 初始化此类的一个实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clear()](#clear--) | Clears all collected layout data. |
+| [clear()](#clear--) | 清除所有收集的布局数据。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getDocument()](#getDocument--) | Gets the document this collector instance is attached to. |
-| [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node ends. |
-| [getEntity(Node node)](#getEntity-com.aspose.words.Node-) | Returns an opaque position of the [LayoutEnumerator](../../com.aspose.words/layoutenumerator) which corresponds to the specified node. |
-| [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node-) | Gets number of pages the specified node spans. |
-| [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node-) | Gets 1-based index of the page where node begins. |
+| [get班级()](#get班级--) |  |
+| [getDocument()](#getDocument--) | 获取此收集器实例附加到的文档。 |
+| [getEndPageIndex(Node node)](#getEndPageIndex-com.aspose.words.Node-) | 获取节点结束的页面的从 1 开始的索引。 |
+| [getEntity(Node node)](#getEntity-com.aspose.words.Node-) | 返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)它对应于指定的节点。 |
+| [getNumPagesSpanned(Node node)](#getNumPagesSpanned-com.aspose.words.Node-) | 获取指定节点跨越的页数。 |
+| [getStartPageIndex(Node node)](#getStartPageIndex-com.aspose.words.Node-) | 获取节点开始的页面的从 1 开始的索引。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | Sets the document this collector instance is attached to. |
+| [setDocument(Document value)](#setDocument-com.aspose.words.Document-) | 设置此收集器实例附加到的文档。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -53,12 +53,12 @@ public LayoutCollector(Document doc)
 ```
 
 
-Initializes an instance of this class.
+初始化此类的一个实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| doc | [Document](../../com.aspose.words/document) | The document to which this collector instance will be attached to. |
+| doc | [Document](../../com.aspose.words/document) | 此收集器实例将附加到的文档。 |
 
 ### clear() {#clear--}
 ```
@@ -66,7 +66,7 @@ public void clear()
 ```
 
 
-Clears all collected layout data. Call this method after document was manually updated, or layout was rebuilt.
+清除所有收集的布局数据。在手动更新文档或重新构建布局后调用此方法。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -76,70 +76,70 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
 ```
 
 
-Gets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
+获取此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好在之后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
 
-**Returns:**
-[Document](../../com.aspose.words/document) - The document this collector instance is attached to.
+**退货:**
+[Document](../../com.aspose.words/document) - 此收集器实例附加到的文档。
 ### getEndPageIndex(Node node) {#getEndPageIndex-com.aspose.words.Node-}
 ```
 public int getEndPageIndex(Node node)
 ```
 
 
-Gets 1-based index of the page where node ends. Returns 0 if node cannot be mapped to a page.
+获取节点结束的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### getEntity(Node node) {#getEntity-com.aspose.words.Node-}
 ```
 public Object getEntity(Node node)
 ```
 
 
-Returns an opaque position of the [LayoutEnumerator](../../com.aspose.words/layoutenumerator) which corresponds to the specified node. You can use returned value as an argument to [LayoutEnumerator.getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [LayoutEnumerator.setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-) given the document being enumerated and the document of the node are the same.
+返回一个不透明的位置[LayoutEnumerator](../../com.aspose.words/layoutenumerator)它对应于指定的节点。您可以使用返回值作为参数[LayoutEnumerator.getCurrent()](../../com.aspose.words/layoutenumerator\#getCurrent--) / [LayoutEnumerator.setCurrent(java.lang.Object)](../../com.aspose.words/layoutenumerator\#setCurrent-java.lang.Object-)给定被枚举的文档和节点的文档是相同的。
 
-This method works for only [Paragraph](../../com.aspose.words/paragraph) nodes, as well as indivisible inline nodes, e.g. [BookmarkStart](../../com.aspose.words/bookmarkstart) or [Shape](../../com.aspose.words/shape). It doesn't work for [Run](../../com.aspose.words/run), [Cell](../../com.aspose.words/cell) [Row](../../com.aspose.words/row) or [Table](../../com.aspose.words/table) nodes, and nodes within header/footer.
+此方法仅适用于[Paragraph](../../com.aspose.words/paragraph)节点，以及不可分割的内联节点，例如[BookmarkStart](../../com.aspose.words/bookmarkstart)或者[Shape](../../com.aspose.words/shape).它不适用于[Run](../../com.aspose.words/run), [Cell](../../com.aspose.words/cell) [Row](../../com.aspose.words/row)或者[Table](../../com.aspose.words/table)节点，以及页眉/页脚中的节点。
 
-Note that the entity returned for a [Paragraph](../../com.aspose.words/paragraph) node is a paragraph break span. Use the appropriate method to ascend to the parent line
+请注意，为 a 返回的实体[Paragraph](../../com.aspose.words/paragraph)节点是一个分段跨度。使用适当的方法提升到父行
 
-If you need to navigate to a [Run](../../com.aspose.words/run) of text then you can insert bookmark right before it and then navigate to the bookmark instead.
+如果您需要导航到[Run](../../com.aspose.words/run)文本然后您可以在它之前插入书签，然后导航到书签。
 
-If you need to navigate to a [Cell](../../com.aspose.words/cell) node then you can move to a [Paragraph](../../com.aspose.words/paragraph) node in this cell and then ascend to a parent entity. The same approach can be used for [Row](../../com.aspose.words/row) and [Table](../../com.aspose.words/table) nodes.
+如果您需要导航到[Cell](../../com.aspose.words/cell)节点然后你可以移动到一个[Paragraph](../../com.aspose.words/paragraph)此单元格中的节点，然后上升到父实体。相同的方法可用于[Row](../../com.aspose.words/row)和[Table](../../com.aspose.words/table)节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getNumPagesSpanned(Node node) {#getNumPagesSpanned-com.aspose.words.Node-}
 ```
@@ -147,30 +147,30 @@ public int getNumPagesSpanned(Node node)
 ```
 
 
-Gets number of pages the specified node spans. 0 if node is within a single page. This is the same as [getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) - [getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
+获取指定节点跨越的页数。如果节点在单个页面内，则为 0。这与[getEndPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getEndPageIndex-com.aspose.words.Node-) -[getStartPageIndex(com.aspose.words.Node)](../../com.aspose.words/layoutcollector\#getStartPageIndex-com.aspose.words.Node-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### getStartPageIndex(Node node) {#getStartPageIndex-com.aspose.words.Node-}
 ```
 public int getStartPageIndex(Node node)
 ```
 
 
-Gets 1-based index of the page where node begins. Returns 0 if node cannot be mapped to a page.
+获取节点开始的页面的从 1 开始的索引。如果节点无法映射到页面，则返回 0。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | node | [Node](../../com.aspose.words/node) |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -179,8 +179,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -203,12 +203,12 @@ public void setDocument(Document value)
 ```
 
 
-Sets the document this collector instance is attached to. If you need to access page indexes of the document nodes you need to set this property to point to a document instance, before page layout of the document is built. It is best to set this property to  null  afterwards, otherwise the collector continues to accumulate information from subsequent rebuilds of the document's page layout.
+设置此收集器实例附加到的文档。如果您需要访问文档节点的页面索引，则需要在构建文档的页面布局之前将此属性设置为指向文档实例。最好在之后将此属性设置为 null，否则收集器会继续从文档页面布局的后续重建中积累信息。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [Document](../../com.aspose.words/document) | The document this collector instance is attached to. |
+| value | [Document](../../com.aspose.words/document) | 此收集器实例附加到的文档。 |
 
 ### toString() {#toString--}
 ```
@@ -218,7 +218,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -236,8 +236,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -249,9 +249,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

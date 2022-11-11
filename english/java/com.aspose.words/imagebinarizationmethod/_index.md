@@ -1,40 +1,40 @@
 ---
-title: ImageBinarizationMethod
-second_title: Aspose.Words for Java API Reference
-description: Specifies the method used to binarize image.
+title: ImageBinarization方法
+second_title: Aspose.Words for Java API 参考
+description: 指定用于二值化图像的方法。
 type: docs
 weight: 335
-url: /java/com.aspose.words/imagebinarizationmethod/
+url: /zh/java/com.aspose.words/imagebinarizationmethod/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class ImageBinarizationMethod
+public class ImageBinarization方法
 ```
 
-Specifies the method used to binarize image.
-## Fields
+指定用于二值化图像的方法。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | Specifies dithering using Floyd-Steinberg error diffusion method. |
-| [THRESHOLD](#THRESHOLD) | Specifies threshold method. |
+| [FLOYD_STEINBERG_DITHERING](#FLOYD-STEINBERG-DITHERING) | 使用 Floyd-Steinberg 误差扩散方法指定抖动。 |
+| [THRESHOLD](#THRESHOLD) | 指定阈值方法。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String imageBinarizationMethodName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int imageBinarizationMethod)](#getName-int-) |  |
+| [fromName(String imageBinarization方法Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int imageBinarization方法)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int imageBinarizationMethod)](#toString-int-) |  |
+| [toString(int imageBinarization方法)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int FLOYD_STEINBERG_DITHERING
 ```
 
 
-Specifies dithering using Floyd-Steinberg error diffusion method.
+使用 Floyd-Steinberg 误差扩散方法指定抖动。
 
 ### THRESHOLD {#THRESHOLD}
 ```
@@ -52,7 +52,7 @@ public static int THRESHOLD
 ```
 
 
-Specifies threshold method.
+指定阈值方法。
 
 ### length {#length}
 ```
@@ -68,52 +68,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String imageBinarizationMethodName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String imageBinarization方法Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String imageBinarizationMethodName)
+public static int fromName(String imageBinarization方法Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarizationMethodName | java.lang.String |  |
+| imageBinarization方法Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int imageBinarizationMethod) {#getName-int-}
-```
-public static String getName(int imageBinarizationMethod)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int imageBinarization方法) {#getName-int-}
+```
+public static String getName(int imageBinarization方法)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarizationMethod | int |  |
+| imageBinarization方法 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,22 +159,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int imageBinarizationMethod) {#toString-int-}
+### toString(int imageBinarization方法) {#toString-int-}
 ```
-public static String toString(int imageBinarizationMethod)
+public static String toString(int imageBinarization方法)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageBinarizationMethod | int |  |
+| imageBinarization方法 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,9 +205,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

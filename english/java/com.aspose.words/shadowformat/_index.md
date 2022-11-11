@@ -1,34 +1,34 @@
 ---
 title: ShadowFormat
 second_title: Aspose.Words for Java API Reference
-description: Represents shadow formatting for an object.
+description: 表示对象的阴影格式。
 type: docs
 weight: 514
-url: /java/com.aspose.words/shadowformat/
+url: /zh/java/com.aspose.words/shadowformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ShadowFormat
 ```
 
-Represents shadow formatting for an object.
+表示对象的阴影格式。
 
-To learn more, visit the **Working with Graphic Elements** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Graphic Elements**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clear()](#clear--) | Clears shadow format. |
+| [clear()](#clear--) | 清除阴影格式。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getType()](#getType--) | Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
-| [getVisible()](#getVisible--) | Returns  true  if the formatting applied to this instance is visible. |
+| [get班级()](#get班级--) |  |
+| [get类型()](#get类型--) | 获取指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。 |
+| [getVisible()](#getVisible--) | 如果应用于此实例的格式可见，则返回 true。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setType(int value)](#setType-int-) | Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. |
+| [set类型(int value)](#set类型-int-) | 设置指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -39,7 +39,7 @@ public void clear()
 ```
 
 
-Clears shadow format.
+清除阴影格式。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -49,43 +49,43 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getType() {#getType--}
-```
-public int getType()
+public final native 班级<?> get班级()
 ```
 
 
-Gets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat.
 
-**Returns:**
-int - The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The returned value is one of [ShadowType](../../com.aspose.words/shadowtype) constants.
+
+**退货:**
+java.lang.班级<?>
+### get类型() {#get类型--}
+```
+public int get类型()
+```
+
+
+获取指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。
+
+**退货:**
+int - 指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。返回值是以下之一[Shadow类型](../../com.aspose.words/shadowtype)常数。
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-Returns  true  if the formatting applied to this instance is visible. Unlike [clear()](../../com.aspose.words/shadowformat\#clear--), assigning  false  to Visible does not clear the formatting, it only hides the shape effect.
+如果应用于此实例的格式可见，则返回 true。不像[clear()](../../com.aspose.words/shadowformat\#clear--)，将 false 分配给 Visible 不会清除格式，它只会隐藏形状效果。
 
-**Returns:**
-boolean - \{ true  if the formatting applied to this instance is visible.
+**退货:**
+布尔值 -\{ 如果应用于此实例的格式可见，则为 true。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -94,8 +94,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -112,18 +112,18 @@ public final native void notifyAll()
 
 
 
-### setType(int value) {#setType-int-}
+### set类型(int value) {#set类型-int-}
 ```
-public void setType(int value)
+public void set类型(int value)
 ```
 
 
-Sets the specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat.
+设置指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The specified [ShadowType](../../com.aspose.words/shadowtype) for ShadowFormat. The value must be one of [ShadowType](../../com.aspose.words/shadowtype) constants. |
+| value | int | 指定的[Shadow类型](../../com.aspose.words/shadowtype)对于影子格式。该值必须是以下之一[Shadow类型](../../com.aspose.words/shadowtype)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -133,7 +133,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -151,8 +151,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -164,9 +164,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,38 +1,38 @@
 ---
 title: VbaReferenceCollection
 second_title: Aspose.Words for Java API Reference
-description: Represents a collection of  objects.
+description: 表示对象的集合。
 type: docs
 weight: 598
-url: /java/com.aspose.words/vbareferencecollection/
+url: /zh/java/com.aspose.words/vbareferencecollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
 public class VbaReferenceCollection implements Iterable
 ```
 
-Represents a collection of [VbaReference](../../com.aspose.words/vbareference) objects.
+代表一个集合[VbaReference](../../com.aspose.words/vbareference)对象。
 
-To learn more, visit the **Working with VBA Macros** documentation article.
-## Methods
+要了解更多信息，请访问**Working with VBA Macros**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Gets [VbaReference](../../com.aspose.words/vbareference) object at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of VBA references in the collection. |
+| [get(int index)](#get-int-) | 获取[VbaReference](../../com.aspose.words/vbareference)指定索引处的对象。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 返回集合中 VBA 引用的数量。 |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference-) | Removes the first occurrence of a specified VbaReference item from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes the VbaReference element at the specified index of the collection. |
+| [remove(VbaReference item)](#remove-com.aspose.words.VbaReference-) | 从集合中移除指定 VbaReference 项的第一个匹配项。 |
+| [removeAt(int index)](#removeAt-int-) | 移除集合的指定索引处的 VbaReference 元素。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,48 +45,48 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public VbaReference get(int index)
 ```
 
 
-Gets [VbaReference](../../com.aspose.words/vbareference) object at the specified index.
+获取[VbaReference](../../com.aspose.words/vbareference)指定索引处的对象。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero-based index of the reference to get. |
+| index | int | 要获取的引用的从零开始的索引。 |
 
-**Returns:**
-[VbaReference](../../com.aspose.words/vbareference) - \{[VbaReference](../../com.aspose.words/vbareference) object at the specified index.
-### getClass() {#getClass--}
+**退货:**
+[VbaReference](../../com.aspose.words/vbareference) -\{[VbaReference](../../com.aspose.words/vbareference)指定索引处的对象。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Returns the number of VBA references in the collection.
+返回集合中 VBA 引用的数量。
 
-**Returns:**
-int - The number of VBA references in the collection.
+**退货:**
+int - 集合中的 VBA 引用数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,8 +95,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -105,7 +105,7 @@ public Iterator iterator()
 
 
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -129,10 +129,10 @@ public void remove(VbaReference item)
 ```
 
 
-Removes the first occurrence of a specified VbaReference item from the collection.
+从集合中移除指定 VbaReference 项的第一个匹配项。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | item | [VbaReference](../../com.aspose.words/vbareference) |  |
 
@@ -142,10 +142,10 @@ public void removeAt(int index)
 ```
 
 
-Removes the VbaReference element at the specified index of the collection.
+移除集合的指定索引处的 VbaReference 元素。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | index | int |  |
 
@@ -157,7 +157,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -175,8 +175,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -188,9 +188,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

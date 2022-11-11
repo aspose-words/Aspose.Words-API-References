@@ -1,31 +1,30 @@
 ---
 title: IFontSavingCallback
-second_title: Aspose.Words for Java API Reference
-description: Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format.
+second_title: Aspose.Words for Java API 参考
+description: 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
 type: docs
 weight: 646
-url: /java/com.aspose.words/ifontsavingcallback/
+url: /zh/java/com.aspose.words/ifontsavingcallback/
 ---
 ```
 public interface IFontSavingCallback
 ```
 
-Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format.
-## Methods
+如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [fontSaving(FontSavingArgs args)](#fontSaving-com.aspose.words.FontSavingArgs-) | Called when Aspose.Words is about to save a font resource. |
+| [fontSaving(FontSavingArgs args)](#fontSaving-com.aspose.words.FontSavingArgs-) | 当 Aspose.Words 即将保存字体资源时调用。 |
 ### fontSaving(FontSavingArgs args) {#fontSaving-com.aspose.words.FontSavingArgs-}
 ```
 public abstract void fontSaving(FontSavingArgs args)
 ```
 
 
-Called when Aspose.Words is about to save a font resource.
+当 Aspose.Words 即将保存字体资源时调用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | args | [FontSavingArgs](../../com.aspose.words/fontsavingargs) |  |
-

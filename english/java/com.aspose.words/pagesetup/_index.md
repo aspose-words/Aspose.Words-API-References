@@ -1,120 +1,120 @@
 ---
 title: PageSetup
-second_title: Aspose.Words for Java API Reference
-description: Represents the page setup properties of a section.
+second_title: Aspose.Words for Java API 参考
+description: 表示部分的页面设置属性。
 type: docs
 weight: 440
-url: /java/com.aspose.words/pagesetup/
+url: /zh/java/com.aspose.words/pagesetup/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class PageSetup
 ```
 
-Represents the page setup properties of a section.
+表示部分的页面设置属性。
 
-To learn more, visit the **Working with Sections** documentation article.
+要了解更多信息，请访问**Working with Sections**文档文章。
 
-**PageSetup** object contains all the page setup attributes of a section (left margin, bottom margin, paper size, and so on) as properties.
-## Methods
+**PageSetup**对象包含一个部分的所有页面设置属性（左边距、下边距、纸张大小等）作为属性。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | Resets page setup to default paper size, margins and orientation. |
+| [clearFormatting()](#clearFormatting--) | 将页面设置重置为默认纸张尺寸、边距和方向。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getBidi()](#getBidi--) | Specifies that this section contains bidirectional (complex scripts) text. |
-| [getBorderAlwaysInFront()](#getBorderAlwaysInFront--) | Specifies where the page border is positioned relative to intersecting texts and objects. |
-| [getBorderAppliesTo()](#getBorderAppliesTo--) | Specifies which pages the page border is printed on. |
-| [getBorderDistanceFrom()](#getBorderDistanceFrom--) | Gets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. |
-| [getBorderSurroundsFooter()](#getBorderSurroundsFooter--) | Specifies whether the page border includes or excludes the footer. |
-| [getBorderSurroundsHeader()](#getBorderSurroundsHeader--) | Specifies whether the page border includes or excludes the header. |
-| [getBorders()](#getBorders--) | Gets a collection of the page borders. |
-| [getBottomMargin()](#getBottomMargin--) | Gets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
-| [getChapterPageSeparator()](#getChapterPageSeparator--) | Gets the separator character that appears between the chapter number and the page number. |
-| [getCharactersPerLine()](#getCharactersPerLine--) | Gets the number of characters per line in the document grid. |
-| [getClass()](#getClass--) |  |
-| [getDifferentFirstPageHeaderFooter()](#getDifferentFirstPageHeaderFooter--) | **True** if a different header or footer is used on the first page. |
+| [getBidi()](#getBidi--) | 指定此部分包含双向（复杂脚本）文本。 |
+| [getBorderAlwaysInFront()](#getBorderAlwaysInFront--) | 指定页面边框相对于相交文本和对象的位置。 |
+| [getBorderAppliesTo()](#getBorderAppliesTo--) | 指定打印页面边框的页面。 |
+| [getBorderDistanceFrom()](#getBorderDistanceFrom--) | 获取一个值，该值指示指定的页面边框是从页面边缘还是从其周围的文本测量的。 |
+| [getBorderSurroundsFooter()](#getBorderSurroundsFooter--) | 指定页面边框是包括还是不包括页脚。 |
+| [getBorderSurroundsHeader()](#getBorderSurroundsHeader--) | 指定页面边框是包括还是不包括页眉。 |
+| [getBorders()](#getBorders--) | 获取页面边框的集合。 |
+| [getBottomMargin()](#getBottomMargin--) | 获取页面底部边缘和正文底部边界之间的距离（以磅为单位）。 |
+| [getChapterPageSeparator()](#getChapterPageSeparator--) | 获取出现在章节号和页码之间的分隔符。 |
+| [getCharactersPerLine()](#getCharactersPerLine--) | 获取文档网格中每行的字符数。 |
+| [get班级()](#get班级--) |  |
+| [getDifferentFirstPageHeaderFooter()](#getDifferentFirstPageHeaderFooter--) | **True**如果在第一页上使用了不同的页眉或页脚。 |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getEndnoteOptions()](#getEndnoteOptions--) | Provides options that control numbering and positioning of endnotes in this section. |
-| [getFirstPageTray()](#getFirstPageTray--) | Gets the paper tray (bin) to use for the first page of a section. |
-| [getFooterDistance()](#getFooterDistance--) | Gets the distance (in points) between the footer and the bottom of the page. |
-| [getFootnoteOptions()](#getFootnoteOptions--) | Provides options that control numbering and positioning of footnotes in this section. |
-| [getGutter()](#getGutter--) | Gets the amount of extra space added to the margin for document binding. |
-| [getHeaderDistance()](#getHeaderDistance--) | Gets the distance (in points) between the header and the top of the page. |
-| [getHeadingLevelForChapter()](#getHeadingLevelForChapter--) | Gets the heading level style that is applied to the chapter titles in the document. |
-| [getLayoutMode()](#getLayoutMode--) | Gets the layout mode of this section. |
-| [getLeftMargin()](#getLeftMargin--) | Gets the distance (in points) between the left edge of the page and the left boundary of the body text. |
-| [getLineNumberCountBy()](#getLineNumberCountBy--) | Gets the numeric increment for line numbers. |
-| [getLineNumberDistanceFromText()](#getLineNumberDistanceFromText--) | Gets distance between the right edge of line numbers and the left edge of the document. |
-| [getLineNumberRestartMode()](#getLineNumberRestartMode--) | Gets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
-| [getLineStartingNumber()](#getLineStartingNumber--) | Gets the starting line number. |
-| [getLinesPerPage()](#getLinesPerPage--) | Gets the number of lines per page in the document grid. |
-| [getMultiplePages()](#getMultiplePages--) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [getOddAndEvenPagesHeaderFooter()](#getOddAndEvenPagesHeaderFooter--) | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
-| [getOrientation()](#getOrientation--) | Gets the orientation of the page. |
-| [getOtherPagesTray()](#getOtherPagesTray--) | Gets the paper tray (bin) to be used for all but the first page of a section. |
-| [getPageHeight()](#getPageHeight--) | Gets the height of the page in points. |
-| [getPageNumberStyle()](#getPageNumberStyle--) | Gets the page number format. |
-| [getPageStartingNumber()](#getPageStartingNumber--) | Gets the starting page number of the section. |
-| [getPageWidth()](#getPageWidth--) | Gets the width of the page in points. |
-| [getPaperSize()](#getPaperSize--) | Gets the paper size. |
-| [getRestartPageNumbering()](#getRestartPageNumbering--) | **True** if page numbering restarts at the beginning of the section. |
-| [getRightMargin()](#getRightMargin--) | Gets the distance (in points) between the right edge of the page and the right boundary of the body text. |
-| [getRtlGutter()](#getRtlGutter--) | Gets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
-| [getSectionStart()](#getSectionStart--) | Gets the type of section break for the specified object. |
-| [getSheetsPerBooklet()](#getSheetsPerBooklet--) | Gets the number of pages to be included in each booklet. |
-| [getSuppressEndnotes()](#getSuppressEndnotes--) | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. |
-| [getTextColumns()](#getTextColumns--) | Returns a collection that represents the set of text columns. |
-| [getTextOrientation()](#getTextOrientation--) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-) for the whole page. |
-| [getTopMargin()](#getTopMargin--) | Gets the distance (in points) between the top edge of the page and the top boundary of the body text. |
-| [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment of text on each page in a document or section. |
+| [getEndnoteOptions()](#getEndnoteOptions--) | 提供控制本节中尾注编号和定位的选项。 |
+| [getFirstPageTray()](#getFirstPageTray--) | 获取用于部分第一页的纸盘（纸盒）。 |
+| [getFooterDistance()](#getFooterDistance--) | 获取页脚和页面底部之间的距离（以磅为单位）。 |
+| [getFootnoteOptions()](#getFootnoteOptions--) | 提供控制本节中脚注的编号和位置的选项。 |
+| [getGutter()](#getGutter--) | 获取添加到文档装订边距的额外空间量。 |
+| [getHeaderDistance()](#getHeaderDistance--) | 获取页眉和页面顶部之间的距离（以磅为单位）。 |
+| [getHeadingLevelForChapter()](#getHeadingLevelForChapter--) | 获取应用于文档中章节标题的标题级别样式。 |
+| [getLayoutMode()](#getLayoutMode--) | 获取此部分的布局模式。 |
+| [getLeftMargin()](#getLeftMargin--) | 获取页面左边缘和正文左边界之间的距离（以磅为单位）。 |
+| [getLineNumberCountBy()](#getLineNumberCountBy--) | 获取行号的数字增量。 |
+| [getLineNumberDistanceFromText()](#getLineNumberDistanceFromText--) | 获取行号右边缘与文档左边缘之间的距离。 |
+| [getLineNumberRestartMode()](#getLineNumberRestartMode--) | 获取行编号的运行方式，即它是在新页面或部分的开头重新开始还是连续运行。 |
+| [getLineStartingNumber()](#getLineStartingNumber--) | 获取起始行号。 |
+| [getLinesPerPage()](#getLinesPerPage--) | 获取文档网格中每页的行数。 |
+| [getMultiplePages()](#getMultiplePages--) | 对于多页文档，获取或设置文档的打印或呈现方式，以便可以将其装订为小册子。 |
+| [getOddAndEvenPagesHeaderFooter()](#getOddAndEvenPagesHeaderFooter--) | **True**如果文档对于奇数页和偶数页有不同的页眉和页脚。 |
+| [getOrientation()](#getOrientation--) | 获取页面的方向。 |
+| [getOtherPagesTray()](#getOtherPagesTray--) | 获取要用于除第一页以外的所有部分的纸盒（纸盒）。 |
+| [getPageHeight()](#getPageHeight--) | 获取页面的高度（以磅为单位）。 |
+| [getPageNumberStyle()](#getPageNumberStyle--) | 获取页码格式。 |
+| [getPageStartingNumber()](#getPageStartingNumber--) | 获取节的起始页码。 |
+| [getPageWidth()](#getPageWidth--) | 获取页面的宽度（以磅为单位）。 |
+| [getPaperSize()](#getPaperSize--) | 获取纸张大小。 |
+| [getRestartPageNumbering()](#getRestartPageNumbering--) | **True**如果页码在节的开头重新开始。 |
+| [getRightMargin()](#getRightMargin--) | 获取页面右边缘与正文右边界之间的距离（以磅为单位）。 |
+| [getRtlGutter()](#getRtlGutter--) | 获取 Microsoft Word 是否基于从右到左的语言或从左到右的语言为部分使用装订线。 |
+| [getSectionStart()](#getSectionStart--) | 获取指定对象的分节符类型。 |
+| [getSheetsPerBooklet()](#getSheetsPerBooklet--) | 获取要包含在每个小册子中的页数。 |
+| [getSuppressEndnotes()](#getSuppressEndnotes--) | **True**如果尾注打印在下一部分的末尾，它不会抑制尾注。 |
+| [getTextColumns()](#getTextColumns--) | 返回一个表示文本列集的集合。 |
+| [getTextOrientation()](#getTextOrientation--) | 允许指定[getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-)对于整个页面。 |
+| [getTopMargin()](#getTopMargin--) | 获取页面上边缘与正文上边界之间的距离（以磅为单位）。 |
+| [getVerticalAlignment()](#getVerticalAlignment--) | 获取文档或节中每一页上文本的垂直对齐方式。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBidi(boolean value)](#setBidi-boolean-) | Specifies that this section contains bidirectional (complex scripts) text. |
-| [setBorderAlwaysInFront(boolean value)](#setBorderAlwaysInFront-boolean-) | Specifies where the page border is positioned relative to intersecting texts and objects. |
-| [setBorderAppliesTo(int value)](#setBorderAppliesTo-int-) | Specifies which pages the page border is printed on. |
+| [setBidi(boolean value)](#setBidi-boolean-) | 指定此部分包含双向（复杂脚本）文本。 |
+| [setBorderAlwaysInFront(boolean value)](#setBorderAlwaysInFront-boolean-) | 指定页面边框相对于相交文本和对象的位置。 |
+| [setBorderAppliesTo(int value)](#setBorderAppliesTo-int-) | 指定打印页面边框的页面。 |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBorderDistanceFrom(int value)](#setBorderDistanceFrom-int-) | Sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. |
-| [setBorderSurroundsFooter(boolean value)](#setBorderSurroundsFooter-boolean-) | Specifies whether the page border includes or excludes the footer. |
-| [setBorderSurroundsHeader(boolean value)](#setBorderSurroundsHeader-boolean-) | Specifies whether the page border includes or excludes the header. |
-| [setBottomMargin(double value)](#setBottomMargin-double-) | Sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
-| [setChapterPageSeparator(int value)](#setChapterPageSeparator-int-) | Sets the separator character that appears between the chapter number and the page number. |
-| [setCharactersPerLine(int value)](#setCharactersPerLine-int-) | Sets the number of characters per line in the document grid. |
-| [setDifferentFirstPageHeaderFooter(boolean value)](#setDifferentFirstPageHeaderFooter-boolean-) | **True** if a different header or footer is used on the first page. |
-| [setFirstPageTray(int value)](#setFirstPageTray-int-) | Sets the paper tray (bin) to use for the first page of a section. |
-| [setFooterDistance(double value)](#setFooterDistance-double-) | Sets the distance (in points) between the footer and the bottom of the page. |
-| [setGutter(double value)](#setGutter-double-) | Sets the amount of extra space added to the margin for document binding. |
-| [setHeaderDistance(double value)](#setHeaderDistance-double-) | Sets the distance (in points) between the header and the top of the page. |
-| [setHeadingLevelForChapter(int value)](#setHeadingLevelForChapter-int-) | Sets the heading level style that is applied to the chapter titles in the document. |
-| [setLayoutMode(int value)](#setLayoutMode-int-) | Sets the layout mode of this section. |
-| [setLeftMargin(double value)](#setLeftMargin-double-) | Sets the distance (in points) between the left edge of the page and the left boundary of the body text. |
-| [setLineNumberCountBy(int value)](#setLineNumberCountBy-int-) | Sets the numeric increment for line numbers. |
-| [setLineNumberDistanceFromText(double value)](#setLineNumberDistanceFromText-double-) | Sets distance between the right edge of line numbers and the left edge of the document. |
-| [setLineNumberRestartMode(int value)](#setLineNumberRestartMode-int-) | Sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. |
-| [setLineStartingNumber(int value)](#setLineStartingNumber-int-) | Sets the starting line number. |
-| [setLinesPerPage(int value)](#setLinesPerPage-int-) | Sets the number of lines per page in the document grid. |
-| [setMultiplePages(int value)](#setMultiplePages-int-) | For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet. |
-| [setOddAndEvenPagesHeaderFooter(boolean value)](#setOddAndEvenPagesHeaderFooter-boolean-) | **True** if the document has different headers and footers for odd-numbered and even-numbered pages. |
-| [setOrientation(int value)](#setOrientation-int-) | Sets the orientation of the page. |
-| [setOtherPagesTray(int value)](#setOtherPagesTray-int-) | Sets the paper tray (bin) to be used for all but the first page of a section. |
-| [setPageHeight(double value)](#setPageHeight-double-) | Sets the height of the page in points. |
-| [setPageNumberStyle(int value)](#setPageNumberStyle-int-) | Sets the page number format. |
-| [setPageStartingNumber(int value)](#setPageStartingNumber-int-) | Sets the starting page number of the section. |
-| [setPageWidth(double value)](#setPageWidth-double-) | Sets the width of the page in points. |
-| [setPaperSize(int value)](#setPaperSize-int-) | Sets the paper size. |
-| [setRestartPageNumbering(boolean value)](#setRestartPageNumbering-boolean-) | **True** if page numbering restarts at the beginning of the section. |
-| [setRightMargin(double value)](#setRightMargin-double-) | Sets the distance (in points) between the right edge of the page and the right boundary of the body text. |
-| [setRtlGutter(boolean value)](#setRtlGutter-boolean-) | Sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
-| [setSectionStart(int value)](#setSectionStart-int-) | Sets the type of section break for the specified object. |
-| [setSheetsPerBooklet(int value)](#setSheetsPerBooklet-int-) | Sets the number of pages to be included in each booklet. |
-| [setSuppressEndnotes(boolean value)](#setSuppressEndnotes-boolean-) | **True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. |
-| [setTextOrientation(int value)](#setTextOrientation-int-) | Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-) for the whole page. |
-| [setTopMargin(double value)](#setTopMargin-double-) | Sets the distance (in points) between the top edge of the page and the top boundary of the body text. |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Sets the vertical alignment of text on each page in a document or section. |
+| [setBorderDistanceFrom(int value)](#setBorderDistanceFrom-int-) | 设置一个值，该值指示指定的页面边框是从页面边缘还是从其周围的文本测量的。 |
+| [setBorderSurroundsFooter(boolean value)](#setBorderSurroundsFooter-boolean-) | 指定页面边框是包括还是不包括页脚。 |
+| [setBorderSurroundsHeader(boolean value)](#setBorderSurroundsHeader-boolean-) | 指定页面边框是包括还是不包括页眉。 |
+| [setBottomMargin(double value)](#setBottomMargin-double-) | 设置页面底部边缘和正文底部边界之间的距离（以磅为单位）。 |
+| [setChapterPageSeparator(int value)](#setChapterPageSeparator-int-) | 设置出现在章节号和页码之间的分隔符。 |
+| [setCharactersPerLine(int value)](#setCharactersPerLine-int-) | 设置文档网格中每行的字符数。 |
+| [setDifferentFirstPageHeaderFooter(boolean value)](#setDifferentFirstPageHeaderFooter-boolean-) | **True**如果在第一页上使用了不同的页眉或页脚。 |
+| [setFirstPageTray(int value)](#setFirstPageTray-int-) | 设置用于部分第一页的纸盘（纸盒）。 |
+| [setFooterDistance(double value)](#setFooterDistance-double-) | 设置页脚和页面底部之间的距离（以磅为单位）。 |
+| [setGutter(double value)](#setGutter-double-) | 设置添加到文档装订边距的额外空间量。 |
+| [setHeaderDistance(double value)](#setHeaderDistance-double-) | 设置页眉和页面顶部之间的距离（以磅为单位）。 |
+| [setHeadingLevelForChapter(int value)](#setHeadingLevelForChapter-int-) | 设置应用于文档中章节标题的标题级别样式。 |
+| [setLayoutMode(int value)](#setLayoutMode-int-) | 设置此部分的布局模式。 |
+| [setLeftMargin(double value)](#setLeftMargin-double-) | 设置页面左边缘和正文左边界之间的距离（以磅为单位）。 |
+| [setLineNumberCountBy(int value)](#setLineNumberCountBy-int-) | 设置行号的数字增量。 |
+| [setLineNumberDistanceFromText(double value)](#setLineNumberDistanceFromText-double-) | 设置行号右边缘和文档左边缘之间的距离。 |
+| [setLineNumberRestartMode(int value)](#setLineNumberRestartMode-int-) | 设置行编号的运行方式，即是在新页面或部分的开头重新开始还是连续运行。 |
+| [setLineStartingNumber(int value)](#setLineStartingNumber-int-) | 设置起始行号。 |
+| [setLinesPerPage(int value)](#setLinesPerPage-int-) | 设置文档网格中每页的行数。 |
+| [setMultiplePages(int value)](#setMultiplePages-int-) | 对于多页文档，获取或设置文档的打印或呈现方式，以便可以将其装订为小册子。 |
+| [setOddAndEvenPagesHeaderFooter(boolean value)](#setOddAndEvenPagesHeaderFooter-boolean-) | **True**如果文档对于奇数页和偶数页有不同的页眉和页脚。 |
+| [setOrientation(int value)](#setOrientation-int-) | 设置页面的方向。 |
+| [setOtherPagesTray(int value)](#setOtherPagesTray-int-) | 设置要用于除第一页以外的所有部分的纸盘（纸盒）。 |
+| [setPageHeight(double value)](#setPageHeight-double-) | 以磅为单位设置页面的高度。 |
+| [setPageNumberStyle(int value)](#setPageNumberStyle-int-) | 设置页码格式。 |
+| [setPageStartingNumber(int value)](#setPageStartingNumber-int-) | 设置节的起始页码。 |
+| [setPageWidth(double value)](#setPageWidth-double-) | 以磅为单位设置页面的宽度。 |
+| [setPaperSize(int value)](#setPaperSize-int-) | 设置纸张尺寸。 |
+| [setRestartPageNumbering(boolean value)](#setRestartPageNumbering-boolean-) | **True**如果页码在节的开头重新开始。 |
+| [setRightMargin(double value)](#setRightMargin-double-) | 设置页面右边缘和正文右边界之间的距离（以磅为单位）。 |
+| [setRtlGutter(boolean value)](#setRtlGutter-boolean-) | 设置 Microsoft Word 是根据从右到左的语言还是从左到右的语言为部分使用装订线。 |
+| [setSectionStart(int value)](#setSectionStart-int-) | 设置指定对象的分节符类型。 |
+| [setSheetsPerBooklet(int value)](#setSheetsPerBooklet-int-) | 设置要包含在每个小册子中的页数。 |
+| [setSuppressEndnotes(boolean value)](#setSuppressEndnotes-boolean-) | **True**如果尾注打印在下一部分的末尾，它不会抑制尾注。 |
+| [setTextOrientation(int value)](#setTextOrientation-int-) | 允许指定[getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-)对于整个页面。 |
+| [setTopMargin(double value)](#setTopMargin-double-) | 设置页面上边缘和正文上边界之间的距离（以磅为单位）。 |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | 设置文档或部分中每一页上文本的垂直对齐方式。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -125,7 +125,7 @@ public void clearFormatting()
 ```
 
 
-Resets page setup to default paper size, margins and orientation.
+将页面设置重置为默认纸张尺寸、边距和方向。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -135,13 +135,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -150,12 +150,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getBidi() {#getBidi--}
 ```
@@ -163,128 +163,128 @@ public boolean getBidi()
 ```
 
 
-Specifies that this section contains bidirectional (complex scripts) text.
+指定此部分包含双向（复杂脚本）文本。
 
-When true, the columns in this section are laid out from right to left.
+如果为 true，则此部分中的列从右到左排列。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBorderAlwaysInFront() {#getBorderAlwaysInFront--}
 ```
 public boolean getBorderAlwaysInFront()
 ```
 
 
-Specifies where the page border is positioned relative to intersecting texts and objects.
+指定页面边框相对于相交文本和对象的位置。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBorderAppliesTo() {#getBorderAppliesTo--}
 ```
 public int getBorderAppliesTo()
 ```
 
 
-Specifies which pages the page border is printed on.
+指定打印页面边框的页面。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto)常数。
 ### getBorderDistanceFrom() {#getBorderDistanceFrom--}
 ```
 public int getBorderDistanceFrom()
 ```
 
 
-Gets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
+获取一个值，该值指示指定的页面边框是从页面边缘还是从其周围的文本测量的。
 
-**Returns:**
-int - A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The returned value is one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom) constants.
+**退货:**
+ int - 一个值，指示指定的页面边框是从页面边缘还是从它周围的文本测量的。返回值是以下之一[PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom)常数。
 ### getBorderSurroundsFooter() {#getBorderSurroundsFooter--}
 ```
 public boolean getBorderSurroundsFooter()
 ```
 
 
-Specifies whether the page border includes or excludes the footer. Note, changing this property affects all sections in the document.
+指定页面边框是包括还是不包括页脚。请注意，更改此属性会影响文档中的所有部分。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBorderSurroundsHeader() {#getBorderSurroundsHeader--}
 ```
 public boolean getBorderSurroundsHeader()
 ```
 
 
-Specifies whether the page border includes or excludes the header. Note, changing this property affects all sections in the document.
+指定页面边框是包括还是不包括页眉。请注意，更改此属性会影响文档中的所有部分。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
 ```
 
 
-Gets a collection of the page borders.
+获取页面边框的集合。
 
-**Returns:**
-[BorderCollection](../../com.aspose.words/bordercollection) - A collection of the page borders.
+**退货:**
+[BorderCollection](../../com.aspose.words/bordercollection) - 页面边框的集合。
 ### getBottomMargin() {#getBottomMargin--}
 ```
 public double getBottomMargin()
 ```
 
 
-Gets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
+获取页面底部边缘和正文底部边界之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
+**退货:**
+double - 页面底部边缘和正文底部边界之间的距离（以磅为单位）。
 ### getChapterPageSeparator() {#getChapterPageSeparator--}
 ```
 public int getChapterPageSeparator()
 ```
 
 
-Gets the separator character that appears between the chapter number and the page number.
+获取出现在章节号和页码之间的分隔符。
 
-Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
+在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
-**Returns:**
-int - The separator character that appears between the chapter number and the page number. The returned value is one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator) constants.
+**退货:**
+ int - 出现在章节号和页码之间的分隔符。返回值是以下之一[ChapterPageSeparator](../../com.aspose.words/chapterpageseparator)常数。
 ### getCharactersPerLine() {#getCharactersPerLine--}
 ```
 public int getCharactersPerLine()
 ```
 
 
-Gets the number of characters per line in the document grid.
+获取文档网格中每行的字符数。
 
-Minimum value of the property is 1. Maximum value depends on page width and font size of the Normal style. Minimum character pitch is 90 percent of the font size. For example, maximum number of characters per line of a Letter page with one-inch margins is 43.
+该属性的最小值为 1。最大值取决于 Normal 样式的页面宽度和字体大小。最小字符间距为字体大小的 90%。例如，一英寸页边距的 Letter 页面每行的最大字符数为 43。
 
-By default, the property has a value, on which character pitch equals to font size of the Normal style.
+默认情况下，该属性有一个值，其字符间距等于 Normal 样式的字体大小。
 
-**Returns:**
-int - The number of characters per line in the document grid.
-### getClass() {#getClass--}
+**退货:**
+int - 文档网格中每行的字符数。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDifferentFirstPageHeaderFooter() {#getDifferentFirstPageHeaderFooter--}
 ```
 public boolean getDifferentFirstPageHeaderFooter()
 ```
 
 
-**True** if a different header or footer is used on the first page.
+**True**如果在第一页上使用了不同的页眉或页脚。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -293,12 +293,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 
-**Returns:**
+**退货:**
 java.lang.Object
 ### getEndnoteOptions() {#getEndnoteOptions--}
 ```
@@ -306,342 +306,342 @@ public EndnoteOptions getEndnoteOptions()
 ```
 
 
-Provides options that control numbering and positioning of endnotes in this section.
+提供控制本节中尾注编号和定位的选项。
 
-**Returns:**
-[EndnoteOptions](../../com.aspose.words/endnoteoptions) - The corresponding [EndnoteOptions](../../com.aspose.words/endnoteoptions) value.
+**退货:**
+[EndnoteOptions](../../com.aspose.words/endnoteoptions) - 相应的[EndnoteOptions](../../com.aspose.words/endnoteoptions)价值。
 ### getFirstPageTray() {#getFirstPageTray--}
 ```
 public int getFirstPageTray()
 ```
 
 
-Gets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.
+获取用于部分第一页的纸盘（纸盒）。该值是特定于实现（打印机）的。
 
-**Returns:**
-int - The paper tray (bin) to use for the first page of a section.
+**退货:**
+int - 用于部分第一页的纸盒（纸盒）。
 ### getFooterDistance() {#getFooterDistance--}
 ```
 public double getFooterDistance()
 ```
 
 
-Gets the distance (in points) between the footer and the bottom of the page.
+获取页脚和页面底部之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the footer and the bottom of the page.
+**退货:**
+double - 页脚和页面底部之间的距离（以磅为单位）。
 ### getFootnoteOptions() {#getFootnoteOptions--}
 ```
 public FootnoteOptions getFootnoteOptions()
 ```
 
 
-Provides options that control numbering and positioning of footnotes in this section.
+提供控制本节中脚注的编号和位置的选项。
 
-**Returns:**
-[FootnoteOptions](../../com.aspose.words/footnoteoptions) - The corresponding [FootnoteOptions](../../com.aspose.words/footnoteoptions) value.
+**退货:**
+[FootnoteOptions](../../com.aspose.words/footnoteoptions) - 相应的[FootnoteOptions](../../com.aspose.words/footnoteoptions)价值。
 ### getGutter() {#getGutter--}
 ```
 public double getGutter()
 ```
 
 
-Gets the amount of extra space added to the margin for document binding.
+获取添加到文档装订边距的额外空间量。
 
-**Returns:**
-double - The amount of extra space added to the margin for document binding.
+**退货:**
+double - 添加到文档装订边距的额外空间量。
 ### getHeaderDistance() {#getHeaderDistance--}
 ```
 public double getHeaderDistance()
 ```
 
 
-Gets the distance (in points) between the header and the top of the page.
+获取页眉和页面顶部之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the header and the top of the page.
+**退货:**
+double - 页眉和页面顶部之间的距离（以磅为单位）。
 ### getHeadingLevelForChapter() {#getHeadingLevelForChapter--}
 ```
 public int getHeadingLevelForChapter()
 ```
 
 
-Gets the heading level style that is applied to the chapter titles in the document.
+获取应用于文档中章节标题的标题级别样式。
 
-Can be a number from 0 through 9. 0 means no chapter number if applied to page number.
+可以是从 0 到 9 的数字。如果应用于页码，0 表示没有章节编号。
 
-Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
+在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
-**Returns:**
-int - The heading level style that is applied to the chapter titles in the document.
+**退货:**
+int - 应用于文档中章节标题的标题级别样式。
 ### getLayoutMode() {#getLayoutMode--}
 ```
 public int getLayoutMode()
 ```
 
 
-Gets the layout mode of this section.
+获取此部分的布局模式。
 
-**Returns:**
-int - The layout mode of this section. The returned value is one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode) constants.
+**退货:**
+ int - 本节的布局模式。返回值是以下之一[SectionLayoutMode](../../com.aspose.words/sectionlayoutmode)常数。
 ### getLeftMargin() {#getLeftMargin--}
 ```
 public double getLeftMargin()
 ```
 
 
-Gets the distance (in points) between the left edge of the page and the left boundary of the body text.
+获取页面左边缘和正文左边界之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the left edge of the page and the left boundary of the body text.
+**退货:**
+double - 页面左边缘与正文左边界之间的距离（以磅为单位）。
 ### getLineNumberCountBy() {#getLineNumberCountBy--}
 ```
 public int getLineNumberCountBy()
 ```
 
 
-Gets the numeric increment for line numbers.
+获取行号的数字增量。
 
-**Returns:**
-int - The numeric increment for line numbers.
+**退货:**
+int - 行号的数字增量。
 ### getLineNumberDistanceFromText() {#getLineNumberDistanceFromText--}
 ```
 public double getLineNumberDistanceFromText()
 ```
 
 
-Gets distance between the right edge of line numbers and the left edge of the document. Set this property to zero for automatic distance between the line numbers and text of the document.
+获取行号右边缘与文档左边缘之间的距离。将此属性设置为零以实现行号和文档文本之间的自动距离。
 
-**Returns:**
-double - Distance between the right edge of line numbers and the left edge of the document.
+**退货:**
+double - 行号右边缘与文档左边缘之间的距离。
 ### getLineNumberRestartMode() {#getLineNumberRestartMode--}
 ```
 public int getLineNumberRestartMode()
 ```
 
 
-Gets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.
+获取行编号的运行方式，即它是在新页面或部分的开头重新开始还是连续运行。
 
-**Returns:**
-int - The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The returned value is one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode) constants.
+**退货:**
+ int - 行号的运行方式，即它是在新页面或部分的开头重新开始还是连续运行。返回值是以下之一[LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode)常数。
 ### getLineStartingNumber() {#getLineStartingNumber--}
 ```
 public int getLineStartingNumber()
 ```
 
 
-Gets the starting line number.
+获取起始行号。
 
-**Returns:**
-int - The starting line number.
+**退货:**
+int - 起始行号。
 ### getLinesPerPage() {#getLinesPerPage--}
 ```
 public int getLinesPerPage()
 ```
 
 
-Gets the number of lines per page in the document grid.
+获取文档网格中每页的行数。
 
-Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of a Letter page with one-inch margins is 39.
+该属性的最小值为 1。最大值取决于 Normal 样式的页面高度和字体大小。最小行距是字体大小的 136%。例如，每页边距为 1 英寸的 Letter 页面的最大行数为 39。
 
-By default, the property has a value, on which line pitch is in 1.5 times greater than font size of the Normal style.
+默认情况下，该属性有一个值，在该值上，行距是 Normal 样式字体大小的 1.5 倍。
 
-**Returns:**
-int - The number of lines per page in the document grid.
+**退货:**
+int - 文档网格中每页的行数。
 ### getMultiplePages() {#getMultiplePages--}
 ```
 public int getMultiplePages()
 ```
 
 
-For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
+对于多页文档，获取或设置文档的打印或呈现方式，以便可以将其装订为小册子。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [MultiplePagesType](../../com.aspose.words/multiplepagestype) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[MultiplePages类型](../../com.aspose.words/multiplepagestype)常数。
 ### getOddAndEvenPagesHeaderFooter() {#getOddAndEvenPagesHeaderFooter--}
 ```
 public boolean getOddAndEvenPagesHeaderFooter()
 ```
 
 
-**True** if the document has different headers and footers for odd-numbered and even-numbered pages. Note, changing this property affects all sections in the document.
+**True**如果文档对于奇数页和偶数页有不同的页眉和页脚。请注意，更改此属性会影响文档中的所有部分。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getOrientation() {#getOrientation--}
 ```
 public int getOrientation()
 ```
 
 
-Gets the orientation of the page.
+获取页面的方向。
 
-Changing **Orientation** swaps [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-).
+改变**Orientation**掉期[getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-)和[getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-).
 
-**Returns:**
-int - The orientation of the page. The returned value is one of [Orientation](../../com.aspose.words/orientation) constants.
+**退货:**
+int - 页面的方向。返回值是以下之一[Orientation](../../com.aspose.words/orientation)常数。
 ### getOtherPagesTray() {#getOtherPagesTray--}
 ```
 public int getOtherPagesTray()
 ```
 
 
-Gets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific.
+获取要用于除第一页以外的所有部分的纸盒（纸盒）。该值是特定于实现（打印机）的。
 
-**Returns:**
-int - The paper tray (bin) to be used for all but the first page of a section.
+**退货:**
+int - 用于除第一页以外的所有部分的纸盒（纸盒）。
 ### getPageHeight() {#getPageHeight--}
 ```
 public double getPageHeight()
 ```
 
 
-Gets the height of the page in points.
+获取页面的高度（以磅为单位）。
 
-**Returns:**
-double - The height of the page in points.
+**退货:**
+double - 以磅为单位的页面高度。
 ### getPageNumberStyle() {#getPageNumberStyle--}
 ```
 public int getPageNumberStyle()
 ```
 
 
-Gets the page number format.
+获取页码格式。
 
-**Returns:**
-int - The page number format. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
+**退货:**
+ int - 页码格式。返回值是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。
 ### getPageStartingNumber() {#getPageStartingNumber--}
 ```
 public int getPageStartingNumber()
 ```
 
 
-Gets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering--) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean-) property, if set to **false**, will override the **PageStartingNumber** property so that page numbering can continue from the previous section.
+获取节的起始页码。这[getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering--) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean-)属性，如果设置为**false** 将覆盖**PageStartingNumber**属性，以便页码可以从上一节继续。
 
-**Returns:**
-int - The starting page number of the section.
+**退货:**
+int - 节的起始页码。
 ### getPageWidth() {#getPageWidth--}
 ```
 public double getPageWidth()
 ```
 
 
-Gets the width of the page in points.
+获取页面的宽度（以磅为单位）。
 
-**Returns:**
-double - The width of the page in points.
+**退货:**
+double - 以磅为单位的页面宽度。
 ### getPaperSize() {#getPaperSize--}
 ```
 public int getPaperSize()
 ```
 
 
-Gets the paper size.
+获取纸张大小。
 
-Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM) does not change existing values.
+设置此属性更新[getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-)和[getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-)价值观。将此值设置为[PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM)不会更改现有值。
 
-**Returns:**
-int - The paper size. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
+**退货:**
+int - 纸张大小。返回值是以下之一[PaperSize](../../com.aspose.words/papersize)常数。
 ### getRestartPageNumbering() {#getRestartPageNumbering--}
 ```
 public boolean getRestartPageNumbering()
 ```
 
 
-**True** if page numbering restarts at the beginning of the section. If set to **false**, the **RestartPageNumbering** property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber--) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int-) property so that page numbering can continue from the previous section.
+**True**如果页码在节的开头重新开始。如果设置为**false**， 这**RestartPageNumbering**属性将覆盖[getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber--) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int-)属性，以便页码可以从上一节继续。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getRightMargin() {#getRightMargin--}
 ```
 public double getRightMargin()
 ```
 
 
-Gets the distance (in points) between the right edge of the page and the right boundary of the body text.
+获取页面右边缘与正文右边界之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the right edge of the page and the right boundary of the body text.
+**退货:**
+double - 页面右边缘与正文右边界之间的距离（以磅为单位）。
 ### getRtlGutter() {#getRtlGutter--}
 ```
 public boolean getRtlGutter()
 ```
 
 
-Gets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
+获取 Microsoft Word 是否基于从右到左的语言或从左到右的语言为部分使用装订线。
 
-**Returns:**
-boolean - Whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
+**退货:**
+boolean - Microsoft Word 是否基于从右到左的语言或从左到右的语言为部分使用装订线。
 ### getSectionStart() {#getSectionStart--}
 ```
 public int getSectionStart()
 ```
 
 
-Gets the type of section break for the specified object.
+获取指定对象的分节符类型。
 
-**Returns:**
-int - The type of section break for the specified object. The returned value is one of [SectionStart](../../com.aspose.words/sectionstart) constants.
+**退货:**
+ int - 指定对象的分节符类型。返回值是以下之一[SectionStart](../../com.aspose.words/sectionstart)常数。
 ### getSheetsPerBooklet() {#getSheetsPerBooklet--}
 ```
 public int getSheetsPerBooklet()
 ```
 
 
-Gets the number of pages to be included in each booklet.
+获取要包含在每个小册子中的页数。
 
-**Returns:**
-int - The number of pages to be included in each booklet.
+**退货:**
+int - 每本小册子要包含的页数。
 ### getSuppressEndnotes() {#getSuppressEndnotes--}
 ```
 public boolean getSuppressEndnotes()
 ```
 
 
-**True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
+**True**如果尾注打印在下一部分的末尾，它不会抑制尾注。隐藏的尾注打印在该部分的尾注之前。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getTextColumns() {#getTextColumns--}
 ```
 public TextColumnCollection getTextColumns()
 ```
 
 
-Returns a collection that represents the set of text columns.
+返回一个表示文本列集的集合。
 
-**Returns:**
-[TextColumnCollection](../../com.aspose.words/textcolumncollection) - A collection that represents the set of text columns.
+**退货:**
+[TextColumnCollection](../../com.aspose.words/textcolumncollection) - 表示一组文本列的集合。
 ### getTextOrientation() {#getTextOrientation--}
 ```
 public int getTextOrientation()
 ```
 
 
-Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+允许指定[getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-)对于整个页面。默认值为[TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL)此属性仅支持 MS Word 本机格式 DOCX、WML、RTF 和 DOC。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[TextOrientation](../../com.aspose.words/textorientation)常数。
 ### getTopMargin() {#getTopMargin--}
 ```
 public double getTopMargin()
 ```
 
 
-Gets the distance (in points) between the top edge of the page and the top boundary of the body text.
+获取页面上边缘与正文上边界之间的距离（以磅为单位）。
 
-**Returns:**
-double - The distance (in points) between the top edge of the page and the top boundary of the body text.
+**退货:**
+double - 页面上边缘与正文上边界之间的距离（以磅为单位）。
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
 ```
 
 
-Gets the vertical alignment of text on each page in a document or section.
+获取文档或节中每一页上文本的垂直对齐方式。
 
-**Returns:**
-int - The vertical alignment of text on each page in a document or section. The returned value is one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment) constants.
+**退货:**
+ int - 文档或部分中每一页上文本的垂直对齐方式。返回值是以下之一[PageVerticalAlignment](../../com.aspose.words/pageverticalalignment)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -650,8 +650,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -674,14 +674,14 @@ public void setBidi(boolean value)
 ```
 
 
-Specifies that this section contains bidirectional (complex scripts) text.
+指定此部分包含双向（复杂脚本）文本。
 
-When true, the columns in this section are laid out from right to left.
+如果为 true，则此部分中的列从右到左排列。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBorderAlwaysInFront(boolean value) {#setBorderAlwaysInFront-boolean-}
 ```
@@ -689,12 +689,12 @@ public void setBorderAlwaysInFront(boolean value)
 ```
 
 
-Specifies where the page border is positioned relative to intersecting texts and objects.
+指定页面边框相对于相交文本和对象的位置。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBorderAppliesTo(int value) {#setBorderAppliesTo-int-}
 ```
@@ -702,12 +702,12 @@ public void setBorderAppliesTo(int value)
 ```
 
 
-Specifies which pages the page border is printed on.
+指定打印页面边框的页面。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[PageBorderAppliesTo](../../com.aspose.words/pageborderappliesto)常数。 |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -717,8 +717,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -729,12 +729,12 @@ public void setBorderDistanceFrom(int value)
 ```
 
 
-Sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds.
+设置一个值，该值指示指定的页面边框是从页面边缘还是从其周围的文本测量的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | A value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds. The value must be one of [PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom) constants. |
+| value | int | 一个值，指示指定的页面边框是从页面边缘还是从其周围的文本测量的。该值必须是以下之一[PageBorderDistanceFrom](../../com.aspose.words/pageborderdistancefrom)常数。 |
 
 ### setBorderSurroundsFooter(boolean value) {#setBorderSurroundsFooter-boolean-}
 ```
@@ -742,12 +742,12 @@ public void setBorderSurroundsFooter(boolean value)
 ```
 
 
-Specifies whether the page border includes or excludes the footer. Note, changing this property affects all sections in the document.
+指定页面边框是包括还是不包括页脚。请注意，更改此属性会影响文档中的所有部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBorderSurroundsHeader(boolean value) {#setBorderSurroundsHeader-boolean-}
 ```
@@ -755,12 +755,12 @@ public void setBorderSurroundsHeader(boolean value)
 ```
 
 
-Specifies whether the page border includes or excludes the header. Note, changing this property affects all sections in the document.
+指定页面边框是包括还是不包括页眉。请注意，更改此属性会影响文档中的所有部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setBottomMargin(double value) {#setBottomMargin-double-}
 ```
@@ -768,12 +768,12 @@ public void setBottomMargin(double value)
 ```
 
 
-Sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text.
+设置页面底部边缘和正文底部边界之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the bottom edge of the page and the bottom boundary of the body text. |
+| value | double | 页面底部边缘与正文底部边界之间的距离（以磅为单位）。 |
 
 ### setChapterPageSeparator(int value) {#setChapterPageSeparator-int-}
 ```
@@ -781,14 +781,14 @@ public void setChapterPageSeparator(int value)
 ```
 
 
-Sets the separator character that appears between the chapter number and the page number.
+设置出现在章节号和页码之间的分隔符。
 
-Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
+在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The separator character that appears between the chapter number and the page number. The value must be one of [ChapterPageSeparator](../../com.aspose.words/chapterpageseparator) constants. |
+| value | int | 出现在章节号和页码之间的分隔符。该值必须是以下之一[ChapterPageSeparator](../../com.aspose.words/chapterpageseparator)常数。 |
 
 ### setCharactersPerLine(int value) {#setCharactersPerLine-int-}
 ```
@@ -796,16 +796,16 @@ public void setCharactersPerLine(int value)
 ```
 
 
-Sets the number of characters per line in the document grid.
+设置文档网格中每行的字符数。
 
-Minimum value of the property is 1. Maximum value depends on page width and font size of the Normal style. Minimum character pitch is 90 percent of the font size. For example, maximum number of characters per line of a Letter page with one-inch margins is 43.
+该属性的最小值为 1。最大值取决于 Normal 样式的页面宽度和字体大小。最小字符间距为字体大小的 90%。例如，一英寸页边距的 Letter 页面每行的最大字符数为 43。
 
-By default, the property has a value, on which character pitch equals to font size of the Normal style.
+默认情况下，该属性有一个值，其字符间距等于 Normal 样式的字体大小。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The number of characters per line in the document grid. |
+| value | int | 文档网格中每行的字符数。 |
 
 ### setDifferentFirstPageHeaderFooter(boolean value) {#setDifferentFirstPageHeaderFooter-boolean-}
 ```
@@ -813,12 +813,12 @@ public void setDifferentFirstPageHeaderFooter(boolean value)
 ```
 
 
-**True** if a different header or footer is used on the first page.
+**True**如果在第一页上使用了不同的页眉或页脚。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setFirstPageTray(int value) {#setFirstPageTray-int-}
 ```
@@ -826,12 +826,12 @@ public void setFirstPageTray(int value)
 ```
 
 
-Sets the paper tray (bin) to use for the first page of a section. The value is implementation (printer) specific.
+设置用于部分第一页的纸盘（纸盒）。该值是特定于实现（打印机）的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The paper tray (bin) to use for the first page of a section. |
+| value | int | 用于部分第一页的纸盒（纸盒）。 |
 
 ### setFooterDistance(double value) {#setFooterDistance-double-}
 ```
@@ -839,12 +839,12 @@ public void setFooterDistance(double value)
 ```
 
 
-Sets the distance (in points) between the footer and the bottom of the page.
+设置页脚和页面底部之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the footer and the bottom of the page. |
+| value | double | 页脚和页面底部之间的距离（以磅为单位）。 |
 
 ### setGutter(double value) {#setGutter-double-}
 ```
@@ -852,12 +852,12 @@ public void setGutter(double value)
 ```
 
 
-Sets the amount of extra space added to the margin for document binding.
+设置添加到文档装订边距的额外空间量。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The amount of extra space added to the margin for document binding. |
+| value | double | 添加到文档装订边距的额外空间量。 |
 
 ### setHeaderDistance(double value) {#setHeaderDistance-double-}
 ```
@@ -865,12 +865,12 @@ public void setHeaderDistance(double value)
 ```
 
 
-Sets the distance (in points) between the header and the top of the page.
+设置页眉和页面顶部之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the header and the top of the page. |
+| value | double | 页眉和页面顶部之间的距离（以磅为单位）。 |
 
 ### setHeadingLevelForChapter(int value) {#setHeadingLevelForChapter-int-}
 ```
@@ -878,16 +878,16 @@ public void setHeadingLevelForChapter(int value)
 ```
 
 
-Sets the heading level style that is applied to the chapter titles in the document.
+设置应用于文档中章节标题的标题级别样式。
 
-Can be a number from 0 through 9. 0 means no chapter number if applied to page number.
+可以是从 0 到 9 的数字。如果应用于页码，0 表示没有章节编号。
 
-Before you can create page numbers that include chapter numbers, the document headings must have a numbered outline format applied.
+在创建包含章节编号的页码之前，文档标题必须应用编号大纲格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The heading level style that is applied to the chapter titles in the document. |
+| value | int | 应用于文档中章节标题的标题级别样式。 |
 
 ### setLayoutMode(int value) {#setLayoutMode-int-}
 ```
@@ -895,12 +895,12 @@ public void setLayoutMode(int value)
 ```
 
 
-Sets the layout mode of this section.
+设置此部分的布局模式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The layout mode of this section. The value must be one of [SectionLayoutMode](../../com.aspose.words/sectionlayoutmode) constants. |
+| value | int | 本节的布局模式。该值必须是以下之一[SectionLayoutMode](../../com.aspose.words/sectionlayoutmode)常数。 |
 
 ### setLeftMargin(double value) {#setLeftMargin-double-}
 ```
@@ -908,12 +908,12 @@ public void setLeftMargin(double value)
 ```
 
 
-Sets the distance (in points) between the left edge of the page and the left boundary of the body text.
+设置页面左边缘和正文左边界之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the left edge of the page and the left boundary of the body text. |
+| value | double | 页面左边缘与正文左边界之间的距离（以磅为单位）。 |
 
 ### setLineNumberCountBy(int value) {#setLineNumberCountBy-int-}
 ```
@@ -921,12 +921,12 @@ public void setLineNumberCountBy(int value)
 ```
 
 
-Sets the numeric increment for line numbers.
+设置行号的数字增量。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The numeric increment for line numbers. |
+| value | int | 行号的数字增量。 |
 
 ### setLineNumberDistanceFromText(double value) {#setLineNumberDistanceFromText-double-}
 ```
@@ -934,12 +934,12 @@ public void setLineNumberDistanceFromText(double value)
 ```
 
 
-Sets distance between the right edge of line numbers and the left edge of the document. Set this property to zero for automatic distance between the line numbers and text of the document.
+设置行号右边缘和文档左边缘之间的距离。将此属性设置为零以实现行号和文档文本之间的自动距离。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | Distance between the right edge of line numbers and the left edge of the document. |
+| value | double | 行号右边缘与文档左边缘之间的距离。 |
 
 ### setLineNumberRestartMode(int value) {#setLineNumberRestartMode-int-}
 ```
@@ -947,12 +947,12 @@ public void setLineNumberRestartMode(int value)
 ```
 
 
-Sets the way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously.
+设置行编号的运行方式，即是在新页面或部分的开头重新开始还是连续运行。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The way line numbering runs that is, whether it starts over at the beginning of a new page or section or runs continuously. The value must be one of [LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode) constants. |
+| value | int | 行编号的运行方式是，它是在新页面或部分的开头重新开始还是连续运行。该值必须是以下之一[LineNumberRestartMode](../../com.aspose.words/linenumberrestartmode)常数。 |
 
 ### setLineStartingNumber(int value) {#setLineStartingNumber-int-}
 ```
@@ -960,12 +960,12 @@ public void setLineStartingNumber(int value)
 ```
 
 
-Sets the starting line number.
+设置起始行号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The starting line number. |
+| value | int | 起始行号。 |
 
 ### setLinesPerPage(int value) {#setLinesPerPage-int-}
 ```
@@ -973,16 +973,16 @@ public void setLinesPerPage(int value)
 ```
 
 
-Sets the number of lines per page in the document grid.
+设置文档网格中每页的行数。
 
-Minimum value of the property is 1. Maximum value depends on page height and font size of the Normal style. Minimum line pitch is 136 percent of the font size. For example, maximum number of lines per page of a Letter page with one-inch margins is 39.
+该属性的最小值为 1。最大值取决于 Normal 样式的页面高度和字体大小。最小行距是字体大小的 136%。例如，每页边距为 1 英寸的 Letter 页面的最大行数为 39。
 
-By default, the property has a value, on which line pitch is in 1.5 times greater than font size of the Normal style.
+默认情况下，该属性有一个值，在该值上，行距是 Normal 样式字体大小的 1.5 倍。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The number of lines per page in the document grid. |
+| value | int | 文档网格中每页的行数。 |
 
 ### setMultiplePages(int value) {#setMultiplePages-int-}
 ```
@@ -990,12 +990,12 @@ public void setMultiplePages(int value)
 ```
 
 
-For multiple page documents, gets or sets how a document is printed or rendered so that it can be bound as a booklet.
+对于多页文档，获取或设置文档的打印或呈现方式，以便可以将其装订为小册子。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [MultiplePagesType](../../com.aspose.words/multiplepagestype) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[MultiplePages类型](../../com.aspose.words/multiplepagestype)常数。 |
 
 ### setOddAndEvenPagesHeaderFooter(boolean value) {#setOddAndEvenPagesHeaderFooter-boolean-}
 ```
@@ -1003,12 +1003,12 @@ public void setOddAndEvenPagesHeaderFooter(boolean value)
 ```
 
 
-**True** if the document has different headers and footers for odd-numbered and even-numbered pages. Note, changing this property affects all sections in the document.
+**True**如果文档对于奇数页和偶数页有不同的页眉和页脚。请注意，更改此属性会影响文档中的所有部分。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setOrientation(int value) {#setOrientation-int-}
 ```
@@ -1016,14 +1016,14 @@ public void setOrientation(int value)
 ```
 
 
-Sets the orientation of the page.
+设置页面的方向。
 
-Changing **Orientation** swaps [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-).
+改变**Orientation**掉期[getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-)和[getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The orientation of the page. The value must be one of [Orientation](../../com.aspose.words/orientation) constants. |
+| value | int | 页面的方向。该值必须是以下之一[Orientation](../../com.aspose.words/orientation)常数。 |
 
 ### setOtherPagesTray(int value) {#setOtherPagesTray-int-}
 ```
@@ -1031,12 +1031,12 @@ public void setOtherPagesTray(int value)
 ```
 
 
-Sets the paper tray (bin) to be used for all but the first page of a section. The value is implementation (printer) specific.
+设置要用于除第一页以外的所有部分的纸盘（纸盒）。该值是特定于实现（打印机）的。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The paper tray (bin) to be used for all but the first page of a section. |
+| value | int | 用于除第一页以外的所有部分的纸盘（纸盒）。 |
 
 ### setPageHeight(double value) {#setPageHeight-double-}
 ```
@@ -1044,12 +1044,12 @@ public void setPageHeight(double value)
 ```
 
 
-Sets the height of the page in points.
+以磅为单位设置页面的高度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The height of the page in points. |
+| value | double | 以磅为单位的页面高度。 |
 
 ### setPageNumberStyle(int value) {#setPageNumberStyle-int-}
 ```
@@ -1057,12 +1057,12 @@ public void setPageNumberStyle(int value)
 ```
 
 
-Sets the page number format.
+设置页码格式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The page number format. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
+| value | int | 页码格式。该值必须是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。 |
 
 ### setPageStartingNumber(int value) {#setPageStartingNumber-int-}
 ```
@@ -1070,12 +1070,12 @@ public void setPageStartingNumber(int value)
 ```
 
 
-Sets the starting page number of the section. The [getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering--) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean-) property, if set to **false**, will override the **PageStartingNumber** property so that page numbering can continue from the previous section.
+设置节的起始页码。这[getRestartPageNumbering()](../../com.aspose.words/pagesetup\#getRestartPageNumbering--) / [setRestartPageNumbering(boolean)](../../com.aspose.words/pagesetup\#setRestartPageNumbering-boolean-)属性，如果设置为**false** 将覆盖**PageStartingNumber**属性，以便页码可以从上一节继续。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The starting page number of the section. |
+| value | int | 节的起始页码。 |
 
 ### setPageWidth(double value) {#setPageWidth-double-}
 ```
@@ -1083,12 +1083,12 @@ public void setPageWidth(double value)
 ```
 
 
-Sets the width of the page in points.
+以磅为单位设置页面的宽度。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The width of the page in points. |
+| value | double | 以磅为单位的页面宽度。 |
 
 ### setPaperSize(int value) {#setPaperSize-int-}
 ```
@@ -1096,14 +1096,14 @@ public void setPaperSize(int value)
 ```
 
 
-Sets the paper size.
+设置纸张尺寸。
 
-Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-) and [getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM) does not change existing values.
+设置此属性更新[getPageWidth()](../../com.aspose.words/pagesetup\#getPageWidth--) / [setPageWidth(double)](../../com.aspose.words/pagesetup\#setPageWidth-double-)和[getPageHeight()](../../com.aspose.words/pagesetup\#getPageHeight--) / [setPageHeight(double)](../../com.aspose.words/pagesetup\#setPageHeight-double-)价值观。将此值设置为[PaperSize.CUSTOM](../../com.aspose.words/papersize\#CUSTOM)不会更改现有值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The paper size. The value must be one of [PaperSize](../../com.aspose.words/papersize) constants. |
+| value | int | 纸张大小。该值必须是以下之一[PaperSize](../../com.aspose.words/papersize)常数。 |
 
 ### setRestartPageNumbering(boolean value) {#setRestartPageNumbering-boolean-}
 ```
@@ -1111,12 +1111,12 @@ public void setRestartPageNumbering(boolean value)
 ```
 
 
-**True** if page numbering restarts at the beginning of the section. If set to **false**, the **RestartPageNumbering** property will override the [getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber--) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int-) property so that page numbering can continue from the previous section.
+**True**如果页码在节的开头重新开始。如果设置为**false**， 这**RestartPageNumbering**属性将覆盖[getPageStartingNumber()](../../com.aspose.words/pagesetup\#getPageStartingNumber--) / [setPageStartingNumber(int)](../../com.aspose.words/pagesetup\#setPageStartingNumber-int-)属性，以便页码可以从上一节继续。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setRightMargin(double value) {#setRightMargin-double-}
 ```
@@ -1124,12 +1124,12 @@ public void setRightMargin(double value)
 ```
 
 
-Sets the distance (in points) between the right edge of the page and the right boundary of the body text.
+设置页面右边缘和正文右边界之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the right edge of the page and the right boundary of the body text. |
+| value | double | 页面右边缘与正文右边界之间的距离（以磅为单位）。 |
 
 ### setRtlGutter(boolean value) {#setRtlGutter-boolean-}
 ```
@@ -1137,12 +1137,12 @@ public void setRtlGutter(boolean value)
 ```
 
 
-Sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language.
+设置 Microsoft Word 是根据从右到左的语言还是从左到右的语言为部分使用装订线。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language. |
+| value | boolean | Microsoft Word 是否基于从右到左的语言或从左到右的语言为该部分使用装订线。 |
 
 ### setSectionStart(int value) {#setSectionStart-int-}
 ```
@@ -1150,12 +1150,12 @@ public void setSectionStart(int value)
 ```
 
 
-Sets the type of section break for the specified object.
+设置指定对象的分节符类型。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The type of section break for the specified object. The value must be one of [SectionStart](../../com.aspose.words/sectionstart) constants. |
+| value | int | 指定对象的分节符类型。该值必须是以下之一[SectionStart](../../com.aspose.words/sectionstart)常数。 |
 
 ### setSheetsPerBooklet(int value) {#setSheetsPerBooklet-int-}
 ```
@@ -1163,12 +1163,12 @@ public void setSheetsPerBooklet(int value)
 ```
 
 
-Sets the number of pages to be included in each booklet.
+设置要包含在每个小册子中的页数。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The number of pages to be included in each booklet. |
+| value | int | 每本小册子要包含的页数。 |
 
 ### setSuppressEndnotes(boolean value) {#setSuppressEndnotes-boolean-}
 ```
@@ -1176,12 +1176,12 @@ public void setSuppressEndnotes(boolean value)
 ```
 
 
-**True** if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
+**True**如果尾注打印在下一部分的末尾，它不会抑制尾注。隐藏的尾注打印在该部分的尾注之前。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setTextOrientation(int value) {#setTextOrientation-int-}
 ```
@@ -1189,12 +1189,12 @@ public void setTextOrientation(int value)
 ```
 
 
-Allows to specify [getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-) for the whole page. Default value is [TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL) This property is only supported for MS Word native formats DOCX, WML, RTF and DOC.
+允许指定[getTextOrientation()](../../com.aspose.words/pagesetup\#getTextOrientation--) / [setTextOrientation(int)](../../com.aspose.words/pagesetup\#setTextOrientation-int-)对于整个页面。默认值为[TextOrientation.HORIZONTAL](../../com.aspose.words/textorientation\#HORIZONTAL)此属性仅支持 MS Word 本机格式 DOCX、WML、RTF 和 DOC。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [TextOrientation](../../com.aspose.words/textorientation) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[TextOrientation](../../com.aspose.words/textorientation)常数。 |
 
 ### setTopMargin(double value) {#setTopMargin-double-}
 ```
@@ -1202,12 +1202,12 @@ public void setTopMargin(double value)
 ```
 
 
-Sets the distance (in points) between the top edge of the page and the top boundary of the body text.
+设置页面上边缘和正文上边界之间的距离（以磅为单位）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | double | The distance (in points) between the top edge of the page and the top boundary of the body text. |
+| value | double | 页面上边缘与正文上边界之间的距离（以磅为单位）。 |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
 ```
@@ -1215,12 +1215,12 @@ public void setVerticalAlignment(int value)
 ```
 
 
-Sets the vertical alignment of text on each page in a document or section.
+设置文档或部分中每一页上文本的垂直对齐方式。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The vertical alignment of text on each page in a document or section. The value must be one of [PageVerticalAlignment](../../com.aspose.words/pageverticalalignment) constants. |
+| value | int | 文档或部分中每一页上文本的垂直对齐方式。该值必须是以下之一[PageVerticalAlignment](../../com.aspose.words/pageverticalalignment)常数。 |
 
 ### toString() {#toString--}
 ```
@@ -1230,7 +1230,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1248,8 +1248,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1261,9 +1261,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

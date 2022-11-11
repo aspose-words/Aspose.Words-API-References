@@ -1,36 +1,36 @@
 ---
 title: WrapSide
 second_title: Aspose.Words for Java API Reference
-description: Specifies what sides of the shape or picture the text wraps around.
+description: 指定文本环绕的形状或图片的哪一侧。
 type: docs
 weight: 621
-url: /java/com.aspose.words/wrapside/
+url: /zh/java/com.aspose.words/wrapside/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class WrapSide
 ```
 
-Specifies what side(s) of the shape or picture the text wraps around.
-## Fields
+指定文本环绕的形状或图片的哪一侧。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BOTH](#BOTH) | The document text wraps on both sides of the shape. |
-| [DEFAULT](#DEFAULT) | Default value is [BOTH](../../com.aspose.words/wrapside\#BOTH). |
-| [LARGEST](#LARGEST) | The document text wraps on the side of the shape that is farthest from the page margin, leaving text free area on the other side of the shape. |
-| [LEFT](#LEFT) | The document text wraps on the left side of the shape only. |
-| [RIGHT](#RIGHT) | The document text wraps on the right side of the shape only. |
+| [BOTH](#BOTH) | 文档文本环绕在形状的两侧。 |
+| [DEFAULT](#DEFAULT) | 默认值为[BOTH](../../com.aspose.words/wrapside\#BOTH). |
+| [LARGEST](#LARGEST) | 文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本空闲区域。 |
+| [LEFT](#LEFT) | 文档文本仅在形状的左侧换行。 |
+| [RIGHT](#RIGHT) | 文档文本仅在形状的右侧换行。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String wrapSideName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int wrapSide)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int BOTH
 ```
 
 
-The document text wraps on both sides of the shape.
+文档文本环绕在形状的两侧。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -55,7 +55,7 @@ public static int DEFAULT
 ```
 
 
-Default value is [BOTH](../../com.aspose.words/wrapside\#BOTH).
+默认值为[BOTH](../../com.aspose.words/wrapside\#BOTH).
 
 ### LARGEST {#LARGEST}
 ```
@@ -63,7 +63,7 @@ public static int LARGEST
 ```
 
 
-The document text wraps on the side of the shape that is farthest from the page margin, leaving text free area on the other side of the shape.
+文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本空闲区域。
 
 ### LEFT {#LEFT}
 ```
@@ -71,7 +71,7 @@ public static int LEFT
 ```
 
 
-The document text wraps on the left side of the shape only. There is a text free area on the right of the shape.
+文档文本仅在形状的左侧换行。形状右侧有一个无文本区域。
 
 ### RIGHT {#RIGHT}
 ```
@@ -79,7 +79,7 @@ public static int RIGHT
 ```
 
 
-The document text wraps on the right side of the shape only. There is a text free area on the left side of the shape.
+文档文本仅在形状的右侧换行。形状左侧有一个无文本区域。
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String wrapSideName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String wrapSideName)
@@ -110,23 +110,23 @@ public static int fromName(String wrapSideName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSideName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int wrapSide) {#getName-int-}
 ```
 public static String getName(int wrapSide)
@@ -135,12 +135,12 @@ public static String getName(int wrapSide)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int wrapSide) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int wrapSide)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | wrapSide | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,9 +232,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

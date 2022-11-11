@@ -1,41 +1,41 @@
 ---
-title: AxisCategoryType
-second_title: Aspose.Words for Java API Reference
-description: Specifies type of a category axis.
+title: AxisCategory类型
+second_title: Aspose.Words for Java API 参考
+description: 指定类别轴的类型。
 type: docs
 weight: 18
-url: /java/com.aspose.words/axiscategorytype/
+url: /zh/java/com.aspose.words/axiscategorytype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class AxisCategoryType
+public class AxisCategory类型
 ```
 
-Specifies type of a category axis.
-## Fields
+指定类别轴的类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AUTOMATIC](#AUTOMATIC) | Specifies that type of a category axis is determined automatically based on data. |
-| [CATEGORY](#CATEGORY) | Specifies an axis of an arbitrary set of categories. |
-| [TIME](#TIME) | Specifies a time category axis. |
+| [AUTOMATIC](#AUTOMATIC) | 指定根据数据自动确定类别轴的类型。 |
+| [CATEGORY](#CATEGORY) | 指定任意一组类别的轴。 |
+| [TIME](#TIME) | 指定时间类别轴。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String axisCategoryTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int axisCategoryType)](#getName-int-) |  |
+| [fromName(String axisCategory类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int axisCategory类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int axisCategoryType)](#toString-int-) |  |
+| [toString(int axisCategory类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,7 +45,7 @@ public static int AUTOMATIC
 ```
 
 
-Specifies that type of a category axis is determined automatically based on data.
+指定根据数据自动确定类别轴的类型。
 
 ### CATEGORY {#CATEGORY}
 ```
@@ -53,7 +53,7 @@ public static int CATEGORY
 ```
 
 
-Specifies an axis of an arbitrary set of categories.
+指定任意一组类别的轴。
 
 ### TIME {#TIME}
 ```
@@ -61,7 +61,7 @@ public static int TIME
 ```
 
 
-Specifies a time category axis.
+指定时间类别轴。
 
 ### length {#length}
 ```
@@ -77,52 +77,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String axisCategoryTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String axisCategory类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String axisCategoryTypeName)
+public static int fromName(String axisCategory类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisCategoryTypeName | java.lang.String |  |
+| axisCategory类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int axisCategoryType) {#getName-int-}
-```
-public static String getName(int axisCategoryType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int axisCategory类型) {#getName-int-}
+```
+public static String getName(int axisCategory类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisCategoryType | int |  |
+| axisCategory类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,22 +168,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int axisCategoryType) {#toString-int-}
+### toString(int axisCategory类型) {#toString-int-}
 ```
-public static String toString(int axisCategoryType)
+public static String toString(int axisCategory类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| axisCategoryType | int |  |
+| axisCategory类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

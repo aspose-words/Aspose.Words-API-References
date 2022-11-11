@@ -1,34 +1,34 @@
 ---
 title: ChartFormat
-second_title: Aspose.Words for Java API Reference
-description: Represents the formatting of a chart element.
+second_title: Aspose.Words for Java API 参考
+description: 表示图表元素的格式。
 type: docs
 weight: 62
-url: /java/com.aspose.words/chartformat/
+url: /zh/java/com.aspose.words/chartformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class ChartFormat
 ```
 
-Represents the formatting of a chart element.
+表示图表元素的格式。
 
-To learn more, visit the **Working with Charts** documentation article.
-## Methods
+要了解更多信息，请访问**Working with Charts**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getDashStyle()](#getDashStyle--) |  |
 | [getEndArrowLength()](#getEndArrowLength--) |  |
-| [getEndArrowType()](#getEndArrowType--) |  |
+| [getEndArrow类型()](#getEndArrow类型--) |  |
 | [getEndArrowWidth()](#getEndArrowWidth--) |  |
 | [getEndCap()](#getEndCap--) |  |
-| [getFill()](#getFill--) | Gets fill formatting for the parent chart element. |
-| [getFillType()](#getFillType--) |  |
+| [getFill()](#getFill--) | 获取父图表元素的填充格式。 |
+| [getFill类型()](#getFill类型--) |  |
 | [getFillableBackColor()](#getFillableBackColor--) |  |
 | [getFillableForeColor()](#getFillableForeColor--) |  |
 | [getFillableImageBytes()](#getFillableImageBytes--) |  |
@@ -40,17 +40,17 @@ To learn more, visit the **Working with Charts** documentation article.
 | [getGradientStyle()](#getGradientStyle--) |  |
 | [getGradientVariant()](#getGradientVariant--) |  |
 | [getJoinStyle()](#getJoinStyle--) |  |
-| [getLineFillType()](#getLineFillType--) |  |
+| [getLineFill类型()](#getLineFill类型--) |  |
 | [getLineStyle()](#getLineStyle--) |  |
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
-| [getPatternType()](#getPatternType--) |  |
+| [getPattern类型()](#getPattern类型--) |  |
 | [getPresetTexture()](#getPresetTexture--) |  |
 | [getRotateWithObject()](#getRotateWithObject--) |  |
 | [getStartArrowLength()](#getStartArrowLength--) |  |
-| [getStartArrowType()](#getStartArrowType--) |  |
+| [getStartArrow类型()](#getStartArrow类型--) |  |
 | [getStartArrowWidth()](#getStartArrowWidth--) |  |
-| [getStroke()](#getStroke--) | Gets line formatting for the parent chart element. |
+| [getStroke()](#getStroke--) | 获取父图表元素的线条格式。 |
 | [getStrokeImageBytes()](#getStrokeImageBytes--) |  |
 | [getStrokeTransparency()](#getStrokeTransparency--) |  |
 | [getStrokeVisible()](#getStrokeVisible--) |  |
@@ -60,11 +60,11 @@ To learn more, visit the **Working with Charts** documentation article.
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int patternType)](#patterned-int-) |  |
+| [patterned(int pattern类型)](#patterned-int-) |  |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
 | [setDashStyle(int value)](#setDashStyle-int-) |  |
 | [setEndArrowLength(int value)](#setEndArrowLength-int-) |  |
-| [setEndArrowType(int value)](#setEndArrowType-int-) |  |
+| [setEndArrow类型(int value)](#setEndArrow类型-int-) |  |
 | [setEndArrowWidth(int value)](#setEndArrowWidth-int-) |  |
 | [setEndCap(int value)](#setEndCap-int-) |  |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
@@ -75,13 +75,13 @@ To learn more, visit the **Working with Charts** documentation article.
 | [setGradientAngle(double value)](#setGradientAngle-double-) |  |
 | [setImage(byte[] imageBytes)](#setImage-byte---) |  |
 | [setJoinStyle(int value)](#setJoinStyle-int-) |  |
-| [setLineFillType(int value)](#setLineFillType-int-) |  |
+| [setLineFill类型(int value)](#setLineFill类型-int-) |  |
 | [setLineStyle(int value)](#setLineStyle-int-) |  |
 | [setOn(boolean value)](#setOn-boolean-) |  |
 | [setOpacity(double value)](#setOpacity-double-) |  |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
 | [setStartArrowLength(int value)](#setStartArrowLength-int-) |  |
-| [setStartArrowType(int value)](#setStartArrowType-int-) |  |
+| [setStartArrow类型(int value)](#setStartArrow类型-int-) |  |
 | [setStartArrowWidth(int value)](#setStartArrowWidth-int-) |  |
 | [setStrokeTransparency(double value)](#setStrokeTransparency-double-) |  |
 | [setStrokeVisible(boolean value)](#setStrokeVisible-boolean-) |  |
@@ -101,23 +101,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDashStyle() {#getDashStyle--}
 ```
 public int getDashStyle()
@@ -126,8 +126,8 @@ public int getDashStyle()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getEndArrowLength() {#getEndArrowLength--}
 ```
 public int getEndArrowLength()
@@ -136,18 +136,18 @@ public int getEndArrowLength()
 
 
 
-**Returns:**
-int
-### getEndArrowType() {#getEndArrowType--}
+**退货:**
+整数
+### getEndArrow类型() {#getEndArrow类型--}
 ```
-public int getEndArrowType()
+public int getEndArrow类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getEndArrowWidth() {#getEndArrowWidth--}
 ```
 public int getEndArrowWidth()
@@ -156,8 +156,8 @@ public int getEndArrowWidth()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getEndCap() {#getEndCap--}
 ```
 public int getEndCap()
@@ -166,28 +166,28 @@ public int getEndCap()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getFill() {#getFill--}
 ```
 public Fill getFill()
 ```
 
 
-Gets fill formatting for the parent chart element.
+获取父图表元素的填充格式。
 
-**Returns:**
-[Fill](../../com.aspose.words/fill) - Fill formatting for the parent chart element.
-### getFillType() {#getFillType--}
+**退货:**
+[Fill](../../com.aspose.words/fill) - 填充父图表元素的格式。
+### getFill类型() {#getFill类型--}
 ```
-public int getFillType()
+public int getFill类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getFillableBackColor() {#getFillableBackColor--}
 ```
 public Color getFillableBackColor()
@@ -196,8 +196,8 @@ public Color getFillableBackColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getFillableForeColor() {#getFillableForeColor--}
 ```
 public Color getFillableForeColor()
@@ -206,8 +206,8 @@ public Color getFillableForeColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getFillableImageBytes() {#getFillableImageBytes--}
 ```
 public byte[] getFillableImageBytes()
@@ -216,8 +216,8 @@ public byte[] getFillableImageBytes()
 
 
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getFillableTransparency() {#getFillableTransparency--}
 ```
 public double getFillableTransparency()
@@ -226,8 +226,8 @@ public double getFillableTransparency()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getFillableVisible() {#getFillableVisible--}
 ```
 public boolean getFillableVisible()
@@ -236,8 +236,8 @@ public boolean getFillableVisible()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getFilledColor() {#getFilledColor--}
 ```
 public Color getFilledColor()
@@ -246,8 +246,8 @@ public Color getFilledColor()
 
 
 
-**Returns:**
-java.awt.Color
+**退货:**
+java.awt.颜色
 ### getGradientAngle() {#getGradientAngle--}
 ```
 public double getGradientAngle()
@@ -256,8 +256,8 @@ public double getGradientAngle()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getGradientStops() {#getGradientStops--}
 ```
 public GradientStopCollection getGradientStops()
@@ -266,7 +266,7 @@ public GradientStopCollection getGradientStops()
 
 
 
-**Returns:**
+**退货:**
 [GradientStopCollection](../../com.aspose.words/gradientstopcollection)
 ### getGradientStyle() {#getGradientStyle--}
 ```
@@ -276,8 +276,8 @@ public int getGradientStyle()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getGradientVariant() {#getGradientVariant--}
 ```
 public int getGradientVariant()
@@ -286,8 +286,8 @@ public int getGradientVariant()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getJoinStyle() {#getJoinStyle--}
 ```
 public int getJoinStyle()
@@ -296,18 +296,18 @@ public int getJoinStyle()
 
 
 
-**Returns:**
-int
-### getLineFillType() {#getLineFillType--}
+**退货:**
+整数
+### getLineFill类型() {#getLineFill类型--}
 ```
-public int getLineFillType()
+public int getLineFill类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getLineStyle() {#getLineStyle--}
 ```
 public int getLineStyle()
@@ -316,8 +316,8 @@ public int getLineStyle()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
@@ -326,8 +326,8 @@ public boolean getOn()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getOpacity() {#getOpacity--}
 ```
 public double getOpacity()
@@ -336,18 +336,18 @@ public double getOpacity()
 
 
 
-**Returns:**
-double
-### getPatternType() {#getPatternType--}
+**退货:**
+双倍的
+### getPattern类型() {#getPattern类型--}
 ```
-public int getPatternType()
+public int getPattern类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getPresetTexture() {#getPresetTexture--}
 ```
 public int getPresetTexture()
@@ -356,8 +356,8 @@ public int getPresetTexture()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
 public boolean getRotateWithObject()
@@ -366,8 +366,8 @@ public boolean getRotateWithObject()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getStartArrowLength() {#getStartArrowLength--}
 ```
 public int getStartArrowLength()
@@ -376,18 +376,18 @@ public int getStartArrowLength()
 
 
 
-**Returns:**
-int
-### getStartArrowType() {#getStartArrowType--}
+**退货:**
+整数
+### getStartArrow类型() {#getStartArrow类型--}
 ```
-public int getStartArrowType()
+public int getStartArrow类型()
 ```
 
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getStartArrowWidth() {#getStartArrowWidth--}
 ```
 public int getStartArrowWidth()
@@ -396,18 +396,18 @@ public int getStartArrowWidth()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getStroke() {#getStroke--}
 ```
 public Stroke getStroke()
 ```
 
 
-Gets line formatting for the parent chart element.
+获取父图表元素的线条格式。
 
-**Returns:**
-[Stroke](../../com.aspose.words/stroke) - Line formatting for the parent chart element.
+**退货:**
+[Stroke](../../com.aspose.words/stroke) 父图表元素的线条格式。
 ### getStrokeImageBytes() {#getStrokeImageBytes--}
 ```
 public byte[] getStrokeImageBytes()
@@ -416,8 +416,8 @@ public byte[] getStrokeImageBytes()
 
 
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getStrokeTransparency() {#getStrokeTransparency--}
 ```
 public double getStrokeTransparency()
@@ -426,8 +426,8 @@ public double getStrokeTransparency()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### getStrokeVisible() {#getStrokeVisible--}
 ```
 public boolean getStrokeVisible()
@@ -436,8 +436,8 @@ public boolean getStrokeVisible()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getTextureAlignment() {#getTextureAlignment--}
 ```
 public int getTextureAlignment()
@@ -446,8 +446,8 @@ public int getTextureAlignment()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### getWeight() {#getWeight--}
 ```
 public double getWeight()
@@ -456,8 +456,8 @@ public double getWeight()
 
 
 
-**Returns:**
-double
+**退货:**
+双倍的
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -466,8 +466,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -492,25 +492,25 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int patternType) {#patterned-int-}
+### patterned(int pattern类型) {#patterned-int-}
 ```
-public void patterned(int patternType)
+public void patterned(int pattern类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| patternType | int |  |
+| pattern类型 | int |  |
 
 ### presetTextured(int presetTexture) {#presetTextured-int-}
 ```
@@ -520,8 +520,8 @@ public void presetTextured(int presetTexture)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | presetTexture | int |  |
 
@@ -533,8 +533,8 @@ public void setDashStyle(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -546,21 +546,21 @@ public void setEndArrowLength(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
-### setEndArrowType(int value) {#setEndArrowType-int-}
+### setEndArrow类型(int value) {#setEndArrow类型-int-}
 ```
-public void setEndArrowType(int value)
+public void setEndArrow类型(int value)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -572,8 +572,8 @@ public void setEndArrowWidth(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -585,8 +585,8 @@ public void setEndCap(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -598,8 +598,8 @@ public void setFillableBackColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -611,8 +611,8 @@ public void setFillableForeColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -624,8 +624,8 @@ public void setFillableTransparency(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -637,8 +637,8 @@ public void setFillableVisible(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -650,8 +650,8 @@ public void setFilledColor(Color value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -663,8 +663,8 @@ public void setGradientAngle(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -676,8 +676,8 @@ public void setImage(byte[] imageBytes)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
@@ -689,21 +689,21 @@ public void setJoinStyle(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
-### setLineFillType(int value) {#setLineFillType-int-}
+### setLineFill类型(int value) {#setLineFill类型-int-}
 ```
-public void setLineFillType(int value)
+public void setLineFill类型(int value)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -715,8 +715,8 @@ public void setLineStyle(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -728,8 +728,8 @@ public void setOn(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -741,8 +741,8 @@ public void setOpacity(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -754,8 +754,8 @@ public void setRotateWithObject(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -767,21 +767,21 @@ public void setStartArrowLength(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
-### setStartArrowType(int value) {#setStartArrowType-int-}
+### setStartArrow类型(int value) {#setStartArrow类型-int-}
 ```
-public void setStartArrowType(int value)
+public void setStartArrow类型(int value)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -793,8 +793,8 @@ public void setStartArrowWidth(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -806,8 +806,8 @@ public void setStrokeTransparency(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -819,8 +819,8 @@ public void setStrokeVisible(boolean value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -832,8 +832,8 @@ public void setTextureAlignment(int value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | int |  |
 
@@ -845,8 +845,8 @@ public void setWeight(double value)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | value | double |  |
 
@@ -866,7 +866,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
@@ -876,8 +876,8 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
@@ -898,8 +898,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -911,9 +911,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,96 +1,96 @@
 ---
-title: FieldMergeBarcode
-second_title: Aspose.Words for Java API Reference
-description: Implements the MERGEBARCODE field.
+title: 字段MergeBarcode
+second_title: Aspose.Words for Java API 参考
+description: 实现 MERGEBARCODE 字段。
 type: docs
 weight: 214
-url: /java/com.aspose.words/fieldmergebarcode/
+url: /zh/java/com.aspose.words/fieldmergebarcode/
 ---
 
-**Inheritance:**
-java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
+**遗产:**
+java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
 ```
-public class FieldMergeBarcode extends Field
+public class 字段MergeBarcode extends 字段
 ```
 
-Implements the MERGEBARCODE field.
+实现 MERGEBARCODE 字段。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-Mail merge a barcode.
-## Methods
+邮件合并条形码。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [canWorkAsMergeField()](#canWorkAsMergeField--) |  |
+| [canWorkAsMerge字段()](#canWorkAsMerge字段--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddStartStopChar()](#getAddStartStopChar--) | Gets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
-| [getBackgroundColor()](#getBackgroundColor--) | Gets the background color of the barcode symbol. |
-| [getBarcodeType()](#getBarcodeType--) | Gets the barcode type (QR, etc.) |
-| [getBarcodeValue()](#getBarcodeValue--) | Gets the barcode value. |
-| [getCaseCodeStyle()](#getCaseCodeStyle--) | Gets the style of a Case Code for barcode type ITF14. |
-| [getClass()](#getClass--) |  |
-| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
-| [getDisplayText()](#getDisplayText--) | Gets whether to display barcode data (text) along with image. |
-| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
-| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | Gets an error correction level of QR Code. |
-| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
-| [getFixCheckDigit()](#getFixCheckDigit--) | Gets whether to fix the check digit if it\\u2019s invalid. |
-| [getForegroundColor()](#getForegroundColor--) | Gets the foreground color of the barcode symbol. |
-| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
-| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
-| [getMergeFieldName()](#getMergeFieldName--) |  |
-| [getPosCodeStyle()](#getPosCodeStyle--) | Gets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). |
-| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
-| [getScalingFactor()](#getScalingFactor--) | Gets a scaling factor for the symbol. |
-| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
-| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
-| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
-| [getSymbolHeight()](#getSymbolHeight--) | Gets the height of the symbol. |
-| [getSymbolRotation()](#getSymbolRotation--) | Gets the rotation of the barcode symbol. |
-| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getAddStartStopChar()](#getAddStartStopChar--) | 获取是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
+| [getBackgroundColor()](#getBackgroundColor--) | 获取条形码符号的背景颜色。 |
+| [getBarcode类型()](#getBarcode类型--) | 获取条码类型（QR 等） |
+| [getBarcodeValue()](#getBarcodeValue--) | 获取条形码值。 |
+| [getCaseCodeStyle()](#getCaseCodeStyle--) | 获取条码类型 ITF14 的案例代码的样式。 |
+| [get班级()](#get班级--) |  |
+| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getDisplayText()](#getDisplayText--) | 获取是否与图像一起显示条形码数据（文本）。 |
+| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
+| [getErrorCorrectionLevel()](#getErrorCorrectionLevel--) | 获取二维码的纠错级别。 |
+| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
+| [getFixCheckDigit()](#getFixCheckDigit--) | 获取是否修复校验位\\u2019s 无效。 |
+| [getForegroundColor()](#getForegroundColor--) | 获取条形码符号的前景色。 |
+| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
+| [getMerge字段Name()](#getMerge字段Name--) |  |
+| [getPosCodeStyle()](#getPosCodeStyle--) | 获取销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
+| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
+| [getScalingFactor()](#getScalingFactor--) | 获取符号的比例因子。 |
+| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
+| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
+| [getSymbolHeight()](#getSymbolHeight--) | 获取符号的高度。 |
+| [getSymbolRotation()](#getSymbolRotation--) | 获取条形码符号的旋转。 |
+| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
-| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
-| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
+| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
+| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
 | [isMergeValueRequired()](#isMergeValueRequired--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | Removes the field from the document. |
-| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | Sets whether to add Start/Stop characters for barcode types NW7 and CODE39. |
-| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | Sets the background color of the barcode symbol. |
-| [setBarcodeType(String value)](#setBarcodeType-java.lang.String-) | Sets the barcode type (QR, etc.) |
-| [setBarcodeValue(String value)](#setBarcodeValue-java.lang.String-) | Sets the barcode value. |
-| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | Sets the style of a Case Code for barcode type ITF14. |
-| [setDisplayText(boolean value)](#setDisplayText-boolean-) | Sets whether to display barcode data (text) along with image. |
-| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | Sets an error correction level of QR Code. |
-| [setFixCheckDigit(boolean value)](#setFixCheckDigit-boolean-) | Sets whether to fix the check digit if it\\u2019s invalid. |
-| [setForegroundColor(String value)](#setForegroundColor-java.lang.String-) | Sets the foreground color of the barcode symbol. |
-| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
-| [setPosCodeStyle(String value)](#setPosCodeStyle-java.lang.String-) | Sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). |
-| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
-| [setScalingFactor(String value)](#setScalingFactor-java.lang.String-) | Sets a scaling factor for the symbol. |
-| [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String-) | Sets the height of the symbol. |
-| [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String-) | Sets the rotation of the barcode symbol. |
+| [remove()](#remove--) | 从文档中删除字段。 |
+| [setAddStartStopChar(boolean value)](#setAddStartStopChar-boolean-) | 设置是否为条形码类型 NW7 和 CODE39 添加开始/停止字符。 |
+| [setBackgroundColor(String value)](#setBackgroundColor-java.lang.String-) | 设置条形码符号的背景颜色。 |
+| [setBarcode类型(String value)](#setBarcode类型-java.lang.String-) | 设置条码类型（QR 等） |
+| [setBarcodeValue(String value)](#setBarcodeValue-java.lang.String-) | 设置条形码值。 |
+| [setCaseCodeStyle(String value)](#setCaseCodeStyle-java.lang.String-) | 设置条码类型 ITF14 的案例代码的样式。 |
+| [setDisplayText(boolean value)](#setDisplayText-boolean-) | 设置是否与图像一起显示条形码数据（文本）。 |
+| [setErrorCorrectionLevel(String value)](#setErrorCorrectionLevel-java.lang.String-) | 设置二维码的纠错级别。 |
+| [setFixCheckDigit(boolean value)](#setFixCheckDigit-boolean-) | 设置是否固定校验位，如果它\\u2019s 无效。 |
+| [setForegroundColor(String value)](#setForegroundColor-java.lang.String-) | 设置条形码符号的前景色。 |
+| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
+| [setPosCodeStyle(String value)](#setPosCodeStyle-java.lang.String-) | 设置销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
+| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
+| [setScalingFactor(String value)](#setScalingFactor-java.lang.String-) | 设置符号的比例因子。 |
+| [setSymbolHeight(String value)](#setSymbolHeight-java.lang.String-) | 设置符号的高度。 |
+| [setSymbolRotation(String value)](#setSymbolRotation-java.lang.String-) | 设置条形码符号的旋转。 |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | Performs the field unlink. |
-| [update()](#update--) | Performs the field update. |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
+| [unlink()](#unlink--) | 执行字段取消链接。 |
+| [update()](#update--) | 执行字段更新。 |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### canWorkAsMergeField() {#canWorkAsMergeField--}
+### canWorkAsMerge字段() {#canWorkAsMerge字段--}
 ```
-public boolean canWorkAsMergeField()
+public boolean canWorkAsMerge字段()
 ```
 
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -99,137 +99,137 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAddStartStopChar() {#getAddStartStopChar--}
 ```
 public boolean getAddStartStopChar()
 ```
 
 
-Gets whether to add Start/Stop characters for barcode types NW7 and CODE39.
+获取是否为条码类型 NW7 和 CODE39 添加开始/停止字符。
 
-**Returns:**
-boolean - Whether to add Start/Stop characters for barcode types NW7 and CODE39.
+**退货:**
+boolean - 是否为条形码类型 NW7 和 CODE39 添加开始/停止字符。
 ### getBackgroundColor() {#getBackgroundColor--}
 ```
 public String getBackgroundColor()
 ```
 
 
-Gets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
+获取条形码符号的背景颜色。有效值在范围内[0, 0xFFFFFF]
 
-**Returns:**
-java.lang.String - The background color of the barcode symbol.
-### getBarcodeType() {#getBarcodeType--}
+**退货:**
+java.lang.String - 条码符号的背景颜色。
+### getBarcode类型() {#getBarcode类型--}
 ```
-public String getBarcodeType()
+public String getBarcode类型()
 ```
 
 
-Gets the barcode type (QR, etc.)
+获取条码类型（QR 等）
 
-**Returns:**
-java.lang.String - The barcode type (QR, etc.)
+**退货:**
+java.lang.String - 条形码类型（QR 等）
 ### getBarcodeValue() {#getBarcodeValue--}
 ```
 public String getBarcodeValue()
 ```
 
 
-Gets the barcode value.
+获取条形码值。
 
-**Returns:**
-java.lang.String - The barcode value.
+**退货:**
+java.lang.String - 条形码值。
 ### getCaseCodeStyle() {#getCaseCodeStyle--}
 ```
 public String getCaseCodeStyle()
 ```
 
 
-Gets the style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
+获取条码类型 ITF14 的案例代码的样式。有效值为[性病|EXT|ADD]
 
-**Returns:**
-java.lang.String - The style of a Case Code for barcode type ITF14.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 条码类型 ITF14 的案例代码样式。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
+获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
 
-**Returns:**
-java.lang.String - The text that represents the displayed field result.
+**退货:**
+java.lang.String - 表示显示的字段结果的文本。
 ### getDisplayText() {#getDisplayText--}
 ```
 public boolean getDisplayText()
 ```
 
 
-Gets whether to display barcode data (text) along with image.
+获取是否与图像一起显示条形码数据（文本）。
 
-**Returns:**
-boolean - Whether to display barcode data (text) along with image.
+**退货:**
+boolean - 是否与图像一起显示条形码数据（文本）。
 ### getEnd() {#getEnd--}
 ```
-public FieldEnd getEnd()
+public 字段End getEnd()
 ```
 
 
-Gets the node that represents the field end.
+获取表示字段结束的节点。
 
-**Returns:**
-[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+**退货:**
+[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
 ### getErrorCorrectionLevel() {#getErrorCorrectionLevel--}
 ```
 public String getErrorCorrectionLevel()
 ```
 
 
-Gets an error correction level of QR Code. Valid values are [0, 3].
+获取二维码的纠错级别。有效值为[0, 3]。
 
-**Returns:**
-java.lang.String - An error correction level of QR Code.
-### getFieldCode() {#getFieldCode--}
+**退货:**
+java.lang.String - 二维码的纠错级别。
+### get字段Code() {#get字段Code--}
 ```
-public String getFieldCode()
+public String get字段Code()
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
 
-**Returns:**
+**退货:**
 java.lang.String
-### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
+### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
 ```
-public String getFieldCode(boolean includeChildFieldCodes)
+public String get字段Code(boolean includeChild字段Codes)
 ```
 
 
-Returns text between field start and field separator (or field end if there is no separator).
+返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
+| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getFixCheckDigit() {#getFixCheckDigit--}
 ```
@@ -237,49 +237,49 @@ public boolean getFixCheckDigit()
 ```
 
 
-Gets whether to fix the check digit if it\\u2019s invalid.
+获取是否修复校验位\\u2019s 无效。
 
-**Returns:**
-boolean - Whether to fix the check digit if it\\u2019s invalid.
+**退货:**
+boolean - 是否修复校验位\\u2019s 无效。
 ### getForegroundColor() {#getForegroundColor--}
 ```
 public String getForegroundColor()
 ```
 
 
-Gets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
+获取条形码符号的前景色。有效值在范围内[0, 0xFFFFFF]
 
-**Returns:**
-java.lang.String - The foreground color of the barcode symbol.
+**退货:**
+java.lang.String - 条码符号的前景色。
 ### getFormat() {#getFormat--}
 ```
-public FieldFormat getFormat()
+public 字段Format getFormat()
 ```
 
 
-Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 
-**Returns:**
-[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
+**退货:**
+[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-Gets the LCID of the field.
+获取字段的 LCID。
 
-**Returns:**
-int - The LCID of the field.
-### getMergeFieldName() {#getMergeFieldName--}
+**退货:**
+int - 字段的 LCID。
+### getMerge字段Name() {#getMerge字段Name--}
 ```
-public String getMergeFieldName()
+public String getMerge字段Name()
 ```
 
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getPosCodeStyle() {#getPosCodeStyle--}
 ```
@@ -287,95 +287,95 @@ public String getPosCodeStyle()
 ```
 
 
-Gets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
+获取销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
 
-**Returns:**
-java.lang.String - The style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8).
+**退货:**
+java.lang.String - 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8）。
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-Gets text that is between the field separator and field end.
+获取字段分隔符和字段结尾之间的文本。
 
-**Returns:**
-java.lang.String - Text that is between the field separator and field end.
+**退货:**
+java.lang.String - 字段分隔符和字段结尾之间的文本。
 ### getScalingFactor() {#getScalingFactor--}
 ```
 public String getScalingFactor()
 ```
 
 
-Gets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]
+获取符号的比例因子。该值以整数个百分点表示，有效值为[10, 1000]
 
-**Returns:**
-java.lang.String - A scaling factor for the symbol.
+**退货:**
+java.lang.String - 符号的比例因子。
 ### getSeparator() {#getSeparator--}
 ```
-public FieldSeparator getSeparator()
+public 字段Separator getSeparator()
 ```
 
 
-Gets the node that represents the field separator. Can be null.
+获取表示字段分隔符的节点。可以为空。
 
-**Returns:**
-[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
+**退货:**
+[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
 ### getStart() {#getStart--}
 ```
-public FieldStart getStart()
+public 字段Start getStart()
 ```
 
 
-Gets the node that represents the start of the field.
+获取表示字段开始的节点。
 
-**Returns:**
-[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
-### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
+**退货:**
+[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
 ```
-public int getSwitchType(String switchName)
+public int getSwitch类型(String switchName)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**Returns:**
-int
+**退货:**
+整数
 ### getSymbolHeight() {#getSymbolHeight--}
 ```
 public String getSymbolHeight()
 ```
 
 
-Gets the height of the symbol. The units are in TWIPS (1/1440 inch).
+获取符号的高度。单位为 TWIPS（1/1440 英寸）。
 
-**Returns:**
-java.lang.String - The height of the symbol.
+**退货:**
+java.lang.String - 符号的高度。
 ### getSymbolRotation() {#getSymbolRotation--}
 ```
 public String getSymbolRotation()
 ```
 
 
-Gets the rotation of the barcode symbol. Valid values are [0, 3]
+获取条形码符号的旋转。有效值为[0, 3]
 
-**Returns:**
-java.lang.String - The rotation of the barcode symbol.
-### getType() {#getType--}
+**退货:**
+java.lang.String - 条码符号的旋转。
+### get类型() {#get类型--}
 ```
-public int getType()
+public int get类型()
 ```
 
 
-Gets the Microsoft Word field type.
+获取 Microsoft Word 字段类型。
 
-**Returns:**
-int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+**退货:**
+ int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -384,30 +384,30 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
 
-**Returns:**
-boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+**退货:**
+boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
+设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
 
 ### isLocked() {#isLocked--}
 ```
@@ -415,22 +415,22 @@ public boolean isLocked()
 ```
 
 
-Gets whether the field is locked (should not recalculate its result).
+获取字段是否被锁定（不应重新计算其结果）。
 
-**Returns:**
-boolean - Whether the field is locked (should not recalculate its result).
+**退货:**
+boolean - 字段是否被锁定（不应重新计算其结果）。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Sets whether the field is locked (should not recalculate its result).
+设置字段是否被锁定（不应重新计算其结果）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether the field is locked (should not recalculate its result). |
+| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
 
 ### isMergeValueRequired() {#isMergeValueRequired--}
 ```
@@ -440,8 +440,8 @@ public boolean isMergeValueRequired()
 
 
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -464,9 +464,9 @@ public Node remove()
 ```
 
 
-Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
+从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
 
-**Returns:**
+**退货:**
 [Node](../../com.aspose.words/node)
 ### setAddStartStopChar(boolean value) {#setAddStartStopChar-boolean-}
 ```
@@ -474,12 +474,12 @@ public void setAddStartStopChar(boolean value)
 ```
 
 
-Sets whether to add Start/Stop characters for barcode types NW7 and CODE39.
+设置是否为条形码类型 NW7 和 CODE39 添加开始/停止字符。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to add Start/Stop characters for barcode types NW7 and CODE39. |
+| value | boolean | 是否为条码类型 NW7 和 CODE39 添加开始/停止字符。 |
 
 ### setBackgroundColor(String value) {#setBackgroundColor-java.lang.String-}
 ```
@@ -487,25 +487,25 @@ public void setBackgroundColor(String value)
 ```
 
 
-Sets the background color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
+设置条形码符号的背景颜色。有效值在范围内[0, 0xFFFFFF]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The background color of the barcode symbol. |
+| value | java.lang.String | 条码符号的背景颜色。 |
 
-### setBarcodeType(String value) {#setBarcodeType-java.lang.String-}
+### setBarcode类型(String value) {#setBarcode类型-java.lang.String-}
 ```
-public void setBarcodeType(String value)
+public void setBarcode类型(String value)
 ```
 
 
-Sets the barcode type (QR, etc.)
+设置条码类型（QR 等）
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The barcode type (QR, etc.) |
+| value | java.lang.String | 条码类型（QR 等） |
 
 ### setBarcodeValue(String value) {#setBarcodeValue-java.lang.String-}
 ```
@@ -513,12 +513,12 @@ public void setBarcodeValue(String value)
 ```
 
 
-Sets the barcode value.
+设置条形码值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The barcode value. |
+| value | java.lang.String | 条形码值。 |
 
 ### setCaseCodeStyle(String value) {#setCaseCodeStyle-java.lang.String-}
 ```
@@ -526,12 +526,12 @@ public void setCaseCodeStyle(String value)
 ```
 
 
-Sets the style of a Case Code for barcode type ITF14. The valid values are [STD|EXT|ADD]
+设置条码类型 ITF14 的案例代码的样式。有效值为[性病|EXT|ADD]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The style of a Case Code for barcode type ITF14. |
+| value | java.lang.String | 条码类型 ITF14 的案例代码的样式。 |
 
 ### setDisplayText(boolean value) {#setDisplayText-boolean-}
 ```
@@ -539,12 +539,12 @@ public void setDisplayText(boolean value)
 ```
 
 
-Sets whether to display barcode data (text) along with image.
+设置是否与图像一起显示条形码数据（文本）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to display barcode data (text) along with image. |
+| value | boolean | 是否与图像一起显示条形码数据（文本）。 |
 
 ### setErrorCorrectionLevel(String value) {#setErrorCorrectionLevel-java.lang.String-}
 ```
@@ -552,12 +552,12 @@ public void setErrorCorrectionLevel(String value)
 ```
 
 
-Sets an error correction level of QR Code. Valid values are [0, 3].
+设置二维码的纠错级别。有效值为[0, 3]。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | An error correction level of QR Code. |
+| value | java.lang.String | 二维码的纠错级别。 |
 
 ### setFixCheckDigit(boolean value) {#setFixCheckDigit-boolean-}
 ```
@@ -565,12 +565,12 @@ public void setFixCheckDigit(boolean value)
 ```
 
 
-Sets whether to fix the check digit if it\\u2019s invalid.
+设置是否固定校验位，如果它\\u2019s 无效。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Whether to fix the check digit if it\\u2019s invalid. |
+| value | boolean | 是否固定校验位\\u2019s 无效。 |
 
 ### setForegroundColor(String value) {#setForegroundColor-java.lang.String-}
 ```
@@ -578,12 +578,12 @@ public void setForegroundColor(String value)
 ```
 
 
-Sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]
+设置条形码符号的前景色。有效值在范围内[0, 0xFFFFFF]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The foreground color of the barcode symbol. |
+| value | java.lang.String | 条码符号的前景色。 |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -591,12 +591,12 @@ public void setLocaleId(int value)
 ```
 
 
-Sets the LCID of the field.
+设置字段的 LCID。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The LCID of the field. |
+| value | int | 字段的 LCID。 |
 
 ### setPosCodeStyle(String value) {#setPosCodeStyle-java.lang.String-}
 ```
@@ -604,12 +604,12 @@ public void setPosCodeStyle(String value)
 ```
 
 
-Sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
+设置销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE].
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). |
+| value | java.lang.String | 销售点条形码的样式（条形码类型 UPCA|UPCE|EAN13|EAN8). |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -617,12 +617,12 @@ public void setResult(String value)
 ```
 
 
-Sets text that is between the field separator and field end.
+设置字段分隔符和字段结尾之间的文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | Text that is between the field separator and field end. |
+| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
 
 ### setScalingFactor(String value) {#setScalingFactor-java.lang.String-}
 ```
@@ -630,12 +630,12 @@ public void setScalingFactor(String value)
 ```
 
 
-Sets a scaling factor for the symbol. The value is in whole percentage points and the valid values are [10, 1000]
+设置符号的比例因子。该值以整数个百分点表示，有效值为[10, 1000]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | A scaling factor for the symbol. |
+| value | java.lang.String | 符号的比例因子。 |
 
 ### setSymbolHeight(String value) {#setSymbolHeight-java.lang.String-}
 ```
@@ -643,12 +643,12 @@ public void setSymbolHeight(String value)
 ```
 
 
-Sets the height of the symbol. The units are in TWIPS (1/1440 inch).
+设置符号的高度。单位为 TWIPS（1/1440 英寸）。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The height of the symbol. |
+| value | java.lang.String | 符号的高度。 |
 
 ### setSymbolRotation(String value) {#setSymbolRotation-java.lang.String-}
 ```
@@ -656,12 +656,12 @@ public void setSymbolRotation(String value)
 ```
 
 
-Sets the rotation of the barcode symbol. Valid values are [0, 3]
+设置条形码符号的旋转。有效值为[0, 3]
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The rotation of the barcode symbol. |
+| value | java.lang.String | 条形码符号的旋转。 |
 
 ### toString() {#toString--}
 ```
@@ -671,7 +671,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -679,21 +679,21 @@ public boolean unlink()
 ```
 
 
-Performs the field unlink.
+执行字段取消链接。
 
-Replaces the field with its most recent result.
+用其最新结果替换该字段。
 
-Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
+某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
 
-**Returns:**
-boolean - \{ True  if the field has been unlinked, otherwise  false .
+**退货:**
+布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-Performs the field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -701,12 +701,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-Performs a field update. Throws if the field is being updated already.
+执行字段更新。如果该字段已被更新，则抛出。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
 
 ### wait() {#wait--}
 ```
@@ -724,8 +724,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -737,9 +737,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

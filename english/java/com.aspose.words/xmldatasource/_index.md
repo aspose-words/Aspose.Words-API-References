@@ -1,29 +1,29 @@
 ---
 title: XmlDataSource
 second_title: Aspose.Words for Java API Reference
-description: Provides access to data of an XML file or stream to be used within a report.
+description: 提供对要在报告中使用的 XML 文件或流的数据的访问。
 type: docs
 weight: 628
-url: /java/com.aspose.words/xmldatasource/
+url: /zh/java/com.aspose.words/xmldatasource/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class XmlDataSource
 ```
 
-Provides access to data of an XML file or stream to be used within a report.
+提供对要在报告中使用的 XML 文件或流的数据的访问。
 
-To learn more, visit the **LINQ Reporting Engine** documentation article.
+要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
 
-To access data of the corresponding file or stream while generating a report, pass an instance of this class as a data source to one of [ReportingEngine](../../com.aspose.words/reportingengine). buildReport overloads.
+要在生成报告时访问相应文件或流的数据，请将此类的实例作为数据源传递给其中一个[ReportingEngine](../../com.aspose.words/reportingengine)buildReport 重载。
 
-In template documents, if a top-level XML element contains only a list of elements of the same type, an [XmlDataSource](../../com.aspose.words/xmldatasource) instance should be treated in the same way as if it was a [DataTable](../../com.aspose.words.net.system.data/datatable) instance. Otherwise, an [XmlDataSource](../../com.aspose.words/xmldatasource) instance should be treated in the same way as if it was a [DataRow](../../com.aspose.words.net.system.data/datarow) instance. For more information, see template syntax reference(https://docs.aspose.com/display/wordsjava/Template+Syntax).
+在模板文档中，如果顶级 XML 元素仅包含相同类型的元素列表，则[XmlDataSource](../../com.aspose.words/xmldatasource)实例的处理方式应与它是[DataTable](../../com.aspose.words.net.system.data/datatable)实例。否则，一个[XmlDataSource](../../com.aspose.words/xmldatasource)实例的处理方式应与它是[DataRow](../../com.aspose.words.net.system.data/datarow)实例。有关详细信息，请参阅模板语法参考 (https://docs.aspose.com/display/wordsjava/Template+Syntax)。
 
-When XML Schema Definition is passed to a constructor of this class, data types of values of simple XML elements and attributes are determined according to the schema. So in template documents, you can work with typed values rather than just strings.
+当 XML Schema Definition 被传递给该类的构造函数时，简单 XML 元素和属性的值的数据类型是根据该模式确定的。因此，在模板文档中，您可以使用类型化的值而不仅仅是字符串。
 
-When XML Schema Definition is not passed to a constructor of this class, data types of values of simple XML elements and attributes are determined automatically upon their string representations. So in template documents, you can work with typed values in this case as well. The engine is capable to automatically recognize values of the following types:
+当 XML Schema Definition 不传递给此类的构造函数时，简单 XML 元素和属性的值的数据类型将根据其字符串表示形式自动确定。因此，在模板文档中，您也可以在这种情况下使用键入的值。该引擎能够自动识别以下类型的值：
 
  *  
  *  
@@ -31,27 +31,27 @@ When XML Schema Definition is not passed to a constructor of this class, data ty
  *  
  *  
 
-Note that for automatic recognition of data types to work, string representations of values of simple XML elements and attributes should be formed using invariant culture settings.
+请注意，为了使数据类型的自动识别起作用，简单 XML 元素和属性值的字符串表示应该使用不变的文化设置形成。
 
-To override default behavior of XML data loading, initialize and pass a [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) instance to a constructor of this class.
-## Constructors
+要覆盖 XML 数据加载的默认行为，请初始化并传递[XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions)实例到此类的构造函数。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [XmlDataSource(String xmlPath)](#XmlDataSource-java.lang.String-) | Creates a new data source with data from an XML file using default options for XML data loading. |
-| [XmlDataSource(InputStream xmlStream)](#XmlDataSource-java.io.InputStream-) | Initializes a new instance of this class. |
-| [XmlDataSource(String xmlPath, String xmlSchemaPath)](#XmlDataSource-java.lang.String-java.lang.String-) | Creates a new data source with data from an XML file using an XML Schema Definition file. |
-| [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream)](#XmlDataSource-java.io.InputStream-java.io.InputStream-) | Initializes a new instance of this class. |
-| [XmlDataSource(String xmlPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | Creates a new data source with data from an XML file using the specified options for XML data loading. |
-| [XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | Initializes a new instance of this class. |
-| [XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | Creates a new data source with data from an XML file using an XML Schema Definition file. |
-| [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | Initializes a new instance of this class. |
-## Methods
+| [XmlDataSource(String xmlPath)](#XmlDataSource-java.lang.String-) | 使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(InputStream xmlStream)](#XmlDataSource-java.io.InputStream-) | 初始化此类的新实例。 |
+| [XmlDataSource(String xmlPath, String xmlSchemaPath)](#XmlDataSource-java.lang.String-java.lang.String-) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream)](#XmlDataSource-java.io.InputStream-java.io.InputStream-) | 初始化此类的新实例。 |
+| [XmlDataSource(String xmlPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 数据加载的指定选项，使用来自 XML 文件的数据创建新数据源。 |
+| [XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
+| [XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions options)](#XmlDataSource-java.lang.String-java.lang.String-com.aspose.words.XmlDataLoadOptions-) | 使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。 |
+| [XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options)](#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -65,12 +65,12 @@ public XmlDataSource(String xmlPath)
 ```
 
 
-Creates a new data source with data from an XML file using default options for XML data loading.
+使用 XML 数据加载的默认选项使用 XML 文件中的数据创建新数据源。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
+| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
 
 ### XmlDataSource(InputStream xmlStream) {#XmlDataSource-java.io.InputStream-}
 ```
@@ -78,10 +78,10 @@ public XmlDataSource(InputStream xmlStream)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
 
@@ -91,13 +91,13 @@ public XmlDataSource(String xmlPath, String xmlSchemaPath)
 ```
 
 
-Creates a new data source with data from an XML file using an XML Schema Definition file. Default options are used for XML data loading.
+使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。默认选项用于 XML 数据加载。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
-| xmlSchemaPath | java.lang.String | The path to the XML Schema Definition file that provides schema for the XML file. |
+| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| xmlSchemaPath | java.lang.String | 为 XML 文件提供架构的 XML 架构定义文件的路径。 |
 
 ### XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream) {#XmlDataSource-java.io.InputStream-java.io.InputStream-}
 ```
@@ -105,10 +105,10 @@ public XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
 | xmlSchemaStream | java.io.InputStream |  |
@@ -119,13 +119,13 @@ public XmlDataSource(String xmlPath, XmlDataLoadOptions options)
 ```
 
 
-Creates a new data source with data from an XML file using the specified options for XML data loading.
+使用 XML 数据加载的指定选项，使用来自 XML 文件的数据创建新数据源。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | Options for XML data loading. |
+| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载的选项。 |
 
 ### XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-}
 ```
@@ -133,10 +133,10 @@ public XmlDataSource(InputStream xmlStream, XmlDataLoadOptions options)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
 | options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) |  |
@@ -147,14 +147,14 @@ public XmlDataSource(String xmlPath, String xmlSchemaPath, XmlDataLoadOptions op
 ```
 
 
-Creates a new data source with data from an XML file using an XML Schema Definition file. The specified options are used for XML data loading.
+使用 XML 架构定义文件使用 XML 文件中的数据创建新数据源。指定的选项用于 XML 数据加载。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| xmlPath | java.lang.String | The path to the XML file to be used as the data source. |
-| xmlSchemaPath | java.lang.String | The path to the XML Schema Definition file that provides schema for the XML file. |
-| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | Options for XML data loading. |
+| xmlPath | java.lang.String | 要用作数据源的 XML 文件的路径。 |
+| xmlSchemaPath | java.lang.String | 为 XML 文件提供架构的 XML 架构定义文件的路径。 |
+| options | [XmlDataLoadOptions](../../com.aspose.words/xmldataloadoptions) | XML 数据加载的选项。 |
 
 ### XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlDataLoadOptions options) {#XmlDataSource-java.io.InputStream-java.io.InputStream-com.aspose.words.XmlDataLoadOptions-}
 ```
@@ -162,10 +162,10 @@ public XmlDataSource(InputStream xmlStream, InputStream xmlSchemaStream, XmlData
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | xmlStream | java.io.InputStream |  |
 | xmlSchemaStream | java.io.InputStream |  |
@@ -179,23 +179,23 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -204,8 +204,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -230,7 +230,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -248,8 +248,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -261,9 +261,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

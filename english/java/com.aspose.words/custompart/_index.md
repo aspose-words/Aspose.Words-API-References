@@ -1,52 +1,52 @@
 ---
 title: CustomPart
-second_title: Aspose.Words for Java API Reference
-description: Represents a custom arbitrary content part that is not defined by the ISO/IEC 29500 standard.
+second_title: Aspose.Words for Java API 参考
+description: 表示 ISO/IEC 29500 标准未定义的自定义任意内容部分。
 type: docs
 weight: 102
-url: /java/com.aspose.words/custompart/
+url: /zh/java/com.aspose.words/custompart/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class CustomPart implements Cloneable
 ```
 
-Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard.
+表示 ISO/IEC 29500 标准未定义的自定义（任意内容）部分。
 
-To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
 
-This class represents an OOXML part that is a target of an "unknown relationship". All relationships not defined within ISO/IEC 29500 are considered "unknown relationships". Unknown relationships are permitted within an Office Open XML document provided that they conform to relationship markup guidelines.
+此类表示作为“未知关系”目标的 OOXML 部分。 ISO/IEC 29500 中未定义的所有关系都被视为“未知关系”。未知关系在 Office Open XML 文档中是允许的，前提是它们符合关系标记准则。
 
-Microsoft Word preserves custom parts during open/save cycles. Some additional info can be found here http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+Microsoft Word 在打开/保存周期中保留自定义部分。可以在此处找到一些其他信息 http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words also roundtrips custom parts and in addition, allows to programmatically access such parts via the [CustomPart](../../com.aspose.words/custompart) and [CustomPartCollection](../../com.aspose.words/custompartcollection) objects.
+ Aspose.Words 还往返自定义部件，此外，允许通过编程方式访问这些部件[CustomPart](../../com.aspose.words/custompart)和[CustomPartCollection](../../com.aspose.words/custompartcollection)对象。
 
-Do not confuse custom parts with Custom XML Data. Use [CustomXmlPart](../../com.aspose.words/customxmlpart) if you need to access Custom XML Data.
-## Methods
+不要将自定义部件与自定义 XML 数据混淆。利用[CustomXmlPart](../../com.aspose.words/customxmlpart)如果您需要访问自定义 XML 数据。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [deepClone()](#deepClone--) | Makes a "deep enough" copy of the object. |
+| [deepClone()](#deepClone--) | 制作对象的“足够深”的副本。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getClass()](#getClass--) |  |
-| [getContentType()](#getContentType--) | Specifies the content type of this custom part. |
-| [getData()](#getData--) | Contains the data of this custom part. |
-| [getName()](#getName--) | Gets this part's absolute name within the OOXML package or the target URL. |
-| [getRelationshipType()](#getRelationshipType--) | Gets the relationship type from the parent part to this custom part. |
+| [get班级()](#get班级--) |  |
+| [getContent类型()](#getContent类型--) | 指定此自定义部件的内容类型。 |
+| [getData()](#getData--) | 包含此自定义零件的数据。 |
+| [getName()](#getName--) | 获取此部分在 OOXML 包或目标 URL 中的绝对名称。 |
+| [getRelationship类型()](#getRelationship类型--) | 获取从父部件到此自定义部件的关系类型。 |
 | [hashCode()](#hashCode--) |  |
-| [isExternal()](#isExternal--) | \{ False  if this custom part is stored inside the OOXML package. |
-| [isExternal(boolean value)](#isExternal-boolean-) | \{ False  if this custom part is stored inside the OOXML package. |
+| [isExternal()](#isExternal--) | \{ 如果此自定义部件存储在 OOXML 包中，则为 False。 |
+| [isExternal(boolean value)](#isExternal-boolean-) | \{ 如果此自定义部件存储在 OOXML 包中，则为 False。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setContentType(String value)](#setContentType-java.lang.String-) | Specifies the content type of this custom part. |
-| [setData(byte[] value)](#setData-byte---) | Contains the data of this custom part. |
-| [setName(String value)](#setName-java.lang.String-) | Sets this part's absolute name within the OOXML package or the target URL. |
-| [setRelationshipType(String value)](#setRelationshipType-java.lang.String-) | Sets the relationship type from the parent part to this custom part. |
+| [setContent类型(String value)](#setContent类型-java.lang.String-) | 指定此自定义部件的内容类型。 |
+| [setData(byte[] value)](#setData-byte---) | 包含此自定义零件的数据。 |
+| [setName(String value)](#setName-java.lang.String-) | 在 OOXML 包或目标 URL 中设置此部件的绝对名称。 |
+| [setRelationship类型(String value)](#setRelationship类型-java.lang.String-) | 设置从父零件到此自定义零件的关系类型。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -57,9 +57,9 @@ public CustomPart deepClone()
 ```
 
 
-Makes a "deep enough" copy of the object. Does not duplicate the bytes of the [getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---) value.
+制作对象的“足够深”的副本。不重复的字节[getData()](../../com.aspose.words/custompart\#getData--) / [setData(byte[])](../../com.aspose.words/custompart\#setData-byte---)价值。
 
-**Returns:**
+**退货:**
 [CustomPart](../../com.aspose.words/custompart)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -69,79 +69,79 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### getClass() {#getClass--}
+**退货:**
+布尔值
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getContentType() {#getContentType--}
-```
-public String getContentType()
+public final native 班级<?> get班级()
 ```
 
 
-Specifies the content type of this custom part.
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
 
-The default value is an empty string. A valid value must be a non-empty string.
+**退货:**
+java.lang.班级<?>
+### getContent类型() {#getContent类型--}
+```
+public String getContent类型()
+```
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+
+指定此自定义部件的内容类型。
+
+此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
+
+默认值为空字符串。有效值必须是非空字符串。
+
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getData() {#getData--}
 ```
 public byte[] getData()
 ```
 
 
-Contains the data of this custom part.
+包含此自定义零件的数据。
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
+此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
 
-The default value is an empty byte array. The value cannot be  null .
+默认值为空字节数组。该值不能为 null 。
 
-**Returns:**
-byte[] - The corresponding byte[] value.
+**退货:**
+字节[- 对应的字节[] 价值。
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-Gets this part's absolute name within the OOXML package or the target URL.
+获取此部分在 OOXML 包或目标 URL 中的绝对名称。
 
-If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
+如果关系目标是内部的，则此属性是包内的绝对部件名称。如果关系目标是外部的，则此属性是目标 URL。
 
-The default value is an empty string. A valid value must be a non-empty string.
+默认值为空字符串。有效值必须是非空字符串。
 
-**Returns:**
-java.lang.String - This part's absolute name within the OOXML package or the target URL.
-### getRelationshipType() {#getRelationshipType--}
+**退货:**
+java.lang.String - 此部分在 OOXML 包或目标 URL 中的绝对名称。
+### getRelationship类型() {#getRelationship类型--}
 ```
-public String getRelationshipType()
+public String getRelationship类型()
 ```
 
 
-Gets the relationship type from the parent part to this custom part.
+获取从父部件到此自定义部件的关系类型。
 
-The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
+自定义部件的关系类型必须是“未知的”，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
 
-The default value is an empty string. A valid value must be a non-empty string.
+默认值为空字符串。有效值必须是非空字符串。
 
-**Returns:**
-java.lang.String - The relationship type from the parent part to this custom part.
+**退货:**
+java.lang.String - 从父部件到此自定义部件的关系类型。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -150,34 +150,34 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isExternal() {#isExternal--}
 ```
 public boolean isExternal()
 ```
 
 
-\{ False  if this custom part is stored inside the OOXML package.  True  if this custom part is an external target.
+\{ 如果此自定义部件存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
 
-The default value is  false .
+默认值为 false 。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isExternal(boolean value) {#isExternal-boolean-}
 ```
 public void isExternal(boolean value)
 ```
 
 
-\{ False  if this custom part is stored inside the OOXML package.  True  if this custom part is an external target.
+\{ 如果此自定义部件存储在 OOXML 包中，则为 False。如果此自定义部件是外部目标，则为真。
 
-The default value is  false .
+默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -195,22 +195,22 @@ public final native void notifyAll()
 
 
 
-### setContentType(String value) {#setContentType-java.lang.String-}
+### setContent类型(String value) {#setContent类型-java.lang.String-}
 ```
-public void setContentType(String value)
+public void setContent类型(String value)
 ```
 
 
-Specifies the content type of this custom part.
+指定此自定义部件的内容类型。
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
+此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
 
-The default value is an empty string. A valid value must be a non-empty string.
+默认值为空字符串。有效值必须是非空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setData(byte[] value) {#setData-byte---}
 ```
@@ -218,16 +218,16 @@ public void setData(byte[] value)
 ```
 
 
-Contains the data of this custom part.
+包含此自定义零件的数据。
 
-This property is applicable only when [isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-) is  false .
+此属性仅适用于[isExternal()](../../com.aspose.words/custompart\#isExternal--) / [isExternal(boolean)](../../com.aspose.words/custompart\#isExternal-boolean-)是假的。
 
-The default value is an empty byte array. The value cannot be  null .
+默认值为空字节数组。该值不能为 null 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | The corresponding byte[] value. |
+| value | byte[] | 对应的字节[] 价值。 |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -235,33 +235,33 @@ public void setName(String value)
 ```
 
 
-Sets this part's absolute name within the OOXML package or the target URL.
+在 OOXML 包或目标 URL 中设置此部件的绝对名称。
 
-If the relationship target is internal, then this property is the absolute part name within the package. If the relationship target is external, then this property is the target URL.
+如果关系目标是内部的，则此属性是包内的绝对部件名称。如果关系目标是外部的，则此属性是目标 URL。
 
-The default value is an empty string. A valid value must be a non-empty string.
+默认值为空字符串。有效值必须是非空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | This part's absolute name within the OOXML package or the target URL. |
+| value | java.lang.String | 此部分在 OOXML 包或目标 URL 中的绝对名称。 |
 
-### setRelationshipType(String value) {#setRelationshipType-java.lang.String-}
+### setRelationship类型(String value) {#setRelationship类型-java.lang.String-}
 ```
-public void setRelationshipType(String value)
+public void setRelationship类型(String value)
 ```
 
 
-Sets the relationship type from the parent part to this custom part.
+设置从父零件到此自定义零件的关系类型。
 
-The relationship type for a custom part must be "unknown" e.g. a custom relationship type, not one of the relationship types defined within ISO/IEC 29500.
+自定义部件的关系类型必须是“未知的”，例如自定义关系类型，而不是 ISO/IEC 29500 中定义的关系类型之一。
 
-The default value is an empty string. A valid value must be a non-empty string.
+默认值为空字符串。有效值必须是非空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The relationship type from the parent part to this custom part. |
+| value | java.lang.String | 从父部件到此自定义部件的关系类型。 |
 
 ### toString() {#toString--}
 ```
@@ -271,7 +271,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -289,8 +289,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -302,9 +302,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

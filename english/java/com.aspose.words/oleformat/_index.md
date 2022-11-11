@@ -1,54 +1,54 @@
 ---
 title: OleFormat
-second_title: Aspose.Words for Java API Reference
-description: Provides access to the data of an OLE object or ActiveX control.
+second_title: Aspose.Words for Java API 参考
+description: 提供对 OLE 对象或 ActiveX 控件的数据的访问。
 type: docs
 weight: 425
-url: /java/com.aspose.words/oleformat/
+url: /zh/java/com.aspose.words/oleformat/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class OleFormat
 ```
 
-Provides access to the data of an OLE object or ActiveX control.
+提供对 OLE 对象或 ActiveX 控件的数据的访问。
 
-To learn more, visit the **Working with Ole Objects** documentation article.
+要了解更多信息，请访问**Working with Ole Objects**文档文章。
 
-Use the [Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat--) property to access the data of an OLE object. You do not create instances of the [OleFormat](../../com.aspose.words/oleformat) class directly.
-## Methods
+使用[Shape.getOleFormat()](../../com.aspose.words/shape\#getOleFormat--)属性来访问 OLE 对象的数据。您不创建的实例[OleFormat](../../com.aspose.words/oleformat)直接上课。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoUpdate()](#getAutoUpdate--) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
-| [getClass()](#getClass--) |  |
-| [getClsid()](#getClsid--) | Gets the CLSID of the OLE object. |
-| [getIconCaption()](#getIconCaption--) | Gets icon caption of OLE object. |
-| [getOleControl()](#getOleControl--) | Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl--) objects if this OLE object is an ActiveX control. |
+| [getAutoUpdate()](#getAutoUpdate--) | 指定到 OLE 对象的链接是否在 Microsoft Word 中自动更新。 |
+| [get班级()](#get班级--) |  |
+| [getClsid()](#getClsid--) | 获取 OLE 对象的 CLSID。 |
+| [getIconCaption()](#getIconCaption--) | 获取 OLE 对象的图标标题。 |
+| [getOleControl()](#getOleControl--) | 获取[getOleControl()](../../com.aspose.words/oleformat\#getOleControl--)如果此 OLE 对象是 ActiveX 控件，则为对象。 |
 | [getOleEntry(String oleEntryName)](#getOleEntry-java.lang.String-) |  |
-| [getOleIcon()](#getOleIcon--) | Gets the draw aspect of the OLE object. |
-| [getOlePackage()](#getOlePackage--) | Provide access to [OlePackage](../../com.aspose.words/olepackage) if OLE object is an OLE Package. |
-| [getProgId()](#getProgId--) | Gets the ProgID of the OLE object. |
-| [getRawData()](#getRawData--) | Gets OLE object raw data. |
-| [getSourceFullName()](#getSourceFullName--) | Gets the path and name of the source file for the linked OLE object. |
-| [getSourceItem()](#getSourceItem--) | Gets a string that is used to identify the portion of the source file that is being linked. |
-| [getSuggestedExtension()](#getSuggestedExtension--) | Gets the file extension suggested for the current embedded object if you want to save it into a file. |
-| [getSuggestedFileName()](#getSuggestedFileName--) | Gets the file name suggested for the current embedded object if you want to save it into a file. |
+| [getOleIcon()](#getOleIcon--) | 获取 OLE 对象的绘制方面。 |
+| [getOle包裹()](#getOle包裹--) | 提供访问权限[Ole包裹](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。 |
+| [getProgId()](#getProgId--) | 获取 OLE 对象的 ProgID。 |
+| [getRawData()](#getRawData--) | 获取 OLE 对象原始数据。 |
+| [getSourceFullName()](#getSourceFullName--) | 获取链接的 OLE 对象的源文件的路径和名称。 |
+| [getSourceItem()](#getSourceItem--) | 获取用于标识正在链接的源文件部分的字符串。 |
+| [getSuggestedExtension()](#getSuggestedExtension--) | 如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件扩展名。 |
+| [getSuggestedFileName()](#getSuggestedFileName--) | 如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件名。 |
 | [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | Returns true if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-) is specified). |
-| [isLocked()](#isLocked--) | Specifies whether the link to the OLE object is locked from updates. |
-| [isLocked(boolean value)](#isLocked-boolean-) | Specifies whether the link to the OLE object is locked from updates. |
+| [isLink()](#isLink--) | 如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。 |
+| [isLocked()](#isLocked--) | 指定是否锁定到 OLE 对象的链接以防更新。 |
+| [isLocked(boolean value)](#isLocked-boolean-) | 指定是否锁定到 OLE 对象的链接以防更新。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
-| [save(String fileName)](#save-java.lang.String-) | Saves the data of the embedded object into a file with the specified name. |
-| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
-| [setProgId(String value)](#setProgId-java.lang.String-) | Sets the ProgID of the OLE object. |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the path and name of the source file for the linked OLE object. |
-| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | Sets a string that is used to identify the portion of the source file that is being linked. |
+| [save(String fileName)](#save-java.lang.String-) | 将嵌入对象的数据保存到具有指定名称的文件中。 |
+| [setAutoUpdate(boolean value)](#setAutoUpdate-boolean-) | 指定到 OLE 对象的链接是否在 Microsoft Word 中自动更新。 |
+| [setProgId(String value)](#setProgId-java.lang.String-) | 设置 OLE 对象的 ProgID。 |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | 为链接的 OLE 对象设置源文件的路径和名称。 |
+| [setSourceItem(String value)](#setSourceItem-java.lang.String-) | 设置一个字符串，用于标识正在链接的源文件部分。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,67 +61,67 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAutoUpdate() {#getAutoUpdate--}
 ```
 public boolean getAutoUpdate()
 ```
 
 
-Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
+指定到 OLE 对象的链接是否在 Microsoft Word 中自动更新。
 
-The default value is **false**.
+默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
-### getClass() {#getClass--}
+**退货:**
+boolean - 对应的布尔值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getClsid() {#getClsid--}
 ```
 public UUID getClsid()
 ```
 
 
-Gets the CLSID of the OLE object.
+获取 OLE 对象的 CLSID。
 
-**Returns:**
-java.util.UUID - The CLSID of the OLE object.
+**退货:**
+java.util.UUID - OLE 对象的 CLSID。
 ### getIconCaption() {#getIconCaption--}
 ```
 public String getIconCaption()
 ```
 
 
-Gets icon caption of OLE object.
+获取 OLE 对象的图标标题。
 
-In case of OLE object is not embedded as icon or caption couldn't be retrieved returns empty string.
+如果 OLE 对象未嵌入为图标或无法检索标题，则返回空字符串。
 
-**Returns:**
-java.lang.String - Icon caption of OLE object.
+**退货:**
+java.lang.String - OLE 对象的图标标题。
 ### getOleControl() {#getOleControl--}
 ```
 public OleControl getOleControl()
 ```
 
 
-Gets [getOleControl()](../../com.aspose.words/oleformat\#getOleControl--) objects if this OLE object is an ActiveX control. Otherwise this property is null.
+获取[getOleControl()](../../com.aspose.words/oleformat\#getOleControl--)如果此 OLE 对象是 ActiveX 控件，则为对象。否则此属性为空。
 
-**Returns:**
-[OleControl](../../com.aspose.words/olecontrol) - \{[getOleControl()](../../com.aspose.words/oleformat\#getOleControl--) objects if this OLE object is an ActiveX control.
+**退货:**
+[OleControl](../../com.aspose.words/olecontrol) -\{[getOleControl()](../../com.aspose.words/oleformat\#getOleControl--)如果此 OLE 对象是 ActiveX 控件，则为对象。
 ### getOleEntry(String oleEntryName) {#getOleEntry-java.lang.String-}
 ```
 public byte[] getOleEntry(String oleEntryName)
@@ -130,109 +130,109 @@ public byte[] getOleEntry(String oleEntryName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | oleEntryName | java.lang.String |  |
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getOleIcon() {#getOleIcon--}
 ```
 public boolean getOleIcon()
 ```
 
 
-Gets the draw aspect of the OLE object. When **true**, the OLE object is displayed as an icon. When **false**, the OLE object is displayed as content.
+获取 OLE 对象的绘制方面。什么时候**true**，OLE 对象显示为图标。什么时候**false**，OLE 对象显示为内容。
 
-Aspose.Words does not allow to set this property to avoid confusion. If you were able to change the draw aspect in Aspose.Words, Microsoft Word would still display the OLE object in its original draw aspect until you edit or update the OLE object in Microsoft Word.
+Aspose.Words 不允许设置此属性以避免混淆。如果您能够在 Aspose.Words 中更改绘图方面，Microsoft Word 仍会以其原始绘图方面显示 OLE 对象，直到您在 Microsoft Word 中编辑或更新 OLE 对象。
 
-**Returns:**
-boolean - The draw aspect of the OLE object.
-### getOlePackage() {#getOlePackage--}
+**退货:**
+boolean - OLE 对象的绘制方面。
+### getOle包裹() {#getOle包裹--}
 ```
-public OlePackage getOlePackage()
+public Ole包裹 getOle包裹()
 ```
 
 
-Provide access to [OlePackage](../../com.aspose.words/olepackage) if OLE object is an OLE Package. Returns null otherwise. OLE Package is a legacy technology that allows to wrap any file format not present in the OLE registry of a Windows system into a generic package allowing to embed almost anything into a document. See [OlePackage](../../com.aspose.words/olepackage) type for more info.
+提供访问权限[Ole包裹](../../com.aspose.words/olepackage)如果 OLE 对象是 OLE 包。否则返回 null。 OLE 包是一项遗留技术，它允许将 Windows 系统的 OLE 注册表中不存在的任何文件格式包装到通用包中，从而允许将几乎任何内容嵌入到文档中。看[Ole包裹](../../com.aspose.words/olepackage)键入以获取更多信息。
 
-**Returns:**
-[OlePackage](../../com.aspose.words/olepackage) - The corresponding [OlePackage](../../com.aspose.words/olepackage) value.
+**退货:**
+[Ole包裹](../../com.aspose.words/olepackage) - 相应的[Ole包裹](../../com.aspose.words/olepackage)价值。
 ### getProgId() {#getProgId--}
 ```
 public String getProgId()
 ```
 
 
-Gets the ProgID of the OLE object.
+获取 OLE 对象的 ProgID。
 
-The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
+ProgID 属性并不总是存在于 Microsoft Word 文档中，因此不能依赖。
 
-Cannot be null.
+不能为空。
 
-The default value is an empty string.
+默认值为空字符串。
 
-**Returns:**
-java.lang.String - The ProgID of the OLE object.
+**退货:**
+java.lang.String - OLE 对象的 ProgID。
 ### getRawData() {#getRawData--}
 ```
 public byte[] getRawData()
 ```
 
 
-Gets OLE object raw data.
+获取 OLE 对象原始数据。
 
-**Returns:**
-byte[]
+**退货:**
+字节[]
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
 ```
 
 
-Gets the path and name of the source file for the linked OLE object.
+获取链接的 OLE 对象的源文件的路径和名称。
 
-The default value is an empty string.
+默认值为空字符串。
 
-If [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-) is not an empty string, the OLE object is linked.
+如果[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)不是空字符串，则 OLE 对象已链接。
 
-**Returns:**
-java.lang.String - The path and name of the source file for the linked OLE object.
+**退货:**
+java.lang.String - 链接的 OLE 对象的源文件的路径和名称。
 ### getSourceItem() {#getSourceItem--}
 ```
 public String getSourceItem()
 ```
 
 
-Gets a string that is used to identify the portion of the source file that is being linked.
+获取用于标识正在链接的源文件部分的字符串。
 
-The default value is an empty string.
+默认值为空字符串。
 
-For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem--) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String-) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
+例如，如果源文件是 Microsoft Excel 工作簿，则[getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem--) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String-)如果 OLE 对象仅包含工作表中的几个单元格，则属性可能会返回“Workbook1!R3C1:R4C2”。
 
-**Returns:**
-java.lang.String - A string that is used to identify the portion of the source file that is being linked.
+**退货:**
+java.lang.String - 用于标识正在链接的源文件部分的字符串。
 ### getSuggestedExtension() {#getSuggestedExtension--}
 ```
 public String getSuggestedExtension()
 ```
 
 
-Gets the file extension suggested for the current embedded object if you want to save it into a file.
+如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件扩展名。
 
-**Returns:**
-java.lang.String - The file extension suggested for the current embedded object if you want to save it into a file.
+**退货:**
+java.lang.String - 如果要将当前嵌入对象保存到文件中，建议的文件扩展名。
 ### getSuggestedFileName() {#getSuggestedFileName--}
 ```
 public String getSuggestedFileName()
 ```
 
 
-Gets the file name suggested for the current embedded object if you want to save it into a file.
+如果要将当前嵌入对象保存到文件中，则获取为当前嵌入对象建议的文件名。
 
-**Returns:**
-java.lang.String - The file name suggested for the current embedded object if you want to save it into a file.
+**退货:**
+java.lang.String - 如果要将当前嵌入对象保存到文件中，建议的文件名。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -241,44 +241,44 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### isLink() {#isLink--}
 ```
 public boolean isLink()
 ```
 
 
-Returns true if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-) is specified).
+如果 OLE 对象已链接（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。
 
-**Returns:**
-boolean - True if the OLE object is linked (when [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-) is specified).
+**退货:**
+ boolean - 如果 OLE 对象已链接，则为真（当[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)已指定）。
 ### isLocked() {#isLocked--}
 ```
 public boolean isLocked()
 ```
 
 
-Specifies whether the link to the OLE object is locked from updates.
+指定是否锁定到 OLE 对象的链接以防更新。
 
-The default value is **false**.
+默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-Specifies whether the link to the OLE object is locked from updates.
+指定是否锁定到 OLE 对象的链接以防更新。
 
-The default value is **false**.
+默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### notify() {#notify--}
 ```
@@ -304,8 +304,8 @@ public void save(OutputStream stream)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
 
@@ -315,12 +315,12 @@ public void save(String fileName)
 ```
 
 
-Saves the data of the embedded object into a file with the specified name.
+将嵌入对象的数据保存到具有指定名称的文件中。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | java.lang.String | Name of the file to save the OLE object data. |
+| fileName | java.lang.String | 保存 OLE 对象数据的文件的名称。 |
 
 ### setAutoUpdate(boolean value) {#setAutoUpdate-boolean-}
 ```
@@ -328,14 +328,14 @@ public void setAutoUpdate(boolean value)
 ```
 
 
-Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word.
+指定到 OLE 对象的链接是否在 Microsoft Word 中自动更新。
 
-The default value is **false**.
+默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setProgId(String value) {#setProgId-java.lang.String-}
 ```
@@ -343,18 +343,18 @@ public void setProgId(String value)
 ```
 
 
-Sets the ProgID of the OLE object.
+设置 OLE 对象的 ProgID。
 
-The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
+ProgID 属性并不总是存在于 Microsoft Word 文档中，因此不能依赖。
 
-Cannot be null.
+不能为空。
 
-The default value is an empty string.
+默认值为空字符串。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The ProgID of the OLE object. |
+| value | java.lang.String | OLE 对象的 ProgID。 |
 
 ### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
 ```
@@ -362,16 +362,16 @@ public void setSourceFullName(String value)
 ```
 
 
-Sets the path and name of the source file for the linked OLE object.
+为链接的 OLE 对象设置源文件的路径和名称。
 
-The default value is an empty string.
+默认值为空字符串。
 
-If [getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-) is not an empty string, the OLE object is linked.
+如果[getSourceFullName()](../../com.aspose.words/oleformat\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/oleformat\#setSourceFullName-java.lang.String-)不是空字符串，则 OLE 对象已链接。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The path and name of the source file for the linked OLE object. |
+| value | java.lang.String | 链接的 OLE 对象的源文件的路径和名称。 |
 
 ### setSourceItem(String value) {#setSourceItem-java.lang.String-}
 ```
@@ -379,16 +379,16 @@ public void setSourceItem(String value)
 ```
 
 
-Sets a string that is used to identify the portion of the source file that is being linked.
+设置一个字符串，用于标识正在链接的源文件部分。
 
-The default value is an empty string.
+默认值为空字符串。
 
-For example, if the source file is a Microsoft Excel workbook, the [getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem--) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String-) property might return "Workbook1!R3C1:R4C2" if the OLE object contains only a few cells from the worksheet.
+例如，如果源文件是 Microsoft Excel 工作簿，则[getSourceItem()](../../com.aspose.words/oleformat\#getSourceItem--) / [setSourceItem(java.lang.String)](../../com.aspose.words/oleformat\#setSourceItem-java.lang.String-)如果 OLE 对象仅包含工作表中的几个单元格，则属性可能会返回“Workbook1!R3C1:R4C2”。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | A string that is used to identify the portion of the source file that is being linked. |
+| value | java.lang.String | 用于标识正在链接的源文件部分的字符串。 |
 
 ### toString() {#toString--}
 ```
@@ -398,7 +398,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -416,8 +416,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -429,9 +429,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,44 +1,44 @@
 ---
-title: HeaderFooterType
-second_title: Aspose.Words for Java API Reference
-description: Identifies the type of header or footer found in a Word file.
+title: HeaderFooter类型
+second_title: Aspose.Words for Java API 参考
+description: 标识在 Word 文件中找到的页眉或页脚的类型。
 type: docs
 weight: 318
-url: /java/com.aspose.words/headerfootertype/
+url: /zh/java/com.aspose.words/headerfootertype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class HeaderFooterType
+public class HeaderFooter类型
 ```
 
-Identifies the type of header or footer found in a Word file.  This is a per section header/footer. Do not renumber as the value of the enum used as an index into plcfhdd.
-## Fields
+标识在 Word 文件中找到的页眉或页脚的类型。这是每节的页眉/页脚。不要将用作 plcfhdd 索引的枚举值重新编号。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FOOTER_EVEN](#FOOTER-EVEN) | Footer for even numbered pages. |
-| [FOOTER_FIRST](#FOOTER-FIRST) | Footer for the first page of the section. |
-| [FOOTER_PRIMARY](#FOOTER-PRIMARY) | Primary footer, also used for odd numbered pages. |
-| [HEADER_EVEN](#HEADER-EVEN) | Header for even numbered pages. |
-| [HEADER_FIRST](#HEADER-FIRST) | Header for the first page of the section. |
-| [HEADER_PRIMARY](#HEADER-PRIMARY) | Primary header, also used for odd numbered pages. |
+| [FOOTER_EVEN](#FOOTER-EVEN) | 偶数页的页脚。 |
+| [FOOTER_FIRST](#FOOTER-FIRST) | 该部分第一页的页脚。 |
+| [FOOTER_PRIMARY](#FOOTER-PRIMARY) | 主页脚，也用于奇数页。 |
+| [HEADER_EVEN](#HEADER-EVEN) | 偶数页的页眉。 |
+| [HEADER_FIRST](#HEADER-FIRST) | 该部分第一页的页眉。 |
+| [HEADER_PRIMARY](#HEADER-PRIMARY) | 主页眉，也用于奇数页。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String headerFooterTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int headerFooterType)](#getName-int-) |  |
+| [fromName(String headerFooter类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int headerFooter类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int headerFooterType)](#toString-int-) |  |
+| [toString(int headerFooter类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int FOOTER_EVEN
 ```
 
 
-Footer for even numbered pages.
+偶数页的页脚。
 
 ### FOOTER_FIRST {#FOOTER-FIRST}
 ```
@@ -56,7 +56,7 @@ public static int FOOTER_FIRST
 ```
 
 
-Footer for the first page of the section.
+该部分第一页的页脚。
 
 ### FOOTER_PRIMARY {#FOOTER-PRIMARY}
 ```
@@ -64,7 +64,7 @@ public static int FOOTER_PRIMARY
 ```
 
 
-Primary footer, also used for odd numbered pages.
+主页脚，也用于奇数页。
 
 ### HEADER_EVEN {#HEADER-EVEN}
 ```
@@ -72,7 +72,7 @@ public static int HEADER_EVEN
 ```
 
 
-Header for even numbered pages.
+偶数页的页眉。
 
 ### HEADER_FIRST {#HEADER-FIRST}
 ```
@@ -80,7 +80,7 @@ public static int HEADER_FIRST
 ```
 
 
-Header for the first page of the section.
+该部分第一页的页眉。
 
 ### HEADER_PRIMARY {#HEADER-PRIMARY}
 ```
@@ -88,7 +88,7 @@ public static int HEADER_PRIMARY
 ```
 
 
-Primary header, also used for odd numbered pages.
+主页眉，也用于奇数页。
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String headerFooterTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String headerFooter类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String headerFooterTypeName)
+public static int fromName(String headerFooter类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterTypeName | java.lang.String |  |
+| headerFooter类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int headerFooterType) {#getName-int-}
-```
-public static String getName(int headerFooterType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int headerFooter类型) {#getName-int-}
+```
+public static String getName(int headerFooter类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | int |  |
+| headerFooter类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int headerFooterType) {#toString-int-}
+### toString(int headerFooter类型) {#toString-int-}
 ```
-public static String toString(int headerFooterType)
+public static String toString(int headerFooter类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| headerFooterType | int |  |
+| headerFooter类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,9 +241,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

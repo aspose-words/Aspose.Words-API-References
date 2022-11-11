@@ -1,35 +1,35 @@
 ---
 title: TableContentAlignment
 second_title: Aspose.Words for Java API Reference
-description: Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
+description: 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
 type: docs
 weight: 551
-url: /java/com.aspose.words/tablecontentalignment/
+url: /zh/java/com.aspose.words/tablecontentalignment/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class TableContentAlignment
 ```
 
-Allows to specify the alignment of the content of the table to be used when exporting into Markdown format.
-## Fields
+允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [AUTO](#AUTO) | The alignment will be taken from the first paragraph in corresponding table column. |
-| [CENTER](#CENTER) | The content of tables will be aligned to the Center. |
-| [LEFT](#LEFT) | The content of tables will be aligned to the Left. |
-| [RIGHT](#RIGHT) | The content of tables will be aligned to the Right. |
+| [AUTO](#AUTO) | 对齐将取自相应表格列中的第一段。 |
+| [CENTER](#CENTER) | 表格的内容将与中心对齐。 |
+| [LEFT](#LEFT) | 表格的内容将左对齐。 |
+| [RIGHT](#RIGHT) | 表格的内容将向右对齐。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableContentAlignmentName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int tableContentAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int AUTO
 ```
 
 
-The alignment will be taken from the first paragraph in corresponding table column.
+对齐将取自相应表格列中的第一段。
 
 ### CENTER {#CENTER}
 ```
@@ -54,7 +54,7 @@ public static int CENTER
 ```
 
 
-The content of tables will be aligned to the Center.
+表格的内容将与中心对齐。
 
 ### LEFT {#LEFT}
 ```
@@ -62,7 +62,7 @@ public static int LEFT
 ```
 
 
-The content of tables will be aligned to the Left.
+表格的内容将左对齐。
 
 ### RIGHT {#RIGHT}
 ```
@@ -70,7 +70,7 @@ public static int RIGHT
 ```
 
 
-The content of tables will be aligned to the Right.
+表格的内容将向右对齐。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String tableContentAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tableContentAlignmentName)
@@ -101,23 +101,23 @@ public static int fromName(String tableContentAlignmentName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableContentAlignmentName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int tableContentAlignment) {#getName-int-}
 ```
 public static String getName(int tableContentAlignment)
@@ -126,12 +126,12 @@ public static String getName(int tableContentAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableContentAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int tableContentAlignment) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int tableContentAlignment)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | tableContentAlignment | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

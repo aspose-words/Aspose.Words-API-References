@@ -1,52 +1,52 @@
 ---
 title: LayoutOptions
-second_title: Aspose.Words for Java API Reference
-description: Holds the options that allow controlling the document layout process.
+second_title: Aspose.Words for Java API 参考
+description: 包含允许控制文档布局过程的选项。
 type: docs
 weight: 362
-url: /java/com.aspose.words/layoutoptions/
+url: /zh/java/com.aspose.words/layoutoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Cloneable
 ```
 public class LayoutOptions implements Cloneable
 ```
 
-Holds the options that allow controlling the document layout process.
+包含允许控制文档布局过程的选项。
 
-To learn more, visit the **Converting to Fixed-page Format** documentation article.
+要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
 
-You do not create instances of this class directly. Use the [Document.getLayoutOptions()](../../com.aspose.words/document\#getLayoutOptions--) property to access layout options for this document.
+您不直接创建此类的实例。使用[Document.getLayoutOptions()](../../com.aspose.words/document\#getLayoutOptions--)属性以访问此文档的布局选项。
 
-Note that after changing any of the options present in this class, [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) method should be called in order for the changed options to be applied to the layout.
-## Methods
+请注意，在更改此类中存在的任何选项后，[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)应该调用方法以便将更改的选项应用于布局。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCallback()](#getCallback--) | Gets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model. |
-| [getClass()](#getClass--) |  |
-| [getCommentDisplayMode()](#getCommentDisplayMode--) | Gets the way comments are rendered. |
-| [getContinuousSectionPageNumberingRestart()](#getContinuousSectionPageNumberingRestart--) | Gets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [getIgnorePrinterMetrics()](#getIgnorePrinterMetrics--) | Gets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
-| [getRevisionOptions()](#getRevisionOptions--) | Gets revision options. |
-| [getShowHiddenText()](#getShowHiddenText--) | Gets indication of whether hidden text in the document is rendered. |
-| [getShowParagraphMarks()](#getShowParagraphMarks--) | Gets indication of whether paragraph marks are rendered. |
-| [getTextShaperFactory()](#getTextShaperFactory--) | Gets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features. |
+| [getCallback()](#getCallback--) | 获取[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。 |
+| [get班级()](#get班级--) |  |
+| [getCommentDisplayMode()](#getCommentDisplayMode--) | 获取评论的呈现方式。 |
+| [getContinuousSectionPageNumberingRestart()](#getContinuousSectionPageNumberingRestart--) | 获取连续部分重新开始页码编号时计算页码的行为模式。 |
+| [getIgnorePrinterMetrics()](#getIgnorePrinterMetrics--) | 获取是否忽略“使用打印机指标布局文档”兼容性选项的指示。 |
+| [getRevisionOptions()](#getRevisionOptions--) | 获取修订选项。 |
+| [getShowHiddenText()](#getShowHiddenText--) | 获取是否呈现文档中隐藏文本的指示。 |
+| [getShowParagraphMarks()](#getShowParagraphMarks--) | 获取是否呈现段落标记的指示。 |
+| [getTextShaperFactory()](#getTextShaperFactory--) | 获取[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCallback(IPageLayoutCallback value)](#setCallback-com.aspose.words.IPageLayoutCallback-) | Sets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model. |
-| [setCommentDisplayMode(int value)](#setCommentDisplayMode-int-) | Sets the way comments are rendered. |
-| [setContinuousSectionPageNumberingRestart(int value)](#setContinuousSectionPageNumberingRestart-int-) | Sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [setIgnorePrinterMetrics(boolean value)](#setIgnorePrinterMetrics-boolean-) | Sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
-| [setShowHiddenText(boolean value)](#setShowHiddenText-boolean-) | Sets indication of whether hidden text in the document is rendered. |
-| [setShowParagraphMarks(boolean value)](#setShowParagraphMarks-boolean-) | Sets indication of whether paragraph marks are rendered. |
-| [setTextShaperFactory(ITextShaperFactory value)](#setTextShaperFactory-com.aspose.words.ITextShaperFactory-) | Sets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features. |
+| [setCallback(IPageLayoutCallback value)](#setCallback-com.aspose.words.IPageLayoutCallback-) | 套[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。 |
+| [setCommentDisplayMode(int value)](#setCommentDisplayMode-int-) | 设置评论的呈现方式。 |
+| [setContinuousSectionPageNumberingRestart(int value)](#setContinuousSectionPageNumberingRestart-int-) | 设置当连续部分重新开始页码时计算页码的行为模式。 |
+| [setIgnorePrinterMetrics(boolean value)](#setIgnorePrinterMetrics-boolean-) | 设置是否忽略“使用打印机指标布局文档”兼容性选项的指示。 |
+| [setShowHiddenText(boolean value)](#setShowHiddenText-boolean-) | 设置是否呈现文档中的隐藏文本的指示。 |
+| [setShowParagraphMarks(boolean value)](#setShowParagraphMarks-boolean-) | 设置是否呈现段落标记的指示。 |
+| [setTextShaperFactory(ITextShaperFactory value)](#setTextShaperFactory-com.aspose.words.ITextShaperFactory-) | 套[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,103 +59,103 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getCallback() {#getCallback--}
 ```
 public IPageLayoutCallback getCallback()
 ```
 
 
-Gets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model.
+获取[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。
 
-**Returns:**
-[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) - \{[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model.
-### getClass() {#getClass--}
+**退货:**
+[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) -\{[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCommentDisplayMode() {#getCommentDisplayMode--}
 ```
 public int getCommentDisplayMode()
 ```
 
 
-Gets the way comments are rendered. Default value is [CommentDisplayMode.SHOW\_IN\_BALLOONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-BALLOONS). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+获取评论的呈现方式。默认值为[CommentDisplayMode.SHOW\_IN\_BALLOONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-BALLOONS).请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
 
-**Returns:**
-int - The way comments are rendered. The returned value is one of [CommentDisplayMode](../../com.aspose.words/commentdisplaymode) constants.
+**退货:**
+int - 评论的呈现方式。返回值是以下之一[CommentDisplayMode](../../com.aspose.words/commentdisplaymode)常数。
 ### getContinuousSectionPageNumberingRestart() {#getContinuousSectionPageNumberingRestart--}
 ```
 public int getContinuousSectionPageNumberingRestart()
 ```
 
 
-Gets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. The default value is [ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS). It matches the behavior of MS Word 2019 which was the latest version at the moment the option was introduced. Older page numbering logic demonstrated by MS Word 2016 is available via this option. Please [ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart) for the behavior description.
+获取连续部分重新开始页码编号时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与引入该选项时的最新版本 MS Word 2019 的行为相匹配。 MS Word 2016 演示的旧页码逻辑可通过此选项获得。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)用于行为描述。
 
-**Returns:**
-int - The mode of behavior for computing page numbers when a continuous section restarts the page numbering. The returned value is one of [ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart) constants.
+**退货:**
+ int - 当连续部分重新开始页码时计算页码的行为模式。返回值是以下之一[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)常数。
 ### getIgnorePrinterMetrics() {#getIgnorePrinterMetrics--}
 ```
 public boolean getIgnorePrinterMetrics()
 ```
 
 
-Gets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True.
+获取是否忽略“使用打印机指标布局文档”兼容性选项的指示。默认为真。
 
-**Returns:**
-boolean - Indication of whether the "Use printer metrics to lay out document" compatibility option is ignored.
+**退货:**
+boolean - 指示是否忽略“使用打印机指标布局文档”兼容性选项。
 ### getRevisionOptions() {#getRevisionOptions--}
 ```
 public RevisionOptions getRevisionOptions()
 ```
 
 
-Gets revision options.
+获取修订选项。
 
-**Returns:**
-[RevisionOptions](../../com.aspose.words/revisionoptions) - Revision options.
+**退货:**
+[RevisionOptions](../../com.aspose.words/revisionoptions) - 修订选项。
 ### getShowHiddenText() {#getShowHiddenText--}
 ```
 public boolean getShowHiddenText()
 ```
 
 
-Gets indication of whether hidden text in the document is rendered. Default is False. This property affects all hidden content, not just text.
+获取是否呈现文档中隐藏文本的指示。默认为假。此属性影响所有隐藏内容，而不仅仅是文本。
 
-**Returns:**
-boolean - Indication of whether hidden text in the document is rendered.
+**退货:**
+boolean - 指示是否呈现文档中的隐藏文本。
 ### getShowParagraphMarks() {#getShowParagraphMarks--}
 ```
 public boolean getShowParagraphMarks()
 ```
 
 
-Gets indication of whether paragraph marks are rendered. Default is False.
+获取是否呈现段落标记的指示。默认为假。
 
-**Returns:**
-boolean - Indication of whether paragraph marks are rendered.
+**退货:**
+boolean - 指示是否呈现段落标记。
 ### getTextShaperFactory() {#getTextShaperFactory--}
 ```
 public ITextShaperFactory getTextShaperFactory()
 ```
 
 
-Gets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features.
+获取[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。
 
-**Returns:**
-[ITextShaperFactory](../../com.aspose.words/itextshaperfactory) - \{[ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features.
+**退货:**
+[ITextShaperFactory](../../com.aspose.words/itextshaperfactory) -\{[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -164,8 +164,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -188,12 +188,12 @@ public void setCallback(IPageLayoutCallback value)
 ```
 
 
-Sets [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model.
+套[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) | \{[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) implementation used by page layout model. |
+| value | [IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback) | \{[IPageLayoutCallback](../../com.aspose.words/ipagelayoutcallback)页面布局模型使用的实现。 |
 
 ### setCommentDisplayMode(int value) {#setCommentDisplayMode-int-}
 ```
@@ -201,12 +201,12 @@ public void setCommentDisplayMode(int value)
 ```
 
 
-Sets the way comments are rendered. Default value is [CommentDisplayMode.SHOW\_IN\_BALLOONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-BALLOONS). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+设置评论的呈现方式。默认值为[CommentDisplayMode.SHOW\_IN\_BALLOONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-BALLOONS).请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The way comments are rendered. The value must be one of [CommentDisplayMode](../../com.aspose.words/commentdisplaymode) constants. |
+| value | int | 评论的呈现方式。该值必须是以下之一[CommentDisplayMode](../../com.aspose.words/commentdisplaymode)常数。 |
 
 ### setContinuousSectionPageNumberingRestart(int value) {#setContinuousSectionPageNumberingRestart-int-}
 ```
@@ -214,12 +214,12 @@ public void setContinuousSectionPageNumberingRestart(int value)
 ```
 
 
-Sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. The default value is [ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS). It matches the behavior of MS Word 2019 which was the latest version at the moment the option was introduced. Older page numbering logic demonstrated by MS Word 2016 is available via this option. Please [ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart) for the behavior description.
+设置当连续部分重新开始页码时计算页码的行为模式。默认值为[ContinuousSectionRestart.ALWAYS](../../com.aspose.words/continuoussectionrestart\#ALWAYS).它与引入该选项时的最新版本 MS Word 2019 的行为相匹配。 MS Word 2016 演示的旧页码逻辑可通过此选项获得。请[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)用于行为描述。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The mode of behavior for computing page numbers when a continuous section restarts the page numbering. The value must be one of [ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart) constants. |
+| value | int | 当连续部分重新开始页码时计算页码的行为模式。该值必须是以下之一[ContinuousSectionRestart](../../com.aspose.words/continuoussectionrestart)常数。 |
 
 ### setIgnorePrinterMetrics(boolean value) {#setIgnorePrinterMetrics-boolean-}
 ```
@@ -227,12 +227,12 @@ public void setIgnorePrinterMetrics(boolean value)
 ```
 
 
-Sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is True.
+设置是否忽略“使用打印机指标布局文档”兼容性选项的指示。默认为真。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. |
+| value | boolean | 是否忽略“使用打印机度量来布置文档”兼容性选项的指示。 |
 
 ### setShowHiddenText(boolean value) {#setShowHiddenText-boolean-}
 ```
@@ -240,12 +240,12 @@ public void setShowHiddenText(boolean value)
 ```
 
 
-Sets indication of whether hidden text in the document is rendered. Default is False. This property affects all hidden content, not just text.
+设置是否呈现文档中的隐藏文本的指示。默认为假。此属性影响所有隐藏内容，而不仅仅是文本。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Indication of whether hidden text in the document is rendered. |
+| value | boolean | 指示是否呈现文档中的隐藏文本。 |
 
 ### setShowParagraphMarks(boolean value) {#setShowParagraphMarks-boolean-}
 ```
@@ -253,12 +253,12 @@ public void setShowParagraphMarks(boolean value)
 ```
 
 
-Sets indication of whether paragraph marks are rendered. Default is False.
+设置是否呈现段落标记的指示。默认为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | Indication of whether paragraph marks are rendered. |
+| value | boolean | 指示是否呈现段落标记。 |
 
 ### setTextShaperFactory(ITextShaperFactory value) {#setTextShaperFactory-com.aspose.words.ITextShaperFactory-}
 ```
@@ -266,12 +266,12 @@ public void setTextShaperFactory(ITextShaperFactory value)
 ```
 
 
-Sets [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features.
+套[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) | \{[ITextShaperFactory](../../com.aspose.words/itextshaperfactory) implementation used for Advanced Typography rendering features. |
+| value | [ITextShaperFactory](../../com.aspose.words/itextshaperfactory) | \{[ITextShaperFactory](../../com.aspose.words/itextshaperfactory)用于高级排版渲染功能的实现。 |
 
 ### toString() {#toString--}
 ```
@@ -281,7 +281,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -299,8 +299,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -312,9 +312,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

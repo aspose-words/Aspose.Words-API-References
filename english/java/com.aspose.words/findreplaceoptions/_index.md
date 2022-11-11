@@ -1,68 +1,68 @@
 ---
 title: FindReplaceOptions
-second_title: Aspose.Words for Java API Reference
-description: Specifies options for find/replace operations.
+second_title: Aspose.Words for Java API 参考
+description: 指定查找/替换操作的选项。
 type: docs
 weight: 270
-url: /java/com.aspose.words/findreplaceoptions/
+url: /zh/java/com.aspose.words/findreplaceoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class FindReplaceOptions
 ```
 
-Specifies options for find/replace operations.
+指定查找/替换操作的选项。
 
-To learn more, visit the **Find and Replace** documentation article.
-## Constructors
+要了解更多信息，请访问**Find and Replace**文档文章。
+## 构造函数s
 
-| Constructor | Description |
+| 构造函数 | 描述 |
 | --- | --- |
-| [FindReplaceOptions()](#FindReplaceOptions--) | Initializes a new instance of this class. |
-| [FindReplaceOptions(int direction)](#FindReplaceOptions-int-) | Initializes a new instance of this class. |
-| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback-) | Initializes a new instance of this class. |
-| [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback-) | Initializes a new instance of this class. |
-## Methods
+| [FindReplaceOptions()](#FindReplaceOptions--) | 初始化此类的新实例。 |
+| [FindReplaceOptions(int direction)](#FindReplaceOptions-int-) | 初始化此类的新实例。 |
+| [FindReplaceOptions(IReplacingCallback replacingCallback)](#FindReplaceOptions-com.aspose.words.IReplacingCallback-) | 初始化此类的新实例。 |
+| [FindReplaceOptions(int direction, IReplacingCallback replacingCallback)](#FindReplaceOptions-int-com.aspose.words.IReplacingCallback-) | 初始化此类的新实例。 |
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getApplyFont()](#getApplyFont--) | Text formatting applied to new content. |
-| [getApplyParagraphFormat()](#getApplyParagraphFormat--) | Paragraph formatting applied to new content. |
-| [getClass()](#getClass--) |  |
-| [getDirection()](#getDirection--) | Selects direction for replace. |
-| [getFindWholeWordsOnly()](#getFindWholeWordsOnly--) | True indicates the oldValue must be a standalone word. |
-| [getIgnoreDeleted()](#getIgnoreDeleted--) | Gets a boolean value indicating either to ignore text inside delete revisions. |
-| [getIgnoreFieldCodes()](#getIgnoreFieldCodes--) | Gets a boolean value indicating either to ignore text inside field codes. |
-| [getIgnoreFields()](#getIgnoreFields--) | Gets a boolean value indicating either to ignore text inside fields. |
-| [getIgnoreFootnotes()](#getIgnoreFootnotes--) | Gets a boolean value indicating either to ignore footnotes. |
-| [getIgnoreInserted()](#getIgnoreInserted--) | Gets a boolean value indicating either to ignore text inside insert revisions. |
-| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags--) | Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
-| [getLegacyMode()](#getLegacyMode--) | Gets a boolean value indicating that old find/replace algorithm is used. |
-| [getMatchCase()](#getMatchCase--) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
-| [getReplacingCallback()](#getReplacingCallback--) | The user-defined method which is called before every replace occurrence. |
-| [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement--) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [getUseLegacyOrder()](#getUseLegacyOrder--) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
-| [getUseSubstitutions()](#getUseSubstitutions--) | Gets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
+| [getApplyFont()](#getApplyFont--) | 应用于新内容的文本格式。 |
+| [getApplyParagraphFormat()](#getApplyParagraphFormat--) | 应用于新内容的段落格式。 |
+| [get班级()](#get班级--) |  |
+| [getDirection()](#getDirection--) | 选择替换方向。 |
+| [getFindWholeWordsOnly()](#getFindWholeWordsOnly--) | True 表示 oldValue 必须是一个独立的单词。 |
+| [getIgnoreDeleted()](#getIgnoreDeleted--) | 获取一个布尔值，指示是否忽略删除修订中的文本。 |
+| [getIgnore字段Codes()](#getIgnore字段Codes--) | 获取一个布尔值，指示是否忽略域代码中的文本。 |
+| [getIgnore字段()](#getIgnore字段--) | 获取一个布尔值，指示是否忽略字段内的文本。 |
+| [getIgnoreFootnotes()](#getIgnoreFootnotes--) | 获取一个布尔值，指示要么忽略脚注。 |
+| [getIgnoreInserted()](#getIgnoreInserted--) | 获取一个布尔值，指示是否忽略插入修订中的文本。 |
+| [getIgnoreStructuredDocumentTags()](#getIgnoreStructuredDocumentTags--) | 获取一个布尔值，指示是否忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [getLegacyMode()](#getLegacyMode--) | 获取一个布尔值，指示使用旧的查找/替换算法。 |
+| [getMatchCase()](#getMatchCase--) | True 表示区分大小写比较，false 表示不区分大小写比较。 |
+| [getReplacingCallback()](#getReplacingCallback--) | 在每次替换发生之前调用的用户定义方法。 |
+| [getSmartParagraphBreakReplacement()](#getSmartParagraphBreakReplacement--) | 获取或设置一个布尔值，指示在没有下一个同级段落时是否允许替换段落分隔符。 |
+| [getUseLegacyOrder()](#getUseLegacyOrder--) | True 表示考虑到文本框，从上到下顺序执行文本搜索。 |
+| [getUseSubstitutions()](#getUseSubstitutions--) | 获取一个布尔值，该值指示是否在替换模式中识别和使用替换。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDirection(int value)](#setDirection-int-) | Selects direction for replace. |
-| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean-) | True indicates the oldValue must be a standalone word. |
-| [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean-) | Sets a boolean value indicating either to ignore text inside delete revisions. |
-| [setIgnoreFieldCodes(boolean value)](#setIgnoreFieldCodes-boolean-) | Sets a boolean value indicating either to ignore text inside field codes. |
-| [setIgnoreFields(boolean value)](#setIgnoreFields-boolean-) | Sets a boolean value indicating either to ignore text inside fields. |
-| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean-) | Sets a boolean value indicating either to ignore footnotes. |
-| [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean-) | Sets a boolean value indicating either to ignore text inside insert revisions. |
-| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean-) | Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
-| [setLegacyMode(boolean value)](#setLegacyMode-boolean-) | Sets a boolean value indicating that old find/replace algorithm is used. |
-| [setMatchCase(boolean value)](#setMatchCase-boolean-) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
-| [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback-) | The user-defined method which is called before every replace occurrence. |
-| [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean-) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean-) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. |
-| [setUseSubstitutions(boolean value)](#setUseSubstitutions-boolean-) | Sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. |
+| [setDirection(int value)](#setDirection-int-) | 选择替换方向。 |
+| [setFindWholeWordsOnly(boolean value)](#setFindWholeWordsOnly-boolean-) | True 表示 oldValue 必须是一个独立的单词。 |
+| [setIgnoreDeleted(boolean value)](#setIgnoreDeleted-boolean-) | 设置一个布尔值，指示忽略删除修订中的文本。 |
+| [setIgnore字段Codes(boolean value)](#setIgnore字段Codes-boolean-) | 设置一个布尔值，指示忽略域代码内的文本。 |
+| [setIgnore字段(boolean value)](#setIgnore字段-boolean-) | 设置一个布尔值，指示忽略字段内的文本。 |
+| [setIgnoreFootnotes(boolean value)](#setIgnoreFootnotes-boolean-) | 设置一个布尔值，指示忽略脚注。 |
+| [setIgnoreInserted(boolean value)](#setIgnoreInserted-boolean-) | 设置一个布尔值，指示忽略插入修订中的文本。 |
+| [setIgnoreStructuredDocumentTags(boolean value)](#setIgnoreStructuredDocumentTags-boolean-) | 设置一个布尔值，指示要么忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| [setLegacyMode(boolean value)](#setLegacyMode-boolean-) | 设置一个布尔值，指示使用旧的查找/替换算法。 |
+| [setMatchCase(boolean value)](#setMatchCase-boolean-) | True 表示区分大小写比较，false 表示不区分大小写比较。 |
+| [setReplacingCallback(IReplacingCallback value)](#setReplacingCallback-com.aspose.words.IReplacingCallback-) | 在每次替换发生之前调用的用户定义方法。 |
+| [setSmartParagraphBreakReplacement(boolean value)](#setSmartParagraphBreakReplacement-boolean-) | 获取或设置一个布尔值，指示在没有下一个同级段落时是否允许替换段落分隔符。 |
+| [setUseLegacyOrder(boolean value)](#setUseLegacyOrder-boolean-) | True 表示考虑到文本框，从上到下顺序执行文本搜索。 |
+| [setUseSubstitutions(boolean value)](#setUseSubstitutions-boolean-) | 设置一个布尔值，指示是否在替换模式中识别和使用替换。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public FindReplaceOptions()
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
 ### FindReplaceOptions(int direction) {#FindReplaceOptions-int-}
 ```
@@ -81,10 +81,10 @@ public FindReplaceOptions(int direction)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | direction | int |  |
 
@@ -94,10 +94,10 @@ public FindReplaceOptions(IReplacingCallback replacingCallback)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
 
@@ -107,10 +107,10 @@ public FindReplaceOptions(int direction, IReplacingCallback replacingCallback)
 ```
 
 
-Initializes a new instance of this class.
+初始化此类的新实例。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | direction | int |  |
 | replacingCallback | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) |  |
@@ -123,199 +123,199 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getApplyFont() {#getApplyFont--}
 ```
 public Font getApplyFont()
 ```
 
 
-Text formatting applied to new content.
+应用于新内容的文本格式。
 
-**Returns:**
-[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
+**退货:**
+[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
 ### getApplyParagraphFormat() {#getApplyParagraphFormat--}
 ```
 public ParagraphFormat getApplyParagraphFormat()
 ```
 
 
-Paragraph formatting applied to new content.
+应用于新内容的段落格式。
 
-**Returns:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - The corresponding [ParagraphFormat](../../com.aspose.words/paragraphformat) value.
-### getClass() {#getClass--}
+**退货:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat) - 相应的[ParagraphFormat](../../com.aspose.words/paragraphformat)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getDirection() {#getDirection--}
 ```
 public int getDirection()
 ```
 
 
-Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
+选择替换方向。默认值为[FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
 
-**Returns:**
-int - The corresponding  int  value. The returned value is one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants.
+**退货:**
+int - 对应的 int 值。返回值是以下之一[FindReplaceDirection](../../com.aspose.words/findreplacedirection)常数。
 ### getFindWholeWordsOnly() {#getFindWholeWordsOnly--}
 ```
 public boolean getFindWholeWordsOnly()
 ```
 
 
-True indicates the oldValue must be a standalone word.
+True 表示 oldValue 必须是一个独立的单词。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getIgnoreDeleted() {#getIgnoreDeleted--}
 ```
 public boolean getIgnoreDeleted()
 ```
 
 
-Gets a boolean value indicating either to ignore text inside delete revisions. The default value is  false .
+获取一个布尔值，指示是否忽略删除修订中的文本。默认值为 false 。
 
-**Returns:**
-boolean - A boolean value indicating either to ignore text inside delete revisions.
-### getIgnoreFieldCodes() {#getIgnoreFieldCodes--}
+**退货:**
+boolean - 一个布尔值，指示忽略删除修订中的文本。
+### getIgnore字段Codes() {#getIgnore字段Codes--}
 ```
-public boolean getIgnoreFieldCodes()
-```
-
-
-Gets a boolean value indicating either to ignore text inside field codes. The default value is  false .
-
-This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
-
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields--) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean-).
-
-**Returns:**
-boolean - A boolean value indicating either to ignore text inside field codes.
-### getIgnoreFields() {#getIgnoreFields--}
-```
-public boolean getIgnoreFields()
+public boolean getIgnore字段Codes()
 ```
 
 
-Gets a boolean value indicating either to ignore text inside fields. The default value is  false .
+获取一个布尔值，指示是否忽略域代码中的文本。默认值为 false 。
 
-This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+此选项仅影响域代码（它不会忽略[Node类型.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR)和[Node类型.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)）。
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes--) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean-).
+要忽略整个字段，请使用相应的选项[getIgnore字段()](../../com.aspose.words/findreplaceoptions\#getIgnore字段--) / [setIgnore字段(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnore字段-boolean-).
 
-**Returns:**
-boolean - A boolean value indicating either to ignore text inside fields.
+**退货:**
+boolean - 一个布尔值，指示忽略域代码内的文本。
+### getIgnore字段() {#getIgnore字段--}
+```
+public boolean getIgnore字段()
+```
+
+
+获取一个布尔值，指示是否忽略字段内的文本。默认值为 false 。
+
+此选项影响整个字段（之间的所有节点[Node类型.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START)和[Node类型.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)）。
+
+要仅忽略域代码，请使用相应的选项[getIgnore字段Codes()](../../com.aspose.words/findreplaceoptions\#getIgnore字段Codes--) / [setIgnore字段Codes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnore字段Codes-boolean-).
+
+**退货:**
+boolean - 一个布尔值，指示忽略字段内的文本。
 ### getIgnoreFootnotes() {#getIgnoreFootnotes--}
 ```
 public boolean getIgnoreFootnotes()
 ```
 
 
-Gets a boolean value indicating either to ignore footnotes. The default value is  false .
+获取一个布尔值，指示要么忽略脚注。默认值为 false 。
 
-**Returns:**
-boolean - A boolean value indicating either to ignore footnotes.
+**退货:**
+boolean - 一个布尔值，指示忽略脚注。
 ### getIgnoreInserted() {#getIgnoreInserted--}
 ```
 public boolean getIgnoreInserted()
 ```
 
 
-Gets a boolean value indicating either to ignore text inside insert revisions. The default value is  false .
+获取一个布尔值，指示是否忽略插入修订中的文本。默认值为 false 。
 
-**Returns:**
-boolean - A boolean value indicating either to ignore text inside insert revisions.
+**退货:**
+boolean - 一个布尔值，指示忽略插入修订中的文本。
 ### getIgnoreStructuredDocumentTags() {#getIgnoreStructuredDocumentTags--}
 ```
 public boolean getIgnoreStructuredDocumentTags()
 ```
 
 
-Gets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). The default value is  false .
+获取一个布尔值，指示是否忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).默认值为 false 。
 
-When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be treated as a simple text.
+当此选项设置为 true 时，[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)将被视为简单文本。
 
-Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), then replacement will not be performed for such pattern.
+否则，[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)将作为独立故事处理，替换模式将分别搜索每个[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)，所以如果模式穿过[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)，则不会对此类模式执行替换。
 
-**Returns:**
-boolean - A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
+**退货:**
+ boolean - 一个布尔值，表示忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).
 ### getLegacyMode() {#getLegacyMode--}
 ```
 public boolean getLegacyMode()
 ```
 
 
-Gets a boolean value indicating that old find/replace algorithm is used. Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced. Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
+获取一个布尔值，指示使用旧的查找/替换算法。如果您需要与引入高级查找/替换功能之前完全相同的行为，请使用此标志。请注意，旧算法不支持高级功能，例如用换行符替换、应用格式等。
 
-**Returns:**
-boolean - A boolean value indicating that old find/replace algorithm is used.
+**退货:**
+boolean - 一个布尔值，指示使用旧的查找/替换算法。
 ### getMatchCase() {#getMatchCase--}
 ```
 public boolean getMatchCase()
 ```
 
 
-True indicates case-sensitive comparison, false indicates case-insensitive comparison.
+True 表示区分大小写比较，false 表示不区分大小写比较。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getReplacingCallback() {#getReplacingCallback--}
 ```
 public IReplacingCallback getReplacingCallback()
 ```
 
 
-The user-defined method which is called before every replace occurrence.
+在每次替换发生之前调用的用户定义方法。
 
-**Returns:**
-[IReplacingCallback](../../com.aspose.words/ireplacingcallback) - The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value.
+**退货:**
+[IReplacingCallback](../../com.aspose.words/ireplacingcallback) - 相应的[IReplacingCallback](../../com.aspose.words/ireplacingcallback)价值。
 ### getSmartParagraphBreakReplacement() {#getSmartParagraphBreakReplacement--}
 ```
 public boolean getSmartParagraphBreakReplacement()
 ```
 
 
-Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
+获取或设置一个布尔值，指示在没有下一个同级段落时是否允许替换段落分隔符。
 
-The default value is  false .
+默认值为 false 。
 
-This option allows to replace paragraph break when there is no next sibling paragraph to which all child nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
+此选项允许在没有可以将所有子节点移动到的下一个兄弟段落时替换段落分隔符，方法是在被替换的段落之后查找任何（不一定是兄弟）下一个段落。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getUseLegacyOrder() {#getUseLegacyOrder--}
 ```
 public boolean getUseLegacyOrder()
 ```
 
 
-True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
+True 表示考虑到文本框，从上到下顺序执行文本搜索。默认值为假。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getUseSubstitutions() {#getUseSubstitutions--}
 ```
 public boolean getUseSubstitutions()
 ```
 
 
-Gets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is  false . For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+获取一个布尔值，该值指示是否在替换模式中识别和使用替换。默认值为 false 。有关替换元素的详细信息，请参阅：https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions。
 
-**Returns:**
-boolean - A boolean value indicating whether to recognize and use substitutions within replacement patterns.
+**退货:**
+boolean - 一个布尔值，指示是否在替换模式中识别和使用替换。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -324,8 +324,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -348,12 +348,12 @@ public void setDirection(int value)
 ```
 
 
-Selects direction for replace. Default value is [FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
+选择替换方向。默认值为[FindReplaceDirection.FORWARD](../../com.aspose.words/findreplacedirection\#FORWARD).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be one of [FindReplaceDirection](../../com.aspose.words/findreplacedirection) constants. |
+| value | int | 对应的 int 值。该值必须是以下之一[FindReplaceDirection](../../com.aspose.words/findreplacedirection)常数。 |
 
 ### setFindWholeWordsOnly(boolean value) {#setFindWholeWordsOnly-boolean-}
 ```
@@ -361,12 +361,12 @@ public void setFindWholeWordsOnly(boolean value)
 ```
 
 
-True indicates the oldValue must be a standalone word.
+True 表示 oldValue 必须是一个独立的单词。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setIgnoreDeleted(boolean value) {#setIgnoreDeleted-boolean-}
 ```
@@ -374,46 +374,46 @@ public void setIgnoreDeleted(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore text inside delete revisions. The default value is  false .
+设置一个布尔值，指示忽略删除修订中的文本。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore text inside delete revisions. |
+| value | boolean | 一个布尔值，指示忽略删除修订中的文本。 |
 
-### setIgnoreFieldCodes(boolean value) {#setIgnoreFieldCodes-boolean-}
+### setIgnore字段Codes(boolean value) {#setIgnore字段Codes-boolean-}
 ```
-public void setIgnoreFieldCodes(boolean value)
+public void setIgnore字段Codes(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore text inside field codes. The default value is  false .
+设置一个布尔值，指示忽略域代码内的文本。默认值为 false 。
 
-This option affects only field codes (it does not ignore nodes between [NodeType.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+此选项仅影响域代码（它不会忽略[Node类型.FIELD\_SEPARATOR](../../com.aspose.words/nodetype\#FIELD-SEPARATOR)和[Node类型.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)）。
 
-To ignore whole field, please use corresponding option [getIgnoreFields()](../../com.aspose.words/findreplaceoptions\#getIgnoreFields--) / [setIgnoreFields(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFields-boolean-).
+要忽略整个字段，请使用相应的选项[getIgnore字段()](../../com.aspose.words/findreplaceoptions\#getIgnore字段--) / [setIgnore字段(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnore字段-boolean-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore text inside field codes. |
+| value | boolean | 一个布尔值，指示忽略域代码内的文本。 |
 
-### setIgnoreFields(boolean value) {#setIgnoreFields-boolean-}
+### setIgnore字段(boolean value) {#setIgnore字段-boolean-}
 ```
-public void setIgnoreFields(boolean value)
+public void setIgnore字段(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore text inside fields. The default value is  false .
+设置一个布尔值，指示忽略字段内的文本。默认值为 false 。
 
-This option affects whole field (all nodes between [NodeType.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START) and [NodeType.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)).
+此选项影响整个字段（之间的所有节点[Node类型.FIELD\_START](../../com.aspose.words/nodetype\#FIELD-START)和[Node类型.FIELD\_END](../../com.aspose.words/nodetype\#FIELD-END)）。
 
-To ignore only field codes, please use corresponding option [getIgnoreFieldCodes()](../../com.aspose.words/findreplaceoptions\#getIgnoreFieldCodes--) / [setIgnoreFieldCodes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnoreFieldCodes-boolean-).
+要仅忽略域代码，请使用相应的选项[getIgnore字段Codes()](../../com.aspose.words/findreplaceoptions\#getIgnore字段Codes--) / [setIgnore字段Codes(boolean)](../../com.aspose.words/findreplaceoptions\#setIgnore字段Codes-boolean-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore text inside fields. |
+| value | boolean | 一个布尔值，指示忽略字段内的文本。 |
 
 ### setIgnoreFootnotes(boolean value) {#setIgnoreFootnotes-boolean-}
 ```
@@ -421,12 +421,12 @@ public void setIgnoreFootnotes(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore footnotes. The default value is  false .
+设置一个布尔值，指示忽略脚注。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore footnotes. |
+| value | boolean | 一个布尔值，指示忽略脚注。 |
 
 ### setIgnoreInserted(boolean value) {#setIgnoreInserted-boolean-}
 ```
@@ -434,12 +434,12 @@ public void setIgnoreInserted(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore text inside insert revisions. The default value is  false .
+设置一个布尔值，指示忽略插入修订中的文本。默认值为 false 。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore text inside insert revisions. |
+| value | boolean | 一个布尔值，指示忽略插入修订中的文本。 |
 
 ### setIgnoreStructuredDocumentTags(boolean value) {#setIgnoreStructuredDocumentTags-boolean-}
 ```
@@ -447,16 +447,16 @@ public void setIgnoreStructuredDocumentTags(boolean value)
 ```
 
 
-Sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). The default value is  false .
+设置一个布尔值，指示要么忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag).默认值为 false 。
 
-When this option is set to  true , the content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be treated as a simple text.
+当此选项设置为 true 时，[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)将被视为简单文本。
 
-Otherwise, [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) will be processed as standalone Story and replacing pattern will be searched separately for each [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), so that if pattern crosses a [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag), then replacement will not be performed for such pattern.
+否则，[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)将作为独立故事处理，替换模式将分别搜索每个[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)，所以如果模式穿过[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)，则不会对此类模式执行替换。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating either to ignore content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
+| value | boolean | 一个布尔值，指示要么忽略[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag). |
 
 ### setLegacyMode(boolean value) {#setLegacyMode-boolean-}
 ```
@@ -464,12 +464,12 @@ public void setLegacyMode(boolean value)
 ```
 
 
-Sets a boolean value indicating that old find/replace algorithm is used. Use this flag if you need exactly the same behavior as before advanced find/replace feature was introduced. Note that old algorithm does not support advanced features such as replace with breaks, apply formatting and so on.
+设置一个布尔值，指示使用旧的查找/替换算法。如果您需要与引入高级查找/替换功能之前完全相同的行为，请使用此标志。请注意，旧算法不支持高级功能，例如用换行符替换、应用格式等。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating that old find/replace algorithm is used. |
+| value | boolean | 一个布尔值，指示使用旧的查找/替换算法。 |
 
 ### setMatchCase(boolean value) {#setMatchCase-boolean-}
 ```
@@ -477,12 +477,12 @@ public void setMatchCase(boolean value)
 ```
 
 
-True indicates case-sensitive comparison, false indicates case-insensitive comparison.
+True 表示区分大小写比较，false 表示不区分大小写比较。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setReplacingCallback(IReplacingCallback value) {#setReplacingCallback-com.aspose.words.IReplacingCallback-}
 ```
@@ -490,12 +490,12 @@ public void setReplacingCallback(IReplacingCallback value)
 ```
 
 
-The user-defined method which is called before every replace occurrence.
+在每次替换发生之前调用的用户定义方法。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) | The corresponding [IReplacingCallback](../../com.aspose.words/ireplacingcallback) value. |
+| value | [IReplacingCallback](../../com.aspose.words/ireplacingcallback) | 相应的[IReplacingCallback](../../com.aspose.words/ireplacingcallback)价值。 |
 
 ### setSmartParagraphBreakReplacement(boolean value) {#setSmartParagraphBreakReplacement-boolean-}
 ```
@@ -503,16 +503,16 @@ public void setSmartParagraphBreakReplacement(boolean value)
 ```
 
 
-Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph.
+获取或设置一个布尔值，指示在没有下一个同级段落时是否允许替换段落分隔符。
 
-The default value is  false .
+默认值为 false 。
 
-This option allows to replace paragraph break when there is no next sibling paragraph to which all child nodes can be moved, by finding any (not necessarily sibling) next paragraph after the paragraph being replaced.
+此选项允许在没有可以将所有子节点移动到的下一个兄弟段落时替换段落分隔符，方法是在被替换的段落之后查找任何（不一定是兄弟）下一个段落。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setUseLegacyOrder(boolean value) {#setUseLegacyOrder-boolean-}
 ```
@@ -520,12 +520,12 @@ public void setUseLegacyOrder(boolean value)
 ```
 
 
-True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false.
+True 表示考虑到文本框，从上到下顺序执行文本搜索。默认值为假。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setUseSubstitutions(boolean value) {#setUseSubstitutions-boolean-}
 ```
@@ -533,12 +533,12 @@ public void setUseSubstitutions(boolean value)
 ```
 
 
-Sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is  false . For the details on substitution elements please refer to: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+设置一个布尔值，指示是否在替换模式中识别和使用替换。默认值为 false 。有关替换元素的详细信息，请参阅：https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | A boolean value indicating whether to recognize and use substitutions within replacement patterns. |
+| value | boolean | 一个布尔值，指示是否在替换模式中识别和使用替换。 |
 
 ### toString() {#toString--}
 ```
@@ -548,7 +548,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -566,8 +566,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -579,9 +579,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

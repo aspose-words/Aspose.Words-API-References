@@ -1,109 +1,109 @@
 ---
 title: BuiltInDocumentProperties
-second_title: Aspose.Words for Java API Reference
-description: A collection of built-in document properties.
+second_title: Aspose.Words for Java API 参考
+description: 内置文档属性的集合。
 type: docs
 weight: 46
-url: /java/com.aspose.words/builtindocumentproperties/
+url: /zh/java/com.aspose.words/builtindocumentproperties/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object, [com.aspose.words.DocumentPropertyCollection](../../com.aspose.words/documentpropertycollection)
 ```
 public class BuiltInDocumentProperties extends DocumentPropertyCollection
 ```
 
-A collection of built-in document properties.
+内置文档属性的集合。
 
-To learn more, visit the **Work with Document Properties** documentation article.
+要了解更多信息，请访问**Work with Document Properties**文档文章。
 
-Provides access to [DocumentProperty](../../com.aspose.words/documentproperty) objects by their names (using an indexer) and via a set of typed properties that return values of appropriate types.
+提供访问[DocumentProperty](../../com.aspose.words/documentproperty)对象的名称（使用索引器）和一组类型化的属性，这些属性返回适当类型的值。
 
-The names of the properties are case-insensitive.
+属性名称不区分大小写。
 
-The properties in the collection are sorted alphabetically by name.
-## Methods
+集合中的属性按名称的字母顺序排序。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clear()](#clear--) | Removes all properties from the collection. |
-| [contains(String name)](#contains-java.lang.String-) | Returns true if a property with the specified name exists in the collection. |
+| [clear()](#clear--) | 从集合中删除所有属性。 |
+| [contains(String name)](#contains-java.lang.String-) | 如果集合中存在具有指定名称的属性，则返回 true。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
-| [get(String name)](#get-java.lang.String-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object. |
-| [getAuthor()](#getAuthor--) | Gets the name of the document's author. |
-| [getBytes()](#getBytes--) | Represents an estimate of the number of bytes in the document. |
-| [getCategory()](#getCategory--) | Gets the category of the document. |
-| [getCharacters()](#getCharacters--) | Represents an estimate of the number of characters in the document. |
-| [getCharactersWithSpaces()](#getCharactersWithSpaces--) | Represents an estimate of the number of characters (including spaces) in the document. |
-| [getClass()](#getClass--) |  |
-| [getComments()](#getComments--) | Gets the document comments. |
-| [getCompany()](#getCompany--) | Gets the company property. |
-| [getContentStatus()](#getContentStatus--) | Gets the ContentStatus of the document. |
-| [getContentType()](#getContentType--) | Gets the ContentStatus of the document. |
-| [getCount()](#getCount--) | Gets number of items in the collection. |
-| [getCreatedTime()](#getCreatedTime--) | Gets date of the document creation in UTC. |
-| [getHeadingPairs()](#getHeadingPairs--) | Specifies document headings and their names. |
-| [getHyperlinkBase()](#getHyperlinkBase--) | Specifies the base string used for evaluating relative hyperlinks in this document. |
-| [getKeywords()](#getKeywords--) | Gets the document keywords. |
-| [getLastPrinted()](#getLastPrinted--) | Gets the date when the document was last printed in UTC. |
-| [getLastSavedBy()](#getLastSavedBy--) | Gets the name of the last author. |
-| [getLastSavedTime()](#getLastSavedTime--) | Gets the time of the last save in UTC. |
-| [getLines()](#getLines--) | Represents an estimate of the number of lines in the document. |
-| [getLinksUpToDate()](#getLinksUpToDate--) | Indicates whether hyperlinks in a document are up-to-date. |
-| [getManager()](#getManager--) | Gets the manager property. |
-| [getNameOfApplication()](#getNameOfApplication--) | Gets the name of the application. |
-| [getPages()](#getPages--) | Represents an estimate of the number of pages in the document. |
-| [getParagraphs()](#getParagraphs--) | Represents an estimate of the number of paragraphs in the document. |
-| [getRevisionNumber()](#getRevisionNumber--) | Gets the document revision number. |
-| [getSecurity()](#getSecurity--) | Specifies the security level of a document as a numeric value. |
-| [getSubject()](#getSubject--) | Gets the subject of the document. |
-| [getTemplate()](#getTemplate--) | Gets the informational name of the document template. |
-| [getThumbnail()](#getThumbnail--) | Gets or sets the thumbnail of the document. |
-| [getTitle()](#getTitle--) | Gets the title of the document. |
-| [getTitlesOfParts()](#getTitlesOfParts--) | Each string in the array specifies the name of a part in the document. |
-| [getTotalEditingTime()](#getTotalEditingTime--) | Gets the total editing time in minutes. |
-| [getVersion()](#getVersion--) | Represents the version number of the application that created the document. |
-| [getWords()](#getWords--) | Represents an estimate of the number of words in the document. |
+| [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
+| [get(String name)](#get-java.lang.String-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)目的。 |
+| [getAuthor()](#getAuthor--) | 获取文档作者的姓名。 |
+| [getBytes()](#getBytes--) | 表示文档中字节数的估计值。 |
+| [getCategory()](#getCategory--) | 获取文档的类别。 |
+| [getCharacters()](#getCharacters--) | 表示文档中字符数的估计值。 |
+| [getCharactersWithSpaces()](#getCharactersWithSpaces--) | 表示文档中字符数（包括空格）的估计值。 |
+| [get班级()](#get班级--) |  |
+| [getComments()](#getComments--) | 获取文档注释。 |
+| [getCompany()](#getCompany--) | 获取公司属性。 |
+| [getContentStatus()](#getContentStatus--) | 获取文档的 ContentStatus。 |
+| [getContent类型()](#getContent类型--) | 获取文档的 ContentStatus。 |
+| [getCount()](#getCount--) | 获取集合中的项目数。 |
+| [getCreatedTime()](#getCreatedTime--) | 获取 UTC 格式的文档创建日期。 |
+| [getHeadingPairs()](#getHeadingPairs--) | 指定文档标题及其名称。 |
+| [getHyperlinkBase()](#getHyperlinkBase--) | 指定用于评估本文档中的相对超链接的基本字符串。 |
+| [getKeywords()](#getKeywords--) | 获取文档关键字。 |
+| [getLastPrinted()](#getLastPrinted--) | 获取文档最后以 UTC 打印的日期。 |
+| [getLastSavedBy()](#getLastSavedBy--) | 获取最后一位作者的姓名。 |
+| [getLastSavedTime()](#getLastSavedTime--) | 以 UTC 格式获取上次保存的时间。 |
+| [getLines()](#getLines--) | 表示文档中行数的估计值。 |
+| [getLinksUpToDate()](#getLinksUpToDate--) | 指示文档中的超链接是否是最新的。 |
+| [getManager()](#getManager--) | 获取经理属性。 |
+| [getNameOfApplication()](#getNameOfApplication--) | 获取应用程序的名称。 |
+| [getPages()](#getPages--) | 表示文档中页数的估计值。 |
+| [getParagraphs()](#getParagraphs--) | 表示文档中段落数的估计值。 |
+| [getRevisionNumber()](#getRevisionNumber--) | 获取文档修订号。 |
+| [getSecurity()](#getSecurity--) | 将文档的安全级别指定为数值。 |
+| [getSubject()](#getSubject--) | 获取文档的主题。 |
+| [getTemplate()](#getTemplate--) | 获取文档模板的信息名称。 |
+| [getThumbnail()](#getThumbnail--) | 获取或设置文档的缩略图。 |
+| [getTitle()](#getTitle--) | 获取文档的标题。 |
+| [getTitlesOfParts()](#getTitlesOfParts--) | 数组中的每个字符串都指定文档中某个部分的名称。 |
+| [getTotalEditingTime()](#getTotalEditingTime--) | 以分钟为单位获取总编辑时间。 |
+| [getVersion()](#getVersion--) | 表示创建文档的应用程序的版本号。 |
+| [getWords()](#getWords--) | 表示文档中字数的估计值。 |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(String name)](#indexOf-java.lang.String-) | Gets the index of a property by name. |
-| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
+| [indexOf(String name)](#indexOf-java.lang.String-) | 按名称获取属性的索引。 |
+| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
-| [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
-| [setAuthor(String value)](#setAuthor-java.lang.String-) | Sets the name of the document's author. |
-| [setBytes(int value)](#setBytes-int-) | Represents an estimate of the number of bytes in the document. |
-| [setCategory(String value)](#setCategory-java.lang.String-) | Sets the category of the document. |
-| [setCharacters(int value)](#setCharacters-int-) | Represents an estimate of the number of characters in the document. |
-| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | Represents an estimate of the number of characters (including spaces) in the document. |
-| [setComments(String value)](#setComments-java.lang.String-) | Sets the document comments. |
-| [setCompany(String value)](#setCompany-java.lang.String-) | Sets the company property. |
-| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | Sets the ContentStatus of the document. |
-| [setContentType(String value)](#setContentType-java.lang.String-) | Sets the ContentStatus of the document. |
-| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date-) | Sets date of the document creation in UTC. |
-| [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object---) | Specifies document headings and their names. |
-| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | Specifies the base string used for evaluating relative hyperlinks in this document. |
-| [setKeywords(String value)](#setKeywords-java.lang.String-) | Sets the document keywords. |
-| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date-) | Sets the date when the document was last printed in UTC. |
-| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | Sets the name of the last author. |
-| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date-) | Sets the time of the last save in UTC. |
-| [setLines(int value)](#setLines-int-) | Represents an estimate of the number of lines in the document. |
-| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | Indicates whether hyperlinks in a document are up-to-date. |
-| [setManager(String value)](#setManager-java.lang.String-) | Sets the manager property. |
-| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | Sets the name of the application. |
-| [setPages(int value)](#setPages-int-) | Represents an estimate of the number of pages in the document. |
-| [setParagraphs(int value)](#setParagraphs-int-) | Represents an estimate of the number of paragraphs in the document. |
-| [setRevisionNumber(int value)](#setRevisionNumber-int-) | Sets the document revision number. |
-| [setSecurity(int value)](#setSecurity-int-) | Specifies the security level of a document as a numeric value. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the document. |
-| [setTemplate(String value)](#setTemplate-java.lang.String-) | Sets the informational name of the document template. |
-| [setThumbnail(byte[] value)](#setThumbnail-byte---) | Gets or sets the thumbnail of the document. |
-| [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title of the document. |
-| [setTitlesOfParts(String[] value)](#setTitlesOfParts-java.lang.String---) | Each string in the array specifies the name of a part in the document. |
-| [setTotalEditingTime(int value)](#setTotalEditingTime-int-) | Sets the total editing time in minutes. |
-| [setVersion(int value)](#setVersion-int-) | Represents the version number of the application that created the document. |
-| [setWords(int value)](#setWords-int-) | Represents an estimate of the number of words in the document. |
+| [remove(String name)](#remove-java.lang.String-) | 从集合中移除具有指定名称的属性。 |
+| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的属性。 |
+| [setAuthor(String value)](#setAuthor-java.lang.String-) | 设置文档作者的姓名。 |
+| [setBytes(int value)](#setBytes-int-) | 表示文档中字节数的估计值。 |
+| [setCategory(String value)](#setCategory-java.lang.String-) | 设置文档的类别。 |
+| [setCharacters(int value)](#setCharacters-int-) | 表示文档中字符数的估计值。 |
+| [setCharactersWithSpaces(int value)](#setCharactersWithSpaces-int-) | 表示文档中字符数（包括空格）的估计值。 |
+| [setComments(String value)](#setComments-java.lang.String-) | 设置文档注释。 |
+| [setCompany(String value)](#setCompany-java.lang.String-) | 设置公司属性。 |
+| [setContentStatus(String value)](#setContentStatus-java.lang.String-) | 设置文档的 ContentStatus。 |
+| [setContent类型(String value)](#setContent类型-java.lang.String-) | 设置文档的 ContentStatus。 |
+| [setCreatedTime(Date value)](#setCreatedTime-java.util.Date-) | 以 UTC 设置文档创建日期。 |
+| [setHeadingPairs(Object[] value)](#setHeadingPairs-java.lang.Object---) | 指定文档标题及其名称。 |
+| [setHyperlinkBase(String value)](#setHyperlinkBase-java.lang.String-) | 指定用于评估本文档中的相对超链接的基本字符串。 |
+| [setKeywords(String value)](#setKeywords-java.lang.String-) | 设置文档关键字。 |
+| [setLastPrinted(Date value)](#setLastPrinted-java.util.Date-) | 设置文档最后一次打印的日期，采用 UTC。 |
+| [setLastSavedBy(String value)](#setLastSavedBy-java.lang.String-) | 设置最后一位作者的姓名。 |
+| [setLastSavedTime(Date value)](#setLastSavedTime-java.util.Date-) | 以 UTC 设置上次保存的时间。 |
+| [setLines(int value)](#setLines-int-) | 表示文档中行数的估计值。 |
+| [setLinksUpToDate(boolean value)](#setLinksUpToDate-boolean-) | 指示文档中的超链接是否是最新的。 |
+| [setManager(String value)](#setManager-java.lang.String-) | 设置管理器属性。 |
+| [setNameOfApplication(String value)](#setNameOfApplication-java.lang.String-) | 设置应用程序的名称。 |
+| [setPages(int value)](#setPages-int-) | 表示文档中页数的估计值。 |
+| [setParagraphs(int value)](#setParagraphs-int-) | 表示文档中段落数的估计值。 |
+| [setRevisionNumber(int value)](#setRevisionNumber-int-) | 设置文档修订号。 |
+| [setSecurity(int value)](#setSecurity-int-) | 将文档的安全级别指定为数值。 |
+| [setSubject(String value)](#setSubject-java.lang.String-) | 设置文档的主题。 |
+| [setTemplate(String value)](#setTemplate-java.lang.String-) | 设置文档模板的信息名称。 |
+| [setThumbnail(byte[] value)](#setThumbnail-byte---) | 获取或设置文档的缩略图。 |
+| [setTitle(String value)](#setTitle-java.lang.String-) | 设置文档的标题。 |
+| [setTitlesOfParts(String[] value)](#setTitlesOfParts-java.lang.String---) | 数组中的每个字符串都指定文档中某个部分的名称。 |
+| [setTotalEditingTime(int value)](#setTotalEditingTime-int-) | 以分钟为单位设置总编辑时间。 |
+| [setVersion(int value)](#setVersion-int-) | 表示创建文档的应用程序的版本号。 |
+| [setWords(int value)](#setWords-int-) | 表示文档中字数的估计值。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -114,7 +114,7 @@ public void clear()
 ```
 
 
-Removes all properties from the collection.
+从集合中删除所有属性。
 
 ### contains(String name) {#contains-java.lang.String-}
 ```
@@ -122,15 +122,15 @@ public boolean contains(String name)
 ```
 
 
-Returns true if a property with the specified name exists in the collection.
+如果集合中存在具有指定名称的属性，则返回 true。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**Returns:**
-boolean - True if the property exists in the collection; false otherwise.
+**退货:**
+boolean - 如果属性存在于集合中，则为真；否则为假。
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -139,459 +139,459 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
 public DocumentProperty get(int index)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty) to retrieve. |
+| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
 ### get(String name) {#get-java.lang.String-}
 ```
 public DocumentProperty get(String name)
 ```
 
 
-Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by the name of the property.
+返回一个[DocumentProperty](../../com.aspose.words/documentproperty)目的。返回一个[DocumentProperty](../../com.aspose.words/documentproperty)对象的属性名称。
 
-The string names of the properties correspond to the names of the typed properties available from [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties).
+属性的字符串名称对应于可用的类型化属性的名称[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties).
 
-If you request a property that is not present in the document, but the name of the property is recognized as a valid built-in name, a new [DocumentProperty](../../com.aspose.words/documentproperty) is created, added to the collection and returned. The newly created property is assigned a default value (empty string, zero, false or DateTime.MinValue depending on the type of the built-in property).
+如果您请求文档中不存在的属性，但该属性的名称被识别为有效的内置名称，则新的[DocumentProperty](../../com.aspose.words/documentproperty)被创建，添加到集合并返回。新创建的属性被分配了一个默认值（空字符串、零、false 或 DateTime.MinValue，具体取决于内置属性的类型）。
 
-If you request a property that is not present in the document and the name is not recognized as a built-in name, a null is returned.
+如果您请求文档中不存在的属性并且该名称未被识别为内置名称，则返回 null。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property to retrieve. |
+| name | java.lang.String | 要检索的属性的不区分大小写的名称。 |
 
-**Returns:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
+**退货:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
 ```
 
 
-Gets the name of the document's author.
+获取文档作者的姓名。
 
-**Returns:**
-java.lang.String - The name of the document's author.
+**退货:**
+java.lang.String - 文档作者的姓名。
 ### getBytes() {#getBytes--}
 ```
 public int getBytes()
 ```
 
 
-Represents an estimate of the number of bytes in the document.
+表示文档中字节数的估计值。
 
-Microsoft Word does not always set this property.
+Microsoft Word 并不总是设置此属性。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getCategory() {#getCategory--}
 ```
 public String getCategory()
 ```
 
 
-Gets the category of the document.
+获取文档的类别。
 
-**Returns:**
-java.lang.String - The category of the document.
+**退货:**
+java.lang.String - 文档的类别。
 ### getCharacters() {#getCharacters--}
 ```
 public int getCharacters()
 ```
 
 
-Represents an estimate of the number of characters in the document.
+表示文档中字符数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getCharactersWithSpaces() {#getCharactersWithSpaces--}
 ```
 public int getCharactersWithSpaces()
 ```
 
 
-Represents an estimate of the number of characters (including spaces) in the document.
+表示文档中字符数（包括空格）的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Returns:**
-int - The corresponding  int  value.
-### getClass() {#getClass--}
+**退货:**
+int - 对应的 int 值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
 ```
 
 
-Gets the document comments.
+获取文档注释。
 
-**Returns:**
-java.lang.String - The document comments.
+**退货:**
+java.lang.String - 文档注释。
 ### getCompany() {#getCompany--}
 ```
 public String getCompany()
 ```
 
 
-Gets the company property.
+获取公司属性。
 
-**Returns:**
-java.lang.String - The company property.
+**退货:**
+java.lang.String - 公司属性。
 ### getContentStatus() {#getContentStatus--}
 ```
 public String getContentStatus()
 ```
 
 
-Gets the ContentStatus of the document.
+获取文档的 ContentStatus。
 
-**Returns:**
-java.lang.String - The ContentStatus of the document.
-### getContentType() {#getContentType--}
+**退货:**
+java.lang.String - 文档的 ContentStatus。
+### getContent类型() {#getContent类型--}
 ```
-public String getContentType()
+public String getContent类型()
 ```
 
 
-Gets the ContentStatus of the document.
+获取文档的 ContentStatus。
 
-**Returns:**
-java.lang.String - The ContentStatus of the document.
+**退货:**
+java.lang.String - 文档的 ContentStatus。
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Gets number of items in the collection.
+获取集合中的项目数。
 
-**Returns:**
-int - Number of items in the collection.
+**退货:**
+int - 集合中的项目数。
 ### getCreatedTime() {#getCreatedTime--}
 ```
 public Date getCreatedTime()
 ```
 
 
-Gets date of the document creation in UTC.
+获取 UTC 格式的文档创建日期。
 
-For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
+对于源自 RTF 格式的文档，此属性返回创建文档时作者机器的本地时间。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.util.Date - Date of the document creation in UTC.
+**退货:**
+java.util.Date - UTC 格式的文档创建日期。
 ### getHeadingPairs() {#getHeadingPairs--}
 ```
 public Object[] getHeadingPairs()
 ```
 
 
-Specifies document headings and their names.
+指定文档标题及其名称。
 
-Every heading pair occupies two elements in this array.
+每个标题对占用此数组中的两个元素。
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+该对的第一个元素是 java.lang.String 并指定标题名称。该对的第二个元素是一个 int 并指定该标题在[getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---)财产。
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+此属性中所有标题对的总计数必须等于[getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---)财产。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.lang.Object[] - The corresponding java.lang.Object[] value.
+**退货:**
+java.lang.Object[- 对应的 java.lang.Object[] 价值。
 ### getHyperlinkBase() {#getHyperlinkBase--}
 ```
 public String getHyperlinkBase()
 ```
 
 
-Specifies the base string used for evaluating relative hyperlinks in this document.
+指定用于评估本文档中的相对超链接的基本字符串。
 
-Aspose.Words does not use this property.
+Aspose.Words 不使用此属性。
 
-**Returns:**
-java.lang.String - The corresponding java.lang.String value.
+**退货:**
+java.lang.String - 对应的 java.lang.String 值。
 ### getKeywords() {#getKeywords--}
 ```
 public String getKeywords()
 ```
 
 
-Gets the document keywords.
+获取文档关键字。
 
-**Returns:**
-java.lang.String - The document keywords.
+**退货:**
+java.lang.String - 文档关键字。
 ### getLastPrinted() {#getLastPrinted--}
 ```
 public Date getLastPrinted()
 ```
 
 
-Gets the date when the document was last printed in UTC.
+获取文档最后以 UTC 打印的日期。
 
-For documents originated from RTF format this property returns the local time of last print operation.
+对于源自 RTF 格式的文档，此属性返回上次打印操作的本地时间。
 
-If the document was never printed, this property will return DateTime.MinValue.
+如果从未打印过文档，则此属性将返回 DateTime.MinValue。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.util.Date - The date when the document was last printed in UTC.
+**退货:**
+java.util.Date - 上次以 UTC 打印文档的日期。
 ### getLastSavedBy() {#getLastSavedBy--}
 ```
 public String getLastSavedBy()
 ```
 
 
-Gets the name of the last author.
+获取最后一位作者的姓名。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.lang.String - The name of the last author.
+**退货:**
+java.lang.String - 最后一个作者的名字。
 ### getLastSavedTime() {#getLastSavedTime--}
 ```
 public Date getLastSavedTime()
 ```
 
 
-Gets the time of the last save in UTC.
+以 UTC 格式获取上次保存的时间。
 
-For documents originated from RTF format this property returns the local time of last save operation.
+对于源自 RTF 格式的文档，此属性返回上次保存操作的本地时间。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.util.Date - The time of the last save in UTC.
+**退货:**
+java.util.Date - 以 UTC 格式保存的最后时间。
 ### getLines() {#getLines--}
 ```
 public int getLines()
 ```
 
 
-Represents an estimate of the number of lines in the document.
+表示文档中行数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getLinksUpToDate() {#getLinksUpToDate--}
 ```
 public boolean getLinksUpToDate()
 ```
 
 
-Indicates whether hyperlinks in a document are up-to-date.
+指示文档中的超链接是否是最新的。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getManager() {#getManager--}
 ```
 public String getManager()
 ```
 
 
-Gets the manager property.
+获取经理属性。
 
-**Returns:**
-java.lang.String - The manager property.
+**退货:**
+java.lang.String - 管理器属性。
 ### getNameOfApplication() {#getNameOfApplication--}
 ```
 public String getNameOfApplication()
 ```
 
 
-Gets the name of the application.
+获取应用程序的名称。
 
-**Returns:**
-java.lang.String - The name of the application.
+**退货:**
+java.lang.String - 应用程序的名称。
 ### getPages() {#getPages--}
 ```
 public int getPages()
 ```
 
 
-Represents an estimate of the number of pages in the document.
+表示文档中页数的估计值。
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+ Aspose.Words 在您调用时更新此属性[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getParagraphs() {#getParagraphs--}
 ```
 public int getParagraphs()
 ```
 
 
-Represents an estimate of the number of paragraphs in the document.
+表示文档中段落数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getRevisionNumber() {#getRevisionNumber--}
 ```
 public int getRevisionNumber()
 ```
 
 
-Gets the document revision number.
+获取文档修订号。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-int - The document revision number.
+**退货:**
+int - 文档修订号。
 ### getSecurity() {#getSecurity--}
 ```
 public int getSecurity()
 ```
 
 
-Specifies the security level of a document as a numeric value.
+将文档的安全级别指定为数值。
 
-Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
+将此属性仅用于提供信息，因为 Microsoft Word 并不总是设置此属性。此属性仅在 DOC 和 OOXML 文档中可用。
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect--) methods.
+要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
 
-Aspose.Words updates this property to a correct value before saving a document.
+Aspose.Words 在保存文档之前将此属性更新为正确的值。
 
-**Returns:**
-int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants.
+**退货:**
+ int - 对应的 int 值。返回值是按位组合[DocumentSecurity](../../com.aspose.words/documentsecurity)常数。
 ### getSubject() {#getSubject--}
 ```
 public String getSubject()
 ```
 
 
-Gets the subject of the document.
+获取文档的主题。
 
-**Returns:**
-java.lang.String - The subject of the document.
+**退货:**
+java.lang.String - 文档的主题。
 ### getTemplate() {#getTemplate--}
 ```
 public String getTemplate()
 ```
 
 
-Gets the informational name of the document template.
+获取文档模板的信息名称。
 
-In Microsoft Word, this property is for informational purposes only and usually contains only the file name of the template without the path.
+在 Microsoft Word 中，此属性仅供参考，通常仅包含模板的文件名而不包含路径。
 
-Empty string means the document is attached to the Normal template.
+空字符串表示文档附加到 Normal 模板。
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property.
+要获取或设置附加模板的实际名称，请使用[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)财产。
 
-**Returns:**
-java.lang.String - The informational name of the document template.
+**退货:**
+java.lang.String - 文档模板的信息名称。
 ### getThumbnail() {#getThumbnail--}
 ```
 public byte[] getThumbnail()
 ```
 
 
-Gets or sets the thumbnail of the document.
+获取或设置文档的缩略图。
 
-For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
+目前，此属性仅在将文档导出到 ePub 时使用，它不会从其他文档格式读取和写入。
 
-Image of arbitrary format can be set to this property, but the format is checked during export. java.lang.IllegalStateException is thrown if the image is invalid or its format is unsupported for specific format of document.
+该属性可以设置任意格式的图像，但在导出时会检查格式。如果图像无效或其格式不支持特定格式的文档，则抛出 java.lang.IllegalStateException。
 
-Only gif, jpeg and png images can be used for ePub publication.
+只有 gif、jpeg 和 png 图像可用于 ePub 发布。
 
-**Returns:**
-byte[] - The corresponding byte[] value.
+**退货:**
+字节[- 对应的字节[] 价值。
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-Gets the title of the document.
+获取文档的标题。
 
-**Returns:**
-java.lang.String - The title of the document.
+**退货:**
+java.lang.String - 文档的标题。
 ### getTitlesOfParts() {#getTitlesOfParts--}
 ```
 public String[] getTitlesOfParts()
 ```
 
 
-Each string in the array specifies the name of a part in the document.
+数组中的每个字符串都指定文档中某个部分的名称。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Returns:**
-java.lang.String[] - The corresponding java.lang.String[] value.
+**退货:**
+java.lang.String[] - 对应的 java.lang.String[] 价值。
 ### getTotalEditingTime() {#getTotalEditingTime--}
 ```
 public int getTotalEditingTime()
 ```
 
 
-Gets the total editing time in minutes.
+以分钟为单位获取总编辑时间。
 
-**Returns:**
-int - The total editing time in minutes.
+**退货:**
+int - 以分钟为单位的总编辑时间。
 ### getVersion() {#getVersion--}
 ```
 public int getVersion()
 ```
 
 
-Represents the version number of the application that created the document.
+表示创建文档的应用程序的版本号。
 
-When a document was created by Microsoft Word, then high 16 bit represent the major version and low 16 bit represent the build number.
+当文档由 Microsoft Word 创建时，高 16 位代表主要版本，低 16 位代表内部版本号。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getWords() {#getWords--}
 ```
 public int getWords()
 ```
 
 
-Represents an estimate of the number of words in the document.
+表示文档中字数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -600,34 +600,34 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### indexOf(String name) {#indexOf-java.lang.String-}
 ```
 public int indexOf(String name)
 ```
 
 
-Gets the index of a property by name.
+按名称获取属性的索引。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
-**Returns:**
-int - The zero based index. Negative value if not found.
+**退货:**
+int - 从零开始的索引。如果未找到，则为负值。
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an iterator object that can be used to iterate over all items in the collection.
+返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -651,12 +651,12 @@ public void remove(String name)
 ```
 
 
-Removes a property with the specified name from the collection.
+从集合中移除具有指定名称的属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| name | java.lang.String | The case-insensitive name of the property. |
+| name | java.lang.String | 不区分大小写的属性名称。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -664,14 +664,14 @@ public void removeAt(int index)
 ```
 
 
-Removes a property at the specified index.
+删除指定索引处的属性。
 
-**Note:**  In Java this method is slow because iterates over all nodes.
+**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | The zero based index. |
+| index | int | 从零开始的索引。 |
 
 ### setAuthor(String value) {#setAuthor-java.lang.String-}
 ```
@@ -679,12 +679,12 @@ public void setAuthor(String value)
 ```
 
 
-Sets the name of the document's author.
+设置文档作者的姓名。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the document's author. |
+| value | java.lang.String | 文档作者的姓名。 |
 
 ### setBytes(int value) {#setBytes-int-}
 ```
@@ -692,16 +692,16 @@ public void setBytes(int value)
 ```
 
 
-Represents an estimate of the number of bytes in the document.
+表示文档中字节数的估计值。
 
-Microsoft Word does not always set this property.
+Microsoft Word 并不总是设置此属性。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setCategory(String value) {#setCategory-java.lang.String-}
 ```
@@ -709,12 +709,12 @@ public void setCategory(String value)
 ```
 
 
-Sets the category of the document.
+设置文档的类别。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The category of the document. |
+| value | java.lang.String | 文档的类别。 |
 
 ### setCharacters(int value) {#setCharacters-int-}
 ```
@@ -722,14 +722,14 @@ public void setCharacters(int value)
 ```
 
 
-Represents an estimate of the number of characters in the document.
+表示文档中字符数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setCharactersWithSpaces(int value) {#setCharactersWithSpaces-int-}
 ```
@@ -737,14 +737,14 @@ public void setCharactersWithSpaces(int value)
 ```
 
 
-Represents an estimate of the number of characters (including spaces) in the document.
+表示文档中字符数（包括空格）的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setComments(String value) {#setComments-java.lang.String-}
 ```
@@ -752,12 +752,12 @@ public void setComments(String value)
 ```
 
 
-Sets the document comments.
+设置文档注释。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The document comments. |
+| value | java.lang.String | 文件评论。 |
 
 ### setCompany(String value) {#setCompany-java.lang.String-}
 ```
@@ -765,12 +765,12 @@ public void setCompany(String value)
 ```
 
 
-Sets the company property.
+设置公司属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The company property. |
+| value | java.lang.String | 公司财产。 |
 
 ### setContentStatus(String value) {#setContentStatus-java.lang.String-}
 ```
@@ -778,25 +778,25 @@ public void setContentStatus(String value)
 ```
 
 
-Sets the ContentStatus of the document.
+设置文档的 ContentStatus。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The ContentStatus of the document. |
+| value | java.lang.String | 文档的 ContentStatus。 |
 
-### setContentType(String value) {#setContentType-java.lang.String-}
+### setContent类型(String value) {#setContent类型-java.lang.String-}
 ```
-public void setContentType(String value)
+public void setContent类型(String value)
 ```
 
 
-Sets the ContentStatus of the document.
+设置文档的 ContentStatus。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The ContentStatus of the document. |
+| value | java.lang.String | 文档的 ContentStatus。 |
 
 ### setCreatedTime(Date value) {#setCreatedTime-java.util.Date-}
 ```
@@ -804,16 +804,16 @@ public void setCreatedTime(Date value)
 ```
 
 
-Sets date of the document creation in UTC.
+以 UTC 设置文档创建日期。
 
-For documents originated from RTF format this property returns local time of the author's machine at the moment of document creation.
+对于源自 RTF 格式的文档，此属性返回创建文档时作者机器的本地时间。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | Date of the document creation in UTC. |
+| value | java.util.Date | UTC 格式的文档创建日期。 |
 
 ### setHeadingPairs(Object[] value) {#setHeadingPairs-java.lang.Object---}
 ```
@@ -821,20 +821,20 @@ public void setHeadingPairs(Object[] value)
 ```
 
 
-Specifies document headings and their names.
+指定文档标题及其名称。
 
-Every heading pair occupies two elements in this array.
+每个标题对占用此数组中的两个元素。
 
-The first element of the pair is a java.lang.String and specifies the heading name. The second element of the pair is an int and specifies the count of document parts for this heading in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+该对的第一个元素是 java.lang.String 并指定标题名称。该对的第二个元素是一个 int 并指定该标题在[getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---)财产。
 
-The total sum of counts for all heading pairs in this property must be equal to the number of elements in the [getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---) property.
+此属性中所有标题对的总计数必须等于[getTitlesOfParts()](../../com.aspose.words/builtindocumentproperties\#getTitlesOfParts--) / [setTitlesOfParts(java.lang.String[])](../../com.aspose.words/builtindocumentproperties\#setTitlesOfParts-java.lang.String---)财产。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.Object[] | The corresponding java.lang.Object[] value. |
+| value | java.lang.Object[] | 对应的 java.lang.Object[] 价值。 |
 
 ### setHyperlinkBase(String value) {#setHyperlinkBase-java.lang.String-}
 ```
@@ -842,14 +842,14 @@ public void setHyperlinkBase(String value)
 ```
 
 
-Specifies the base string used for evaluating relative hyperlinks in this document.
+指定用于评估本文档中的相对超链接的基本字符串。
 
-Aspose.Words does not use this property.
+Aspose.Words 不使用此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The corresponding java.lang.String value. |
+| value | java.lang.String | 对应的 java.lang.String 值。 |
 
 ### setKeywords(String value) {#setKeywords-java.lang.String-}
 ```
@@ -857,12 +857,12 @@ public void setKeywords(String value)
 ```
 
 
-Sets the document keywords.
+设置文档关键字。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The document keywords. |
+| value | java.lang.String | 文档关键字。 |
 
 ### setLastPrinted(Date value) {#setLastPrinted-java.util.Date-}
 ```
@@ -870,18 +870,18 @@ public void setLastPrinted(Date value)
 ```
 
 
-Sets the date when the document was last printed in UTC.
+设置文档最后一次打印的日期，采用 UTC。
 
-For documents originated from RTF format this property returns the local time of last print operation.
+对于源自 RTF 格式的文档，此属性返回上次打印操作的本地时间。
 
-If the document was never printed, this property will return DateTime.MinValue.
+如果从未打印过文档，则此属性将返回 DateTime.MinValue。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The date when the document was last printed in UTC. |
+| value | java.util.Date | 上次以 UTC 打印文档的日期。 |
 
 ### setLastSavedBy(String value) {#setLastSavedBy-java.lang.String-}
 ```
@@ -889,14 +889,14 @@ public void setLastSavedBy(String value)
 ```
 
 
-Sets the name of the last author.
+设置最后一位作者的姓名。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the last author. |
+| value | java.lang.String | 最后一位作者的姓名。 |
 
 ### setLastSavedTime(Date value) {#setLastSavedTime-java.util.Date-}
 ```
@@ -904,16 +904,16 @@ public void setLastSavedTime(Date value)
 ```
 
 
-Sets the time of the last save in UTC.
+以 UTC 设置上次保存的时间。
 
-For documents originated from RTF format this property returns the local time of last save operation.
+对于源自 RTF 格式的文档，此属性返回上次保存操作的本地时间。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.util.Date | The time of the last save in UTC. |
+| value | java.util.Date | 最后一次保存的时间，以 UTC 表示。 |
 
 ### setLines(int value) {#setLines-int-}
 ```
@@ -921,14 +921,14 @@ public void setLines(int value)
 ```
 
 
-Represents an estimate of the number of lines in the document.
+表示文档中行数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount(boolean)](../../com.aspose.words/document\#updateWordCount-boolean-).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setLinksUpToDate(boolean value) {#setLinksUpToDate-boolean-}
 ```
@@ -936,14 +936,14 @@ public void setLinksUpToDate(boolean value)
 ```
 
 
-Indicates whether hyperlinks in a document are up-to-date.
+指示文档中的超链接是否是最新的。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setManager(String value) {#setManager-java.lang.String-}
 ```
@@ -951,12 +951,12 @@ public void setManager(String value)
 ```
 
 
-Sets the manager property.
+设置管理器属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The manager property. |
+| value | java.lang.String | 经理财产。 |
 
 ### setNameOfApplication(String value) {#setNameOfApplication-java.lang.String-}
 ```
@@ -964,12 +964,12 @@ public void setNameOfApplication(String value)
 ```
 
 
-Sets the name of the application.
+设置应用程序的名称。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The name of the application. |
+| value | java.lang.String | 应用程序的名称。 |
 
 ### setPages(int value) {#setPages-int-}
 ```
@@ -977,14 +977,14 @@ public void setPages(int value)
 ```
 
 
-Represents an estimate of the number of pages in the document.
+表示文档中页数的估计值。
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
+ Aspose.Words 在您调用时更新此属性[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setParagraphs(int value) {#setParagraphs-int-}
 ```
@@ -992,14 +992,14 @@ public void setParagraphs(int value)
 ```
 
 
-Represents an estimate of the number of paragraphs in the document.
+表示文档中段落数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setRevisionNumber(int value) {#setRevisionNumber-int-}
 ```
@@ -1007,14 +1007,14 @@ public void setRevisionNumber(int value)
 ```
 
 
-Sets the document revision number.
+设置文档修订号。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The document revision number. |
+| value | int | 文档修订号。 |
 
 ### setSecurity(int value) {#setSecurity-int-}
 ```
@@ -1022,18 +1022,18 @@ public void setSecurity(int value)
 ```
 
 
-Specifies the security level of a document as a numeric value.
+将文档的安全级别指定为数值。
 
-Use this property for informational purposes only because Microsoft Word does not always set this property. This property is available in DOC and OOXML documents only.
+将此属性仅用于提供信息，因为 Microsoft Word 并不总是设置此属性。此属性仅在 DOC 和 OOXML 文档中可用。
 
-To protect or unprotect a document use the **M:Aspose.Words.Document.Protect(Aspose.Words.ProtectionType,System.String)** and [Document.unprotect()](../../com.aspose.words/document\#unprotect--) methods.
+要保护或取消保护文档，请使用**M:Aspose.Words.Document.Protect(Aspose.Words.Protection类型,System.String)**和[Document.unprotect()](../../com.aspose.words/document\#unprotect--)方法。
 
-Aspose.Words updates this property to a correct value before saving a document.
+Aspose.Words 在保存文档之前将此属性更新为正确的值。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. The value must be a bitwise combination of [DocumentSecurity](../../com.aspose.words/documentsecurity) constants. |
+| value | int | 对应的 int 值。该值必须是按位组合[DocumentSecurity](../../com.aspose.words/documentsecurity)常数。 |
 
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
@@ -1041,12 +1041,12 @@ public void setSubject(String value)
 ```
 
 
-Sets the subject of the document.
+设置文档的主题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The subject of the document. |
+| value | java.lang.String | 文档的主题。 |
 
 ### setTemplate(String value) {#setTemplate-java.lang.String-}
 ```
@@ -1054,18 +1054,18 @@ public void setTemplate(String value)
 ```
 
 
-Sets the informational name of the document template.
+设置文档模板的信息名称。
 
-In Microsoft Word, this property is for informational purposes only and usually contains only the file name of the template without the path.
+在 Microsoft Word 中，此属性仅供参考，通常仅包含模板的文件名而不包含路径。
 
-Empty string means the document is attached to the Normal template.
+空字符串表示文档附加到 Normal 模板。
 
-To get or set the actual name of the attached template, use the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property.
+要获取或设置附加模板的实际名称，请使用[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)财产。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The informational name of the document template. |
+| value | java.lang.String | 文档模板的信息名称。 |
 
 ### setThumbnail(byte[] value) {#setThumbnail-byte---}
 ```
@@ -1073,18 +1073,18 @@ public void setThumbnail(byte[] value)
 ```
 
 
-Gets or sets the thumbnail of the document.
+获取或设置文档的缩略图。
 
-For now this property is used only when a document is being exported to ePub, it's not read from and written to other document formats.
+目前，此属性仅在将文档导出到 ePub 时使用，它不会从其他文档格式读取和写入。
 
-Image of arbitrary format can be set to this property, but the format is checked during export. java.lang.IllegalStateException is thrown if the image is invalid or its format is unsupported for specific format of document.
+该属性可以设置任意格式的图像，但在导出时会检查格式。如果图像无效或其格式不支持特定格式的文档，则抛出 java.lang.IllegalStateException。
 
-Only gif, jpeg and png images can be used for ePub publication.
+只有 gif、jpeg 和 png 图像可用于 ePub 发布。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | byte[] | The corresponding byte[] value. |
+| value | byte[] | 对应的字节[] 价值。 |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -1092,12 +1092,12 @@ public void setTitle(String value)
 ```
 
 
-Sets the title of the document.
+设置文档的标题。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String | The title of the document. |
+| value | java.lang.String | 文档的标题。 |
 
 ### setTitlesOfParts(String[] value) {#setTitlesOfParts-java.lang.String---}
 ```
@@ -1105,14 +1105,14 @@ public void setTitlesOfParts(String[] value)
 ```
 
 
-Each string in the array specifies the name of a part in the document.
+数组中的每个字符串都指定文档中某个部分的名称。
 
-Aspose.Words does not update this property.
+Aspose.Words 不会更新此属性。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | java.lang.String[] | The corresponding java.lang.String[] value. |
+| value | java.lang.String[] | 对应的 java.lang.String[] 价值。 |
 
 ### setTotalEditingTime(int value) {#setTotalEditingTime-int-}
 ```
@@ -1120,12 +1120,12 @@ public void setTotalEditingTime(int value)
 ```
 
 
-Sets the total editing time in minutes.
+以分钟为单位设置总编辑时间。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The total editing time in minutes. |
+| value | int | 以分钟为单位的总编辑时间。 |
 
 ### setVersion(int value) {#setVersion-int-}
 ```
@@ -1133,14 +1133,14 @@ public void setVersion(int value)
 ```
 
 
-Represents the version number of the application that created the document.
+表示创建文档的应用程序的版本号。
 
-When a document was created by Microsoft Word, then high 16 bit represent the major version and low 16 bit represent the build number.
+当文档由 Microsoft Word 创建时，高 16 位代表主要版本，低 16 位代表内部版本号。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setWords(int value) {#setWords-int-}
 ```
@@ -1148,14 +1148,14 @@ public void setWords(int value)
 ```
 
 
-Represents an estimate of the number of words in the document.
+表示文档中字数的估计值。
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
+ Aspose.Words 在您调用时更新此属性[Document.updateWordCount()](../../com.aspose.words/document\#updateWordCount--).
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### toString() {#toString--}
 ```
@@ -1165,7 +1165,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1183,8 +1183,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1196,9 +1196,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

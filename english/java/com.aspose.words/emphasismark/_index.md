@@ -1,36 +1,36 @@
 ---
 title: EmphasisMark
-second_title: Aspose.Words for Java API Reference
-description: Specifies possible types of emphasis mark.
+second_title: Aspose.Words for Java API 参考
+description: 指定可能的强调标记类型。
 type: docs
 weight: 144
-url: /java/com.aspose.words/emphasismark/
+url: /zh/java/com.aspose.words/emphasismark/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class EmphasisMark
 ```
 
-Specifies possible types of emphasis mark.
-## Fields
+指定可能的强调标记类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [NONE](#NONE) | No emphasis mark. |
-| [OVER_COMMA](#OVER-COMMA) | Emphasis mark is a comma character displayed above text. |
-| [OVER_SOLID_CIRCLE](#OVER-SOLID-CIRCLE) | Emphasis mark is a solid black circle displayed above text. |
-| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | Emphasis mark is an empty white circle displayed above text. |
-| [UNDER_SOLID_CIRCLE](#UNDER-SOLID-CIRCLE) | Emphasis mark is a solid black circle displayed below text. |
+| [NONE](#NONE) | 没有强调标记。 |
+| [OVER_COMMA](#OVER-COMMA) | 强调标记是显示在文本上方的逗号字符。 |
+| [OVER_SOLID_CIRCLE](#OVER-SOLID-CIRCLE) | 强调标记是显示在文本上方的实心黑色圆圈。 |
+| [OVER_WHITE_CIRCLE](#OVER-WHITE-CIRCLE) | 强调标记是显示在文本上方的空白圆圈。 |
+| [UNDER_SOLID_CIRCLE](#UNDER-SOLID-CIRCLE) | 强调标记是显示在文本下方的实心黑色圆圈。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String emphasisMarkName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int emphasisMark)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int NONE
 ```
 
 
-No emphasis mark.
+没有强调标记。
 
 ### OVER_COMMA {#OVER-COMMA}
 ```
@@ -55,7 +55,7 @@ public static int OVER_COMMA
 ```
 
 
-Emphasis mark is a comma character displayed above text.
+强调标记是显示在文本上方的逗号字符。
 
 ### OVER_SOLID_CIRCLE {#OVER-SOLID-CIRCLE}
 ```
@@ -63,7 +63,7 @@ public static int OVER_SOLID_CIRCLE
 ```
 
 
-Emphasis mark is a solid black circle displayed above text.
+强调标记是显示在文本上方的实心黑色圆圈。
 
 ### OVER_WHITE_CIRCLE {#OVER-WHITE-CIRCLE}
 ```
@@ -71,7 +71,7 @@ public static int OVER_WHITE_CIRCLE
 ```
 
 
-Emphasis mark is an empty white circle displayed above text.
+强调标记是显示在文本上方的空白圆圈。
 
 ### UNDER_SOLID_CIRCLE {#UNDER-SOLID-CIRCLE}
 ```
@@ -79,7 +79,7 @@ public static int UNDER_SOLID_CIRCLE
 ```
 
 
-Emphasis mark is a solid black circle displayed below text.
+强调标记是显示在文本下方的实心黑色圆圈。
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String emphasisMarkName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String emphasisMarkName)
@@ -110,23 +110,23 @@ public static int fromName(String emphasisMarkName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMarkName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int emphasisMark) {#getName-int-}
 ```
 public static String getName(int emphasisMark)
@@ -135,12 +135,12 @@ public static String getName(int emphasisMark)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMark | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int emphasisMark) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int emphasisMark)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | emphasisMark | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,9 +232,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,46 +1,46 @@
 ---
-title: WebExtensionStoreType
+title: WebExtensionStore类型
 second_title: Aspose.Words for Java API Reference
-description: Enumerates available types of a web extension store.
+description: 枚举 Web 扩展商店的可用类型。
 type: docs
 weight: 619
-url: /java/com.aspose.words/webextensionstoretype/
+url: /zh/java/com.aspose.words/webextensionstoretype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class WebExtensionStoreType
+public class WebExtensionStore类型
 ```
 
-Enumerates available types of a web extension store.
-## Fields
+枚举 Web 扩展商店的可用类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Default value. |
-| [EXCHANGE](#EXCHANGE) | Specifies that the store type is an Exchange server. |
-| [EX_CATALOG](#EX-CATALOG) | Specifies that the store type is Centralized Deployment via Exchange. |
-| [FILE_SYSTEM](#FILE-SYSTEM) | Specifies that the store type is a file system share. |
-| [OMEX](#OMEX) | Specifies that the store type is Office.com. |
-| [REGISTRY](#REGISTRY) | Specifies that the store type is the system registry. |
+| [DEFAULT](#DEFAULT) | 默认值。 |
+| [EXCHANGE](#EXCHANGE) | 指定存储类型是 Exchange 服务器。 |
+| [EX_CATALOG](#EX-CATALOG) | 指定存储类型是通过 Exchange 集中部署。 |
+| [FILE_SYSTEM](#FILE-SYSTEM) | 指定存储类型是文件系统共享。 |
+| [OMEX](#OMEX) | 指定商店类型为 Office.com。 |
+| [REGISTRY](#REGISTRY) | 指定存储类型是系统注册表。 |
 | [SP_APP](#SP-APP) |  |
 | [SP_CATALOG](#SP-CATALOG) |  |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String webExtensionStoreTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int webExtensionStoreType)](#getName-int-) |  |
+| [fromName(String webExtensionStore类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int webExtensionStore类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int webExtensionStoreType)](#toString-int-) |  |
+| [toString(int webExtensionStore类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -50,7 +50,7 @@ public static int DEFAULT
 ```
 
 
-Default value.
+默认值。
 
 ### EXCHANGE {#EXCHANGE}
 ```
@@ -58,7 +58,7 @@ public static int EXCHANGE
 ```
 
 
-Specifies that the store type is an Exchange server.
+指定存储类型是 Exchange 服务器。
 
 ### EX_CATALOG {#EX-CATALOG}
 ```
@@ -66,7 +66,7 @@ public static int EX_CATALOG
 ```
 
 
-Specifies that the store type is Centralized Deployment via Exchange.
+指定存储类型是通过 Exchange 集中部署。
 
 ### FILE_SYSTEM {#FILE-SYSTEM}
 ```
@@ -74,7 +74,7 @@ public static int FILE_SYSTEM
 ```
 
 
-Specifies that the store type is a file system share.
+指定存储类型是文件系统共享。
 
 ### OMEX {#OMEX}
 ```
@@ -82,7 +82,7 @@ public static int OMEX
 ```
 
 
-Specifies that the store type is Office.com.
+指定商店类型为 Office.com。
 
 ### REGISTRY {#REGISTRY}
 ```
@@ -90,7 +90,7 @@ public static int REGISTRY
 ```
 
 
-Specifies that the store type is the system registry.
+指定存储类型是系统注册表。
 
 ### SP_APP {#SP-APP}
 ```
@@ -118,52 +118,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String webExtensionStoreTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String webExtensionStore类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String webExtensionStoreTypeName)
+public static int fromName(String webExtensionStore类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStoreTypeName | java.lang.String |  |
+| webExtensionStore类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int webExtensionStoreType) {#getName-int-}
-```
-public static String getName(int webExtensionStoreType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int webExtensionStore类型) {#getName-int-}
+```
+public static String getName(int webExtensionStore类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStoreType | int |  |
+| webExtensionStore类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -173,8 +173,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -183,8 +183,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -209,22 +209,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int webExtensionStoreType) {#toString-int-}
+### toString(int webExtensionStore类型) {#toString-int-}
 ```
-public static String toString(int webExtensionStoreType)
+public static String toString(int webExtensionStore类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| webExtensionStoreType | int |  |
+| webExtensionStore类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -242,8 +242,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -255,9 +255,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

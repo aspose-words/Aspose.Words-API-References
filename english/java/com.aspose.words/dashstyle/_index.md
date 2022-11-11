@@ -1,43 +1,43 @@
 ---
 title: DashStyle
-second_title: Aspose.Words for Java API Reference
-description: Dashed line style.
+second_title: Aspose.Words for Java API 参考
+description: 虚线样式。
 type: docs
 weight: 109
-url: /java/com.aspose.words/dashstyle/
+url: /zh/java/com.aspose.words/dashstyle/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class DashStyle
 ```
 
-Dashed line style.
-## Fields
+虚线样式。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [DASH](#DASH) | Dash style. |
-| [DASH_DOT](#DASH-DOT) | Dash short dash. |
-| [DEFAULT](#DEFAULT) | Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID). |
-| [DOT](#DOT) | Square dot style. |
-| [LONG_DASH](#LONG-DASH) | Long dash style. |
-| [LONG_DASH_DOT](#LONG-DASH-DOT) | Long dash short dash. |
-| [LONG_DASH_DOT_DOT](#LONG-DASH-DOT-DOT) | Long dash short dash short dash. |
-| [SHORT_DASH](#SHORT-DASH) | System dash style. |
-| [SHORT_DASH_DOT](#SHORT-DASH-DOT) | System dash style. |
-| [SHORT_DASH_DOT_DOT](#SHORT-DASH-DOT-DOT) | System dash style. |
-| [SHORT_DOT](#SHORT-DOT) | System dash style. |
-| [SOLID](#SOLID) | Solid (continuous) pen. |
+| [DASH](#DASH) | 破折号风格。 |
+| [DASH_DOT](#DASH-DOT) | 短划线。 |
+| [DEFAULT](#DEFAULT) | 如同[SOLID](../../com.aspose.words/dashstyle\#SOLID). |
+| [DOT](#DOT) | 方点样式。 |
+| [LONG_DASH](#LONG-DASH) | 长破折号样式。 |
+| [LONG_DASH_DOT](#LONG-DASH-DOT) | 长破折号短破折号。 |
+| [LONG_DASH_DOT_DOT](#LONG-DASH-DOT-DOT) | 长破折号短破折号短破折号。 |
+| [SHORT_DASH](#SHORT-DASH) | 系统破折号样式。 |
+| [SHORT_DASH_DOT](#SHORT-DASH-DOT) | 系统破折号样式。 |
+| [SHORT_DASH_DOT_DOT](#SHORT-DASH-DOT-DOT) | 系统破折号样式。 |
+| [SHORT_DOT](#SHORT-DOT) | 系统破折号样式。 |
+| [SOLID](#SOLID) | 实心（连续）笔。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dashStyleName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int dashStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -54,7 +54,7 @@ public static int DASH
 ```
 
 
-Dash style.
+破折号风格。
 
 ### DASH_DOT {#DASH-DOT}
 ```
@@ -62,7 +62,7 @@ public static int DASH_DOT
 ```
 
 
-Dash short dash.
+短划线。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -70,7 +70,7 @@ public static int DEFAULT
 ```
 
 
-Same as [SOLID](../../com.aspose.words/dashstyle\#SOLID).
+如同[SOLID](../../com.aspose.words/dashstyle\#SOLID).
 
 ### DOT {#DOT}
 ```
@@ -78,7 +78,7 @@ public static int DOT
 ```
 
 
-Square dot style.
+方点样式。
 
 ### LONG_DASH {#LONG-DASH}
 ```
@@ -86,7 +86,7 @@ public static int LONG_DASH
 ```
 
 
-Long dash style.
+长破折号样式。
 
 ### LONG_DASH_DOT {#LONG-DASH-DOT}
 ```
@@ -94,7 +94,7 @@ public static int LONG_DASH_DOT
 ```
 
 
-Long dash short dash.
+长破折号短破折号。
 
 ### LONG_DASH_DOT_DOT {#LONG-DASH-DOT-DOT}
 ```
@@ -102,7 +102,7 @@ public static int LONG_DASH_DOT_DOT
 ```
 
 
-Long dash short dash short dash.
+长破折号短破折号短破折号。
 
 ### SHORT_DASH {#SHORT-DASH}
 ```
@@ -110,7 +110,7 @@ public static int SHORT_DASH
 ```
 
 
-System dash style.
+系统破折号样式。
 
 ### SHORT_DASH_DOT {#SHORT-DASH-DOT}
 ```
@@ -118,7 +118,7 @@ public static int SHORT_DASH_DOT
 ```
 
 
-System dash style.
+系统破折号样式。
 
 ### SHORT_DASH_DOT_DOT {#SHORT-DASH-DOT-DOT}
 ```
@@ -126,7 +126,7 @@ public static int SHORT_DASH_DOT_DOT
 ```
 
 
-System dash style.
+系统破折号样式。
 
 ### SHORT_DOT {#SHORT-DOT}
 ```
@@ -134,7 +134,7 @@ public static int SHORT_DOT
 ```
 
 
-System dash style.
+系统破折号样式。
 
 ### SOLID {#SOLID}
 ```
@@ -142,7 +142,7 @@ public static int SOLID
 ```
 
 
-Solid (continuous) pen.
+实心（连续）笔。
 
 ### length {#length}
 ```
@@ -158,13 +158,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String dashStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String dashStyleName)
@@ -173,23 +173,23 @@ public static int fromName(String dashStyleName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dashStyleName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int dashStyle) {#getName-int-}
 ```
 public static String getName(int dashStyle)
@@ -198,12 +198,12 @@ public static String getName(int dashStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dashStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -213,8 +213,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,8 +223,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -249,7 +249,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int dashStyle) {#toString-int-}
 ```
@@ -259,12 +259,12 @@ public static String toString(int dashStyle)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | dashStyle | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -282,8 +282,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -295,9 +295,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,35 +1,35 @@
 ---
 title: MailMergeCheckErrors
-second_title: Aspose.Words for Java API Reference
-description: Specifies how Microsoft Word will report errors detected during mail merge.
+second_title: Aspose.Words for Java API 参考
+description: 指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
 type: docs
 weight: 380
-url: /java/com.aspose.words/mailmergecheckerrors/
+url: /zh/java/com.aspose.words/mailmergecheckerrors/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class MailMergeCheckErrors
 ```
 
-Specifies how Microsoft Word will report errors detected during mail merge.
-## Fields
+指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [COLLECT_ERRORS](#COLLECT-ERRORS) | Complete the merge and report errors in a new document. |
-| [DEFAULT](#DEFAULT) | Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR) value. |
-| [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | Complete the merge and pause to report errors. |
-| [SIMULATE](#SIMULATE) | Simulate the merge and report errors in a new document. |
+| [COLLECT_ERRORS](#COLLECT-ERRORS) | 在新文档中完成合并并报告错误。 |
+| [DEFAULT](#DEFAULT) | 等于[PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR)价值。 |
+| [PAUSE_ON_ERROR](#PAUSE-ON-ERROR) | 完成合并并暂停以报告错误。 |
+| [SIMULATE](#SIMULATE) | 在新文档中模拟合并并报告错误。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeCheckErrorsName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int mailMergeCheckErrors)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int COLLECT_ERRORS
 ```
 
 
-Complete the merge and report errors in a new document.
+在新文档中完成合并并报告错误。
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -54,7 +54,7 @@ public static int DEFAULT
 ```
 
 
-Equals to the [PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR) value.
+等于[PAUSE\_ON\_ERROR](../../com.aspose.words/mailmergecheckerrors\#PAUSE-ON-ERROR)价值。
 
 ### PAUSE_ON_ERROR {#PAUSE-ON-ERROR}
 ```
@@ -62,7 +62,7 @@ public static int PAUSE_ON_ERROR
 ```
 
 
-Complete the merge and pause to report errors.
+完成合并并暂停以报告错误。
 
 ### SIMULATE {#SIMULATE}
 ```
@@ -70,7 +70,7 @@ public static int SIMULATE
 ```
 
 
-Simulate the merge and report errors in a new document.
+在新文档中模拟合并并报告错误。
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String mailMergeCheckErrorsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String mailMergeCheckErrorsName)
@@ -101,23 +101,23 @@ public static int fromName(String mailMergeCheckErrorsName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrorsName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int mailMergeCheckErrors) {#getName-int-}
 ```
 public static String getName(int mailMergeCheckErrors)
@@ -126,12 +126,12 @@ public static String getName(int mailMergeCheckErrors)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrors | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int mailMergeCheckErrors) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int mailMergeCheckErrors)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | mailMergeCheckErrors | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,9 +223,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

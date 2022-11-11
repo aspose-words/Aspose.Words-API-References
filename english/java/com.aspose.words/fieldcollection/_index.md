@@ -1,45 +1,45 @@
 ---
-title: FieldCollection
-second_title: Aspose.Words for Java API Reference
-description: A collection of  objects that represents the fields in the specified range.
+title: 字段Collection
+second_title: Aspose.Words for Java API 参考
+description: 表示指定范围内的字段的对象集合。
 type: docs
 weight: 169
-url: /java/com.aspose.words/fieldcollection/
+url: /zh/java/com.aspose.words/fieldcollection/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 
-**All Implemented Interfaces:**
+**All Implemented 界面s:**
 java.lang.Iterable
 ```
-public class FieldCollection implements Iterable
+public class 字段Collection implements Iterable
 ```
 
-A collection of [Field](../../com.aspose.words/field) objects that represents the fields in the specified range.
+一个集合[字段](../../com.aspose.words/field)表示指定范围内的字段的对象。
 
-To learn more, visit the **Working with Fields** documentation article.
+要了解更多信息，请访问**Working with 字段**文档文章。
 
-An instance of this collection iterates fields which start fall within the specified range.
+此集合的一个实例迭代开始落在指定范围内的字段。
 
-The [FieldCollection](../../com.aspose.words/fieldcollection) collection does not own the fields it contains, rather, is just a selection of fields.
+这[字段Collection](../../com.aspose.words/fieldcollection)集合不拥有它包含的字段，而只是字段的选择。
 
-The [FieldCollection](../../com.aspose.words/fieldcollection) collection is "live", i.e. changes to the children of the node object that it was created from are immediately reflected in the fields returned by the [FieldCollection](../../com.aspose.words/fieldcollection) properties and methods.
-## Methods
+这[字段Collection](../../com.aspose.words/fieldcollection)集合是“实时的”，即对创建它的节点对象的子对象的更改会立即反映在由[字段Collection](../../com.aspose.words/fieldcollection)属性和方法。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
-| [clear()](#clear--) | Removes all fields of this collection from the document and from this collection itself. |
+| [clear()](#clear--) | 从文档和此集合本身中删除此集合的所有字段。 |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | Returns a field at the specified index. |
-| [getClass()](#getClass--) |  |
-| [getCount()](#getCount--) | Returns the number of the fields in the collection. |
+| [get(int index)](#get-int-) | 返回指定索引处的字段。 |
+| [get班级()](#get班级--) |  |
+| [getCount()](#getCount--) | 返回集合中的字段数。 |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | Returns an enumerator object. |
+| [iterator()](#iterator--) | 返回一个枚举器对象。 |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(Field field)](#remove-com.aspose.words.Field-) | Removes the specified field from this collection and from the document. |
-| [removeAt(int index)](#removeAt-int-) | Removes a field at the specified index from this collection and from the document. |
+| [remove(字段 field)](#remove-com.aspose.words.字段-) | 从此集合和文档中删除指定的字段。 |
+| [removeAt(int index)](#removeAt-int-) | 从此集合和文档中删除指定索引处的字段。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public void clear()
 ```
 
 
-Removes all fields of this collection from the document and from this collection itself.
+从文档和此集合本身中删除此集合的所有字段。
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -60,56 +60,56 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### get(int index) {#get-int-}
 ```
-public Field get(int index)
+public 字段 get(int index)
 ```
 
 
-Returns a field at the specified index.
+返回指定索引处的字段。
 
-The index is zero-based.
+该索引从零开始。
 
-Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
+允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
 
-If index is greater than or equal to the number of items in the list, this returns a null reference.
+如果 index 大于或等于列表中的项目数，则返回空引用。
 
-If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
+如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int | 集合中的索引。 |
 
-**Returns:**
-[Field](../../com.aspose.words/field) - A field at the specified index.
-### getClass() {#getClass--}
+**退货:**
+[字段](../../com.aspose.words/field) - 指定索引处的字段。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-Returns the number of the fields in the collection.
+返回集合中的字段数。
 
-**Returns:**
-int - The number of the fields in the collection.
+**退货:**
+int - 集合中的字段数。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -118,17 +118,17 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-Returns an enumerator object.
+返回一个枚举器对象。
 
-**Returns:**
+**退货:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -146,18 +146,18 @@ public final native void notifyAll()
 
 
 
-### remove(Field field) {#remove-com.aspose.words.Field-}
+### remove(字段 field) {#remove-com.aspose.words.字段-}
 ```
-public void remove(Field field)
+public void remove(字段 field)
 ```
 
 
-Removes the specified field from this collection and from the document.
+从此集合和文档中删除指定的字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| field | [Field](../../com.aspose.words/field) | A field to remove. |
+| field | [字段](../../com.aspose.words/field) | 要删除的字段。 |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -165,12 +165,12 @@ public void removeAt(int index)
 ```
 
 
-Removes a field at the specified index from this collection and from the document.
+从此集合和文档中删除指定索引处的字段。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| index | int | An index into the collection. |
+| index | int | 集合中的索引。 |
 
 ### toString() {#toString--}
 ```
@@ -180,7 +180,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -198,8 +198,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -211,9 +211,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

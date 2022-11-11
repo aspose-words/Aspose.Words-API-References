@@ -1,34 +1,34 @@
 ---
 title: CellMerge
-second_title: Aspose.Words for Java API Reference
-description: Specifies how a cell in a table is merged with other cells.
+second_title: Aspose.Words for Java API 参考
+description: 指定表格中的单元格如何与其他单元格合并。
 type: docs
 weight: 51
-url: /java/com.aspose.words/cellmerge/
+url: /zh/java/com.aspose.words/cellmerge/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class CellMerge
 ```
 
-Specifies how a cell in a table is merged with other cells.
-## Fields
+指定表格中的单元格如何与其他单元格合并。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [FIRST](#FIRST) | The cell is the first cell in a range of merged cells. |
-| [NONE](#NONE) | The cell is not merged. |
-| [PREVIOUS](#PREVIOUS) | The cell is merged to the previous cell horizontally or vertically. |
+| [FIRST](#FIRST) | 该单元格是合并单元格范围中的第一个单元格。 |
+| [NONE](#NONE) | 单元格未合并。 |
+| [PREVIOUS](#PREVIOUS) | 单元格水平或垂直合并到前一个单元格。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String cellMergeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int cellMerge)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int FIRST
 ```
 
 
-The cell is the first cell in a range of merged cells.
+该单元格是合并单元格范围中的第一个单元格。
 
 ### NONE {#NONE}
 ```
@@ -53,7 +53,7 @@ public static int NONE
 ```
 
 
-The cell is not merged.
+单元格未合并。
 
 ### PREVIOUS {#PREVIOUS}
 ```
@@ -61,7 +61,7 @@ public static int PREVIOUS
 ```
 
 
-The cell is merged to the previous cell horizontally or vertically.
+单元格水平或垂直合并到前一个单元格。
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String cellMergeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String cellMergeName)
@@ -92,23 +92,23 @@ public static int fromName(String cellMergeName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellMergeName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int cellMerge) {#getName-int-}
 ```
 public static String getName(int cellMerge)
@@ -117,12 +117,12 @@ public static String getName(int cellMerge)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellMerge | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int cellMerge) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int cellMerge)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | cellMerge | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,9 +214,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,47 +1,47 @@
 ---
-title: BreakType
-second_title: Aspose.Words for Java API Reference
-description: Specifies type of a break inside a document.
+title: Break类型
+second_title: Aspose.Words for Java API 参考
+description: 指定文档中的中断类型。
 type: docs
 weight: 39
-url: /java/com.aspose.words/breaktype/
+url: /zh/java/com.aspose.words/breaktype/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
-public class BreakType
+public class Break类型
 ```
 
-Specifies type of a break inside a document.
-## Fields
+指定文档中的中断类型。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [COLUMN_BREAK](#COLUMN-BREAK) | Explicit column break. |
-| [LINE_BREAK](#LINE-BREAK) | Explicit line break. |
-| [PAGE_BREAK](#PAGE-BREAK) | Explicit page break. |
-| [PARAGRAPH_BREAK](#PARAGRAPH-BREAK) | Break between paragraphs. |
-| [SECTION_BREAK_CONTINUOUS](#SECTION-BREAK-CONTINUOUS) | Specifies start of new section on the same page as the previous section. |
-| [SECTION_BREAK_EVEN_PAGE](#SECTION-BREAK-EVEN-PAGE) | Specifies start of new section on a new even page. |
-| [SECTION_BREAK_NEW_COLUMN](#SECTION-BREAK-NEW-COLUMN) | Specifies start of new section in the new column. |
-| [SECTION_BREAK_NEW_PAGE](#SECTION-BREAK-NEW-PAGE) | Specifies start of new section on a new page. |
-| [SECTION_BREAK_ODD_PAGE](#SECTION-BREAK-ODD-PAGE) | Specifies start of new section on a odd page. |
+| [COLUMN_BREAK](#COLUMN-BREAK) | 显式分栏。 |
+| [LINE_BREAK](#LINE-BREAK) | 显式换行。 |
+| [PAGE_BREAK](#PAGE-BREAK) | 显式分页符。 |
+| [PARAGRAPH_BREAK](#PARAGRAPH-BREAK) | 段落之间的中断。 |
+| [SECTION_BREAK_CONTINUOUS](#SECTION-BREAK-CONTINUOUS) | 指定与上一节在同一页面上的新节的开始。 |
+| [SECTION_BREAK_EVEN_PAGE](#SECTION-BREAK-EVEN-PAGE) | 指定新偶数页上新节的开始。 |
+| [SECTION_BREAK_NEW_COLUMN](#SECTION-BREAK-NEW-COLUMN) | 指定新列中新部分的开始。 |
+| [SECTION_BREAK_NEW_PAGE](#SECTION-BREAK-NEW-PAGE) | 指定新页面上新部分的开始。 |
+| [SECTION_BREAK_ODD_PAGE](#SECTION-BREAK-ODD-PAGE) | 指定奇数页上新部分的开始。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String breakTypeName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
-| [getName(int breakType)](#getName-int-) |  |
+| [fromName(String break类型Name)](#fromName-java.lang.String-) |  |
+| [get班级()](#get班级--) |  |
+| [getName(int break类型)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int breakType)](#toString-int-) |  |
+| [toString(int break类型)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -51,7 +51,7 @@ public static int COLUMN_BREAK
 ```
 
 
-Explicit column break.
+显式分栏。
 
 ### LINE_BREAK {#LINE-BREAK}
 ```
@@ -59,7 +59,7 @@ public static int LINE_BREAK
 ```
 
 
-Explicit line break.
+显式换行。
 
 ### PAGE_BREAK {#PAGE-BREAK}
 ```
@@ -67,7 +67,7 @@ public static int PAGE_BREAK
 ```
 
 
-Explicit page break.
+显式分页符。
 
 ### PARAGRAPH_BREAK {#PARAGRAPH-BREAK}
 ```
@@ -75,7 +75,7 @@ public static int PARAGRAPH_BREAK
 ```
 
 
-Break between paragraphs.
+段落之间的中断。
 
 ### SECTION_BREAK_CONTINUOUS {#SECTION-BREAK-CONTINUOUS}
 ```
@@ -83,7 +83,7 @@ public static int SECTION_BREAK_CONTINUOUS
 ```
 
 
-Specifies start of new section on the same page as the previous section.
+指定与上一节在同一页面上的新节的开始。
 
 ### SECTION_BREAK_EVEN_PAGE {#SECTION-BREAK-EVEN-PAGE}
 ```
@@ -91,7 +91,7 @@ public static int SECTION_BREAK_EVEN_PAGE
 ```
 
 
-Specifies start of new section on a new even page.
+指定新偶数页上新节的开始。
 
 ### SECTION_BREAK_NEW_COLUMN {#SECTION-BREAK-NEW-COLUMN}
 ```
@@ -99,7 +99,7 @@ public static int SECTION_BREAK_NEW_COLUMN
 ```
 
 
-Specifies start of new section in the new column.
+指定新列中新部分的开始。
 
 ### SECTION_BREAK_NEW_PAGE {#SECTION-BREAK-NEW-PAGE}
 ```
@@ -107,7 +107,7 @@ public static int SECTION_BREAK_NEW_PAGE
 ```
 
 
-Specifies start of new section on a new page.
+指定新页面上新部分的开始。
 
 ### SECTION_BREAK_ODD_PAGE {#SECTION-BREAK-ODD-PAGE}
 ```
@@ -115,7 +115,7 @@ public static int SECTION_BREAK_ODD_PAGE
 ```
 
 
-Specifies start of new section on a odd page.
+指定奇数页上新部分的开始。
 
 ### length {#length}
 ```
@@ -131,52 +131,52 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
-### fromName(String breakTypeName) {#fromName-java.lang.String-}
+**退货:**
+布尔值
+### fromName(String break类型Name) {#fromName-java.lang.String-}
 ```
-public static int fromName(String breakTypeName)
+public static int fromName(String break类型Name)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| breakTypeName | java.lang.String |  |
+| break类型Name | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getName(int breakType) {#getName-int-}
-```
-public static String getName(int breakType)
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**退货:**
+java.lang.班级<?>
+### getName(int break类型) {#getName-int-}
+```
+public static String getName(int break类型)
+```
+
+
+
+
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| breakType | int |  |
+| break类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -186,8 +186,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -196,8 +196,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -222,22 +222,22 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
-### toString(int breakType) {#toString-int-}
+### toString(int break类型) {#toString-int-}
 ```
-public static String toString(int breakType)
+public static String toString(int break类型)
 ```
 
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| breakType | int |  |
+| break类型 | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -255,8 +255,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -268,9 +268,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

@@ -1,41 +1,41 @@
 ---
 title: OutlineLevel
-second_title: Aspose.Words for Java API Reference
-description: Specifies the outline level of a paragraph in the document.
+second_title: Aspose.Words for Java API 参考
+description: 指定文档中段落的大纲级别。
 type: docs
 weight: 430
-url: /java/com.aspose.words/outlinelevel/
+url: /zh/java/com.aspose.words/outlinelevel/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class OutlineLevel
 ```
 
-Specifies the outline level of a paragraph in the document.
-## Fields
+指定文档中段落的大纲级别。
+## 字段
 
-| Field | Description |
+| 字段 | 描述 |
 | --- | --- |
-| [BODY_TEXT](#BODY-TEXT) | The paragraph is at the level of the main text. |
-| [LEVEL_1](#LEVEL-1) | The paragraph is at the outline level 1 (topmost level). |
-| [LEVEL_2](#LEVEL-2) | The paragraph is at the outline level 2. |
-| [LEVEL_3](#LEVEL-3) | The paragraph is at the outline level 3. |
-| [LEVEL_4](#LEVEL-4) | The paragraph is at the outline level 4. |
-| [LEVEL_5](#LEVEL-5) | The paragraph is at the outline level 5. |
-| [LEVEL_6](#LEVEL-6) | The paragraph is at the outline level 6. |
-| [LEVEL_7](#LEVEL-7) | The paragraph is at the outline level 7. |
-| [LEVEL_8](#LEVEL-8) | The paragraph is at the outline level 8. |
-| [LEVEL_9](#LEVEL-9) | The paragraph is at the outline level 9. |
+| [BODY_TEXT](#BODY-TEXT) | 该段落位于正文的级别。 |
+| [LEVEL_1](#LEVEL-1) | 该段落位于大纲级别 1（最顶层）。 |
+| [LEVEL_2](#LEVEL-2) | 该段落处于大纲级别 2。 |
+| [LEVEL_3](#LEVEL-3) | 该段落处于大纲级别 3。 |
+| [LEVEL_4](#LEVEL-4) | 该段落处于大纲级别 4。 |
+| [LEVEL_5](#LEVEL-5) | 该段落处于大纲级别 5。 |
+| [LEVEL_6](#LEVEL-6) | 该段落处于大纲级别 6。 |
+| [LEVEL_7](#LEVEL-7) | 该段落处于大纲级别 7。 |
+| [LEVEL_8](#LEVEL-8) | 该段落处于大纲级别 8。 |
+| [LEVEL_9](#LEVEL-9) | 该段落处于大纲级别 9。 |
 | [length](#length) |  |
-## Methods
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String outlineLevelName)](#fromName-java.lang.String-) |  |
-| [getClass()](#getClass--) |  |
+| [get班级()](#get班级--) |  |
 | [getName(int outlineLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BODY_TEXT
 ```
 
 
-The paragraph is at the level of the main text.
+该段落位于正文的级别。
 
 ### LEVEL_1 {#LEVEL-1}
 ```
@@ -60,7 +60,7 @@ public static int LEVEL_1
 ```
 
 
-The paragraph is at the outline level 1 (topmost level).
+该段落位于大纲级别 1（最顶层）。
 
 ### LEVEL_2 {#LEVEL-2}
 ```
@@ -68,7 +68,7 @@ public static int LEVEL_2
 ```
 
 
-The paragraph is at the outline level 2.
+该段落处于大纲级别 2。
 
 ### LEVEL_3 {#LEVEL-3}
 ```
@@ -76,7 +76,7 @@ public static int LEVEL_3
 ```
 
 
-The paragraph is at the outline level 3.
+该段落处于大纲级别 3。
 
 ### LEVEL_4 {#LEVEL-4}
 ```
@@ -84,7 +84,7 @@ public static int LEVEL_4
 ```
 
 
-The paragraph is at the outline level 4.
+该段落处于大纲级别 4。
 
 ### LEVEL_5 {#LEVEL-5}
 ```
@@ -92,7 +92,7 @@ public static int LEVEL_5
 ```
 
 
-The paragraph is at the outline level 5.
+该段落处于大纲级别 5。
 
 ### LEVEL_6 {#LEVEL-6}
 ```
@@ -100,7 +100,7 @@ public static int LEVEL_6
 ```
 
 
-The paragraph is at the outline level 6.
+该段落处于大纲级别 6。
 
 ### LEVEL_7 {#LEVEL-7}
 ```
@@ -108,7 +108,7 @@ public static int LEVEL_7
 ```
 
 
-The paragraph is at the outline level 7.
+该段落处于大纲级别 7。
 
 ### LEVEL_8 {#LEVEL-8}
 ```
@@ -116,7 +116,7 @@ public static int LEVEL_8
 ```
 
 
-The paragraph is at the outline level 8.
+该段落处于大纲级别 8。
 
 ### LEVEL_9 {#LEVEL-9}
 ```
@@ -124,7 +124,7 @@ public static int LEVEL_9
 ```
 
 
-The paragraph is at the outline level 9.
+该段落处于大纲级别 9。
 
 ### length {#length}
 ```
@@ -140,13 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### fromName(String outlineLevelName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String outlineLevelName)
@@ -155,23 +155,23 @@ public static int fromName(String outlineLevelName)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outlineLevelName | java.lang.String |  |
 
-**Returns:**
-int
-### getClass() {#getClass--}
+**退货:**
+整数
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getName(int outlineLevel) {#getName-int-}
 ```
 public static String getName(int outlineLevel)
@@ -180,12 +180,12 @@ public static String getName(int outlineLevel)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outlineLevel | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -195,8 +195,8 @@ public static int[] getValues()
 
 
 
-**Returns:**
-int[]
+**退货:**
+整数[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -231,7 +231,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### toString(int outlineLevel) {#toString-int-}
 ```
@@ -241,12 +241,12 @@ public static String toString(int outlineLevel)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | outlineLevel | int |  |
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,9 +277,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

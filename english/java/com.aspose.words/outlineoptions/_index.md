@@ -1,41 +1,41 @@
 ---
 title: OutlineOptions
-second_title: Aspose.Words for Java API Reference
-description: Allows to specify outline options.
+second_title: Aspose.Words for Java API 参考
+description: 允许指定大纲选项。
 type: docs
 weight: 431
-url: /java/com.aspose.words/outlineoptions/
+url: /zh/java/com.aspose.words/outlineoptions/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class OutlineOptions
 ```
 
-Allows to specify outline options.
+允许指定大纲选项。
 
-To learn more, visit the **Save a Document** documentation article.
-## Methods
+要了解更多信息，请访问**Save a Document**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarksOutlineLevels()](#getBookmarksOutlineLevels--) | Allows to specify individual bookmarks outline level. |
-| [getClass()](#getClass--) |  |
-| [getCreateMissingOutlineLevels()](#getCreateMissingOutlineLevels--) | Gets or sets a value determining whether or not to create missing outline levels when the document is exported. |
-| [getCreateOutlinesForHeadingsInTables()](#getCreateOutlinesForHeadingsInTables--) | Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables. |
-| [getDefaultBookmarksOutlineLevel()](#getDefaultBookmarksOutlineLevel--) | Specifies the default level in the document outline at which to display Word bookmarks. |
-| [getExpandedOutlineLevels()](#getExpandedOutlineLevels--) | Specifies how many levels in the document outline to show expanded when the file is viewed. |
-| [getHeadingsOutlineLevels()](#getHeadingsOutlineLevels--) | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
+| [getBookmarksOutlineLevels()](#getBookmarksOutlineLevels--) | 允许指定单个书签大纲级别。 |
+| [get班级()](#get班级--) |  |
+| [getCreateMissingOutlineLevels()](#getCreateMissingOutlineLevels--) | 获取或设置一个值，该值确定在导出文档时是否创建缺少的大纲级别。 |
+| [getCreateOutlinesForHeadingsInTables()](#getCreateOutlinesForHeadingsInTables--) | 指定是否为表格内的标题（使用标题样式格式化的段落）创建大纲。 |
+| [getDefaultBookmarksOutlineLevel()](#getDefaultBookmarksOutlineLevel--) | 指定文档大纲中显示 Word 书签的默认级别。 |
+| [getExpandedOutlineLevels()](#getExpandedOutlineLevels--) | 指定查看文件时在文档大纲中显示展开的级别数。 |
+| [getHeadingsOutlineLevels()](#getHeadingsOutlineLevels--) | 指定要包含在文档大纲中的标题级别（使用标题样式格式化的段落）。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCreateMissingOutlineLevels(boolean value)](#setCreateMissingOutlineLevels-boolean-) | Gets or sets a value determining whether or not to create missing outline levels when the document is exported. |
-| [setCreateOutlinesForHeadingsInTables(boolean value)](#setCreateOutlinesForHeadingsInTables-boolean-) | Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables. |
-| [setDefaultBookmarksOutlineLevel(int value)](#setDefaultBookmarksOutlineLevel-int-) | Specifies the default level in the document outline at which to display Word bookmarks. |
-| [setExpandedOutlineLevels(int value)](#setExpandedOutlineLevels-int-) | Specifies how many levels in the document outline to show expanded when the file is viewed. |
-| [setHeadingsOutlineLevels(int value)](#setHeadingsOutlineLevels-int-) | Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline. |
+| [setCreateMissingOutlineLevels(boolean value)](#setCreateMissingOutlineLevels-boolean-) | 获取或设置一个值，该值确定在导出文档时是否创建缺少的大纲级别。 |
+| [setCreateOutlinesForHeadingsInTables(boolean value)](#setCreateOutlinesForHeadingsInTables-boolean-) | 指定是否为表格内的标题（使用标题样式格式化的段落）创建大纲。 |
+| [setDefaultBookmarksOutlineLevel(int value)](#setDefaultBookmarksOutlineLevel-int-) | 指定文档大纲中显示 Word 书签的默认级别。 |
+| [setExpandedOutlineLevels(int value)](#setExpandedOutlineLevels-int-) | 指定查看文件时在文档大纲中显示展开的级别数。 |
+| [setHeadingsOutlineLevels(int value)](#setHeadingsOutlineLevels-int-) | 指定要包含在文档大纲中的标题级别（使用标题样式格式化的段落）。 |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,105 +48,105 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getBookmarksOutlineLevels() {#getBookmarksOutlineLevels--}
 ```
 public BookmarksOutlineLevelCollection getBookmarksOutlineLevels()
 ```
 
 
-Allows to specify individual bookmarks outline level.
+允许指定单个书签大纲级别。
 
-If bookmark level is not specified in this collection then [getDefaultBookmarksOutlineLevel()](../../com.aspose.words/outlineoptions\#getDefaultBookmarksOutlineLevel--) / [setDefaultBookmarksOutlineLevel(int)](../../com.aspose.words/outlineoptions\#setDefaultBookmarksOutlineLevel-int-) value is used.
+如果此集合中未指定书签级别，则[getDefaultBookmarksOutlineLevel()](../../com.aspose.words/outlineoptions\#getDefaultBookmarksOutlineLevel--) / [setDefaultBookmarksOutlineLevel(int)](../../com.aspose.words/outlineoptions\#setDefaultBookmarksOutlineLevel-int-)值被使用。
 
-**Returns:**
-[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) - The corresponding [BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) value.
-### getClass() {#getClass--}
+**退货:**
+[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection) - 相应的[BookmarksOutlineLevelCollection](../../com.aspose.words/bookmarksoutlinelevelcollection)价值。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
+public final native 班级<?> get班级()
 ```
 
 
 
 
-**Returns:**
-java.lang.Class<?>
+**退货:**
+java.lang.班级<?>
 ### getCreateMissingOutlineLevels() {#getCreateMissingOutlineLevels--}
 ```
 public boolean getCreateMissingOutlineLevels()
 ```
 
 
-Gets or sets a value determining whether or not to create missing outline levels when the document is exported.
+获取或设置一个值，该值确定在导出文档时是否创建缺少的大纲级别。
 
-Default value for this property is **false**.
+此属性的默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getCreateOutlinesForHeadingsInTables() {#getCreateOutlinesForHeadingsInTables--}
 ```
 public boolean getCreateOutlinesForHeadingsInTables()
 ```
 
 
-Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
+指定是否为表格内的标题（使用标题样式格式化的段落）创建大纲。
 
-Default value is **false**.
+默认值为**false**.
 
-**Returns:**
-boolean - The corresponding  boolean  value.
+**退货:**
+boolean - 对应的布尔值。
 ### getDefaultBookmarksOutlineLevel() {#getDefaultBookmarksOutlineLevel--}
 ```
 public int getDefaultBookmarksOutlineLevel()
 ```
 
 
-Specifies the default level in the document outline at which to display Word bookmarks.
+指定文档大纲中显示 Word 书签的默认级别。
 
-Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels--) property.
+可以使用指定单个书签级别[getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels--)财产。
 
-Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
+指定 0，Word 书签将不会显示在文档大纲中。指定 1，Word 书签将显示在第 1 级的文档大纲中； 2 表示 2 级，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getExpandedOutlineLevels() {#getExpandedOutlineLevels--}
 ```
 public int getExpandedOutlineLevels()
 ```
 
 
-Specifies how many levels in the document outline to show expanded when the file is viewed.
+指定查看文件时在文档大纲中显示展开的级别数。
 
-Note that this options will not work when saving to XPS.
+请注意，保存到 XPS 时，此选项将不起作用。
 
-Specify 0 and the document outline will be collapsed; specify 1 and the first level items in the outline will be expanded and so on.
+指定0，文档大纲将被折叠；指定1，大纲中的第一级项目将被展开，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### getHeadingsOutlineLevels() {#getHeadingsOutlineLevels--}
 ```
 public int getHeadingsOutlineLevels()
 ```
 
 
-Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline.
+指定要包含在文档大纲中的标题级别（使用标题样式格式化的段落）。
 
-Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
+指定 0 表示大纲中没有标题；为大纲中的一级标题指定 1，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Returns:**
-int - The corresponding  int  value.
+**退货:**
+int - 对应的 int 值。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -155,8 +155,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -179,14 +179,14 @@ public void setCreateMissingOutlineLevels(boolean value)
 ```
 
 
-Gets or sets a value determining whether or not to create missing outline levels when the document is exported.
+获取或设置一个值，该值确定在导出文档时是否创建缺少的大纲级别。
 
-Default value for this property is **false**.
+此属性的默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setCreateOutlinesForHeadingsInTables(boolean value) {#setCreateOutlinesForHeadingsInTables-boolean-}
 ```
@@ -194,14 +194,14 @@ public void setCreateOutlinesForHeadingsInTables(boolean value)
 ```
 
 
-Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables.
+指定是否为表格内的标题（使用标题样式格式化的段落）创建大纲。
 
-Default value is **false**.
+默认值为**false**.
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | boolean | The corresponding  boolean  value. |
+| value | boolean | 对应的布尔值。 |
 
 ### setDefaultBookmarksOutlineLevel(int value) {#setDefaultBookmarksOutlineLevel-int-}
 ```
@@ -209,18 +209,18 @@ public void setDefaultBookmarksOutlineLevel(int value)
 ```
 
 
-Specifies the default level in the document outline at which to display Word bookmarks.
+指定文档大纲中显示 Word 书签的默认级别。
 
-Individual bookmarks level could be specified using [getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels--) property.
+可以使用指定单个书签级别[getBookmarksOutlineLevels()](../../com.aspose.words/outlineoptions\#getBookmarksOutlineLevels--)财产。
 
-Specify 0 and Word bookmarks will not be displayed in the document outline. Specify 1 and Word bookmarks will be displayed in the document outline at level 1; 2 for level 2 and so on.
+指定 0，Word 书签将不会显示在文档大纲中。指定 1，Word 书签将显示在第 1 级的文档大纲中； 2 表示 2 级，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setExpandedOutlineLevels(int value) {#setExpandedOutlineLevels-int-}
 ```
@@ -228,18 +228,18 @@ public void setExpandedOutlineLevels(int value)
 ```
 
 
-Specifies how many levels in the document outline to show expanded when the file is viewed.
+指定查看文件时在文档大纲中显示展开的级别数。
 
-Note that this options will not work when saving to XPS.
+请注意，保存到 XPS 时，此选项将不起作用。
 
-Specify 0 and the document outline will be collapsed; specify 1 and the first level items in the outline will be expanded and so on.
+指定0，文档大纲将被折叠；指定1，大纲中的第一级项目将被展开，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### setHeadingsOutlineLevels(int value) {#setHeadingsOutlineLevels-int-}
 ```
@@ -247,16 +247,16 @@ public void setHeadingsOutlineLevels(int value)
 ```
 
 
-Specifies how many levels of headings (paragraphs formatted with the Heading styles) to include in the document outline.
+指定要包含在文档大纲中的标题级别（使用标题样式格式化的段落）。
 
-Specify 0 for no headings in the outline; specify 1 for one level of headings in the outline and so on.
+指定 0 表示大纲中没有标题；为大纲中的一级标题指定 1，依此类推。
 
-Default is 0. Valid range is 0 to 9.
+默认值为 0。有效范围为 0 到 9。
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | int | The corresponding  int  value. |
+| value | int | 对应的 int 值。 |
 
 ### toString() {#toString--}
 ```
@@ -266,7 +266,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -284,8 +284,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -297,9 +297,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-

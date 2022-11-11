@@ -1,30 +1,30 @@
 ---
 title: RevisionGroup
-second_title: Aspose.Words for Java API Reference
-description: Represents a group of sequential  objects.
+second_title: Aspose.Words for Java API 参考
+description: 表示一组顺序对象。
 type: docs
 weight: 486
-url: /java/com.aspose.words/revisiongroup/
+url: /zh/java/com.aspose.words/revisiongroup/
 ---
 
-**Inheritance:**
+**遗产:**
 java.lang.Object
 ```
 public class RevisionGroup
 ```
 
-Represents a group of sequential [Revision](../../com.aspose.words/revision) objects.
+代表一组顺序[Revision](../../com.aspose.words/revision)对象。
 
-To learn more, visit the **Track Changes in a Document** documentation article.
-## Methods
+要了解更多信息，请访问**Track Changes in a Document**文档文章。
+## 方法s
 
-| Method | Description |
+| 方法 | 描述 |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAuthor()](#getAuthor--) | Gets the author of this revision group. |
-| [getClass()](#getClass--) |  |
-| [getRevisionType()](#getRevisionType--) | Gets the type of revisions included in this group. |
-| [getText()](#getText--) | Returns inserted/deleted/moved text or description of format change. |
+| [getAuthor()](#getAuthor--) | 获取此修订组的作者。 |
+| [get班级()](#get班级--) |  |
+| [getRevision类型()](#getRevision类型--) | 获取该组中包含的修订类型。 |
+| [getText()](#getText--) | 返回插入/删除/移动的文本或格式更改的描述。 |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,53 +40,53 @@ public boolean equals(Object arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**Returns:**
-boolean
+**退货:**
+布尔值
 ### getAuthor() {#getAuthor--}
 ```
 public String getAuthor()
 ```
 
 
-Gets the author of this revision group.
+获取此修订组的作者。
 
-**Returns:**
-java.lang.String - The author of this revision group.
-### getClass() {#getClass--}
+**退货:**
+java.lang.String - 此修订组的作者。
+### get班级() {#get班级--}
 ```
-public final native Class<?> getClass()
-```
-
-
-
-
-**Returns:**
-java.lang.Class<?>
-### getRevisionType() {#getRevisionType--}
-```
-public int getRevisionType()
+public final native 班级<?> get班级()
 ```
 
 
-Gets the type of revisions included in this group.
 
-**Returns:**
-int - The type of revisions included in this group. The returned value is one of [RevisionType](../../com.aspose.words/revisiontype) constants.
+
+**退货:**
+java.lang.班级<?>
+### getRevision类型() {#getRevision类型--}
+```
+public int getRevision类型()
+```
+
+
+获取该组中包含的修订类型。
+
+**退货:**
+ int - 此组中包含的修订类型。返回值是以下之一[Revision类型](../../com.aspose.words/revisiontype)常数。
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-Returns inserted/deleted/moved text or description of format change.
+返回插入/删除/移动的文本或格式更改的描述。
 
-**Returns:**
-java.lang.String - Inserted/deleted/moved text or description of format change.
+**退货:**
+java.lang.String - 插入/删除/移动的文本或格式更改的描述。
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,8 +95,8 @@ public native int hashCode()
 
 
 
-**Returns:**
-int
+**退货:**
+整数
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -121,7 +121,7 @@ public String toString()
 
 
 
-**Returns:**
+**退货:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -139,8 +139,8 @@ public final native void wait(long arg0)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -152,9 +152,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**Parameters:**
-| Parameter | Type | Description |
+**参数:**
+| 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
-
