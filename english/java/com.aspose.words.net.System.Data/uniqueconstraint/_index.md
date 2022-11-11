@@ -1,41 +1,41 @@
 ---
 title: UniqueConstraint
 second_title: Aspose.Words for Java API Reference
-description: 表示对一组列的限制，其中所有值都必须是唯一的。
+description: Represents a restriction on a set of columns in which all values must be unique.
 type: docs
 weight: 32
-url: /zh/java/com.aspose.words.net.system.data/uniqueconstraint/
+url: /java/com.aspose.words.net.system.data/uniqueconstraint/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.net.System.Data.Constraint](../../com.aspose.words.net.system.data/constraint)
 ```
 public class UniqueConstraint extends System.Data.Constraint
 ```
 
-表示对一组列的限制，其中所有值都必须是唯一的。
-## 构造函数s
+Represents a restriction on a set of columns in which all values must be unique.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定名称的类，一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。 |
-| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。 |
-| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有给定数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
-| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | 初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
-## 方法s
+| [UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-java.lang.String-com.aspose.words.net.System.Data.DataColumn---boolean-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified name, an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
+| [UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key. |
+| [UniqueConstraint(System.Data.DataColumn[] columns)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the given array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
+| [UniqueConstraint(System.Data.DataColumn column)](#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-) | Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn). |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [equals(Object key2)](#equals-java.lang.Object-) | 将此约束与一秒进行比较以确定两者是否相同。 |
-| [get班级()](#get班级--) |  |
-| [getColumns()](#getColumns--) | 获取此约束影响的列数组。 |
-| [getConstraintName()](#getConstraintName--) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
-| [getTable()](#getTable--) | 获取此约束所属的表。 |
+| [equals(Object key2)](#equals-java.lang.Object-) | Compares this constraint to a second to determine if both are identical. |
+| [getClass()](#getClass--) |  |
+| [getColumns()](#getColumns--) | Gets the array of columns that this constraint affects. |
+| [getConstraintName()](#getConstraintName--) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [getTable()](#getTable--) | Gets the table to which this constraint belongs. |
 | [hashCode()](#hashCode--) |  |
-| [isPrimaryKey()](#isPrimaryKey--) | 获取一个值，该值指示约束是否在主键上。 |
+| [isPrimaryKey()](#isPrimaryKey--) | Gets a value indicating whether or not the constraint is on a primary key. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | 约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
+| [setConstraintName(String value)](#setConstraintName-java.lang.String-) | The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,14 +46,14 @@ public UniqueConstraint(String name, System.Data.DataColumn[] columns, boolean i
 ```
 
 
-初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定名称的类，一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。
+Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified name, an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 约束的名称。 |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象。 |
-| isPrimaryKey | boolean | true 表示约束是主键；否则为假。 |
+| name | java.lang.String | The name of the constraint. |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
+| isPrimaryKey | boolean | true to indicate that the constraint is a primary key; otherwise, false. |
 
 ### UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---boolean-}
 ```
@@ -61,13 +61,13 @@ public UniqueConstraint(System.Data.DataColumn[] columns, boolean isPrimaryKey)
 ```
 
 
-初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象，以及指定约束是否是主键的值。
+Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with an array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain, and a value specifying whether the constraint is a primary key.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象。 |
-| isPrimaryKey | boolean | true 表示约束是主键；否则为假。 |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
+| isPrimaryKey | boolean | true to indicate that the constraint is a primary key; otherwise, false. |
 
 ### UniqueConstraint(System.Data.DataColumn[] columns) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn---}
 ```
@@ -75,12 +75,12 @@ public UniqueConstraint(System.Data.DataColumn[] columns)
 ```
 
 
-初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有给定数组的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
+Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the given array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)要约束的对象。 |
+| columns | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | The array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects to constrain. |
 
 ### UniqueConstraint(System.Data.DataColumn column) {#UniqueConstraint-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -88,12 +88,12 @@ public UniqueConstraint(System.Data.DataColumn column)
 ```
 
 
-初始化一个新的实例[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)具有指定的类[DataColumn](../../com.aspose.words.net.system.data/datacolumn).
+Initializes a new instance of the [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) class with the specified [DataColumn](../../com.aspose.words.net.system.data/datacolumn).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 这[DataColumn](../../com.aspose.words.net.system.data/datacolumn)来约束。 |
+| column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The [DataColumn](../../com.aspose.words.net.system.data/datacolumn) to constrain. |
 
 ### equals(Object key2) {#equals-java.lang.Object-}
 ```
@@ -101,55 +101,55 @@ public boolean equals(Object key2)
 ```
 
 
-将此约束与一秒进行比较以确定两者是否相同。
+Compares this constraint to a second to determine if both are identical.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| key2 | java.lang.Object | 这个对象[UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint)进行比较。 |
+| key2 | java.lang.Object | The object to which this [UniqueConstraint](../../com.aspose.words.net.system.data/uniqueconstraint) is compared. |
 
-**退货:**
-boolean - 如果约束相等，则为 true；否则为假。
-### get班级() {#get班级--}
+**Returns:**
+boolean - true, if the contraints are equal; otherwise, false.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
 public System.Data.DataColumn[] getColumns()
 ```
 
 
-获取此约束影响的列数组。
+Gets the array of columns that this constraint affects.
 
-**退货:**
-com.aspose.words.net.System.Data.DataColumn[ ] - 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
+**Returns:**
+com.aspose.words.net.System.Data.DataColumn[] - An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
 ### getConstraintName() {#getConstraintName--}
 ```
 public String getConstraintName()
 ```
 
 
-约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**退货:**
-java.lang.String - 的名称[Constraint](../../com.aspose.words.net.system.data/constraint).
+**Returns:**
+java.lang.String - The name of the [Constraint](../../com.aspose.words.net.system.data/constraint).
 ### getTable() {#getTable--}
 ```
 public System.Data.DataTable getTable()
 ```
 
 
-获取此约束所属的表。
+Gets the table to which this constraint belongs.
 
-**退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 这[DataTable](../../com.aspose.words.net.system.data/datatable)约束所属的。
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - The [DataTable](../../com.aspose.words.net.system.data/datatable) to which the constraint belongs.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -158,18 +158,18 @@ public int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isPrimaryKey() {#isPrimaryKey--}
 ```
 public boolean isPrimaryKey()
 ```
 
 
-获取一个值，该值指示约束是否在主键上。
+Gets a value indicating whether or not the constraint is on a primary key.
 
-**退货:**
-boolean - 如果约束在主键上，则为 true；否则为假。
+**Returns:**
+boolean - true, if the constraint is on a primary key; otherwise, false.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -192,12 +192,12 @@ public void setConstraintName(String value)
 ```
 
 
-约束中的名称[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
+The name of a constraint in the [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 的名称[Constraint](../../com.aspose.words.net.system.data/constraint). |
+| value | java.lang.String | The name of the [Constraint](../../com.aspose.words.net.system.data/constraint). |
 
 ### toString() {#toString--}
 ```
@@ -207,7 +207,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -225,8 +225,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -238,8 +238,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

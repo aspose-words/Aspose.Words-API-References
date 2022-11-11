@@ -1,57 +1,57 @@
 ---
 title: ListCollection
-second_title: Aspose.Words for Java API 参考
-description: 存储和管理文档中使用的项目符号和编号列表的格式。
+second_title: Aspose.Words for Java API Reference
+description: Stores and manages formatting of bulleted and numbered lists used in a document.
 type: docs
 weight: 369
-url: /zh/java/com.aspose.words/listcollection/
+url: /java/com.aspose.words/listcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class ListCollection implements Cloneable, Iterable
 ```
 
-存储和管理文档中使用的项目符号和编号列表的格式。
+Stores and manages formatting of bulleted and numbered lists used in a document.
 
-要了解更多信息，请访问**Working with Lists**文档文章。
+To learn more, visit the **Working with Lists** documentation article.
 
- Microsoft Word 文档中的列表是一组列表格式属性。列表的格式存储在[ListCollection](../../com.aspose.words/listcollection)与文本段落分开收集。
+A list in a Microsoft Word document is a set of list formatting properties. The formatting of the lists is stored in the [ListCollection](../../com.aspose.words/listcollection) collection separately from the paragraphs of text.
 
-您不创建此类的对象。永远只有一个[ListCollection](../../com.aspose.words/listcollection)每个文档的对象，并且可以通过[DocumentBase.getLists()](../../com.aspose.words/documentbase\#getLists--)财产。
+You do not create objects of this class. There is always only one [ListCollection](../../com.aspose.words/listcollection) object per document and it is accessible via the [DocumentBase.getLists()](../../com.aspose.words/documentbase\#getLists--) property.
 
-要基于预定义的列表模板或列表样式创建新列表，请使用[add(com.aspose.words.Style)](../../com.aspose.words/listcollection\#add-com.aspose.words.Style-)方法。
+To create a new list based on a predefined list template or based on a list style, use the [add(com.aspose.words.Style)](../../com.aspose.words/listcollection\#add-com.aspose.words.Style-) method.
 
-要创建格式与现有列表相同的新列表，请使用[addCopy(com.aspose.words.List)](../../com.aspose.words/listcollection\#addCopy-com.aspose.words.List-)方法。
+To create a new list with formatting identical to an existing list, use the [addCopy(com.aspose.words.List)](../../com.aspose.words/listcollection\#addCopy-com.aspose.words.List-) method.
 
-要使段落带有项目符号或编号，您需要通过分配[List](../../com.aspose.words/list)反对[ListFormat.getList()](../../com.aspose.words/listformat\#getList--) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)的财产[ListFormat](../../com.aspose.words/listformat).
+To make a paragraph bulleted or numbered, you need to apply list formatting to a paragraph by assigning a [List](../../com.aspose.words/list) object to the [ListFormat.getList()](../../com.aspose.words/listformat\#getList--) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property of [ListFormat](../../com.aspose.words/listformat).
 
-要从段落中删除列表格式，请使用[ListFormat.removeNumbers()](../../com.aspose.words/listformat\#removeNumbers--)方法。
+To remove list formatting from a paragraph, use the [ListFormat.removeNumbers()](../../com.aspose.words/listformat\#removeNumbers--) method.
 
-如果您对 WordprocessingML 有所了解，那么您可能知道它为“列表”和“列表定义”定义了不同的概念。这与列表格式在低级别 Microsoft Word 文档中的存储方式完全一致。列表定义就像一个“模式”，列表就像一个列表定义的实例。
+If you know a bit about WordprocessingML, then you might know it defines separate concepts for "list" and "list definition". This exactly corresponds to how list formatting is stored in a Microsoft Word document at the low level. List definition is like a "schema" and list is like an instance of a list definition.
 
-为了简化编程模型，Aspose.Words 隐藏了列表和列表定义之间的区别，就像 Microsoft Word 在其用户界面中隐藏它一样。这使您可以更专注于您希望文档的外观，而不是构建低级对象以满足 Microsoft Word 文件格式的要求。
+To simplify programming model, Aspose.Words hides the distinction between list and list definition in much the same way like Microsoft Word hides this in its user interface. This allows you to concentrate more on how you want your document to look like, rather than building low-level objects to satisfy requirements of the Microsoft Word file format.
 
-一旦在当前版本的 Aspose.Words 中创建列表，就无法删除它们。这类似于 Microsoft Word，其中用户没有对列表定义的显式控制。
-## 方法s
+It is not possible to delete lists once they are created in the current version of Aspose.Words. This is similar to Microsoft Word where user does not have explicit control over list definitions.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(Style listStyle)](#add-com.aspose.words.Style-) | 创建一个引用列表样式的新列表，并将其添加到文档中的列表集合中。 |
+| [add(Style listStyle)](#add-com.aspose.words.Style-) | Creates a new list that references a list style and adds it to the collection of lists in the document. |
 | [add(int listTemplate)](#add-int-) |  |
-| [addCopy(List srcList)](#addCopy-com.aspose.words.List-) | 通过复制指定列表并将其添加到文档中的列表集合来创建一个新列表。 |
+| [addCopy(List srcList)](#addCopy-com.aspose.words.List-) | Creates a new list by copying the specified list and adding it to the collection of lists in the document. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 按索引获取列表。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取文档中编号和项目符号列表的计数。 |
-| [getDocument()](#getDocument--) | 获取所有者文档。 |
-| [getListByListId(int listId)](#getListByListId-int-) | 通过列表标识符获取列表。 |
+| [get(int index)](#get-int-) | Gets a list by index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the count of numbered and bulleted lists in the document. |
+| [getDocument()](#getDocument--) | Gets the owner document. |
+| [getListByListId(int listId)](#getListByListId-int-) | Gets a list by a list identifier. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 获取将枚举文档中列表的枚举器对象。 |
+| [iterator()](#iterator--) | Gets the enumerator object that will enumerate lists in the document. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -64,17 +64,17 @@ public List add(Style listStyle)
 ```
 
 
-创建一个引用列表样式的新列表，并将其添加到文档中的列表集合中。
+Creates a new list that references a list style and adds it to the collection of lists in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| listStyle | [Style](../../com.aspose.words/style) | 列表样式。 |
+| listStyle | [Style](../../com.aspose.words/style) | The list style. |
 
-**退货:**
-[List](../../com.aspose.words/list) - 新创建的列表。
+**Returns:**
+[List](../../com.aspose.words/list) - The newly created list.
 
-新创建的列表引用列表样式。如果更改列表样式的属性，它会反映在列表的属性中。反之亦然，如果更改列表的属性，它会反映在列表样式的属性中。
+The newly created list references the list style. If you change the properties of the list style, it is reflected in the properties of the list. Vice versa, if you change the properties of the list, it is reflected in the properties of the list style.
 ### add(int listTemplate) {#add-int-}
 ```
 public List add(int listTemplate)
@@ -83,12 +83,12 @@ public List add(int listTemplate)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | listTemplate | int |  |
 
-**退货:**
+**Returns:**
 [List](../../com.aspose.words/list)
 ### addCopy(List srcList) {#addCopy-com.aspose.words.List-}
 ```
@@ -96,19 +96,19 @@ public List addCopy(List srcList)
 ```
 
 
-通过复制指定列表并将其添加到文档中的列表集合来创建一个新列表。
+Creates a new list by copying the specified list and adding it to the collection of lists in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| srcList | [List](../../com.aspose.words/list) | 要从中复制的源列表。 |
+| srcList | [List](../../com.aspose.words/list) | The source list to copy from. |
 
-**退货:**
-[List](../../com.aspose.words/list) - 新创建的列表。
+**Returns:**
+[List](../../com.aspose.words/list) - The newly created list.
 
-源列表可以来自任何文档。如果源列表属于不同的文档，则会创建列表的副本并将其添加到当前文档。
+The source list can be from any document. If the source list belongs to a different document, a copy of the list is created and added to the current document.
 
-如果源列表是对列表样式的引用或定义，则新创建的列表与原始列表样式无关。
+If the source list is a reference to or a definition of a list style, the newly created list is not related to the original list style.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -117,75 +117,75 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public List get(int index)
 ```
 
 
-按索引获取列表。
+Gets a list by index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[List](../../com.aspose.words/list) - 按索引列出。
-### get班级() {#get班级--}
+**Returns:**
+[List](../../com.aspose.words/list) - A list by index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取文档中编号和项目符号列表的计数。
+Gets the count of numbered and bulleted lists in the document.
 
-**退货:**
-int - 文档中编号和项目符号列表的计数。
+**Returns:**
+int - The count of numbered and bulleted lists in the document.
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-获取所有者文档。
+Gets the owner document.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
 ### getListByListId(int listId) {#getListByListId-int-}
 ```
 public List getListByListId(int listId)
 ```
 
 
-通过列表标识符获取列表。
+Gets a list by a list identifier.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| listId | int | 列表标识符。 |
+| listId | int | The list identifier. |
 
-**退货:**
-[List](../../com.aspose.words/list) - 返回列表对象。如果未找到具有指定标识符的列表，则返回 null。
+**Returns:**
+[List](../../com.aspose.words/list) - Returns the list object. Returns null if a list with the specified identifier was not found.
 
-您通常不需要使用此方法。大多数情况下，您只需通过设置[ListFormat.getList()](../../com.aspose.words/listformat\#getList--) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-)的财产[ListFormat](../../com.aspose.words/listformat)目的。
+You don't normally need to use this method. Most of the time you apply list formatting to paragraphs just by settings the [ListFormat.getList()](../../com.aspose.words/listformat\#getList--) / [ListFormat.setList(com.aspose.words.List)](../../com.aspose.words/listformat\#setList-com.aspose.words.List-) property of the [ListFormat](../../com.aspose.words/listformat) object.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -194,17 +194,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-获取将枚举文档中列表的枚举器对象。
+Gets the enumerator object that will enumerate lists in the document.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -230,7 +230,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -248,8 +248,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -261,8 +261,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

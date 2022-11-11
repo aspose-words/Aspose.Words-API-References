@@ -1,45 +1,45 @@
 ---
 title: PdfDigitalSignatureTimestampSettings
-second_title: Aspose.Words for Java API 参考
-description: 包含数字签名时间戳的设置。
+second_title: Aspose.Words for Java API Reference
+description: Contains settings of the digital signature timestamp.
 type: docs
 weight: 453
-url: /zh/java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
+url: /java/com.aspose.words/pdfdigitalsignaturetimestampsettings/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfDigitalSignatureTimestampSettings
 ```
 
-包含数字签名时间戳的设置。
+Contains settings of the digital signature timestamp.
 
-要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 构造函数s
+To learn more, visit the **Work with Digital Signatures** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | 初始化此类的一个实例。 |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的一个实例。 |
-| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | 初始化此类的一个实例。 |
-## 方法s
+| [PdfDigitalSignatureTimestampSettings()](#PdfDigitalSignatureTimestampSettings--) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-) | Initializes an instance of this class. |
+| [PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout)](#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-) | Initializes an instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getPassword()](#getPassword--) | 时间戳服务器密码。 |
-| [getServerUrl()](#getServerUrl--) | 时间戳服务器 URL。 |
-| [getTimeout()](#getTimeout--) | 访问时间戳服务器的超时值（以毫秒为单位）。 |
-| [getUserName()](#getUserName--) | 时间戳服务器用户名。 |
+| [getClass()](#getClass--) |  |
+| [getPassword()](#getPassword--) | Timestamp server password. |
+| [getServerUrl()](#getServerUrl--) | Timestamp server URL. |
+| [getTimeout()](#getTimeout--) | Time-out value in milliseconds for accessing timestamp server. |
+| [getUserName()](#getUserName--) | Timestamp server user name. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setPassword(String value)](#setPassword-java.lang.String-) | 时间戳服务器密码。 |
-| [setServerUrl(String value)](#setServerUrl-java.lang.String-) | 时间戳服务器 URL。 |
-| [setTimeout(long value)](#setTimeout-long-) | 访问时间戳服务器的超时值（以毫秒为单位）。 |
-| [setUserName(String value)](#setUserName-java.lang.String-) | 时间戳服务器用户名。 |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Timestamp server password. |
+| [setServerUrl(String value)](#setServerUrl-java.lang.String-) | Timestamp server URL. |
+| [setTimeout(long value)](#setTimeout-long-) | Time-out value in milliseconds for accessing timestamp server. |
+| [setUserName(String value)](#setUserName-java.lang.String-) | Timestamp server user name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public PdfDigitalSignatureTimestampSettings()
 ```
 
 
-初始化此类的一个实例。
+Initializes an instance of this class.
 
 ### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-}
 ```
@@ -58,14 +58,14 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 ```
 
 
-初始化此类的一个实例。
+Initializes an instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| serverUrl | java.lang.String | 时间戳服务器 URL。 |
-| userName | java.lang.String | 时间戳服务器用户名。 |
-| password | java.lang.String | 时间戳服务器密码。 |
+| serverUrl | java.lang.String | Timestamp server URL. |
+| userName | java.lang.String | Timestamp server user name. |
+| password | java.lang.String | Timestamp server password. |
 
 ### PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, String password, long timeout) {#PdfDigitalSignatureTimestampSettings-java.lang.String-java.lang.String-java.lang.String-long-}
 ```
@@ -73,15 +73,15 @@ public PdfDigitalSignatureTimestampSettings(String serverUrl, String userName, S
 ```
 
 
-初始化此类的一个实例。
+Initializes an instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| serverUrl | java.lang.String | 时间戳服务器 URL。 |
-| userName | java.lang.String | 时间戳服务器用户名。 |
-| password | java.lang.String | 时间戳服务器密码。 |
-| timeout | long | 访问时间戳服务器的超时值（以毫秒为单位）。 |
+| serverUrl | java.lang.String | Timestamp server URL. |
+| userName | java.lang.String | Timestamp server user name. |
+| password | java.lang.String | Timestamp server password. |
+| timeout | long | Time-out value in milliseconds for accessing timestamp server. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -91,63 +91,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
 ```
 
 
-时间戳服务器密码。默认值为空。
+Timestamp server password. The default value is null.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getServerUrl() {#getServerUrl--}
 ```
 public String getServerUrl()
 ```
 
 
-时间戳服务器 URL。默认值为空。如果为空，则数字签名将不加时间戳。
+Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getTimeout() {#getTimeout--}
 ```
 public long getTimeout()
 ```
 
 
-访问时间戳服务器的超时值（以毫秒为单位）。默认值为 100 秒。
+Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
 
-**退货:**
-long - 对应的 long 值。
+**Returns:**
+long - The corresponding long value.
 ### getUserName() {#getUserName--}
 ```
 public String getUserName()
 ```
 
 
-时间戳服务器用户名。默认值为空。
+Timestamp server user name. The default value is null.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -156,8 +156,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -180,12 +180,12 @@ public void setPassword(String value)
 ```
 
 
-时间戳服务器密码。默认值为空。
+Timestamp server password. The default value is null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setServerUrl(String value) {#setServerUrl-java.lang.String-}
 ```
@@ -193,12 +193,12 @@ public void setServerUrl(String value)
 ```
 
 
-时间戳服务器 URL。默认值为空。如果为空，则数字签名将不加时间戳。
+Timestamp server URL. The default value is null. If null, then the digital signature will not be time-stamped.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setTimeout(long value) {#setTimeout-long-}
 ```
@@ -206,12 +206,12 @@ public void setTimeout(long value)
 ```
 
 
-访问时间戳服务器的超时值（以毫秒为单位）。默认值为 100 秒。
+Time-out value in milliseconds for accessing timestamp server. The default value is 100 seconds.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | long | 对应的长值。 |
+| value | long | The corresponding long value. |
 
 ### setUserName(String value) {#setUserName-java.lang.String-}
 ```
@@ -219,12 +219,12 @@ public void setUserName(String value)
 ```
 
 
-时间戳服务器用户名。默认值为空。
+Timestamp server user name. The default value is null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### toString() {#toString--}
 ```
@@ -234,7 +234,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -252,8 +252,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -265,8 +265,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

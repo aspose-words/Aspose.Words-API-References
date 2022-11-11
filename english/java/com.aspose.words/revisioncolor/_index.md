@@ -1,52 +1,52 @@
 ---
 title: RevisionColor
-second_title: Aspose.Words for Java API 参考
-description: 允许指定文档修订的颜色。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify color of document revisions.
 type: docs
 weight: 485
-url: /zh/java/com.aspose.words/revisioncolor/
+url: /java/com.aspose.words/revisioncolor/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RevisionColor
 ```
 
-允许指定文档修订的颜色。
-## 字段
+Allows to specify color of document revisions.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | 默认。 |
-| [BLACK](#BLACK) | 代表 000000 颜色。 |
-| [BLUE](#BLUE) | 代表 2e97d3 颜色。 |
-| [BRIGHT_GREEN](#BRIGHT-GREEN) | 代表 84a35b 颜色。 |
-| [BY_AUTHOR](#BY-AUTHOR) | 每个作者的修订版都会收到自己的颜色，用于从一组预定义的高对比度颜色中突出显示。 |
-| [CLASSIC_BLUE](#CLASSIC-BLUE) | 代表 0000ff 颜色。 |
-| [CLASSIC_RED](#CLASSIC-RED) | 代表ff0000颜色。 |
-| [DARK_BLUE](#DARK-BLUE) | 代表 376e96 颜色。 |
-| [DARK_RED](#DARK-RED) | 代表 881824 颜色。 |
-| [DARK_YELLOW](#DARK-YELLOW) | 代表 e09a2b 颜色。 |
-| [GRAY_25](#GRAY-25) | 代表 a0a3a9 颜色。 |
-| [GRAY_50](#GRAY-50) | 代表 50565e 颜色。 |
-| [GREEN](#GREEN) | 代表 2c6234 颜色。 |
-| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | 没有颜色用于突出修订更改。 |
-| [PINK](#PINK) | 代表 ce338f 颜色。 |
-| [RED](#RED) | 代表 b5082e 颜色。 |
-| [TEAL](#TEAL) | 代表 1b9cab 颜色。 |
-| [TURQUOISE](#TURQUOISE) | 代表 3eafc2 颜色。 |
-| [VIOLET](#VIOLET) | 代表 633277 颜色。 |
-| [WHITE](#WHITE) | 代表 ffffff 颜色。 |
-| [YELLOW](#YELLOW) | 代表fad272颜色。 |
+| [AUTO](#AUTO) | Default. |
+| [BLACK](#BLACK) | Represents 000000 color. |
+| [BLUE](#BLUE) | Represents 2e97d3 color. |
+| [BRIGHT_GREEN](#BRIGHT-GREEN) | Represents 84a35b color. |
+| [BY_AUTHOR](#BY-AUTHOR) | Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors. |
+| [CLASSIC_BLUE](#CLASSIC-BLUE) | Represents 0000ff color. |
+| [CLASSIC_RED](#CLASSIC-RED) | Represents ff0000 color. |
+| [DARK_BLUE](#DARK-BLUE) | Represents 376e96 color. |
+| [DARK_RED](#DARK-RED) | Represents 881824 color. |
+| [DARK_YELLOW](#DARK-YELLOW) | Represents e09a2b color. |
+| [GRAY_25](#GRAY-25) | Represents a0a3a9 color. |
+| [GRAY_50](#GRAY-50) | Represents 50565e color. |
+| [GREEN](#GREEN) | Represents 2c6234 color. |
+| [NO_HIGHLIGHT](#NO-HIGHLIGHT) | No color is used to highlight revision changes. |
+| [PINK](#PINK) | Represents ce338f color. |
+| [RED](#RED) | Represents b5082e color. |
+| [TEAL](#TEAL) | Represents 1b9cab color. |
+| [TURQUOISE](#TURQUOISE) | Represents 3eafc2 color. |
+| [VIOLET](#VIOLET) | Represents 633277 color. |
+| [WHITE](#WHITE) | Represents ffffff color. |
+| [YELLOW](#YELLOW) | Represents fad272 color. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String revisionColorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int revisionColor)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -63,7 +63,7 @@ public static int AUTO
 ```
 
 
-默认。
+Default.
 
 ### BLACK {#BLACK}
 ```
@@ -71,7 +71,7 @@ public static int BLACK
 ```
 
 
-代表 000000 颜色。
+Represents 000000 color.
 
 ### BLUE {#BLUE}
 ```
@@ -79,7 +79,7 @@ public static int BLUE
 ```
 
 
-代表 2e97d3 颜色。
+Represents 2e97d3 color.
 
 ### BRIGHT_GREEN {#BRIGHT-GREEN}
 ```
@@ -87,7 +87,7 @@ public static int BRIGHT_GREEN
 ```
 
 
-代表 84a35b 颜色。
+Represents 84a35b color.
 
 ### BY_AUTHOR {#BY-AUTHOR}
 ```
@@ -95,7 +95,7 @@ public static int BY_AUTHOR
 ```
 
 
-每个作者的修订版都会收到自己的颜色，用于从一组预定义的高对比度颜色中突出显示。
+Revisions of each author receive their own color for highlighting from a predfined set of hi-contrast colors.
 
 ### CLASSIC_BLUE {#CLASSIC-BLUE}
 ```
@@ -103,7 +103,7 @@ public static int CLASSIC_BLUE
 ```
 
 
-代表 0000ff 颜色。
+Represents 0000ff color.
 
 ### CLASSIC_RED {#CLASSIC-RED}
 ```
@@ -111,7 +111,7 @@ public static int CLASSIC_RED
 ```
 
 
-代表ff0000颜色。
+Represents ff0000 color.
 
 ### DARK_BLUE {#DARK-BLUE}
 ```
@@ -119,7 +119,7 @@ public static int DARK_BLUE
 ```
 
 
-代表 376e96 颜色。
+Represents 376e96 color.
 
 ### DARK_RED {#DARK-RED}
 ```
@@ -127,7 +127,7 @@ public static int DARK_RED
 ```
 
 
-代表 881824 颜色。
+Represents 881824 color.
 
 ### DARK_YELLOW {#DARK-YELLOW}
 ```
@@ -135,7 +135,7 @@ public static int DARK_YELLOW
 ```
 
 
-代表 e09a2b 颜色。
+Represents e09a2b color.
 
 ### GRAY_25 {#GRAY-25}
 ```
@@ -143,7 +143,7 @@ public static int GRAY_25
 ```
 
 
-代表 a0a3a9 颜色。
+Represents a0a3a9 color.
 
 ### GRAY_50 {#GRAY-50}
 ```
@@ -151,7 +151,7 @@ public static int GRAY_50
 ```
 
 
-代表 50565e 颜色。
+Represents 50565e color.
 
 ### GREEN {#GREEN}
 ```
@@ -159,7 +159,7 @@ public static int GREEN
 ```
 
 
-代表 2c6234 颜色。
+Represents 2c6234 color.
 
 ### NO_HIGHLIGHT {#NO-HIGHLIGHT}
 ```
@@ -167,7 +167,7 @@ public static int NO_HIGHLIGHT
 ```
 
 
-没有颜色用于突出修订更改。
+No color is used to highlight revision changes.
 
 ### PINK {#PINK}
 ```
@@ -175,7 +175,7 @@ public static int PINK
 ```
 
 
-代表 ce338f 颜色。
+Represents ce338f color.
 
 ### RED {#RED}
 ```
@@ -183,7 +183,7 @@ public static int RED
 ```
 
 
-代表 b5082e 颜色。
+Represents b5082e color.
 
 ### TEAL {#TEAL}
 ```
@@ -191,7 +191,7 @@ public static int TEAL
 ```
 
 
-代表 1b9cab 颜色。
+Represents 1b9cab color.
 
 ### TURQUOISE {#TURQUOISE}
 ```
@@ -199,7 +199,7 @@ public static int TURQUOISE
 ```
 
 
-代表 3eafc2 颜色。
+Represents 3eafc2 color.
 
 ### VIOLET {#VIOLET}
 ```
@@ -207,7 +207,7 @@ public static int VIOLET
 ```
 
 
-代表 633277 颜色。
+Represents 633277 color.
 
 ### WHITE {#WHITE}
 ```
@@ -215,7 +215,7 @@ public static int WHITE
 ```
 
 
-代表 ffffff 颜色。
+Represents ffffff color.
 
 ### YELLOW {#YELLOW}
 ```
@@ -223,7 +223,7 @@ public static int YELLOW
 ```
 
 
-代表fad272颜色。
+Represents fad272 color.
 
 ### length {#length}
 ```
@@ -239,13 +239,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String revisionColorName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String revisionColorName)
@@ -254,23 +254,23 @@ public static int fromName(String revisionColorName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionColorName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int revisionColor) {#getName-int-}
 ```
 public static String getName(int revisionColor)
@@ -279,12 +279,12 @@ public static String getName(int revisionColor)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionColor | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -294,8 +294,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -304,8 +304,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -330,7 +330,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int revisionColor) {#toString-int-}
 ```
@@ -340,12 +340,12 @@ public static String toString(int revisionColor)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionColor | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -363,8 +363,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -376,8 +376,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

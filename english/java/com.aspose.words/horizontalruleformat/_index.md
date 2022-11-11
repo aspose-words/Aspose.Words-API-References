@@ -1,40 +1,40 @@
 ---
 title: HorizontalRuleFormat
-second_title: Aspose.Words for Java API 参考
-description: 表示水平规则格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents horizontal rule formatting.
 type: docs
 weight: 322
-url: /zh/java/com.aspose.words/horizontalruleformat/
+url: /java/com.aspose.words/horizontalruleformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HorizontalRuleFormat
 ```
 
-表示水平规则格式。
+Represents horizontal rule formatting.
 
-要了解更多信息，请访问**Working with Shapes**文档文章。
-## 方法s
+To learn more, visit the **Working with Shapes** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlignment()](#getAlignment--) | 获取水平线的对齐方式。 |
-| [get班级()](#get班级--) |  |
-| [getColor()](#getColor--) | 获取填充水平线的画笔颜色。 |
-| [getHeight()](#getHeight--) | 获取水平线的高度。 |
-| [getNoShade()](#getNoShade--) | 表示存在水平线的 3D 阴影。 |
-| [getWidthPercent()](#getWidthPercent--) | 获取以窗口宽度百分比表示的指定水平线的长度。 |
+| [getAlignment()](#getAlignment--) | Gets the alignment of the horizontal rule. |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Gets the brush color that fills the horizontal rule. |
+| [getHeight()](#getHeight--) | Gets the height of the horizontal rule. |
+| [getNoShade()](#getNoShade--) | Indicates the presence of 3D shading for the horizontal rule. |
+| [getWidthPercent()](#getWidthPercent--) | Gets the length of the specified horizontal rule expressed as a percentage of the window width. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | 设置水平线的对齐方式。 |
-| [setColor(Color value)](#setColor-java.awt.Color-) | 设置填充水平线的画笔颜色。 |
-| [setHeight(double value)](#setHeight-double-) | 设置水平线的高度。 |
-| [setNoShade(boolean value)](#setNoShade-boolean-) | 表示存在水平线的 3D 阴影。 |
-| [setWidthPercent(double value)](#setWidthPercent-double-) | 设置指定水平线的长度，以窗口宽度的百分比表示。 |
+| [setAlignment(int value)](#setAlignment-int-) | Sets the alignment of the horizontal rule. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the brush color that fills the horizontal rule. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the horizontal rule. |
+| [setNoShade(boolean value)](#setNoShade-boolean-) | Indicates the presence of 3D shading for the horizontal rule. |
+| [setWidthPercent(double value)](#setWidthPercent-double-) | Sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,91 +47,91 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
 ```
 
 
-获取水平线的对齐方式。
+Gets the alignment of the horizontal rule.
 
-默认值为[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
 
-**退货:**
- int - 水平线的对齐方式。返回值是以下之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。
-### get班级() {#get班级--}
+**Returns:**
+int - The alignment of the horizontal rule. The returned value is one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) constants.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-获取填充水平线的画笔颜色。
+Gets the brush color that fills the horizontal rule.
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-) property.
 
-默认值为 。
+The default value is .
 
-**退货:**
-java.awt.Color - 填充水平线的画笔颜色。
+**Returns:**
+java.awt.Color - The brush color that fills the horizontal rule.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
 ```
 
 
-获取水平线的高度。
+Gets the height of the horizontal rule.
 
-这是一个快捷方式[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
+This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-) property.
 
-有效值\\u200b\\u200brange 从 0 到 1584（含）。
+Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
-默认值为 1.5。
+The default value is 1.5.
 
-**退货:**
-double - 水平线的高度。
+**Returns:**
+double - The height of the horizontal rule.
 ### getNoShade() {#getNoShade--}
 ```
 public boolean getNoShade()
 ```
 
 
-表示存在水平线的 3D 阴影。如果为 true，则水平规则不使用 3D 阴影并使用纯色。
+Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used.
 
-默认值为假。
+The default value is false.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getWidthPercent() {#getWidthPercent--}
 ```
 public double getWidthPercent()
 ```
 
 
-获取以窗口宽度百分比表示的指定水平线的长度。
+Gets the length of the specified horizontal rule expressed as a percentage of the window width.
 
-有效值\\u200b\\u200b 范围从 1 到 100（含）。
+Valid values \\u200b\\u200brange from 1 to 100 inclusive.
 
-默认值为 100。
+The default value is 100.
 
-**退货:**
-double - 指定水平线的长度，以窗口宽度的百分比表示。
+**Returns:**
+double - The length of the specified horizontal rule expressed as a percentage of the window width.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,14 +164,14 @@ public void setAlignment(int value)
 ```
 
 
-设置水平线的对齐方式。
+Sets the alignment of the horizontal rule.
 
-默认值为[HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
+The default value is [HorizontalRuleAlignment.LEFT](../../com.aspose.words/horizontalrulealignment\#LEFT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 水平线的对齐方式。该值必须是以下之一[HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment)常数。 |
+| value | int | The alignment of the horizontal rule. The value must be one of [HorizontalRuleAlignment](../../com.aspose.words/horizontalrulealignment) constants. |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -179,16 +179,16 @@ public void setColor(Color value)
 ```
 
 
-设置填充水平线的画笔颜色。
+Sets the brush color that fills the horizontal rule.
 
-这是一个快捷方式[Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-)财产。
+This is a shortcut to the [Fill.getColor()](../../com.aspose.words/fill\#getColor--) / [Fill.setColor(java.awt.Color)](../../com.aspose.words/fill\#setColor-java.awt.Color-) property.
 
-默认值为 。
+The default value is .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 填充水平线的画笔颜色。 |
+| value | java.awt.Color | The brush color that fills the horizontal rule. |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -196,18 +196,18 @@ public void setHeight(double value)
 ```
 
 
-设置水平线的高度。
+Sets the height of the horizontal rule.
 
-这是一个快捷方式[ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-)财产。
+This is a shortcut to the [ShapeBase.getHeight()](../../com.aspose.words/shapebase\#getHeight--) / [ShapeBase.setHeight(double)](../../com.aspose.words/shapebase\#setHeight-double-) property.
 
-有效值\\u200b\\u200brange 从 0 到 1584（含）。
+Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
-默认值为 1.5。
+The default value is 1.5.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 水平尺的高度。 |
+| value | double | The height of the horizontal rule. |
 
 ### setNoShade(boolean value) {#setNoShade-boolean-}
 ```
@@ -215,14 +215,14 @@ public void setNoShade(boolean value)
 ```
 
 
-表示存在水平线的 3D 阴影。如果为 true，则水平规则不使用 3D 阴影并使用纯色。
+Indicates the presence of 3D shading for the horizontal rule. If true, then the horizontal rule is without 3D shading and solid color is used.
 
-默认值为假。
+The default value is false.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setWidthPercent(double value) {#setWidthPercent-double-}
 ```
@@ -230,16 +230,16 @@ public void setWidthPercent(double value)
 ```
 
 
-设置指定水平线的长度，以窗口宽度的百分比表示。
+Sets the length of the specified horizontal rule expressed as a percentage of the window width.
 
-有效值\\u200b\\u200b 范围从 1 到 100（含）。
+Valid values \\u200b\\u200brange from 1 to 100 inclusive.
 
-默认值为 100。
+The default value is 100.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 以窗口宽度百分比表示的指定水平线的长度。 |
+| value | double | The length of the specified horizontal rule expressed as a percentage of the window width. |
 
 ### toString() {#toString--}
 ```
@@ -249,7 +249,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -267,8 +267,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -280,8 +280,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

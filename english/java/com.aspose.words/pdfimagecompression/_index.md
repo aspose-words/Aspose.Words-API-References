@@ -1,33 +1,33 @@
 ---
 title: PdfImageCompression
-second_title: Aspose.Words for Java API 参考
-description: 指定应用于 PDF 文件中图像的压缩类型。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the type of compression applied to images in the PDF file.
 type: docs
 weight: 457
-url: /zh/java/com.aspose.words/pdfimagecompression/
+url: /java/com.aspose.words/pdfimagecompression/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfImageCompression
 ```
 
-指定应用于 PDF 文件中图像的压缩类型。
-## 字段
+Specifies the type of compression applied to images in the PDF file.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | 自动为每个图像选择最合适的压缩。 |
-| [JPEG](#JPEG) | Jpeg 压缩。 |
+| [AUTO](#AUTO) | Automatically selects the most appropriate compression for each image. |
+| [JPEG](#JPEG) | Jpeg compression. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfImageCompressionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfImageCompression)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int AUTO
 ```
 
 
-自动为每个图像选择最合适的压缩。
+Automatically selects the most appropriate compression for each image.
 
 ### JPEG {#JPEG}
 ```
@@ -52,7 +52,7 @@ public static int JPEG
 ```
 
 
-Jpeg 压缩。不支持透明度。
+Jpeg compression. Does not support transparency.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pdfImageCompressionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfImageCompressionName)
@@ -83,23 +83,23 @@ public static int fromName(String pdfImageCompressionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageCompressionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pdfImageCompression) {#getName-int-}
 ```
 public static String getName(int pdfImageCompression)
@@ -108,12 +108,12 @@ public static String getName(int pdfImageCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pdfImageCompression) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int pdfImageCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,31 +1,31 @@
 ---
 title: StyleIdentifier
 second_title: Aspose.Words for Java API Reference
-description: 独立于语言环境的样式标识符。
+description: Locale independent style identifier.
 type: docs
 weight: 538
-url: /zh/java/com.aspose.words/styleidentifier/
+url: /java/com.aspose.words/styleidentifier/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class StyleIdentifier
 ```
 
-独立于语言环境的样式标识符。
+Locale independent style identifier.
 
-MS Word 中内置样式的名称已针对不同语言进行了本地化。使用样式标识符，无论文档语言如何，您都可以找到正确的样式。
+The names of built-in styles in MS Word are localized for different languages. Using a style identifier you can find the correct style regardless of the document language.
 
-所有用户定义的样式都分配有 StyleIdentifier.User 值。
-## 字段
+All user defined styles are assigned the StyleIdentifier.User value.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [BALLOON_TEXT](#BALLOON-TEXT) |  |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) |  |
 | [BLOCK_TEXT](#BLOCK-TEXT) |  |
-| [BODY_TEXT](#BODY-TEXT) | 正文文本样式。 |
+| [BODY_TEXT](#BODY-TEXT) | The Body Text style. |
 | [BODY_TEXT_1_I](#BODY-TEXT-1-I) |  |
 | [BODY_TEXT_1_I_2](#BODY-TEXT-1-I-2) |  |
 | [BODY_TEXT_2](#BODY-TEXT-2) |  |
@@ -57,9 +57,9 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [COLORFUL_SHADING_ACCENT_4](#COLORFUL-SHADING-ACCENT-4) |  |
 | [COLORFUL_SHADING_ACCENT_5](#COLORFUL-SHADING-ACCENT-5) |  |
 | [COLORFUL_SHADING_ACCENT_6](#COLORFUL-SHADING-ACCENT-6) |  |
-| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | 注释（注释）参考样式。 |
+| [COMMENT_REFERENCE](#COMMENT-REFERENCE) | The Annotation (Comment) Reference style. |
 | [COMMENT_SUBJECT](#COMMENT-SUBJECT) |  |
-| [COMMENT_TEXT](#COMMENT-TEXT) | 注释（注释）文本样式。 |
+| [COMMENT_TEXT](#COMMENT-TEXT) | The Annotation (Comment) Text style. |
 | [DARK_LIST](#DARK-LIST) |  |
 | [DARK_LIST_ACCENT_1](#DARK-LIST-ACCENT-1) |  |
 | [DARK_LIST_ACCENT_2](#DARK-LIST-ACCENT-2) |  |
@@ -68,78 +68,78 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [DARK_LIST_ACCENT_5](#DARK-LIST-ACCENT-5) |  |
 | [DARK_LIST_ACCENT_6](#DARK-LIST-ACCENT-6) |  |
 | [DATE](#DATE) |  |
-| [DEFAULT_PARAGRAPH_FONT](#DEFAULT-PARAGRAPH-FONT) | 默认段落字体样式。 |
+| [DEFAULT_PARAGRAPH_FONT](#DEFAULT-PARAGRAPH-FONT) | The Default Paragraph Font style. |
 | [DOCUMENT_MAP](#DOCUMENT-MAP) |  |
 | [EMAIL_SIGNATURE](#EMAIL-SIGNATURE) |  |
 | [EMPHASIS](#EMPHASIS) |  |
-| [ENDNOTE_REFERENCE](#ENDNOTE-REFERENCE) | 尾注参考样式。 |
-| [ENDNOTE_TEXT](#ENDNOTE-TEXT) | 尾注文本样式。 |
-| [ENVELOPE_ADDRESS](#ENVELOPE-ADDRESS) | 信封地址样式。 |
-| [ENVELOPE_RETURN](#ENVELOPE-RETURN) | 信封返回样式。 |
+| [ENDNOTE_REFERENCE](#ENDNOTE-REFERENCE) | The Endnote Reference style. |
+| [ENDNOTE_TEXT](#ENDNOTE-TEXT) | The Endnote Text style. |
+| [ENVELOPE_ADDRESS](#ENVELOPE-ADDRESS) | The Envelope Address style. |
+| [ENVELOPE_RETURN](#ENVELOPE-RETURN) | The Envelope Return style. |
 | [FOLLOWED_HYPERLINK](#FOLLOWED-HYPERLINK) |  |
-| [FOOTER](#FOOTER) | 页脚样式。 |
-| [FOOTNOTE_REFERENCE](#FOOTNOTE-REFERENCE) | 脚注参考样式。 |
-| [FOOTNOTE_TEXT](#FOOTNOTE-TEXT) | 脚注文本样式。 |
-| [GRID_TABLE_1_LIGHT](#GRID-TABLE-1-LIGHT) | 网格表 1 灯 |
-| [GRID_TABLE_1_LIGHT_ACCENT_1](#GRID-TABLE-1-LIGHT-ACCENT-1) | 网格表 1 浅色 - 口音 1 |
-| [GRID_TABLE_1_LIGHT_ACCENT_2](#GRID-TABLE-1-LIGHT-ACCENT-2) | 网格表 1 浅色 - 重音 2 |
-| [GRID_TABLE_1_LIGHT_ACCENT_3](#GRID-TABLE-1-LIGHT-ACCENT-3) | 网格表 1 浅色 - 口音 3 |
-| [GRID_TABLE_1_LIGHT_ACCENT_4](#GRID-TABLE-1-LIGHT-ACCENT-4) | 网格表 1 浅色 - 口音 4 |
-| [GRID_TABLE_1_LIGHT_ACCENT_5](#GRID-TABLE-1-LIGHT-ACCENT-5) | 网格表 1 浅色 - 口音 5 |
-| [GRID_TABLE_1_LIGHT_ACCENT_6](#GRID-TABLE-1-LIGHT-ACCENT-6) | 网格表 1 浅色 - 口音 6 |
-| [GRID_TABLE_2](#GRID-TABLE-2) | 网格表 2 |
-| [GRID_TABLE_2_ACCENT_1](#GRID-TABLE-2-ACCENT-1) | 网格表 2 - 口音 1 |
-| [GRID_TABLE_2_ACCENT_2](#GRID-TABLE-2-ACCENT-2) | 网格表 2 - 口音 2 |
-| [GRID_TABLE_2_ACCENT_3](#GRID-TABLE-2-ACCENT-3) | 网格表 2 - 口音 3 |
-| [GRID_TABLE_2_ACCENT_4](#GRID-TABLE-2-ACCENT-4) | 网格表 2 - 口音 4 |
-| [GRID_TABLE_2_ACCENT_5](#GRID-TABLE-2-ACCENT-5) | 网格表 2 - 口音 5 |
-| [GRID_TABLE_2_ACCENT_6](#GRID-TABLE-2-ACCENT-6) | 网格表 2 - 口音 6 |
-| [GRID_TABLE_3](#GRID-TABLE-3) | 网格表 3 |
-| [GRID_TABLE_3_ACCENT_1](#GRID-TABLE-3-ACCENT-1) | 网格表 3 - 口音 1 |
-| [GRID_TABLE_3_ACCENT_2](#GRID-TABLE-3-ACCENT-2) | 网格表 3 - 口音 2 |
-| [GRID_TABLE_3_ACCENT_3](#GRID-TABLE-3-ACCENT-3) | 网格表 3 - 口音 3 |
-| [GRID_TABLE_3_ACCENT_4](#GRID-TABLE-3-ACCENT-4) | 网格表 3 - 口音 4 |
-| [GRID_TABLE_3_ACCENT_5](#GRID-TABLE-3-ACCENT-5) | 网格表 3 - 口音 5 |
-| [GRID_TABLE_3_ACCENT_6](#GRID-TABLE-3-ACCENT-6) | 网格表 3 - 口音 6 |
-| [GRID_TABLE_4](#GRID-TABLE-4) | 网格表 4 |
-| [GRID_TABLE_4_ACCENT_1](#GRID-TABLE-4-ACCENT-1) | 网格表 4 - 口音 1 |
-| [GRID_TABLE_4_ACCENT_2](#GRID-TABLE-4-ACCENT-2) | 网格表 4 - 口音 2 |
-| [GRID_TABLE_4_ACCENT_3](#GRID-TABLE-4-ACCENT-3) | 网格表 4 - 口音 3 |
-| [GRID_TABLE_4_ACCENT_4](#GRID-TABLE-4-ACCENT-4) | 网格表 4 - 口音 4 |
-| [GRID_TABLE_4_ACCENT_5](#GRID-TABLE-4-ACCENT-5) | 网格表 4 - 口音 5 |
-| [GRID_TABLE_4_ACCENT_6](#GRID-TABLE-4-ACCENT-6) | 网格表 4 - 口音 6 |
-| [GRID_TABLE_5_DARK](#GRID-TABLE-5-DARK) | 网格表 5 深色 |
-| [GRID_TABLE_5_DARK_ACCENT_1](#GRID-TABLE-5-DARK-ACCENT-1) | 网格表 5 深色 - 口音 1 |
-| [GRID_TABLE_5_DARK_ACCENT_2](#GRID-TABLE-5-DARK-ACCENT-2) | 网格表 5 深色 - 口音 2 |
-| [GRID_TABLE_5_DARK_ACCENT_3](#GRID-TABLE-5-DARK-ACCENT-3) | 网格表 5 深色 - 口音 3 |
-| [GRID_TABLE_5_DARK_ACCENT_4](#GRID-TABLE-5-DARK-ACCENT-4) | 网格表 5 深色 - 口音 4 |
-| [GRID_TABLE_5_DARK_ACCENT_5](#GRID-TABLE-5-DARK-ACCENT-5) | 网格表 5 深色 - 口音 5 |
-| [GRID_TABLE_5_DARK_ACCENT_6](#GRID-TABLE-5-DARK-ACCENT-6) | 网格表 5 深色 - 口音 6 |
-| [GRID_TABLE_6_COLORFUL](#GRID-TABLE-6-COLORFUL) | 网格表 6 多彩 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_1](#GRID-TABLE-6-COLORFUL-ACCENT-1) | 网格表 6 彩色 - 口音 1 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_2](#GRID-TABLE-6-COLORFUL-ACCENT-2) | 网格表 6 彩色 - 口音 2 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_3](#GRID-TABLE-6-COLORFUL-ACCENT-3) | 网格表 6 彩色 - 口音 3 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_4](#GRID-TABLE-6-COLORFUL-ACCENT-4) | 网格表 6 彩色 - 口音 4 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_5](#GRID-TABLE-6-COLORFUL-ACCENT-5) | 网格表 6 彩色 - 口音 5 |
-| [GRID_TABLE_6_COLORFUL_ACCENT_6](#GRID-TABLE-6-COLORFUL-ACCENT-6) | 网格表 6 彩色 - 口音 6 |
-| [GRID_TABLE_7_COLORFUL](#GRID-TABLE-7-COLORFUL) | 网格表 7 多彩 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_1](#GRID-TABLE-7-COLORFUL-ACCENT-1) | 网格表 7 彩色 - 口音 1 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_2](#GRID-TABLE-7-COLORFUL-ACCENT-2) | 网格表 7 彩色 - 口音 2 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_3](#GRID-TABLE-7-COLORFUL-ACCENT-3) | 网格表 7 彩色 - 口音 3 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_4](#GRID-TABLE-7-COLORFUL-ACCENT-4) | 网格表 7 彩色 - 口音 4 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_5](#GRID-TABLE-7-COLORFUL-ACCENT-5) | 网格表 7 彩色 - 口音 5 |
-| [GRID_TABLE_7_COLORFUL_ACCENT_6](#GRID-TABLE-7-COLORFUL-ACCENT-6) | 网格表 7 彩色 - 口音 6 |
-| [HASHTAG](#HASHTAG) | 标签风格。 |
-| [HEADER](#HEADER) | 页眉样式。 |
-| [HEADING_1](#HEADING-1) | 标题 1 样式。 |
-| [HEADING_2](#HEADING-2) | 标题 2 样式。 |
-| [HEADING_3](#HEADING-3) | 标题 3 样式。 |
-| [HEADING_4](#HEADING-4) | 标题 4 样式。 |
-| [HEADING_5](#HEADING-5) | 标题 5 样式。 |
-| [HEADING_6](#HEADING-6) | 标题 6 样式。 |
-| [HEADING_7](#HEADING-7) | 标题 7 样式。 |
-| [HEADING_8](#HEADING-8) | 标题 8 样式。 |
-| [HEADING_9](#HEADING-9) | 标题 9 样式。 |
+| [FOOTER](#FOOTER) | The Footer style. |
+| [FOOTNOTE_REFERENCE](#FOOTNOTE-REFERENCE) | The Footnote Reference style. |
+| [FOOTNOTE_TEXT](#FOOTNOTE-TEXT) | The Footnote Text style. |
+| [GRID_TABLE_1_LIGHT](#GRID-TABLE-1-LIGHT) | Grid Table 1 Light |
+| [GRID_TABLE_1_LIGHT_ACCENT_1](#GRID-TABLE-1-LIGHT-ACCENT-1) | Grid Table 1 Light - Accent 1 |
+| [GRID_TABLE_1_LIGHT_ACCENT_2](#GRID-TABLE-1-LIGHT-ACCENT-2) | Grid Table 1 Light - Accent 2 |
+| [GRID_TABLE_1_LIGHT_ACCENT_3](#GRID-TABLE-1-LIGHT-ACCENT-3) | Grid Table 1 Light - Accent 3 |
+| [GRID_TABLE_1_LIGHT_ACCENT_4](#GRID-TABLE-1-LIGHT-ACCENT-4) | Grid Table 1 Light - Accent 4 |
+| [GRID_TABLE_1_LIGHT_ACCENT_5](#GRID-TABLE-1-LIGHT-ACCENT-5) | Grid Table 1 Light - Accent 5 |
+| [GRID_TABLE_1_LIGHT_ACCENT_6](#GRID-TABLE-1-LIGHT-ACCENT-6) | Grid Table 1 Light - Accent 6 |
+| [GRID_TABLE_2](#GRID-TABLE-2) | Grid Table 2 |
+| [GRID_TABLE_2_ACCENT_1](#GRID-TABLE-2-ACCENT-1) | Grid Table 2 - Accent 1 |
+| [GRID_TABLE_2_ACCENT_2](#GRID-TABLE-2-ACCENT-2) | Grid Table 2 - Accent 2 |
+| [GRID_TABLE_2_ACCENT_3](#GRID-TABLE-2-ACCENT-3) | Grid Table 2 - Accent 3 |
+| [GRID_TABLE_2_ACCENT_4](#GRID-TABLE-2-ACCENT-4) | Grid Table 2 - Accent 4 |
+| [GRID_TABLE_2_ACCENT_5](#GRID-TABLE-2-ACCENT-5) | Grid Table 2 - Accent 5 |
+| [GRID_TABLE_2_ACCENT_6](#GRID-TABLE-2-ACCENT-6) | Grid Table 2 - Accent 6 |
+| [GRID_TABLE_3](#GRID-TABLE-3) | Grid Table 3 |
+| [GRID_TABLE_3_ACCENT_1](#GRID-TABLE-3-ACCENT-1) | Grid Table 3 - Accent 1 |
+| [GRID_TABLE_3_ACCENT_2](#GRID-TABLE-3-ACCENT-2) | Grid Table 3 - Accent 2 |
+| [GRID_TABLE_3_ACCENT_3](#GRID-TABLE-3-ACCENT-3) | Grid Table 3 - Accent 3 |
+| [GRID_TABLE_3_ACCENT_4](#GRID-TABLE-3-ACCENT-4) | Grid Table 3 - Accent 4 |
+| [GRID_TABLE_3_ACCENT_5](#GRID-TABLE-3-ACCENT-5) | Grid Table 3 - Accent 5 |
+| [GRID_TABLE_3_ACCENT_6](#GRID-TABLE-3-ACCENT-6) | Grid Table 3 - Accent 6 |
+| [GRID_TABLE_4](#GRID-TABLE-4) | Grid Table 4 |
+| [GRID_TABLE_4_ACCENT_1](#GRID-TABLE-4-ACCENT-1) | Grid Table 4 - Accent 1 |
+| [GRID_TABLE_4_ACCENT_2](#GRID-TABLE-4-ACCENT-2) | Grid Table 4 - Accent 2 |
+| [GRID_TABLE_4_ACCENT_3](#GRID-TABLE-4-ACCENT-3) | Grid Table 4 - Accent 3 |
+| [GRID_TABLE_4_ACCENT_4](#GRID-TABLE-4-ACCENT-4) | Grid Table 4 - Accent 4 |
+| [GRID_TABLE_4_ACCENT_5](#GRID-TABLE-4-ACCENT-5) | Grid Table 4 - Accent 5 |
+| [GRID_TABLE_4_ACCENT_6](#GRID-TABLE-4-ACCENT-6) | Grid Table 4 - Accent 6 |
+| [GRID_TABLE_5_DARK](#GRID-TABLE-5-DARK) | Grid Table 5 Dark |
+| [GRID_TABLE_5_DARK_ACCENT_1](#GRID-TABLE-5-DARK-ACCENT-1) | Grid Table 5 Dark - Accent 1 |
+| [GRID_TABLE_5_DARK_ACCENT_2](#GRID-TABLE-5-DARK-ACCENT-2) | Grid Table 5 Dark - Accent 2 |
+| [GRID_TABLE_5_DARK_ACCENT_3](#GRID-TABLE-5-DARK-ACCENT-3) | Grid Table 5 Dark - Accent 3 |
+| [GRID_TABLE_5_DARK_ACCENT_4](#GRID-TABLE-5-DARK-ACCENT-4) | Grid Table 5 Dark - Accent 4 |
+| [GRID_TABLE_5_DARK_ACCENT_5](#GRID-TABLE-5-DARK-ACCENT-5) | Grid Table 5 Dark - Accent 5 |
+| [GRID_TABLE_5_DARK_ACCENT_6](#GRID-TABLE-5-DARK-ACCENT-6) | Grid Table 5 Dark - Accent 6 |
+| [GRID_TABLE_6_COLORFUL](#GRID-TABLE-6-COLORFUL) | Grid Table 6 Colorful |
+| [GRID_TABLE_6_COLORFUL_ACCENT_1](#GRID-TABLE-6-COLORFUL-ACCENT-1) | Grid Table 6 Colorful - Accent 1 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_2](#GRID-TABLE-6-COLORFUL-ACCENT-2) | Grid Table 6 Colorful - Accent 2 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_3](#GRID-TABLE-6-COLORFUL-ACCENT-3) | Grid Table 6 Colorful - Accent 3 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_4](#GRID-TABLE-6-COLORFUL-ACCENT-4) | Grid Table 6 Colorful - Accent 4 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_5](#GRID-TABLE-6-COLORFUL-ACCENT-5) | Grid Table 6 Colorful - Accent 5 |
+| [GRID_TABLE_6_COLORFUL_ACCENT_6](#GRID-TABLE-6-COLORFUL-ACCENT-6) | Grid Table 6 Colorful - Accent 6 |
+| [GRID_TABLE_7_COLORFUL](#GRID-TABLE-7-COLORFUL) | Grid Table 7 Colorful |
+| [GRID_TABLE_7_COLORFUL_ACCENT_1](#GRID-TABLE-7-COLORFUL-ACCENT-1) | Grid Table 7 Colorful - Accent 1 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_2](#GRID-TABLE-7-COLORFUL-ACCENT-2) | Grid Table 7 Colorful - Accent 2 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_3](#GRID-TABLE-7-COLORFUL-ACCENT-3) | Grid Table 7 Colorful - Accent 3 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_4](#GRID-TABLE-7-COLORFUL-ACCENT-4) | Grid Table 7 Colorful - Accent 4 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_5](#GRID-TABLE-7-COLORFUL-ACCENT-5) | Grid Table 7 Colorful - Accent 5 |
+| [GRID_TABLE_7_COLORFUL_ACCENT_6](#GRID-TABLE-7-COLORFUL-ACCENT-6) | Grid Table 7 Colorful - Accent 6 |
+| [HASHTAG](#HASHTAG) | The Hashtag style. |
+| [HEADER](#HEADER) | The Header style. |
+| [HEADING_1](#HEADING-1) | The Heading 1 style. |
+| [HEADING_2](#HEADING-2) | The Heading 2 style. |
+| [HEADING_3](#HEADING-3) | The Heading 3 style. |
+| [HEADING_4](#HEADING-4) | The Heading 4 style. |
+| [HEADING_5](#HEADING-5) | The Heading 5 style. |
+| [HEADING_6](#HEADING-6) | The Heading 6 style. |
+| [HEADING_7](#HEADING-7) | The Heading 7 style. |
+| [HEADING_8](#HEADING-8) | The Heading 8 style. |
+| [HEADING_9](#HEADING-9) | The Heading 9 style. |
 | [HTML_ACRONYM](#HTML-ACRONYM) |  |
 | [HTML_ADDRESS](#HTML-ADDRESS) |  |
 | [HTML_BOTTOM_OF_FORM](#HTML-BOTTOM-OF-FORM) |  |
@@ -152,7 +152,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [HTML_TOP_OF_FORM](#HTML-TOP-OF-FORM) |  |
 | [HTML_TYPEWRITER](#HTML-TYPEWRITER) |  |
 | [HTML_VARIABLE](#HTML-VARIABLE) |  |
-| [HYPERLINK](#HYPERLINK) | 超链接样式。 |
+| [HYPERLINK](#HYPERLINK) | The Hyperlink style. |
 | [INDEX_1](#INDEX-1) |  |
 | [INDEX_2](#INDEX-2) |  |
 | [INDEX_3](#INDEX-3) |  |
@@ -162,7 +162,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [INDEX_7](#INDEX-7) |  |
 | [INDEX_8](#INDEX-8) |  |
 | [INDEX_9](#INDEX-9) |  |
-| [INDEX_HEADING](#INDEX-HEADING) | 索引标题样式。 |
+| [INDEX_HEADING](#INDEX-HEADING) | The Index Heading style. |
 | [INTENSE_EMPHASIS](#INTENSE-EMPHASIS) |  |
 | [INTENSE_QUOTE](#INTENSE-QUOTE) |  |
 | [INTENSE_REFERENCE](#INTENSE-REFERENCE) |  |
@@ -187,13 +187,13 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [LIGHT_SHADING_ACCENT_4](#LIGHT-SHADING-ACCENT-4) |  |
 | [LIGHT_SHADING_ACCENT_5](#LIGHT-SHADING-ACCENT-5) |  |
 | [LIGHT_SHADING_ACCENT_6](#LIGHT-SHADING-ACCENT-6) |  |
-| [LINE_NUMBER](#LINE-NUMBER) | 行号样式。 |
-| [LIST](#LIST) | 列表样式。 |
+| [LINE_NUMBER](#LINE-NUMBER) | The Line Number style. |
+| [LIST](#LIST) | The List style. |
 | [LIST_2](#LIST-2) |  |
 | [LIST_3](#LIST-3) |  |
 | [LIST_4](#LIST-4) |  |
 | [LIST_5](#LIST-5) |  |
-| [LIST_BULLET](#LIST-BULLET) | 列表项目符号样式。 |
+| [LIST_BULLET](#LIST-BULLET) | The List Bullet style. |
 | [LIST_BULLET_2](#LIST-BULLET-2) |  |
 | [LIST_BULLET_3](#LIST-BULLET-3) |  |
 | [LIST_BULLET_4](#LIST-BULLET-4) |  |
@@ -203,61 +203,61 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [LIST_CONTINUE_3](#LIST-CONTINUE-3) |  |
 | [LIST_CONTINUE_4](#LIST-CONTINUE-4) |  |
 | [LIST_CONTINUE_5](#LIST-CONTINUE-5) |  |
-| [LIST_NUMBER](#LIST-NUMBER) | 列表编号样式。 |
+| [LIST_NUMBER](#LIST-NUMBER) | The List Number style. |
 | [LIST_NUMBER_2](#LIST-NUMBER-2) |  |
 | [LIST_NUMBER_3](#LIST-NUMBER-3) |  |
 | [LIST_NUMBER_4](#LIST-NUMBER-4) |  |
 | [LIST_NUMBER_5](#LIST-NUMBER-5) |  |
 | [LIST_PARAGRAPH](#LIST-PARAGRAPH) |  |
-| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | 列表表 1 灯 |
-| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | 列出表 1 浅色 - 重音 1 |
-| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | 列出表 1 浅色 - 重音 2 |
-| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | 列出表 1 浅色 - 重音 3 |
-| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | 列出表 1 浅色 - 重音 4 |
-| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | 列出表 1 浅色 - 重音 5 |
-| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | 列出表 1 浅色 - 重音 6 |
-| [LIST_TABLE_2](#LIST-TABLE-2) | 清单表 2 |
-| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | 列表表 2 - 口音 1 |
-| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | 列表表 2 - 口音 2 |
-| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | 列表表 2 - 口音 3 |
-| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | 列表表 2 - 口音 4 |
-| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | 列表表 2 - 口音 5 |
-| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | 列表表 2 - 口音 6 |
-| [LIST_TABLE_3](#LIST-TABLE-3) | 列表表 3 |
-| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | 列表表 3 - 口音 1 |
-| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | 列表表 3 - 口音 2 |
-| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | 列表表 3 - 口音 3 |
-| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | 列表表 3 - 口音 4 |
-| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | 列表表 3 - 口音 5 |
-| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | 列表表 3 - 口音 6 |
-| [LIST_TABLE_4](#LIST-TABLE-4) | 清单表 4 |
-| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | 列表表 4 - 口音 1 |
-| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | 列表表 4 - 口音 2 |
-| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | 列表表 4 - 口音 3 |
-| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | 列表表 4 - 口音 4 |
-| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | 列表表 4 - 口音 5 |
-| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | 列表表 4 - 口音 6 |
-| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | 列表表 5 深色 |
-| [LIST_TABLE_5_DARK_ACCENT_1](#LIST-TABLE-5-DARK-ACCENT-1) | 列表表 5 深色 - 口音 1 |
-| [LIST_TABLE_5_DARK_ACCENT_2](#LIST-TABLE-5-DARK-ACCENT-2) | 列表表 5 深色 - 口音 2 |
-| [LIST_TABLE_5_DARK_ACCENT_3](#LIST-TABLE-5-DARK-ACCENT-3) | 列表 5 深色 - 口音 3 |
-| [LIST_TABLE_5_DARK_ACCENT_4](#LIST-TABLE-5-DARK-ACCENT-4) | 列表表 5 深色 - 口音 4 |
-| [LIST_TABLE_5_DARK_ACCENT_5](#LIST-TABLE-5-DARK-ACCENT-5) | 列表 5 深色 - 重音 5 |
-| [LIST_TABLE_5_DARK_ACCENT_6](#LIST-TABLE-5-DARK-ACCENT-6) | 列表表 5 深色 - 口音 6 |
-| [LIST_TABLE_6_COLORFUL](#LIST-TABLE-6-COLORFUL) | 清单 6 多彩 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_1](#LIST-TABLE-6-COLORFUL-ACCENT-1) | 列表表 6 彩色 - 口音 1 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_2](#LIST-TABLE-6-COLORFUL-ACCENT-2) | 列表表 6 多彩 - 口音 2 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_3](#LIST-TABLE-6-COLORFUL-ACCENT-3) | 列表 6 彩色 - 口音 3 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_4](#LIST-TABLE-6-COLORFUL-ACCENT-4) | 列表表 6 彩色 - 口音 4 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_5](#LIST-TABLE-6-COLORFUL-ACCENT-5) | 列表表 6 彩色 - 口音 5 |
-| [LIST_TABLE_6_COLORFUL_ACCENT_6](#LIST-TABLE-6-COLORFUL-ACCENT-6) | 列表表 6 彩色 - 口音 6 |
-| [LIST_TABLE_7_COLORFUL](#LIST-TABLE-7-COLORFUL) | 清单 7 多彩 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_1](#LIST-TABLE-7-COLORFUL-ACCENT-1) | 列表表 7 彩色 - 口音 1 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_2](#LIST-TABLE-7-COLORFUL-ACCENT-2) | 列表表 7 多彩 - 口音 2 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_3](#LIST-TABLE-7-COLORFUL-ACCENT-3) | 列表表 7 彩色 - 口音 3 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_4](#LIST-TABLE-7-COLORFUL-ACCENT-4) | 列表表 7 彩色 - 口音 4 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_5](#LIST-TABLE-7-COLORFUL-ACCENT-5) | 列表表 7 彩色 - 口音 5 |
-| [LIST_TABLE_7_COLORFUL_ACCENT_6](#LIST-TABLE-7-COLORFUL-ACCENT-6) | 列表表 7 彩色 - 口音 6 |
+| [LIST_TABLE_1_LIGHT](#LIST-TABLE-1-LIGHT) | List Table 1 Light |
+| [LIST_TABLE_1_LIGHT_ACCENT_1](#LIST-TABLE-1-LIGHT-ACCENT-1) | List Table 1 Light - Accent 1 |
+| [LIST_TABLE_1_LIGHT_ACCENT_2](#LIST-TABLE-1-LIGHT-ACCENT-2) | List Table 1 Light - Accent 2 |
+| [LIST_TABLE_1_LIGHT_ACCENT_3](#LIST-TABLE-1-LIGHT-ACCENT-3) | List Table 1 Light - Accent 3 |
+| [LIST_TABLE_1_LIGHT_ACCENT_4](#LIST-TABLE-1-LIGHT-ACCENT-4) | List Table 1 Light - Accent 4 |
+| [LIST_TABLE_1_LIGHT_ACCENT_5](#LIST-TABLE-1-LIGHT-ACCENT-5) | List Table 1 Light - Accent 5 |
+| [LIST_TABLE_1_LIGHT_ACCENT_6](#LIST-TABLE-1-LIGHT-ACCENT-6) | List Table 1 Light - Accent 6 |
+| [LIST_TABLE_2](#LIST-TABLE-2) | List Table 2 |
+| [LIST_TABLE_2_ACCENT_1](#LIST-TABLE-2-ACCENT-1) | List Table 2 - Accent 1 |
+| [LIST_TABLE_2_ACCENT_2](#LIST-TABLE-2-ACCENT-2) | List Table 2 - Accent 2 |
+| [LIST_TABLE_2_ACCENT_3](#LIST-TABLE-2-ACCENT-3) | List Table 2 - Accent 3 |
+| [LIST_TABLE_2_ACCENT_4](#LIST-TABLE-2-ACCENT-4) | List Table 2 - Accent 4 |
+| [LIST_TABLE_2_ACCENT_5](#LIST-TABLE-2-ACCENT-5) | List Table 2 - Accent 5 |
+| [LIST_TABLE_2_ACCENT_6](#LIST-TABLE-2-ACCENT-6) | List Table 2 - Accent 6 |
+| [LIST_TABLE_3](#LIST-TABLE-3) | List Table 3 |
+| [LIST_TABLE_3_ACCENT_1](#LIST-TABLE-3-ACCENT-1) | List Table 3 - Accent 1 |
+| [LIST_TABLE_3_ACCENT_2](#LIST-TABLE-3-ACCENT-2) | List Table 3 - Accent 2 |
+| [LIST_TABLE_3_ACCENT_3](#LIST-TABLE-3-ACCENT-3) | List Table 3 - Accent 3 |
+| [LIST_TABLE_3_ACCENT_4](#LIST-TABLE-3-ACCENT-4) | List Table 3 - Accent 4 |
+| [LIST_TABLE_3_ACCENT_5](#LIST-TABLE-3-ACCENT-5) | List Table 3 - Accent 5 |
+| [LIST_TABLE_3_ACCENT_6](#LIST-TABLE-3-ACCENT-6) | List Table 3 - Accent 6 |
+| [LIST_TABLE_4](#LIST-TABLE-4) | List Table 4 |
+| [LIST_TABLE_4_ACCENT_1](#LIST-TABLE-4-ACCENT-1) | List Table 4 - Accent 1 |
+| [LIST_TABLE_4_ACCENT_2](#LIST-TABLE-4-ACCENT-2) | List Table 4 - Accent 2 |
+| [LIST_TABLE_4_ACCENT_3](#LIST-TABLE-4-ACCENT-3) | List Table 4 - Accent 3 |
+| [LIST_TABLE_4_ACCENT_4](#LIST-TABLE-4-ACCENT-4) | List Table 4 - Accent 4 |
+| [LIST_TABLE_4_ACCENT_5](#LIST-TABLE-4-ACCENT-5) | List Table 4 - Accent 5 |
+| [LIST_TABLE_4_ACCENT_6](#LIST-TABLE-4-ACCENT-6) | List Table 4 - Accent 6 |
+| [LIST_TABLE_5_DARK](#LIST-TABLE-5-DARK) | List Table 5 Dark |
+| [LIST_TABLE_5_DARK_ACCENT_1](#LIST-TABLE-5-DARK-ACCENT-1) | List Table 5 Dark - Accent 1 |
+| [LIST_TABLE_5_DARK_ACCENT_2](#LIST-TABLE-5-DARK-ACCENT-2) | List Table 5 Dark - Accent 2 |
+| [LIST_TABLE_5_DARK_ACCENT_3](#LIST-TABLE-5-DARK-ACCENT-3) | List Table 5 Dark - Accent 3 |
+| [LIST_TABLE_5_DARK_ACCENT_4](#LIST-TABLE-5-DARK-ACCENT-4) | List Table 5 Dark - Accent 4 |
+| [LIST_TABLE_5_DARK_ACCENT_5](#LIST-TABLE-5-DARK-ACCENT-5) | List Table 5 Dark - Accent 5 |
+| [LIST_TABLE_5_DARK_ACCENT_6](#LIST-TABLE-5-DARK-ACCENT-6) | List Table 5 Dark - Accent 6 |
+| [LIST_TABLE_6_COLORFUL](#LIST-TABLE-6-COLORFUL) | List Table 6 Colorful |
+| [LIST_TABLE_6_COLORFUL_ACCENT_1](#LIST-TABLE-6-COLORFUL-ACCENT-1) | List Table 6 Colorful - Accent 1 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_2](#LIST-TABLE-6-COLORFUL-ACCENT-2) | List Table 6 Colorful - Accent 2 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_3](#LIST-TABLE-6-COLORFUL-ACCENT-3) | List Table 6 Colorful - Accent 3 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_4](#LIST-TABLE-6-COLORFUL-ACCENT-4) | List Table 6 Colorful - Accent 4 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_5](#LIST-TABLE-6-COLORFUL-ACCENT-5) | List Table 6 Colorful - Accent 5 |
+| [LIST_TABLE_6_COLORFUL_ACCENT_6](#LIST-TABLE-6-COLORFUL-ACCENT-6) | List Table 6 Colorful - Accent 6 |
+| [LIST_TABLE_7_COLORFUL](#LIST-TABLE-7-COLORFUL) | List Table 7 Colorful |
+| [LIST_TABLE_7_COLORFUL_ACCENT_1](#LIST-TABLE-7-COLORFUL-ACCENT-1) | List Table 7 Colorful - Accent 1 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_2](#LIST-TABLE-7-COLORFUL-ACCENT-2) | List Table 7 Colorful - Accent 2 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_3](#LIST-TABLE-7-COLORFUL-ACCENT-3) | List Table 7 Colorful - Accent 3 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_4](#LIST-TABLE-7-COLORFUL-ACCENT-4) | List Table 7 Colorful - Accent 4 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_5](#LIST-TABLE-7-COLORFUL-ACCENT-5) | List Table 7 Colorful - Accent 5 |
+| [LIST_TABLE_7_COLORFUL_ACCENT_6](#LIST-TABLE-7-COLORFUL-ACCENT-6) | List Table 7 Colorful - Accent 6 |
 | [MACRO](#MACRO) |  |
 | [MEDIUM_GRID_1](#MEDIUM-GRID-1) |  |
 | [MEDIUM_GRID_1_ACCENT_1](#MEDIUM-GRID-1-ACCENT-1) |  |
@@ -308,32 +308,32 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [MEDIUM_SHADING_2_ACCENT_4](#MEDIUM-SHADING-2-ACCENT-4) |  |
 | [MEDIUM_SHADING_2_ACCENT_5](#MEDIUM-SHADING-2-ACCENT-5) |  |
 | [MEDIUM_SHADING_2_ACCENT_6](#MEDIUM-SHADING-2-ACCENT-6) |  |
-| [MENTION](#MENTION) | 提及风格。 |
+| [MENTION](#MENTION) | The Mention style. |
 | [MESSAGE_HEADER](#MESSAGE-HEADER) |  |
-| [NIL](#NIL) | 保留供内部使用。 |
-| [NORMAL](#NORMAL) | 普通风格。 |
-| [NORMAL_INDENT](#NORMAL-INDENT) | 正常缩进样式。 |
+| [NIL](#NIL) | Reserved for internal use. |
+| [NORMAL](#NORMAL) | The Normal style. |
+| [NORMAL_INDENT](#NORMAL-INDENT) | The Normal Indent style. |
 | [NORMAL_WEB](#NORMAL-WEB) |  |
 | [NOTE_HEADING](#NOTE-HEADING) |  |
 | [NO_LIST](#NO-LIST) |  |
 | [NO_SPACING](#NO-SPACING) |  |
-| [OUTLINE_LIST_1](#OUTLINE-LIST-1) | 1 / a / i 样式。 |
-| [OUTLINE_LIST_2](#OUTLINE-LIST-2) | 1 / 1.1 / 1.1.1 样式。 |
-| [OUTLINE_LIST_3](#OUTLINE-LIST-3) | 文章/章节样式。 |
-| [PAGE_NUMBER](#PAGE-NUMBER) | 页码样式。 |
+| [OUTLINE_LIST_1](#OUTLINE-LIST-1) | The 1 / a / i style. |
+| [OUTLINE_LIST_2](#OUTLINE-LIST-2) | The 1 / 1.1 / 1.1.1 style. |
+| [OUTLINE_LIST_3](#OUTLINE-LIST-3) | The Article / Section style. |
+| [PAGE_NUMBER](#PAGE-NUMBER) | The Page Number style. |
 | [PLACEHOLDER_TEXT](#PLACEHOLDER-TEXT) |  |
-| [PLAIN_TABLE_1](#PLAIN-TABLE-1) | 普通表1 |
-| [PLAIN_TABLE_2](#PLAIN-TABLE-2) | 普通表2 |
-| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | 普通表3 |
-| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | 普通表4 |
-| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | 普通表5 |
+| [PLAIN_TABLE_1](#PLAIN-TABLE-1) | Plain Table 1 |
+| [PLAIN_TABLE_2](#PLAIN-TABLE-2) | Plain Table 2 |
+| [PLAIN_TABLE_3](#PLAIN-TABLE-3) | Plain Table 3 |
+| [PLAIN_TABLE_4](#PLAIN-TABLE-4) | Plain Table 4 |
+| [PLAIN_TABLE_5](#PLAIN-TABLE-5) | Plain Table 5 |
 | [PLAIN_TEXT](#PLAIN-TEXT) |  |
 | [QUOTE](#QUOTE) |  |
 | [REVISION](#REVISION) |  |
 | [SALUTATION](#SALUTATION) |  |
 | [SIGNATURE](#SIGNATURE) |  |
-| [SMART_HYPERLINK](#SMART-HYPERLINK) | SmartHyperlink 样式。 |
-| [SMART_LINK](#SMART-LINK) | 智能链接样式。 |
+| [SMART_HYPERLINK](#SMART-HYPERLINK) | The SmartHyperlink style. |
+| [SMART_LINK](#SMART-LINK) | The Smart Link style. |
 | [STRONG](#STRONG) |  |
 | [SUBTITLE](#SUBTITLE) |  |
 | [SUBTLE_EMPHASIS](#SUBTLE-EMPHASIS) |  |
@@ -364,7 +364,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TABLE_GRID_6](#TABLE-GRID-6) |  |
 | [TABLE_GRID_7](#TABLE-GRID-7) |  |
 | [TABLE_GRID_8](#TABLE-GRID-8) |  |
-| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | 表格网格灯 |
+| [TABLE_GRID_LIGHT](#TABLE-GRID-LIGHT) | Table Grid Light |
 | [TABLE_LIST_1](#TABLE-LIST-1) |  |
 | [TABLE_LIST_2](#TABLE-LIST-2) |  |
 | [TABLE_LIST_3](#TABLE-LIST-3) |  |
@@ -375,7 +375,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TABLE_LIST_8](#TABLE-LIST-8) |  |
 | [TABLE_NORMAL](#TABLE-NORMAL) |  |
 | [TABLE_OF_AUTHORITIES](#TABLE-OF-AUTHORITIES) |  |
-| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | 数字表样式。 |
+| [TABLE_OF_FIGURES](#TABLE-OF-FIGURES) | The Table of Figures style. |
 | [TABLE_PROFESSIONAL](#TABLE-PROFESSIONAL) |  |
 | [TABLE_SIMPLE_1](#TABLE-SIMPLE-1) |  |
 | [TABLE_SIMPLE_2](#TABLE-SIMPLE-2) |  |
@@ -386,7 +386,7 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TABLE_WEB_1](#TABLE-WEB-1) |  |
 | [TABLE_WEB_2](#TABLE-WEB-2) |  |
 | [TABLE_WEB_3](#TABLE-WEB-3) |  |
-| [TITLE](#TITLE) | 标题样式。 |
+| [TITLE](#TITLE) | The Title style. |
 | [TOA_HEADING](#TOA-HEADING) |  |
 | [TOC_1](#TOC-1) |  |
 | [TOC_2](#TOC-2) |  |
@@ -398,16 +398,16 @@ MS Word 中内置样式的名称已针对不同语言进行了本地化。使用
 | [TOC_8](#TOC-8) |  |
 | [TOC_9](#TOC-9) |  |
 | [TOC_HEADING](#TOC-HEADING) |  |
-| [UNRESOLVED_MENTION](#UNRESOLVED-MENTION) | 未解决的提及样式。 |
-| [USER](#USER) | 用户定义的样式。 |
+| [UNRESOLVED_MENTION](#UNRESOLVED-MENTION) | The UnresolvedMention style. |
+| [USER](#USER) | A user defined style. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String styleIdentifierName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int styleIdentifier)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -448,7 +448,7 @@ public static int BODY_TEXT
 ```
 
 
-正文文本样式。
+The Body Text style.
 
 ### BODY_TEXT_1_I {#BODY-TEXT-1-I}
 ```
@@ -704,7 +704,7 @@ public static int COMMENT_REFERENCE
 ```
 
 
-注释（注释）参考样式。
+The Annotation (Comment) Reference style.
 
 ### COMMENT_SUBJECT {#COMMENT-SUBJECT}
 ```
@@ -720,7 +720,7 @@ public static int COMMENT_TEXT
 ```
 
 
-注释（注释）文本样式。
+The Annotation (Comment) Text style.
 
 ### DARK_LIST {#DARK-LIST}
 ```
@@ -792,7 +792,7 @@ public static int DEFAULT_PARAGRAPH_FONT
 ```
 
 
-默认段落字体样式。
+The Default Paragraph Font style.
 
 ### DOCUMENT_MAP {#DOCUMENT-MAP}
 ```
@@ -824,7 +824,7 @@ public static int ENDNOTE_REFERENCE
 ```
 
 
-尾注参考样式。
+The Endnote Reference style.
 
 ### ENDNOTE_TEXT {#ENDNOTE-TEXT}
 ```
@@ -832,7 +832,7 @@ public static int ENDNOTE_TEXT
 ```
 
 
-尾注文本样式。
+The Endnote Text style.
 
 ### ENVELOPE_ADDRESS {#ENVELOPE-ADDRESS}
 ```
@@ -840,7 +840,7 @@ public static int ENVELOPE_ADDRESS
 ```
 
 
-信封地址样式。
+The Envelope Address style.
 
 ### ENVELOPE_RETURN {#ENVELOPE-RETURN}
 ```
@@ -848,7 +848,7 @@ public static int ENVELOPE_RETURN
 ```
 
 
-信封返回样式。
+The Envelope Return style.
 
 ### FOLLOWED_HYPERLINK {#FOLLOWED-HYPERLINK}
 ```
@@ -864,7 +864,7 @@ public static int FOOTER
 ```
 
 
-页脚样式。
+The Footer style.
 
 ### FOOTNOTE_REFERENCE {#FOOTNOTE-REFERENCE}
 ```
@@ -872,7 +872,7 @@ public static int FOOTNOTE_REFERENCE
 ```
 
 
-脚注参考样式。
+The Footnote Reference style.
 
 ### FOOTNOTE_TEXT {#FOOTNOTE-TEXT}
 ```
@@ -880,7 +880,7 @@ public static int FOOTNOTE_TEXT
 ```
 
 
-脚注文本样式。
+The Footnote Text style.
 
 ### GRID_TABLE_1_LIGHT {#GRID-TABLE-1-LIGHT}
 ```
@@ -888,7 +888,7 @@ public static int GRID_TABLE_1_LIGHT
 ```
 
 
-网格表 1 灯
+Grid Table 1 Light
 
 ### GRID_TABLE_1_LIGHT_ACCENT_1 {#GRID-TABLE-1-LIGHT-ACCENT-1}
 ```
@@ -896,7 +896,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_1
 ```
 
 
-网格表 1 浅色 - 口音 1
+Grid Table 1 Light - Accent 1
 
 ### GRID_TABLE_1_LIGHT_ACCENT_2 {#GRID-TABLE-1-LIGHT-ACCENT-2}
 ```
@@ -904,7 +904,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_2
 ```
 
 
-网格表 1 浅色 - 重音 2
+Grid Table 1 Light - Accent 2
 
 ### GRID_TABLE_1_LIGHT_ACCENT_3 {#GRID-TABLE-1-LIGHT-ACCENT-3}
 ```
@@ -912,7 +912,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_3
 ```
 
 
-网格表 1 浅色 - 口音 3
+Grid Table 1 Light - Accent 3
 
 ### GRID_TABLE_1_LIGHT_ACCENT_4 {#GRID-TABLE-1-LIGHT-ACCENT-4}
 ```
@@ -920,7 +920,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_4
 ```
 
 
-网格表 1 浅色 - 口音 4
+Grid Table 1 Light - Accent 4
 
 ### GRID_TABLE_1_LIGHT_ACCENT_5 {#GRID-TABLE-1-LIGHT-ACCENT-5}
 ```
@@ -928,7 +928,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_5
 ```
 
 
-网格表 1 浅色 - 口音 5
+Grid Table 1 Light - Accent 5
 
 ### GRID_TABLE_1_LIGHT_ACCENT_6 {#GRID-TABLE-1-LIGHT-ACCENT-6}
 ```
@@ -936,7 +936,7 @@ public static int GRID_TABLE_1_LIGHT_ACCENT_6
 ```
 
 
-网格表 1 浅色 - 口音 6
+Grid Table 1 Light - Accent 6
 
 ### GRID_TABLE_2 {#GRID-TABLE-2}
 ```
@@ -944,7 +944,7 @@ public static int GRID_TABLE_2
 ```
 
 
-网格表 2
+Grid Table 2
 
 ### GRID_TABLE_2_ACCENT_1 {#GRID-TABLE-2-ACCENT-1}
 ```
@@ -952,7 +952,7 @@ public static int GRID_TABLE_2_ACCENT_1
 ```
 
 
-网格表 2 - 口音 1
+Grid Table 2 - Accent 1
 
 ### GRID_TABLE_2_ACCENT_2 {#GRID-TABLE-2-ACCENT-2}
 ```
@@ -960,7 +960,7 @@ public static int GRID_TABLE_2_ACCENT_2
 ```
 
 
-网格表 2 - 口音 2
+Grid Table 2 - Accent 2
 
 ### GRID_TABLE_2_ACCENT_3 {#GRID-TABLE-2-ACCENT-3}
 ```
@@ -968,7 +968,7 @@ public static int GRID_TABLE_2_ACCENT_3
 ```
 
 
-网格表 2 - 口音 3
+Grid Table 2 - Accent 3
 
 ### GRID_TABLE_2_ACCENT_4 {#GRID-TABLE-2-ACCENT-4}
 ```
@@ -976,7 +976,7 @@ public static int GRID_TABLE_2_ACCENT_4
 ```
 
 
-网格表 2 - 口音 4
+Grid Table 2 - Accent 4
 
 ### GRID_TABLE_2_ACCENT_5 {#GRID-TABLE-2-ACCENT-5}
 ```
@@ -984,7 +984,7 @@ public static int GRID_TABLE_2_ACCENT_5
 ```
 
 
-网格表 2 - 口音 5
+Grid Table 2 - Accent 5
 
 ### GRID_TABLE_2_ACCENT_6 {#GRID-TABLE-2-ACCENT-6}
 ```
@@ -992,7 +992,7 @@ public static int GRID_TABLE_2_ACCENT_6
 ```
 
 
-网格表 2 - 口音 6
+Grid Table 2 - Accent 6
 
 ### GRID_TABLE_3 {#GRID-TABLE-3}
 ```
@@ -1000,7 +1000,7 @@ public static int GRID_TABLE_3
 ```
 
 
-网格表 3
+Grid Table 3
 
 ### GRID_TABLE_3_ACCENT_1 {#GRID-TABLE-3-ACCENT-1}
 ```
@@ -1008,7 +1008,7 @@ public static int GRID_TABLE_3_ACCENT_1
 ```
 
 
-网格表 3 - 口音 1
+Grid Table 3 - Accent 1
 
 ### GRID_TABLE_3_ACCENT_2 {#GRID-TABLE-3-ACCENT-2}
 ```
@@ -1016,7 +1016,7 @@ public static int GRID_TABLE_3_ACCENT_2
 ```
 
 
-网格表 3 - 口音 2
+Grid Table 3 - Accent 2
 
 ### GRID_TABLE_3_ACCENT_3 {#GRID-TABLE-3-ACCENT-3}
 ```
@@ -1024,7 +1024,7 @@ public static int GRID_TABLE_3_ACCENT_3
 ```
 
 
-网格表 3 - 口音 3
+Grid Table 3 - Accent 3
 
 ### GRID_TABLE_3_ACCENT_4 {#GRID-TABLE-3-ACCENT-4}
 ```
@@ -1032,7 +1032,7 @@ public static int GRID_TABLE_3_ACCENT_4
 ```
 
 
-网格表 3 - 口音 4
+Grid Table 3 - Accent 4
 
 ### GRID_TABLE_3_ACCENT_5 {#GRID-TABLE-3-ACCENT-5}
 ```
@@ -1040,7 +1040,7 @@ public static int GRID_TABLE_3_ACCENT_5
 ```
 
 
-网格表 3 - 口音 5
+Grid Table 3 - Accent 5
 
 ### GRID_TABLE_3_ACCENT_6 {#GRID-TABLE-3-ACCENT-6}
 ```
@@ -1048,7 +1048,7 @@ public static int GRID_TABLE_3_ACCENT_6
 ```
 
 
-网格表 3 - 口音 6
+Grid Table 3 - Accent 6
 
 ### GRID_TABLE_4 {#GRID-TABLE-4}
 ```
@@ -1056,7 +1056,7 @@ public static int GRID_TABLE_4
 ```
 
 
-网格表 4
+Grid Table 4
 
 ### GRID_TABLE_4_ACCENT_1 {#GRID-TABLE-4-ACCENT-1}
 ```
@@ -1064,7 +1064,7 @@ public static int GRID_TABLE_4_ACCENT_1
 ```
 
 
-网格表 4 - 口音 1
+Grid Table 4 - Accent 1
 
 ### GRID_TABLE_4_ACCENT_2 {#GRID-TABLE-4-ACCENT-2}
 ```
@@ -1072,7 +1072,7 @@ public static int GRID_TABLE_4_ACCENT_2
 ```
 
 
-网格表 4 - 口音 2
+Grid Table 4 - Accent 2
 
 ### GRID_TABLE_4_ACCENT_3 {#GRID-TABLE-4-ACCENT-3}
 ```
@@ -1080,7 +1080,7 @@ public static int GRID_TABLE_4_ACCENT_3
 ```
 
 
-网格表 4 - 口音 3
+Grid Table 4 - Accent 3
 
 ### GRID_TABLE_4_ACCENT_4 {#GRID-TABLE-4-ACCENT-4}
 ```
@@ -1088,7 +1088,7 @@ public static int GRID_TABLE_4_ACCENT_4
 ```
 
 
-网格表 4 - 口音 4
+Grid Table 4 - Accent 4
 
 ### GRID_TABLE_4_ACCENT_5 {#GRID-TABLE-4-ACCENT-5}
 ```
@@ -1096,7 +1096,7 @@ public static int GRID_TABLE_4_ACCENT_5
 ```
 
 
-网格表 4 - 口音 5
+Grid Table 4 - Accent 5
 
 ### GRID_TABLE_4_ACCENT_6 {#GRID-TABLE-4-ACCENT-6}
 ```
@@ -1104,7 +1104,7 @@ public static int GRID_TABLE_4_ACCENT_6
 ```
 
 
-网格表 4 - 口音 6
+Grid Table 4 - Accent 6
 
 ### GRID_TABLE_5_DARK {#GRID-TABLE-5-DARK}
 ```
@@ -1112,7 +1112,7 @@ public static int GRID_TABLE_5_DARK
 ```
 
 
-网格表 5 深色
+Grid Table 5 Dark
 
 ### GRID_TABLE_5_DARK_ACCENT_1 {#GRID-TABLE-5-DARK-ACCENT-1}
 ```
@@ -1120,7 +1120,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_1
 ```
 
 
-网格表 5 深色 - 口音 1
+Grid Table 5 Dark - Accent 1
 
 ### GRID_TABLE_5_DARK_ACCENT_2 {#GRID-TABLE-5-DARK-ACCENT-2}
 ```
@@ -1128,7 +1128,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_2
 ```
 
 
-网格表 5 深色 - 口音 2
+Grid Table 5 Dark - Accent 2
 
 ### GRID_TABLE_5_DARK_ACCENT_3 {#GRID-TABLE-5-DARK-ACCENT-3}
 ```
@@ -1136,7 +1136,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_3
 ```
 
 
-网格表 5 深色 - 口音 3
+Grid Table 5 Dark - Accent 3
 
 ### GRID_TABLE_5_DARK_ACCENT_4 {#GRID-TABLE-5-DARK-ACCENT-4}
 ```
@@ -1144,7 +1144,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_4
 ```
 
 
-网格表 5 深色 - 口音 4
+Grid Table 5 Dark - Accent 4
 
 ### GRID_TABLE_5_DARK_ACCENT_5 {#GRID-TABLE-5-DARK-ACCENT-5}
 ```
@@ -1152,7 +1152,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_5
 ```
 
 
-网格表 5 深色 - 口音 5
+Grid Table 5 Dark - Accent 5
 
 ### GRID_TABLE_5_DARK_ACCENT_6 {#GRID-TABLE-5-DARK-ACCENT-6}
 ```
@@ -1160,7 +1160,7 @@ public static int GRID_TABLE_5_DARK_ACCENT_6
 ```
 
 
-网格表 5 深色 - 口音 6
+Grid Table 5 Dark - Accent 6
 
 ### GRID_TABLE_6_COLORFUL {#GRID-TABLE-6-COLORFUL}
 ```
@@ -1168,7 +1168,7 @@ public static int GRID_TABLE_6_COLORFUL
 ```
 
 
-网格表 6 多彩
+Grid Table 6 Colorful
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_1 {#GRID-TABLE-6-COLORFUL-ACCENT-1}
 ```
@@ -1176,7 +1176,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_1
 ```
 
 
-网格表 6 彩色 - 口音 1
+Grid Table 6 Colorful - Accent 1
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_2 {#GRID-TABLE-6-COLORFUL-ACCENT-2}
 ```
@@ -1184,7 +1184,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_2
 ```
 
 
-网格表 6 彩色 - 口音 2
+Grid Table 6 Colorful - Accent 2
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_3 {#GRID-TABLE-6-COLORFUL-ACCENT-3}
 ```
@@ -1192,7 +1192,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_3
 ```
 
 
-网格表 6 彩色 - 口音 3
+Grid Table 6 Colorful - Accent 3
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_4 {#GRID-TABLE-6-COLORFUL-ACCENT-4}
 ```
@@ -1200,7 +1200,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_4
 ```
 
 
-网格表 6 彩色 - 口音 4
+Grid Table 6 Colorful - Accent 4
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_5 {#GRID-TABLE-6-COLORFUL-ACCENT-5}
 ```
@@ -1208,7 +1208,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_5
 ```
 
 
-网格表 6 彩色 - 口音 5
+Grid Table 6 Colorful - Accent 5
 
 ### GRID_TABLE_6_COLORFUL_ACCENT_6 {#GRID-TABLE-6-COLORFUL-ACCENT-6}
 ```
@@ -1216,7 +1216,7 @@ public static int GRID_TABLE_6_COLORFUL_ACCENT_6
 ```
 
 
-网格表 6 彩色 - 口音 6
+Grid Table 6 Colorful - Accent 6
 
 ### GRID_TABLE_7_COLORFUL {#GRID-TABLE-7-COLORFUL}
 ```
@@ -1224,7 +1224,7 @@ public static int GRID_TABLE_7_COLORFUL
 ```
 
 
-网格表 7 多彩
+Grid Table 7 Colorful
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_1 {#GRID-TABLE-7-COLORFUL-ACCENT-1}
 ```
@@ -1232,7 +1232,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_1
 ```
 
 
-网格表 7 彩色 - 口音 1
+Grid Table 7 Colorful - Accent 1
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_2 {#GRID-TABLE-7-COLORFUL-ACCENT-2}
 ```
@@ -1240,7 +1240,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_2
 ```
 
 
-网格表 7 彩色 - 口音 2
+Grid Table 7 Colorful - Accent 2
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_3 {#GRID-TABLE-7-COLORFUL-ACCENT-3}
 ```
@@ -1248,7 +1248,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_3
 ```
 
 
-网格表 7 彩色 - 口音 3
+Grid Table 7 Colorful - Accent 3
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_4 {#GRID-TABLE-7-COLORFUL-ACCENT-4}
 ```
@@ -1256,7 +1256,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_4
 ```
 
 
-网格表 7 彩色 - 口音 4
+Grid Table 7 Colorful - Accent 4
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_5 {#GRID-TABLE-7-COLORFUL-ACCENT-5}
 ```
@@ -1264,7 +1264,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_5
 ```
 
 
-网格表 7 彩色 - 口音 5
+Grid Table 7 Colorful - Accent 5
 
 ### GRID_TABLE_7_COLORFUL_ACCENT_6 {#GRID-TABLE-7-COLORFUL-ACCENT-6}
 ```
@@ -1272,7 +1272,7 @@ public static int GRID_TABLE_7_COLORFUL_ACCENT_6
 ```
 
 
-网格表 7 彩色 - 口音 6
+Grid Table 7 Colorful - Accent 6
 
 ### HASHTAG {#HASHTAG}
 ```
@@ -1280,7 +1280,7 @@ public static int HASHTAG
 ```
 
 
-标签风格。
+The Hashtag style.
 
 ### HEADER {#HEADER}
 ```
@@ -1288,7 +1288,7 @@ public static int HEADER
 ```
 
 
-页眉样式。
+The Header style.
 
 ### HEADING_1 {#HEADING-1}
 ```
@@ -1296,7 +1296,7 @@ public static int HEADING_1
 ```
 
 
-标题 1 样式。
+The Heading 1 style.
 
 ### HEADING_2 {#HEADING-2}
 ```
@@ -1304,7 +1304,7 @@ public static int HEADING_2
 ```
 
 
-标题 2 样式。
+The Heading 2 style.
 
 ### HEADING_3 {#HEADING-3}
 ```
@@ -1312,7 +1312,7 @@ public static int HEADING_3
 ```
 
 
-标题 3 样式。
+The Heading 3 style.
 
 ### HEADING_4 {#HEADING-4}
 ```
@@ -1320,7 +1320,7 @@ public static int HEADING_4
 ```
 
 
-标题 4 样式。
+The Heading 4 style.
 
 ### HEADING_5 {#HEADING-5}
 ```
@@ -1328,7 +1328,7 @@ public static int HEADING_5
 ```
 
 
-标题 5 样式。
+The Heading 5 style.
 
 ### HEADING_6 {#HEADING-6}
 ```
@@ -1336,7 +1336,7 @@ public static int HEADING_6
 ```
 
 
-标题 6 样式。
+The Heading 6 style.
 
 ### HEADING_7 {#HEADING-7}
 ```
@@ -1344,7 +1344,7 @@ public static int HEADING_7
 ```
 
 
-标题 7 样式。
+The Heading 7 style.
 
 ### HEADING_8 {#HEADING-8}
 ```
@@ -1352,7 +1352,7 @@ public static int HEADING_8
 ```
 
 
-标题 8 样式。
+The Heading 8 style.
 
 ### HEADING_9 {#HEADING-9}
 ```
@@ -1360,7 +1360,7 @@ public static int HEADING_9
 ```
 
 
-标题 9 样式。
+The Heading 9 style.
 
 ### HTML_ACRONYM {#HTML-ACRONYM}
 ```
@@ -1464,7 +1464,7 @@ public static int HYPERLINK
 ```
 
 
-超链接样式。
+The Hyperlink style.
 
 ### INDEX_1 {#INDEX-1}
 ```
@@ -1544,7 +1544,7 @@ public static int INDEX_HEADING
 ```
 
 
-索引标题样式。
+The Index Heading style.
 
 ### INTENSE_EMPHASIS {#INTENSE-EMPHASIS}
 ```
@@ -1744,7 +1744,7 @@ public static int LINE_NUMBER
 ```
 
 
-行号样式。
+The Line Number style.
 
 ### LIST {#LIST}
 ```
@@ -1752,7 +1752,7 @@ public static int LIST
 ```
 
 
-列表样式。
+The List style.
 
 ### LIST_2 {#LIST-2}
 ```
@@ -1792,7 +1792,7 @@ public static int LIST_BULLET
 ```
 
 
-列表项目符号样式。
+The List Bullet style.
 
 ### LIST_BULLET_2 {#LIST-BULLET-2}
 ```
@@ -1872,7 +1872,7 @@ public static int LIST_NUMBER
 ```
 
 
-列表编号样式。
+The List Number style.
 
 ### LIST_NUMBER_2 {#LIST-NUMBER-2}
 ```
@@ -1920,7 +1920,7 @@ public static int LIST_TABLE_1_LIGHT
 ```
 
 
-列表表 1 灯
+List Table 1 Light
 
 ### LIST_TABLE_1_LIGHT_ACCENT_1 {#LIST-TABLE-1-LIGHT-ACCENT-1}
 ```
@@ -1928,7 +1928,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_1
 ```
 
 
-列出表 1 浅色 - 重音 1
+List Table 1 Light - Accent 1
 
 ### LIST_TABLE_1_LIGHT_ACCENT_2 {#LIST-TABLE-1-LIGHT-ACCENT-2}
 ```
@@ -1936,7 +1936,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_2
 ```
 
 
-列出表 1 浅色 - 重音 2
+List Table 1 Light - Accent 2
 
 ### LIST_TABLE_1_LIGHT_ACCENT_3 {#LIST-TABLE-1-LIGHT-ACCENT-3}
 ```
@@ -1944,7 +1944,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_3
 ```
 
 
-列出表 1 浅色 - 重音 3
+List Table 1 Light - Accent 3
 
 ### LIST_TABLE_1_LIGHT_ACCENT_4 {#LIST-TABLE-1-LIGHT-ACCENT-4}
 ```
@@ -1952,7 +1952,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_4
 ```
 
 
-列出表 1 浅色 - 重音 4
+List Table 1 Light - Accent 4
 
 ### LIST_TABLE_1_LIGHT_ACCENT_5 {#LIST-TABLE-1-LIGHT-ACCENT-5}
 ```
@@ -1960,7 +1960,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_5
 ```
 
 
-列出表 1 浅色 - 重音 5
+List Table 1 Light - Accent 5
 
 ### LIST_TABLE_1_LIGHT_ACCENT_6 {#LIST-TABLE-1-LIGHT-ACCENT-6}
 ```
@@ -1968,7 +1968,7 @@ public static int LIST_TABLE_1_LIGHT_ACCENT_6
 ```
 
 
-列出表 1 浅色 - 重音 6
+List Table 1 Light - Accent 6
 
 ### LIST_TABLE_2 {#LIST-TABLE-2}
 ```
@@ -1976,7 +1976,7 @@ public static int LIST_TABLE_2
 ```
 
 
-清单表 2
+List Table 2
 
 ### LIST_TABLE_2_ACCENT_1 {#LIST-TABLE-2-ACCENT-1}
 ```
@@ -1984,7 +1984,7 @@ public static int LIST_TABLE_2_ACCENT_1
 ```
 
 
-列表表 2 - 口音 1
+List Table 2 - Accent 1
 
 ### LIST_TABLE_2_ACCENT_2 {#LIST-TABLE-2-ACCENT-2}
 ```
@@ -1992,7 +1992,7 @@ public static int LIST_TABLE_2_ACCENT_2
 ```
 
 
-列表表 2 - 口音 2
+List Table 2 - Accent 2
 
 ### LIST_TABLE_2_ACCENT_3 {#LIST-TABLE-2-ACCENT-3}
 ```
@@ -2000,7 +2000,7 @@ public static int LIST_TABLE_2_ACCENT_3
 ```
 
 
-列表表 2 - 口音 3
+List Table 2 - Accent 3
 
 ### LIST_TABLE_2_ACCENT_4 {#LIST-TABLE-2-ACCENT-4}
 ```
@@ -2008,7 +2008,7 @@ public static int LIST_TABLE_2_ACCENT_4
 ```
 
 
-列表表 2 - 口音 4
+List Table 2 - Accent 4
 
 ### LIST_TABLE_2_ACCENT_5 {#LIST-TABLE-2-ACCENT-5}
 ```
@@ -2016,7 +2016,7 @@ public static int LIST_TABLE_2_ACCENT_5
 ```
 
 
-列表表 2 - 口音 5
+List Table 2 - Accent 5
 
 ### LIST_TABLE_2_ACCENT_6 {#LIST-TABLE-2-ACCENT-6}
 ```
@@ -2024,7 +2024,7 @@ public static int LIST_TABLE_2_ACCENT_6
 ```
 
 
-列表表 2 - 口音 6
+List Table 2 - Accent 6
 
 ### LIST_TABLE_3 {#LIST-TABLE-3}
 ```
@@ -2032,7 +2032,7 @@ public static int LIST_TABLE_3
 ```
 
 
-列表表 3
+List Table 3
 
 ### LIST_TABLE_3_ACCENT_1 {#LIST-TABLE-3-ACCENT-1}
 ```
@@ -2040,7 +2040,7 @@ public static int LIST_TABLE_3_ACCENT_1
 ```
 
 
-列表表 3 - 口音 1
+List Table 3 - Accent 1
 
 ### LIST_TABLE_3_ACCENT_2 {#LIST-TABLE-3-ACCENT-2}
 ```
@@ -2048,7 +2048,7 @@ public static int LIST_TABLE_3_ACCENT_2
 ```
 
 
-列表表 3 - 口音 2
+List Table 3 - Accent 2
 
 ### LIST_TABLE_3_ACCENT_3 {#LIST-TABLE-3-ACCENT-3}
 ```
@@ -2056,7 +2056,7 @@ public static int LIST_TABLE_3_ACCENT_3
 ```
 
 
-列表表 3 - 口音 3
+List Table 3 - Accent 3
 
 ### LIST_TABLE_3_ACCENT_4 {#LIST-TABLE-3-ACCENT-4}
 ```
@@ -2064,7 +2064,7 @@ public static int LIST_TABLE_3_ACCENT_4
 ```
 
 
-列表表 3 - 口音 4
+List Table 3 - Accent 4
 
 ### LIST_TABLE_3_ACCENT_5 {#LIST-TABLE-3-ACCENT-5}
 ```
@@ -2072,7 +2072,7 @@ public static int LIST_TABLE_3_ACCENT_5
 ```
 
 
-列表表 3 - 口音 5
+List Table 3 - Accent 5
 
 ### LIST_TABLE_3_ACCENT_6 {#LIST-TABLE-3-ACCENT-6}
 ```
@@ -2080,7 +2080,7 @@ public static int LIST_TABLE_3_ACCENT_6
 ```
 
 
-列表表 3 - 口音 6
+List Table 3 - Accent 6
 
 ### LIST_TABLE_4 {#LIST-TABLE-4}
 ```
@@ -2088,7 +2088,7 @@ public static int LIST_TABLE_4
 ```
 
 
-清单表 4
+List Table 4
 
 ### LIST_TABLE_4_ACCENT_1 {#LIST-TABLE-4-ACCENT-1}
 ```
@@ -2096,7 +2096,7 @@ public static int LIST_TABLE_4_ACCENT_1
 ```
 
 
-列表表 4 - 口音 1
+List Table 4 - Accent 1
 
 ### LIST_TABLE_4_ACCENT_2 {#LIST-TABLE-4-ACCENT-2}
 ```
@@ -2104,7 +2104,7 @@ public static int LIST_TABLE_4_ACCENT_2
 ```
 
 
-列表表 4 - 口音 2
+List Table 4 - Accent 2
 
 ### LIST_TABLE_4_ACCENT_3 {#LIST-TABLE-4-ACCENT-3}
 ```
@@ -2112,7 +2112,7 @@ public static int LIST_TABLE_4_ACCENT_3
 ```
 
 
-列表表 4 - 口音 3
+List Table 4 - Accent 3
 
 ### LIST_TABLE_4_ACCENT_4 {#LIST-TABLE-4-ACCENT-4}
 ```
@@ -2120,7 +2120,7 @@ public static int LIST_TABLE_4_ACCENT_4
 ```
 
 
-列表表 4 - 口音 4
+List Table 4 - Accent 4
 
 ### LIST_TABLE_4_ACCENT_5 {#LIST-TABLE-4-ACCENT-5}
 ```
@@ -2128,7 +2128,7 @@ public static int LIST_TABLE_4_ACCENT_5
 ```
 
 
-列表表 4 - 口音 5
+List Table 4 - Accent 5
 
 ### LIST_TABLE_4_ACCENT_6 {#LIST-TABLE-4-ACCENT-6}
 ```
@@ -2136,7 +2136,7 @@ public static int LIST_TABLE_4_ACCENT_6
 ```
 
 
-列表表 4 - 口音 6
+List Table 4 - Accent 6
 
 ### LIST_TABLE_5_DARK {#LIST-TABLE-5-DARK}
 ```
@@ -2144,7 +2144,7 @@ public static int LIST_TABLE_5_DARK
 ```
 
 
-列表表 5 深色
+List Table 5 Dark
 
 ### LIST_TABLE_5_DARK_ACCENT_1 {#LIST-TABLE-5-DARK-ACCENT-1}
 ```
@@ -2152,7 +2152,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_1
 ```
 
 
-列表表 5 深色 - 口音 1
+List Table 5 Dark - Accent 1
 
 ### LIST_TABLE_5_DARK_ACCENT_2 {#LIST-TABLE-5-DARK-ACCENT-2}
 ```
@@ -2160,7 +2160,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_2
 ```
 
 
-列表表 5 深色 - 口音 2
+List Table 5 Dark - Accent 2
 
 ### LIST_TABLE_5_DARK_ACCENT_3 {#LIST-TABLE-5-DARK-ACCENT-3}
 ```
@@ -2168,7 +2168,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_3
 ```
 
 
-列表 5 深色 - 口音 3
+List Table 5 Dark - Accent 3
 
 ### LIST_TABLE_5_DARK_ACCENT_4 {#LIST-TABLE-5-DARK-ACCENT-4}
 ```
@@ -2176,7 +2176,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_4
 ```
 
 
-列表表 5 深色 - 口音 4
+List Table 5 Dark - Accent 4
 
 ### LIST_TABLE_5_DARK_ACCENT_5 {#LIST-TABLE-5-DARK-ACCENT-5}
 ```
@@ -2184,7 +2184,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_5
 ```
 
 
-列表 5 深色 - 重音 5
+List Table 5 Dark - Accent 5
 
 ### LIST_TABLE_5_DARK_ACCENT_6 {#LIST-TABLE-5-DARK-ACCENT-6}
 ```
@@ -2192,7 +2192,7 @@ public static int LIST_TABLE_5_DARK_ACCENT_6
 ```
 
 
-列表表 5 深色 - 口音 6
+List Table 5 Dark - Accent 6
 
 ### LIST_TABLE_6_COLORFUL {#LIST-TABLE-6-COLORFUL}
 ```
@@ -2200,7 +2200,7 @@ public static int LIST_TABLE_6_COLORFUL
 ```
 
 
-清单 6 多彩
+List Table 6 Colorful
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_1 {#LIST-TABLE-6-COLORFUL-ACCENT-1}
 ```
@@ -2208,7 +2208,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_1
 ```
 
 
-列表表 6 彩色 - 口音 1
+List Table 6 Colorful - Accent 1
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_2 {#LIST-TABLE-6-COLORFUL-ACCENT-2}
 ```
@@ -2216,7 +2216,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_2
 ```
 
 
-列表表 6 多彩 - 口音 2
+List Table 6 Colorful - Accent 2
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_3 {#LIST-TABLE-6-COLORFUL-ACCENT-3}
 ```
@@ -2224,7 +2224,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_3
 ```
 
 
-列表 6 彩色 - 口音 3
+List Table 6 Colorful - Accent 3
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_4 {#LIST-TABLE-6-COLORFUL-ACCENT-4}
 ```
@@ -2232,7 +2232,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_4
 ```
 
 
-列表表 6 彩色 - 口音 4
+List Table 6 Colorful - Accent 4
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_5 {#LIST-TABLE-6-COLORFUL-ACCENT-5}
 ```
@@ -2240,7 +2240,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_5
 ```
 
 
-列表表 6 彩色 - 口音 5
+List Table 6 Colorful - Accent 5
 
 ### LIST_TABLE_6_COLORFUL_ACCENT_6 {#LIST-TABLE-6-COLORFUL-ACCENT-6}
 ```
@@ -2248,7 +2248,7 @@ public static int LIST_TABLE_6_COLORFUL_ACCENT_6
 ```
 
 
-列表表 6 彩色 - 口音 6
+List Table 6 Colorful - Accent 6
 
 ### LIST_TABLE_7_COLORFUL {#LIST-TABLE-7-COLORFUL}
 ```
@@ -2256,7 +2256,7 @@ public static int LIST_TABLE_7_COLORFUL
 ```
 
 
-清单 7 多彩
+List Table 7 Colorful
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_1 {#LIST-TABLE-7-COLORFUL-ACCENT-1}
 ```
@@ -2264,7 +2264,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_1
 ```
 
 
-列表表 7 彩色 - 口音 1
+List Table 7 Colorful - Accent 1
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_2 {#LIST-TABLE-7-COLORFUL-ACCENT-2}
 ```
@@ -2272,7 +2272,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_2
 ```
 
 
-列表表 7 多彩 - 口音 2
+List Table 7 Colorful - Accent 2
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_3 {#LIST-TABLE-7-COLORFUL-ACCENT-3}
 ```
@@ -2280,7 +2280,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_3
 ```
 
 
-列表表 7 彩色 - 口音 3
+List Table 7 Colorful - Accent 3
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_4 {#LIST-TABLE-7-COLORFUL-ACCENT-4}
 ```
@@ -2288,7 +2288,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_4
 ```
 
 
-列表表 7 彩色 - 口音 4
+List Table 7 Colorful - Accent 4
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_5 {#LIST-TABLE-7-COLORFUL-ACCENT-5}
 ```
@@ -2296,7 +2296,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_5
 ```
 
 
-列表表 7 彩色 - 口音 5
+List Table 7 Colorful - Accent 5
 
 ### LIST_TABLE_7_COLORFUL_ACCENT_6 {#LIST-TABLE-7-COLORFUL-ACCENT-6}
 ```
@@ -2304,7 +2304,7 @@ public static int LIST_TABLE_7_COLORFUL_ACCENT_6
 ```
 
 
-列表表 7 彩色 - 口音 6
+List Table 7 Colorful - Accent 6
 
 ### MACRO {#MACRO}
 ```
@@ -2712,7 +2712,7 @@ public static int MENTION
 ```
 
 
-提及风格。
+The Mention style.
 
 ### MESSAGE_HEADER {#MESSAGE-HEADER}
 ```
@@ -2728,7 +2728,7 @@ public static int NIL
 ```
 
 
-保留供内部使用。
+Reserved for internal use.
 
 ### NORMAL {#NORMAL}
 ```
@@ -2736,7 +2736,7 @@ public static int NORMAL
 ```
 
 
-普通风格。
+The Normal style.
 
 ### NORMAL_INDENT {#NORMAL-INDENT}
 ```
@@ -2744,7 +2744,7 @@ public static int NORMAL_INDENT
 ```
 
 
-正常缩进样式。
+The Normal Indent style.
 
 ### NORMAL_WEB {#NORMAL-WEB}
 ```
@@ -2784,7 +2784,7 @@ public static int OUTLINE_LIST_1
 ```
 
 
-1 / a / i 样式。
+The 1 / a / i style.
 
 ### OUTLINE_LIST_2 {#OUTLINE-LIST-2}
 ```
@@ -2792,7 +2792,7 @@ public static int OUTLINE_LIST_2
 ```
 
 
-1 / 1.1 / 1.1.1 样式。
+The 1 / 1.1 / 1.1.1 style.
 
 ### OUTLINE_LIST_3 {#OUTLINE-LIST-3}
 ```
@@ -2800,7 +2800,7 @@ public static int OUTLINE_LIST_3
 ```
 
 
-文章/章节样式。
+The Article / Section style.
 
 ### PAGE_NUMBER {#PAGE-NUMBER}
 ```
@@ -2808,7 +2808,7 @@ public static int PAGE_NUMBER
 ```
 
 
-页码样式。
+The Page Number style.
 
 ### PLACEHOLDER_TEXT {#PLACEHOLDER-TEXT}
 ```
@@ -2824,7 +2824,7 @@ public static int PLAIN_TABLE_1
 ```
 
 
-普通表1
+Plain Table 1
 
 ### PLAIN_TABLE_2 {#PLAIN-TABLE-2}
 ```
@@ -2832,7 +2832,7 @@ public static int PLAIN_TABLE_2
 ```
 
 
-普通表2
+Plain Table 2
 
 ### PLAIN_TABLE_3 {#PLAIN-TABLE-3}
 ```
@@ -2840,7 +2840,7 @@ public static int PLAIN_TABLE_3
 ```
 
 
-普通表3
+Plain Table 3
 
 ### PLAIN_TABLE_4 {#PLAIN-TABLE-4}
 ```
@@ -2848,7 +2848,7 @@ public static int PLAIN_TABLE_4
 ```
 
 
-普通表4
+Plain Table 4
 
 ### PLAIN_TABLE_5 {#PLAIN-TABLE-5}
 ```
@@ -2856,7 +2856,7 @@ public static int PLAIN_TABLE_5
 ```
 
 
-普通表5
+Plain Table 5
 
 ### PLAIN_TEXT {#PLAIN-TEXT}
 ```
@@ -2904,7 +2904,7 @@ public static int SMART_HYPERLINK
 ```
 
 
-SmartHyperlink 样式。
+The SmartHyperlink style.
 
 ### SMART_LINK {#SMART-LINK}
 ```
@@ -2912,7 +2912,7 @@ public static int SMART_LINK
 ```
 
 
-智能链接样式。
+The Smart Link style.
 
 ### STRONG {#STRONG}
 ```
@@ -3160,7 +3160,7 @@ public static int TABLE_GRID_LIGHT
 ```
 
 
-表格网格灯
+Table Grid Light
 
 ### TABLE_LIST_1 {#TABLE-LIST-1}
 ```
@@ -3248,7 +3248,7 @@ public static int TABLE_OF_FIGURES
 ```
 
 
-数字表样式。
+The Table of Figures style.
 
 ### TABLE_PROFESSIONAL {#TABLE-PROFESSIONAL}
 ```
@@ -3336,7 +3336,7 @@ public static int TITLE
 ```
 
 
-标题样式。
+The Title style.
 
 ### TOA_HEADING {#TOA-HEADING}
 ```
@@ -3432,7 +3432,7 @@ public static int UNRESOLVED_MENTION
 ```
 
 
-未解决的提及样式。
+The UnresolvedMention style.
 
 ### USER {#USER}
 ```
@@ -3440,7 +3440,7 @@ public static int USER
 ```
 
 
-用户定义的样式。
+A user defined style.
 
 ### length {#length}
 ```
@@ -3456,13 +3456,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String styleIdentifierName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String styleIdentifierName)
@@ -3471,23 +3471,23 @@ public static int fromName(String styleIdentifierName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | styleIdentifierName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int styleIdentifier) {#getName-int-}
 ```
 public static String getName(int styleIdentifier)
@@ -3496,12 +3496,12 @@ public static String getName(int styleIdentifier)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -3511,8 +3511,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -3521,8 +3521,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -3547,7 +3547,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int styleIdentifier) {#toString-int-}
 ```
@@ -3557,12 +3557,12 @@ public static String toString(int styleIdentifier)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | styleIdentifier | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -3580,8 +3580,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -3593,8 +3593,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

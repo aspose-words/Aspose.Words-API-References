@@ -1,33 +1,33 @@
 ---
 title: BlockImportMode
-second_title: Aspose.Words for Java API 参考
-description: 指定如何从基于 HTML 的文档中导入块级元素的属性。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how properties of block-level elements are imported from HTML-based documents.
 type: docs
 weight: 29
-url: /zh/java/com.aspose.words/blockimportmode/
+url: /java/com.aspose.words/blockimportmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BlockImportMode
 ```
 
-指定如何从基于 HTML 的文档中导入块级元素的属性。
-## 字段
+Specifies how properties of block-level elements are imported from HTML-based documents.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [MERGE](#MERGE) | 父块的属性被合并并存储在子元素上（即 |
-| [PRESERVE](#PRESERVE) | 父块的属性被导入到一个特殊的逻辑结构中，并与文档节点分开存储。 |
+| [MERGE](#MERGE) | Properties of parent blocks are merged and stored on child elements (i.e. |
+| [PRESERVE](#PRESERVE) | Properties of parent blocks are imported to a special logical structure and are stored separately from document nodes. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String blockImportModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int blockImportMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,11 +44,11 @@ public static int MERGE
 ```
 
 
-父块的属性被合并并存储在子元素（即段落或表格）上。
+Properties of parent blocks are merged and stored on child elements (i.e. paragraphs or tables).
 
-父块的属性合并如下：边距相加；高层块的边界被丢弃，只保留最内层的边界。因此，当指定此模式时，原始文档中的某些块格式将丢失。
+Properties of parent blocks are merged as follows: margins are added together; borders of higher-level blocks are discarded and only the most inner-level borders are preserved. As a result, when this mode is specified, some formatting of blocks from the original document will be lost.
 
-另一方面，由于所有合并的块级属性都存储在文档节点上，因此结果文档中的所有格式都可以修改。
+On the other hand, since all merged block-level properties are stored on document nodes, all formating in the resulting document will be available for modification.
 
 ### PRESERVE {#PRESERVE}
 ```
@@ -56,13 +56,13 @@ public static int PRESERVE
 ```
 
 
-父块的属性被导入到一个特殊的逻辑结构中，并与文档节点分开存储。
+Properties of parent blocks are imported to a special logical structure and are stored separately from document nodes.
 
-仅导入“body”、“div”和“blockquote”HTML 元素的边距和边框。每个 HTML 元素的属性都是单独存储的。
+Only margins and borders of 'body', 'div', and 'blockquote' HTML elements are imported. Properties of each HTML element are stored individually.
 
-此模式可以更好地保留 HTML 文档中的边框和边距，并获得更好的转换结果。缺点是生成的文档更难修改，因为存储在逻辑结构中的边框和边距不可用于编辑。
+This mode allows to better preserve borders and margins seen in the HTML document and get better conversion results. The downside is that the resulting document gets harder to modify, since borders and margins stored in the logical structure are not available for editing.
 
-此模式模仿 MS Word 关于块属性导入的行为。
+This mode mimics MS Word's behavior regarding import of block properties.
 
 ### length {#length}
 ```
@@ -78,13 +78,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String blockImportModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String blockImportModeName)
@@ -93,23 +93,23 @@ public static int fromName(String blockImportModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | blockImportModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int blockImportMode) {#getName-int-}
 ```
 public static String getName(int blockImportMode)
@@ -118,12 +118,12 @@ public static String getName(int blockImportMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | blockImportMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -133,8 +133,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -143,8 +143,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,7 +169,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int blockImportMode) {#toString-int-}
 ```
@@ -179,12 +179,12 @@ public static String toString(int blockImportMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | blockImportMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -202,8 +202,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -215,8 +215,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

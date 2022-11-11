@@ -1,36 +1,36 @@
 ---
 title: MarkupLevel
-second_title: Aspose.Words for Java API 参考
-description: 指定文档树中特定可能出现的级别。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the level in the document tree where a particular  can occur.
 type: docs
 weight: 390
-url: /zh/java/com.aspose.words/markuplevel/
+url: /java/com.aspose.words/markuplevel/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MarkupLevel
 ```
 
-指定文档树中的特定级别[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)可以发生。
-## 字段
+Specifies the level in the document tree where a particular [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) can occur.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BLOCK](#BLOCK) | 元素出现在块级别（例如 |
-| [CELL](#CELL) | 该元素出现在一行的单元格中。 |
-| [INLINE](#INLINE) | 元素出现在内联级别（例如 |
-| [ROW](#ROW) | 该元素出现在表中的行之间。 |
-| [UNKNOWN](#UNKNOWN) | 指定未知或无效值。 |
+| [BLOCK](#BLOCK) | The element occurs at the block level (e.g. |
+| [CELL](#CELL) | The element occurs among cells in a row. |
+| [INLINE](#INLINE) | The element occurs at the inline level (e.g. |
+| [ROW](#ROW) | The element occurs among rows in a table. |
+| [UNKNOWN](#UNKNOWN) | Specifies the unknown or invalid value. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String markupLevelName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int markupLevel)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int BLOCK
 ```
 
 
-元素出现在块级别（例如，在表格和段落之间）。
+The element occurs at the block level (e.g. among tables and paragraphs).
 
 ### CELL {#CELL}
 ```
@@ -55,7 +55,7 @@ public static int CELL
 ```
 
 
-该元素出现在一行的单元格中。
+The element occurs among cells in a row.
 
 ### INLINE {#INLINE}
 ```
@@ -63,7 +63,7 @@ public static int INLINE
 ```
 
 
-元素出现在内联级别（例如，作为文本运行）。
+The element occurs at the inline level (e.g. among as runs of text).
 
 ### ROW {#ROW}
 ```
@@ -71,7 +71,7 @@ public static int ROW
 ```
 
 
-该元素出现在表中的行之间。
+The element occurs among rows in a table.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -79,7 +79,7 @@ public static int UNKNOWN
 ```
 
 
-指定未知或无效值。
+Specifies the unknown or invalid value.
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String markupLevelName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String markupLevelName)
@@ -110,23 +110,23 @@ public static int fromName(String markupLevelName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markupLevelName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int markupLevel) {#getName-int-}
 ```
 public static String getName(int markupLevel)
@@ -135,12 +135,12 @@ public static String getName(int markupLevel)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markupLevel | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int markupLevel) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int markupLevel)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markupLevel | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

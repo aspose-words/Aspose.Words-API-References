@@ -1,71 +1,71 @@
 ---
 title: Stroke
 second_title: Aspose.Words for Java API Reference
-description: 定义形状的笔触。
+description: Defines a stroke for a shape.
 type: docs
 weight: 531
-url: /zh/java/com.aspose.words/stroke/
+url: /java/com.aspose.words/stroke/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Stroke
 ```
 
-定义形状的笔触。
+Defines a stroke for a shape.
 
-要了解更多信息，请访问**Working with Shapes**文档文章。
+To learn more, visit the **Working with Shapes** documentation article.
 
-使用[Shape.getStroke()](../../com.aspose.words/shape\#getStroke--)属性来访问形状的笔触属性。您不创建的实例[Stroke](../../com.aspose.words/stroke)直接上课。
-## 方法s
+Use the [Shape.getStroke()](../../com.aspose.words/shape\#getStroke--) property to access stroke properties of a shape. You do not create instances of the [Stroke](../../com.aspose.words/stroke) class directly.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBackColor()](#getBackColor--) | 获取描边的背景颜色。 |
-| [get班级()](#get班级--) |  |
-| [getColor()](#getColor--) | 定义描边的颜色。 |
-| [getColor2()](#getColor2--) | 定义描边的第二种颜色。 |
-| [getDashStyle()](#getDashStyle--) | 指定笔划的点划线图案。 |
-| [getEndArrowLength()](#getEndArrowLength--) | 定义笔划末端的箭头长度。 |
-| [getEndArrow类型()](#getEndArrow类型--) | 定义笔划末端的箭头。 |
-| [getEndArrowWidth()](#getEndArrowWidth--) | 定义笔划末端的箭头宽度。 |
-| [getEndCap()](#getEndCap--) | 定义笔画末端的封头样式。 |
-| [getForeColor()](#getForeColor--) | 获取描边的前景色。 |
-| [getImageBytes()](#getImageBytes--) | 为描边图像或图案填充定义图像。 |
-| [getJoinStyle()](#getJoinStyle--) | 定义多段线的连接样式。 |
-| [getLineStyle()](#getLineStyle--) | 定义描边的线条样式。 |
-| [getOn()](#getOn--) | 定义是否将描边路径。 |
-| [getOpacity()](#getOpacity--) | 定义描边的透明度。 |
-| [getStartArrowLength()](#getStartArrowLength--) | 定义笔划起点的箭头长度。 |
-| [getStartArrow类型()](#getStartArrow类型--) | 定义笔划开始的箭头。 |
-| [getStartArrowWidth()](#getStartArrowWidth--) | 定义笔划起点的箭头宽度。 |
-| [getTransparency()](#getTransparency--) | 获取一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。 |
-| [getVisible()](#getVisible--) | 获取指示笔划是否可见的标志。 |
-| [getWeight()](#getWeight--) | 以点为单位定义描边形状路径的画笔厚度。 |
+| [getBackColor()](#getBackColor--) | Gets the background color of the stroke. |
+| [getClass()](#getClass--) |  |
+| [getColor()](#getColor--) | Defines the color of a stroke. |
+| [getColor2()](#getColor2--) | Defines a second color for a stroke. |
+| [getDashStyle()](#getDashStyle--) | Specifies the dot and dash pattern for a stroke. |
+| [getEndArrowLength()](#getEndArrowLength--) | Defines the arrowhead length for the end of a stroke. |
+| [getEndArrowType()](#getEndArrowType--) | Defines the arrowhead for the end of a stroke. |
+| [getEndArrowWidth()](#getEndArrowWidth--) | Defines the arrowhead width for the end of a stroke. |
+| [getEndCap()](#getEndCap--) | Defines the cap style for the end of a stroke. |
+| [getForeColor()](#getForeColor--) | Gets the foreground color of the stroke. |
+| [getImageBytes()](#getImageBytes--) | Defines the image for a stroke image or pattern fill. |
+| [getJoinStyle()](#getJoinStyle--) | Defines the join style of a polyline. |
+| [getLineStyle()](#getLineStyle--) | Defines the line style of the stroke. |
+| [getOn()](#getOn--) | Defines whether the path will be stroked. |
+| [getOpacity()](#getOpacity--) | Defines the amount of transparency of a stroke. |
+| [getStartArrowLength()](#getStartArrowLength--) | Defines the arrowhead length for the start of a stroke. |
+| [getStartArrowType()](#getStartArrowType--) | Defines the arrowhead for the start of a stroke. |
+| [getStartArrowWidth()](#getStartArrowWidth--) | Defines the arrowhead width for the start of a stroke. |
+| [getTransparency()](#getTransparency--) | Gets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
+| [getVisible()](#getVisible--) | Gets a flag indicating whether the stroke is visible. |
+| [getWeight()](#getWeight--) | Defines the brush thickness that strokes the path of a shape in points. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBackColor(Color value)](#setBackColor-java.awt.Color-) | 设置描边的背景颜色。 |
-| [setColor(Color value)](#setColor-java.awt.Color-) | 定义描边的颜色。 |
-| [setColor2(Color value)](#setColor2-java.awt.Color-) | 定义描边的第二种颜色。 |
-| [setDashStyle(int value)](#setDashStyle-int-) | 指定笔划的点划线图案。 |
-| [setEndArrowLength(int value)](#setEndArrowLength-int-) | 定义笔划末端的箭头长度。 |
-| [setEndArrow类型(int value)](#setEndArrow类型-int-) | 定义笔划末端的箭头。 |
-| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | 定义笔划末端的箭头宽度。 |
-| [setEndCap(int value)](#setEndCap-int-) | 定义笔画末端的封头样式。 |
-| [setForeColor(Color value)](#setForeColor-java.awt.Color-) | 设置描边的前景色。 |
-| [setJoinStyle(int value)](#setJoinStyle-int-) | 定义多段线的连接样式。 |
-| [setLineStyle(int value)](#setLineStyle-int-) | 定义描边的线条样式。 |
-| [setOn(boolean value)](#setOn-boolean-) | 定义是否将描边路径。 |
-| [setOpacity(double value)](#setOpacity-double-) | 定义描边的透明度。 |
-| [setStartArrowLength(int value)](#setStartArrowLength-int-) | 定义笔划起点的箭头长度。 |
-| [setStartArrow类型(int value)](#setStartArrow类型-int-) | 定义笔划开始的箭头。 |
-| [setStartArrowWidth(int value)](#setStartArrowWidth-int-) | 定义笔划起点的箭头宽度。 |
-| [setTransparency(double value)](#setTransparency-double-) | 设置一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。 |
-| [setVisible(boolean value)](#setVisible-boolean-) | 设置一个标志，指示笔划是否可见。 |
-| [setWeight(double value)](#setWeight-double-) | 以点为单位定义描边形状路径的画笔厚度。 |
+| [setBackColor(Color value)](#setBackColor-java.awt.Color-) | Sets the background color of the stroke. |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Defines the color of a stroke. |
+| [setColor2(Color value)](#setColor2-java.awt.Color-) | Defines a second color for a stroke. |
+| [setDashStyle(int value)](#setDashStyle-int-) | Specifies the dot and dash pattern for a stroke. |
+| [setEndArrowLength(int value)](#setEndArrowLength-int-) | Defines the arrowhead length for the end of a stroke. |
+| [setEndArrowType(int value)](#setEndArrowType-int-) | Defines the arrowhead for the end of a stroke. |
+| [setEndArrowWidth(int value)](#setEndArrowWidth-int-) | Defines the arrowhead width for the end of a stroke. |
+| [setEndCap(int value)](#setEndCap-int-) | Defines the cap style for the end of a stroke. |
+| [setForeColor(Color value)](#setForeColor-java.awt.Color-) | Sets the foreground color of the stroke. |
+| [setJoinStyle(int value)](#setJoinStyle-int-) | Defines the join style of a polyline. |
+| [setLineStyle(int value)](#setLineStyle-int-) | Defines the line style of the stroke. |
+| [setOn(boolean value)](#setOn-boolean-) | Defines whether the path will be stroked. |
+| [setOpacity(double value)](#setOpacity-double-) | Defines the amount of transparency of a stroke. |
+| [setStartArrowLength(int value)](#setStartArrowLength-int-) | Defines the arrowhead length for the start of a stroke. |
+| [setStartArrowType(int value)](#setStartArrowType-int-) | Defines the arrowhead for the start of a stroke. |
+| [setStartArrowWidth(int value)](#setStartArrowWidth-int-) | Defines the arrowhead width for the start of a stroke. |
+| [setTransparency(double value)](#setTransparency-double-) | Sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
+| [setVisible(boolean value)](#setVisible-boolean-) | Sets a flag indicating whether the stroke is visible. |
+| [setWeight(double value)](#setWeight-double-) | Defines the brush thickness that strokes the path of a shape in points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,253 +78,253 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBackColor() {#getBackColor--}
 ```
 public Color getBackColor()
 ```
 
 
-获取描边的背景颜色。 a 的默认值[Shape](../../com.aspose.words/shape)是 。
+Gets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**退货:**
-java.awt.Color - 描边的背景颜色。
-### get班级() {#get班级--}
+**Returns:**
+java.awt.Color - The background color of the stroke.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColor() {#getColor--}
 ```
 public Color getColor()
 ```
 
 
-定义描边的颜色。
+Defines the color of a stroke.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是 。
+The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getColor2() {#getColor2--}
 ```
 public Color getColor2()
 ```
 
 
-定义描边的第二种颜色。
+Defines a second color for a stroke.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是 。
+The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getDashStyle() {#getDashStyle--}
 ```
 public int getDashStyle()
 ```
 
 
-指定笔划的点划线图案。
+Specifies the dot and dash pattern for a stroke.
 
-默认值为[DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
+The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[DashStyle](../../com.aspose.words/dashstyle)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [DashStyle](../../com.aspose.words/dashstyle) constants.
 ### getEndArrowLength() {#getEndArrowLength--}
 ```
 public int getEndArrowLength()
 ```
 
 
-定义笔划末端的箭头长度。
+Defines the arrowhead length for the end of a stroke.
 
-默认值为[ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ArrowLength](../../com.aspose.words/arrowlength)常数。
-### getEndArrow类型() {#getEndArrow类型--}
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength) constants.
+### getEndArrowType() {#getEndArrowType--}
 ```
-public int getEndArrow类型()
+public int getEndArrowType()
 ```
 
 
-定义笔划末端的箭头。
+Defines the arrowhead for the end of a stroke.
 
-默认值为[Arrow类型.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[Arrow类型](../../com.aspose.words/arrowtype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype) constants.
 ### getEndArrowWidth() {#getEndArrowWidth--}
 ```
 public int getEndArrowWidth()
 ```
 
 
-定义笔划末端的箭头宽度。
+Defines the arrowhead width for the end of a stroke.
 
-默认值为[ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ArrowWidth](../../com.aspose.words/arrowwidth)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants.
 ### getEndCap() {#getEndCap--}
 ```
 public int getEndCap()
 ```
 
 
-定义笔画末端的封头样式。
+Defines the cap style for the end of a stroke.
 
-默认值为[EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
+The default value is [EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[EndCap](../../com.aspose.words/endcap)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [EndCap](../../com.aspose.words/endcap) constants.
 ### getForeColor() {#getForeColor--}
 ```
 public Color getForeColor()
 ```
 
 
-获取描边的前景色。 a 的默认值[Shape](../../com.aspose.words/shape)是 。
+Gets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**退货:**
-java.awt.Color - 描边的前景色。
+**Returns:**
+java.awt.Color - The foreground color of the stroke.
 ### getImageBytes() {#getImageBytes--}
 ```
 public byte[] getImageBytes()
 ```
 
 
-为描边图像或图案填充定义图像。
+Defines the image for a stroke image or pattern fill.
 
-**退货:**
-字节[- 对应的字节[] 价值。
+**Returns:**
+byte[] - The corresponding byte[] value.
 ### getJoinStyle() {#getJoinStyle--}
 ```
 public int getJoinStyle()
 ```
 
 
-定义多段线的连接样式。
+Defines the join style of a polyline.
 
-默认值为[JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
+The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[JoinStyle](../../com.aspose.words/joinstyle)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [JoinStyle](../../com.aspose.words/joinstyle) constants.
 ### getLineStyle() {#getLineStyle--}
 ```
 public int getLineStyle()
 ```
 
 
-定义描边的线条样式。
+Defines the line style of the stroke.
 
-默认值为[ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ShapeLineStyle](../../com.aspose.words/shapelinestyle)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle) constants.
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
 ```
 
 
-定义是否将描边路径。
+Defines whether the path will be stroked.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是**true**.
+The default value for a [Shape](../../com.aspose.words/shape) is **true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getOpacity() {#getOpacity--}
 ```
 public double getOpacity()
 ```
 
 
-定义描边的透明度。有效范围为 0 到 1。
+Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 
-默认值为 1。
+The default value is 1.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getStartArrowLength() {#getStartArrowLength--}
 ```
 public int getStartArrowLength()
 ```
 
 
-定义笔划起点的箭头长度。
+Defines the arrowhead length for the start of a stroke.
 
-默认值为[ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ArrowLength](../../com.aspose.words/arrowlength)常数。
-### getStartArrow类型() {#getStartArrow类型--}
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowLength](../../com.aspose.words/arrowlength) constants.
+### getStartArrowType() {#getStartArrowType--}
 ```
-public int getStartArrow类型()
+public int getStartArrowType()
 ```
 
 
-定义笔划开始的箭头。
+Defines the arrowhead for the start of a stroke.
 
-默认值为[Arrow类型.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[Arrow类型](../../com.aspose.words/arrowtype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowType](../../com.aspose.words/arrowtype) constants.
 ### getStartArrowWidth() {#getStartArrowWidth--}
 ```
 public int getStartArrowWidth()
 ```
 
 
-定义笔划起点的箭头宽度。
+Defines the arrowhead width for the start of a stroke.
 
-默认值为[ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ArrowWidth](../../com.aspose.words/arrowwidth)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants.
 ### getTransparency() {#getTransparency--}
 ```
 public double getTransparency()
 ```
 
 
-获取一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。默认值为 0。
+Gets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. The default value is 0.
 
-**退货:**
-double - 介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。
+**Returns:**
+double - A value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke.
 ### getVisible() {#getVisible--}
 ```
 public boolean getVisible()
 ```
 
 
-获取指示笔划是否可见的标志。 a 的默认值[Shape](../../com.aspose.words/shape)是**true**.
+Gets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape) is **true**.
 
-**退货:**
-boolean - 指示笔划是否可见的标志。
+**Returns:**
+boolean - A flag indicating whether the stroke is visible.
 ### getWeight() {#getWeight--}
 ```
 public double getWeight()
 ```
 
 
-以点为单位定义描边形状路径的画笔厚度。
+Defines the brush thickness that strokes the path of a shape in points.
 
- a 的默认值[Shape](../../com.aspose.words/shape)为 0.75。
+The default value for a [Shape](../../com.aspose.words/shape) is 0.75.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -333,8 +333,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -357,12 +357,12 @@ public void setBackColor(Color value)
 ```
 
 
-设置描边的背景颜色。 a 的默认值[Shape](../../com.aspose.words/shape)是 。
+Sets the background color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 描边的背景颜色。 |
+| value | java.awt.Color | The background color of the stroke. |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -370,14 +370,14 @@ public void setColor(Color value)
 ```
 
 
-定义描边的颜色。
+Defines the color of a stroke.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是 。
+The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setColor2(Color value) {#setColor2-java.awt.Color-}
 ```
@@ -385,14 +385,14 @@ public void setColor2(Color value)
 ```
 
 
-定义描边的第二种颜色。
+Defines a second color for a stroke.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是 。
+The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setDashStyle(int value) {#setDashStyle-int-}
 ```
@@ -400,14 +400,14 @@ public void setDashStyle(int value)
 ```
 
 
-指定笔划的点划线图案。
+Specifies the dot and dash pattern for a stroke.
 
-默认值为[DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
+The default value is [DashStyle.SOLID](../../com.aspose.words/dashstyle\#SOLID).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[DashStyle](../../com.aspose.words/dashstyle)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [DashStyle](../../com.aspose.words/dashstyle) constants. |
 
 ### setEndArrowLength(int value) {#setEndArrowLength-int-}
 ```
@@ -415,29 +415,29 @@ public void setEndArrowLength(int value)
 ```
 
 
-定义笔划末端的箭头长度。
+Defines the arrowhead length for the end of a stroke.
 
-默认值为[ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ArrowLength](../../com.aspose.words/arrowlength)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength) constants. |
 
-### setEndArrow类型(int value) {#setEndArrow类型-int-}
+### setEndArrowType(int value) {#setEndArrowType-int-}
 ```
-public void setEndArrow类型(int value)
+public void setEndArrowType(int value)
 ```
 
 
-定义笔划末端的箭头。
+Defines the arrowhead for the end of a stroke.
 
-默认值为[Arrow类型.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[Arrow类型](../../com.aspose.words/arrowtype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype) constants. |
 
 ### setEndArrowWidth(int value) {#setEndArrowWidth-int-}
 ```
@@ -445,14 +445,14 @@ public void setEndArrowWidth(int value)
 ```
 
 
-定义笔划末端的箭头宽度。
+Defines the arrowhead width for the end of a stroke.
 
-默认值为[ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ArrowWidth](../../com.aspose.words/arrowwidth)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants. |
 
 ### setEndCap(int value) {#setEndCap-int-}
 ```
@@ -460,14 +460,14 @@ public void setEndCap(int value)
 ```
 
 
-定义笔画末端的封头样式。
+Defines the cap style for the end of a stroke.
 
-默认值为[EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
+The default value is [EndCap.FLAT](../../com.aspose.words/endcap\#FLAT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[EndCap](../../com.aspose.words/endcap)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [EndCap](../../com.aspose.words/endcap) constants. |
 
 ### setForeColor(Color value) {#setForeColor-java.awt.Color-}
 ```
@@ -475,12 +475,12 @@ public void setForeColor(Color value)
 ```
 
 
-设置描边的前景色。 a 的默认值[Shape](../../com.aspose.words/shape)是 。
+Sets the foreground color of the stroke. The default value for a [Shape](../../com.aspose.words/shape) is .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 描边的前景色。 |
+| value | java.awt.Color | The foreground color of the stroke. |
 
 ### setJoinStyle(int value) {#setJoinStyle-int-}
 ```
@@ -488,14 +488,14 @@ public void setJoinStyle(int value)
 ```
 
 
-定义多段线的连接样式。
+Defines the join style of a polyline.
 
-默认值为[JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
+The default value is [JoinStyle.ROUND](../../com.aspose.words/joinstyle\#ROUND).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[JoinStyle](../../com.aspose.words/joinstyle)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [JoinStyle](../../com.aspose.words/joinstyle) constants. |
 
 ### setLineStyle(int value) {#setLineStyle-int-}
 ```
@@ -503,14 +503,14 @@ public void setLineStyle(int value)
 ```
 
 
-定义描边的线条样式。
+Defines the line style of the stroke.
 
-默认值为[ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
+The default value is [ShapeLineStyle.SINGLE](../../com.aspose.words/shapelinestyle\#SINGLE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ShapeLineStyle](../../com.aspose.words/shapelinestyle)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ShapeLineStyle](../../com.aspose.words/shapelinestyle) constants. |
 
 ### setOn(boolean value) {#setOn-boolean-}
 ```
@@ -518,14 +518,14 @@ public void setOn(boolean value)
 ```
 
 
-定义是否将描边路径。
+Defines whether the path will be stroked.
 
- a 的默认值[Shape](../../com.aspose.words/shape)是**true**.
+The default value for a [Shape](../../com.aspose.words/shape) is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setOpacity(double value) {#setOpacity-double-}
 ```
@@ -533,14 +533,14 @@ public void setOpacity(double value)
 ```
 
 
-定义描边的透明度。有效范围为 0 到 1。
+Defines the amount of transparency of a stroke. Valid range is from 0 to 1.
 
-默认值为 1。
+The default value is 1.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setStartArrowLength(int value) {#setStartArrowLength-int-}
 ```
@@ -548,29 +548,29 @@ public void setStartArrowLength(int value)
 ```
 
 
-定义笔划起点的箭头长度。
+Defines the arrowhead length for the start of a stroke.
 
-默认值为[ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
+The default value is [ArrowLength.MEDIUM](../../com.aspose.words/arrowlength\#MEDIUM).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ArrowLength](../../com.aspose.words/arrowlength)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowLength](../../com.aspose.words/arrowlength) constants. |
 
-### setStartArrow类型(int value) {#setStartArrow类型-int-}
+### setStartArrowType(int value) {#setStartArrowType-int-}
 ```
-public void setStartArrow类型(int value)
+public void setStartArrowType(int value)
 ```
 
 
-定义笔划开始的箭头。
+Defines the arrowhead for the start of a stroke.
 
-默认值为[Arrow类型.NONE](../../com.aspose.words/arrowtype\#NONE).
+The default value is [ArrowType.NONE](../../com.aspose.words/arrowtype\#NONE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[Arrow类型](../../com.aspose.words/arrowtype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowType](../../com.aspose.words/arrowtype) constants. |
 
 ### setStartArrowWidth(int value) {#setStartArrowWidth-int-}
 ```
@@ -578,14 +578,14 @@ public void setStartArrowWidth(int value)
 ```
 
 
-定义笔划起点的箭头宽度。
+Defines the arrowhead width for the start of a stroke.
 
-默认值为[ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
+The default value is [ArrowWidth.MEDIUM](../../com.aspose.words/arrowwidth\#MEDIUM).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ArrowWidth](../../com.aspose.words/arrowwidth)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ArrowWidth](../../com.aspose.words/arrowwidth) constants. |
 
 ### setTransparency(double value) {#setTransparency-double-}
 ```
@@ -593,12 +593,12 @@ public void setTransparency(double value)
 ```
 
 
-设置一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。默认值为 0。
+Sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 一个介于 0.0（不透明）和 1.0（透明）之间的值，表示笔划的透明度。 |
+| value | double | A value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke. |
 
 ### setVisible(boolean value) {#setVisible-boolean-}
 ```
@@ -606,12 +606,12 @@ public void setVisible(boolean value)
 ```
 
 
-设置一个标志，指示笔划是否可见。 a 的默认值[Shape](../../com.aspose.words/shape)是**true**.
+Sets a flag indicating whether the stroke is visible. The default value for a [Shape](../../com.aspose.words/shape) is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示笔划是否可见的标志。 |
+| value | boolean | A flag indicating whether the stroke is visible. |
 
 ### setWeight(double value) {#setWeight-double-}
 ```
@@ -619,14 +619,14 @@ public void setWeight(double value)
 ```
 
 
-以点为单位定义描边形状路径的画笔厚度。
+Defines the brush thickness that strokes the path of a shape in points.
 
- a 的默认值[Shape](../../com.aspose.words/shape)为 0.75。
+The default value for a [Shape](../../com.aspose.words/shape) is 0.75.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### toString() {#toString--}
 ```
@@ -636,7 +636,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -654,8 +654,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -667,8 +667,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

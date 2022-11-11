@@ -1,40 +1,40 @@
 ---
-title: AxisScale类型
-second_title: Aspose.Words for Java API 参考
-description: 指定轴的可能比例类型。
+title: AxisScaleType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the possible scale types for an axis.
 type: docs
 weight: 21
-url: /zh/java/com.aspose.words/axisscaletype/
+url: /java/com.aspose.words/axisscaletype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class AxisScale类型
+public class AxisScaleType
 ```
 
-指定轴的可能比例类型。
-## 字段
+Specifies the possible scale types for an axis.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [LINEAR](#LINEAR) | 线性缩放。 |
-| [LOGARITHMIC](#LOGARITHMIC) | 对数缩放。 |
+| [LINEAR](#LINEAR) | Linear scaling. |
+| [LOGARITHMIC](#LOGARITHMIC) | Logarithmic scaling. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String axisScale类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int axisScale类型)](#getName-int-) |  |
+| [fromName(String axisScaleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int axisScaleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int axisScale类型)](#toString-int-) |  |
+| [toString(int axisScaleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,7 +44,7 @@ public static int LINEAR
 ```
 
 
-线性缩放。
+Linear scaling.
 
 ### LOGARITHMIC {#LOGARITHMIC}
 ```
@@ -52,7 +52,7 @@ public static int LOGARITHMIC
 ```
 
 
-对数缩放。
+Logarithmic scaling.
 
 ### length {#length}
 ```
@@ -68,52 +68,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String axisScale类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String axisScaleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String axisScale类型Name)
+public static int fromName(String axisScaleTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| axisScale类型Name | java.lang.String |  |
+| axisScaleTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int axisScale类型) {#getName-int-}
-```
-public static String getName(int axisScale类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int axisScaleType) {#getName-int-}
+```
+public static String getName(int axisScaleType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| axisScale类型 | int |  |
+| axisScaleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,22 +159,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int axisScale类型) {#toString-int-}
+### toString(int axisScaleType) {#toString-int-}
 ```
-public static String toString(int axisScale类型)
+public static String toString(int axisScaleType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| axisScale类型 | int |  |
+| axisScaleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

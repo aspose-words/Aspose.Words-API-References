@@ -1,36 +1,36 @@
 ---
 title: CultureNotFoundException
 second_title: Aspose.Words for Java API Reference
-description: .Nets System.Globalization.CultureNotFoundException 的映射
+description: Map for .Nets System.Globalization.CultureNotFoundException
 type: docs
 weight: 11
-url: /zh/java/com.aspose.words.net.system.globalization/culturenotfoundexception/
+url: /java/com.aspose.words.net.system.globalization/culturenotfoundexception/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException
 ```
 public class CultureNotFoundException extends RuntimeException
 ```
 
-.Net 的 System.Globalization.CultureNotFoundException 的映射
-## 构造函数s
+Map for .Net's System.Globalization.CultureNotFoundException
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [CultureNotFoundException(Exception e)](#CultureNotFoundException-java.lang.Exception-) | 初始化此类的新实例。 |
-| [CultureNotFoundException(int cultureId)](#CultureNotFoundException-int-) | 初始化此类的新实例。 |
-| [CultureNotFoundException(String cultureName)](#CultureNotFoundException-java.lang.String-) | 初始化此类的新实例。 |
-| [CultureNotFoundException(String cultureName, String altName)](#CultureNotFoundException-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [CultureNotFoundException(Exception e)](#CultureNotFoundException-java.lang.Exception-) | Initializes a new instance of this class. |
+| [CultureNotFoundException(int cultureId)](#CultureNotFoundException-int-) | Initializes a new instance of this class. |
+| [CultureNotFoundException(String cultureName)](#CultureNotFoundException-java.lang.String-) | Initializes a new instance of this class. |
+| [CultureNotFoundException(String cultureName, String altName)](#CultureNotFoundException-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -53,10 +53,10 @@ public CultureNotFoundException(Exception e)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | e | java.lang.Exception |  |
 
@@ -66,10 +66,10 @@ public CultureNotFoundException(int cultureId)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureId | int |  |
 
@@ -79,10 +79,10 @@ public CultureNotFoundException(String cultureName)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
 
@@ -92,10 +92,10 @@ public CultureNotFoundException(String cultureName, String altName)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
 | altName | java.lang.String |  |
@@ -108,8 +108,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
@@ -121,13 +121,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()
@@ -136,7 +136,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -146,18 +146,18 @@ public synchronized Throwable getCause()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -166,7 +166,7 @@ public String getLocalizedMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getMessage() {#getMessage--}
 ```
@@ -176,7 +176,7 @@ public String getMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getStackTrace() {#getStackTrace--}
 ```
@@ -186,7 +186,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -196,7 +196,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -206,8 +206,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
 public synchronized Throwable initCause(Throwable arg0)
@@ -216,12 +216,12 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -255,8 +255,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
@@ -268,8 +268,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
@@ -281,8 +281,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
@@ -294,7 +294,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -312,8 +312,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -325,8 +325,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,58 +1,58 @@
 ---
 title: WebExtensionBinding
 second_title: Aspose.Words for Java API Reference
-description: 指定 Web 扩展和文档中的数据之间的绑定关系。
+description: Specifies a binding relationship between a web extension and the data in the document.
 type: docs
 weight: 612
-url: /zh/java/com.aspose.words/webextensionbinding/
+url: /java/com.aspose.words/webextensionbinding/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class WebExtensionBinding
 ```
 
-指定 Web 扩展和文档中的数据之间的绑定关系。
+Specifies a binding relationship between a web extension and the data in the document.
 
-要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 构造函数s
+To learn more, visit the **Work with Office Add-ins** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [WebExtensionBinding(String id, int binding类型, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [WebExtensionBinding(String id, int bindingType, String appRef)](#WebExtensionBinding-java.lang.String-int-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAppRef()](#getAppRef--) | 指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
-| [getBinding类型()](#getBinding类型--) | 指定绑定类型。 |
-| [get班级()](#get班级--) |  |
-| [getId()](#getId--) | 指定绑定标识符。 |
+| [getAppRef()](#getAppRef--) | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
+| [getBindingType()](#getBindingType--) | Specifies the binding type. |
+| [getClass()](#getClass--) |  |
+| [getId()](#getId--) | Specifies the binding identifier. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAppRef(String value)](#setAppRef-java.lang.String-) | 指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。 |
-| [setBinding类型(int value)](#setBinding类型-int-) | 指定绑定类型。 |
-| [setId(String value)](#setId-java.lang.String-) | 指定绑定标识符。 |
+| [setAppRef(String value)](#setAppRef-java.lang.String-) | Specifies the binding key used to map the binding entry in this list with the bound data in the document. |
+| [setBindingType(int value)](#setBindingType-int-) | Specifies the binding type. |
+| [setId(String value)](#setId-java.lang.String-) | Specifies the binding identifier. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### WebExtensionBinding(String id, int binding类型, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
+### WebExtensionBinding(String id, int bindingType, String appRef) {#WebExtensionBinding-java.lang.String-int-java.lang.String-}
 ```
-public WebExtensionBinding(String id, int binding类型, String appRef)
+public WebExtensionBinding(String id, int bindingType, String appRef)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | id | java.lang.String |  |
-| binding类型 | int |  |
+| bindingType | int |  |
 | appRef | java.lang.String |  |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
@@ -63,53 +63,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAppRef() {#getAppRef--}
 ```
 public String getAppRef()
 ```
 
 
-指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。
+Specifies the binding key used to map the binding entry in this list with the bound data in the document.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getBinding类型() {#getBinding类型--}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getBindingType() {#getBindingType--}
 ```
-public int getBinding类型()
-```
-
-
-指定绑定类型。
-
-**退货:**
-int - 对应的 int 值。返回值是以下之一[WebExtensionBinding类型](../../com.aspose.words/webextensionbindingtype)常数。
-### get班级() {#get班级--}
-```
-public final native 班级<?> get班级()
+public int getBindingType()
 ```
 
 
+Specifies the binding type.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants.
+### getClass() {#getClass--}
+```
+public final native Class<?> getClass()
+```
 
 
-**退货:**
-java.lang.班级<?>
+
+
+**Returns:**
+java.lang.Class<?>
 ### getId() {#getId--}
 ```
 public String getId()
 ```
 
 
-指定绑定标识符。
+Specifies the binding identifier.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -118,8 +118,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -142,25 +142,25 @@ public void setAppRef(String value)
 ```
 
 
-指定用于将此列表中的绑定条目与文档中的绑定数据映射的绑定键。
+Specifies the binding key used to map the binding entry in this list with the bound data in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
-### setBinding类型(int value) {#setBinding类型-int-}
+### setBindingType(int value) {#setBindingType-int-}
 ```
-public void setBinding类型(int value)
+public void setBindingType(int value)
 ```
 
 
-指定绑定类型。
+Specifies the binding type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[WebExtensionBinding类型](../../com.aspose.words/webextensionbindingtype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [WebExtensionBindingType](../../com.aspose.words/webextensionbindingtype) constants. |
 
 ### setId(String value) {#setId-java.lang.String-}
 ```
@@ -168,12 +168,12 @@ public void setId(String value)
 ```
 
 
-指定绑定标识符。
+Specifies the binding identifier.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### toString() {#toString--}
 ```
@@ -183,7 +183,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

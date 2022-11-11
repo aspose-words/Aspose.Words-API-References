@@ -1,49 +1,49 @@
 ---
 title: PaperSize
-second_title: Aspose.Words for Java API 参考
-description: 指定纸张尺寸。
+second_title: Aspose.Words for Java API Reference
+description: Specifies paper size.
 type: docs
 weight: 442
-url: /zh/java/com.aspose.words/papersize/
+url: /java/com.aspose.words/papersize/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PaperSize
 ```
 
-指定纸张尺寸。
-## 字段
+Specifies paper size.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [A3](#A3) | 297 x 420 毫米。 |
-| [A4](#A4) | 210 x 297 毫米。 |
-| [A5](#A5) | 148 x 210 毫米。 |
-| [B4](#B4) | 250 x 353 毫米。 |
-| [B5](#B5) | 176 x 250 毫米。 |
-| [CUSTOM](#CUSTOM) | 自定义纸张尺寸。 |
-| [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 毫米。 |
-| [EXECUTIVE](#EXECUTIVE) | 7.25 x 10.5 英寸。 |
-| [FOLIO](#FOLIO) | 8.5 x 13 英寸。 |
-| [LEDGER](#LEDGER) | 17 x 11 英寸。 |
-| [LEGAL](#LEGAL) | 8.5 x 14 英寸。 |
-| [LETTER](#LETTER) | 8.5 x 11 英寸。 |
-| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4.125 x 9.5 英寸。 |
-| [PAPER_10_X_14](#PAPER-10-X-14) | 10 x 14 英寸。 |
-| [PAPER_11_X_17](#PAPER-11-X-17) | 11 x 17 英寸。 |
-| [QUARTO](#QUARTO) | 8.47 x 10.83 英寸。 |
-| [STATEMENT](#STATEMENT) | 8.5 x 5.5 英寸。 |
-| [TABLOID](#TABLOID) | 11 x 17 英寸。 |
+| [A3](#A3) | 297 x 420 mm. |
+| [A4](#A4) | 210 x 297 mm. |
+| [A5](#A5) | 148 x 210 mm. |
+| [B4](#B4) | 250 x 353 mm. |
+| [B5](#B5) | 176 x 250 mm. |
+| [CUSTOM](#CUSTOM) | Custom paper size. |
+| [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 mm. |
+| [EXECUTIVE](#EXECUTIVE) | 7.25 x 10.5 inches. |
+| [FOLIO](#FOLIO) | 8.5 x 13 inches. |
+| [LEDGER](#LEDGER) | 17 x 11 inches. |
+| [LEGAL](#LEGAL) | 8.5 x 14 inches. |
+| [LETTER](#LETTER) | 8.5 x 11 inches. |
+| [NUMBER_10_ENVELOPE](#NUMBER-10-ENVELOPE) | 4.125 x 9.5 inches. |
+| [PAPER_10_X_14](#PAPER-10-X-14) | 10 x 14 inches. |
+| [PAPER_11_X_17](#PAPER-11-X-17) | 11 x 17 inches. |
+| [QUARTO](#QUARTO) | 8.47 x 10.83 inches. |
+| [STATEMENT](#STATEMENT) | 8.5 x 5.5 inches. |
+| [TABLOID](#TABLOID) | 11 x 17 inches. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String paperSizeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int paperSize)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -60,7 +60,7 @@ public static int A3
 ```
 
 
-297 x 420 毫米。
+297 x 420 mm.
 
 ### A4 {#A4}
 ```
@@ -68,7 +68,7 @@ public static int A4
 ```
 
 
-210 x 297 毫米。
+210 x 297 mm.
 
 ### A5 {#A5}
 ```
@@ -76,7 +76,7 @@ public static int A5
 ```
 
 
-148 x 210 毫米。
+148 x 210 mm.
 
 ### B4 {#B4}
 ```
@@ -84,7 +84,7 @@ public static int B4
 ```
 
 
-250 x 353 毫米。
+250 x 353 mm.
 
 ### B5 {#B5}
 ```
@@ -92,7 +92,7 @@ public static int B5
 ```
 
 
-176 x 250 毫米。
+176 x 250 mm.
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -100,7 +100,7 @@ public static int CUSTOM
 ```
 
 
-自定义纸张尺寸。
+Custom paper size.
 
 ### ENVELOPE_DL {#ENVELOPE-DL}
 ```
@@ -108,7 +108,7 @@ public static int ENVELOPE_DL
 ```
 
 
-110 x 220 毫米。
+110 x 220 mm.
 
 ### EXECUTIVE {#EXECUTIVE}
 ```
@@ -116,7 +116,7 @@ public static int EXECUTIVE
 ```
 
 
-7.25 x 10.5 英寸。
+7.25 x 10.5 inches.
 
 ### FOLIO {#FOLIO}
 ```
@@ -124,7 +124,7 @@ public static int FOLIO
 ```
 
 
-8.5 x 13 英寸。
+8.5 x 13 inches.
 
 ### LEDGER {#LEDGER}
 ```
@@ -132,7 +132,7 @@ public static int LEDGER
 ```
 
 
-17 x 11 英寸。
+17 x 11 inches.
 
 ### LEGAL {#LEGAL}
 ```
@@ -140,7 +140,7 @@ public static int LEGAL
 ```
 
 
-8.5 x 14 英寸。
+8.5 x 14 inches.
 
 ### LETTER {#LETTER}
 ```
@@ -148,7 +148,7 @@ public static int LETTER
 ```
 
 
-8.5 x 11 英寸。
+8.5 x 11 inches.
 
 ### NUMBER_10_ENVELOPE {#NUMBER-10-ENVELOPE}
 ```
@@ -156,7 +156,7 @@ public static int NUMBER_10_ENVELOPE
 ```
 
 
-4.125 x 9.5 英寸。
+4.125 x 9.5 inches.
 
 ### PAPER_10_X_14 {#PAPER-10-X-14}
 ```
@@ -164,7 +164,7 @@ public static int PAPER_10_X_14
 ```
 
 
-10 x 14 英寸。
+10 x 14 inches.
 
 ### PAPER_11_X_17 {#PAPER-11-X-17}
 ```
@@ -172,7 +172,7 @@ public static int PAPER_11_X_17
 ```
 
 
-11 x 17 英寸。
+11 x 17 inches.
 
 ### QUARTO {#QUARTO}
 ```
@@ -180,7 +180,7 @@ public static int QUARTO
 ```
 
 
-8.47 x 10.83 英寸。
+8.47 x 10.83 inches.
 
 ### STATEMENT {#STATEMENT}
 ```
@@ -188,7 +188,7 @@ public static int STATEMENT
 ```
 
 
-8.5 x 5.5 英寸。
+8.5 x 5.5 inches.
 
 ### TABLOID {#TABLOID}
 ```
@@ -196,7 +196,7 @@ public static int TABLOID
 ```
 
 
-11 x 17 英寸。
+11 x 17 inches.
 
 ### length {#length}
 ```
@@ -212,13 +212,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String paperSizeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String paperSizeName)
@@ -227,23 +227,23 @@ public static int fromName(String paperSizeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | paperSizeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int paperSize) {#getName-int-}
 ```
 public static String getName(int paperSize)
@@ -252,12 +252,12 @@ public static String getName(int paperSize)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | paperSize | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -267,8 +267,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -277,8 +277,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -303,7 +303,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int paperSize) {#toString-int-}
 ```
@@ -313,12 +313,12 @@ public static String toString(int paperSize)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | paperSize | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -336,8 +336,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -349,8 +349,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,44 +1,44 @@
 ---
 title: SystemFontSource
 second_title: Aspose.Words for Java API Reference
-description: 表示安装到系统的所有 True类型 字体。
+description: Represents all TrueType fonts installed to the system.
 type: docs
 weight: 543
-url: /zh/java/com.aspose.words/systemfontsource/
+url: /java/com.aspose.words/systemfontsource/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.FontSourceBase](../../com.aspose.words/fontsourcebase)
 ```
 public class SystemFontSource extends FontSourceBase
 ```
 
-表示安装到系统的所有 True类型 字体。
+Represents all TrueType fonts installed to the system.
 
-要了解更多信息，请访问**Working with Fonts**文档文章。
-## 构造函数s
+To learn more, visit the **Working with Fonts** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [SystemFontSource()](#SystemFontSource--) | 克托尔。 |
-| [SystemFontSource(int priority)](#SystemFontSource-int-) | 克托尔。 |
-## 方法s
+| [SystemFontSource()](#SystemFontSource--) | Ctor. |
+| [SystemFontSource(int priority)](#SystemFontSource-int-) | Ctor. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | 返回通过此源可用的字体列表。 |
-| [get班级()](#get班级--) |  |
+| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
+| [getClass()](#getClass--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | 返回字体源优先级。 |
+| [getPriority()](#getPriority--) | Returns the font source priority. |
 | [getPriorityInternal()](#getPriorityInternal--) |  |
-| [getSystemFontFolders()](#getSystemFontFolders--) | 如果文件夹不可访问，则返回系统字体文件夹或空数组。 |
-| [get类型()](#get类型--) | 返回字体源的类型。 |
-| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [getSystemFontFolders()](#getSystemFontFolders--) | Returns system font folders or empty array if folders are not accessible. |
+| [getType()](#getType--) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,7 +49,7 @@ public SystemFontSource()
 ```
 
 
-克托尔。
+Ctor.
 
 ### SystemFontSource(int priority) {#SystemFontSource-int-}
 ```
@@ -57,12 +57,12 @@ public SystemFontSource(int priority)
 ```
 
 
-克托尔。
+Ctor.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| priority | int | 字体来源优先。见[FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--)属性描述以获取更多信息。 |
+| priority | int | Font source priority. See the [FontSourceBase.getPriority()](../../com.aspose.words/fontsourcebase\#getPriority--) property description for more information. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -72,33 +72,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAvailableFonts() {#getAvailableFonts--}
 ```
 public ArrayList getAvailableFonts()
 ```
 
 
-返回通过此源可用的字体列表。
+Returns list of fonts available via this source.
 
-**退货:**
+**Returns:**
 java.util.ArrayList
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFontDataInternal() {#getFontDataInternal--}
 ```
 public Iterable getFontDataInternal()
@@ -107,7 +107,7 @@ public Iterable getFontDataInternal()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Iterable
 ### getPriority() {#getPriority--}
 ```
@@ -115,14 +115,14 @@ public int getPriority()
 ```
 
 
-返回字体源优先级。
+Returns the font source priority.
 
-当不同字体源中存在具有相同系列名称和样式的字体时使用此值。在这种情况下，Aspose.Words 从源中选择具有较高优先级值的字体。
+This value is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-int - 字体源优先级。
+**Returns:**
+int - The font source priority.
 ### getPriorityInternal() {#getPriorityInternal--}
 ```
 public int getPriorityInternal()
@@ -131,38 +131,38 @@ public int getPriorityInternal()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getSystemFontFolders() {#getSystemFontFolders--}
 ```
 public static String[] getSystemFontFolders()
 ```
 
 
-如果文件夹不可访问，则返回系统字体文件夹或空数组。在某些平台上，Aspose.Words 不仅可以通过文件夹搜索系统字体，还可以通过其他来源搜索系统字体。例如，在 Windows 平台上 Aspose.Words 也在注册表中搜索字体。
+Returns system font folders or empty array if folders are not accessible. On some platforms Aspose.Words could search system fonts not only through folders but in other sources too. For example, on Windows platform Aspose.Words search fonts also in the registry.
 
-**退货:**
+**Returns:**
 java.lang.String[]
-### get类型() {#get类型--}
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-返回字体源的类型。
+Returns the type of the font source.
 
-**退货:**
- int - 字体源的类型。返回值是以下之一[FontSource类型](../../com.aspose.words/fontsourcetype)常数。
+**Returns:**
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -171,8 +171,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,12 +195,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### toString() {#toString--}
 ```
@@ -210,7 +210,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

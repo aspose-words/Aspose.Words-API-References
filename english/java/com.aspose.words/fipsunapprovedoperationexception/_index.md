@@ -1,31 +1,31 @@
 ---
 title: FipsUnapprovedOperationException
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 271
-url: /zh/java/com.aspose.words/fipsunapprovedoperationexception/
+url: /java/com.aspose.words/fipsunapprovedoperationexception/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException
 ```
 public class FipsUnapprovedOperationException extends RuntimeException
 ```
-## 构造函数s
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [FipsUnapprovedOperationException(String e)](#FipsUnapprovedOperationException-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [FipsUnapprovedOperationException(String e)](#FipsUnapprovedOperationException-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -48,10 +48,10 @@ public FipsUnapprovedOperationException(String e)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | e | java.lang.String |  |
 
@@ -63,8 +63,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
@@ -76,13 +76,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()
@@ -91,7 +91,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -101,18 +101,18 @@ public synchronized Throwable getCause()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -121,7 +121,7 @@ public String getLocalizedMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getMessage() {#getMessage--}
 ```
@@ -131,7 +131,7 @@ public String getMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getStackTrace() {#getStackTrace--}
 ```
@@ -141,7 +141,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -151,7 +151,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -161,8 +161,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
 public synchronized Throwable initCause(Throwable arg0)
@@ -171,12 +171,12 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -210,8 +210,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
@@ -223,8 +223,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
@@ -236,8 +236,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
@@ -249,7 +249,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -267,8 +267,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -280,8 +280,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,36 +1,36 @@
 ---
 title: DownsampleOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许指定下采样选项。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify downsample options.
 type: docs
 weight: 133
-url: /zh/java/com.aspose.words/downsampleoptions/
+url: /java/com.aspose.words/downsampleoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DownsampleOptions
 ```
 
-允许指定下采样选项。
+Allows to specify downsample options.
 
-要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+To learn more, visit the **Save a Document** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDownsampleImages()](#getDownsampleImages--) | 指定是否应该对图像进行下采样。 |
-| [getResolution()](#getResolution--) | 指定图像应该被下采样到的分辨率（以每英寸像素为单位）。 |
-| [getResolutionThreshold()](#getResolutionThreshold--) | 以每英寸像素数指定阈值分辨率。 |
+| [getClass()](#getClass--) |  |
+| [getDownsampleImages()](#getDownsampleImages--) | Specifies whether images should be downsampled. |
+| [getResolution()](#getResolution--) | Specifies the resolution in pixels per inch which the images should be downsampled to. |
+| [getResolutionThreshold()](#getResolutionThreshold--) | Specifies the threshold resolution in pixels per inch. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDownsampleImages(boolean value)](#setDownsampleImages-boolean-) | 指定是否应该对图像进行下采样。 |
-| [setResolution(int value)](#setResolution-int-) | 指定图像应该被下采样到的分辨率（以每英寸像素为单位）。 |
-| [setResolutionThreshold(int value)](#setResolutionThreshold-int-) | 以每英寸像素数指定阈值分辨率。 |
+| [setDownsampleImages(boolean value)](#setDownsampleImages-boolean-) | Specifies whether images should be downsampled. |
+| [setResolution(int value)](#setResolution-int-) | Specifies the resolution in pixels per inch which the images should be downsampled to. |
+| [setResolutionThreshold(int value)](#setResolutionThreshold-int-) | Specifies the threshold resolution in pixels per inch. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,53 +43,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDownsampleImages() {#getDownsampleImages--}
 ```
 public boolean getDownsampleImages()
 ```
 
 
-指定是否应该对图像进行下采样。默认值是true 。
+Specifies whether images should be downsampled. The default value is  true .
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getResolution() {#getResolution--}
 ```
 public int getResolution()
 ```
 
 
-指定图像应该被下采样到的分辨率（以每英寸像素为单位）。默认值为 220 ppi。
+Specifies the resolution in pixels per inch which the images should be downsampled to. The default value is 220 ppi.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getResolutionThreshold() {#getResolutionThreshold--}
 ```
 public int getResolutionThreshold()
 ```
 
 
-以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
+Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. The default value is 0.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -98,8 +98,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -122,12 +122,12 @@ public void setDownsampleImages(boolean value)
 ```
 
 
-指定是否应该对图像进行下采样。默认值是true 。
+Specifies whether images should be downsampled. The default value is  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setResolution(int value) {#setResolution-int-}
 ```
@@ -135,12 +135,12 @@ public void setResolution(int value)
 ```
 
 
-指定图像应该被下采样到的分辨率（以每英寸像素为单位）。默认值为 220 ppi。
+Specifies the resolution in pixels per inch which the images should be downsampled to. The default value is 220 ppi.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setResolutionThreshold(int value) {#setResolutionThreshold-int-}
 ```
@@ -148,12 +148,12 @@ public void setResolutionThreshold(int value)
 ```
 
 
-以每英寸像素数指定阈值分辨率。如果文档中图像的分辨率小于阈值，则不会应用下采样算法。值 0 表示不使用阈值检查，并且对所有可以缩小尺寸的图像进行下采样。默认值为 0。
+Specifies the threshold resolution in pixels per inch. If resolution of an image in the document is less than threshold value, the downsampling algorithm will not be applied. A value of 0 means the threshold check is not used and all images that can be reduced in size are downsampled. The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### toString() {#toString--}
 ```
@@ -163,7 +163,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -181,8 +181,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -194,8 +194,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

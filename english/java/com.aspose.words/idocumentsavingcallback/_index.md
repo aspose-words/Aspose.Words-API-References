@@ -1,32 +1,33 @@
 ---
 title: IDocumentSavingCallback
-second_title: Aspose.Words for Java API 参考
-description: 如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: Implement this interface if you want to have your own custom method called during saving a document.
 type: docs
 weight: 639
-url: /zh/java/com.aspose.words/idocumentsavingcallback/
+url: /java/com.aspose.words/idocumentsavingcallback/
 ---
 ```
 public interface IDocumentSavingCallback
 ```
 
-如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。
-## 方法s
+Implement this interface if you want to have your own custom method called during saving a document.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [notify(DocumentSavingArgs args)](#notify-com.aspose.words.DocumentSavingArgs-) | 调用它来通知文档保存进度。 |
+| [notify(DocumentSavingArgs args)](#notify-com.aspose.words.DocumentSavingArgs-) | This is called to notify of document saving progress. |
 ### notify(DocumentSavingArgs args) {#notify-com.aspose.words.DocumentSavingArgs-}
 ```
 public abstract void notify(DocumentSavingArgs args)
 ```
 
 
-调用它来通知文档保存进度。
+This is called to notify of document saving progress.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs) | 事件的论据。此接口的主要用途是允许应用程序代码获取进度状态并中止保存过程。
+| args | [DocumentSavingArgs](../../com.aspose.words/documentsavingargs) | An argument of the event. The primary uses for this interface is to allow application code to obtain progress status and abort saving process.
 
-应该从进度回调中抛出异常以进行中止，并且应该在消费者代码中捕获该异常。|
+An exception should be threw from the progress callback for abortion and it should be caught in the consumer code. |
+

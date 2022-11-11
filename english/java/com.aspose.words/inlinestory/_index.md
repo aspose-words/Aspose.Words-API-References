@@ -1,100 +1,100 @@
 ---
 title: InlineStory
-second_title: Aspose.Words for Java API 参考
-description: 可以包含段落和表格的内联级节点的基类。
+second_title: Aspose.Words for Java API Reference
+description: Base class for inline-level nodes that can contain paragraphs and tables.
 type: docs
 weight: 350
-url: /zh/java/com.aspose.words/inlinestory/
+url: /java/com.aspose.words/inlinestory/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 ```
 public abstract class InlineStory extends CompositeNode
 ```
 
-可以包含段落和表格的内联级节点的基类。
+Base class for inline-level nodes that can contain paragraphs and tables.
 
-要了解更多信息，请访问**Logical Levels of Nodes in a Document**文档文章。
+To learn more, visit the **Logical Levels of Nodes in a Document** documentation article.
 
-**InlineStory**是块级节点的容器[Paragraph](../../com.aspose.words/paragraph)和[Table](../../com.aspose.words/table).
+**InlineStory** is a container for block-level nodes [Paragraph](../../com.aspose.words/paragraph) and [Table](../../com.aspose.words/table).
 
-派生自的类**InlineStory**是可以包含自己的文本（段落和表格）的内联级节点。例如，一个**Comment**节点包含评论文本和**Footnote**包含脚注的文本。
-## 构造函数s
+The classes that derive from **InlineStory** are inline-level nodes that can contain their own text (paragraphs and tables). For example, a **Comment** node contains text of a comment and a **Footnote** contains text of a footnote.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
 | [InlineStory()](#InlineStory--) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
-| [ensureMinimum()](#ensureMinimum--) | 如果最后一个孩子不是段落，则创建并附加一个空段落。 |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
+| [ensureMinimum()](#ensureMinimum--) | If the last child is not a paragraph, creates and appends one empty paragraph. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
+| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
-| [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
-| [getFirstParagraph()](#getFirstParagraph--) | 获取故事的第一段。 |
-| [getFont()](#getFont--) | 提供对此对象的锚字符的字体格式的访问。 |
-| [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
-| [getLastParagraph()](#getLastParagraph--) | 获取故事的最后一段。 |
+| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
+| [getFirstParagraph()](#getFirstParagraph--) | Gets the first paragraph in the story. |
+| [getFont()](#getFont--) | Provides access to the font formatting of the anchor character of this object. |
+| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
+| [getLastParagraph()](#getLastParagraph--) | Gets the last paragraph in the story. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 获取此节点的类型。 |
-| [getParagraphs()](#getParagraphs--) | 获取作为故事的直接子级的段落的集合。 |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getParentParagraph()](#getParentParagraph--) | 检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。 |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType--) | Gets the type of this node. |
+| [getParagraphs()](#getParagraphs--) | Gets a collection of paragraphs that are immediate children of the story. |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getParentParagraph()](#getParentParagraph--) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getStory类型()](#getStory类型--) | 返回故事的类型。 |
-| [getTables()](#getTables--) | 获取作为故事的直接子级的表的集合。 |
-| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
-| [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getStoryType()](#getStoryType--) | Returns the type of the story. |
+| [getTables()](#getTables--) | Gets a collection of tables that are immediate children of the story. |
+| [getText()](#getText--) | Gets the text of this node and of all its children. |
+| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
-| [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [isDeleteRevision()](#isDeleteRevision--) | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [isInsertRevision()](#isInsertRevision--) | 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。 |
-| [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
-| [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
+| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
+| [isDeleteRevision()](#isDeleteRevision--) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
+| [isInsertRevision()](#isInsertRevision--) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
+| [isMoveFromRevision()](#isMoveFromRevision--) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision()](#isMoveToRevision--) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
+| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object-) |  |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -111,38 +111,38 @@ public abstract boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
 
-**退货:**
-boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+**Returns:**
+boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
 public Node appendChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的末尾。
+Adds the specified node to the end of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### clearRunAttrs() {#clearRunAttrs--}
 ```
 public void clearRunAttrs()
@@ -165,26 +165,26 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### ensureMinimum() {#ensureMinimum--}
 ```
 public void ensureMinimum()
 ```
 
 
-如果最后一个孩子不是段落，则创建并附加一个空段落。
+If the last child is not a paragraph, creates and appends one empty paragraph.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -194,13 +194,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
@@ -209,61 +209,61 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -271,40 +271,40 @@ public NodeCollection getChildNodes()
 ```
 
 
-获取此节点的所有直接子节点。
+Gets all immediate child nodes of this node.
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
 
-如果没有子节点，则此属性返回一个空集合。
+If there are no child nodes, this property returns an empty collection.
 
-**退货:**
-[NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+**Returns:**
+[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -313,7 +313,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -321,10 +321,10 @@ public int getCount()
 ```
 
 
-获取此节点的直接子节点数。
+Gets the number of immediate children of this node.
 
-**退货:**
-int - 此节点的直接子节点数。
+**Returns:**
+int - The number of immediate children of this node.
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -333,7 +333,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -341,16 +341,16 @@ public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int fontAttr)
@@ -359,12 +359,12 @@ public Object getDirectRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -372,12 +372,12 @@ public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline--}
 ```
 public DocumentBase getDocument_IInline()
@@ -386,7 +386,7 @@ public DocumentBase getDocument_IInline()
 
 
 
-**退货:**
+**Returns:**
 [DocumentBase](../../com.aspose.words/documentbase)
 ### getFirstChild() {#getFirstChild--}
 ```
@@ -394,50 +394,50 @@ public Node getFirstChild()
 ```
 
 
-获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
+Gets the first child of the node. If there is no first child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first child of the node.
 ### getFirstParagraph() {#getFirstParagraph--}
 ```
 public Paragraph getFirstParagraph()
 ```
 
 
-获取故事的第一段。
+Gets the first paragraph in the story.
 
-**退货:**
-[Paragraph](../../com.aspose.words/paragraph) - 故事的第一段。
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph) - The first paragraph in the story.
 ### getFont() {#getFont--}
 ```
 public Font getFont()
 ```
 
 
-提供对此对象的锚字符的字体格式的访问。
+Provides access to the font formatting of the anchor character of this object.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
 ```
 
 
-获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
+Gets the last child of the node. If there is no last child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The last child of the node.
 ### getLastParagraph() {#getLastParagraph--}
 ```
 public Paragraph getLastParagraph()
 ```
 
 
-获取故事的最后一段。
+Gets the last paragraph in the story.
 
-**退货:**
-[Paragraph](../../com.aspose.words/paragraph) - 故事的最后一段。
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph) - The last paragraph in the story.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -446,12 +446,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -459,52 +459,52 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
+### getNodeType() {#getNodeType--}
 ```
-public abstract int getNode类型()
+public abstract int getNodeType()
 ```
 
 
-获取此节点的类型。
+Gets the type of this node.
 
-**退货:**
- int - 此节点的类型。返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - The type of this node. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getParagraphs() {#getParagraphs--}
 ```
 public ParagraphCollection getParagraphs()
 ```
 
 
-获取作为故事的直接子级的段落的集合。
+Gets a collection of paragraphs that are immediate children of the story.
 
-**退货:**
-[ParagraphCollection](../../com.aspose.words/paragraphcollection) - 作为故事直接子级的段落集合。
+**Returns:**
+[ParagraphCollection](../../com.aspose.words/paragraphcollection) - A collection of paragraphs that are immediate children of the story.
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph--}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
 
-**退货:**
-[Paragraph](../../com.aspose.words/paragraph) - 相应的[Paragraph](../../com.aspose.words/paragraph)价值。
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline--}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -513,7 +513,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 
-**退货:**
+**Returns:**
 [Paragraph](../../com.aspose.words/paragraph)
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
@@ -521,51 +521,51 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
-### getStory类型() {#getStory类型--}
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
+### getStoryType() {#getStoryType--}
 ```
-public abstract int getStory类型()
+public abstract int getStoryType()
 ```
 
 
-返回故事的类型。
+Returns the type of the story.
 
-**退货:**
- int - 故事的类型。返回值是以下之一[Story类型](../../com.aspose.words/storytype)常数。
+**Returns:**
+int - The type of the story. The returned value is one of [StoryType](../../com.aspose.words/storytype) constants.
 ### getTables() {#getTables--}
 ```
 public TableCollection getTables()
 ```
 
 
-获取作为故事的直接子级的表的集合。
+Gets a collection of tables that are immediate children of the story.
 
-**退货:**
-[TableCollection](../../com.aspose.words/tablecollection) 作为故事直接子级的表格集合。
+**Returns:**
+[TableCollection](../../com.aspose.words/tablecollection) - A collection of tables that are immediate children of the story.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点及其所有子节点的文本。
+Gets the text of this node and of all its children.
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**Returns:**
 java.lang.String
 ### hasChildNodes() {#hasChildNodes--}
 ```
@@ -573,10 +573,10 @@ public boolean hasChildNodes()
 ```
 
 
-如果此节点有任何子节点，则返回 true。
+Returns true if this node has any child nodes.
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**Returns:**
+boolean - True if this node has any child nodes.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -585,126 +585,126 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+Inserts the specified node immediately after the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的开头插入 newChild。
+If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+Inserts the specified node immediately before the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
+If refChild is null, inserts newChild at the end of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-返回 true，因为此节点可以有子节点。
+Returns true as this node can have child nodes.
 
-**退货:**
-boolean - True 因为这个节点可以有子节点。
+**Returns:**
+boolean - True as this node can have child nodes.
 ### isDeleteRevision() {#isDeleteRevision--}
 ```
 public boolean isDeleteRevision()
 ```
 
 
-如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
+Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+**Returns:**
+boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
 ### isInsertRevision() {#isInsertRevision--}
 ```
 public boolean isInsertRevision()
 ```
 
 
-如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。
+Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时将此对象插入 Microsoft Word，则为真。
+**Returns:**
+boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
 ### isMoveFromRevision() {#isMoveFromRevision--}
 ```
 public boolean isMoveFromRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+**Returns:**
+boolean - **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 ### isMoveToRevision() {#isMoveToRevision--}
 ```
 public boolean isMoveToRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+**Returns:**
+boolean - **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+Provides support for the for each style iteration over the child nodes of this node.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
@@ -712,29 +712,29 @@ public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -758,41 +758,41 @@ public Node prependChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的开头。
+Adds the specified node to the beginning of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
 ### removeAllChildren() {#removeAllChildren--}
 ```
@@ -800,7 +800,7 @@ public void removeAllChildren()
 ```
 
 
-移除当前节点的所有子节点。
+Removes all the child nodes of the current node.
 
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
 ```
@@ -808,17 +808,17 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+Removes the specified child node.
 
-删除节点后，oldChild 的父级设置为 null。
+The parent of oldChild is set to null after the node is removed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 删除的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The removed node.
 ### removeRunAttr(int key) {#removeRunAttr-int-}
 ```
 public void removeRunAttr(int key)
@@ -827,8 +827,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -838,7 +838,7 @@ public void removeSmartTags()
 ```
 
 
-删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。此方法不会删除智能标记的内容。
+Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String-}
 ```
@@ -846,52 +846,52 @@ public NodeList selectNodes(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的节点列表。
+Selects a list of nodes matching the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的第一个节点。
+Selects the first Node that matches the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
 public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -901,8 +901,8 @@ public void setRunAttr(int fontAttr, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 | value | java.lang.Object |  |
@@ -915,7 +915,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -923,15 +923,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -940,12 +940,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -963,8 +963,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -976,8 +976,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

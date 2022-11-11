@@ -4,14 +4,14 @@ second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 33
-url: /zh/java/com.aspose.words.net.system.data/datatableeventlistener/
+url: /java/com.aspose.words.net.system.data/datatableeventlistener/
 ---
 ```
 public interface DataTableEventListener
 ```
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [onDataColumnDeleted(System.Data.DataColumn column)](#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn-) |  |
 | [onDataColumnInserted(System.Data.DataColumn column)](#onDataColumnInserted-com.aspose.words.net.System.Data.DataColumn-) |  |
@@ -26,8 +26,8 @@ public abstract void onDataColumnDeleted(System.Data.DataColumn column)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
 
@@ -39,8 +39,8 @@ public abstract void onDataColumnInserted(System.Data.DataColumn column)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
 
@@ -52,8 +52,8 @@ public abstract void onDataRowChanged(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
@@ -65,8 +65,8 @@ public abstract void onDataRowDeleted(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
@@ -78,7 +78,8 @@ public abstract void onDataRowInserted(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
+

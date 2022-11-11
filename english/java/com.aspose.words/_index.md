@@ -1,689 +1,689 @@
 ---
 title: com.aspose.words
-second_title: Aspose.Words for Java API 参考
-description:  com.aspose.words 包提供了在不使用 Microsoft Word 的情况下生成转换、修改渲染和打印 Microsoft Word 文档的类。
+second_title: Aspose.Words for Java API Reference
+description: The com.aspose.words package provides classes for generating converting modifying rendering and printing Microsoft Word documents without utilizing Microsoft Word.
 type: docs
 weight: 10
-url: /zh/java/com.aspose.words/
+url: /java/com.aspose.words/
 ---
 
 
-这**com.aspose.words**包提供了在不使用 Microsoft Word 的情况下生成、转换、修改、呈现和打印 Microsoft Word 文档的类。
+The **com.aspose.words** package provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word.
 
-Aspose.Words 完全用 Java 编写。使用 Aspose.Words 不需要 Microsoft Word。
+Aspose.Words is written completely in Java. Microsoft Word is not required in order to use Aspose.Words.
 
-课程中的**com.aspose.words**包借鉴了两个著名框架的最佳实践：Microsoft Word Automation 和 System.Xml。 Aspose.Words 中的文档由节点树表示，与 XML DOM 非常相似。在可能的情况下，类、方法和属性名称与 Microsoft Word Automation 中的名称相匹配。
+The classes in the **com.aspose.words** package borrow best practices from two well-known frameworks: Microsoft Word Automation and System.Xml. A document in Aspose.Words is represented by a tree of nodes, much like in XML DOM. Where possible, class, method and property names match those found in Microsoft Word Automation.
 
-此命名空间中的主要类是：
+The main classes in this namespace are:
 
- *  **Document**是表示 Microsoft Word 文档的对象模型的主要类。
- *  **DocumentBuilder**提供了一种将内容和格式插入文档的简单方法。
- *  **Node**是文档中所有节点的基类。
- *  **CompositeNode**是可以包含其他节点的文档的所有节点的基类，例如**Paragraph**, **Section**和**Table**和 。
+ *  **Document** is the main class of the object model that represents a Microsoft Word document.
+ *  **DocumentBuilder** provides an easy way to insert content and formatting into a document.
+ *  **Node** is the base class for all nodes in the document.
+ *  **CompositeNode** is the base class for all nodes of the document that can contain other nodes, for example **Paragraph**, **Section** and **Table** and .
 
-这**com.aspose.words**包还包含构成 Aspose.Words 报告引擎的类。报告引擎允许使用来自各种数据源的数据快速轻松地填充在 Microsoft Word 中设计的文档，例如**java.sql.ResultSet**, **array of ResultSets**, **com.aspose.words.net.System.Data.DataSet**或一个**array of values**.
+The **com.aspose.words** package also contains classes that form the reporting engine of Aspose.Words. The reporting engine allows to quickly and easily populate documents designed in Microsoft Word with data from various data sources such as **java.sql.ResultSet**, **array of ResultSets**, **com.aspose.words.net.System.Data.DataSet** or an **array of values**.
 
-这**MailMerge**提供对报告功能的访问的对象可通过**Document.MailMerge**财产。
+The **MailMerge** object which provides access to the reporting functionality is available via the **Document.MailMerge** property.
 
 
-## 班级es
+## Classes
 
-| 班级 | 描述 |
+| Class | Description |
 | --- | --- |
-| [AbsolutePositionTab](../com.aspose.words/absolutepositiontab) | 绝对位置制表符是一个字符，用于在显示此 WordprocessingML 内容时在当前文本行上推进位置。 |
-| [ArrowLength](../com.aspose.words/arrowlength) | 行尾箭头的长度。 |
-| [Arrow类型](../com.aspose.words/arrowtype) | 指定线端的箭头类型。 |
-| [ArrowWidth](../com.aspose.words/arrowwidth) | 行尾箭头的宽度。 |
-| [AsposeWordsPrintDocument](../com.aspose.words/asposewordsprintdocument) | 提供打印的默认实现[Document](../com.aspose.words/document)在 Java 打印框架内。 |
-| [AutoFitBehavior](../com.aspose.words/autofitbehavior) | 确定 Aspose.Words 在您调用**M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**方法。 |
-| [AxisBound](../com.aspose.words/axisbound) | 表示轴值的最小或最大界限。 |
-| [AxisBuiltInUnit](../com.aspose.words/axisbuiltinunit) | 指定轴的显示单位。 |
-| [AxisCategory类型](../com.aspose.words/axiscategorytype) | 指定类别轴的类型。 |
-| [AxisCrosses](../com.aspose.words/axiscrosses) | 指定轴的可能交叉点。 |
-| [AxisDisplayUnit](../com.aspose.words/axisdisplayunit) | 提供对数值轴显示单位的缩放选项的访问。 |
-| [AxisScale类型](../com.aspose.words/axisscaletype) | 指定轴的可能比例类型。 |
-| [AxisScaling](../com.aspose.words/axisscaling) | 表示轴的缩放选项。 |
-| [AxisTickLabelPosition](../com.aspose.words/axisticklabelposition) | 指定刻度标签的可能位置。 |
-| [AxisTickMark](../com.aspose.words/axistickmark) | 指定刻度线的可能位置。 |
-| [AxisTimeUnit](../com.aspose.words/axistimeunit) | 指定轴的时间单位。 |
-| [Barcode参数](../com.aspose.words/barcodeparameters) | 用于将条码参数传递给 BarcodeGenerator 的容器类。 |
-| [BaseWebExtensionCollection](../com.aspose.words/basewebextensioncollection) | 基类[TaskPaneCollection](../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection)收藏品。 |
+| [AbsolutePositionTab](../com.aspose.words/absolutepositiontab) | An absolute position tab is a character which is used to advance the position on the current line of text when displaying this WordprocessingML content. |
+| [ArrowLength](../com.aspose.words/arrowlength) | Length of the arrow at the end of a line. |
+| [ArrowType](../com.aspose.words/arrowtype) | Specifies the type of an arrow at a line end. |
+| [ArrowWidth](../com.aspose.words/arrowwidth) | Width of the arrow at the end of a line. |
+| [AsposeWordsPrintDocument](../com.aspose.words/asposewordsprintdocument) | Provides a default implementation for printing of a [Document](../com.aspose.words/document) within the Java printing framework. |
+| [AutoFitBehavior](../com.aspose.words/autofitbehavior) | Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)** method. |
+| [AxisBound](../com.aspose.words/axisbound) | Represents minimum or maximum bound of axis values. |
+| [AxisBuiltInUnit](../com.aspose.words/axisbuiltinunit) | Specifies the display units for an axis. |
+| [AxisCategoryType](../com.aspose.words/axiscategorytype) | Specifies type of a category axis. |
+| [AxisCrosses](../com.aspose.words/axiscrosses) | Specifies the possible crossing points for an axis. |
+| [AxisDisplayUnit](../com.aspose.words/axisdisplayunit) | Provides access to the scaling options of the display units for the value axis. |
+| [AxisScaleType](../com.aspose.words/axisscaletype) | Specifies the possible scale types for an axis. |
+| [AxisScaling](../com.aspose.words/axisscaling) | Represents the scaling options of the axis. |
+| [AxisTickLabelPosition](../com.aspose.words/axisticklabelposition) | Specifies the possible positions for tick labels. |
+| [AxisTickMark](../com.aspose.words/axistickmark) | Specifies the possible positions for tick marks. |
+| [AxisTimeUnit](../com.aspose.words/axistimeunit) | Specifies the unit of time for axes. |
+| [BarcodeParameters](../com.aspose.words/barcodeparameters) | Container class for barcode parameters to pass-through to BarcodeGenerator. |
+| [BaseWebExtensionCollection](../com.aspose.words/basewebextensioncollection) | Base class for [TaskPaneCollection](../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection) and [WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection) collections. |
 | [BasicTextShaperCache](../com.aspose.words/basictextshapercache) |  |
-| [BlockImportMode](../com.aspose.words/blockimportmode) | 指定如何从基于 HTML 的文档中导入块级元素的属性。 |
-| [Body](../com.aspose.words/body) | 表示部分正文的容器。 |
-| [Bookmark](../com.aspose.words/bookmark) | 表示单个书签。 |
-| [BookmarkCollection](../com.aspose.words/bookmarkcollection) | 一个集合[Bookmark](../com.aspose.words/bookmark)表示指定范围内的书签的对象。 |
-| [BookmarkEnd](../com.aspose.words/bookmarkend) | 表示 Word 文档中书签的结尾。 |
-| [BookmarkStart](../com.aspose.words/bookmarkstart) | 表示 Word 文档中书签的开始。 |
-| [BookmarksOutlineLevelCollection](../com.aspose.words/bookmarksoutlinelevelcollection) | 单个书签大纲级别的集合。 |
-| [Border](../com.aspose.words/border) | 表示对象的边框。 |
-| [BorderCollection](../com.aspose.words/bordercollection) | 边框对象的集合。 |
-| [Border类型](../com.aspose.words/bordertype) | 指定边框的边。 |
-| [Break类型](../com.aspose.words/breaktype) | 指定文档中的中断类型。 |
-| [BuildVersionInfo](../com.aspose.words/buildversioninfo) | 提供有关当前产品名称和版本的信息。 |
-| [BuildingBlock](../com.aspose.words/buildingblock) | 表示词汇表文档条目，例如 Building Block、自动图文集或自动更正条目。 |
-| [BuildingBlockBehavior](../com.aspose.words/buildingblockbehavior) | 指定在将构建块插入主文档时应应用于构建块内容的行为。 |
-| [BuildingBlockCollection](../com.aspose.words/buildingblockcollection) | 一个集合[BuildingBlock](../com.aspose.words/buildingblock)文档中的对象。 |
-| [BuildingBlockGallery](../com.aspose.words/buildingblockgallery) | 指定构建块分类到的预定义库。 |
-| [BuildingBlock类型](../com.aspose.words/buildingblocktype) | 指定构建块类型。 |
-| [BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties) | 内置文档属性的集合。 |
-| [Calendar类型](../com.aspose.words/calendartype) | 指定日历的类型。 |
-| [Cell](../com.aspose.words/cell) | 表示表格单元格。 |
-| [CellCollection](../com.aspose.words/cellcollection) | 提供对集合的类型化访问[Cell](../com.aspose.words/cell)节点。 |
-| [CellFormat](../com.aspose.words/cellformat) | 表示表格单元格的所有格式。 |
-| [CellMerge](../com.aspose.words/cellmerge) | 指定表格中的单元格如何与其他单元格合并。 |
-| [CellVerticalAlignment](../com.aspose.words/cellverticalalignment) | 指定表格单元格内文本的垂直对齐方式。 |
-| [CertificateHolder](../com.aspose.words/certificateholder) | 代表持有人**X509Certificate2**实例。 |
-| [ChapterPageSeparator](../com.aspose.words/chapterpageseparator) | 定义出现在章节和页码之间的分隔符。 |
-| [Chart](../com.aspose.words/chart) | 提供对图表形状属性的访问。 |
-| [ChartAxis](../com.aspose.words/chartaxis) | 表示图表的轴选项。 |
-| [ChartAxis类型](../com.aspose.words/chartaxistype) | 指定图表轴的类型。 |
-| [ChartDataLabel](../com.aspose.words/chartdatalabel) | 表示图表点或趋势线上的数据标签。 |
-| [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection) | 代表一个集合[ChartDataLabel](../com.aspose.words/chartdatalabel). |
-| [ChartDataPoint](../com.aspose.words/chartdatapoint) | 允许指定图表上单个数据点的格式。 |
-| [ChartDataPointCollection](../com.aspose.words/chartdatapointcollection) | 代表一个集合[ChartDataPoint](../com.aspose.words/chartdatapoint). |
-| [ChartFormat](../com.aspose.words/chartformat) | 表示图表元素的格式。 |
-| [ChartLegend](../com.aspose.words/chartlegend) | 表示图表图例属性。 |
-| [ChartLegendEntry](../com.aspose.words/chartlegendentry) | 表示图表图例条目。 |
-| [ChartLegendEntryCollection](../com.aspose.words/chartlegendentrycollection) | 表示图表图例条目的集合。 |
-| [ChartMarker](../com.aspose.words/chartmarker) | 表示图表数据标记。 |
-| [ChartNumberFormat](../com.aspose.words/chartnumberformat) | 表示父元素的数字格式。 |
-| [ChartSeries](../com.aspose.words/chartseries) | 表示图表系列属性。 |
-| [ChartSeriesCollection](../com.aspose.words/chartseriescollection) | 代表一个集合[ChartSeries](../com.aspose.words/chartseries). |
-| [ChartTitle](../com.aspose.words/charttitle) | 提供对图表标题属性的访问。 |
-| [Chart类型](../com.aspose.words/charttype) | 指定图表的类型。 |
-| [ChmLoadOptions](../com.aspose.words/chmloadoptions) | 允许在将 CHM 文档加载到[Document](../com.aspose.words/document)目的。 |
-| [CleanupOptions](../com.aspose.words/cleanupoptions) | 允许指定文档清理选项。 |
+| [BlockImportMode](../com.aspose.words/blockimportmode) | Specifies how properties of block-level elements are imported from HTML-based documents. |
+| [Body](../com.aspose.words/body) | Represents a container for the main text of a section. |
+| [Bookmark](../com.aspose.words/bookmark) | Represents a single bookmark. |
+| [BookmarkCollection](../com.aspose.words/bookmarkcollection) | A collection of [Bookmark](../com.aspose.words/bookmark) objects that represent the bookmarks in the specified range. |
+| [BookmarkEnd](../com.aspose.words/bookmarkend) | Represents an end of a bookmark in a Word document. |
+| [BookmarkStart](../com.aspose.words/bookmarkstart) | Represents a start of a bookmark in a Word document. |
+| [BookmarksOutlineLevelCollection](../com.aspose.words/bookmarksoutlinelevelcollection) | A collection of individual bookmarks outline level. |
+| [Border](../com.aspose.words/border) | Represents a border of an object. |
+| [BorderCollection](../com.aspose.words/bordercollection) | A collection of Border objects. |
+| [BorderType](../com.aspose.words/bordertype) | Specifies sides of a border. |
+| [BreakType](../com.aspose.words/breaktype) | Specifies type of a break inside a document. |
+| [BuildVersionInfo](../com.aspose.words/buildversioninfo) | Provides information about the current product name and version. |
+| [BuildingBlock](../com.aspose.words/buildingblock) | Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry. |
+| [BuildingBlockBehavior](../com.aspose.words/buildingblockbehavior) | Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document. |
+| [BuildingBlockCollection](../com.aspose.words/buildingblockcollection) | A collection of [BuildingBlock](../com.aspose.words/buildingblock) objects in the document. |
+| [BuildingBlockGallery](../com.aspose.words/buildingblockgallery) | Specifies the predefined gallery into which a building block is classified. |
+| [BuildingBlockType](../com.aspose.words/buildingblocktype) | Specifies a building block type. |
+| [BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties) | A collection of built-in document properties. |
+| [CalendarType](../com.aspose.words/calendartype) | Specifies the type of a calendar. |
+| [Cell](../com.aspose.words/cell) | Represents a table cell. |
+| [CellCollection](../com.aspose.words/cellcollection) | Provides typed access to a collection of [Cell](../com.aspose.words/cell) nodes. |
+| [CellFormat](../com.aspose.words/cellformat) | Represents all formatting for a table cell. |
+| [CellMerge](../com.aspose.words/cellmerge) | Specifies how a cell in a table is merged with other cells. |
+| [CellVerticalAlignment](../com.aspose.words/cellverticalalignment) | Specifies vertical justification of text inside a table cell. |
+| [CertificateHolder](../com.aspose.words/certificateholder) | Represents a holder of **X509Certificate2** instance. |
+| [ChapterPageSeparator](../com.aspose.words/chapterpageseparator) | Defines the separator character that appears between the chapter and page number. |
+| [Chart](../com.aspose.words/chart) | Provides access to the chart shape properties. |
+| [ChartAxis](../com.aspose.words/chartaxis) | Represents the axis options of the chart. |
+| [ChartAxisType](../com.aspose.words/chartaxistype) | Specifies type of chart axis. |
+| [ChartDataLabel](../com.aspose.words/chartdatalabel) | Represents data label on a chart point or trendline. |
+| [ChartDataLabelCollection](../com.aspose.words/chartdatalabelcollection) | Represents a collection of [ChartDataLabel](../com.aspose.words/chartdatalabel). |
+| [ChartDataPoint](../com.aspose.words/chartdatapoint) | Allows to specify formatting of a single data point on the chart. |
+| [ChartDataPointCollection](../com.aspose.words/chartdatapointcollection) | Represents collection of a [ChartDataPoint](../com.aspose.words/chartdatapoint). |
+| [ChartFormat](../com.aspose.words/chartformat) | Represents the formatting of a chart element. |
+| [ChartLegend](../com.aspose.words/chartlegend) | Represents chart legend properties. |
+| [ChartLegendEntry](../com.aspose.words/chartlegendentry) | Represents a chart legend entry. |
+| [ChartLegendEntryCollection](../com.aspose.words/chartlegendentrycollection) | Represents a collection of chart legend entries. |
+| [ChartMarker](../com.aspose.words/chartmarker) | Represents a chart data marker. |
+| [ChartNumberFormat](../com.aspose.words/chartnumberformat) | Represents number formatting of the parent element. |
+| [ChartSeries](../com.aspose.words/chartseries) | Represents chart series properties. |
+| [ChartSeriesCollection](../com.aspose.words/chartseriescollection) | Represents collection of a [ChartSeries](../com.aspose.words/chartseries). |
+| [ChartTitle](../com.aspose.words/charttitle) | Provides access to the chart title properties. |
+| [ChartType](../com.aspose.words/charttype) | Specifies type of a chart. |
+| [ChmLoadOptions](../com.aspose.words/chmloadoptions) | Allows to specify additional options when loading CHM document into a [Document](../com.aspose.words/document) object. |
+| [CleanupOptions](../com.aspose.words/cleanupoptions) | Allows to specify options for document cleaning. |
 | [Cluster](../com.aspose.words/cluster) |  |
-| [ColorMode](../com.aspose.words/colormode) | 指定如何呈现颜色。 |
-| [Comment](../com.aspose.words/comment) | 表示注释文本的容器。 |
-| [CommentCollection](../com.aspose.words/commentcollection) | 提供对集合的类型化访问[Comment](../com.aspose.words/comment)节点。 |
-| [CommentDisplayMode](../com.aspose.words/commentdisplaymode) | 指定文档注释的呈现模式。 |
-| [CommentRangeEnd](../com.aspose.words/commentrangeend) | 表示具有与之关联的注释的文本区域的结尾。 |
-| [CommentRangeStart](../com.aspose.words/commentrangestart) | 表示具有关联注释的文本区域的开始。 |
-| [CompareOptions](../com.aspose.words/compareoptions) | 允许选择文档比较操作的高级选项。 |
-| [ComparisonEvaluationResult](../com.aspose.words/comparisonevaluationresult) | 比较评价结果。 |
-| [ComparisonExpression](../com.aspose.words/comparisonexpression) | 比较表达式。 |
-| [ComparisonTarget类型](../com.aspose.words/comparisontargettype) | 允许指定将在比较期间使用的基本文档。 |
-| [Compatibility](../com.aspose.words/compatibility) | 指定兼容性选项的名称。 |
-| [CompatibilityOptions](../com.aspose.words/compatibilityoptions) | 包含兼容性选项（即，在**Compatibility**的选项卡**Options**Microsoft Word 中的对话框）。 |
-| [CompositeNode](../com.aspose.words/compositenode) | 可以包含其他节点的节点的基类。 |
-| [CompressionLevel](../com.aspose.words/compressionlevel) | OOXML 文件的压缩级别。 |
-| [ConditionalStyle](../com.aspose.words/conditionalstyle) | 表示应用于具有指定表格样式的表格的某些区域的特殊格式。 |
-| [ConditionalStyleCollection](../com.aspose.words/conditionalstylecollection) | 代表一个集合[ConditionalStyle](../com.aspose.words/conditionalstyle)对象。 |
-| [ConditionalStyle类型](../com.aspose.words/conditionalstyletype) | 表示可以在表格样式中定义条件格式的可能表格区域。 |
-| [ContentDisposition](../com.aspose.words/contentdisposition) | 枚举在客户端浏览器上呈现文档的不同方式。 |
-| [ContinuousSectionRestart](../com.aspose.words/continuoussectionrestart) | 表示在重新开始页码的连续部分中计算页码时的不同行为。 |
-| [ControlChar](../com.aspose.words/controlchar) | 控制字符在文档中经常遇到。 |
-| [ConvertUtil](../com.aspose.words/convertutil) | 提供帮助函数以在各种测量单位之间进行转换。 |
-| [CssSavingArgs](../com.aspose.words/csssavingargs) | 提供数据为[ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs-)事件。 |
-| [CssStyleSheet类型](../com.aspose.words/cssstylesheettype) | 指定如何将 CSS（层叠样式表）样式导出为 HTML。 |
-| [CsvDataLoadOptions](../com.aspose.words/csvdataloadoptions) | 表示用于解析 CSV 数据的选项。 |
-| [CsvDataSource](../com.aspose.words/csvdatasource) | 提供对要在报告中使用的 CSV 文件或流的数据的访问。 |
-| [CurrentThreadSettings](../com.aspose.words/currentthreadsettings) | 此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。 |
-| [CustomDocumentProperties](../com.aspose.words/customdocumentproperties) | 自定义文档属性的集合。 |
-| [CustomPart](../com.aspose.words/custompart) | 表示 ISO/IEC 29500 标准未定义的自定义（任意内容）部分。 |
-| [CustomPartCollection](../com.aspose.words/custompartcollection) | 代表一个集合[CustomPart](../com.aspose.words/custompart)对象。 |
-| [CustomXmlPart](../com.aspose.words/customxmlpart) | 表示自定义 XML 数据存储部件（包中的自定义 XML 数据）。 |
-| [CustomXmlPartCollection](../com.aspose.words/customxmlpartcollection) | 表示自定义 XML 部件的集合。 |
-| [CustomXmlProperty](../com.aspose.words/customxmlproperty) | 表示单个自定义 XML 属性或智能标记属性。 |
-| [CustomXmlPropertyCollection](../com.aspose.words/customxmlpropertycollection) | 表示自定义 XML 属性或智能标记属性的集合。 |
-| [CustomXmlSchemaCollection](../com.aspose.words/customxmlschemacollection) | 表示与自定义 XML 部件关联的 XML 模式的字符串集合。 |
-| [DashStyle](../com.aspose.words/dashstyle) | 虚线样式。 |
-| [DefaultFontSubstitutionRule](../com.aspose.words/defaultfontsubstitutionrule) | 默认字体替换规则。 |
-| [DigitalSignature](../com.aspose.words/digitalsignature) | 表示文档上的数字签名及其验证结果。 |
-| [DigitalSignatureCollection](../com.aspose.words/digitalsignaturecollection) | 提供附加到文档的数字签名的只读集合。 |
-| [DigitalSignature类型](../com.aspose.words/digitalsignaturetype) | 指定数字签名的类型。 |
-| [DigitalSignatureUtil](../com.aspose.words/digitalsignatureutil) | 提供签署文件的方法。 |
+| [ColorMode](../com.aspose.words/colormode) | Specifies how colors are rendered. |
+| [Comment](../com.aspose.words/comment) | Represents a container for text of a comment. |
+| [CommentCollection](../com.aspose.words/commentcollection) | Provides typed access to a collection of [Comment](../com.aspose.words/comment) nodes. |
+| [CommentDisplayMode](../com.aspose.words/commentdisplaymode) | Specifies the rendering mode for document comments. |
+| [CommentRangeEnd](../com.aspose.words/commentrangeend) | Denotes the end of a region of text that has a comment associated with it. |
+| [CommentRangeStart](../com.aspose.words/commentrangestart) | Denotes the start of a region of text that has a comment associated with it. |
+| [CompareOptions](../com.aspose.words/compareoptions) | Allows to choose advanced options for document comparison operation. |
+| [ComparisonEvaluationResult](../com.aspose.words/comparisonevaluationresult) | The comparison evaluation result. |
+| [ComparisonExpression](../com.aspose.words/comparisonexpression) | The comparison expression. |
+| [ComparisonTargetType](../com.aspose.words/comparisontargettype) | Allows to specify base document which will be used during comparison. |
+| [Compatibility](../com.aspose.words/compatibility) | Specifies names of compatibility options. |
+| [CompatibilityOptions](../com.aspose.words/compatibilityoptions) | Contains compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Microsoft Word). |
+| [CompositeNode](../com.aspose.words/compositenode) | Base class for nodes that can contain other nodes. |
+| [CompressionLevel](../com.aspose.words/compressionlevel) | Compression level for OOXML files. |
+| [ConditionalStyle](../com.aspose.words/conditionalstyle) | Represents special formatting applied to some area of a table with assigned table style. |
+| [ConditionalStyleCollection](../com.aspose.words/conditionalstylecollection) | Represents a collection of [ConditionalStyle](../com.aspose.words/conditionalstyle) objects. |
+| [ConditionalStyleType](../com.aspose.words/conditionalstyletype) | Represents possible table areas to which conditional formatting may be defined in a table style. |
+| [ContentDisposition](../com.aspose.words/contentdisposition) | Enumerates different ways of presenting the document at the client browser. |
+| [ContinuousSectionRestart](../com.aspose.words/continuoussectionrestart) | Represents different behaviors when computing page numbers in a continuous section that restarts page numbering. |
+| [ControlChar](../com.aspose.words/controlchar) | Control characters often encountered in documents. |
+| [ConvertUtil](../com.aspose.words/convertutil) | Provides helper functions to convert between various measurement units. |
+| [CssSavingArgs](../com.aspose.words/csssavingargs) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs-) event. |
+| [CssStyleSheetType](../com.aspose.words/cssstylesheettype) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
+| [CsvDataLoadOptions](../com.aspose.words/csvdataloadoptions) | Represents options for parsing CSV data. |
+| [CsvDataSource](../com.aspose.words/csvdatasource) | Provides access to data of a CSV file or stream to be used within a report. |
+| [CurrentThreadSettings](../com.aspose.words/currentthreadsettings) | This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words application. |
+| [CustomDocumentProperties](../com.aspose.words/customdocumentproperties) | A collection of custom document properties. |
+| [CustomPart](../com.aspose.words/custompart) | Represents a custom (arbitrary content) part, that is not defined by the ISO/IEC 29500 standard. |
+| [CustomPartCollection](../com.aspose.words/custompartcollection) | Represents a collection of [CustomPart](../com.aspose.words/custompart) objects. |
+| [CustomXmlPart](../com.aspose.words/customxmlpart) | Represents a Custom XML Data Storage Part (custom XML data within a package). |
+| [CustomXmlPartCollection](../com.aspose.words/customxmlpartcollection) | Represents a collection of Custom XML Parts. |
+| [CustomXmlProperty](../com.aspose.words/customxmlproperty) | Represents a single custom XML attribute or a smart tag property. |
+| [CustomXmlPropertyCollection](../com.aspose.words/customxmlpropertycollection) | Represents a collection of custom XML attributes or smart tag properties. |
+| [CustomXmlSchemaCollection](../com.aspose.words/customxmlschemacollection) | A collection of strings that represent XML schemas that are associated with a custom XML part. |
+| [DashStyle](../com.aspose.words/dashstyle) | Dashed line style. |
+| [DefaultFontSubstitutionRule](../com.aspose.words/defaultfontsubstitutionrule) | Default font substitution rule. |
+| [DigitalSignature](../com.aspose.words/digitalsignature) | Represents a digital signature on a document and the result of its verification. |
+| [DigitalSignatureCollection](../com.aspose.words/digitalsignaturecollection) | Provides a read-only collection of digital signatures attached to a document. |
+| [DigitalSignatureType](../com.aspose.words/digitalsignaturetype) | Specifies the type of a digital signature. |
+| [DigitalSignatureUtil](../com.aspose.words/digitalsignatureutil) | Provides methods for signing document. |
 | [Direction](../com.aspose.words/direction) |  |
-| [Dml3DEffectsRenderingMode](../com.aspose.words/dml3deffectsrenderingmode) | 指定如何渲染 3D 形状效果。 |
-| [DmlEffectsRenderingMode](../com.aspose.words/dmleffectsrenderingmode) | 指定如何将 DrawingML 效果呈现为固定页面格式。 |
-| [DmlRenderingMode](../com.aspose.words/dmlrenderingmode) | 指定如何将 DrawingML 形状呈现为固定页面格式。 |
-| [DocSaveOptions](../com.aspose.words/docsaveoptions) | 可用于在将文档保存到[SaveFormat.\#DOC](../com.aspose.words/saveformat\#DOC)或者[SaveFormat.\#DOT](../com.aspose.words/saveformat\#DOT)格式。 |
-| [Document](../com.aspose.words/document) | 表示 Word 文档。 |
-| [DocumentBase](../com.aspose.words/documentbase) | 为 Word 文档的主文档和词汇表文档提供抽象基类。 |
-| [DocumentBuilder](../com.aspose.words/documentbuilder) | 提供插入文本、图像和其他内容、指定字体、段落和部分格式的方法。 |
-| [DocumentDirection](../com.aspose.words/documentdirection) | 允许指定文档中文本的流动方向。 |
-| [DocumentLoadingArgs](../com.aspose.words/documentloadingargs) | 传入的参数[IDocumentLoadingCallback.\#notify(com.aspose.words.DocumentLoadingArgs)](../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-). |
-| [DocumentPartSavingArgs](../com.aspose.words/documentpartsavingargs) | 提供数据为[IDocumentPartSavingCallback.\#documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-)打回来。 |
-| [DocumentProperty](../com.aspose.words/documentproperty) | 表示自定义或内置文档属性。 |
-| [DocumentPropertyCollection](../com.aspose.words/documentpropertycollection) | 基类[BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties)和[CustomDocumentProperties](../com.aspose.words/customdocumentproperties)收藏品。 |
-| [DocumentReaderPluginLoadException](../com.aspose.words/documentreaderpluginloadexception) | 在文档加载过程中，无法加载读取文档格式所需的插件时抛出。 |
-| [DocumentSavingArgs](../com.aspose.words/documentsavingargs) | 传入的参数[IDocumentSavingCallback.\#notify(com.aspose.words.DocumentSavingArgs)](../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-). |
-| [DocumentSecurity](../com.aspose.words/documentsecurity) | 用作[BuiltInDocumentProperties.\#getSecurity()](../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.\#setSecurity(int)](../com.aspose.words/builtindocumentproperties\#setSecurity-int-)财产。 |
-| [DocumentSplitCriteria](../com.aspose.words/documentsplitcriteria) | 指定保存到时如何将文档拆分为多个部分[SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.\#AZW\_3](../com.aspose.words/saveformat\#AZW-3)格式。 |
-| [DocumentVisitor](../com.aspose.words/documentvisitor) | 自定义文档访问者的基类。 |
-| [DownsampleOptions](../com.aspose.words/downsampleoptions) | 允许指定下采样选项。 |
-| [DropCapPosition](../com.aspose.words/dropcapposition) | 指定首字下沉文本的位置。 |
-| [DropDownItemCollection](../com.aspose.words/dropdownitemcollection) | 表示下拉表单字段中所有项目的字符串集合。 |
-| [EditableRange](../com.aspose.words/editablerange) | 表示单个可编辑范围。 |
-| [EditableRangeEnd](../com.aspose.words/editablerangeend) | 表示 Word 文档中可编辑范围的结束。 |
-| [EditableRangeStart](../com.aspose.words/editablerangestart) | 表示 Word 文档中可编辑范围的开始。 |
-| [EditingLanguage](../com.aspose.words/editinglanguage) | 指定编辑语言。 |
-| [Editor类型](../com.aspose.words/editortype) | 指定一组可能的别名（或编辑组），可用作别名以确定是否允许当前用户编辑由文档内的可编辑范围定义的单个范围。 |
-| [EmbeddedFontFormat](../com.aspose.words/embeddedfontformat) | 指定内部特定嵌入字体的格式[FontInfo](../com.aspose.words/fontinfo)目的。 |
-| [EmbeddedFontStyle](../com.aspose.words/embeddedfontstyle) | 指定嵌入字体的样式[FontInfo](../com.aspose.words/fontinfo)目的。 |
-| [EmfPlusDualRenderingMode](../com.aspose.words/emfplusdualrenderingmode) | 指定 Aspose.Words 应如何呈现 EMF+ Dual 元文件。 |
-| [EmphasisMark](../com.aspose.words/emphasismark) | 指定可能的强调标记类型。 |
-| [EndCap](../com.aspose.words/endcap) | 指定线帽样式。 |
-| [EndnoteOptions](../com.aspose.words/endnoteoptions) | 表示文档或部分的尾注编号选项。 |
-| [EndnotePosition](../com.aspose.words/endnoteposition) | 定义尾注位置。 |
-| [ExportFontFormat](../com.aspose.words/exportfontformat) | 指示在呈现为 HTML 固定格式时用于导出字体的格式。 |
-| [ExportHeadersFootersMode](../com.aspose.words/exportheadersfootersmode) | 指定页眉和页脚如何导出为 HTML、MHTML 或 EPUB。 |
-| [ExportListLabels](../com.aspose.words/exportlistlabels) | 指定如何将列表标签导出为 HTML、MHTML 和 EPUB。 |
-| [字段](../com.aspose.words/field) | 表示 Microsoft Word 文档字段。 |
-| [字段AddIn](../com.aspose.words/fieldaddin) | 实现 ADDIN 字段。 |
-| [字段AddressBlock](../com.aspose.words/fieldaddressblock) | 实现 ADDRESSBLOCK 字段。 |
-| [字段Advance](../com.aspose.words/fieldadvance) | 实现 ADVANCE 字段。 |
-| [字段ArgumentBuilder](../com.aspose.words/fieldargumentbuilder) | 构建由字段、节点和纯文本组成的复杂字段参数。 |
-| [字段Ask](../com.aspose.words/fieldask) | 实现 ASK 字段。 |
-| [字段Author](../com.aspose.words/fieldauthor) | 实现 AUTHOR 字段。 |
-| [字段AutoNum](../com.aspose.words/fieldautonum) | 实现 AUTONUM 字段。 |
-| [字段AutoNumLgl](../com.aspose.words/fieldautonumlgl) | 实现 AUTONUMLGL 字段。 |
-| [字段AutoNumOut](../com.aspose.words/fieldautonumout) | 实现 AUTONUMOUT 字段。 |
-| [字段AutoText](../com.aspose.words/fieldautotext) | 实现自动文本字段。 |
-| [字段AutoTextList](../com.aspose.words/fieldautotextlist) | 实现 AUTOTEXTLIST 字段。 |
-| [字段Barcode](../com.aspose.words/fieldbarcode) | 实现 BARCODE 字段。 |
-| [字段Bibliography](../com.aspose.words/fieldbibliography) | 实现书目字段。 |
-| [字段BidiOutline](../com.aspose.words/fieldbidioutline) | 实现 BIDIOUTLINE 字段。 |
-| [字段Builder](../com.aspose.words/fieldbuilder) | 从域代码标记（参数和开关）构建一个域。 |
-| [字段Char](../com.aspose.words/fieldchar) | 表示文档中字段字符的节点的基类。 |
-| [字段Citation](../com.aspose.words/fieldcitation) | 实现 CITATION 字段。 |
-| [字段Collection](../com.aspose.words/fieldcollection) | 一个集合[字段](../com.aspose.words/field)表示指定范围内的字段的对象。 |
-| [字段Comments](../com.aspose.words/fieldcomments) | 实现 COMMENTS 字段。 |
-| [字段Compare](../com.aspose.words/fieldcompare) | 实现 COMPARE 字段。 |
-| [字段CreateDate](../com.aspose.words/fieldcreatedate) | 实现 CREATEDATE 字段。 |
-| [字段Data](../com.aspose.words/fielddata) | 实现 DATA 字段。 |
-| [字段Database](../com.aspose.words/fielddatabase) | 实现 DATABASE 字段。 |
-| [字段DatabaseDataRow](../com.aspose.words/fielddatabasedatarow) | 提供数据为[字段Database](../com.aspose.words/fielddatabase)场结果。 |
-| [字段DatabaseDataTable](../com.aspose.words/fielddatabasedatatable) | 提供数据为[字段Database](../com.aspose.words/fielddatabase)场结果。 |
-| [字段Date](../com.aspose.words/fielddate) | 实现 DATE 字段。 |
-| [字段Dde](../com.aspose.words/fielddde) | 实现 DDE 字段。 |
-| [字段DdeAuto](../com.aspose.words/fieldddeauto) | 实现 DDEAUTO 字段。 |
-| [字段DisplayBarcode](../com.aspose.words/fielddisplaybarcode) | 实现 DISPLAYBARCODE 字段。 |
-| [字段DocProperty](../com.aspose.words/fielddocproperty) | 实现 DOCPROPERTY 字段。 |
-| [字段DocVariable](../com.aspose.words/fielddocvariable) | 实现 DOCVARIABLE 字段。 |
-| [字段EQ](../com.aspose.words/fieldeq) | 实现 EQ 字段。 |
-| [字段EditTime](../com.aspose.words/fieldedittime) | 实现 EDITTIME 字段。 |
-| [字段Embed](../com.aspose.words/fieldembed) | 实现 EMBED 字段。 |
-| [字段End](../com.aspose.words/fieldend) | 表示文档中 Word 字段的结尾。 |
-| [字段FileName](../com.aspose.words/fieldfilename) | 实现 FILENAME 字段。 |
-| [字段FileSize](../com.aspose.words/fieldfilesize) | 实现 FILESIZE 字段。 |
-| [字段FillIn](../com.aspose.words/fieldfillin) | 实现 FILLIN 字段。 |
-| [字段FootnoteRef](../com.aspose.words/fieldfootnoteref) | 实现 FOOTNOTEREF 字段。 |
-| [字段FormCheckBox](../com.aspose.words/fieldformcheckbox) | 实现 FORMCHECKBOX 字段。 |
-| [字段FormDropDown](../com.aspose.words/fieldformdropdown) | 实现 FORMDROPDOWN 字段。 |
-| [字段FormText](../com.aspose.words/fieldformtext) | 实现 FORMTEXT 字段。 |
-| [字段Format](../com.aspose.words/fieldformat) | 提供对字段的数字、日期和时间以及一般格式的键入访问。 |
-| [字段Formula](../com.aspose.words/fieldformula) | 实现 =（公式）字段。 |
-| [字段Glossary](../com.aspose.words/fieldglossary) | 实现 GLOSSARY 字段。 |
-| [字段GoToButton](../com.aspose.words/fieldgotobutton) | 实现 GOTOBUTTON 字段。 |
-| [字段GreetingLine](../com.aspose.words/fieldgreetingline) | 实现 GREETINGLINE 字段。 |
-| [字段Hyperlink](../com.aspose.words/fieldhyperlink) | 实现 HYPERLINK 字段 |
-| [字段If](../com.aspose.words/fieldif) | 实现 IF 字段。 |
-| [字段IfComparisonResult](../com.aspose.words/fieldifcomparisonresult) | 指定 IF 字段条件评估的结果。 |
-| [字段Import](../com.aspose.words/fieldimport) | 实现 IMPORT 字段。 |
-| [字段Include](../com.aspose.words/fieldinclude) | 实现 INCLUDE 字段。 |
-| [字段IncludePicture](../com.aspose.words/fieldincludepicture) | 实现 INCLUDEPICTURE 字段。 |
-| [字段IncludeText](../com.aspose.words/fieldincludetext) | 实现 INCLUDETEXT 字段。 |
-| [字段Index](../com.aspose.words/fieldindex) | 实现 INDEX 字段。 |
-| [字段IndexFormat](../com.aspose.words/fieldindexformat) | 指定格式[字段Index](../com.aspose.words/fieldindex)文档中的字段。 |
-| [字段Info](../com.aspose.words/fieldinfo) | 实现 INFO 字段。 |
-| [字段Keywords](../com.aspose.words/fieldkeywords) | 实现 KEYWORDS 字段。 |
-| [字段LastSavedBy](../com.aspose.words/fieldlastsavedby) | 实现 LASTSAVEDBY 字段。 |
-| [字段Link](../com.aspose.words/fieldlink) | 实现 LINK 字段。 |
-| [字段ListNum](../com.aspose.words/fieldlistnum) | 实现 LISTNUM 字段。 |
-| [字段MacroButton](../com.aspose.words/fieldmacrobutton) | 实现 MACROBUTTON 字段。 |
-| [字段MergeBarcode](../com.aspose.words/fieldmergebarcode) | 实现 MERGEBARCODE 字段。 |
-| [字段Merge字段](../com.aspose.words/fieldmergefield) | 实现 MERGEFIELD 字段。 |
-| [字段MergeRec](../com.aspose.words/fieldmergerec) | 实现 MERGEREC 字段。 |
-| [字段MergeSeq](../com.aspose.words/fieldmergeseq) | 实现 MERGESEQ 字段。 |
-| [字段MergingArgs](../com.aspose.words/fieldmergingargs) | 提供数据为**Merge字段**事件。 |
-| [字段MergingArgsBase](../com.aspose.words/fieldmergingargsbase) | 基类[字段MergingArgs](../com.aspose.words/fieldmergingargs)和[Image字段MergingArgs](../com.aspose.words/imagefieldmergingargs). |
-| [字段Next](../com.aspose.words/fieldnext) | 实现 NEXT 字段。 |
-| [字段NextIf](../com.aspose.words/fieldnextif) | 实现 NEXTIF 字段。 |
-| [字段NoteRef](../com.aspose.words/fieldnoteref) | 实现 NOTEREF 字段。 |
-| [字段NumChars](../com.aspose.words/fieldnumchars) | 实现 NUMCHARS 字段。 |
-| [字段NumPages](../com.aspose.words/fieldnumpages) | 实现 NUMPAGES 字段。 |
-| [字段NumWords](../com.aspose.words/fieldnumwords) | 实现 NUMWORDS 字段。 |
-| [字段Ocx](../com.aspose.words/fieldocx) | 实现 OCX 字段。 |
-| [字段Options](../com.aspose.words/fieldoptions) | 表示用于控制文档中的字段处理的选项。 |
-| [字段Page](../com.aspose.words/fieldpage) | 实现 PAGE 字段。 |
-| [字段PageRef](../com.aspose.words/fieldpageref) | 实现 PAGEREF 字段。 |
-| [字段Print](../com.aspose.words/fieldprint) | 实现 PRINT 字段。 |
-| [字段PrintDate](../com.aspose.words/fieldprintdate) | 实现 PRINTDATE 字段。 |
-| [字段Private](../com.aspose.words/fieldprivate) | 实现 PRIVATE 字段。 |
-| [字段Quote](../com.aspose.words/fieldquote) | 实现 QUOTE 字段。 |
-| [字段RD](../com.aspose.words/fieldrd) | 实现 RD 字段。 |
-| [字段Ref](../com.aspose.words/fieldref) | 实现 REF 字段。 |
-| [字段RevNum](../com.aspose.words/fieldrevnum) | 实现 REVNUM 字段。 |
-| [字段SaveDate](../com.aspose.words/fieldsavedate) | 实现 SAVEDATE 字段。 |
-| [字段Section](../com.aspose.words/fieldsection) | 实现 SECTION 字段。 |
-| [字段SectionPages](../com.aspose.words/fieldsectionpages) | 实现 SECTIONPAGES 字段。 |
-| [字段Separator](../com.aspose.words/fieldseparator) | 表示将域代码与域结果分开的 Word 域分隔符。 |
-| [字段Seq](../com.aspose.words/fieldseq) | 实现 SEQ 字段。 |
-| [字段Set](../com.aspose.words/fieldset) | 实现 SET 字段。 |
-| [字段Shape](../com.aspose.words/fieldshape) | 实现 SHAPE 字段。 |
-| [字段SkipIf](../com.aspose.words/fieldskipif) | 实现 SKIPIF 字段。 |
-| [字段Start](../com.aspose.words/fieldstart) | 表示文档中 Word 字段的开始。 |
-| [字段StyleRef](../com.aspose.words/fieldstyleref) | 实现 STYLEREF 字段。 |
-| [字段Subject](../com.aspose.words/fieldsubject) | 实现 SUBJECT 字段。 |
-| [字段Symbol](../com.aspose.words/fieldsymbol) | 实现一个符号字段。 |
-| [字段TA](../com.aspose.words/fieldta) | 实现 TA 字段。 |
-| [字段TC](../com.aspose.words/fieldtc) | 实现 TC 字段。 |
-| [字段Template](../com.aspose.words/fieldtemplate) | 实现 TEMPLATE 字段。 |
-| [字段Time](../com.aspose.words/fieldtime) | 实现 TIME 字段。 |
-| [字段Title](../com.aspose.words/fieldtitle) | 实现 TITLE 字段。 |
-| [字段Toa](../com.aspose.words/fieldtoa) | 实现 TOA 字段。 |
-| [字段Toc](../com.aspose.words/fieldtoc) | 实现 TOC 字段。 |
-| [字段类型](../com.aspose.words/fieldtype) | 指定 Microsoft Word 字段类型。 |
-| [字段Unknown](../com.aspose.words/fieldunknown) | 实现未知或无法识别的字段。 |
-| [字段UpdateCultureSource](../com.aspose.words/fieldupdateculturesource) | 指示在字段更新期间要使用的区域性。 |
-| [字段UserAddress](../com.aspose.words/fielduseraddress) | 实现 USERADDRESS 字段。 |
-| [字段UserInitials](../com.aspose.words/fielduserinitials) | 实现 USERINITIALS 字段。 |
-| [字段UserName](../com.aspose.words/fieldusername) | 实现 USERNAME 字段。 |
-| [字段XE](../com.aspose.words/fieldxe) | 实现 XE 字段。 |
-| [FileCorruptedException](../com.aspose.words/filecorruptedexception) | 在文档加载过程中，当文档似乎已损坏且无法加载时抛出。 |
-| [FileFontSource](../com.aspose.words/filefontsource) | 表示存储在文件系统中的单个 True类型 字体文件。 |
-| [FileFormatInfo](../com.aspose.words/fileformatinfo) | 包含由返回的数据[FileFormatUtil](../com.aspose.words/fileformatutil)文档格式检测方法。 |
-| [FileFormatUtil](../com.aspose.words/fileformatutil) | 提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。 |
-| [Fill](../com.aspose.words/fill) | 表示对象的填充格式。 |
-| [Fill类型](../com.aspose.words/filltype) | 指定可填充对象的填充类型。 |
-| [FindReplaceDirection](../com.aspose.words/findreplacedirection) | 指定替换操作的方向。 |
-| [FindReplaceOptions](../com.aspose.words/findreplaceoptions) | 指定查找/替换操作的选项。 |
+| [Dml3DEffectsRenderingMode](../com.aspose.words/dml3deffectsrenderingmode) | Specifies how 3D shape effects are rendered. |
+| [DmlEffectsRenderingMode](../com.aspose.words/dmleffectsrenderingmode) | Specifies how DrawingML effects are rendered to fixed page formats. |
+| [DmlRenderingMode](../com.aspose.words/dmlrenderingmode) | Specifies how DrawingML shapes are rendered to fixed page formats. |
+| [DocSaveOptions](../com.aspose.words/docsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOC](../com.aspose.words/saveformat\#DOC) or [SaveFormat.\#DOT](../com.aspose.words/saveformat\#DOT) format. |
+| [Document](../com.aspose.words/document) | Represents a Word document. |
+| [DocumentBase](../com.aspose.words/documentbase) | Provides the abstract base class for a main document and a glossary document of a Word document. |
+| [DocumentBuilder](../com.aspose.words/documentbuilder) | Provides methods to insert text, images and other content, specify font, paragraph and section formatting. |
+| [DocumentDirection](../com.aspose.words/documentdirection) | Allows to specify the direction to flow the text in a document. |
+| [DocumentLoadingArgs](../com.aspose.words/documentloadingargs) | An argument passed into [IDocumentLoadingCallback.\#notify(com.aspose.words.DocumentLoadingArgs)](../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-). |
+| [DocumentPartSavingArgs](../com.aspose.words/documentpartsavingargs) | Provides data for the [IDocumentPartSavingCallback.\#documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-) callback. |
+| [DocumentProperty](../com.aspose.words/documentproperty) | Represents a custom or built-in document property. |
+| [DocumentPropertyCollection](../com.aspose.words/documentpropertycollection) | Base class for [BuiltInDocumentProperties](../com.aspose.words/builtindocumentproperties) and [CustomDocumentProperties](../com.aspose.words/customdocumentproperties) collections. |
+| [DocumentReaderPluginLoadException](../com.aspose.words/documentreaderpluginloadexception) | Thrown during document load, when the plugin required for reading the document format cannot be loaded. |
+| [DocumentSavingArgs](../com.aspose.words/documentsavingargs) | An argument passed into [IDocumentSavingCallback.\#notify(com.aspose.words.DocumentSavingArgs)](../com.aspose.words/idocumentsavingcallback\#notify-com.aspose.words.DocumentSavingArgs-). |
+| [DocumentSecurity](../com.aspose.words/documentsecurity) | Used as a value for the [BuiltInDocumentProperties.\#getSecurity()](../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.\#setSecurity(int)](../com.aspose.words/builtindocumentproperties\#setSecurity-int-) property. |
+| [DocumentSplitCriteria](../com.aspose.words/documentsplitcriteria) | Specifies how the document is split into parts when saving to [SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB) or [SaveFormat.\#AZW\_3](../com.aspose.words/saveformat\#AZW-3) format. |
+| [DocumentVisitor](../com.aspose.words/documentvisitor) | Base class for custom document visitors. |
+| [DownsampleOptions](../com.aspose.words/downsampleoptions) | Allows to specify downsample options. |
+| [DropCapPosition](../com.aspose.words/dropcapposition) | Specifies the position for a drop cap text. |
+| [DropDownItemCollection](../com.aspose.words/dropdownitemcollection) | A collection of strings that represent all the items in a drop-down form field. |
+| [EditableRange](../com.aspose.words/editablerange) | Represents a single editable range. |
+| [EditableRangeEnd](../com.aspose.words/editablerangeend) | Represents an end of an editable range in a Word document. |
+| [EditableRangeStart](../com.aspose.words/editablerangestart) | Represents a start of an editable range in a Word document. |
+| [EditingLanguage](../com.aspose.words/editinglanguage) | Specifies the editing language. |
+| [EditorType](../com.aspose.words/editortype) | Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range defined by an editable range within a document. |
+| [EmbeddedFontFormat](../com.aspose.words/embeddedfontformat) | Specifies format of particular embedded font inside [FontInfo](../com.aspose.words/fontinfo) object. |
+| [EmbeddedFontStyle](../com.aspose.words/embeddedfontstyle) | Specifies the style of an embedded font inside a [FontInfo](../com.aspose.words/fontinfo) object. |
+| [EmfPlusDualRenderingMode](../com.aspose.words/emfplusdualrenderingmode) | Specifies how Aspose.Words should render EMF+ Dual metafiles. |
+| [EmphasisMark](../com.aspose.words/emphasismark) | Specifies possible types of emphasis mark. |
+| [EndCap](../com.aspose.words/endcap) | Specifies line cap style. |
+| [EndnoteOptions](../com.aspose.words/endnoteoptions) | Represents the endnote numbering options for a document or section. |
+| [EndnotePosition](../com.aspose.words/endnoteposition) | Defines the endnote position. |
+| [ExportFontFormat](../com.aspose.words/exportfontformat) | Indicates the format that is used to export fonts while rendering to HTML fixed format. |
+| [ExportHeadersFootersMode](../com.aspose.words/exportheadersfootersmode) | Specifies how headers and footers are exported to HTML, MHTML or EPUB. |
+| [ExportListLabels](../com.aspose.words/exportlistlabels) | Specifies how list labels are exported to HTML, MHTML and EPUB. |
+| [Field](../com.aspose.words/field) | Represents a Microsoft Word document field. |
+| [FieldAddIn](../com.aspose.words/fieldaddin) | Implements the ADDIN field. |
+| [FieldAddressBlock](../com.aspose.words/fieldaddressblock) | Implements the ADDRESSBLOCK field. |
+| [FieldAdvance](../com.aspose.words/fieldadvance) | Implements the ADVANCE field. |
+| [FieldArgumentBuilder](../com.aspose.words/fieldargumentbuilder) | Builds a complex field argument consisting of fields, nodes, and plain text. |
+| [FieldAsk](../com.aspose.words/fieldask) | Implements the ASK field. |
+| [FieldAuthor](../com.aspose.words/fieldauthor) | Implements the AUTHOR field. |
+| [FieldAutoNum](../com.aspose.words/fieldautonum) | Implements the AUTONUM field. |
+| [FieldAutoNumLgl](../com.aspose.words/fieldautonumlgl) | Implements the AUTONUMLGL field. |
+| [FieldAutoNumOut](../com.aspose.words/fieldautonumout) | Implements the AUTONUMOUT field. |
+| [FieldAutoText](../com.aspose.words/fieldautotext) | Implements the AUTOTEXT field. |
+| [FieldAutoTextList](../com.aspose.words/fieldautotextlist) | Implements the AUTOTEXTLIST field. |
+| [FieldBarcode](../com.aspose.words/fieldbarcode) | Implements the BARCODE field. |
+| [FieldBibliography](../com.aspose.words/fieldbibliography) | Implements the BIBLIOGRAPHY field. |
+| [FieldBidiOutline](../com.aspose.words/fieldbidioutline) | Implements the BIDIOUTLINE field. |
+| [FieldBuilder](../com.aspose.words/fieldbuilder) | Builds a field from field code tokens (arguments and switches). |
+| [FieldChar](../com.aspose.words/fieldchar) | Base class for nodes that represent field characters in a document. |
+| [FieldCitation](../com.aspose.words/fieldcitation) | Implements the CITATION field. |
+| [FieldCollection](../com.aspose.words/fieldcollection) | A collection of [Field](../com.aspose.words/field) objects that represents the fields in the specified range. |
+| [FieldComments](../com.aspose.words/fieldcomments) | Implements the COMMENTS field. |
+| [FieldCompare](../com.aspose.words/fieldcompare) | Implements the COMPARE field. |
+| [FieldCreateDate](../com.aspose.words/fieldcreatedate) | Implements the CREATEDATE field. |
+| [FieldData](../com.aspose.words/fielddata) | Implements the DATA field. |
+| [FieldDatabase](../com.aspose.words/fielddatabase) | Implements the DATABASE field. |
+| [FieldDatabaseDataRow](../com.aspose.words/fielddatabasedatarow) | Provides data for the [FieldDatabase](../com.aspose.words/fielddatabase) field result. |
+| [FieldDatabaseDataTable](../com.aspose.words/fielddatabasedatatable) | Provides data for the [FieldDatabase](../com.aspose.words/fielddatabase) field result. |
+| [FieldDate](../com.aspose.words/fielddate) | Implements the DATE field. |
+| [FieldDde](../com.aspose.words/fielddde) | Implements the DDE field. |
+| [FieldDdeAuto](../com.aspose.words/fieldddeauto) | Implements the DDEAUTO field. |
+| [FieldDisplayBarcode](../com.aspose.words/fielddisplaybarcode) | Implements the DISPLAYBARCODE field. |
+| [FieldDocProperty](../com.aspose.words/fielddocproperty) | Implements the DOCPROPERTY field. |
+| [FieldDocVariable](../com.aspose.words/fielddocvariable) | Implements DOCVARIABLE field. |
+| [FieldEQ](../com.aspose.words/fieldeq) | Implements the EQ field. |
+| [FieldEditTime](../com.aspose.words/fieldedittime) | Implements the EDITTIME field. |
+| [FieldEmbed](../com.aspose.words/fieldembed) | Implements the EMBED field. |
+| [FieldEnd](../com.aspose.words/fieldend) | Represents an end of a Word field in a document. |
+| [FieldFileName](../com.aspose.words/fieldfilename) | Implements the FILENAME field. |
+| [FieldFileSize](../com.aspose.words/fieldfilesize) | Implements the FILESIZE field. |
+| [FieldFillIn](../com.aspose.words/fieldfillin) | Implements the FILLIN field. |
+| [FieldFootnoteRef](../com.aspose.words/fieldfootnoteref) | Implements the FOOTNOTEREF field. |
+| [FieldFormCheckBox](../com.aspose.words/fieldformcheckbox) | Implements the FORMCHECKBOX field. |
+| [FieldFormDropDown](../com.aspose.words/fieldformdropdown) | Implements the FORMDROPDOWN field. |
+| [FieldFormText](../com.aspose.words/fieldformtext) | Implements the FORMTEXT field. |
+| [FieldFormat](../com.aspose.words/fieldformat) | Provides typed access to field's numeric, date and time, and general formatting. |
+| [FieldFormula](../com.aspose.words/fieldformula) | Implements the = (formula) field. |
+| [FieldGlossary](../com.aspose.words/fieldglossary) | Implements the GLOSSARY field. |
+| [FieldGoToButton](../com.aspose.words/fieldgotobutton) | Implements the GOTOBUTTON field. |
+| [FieldGreetingLine](../com.aspose.words/fieldgreetingline) | Implements the GREETINGLINE field. |
+| [FieldHyperlink](../com.aspose.words/fieldhyperlink) | Implements the HYPERLINK field |
+| [FieldIf](../com.aspose.words/fieldif) | Implements the IF field. |
+| [FieldIfComparisonResult](../com.aspose.words/fieldifcomparisonresult) | Specifies the result of the IF field condition evaluation. |
+| [FieldImport](../com.aspose.words/fieldimport) | Implements the IMPORT field. |
+| [FieldInclude](../com.aspose.words/fieldinclude) | Implements the INCLUDE field. |
+| [FieldIncludePicture](../com.aspose.words/fieldincludepicture) | Implements the INCLUDEPICTURE field. |
+| [FieldIncludeText](../com.aspose.words/fieldincludetext) | Implements the INCLUDETEXT field. |
+| [FieldIndex](../com.aspose.words/fieldindex) | Implements the INDEX field. |
+| [FieldIndexFormat](../com.aspose.words/fieldindexformat) | Specifies the formatting for the [FieldIndex](../com.aspose.words/fieldindex) fields in a document. |
+| [FieldInfo](../com.aspose.words/fieldinfo) | Implements the INFO field. |
+| [FieldKeywords](../com.aspose.words/fieldkeywords) | Implements the KEYWORDS field. |
+| [FieldLastSavedBy](../com.aspose.words/fieldlastsavedby) | Implements the LASTSAVEDBY field. |
+| [FieldLink](../com.aspose.words/fieldlink) | Implements the LINK field. |
+| [FieldListNum](../com.aspose.words/fieldlistnum) | Implements the LISTNUM field. |
+| [FieldMacroButton](../com.aspose.words/fieldmacrobutton) | Implements the MACROBUTTON field. |
+| [FieldMergeBarcode](../com.aspose.words/fieldmergebarcode) | Implements the MERGEBARCODE field. |
+| [FieldMergeField](../com.aspose.words/fieldmergefield) | Implements the MERGEFIELD field. |
+| [FieldMergeRec](../com.aspose.words/fieldmergerec) | Implements the MERGEREC field. |
+| [FieldMergeSeq](../com.aspose.words/fieldmergeseq) | Implements the MERGESEQ field. |
+| [FieldMergingArgs](../com.aspose.words/fieldmergingargs) | Provides data for the **MergeField** event. |
+| [FieldMergingArgsBase](../com.aspose.words/fieldmergingargsbase) | Base class for [FieldMergingArgs](../com.aspose.words/fieldmergingargs) and [ImageFieldMergingArgs](../com.aspose.words/imagefieldmergingargs). |
+| [FieldNext](../com.aspose.words/fieldnext) | Implements the NEXT field. |
+| [FieldNextIf](../com.aspose.words/fieldnextif) | Implements the NEXTIF field. |
+| [FieldNoteRef](../com.aspose.words/fieldnoteref) | Implements the NOTEREF field. |
+| [FieldNumChars](../com.aspose.words/fieldnumchars) | Implements the NUMCHARS field. |
+| [FieldNumPages](../com.aspose.words/fieldnumpages) | Implements the NUMPAGES field. |
+| [FieldNumWords](../com.aspose.words/fieldnumwords) | Implements the NUMWORDS field. |
+| [FieldOcx](../com.aspose.words/fieldocx) | Implements the OCX field. |
+| [FieldOptions](../com.aspose.words/fieldoptions) | Represents options to control field handling in a document. |
+| [FieldPage](../com.aspose.words/fieldpage) | Implements the PAGE field. |
+| [FieldPageRef](../com.aspose.words/fieldpageref) | Implements the PAGEREF field. |
+| [FieldPrint](../com.aspose.words/fieldprint) | Implements the PRINT field. |
+| [FieldPrintDate](../com.aspose.words/fieldprintdate) | Implements the PRINTDATE field. |
+| [FieldPrivate](../com.aspose.words/fieldprivate) | Implements the PRIVATE field. |
+| [FieldQuote](../com.aspose.words/fieldquote) | Implements the QUOTE field. |
+| [FieldRD](../com.aspose.words/fieldrd) | Implements the RD field. |
+| [FieldRef](../com.aspose.words/fieldref) | Implements the REF field. |
+| [FieldRevNum](../com.aspose.words/fieldrevnum) | Implements the REVNUM field. |
+| [FieldSaveDate](../com.aspose.words/fieldsavedate) | Implements the SAVEDATE field. |
+| [FieldSection](../com.aspose.words/fieldsection) | Implements the SECTION field. |
+| [FieldSectionPages](../com.aspose.words/fieldsectionpages) | Implements the SECTIONPAGES field. |
+| [FieldSeparator](../com.aspose.words/fieldseparator) | Represents a Word field separator that separates the field code from the field result. |
+| [FieldSeq](../com.aspose.words/fieldseq) | Implements the SEQ field. |
+| [FieldSet](../com.aspose.words/fieldset) | Implements the SET field. |
+| [FieldShape](../com.aspose.words/fieldshape) | Implements the SHAPE field. |
+| [FieldSkipIf](../com.aspose.words/fieldskipif) | Implements the SKIPIF field. |
+| [FieldStart](../com.aspose.words/fieldstart) | Represents a start of a Word field in a document. |
+| [FieldStyleRef](../com.aspose.words/fieldstyleref) | Implements the STYLEREF field. |
+| [FieldSubject](../com.aspose.words/fieldsubject) | Implements the SUBJECT field. |
+| [FieldSymbol](../com.aspose.words/fieldsymbol) | Implements a SYMBOL field. |
+| [FieldTA](../com.aspose.words/fieldta) | Implements the TA field. |
+| [FieldTC](../com.aspose.words/fieldtc) | Implements the TC field. |
+| [FieldTemplate](../com.aspose.words/fieldtemplate) | Implements the TEMPLATE field. |
+| [FieldTime](../com.aspose.words/fieldtime) | Implements the TIME field. |
+| [FieldTitle](../com.aspose.words/fieldtitle) | Implements the TITLE field. |
+| [FieldToa](../com.aspose.words/fieldtoa) | Implements the TOA field. |
+| [FieldToc](../com.aspose.words/fieldtoc) | Implements the TOC field. |
+| [FieldType](../com.aspose.words/fieldtype) | Specifies Microsoft Word field types. |
+| [FieldUnknown](../com.aspose.words/fieldunknown) | Implements an unknown or unrecognized field. |
+| [FieldUpdateCultureSource](../com.aspose.words/fieldupdateculturesource) | Indicates what culture to use during field update. |
+| [FieldUserAddress](../com.aspose.words/fielduseraddress) | Implements the USERADDRESS field. |
+| [FieldUserInitials](../com.aspose.words/fielduserinitials) | Implements the USERINITIALS field. |
+| [FieldUserName](../com.aspose.words/fieldusername) | Implements the USERNAME field. |
+| [FieldXE](../com.aspose.words/fieldxe) | Implements the XE field. |
+| [FileCorruptedException](../com.aspose.words/filecorruptedexception) | Thrown during document load, when the document appears to be corrupted and impossible to load. |
+| [FileFontSource](../com.aspose.words/filefontsource) | Represents the single TrueType font file stored in the file system. |
+| [FileFormatInfo](../com.aspose.words/fileformatinfo) | Contains data returned by [FileFormatUtil](../com.aspose.words/fileformatutil) document format detection methods. |
+| [FileFormatUtil](../com.aspose.words/fileformatutil) | Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums. |
+| [Fill](../com.aspose.words/fill) | Represents fill formatting for an object. |
+| [FillType](../com.aspose.words/filltype) | Specifies fill type for a fillable object. |
+| [FindReplaceDirection](../com.aspose.words/findreplacedirection) | Specifies direction for replace operations. |
+| [FindReplaceOptions](../com.aspose.words/findreplaceoptions) | Specifies options for find/replace operations. |
 | [FipsUnapprovedOperationException](../com.aspose.words/fipsunapprovedoperationexception) |  |
-| [FixedPageSaveOptions](../com.aspose.words/fixedpagesaveoptions) | 包含在将文档保存为固定页面格式（PDF、XPS、图像等）时可以指定的常用选项。 |
-| [FlipOrientation](../com.aspose.words/fliporientation) | 形状方向的可能值。 |
-| [FolderFontSource](../com.aspose.words/folderfontsource) | 表示包含 True类型 字体文件的文件夹。 |
-| [Font](../com.aspose.words/font) | 包含对象的字体属性（字体名称、字体大小、颜色等）。 |
-| [FontConfigSubstitutionRule](../com.aspose.words/fontconfigsubstitutionrule) | 字体配置替换规则。 |
-| [FontFallbackSettings](../com.aspose.words/fontfallbacksettings) | 指定字体回退机制设置。 |
-| [FontFamily](../com.aspose.words/fontfamily) | 表示字体系列。 |
+| [FixedPageSaveOptions](../com.aspose.words/fixedpagesaveoptions) | Contains common options that can be specified when saving a document into fixed page formats (PDF, XPS, images etc). |
+| [FlipOrientation](../com.aspose.words/fliporientation) | Possible values for the orientation of a shape. |
+| [FolderFontSource](../com.aspose.words/folderfontsource) | Represents the folder that contains TrueType font files. |
+| [Font](../com.aspose.words/font) | Contains font attributes (font name, font size, color, and so on) for an object. |
+| [FontConfigSubstitutionRule](../com.aspose.words/fontconfigsubstitutionrule) | Font config substitution rule. |
+| [FontFallbackSettings](../com.aspose.words/fontfallbacksettings) | Specifies font fallback mechanism settings. |
+| [FontFamily](../com.aspose.words/fontfamily) | Represents the font family. |
 | [FontFeature](../com.aspose.words/fontfeature) |  |
-| [FontInfo](../com.aspose.words/fontinfo) | 指定有关文档中使用的字体的信息。 |
-| [FontInfoCollection](../com.aspose.words/fontinfocollection) | 表示文档中使用的字体集合。 |
-| [FontInfoSubstitutionRule](../com.aspose.words/fontinfosubstitutionrule) | 字体信息替换规则。 |
-| [FontNameSubstitutionRule](../com.aspose.words/fontnamesubstitutionrule) | 处理字体名称的字体替换规则。 |
-| [FontPitch](../com.aspose.words/fontpitch) | 表示字体间距。 |
-| [FontSavingArgs](../com.aspose.words/fontsavingargs) | 提供数据为[IFontSavingCallback.\#fontSaving(com.aspose.words.FontSavingArgs)](../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs-)事件。 |
-| [FontSettings](../com.aspose.words/fontsettings) | 指定文档的字体设置。 |
-| [FontSourceBase](../com.aspose.words/fontsourcebase) | 这是允许用户指定各种字体源的类的抽象基类。 |
-| [FontSource类型](../com.aspose.words/fontsourcetype) | 指定字体源的类型。 |
-| [FontSubstitutionRule](../com.aspose.words/fontsubstitutionrule) | 这是字体替换规则的抽象基类。 |
-| [FontSubstitutionSettings](../com.aspose.words/fontsubstitutionsettings) | 指定字体替换机制设置。 |
-| [Footnote](../com.aspose.words/footnote) | 表示脚注或尾注文本的容器。 |
-| [FootnoteNumberingRule](../com.aspose.words/footnotenumberingrule) | 确定自动脚注或尾注编号何时重新开始。 |
-| [FootnoteOptions](../com.aspose.words/footnoteoptions) | 表示文档或部分的脚注编号选项。 |
-| [FootnotePosition](../com.aspose.words/footnoteposition) | 定义脚注位置。 |
-| [Footnote类型](../com.aspose.words/footnotetype) | 指定这是脚注还是尾注。 |
-| [Form字段](../com.aspose.words/formfield) | 表示单个表单域。 |
-| [Form字段Collection](../com.aspose.words/formfieldcollection) | 一个集合**Form字段**表示范围内所有表单域的对象。 |
-| [Forms2OleControl](../com.aspose.words/forms2olecontrol) | 表示 Microsoft Forms 2.0 OLE 控件。 |
-| [Forms2OleControlCollection](../com.aspose.words/forms2olecontrolcollection) | 代表集合[Forms2OleControl](../com.aspose.words/forms2olecontrol)对象。 |
-| [Forms2OleControl类型](../com.aspose.words/forms2olecontroltype) |  |
-| [FrameFormat](../com.aspose.words/frameformat) | 表示段落的框架相关格式。 |
+| [FontInfo](../com.aspose.words/fontinfo) | Specifies information about a font used in the document. |
+| [FontInfoCollection](../com.aspose.words/fontinfocollection) | Represents a collection of fonts used in a document. |
+| [FontInfoSubstitutionRule](../com.aspose.words/fontinfosubstitutionrule) | Font info substitution rule. |
+| [FontNameSubstitutionRule](../com.aspose.words/fontnamesubstitutionrule) | Font substitution rule for processing font name. |
+| [FontPitch](../com.aspose.words/fontpitch) | Represents the font pitch. |
+| [FontSavingArgs](../com.aspose.words/fontsavingargs) | Provides data for the [IFontSavingCallback.\#fontSaving(com.aspose.words.FontSavingArgs)](../com.aspose.words/ifontsavingcallback\#fontSaving-com.aspose.words.FontSavingArgs-) event. |
+| [FontSettings](../com.aspose.words/fontsettings) | Specifies font settings for a document. |
+| [FontSourceBase](../com.aspose.words/fontsourcebase) | This is an abstract base class for the classes that allow the user to specify various font sources. |
+| [FontSourceType](../com.aspose.words/fontsourcetype) | Specifies the type of a font source. |
+| [FontSubstitutionRule](../com.aspose.words/fontsubstitutionrule) | This is an abstract base class for the font substitution rule. |
+| [FontSubstitutionSettings](../com.aspose.words/fontsubstitutionsettings) | Specifies font substitution mechanism settings. |
+| [Footnote](../com.aspose.words/footnote) | Represents a container for text of a footnote or endnote. |
+| [FootnoteNumberingRule](../com.aspose.words/footnotenumberingrule) | Determines when automatic footnote or endnote numbering restarts. |
+| [FootnoteOptions](../com.aspose.words/footnoteoptions) | Represents the footnote numbering options for a document or section. |
+| [FootnotePosition](../com.aspose.words/footnoteposition) | Defines the footnote position. |
+| [FootnoteType](../com.aspose.words/footnotetype) | Specifies whether this is a footnote or an endnote. |
+| [FormField](../com.aspose.words/formfield) | Represents a single form field. |
+| [FormFieldCollection](../com.aspose.words/formfieldcollection) | A collection of **FormField** objects that represent all the form fields in a range. |
+| [Forms2OleControl](../com.aspose.words/forms2olecontrol) | Represents Microsoft Forms 2.0 OLE control. |
+| [Forms2OleControlCollection](../com.aspose.words/forms2olecontrolcollection) | Represents collection of [Forms2OleControl](../com.aspose.words/forms2olecontrol) objects. |
+| [Forms2OleControlType](../com.aspose.words/forms2olecontroltype) |  |
+| [FrameFormat](../com.aspose.words/frameformat) | Represents frame related formatting for a paragraph. |
 | [Frameset](../com.aspose.words/frameset) |  |
 | [FramesetCollection](../com.aspose.words/framesetcollection) |  |
-| [GeneralFormat](../com.aspose.words/generalformat) | 指定应用于数字、文本或任何字段结果的通用格式。 |
-| [GeneralFormatCollection](../com.aspose.words/generalformatcollection) | 表示一般格式的类型化集合。 |
-| [GlossaryDocument](../com.aspose.words/glossarydocument) | 表示 Word 文档中词汇表文档的根元素。 |
+| [GeneralFormat](../com.aspose.words/generalformat) | Specifies a general format that is applied to a numeric, text, or any field result. |
+| [GeneralFormatCollection](../com.aspose.words/generalformatcollection) | Represents a typed collection of general formats. |
+| [GlossaryDocument](../com.aspose.words/glossarydocument) | Represents the root element for a glossary document within a Word document. |
 | [Glyph](../com.aspose.words/glyph) |  |
-| [GradientStop](../com.aspose.words/gradientstop) | 代表一个梯度停止。 |
-| [GradientStopCollection](../com.aspose.words/gradientstopcollection) | 包含一个集合[GradientStop](../com.aspose.words/gradientstop)对象。 |
-| [GradientStyle](../com.aspose.words/gradientstyle) | 指定渐变填充的样式。 |
-| [GradientVariant](../com.aspose.words/gradientvariant) | 指定渐变填充的变体。 |
-| [Granularity](../com.aspose.words/granularity) | 指定比较两个文档时要跟踪的更改的粒度。 |
-| [GraphicsQualityOptions](../com.aspose.words/graphicsqualityoptions) | 允许指定额外的 . |
-| [GroupShape](../com.aspose.words/groupshape) | 表示文档中的一组形状。 |
-| [HeaderFooter](../com.aspose.words/headerfooter) | 表示节的页眉或页脚文本的容器。 |
-| [HeaderFooterBookmarksExportMode](../com.aspose.words/headerfooterbookmarksexportmode) | 指定如何导出页眉/页脚中的书签。 |
-| [HeaderFooterCollection](../com.aspose.words/headerfootercollection) | 提供键入访问[HeaderFooter](../com.aspose.words/headerfooter)a的节点**Section**. |
-| [HeaderFooter类型](../com.aspose.words/headerfootertype) | 标识在 Word 文件中找到的页眉或页脚的类型。 |
-| [HeightRule](../com.aspose.words/heightrule) | 指定确定对象高度的规则。 |
-| [HorizontalAlignment](../com.aspose.words/horizontalalignment) | 指定浮动形状、文本框或浮动表格的水平对齐方式。 |
-| [HorizontalRuleAlignment](../com.aspose.words/horizontalrulealignment) | 表示指定水平线的对齐方式。 |
-| [HorizontalRuleFormat](../com.aspose.words/horizontalruleformat) | 表示水平规则格式。 |
-| [HtmlControl类型](../com.aspose.words/htmlcontroltype) | 表示从 HTML 导入的元素的文档节点类型。 |
-| [HtmlElementSizeOutputMode](../com.aspose.words/htmlelementsizeoutputmode) | 指定 Aspose.Words 如何将元素宽度和高度导出到 HTML、MHTML 和 EPUB。 |
-| [HtmlFixedPageHorizontalAlignment](../com.aspose.words/htmlfixedpagehorizontalalignment) | 指定输出 HTML 文档中页面的水平对齐方式。 |
-| [HtmlFixedSaveOptions](../com.aspose.words/htmlfixedsaveoptions) | 可用于在将文档保存到[SaveFormat.\#HTML\_FIXED](../com.aspose.words/saveformat\#HTML-FIXED)格式。 |
-| [HtmlInsertOptions](../com.aspose.words/htmlinsertoptions) | 指定选项**M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)**方法。 |
-| [HtmlLoadOptions](../com.aspose.words/htmlloadoptions) | 允许在将 HTML 文档加载到[Document](../com.aspose.words/document)目的。 |
-| [HtmlMetafileFormat](../com.aspose.words/htmlmetafileformat) | 指示元文件保存到 HTML 文档的格式。 |
-| [HtmlOfficeMathOutputMode](../com.aspose.words/htmlofficemathoutputmode) | 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML、MHTML 和 EPUB。 |
-| [HtmlSaveOptions](../com.aspose.words/htmlsaveoptions) | 可用于在将文档保存到[SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML), [SaveFormat.\#MHTML](../com.aspose.words/saveformat\#MHTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.\#AZW\_3](../com.aspose.words/saveformat\#AZW-3)格式。 |
-| [HtmlVersion](../com.aspose.words/htmlversion) | 表示将文档保存到时使用的 HTML 版本[SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML)和[SaveFormat.\#MHTML](../com.aspose.words/saveformat\#MHTML)格式。 |
-| [Hyphenation](../com.aspose.words/hyphenation) | 提供使用连字字典的方法。 |
-| [HyphenationOptions](../com.aspose.words/hyphenationoptions) | 允许配置文档断字选项。 |
-| [ImageBinarization方法](../com.aspose.words/imagebinarizationmethod) | 指定用于二值化图像的方法。 |
-| [ImageColorMode](../com.aspose.words/imagecolormode) | 指定生成的文档页面图像的颜色模式。 |
-| [ImageData](../com.aspose.words/imagedata) | 定义形状的图像。 |
-| [Image字段MergingArgs](../com.aspose.words/imagefieldmergingargs) | 提供数据为[I字段MergingCallback.\#image字段Merging(com.aspose.words.Image字段MergingArgs)](../com.aspose.words/ifieldmergingcallback\#image字段Merging-com.aspose.words.Image字段MergingArgs-)事件。 |
-| [ImagePixelFormat](../com.aspose.words/imagepixelformat) | 指定生成的文档页面图像的像素格式。 |
-| [ImageSaveOptions](../com.aspose.words/imagesaveoptions) | 允许在将文档页面或形状渲染为图像时指定其他选项。 |
-| [ImageSavingArgs](../com.aspose.words/imagesavingargs) | 提供数据为[IImageSavingCallback.\#imageSaving(com.aspose.words.ImageSavingArgs)](../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs-)事件。 |
-| [ImageSize](../com.aspose.words/imagesize) | 包含有关图像大小和分辨率的信息。 |
-| [Image类型](../com.aspose.words/imagetype) | 指定 Microsoft Word 文档中图像的类型（格式）。 |
-| [ImageWatermarkOptions](../com.aspose.words/imagewatermarkoptions) | 包含在添加带有图像的水印时可以指定的选项。 |
-| [ImlRenderingMode](../com.aspose.words/imlrenderingmode) | 指定如何将墨迹 (InkML) 对象呈现为固定页面格式。 |
-| [ImportFormatMode](../com.aspose.words/importformatmode) | 指定从另一个文档导入内容时如何合并格式。 |
-| [ImportFormatOptions](../com.aspose.words/importformatoptions) | 允许指定各种导入选项来格式化输出。 |
-| [IncorrectPasswordException](../com.aspose.words/incorrectpasswordexception) | 如果文档使用密码加密并且打开文档时指定的密码不正确或丢失，则抛出此错误。 |
-| [Inline](../com.aspose.words/inline) | 内联级节点的基类，可以有与之关联的字符格式，但不能有自己的子节点。 |
-| [InlineStory](../com.aspose.words/inlinestory) | 可以包含段落和表格的内联级节点的基类。 |
-| [InternableComplexAttr](../com.aspose.words/internablecomplexattr) | 可内部复杂属性的基类。 |
-| [JoinStyle](../com.aspose.words/joinstyle) | 线连接样式。 |
-| [JsonDataLoadOptions](../com.aspose.words/jsondataloadoptions) | 表示解析 JSON 数据的选项。 |
-| [JsonDataSource](../com.aspose.words/jsondatasource) | 提供对要在报告中使用的 JSON 文件或流的数据的访问。 |
-| [JsonSimpleValueParseMode](../com.aspose.words/jsonsimplevalueparsemode) | 指定在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。 |
-| [Known类型Set](../com.aspose.words/knowntypeset) | 表示一个无序集（即 |
-| [LanguagePreferences](../com.aspose.words/languagepreferences) | 允许设置语言首选项。 |
-| [LayoutCollector](../com.aspose.words/layoutcollector) | 此类允许计算文档节点的页码。 |
-| [LayoutEntity类型](../com.aspose.words/layoutentitytype) | 布局实体的类型。 |
-| [LayoutEnumerator](../com.aspose.words/layoutenumerator) | 枚举文档的页面布局实体。 |
-| [LayoutFlow](../com.aspose.words/layoutflow) | 确定文本框中文本布局的流向。 |
-| [LayoutOptions](../com.aspose.words/layoutoptions) | 包含允许控制文档布局过程的选项。 |
-| [LegendPosition](../com.aspose.words/legendposition) | 指定图表图例的可能位置。 |
-| [License](../com.aspose.words/license) | 提供许可组件的方法。 |
-| [LineNumberRestartMode](../com.aspose.words/linenumberrestartmode) | 确定何时重新开始自动行编号。 |
-| [LineSpacingRule](../com.aspose.words/linespacingrule) | 指定段落的行距值。 |
-| [LineStyle](../com.aspose.words/linestyle) | 指定 a 的线型[Border](../com.aspose.words/border). |
-| [List](../com.aspose.words/list) | 表示列表的格式。 |
-| [ListCollection](../com.aspose.words/listcollection) | 存储和管理文档中使用的项目符号和编号列表的格式。 |
-| [ListFormat](../com.aspose.words/listformat) | 允许控制应用于段落的列表格式。 |
-| [ListLabel](../com.aspose.words/listlabel) | 定义特定于列表标签的属性。 |
-| [ListLevel](../com.aspose.words/listlevel) | 定义列表级别的格式。 |
-| [ListLevelAlignment](../com.aspose.words/listlevelalignment) | 指定列表编号或项目符号的对齐方式。 |
-| [ListLevelCollection](../com.aspose.words/listlevelcollection) | 列表中每个级别的列表格式集合。 |
-| [ListTemplate](../com.aspose.words/listtemplate) | 指定 Microsoft Word 中可用的预定义列表格式之一。 |
-| [ListTrailingCharacter](../com.aspose.words/listtrailingcharacter) | 指定将列表标签与段落文本分开的字符。 |
-| [LoadFormat](../com.aspose.words/loadformat) | 指示要加载的文档的格式。 |
-| [LoadOptions](../com.aspose.words/loadoptions) | 允许在将文档加载到[Document](../com.aspose.words/document)目的。 |
-| [MailMerge](../com.aspose.words/mailmerge) | 表示邮件合并功能。 |
-| [MailMergeCheckErrors](../com.aspose.words/mailmergecheckerrors) | 指定 Microsoft Word 如何报告在邮件合并期间检测到的错误。 |
-| [MailMergeCleanupOptions](../com.aspose.words/mailmergecleanupoptions) | 指定确定在邮件合并期间删除哪些项目的选项。 |
-| [MailMergeData类型](../com.aspose.words/mailmergedatatype) | 指定外部邮件合并数据源的类型。 |
-| [MailMergeDestination](../com.aspose.words/mailmergedestination) | 指定对文档执行邮件合并时可能生成的结果。 |
-| [MailMergeMainDocument类型](../com.aspose.words/mailmergemaindocumenttype) | 指定邮件合并源文档的可能类型。 |
-| [MailMergeRegionInfo](../com.aspose.words/mailmergeregioninfo) | 包含有关邮件合并区域的信息。 |
-| [MailMergeSettings](../com.aspose.words/mailmergesettings) | 指定文档的所有邮件合并信息。 |
-| [MappedData字段Collection](../com.aspose.words/mappeddatafieldcollection) | 允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。 |
-| [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions) | 将文档保存到[SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat\#MARKDOWN)格式。 |
-| [MarkerSymbol](../com.aspose.words/markersymbol) | 指定标记符号样式。 |
-| [MarkupLevel](../com.aspose.words/markuplevel) | 指定文档树中的特定级别[StructuredDocumentTag](../com.aspose.words/structureddocumenttag)可以发生。 |
-| [MathObject类型](../com.aspose.words/mathobjecttype) | 指定 Office Math 对象的类型。 |
-| [MeasurementUnits](../com.aspose.words/measurementunits) | 指定测量单位。 |
-| [MemoryFontSource](../com.aspose.words/memoryfontsource) | 表示存储在内存中的单个 True类型 字体文件。 |
-| [Merge字段ImageDimension](../com.aspose.words/mergefieldimagedimension) | 表示图像尺寸（即 |
-| [Merge字段ImageDimensionUnit](../com.aspose.words/mergefieldimagedimensionunit) | 指定图像尺寸的单位（即 |
-| [MetafileRenderingMode](../com.aspose.words/metafilerenderingmode) | 指定 Aspose.Words 应如何呈现 WMF 和 EMF 元文件。 |
-| [MetafileRenderingOptions](../com.aspose.words/metafilerenderingoptions) | 允许指定额外的元文件渲染选项。 |
-| [Metered](../com.aspose.words/metered) | 提供设置计量键的方法。 |
-| [MsWordVersion](../com.aspose.words/mswordversion) | 允许 Aspose.Wods 模仿特定于 MS Word 版本的应用程序行为。 |
-| [MultiplePages类型](../com.aspose.words/multiplepagestype) | 指定如何打印文档。 |
-| [Node](../com.aspose.words/node) | Word 文档的所有节点的基类。 |
-| [NodeChangingAction](../com.aspose.words/nodechangingaction) | 指定节点更改的类型。 |
-| [NodeChangingArgs](../com.aspose.words/nodechangingargs) | 为方法提供数据[INodeChangingCallback](../com.aspose.words/inodechangingcallback)界面。 |
-| [NodeCollection](../com.aspose.words/nodecollection) | 表示特定类型的节点的集合。 |
-| [NodeImporter](../com.aspose.words/nodeimporter) | 允许有效地将节点从一个文档重复导入到另一个文档。 |
-| [NodeList](../com.aspose.words/nodelist) | 表示与使用执行的 XPath 查询匹配的节点集合[CompositeNode.\#selectNodes(java.lang.String)](../com.aspose.words/compositenode\#selectNodes-java.lang.String-)方法。 |
-| [NodeRendererBase](../com.aspose.words/noderendererbase) | 基类[ShapeRenderer](../com.aspose.words/shaperenderer)和[OfficeMathRenderer](../com.aspose.words/officemathrenderer). |
-| [Node类型](../com.aspose.words/nodetype) | 指定 Word 文档节点的类型。 |
-| [NumberStyle](../com.aspose.words/numberstyle) | 指定列表、脚注和尾注、页码的编号样式。 |
-| [NumeralFormat](../com.aspose.words/numeralformat) | 指示在呈现为固定页面格式时用于表示数字的符号集。 |
-| [Odso](../com.aspose.words/odso) | 指定邮件合并数据源的 Office 数据源对象 (ODSO) 设置。 |
-| [OdsoDataSource类型](../com.aspose.words/odsodatasourcetype) | 指定要连接到的外部数据源的类型，作为 ODSO 连接信息的一部分。 |
-| [Odso字段MapData](../com.aspose.words/odsofieldmapdata) | 指定如何将外部数据源中的列映射到文档中的预定义合并字段。 |
-| [Odso字段MapDataCollection](../com.aspose.words/odsofieldmapdatacollection) | 的类型化集合[Odso字段MapData](../com.aspose.words/odsofieldmapdata)对象。 |
-| [Odso字段Mapping类型](../com.aspose.words/odsofieldmappingtype) | 指定用于指示给定邮件合并字段是否已映射到给定外部数据源中的列的可能类型。 |
-| [OdsoRecipientData](../com.aspose.words/odsorecipientdata) | 表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。 |
-| [OdsoRecipientDataCollection](../com.aspose.words/odsorecipientdatacollection) | 类型化的集合[OdsoRecipientData](../com.aspose.words/odsorecipientdata) |
-| [OdtSaveMeasureUnit](../com.aspose.words/odtsavemeasureunit) | 指定的度量单位，以在保存期间应用于可测量的文档内容，例如形状、宽度和其他。 |
-| [OdtSaveOptions](../com.aspose.words/odtsaveoptions) | 可用于在将文档保存到[SaveFormat.\#ODT](../com.aspose.words/saveformat\#ODT)或者[SaveFormat.\#OTT](../com.aspose.words/saveformat\#OTT)格式。 |
-| [OfficeMath](../com.aspose.words/officemath) | 表示 Office Math 对象，例如函数、方程、矩阵等。 |
-| [OfficeMathDisplay类型](../com.aspose.words/officemathdisplaytype) | 指定方程的显示格式类型。 |
-| [OfficeMathJustification](../com.aspose.words/officemathjustification) | 指定等式的对正。 |
-| [OfficeMathRenderer](../com.aspose.words/officemathrenderer) | 提供渲染个体的方法[OfficeMath](../com.aspose.words/officemath)到光栅或矢量图像或到图形对象。 |
-| [OleControl](../com.aspose.words/olecontrol) | 表示 OLE ActiveX 控件。 |
-| [OleFormat](../com.aspose.words/oleformat) | 提供对 OLE 对象或 ActiveX 控件的数据的访问。 |
-| [Ole包裹](../com.aspose.words/olepackage) | 允许访问 OLE 包属性。 |
-| [OoxmlCompliance](../com.aspose.words/ooxmlcompliance) | 允许指定以 DOCX 格式保存时将使用的 OOXML 规范。 |
-| [OoxmlSaveOptions](../com.aspose.words/ooxmlsaveoptions) | 可用于在将文档保存到[SaveFormat.\#DOCX](../com.aspose.words/saveformat\#DOCX), [SaveFormat.\#DOCM](../com.aspose.words/saveformat\#DOCM), [SaveFormat.\#DOTX](../com.aspose.words/saveformat\#DOTX), [SaveFormat.\#DOTM](../com.aspose.words/saveformat\#DOTM)或者[SaveFormat.\#FLAT\_OPC](../com.aspose.words/saveformat\#FLAT-OPC)格式。 |
-| [Orientation](../com.aspose.words/orientation) | 指定页面方向。 |
-| [OutlineLevel](../com.aspose.words/outlinelevel) | 指定文档中段落的大纲级别。 |
-| [OutlineOptions](../com.aspose.words/outlineoptions) | 允许指定大纲选项。 |
-| [PageBorderAppliesTo](../com.aspose.words/pageborderappliesto) | 指定打印页面边框的页面。 |
-| [PageBorderDistanceFrom](../com.aspose.words/pageborderdistancefrom) | 指定页面边框相对于页边距的位置。 |
-| [PageInfo](../com.aspose.words/pageinfo) | 表示有关特定文档页面的信息。 |
-| [PageLayoutCallbackArgs](../com.aspose.words/pagelayoutcallbackargs) | 传入的参数[IPageLayoutCallback.\#notify(com.aspose.words.PageLayoutCallbackArgs)](../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-) |
-| [PageLayoutEvent](../com.aspose.words/pagelayoutevent) | 在页面布局模型构建和渲染期间引发的事件代码。 |
-| [PageRange](../com.aspose.words/pagerange) | 表示连续范围的页面。 |
-| [PageSavingArgs](../com.aspose.words/pagesavingargs) | 提供数据为[IPageSavingCallback.\#pageSaving(com.aspose.words.PageSavingArgs)](../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-)事件。 |
-| [PageSet](../com.aspose.words/pageset) | 描述一组随机的页面。 |
-| [PageSetup](../com.aspose.words/pagesetup) | 表示部分的页面设置属性。 |
-| [PageVerticalAlignment](../com.aspose.words/pageverticalalignment) | 指定每页上文本的垂直对齐方式。 |
-| [PaperSize](../com.aspose.words/papersize) | 指定纸张尺寸。 |
-| [Paragraph](../com.aspose.words/paragraph) | 代表一段文字。 |
-| [ParagraphAlignment](../com.aspose.words/paragraphalignment) | 指定段落中的文本对齐方式。 |
-| [ParagraphCollection](../com.aspose.words/paragraphcollection) | 提供对集合的类型化访问[Paragraph](../com.aspose.words/paragraph)节点。 |
-| [ParagraphFormat](../com.aspose.words/paragraphformat) | 表示段落的所有格式。 |
-| [Pattern类型](../com.aspose.words/patterntype) | 指定用于填充形状的填充图案。 |
-| [PclSaveOptions](../com.aspose.words/pclsaveoptions) | 可用于在将文档保存到[SaveFormat.\#PCL](../com.aspose.words/saveformat\#PCL)格式。 |
-| [PdfCompliance](../com.aspose.words/pdfcompliance) | 指定 PDF 标准合规级别。 |
-| [PdfCustomPropertiesExport](../com.aspose.words/pdfcustompropertiesexport) | 指定方式[Document.\#getCustomDocumentProperties()](../com.aspose.words/document\#getCustomDocumentProperties--)导出为 PDF 文件。 |
-| [PdfDigitalSignatureDetails](../com.aspose.words/pdfdigitalsignaturedetails) | 包含使用数字签名签署 PDF 文档的详细信息。 |
-| [PdfDigitalSignatureHashAlgorithm](../com.aspose.words/pdfdigitalsignaturehashalgorithm) | 指定数字签名使用的数字哈希算法。 |
-| [PdfDigitalSignatureTimestampSettings](../com.aspose.words/pdfdigitalsignaturetimestampsettings) | 包含数字签名时间戳的设置。 |
-| [PdfEncryptionDetails](../com.aspose.words/pdfencryptiondetails) | 包含 PDF 文档的加密和访问权限的详细信息。 |
-| [PdfFontEmbeddingMode](../com.aspose.words/pdffontembeddingmode) | 指定 Aspose.Words 应该如何嵌入字体。 |
-| [PdfImageColorSpaceExportMode](../com.aspose.words/pdfimagecolorspaceexportmode) | 指定如何为 PDF 文档中的图像选择色彩空间。 |
-| [PdfImageCompression](../com.aspose.words/pdfimagecompression) | 指定应用于 PDF 文件中图像的压缩类型。 |
-| [PdfLoadOptions](../com.aspose.words/pdfloadoptions) | 允许在将 Pdf 文档加载到[Document](../com.aspose.words/document)目的。 |
-| [PdfPageMode](../com.aspose.words/pdfpagemode) | 指定 PDF 文档在 PDF 阅读器中打开时的显示方式。 |
-| [PdfPermissions](../com.aspose.words/pdfpermissions) | 指定允许用户对加密的 PDF 文档进行的操作。 |
-| [PdfSaveOptions](../com.aspose.words/pdfsaveoptions) | 可用于在将文档保存到[SaveFormat.\#PDF](../com.aspose.words/saveformat\#PDF)格式。 |
-| [PdfTextCompression](../com.aspose.words/pdftextcompression) | 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。 |
-| [PdfZoomBehavior](../com.aspose.words/pdfzoombehavior) | 指定在 PDF 查看器中打开 PDF 文档时应用到的缩放类型。 |
-| [PhysicalFontInfo](../com.aspose.words/physicalfontinfo) | 指定有关 Aspose.Words 字体引擎可用的物理字体的信息。 |
-| [PlainTextDocument](../com.aspose.words/plaintextdocument) | 允许提取文档内容的纯文本表示。 |
-| [PreferredWidth](../com.aspose.words/preferredwidth) | 表示一个值及其度量单位，用于指定表格或单元格的首选宽度。 |
-| [PreferredWidth类型](../com.aspose.words/preferredwidthtype) | 指定表格或单元格的首选宽度的测量单位。 |
-| [PresetTexture](../com.aspose.words/presettexture) | 指定用于填充形状的纹理。 |
-| [Property类型](../com.aspose.words/propertytype) | 指定文档属性的数据类型。 |
-| [Protection类型](../com.aspose.words/protectiontype) | 文档的保护类型。 |
-| [PsSaveOptions](../com.aspose.words/pssaveoptions) | 可用于在将文档保存到[SaveFormat.\#PS](../com.aspose.words/saveformat\#PS)格式。 |
-| [Range](../com.aspose.words/range) | 表示文档中的一个连续区域。 |
-| [RelativeHorizontalPosition](../com.aspose.words/relativehorizontalposition) | 指定形状或文本框的水平位置是相对的。 |
-| [RelativeVerticalPosition](../com.aspose.words/relativeverticalposition) | 指定形状或文本框的垂直位置是相对的。 |
-| [ReplaceAction](../com.aspose.words/replaceaction) | 允许用户指定在替换操作期间当前匹配发生的情况。 |
-| [ReplacingArgs](../com.aspose.words/replacingargs) | 为自定义替换操作提供数据。 |
-| [ReportBuildOptions](../com.aspose.words/reportbuildoptions) | 指定控制行为的选项[ReportingEngine](../com.aspose.words/reportingengine)在构建报告时。 |
-| [ReportingEngine](../com.aspose.words/reportingengine) | 提供例程来使用数据填充模板文档和一组设置来控制这些例程。 |
-| [ResourceLoadingAction](../com.aspose.words/resourceloadingaction) | 指定资源加载的模式。 |
-| [ResourceLoadingArgs](../com.aspose.words/resourceloadingargs) | 提供数据为[IResourceLoadingCallback.\#resourceLoading(com.aspose.words.ResourceLoadingArgs)](../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs-)方法。 |
-| [ResourceSavingArgs](../com.aspose.words/resourcesavingargs) | 提供数据为[IResourceSavingCallback.\#resourceSaving(com.aspose.words.ResourceSavingArgs)](../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs-)事件。 |
-| [Resource类型](../com.aspose.words/resourcetype) | 加载资源的类型。 |
-| [Revision](../com.aspose.words/revision) | 表示文档节点或样式中的修订（跟踪更改）。 |
-| [RevisionCollection](../com.aspose.words/revisioncollection) | 一个集合[Revision](../com.aspose.words/revision)表示文档中的修订的对象。 |
-| [RevisionColor](../com.aspose.words/revisioncolor) | 允许指定文档修订的颜色。 |
-| [RevisionGroup](../com.aspose.words/revisiongroup) | 代表一组顺序[Revision](../com.aspose.words/revision)对象。 |
-| [RevisionGroupCollection](../com.aspose.words/revisiongroupcollection) | 一个集合[RevisionGroup](../com.aspose.words/revisiongroup)表示文档中修订组的对象。 |
-| [RevisionOptions](../com.aspose.words/revisionoptions) | 允许控制在布局过程中如何处理文档修订。 |
-| [RevisionTextEffect](../com.aspose.words/revisiontexteffect) | 允许为文档文本的修订指定装饰效果。 |
-| [Revision类型](../com.aspose.words/revisiontype) | 指定跟踪的更改类型[Revision](../com.aspose.words/revision). |
-| [RevisionsView](../com.aspose.words/revisionsview) | 允许指定是使用文档的原始版本还是修订版本。 |
-| [Row](../com.aspose.words/row) | 表示表格行。 |
-| [RowCollection](../com.aspose.words/rowcollection) | 提供对集合的类型化访问[Row](../com.aspose.words/row)节点。 |
-| [RowFormat](../com.aspose.words/rowformat) | 表示表格行的所有格式。 |
-| [RtfLoadOptions](../com.aspose.words/rtfloadoptions) | 允许在加载时指定其他选项[LoadFormat.\#RTF](../com.aspose.words/loadformat\#RTF)文档成一个[Document](../com.aspose.words/document)目的。 |
-| [RtfSaveOptions](../com.aspose.words/rtfsaveoptions) | 可用于在将文档保存到[SaveFormat.\#RTF](../com.aspose.words/saveformat\#RTF)格式。 |
-| [Run](../com.aspose.words/run) | 表示具有相同字体格式的一系列字符。 |
-| [RunCollection](../com.aspose.words/runcollection) | 提供对集合的类型化访问[Run](../com.aspose.words/run)节点。 |
-| [SaveFormat](../com.aspose.words/saveformat) | 指示文档的保存格式。 |
-| [SaveOptions](../com.aspose.words/saveoptions) | 这是类的抽象基类，允许用户在将文档保存为特定格式时指定其他选项。 |
-| [SaveOutput参数](../com.aspose.words/saveoutputparameters) | 此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。 |
+| [GradientStop](../com.aspose.words/gradientstop) | Represents one gradient stop. |
+| [GradientStopCollection](../com.aspose.words/gradientstopcollection) | Contains a collection of [GradientStop](../com.aspose.words/gradientstop) objects. |
+| [GradientStyle](../com.aspose.words/gradientstyle) | Specifies the style for a gradient fill. |
+| [GradientVariant](../com.aspose.words/gradientvariant) | Specifies the variant for a gradient fill. |
+| [Granularity](../com.aspose.words/granularity) | Specifies the granularity of changes to track when comparing two documents. |
+| [GraphicsQualityOptions](../com.aspose.words/graphicsqualityoptions) | Allows to specify additional . |
+| [GroupShape](../com.aspose.words/groupshape) | Represents a group of shapes in a document. |
+| [HeaderFooter](../com.aspose.words/headerfooter) | Represents a container for the header or footer text of a section. |
+| [HeaderFooterBookmarksExportMode](../com.aspose.words/headerfooterbookmarksexportmode) | Specifies how bookmarks in headers/footers are exported. |
+| [HeaderFooterCollection](../com.aspose.words/headerfootercollection) | Provides typed access to [HeaderFooter](../com.aspose.words/headerfooter) nodes of a **Section**. |
+| [HeaderFooterType](../com.aspose.words/headerfootertype) | Identifies the type of header or footer found in a Word file. |
+| [HeightRule](../com.aspose.words/heightrule) | Specifies the rule for determining the height of an object. |
+| [HorizontalAlignment](../com.aspose.words/horizontalalignment) | Specifies horizontal alignment of a floating shape, text frame or floating table. |
+| [HorizontalRuleAlignment](../com.aspose.words/horizontalrulealignment) | Represents the alignment for the specified horizontal rule. |
+| [HorizontalRuleFormat](../com.aspose.words/horizontalruleformat) | Represents horizontal rule formatting. |
+| [HtmlControlType](../com.aspose.words/htmlcontroltype) | Type of document nodes that represent  and  elements imported from HTML. |
+| [HtmlElementSizeOutputMode](../com.aspose.words/htmlelementsizeoutputmode) | Specifies how Aspose.Words exports element widths and heights to HTML, MHTML and EPUB. |
+| [HtmlFixedPageHorizontalAlignment](../com.aspose.words/htmlfixedpagehorizontalalignment) | Specifies the horizontal alignment for pages in output HTML document. |
+| [HtmlFixedSaveOptions](../com.aspose.words/htmlfixedsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#HTML\_FIXED](../com.aspose.words/saveformat\#HTML-FIXED) format. |
+| [HtmlInsertOptions](../com.aspose.words/htmlinsertoptions) | Specifies options for the **M:Aspose.Words.DocumentBuilder.InsertHtml(System.String,Aspose.Words.HtmlInsertOptions)** method. |
+| [HtmlLoadOptions](../com.aspose.words/htmlloadoptions) | Allows to specify additional options when loading HTML document into a [Document](../com.aspose.words/document) object. |
+| [HtmlMetafileFormat](../com.aspose.words/htmlmetafileformat) | Indicates the format in which metafiles are saved to HTML documents. |
+| [HtmlOfficeMathOutputMode](../com.aspose.words/htmlofficemathoutputmode) | Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB. |
+| [HtmlSaveOptions](../com.aspose.words/htmlsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML), [SaveFormat.\#MHTML](../com.aspose.words/saveformat\#MHTML), [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB) or [SaveFormat.\#AZW\_3](../com.aspose.words/saveformat\#AZW-3) format. |
+| [HtmlVersion](../com.aspose.words/htmlversion) | Indicates the version of HTML is used when saving the document to [SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML) and [SaveFormat.\#MHTML](../com.aspose.words/saveformat\#MHTML) formats. |
+| [Hyphenation](../com.aspose.words/hyphenation) | Provides methods for working with hyphenation dictionaries. |
+| [HyphenationOptions](../com.aspose.words/hyphenationoptions) | Allows to configure document hyphenation options. |
+| [ImageBinarizationMethod](../com.aspose.words/imagebinarizationmethod) | Specifies the method used to binarize image. |
+| [ImageColorMode](../com.aspose.words/imagecolormode) | Specifies the color mode for the generated images of document pages. |
+| [ImageData](../com.aspose.words/imagedata) | Defines an image for a shape. |
+| [ImageFieldMergingArgs](../com.aspose.words/imagefieldmergingargs) | Provides data for the [IFieldMergingCallback.\#imageFieldMerging(com.aspose.words.ImageFieldMergingArgs)](../com.aspose.words/ifieldmergingcallback\#imageFieldMerging-com.aspose.words.ImageFieldMergingArgs-) event. |
+| [ImagePixelFormat](../com.aspose.words/imagepixelformat) | Specifies the pixel format for the generated images of document pages. |
+| [ImageSaveOptions](../com.aspose.words/imagesaveoptions) | Allows to specify additional options when rendering document pages or shapes to images. |
+| [ImageSavingArgs](../com.aspose.words/imagesavingargs) | Provides data for the [IImageSavingCallback.\#imageSaving(com.aspose.words.ImageSavingArgs)](../com.aspose.words/iimagesavingcallback\#imageSaving-com.aspose.words.ImageSavingArgs-) event. |
+| [ImageSize](../com.aspose.words/imagesize) | Contains information about image size and resolution. |
+| [ImageType](../com.aspose.words/imagetype) | Specifies the type (format) of an image in a Microsoft Word document. |
+| [ImageWatermarkOptions](../com.aspose.words/imagewatermarkoptions) | Contains options that can be specified when adding a watermark with image. |
+| [ImlRenderingMode](../com.aspose.words/imlrenderingmode) | Specifies how ink (InkML) objects are rendered to fixed page formats. |
+| [ImportFormatMode](../com.aspose.words/importformatmode) | Specifies how formatting is merged when importing content from another document. |
+| [ImportFormatOptions](../com.aspose.words/importformatoptions) | Allows to specify various import options to format output. |
+| [IncorrectPasswordException](../com.aspose.words/incorrectpasswordexception) | Thrown if a document is encrypted with a password and the password specified when opening the document is incorrect or missing. |
+| [Inline](../com.aspose.words/inline) | Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own. |
+| [InlineStory](../com.aspose.words/inlinestory) | Base class for inline-level nodes that can contain paragraphs and tables. |
+| [InternableComplexAttr](../com.aspose.words/internablecomplexattr) | Base class for internable complex attribute. |
+| [JoinStyle](../com.aspose.words/joinstyle) | Line join style. |
+| [JsonDataLoadOptions](../com.aspose.words/jsondataloadoptions) | Represents options for parsing JSON data. |
+| [JsonDataSource](../com.aspose.words/jsondatasource) | Provides access to data of a JSON file or stream to be used within a report. |
+| [JsonSimpleValueParseMode](../com.aspose.words/jsonsimplevalueparsemode) | Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
+| [KnownTypeSet](../com.aspose.words/knowntypeset) | Represents an unordered set (i.e. |
+| [LanguagePreferences](../com.aspose.words/languagepreferences) | Allows to set up language preferences. |
+| [LayoutCollector](../com.aspose.words/layoutcollector) | This class allows to compute page numbers of document nodes. |
+| [LayoutEntityType](../com.aspose.words/layoutentitytype) | Types of the layout entities. |
+| [LayoutEnumerator](../com.aspose.words/layoutenumerator) | Enumerates page layout entities of a document. |
+| [LayoutFlow](../com.aspose.words/layoutflow) | Determines the flow of the text layout in a textbox. |
+| [LayoutOptions](../com.aspose.words/layoutoptions) | Holds the options that allow controlling the document layout process. |
+| [LegendPosition](../com.aspose.words/legendposition) | Specifies the possible positions for a chart legend. |
+| [License](../com.aspose.words/license) | Provides methods to license the component. |
+| [LineNumberRestartMode](../com.aspose.words/linenumberrestartmode) | Determines when automatic line numbering restarts. |
+| [LineSpacingRule](../com.aspose.words/linespacingrule) | Specifies line spacing values for a paragraph. |
+| [LineStyle](../com.aspose.words/linestyle) | Specifies line style of a [Border](../com.aspose.words/border). |
+| [List](../com.aspose.words/list) | Represents formatting of a list. |
+| [ListCollection](../com.aspose.words/listcollection) | Stores and manages formatting of bulleted and numbered lists used in a document. |
+| [ListFormat](../com.aspose.words/listformat) | Allows to control what list formatting is applied to a paragraph. |
+| [ListLabel](../com.aspose.words/listlabel) | Defines properties specific to a list label. |
+| [ListLevel](../com.aspose.words/listlevel) | Defines formatting for a list level. |
+| [ListLevelAlignment](../com.aspose.words/listlevelalignment) | Specifies alignment for the list number or bullet. |
+| [ListLevelCollection](../com.aspose.words/listlevelcollection) | A collection of list formatting for each level in a list. |
+| [ListTemplate](../com.aspose.words/listtemplate) | Specifies one of the predefined list formats available in Microsoft Word. |
+| [ListTrailingCharacter](../com.aspose.words/listtrailingcharacter) | Specifies the character that separates the list label from the text of the paragraph. |
+| [LoadFormat](../com.aspose.words/loadformat) | Indicates the format of the document that is to be loaded. |
+| [LoadOptions](../com.aspose.words/loadoptions) | Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../com.aspose.words/document) object. |
+| [MailMerge](../com.aspose.words/mailmerge) | Represents the mail merge functionality. |
+| [MailMergeCheckErrors](../com.aspose.words/mailmergecheckerrors) | Specifies how Microsoft Word will report errors detected during mail merge. |
+| [MailMergeCleanupOptions](../com.aspose.words/mailmergecleanupoptions) | Specifies options that determine what items are removed during mail merge. |
+| [MailMergeDataType](../com.aspose.words/mailmergedatatype) | Specifies the type of an external mail merge data source. |
+| [MailMergeDestination](../com.aspose.words/mailmergedestination) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |
+| [MailMergeMainDocumentType](../com.aspose.words/mailmergemaindocumenttype) | Specifies the possible types for a mail merge source document. |
+| [MailMergeRegionInfo](../com.aspose.words/mailmergeregioninfo) | Contains information about a mail merge region. |
+| [MailMergeSettings](../com.aspose.words/mailmergesettings) | Specifies all of the mail merge information for a document. |
+| [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
+| [MarkdownSaveOptions](../com.aspose.words/markdownsaveoptions) | Class to specify additional options when saving a document into the [SaveFormat.\#MARKDOWN](../com.aspose.words/saveformat\#MARKDOWN) format. |
+| [MarkerSymbol](../com.aspose.words/markersymbol) | Specifies marker symbol style. |
+| [MarkupLevel](../com.aspose.words/markuplevel) | Specifies the level in the document tree where a particular [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) can occur. |
+| [MathObjectType](../com.aspose.words/mathobjecttype) | Specifies type of an Office Math object. |
+| [MeasurementUnits](../com.aspose.words/measurementunits) | Specifies the unit of measurement. |
+| [MemoryFontSource](../com.aspose.words/memoryfontsource) | Represents the single TrueType font file stored in memory. |
+| [MergeFieldImageDimension](../com.aspose.words/mergefieldimagedimension) | Represents an image dimension (i.e. |
+| [MergeFieldImageDimensionUnit](../com.aspose.words/mergefieldimagedimensionunit) | Specifies an unit of an image dimension (i.e. |
+| [MetafileRenderingMode](../com.aspose.words/metafilerenderingmode) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
+| [MetafileRenderingOptions](../com.aspose.words/metafilerenderingoptions) | Allows to specify additional metafile rendering options. |
+| [Metered](../com.aspose.words/metered) | Provides methods to set metered key. |
+| [MsWordVersion](../com.aspose.words/mswordversion) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
+| [MultiplePagesType](../com.aspose.words/multiplepagestype) | Specifies how document is printed out. |
+| [Node](../com.aspose.words/node) | Base class for all nodes of a Word document. |
+| [NodeChangingAction](../com.aspose.words/nodechangingaction) | Specifies the type of node change. |
+| [NodeChangingArgs](../com.aspose.words/nodechangingargs) | Provides data for methods of the [INodeChangingCallback](../com.aspose.words/inodechangingcallback) interface. |
+| [NodeCollection](../com.aspose.words/nodecollection) | Represents a collection of nodes of a specific type. |
+| [NodeImporter](../com.aspose.words/nodeimporter) | Allows to efficiently perform repeated import of nodes from one document to another. |
+| [NodeList](../com.aspose.words/nodelist) | Represents a collection of nodes matching an XPath query executed using the [CompositeNode.\#selectNodes(java.lang.String)](../com.aspose.words/compositenode\#selectNodes-java.lang.String-) method. |
+| [NodeRendererBase](../com.aspose.words/noderendererbase) | Base class for [ShapeRenderer](../com.aspose.words/shaperenderer) and [OfficeMathRenderer](../com.aspose.words/officemathrenderer). |
+| [NodeType](../com.aspose.words/nodetype) | Specifies the type of a Word document node. |
+| [NumberStyle](../com.aspose.words/numberstyle) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
+| [NumeralFormat](../com.aspose.words/numeralformat) | Indicates the symbol set that is used to represent numbers while rendering to fixed page formats. |
+| [Odso](../com.aspose.words/odso) | Specifies the Office Data Source Object (ODSO) settings for a mail merge data source. |
+| [OdsoDataSourceType](../com.aspose.words/odsodatasourcetype) | Specifies the type of the external data source to be connected to as part of the ODSO connection information. |
+| [OdsoFieldMapData](../com.aspose.words/odsofieldmapdata) | Specifies how a column in the external data source shall be mapped to the predefined merge fields within the document. |
+| [OdsoFieldMapDataCollection](../com.aspose.words/odsofieldmapdatacollection) | A typed collection of the [OdsoFieldMapData](../com.aspose.words/odsofieldmapdata) objects. |
+| [OdsoFieldMappingType](../com.aspose.words/odsofieldmappingtype) | Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source. |
+| [OdsoRecipientData](../com.aspose.words/odsorecipientdata) | Represents information about a single record within an external data source that is to be excluded from the mail merge. |
+| [OdsoRecipientDataCollection](../com.aspose.words/odsorecipientdatacollection) | A typed collection of [OdsoRecipientData](../com.aspose.words/odsorecipientdata) |
+| [OdtSaveMeasureUnit](../com.aspose.words/odtsavemeasureunit) | Specified units of measure to apply to measurable document content such as shape, widths and other during saving. |
+| [OdtSaveOptions](../com.aspose.words/odtsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#ODT](../com.aspose.words/saveformat\#ODT) or [SaveFormat.\#OTT](../com.aspose.words/saveformat\#OTT) format. |
+| [OfficeMath](../com.aspose.words/officemath) | Represents an Office Math object such as function, equation, matrix or alike. |
+| [OfficeMathDisplayType](../com.aspose.words/officemathdisplaytype) | Specifies the display format type of the equation. |
+| [OfficeMathJustification](../com.aspose.words/officemathjustification) | Specifies the justification of the equation. |
+| [OfficeMathRenderer](../com.aspose.words/officemathrenderer) | Provides methods to render an individual [OfficeMath](../com.aspose.words/officemath) to a raster or vector image or to a Graphics object. |
+| [OleControl](../com.aspose.words/olecontrol) | Represents OLE ActiveX control. |
+| [OleFormat](../com.aspose.words/oleformat) | Provides access to the data of an OLE object or ActiveX control. |
+| [OlePackage](../com.aspose.words/olepackage) | Allows to access OLE Package properties. |
+| [OoxmlCompliance](../com.aspose.words/ooxmlcompliance) | Allows to specify which OOXML specification will be used when saving in the DOCX format. |
+| [OoxmlSaveOptions](../com.aspose.words/ooxmlsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#DOCX](../com.aspose.words/saveformat\#DOCX), [SaveFormat.\#DOCM](../com.aspose.words/saveformat\#DOCM), [SaveFormat.\#DOTX](../com.aspose.words/saveformat\#DOTX), [SaveFormat.\#DOTM](../com.aspose.words/saveformat\#DOTM) or [SaveFormat.\#FLAT\_OPC](../com.aspose.words/saveformat\#FLAT-OPC) format. |
+| [Orientation](../com.aspose.words/orientation) | Specifies page orientation. |
+| [OutlineLevel](../com.aspose.words/outlinelevel) | Specifies the outline level of a paragraph in the document. |
+| [OutlineOptions](../com.aspose.words/outlineoptions) | Allows to specify outline options. |
+| [PageBorderAppliesTo](../com.aspose.words/pageborderappliesto) | Specifies which pages the page border is printed on. |
+| [PageBorderDistanceFrom](../com.aspose.words/pageborderdistancefrom) | Specifies the positioning of the page border relative to the page margin. |
+| [PageInfo](../com.aspose.words/pageinfo) | Represents information about a particular document page. |
+| [PageLayoutCallbackArgs](../com.aspose.words/pagelayoutcallbackargs) | An argument passed into [IPageLayoutCallback.\#notify(com.aspose.words.PageLayoutCallbackArgs)](../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-) |
+| [PageLayoutEvent](../com.aspose.words/pagelayoutevent) | A code of event raised during page layout model build and rendering. |
+| [PageRange](../com.aspose.words/pagerange) | Represents a continuous range of pages. |
+| [PageSavingArgs](../com.aspose.words/pagesavingargs) | Provides data for the [IPageSavingCallback.\#pageSaving(com.aspose.words.PageSavingArgs)](../com.aspose.words/ipagesavingcallback\#pageSaving-com.aspose.words.PageSavingArgs-) event. |
+| [PageSet](../com.aspose.words/pageset) | Describes a random set of pages. |
+| [PageSetup](../com.aspose.words/pagesetup) | Represents the page setup properties of a section. |
+| [PageVerticalAlignment](../com.aspose.words/pageverticalalignment) | Specifies vertical justification of text on each page. |
+| [PaperSize](../com.aspose.words/papersize) | Specifies paper size. |
+| [Paragraph](../com.aspose.words/paragraph) | Represents a paragraph of text. |
+| [ParagraphAlignment](../com.aspose.words/paragraphalignment) | Specifies text alignment in a paragraph. |
+| [ParagraphCollection](../com.aspose.words/paragraphcollection) | Provides typed access to a collection of [Paragraph](../com.aspose.words/paragraph) nodes. |
+| [ParagraphFormat](../com.aspose.words/paragraphformat) | Represents all the formatting for a paragraph. |
+| [PatternType](../com.aspose.words/patterntype) | Specifies the fill pattern to be used to fill a shape. |
+| [PclSaveOptions](../com.aspose.words/pclsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PCL](../com.aspose.words/saveformat\#PCL) format. |
+| [PdfCompliance](../com.aspose.words/pdfcompliance) | Specifies the PDF standards compliance level. |
+| [PdfCustomPropertiesExport](../com.aspose.words/pdfcustompropertiesexport) | Specifies the way [Document.\#getCustomDocumentProperties()](../com.aspose.words/document\#getCustomDocumentProperties--) are exported to PDF file. |
+| [PdfDigitalSignatureDetails](../com.aspose.words/pdfdigitalsignaturedetails) | Contains details for signing a PDF document with a digital signature. |
+| [PdfDigitalSignatureHashAlgorithm](../com.aspose.words/pdfdigitalsignaturehashalgorithm) | Specifies a digital hash algorithm used by a digital signature. |
+| [PdfDigitalSignatureTimestampSettings](../com.aspose.words/pdfdigitalsignaturetimestampsettings) | Contains settings of the digital signature timestamp. |
+| [PdfEncryptionDetails](../com.aspose.words/pdfencryptiondetails) | Contains details for encrypting and access permissions for a PDF document. |
+| [PdfFontEmbeddingMode](../com.aspose.words/pdffontembeddingmode) | Specifies how Aspose.Words should embed fonts. |
+| [PdfImageColorSpaceExportMode](../com.aspose.words/pdfimagecolorspaceexportmode) | Specifies how the color space will be selected for the images in PDF document. |
+| [PdfImageCompression](../com.aspose.words/pdfimagecompression) | Specifies the type of compression applied to images in the PDF file. |
+| [PdfLoadOptions](../com.aspose.words/pdfloadoptions) | Allows to specify additional options when loading Pdf document into a [Document](../com.aspose.words/document) object. |
+| [PdfPageMode](../com.aspose.words/pdfpagemode) | Specifies how the PDF document should be displayed when opened in the PDF reader. |
+| [PdfPermissions](../com.aspose.words/pdfpermissions) | Specifies the operations that are allowed to a user on an encrypted PDF document. |
+| [PdfSaveOptions](../com.aspose.words/pdfsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PDF](../com.aspose.words/saveformat\#PDF) format. |
+| [PdfTextCompression](../com.aspose.words/pdftextcompression) | Specifies a type of compression applied to all content in the PDF file except images. |
+| [PdfZoomBehavior](../com.aspose.words/pdfzoombehavior) | Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer. |
+| [PhysicalFontInfo](../com.aspose.words/physicalfontinfo) | Specifies information about physical font available to Aspose.Words font engine. |
+| [PlainTextDocument](../com.aspose.words/plaintextdocument) | Allows to extract plain-text representation of the document's content. |
+| [PreferredWidth](../com.aspose.words/preferredwidth) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. |
+| [PreferredWidthType](../com.aspose.words/preferredwidthtype) | Specifies the unit of measurement for the preferred width of a table or cell. |
+| [PresetTexture](../com.aspose.words/presettexture) | Specifies texture to be used to fill a shape. |
+| [PropertyType](../com.aspose.words/propertytype) | Specifies data type of a document property. |
+| [ProtectionType](../com.aspose.words/protectiontype) | Protection type for a document. |
+| [PsSaveOptions](../com.aspose.words/pssaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PS](../com.aspose.words/saveformat\#PS) format. |
+| [Range](../com.aspose.words/range) | Represents a contiguous area in a document. |
+| [RelativeHorizontalPosition](../com.aspose.words/relativehorizontalposition) | Specifies to what the horizontal position of a shape or text frame is relative. |
+| [RelativeVerticalPosition](../com.aspose.words/relativeverticalposition) | Specifies to what the vertical position of a shape or text frame is relative. |
+| [ReplaceAction](../com.aspose.words/replaceaction) | Allows the user to specify what happens to the current match during a replace operation. |
+| [ReplacingArgs](../com.aspose.words/replacingargs) | Provides data for a custom replace operation. |
+| [ReportBuildOptions](../com.aspose.words/reportbuildoptions) | Specifies options controlling behavior of [ReportingEngine](../com.aspose.words/reportingengine) while building a report. |
+| [ReportingEngine](../com.aspose.words/reportingengine) | Provides routines to populate template documents with data and a set of settings to control these routines. |
+| [ResourceLoadingAction](../com.aspose.words/resourceloadingaction) | Specifies the mode of resource loading. |
+| [ResourceLoadingArgs](../com.aspose.words/resourceloadingargs) | Provides data for the [IResourceLoadingCallback.\#resourceLoading(com.aspose.words.ResourceLoadingArgs)](../com.aspose.words/iresourceloadingcallback\#resourceLoading-com.aspose.words.ResourceLoadingArgs-) method. |
+| [ResourceSavingArgs](../com.aspose.words/resourcesavingargs) | Provides data for the [IResourceSavingCallback.\#resourceSaving(com.aspose.words.ResourceSavingArgs)](../com.aspose.words/iresourcesavingcallback\#resourceSaving-com.aspose.words.ResourceSavingArgs-) event. |
+| [ResourceType](../com.aspose.words/resourcetype) | Type of loaded resource. |
+| [Revision](../com.aspose.words/revision) | Represents a revision (tracked change) in a document node or style. |
+| [RevisionCollection](../com.aspose.words/revisioncollection) | A collection of [Revision](../com.aspose.words/revision) objects that represent revisions in the document. |
+| [RevisionColor](../com.aspose.words/revisioncolor) | Allows to specify color of document revisions. |
+| [RevisionGroup](../com.aspose.words/revisiongroup) | Represents a group of sequential [Revision](../com.aspose.words/revision) objects. |
+| [RevisionGroupCollection](../com.aspose.words/revisiongroupcollection) | A collection of [RevisionGroup](../com.aspose.words/revisiongroup) objects that represent revision groups in the document. |
+| [RevisionOptions](../com.aspose.words/revisionoptions) | Allows to control how document revisions are handled during layout process. |
+| [RevisionTextEffect](../com.aspose.words/revisiontexteffect) | Allows to specify decoration effect for revisions of document text. |
+| [RevisionType](../com.aspose.words/revisiontype) | Specifies the type of change being tracked in [Revision](../com.aspose.words/revision). |
+| [RevisionsView](../com.aspose.words/revisionsview) | Allows to specify whether to work with the original or revised version of a document. |
+| [Row](../com.aspose.words/row) | Represents a table row. |
+| [RowCollection](../com.aspose.words/rowcollection) | Provides typed access to a collection of [Row](../com.aspose.words/row) nodes. |
+| [RowFormat](../com.aspose.words/rowformat) | Represents all formatting for a table row. |
+| [RtfLoadOptions](../com.aspose.words/rtfloadoptions) | Allows to specify additional options when loading [LoadFormat.\#RTF](../com.aspose.words/loadformat\#RTF) document into a [Document](../com.aspose.words/document) object. |
+| [RtfSaveOptions](../com.aspose.words/rtfsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#RTF](../com.aspose.words/saveformat\#RTF) format. |
+| [Run](../com.aspose.words/run) | Represents a run of characters with the same font formatting. |
+| [RunCollection](../com.aspose.words/runcollection) | Provides typed access to a collection of [Run](../com.aspose.words/run) nodes. |
+| [SaveFormat](../com.aspose.words/saveformat) | Indicates the format in which the document is saved. |
+| [SaveOptions](../com.aspose.words/saveoptions) | This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format. |
+| [SaveOutputParameters](../com.aspose.words/saveoutputparameters) | This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. |
 | [ScriptShapingLevel](../com.aspose.words/scriptshapinglevel) |  |
-| [SdtAppearance](../com.aspose.words/sdtappearance) | 指定结构化文档标签的外观。 |
-| [SdtCalendar类型](../com.aspose.words/sdtcalendartype) | 指定可用于指定的可能的日历类型[StructuredDocumentTag.\#getCalendar类型()](../com.aspose.words/structureddocumenttag\#getCalendar类型--) / [StructuredDocumentTag.\#setCalendar类型(int)](../com.aspose.words/structureddocumenttag\#setCalendar类型-int-)在 Office Open XML 文档中。 |
-| [SdtDateStorageFormat](../com.aspose.words/sdtdatestorageformat) | 指定当 SDT 绑定到文档数据存储中的 XML 节点时如何存储/检索日期 SDT 的日期。 |
-| [SdtListItem](../com.aspose.words/sdtlistitem) | 此元素指定父项中的单个列表项[Sdt类型.\#COMBO\_BOX](../com.aspose.words/sdttype\#COMBO-BOX)或者[Sdt类型.\#DROP\_DOWN\_LIST](../com.aspose.words/sdttype\#DROP-DOWN-LIST)结构化文档标签。 |
-| [SdtListItemCollection](../com.aspose.words/sdtlistitemcollection) | 提供访问[SdtListItem](../com.aspose.words/sdtlistitem)结构化文档标签的元素。 |
-| [Sdt类型](../com.aspose.words/sdttype) | 指定结构化文档标签 (SDT) 节点的类型。 |
-| [Section](../com.aspose.words/section) | 表示文档中的单个部分。 |
-| [SectionCollection](../com.aspose.words/sectioncollection) | 一个集合**Section**文档中的对象。 |
-| [SectionLayoutMode](../com.aspose.words/sectionlayoutmode) | 指定允许定义文档网格行为的部分的布局模式。 |
-| [SectionStart](../com.aspose.words/sectionstart) | 节开头的中断类型。 |
-| [Shading](../com.aspose.words/shading) | 包含对象的着色属性。 |
-| [ShadowFormat](../com.aspose.words/shadowformat) | 表示对象的阴影格式。 |
-| [Shadow类型](../com.aspose.words/shadowtype) | 指定形状阴影的类型。 |
-| [Shape](../com.aspose.words/shape) | 表示绘图层中的对象，例如自选图形、文本框、自由格式、OLE 对象、ActiveX 控件或图片。 |
-| [ShapeBase](../com.aspose.words/shapebase) | 绘图层中对象的基类，例如自选图形、自由格式、OLE 对象、ActiveX 控件或图片。 |
-| [ShapeLineStyle](../com.aspose.words/shapelinestyle) | 指定 a 的复合线型[Shape](../com.aspose.words/shape). |
-| [ShapeMarkupLanguage](../com.aspose.words/shapemarkuplanguage) | 指定用于形状的标记语言。 |
-| [ShapeRenderer](../com.aspose.words/shaperenderer) | 提供渲染个体的方法[Shape](../com.aspose.words/shape)或者[GroupShape](../com.aspose.words/groupshape)到光栅或矢量图像或到图形对象。 |
-| [Shape类型](../com.aspose.words/shapetype) | 指定 Microsoft Word 文档中的形状类型。 |
-| [ShowInBalloons](../com.aspose.words/showinballoons) | 指定在气球中呈现哪些修订。 |
-| [SignOptions](../com.aspose.words/signoptions) | 允许指定文档签名的选项。 |
-| [SignatureLine](../com.aspose.words/signatureline) | 提供对签名行属性的访问。 |
-| [SignatureLineOptions](../com.aspose.words/signaturelineoptions) | 允许为插入的签名行指定选项。 |
-| [SmartTag](../com.aspose.words/smarttag) | 此元素指定段落中一个或多个内联结构（运行、图像、字段等）周围是否存在智能标记。 |
-| [SpecialChar](../com.aspose.words/specialchar) | 文档中特殊字符的基类。 |
-| [Story](../com.aspose.words/story) | 包含块级节点的元素的基类[Paragraph](../com.aspose.words/paragraph)和[Table](../com.aspose.words/table). |
-| [Story类型](../com.aspose.words/storytype) | Word 文档的文本存储在故事中。 |
-| [StreamFontSource](../com.aspose.words/streamfontsource) | 用户定义流字体源的基类。 |
-| [Stroke](../com.aspose.words/stroke) | 定义形状的笔触。 |
-| [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) | 表示文档中的结构化文档标签（SDT 或内容控件）。 |
-| [StructuredDocumentTagCollection](../com.aspose.words/structureddocumenttagcollection) | 一个集合[IStructuredDocumentTag](../com.aspose.words/istructureddocumenttag)表示指定范围内的结构化文档标签的实例。 |
-| [StructuredDocumentTagRangeEnd](../com.aspose.words/structureddocumenttagrangeend) | 代表结束**ranged**接受多节内容的结构化文档标签。 |
-| [StructuredDocumentTagRangeStart](../com.aspose.words/structureddocumenttagrangestart) | 代表一个开始**ranged**接受多节内容的结构化文档标签。 |
-| [Style](../com.aspose.words/style) | 表示单个内置或用户定义的样式。 |
-| [StyleCollection](../com.aspose.words/stylecollection) | Style 对象的集合，表示文档中的内置样式和用户定义的样式。 |
-| [StyleIdentifier](../com.aspose.words/styleidentifier) | 独立于语言环境的样式标识符。 |
-| [Style类型](../com.aspose.words/styletype) | 表示样式的类型。 |
-| [SubDocument](../com.aspose.words/subdocument) | 代表一个**SubDocument** \这是对外部存储文档的引用。 |
-| [SvgSaveOptions](../com.aspose.words/svgsaveoptions) | 可用于在将文档保存到[SaveFormat.\#SVG](../com.aspose.words/saveformat\#SVG)格式。 |
+| [SdtAppearance](../com.aspose.words/sdtappearance) | Specifies the appearance of a structured document tag. |
+| [SdtCalendarType](../com.aspose.words/sdtcalendartype) | Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.\#getCalendarType()](../com.aspose.words/structureddocumenttag\#getCalendarType--) / [StructuredDocumentTag.\#setCalendarType(int)](../com.aspose.words/structureddocumenttag\#setCalendarType-int-) in an Office Open XML document. |
+| [SdtDateStorageFormat](../com.aspose.words/sdtdatestorageformat) | Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store. |
+| [SdtListItem](../com.aspose.words/sdtlistitem) | This element specifies a single list item within a parent [SdtType.\#COMBO\_BOX](../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.\#DROP\_DOWN\_LIST](../com.aspose.words/sdttype\#DROP-DOWN-LIST) structured document tag. |
+| [SdtListItemCollection](../com.aspose.words/sdtlistitemcollection) | Provides access to [SdtListItem](../com.aspose.words/sdtlistitem) elements of a structured document tag. |
+| [SdtType](../com.aspose.words/sdttype) | Specifies the type of a structured document tag (SDT) node. |
+| [Section](../com.aspose.words/section) | Represents a single section in a document. |
+| [SectionCollection](../com.aspose.words/sectioncollection) | A collection of **Section** objects in the document. |
+| [SectionLayoutMode](../com.aspose.words/sectionlayoutmode) | Specifies the layout mode for a section allowing to define the document grid behavior. |
+| [SectionStart](../com.aspose.words/sectionstart) | The type of break at the beginning of the section. |
+| [Shading](../com.aspose.words/shading) | Contains shading attributes for an object. |
+| [ShadowFormat](../com.aspose.words/shadowformat) | Represents shadow formatting for an object. |
+| [ShadowType](../com.aspose.words/shadowtype) | Specifies the type of a shape shadow. |
+| [Shape](../com.aspose.words/shape) | Represents an object in the drawing layer, such as an AutoShape, textbox, freeform, OLE object, ActiveX control, or picture. |
+| [ShapeBase](../com.aspose.words/shapebase) | Base class for objects in the drawing layer, such as an AutoShape, freeform, OLE object, ActiveX control, or picture. |
+| [ShapeLineStyle](../com.aspose.words/shapelinestyle) | Specifies the compound line style of a [Shape](../com.aspose.words/shape). |
+| [ShapeMarkupLanguage](../com.aspose.words/shapemarkuplanguage) | Specifies Markup language used for the shape. |
+| [ShapeRenderer](../com.aspose.words/shaperenderer) | Provides methods to render an individual [Shape](../com.aspose.words/shape) or [GroupShape](../com.aspose.words/groupshape) to a raster or vector image or to a Graphics object. |
+| [ShapeType](../com.aspose.words/shapetype) | Specifies the type of shape in a Microsoft Word document. |
+| [ShowInBalloons](../com.aspose.words/showinballoons) | Specifies which revisions are rendered in balloons. |
+| [SignOptions](../com.aspose.words/signoptions) | Allows to specify options for document signing. |
+| [SignatureLine](../com.aspose.words/signatureline) | Provides access to signature line properties. |
+| [SignatureLineOptions](../com.aspose.words/signaturelineoptions) | Allows to specify options for signature line being inserted. |
+| [SmartTag](../com.aspose.words/smarttag) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
+| [SpecialChar](../com.aspose.words/specialchar) | Base class for special characters in the document. |
+| [Story](../com.aspose.words/story) | Base class for elements that contain block-level nodes [Paragraph](../com.aspose.words/paragraph) and [Table](../com.aspose.words/table). |
+| [StoryType](../com.aspose.words/storytype) | Text of a Word document is stored in stories. |
+| [StreamFontSource](../com.aspose.words/streamfontsource) | Base class for user-defined stream font source. |
+| [Stroke](../com.aspose.words/stroke) | Defines a stroke for a shape. |
+| [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) | Represents a structured document tag (SDT or content control) in a document. |
+| [StructuredDocumentTagCollection](../com.aspose.words/structureddocumenttagcollection) | A collection of [IStructuredDocumentTag](../com.aspose.words/istructureddocumenttag) instances that represent the structured document tags in the specified range. |
+| [StructuredDocumentTagRangeEnd](../com.aspose.words/structureddocumenttagrangeend) | Represents an end of **ranged** structured document tag which accepts multi-sections content. |
+| [StructuredDocumentTagRangeStart](../com.aspose.words/structureddocumenttagrangestart) | Represents a start of **ranged** structured document tag which accepts multi-sections content. |
+| [Style](../com.aspose.words/style) | Represents a single built-in or user-defined style. |
+| [StyleCollection](../com.aspose.words/stylecollection) | A collection of Style objects that represent both the built-in and user-defined styles in a document. |
+| [StyleIdentifier](../com.aspose.words/styleidentifier) | Locale independent style identifier. |
+| [StyleType](../com.aspose.words/styletype) | Represents type of the style. |
+| [SubDocument](../com.aspose.words/subdocument) | Represents a **SubDocument** \- which is a reference to an externally stored document. |
+| [SvgSaveOptions](../com.aspose.words/svgsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#SVG](../com.aspose.words/saveformat\#SVG) format. |
 | [SvgTextOutputMode](../com.aspose.words/svgtextoutputmode) |  |
-| [SystemFontSource](../com.aspose.words/systemfontsource) | 表示安装到系统的所有 True类型 字体。 |
-| [TabAlignment](../com.aspose.words/tabalignment) | 指定制表位的对齐方式/类型。 |
-| [TabLeader](../com.aspose.words/tableader) | 指定制表符下显示的引线的类型。 |
-| [TabStop](../com.aspose.words/tabstop) | 表示单个自定义制表位。 |
-| [TabStopCollection](../com.aspose.words/tabstopcollection) | 一个集合[TabStop](../com.aspose.words/tabstop)代表段落或样式的自定义选项卡的对象。 |
-| [Table](../com.aspose.words/table) | 表示 Word 文档中的表格。 |
-| [TableAlignment](../com.aspose.words/tablealignment) | 指定内联表的对齐方式。 |
-| [TableCollection](../com.aspose.words/tablecollection) | 提供对集合的类型化访问[Table](../com.aspose.words/table)节点。 |
-| [TableContentAlignment](../com.aspose.words/tablecontentalignment) | 允许指定导出为 Markdown 格式时要使用的表格内容的对齐方式。 |
-| [TableStyle](../com.aspose.words/tablestyle) | 表示表格样式。 |
-| [TableStyleOptions](../com.aspose.words/tablestyleoptions) | 指定如何将表格样式应用于表格。 |
-| [TableSubstitutionRule](../com.aspose.words/tablesubstitutionrule) | 表格字体替换规则。 |
-| [TaskPane](../com.aspose.words/taskpane) | 表示加载项任务窗格对象。 |
-| [TaskPaneCollection](../com.aspose.words/taskpanecollection) | 指定持久任务窗格对象的列表。 |
-| [TaskPaneDockState](../com.aspose.words/taskpanedockstate) | 枚举任务窗格对象的可用位置。 |
-| [TextBox](../com.aspose.words/textbox) | 定义指定文本如何在形状内显示的属性。 |
-| [TextBoxAnchor](../com.aspose.words/textboxanchor) | 指定用于形状文本垂直对齐的值。 |
-| [TextBoxWrapMode](../com.aspose.words/textboxwrapmode) | 指定文本在形状内的换行方式。 |
-| [TextColumn](../com.aspose.words/textcolumn) | 表示单个文本列。 |
-| [TextColumnCollection](../com.aspose.words/textcolumncollection) | 一个集合[TextColumn](../com.aspose.words/textcolumn)表示文档部分中所有文本列的对象。 |
-| [TextDmlEffect](../com.aspose.words/textdmleffect) | 文本运行的 Dml 文本效果。 |
-| [TextEffect](../com.aspose.words/texteffect) | 文本运行的动画效果。 |
-| [TextForm字段类型](../com.aspose.words/textformfieldtype) | 指定文本表单域的类型。 |
-| [TextOrientation](../com.aspose.words/textorientation) | 指定页面、表格单元格或文本框架中文本的方向。 |
-| [TextPath](../com.aspose.words/textpath) | 定义文本路径（艺术字对象）的文本和格式。 |
-| [TextPathAlignment](../com.aspose.words/textpathalignment) | 艺术字对齐。 |
-| [TextWatermarkOptions](../com.aspose.words/textwatermarkoptions) | 包含在添加带文本的水印时可以指定的选项。 |
-| [TextWrapping](../com.aspose.words/textwrapping) | 指定文本如何环绕表格。 |
-| [TextureAlignment](../com.aspose.words/texturealignment) | 指定纹理填充平铺的对齐方式。 |
-| [TextureIndex](../com.aspose.words/textureindex) | 指定着色纹理。 |
-| [Theme](../com.aspose.words/theme) | 代表文档主题，并提供对主要主题部分的访问，包括[Theme.\#getMajorFonts()](../com.aspose.words/theme\#getMajorFonts--), [Theme.\#getMinorFonts()](../com.aspose.words/theme\#getMinorFonts--)和[Theme.\#getColors()](../com.aspose.words/theme\#getColors--) |
-| [ThemeColor](../com.aspose.words/themecolor) | 指定文档主题的主题颜色。 |
-| [ThemeColors](../com.aspose.words/themecolors) | 表示包含十二种颜色的文档主题的配色方案。 |
-| [ThemeFont](../com.aspose.words/themefont) | 指定文档主题的主题字体名称类型。 |
-| [ThemeFonts](../com.aspose.words/themefonts) | 表示字体方案中的字体集合，允许为不同的语言指定不同的字体[ThemeFonts.\#getLatin()](../com.aspose.words/themefonts\#getLatin--) / [ThemeFonts.\#setLatin(java.lang.String)](../com.aspose.words/themefonts\#setLatin-java.lang.String-), [ThemeFonts.\#getEastAsian()](../com.aspose.words/themefonts\#getEastAsian--) / [ThemeFonts.\#setEastAsian(java.lang.String)](../com.aspose.words/themefonts\#setEastAsian-java.lang.String-)和[ThemeFonts.\#getComplexScript()](../com.aspose.words/themefonts\#getComplexScript--) / [ThemeFonts.\#setComplexScript(java.lang.String)](../com.aspose.words/themefonts\#setComplexScript-java.lang.String-). |
-| [ThumbnailGeneratingOptions](../com.aspose.words/thumbnailgeneratingoptions) | 可用于在为文档生成缩略图时指定其他选项。 |
-| [TiffCompression](../com.aspose.words/tiffcompression) | 指定将页面图像保存到 TIFF 文件时应用的压缩类型。 |
-| [ToaCategories](../com.aspose.words/toacategories) | 表示权限类别表。 |
-| [TxtExportHeadersFootersMode](../com.aspose.words/txtexportheadersfootersmode) | 指定将页眉和页脚导出为纯文本格式的方式。 |
-| [TxtLeadingSpacesOptions](../com.aspose.words/txtleadingspacesoptions) | 指定导入期间前导空间处理的可用选项[LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT)文件。 |
-| [TxtListIndentation](../com.aspose.words/txtlistindentation) | 指定文档导出到时如何缩进列表级别[SaveFormat.\#TEXT](../com.aspose.words/saveformat\#TEXT)格式。 |
-| [TxtLoadOptions](../com.aspose.words/txtloadoptions) | 允许在加载时指定其他选项[LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT)文档成一个[Document](../com.aspose.words/document)目的。 |
-| [TxtSaveOptions](../com.aspose.words/txtsaveoptions) | 可用于在将文档保存到[SaveFormat.\#TEXT](../com.aspose.words/saveformat\#TEXT)格式。 |
-| [TxtSaveOptionsBase](../com.aspose.words/txtsaveoptionsbase) | 将文档保存为基于文本的格式时指定附加选项的基类。 |
-| [TxtTrailingSpacesOptions](../com.aspose.words/txttrailingspacesoptions) | 指定在从导入期间处理尾随空格的可用选项[LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT)文件。 |
-| [Underline](../com.aspose.words/underline) | 指示应用于字体的下划线类型。 |
+| [SystemFontSource](../com.aspose.words/systemfontsource) | Represents all TrueType fonts installed to the system. |
+| [TabAlignment](../com.aspose.words/tabalignment) | Specifies the alignment/type of a tab stop. |
+| [TabLeader](../com.aspose.words/tableader) | Specifies the type of the leader line displayed under the tab character. |
+| [TabStop](../com.aspose.words/tabstop) | Represents a single custom tab stop. |
+| [TabStopCollection](../com.aspose.words/tabstopcollection) | A collection of [TabStop](../com.aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style. |
+| [Table](../com.aspose.words/table) | Represents a table in a Word document. |
+| [TableAlignment](../com.aspose.words/tablealignment) | Specifies alignment for an inline table. |
+| [TableCollection](../com.aspose.words/tablecollection) | Provides typed access to a collection of [Table](../com.aspose.words/table) nodes. |
+| [TableContentAlignment](../com.aspose.words/tablecontentalignment) | Allows to specify the alignment of the content of the table to be used when exporting into Markdown format. |
+| [TableStyle](../com.aspose.words/tablestyle) | Represents a table style. |
+| [TableStyleOptions](../com.aspose.words/tablestyleoptions) | Specifies how table style is applied to a table. |
+| [TableSubstitutionRule](../com.aspose.words/tablesubstitutionrule) | Table font substitution rule. |
+| [TaskPane](../com.aspose.words/taskpane) | Represents an add-in task pane object. |
+| [TaskPaneCollection](../com.aspose.words/taskpanecollection) | Specifies a list of persisted task pane objects. |
+| [TaskPaneDockState](../com.aspose.words/taskpanedockstate) | Enumerates available locations of task pane object. |
+| [TextBox](../com.aspose.words/textbox) | Defines attributes that specify how a text is displayed inside a shape. |
+| [TextBoxAnchor](../com.aspose.words/textboxanchor) | Specifies values used for shape text vertical alignment. |
+| [TextBoxWrapMode](../com.aspose.words/textboxwrapmode) | Specifies how text wraps inside a shape. |
+| [TextColumn](../com.aspose.words/textcolumn) | Represents a single text column. |
+| [TextColumnCollection](../com.aspose.words/textcolumncollection) | A collection of [TextColumn](../com.aspose.words/textcolumn) objects that represent all the columns of text in a section of a document. |
+| [TextDmlEffect](../com.aspose.words/textdmleffect) | Dml text effect for text runs. |
+| [TextEffect](../com.aspose.words/texteffect) | Animation effect for text runs. |
+| [TextFormFieldType](../com.aspose.words/textformfieldtype) | Specifies the type of a text form field. |
+| [TextOrientation](../com.aspose.words/textorientation) | Specifies orientation of text on a page, in a table cell or a text frame. |
+| [TextPath](../com.aspose.words/textpath) | Defines the text and formatting of the text path (of a WordArt object). |
+| [TextPathAlignment](../com.aspose.words/textpathalignment) | WordArt alignment. |
+| [TextWatermarkOptions](../com.aspose.words/textwatermarkoptions) | Contains options that can be specified when adding a watermark with text. |
+| [TextWrapping](../com.aspose.words/textwrapping) | Specifies how text is wrapped around the table. |
+| [TextureAlignment](../com.aspose.words/texturealignment) | Specifies the alignment for the tiling of the texture fill. |
+| [TextureIndex](../com.aspose.words/textureindex) | Specifies shading texture. |
+| [Theme](../com.aspose.words/theme) | Represents document Theme, and provides access to main theme parts including [Theme.\#getMajorFonts()](../com.aspose.words/theme\#getMajorFonts--), [Theme.\#getMinorFonts()](../com.aspose.words/theme\#getMinorFonts--) and [Theme.\#getColors()](../com.aspose.words/theme\#getColors--) |
+| [ThemeColor](../com.aspose.words/themecolor) | Specifies the theme colors for document themes. |
+| [ThemeColors](../com.aspose.words/themecolors) | Represents the color scheme of the document theme which contains twelve colors. |
+| [ThemeFont](../com.aspose.words/themefont) | Specifies the types of theme font names for document themes. |
+| [ThemeFonts](../com.aspose.words/themefonts) | Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.\#getLatin()](../com.aspose.words/themefonts\#getLatin--) / [ThemeFonts.\#setLatin(java.lang.String)](../com.aspose.words/themefonts\#setLatin-java.lang.String-), [ThemeFonts.\#getEastAsian()](../com.aspose.words/themefonts\#getEastAsian--) / [ThemeFonts.\#setEastAsian(java.lang.String)](../com.aspose.words/themefonts\#setEastAsian-java.lang.String-) and [ThemeFonts.\#getComplexScript()](../com.aspose.words/themefonts\#getComplexScript--) / [ThemeFonts.\#setComplexScript(java.lang.String)](../com.aspose.words/themefonts\#setComplexScript-java.lang.String-). |
+| [ThumbnailGeneratingOptions](../com.aspose.words/thumbnailgeneratingoptions) | Can be used to specify additional options when generating thumbnail for a document. |
+| [TiffCompression](../com.aspose.words/tiffcompression) | Specifies what type of compression to apply when saving page images into a TIFF file. |
+| [ToaCategories](../com.aspose.words/toacategories) | Represents a table of authorities categories. |
+| [TxtExportHeadersFootersMode](../com.aspose.words/txtexportheadersfootersmode) | Specifies the way headers and footers are exported to plain text format. |
+| [TxtLeadingSpacesOptions](../com.aspose.words/txtleadingspacesoptions) | Specifies available options for leading space handling during import from [LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT) file. |
+| [TxtListIndentation](../com.aspose.words/txtlistindentation) | Specifies how list levels are indented when document is exporting to [SaveFormat.\#TEXT](../com.aspose.words/saveformat\#TEXT) format. |
+| [TxtLoadOptions](../com.aspose.words/txtloadoptions) | Allows to specify additional options when loading [LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT) document into a [Document](../com.aspose.words/document) object. |
+| [TxtSaveOptions](../com.aspose.words/txtsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#TEXT](../com.aspose.words/saveformat\#TEXT) format. |
+| [TxtSaveOptionsBase](../com.aspose.words/txtsaveoptionsbase) | The base class for specifying additional options when saving a document into a text based formats. |
+| [TxtTrailingSpacesOptions](../com.aspose.words/txttrailingspacesoptions) | Specifies available options for trailing spaces handling during import from [LoadFormat.\#TEXT](../com.aspose.words/loadformat\#TEXT) file. |
+| [Underline](../com.aspose.words/underline) | Indicates type of the underline applied to a font. |
 | [UnicodeScript](../com.aspose.words/unicodescript) |  |
-| [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception) | 在文档加载期间，当 Aspose.Words 无法识别或不支持文档格式时抛出。 |
-| [UserInformation](../com.aspose.words/userinformation) | 指定有关用户的信息。 |
-| [VariableCollection](../com.aspose.words/variablecollection) | 文档变量的集合。 |
-| [VbaModule](../com.aspose.words/vbamodule) | 提供对 VBA 项目模块的访问。 |
-| [VbaModuleCollection](../com.aspose.words/vbamodulecollection) | 代表一个集合[VbaModule](../com.aspose.words/vbamodule)对象。 |
-| [VbaModule类型](../com.aspose.words/vbamoduletype) | 指定 VBA 项目中模型的类型。 |
-| [VbaProject](../com.aspose.words/vbaproject) | 提供对 VBA 项目信息的访问。 |
-| [VbaReference](../com.aspose.words/vbareference) | 实现对自动化类型库或 VBA 项目的引用。 |
-| [VbaReferenceCollection](../com.aspose.words/vbareferencecollection) | 代表一个集合[VbaReference](../com.aspose.words/vbareference)对象。 |
-| [VbaReference类型](../com.aspose.words/vbareferencetype) | 允许指定类型[VbaReference](../com.aspose.words/vbareference)目的。 |
-| [VerticalAlignment](../com.aspose.words/verticalalignment) | 指定浮动形状、文本框架或浮动表格的垂直对齐方式。 |
-| [ViewOptions](../com.aspose.words/viewoptions) | 提供各种选项来控制文档在 Microsoft Word 中的显示方式。 |
-| [View类型](../com.aspose.words/viewtype) | Microsoft Word 中视图模式的可能值。 |
-| [VisitorAction](../com.aspose.words/visitoraction) | 允许访问者控制节点的枚举。 |
-| [WarningInfo](../com.aspose.words/warninginfo) | 包含有关 Aspose.Words 在文档加载或保存期间发出的警告的信息。 |
-| [WarningInfoCollection](../com.aspose.words/warninginfocollection) | 表示一个类型化的集合[WarningInfo](../com.aspose.words/warninginfo)对象。 |
-| [WarningSource](../com.aspose.words/warningsource) | 指定在文档加载或保存期间产生警告的模块。 |
-| [Warning类型](../com.aspose.words/warningtype) | 指定在文档加载或保存期间由 Aspose.Words 发出的警告的类型。 |
-| [Watermark](../com.aspose.words/watermark) | 表示使用文档水印的类。 |
-| [WatermarkLayout](../com.aspose.words/watermarklayout) | 定义相对于水印中心的水印布局。 |
-| [Watermark类型](../com.aspose.words/watermarktype) | 指定水印类型。 |
-| [WebExtension](../com.aspose.words/webextension) | 表示一个 Web 扩展对象。 |
-| [WebExtensionBinding](../com.aspose.words/webextensionbinding) | 指定 Web 扩展和文档中的数据之间的绑定关系。 |
-| [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection) | 指定 Web 扩展绑定列表。 |
-| [WebExtensionBinding类型](../com.aspose.words/webextensionbindingtype) | 枚举 Web 扩展和文档中数据之间的可用绑定类型。 |
-| [WebExtensionProperty](../com.aspose.words/webextensionproperty) | 指定 Web 扩展定制属性。 |
-| [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection) | 指定一组 Web 扩展定制属性。 |
-| [WebExtensionReference](../com.aspose.words/webextensionreference) | 表示对 Web 扩展的引用。 |
-| [WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection) | 指定 Web 扩展引用的列表。 |
-| [WebExtensionStore类型](../com.aspose.words/webextensionstoretype) | 枚举 Web 扩展商店的可用类型。 |
-| [WordML2003SaveOptions](../com.aspose.words/wordml2003saveoptions) | 可用于在将文档保存到[SaveFormat.\#WORD\_ML](../com.aspose.words/saveformat\#WORD-ML)格式。 |
-| [WrapSide](../com.aspose.words/wrapside) | 指定文本环绕的形状或图片的哪一侧。 |
-| [Wrap类型](../com.aspose.words/wraptype) | 指定文本如何环绕形状或图片。 |
-| [WriteProtection](../com.aspose.words/writeprotection) | 指定文档的写保护设置。 |
+| [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
+| [UserInformation](../com.aspose.words/userinformation) | Specifies information about the user. |
+| [VariableCollection](../com.aspose.words/variablecollection) | A collection of document variables. |
+| [VbaModule](../com.aspose.words/vbamodule) | Provides access to VBA project module. |
+| [VbaModuleCollection](../com.aspose.words/vbamodulecollection) | Represents a collection of [VbaModule](../com.aspose.words/vbamodule) objects. |
+| [VbaModuleType](../com.aspose.words/vbamoduletype) | Specifies the type of a model in a VBA project. |
+| [VbaProject](../com.aspose.words/vbaproject) | Provides access to VBA project information. |
+| [VbaReference](../com.aspose.words/vbareference) | Implements a reference to an Automation type library or VBA project. |
+| [VbaReferenceCollection](../com.aspose.words/vbareferencecollection) | Represents a collection of [VbaReference](../com.aspose.words/vbareference) objects. |
+| [VbaReferenceType](../com.aspose.words/vbareferencetype) | Allows to specify the type of a [VbaReference](../com.aspose.words/vbareference) object. |
+| [VerticalAlignment](../com.aspose.words/verticalalignment) | Specifies vertical alignment of a floating shape, text frame or a floating table. |
+| [ViewOptions](../com.aspose.words/viewoptions) | Provides various options that control how a document is shown in Microsoft Word. |
+| [ViewType](../com.aspose.words/viewtype) | Possible values for the view mode in Microsoft Word. |
+| [VisitorAction](../com.aspose.words/visitoraction) | Allows the visitor to control the enumeration of nodes. |
+| [WarningInfo](../com.aspose.words/warninginfo) | Contains information about a warning that Aspose.Words issued during document loading or saving. |
+| [WarningInfoCollection](../com.aspose.words/warninginfocollection) | Represents a typed collection of [WarningInfo](../com.aspose.words/warninginfo) objects. |
+| [WarningSource](../com.aspose.words/warningsource) | Specifies the module that produces a warning during document loading or saving. |
+| [WarningType](../com.aspose.words/warningtype) | Specifies the type of a warning that is issued by Aspose.Words during document loading or saving. |
+| [Watermark](../com.aspose.words/watermark) | Represents class to work with document watermark. |
+| [WatermarkLayout](../com.aspose.words/watermarklayout) | Defines layout of the watermark relative to the watermark center. |
+| [WatermarkType](../com.aspose.words/watermarktype) | Specifies the watermark type. |
+| [WebExtension](../com.aspose.words/webextension) | Represents a web extension object. |
+| [WebExtensionBinding](../com.aspose.words/webextensionbinding) | Specifies a binding relationship between a web extension and the data in the document. |
+| [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection) | Specifies a list of web extension bindings. |
+| [WebExtensionBindingType](../com.aspose.words/webextensionbindingtype) | Enumerates available types of binding between a web extension and the data in the document. |
+| [WebExtensionProperty](../com.aspose.words/webextensionproperty) | Specifies a web extension custom property. |
+| [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection) | Specifies a set of web extension custom properties. |
+| [WebExtensionReference](../com.aspose.words/webextensionreference) | Represents the reference to a web extension. |
+| [WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection) | Specifies a list of web extension references. |
+| [WebExtensionStoreType](../com.aspose.words/webextensionstoretype) | Enumerates available types of a web extension store. |
+| [WordML2003SaveOptions](../com.aspose.words/wordml2003saveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#WORD\_ML](../com.aspose.words/saveformat\#WORD-ML) format. |
+| [WrapSide](../com.aspose.words/wrapside) | Specifies what side(s) of the shape or picture the text wraps around. |
+| [WrapType](../com.aspose.words/wraptype) | Specifies how text is wrapped around a shape or picture. |
+| [WriteProtection](../com.aspose.words/writeprotection) | Specifies write protection settings for a document. |
 | [X509Certificate2Wrapper](../com.aspose.words/x509certificate2wrapper) |  |
-| [XamlFixedSaveOptions](../com.aspose.words/xamlfixedsaveoptions) | 可用于在将文档保存到[SaveFormat.\#XAML\_FIXED](../com.aspose.words/saveformat\#XAML-FIXED)格式。 |
-| [XamlFlowSaveOptions](../com.aspose.words/xamlflowsaveoptions) | 可用于在将文档保存到[SaveFormat.\#XAML\_FLOW](../com.aspose.words/saveformat\#XAML-FLOW)或者[SaveFormat.\#XAML\_FLOW\_PACK](../com.aspose.words/saveformat\#XAML-FLOW-PACK)格式。 |
-| [XmlDataLoadOptions](../com.aspose.words/xmldataloadoptions) | 表示 XML 数据加载的选项。 |
-| [XmlDataSource](../com.aspose.words/xmldatasource) | 提供对要在报告中使用的 XML 文件或流的数据的访问。 |
-| [XmlMapping](../com.aspose.words/xmlmapping) | 指定用于在父结构化文档标记和存储在文档的自定义 XML 数据部分中的 XML 元素之间建立映射的信息。 |
-| [XpsSaveOptions](../com.aspose.words/xpssaveoptions) | 可用于在将文档保存到[SaveFormat.\#XPS](../com.aspose.words/saveformat\#XPS)格式。 |
-| [Zoom类型](../com.aspose.words/zoomtype) | 文档在 Microsoft Word 屏幕上显示的大小的可能值。 |
+| [XamlFixedSaveOptions](../com.aspose.words/xamlfixedsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FIXED](../com.aspose.words/saveformat\#XAML-FIXED) format. |
+| [XamlFlowSaveOptions](../com.aspose.words/xamlflowsaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XAML\_FLOW](../com.aspose.words/saveformat\#XAML-FLOW) or [SaveFormat.\#XAML\_FLOW\_PACK](../com.aspose.words/saveformat\#XAML-FLOW-PACK) format. |
+| [XmlDataLoadOptions](../com.aspose.words/xmldataloadoptions) | Represents options for XML data loading. |
+| [XmlDataSource](../com.aspose.words/xmldatasource) | Provides access to data of an XML file or stream to be used within a report. |
+| [XmlMapping](../com.aspose.words/xmlmapping) | Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document. |
+| [XpsSaveOptions](../com.aspose.words/xpssaveoptions) | Can be used to specify additional options when saving a document into the [SaveFormat.\#XPS](../com.aspose.words/saveformat\#XPS) format. |
+| [ZoomType](../com.aspose.words/zoomtype) | Possible values for how large or small the document appears on the screen in Microsoft Word. |
 
-## 界面s
+## Interfaces
 
-| 界面 | 描述 |
+| Interface | Description |
 | --- | --- |
-| [IBarcodeGenerator](../com.aspose.words/ibarcodegenerator) | 条形码自定义生成器的公共接口。 |
-| [IChartDataPoint](../com.aspose.words/ichartdatapoint) | 包含图表上单个数据点的属性。 |
-| [IComparisonExpressionEvaluator](../com.aspose.words/icomparisonexpressionevaluator) | 实施时，允许覆盖默认比较表达式评估[字段If](../com.aspose.words/fieldif)和[字段Compare](../com.aspose.words/fieldcompare)字段。 |
-| [ICssSavingCallback](../com.aspose.words/icsssavingcallback) | 如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存 CSS（层叠样式表），请实现此接口。 |
-| [IDocumentLoadingCallback](../com.aspose.words/idocumentloadingcallback) | 如果您想在加载文档期间调用自己的自定义方法，请实现此接口。 |
-| [IDocumentPartSavingCallback](../com.aspose.words/idocumentpartsavingcallback) | 如果您想接收通知并控制 Aspose.Words 在将文档导出到[SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML)或者[SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB)格式。 |
-| [IDocumentReaderPlugin](../com.aspose.words/idocumentreaderplugin) | 为可以将文件读入文档的外部阅读器插件定义接口。 |
-| [IDocumentSavingCallback](../com.aspose.words/idocumentsavingcallback) | 如果您希望在保存文档期间调用自己的自定义方法，请实现此接口。 |
-| [I字段DatabaseProvider](../com.aspose.words/ifielddatabaseprovider) | 实现此接口以提供数据[字段Database](../com.aspose.words/fielddatabase)更新时的字段。 |
-| [I字段MergingCallback](../com.aspose.words/ifieldmergingcallback) | 如果您想控制在邮件合并操作期间如何将数据插入到合并字段中，请实现此接口。 |
-| [I字段ResultFormatter](../com.aspose.words/ifieldresultformatter) | 如果要控制字段结果的格式，请实现此接口。 |
-| [I字段UpdateCultureProvider](../com.aspose.words/ifieldupdatecultureprovider) | 实施时，提供了一个[CultureInfo](../com.aspose.words.net.system.globalization/cultureinfo)在更新特定字段期间应使用的对象。 |
-| [I字段UpdatingCallback](../com.aspose.words/ifieldupdatingcallback) | 如果您想在字段更新期间调用自己的自定义方法，请实现此接口。 |
-| [I字段UserPromptRespondent](../com.aspose.words/ifielduserpromptrespondent) | 代表字段更新期间用户提示的响应者。 |
-| [IFontSavingCallback](../com.aspose.words/ifontsavingcallback) | 如果您想接收通知并控制 Aspose.Words 在将文档导出为 HTML 格式时如何保存字体，请实现此接口。 |
-| [IHyphenationCallback](../com.aspose.words/ihyphenationcallback) | 由可以注册连字符字典的类实现。 |
-| [IImageSavingCallback](../com.aspose.words/iimagesavingcallback) | 如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存图像，请实现此接口。 |
-| [IMailMergeCallback](../com.aspose.words/imailmergecallback) | 如果您想在执行邮件合并时接收通知，请实现此接口。 |
-| [IMailMergeDataSource](../com.aspose.words/imailmergedatasource) | 实现此接口以允许来自自定义数据源（例如对象列表）的邮件合并。 |
-| [IMailMergeDataSourceRoot](../com.aspose.words/imailmergedatasourceroot) | 实现此接口以允许来自自定义数据源的邮件与主从数据合并。 |
-| [INodeChangingCallback](../com.aspose.words/inodechangingcallback) | 如果您想在文档中插入或删除节点时接收通知，请实现此接口。 |
-| [IPageLayoutCallback](../com.aspose.words/ipagelayoutcallback) | 如果您希望在构建和呈现页面布局模型期间调用自己的自定义方法，请实现此接口。 |
-| [IPageSavingCallback](../com.aspose.words/ipagesavingcallback) | 如果您想控制 Aspose.Words 在将文档保存为固定页面格式时如何保存单独的页面，请实现此接口。 |
-| [IReplacingCallback](../com.aspose.words/ireplacingcallback) | 如果您希望在查找和替换操作期间调用您自己的自定义方法，请实现此接口。 |
-| [IResourceLoadingCallback](../com.aspose.words/iresourceloadingcallback) | 如果您想控制 Aspose.Words 在导入文档和插入图像时如何加载外部资源，请实现此接口[DocumentBuilder](../com.aspose.words/documentbuilder). |
-| [IResourceSavingCallback](../com.aspose.words/iresourcesavingcallback) | 如果您想控制 Aspose.Words 在将文档保存到固定页面 HTML 或 SVG 时如何保存外部资源（图像、字体和 css），请实现此接口。 |
-| [IStructuredDocumentTag](../com.aspose.words/istructureddocumenttag) | 定义通用数据的接口[StructuredDocumentTag](../com.aspose.words/structureddocumenttag)和[StructuredDocumentTagRangeStart](../com.aspose.words/structureddocumenttagrangestart). |
+| [IBarcodeGenerator](../com.aspose.words/ibarcodegenerator) | Public interface for barcode custom generator. |
+| [IChartDataPoint](../com.aspose.words/ichartdatapoint) | Contains properties of a single data point on the chart. |
+| [IComparisonExpressionEvaluator](../com.aspose.words/icomparisonexpressionevaluator) | When implemented, allows to override default comparison expressions evaluation for the [FieldIf](../com.aspose.words/fieldif) and [FieldCompare](../com.aspose.words/fieldcompare) fields. |
+| [ICssSavingCallback](../com.aspose.words/icsssavingcallback) | Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML. |
+| [IDocumentLoadingCallback](../com.aspose.words/idocumentloadingcallback) | Implement this interface if you want to have your own custom method called during loading a document. |
+| [IDocumentPartSavingCallback](../com.aspose.words/idocumentpartsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.\#HTML](../com.aspose.words/saveformat\#HTML) or [SaveFormat.\#EPUB](../com.aspose.words/saveformat\#EPUB) format. |
+| [IDocumentReaderPlugin](../com.aspose.words/idocumentreaderplugin) | Defines an interface for external reader plugins that can read a file into a document. |
+| [IDocumentSavingCallback](../com.aspose.words/idocumentsavingcallback) | Implement this interface if you want to have your own custom method called during saving a document. |
+| [IFieldDatabaseProvider](../com.aspose.words/ifielddatabaseprovider) | Implement this interface to provide data for the [FieldDatabase](../com.aspose.words/fielddatabase) field when it's updated. |
+| [IFieldMergingCallback](../com.aspose.words/ifieldmergingcallback) | Implement this interface if you want to control how data is inserted into merge fields during a mail merge operation. |
+| [IFieldResultFormatter](../com.aspose.words/ifieldresultformatter) | Implement this interface if you want to control how the field result is formatted. |
+| [IFieldUpdateCultureProvider](../com.aspose.words/ifieldupdatecultureprovider) | When implemented, provides a [CultureInfo](../com.aspose.words.net.system.globalization/cultureinfo) object that should be used during the update of a particular field. |
+| [IFieldUpdatingCallback](../com.aspose.words/ifieldupdatingcallback) | Implement this interface if you want to have your own custom methods called during a field update. |
+| [IFieldUserPromptRespondent](../com.aspose.words/ifielduserpromptrespondent) | Represents the respondent to user prompts during field update. |
+| [IFontSavingCallback](../com.aspose.words/ifontsavingcallback) | Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format. |
+| [IHyphenationCallback](../com.aspose.words/ihyphenationcallback) | Implemented by classes which can register hyphenation dictionaries. |
+| [IImageSavingCallback](../com.aspose.words/iimagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves images when saving a document to HTML. |
+| [IMailMergeCallback](../com.aspose.words/imailmergecallback) | Implement this interface if you want to receive notifications while mail merge is performed. |
+| [IMailMergeDataSource](../com.aspose.words/imailmergedatasource) | Implement this interface to allow mail merge from a custom data source, such as a list of objects. |
+| [IMailMergeDataSourceRoot](../com.aspose.words/imailmergedatasourceroot) | Implement this interface to allow mail merge from a custom data source with master-detail data. |
+| [INodeChangingCallback](../com.aspose.words/inodechangingcallback) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
+| [IPageLayoutCallback](../com.aspose.words/ipagelayoutcallback) | Implement this interface if you want to have your own custom method called during build and rendering of page layout model. |
+| [IPageSavingCallback](../com.aspose.words/ipagesavingcallback) | Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats. |
+| [IReplacingCallback](../com.aspose.words/ireplacingcallback) | Implement this interface if you want to have your own custom method called during a find and replace operation. |
+| [IResourceLoadingCallback](../com.aspose.words/iresourceloadingcallback) | Implement this interface if you want to control how Aspose.Words loads external resource when importing a document and inserting images using [DocumentBuilder](../com.aspose.words/documentbuilder). |
+| [IResourceSavingCallback](../com.aspose.words/iresourcesavingcallback) | Implement this interface if you want to control how Aspose.Words saves external resources (images, fonts and css) when saving a document to fixed page HTML or SVG. |
+| [IStructuredDocumentTag](../com.aspose.words/istructureddocumenttag) | Interface to define a common data for [StructuredDocumentTag](../com.aspose.words/structureddocumenttag) and [StructuredDocumentTagRangeStart](../com.aspose.words/structureddocumenttagrangestart). |
 | [ITextShaper](../com.aspose.words/itextshaper) |  |
 | [ITextShaperFactory](../com.aspose.words/itextshaperfactory) |  |
-| [IWarningCallback](../com.aspose.words/iwarningcallback) | 如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。 |
+| [IWarningCallback](../com.aspose.words/iwarningcallback) | Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving. |

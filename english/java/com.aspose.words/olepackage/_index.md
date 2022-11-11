@@ -1,36 +1,36 @@
 ---
-title: Ole包裹
-second_title: Aspose.Words for Java API 参考
-description: 允许访问 OLE 包属性。
+title: OlePackage
+second_title: Aspose.Words for Java API Reference
+description: Allows to access OLE Package properties.
 type: docs
 weight: 426
-url: /zh/java/com.aspose.words/olepackage/
+url: /java/com.aspose.words/olepackage/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Ole包裹
+public class OlePackage
 ```
 
-允许访问 OLE 包属性。
+Allows to access OLE Package properties.
 
-要了解更多信息，请访问**Working with Ole Objects**文档文章。
+To learn more, visit the **Working with Ole Objects** documentation article.
 
-如果 OLE 处理程序未知，OLE 包是一种传统且“未记录”的方式来存储嵌入对象。早期的 Windows 版本，如 Windows 3.1、95 和 98 都有 包裹r.exe 应用程序，可用于将任何类型的数据嵌入到文档中。现在此应用程序已从 Windows 中排除，但如果 OLE 处理程序丢失或未知，MS Word 和其他应用程序仍使用它来嵌入数据。
-## 方法s
+OLE package is a legacy and "undocumented" way to store embedded object if OLE handler is unknown. Early Windows versions such as Windows 3.1, 95 and 98 had Packager.exe application which could be used to embed any type of data into document. Now this application is excluded from Windows but MS Word and other applications still use it to embed data if OLE handler is missing or unknown.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDisplayName()](#getDisplayName--) | 获取 OLE 包显示名称。 |
-| [getFileName()](#getFileName--) | 获取 OLE 包文件名。 |
+| [getClass()](#getClass--) |  |
+| [getDisplayName()](#getDisplayName--) | Gets OLE Package display name. |
+| [getFileName()](#getFileName--) | Gets OLE Package file name. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | 设置 OLE 包显示名称。 |
-| [setFileName(String value)](#setFileName-java.lang.String-) | 设置 OLE 包文件名。 |
+| [setDisplayName(String value)](#setDisplayName-java.lang.String-) | Sets OLE Package display name. |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets OLE Package file name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,43 +43,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayName() {#getDisplayName--}
 ```
 public String getDisplayName()
 ```
 
 
-获取 OLE 包显示名称。
+Gets OLE Package display name.
 
-**退货:**
-java.lang.String - OLE 包显示名称。
+**Returns:**
+java.lang.String - OLE Package display name.
 ### getFileName() {#getFileName--}
 ```
 public String getFileName()
 ```
 
 
-获取 OLE 包文件名。
+Gets OLE Package file name.
 
-**退货:**
-java.lang.String - OLE 包文件名。
+**Returns:**
+java.lang.String - OLE Package file name.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -88,8 +88,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -112,12 +112,12 @@ public void setDisplayName(String value)
 ```
 
 
-设置 OLE 包显示名称。
+Sets OLE Package display name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | OLE 包显示名称。 |
+| value | java.lang.String | OLE Package display name. |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -125,12 +125,12 @@ public void setFileName(String value)
 ```
 
 
-设置 OLE 包文件名。
+Sets OLE Package file name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | OLE 包文件名。 |
+| value | java.lang.String | OLE Package file name. |
 
 ### toString() {#toString--}
 ```
@@ -140,7 +140,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -158,8 +158,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -171,8 +171,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

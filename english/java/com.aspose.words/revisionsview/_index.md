@@ -1,33 +1,33 @@
 ---
 title: RevisionsView
-second_title: Aspose.Words for Java API 参考
-description: 允许指定是使用文档的原始版本还是修订版本。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify whether to work with the original or revised version of a document.
 type: docs
 weight: 491
-url: /zh/java/com.aspose.words/revisionsview/
+url: /java/com.aspose.words/revisionsview/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RevisionsView
 ```
 
-允许指定是使用文档的原始版本还是修订版本。
-## 字段
+Allows to specify whether to work with the original or revised version of a document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [FINAL](#FINAL) | 指定文档的修订版本。 |
-| [ORIGINAL](#ORIGINAL) | 指定文档的原始版本。 |
+| [FINAL](#FINAL) | Specifies revised version of a document. |
+| [ORIGINAL](#ORIGINAL) | Specifies original version of a document. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String revisionsViewName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int revisionsView)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int FINAL
 ```
 
 
-指定文档的修订版本。
+Specifies revised version of a document.
 
 ### ORIGINAL {#ORIGINAL}
 ```
@@ -52,7 +52,7 @@ public static int ORIGINAL
 ```
 
 
-指定文档的原始版本。
+Specifies original version of a document.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String revisionsViewName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String revisionsViewName)
@@ -83,23 +83,23 @@ public static int fromName(String revisionsViewName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionsViewName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int revisionsView) {#getName-int-}
 ```
 public static String getName(int revisionsView)
@@ -108,12 +108,12 @@ public static String getName(int revisionsView)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionsView | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int revisionsView) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int revisionsView)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | revisionsView | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,45 +1,45 @@
 ---
 title: JsonDataLoadOptions
-second_title: Aspose.Words for Java API 参考
-description: 表示解析 JSON 数据的选项。
+second_title: Aspose.Words for Java API Reference
+description: Represents options for parsing JSON data.
 type: docs
 weight: 353
-url: /zh/java/com.aspose.words/jsondataloadoptions/
+url: /java/com.aspose.words/jsondataloadoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class JsonDataLoadOptions
 ```
 
-表示解析 JSON 数据的选项。
+Represents options for parsing JSON data.
 
-要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
+To learn more, visit the **LINQ Reporting Engine** documentation article.
 
-此类的实例可以传递给[JsonDataSource](../../com.aspose.words/jsondatasource).
-## 构造函数s
+An instance of this class can be passed into constructors of [JsonDataSource](../../com.aspose.words/jsondatasource).
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [JsonDataLoadOptions()](#JsonDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
-## 方法s
+| [JsonDataLoadOptions()](#JsonDataLoadOptions--) | Initializes a new instance of this class with default options. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | 获取一个标志，该标志指示生成的数据源是否将始终包含 JSON 根元素的对象。 |
-| [get班级()](#get班级--) |  |
-| [getExactDateTimeParseFormat()](#getExactDateTimeParseFormat--) | 获取在加载 JSON 时解析 JSON 日期时间值的准确格式。 |
-| [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats--) | 获取在加载 JSON 时解析 JSON 日期时间值的确切格式。 |
-| [getSimpleValueParseMode()](#getSimpleValueParseMode--) | 获取在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。 |
+| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
+| [getClass()](#getClass--) |  |
+| [getExactDateTimeParseFormat()](#getExactDateTimeParseFormat--) | Gets an exact format for parsing JSON date-time values while loading JSON. |
+| [getExactDateTimeParseFormats()](#getExactDateTimeParseFormats--) | Gets exact formats for parsing JSON date-time values while loading JSON. |
+| [getSimpleValueParseMode()](#getSimpleValueParseMode--) | Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | 设置一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。 |
-| [setExactDateTimeParseFormat(String value)](#setExactDateTimeParseFormat-java.lang.String-) | 设置在加载 JSON 时解析 JSON 日期时间值的精确格式。 |
-| [setExactDateTimeParseFormats(Iterable value)](#setExactDateTimeParseFormats-java.lang.Iterable-) | 设置在加载 JSON 时解析 JSON 日期时间值的确切格式。 |
-| [setSimpleValueParseMode(int value)](#setSimpleValueParseMode-int-) | 设置在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。 |
+| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. |
+| [setExactDateTimeParseFormat(String value)](#setExactDateTimeParseFormat-java.lang.String-) | Sets an exact format for parsing JSON date-time values while loading JSON. |
+| [setExactDateTimeParseFormats(Iterable value)](#setExactDateTimeParseFormats-java.lang.Iterable-) | Sets exact formats for parsing JSON date-time values while loading JSON. |
+| [setSimpleValueParseMode(int value)](#setSimpleValueParseMode-int-) | Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public JsonDataLoadOptions()
 ```
 
 
-使用默认选项初始化此类的新实例。
+Initializes a new instance of this class with default options.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -60,75 +60,75 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject--}
 ```
 public boolean getAlwaysGenerateRootObject()
 ```
 
 
-获取一个标志，该标志指示生成的数据源是否将始终包含 JSON 根元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。默认值为**false**.
+Gets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. The default value is **false**.
 
-**退货:**
-boolean - 一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。
-### get班级() {#get班级--}
+**Returns:**
+boolean - A flag indicating whether a generated data source will always contain an object for a JSON root element.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getExactDateTimeParseFormat() {#getExactDateTimeParseFormat--}
 ```
 public String getExactDateTimeParseFormat()
 ```
 
 
-获取在加载 JSON 时解析 JSON 日期时间值的准确格式。默认是**null**.
+Gets an exact format for parsing JSON date-time values while loading JSON. The default is **null**.
 
-使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
+Strings encoded using Microsoft� JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是**null**, ISO-8601 格式和当前、美国英语和新西兰英语文化支持的所有日期时间格式都按上述顺序额外使用。
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是一个非空字符串，它用作利用当前区域性的单个附加日期时间格式。
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是一个空字符串，不使用额外的日期时间格式。
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is **null**, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is a non-empty string, it is used as a single additional date-time format utilizing the current culture.
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is an empty string, no additional date-time formats are used.
 
-**退货:**
-java.lang.String - 加载 JSON 时解析 JSON 日期时间值的精确格式。
+**Returns:**
+java.lang.String - An exact format for parsing JSON date-time values while loading JSON.
 ### getExactDateTimeParseFormats() {#getExactDateTimeParseFormats--}
 ```
 public Iterable getExactDateTimeParseFormats()
 ```
 
 
-获取在加载 JSON 时解析 JSON 日期时间值的确切格式。默认是**null**.
+Gets exact formats for parsing JSON date-time values while loading JSON. The default is **null**.
 
-使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
+Strings encoded using Microsoft� JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)是**null**, ISO-8601 格式和当前、美国英语和新西兰英语文化支持的所有日期时间格式都按上述顺序额外使用。
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)包含字符串，它们被用作利用当前文化的附加日期时间格式。
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)为空，不使用额外的日期时间格式。
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) is **null**, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) contains strings, they are used as additional date-time formats utilizing the current culture.
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) is empty, no additional date-time formats are used.
 
-**退货:**
-java.lang.Iterable - 加载 JSON 时解析 JSON 日期时间值的精确格式。
+**Returns:**
+java.lang.Iterable - Exact formats for parsing JSON date-time values while loading JSON.
 ### getSimpleValueParseMode() {#getSimpleValueParseMode--}
 ```
 public int getSimpleValueParseMode()
 ```
 
 
-获取在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
+Gets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is [JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
 
-**退货:**
-int - 一种在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。返回值是以下之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。
+**Returns:**
+int - A mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. The returned value is one of [JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -137,8 +137,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -161,12 +161,12 @@ public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-设置一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。如果 JSON 根元素包含单个复杂属性，则默认情况下不会创建此类对象。默认值为**false**.
+Sets a flag indicating whether a generated data source will always contain an object for a JSON root element. If a JSON root element contains a single complex property, such an object is not created by default. The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个标志，指示生成的数据源是否将始终包含 JSON 根元素的对象。 |
+| value | boolean | A flag indicating whether a generated data source will always contain an object for a JSON root element. |
 
 ### setExactDateTimeParseFormat(String value) {#setExactDateTimeParseFormat-java.lang.String-}
 ```
@@ -174,18 +174,18 @@ public void setExactDateTimeParseFormat(String value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 日期时间值的精确格式。默认是**null**.
+Sets an exact format for parsing JSON date-time values while loading JSON. The default is **null**.
 
-使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
+Strings encoded using Microsoft� JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是**null**, ISO-8601 格式和当前、美国英语和新西兰英语文化支持的所有日期时间格式都按上述顺序额外使用。
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是一个非空字符串，它用作利用当前区域性的单个附加日期时间格式。
- *  什么时候[getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-)是一个空字符串，不使用额外的日期时间格式。
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is **null**, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is a non-empty string, it is used as a single additional date-time format utilizing the current culture.
+ *  When [getExactDateTimeParseFormat()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormat--) / [setExactDateTimeParseFormat(java.lang.String)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormat-java.lang.String-) is an empty string, no additional date-time formats are used.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 加载 JSON 时解析 JSON 日期时间值的精确格式。 |
+| value | java.lang.String | An exact format for parsing JSON date-time values while loading JSON. |
 
 ### setExactDateTimeParseFormats(Iterable value) {#setExactDateTimeParseFormats-java.lang.Iterable-}
 ```
@@ -193,18 +193,18 @@ public void setExactDateTimeParseFormats(Iterable value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 日期时间值的确切格式。默认是**null**.
+Sets exact formats for parsing JSON date-time values while loading JSON. The default is **null**.
 
-使用 Microsoft JSON 日期时间格式编码的字符串（例如，“/Date(1224043200000)/”）始终被识别为日期时间值，无论此属性的值如何。该属性定义了在以下列方式解析字符串中的日期时间值时要使用的其他格式：
+Strings encoded using Microsoft� JSON date-time format (for example, "/Date(1224043200000)/") are always recognized as date-time values regardless of a value of this property. The property defines additional formats to be used while parsing date-time values from strings in the following way:
 
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)是**null**, ISO-8601 格式和当前、美国英语和新西兰英语文化支持的所有日期时间格式都按上述顺序额外使用。
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)包含字符串，它们被用作利用当前文化的附加日期时间格式。
- *  什么时候[getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-)为空，不使用额外的日期时间格式。
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) is **null**, the ISO-8601 format and all date-time formats supported for the current, English USA, and English New Zealand cultures are used additionally in the mentioned order.
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) contains strings, they are used as additional date-time formats utilizing the current culture.
+ *  When [getExactDateTimeParseFormats()](../../com.aspose.words/jsondataloadoptions\#getExactDateTimeParseFormats--) / [setExactDateTimeParseFormats(java.lang.Iterable)](../../com.aspose.words/jsondataloadoptions\#setExactDateTimeParseFormats-java.lang.Iterable-) is empty, no additional date-time formats are used.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.Iterable | 加载 JSON 时解析 JSON 日期时间值的确切格式。 |
+| value | java.lang.Iterable | Exact formats for parsing JSON date-time values while loading JSON. |
 
 ### setSimpleValueParseMode(int value) {#setSimpleValueParseMode-int-}
 ```
@@ -212,12 +212,12 @@ public void setSimpleValueParseMode(int value)
 ```
 
 
-设置在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。默认是[JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
+Sets a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values. The default is [JsonSimpleValueParseMode.LOOSE](../../com.aspose.words/jsonsimplevalueparsemode\#LOOSE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 一种在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。该值必须是以下之一[JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode)常数。 |
+| value | int | A mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. The value must be one of [JsonSimpleValueParseMode](../../com.aspose.words/jsonsimplevalueparsemode) constants. |
 
 ### toString() {#toString--}
 ```
@@ -227,7 +227,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -245,8 +245,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -258,8 +258,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

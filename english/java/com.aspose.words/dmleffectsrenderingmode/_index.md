@@ -1,34 +1,34 @@
 ---
 title: DmlEffectsRenderingMode
-second_title: Aspose.Words for Java API 参考
-description: 指定如何将 DrawingML 效果呈现为固定页面格式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how DrawingML effects are rendered to fixed page formats.
 type: docs
 weight: 117
-url: /zh/java/com.aspose.words/dmleffectsrenderingmode/
+url: /java/com.aspose.words/dmleffectsrenderingmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DmlEffectsRenderingMode
 ```
 
-指定如何将 DrawingML 效果呈现为固定页面格式。
-## 字段
+Specifies how DrawingML effects are rendered to fixed page formats.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [FINE](#FINE) | DrawingML 效果以精细模式呈现，其中涉及高级处理。 |
-| [NONE](#NONE) | 不渲染 DrawingML 效果。 |
-| [SIMPLIFIED](#SIMPLIFIED) | 简化了 DrawingML 效果的渲染。 |
+| [FINE](#FINE) | DrawingML effects are rendered in fine mode which involves advanced processing. |
+| [NONE](#NONE) | No DrawingML effects are rendered. |
+| [SIMPLIFIED](#SIMPLIFIED) | Rendering of DrawingML effects are simplified. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dmlEffectsRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dmlEffectsRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int FINE
 ```
 
 
- DrawingML 效果以精细模式呈现，其中涉及高级处理。在这种模式下，效果渲染提供了更好的结果，但性能成本高于[SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED)模式。
+DrawingML effects are rendered in fine mode which involves advanced processing. In this mode rendering of effects gives better results but at a higher performance cost than [SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED) mode.
 
 ### NONE {#NONE}
 ```
@@ -53,7 +53,7 @@ public static int NONE
 ```
 
 
-不渲染 DrawingML 效果。
+No DrawingML effects are rendered.
 
 ### SIMPLIFIED {#SIMPLIFIED}
 ```
@@ -61,7 +61,7 @@ public static int SIMPLIFIED
 ```
 
 
-简化了 DrawingML 效果的渲染。
+Rendering of DrawingML effects are simplified.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String dmlEffectsRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String dmlEffectsRenderingModeName)
@@ -92,23 +92,23 @@ public static int fromName(String dmlEffectsRenderingModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlEffectsRenderingModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int dmlEffectsRenderingMode) {#getName-int-}
 ```
 public static String getName(int dmlEffectsRenderingMode)
@@ -117,12 +117,12 @@ public static String getName(int dmlEffectsRenderingMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlEffectsRenderingMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int dmlEffectsRenderingMode) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int dmlEffectsRenderingMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlEffectsRenderingMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

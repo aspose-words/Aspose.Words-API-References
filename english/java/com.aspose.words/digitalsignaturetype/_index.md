@@ -1,41 +1,41 @@
 ---
-title: DigitalSignature类型
-second_title: Aspose.Words for Java API 参考
-description: 指定数字签名的类型。
+title: DigitalSignatureType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the type of a digital signature.
 type: docs
 weight: 113
-url: /zh/java/com.aspose.words/digitalsignaturetype/
+url: /java/com.aspose.words/digitalsignaturetype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class DigitalSignature类型
+public class DigitalSignatureType
 ```
 
-指定数字签名的类型。
-## 字段
+Specifies the type of a digital signature.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CRYPTO_API](#CRYPTO-API) | Microsoft Word 97-2003 .DOC 二进制文档中使用的 Crypto API 签名方法。 |
-| [UNKNOWN](#UNKNOWN) | 表示错误、未知的数字签名类型。 |
-| [XML_DSIG](#XML-DSIG) | OOXML 和 OpenDocument 文档中使用的 XmlDsig 签名方法。 |
+| [CRYPTO_API](#CRYPTO-API) | The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents. |
+| [UNKNOWN](#UNKNOWN) | Indicates an error, unknown digital signature type. |
+| [XML_DSIG](#XML-DSIG) | The XmlDsig signature method used in OOXML and OpenDocument documents. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String digitalSignature类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int digitalSignature类型)](#getName-int-) |  |
+| [fromName(String digitalSignatureTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int digitalSignatureType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int digitalSignature类型)](#toString-int-) |  |
+| [toString(int digitalSignatureType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,7 +45,7 @@ public static int CRYPTO_API
 ```
 
 
-Microsoft Word 97-2003 .DOC 二进制文档中使用的 Crypto API 签名方法。
+The Crypto API signature method used in Microsoft Word 97-2003 .DOC binary documents.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -53,7 +53,7 @@ public static int UNKNOWN
 ```
 
 
-表示错误、未知的数字签名类型。
+Indicates an error, unknown digital signature type.
 
 ### XML_DSIG {#XML-DSIG}
 ```
@@ -61,7 +61,7 @@ public static int XML_DSIG
 ```
 
 
-OOXML 和 OpenDocument 文档中使用的 XmlDsig 签名方法。
+The XmlDsig signature method used in OOXML and OpenDocument documents.
 
 ### length {#length}
 ```
@@ -77,52 +77,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String digitalSignature类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String digitalSignatureTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String digitalSignature类型Name)
+public static int fromName(String digitalSignatureTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignature类型Name | java.lang.String |  |
+| digitalSignatureTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int digitalSignature类型) {#getName-int-}
-```
-public static String getName(int digitalSignature类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int digitalSignatureType) {#getName-int-}
+```
+public static String getName(int digitalSignatureType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignature类型 | int |  |
+| digitalSignatureType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,22 +168,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int digitalSignature类型) {#toString-int-}
+### toString(int digitalSignatureType) {#toString-int-}
 ```
-public static String toString(int digitalSignature类型)
+public static String toString(int digitalSignatureType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| digitalSignature类型 | int |  |
+| digitalSignatureType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

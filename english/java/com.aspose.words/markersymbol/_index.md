@@ -1,43 +1,43 @@
 ---
 title: MarkerSymbol
-second_title: Aspose.Words for Java API 参考
-description: 指定标记符号样式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies marker symbol style.
 type: docs
 weight: 389
-url: /zh/java/com.aspose.words/markersymbol/
+url: /java/com.aspose.words/markersymbol/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MarkerSymbol
 ```
 
-指定标记符号样式。
-## 字段
+Specifies marker symbol style.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CIRCLE](#CIRCLE) | 指定应在每个数据点绘制一个圆圈。 |
-| [DASH](#DASH) | 指定应在每个数据点绘制一个破折号。 |
-| [DEFAULT](#DEFAULT) | 指定应在每个数据点绘制默认标记符号。 |
-| [DIAMOND](#DIAMOND) | 指定应在每个数据点绘制菱形。 |
-| [DOT](#DOT) | 指定应在每个数据点绘制一个点。 |
-| [NONE](#NONE) | 指定不应在每个数据点绘制任何内容。 |
-| [PICTURE](#PICTURE) | 指定应在每个数据点绘制图片。 |
-| [PLUS](#PLUS) | 指定应在每个数据点绘制一个加号。 |
-| [SQUARE](#SQUARE) | 指定应在每个数据点绘制一个正方形。 |
-| [STAR](#STAR) | 指定应在每个数据点绘制一个星号。 |
-| [TRIANGLE](#TRIANGLE) | 指定应在每个数据点绘制一个三角形。 |
-| [X](#X) | 指定应在每个数据点绘制一个 X。 |
+| [CIRCLE](#CIRCLE) | Specifies a circle shall be drawn at each data point. |
+| [DASH](#DASH) | Specifies a dash shall be drawn at each data point. |
+| [DEFAULT](#DEFAULT) | Specifies a default marker symbol shall be drawn at each data point. |
+| [DIAMOND](#DIAMOND) | Specifies a diamond shall be drawn at each data point. |
+| [DOT](#DOT) | Specifies a dot shall be drawn at each data point. |
+| [NONE](#NONE) | Specifies nothing shall be drawn at each data point. |
+| [PICTURE](#PICTURE) | Specifies a picture shall be drawn at each data point. |
+| [PLUS](#PLUS) | Specifies a plus shall be drawn at each data point. |
+| [SQUARE](#SQUARE) | Specifies a square shall be drawn at each data point. |
+| [STAR](#STAR) | Specifies a star shall be drawn at each data point. |
+| [TRIANGLE](#TRIANGLE) | Specifies a triangle shall be drawn at each data point. |
+| [X](#X) | Specifies an X shall be drawn at each data point. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String markerSymbolName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int markerSymbol)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -54,7 +54,7 @@ public static int CIRCLE
 ```
 
 
-指定应在每个数据点绘制一个圆圈。
+Specifies a circle shall be drawn at each data point.
 
 ### DASH {#DASH}
 ```
@@ -62,7 +62,7 @@ public static int DASH
 ```
 
 
-指定应在每个数据点绘制一个破折号。
+Specifies a dash shall be drawn at each data point.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -70,7 +70,7 @@ public static int DEFAULT
 ```
 
 
-指定应在每个数据点绘制默认标记符号。
+Specifies a default marker symbol shall be drawn at each data point.
 
 ### DIAMOND {#DIAMOND}
 ```
@@ -78,7 +78,7 @@ public static int DIAMOND
 ```
 
 
-指定应在每个数据点绘制菱形。
+Specifies a diamond shall be drawn at each data point.
 
 ### DOT {#DOT}
 ```
@@ -86,7 +86,7 @@ public static int DOT
 ```
 
 
-指定应在每个数据点绘制一个点。
+Specifies a dot shall be drawn at each data point.
 
 ### NONE {#NONE}
 ```
@@ -94,7 +94,7 @@ public static int NONE
 ```
 
 
-指定不应在每个数据点绘制任何内容。
+Specifies nothing shall be drawn at each data point.
 
 ### PICTURE {#PICTURE}
 ```
@@ -102,7 +102,7 @@ public static int PICTURE
 ```
 
 
-指定应在每个数据点绘制图片。
+Specifies a picture shall be drawn at each data point.
 
 ### PLUS {#PLUS}
 ```
@@ -110,7 +110,7 @@ public static int PLUS
 ```
 
 
-指定应在每个数据点绘制一个加号。
+Specifies a plus shall be drawn at each data point.
 
 ### SQUARE {#SQUARE}
 ```
@@ -118,7 +118,7 @@ public static int SQUARE
 ```
 
 
-指定应在每个数据点绘制一个正方形。
+Specifies a square shall be drawn at each data point.
 
 ### STAR {#STAR}
 ```
@@ -126,7 +126,7 @@ public static int STAR
 ```
 
 
-指定应在每个数据点绘制一个星号。
+Specifies a star shall be drawn at each data point.
 
 ### TRIANGLE {#TRIANGLE}
 ```
@@ -134,7 +134,7 @@ public static int TRIANGLE
 ```
 
 
-指定应在每个数据点绘制一个三角形。
+Specifies a triangle shall be drawn at each data point.
 
 ### X {#X}
 ```
@@ -142,7 +142,7 @@ public static int X
 ```
 
 
-指定应在每个数据点绘制一个 X。
+Specifies an X shall be drawn at each data point.
 
 ### length {#length}
 ```
@@ -158,13 +158,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String markerSymbolName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String markerSymbolName)
@@ -173,23 +173,23 @@ public static int fromName(String markerSymbolName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markerSymbolName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int markerSymbol) {#getName-int-}
 ```
 public static String getName(int markerSymbol)
@@ -198,12 +198,12 @@ public static String getName(int markerSymbol)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markerSymbol | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -213,8 +213,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,8 +223,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -249,7 +249,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int markerSymbol) {#toString-int-}
 ```
@@ -259,12 +259,12 @@ public static String toString(int markerSymbol)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | markerSymbol | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -282,8 +282,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -295,8 +295,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,78 +1,78 @@
 ---
 title: HtmlLoadOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许在将 HTML 文档加载到对象时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify additional options when loading HTML document into a  object.
 type: docs
 weight: 328
-url: /zh/java/com.aspose.words/htmlloadoptions/
+url: /java/com.aspose.words/htmlloadoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions)
 ```
 public class HtmlLoadOptions extends LoadOptions
 ```
 
-允许在将 HTML 文档加载到[Document](../../com.aspose.words/document)目的。
+Allows to specify additional options when loading HTML document into a [Document](../../com.aspose.words/document) object.
 
-要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+To learn more, visit the **Specify Load Options** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [HtmlLoadOptions()](#HtmlLoadOptions--) | 使用默认值初始化此类的新实例。 |
-| [HtmlLoadOptions(String password)](#HtmlLoadOptions-java.lang.String-) | 使用指定密码初始化此类的新实例以加载加密文档的快捷方式。 |
-| [HtmlLoadOptions(int loadFormat, String password, String baseUri)](#HtmlLoadOptions-int-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [HtmlLoadOptions()](#HtmlLoadOptions--) | Initializes a new instance of this class with default values. |
+| [HtmlLoadOptions(String password)](#HtmlLoadOptions-java.lang.String-) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
+| [HtmlLoadOptions(int loadFormat, String password, String baseUri)](#HtmlLoadOptions-int-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBaseUri()](#getBaseUri--) | 获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
-| [getBlockImportMode()](#getBlockImportMode--) | 获取一个值，该值指定如何导入块级元素的属性。 |
-| [get班级()](#get班级--) |  |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | 获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
-| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [getConvertSvgToEmf()](#getConvertSvgToEmf--) | 获取一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。 |
-| [getEncoding()](#getEncoding--) | 如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。 |
-| [getFontSettings()](#getFontSettings--) | 允许指定文档字体设置。 |
-| [getIgnoreNoscriptElements()](#getIgnoreNoscriptElements--) | 获取一个值，该值指示是否忽略 HTML 元素。 |
-| [getLanguagePreferences()](#getLanguagePreferences--) | 获取加载文档时将使用的语言首选项。 |
-| [getLoadFormat()](#getLoadFormat--) | 指定要加载的文档的格式。 |
-| [getMswVersion()](#getMswVersion--) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
-| [getPassword()](#getPassword--) | 获取打开加密文档的密码。 |
-| [getPreferredControl类型()](#getPreferredControl类型--) | 获取将表示导入和元素的首选文档节点类型。 |
-| [getPreserveIncludePicture字段()](#getPreserveIncludePicture字段--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
-| [getProgressCallback()](#getProgressCallback--) | 在加载文档期间调用并接受有关加载进度的数据。 |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
-| [getSupportVml()](#getSupportVml--) | 获取一个值，该值指示是否支持 VML 图像。 |
-| [getTempFolder()](#getTempFolder--) | 允许在阅读文档时使用临时文件。 |
-| [getUpdateDirty字段()](#getUpdateDirty字段--) | 指定是否更新带有脏属性的字段。 |
-| [getWarningCallback()](#getWarningCallback--) | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。 |
-| [getWebRequestTimeout()](#getWebRequestTimeout--) | 在 Web 请求超时之前等待的毫秒数。 |
+| [getBaseUri()](#getBaseUri--) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [getBlockImportMode()](#getBlockImportMode--) | Gets a value that specifies how properties of block-level elements are imported. |
+| [getClass()](#getClass--) |  |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | Gets whether to convert shapes with EquationXML to Office Math objects. |
+| [getConvertSvgToEmf()](#getConvertSvgToEmf--) | Gets a value indicating whether to convert loaded SVG images to the EMF format. |
+| [getEncoding()](#getEncoding--) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [getFontSettings()](#getFontSettings--) | Allows to specify document font settings. |
+| [getIgnoreNoscriptElements()](#getIgnoreNoscriptElements--) | Gets a value indicating whether to ignore  HTML elements. |
+| [getLanguagePreferences()](#getLanguagePreferences--) | Gets language preferences that will be used when document is loading. |
+| [getLoadFormat()](#getLoadFormat--) | Specifies the format of the document to be loaded. |
+| [getMswVersion()](#getMswVersion--) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [getPassword()](#getPassword--) | Gets the password for opening an encrypted document. |
+| [getPreferredControlType()](#getPreferredControlType--) | Gets preferred type of document nodes that will represent imported  and  elements. |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [getProgressCallback()](#getProgressCallback--) | Called during loading a document and accepts data about loading progress. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getSupportVml()](#getSupportVml--) | Gets a value indicating whether to support VML images. |
+| [getTempFolder()](#getTempFolder--) | Allows to use temporary files when reading document. |
+| [getUpdateDirtyFields()](#getUpdateDirtyFields--) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getWarningCallback()](#getWarningCallback--) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [getWebRequestTimeout()](#getWebRequestTimeout--) | The number of milliseconds to wait before the web request times out. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | 将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。 |
-| [setBlockImportMode(int value)](#setBlockImportMode-int-) | 设置一个值，该值指定如何导入块级元素的属性。 |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | 设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
-| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | 设置是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [setConvertSvgToEmf(boolean value)](#setConvertSvgToEmf-boolean-) | 设置一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。 |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
-| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | 允许指定文档字体设置。 |
-| [setIgnoreNoscriptElements(boolean value)](#setIgnoreNoscriptElements-boolean-) | 设置一个值，指示是否忽略 HTML 元素。 |
-| [setLoadFormat(int value)](#setLoadFormat-int-) | 指定要加载的文档的格式。 |
-| [setMswVersion(int value)](#setMswVersion-int-) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
-| [setPassword(String value)](#setPassword-java.lang.String-) | 设置打开加密文档的密码。 |
-| [setPreferredControl类型(int value)](#setPreferredControl类型-int-) | 设置将表示导入和元素的文档节点的首选类型。 |
-| [setPreserveIncludePicture字段(boolean value)](#setPreserveIncludePicture字段-boolean-) | 设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
-| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | 在加载文档期间调用并接受有关加载进度的数据。 |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
-| [setSupportVml(boolean value)](#setSupportVml-boolean-) | 设置一个值，指示是否支持 VML 图像。 |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 允许在阅读文档时使用临时文件。 |
-| [setUpdateDirty字段(boolean value)](#setUpdateDirty字段-boolean-) | 指定是否更新带有脏属性的字段。 |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。 |
-| [setWebRequestTimeout(int value)](#setWebRequestTimeout-int-) | 在 Web 请求超时之前等待的毫秒数。 |
+| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [setBlockImportMode(int value)](#setBlockImportMode-int-) | Sets a value that specifies how properties of block-level elements are imported. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | Sets whether to convert shapes with EquationXML to Office Math objects. |
+| [setConvertSvgToEmf(boolean value)](#setConvertSvgToEmf-boolean-) | Sets a value indicating whether to convert loaded SVG images to the EMF format. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | Allows to specify document font settings. |
+| [setIgnoreNoscriptElements(boolean value)](#setIgnoreNoscriptElements-boolean-) | Sets a value indicating whether to ignore  HTML elements. |
+| [setLoadFormat(int value)](#setLoadFormat-int-) | Specifies the format of the document to be loaded. |
+| [setMswVersion(int value)](#setMswVersion-int-) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted document. |
+| [setPreferredControlType(int value)](#setPreferredControlType-int-) | Sets preferred type of document nodes that will represent imported  and  elements. |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | Called during loading a document and accepts data about loading progress. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setSupportVml(boolean value)](#setSupportVml-boolean-) | Sets a value indicating whether to support VML images. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Allows to use temporary files when reading document. |
+| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean-) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
+| [setWebRequestTimeout(int value)](#setWebRequestTimeout-int-) | The number of milliseconds to wait before the web request times out. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -83,7 +83,7 @@ public HtmlLoadOptions()
 ```
 
 
-使用默认值初始化此类的新实例。
+Initializes a new instance of this class with default values.
 
 ### HtmlLoadOptions(String password) {#HtmlLoadOptions-java.lang.String-}
 ```
@@ -91,12 +91,12 @@ public HtmlLoadOptions(String password)
 ```
 
 
-使用指定密码初始化此类的新实例以加载加密文档的快捷方式。
+A shortcut to initialize a new instance of this class with the specified password to load an encrypted document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | 打开加密文档的密码。可以是 null 或空字符串。 |
+| password | java.lang.String | The password to open an encrypted document. Can be null or empty string. |
 
 ### HtmlLoadOptions(int loadFormat, String password, String baseUri) {#HtmlLoadOptions-int-java.lang.String-java.lang.String-}
 ```
@@ -104,10 +104,10 @@ public HtmlLoadOptions(int loadFormat, String password, String baseUri)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | int |  |
 | password | java.lang.String |  |
@@ -121,266 +121,266 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBaseUri() {#getBaseUri--}
 ```
 public String getBaseUri()
 ```
 
 
-获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+This property is used to resolve relative URIs into absolute in the following cases:
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  When loading an HTML document from a stream and the document contains images with relative URIs and does not have a base URI specified in the BASE HTML element.
+2.  When saving a document to PDF and other formats, to retrieve images linked using relative URIs so the images can be saved into the output document.
 
-**退货:**
-java.lang.String - 需要时用于将文档中的相对 URI 解析为绝对 URI 的字符串。
+**Returns:**
+java.lang.String - The string that will be used to resolve relative URIs found in the document into absolute URIs when required.
 ### getBlockImportMode() {#getBlockImportMode--}
 ```
 public int getBlockImportMode()
 ```
 
 
-获取一个值，该值指定如何导入块级元素的属性。默认值为[BlockImportMode.MERGE](../../com.aspose.words/blockimportmode\#MERGE).
+Gets a value that specifies how properties of block-level elements are imported. Default value is [BlockImportMode.MERGE](../../com.aspose.words/blockimportmode\#MERGE).
 
-**退货:**
-int - 一个值，指定如何导入块级元素的属性。返回值是以下之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。
-### get班级() {#get班级--}
+**Returns:**
+int - A value that specifies how properties of block-level elements are imported. The returned value is one of [BlockImportMode](../../com.aspose.words/blockimportmode) constants.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
 ```
 public boolean getConvertMetafilesToPng()
 ```
 
 
-获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. Metafiles ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **F:Aspose.FileFormat.Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images.
 
-**退货:**
- boolean - 是否转换图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。
+**Returns:**
+boolean - Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
 ### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath--}
 ```
 public boolean getConvertShapeToOfficeMath()
 ```
 
 
-获取是否将带有 EquationXML 的形状转换为 Office Math 对象。
+Gets whether to convert shapes with EquationXML to Office Math objects.
 
-**退货:**
-boolean - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
+**Returns:**
+boolean - Whether to convert shapes with EquationXML to Office Math objects.
 ### getConvertSvgToEmf() {#getConvertSvgToEmf--}
 ```
 public boolean getConvertSvgToEmf()
 ```
 
 
-获取一个值，该值指示是否将加载的 SVG 图像转换为 EMF 格式。默认值为 false ，如果可能，加载的 SVG 图像将按原样存储而无需转换。
+Gets a value indicating whether to convert loaded SVG images to the EMF format. Default value is  false  and, if possible, loaded SVG images are stored as is without conversion.
 
-较新版本的 MS Word 原生支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
+Newer versions of MS Word support SVG images natively. If the MS Word version specified in load options supports SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be converted to the EMF format.
 
-但是，如果此选项设置为 true ，即使指定版本的 MS Word 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF。
+If, however, this option is set to  true , Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
 
-**退货:**
-boolean - 一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。
+**Returns:**
+boolean - A value indicating whether to convert loaded SVG images to the EMF format.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
 
-此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
+This property is used only when loading HTML, TXT, or CHM documents.
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
 
-**退货:**
-java.nio.charset.Charset - 如果文档中未指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。
+**Returns:**
+java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
 ### getFontSettings() {#getFontSettings--}
 ```
 public FontSettings getFontSettings()
 ```
 
 
-允许指定文档字体设置。
+Allows to specify document font settings.
 
-加载某些格式时，Aspose.Words 可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
 
-默认值为空。
+The default value is null.
 
-**退货:**
-[FontSettings](../../com.aspose.words/fontsettings) - 相应的[FontSettings](../../com.aspose.words/fontsettings)价值。
+**Returns:**
+[FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
 ### getIgnoreNoscriptElements() {#getIgnoreNoscriptElements--}
 ```
 public boolean getIgnoreNoscriptElements()
 ```
 
 
-获取一个值，该值指示是否忽略 HTML 元素。默认值为 false 。与 MS Word 一样，Aspose.Words 不支持脚本，默认情况下会将元素内容加载到生成的文档中。然而，在大多数浏览器中，脚本是受支持的，并且其中的内容是不可见的。将此属性设置为 true 会强制 Aspose.Words 忽略所有元素，并有助于生成看起来更接近浏览器中所见内容的文档。
+Gets a value indicating whether to ignore  HTML elements. Default value is  false . Like MS Word, Aspose.Words does not support scripts and by default loads content of  elements into the resulting document. In most browsers, however, scripts are supported and content from  is not visible. Setting this property to  true  forces Aspose.Words to ignore all  elements and helps to produce documents that look closer to what is seen in browsers.
 
-**退货:**
-boolean - 一个指示是否忽略 HTML 元素的值。
+**Returns:**
+boolean - A value indicating whether to ignore  HTML elements.
 ### getLanguagePreferences() {#getLanguagePreferences--}
 ```
 public LanguagePreferences getLanguagePreferences()
 ```
 
 
-获取加载文档时将使用的语言首选项。
+Gets language preferences that will be used when document is loading.
 
-**退货:**
-[LanguagePreferences](../../com.aspose.words/languagepreferences) - 加载文档时将使用的语言首选项。
+**Returns:**
+[LanguagePreferences](../../com.aspose.words/languagepreferences) - Language preferences that will be used when document is loading.
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public int getLoadFormat()
 ```
 
 
-指定要加载的文档的格式。默认为[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
 
-建议您指定[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)值并让 Aspose.Words 自动检测文件格式。如果您知道要加载的文档的格式，则可以明确指定格式，这将通过与自动检测格式相关的开销略微减少加载时间。如果您指定了明确的加载格式，但结果是错误的，则会调用自动检测并再次尝试加载文件。
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
 ### getMswVersion() {#getMswVersion--}
 ```
 public int getMswVersion()
 ```
 
 
-允许指定文档加载过程应匹配特定的 MS Word 版本。默认值为[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019)不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同，这可能会导致文档对象模型的细微差别。
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[MsWordVersion](../../com.aspose.words/mswordversion)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion) constants.
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
 ```
 
 
-获取打开加密文档的密码。可以是 null 或空字符串。默认为空。
+Gets the password for opening an encrypted document. Can be null or empty string. Default is null.
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
-**退货:**
-java.lang.String - 打开加密文档的密码。
-### getPreferredControl类型() {#getPreferredControl类型--}
+**Returns:**
+java.lang.String - The password for opening an encrypted document.
+### getPreferredControlType() {#getPreferredControlType--}
 ```
-public int getPreferredControl类型()
-```
-
-
-获取将表示导入和元素的首选文档节点类型。默认值为[HtmlControl类型.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControl类型](../../com.aspose.words/htmlcontroltype)对于那个控制。
-
-**退货:**
- int - 表示导入和元素的首选文档节点类型。返回值是以下之一[HtmlControl类型](../../com.aspose.words/htmlcontroltype)常数。
-### getPreserveIncludePicture字段() {#getPreserveIncludePicture字段--}
-```
-public boolean getPreserveIncludePicture字段()
+public int getPreferredControlType()
 ```
 
 
-获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+Gets preferred type of document nodes that will represent imported  and  elements. Default value is [HtmlControlType.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD). Please note that setting this property does not guarantee that all imported controls will be of the specified type. If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use a compatible [HtmlControlType](../../com.aspose.words/htmlcontroltype) for that control.
 
-默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
+**Returns:**
+int - Preferred type of document nodes that will represent imported  and  elements. The returned value is one of [HtmlControlType](../../com.aspose.words/htmlcontroltype) constants.
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
+```
+public boolean getPreserveIncludePictureField()
+```
 
-一种可能的用例可能是使用 MERGEFIELD 作为子字段来动态更改图片的源路径。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
 
-**退货:**
-boolean - 读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。
+Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
+
+By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
+
+One of the possible use cases may be using a MERGEFIELD as a child field to dynamically change the source path of the picture. In this case you need the INCLUDEPICTURE to be preserved in the model.
+
+**Returns:**
+boolean - Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentLoadingCallback getProgressCallback()
 ```
 
 
-在加载文档期间调用并接受有关加载进度的数据。
+Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT)支持的格式。
+[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
 
-**退货:**
-[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - 相应的[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback)价值。
+**Returns:**
+[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback--}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
 
 
-允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。
+Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
-**退货:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。
+**Returns:**
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
 ### getSupportVml() {#getSupportVml--}
 ```
 public boolean getSupportVml()
 ```
 
 
-获取一个值，该值指示是否支持 VML 图像。
+Gets a value indicating whether to support VML images.
 
-**退货:**
-boolean - 指示是否支持 VML 图像的值。
+**Returns:**
+boolean - A value indicating whether to support VML images.
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-允许在阅读文档时使用临时文件。默认情况下，此属性为 null，并且不使用临时文件。
+Allows to use temporary files when reading document. By default this property is  null  and no temporary files are used.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-读取完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when reading is complete.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getUpdateDirty字段() {#getUpdateDirty字段--}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getUpdateDirtyFields() {#getUpdateDirtyFields--}
 ```
-public boolean getUpdateDirty字段()
+public boolean getUpdateDirtyFields()
 ```
 
 
-指定是否更新带有脏属性的字段。
+Specifies whether to update the fields with the  dirty  attribute.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。
+Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### getWebRequestTimeout() {#getWebRequestTimeout--}
 ```
 public int getWebRequestTimeout()
 ```
 
 
-在 Web 请求超时之前等待的毫秒数。默认值为 100000 毫秒（100 秒）。在加载 HTML 和 MHTML 文档中链接的外部资源（图像、样式表）时，Aspose.Words 等待响应的毫秒数。
+The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets) linked in HTML and MHTML documents.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -389,8 +389,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -413,17 +413,17 @@ public void setBaseUri(String value)
 ```
 
 
-将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+This property is used to resolve relative URIs into absolute in the following cases:
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  When loading an HTML document from a stream and the document contains images with relative URIs and does not have a base URI specified in the BASE HTML element.
+2.  When saving a document to PDF and other formats, to retrieve images linked using relative URIs so the images can be saved into the output document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 需要时将用于将文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
+| value | java.lang.String | The string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 
 ### setBlockImportMode(int value) {#setBlockImportMode-int-}
 ```
@@ -431,12 +431,12 @@ public void setBlockImportMode(int value)
 ```
 
 
-设置一个值，该值指定如何导入块级元素的属性。默认值为[BlockImportMode.MERGE](../../com.aspose.words/blockimportmode\#MERGE).
+Sets a value that specifies how properties of block-level elements are imported. Default value is [BlockImportMode.MERGE](../../com.aspose.words/blockimportmode\#MERGE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 一个值，指定如何导入块级元素的属性。该值必须是以下之一[BlockImportMode](../../com.aspose.words/blockimportmode)常数。 |
+| value | int | A value that specifies how properties of block-level elements are imported. The value must be one of [BlockImportMode](../../com.aspose.words/blockimportmode) constants. |
 
 ### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
 ```
@@ -444,12 +444,12 @@ public void setConvertMetafilesToPng(boolean value)
 ```
 
 
-设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. Metafiles ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **F:Aspose.FileFormat.Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
+| value | boolean | Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 
 ### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean-}
 ```
@@ -457,12 +457,12 @@ public void setConvertShapeToOfficeMath(boolean value)
 ```
 
 
-设置是否将带有 EquationXML 的形状转换为 Office Math 对象。
+Sets whether to convert shapes with EquationXML to Office Math objects.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
+| value | boolean | Whether to convert shapes with EquationXML to Office Math objects. |
 
 ### setConvertSvgToEmf(boolean value) {#setConvertSvgToEmf-boolean-}
 ```
@@ -470,16 +470,16 @@ public void setConvertSvgToEmf(boolean value)
 ```
 
 
-设置一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。默认值为 false ，如果可能，加载的 SVG 图像将按原样存储而无需转换。
+Sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is  false  and, if possible, loaded SVG images are stored as is without conversion.
 
-较新版本的 MS Word 原生支持 SVG 图像。如果加载选项中指定的 MS Word 版本支持 SVG，Aspose.Words 将按原样存储 SVG 图像而不进行转换。如果不支持 SVG，加载的 SVG 图像将被转换为 EMF 格式。
+Newer versions of MS Word support SVG images natively. If the MS Word version specified in load options supports SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be converted to the EMF format.
 
-但是，如果此选项设置为 true ，即使指定版本的 MS Word 支持 SVG 图像，Aspose.Words 也会将加载的 SVG 图像转换为 EMF。
+If, however, this option is set to  true , Aspose.Words will convert loaded SVG images to EMF even if SVG images are supported by the specified version of MS Word.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值，指示是否将加载的 SVG 图像转换为 EMF 格式。 |
+| value | boolean | A value indicating whether to convert loaded SVG images to the EMF format. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -487,16 +487,16 @@ public void setEncoding(Charset value)
 ```
 
 
-如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
 
-此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
+This property is used only when loading HTML, TXT, or CHM documents.
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.charset.Charset | 如果未在文档中指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。 |
+| value | java.nio.charset.Charset | The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 
 ### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings-}
 ```
@@ -504,18 +504,18 @@ public void setFontSettings(FontSettings value)
 ```
 
 
-允许指定文档字体设置。
+Allows to specify document font settings.
 
-加载某些格式时，Aspose.Words 可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
 
-默认值为空。
+The default value is null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSettings](../../com.aspose.words/fontsettings) | 相应的[FontSettings](../../com.aspose.words/fontsettings)价值。 |
+| value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
 
 ### setIgnoreNoscriptElements(boolean value) {#setIgnoreNoscriptElements-boolean-}
 ```
@@ -523,12 +523,12 @@ public void setIgnoreNoscriptElements(boolean value)
 ```
 
 
-设置一个值，指示是否忽略 HTML 元素。默认值为 false 。与 MS Word 一样，Aspose.Words 不支持脚本，默认情况下会将元素内容加载到生成的文档中。然而，在大多数浏览器中，脚本是受支持的，并且其中的内容是不可见的。将此属性设置为 true 会强制 Aspose.Words 忽略所有元素，并有助于生成看起来更接近浏览器中所见内容的文档。
+Sets a value indicating whether to ignore  HTML elements. Default value is  false . Like MS Word, Aspose.Words does not support scripts and by default loads content of  elements into the resulting document. In most browsers, however, scripts are supported and content from  is not visible. Setting this property to  true  forces Aspose.Words to ignore all  elements and helps to produce documents that look closer to what is seen in browsers.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否忽略 HTML 元素的值。 |
+| value | boolean | A value indicating whether to ignore  HTML elements. |
 
 ### setLoadFormat(int value) {#setLoadFormat-int-}
 ```
@@ -536,14 +536,14 @@ public void setLoadFormat(int value)
 ```
 
 
-指定要加载的文档的格式。默认为[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
 
-建议您指定[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)值并让 Aspose.Words 自动检测文件格式。如果您知道要加载的文档的格式，则可以明确指定格式，这将通过与自动检测格式相关的开销略微减少加载时间。如果您指定了明确的加载格式，但结果是错误的，则会调用自动检测并再次尝试加载文件。
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat) constants. |
 
 ### setMswVersion(int value) {#setMswVersion-int-}
 ```
@@ -551,12 +551,12 @@ public void setMswVersion(int value)
 ```
 
 
-允许指定文档加载过程应匹配特定的 MS Word 版本。默认值为[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019)不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同，这可能会导致文档对象模型的细微差别。
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[MsWordVersion](../../com.aspose.words/mswordversion)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion) constants. |
 
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
@@ -564,44 +564,44 @@ public void setPassword(String value)
 ```
 
 
-设置打开加密文档的密码。可以是 null 或空字符串。默认为空。
+Sets the password for opening an encrypted document. Can be null or empty string. Default is null.
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 打开加密文档的密码。 |
+| value | java.lang.String | The password for opening an encrypted document. |
 
-### setPreferredControl类型(int value) {#setPreferredControl类型-int-}
+### setPreferredControlType(int value) {#setPreferredControlType-int-}
 ```
-public void setPreferredControl类型(int value)
+public void setPreferredControlType(int value)
 ```
 
 
-设置将表示导入和元素的文档节点的首选类型。默认值为[HtmlControl类型.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD).请注意，设置此属性并不能保证所有导入的控件都是指定的类型。如果 HTML 控件不能用首选类型的文档节点表示，Aspose.Words 将使用兼容的[HtmlControl类型](../../com.aspose.words/htmlcontroltype)对于那个控制。
+Sets preferred type of document nodes that will represent imported  and  elements. Default value is [HtmlControlType.FORM\_FIELD](../../com.aspose.words/htmlcontroltype\#FORM-FIELD). Please note that setting this property does not guarantee that all imported controls will be of the specified type. If an HTML control is not representable with document nodes of the preferred type, Aspose.Words will use a compatible [HtmlControlType](../../com.aspose.words/htmlcontroltype) for that control.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 表示导入和元素的首选文档节点类型。该值必须是以下之一[HtmlControl类型](../../com.aspose.words/htmlcontroltype)常数。 |
+| value | int | Preferred type of document nodes that will represent imported  and  elements. The value must be one of [HtmlControlType](../../com.aspose.words/htmlcontroltype) constants. |
 
-### setPreserveIncludePicture字段(boolean value) {#setPreserveIncludePicture字段-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
 ```
-public void setPreserveIncludePicture字段(boolean value)
+public void setPreserveIncludePictureField(boolean value)
 ```
 
 
-设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
 
-默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
+By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
-一种可能的用例可能是使用 MERGEFIELD 作为子字段来动态更改图片的源路径。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
+One of the possible use cases may be using a MERGEFIELD as a child field to dynamically change the source path of the picture. In this case you need the INCLUDEPICTURE to be preserved in the model.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| value | boolean | Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 
 ### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-}
 ```
@@ -609,14 +609,14 @@ public void setProgressCallback(IDocumentLoadingCallback value)
 ```
 
 
-在加载文档期间调用并接受有关加载进度的数据。
+Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT)支持的格式。
+[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | 相应的[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback)价值。 |
+| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
 ```
@@ -624,12 +624,12 @@ public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
 
 
-允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。
+Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。 |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
 
 ### setSupportVml(boolean value) {#setSupportVml-boolean-}
 ```
@@ -637,12 +637,12 @@ public void setSupportVml(boolean value)
 ```
 
 
-设置一个值，指示是否支持 VML 图像。
+Sets a value indicating whether to support VML images.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否支持 VML 图像的值。 |
+| value | boolean | A value indicating whether to support VML images. |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -650,29 +650,29 @@ public void setTempFolder(String value)
 ```
 
 
-允许在阅读文档时使用临时文件。默认情况下，此属性为 null，并且不使用临时文件。
+Allows to use temporary files when reading document. By default this property is  null  and no temporary files are used.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-读取完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when reading is complete.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
-### setUpdateDirty字段(boolean value) {#setUpdateDirty字段-boolean-}
+### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean-}
 ```
-public void setUpdateDirty字段(boolean value)
+public void setUpdateDirtyFields(boolean value)
 ```
 
 
-指定是否更新带有脏属性的字段。
+Specifies whether to update the fields with the  dirty  attribute.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
 ```
@@ -680,12 +680,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。
+Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### setWebRequestTimeout(int value) {#setWebRequestTimeout-int-}
 ```
@@ -693,12 +693,12 @@ public void setWebRequestTimeout(int value)
 ```
 
 
-在 Web 请求超时之前等待的毫秒数。默认值为 100000 毫秒（100 秒）。在加载 HTML 和 MHTML 文档中链接的外部资源（图像、样式表）时，Aspose.Words 等待响应的毫秒数。
+The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). The number of milliseconds that Aspose.Words waits for a response, when loading external resources (images, style sheets) linked in HTML and MHTML documents.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### toString() {#toString--}
 ```
@@ -708,7 +708,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -726,8 +726,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -739,8 +739,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

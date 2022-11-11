@@ -1,47 +1,47 @@
 ---
 title: PageLayoutEvent
-second_title: Aspose.Words for Java API 参考
-description: 在页面布局模型构建和渲染期间引发的事件代码。
+second_title: Aspose.Words for Java API Reference
+description: A code of event raised during page layout model build and rendering.
 type: docs
 weight: 436
-url: /zh/java/com.aspose.words/pagelayoutevent/
+url: /java/com.aspose.words/pagelayoutevent/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageLayoutEvent
 ```
 
-在页面布局模型构建和渲染期间引发的事件代码。
+A code of event raised during page layout model build and rendering.
 
-页面布局模型分两步构建。首先，“转换步骤”，这是页面布局拉取文档内容并创建对象图的时候。第二，“回流步骤”，这是结构被拆分、合并和排列成页面的时候。
+Page layout model is built in two steps. First, "conversion step", this is when page layout pulls document content and creates object graph. Second, "reflow step", this is when structures are split, merged and arranged into pages.
 
-根据触发构建的操作，页面布局模型可能会或可能不会进一步呈现为固定的页面格式。例如，计算文档中的页数或更新字段不需要渲染，而导出为 Pdf 则需要。
-## 字段
+Depending of the operation which triggered build, page layout model may or may not be further rendered into fixed page format. For example, computing number of pages in the document or updating fields does not require rendering, whereas export to Pdf does.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BUILD_FINISHED](#BUILD-FINISHED) | 页面布局的构建已经完成。 |
-| [BUILD_STARTED](#BUILD-STARTED) | 页面布局的构建已经开始。 |
-| [CONVERSION_FINISHED](#CONVERSION-FINISHED) | 文档模型到页面布局的转换已完成。 |
-| [CONVERSION_STARTED](#CONVERSION-STARTED) | 文档模型到页面布局的转换已经开始。 |
-| [NONE](#NONE) | 默认值 |
-| [PART_REFLOW_FINISHED](#PART-REFLOW-FINISHED) | 页面重排已完成。 |
-| [PART_REFLOW_STARTED](#PART-REFLOW-STARTED) | 页面重排已开始。 |
-| [PART_RENDERING_FINISHED](#PART-RENDERING-FINISHED) | 页面渲染完成。 |
-| [PART_RENDERING_STARTED](#PART-RENDERING-STARTED) | 页面渲染已开始。 |
-| [REFLOW_FINISHED](#REFLOW-FINISHED) | 页面布局的重排已完成。 |
-| [REFLOW_STARTED](#REFLOW-STARTED) | 页面布局的重排已开始。 |
-| [WATCH_DOG](#WATCH-DOG) | 对应于代码中经常被访问且适合中止进程的检查点。 |
+| [BUILD_FINISHED](#BUILD-FINISHED) | Build of the page layout has finished. |
+| [BUILD_STARTED](#BUILD-STARTED) | Build of the page layout has started. |
+| [CONVERSION_FINISHED](#CONVERSION-FINISHED) | Conversion of document model to page layout has finished. |
+| [CONVERSION_STARTED](#CONVERSION-STARTED) | Conversion of document model to page layout has started. |
+| [NONE](#NONE) | Default value |
+| [PART_REFLOW_FINISHED](#PART-REFLOW-FINISHED) | Reflow of the page has finished. |
+| [PART_REFLOW_STARTED](#PART-REFLOW-STARTED) | Reflow of the page has started. |
+| [PART_RENDERING_FINISHED](#PART-RENDERING-FINISHED) | Rendering of page has finished. |
+| [PART_RENDERING_STARTED](#PART-RENDERING-STARTED) | Rendering of page has started. |
+| [REFLOW_FINISHED](#REFLOW-FINISHED) | Reflow of the page layout has finished. |
+| [REFLOW_STARTED](#REFLOW-STARTED) | Reflow of the page layout has started. |
+| [WATCH_DOG](#WATCH-DOG) | Corresponds to a checkpoint in code which is often visited and which is suitable to abort process. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageLayoutEventName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pageLayoutEvent)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -58,7 +58,7 @@ public static int BUILD_FINISHED
 ```
 
 
-页面布局的构建已经完成。发射过一次。这是最后一次发生的事件[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)叫做。
+Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is called.
 
 ### BUILD_STARTED {#BUILD-STARTED}
 ```
@@ -66,7 +66,7 @@ public static int BUILD_STARTED
 ```
 
 
-页面布局的构建已经开始。发射过一次。这是第一个发生的事件[Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--)叫做。
+Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../com.aspose.words/document\#updatePageLayout--) is called.
 
 ### CONVERSION_FINISHED {#CONVERSION-FINISHED}
 ```
@@ -74,7 +74,7 @@ public static int CONVERSION_FINISHED
 ```
 
 
-文档模型到页面布局的转换已完成。发射过一次。当布局模型停止提取文档内容时会发生这种情况。
+Conversion of document model to page layout has finished. Fired once. This occurs when layout model stops pulling document content.
 
 ### CONVERSION_STARTED {#CONVERSION-STARTED}
 ```
@@ -82,7 +82,7 @@ public static int CONVERSION_STARTED
 ```
 
 
-文档模型到页面布局的转换已经开始。发射过一次。这发生在布局模型开始提取文档内容时。
+Conversion of document model to page layout has started. Fired once. This occurs when layout model starts pulling document content.
 
 ### NONE {#NONE}
 ```
@@ -90,7 +90,7 @@ public static int NONE
 ```
 
 
-默认值
+Default value
 
 ### PART_REFLOW_FINISHED {#PART-REFLOW-FINISHED}
 ```
@@ -98,7 +98,7 @@ public static int PART_REFLOW_FINISHED
 ```
 
 
-页面重排已完成。请注意，页面可能会多次重排，并且重排可能会在完成之前重新开始。
+Reflow of the page has finished. Note that page may reflow multiple times and that reflow may restart before it is finished.
 
 ### PART_REFLOW_STARTED {#PART-REFLOW-STARTED}
 ```
@@ -106,7 +106,7 @@ public static int PART_REFLOW_STARTED
 ```
 
 
-页面重排已开始。请注意，页面可能会多次重排，并且重排可能会在完成之前重新开始。
+Reflow of the page has started. Note that page may reflow multiple times and that reflow may restart before it is finished.
 
 ### PART_RENDERING_FINISHED {#PART-RENDERING-FINISHED}
 ```
@@ -114,7 +114,7 @@ public static int PART_RENDERING_FINISHED
 ```
 
 
-页面渲染完成。每页触发一次。
+Rendering of page has finished. This is fired once per page.
 
 ### PART_RENDERING_STARTED {#PART-RENDERING-STARTED}
 ```
@@ -122,7 +122,7 @@ public static int PART_RENDERING_STARTED
 ```
 
 
-页面渲染已开始。每页触发一次。
+Rendering of page has started. This is fired once per page.
 
 ### REFLOW_FINISHED {#REFLOW-FINISHED}
 ```
@@ -130,7 +130,7 @@ public static int REFLOW_FINISHED
 ```
 
 
-页面布局的重排已完成。发射过一次。当布局模型停止重排文档内容时会发生这种情况。
+Reflow of the page layout has finished. Fired once. This occurs when layout model stops reflowing document content.
 
 ### REFLOW_STARTED {#REFLOW-STARTED}
 ```
@@ -138,7 +138,7 @@ public static int REFLOW_STARTED
 ```
 
 
-页面布局的重排已开始。发射过一次。这发生在布局模型开始重排文档内容时。
+Reflow of the page layout has started. Fired once. This occurs when layout model starts reflowing document content.
 
 ### WATCH_DOG {#WATCH-DOG}
 ```
@@ -146,13 +146,13 @@ public static int WATCH_DOG
 ```
 
 
-对应于代码中经常被访问且适合中止进程的检查点。
+Corresponds to a checkpoint in code which is often visited and which is suitable to abort process.
 
-在里面的时候[IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)抛出自定义异常以中止进程。
+While inside [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-) throw custom exception to abort process.
 
-您可以在处理任何回调事件时抛出以中止进程。
+You can throw when handling any callback event to abort process.
 
-请注意，如果进程中止，则页面布局模型仍处于未定义状态。但是，如果流程在整个页面的回流时中止，则应该可以使用布局模型直到该页面的末尾。
+Note that if process is aborted the page layout model remains in undefined state. If process is aborted upon reflow of a complete page, however, it should be possible to use layout model up to the end of that page.
 
 ### length {#length}
 ```
@@ -168,13 +168,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pageLayoutEventName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pageLayoutEventName)
@@ -183,23 +183,23 @@ public static int fromName(String pageLayoutEventName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageLayoutEventName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pageLayoutEvent) {#getName-int-}
 ```
 public static String getName(int pageLayoutEvent)
@@ -208,12 +208,12 @@ public static String getName(int pageLayoutEvent)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageLayoutEvent | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -223,8 +223,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -233,8 +233,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -259,7 +259,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pageLayoutEvent) {#toString-int-}
 ```
@@ -269,12 +269,12 @@ public static String toString(int pageLayoutEvent)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageLayoutEvent | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -292,8 +292,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -305,8 +305,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

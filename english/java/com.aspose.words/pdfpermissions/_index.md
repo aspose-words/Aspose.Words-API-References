@@ -1,42 +1,42 @@
 ---
 title: PdfPermissions
-second_title: Aspose.Words for Java API 参考
-description: 指定允许用户对加密的 PDF 文档进行的操作。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the operations that are allowed to a user on an encrypted PDF document.
 type: docs
 weight: 460
-url: /zh/java/com.aspose.words/pdfpermissions/
+url: /java/com.aspose.words/pdfpermissions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfPermissions
 ```
 
-指定允许用户对加密的 PDF 文档进行的操作。
-## 字段
+Specifies the operations that are allowed to a user on an encrypted PDF document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ALLOW_ALL](#ALLOW-ALL) | 允许对 PDF 文档进行所有操作。 |
-| [CONTENT_COPY](#CONTENT-COPY) | 通过非受控者控制的操作复制或以其他方式从文档中提取文本和图形[CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY). |
-| [CONTENT_COPY_FOR_ACCESSIBILITY](#CONTENT-COPY-FOR-ACCESSIBILITY) | 提取文本和图形（以支持残障用户的可访问性或用于其他目的）。 |
-| [DISALLOW_ALL](#DISALLOW-ALL) | 禁止对 PDF 文档进行所有操作。 |
-| [DOCUMENT_ASSEMBLY](#DOCUMENT-ASSEMBLY) | 组装文档（插入、旋转或删除页面并创建文档大纲项目或缩略图），即使[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)清楚了。 |
-| [FILL_IN](#FILL-IN) | 填写现有的交互式表单域（包括签名域），即使[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)清楚了。 |
-| [HIGH_RESOLUTION_PRINTING](#HIGH-RESOLUTION-PRINTING) | 根据实现相关的算法，将文档打印为可以生成 PDF 内容的忠实数字副本的表示形式。 |
-| [MODIFY_ANNOTATIONS](#MODIFY-ANNOTATIONS) | 添加或修改文本注释，填写交互式表单字段，以及，如果[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)还可以设置、创建或修改交互式表单字段（包括签名字段）。 |
-| [MODIFY_CONTENTS](#MODIFY-CONTENTS) | 通过非受控者控制的操作修改文档内容[MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN)， 和[DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY). |
-| [PRINTING](#PRINTING) | 打印文档（可能不是最高质量级别，取决于是否[HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING)也设置）。 |
+| [ALLOW_ALL](#ALLOW-ALL) | Allows all operations on the PDF document. |
+| [CONTENT_COPY](#CONTENT-COPY) | Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY). |
+| [CONTENT_COPY_FOR_ACCESSIBILITY](#CONTENT-COPY-FOR-ACCESSIBILITY) | Extract text and graphics (in support of accessibility to users with disabilities or for other purposes). |
+| [DISALLOW_ALL](#DISALLOW-ALL) | Disallows all operations on the PDF document. |
+| [DOCUMENT_ASSEMBLY](#DOCUMENT-ASSEMBLY) | Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear. |
+| [FILL_IN](#FILL-IN) | Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear. |
+| [HIGH_RESOLUTION_PRINTING](#HIGH-RESOLUTION-PRINTING) | Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. |
+| [MODIFY_ANNOTATIONS](#MODIFY-ANNOTATIONS) | Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields). |
+| [MODIFY_CONTENTS](#MODIFY-CONTENTS) | Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY). |
+| [PRINTING](#PRINTING) | Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING) is also set). |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfPermissionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set pdfPermissionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfPermissions)](#getName-int-) |  |
 | [getNames(int pdfPermissions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -55,7 +55,7 @@ public static int ALLOW_ALL
 ```
 
 
-允许对 PDF 文档进行所有操作。
+Allows all operations on the PDF document.
 
 ### CONTENT_COPY {#CONTENT-COPY}
 ```
@@ -63,7 +63,7 @@ public static int CONTENT_COPY
 ```
 
 
-通过非受控者控制的操作复制或以其他方式从文档中提取文本和图形[CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY).
+Copy or otherwise extract text and graphics from the document by operations other than that controlled by [CONTENT\_COPY\_FOR\_ACCESSIBILITY](../../com.aspose.words/pdfpermissions\#CONTENT-COPY-FOR-ACCESSIBILITY).
 
 ### CONTENT_COPY_FOR_ACCESSIBILITY {#CONTENT-COPY-FOR-ACCESSIBILITY}
 ```
@@ -71,7 +71,7 @@ public static int CONTENT_COPY_FOR_ACCESSIBILITY
 ```
 
 
-提取文本和图形（以支持残障用户的可访问性或用于其他目的）。
+Extract text and graphics (in support of accessibility to users with disabilities or for other purposes).
 
 ### DISALLOW_ALL {#DISALLOW-ALL}
 ```
@@ -79,7 +79,7 @@ public static int DISALLOW_ALL
 ```
 
 
-禁止对 PDF 文档进行所有操作。这是默认值。
+Disallows all operations on the PDF document. This is the default value.
 
 ### DOCUMENT_ASSEMBLY {#DOCUMENT-ASSEMBLY}
 ```
@@ -87,7 +87,7 @@ public static int DOCUMENT_ASSEMBLY
 ```
 
 
-组装文档（插入、旋转或删除页面并创建文档大纲项目或缩略图），即使[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)清楚了。
+Assemble the document (insert, rotate, or delete pages and create document outline items or thumbnail images), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear.
 
 ### FILL_IN {#FILL-IN}
 ```
@@ -95,7 +95,7 @@ public static int FILL_IN
 ```
 
 
-填写现有的交互式表单域（包括签名域），即使[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)清楚了。
+Fill in existing interactive form fields (including signature fields), even if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is clear.
 
 ### HIGH_RESOLUTION_PRINTING {#HIGH-RESOLUTION-PRINTING}
 ```
@@ -103,7 +103,7 @@ public static int HIGH_RESOLUTION_PRINTING
 ```
 
 
-根据实现相关的算法，将文档打印为可以生成 PDF 内容的忠实数字副本的表示形式。当这个标志被清除时（并且[PRINTING](../../com.aspose.words/pdfpermissions\#PRINTING)已设置），打印应限于外观的低级表示，可能质量下降。
+Print the document to a representation from which a faithful digital copy of the PDF content could be generated, based on an implementation-dependent algorithm. When this flag is clear (and [PRINTING](../../com.aspose.words/pdfpermissions\#PRINTING) is set), printing shall be limited to a low-level representation of the appearance, possibly of degraded quality.
 
 ### MODIFY_ANNOTATIONS {#MODIFY-ANNOTATIONS}
 ```
@@ -111,7 +111,7 @@ public static int MODIFY_ANNOTATIONS
 ```
 
 
-添加或修改文本注释，填写交互式表单字段，以及，如果[MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS)还可以设置、创建或修改交互式表单字段（包括签名字段）。
+Add or modify text annotations, fill in interactive form fields, and, if [MODIFY\_CONTENTS](../../com.aspose.words/pdfpermissions\#MODIFY-CONTENTS) is also set, create or modify interactive form fields (including signature fields).
 
 ### MODIFY_CONTENTS {#MODIFY-CONTENTS}
 ```
@@ -119,7 +119,7 @@ public static int MODIFY_CONTENTS
 ```
 
 
-通过非受控者控制的操作修改文档内容[MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN)， 和[DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY).
+Modify the contents of the document by operations other than those controlled by [MODIFY\_ANNOTATIONS](../../com.aspose.words/pdfpermissions\#MODIFY-ANNOTATIONS), [FILL\_IN](../../com.aspose.words/pdfpermissions\#FILL-IN), and [DOCUMENT\_ASSEMBLY](../../com.aspose.words/pdfpermissions\#DOCUMENT-ASSEMBLY).
 
 ### PRINTING {#PRINTING}
 ```
@@ -127,7 +127,7 @@ public static int PRINTING
 ```
 
 
-打印文档（可能不是最高质量级别，取决于是否[HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING)也设置）。
+Print the document (possibly not at the highest quality level, depending on whether [HIGH\_RESOLUTION\_PRINTING](../../com.aspose.words/pdfpermissions\#HIGH-RESOLUTION-PRINTING) is also set).
 
 ### length {#length}
 ```
@@ -143,13 +143,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pdfPermissionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfPermissionsName)
@@ -158,13 +158,13 @@ public static int fromName(String pdfPermissionsName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfPermissionsName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### fromNames(Set pdfPermissionsNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set pdfPermissionsNames)
@@ -173,23 +173,23 @@ public static int fromNames(Set pdfPermissionsNames)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfPermissionsNames | java.util.Set |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pdfPermissions) {#getName-int-}
 ```
 public static String getName(int pdfPermissions)
@@ -198,12 +198,12 @@ public static String getName(int pdfPermissions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfPermissions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getNames(int pdfPermissions) {#getNames-int-}
 ```
@@ -213,12 +213,12 @@ public static Set getNames(int pdfPermissions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfPermissions | int |  |
 
-**退货:**
+**Returns:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -228,8 +228,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -238,8 +238,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -264,7 +264,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pdfPermissions) {#toString-int-}
 ```
@@ -274,12 +274,12 @@ public static String toString(int pdfPermissions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfPermissions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -289,12 +289,12 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -312,8 +312,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -325,8 +325,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

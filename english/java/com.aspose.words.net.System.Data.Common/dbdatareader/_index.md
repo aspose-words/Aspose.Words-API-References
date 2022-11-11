@@ -1,34 +1,34 @@
 ---
 title: DbDataReader
 second_title: Aspose.Words for Java API Reference
-description: 从数据源读取只进的行流。
+description: Reads a forward-only stream of rows from a data source.
 type: docs
 weight: 10
-url: /zh/java/com.aspose.words.net.system.data.common/dbdatareader/
+url: /java/com.aspose.words.net.system.data.common/dbdatareader/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 [com.aspose.words.net.System.Data.IDataReader](../../com.aspose.words.net.system.data/idatareader), [com.aspose.words.net.System.Data.IDataRecord](../../com.aspose.words.net.system.data/idatarecord), java.lang.Iterable
 ```
 public abstract class DbDataReader implements System.Data.IDataReader, System.Data.IDataRecord, Iterable
 ```
 
-从数据源读取只进的行流。
-## 构造函数s
+Reads a forward-only stream of rows from a data source.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
 | [DbDataReader()](#DbDataReader--) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(String columnName)](#get-java.lang.String-) | 此方法属于 .NET 中的 IDataRecord |
-| [get班级()](#get班级--) |  |
+| [get(String columnName)](#get-java.lang.String-) | This method belongs to IDataRecord in .NET |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -50,38 +50,38 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(String columnName) {#get-java.lang.String-}
 ```
 public abstract Object get(String columnName)
 ```
 
 
-此方法属于 .NET 中的 IDataRecord
+This method belongs to IDataRecord in .NET
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | columnName | java.lang.String |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -116,7 +116,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -134,8 +134,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -147,8 +147,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,23 +1,23 @@
 ---
 title: Metered
-second_title: Aspose.Words for Java API 参考
-description: 提供设置计量键的方法。
+second_title: Aspose.Words for Java API Reference
+description: Provides methods to set metered key.
 type: docs
 weight: 398
-url: /zh/java/com.aspose.words/metered/
+url: /java/com.aspose.words/metered/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Metered
 ```
 
-提供设置计量键的方法。
+Provides methods to set metered key.
 
-要了解更多信息，请访问**Licensing and Subscription**文档文章。
+To learn more, visit the **Licensing and Subscription** documentation article.
 
-在此示例中，将尝试为组件 jar 文件设置计量的公钥和私钥：
+In this example, an attempt will be made to set metered public and private key the component jar file:
 
 ```
 
@@ -25,23 +25,23 @@ public class Metered
  matered.setMeteredKey("PublicKey", "PrivateKey");
  
 ```
-## 构造函数s
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [Metered()](#Metered--) | 初始化此类的新实例。 |
-## 方法s
+| [Metered()](#Metered--) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getConsumptionCredit()](#getConsumptionCredit--) | 获得消费积分 |
-| [getConsumptionQuantity()](#getConsumptionQuantity--) | 获取消费文件大小 |
+| [getClass()](#getClass--) |  |
+| [getConsumptionCredit()](#getConsumptionCredit--) | Gets consumption credit |
+| [getConsumptionQuantity()](#getConsumptionQuantity--) | Gets consumption file size |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | 设置计量的公钥和私钥。 |
+| [setMeteredKey(String publicKey, String privateKey)](#setMeteredKey-java.lang.String-java.lang.String-) | Sets metered public and private key. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,7 +52,7 @@ public Metered()
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -62,43 +62,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getConsumptionCredit() {#getConsumptionCredit--}
 ```
 public static BigDecimal getConsumptionCredit()
 ```
 
 
-获得消费积分
+Gets consumption credit
 
-**退货:**
-java.math.BigDecimal - 消费数量
+**Returns:**
+java.math.BigDecimal - consumption quantity
 ### getConsumptionQuantity() {#getConsumptionQuantity--}
 ```
 public static BigDecimal getConsumptionQuantity()
 ```
 
 
-获取消费文件大小
+Gets consumption file size
 
-**退货:**
-java.math.BigDecimal - 消费数量
+**Returns:**
+java.math.BigDecimal - consumption quantity
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -107,8 +107,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -131,13 +131,13 @@ public void setMeteredKey(String publicKey, String privateKey)
 ```
 
 
-设置计量的公钥和私钥。如果您购买的是计量许可证，在启动应用程序时，应该调用此 API，正常情况下，这就足够了。但是，如果总是无法上传消费数据，超过24小时，License会被设置为评估状态，为避免这种情况，您应该定期检查License状态，如果是评估状态，再次调用该API。
+Sets metered public and private key. If you purchase metered license, when start application, this API should be called, normally, this is enough. However, if always fail to upload consumption data and exceed 24 hours, the license will be set to evaluation status, to avoid such case, you should regularly check the license status, if it is evaluation status, call this API again.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| publicKey | java.lang.String | 公钥 |
-| privateKey | java.lang.String | 私钥 |
+| publicKey | java.lang.String | public key |
+| privateKey | java.lang.String | private key |
 
 ### toString() {#toString--}
 ```
@@ -147,7 +147,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -165,8 +165,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -178,8 +178,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

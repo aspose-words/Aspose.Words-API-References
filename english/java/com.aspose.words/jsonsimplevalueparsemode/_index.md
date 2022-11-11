@@ -1,33 +1,33 @@
 ---
 title: JsonSimpleValueParseMode
-second_title: Aspose.Words for Java API 参考
-description: 指定在加载 JSON 时解析 JSON 简单值 null 布尔数字整数和字符串的模式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies a mode for parsing JSON simple values null boolean number integer and string while loading JSON.
 type: docs
 weight: 355
-url: /zh/java/com.aspose.words/jsonsimplevalueparsemode/
+url: /java/com.aspose.words/jsonsimplevalueparsemode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class JsonSimpleValueParseMode
 ```
 
-指定在加载 JSON 时解析 JSON 简单值（null、布尔值、数字、整数和字符串）的模式。这种模式不会影响日期时间值的解析。
-## 字段
+Specifies a mode for parsing JSON simple values (null, boolean, number, integer, and string) while loading JSON. Such a mode does not affect parsing of date-time values.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [LOOSE](#LOOSE) | 指定在解析其字符串表示时确定 JSON 简单值类型的模式。 |
-| [STRICT](#STRICT) | 指定从 JSON 表示法本身确定 JSON 简单值类型的模式。 |
+| [LOOSE](#LOOSE) | Specifies the mode where types of JSON simple values are determined upon parsing of their string representations. |
+| [STRICT](#STRICT) | Specifies the mode where types of JSON simple values are determined from JSON notation itself. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String jsonSimpleValueParseModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int jsonSimpleValueParseMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int LOOSE
 ```
 
 
-指定在解析其字符串表示时确定 JSON 简单值类型的模式。例如，JSON 片段中的 'prop' 类型'\ { 道具：“123”\}' 在此模式下被确定为整数。
+Specifies the mode where types of JSON simple values are determined upon parsing of their string representations. For example, the type of 'prop' from the JSON snippet '\{ prop: "123" \}' is determined as integer in this mode.
 
 ### STRICT {#STRICT}
 ```
@@ -52,7 +52,7 @@ public static int STRICT
 ```
 
 
-指定从 JSON 表示法本身确定 JSON 简单值类型的模式。例如，JSON 片段中的 'prop' 类型'\ { 道具：“123”\}' 在此模式下被确定为字符串。
+Specifies the mode where types of JSON simple values are determined from JSON notation itself. For example, the type of 'prop' from the JSON snippet '\{ prop: "123" \}' is determined as string in this mode.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String jsonSimpleValueParseModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String jsonSimpleValueParseModeName)
@@ -83,23 +83,23 @@ public static int fromName(String jsonSimpleValueParseModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | jsonSimpleValueParseModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int jsonSimpleValueParseMode) {#getName-int-}
 ```
 public static String getName(int jsonSimpleValueParseMode)
@@ -108,12 +108,12 @@ public static String getName(int jsonSimpleValueParseMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | jsonSimpleValueParseMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int jsonSimpleValueParseMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int jsonSimpleValueParseMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | jsonSimpleValueParseMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

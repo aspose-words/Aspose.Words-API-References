@@ -1,99 +1,99 @@
 ---
 title: GlossaryDocument
-second_title: Aspose.Words for Java API 参考
-description: 表示 Word 文档中词汇表文档的根元素。
+second_title: Aspose.Words for Java API Reference
+description: Represents the root element for a glossary document within a Word document.
 type: docs
 weight: 306
-url: /zh/java/com.aspose.words/glossarydocument/
+url: /java/com.aspose.words/glossarydocument/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.DocumentBase](../../com.aspose.words/documentbase)
 ```
 public class GlossaryDocument extends DocumentBase
 ```
 
-表示 Word 文档中词汇表文档的根元素。词汇表文档是自动图文集、自动更正条目和构建块的存储。
+Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks.
 
-要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
+To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
 
-一些文档，通常是模板，可以包含自动图文集、自动更正条目和/或构建块（也称为*glossary document entries*, *document parts*或者*building blocks*）。
+Some documents, usually templates, can contain AutoText, AutoCorrect entries and/or Building Blocks (also known as *glossary document entries*, *document parts* or *building blocks*).
 
-要访问构建块，您需要将文档加载到[Document](../../com.aspose.words/document)目的。构建块将通过[Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-)财产。
+To access building blocks, you need to load a document into a [Document](../../com.aspose.words/document) object. Building blocks will be available via the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-) property.
 
-[GlossaryDocument](../../com.aspose.words/glossarydocument)可以包含任意数量的[BuildingBlock](../../com.aspose.words/buildingblock)对象。每个[BuildingBlock](../../com.aspose.words/buildingblock)代表一个文档部分。
+[GlossaryDocument](../../com.aspose.words/glossarydocument) can contain any number of [BuildingBlock](../../com.aspose.words/buildingblock) objects. Each [BuildingBlock](../../com.aspose.words/buildingblock) represents one document part.
 
-对应于**glossaryDocument**和**docParts**OOXML 中的元素。
-## 方法s
+Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [getBackgroundShape()](#getBackgroundShape--) | 获取文档的背景形状。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getBackgroundShape()](#getBackgroundShape--) | Gets the background shape of the document. |
 | [getBuildingBlock(int gallery, String category, String name)](#getBuildingBlock-int-java.lang.String-java.lang.String-) |  |
-| [getBuildingBlocks()](#getBuildingBlocks--) | 返回表示词汇表文档中所有构建块的类型化集合。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getBuildingBlocks()](#getBuildingBlocks--) | Returns a typed collection that represents all building blocks in the glossary document. |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
+| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
 | [getDocument()](#getDocument--) |  |
-| [getFirstBuildingBlock()](#getFirstBuildingBlock--) | 获取词汇表文档中的第一个构建块。 |
-| [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
-| [getFontInfos()](#getFontInfos--) | 提供对本文档中使用的字体属性的访问。 |
-| [getLastBuildingBlock()](#getLastBuildingBlock--) | 获取词汇表文档中的最后一个构建块。 |
-| [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
-| [getLists()](#getLists--) | 提供对文档中使用的列表格式的访问。 |
+| [getFirstBuildingBlock()](#getFirstBuildingBlock--) | Gets the first building block in the glossary document. |
+| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
+| [getFontInfos()](#getFontInfos--) | Provides access to properties of fonts used in this document. |
+| [getLastBuildingBlock()](#getLastBuildingBlock--) | Gets the last building block in the glossary document. |
+| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
+| [getLists()](#getLists--) | Provides access to the list formatting used in the document. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNodeChangingCallback()](#getNodeChangingCallback--) | 在文档中插入或删除节点时调用。 |
-| [getNode类型()](#getNode类型--) | 返回[Node类型.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT)价值。 |
-| [getPageColor()](#getPageColor--) | 获取文档的页面颜色。 |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制如何加载外部资源。 |
-| [getStyles()](#getStyles--) | 返回文档中定义的样式集合。 |
-| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
-| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。 |
-| [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeChangingCallback()](#getNodeChangingCallback--) | Called when a node is inserted or removed in the document. |
+| [getNodeType()](#getNodeType--) | Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value. |
+| [getPageColor()](#getPageColor--) | Gets the page color of the document. |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Allows to control how external resources are loaded. |
+| [getStyles()](#getStyles--) | Returns a collection of styles defined in the document. |
+| [getText()](#getText--) | Gets the text of this node and of all its children. |
+| [getWarningCallback()](#getWarningCallback--) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
+| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
 | [hashCode()](#hashCode--) |  |
-| [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean-) | 将节点从另一个文档导入到当前文档。 |
+| [importNode(Node srcNode, boolean isImportChildren)](#importNode-com.aspose.words.Node-boolean-) | Imports a node from another document to the current document. |
 | [importNode(Node srcNode, boolean isImportChildren, int importFormatMode)](#importNode-com.aspose.words.Node-boolean-int-) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
-| [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
+| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
+| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
-| [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
-| [setBackgroundShape(Shape value)](#setBackgroundShape-com.aspose.words.Shape-) | 设置文档的背景形状。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback-) | 在文档中插入或删除节点时调用。 |
-| [setPageColor(Color value)](#setPageColor-java.awt.Color-) | 设置文档的页面颜色。 |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制如何加载外部资源。 |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。 |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
+| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
+| [setBackgroundShape(Shape value)](#setBackgroundShape-com.aspose.words.Shape-) | Sets the background shape of the document. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
+| [setNodeChangingCallback(INodeChangingCallback value)](#setNodeChangingCallback-com.aspose.words.INodeChangingCallback-) | Called when a node is inserted or removed in the document. |
+| [setPageColor(Color value)](#setPageColor-java.awt.Color-) | Sets the page color of the document. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Allows to control how external resources are loaded. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -104,42 +104,42 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
 
-**退货:**
-boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。
+**Returns:**
+boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes.
 
-来电[DocumentVisitor.visitGlossaryDocumentStart(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-) ，然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于该节点的所有子节点，然后调用[DocumentVisitor.visitGlossaryDocumentEnd(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-)在最后。
+Calls [DocumentVisitor.visitGlossaryDocumentStart(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentStart-com.aspose.words.GlossaryDocument-), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-) for all child nodes of this node and then calls [DocumentVisitor.visitGlossaryDocumentEnd(com.aspose.words.GlossaryDocument)](../../com.aspose.words/documentvisitor\#visitGlossaryDocumentEnd-com.aspose.words.GlossaryDocument-) at the end.
 
-注意：当您在[Document](../../com.aspose.words/document).如果要对词汇表文档执行访问者，则需要调用[accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
+Note: A glossary document node and its children are not visited when you execute a Visitor over a [Document](../../com.aspose.words/document). If you want to execute a Visitor over a glossary document, you need to call [accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/glossarydocument\#accept-com.aspose.words.DocumentVisitor-).
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
 public Node appendChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的末尾。
+Adds the specified node to the end of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### dd() {#dd--}
 ```
 public void dd()
@@ -154,19 +154,19 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -175,61 +175,61 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+**Returns:**
+boolean
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 ### getBackgroundShape() {#getBackgroundShape--}
 ```
 public Shape getBackgroundShape()
 ```
 
 
-获取文档的背景形状。可以为空。
+Gets the background shape of the document. Can be null.
 
-Microsoft Word 只允许具有其[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--)属性等于[Shape类型.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
 
-Microsoft Word 仅支持背景形状的填充属性。所有其他属性都被忽略。
+Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-将此属性设置为非空值也将设置[ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape--) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean-)为真。
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape--) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean-) to true.
 
-**退货:**
-[Shape](../../com.aspose.words/shape) - 文档的背景形状。
+**Returns:**
+[Shape](../../com.aspose.words/shape) - The background shape of the document.
 ### getBuildingBlock(int gallery, String category, String name) {#getBuildingBlock-int-java.lang.String-java.lang.String-}
 ```
 public BuildingBlock getBuildingBlock(int gallery, String category, String name)
@@ -238,14 +238,14 @@ public BuildingBlock getBuildingBlock(int gallery, String category, String name)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | gallery | int |  |
 | category | java.lang.String |  |
 | name | java.lang.String |  |
 
-**退货:**
+**Returns:**
 [BuildingBlock](../../com.aspose.words/buildingblock)
 ### getBuildingBlocks() {#getBuildingBlocks--}
 ```
@@ -253,26 +253,26 @@ public BuildingBlockCollection getBuildingBlocks()
 ```
 
 
-返回表示词汇表文档中所有构建块的类型化集合。
+Returns a typed collection that represents all building blocks in the glossary document.
 
-**退货:**
-[BuildingBlockCollection](../../com.aspose.words/buildingblockcollection) 表示词汇表文档中所有构建块的类型化集合。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+**Returns:**
+[BuildingBlockCollection](../../com.aspose.words/buildingblockcollection) - A typed collection that represents all building blocks in the glossary document.
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -280,40 +280,40 @@ public NodeCollection getChildNodes()
 ```
 
 
-获取此节点的所有直接子节点。
+Gets all immediate child nodes of this node.
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
 
-如果没有子节点，则此属性返回一个空集合。
+If there are no child nodes, this property returns an empty collection.
 
-**退货:**
-[NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+**Returns:**
+[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -322,7 +322,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -330,10 +330,10 @@ public int getCount()
 ```
 
 
-获取此节点的直接子节点数。
+Gets the number of immediate children of this node.
 
-**退货:**
-int - 此节点的直接子节点数。
+**Returns:**
+int - The number of immediate children of this node.
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -342,7 +342,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -350,27 +350,27 @@ public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
+**Returns:**
 [DocumentBase](../../com.aspose.words/documentbase)
 ### getFirstBuildingBlock() {#getFirstBuildingBlock--}
 ```
@@ -378,66 +378,66 @@ public BuildingBlock getFirstBuildingBlock()
 ```
 
 
-获取词汇表文档中的第一个构建块。如果没有可用的构建块，则返回 null。
+Gets the first building block in the glossary document. Returns  null  if there are no building blocks available.
 
-**退货:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - 词汇表文档中的第一个构建块。
+**Returns:**
+[BuildingBlock](../../com.aspose.words/buildingblock) - The first building block in the glossary document.
 ### getFirstChild() {#getFirstChild--}
 ```
 public Node getFirstChild()
 ```
 
 
-获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
+Gets the first child of the node. If there is no first child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first child of the node.
 ### getFontInfos() {#getFontInfos--}
 ```
 public FontInfoCollection getFontInfos()
 ```
 
 
-提供对本文档中使用的字体属性的访问。
+Provides access to properties of fonts used in this document.
 
-此字体定义集合按原样从文档中加载。在某些文档中，字体定义可能是可选的、缺失的或不完整的。
+This collection of font definitions is loaded as is from the document. Font definitions might be optional, missing or incomplete in some documents.
 
-不要依赖此集合来确定文档中使用了特定字体。您应该只使用此集合来获取有关文档中可能使用的字体的信息。
+Do not rely on this collection to ascertain that a particular font is used in the document. You should only use this collection to get information about fonts that might be used in the document.
 
-**退货:**
-[FontInfoCollection](../../com.aspose.words/fontinfocollection) - 相应的[FontInfoCollection](../../com.aspose.words/fontinfocollection)价值。
+**Returns:**
+[FontInfoCollection](../../com.aspose.words/fontinfocollection) - The corresponding [FontInfoCollection](../../com.aspose.words/fontinfocollection) value.
 ### getLastBuildingBlock() {#getLastBuildingBlock--}
 ```
 public BuildingBlock getLastBuildingBlock()
 ```
 
 
-获取词汇表文档中的最后一个构建块。如果没有可用的构建块，则返回 null。
+Gets the last building block in the glossary document. Returns  null  if there are no building blocks available.
 
-**退货:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - 词汇表文档中的最后一个构建块。
+**Returns:**
+[BuildingBlock](../../com.aspose.words/buildingblock) - The last building block in the glossary document.
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
 ```
 
 
-获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
+Gets the last child of the node. If there is no last child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The last child of the node.
 ### getLists() {#getLists--}
 ```
 public ListCollection getLists()
 ```
 
 
-提供对文档中使用的列表格式的访问。
+Provides access to the list formatting used in the document.
 
-有关更多信息，请参阅[ListCollection](../../com.aspose.words/listcollection)班级。
+For more information see the description of the [ListCollection](../../com.aspose.words/listcollection) class.
 
-**退货:**
-[ListCollection](../../com.aspose.words/listcollection) - 相应的[ListCollection](../../com.aspose.words/listcollection)价值。
+**Returns:**
+[ListCollection](../../com.aspose.words/listcollection) - The corresponding [ListCollection](../../com.aspose.words/listcollection) value.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -446,12 +446,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -459,109 +459,109 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
 ### getNodeChangingCallback() {#getNodeChangingCallback--}
 ```
 public INodeChangingCallback getNodeChangingCallback()
 ```
 
 
-在文档中插入或删除节点时调用。
+Called when a node is inserted or removed in the document.
 
-**退货:**
-[INodeChangingCallback](../../com.aspose.words/inodechangingcallback) - 相应的[INodeChangingCallback](../../com.aspose.words/inodechangingcallback)价值。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[INodeChangingCallback](../../com.aspose.words/inodechangingcallback) - The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value.
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-返回[Node类型.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT)价值。
+Returns the [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value.
 
-**退货:**
-诠释 - 的[Node类型.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT)价值。返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - The [NodeType.GLOSSARY\_DOCUMENT](../../com.aspose.words/nodetype\#GLOSSARY-DOCUMENT) value. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getPageColor() {#getPageColor--}
 ```
 public Color getPageColor()
 ```
 
 
-获取文档的页面颜色。这个属性是一个更简单的版本[getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
+Gets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
 
-此属性提供了一种为文档指定纯色页面颜色的简单方法。设置此属性会创建并设置一个适当的[getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
 
-如果未设置页面颜色（例如文档中没有背景形状），则返回零颜色。
+If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
-**退货:**
-java.awt.Color - 文档的页面颜色。
+**Returns:**
+java.awt.Color - The page color of the document.
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback--}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
 
 
-允许控制如何加载外部资源。
+Allows to control how external resources are loaded.
 
-**退货:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。
+**Returns:**
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
 ### getStyles() {#getStyles--}
 ```
 public StyleCollection getStyles()
 ```
 
 
-返回文档中定义的样式集合。
+Returns a collection of styles defined in the document.
 
-有关更多信息，请参阅[StyleCollection](../../com.aspose.words/stylecollection)班级。
+For more information see the description of the [StyleCollection](../../com.aspose.words/stylecollection) class.
 
-**退货:**
-[StyleCollection](../../com.aspose.words/stylecollection) 文档中定义的样式集合。
+**Returns:**
+[StyleCollection](../../com.aspose.words/stylecollection) - A collection of styles defined in the document.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点及其所有子节点的文本。
+Gets the text of this node and of all its children.
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getWarningCallback() {#getWarningCallback--}
 ```
@@ -569,20 +569,20 @@ public IWarningCallback getWarningCallback()
 ```
 
 
-当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。文档可能会在其存在的任何阶段产生警告，因此尽早设置警告回调以避免警告丢失非常重要。例如这样的属性[Document.getPageCount()](../../com.aspose.words/document\#getPageCount--)实际构建稍后用于渲染的文档布局，如果为稍后的渲染调用指定警告回调，则布局警告可能会丢失。
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount--) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
 ```
 
 
-如果此节点有任何子节点，则返回 true。
+Returns true if this node has any child nodes.
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**Returns:**
+boolean - True if this node has any child nodes.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -591,34 +591,34 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### importNode(Node srcNode, boolean isImportChildren) {#importNode-com.aspose.words.Node-boolean-}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren)
 ```
 
 
-将节点从另一个文档导入到当前文档。
+Imports a node from another document to the current document.
 
-将节点从另一个文档导入到当前文档。
+Imports a node from another document to the current document.
 
-该方法使用[ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode\#USE-DESTINATION-STYLES)解决格式的选项。
+This method uses the [ImportFormatMode.USE\_DESTINATION\_STYLES](../../com.aspose.words/importformatmode\#USE-DESTINATION-STYLES) option to resolve formatting.
 
-导入节点会创建属于导入文档的源节点的副本。返回的节点没有父节点。源节点不会从原始文档中更改或删除。
+Importing a node creates a copy of the source node belonging to the importing document. The returned node has no parent. The source node is not altered or removed from the original document.
 
-在将另一个文档中的节点插入此文档之前，必须先导入它。在导入期间，文档特定的属性（例如对样式和列表的引用）会从原始文档转换为导入文档。导入节点后，可以使用将其插入到文档中的适当位置[CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node-)或者[CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node-).
+Before a node from another document can be inserted into this document, it must be imported. During import, document-specific properties such as references to styles and lists are translated from the original to the importing document. After the node was imported, it can be inserted into the appropriate place in the document using [CompositeNode.insertBefore(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertBefore-com.aspose.words.Node--com.aspose.words.Node-) or [CompositeNode.insertAfter(com.aspose.words.Node, com.aspose.words.Node)](../../com.aspose.words/compositenode\#insertAfter-com.aspose.words.Node--com.aspose.words.Node-).
 
-如果源节点已经属于目标文档，则只需创建源节点的深层克隆。
+If the source node already belongs to the destination document, then simply a deep clone of the source node is created.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| srcNode | [Node](../../com.aspose.words/node) | 正在导入的节点。 |
-| isImportChildren | boolean | True 递归导入所有子节点；否则为假。 |
+| srcNode | [Node](../../com.aspose.words/node) | The node being imported. |
+| isImportChildren | boolean | True to import all child nodes recursively; otherwise, false. |
 
-**退货:**
-[Node](../../com.aspose.words/node) 属于当前文档的克隆节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node that belongs to the current document.
 ### importNode(Node srcNode, boolean isImportChildren, int importFormatMode) {#importNode-com.aspose.words.Node-boolean-int-}
 ```
 public Node importNode(Node srcNode, boolean isImportChildren, int importFormatMode)
@@ -627,14 +627,14 @@ public Node importNode(Node srcNode, boolean isImportChildren, int importFormatM
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../com.aspose.words/node) |  |
 | isImportChildren | boolean |  |
 | importFormatMode | int |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
@@ -642,78 +642,78 @@ public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+Inserts the specified node immediately after the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的开头插入 newChild。
+If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+Inserts the specified node immediately before the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
+If refChild is null, inserts newChild at the end of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-返回 true，因为此节点可以有子节点。
+Returns true as this node can have child nodes.
 
-**退货:**
-boolean - True 因为这个节点可以有子节点。
+**Returns:**
+boolean - True as this node can have child nodes.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+Provides support for the for each style iteration over the child nodes of this node.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
@@ -721,29 +721,29 @@ public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -767,41 +767,41 @@ public Node prependChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的开头。
+Adds the specified node to the beginning of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
 ### removeAllChildren() {#removeAllChildren--}
 ```
@@ -809,7 +809,7 @@ public void removeAllChildren()
 ```
 
 
-移除当前节点的所有子节点。
+Removes all the child nodes of the current node.
 
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
 ```
@@ -817,24 +817,24 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+Removes the specified child node.
 
-删除节点后，oldChild 的父级设置为 null。
+The parent of oldChild is set to null after the node is removed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 删除的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The removed node.
 ### removeSmartTags() {#removeSmartTags--}
 ```
 public void removeSmartTags()
 ```
 
 
-删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。此方法不会删除智能标记的内容。
+Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String-}
 ```
@@ -842,52 +842,52 @@ public NodeList selectNodes(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的节点列表。
+Selects a list of nodes matching the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的第一个节点。
+Selects the first Node that matches the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
 ### setBackgroundShape(Shape value) {#setBackgroundShape-com.aspose.words.Shape-}
 ```
 public void setBackgroundShape(Shape value)
 ```
 
 
-设置文档的背景形状。可以为空。
+Sets the background shape of the document. Can be null.
 
-Microsoft Word 只允许具有其[ShapeBase.getShape类型()](../../com.aspose.words/shapebase\#getShape类型--)属性等于[Shape类型.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE)用作文档的背景形状。
+Microsoft Word allows only a shape that has its [ShapeBase.getShapeType()](../../com.aspose.words/shapebase\#getShapeType--) property equal to [ShapeType.RECTANGLE](../../com.aspose.words/shapetype\#RECTANGLE) to be used as a background shape for a document.
 
-Microsoft Word 仅支持背景形状的填充属性。所有其他属性都被忽略。
+Microsoft Word supports only the fill properties of a background shape. All other properties are ignored.
 
-将此属性设置为非空值也将设置[ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape--) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean-)为真。
+Setting this property to a non-null value will also set the [ViewOptions.getDisplayBackgroundShape()](../../com.aspose.words/viewoptions\#getDisplayBackgroundShape--) / [ViewOptions.setDisplayBackgroundShape(boolean)](../../com.aspose.words/viewoptions\#setDisplayBackgroundShape-boolean-) to true.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Shape](../../com.aspose.words/shape) | 文档的背景形状。 |
+| value | [Shape](../../com.aspose.words/shape) | The background shape of the document. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -895,18 +895,18 @@ public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setNodeChangingCallback(INodeChangingCallback value) {#setNodeChangingCallback-com.aspose.words.INodeChangingCallback-}
 ```
@@ -914,12 +914,12 @@ public void setNodeChangingCallback(INodeChangingCallback value)
 ```
 
 
-在文档中插入或删除节点时调用。
+Called when a node is inserted or removed in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) | 相应的[INodeChangingCallback](../../com.aspose.words/inodechangingcallback)价值。 |
+| value | [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) | The corresponding [INodeChangingCallback](../../com.aspose.words/inodechangingcallback) value. |
 
 ### setPageColor(Color value) {#setPageColor-java.awt.Color-}
 ```
@@ -927,16 +927,16 @@ public void setPageColor(Color value)
 ```
 
 
-设置文档的页面颜色。这个属性是一个更简单的版本[getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
+Sets the page color of the document. This property is a simpler version of [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
 
-此属性提供了一种为文档指定纯色页面颜色的简单方法。设置此属性会创建并设置一个适当的[getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
+This property provides a simple way to specify a solid page color for the document. Setting this property creates and sets an appropriate [getBackgroundShape()](../../com.aspose.words/documentbase\#getBackgroundShape--) / [setBackgroundShape(com.aspose.words.Shape)](../../com.aspose.words/documentbase\#setBackgroundShape-com.aspose.words.Shape-).
 
-如果未设置页面颜色（例如文档中没有背景形状），则返回零颜色。
+If the page color is not set (e.g. there is no background shape in the document) returns a zero color.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 文档的页面颜色。 |
+| value | java.awt.Color | The page color of the document. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
 ```
@@ -944,12 +944,12 @@ public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
 
 
-允许控制如何加载外部资源。
+Allows to control how external resources are loaded.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。 |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
 ```
@@ -957,12 +957,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-当检测到可能导致数据或格式保真度丢失的问题时，在各种文档处理过程中调用。文档可能会在其存在的任何阶段产生警告，因此尽早设置警告回调以避免警告丢失非常重要。例如这样的属性[Document.getPageCount()](../../com.aspose.words/document\#getPageCount--)实际构建稍后用于渲染的文档布局，如果为稍后的渲染调用指定警告回调，则布局警告可能会丢失。
+Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. Document may generate warnings at any stage of its existence, so it's important to setup warning callback as early as possible to avoid the warnings loss. E.g. such properties as [Document.getPageCount()](../../com.aspose.words/document\#getPageCount--) actually build the document layout which is used later for rendering, and the layout warnings may be lost if warning callback is specified just for the rendering calls later.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### toString() {#toString--}
 ```
@@ -972,7 +972,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -980,15 +980,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -997,12 +997,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1020,8 +1020,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1033,8 +1033,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

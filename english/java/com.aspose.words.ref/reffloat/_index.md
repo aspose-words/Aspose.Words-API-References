@@ -1,35 +1,35 @@
 ---
 title: RefFloat
 second_title: Aspose.Words for Java API Reference
-description: 表示 Float 原始类型的 Out/Ref 构造
+description: Represents Out/Ref constructions for Float primitive type
 type: docs
 weight: 14
-url: /zh/java/com.aspose.words.ref/reffloat/
+url: /java/com.aspose.words.ref/reffloat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RefFloat
 ```
 
-表示 Float 原始类型的 Out/Ref 构造
-## 构造函数s
+Represents Out/Ref constructions for Float primitive type
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [RefFloat(float value)](#RefFloat-float-) | 使用给定值模拟 Out/Ref 参数初始化。 |
-## 方法s
+| [RefFloat(float value)](#RefFloat-float-) | Mimics Out/Ref parameter initialisation with given Value. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get()](#get--) | 获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用 |
-| [get班级()](#get班级--) |  |
+| [get()](#get--) | Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(float anotherValue)](#set-float-) | 设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用 |
+| [set(float anotherValue)](#set-float-) | Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,10 +40,10 @@ public RefFloat(float value)
 ```
 
 
-使用给定值模拟 Out/Ref 参数初始化。应该在调用具有 Out/Ref 结构的方法之前使用
+Mimics Out/Ref parameter initialisation with given Value. Should be used before calling the method with Out/Ref constructions
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | float |  |
 
@@ -55,33 +55,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get() {#get--}
 ```
 public float get()
 ```
 
 
-获取 Out/Ref 参数值 应在调用具有 Out/Ref 构造的方法后使用
+Gets Out/Ref parameter Value Should be used after calling the method with Out/Ref constructions
 
-**退货:**
-漂浮
-### get班级() {#get班级--}
+**Returns:**
+float
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,15 +114,15 @@ public float set(float anotherValue)
 ```
 
 
-设置 Out/Ref 参数值 应在具有 Out/Ref 结构的方法内部使用
+Sets Out/Ref parameter Value Should be used inside the method with Out/Ref constructions
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | anotherValue | float |  |
 
-**退货:**
-漂浮
+**Returns:**
+float
 ### toString() {#toString--}
 ```
 public String toString()
@@ -131,7 +131,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -149,8 +149,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -162,8 +162,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

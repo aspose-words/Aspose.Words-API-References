@@ -1,33 +1,33 @@
 ---
-title: 字段UpdateCultureSource
-second_title: Aspose.Words for Java API 参考
-description: 指示在字段更新期间要使用的区域性。
+title: FieldUpdateCultureSource
+second_title: Aspose.Words for Java API Reference
+description: Indicates what culture to use during field update.
 type: docs
 weight: 258
-url: /zh/java/com.aspose.words/fieldupdateculturesource/
+url: /java/com.aspose.words/fieldupdateculturesource/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段UpdateCultureSource
+public class FieldUpdateCultureSource
 ```
 
-指示在字段更新期间要使用的区域性。
-## 字段
+Indicates what culture to use during field update.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CURRENT_THREAD](#CURRENT-THREAD) | 当前执行线程的文化用于更新字段。 |
-| [FIELD_CODE](#FIELD-CODE) | 使用通过语言设置在字段格式属性中指定的文化。 |
+| [CURRENT_THREAD](#CURRENT-THREAD) | The culture of the current execution thread is used to update fields. |
+| [FIELD_CODE](#FIELD-CODE) | The culture specified in the field formatting properties via language setting is used. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldUpdateCultureSourceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldUpdateCultureSource)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int CURRENT_THREAD
 ```
 
 
-当前执行线程的文化用于更新字段。
+The culture of the current execution thread is used to update fields.
 
 ### FIELD_CODE {#FIELD-CODE}
 ```
@@ -52,7 +52,7 @@ public static int FIELD_CODE
 ```
 
 
-使用通过语言设置在字段格式属性中指定的文化。确切地说，Aspose.Words 通过使用为域代码的第一个字符设置的语言来模仿 MS Word。
+The culture specified in the field formatting properties via language setting is used. To be exact, Aspose.Words mimics MS Word by using the language set for the first character of the field code.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String fieldUpdateCultureSourceName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String fieldUpdateCultureSourceName)
@@ -83,23 +83,23 @@ public static int fromName(String fieldUpdateCultureSourceName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldUpdateCultureSourceName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int fieldUpdateCultureSource) {#getName-int-}
 ```
 public static String getName(int fieldUpdateCultureSource)
@@ -108,12 +108,12 @@ public static String getName(int fieldUpdateCultureSource)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldUpdateCultureSource | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int fieldUpdateCultureSource) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int fieldUpdateCultureSource)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldUpdateCultureSource | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

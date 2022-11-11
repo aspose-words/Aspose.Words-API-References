@@ -1,24 +1,24 @@
 ---
 title: Frameset
-second_title: Aspose.Words for Java API 参考
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 302
-url: /zh/java/com.aspose.words/frameset/
+url: /java/com.aspose.words/frameset/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Frameset
 ```
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getChildFramesets()](#getChildFramesets--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getFrameDefaultUrl()](#getFrameDefaultUrl--) |  |
 | [hashCode()](#hashCode--) |  |
 | [isFrameLinkToFile()](#isFrameLinkToFile--) |  |
@@ -38,13 +38,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getChildFramesets() {#getChildFramesets--}
 ```
 public FramesetCollection getChildFramesets()
@@ -53,18 +53,18 @@ public FramesetCollection getChildFramesets()
 
 
 
-**退货:**
+**Returns:**
 [FramesetCollection](../../com.aspose.words/framesetcollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFrameDefaultUrl() {#getFrameDefaultUrl--}
 ```
 public String getFrameDefaultUrl()
@@ -73,7 +73,7 @@ public String getFrameDefaultUrl()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### hashCode() {#hashCode--}
 ```
@@ -83,8 +83,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isFrameLinkToFile() {#isFrameLinkToFile--}
 ```
 public boolean isFrameLinkToFile()
@@ -93,8 +93,8 @@ public boolean isFrameLinkToFile()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### isFrameLinkToFile(boolean value) {#isFrameLinkToFile-boolean-}
 ```
 public void isFrameLinkToFile(boolean value)
@@ -103,8 +103,8 @@ public void isFrameLinkToFile(boolean value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -132,8 +132,8 @@ public void setFrameDefaultUrl(String value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -145,7 +145,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -163,8 +163,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -176,8 +176,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

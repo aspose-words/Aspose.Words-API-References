@@ -1,30 +1,30 @@
 ---
 title: FileCorruptedException
-second_title: Aspose.Words for Java API 参考
-description: 当文档似乎已损坏且无法加载时，在文档加载期间抛出。
+second_title: Aspose.Words for Java API Reference
+description: Thrown during document load when the document appears to be corrupted and impossible to load.
 type: docs
 weight: 263
-url: /zh/java/com.aspose.words/filecorruptedexception/
+url: /java/com.aspose.words/filecorruptedexception/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception
 ```
 public class FileCorruptedException extends Exception
 ```
 
-在文档加载过程中，当文档似乎已损坏且无法加载时抛出。
+Thrown during document load, when the document appears to be corrupted and impossible to load.
 
-要了解更多信息，请访问**Programming with Documents**文档文章。
-## 方法s
+To learn more, visit the **Programming with Documents** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [addSuppressed(Throwable arg0)](#addSuppressed-java.lang.Throwable-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fillInStackTrace()](#fillInStackTrace--) |  |
 | [getCause()](#getCause--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getLocalizedMessage()](#getLocalizedMessage--) |  |
 | [getMessage()](#getMessage--) |  |
 | [getStackTrace()](#getStackTrace--) |  |
@@ -49,8 +49,8 @@ public final synchronized void addSuppressed(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
@@ -62,13 +62,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fillInStackTrace() {#fillInStackTrace--}
 ```
 public synchronized Throwable fillInStackTrace()
@@ -77,7 +77,7 @@ public synchronized Throwable fillInStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### getCause() {#getCause--}
 ```
@@ -87,18 +87,18 @@ public synchronized Throwable getCause()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLocalizedMessage() {#getLocalizedMessage--}
 ```
 public String getLocalizedMessage()
@@ -107,7 +107,7 @@ public String getLocalizedMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getMessage() {#getMessage--}
 ```
@@ -117,7 +117,7 @@ public String getMessage()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getStackTrace() {#getStackTrace--}
 ```
@@ -127,7 +127,7 @@ public StackTraceElement[] getStackTrace()
 
 
 
-**退货:**
+**Returns:**
 java.lang.StackTraceElement[]
 ### getSuppressed() {#getSuppressed--}
 ```
@@ -137,7 +137,7 @@ public final synchronized Throwable[] getSuppressed()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Throwable[]
 ### hashCode() {#hashCode--}
 ```
@@ -147,8 +147,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### initCause(Throwable arg0) {#initCause-java.lang.Throwable-}
 ```
 public synchronized Throwable initCause(Throwable arg0)
@@ -157,12 +157,12 @@ public synchronized Throwable initCause(Throwable arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Throwable |  |
 
-**退货:**
+**Returns:**
 java.lang.Throwable
 ### notify() {#notify--}
 ```
@@ -196,8 +196,8 @@ public void printStackTrace(PrintStream arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintStream |  |
 
@@ -209,8 +209,8 @@ public void printStackTrace(PrintWriter arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.io.PrintWriter |  |
 
@@ -222,8 +222,8 @@ public void setStackTrace(StackTraceElement[] arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.StackTraceElement[] |  |
 
@@ -235,7 +235,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -253,8 +253,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -266,8 +266,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

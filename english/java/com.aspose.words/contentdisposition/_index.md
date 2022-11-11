@@ -1,35 +1,35 @@
 ---
 title: ContentDisposition
-second_title: Aspose.Words for Java API 参考
-description: 枚举在客户端浏览器上呈现文档的不同方式。
+second_title: Aspose.Words for Java API Reference
+description: Enumerates different ways of presenting the document at the client browser.
 type: docs
 weight: 92
-url: /zh/java/com.aspose.words/contentdisposition/
+url: /java/com.aspose.words/contentdisposition/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ContentDisposition
 ```
 
-枚举在客户端浏览器上呈现文档的不同方式。
+Enumerates different ways of presenting the document at the client browser.
 
-请注意，客户端浏览器上的实际行为可能会受到浏览器安全配置的影响。
-## 字段
+Note that the actual behavior on the client browser might be affected by security configuration of the browser.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ATTACHMENT](#ATTACHMENT) | 将文档发送到浏览器并提供将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。 |
-| [INLINE](#INLINE) | 将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。 |
+| [ATTACHMENT](#ATTACHMENT) | Send the document to the browser and present an option to save the document to disk or open in the application associated with the document's extension. |
+| [INLINE](#INLINE) | Send the document to the browser and presents an option to save the document to disk or open inside the browser. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String contentDispositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int contentDisposition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int ATTACHMENT
 ```
 
 
-将文档发送到浏览器并提供将文档保存到磁盘或在与文档扩展名关联的应用程序中打开的选项。
+Send the document to the browser and present an option to save the document to disk or open in the application associated with the document's extension.
 
 ### INLINE {#INLINE}
 ```
@@ -54,7 +54,7 @@ public static int INLINE
 ```
 
 
-将文档发送到浏览器并提供将文档保存到磁盘或在浏览器中打开的选项。
+Send the document to the browser and presents an option to save the document to disk or open inside the browser.
 
 ### length {#length}
 ```
@@ -70,13 +70,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String contentDispositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String contentDispositionName)
@@ -85,23 +85,23 @@ public static int fromName(String contentDispositionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | contentDispositionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int contentDisposition) {#getName-int-}
 ```
 public static String getName(int contentDisposition)
@@ -110,12 +110,12 @@ public static String getName(int contentDisposition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | contentDisposition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -125,8 +125,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -135,8 +135,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -161,7 +161,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int contentDisposition) {#toString-int-}
 ```
@@ -171,12 +171,12 @@ public static String toString(int contentDisposition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | contentDisposition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -194,8 +194,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -207,8 +207,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

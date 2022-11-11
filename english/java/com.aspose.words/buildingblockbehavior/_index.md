@@ -1,37 +1,37 @@
 ---
 title: BuildingBlockBehavior
-second_title: Aspose.Words for Java API 参考
-description: 指定在将构建块插入主文档时应应用于构建块内容的行为。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 type: docs
 weight: 42
-url: /zh/java/com.aspose.words/buildingblockbehavior/
+url: /java/com.aspose.words/buildingblockbehavior/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BuildingBlockBehavior
 ```
 
-指定在将构建块插入主文档时应应用于构建块内容的行为。
+Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document.
 
-对应于**ST\_DocPartBehavior**输入 OOXML。
-## 字段
+Corresponds to the **ST\_DocPartBehavior** type in OOXML.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CONTENT](#CONTENT) | 指定构建块应作为内联内容插入。 |
-| [DEFAULT](#DEFAULT) | 如同[CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT). |
-| [PAGE](#PAGE) | 指定应将构建块添加到其自己的页面中。 |
-| [PARAGRAPH](#PARAGRAPH) | 指定构建块应插入到其自己的段落中。 |
+| [CONTENT](#CONTENT) | Specifies that the building block shall be inserted as inline content. |
+| [DEFAULT](#DEFAULT) | Same as [CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT). |
+| [PAGE](#PAGE) | Specifies that the building block shall be added into its own page. |
+| [PARAGRAPH](#PARAGRAPH) | Specifies that the building block shall be inserted into its own paragraph. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String buildingBlockBehaviorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int buildingBlockBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int CONTENT
 ```
 
 
-指定构建块应作为内联内容插入。
+Specifies that the building block shall be inserted as inline content.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -56,7 +56,7 @@ public static int DEFAULT
 ```
 
 
-如同[CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT).
+Same as [CONTENT](../../com.aspose.words/buildingblockbehavior\#CONTENT).
 
 ### PAGE {#PAGE}
 ```
@@ -64,7 +64,7 @@ public static int PAGE
 ```
 
 
-指定应将构建块添加到其自己的页面中。
+Specifies that the building block shall be added into its own page.
 
 ### PARAGRAPH {#PARAGRAPH}
 ```
@@ -72,7 +72,7 @@ public static int PARAGRAPH
 ```
 
 
-指定构建块应插入到其自己的段落中。
+Specifies that the building block shall be inserted into its own paragraph.
 
 ### length {#length}
 ```
@@ -88,13 +88,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String buildingBlockBehaviorName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String buildingBlockBehaviorName)
@@ -103,23 +103,23 @@ public static int fromName(String buildingBlockBehaviorName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockBehaviorName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int buildingBlockBehavior) {#getName-int-}
 ```
 public static String getName(int buildingBlockBehavior)
@@ -128,12 +128,12 @@ public static String getName(int buildingBlockBehavior)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockBehavior | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -143,8 +143,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -153,8 +153,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -179,7 +179,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int buildingBlockBehavior) {#toString-int-}
 ```
@@ -189,12 +189,12 @@ public static String toString(int buildingBlockBehavior)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockBehavior | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -212,8 +212,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -225,8 +225,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

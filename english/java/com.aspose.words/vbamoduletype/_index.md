@@ -1,42 +1,42 @@
 ---
-title: VbaModule类型
+title: VbaModuleType
 second_title: Aspose.Words for Java API Reference
-description: 指定 VBA 项目中模型的类型。
+description: Specifies the type of a model in a VBA project.
 type: docs
 weight: 595
-url: /zh/java/com.aspose.words/vbamoduletype/
+url: /java/com.aspose.words/vbamoduletype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class VbaModule类型
+public class VbaModuleType
 ```
 
-指定 VBA 项目中模型的类型。
-## 字段
+Specifies the type of a model in a VBA project.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CLASS_MODULE](#CLASS-MODULE) | 包含新对象定义的模块。 |
-| [DESIGNER_MODULE](#DESIGNER-MODULE) | 扩展已在项目中注册的 ActiveX 控件的方法和属性的 VBA 模块。 |
-| [DOCUMENT_MODULE](#DOCUMENT-MODULE) | 一种 VBA 项目项，它为与文档关联的嵌入式宏和编程访问操作指定模块。 |
-| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | 子程序和函数的集合。 |
+| [CLASS_MODULE](#CLASS-MODULE) | A module that contains the definition for a new object. |
+| [DESIGNER_MODULE](#DESIGNER-MODULE) | A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project. |
+| [DOCUMENT_MODULE](#DOCUMENT-MODULE) | A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document. |
+| [PROCEDURAL_MODULE](#PROCEDURAL-MODULE) | A collection of subroutines and functions. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String vbaModule类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int vbaModule类型)](#getName-int-) |  |
+| [fromName(String vbaModuleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int vbaModuleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int vbaModule类型)](#toString-int-) |  |
+| [toString(int vbaModuleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -46,7 +46,7 @@ public static int CLASS_MODULE
 ```
 
 
-包含新对象定义的模块。类的每个实例都会创建一个新对象，模块中定义的过程成为对象的属性和方法。
+A module that contains the definition for a new object. Each instance of a class creates a new object, and procedures that are defined in the module become properties and methods of the object.
 
 ### DESIGNER_MODULE {#DESIGNER-MODULE}
 ```
@@ -54,7 +54,7 @@ public static int DESIGNER_MODULE
 ```
 
 
-扩展已在项目中注册的 ActiveX 控件的方法和属性的 VBA 模块。
+A VBA module that extends the methods and properties of an ActiveX control that has been registered with the project.
 
 ### DOCUMENT_MODULE {#DOCUMENT-MODULE}
 ```
@@ -62,7 +62,7 @@ public static int DOCUMENT_MODULE
 ```
 
 
-一种 VBA 项目项，它为与文档关联的嵌入式宏和编程访问操作指定模块。
+A type of VBA project item that specifies a module for embedded macros and programmatic access operations that are associated with a document.
 
 ### PROCEDURAL_MODULE {#PROCEDURAL-MODULE}
 ```
@@ -70,7 +70,7 @@ public static int PROCEDURAL_MODULE
 ```
 
 
-子程序和函数的集合。
+A collection of subroutines and functions.
 
 ### length {#length}
 ```
@@ -86,52 +86,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String vbaModule类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String vbaModuleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String vbaModule类型Name)
+public static int fromName(String vbaModuleTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaModule类型Name | java.lang.String |  |
+| vbaModuleTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int vbaModule类型) {#getName-int-}
-```
-public static String getName(int vbaModule类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int vbaModuleType) {#getName-int-}
+```
+public static String getName(int vbaModuleType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaModule类型 | int |  |
+| vbaModuleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,22 +177,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int vbaModule类型) {#toString-int-}
+### toString(int vbaModuleType) {#toString-int-}
 ```
-public static String toString(int vbaModule类型)
+public static String toString(int vbaModuleType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaModule类型 | int |  |
+| vbaModuleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

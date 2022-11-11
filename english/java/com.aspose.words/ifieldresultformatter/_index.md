@@ -1,24 +1,24 @@
 ---
-title: I字段ResultFormatter
-second_title: Aspose.Words for Java API 参考
-description: 如果要控制字段结果的格式，请实现此接口。
+title: IFieldResultFormatter
+second_title: Aspose.Words for Java API Reference
+description: Implement this interface if you want to control how the field result is formatted.
 type: docs
 weight: 642
-url: /zh/java/com.aspose.words/ifieldresultformatter/
+url: /java/com.aspose.words/ifieldresultformatter/
 ---
 ```
-public interface I字段ResultFormatter
+public interface IFieldResultFormatter
 ```
 
-如果要控制字段结果的格式，请实现此接口。
-## 方法s
+Implement this interface if you want to control how the field result is formatted.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [format(double value, int format)](#format-double-int-) |  |
 | [format(String value, int format)](#format-java.lang.String-int-) |  |
-| [formatDateTime(Date value, String format, int calendar类型)](#formatDateTime-java.util.Date-java.lang.String-int-) |  |
-| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String-) | 当 Aspose.Words 应用数字格式开关时调用，即 |
+| [formatDateTime(Date value, String format, int calendarType)](#formatDateTime-java.util.Date-java.lang.String-int-) |  |
+| [formatNumeric(double value, String format)](#formatNumeric-double-java.lang.String-) | Called when Aspose.Words applies a numeric format switch, i.e. |
 ### format(double value, int format) {#format-double-int-}
 ```
 public abstract String format(double value, int format)
@@ -27,13 +27,13 @@ public abstract String format(double value, int format)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 | format | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### format(String value, int format) {#format-java.lang.String-int-}
 ```
@@ -43,30 +43,30 @@ public abstract String format(String value, int format)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 | format | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
-### formatDateTime(Date value, String format, int calendar类型) {#formatDateTime-java.util.Date-java.lang.String-int-}
+### formatDateTime(Date value, String format, int calendarType) {#formatDateTime-java.util.Date-java.lang.String-int-}
 ```
-public abstract String formatDateTime(Date value, String format, int calendar类型)
+public abstract String formatDateTime(Date value, String format, int calendarType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.util.Date |  |
 | format | java.lang.String |  |
-| calendar类型 | int |  |
+| calendarType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### formatNumeric(double value, String format) {#formatNumeric-double-java.lang.String-}
 ```
@@ -74,13 +74,13 @@ public abstract String formatNumeric(double value, String format)
 ```
 
 
-当 Aspose.Words 应用数字格式开关时调用，即\\\#"\#.\ #"。实现应该返回**null**表示应应用默认格式。
+Called when Aspose.Words applies a numeric format switch, i.e. \\\# "\#.\#". The implementation should return **null** to indicate that the default formatting should be applied.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 | format | java.lang.String |  |
 
-**退货:**
+**Returns:**
 java.lang.String

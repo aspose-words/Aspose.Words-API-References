@@ -1,116 +1,116 @@
 ---
-title: Form字段
-second_title: Aspose.Words for Java API 参考
-description: 表示单个表单域。
+title: FormField
+second_title: Aspose.Words for Java API Reference
+description: Represents a single form field.
 type: docs
 weight: 296
-url: /zh/java/com.aspose.words/formfield/
+url: /java/com.aspose.words/formfield/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.Inline](../../com.aspose.words/inline), [com.aspose.words.SpecialChar](../../com.aspose.words/specialchar)
 ```
-public class Form字段 extends SpecialChar
+public class FormField extends SpecialChar
 ```
 
-表示单个表单域。
+Represents a single form field.
 
-要了解更多信息，请访问**Working with Form 字段**文档文章。
+To learn more, visit the **Working with Form Fields** documentation article.
 
-Microsoft Word 提供以下表单域：复选框、文本输入和下拉列表（组合框）。
+Microsoft Word provides the following form fields: checkbox, text input and dropdown (combobox).
 
-**Form字段**是一个内联节点，只能是**Paragraph**.
+**FormField** is an inline-node and can only be a child of **Paragraph**.
 
-**Form字段**在文档中由一个特殊字符表示，并定位为一行文本中的一个字符。
+**FormField** is represented in a document by a special character and positioned as a character within a line of text.
 
-Word文档中一个完整的表单域是一个复杂的结构，由几个节点表示：域开始、FORMTEXT等域代码、表单域数据、域分隔符、域结果、域结束和书签。要以编程方式在 Word 文档中创建表单域，请使用[DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder\#insertCheckBox-java.lang.String--boolean--int-), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.字段.TextForm字段类型,System.String,System.String,System.Int32)**和[DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder\#insertComboBox-java.lang.String--java.lang.String----int-)这确保所有表单字段节点都以正确的顺序和适当的状态创建。
-## 方法s
+A complete form field in a Word document is a complex structure represented by several nodes: field start, field code such as FORMTEXT, form field data, field separator, field result, field end and a bookmark. To programmatically create form fields in a Word document use [DocumentBuilder.insertCheckBox(java.lang.String, boolean, int)](../../com.aspose.words/documentbuilder\#insertCheckBox-java.lang.String--boolean--int-), **M:Aspose.Words.DocumentBuilder.InsertTextInput(System.String,Aspose.Words.Fields.TextFormFieldType,System.String,System.String,System.Int32)** and [DocumentBuilder.insertComboBox(java.lang.String, java.lang.String[], int)](../../com.aspose.words/documentbuilder\#insertComboBox-java.lang.String--java.lang.String----int-) which make sure all of the form field nodes are created in a correct order and in a suitable state.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [getCalculateOnExit()](#getCalculateOnExit--) | 如果在退出该字段时自动更新对指定表单字段的引用，则为真。 |
-| [getCheckBoxSize()](#getCheckBoxSize--) | 获取复选框的大小（以磅为单位）。 |
-| [getChecked()](#getChecked--) | 获取复选框表单域的选中状态。 |
-| [get班级()](#get班级--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
-| [getDefault()](#getDefault--) | 获取复选框表单域的默认值。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getCalculateOnExit()](#getCalculateOnExit--) | True if references to the specified form field are automatically updated whenever the field is exited. |
+| [getCheckBoxSize()](#getCheckBoxSize--) | Gets the size of the checkbox in points. |
+| [getChecked()](#getChecked--) | Gets the checked status of the check box form field. |
+| [getClass()](#getClass--) |  |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
+| [getDefault()](#getDefault--) | Gets the default value of the check box form field. |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
-| [getDropDownItems()](#getDropDownItems--) | 提供对下拉表单字段项目的访问。 |
-| [getDropDownSelectedIndex()](#getDropDownSelectedIndex--) | 获取指定下拉表单字段中当前选定项目的索引。 |
-| [getEnabled()](#getEnabled--) | 如果启用了表单域，则为真。 |
-| [getEntryMacro()](#getEntryMacro--) | 获取表单域的入口宏名称。 |
-| [getExitMacro()](#getExitMacro--) | 获取表单域的退出宏名称。 |
-| [getFont()](#getFont--) | 提供对此对象的字体格式的访问。 |
-| [getHelpText()](#getHelpText--) | 获取当表单域具有焦点并且用户按 F1 时显示在消息框中的文本。 |
-| [getMaxLength()](#getMaxLength--) | 文本字段的最大长度。 |
-| [getName()](#getName--) | 获取表单字段名称。 |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Form字段**. |
-| [getOwnHelp()](#getOwnHelp--) | 指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本的来源。 |
-| [getOwnStatus()](#getOwnStatus--) | 指定当表单域获得焦点时在状态栏中显示的文本的来源。 |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getParentParagraph()](#getParentParagraph--) | 检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。 |
+| [getDropDownItems()](#getDropDownItems--) | Provides access to the items of a dropdown form field. |
+| [getDropDownSelectedIndex()](#getDropDownSelectedIndex--) | Gets the index specifying the currently selected item in a dropdown form field. |
+| [getEnabled()](#getEnabled--) | True if a form field is enabled. |
+| [getEntryMacro()](#getEntryMacro--) | Gets an entry macro name for the form field. |
+| [getExitMacro()](#getExitMacro--) | Gets an exit macro name for the form field. |
+| [getFont()](#getFont--) | Provides access to the font formatting of this object. |
+| [getHelpText()](#getHelpText--) | Gets the text that's displayed in a message box when the form field has the focus and the user presses F1. |
+| [getMaxLength()](#getMaxLength--) | Maximum length for the text field. |
+| [getName()](#getName--) | Gets the form field name. |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType--) | Returns **NodeType.FormField**. |
+| [getOwnHelp()](#getOwnHelp--) | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
+| [getOwnStatus()](#getOwnStatus--) | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getParentParagraph()](#getParentParagraph--) | Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getResult()](#getResult--) | 获取表示此表单域结果的字符串。 |
-| [getStatusText()](#getStatusText--) | 获取表单域获得焦点时在状态栏中显示的文本。 |
-| [getText()](#getText--) | 获取此节点表示的特殊字符。 |
-| [getTextInputDefault()](#getTextInputDefault--) | 获取文本表单字段的默认字符串或计算表达式。 |
-| [getTextInputFormat()](#getTextInputFormat--) | 获取文本表单域的文本格式。 |
-| [getTextInput类型()](#getTextInput类型--) | 获取文本表单字段的类型。 |
-| [get类型()](#get类型--) | 返回表单字段类型。 |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getResult()](#getResult--) | Gets a string that represents the result of this form field. |
+| [getStatusText()](#getStatusText--) | Gets the text that's displayed in the status bar when a form field has the focus. |
+| [getText()](#getText--) | Gets the special character that this node represents. |
+| [getTextInputDefault()](#getTextInputDefault--) | Gets the default string or a calculation expression of a text form field. |
+| [getTextInputFormat()](#getTextInputFormat--) | Gets the text formatting for a text form field. |
+| [getTextInputType()](#getTextInputType--) | Gets the type of a text form field. |
+| [getType()](#getType--) | Returns the form field type. |
 | [hashCode()](#hashCode--) |  |
-| [isCheckBoxExactSize()](#isCheckBoxExactSize--) | 获取一个布尔值，该值指示文本框的大小是自动的还是明确指定的。 |
-| [isCheckBoxExactSize(boolean value)](#isCheckBoxExactSize-boolean-) | 设置布尔值，指示文本框的大小是自动的还是明确指定的。 |
-| [isComposite()](#isComposite--) | 如果此节点可以包含其他节点，则返回 true。 |
-| [isDeleteRevision()](#isDeleteRevision--) | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [isFormatRevision()](#isFormatRevision--) | 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则返回 true。 |
-| [isInsertRevision()](#isInsertRevision--) | 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。 |
-| [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
-| [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [isCheckBoxExactSize()](#isCheckBoxExactSize--) | Gets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
+| [isCheckBoxExactSize(boolean value)](#isCheckBoxExactSize-boolean-) | Sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
+| [isComposite()](#isComposite--) | Returns true if this node can contain other nodes. |
+| [isDeleteRevision()](#isDeleteRevision--) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
+| [isFormatRevision()](#isFormatRevision--) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
+| [isInsertRevision()](#isInsertRevision--) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
+| [isMoveFromRevision()](#isMoveFromRevision--) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision()](#isMoveToRevision--) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [remove字段()](#remove字段--) | 删除完整的表单域，而不仅仅是表单域特殊字符。 |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [removeField()](#removeField--) | Removes the complete form field, not just the form field special character. |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setCalculateOnExit(boolean value)](#setCalculateOnExit-boolean-) | 如果在退出该字段时自动更新对指定表单字段的引用，则为真。 |
-| [setCheckBoxSize(double value)](#setCheckBoxSize-double-) | 以磅为单位设置复选框的大小。 |
-| [setChecked(boolean value)](#setChecked-boolean-) | 设置复选框表单域的选中状态。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [setDefault(boolean value)](#setDefault-boolean-) | 设置复选框表单域的默认值。 |
-| [setDropDownSelectedIndex(int value)](#setDropDownSelectedIndex-int-) | 设置在下拉表单字段中指定当前选定项目的索引。 |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | 如果启用了表单域，则为真。 |
-| [setEntryMacro(String value)](#setEntryMacro-java.lang.String-) | 设置表单域的入口宏名称。 |
-| [setExitMacro(String value)](#setExitMacro-java.lang.String-) | 设置表单域的退出宏名称。 |
-| [setHelpText(String value)](#setHelpText-java.lang.String-) | 设置当表单域具有焦点并且用户按 F1 时在消息框中显示的文本。 |
-| [setMaxLength(int value)](#setMaxLength-int-) | 文本字段的最大长度。 |
-| [setName(String value)](#setName-java.lang.String-) | 设置表单字段名称。 |
-| [setOwnHelp(boolean value)](#setOwnHelp-boolean-) | 指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本的来源。 |
-| [setOwnStatus(boolean value)](#setOwnStatus-boolean-) | 指定当表单域获得焦点时在状态栏中显示的文本的来源。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置一个表示此表单域结果的字符串。 |
+| [setCalculateOnExit(boolean value)](#setCalculateOnExit-boolean-) | True if references to the specified form field are automatically updated whenever the field is exited. |
+| [setCheckBoxSize(double value)](#setCheckBoxSize-double-) | Sets the size of the checkbox in points. |
+| [setChecked(boolean value)](#setChecked-boolean-) | Sets the checked status of the check box form field. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
+| [setDefault(boolean value)](#setDefault-boolean-) | Sets the default value of the check box form field. |
+| [setDropDownSelectedIndex(int value)](#setDropDownSelectedIndex-int-) | Sets the index specifying the currently selected item in a dropdown form field. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | True if a form field is enabled. |
+| [setEntryMacro(String value)](#setEntryMacro-java.lang.String-) | Sets an entry macro name for the form field. |
+| [setExitMacro(String value)](#setExitMacro-java.lang.String-) | Sets an exit macro name for the form field. |
+| [setHelpText(String value)](#setHelpText-java.lang.String-) | Sets the text that's displayed in a message box when the form field has the focus and the user presses F1. |
+| [setMaxLength(int value)](#setMaxLength-int-) | Maximum length for the text field. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the form field name. |
+| [setOwnHelp(boolean value)](#setOwnHelp-boolean-) | Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1. |
+| [setOwnStatus(boolean value)](#setOwnStatus-boolean-) | Specifies the source of the text that's displayed in the status bar when a form field has the focus. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets a string that represents the result of this form field. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setStatusText(String value)](#setStatusText-java.lang.String-) | 设置表单域获得焦点时在状态栏中显示的文本。 |
-| [setTextInputDefault(String value)](#setTextInputDefault-java.lang.String-) | 设置文本表单字段的默认字符串或计算表达式。 |
-| [setTextInputFormat(String value)](#setTextInputFormat-java.lang.String-) | 设置文本表单域的文本格式。 |
-| [setTextInput类型(int value)](#setTextInput类型-int-) | 设置文本表单域的类型。 |
-| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object-) | 应用指定的文本格式[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-)并将值存储在[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-). |
+| [setStatusText(String value)](#setStatusText-java.lang.String-) | Sets the text that's displayed in the status bar when a form field has the focus. |
+| [setTextInputDefault(String value)](#setTextInputDefault-java.lang.String-) | Sets the default string or a calculation expression of a text form field. |
+| [setTextInputFormat(String value)](#setTextInputFormat-java.lang.String-) | Sets the text formatting for a text form field. |
+| [setTextInputType(int value)](#setTextInputType-int-) | Sets the type of a text form field. |
+| [setTextInputValue(Object newValue)](#setTextInputValue-java.lang.Object-) | Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) and stores the value in [getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-). |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -121,19 +121,19 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-调用 DocumentVisitor.VisitForm字段。
+Calls DocumentVisitor.VisitFormField.
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
 
-**退货:**
-boolean - 如果访问者请求停止枚举，则为 False。
+**Returns:**
+boolean - False if the visitor requested the enumeration to stop.
 ### clearRunAttrs() {#clearRunAttrs--}
 ```
 public void clearRunAttrs()
@@ -156,19 +156,19 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -177,13 +177,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
@@ -192,119 +192,119 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 ### getCalculateOnExit() {#getCalculateOnExit--}
 ```
 public boolean getCalculateOnExit()
 ```
 
 
-如果在退出该字段时自动更新对指定表单字段的引用，则为真。
+True if references to the specified form field are automatically updated whenever the field is exited.
 
-环境**CalculateOnExit**仅影响在 Microsoft Word 中打开文档时表单域的行为。 Aspose.Words 从不更新对表单字段的引用。
+Setting **CalculateOnExit** only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getCheckBoxSize() {#getCheckBoxSize--}
 ```
 public double getCheckBoxSize()
 ```
 
 
-获取复选框的大小（以磅为单位）。仅在以下情况下生效[isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-)是真的。
+Gets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-) is true.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**退货:**
-double - 复选框的大小（以磅为单位）。
+**Returns:**
+double - The size of the checkbox in points.
 ### getChecked() {#getChecked--}
 ```
 public boolean getChecked()
 ```
 
 
-获取复选框表单域的选中状态。此属性的默认值为**false**.
+Gets the checked status of the check box form field. Default value for this property is **false**.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**退货:**
-boolean - 复选框表单域的选中状态。
-### get班级() {#get班级--}
+**Returns:**
+boolean - The checked status of the check box form field.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
 public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getDefault() {#getDefault--}
 ```
 public boolean getDefault()
 ```
 
 
-获取复选框表单域的默认值。此属性的默认值为**false**.
+Gets the default value of the check box form field. Default value for this property is **false**.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**退货:**
-boolean - 复选框表单域的默认值。
+**Returns:**
+boolean - The default value of the check box form field.
 ### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int fontAttr)
@@ -313,12 +313,12 @@ public Object getDirectRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -326,12 +326,12 @@ public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline--}
 ```
 public DocumentBase getDocument_IInline()
@@ -340,7 +340,7 @@ public DocumentBase getDocument_IInline()
 
 
 
-**退货:**
+**Returns:**
 [DocumentBase](../../com.aspose.words/documentbase)
 ### getDropDownItems() {#getDropDownItems--}
 ```
@@ -348,172 +348,172 @@ public DropDownItemCollection getDropDownItems()
 ```
 
 
-提供对下拉表单字段项目的访问。
+Provides access to the items of a dropdown form field.
 
-Microsoft Word 允许在下拉表单字段中最多包含 25 个项目。
+Microsoft Word allows maximum 25 items in a dropdown form field.
 
-**退货:**
-[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) - 相应的[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection)价值。
+**Returns:**
+[DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) - The corresponding [DropDownItemCollection](../../com.aspose.words/dropdownitemcollection) value.
 ### getDropDownSelectedIndex() {#getDropDownSelectedIndex--}
 ```
 public int getDropDownSelectedIndex()
 ```
 
 
-获取指定下拉表单字段中当前选定项目的索引。
+Gets the index specifying the currently selected item in a dropdown form field.
 
-**退货:**
-int - 指定下拉表单字段中当前选定项目的索引。
+**Returns:**
+int - The index specifying the currently selected item in a dropdown form field.
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-如果启用了表单域，则为真。
+True if a form field is enabled.
 
-如果启用了表单域，则可以在填写表单时更改其内容。
+If a form field is enabled, its contents can be changed as the form is filled in.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getEntryMacro() {#getEntryMacro--}
 ```
 public String getEntryMacro()
 ```
 
 
-获取表单域的入口宏名称。
+Gets an entry macro name for the form field.
 
-当表单域在 Microsoft Word 中获得焦点时，将运行条目宏。
+The entry macro runs when the form field gets the focus in Microsoft Word.
 
-Microsoft Word 允许最多包含 32 个字符的字符串。
+Microsoft Word allows strings with at most 32 characters.
 
-**退货:**
-java.lang.String - 表单域的入口宏名称。
+**Returns:**
+java.lang.String - An entry macro name for the form field.
 ### getExitMacro() {#getExitMacro--}
 ```
 public String getExitMacro()
 ```
 
 
-获取表单域的退出宏名称。
+Gets an exit macro name for the form field.
 
-当表单域在 Microsoft Word 中失去焦点时，将运行退出宏。
+The exit macro runs when the form field loses the focus in Microsoft Word.
 
-Microsoft Word 允许最多包含 32 个字符的字符串。
+Microsoft Word allows strings with at most 32 characters.
 
-**退货:**
-java.lang.String - 表单域的退出宏名称。
+**Returns:**
+java.lang.String - An exit macro name for the form field.
 ### getFont() {#getFont--}
 ```
 public Font getFont()
 ```
 
 
-提供对此对象的字体格式的访问。
+Provides access to the font formatting of this object.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### getHelpText() {#getHelpText--}
 ```
 public String getHelpText()
 ```
 
 
-获取当表单域具有焦点并且用户按 F1 时显示在消息框中的文本。
+Gets the text that's displayed in a message box when the form field has the focus and the user presses F1.
 
-如果 OwnHelp 属性设置为 True，则 HelpText 指定文本字符串值。如果 OwnHelp 设置为 False，HelpText 指定包含表单域帮助文本的自动图文集条目的名称。
+If the OwnHelp property is set to True, HelpText specifies the text string value. If OwnHelp is set to False, HelpText specifies the name of an AutoText entry that contains help text for the form field.
 
-Microsoft Word 允许最多包含 255 个字符的字符串。
+Microsoft Word allows strings with at most 255 characters.
 
-**退货:**
-java.lang.String - 当表单域获得焦点并且用户按下 F1 时显示在消息框中的文本。
+**Returns:**
+java.lang.String - The text that's displayed in a message box when the form field has the focus and the user presses F1.
 ### getMaxLength() {#getMaxLength--}
 ```
 public int getMaxLength()
 ```
 
 
-文本字段的最大长度。长度不受限制时为零。
+Maximum length for the text field. Zero when the length is not limited.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取表单字段名称。 Microsoft Word 允许最多包含 20 个字符的字符串。
+Gets the form field name. Microsoft Word allows strings with at most 20 characters.
 
-**退货:**
-java.lang.String - 表单字段名称。
+**Returns:**
+java.lang.String - The form field name.
 ### getNextSibling() {#getNextSibling--}
 ```
 public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Form字段**.
+Returns **NodeType.FormField**.
 
-**退货:**
-诠释 -**Node类型.Form字段** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - **NodeType.FormField**. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getOwnHelp() {#getOwnHelp--}
 ```
 public boolean getOwnHelp()
 ```
 
 
-指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本的来源。
+Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
-如果为 True，则显示由 HelpText 属性指定的文本。如果为 False，则显示由 HelpText 属性指定的自动图文集条目中的文本。
+If True, the text specified by the HelpText property is displayed. If False, the text in the AutoText entry specified by the HelpText property is displayed.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getOwnStatus() {#getOwnStatus--}
 ```
 public boolean getOwnStatus()
 ```
 
 
-指定当表单域获得焦点时在状态栏中显示的文本的来源。
+Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 
-如果为 true，则显示由 StatusText 属性指定的文本。如果为 false，则显示由 StatusText 属性指定的自动图文集条目的文本。
+If true, the text specified by the StatusText property is displayed. If false, the text of the AutoText entry specified by the StatusText property is displayed.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph--}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-检索父级[Paragraph](../../com.aspose.words/paragraph)这个节点的。
+Retrieves the parent [Paragraph](../../com.aspose.words/paragraph) of this node.
 
-**退货:**
-[Paragraph](../../com.aspose.words/paragraph) - 相应的[Paragraph](../../com.aspose.words/paragraph)价值。
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph) - The corresponding [Paragraph](../../com.aspose.words/paragraph) value.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline--}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -522,7 +522,7 @@ public Paragraph getParentParagraph_IInline()
 
 
 
-**退货:**
+**Returns:**
 [Paragraph](../../com.aspose.words/paragraph)
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
@@ -530,118 +530,118 @@ public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-获取表示此表单域结果的字符串。
+Gets a string that represents the result of this form field.
 
-对于文本表单字段，结果是字段中的文本。
+For a text form field the result is the text that is in the field.
 
-对于复选框表单字段，结果可以是“1”或“0”以表示选中或未选中。
+For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.
 
-对于下拉表单字段，结果是在下拉列表中选择的字符串。
+For a dropdown form field the result is the string selected in the dropdown.
 
-环境[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-)对于文本表单字段不应用指定的文本格式[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-).如果要设置值并应用格式，请使用[setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-)方法。
+Setting [getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-) method.
 
-对于文本表单字段[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-)如果 value 为 null ，则应用 value。
+For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) value is applied if  value  is  null .
 
-**退货:**
-java.lang.String - 表示此表单字段结果的字符串。
+**Returns:**
+java.lang.String - A string that represents the result of this form field.
 ### getStatusText() {#getStatusText--}
 ```
 public String getStatusText()
 ```
 
 
-获取表单域获得焦点时在状态栏中显示的文本。
+Gets the text that's displayed in the status bar when a form field has the focus.
 
-如果 OwnStatus 属性设置为 true，则 StatusText 属性指定状态栏文本。如果 OwnStatus 属性设置为 false，则 StatusText 属性指定自动图文集条目的名称，该条目包含表单域的状态栏文本。
+If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
 
-Microsoft Word 允许最多包含 138 个字符的字符串。
+Microsoft Word allows strings with at most 138 characters.
 
-**退货:**
-java.lang.String - 当表单域获得焦点时在状态栏中显示的文本。
+**Returns:**
+java.lang.String - The text that's displayed in the status bar when a form field has the focus.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点表示的特殊字符。
+Gets the special character that this node represents.
 
-**退货:**
-java.lang.String - 包含此节点表示的字符的字符串。
+**Returns:**
+java.lang.String - The string that contains the character that this node represents.
 ### getTextInputDefault() {#getTextInputDefault--}
 ```
 public String getTextInputDefault()
 ```
 
 
-获取文本表单字段的默认字符串或计算表达式。
+Gets the default string or a calculation expression of a text form field.
 
-该属性的含义取决于[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)财产。
+The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) property.
 
-什么时候[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)是[TextForm字段类型.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR)或者[TextForm字段类型.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER)，此字符串指定文本表单字段的默认字符串。此字符串是当表单域为空时 Microsoft Word 将在文档中显示的内容。
+When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
 
-什么时候[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)是[TextForm字段类型.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED)，则此字符串包含要计算的表达式。表达式必须是根据 Microsoft Word 公式字段要求有效的公式。当您使用此属性设置新表达式时，Aspose.Words 会自动计算公式结果并将其插入到表单字段中。
+When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
 
-Microsoft Word 允许最多包含 255 个字符的字符串。
+Microsoft Word allows strings with at most 255 characters.
 
-**退货:**
-java.lang.String - 文本表单字段的默认字符串或计算表达式。
+**Returns:**
+java.lang.String - The default string or a calculation expression of a text form field.
 ### getTextInputFormat() {#getTextInputFormat--}
 ```
 public String getTextInputFormat()
 ```
 
 
-获取文本表单域的文本格式。
+Gets the text formatting for a text form field.
 
-如果文本表单域包含常规文本，则有效的格式字符串为“”、“大写”、“小写”、“首字母大写”和“标题大写”。字符串不区分大小写。
+If the text form field contains regular text, then valid format strings are "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" and "TITLE CASE". The strings are case-insensitive.
 
-如果文本表单字段包含数字或日期/时间值，则有效的格式字符串是数字或日期和时间格式字符串。
+If the text form field contains a number or a date/time value, then valid format strings are number or date and time format strings.
 
-Microsoft Word 允许最多包含 64 个字符的字符串。
+Microsoft Word allows strings with at most 64 characters.
 
-**退货:**
-java.lang.String - 文本表单字段的文本格式。
-### getTextInput类型() {#getTextInput类型--}
+**Returns:**
+java.lang.String - The text formatting for a text form field.
+### getTextInputType() {#getTextInputType--}
 ```
-public int getTextInput类型()
-```
-
-
-获取文本表单字段的类型。
-
-**退货:**
- int - 文本表单字段的类型。返回值是以下之一[TextForm字段类型](../../com.aspose.words/textformfieldtype)常数。
-### get类型() {#get类型--}
-```
-public int get类型()
+public int getTextInputType()
 ```
 
 
-返回表单字段类型。
+Gets the type of a text form field.
 
-**退货:**
-int - 表单字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+**Returns:**
+int - The type of a text form field. The returned value is one of [TextFormFieldType](../../com.aspose.words/textformfieldtype) constants.
+### getType() {#getType--}
+```
+public int getType()
+```
+
+
+Returns the form field type.
+
+**Returns:**
+int - The form field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -650,34 +650,34 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isCheckBoxExactSize() {#isCheckBoxExactSize--}
 ```
 public boolean isCheckBoxExactSize()
 ```
 
 
-获取一个布尔值，该值指示文本框的大小是自动的还是明确指定的。
+Gets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**退货:**
-boolean - 指示文本框大小是自动的还是明确指定的布尔值。
+**Returns:**
+boolean - The boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 ### isCheckBoxExactSize(boolean value) {#isCheckBoxExactSize-boolean-}
 ```
 public void isCheckBoxExactSize(boolean value)
 ```
 
 
-设置布尔值，指示文本框的大小是自动的还是明确指定的。
+Sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示文本框大小是自动的还是显式指定的布尔值。 |
+| value | boolean | The boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
 
 ### isComposite() {#isComposite--}
 ```
@@ -685,89 +685,89 @@ public boolean isComposite()
 ```
 
 
-如果此节点可以包含其他节点，则返回 true。 (31110,6)
+Returns true if this node can contain other nodes. (31110,6)
 
-**退货:**
-boolean - 如果此节点可以包含其他节点，则为真。
+**Returns:**
+boolean - True if this node can contain other nodes.
 ### isDeleteRevision() {#isDeleteRevision--}
 ```
 public boolean isDeleteRevision()
 ```
 
 
-如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
+Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+**Returns:**
+boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
 ### isFormatRevision() {#isFormatRevision--}
 ```
 public boolean isFormatRevision()
 ```
 
 
-如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则返回 true。
+Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果启用更改跟踪时在 Microsoft Word 中更改了对象的格式，则为真。
+**Returns:**
+boolean - True if formatting of the object was changed in Microsoft Word while change tracking was enabled.
 ### isInsertRevision() {#isInsertRevision--}
 ```
 public boolean isInsertRevision()
 ```
 
 
-如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。
+Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时将此对象插入 Microsoft Word，则为真。
+**Returns:**
+boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
 ### isMoveFromRevision() {#isMoveFromRevision--}
 ```
 public boolean isMoveFromRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+**Returns:**
+boolean - **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 ### isMoveToRevision() {#isMoveToRevision--}
 ```
 public boolean isMoveToRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+**Returns:**
+boolean - **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -791,30 +791,30 @@ public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
-### remove字段() {#remove字段--}
+### removeField() {#removeField--}
 ```
-public void remove字段()
+public void removeField()
 ```
 
 
-删除完整的表单域，而不仅仅是表单域特殊字符。如果存在与表单域关联的书签，则不会删除该书签。
+Removes the complete form field, not just the form field special character. If there is a bookmark associated with the form field, the bookmark is not removed.
 
 ### removeMoveRevisions() {#removeMoveRevisions--}
 ```
@@ -832,8 +832,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -843,14 +843,14 @@ public void setCalculateOnExit(boolean value)
 ```
 
 
-如果在退出该字段时自动更新对指定表单字段的引用，则为真。
+True if references to the specified form field are automatically updated whenever the field is exited.
 
-环境**CalculateOnExit**仅影响在 Microsoft Word 中打开文档时表单域的行为。 Aspose.Words 从不更新对表单字段的引用。
+Setting **CalculateOnExit** only affects the behavior of the form field when the document is opened in Microsoft Word. Aspose.Words never updates references to the form field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setCheckBoxSize(double value) {#setCheckBoxSize-double-}
 ```
@@ -858,14 +858,14 @@ public void setCheckBoxSize(double value)
 ```
 
 
-以磅为单位设置复选框的大小。仅在以下情况下生效[isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-)是真的。
+Sets the size of the checkbox in points. Has effect only when [isCheckBoxExactSize()](../../com.aspose.words/formfield\#isCheckBoxExactSize--) / [isCheckBoxExactSize(boolean)](../../com.aspose.words/formfield\#isCheckBoxExactSize-boolean-) is true.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 复选框的大小（以磅为单位）。 |
+| value | double | The size of the checkbox in points. |
 
 ### setChecked(boolean value) {#setChecked-boolean-}
 ```
@@ -873,14 +873,14 @@ public void setChecked(boolean value)
 ```
 
 
-设置复选框表单域的选中状态。此属性的默认值为**false**.
+Sets the checked status of the check box form field. Default value for this property is **false**.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 复选框表单域的选中状态。 |
+| value | boolean | The checked status of the check box form field. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -888,18 +888,18 @@ public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setDefault(boolean value) {#setDefault-boolean-}
 ```
@@ -907,14 +907,14 @@ public void setDefault(boolean value)
 ```
 
 
-设置复选框表单域的默认值。此属性的默认值为**false**.
+Sets the default value of the check box form field. Default value for this property is **false**.
 
-仅适用于复选框表单字段。
+Applicable for a check box form field only.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 复选框表单域的默认值。 |
+| value | boolean | The default value of the check box form field. |
 
 ### setDropDownSelectedIndex(int value) {#setDropDownSelectedIndex-int-}
 ```
@@ -922,12 +922,12 @@ public void setDropDownSelectedIndex(int value)
 ```
 
 
-设置在下拉表单字段中指定当前选定项目的索引。
+Sets the index specifying the currently selected item in a dropdown form field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 指定下拉表单字段中当前选定项目的索引。 |
+| value | int | The index specifying the currently selected item in a dropdown form field. |
 
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
@@ -935,14 +935,14 @@ public void setEnabled(boolean value)
 ```
 
 
-如果启用了表单域，则为真。
+True if a form field is enabled.
 
-如果启用了表单域，则可以在填写表单时更改其内容。
+If a form field is enabled, its contents can be changed as the form is filled in.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setEntryMacro(String value) {#setEntryMacro-java.lang.String-}
 ```
@@ -950,16 +950,16 @@ public void setEntryMacro(String value)
 ```
 
 
-设置表单域的入口宏名称。
+Sets an entry macro name for the form field.
 
-当表单域在 Microsoft Word 中获得焦点时，将运行条目宏。
+The entry macro runs when the form field gets the focus in Microsoft Word.
 
-Microsoft Word 允许最多包含 32 个字符的字符串。
+Microsoft Word allows strings with at most 32 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 表单域的入口宏名称。 |
+| value | java.lang.String | An entry macro name for the form field. |
 
 ### setExitMacro(String value) {#setExitMacro-java.lang.String-}
 ```
@@ -967,16 +967,16 @@ public void setExitMacro(String value)
 ```
 
 
-设置表单域的退出宏名称。
+Sets an exit macro name for the form field.
 
-当表单域在 Microsoft Word 中失去焦点时，将运行退出宏。
+The exit macro runs when the form field loses the focus in Microsoft Word.
 
-Microsoft Word 允许最多包含 32 个字符的字符串。
+Microsoft Word allows strings with at most 32 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 表单域的退出宏名称。 |
+| value | java.lang.String | An exit macro name for the form field. |
 
 ### setHelpText(String value) {#setHelpText-java.lang.String-}
 ```
@@ -984,16 +984,16 @@ public void setHelpText(String value)
 ```
 
 
-设置当表单域具有焦点并且用户按 F1 时在消息框中显示的文本。
+Sets the text that's displayed in a message box when the form field has the focus and the user presses F1.
 
-如果 OwnHelp 属性设置为 True，则 HelpText 指定文本字符串值。如果 OwnHelp 设置为 False，HelpText 指定包含表单域帮助文本的自动图文集条目的名称。
+If the OwnHelp property is set to True, HelpText specifies the text string value. If OwnHelp is set to False, HelpText specifies the name of an AutoText entry that contains help text for the form field.
 
-Microsoft Word 允许最多包含 255 个字符的字符串。
+Microsoft Word allows strings with at most 255 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 当表单域获得焦点并且用户按 F1 时，消息框中显示的文本。 |
+| value | java.lang.String | The text that's displayed in a message box when the form field has the focus and the user presses F1. |
 
 ### setMaxLength(int value) {#setMaxLength-int-}
 ```
@@ -1001,12 +1001,12 @@ public void setMaxLength(int value)
 ```
 
 
-文本字段的最大长度。长度不受限制时为零。
+Maximum length for the text field. Zero when the length is not limited.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -1014,12 +1014,12 @@ public void setName(String value)
 ```
 
 
-设置表单字段名称。 Microsoft Word 允许最多包含 20 个字符的字符串。
+Sets the form field name. Microsoft Word allows strings with at most 20 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 表单字段名称。 |
+| value | java.lang.String | The form field name. |
 
 ### setOwnHelp(boolean value) {#setOwnHelp-boolean-}
 ```
@@ -1027,14 +1027,14 @@ public void setOwnHelp(boolean value)
 ```
 
 
-指定当表单域获得焦点并且用户按 F1 时消息框中显示的文本的来源。
+Specifies the source of the text that's displayed in a message box when a form field has the focus and the user presses F1.
 
-如果为 True，则显示由 HelpText 属性指定的文本。如果为 False，则显示由 HelpText 属性指定的自动图文集条目中的文本。
+If True, the text specified by the HelpText property is displayed. If False, the text in the AutoText entry specified by the HelpText property is displayed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setOwnStatus(boolean value) {#setOwnStatus-boolean-}
 ```
@@ -1042,14 +1042,14 @@ public void setOwnStatus(boolean value)
 ```
 
 
-指定当表单域获得焦点时在状态栏中显示的文本的来源。
+Specifies the source of the text that's displayed in the status bar when a form field has the focus.
 
-如果为 true，则显示由 StatusText 属性指定的文本。如果为 false，则显示由 StatusText 属性指定的自动图文集条目的文本。
+If true, the text specified by the StatusText property is displayed. If false, the text of the AutoText entry specified by the StatusText property is displayed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -1057,22 +1057,22 @@ public void setResult(String value)
 ```
 
 
-设置一个表示此表单域结果的字符串。
+Sets a string that represents the result of this form field.
 
-对于文本表单字段，结果是字段中的文本。
+For a text form field the result is the text that is in the field.
 
-对于复选框表单字段，结果可以是“1”或“0”以表示选中或未选中。
+For a checkbox form field the result can be "1" or "0" to indicate checked or unchecked.
 
-对于下拉表单字段，结果是在下拉列表中选择的字符串。
+For a dropdown form field the result is the string selected in the dropdown.
 
-环境[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-)对于文本表单字段不应用指定的文本格式[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-).如果要设置值并应用格式，请使用[setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-)方法。
+Setting [getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-) for a text form field does not apply the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-). If you want to set a value and apply the format, use the [setTextInputValue(java.lang.Object)](../../com.aspose.words/formfield\#setTextInputValue-java.lang.Object-) method.
 
-对于文本表单字段[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-)如果 value 为 null ，则应用 value。
+For a text form field the [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) value is applied if  value  is  null .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 表示此表单字段结果的字符串。 |
+| value | java.lang.String | A string that represents the result of this form field. |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -1082,8 +1082,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1094,16 +1094,16 @@ public void setStatusText(String value)
 ```
 
 
-设置表单域获得焦点时在状态栏中显示的文本。
+Sets the text that's displayed in the status bar when a form field has the focus.
 
-如果 OwnStatus 属性设置为 true，则 StatusText 属性指定状态栏文本。如果 OwnStatus 属性设置为 false，则 StatusText 属性指定自动图文集条目的名称，该条目包含表单域的状态栏文本。
+If the OwnStatus property is set to true, the StatusText property specifies the status bar text. If the OwnStatus property is set to false, the StatusText property specifies the name of an AutoText entry that contains status bar text for the form field.
 
-Microsoft Word 允许最多包含 138 个字符的字符串。
+Microsoft Word allows strings with at most 138 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 当表单域获得焦点时在状态栏中显示的文本。 |
+| value | java.lang.String | The text that's displayed in the status bar when a form field has the focus. |
 
 ### setTextInputDefault(String value) {#setTextInputDefault-java.lang.String-}
 ```
@@ -1111,20 +1111,20 @@ public void setTextInputDefault(String value)
 ```
 
 
-设置文本表单字段的默认字符串或计算表达式。
+Sets the default string or a calculation expression of a text form field.
 
-该属性的含义取决于[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)财产。
+The meaning of this property depends on the value of the [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) property.
 
-什么时候[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)是[TextForm字段类型.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR)或者[TextForm字段类型.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER)，此字符串指定文本表单字段的默认字符串。此字符串是当表单域为空时 Microsoft Word 将在文档中显示的内容。
+When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) is [TextFormFieldType.REGULAR](../../com.aspose.words/textformfieldtype\#REGULAR) or [TextFormFieldType.NUMBER](../../com.aspose.words/textformfieldtype\#NUMBER), this string specifies the default string for the text form field. This string is the content that Microsoft Word will display in the document when the form field is empty.
 
-什么时候[getTextInput类型()](../../com.aspose.words/formfield\#getTextInput类型--) / [setTextInput类型(int)](../../com.aspose.words/formfield\#setTextInput类型-int-)是[TextForm字段类型.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED)，则此字符串包含要计算的表达式。表达式必须是根据 Microsoft Word 公式字段要求有效的公式。当您使用此属性设置新表达式时，Aspose.Words 会自动计算公式结果并将其插入到表单字段中。
+When [getTextInputType()](../../com.aspose.words/formfield\#getTextInputType--) / [setTextInputType(int)](../../com.aspose.words/formfield\#setTextInputType-int-) is [TextFormFieldType.CALCULATED](../../com.aspose.words/textformfieldtype\#CALCULATED), then this string holds the expression to be calculated. The expression needs to be a formula valid according to Microsoft Word formula field requirements. When you set a new expression using this property, Aspose.Words calculates the formula result automatically and inserts it into the form field.
 
-Microsoft Word 允许最多包含 255 个字符的字符串。
+Microsoft Word allows strings with at most 255 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文本表单域的默认字符串或计算表达式。 |
+| value | java.lang.String | The default string or a calculation expression of a text form field. |
 
 ### setTextInputFormat(String value) {#setTextInputFormat-java.lang.String-}
 ```
@@ -1132,31 +1132,31 @@ public void setTextInputFormat(String value)
 ```
 
 
-设置文本表单域的文本格式。
+Sets the text formatting for a text form field.
 
-如果文本表单域包含常规文本，则有效的格式字符串为“”、“大写”、“小写”、“首字母大写”和“标题大写”。字符串不区分大小写。
+If the text form field contains regular text, then valid format strings are "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" and "TITLE CASE". The strings are case-insensitive.
 
-如果文本表单字段包含数字或日期/时间值，则有效的格式字符串是数字或日期和时间格式字符串。
+If the text form field contains a number or a date/time value, then valid format strings are number or date and time format strings.
 
-Microsoft Word 允许最多包含 64 个字符的字符串。
+Microsoft Word allows strings with at most 64 characters.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文本表单域的文本格式。 |
+| value | java.lang.String | The text formatting for a text form field. |
 
-### setTextInput类型(int value) {#setTextInput类型-int-}
+### setTextInputType(int value) {#setTextInputType-int-}
 ```
-public void setTextInput类型(int value)
+public void setTextInputType(int value)
 ```
 
 
-设置文本表单域的类型。
+Sets the type of a text form field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 文本表单域的类型。该值必须是以下之一[TextForm字段类型](../../com.aspose.words/textformfieldtype)常数。 |
+| value | int | The type of a text form field. The value must be one of [TextFormFieldType](../../com.aspose.words/textformfieldtype) constants. |
 
 ### setTextInputValue(Object newValue) {#setTextInputValue-java.lang.Object-}
 ```
@@ -1164,12 +1164,12 @@ public void setTextInputValue(Object newValue)
 ```
 
 
-应用指定的文本格式[getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-)并将值存储在[getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-).
+Applies the text format specified in [getTextInputFormat()](../../com.aspose.words/formfield\#getTextInputFormat--) / [setTextInputFormat(java.lang.String)](../../com.aspose.words/formfield\#setTextInputFormat-java.lang.String-) and stores the value in [getResult()](../../com.aspose.words/formfield\#getResult--) / [setResult(java.lang.String)](../../com.aspose.words/formfield\#setResult-java.lang.String-).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newValue | java.lang.Object | 可以是字符串、数字或 DateTime 对象。这[getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-)如果 newValue 为 null ，则应用 value。 |
+| newValue | java.lang.Object | Can be a string, number or a DateTime object. The [getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) value is applied if  newValue  is  null . |
 
 ### toString() {#toString--}
 ```
@@ -1179,7 +1179,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -1187,15 +1187,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -1204,12 +1204,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1227,8 +1227,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1240,8 +1240,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,57 +1,57 @@
 ---
 title: ThemeColors
 second_title: Aspose.Words for Java API Reference
-description: 表示包含十二种颜色的文档主题的配色方案。
+description: Represents the color scheme of the document theme which contains twelve colors.
 type: docs
 weight: 575
-url: /zh/java/com.aspose.words/themecolors/
+url: /java/com.aspose.words/themecolors/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ThemeColors implements Cloneable
 ```
 
-表示包含十二种颜色的文档主题的配色方案。
+Represents the color scheme of the document theme which contains twelve colors.
 
-ThemeColors 对象包含六种强调色、两种深色、两种浅色和一种颜色，分别用于一个超链接和后续超链接。
-## 方法s
+ThemeColors object contains six accent colors, two dark colors, two light colors and a color for each of a hyperlink and followed hyperlink.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAccent1()](#getAccent1--) | 指定颜色口音 1。 |
-| [getAccent2()](#getAccent2--) | 指定颜色口音 2。 |
-| [getAccent3()](#getAccent3--) | 指定颜色口音 3。 |
-| [getAccent4()](#getAccent4--) | 指定颜色口音 4。 |
-| [getAccent5()](#getAccent5--) | 指定颜色口音 5。 |
-| [getAccent6()](#getAccent6--) | 指定颜色口音 6。 |
-| [get班级()](#get班级--) |  |
-| [getDark1()](#getDark1--) | 指定颜色深 1。 |
-| [getDark2()](#getDark2--) | 指定颜色深 2。 |
-| [getFollowedHyperlink()](#getFollowedHyperlink--) | 指定单击的超链接的颜色。 |
-| [getHyperlink()](#getHyperlink--) | 指定超链接的颜色。 |
-| [getLight1()](#getLight1--) | 指定颜色 Light 1。 |
-| [getLight2()](#getLight2--) | 指定颜色 Light 2。 |
+| [getAccent1()](#getAccent1--) | Specifies color Accent 1. |
+| [getAccent2()](#getAccent2--) | Specifies color Accent 2. |
+| [getAccent3()](#getAccent3--) | Specifies color Accent 3. |
+| [getAccent4()](#getAccent4--) | Specifies color Accent 4. |
+| [getAccent5()](#getAccent5--) | Specifies color Accent 5. |
+| [getAccent6()](#getAccent6--) | Specifies color Accent 6. |
+| [getClass()](#getClass--) |  |
+| [getDark1()](#getDark1--) | Specifies color Dark 1. |
+| [getDark2()](#getDark2--) | Specifies color Dark 2. |
+| [getFollowedHyperlink()](#getFollowedHyperlink--) | Specifies color for a clicked hyperlink. |
+| [getHyperlink()](#getHyperlink--) | Specifies color for a hyperlink. |
+| [getLight1()](#getLight1--) | Specifies color Light 1. |
+| [getLight2()](#getLight2--) | Specifies color Light 2. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAccent1(Color value)](#setAccent1-java.awt.Color-) | 指定颜色口音 1。 |
-| [setAccent2(Color value)](#setAccent2-java.awt.Color-) | 指定颜色口音 2。 |
-| [setAccent3(Color value)](#setAccent3-java.awt.Color-) | 指定颜色口音 3。 |
-| [setAccent4(Color value)](#setAccent4-java.awt.Color-) | 指定颜色口音 4。 |
-| [setAccent5(Color value)](#setAccent5-java.awt.Color-) | 指定颜色口音 5。 |
-| [setAccent6(Color value)](#setAccent6-java.awt.Color-) | 指定颜色口音 6。 |
-| [setDark1(Color value)](#setDark1-java.awt.Color-) | 指定颜色深 1。 |
-| [setDark2(Color value)](#setDark2-java.awt.Color-) | 指定颜色深 2。 |
-| [setFollowedHyperlink(Color value)](#setFollowedHyperlink-java.awt.Color-) | 指定单击的超链接的颜色。 |
-| [setHyperlink(Color value)](#setHyperlink-java.awt.Color-) | 指定超链接的颜色。 |
-| [setLight1(Color value)](#setLight1-java.awt.Color-) | 指定颜色 Light 1。 |
-| [setLight2(Color value)](#setLight2-java.awt.Color-) | 指定颜色 Light 2。 |
+| [setAccent1(Color value)](#setAccent1-java.awt.Color-) | Specifies color Accent 1. |
+| [setAccent2(Color value)](#setAccent2-java.awt.Color-) | Specifies color Accent 2. |
+| [setAccent3(Color value)](#setAccent3-java.awt.Color-) | Specifies color Accent 3. |
+| [setAccent4(Color value)](#setAccent4-java.awt.Color-) | Specifies color Accent 4. |
+| [setAccent5(Color value)](#setAccent5-java.awt.Color-) | Specifies color Accent 5. |
+| [setAccent6(Color value)](#setAccent6-java.awt.Color-) | Specifies color Accent 6. |
+| [setDark1(Color value)](#setDark1-java.awt.Color-) | Specifies color Dark 1. |
+| [setDark2(Color value)](#setDark2-java.awt.Color-) | Specifies color Dark 2. |
+| [setFollowedHyperlink(Color value)](#setFollowedHyperlink-java.awt.Color-) | Specifies color for a clicked hyperlink. |
+| [setHyperlink(Color value)](#setHyperlink-java.awt.Color-) | Specifies color for a hyperlink. |
+| [setLight1(Color value)](#setLight1-java.awt.Color-) | Specifies color Light 1. |
+| [setLight2(Color value)](#setLight2-java.awt.Color-) | Specifies color Light 2. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -64,143 +64,143 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAccent1() {#getAccent1--}
 ```
 public Color getAccent1()
 ```
 
 
-指定颜色口音 1。
+Specifies color Accent 1.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getAccent2() {#getAccent2--}
 ```
 public Color getAccent2()
 ```
 
 
-指定颜色口音 2。
+Specifies color Accent 2.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getAccent3() {#getAccent3--}
 ```
 public Color getAccent3()
 ```
 
 
-指定颜色口音 3。
+Specifies color Accent 3.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getAccent4() {#getAccent4--}
 ```
 public Color getAccent4()
 ```
 
 
-指定颜色口音 4。
+Specifies color Accent 4.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getAccent5() {#getAccent5--}
 ```
 public Color getAccent5()
 ```
 
 
-指定颜色口音 5。
+Specifies color Accent 5.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getAccent6() {#getAccent6--}
 ```
 public Color getAccent6()
 ```
 
 
-指定颜色口音 6。
+Specifies color Accent 6.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
-### get班级() {#get班级--}
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDark1() {#getDark1--}
 ```
 public Color getDark1()
 ```
 
 
-指定颜色深 1。
+Specifies color Dark 1.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getDark2() {#getDark2--}
 ```
 public Color getDark2()
 ```
 
 
-指定颜色深 2。
+Specifies color Dark 2.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getFollowedHyperlink() {#getFollowedHyperlink--}
 ```
 public Color getFollowedHyperlink()
 ```
 
 
-指定单击的超链接的颜色。
+Specifies color for a clicked hyperlink.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getHyperlink() {#getHyperlink--}
 ```
 public Color getHyperlink()
 ```
 
 
-指定超链接的颜色。
+Specifies color for a hyperlink.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getLight1() {#getLight1--}
 ```
 public Color getLight1()
 ```
 
 
-指定颜色 Light 1。
+Specifies color Light 1.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### getLight2() {#getLight2--}
 ```
 public Color getLight2()
 ```
 
 
-指定颜色 Light 2。
+Specifies color Light 2.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -209,8 +209,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -233,12 +233,12 @@ public void setAccent1(Color value)
 ```
 
 
-指定颜色口音 1。
+Specifies color Accent 1.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setAccent2(Color value) {#setAccent2-java.awt.Color-}
 ```
@@ -246,12 +246,12 @@ public void setAccent2(Color value)
 ```
 
 
-指定颜色口音 2。
+Specifies color Accent 2.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setAccent3(Color value) {#setAccent3-java.awt.Color-}
 ```
@@ -259,12 +259,12 @@ public void setAccent3(Color value)
 ```
 
 
-指定颜色口音 3。
+Specifies color Accent 3.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setAccent4(Color value) {#setAccent4-java.awt.Color-}
 ```
@@ -272,12 +272,12 @@ public void setAccent4(Color value)
 ```
 
 
-指定颜色口音 4。
+Specifies color Accent 4.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setAccent5(Color value) {#setAccent5-java.awt.Color-}
 ```
@@ -285,12 +285,12 @@ public void setAccent5(Color value)
 ```
 
 
-指定颜色口音 5。
+Specifies color Accent 5.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setAccent6(Color value) {#setAccent6-java.awt.Color-}
 ```
@@ -298,12 +298,12 @@ public void setAccent6(Color value)
 ```
 
 
-指定颜色口音 6。
+Specifies color Accent 6.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setDark1(Color value) {#setDark1-java.awt.Color-}
 ```
@@ -311,12 +311,12 @@ public void setDark1(Color value)
 ```
 
 
-指定颜色深 1。
+Specifies color Dark 1.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setDark2(Color value) {#setDark2-java.awt.Color-}
 ```
@@ -324,12 +324,12 @@ public void setDark2(Color value)
 ```
 
 
-指定颜色深 2。
+Specifies color Dark 2.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setFollowedHyperlink(Color value) {#setFollowedHyperlink-java.awt.Color-}
 ```
@@ -337,12 +337,12 @@ public void setFollowedHyperlink(Color value)
 ```
 
 
-指定单击的超链接的颜色。
+Specifies color for a clicked hyperlink.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setHyperlink(Color value) {#setHyperlink-java.awt.Color-}
 ```
@@ -350,12 +350,12 @@ public void setHyperlink(Color value)
 ```
 
 
-指定超链接的颜色。
+Specifies color for a hyperlink.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setLight1(Color value) {#setLight1-java.awt.Color-}
 ```
@@ -363,12 +363,12 @@ public void setLight1(Color value)
 ```
 
 
-指定颜色 Light 1。
+Specifies color Light 1.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setLight2(Color value) {#setLight2-java.awt.Color-}
 ```
@@ -376,12 +376,12 @@ public void setLight2(Color value)
 ```
 
 
-指定颜色 Light 2。
+Specifies color Light 2.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### toString() {#toString--}
 ```
@@ -391,7 +391,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -409,8 +409,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -422,8 +422,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

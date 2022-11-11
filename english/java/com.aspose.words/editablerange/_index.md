@@ -1,40 +1,40 @@
 ---
 title: EditableRange
-second_title: Aspose.Words for Java API 参考
-description: 表示单个可编辑范围。
+second_title: Aspose.Words for Java API Reference
+description: Represents a single editable range.
 type: docs
 weight: 136
-url: /zh/java/com.aspose.words/editablerange/
+url: /java/com.aspose.words/editablerange/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class EditableRange
 ```
 
-表示单个可编辑范围。
+Represents a single editable range.
 
-要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
+To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
 
-[EditableRange](../../com.aspose.words/editablerange)是一个封装了两个节点的“门面”对象[getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--)和[getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--)在文档树中，并允许将可编辑范围作为单个对象使用。
-## 方法s
+[EditableRange](../../com.aspose.words/editablerange) is a "facade" object that encapsulates two nodes [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--) in a document tree and allows to work with an editable range as a single object.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getEditableRangeEnd()](#getEditableRangeEnd--) | 获取表示可编辑范围结束的节点。 |
-| [getEditableRangeStart()](#getEditableRangeStart--) | 获取表示可编辑范围开始的节点。 |
-| [getEditorGroup()](#getEditorGroup--) | 获取别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。 |
-| [getId()](#getId--) | 获取可编辑范围标识符。 |
-| [getSingleUser()](#getSingleUser--) | 获取可编辑范围的单个用户。 |
+| [getClass()](#getClass--) |  |
+| [getEditableRangeEnd()](#getEditableRangeEnd--) | Gets the node that represents the end of the editable range. |
+| [getEditableRangeStart()](#getEditableRangeStart--) | Gets the node that represents the start of the editable range. |
+| [getEditorGroup()](#getEditorGroup--) | Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [getId()](#getId--) | Gets the editable range identifier. |
+| [getSingleUser()](#getSingleUser--) | Gets the single user for editable range. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除可编辑范围。 |
-| [setEditorGroup(int value)](#setEditorGroup-int-) | 设置别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。 |
-| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | 为可编辑范围设置单个用户。 |
+| [remove()](#remove--) | Removes the editable range from the document. |
+| [setEditorGroup(int value)](#setEditorGroup-int-) | Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. |
+| [setSingleUser(String value)](#setSingleUser-java.lang.String-) | Sets the single user for editable range. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,89 +47,89 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getEditableRangeEnd() {#getEditableRangeEnd--}
 ```
 public EditableRangeEnd getEditableRangeEnd()
 ```
 
 
-获取表示可编辑范围结束的节点。
+Gets the node that represents the end of the editable range.
 
-**退货:**
-[EditableRangeEnd](../../com.aspose.words/editablerangeend) - 表示可编辑范围结束的节点。
+**Returns:**
+[EditableRangeEnd](../../com.aspose.words/editablerangeend) - The node that represents the end of the editable range.
 ### getEditableRangeStart() {#getEditableRangeStart--}
 ```
 public EditableRangeStart getEditableRangeStart()
 ```
 
 
-获取表示可编辑范围开始的节点。
+Gets the node that represents the start of the editable range.
 
-**退货:**
-[EditableRangeStart](../../com.aspose.words/editablerangestart) - 表示可编辑范围开始的节点。
+**Returns:**
+[EditableRangeStart](../../com.aspose.words/editablerangestart) - The node that represents the start of the editable range.
 ### getEditorGroup() {#getEditorGroup--}
 ```
 public int getEditorGroup()
 ```
 
 
-获取别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。
+Gets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-**退货:**
-int - 一个别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。返回值是以下之一[Editor类型](../../com.aspose.words/editortype)常数。
+**Returns:**
+int - An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The returned value is one of [EditorType](../../com.aspose.words/editortype) constants.
 ### getId() {#getId--}
 ```
 public int getId()
 ```
 
 
-获取可编辑范围标识符。
+Gets the editable range identifier.
 
-该区域必须使用[getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--)和[getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--)
+The region must be demarcated using the [getEditableRangeStart()](../../com.aspose.words/editablerange\#getEditableRangeStart--) and [getEditableRangeEnd()](../../com.aspose.words/editablerange\#getEditableRangeEnd--)
 
-可编辑范围标识符应该在整个文档中是唯一的，并且 Aspose.Words 在加载、保存和组合文档时会自动维护可编辑范围标识符。
+Editable range identifiers are supposed to be unique across a document and Aspose.Words automatically maintains editable range identifiers when loading, saving and combining documents.
 
-**退货:**
-int - 可编辑的范围标识符。
+**Returns:**
+int - The editable range identifier.
 ### getSingleUser() {#getSingleUser--}
 ```
 public String getSingleUser()
 ```
 
 
-获取可编辑范围的单个用户。
+Gets the single user for editable range.
 
-此编辑器可以以下列形式之一存储：
+This editor can be stored in one of the following forms:
 
-领域\\Username - 适用于应使用当前用户的域凭据对其访问进行身份验证的用户。
+DOMAIN\\Username - for users whose access shall be authenticated using the current user's domain credentials.
 
-user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据进行身份验证的用户。
+user@domain.com - for users whose access shall be authenticated using the user's e-mail address as credentials.
 
-user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
+user - for users whose access shall be authenticated using the current user's machine credentials.
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-**退货:**
-java.lang.String - 可编辑范围的单个用户。
+**Returns:**
+java.lang.String - The single user for editable range.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -138,8 +138,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -162,7 +162,7 @@ public void remove()
 ```
 
 
-从文档中删除可编辑范围。不删除可编辑范围内的内容。
+Removes the editable range from the document. Does not remove content inside the editable range.
 
 ### setEditorGroup(int value) {#setEditorGroup-int-}
 ```
@@ -170,14 +170,14 @@ public void setEditorGroup(int value)
 ```
 
 
-设置别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。
+Sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range.
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 别名（或编辑组），用于确定是否允许当前用户编辑此可编辑范围。该值必须是以下之一[Editor类型](../../com.aspose.words/editortype)常数。 |
+| value | int | An alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range. The value must be one of [EditorType](../../com.aspose.words/editortype) constants. |
 
 ### setSingleUser(String value) {#setSingleUser-java.lang.String-}
 ```
@@ -185,22 +185,22 @@ public void setSingleUser(String value)
 ```
 
 
-为可编辑范围设置单个用户。
+Sets the single user for editable range.
 
-此编辑器可以以下列形式之一存储：
+This editor can be stored in one of the following forms:
 
-领域\\Username - 适用于应使用当前用户的域凭据对其访问进行身份验证的用户。
+DOMAIN\\Username - for users whose access shall be authenticated using the current user's domain credentials.
 
-user@domain.com - 用于访问应使用用户的电子邮件地址作为凭据进行身份验证的用户。
+user@domain.com - for users whose access shall be authenticated using the user's e-mail address as credentials.
 
-user - 用于访问应使用当前用户的机器凭据进行身份验证的用户。
+user - for users whose access shall be authenticated using the current user's machine credentials.
 
-特定可编辑范围不能同时设置单个用户和编辑组，如果设置了一个，另一个将被清除。
+Single user and editor group cannot be set simultaneously for the specific editable range, if the one is set, the other will be clear.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 可编辑范围的单个用户。 |
+| value | java.lang.String | The single user for editable range. |
 
 ### toString() {#toString--}
 ```
@@ -210,7 +210,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

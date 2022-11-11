@@ -1,45 +1,45 @@
 ---
 title: ViewOptions
 second_title: Aspose.Words for Java API Reference
-description: 提供各种选项来控制文档在 Microsoft Word 中的显示方式。
+description: Provides various options that control how a document is shown in Microsoft Word.
 type: docs
 weight: 601
-url: /zh/java/com.aspose.words/viewoptions/
+url: /java/com.aspose.words/viewoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ViewOptions implements Cloneable
 ```
 
-提供各种选项来控制文档在 Microsoft Word 中的显示方式。
+Provides various options that control how a document is shown in Microsoft Word.
 
-要了解更多信息，请访问**Work with Options and Appearance of Word Documents**文档文章。
-## 方法s
+To learn more, visit the **Work with Options and Appearance of Word Documents** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDisplayBackgroundShape()](#getDisplayBackgroundShape--) | 控制打印布局视图中背景形状的显示。 |
-| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries--) | 关闭文本顶部和页面顶部边缘之间空间的显示。 |
-| [getFormsDesign()](#getFormsDesign--) | 指定文档是否处于表单设计模式。 |
-| [getView类型()](#getView类型--) | 控制 Microsoft Word 中的查看模式。 |
-| [getZoomPercent()](#getZoomPercent--) | 获取要查看文档的百分比（10 到 500 之间）。 |
-| [getZoom类型()](#getZoom类型--) | 获取基于窗口大小的缩放值。 |
+| [getClass()](#getClass--) |  |
+| [getDisplayBackgroundShape()](#getDisplayBackgroundShape--) | Controls display of the background shape in print layout view. |
+| [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries--) | Turns off display of the space between the top of the text and the top edge of the page. |
+| [getFormsDesign()](#getFormsDesign--) | Specifies whether the document is in forms design mode. |
+| [getViewType()](#getViewType--) | Controls the view mode in Microsoft Word. |
+| [getZoomPercent()](#getZoomPercent--) | Gets the percentage (between 10 and 500) at which you want to view your document. |
+| [getZoomType()](#getZoomType--) | Gets a zoom value based on the size of the window. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean-) | 控制打印布局视图中背景形状的显示。 |
-| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean-) | 关闭文本顶部和页面顶部边缘之间空间的显示。 |
-| [setFormsDesign(boolean value)](#setFormsDesign-boolean-) | 指定文档是否处于表单设计模式。 |
-| [setView类型(int value)](#setView类型-int-) | 控制 Microsoft Word 中的查看模式。 |
-| [setZoomPercent(int value)](#setZoomPercent-int-) | 设置要查看文档的百分比（10 到 500 之间）。 |
-| [setZoom类型(int value)](#setZoom类型-int-) | 根据窗口大小设置缩放值。 |
+| [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean-) | Controls display of the background shape in print layout view. |
+| [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean-) | Turns off display of the space between the top of the text and the top edge of the page. |
+| [setFormsDesign(boolean value)](#setFormsDesign-boolean-) | Specifies whether the document is in forms design mode. |
+| [setViewType(int value)](#setViewType-int-) | Controls the view mode in Microsoft Word. |
+| [setZoomPercent(int value)](#setZoomPercent-int-) | Sets the percentage (between 10 and 500) at which you want to view your document. |
+| [setZoomType(int value)](#setZoomType-int-) | Sets a zoom value based on the size of the window. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,91 +52,91 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayBackgroundShape() {#getDisplayBackgroundShape--}
 ```
 public boolean getDisplayBackgroundShape()
 ```
 
 
-控制打印布局视图中背景形状的显示。
+Controls display of the background shape in print layout view.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getDoNotDisplayPageBoundaries() {#getDoNotDisplayPageBoundaries--}
 ```
 public boolean getDoNotDisplayPageBoundaries()
 ```
 
 
-关闭文本顶部和页面顶部边缘之间空间的显示。
+Turns off display of the space between the top of the text and the top edge of the page.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getFormsDesign() {#getFormsDesign--}
 ```
 public boolean getFormsDesign()
 ```
 
 
-指定文档是否处于表单设计模式。
+Specifies whether the document is in forms design mode.
 
-目前仅适用于 WordML 格式的文档。
+Currently works only for documents in WordML format.
 
-**退货:**
-boolean - 对应的布尔值。
-### getView类型() {#getView类型--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getViewType() {#getViewType--}
 ```
-public int getView类型()
+public int getViewType()
 ```
 
 
-控制 Microsoft Word 中的查看模式。
+Controls the view mode in Microsoft Word.
 
-虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。例如，MS Word 2013 不尊重此选项的值。
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[View类型](../../com.aspose.words/viewtype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ViewType](../../com.aspose.words/viewtype) constants.
 ### getZoomPercent() {#getZoomPercent--}
 ```
 public int getZoomPercent()
 ```
 
 
-获取要查看文档的百分比（10 到 500 之间）。
+Gets the percentage (between 10 and 500) at which you want to view your document.
 
-如果 value 为 0，则此属性使用 100，否则如果 value 小于 10 或大于 500，则此属性将抛出。
+If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
 
-虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。例如，MS Word 2013 不尊重此选项的值。
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
-**退货:**
-int - 您希望查看文档的百分比（10 到 500 之间）。
-### getZoom类型() {#getZoom类型--}
+**Returns:**
+int - The percentage (between 10 and 500) at which you want to view your document.
+### getZoomType() {#getZoomType--}
 ```
-public int getZoom类型()
+public int getZoomType()
 ```
 
 
-获取基于窗口大小的缩放值。
+Gets a zoom value based on the size of the window.
 
-**退货:**
-int - 基于窗口大小的缩放值。返回值是以下之一[Zoom类型](../../com.aspose.words/zoomtype)常数。
+**Returns:**
+int - A zoom value based on the size of the window. The returned value is one of [ZoomType](../../com.aspose.words/zoomtype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -145,8 +145,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -169,12 +169,12 @@ public void setDisplayBackgroundShape(boolean value)
 ```
 
 
-控制打印布局视图中背景形状的显示。
+Controls display of the background shape in print layout view.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setDoNotDisplayPageBoundaries(boolean value) {#setDoNotDisplayPageBoundaries-boolean-}
 ```
@@ -182,12 +182,12 @@ public void setDoNotDisplayPageBoundaries(boolean value)
 ```
 
 
-关闭文本顶部和页面顶部边缘之间空间的显示。
+Turns off display of the space between the top of the text and the top edge of the page.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setFormsDesign(boolean value) {#setFormsDesign-boolean-}
 ```
@@ -195,29 +195,29 @@ public void setFormsDesign(boolean value)
 ```
 
 
-指定文档是否处于表单设计模式。
+Specifies whether the document is in forms design mode.
 
-目前仅适用于 WordML 格式的文档。
+Currently works only for documents in WordML format.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
-### setView类型(int value) {#setView类型-int-}
+### setViewType(int value) {#setViewType-int-}
 ```
-public void setView类型(int value)
+public void setViewType(int value)
 ```
 
 
-控制 Microsoft Word 中的查看模式。
+Controls the view mode in Microsoft Word.
 
-虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。例如，MS Word 2013 不尊重此选项的值。
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[View类型](../../com.aspose.words/viewtype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ViewType](../../com.aspose.words/viewtype) constants. |
 
 ### setZoomPercent(int value) {#setZoomPercent-int-}
 ```
@@ -225,29 +225,29 @@ public void setZoomPercent(int value)
 ```
 
 
-设置要查看文档的百分比（10 到 500 之间）。
+Sets the percentage (between 10 and 500) at which you want to view your document.
 
-如果 value 为 0，则此属性使用 100，否则如果 value 小于 10 或大于 500，则此属性将抛出。
+If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
 
-虽然 Aspose.Words 能够读写这个选项，但它的使用是特定于应用程序的。例如，MS Word 2013 不尊重此选项的值。
+Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 您希望查看文档的百分比（10 到 500 之间）。 |
+| value | int | The percentage (between 10 and 500) at which you want to view your document. |
 
-### setZoom类型(int value) {#setZoom类型-int-}
+### setZoomType(int value) {#setZoomType-int-}
 ```
-public void setZoom类型(int value)
+public void setZoomType(int value)
 ```
 
 
-根据窗口大小设置缩放值。
+Sets a zoom value based on the size of the window.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 基于窗口大小的缩放值。该值必须是以下之一[Zoom类型](../../com.aspose.words/zoomtype)常数。 |
+| value | int | A zoom value based on the size of the window. The value must be one of [ZoomType](../../com.aspose.words/zoomtype) constants. |
 
 ### toString() {#toString--}
 ```
@@ -257,7 +257,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -275,8 +275,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -288,8 +288,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

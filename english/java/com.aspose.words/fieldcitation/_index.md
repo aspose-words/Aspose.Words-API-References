@@ -1,74 +1,74 @@
 ---
-title: 字段Citation
-second_title: Aspose.Words for Java API 参考
-description: 实现 CITATION 字段。
+title: FieldCitation
+second_title: Aspose.Words for Java API Reference
+description: Implements the CITATION field.
 type: docs
 weight: 168
-url: /zh/java/com.aspose.words/fieldcitation/
+url: /java/com.aspose.words/fieldcitation/
 ---
 
-**遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Citation extends 字段
+public class FieldCitation extends Field
 ```
 
-实现 CITATION 字段。
+Implements the CITATION field.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+To learn more, visit the **Working with Fields** documentation article.
 
-插入内容**Source**具有指定的元素**Tag**使用书目样式的元素。
-## 方法s
+Inserts the contents of the **Source** element with a specified **Tag** element using a bibliographic style.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAnotherSourceTag()](#getAnotherSourceTag--) | 获取一个数学值**Tag**要包含在引用中的另一个来源的元素值。 |
-| [get班级()](#get班级--) |  |
-| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
-| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
-| [getFormatLanguageId()](#getFormatLanguageId--) | 获取与指定书目样式结合使用的语言 ID，以格式化文档中的引文。 |
-| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
-| [getPageNumber()](#getPageNumber--) | 获取与引文关联的页码。 |
-| [getPrefix()](#getPrefix--) | 获取附加到引文的前缀。 |
-| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
-| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
-| [getSourceTag()](#getSourceTag--) | 获取一个数学值**Tag**要插入的源元素的值。 |
-| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSuffix()](#getSuffix--) | 获取附加到引文的后缀。 |
-| [getSuppressAuthor()](#getSuppressAuthor--) | 获取作者信息是否从引文中隐藏。 |
-| [getSuppressTitle()](#getSuppressTitle--) | 获取是否从引文中隐藏标题信息。 |
-| [getSuppressYear()](#getSuppressYear--) | 获取是否从引文中抑制年份信息。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
-| [getVolumeNumber()](#getVolumeNumber--) | 获取与引文关联的卷号。 |
+| [getAnotherSourceTag()](#getAnotherSourceTag--) | Gets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getFormatLanguageId()](#getFormatLanguageId--) | Gets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getPageNumber()](#getPageNumber--) | Gets a page number associated with the citation. |
+| [getPrefix()](#getPrefix--) | Gets a prefix that is prepended to the citation. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getSourceTag()](#getSourceTag--) | Gets a value that mathes the **Tag** element's value of the source to insert. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getSuffix()](#getSuffix--) | Gets a suffix that is appended to the citation. |
+| [getSuppressAuthor()](#getSuppressAuthor--) | Gets whether the author information is suppressed from the citation. |
+| [getSuppressTitle()](#getSuppressTitle--) | Gets whether the title information is suppressed from the citation. |
+| [getSuppressYear()](#getSuppressYear--) | Gets whether the year information is suppressed from the citation. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getVolumeNumber()](#getVolumeNumber--) | Gets a volume number associated with the citation. |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
-| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除字段。 |
-| [setAnotherSourceTag(String value)](#setAnotherSourceTag-java.lang.String-) | 设置一个数学值**Tag**要包含在引用中的另一个来源的元素值。 |
-| [setFormatLanguageId(String value)](#setFormatLanguageId-java.lang.String-) | 设置与指定书目样式结合使用的语言 ID，以格式化文档中的引文。 |
-| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
-| [setPageNumber(String value)](#setPageNumber-java.lang.String-) | 设置与引文关联的页码。 |
-| [setPrefix(String value)](#setPrefix-java.lang.String-) | 设置附加到引文的前缀。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
-| [setSourceTag(String value)](#setSourceTag-java.lang.String-) | 设置一个数学值**Tag**要插入的源元素的值。 |
-| [setSuffix(String value)](#setSuffix-java.lang.String-) | 设置附加到引文的后缀。 |
-| [setSuppressAuthor(boolean value)](#setSuppressAuthor-boolean-) | 设置是否从引文中隐藏作者信息。 |
-| [setSuppressTitle(boolean value)](#setSuppressTitle-boolean-) | 设置是否从引文中隐藏标题信息。 |
-| [setSuppressYear(boolean value)](#setSuppressYear-boolean-) | 设置是否从引文中隐藏年份信息。 |
-| [setVolumeNumber(String value)](#setVolumeNumber-java.lang.String-) | 设置与引文关联的卷号。 |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setAnotherSourceTag(String value)](#setAnotherSourceTag-java.lang.String-) | Sets a value that mathes the **Tag** element's value of another source to be included in the citation. |
+| [setFormatLanguageId(String value)](#setFormatLanguageId-java.lang.String-) | Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setPageNumber(String value)](#setPageNumber-java.lang.String-) | Sets a page number associated with the citation. |
+| [setPrefix(String value)](#setPrefix-java.lang.String-) | Sets a prefix that is prepended to the citation. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setSourceTag(String value)](#setSourceTag-java.lang.String-) | Sets a value that mathes the **Tag** element's value of the source to insert. |
+| [setSuffix(String value)](#setSuffix-java.lang.String-) | Sets a suffix that is appended to the citation. |
+| [setSuppressAuthor(boolean value)](#setSuppressAuthor-boolean-) | Sets whether the author information is suppressed from the citation. |
+| [setSuppressTitle(boolean value)](#setSuppressTitle-boolean-) | Sets whether the title information is suppressed from the citation. |
+| [setSuppressYear(boolean value)](#setSuppressYear-boolean-) | Sets whether the year information is suppressed from the citation. |
+| [setVolumeNumber(String value)](#setVolumeNumber-java.lang.String-) | Sets a volume number associated with the citation. |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | 执行字段取消链接。 |
-| [update()](#update--) | 执行字段更新。 |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -80,243 +80,243 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAnotherSourceTag() {#getAnotherSourceTag--}
 ```
 public String getAnotherSourceTag()
 ```
 
 
-获取一个数学值**Tag**要包含在引用中的另一个来源的元素值。
+Gets a value that mathes the **Tag** element's value of another source to be included in the citation.
 
-**退货:**
-java.lang.String - 一个数学值**Tag**要包含在引用中的另一个来源的元素值。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - A value that mathes the **Tag** element's value of another source to be included in the citation.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
-**退货:**
-java.lang.String - 表示显示的字段结果的文本。
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
-获取表示字段结束的节点。
+Gets the node that represents the field end.
 
-**退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
-**退货:**
+**Returns:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
+Returns text between field start and field separator (or field end if there is no separator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 
-**退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getFormatLanguageId() {#getFormatLanguageId--}
 ```
 public String getFormatLanguageId()
 ```
 
 
-获取与指定书目样式结合使用的语言 ID，以格式化文档中的引文。
+Gets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
 
-**退货:**
-java.lang.String - 与指定的书目样式结合使用以格式化文档中的引文的语言 ID。
+**Returns:**
+java.lang.String - The language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-获取字段的 LCID。
+Gets the LCID of the field.
 
-**退货:**
-int - 字段的 LCID。
+**Returns:**
+int - The LCID of the field.
 ### getPageNumber() {#getPageNumber--}
 ```
 public String getPageNumber()
 ```
 
 
-获取与引文关联的页码。
+Gets a page number associated with the citation.
 
-**退货:**
-java.lang.String - 与引文相关的页码。
+**Returns:**
+java.lang.String - A page number associated with the citation.
 ### getPrefix() {#getPrefix--}
 ```
 public String getPrefix()
 ```
 
 
-获取附加到引文的前缀。
+Gets a prefix that is prepended to the citation.
 
-**退货:**
-java.lang.String - 引文前面的前缀。
+**Returns:**
+java.lang.String - A prefix that is prepended to the citation.
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-获取字段分隔符和字段结尾之间的文本。
+Gets text that is between the field separator and field end.
 
-**退货:**
-java.lang.String - 字段分隔符和字段结尾之间的文本。
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
-获取表示字段分隔符的节点。可以为空。
+Gets the node that represents the field separator. Can be null.
 
-**退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
 ### getSourceTag() {#getSourceTag--}
 ```
 public String getSourceTag()
 ```
 
 
-获取一个数学值**Tag**要插入的源元素的值。
+Gets a value that mathes the **Tag** element's value of the source to insert.
 
-**退货:**
-java.lang.String - 一个数学值**Tag**要插入的源元素的值。
+**Returns:**
+java.lang.String - A value that mathes the **Tag** element's value of the source to insert.
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
-获取表示字段开始的节点。
+Gets the node that represents the start of the field.
 
-**退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
 ### getSuffix() {#getSuffix--}
 ```
 public String getSuffix()
 ```
 
 
-获取附加到引文的后缀。
+Gets a suffix that is appended to the citation.
 
-**退货:**
-java.lang.String - 附加到引文的后缀。
+**Returns:**
+java.lang.String - A suffix that is appended to the citation.
 ### getSuppressAuthor() {#getSuppressAuthor--}
 ```
 public boolean getSuppressAuthor()
 ```
 
 
-获取作者信息是否从引文中隐藏。
+Gets whether the author information is suppressed from the citation.
 
-**退货:**
-boolean - 作者信息是否从引文中隐藏。
+**Returns:**
+boolean - Whether the author information is suppressed from the citation.
 ### getSuppressTitle() {#getSuppressTitle--}
 ```
 public boolean getSuppressTitle()
 ```
 
 
-获取是否从引文中隐藏标题信息。
+Gets whether the title information is suppressed from the citation.
 
-**退货:**
-boolean - 是否从引文中抑制标题信息。
+**Returns:**
+boolean - Whether the title information is suppressed from the citation.
 ### getSuppressYear() {#getSuppressYear--}
 ```
 public boolean getSuppressYear()
 ```
 
 
-获取是否从引文中抑制年份信息。
+Gets whether the year information is suppressed from the citation.
 
-**退货:**
-boolean - 是否从引文中抑制年份信息。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+**Returns:**
+boolean - Whether the year information is suppressed from the citation.
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**退货:**
-整数
-### get类型() {#get类型--}
+**Returns:**
+int
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取 Microsoft Word 字段类型。
+Gets the Microsoft Word field type.
 
-**退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### getVolumeNumber() {#getVolumeNumber--}
 ```
 public String getVolumeNumber()
 ```
 
 
-获取与引文关联的卷号。
+Gets a volume number associated with the citation.
 
-**退货:**
-java.lang.String - 与引文相关的卷号。
+**Returns:**
+java.lang.String - A volume number associated with the citation.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -325,30 +325,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**退货:**
-boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
 ### isLocked() {#isLocked--}
 ```
@@ -356,22 +356,22 @@ public boolean isLocked()
 ```
 
 
-获取字段是否被锁定（不应重新计算其结果）。
+Gets whether the field is locked (should not recalculate its result).
 
-**退货:**
-boolean - 字段是否被锁定（不应重新计算其结果）。
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-设置字段是否被锁定（不应重新计算其结果）。
+Sets whether the field is locked (should not recalculate its result).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
 ### notify() {#notify--}
 ```
@@ -395,9 +395,9 @@ public Node remove()
 ```
 
 
-从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### setAnotherSourceTag(String value) {#setAnotherSourceTag-java.lang.String-}
 ```
@@ -405,12 +405,12 @@ public void setAnotherSourceTag(String value)
 ```
 
 
-设置一个数学值**Tag**要包含在引用中的另一个来源的元素值。
+Sets a value that mathes the **Tag** element's value of another source to be included in the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 一个数学值**Tag**要包含在引用中的另一个来源的元素值。 |
+| value | java.lang.String | A value that mathes the **Tag** element's value of another source to be included in the citation. |
 
 ### setFormatLanguageId(String value) {#setFormatLanguageId-java.lang.String-}
 ```
@@ -418,12 +418,12 @@ public void setFormatLanguageId(String value)
 ```
 
 
-设置与指定书目样式结合使用的语言 ID，以格式化文档中的引文。
+Sets the language ID that is used in conjunction with the specified bibliographic style to format the citation in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 与指定的书目样式结合使用以格式化文档中的引文的语言 ID。 |
+| value | java.lang.String | The language ID that is used in conjunction with the specified bibliographic style to format the citation in the document. |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -431,12 +431,12 @@ public void setLocaleId(int value)
 ```
 
 
-设置字段的 LCID。
+Sets the LCID of the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 字段的 LCID。 |
+| value | int | The LCID of the field. |
 
 ### setPageNumber(String value) {#setPageNumber-java.lang.String-}
 ```
@@ -444,12 +444,12 @@ public void setPageNumber(String value)
 ```
 
 
-设置与引文关联的页码。
+Sets a page number associated with the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 与引文相关的页码。 |
+| value | java.lang.String | A page number associated with the citation. |
 
 ### setPrefix(String value) {#setPrefix-java.lang.String-}
 ```
@@ -457,12 +457,12 @@ public void setPrefix(String value)
 ```
 
 
-设置附加到引文的前缀。
+Sets a prefix that is prepended to the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 附加在引文前面的前缀。 |
+| value | java.lang.String | A prefix that is prepended to the citation. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -470,12 +470,12 @@ public void setResult(String value)
 ```
 
 
-设置字段分隔符和字段结尾之间的文本。
+Sets text that is between the field separator and field end.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
 ### setSourceTag(String value) {#setSourceTag-java.lang.String-}
 ```
@@ -483,12 +483,12 @@ public void setSourceTag(String value)
 ```
 
 
-设置一个数学值**Tag**要插入的源元素的值。
+Sets a value that mathes the **Tag** element's value of the source to insert.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 一个数学值**Tag**要插入的源元素的值。 |
+| value | java.lang.String | A value that mathes the **Tag** element's value of the source to insert. |
 
 ### setSuffix(String value) {#setSuffix-java.lang.String-}
 ```
@@ -496,12 +496,12 @@ public void setSuffix(String value)
 ```
 
 
-设置附加到引文的后缀。
+Sets a suffix that is appended to the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 附加到引文的后缀。 |
+| value | java.lang.String | A suffix that is appended to the citation. |
 
 ### setSuppressAuthor(boolean value) {#setSuppressAuthor-boolean-}
 ```
@@ -509,12 +509,12 @@ public void setSuppressAuthor(boolean value)
 ```
 
 
-设置是否从引文中隐藏作者信息。
+Sets whether the author information is suppressed from the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 作者信息是否从引文中隐藏。 |
+| value | boolean | Whether the author information is suppressed from the citation. |
 
 ### setSuppressTitle(boolean value) {#setSuppressTitle-boolean-}
 ```
@@ -522,12 +522,12 @@ public void setSuppressTitle(boolean value)
 ```
 
 
-设置是否从引文中隐藏标题信息。
+Sets whether the title information is suppressed from the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否从引文中隐藏标题信息。 |
+| value | boolean | Whether the title information is suppressed from the citation. |
 
 ### setSuppressYear(boolean value) {#setSuppressYear-boolean-}
 ```
@@ -535,12 +535,12 @@ public void setSuppressYear(boolean value)
 ```
 
 
-设置是否从引文中隐藏年份信息。
+Sets whether the year information is suppressed from the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 年份信息是否从引文中隐藏。 |
+| value | boolean | Whether the year information is suppressed from the citation. |
 
 ### setVolumeNumber(String value) {#setVolumeNumber-java.lang.String-}
 ```
@@ -548,12 +548,12 @@ public void setVolumeNumber(String value)
 ```
 
 
-设置与引文关联的卷号。
+Sets a volume number associated with the citation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 与引文相关的卷号。 |
+| value | java.lang.String | A volume number associated with the citation. |
 
 ### toString() {#toString--}
 ```
@@ -563,7 +563,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -571,21 +571,21 @@ public boolean unlink()
 ```
 
 
-执行字段取消链接。
+Performs the field unlink.
 
-用其最新结果替换该字段。
+Replaces the field with its most recent result.
 
-某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs the field update. Throws if the field is being updated already.
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -593,12 +593,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs a field update. Throws if the field is being updated already.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait--}
 ```
@@ -616,8 +616,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -629,8 +629,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

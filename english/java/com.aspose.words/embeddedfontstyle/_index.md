@@ -1,36 +1,36 @@
 ---
 title: EmbeddedFontStyle
-second_title: Aspose.Words for Java API 参考
-description: 指定对象内嵌入字体的样式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the style of an embedded font inside a  object.
 type: docs
 weight: 142
-url: /zh/java/com.aspose.words/embeddedfontstyle/
+url: /java/com.aspose.words/embeddedfontstyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class EmbeddedFontStyle
 ```
 
-指定嵌入字体的样式[FontInfo](../../com.aspose.words/fontinfo)目的。
-## 字段
+Specifies the style of an embedded font inside a [FontInfo](../../com.aspose.words/fontinfo) object.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOLD](#BOLD) | 指定粗体嵌入字体。 |
-| [BOLD_ITALIC](#BOLD-ITALIC) | 指定粗斜体嵌入字体。 |
-| [ITALIC](#ITALIC) | 指定斜体嵌入字体。 |
-| [REGULAR](#REGULAR) | 指定常规嵌入字体。 |
+| [BOLD](#BOLD) | Specifies the Bold embedded font. |
+| [BOLD_ITALIC](#BOLD-ITALIC) | Specifies the Bold-Italic embedded font. |
+| [ITALIC](#ITALIC) | Specifies the Italic embedded font. |
+| [REGULAR](#REGULAR) | Specifies the Regular embedded font. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String embeddedFontStyleName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set embeddedFontStyleNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int embeddedFontStyle)](#getName-int-) |  |
 | [getNames(int embeddedFontStyle)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -49,7 +49,7 @@ public static int BOLD
 ```
 
 
-指定粗体嵌入字体。
+Specifies the Bold embedded font.
 
 ### BOLD_ITALIC {#BOLD-ITALIC}
 ```
@@ -57,7 +57,7 @@ public static int BOLD_ITALIC
 ```
 
 
-指定粗斜体嵌入字体。
+Specifies the Bold-Italic embedded font.
 
 ### ITALIC {#ITALIC}
 ```
@@ -65,7 +65,7 @@ public static int ITALIC
 ```
 
 
-指定斜体嵌入字体。
+Specifies the Italic embedded font.
 
 ### REGULAR {#REGULAR}
 ```
@@ -73,7 +73,7 @@ public static int REGULAR
 ```
 
 
-指定常规嵌入字体。
+Specifies the Regular embedded font.
 
 ### length {#length}
 ```
@@ -89,13 +89,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String embeddedFontStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String embeddedFontStyleName)
@@ -104,13 +104,13 @@ public static int fromName(String embeddedFontStyleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedFontStyleName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### fromNames(Set embeddedFontStyleNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set embeddedFontStyleNames)
@@ -119,23 +119,23 @@ public static int fromNames(Set embeddedFontStyleNames)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedFontStyleNames | java.util.Set |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int embeddedFontStyle) {#getName-int-}
 ```
 public static String getName(int embeddedFontStyle)
@@ -144,12 +144,12 @@ public static String getName(int embeddedFontStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getNames(int embeddedFontStyle) {#getNames-int-}
 ```
@@ -159,12 +159,12 @@ public static Set getNames(int embeddedFontStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
+**Returns:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -174,8 +174,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -184,8 +184,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -210,7 +210,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int embeddedFontStyle) {#toString-int-}
 ```
@@ -220,12 +220,12 @@ public static String toString(int embeddedFontStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | embeddedFontStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -235,12 +235,12 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -258,8 +258,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -271,8 +271,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

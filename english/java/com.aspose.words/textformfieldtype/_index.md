@@ -1,44 +1,44 @@
 ---
-title: TextForm字段类型
+title: TextFormFieldType
 second_title: Aspose.Words for Java API Reference
-description: 指定文本表单域的类型。
+description: Specifies the type of a text form field.
 type: docs
 weight: 565
-url: /zh/java/com.aspose.words/textformfieldtype/
+url: /java/com.aspose.words/textformfieldtype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class TextForm字段类型
+public class TextFormFieldType
 ```
 
-指定文本表单域的类型。
-## 字段
+Specifies the type of a text form field.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CALCULATED](#CALCULATED) | 文本表单字段值是根据在[Form字段.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [Form字段.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-)财产。 |
-| [CURRENT_DATE](#CURRENT-DATE) | 文本表单字段值是字段更新的当前日期。 |
-| [CURRENT_TIME](#CURRENT-TIME) | 文本表单字段值是字段更新的当前时间。 |
-| [DATE](#DATE) | 文本表单字段只能包含有效的日期值。 |
-| [NUMBER](#NUMBER) | 文本表单域只能包含数字。 |
-| [REGULAR](#REGULAR) | 文本表单域可以包含任何文本。 |
+| [CALCULATED](#CALCULATED) | The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property. |
+| [CURRENT_DATE](#CURRENT-DATE) | The text form field value is the current date when the field is updated. |
+| [CURRENT_TIME](#CURRENT-TIME) | The text form field value is the current time when the field is updated. |
+| [DATE](#DATE) | The text form field can contain only a valid date value. |
+| [NUMBER](#NUMBER) | The text form field can contain only numbers. |
+| [REGULAR](#REGULAR) | The text form field can contain any text. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String textForm字段类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int textForm字段类型)](#getName-int-) |  |
+| [fromName(String textFormFieldTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int textFormFieldType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int textForm字段类型)](#toString-int-) |  |
+| [toString(int textFormFieldType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int CALCULATED
 ```
 
 
-文本表单字段值是根据在[Form字段.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [Form字段.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-)财产。
+The text form field value is calculated from the expression specified in the [FormField.getTextInputDefault()](../../com.aspose.words/formfield\#getTextInputDefault--) / [FormField.setTextInputDefault(java.lang.String)](../../com.aspose.words/formfield\#setTextInputDefault-java.lang.String-) property.
 
 ### CURRENT_DATE {#CURRENT-DATE}
 ```
@@ -56,7 +56,7 @@ public static int CURRENT_DATE
 ```
 
 
-文本表单字段值是字段更新的当前日期。
+The text form field value is the current date when the field is updated.
 
 ### CURRENT_TIME {#CURRENT-TIME}
 ```
@@ -64,7 +64,7 @@ public static int CURRENT_TIME
 ```
 
 
-文本表单字段值是字段更新的当前时间。
+The text form field value is the current time when the field is updated.
 
 ### DATE {#DATE}
 ```
@@ -72,7 +72,7 @@ public static int DATE
 ```
 
 
-文本表单字段只能包含有效的日期值。
+The text form field can contain only a valid date value.
 
 ### NUMBER {#NUMBER}
 ```
@@ -80,7 +80,7 @@ public static int NUMBER
 ```
 
 
-文本表单域只能包含数字。
+The text form field can contain only numbers.
 
 ### REGULAR {#REGULAR}
 ```
@@ -88,7 +88,7 @@ public static int REGULAR
 ```
 
 
-文本表单域可以包含任何文本。
+The text form field can contain any text.
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String textForm字段类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String textFormFieldTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String textForm字段类型Name)
+public static int fromName(String textFormFieldTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| textForm字段类型Name | java.lang.String |  |
+| textFormFieldTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int textForm字段类型) {#getName-int-}
-```
-public static String getName(int textForm字段类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int textFormFieldType) {#getName-int-}
+```
+public static String getName(int textFormFieldType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| textForm字段类型 | int |  |
+| textFormFieldType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int textForm字段类型) {#toString-int-}
+### toString(int textFormFieldType) {#toString-int-}
 ```
-public static String toString(int textForm字段类型)
+public static String toString(int textFormFieldType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| textForm字段类型 | int |  |
+| textFormFieldType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

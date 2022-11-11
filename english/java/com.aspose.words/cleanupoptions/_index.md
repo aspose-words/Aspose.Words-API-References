@@ -1,38 +1,38 @@
 ---
 title: CleanupOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许指定文档清理选项。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify options for document cleaning.
 type: docs
 weight: 73
-url: /zh/java/com.aspose.words/cleanupoptions/
+url: /java/com.aspose.words/cleanupoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CleanupOptions
 ```
 
-允许指定文档清理选项。
+Allows to specify options for document cleaning.
 
-要了解更多信息，请访问**Clean Up a Document**文档文章。
-## 方法s
+To learn more, visit the **Clean Up a Document** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDuplicateStyle()](#getDuplicateStyle--) | 获取/设置一个标志，指示是否应从文档中删除重复样式。 |
-| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles--) | 指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。 |
-| [getUnusedLists()](#getUnusedLists--) | 指定是否应从文档中删除未使用的列表和列表定义。 |
-| [getUnusedStyles()](#getUnusedStyles--) | 指定是否应从文档中删除未使用的样式。 |
+| [getClass()](#getClass--) |  |
+| [getDuplicateStyle()](#getDuplicateStyle--) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
+| [getUnusedBuiltinStyles()](#getUnusedBuiltinStyles--) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document. |
+| [getUnusedLists()](#getUnusedLists--) | Specifies whether unused list and list definitions should be removed from document. |
+| [getUnusedStyles()](#getUnusedStyles--) | Specifies whether unused styles should be removed from document. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean-) | 获取/设置一个标志，指示是否应从文档中删除重复样式。 |
-| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean-) | 指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。 |
-| [setUnusedLists(boolean value)](#setUnusedLists-boolean-) | 指定是否应从文档中删除未使用的列表和列表定义。 |
-| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean-) | 指定是否应从文档中删除未使用的样式。 |
+| [setDuplicateStyle(boolean value)](#setDuplicateStyle-boolean-) | Gets/sets a flag indicating whether duplicate styles should be removed from document. |
+| [setUnusedBuiltinStyles(boolean value)](#setUnusedBuiltinStyles-boolean-) | Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document. |
+| [setUnusedLists(boolean value)](#setUnusedLists-boolean-) | Specifies whether unused list and list definitions should be removed from document. |
+| [setUnusedStyles(boolean value)](#setUnusedStyles-boolean-) | Specifies whether unused styles should be removed from document. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,63 +45,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDuplicateStyle() {#getDuplicateStyle--}
 ```
 public boolean getDuplicateStyle()
 ```
 
 
-获取/设置一个标志，指示是否应从文档中删除重复样式。默认值为**false**.
+Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUnusedBuiltinStyles() {#getUnusedBuiltinStyles--}
 ```
 public boolean getUnusedBuiltinStyles()
 ```
 
 
-指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUnusedLists() {#getUnusedLists--}
 ```
 public boolean getUnusedLists()
 ```
 
 
-指定是否应从文档中删除未使用的列表和列表定义。默认值为**true**.
+Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUnusedStyles() {#getUnusedStyles--}
 ```
 public boolean getUnusedStyles()
 ```
 
 
-指定是否应从文档中删除未使用的样式。默认值为**true**.
+Specifies whether unused styles should be removed from document. Default value is **true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -110,8 +110,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -134,12 +134,12 @@ public void setDuplicateStyle(boolean value)
 ```
 
 
-获取/设置一个标志，指示是否应从文档中删除重复样式。默认值为**false**.
+Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUnusedBuiltinStyles(boolean value) {#setUnusedBuiltinStyles-boolean-}
 ```
@@ -147,12 +147,12 @@ public void setUnusedBuiltinStyles(boolean value)
 ```
 
 
-指定未使用的[Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--)样式应从文档中删除。
+Specifies that unused [Style.getBuiltIn()](../../com.aspose.words/style\#getBuiltIn--) styles should be removed from document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUnusedLists(boolean value) {#setUnusedLists-boolean-}
 ```
@@ -160,12 +160,12 @@ public void setUnusedLists(boolean value)
 ```
 
 
-指定是否应从文档中删除未使用的列表和列表定义。默认值为**true**.
+Specifies whether unused list and list definitions should be removed from document. Default value is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUnusedStyles(boolean value) {#setUnusedStyles-boolean-}
 ```
@@ -173,12 +173,12 @@ public void setUnusedStyles(boolean value)
 ```
 
 
-指定是否应从文档中删除未使用的样式。默认值为**true**.
+Specifies whether unused styles should be removed from document. Default value is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -188,7 +188,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -206,8 +206,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -219,8 +219,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,61 +1,61 @@
 ---
-title: MappedData字段Collection
-second_title: Aspose.Words for Java API 参考
-description: 允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。
+title: MappedDataFieldCollection
+second_title: Aspose.Words for Java API Reference
+description: Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
 type: docs
 weight: 387
-url: /zh/java/com.aspose.words/mappeddatafieldcollection/
+url: /java/com.aspose.words/mappeddatafieldcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
-public class MappedData字段Collection implements Iterable
+public class MappedDataFieldCollection implements Iterable
 ```
 
-允许在数据源中的字段名称和文档中的邮件合并字段名称之间自动映射。
+Allows to automatically map between names of fields in your data source and names of mail merge fields in the document.
 
-要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
+To learn more, visit the **Mail Merge and Reporting** documentation article.
 
-这是作为字符串键的集合实现为字符串值的。键是文档中邮件合并字段的名称，值是数据源中的字段名称。
-## 方法s
+This is implemented as a collection of string keys into string values. The keys are the names of mail merge fields in the document and the values are the names of fields in your data source.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(String document字段Name, String dataSource字段Name)](#add-java.lang.String-java.lang.String-) | 添加新的字段映射。 |
-| [clear()](#clear--) | 从集合中移除所有元素。 |
-| [containsKey(String document字段Name)](#containsKey-java.lang.String-) | 确定集合中是否存在来自文档中指定字段的映射。 |
-| [containsValue(String dataSource字段Name)](#containsValue-java.lang.String-) | 确定集合中是否存在来自数据源中指定字段的映射。 |
+| [add(String documentFieldName, String dataSourceFieldName)](#add-java.lang.String-java.lang.String-) | Adds a new field mapping. |
+| [clear()](#clear--) | Removes all elements from the collection. |
+| [containsKey(String documentFieldName)](#containsKey-java.lang.String-) | Determines whether a mapping from the specified field in the document exists in the collection. |
+| [containsValue(String dataSourceFieldName)](#containsValue-java.lang.String-) | Determines whether a mapping from the specified field in the data source exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(String document字段Name)](#get-java.lang.String-) | 获取与指定邮件合并字段关联的数据源中的字段名称。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(String documentFieldName)](#get-java.lang.String-) | Gets the name of the field in the data source associated with the specified mail merge field. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [iterator()](#iterator--) | Returns a dictionary iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String document字段Name)](#remove-java.lang.String-) | 删除字段映射。 |
-| [set(String document字段Name, String value)](#set-java.lang.String-java.lang.String-) | 设置与指定邮件合并字段关联的数据源中的字段名称。 |
+| [remove(String documentFieldName)](#remove-java.lang.String-) | Removes a field mapping. |
+| [set(String documentFieldName, String value)](#set-java.lang.String-java.lang.String-) | Sets the name of the field in the data source associated with the specified mail merge field. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### add(String document字段Name, String dataSource字段Name) {#add-java.lang.String-java.lang.String-}
+### add(String documentFieldName, String dataSourceFieldName) {#add-java.lang.String-java.lang.String-}
 ```
-public void add(String document字段Name, String dataSource字段Name)
+public void add(String documentFieldName, String dataSourceFieldName)
 ```
 
 
-添加新的字段映射。
+Adds a new field mapping.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| document字段Name | java.lang.String | 文档中邮件合并字段的区分大小写的名称。 |
-| dataSource字段Name | java.lang.String | 数据源中字段的区分大小写的名称。 |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
+| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source. |
 
 ### clear() {#clear--}
 ```
@@ -63,38 +63,38 @@ public void clear()
 ```
 
 
-从集合中移除所有元素。
+Removes all elements from the collection.
 
-### containsKey(String document字段Name) {#containsKey-java.lang.String-}
+### containsKey(String documentFieldName) {#containsKey-java.lang.String-}
 ```
-public boolean containsKey(String document字段Name)
+public boolean containsKey(String documentFieldName)
 ```
 
 
-确定集合中是否存在来自文档中指定字段的映射。
+Determines whether a mapping from the specified field in the document exists in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| document字段Name | java.lang.String | 文档中邮件合并字段的区分大小写的名称。 |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
 
-**退货:**
-boolean - 如果在集合中找到项目，则为真；否则为假。
-### containsValue(String dataSource字段Name) {#containsValue-java.lang.String-}
+**Returns:**
+boolean - True if item is found in the collection; otherwise, false.
+### containsValue(String dataSourceFieldName) {#containsValue-java.lang.String-}
 ```
-public boolean containsValue(String dataSource字段Name)
+public boolean containsValue(String dataSourceFieldName)
 ```
 
 
-确定集合中是否存在来自数据源中指定字段的映射。
+Determines whether a mapping from the specified field in the data source exists in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| dataSource字段Name | java.lang.String | 数据源中字段的区分大小写的名称。 |
+| dataSourceFieldName | java.lang.String | Case-sensitive name of the field in the data source. |
 
-**退货:**
-boolean - 如果在集合中找到项目，则为真；否则为假。
+**Returns:**
+boolean - True if item is found in the collection; otherwise, false.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -103,48 +103,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get(String document字段Name) {#get-java.lang.String-}
+**Returns:**
+boolean
+### get(String documentFieldName) {#get-java.lang.String-}
 ```
-public String get(String document字段Name)
+public String get(String documentFieldName)
 ```
 
 
-获取与指定邮件合并字段关联的数据源中的字段名称。
+Gets the name of the field in the data source associated with the specified mail merge field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| document字段Name | java.lang.String |  |
+| documentFieldName | java.lang.String |  |
 
-**退货:**
-java.lang.String - 数据源中与指定邮件合并字段关联的字段名称。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - The name of the field in the data source associated with the specified mail merge field.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -153,17 +153,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个字典迭代器对象，该对象可用于迭代集合中的所有项目。
+Returns a dictionary iterator object that can be used to iterate over all items in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -181,32 +181,32 @@ public final native void notifyAll()
 
 
 
-### remove(String document字段Name) {#remove-java.lang.String-}
+### remove(String documentFieldName) {#remove-java.lang.String-}
 ```
-public void remove(String document字段Name)
+public void remove(String documentFieldName)
 ```
 
 
-删除字段映射。
+Removes a field mapping.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| document字段Name | java.lang.String | 文档中邮件合并字段的区分大小写的名称。 |
+| documentFieldName | java.lang.String | Case-sensitive name of the mail merge field in the document. |
 
-### set(String document字段Name, String value) {#set-java.lang.String-java.lang.String-}
+### set(String documentFieldName, String value) {#set-java.lang.String-java.lang.String-}
 ```
-public void set(String document字段Name, String value)
+public void set(String documentFieldName, String value)
 ```
 
 
-设置与指定邮件合并字段关联的数据源中的字段名称。
+Sets the name of the field in the data source associated with the specified mail merge field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| document字段Name | java.lang.String |  |
-| value | java.lang.String | 与指定邮件合并字段关联的数据源中的字段名称。 |
+| documentFieldName | java.lang.String |  |
+| value | java.lang.String | The name of the field in the data source associated with the specified mail merge field. |
 
 ### toString() {#toString--}
 ```
@@ -216,7 +216,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -234,8 +234,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -247,8 +247,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

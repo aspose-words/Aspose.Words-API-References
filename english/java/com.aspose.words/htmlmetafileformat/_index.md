@@ -1,34 +1,34 @@
 ---
 title: HtmlMetafileFormat
-second_title: Aspose.Words for Java API 参考
-description: 指示元文件保存到 HTML 文档的格式。
+second_title: Aspose.Words for Java API Reference
+description: Indicates the format in which metafiles are saved to HTML documents.
 type: docs
 weight: 329
-url: /zh/java/com.aspose.words/htmlmetafileformat/
+url: /java/com.aspose.words/htmlmetafileformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlMetafileFormat
 ```
 
-指示元文件保存到 HTML 文档的格式。
-## 字段
+Indicates the format in which metafiles are saved to HTML documents.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [EMF_OR_WMF](#EMF-OR-WMF) | 元文件按原样保存，无需转换。 |
-| [PNG](#PNG) | 元文件被渲染为光栅 PNG 图像。 |
-| [SVG](#SVG) | 元文件被转换为矢量 SVG 图像。 |
+| [EMF_OR_WMF](#EMF-OR-WMF) | Metafiles are saved as is, without conversion. |
+| [PNG](#PNG) | Metafiles are rendered to raster PNG images. |
+| [SVG](#SVG) | Metafiles are converted to vector SVG images. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlMetafileFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlMetafileFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int EMF_OR_WMF
 ```
 
 
-元文件按原样保存，无需转换。
+Metafiles are saved as is, without conversion.
 
 ### PNG {#PNG}
 ```
@@ -53,7 +53,7 @@ public static int PNG
 ```
 
 
-元文件被渲染为光栅 PNG 图像。
+Metafiles are rendered to raster PNG images.
 
 ### SVG {#SVG}
 ```
@@ -61,7 +61,7 @@ public static int SVG
 ```
 
 
-元文件被转换为矢量 SVG 图像。
+Metafiles are converted to vector SVG images.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String htmlMetafileFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlMetafileFormatName)
@@ -92,23 +92,23 @@ public static int fromName(String htmlMetafileFormatName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlMetafileFormatName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int htmlMetafileFormat) {#getName-int-}
 ```
 public static String getName(int htmlMetafileFormat)
@@ -117,12 +117,12 @@ public static String getName(int htmlMetafileFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlMetafileFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int htmlMetafileFormat) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int htmlMetafileFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlMetafileFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

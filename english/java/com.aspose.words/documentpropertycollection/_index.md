@@ -1,51 +1,51 @@
 ---
 title: DocumentPropertyCollection
-second_title: Aspose.Words for Java API 参考
-description: 和集合的基类。
+second_title: Aspose.Words for Java API Reference
+description: Base class for  and  collections.
 type: docs
 weight: 127
-url: /zh/java/com.aspose.words/documentpropertycollection/
+url: /java/com.aspose.words/documentpropertycollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public abstract class DocumentPropertyCollection implements Iterable
 ```
 
-基类[BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties)和[CustomDocumentProperties](../../com.aspose.words/customdocumentproperties)收藏品。
+Base class for [BuiltInDocumentProperties](../../com.aspose.words/builtindocumentproperties) and [CustomDocumentProperties](../../com.aspose.words/customdocumentproperties) collections.
 
-要了解更多信息，请访问**Work with Document Properties**文档文章。
+To learn more, visit the **Work with Document Properties** documentation article.
 
-属性名称不区分大小写。
+The names of the properties are case-insensitive.
 
-集合中的属性按名称的字母顺序排序。
-## 构造函数s
+The properties in the collection are sorted alphabetically by name.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
 | [DocumentPropertyCollection()](#DocumentPropertyCollection--) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clear()](#clear--) | 从集合中删除所有属性。 |
-| [contains(String name)](#contains-java.lang.String-) | 如果集合中存在具有指定名称的属性，则返回 true。 |
+| [clear()](#clear--) | Removes all properties from the collection. |
+| [contains(String name)](#contains-java.lang.String-) | Returns true if a property with the specified name exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。 |
-| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中的项目数。 |
+| [get(int index)](#get-int-) | Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index. |
+| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets number of items in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(String name)](#indexOf-java.lang.String-) | 按名称获取属性的索引。 |
-| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [indexOf(String name)](#indexOf-java.lang.String-) | Gets the index of a property by name. |
+| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | 从集合中移除具有指定名称的属性。 |
-| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的属性。 |
+| [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -62,7 +62,7 @@ public void clear()
 ```
 
 
-从集合中删除所有属性。
+Removes all properties from the collection.
 
 ### contains(String name) {#contains-java.lang.String-}
 ```
@@ -70,15 +70,15 @@ public boolean contains(String name)
 ```
 
 
-如果集合中存在具有指定名称的属性，则返回 true。
+Returns true if a property with the specified name exists in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | The case-insensitive name of the property. |
 
-**退货:**
-boolean - 如果属性存在于集合中，则为真；否则为假。
+**Returns:**
+boolean - True if the property exists in the collection; false otherwise.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -87,67 +87,67 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public DocumentProperty get(int index)
 ```
 
 
-返回一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
+Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**  In Java this method is slow because iterates over all nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 的从零开始的索引[DocumentProperty](../../com.aspose.words/documentproperty)检索。 |
+| index | int | Zero-based index of the [DocumentProperty](../../com.aspose.words/documentproperty) to retrieve. |
 
-**退货:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - 一个[DocumentProperty](../../com.aspose.words/documentproperty)按索引的对象。
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - A [DocumentProperty](../../com.aspose.words/documentproperty) object by index.
 ### get(String name) {#get-java.lang.String-}
 ```
 public DocumentProperty get(String name)
 ```
 
 
-提供对集合项目的访问。返回一个[DocumentProperty](../../com.aspose.words/documentproperty)对象的属性名称。
+Provides access to the collection items.  Returns a [DocumentProperty](../../com.aspose.words/documentproperty) object by the name of the property.
 
-如果未找到具有指定名称的属性，则返回 null。
+Returns null if a property with the specified name is not found.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要检索的属性的不区分大小写的名称。 |
+| name | java.lang.String | The case-insensitive name of the property to retrieve. |
 
-**退货:**
-[DocumentProperty](../../com.aspose.words/documentproperty) - 相应的[DocumentProperty](../../com.aspose.words/documentproperty)价值。
-### get班级() {#get班级--}
+**Returns:**
+[DocumentProperty](../../com.aspose.words/documentproperty) - The corresponding [DocumentProperty](../../com.aspose.words/documentproperty) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中的项目数。
+Gets number of items in the collection.
 
-**退货:**
-int - 集合中的项目数。
+**Returns:**
+int - Number of items in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -156,34 +156,34 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOf(String name) {#indexOf-java.lang.String-}
 ```
 public int indexOf(String name)
 ```
 
 
-按名称获取属性的索引。
+Gets the index of a property by name.
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**  In Java this method is slow because iterates over all nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | The case-insensitive name of the property. |
 
-**退货:**
-int - 从零开始的索引。如果未找到，则为负值。
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
+Returns an iterator object that can be used to iterate over all items in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -207,12 +207,12 @@ public void remove(String name)
 ```
 
 
-从集合中移除具有指定名称的属性。
+Removes a property with the specified name from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的属性名称。 |
+| name | java.lang.String | The case-insensitive name of the property. |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -220,14 +220,14 @@ public void removeAt(int index)
 ```
 
 
-删除指定索引处的属性。
+Removes a property at the specified index.
 
-**Note:**在 Java 中，这种方法很慢，因为它会遍历所有节点。
+**Note:**  In Java this method is slow because iterates over all nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 从零开始的索引。 |
+| index | int | The zero based index. |
 
 ### toString() {#toString--}
 ```
@@ -237,7 +237,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -255,8 +255,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -268,8 +268,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

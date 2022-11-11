@@ -1,42 +1,42 @@
 ---
 title: ChartSeriesCollection
-second_title: Aspose.Words for Java API 参考
-description: 表示 a 的集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents collection of a .
 type: docs
 weight: 69
-url: /zh/java/com.aspose.words/chartseriescollection/
+url: /java/com.aspose.words/chartseriescollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class ChartSeriesCollection implements Iterable
 ```
 
-代表一个集合[ChartSeries](../../com.aspose.words/chartseries).
+Represents collection of a [ChartSeries](../../com.aspose.words/chartseries).
 
-要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+To learn more, visit the **Working with Charts** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(String seriesName, double[] xValues, double[] yValues)](#add-java.lang.String-double---double---) | 添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。 |
-| [add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)](#add-java.lang.String-double---double---double---) | 添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。 |
-| [add(String seriesName, String[] categories, double[] values)](#add-java.lang.String-java.lang.String---double---) | 添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。 |
-| [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double---) | 添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。 |
-| [clear()](#clear--) | 删除所有[ChartSeries](../../com.aspose.words/chartseries)从这个集合。 |
+| [add(String seriesName, double[] xValues, double[] yValues)](#add-java.lang.String-double---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)](#add-java.lang.String-double---double---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, String[] categories, double[] values)](#add-java.lang.String-java.lang.String---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [add(String seriesName, Date[] dates, double[] values)](#add-java.lang.String-java.util.Date---double---) | Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. |
+| [clear()](#clear--) | Removes all [ChartSeries](../../com.aspose.words/chartseries) from this collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 返回数量[ChartSeries](../../com.aspose.words/chartseries)在这个集合中。 |
+| [get(int index)](#get-int-) | Returns a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of [ChartSeries](../../com.aspose.words/chartseries) in this collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个枚举器对象。 |
+| [iterator()](#iterator--) | Returns an enumerator object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。 |
+| [removeAt(int index)](#removeAt-int-) | Removes a [ChartSeries](../../com.aspose.words/chartseries) at the specified index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -47,68 +47,68 @@ public ChartSeries add(String seriesName, double[] xValues, double[] yValues)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的散点图。
+Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. Use this method to add series to any type of Scatter charts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | seriesName | java.lang.String |  |
 | xValues | double[] |  |
 | yValues | double[] |  |
 
-**退货:**
-[ChartSeries](../../com.aspose.words/chartseries) - 最近添加的[ChartSeries](../../com.aspose.words/chartseries)目的。
+**Returns:**
+[ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
 ### add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes) {#add-java.lang.String-double---double---double---}
 ```
 public ChartSeries add(String seriesName, double[] xValues, double[] yValues, double[] bubbleSizes)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的气泡图。
+Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. Use this method to add series to any type of Bubble charts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | seriesName | java.lang.String |  |
 | xValues | double[] |  |
 | yValues | double[] |  |
 | bubbleSizes | double[] |  |
 
-**退货:**
-[ChartSeries](../../com.aspose.words/chartseries) - 最近添加的[ChartSeries](../../com.aspose.words/chartseries)目的。
+**Returns:**
+[ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
 ### add(String seriesName, String[] categories, double[] values) {#add-java.lang.String-java.lang.String---double---}
 ```
 public ChartSeries add(String seriesName, String[] categories, double[] values)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法可将系列添加到任何类型的条形图、柱形图、折线图和曲面图。
+Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. Use this method to add series to any type of Bar, Column, Line and Surface charts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | seriesName | java.lang.String |  |
 | categories | java.lang.String[] |  |
 | values | double[] |  |
 
-**退货:**
-[ChartSeries](../../com.aspose.words/chartseries) - 最近添加的[ChartSeries](../../com.aspose.words/chartseries)目的。
+**Returns:**
+[ChartSeries](../../com.aspose.words/chartseries) - Recently added [ChartSeries](../../com.aspose.words/chartseries) object.
 ### add(String seriesName, Date[] dates, double[] values) {#add-java.lang.String-java.util.Date---double---}
 ```
 public ChartSeries add(String seriesName, Date[] dates, double[] values)
 ```
 
 
-添加新的[ChartSeries](../../com.aspose.words/chartseries)到这个集合。使用此方法将系列添加到任何类型的区域、雷达和股票图表。
+Adds new [ChartSeries](../../com.aspose.words/chartseries) to this collection. Use this method to add series to any type of Area, Radar and Stock charts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | seriesName | java.lang.String |  |
 | dates | java.util.Date[] |  |
 | values | double[] |  |
 
-**退货:**
+**Returns:**
 [ChartSeries](../../com.aspose.words/chartseries)
 ### clear() {#clear--}
 ```
@@ -116,7 +116,7 @@ public void clear()
 ```
 
 
-删除所有[ChartSeries](../../com.aspose.words/chartseries)从这个集合。
+Removes all [ChartSeries](../../com.aspose.words/chartseries) from this collection.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -126,56 +126,56 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public ChartSeries get(int index)
 ```
 
 
-返回一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
+Returns a [ChartSeries](../../com.aspose.words/chartseries) at the specified index.
 
-该索引从零开始。
+The index is zero-based.
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+If index is greater than or equal to the number of items in the list, this returns a null reference.
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 集合中的索引。 |
+| index | int | An index into the collection. |
 
-**退货:**
-[ChartSeries](../../com.aspose.words/chartseries) - 一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
-### get班级() {#get班级--}
+**Returns:**
+[ChartSeries](../../com.aspose.words/chartseries) - A [ChartSeries](../../com.aspose.words/chartseries) at the specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-返回数量[ChartSeries](../../com.aspose.words/chartseries)在这个集合中。
+Returns the number of [ChartSeries](../../com.aspose.words/chartseries) in this collection.
 
-**退货:**
- int - 的数量[ChartSeries](../../com.aspose.words/chartseries)在这个集合中。
+**Returns:**
+int - The number of [ChartSeries](../../com.aspose.words/chartseries) in this collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -184,17 +184,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个枚举器对象。
+Returns an enumerator object.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -218,12 +218,12 @@ public void removeAt(int index)
 ```
 
 
-删除一个[ChartSeries](../../com.aspose.words/chartseries)在指定索引处。
+Removes a [ChartSeries](../../com.aspose.words/chartseries) at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 要删除的 ChartSeries 从零开始的索引。 |
+| index | int | The zero-based index of the ChartSeries to remove. |
 
 ### toString() {#toString--}
 ```
@@ -233,7 +233,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -251,8 +251,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -264,8 +264,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

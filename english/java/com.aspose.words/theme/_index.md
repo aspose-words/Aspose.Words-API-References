@@ -1,34 +1,34 @@
 ---
 title: Theme
 second_title: Aspose.Words for Java API Reference
-description: 代表文档主题并提供对主要主题部分的访问，包括和
+description: Represents document Theme and provides access to main theme parts including   and
 type: docs
 weight: 573
-url: /zh/java/com.aspose.words/theme/
+url: /java/com.aspose.words/theme/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class Theme implements Cloneable
 ```
 
-代表文档主题，并提供对主要主题部分的访问，包括[getMajorFonts()](../../com.aspose.words/theme\#getMajorFonts--), [getMinorFonts()](../../com.aspose.words/theme\#getMinorFonts--)和[getColors()](../../com.aspose.words/theme\#getColors--)
+Represents document Theme, and provides access to main theme parts including [getMajorFonts()](../../com.aspose.words/theme\#getMajorFonts--), [getMinorFonts()](../../com.aspose.words/theme\#getMinorFonts--) and [getColors()](../../com.aspose.words/theme\#getColors--)
 
-要了解更多信息，请访问**Working with Styles and Themes**文档文章。
-## 方法s
+To learn more, visit the **Working with Styles and Themes** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getColors()](#getColors--) | 允许为文档指定一组主题颜色。 |
+| [getClass()](#getClass--) |  |
+| [getColors()](#getColors--) | Allows to specify the set of theme colors for the document. |
 | [getFontName(int themeFont)](#getFontName-int-) |  |
-| [getMajorFonts()](#getMajorFonts--) | 允许指定不同语言的主要字体集。 |
-| [getMinorFonts()](#getMinorFonts--) | 允许指定不同语言的次要字体集。 |
+| [getMajorFonts()](#getMajorFonts--) | Allows to specify the set of major fonts for different languages. |
+| [getMinorFonts()](#getMinorFonts--) | Allows to specify the set of minor fonts for different languages. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,33 +45,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColors() {#getColors--}
 ```
 public ThemeColors getColors()
 ```
 
 
-允许为文档指定一组主题颜色。
+Allows to specify the set of theme colors for the document.
 
-**退货:**
-[ThemeColors](../../com.aspose.words/themecolors) - 相应的[ThemeColors](../../com.aspose.words/themecolors)价值。
+**Returns:**
+[ThemeColors](../../com.aspose.words/themecolors) - The corresponding [ThemeColors](../../com.aspose.words/themecolors) value.
 ### getFontName(int themeFont) {#getFontName-int-}
 ```
 public String getFontName(int themeFont)
@@ -80,12 +80,12 @@ public String getFontName(int themeFont)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | themeFont | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getMajorFonts() {#getMajorFonts--}
 ```
@@ -93,20 +93,20 @@ public ThemeFonts getMajorFonts()
 ```
 
 
-允许指定不同语言的主要字体集。
+Allows to specify the set of major fonts for different languages.
 
-**退货:**
-[ThemeFonts](../../com.aspose.words/themefonts) - 相应的[ThemeFonts](../../com.aspose.words/themefonts)价值。
+**Returns:**
+[ThemeFonts](../../com.aspose.words/themefonts) - The corresponding [ThemeFonts](../../com.aspose.words/themefonts) value.
 ### getMinorFonts() {#getMinorFonts--}
 ```
 public ThemeFonts getMinorFonts()
 ```
 
 
-允许指定不同语言的次要字体集。
+Allows to specify the set of minor fonts for different languages.
 
-**退货:**
-[ThemeFonts](../../com.aspose.words/themefonts) - 相应的[ThemeFonts](../../com.aspose.words/themefonts)价值。
+**Returns:**
+[ThemeFonts](../../com.aspose.words/themefonts) - The corresponding [ThemeFonts](../../com.aspose.words/themefonts) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -115,8 +115,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -149,7 +149,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -167,8 +167,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -180,8 +180,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

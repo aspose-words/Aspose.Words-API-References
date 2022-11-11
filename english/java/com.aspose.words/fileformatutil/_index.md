@@ -1,34 +1,34 @@
 ---
 title: FileFormatUtil
-second_title: Aspose.Words for Java API 参考
-description: 提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
+second_title: Aspose.Words for Java API Reference
+description: Provides utility methods for working with file formats such as detecting file format or converting file extensions to/from file format enums.
 type: docs
 weight: 266
-url: /zh/java/com.aspose.words/fileformatutil/
+url: /java/com.aspose.words/fileformatutil/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FileFormatUtil
 ```
 
-提供用于处理文件格式的实用方法，例如检测文件格式或将文件扩展名转换为/从文件格式枚举。
+Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums.
 
-要了解更多信息，请访问**Detect File Format and Check Format Compatibility**文档文章。
-## 方法s
+To learn more, visit the **Detect File Format and Check Format Compatibility** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [content类型ToLoadFormat(String content类型)](#content类型ToLoadFormat-java.lang.String-) | 将 IANA 内容类型转换为加载格式枚举值。 |
-| [content类型ToSaveFormat(String content类型)](#content类型ToSaveFormat-java.lang.String-) | 将 IANA 内容类型转换为保存格式枚举值。 |
+| [contentTypeToLoadFormat(String contentType)](#contentTypeToLoadFormat-java.lang.String-) | Converts IANA content type into a load format enumerated value. |
+| [contentTypeToSaveFormat(String contentType)](#contentTypeToSaveFormat-java.lang.String-) | Converts IANA content type into a save format enumerated value. |
 | [detectFileFormat(InputStream stream)](#detectFileFormat-java.io.InputStream-) |  |
-| [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String-) | 检测并返回有关文档格式的信息。 |
+| [detectFileFormat(String fileName)](#detectFileFormat-java.lang.String-) | Detects and returns the information about a format of a document. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String-) | 将文件扩展名转换为[SaveFormat](../../com.aspose.words/saveformat)价值。 |
-| [get班级()](#get班级--) |  |
+| [extensionToSaveFormat(String extension)](#extensionToSaveFormat-java.lang.String-) | Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value. |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
-| [image类型ToExtension(int image类型)](#image类型ToExtension-int-) |  |
+| [imageTypeToExtension(int imageType)](#imageTypeToExtension-int-) |  |
 | [loadFormatToExtension(int loadFormat)](#loadFormatToExtension-int-) |  |
 | [loadFormatToSaveFormat(int loadFormat)](#loadFormatToSaveFormat-int-) |  |
 | [notify()](#notify--) |  |
@@ -39,36 +39,36 @@ public class FileFormatUtil
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### content类型ToLoadFormat(String content类型) {#content类型ToLoadFormat-java.lang.String-}
+### contentTypeToLoadFormat(String contentType) {#contentTypeToLoadFormat-java.lang.String-}
 ```
-public static int content类型ToLoadFormat(String content类型)
+public static int contentTypeToLoadFormat(String contentType)
 ```
 
 
-将 IANA 内容类型转换为加载格式枚举值。
+Converts IANA content type into a load format enumerated value.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| content类型 | java.lang.String |  |
+| contentType | java.lang.String |  |
 
-**退货:**
-整数
-### content类型ToSaveFormat(String content类型) {#content类型ToSaveFormat-java.lang.String-}
+**Returns:**
+int
+### contentTypeToSaveFormat(String contentType) {#contentTypeToSaveFormat-java.lang.String-}
 ```
-public static int content类型ToSaveFormat(String content类型)
+public static int contentTypeToSaveFormat(String contentType)
 ```
 
 
-将 IANA 内容类型转换为保存格式枚举值。
+Converts IANA content type into a save format enumerated value.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| content类型 | java.lang.String |  |
+| contentType | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### detectFileFormat(InputStream stream) {#detectFileFormat-java.io.InputStream-}
 ```
 public static FileFormatInfo detectFileFormat(InputStream stream)
@@ -77,12 +77,12 @@ public static FileFormatInfo detectFileFormat(InputStream stream)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
-**退货:**
+**Returns:**
 [FileFormatInfo](../../com.aspose.words/fileformatinfo)
 ### detectFileFormat(String fileName) {#detectFileFormat-java.lang.String-}
 ```
@@ -90,19 +90,19 @@ public static FileFormatInfo detectFileFormat(String fileName)
 ```
 
 
-检测并返回有关文档格式的信息。检测并返回有关存储在磁盘文件中的文档格式的信息。
+Detects and returns the information about a format of a document.  Detects and returns the information about a format of a document stored in a disk file.
 
-即使该方法检测到文档格式，也不能保证指定的文档是有效的。该方法仅通过读取足以检测的数据来检测文档格式。要完全验证文档是否有效，您需要将文档加载到[Document](../../com.aspose.words/document)目的。
+Even if this method detects the document format, it does not guarantee that the specified document is valid. This method only detects the document format by reading data that is sufficient for detection. To fully verify that a document is valid you need to load the document into a [Document](../../com.aspose.words/document) object.
 
-这个方法抛出[FileCorruptedException](../../com.aspose.words/filecorruptedexception)当格式被识别，但由于损坏而无法完成检测。
+This method throws [FileCorruptedException](../../com.aspose.words/filecorruptedexception) when the format is recognized, but the detection cannot complete because of corruption.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 文件名。 |
+| fileName | java.lang.String | The file name. |
 
-**退货:**
-[FileFormatInfo](../../com.aspose.words/fileformatinfo) - 一个[FileFormatInfo](../../com.aspose.words/fileformatinfo)包含检测到的信息的对象。
+**Returns:**
+[FileFormatInfo](../../com.aspose.words/fileformatinfo) - A [FileFormatInfo](../../com.aspose.words/fileformatinfo) object that contains the detected information.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -111,40 +111,40 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### extensionToSaveFormat(String extension) {#extensionToSaveFormat-java.lang.String-}
 ```
 public static int extensionToSaveFormat(String extension)
 ```
 
 
-将文件扩展名转换为[SaveFormat](../../com.aspose.words/saveformat)价值。
+Converts a file name extension into a [SaveFormat](../../com.aspose.words/saveformat) value.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| extension | java.lang.String | 文件扩展名。可以带或不带前导点。不区分大小写。
+| extension | java.lang.String | The file extension. Can be with or without a leading dot. Case-insensitive.
 
-如果无法识别扩展名，则返回[SaveFormat.UNKNOWN](../../com.aspose.words/saveformat\#UNKNOWN). |
+If the extension cannot be recognized, returns [SaveFormat.UNKNOWN](../../com.aspose.words/saveformat\#UNKNOWN). |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -153,22 +153,22 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
-### image类型ToExtension(int image类型) {#image类型ToExtension-int-}
+**Returns:**
+int
+### imageTypeToExtension(int imageType) {#imageTypeToExtension-int-}
 ```
-public static String image类型ToExtension(int image类型)
+public static String imageTypeToExtension(int imageType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| image类型 | int |  |
+| imageType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### loadFormatToExtension(int loadFormat) {#loadFormatToExtension-int-}
 ```
@@ -178,12 +178,12 @@ public static String loadFormatToExtension(int loadFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### loadFormatToSaveFormat(int loadFormat) {#loadFormatToSaveFormat-int-}
 ```
@@ -193,13 +193,13 @@ public static int loadFormatToSaveFormat(int loadFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | int |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -224,12 +224,12 @@ public static String saveFormatToExtension(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### saveFormatToLoadFormat(int saveFormat) {#saveFormatToLoadFormat-int-}
 ```
@@ -239,13 +239,13 @@ public static int saveFormatToLoadFormat(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### toString() {#toString--}
 ```
 public String toString()
@@ -254,7 +254,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -272,8 +272,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -285,8 +285,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

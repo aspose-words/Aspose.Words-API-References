@@ -1,51 +1,51 @@
 ---
 title: WarningInfoCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示对象的类型化集合。
+description: Represents a typed collection of  objects.
 type: docs
 weight: 605
-url: /zh/java/com.aspose.words/warninginfocollection/
+url: /java/com.aspose.words/warninginfocollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 [com.aspose.words.IWarningCallback](../../com.aspose.words/iwarningcallback), java.lang.Iterable
 ```
 public class WarningInfoCollection implements IWarningCallback, Iterable
 ```
 
-表示一个类型化的集合[WarningInfo](../../com.aspose.words/warninginfo)对象。
+Represents a typed collection of [WarningInfo](../../com.aspose.words/warninginfo) objects.
 
-要了解更多信息，请访问**Programming with Documents**文档文章。
+To learn more, visit the **Programming with Documents** documentation article.
 
-您可以将此集合对象用作最简单的形式[IWarningCallback](../../com.aspose.words/iwarningcallback)实现来收集 Aspose.Words 在加载或保存操作期间生成的所有警告。创建此类的一个实例并将其分配给[LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback--) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback-)或者[DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback--) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback-)财产。
-## 方法s
+You can use this collection object as the simplest form of [IWarningCallback](../../com.aspose.words/iwarningcallback) implementation to gather all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it to the [LoadOptions.getWarningCallback()](../../com.aspose.words/loadoptions\#getWarningCallback--) / [LoadOptions.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/loadoptions\#setWarningCallback-com.aspose.words.IWarningCallback-) or [DocumentBase.getWarningCallback()](../../com.aspose.words/documentbase\#getWarningCallback--) / [DocumentBase.setWarningCallback(com.aspose.words.IWarningCallback)](../../com.aspose.words/documentbase\#setWarningCallback-com.aspose.words.IWarningCallback-) property.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clear()](#clear--) | 从集合中移除所有元素。 |
+| [clear()](#clear--) | Removes all elements from the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(int index)](#get-int-) | Gets an item at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo-) | 实施[IWarningCallback](../../com.aspose.words/iwarningcallback)界面。 |
+| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo-) | Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. |
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-从集合中移除所有元素。
+Removes all elements from the collection.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -55,48 +55,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public WarningInfo get(int index)
 ```
 
 
-获取指定索引处的项目。
+Gets an item at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 项目的从零开始的索引。 |
+| index | int | Zero-based index of the item. |
 
-**退货:**
-[WarningInfo](../../com.aspose.words/warninginfo) - 指定索引处的项目。
-### get班级() {#get班级--}
+**Returns:**
+[WarningInfo](../../com.aspose.words/warninginfo) - An item at the specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -105,17 +105,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
+Returns an iterator object that can be used to iterate over all items in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -141,7 +141,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -159,8 +159,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -172,8 +172,8 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
@@ -184,9 +184,10 @@ public void warning(WarningInfo info)
 ```
 
 
-实施[IWarningCallback](../../com.aspose.words/iwarningcallback)界面。向此集合添加警告。
+Implements the [IWarningCallback](../../com.aspose.words/iwarningcallback) interface. Adds a warning to this collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | info | [WarningInfo](../../com.aspose.words/warninginfo) |  |
+

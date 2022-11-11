@@ -1,42 +1,42 @@
 ---
 title: FootnoteOptions
-second_title: Aspose.Words for Java API 参考
-description: 表示文档或部分的脚注编号选项。
+second_title: Aspose.Words for Java API Reference
+description: Represents the footnote numbering options for a document or section.
 type: docs
 weight: 293
-url: /zh/java/com.aspose.words/footnoteoptions/
+url: /java/com.aspose.words/footnoteoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FootnoteOptions
 ```
 
-表示文档或部分的脚注编号选项。
+Represents the footnote numbering options for a document or section.
 
-要了解更多信息，请访问**Working with Footnote and Endnote**文档文章。
-## 方法s
+To learn more, visit the **Working with Footnote and Endnote** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getColumns()](#getColumns--) | 指定用于格式化脚注区域的列数。 |
+| [getClass()](#getClass--) |  |
+| [getColumns()](#getColumns--) | Specifies the number of columns with which the footnotes area is formatted. |
 | [getLocation()](#getLocation--) |  |
-| [getNumberStyle()](#getNumberStyle--) | 指定自动编号脚注的数字格式。 |
-| [getPosition()](#getPosition--) | 指定脚注位置。 |
-| [getRestartRule()](#getRestartRule--) | 确定自动编号何时重新开始。 |
-| [getStartNumber()](#getStartNumber--) | 指定第一个自动编号脚注的起始编号或字符。 |
+| [getNumberStyle()](#getNumberStyle--) | Specifies the number format for automatically numbered footnotes. |
+| [getPosition()](#getPosition--) | Specifies the footnotes position. |
+| [getRestartRule()](#getRestartRule--) | Determines when automatic numbering restarts. |
+| [getStartNumber()](#getStartNumber--) | Specifies the starting number or character for the first automatically numbered footnotes. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumns(int value)](#setColumns-int-) | 指定用于格式化脚注区域的列数。 |
+| [setColumns(int value)](#setColumns-int-) | Specifies the number of columns with which the footnotes area is formatted. |
 | [setLocation(int value)](#setLocation-int-) |  |
-| [setNumberStyle(int value)](#setNumberStyle-int-) | 指定自动编号脚注的数字格式。 |
-| [setPosition(int value)](#setPosition-int-) | 指定脚注位置。 |
-| [setRestartRule(int value)](#setRestartRule-int-) | 确定自动编号何时重新开始。 |
-| [setStartNumber(int value)](#setStartNumber-int-) | 指定第一个自动编号脚注的起始编号或字符。 |
+| [setNumberStyle(int value)](#setNumberStyle-int-) | Specifies the number format for automatically numbered footnotes. |
+| [setPosition(int value)](#setPosition-int-) | Specifies the footnotes position. |
+| [setRestartRule(int value)](#setRestartRule-int-) | Determines when automatic numbering restarts. |
+| [setStartNumber(int value)](#setStartNumber-int-) | Specifies the starting number or character for the first automatically numbered footnotes. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,33 +49,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumns() {#getColumns--}
 ```
 public int getColumns()
 ```
 
 
-指定用于格式化脚注区域的列数。如果此属性的值为 0，则脚注区域将根据显示页面上的列数格式化为列数。默认值为 0。
+Specifies the number of columns with which the footnotes area is formatted. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The default value is 0.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getLocation() {#getLocation--}
 ```
 public int getLocation()
@@ -84,52 +84,52 @@ public int getLocation()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getNumberStyle() {#getNumberStyle--}
 ```
 public int getNumberStyle()
 ```
 
 
-指定自动编号脚注的数字格式。
+Specifies the number format for automatically numbered footnotes.
 
-并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参见 Microsoft Word 中的插入脚注或尾注对话框。如果您选择不适用的数字样式，Microsoft Word 将恢复为默认值。
+Not all number styles are applicable for this property. For the list of applicable number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [NumberStyle](../../com.aspose.words/numberstyle) constants.
 ### getPosition() {#getPosition--}
 ```
 public int getPosition()
 ```
 
 
-指定脚注位置。
+Specifies the footnotes position.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[FootnotePosition](../../com.aspose.words/footnoteposition)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [FootnotePosition](../../com.aspose.words/footnoteposition) constants.
 ### getRestartRule() {#getRestartRule--}
 ```
 public int getRestartRule()
 ```
 
 
-确定自动编号何时重新开始。
+Determines when automatic numbering restarts.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants.
 ### getStartNumber() {#getStartNumber--}
 ```
 public int getStartNumber()
 ```
 
 
-指定第一个自动编号脚注的起始编号或字符。
+Specifies the starting number or character for the first automatically numbered footnotes.
 
-此属性仅在以下情况下有效[getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-)被设定为[FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -138,8 +138,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -162,12 +162,12 @@ public void setColumns(int value)
 ```
 
 
-指定用于格式化脚注区域的列数。如果此属性的值为 0，则脚注区域将根据显示页面上的列数格式化为列数。默认值为 0。
+Specifies the number of columns with which the footnotes area is formatted. If this property has the value of 0, the footnotes area is formatted with a number of columns based on the number of columns on the displayed page. The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setLocation(int value) {#setLocation-int-}
 ```
@@ -177,8 +177,8 @@ public void setLocation(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -188,14 +188,14 @@ public void setNumberStyle(int value)
 ```
 
 
-指定自动编号脚注的数字格式。
+Specifies the number format for automatically numbered footnotes.
 
-并非所有数字样式都适用于此属性。有关适用编号样式的列表，请参见 Microsoft Word 中的插入脚注或尾注对话框。如果您选择不适用的数字样式，Microsoft Word 将恢复为默认值。
+Not all number styles are applicable for this property. For the list of applicable number styles see the Insert Footnote or Endnote dialog box in Microsoft Word. If you select a number style that is not applicable, Microsoft Word will revert to a default value.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[NumberStyle](../../com.aspose.words/numberstyle)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [NumberStyle](../../com.aspose.words/numberstyle) constants. |
 
 ### setPosition(int value) {#setPosition-int-}
 ```
@@ -203,12 +203,12 @@ public void setPosition(int value)
 ```
 
 
-指定脚注位置。
+Specifies the footnotes position.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[FootnotePosition](../../com.aspose.words/footnoteposition)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [FootnotePosition](../../com.aspose.words/footnoteposition) constants. |
 
 ### setRestartRule(int value) {#setRestartRule-int-}
 ```
@@ -216,12 +216,12 @@ public void setRestartRule(int value)
 ```
 
 
-确定自动编号何时重新开始。
+Determines when automatic numbering restarts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [FootnoteNumberingRule](../../com.aspose.words/footnotenumberingrule) constants. |
 
 ### setStartNumber(int value) {#setStartNumber-int-}
 ```
@@ -229,14 +229,14 @@ public void setStartNumber(int value)
 ```
 
 
-指定第一个自动编号脚注的起始编号或字符。
+Specifies the starting number or character for the first automatically numbered footnotes.
 
-此属性仅在以下情况下有效[getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-)被设定为[FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+This property has effect only when [getRestartRule()](../../com.aspose.words/footnoteoptions\#getRestartRule--) / [setRestartRule(int)](../../com.aspose.words/footnoteoptions\#setRestartRule-int-) is set to [FootnoteNumberingRule.CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### toString() {#toString--}
 ```
@@ -246,7 +246,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,8 +277,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

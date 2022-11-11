@@ -1,37 +1,37 @@
 ---
 title: TextPathAlignment
 second_title: Aspose.Words for Java API Reference
-description: 艺术字对齐。
+description: WordArt alignment.
 type: docs
 weight: 568
-url: /zh/java/com.aspose.words/textpathalignment/
+url: /java/com.aspose.words/textpathalignment/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextPathAlignment
 ```
 
-艺术字对齐。
-## 字段
+WordArt alignment.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | 在宽度上居中文本。 |
-| [LEFT](#LEFT) | 左对齐。 |
-| [LETTER_JUSTIFY](#LETTER-JUSTIFY) | 将字母展开以适合宽度。 |
-| [RIGHT](#RIGHT) | 正当理由。 |
-| [STRETCH](#STRETCH) | 拉伸每一行文本以适应宽度。 |
-| [WORD_JUSTIFY](#WORD-JUSTIFY) | 展开文字以适应宽度。 |
+| [CENTER](#CENTER) | Center text on width. |
+| [LEFT](#LEFT) | Left justify. |
+| [LETTER_JUSTIFY](#LETTER-JUSTIFY) | Spread letters out to fit width. |
+| [RIGHT](#RIGHT) | Right justify. |
+| [STRETCH](#STRETCH) | Stretch each line of text to fit width. |
+| [WORD_JUSTIFY](#WORD-JUSTIFY) | Spread words out to fit width. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textPathAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textPathAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int CENTER
 ```
 
 
-在宽度上居中文本。
+Center text on width.
 
 ### LEFT {#LEFT}
 ```
@@ -56,7 +56,7 @@ public static int LEFT
 ```
 
 
-左对齐。
+Left justify.
 
 ### LETTER_JUSTIFY {#LETTER-JUSTIFY}
 ```
@@ -64,7 +64,7 @@ public static int LETTER_JUSTIFY
 ```
 
 
-将字母展开以适合宽度。
+Spread letters out to fit width.
 
 ### RIGHT {#RIGHT}
 ```
@@ -72,7 +72,7 @@ public static int RIGHT
 ```
 
 
-正当理由。
+Right justify.
 
 ### STRETCH {#STRETCH}
 ```
@@ -80,7 +80,7 @@ public static int STRETCH
 ```
 
 
-拉伸每一行文本以适应宽度。
+Stretch each line of text to fit width.
 
 ### WORD_JUSTIFY {#WORD-JUSTIFY}
 ```
@@ -88,7 +88,7 @@ public static int WORD_JUSTIFY
 ```
 
 
-展开文字以适应宽度。
+Spread words out to fit width.
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String textPathAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textPathAlignmentName)
@@ -119,23 +119,23 @@ public static int fromName(String textPathAlignmentName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textPathAlignmentName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int textPathAlignment) {#getName-int-}
 ```
 public static String getName(int textPathAlignment)
@@ -144,12 +144,12 @@ public static String getName(int textPathAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textPathAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int textPathAlignment) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int textPathAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textPathAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,50 +1,50 @@
 ---
-title: ConditionalStyle类型
-second_title: Aspose.Words for Java API 参考
-description: 表示可以在表格样式中定义条件格式的可能表格区域。
+title: ConditionalStyleType
+second_title: Aspose.Words for Java API Reference
+description: Represents possible table areas to which conditional formatting may be defined in a table style.
 type: docs
 weight: 91
-url: /zh/java/com.aspose.words/conditionalstyletype/
+url: /java/com.aspose.words/conditionalstyletype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class ConditionalStyle类型
+public class ConditionalStyleType
 ```
 
-表示可以在表格样式中定义条件格式的可能表格区域。
-## 字段
+Represents possible table areas to which conditional formatting may be defined in a table style.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | 指定表格左下角单元格的格式。 |
-| [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | 指定表格右下角单元格的格式。 |
-| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | 指定偶数列条纹的格式。 |
-| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | 指定偶数行条纹的格式。 |
-| [FIRST_COLUMN](#FIRST-COLUMN) | 指定表格第一列的格式。 |
-| [FIRST_ROW](#FIRST-ROW) | 指定表格第一行的格式。 |
-| [LAST_COLUMN](#LAST-COLUMN) | 指定表格最后一列的格式。 |
-| [LAST_ROW](#LAST-ROW) | 指定表格最后一行的格式。 |
-| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | 指定奇数列条纹的格式。 |
-| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | 指定奇数行条纹的格式。 |
-| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | 指定表格左上角单元格的格式。 |
-| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | 指定表格右上角单元格的格式。 |
+| [BOTTOM_LEFT_CELL](#BOTTOM-LEFT-CELL) | Specifies formatting of the bottom left cell of a table. |
+| [BOTTOM_RIGHT_CELL](#BOTTOM-RIGHT-CELL) | Specifies formatting of the bottom right cell of a table. |
+| [EVEN_COLUMN_BANDING](#EVEN-COLUMN-BANDING) | Specifies formatting of even-numbered column stripe. |
+| [EVEN_ROW_BANDING](#EVEN-ROW-BANDING) | Specifies formatting of even-numbered row stripe. |
+| [FIRST_COLUMN](#FIRST-COLUMN) | Specifies formatting of the first column of a table. |
+| [FIRST_ROW](#FIRST-ROW) | Specifies formatting of the first row of a table. |
+| [LAST_COLUMN](#LAST-COLUMN) | Specifies formatting of the last column of a table. |
+| [LAST_ROW](#LAST-ROW) | Specifies formatting of the last row of a table. |
+| [ODD_COLUMN_BANDING](#ODD-COLUMN-BANDING) | Specifies formatting of odd-numbered column stripe. |
+| [ODD_ROW_BANDING](#ODD-ROW-BANDING) | Specifies formatting of odd-numbered row stripe. |
+| [TOP_LEFT_CELL](#TOP-LEFT-CELL) | Specifies formatting of the top left cell of a table. |
+| [TOP_RIGHT_CELL](#TOP-RIGHT-CELL) | Specifies formatting of the top right cell of a table. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String conditionalStyle类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int conditionalStyle类型)](#getName-int-) |  |
+| [fromName(String conditionalStyleTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int conditionalStyleType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int conditionalStyle类型)](#toString-int-) |  |
+| [toString(int conditionalStyleType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -54,7 +54,7 @@ public static int BOTTOM_LEFT_CELL
 ```
 
 
-指定表格左下角单元格的格式。
+Specifies formatting of the bottom left cell of a table.
 
 ### BOTTOM_RIGHT_CELL {#BOTTOM-RIGHT-CELL}
 ```
@@ -62,7 +62,7 @@ public static int BOTTOM_RIGHT_CELL
 ```
 
 
-指定表格右下角单元格的格式。
+Specifies formatting of the bottom right cell of a table.
 
 ### EVEN_COLUMN_BANDING {#EVEN-COLUMN-BANDING}
 ```
@@ -70,7 +70,7 @@ public static int EVEN_COLUMN_BANDING
 ```
 
 
-指定偶数列条纹的格式。
+Specifies formatting of even-numbered column stripe.
 
 ### EVEN_ROW_BANDING {#EVEN-ROW-BANDING}
 ```
@@ -78,7 +78,7 @@ public static int EVEN_ROW_BANDING
 ```
 
 
-指定偶数行条纹的格式。
+Specifies formatting of even-numbered row stripe.
 
 ### FIRST_COLUMN {#FIRST-COLUMN}
 ```
@@ -86,7 +86,7 @@ public static int FIRST_COLUMN
 ```
 
 
-指定表格第一列的格式。
+Specifies formatting of the first column of a table.
 
 ### FIRST_ROW {#FIRST-ROW}
 ```
@@ -94,7 +94,7 @@ public static int FIRST_ROW
 ```
 
 
-指定表格第一行的格式。
+Specifies formatting of the first row of a table.
 
 ### LAST_COLUMN {#LAST-COLUMN}
 ```
@@ -102,7 +102,7 @@ public static int LAST_COLUMN
 ```
 
 
-指定表格最后一列的格式。
+Specifies formatting of the last column of a table.
 
 ### LAST_ROW {#LAST-ROW}
 ```
@@ -110,7 +110,7 @@ public static int LAST_ROW
 ```
 
 
-指定表格最后一行的格式。
+Specifies formatting of the last row of a table.
 
 ### ODD_COLUMN_BANDING {#ODD-COLUMN-BANDING}
 ```
@@ -118,7 +118,7 @@ public static int ODD_COLUMN_BANDING
 ```
 
 
-指定奇数列条纹的格式。
+Specifies formatting of odd-numbered column stripe.
 
 ### ODD_ROW_BANDING {#ODD-ROW-BANDING}
 ```
@@ -126,7 +126,7 @@ public static int ODD_ROW_BANDING
 ```
 
 
-指定奇数行条纹的格式。
+Specifies formatting of odd-numbered row stripe.
 
 ### TOP_LEFT_CELL {#TOP-LEFT-CELL}
 ```
@@ -134,7 +134,7 @@ public static int TOP_LEFT_CELL
 ```
 
 
-指定表格左上角单元格的格式。
+Specifies formatting of the top left cell of a table.
 
 ### TOP_RIGHT_CELL {#TOP-RIGHT-CELL}
 ```
@@ -142,7 +142,7 @@ public static int TOP_RIGHT_CELL
 ```
 
 
-指定表格右上角单元格的格式。
+Specifies formatting of the top right cell of a table.
 
 ### length {#length}
 ```
@@ -158,52 +158,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String conditionalStyle类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String conditionalStyleTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String conditionalStyle类型Name)
+public static int fromName(String conditionalStyleTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| conditionalStyle类型Name | java.lang.String |  |
+| conditionalStyleTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int conditionalStyle类型) {#getName-int-}
-```
-public static String getName(int conditionalStyle类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int conditionalStyleType) {#getName-int-}
+```
+public static String getName(int conditionalStyleType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -213,8 +213,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -223,8 +223,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -249,22 +249,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int conditionalStyle类型) {#toString-int-}
+### toString(int conditionalStyleType) {#toString-int-}
 ```
-public static String toString(int conditionalStyle类型)
+public static String toString(int conditionalStyleType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -282,8 +282,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -295,8 +295,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

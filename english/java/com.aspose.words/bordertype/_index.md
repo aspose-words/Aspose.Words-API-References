@@ -1,49 +1,49 @@
 ---
-title: Border类型
-second_title: Aspose.Words for Java API 参考
-description: 指定边框的边。
+title: BorderType
+second_title: Aspose.Words for Java API Reference
+description: Specifies sides of a border.
 type: docs
 weight: 38
-url: /zh/java/com.aspose.words/bordertype/
+url: /java/com.aspose.words/bordertype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Border类型
+public class BorderType
 ```
 
-指定边框的边。
+Specifies sides of a border.
 
-要了解更多信息，请访问**Programming with Documents**文档文章。
-## 字段
+To learn more, visit the **Programming with Documents** documentation article.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 指定段落或表格单元格的底部边框。 |
-| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | 指定表格单元格中的对角线边框。 |
-| [DIAGONAL_UP](#DIAGONAL-UP) | 指定表格单元格中的对角线边框。 |
-| [HORIZONTAL](#HORIZONTAL) | 指定表格中单元格之间或符合段落之间的水平边界。 |
-| [LEFT](#LEFT) | 指定段落或表格单元格的左边框。 |
-| [NONE](#NONE) | 默认值。 |
-| [RIGHT](#RIGHT) | 指定段落或表格单元格的右边框。 |
-| [TOP](#TOP) | 指定段落或表格单元格的上边框。 |
-| [VERTICAL](#VERTICAL) | 指定表格中单元格之间的垂直边框。 |
+| [BOTTOM](#BOTTOM) | Specifies the bottom border of a paragraph or a table cell. |
+| [DIAGONAL_DOWN](#DIAGONAL-DOWN) | Specifies the diagonal border in a table cell. |
+| [DIAGONAL_UP](#DIAGONAL-UP) | Specifies the diagonal border in a table cell. |
+| [HORIZONTAL](#HORIZONTAL) | Specifies the horizontal border between cells in a table or between conforming paragraphs. |
+| [LEFT](#LEFT) | Specifies the left border of a paragraph or a table cell. |
+| [NONE](#NONE) | Default value. |
+| [RIGHT](#RIGHT) | Specifies the right border of a paragraph or a table cell. |
+| [TOP](#TOP) | Specifies the top border of a paragraph or a table cell. |
+| [VERTICAL](#VERTICAL) | Specifies the vertical border between cells in a table. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String border类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int border类型)](#getName-int-) |  |
+| [fromName(String borderTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int borderType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int border类型)](#toString-int-) |  |
+| [toString(int borderType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -53,7 +53,7 @@ public static int BOTTOM
 ```
 
 
-指定段落或表格单元格的底部边框。
+Specifies the bottom border of a paragraph or a table cell.
 
 ### DIAGONAL_DOWN {#DIAGONAL-DOWN}
 ```
@@ -61,7 +61,7 @@ public static int DIAGONAL_DOWN
 ```
 
 
-指定表格单元格中的对角线边框。
+Specifies the diagonal border in a table cell.
 
 ### DIAGONAL_UP {#DIAGONAL-UP}
 ```
@@ -69,7 +69,7 @@ public static int DIAGONAL_UP
 ```
 
 
-指定表格单元格中的对角线边框。
+Specifies the diagonal border in a table cell.
 
 ### HORIZONTAL {#HORIZONTAL}
 ```
@@ -77,7 +77,7 @@ public static int HORIZONTAL
 ```
 
 
-指定表格中单元格之间或符合段落之间的水平边界。
+Specifies the horizontal border between cells in a table or between conforming paragraphs.
 
 ### LEFT {#LEFT}
 ```
@@ -85,7 +85,7 @@ public static int LEFT
 ```
 
 
-指定段落或表格单元格的左边框。
+Specifies the left border of a paragraph or a table cell.
 
 ### NONE {#NONE}
 ```
@@ -93,7 +93,7 @@ public static int NONE
 ```
 
 
-默认值。
+Default value.
 
 ### RIGHT {#RIGHT}
 ```
@@ -101,7 +101,7 @@ public static int RIGHT
 ```
 
 
-指定段落或表格单元格的右边框。
+Specifies the right border of a paragraph or a table cell.
 
 ### TOP {#TOP}
 ```
@@ -109,7 +109,7 @@ public static int TOP
 ```
 
 
-指定段落或表格单元格的上边框。
+Specifies the top border of a paragraph or a table cell.
 
 ### VERTICAL {#VERTICAL}
 ```
@@ -117,7 +117,7 @@ public static int VERTICAL
 ```
 
 
-指定表格中单元格之间的垂直边框。
+Specifies the vertical border between cells in a table.
 
 ### length {#length}
 ```
@@ -133,52 +133,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String border类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String borderTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String border类型Name)
+public static int fromName(String borderTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| border类型Name | java.lang.String |  |
+| borderTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int border类型) {#getName-int-}
-```
-public static String getName(int border类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int borderType) {#getName-int-}
+```
+public static String getName(int borderType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -188,8 +188,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -198,8 +198,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -224,22 +224,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int border类型) {#toString-int-}
+### toString(int borderType) {#toString-int-}
 ```
-public static String toString(int border类型)
+public static String toString(int borderType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -257,8 +257,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -270,8 +270,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

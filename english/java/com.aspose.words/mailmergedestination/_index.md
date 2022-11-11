@@ -1,36 +1,36 @@
 ---
 title: MailMergeDestination
-second_title: Aspose.Words for Java API 参考
-description: 指定对文档执行邮件合并时可能生成的结果。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the possible results which may be generated when a mail merge is carried out on a document.
 type: docs
 weight: 383
-url: /zh/java/com.aspose.words/mailmergedestination/
+url: /java/com.aspose.words/mailmergedestination/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MailMergeDestination
 ```
 
-指定对文档执行邮件合并时可能生成的结果。
-## 字段
+Specifies the possible results which may be generated when a mail merge is carried out on a document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 等于[NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT)价值。 |
-| [EMAIL](#EMAIL) | 指定符合要求的托管应用程序应使用通过使用来自指定外部数据源的数据填充给定文档中的字段而产生的文档生成电子邮件。 |
-| [FAX](#FAX) | 指定符合要求的托管应用程序应使用通过使用来自指定外部数据源的数据填充给定文档中的字段而产生的文档来生成传真。 |
-| [NEW_DOCUMENT](#NEW-DOCUMENT) | 指定符合要求的宿主应用程序应通过使用来自指定外部数据源的数据填充给定文档中的字段来生成新文档。 |
-| [PRINTER](#PRINTER) | 指定符合要求的托管应用程序应打印通过使用来自指定外部数据源的外部数据填充给定文档中的字段而产生的文档。 |
+| [DEFAULT](#DEFAULT) | Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value. |
+| [EMAIL](#EMAIL) | Specifies that conforming hosting applications shall generate emails using the documents that result from populating the fields within a given document with data from the specified external data source. |
+| [FAX](#FAX) | Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source. |
+| [NEW_DOCUMENT](#NEW-DOCUMENT) | Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source. |
+| [PRINTER](#PRINTER) | Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String mailMergeDestinationName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int mailMergeDestination)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-等于[NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT)价值。
+Equals to the [NEW\_DOCUMENT](../../com.aspose.words/mailmergedestination\#NEW-DOCUMENT) value.
 
 ### EMAIL {#EMAIL}
 ```
@@ -55,7 +55,7 @@ public static int EMAIL
 ```
 
 
-指定符合要求的托管应用程序应使用通过使用来自指定外部数据源的数据填充给定文档中的字段而产生的文档生成电子邮件。
+Specifies that conforming hosting applications shall generate emails using the documents that result from populating the fields within a given document with data from the specified external data source.
 
 ### FAX {#FAX}
 ```
@@ -63,7 +63,7 @@ public static int FAX
 ```
 
 
-指定符合要求的托管应用程序应使用通过使用来自指定外部数据源的数据填充给定文档中的字段而产生的文档来生成传真。
+Specifies that conforming hosting applications shall generate faxes using the documents that result from populating the fields within a given document with data from the specified external data source.
 
 ### NEW_DOCUMENT {#NEW-DOCUMENT}
 ```
@@ -71,7 +71,7 @@ public static int NEW_DOCUMENT
 ```
 
 
-指定符合要求的宿主应用程序应通过使用来自指定外部数据源的数据填充给定文档中的字段来生成新文档。
+Specifies that conforming hosting applications shall generate new documents by populating the fields within a given document with data from the specified external data source.
 
 ### PRINTER {#PRINTER}
 ```
@@ -79,7 +79,7 @@ public static int PRINTER
 ```
 
 
-指定符合要求的托管应用程序应打印通过使用来自指定外部数据源的外部数据填充给定文档中的字段而产生的文档。
+Specifies that conforming hosting applications shall print the documents that result from populating the fields within a given document with external data from the specified external data source.
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String mailMergeDestinationName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String mailMergeDestinationName)
@@ -110,23 +110,23 @@ public static int fromName(String mailMergeDestinationName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | mailMergeDestinationName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int mailMergeDestination) {#getName-int-}
 ```
 public static String getName(int mailMergeDestination)
@@ -135,12 +135,12 @@ public static String getName(int mailMergeDestination)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | mailMergeDestination | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int mailMergeDestination) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int mailMergeDestination)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | mailMergeDestination | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

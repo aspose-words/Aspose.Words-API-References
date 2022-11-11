@@ -1,41 +1,41 @@
 ---
 title: TableStyleOptions
 second_title: Aspose.Words for Java API Reference
-description: 指定如何将表格样式应用于表格。
+description: Specifies how table style is applied to a table.
 type: docs
 weight: 553
-url: /zh/java/com.aspose.words/tablestyleoptions/
+url: /java/com.aspose.words/tablestyleoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TableStyleOptions
 ```
 
-指定如何将表格样式应用于表格。
-## 字段
+Specifies how table style is applied to a table.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [COLUMN_BANDS](#COLUMN-BANDS) | 应用列带条件格式。 |
-| [DEFAULT](#DEFAULT) | 这是 Microsoft Word 默认设置。 |
-| [DEFAULT_2003](#DEFAULT-2003) | 应用行和列带区。 |
-| [FIRST_COLUMN](#FIRST-COLUMN) | 应用 1 个第一列条件格式。 |
-| [FIRST_ROW](#FIRST-ROW) | 应用第一行条件格式。 |
-| [LAST_COLUMN](#LAST-COLUMN) | 应用最后一列条件格式。 |
-| [LAST_ROW](#LAST-ROW) | 应用最后一行条件格式。 |
-| [NONE](#NONE) | 不应用表格样式格式。 |
-| [ROW_BANDS](#ROW-BANDS) | 应用行带条件格式。 |
+| [COLUMN_BANDS](#COLUMN-BANDS) | Apply column banding conditional formatting. |
+| [DEFAULT](#DEFAULT) | This is Microsoft Word defaults. |
+| [DEFAULT_2003](#DEFAULT-2003) | Row and column banding is applied. |
+| [FIRST_COLUMN](#FIRST-COLUMN) | Apply 1 first column conditional formatting. |
+| [FIRST_ROW](#FIRST-ROW) | Apply first row conditional formatting. |
+| [LAST_COLUMN](#LAST-COLUMN) | Apply last column conditional formatting. |
+| [LAST_ROW](#LAST-ROW) | Apply last row conditional formatting. |
+| [NONE](#NONE) | No table style formatting is applied. |
+| [ROW_BANDS](#ROW-BANDS) | Apply row banding conditional formatting. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tableStyleOptionsName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set tableStyleOptionsNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tableStyleOptions)](#getName-int-) |  |
 | [getNames(int tableStyleOptions)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -54,7 +54,7 @@ public static int COLUMN_BANDS
 ```
 
 
-应用列带条件格式。
+Apply column banding conditional formatting.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -62,7 +62,7 @@ public static int DEFAULT
 ```
 
 
-这是 Microsoft Word 默认设置。
+This is Microsoft Word defaults.
 
 ### DEFAULT_2003 {#DEFAULT-2003}
 ```
@@ -70,7 +70,7 @@ public static int DEFAULT_2003
 ```
 
 
-应用行和列带区。这是旧格式（如 DOC、WML 和 RTF）的 Microsoft Word 默认设置。
+Row and column banding is applied. This is Microsoft Word default for old formats such as DOC, WML and RTF.
 
 ### FIRST_COLUMN {#FIRST-COLUMN}
 ```
@@ -78,7 +78,7 @@ public static int FIRST_COLUMN
 ```
 
 
-应用 1 个第一列条件格式。
+Apply 1 first column conditional formatting.
 
 ### FIRST_ROW {#FIRST-ROW}
 ```
@@ -86,7 +86,7 @@ public static int FIRST_ROW
 ```
 
 
-应用第一行条件格式。
+Apply first row conditional formatting.
 
 ### LAST_COLUMN {#LAST-COLUMN}
 ```
@@ -94,7 +94,7 @@ public static int LAST_COLUMN
 ```
 
 
-应用最后一列条件格式。
+Apply last column conditional formatting.
 
 ### LAST_ROW {#LAST-ROW}
 ```
@@ -102,7 +102,7 @@ public static int LAST_ROW
 ```
 
 
-应用最后一行条件格式。
+Apply last row conditional formatting.
 
 ### NONE {#NONE}
 ```
@@ -110,7 +110,7 @@ public static int NONE
 ```
 
 
-不应用表格样式格式。
+No table style formatting is applied.
 
 ### ROW_BANDS {#ROW-BANDS}
 ```
@@ -118,7 +118,7 @@ public static int ROW_BANDS
 ```
 
 
-应用行带条件格式。
+Apply row banding conditional formatting.
 
 ### length {#length}
 ```
@@ -134,13 +134,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String tableStyleOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tableStyleOptionsName)
@@ -149,13 +149,13 @@ public static int fromName(String tableStyleOptionsName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tableStyleOptionsName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### fromNames(Set tableStyleOptionsNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set tableStyleOptionsNames)
@@ -164,23 +164,23 @@ public static int fromNames(Set tableStyleOptionsNames)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tableStyleOptionsNames | java.util.Set |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int tableStyleOptions) {#getName-int-}
 ```
 public static String getName(int tableStyleOptions)
@@ -189,12 +189,12 @@ public static String getName(int tableStyleOptions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getNames(int tableStyleOptions) {#getNames-int-}
 ```
@@ -204,12 +204,12 @@ public static Set getNames(int tableStyleOptions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**退货:**
+**Returns:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -219,8 +219,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -229,8 +229,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -255,7 +255,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int tableStyleOptions) {#toString-int-}
 ```
@@ -265,12 +265,12 @@ public static String toString(int tableStyleOptions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tableStyleOptions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -280,12 +280,12 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -303,8 +303,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -316,8 +316,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

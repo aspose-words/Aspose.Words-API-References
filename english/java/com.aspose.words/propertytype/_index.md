@@ -1,47 +1,47 @@
 ---
-title: Property类型
-second_title: Aspose.Words for Java API 参考
-description: 指定文档属性的数据类型。
+title: PropertyType
+second_title: Aspose.Words for Java API Reference
+description: Specifies data type of a document property.
 type: docs
 weight: 469
-url: /zh/java/com.aspose.words/propertytype/
+url: /java/com.aspose.words/propertytype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Property类型
+public class PropertyType
 ```
 
-指定文档属性的数据类型。
-## 字段
+Specifies data type of a document property.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOOLEAN](#BOOLEAN) | 该属性是一个布尔值。 |
-| [BYTE_ARRAY](#BYTE-ARRAY) | 该属性是一个字节数组。 |
-| [DATE_TIME](#DATE-TIME) | 该属性是日期时间值。 |
-| [DOUBLE](#DOUBLE) | 该属性是一个浮点数。 |
-| [NUMBER](#NUMBER) | 该属性是一个整数。 |
-| [OBJECT_ARRAY](#OBJECT-ARRAY) | 该属性是一个对象数组。 |
-| [OTHER](#OTHER) | 该属性是其他类型。 |
-| [STRING](#STRING) | 该属性是一个字符串值。 |
-| [STRING_ARRAY](#STRING-ARRAY) | 该属性是一个字符串数组。 |
+| [BOOLEAN](#BOOLEAN) | The property is a boolean value. |
+| [BYTE_ARRAY](#BYTE-ARRAY) | The property is an array of bytes. |
+| [DATE_TIME](#DATE-TIME) | The property is a date time value. |
+| [DOUBLE](#DOUBLE) | The property is a floating number. |
+| [NUMBER](#NUMBER) | The property is an integer number. |
+| [OBJECT_ARRAY](#OBJECT-ARRAY) | The property is an array of objects. |
+| [OTHER](#OTHER) | The property is some other type. |
+| [STRING](#STRING) | The property is a string value. |
+| [STRING_ARRAY](#STRING-ARRAY) | The property is an array of strings. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String property类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int property类型)](#getName-int-) |  |
+| [fromName(String propertyTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int propertyType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int property类型)](#toString-int-) |  |
+| [toString(int propertyType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -51,7 +51,7 @@ public static int BOOLEAN
 ```
 
 
-该属性是一个布尔值。
+The property is a boolean value.
 
 ### BYTE_ARRAY {#BYTE-ARRAY}
 ```
@@ -59,7 +59,7 @@ public static int BYTE_ARRAY
 ```
 
 
-该属性是一个字节数组。
+The property is an array of bytes.
 
 ### DATE_TIME {#DATE-TIME}
 ```
@@ -67,7 +67,7 @@ public static int DATE_TIME
 ```
 
 
-该属性是日期时间值。
+The property is a date time value.
 
 ### DOUBLE {#DOUBLE}
 ```
@@ -75,7 +75,7 @@ public static int DOUBLE
 ```
 
 
-该属性是一个浮点数。
+The property is a floating number.
 
 ### NUMBER {#NUMBER}
 ```
@@ -83,7 +83,7 @@ public static int NUMBER
 ```
 
 
-该属性是一个整数。
+The property is an integer number.
 
 ### OBJECT_ARRAY {#OBJECT-ARRAY}
 ```
@@ -91,7 +91,7 @@ public static int OBJECT_ARRAY
 ```
 
 
-该属性是一个对象数组。
+The property is an array of objects.
 
 ### OTHER {#OTHER}
 ```
@@ -99,7 +99,7 @@ public static int OTHER
 ```
 
 
-该属性是其他类型。
+The property is some other type.
 
 ### STRING {#STRING}
 ```
@@ -107,7 +107,7 @@ public static int STRING
 ```
 
 
-该属性是一个字符串值。
+The property is a string value.
 
 ### STRING_ARRAY {#STRING-ARRAY}
 ```
@@ -115,7 +115,7 @@ public static int STRING_ARRAY
 ```
 
 
-该属性是一个字符串数组。
+The property is an array of strings.
 
 ### length {#length}
 ```
@@ -131,52 +131,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String property类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String propertyTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String property类型Name)
+public static int fromName(String propertyTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| property类型Name | java.lang.String |  |
+| propertyTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int property类型) {#getName-int-}
-```
-public static String getName(int property类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int propertyType) {#getName-int-}
+```
+public static String getName(int propertyType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| property类型 | int |  |
+| propertyType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -186,8 +186,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -196,8 +196,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -222,22 +222,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int property类型) {#toString-int-}
+### toString(int propertyType) {#toString-int-}
 ```
-public static String toString(int property类型)
+public static String toString(int propertyType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| property类型 | int |  |
+| propertyType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -255,8 +255,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -268,8 +268,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

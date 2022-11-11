@@ -1,20 +1,20 @@
 ---
-title: Forms2OleControl类型
-second_title: Aspose.Words for Java API 参考
+title: Forms2OleControlType
+second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 300
-url: /zh/java/com.aspose.words/forms2olecontroltype/
+url: /java/com.aspose.words/forms2olecontroltype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Forms2OleControl类型
+public class Forms2OleControlType
 ```
-## 字段
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [CHECK_BOX](#CHECK-BOX) |  |
 | [COMBO_BOX](#COMBO-BOX) |  |
@@ -32,20 +32,20 @@ public class Forms2OleControl类型
 | [TEXTBOX](#TEXTBOX) |  |
 | [TOGGLE_BUTTON](#TOGGLE-BUTTON) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String forms2OleControl类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int forms2OleControl类型)](#getName-int-) |  |
+| [fromName(String forms2OleControlTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int forms2OleControlType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int forms2OleControl类型)](#toString-int-) |  |
+| [toString(int forms2OleControlType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -153,52 +153,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String forms2OleControl类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String forms2OleControlTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String forms2OleControl类型Name)
+public static int fromName(String forms2OleControlTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| forms2OleControl类型Name | java.lang.String |  |
+| forms2OleControlTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int forms2OleControl类型) {#getName-int-}
-```
-public static String getName(int forms2OleControl类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int forms2OleControlType) {#getName-int-}
+```
+public static String getName(int forms2OleControlType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| forms2OleControl类型 | int |  |
+| forms2OleControlType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -208,8 +208,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -218,8 +218,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -244,22 +244,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int forms2OleControl类型) {#toString-int-}
+### toString(int forms2OleControlType) {#toString-int-}
 ```
-public static String toString(int forms2OleControl类型)
+public static String toString(int forms2OleControlType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| forms2OleControl类型 | int |  |
+| forms2OleControlType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -277,8 +277,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -290,8 +290,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

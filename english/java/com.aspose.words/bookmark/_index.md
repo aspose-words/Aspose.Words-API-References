@@ -1,42 +1,42 @@
 ---
 title: Bookmark
-second_title: Aspose.Words for Java API 参考
-description: 表示单个书签。
+second_title: Aspose.Words for Java API Reference
+description: Represents a single bookmark.
 type: docs
 weight: 31
-url: /zh/java/com.aspose.words/bookmark/
+url: /java/com.aspose.words/bookmark/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Bookmark
 ```
 
-表示单个书签。
+Represents a single bookmark.
 
-要了解更多信息，请访问**Working with Bookmarks**文档文章。
+To learn more, visit the **Working with Bookmarks** documentation article.
 
-[Bookmark](../../com.aspose.words/bookmark)是一个封装了两个节点的“门面”对象[getBookmarkStart()](../../com.aspose.words/bookmark\#getBookmarkStart--)和[getBookmarkEnd()](../../com.aspose.words/bookmark\#getBookmarkEnd--)在文档树中，并允许将书签作为单个对象使用。
-## 方法s
+[Bookmark](../../com.aspose.words/bookmark) is a "facade" object that encapsulates two nodes [getBookmarkStart()](../../com.aspose.words/bookmark\#getBookmarkStart--) and [getBookmarkEnd()](../../com.aspose.words/bookmark\#getBookmarkEnd--) in a document tree and allows to work with a bookmark as a single object.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBookmarkEnd()](#getBookmarkEnd--) | 获取表示书签结束的节点。 |
-| [getBookmarkStart()](#getBookmarkStart--) | 获取表示书签开始的节点。 |
-| [get班级()](#get班级--) |  |
-| [getFirstColumn()](#getFirstColumn--) | 获取与书签关联的表列范围的第一列的从零开始的索引。 |
-| [getLastColumn()](#getLastColumn--) | 获取与书签关联的表列范围的最后一列的从零开始的索引。 |
-| [getName()](#getName--) | 获取书签的名称。 |
-| [getText()](#getText--) | 获取书签中包含的文本。 |
+| [getBookmarkEnd()](#getBookmarkEnd--) | Gets the node that represents the end of the bookmark. |
+| [getBookmarkStart()](#getBookmarkStart--) | Gets the node that represents the start of the bookmark. |
+| [getClass()](#getClass--) |  |
+| [getFirstColumn()](#getFirstColumn--) | Gets the zero-based index of the first column of the table column range associated with the bookmark. |
+| [getLastColumn()](#getLastColumn--) | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
+| [getName()](#getName--) | Gets the name of the bookmark. |
+| [getText()](#getText--) | Gets the text enclosed in the bookmark. |
 | [hashCode()](#hashCode--) |  |
-| [isColumn()](#isColumn--) | 退货**true**如果此书签是表格列书签。 |
+| [isColumn()](#isColumn--) | Returns **true** if this bookmark is a table column bookmark. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除书签。 |
-| [setName(String value)](#setName-java.lang.String-) | 设置书签的名称。 |
-| [setText(String value)](#setText-java.lang.String-) | 设置书签中包含的文本。 |
+| [remove()](#remove--) | Removes the bookmark from the document. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the bookmark. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text enclosed in the bookmark. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,83 +49,83 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBookmarkEnd() {#getBookmarkEnd--}
 ```
 public BookmarkEnd getBookmarkEnd()
 ```
 
 
-获取表示书签结束的节点。
+Gets the node that represents the end of the bookmark.
 
-**退货:**
-[BookmarkEnd](../../com.aspose.words/bookmarkend) - 代表书签结束的节点。
+**Returns:**
+[BookmarkEnd](../../com.aspose.words/bookmarkend) - The node that represents the end of the bookmark.
 ### getBookmarkStart() {#getBookmarkStart--}
 ```
 public BookmarkStart getBookmarkStart()
 ```
 
 
-获取表示书签开始的节点。
+Gets the node that represents the start of the bookmark.
 
-**退货:**
-[BookmarkStart](../../com.aspose.words/bookmarkstart) - 表示书签开始的节点。
-### get班级() {#get班级--}
+**Returns:**
+[BookmarkStart](../../com.aspose.words/bookmarkstart) - The node that represents the start of the bookmark.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFirstColumn() {#getFirstColumn--}
 ```
 public int getFirstColumn()
 ```
 
 
-获取与书签关联的表列范围的第一列的从零开始的索引。退货**-1**如果此书签不是表格列书签。
+Gets the zero-based index of the first column of the table column range associated with the bookmark. Returns **-1** if this bookmark is not a table column bookmark.
 
-**退货:**
-int - 与书签关联的表列范围的第一列的从零开始的索引。
+**Returns:**
+int - The zero-based index of the first column of the table column range associated with the bookmark.
 ### getLastColumn() {#getLastColumn--}
 ```
 public int getLastColumn()
 ```
 
 
-获取与书签关联的表列范围的最后一列的从零开始的索引。退货**-1**如果此书签不是表格列书签。
+Gets the zero-based index of the last column of the table column range associated with the bookmark. Returns **-1** if this bookmark is not a table column bookmark.
 
-**退货:**
-int - 与书签关联的表列范围的最后一列的从零开始的索引。
+**Returns:**
+int - The zero-based index of the last column of the table column range associated with the bookmark.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取书签的名称。请注意，如果您将书签的名称更改为文档中已存在的名称，则不会出现错误，并且在保存文档时只会存储第一个书签。
+Gets the name of the bookmark. Note that if you change the name of a bookmark to a name that already exists in the document, no error will be given and only the first bookmark will be stored when you save the document.
 
-**退货:**
-java.lang.String - 书签的名称。
+**Returns:**
+java.lang.String - The name of the bookmark.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取书签中包含的文本。
+Gets the text enclosed in the bookmark.
 
-**退货:**
-java.lang.String - 包含在书签中的文本。
+**Returns:**
+java.lang.String - The text enclosed in the bookmark.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -134,18 +134,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isColumn() {#isColumn--}
 ```
 public boolean isColumn()
 ```
 
 
-退货**true**如果此书签是表格列书签。
+Returns **true** if this bookmark is a table column bookmark.
 
-**退货:**
-布尔值 -**true**如果此书签是表格列书签。
+**Returns:**
+boolean - **true** if this bookmark is a table column bookmark.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public void remove()
 ```
 
 
-从文档中删除书签。不删除书签内的文本。
+Removes the bookmark from the document. Does not remove text inside the bookmark.
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -176,12 +176,12 @@ public void setName(String value)
 ```
 
 
-设置书签的名称。请注意，如果您将书签的名称更改为文档中已存在的名称，则不会出现错误，并且在保存文档时只会存储第一个书签。
+Sets the name of the bookmark. Note that if you change the name of a bookmark to a name that already exists in the document, no error will be given and only the first bookmark will be stored when you save the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 书签的名称。 |
+| value | java.lang.String | The name of the bookmark. |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```
@@ -189,12 +189,12 @@ public void setText(String value)
 ```
 
 
-设置书签中包含的文本。
+Sets the text enclosed in the bookmark.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 书签中包含的文本。 |
+| value | java.lang.String | The text enclosed in the bookmark. |
 
 ### toString() {#toString--}
 ```
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -222,8 +222,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -235,8 +235,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

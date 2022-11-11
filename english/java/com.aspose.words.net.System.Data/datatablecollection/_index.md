@@ -1,34 +1,34 @@
 ---
 title: DataTableCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示 的表的集合。
+description: Represents the collection of tables for the .
 type: docs
 weight: 26
-url: /zh/java/com.aspose.words.net.system.data/datatablecollection/
+url: /java/com.aspose.words.net.system.data/datatablecollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DataTableCollection implements Iterable
 ```
 
-表示表的集合[DataSet](../../com.aspose.words.net.system.data/dataset).
-## 方法s
+Represents the collection of tables for the [DataSet](../../com.aspose.words.net.system.data/dataset).
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable-) | 将指定的 DataTable 添加到集合中。 |
-| [add(String name)](#add-java.lang.String-) | 创建一个[DataTable](../../com.aspose.words.net.system.data/datatable)使用指定的名称对象并将其添加到集合中。 |
-| [contains(String name)](#contains-java.lang.String-) | 获取一个值，该值指示是否[DataTable](../../com.aspose.words.net.system.data/datatable)集合中存在具有指定名称的对象。 |
+| [add(System.Data.DataTable table)](#add-com.aspose.words.net.System.Data.DataTable-) | Adds the specified DataTable to the collection. |
+| [add(String name)](#add-java.lang.String-) | Creates a [DataTable](../../com.aspose.words.net.system.data/datatable) object by using the specified name and adds it to the collection. |
+| [contains(String name)](#contains-java.lang.String-) | Gets a value that indicates whether a [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定索引处的对象。 |
-| [get(String name)](#get-java.lang.String-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称的对象。 |
-| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String-) | 获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定命名空间中具有指定名称的对象。 |
-| [get班级()](#get班级--) |  |
+| [get(int index)](#get-int-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object at the specified index. |
+| [get(String name)](#get-java.lang.String-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name. |
+| [get(String name, String tableNamespace)](#get-java.lang.String-java.lang.String-) | Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name in the specified namespace. |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
@@ -44,12 +44,12 @@ public void add(System.Data.DataTable table)
 ```
 
 
-将指定的 DataTable 添加到集合中。
+Adds the specified DataTable to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | 要添加的 DataTable 对象。 |
+| table | [DataTable](../../com.aspose.words.net.system.data/datatable) | The DataTable object to add. |
 
 ### add(String name) {#add-java.lang.String-}
 ```
@@ -57,30 +57,30 @@ public System.Data.DataTable add(String name)
 ```
 
 
-创建一个[DataTable](../../com.aspose.words.net.system.data/datatable)使用指定的名称对象并将其添加到集合中。
+Creates a [DataTable](../../com.aspose.words.net.system.data/datatable) object by using the specified name and adds it to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 给创建的名称[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| name | java.lang.String | The name to give the created [DataTable](../../com.aspose.words.net.system.data/datatable). |
 
-**退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 新创建的[DataTable](../../com.aspose.words.net.system.data/datatable).
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - The newly created [DataTable](../../com.aspose.words.net.system.data/datatable).
 ### contains(String name) {#contains-java.lang.String-}
 ```
 public boolean contains(String name)
 ```
 
 
-获取一个值，该值指示是否[DataTable](../../com.aspose.words.net.system.data/datatable)集合中存在具有指定名称的对象。
+Gets a value that indicates whether a [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name exists in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 的名称[DataTable](../../com.aspose.words.net.system.data/datatable)找到。 |
+| name | java.lang.String | The name of the [DataTable](../../com.aspose.words.net.system.data/datatable) to find. |
 
-**退货:**
-boolean - 如果指定的表存在，则为 true；否则为假。
+**Returns:**
+boolean - true if the specified table exists; otherwise false.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -89,69 +89,69 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public System.Data.DataTable get(int index)
 ```
 
 
-获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定索引处的对象。
+Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 从零开始的索引[DataTable](../../com.aspose.words.net.system.data/datatable)找到。 |
+| index | int | The zero-based index of the [DataTable](../../com.aspose.words.net.system.data/datatable) to find. |
 
-**退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable).
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable).
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.DataTable get(String name)
 ```
 
 
-获取[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称的对象。
+Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的 DataTable 的名称。 |
+| name | java.lang.String | The name of the DataTable to find. |
 
-**退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称；如果[DataTable](../../com.aspose.words.net.system.data/datatable)不存在。
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable) does not exist.
 ### get(String name, String tableNamespace) {#get-java.lang.String-java.lang.String-}
 ```
 public System.Data.DataTable get(String name, String tableNamespace)
 ```
 
 
-获取[DataTable](../../com.aspose.words.net.system.data/datatable)指定命名空间中具有指定名称的对象。
+Gets the [DataTable](../../com.aspose.words.net.system.data/datatable) object with the specified name in the specified namespace.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的 DataTable 的名称。 |
-| tableNamespace | java.lang.String | 的名称[DataTable](../../com.aspose.words.net.system.data/datatable)要查看的命名空间。 |
+| name | java.lang.String | The name of the DataTable to find. |
+| tableNamespace | java.lang.String | The name of the [DataTable](../../com.aspose.words.net.system.data/datatable) namespace to look in. |
 
-**退货:**
-[DataTable](../../com.aspose.words.net.system.data/datatable) - 一个[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定名称；如果[DataTable](../../com.aspose.words.net.system.data/datatable)不存在。
-### get班级() {#get班级--}
+**Returns:**
+[DataTable](../../com.aspose.words.net.system.data/datatable) - A [DataTable](../../com.aspose.words.net.system.data/datatable) with the specified name; otherwise null if the [DataTable](../../com.aspose.words.net.system.data/datatable) does not exist.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -160,8 +160,8 @@ public int getCount()
 
 
 
-**退货:**
-int - 此集合中的项目总数。
+**Returns:**
+int - total number of items in this collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -170,8 +170,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -180,7 +180,7 @@ public Iterator iterator()
 
 
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -206,7 +206,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -224,8 +224,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -237,8 +237,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

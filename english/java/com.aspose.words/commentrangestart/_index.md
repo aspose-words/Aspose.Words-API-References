@@ -1,68 +1,68 @@
 ---
 title: CommentRangeStart
-second_title: Aspose.Words for Java API 参考
-description: 表示具有关联注释的文本区域的开始。
+second_title: Aspose.Words for Java API Reference
+description: Denotes the start of a region of text that has a comment associated with it.
 type: docs
 weight: 80
-url: /zh/java/com.aspose.words/commentrangestart/
+url: /java/com.aspose.words/commentrangestart/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node)
 ```
 public class CommentRangeStart extends Node
 ```
 
-表示具有关联注释的文本区域的开始。
+Denotes the start of a region of text that has a comment associated with it.
 
-要了解更多信息，请访问**Working with Comments**文档文章。
+To learn more, visit the **Working with Comments** documentation article.
 
-要创建锚定到文本区域的注释，您需要创建一个[Comment](../../com.aspose.words/comment)然后创建[CommentRangeStart](../../com.aspose.words/commentrangestart)和[CommentRangeEnd](../../com.aspose.words/commentrangeend)并将它们的标识符设置为相同[Comment.getId()](../../com.aspose.words/comment\#getId--)价值。
+To create a comment anchored to a region of text, you need to create a [Comment](../../com.aspose.words/comment) and then create [CommentRangeStart](../../com.aspose.words/commentrangestart) and [CommentRangeEnd](../../com.aspose.words/commentrangeend) and set their identifiers to the same [Comment.getId()](../../com.aspose.words/comment\#getId--) value.
 
-[CommentRangeStart](../../com.aspose.words/commentrangestart)是一个内联级节点，只能是[Paragraph](../../com.aspose.words/paragraph).
-## 构造函数s
+[CommentRangeStart](../../com.aspose.words/commentrangestart) is an inline-level node and can only be a child of [Paragraph](../../com.aspose.words/paragraph).
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [CommentRangeStart(DocumentBase doc, int id)](#CommentRangeStart-com.aspose.words.DocumentBase-int-) | 初始化此类的新实例。 |
-## 方法s
+| [CommentRangeStart(DocumentBase doc, int id)](#CommentRangeStart-com.aspose.words.DocumentBase-int-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [get班级()](#get班级--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getClass()](#getClass--) |  |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
 | [getDisplacedByCustomXml()](#getDisplacedByCustomXml--) |  |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
-| [getId()](#getId--) | 指定此区域链接到的注释的标识符。 |
+| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
+| [getId()](#getId--) | Specifies the identifier of the comment to which this region is linked. |
 | [getIdInternal()](#getIdInternal--) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货[Node类型.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType--) | Returns [NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). |
 | [getParentIdInternal()](#getParentIdInternal--) |  |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getText()](#getText--) | Gets the text of this node and of all its children. |
 | [hashCode()](#hashCode--) |  |
-| [isComposite()](#isComposite--) | 如果此节点可以包含其他节点，则返回 true。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [isComposite()](#isComposite--) | Returns true if this node can contain other nodes. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
 | [setDisplacedByCustomXml(int value)](#setDisplacedByCustomXml-int-) |  |
-| [setId(int value)](#setId-int-) | 指定此区域链接到的注释的标识符。 |
+| [setId(int value)](#setId-int-) | Specifies the identifier of the comment to which this region is linked. |
 | [setIdInternal(int value)](#setIdInternal-int-) |  |
 | [setParentIdInternal(int value)](#setParentIdInternal-int-) |  |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,17 +73,17 @@ public CommentRangeStart(DocumentBase doc, int id)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-什么时候[CommentRangeStart](../../com.aspose.words/commentrangestart)已创建，它属于指定的文档，但还不是文档的一部分，并且[Node.getParentNode()](../../com.aspose.words/node\#getParentNode--)一片空白。
+When [CommentRangeStart](../../com.aspose.words/commentrangestart) is created, it belongs to the specified document, but is not yet part of the document and [Node.getParentNode()](../../com.aspose.words/node\#getParentNode--) is null.
 
-追加一个[CommentRangeStart](../../com.aspose.words/commentrangestart)在要插入注释的段落上使用 InsertAfter 或 InsertBefore 到文档。
+To append a [CommentRangeStart](../../com.aspose.words/commentrangestart) to the document use InsertAfter or InsertBefore on the paragraph where you want the comment inserted.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。 |
-| id | int | 此对象链接到的注释标识符。 |
+| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
+| id | int | The comment identifier to which this object is linked. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
 ```
@@ -91,19 +91,19 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-来电[DocumentVisitor.visitCommentRangeStart(com.aspose.words.CommentRangeStart)](../../com.aspose.words/documentvisitor\#visitCommentRangeStart-com.aspose.words.CommentRangeStart-).
+Calls [DocumentVisitor.visitCommentRangeStart(com.aspose.words.CommentRangeStart)](../../com.aspose.words/documentvisitor\#visitCommentRangeStart-com.aspose.words.CommentRangeStart-).
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the node. |
 
-**退货:**
-boolean - 如果访问者请求停止枚举，则为 False。
+**Returns:**
+boolean - False if the visitor requested the enumeration to stop.
 ### dd() {#dd--}
 ```
 public void dd()
@@ -118,19 +118,19 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -139,71 +139,71 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+**Returns:**
+boolean
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
-### get班级() {#get班级--}
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
 public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getDisplacedByCustomXml() {#getDisplacedByCustomXml--}
 ```
 public int getDisplacedByCustomXml()
@@ -212,30 +212,30 @@ public int getDisplacedByCustomXml()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
 ### getId() {#getId--}
 ```
 public int getId()
 ```
 
 
-指定此区域链接到的注释的标识符。
+Specifies the identifier of the comment to which this region is linked.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getIdInternal() {#getIdInternal--}
 ```
 public int getIdInternal()
@@ -244,28 +244,28 @@ public int getIdInternal()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getNextSibling() {#getNextSibling--}
 ```
 public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货[Node类型.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START).
+Returns [NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START).
 
-**退货:**
-诠释 -\{[Node类型.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START) .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - \{[NodeType.COMMENT\_RANGE\_START](../../com.aspose.words/nodetype\#COMMENT-RANGE-START). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getParentIdInternal() {#getParentIdInternal--}
 ```
 public int getParentIdInternal()
@@ -274,51 +274,51 @@ public int getParentIdInternal()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点及其所有子节点的文本。
+Gets the text of this node and of all its children.
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**Returns:**
 java.lang.String
 ### hashCode() {#hashCode--}
 ```
@@ -328,47 +328,47 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-如果此节点可以包含其他节点，则返回 true。 (31110,6)
+Returns true if this node can contain other nodes. (31110,6)
 
-**退货:**
-boolean - 如果此节点可以包含其他节点，则为真。
+**Returns:**
+boolean - True if this node can contain other nodes.
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
 public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -392,22 +392,22 @@ public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -415,18 +415,18 @@ public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setDisplacedByCustomXml(int value) {#setDisplacedByCustomXml-int-}
 ```
@@ -436,8 +436,8 @@ public void setDisplacedByCustomXml(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -447,12 +447,12 @@ public void setId(int value)
 ```
 
 
-指定此区域链接到的注释的标识符。
+Specifies the identifier of the comment to which this region is linked.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setIdInternal(int value) {#setIdInternal-int-}
 ```
@@ -462,8 +462,8 @@ public void setIdInternal(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -475,8 +475,8 @@ public void setParentIdInternal(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -488,7 +488,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -496,15 +496,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -513,12 +513,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -536,8 +536,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -549,8 +549,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

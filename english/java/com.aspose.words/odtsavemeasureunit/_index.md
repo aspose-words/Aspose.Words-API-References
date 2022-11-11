@@ -1,33 +1,33 @@
 ---
 title: OdtSaveMeasureUnit
-second_title: Aspose.Words for Java API 参考
-description: 在保存期间应用于可测量的文档内容（例如形状宽度和其他）的指定测量单位。
+second_title: Aspose.Words for Java API Reference
+description: Specified units of measure to apply to measurable document content such as shape widths and other during saving.
 type: docs
 weight: 418
-url: /zh/java/com.aspose.words/odtsavemeasureunit/
+url: /java/com.aspose.words/odtsavemeasureunit/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class OdtSaveMeasureUnit
 ```
 
-指定的度量单位，以在保存期间应用于可测量的文档内容，例如形状、宽度和其他。
-## 字段
+Specified units of measure to apply to measurable document content such as shape, widths and other during saving.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CENTIMETERS](#CENTIMETERS) | 指定使用厘米保存文档内容。 |
-| [INCHES](#INCHES) | 指定使用英寸保存文档内容。 |
+| [CENTIMETERS](#CENTIMETERS) | Specifies that the document content is saved using centimeters. |
+| [INCHES](#INCHES) | Specifies that the document content is saved using inches. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String odtSaveMeasureUnitName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int odtSaveMeasureUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int CENTIMETERS
 ```
 
 
-指定使用厘米保存文档内容。
+Specifies that the document content is saved using centimeters.
 
 ### INCHES {#INCHES}
 ```
@@ -52,7 +52,7 @@ public static int INCHES
 ```
 
 
-指定使用英寸保存文档内容。
+Specifies that the document content is saved using inches.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String odtSaveMeasureUnitName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String odtSaveMeasureUnitName)
@@ -83,23 +83,23 @@ public static int fromName(String odtSaveMeasureUnitName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | odtSaveMeasureUnitName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int odtSaveMeasureUnit) {#getName-int-}
 ```
 public static String getName(int odtSaveMeasureUnit)
@@ -108,12 +108,12 @@ public static String getName(int odtSaveMeasureUnit)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int odtSaveMeasureUnit) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int odtSaveMeasureUnit)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | odtSaveMeasureUnit | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

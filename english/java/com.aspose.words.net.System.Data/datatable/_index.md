@@ -1,56 +1,56 @@
 ---
 title: DataTable
 second_title: Aspose.Words for Java API Reference
-description: 表示一个内存数据表。
+description: Represents one table of in-memory data.
 type: docs
 weight: 25
-url: /zh/java/com.aspose.words.net.system.data/datatable/
+url: /java/com.aspose.words.net.system.data/datatable/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 [com.aspose.words.net.System.Data.DataTableEventListener](../../com.aspose.words.net.system.data/datatableeventlistener)
 ```
 public class DataTable implements System.Data.DataTableEventListener
 ```
 
-表示一个内存数据表。
-## 构造函数s
+Represents one table of in-memory data.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [DataTable()](#DataTable--) | 初始化一个新的实例[DataTable](../../com.aspose.words.net.system.data/datatable)没有参数的类。 |
-| [DataTable(String tableName)](#DataTable-java.lang.String-) | 初始化一个新的实例[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定表名的类。 |
-| [DataTable(ResultSet resultSet)](#DataTable-java.sql.ResultSet-) | 通过包装指定的 ResultSet 创建一个对象。 |
-| [DataTable(ResultSet resultSet, String tableName)](#DataTable-java.sql.ResultSet-java.lang.String-) | 通过包装指定的 ResultSet 创建一个对象。 |
-## 方法s
+| [DataTable()](#DataTable--) | Initializes a new instance of the [DataTable](../../com.aspose.words.net.system.data/datatable) class with no arguments. |
+| [DataTable(String tableName)](#DataTable-java.lang.String-) | Initializes a new instance of the [DataTable](../../com.aspose.words.net.system.data/datatable) class with the specified table name. |
+| [DataTable(ResultSet resultSet)](#DataTable-java.sql.ResultSet-) | Creates an object by wrapping the specified ResultSet. |
+| [DataTable(ResultSet resultSet, String tableName)](#DataTable-java.sql.ResultSet-java.lang.String-) | Creates an object by wrapping the specified ResultSet. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [acceptChanges()](#acceptChanges--) | 提交自上次以来对该表所做的所有更改[acceptChanges()](../../com.aspose.words.net.system.data/datatable\#acceptChanges--)被称为。 |
+| [acceptChanges()](#acceptChanges--) | Commits all the changes made to this table since the last time [acceptChanges()](../../com.aspose.words.net.system.data/datatable\#acceptChanges--) was called. |
 | [addEventListener(System.Data.DataTableEventListener listener)](#addEventListener-com.aspose.words.net.System.Data.DataTableEventListener-) |  |
 | [clearEventListneers()](#clearEventListneers--) |  |
 | [close()](#close--) |  |
-| [containsColumn(String columnName)](#containsColumn-java.lang.String-) | 检查给定列是否存在 |
+| [containsColumn(String columnName)](#containsColumn-java.lang.String-) | Check whether the given column exists or not |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getChildRelations()](#getChildRelations--) | 获取此子关系的集合[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [get班级()](#get班级--) |  |
-| [getColumnName(int index)](#getColumnName-int-) | .Net DataTable.Columns 的模拟[i].ColumnName |
-| [getColumns()](#getColumns--) | 获取属于此表的列的集合。 |
+| [getChildRelations()](#getChildRelations--) | Gets the collection of child relations for this [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getClass()](#getClass--) |  |
+| [getColumnName(int index)](#getColumnName-int-) | Analog for .Net DataTable.Columns[i].ColumnName |
+| [getColumns()](#getColumns--) | Gets the collection of columns that belong to this table. |
 | [getColumnsCount()](#getColumnsCount--) |  |
-| [getConstraints()](#getConstraints--) | 获取此表维护的约束集合。 |
-| [getDataSet()](#getDataSet--) | 获取[DataSet](../../com.aspose.words.net.system.data/dataset)此表所属的。 |
+| [getConstraints()](#getConstraints--) | Gets the collection of constraints maintained by this table. |
+| [getDataSet()](#getDataSet--) | Gets the [DataSet](../../com.aspose.words.net.system.data/dataset) to which this table belongs. |
 | [getEnforceConstraints()](#getEnforceConstraints--) |  |
-| [getNamespace()](#getNamespace--) | 获取存储在[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [getParentRelations()](#getParentRelations--) | 获取此父关系的集合[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [getPrimaryKey()](#getPrimaryKey--) | 获取用作数据表主键的列数组。 |
-| [getResultSet()](#getResultSet--) | 返回底层 Java ResultSet 对象。 |
-| [getRows()](#getRows--) | 获取属于此表的行的集合。 |
-| [getTableName()](#getTableName--) | 获取名称[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getNamespace()](#getNamespace--) | Gets the namespace for the XML representation of the data stored in the [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getParentRelations()](#getParentRelations--) | Gets the collection of parent relations for this [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [getPrimaryKey()](#getPrimaryKey--) | Gets an array of columns that function as primary keys for the data table. |
+| [getResultSet()](#getResultSet--) | Returns the underlying Java ResultSet object. |
+| [getRows()](#getRows--) | Gets the collection of rows that belong to this table. |
+| [getTableName()](#getTableName--) | Gets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
 | [hashCode()](#hashCode--) |  |
-| [newRow()](#newRow--) | 创建一个新的[DataRow](../../com.aspose.words.net.system.data/datarow)具有与表相同的架构。 |
+| [newRow()](#newRow--) | Creates a new [DataRow](../../com.aspose.words.net.system.data/datarow) with the same schema as the table. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [onDataColumnDeleted(System.Data.DataColumn column)](#onDataColumnDeleted-com.aspose.words.net.System.Data.DataColumn-) |  |
@@ -58,11 +58,11 @@ public class DataTable implements System.Data.DataTableEventListener
 | [onDataRowChanged(System.Data.DataRow row)](#onDataRowChanged-com.aspose.words.net.System.Data.DataRow-) |  |
 | [onDataRowDeleted(System.Data.DataRow row)](#onDataRowDeleted-com.aspose.words.net.System.Data.DataRow-) |  |
 | [onDataRowInserted(System.Data.DataRow row)](#onDataRowInserted-com.aspose.words.net.System.Data.DataRow-) |  |
-| [refresh()](#refresh--) | 如果存在，则从 ResultSet 重新加载所有数据。 |
+| [refresh()](#refresh--) | Reloads all the data from ResultSet if it is present. |
 | [setEnforceConstraints(boolean enforceConstraints)](#setEnforceConstraints-boolean-) |  |
-| [setNamespace(String value)](#setNamespace-java.lang.String-) | 为存储在[DataTable](../../com.aspose.words.net.system.data/datatable). |
-| [setPrimaryKey(System.Data.DataColumn[] value)](#setPrimaryKey-com.aspose.words.net.System.Data.DataColumn---) | 设置用作数据表主键的列数组。 |
-| [setTableName(String value)](#setTableName-java.lang.String-) | 设置名称[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [setNamespace(String value)](#setNamespace-java.lang.String-) | Sets the namespace for the XML representation of the data stored in the [DataTable](../../com.aspose.words.net.system.data/datatable). |
+| [setPrimaryKey(System.Data.DataColumn[] value)](#setPrimaryKey-com.aspose.words.net.System.Data.DataColumn---) | Sets an array of columns that function as primary keys for the data table. |
+| [setTableName(String value)](#setTableName-java.lang.String-) | Sets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -73,7 +73,7 @@ public DataTable()
 ```
 
 
-初始化一个新的实例[DataTable](../../com.aspose.words.net.system.data/datatable)没有参数的类。
+Initializes a new instance of the [DataTable](../../com.aspose.words.net.system.data/datatable) class with no arguments.
 
 ### DataTable(String tableName) {#DataTable-java.lang.String-}
 ```
@@ -81,12 +81,12 @@ public DataTable(String tableName)
 ```
 
 
-初始化一个新的实例[DataTable](../../com.aspose.words.net.system.data/datatable)具有指定表名的类。
+Initializes a new instance of the [DataTable](../../com.aspose.words.net.system.data/datatable) class with the specified table name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| tableName | java.lang.String | 表的名称。如果 tableName 为 null 或空字符串，则添加到[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection). |
+| tableName | java.lang.String | The name to give the table. If  tableName  is null or an empty string, a default name is given when added to the [DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection). |
 
 ### DataTable(ResultSet resultSet) {#DataTable-java.sql.ResultSet-}
 ```
@@ -94,12 +94,12 @@ public DataTable(ResultSet resultSet)
 ```
 
 
-通过包装指定的 ResultSet 创建一个对象。尝试从 ResultSet 第一列的元数据中检索表名。
+Creates an object by wrapping the specified ResultSet. Attempts to retrieve the table name from the metadata of the first column of the ResultSet.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| resultSet | java.sql.ResultSet | 数据集 |
+| resultSet | java.sql.ResultSet | data set |
 
 ### DataTable(ResultSet resultSet, String tableName) {#DataTable-java.sql.ResultSet-java.lang.String-}
 ```
@@ -107,13 +107,13 @@ public DataTable(ResultSet resultSet, String tableName)
 ```
 
 
-通过包装指定的 ResultSet 创建一个对象。
+Creates an object by wrapping the specified ResultSet.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| resultSet | java.sql.ResultSet | 数据集 |
-| tableName | java.lang.String | 表名 |
+| resultSet | java.sql.ResultSet | data set |
+| tableName | java.lang.String | name of the table |
 
 ### acceptChanges() {#acceptChanges--}
 ```
@@ -121,7 +121,7 @@ public void acceptChanges()
 ```
 
 
-提交自上次以来对该表所做的所有更改[acceptChanges()](../../com.aspose.words.net.system.data/datatable\#acceptChanges--)被称为。
+Commits all the changes made to this table since the last time [acceptChanges()](../../com.aspose.words.net.system.data/datatable\#acceptChanges--) was called.
 
 ### addEventListener(System.Data.DataTableEventListener listener) {#addEventListener-com.aspose.words.net.System.Data.DataTableEventListener-}
 ```
@@ -131,8 +131,8 @@ public synchronized void addEventListener(System.Data.DataTableEventListener lis
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | listener | [DataTableEventListener](../../com.aspose.words.net.system.data/datatableeventlistener) |  |
 
@@ -158,15 +158,15 @@ public boolean containsColumn(String columnName)
 ```
 
 
-检查给定列是否存在
+Check whether the given column exists or not
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| columnName | java.lang.String | 列名 |
+| columnName | java.lang.String | name of the column |
 
-**退货:**
-布尔值 -`true`is 列可以通过给定找到`columnName`
+**Returns:**
+boolean - `true` is column can be found by the given `columnName`
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -175,58 +175,58 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getChildRelations() {#getChildRelations--}
 ```
 public System.Data.DataRelationCollection getChildRelations()
 ```
 
 
-获取此子关系的集合[DataTable](../../com.aspose.words.net.system.data/datatable).
+Gets the collection of child relations for this [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**退货:**
-[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - 一个[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection)包含表的子关系。如果没有，则返回一个空集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象存在。
-### get班级() {#get班级--}
+**Returns:**
+[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) that contains the child relations for the table. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects exist.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumnName(int index) {#getColumnName-int-}
 ```
 public String getColumnName(int index)
 ```
 
 
-.Net DataTable.Columns 的模拟[i].ColumnName
+Analog for .Net DataTable.Columns[i].ColumnName
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | \列的索引 |
+| index | int | \- column's index |
 
-**退货:**
-java.lang.String - 列的索引名称。
+**Returns:**
+java.lang.String - column's name by its index.
 ### getColumns() {#getColumns--}
 ```
 public System.Data.DataColumnCollection getColumns()
 ```
 
 
-获取属于此表的列的集合。
+Gets the collection of columns that belong to this table.
 
-**退货:**
-[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) - 一个[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection)包含的集合[DataColumn](../../com.aspose.words.net.system.data/datacolumn)表的对象。如果没有，则返回一个空集合[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象存在。
+**Returns:**
+[DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) - A [DataColumnCollection](../../com.aspose.words.net.system.data/datacolumncollection) that contains the collection of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects for the table. An empty collection is returned if no [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects exist.
 ### getColumnsCount() {#getColumnsCount--}
 ```
 public int getColumnsCount()
@@ -235,28 +235,28 @@ public int getColumnsCount()
 
 
 
-**退货:**
-int - 列数
+**Returns:**
+int - columns count
 ### getConstraints() {#getConstraints--}
 ```
 public System.Data.ConstraintCollection getConstraints()
 ```
 
 
-获取此表维护的约束集合。
+Gets the collection of constraints maintained by this table.
 
-**退货:**
-[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection) - 一个[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection)包含的集合[Constraint](../../com.aspose.words.net.system.data/constraint)表的对象。如果没有，则返回一个空集合[Constraint](../../com.aspose.words.net.system.data/constraint)对象存在。
+**Returns:**
+[ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection) - A [ConstraintCollection](../../com.aspose.words.net.system.data/constraintcollection) that contains the collection of [Constraint](../../com.aspose.words.net.system.data/constraint) objects for the table. An empty collection is returned if no [Constraint](../../com.aspose.words.net.system.data/constraint) objects exist.
 ### getDataSet() {#getDataSet--}
 ```
 public System.Data.DataSet getDataSet()
 ```
 
 
-获取[DataSet](../../com.aspose.words.net.system.data/dataset)此表所属的。
+Gets the [DataSet](../../com.aspose.words.net.system.data/dataset) to which this table belongs.
 
-**退货:**
-[DataSet](../../com.aspose.words.net.system.data/dataset) - 这[DataSet](../../com.aspose.words.net.system.data/dataset)此表所属的。
+**Returns:**
+[DataSet](../../com.aspose.words.net.system.data/dataset) - The [DataSet](../../com.aspose.words.net.system.data/dataset) to which this table belongs.
 ### getEnforceConstraints() {#getEnforceConstraints--}
 ```
 public boolean getEnforceConstraints()
@@ -265,68 +265,68 @@ public boolean getEnforceConstraints()
 
 
 
-**退货:**
-boolean - 指示是否违反检查约束的标志
+**Returns:**
+boolean - flag which indicates whether check constraint violation or not
 ### getNamespace() {#getNamespace--}
 ```
 public String getNamespace()
 ```
 
 
-获取存储在[DataTable](../../com.aspose.words.net.system.data/datatable).
+Gets the namespace for the XML representation of the data stored in the [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**退货:**
- java.lang.String - 的命名空间[DataTable](../../com.aspose.words.net.system.data/datatable).
+**Returns:**
+java.lang.String - The namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable).
 ### getParentRelations() {#getParentRelations--}
 ```
 public System.Data.DataRelationCollection getParentRelations()
 ```
 
 
-获取此父关系的集合[DataTable](../../com.aspose.words.net.system.data/datatable).
+Gets the collection of parent relations for this [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**退货:**
-[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - 一个[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection)包含表的父关系。如果没有，则返回一个空集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象存在。
+**Returns:**
+[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) that contains the parent relations for the table. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects exist.
 ### getPrimaryKey() {#getPrimaryKey--}
 ```
 public System.Data.DataColumn[] getPrimaryKey()
 ```
 
 
-获取用作数据表主键的列数组。
+Gets an array of columns that function as primary keys for the data table.
 
-**退货:**
-com.aspose.words.net.System.Data.DataColumn[ ] - 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。
+**Returns:**
+com.aspose.words.net.System.Data.DataColumn[] - An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects.
 ### getResultSet() {#getResultSet--}
 ```
 public ResultSet getResultSet()
 ```
 
 
-返回底层 Java ResultSet 对象。理想情况下，我们希望以 .Net 方式使用 DataTable。但是一些用户，甚至我们的一些示例代码正在使用这个属性。
+Returns the underlying Java ResultSet object. Ideally we would like to work with DataTable in .Net manner. But some users and even some ours sample code are using this property.
 
-**退货:**
-java.sql.ResultSet - 底层 java.sql.ResultSet
+**Returns:**
+java.sql.ResultSet - the underlying java.sql.ResultSet
 ### getRows() {#getRows--}
 ```
 public System.Data.DataRowCollection getRows()
 ```
 
 
-获取属于此表的行的集合。
+Gets the collection of rows that belong to this table.
 
-**退货:**
-[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) - 一个[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection)包含[DataRow](../../com.aspose.words.net.system.data/datarow)物体；如果没有，则为空值[DataRow](../../com.aspose.words.net.system.data/datarow)对象存在。
+**Returns:**
+[DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) - A [DataRowCollection](../../com.aspose.words.net.system.data/datarowcollection) that contains [DataRow](../../com.aspose.words.net.system.data/datarow) objects; otherwise a null value if no [DataRow](../../com.aspose.words.net.system.data/datarow) objects exist.
 ### getTableName() {#getTableName--}
 ```
 public String getTableName()
 ```
 
 
-获取名称[DataTable](../../com.aspose.words.net.system.data/datatable).
+Gets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**退货:**
-java.lang.String - 的名称[DataTable](../../com.aspose.words.net.system.data/datatable).
+**Returns:**
+java.lang.String - The name of the [DataTable](../../com.aspose.words.net.system.data/datatable).
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -335,18 +335,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### newRow() {#newRow--}
 ```
 public System.Data.DataRow newRow()
 ```
 
 
-创建一个新的[DataRow](../../com.aspose.words.net.system.data/datarow)具有与表相同的架构。
+Creates a new [DataRow](../../com.aspose.words.net.system.data/datarow) with the same schema as the table.
 
-**退货:**
-[DataRow](../../com.aspose.words.net.system.data/datarow) - 一个[DataRow](../../com.aspose.words.net.system.data/datarow)具有与[DataTable](../../com.aspose.words.net.system.data/datatable).
+**Returns:**
+[DataRow](../../com.aspose.words.net.system.data/datarow) - A [DataRow](../../com.aspose.words.net.system.data/datarow) with the same schema as the [DataTable](../../com.aspose.words.net.system.data/datatable).
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -371,8 +371,8 @@ public void onDataColumnDeleted(System.Data.DataColumn column)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
 
@@ -384,8 +384,8 @@ public void onDataColumnInserted(System.Data.DataColumn column)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | column | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) |  |
 
@@ -397,8 +397,8 @@ public void onDataRowChanged(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
@@ -410,8 +410,8 @@ public void onDataRowDeleted(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
@@ -423,8 +423,8 @@ public void onDataRowInserted(System.Data.DataRow row)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | row | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
@@ -434,7 +434,7 @@ public void refresh()
 ```
 
 
-如果存在，则从 ResultSet 重新加载所有数据。
+Reloads all the data from ResultSet if it is present.
 
 ### setEnforceConstraints(boolean enforceConstraints) {#setEnforceConstraints-boolean-}
 ```
@@ -444,10 +444,10 @@ public void setEnforceConstraints(boolean enforceConstraints)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| enforceConstraints | boolean | 是指示是否违反检查约束的标志 |
+| enforceConstraints | boolean | is the flag which indicates whether check constraint violation or not |
 
 ### setNamespace(String value) {#setNamespace-java.lang.String-}
 ```
@@ -455,12 +455,12 @@ public void setNamespace(String value)
 ```
 
 
-为存储在[DataTable](../../com.aspose.words.net.system.data/datatable).
+Sets the namespace for the XML representation of the data stored in the [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 的命名空间[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| value | java.lang.String | The namespace of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
 
 ### setPrimaryKey(System.Data.DataColumn[] value) {#setPrimaryKey-com.aspose.words.net.System.Data.DataColumn---}
 ```
@@ -468,12 +468,12 @@ public void setPrimaryKey(System.Data.DataColumn[] value)
 ```
 
 
-设置用作数据表主键的列数组。
+Sets an array of columns that function as primary keys for the data table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | 一个数组[DataColumn](../../com.aspose.words.net.system.data/datacolumn)对象。 |
+| value | [DataColumn\[\]](../../com.aspose.words.net.system.data/datacolumn) | An array of [DataColumn](../../com.aspose.words.net.system.data/datacolumn) objects. |
 
 ### setTableName(String value) {#setTableName-java.lang.String-}
 ```
@@ -481,12 +481,12 @@ public void setTableName(String value)
 ```
 
 
-设置名称[DataTable](../../com.aspose.words.net.system.data/datatable).
+Sets the name of the [DataTable](../../com.aspose.words.net.system.data/datatable).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 的名称[DataTable](../../com.aspose.words.net.system.data/datatable). |
+| value | java.lang.String | The name of the [DataTable](../../com.aspose.words.net.system.data/datatable). |
 
 ### toString() {#toString--}
 ```
@@ -496,7 +496,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -514,8 +514,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -527,8 +527,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

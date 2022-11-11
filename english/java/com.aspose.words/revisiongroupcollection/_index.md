@@ -1,36 +1,36 @@
 ---
 title: RevisionGroupCollection
-second_title: Aspose.Words for Java API 参考
-description: 代表文档中修订组的对象集合。
+second_title: Aspose.Words for Java API Reference
+description: A collection of  objects that represent revision groups in the document.
 type: docs
 weight: 487
-url: /zh/java/com.aspose.words/revisiongroupcollection/
+url: /java/com.aspose.words/revisiongroupcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class RevisionGroupCollection implements Iterable
 ```
 
-一个集合[RevisionGroup](../../com.aspose.words/revisiongroup)表示文档中修订组的对象。
+A collection of [RevisionGroup](../../com.aspose.words/revisiongroup) objects that represent revision groups in the document.
 
-要了解更多信息，请访问**Track Changes in a Document**文档文章。
+To learn more, visit the **Track Changes in a Document** documentation article.
 
-您不直接创建此类的实例。使用[RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups--)属性来获取文档中存在的修订组。
-## 方法s
+You do not create instances of this class directly. Use the [RevisionCollection.getGroups()](../../com.aspose.words/revisioncollection\#getGroups--) property to get revision groups present in a document.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回指定索引处的修订组。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 返回集合中修订组的数量。 |
+| [get(int index)](#get-int-) | Returns a revision group at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of revision groups in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个枚举器对象。 |
+| [iterator()](#iterator--) | Returns an enumerator object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -45,48 +45,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public RevisionGroup get(int index)
 ```
 
 
-返回指定索引处的修订组。
+Returns a revision group at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[RevisionGroup](../../com.aspose.words/revisiongroup) - 指定索引处的修订组。
-### get班级() {#get班级--}
+**Returns:**
+[RevisionGroup](../../com.aspose.words/revisiongroup) - A revision group at the specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-返回集合中修订组的数量。
+Returns the number of revision groups in the collection.
 
-**退货:**
-int - 集合中的修订组数。
+**Returns:**
+int - The number of revision groups in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,17 +95,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个枚举器对象。
+Returns an enumerator object.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -131,7 +131,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -149,8 +149,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -162,8 +162,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

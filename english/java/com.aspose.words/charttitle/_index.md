@@ -1,44 +1,44 @@
 ---
 title: ChartTitle
-second_title: Aspose.Words for Java API 参考
-description: 提供对图表标题属性的访问。
+second_title: Aspose.Words for Java API Reference
+description: Provides access to the chart title properties.
 type: docs
 weight: 70
-url: /zh/java/com.aspose.words/charttitle/
+url: /java/com.aspose.words/charttitle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartTitle implements Cloneable
 ```
 
-提供对图表标题属性的访问。
+Provides access to the chart title properties.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+To learn more, visit the **Working with Charts** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getOverlay()](#getOverlay--) | 确定是否允许其他图表元素与标题重叠。 |
-| [getShow()](#getShow--) | 确定是否应为此图表显示标题。 |
-| [getText()](#getText--) | 获取图表标题的文本。 |
+| [getOverlay()](#getOverlay--) | Determines whether other chart elements shall be allowed to overlap title. |
+| [getShow()](#getShow--) | Determines whether the title shall be shown for this chart. |
+| [getText()](#getText--) | Gets the text of the chart title. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [setOverlay(boolean value)](#setOverlay-boolean-) | 确定是否允许其他图表元素与标题重叠。 |
+| [setOverlay(boolean value)](#setOverlay-boolean-) | Determines whether other chart elements shall be allowed to overlap title. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setShow(boolean value)](#setShow-boolean-) | 确定是否应为此图表显示标题。 |
-| [setText(String value)](#setText-java.lang.String-) | 设置图表标题的文本。 |
+| [setShow(boolean value)](#setShow-boolean-) | Determines whether the title shall be shown for this chart. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the chart title. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -59,13 +59,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -74,23 +74,23 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -99,12 +99,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getOverlay() {#getOverlay--}
 ```
@@ -112,30 +112,30 @@ public boolean getOverlay()
 ```
 
 
-确定是否允许其他图表元素与标题重叠。默认情况下，覆盖是假的。
+Determines whether other chart elements shall be allowed to overlap title. By default overlay is false.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getShow() {#getShow--}
 ```
 public boolean getShow()
 ```
 
 
-确定是否应为此图表显示标题。默认值为真。
+Determines whether the title shall be shown for this chart. Default value is true.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取图表标题的文本。如果指定 null 或空值，将显示自动生成的标题。利用[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-)如果您需要隐藏标题，请选择此选项。
+Gets the text of the chart title. If null or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-) option if you need to hide the Title.
 
-**退货:**
-java.lang.String - 图表标题的文本。
+**Returns:**
+java.lang.String - The text of the chart title.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -144,8 +144,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -170,8 +170,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -181,12 +181,12 @@ public void setOverlay(boolean value)
 ```
 
 
-确定是否允许其他图表元素与标题重叠。默认情况下，覆盖是假的。
+Determines whether other chart elements shall be allowed to overlap title. By default overlay is false.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -196,8 +196,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -208,12 +208,12 @@ public void setShow(boolean value)
 ```
 
 
-确定是否应为此图表显示标题。默认值为真。
+Determines whether the title shall be shown for this chart. Default value is true.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```
@@ -221,12 +221,12 @@ public void setText(String value)
 ```
 
 
-设置图表标题的文本。如果指定 null 或空值，将显示自动生成的标题。利用[getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-)如果您需要隐藏标题，请选择此选项。
+Sets the text of the chart title. If null or empty value is specified, auto generated title will be shown. Use [getShow()](../../com.aspose.words/charttitle\#getShow--) / [setShow(boolean)](../../com.aspose.words/charttitle\#setShow-boolean-) option if you need to hide the Title.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 图表标题的文本。 |
+| value | java.lang.String | The text of the chart title. |
 
 ### toString() {#toString--}
 ```
@@ -236,7 +236,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -254,8 +254,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -267,8 +267,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

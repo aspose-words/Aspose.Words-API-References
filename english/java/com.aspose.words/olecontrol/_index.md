@@ -1,30 +1,30 @@
 ---
 title: OleControl
-second_title: Aspose.Words for Java API 参考
-description: 表示 OLE ActiveX 控件。
+second_title: Aspose.Words for Java API Reference
+description: Represents OLE ActiveX control.
 type: docs
 weight: 424
-url: /zh/java/com.aspose.words/olecontrol/
+url: /java/com.aspose.words/olecontrol/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class OleControl
 ```
 
-表示 OLE ActiveX 控件。
+Represents OLE ActiveX control.
 
-要了解更多信息，请访问**Working with Ole Objects**文档文章。
-## 方法s
+To learn more, visit the **Working with Ole Objects** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getName()](#getName--) | 获取 ActiveX 控件的名称。 |
+| [getClass()](#getClass--) |  |
+| [getName()](#getName--) | Gets name of the ActiveX control. |
 | [hashCode()](#hashCode--) |  |
-| [isForms2OleControl()](#isForms2OleControl--) | 如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
+| [isForms2OleControl()](#isForms2OleControl--) | Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -39,33 +39,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取 ActiveX 控件的名称。
+Gets name of the ActiveX control.
 
-**退货:**
-java.lang.String - ActiveX 控件的名称。
+**Returns:**
+java.lang.String - Name of the ActiveX control.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -74,18 +74,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isForms2OleControl() {#isForms2OleControl--}
 ```
 public boolean isForms2OleControl()
 ```
 
 
-如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+Returns true if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 
-**退货:**
- boolean - 如果控件是[Forms2OleControl](../../com.aspose.words/forms2olecontrol).
+**Returns:**
+boolean - True if the control is a [Forms2OleControl](../../com.aspose.words/forms2olecontrol).
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -110,7 +110,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -128,8 +128,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -141,8 +141,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

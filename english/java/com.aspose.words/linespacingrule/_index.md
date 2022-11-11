@@ -1,34 +1,34 @@
 ---
 title: LineSpacingRule
-second_title: Aspose.Words for Java API 参考
-description: 指定段落的行距值。
+second_title: Aspose.Words for Java API Reference
+description: Specifies line spacing values for a paragraph.
 type: docs
 weight: 366
-url: /zh/java/com.aspose.words/linespacingrule/
+url: /java/com.aspose.words/linespacingrule/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LineSpacingRule
 ```
 
-指定段落的行距值。
-## 字段
+Specifies line spacing values for a paragraph.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AT_LEAST](#AT-LEAST) | 行距可以大于或等于但不能小于[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)财产。 |
-| [EXACTLY](#EXACTLY) | 行距永远不会从[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性，即使段落中使用了较大的字体。 |
-| [MULTIPLE](#MULTIPLE) | 行间距在[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性为行数。 |
+| [AT_LEAST](#AT-LEAST) | The line spacing can be greater than or equal to, but never less than, the value specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property. |
+| [EXACTLY](#EXACTLY) | The line spacing never changes from the value specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property, even if a larger font is used within the paragraph. |
+| [MULTIPLE](#MULTIPLE) | The line spacing is specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property as the number of lines. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineSpacingRuleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int lineSpacingRule)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int AT_LEAST
 ```
 
 
-行距可以大于或等于但不能小于[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)财产。
+The line spacing can be greater than or equal to, but never less than, the value specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property.
 
 ### EXACTLY {#EXACTLY}
 ```
@@ -53,7 +53,7 @@ public static int EXACTLY
 ```
 
 
-行距永远不会从[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性，即使段落中使用了较大的字体。
+The line spacing never changes from the value specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property, even if a larger font is used within the paragraph.
 
 ### MULTIPLE {#MULTIPLE}
 ```
@@ -61,7 +61,7 @@ public static int MULTIPLE
 ```
 
 
-行间距在[ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-)属性为行数。一条线等于 12 个点。
+The line spacing is specified in the [ParagraphFormat.getLineSpacing()](../../com.aspose.words/paragraphformat\#getLineSpacing--) / [ParagraphFormat.setLineSpacing(double)](../../com.aspose.words/paragraphformat\#setLineSpacing-double-) property as the number of lines. One line equals 12 points.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String lineSpacingRuleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String lineSpacingRuleName)
@@ -92,23 +92,23 @@ public static int fromName(String lineSpacingRuleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineSpacingRuleName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int lineSpacingRule) {#getName-int-}
 ```
 public static String getName(int lineSpacingRule)
@@ -117,12 +117,12 @@ public static String getName(int lineSpacingRule)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineSpacingRule | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int lineSpacingRule) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int lineSpacingRule)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineSpacingRule | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,34 +1,34 @@
 ---
 title: CultureInfo
 second_title: Aspose.Words for Java API Reference
-description:  .Nets System.Globalization.CultureInfo 的地图。
+description: Map for .Nets System.Globalization.CultureInfo.
 type: docs
 weight: 10
-url: /zh/java/com.aspose.words.net.system.globalization/cultureinfo/
+url: /java/com.aspose.words.net.system.globalization/cultureinfo/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CultureInfo
 ```
 
-.Net 的 System.Globalization.CultureInfo 的地图。
-## 构造函数s
+Map for .Net's System.Globalization.CultureInfo.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [CultureInfo(String cultureName)](#CultureInfo-java.lang.String-) | 具有 .Net 风格的文化名称的构造函数。 |
-| [CultureInfo(String cultureName, boolean useUserOverride)](#CultureInfo-java.lang.String-boolean-) | 具有 .Net 风格的文化名称的构造函数。 |
-| [CultureInfo(Locale locale)](#CultureInfo-java.util.Locale-) | 具有 Java 风格语言环境的构造函数。 |
-## 方法s
+| [CultureInfo(String cultureName)](#CultureInfo-java.lang.String-) | Constructor with .Net-style Culture Name. |
+| [CultureInfo(String cultureName, boolean useUserOverride)](#CultureInfo-java.lang.String-boolean-) | Constructor with .Net-style Culture Name. |
+| [CultureInfo(Locale locale)](#CultureInfo-java.util.Locale-) | Constructor with Java-style Locale. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDateTimeFormat()](#getDateTimeFormat--) | 获取 .Net 样式的 DateTimeFormatInfo |
-| [getLocale(System.Globalization.CultureInfo cultureInfo)](#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-) | 从 .Net 风格的 CultureInfo 获取 java 语言环境 |
+| [getClass()](#getClass--) |  |
+| [getDateTimeFormat()](#getDateTimeFormat--) | Gets .Net-style DateTimeFormatInfo |
+| [getLocale(System.Globalization.CultureInfo cultureInfo)](#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-) | Gets java Locale from .Net-style CultureInfo |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -42,10 +42,10 @@ public CultureInfo(String cultureName)
 ```
 
 
-具有 .Net 风格的文化名称的构造函数。
+Constructor with .Net-style Culture Name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
 
@@ -55,10 +55,10 @@ public CultureInfo(String cultureName, boolean useUserOverride)
 ```
 
 
-具有 .Net 风格的文化名称的构造函数。
+Constructor with .Net-style Culture Name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureName | java.lang.String |  |
 | useUserOverride | boolean |  |
@@ -69,10 +69,10 @@ public CultureInfo(Locale locale)
 ```
 
 
-具有 Java 风格语言环境的构造函数。
+Constructor with Java-style Locale.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | locale | java.util.Locale |  |
 
@@ -84,32 +84,32 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
 public System.Globalization.DateTimeFormatInfo getDateTimeFormat()
 ```
 
 
-获取 .Net 样式的 DateTimeFormatInfo
+Gets .Net-style DateTimeFormatInfo
 
-**退货:**
+**Returns:**
 [DateTimeFormatInfo](../../com.aspose.words.net.system.globalization/datetimeformatinfo)
 ### getLocale(System.Globalization.CultureInfo cultureInfo) {#getLocale-com.aspose.words.net.System.Globalization.CultureInfo-}
 ```
@@ -117,14 +117,14 @@ public Locale getLocale(System.Globalization.CultureInfo cultureInfo)
 ```
 
 
-从 .Net 风格的 CultureInfo 获取 java 语言环境
+Gets java Locale from .Net-style CultureInfo
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cultureInfo | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) |  |
 
-**退货:**
+**Returns:**
 java.util.Locale
 ### hashCode() {#hashCode--}
 ```
@@ -134,8 +134,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -160,7 +160,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -178,8 +178,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -191,8 +191,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,41 +1,41 @@
 ---
 title: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示指定范围内的结构化文档标签的实例集合。
+description: A collection of  instances that represent the structured document tags in the specified range.
 type: docs
 weight: 533
-url: /zh/java/com.aspose.words/structureddocumenttagcollection/
+url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class StructuredDocumentTagCollection implements Iterable
 ```
 
-一个集合[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)表示指定范围内的结构化文档标签的实例。
+A collection of [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) instances that represent the structured document tags in the specified range.
 
-要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
-## 方法s
+To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回指定索引处的结构化文档标签。 |
-| [getById(int id)](#getById-int-) | 按标识符返回结构化文档标签。 |
-| [getByTag(String tag)](#getByTag-java.lang.String-) | 返回集合中遇到的第一个带有指定标签的结构化文档标签。 |
-| [getByTitle(String title)](#getByTitle-java.lang.String-) | 返回集合中遇到的具有指定标题的第一个结构化文档标记。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 返回集合中结构化文档标签的数量。 |
+| [get(int index)](#get-int-) | Returns the structured document tag at the specified index. |
+| [getById(int id)](#getById-int-) | Returns the structured document tag by identifier. |
+| [getByTag(String tag)](#getByTag-java.lang.String-) | Returns the first structured document tag encountered in the collection with the specified tag. |
+| [getByTitle(String title)](#getByTitle-java.lang.String-) | Returns the first structured document tag encountered in the collection with the specified title. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of structured document tags in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个枚举器对象。 |
+| [iterator()](#iterator--) | Returns an enumerator object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(int id)](#remove-int-) | 删除具有指定标识符的结构化文档标签。 |
-| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的结构化文档标记。 |
+| [remove(int id)](#remove-int-) | Removes the structured document tag with the specified identifier. |
+| [removeAt(int index)](#removeAt-int-) | Removes a structured document tag at the specified index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,44 +48,44 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public IStructuredDocumentTag get(int index)
 ```
 
 
-返回指定索引处的结构化文档标签。
+Returns the structured document tag at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 集合中的索引。 |
+| index | int | An index into the collection. |
 
-**退货:**
-[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) - 指定索引处的结构化文档标签。
+**Returns:**
+[IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag) - The structured document tag at the specified index.
 ### getById(int id) {#getById-int-}
 ```
 public IStructuredDocumentTag getById(int id)
 ```
 
 
-按标识符返回结构化文档标签。
+Returns the structured document tag by identifier.
 
-如果找不到具有指定标识符的结构化文档标签，则返回 null。
+Returns null if the structured document tag with the specified identifier cannot be found.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| id | int | 结构化文档标签标识符。 |
+| id | int | The structured document tag identifier. |
 
-**退货:**
+**Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
 ### getByTag(String tag) {#getByTag-java.lang.String-}
 ```
@@ -93,16 +93,16 @@ public IStructuredDocumentTag getByTag(String tag)
 ```
 
 
-返回集合中遇到的第一个带有指定标签的结构化文档标签。
+Returns the first structured document tag encountered in the collection with the specified tag.
 
-如果找不到具有指定标签的结构化文档标签，则返回 null。
+Returns null if the structured document tag with the specified tag cannot be found.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| tag | java.lang.String | 结构化文档标签的标签。 |
+| tag | java.lang.String | The tag of the structured document tag. |
 
-**退货:**
+**Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
 ### getByTitle(String title) {#getByTitle-java.lang.String-}
 ```
@@ -110,37 +110,37 @@ public IStructuredDocumentTag getByTitle(String title)
 ```
 
 
-返回集合中遇到的具有指定标题的第一个结构化文档标记。
+Returns the first structured document tag encountered in the collection with the specified title.
 
-如果找不到具有指定标题的结构化文档标签，则返回 null。
+Returns null if the structured document tag with the specified title cannot be found.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| title | java.lang.String | 结构化文档标签的标题。 |
+| title | java.lang.String | The title of structured document tag. |
 
-**退货:**
+**Returns:**
 [IStructuredDocumentTag](../../com.aspose.words/istructureddocumenttag)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-返回集合中结构化文档标签的数量。
+Returns the number of structured document tags in the collection.
 
-**退货:**
-int - 集合中结构化文档标签的数量。
+**Returns:**
+int - The number of structured document tags in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -149,17 +149,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个枚举器对象。
+Returns an enumerator object.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -183,12 +183,12 @@ public void remove(int id)
 ```
 
 
-删除具有指定标识符的结构化文档标签。
+Removes the structured document tag with the specified identifier.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| id | int | 结构化文档标签标识符。 |
+| id | int | The structured document tag identifier. |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -196,12 +196,12 @@ public void removeAt(int index)
 ```
 
 
-删除指定索引处的结构化文档标记。
+Removes a structured document tag at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 集合中的索引。 |
+| index | int | An index into the collection. |
 
 ### toString() {#toString--}
 ```
@@ -211,7 +211,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -229,8 +229,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -242,8 +242,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

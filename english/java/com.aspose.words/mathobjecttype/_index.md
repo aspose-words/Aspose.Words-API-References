@@ -1,68 +1,68 @@
 ---
-title: MathObject类型
-second_title: Aspose.Words for Java API 参考
-description: 指定 Office Math 对象的类型。
+title: MathObjectType
+second_title: Aspose.Words for Java API Reference
+description: Specifies type of an Office Math object.
 type: docs
 weight: 391
-url: /zh/java/com.aspose.words/mathobjecttype/
+url: /java/com.aspose.words/mathobjecttype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class MathObject类型
+public class MathObjectType
 ```
 
-指定 Office Math 对象的类型。
-## 字段
+Specifies type of an Office Math object.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ACCENT](#ACCENT) | 重音功能，由一个基础和一个组合变音符号组成。 |
-| [ARGUMENT](#ARGUMENT) | 论证对象。 |
-| [ARRAY](#ARRAY) | 数组对象，由一个或多个方程、表达式或其他数学文本组成，可以垂直对齐为相对于行上的周围文本的一个单位。 |
-| [BAR](#BAR) | 条形函数，由一个基本参数和一个上划线或下划线组成。 |
-| [BORDER_BOX](#BORDER-BOX) | Border Box 对象，由围绕数学文本实例（例如公式或方程式）绘制的边框组成 |
-| [BOX](#BOX) | Box 对象，用于对方程式或其他数学文本实例的组件进行分组。 |
-| [DEGREE](#DEGREE) | 数学部首学位。 |
-| [DELIMITER](#DELIMITER) | Delimiter 对象，由开始和结束分隔符（如圆括号、大括号、方括号和竖线）以及包含在其中的元素组成。 |
-| [DENOMINATOR](#DENOMINATOR) | 分数对象的分母。 |
-| [FRACTION](#FRACTION) | 分数对象，由分数条分隔的分子和分母组成。 |
-| [FUNCTION](#FUNCTION) | Function-Apply 对象，它由函数名称和作用的参数元素组成。 |
-| [FUNCTION_NAME](#FUNCTION-NAME) | 函数的名称。 |
-| [GROUP_CHARACTER](#GROUP-CHARACTER) | Group-Character 对象，由在文本上方或下方绘制的字符组成，通常用于视觉上对项目进行分组 |
-| [LIMIT](#LIMIT) | 的下限[LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT)对象和上限[UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT)功能。 |
-| [LOWER_LIMIT](#LOWER-LIMIT) | 下限对象，由基线上的文本和紧邻其下方的缩小文本组成。 |
-| [MATRIX](#MATRIX) | 矩阵对象，由排列在一行或多行和一或多列中的一个或多个元素组成。 |
-| [MATRIX_ROW](#MATRIX-ROW) | 矩阵的单行。 |
-| [NUMERATOR](#NUMERATOR) | 分数对象的分子。 |
-| [N_ARY](#N-ARY) | N 元对象，由一个 n 元对象、一个基数（或操作数）以及可选的上限和下限组成。 |
-| [O_MATH](#O-MATH) | 数学文本的实例。 |
-| [O_MATH_PARA](#O-MATH-PARA) | 包含一个或多个的数学段落或显示数学区域[O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH)处于显示模式的元素。 |
-| [PHANTOM](#PHANTOM) | 幻象对象。 |
-| [PRE_SUB_SUPERSCRIPT](#PRE-SUB-SUPERSCRIPT) | Pre-Sub-Superscript 对象，它由一个基础元素和一个放置在基础左侧的下标和上标组成。 |
-| [RADICAL](#RADICAL) | 部首对象，由部首、基本元素和可选程度组成。 |
-| [SUBSCRIPT](#SUBSCRIPT) | 下标对象，它由一个基本元素和一个位于右下方的缩小大小的脚本组成。 |
-| [SUBSCRIPT_PART](#SUBSCRIPT-PART) | 可以有下标部分的对象的下标。 |
-| [SUB_SUPERSCRIPT](#SUB-SUPERSCRIPT) | 子上标对象，它由一个基本元素、一个位于下方和右侧的缩小大小的脚本以及一个位于上方和右侧的缩小大小的脚本组成。 |
-| [SUPERCRIPT](#SUPERCRIPT) | 上标对象，它由一个基本元素和一个位于上方和右侧的缩小大小的脚本组成。 |
-| [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | 上标对象的上标。 |
-| [UPPER_LIMIT](#UPPER-LIMIT) | 上限对象，由基线上的文本和紧接其上方的缩小大小的文本组成。 |
+| [ACCENT](#ACCENT) | Accent function, consisting of a base and a combining diacritical mark. |
+| [ARGUMENT](#ARGUMENT) | Argument object. |
+| [ARRAY](#ARRAY) | Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line. |
+| [BAR](#BAR) | Bar function, consisting of a base argument and an overbar or underbar. |
+| [BORDER_BOX](#BORDER-BOX) | Border Box object, consisting of a border drawn around an instance of mathematical text (such as a formula or equation) |
+| [BOX](#BOX) | Box object, which is used to group components of an equation or other instance of mathematical text. |
+| [DEGREE](#DEGREE) | Degree in the mathematical radical. |
+| [DELIMITER](#DELIMITER) | Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside. |
+| [DENOMINATOR](#DENOMINATOR) | Denominator of a fraction object. |
+| [FRACTION](#FRACTION) | Fraction object, consisting of a numerator and denominator separated by a fraction bar. |
+| [FUNCTION](#FUNCTION) | Function-Apply object, which consists of a function name and an argument element acted upon. |
+| [FUNCTION_NAME](#FUNCTION-NAME) | Name of the function. |
+| [GROUP_CHARACTER](#GROUP-CHARACTER) | Group-Character object, consisting of a character drawn above or below text, often with the purpose of visually grouping items |
+| [LIMIT](#LIMIT) | Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT) function. |
+| [LOWER_LIMIT](#LOWER-LIMIT) | Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it. |
+| [MATRIX](#MATRIX) | Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns. |
+| [MATRIX_ROW](#MATRIX-ROW) | Single row of the matrix. |
+| [NUMERATOR](#NUMERATOR) | Numerator of the Fraction object. |
+| [N_ARY](#N-ARY) | N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits. |
+| [O_MATH](#O-MATH) | Instance of mathematical text. |
+| [O_MATH_PARA](#O-MATH-PARA) | Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode. |
+| [PHANTOM](#PHANTOM) | Phantom object. |
+| [PRE_SUB_SUPERSCRIPT](#PRE-SUB-SUPERSCRIPT) | Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base. |
+| [RADICAL](#RADICAL) | Radical object, consisting of a radical, a base element, and an optional degree . |
+| [SUBSCRIPT](#SUBSCRIPT) | Subscript object, which consists of a base element and a reduced-size script placed below and to the right. |
+| [SUBSCRIPT_PART](#SUBSCRIPT-PART) | Subscript of the object that can have subscript part. |
+| [SUB_SUPERSCRIPT](#SUB-SUPERSCRIPT) | Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right. |
+| [SUPERCRIPT](#SUPERCRIPT) | Superscript object, which consists of a base element and a reduced-size script placed above and to the right. |
+| [SUPERSCRIPT_PART](#SUPERSCRIPT-PART) | Superscript of the superscript object. |
+| [UPPER_LIMIT](#UPPER-LIMIT) | Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mathObject类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int mathObject类型)](#getName-int-) |  |
+| [fromName(String mathObjectTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mathObjectType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int mathObject类型)](#toString-int-) |  |
+| [toString(int mathObjectType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -72,7 +72,7 @@ public static int ACCENT
 ```
 
 
-重音功能，由一个基础和一个组合变音符号组成。
+Accent function, consisting of a base and a combining diacritical mark.
 
 ### ARGUMENT {#ARGUMENT}
 ```
@@ -80,7 +80,7 @@ public static int ARGUMENT
 ```
 
 
-论证对象。当 Office Math 实体用作其他 Office Math 实体的参数时，将其括起来。
+Argument object. Encloses Office Math entities when they are used as arguments to other Office Math entities.
 
 ### ARRAY {#ARRAY}
 ```
@@ -88,7 +88,7 @@ public static int ARRAY
 ```
 
 
-数组对象，由一个或多个方程、表达式或其他数学文本组成，可以垂直对齐为相对于行上的周围文本的一个单位。
+Array object, consisting of one or more equations, expressions, or other mathematical text runs that can be vertically justified as a unit with respect to surrounding text on the line.
 
 ### BAR {#BAR}
 ```
@@ -96,7 +96,7 @@ public static int BAR
 ```
 
 
-条形函数，由一个基本参数和一个上划线或下划线组成。
+Bar function, consisting of a base argument and an overbar or underbar.
 
 ### BORDER_BOX {#BORDER-BOX}
 ```
@@ -104,7 +104,7 @@ public static int BORDER_BOX
 ```
 
 
-Border Box 对象，由围绕数学文本实例（例如公式或方程式）绘制的边框组成
+Border Box object, consisting of a border drawn around an instance of mathematical text (such as a formula or equation)
 
 ### BOX {#BOX}
 ```
@@ -112,7 +112,7 @@ public static int BOX
 ```
 
 
-Box 对象，用于对方程式或其他数学文本实例的组件进行分组。
+Box object, which is used to group components of an equation or other instance of mathematical text.
 
 ### DEGREE {#DEGREE}
 ```
@@ -120,7 +120,7 @@ public static int DEGREE
 ```
 
 
-数学部首学位。
+Degree in the mathematical radical.
 
 ### DELIMITER {#DELIMITER}
 ```
@@ -128,7 +128,7 @@ public static int DELIMITER
 ```
 
 
-Delimiter 对象，由开始和结束分隔符（如圆括号、大括号、方括号和竖线）以及包含在其中的元素组成。
+Delimiter object, consisting of opening and closing delimiters (such as parentheses, braces, brackets, and vertical bars), and an element contained inside.
 
 ### DENOMINATOR {#DENOMINATOR}
 ```
@@ -136,7 +136,7 @@ public static int DENOMINATOR
 ```
 
 
-分数对象的分母。
+Denominator of a fraction object.
 
 ### FRACTION {#FRACTION}
 ```
@@ -144,7 +144,7 @@ public static int FRACTION
 ```
 
 
-分数对象，由分数条分隔的分子和分母组成。
+Fraction object, consisting of a numerator and denominator separated by a fraction bar.
 
 ### FUNCTION {#FUNCTION}
 ```
@@ -152,7 +152,7 @@ public static int FUNCTION
 ```
 
 
-Function-Apply 对象，它由函数名称和作用的参数元素组成。
+Function-Apply object, which consists of a function name and an argument element acted upon.
 
 ### FUNCTION_NAME {#FUNCTION-NAME}
 ```
@@ -160,7 +160,7 @@ public static int FUNCTION_NAME
 ```
 
 
-函数的名称。例如，函数名称是 sin 和 cos。
+Name of the function. For example, function names are sin and cos.
 
 ### GROUP_CHARACTER {#GROUP-CHARACTER}
 ```
@@ -168,7 +168,7 @@ public static int GROUP_CHARACTER
 ```
 
 
-Group-Character 对象，由在文本上方或下方绘制的字符组成，通常用于视觉上对项目进行分组
+Group-Character object, consisting of a character drawn above or below text, often with the purpose of visually grouping items
 
 ### LIMIT {#LIMIT}
 ```
@@ -176,7 +176,7 @@ public static int LIMIT
 ```
 
 
-的下限[LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT)对象和上限[UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT)功能。
+Lower limit of the [LOWER\_LIMIT](../../com.aspose.words/mathobjecttype\#LOWER-LIMIT) object and the upper limit of the [UPPER\_LIMIT](../../com.aspose.words/mathobjecttype\#UPPER-LIMIT) function.
 
 ### LOWER_LIMIT {#LOWER-LIMIT}
 ```
@@ -184,7 +184,7 @@ public static int LOWER_LIMIT
 ```
 
 
-下限对象，由基线上的文本和紧邻其下方的缩小文本组成。
+Lower-Limit object, consisting of text on the baseline and reduced-size text immediately below it.
 
 ### MATRIX {#MATRIX}
 ```
@@ -192,7 +192,7 @@ public static int MATRIX
 ```
 
 
-矩阵对象，由排列在一行或多行和一或多列中的一个或多个元素组成。
+Matrix object, consisting of one or more elements laid out in one or more rows and one or more columns.
 
 ### MATRIX_ROW {#MATRIX-ROW}
 ```
@@ -200,7 +200,7 @@ public static int MATRIX_ROW
 ```
 
 
-矩阵的单行。
+Single row of the matrix.
 
 ### NUMERATOR {#NUMERATOR}
 ```
@@ -208,7 +208,7 @@ public static int NUMERATOR
 ```
 
 
-分数对象的分子。
+Numerator of the Fraction object.
 
 ### N_ARY {#N-ARY}
 ```
@@ -216,7 +216,7 @@ public static int N_ARY
 ```
 
 
-N 元对象，由一个 n 元对象、一个基数（或操作数）以及可选的上限和下限组成。
+N-ary object, consisting of an n-ary object, a base (or operand), and optional upper and lower limits.
 
 ### O_MATH {#O-MATH}
 ```
@@ -224,7 +224,7 @@ public static int O_MATH
 ```
 
 
-数学文本的实例。
+Instance of mathematical text.
 
 ### O_MATH_PARA {#O-MATH-PARA}
 ```
@@ -232,7 +232,7 @@ public static int O_MATH_PARA
 ```
 
 
-包含一个或多个的数学段落或显示数学区域[O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH)处于显示模式的元素。
+Math paragraph, or display math zone, that contains one or more [O\_MATH](../../com.aspose.words/mathobjecttype\#O-MATH) elements that are in display mode.
 
 ### PHANTOM {#PHANTOM}
 ```
@@ -240,7 +240,7 @@ public static int PHANTOM
 ```
 
 
-幻象对象。
+Phantom object.
 
 ### PRE_SUB_SUPERSCRIPT {#PRE-SUB-SUPERSCRIPT}
 ```
@@ -248,7 +248,7 @@ public static int PRE_SUB_SUPERSCRIPT
 ```
 
 
-Pre-Sub-Superscript 对象，它由一个基础元素和一个放置在基础左侧的下标和上标组成。
+Pre-Sub-Superscript object, which consists of a base element and a subscript and superscript placed to the left of the base.
 
 ### RADICAL {#RADICAL}
 ```
@@ -256,7 +256,7 @@ public static int RADICAL
 ```
 
 
-部首对象，由部首、基本元素和可选程度组成。
+Radical object, consisting of a radical, a base element, and an optional degree .
 
 ### SUBSCRIPT {#SUBSCRIPT}
 ```
@@ -264,7 +264,7 @@ public static int SUBSCRIPT
 ```
 
 
-下标对象，它由一个基本元素和一个位于右下方的缩小大小的脚本组成。
+Subscript object, which consists of a base element and a reduced-size script placed below and to the right.
 
 ### SUBSCRIPT_PART {#SUBSCRIPT-PART}
 ```
@@ -272,7 +272,7 @@ public static int SUBSCRIPT_PART
 ```
 
 
-可以有下标部分的对象的下标。
+Subscript of the object that can have subscript part.
 
 ### SUB_SUPERSCRIPT {#SUB-SUPERSCRIPT}
 ```
@@ -280,7 +280,7 @@ public static int SUB_SUPERSCRIPT
 ```
 
 
-子上标对象，它由一个基本元素、一个位于下方和右侧的缩小大小的脚本以及一个位于上方和右侧的缩小大小的脚本组成。
+Sub-superscript object, which consists of a base element, a reduced-size script placed below and to the right, and a reduced-size script placed above and to the right.
 
 ### SUPERCRIPT {#SUPERCRIPT}
 ```
@@ -288,7 +288,7 @@ public static int SUPERCRIPT
 ```
 
 
-上标对象，它由一个基本元素和一个位于上方和右侧的缩小大小的脚本组成。
+Superscript object, which consists of a base element and a reduced-size script placed above and to the right.
 
 ### SUPERSCRIPT_PART {#SUPERSCRIPT-PART}
 ```
@@ -296,7 +296,7 @@ public static int SUPERSCRIPT_PART
 ```
 
 
-上标对象的上标。
+Superscript of the superscript object.
 
 ### UPPER_LIMIT {#UPPER-LIMIT}
 ```
@@ -304,7 +304,7 @@ public static int UPPER_LIMIT
 ```
 
 
-上限对象，由基线上的文本和紧接其上方的缩小大小的文本组成。
+Upper-Limit object, consisting of text on the baseline and reduced-size text immediately above it.
 
 ### length {#length}
 ```
@@ -320,52 +320,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String mathObject类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String mathObjectTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String mathObject类型Name)
+public static int fromName(String mathObjectTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mathObject类型Name | java.lang.String |  |
+| mathObjectTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int mathObject类型) {#getName-int-}
-```
-public static String getName(int mathObject类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int mathObjectType) {#getName-int-}
+```
+public static String getName(int mathObjectType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mathObject类型 | int |  |
+| mathObjectType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -375,8 +375,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -385,8 +385,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -411,22 +411,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int mathObject类型) {#toString-int-}
+### toString(int mathObjectType) {#toString-int-}
 ```
-public static String toString(int mathObject类型)
+public static String toString(int mathObjectType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mathObject类型 | int |  |
+| mathObjectType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -444,8 +444,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -457,8 +457,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,34 +1,34 @@
 ---
-title: 字段IfComparisonResult
-second_title: Aspose.Words for Java API 参考
-description: 指定 IF 字段条件评估的结果。
+title: FieldIfComparisonResult
+second_title: Aspose.Words for Java API Reference
+description: Specifies the result of the IF field condition evaluation.
 type: docs
 weight: 201
-url: /zh/java/com.aspose.words/fieldifcomparisonresult/
+url: /java/com.aspose.words/fieldifcomparisonresult/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段IfComparisonResult
+public class FieldIfComparisonResult
 ```
 
-指定 IF 字段条件评估的结果。
-## 字段
+Specifies the result of the IF field condition evaluation.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ERROR](#ERROR) | 条件有误。 |
-| [FALSE](#FALSE) | 条件为假。 |
-| [TRUE](#TRUE) | 条件为真。 |
+| [ERROR](#ERROR) | There is an error in the condition. |
+| [FALSE](#FALSE) | The condition is  false . |
+| [TRUE](#TRUE) | The condition is  true . |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldIfComparisonResultName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldIfComparisonResult)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ERROR
 ```
 
 
-条件有误。
+There is an error in the condition.
 
 ### FALSE {#FALSE}
 ```
@@ -53,7 +53,7 @@ public static int FALSE
 ```
 
 
-条件为假。
+The condition is  false .
 
 ### TRUE {#TRUE}
 ```
@@ -61,7 +61,7 @@ public static int TRUE
 ```
 
 
-条件为真。
+The condition is  true .
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String fieldIfComparisonResultName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String fieldIfComparisonResultName)
@@ -92,23 +92,23 @@ public static int fromName(String fieldIfComparisonResultName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIfComparisonResultName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int fieldIfComparisonResult) {#getName-int-}
 ```
 public static String getName(int fieldIfComparisonResult)
@@ -117,12 +117,12 @@ public static String getName(int fieldIfComparisonResult)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIfComparisonResult | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int fieldIfComparisonResult) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int fieldIfComparisonResult)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIfComparisonResult | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

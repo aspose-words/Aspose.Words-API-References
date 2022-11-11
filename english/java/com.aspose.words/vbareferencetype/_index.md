@@ -1,42 +1,42 @@
 ---
-title: VbaReference类型
+title: VbaReferenceType
 second_title: Aspose.Words for Java API Reference
-description: 允许指定对象的类型。
+description: Allows to specify the type of a  object.
 type: docs
 weight: 599
-url: /zh/java/com.aspose.words/vbareferencetype/
+url: /java/com.aspose.words/vbareferencetype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class VbaReference类型
+public class VbaReferenceType
 ```
 
-允许指定类型[VbaReference](../../com.aspose.words/vbareference)目的。
-## 字段
+Allows to specify the type of a [VbaReference](../../com.aspose.words/vbareference) object.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CONTROL](#CONTROL) | 指定一个旋转类型库引用类型。 |
-| [ORIGINAL](#ORIGINAL) | 指定原始自动化类型库引用类型。 |
-| [PROJECT](#PROJECT) | 指定了外部 VBA 项目引用类型。 |
-| [REGISTERED](#REGISTERED) | 指定自动化类型库引用类型。 |
+| [CONTROL](#CONTROL) | Specifies a twiddled type library reference type. |
+| [ORIGINAL](#ORIGINAL) | Specifies an original Automation type library reference type. |
+| [PROJECT](#PROJECT) | Specified an external VBA project reference type. |
+| [REGISTERED](#REGISTERED) | Specifies an Automation type library reference type. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String vbaReference类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int vbaReference类型)](#getName-int-) |  |
+| [fromName(String vbaReferenceTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int vbaReferenceType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int vbaReference类型)](#toString-int-) |  |
+| [toString(int vbaReferenceType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -46,7 +46,7 @@ public static int CONTROL
 ```
 
 
-指定一个旋转类型库引用类型。该类型对应于 2.3.4.2.2.3 REFERENCECONTROL 的记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/d64485fa-8562-4726-9c5e-11e8f01a81c0
+Specifies a twiddled type library reference type. This type corresponds to 2.3.4.2.2.3 REFERENCECONTROL Record of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/d64485fa-8562-4726-9c5e-11e8f01a81c0
 
 ### ORIGINAL {#ORIGINAL}
 ```
@@ -54,7 +54,7 @@ public static int ORIGINAL
 ```
 
 
-指定原始自动化类型库引用类型。此类型对应于 2.3.4.2.2.4 REFERENCEORIGINAL 记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/3ba66994-8c7a-4634-b2da-f9331ace6686
+Specifies an original Automation type library reference type. This type corresponds to 2.3.4.2.2.4 REFERENCEORIGINAL Record of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/3ba66994-8c7a-4634-b2da-f9331ace6686
 
 ### PROJECT {#PROJECT}
 ```
@@ -62,7 +62,7 @@ public static int PROJECT
 ```
 
 
-指定了外部 VBA 项目引用类型。该类型对应 2.3.4.2.2.6 REFERENCEPROJECT 的记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/08280eb0-d628-495c-867f-5985ed020142
+Specified an external VBA project reference type. This type corresponds to 2.3.4.2.2.6 REFERENCEPROJECT Record of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/08280eb0-d628-495c-867f-5985ed020142
 
 ### REGISTERED {#REGISTERED}
 ```
@@ -70,7 +70,7 @@ public static int REGISTERED
 ```
 
 
-指定自动化类型库引用类型。该类型对应于 2.3.4.2.2.5 REFERENCEREGISTERED 的记录[MS-OVBA]：https://docs.microsoft.com/en-us/openspecs/office\_文件\_formats/ms-ovba/6c39388e-96f5-4b93-b90a-ae625a063fcf
+Specifies an Automation type library reference type. This type corresponds to 2.3.4.2.2.5 REFERENCEREGISTERED Record of [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office\_file\_formats/ms-ovba/6c39388e-96f5-4b93-b90a-ae625a063fcf
 
 ### length {#length}
 ```
@@ -86,52 +86,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String vbaReference类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String vbaReferenceTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String vbaReference类型Name)
+public static int fromName(String vbaReferenceTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaReference类型Name | java.lang.String |  |
+| vbaReferenceTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int vbaReference类型) {#getName-int-}
-```
-public static String getName(int vbaReference类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int vbaReferenceType) {#getName-int-}
+```
+public static String getName(int vbaReferenceType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaReference类型 | int |  |
+| vbaReferenceType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,22 +177,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int vbaReference类型) {#toString-int-}
+### toString(int vbaReferenceType) {#toString-int-}
 ```
-public static String toString(int vbaReference类型)
+public static String toString(int vbaReferenceType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| vbaReference类型 | int |  |
+| vbaReferenceType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

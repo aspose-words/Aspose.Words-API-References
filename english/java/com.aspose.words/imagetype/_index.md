@@ -1,46 +1,46 @@
 ---
-title: Image类型
-second_title: Aspose.Words for Java API 参考
-description: 指定 Microsoft Word 文档中图像的类型格式。
+title: ImageType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the type format of an image in a Microsoft Word document.
 type: docs
 weight: 343
-url: /zh/java/com.aspose.words/imagetype/
+url: /java/com.aspose.words/imagetype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Image类型
+public class ImageType
 ```
 
-指定 Microsoft Word 文档中图像的类型（格式）。
-## 字段
+Specifies the type (format) of an image in a Microsoft Word document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BMP](#BMP) | Windows 位图。 |
-| [EMF](#EMF) | Windows 增强型元文件。 |
-| [JPEG](#JPEG) | JPEG JFIF。 |
-| [NO_IMAGE](#NO-IMAGE) | 没有图像数据。 |
-| [PICT](#PICT) | 麦金塔 PICT。 |
-| [PNG](#PNG) | 便携式网络图形。 |
-| [UNKNOWN](#UNKNOWN) | 无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。 |
-| [WMF](#WMF) | Windows 元文件。 |
+| [BMP](#BMP) | Windows Bitmap. |
+| [EMF](#EMF) | Windows Enhanced Metafile. |
+| [JPEG](#JPEG) | JPEG JFIF. |
+| [NO_IMAGE](#NO-IMAGE) | The is no image data. |
+| [PICT](#PICT) | Macintosh PICT. |
+| [PNG](#PNG) | Portable Network Graphics. |
+| [UNKNOWN](#UNKNOWN) | An unknown image type or image type that cannot be directly stored inside a Microsoft Word document. |
+| [WMF](#WMF) | Windows Metafile. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String image类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int image类型)](#getName-int-) |  |
+| [fromName(String imageTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int imageType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int image类型)](#toString-int-) |  |
+| [toString(int imageType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -50,7 +50,7 @@ public static int BMP
 ```
 
 
-Windows 位图。
+Windows Bitmap.
 
 ### EMF {#EMF}
 ```
@@ -58,7 +58,7 @@ public static int EMF
 ```
 
 
-Windows 增强型元文件。
+Windows Enhanced Metafile.
 
 ### JPEG {#JPEG}
 ```
@@ -66,7 +66,7 @@ public static int JPEG
 ```
 
 
-JPEG JFIF。
+JPEG JFIF.
 
 ### NO_IMAGE {#NO-IMAGE}
 ```
@@ -74,7 +74,7 @@ public static int NO_IMAGE
 ```
 
 
-没有图像数据。
+The is no image data.
 
 ### PICT {#PICT}
 ```
@@ -82,7 +82,7 @@ public static int PICT
 ```
 
 
-麦金塔 PICT。现有图像将保留在文档中，但不支持将新 PICT 图像插入文档。
+Macintosh PICT. An existing image will be preserved in a document, but inserting new PICT images into a document is not supported.
 
 ### PNG {#PNG}
 ```
@@ -90,7 +90,7 @@ public static int PNG
 ```
 
 
-便携式网络图形。
+Portable Network Graphics.
 
 ### UNKNOWN {#UNKNOWN}
 ```
@@ -98,7 +98,7 @@ public static int UNKNOWN
 ```
 
 
-无法直接存储在 Microsoft Word 文档中的未知图像类型或图像类型。
+An unknown image type or image type that cannot be directly stored inside a Microsoft Word document.
 
 ### WMF {#WMF}
 ```
@@ -106,7 +106,7 @@ public static int WMF
 ```
 
 
-Windows 元文件。
+Windows Metafile.
 
 ### length {#length}
 ```
@@ -122,52 +122,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String image类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String imageTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String image类型Name)
+public static int fromName(String imageTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| image类型Name | java.lang.String |  |
+| imageTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int image类型) {#getName-int-}
-```
-public static String getName(int image类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int imageType) {#getName-int-}
+```
+public static String getName(int imageType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| image类型 | int |  |
+| imageType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,22 +213,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int image类型) {#toString-int-}
+### toString(int imageType) {#toString-int-}
 ```
-public static String toString(int image类型)
+public static String toString(int imageType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| image类型 | int |  |
+| imageType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,8 +259,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

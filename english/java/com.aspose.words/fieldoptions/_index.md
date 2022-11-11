@@ -1,70 +1,70 @@
 ---
-title: 字段Options
-second_title: Aspose.Words for Java API 参考
-description: 表示用于控制文档中的字段处理的选项。
+title: FieldOptions
+second_title: Aspose.Words for Java API Reference
+description: Represents options to control field handling in a document.
 type: docs
 weight: 227
-url: /zh/java/com.aspose.words/fieldoptions/
+url: /java/com.aspose.words/fieldoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段Options
+public class FieldOptions
 ```
 
-表示用于控制文档中的字段处理的选项。
+Represents options to control field handling in a document.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+To learn more, visit the **Working with Fields** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBarcodeGenerator()](#getBarcodeGenerator--) | 获取或设置自定义条码生成器。 |
-| [getBuiltInTemplatesPaths()](#getBuiltInTemplatesPaths--) | 获取 MS Word 内置模板的路径。 |
-| [get班级()](#get班级--) |  |
-| [getComparisonExpressionEvaluator()](#getComparisonExpressionEvaluator--) | 获取字段比较表达式计算器。 |
-| [getCurrentUser()](#getCurrentUser--) | 获取当前用户信息。 |
-| [getCustomTocStyleSeparator()](#getCustomTocStyleSeparator--) | 获取自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。 |
-| [getDefaultDocumentAuthor()](#getDefaultDocumentAuthor--) | 获取默认文档作者的姓名。 |
-| [get字段DatabaseProvider()](#get字段DatabaseProvider--) | 获取返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。 |
-| [get字段IndexFormat()](#get字段IndexFormat--) | 得到一个[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。 |
-| [get字段UpdateCultureProvider()](#get字段UpdateCultureProvider--) | 获取返回特定于每个特定字段的区域性对象的提供程序。 |
-| [get字段UpdateCultureSource()](#get字段UpdateCultureSource--) | 指定用于格式化字段结果的区域性。 |
-| [get字段UpdatingCallback()](#get字段UpdatingCallback--) | 获取[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行 |
-| [getFileName()](#getFileName--) | 获取文档的文件名。 |
-| [getLegacyNumberFormat()](#getLegacyNumberFormat--) | 获取指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。 |
-| [getPreProcessCulture()](#getPreProcessCulture--) | 获取区域性以预处理字段值。 |
-| [getResultFormatter()](#getResultFormatter--) | 允许控制字段结果的格式。 |
-| [getTemplateName()](#getTemplateName--) | 获取文档使用的模板的文件名。 |
-| [getToaCategories()](#getToaCategories--) | 获取权限类别表。 |
-| [getUseInvariantCultureNumberFormat()](#getUseInvariantCultureNumberFormat--) | 获取表示数字格式是否使用不变区域性解析的值 |
-| [getUserPromptRespondent()](#getUserPromptRespondent--) | 在字段更新期间获取用户提示的响应者。 |
+| [getBarcodeGenerator()](#getBarcodeGenerator--) | Gets or set custom barcode generator. |
+| [getBuiltInTemplatesPaths()](#getBuiltInTemplatesPaths--) | Gets paths of MS Word built-in templates. |
+| [getClass()](#getClass--) |  |
+| [getComparisonExpressionEvaluator()](#getComparisonExpressionEvaluator--) | Gets the field comparison expressions evaluator. |
+| [getCurrentUser()](#getCurrentUser--) | Gets the current user information. |
+| [getCustomTocStyleSeparator()](#getCustomTocStyleSeparator--) | Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
+| [getDefaultDocumentAuthor()](#getDefaultDocumentAuthor--) | Gets default document author's name. |
+| [getFieldDatabaseProvider()](#getFieldDatabaseProvider--) | Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
+| [getFieldIndexFormat()](#getFieldIndexFormat--) | Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. |
+| [getFieldUpdateCultureProvider()](#getFieldUpdateCultureProvider--) | Gets a provider that returns a culture object specific for each particular field. |
+| [getFieldUpdateCultureSource()](#getFieldUpdateCultureSource--) | Specifies what culture to use to format the field result. |
+| [getFieldUpdatingCallback()](#getFieldUpdatingCallback--) | Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
+| [getFileName()](#getFileName--) | Gets the file name of the document. |
+| [getLegacyNumberFormat()](#getLegacyNumberFormat--) | Gets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
+| [getPreProcessCulture()](#getPreProcessCulture--) | Gets the culture to preprocess field values. |
+| [getResultFormatter()](#getResultFormatter--) | Allows to control how the field result is formatted. |
+| [getTemplateName()](#getTemplateName--) | Gets the file name of the template used by the document. |
+| [getToaCategories()](#getToaCategories--) | Gets the table of authorities categories. |
+| [getUseInvariantCultureNumberFormat()](#getUseInvariantCultureNumberFormat--) | Gets the value indicating that number format is parsed using invariant culture or not |
+| [getUserPromptRespondent()](#getUserPromptRespondent--) | Gets the respondent to user prompts during field update. |
 | [hashCode()](#hashCode--) |  |
-| [isBidiTextSupportedOnUpdate()](#isBidiTextSupportedOnUpdate--) | 获取指示在字段更新期间是否完全支持双向文本的值。 |
-| [isBidiTextSupportedOnUpdate(boolean value)](#isBidiTextSupportedOnUpdate-boolean-) | 设置指示在字段更新期间是否完全支持双向文本的值。 |
+| [isBidiTextSupportedOnUpdate()](#isBidiTextSupportedOnUpdate--) | Gets the value indicating whether bidirectional text is fully supported during field update or not. |
+| [isBidiTextSupportedOnUpdate(boolean value)](#isBidiTextSupportedOnUpdate-boolean-) | Sets the value indicating whether bidirectional text is fully supported during field update or not. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBarcodeGenerator(IBarcodeGenerator value)](#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator-) | 获取或设置自定义条码生成器。 |
-| [setBuiltInTemplatesPaths(String[] value)](#setBuiltInTemplatesPaths-java.lang.String---) | 设置 MS Word 内置模板的路径。 |
-| [setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value)](#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator-) | 设置字段比较表达式计算器。 |
-| [setCurrentUser(UserInformation value)](#setCurrentUser-com.aspose.words.UserInformation-) | 设置当前用户信息。 |
-| [setCustomTocStyleSeparator(String value)](#setCustomTocStyleSeparator-java.lang.String-) | 设置自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。 |
-| [setDefaultDocumentAuthor(String value)](#setDefaultDocumentAuthor-java.lang.String-) | 设置默认文档作者的姓名。 |
-| [set字段DatabaseProvider(I字段DatabaseProvider value)](#set字段DatabaseProvider-com.aspose.words.I字段DatabaseProvider-) | 设置返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。 |
-| [set字段IndexFormat(int value)](#set字段IndexFormat-int-) | 设置一个[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。 |
-| [set字段UpdateCultureProvider(I字段UpdateCultureProvider value)](#set字段UpdateCultureProvider-com.aspose.words.I字段UpdateCultureProvider-) | 设置一个提供程序，该提供程序返回特定于每个特定字段的区域性对象。 |
-| [set字段UpdateCultureSource(int value)](#set字段UpdateCultureSource-int-) | 指定用于格式化字段结果的区域性。 |
-| [set字段UpdatingCallback(I字段UpdatingCallback value)](#set字段UpdatingCallback-com.aspose.words.I字段UpdatingCallback-) | 套[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行 |
-| [setFileName(String value)](#setFileName-java.lang.String-) | 设置文档的文件名。 |
-| [setLegacyNumberFormat(boolean value)](#setLegacyNumberFormat-boolean-) | 设置指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。 |
-| [setPreProcessCulture(System.Globalization.CultureInfo value)](#setPreProcessCulture-com.aspose.words.net.System.Globalization.CultureInfo-) | 将区域性设置为预处理字段值。 |
-| [setResultFormatter(I字段ResultFormatter value)](#setResultFormatter-com.aspose.words.I字段ResultFormatter-) | 允许控制字段结果的格式。 |
-| [setTemplateName(String value)](#setTemplateName-java.lang.String-) | 设置文档使用的模板的文件名。 |
-| [setToaCategories(ToaCategories value)](#setToaCategories-com.aspose.words.ToaCategories-) | 设置权限类别表。 |
-| [setUseInvariantCultureNumberFormat(boolean value)](#setUseInvariantCultureNumberFormat-boolean-) | 设置指示数字格式是否使用不变区域性解析的值 |
-| [setUserPromptRespondent(I字段UserPromptRespondent value)](#setUserPromptRespondent-com.aspose.words.I字段UserPromptRespondent-) | 在字段更新期间将响应者设置为用户提示。 |
+| [setBarcodeGenerator(IBarcodeGenerator value)](#setBarcodeGenerator-com.aspose.words.IBarcodeGenerator-) | Gets or set custom barcode generator. |
+| [setBuiltInTemplatesPaths(String[] value)](#setBuiltInTemplatesPaths-java.lang.String---) | Sets paths of MS Word built-in templates. |
+| [setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value)](#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator-) | Sets the field comparison expressions evaluator. |
+| [setCurrentUser(UserInformation value)](#setCurrentUser-com.aspose.words.UserInformation-) | Sets the current user information. |
+| [setCustomTocStyleSeparator(String value)](#setCustomTocStyleSeparator-java.lang.String-) | Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
+| [setDefaultDocumentAuthor(String value)](#setDefaultDocumentAuthor-java.lang.String-) | Sets default document author's name. |
+| [setFieldDatabaseProvider(IFieldDatabaseProvider value)](#setFieldDatabaseProvider-com.aspose.words.IFieldDatabaseProvider-) | Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
+| [setFieldIndexFormat(int value)](#setFieldIndexFormat-int-) | Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. |
+| [setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value)](#setFieldUpdateCultureProvider-com.aspose.words.IFieldUpdateCultureProvider-) | Sets a provider that returns a culture object specific for each particular field. |
+| [setFieldUpdateCultureSource(int value)](#setFieldUpdateCultureSource-int-) | Specifies what culture to use to format the field result. |
+| [setFieldUpdatingCallback(IFieldUpdatingCallback value)](#setFieldUpdatingCallback-com.aspose.words.IFieldUpdatingCallback-) | Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
+| [setFileName(String value)](#setFileName-java.lang.String-) | Sets the file name of the document. |
+| [setLegacyNumberFormat(boolean value)](#setLegacyNumberFormat-boolean-) | Sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
+| [setPreProcessCulture(System.Globalization.CultureInfo value)](#setPreProcessCulture-com.aspose.words.net.System.Globalization.CultureInfo-) | Sets the culture to preprocess field values. |
+| [setResultFormatter(IFieldResultFormatter value)](#setResultFormatter-com.aspose.words.IFieldResultFormatter-) | Allows to control how the field result is formatted. |
+| [setTemplateName(String value)](#setTemplateName-java.lang.String-) | Sets the file name of the template used by the document. |
+| [setToaCategories(ToaCategories value)](#setToaCategories-com.aspose.words.ToaCategories-) | Sets the table of authorities categories. |
+| [setUseInvariantCultureNumberFormat(boolean value)](#setUseInvariantCultureNumberFormat-boolean-) | Sets the value indicating that number format is parsed using invariant culture or not |
+| [setUserPromptRespondent(IFieldUserPromptRespondent value)](#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent-) | Sets the respondent to user prompts during field update. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -77,251 +77,251 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBarcodeGenerator() {#getBarcodeGenerator--}
 ```
 public IBarcodeGenerator getBarcodeGenerator()
 ```
 
 
-获取或设置自定义条码生成器。自定义条码生成器应实现公共接口[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
+Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
 
-**退货:**
-[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) 或设置自定义条码生成器。
+**Returns:**
+[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) - Or set custom barcode generator.
 ### getBuiltInTemplatesPaths() {#getBuiltInTemplatesPaths--}
 ```
 public String[] getBuiltInTemplatesPaths()
 ```
 
 
-获取 MS Word 内置模板的路径。
+Gets paths of MS Word built-in templates.
 
-该属性由[字段AutoText](../../com.aspose.words/fieldautotext)和[字段Glossary](../../com.aspose.words/fieldglossary)字段，如果在[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)模板。
+This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext) and [FieldGlossary](../../com.aspose.words/fieldglossary) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) template.
 
-默认情况下，MS Word 将内置模板存储在 c 中：\\用户\\\\应用程序数据\\漫游\\微软\\文档构建块\\1033\\16\\内置 Building Blocks.dotx 和 C：\\用户\\\\应用程序数据\\漫游\\微软\\模板\\Normal.dotm 文件。
+By default MS Word stores built-in templates in c:\\Users\\\\AppData\\Roaming\\Microsoft\\Document Building Blocks\\1033\\16\\Built-In Building Blocks.dotx and C:\\Users\\\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm files.
 
-**退货:**
-java.lang.String[] - MS Word 内置模板的路径。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String[] - Paths of MS Word built-in templates.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getComparisonExpressionEvaluator() {#getComparisonExpressionEvaluator--}
 ```
 public IComparisonExpressionEvaluator getComparisonExpressionEvaluator()
 ```
 
 
-获取字段比较表达式计算器。
+Gets the field comparison expressions evaluator.
 
-**退货:**
-[IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) - 字段比较表达式评估器。
+**Returns:**
+[IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) - The field comparison expressions evaluator.
 ### getCurrentUser() {#getCurrentUser--}
 ```
 public UserInformation getCurrentUser()
 ```
 
 
-获取当前用户信息。
+Gets the current user information.
 
-**退货:**
-[UserInformation](../../com.aspose.words/userinformation) - 当前用户信息。
+**Returns:**
+[UserInformation](../../com.aspose.words/userinformation) - The current user information.
 ### getCustomTocStyleSeparator() {#getCustomTocStyleSeparator--}
 ```
 public String getCustomTocStyleSeparator()
 ```
 
 
-获取自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。默认情况下，由\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)字段由取自当前区域性的分隔符分隔。此属性通过指定用户定义的分隔符来覆盖该行为。
+Gets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
 
-**退货:**
- java.lang.String - 自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。
+**Returns:**
+java.lang.String - Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field.
 ### getDefaultDocumentAuthor() {#getDefaultDocumentAuthor--}
 ```
 public String getDefaultDocumentAuthor()
 ```
 
 
-获取默认文档作者的姓名。如果已在内置文档属性中指定作者姓名，则不考虑此选项。
+Gets default document author's name. If author's name is already specified in built-in document properties, this option is not considered.
 
-**退货:**
-java.lang.String - 默认文档作者的姓名。
-### get字段DatabaseProvider() {#get字段DatabaseProvider--}
+**Returns:**
+java.lang.String - Default document author's name.
+### getFieldDatabaseProvider() {#getFieldDatabaseProvider--}
 ```
-public I字段DatabaseProvider get字段DatabaseProvider()
-```
-
-
-获取返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。
-
-**退货:**
-[I字段DatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) - 返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。
-### get字段IndexFormat() {#get字段IndexFormat--}
-```
-public int get字段IndexFormat()
+public IFieldDatabaseProvider getFieldDatabaseProvider()
 ```
 
 
-得到一个[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。
+Gets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
 
-**退货:**
-诠释 - A[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。返回值是以下之一[字段IndexFormat](../../com.aspose.words/fieldindexformat)常数。
-### get字段UpdateCultureProvider() {#get字段UpdateCultureProvider--}
+**Returns:**
+[IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) - A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
+### getFieldIndexFormat() {#getFieldIndexFormat--}
 ```
-public I字段UpdateCultureProvider get字段UpdateCultureProvider()
-```
-
-
-获取返回特定于每个特定字段的区域性对象的提供程序。
-
-当值为[get字段UpdateCultureSource()](../../com.aspose.words/fieldoptions\#get字段UpdateCultureSource--) / [set字段UpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#set字段UpdateCultureSource-int-)是**字段UpdateCultureSource.字段Code**.
-
-如果提供者存在，则它返回的区域性对象用于字段更新。否则，使用系统文化。
-
-**退货:**
-[I字段UpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) - 返回特定于每个特定字段的文化对象的提供程序。
-### get字段UpdateCultureSource() {#get字段UpdateCultureSource--}
-```
-public int get字段UpdateCultureSource()
+public int getFieldIndexFormat()
 ```
 
 
-指定用于格式化字段结果的区域性。
+Gets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document.
 
-默认情况下，使用当前线程的文化。
-
-该设置仅影响日期/时间字段\\\\@ 格式切换。
-
-**退货:**
-int - 对应的 int 值。返回值是以下之一[字段UpdateCultureSource](../../com.aspose.words/fieldupdateculturesource)常数。
-### get字段UpdatingCallback() {#get字段UpdatingCallback--}
+**Returns:**
+int - A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. The returned value is one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat) constants.
+### getFieldUpdateCultureProvider() {#getFieldUpdateCultureProvider--}
 ```
-public I字段UpdatingCallback get字段UpdatingCallback()
+public IFieldUpdateCultureProvider getFieldUpdateCultureProvider()
 ```
 
 
-获取[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行
+Gets a provider that returns a culture object specific for each particular field.
 
-**退货:**
-[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) -\{[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行
+The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource--) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int-) is **FieldUpdateCultureSource.FieldCode**.
+
+If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
+
+**Returns:**
+[IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) - A provider that returns a culture object specific for each particular field.
+### getFieldUpdateCultureSource() {#getFieldUpdateCultureSource--}
+```
+public int getFieldUpdateCultureSource()
+```
+
+
+Specifies what culture to use to format the field result.
+
+By default, the culture of the current thread is used.
+
+The setting affects only date/time fields with \\\\@ format switch.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource) constants.
+### getFieldUpdatingCallback() {#getFieldUpdatingCallback--}
+```
+public IFieldUpdatingCallback getFieldUpdatingCallback()
+```
+
+
+Gets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
+
+**Returns:**
+[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) - \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
 ### getFileName() {#getFileName--}
 ```
 public String getFileName()
 ```
 
 
-获取文档的文件名。
+Gets the file name of the document.
 
-该属性由[字段FileName](../../com.aspose.words/fieldfilename)具有更高优先级的字段[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)财产。
+This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--) property.
 
-**退货:**
-java.lang.String - 文档的文件名。
+**Returns:**
+java.lang.String - The file name of the document.
 ### getLegacyNumberFormat() {#getLegacyNumberFormat--}
 ```
 public boolean getLegacyNumberFormat()
 ```
 
 
-获取指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。
+Gets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 
-当此属性设置为**true**模板符号 "\#" 在 .net 中工作：如果存在，则将井号替换为相应的数字；否则，结果字符串中不会出现符号。
+When this property is set to **true**, template symbol "\#" worked as in .net: Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
 
-当此属性设置为**false**模板符号 "\ #" 作为 MS Word 工作：此格式项指定要在结果中显示的必要数字位置。如果结果在该位置不包含数字，MS Word 将显示一个空格。例如，\ { = 9 + 6\\\ #$\#\#\# \} 显示 15 美元。
+When this property is set to **false**, template symbol "\#" works as MS Word: This format item specifies the requisite numeric places to display in the result. If the result does not include a digit in that place, MS Word displays a space. For example, \{ = 9 + 6 \\\# $\#\#\# \} displays $ 15.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。
+**Returns:**
+boolean - The value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 ### getPreProcessCulture() {#getPreProcessCulture--}
 ```
 public System.Globalization.CultureInfo getPreProcessCulture()
 ```
 
 
-获取区域性以预处理字段值。
+Gets the culture to preprocess field values.
 
-目前这个属性只影响[字段DocProperty](../../com.aspose.words/fielddocproperty)场地。
+Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field.
 
-默认值为**null**.当此属性设置为**null**， 这[字段DocProperty](../../com.aspose.words/fielddocproperty)字段的值使用受控制的区域性进行预处理[get字段UpdateCultureSource()](../../com.aspose.words/fieldoptions\#get字段UpdateCultureSource--) / [set字段UpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#set字段UpdateCultureSource-int-)财产。
+The default value is **null**. When this property is set to **null**, the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource--) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int-) property.
 
-**退货:**
-[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) 预处理字段值的文化。
+**Returns:**
+[CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) - The culture to preprocess field values.
 ### getResultFormatter() {#getResultFormatter--}
 ```
-public I字段ResultFormatter getResultFormatter()
+public IFieldResultFormatter getResultFormatter()
 ```
 
 
-允许控制字段结果的格式。
+Allows to control how the field result is formatted.
 
-**退货:**
-[I字段ResultFormatter](../../com.aspose.words/ifieldresultformatter) - 相应的[I字段ResultFormatter](../../com.aspose.words/ifieldresultformatter)价值。
+**Returns:**
+[IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) - The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) value.
 ### getTemplateName() {#getTemplateName--}
 ```
 public String getTemplateName()
 ```
 
 
-获取文档使用的模板的文件名。
+Gets the file name of the template used by the document.
 
-该属性由[字段Template](../../com.aspose.words/fieldtemplate)字段如果[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)属性为空。
+This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property is empty.
 
-如果此属性为空，则使用默认模板文件名 Normal.dotm。
+If this property is empty, the default template file name  Normal.dotm  is used.
 
-**退货:**
-java.lang.String - 文档使用的模板的文件名。
+**Returns:**
+java.lang.String - The file name of the template used by the document.
 ### getToaCategories() {#getToaCategories--}
 ```
 public ToaCategories getToaCategories()
 ```
 
 
-获取权限类别表。
+Gets the table of authorities categories.
 
-**退货:**
-[ToaCategories](../../com.aspose.words/toacategories) 权限类别表。
+**Returns:**
+[ToaCategories](../../com.aspose.words/toacategories) - The table of authorities categories.
 ### getUseInvariantCultureNumberFormat() {#getUseInvariantCultureNumberFormat--}
 ```
 public boolean getUseInvariantCultureNumberFormat()
 ```
 
 
-获取表示数字格式是否使用不变区域性解析的值
+Gets the value indicating that number format is parsed using invariant culture or not
 
-当此属性设置为**true**, 数字格式取自不变的文化。
+When this property is set to **true**, number format is taken from an invariant culture.
 
-当此属性设置为**false**, 数字格式取自当前线程的文化。
+When this property is set to **false**, number format is taken from the current thread's culture.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 指示数字格式是否使用不变文化解析的值
+**Returns:**
+boolean - The value indicating that number format is parsed using invariant culture or not
 ### getUserPromptRespondent() {#getUserPromptRespondent--}
 ```
-public I字段UserPromptRespondent getUserPromptRespondent()
+public IFieldUserPromptRespondent getUserPromptRespondent()
 ```
 
 
-在字段更新期间获取用户提示的响应者。
+Gets the respondent to user prompts during field update.
 
-如果此属性的值设置为**null**，需要用户响应提示的字段（例如[字段Ask](../../com.aspose.words/fieldask)或者[字段FillIn](../../com.aspose.words/fieldfillin)不更新。
+If the value of this property is set to **null**, the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask) or [FieldFillIn](../../com.aspose.words/fieldfillin)) are not updated.
 
-默认值为**null**.
+The default value is **null**.
 
-**退货:**
-[I字段UserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) - 字段更新期间用户提示的受访者。
+**Returns:**
+[IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) - The respondent to user prompts during field update.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -330,42 +330,42 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isBidiTextSupportedOnUpdate() {#isBidiTextSupportedOnUpdate--}
 ```
 public boolean isBidiTextSupportedOnUpdate()
 ```
 
 
-获取指示在字段更新期间是否完全支持双向文本的值。
+Gets the value indicating whether bidirectional text is fully supported during field update or not.
 
-当此属性设置为**true**，执行附加步骤以在其更新期间生成从右到左的语言（即阿拉伯语或希伯来语）兼容的字段结果。
+When this property is set to **true**, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
 
-当此属性设置为**false**并且使用从右到左的语言，不保证更新后字段结果的正确性。
+When this property is set to **false** and Right-To-Left language is used, correctness of field result after its update is not guaranteed.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 指示在字段更新期间是否完全支持双向文本的值。
+**Returns:**
+boolean - The value indicating whether bidirectional text is fully supported during field update or not.
 ### isBidiTextSupportedOnUpdate(boolean value) {#isBidiTextSupportedOnUpdate-boolean-}
 ```
 public void isBidiTextSupportedOnUpdate(boolean value)
 ```
 
 
-设置指示在字段更新期间是否完全支持双向文本的值。
+Sets the value indicating whether bidirectional text is fully supported during field update or not.
 
-当此属性设置为**true**，执行附加步骤以在其更新期间生成从右到左的语言（即阿拉伯语或希伯来语）兼容的字段结果。
+When this property is set to **true**, additional steps are performed to produce Right-To-Left language (i.e. Arabic or Hebrew) compatible field result during its update.
 
-当此属性设置为**false**并且使用从右到左的语言，不保证更新后字段结果的正确性。
+When this property is set to **false** and Right-To-Left language is used, correctness of field result after its update is not guaranteed.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示在字段更新期间是否完全支持双向文本的值。 |
+| value | boolean | The value indicating whether bidirectional text is fully supported during field update or not. |
 
 ### notify() {#notify--}
 ```
@@ -389,12 +389,12 @@ public void setBarcodeGenerator(IBarcodeGenerator value)
 ```
 
 
-获取或设置自定义条码生成器。自定义条码生成器应实现公共接口[IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
+Gets or set custom barcode generator. Custom barcode generator should implement public interface [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) | 或设置自定义条码生成器。 |
+| value | [IBarcodeGenerator](../../com.aspose.words/ibarcodegenerator) | Or set custom barcode generator. |
 
 ### setBuiltInTemplatesPaths(String[] value) {#setBuiltInTemplatesPaths-java.lang.String---}
 ```
@@ -402,16 +402,16 @@ public void setBuiltInTemplatesPaths(String[] value)
 ```
 
 
-设置 MS Word 内置模板的路径。
+Sets paths of MS Word built-in templates.
 
-该属性由[字段AutoText](../../com.aspose.words/fieldautotext)和[字段Glossary](../../com.aspose.words/fieldglossary)字段，如果在[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)模板。
+This property is used by the [FieldAutoText](../../com.aspose.words/fieldautotext) and [FieldGlossary](../../com.aspose.words/fieldglossary) fields, if referenced auto text entry is not found in the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) template.
 
-默认情况下，MS Word 将内置模板存储在 c 中：\\用户\\\\应用程序数据\\漫游\\微软\\文档构建块\\1033\\16\\内置 Building Blocks.dotx 和 C：\\用户\\\\应用程序数据\\漫游\\微软\\模板\\Normal.dotm 文件。
+By default MS Word stores built-in templates in c:\\Users\\\\AppData\\Roaming\\Microsoft\\Document Building Blocks\\1033\\16\\Built-In Building Blocks.dotx and C:\\Users\\\\AppData\\Roaming\\Microsoft\\Templates\\Normal.dotm files.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String[] | MS Word 内置模板的路径。 |
+| value | java.lang.String[] | Paths of MS Word built-in templates. |
 
 ### setComparisonExpressionEvaluator(IComparisonExpressionEvaluator value) {#setComparisonExpressionEvaluator-com.aspose.words.IComparisonExpressionEvaluator-}
 ```
@@ -419,12 +419,12 @@ public void setComparisonExpressionEvaluator(IComparisonExpressionEvaluator valu
 ```
 
 
-设置字段比较表达式计算器。
+Sets the field comparison expressions evaluator.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) | 字段比较表达式求值器。 |
+| value | [IComparisonExpressionEvaluator](../../com.aspose.words/icomparisonexpressionevaluator) | The field comparison expressions evaluator. |
 
 ### setCurrentUser(UserInformation value) {#setCurrentUser-com.aspose.words.UserInformation-}
 ```
@@ -432,12 +432,12 @@ public void setCurrentUser(UserInformation value)
 ```
 
 
-设置当前用户信息。
+Sets the current user information.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [UserInformation](../../com.aspose.words/userinformation) | 当前用户信息。 |
+| value | [UserInformation](../../com.aspose.words/userinformation) | The current user information. |
 
 ### setCustomTocStyleSeparator(String value) {#setCustomTocStyleSeparator-java.lang.String-}
 ```
@@ -445,12 +445,12 @@ public void setCustomTocStyleSeparator(String value)
 ```
 
 
-设置自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。默认情况下，由\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)字段由取自当前区域性的分隔符分隔。此属性通过指定用户定义的分隔符来覆盖该行为。
+Sets custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. By default, custom styles defined by the \\t switch in the [FieldToc](../../com.aspose.words/fieldtoc) field are separated by a delimiter taken from the current culture. This property overrides that behaviour by specifying a user defined delimiter.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 自定义样式分隔符\\t 切换[字段Toc](../../com.aspose.words/fieldtoc)场地。 |
+| value | java.lang.String | Custom style separator for the \\t switch in [FieldToc](../../com.aspose.words/fieldtoc) field. |
 
 ### setDefaultDocumentAuthor(String value) {#setDefaultDocumentAuthor-java.lang.String-}
 ```
@@ -458,85 +458,85 @@ public void setDefaultDocumentAuthor(String value)
 ```
 
 
-设置默认文档作者的姓名。如果已在内置文档属性中指定作者姓名，则不考虑此选项。
+Sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 默认文档作者姓名。 |
+| value | java.lang.String | Default document author's name. |
 
-### set字段DatabaseProvider(I字段DatabaseProvider value) {#set字段DatabaseProvider-com.aspose.words.I字段DatabaseProvider-}
+### setFieldDatabaseProvider(IFieldDatabaseProvider value) {#setFieldDatabaseProvider-com.aspose.words.IFieldDatabaseProvider-}
 ```
-public void set字段DatabaseProvider(I字段DatabaseProvider value)
+public void setFieldDatabaseProvider(IFieldDatabaseProvider value)
 ```
 
 
-设置返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。
+Sets a provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [I字段DatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) | 返回查询结果的提供程序[字段Database](../../com.aspose.words/fielddatabase)场地。 |
+| value | [IFieldDatabaseProvider](../../com.aspose.words/ifielddatabaseprovider) | A provider that returns a query result for the [FieldDatabase](../../com.aspose.words/fielddatabase) field. |
 
-### set字段IndexFormat(int value) {#set字段IndexFormat-int-}
+### setFieldIndexFormat(int value) {#setFieldIndexFormat-int-}
 ```
-public void set字段IndexFormat(int value)
+public void setFieldIndexFormat(int value)
 ```
 
 
-设置一个[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。
+Sets a [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 一个[get字段IndexFormat()](../../com.aspose.words/fieldoptions\#get字段IndexFormat--) / [set字段IndexFormat(int)](../../com.aspose.words/fieldoptions\#set字段IndexFormat-int-)表示格式的[字段Index](../../com.aspose.words/fieldindex)文档中的字段。该值必须是以下之一[字段IndexFormat](../../com.aspose.words/fieldindexformat)常数。 |
+| value | int | A [getFieldIndexFormat()](../../com.aspose.words/fieldoptions\#getFieldIndexFormat--) / [setFieldIndexFormat(int)](../../com.aspose.words/fieldoptions\#setFieldIndexFormat-int-) that represents the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in the document. The value must be one of [FieldIndexFormat](../../com.aspose.words/fieldindexformat) constants. |
 
-### set字段UpdateCultureProvider(I字段UpdateCultureProvider value) {#set字段UpdateCultureProvider-com.aspose.words.I字段UpdateCultureProvider-}
+### setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value) {#setFieldUpdateCultureProvider-com.aspose.words.IFieldUpdateCultureProvider-}
 ```
-public void set字段UpdateCultureProvider(I字段UpdateCultureProvider value)
+public void setFieldUpdateCultureProvider(IFieldUpdateCultureProvider value)
 ```
 
 
-设置一个提供程序，该提供程序返回特定于每个特定字段的区域性对象。
+Sets a provider that returns a culture object specific for each particular field.
 
-当值为[get字段UpdateCultureSource()](../../com.aspose.words/fieldoptions\#get字段UpdateCultureSource--) / [set字段UpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#set字段UpdateCultureSource-int-)是**字段UpdateCultureSource.字段Code**.
+The provider is requested when the value of [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource--) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int-) is **FieldUpdateCultureSource.FieldCode**.
 
-如果提供者存在，则它返回的区域性对象用于字段更新。否则，使用系统文化。
+If the provider is present, then the culture object it returns is used for the field update. Otherwise, a system culture is used.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [I字段UpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) | 返回特定于每个特定字段的区域性对象的提供程序。 |
+| value | [IFieldUpdateCultureProvider](../../com.aspose.words/ifieldupdatecultureprovider) | A provider that returns a culture object specific for each particular field. |
 
-### set字段UpdateCultureSource(int value) {#set字段UpdateCultureSource-int-}
+### setFieldUpdateCultureSource(int value) {#setFieldUpdateCultureSource-int-}
 ```
-public void set字段UpdateCultureSource(int value)
+public void setFieldUpdateCultureSource(int value)
 ```
 
 
-指定用于格式化字段结果的区域性。
+Specifies what culture to use to format the field result.
 
-默认情况下，使用当前线程的文化。
+By default, the culture of the current thread is used.
 
-该设置仅影响日期/时间字段\\\\@ 格式切换。
+The setting affects only date/time fields with \\\\@ format switch.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[字段UpdateCultureSource](../../com.aspose.words/fieldupdateculturesource)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [FieldUpdateCultureSource](../../com.aspose.words/fieldupdateculturesource) constants. |
 
-### set字段UpdatingCallback(I字段UpdatingCallback value) {#set字段UpdatingCallback-com.aspose.words.I字段UpdatingCallback-}
+### setFieldUpdatingCallback(IFieldUpdatingCallback value) {#setFieldUpdatingCallback-com.aspose.words.IFieldUpdatingCallback-}
 ```
-public void set字段UpdatingCallback(I字段UpdatingCallback value)
+public void setFieldUpdatingCallback(IFieldUpdatingCallback value)
 ```
 
 
-套[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行
+Sets [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) | \{[I字段UpdatingCallback](../../com.aspose.words/ifieldupdatingcallback)执行 |
+| value | [IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) | \{[IFieldUpdatingCallback](../../com.aspose.words/ifieldupdatingcallback) implementation |
 
 ### setFileName(String value) {#setFileName-java.lang.String-}
 ```
@@ -544,14 +544,14 @@ public void setFileName(String value)
 ```
 
 
-设置文档的文件名。
+Sets the file name of the document.
 
-该属性由[字段FileName](../../com.aspose.words/fieldfilename)具有更高优先级的字段[Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--)财产。
+This property is used by the [FieldFileName](../../com.aspose.words/fieldfilename) field with higher priority than the [Document.getOriginalFileName()](../../com.aspose.words/document\#getOriginalFileName--) property.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文档的文件名。 |
+| value | java.lang.String | The file name of the document. |
 
 ### setLegacyNumberFormat(boolean value) {#setLegacyNumberFormat-boolean-}
 ```
@@ -559,18 +559,18 @@ public void setLegacyNumberFormat(boolean value)
 ```
 
 
-设置指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。
+Sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not.
 
-当此属性设置为**true**模板符号 "\#" 在 .net 中工作：如果存在，则将井号替换为相应的数字；否则，结果字符串中不会出现符号。
+When this property is set to **true**, template symbol "\#" worked as in .net: Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
 
-当此属性设置为**false**模板符号 "\ #" 作为 MS Word 工作：此格式项指定要在结果中显示的必要数字位置。如果结果在该位置不包含数字，MS Word 将显示一个空格。例如，\ { = 9 + 6\\\ #$\#\#\# \} 显示 15 美元。
+When this property is set to **false**, template symbol "\#" works as MS Word: This format item specifies the requisite numeric places to display in the result. If the result does not include a digit in that place, MS Word displays a space. For example, \{ = 9 + 6 \\\# $\#\#\# \} displays $ 15.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否启用字段的旧版（早于 AW 13.10）数字格式的值。 |
+| value | boolean | The value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not. |
 
 ### setPreProcessCulture(System.Globalization.CultureInfo value) {#setPreProcessCulture-com.aspose.words.net.System.Globalization.CultureInfo-}
 ```
@@ -578,29 +578,29 @@ public void setPreProcessCulture(System.Globalization.CultureInfo value)
 ```
 
 
-将区域性设置为预处理字段值。
+Sets the culture to preprocess field values.
 
-目前这个属性只影响[字段DocProperty](../../com.aspose.words/fielddocproperty)场地。
+Currently this property only affects value of the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field.
 
-默认值为**null**.当此属性设置为**null**， 这[字段DocProperty](../../com.aspose.words/fielddocproperty)字段的值使用受控制的区域性进行预处理[get字段UpdateCultureSource()](../../com.aspose.words/fieldoptions\#get字段UpdateCultureSource--) / [set字段UpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#set字段UpdateCultureSource-int-)财产。
+The default value is **null**. When this property is set to **null**, the [FieldDocProperty](../../com.aspose.words/fielddocproperty) field's value is preprocessed with the culture controlled by the [getFieldUpdateCultureSource()](../../com.aspose.words/fieldoptions\#getFieldUpdateCultureSource--) / [setFieldUpdateCultureSource(int)](../../com.aspose.words/fieldoptions\#setFieldUpdateCultureSource-int-) property.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) | 预处理字段值的文化。 |
+| value | [CultureInfo](../../com.aspose.words.net.system.globalization/cultureinfo) | The culture to preprocess field values. |
 
-### setResultFormatter(I字段ResultFormatter value) {#setResultFormatter-com.aspose.words.I字段ResultFormatter-}
+### setResultFormatter(IFieldResultFormatter value) {#setResultFormatter-com.aspose.words.IFieldResultFormatter-}
 ```
-public void setResultFormatter(I字段ResultFormatter value)
+public void setResultFormatter(IFieldResultFormatter value)
 ```
 
 
-允许控制字段结果的格式。
+Allows to control how the field result is formatted.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [I字段ResultFormatter](../../com.aspose.words/ifieldresultformatter) | 相应的[I字段ResultFormatter](../../com.aspose.words/ifieldresultformatter)价值。 |
+| value | [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) | The corresponding [IFieldResultFormatter](../../com.aspose.words/ifieldresultformatter) value. |
 
 ### setTemplateName(String value) {#setTemplateName-java.lang.String-}
 ```
@@ -608,16 +608,16 @@ public void setTemplateName(String value)
 ```
 
 
-设置文档使用的模板的文件名。
+Sets the file name of the template used by the document.
 
-该属性由[字段Template](../../com.aspose.words/fieldtemplate)字段如果[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)属性为空。
+This property is used by the [FieldTemplate](../../com.aspose.words/fieldtemplate) field if the [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) property is empty.
 
-如果此属性为空，则使用默认模板文件名 Normal.dotm。
+If this property is empty, the default template file name  Normal.dotm  is used.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文档使用的模板的文件名。 |
+| value | java.lang.String | The file name of the template used by the document. |
 
 ### setToaCategories(ToaCategories value) {#setToaCategories-com.aspose.words.ToaCategories-}
 ```
@@ -625,12 +625,12 @@ public void setToaCategories(ToaCategories value)
 ```
 
 
-设置权限类别表。
+Sets the table of authorities categories.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ToaCategories](../../com.aspose.words/toacategories) | 权限类别表。 |
+| value | [ToaCategories](../../com.aspose.words/toacategories) | The table of authorities categories. |
 
 ### setUseInvariantCultureNumberFormat(boolean value) {#setUseInvariantCultureNumberFormat-boolean-}
 ```
@@ -638,35 +638,35 @@ public void setUseInvariantCultureNumberFormat(boolean value)
 ```
 
 
-设置指示数字格式是否使用不变区域性解析的值
+Sets the value indicating that number format is parsed using invariant culture or not
 
-当此属性设置为**true**, 数字格式取自不变的文化。
+When this property is set to **true**, number format is taken from an invariant culture.
 
-当此属性设置为**false**, 数字格式取自当前线程的文化。
+When this property is set to **false**, number format is taken from the current thread's culture.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示数字格式是否使用不变区域性解析的值 |
+| value | boolean | The value indicating that number format is parsed using invariant culture or not |
 
-### setUserPromptRespondent(I字段UserPromptRespondent value) {#setUserPromptRespondent-com.aspose.words.I字段UserPromptRespondent-}
+### setUserPromptRespondent(IFieldUserPromptRespondent value) {#setUserPromptRespondent-com.aspose.words.IFieldUserPromptRespondent-}
 ```
-public void setUserPromptRespondent(I字段UserPromptRespondent value)
+public void setUserPromptRespondent(IFieldUserPromptRespondent value)
 ```
 
 
-在字段更新期间将响应者设置为用户提示。
+Sets the respondent to user prompts during field update.
 
-如果此属性的值设置为**null**，需要用户响应提示的字段（例如[字段Ask](../../com.aspose.words/fieldask)或者[字段FillIn](../../com.aspose.words/fieldfillin)不更新。
+If the value of this property is set to **null**, the fields that require user response on prompting (such as [FieldAsk](../../com.aspose.words/fieldask) or [FieldFillIn](../../com.aspose.words/fieldfillin)) are not updated.
 
-默认值为**null**.
+The default value is **null**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [I字段UserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) | 字段更新期间用户提示的被访者。 |
+| value | [IFieldUserPromptRespondent](../../com.aspose.words/ifielduserpromptrespondent) | The respondent to user prompts during field update. |
 
 ### toString() {#toString--}
 ```
@@ -676,7 +676,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -694,8 +694,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -707,8 +707,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

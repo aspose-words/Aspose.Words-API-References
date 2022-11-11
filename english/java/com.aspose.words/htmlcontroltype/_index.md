@@ -1,40 +1,40 @@
 ---
-title: HtmlControl类型
-second_title: Aspose.Words for Java API 参考
-description: 表示从 HTML 导入的元素的文档节点类型。
+title: HtmlControlType
+second_title: Aspose.Words for Java API Reference
+description: Type of document nodes that represent  and  elements imported from HTML.
 type: docs
 weight: 323
-url: /zh/java/com.aspose.words/htmlcontroltype/
+url: /java/com.aspose.words/htmlcontroltype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class HtmlControl类型
+public class HtmlControlType
 ```
 
-表示从 HTML 导入的元素的文档节点类型。
-## 字段
+Type of document nodes that represent  and  elements imported from HTML.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [FORM_FIELD](#FORM-FIELD) |  |
 | [STRUCTURED_DOCUMENT_TAG](#STRUCTURED-DOCUMENT-TAG) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String htmlControl类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int htmlControl类型)](#getName-int-) |  |
+| [fromName(String htmlControlTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int htmlControlType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int htmlControl类型)](#toString-int-) |  |
+| [toString(int htmlControlType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -64,52 +64,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String htmlControl类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String htmlControlTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String htmlControl类型Name)
+public static int fromName(String htmlControlTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| htmlControl类型Name | java.lang.String |  |
+| htmlControlTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int htmlControl类型) {#getName-int-}
-```
-public static String getName(int htmlControl类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int htmlControlType) {#getName-int-}
+```
+public static String getName(int htmlControlType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| htmlControl类型 | int |  |
+| htmlControlType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -119,8 +119,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,8 +129,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -155,22 +155,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int htmlControl类型) {#toString-int-}
+### toString(int htmlControlType) {#toString-int-}
 ```
-public static String toString(int htmlControl类型)
+public static String toString(int htmlControlType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| htmlControl类型 | int |  |
+| htmlControlType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -188,8 +188,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -201,8 +201,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

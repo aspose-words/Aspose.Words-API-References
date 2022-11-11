@@ -1,34 +1,34 @@
 ---
-title: 字段DatabaseDataRow
-second_title: Aspose.Words for Java API 参考
-description: 为字段结果提供数据。
+title: FieldDatabaseDataRow
+second_title: Aspose.Words for Java API Reference
+description: Provides data for the  field result.
 type: docs
 weight: 175
-url: /zh/java/com.aspose.words/fielddatabasedatarow/
+url: /java/com.aspose.words/fielddatabasedatarow/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段DatabaseDataRow
+public class FieldDatabaseDataRow
 ```
 
-提供数据为[字段Database](../../com.aspose.words/fielddatabase)场结果。
+Provides data for the [FieldDatabase](../../com.aspose.words/fielddatabase) field result.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+To learn more, visit the **Working with Fields** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [字段DatabaseDataRow(String[] values)](#字段DatabaseDataRow-java.lang.String...-) | 初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。 |
-## 方法s
+| [FieldDatabaseDataRow(String[] values)](#FieldDatabaseDataRow-java.lang.String...-) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow-) | 初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。 |
+| [createFrom(System.Data.DataRow dataRow)](#createFrom-com.aspose.words.net.System.Data.DataRow-) | Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class from the [DataRow](../../com.aspose.words.net.system.data/datarow) instance. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getValues()](#getValues--) | 获取属于该行的值。 |
+| [getClass()](#getClass--) |  |
+| [getValues()](#getValues--) | Gets values that belong to this row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -36,34 +36,34 @@ public class 字段DatabaseDataRow
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
-### 字段DatabaseDataRow(String[] values) {#字段DatabaseDataRow-java.lang.String...-}
+### FieldDatabaseDataRow(String[] values) {#FieldDatabaseDataRow-java.lang.String...-}
 ```
-public 字段DatabaseDataRow(String[] values)
+public FieldDatabaseDataRow(String[] values)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)班级。
+Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | values | java.lang.String[] |  |
 
 ### createFrom(System.Data.DataRow dataRow) {#createFrom-com.aspose.words.net.System.Data.DataRow-}
 ```
-public static 字段DatabaseDataRow createFrom(System.Data.DataRow dataRow)
+public static FieldDatabaseDataRow createFrom(System.Data.DataRow dataRow)
 ```
 
 
-初始化一个新的实例[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)类从[DataRow](../../com.aspose.words.net.system.data/datarow)实例。
+Initializes a new instance of the [FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow) class from the [DataRow](../../com.aspose.words.net.system.data/datarow) instance.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dataRow | [DataRow](../../com.aspose.words.net.system.data/datarow) |  |
 
-**退货:**
-[字段DatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)
+**Returns:**
+[FieldDatabaseDataRow](../../com.aspose.words/fielddatabasedatarow)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -72,33 +72,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getValues() {#getValues--}
 ```
 public String[] getValues()
 ```
 
 
-获取属于该行的值。
+Gets values that belong to this row.
 
-**退货:**
-java.lang.String[] - 属于该行的值。
+**Returns:**
+java.lang.String[] - Values that belong to this row.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -107,8 +107,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -133,7 +133,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -151,8 +151,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -164,8 +164,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,36 +1,36 @@
 ---
 title: TiffCompression
 second_title: Aspose.Words for Java API Reference
-description: 指定将页面图像保存到 TIFF 文件时应用的压缩类型。
+description: Specifies what type of compression to apply when saving page images into a TIFF file.
 type: docs
 weight: 579
-url: /zh/java/com.aspose.words/tiffcompression/
+url: /java/com.aspose.words/tiffcompression/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TiffCompression
 ```
 
-指定将页面图像保存到 TIFF 文件时应用的压缩类型。
-## 字段
+Specifies what type of compression to apply when saving page images into a TIFF file.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CCITT_3](#CCITT-3) | 指定 CCITT3 压缩方案。 |
-| [CCITT_4](#CCITT-4) | 指定 CCITT4 压缩方案。 |
-| [LZW](#LZW) | 指定 LZW 压缩方案。 |
-| [NONE](#NONE) | 指定不压缩。 |
-| [RLE](#RLE) | 指定 RLE 压缩方案。 |
+| [CCITT_3](#CCITT-3) | Specifies the CCITT3 compression scheme. |
+| [CCITT_4](#CCITT-4) | Specifies the CCITT4 compression scheme. |
+| [LZW](#LZW) | Specifies the LZW compression scheme. |
+| [NONE](#NONE) | Specifies no compression. |
+| [RLE](#RLE) | Specifies the RLE compression scheme. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tiffCompressionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tiffCompression)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int CCITT_3
 ```
 
 
-指定 CCITT3 压缩方案。
+Specifies the CCITT3 compression scheme.
 
 ### CCITT_4 {#CCITT-4}
 ```
@@ -55,7 +55,7 @@ public static int CCITT_4
 ```
 
 
-指定 CCITT4 压缩方案。
+Specifies the CCITT4 compression scheme.
 
 ### LZW {#LZW}
 ```
@@ -63,7 +63,7 @@ public static int LZW
 ```
 
 
-指定 LZW 压缩方案。在通过 Deflate (Zip) 压缩模拟的 Java 中。
+Specifies the LZW compression scheme. In Java emulated by Deflate (Zip) compression.
 
 ### NONE {#NONE}
 ```
@@ -71,7 +71,7 @@ public static int NONE
 ```
 
 
-指定不压缩。
+Specifies no compression.
 
 ### RLE {#RLE}
 ```
@@ -79,7 +79,7 @@ public static int RLE
 ```
 
 
-指定 RLE 压缩方案。
+Specifies the RLE compression scheme.
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String tiffCompressionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tiffCompressionName)
@@ -110,23 +110,23 @@ public static int fromName(String tiffCompressionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tiffCompressionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int tiffCompression) {#getName-int-}
 ```
 public static String getName(int tiffCompression)
@@ -135,12 +135,12 @@ public static String getName(int tiffCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tiffCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int tiffCompression) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int tiffCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tiffCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,55 +1,55 @@
 ---
 title: DataSet
 second_title: Aspose.Words for Java API Reference
-description: 表示数据的内存缓存。
+description: Represents an in-memory cache of data.
 type: docs
 weight: 24
-url: /zh/java/com.aspose.words.net.system.data/dataset/
+url: /java/com.aspose.words.net.system.data/dataset/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DataSet
 ```
 
-表示数据的内存缓存。
-## 构造函数s
+Represents an in-memory cache of data.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [DataSet()](#DataSet--) | 初始化一个新的实例[DataSet](../../com.aspose.words.net.system.data/dataset)班级。 |
-| [DataSet(Connection connection)](#DataSet-java.sql.Connection-) | 使用从 Connection 获取的数据初始化 DataSet 类的新实例。 |
-| [DataSet(Connection connection, String schemaName)](#DataSet-java.sql.Connection-java.lang.String-) | 使用从 Connection 获取的数据初始化 DataSet 类的新实例。 |
-| [DataSet(String dataSetName)](#DataSet-java.lang.String-) | 初始化 a 的新实例[DataSet](../../com.aspose.words.net.system.data/dataset)具有给定名称的类。 |
-## 方法s
+| [DataSet()](#DataSet--) | Initializes a new instance of the [DataSet](../../com.aspose.words.net.system.data/dataset) class. |
+| [DataSet(Connection connection)](#DataSet-java.sql.Connection-) | Initializes a new instance of the DataSet class with data taken from Connection. |
+| [DataSet(Connection connection, String schemaName)](#DataSet-java.sql.Connection-java.lang.String-) | Initializes a new instance of the DataSet class with data taken from Connection. |
+| [DataSet(String dataSetName)](#DataSet-java.lang.String-) | Initializes a new instance of a [DataSet](../../com.aspose.words.net.system.data/dataset) class with the given name. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [IsSchemaWasRead()](#IsSchemaWasRead--) |  |
-| [clear()](#clear--) | 清除[DataSet](../../com.aspose.words.net.system.data/dataset)通过删除所有表中的所有行来删除任何数据。 |
+| [clear()](#clear--) | Clears the [DataSet](../../com.aspose.words.net.system.data/dataset) of any data by removing all rows in all tables. |
 | [close()](#close--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDataSetName()](#getDataSetName--) | 获取当前名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getEnforceConstraints()](#getEnforceConstraints--) | 获取一个值，该值指示在尝试任何更新操作时是否遵循约束规则。 |
-| [getNamespace()](#getNamespace--) | 获取命名空间[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [getRelations()](#getRelations--) | 获取链接表并允许从父表导航到子表的关系集合。 |
-| [getTables()](#getTables--) | 获取包含在[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getClass()](#getClass--) |  |
+| [getDataSetName()](#getDataSetName--) | Gets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getEnforceConstraints()](#getEnforceConstraints--) | Gets a value indicating whether constraint rules are followed when attempting any update operation. |
+| [getNamespace()](#getNamespace--) | Gets the namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [getRelations()](#getRelations--) | Get the collection of relations that link tables and allow navigation from parent tables to child tables. |
+| [getTables()](#getTables--) | Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 | [hashCode()](#hashCode--) |  |
 | [isLocaleSpecified()](#isLocaleSpecified--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [readXml(InputStream stream)](#readXml-java.io.InputStream-) | 将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的 java.io.InputStream。 |
-| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) | 使用指定的 java.io.InputStream 和[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
-| [readXml(String fileName)](#readXml-java.lang.String-) | 将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的文件。 |
-| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | 使用指定的文件将 XML 模式和数据读入 DataSet 并[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
-| [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream-) | 从指定的 java.io.InputStream 读取 XML 模式到[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String-) | 将指定文件中的 XML 模式读入[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [reset()](#reset--) | 重置[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。 |
-| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | 设置当前名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
-| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | 设置一个值，该值指示在尝试任何更新操作时是否遵循约束规则。 |
-| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | 设置用于比较表中字符串的语言环境信息。 |
+| [readXml(InputStream stream)](#readXml-java.io.InputStream-) | Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified java.io.InputStream. |
+| [readXml(InputStream xmlStream, System.Data.XmlReadMode mode)](#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-) | Reads XML schema and data into the DataSet using the specified java.io.InputStream and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
+| [readXml(String fileName)](#readXml-java.lang.String-) | Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified file. |
+| [readXml(String xmlPath, System.Data.XmlReadMode readMode)](#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-) | Reads XML schema and data into the DataSet using the specified file and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode). |
+| [readXmlSchema(InputStream stream)](#readXmlSchema-java.io.InputStream-) | Reads the XML schema from the specified java.io.InputStream into the [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [readXmlSchema(String fileName)](#readXmlSchema-java.lang.String-) | Reads the XML schema from the specified file into the [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [reset()](#reset--) | Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. |
+| [setDataSetName(String value)](#setDataSetName-java.lang.String-) | Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset). |
+| [setEnforceConstraints(boolean value)](#setEnforceConstraints-boolean-) | Sets a value indicating whether constraint rules are followed when attempting any update operation. |
+| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Sets the locale information used to compare strings within the table. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -60,7 +60,7 @@ public DataSet()
 ```
 
 
-初始化一个新的实例[DataSet](../../com.aspose.words.net.system.data/dataset)班级。
+Initializes a new instance of the [DataSet](../../com.aspose.words.net.system.data/dataset) class.
 
 ### DataSet(Connection connection) {#DataSet-java.sql.Connection-}
 ```
@@ -68,14 +68,14 @@ public DataSet(Connection connection)
 ```
 
 
-使用从 Connection 获取的数据初始化 DataSet 类的新实例。表、关系、约束和索引将被复制到数据集中。
+Initializes a new instance of the DataSet class with data taken from Connection. Tables, Relations, Constraints and Indexes will be copied into DataSet.
 
-默认情况下，不会使用架构名称。
+By default no schema name will be used.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| connection | java.sql.Connection | 其中包含数据库数据。 |
+| connection | java.sql.Connection | which contains DB data. |
 
 ### DataSet(Connection connection, String schemaName) {#DataSet-java.sql.Connection-java.lang.String-}
 ```
@@ -83,19 +83,19 @@ public DataSet(Connection connection, String schemaName)
 ```
 
 
-使用从 Connection 获取的数据初始化 DataSet 类的新实例。表、关系、约束和索引将被复制到数据集中。
+Initializes a new instance of the DataSet class with data taken from Connection. Tables, Relations, Constraints and Indexes will be copied into DataSet.
 
 `DataSet dataSet = new DataSet(conn, "PUBLIC"); // HSQLDB`
 
-或者
+or
 
 `DataSet dataSet = new DataSet(conn); // MYSQL's default schema name.`
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| connection | java.sql.Connection | 其中包含数据库数据。 |
-| schemaName | java.lang.String | 其中包含要导入的表。 |
+| connection | java.sql.Connection | which contains DB data. |
+| schemaName | java.lang.String | which contains the tables to be imported. |
 
 ### DataSet(String dataSetName) {#DataSet-java.lang.String-}
 ```
@@ -103,12 +103,12 @@ public DataSet(String dataSetName)
 ```
 
 
-初始化 a 的新实例[DataSet](../../com.aspose.words.net.system.data/dataset)具有给定名称的类。
+Initializes a new instance of a [DataSet](../../com.aspose.words.net.system.data/dataset) class with the given name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| dataSetName | java.lang.String | 的名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| dataSetName | java.lang.String | The name of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 
 ### IsSchemaWasRead() {#IsSchemaWasRead--}
 ```
@@ -118,15 +118,15 @@ public boolean IsSchemaWasRead()
 
 
 
-**退货:**
-boolean - 如果模式被读取，则为 true
+**Returns:**
+boolean - true if schema was read
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-清除[DataSet](../../com.aspose.words.net.system.data/dataset)通过删除所有表中的所有行来删除任何数据。
+Clears the [DataSet](../../com.aspose.words.net.system.data/dataset) of any data by removing all rows in all tables.
 
 ### close() {#close--}
 ```
@@ -144,73 +144,73 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDataSetName() {#getDataSetName--}
 ```
 public String getDataSetName()
 ```
 
 
-获取当前名称[DataSet](../../com.aspose.words.net.system.data/dataset).
+Gets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**退货:**
-java.lang.String - 的名称[DataSet](../../com.aspose.words.net.system.data/dataset).
+**Returns:**
+java.lang.String - The name of the [DataSet](../../com.aspose.words.net.system.data/dataset).
 ### getEnforceConstraints() {#getEnforceConstraints--}
 ```
 public boolean getEnforceConstraints()
 ```
 
 
-获取一个值，该值指示在尝试任何更新操作时是否遵循约束规则。
+Gets a value indicating whether constraint rules are followed when attempting any update operation.
 
-**退货:**
-boolean - 如果规则被强制执行，则为 true；否则为假。默认值为真。
+**Returns:**
+boolean - true if rules are enforced; otherwise false. The default is true.
 ### getNamespace() {#getNamespace--}
 ```
 public String getNamespace()
 ```
 
 
-获取命名空间[DataSet](../../com.aspose.words.net.system.data/dataset).
+Gets the namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**退货:**
- java.lang.String - 的命名空间[DataSet](../../com.aspose.words.net.system.data/dataset).
+**Returns:**
+java.lang.String - The namespace of the [DataSet](../../com.aspose.words.net.system.data/dataset).
 ### getRelations() {#getRelations--}
 ```
 public System.Data.DataRelationCollection getRelations()
 ```
 
 
-获取链接表并允许从父表导航到子表的关系集合。
+Get the collection of relations that link tables and allow navigation from parent tables to child tables.
 
-**退货:**
-[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - 一个[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection)包含一个集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象。如果没有，则返回一个空集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)对象存在。
+**Returns:**
+[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) - A [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection) that contains a collection of [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects. An empty collection is returned if no [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects exist.
 ### getTables() {#getTables--}
 ```
 public System.Data.DataTableCollection getTables()
 ```
 
 
-获取包含在[DataSet](../../com.aspose.words.net.system.data/dataset).
+Gets the collection of tables contained in the [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**退货:**
-[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) - 这[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection)包含在这个[DataSet](../../com.aspose.words.net.system.data/dataset).如果没有，则返回一个空集合[DataTable](../../com.aspose.words.net.system.data/datatable)对象存在。
+**Returns:**
+[DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) - The [DataTableCollection](../../com.aspose.words.net.system.data/datatablecollection) contained by this [DataSet](../../com.aspose.words.net.system.data/dataset). An empty collection is returned if no [DataTable](../../com.aspose.words.net.system.data/datatable) objects exist.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -219,8 +219,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isLocaleSpecified() {#isLocaleSpecified--}
 ```
 public boolean isLocaleSpecified()
@@ -229,8 +229,8 @@ public boolean isLocaleSpecified()
 
 
 
-**退货:**
-boolean - 如果设置了语言环境，则为 true
+**Returns:**
+boolean - true if locale was set
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -253,74 +253,74 @@ public System.Data.XmlReadMode readXml(InputStream stream)
 ```
 
 
-将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的 java.io.InputStream。
+Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified java.io.InputStream.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | 从 java.io.InputStream 派生的对象。 |
+| stream | java.io.InputStream | An object that derives from java.io.InputStream. |
 
-**退货:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - 这[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)用于读取数据。返回值是以下之一[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)常数。
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) constants.
 ### readXml(InputStream xmlStream, System.Data.XmlReadMode mode) {#readXml-java.io.InputStream-com.aspose.words.net.System.Data.XmlReadMode-}
 ```
 public System.Data.XmlReadMode readXml(InputStream xmlStream, System.Data.XmlReadMode mode)
 ```
 
 
-使用指定的 java.io.InputStream 和[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
+Reads XML schema and data into the DataSet using the specified java.io.InputStream and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xmlStream | java.io.InputStream | 要从中读取的 Stream。 |
-| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | 中的一个[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)价值观。 |
+| xmlStream | java.io.InputStream | The Stream from which to read. |
+| mode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | One of the [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) values. |
 
-**退货:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - 用于读取数据的 XmlReadMode。
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The XmlReadMode used to read the data.
 ### readXml(String fileName) {#readXml-java.lang.String-}
 ```
 public System.Data.XmlReadMode readXml(String fileName)
 ```
 
 
-将 XML 模式和数据读入[DataSet](../../com.aspose.words.net.system.data/dataset)使用指定的文件。
+Reads XML schema and data into the [DataSet](../../com.aspose.words.net.system.data/dataset) using the specified file.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 要从中读取的文件名（包括路径）。 |
+| fileName | java.lang.String | The filename (including the path) from which to read. |
 
-**退货:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - 用于读取数据的 XmlReadMode。返回值是以下之一[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode)常数。
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - The XmlReadMode used to read the data. The returned value is one of [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) constants.
 ### readXml(String xmlPath, System.Data.XmlReadMode readMode) {#readXml-java.lang.String-com.aspose.words.net.System.Data.XmlReadMode-}
 ```
 public System.Data.XmlReadMode readXml(String xmlPath, System.Data.XmlReadMode readMode)
 ```
 
 
-使用指定的文件将 XML 模式和数据读入 DataSet 并[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
+Reads XML schema and data into the DataSet using the specified file and [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xmlPath | java.lang.String | 指定的文件 |
+| xmlPath | java.lang.String | the specified file |
 | readMode | [XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) | \{[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) |
 
-**退货:**
-[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) 阅读时使用的模式
+**Returns:**
+[XmlReadMode](../../com.aspose.words.net.system.data/xmlreadmode) - mode which was used while reading
 ### readXmlSchema(InputStream stream) {#readXmlSchema-java.io.InputStream-}
 ```
 public void readXmlSchema(InputStream stream)
 ```
 
 
-从指定的 java.io.InputStream 读取 XML 模式到[DataSet](../../com.aspose.words.net.system.data/dataset).
+Reads the XML schema from the specified java.io.InputStream into the [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | 要从中读取的 java.io.InputStream。 |
+| stream | java.io.InputStream | The java.io.InputStream from which to read. |
 
 ### readXmlSchema(String fileName) {#readXmlSchema-java.lang.String-}
 ```
@@ -328,12 +328,12 @@ public void readXmlSchema(String fileName)
 ```
 
 
-将指定文件中的 XML 模式读入[DataSet](../../com.aspose.words.net.system.data/dataset).
+Reads the XML schema from the specified file into the [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 要从中读取的文件名（包括路径）。 |
+| fileName | java.lang.String | The file name (including the path) from which to read. |
 
 ### reset() {#reset--}
 ```
@@ -341,7 +341,7 @@ public void reset()
 ```
 
 
-重置[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。子类应该覆盖[reset()](../../com.aspose.words.net.system.data/dataset\#reset--)恢复一个[DataSet](../../com.aspose.words.net.system.data/dataset)回到原来的状态。
+Resets the [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state. Subclasses should override [reset()](../../com.aspose.words.net.system.data/dataset\#reset--) to restore a [DataSet](../../com.aspose.words.net.system.data/dataset) to its original state.
 
 ### setDataSetName(String value) {#setDataSetName-java.lang.String-}
 ```
@@ -349,12 +349,12 @@ public void setDataSetName(String value)
 ```
 
 
-设置当前名称[DataSet](../../com.aspose.words.net.system.data/dataset).
+Sets the name of the current [DataSet](../../com.aspose.words.net.system.data/dataset).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 的名称[DataSet](../../com.aspose.words.net.system.data/dataset). |
+| value | java.lang.String | The name of the [DataSet](../../com.aspose.words.net.system.data/dataset). |
 
 ### setEnforceConstraints(boolean value) {#setEnforceConstraints-boolean-}
 ```
@@ -362,12 +362,12 @@ public void setEnforceConstraints(boolean value)
 ```
 
 
-设置一个值，该值指示在尝试任何更新操作时是否遵循约束规则。
+Sets a value indicating whether constraint rules are followed when attempting any update operation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 如果规则被强制执行，则为 true；否则为假。默认值为真。 |
+| value | boolean | true if rules are enforced; otherwise false. The default is true. |
 
 ### setLocale(Locale locale) {#setLocale-java.util.Locale-}
 ```
@@ -375,12 +375,12 @@ public void setLocale(Locale locale)
 ```
 
 
-设置用于比较表中字符串的语言环境信息。
+Sets the locale information used to compare strings within the table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| locale | java.util.Locale | 这个数据集的 |
+| locale | java.util.Locale | of this data set |
 
 ### toString() {#toString--}
 ```
@@ -390,7 +390,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -408,8 +408,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -421,8 +421,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

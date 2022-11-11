@@ -1,59 +1,59 @@
 ---
-title: 字段Compare
-second_title: Aspose.Words for Java API 参考
-description: 实现 COMPARE 字段。
+title: FieldCompare
+second_title: Aspose.Words for Java API Reference
+description: Implements the COMPARE field.
 type: docs
 weight: 171
-url: /zh/java/com.aspose.words/fieldcompare/
+url: /java/com.aspose.words/fieldcompare/
 ---
 
-**遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Compare extends 字段
+public class FieldCompare extends Field
 ```
 
-实现 COMPARE 字段。
+Implements the COMPARE field.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+To learn more, visit the **Working with Fields** documentation article.
 
-比较表达式指定的值[getLeftExpression()](../../com.aspose.words/fieldcompare\#getLeftExpression--) / [setLeftExpression(java.lang.String)](../../com.aspose.words/fieldcompare\#setLeftExpression-java.lang.String-)和[getRightExpression()](../../com.aspose.words/fieldcompare\#getRightExpression--) / [setRightExpression(java.lang.String)](../../com.aspose.words/fieldcompare\#setRightExpression-java.lang.String-)比较使用指定的运算符[getComparisonOperator()](../../com.aspose.words/fieldcompare\#getComparisonOperator--) / [setComparisonOperator(java.lang.String)](../../com.aspose.words/fieldcompare\#setComparisonOperator-java.lang.String-).
-## 方法s
+Compares the values designated by the expressions [getLeftExpression()](../../com.aspose.words/fieldcompare\#getLeftExpression--) / [setLeftExpression(java.lang.String)](../../com.aspose.words/fieldcompare\#setLeftExpression-java.lang.String-) and [getRightExpression()](../../com.aspose.words/fieldcompare\#getRightExpression--) / [setRightExpression(java.lang.String)](../../com.aspose.words/fieldcompare\#setRightExpression-java.lang.String-) in comparison using the operator designated by [getComparisonOperator()](../../com.aspose.words/fieldcompare\#getComparisonOperator--) / [setComparisonOperator(java.lang.String)](../../com.aspose.words/fieldcompare\#setComparisonOperator-java.lang.String-).
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getComparisonOperator()](#getComparisonOperator--) | 获取比较运算符。 |
-| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
-| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
-| [getLeftExpression()](#getLeftExpression--) | 获取比较表达式的左侧部分。 |
-| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
-| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
-| [getRightExpression()](#getRightExpression--) | 获取比较表达式的右侧部分。 |
-| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
-| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getClass()](#getClass--) |  |
+| [getComparisonOperator()](#getComparisonOperator--) | Gets the comparison operator. |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getLeftExpression()](#getLeftExpression--) | Gets the left part of the comparison expression. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getRightExpression()](#getRightExpression--) | Gets the right part of the comparison expression. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
-| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除字段。 |
-| [setComparisonOperator(String value)](#setComparisonOperator-java.lang.String-) | 设置比较运算符。 |
-| [setLeftExpression(String value)](#setLeftExpression-java.lang.String-) | 设置比较表达式的左侧部分。 |
-| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
-| [setRightExpression(String value)](#setRightExpression-java.lang.String-) | 设置比较表达式的右侧部分。 |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setComparisonOperator(String value)](#setComparisonOperator-java.lang.String-) | Sets the comparison operator. |
+| [setLeftExpression(String value)](#setLeftExpression-java.lang.String-) | Sets the left part of the comparison expression. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setRightExpression(String value)](#setRightExpression-java.lang.String-) | Sets the right part of the comparison expression. |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | 执行字段取消链接。 |
-| [update()](#update--) | 执行字段更新。 |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -65,158 +65,158 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getComparisonOperator() {#getComparisonOperator--}
 ```
 public String getComparisonOperator()
 ```
 
 
-获取比较运算符。
+Gets the comparison operator.
 
-**退货:**
-java.lang.String - 比较运算符。
+**Returns:**
+java.lang.String - The comparison operator.
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
-**退货:**
-java.lang.String - 表示显示的字段结果的文本。
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
-获取表示字段结束的节点。
+Gets the node that represents the field end.
 
-**退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
-**退货:**
+**Returns:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
+Returns text between field start and field separator (or field end if there is no separator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 
-**退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getLeftExpression() {#getLeftExpression--}
 ```
 public String getLeftExpression()
 ```
 
 
-获取比较表达式的左侧部分。
+Gets the left part of the comparison expression.
 
-**退货:**
-java.lang.String - 比较表达式的左边部分。
+**Returns:**
+java.lang.String - The left part of the comparison expression.
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-获取字段的 LCID。
+Gets the LCID of the field.
 
-**退货:**
-int - 字段的 LCID。
+**Returns:**
+int - The LCID of the field.
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-获取字段分隔符和字段结尾之间的文本。
+Gets text that is between the field separator and field end.
 
-**退货:**
-java.lang.String - 字段分隔符和字段结尾之间的文本。
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
 ### getRightExpression() {#getRightExpression--}
 ```
 public String getRightExpression()
 ```
 
 
-获取比较表达式的右侧部分。
+Gets the right part of the comparison expression.
 
-**退货:**
-java.lang.String - 比较表达式的右边部分。
+**Returns:**
+java.lang.String - The right part of the comparison expression.
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
-获取表示字段分隔符的节点。可以为空。
+Gets the node that represents the field separator. Can be null.
 
-**退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
-获取表示字段开始的节点。
+Gets the node that represents the start of the field.
 
-**退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### get类型() {#get类型--}
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取 Microsoft Word 字段类型。
+Gets the Microsoft Word field type.
 
-**退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -225,30 +225,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**退货:**
-boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
 ### isLocked() {#isLocked--}
 ```
@@ -256,22 +256,22 @@ public boolean isLocked()
 ```
 
 
-获取字段是否被锁定（不应重新计算其结果）。
+Gets whether the field is locked (should not recalculate its result).
 
-**退货:**
-boolean - 字段是否被锁定（不应重新计算其结果）。
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-设置字段是否被锁定（不应重新计算其结果）。
+Sets whether the field is locked (should not recalculate its result).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
 ### notify() {#notify--}
 ```
@@ -295,9 +295,9 @@ public Node remove()
 ```
 
 
-从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### setComparisonOperator(String value) {#setComparisonOperator-java.lang.String-}
 ```
@@ -305,12 +305,12 @@ public void setComparisonOperator(String value)
 ```
 
 
-设置比较运算符。
+Sets the comparison operator.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 比较运算符。 |
+| value | java.lang.String | The comparison operator. |
 
 ### setLeftExpression(String value) {#setLeftExpression-java.lang.String-}
 ```
@@ -318,12 +318,12 @@ public void setLeftExpression(String value)
 ```
 
 
-设置比较表达式的左侧部分。
+Sets the left part of the comparison expression.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 比较表达式的左侧部分。 |
+| value | java.lang.String | The left part of the comparison expression. |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -331,12 +331,12 @@ public void setLocaleId(int value)
 ```
 
 
-设置字段的 LCID。
+Sets the LCID of the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 字段的 LCID。 |
+| value | int | The LCID of the field. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -344,12 +344,12 @@ public void setResult(String value)
 ```
 
 
-设置字段分隔符和字段结尾之间的文本。
+Sets text that is between the field separator and field end.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
 ### setRightExpression(String value) {#setRightExpression-java.lang.String-}
 ```
@@ -357,12 +357,12 @@ public void setRightExpression(String value)
 ```
 
 
-设置比较表达式的右侧部分。
+Sets the right part of the comparison expression.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 比较表达式的右侧部分。 |
+| value | java.lang.String | The right part of the comparison expression. |
 
 ### toString() {#toString--}
 ```
@@ -372,7 +372,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -380,21 +380,21 @@ public boolean unlink()
 ```
 
 
-执行字段取消链接。
+Performs the field unlink.
 
-用其最新结果替换该字段。
+Replaces the field with its most recent result.
 
-某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs the field update. Throws if the field is being updated already.
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -402,12 +402,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs a field update. Throws if the field is being updated already.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait--}
 ```
@@ -425,8 +425,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -438,8 +438,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

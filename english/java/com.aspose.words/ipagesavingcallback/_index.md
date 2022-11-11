@@ -1,30 +1,31 @@
 ---
 title: IPageSavingCallback
-second_title: Aspose.Words for Java API 参考
-description: 如果您想控制 Aspose.Words 在将文档保存为固定页面格式时如何保存单独的页面，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats.
 type: docs
 weight: 654
-url: /zh/java/com.aspose.words/ipagesavingcallback/
+url: /java/com.aspose.words/ipagesavingcallback/
 ---
 ```
 public interface IPageSavingCallback
 ```
 
-如果您想控制 Aspose.Words 在将文档保存为固定页面格式时如何保存单独的页面，请实现此接口。
-## 方法s
+Implement this interface if you want to control how Aspose.Words saves separate pages when saving a document to fixed page formats.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [pageSaving(PageSavingArgs args)](#pageSaving-com.aspose.words.PageSavingArgs-) | 当 Aspose.Words 将单独的页面保存为固定页面格式时调用。 |
+| [pageSaving(PageSavingArgs args)](#pageSaving-com.aspose.words.PageSavingArgs-) | Called when Aspose.Words saves a separate page to fixed page formats. |
 ### pageSaving(PageSavingArgs args) {#pageSaving-com.aspose.words.PageSavingArgs-}
 ```
 public abstract void pageSaving(PageSavingArgs args)
 ```
 
 
-当 Aspose.Words 将单独的页面保存为固定页面格式时调用。
+Called when Aspose.Words saves a separate page to fixed page formats.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | args | [PageSavingArgs](../../com.aspose.words/pagesavingargs) |  |
+

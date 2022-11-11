@@ -1,37 +1,37 @@
 ---
 title: FontSourceBase
-second_title: Aspose.Words for Java API 参考
-description: 这是允许用户指定各种字体源的类的抽象基类。
+second_title: Aspose.Words for Java API Reference
+description: This is an abstract base class for the classes that allow the user to specify various font sources.
 type: docs
 weight: 287
-url: /zh/java/com.aspose.words/fontsourcebase/
+url: /java/com.aspose.words/fontsourcebase/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public abstract class FontSourceBase
 ```
 
-这是允许用户指定各种字体源的类的抽象基类。
+This is an abstract base class for the classes that allow the user to specify various font sources.
 
-要了解更多信息，请访问**Working with Fonts**文档文章。
-## 方法s
+To learn more, visit the **Working with Fonts** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAvailableFonts()](#getAvailableFonts--) | 返回通过此源可用的字体列表。 |
-| [get班级()](#get班级--) |  |
+| [getAvailableFonts()](#getAvailableFonts--) | Returns list of fonts available via this source. |
+| [getClass()](#getClass--) |  |
 | [getFontDataInternal()](#getFontDataInternal--) |  |
-| [getPriority()](#getPriority--) | 返回字体源优先级。 |
+| [getPriority()](#getPriority--) | Returns the font source priority. |
 | [getPriorityInternal()](#getPriorityInternal--) |  |
-| [get类型()](#get类型--) | 返回字体源的类型。 |
-| [getWarningCallback()](#getWarningCallback--) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [getType()](#getType--) | Returns the type of the font source. |
+| [getWarningCallback()](#getWarningCallback--) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。 |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,33 +44,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAvailableFonts() {#getAvailableFonts--}
 ```
 public ArrayList getAvailableFonts()
 ```
 
 
-返回通过此源可用的字体列表。
+Returns list of fonts available via this source.
 
-**退货:**
+**Returns:**
 java.util.ArrayList
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFontDataInternal() {#getFontDataInternal--}
 ```
 public Iterable getFontDataInternal()
@@ -79,7 +79,7 @@ public Iterable getFontDataInternal()
 
 
 
-**退货:**
+**Returns:**
 java.lang.Iterable
 ### getPriority() {#getPriority--}
 ```
@@ -87,14 +87,14 @@ public int getPriority()
 ```
 
 
-返回字体源优先级。
+Returns the font source priority.
 
-当不同字体源中存在具有相同系列名称和样式的字体时使用此值。在这种情况下，Aspose.Words 从源中选择具有较高优先级值的字体。
+This value is used when there are fonts with the same family name and style in different font sources. In this case Aspose.Words selects the font from the source with the higher priority value.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-int - 字体源优先级。
+**Returns:**
+int - The font source priority.
 ### getPriorityInternal() {#getPriorityInternal--}
 ```
 public int getPriorityInternal()
@@ -103,28 +103,28 @@ public int getPriorityInternal()
 
 
 
-**退货:**
-整数
-### get类型() {#get类型--}
+**Returns:**
+int
+### getType() {#getType--}
 ```
-public abstract int get类型()
+public abstract int getType()
 ```
 
 
-返回字体源的类型。
+Returns the type of the font source.
 
-**退货:**
- int - 字体源的类型。返回值是以下之一[FontSource类型](../../com.aspose.words/fontsourcetype)常数。
+**Returns:**
+int - The type of the font source. The returned value is one of [FontSourceType](../../com.aspose.words/fontsourcetype) constants.
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -157,12 +157,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-当检测到可能导致格式保真度丢失的问题时，在处理字体源期间调用。
+Called during processing of font source when an issue is detected that might result in formatting fidelity loss.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### toString() {#toString--}
 ```
@@ -172,7 +172,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -190,8 +190,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -203,8 +203,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

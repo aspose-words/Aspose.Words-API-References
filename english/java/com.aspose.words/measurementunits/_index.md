@@ -1,36 +1,36 @@
 ---
 title: MeasurementUnits
-second_title: Aspose.Words for Java API 参考
-description: 指定测量单位。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the unit of measurement.
 type: docs
 weight: 392
-url: /zh/java/com.aspose.words/measurementunits/
+url: /java/com.aspose.words/measurementunits/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class MeasurementUnits
 ```
 
-指定测量单位。
-## 字段
+Specifies the unit of measurement.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CENTIMETERS](#CENTIMETERS) | 厘米。 |
-| [INCHES](#INCHES) | 英寸。 |
-| [MILLIMETERS](#MILLIMETERS) | 毫米。 |
-| [PICAS](#PICAS) | Picas（常用于传统打字机字体间距）。 |
-| [POINTS](#POINTS) | 点。 |
+| [CENTIMETERS](#CENTIMETERS) | Centimeters. |
+| [INCHES](#INCHES) | Inches. |
+| [MILLIMETERS](#MILLIMETERS) | Millimeters. |
+| [PICAS](#PICAS) | Picas (commonly used in traditional typewriter font spacing). |
+| [POINTS](#POINTS) | Points. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String measurementUnitsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int measurementUnits)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int CENTIMETERS
 ```
 
 
-厘米。
+Centimeters.
 
 ### INCHES {#INCHES}
 ```
@@ -55,7 +55,7 @@ public static int INCHES
 ```
 
 
-英寸。
+Inches.
 
 ### MILLIMETERS {#MILLIMETERS}
 ```
@@ -63,7 +63,7 @@ public static int MILLIMETERS
 ```
 
 
-毫米。
+Millimeters.
 
 ### PICAS {#PICAS}
 ```
@@ -71,7 +71,7 @@ public static int PICAS
 ```
 
 
-Picas（常用于传统打字机字体间距）。
+Picas (commonly used in traditional typewriter font spacing).
 
 ### POINTS {#POINTS}
 ```
@@ -79,7 +79,7 @@ public static int POINTS
 ```
 
 
-点。
+Points.
 
 ### length {#length}
 ```
@@ -95,13 +95,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String measurementUnitsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String measurementUnitsName)
@@ -110,23 +110,23 @@ public static int fromName(String measurementUnitsName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | measurementUnitsName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int measurementUnits) {#getName-int-}
 ```
 public static String getName(int measurementUnits)
@@ -135,12 +135,12 @@ public static String getName(int measurementUnits)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | measurementUnits | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,7 +186,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int measurementUnits) {#toString-int-}
 ```
@@ -196,12 +196,12 @@ public static String toString(int measurementUnits)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | measurementUnits | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

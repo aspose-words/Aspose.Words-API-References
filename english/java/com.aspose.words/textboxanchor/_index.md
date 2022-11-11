@@ -1,41 +1,41 @@
 ---
 title: TextBoxAnchor
 second_title: Aspose.Words for Java API Reference
-description: 指定用于形状文本垂直对齐的值。
+description: Specifies values used for shape text vertical alignment.
 type: docs
 weight: 559
-url: /zh/java/com.aspose.words/textboxanchor/
+url: /java/com.aspose.words/textboxanchor/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextBoxAnchor
 ```
 
-指定用于形状文本垂直对齐的值。
-## 字段
+Specifies values used for shape text vertical alignment.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 文本与文本框的底部对齐。 |
-| [BOTTOM_BASELINE](#BOTTOM-BASELINE) | 文本与文本框的底部基线对齐。 |
-| [BOTTOM_CENTERED](#BOTTOM-CENTERED) | 文本与文本框底部居中对齐。 |
-| [BOTTOM_CENTERED_BASELINE](#BOTTOM-CENTERED-BASELINE) | 文本与文本框底部居中的基线对齐。 |
-| [MIDDLE](#MIDDLE) | 文本与文本框的中间对齐。 |
-| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | 文本与文本框的中间对齐。 |
-| [TOP](#TOP) | 文本与文本框的顶部对齐。 |
-| [TOP_BASELINE](#TOP-BASELINE) | 文本与文本框的顶部基线对齐。 |
-| [TOP_CENTERED](#TOP-CENTERED) | 文本与文本框的顶部居中对齐。 |
-| [TOP_CENTERED_BASELINE](#TOP-CENTERED-BASELINE) | 文本与文本框的顶部居中基线对齐。 |
+| [BOTTOM](#BOTTOM) | Text is aligned to the bottom of the textbox. |
+| [BOTTOM_BASELINE](#BOTTOM-BASELINE) | Text is aligned to the bottom baseline of the textbox. |
+| [BOTTOM_CENTERED](#BOTTOM-CENTERED) | Text is aligned to the bottom centered of the textbox. |
+| [BOTTOM_CENTERED_BASELINE](#BOTTOM-CENTERED-BASELINE) | Text is aligned to the bottom centered baseline of the textbox. |
+| [MIDDLE](#MIDDLE) | Text is aligned to the middle of the textbox. |
+| [MIDDLE_CENTERED](#MIDDLE-CENTERED) | Text is aligned to the middle centered of the textbox. |
+| [TOP](#TOP) | Text is aligned to the top of the textbox. |
+| [TOP_BASELINE](#TOP-BASELINE) | Text is aligned to the top baseline of the textbox. |
+| [TOP_CENTERED](#TOP-CENTERED) | Text is aligned to the top centered of the textbox. |
+| [TOP_CENTERED_BASELINE](#TOP-CENTERED-BASELINE) | Text is aligned to the top centered baseline of the textbox. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textBoxAnchorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textBoxAnchor)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -52,7 +52,7 @@ public static int BOTTOM
 ```
 
 
-文本与文本框的底部对齐。
+Text is aligned to the bottom of the textbox.
 
 ### BOTTOM_BASELINE {#BOTTOM-BASELINE}
 ```
@@ -60,7 +60,7 @@ public static int BOTTOM_BASELINE
 ```
 
 
-文本与文本框的底部基线对齐。
+Text is aligned to the bottom baseline of the textbox.
 
 ### BOTTOM_CENTERED {#BOTTOM-CENTERED}
 ```
@@ -68,7 +68,7 @@ public static int BOTTOM_CENTERED
 ```
 
 
-文本与文本框底部居中对齐。
+Text is aligned to the bottom centered of the textbox.
 
 ### BOTTOM_CENTERED_BASELINE {#BOTTOM-CENTERED-BASELINE}
 ```
@@ -76,7 +76,7 @@ public static int BOTTOM_CENTERED_BASELINE
 ```
 
 
-文本与文本框底部居中的基线对齐。
+Text is aligned to the bottom centered baseline of the textbox.
 
 ### MIDDLE {#MIDDLE}
 ```
@@ -84,7 +84,7 @@ public static int MIDDLE
 ```
 
 
-文本与文本框的中间对齐。
+Text is aligned to the middle of the textbox.
 
 ### MIDDLE_CENTERED {#MIDDLE-CENTERED}
 ```
@@ -92,7 +92,7 @@ public static int MIDDLE_CENTERED
 ```
 
 
-文本与文本框的中间对齐。
+Text is aligned to the middle centered of the textbox.
 
 ### TOP {#TOP}
 ```
@@ -100,7 +100,7 @@ public static int TOP
 ```
 
 
-文本与文本框的顶部对齐。
+Text is aligned to the top of the textbox.
 
 ### TOP_BASELINE {#TOP-BASELINE}
 ```
@@ -108,7 +108,7 @@ public static int TOP_BASELINE
 ```
 
 
-文本与文本框的顶部基线对齐。
+Text is aligned to the top baseline of the textbox.
 
 ### TOP_CENTERED {#TOP-CENTERED}
 ```
@@ -116,7 +116,7 @@ public static int TOP_CENTERED
 ```
 
 
-文本与文本框的顶部居中对齐。
+Text is aligned to the top centered of the textbox.
 
 ### TOP_CENTERED_BASELINE {#TOP-CENTERED-BASELINE}
 ```
@@ -124,7 +124,7 @@ public static int TOP_CENTERED_BASELINE
 ```
 
 
-文本与文本框的顶部居中基线对齐。
+Text is aligned to the top centered baseline of the textbox.
 
 ### length {#length}
 ```
@@ -140,13 +140,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String textBoxAnchorName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textBoxAnchorName)
@@ -155,23 +155,23 @@ public static int fromName(String textBoxAnchorName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxAnchorName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int textBoxAnchor) {#getName-int-}
 ```
 public static String getName(int textBoxAnchor)
@@ -180,12 +180,12 @@ public static String getName(int textBoxAnchor)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -195,8 +195,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -205,8 +205,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -231,7 +231,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int textBoxAnchor) {#toString-int-}
 ```
@@ -241,12 +241,12 @@ public static String toString(int textBoxAnchor)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxAnchor | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -264,8 +264,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -277,8 +277,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

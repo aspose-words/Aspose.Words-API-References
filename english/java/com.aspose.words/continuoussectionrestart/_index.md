@@ -1,33 +1,33 @@
 ---
 title: ContinuousSectionRestart
-second_title: Aspose.Words for Java API 参考
-description: 表示在重新开始页码的连续部分中计算页码时的不同行为。
+second_title: Aspose.Words for Java API Reference
+description: Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
 type: docs
 weight: 93
-url: /zh/java/com.aspose.words/continuoussectionrestart/
+url: /java/com.aspose.words/continuoussectionrestart/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ContinuousSectionRestart
 ```
 
-表示在重新开始页码的连续部分中计算页码时的不同行为。
-## 字段
+Represents different behaviors when computing page numbers in a continuous section that restarts page numbering.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ALWAYS](#ALWAYS) | 无论内容流如何，页码总是会重新开始。 |
-| [FROM_NEW_PAGE_ONLY](#FROM-NEW-PAGE-ONLY) | 仅当节开始的页面上的节之前没有其他内容时，页码才会重新开始。 |
+| [ALWAYS](#ALWAYS) | Page numbering always restarts regardless of content flow. |
+| [FROM_NEW_PAGE_ONLY](#FROM-NEW-PAGE-ONLY) | Page numbering restarts only if there is no other content before the section on the page where the section starts. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String continuousSectionRestartName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int continuousSectionRestart)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int ALWAYS
 ```
 
 
-无论内容流如何，页码总是会重新开始。除 Word 2016 外，所有 MS Word 版本均显示此行为。
+Page numbering always restarts regardless of content flow. This behavior is demonstrated by all MS Word versions, except Word 2016.
 
 ### FROM_NEW_PAGE_ONLY {#FROM-NEW-PAGE-ONLY}
 ```
@@ -52,7 +52,7 @@ public static int FROM_NEW_PAGE_ONLY
 ```
 
 
-仅当节开始的页面上的节之前没有其他内容时，页码才会重新开始。 MS Word 2016 演示了该行为。
+Page numbering restarts only if there is no other content before the section on the page where the section starts. The behavior is demonstrated by MS Word 2016.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String continuousSectionRestartName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String continuousSectionRestartName)
@@ -83,23 +83,23 @@ public static int fromName(String continuousSectionRestartName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | continuousSectionRestartName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int continuousSectionRestart) {#getName-int-}
 ```
 public static String getName(int continuousSectionRestart)
@@ -108,12 +108,12 @@ public static String getName(int continuousSectionRestart)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | continuousSectionRestart | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int continuousSectionRestart) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int continuousSectionRestart)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | continuousSectionRestart | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

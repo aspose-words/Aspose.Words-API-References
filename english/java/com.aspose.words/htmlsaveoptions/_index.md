@@ -1,167 +1,167 @@
 ---
 title: HtmlSaveOptions
-second_title: Aspose.Words for Java API 参考
-description: 可用于在将文档保存为 or 格式时指定其他选项。
+second_title: Aspose.Words for Java API Reference
+description: Can be used to specify additional options when saving a document into the    or  format.
 type: docs
 weight: 331
-url: /zh/java/com.aspose.words/htmlsaveoptions/
+url: /java/com.aspose.words/htmlsaveoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.SaveOptions](../../com.aspose.words/saveoptions)
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class HtmlSaveOptions extends SaveOptions implements Cloneable
 ```
 
-可用于在将文档保存到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。
+Can be used to specify additional options when saving a document into the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format.
 
-要了解更多信息，请访问**Specify Save Options**文档文章。
-## 构造函数s
+To learn more, visit the **Specify Save Options** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [HtmlSaveOptions()](#HtmlSaveOptions--) | 初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML)格式。 |
-| [HtmlSaveOptions(int saveFormat)](#HtmlSaveOptions-int-) | 初始化此类的新实例。 |
-## 方法s
+| [HtmlSaveOptions()](#HtmlSaveOptions--) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) format. |
+| [HtmlSaveOptions(int saveFormat)](#HtmlSaveOptions-int-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [createSaveOptions(int saveFormat)](#createSaveOptions-int-) |  |
-| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | 创建适合给定文件名中指定的文件扩展名的类的保存选项对象。 |
+| [createSaveOptions(String fileName)](#createSaveOptions-java.lang.String-) | Creates a save options object of a class suitable for the file extension specified in the given file name. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | 获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
-| [getAllowNegativeIndent()](#getAllowNegativeIndent--) | 指定在保存为 HTML、MHTML 或 EPUB 时是否规范段落的负左缩进和右缩进。 |
-| [get班级()](#get班级--) |  |
-| [getCss班级NamePrefix()](#getCss班级NamePrefix--) | 指定添加到所有 CSS 类名称的前缀。 |
-| [getCssSavingCallback()](#getCssSavingCallback--) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存 CSS 样式。 |
-| [getCssStyleSheetFileName()](#getCssStyleSheetFileName--) | 指定将文档导出为 HTML 时写入的层叠样式表 (CSS) 文件的路径和名称。 |
-| [getCssStyleSheet类型()](#getCssStyleSheet类型--) | 指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。 |
-| [getDefaultTemplate()](#getDefaultTemplate--) | 获取默认模板的路径（包括文件名）。 |
-| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | 获取确定如何渲染 3D 效果的值。 |
-| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 效果。 |
-| [getDmlRenderingMode()](#getDmlRenderingMode--) | 获取一个值，该值确定如何呈现 DrawingML 形状。 |
-| [getDocumentPartSavingCallback()](#getDocumentPartSavingCallback--) | 允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分。 |
-| [getDocumentSplitCriteria()](#getDocumentSplitCriteria--) | 指定在保存到时应如何拆分文档[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。 |
-| [getDocumentSplitHeadingLevel()](#getDocumentSplitHeadingLevel--) | 指定拆分文档的最大标题级别。 |
+| [getAllowEmbeddingPostScriptFonts()](#getAllowEmbeddingPostScriptFonts--) | Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [getAllowNegativeIndent()](#getAllowNegativeIndent--) | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. |
+| [getClass()](#getClass--) |  |
+| [getCssClassNamePrefix()](#getCssClassNamePrefix--) | Specifies a prefix which is added to all CSS class names. |
+| [getCssSavingCallback()](#getCssSavingCallback--) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
+| [getCssStyleSheetFileName()](#getCssStyleSheetFileName--) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. |
+| [getCssStyleSheetType()](#getCssStyleSheetType--) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. |
+| [getDefaultTemplate()](#getDefaultTemplate--) | Gets path to default template (including filename). |
+| [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode--) | Gets a value determining how 3D effects are rendered. |
+| [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode--) | Gets a value determining how DrawingML effects are rendered. |
+| [getDmlRenderingMode()](#getDmlRenderingMode--) | Gets a value determining how DrawingML shapes are rendered. |
+| [getDocumentPartSavingCallback()](#getDocumentPartSavingCallback--) | Allows to control how document parts are saved when a document is saved to HTML or EPUB. |
+| [getDocumentSplitCriteria()](#getDocumentSplitCriteria--) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. |
+| [getDocumentSplitHeadingLevel()](#getDocumentSplitHeadingLevel--) | Specifies the maximum level of headings at which to split the document. |
 | [getEncoding()](#getEncoding--) |  |
-| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel--) | 指定导出为 IDPF EPUB 格式时填充到导航地图的最大标题级别。 |
-| [getExportCidUrlsForMhtmlResources()](#getExportCidUrlsForMhtmlResources--) | 指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。 |
-| [getExportDocumentProperties()](#getExportDocumentProperties--) | 指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。 |
-| [getExportDropDownForm字段AsText()](#getExportDropDownForm字段AsText--) | 控制如何将下拉表单字段保存为 HTML 或 MHTML。 |
-| [getExportFontResources()](#getExportFontResources--) | 指定字体资源是否应导出为 HTML、MHTML 或 EPUB。 |
-| [getExportFontsAsBase64()](#getExportFontsAsBase64--) | 指定字体资源是否应以 Base64 编码嵌入到 HTML。 |
-| [getExportGeneratorName()](#getExportGeneratorName--) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
-| [getExportHeadersFootersMode()](#getExportHeadersFootersMode--) | 指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。 |
-| [getExportImagesAsBase64()](#getExportImagesAsBase64--) | 指定图像是否以 Base64 格式保存到输出 HTML、MHTML 或 EPUB。 |
-| [getExportLanguageInformation()](#getExportLanguageInformation--) | 指定是否将语言信息导出为 HTML、MHTML 或 EPUB。 |
-| [getExportListLabels()](#getExportListLabels--) | 控制列表标签如何输出到 HTML、MHTML 或 EPUB。 |
-| [getExportOriginalUrlForLinkedImages()](#getExportOriginalUrlForLinkedImages--) | 指定是否应将原始 URL 用作链接图像的 URL。 |
-| [getExportPageMargins()](#getExportPageMargins--) | 指定页边距是否导出为 HTML、MHTML 或 EPUB。 |
-| [getExportPageSetup()](#getExportPageSetup--) | 指定是否将页面设置导出为 HTML、MHTML 或 EPUB。 |
-| [getExportRelativeFontSize()](#getExportRelativeFontSize--) | 指定保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。 |
-| [getExportRoundtripInformation()](#getExportRoundtripInformation--) | 指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。 |
-| [getExportShapesAsSvg()](#getExportShapesAsSvg--) | 控制是否[Shape](../../com.aspose.words/shape)保存为 HTML、MHTML、EPUB 或 AZW3 时，节点将转换为 SVG 图像。 |
-| [getExportTextInputForm字段AsText()](#getExportTextInputForm字段AsText--) | 控制文本输入表单字段如何保存为 HTML 或 MHTML。 |
-| [getExportTocPageNumbers()](#getExportTocPageNumbers--) | 指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。 |
-| [getExportXhtmlTransitional()](#getExportXhtmlTransitional--) | 指定保存为 HTML 或 MHTML 时是否编写 DOCTYPE 声明。 |
-| [getFontResourcesSubsettingSizeThreshold()](#getFontResourcesSubsettingSizeThreshold--) | 控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。 |
-| [getFontSavingCallback()](#getFontSavingCallback--) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存字体。 |
-| [getFontsFolder()](#getFontsFolder--) | 指定将文档导出为 HTML 时保存字体的物理文件夹。 |
-| [getFontsFolderAlias()](#getFontsFolderAlias--) | 指定用于构造写入 HTML 文档的字体 URI 的文件夹的名称。 |
-| [getHtmlVersion()](#getHtmlVersion--) | 指定将文档保存为 HTML 或 MHTML 时应使用的 HTML 标准版本。 |
-| [getImageResolution()](#getImageResolution--) | 指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。 |
-| [getImageSavingCallback()](#getImageSavingCallback--) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存图像。 |
-| [getImagesFolder()](#getImagesFolder--) | 指定将文档导出为 HTML 格式时保存图像的物理文件夹。 |
-| [getImagesFolderAlias()](#getImagesFolderAlias--) | 指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称。 |
-| [getImlRenderingMode()](#getImlRenderingMode--) | 获取一个值，该值确定如何呈现墨迹 (InkML) 对象。 |
-| [getMemoryOptimization()](#getMemoryOptimization--) | 获取确定是否应在保存文档之前执行内存优化的值。 |
-| [getMetafileFormat()](#getMetafileFormat--) | 指定导出为 HTML、MHTML 或 EPUB 时以何种格式保存元文件。 |
-| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--) | 控制如何将 OfficeMath 对象导出为 HTML、MHTML 或 EPUB。 |
-| [getPrettyFormat()](#getPrettyFormat--) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
-| [getProgressCallback()](#getProgressCallback--) | 在保存文档期间调用并接受有关保存进度的数据。 |
-| [getResolveFontNames()](#getResolveFontNames--) | 指定文档中使用的字体系列名称是否根据[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)当被写入基于 HTML 的格式时。 |
-| [getResourceFolder()](#getResourceFolder--) | 指定将文档导出为 HTML 时保存所有资源（如图像、字体和外部 CSS）的物理文件夹。 |
-| [getResourceFolderAlias()](#getResourceFolderAlias--) | 指定用于构造写入 HTML 文档的所有资源的 URI 的文件夹的名称。 |
-| [getSaveFormat()](#getSaveFormat--) | 如果使用此保存选项对象，则指定保存文档的格式。 |
-| [getScaleImageToShapeSize()](#getScaleImageToShapeSize--) | 指定当导出为 HTML、MHTML 或 EPUB 时，图像是否由 Aspose.Words 缩放到边界形状大小。 |
-| [getTableWidthOutputMode()](#getTableWidthOutputMode--) | 控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。 |
-| [getTempFolder()](#getTempFolder--) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
-| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
-| [getUpdate字段()](#getUpdate字段--) | 获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
-| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
-| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | 获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
-| [getUpdateSdtContent()](#getUpdateSdtContent--) | 获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
-| [getUseAntiAliasing()](#getUseAntiAliasing--) | 获取一个值，该值确定是否使用抗锯齿进行渲染。 |
-| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | 获取确定是否使用高质量的值（即 |
+| [getEpubNavigationMapLevel()](#getEpubNavigationMapLevel--) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. |
+| [getExportCidUrlsForMhtmlResources()](#getExportCidUrlsForMhtmlResources--) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
+| [getExportDocumentProperties()](#getExportDocumentProperties--) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
+| [getExportDropDownFormFieldAsText()](#getExportDropDownFormFieldAsText--) | Controls how drop-down form fields are saved to HTML or MHTML. |
+| [getExportFontResources()](#getExportFontResources--) | Specifies whether font resources should be exported to HTML, MHTML or EPUB. |
+| [getExportFontsAsBase64()](#getExportFontsAsBase64--) | Specifies whether fonts resources should be embedded to HTML in Base64 encoding. |
+| [getExportGeneratorName()](#getExportGeneratorName--) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
+| [getExportHeadersFootersMode()](#getExportHeadersFootersMode--) | Specifies how headers and footers are output to HTML, MHTML or EPUB. |
+| [getExportImagesAsBase64()](#getExportImagesAsBase64--) | Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. |
+| [getExportLanguageInformation()](#getExportLanguageInformation--) | Specifies whether language information is exported to HTML, MHTML or EPUB. |
+| [getExportListLabels()](#getExportListLabels--) | Controls how list labels are output to HTML, MHTML or EPUB. |
+| [getExportOriginalUrlForLinkedImages()](#getExportOriginalUrlForLinkedImages--) | Specifies whether original URL should be used as the URL of the linked images. |
+| [getExportPageMargins()](#getExportPageMargins--) | Specifies whether page margins is exported to HTML, MHTML or EPUB. |
+| [getExportPageSetup()](#getExportPageSetup--) | Specifies whether page setup is exported to HTML, MHTML or EPUB. |
+| [getExportRelativeFontSize()](#getExportRelativeFontSize--) | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. |
+| [getExportRoundtripInformation()](#getExportRoundtripInformation--) | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. |
+| [getExportShapesAsSvg()](#getExportShapesAsSvg--) | Controls whether [Shape](../../com.aspose.words/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. |
+| [getExportTextInputFormFieldAsText()](#getExportTextInputFormFieldAsText--) | Controls how text input form fields are saved to HTML or MHTML. |
+| [getExportTocPageNumbers()](#getExportTocPageNumbers--) | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. |
+| [getExportXhtmlTransitional()](#getExportXhtmlTransitional--) | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. |
+| [getFontResourcesSubsettingSizeThreshold()](#getFontResourcesSubsettingSizeThreshold--) | Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. |
+| [getFontSavingCallback()](#getFontSavingCallback--) | Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB. |
+| [getFontsFolder()](#getFontsFolder--) | Specifies the physical folder where fonts are saved when exporting a document to HTML. |
+| [getFontsFolderAlias()](#getFontsFolderAlias--) | Specifies the name of the folder used to construct font URIs written into an HTML document. |
+| [getHtmlVersion()](#getHtmlVersion--) | Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. |
+| [getImageResolution()](#getImageResolution--) | Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. |
+| [getImageSavingCallback()](#getImageSavingCallback--) | Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB. |
+| [getImagesFolder()](#getImagesFolder--) | Specifies the physical folder where images are saved when exporting a document to HTML format. |
+| [getImagesFolderAlias()](#getImagesFolderAlias--) | Specifies the name of the folder used to construct image URIs written into an HTML document. |
+| [getImlRenderingMode()](#getImlRenderingMode--) | Gets a value determining how ink (InkML) objects are rendered. |
+| [getMemoryOptimization()](#getMemoryOptimization--) | Gets value determining if memory optimization should be performed before saving the document. |
+| [getMetafileFormat()](#getMetafileFormat--) | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. |
+| [getOfficeMathOutputMode()](#getOfficeMathOutputMode--) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
+| [getPrettyFormat()](#getPrettyFormat--) | When  true , pretty formats output where applicable. |
+| [getProgressCallback()](#getProgressCallback--) | Called during saving a document and accepts data about saving progress. |
+| [getResolveFontNames()](#getResolveFontNames--) | Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) when being written into HTML-based formats. |
+| [getResourceFolder()](#getResourceFolder--) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. |
+| [getResourceFolderAlias()](#getResourceFolderAlias--) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. |
+| [getSaveFormat()](#getSaveFormat--) | Specifies the format in which the document will be saved if this save options object is used. |
+| [getScaleImageToShapeSize()](#getScaleImageToShapeSize--) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. |
+| [getTableWidthOutputMode()](#getTableWidthOutputMode--) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. |
+| [getTempFolder()](#getTempFolder--) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [getUpdateCreatedTimeProperty()](#getUpdateCreatedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| [getUpdateFields()](#getUpdateFields--) | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| [getUpdateLastPrintedProperty()](#getUpdateLastPrintedProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty--) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| [getUpdateSdtContent()](#getUpdateSdtContent--) | Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [getUseAntiAliasing()](#getUseAntiAliasing--) | Gets a value determining whether or not to use anti-aliasing for rendering. |
+| [getUseHighQualityRendering()](#getUseHighQualityRendering--) | Gets a value determining whether or not to use high quality (i.e. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | 设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
-| [setAllowNegativeIndent(boolean value)](#setAllowNegativeIndent-boolean-) | 指定在保存为 HTML、MHTML 或 EPUB 时是否规范段落的负左缩进和右缩进。 |
-| [setCss班级NamePrefix(String value)](#setCss班级NamePrefix-java.lang.String-) | 指定添加到所有 CSS 类名称的前缀。 |
-| [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.words.ICssSavingCallback-) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存 CSS 样式。 |
-| [setCssStyleSheetFileName(String value)](#setCssStyleSheetFileName-java.lang.String-) | 指定将文档导出为 HTML 时写入的层叠样式表 (CSS) 文件的路径和名称。 |
-| [setCssStyleSheet类型(int value)](#setCssStyleSheet类型-int-) | 指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。 |
-| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | 设置默认模板的路径（包括文件名）。 |
-| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | 设置确定如何渲染 3D 效果的值。 |
-| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 效果。 |
-| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | 设置一个值，确定如何呈现 DrawingML 形状。 |
-| [setDocumentPartSavingCallback(IDocumentPartSavingCallback value)](#setDocumentPartSavingCallback-com.aspose.words.IDocumentPartSavingCallback-) | 允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分。 |
-| [setDocumentSplitCriteria(int value)](#setDocumentSplitCriteria-int-) | 指定在保存到时应如何拆分文档[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。 |
-| [setDocumentSplitHeadingLevel(int value)](#setDocumentSplitHeadingLevel-int-) | 指定拆分文档的最大标题级别。 |
+| [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean-) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
+| [setAllowNegativeIndent(boolean value)](#setAllowNegativeIndent-boolean-) | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. |
+| [setCssClassNamePrefix(String value)](#setCssClassNamePrefix-java.lang.String-) | Specifies a prefix which is added to all CSS class names. |
+| [setCssSavingCallback(ICssSavingCallback value)](#setCssSavingCallback-com.aspose.words.ICssSavingCallback-) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
+| [setCssStyleSheetFileName(String value)](#setCssStyleSheetFileName-java.lang.String-) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. |
+| [setCssStyleSheetType(int value)](#setCssStyleSheetType-int-) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. |
+| [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String-) | Sets path to default template (including filename). |
+| [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int-) | Sets a value determining how 3D effects are rendered. |
+| [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int-) | Sets a value determining how DrawingML effects are rendered. |
+| [setDmlRenderingMode(int value)](#setDmlRenderingMode-int-) | Sets a value determining how DrawingML shapes are rendered. |
+| [setDocumentPartSavingCallback(IDocumentPartSavingCallback value)](#setDocumentPartSavingCallback-com.aspose.words.IDocumentPartSavingCallback-) | Allows to control how document parts are saved when a document is saved to HTML or EPUB. |
+| [setDocumentSplitCriteria(int value)](#setDocumentSplitCriteria-int-) | Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. |
+| [setDocumentSplitHeadingLevel(int value)](#setDocumentSplitHeadingLevel-int-) | Specifies the maximum level of headings at which to split the document. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) |  |
-| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int-) | 指定导出为 IDPF EPUB 格式时填充到导航地图的最大标题级别。 |
-| [setExportCidUrlsForMhtmlResources(boolean value)](#setExportCidUrlsForMhtmlResources-boolean-) | 指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。 |
-| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | 指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。 |
-| [setExportDropDownForm字段AsText(boolean value)](#setExportDropDownForm字段AsText-boolean-) | 控制如何将下拉表单字段保存为 HTML 或 MHTML。 |
-| [setExportFontResources(boolean value)](#setExportFontResources-boolean-) | 指定字体资源是否应导出为 HTML、MHTML 或 EPUB。 |
-| [setExportFontsAsBase64(boolean value)](#setExportFontsAsBase64-boolean-) | 指定字体资源是否应以 Base64 编码嵌入到 HTML。 |
-| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | 如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。 |
-| [setExportHeadersFootersMode(int value)](#setExportHeadersFootersMode-int-) | 指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。 |
-| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | 指定图像是否以 Base64 格式保存到输出 HTML、MHTML 或 EPUB。 |
-| [setExportLanguageInformation(boolean value)](#setExportLanguageInformation-boolean-) | 指定是否将语言信息导出为 HTML、MHTML 或 EPUB。 |
-| [setExportListLabels(int value)](#setExportListLabels-int-) | 控制列表标签如何输出到 HTML、MHTML 或 EPUB。 |
-| [setExportOriginalUrlForLinkedImages(boolean value)](#setExportOriginalUrlForLinkedImages-boolean-) | 指定是否应将原始 URL 用作链接图像的 URL。 |
-| [setExportPageMargins(boolean value)](#setExportPageMargins-boolean-) | 指定页边距是否导出为 HTML、MHTML 或 EPUB。 |
-| [setExportPageSetup(boolean value)](#setExportPageSetup-boolean-) | 指定是否将页面设置导出为 HTML、MHTML 或 EPUB。 |
-| [setExportRelativeFontSize(boolean value)](#setExportRelativeFontSize-boolean-) | 指定保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。 |
-| [setExportRoundtripInformation(boolean value)](#setExportRoundtripInformation-boolean-) | 指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。 |
-| [setExportShapesAsSvg(boolean value)](#setExportShapesAsSvg-boolean-) | 控制是否[Shape](../../com.aspose.words/shape)保存为 HTML、MHTML、EPUB 或 AZW3 时，节点将转换为 SVG 图像。 |
-| [setExportTextInputForm字段AsText(boolean value)](#setExportTextInputForm字段AsText-boolean-) | 控制文本输入表单字段如何保存为 HTML 或 MHTML。 |
-| [setExportTocPageNumbers(boolean value)](#setExportTocPageNumbers-boolean-) | 指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。 |
-| [setExportXhtmlTransitional(boolean value)](#setExportXhtmlTransitional-boolean-) | 指定保存为 HTML 或 MHTML 时是否编写 DOCTYPE 声明。 |
-| [setFontResourcesSubsettingSizeThreshold(int value)](#setFontResourcesSubsettingSizeThreshold-int-) | 控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。 |
-| [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.words.IFontSavingCallback-) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存字体。 |
-| [setFontsFolder(String value)](#setFontsFolder-java.lang.String-) | 指定将文档导出为 HTML 时保存字体的物理文件夹。 |
-| [setFontsFolderAlias(String value)](#setFontsFolderAlias-java.lang.String-) | 指定用于构造写入 HTML 文档的字体 URI 的文件夹的名称。 |
-| [setHtmlVersion(int value)](#setHtmlVersion-int-) | 指定将文档保存为 HTML 或 MHTML 时应使用的 HTML 标准版本。 |
-| [setImageResolution(int value)](#setImageResolution-int-) | 指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。 |
-| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) | 允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存图像。 |
-| [setImagesFolder(String value)](#setImagesFolder-java.lang.String-) | 指定将文档导出为 HTML 格式时保存图像的物理文件夹。 |
-| [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String-) | 指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称。 |
-| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | 设置一个值，确定如何呈现墨水 (InkML) 对象。 |
-| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | 设置值确定是否应在保存文档之前执行内存优化。 |
-| [setMetafileFormat(int value)](#setMetafileFormat-int-) | 指定导出为 HTML、MHTML 或 EPUB 时以何种格式保存元文件。 |
-| [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int-) | 控制如何将 OfficeMath 对象导出为 HTML、MHTML 或 EPUB。 |
-| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | 如果为 true ，则在适用的情况下输出漂亮的格式。 |
-| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | 在保存文档期间调用并接受有关保存进度的数据。 |
-| [setResolveFontNames(boolean value)](#setResolveFontNames-boolean-) | 指定文档中使用的字体系列名称是否根据[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)当被写入基于 HTML 的格式时。 |
-| [setResourceFolder(String value)](#setResourceFolder-java.lang.String-) | 指定将文档导出为 HTML 时保存所有资源（如图像、字体和外部 CSS）的物理文件夹。 |
-| [setResourceFolderAlias(String value)](#setResourceFolderAlias-java.lang.String-) | 指定用于构造写入 HTML 文档的所有资源的 URI 的文件夹的名称。 |
-| [setSaveFormat(int value)](#setSaveFormat-int-) | 如果使用此保存选项对象，则指定保存文档的格式。 |
-| [setScaleImageToShapeSize(boolean value)](#setScaleImageToShapeSize-boolean-) | 指定当导出为 HTML、MHTML 或 EPUB 时，图像是否由 Aspose.Words 缩放到边界形状大小。 |
-| [setTableWidthOutputMode(int value)](#setTableWidthOutputMode-int-) | 控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。 |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。 |
-| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
-| [setUpdate字段(boolean value)](#setUpdate字段-boolean-) | 设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 |
-| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
-| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | 设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
-| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | 设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
-| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | 设置一个值，确定是否使用抗锯齿进行渲染。 |
-| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | 设置一个值来确定是否使用高质量（即 |
+| [setEpubNavigationMapLevel(int value)](#setEpubNavigationMapLevel-int-) | Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. |
+| [setExportCidUrlsForMhtmlResources(boolean value)](#setExportCidUrlsForMhtmlResources-boolean-) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. |
+| [setExportDocumentProperties(boolean value)](#setExportDocumentProperties-boolean-) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. |
+| [setExportDropDownFormFieldAsText(boolean value)](#setExportDropDownFormFieldAsText-boolean-) | Controls how drop-down form fields are saved to HTML or MHTML. |
+| [setExportFontResources(boolean value)](#setExportFontResources-boolean-) | Specifies whether font resources should be exported to HTML, MHTML or EPUB. |
+| [setExportFontsAsBase64(boolean value)](#setExportFontsAsBase64-boolean-) | Specifies whether fonts resources should be embedded to HTML in Base64 encoding. |
+| [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean-) | When true, causes the name and version of Aspose.Words to be embedded into produced files. |
+| [setExportHeadersFootersMode(int value)](#setExportHeadersFootersMode-int-) | Specifies how headers and footers are output to HTML, MHTML or EPUB. |
+| [setExportImagesAsBase64(boolean value)](#setExportImagesAsBase64-boolean-) | Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. |
+| [setExportLanguageInformation(boolean value)](#setExportLanguageInformation-boolean-) | Specifies whether language information is exported to HTML, MHTML or EPUB. |
+| [setExportListLabels(int value)](#setExportListLabels-int-) | Controls how list labels are output to HTML, MHTML or EPUB. |
+| [setExportOriginalUrlForLinkedImages(boolean value)](#setExportOriginalUrlForLinkedImages-boolean-) | Specifies whether original URL should be used as the URL of the linked images. |
+| [setExportPageMargins(boolean value)](#setExportPageMargins-boolean-) | Specifies whether page margins is exported to HTML, MHTML or EPUB. |
+| [setExportPageSetup(boolean value)](#setExportPageSetup-boolean-) | Specifies whether page setup is exported to HTML, MHTML or EPUB. |
+| [setExportRelativeFontSize(boolean value)](#setExportRelativeFontSize-boolean-) | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. |
+| [setExportRoundtripInformation(boolean value)](#setExportRoundtripInformation-boolean-) | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. |
+| [setExportShapesAsSvg(boolean value)](#setExportShapesAsSvg-boolean-) | Controls whether [Shape](../../com.aspose.words/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. |
+| [setExportTextInputFormFieldAsText(boolean value)](#setExportTextInputFormFieldAsText-boolean-) | Controls how text input form fields are saved to HTML or MHTML. |
+| [setExportTocPageNumbers(boolean value)](#setExportTocPageNumbers-boolean-) | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. |
+| [setExportXhtmlTransitional(boolean value)](#setExportXhtmlTransitional-boolean-) | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. |
+| [setFontResourcesSubsettingSizeThreshold(int value)](#setFontResourcesSubsettingSizeThreshold-int-) | Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. |
+| [setFontSavingCallback(IFontSavingCallback value)](#setFontSavingCallback-com.aspose.words.IFontSavingCallback-) | Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB. |
+| [setFontsFolder(String value)](#setFontsFolder-java.lang.String-) | Specifies the physical folder where fonts are saved when exporting a document to HTML. |
+| [setFontsFolderAlias(String value)](#setFontsFolderAlias-java.lang.String-) | Specifies the name of the folder used to construct font URIs written into an HTML document. |
+| [setHtmlVersion(int value)](#setHtmlVersion-int-) | Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. |
+| [setImageResolution(int value)](#setImageResolution-int-) | Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. |
+| [setImageSavingCallback(IImageSavingCallback value)](#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) | Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB. |
+| [setImagesFolder(String value)](#setImagesFolder-java.lang.String-) | Specifies the physical folder where images are saved when exporting a document to HTML format. |
+| [setImagesFolderAlias(String value)](#setImagesFolderAlias-java.lang.String-) | Specifies the name of the folder used to construct image URIs written into an HTML document. |
+| [setImlRenderingMode(int value)](#setImlRenderingMode-int-) | Sets a value determining how ink (InkML) objects are rendered. |
+| [setMemoryOptimization(boolean value)](#setMemoryOptimization-boolean-) | Sets value determining if memory optimization should be performed before saving the document. |
+| [setMetafileFormat(int value)](#setMetafileFormat-int-) | Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. |
+| [setOfficeMathOutputMode(int value)](#setOfficeMathOutputMode-int-) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. |
+| [setPrettyFormat(boolean value)](#setPrettyFormat-boolean-) | When  true , pretty formats output where applicable. |
+| [setProgressCallback(IDocumentSavingCallback value)](#setProgressCallback-com.aspose.words.IDocumentSavingCallback-) | Called during saving a document and accepts data about saving progress. |
+| [setResolveFontNames(boolean value)](#setResolveFontNames-boolean-) | Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) when being written into HTML-based formats. |
+| [setResourceFolder(String value)](#setResourceFolder-java.lang.String-) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. |
+| [setResourceFolderAlias(String value)](#setResourceFolderAlias-java.lang.String-) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. |
+| [setSaveFormat(int value)](#setSaveFormat-int-) | Specifies the format in which the document will be saved if this save options object is used. |
+| [setScaleImageToShapeSize(boolean value)](#setScaleImageToShapeSize-boolean-) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. |
+| [setTableWidthOutputMode(int value)](#setTableWidthOutputMode-int-) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. |
+| [setUpdateCreatedTimeProperty(boolean value)](#setUpdateCreatedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
+| [setUpdateFields(boolean value)](#setUpdateFields-boolean-) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. |
+| [setUpdateLastPrintedProperty(boolean value)](#setUpdateLastPrintedProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
+| [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean-) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
+| [setUpdateSdtContent(boolean value)](#setUpdateSdtContent-boolean-) | Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
+| [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean-) | Sets a value determining whether or not to use anti-aliasing for rendering. |
+| [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean-) | Sets a value determining whether or not to use high quality (i.e. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -172,7 +172,7 @@ public HtmlSaveOptions()
 ```
 
 
-初始化此类的新实例，该实例可用于将文档保存在[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML)格式。
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML) format.
 
 ### HtmlSaveOptions(int saveFormat) {#HtmlSaveOptions-int-}
 ```
@@ -180,10 +180,10 @@ public HtmlSaveOptions(int saveFormat)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
@@ -195,12 +195,12 @@ public static SaveOptions createSaveOptions(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 [SaveOptions](../../com.aspose.words/saveoptions)
 ### createSaveOptions(String fileName) {#createSaveOptions-java.lang.String-}
 ```
@@ -208,15 +208,15 @@ public static SaveOptions createSaveOptions(String fileName)
 ```
 
 
-创建适合给定文件名中指定的文件扩展名的类的保存选项对象。
+Creates a save options object of a class suitable for the file extension specified in the given file name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 此文件名的扩展名确定要创建的保存选项对象的类。 |
+| fileName | java.lang.String | The extension of this file name determines the class of the save options object to create. |
 
-**退货:**
-[SaveOptions](../../com.aspose.words/saveoptions) - 派生自的类的对象[SaveOptions](../../com.aspose.words/saveoptions).
+**Returns:**
+[SaveOptions](../../com.aspose.words/saveoptions) - An object of a class that derives from [SaveOptions](../../com.aspose.words/saveoptions).
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -225,187 +225,187 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAllowEmbeddingPostScriptFonts() {#getAllowEmbeddingPostScriptFonts--}
 ```
 public boolean getAllowEmbeddingPostScriptFonts()
 ```
 
 
-获取一个布尔值，该值指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+Gets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
 
-**退货:**
-boolean - 一个布尔值，指示在保存文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。
+**Returns:**
+boolean - A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved.
 ### getAllowNegativeIndent() {#getAllowNegativeIndent--}
 ```
 public boolean getAllowNegativeIndent()
 ```
 
 
-指定在保存为 HTML、MHTML 或 EPUB 时是否规范段落的负左缩进和右缩进。默认值为 false 。
+Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is  false .
 
-当不允许负缩进时，它将作为零边距导出到 HTML。当允许负缩进时，段落可能会部分显示在浏览器窗口之外。
+When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
 
-**退货:**
-boolean - 对应的布尔值。
-### get班级() {#get班级--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getCss班级NamePrefix() {#getCss班级NamePrefix--}
-```
-public String getCss班级NamePrefix()
+public final native Class<?> getClass()
 ```
 
 
-指定添加到所有 CSS 类名称的前缀。默认值为空字符串，生成的 CSS 类名没有公共前缀。
 
-如果此值不为空，Aspose.Words 生成的所有 CSS 类都将以指定的前缀开头。这可能很有用，例如，如果您将自定义 CSS 添加到生成的文档并希望防止类名冲突。
 
-如果该值不为 null 或为空，则它必须是有效的 CSS 标识符。
+**Returns:**
+java.lang.Class<?>
+### getCssClassNamePrefix() {#getCssClassNamePrefix--}
+```
+public String getCssClassNamePrefix()
+```
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+
+Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix.
+
+If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix. This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts.
+
+If the value is not  null  or empty, it must be a valid CSS identifier.
+
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getCssSavingCallback() {#getCssSavingCallback--}
 ```
 public ICssSavingCallback getCssSavingCallback()
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存 CSS 样式。
+Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 
-**退货:**
-[ICssSavingCallback](../../com.aspose.words/icsssavingcallback) - 相应的[ICssSavingCallback](../../com.aspose.words/icsssavingcallback)价值。
+**Returns:**
+[ICssSavingCallback](../../com.aspose.words/icsssavingcallback) - The corresponding [ICssSavingCallback](../../com.aspose.words/icsssavingcallback) value.
 ### getCssStyleSheetFileName() {#getCssStyleSheetFileName--}
 ```
 public String getCssStyleSheetFileName()
 ```
 
 
-指定将文档导出为 HTML 时写入的层叠样式表 (CSS) 文件的路径和名称。默认为空字符串。
+Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. Default is an empty string.
 
-此属性仅在将文档保存为 HTML 格式并且使用请求外部 CSS 样式表时才有效[getCssStyleSheet类型()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheet类型--) / [setCssStyleSheet类型(int)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheet类型-int-).
+This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [getCssStyleSheetType()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetType--) / [setCssStyleSheetType(int)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetType-int-).
 
-如果此属性为空，则 CSS 文件将保存到与 HTML 文档同名但扩展名为“.css”的同一文件夹中。
+If this property is empty, the CSS file will be saved into the same folder and with the same name as the HTML document but with the ".css" extension.
 
-如果此属性中仅指定路径但未指定文件名，则 CSS 文件将保存到指定文件夹中，并与 HTML 文档同名，但扩展名为“.css”。
+If only path but no file name is specified in this property, the CSS file will be saved into the specified folder and will have the same name as the HTML document but with the ".css" extension.
 
-如果此属性指定的文件夹不存在，则会在保存 CSS 文件之前自动创建。
+If the folder specified by this property doesn't exist, it will be created automatically before the CSS file is saved.
 
-指定保存外部 CSS 文件的文件夹的另一种方法是使用[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
+Another way to specify a folder where external CSS file is saved is to use [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getCssStyleSheet类型() {#getCssStyleSheet类型--}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getCssStyleSheetType() {#getCssStyleSheetType--}
 ```
-public int getCssStyleSheet类型()
+public int getCssStyleSheetType()
 ```
 
 
-指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。默认值为[CssStyleSheet类型.INLINE](../../com.aspose.words/cssstylesheettype\#INLINE)对于 HTML/MHTML 和[CssStyleSheet类型.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL)对于 EPUB。
+Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.INLINE](../../com.aspose.words/cssstylesheettype\#INLINE) for HTML/MHTML and [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL) for EPUB.
 
-仅当保存为 HTML 时才支持将 CSS 样式表保存到外部文件中。当您导出为其中一种容器格式（EPUB 或 MHTML）并指定[CssStyleSheet类型.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL)CSS 文件将被封装到输出包中。
+Saving CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL), CSS file will be encapsulated into the output package.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[CssStyleSheet类型](../../com.aspose.words/cssstylesheettype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [CssStyleSheetType](../../com.aspose.words/cssstylesheettype) constants.
 ### getDefaultTemplate() {#getDefaultTemplate--}
 ```
 public String getDefaultTemplate()
 ```
 
 
-获取默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
+Gets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
 
-**退货:**
-java.lang.String - 默认模板的路径（包括文件名）。
+**Returns:**
+java.lang.String - Path to default template (including filename).
 ### getDml3DEffectsRenderingMode() {#getDml3DEffectsRenderingMode--}
 ```
 public int getDml3DEffectsRenderingMode()
 ```
 
 
-获取确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+Gets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**退货:**
-int - 确定如何渲染 3D 效果的值。返回值是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。
+**Returns:**
+int - A value determining how 3D effects are rendered. The returned value is one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants.
 ### getDmlEffectsRenderingMode() {#getDmlEffectsRenderingMode--}
 ```
 public int getDmlEffectsRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+Gets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**退货:**
- int - 确定如何呈现 DrawingML 效果的值。返回值是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。
+**Returns:**
+int - A value determining how DrawingML effects are rendered. The returned value is one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants.
 ### getDmlRenderingMode() {#getDmlRenderingMode--}
 ```
 public int getDmlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+Gets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**退货:**
-int - 确定如何呈现 DrawingML 形状的值。返回值是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。
+**Returns:**
+int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants.
 ### getDocumentPartSavingCallback() {#getDocumentPartSavingCallback--}
 ```
 public IDocumentPartSavingCallback getDocumentPartSavingCallback()
 ```
 
 
-允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分。
+Allows to control how document parts are saved when a document is saved to HTML or EPUB.
 
-**退货:**
-[IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) - 相应的[IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback)价值。
+**Returns:**
+[IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) - The corresponding [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) value.
 ### getDocumentSplitCriteria() {#getDocumentSplitCriteria--}
 ```
 public int getDocumentSplitCriteria()
 ```
 
 
-指定在保存到时应如何拆分文档[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。默认为[DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria\#NONE)对于 HTML 和[DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH)适用于 EPUB 和 AZW3。
+Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. Default is [DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria\#NONE) for HTML and [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH) for EPUB and AZW3.
 
-通常，您希望将文档作为单个文件保存为 HTML。但在某些情况下，最好将输出拆分为几个较小的 HTML 页面。保存为 HTML 格式时，这些页面将输出到单个文件或流中。当保存为 EPUB 格式时，它们将被合并到相应的包中。
+Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
-以 MHTML 格式保存时无法拆分文档。
+A document cannot be split when saving in the MHTML format.
 
-**退货:**
- int - 对应的 int 值。返回值是按位组合[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is a bitwise combination of [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) constants.
 ### getDocumentSplitHeadingLevel() {#getDocumentSplitHeadingLevel--}
 ```
 public int getDocumentSplitHeadingLevel()
 ```
 
 
-指定拆分文档的最大标题级别。默认值为 2 。
+Specifies the maximum level of headings at which to split the document. Default value is  2 .
 
-什么时候[getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-)包括[DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH)并且此属性设置为 1 到 9 之间的值，文档将在使用格式化的段落处拆分**Heading 1**, **Heading 2** , **Heading 3**等样式直到指定的标题级别。
+When [getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-) includes [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
-默认情况下，仅**Heading 1**和**Heading 2**段落导致文档被拆分。将此属性设置为零将导致文档根本不会在标题段落处拆分。
+By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
@@ -414,7 +414,7 @@ public Charset getEncoding()
 
 
 
-**退货:**
+**Returns:**
 java.nio.charset.Charset
 ### getEpubNavigationMapLevel() {#getEpubNavigationMapLevel--}
 ```
@@ -422,268 +422,268 @@ public int getEpubNavigationMapLevel()
 ```
 
 
-指定导出为 IDPF EPUB 格式时填充到导航地图的最大标题级别。默认值为 3 。
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is  3 .
 
-IDPF EPUB 格式的导航图允许用户代理通过文档结构提供简单的导航方式。通常导航点对应于文档中的标题。将标题填充到级别**N**将此值分配给[getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel--) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int-).
+Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel--) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int-).
 
-默认情况下，会填充三个级别的标题：样式段落**Heading 1**, **Heading 2**和**Heading 3**.您可以将此属性设置为 1 到 9 之间的值，以请求相应的最大级别。将其设置为零会将导航图减少为仅文档根或文档部分的根。
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getExportCidUrlsForMhtmlResources() {#getExportCidUrlsForMhtmlResources--}
 ```
 public boolean getExportCidUrlsForMhtmlResources()
 ```
 
 
-指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为 false 。
+Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is  false .
 
-此选项仅影响保存为 MHTML 的文档。
+This option affects only documents being saved to MHTML.
 
-默认情况下，MHTML 文档中的资源由文件名（例如，“image.png”）引用，这些文件名与 MIME 部分的“Content-Location”标题相匹配。
+By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
 
-此选项启用另一种方法，其中对资源文件的引用被写入 CID (Content-ID) URL（例如，“cid:image.png”）并与“Content-ID”标头匹配。
+This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
-理论上，这两种引用方法之间应该没有区别，并且它们中的任何一种都应该在任何浏览器或邮件代理中都可以正常工作。然而，在实践中，一些代理无法通过文件名获取资源。如果您的浏览器或邮件代理拒绝加载 MTHML 文档中包含的资源（不显示图像或不加载 CSS 样式），请尝试使用 CID URL 导出文档。
+In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportDocumentProperties() {#getExportDocumentProperties--}
 ```
 public boolean getExportDocumentProperties()
 ```
 
 
-指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。默认值为 false 。
+Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is  false .
 
-**退货:**
-boolean - 对应的布尔值。
-### getExportDropDownForm字段AsText() {#getExportDropDownForm字段AsText--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getExportDropDownFormFieldAsText() {#getExportDropDownFormFieldAsText--}
 ```
-public boolean getExportDropDownForm字段AsText()
+public boolean getExportDropDownFormFieldAsText()
 ```
 
 
-控制如何将下拉表单字段保存为 HTML 或 MHTML。默认值为 false 。
+Controls how drop-down form fields are saved to HTML or MHTML. Default value is  false .
 
-当设置为 true 时，将下拉表单字段导出为普通文本。当 false 时，将下拉表单字段导出为 HTML 中的 SELECT 元素。
+When set to  true , exports drop-down form fields as normal text. When  false , exports drop-down form fields as SELECT element in HTML.
 
-导出到 EPUB 时，由于此格式的要求，文本下拉表单字段始终保存为文本。
+When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportFontResources() {#getExportFontResources--}
 ```
 public boolean getExportFontResources()
 ```
 
 
-指定字体资源是否应导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is  false .
 
-导出字体资源允许独立于给定用户环境中可用的字体的一致文档渲染。
+Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
 
-如果[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，主 HTML 文档将通过 CSS 3 引用每种字体**@font-face**at-rule 和 fonts 将作为单独的文件输出。导出为 IDPF EPUB 或 MHTML 格式时，字体将与其他附属文件一起嵌入到相应的包中。
+If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , main HTML document will refer to every font via the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML formats, fonts will be embedded into the corresponding package along with other subsidiary files.
 
-如果[getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions\#getExportFontsAsBase64--) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontsAsBase64-boolean-)设置为 true ，字体将不会保存到单独的文件中。相反，它们将被嵌入**@font-face**Base64 编码中的 at 规则。
+If [getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions\#getExportFontsAsBase64--) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontsAsBase64-boolean-) is set to  true , fonts will not be saved to separate files. Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
 
-**Important!**导出字体资源时，应考虑字体许可问题。希望通过可下载字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，使用**@font-face**CSS 样式表中的规则是不允许的。字体子集也可能违反许可条款。
+**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportFontsAsBase64() {#getExportFontsAsBase64--}
 ```
 public boolean getExportFontsAsBase64()
 ```
 
 
-指定字体资源是否应以 Base64 编码嵌入到 HTML。默认为 false 。
+Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is  false .
 
-默认情况下，字体被写入单独的文件。如果此选项设置为 true ，字体将以 Base64 编码嵌入到文档的 CSS 中。
+By default, fonts are written to separate files. If this option is set to  true , fonts will be embedded into the document's CSS in Base64 encoding.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportGeneratorName() {#getExportGeneratorName--}
 ```
 public boolean getExportGeneratorName()
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportHeadersFootersMode() {#getExportHeadersFootersMode--}
 ```
 public int getExportHeadersFootersMode()
 ```
 
 
-指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。默认值为[ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION)对于 HTML/MHTML 和[ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE)对于 EPUB。
+Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION) for HTML/MHTML and [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE) for EPUB.
 
-很难将页眉和页脚有意义地输出到 HTML，因为 HTML 没有分页。
+It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
-当这个属性是[ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION)Aspose.Words 只导出每个部分开头和结尾的主要页眉和页脚。
+When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION), Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
 
-几时[ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER)仅导出第一个主页眉和最后一个主页脚（包括链接到上一个页脚）。
+When it is [ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) only first primary header and the last primary footer (including linked to previous) are exported.
 
-您可以通过将此属性设置为来完全禁用页眉和页脚的导出[ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE).
+You can disable export of headers and footers altogether by setting this property to [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ExportHeadersFootersMode](../../com.aspose.words/exportheadersfootersmode)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ExportHeadersFootersMode](../../com.aspose.words/exportheadersfootersmode) constants.
 ### getExportImagesAsBase64() {#getExportImagesAsBase64--}
 ```
 public boolean getExportImagesAsBase64()
 ```
 
 
-指定图像是否以 Base64 格式保存到输出 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is  false .
 
-当此属性设置为 true 时，图像数据将直接导出到**img**不会创建元素和单独的文件。
+When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportLanguageInformation() {#getExportLanguageInformation--}
 ```
 public boolean getExportLanguageInformation()
 ```
 
 
-指定是否将语言信息导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether language information is exported to HTML, MHTML or EPUB. Default is  false .
 
-当此属性设置为 true 时，Aspose.Words 输出**lang**指定语言的文档元素上的 HTML 属性。这可能需要保留与语言相关的语义。
+When this property is set to  true  Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportListLabels() {#getExportListLabels--}
 ```
 public int getExportListLabels()
 ```
 
 
-控制列表标签如何输出到 HTML、MHTML 或 EPUB。默认值为[ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels\#AUTO).
+Controls how list labels are output to HTML, MHTML or EPUB. Default value is [ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels\#AUTO).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ExportListLabels](../../com.aspose.words/exportlistlabels)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ExportListLabels](../../com.aspose.words/exportlistlabels) constants.
 ### getExportOriginalUrlForLinkedImages() {#getExportOriginalUrlForLinkedImages--}
 ```
 public boolean getExportOriginalUrlForLinkedImages()
 ```
 
 
-指定是否应将原始 URL 用作链接图像的 URL。默认值为 false 。
+Specifies whether original URL should be used as the URL of the linked images. Default value is  false .
 
-如果值设置为 true[ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)值用作链接图像的 URL，并且链接图像未加载到文档的文件夹中或[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-).
+If value is set to  true  [ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) value is used as the URL of linked images and linked images are not loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-).
 
-如果值设置为 false 链接图像被加载到文档的文件夹或[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)每个链接图像的 URL 是根据文档的文件夹构建的，[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)特性。
+If value is set to  false  linked images are loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and URL of each linked image is constructed depending on document's folder, [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) properties.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportPageMargins() {#getExportPageMargins--}
 ```
 public boolean getExportPageMargins()
 ```
 
 
-指定页边距是否导出为 HTML、MHTML 或 EPUB。默认为 false 。 Aspose.Words 默认不显示页边距区域。如果任何元素被文档边缘完全或部分剪裁，则可以使用此选项扩展显示区域。
+Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false . Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportPageSetup() {#getExportPageSetup--}
 ```
 public boolean getExportPageSetup()
 ```
 
 
-指定是否将页面设置导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is  false .
 
-每个[Section](../../com.aspose.words/section)在 Aspose.Words 文档模型中通过以下方式提供页面设置信息[PageSetup](../../com.aspose.words/pagesetup)班级。当您将文档导出为 HTML 格式时，您可能需要保留此信息以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印）或随后转换为本地 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
+Each [Section](../../com.aspose.words/section) in Aspose.Words document model provides page setup information via [PageSetup](../../com.aspose.words/pagesetup) class. When you export a document to HTML format you might need to keep this information for further usage. In particular, page setup might be important for rendering to paged media (printing) or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 
-在大多数情况下，HTML 旨在用于在不执行分页的浏览器中查看。所以这个功能默认是不活动的。
+In most cases HTML is intended for viewing in browsers where pagination is not performed. So this feature is inactive by default.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportRelativeFontSize() {#getExportRelativeFontSize--}
 ```
 public boolean getExportRelativeFontSize()
 ```
 
 
-指定保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。默认为 false 。
+Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is  false .
 
-在许多现有文档（HTML、IDPF EPUB）中，字体大小以相对单位指定。这允许应用程序在查看/处理文档时调整文本大小。例如，Microsoft Internet Explorer 有“查看->文本大小”子菜单，Adobe Digital Editions 有两个按钮：增加/减小文本大小。如果您希望此功能正常工作，请设置[getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-)属性为 true 。
+In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-) property to  true .
 
-Aspose Words 文档模型包含并且仅使用绝对字体大小单位进行操作。相对单位需要从一些初始（标准）大小重新计算的额外逻辑。字体大小**Normal**文档样式作为标准。例如，如果**Normal**有 12pt 字体和一些文本是 18pt 那么它将被输出为**1.5em.**到 HTML。
+Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **1.5em.** to the HTML.
 
-启用此选项后，文本以外的文档元素仍将具有绝对大小。一些与文本相关的属性也可能被绝对表达。特别是，使用“精确”规则指定的行距可能会在缩放文本时产生不需要的结果。因此，在导出时应正确设计和测试源文档[getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-)设置为 true 。
+When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-) set to  true .
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportRoundtripInformation() {#getExportRoundtripInformation--}
 ```
 public boolean getExportRoundtripInformation()
 ```
 
 
-指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。对于 HTML，默认值为 true，对于 MHTML 和 EPUB，默认值为 false。
+Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is  true  for HTML and  false  for MHTML and EPUB.
 
-保存往返信息允许在将 HTML 文档加载回[Document](../../com.aspose.words/document)目的。
+Saving of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [Document](../../com.aspose.words/document) object.
 
-当 true 时，往返信息导出为 -aw-\* 对应 HTML 元素的 CSS 属性。
+When  true , the roundtrip information is exported as -aw-\* CSS properties of the corresponding HTML elements.
 
-如果为 false ，则不会将往返信息输出到生成的文件中。
+When  false , causes no roundtrip information to be output into produced files.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportShapesAsSvg() {#getExportShapesAsSvg--}
 ```
 public boolean getExportShapesAsSvg()
 ```
 
 
-控制是否[Shape](../../com.aspose.words/shape)保存为 HTML、MHTML、EPUB 或 AZW3 时，节点将转换为 SVG 图像。默认值为 false 。
+Controls whether [Shape](../../com.aspose.words/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is  false .
 
-如果此选项设置为 true ，[Shape](../../com.aspose.words/shape)节点作为元素导出。否则，它们将呈现为位图并导出为![图1][] 元素。
+If this option is set to  true , [Shape](../../com.aspose.words/shape) nodes are exported as  elements. Otherwise, they are rendered to bitmaps and are exported as ![Image 1][] elements.
 
 
-[图1]： 
+[Image 1]: 
 
-**退货:**
-boolean - 对应的布尔值。
-### getExportTextInputForm字段AsText() {#getExportTextInputForm字段AsText--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getExportTextInputFormFieldAsText() {#getExportTextInputFormFieldAsText--}
 ```
-public boolean getExportTextInputForm字段AsText()
+public boolean getExportTextInputFormFieldAsText()
 ```
 
 
-控制文本输入表单字段如何保存为 HTML 或 MHTML。默认值为 false 。
+Controls how text input form fields are saved to HTML or MHTML. Default value is  false .
 
-当设置为 true 时，将文本输入表单字段导出为普通文本。当为 false 时，将 Word 文本输入表单字段导出为 HTML 中的 INPUT 元素。
+When set to  true , exports text input form fields as normal text. When  false , exports Word text input form fields as INPUT elements in HTML.
 
-导出到 EPUB 时，由于此格式的要求，文本输入表单字段始终保存为文本。
+When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportTocPageNumbers() {#getExportTocPageNumbers--}
 ```
 public boolean getExportTocPageNumbers()
 ```
 
 
-指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。默认值为 false 。
+Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is  false .
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getExportXhtmlTransitional() {#getExportXhtmlTransitional--}
 ```
 public boolean getExportXhtmlTransitional()
 ```
 
 
-指定保存为 HTML 或 MHTML 时是否编写 DOCTYPE 声明。当为 true 时，在根元素之前的文档中写入 DOCTYPE 声明。默认值为 false 。保存到 EPUB 或 HTML5 时（[HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion\#HTML-5)) DOCTYPE 声明总是被写入。
+Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When  true , writes a DOCTYPE declaration in the document prior to the root element. Default value is  false . When saving to EPUB or HTML5 ( [HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion\#HTML-5)) the DOCTYPE declaration is always written.
 
-无论此设置如何，Aspose.Words 始终编写格式良好的 HTML。
+Aspose.Words always writes well formed HTML regardless of this setting.
 
-当为 true 时，HTML 输出文档的开头将如下所示：
+When  true , the beginning of the HTML output document will look like this:
 
 ```
 
@@ -693,414 +693,410 @@ public boolean getExportXhtmlTransitional()
  
 ```
 
-Aspose.Words 旨在根据 XHTML 1.0 过渡规范输出 XHTML，但输出并不总是根据 DTD 进行验证。 Microsoft Word 文档中的某些结构很难或不可能映射到将根据 XHTML 模式进行验证的文档。例如，XHTML 不允许嵌套列表（UL 不能嵌套在另一个 UL 元素中），但在 Microsoft Word 文档中，多级列表经常出现。
+Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getFontResourcesSubsettingSizeThreshold() {#getFontResourcesSubsettingSizeThreshold--}
 ```
 public int getFontResourcesSubsettingSizeThreshold()
 ```
 
 
-控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。默认为 0 。
+Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is  0 .
 
-[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)允许将字体导出为辅助文件或作为输出包的一部分。如果文档使用多种字体，尤其是使用大量字形，则输出大小会显着增长。字体子集通过过滤掉当前文档未使用的字形来减小导出字体资源的大小。
+[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
-字体子集的工作方式如下：
+Font subsetting works as follows:
 
- *  默认情况下，所有导出的字体都是子集。
- *  环境[getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-)为正值指示 Aspose.Words 对文件大小大于指定值的字体进行子集化。
- *  将属性设置为抑制字体子集。
+ *  By default, all exported fonts are subsetted.
+ *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
+ *  Setting the property to  suppresses font subsetting.
 
-**Important!**导出字体资源时，应考虑字体许可问题。希望通过可下载字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，使用**@font-face**CSS 样式表中的规则是不允许的。字体子集也可能违反许可条款。
+**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getFontSavingCallback() {#getFontSavingCallback--}
 ```
 public IFontSavingCallback getFontSavingCallback()
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存字体。
+Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
 
-**退货:**
-[IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) - 相应的[IFontSavingCallback](../../com.aspose.words/ifontsavingcallback)价值。
+**Returns:**
+[IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) - The corresponding [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) value.
 ### getFontsFolder() {#getFontsFolder--}
 ```
 public String getFontsFolder()
 ```
 
 
-指定将文档导出为 HTML 时保存字体的物理文件夹。默认为空字符串。
+Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)以 HTML 格式和[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，Aspose.Words 需要将文档中使用的字体保存为独立文件。[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)允许您指定字体的保存位置和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)允许指定如何构造字体 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) allows to specify how the font URIs will be constructed.
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认将字体保存在保存文档文件的同一文件夹中。利用[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)覆盖此行为。
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the fonts in the same folder where the document file is saved. Use [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) to override this behavior.
 
-如果您将文档保存到流中，Aspose.Words 没有保存字体的文件夹，但仍需要将字体保存在某处。在这种情况下，您需要在[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)属性或通过[getFontSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getFontSavingCallback--) / [setFontSavingCallback(com.aspose.words.IFontSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setFontSavingCallback-com.aspose.words.IFontSavingCallback-)事件处理程序。
+If you save a document into a stream, Aspose.Words does not have a folder where to save the fonts, but still needs to save the fonts somewhere. In this case, you need to specify an accessible folder in the [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) property or provide custom streams via the [getFontSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getFontSavingCallback--) / [setFontSavingCallback(com.aspose.words.IFontSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setFontSavingCallback-com.aspose.words.IFontSavingCallback-) event handler.
 
-如果指定的文件夹[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是另一种指定应保存字体的文件夹的方法。
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is another way to specify a folder where fonts should be saved.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getFontsFolderAlias() {#getFontsFolderAlias--}
 ```
 public String getFontsFolderAlias()
 ```
 
 
-指定用于构造写入 HTML 文档的字体 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)以 HTML 格式和[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，Aspose.Words 需要将文档中使用的字体保存为独立文件。[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)允许您指定字体的保存位置和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)允许指定如何构造字体 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) allows to specify how the font URIs will be constructed.
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)不是空字符串，那么写入 HTML 的字体 URI 将是*FontsFolderAlias +* . 
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is not an empty string, then the font URI written to HTML will be *FontsFolderAlias +* . 
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)是一个空字符串，那么写入 HTML 的字体 URI 将是*FontsFolder +* . 
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is an empty string, then the font URI written to HTML will be *FontsFolder +* . 
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)被设定为 '。' （点），那么无论其他选项如何，字体文件名都将写入没有路径的 HTML。
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is set to '.' (dot), then the font file name will be written to HTML without path regardless of other options.
 
-指定文件夹名称以构造字体 URI 的另一种方法是使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+Alternative way to specify the name of the folder to construct font URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getHtmlVersion() {#getHtmlVersion--}
 ```
 public int getHtmlVersion()
 ```
 
 
-指定将文档保存为 HTML 或 MHTML 时应使用的 HTML 标准版本。默认值为[HtmlVersion.XHTML](../../com.aspose.words/htmlversion\#XHTML).
+Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is [HtmlVersion.XHTML](../../com.aspose.words/htmlversion\#XHTML).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[HtmlVersion](../../com.aspose.words/htmlversion)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [HtmlVersion](../../com.aspose.words/htmlversion) constants.
 ### getImageResolution() {#getImageResolution--}
 ```
 public int getImageResolution()
 ```
 
 
-指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。默认为 96 dpi。
+Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is  96 dpi .
 
-此属性会在以下情况下影响光栅图像[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是 true 并且效果图元文件导出为光栅图像。某些图像属性（例如裁剪或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以给定的分辨率创建。
+This property effects raster images when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true  and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getImageSavingCallback() {#getImageSavingCallback--}
 ```
 public IImageSavingCallback getImageSavingCallback()
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存图像。
+Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 
-**退货:**
-[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) - 相应的[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback)价值。
+**Returns:**
+[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) - The corresponding [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) value.
 ### getImagesFolder() {#getImagesFolder--}
 ```
 public String getImagesFolder()
 ```
 
 
-指定将文档导出为 HTML 格式时保存图像的物理文件夹。默认为空字符串。
+Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)允许您指定图像的保存位置和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将图像保存在保存文档文件的同一文件夹中。利用[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)覆盖此行为。
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) to override this behavior.
 
-如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹，但仍需要将图像保存在某个位置。在这种情况下，您需要在[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)属性或通过[getImageSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-)事件处理程序。
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) event handler.
 
-如果指定的文件夹[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是另一种指定应保存图像的文件夹的方法。
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is another way to specify a folder where images should be saved.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getImagesFolderAlias() {#getImagesFolderAlias--}
 ```
 public String getImagesFolderAlias()
 ```
 
 
-指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)允许您指定图像的保存位置和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)不是空字符串，则写入 HTML 的图像 URI 将是*ImagesFolderAlias + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is not an empty string, then the image URI written to HTML will be *ImagesFolderAlias + ![Image 1][]*.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)是一个空字符串，那么写入 HTML 的图像 URI 将是*ImagesFolder + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is an empty string, then the image URI written to HTML will be *ImagesFolder + ![Image 1][]*.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)被设定为 '。' （点），则无论其他选项如何，图像文件名都将写入没有路径的 HTML。
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
-指定文件夹名称以构造图像 URI 的另一种方法是使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+Alternative way to specify the name of the folder to construct image URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
 
-[图1]： 
+[Image 1]: 
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getImlRenderingMode() {#getImlRenderingMode--}
 ```
 public int getImlRenderingMode()
 ```
 
 
-获取一个值，该值确定如何呈现墨迹 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+Gets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**退货:**
-int - 确定如何呈现墨水 (InkML) 对象的值。返回值是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。
+**Returns:**
+int - A value determining how ink (InkML) objects are rendered. The returned value is one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants.
 ### getMemoryOptimization() {#getMemoryOptimization--}
 ```
 public boolean getMemoryOptimization()
 ```
 
 
-获取确定是否应在保存文档之前执行内存优化的值。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
+Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
-**退货:**
-boolean - 确定是否应在保存文档之前执行内存优化的值。
+**Returns:**
+boolean - Value determining if memory optimization should be performed before saving the document.
 ### getMetafileFormat() {#getMetafileFormat--}
 ```
 public int getMetafileFormat()
 ```
 
 
-指定导出为 HTML、MHTML 或 EPUB 时以何种格式保存元文件。默认值为[HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat\#PNG)，这意味着元文件被渲染为光栅 PNG 图像。
+Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat\#PNG), meaning that metafiles are rendered to raster PNG images.
 
-HTML 浏览器本身不会显示元文件。默认情况下，Aspose.Words 在导出为 HTML 时会将 WMF 和 EMF 图像转换为 PNG 文件。其他选项是将元文件转换为 SVG 图像或按原样导出它们而不进行转换。
+Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
-如果将元文件图像导出为未经转换的 HTML，则某些图像转换（尤其是图像裁剪）将不会应用于这些图像。
+Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat) constants.
 ### getOfficeMathOutputMode() {#getOfficeMathOutputMode--}
 ```
 public int getOfficeMathOutputMode()
 ```
 
 
-控制如何将 OfficeMath 对象导出为 HTML、MHTML 或 EPUB。默认值为 HtmlOfficeMathOutputMode.Image 。
+Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is  HtmlOfficeMathOutputMode.Image .
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[HtmlOfficeMathOutputMode](../../com.aspose.words/htmlofficemathoutputmode)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [HtmlOfficeMathOutputMode](../../com.aspose.words/htmlofficemathoutputmode) constants.
 ### getPrettyFormat() {#getPrettyFormat--}
 ```
 public boolean getPrettyFormat()
 ```
 
 
-如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
+When  true , pretty formats output where applicable. Default value is **false**.
 
-调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
+Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentSavingCallback getProgressCallback()
 ```
 
 
-在保存文档期间调用并接受有关保存进度的数据。
+Called during saving a document and accepts data about saving progress.
 
-保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**退货:**
-[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。
+**Returns:**
+[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) - The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value.
 ### getResolveFontNames() {#getResolveFontNames--}
 ```
 public boolean getResolveFontNames()
 ```
 
 
-指定文档中使用的字体系列名称是否根据[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)当被写入基于 HTML 的格式时。
+Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) when being written into HTML-based formats.
 
-默认情况下，此选项设置为 false，并且字体系列名称将写入源文档中指定的 HTML。那是，[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)被忽略并且不执行字体系列名称的解析或替换。
+By default, this option is set to  false  and font family names are written to HTML as specified in source documents. That is, [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) are ignored and no resolution or substitution of font family names is performed.
 
-如果此选项设置为 true ，Aspose.Words 使用[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)将源文档中指定的每个字体系列名称解析为可用字体系列的名称，并根据需要执行字体替换。
+If this option is set to  true , Aspose.Words uses [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getResourceFolder() {#getResourceFolder--}
 ```
 public String getResourceFolder()
 ```
 
 
-指定将文档导出为 HTML 时保存所有资源（如图像、字体和外部 CSS）的物理文件夹。默认为空字符串。
+Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是指定应写入所有资源的文件夹的最简单方法。另一种方法是使用单个属性[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)， 和[getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)优先级低于通过指定的文件夹[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)， 和[getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).例如，如果两者[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)和[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)指定，字体将被保存到[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) 而图像和 CSS 将被保存到[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) has a lower priority than folders specified via [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-). For example, if both [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) and [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) are specified, fonts will be saved to [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), while images and CSS will be saved to [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
 
-如果指定的文件夹[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getResourceFolderAlias() {#getResourceFolderAlias--}
 ```
 public String getResourceFolderAlias()
 ```
 
 
-指定用于构造写入 HTML 文档的所有资源的 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string.
 
-[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)是指定如何构造所有资源文件的 URI 的最简单方法。可以通过分别为图像和字体指定相同的信息[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)属性，分别。但是，CSS 没有单独的属性。
+[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) properties, respectively. However, there is no individual property for CSS.
 
-[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)优先级低于[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-).例如，如果两者[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)指定，字体的 URI 将使用[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) 而图像和 CSS 的 URI 将使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) has lower priority than [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-). For example, if both [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) are specified, fonts' URIs will be constructed using [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-), while URIs of images and CSS will be constructed using [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
-如果[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)为空，则[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)属性值将用于构造资源 URI。
+If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is empty, the [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) property value will be used to construct resource URIs.
 
-如果[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)被设定为 '。' （点），资源 URI 将仅包含文件名，不包含任何路径。
+If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is set to '.' (dot), resource URIs will contain file names only, without any path.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getSaveFormat() {#getSaveFormat--}
 ```
 public int getSaveFormat()
 ```
 
 
-如果使用此保存选项对象，则指定保存文档的格式。可[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3).
+Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [SaveFormat](../../com.aspose.words/saveformat) constants.
 ### getScaleImageToShapeSize() {#getScaleImageToShapeSize--}
 ```
 public boolean getScaleImageToShapeSize()
 ```
 
 
-指定当导出为 HTML、MHTML 或 EPUB 时，图像是否由 Aspose.Words 缩放到边界形状大小。默认值为 true 。
+Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is  true .
 
-Microsoft Word 文档中的图像是一种形状。形状有大小，图像有自己的大小。尺寸没有直接联系。例如，图像可以是 1024x786 像素，但显示该图像的形状可以是 400x300 点。
+An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
 
-为了在浏览器中显示图像，必须将其缩放到形状大小。这[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)属性控制图像缩放发生的位置：在 Aspose.Words 中导出到 HTML 时或在浏览器中显示文档时。
+In order to display an image in the browser, it must be scaled to the shape size. The [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) property controls where the scaling of the image takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
-什么时候[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)为 true 时，图像由 Aspose.Words 在导出到 HTML 期间使用高质量缩放进行缩放。什么时候[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)为 false ，图像以其原始大小输出，浏览器必须对其进行缩放。
+When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true , the image is scaled by Aspose.Words using high quality scaling during export to HTML. When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  false , the image is output with its original size and the browser has to scale it.
 
-通常，浏览器会进行快速且质量较差的缩放。因此，您通常会在浏览器中获得更好的显示质量和更小的文件大小[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是的，但更好的打印质量和更快的转换时[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是假的。
+In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true , but better printing quality and faster conversion when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  false .
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getTableWidthOutputMode() {#getTableWidthOutputMode--}
 ```
 public int getTableWidthOutputMode()
 ```
 
 
-控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。默认值为[HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode\#ALL).
+Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode\#ALL).
 
-在 HTML 格式中，表格、行和单元格元素 ( 
+In the HTML format, table, row and cell elements ( 
 
     | -- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
- 
- 当您使用 Aspose.Words 将文档转换为 HTML 时，您可能希望控制表格、行和单元格宽度的导出方式，以影响结果文档在可视代理（例如浏览器或查看器）中的显示方式。
- 
- 使用此属性作为过滤器来指定将哪些表格宽度值导出到目标文档中。例如，如果您要将文档转换为 EPUB 并打算在移动阅读设备上查看文档，那么您可能希望避免导出绝对宽度值。为此，您需要指定输出模式[HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode\#RELATIVE-ONLY)或者[HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode\#NONE)因此移动设备上的查看器可以尽可能地布置表格以适应屏幕的宽度。|
+    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can. |
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[HtmlElementSizeOutputMode](../../com.aspose.words/htmlelementsizeoutputmode)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [HtmlElementSizeOutputMode](../../com.aspose.words/htmlelementsizeoutputmode) constants.
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
+Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
-当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
+When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-保存完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when saving is complete.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getUpdateCreatedTimeProperty() {#getUpdateCreatedTimeProperty--}
 ```
 public boolean getUpdateCreatedTimeProperty()
 ```
 
 
-获取一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
+Gets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
 
-**退货:**
- boolean - 确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。
-### getUpdate字段() {#getUpdate字段--}
+**Returns:**
+boolean - A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving.
+### getUpdateFields() {#getUpdateFields--}
 ```
-public boolean getUpdate字段()
+public boolean getUpdateFields()
 ```
 
 
-获取一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
+Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
 
-**退货:**
-boolean - 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。
+**Returns:**
+boolean - A value determining if fields of certain types should be updated before saving the document to a fixed page format.
 ### getUpdateLastPrintedProperty() {#getUpdateLastPrintedProperty--}
 ```
 public boolean getUpdateLastPrintedProperty()
 ```
 
 
-获取一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
+Gets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
 
-**退货:**
- boolean - 确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
+**Returns:**
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
 ### getUpdateLastSavedTimeProperty() {#getUpdateLastSavedTimeProperty--}
 ```
 public boolean getUpdateLastSavedTimeProperty()
 ```
 
 
-获取一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
+Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
 
-**退货:**
- boolean - 确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
+**Returns:**
+boolean - A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
 ### getUpdateSdtContent() {#getUpdateSdtContent--}
 ```
 public boolean getUpdateSdtContent()
 ```
 
 
-获取确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
+Gets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
 
-**退货:**
- boolean - 确定内容是否为[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。
+**Returns:**
+boolean - Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving.
 ### getUseAntiAliasing() {#getUseAntiAliasing--}
 ```
 public boolean getUseAntiAliasing()
 ```
 
 
-获取一个值，该值确定是否使用抗锯齿进行渲染。
+Gets a value determining whether or not to use anti-aliasing for rendering.
 
-默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
+The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
-当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
+This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
 
-**退货:**
-boolean - 确定是否使用抗锯齿进行渲染的值。
+**Returns:**
+boolean - A value determining whether or not to use anti-aliasing for rendering.
 ### getUseHighQualityRendering() {#getUseHighQualityRendering--}
 ```
 public boolean getUseHighQualityRendering()
 ```
 
 
-获取确定是否使用高质量（即慢速）渲染算法的值。默认值为 false 。
+Gets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
 
-当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**退货:**
-boolean - 确定是否使用高质量的值（即
+**Returns:**
+boolean - A value determining whether or not to use high quality (i.e.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1109,8 +1105,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1133,16 +1129,16 @@ public void setAllowEmbeddingPostScriptFonts(boolean value)
 ```
 
 
-设置一个布尔值，指示在保存文档时在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。默认值为**false**.
+Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is **false**.
 
-请注意，Word 不嵌入 PostScript 字体，但可以打开嵌入了这种类型字体的文档。
+Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-此选项仅在以下情况下有效[FontInfoCollection.getEmbedTrue类型Fonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrue类型Fonts--) / [FontInfoCollection.setEmbedTrue类型Fonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrue类型Fonts-boolean-)的[DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--)属性设置为 true 。
+This option only works when [FontInfoCollection.getEmbedTrueTypeFonts()](../../com.aspose.words/fontinfocollection\#getEmbedTrueTypeFonts--) / [FontInfoCollection.setEmbedTrueTypeFonts(boolean)](../../com.aspose.words/fontinfocollection\#setEmbedTrueTypeFonts-boolean-) of the [DocumentBase.getFontInfos()](../../com.aspose.words/documentbase\#getFontInfos--) property is set to  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指示当在文档中嵌入 True类型 字体时是否允许嵌入带有 PostScript 轮廓的字体。 |
+| value | boolean | A boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 
 ### setAllowNegativeIndent(boolean value) {#setAllowNegativeIndent-boolean-}
 ```
@@ -1150,31 +1146,31 @@ public void setAllowNegativeIndent(boolean value)
 ```
 
 
-指定在保存为 HTML、MHTML 或 EPUB 时是否规范段落的负左缩进和右缩进。默认值为 false 。
+Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. Default value is  false .
 
-当不允许负缩进时，它将作为零边距导出到 HTML。当允许负缩进时，段落可能会部分显示在浏览器窗口之外。
+When negative indent is not allowed, it is exported as zero margin to HTML. When negative indent is allowed, a paragraph might appear partially outside of the browser window.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
-### setCss班级NamePrefix(String value) {#setCss班级NamePrefix-java.lang.String-}
+### setCssClassNamePrefix(String value) {#setCssClassNamePrefix-java.lang.String-}
 ```
-public void setCss班级NamePrefix(String value)
+public void setCssClassNamePrefix(String value)
 ```
 
 
-指定添加到所有 CSS 类名称的前缀。默认值为空字符串，生成的 CSS 类名没有公共前缀。
+Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix.
 
-如果此值不为空，Aspose.Words 生成的所有 CSS 类都将以指定的前缀开头。这可能很有用，例如，如果您将自定义 CSS 添加到生成的文档并希望防止类名冲突。
+If this value is not empty, all CSS classes generated by Aspose.Words will start with the specified prefix. This might be useful, for example, if you add custom CSS to generated documents and want to prevent class name conflicts.
 
-如果该值不为 null 或为空，则它必须是有效的 CSS 标识符。
+If the value is not  null  or empty, it must be a valid CSS identifier.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setCssSavingCallback(ICssSavingCallback value) {#setCssSavingCallback-com.aspose.words.ICssSavingCallback-}
 ```
@@ -1182,12 +1178,12 @@ public void setCssSavingCallback(ICssSavingCallback value)
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存 CSS 样式。
+Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [ICssSavingCallback](../../com.aspose.words/icsssavingcallback) | 相应的[ICssSavingCallback](../../com.aspose.words/icsssavingcallback)价值。 |
+| value | [ICssSavingCallback](../../com.aspose.words/icsssavingcallback) | The corresponding [ICssSavingCallback](../../com.aspose.words/icsssavingcallback) value. |
 
 ### setCssStyleSheetFileName(String value) {#setCssStyleSheetFileName-java.lang.String-}
 ```
@@ -1195,37 +1191,37 @@ public void setCssStyleSheetFileName(String value)
 ```
 
 
-指定将文档导出为 HTML 时写入的层叠样式表 (CSS) 文件的路径和名称。默认为空字符串。
+Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. Default is an empty string.
 
-此属性仅在将文档保存为 HTML 格式并且使用请求外部 CSS 样式表时才有效[getCssStyleSheet类型()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheet类型--) / [setCssStyleSheet类型(int)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheet类型-int-).
+This property has effect only when saving a document to HTML format and external CSS style sheet is requested using [getCssStyleSheetType()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetType--) / [setCssStyleSheetType(int)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetType-int-).
 
-如果此属性为空，则 CSS 文件将保存到与 HTML 文档同名但扩展名为“.css”的同一文件夹中。
+If this property is empty, the CSS file will be saved into the same folder and with the same name as the HTML document but with the ".css" extension.
 
-如果此属性中仅指定路径但未指定文件名，则 CSS 文件将保存到指定文件夹中，并与 HTML 文档同名，但扩展名为“.css”。
+If only path but no file name is specified in this property, the CSS file will be saved into the specified folder and will have the same name as the HTML document but with the ".css" extension.
 
-如果此属性指定的文件夹不存在，则会在保存 CSS 文件之前自动创建。
+If the folder specified by this property doesn't exist, it will be created automatically before the CSS file is saved.
 
-指定保存外部 CSS 文件的文件夹的另一种方法是使用[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
+Another way to specify a folder where external CSS file is saved is to use [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
-### setCssStyleSheet类型(int value) {#setCssStyleSheet类型-int-}
+### setCssStyleSheetType(int value) {#setCssStyleSheetType-int-}
 ```
-public void setCssStyleSheet类型(int value)
+public void setCssStyleSheetType(int value)
 ```
 
 
-指定如何将 CSS（层叠样式表）样式导出为 HTML、MHTML 或 EPUB。默认值为[CssStyleSheet类型.INLINE](../../com.aspose.words/cssstylesheettype\#INLINE)对于 HTML/MHTML 和[CssStyleSheet类型.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL)对于 EPUB。
+Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.INLINE](../../com.aspose.words/cssstylesheettype\#INLINE) for HTML/MHTML and [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL) for EPUB.
 
-仅当保存为 HTML 时才支持将 CSS 样式表保存到外部文件中。当您导出为其中一种容器格式（EPUB 或 MHTML）并指定[CssStyleSheet类型.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL)CSS 文件将被封装到输出包中。
+Saving CSS style sheet into an external file is only supported when saving to HTML. When you are exporting to one of the container formats (EPUB or MHTML) and specifying [CssStyleSheetType.EXTERNAL](../../com.aspose.words/cssstylesheettype\#EXTERNAL), CSS file will be encapsulated into the output package.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[CssStyleSheet类型](../../com.aspose.words/cssstylesheettype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [CssStyleSheetType](../../com.aspose.words/cssstylesheettype) constants. |
 
 ### setDefaultTemplate(String value) {#setDefaultTemplate-java.lang.String-}
 ```
@@ -1233,12 +1229,12 @@ public void setDefaultTemplate(String value)
 ```
 
 
-设置默认模板的路径（包括文件名）。此属性的默认值为**empty string**.如果指定，此路径用于加载模板时[Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-)是真的，但是[Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-)是空的。
+Sets path to default template (including filename). Default value for this property is **empty string**. If specified, this path is used to load template when [Document.getAutomaticallyUpdateStyles()](../../com.aspose.words/document\#getAutomaticallyUpdateStyles--) / [Document.setAutomaticallyUpdateStyles(boolean)](../../com.aspose.words/document\#setAutomaticallyUpdateStyles-boolean-) is true, but [Document.getAttachedTemplate()](../../com.aspose.words/document\#getAttachedTemplate--) / [Document.setAttachedTemplate(java.lang.String)](../../com.aspose.words/document\#setAttachedTemplate-java.lang.String-) is empty.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 默认模板的路径（包括文件名）。 |
+| value | java.lang.String | Path to default template (including filename). |
 
 ### setDml3DEffectsRenderingMode(int value) {#setDml3DEffectsRenderingMode-int-}
 ```
@@ -1246,12 +1242,12 @@ public void setDml3DEffectsRenderingMode(int value)
 ```
 
 
-设置确定如何渲染 3D 效果的值。默认值为[Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
+Sets a value determining how 3D effects are rendered. The default value is [Dml3DEffectsRenderingMode.BASIC](../../com.aspose.words/dml3deffectsrenderingmode\#BASIC).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 确定如何渲染 3D 效果的值。该值必须是以下之一[Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode)常数。 |
+| value | int | A value determining how 3D effects are rendered. The value must be one of [Dml3DEffectsRenderingMode](../../com.aspose.words/dml3deffectsrenderingmode) constants. |
 
 ### setDmlEffectsRenderingMode(int value) {#setDmlEffectsRenderingMode-int-}
 ```
@@ -1259,14 +1255,14 @@ public void setDmlEffectsRenderingMode(int value)
 ```
 
 
-设置一个值，确定如何呈现 DrawingML 效果。默认值为[DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
+Sets a value determining how DrawingML effects are rendered. The default value is [DmlEffectsRenderingMode.SIMPLIFIED](../../com.aspose.words/dmleffectsrenderingmode\#SIMPLIFIED).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 效果的值。该值必须是以下之一[DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode)常数。 |
+| value | int | A value determining how DrawingML effects are rendered. The value must be one of [DmlEffectsRenderingMode](../../com.aspose.words/dmleffectsrenderingmode) constants. |
 
 ### setDmlRenderingMode(int value) {#setDmlRenderingMode-int-}
 ```
@@ -1274,14 +1270,14 @@ public void setDmlRenderingMode(int value)
 ```
 
 
-设置一个值，确定如何呈现 DrawingML 形状。默认值为[DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
+Sets a value determining how DrawingML shapes are rendered. The default value is [DmlRenderingMode.FALLBACK](../../com.aspose.words/dmlrenderingmode\#FALLBACK).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 确定如何呈现 DrawingML 形状的值。该值必须是以下之一[DmlRenderingMode](../../com.aspose.words/dmlrenderingmode)常数。 |
+| value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode) constants. |
 
 ### setDocumentPartSavingCallback(IDocumentPartSavingCallback value) {#setDocumentPartSavingCallback-com.aspose.words.IDocumentPartSavingCallback-}
 ```
@@ -1289,12 +1285,12 @@ public void setDocumentPartSavingCallback(IDocumentPartSavingCallback value)
 ```
 
 
-允许控制将文档保存为 HTML 或 EPUB 时如何保存文档部分。
+Allows to control how document parts are saved when a document is saved to HTML or EPUB.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) | 相应的[IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback)价值。 |
+| value | [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) | The corresponding [IDocumentPartSavingCallback](../../com.aspose.words/idocumentpartsavingcallback) value. |
 
 ### setDocumentSplitCriteria(int value) {#setDocumentSplitCriteria-int-}
 ```
@@ -1302,16 +1298,16 @@ public void setDocumentSplitCriteria(int value)
 ```
 
 
-指定在保存到时应如何拆分文档[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式。默认为[DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria\#NONE)对于 HTML 和[DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH)适用于 EPUB 和 AZW3。
+Specifies how the document should be split when saving to [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) format. Default is [DocumentSplitCriteria.NONE](../../com.aspose.words/documentsplitcriteria\#NONE) for HTML and [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH) for EPUB and AZW3.
 
-通常，您希望将文档作为单个文件保存为 HTML。但在某些情况下，最好将输出拆分为几个较小的 HTML 页面。保存为 HTML 格式时，这些页面将输出到单个文件或流中。当保存为 EPUB 格式时，它们将被合并到相应的包中。
+Normally you would want a document saved to HTML as a single file. But in some cases it is preferable to split the output into several smaller HTML pages. When saving to HTML format these pages will be output to individual files or streams. When saving to EPUB format they will be incorporated into corresponding packages.
 
-以 MHTML 格式保存时无法拆分文档。
+A document cannot be split when saving in the MHTML format.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是按位组合[DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria)常数。 |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [DocumentSplitCriteria](../../com.aspose.words/documentsplitcriteria) constants. |
 
 ### setDocumentSplitHeadingLevel(int value) {#setDocumentSplitHeadingLevel-int-}
 ```
@@ -1319,16 +1315,16 @@ public void setDocumentSplitHeadingLevel(int value)
 ```
 
 
-指定拆分文档的最大标题级别。默认值为 2 。
+Specifies the maximum level of headings at which to split the document. Default value is  2 .
 
-什么时候[getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-)包括[DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH)并且此属性设置为 1 到 9 之间的值，文档将在使用格式化的段落处拆分**Heading 1**, **Heading 2** , **Heading 3**等样式直到指定的标题级别。
+When [getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-) includes [DocumentSplitCriteria.HEADING\_PARAGRAPH](../../com.aspose.words/documentsplitcriteria\#HEADING-PARAGRAPH) and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
-默认情况下，仅**Heading 1**和**Heading 2**段落导致文档被拆分。将此属性设置为零将导致文档根本不会在标题段落处拆分。
+By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -1338,8 +1334,8 @@ public void setEncoding(Charset value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.nio.charset.Charset |  |
 
@@ -1349,16 +1345,16 @@ public void setEpubNavigationMapLevel(int value)
 ```
 
 
-指定导出为 IDPF EPUB 格式时填充到导航地图的最大标题级别。默认值为 3 。
+Specifies the maximum level of headings populated to the navigation map when exporting to IDPF EPUB format. Default value is  3 .
 
-IDPF EPUB 格式的导航图允许用户代理通过文档结构提供简单的导航方式。通常导航点对应于文档中的标题。将标题填充到级别**N**将此值分配给[getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel--) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int-).
+Navigation map in IDPF EPUB format allows user agents to provide easy way of navigation through the document structure. Usually navigation points correspond to headings in the document. To populate headings up to level **N** assign this value to [getEpubNavigationMapLevel()](../../com.aspose.words/htmlsaveoptions\#getEpubNavigationMapLevel--) / [setEpubNavigationMapLevel(int)](../../com.aspose.words/htmlsaveoptions\#setEpubNavigationMapLevel-int-).
 
-默认情况下，会填充三个级别的标题：样式段落**Heading 1**, **Heading 2**和**Heading 3**.您可以将此属性设置为 1 到 9 之间的值，以请求相应的最大级别。将其设置为零会将导航图减少为仅文档根或文档部分的根。
+By default, three levels of headings are populated: paragraphs of styles **Heading 1**, **Heading 2** and **Heading 3**. You can set this property to a value from 1 to 9 to request corresponding maximum level. Setting it to zero will reduce navigation map to only document root or roots of document parts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setExportCidUrlsForMhtmlResources(boolean value) {#setExportCidUrlsForMhtmlResources-boolean-}
 ```
@@ -1366,20 +1362,20 @@ public void setExportCidUrlsForMhtmlResources(boolean value)
 ```
 
 
-指定是否使用 CID (Content-ID) URL 来引用 MHTML 文档中包含的资源（图像、字体、CSS）。默认值为 false 。
+Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is  false .
 
-此选项仅影响保存为 MHTML 的文档。
+This option affects only documents being saved to MHTML.
 
-默认情况下，MHTML 文档中的资源由文件名（例如，“image.png”）引用，这些文件名与 MIME 部分的“Content-Location”标题相匹配。
+By default, resources in MHTML documents are referenced by file name (for example, "image.png"), which are matched against "Content-Location" headers of MIME parts.
 
-此选项启用另一种方法，其中对资源文件的引用被写入 CID (Content-ID) URL（例如，“cid:image.png”）并与“Content-ID”标头匹配。
+This option enables an alternative method, where references to resource files are written as CID (Content-ID) URLs (for example, "cid:image.png") and are matched against "Content-ID" headers.
 
-理论上，这两种引用方法之间应该没有区别，并且它们中的任何一种都应该在任何浏览器或邮件代理中都可以正常工作。然而，在实践中，一些代理无法通过文件名获取资源。如果您的浏览器或邮件代理拒绝加载 MTHML 文档中包含的资源（不显示图像或不加载 CSS 样式），请尝试使用 CID URL 导出文档。
+In theory, there should be no difference between the two referencing methods and either of them should work fine in any browser or mail agent. In practice, however, some agents fail to fetch resources by file name. If your browser or mail agent refuses to load resources included in an MTHML document (doesn't show images or doesn't load CSS styles), try exporting the document with CID URLs.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportDocumentProperties(boolean value) {#setExportDocumentProperties-boolean-}
 ```
@@ -1387,29 +1383,29 @@ public void setExportDocumentProperties(boolean value)
 ```
 
 
-指定是否将内置和自定义文档属性导出为 HTML、MHTML 或 EPUB。默认值为 false 。
+Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
-### setExportDropDownForm字段AsText(boolean value) {#setExportDropDownForm字段AsText-boolean-}
+### setExportDropDownFormFieldAsText(boolean value) {#setExportDropDownFormFieldAsText-boolean-}
 ```
-public void setExportDropDownForm字段AsText(boolean value)
+public void setExportDropDownFormFieldAsText(boolean value)
 ```
 
 
-控制如何将下拉表单字段保存为 HTML 或 MHTML。默认值为 false 。
+Controls how drop-down form fields are saved to HTML or MHTML. Default value is  false .
 
-当设置为 true 时，将下拉表单字段导出为普通文本。当 false 时，将下拉表单字段导出为 HTML 中的 SELECT 元素。
+When set to  true , exports drop-down form fields as normal text. When  false , exports drop-down form fields as SELECT element in HTML.
 
-导出到 EPUB 时，由于此格式的要求，文本下拉表单字段始终保存为文本。
+When exporting to EPUB, text drop-down form fields are always saved as text due to requirements of this format.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportFontResources(boolean value) {#setExportFontResources-boolean-}
 ```
@@ -1417,20 +1413,20 @@ public void setExportFontResources(boolean value)
 ```
 
 
-指定字体资源是否应导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is  false .
 
-导出字体资源允许独立于给定用户环境中可用的字体的一致文档渲染。
+Exporting font resources allows for consistent document rendering independent of the fonts available in a given user's environment.
 
-如果[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，主 HTML 文档将通过 CSS 3 引用每种字体**@font-face**at-rule 和 fonts 将作为单独的文件输出。导出为 IDPF EPUB 或 MHTML 格式时，字体将与其他附属文件一起嵌入到相应的包中。
+If [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , main HTML document will refer to every font via the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML formats, fonts will be embedded into the corresponding package along with other subsidiary files.
 
-如果[getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions\#getExportFontsAsBase64--) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontsAsBase64-boolean-)设置为 true ，字体将不会保存到单独的文件中。相反，它们将被嵌入**@font-face**Base64 编码中的 at 规则。
+If [getExportFontsAsBase64()](../../com.aspose.words/htmlsaveoptions\#getExportFontsAsBase64--) / [setExportFontsAsBase64(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontsAsBase64-boolean-) is set to  true , fonts will not be saved to separate files. Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
 
-**Important!**导出字体资源时，应考虑字体许可问题。希望通过可下载字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，使用**@font-face**CSS 样式表中的规则是不允许的。字体子集也可能违反许可条款。
+**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportFontsAsBase64(boolean value) {#setExportFontsAsBase64-boolean-}
 ```
@@ -1438,14 +1434,14 @@ public void setExportFontsAsBase64(boolean value)
 ```
 
 
-指定字体资源是否应以 Base64 编码嵌入到 HTML。默认为 false 。
+Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is  false .
 
-默认情况下，字体被写入单独的文件。如果此选项设置为 true ，字体将以 Base64 编码嵌入到文档的 CSS 中。
+By default, fonts are written to separate files. If this option is set to  true , fonts will be embedded into the document's CSS in Base64 encoding.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportGeneratorName(boolean value) {#setExportGeneratorName-boolean-}
 ```
@@ -1453,12 +1449,12 @@ public void setExportGeneratorName(boolean value)
 ```
 
 
-如果为 true，则将 Aspose.Words 的名称和版本嵌入到生成的文件中。默认值为**true**.
+When true, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportHeadersFootersMode(int value) {#setExportHeadersFootersMode-int-}
 ```
@@ -1466,20 +1462,20 @@ public void setExportHeadersFootersMode(int value)
 ```
 
 
-指定页眉和页脚如何输出到 HTML、MHTML 或 EPUB。默认值为[ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION)对于 HTML/MHTML 和[ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE)对于 EPUB。
+Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION) for HTML/MHTML and [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE) for EPUB.
 
-很难将页眉和页脚有意义地输出到 HTML，因为 HTML 没有分页。
+It is hard to meaningfully output headers and footers to HTML because HTML is not paginated.
 
-当这个属性是[ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION)Aspose.Words 只导出每个部分开头和结尾的主要页眉和页脚。
+When this property is [ExportHeadersFootersMode.PER\_SECTION](../../com.aspose.words/exportheadersfootersmode\#PER-SECTION), Aspose.Words exports only primary headers and footers at the beginning and the end of each section.
 
-几时[ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER)仅导出第一个主页眉和最后一个主页脚（包括链接到上一个页脚）。
+When it is [ExportHeadersFootersMode.FIRST\_SECTION\_HEADER\_LAST\_SECTION\_FOOTER](../../com.aspose.words/exportheadersfootersmode\#FIRST-SECTION-HEADER-LAST-SECTION-FOOTER) only first primary header and the last primary footer (including linked to previous) are exported.
 
-您可以通过将此属性设置为来完全禁用页眉和页脚的导出[ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE).
+You can disable export of headers and footers altogether by setting this property to [ExportHeadersFootersMode.NONE](../../com.aspose.words/exportheadersfootersmode\#NONE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ExportHeadersFootersMode](../../com.aspose.words/exportheadersfootersmode)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ExportHeadersFootersMode](../../com.aspose.words/exportheadersfootersmode) constants. |
 
 ### setExportImagesAsBase64(boolean value) {#setExportImagesAsBase64-boolean-}
 ```
@@ -1487,14 +1483,14 @@ public void setExportImagesAsBase64(boolean value)
 ```
 
 
-指定图像是否以 Base64 格式保存到输出 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is  false .
 
-当此属性设置为 true 时，图像数据将直接导出到**img**不会创建元素和单独的文件。
+When this property is set to  true  images data are exported directly into the **img** elements and separate files are not created.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportLanguageInformation(boolean value) {#setExportLanguageInformation-boolean-}
 ```
@@ -1502,14 +1498,14 @@ public void setExportLanguageInformation(boolean value)
 ```
 
 
-指定是否将语言信息导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether language information is exported to HTML, MHTML or EPUB. Default is  false .
 
-当此属性设置为 true 时，Aspose.Words 输出**lang**指定语言的文档元素上的 HTML 属性。这可能需要保留与语言相关的语义。
+When this property is set to  true  Aspose.Words outputs **lang** HTML attribute on the document elements that specify language. This can be needed to preserve language related semantics.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportListLabels(int value) {#setExportListLabels-int-}
 ```
@@ -1517,12 +1513,12 @@ public void setExportListLabels(int value)
 ```
 
 
-控制列表标签如何输出到 HTML、MHTML 或 EPUB。默认值为[ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels\#AUTO).
+Controls how list labels are output to HTML, MHTML or EPUB. Default value is [ExportListLabels.AUTO](../../com.aspose.words/exportlistlabels\#AUTO).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ExportListLabels](../../com.aspose.words/exportlistlabels)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ExportListLabels](../../com.aspose.words/exportlistlabels) constants. |
 
 ### setExportOriginalUrlForLinkedImages(boolean value) {#setExportOriginalUrlForLinkedImages-boolean-}
 ```
@@ -1530,16 +1526,16 @@ public void setExportOriginalUrlForLinkedImages(boolean value)
 ```
 
 
-指定是否应将原始 URL 用作链接图像的 URL。默认值为 false 。
+Specifies whether original URL should be used as the URL of the linked images. Default value is  false .
 
-如果值设置为 true[ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)值用作链接图像的 URL，并且链接图像未加载到文档的文件夹中或[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-).
+If value is set to  true  [ImageData.getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [ImageData.setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) value is used as the URL of linked images and linked images are not loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-).
 
-如果值设置为 false 链接图像被加载到文档的文件夹或[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)每个链接图像的 URL 是根据文档的文件夹构建的，[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)特性。
+If value is set to  false  linked images are loaded into document's folder or [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and URL of each linked image is constructed depending on document's folder, [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) properties.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportPageMargins(boolean value) {#setExportPageMargins-boolean-}
 ```
@@ -1547,12 +1543,12 @@ public void setExportPageMargins(boolean value)
 ```
 
 
-指定页边距是否导出为 HTML、MHTML 或 EPUB。默认为 false 。 Aspose.Words 默认不显示页边距区域。如果任何元素被文档边缘完全或部分剪裁，则可以使用此选项扩展显示区域。
+Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is  false . Aspose.Words does not show area of page margins by default. If any elements are completely or partially clipped by the document edge the displayed area can be extended with this option.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportPageSetup(boolean value) {#setExportPageSetup-boolean-}
 ```
@@ -1560,16 +1556,16 @@ public void setExportPageSetup(boolean value)
 ```
 
 
-指定是否将页面设置导出为 HTML、MHTML 或 EPUB。默认为 false 。
+Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is  false .
 
-每个[Section](../../com.aspose.words/section)在 Aspose.Words 文档模型中通过以下方式提供页面设置信息[PageSetup](../../com.aspose.words/pagesetup)班级。当您将文档导出为 HTML 格式时，您可能需要保留此信息以供进一步使用。特别是，页面设置对于渲染到分页媒体（打印）或随后转换为本地 Microsoft Word 文件格式（DOCX、DOC、RTF、WML）可能很重要。
+Each [Section](../../com.aspose.words/section) in Aspose.Words document model provides page setup information via [PageSetup](../../com.aspose.words/pagesetup) class. When you export a document to HTML format you might need to keep this information for further usage. In particular, page setup might be important for rendering to paged media (printing) or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 
-在大多数情况下，HTML 旨在用于在不执行分页的浏览器中查看。所以这个功能默认是不活动的。
+In most cases HTML is intended for viewing in browsers where pagination is not performed. So this feature is inactive by default.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportRelativeFontSize(boolean value) {#setExportRelativeFontSize-boolean-}
 ```
@@ -1577,18 +1573,18 @@ public void setExportRelativeFontSize(boolean value)
 ```
 
 
-指定保存为 HTML、MHTML 或 EPUB 时是否应以相对单位输出字体大小。默认为 false 。
+Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is  false .
 
-在许多现有文档（HTML、IDPF EPUB）中，字体大小以相对单位指定。这允许应用程序在查看/处理文档时调整文本大小。例如，Microsoft Internet Explorer 有“查看->文本大小”子菜单，Adobe Digital Editions 有两个按钮：增加/减小文本大小。如果您希望此功能正常工作，请设置[getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-)属性为 true 。
+In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer has "View->Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size. If you expect this functionality to work then set [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-) property to  true .
 
-Aspose Words 文档模型包含并且仅使用绝对字体大小单位进行操作。相对单位需要从一些初始（标准）大小重新计算的额外逻辑。字体大小**Normal**文档样式作为标准。例如，如果**Normal**有 12pt 字体和一些文本是 18pt 那么它将被输出为**1.5em.**到 HTML。
+Aspose Words document model contains and operates only with absolute font size units. Relative units need additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output as **1.5em.** to the HTML.
 
-启用此选项后，文本以外的文档元素仍将具有绝对大小。一些与文本相关的属性也可能被绝对表达。特别是，使用“精确”规则指定的行距可能会在缩放文本时产生不需要的结果。因此，在导出时应正确设计和测试源文档[getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-)设置为 true 。
+When this option is enabled, document elements other than text will still have absolute sizes. Also some text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule might produce unwanted results when scaling text. So the source documents should be properly designed and tested when exporting with [getExportRelativeFontSize()](../../com.aspose.words/htmlsaveoptions\#getExportRelativeFontSize--) / [setExportRelativeFontSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportRelativeFontSize-boolean-) set to  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportRoundtripInformation(boolean value) {#setExportRoundtripInformation-boolean-}
 ```
@@ -1596,18 +1592,18 @@ public void setExportRoundtripInformation(boolean value)
 ```
 
 
-指定保存为 HTML、MHTML 或 EPUB 时是否写入往返信息。对于 HTML，默认值为 true，对于 MHTML 和 EPUB，默认值为 false。
+Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is  true  for HTML and  false  for MHTML and EPUB.
 
-保存往返信息允许在将 HTML 文档加载回[Document](../../com.aspose.words/document)目的。
+Saving of the roundtrip information allows to restore document properties such as tab stops, comments, headers and footers during the HTML documents loading back into a [Document](../../com.aspose.words/document) object.
 
-当 true 时，往返信息导出为 -aw-\* 对应 HTML 元素的 CSS 属性。
+When  true , the roundtrip information is exported as -aw-\* CSS properties of the corresponding HTML elements.
 
-如果为 false ，则不会将往返信息输出到生成的文件中。
+When  false , causes no roundtrip information to be output into produced files.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportShapesAsSvg(boolean value) {#setExportShapesAsSvg-boolean-}
 ```
@@ -1615,34 +1611,34 @@ public void setExportShapesAsSvg(boolean value)
 ```
 
 
-控制是否[Shape](../../com.aspose.words/shape)保存为 HTML、MHTML、EPUB 或 AZW3 时，节点将转换为 SVG 图像。默认值为 false 。
+Controls whether [Shape](../../com.aspose.words/shape) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is  false .
 
-如果此选项设置为 true ，[Shape](../../com.aspose.words/shape)节点作为元素导出。否则，它们将呈现为位图并导出为![图1][] 元素。
+If this option is set to  true , [Shape](../../com.aspose.words/shape) nodes are exported as  elements. Otherwise, they are rendered to bitmaps and are exported as ![Image 1][] elements.
 
 
-[图1]： 
+[Image 1]: 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
-### setExportTextInputForm字段AsText(boolean value) {#setExportTextInputForm字段AsText-boolean-}
+### setExportTextInputFormFieldAsText(boolean value) {#setExportTextInputFormFieldAsText-boolean-}
 ```
-public void setExportTextInputForm字段AsText(boolean value)
+public void setExportTextInputFormFieldAsText(boolean value)
 ```
 
 
-控制文本输入表单字段如何保存为 HTML 或 MHTML。默认值为 false 。
+Controls how text input form fields are saved to HTML or MHTML. Default value is  false .
 
-当设置为 true 时，将文本输入表单字段导出为普通文本。当为 false 时，将 Word 文本输入表单字段导出为 HTML 中的 INPUT 元素。
+When set to  true , exports text input form fields as normal text. When  false , exports Word text input form fields as INPUT elements in HTML.
 
-导出到 EPUB 时，由于此格式的要求，文本输入表单字段始终保存为文本。
+When exporting to EPUB, text input form fields are always saved as text due to requirements of this format.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportTocPageNumbers(boolean value) {#setExportTocPageNumbers-boolean-}
 ```
@@ -1650,12 +1646,12 @@ public void setExportTocPageNumbers(boolean value)
 ```
 
 
-指定在保存 HTML、MHTML 和 EPUB 时是否将页码写入目录。默认值为 false 。
+Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setExportXhtmlTransitional(boolean value) {#setExportXhtmlTransitional-boolean-}
 ```
@@ -1663,11 +1659,11 @@ public void setExportXhtmlTransitional(boolean value)
 ```
 
 
-指定保存为 HTML 或 MHTML 时是否编写 DOCTYPE 声明。当为 true 时，在根元素之前的文档中写入 DOCTYPE 声明。默认值为 false 。保存到 EPUB 或 HTML5 时（[HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion\#HTML-5)) DOCTYPE 声明总是被写入。
+Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When  true , writes a DOCTYPE declaration in the document prior to the root element. Default value is  false . When saving to EPUB or HTML5 ( [HtmlVersion.HTML\_5](../../com.aspose.words/htmlversion\#HTML-5)) the DOCTYPE declaration is always written.
 
-无论此设置如何，Aspose.Words 始终编写格式良好的 HTML。
+Aspose.Words always writes well formed HTML regardless of this setting.
 
-当为 true 时，HTML 输出文档的开头将如下所示：
+When  true , the beginning of the HTML output document will look like this:
 
 ```
 
@@ -1677,12 +1673,12 @@ public void setExportXhtmlTransitional(boolean value)
  
 ```
 
-Aspose.Words 旨在根据 XHTML 1.0 过渡规范输出 XHTML，但输出并不总是根据 DTD 进行验证。 Microsoft Word 文档中的某些结构很难或不可能映射到将根据 XHTML 模式进行验证的文档。例如，XHTML 不允许嵌套列表（UL 不能嵌套在另一个 UL 元素中），但在 Microsoft Word 文档中，多级列表经常出现。
+Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, but the output will not always validate against the DTD. Some structures inside a Microsoft Word document are hard or impossible to map to a document that will validate against the XHTML schema. For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), but in Microsoft Word document multilevel lists occur quite often.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setFontResourcesSubsettingSizeThreshold(int value) {#setFontResourcesSubsettingSizeThreshold-int-}
 ```
@@ -1690,22 +1686,22 @@ public void setFontResourcesSubsettingSizeThreshold(int value)
 ```
 
 
-控制保存为 HTML、MHTML 或 EPUB 时需要子集的字体资源。默认为 0 。
+Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is  0 .
 
-[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)允许将字体导出为辅助文件或作为输出包的一部分。如果文档使用多种字体，尤其是使用大量字形，则输出大小会显着增长。字体子集通过过滤掉当前文档未使用的字形来减小导出字体资源的大小。
+[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) allows exporting fonts as subsidiary files or as parts of the output package. If the document uses many fonts, especially with large number of glyphs, then output size can grow significantly. Font subsetting reduces the size of the exported font resource by filtering out glyphs that are not used by the current document.
 
-字体子集的工作方式如下：
+Font subsetting works as follows:
 
- *  默认情况下，所有导出的字体都是子集。
- *  环境[getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-)为正值指示 Aspose.Words 对文件大小大于指定值的字体进行子集化。
- *  将属性设置为抑制字体子集。
+ *  By default, all exported fonts are subsetted.
+ *  Setting [getFontResourcesSubsettingSizeThreshold()](../../com.aspose.words/htmlsaveoptions\#getFontResourcesSubsettingSizeThreshold--) / [setFontResourcesSubsettingSizeThreshold(int)](../../com.aspose.words/htmlsaveoptions\#setFontResourcesSubsettingSizeThreshold-int-) to a positive value instructs Aspose.Words to subset fonts which file size is larger than the specified value.
+ *  Setting the property to  suppresses font subsetting.
 
-**Important!**导出字体资源时，应考虑字体许可问题。希望通过可下载字体机制使用特定字体的作者必须始终仔细验证其预期用途是否在字体许可的范围内。许多商业字体目前不允许以任何形式从网络下载其字体。涵盖某些字体的许可协议特别指出，使用**@font-face**CSS 样式表中的规则是不允许的。字体子集也可能违反许可条款。
+**Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable font mechanism must always carefully verify that their intended use is within the scope of the font license. Many commercial fonts presently do not allow web downloading of their fonts in any form. License agreements that cover some fonts specifically note that usage via **@font-face** rules in CSS style sheets is not allowed. Font subsetting can also violate license terms.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setFontSavingCallback(IFontSavingCallback value) {#setFontSavingCallback-com.aspose.words.IFontSavingCallback-}
 ```
@@ -1713,12 +1709,12 @@ public void setFontSavingCallback(IFontSavingCallback value)
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存字体。
+Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) | 相应的[IFontSavingCallback](../../com.aspose.words/ifontsavingcallback)价值。 |
+| value | [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) | The corresponding [IFontSavingCallback](../../com.aspose.words/ifontsavingcallback) value. |
 
 ### setFontsFolder(String value) {#setFontsFolder-java.lang.String-}
 ```
@@ -1726,22 +1722,22 @@ public void setFontsFolder(String value)
 ```
 
 
-指定将文档导出为 HTML 时保存字体的物理文件夹。默认为空字符串。
+Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)以 HTML 格式和[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，Aspose.Words 需要将文档中使用的字体保存为独立文件。[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)允许您指定字体的保存位置和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)允许指定如何构造字体 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) allows to specify how the font URIs will be constructed.
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认将字体保存在保存文档文件的同一文件夹中。利用[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)覆盖此行为。
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the fonts in the same folder where the document file is saved. Use [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) to override this behavior.
 
-如果您将文档保存到流中，Aspose.Words 没有保存字体的文件夹，但仍需要将字体保存在某处。在这种情况下，您需要在[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)属性或通过[getFontSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getFontSavingCallback--) / [setFontSavingCallback(com.aspose.words.IFontSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setFontSavingCallback-com.aspose.words.IFontSavingCallback-)事件处理程序。
+If you save a document into a stream, Aspose.Words does not have a folder where to save the fonts, but still needs to save the fonts somewhere. In this case, you need to specify an accessible folder in the [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) property or provide custom streams via the [getFontSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getFontSavingCallback--) / [setFontSavingCallback(com.aspose.words.IFontSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setFontSavingCallback-com.aspose.words.IFontSavingCallback-) event handler.
 
-如果指定的文件夹[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是另一种指定应保存字体的文件夹的方法。
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is another way to specify a folder where fonts should be saved.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setFontsFolderAlias(String value) {#setFontsFolderAlias-java.lang.String-}
 ```
@@ -1749,22 +1745,22 @@ public void setFontsFolderAlias(String value)
 ```
 
 
-指定用于构造写入 HTML 文档的字体 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct font URIs written into an HTML document. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)以 HTML 格式和[getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-)设置为 true ，Aspose.Words 需要将文档中使用的字体保存为独立文件。[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)允许您指定字体的保存位置和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)允许指定如何构造字体 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format and [getExportFontResources()](../../com.aspose.words/htmlsaveoptions\#getExportFontResources--) / [setExportFontResources(boolean)](../../com.aspose.words/htmlsaveoptions\#setExportFontResources-boolean-) is set to  true , Aspose.Words needs to save fonts used in the document as standalone files. [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) allows you to specify where the fonts will be saved and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) allows to specify how the font URIs will be constructed.
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)不是空字符串，那么写入 HTML 的字体 URI 将是*FontsFolderAlias +* . 
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is not an empty string, then the font URI written to HTML will be *FontsFolderAlias +* . 
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)是一个空字符串，那么写入 HTML 的字体 URI 将是*FontsFolder +* . 
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is an empty string, then the font URI written to HTML will be *FontsFolder +* . 
 
-如果[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)被设定为 '。' （点），那么无论其他选项如何，字体文件名都将写入没有路径的 HTML。
+If [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) is set to '.' (dot), then the font file name will be written to HTML without path regardless of other options.
 
-指定文件夹名称以构造字体 URI 的另一种方法是使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+Alternative way to specify the name of the folder to construct font URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setHtmlVersion(int value) {#setHtmlVersion-int-}
 ```
@@ -1772,12 +1768,12 @@ public void setHtmlVersion(int value)
 ```
 
 
-指定将文档保存为 HTML 或 MHTML 时应使用的 HTML 标准版本。默认值为[HtmlVersion.XHTML](../../com.aspose.words/htmlversion\#XHTML).
+Specifies version of HTML standard that should be used when saving the document to HTML or MHTML. Default value is [HtmlVersion.XHTML](../../com.aspose.words/htmlversion\#XHTML).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[HtmlVersion](../../com.aspose.words/htmlversion)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [HtmlVersion](../../com.aspose.words/htmlversion) constants. |
 
 ### setImageResolution(int value) {#setImageResolution-int-}
 ```
@@ -1785,14 +1781,14 @@ public void setImageResolution(int value)
 ```
 
 
-指定导出为 HTML、MHTML 或 EPUB 时图像的输出分辨率。默认为 96 dpi。
+Specifies the output resolution for images when exporting to HTML, MHTML or EPUB. Default is  96 dpi .
 
-此属性会在以下情况下影响光栅图像[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是 true 并且效果图元文件导出为光栅图像。某些图像属性（例如裁剪或旋转）需要保存转换后的图像，在这种情况下，转换后的图像以给定的分辨率创建。
+This property effects raster images when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true  and effects metafiles exported as raster images. Some image properties such as cropping or rotation require saving transformed images and in this case transformed images are created in the given resolution.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setImageSavingCallback(IImageSavingCallback value) {#setImageSavingCallback-com.aspose.words.IImageSavingCallback-}
 ```
@@ -1800,12 +1796,12 @@ public void setImageSavingCallback(IImageSavingCallback value)
 ```
 
 
-允许控制在将文档保存为 HTML、MHTML 或 EPUB 时如何保存图像。
+Allows to control how images are saved when a document is saved to HTML, MHTML or EPUB.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) | 相应的[IImageSavingCallback](../../com.aspose.words/iimagesavingcallback)价值。 |
+| value | [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) | The corresponding [IImageSavingCallback](../../com.aspose.words/iimagesavingcallback) value. |
 
 ### setImagesFolder(String value) {#setImagesFolder-java.lang.String-}
 ```
@@ -1813,22 +1809,22 @@ public void setImagesFolder(String value)
 ```
 
 
-指定将文档导出为 HTML 格式时保存图像的物理文件夹。默认为空字符串。
+Specifies the physical folder where images are saved when exporting a document to HTML format. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)允许您指定图像的保存位置和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
 
-如果您将文档保存到文件中并提供文件名，Aspose.Words 默认情况下会将图像保存在保存文档文件的同一文件夹中。利用[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)覆盖此行为。
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the images in the same folder where the document file is saved. Use [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) to override this behavior.
 
-如果将文档保存到流中，Aspose.Words 没有保存图像的文件夹，但仍需要将图像保存在某个位置。在这种情况下，您需要在[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)属性或通过[getImageSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-)事件处理程序。
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images, but still needs to save the images somewhere. In this case, you need to specify an accessible folder in the [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) property or provide custom streams via the [getImageSavingCallback()](../../com.aspose.words/htmlsaveoptions\#getImageSavingCallback--) / [setImageSavingCallback(com.aspose.words.IImageSavingCallback)](../../com.aspose.words/htmlsaveoptions\#setImageSavingCallback-com.aspose.words.IImageSavingCallback-) event handler.
 
-如果指定的文件夹[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是另一种指定应保存图像的文件夹的方法。
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is another way to specify a folder where images should be saved.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setImagesFolderAlias(String value) {#setImagesFolderAlias-java.lang.String-}
 ```
@@ -1836,25 +1832,25 @@ public void setImagesFolderAlias(String value)
 ```
 
 
-指定用于构造写入 HTML 文档的图像 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct image URIs written into an HTML document. Default is an empty string.
 
-当你保存一个[Document](../../com.aspose.words/document)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有图像保存为独立文件。[getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)允许您指定图像的保存位置和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)允许指定如何构建图像 URI。
+When you save a [Document](../../com.aspose.words/document) in HTML format, Aspose.Words needs to save all images embedded in the document as standalone files. [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-) allows you to specify where the images will be saved and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) allows to specify how the image URIs will be constructed.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)不是空字符串，则写入 HTML 的图像 URI 将是*ImagesFolderAlias + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is not an empty string, then the image URI written to HTML will be *ImagesFolderAlias + ![Image 1][]*.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)是一个空字符串，那么写入 HTML 的图像 URI 将是*ImagesFolder + ![Image 1][]*.
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is an empty string, then the image URI written to HTML will be *ImagesFolder + ![Image 1][]*.
 
-如果[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)被设定为 '。' （点），则无论其他选项如何，图像文件名都将写入没有路径的 HTML。
+If [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) is set to '.' (dot), then the image file name will be written to HTML without path regardless of other options.
 
-指定文件夹名称以构造图像 URI 的另一种方法是使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+Alternative way to specify the name of the folder to construct image URIs is to use [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
 
-[图1]： 
+[Image 1]: 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setImlRenderingMode(int value) {#setImlRenderingMode-int-}
 ```
@@ -1862,14 +1858,14 @@ public void setImlRenderingMode(int value)
 ```
 
 
-设置一个值，确定如何呈现墨水 (InkML) 对象。默认值为[ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
+Sets a value determining how ink (InkML) objects are rendered. The default value is [ImlRenderingMode.INK\_ML](../../com.aspose.words/imlrenderingmode\#INK-ML).
 
-当文档导出为固定页面格式时使用此属性。
+This property is used when the document is exported to fixed page formats.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 确定如何呈现墨水 (InkML) 对象的值。该值必须是以下之一[ImlRenderingMode](../../com.aspose.words/imlrenderingmode)常数。 |
+| value | int | A value determining how ink (InkML) objects are rendered. The value must be one of [ImlRenderingMode](../../com.aspose.words/imlrenderingmode) constants. |
 
 ### setMemoryOptimization(boolean value) {#setMemoryOptimization-boolean-}
 ```
@@ -1877,12 +1873,12 @@ public void setMemoryOptimization(boolean value)
 ```
 
 
-设置值确定是否应在保存文档之前执行内存优化。此属性的默认值为**false**.将此选项设置为 true 可以显着减少内存消耗，同时以较慢的节省时间为代价来保存大型文档。
+Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. Setting this option to true can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 确定是否应在保存文档之前执行内存优化的值。 |
+| value | boolean | Value determining if memory optimization should be performed before saving the document. |
 
 ### setMetafileFormat(int value) {#setMetafileFormat-int-}
 ```
@@ -1890,16 +1886,16 @@ public void setMetafileFormat(int value)
 ```
 
 
-指定导出为 HTML、MHTML 或 EPUB 时以何种格式保存元文件。默认值为[HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat\#PNG)，这意味着元文件被渲染为光栅 PNG 图像。
+Specifies in what format metafiles are saved when exporting to HTML, MHTML, or EPUB. Default value is [HtmlMetafileFormat.PNG](../../com.aspose.words/htmlmetafileformat\#PNG), meaning that metafiles are rendered to raster PNG images.
 
-HTML 浏览器本身不会显示元文件。默认情况下，Aspose.Words 在导出为 HTML 时会将 WMF 和 EMF 图像转换为 PNG 文件。其他选项是将元文件转换为 SVG 图像或按原样导出它们而不进行转换。
+Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export them as is without conversion.
 
-如果将元文件图像导出为未经转换的 HTML，则某些图像转换（尤其是图像裁剪）将不会应用于这些图像。
+Some image transforms, in particular image cropping, will not be applied to metafile images if they are exported to HTML without conversion.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [HtmlMetafileFormat](../../com.aspose.words/htmlmetafileformat) constants. |
 
 ### setOfficeMathOutputMode(int value) {#setOfficeMathOutputMode-int-}
 ```
@@ -1907,12 +1903,12 @@ public void setOfficeMathOutputMode(int value)
 ```
 
 
-控制如何将 OfficeMath 对象导出为 HTML、MHTML 或 EPUB。默认值为 HtmlOfficeMathOutputMode.Image 。
+Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is  HtmlOfficeMathOutputMode.Image .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[HtmlOfficeMathOutputMode](../../com.aspose.words/htmlofficemathoutputmode)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [HtmlOfficeMathOutputMode](../../com.aspose.words/htmlofficemathoutputmode) constants. |
 
 ### setPrettyFormat(boolean value) {#setPrettyFormat-boolean-}
 ```
@@ -1920,14 +1916,14 @@ public void setPrettyFormat(boolean value)
 ```
 
 
-如果为 true ，则在适用的情况下输出漂亮的格式。默认值为**false**.
+When  true , pretty formats output where applicable. Default value is **false**.
 
-调成**true**使 HTML、MHTML、EPUB、WordML、RTF、DOCX 和 ODT 输出具有人类可读性。用于测试或调试。
+Set to **true** to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable. Useful for testing or debugging.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setProgressCallback(IDocumentSavingCallback value) {#setProgressCallback-com.aspose.words.IDocumentSavingCallback-}
 ```
@@ -1935,14 +1931,14 @@ public void setProgressCallback(IDocumentSavingCallback value)
 ```
 
 
-在保存文档期间调用并接受有关保存进度的数据。
+Called during saving a document and accepts data about saving progress.
 
-保存到时报告进度[SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW)， 或者[SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
+Progress is reported when saving to [SaveFormat.DOCX](../../com.aspose.words/saveformat\#DOCX), [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC), [SaveFormat.DOCM](../../com.aspose.words/saveformat\#DOCM), [SaveFormat.DOTM](../../com.aspose.words/saveformat\#DOTM), [SaveFormat.DOTX](../../com.aspose.words/saveformat\#DOTX), [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB), [SaveFormat.XAML\_FLOW](../../com.aspose.words/saveformat\#XAML-FLOW), or [SaveFormat.XAML\_FLOW\_PACK](../../com.aspose.words/saveformat\#XAML-FLOW-PACK).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | 相应的[IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback)价值。 |
+| value | [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) | The corresponding [IDocumentSavingCallback](../../com.aspose.words/idocumentsavingcallback) value. |
 
 ### setResolveFontNames(boolean value) {#setResolveFontNames-boolean-}
 ```
@@ -1950,16 +1946,16 @@ public void setResolveFontNames(boolean value)
 ```
 
 
-指定文档中使用的字体系列名称是否根据[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)当被写入基于 HTML 的格式时。
+Specifies whether font family names used in the document are resolved and substituted according to [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) when being written into HTML-based formats.
 
-默认情况下，此选项设置为 false，并且字体系列名称将写入源文档中指定的 HTML。那是，[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)被忽略并且不执行字体系列名称的解析或替换。
+By default, this option is set to  false  and font family names are written to HTML as specified in source documents. That is, [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) are ignored and no resolution or substitution of font family names is performed.
 
-如果此选项设置为 true ，Aspose.Words 使用[Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-)将源文档中指定的每个字体系列名称解析为可用字体系列的名称，并根据需要执行字体替换。
+If this option is set to  true , Aspose.Words uses [Document.getFontSettings()](../../com.aspose.words/document\#getFontSettings--) / [Document.setFontSettings(com.aspose.words.FontSettings)](../../com.aspose.words/document\#setFontSettings-com.aspose.words.FontSettings-) to resolve each font family name specified in a source document into the name of an available font family, performing font substitution as required.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setResourceFolder(String value) {#setResourceFolder-java.lang.String-}
 ```
@@ -1967,18 +1963,18 @@ public void setResourceFolder(String value)
 ```
 
 
-指定将文档导出为 HTML 时保存所有资源（如图像、字体和外部 CSS）的物理文件夹。默认为空字符串。
+Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string.
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)是指定应写入所有资源的文件夹的最简单方法。另一种方法是使用单个属性[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)， 和[getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) is the simplest way to specify a folder where all resources should be written. Another way is to use individual properties [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).
 
-[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)优先级低于通过指定的文件夹[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-)， 和[getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-).例如，如果两者[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)和[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-)指定，字体将被保存到[getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) 而图像和 CSS 将被保存到[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
+[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) has a lower priority than folders specified via [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), [getImagesFolder()](../../com.aspose.words/htmlsaveoptions\#getImagesFolder--) / [setImagesFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolder-java.lang.String-), and [getCssStyleSheetFileName()](../../com.aspose.words/htmlsaveoptions\#getCssStyleSheetFileName--) / [setCssStyleSheetFileName(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setCssStyleSheetFileName-java.lang.String-). For example, if both [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) and [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-) are specified, fonts will be saved to [getFontsFolder()](../../com.aspose.words/htmlsaveoptions\#getFontsFolder--) / [setFontsFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolder-java.lang.String-), while images and CSS will be saved to [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-).
 
-如果指定的文件夹[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)不存在，会自动创建。
+If the folder specified by [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) doesn't exist, it will be created automatically.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setResourceFolderAlias(String value) {#setResourceFolderAlias-java.lang.String-}
 ```
@@ -1986,20 +1982,20 @@ public void setResourceFolderAlias(String value)
 ```
 
 
-指定用于构造写入 HTML 文档的所有资源的 URI 的文件夹的名称。默认为空字符串。
+Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string.
 
-[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)是指定如何构造所有资源文件的 URI 的最简单方法。可以通过分别为图像和字体指定相同的信息[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-)和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)属性，分别。但是，CSS 没有单独的属性。
+[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is the simplest way to specify how URIs for all resource files should be constructed. Same information can be specified for images and fonts separately via [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) properties, respectively. However, there is no individual property for CSS.
 
-[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)优先级低于[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)和[getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-).例如，如果两者[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)和[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-)指定，字体的 URI 将使用[getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) 而图像和 CSS 的 URI 将使用[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
+[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) has lower priority than [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) and [getImagesFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getImagesFolderAlias--) / [setImagesFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setImagesFolderAlias-java.lang.String-). For example, if both [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) and [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-) are specified, fonts' URIs will be constructed using [getFontsFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getFontsFolderAlias--) / [setFontsFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setFontsFolderAlias-java.lang.String-), while URIs of images and CSS will be constructed using [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-).
 
-如果[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)为空，则[getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-)属性值将用于构造资源 URI。
+If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is empty, the [getResourceFolder()](../../com.aspose.words/htmlsaveoptions\#getResourceFolder--) / [setResourceFolder(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolder-java.lang.String-) property value will be used to construct resource URIs.
 
-如果[getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-)被设定为 '。' （点），资源 URI 将仅包含文件名，不包含任何路径。
+If [getResourceFolderAlias()](../../com.aspose.words/htmlsaveoptions\#getResourceFolderAlias--) / [setResourceFolderAlias(java.lang.String)](../../com.aspose.words/htmlsaveoptions\#setResourceFolderAlias-java.lang.String-) is set to '.' (dot), resource URIs will contain file names only, without any path.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setSaveFormat(int value) {#setSaveFormat-int-}
 ```
@@ -2007,12 +2003,12 @@ public void setSaveFormat(int value)
 ```
 
 
-如果使用此保存选项对象，则指定保存文档的格式。可[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)或者[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3).
+Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) or [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[SaveFormat](../../com.aspose.words/saveformat)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [SaveFormat](../../com.aspose.words/saveformat) constants. |
 
 ### setScaleImageToShapeSize(boolean value) {#setScaleImageToShapeSize-boolean-}
 ```
@@ -2020,20 +2016,20 @@ public void setScaleImageToShapeSize(boolean value)
 ```
 
 
-指定当导出为 HTML、MHTML 或 EPUB 时，图像是否由 Aspose.Words 缩放到边界形状大小。默认值为 true 。
+Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is  true .
 
-Microsoft Word 文档中的图像是一种形状。形状有大小，图像有自己的大小。尺寸没有直接联系。例如，图像可以是 1024x786 像素，但显示该图像的形状可以是 400x300 点。
+An image in a Microsoft Word document is a shape. The shape has a size and the image has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, but shape that displays this image can be 400x300 points.
 
-为了在浏览器中显示图像，必须将其缩放到形状大小。这[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)属性控制图像缩放发生的位置：在 Aspose.Words 中导出到 HTML 时或在浏览器中显示文档时。
+In order to display an image in the browser, it must be scaled to the shape size. The [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) property controls where the scaling of the image takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
-什么时候[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)为 true 时，图像由 Aspose.Words 在导出到 HTML 期间使用高质量缩放进行缩放。什么时候[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)为 false ，图像以其原始大小输出，浏览器必须对其进行缩放。
+When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true , the image is scaled by Aspose.Words using high quality scaling during export to HTML. When [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  false , the image is output with its original size and the browser has to scale it.
 
-通常，浏览器会进行快速且质量较差的缩放。因此，您通常会在浏览器中获得更好的显示质量和更小的文件大小[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是的，但更好的打印质量和更快的转换时[getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-)是假的。
+In general, browsers do quick and poor quality scaling. As a result, you will normally get better display quality in the browser and smaller file size when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  true , but better printing quality and faster conversion when [getScaleImageToShapeSize()](../../com.aspose.words/htmlsaveoptions\#getScaleImageToShapeSize--) / [setScaleImageToShapeSize(boolean)](../../com.aspose.words/htmlsaveoptions\#setScaleImageToShapeSize-boolean-) is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setTableWidthOutputMode(int value) {#setTableWidthOutputMode-int-}
 ```
@@ -2041,21 +2037,17 @@ public void setTableWidthOutputMode(int value)
 ```
 
 
-控制如何将表格、行和单元格宽度导出为 HTML、MHTML 或 EPUB。默认值为[HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode\#ALL).
+Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.ALL](../../com.aspose.words/htmlelementsizeoutputmode\#ALL).
 
-在 HTML 格式中，表格、行和单元格元素 ( 
+In the HTML format, table, row and cell elements ( 
 
     | -- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.
- 
- 当您使用 Aspose.Words 将文档转换为 HTML 时，您可能希望控制表格、行和单元格宽度的导出方式，以影响结果文档在可视代理（例如浏览器或查看器）中的显示方式。
- 
- 使用此属性作为过滤器来指定将哪些表格宽度值导出到目标文档中。例如，如果您要将文档转换为 EPUB 并打算在移动阅读设备上查看文档，那么您可能希望避免导出绝对宽度值。为此，您需要指定输出模式[HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode\#RELATIVE-ONLY)或者[HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode\#NONE)因此移动设备上的查看器可以尽可能地布置表格以适应屏幕的宽度。|
+    | ,  | ) can have their widths specified either in relative (percentage) or in absolute units. In a document in Aspose.Words, tables, rows and cells can have their widths specified using either relative or absolute units too.  When you convert a document to HTML using Aspose.Words, you might want to control how table, row and cell widths are exported to affect how the resulting document is displayed in the visual agent (e.g. a browser or viewer).  Use this property as a filter to specify what table widths values are exported into the destination document. For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device, then you probably want to avoid exporting absolute width values. To do this you need to specify the output mode [HtmlElementSizeOutputMode.RELATIVE\_ONLY](../../com.aspose.words/htmlelementsizeoutputmode\#RELATIVE-ONLY) or [HtmlElementSizeOutputMode.NONE](../../com.aspose.words/htmlelementsizeoutputmode\#NONE) so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can. |
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[HtmlElementSizeOutputMode](../../com.aspose.words/htmlelementsizeoutputmode)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [HtmlElementSizeOutputMode](../../com.aspose.words/htmlelementsizeoutputmode) constants. |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -2063,20 +2055,20 @@ public void setTempFolder(String value)
 ```
 
 
-指定保存到 DOC 或 DOCX 文件时使用的临时文件的文件夹。默认情况下，此属性为 null，并且不使用临时文件。
+Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is  null  and no temporary files are used.
 
-当 Aspose.Words 保存文档时，它需要创建临时的内部结构。默认情况下，这些内部结构是在内存中创建的，并且在保存文档时内存使用量会在短时间内达到峰值。保存完成后，内存将被垃圾收集器释放和回收。
+When Aspose.Words saves a document, it needs to create temporary internal structures. By default, these internal structures are created in memory and the memory usage spikes for a short period while the document is being saved. When saving is complete, the memory is freed and reclaimed by the garbage collector.
 
-如果您要保存一个非常大的文档（数千页）和/或同时处理许多文档，那么保存期间的内存峰值可能会非常显着，从而导致系统抛出 java.lang.IndexOutOfBoundsException。使用指定临时文件夹[getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-)将导致 Aspose.Words 将内部结构保存在临时文件而不是内存中。它会减少保存期间的内存使用量，但会降低保存性能。
+If you are saving a very large document (thousands of pages) and/or processing many documents at the same time, then the memory spike during saving can be significant enough to cause the system to throw java.lang.IndexOutOfBoundsException. Specifying a temporary folder using [getTempFolder()](../../com.aspose.words/saveoptions\#getTempFolder--) / [setTempFolder(java.lang.String)](../../com.aspose.words/saveoptions\#setTempFolder-java.lang.String-) will cause Aspose.Words to keep the internal structures in temporary files instead of memory. It reduces the memory usage during saving, but will decrease the save performance.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-保存完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when saving is complete.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setUpdateCreatedTimeProperty(boolean value) {#setUpdateCreatedTimeProperty-boolean-}
 ```
@@ -2084,25 +2076,25 @@ public void setUpdateCreatedTimeProperty(boolean value)
 ```
 
 
-设置一个值，确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。默认值为假；
+Sets a value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. Default value is false;
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-)属性在保存前更新。 |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getCreatedTime()](../../com.aspose.words/builtindocumentproperties\#getCreatedTime--) / [BuiltInDocumentProperties.setCreatedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setCreatedTime-java.util.Date-) property is updated before saving. |
 
-### setUpdate字段(boolean value) {#setUpdate字段-boolean-}
+### setUpdateFields(boolean value) {#setUpdateFields-boolean-}
 ```
-public void setUpdate字段(boolean value)
+public void setUpdateFields(boolean value)
 ```
 
 
-设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。此属性的默认值为**true**.允许指定是否模仿 MS Word 行为。
+Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. Allows to specify whether to mimic or not MS Word behavior.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 确定在将文档保存为固定页面格式之前是否应更新某些类型的字段的值。 |
+| value | boolean | A value determining if fields of certain types should be updated before saving the document to a fixed page format. |
 
 ### setUpdateLastPrintedProperty(boolean value) {#setUpdateLastPrintedProperty-boolean-}
 ```
@@ -2110,12 +2102,12 @@ public void setUpdateLastPrintedProperty(boolean value)
 ```
 
 
-设置一个值，确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。
+Sets a value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-)属性在保存前更新。 |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastPrinted()](../../com.aspose.words/builtindocumentproperties\#getLastPrinted--) / [BuiltInDocumentProperties.setLastPrinted(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastPrinted-java.util.Date-) property is updated before saving. |
 
 ### setUpdateLastSavedTimeProperty(boolean value) {#setUpdateLastSavedTimeProperty-boolean-}
 ```
@@ -2123,12 +2115,12 @@ public void setUpdateLastSavedTimeProperty(boolean value)
 ```
 
 
-设置一个值，确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。
+Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值确定是否[BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-)属性在保存前更新。 |
+| value | boolean | A value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties\#getLastSavedTime--) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties\#setLastSavedTime-java.util.Date-) property is updated before saving. |
 
 ### setUpdateSdtContent(boolean value) {#setUpdateSdtContent-boolean-}
 ```
@@ -2136,12 +2128,12 @@ public void setUpdateSdtContent(boolean value)
 ```
 
 
-设置值确定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。默认值为 false 。
+Sets value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. The default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 价值决定内容是否[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)保存前更新。 |
+| value | boolean | Value determining whether content of [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) is updated before saving. |
 
 ### setUseAntiAliasing(boolean value) {#setUseAntiAliasing-boolean-}
 ```
@@ -2149,16 +2141,16 @@ public void setUseAntiAliasing(boolean value)
 ```
 
 
-设置一个值，确定是否使用抗锯齿进行渲染。
+Sets a value determining whether or not to use anti-aliasing for rendering.
 
-默认值为 false 。当此值设置为 true 时，将使用抗锯齿进行渲染。
+The default value is  false . When this value is set to  true  anti-aliasing is used for rendering.
 
-当文档导出为以下格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF) .当文档导出到[SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB)和[SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3)格式 此选项用于光栅图像。
+This property is used when the document is exported to the following formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF). When the document is exported to the [SaveFormat.HTML](../../com.aspose.words/saveformat\#HTML), [SaveFormat.MHTML](../../com.aspose.words/saveformat\#MHTML), [SaveFormat.EPUB](../../com.aspose.words/saveformat\#EPUB) and [SaveFormat.AZW\_3](../../com.aspose.words/saveformat\#AZW-3) formats this option is used for raster images.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 确定是否使用抗锯齿进行渲染的值。 |
+| value | boolean | A value determining whether or not to use anti-aliasing for rendering. |
 
 ### setUseHighQualityRendering(boolean value) {#setUseHighQualityRendering-boolean-}
 ```
@@ -2166,14 +2158,14 @@ public void setUseHighQualityRendering(boolean value)
 ```
 
 
-设置一个值来确定是否使用高质量（即慢速）渲染算法。默认值为 false 。
+Sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. The default value is  false .
 
-当文档导出为图像格式时使用此属性：[SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
+This property is used when the document is exported to image formats: [SaveFormat.TIFF](../../com.aspose.words/saveformat\#TIFF), [SaveFormat.PNG](../../com.aspose.words/saveformat\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat\#BMP), [SaveFormat.JPEG](../../com.aspose.words/saveformat\#JPEG), [SaveFormat.EMF](../../com.aspose.words/saveformat\#EMF).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 决定是否使用高质量的值（即 |
+| value | boolean | A value determining whether or not to use high quality (i.e. |
 
 ### toString() {#toString--}
 ```
@@ -2183,7 +2175,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -2201,8 +2193,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -2214,8 +2206,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

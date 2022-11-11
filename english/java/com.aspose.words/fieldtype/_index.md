@@ -1,135 +1,135 @@
 ---
-title: 字段类型
-second_title: Aspose.Words for Java API 参考
-description: 指定 Microsoft Word 字段类型。
+title: FieldType
+second_title: Aspose.Words for Java API Reference
+description: Specifies Microsoft Word field types.
 type: docs
 weight: 256
-url: /zh/java/com.aspose.words/fieldtype/
+url: /java/com.aspose.words/fieldtype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段类型
+public class FieldType
 ```
 
-指定 Microsoft Word 字段类型。
-## 字段
+Specifies Microsoft Word field types.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [FIELD_ADDIN](#FIELD-ADDIN) | 指定 ADDIN 字段。 |
-| [FIELD_ADDRESS_BLOCK](#FIELD-ADDRESS-BLOCK) | 指定 ADDRESSBLOCK 字段。 |
-| [FIELD_ADVANCE](#FIELD-ADVANCE) | 指定 ADVANCE 字段。 |
-| [FIELD_ASK](#FIELD-ASK) | 指定 ASK 字段。 |
-| [FIELD_AUTHOR](#FIELD-AUTHOR) | 指定作者字段。 |
-| [FIELD_AUTO_NUM](#FIELD-AUTO-NUM) | 指定 AUTONUM 字段。 |
-| [FIELD_AUTO_NUM_LEGAL](#FIELD-AUTO-NUM-LEGAL) | 指定 AUTONUMLGL 字段。 |
-| [FIELD_AUTO_NUM_OUTLINE](#FIELD-AUTO-NUM-OUTLINE) | 指定 AUTONUMOUT 字段。 |
-| [FIELD_AUTO_TEXT](#FIELD-AUTO-TEXT) | 指定自动文本字段。 |
-| [FIELD_AUTO_TEXT_LIST](#FIELD-AUTO-TEXT-LIST) | 指定 AUTOTEXTLIST 字段。 |
-| [FIELD_BARCODE](#FIELD-BARCODE) | 指定条形码字段。 |
-| [FIELD_BIBLIOGRAPHY](#FIELD-BIBLIOGRAPHY) | 指定书目字段。 |
-| [FIELD_BIDI_OUTLINE](#FIELD-BIDI-OUTLINE) | 指定 BIDIOUTLINE 字段。 |
-| [FIELD_CANNOT_PARSE](#FIELD-CANNOT-PARSE) | 指定无法解析该字段。 |
-| [FIELD_CITATION](#FIELD-CITATION) | 指定引文字段。 |
-| [FIELD_COMMENTS](#FIELD-COMMENTS) | 指定 COMMENTS 字段。 |
-| [FIELD_COMPARE](#FIELD-COMPARE) | 指定比较字段。 |
-| [FIELD_CREATE_DATE](#FIELD-CREATE-DATE) | 指定 CREATEDATE 字段。 |
-| [FIELD_DATA](#FIELD-DATA) | 指定 DATA 字段。 |
-| [FIELD_DATABASE](#FIELD-DATABASE) | 指定数据库字段。 |
-| [FIELD_DATE](#FIELD-DATE) | 指定日期字段。 |
-| [FIELD_DDE](#FIELD-DDE) | 指定 DDE 字段。 |
-| [FIELD_DDE_AUTO](#FIELD-DDE-AUTO) | 指定 DDEAUTO 字段。 |
-| [FIELD_DISPLAY_BARCODE](#FIELD-DISPLAY-BARCODE) | 指定 DISPLAYBARCODE 字段。 |
-| [FIELD_DOC_PROPERTY](#FIELD-DOC-PROPERTY) | 指定 DOCPROPERTY 字段。 |
-| [FIELD_DOC_VARIABLE](#FIELD-DOC-VARIABLE) | 指定 DOCVARIABLE 字段。 |
-| [FIELD_EDIT_TIME](#FIELD-EDIT-TIME) | 指定 EDITTIME 字段。 |
-| [FIELD_EMBED](#FIELD-EMBED) | 指定嵌入字段。 |
-| [FIELD_EQUATION](#FIELD-EQUATION) | 指定 EQ 字段。 |
-| [FIELD_FILE_NAME](#FIELD-FILE-NAME) | 指定文件名字段。 |
-| [FIELD_FILE_SIZE](#FIELD-FILE-SIZE) | 指定文件大小字段。 |
-| [FIELD_FILL_IN](#FIELD-FILL-IN) | 指定 FILLIN 字段。 |
-| [FIELD_FOOTNOTE_REF](#FIELD-FOOTNOTE-REF) | 指定 FOOTNOTEREF 字段。 |
-| [FIELD_FORMULA](#FIELD-FORMULA) | 指定 =（公式）字段。 |
-| [FIELD_FORM_CHECK_BOX](#FIELD-FORM-CHECK-BOX) | 指定 FORMCHECKBOX 字段。 |
-| [FIELD_FORM_DROP_DOWN](#FIELD-FORM-DROP-DOWN) | 指定 FORMDROPDOWN 字段。 |
-| [FIELD_FORM_TEXT_INPUT](#FIELD-FORM-TEXT-INPUT) | 指定 FORMTEXT 字段。 |
-| [FIELD_GLOSSARY](#FIELD-GLOSSARY) | 指定 GLOSSARY 字段。 |
-| [FIELD_GO_TO_BUTTON](#FIELD-GO-TO-BUTTON) | 指定 GOTOBUTTON 字段。 |
-| [FIELD_GREETING_LINE](#FIELD-GREETING-LINE) | 指定GREETINGLINE 字段。 |
-| [FIELD_HTML_ACTIVE_X](#FIELD-HTML-ACTIVE-X) | 指定表示 HTML 控件的字段。 |
-| [FIELD_HYPERLINK](#FIELD-HYPERLINK) | 指定 HYPERLINK 字段。 |
-| [FIELD_IF](#FIELD-IF) | 指定 IF 字段。 |
-| [FIELD_IMPORT](#FIELD-IMPORT) | 指定导入字段。 |
-| [FIELD_INCLUDE](#FIELD-INCLUDE) | 指定 INCLUDE 字段。 |
-| [FIELD_INCLUDE_PICTURE](#FIELD-INCLUDE-PICTURE) | 指定 INCLUDEPICTURE 字段。 |
-| [FIELD_INCLUDE_TEXT](#FIELD-INCLUDE-TEXT) | 指定 INCLUDETEXT 字段。 |
-| [FIELD_INDEX](#FIELD-INDEX) | 指定索引字段。 |
-| [FIELD_INDEX_ENTRY](#FIELD-INDEX-ENTRY) | 指定 XE 字段。 |
-| [FIELD_INFO](#FIELD-INFO) | 指定 INFO 字段。 |
-| [FIELD_KEYWORD](#FIELD-KEYWORD) | 指定关键字字段。 |
-| [FIELD_LAST_SAVED_BY](#FIELD-LAST-SAVED-BY) | 指定 LASTSAVEDBY 字段。 |
-| [FIELD_LINK](#FIELD-LINK) | 指定 LINK 字段。 |
-| [FIELD_LIST_NUM](#FIELD-LIST-NUM) | 指定 LISTNUM 字段。 |
-| [FIELD_MACRO_BUTTON](#FIELD-MACRO-BUTTON) | 指定 MACROBUTTON 字段。 |
-| [FIELD_MERGE_BARCODE](#FIELD-MERGE-BARCODE) | 指定 MERGEBARCODE 字段。 |
-| [FIELD_MERGE_FIELD](#FIELD-MERGE-FIELD) | 指定 MERGEFIELD 字段。 |
-| [FIELD_MERGE_REC](#FIELD-MERGE-REC) | 指定 MERGEREC 字段。 |
-| [FIELD_MERGE_SEQ](#FIELD-MERGE-SEQ) | 指定 MERGESEQ 字段。 |
-| [FIELD_NEXT](#FIELD-NEXT) | 指定 NEXT 字段。 |
-| [FIELD_NEXT_IF](#FIELD-NEXT-IF) | 指定 NEXTIF 字段。 |
-| [FIELD_NONE](#FIELD-NONE) | 字段类型未指定或未知。 |
-| [FIELD_NOTE_REF](#FIELD-NOTE-REF) | 指定 NOTEREF 字段。 |
-| [FIELD_NUM_CHARS](#FIELD-NUM-CHARS) | 指定 NUMCHARS 字段。 |
-| [FIELD_NUM_PAGES](#FIELD-NUM-PAGES) | 指定 NUMPAGES 字段。 |
-| [FIELD_NUM_WORDS](#FIELD-NUM-WORDS) | 指定 NUMWORDS 字段。 |
-| [FIELD_OCX](#FIELD-OCX) | 指定 OCX 字段。 |
-| [FIELD_PAGE](#FIELD-PAGE) | 指定 PAGE 字段。 |
-| [FIELD_PAGE_REF](#FIELD-PAGE-REF) | 指定 PAGEREF 字段。 |
-| [FIELD_PRINT](#FIELD-PRINT) | 指定打印字段。 |
-| [FIELD_PRINT_DATE](#FIELD-PRINT-DATE) | 指定 PRINTDATE 字段。 |
-| [FIELD_PRIVATE](#FIELD-PRIVATE) | 指定 PRIVATE 字段。 |
-| [FIELD_QUOTE](#FIELD-QUOTE) | 指定 QUOTE 字段。 |
-| [FIELD_REF](#FIELD-REF) | 指定 REF 字段。 |
-| [FIELD_REF_DOC](#FIELD-REF-DOC) | 指定 RD 字段。 |
-| [FIELD_REF_NO_KEYWORD](#FIELD-REF-NO-KEYWORD) | 指定该字段表示已省略关键字的 REF 字段。 |
-| [FIELD_REVISION_NUM](#FIELD-REVISION-NUM) | 指定 REVNUM 字段。 |
-| [FIELD_SAVE_DATE](#FIELD-SAVE-DATE) | 指定 SAVEDATE 字段。 |
-| [FIELD_SECTION](#FIELD-SECTION) | 指定 SECTION 字段。 |
-| [FIELD_SECTION_PAGES](#FIELD-SECTION-PAGES) | 指定 SECTIONPAGES 字段。 |
-| [FIELD_SEQUENCE](#FIELD-SEQUENCE) | 指定 SEQ 字段。 |
-| [FIELD_SET](#FIELD-SET) | 指定 SET 字段。 |
-| [FIELD_SHAPE](#FIELD-SHAPE) | 指定形状字段。 |
-| [FIELD_SKIP_IF](#FIELD-SKIP-IF) | 指定 SKIPIF 字段。 |
-| [FIELD_STYLE_REF](#FIELD-STYLE-REF) | 指定 STYLEREF 字段。 |
-| [FIELD_SUBJECT](#FIELD-SUBJECT) | 指定主题字段。 |
-| [FIELD_SYMBOL](#FIELD-SYMBOL) | 指定符号字段。 |
-| [FIELD_TEMPLATE](#FIELD-TEMPLATE) | 指定模板字段。 |
-| [FIELD_TIME](#FIELD-TIME) | 指定时间字段。 |
-| [FIELD_TITLE](#FIELD-TITLE) | 指定 TITLE 字段。 |
-| [FIELD_TOA](#FIELD-TOA) | 指定 TOA 字段。 |
-| [FIELD_TOA_ENTRY](#FIELD-TOA-ENTRY) | 指定 TA 字段。 |
-| [FIELD_TOC](#FIELD-TOC) | 指定目录字段。 |
-| [FIELD_TOC_ENTRY](#FIELD-TOC-ENTRY) | 指定 TC 字段。 |
-| [FIELD_USER_ADDRESS](#FIELD-USER-ADDRESS) | 指定用户地址字段。 |
-| [FIELD_USER_INITIALS](#FIELD-USER-INITIALS) | 指定 USERINITIALS 字段。 |
-| [FIELD_USER_NAME](#FIELD-USER-NAME) | 指定用户名字段。 |
+| [FIELD_ADDIN](#FIELD-ADDIN) | Specifies the ADDIN field. |
+| [FIELD_ADDRESS_BLOCK](#FIELD-ADDRESS-BLOCK) | Specifies the ADDRESSBLOCK field. |
+| [FIELD_ADVANCE](#FIELD-ADVANCE) | Specifies the ADVANCE field. |
+| [FIELD_ASK](#FIELD-ASK) | Specifies the ASK field. |
+| [FIELD_AUTHOR](#FIELD-AUTHOR) | Specifies the AUTHOR field. |
+| [FIELD_AUTO_NUM](#FIELD-AUTO-NUM) | Specifies the AUTONUM field. |
+| [FIELD_AUTO_NUM_LEGAL](#FIELD-AUTO-NUM-LEGAL) | Specifies the AUTONUMLGL field. |
+| [FIELD_AUTO_NUM_OUTLINE](#FIELD-AUTO-NUM-OUTLINE) | Specifies the AUTONUMOUT field. |
+| [FIELD_AUTO_TEXT](#FIELD-AUTO-TEXT) | Specifies the AUTOTEXT field. |
+| [FIELD_AUTO_TEXT_LIST](#FIELD-AUTO-TEXT-LIST) | Specifies the AUTOTEXTLIST field. |
+| [FIELD_BARCODE](#FIELD-BARCODE) | Specifies the BARCODE field. |
+| [FIELD_BIBLIOGRAPHY](#FIELD-BIBLIOGRAPHY) | Specifies the BIBLIOGRAPHY field. |
+| [FIELD_BIDI_OUTLINE](#FIELD-BIDI-OUTLINE) | Specifies the BIDIOUTLINE field. |
+| [FIELD_CANNOT_PARSE](#FIELD-CANNOT-PARSE) | Specifies that the field was unable to be parsed. |
+| [FIELD_CITATION](#FIELD-CITATION) | Specifies the CITATION field. |
+| [FIELD_COMMENTS](#FIELD-COMMENTS) | Specifies the COMMENTS field. |
+| [FIELD_COMPARE](#FIELD-COMPARE) | Specifies the COMPARE field. |
+| [FIELD_CREATE_DATE](#FIELD-CREATE-DATE) | Specifies the CREATEDATE field. |
+| [FIELD_DATA](#FIELD-DATA) | Specifies the DATA field. |
+| [FIELD_DATABASE](#FIELD-DATABASE) | Specifies the DATABASE field. |
+| [FIELD_DATE](#FIELD-DATE) | Specifies the DATE field. |
+| [FIELD_DDE](#FIELD-DDE) | Specifies the DDE field. |
+| [FIELD_DDE_AUTO](#FIELD-DDE-AUTO) | Specifies the DDEAUTO field. |
+| [FIELD_DISPLAY_BARCODE](#FIELD-DISPLAY-BARCODE) | Specifies the DISPLAYBARCODE field. |
+| [FIELD_DOC_PROPERTY](#FIELD-DOC-PROPERTY) | Specifies the DOCPROPERTY field. |
+| [FIELD_DOC_VARIABLE](#FIELD-DOC-VARIABLE) | Specifies the DOCVARIABLE field. |
+| [FIELD_EDIT_TIME](#FIELD-EDIT-TIME) | Specifies the EDITTIME field. |
+| [FIELD_EMBED](#FIELD-EMBED) | Specifies the EMBED field. |
+| [FIELD_EQUATION](#FIELD-EQUATION) | Specifies the EQ field. |
+| [FIELD_FILE_NAME](#FIELD-FILE-NAME) | Specifies the FILENAME field. |
+| [FIELD_FILE_SIZE](#FIELD-FILE-SIZE) | Specifies the FILESIZE field. |
+| [FIELD_FILL_IN](#FIELD-FILL-IN) | Specifies the FILLIN field. |
+| [FIELD_FOOTNOTE_REF](#FIELD-FOOTNOTE-REF) | Specifies the FOOTNOTEREF field. |
+| [FIELD_FORMULA](#FIELD-FORMULA) | Specifies the = (formula) field. |
+| [FIELD_FORM_CHECK_BOX](#FIELD-FORM-CHECK-BOX) | Specifies the FORMCHECKBOX field. |
+| [FIELD_FORM_DROP_DOWN](#FIELD-FORM-DROP-DOWN) | Specifies the FORMDROPDOWN field. |
+| [FIELD_FORM_TEXT_INPUT](#FIELD-FORM-TEXT-INPUT) | Specifies the FORMTEXT field. |
+| [FIELD_GLOSSARY](#FIELD-GLOSSARY) | Specifies the GLOSSARY field. |
+| [FIELD_GO_TO_BUTTON](#FIELD-GO-TO-BUTTON) | Specifies the GOTOBUTTON field. |
+| [FIELD_GREETING_LINE](#FIELD-GREETING-LINE) | Specifies the GREETINGLINE field. |
+| [FIELD_HTML_ACTIVE_X](#FIELD-HTML-ACTIVE-X) | Specifies the field that represents an HTML control. |
+| [FIELD_HYPERLINK](#FIELD-HYPERLINK) | Specifies the HYPERLINK field. |
+| [FIELD_IF](#FIELD-IF) | Specifies the IF field. |
+| [FIELD_IMPORT](#FIELD-IMPORT) | Specifies the IMPORT field. |
+| [FIELD_INCLUDE](#FIELD-INCLUDE) | Specifies the INCLUDE field. |
+| [FIELD_INCLUDE_PICTURE](#FIELD-INCLUDE-PICTURE) | Specifies the INCLUDEPICTURE field. |
+| [FIELD_INCLUDE_TEXT](#FIELD-INCLUDE-TEXT) | Specifies the INCLUDETEXT field. |
+| [FIELD_INDEX](#FIELD-INDEX) | Specifies the INDEX field. |
+| [FIELD_INDEX_ENTRY](#FIELD-INDEX-ENTRY) | Specifies the XE field. |
+| [FIELD_INFO](#FIELD-INFO) | Specifies the INFO field. |
+| [FIELD_KEYWORD](#FIELD-KEYWORD) | Specifies the KEYWORDS field. |
+| [FIELD_LAST_SAVED_BY](#FIELD-LAST-SAVED-BY) | Specifies the LASTSAVEDBY field. |
+| [FIELD_LINK](#FIELD-LINK) | Specifies the LINK field. |
+| [FIELD_LIST_NUM](#FIELD-LIST-NUM) | Specifies the LISTNUM field. |
+| [FIELD_MACRO_BUTTON](#FIELD-MACRO-BUTTON) | Specifies the MACROBUTTON field. |
+| [FIELD_MERGE_BARCODE](#FIELD-MERGE-BARCODE) | Specifies the MERGEBARCODE field. |
+| [FIELD_MERGE_FIELD](#FIELD-MERGE-FIELD) | Specifies the MERGEFIELD field. |
+| [FIELD_MERGE_REC](#FIELD-MERGE-REC) | Specifies the MERGEREC field. |
+| [FIELD_MERGE_SEQ](#FIELD-MERGE-SEQ) | Specifies the MERGESEQ field. |
+| [FIELD_NEXT](#FIELD-NEXT) | Specifies the NEXT field. |
+| [FIELD_NEXT_IF](#FIELD-NEXT-IF) | Specifies the NEXTIF field. |
+| [FIELD_NONE](#FIELD-NONE) | Field type is not specified or unknown. |
+| [FIELD_NOTE_REF](#FIELD-NOTE-REF) | Specifies the NOTEREF field. |
+| [FIELD_NUM_CHARS](#FIELD-NUM-CHARS) | Specifies the NUMCHARS field. |
+| [FIELD_NUM_PAGES](#FIELD-NUM-PAGES) | Specifies the NUMPAGES field. |
+| [FIELD_NUM_WORDS](#FIELD-NUM-WORDS) | Specifies the NUMWORDS field. |
+| [FIELD_OCX](#FIELD-OCX) | Specifies the OCX field. |
+| [FIELD_PAGE](#FIELD-PAGE) | Specifies the PAGE field. |
+| [FIELD_PAGE_REF](#FIELD-PAGE-REF) | Specifies the PAGEREF field. |
+| [FIELD_PRINT](#FIELD-PRINT) | Specifies the PRINT field. |
+| [FIELD_PRINT_DATE](#FIELD-PRINT-DATE) | Specifies the PRINTDATE field. |
+| [FIELD_PRIVATE](#FIELD-PRIVATE) | Specifies the PRIVATE field. |
+| [FIELD_QUOTE](#FIELD-QUOTE) | Specifies the QUOTE field. |
+| [FIELD_REF](#FIELD-REF) | Specifies the REF field. |
+| [FIELD_REF_DOC](#FIELD-REF-DOC) | Specifies the RD field. |
+| [FIELD_REF_NO_KEYWORD](#FIELD-REF-NO-KEYWORD) | Specifies that the field represents a REF field where the keyword has been omitted. |
+| [FIELD_REVISION_NUM](#FIELD-REVISION-NUM) | Specifies the REVNUM field. |
+| [FIELD_SAVE_DATE](#FIELD-SAVE-DATE) | Specifies the SAVEDATE field. |
+| [FIELD_SECTION](#FIELD-SECTION) | Specifies the SECTION field. |
+| [FIELD_SECTION_PAGES](#FIELD-SECTION-PAGES) | Specifies the SECTIONPAGES field. |
+| [FIELD_SEQUENCE](#FIELD-SEQUENCE) | Specifies the SEQ field. |
+| [FIELD_SET](#FIELD-SET) | Specifies the SET field. |
+| [FIELD_SHAPE](#FIELD-SHAPE) | Specifies the SHAPE field. |
+| [FIELD_SKIP_IF](#FIELD-SKIP-IF) | Specifies the SKIPIF field. |
+| [FIELD_STYLE_REF](#FIELD-STYLE-REF) | Specifies the STYLEREF field. |
+| [FIELD_SUBJECT](#FIELD-SUBJECT) | Specifies the SUBJECT field. |
+| [FIELD_SYMBOL](#FIELD-SYMBOL) | Specifies the SYMBOL field. |
+| [FIELD_TEMPLATE](#FIELD-TEMPLATE) | Specifies the TEMPLATE field. |
+| [FIELD_TIME](#FIELD-TIME) | Specifies the TIME field. |
+| [FIELD_TITLE](#FIELD-TITLE) | Specifies the TITLE field. |
+| [FIELD_TOA](#FIELD-TOA) | Specifies the TOA field. |
+| [FIELD_TOA_ENTRY](#FIELD-TOA-ENTRY) | Specifies the TA field. |
+| [FIELD_TOC](#FIELD-TOC) | Specifies the TOC field. |
+| [FIELD_TOC_ENTRY](#FIELD-TOC-ENTRY) | Specifies the TC field. |
+| [FIELD_USER_ADDRESS](#FIELD-USER-ADDRESS) | Specifies the USERADDRESS field. |
+| [FIELD_USER_INITIALS](#FIELD-USER-INITIALS) | Specifies the USERINITIALS field. |
+| [FIELD_USER_NAME](#FIELD-USER-NAME) | Specifies the USERNAME field. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String field类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int field类型)](#getName-int-) |  |
+| [fromName(String fieldTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int fieldType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int field类型)](#toString-int-) |  |
+| [toString(int fieldType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -139,7 +139,7 @@ public static int FIELD_ADDIN
 ```
 
 
-指定 ADDIN 字段。
+Specifies the ADDIN field.
 
 ### FIELD_ADDRESS_BLOCK {#FIELD-ADDRESS-BLOCK}
 ```
@@ -147,7 +147,7 @@ public static int FIELD_ADDRESS_BLOCK
 ```
 
 
-指定 ADDRESSBLOCK 字段。
+Specifies the ADDRESSBLOCK field.
 
 ### FIELD_ADVANCE {#FIELD-ADVANCE}
 ```
@@ -155,7 +155,7 @@ public static int FIELD_ADVANCE
 ```
 
 
-指定 ADVANCE 字段。
+Specifies the ADVANCE field.
 
 ### FIELD_ASK {#FIELD-ASK}
 ```
@@ -163,7 +163,7 @@ public static int FIELD_ASK
 ```
 
 
-指定 ASK 字段。
+Specifies the ASK field.
 
 ### FIELD_AUTHOR {#FIELD-AUTHOR}
 ```
@@ -171,7 +171,7 @@ public static int FIELD_AUTHOR
 ```
 
 
-指定作者字段。
+Specifies the AUTHOR field.
 
 ### FIELD_AUTO_NUM {#FIELD-AUTO-NUM}
 ```
@@ -179,7 +179,7 @@ public static int FIELD_AUTO_NUM
 ```
 
 
-指定 AUTONUM 字段。
+Specifies the AUTONUM field.
 
 ### FIELD_AUTO_NUM_LEGAL {#FIELD-AUTO-NUM-LEGAL}
 ```
@@ -187,7 +187,7 @@ public static int FIELD_AUTO_NUM_LEGAL
 ```
 
 
-指定 AUTONUMLGL 字段。
+Specifies the AUTONUMLGL field.
 
 ### FIELD_AUTO_NUM_OUTLINE {#FIELD-AUTO-NUM-OUTLINE}
 ```
@@ -195,7 +195,7 @@ public static int FIELD_AUTO_NUM_OUTLINE
 ```
 
 
-指定 AUTONUMOUT 字段。
+Specifies the AUTONUMOUT field.
 
 ### FIELD_AUTO_TEXT {#FIELD-AUTO-TEXT}
 ```
@@ -203,7 +203,7 @@ public static int FIELD_AUTO_TEXT
 ```
 
 
-指定自动文本字段。
+Specifies the AUTOTEXT field.
 
 ### FIELD_AUTO_TEXT_LIST {#FIELD-AUTO-TEXT-LIST}
 ```
@@ -211,7 +211,7 @@ public static int FIELD_AUTO_TEXT_LIST
 ```
 
 
-指定 AUTOTEXTLIST 字段。
+Specifies the AUTOTEXTLIST field.
 
 ### FIELD_BARCODE {#FIELD-BARCODE}
 ```
@@ -219,7 +219,7 @@ public static int FIELD_BARCODE
 ```
 
 
-指定条形码字段。
+Specifies the BARCODE field.
 
 ### FIELD_BIBLIOGRAPHY {#FIELD-BIBLIOGRAPHY}
 ```
@@ -227,7 +227,7 @@ public static int FIELD_BIBLIOGRAPHY
 ```
 
 
-指定书目字段。
+Specifies the BIBLIOGRAPHY field.
 
 ### FIELD_BIDI_OUTLINE {#FIELD-BIDI-OUTLINE}
 ```
@@ -235,7 +235,7 @@ public static int FIELD_BIDI_OUTLINE
 ```
 
 
-指定 BIDIOUTLINE 字段。
+Specifies the BIDIOUTLINE field.
 
 ### FIELD_CANNOT_PARSE {#FIELD-CANNOT-PARSE}
 ```
@@ -243,7 +243,7 @@ public static int FIELD_CANNOT_PARSE
 ```
 
 
-指定无法解析该字段。
+Specifies that the field was unable to be parsed.
 
 ### FIELD_CITATION {#FIELD-CITATION}
 ```
@@ -251,7 +251,7 @@ public static int FIELD_CITATION
 ```
 
 
-指定引文字段。
+Specifies the CITATION field.
 
 ### FIELD_COMMENTS {#FIELD-COMMENTS}
 ```
@@ -259,7 +259,7 @@ public static int FIELD_COMMENTS
 ```
 
 
-指定 COMMENTS 字段。
+Specifies the COMMENTS field.
 
 ### FIELD_COMPARE {#FIELD-COMPARE}
 ```
@@ -267,7 +267,7 @@ public static int FIELD_COMPARE
 ```
 
 
-指定比较字段。
+Specifies the COMPARE field.
 
 ### FIELD_CREATE_DATE {#FIELD-CREATE-DATE}
 ```
@@ -275,7 +275,7 @@ public static int FIELD_CREATE_DATE
 ```
 
 
-指定 CREATEDATE 字段。
+Specifies the CREATEDATE field.
 
 ### FIELD_DATA {#FIELD-DATA}
 ```
@@ -283,7 +283,7 @@ public static int FIELD_DATA
 ```
 
 
-指定 DATA 字段。
+Specifies the DATA field.
 
 ### FIELD_DATABASE {#FIELD-DATABASE}
 ```
@@ -291,7 +291,7 @@ public static int FIELD_DATABASE
 ```
 
 
-指定数据库字段。
+Specifies the DATABASE field.
 
 ### FIELD_DATE {#FIELD-DATE}
 ```
@@ -299,7 +299,7 @@ public static int FIELD_DATE
 ```
 
 
-指定日期字段。
+Specifies the DATE field.
 
 ### FIELD_DDE {#FIELD-DDE}
 ```
@@ -307,7 +307,7 @@ public static int FIELD_DDE
 ```
 
 
-指定 DDE 字段。
+Specifies the DDE field.
 
 ### FIELD_DDE_AUTO {#FIELD-DDE-AUTO}
 ```
@@ -315,7 +315,7 @@ public static int FIELD_DDE_AUTO
 ```
 
 
-指定 DDEAUTO 字段。
+Specifies the DDEAUTO field.
 
 ### FIELD_DISPLAY_BARCODE {#FIELD-DISPLAY-BARCODE}
 ```
@@ -323,7 +323,7 @@ public static int FIELD_DISPLAY_BARCODE
 ```
 
 
-指定 DISPLAYBARCODE 字段。
+Specifies the DISPLAYBARCODE field.
 
 ### FIELD_DOC_PROPERTY {#FIELD-DOC-PROPERTY}
 ```
@@ -331,7 +331,7 @@ public static int FIELD_DOC_PROPERTY
 ```
 
 
-指定 DOCPROPERTY 字段。
+Specifies the DOCPROPERTY field.
 
 ### FIELD_DOC_VARIABLE {#FIELD-DOC-VARIABLE}
 ```
@@ -339,7 +339,7 @@ public static int FIELD_DOC_VARIABLE
 ```
 
 
-指定 DOCVARIABLE 字段。
+Specifies the DOCVARIABLE field.
 
 ### FIELD_EDIT_TIME {#FIELD-EDIT-TIME}
 ```
@@ -347,7 +347,7 @@ public static int FIELD_EDIT_TIME
 ```
 
 
-指定 EDITTIME 字段。
+Specifies the EDITTIME field.
 
 ### FIELD_EMBED {#FIELD-EMBED}
 ```
@@ -355,7 +355,7 @@ public static int FIELD_EMBED
 ```
 
 
-指定嵌入字段。
+Specifies the EMBED field.
 
 ### FIELD_EQUATION {#FIELD-EQUATION}
 ```
@@ -363,7 +363,7 @@ public static int FIELD_EQUATION
 ```
 
 
-指定 EQ 字段。
+Specifies the EQ field.
 
 ### FIELD_FILE_NAME {#FIELD-FILE-NAME}
 ```
@@ -371,7 +371,7 @@ public static int FIELD_FILE_NAME
 ```
 
 
-指定文件名字段。
+Specifies the FILENAME field.
 
 ### FIELD_FILE_SIZE {#FIELD-FILE-SIZE}
 ```
@@ -379,7 +379,7 @@ public static int FIELD_FILE_SIZE
 ```
 
 
-指定文件大小字段。
+Specifies the FILESIZE field.
 
 ### FIELD_FILL_IN {#FIELD-FILL-IN}
 ```
@@ -387,7 +387,7 @@ public static int FIELD_FILL_IN
 ```
 
 
-指定 FILLIN 字段。
+Specifies the FILLIN field.
 
 ### FIELD_FOOTNOTE_REF {#FIELD-FOOTNOTE-REF}
 ```
@@ -395,7 +395,7 @@ public static int FIELD_FOOTNOTE_REF
 ```
 
 
-指定 FOOTNOTEREF 字段。
+Specifies the FOOTNOTEREF field.
 
 ### FIELD_FORMULA {#FIELD-FORMULA}
 ```
@@ -403,7 +403,7 @@ public static int FIELD_FORMULA
 ```
 
 
-指定 =（公式）字段。
+Specifies the = (formula) field.
 
 ### FIELD_FORM_CHECK_BOX {#FIELD-FORM-CHECK-BOX}
 ```
@@ -411,7 +411,7 @@ public static int FIELD_FORM_CHECK_BOX
 ```
 
 
-指定 FORMCHECKBOX 字段。
+Specifies the FORMCHECKBOX field.
 
 ### FIELD_FORM_DROP_DOWN {#FIELD-FORM-DROP-DOWN}
 ```
@@ -419,7 +419,7 @@ public static int FIELD_FORM_DROP_DOWN
 ```
 
 
-指定 FORMDROPDOWN 字段。
+Specifies the FORMDROPDOWN field.
 
 ### FIELD_FORM_TEXT_INPUT {#FIELD-FORM-TEXT-INPUT}
 ```
@@ -427,7 +427,7 @@ public static int FIELD_FORM_TEXT_INPUT
 ```
 
 
-指定 FORMTEXT 字段。
+Specifies the FORMTEXT field.
 
 ### FIELD_GLOSSARY {#FIELD-GLOSSARY}
 ```
@@ -435,7 +435,7 @@ public static int FIELD_GLOSSARY
 ```
 
 
-指定 GLOSSARY 字段。
+Specifies the GLOSSARY field.
 
 ### FIELD_GO_TO_BUTTON {#FIELD-GO-TO-BUTTON}
 ```
@@ -443,7 +443,7 @@ public static int FIELD_GO_TO_BUTTON
 ```
 
 
-指定 GOTOBUTTON 字段。
+Specifies the GOTOBUTTON field.
 
 ### FIELD_GREETING_LINE {#FIELD-GREETING-LINE}
 ```
@@ -451,7 +451,7 @@ public static int FIELD_GREETING_LINE
 ```
 
 
-指定GREETINGLINE 字段。
+Specifies the GREETINGLINE field.
 
 ### FIELD_HTML_ACTIVE_X {#FIELD-HTML-ACTIVE-X}
 ```
@@ -459,7 +459,7 @@ public static int FIELD_HTML_ACTIVE_X
 ```
 
 
-指定表示 HTML 控件的字段。
+Specifies the field that represents an HTML control.
 
 ### FIELD_HYPERLINK {#FIELD-HYPERLINK}
 ```
@@ -467,7 +467,7 @@ public static int FIELD_HYPERLINK
 ```
 
 
-指定 HYPERLINK 字段。
+Specifies the HYPERLINK field.
 
 ### FIELD_IF {#FIELD-IF}
 ```
@@ -475,7 +475,7 @@ public static int FIELD_IF
 ```
 
 
-指定 IF 字段。
+Specifies the IF field.
 
 ### FIELD_IMPORT {#FIELD-IMPORT}
 ```
@@ -483,7 +483,7 @@ public static int FIELD_IMPORT
 ```
 
 
-指定导入字段。
+Specifies the IMPORT field.
 
 ### FIELD_INCLUDE {#FIELD-INCLUDE}
 ```
@@ -491,7 +491,7 @@ public static int FIELD_INCLUDE
 ```
 
 
-指定 INCLUDE 字段。
+Specifies the INCLUDE field.
 
 ### FIELD_INCLUDE_PICTURE {#FIELD-INCLUDE-PICTURE}
 ```
@@ -499,7 +499,7 @@ public static int FIELD_INCLUDE_PICTURE
 ```
 
 
-指定 INCLUDEPICTURE 字段。
+Specifies the INCLUDEPICTURE field.
 
 ### FIELD_INCLUDE_TEXT {#FIELD-INCLUDE-TEXT}
 ```
@@ -507,7 +507,7 @@ public static int FIELD_INCLUDE_TEXT
 ```
 
 
-指定 INCLUDETEXT 字段。
+Specifies the INCLUDETEXT field.
 
 ### FIELD_INDEX {#FIELD-INDEX}
 ```
@@ -515,7 +515,7 @@ public static int FIELD_INDEX
 ```
 
 
-指定索引字段。
+Specifies the INDEX field.
 
 ### FIELD_INDEX_ENTRY {#FIELD-INDEX-ENTRY}
 ```
@@ -523,7 +523,7 @@ public static int FIELD_INDEX_ENTRY
 ```
 
 
-指定 XE 字段。
+Specifies the XE field.
 
 ### FIELD_INFO {#FIELD-INFO}
 ```
@@ -531,7 +531,7 @@ public static int FIELD_INFO
 ```
 
 
-指定 INFO 字段。
+Specifies the INFO field.
 
 ### FIELD_KEYWORD {#FIELD-KEYWORD}
 ```
@@ -539,7 +539,7 @@ public static int FIELD_KEYWORD
 ```
 
 
-指定关键字字段。
+Specifies the KEYWORDS field.
 
 ### FIELD_LAST_SAVED_BY {#FIELD-LAST-SAVED-BY}
 ```
@@ -547,7 +547,7 @@ public static int FIELD_LAST_SAVED_BY
 ```
 
 
-指定 LASTSAVEDBY 字段。
+Specifies the LASTSAVEDBY field.
 
 ### FIELD_LINK {#FIELD-LINK}
 ```
@@ -555,7 +555,7 @@ public static int FIELD_LINK
 ```
 
 
-指定 LINK 字段。
+Specifies the LINK field.
 
 ### FIELD_LIST_NUM {#FIELD-LIST-NUM}
 ```
@@ -563,7 +563,7 @@ public static int FIELD_LIST_NUM
 ```
 
 
-指定 LISTNUM 字段。
+Specifies the LISTNUM field.
 
 ### FIELD_MACRO_BUTTON {#FIELD-MACRO-BUTTON}
 ```
@@ -571,7 +571,7 @@ public static int FIELD_MACRO_BUTTON
 ```
 
 
-指定 MACROBUTTON 字段。
+Specifies the MACROBUTTON field.
 
 ### FIELD_MERGE_BARCODE {#FIELD-MERGE-BARCODE}
 ```
@@ -579,7 +579,7 @@ public static int FIELD_MERGE_BARCODE
 ```
 
 
-指定 MERGEBARCODE 字段。
+Specifies the MERGEBARCODE field.
 
 ### FIELD_MERGE_FIELD {#FIELD-MERGE-FIELD}
 ```
@@ -587,7 +587,7 @@ public static int FIELD_MERGE_FIELD
 ```
 
 
-指定 MERGEFIELD 字段。
+Specifies the MERGEFIELD field.
 
 ### FIELD_MERGE_REC {#FIELD-MERGE-REC}
 ```
@@ -595,7 +595,7 @@ public static int FIELD_MERGE_REC
 ```
 
 
-指定 MERGEREC 字段。
+Specifies the MERGEREC field.
 
 ### FIELD_MERGE_SEQ {#FIELD-MERGE-SEQ}
 ```
@@ -603,7 +603,7 @@ public static int FIELD_MERGE_SEQ
 ```
 
 
-指定 MERGESEQ 字段。
+Specifies the MERGESEQ field.
 
 ### FIELD_NEXT {#FIELD-NEXT}
 ```
@@ -611,7 +611,7 @@ public static int FIELD_NEXT
 ```
 
 
-指定 NEXT 字段。
+Specifies the NEXT field.
 
 ### FIELD_NEXT_IF {#FIELD-NEXT-IF}
 ```
@@ -619,7 +619,7 @@ public static int FIELD_NEXT_IF
 ```
 
 
-指定 NEXTIF 字段。
+Specifies the NEXTIF field.
 
 ### FIELD_NONE {#FIELD-NONE}
 ```
@@ -627,7 +627,7 @@ public static int FIELD_NONE
 ```
 
 
-字段类型未指定或未知。
+Field type is not specified or unknown.
 
 ### FIELD_NOTE_REF {#FIELD-NOTE-REF}
 ```
@@ -635,7 +635,7 @@ public static int FIELD_NOTE_REF
 ```
 
 
-指定 NOTEREF 字段。
+Specifies the NOTEREF field.
 
 ### FIELD_NUM_CHARS {#FIELD-NUM-CHARS}
 ```
@@ -643,7 +643,7 @@ public static int FIELD_NUM_CHARS
 ```
 
 
-指定 NUMCHARS 字段。
+Specifies the NUMCHARS field.
 
 ### FIELD_NUM_PAGES {#FIELD-NUM-PAGES}
 ```
@@ -651,7 +651,7 @@ public static int FIELD_NUM_PAGES
 ```
 
 
-指定 NUMPAGES 字段。
+Specifies the NUMPAGES field.
 
 ### FIELD_NUM_WORDS {#FIELD-NUM-WORDS}
 ```
@@ -659,7 +659,7 @@ public static int FIELD_NUM_WORDS
 ```
 
 
-指定 NUMWORDS 字段。
+Specifies the NUMWORDS field.
 
 ### FIELD_OCX {#FIELD-OCX}
 ```
@@ -667,9 +667,9 @@ public static int FIELD_OCX
 ```
 
 
-指定 OCX 字段。
+Specifies the OCX field.
 
-通常，Aspose.Words 将 ActiveX 控件表示为[Shape](../../com.aspose.words/shape)对象，但对于某些文档，控件没有数据和/或似乎无效，它将表示为字段。
+Normally, Aspose.Words will represent an ActiveX control as a [Shape](../../com.aspose.words/shape) object, but for some documents, where a control does not have data and/or seems to be invalid, it will be represented as a field.
 
 ### FIELD_PAGE {#FIELD-PAGE}
 ```
@@ -677,7 +677,7 @@ public static int FIELD_PAGE
 ```
 
 
-指定 PAGE 字段。
+Specifies the PAGE field.
 
 ### FIELD_PAGE_REF {#FIELD-PAGE-REF}
 ```
@@ -685,7 +685,7 @@ public static int FIELD_PAGE_REF
 ```
 
 
-指定 PAGEREF 字段。
+Specifies the PAGEREF field.
 
 ### FIELD_PRINT {#FIELD-PRINT}
 ```
@@ -693,7 +693,7 @@ public static int FIELD_PRINT
 ```
 
 
-指定打印字段。
+Specifies the PRINT field.
 
 ### FIELD_PRINT_DATE {#FIELD-PRINT-DATE}
 ```
@@ -701,7 +701,7 @@ public static int FIELD_PRINT_DATE
 ```
 
 
-指定 PRINTDATE 字段。
+Specifies the PRINTDATE field.
 
 ### FIELD_PRIVATE {#FIELD-PRIVATE}
 ```
@@ -709,7 +709,7 @@ public static int FIELD_PRIVATE
 ```
 
 
-指定 PRIVATE 字段。
+Specifies the PRIVATE field.
 
 ### FIELD_QUOTE {#FIELD-QUOTE}
 ```
@@ -717,7 +717,7 @@ public static int FIELD_QUOTE
 ```
 
 
-指定 QUOTE 字段。
+Specifies the QUOTE field.
 
 ### FIELD_REF {#FIELD-REF}
 ```
@@ -725,7 +725,7 @@ public static int FIELD_REF
 ```
 
 
-指定 REF 字段。
+Specifies the REF field.
 
 ### FIELD_REF_DOC {#FIELD-REF-DOC}
 ```
@@ -733,7 +733,7 @@ public static int FIELD_REF_DOC
 ```
 
 
-指定 RD 字段。
+Specifies the RD field.
 
 ### FIELD_REF_NO_KEYWORD {#FIELD-REF-NO-KEYWORD}
 ```
@@ -741,7 +741,7 @@ public static int FIELD_REF_NO_KEYWORD
 ```
 
 
-指定该字段表示已省略关键字的 REF 字段。
+Specifies that the field represents a REF field where the keyword has been omitted.
 
 ### FIELD_REVISION_NUM {#FIELD-REVISION-NUM}
 ```
@@ -749,7 +749,7 @@ public static int FIELD_REVISION_NUM
 ```
 
 
-指定 REVNUM 字段。
+Specifies the REVNUM field.
 
 ### FIELD_SAVE_DATE {#FIELD-SAVE-DATE}
 ```
@@ -757,7 +757,7 @@ public static int FIELD_SAVE_DATE
 ```
 
 
-指定 SAVEDATE 字段。
+Specifies the SAVEDATE field.
 
 ### FIELD_SECTION {#FIELD-SECTION}
 ```
@@ -765,7 +765,7 @@ public static int FIELD_SECTION
 ```
 
 
-指定 SECTION 字段。
+Specifies the SECTION field.
 
 ### FIELD_SECTION_PAGES {#FIELD-SECTION-PAGES}
 ```
@@ -773,7 +773,7 @@ public static int FIELD_SECTION_PAGES
 ```
 
 
-指定 SECTIONPAGES 字段。
+Specifies the SECTIONPAGES field.
 
 ### FIELD_SEQUENCE {#FIELD-SEQUENCE}
 ```
@@ -781,7 +781,7 @@ public static int FIELD_SEQUENCE
 ```
 
 
-指定 SEQ 字段。
+Specifies the SEQ field.
 
 ### FIELD_SET {#FIELD-SET}
 ```
@@ -789,7 +789,7 @@ public static int FIELD_SET
 ```
 
 
-指定 SET 字段。
+Specifies the SET field.
 
 ### FIELD_SHAPE {#FIELD-SHAPE}
 ```
@@ -797,7 +797,7 @@ public static int FIELD_SHAPE
 ```
 
 
-指定形状字段。
+Specifies the SHAPE field.
 
 ### FIELD_SKIP_IF {#FIELD-SKIP-IF}
 ```
@@ -805,7 +805,7 @@ public static int FIELD_SKIP_IF
 ```
 
 
-指定 SKIPIF 字段。
+Specifies the SKIPIF field.
 
 ### FIELD_STYLE_REF {#FIELD-STYLE-REF}
 ```
@@ -813,7 +813,7 @@ public static int FIELD_STYLE_REF
 ```
 
 
-指定 STYLEREF 字段。
+Specifies the STYLEREF field.
 
 ### FIELD_SUBJECT {#FIELD-SUBJECT}
 ```
@@ -821,7 +821,7 @@ public static int FIELD_SUBJECT
 ```
 
 
-指定主题字段。
+Specifies the SUBJECT field.
 
 ### FIELD_SYMBOL {#FIELD-SYMBOL}
 ```
@@ -829,7 +829,7 @@ public static int FIELD_SYMBOL
 ```
 
 
-指定符号字段。
+Specifies the SYMBOL field.
 
 ### FIELD_TEMPLATE {#FIELD-TEMPLATE}
 ```
@@ -837,7 +837,7 @@ public static int FIELD_TEMPLATE
 ```
 
 
-指定模板字段。
+Specifies the TEMPLATE field.
 
 ### FIELD_TIME {#FIELD-TIME}
 ```
@@ -845,7 +845,7 @@ public static int FIELD_TIME
 ```
 
 
-指定时间字段。
+Specifies the TIME field.
 
 ### FIELD_TITLE {#FIELD-TITLE}
 ```
@@ -853,7 +853,7 @@ public static int FIELD_TITLE
 ```
 
 
-指定 TITLE 字段。
+Specifies the TITLE field.
 
 ### FIELD_TOA {#FIELD-TOA}
 ```
@@ -861,7 +861,7 @@ public static int FIELD_TOA
 ```
 
 
-指定 TOA 字段。
+Specifies the TOA field.
 
 ### FIELD_TOA_ENTRY {#FIELD-TOA-ENTRY}
 ```
@@ -869,7 +869,7 @@ public static int FIELD_TOA_ENTRY
 ```
 
 
-指定 TA 字段。
+Specifies the TA field.
 
 ### FIELD_TOC {#FIELD-TOC}
 ```
@@ -877,7 +877,7 @@ public static int FIELD_TOC
 ```
 
 
-指定目录字段。
+Specifies the TOC field.
 
 ### FIELD_TOC_ENTRY {#FIELD-TOC-ENTRY}
 ```
@@ -885,7 +885,7 @@ public static int FIELD_TOC_ENTRY
 ```
 
 
-指定 TC 字段。
+Specifies the TC field.
 
 ### FIELD_USER_ADDRESS {#FIELD-USER-ADDRESS}
 ```
@@ -893,7 +893,7 @@ public static int FIELD_USER_ADDRESS
 ```
 
 
-指定用户地址字段。
+Specifies the USERADDRESS field.
 
 ### FIELD_USER_INITIALS {#FIELD-USER-INITIALS}
 ```
@@ -901,7 +901,7 @@ public static int FIELD_USER_INITIALS
 ```
 
 
-指定 USERINITIALS 字段。
+Specifies the USERINITIALS field.
 
 ### FIELD_USER_NAME {#FIELD-USER-NAME}
 ```
@@ -909,7 +909,7 @@ public static int FIELD_USER_NAME
 ```
 
 
-指定用户名字段。
+Specifies the USERNAME field.
 
 ### length {#length}
 ```
@@ -925,52 +925,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String field类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String fieldTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String field类型Name)
+public static int fromName(String fieldTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| field类型Name | java.lang.String |  |
+| fieldTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int field类型) {#getName-int-}
-```
-public static String getName(int field类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int fieldType) {#getName-int-}
+```
+public static String getName(int fieldType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| field类型 | int |  |
+| fieldType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -980,8 +980,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -990,8 +990,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1016,22 +1016,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int field类型) {#toString-int-}
+### toString(int fieldType) {#toString-int-}
 ```
-public static String toString(int field类型)
+public static String toString(int fieldType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| field类型 | int |  |
+| fieldType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1049,8 +1049,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1062,8 +1062,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

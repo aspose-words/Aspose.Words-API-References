@@ -1,41 +1,41 @@
 ---
 title: TextColumn
 second_title: Aspose.Words for Java API Reference
-description: 表示单个文本列。
+description: Represents a single text column.
 type: docs
 weight: 561
-url: /zh/java/com.aspose.words/textcolumn/
+url: /java/com.aspose.words/textcolumn/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class TextColumn implements Cloneable
 ```
 
-表示单个文本列。**TextColumn**是成员[TextColumnCollection](../../com.aspose.words/textcolumncollection)收藏。这**TextColumns**集合包括文档部分中的所有列。
+Represents a single text column. **TextColumn** is a member of the [TextColumnCollection](../../com.aspose.words/textcolumncollection) collection. The **TextColumns** collection includes all the columns in a section of a document.
 
-要了解更多信息，请访问**Working with Sections**文档文章。
+To learn more, visit the **Working with Sections** documentation article.
 
-**TextColumn**对象仅用于指定具有自定义宽度和间距的列。如果您希望文档中的列等宽，请设置 TextColumns。[TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)至**true**.
+**TextColumn** objects are only used to specify columns with custom width and spacing. If you want the columns in the document to be of equal width, set TextColumns. [TextColumnCollection.getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [TextColumnCollection.setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) to **true**.
 
-当一个新的**TextColumn**创建它的宽度和间距设置为零。
-## 方法s
+When a new **TextColumn** is created it has its width and spacing set to zero.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getSpaceAfter()](#getSpaceAfter--) | 获取此列与下一列之间的空间（以磅为单位）。 |
-| [getWidth()](#getWidth--) | 获取文本列的宽度（以磅为单位）。 |
+| [getClass()](#getClass--) |  |
+| [getSpaceAfter()](#getSpaceAfter--) | Gets the space between this column and the next column in points. |
+| [getWidth()](#getWidth--) | Gets the width of the text column in points. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | 设置此列和下一列之间的间距（以磅为单位）。 |
-| [setWidth(double value)](#setWidth-double-) | 以磅为单位设置文本列的宽度。 |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Sets the space between this column and the next column in points. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the text column in points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,43 +48,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getSpaceAfter() {#getSpaceAfter--}
 ```
 public double getSpaceAfter()
 ```
 
 
-获取此列与下一列之间的空间（以磅为单位）。最后一列不需要。
+Gets the space between this column and the next column in points. Not required for the last column.
 
-**退货:**
-double - 此列与下一列之间的间距（以磅为单位）。
+**Returns:**
+double - The space between this column and the next column in points.
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-获取文本列的宽度（以磅为单位）。
+Gets the width of the text column in points.
 
-**退货:**
-double - 文本列的宽度（以磅为单位）。
+**Returns:**
+double - The width of the text column in points.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -93,8 +93,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -117,12 +117,12 @@ public void setSpaceAfter(double value)
 ```
 
 
-设置此列和下一列之间的间距（以磅为单位）。最后一列不需要。
+Sets the space between this column and the next column in points. Not required for the last column.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 此列与下一列之间的空间（以磅为单位）。 |
+| value | double | The space between this column and the next column in points. |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -130,12 +130,12 @@ public void setWidth(double value)
 ```
 
 
-以磅为单位设置文本列的宽度。
+Sets the width of the text column in points.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 文本列的宽度（以磅为单位）。 |
+| value | double | The width of the text column in points. |
 
 ### toString() {#toString--}
 ```
@@ -145,7 +145,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -163,8 +163,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -176,8 +176,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

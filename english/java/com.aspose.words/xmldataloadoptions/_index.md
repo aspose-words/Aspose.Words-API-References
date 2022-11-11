@@ -1,39 +1,39 @@
 ---
 title: XmlDataLoadOptions
 second_title: Aspose.Words for Java API Reference
-description: 表示 XML 数据加载的选项。
+description: Represents options for XML data loading.
 type: docs
 weight: 627
-url: /zh/java/com.aspose.words/xmldataloadoptions/
+url: /java/com.aspose.words/xmldataloadoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class XmlDataLoadOptions
 ```
 
-表示 XML 数据加载的选项。
+Represents options for XML data loading.
 
-要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
+To learn more, visit the **LINQ Reporting Engine** documentation article.
 
-此类的实例可以传递给[XmlDataSource](../../com.aspose.words/xmldatasource).
-## 构造函数s
+An instance of this class can be passed into constructors of [XmlDataSource](../../com.aspose.words/xmldatasource).
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [XmlDataLoadOptions()](#XmlDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
-## 方法s
+| [XmlDataLoadOptions()](#XmlDataLoadOptions--) | Initializes a new instance of this class with default options. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | 获取一个标志，该标志指示生成的数据源是否将始终包含 XML 根元素的对象。 |
-| [get班级()](#get班级--) |  |
+| [getAlwaysGenerateRootObject()](#getAlwaysGenerateRootObject--) | Gets a flag indicating whether a generated data source will always contain an object for an XML root element. |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | 设置一个标志，指示生成的数据源是否将始终包含 XML 根元素的对象。 |
+| [setAlwaysGenerateRootObject(boolean value)](#setAlwaysGenerateRootObject-boolean-) | Sets a flag indicating whether a generated data source will always contain an object for an XML root element. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,7 +44,7 @@ public XmlDataLoadOptions()
 ```
 
 
-使用默认选项初始化此类的新实例。
+Initializes a new instance of this class with default options.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -54,33 +54,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAlwaysGenerateRootObject() {#getAlwaysGenerateRootObject--}
 ```
 public boolean getAlwaysGenerateRootObject()
 ```
 
 
-获取一个标志，该标志指示生成的数据源是否将始终包含 XML 根元素的对象。如果一个 XML 根元素没有属性并且它的所有子元素都具有相同的名称，则默认情况下不会创建这样的对象。默认值为**false**.
+Gets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is **false**.
 
-**退货:**
-boolean - 一个标志，指示生成的数据源是否将始终包含 XML 根元素的对象。
-### get班级() {#get班级--}
+**Returns:**
+boolean - A flag indicating whether a generated data source will always contain an object for an XML root element.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -89,8 +89,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -113,12 +113,12 @@ public void setAlwaysGenerateRootObject(boolean value)
 ```
 
 
-设置一个标志，指示生成的数据源是否将始终包含 XML 根元素的对象。如果一个 XML 根元素没有属性并且它的所有子元素都具有相同的名称，则默认情况下不会创建这样的对象。默认值为**false**.
+Sets a flag indicating whether a generated data source will always contain an object for an XML root element. If an XML root element has no attributes and all its child elements have same names, such an object is not created by default. The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个标志，指示生成的数据源是否将始终包含 XML 根元素的对象。 |
+| value | boolean | A flag indicating whether a generated data source will always contain an object for an XML root element. |
 
 ### toString() {#toString--}
 ```
@@ -128,7 +128,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -146,8 +146,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -159,8 +159,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

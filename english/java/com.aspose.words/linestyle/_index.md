@@ -1,22 +1,22 @@
 ---
 title: LineStyle
-second_title: Aspose.Words for Java API 参考
-description: 指定 .
+second_title: Aspose.Words for Java API Reference
+description: Specifies line style of a .
 type: docs
 weight: 367
-url: /zh/java/com.aspose.words/linestyle/
+url: /java/com.aspose.words/linestyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LineStyle
 ```
 
-指定 a 的线型[Border](../../com.aspose.words/border).
-## 字段
+Specifies line style of a [Border](../../com.aspose.words/border).
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [DASH_DOT_STROKER](#DASH-DOT-STROKER) |  |
 | [DASH_LARGE_GAP](#DASH-LARGE-GAP) |  |
@@ -46,13 +46,13 @@ public class LineStyle
 | [TRIPLE](#TRIPLE) |  |
 | [WAVE](#WAVE) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String lineStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int lineStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -293,13 +293,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String lineStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String lineStyleName)
@@ -308,23 +308,23 @@ public static int fromName(String lineStyleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineStyleName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int lineStyle) {#getName-int-}
 ```
 public static String getName(int lineStyle)
@@ -333,12 +333,12 @@ public static String getName(int lineStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -348,8 +348,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -358,8 +358,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -384,7 +384,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int lineStyle) {#toString-int-}
 ```
@@ -394,12 +394,12 @@ public static String toString(int lineStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -417,8 +417,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -430,8 +430,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

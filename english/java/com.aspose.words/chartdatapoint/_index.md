@@ -1,37 +1,37 @@
 ---
 title: ChartDataPoint
-second_title: Aspose.Words for Java API 参考
-description: 允许指定图表上单个数据点的格式。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify formatting of a single data point on the chart.
 type: docs
 weight: 60
-url: /zh/java/com.aspose.words/chartdatapoint/
+url: /java/com.aspose.words/chartdatapoint/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 [com.aspose.words.IChartDataPoint](../../com.aspose.words/ichartdatapoint), java.lang.Cloneable
 ```
 public class ChartDataPoint implements IChartDataPoint, Cloneable
 ```
 
-允许指定图表上单个数据点的格式。
+Allows to specify formatting of a single data point on the chart.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
+To learn more, visit the **Working with Charts** documentation article.
 
-在一个系列中，[ChartDataPoint](../../com.aspose.words/chartdatapoint)对象是[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection).这[ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection)包含一个[ChartDataPoint](../../com.aspose.words/chartdatapoint)每个点的对象。
-## 方法s
+On a series, the [ChartDataPoint](../../com.aspose.words/chartdatapoint) object is a member of the [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection). The [ChartDataPointCollection](../../com.aspose.words/chartdatapointcollection) contains a [ChartDataPoint](../../com.aspose.words/chartdatapoint) object for each point.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormat()](#clearFormat--) | 清除此数据点的格式。 |
+| [clearFormat()](#clearFormat--) | Clears format of this data point. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [getBubble3D()](#getBubble3D--) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getExplosion()](#getExplosion--) |  |
-| [getFormat()](#getFormat--) | 提供对此数据点的填充和线条格式的访问。 |
-| [getIndex()](#getIndex--) | 此对象对其应用格式设置的数据点的索引。 |
+| [getFormat()](#getFormat--) | Provides access to fill and line formatting of this data point. |
+| [getIndex()](#getIndex--) | Index of the data point this object applies formatting to. |
 | [getInvertIfNegative()](#getInvertIfNegative--) |  |
 | [getMarker()](#getMarker--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -51,7 +51,7 @@ public void clearFormat()
 ```
 
 
-清除此数据点的格式。属性设置为父系列中定义的默认值。
+Clears format of this data point. The properties are set to the default values defined in the parent series.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -61,82 +61,82 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBubble3D() {#getBubble3D--}
 ```
 public boolean getBubble3D()
 ```
 
 
-指定气泡图中的气泡是否应应用 3-D 效果。
+Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getExplosion() {#getExplosion--}
 ```
 public int getExplosion()
 ```
 
 
-指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
+Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
-**退货:**
-整数
+**Returns:**
+int
 ### getFormat() {#getFormat--}
 ```
 public ChartFormat getFormat()
 ```
 
 
-提供对此数据点的填充和线条格式的访问。
+Provides access to fill and line formatting of this data point.
 
-**退货:**
-[ChartFormat](../../com.aspose.words/chartformat) - 相应的[ChartFormat](../../com.aspose.words/chartformat)价值。
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
 ### getIndex() {#getIndex--}
 ```
 public int getIndex()
 ```
 
 
-此对象对其应用格式设置的数据点的索引。
+Index of the data point this object applies formatting to.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getInvertIfNegative() {#getInvertIfNegative--}
 ```
 public boolean getInvertIfNegative()
 ```
 
 
-指定如果值为负数，父元素是否应反转其颜色。
+Specifies whether the parent element shall inverts its colors if the value is negative.
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getMarker() {#getMarker--}
 ```
 public ChartMarker getMarker()
 ```
 
 
-指定数据标记。请求时会自动创建标记。
+Specifies a data marker. Marker is automatically created when requested.
 
-**退货:**
+**Returns:**
 [ChartMarker](../../com.aspose.words/chartmarker)
 ### hashCode() {#hashCode--}
 ```
@@ -146,8 +146,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### materializeSpPr() {#materializeSpPr--}
 ```
 public void materializeSpPr()
@@ -178,10 +178,10 @@ public void setBubble3D(boolean value)
 ```
 
 
-指定气泡图中的气泡是否应应用 3-D 效果。
+Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -191,10 +191,10 @@ public void setExplosion(int value)
 ```
 
 
-指定数据点应从饼图中心移动的量。可以为负数，负数表示未设置属性且不应应用爆炸。仅适用于饼图。
+Specifies the amount the data point shall be moved from the center of the pie. Can be negative, negative means that property is not set and no explosion should be applied. Applies only to Pie charts.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -204,10 +204,10 @@ public void setInvertIfNegative(boolean value)
 ```
 
 
-指定如果值为负数，父元素是否应反转其颜色。
+Specifies whether the parent element shall inverts its colors if the value is negative.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -219,7 +219,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,8 +250,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

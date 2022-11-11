@@ -1,38 +1,38 @@
 ---
 title: DigitalSignature
-second_title: Aspose.Words for Java API 参考
-description: 表示文档上的数字签名及其验证结果。
+second_title: Aspose.Words for Java API Reference
+description: Represents a digital signature on a document and the result of its verification.
 type: docs
 weight: 111
-url: /zh/java/com.aspose.words/digitalsignature/
+url: /java/com.aspose.words/digitalsignature/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DigitalSignature
 ```
 
-表示文档上的数字签名及其验证结果。
+Represents a digital signature on a document and the result of its verification.
 
-要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+To learn more, visit the **Work with Digital Signatures** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCertificateHolder()](#getCertificateHolder--) | 返回包含用于签署文档的证书的证书持有者对象。 |
-| [get班级()](#get班级--) |  |
-| [getComments()](#getComments--) | 获取签名目的注释。 |
-| [getIssuerName()](#getIssuerName--) | 返回证书颁发者的主题专有名称。 |
-| [getSignTime()](#getSignTime--) | 获取文档签署的时间。 |
-| [getSignature类型()](#getSignature类型--) | 获取数字签名的类型。 |
-| [getSubjectName()](#getSubjectName--) | 返回用于签署文档的证书的主题专有名称。 |
+| [getCertificateHolder()](#getCertificateHolder--) | Returns the certificate holder object that contains the certificate was used to sign the document. |
+| [getClass()](#getClass--) |  |
+| [getComments()](#getComments--) | Gets the signing purpose comment. |
+| [getIssuerName()](#getIssuerName--) | Returns the subject distinguished name of the certificate isuuer. |
+| [getSignTime()](#getSignTime--) | Gets the time the document was signed. |
+| [getSignatureType()](#getSignatureType--) | Gets the type of the digital signature. |
+| [getSubjectName()](#getSubjectName--) | Returns the subject distinguished name of the certificate that was used to sign the document. |
 | [hashCode()](#hashCode--) |  |
-| [isValid()](#isValid--) | 如果此数字签名有效且文档未被篡改，则返回 true。 |
+| [isValid()](#isValid--) | Returns true if this digital signature is valid and the document has not been tampered with. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toString()](#toString--) | 返回显示此对象值的用户友好字符串。 |
+| [toString()](#toString--) | Returns a user-friendly string that displays the value of this object. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -44,83 +44,83 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getCertificateHolder() {#getCertificateHolder--}
 ```
 public CertificateHolder getCertificateHolder()
 ```
 
 
-返回包含用于签署文档的证书的证书持有者对象。
+Returns the certificate holder object that contains the certificate was used to sign the document.
 
-**退货:**
-[CertificateHolder](../../com.aspose.words/certificateholder) - 包含证书的证书持有者对象用于签署文档。
-### get班级() {#get班级--}
+**Returns:**
+[CertificateHolder](../../com.aspose.words/certificateholder) - The certificate holder object that contains the certificate was used to sign the document.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getComments() {#getComments--}
 ```
 public String getComments()
 ```
 
 
-获取签名目的注释。
+Gets the signing purpose comment.
 
-**退货:**
-java.lang.String - 签名目的注释。
+**Returns:**
+java.lang.String - The signing purpose comment.
 ### getIssuerName() {#getIssuerName--}
 ```
 public String getIssuerName()
 ```
 
 
-返回证书颁发者的主题专有名称。
+Returns the subject distinguished name of the certificate isuuer.
 
-**退货:**
-java.lang.String - 证书颁发者的主题专有名称。
+**Returns:**
+java.lang.String - The subject distinguished name of the certificate isuuer.
 ### getSignTime() {#getSignTime--}
 ```
 public Date getSignTime()
 ```
 
 
-获取文档签署的时间。
+Gets the time the document was signed.
 
-**退货:**
-java.util.Date - 签署文件的时间。
-### getSignature类型() {#getSignature类型--}
+**Returns:**
+java.util.Date - The time the document was signed.
+### getSignatureType() {#getSignatureType--}
 ```
-public int getSignature类型()
+public int getSignatureType()
 ```
 
 
-获取数字签名的类型。
+Gets the type of the digital signature.
 
-**退货:**
- int - 数字签名的类型。返回值是以下之一[DigitalSignature类型](../../com.aspose.words/digitalsignaturetype)常数。
+**Returns:**
+int - The type of the digital signature. The returned value is one of [DigitalSignatureType](../../com.aspose.words/digitalsignaturetype) constants.
 ### getSubjectName() {#getSubjectName--}
 ```
 public String getSubjectName()
 ```
 
 
-返回用于签署文档的证书的主题专有名称。
+Returns the subject distinguished name of the certificate that was used to sign the document.
 
-**退货:**
-java.lang.String - 用于签署文档的证书的主题专有名称。
+**Returns:**
+java.lang.String - The subject distinguished name of the certificate that was used to sign the document.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -129,18 +129,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isValid() {#isValid--}
 ```
 public boolean isValid()
 ```
 
 
-如果此数字签名有效且文档未被篡改，则返回 true。
+Returns true if this digital signature is valid and the document has not been tampered with.
 
-**退货:**
-boolean - 如果此数字签名有效且文档未被篡改，则为真。
+**Returns:**
+boolean - True if this digital signature is valid and the document has not been tampered with.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -163,9 +163,9 @@ public String toString()
 ```
 
 
-返回显示此对象值的用户友好字符串。
+Returns a user-friendly string that displays the value of this object.
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -183,8 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -196,8 +196,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

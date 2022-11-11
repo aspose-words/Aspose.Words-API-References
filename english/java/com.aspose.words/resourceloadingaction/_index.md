@@ -1,36 +1,36 @@
 ---
 title: ResourceLoadingAction
-second_title: Aspose.Words for Java API 参考
-description: 指定资源加载的模式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the mode of resource loading.
 type: docs
 weight: 479
-url: /zh/java/com.aspose.words/resourceloadingaction/
+url: /java/com.aspose.words/resourceloadingaction/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ResourceLoadingAction
 ```
 
-指定资源加载的模式。
+Specifies the mode of resource loading.
 
-要了解更多信息，请访问**Specify Load Options**文档文章。
-## 字段
+To learn more, visit the **Specify Load Options** documentation article.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | Aspose.Words 会像往常一样加载这个资源。 |
-| [SKIP](#SKIP) | Aspose.Words 将跳过此资源的加载。 |
-| [USER_PROVIDED](#USER-PROVIDED) |  Aspose.Words 将使用用户提供的字节数组[ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---)作为资源数据。 |
+| [DEFAULT](#DEFAULT) | Aspose.Words will load this resource as usual. |
+| [SKIP](#SKIP) | Aspose.Words will skip loading of this resource. |
+| [USER_PROVIDED](#USER-PROVIDED) | Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---) as resource data. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String resourceLoadingActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int resourceLoadingAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int DEFAULT
 ```
 
 
-Aspose.Words 会像往常一样加载这个资源。
+Aspose.Words will load this resource as usual.
 
 ### SKIP {#SKIP}
 ```
@@ -55,7 +55,7 @@ public static int SKIP
 ```
 
 
-Aspose.Words 将跳过此资源的加载。对于图像，只会存储没有数据的链接，对于 HTML 格式，CSS 样式表将被忽略。
+Aspose.Words will skip loading of this resource. Only link without data will be stored for an image, CSS style sheet will be ignored for HTML format.
 
 ### USER_PROVIDED {#USER-PROVIDED}
 ```
@@ -63,7 +63,7 @@ public static int USER_PROVIDED
 ```
 
 
- Aspose.Words 将使用用户提供的字节数组[ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---)作为资源数据。
+Aspose.Words will use byte array provided by user in [ResourceLoadingArgs.setData(byte[])](../../com.aspose.words/resourceloadingargs\#setData-byte---) as resource data.
 
 ### length {#length}
 ```
@@ -79,13 +79,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String resourceLoadingActionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String resourceLoadingActionName)
@@ -94,23 +94,23 @@ public static int fromName(String resourceLoadingActionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | resourceLoadingActionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int resourceLoadingAction) {#getName-int-}
 ```
 public static String getName(int resourceLoadingAction)
@@ -119,12 +119,12 @@ public static String getName(int resourceLoadingAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | resourceLoadingAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -134,8 +134,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -144,8 +144,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -170,7 +170,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int resourceLoadingAction) {#toString-int-}
 ```
@@ -180,12 +180,12 @@ public static String toString(int resourceLoadingAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | resourceLoadingAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -203,8 +203,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -216,8 +216,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

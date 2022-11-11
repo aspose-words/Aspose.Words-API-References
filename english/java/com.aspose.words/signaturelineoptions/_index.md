@@ -1,44 +1,44 @@
 ---
 title: SignatureLineOptions
 second_title: Aspose.Words for Java API Reference
-description: 允许为插入的签名行指定选项。
+description: Allows to specify options for signature line being inserted.
 type: docs
 weight: 525
-url: /zh/java/com.aspose.words/signaturelineoptions/
+url: /java/com.aspose.words/signaturelineoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SignatureLineOptions
 ```
 
-允许为插入的签名行指定选项。用于[DocumentBuilder](../../com.aspose.words/documentbuilder).
+Allows to specify options for signature line being inserted. Used in [DocumentBuilder](../../com.aspose.words/documentbuilder).
 
-要了解更多信息，请访问**Work with Digital Signatures**文档文章。
-## 方法s
+To learn more, visit the **Work with Digital Signatures** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAllowComments()](#getAllowComments--) | 获取一个值，该值指示签名者可以在“签名”对话框中添加注释。 |
-| [get班级()](#get班级--) |  |
-| [getDefaultInstructions()](#getDefaultInstructions--) | 获取一个值，该值指示默认指令显示在“签名”对话框中。 |
-| [getEmail()](#getEmail--) | 获取建议的签名者的电子邮件地址。 |
-| [getInstructions()](#getInstructions--) | 获取在签署签名行时显示的对签名者的说明。 |
-| [getShowDate()](#getShowDate--) | 获取一个值，该值指示签名日期显示在签名行中。 |
-| [getSigner()](#getSigner--) | 获取签名行的建议签名者。 |
-| [getSignerTitle()](#getSignerTitle--) | 获取建议的签名者的头衔。 |
+| [getAllowComments()](#getAllowComments--) | Gets a value indicating that the signer can add comments in the Sign dialog. |
+| [getClass()](#getClass--) |  |
+| [getDefaultInstructions()](#getDefaultInstructions--) | Gets a value indicating that default instructions is shown in the Sign dialog. |
+| [getEmail()](#getEmail--) | Gets suggested signer's e-mail address. |
+| [getInstructions()](#getInstructions--) | Gets instructions to the signer that are displayed on signing the signature line. |
+| [getShowDate()](#getShowDate--) | Gets a value indicating that sign date is shown in the signature line. |
+| [getSigner()](#getSigner--) | Gets suggested signer of the signature line. |
+| [getSignerTitle()](#getSignerTitle--) | Gets suggested signer's title. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowComments(boolean value)](#setAllowComments-boolean-) | 设置一个值，指示签名者可以在“签名”对话框中添加注释。 |
-| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean-) | 设置一个值，指示默认指令显示在“签名”对话框中。 |
-| [setEmail(String value)](#setEmail-java.lang.String-) | 设置建议的签名者的电子邮件地址。 |
-| [setInstructions(String value)](#setInstructions-java.lang.String-) | 为签名者设置在签名行签名时显示的说明。 |
-| [setShowDate(boolean value)](#setShowDate-boolean-) | 设置一个值，指示签名日期显示在签名行中。 |
-| [setSigner(String value)](#setSigner-java.lang.String-) | 设置签名行的建议签名者。 |
-| [setSignerTitle(String value)](#setSignerTitle-java.lang.String-) | 设置建议的签名者的头衔。 |
+| [setAllowComments(boolean value)](#setAllowComments-boolean-) | Sets a value indicating that the signer can add comments in the Sign dialog. |
+| [setDefaultInstructions(boolean value)](#setDefaultInstructions-boolean-) | Sets a value indicating that default instructions is shown in the Sign dialog. |
+| [setEmail(String value)](#setEmail-java.lang.String-) | Sets suggested signer's e-mail address. |
+| [setInstructions(String value)](#setInstructions-java.lang.String-) | Sets instructions to the signer that are displayed on signing the signature line. |
+| [setShowDate(boolean value)](#setShowDate-boolean-) | Sets a value indicating that sign date is shown in the signature line. |
+| [setSigner(String value)](#setSigner-java.lang.String-) | Sets suggested signer of the signature line. |
+| [setSignerTitle(String value)](#setSignerTitle-java.lang.String-) | Sets suggested signer's title. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,93 +51,93 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAllowComments() {#getAllowComments--}
 ```
 public boolean getAllowComments()
 ```
 
 
-获取一个值，该值指示签名者可以在“签名”对话框中添加注释。此属性的默认值为**false**.
+Gets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
 
-**退货:**
-boolean - 指示签名者可以在“签名”对话框中添加注释的值。
-### get班级() {#get班级--}
+**Returns:**
+boolean - A value indicating that the signer can add comments in the Sign dialog.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDefaultInstructions() {#getDefaultInstructions--}
 ```
 public boolean getDefaultInstructions()
 ```
 
 
-获取一个值，该值指示默认指令显示在“签名”对话框中。此属性的默认值为**true**.
+Gets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
 
-**退货:**
-boolean - 指示默认指令显示在“签名”对话框中的值。
+**Returns:**
+boolean - A value indicating that default instructions is shown in the Sign dialog.
 ### getEmail() {#getEmail--}
 ```
 public String getEmail()
 ```
 
 
-获取建议的签名者的电子邮件地址。此属性的默认值为**empty string**.
+Gets suggested signer's e-mail address. Default value for this property is **empty string**.
 
-**退货:**
-java.lang.String - 建议的签名者的电子邮件地址。
+**Returns:**
+java.lang.String - Suggested signer's e-mail address.
 ### getInstructions() {#getInstructions--}
 ```
 public String getInstructions()
 ```
 
 
-获取在签署签名行时显示的对签名者的说明。此属性的默认值为**empty string**.
+Gets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string**.
 
-**退货:**
-java.lang.String - 在签署签名行时显示给签名者的说明。
+**Returns:**
+java.lang.String - Instructions to the signer that are displayed on signing the signature line.
 ### getShowDate() {#getShowDate--}
 ```
 public boolean getShowDate()
 ```
 
 
-获取一个值，该值指示签名日期显示在签名行中。此属性的默认值为**true**.
+Gets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
 
-**退货:**
-boolean - 指示签名日期显示在签名行中的值。
+**Returns:**
+boolean - A value indicating that sign date is shown in the signature line.
 ### getSigner() {#getSigner--}
 ```
 public String getSigner()
 ```
 
 
-获取签名行的建议签名者。此属性的默认值为**empty string**.
+Gets suggested signer of the signature line. Default value for this property is **empty string**.
 
-**退货:**
-java.lang.String - 签名行的建议签名者。
+**Returns:**
+java.lang.String - Suggested signer of the signature line.
 ### getSignerTitle() {#getSignerTitle--}
 ```
 public String getSignerTitle()
 ```
 
 
-获取建议的签名者的头衔。此属性的默认值为**empty string**.
+Gets suggested signer's title. Default value for this property is **empty string**.
 
-**退货:**
-java.lang.String - 建议的签名者的头衔。
+**Returns:**
+java.lang.String - Suggested signer's title.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -146,8 +146,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -170,12 +170,12 @@ public void setAllowComments(boolean value)
 ```
 
 
-设置一个值，指示签名者可以在“签名”对话框中添加注释。此属性的默认值为**false**.
+Sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示签名者可以在“签名”对话框中添加注释的值。 |
+| value | boolean | A value indicating that the signer can add comments in the Sign dialog. |
 
 ### setDefaultInstructions(boolean value) {#setDefaultInstructions-boolean-}
 ```
@@ -183,12 +183,12 @@ public void setDefaultInstructions(boolean value)
 ```
 
 
-设置一个值，指示默认指令显示在“签名”对话框中。此属性的默认值为**true**.
+Sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示默认指令的值显示在“签名”对话框中。 |
+| value | boolean | A value indicating that default instructions is shown in the Sign dialog. |
 
 ### setEmail(String value) {#setEmail-java.lang.String-}
 ```
@@ -196,12 +196,12 @@ public void setEmail(String value)
 ```
 
 
-设置建议的签名者的电子邮件地址。此属性的默认值为**empty string**.
+Sets suggested signer's e-mail address. Default value for this property is **empty string**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 建议的签名者的电子邮件地址。 |
+| value | java.lang.String | Suggested signer's e-mail address. |
 
 ### setInstructions(String value) {#setInstructions-java.lang.String-}
 ```
@@ -209,12 +209,12 @@ public void setInstructions(String value)
 ```
 
 
-为签名者设置在签名行签名时显示的说明。此属性的默认值为**empty string**.
+Sets instructions to the signer that are displayed on signing the signature line. Default value for this property is **empty string**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 在签署签名行时显示给签名者的说明。 |
+| value | java.lang.String | Instructions to the signer that are displayed on signing the signature line. |
 
 ### setShowDate(boolean value) {#setShowDate-boolean-}
 ```
@@ -222,12 +222,12 @@ public void setShowDate(boolean value)
 ```
 
 
-设置一个值，指示签名日期显示在签名行中。此属性的默认值为**true**.
+Sets a value indicating that sign date is shown in the signature line. Default value for this property is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示签名日期的值显示在签名行中。 |
+| value | boolean | A value indicating that sign date is shown in the signature line. |
 
 ### setSigner(String value) {#setSigner-java.lang.String-}
 ```
@@ -235,12 +235,12 @@ public void setSigner(String value)
 ```
 
 
-设置签名行的建议签名者。此属性的默认值为**empty string**.
+Sets suggested signer of the signature line. Default value for this property is **empty string**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 签名行的建议签名者。 |
+| value | java.lang.String | Suggested signer of the signature line. |
 
 ### setSignerTitle(String value) {#setSignerTitle-java.lang.String-}
 ```
@@ -248,12 +248,12 @@ public void setSignerTitle(String value)
 ```
 
 
-设置建议的签名者的头衔。此属性的默认值为**empty string**.
+Sets suggested signer's title. Default value for this property is **empty string**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 建议的签名者的头衔。 |
+| value | java.lang.String | Suggested signer's title. |
 
 ### toString() {#toString--}
 ```
@@ -263,7 +263,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -281,8 +281,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -294,8 +294,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

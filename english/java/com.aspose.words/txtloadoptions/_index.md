@@ -1,74 +1,74 @@
 ---
 title: TxtLoadOptions
 second_title: Aspose.Words for Java API Reference
-description: 允许在将文档加载到对象时指定其他选项。
+description: Allows to specify additional options when loading  document into a  object.
 type: docs
 weight: 584
-url: /zh/java/com.aspose.words/txtloadoptions/
+url: /java/com.aspose.words/txtloadoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.LoadOptions](../../com.aspose.words/loadoptions)
 ```
 public class TxtLoadOptions extends LoadOptions
 ```
 
-允许在加载时指定其他选项[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT)文档成一个[Document](../../com.aspose.words/document)目的。
+Allows to specify additional options when loading [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) document into a [Document](../../com.aspose.words/document) object.
 
-要了解更多信息，请访问**Specify Load Options**文档文章。
-## 构造函数s
+To learn more, visit the **Specify Load Options** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [TxtLoadOptions()](#TxtLoadOptions--) | 使用默认值初始化此类的新实例。 |
-## 方法s
+| [TxtLoadOptions()](#TxtLoadOptions--) | Initializes a new instance of this class with default values. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoNumberingDetection()](#getAutoNumberingDetection--) | 获取一个布尔值，指示在加载文档时将执行自动编号检测。 |
-| [getBaseUri()](#getBaseUri--) | 获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
-| [get班级()](#get班级--) |  |
-| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | 获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
-| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | 获取是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces--) | 允许指定从纯文本格式导入文档时如何识别编号列表项。 |
-| [getDocumentDirection()](#getDocumentDirection--) | 获取文档方向。 |
-| [getEncoding()](#getEncoding--) | 如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。 |
-| [getFontSettings()](#getFontSettings--) | 允许指定文档字体设置。 |
-| [getLanguagePreferences()](#getLanguagePreferences--) | 获取加载文档时将使用的语言首选项。 |
-| [getLeadingSpacesOptions()](#getLeadingSpacesOptions--) | 获得领先空间处理的首选选项。 |
-| [getLoadFormat()](#getLoadFormat--) | 指定要加载的文档的格式。 |
-| [getMswVersion()](#getMswVersion--) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
-| [getPassword()](#getPassword--) | 获取打开加密文档的密码。 |
-| [getPreserveIncludePicture字段()](#getPreserveIncludePicture字段--) | 获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
-| [getProgressCallback()](#getProgressCallback--) | 在加载文档期间调用并接受有关加载进度的数据。 |
-| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
-| [getTempFolder()](#getTempFolder--) | 允许在阅读文档时使用临时文件。 |
-| [getTrailingSpacesOptions()](#getTrailingSpacesOptions--) | 获取尾随空格处理的首选选项。 |
-| [getUpdateDirty字段()](#getUpdateDirty字段--) | 指定是否更新带有脏属性的字段。 |
-| [getWarningCallback()](#getWarningCallback--) | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。 |
+| [getAutoNumberingDetection()](#getAutoNumberingDetection--) | Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
+| [getBaseUri()](#getBaseUri--) | Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [getClass()](#getClass--) |  |
+| [getConvertMetafilesToPng()](#getConvertMetafilesToPng--) | Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [getConvertShapeToOfficeMath()](#getConvertShapeToOfficeMath--) | Gets whether to convert shapes with EquationXML to Office Math objects. |
+| [getDetectNumberingWithWhitespaces()](#getDetectNumberingWithWhitespaces--) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
+| [getDocumentDirection()](#getDocumentDirection--) | Gets a document direction. |
+| [getEncoding()](#getEncoding--) | Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [getFontSettings()](#getFontSettings--) | Allows to specify document font settings. |
+| [getLanguagePreferences()](#getLanguagePreferences--) | Gets language preferences that will be used when document is loading. |
+| [getLeadingSpacesOptions()](#getLeadingSpacesOptions--) | Gets preferred option of a leading space handling. |
+| [getLoadFormat()](#getLoadFormat--) | Specifies the format of the document to be loaded. |
+| [getMswVersion()](#getMswVersion--) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [getPassword()](#getPassword--) | Gets the password for opening an encrypted document. |
+| [getPreserveIncludePictureField()](#getPreserveIncludePictureField--) | Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [getProgressCallback()](#getProgressCallback--) | Called during loading a document and accepts data about loading progress. |
+| [getResourceLoadingCallback()](#getResourceLoadingCallback--) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [getTempFolder()](#getTempFolder--) | Allows to use temporary files when reading document. |
+| [getTrailingSpacesOptions()](#getTrailingSpacesOptions--) | Gets preferred option of a trailing space handling. |
+| [getUpdateDirtyFields()](#getUpdateDirtyFields--) | Specifies whether to update the fields with the  dirty  attribute. |
+| [getWarningCallback()](#getWarningCallback--) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean-) | 设置一个布尔值，指示在加载文档时将执行自动编号检测。 |
-| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | 将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。 |
-| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | 设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
-| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | 设置是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
-| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean-) | 允许指定从纯文本格式导入文档时如何识别编号列表项。 |
-| [setDocumentDirection(int value)](#setDocumentDirection-int-) | 设置文档方向。 |
-| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | 如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。 |
-| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | 允许指定文档字体设置。 |
-| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int-) | 设置领先空间处理的首选选项。 |
-| [setLoadFormat(int value)](#setLoadFormat-int-) | 指定要加载的文档的格式。 |
-| [setMswVersion(int value)](#setMswVersion-int-) | 允许指定文档加载过程应匹配特定的 MS Word 版本。 |
-| [setPassword(String value)](#setPassword-java.lang.String-) | 设置打开加密文档的密码。 |
-| [setPreserveIncludePicture字段(boolean value)](#setPreserveIncludePicture字段-boolean-) | 设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
-| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | 在加载文档期间调用并接受有关加载进度的数据。 |
-| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | 允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。 |
-| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | 允许在阅读文档时使用临时文件。 |
-| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int-) | 设置尾随空格处理的首选选项。 |
-| [setUpdateDirty字段(boolean value)](#setUpdateDirty字段-boolean-) | 指定是否更新带有脏属性的字段。 |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。 |
+| [setAutoNumberingDetection(boolean value)](#setAutoNumberingDetection-boolean-) | Sets a boolean value indicating either automatic numbering detection will be performed while loading a document. |
+| [setBaseUri(String value)](#setBaseUri-java.lang.String-) | Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
+| [setConvertMetafilesToPng(boolean value)](#setConvertMetafilesToPng-boolean-) | Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
+| [setConvertShapeToOfficeMath(boolean value)](#setConvertShapeToOfficeMath-boolean-) | Sets whether to convert shapes with EquationXML to Office Math objects. |
+| [setDetectNumberingWithWhitespaces(boolean value)](#setDetectNumberingWithWhitespaces-boolean-) | Allows to specify how numbered list items are recognized when document is imported from plain text format. |
+| [setDocumentDirection(int value)](#setDocumentDirection-int-) | Sets a document direction. |
+| [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset-) | Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
+| [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings-) | Allows to specify document font settings. |
+| [setLeadingSpacesOptions(int value)](#setLeadingSpacesOptions-int-) | Sets preferred option of a leading space handling. |
+| [setLoadFormat(int value)](#setLoadFormat-int-) | Specifies the format of the document to be loaded. |
+| [setMswVersion(int value)](#setMswVersion-int-) | Allows to specify that the document loading process should match a specific MS Word version. |
+| [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted document. |
+| [setPreserveIncludePictureField(boolean value)](#setPreserveIncludePictureField-boolean-) | Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
+| [setProgressCallback(IDocumentLoadingCallback value)](#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-) | Called during loading a document and accepts data about loading progress. |
+| [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
+| [setTempFolder(String value)](#setTempFolder-java.lang.String-) | Allows to use temporary files when reading document. |
+| [setTrailingSpacesOptions(int value)](#setTrailingSpacesOptions-int-) | Sets preferred option of a trailing space handling. |
+| [setUpdateDirtyFields(boolean value)](#setUpdateDirtyFields-boolean-) | Specifies whether to update the fields with the  dirty  attribute. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,7 +79,7 @@ public TxtLoadOptions()
 ```
 
 
-使用默认值初始化此类的新实例。
+Initializes a new instance of this class with default values.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -89,256 +89,256 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAutoNumberingDetection() {#getAutoNumberingDetection--}
 ```
 public boolean getAutoNumberingDetection()
 ```
 
 
-获取一个布尔值，指示在加载文档时将执行自动编号检测。默认值是true 。
+Gets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is  true .
 
-**退货:**
-boolean - 一个布尔值，指示将在加载文档时执行自动编号检测。
+**Returns:**
+boolean - A boolean value indicating either automatic numbering detection will be performed while loading a document.
 ### getBaseUri() {#getBaseUri--}
 ```
 public String getBaseUri()
 ```
 
 
-获取将用于在需要时将在文档中找到的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+Gets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+This property is used to resolve relative URIs into absolute in the following cases:
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  When loading an HTML document from a stream and the document contains images with relative URIs and does not have a base URI specified in the BASE HTML element.
+2.  When saving a document to PDF and other formats, to retrieve images linked using relative URIs so the images can be saved into the output document.
 
-**退货:**
-java.lang.String - 需要时用于将文档中的相对 URI 解析为绝对 URI 的字符串。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - The string that will be used to resolve relative URIs found in the document into absolute URIs when required.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getConvertMetafilesToPng() {#getConvertMetafilesToPng--}
 ```
 public boolean getConvertMetafilesToPng()
 ```
 
 
-获取是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+Gets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. Metafiles ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **F:Aspose.FileFormat.Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images.
 
-**退货:**
- boolean - 是否转换图元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。
+**Returns:**
+boolean - Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format.
 ### getConvertShapeToOfficeMath() {#getConvertShapeToOfficeMath--}
 ```
 public boolean getConvertShapeToOfficeMath()
 ```
 
 
-获取是否将带有 EquationXML 的形状转换为 Office Math 对象。
+Gets whether to convert shapes with EquationXML to Office Math objects.
 
-**退货:**
-boolean - 是否将带有 EquationXML 的形状转换为 Office Math 对象。
+**Returns:**
+boolean - Whether to convert shapes with EquationXML to Office Math objects.
 ### getDetectNumberingWithWhitespaces() {#getDetectNumberingWithWhitespaces--}
 ```
 public boolean getDetectNumberingWithWhitespaces()
 ```
 
 
-允许指定从纯文本格式导入文档时如何识别编号列表项。默认值是true 。
+Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is  true .
 
-如果此选项设置为 false，列表识别算法会检测列表段落，当列表编号以点、右括号或项目符号结尾时（例如“\\u2022", "\*”、“-”或“o”）。
+If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
 
-如果此选项设置为 true，则空格也用作列表编号分隔符：用于阿拉伯风格编号（1.、1.1.2.）的列表识别算法同时使用空格和点（“.”）符号。
+If this option is set to true, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getDocumentDirection() {#getDocumentDirection--}
 ```
 public int getDocumentDirection()
 ```
 
 
-获取文档方向。默认值为[DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
+Gets a document direction. The default value is [DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
 
-**退货:**
-int - 文档方向。返回值是以下之一[DocumentDirection](../../com.aspose.words/documentdirection)常数。
+**Returns:**
+int - A document direction. The returned value is one of [DocumentDirection](../../com.aspose.words/documentdirection) constants.
 ### getEncoding() {#getEncoding--}
 ```
 public Charset getEncoding()
 ```
 
 
-如果未在文档中指定编码，则获取将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+Gets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
 
-此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
+This property is used only when loading HTML, TXT, or CHM documents.
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
 
-**退货:**
-java.nio.charset.Charset - 如果文档中未指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。
+**Returns:**
+java.nio.charset.Charset - The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document.
 ### getFontSettings() {#getFontSettings--}
 ```
 public FontSettings getFontSettings()
 ```
 
 
-允许指定文档字体设置。
+Allows to specify document font settings.
 
-加载某些格式时，Aspose.Words 可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
 
-默认值为空。
+The default value is null.
 
-**退货:**
-[FontSettings](../../com.aspose.words/fontsettings) - 相应的[FontSettings](../../com.aspose.words/fontsettings)价值。
+**Returns:**
+[FontSettings](../../com.aspose.words/fontsettings) - The corresponding [FontSettings](../../com.aspose.words/fontsettings) value.
 ### getLanguagePreferences() {#getLanguagePreferences--}
 ```
 public LanguagePreferences getLanguagePreferences()
 ```
 
 
-获取加载文档时将使用的语言首选项。
+Gets language preferences that will be used when document is loading.
 
-**退货:**
-[LanguagePreferences](../../com.aspose.words/languagepreferences) - 加载文档时将使用的语言首选项。
+**Returns:**
+[LanguagePreferences](../../com.aspose.words/languagepreferences) - Language preferences that will be used when document is loading.
 ### getLeadingSpacesOptions() {#getLeadingSpacesOptions--}
 ```
 public int getLeadingSpacesOptions()
 ```
 
 
-获得领先空间处理的首选选项。默认值为[TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
+Gets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
 
-**退货:**
-int - 领先空间处理的首选选项。返回值是以下之一[TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions)常数。
+**Returns:**
+int - Preferred option of a leading space handling. The returned value is one of [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) constants.
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public int getLoadFormat()
 ```
 
 
-指定要加载的文档的格式。默认为[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
 
-建议您指定[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)值并让 Aspose.Words 自动检测文件格式。如果您知道要加载的文档的格式，则可以明确指定格式，这将通过与自动检测格式相关的开销略微减少加载时间。如果您指定了明确的加载格式，但结果是错误的，则会调用自动检测并再次尝试加载文件。
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [LoadFormat](../../com.aspose.words/loadformat) constants.
 ### getMswVersion() {#getMswVersion--}
 ```
 public int getMswVersion()
 ```
 
 
-允许指定文档加载过程应匹配特定的 MS Word 版本。默认值为[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019)不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同，这可能会导致文档对象模型的细微差别。
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[MsWordVersion](../../com.aspose.words/mswordversion)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MsWordVersion](../../com.aspose.words/mswordversion) constants.
 ### getPassword() {#getPassword--}
 ```
 public String getPassword()
 ```
 
 
-获取打开加密文档的密码。可以是 null 或空字符串。默认为空。
+Gets the password for opening an encrypted document. Can be null or empty string. Default is null.
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
-**退货:**
-java.lang.String - 打开加密文档的密码。
-### getPreserveIncludePicture字段() {#getPreserveIncludePicture字段--}
+**Returns:**
+java.lang.String - The password for opening an encrypted document.
+### getPreserveIncludePictureField() {#getPreserveIncludePictureField--}
 ```
-public boolean getPreserveIncludePicture字段()
+public boolean getPreserveIncludePictureField()
 ```
 
 
-获取读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+Gets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
 
-默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
+By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
-一种可能的用例可能是使用 MERGEFIELD 作为子字段来动态更改图片的源路径。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
+One of the possible use cases may be using a MERGEFIELD as a child field to dynamically change the source path of the picture. In this case you need the INCLUDEPICTURE to be preserved in the model.
 
-**退货:**
-boolean - 读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。
+**Returns:**
+boolean - Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
 ### getProgressCallback() {#getProgressCallback--}
 ```
 public IDocumentLoadingCallback getProgressCallback()
 ```
 
 
-在加载文档期间调用并接受有关加载进度的数据。
+Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT)支持的格式。
+[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
 
-**退货:**
-[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - 相应的[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback)价值。
+**Returns:**
+[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) - The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value.
 ### getResourceLoadingCallback() {#getResourceLoadingCallback--}
 ```
 public IResourceLoadingCallback getResourceLoadingCallback()
 ```
 
 
-允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。
+Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
-**退货:**
-[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。
+**Returns:**
+[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) - The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value.
 ### getTempFolder() {#getTempFolder--}
 ```
 public String getTempFolder()
 ```
 
 
-允许在阅读文档时使用临时文件。默认情况下，此属性为 null，并且不使用临时文件。
+Allows to use temporary files when reading document. By default this property is  null  and no temporary files are used.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-读取完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when reading is complete.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getTrailingSpacesOptions() {#getTrailingSpacesOptions--}
 ```
 public int getTrailingSpacesOptions()
 ```
 
 
-获取尾随空格处理的首选选项。默认值为[TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
+Gets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
 
-**退货:**
-int - 尾随空格处理的首选选项。返回值是以下之一[TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions)常数。
-### getUpdateDirty字段() {#getUpdateDirty字段--}
+**Returns:**
+int - Preferred option of a trailing space handling. The returned value is one of [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) constants.
+### getUpdateDirtyFields() {#getUpdateDirtyFields--}
 ```
-public boolean getUpdateDirty字段()
+public boolean getUpdateDirtyFields()
 ```
 
 
-指定是否更新带有脏属性的字段。
+Specifies whether to update the fields with the  dirty  attribute.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public IWarningCallback getWarningCallback()
 ```
 
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。
+Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -347,8 +347,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -371,12 +371,12 @@ public void setAutoNumberingDetection(boolean value)
 ```
 
 
-设置一个布尔值，指示在加载文档时将执行自动编号检测。默认值是true 。
+Sets a boolean value indicating either automatic numbering detection will be performed while loading a document. The default value is  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 加载文档时将执行指示自动编号检测的布尔值。 |
+| value | boolean | A boolean value indicating either automatic numbering detection will be performed while loading a document. |
 
 ### setBaseUri(String value) {#setBaseUri-java.lang.String-}
 ```
@@ -384,17 +384,17 @@ public void setBaseUri(String value)
 ```
 
 
-将用于在需要时将文档中的相对 URI 解析为绝对 URI 的字符串。可以是 null 或空字符串。默认为空。
+Sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be null or empty string. Default is null.
 
-在以下情况下，此属性用于将相对 URI 解析为绝对：
+This property is used to resolve relative URIs into absolute in the following cases:
 
-1.  从流中加载 HTML 文档并且该文档包含具有相对 URI 的图像并且没有在 BASE HTML 元素中指定的基本 URI。
-2.  将文档保存为 PDF 和其他格式时，检索使用相对 URI 链接的图像，以便将图像保存到输出文档中。
+1.  When loading an HTML document from a stream and the document contains images with relative URIs and does not have a base URI specified in the BASE HTML element.
+2.  When saving a document to PDF and other formats, to retrieve images linked using relative URIs so the images can be saved into the output document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 需要时将用于将文档中找到的相对 URI 解析为绝对 URI 的字符串。 |
+| value | java.lang.String | The string that will be used to resolve relative URIs found in the document into absolute URIs when required. |
 
 ### setConvertMetafilesToPng(boolean value) {#setConvertMetafilesToPng-boolean-}
 ```
@@ -402,12 +402,12 @@ public void setConvertMetafilesToPng(boolean value)
 ```
 
 
-设置是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。元文件 (**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 是一种未压缩的图像格式，有时需要大量 RAM 来保存和处理文档。此选项允许将所有元文件图像转换为**F:Aspose.FileFormat.Png**关于文件加载。请注意 - 将矢量图形转换为光栅会降低图像质量。
+Sets whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. Metafiles ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) is an uncompressed image format and sometimes requires to much RAM to hold and process document. This option allows to convert all metafile images to **F:Aspose.FileFormat.Png** on document loading. Please note - conversion vector graphics to raster decreases quality of the images.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否转换元文件（**F:Aspose.FileFormat.Wmf**或者**F:Aspose.FileFormat.Emf** ) 图像到**F:Aspose.FileFormat.Png**图像格式。 |
+| value | boolean | Whether to convert metafile ( **F:Aspose.FileFormat.Wmf** or **F:Aspose.FileFormat.Emf**) images to **F:Aspose.FileFormat.Png** image format. |
 
 ### setConvertShapeToOfficeMath(boolean value) {#setConvertShapeToOfficeMath-boolean-}
 ```
@@ -415,12 +415,12 @@ public void setConvertShapeToOfficeMath(boolean value)
 ```
 
 
-设置是否将带有 EquationXML 的形状转换为 Office Math 对象。
+Sets whether to convert shapes with EquationXML to Office Math objects.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否将带有 EquationXML 的形状转换为 Office Math 对象。 |
+| value | boolean | Whether to convert shapes with EquationXML to Office Math objects. |
 
 ### setDetectNumberingWithWhitespaces(boolean value) {#setDetectNumberingWithWhitespaces-boolean-}
 ```
@@ -428,16 +428,16 @@ public void setDetectNumberingWithWhitespaces(boolean value)
 ```
 
 
-允许指定从纯文本格式导入文档时如何识别编号列表项。默认值是true 。
+Allows to specify how numbered list items are recognized when document is imported from plain text format. The default value is  true .
 
-如果此选项设置为 false，列表识别算法会检测列表段落，当列表编号以点、右括号或项目符号结尾时（例如“\\u2022", "\*”、“-”或“o”）。
+If this option is set to false, lists recognition algorithm detects list paragraphs, when list numbers ends with either dot, right bracket or bullet symbols (such as "\\u2022", "\*", "-" or "o").
 
-如果此选项设置为 true，则空格也用作列表编号分隔符：用于阿拉伯风格编号（1.、1.1.2.）的列表识别算法同时使用空格和点（“.”）符号。
+If this option is set to true, whitespaces are also used as list number delimiters: list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setDocumentDirection(int value) {#setDocumentDirection-int-}
 ```
@@ -445,12 +445,12 @@ public void setDocumentDirection(int value)
 ```
 
 
-设置文档方向。默认值为[DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
+Sets a document direction. The default value is [DocumentDirection.LEFT\_TO\_RIGHT](../../com.aspose.words/documentdirection\#LEFT-TO-RIGHT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 文档方向。该值必须是以下之一[DocumentDirection](../../com.aspose.words/documentdirection)常数。 |
+| value | int | A document direction. The value must be one of [DocumentDirection](../../com.aspose.words/documentdirection) constants. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset-}
 ```
@@ -458,16 +458,16 @@ public void setEncoding(Charset value)
 ```
 
 
-如果未在文档中指定编码，则设置将用于加载 HTML、TXT 或 CHM 文档的编码。可以为空。默认为空。
+Sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be null. Default is null.
 
-此属性仅在加载 HTML、TXT 或 CHM 文档时使用。
+This property is used only when loading HTML, TXT, or CHM documents.
 
-如果文档中没有指定编码并且该属性为 null ，那么系统将尝试自动检测编码。
+If encoding is not specified inside the document and this property is  null , then the system will try to automatically detect the encoding.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.nio.charset.Charset | 如果未在文档中指定编码，则将用于加载 HTML、TXT 或 CHM 文档的编码。 |
+| value | java.nio.charset.Charset | The encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. |
 
 ### setFontSettings(FontSettings value) {#setFontSettings-com.aspose.words.FontSettings-}
 ```
@@ -475,18 +475,18 @@ public void setFontSettings(FontSettings value)
 ```
 
 
-允许指定文档字体设置。
+Allows to specify document font settings.
 
-加载某些格式时，Aspose.Words 可能需要解析字体。例如，在加载 HTML 文档时，Aspose.Words 可能会解析字体以执行字体回退。
+When loading some formats, Aspose.Words may require to resolve the fonts. For example, when loading HTML documents Aspose.Words may resolve the fonts to perform font fallback.
 
-如果设置为 null，则默认静态字体设置[FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--)将会被使用。
+If set to null, default static font settings [FontSettings.getDefaultInstance()](../../com.aspose.words/fontsettings\#getDefaultInstance--) will be used.
 
-默认值为空。
+The default value is null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [FontSettings](../../com.aspose.words/fontsettings) | 相应的[FontSettings](../../com.aspose.words/fontsettings)价值。 |
+| value | [FontSettings](../../com.aspose.words/fontsettings) | The corresponding [FontSettings](../../com.aspose.words/fontsettings) value. |
 
 ### setLeadingSpacesOptions(int value) {#setLeadingSpacesOptions-int-}
 ```
@@ -494,12 +494,12 @@ public void setLeadingSpacesOptions(int value)
 ```
 
 
-设置领先空间处理的首选选项。默认值为[TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
+Sets preferred option of a leading space handling. Default value is [TxtLeadingSpacesOptions.CONVERT\_TO\_INDENT](../../com.aspose.words/txtleadingspacesoptions\#CONVERT-TO-INDENT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 领先空间处理的首选选项。该值必须是以下之一[TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions)常数。 |
+| value | int | Preferred option of a leading space handling. The value must be one of [TxtLeadingSpacesOptions](../../com.aspose.words/txtleadingspacesoptions) constants. |
 
 ### setLoadFormat(int value) {#setLoadFormat-int-}
 ```
@@ -507,14 +507,14 @@ public void setLoadFormat(int value)
 ```
 
 
-指定要加载的文档的格式。默认为[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
+Specifies the format of the document to be loaded. Default is [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO).
 
-建议您指定[LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO)值并让 Aspose.Words 自动检测文件格式。如果您知道要加载的文档的格式，则可以明确指定格式，这将通过与自动检测格式相关的开销略微减少加载时间。如果您指定了明确的加载格式，但结果是错误的，则会调用自动检测并再次尝试加载文件。
+It is recommended that you specify the [LoadFormat.AUTO](../../com.aspose.words/loadformat\#AUTO) value and let Aspose.Words detect the file format automatically. If you know the format of the document you are about to load, you can specify the format explicitly and this will slightly reduce the loading time by the overhead associated with auto detecting the format. If you specify an explicit load format and it will turn out to be wrong, the auto detection will be invoked and a second attempt to load the file will be made.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[LoadFormat](../../com.aspose.words/loadformat)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [LoadFormat](../../com.aspose.words/loadformat) constants. |
 
 ### setMswVersion(int value) {#setMswVersion-int-}
 ```
@@ -522,12 +522,12 @@ public void setMswVersion(int value)
 ```
 
 
-允许指定文档加载过程应匹配特定的 MS Word 版本。默认值为[MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019)不同的 Word 版本在加载过程中处理文档内容和格式的某些方面可能略有不同，这可能会导致文档对象模型的细微差别。
+Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.WORD\_2019](../../com.aspose.words/mswordversion\#WORD-2019) Different Word versions may handle certain aspects of document content and formatting slightly differently during the loading process, which may result in minor differences in Document Object Model.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[MsWordVersion](../../com.aspose.words/mswordversion)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [MsWordVersion](../../com.aspose.words/mswordversion) constants. |
 
 ### setPassword(String value) {#setPassword-java.lang.String-}
 ```
@@ -535,31 +535,31 @@ public void setPassword(String value)
 ```
 
 
-设置打开加密文档的密码。可以是 null 或空字符串。默认为空。
+Sets the password for opening an encrypted document. Can be null or empty string. Default is null.
 
-您需要知道打开加密文档的密码。如果文档未加密，请将其设置为 null 或空字符串。
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to null or empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 打开加密文档的密码。 |
+| value | java.lang.String | The password for opening an encrypted document. |
 
-### setPreserveIncludePicture字段(boolean value) {#setPreserveIncludePicture字段-boolean-}
+### setPreserveIncludePictureField(boolean value) {#setPreserveIncludePictureField-boolean-}
 ```
-public void setPreserveIncludePicture字段(boolean value)
+public void setPreserveIncludePictureField(boolean value)
 ```
 
 
-设置读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。默认值为假。
+Sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is false.
 
-默认情况下，INCLUDEPICTURE 字段转换为形状对象。如果您需要保留该字段，例如，如果您希望以编程方式更新它，您可以覆盖它。但是请注意，这种方法在 Aspose.Words 中并不常见。自行承担使用风险。
+By default, the INCLUDEPICTURE field is converted into a shape object. You can override that if you need the field to be preserved, for example, if you wish to update it programmatically. Note however that this approach is not common for Aspose.Words. Use it on your own risk.
 
-一种可能的用例可能是使用 MERGEFIELD 作为子字段来动态更改图片的源路径。在这种情况下，您需要将 INCLUDEPICTURE 保留在模型中。
+One of the possible use cases may be using a MERGEFIELD as a child field to dynamically change the source path of the picture. In this case you need the INCLUDEPICTURE to be preserved in the model.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 读取 Microsoft Word 格式时是否保留 INCLUDEPICTURE 字段。 |
+| value | boolean | Whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. |
 
 ### setProgressCallback(IDocumentLoadingCallback value) {#setProgressCallback-com.aspose.words.IDocumentLoadingCallback-}
 ```
@@ -567,14 +567,14 @@ public void setProgressCallback(IDocumentLoadingCallback value)
 ```
 
 
-在加载文档期间调用并接受有关加载进度的数据。
+Called during loading a document and accepts data about loading progress.
 
-[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT)支持的格式。
+[LoadFormat.DOCX](../../com.aspose.words/loadformat\#DOCX), [LoadFormat.FLAT\_OPC](../../com.aspose.words/loadformat\#FLAT-OPC), [LoadFormat.DOCM](../../com.aspose.words/loadformat\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat\#DOTM), [LoadFormat.DOTX](../../com.aspose.words/loadformat\#DOTX), [LoadFormat.MARKDOWN](../../com.aspose.words/loadformat\#MARKDOWN), [LoadFormat.RTF](../../com.aspose.words/loadformat\#RTF), [LoadFormat.WORD\_ML](../../com.aspose.words/loadformat\#WORD-ML), [LoadFormat.DOC](../../com.aspose.words/loadformat\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat\#DOT), [LoadFormat.ODT](../../com.aspose.words/loadformat\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat\#OTT) formats supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | 相应的[IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback)价值。 |
+| value | [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) | The corresponding [IDocumentLoadingCallback](../../com.aspose.words/idocumentloadingcallback) value. |
 
 ### setResourceLoadingCallback(IResourceLoadingCallback value) {#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback-}
 ```
@@ -582,12 +582,12 @@ public void setResourceLoadingCallback(IResourceLoadingCallback value)
 ```
 
 
-允许控制从 HTML、MHTML 导入文档时如何加载外部资源（图像、样式表）。
+Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | 相应的[IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback)价值。 |
+| value | [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) | The corresponding [IResourceLoadingCallback](../../com.aspose.words/iresourceloadingcallback) value. |
 
 ### setTempFolder(String value) {#setTempFolder-java.lang.String-}
 ```
@@ -595,16 +595,16 @@ public void setTempFolder(String value)
 ```
 
 
-允许在阅读文档时使用临时文件。默认情况下，此属性为 null，并且不使用临时文件。
+Allows to use temporary files when reading document. By default this property is  null  and no temporary files are used.
 
-文件夹必须存在且可写，否则会抛出异常。
+The folder must exist and be writable, otherwise an exception will be thrown.
 
-读取完成后，Aspose.Words 会自动删除所有临时文件。
+Aspose.Words automatically deletes all temporary files when reading is complete.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setTrailingSpacesOptions(int value) {#setTrailingSpacesOptions-int-}
 ```
@@ -612,25 +612,25 @@ public void setTrailingSpacesOptions(int value)
 ```
 
 
-设置尾随空格处理的首选选项。默认值为[TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
+Sets preferred option of a trailing space handling. Default value is [TxtTrailingSpacesOptions.TRIM](../../com.aspose.words/txttrailingspacesoptions\#TRIM).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 尾随空格处理的首选选项。该值必须是以下之一[TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions)常数。 |
+| value | int | Preferred option of a trailing space handling. The value must be one of [TxtTrailingSpacesOptions](../../com.aspose.words/txttrailingspacesoptions) constants. |
 
-### setUpdateDirty字段(boolean value) {#setUpdateDirty字段-boolean-}
+### setUpdateDirtyFields(boolean value) {#setUpdateDirtyFields-boolean-}
 ```
-public void setUpdateDirty字段(boolean value)
+public void setUpdateDirtyFields(boolean value)
 ```
 
 
-指定是否更新带有脏属性的字段。
+Specifies whether to update the fields with the  dirty  attribute.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
 ```
@@ -638,12 +638,12 @@ public void setWarningCallback(IWarningCallback value)
 ```
 
 
-在加载操作期间调用，当检测到可能导致数据或格式保真度丢失的问题时。
+Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### toString() {#toString--}
 ```
@@ -653,7 +653,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -671,8 +671,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -684,8 +684,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,42 +1,42 @@
 ---
 title: ImportFormatOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许指定各种导入选项来格式化输出。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify various import options to format output.
 type: docs
 weight: 347
-url: /zh/java/com.aspose.words/importformatoptions/
+url: /java/com.aspose.words/importformatoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImportFormatOptions
 ```
 
-允许指定各种导入选项来格式化输出。
+Allows to specify various import options to format output.
 
-要了解更多信息，请访问**Specify Load Options**文档文章。
-## 方法s
+To learn more, visit the **Specify Load Options** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getForceCopyStyles()](#getForceCopyStyles--) | 获取一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。 |
-| [getIgnoreHeaderFooter()](#getIgnoreHeaderFooter--) | 获取一个布尔值，该值指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
-| [getIgnoreTextBoxes()](#getIgnoreTextBoxes--) | 获取一个布尔值，该值指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
-| [getKeepSourceNumbering()](#getKeepSourceNumbering--) | 获取一个布尔值，该值指定编号在源文档和目标文档中发生冲突时如何导入。 |
-| [getMergePastedLists()](#getMergePastedLists--) | 获取一个布尔值，该值指定是否将粘贴的列表与周围的列表合并。 |
-| [getSmartStyleBehavior()](#getSmartStyleBehavior--) | 获取一个布尔值，该值指定样式在源文档和目标文档中具有相同名称时如何导入。 |
+| [getClass()](#getClass--) |  |
+| [getForceCopyStyles()](#getForceCopyStyles--) | Gets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode. |
+| [getIgnoreHeaderFooter()](#getIgnoreHeaderFooter--) | Gets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
+| [getIgnoreTextBoxes()](#getIgnoreTextBoxes--) | Gets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
+| [getKeepSourceNumbering()](#getKeepSourceNumbering--) | Gets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
+| [getMergePastedLists()](#getMergePastedLists--) | Gets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
+| [getSmartStyleBehavior()](#getSmartStyleBehavior--) | Gets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setForceCopyStyles(boolean value)](#setForceCopyStyles-boolean-) | 设置一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。 |
-| [setIgnoreHeaderFooter(boolean value)](#setIgnoreHeaderFooter-boolean-) | 设置一个布尔值，指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
-| [setIgnoreTextBoxes(boolean value)](#setIgnoreTextBoxes-boolean-) | 设置一个布尔值，指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
-| [setKeepSourceNumbering(boolean value)](#setKeepSourceNumbering-boolean-) | 设置一个布尔值，用于指定编号在源文档和目标文档中发生冲突时如何导入。 |
-| [setMergePastedLists(boolean value)](#setMergePastedLists-boolean-) | 设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。 |
-| [setSmartStyleBehavior(boolean value)](#setSmartStyleBehavior-boolean-) | 设置一个布尔值，指定样式在源文档和目标文档中具有相同名称时如何导入。 |
+| [setForceCopyStyles(boolean value)](#setForceCopyStyles-boolean-) | Sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode. |
+| [setIgnoreHeaderFooter(boolean value)](#setIgnoreHeaderFooter-boolean-) | Sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
+| [setIgnoreTextBoxes(boolean value)](#setIgnoreTextBoxes-boolean-) | Sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
+| [setKeepSourceNumbering(boolean value)](#setKeepSourceNumbering-boolean-) | Sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
+| [setMergePastedLists(boolean value)](#setMergePastedLists-boolean-) | Sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. |
+| [setSmartStyleBehavior(boolean value)](#setSmartStyleBehavior-boolean-) | Sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,93 +49,93 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getForceCopyStyles() {#getForceCopyStyles--}
 ```
 public boolean getForceCopyStyles()
 ```
 
 
-获取一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。默认值为 false 。
+Gets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode. The default value is  false .
 
-默认情况下，如果目标文档中已经存在匹配的样式，则源样式格式会扩展为直接节点属性，并且此节点的样式会重置为默认值。
+By default, if a matching style already exists in a destination document, the source style formatting is expanded into direct node attributes and the style of this node is reset to a default.
 
-当此选项设置为 true 时，源样式将被强制复制到具有唯一名称的目标文档中并应用于导入的节点。
+When this option is set to  true , the source style will be forcibly copied into destination document with unique name and applied to the imported node.
 
-请注意，在这种情况下，不能保证将保留目标文档中导入节点的格式。
+Note, in this case it is not guaranteed that formatting of the imported node in destination document will be preserved.
 
-**退货:**
- boolean - 一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。
+**Returns:**
+boolean - A boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode.
 ### getIgnoreHeaderFooter() {#getIgnoreHeaderFooter--}
 ```
 public boolean getIgnoreHeaderFooter()
 ```
 
 
-获取一个布尔值，该值指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。默认值是true 。
+Gets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. The default value is  true .
 
-**退货:**
- boolean - 一个布尔值，指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。
+**Returns:**
+boolean - A boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used.
 ### getIgnoreTextBoxes() {#getIgnoreTextBoxes--}
 ```
 public boolean getIgnoreTextBoxes()
 ```
 
 
-获取一个布尔值，该值指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。默认值是true 。
+Gets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. The default value is  true .
 
-**退货:**
-boolean - 一个布尔值，指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。
+**Returns:**
+boolean - A boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used.
 ### getKeepSourceNumbering() {#getKeepSourceNumbering--}
 ```
 public boolean getKeepSourceNumbering()
 ```
 
 
-获取一个布尔值，该值指定编号在源文档和目标文档中发生冲突时如何导入。默认值为 false 。
+Gets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is  false .
 
-**退货:**
-boolean - 一个布尔值，用于指定编号在源文档和目标文档中发生冲突时如何导入。
+**Returns:**
+boolean - A boolean value that specifies how the numbering will be imported when it clashes in source and destination documents.
 ### getMergePastedLists() {#getMergePastedLists--}
 ```
 public boolean getMergePastedLists()
 ```
 
 
-获取一个布尔值，该值指定是否将粘贴的列表与周围的列表合并。默认值为 false 。
+Gets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is  false .
 
-**退货:**
-boolean - 一个布尔值，指定是否将粘贴的列表与周围的列表合并。
+**Returns:**
+boolean - A boolean value that specifies whether pasted lists will be merged with surrounding lists.
 ### getSmartStyleBehavior() {#getSmartStyleBehavior--}
 ```
 public boolean getSmartStyleBehavior()
 ```
 
 
-获取一个布尔值，该值指定样式在源文档和目标文档中具有相同名称时如何导入。默认值为 false 。
+Gets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is  false .
 
-当这个选项是**enabled**，源样式将扩展为目标文档内的直接属性，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用导入模式。
+When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) importing mode is used.
 
-当这个选项是**disabled**, 源样式只有在被编号时才会被扩展。现有的目标属性不会被覆盖，包括列表。
+When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 
-**退货:**
-boolean - 一个布尔值，指定在源文档和目标文档中具有相同名称时如何导入样式。
+**Returns:**
+boolean - A boolean value that specifies how styles will be imported when they have equal names in source and destination documents.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -144,8 +144,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,18 +168,18 @@ public void setForceCopyStyles(boolean value)
 ```
 
 
-设置一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。默认值为 false 。
+Sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode. The default value is  false .
 
-默认情况下，如果目标文档中已经存在匹配的样式，则源样式格式会扩展为直接节点属性，并且此节点的样式会重置为默认值。
+By default, if a matching style already exists in a destination document, the source style formatting is expanded into direct node attributes and the style of this node is reset to a default.
 
-当此选项设置为 true 时，源样式将被强制复制到具有唯一名称的目标文档中并应用于导入的节点。
+When this option is set to  true , the source style will be forcibly copied into destination document with unique name and applied to the imported node.
 
-请注意，在这种情况下，不能保证将保留目标文档中导入节点的格式。
+Note, in this case it is not guaranteed that formatting of the imported node in destination document will be preserved.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指示复制冲突的样式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)模式。 |
+| value | boolean | A boolean value indicating either to copy conflicting styles in [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode. |
 
 ### setIgnoreHeaderFooter(boolean value) {#setIgnoreHeaderFooter-boolean-}
 ```
@@ -187,12 +187,12 @@ public void setIgnoreHeaderFooter(boolean value)
 ```
 
 
-设置一个布尔值，指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。默认值是true 。
+Sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. The default value is  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指定在以下情况下忽略页眉/页脚内容的源格式[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
+| value | boolean | A boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
 
 ### setIgnoreTextBoxes(boolean value) {#setIgnoreTextBoxes-boolean-}
 ```
@@ -200,12 +200,12 @@ public void setIgnoreTextBoxes(boolean value)
 ```
 
 
-设置一个布尔值，指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。默认值是true 。
+Sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. The default value is  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指定忽略文本框内容的源格式，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用模式。 |
+| value | boolean | A boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) mode is used. |
 
 ### setKeepSourceNumbering(boolean value) {#setKeepSourceNumbering-boolean-}
 ```
@@ -213,12 +213,12 @@ public void setKeepSourceNumbering(boolean value)
 ```
 
 
-设置一个布尔值，用于指定编号在源文档和目标文档中发生冲突时如何导入。默认值为 false 。
+Sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，用于指定编号在源文档和目标文档中发生冲突时如何导入。 |
+| value | boolean | A boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. |
 
 ### setMergePastedLists(boolean value) {#setMergePastedLists-boolean-}
 ```
@@ -226,12 +226,12 @@ public void setMergePastedLists(boolean value)
 ```
 
 
-设置一个布尔值，指定是否将粘贴的列表与周围的列表合并。默认值为 false 。
+Sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指定是否将粘贴的列表与周围的列表合并。 |
+| value | boolean | A boolean value that specifies whether pasted lists will be merged with surrounding lists. |
 
 ### setSmartStyleBehavior(boolean value) {#setSmartStyleBehavior-boolean-}
 ```
@@ -239,16 +239,16 @@ public void setSmartStyleBehavior(boolean value)
 ```
 
 
-设置一个布尔值，指定样式在源文档和目标文档中具有相同名称时如何导入。默认值为 false 。
+Sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is  false .
 
-当这个选项是**enabled**，源样式将扩展为目标文档内的直接属性，如果[ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING)使用导入模式。
+When this option is **enabled**, the source style will be expanded into a direct attributes inside a destination document, if [ImportFormatMode.KEEP\_SOURCE\_FORMATTING](../../com.aspose.words/importformatmode\#KEEP-SOURCE-FORMATTING) importing mode is used.
 
-当这个选项是**disabled**, 源样式只有在被编号时才会被扩展。现有的目标属性不会被覆盖，包括列表。
+When this option is **disabled**, the source style will be expanded only if it is numbered. Existing destination attributes will not be overridden, including lists.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个布尔值，指定在源文档和目标文档中具有相同名称时如何导入样式。 |
+| value | boolean | A boolean value that specifies how styles will be imported when they have equal names in source and destination documents. |
 
 ### toString() {#toString--}
 ```
@@ -258,7 +258,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -276,8 +276,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -289,8 +289,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,43 +1,43 @@
 ---
 title: DocumentPartSavingArgs
-second_title: Aspose.Words for Java API 参考
-description: 为回调提供数据。
+second_title: Aspose.Words for Java API Reference
+description: Provides data for the  callback.
 type: docs
 weight: 125
-url: /zh/java/com.aspose.words/documentpartsavingargs/
+url: /java/com.aspose.words/documentpartsavingargs/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentPartSavingArgs
 ```
 
-提供数据为[IDocumentPartSavingCallback.documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-)打回来。
+Provides data for the [IDocumentPartSavingCallback.documentPartSaving(com.aspose.words.DocumentPartSavingArgs)](../../com.aspose.words/idocumentpartsavingcallback\#documentPartSaving-com.aspose.words.DocumentPartSavingArgs-) callback.
 
-要了解更多信息，请访问**Save a Document**文档文章。
+To learn more, visit the **Save a Document** documentation article.
 
-当 Aspose.Words 将文档保存为 HTML 或相关格式时[HtmlSaveOptions.getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [HtmlSaveOptions.setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-)指定时，文档被拆分为多个部分，默认情况下，每个文档部分都保存到一个单独的文件中。
+When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.getDocumentSplitCriteria()](../../com.aspose.words/htmlsaveoptions\#getDocumentSplitCriteria--) / [HtmlSaveOptions.setDocumentSplitCriteria(int)](../../com.aspose.words/htmlsaveoptions\#setDocumentSplitCriteria-int-) is specified, the document is split into parts and by default, each document part is saved into a separate file.
 
-班级[DocumentPartSavingArgs](../../com.aspose.words/documentpartsavingargs)允许您控制如何保存每个文档部分。它允许重新定义文件名的生成方式或通过提供您自己的流对象来完全避免将文档部分保存到文件中。
+Class [DocumentPartSavingArgs](../../com.aspose.words/documentpartsavingargs) allows you to control how each document part will be saved. It allows to redefine how file names are generated or to completely circumvent saving of document parts into files by providing your own stream objects.
 
-要将文档部分保存到流而不是文件中，请使用**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**财产。
-## 方法s
+To save document parts into streams instead of files, use the **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** property.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDocument()](#getDocument--) | 获取正在保存的文档对象。 |
-| [getDocumentPartFileName()](#getDocumentPartFileName--) | 获取文档部分将保存到的文件名（不带路径）。 |
+| [getClass()](#getClass--) |  |
+| [getDocument()](#getDocument--) | Gets the document object that is being saved. |
+| [getDocumentPartFileName()](#getDocumentPartFileName--) | Gets the file name (without path) where the document part will be saved to. |
 | [getDocumentPartStream()](#getDocumentPartStream--) |  |
-| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen--) | 指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。 |
+| [getKeepDocumentPartStreamOpen()](#getKeepDocumentPartStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String-) | 设置文档部分将保存到的文件名（不带路径）。 |
+| [setDocumentPartFileName(String value)](#setDocumentPartFileName-java.lang.String-) | Sets the file name (without path) where the document part will be saved to. |
 | [setDocumentPartStream(OutputStream value)](#setDocumentPartStream-java.io.OutputStream-) |  |
-| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean-) | 指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。 |
+| [setKeepDocumentPartStreamOpen(boolean value)](#setKeepDocumentPartStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving a document part. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,51 +50,51 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
 ```
 
 
-获取正在保存的文档对象。
+Gets the document object that is being saved.
 
-**退货:**
-[Document](../../com.aspose.words/document) - 正在保存的文档对象。
+**Returns:**
+[Document](../../com.aspose.words/document) - The document object that is being saved.
 ### getDocumentPartFileName() {#getDocumentPartFileName--}
 ```
 public String getDocumentPartFileName()
 ```
 
 
-获取文档部分将保存到的文件名（不带路径）。
+Gets the file name (without path) where the document part will be saved to.
 
-此属性允许您重新定义在导出到 HTML 或 EPUB 期间如何生成文档部分文件名。
+This property allows you to redefine how the document part file names are generated during export to HTML or EPUB.
 
-调用回调时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将文档部分保存到不同的文件中。请注意，每个部分的文件名必须是唯一的。
+When the callback is invoked, this property contains the file name that was generated by Aspose.Words. You can change the value of this property to save the document part into a different file. Note that the file name for each part must be unique.
 
-[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-)必须只包含文件名而不包含路径。 Aspose.Words 使用文档文件名确定保存路径。如果未指定输出文档文件名，例如保存到流时，此文件名仅用于引用文档部分。保存为 EPUB 格式时也是如此。
+[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**退货:**
-java.lang.String - 文档部分将保存到的文件名（无路径）。
+**Returns:**
+java.lang.String - The file name (without path) where the document part will be saved to.
 ### getDocumentPartStream() {#getDocumentPartStream--}
 ```
 public OutputStream getDocumentPartStream()
@@ -103,7 +103,7 @@ public OutputStream getDocumentPartStream()
 
 
 
-**退货:**
+**Returns:**
 java.io.OutputStream
 ### getKeepDocumentPartStreamOpen() {#getKeepDocumentPartStreamOpen--}
 ```
@@ -111,14 +111,14 @@ public boolean getKeepDocumentPartStreamOpen()
 ```
 
 
-指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。
+Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** property after writing a document part into it. Specify  true  to keep the stream open. Please note that the main output stream provided in the call to **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** or **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** will never be closed by Aspose.Words even if [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-) is set to  false .
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -127,8 +127,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -151,20 +151,20 @@ public void setDocumentPartFileName(String value)
 ```
 
 
-设置文档部分将保存到的文件名（不带路径）。
+Sets the file name (without path) where the document part will be saved to.
 
-此属性允许您重新定义在导出到 HTML 或 EPUB 期间如何生成文档部分文件名。
+This property allows you to redefine how the document part file names are generated during export to HTML or EPUB.
 
-调用回调时，此属性包含由 Aspose.Words 生成的文件名。您可以更改此属性的值以将文档部分保存到不同的文件中。请注意，每个部分的文件名必须是唯一的。
+When the callback is invoked, this property contains the file name that was generated by Aspose.Words. You can change the value of this property to save the document part into a different file. Note that the file name for each part must be unique.
 
-[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-)必须只包含文件名而不包含路径。 Aspose.Words 使用文档文件名确定保存路径。如果未指定输出文档文件名，例如保存到流时，此文件名仅用于引用文档部分。保存为 EPUB 格式时也是如此。
+[getDocumentPartFileName()](../../com.aspose.words/documentpartsavingargs\#getDocumentPartFileName--) / [setDocumentPartFileName(java.lang.String)](../../com.aspose.words/documentpartsavingargs\#setDocumentPartFileName-java.lang.String-) must contain only the file name without the path. Aspose.Words determines the path for saving using the document file name. If output document file name was not specified, for instance when saving to a stream, this file name is used only for referencing document parts. The same is true when saving to EPUB format.
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文档部分将保存到的文件名（不带路径）。 |
+| value | java.lang.String | The file name (without path) where the document part will be saved to. |
 
 ### setDocumentPartStream(OutputStream value) {#setDocumentPartStream-java.io.OutputStream-}
 ```
@@ -174,8 +174,8 @@ public void setDocumentPartStream(OutputStream value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
 
@@ -185,16 +185,16 @@ public void setKeepDocumentPartStreamOpen(boolean value)
 ```
 
 
-指定 Aspose.Words 应该在保存文档部分后保持流打开还是关闭它。
+Specifies whether Aspose.Words should keep the stream open or close it after saving a document part.
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**将文档部分写入其中后的属性。指定 true 以保持流打开。请注意，调用中提供的主要输出流**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)**或者**M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)**永远不会被 Aspose.Words 关闭，即使[getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-)设置为 false 。
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream** property after writing a document part into it. Specify  true  to keep the stream open. Please note that the main output stream provided in the call to **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat)** or **M:Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)** will never be closed by Aspose.Words even if [getKeepDocumentPartStreamOpen()](../../com.aspose.words/documentpartsavingargs\#getKeepDocumentPartStreamOpen--) / [setKeepDocumentPartStreamOpen(boolean)](../../com.aspose.words/documentpartsavingargs\#setKeepDocumentPartStreamOpen-boolean-) is set to  false .
 
 **P:Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream**
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -222,8 +222,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -235,8 +235,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

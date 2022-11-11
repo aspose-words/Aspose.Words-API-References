@@ -1,35 +1,35 @@
 ---
 title: AxisTickMark
-second_title: Aspose.Words for Java API 参考
-description: 指定刻度线的可能位置。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the possible positions for tick marks.
 type: docs
 weight: 24
-url: /zh/java/com.aspose.words/axistickmark/
+url: /java/com.aspose.words/axistickmark/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class AxisTickMark
 ```
 
-指定刻度线的可能位置。
-## 字段
+Specifies the possible positions for tick marks.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CROSS](#CROSS) | 指定刻度线应穿过轴。 |
-| [INSIDE](#INSIDE) | 指定刻度线应位于绘图区域内。 |
-| [NONE](#NONE) | 指定不应有刻度线。 |
-| [OUTSIDE](#OUTSIDE) | 指定刻度线应位于绘图区域之外。 |
+| [CROSS](#CROSS) | Specifies that the tick marks shall cross the axis. |
+| [INSIDE](#INSIDE) | Specifies that the tick marks shall be inside the plot area. |
+| [NONE](#NONE) | Specifies that there shall be no tick marks. |
+| [OUTSIDE](#OUTSIDE) | Specifies that the tick marks shall be outside the plot area. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTickMarkName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisTickMark)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int CROSS
 ```
 
 
-指定刻度线应穿过轴。
+Specifies that the tick marks shall cross the axis.
 
 ### INSIDE {#INSIDE}
 ```
@@ -54,7 +54,7 @@ public static int INSIDE
 ```
 
 
-指定刻度线应位于绘图区域内。
+Specifies that the tick marks shall be inside the plot area.
 
 ### NONE {#NONE}
 ```
@@ -62,7 +62,7 @@ public static int NONE
 ```
 
 
-指定不应有刻度线。
+Specifies that there shall be no tick marks.
 
 ### OUTSIDE {#OUTSIDE}
 ```
@@ -70,7 +70,7 @@ public static int OUTSIDE
 ```
 
 
-指定刻度线应位于绘图区域之外。
+Specifies that the tick marks shall be outside the plot area.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String axisTickMarkName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String axisTickMarkName)
@@ -101,23 +101,23 @@ public static int fromName(String axisTickMarkName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTickMarkName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int axisTickMark) {#getName-int-}
 ```
 public static String getName(int axisTickMark)
@@ -126,12 +126,12 @@ public static String getName(int axisTickMark)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTickMark | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int axisTickMark) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int axisTickMark)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTickMark | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

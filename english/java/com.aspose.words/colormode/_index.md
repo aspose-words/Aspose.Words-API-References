@@ -1,33 +1,33 @@
 ---
 title: ColorMode
-second_title: Aspose.Words for Java API 参考
-description: 指定如何呈现颜色。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how colors are rendered.
 type: docs
 weight: 75
-url: /zh/java/com.aspose.words/colormode/
+url: /java/com.aspose.words/colormode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ColorMode
 ```
 
-指定如何呈现颜色。
-## 字段
+Specifies how colors are rendered.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [GRAYSCALE](#GRAYSCALE) | 使用从白色到黑色的一系列灰色阴影进行渲染。 |
-| [NORMAL](#NORMAL) | 使用未修改的颜色进行渲染。 |
+| [GRAYSCALE](#GRAYSCALE) | Rendering with colors in a range of gray shades from white to black. |
+| [NORMAL](#NORMAL) | Rendering with unmodified colors. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String colorModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int colorMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int GRAYSCALE
 ```
 
 
-使用从白色到黑色的一系列灰色阴影进行渲染。
+Rendering with colors in a range of gray shades from white to black.
 
 ### NORMAL {#NORMAL}
 ```
@@ -52,7 +52,7 @@ public static int NORMAL
 ```
 
 
-使用未修改的颜色进行渲染。
+Rendering with unmodified colors.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String colorModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String colorModeName)
@@ -83,23 +83,23 @@ public static int fromName(String colorModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | colorModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int colorMode) {#getName-int-}
 ```
 public static String getName(int colorMode)
@@ -108,12 +108,12 @@ public static String getName(int colorMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | colorMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int colorMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int colorMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | colorMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

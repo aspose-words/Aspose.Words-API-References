@@ -1,39 +1,39 @@
 ---
 title: VerticalAlignment
 second_title: Aspose.Words for Java API Reference
-description: 指定浮动形状文本框或浮动表格的垂直对齐方式。
+description: Specifies vertical alignment of a floating shape text frame or a floating table.
 type: docs
 weight: 600
-url: /zh/java/com.aspose.words/verticalalignment/
+url: /java/com.aspose.words/verticalalignment/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class VerticalAlignment
 ```
 
-指定浮动形状、文本框架或浮动表格的垂直对齐方式。
-## 字段
+Specifies vertical alignment of a floating shape, text frame or a floating table.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 指定对象应位于垂直对齐基础的底部。 |
-| [CENTER](#CENTER) | 指定对象应相对于垂直对齐基准居中。 |
-| [DEFAULT](#DEFAULT) | 如同[NONE](../../com.aspose.words/verticalalignment\#NONE). |
-| [INLINE](#INLINE) | 没有记录。 |
-| [INSIDE](#INSIDE) | 指定对象应位于水平对齐基础内。 |
-| [NONE](#NONE) | 对象被显式定位，通常使用它的**Top**财产。 |
-| [OUTSIDE](#OUTSIDE) | 指定对象应在垂直对齐基准之外。 |
-| [TOP](#TOP) | 指定对象应位于垂直对齐基础的顶部。 |
+| [BOTTOM](#BOTTOM) | Specifies that the object shall be at the bottom of the vertical alignment base. |
+| [CENTER](#CENTER) | Specifies that the object shall be centered with respect to the vertical alignment base. |
+| [DEFAULT](#DEFAULT) | Same as [NONE](../../com.aspose.words/verticalalignment\#NONE). |
+| [INLINE](#INLINE) | Not documented. |
+| [INSIDE](#INSIDE) | Specifies that the object shall be inside of the horizontal alignment base. |
+| [NONE](#NONE) | The object is explicitly positioned, usually using its **Top** property. |
+| [OUTSIDE](#OUTSIDE) | Specifies that the object shall be outside of the vertical alignment base. |
+| [TOP](#TOP) | Specifies that the object shall be at the top of the vertical alignment base. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String verticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int verticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -50,7 +50,7 @@ public static int BOTTOM
 ```
 
 
-指定对象应位于垂直对齐基础的底部。
+Specifies that the object shall be at the bottom of the vertical alignment base.
 
 ### CENTER {#CENTER}
 ```
@@ -58,7 +58,7 @@ public static int CENTER
 ```
 
 
-指定对象应相对于垂直对齐基准居中。
+Specifies that the object shall be centered with respect to the vertical alignment base.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -66,7 +66,7 @@ public static int DEFAULT
 ```
 
 
-如同[NONE](../../com.aspose.words/verticalalignment\#NONE).
+Same as [NONE](../../com.aspose.words/verticalalignment\#NONE).
 
 ### INLINE {#INLINE}
 ```
@@ -74,7 +74,7 @@ public static int INLINE
 ```
 
 
-没有记录。似乎是浮动段落和表格的可能值。
+Not documented. Seems to be a possible value for floating paragraphs and tables.
 
 ### INSIDE {#INSIDE}
 ```
@@ -82,7 +82,7 @@ public static int INSIDE
 ```
 
 
-指定对象应位于水平对齐基础内。
+Specifies that the object shall be inside of the horizontal alignment base.
 
 ### NONE {#NONE}
 ```
@@ -90,7 +90,7 @@ public static int NONE
 ```
 
 
-对象被显式定位，通常使用它的**Top**财产。
+The object is explicitly positioned, usually using its **Top** property.
 
 ### OUTSIDE {#OUTSIDE}
 ```
@@ -98,7 +98,7 @@ public static int OUTSIDE
 ```
 
 
-指定对象应在垂直对齐基准之外。
+Specifies that the object shall be outside of the vertical alignment base.
 
 ### TOP {#TOP}
 ```
@@ -106,7 +106,7 @@ public static int TOP
 ```
 
 
-指定对象应位于垂直对齐基础的顶部。
+Specifies that the object shall be at the top of the vertical alignment base.
 
 ### length {#length}
 ```
@@ -122,13 +122,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String verticalAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String verticalAlignmentName)
@@ -137,23 +137,23 @@ public static int fromName(String verticalAlignmentName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | verticalAlignmentName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int verticalAlignment) {#getName-int-}
 ```
 public static String getName(int verticalAlignment)
@@ -162,12 +162,12 @@ public static String getName(int verticalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,7 +213,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int verticalAlignment) {#toString-int-}
 ```
@@ -223,12 +223,12 @@ public static String toString(int verticalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | verticalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,8 +259,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

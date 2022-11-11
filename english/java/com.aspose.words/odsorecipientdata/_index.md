@@ -1,44 +1,44 @@
 ---
 title: OdsoRecipientData
-second_title: Aspose.Words for Java API 参考
-description: 表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。
+second_title: Aspose.Words for Java API Reference
+description: Represents information about a single record within an external data source that is to be excluded from the mail merge.
 type: docs
 weight: 416
-url: /zh/java/com.aspose.words/odsorecipientdata/
+url: /java/com.aspose.words/odsorecipientdata/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class OdsoRecipientData implements Cloneable
 ```
 
-表示有关要从邮件合并中排除的外部数据源中的单个记录的信息。
+Represents information about a single record within an external data source that is to be excluded from the mail merge.
 
-要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
+To learn more, visit the **Mail Merge and Reporting** documentation article.
 
-如果将记录合并到合并文档中，则不需要有关该记录的信息。但是，如果给定记录不应合并到合并文档中，则该记录的唯一键值应存储在[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)此对象的属性以指示此排除。
-## 方法s
+If a record shall be merged into a merged document, then no information is needed about that record. However, if a given record shall not be merged into a merged document, then the value of the unique key for that record shall be stored in the [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) property of this object to indicate this exclusion.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone--) | 返回此对象的深层克隆。 |
+| [deepClone()](#deepClone--) | Returns a deep clone of this object. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getActive()](#getActive--) | 指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。 |
-| [get班级()](#get班级--) |  |
-| [getColumn()](#getColumn--) | 指定数据源中包含当前记录的唯一数据的列。 |
-| [getHash()](#getHash--) | 表示此记录的哈希码。 |
-| [getUniqueTag()](#getUniqueTag--) | 指定包含唯一数据的列中给定记录的内容。 |
+| [getActive()](#getActive--) | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. |
+| [getClass()](#getClass--) |  |
+| [getColumn()](#getColumn--) | Specifies the column within the data source that contains unique data for the current record. |
+| [getHash()](#getHash--) | Represents the hash code for this record. |
+| [getUniqueTag()](#getUniqueTag--) | Specifies the contents of a given record in the column containing unique data. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setActive(boolean value)](#setActive-boolean-) | 指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。 |
-| [setColumn(int value)](#setColumn-int-) | 指定数据源中包含当前记录的唯一数据的列。 |
-| [setHash(int value)](#setHash-int-) | 表示此记录的哈希码。 |
-| [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | 指定包含唯一数据的列中给定记录的内容。 |
+| [setActive(boolean value)](#setActive-boolean-) | Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. |
+| [setColumn(int value)](#setColumn-int-) | Specifies the column within the data source that contains unique data for the current record. |
+| [setHash(int value)](#setHash-int-) | Represents the hash code for this record. |
+| [setUniqueTag(byte[] value)](#setUniqueTag-byte---) | Specifies the contents of a given record in the column containing unique data. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -49,9 +49,9 @@ public OdsoRecipientData deepClone()
 ```
 
 
-返回此对象的深层克隆。
+Returns a deep clone of this object.
 
-**退货:**
+**Returns:**
 [OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -61,63 +61,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getActive() {#getActive--}
 ```
 public boolean getActive()
 ```
 
 
-指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。默认值是true 。
+Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is  true .
 
-**退货:**
-boolean - 对应的布尔值。
-### get班级() {#get班级--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumn() {#getColumn--}
 ```
 public int getColumn()
 ```
 
 
-指定数据源中包含当前记录的唯一数据的列。默认值为 0。
+Specifies the column within the data source that contains unique data for the current record. The default value is 0.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getHash() {#getHash--}
 ```
 public int getHash()
 ```
 
 
-表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整条记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getUniqueTag() {#getUniqueTag--}
 ```
 public byte[] getUniqueTag()
 ```
 
 
-指定包含唯一数据的列中给定记录的内容。默认值为 null 。
+Specifies the contents of a given record in the column containing unique data. The default value is  null .
 
-**退货:**
-字节[- 对应的字节[] 价值。
+**Returns:**
+byte[] - The corresponding byte[] value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -126,8 +126,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -150,12 +150,12 @@ public void setActive(boolean value)
 ```
 
 
-指定在执行邮件合并时是否应将来自数据源的记录导入到文档中。默认值是true 。
+Specifies whether the record from the data source shall be imported into a document when the mail merge is performed. The default value is  true .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setColumn(int value) {#setColumn-int-}
 ```
@@ -163,12 +163,12 @@ public void setColumn(int value)
 ```
 
 
-指定数据源中包含当前记录的唯一数据的列。默认值为 0。
+Specifies the column within the data source that contains unique data for the current record. The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setHash(int value) {#setHash-int-}
 ```
@@ -176,12 +176,12 @@ public void setHash(int value)
 ```
 
 
-表示此记录的哈希码。有时 Microsoft Word 使用[getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-)整条记录而不是[getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---)价值。默认值为 0。
+Represents the hash code for this record. Sometimes Microsoft Word uses [getHash()](../../com.aspose.words/odsorecipientdata\#getHash--) / [setHash(int)](../../com.aspose.words/odsorecipientdata\#setHash-int-) of a whole record instead of a [getUniqueTag()](../../com.aspose.words/odsorecipientdata\#getUniqueTag--) / [setUniqueTag(byte[])](../../com.aspose.words/odsorecipientdata\#setUniqueTag-byte---) value. The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setUniqueTag(byte[] value) {#setUniqueTag-byte---}
 ```
@@ -189,12 +189,12 @@ public void setUniqueTag(byte[] value)
 ```
 
 
-指定包含唯一数据的列中给定记录的内容。默认值为 null 。
+Specifies the contents of a given record in the column containing unique data. The default value is  null .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] | 对应的字节[] 价值。 |
+| value | byte[] | The corresponding byte[] value. |
 
 ### toString() {#toString--}
 ```
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -222,8 +222,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -235,8 +235,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

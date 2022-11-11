@@ -1,33 +1,33 @@
 ---
 title: PdfImageColorSpaceExportMode
-second_title: Aspose.Words for Java API 参考
-description: 指定如何为 PDF 文档中的图像选择色彩空间。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how the color space will be selected for the images in PDF document.
 type: docs
 weight: 456
-url: /zh/java/com.aspose.words/pdfimagecolorspaceexportmode/
+url: /java/com.aspose.words/pdfimagecolorspaceexportmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfImageColorSpaceExportMode
 ```
 
-指定如何为 PDF 文档中的图像选择色彩空间。
-## 字段
+Specifies how the color space will be selected for the images in PDF document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | Aspose.Words 自动为每个图像选择最合适的色彩空间。 |
-| [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words 使用简单的公式将 RGB 图像转换为 CMYK 颜色空间。 |
+| [AUTO](#AUTO) | Aspose.Words automatically selects the most appropriate color space for each image. |
+| [SIMPLE_CMYK](#SIMPLE-CMYK) | Aspose.Words coverts RGB images to CMYK color space using simple formula. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfImageColorSpaceExportModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfImageColorSpaceExportMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,11 +44,11 @@ public static int AUTO
 ```
 
 
-Aspose.Words 自动为每个图像选择最合适的色彩空间。
+Aspose.Words automatically selects the most appropriate color space for each image.
 
-大多数图像保存在 RGB 颜色空间中。也可以使用索引和灰度颜色空间。从不使用 CMYK 颜色空间。
+Most of the images are saved in RGB color space. Also Indexed and Grayscale color spaces may be used. CMYK color space is never used.
 
-对于某些图像，不同平台上的色彩空间可能不同。
+For some images the color space may be different on different platforms.
 
 ### SIMPLE_CMYK {#SIMPLE-CMYK}
 ```
@@ -56,9 +56,9 @@ public static int SIMPLE_CMYK
 ```
 
 
-Aspose.Words 使用简单的公式将 RGB 图像转换为 CMYK 颜色空间。
+Aspose.Words coverts RGB images to CMYK color space using simple formula.
 
-使用公式将 RGB 颜色空间中的图像转换为 CMYK：黑色 = 最小值（1-红色，1-绿色，1-蓝色）。青色 = (1-红-黑)/(1-黑)。洋红色 = (1-绿色-黑色)/(1-黑色)。黄色 = (1-蓝-黑)/(1-黑)。 RGB 值已标准化 - 它们介于 0 和 1.0 之间。
+Images in RGB color space are converted to CMYK using formula: Black = minimum(1-Red,1-Green,1-Blue). Cyan = (1-Red-Black)/(1-Black). Magenta = (1-Green-Black)/(1-Black). Yellow = (1-Blue-Black)/(1-Black). RGB values are normalized - they are between 0 and 1.0.
 
 ### length {#length}
 ```
@@ -74,13 +74,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pdfImageColorSpaceExportModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfImageColorSpaceExportModeName)
@@ -89,23 +89,23 @@ public static int fromName(String pdfImageColorSpaceExportModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageColorSpaceExportModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pdfImageColorSpaceExportMode) {#getName-int-}
 ```
 public static String getName(int pdfImageColorSpaceExportMode)
@@ -114,12 +114,12 @@ public static String getName(int pdfImageColorSpaceExportMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageColorSpaceExportMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -129,8 +129,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -139,8 +139,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -165,7 +165,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pdfImageColorSpaceExportMode) {#toString-int-}
 ```
@@ -175,12 +175,12 @@ public static String toString(int pdfImageColorSpaceExportMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfImageColorSpaceExportMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -198,8 +198,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -211,8 +211,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,41 +1,41 @@
 ---
 title: HyphenationOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许配置文档断字选项。
+second_title: Aspose.Words for Java API Reference
+description: Allows to configure document hyphenation options.
 type: docs
 weight: 334
-url: /zh/java/com.aspose.words/hyphenationoptions/
+url: /java/com.aspose.words/hyphenationoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class HyphenationOptions implements Cloneable
 ```
 
-允许配置文档断字选项。
+Allows to configure document hyphenation options.
 
-要了解更多信息，请访问**Working with Hyphenation**文档文章。
-## 方法s
+To learn more, visit the **Working with Hyphenation** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAutoHyphenation()](#getAutoHyphenation--) | 获取确定是否为文档打开自动断字的值。 |
-| [get班级()](#get班级--) |  |
-| [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit--) | 获取可以以连字符结尾的最大连续行数。 |
-| [getHyphenateCaps()](#getHyphenateCaps--) | 获取确定以大写字母书写的单词是否带有连字符的值。 |
-| [getHyphenationZone()](#getHyphenationZone--) | 获取距您不想连字的单词的右边距的 1/20 点的距离。 |
+| [getAutoHyphenation()](#getAutoHyphenation--) | Gets value determining whether automatic hyphenation is turned on for the document. |
+| [getClass()](#getClass--) |  |
+| [getConsecutiveHyphenLimit()](#getConsecutiveHyphenLimit--) | Gets the maximum number of consecutive lines that can end with hyphens. |
+| [getHyphenateCaps()](#getHyphenateCaps--) | Gets value determining whether words written in all capital letters are hyphenated. |
+| [getHyphenationZone()](#getHyphenationZone--) | Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean-) | 设置确定是否为文档打开自动断字的值。 |
-| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int-) | 设置可以以连字符结尾的最大连续行数。 |
-| [setHyphenateCaps(boolean value)](#setHyphenateCaps-boolean-) | 设置确定所有大写字母的单词是否连字符。 |
-| [setHyphenationZone(int value)](#setHyphenationZone-int-) | 以 1/20 为单位设置距您不想连字的单词的右边距的距离。 |
+| [setAutoHyphenation(boolean value)](#setAutoHyphenation-boolean-) | Sets value determining whether automatic hyphenation is turned on for the document. |
+| [setConsecutiveHyphenLimit(int value)](#setConsecutiveHyphenLimit-int-) | Sets the maximum number of consecutive lines that can end with hyphens. |
+| [setHyphenateCaps(boolean value)](#setHyphenateCaps-boolean-) | Sets value determining whether words written in all capital letters are hyphenated. |
+| [setHyphenationZone(int value)](#setHyphenationZone-int-) | Sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,67 +48,67 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAutoHyphenation() {#getAutoHyphenation--}
 ```
 public boolean getAutoHyphenation()
 ```
 
 
-获取确定是否为文档打开自动断字的值。此属性的默认值为**false**.
+Gets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
 
-**退货:**
-boolean - 确定是否为文档打开自动断字的值。
-### get班级() {#get班级--}
+**Returns:**
+boolean - Value determining whether automatic hyphenation is turned on for the document.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getConsecutiveHyphenLimit() {#getConsecutiveHyphenLimit--}
 ```
 public int getConsecutiveHyphenLimit()
 ```
 
 
-获取可以以连字符结尾的最大连续行数。此属性的默认值为 0。
+Gets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0.
 
-如果此属性的值设置为 0，则任意数量的连续行都可以以连字符结尾。
+If value of this property is set to 0, any number of consecutive lines can end with hyphens.
 
-保存为固定页面格式（例如 PDF）时，该属性无效。
+The property does not have effect when saving to fixed page formats e.g. PDF.
 
-**退货:**
-int - 可以以连字符结尾的最大连续行数。
+**Returns:**
+int - The maximum number of consecutive lines that can end with hyphens.
 ### getHyphenateCaps() {#getHyphenateCaps--}
 ```
 public boolean getHyphenateCaps()
 ```
 
 
-获取确定以大写字母书写的单词是否带有连字符的值。此属性的默认值为**true**.
+Gets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
-**退货:**
-boolean - 确定以大写字母书写的单词是否带有连字符的值。
+**Returns:**
+boolean - Value determining whether words written in all capital letters are hyphenated.
 ### getHyphenationZone() {#getHyphenationZone--}
 ```
 public int getHyphenationZone()
 ```
 
 
-获取距您不想连字的单词的右边距的 1/20 点的距离。此属性的默认值为 360（0.25 英寸）。
+Gets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch).
 
-**退货:**
-int - 距右边距的 1/20 点的距离，在该距离内您不想连字。
+**Returns:**
+int - The distance in 1/20 of a point from the right margin within which you do not want to hyphenate words.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -117,8 +117,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -141,12 +141,12 @@ public void setAutoHyphenation(boolean value)
 ```
 
 
-设置确定是否为文档打开自动断字的值。此属性的默认值为**false**.
+Sets value determining whether automatic hyphenation is turned on for the document. Default value for this property is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 确定是否为文档打开自动断字的值。 |
+| value | boolean | Value determining whether automatic hyphenation is turned on for the document. |
 
 ### setConsecutiveHyphenLimit(int value) {#setConsecutiveHyphenLimit-int-}
 ```
@@ -154,16 +154,16 @@ public void setConsecutiveHyphenLimit(int value)
 ```
 
 
-设置可以以连字符结尾的最大连续行数。此属性的默认值为 0。
+Sets the maximum number of consecutive lines that can end with hyphens. Default value for this property is 0.
 
-如果此属性的值设置为 0，则任意数量的连续行都可以以连字符结尾。
+If value of this property is set to 0, any number of consecutive lines can end with hyphens.
 
-保存为固定页面格式（例如 PDF）时，该属性无效。
+The property does not have effect when saving to fixed page formats e.g. PDF.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 可以以连字符结尾的最大连续行数。 |
+| value | int | The maximum number of consecutive lines that can end with hyphens. |
 
 ### setHyphenateCaps(boolean value) {#setHyphenateCaps-boolean-}
 ```
@@ -171,12 +171,12 @@ public void setHyphenateCaps(boolean value)
 ```
 
 
-设置确定所有大写字母的单词是否连字符。此属性的默认值为**true**.
+Sets value determining whether words written in all capital letters are hyphenated. Default value for this property is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 确定以大写字母书写的单词是否带有连字符的值。 |
+| value | boolean | Value determining whether words written in all capital letters are hyphenated. |
 
 ### setHyphenationZone(int value) {#setHyphenationZone-int-}
 ```
@@ -184,12 +184,12 @@ public void setHyphenationZone(int value)
 ```
 
 
-以 1/20 为单位设置距您不想连字的单词的右边距的距离。此属性的默认值为 360（0.25 英寸）。
+Sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. Default value for this property is 360 (0.25 inch).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 距离右边距 1/20 点的距离，在该距离内您不想连字。 |
+| value | int | The distance in 1/20 of a point from the right margin within which you do not want to hyphenate words. |
 
 ### toString() {#toString--}
 ```
@@ -199,7 +199,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -217,8 +217,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -230,8 +230,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

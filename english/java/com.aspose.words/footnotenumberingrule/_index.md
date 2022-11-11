@@ -1,35 +1,35 @@
 ---
 title: FootnoteNumberingRule
-second_title: Aspose.Words for Java API 参考
-description: 确定自动脚注或尾注编号何时重新开始。
+second_title: Aspose.Words for Java API Reference
+description: Determines when automatic footnote or endnote numbering restarts.
 type: docs
 weight: 292
-url: /zh/java/com.aspose.words/footnotenumberingrule/
+url: /java/com.aspose.words/footnotenumberingrule/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FootnoteNumberingRule
 ```
 
-确定自动脚注或尾注编号何时重新开始。
-## 字段
+Determines when automatic footnote or endnote numbering restarts.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CONTINUOUS](#CONTINUOUS) | 在整个文档中连续编号。 |
-| [DEFAULT](#DEFAULT) | 等于[CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS). |
-| [RESTART_PAGE](#RESTART-PAGE) | 编号在每一页重新开始。 |
-| [RESTART_SECTION](#RESTART-SECTION) | 编号在每个部分重新开始。 |
+| [CONTINUOUS](#CONTINUOUS) | Numbering continuous throughout the document. |
+| [DEFAULT](#DEFAULT) | Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS). |
+| [RESTART_PAGE](#RESTART-PAGE) | Numbering restarts at each page. |
+| [RESTART_SECTION](#RESTART-SECTION) | Numbering restarts at each section. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String footnoteNumberingRuleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int footnoteNumberingRule)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int CONTINUOUS
 ```
 
 
-在整个文档中连续编号。
+Numbering continuous throughout the document.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -54,7 +54,7 @@ public static int DEFAULT
 ```
 
 
-等于[CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
+Equals [CONTINUOUS](../../com.aspose.words/footnotenumberingrule\#CONTINUOUS).
 
 ### RESTART_PAGE {#RESTART-PAGE}
 ```
@@ -62,7 +62,7 @@ public static int RESTART_PAGE
 ```
 
 
-编号在每一页重新开始。仅对脚注有效。
+Numbering restarts at each page. Valid for footnotes only.
 
 ### RESTART_SECTION {#RESTART-SECTION}
 ```
@@ -70,7 +70,7 @@ public static int RESTART_SECTION
 ```
 
 
-编号在每个部分重新开始。
+Numbering restarts at each section.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String footnoteNumberingRuleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String footnoteNumberingRuleName)
@@ -101,23 +101,23 @@ public static int fromName(String footnoteNumberingRuleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | footnoteNumberingRuleName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int footnoteNumberingRule) {#getName-int-}
 ```
 public static String getName(int footnoteNumberingRule)
@@ -126,12 +126,12 @@ public static String getName(int footnoteNumberingRule)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | footnoteNumberingRule | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int footnoteNumberingRule) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int footnoteNumberingRule)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | footnoteNumberingRule | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

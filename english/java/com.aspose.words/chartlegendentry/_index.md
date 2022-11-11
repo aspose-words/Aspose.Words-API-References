@@ -1,41 +1,41 @@
 ---
 title: ChartLegendEntry
-second_title: Aspose.Words for Java API 参考
-description: 表示图表图例条目。
+second_title: Aspose.Words for Java API Reference
+description: Represents a chart legend entry.
 type: docs
 weight: 64
-url: /zh/java/com.aspose.words/chartlegendentry/
+url: /java/com.aspose.words/chartlegendentry/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartLegendEntry implements Cloneable
 ```
 
-表示图表图例条目。
+Represents a chart legend entry.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
+To learn more, visit the **Working with Charts** documentation article.
 
-图例条目对应于特定的图表系列或趋势线。
+A legend entry corresponds to a specific chart series or trendline.
 
-条目的文本是系列或趋势线的名称。无法更改文本。
-## 方法s
+The text of the entry is the name of the series or trendline. The text cannot be changed.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | 提供对此图例条目的字体格式的访问。 |
+| [getFont()](#getFont--) | Provides access to the font formatting of this legend entry. |
 | [hashCode()](#hashCode--) |  |
-| [isHidden()](#isHidden--) | 获取一个值，该值指示此条目是否隐藏在图表图例中。 |
-| [isHidden(boolean value)](#isHidden-boolean-) | 设置一个值，指示此条目是否隐藏在图表图例中。 |
+| [isHidden()](#isHidden--) | Gets a value indicating whether this entry is hidden in the chart legend. |
+| [isHidden(boolean value)](#isHidden-boolean-) | Sets a value indicating whether this entry is hidden in the chart legend. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
@@ -60,13 +60,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int key)
@@ -75,23 +75,23 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int key)
@@ -100,12 +100,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -113,10 +113,10 @@ public Font getFont()
 ```
 
 
-提供对此图例条目的字体格式的访问。
+Provides access to the font formatting of this legend entry.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -125,30 +125,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isHidden() {#isHidden--}
 ```
 public boolean isHidden()
 ```
 
 
-获取一个值，该值指示此条目是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍显示在图表上的相应图表系列或趋势线。
+Gets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that is still displayed on the chart.
 
-**退货:**
-boolean - 指示此条目是否隐藏在图表图例中的值。
+**Returns:**
+boolean - A value indicating whether this entry is hidden in the chart legend.
 ### isHidden(boolean value) {#isHidden-boolean-}
 ```
 public void isHidden(boolean value)
 ```
 
 
-设置一个值，指示此条目是否隐藏在图表图例中。默认值为**false**.当图表图例条目被隐藏时，它不会影响仍显示在图表上的相应图表系列或趋势线。
+Sets a value indicating whether this entry is hidden in the chart legend. The default value is **false**. When a chart legend entry is hidden, it does not affect the corresponding chart series or trendline that is still displayed on the chart.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示此条目是否隐藏在图表图例中的值。 |
+| value | boolean | A value indicating whether this entry is hidden in the chart legend. |
 
 ### notify() {#notify--}
 ```
@@ -174,8 +174,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -187,8 +187,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -201,7 +201,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

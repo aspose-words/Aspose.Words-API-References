@@ -1,33 +1,33 @@
 ---
 title: NodeChangingAction
-second_title: Aspose.Words for Java API 参考
-description: 指定节点更改的类型。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the type of node change.
 type: docs
 weight: 402
-url: /zh/java/com.aspose.words/nodechangingaction/
+url: /java/com.aspose.words/nodechangingaction/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class NodeChangingAction
 ```
 
-指定节点更改的类型。
-## 字段
+Specifies the type of node change.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [INSERT](#INSERT) | 正在向树中插入一个节点。 |
-| [REMOVE](#REMOVE) | 正在从树中删除一个节点。 |
+| [INSERT](#INSERT) | A node is being inserted in the tree. |
+| [REMOVE](#REMOVE) | A node is being removed from the tree. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String nodeChangingActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int nodeChangingAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int INSERT
 ```
 
 
-正在向树中插入一个节点。
+A node is being inserted in the tree.
 
 ### REMOVE {#REMOVE}
 ```
@@ -52,7 +52,7 @@ public static int REMOVE
 ```
 
 
-正在从树中删除一个节点。
+A node is being removed from the tree.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String nodeChangingActionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String nodeChangingActionName)
@@ -83,23 +83,23 @@ public static int fromName(String nodeChangingActionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | nodeChangingActionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int nodeChangingAction) {#getName-int-}
 ```
 public static String getName(int nodeChangingAction)
@@ -108,12 +108,12 @@ public static String getName(int nodeChangingAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | nodeChangingAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int nodeChangingAction) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int nodeChangingAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | nodeChangingAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

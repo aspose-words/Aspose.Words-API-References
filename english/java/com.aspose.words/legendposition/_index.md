@@ -1,37 +1,37 @@
 ---
 title: LegendPosition
-second_title: Aspose.Words for Java API 参考
-description: 指定图表图例的可能位置。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the possible positions for a chart legend.
 type: docs
 weight: 363
-url: /zh/java/com.aspose.words/legendposition/
+url: /java/com.aspose.words/legendposition/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class LegendPosition
 ```
 
-指定图表图例的可能位置。
-## 字段
+Specifies the possible positions for a chart legend.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 指定应在图表底部绘制图例。 |
-| [LEFT](#LEFT) | 指定图例应绘制在图表的左侧。 |
-| [NONE](#NONE) | 图表不会显示图例。 |
-| [RIGHT](#RIGHT) | 指定图例应绘制在图表的右侧。 |
-| [TOP](#TOP) | 指定应在图表顶部绘制图例。 |
-| [TOP_RIGHT](#TOP-RIGHT) | 指定图例应绘制在图表的右上角。 |
+| [BOTTOM](#BOTTOM) | Specifies that the legend shall be drawn at the bottom of the chart. |
+| [LEFT](#LEFT) | Specifies that the legend shall be drawn at the left of the chart. |
+| [NONE](#NONE) | No legend will be shown for the chart. |
+| [RIGHT](#RIGHT) | Specifies that the legend shall be drawn at the right of the chart. |
+| [TOP](#TOP) | Specifies that the legend shall be drawn at the top of the chart. |
+| [TOP_RIGHT](#TOP-RIGHT) | Specifies that the legend shall be drawn at the top right of the chart. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String legendPositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int legendPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int BOTTOM
 ```
 
 
-指定应在图表底部绘制图例。
+Specifies that the legend shall be drawn at the bottom of the chart.
 
 ### LEFT {#LEFT}
 ```
@@ -56,7 +56,7 @@ public static int LEFT
 ```
 
 
-指定图例应绘制在图表的左侧。
+Specifies that the legend shall be drawn at the left of the chart.
 
 ### NONE {#NONE}
 ```
@@ -64,7 +64,7 @@ public static int NONE
 ```
 
 
-图表不会显示图例。
+No legend will be shown for the chart.
 
 ### RIGHT {#RIGHT}
 ```
@@ -72,7 +72,7 @@ public static int RIGHT
 ```
 
 
-指定图例应绘制在图表的右侧。
+Specifies that the legend shall be drawn at the right of the chart.
 
 ### TOP {#TOP}
 ```
@@ -80,7 +80,7 @@ public static int TOP
 ```
 
 
-指定应在图表顶部绘制图例。
+Specifies that the legend shall be drawn at the top of the chart.
 
 ### TOP_RIGHT {#TOP-RIGHT}
 ```
@@ -88,7 +88,7 @@ public static int TOP_RIGHT
 ```
 
 
-指定图例应绘制在图表的右上角。
+Specifies that the legend shall be drawn at the top right of the chart.
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String legendPositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String legendPositionName)
@@ -119,23 +119,23 @@ public static int fromName(String legendPositionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | legendPositionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int legendPosition) {#getName-int-}
 ```
 public static String getName(int legendPosition)
@@ -144,12 +144,12 @@ public static String getName(int legendPosition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int legendPosition) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int legendPosition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | legendPosition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

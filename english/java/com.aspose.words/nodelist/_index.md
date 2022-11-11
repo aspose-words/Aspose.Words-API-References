@@ -1,43 +1,43 @@
 ---
 title: NodeList
-second_title: Aspose.Words for Java API 参考
-description: 表示与使用该方法执行的 XPath 查询匹配的节点集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents a collection of nodes matching an XPath query executed using the  method.
 type: docs
 weight: 406
-url: /zh/java/com.aspose.words/nodelist/
+url: /java/com.aspose.words/nodelist/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class NodeList implements Iterable
 ```
 
-表示与使用执行的 XPath 查询匹配的节点集合[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-)方法。
+Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) method.
 
-要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
+To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
 
-**NodeList**由返回[CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-)并包含与 XPath 查询匹配的节点集合。
+**NodeList** is returned by [CompositeNode.selectNodes(java.lang.String)](../../com.aspose.words/compositenode\#selectNodes-java.lang.String-) and contains a collection of nodes matching the XPath query.
 
-**NodeList**支持索引访问和迭代。
+**NodeList** supports indexed access and iteration.
 
-对待**NodeList**集合作为“快照”集合。**NodeList**以“实时”集合开始，因为在运行 XPath 查询时实际上并未检索到节点。节点仅在访问时被检索，此时节点和它之前的所有节点都被缓存，形成一个“快照”集合。
-## 方法s
+Treat the **NodeList** collection as a "snapshot" collection. **NodeList** starts as a "live" collection because the nodes are not actually retrieved when the XPath query is run. The nodes are only retrieved upon access and at this time the node and all nodes that precede it are cached forming a "snapshot" collection.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 检索给定索引处的节点。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取列表中的节点数。 |
+| [get(int index)](#get-int-) | Retrieves a node at the given index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of nodes in the list. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 在节点集合上提供简单的“foreach”样式迭代。 |
+| [iterator()](#iterator--) | Provides a simple "foreach" style iteration over the collection of nodes. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [toArray()](#toArray--) | 将集合中的所有节点复制到新的节点数组。 |
+| [toArray()](#toArray--) | Copies all nodes from the collection to a new array of nodes. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,56 +50,56 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public Node get(int index)
 ```
 
 
-检索给定索引处的节点。
+Retrieves a node at the given index.
 
-该索引从零开始。
+The index is zero-based.
 
-允许使用负索引并指示从集合的背面进行访问。例如 -1 表示最后一项，-2 表示倒数第二个，依此类推。
+Negative indexes are allowed and indicate access from the back of the collection. For example -1 means the last item, -2 means the second before last and so on.
 
-如果 index 大于或等于列表中的项目数，则返回空引用。
+If index is greater than or equal to the number of items in the list, this returns a null reference.
 
-如果 index 为负且其绝对值大于列表中的项目数，则返回空引用。
+If index is negative and its absolute value is greater than the number of items in the list, this returns a null reference.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 节点列表的索引。 |
+| index | int | An index into the list of nodes. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 相应的[Node](../../com.aspose.words/node)价值。
-### get班级() {#get班级--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The corresponding [Node](../../com.aspose.words/node) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取列表中的节点数。
+Gets the number of nodes in the list.
 
-**退货:**
-int - 列表中的节点数。
+**Returns:**
+int - The number of nodes in the list.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -108,18 +108,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-在节点集合上提供简单的“foreach”样式迭代。
+Provides a simple "foreach" style iteration over the collection of nodes.
 
-**退货:**
-java.util.Iterator - 一个迭代器。
+**Returns:**
+java.util.Iterator - An Iterator.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -142,14 +142,14 @@ public Node[] toArray()
 ```
 
 
-将集合中的所有节点复制到新的节点数组。
+Copies all nodes from the collection to a new array of nodes.
 
-您不应该在迭代节点集合时添加/删除节点，因为它会使迭代器无效并且需要刷新实时集合。
+You should not be adding/removing nodes while iterating over a collection of nodes because it invalidates the iterator and requires refreshes for live collections.
 
-为了能够在迭代期间添加/删除节点，请使用此方法将节点复制到固定大小的数组中，然后遍历该数组。
+To be able to add/remove nodes during iteration, use this method to copy nodes into a fixed-size array and then iterate over the array.
 
-**退货:**
-com.aspose.words.Node[] - 一个节点数组。
+**Returns:**
+com.aspose.words.Node[] - An array of nodes.
 ### toString() {#toString--}
 ```
 public String toString()
@@ -158,7 +158,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -176,8 +176,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -189,8 +189,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

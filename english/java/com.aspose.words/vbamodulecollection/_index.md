@@ -1,39 +1,39 @@
 ---
 title: VbaModuleCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示对象的集合。
+description: Represents a collection of  objects.
 type: docs
 weight: 594
-url: /zh/java/com.aspose.words/vbamodulecollection/
+url: /java/com.aspose.words/vbamodulecollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class VbaModuleCollection implements Iterable
 ```
 
-代表一个集合[VbaModule](../../com.aspose.words/vbamodule)对象。
+Represents a collection of [VbaModule](../../com.aspose.words/vbamodule) objects.
 
-要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 方法s
+To learn more, visit the **Working with VBA Macros** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(VbaModule vbaModule)](#add-com.aspose.words.VbaModule-) | 向集合中添加一个模块。 |
+| [add(VbaModule vbaModule)](#add-com.aspose.words.VbaModule-) | Adds a module to the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 检索一个[VbaModule](../../com.aspose.words/vbamodule)按索引的对象。 |
-| [get(String name)](#get-java.lang.String-) | 检索一个[VbaModule](../../com.aspose.words/vbamodule)按名称显示对象，如果未找到，则返回 Null。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 返回集合中 VBA 模块的数量。 |
+| [get(int index)](#get-int-) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by index. |
+| [get(String name)](#get-java.lang.String-) | Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by name, or Null if not found. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Returns the number of VBA modules in the collection. |
 | [hashCode()](#hashCode--) |  |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(VbaModule module)](#remove-com.aspose.words.VbaModule-) | 从集合中删除指定的模块。 |
+| [remove(VbaModule module)](#remove-com.aspose.words.VbaModule-) | Removes the specified module from the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,10 +44,10 @@ public void add(VbaModule vbaModule)
 ```
 
 
-向集合中添加一个模块。
+Adds a module to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | vbaModule | [VbaModule](../../com.aspose.words/vbamodule) |  |
 
@@ -59,63 +59,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public VbaModule get(int index)
 ```
 
 
-检索一个[VbaModule](../../com.aspose.words/vbamodule)按索引的对象。
+Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 要检索的模块的从零开始的索引。 |
+| index | int | Zero-based index of the module to retrieve. |
 
-**退货:**
-[VbaModule](../../com.aspose.words/vbamodule) - 相应的[VbaModule](../../com.aspose.words/vbamodule)价值。
+**Returns:**
+[VbaModule](../../com.aspose.words/vbamodule) - The corresponding [VbaModule](../../com.aspose.words/vbamodule) value.
 ### get(String name) {#get-java.lang.String-}
 ```
 public VbaModule get(String name)
 ```
 
 
-检索一个[VbaModule](../../com.aspose.words/vbamodule)按名称显示对象，如果未找到，则返回 Null。
+Retrieves a [VbaModule](../../com.aspose.words/vbamodule) object by name, or Null if not found.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | name | java.lang.String |  |
 
-**退货:**
-[VbaModule](../../com.aspose.words/vbamodule) - 相应的[VbaModule](../../com.aspose.words/vbamodule)价值。
-### get班级() {#get班级--}
+**Returns:**
+[VbaModule](../../com.aspose.words/vbamodule) - The corresponding [VbaModule](../../com.aspose.words/vbamodule) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-返回集合中 VBA 模块的数量。
+Returns the number of VBA modules in the collection.
 
-**退货:**
-int - 集合中 VBA 模块的数量。
+**Returns:**
+int - The number of VBA modules in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -124,8 +124,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -134,7 +134,7 @@ public Iterator iterator()
 
 
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -158,12 +158,12 @@ public void remove(VbaModule module)
 ```
 
 
-从集合中删除指定的模块。
+Removes the specified module from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| module | [VbaModule](../../com.aspose.words/vbamodule) | 要移除的模块。 |
+| module | [VbaModule](../../com.aspose.words/vbamodule) | The module to remove. |
 
 ### toString() {#toString--}
 ```
@@ -173,7 +173,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -191,8 +191,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -204,8 +204,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

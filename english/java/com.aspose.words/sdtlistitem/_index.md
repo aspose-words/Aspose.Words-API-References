@@ -1,38 +1,38 @@
 ---
 title: SdtListItem
-second_title: Aspose.Words for Java API 参考
-description: 此元素指定父或结构化文档标记中的单个列表项。
+second_title: Aspose.Words for Java API Reference
+description: This element specifies a single list item within a parent  or  structured document tag.
 type: docs
 weight: 506
-url: /zh/java/com.aspose.words/sdtlistitem/
+url: /java/com.aspose.words/sdtlistitem/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class SdtListItem implements Cloneable
 ```
 
-此元素指定父项中的单个列表项[Sdt类型.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX)或者[Sdt类型.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST)结构化文档标签。
+This element specifies a single list item within a parent [SdtType.COMBO\_BOX](../../com.aspose.words/sdttype\#COMBO-BOX) or [SdtType.DROP\_DOWN\_LIST](../../com.aspose.words/sdttype\#DROP-DOWN-LIST) structured document tag.
 
-要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
-## 构造函数s
+To learn more, visit the **Structured Document Tags or Content Control** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [SdtListItem(String displayText, String value)](#SdtListItem-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-| [SdtListItem(String value)](#SdtListItem-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [SdtListItem(String displayText, String value)](#SdtListItem-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
+| [SdtListItem(String value)](#SdtListItem-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDisplayText()](#getDisplayText--) | 获取要在运行内容中显示的文本以代替[getValue()](../../com.aspose.words/sdtlistitem\#getValue--)此列表项的属性内容。 |
-| [getValue()](#getValue--) | 获取此列表项的值。 |
+| [getClass()](#getClass--) |  |
+| [getDisplayText()](#getDisplayText--) | Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item. |
+| [getValue()](#getValue--) | Gets the value of this list item. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -46,10 +46,10 @@ public SdtListItem(String displayText, String value)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | displayText | java.lang.String |  |
 | value | java.lang.String |  |
@@ -60,10 +60,10 @@ public SdtListItem(String value)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String |  |
 
@@ -75,47 +75,47 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayText() {#getDisplayText--}
 ```
 public String getDisplayText()
 ```
 
 
-获取要在运行内容中显示的文本以代替[getValue()](../../com.aspose.words/sdtlistitem\#getValue--)此列表项的属性内容。
+Gets the text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item.
 
-不能为 null，也不能为空字符串。
+Cannot be null and cannot be an empty string.
 
-**退货:**
- java.lang.String - 在运行内容中显示的文本以代替[getValue()](../../com.aspose.words/sdtlistitem\#getValue--)此列表项的属性内容。
+**Returns:**
+java.lang.String - The text to display in the run content in place of the [getValue()](../../com.aspose.words/sdtlistitem\#getValue--) attribute contents for this list item.
 ### getValue() {#getValue--}
 ```
 public String getValue()
 ```
 
 
-获取此列表项的值。
+Gets the value of this list item.
 
-不能为 null，也不能为空字符串。
+Cannot be null and cannot be an empty string.
 
-**退货:**
-java.lang.String - 此列表项的值。
+**Returns:**
+java.lang.String - The value of this list item.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -124,8 +124,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -150,7 +150,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -168,8 +168,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -181,8 +181,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

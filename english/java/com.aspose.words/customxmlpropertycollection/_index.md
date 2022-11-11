@@ -1,45 +1,45 @@
 ---
 title: CustomXmlPropertyCollection
-second_title: Aspose.Words for Java API 参考
-description: 表示自定义 XML 属性或智能标记属性的集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents a collection of custom XML attributes or smart tag properties.
 type: docs
 weight: 107
-url: /zh/java/com.aspose.words/customxmlpropertycollection/
+url: /java/com.aspose.words/customxmlpropertycollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class CustomXmlPropertyCollection implements Iterable
 ```
 
-表示自定义 XML 属性或智能标记属性的集合。
+Represents a collection of custom XML attributes or smart tag properties.
 
-要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
+To learn more, visit the **Structured Document Tags or Content Control** documentation article.
 
-项目是[CustomXmlProperty](../../com.aspose.words/customxmlproperty)对象。
-## 方法s
+Items are [CustomXmlProperty](../../com.aspose.words/customxmlproperty) objects.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(CustomXmlProperty property)](#add-com.aspose.words.CustomXmlProperty-) | 向集合中添加一个属性。 |
-| [clear()](#clear--) | 从集合中移除所有元素。 |
-| [contains(String name)](#contains-java.lang.String-) | 确定集合是否包含具有给定名称的属性。 |
+| [add(CustomXmlProperty property)](#add-com.aspose.words.CustomXmlProperty-) | Adds a property to the collection. |
+| [clear()](#clear--) | Removes all elements from the collection. |
+| [contains(String name)](#contains-java.lang.String-) | Determines whether the collection contains a property with the given name. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取指定索引处的属性。 |
-| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(int index)](#get-int-) | Gets a property at the specified index. |
+| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | 返回集合中指定属性的从零开始的索引。 |
-| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | Returns the zero-based index of the specified property in the collection. |
+| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | 从集合中移除具有指定名称的属性。 |
-| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的属性。 |
+| [remove(String name)](#remove-java.lang.String-) | Removes a property with the specified name from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a property at the specified index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,12 +50,12 @@ public void add(CustomXmlProperty property)
 ```
 
 
-向集合中添加一个属性。
+Adds a property to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty) | 要添加的属性。 |
+| property | [CustomXmlProperty](../../com.aspose.words/customxmlproperty) | The property to add. |
 
 ### clear() {#clear--}
 ```
@@ -63,7 +63,7 @@ public void clear()
 ```
 
 
-从集合中移除所有元素。
+Removes all elements from the collection.
 
 ### contains(String name) {#contains-java.lang.String-}
 ```
@@ -71,15 +71,15 @@ public boolean contains(String name)
 ```
 
 
-确定集合是否包含具有给定名称的属性。
+Determines whether the collection contains a property with the given name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的属性的区分大小写的名称。 |
+| name | java.lang.String | Case-sensitive name of the property to locate. |
 
-**退货:**
-boolean - 如果在集合中找到该项目，则为真；否则为假。
+**Returns:**
+boolean - True if the item is found in the collection; otherwise, false.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -88,63 +88,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public CustomXmlProperty get(int index)
 ```
 
 
-获取指定索引处的属性。
+Gets a property at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 属性的从零开始的索引。 |
+| index | int | Zero-based index of the property. |
 
-**退货:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - 指定索引处的属性。
+**Returns:**
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - A property at the specified index.
 ### get(String name) {#get-java.lang.String-}
 ```
 public CustomXmlProperty get(String name)
 ```
 
 
-提供对集合项目的访问。获取具有指定名称的属性。
+Provides access to the collection items.  Gets a property with the specified name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的属性的区分大小写的名称。 |
+| name | java.lang.String | Case-sensitive name of the property to locate. |
 
-**退货:**
-[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - 相应的[CustomXmlProperty](../../com.aspose.words/customxmlproperty)价值。
-### get班级() {#get班级--}
+**Returns:**
+[CustomXmlProperty](../../com.aspose.words/customxmlproperty) - The corresponding [CustomXmlProperty](../../com.aspose.words/customxmlproperty) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -153,32 +153,32 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOfKey(String name) {#indexOfKey-java.lang.String-}
 ```
 public int indexOfKey(String name)
 ```
 
 
-返回集合中指定属性的从零开始的索引。
+Returns the zero-based index of the specified property in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 属性的区分大小写的名称。 |
+| name | java.lang.String | The case-sensitive name of the property. |
 
-**退货:**
-int - 从零开始的索引。如果未找到，则为负值。
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
+Returns an iterator object that can be used to iterate over all items in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -202,12 +202,12 @@ public void remove(String name)
 ```
 
 
-从集合中移除具有指定名称的属性。
+Removes a property with the specified name from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 属性的区分大小写的名称。 |
+| name | java.lang.String | The case-sensitive name of the property. |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -215,12 +215,12 @@ public void removeAt(int index)
 ```
 
 
-删除指定索引处的属性。
+Removes a property at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 从零开始的索引。 |
+| index | int | The zero based index. |
 
 ### toString() {#toString--}
 ```
@@ -230,7 +230,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -248,8 +248,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -261,8 +261,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,34 +1,34 @@
 ---
 title: JoinStyle
-second_title: Aspose.Words for Java API 参考
-description: 线连接样式。
+second_title: Aspose.Words for Java API Reference
+description: Line join style.
 type: docs
 weight: 352
-url: /zh/java/com.aspose.words/joinstyle/
+url: /java/com.aspose.words/joinstyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class JoinStyle
 ```
 
-线连接样式。
-## 字段
+Line join style.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BEVEL](#BEVEL) | 通过直线连接边缘。 |
-| [MITER](#MITER) | 延伸边缘直到它们连接。 |
-| [ROUND](#ROUND) | 在两条边之间画一条弧线。 |
+| [BEVEL](#BEVEL) | Join edges by a straight line. |
+| [MITER](#MITER) | Extend edges until they join. |
+| [ROUND](#ROUND) | Draw an arc between the two edges. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String joinStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int joinStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int BEVEL
 ```
 
 
-通过直线连接边缘。
+Join edges by a straight line.
 
 ### MITER {#MITER}
 ```
@@ -53,7 +53,7 @@ public static int MITER
 ```
 
 
-延伸边缘直到它们连接。
+Extend edges until they join.
 
 ### ROUND {#ROUND}
 ```
@@ -61,7 +61,7 @@ public static int ROUND
 ```
 
 
-在两条边之间画一条弧线。
+Draw an arc between the two edges.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String joinStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String joinStyleName)
@@ -92,23 +92,23 @@ public static int fromName(String joinStyleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | joinStyleName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int joinStyle) {#getName-int-}
 ```
 public static String getName(int joinStyle)
@@ -117,12 +117,12 @@ public static String getName(int joinStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | joinStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int joinStyle) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int joinStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | joinStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

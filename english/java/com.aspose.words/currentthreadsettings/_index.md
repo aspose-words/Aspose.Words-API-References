@@ -1,33 +1,33 @@
 ---
 title: CurrentThreadSettings
-second_title: Aspose.Words for Java API 参考
-description: 此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。
+second_title: Aspose.Words for Java API Reference
+description: This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words application.
 type: docs
 weight: 100
-url: /zh/java/com.aspose.words/currentthreadsettings/
+url: /java/com.aspose.words/currentthreadsettings/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CurrentThreadSettings
 ```
 
-此类有助于为 Aspose.Words 应用程序设置线程隔离的区域设置和时区。
-## 方法s
+This class helps to set thread-isolated Locale and Time Zone for a Aspose.Words application.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getLocale()](#getLocale--) | 返回当前 Aspose.Words 线程使用的 java.util.Locale。 |
-| [getTimeZone()](#getTimeZone--) | 返回当前 Aspose.Words 线程使用的 java.util.TimeZone。 |
+| [getClass()](#getClass--) |  |
+| [getLocale()](#getLocale--) | Returns java.util.Locale that used by the current Aspose.Words thread. |
+| [getTimeZone()](#getTimeZone--) | Returns java.util.TimeZone that used by the current Aspose.Words thread. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setLocale(String localeName)](#setLocale-java.lang.String-) | 使用语言环境名称为当前 Aspose.Words 线程设置 java.util.Locale。 |
-| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | 为当前 Aspose.Words 线程设置 java.util.Locale。 |
-| [setTimeZone(TimeZone timeZone)](#setTimeZone-java.util.TimeZone-) | 为当前 Aspose.Words 线程设置 java.util.TimeZone。 |
+| [setLocale(String localeName)](#setLocale-java.lang.String-) | Sets java.util.Locale for the current Aspose.Words thread using locale name. |
+| [setLocale(Locale locale)](#setLocale-java.util.Locale-) | Sets java.util.Locale for the current Aspose.Words thread. |
+| [setTimeZone(TimeZone timeZone)](#setTimeZone-java.util.TimeZone-) | Sets java.util.TimeZone for the current Aspose.Words thread. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -40,32 +40,32 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLocale() {#getLocale--}
 ```
 public static Locale getLocale()
 ```
 
 
-返回当前 Aspose.Words 线程使用的 java.util.Locale。
+Returns java.util.Locale that used by the current Aspose.Words thread.
 
-**退货:**
+**Returns:**
 java.util.Locale
 ### getTimeZone() {#getTimeZone--}
 ```
@@ -73,9 +73,9 @@ public static TimeZone getTimeZone()
 ```
 
 
-返回当前 Aspose.Words 线程使用的 java.util.TimeZone。
+Returns java.util.TimeZone that used by the current Aspose.Words thread.
 
-**退货:**
+**Returns:**
 java.util.TimeZone
 ### hashCode() {#hashCode--}
 ```
@@ -85,8 +85,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -109,10 +109,10 @@ public static void setLocale(String localeName)
 ```
 
 
-使用语言环境名称为当前 Aspose.Words 线程设置 java.util.Locale。
+Sets java.util.Locale for the current Aspose.Words thread using locale name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | localeName | java.lang.String |  |
 
@@ -122,10 +122,10 @@ public static void setLocale(Locale locale)
 ```
 
 
-为当前 Aspose.Words 线程设置 java.util.Locale。
+Sets java.util.Locale for the current Aspose.Words thread.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | locale | java.util.Locale |  |
 
@@ -135,10 +135,10 @@ public static void setTimeZone(TimeZone timeZone)
 ```
 
 
-为当前 Aspose.Words 线程设置 java.util.TimeZone。
+Sets java.util.TimeZone for the current Aspose.Words thread.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | timeZone | java.util.TimeZone |  |
 
@@ -150,7 +150,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -168,8 +168,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -181,8 +181,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

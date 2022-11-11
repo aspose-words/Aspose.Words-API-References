@@ -1,45 +1,45 @@
 ---
 title: VbaModule
 second_title: Aspose.Words for Java API Reference
-description: 提供对 VBA 项目模块的访问。
+description: Provides access to VBA project module.
 type: docs
 weight: 593
-url: /zh/java/com.aspose.words/vbamodule/
+url: /java/com.aspose.words/vbamodule/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class VbaModule implements Cloneable
 ```
 
-提供对 VBA 项目模块的访问。
+Provides access to VBA project module.
 
-要了解更多信息，请访问**Working with VBA Macros**文档文章。
-## 构造函数s
+To learn more, visit the **Working with VBA Macros** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [VbaModule()](#VbaModule--) | 创建一个空模块。 |
-## 方法s
+| [VbaModule()](#VbaModule--) | Creates an empty module. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone--) | 执行副本[VbaModule](../../com.aspose.words/vbamodule). |
+| [deepClone()](#deepClone--) | Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule). |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getName()](#getName--) | 获取 VBA 项目模块名称。 |
-| [getSourceCode()](#getSourceCode--) | 获取 VBA 项目模块源代码。 |
-| [get类型()](#get类型--) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
+| [getClass()](#getClass--) |  |
+| [getName()](#getName--) | Gets VBA project module name. |
+| [getSourceCode()](#getSourceCode--) | Gets VBA project module source code. |
+| [getType()](#getType--) | Specifies whether the module is a procedural module, document module, class module, or designer module. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setName(String value)](#setName-java.lang.String-) | 设置 VBA 项目模块名称。 |
-| [setSourceCode(String value)](#setSourceCode-java.lang.String-) | 设置 VBA 项目模块源代码。 |
-| [set类型(int value)](#set类型-int-) | 指定模块是过程模块、文档模块、类模块还是设计器模块。 |
+| [setName(String value)](#setName-java.lang.String-) | Sets VBA project module name. |
+| [setSourceCode(String value)](#setSourceCode-java.lang.String-) | Sets VBA project module source code. |
+| [setType(int value)](#setType-int-) | Specifies whether the module is a procedural module, document module, class module, or designer module. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,7 +50,7 @@ public VbaModule()
 ```
 
 
-创建一个空模块。
+Creates an empty module.
 
 ### deepClone() {#deepClone--}
 ```
@@ -58,10 +58,10 @@ public VbaModule deepClone()
 ```
 
 
-执行副本[VbaModule](../../com.aspose.words/vbamodule).
+Performs a copy of the [VbaModule](../../com.aspose.words/vbamodule).
 
-**退货:**
-[VbaModule](../../com.aspose.words/vbamodule) - 克隆的 VbaModule。
+**Returns:**
+[VbaModule](../../com.aspose.words/vbamodule) - The cloned VbaModule.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -70,53 +70,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取 VBA 项目模块名称。
+Gets VBA project module name.
 
-**退货:**
-java.lang.String - VBA 项目模块名称。
+**Returns:**
+java.lang.String - VBA project module name.
 ### getSourceCode() {#getSourceCode--}
 ```
 public String getSourceCode()
 ```
 
 
-获取 VBA 项目模块源代码。
+Gets VBA project module source code.
 
-**退货:**
-java.lang.String - VBA 项目模块源代码。
-### get类型() {#get类型--}
+**Returns:**
+java.lang.String - VBA project module source code.
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-指定模块是过程模块、文档模块、类模块还是设计器模块。
+Specifies whether the module is a procedural module, document module, class module, or designer module.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[VbaModule类型](../../com.aspose.words/vbamoduletype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [VbaModuleType](../../com.aspose.words/vbamoduletype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -125,8 +125,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -149,12 +149,12 @@ public void setName(String value)
 ```
 
 
-设置 VBA 项目模块名称。
+Sets VBA project module name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | VBA 项目模块名称。 |
+| value | java.lang.String | VBA project module name. |
 
 ### setSourceCode(String value) {#setSourceCode-java.lang.String-}
 ```
@@ -162,25 +162,25 @@ public void setSourceCode(String value)
 ```
 
 
-设置 VBA 项目模块源代码。
+Sets VBA project module source code.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | VBA项目模块源代码。 |
+| value | java.lang.String | VBA project module source code. |
 
-### set类型(int value) {#set类型-int-}
+### setType(int value) {#setType-int-}
 ```
-public void set类型(int value)
+public void setType(int value)
 ```
 
 
-指定模块是过程模块、文档模块、类模块还是设计器模块。
+Specifies whether the module is a procedural module, document module, class module, or designer module.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[VbaModule类型](../../com.aspose.words/vbamoduletype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [VbaModuleType](../../com.aspose.words/vbamoduletype) constants. |
 
 ### toString() {#toString--}
 ```
@@ -190,7 +190,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -208,8 +208,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -221,8 +221,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

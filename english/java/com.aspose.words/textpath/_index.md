@@ -1,72 +1,72 @@
 ---
 title: TextPath
 second_title: Aspose.Words for Java API Reference
-description: 定义艺术字对象的文本路径的文本和格式。
+description: Defines the text and formatting of the text path of a WordArt object.
 type: docs
 weight: 567
-url: /zh/java/com.aspose.words/textpath/
+url: /java/com.aspose.words/textpath/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextPath
 ```
 
-定义文本路径（艺术字对象）的文本和格式。
+Defines the text and formatting of the text path (of a WordArt object).
 
-要了解更多信息，请访问**Working with Shapes**文档文章。
+To learn more, visit the **Working with Shapes** documentation article.
 
-使用[Shape.getTextPath()](../../com.aspose.words/shape\#getTextPath--)属性以访问形状的艺术字属性。您不创建的实例[TextPath](../../com.aspose.words/textpath)直接上课。
-## 方法s
+Use the [Shape.getTextPath()](../../com.aspose.words/shape\#getTextPath--) property to access WordArt properties of a shape. You do not create instances of the [TextPath](../../com.aspose.words/textpath) class directly.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getBold()](#getBold--) | 如果字体格式为粗体，则为真。 |
-| [get班级()](#get班级--) |  |
-| [getFitPath()](#getFitPath--) | 定义文本是否适合形状的路径。 |
-| [getFitShape()](#getFitShape--) | 定义文本是否适合形状的边界框。 |
-| [getFontFamily()](#getFontFamily--) | 定义 textpath 字体的系列。 |
-| [getItalic()](#getItalic--) | 如果字体格式为斜体，则为真。 |
-| [getKerning()](#getKerning--) | 确定是否打开字距调整。 |
-| [getOn()](#getOn--) | 定义是否显示文本。 |
-| [getReverseRows()](#getReverseRows--) | 确定行的布局顺序是否颠倒。 |
-| [getRotateLetters()](#getRotateLetters--) | 确定是否旋转文本的字母。 |
-| [getSameLetterHeights()](#getSameLetterHeights--) | 确定无论初始大小写如何，所有字母是否都将具有相同的高度。 |
-| [getShadow()](#getShadow--) | 定义是否对文本路径上的文本应用阴影。 |
-| [getSize()](#getSize--) | 以磅为单位定义字体的大小。 |
-| [getSmallCaps()](#getSmallCaps--) | 如果字体格式为小写大写字母，则为真。 |
-| [getSpacing()](#getSpacing--) | 定义文本的间距量。 |
-| [getStrikeThrough()](#getStrikeThrough--) | 如果字体格式设置为删除线文本，则为真。 |
-| [getText()](#getText--) | 定义文本路径的文本。 |
-| [getTextPathAlignment()](#getTextPathAlignment--) | 定义文本的对齐方式。 |
-| [getTrim()](#getTrim--) | 确定是否删除文本上方和下方的多余空格。 |
-| [getUnderline()](#getUnderline--) | 如果字体有下划线，则为真。 |
-| [getXScale()](#getXScale--) | 确定是否将使用直文本路径而不是形状路径。 |
+| [getBold()](#getBold--) | True if the font is formatted as bold. |
+| [getClass()](#getClass--) |  |
+| [getFitPath()](#getFitPath--) | Defines whether the text fits the path of a shape. |
+| [getFitShape()](#getFitShape--) | Defines whether the text fits bounding box of a shape. |
+| [getFontFamily()](#getFontFamily--) | Defines the family of the textpath font. |
+| [getItalic()](#getItalic--) | True if the font is formatted as italic. |
+| [getKerning()](#getKerning--) | Determines whether kerning is turned on. |
+| [getOn()](#getOn--) | Defines whether the text is displayed. |
+| [getReverseRows()](#getReverseRows--) | Determines whether the layout order of rows is reversed. |
+| [getRotateLetters()](#getRotateLetters--) | Determines whether the letters of the text are rotated. |
+| [getSameLetterHeights()](#getSameLetterHeights--) | Determines whether all letters will be the same height regardless of initial case. |
+| [getShadow()](#getShadow--) | Defines whether a shadow is applied to the text on a text path. |
+| [getSize()](#getSize--) | Defines the size of the font in points. |
+| [getSmallCaps()](#getSmallCaps--) | True if the font is formatted as small capital letters. |
+| [getSpacing()](#getSpacing--) | Defines the amount of spacing for text. |
+| [getStrikeThrough()](#getStrikeThrough--) | True if the font is formatted as strikethrough text. |
+| [getText()](#getText--) | Defines the text of the text path. |
+| [getTextPathAlignment()](#getTextPathAlignment--) | Defines the alignment of text. |
+| [getTrim()](#getTrim--) | Determines whether extra space is removed above and below the text. |
+| [getUnderline()](#getUnderline--) | True if the font is underlined. |
+| [getXScale()](#getXScale--) | Determines whether a straight textpath will be used instead of the shape path. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setBold(boolean value)](#setBold-boolean-) | 如果字体格式为粗体，则为真。 |
-| [setFitPath(boolean value)](#setFitPath-boolean-) | 定义文本是否适合形状的路径。 |
-| [setFitShape(boolean value)](#setFitShape-boolean-) | 定义文本是否适合形状的边界框。 |
-| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | 定义 textpath 字体的系列。 |
-| [setItalic(boolean value)](#setItalic-boolean-) | 如果字体格式为斜体，则为真。 |
-| [setKerning(boolean value)](#setKerning-boolean-) | 确定是否打开字距调整。 |
-| [setOn(boolean value)](#setOn-boolean-) | 定义是否显示文本。 |
-| [setReverseRows(boolean value)](#setReverseRows-boolean-) | 确定行的布局顺序是否颠倒。 |
-| [setRotateLetters(boolean value)](#setRotateLetters-boolean-) | 确定是否旋转文本的字母。 |
-| [setSameLetterHeights(boolean value)](#setSameLetterHeights-boolean-) | 确定无论初始大小写如何，所有字母是否都将具有相同的高度。 |
-| [setShadow(boolean value)](#setShadow-boolean-) | 定义是否对文本路径上的文本应用阴影。 |
-| [setSize(double value)](#setSize-double-) | 以磅为单位定义字体的大小。 |
-| [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | 如果字体格式为小写大写字母，则为真。 |
-| [setSpacing(double value)](#setSpacing-double-) | 定义文本的间距量。 |
-| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | 如果字体格式设置为删除线文本，则为真。 |
-| [setText(String value)](#setText-java.lang.String-) | 定义文本路径的文本。 |
-| [setTextPathAlignment(int value)](#setTextPathAlignment-int-) | 定义文本的对齐方式。 |
-| [setTrim(boolean value)](#setTrim-boolean-) | 确定是否删除文本上方和下方的多余空格。 |
-| [setUnderline(boolean value)](#setUnderline-boolean-) | 如果字体有下划线，则为真。 |
-| [setXScale(boolean value)](#setXScale-boolean-) | 确定是否将使用直文本路径而不是形状路径。 |
+| [setBold(boolean value)](#setBold-boolean-) | True if the font is formatted as bold. |
+| [setFitPath(boolean value)](#setFitPath-boolean-) | Defines whether the text fits the path of a shape. |
+| [setFitShape(boolean value)](#setFitShape-boolean-) | Defines whether the text fits bounding box of a shape. |
+| [setFontFamily(String value)](#setFontFamily-java.lang.String-) | Defines the family of the textpath font. |
+| [setItalic(boolean value)](#setItalic-boolean-) | True if the font is formatted as italic. |
+| [setKerning(boolean value)](#setKerning-boolean-) | Determines whether kerning is turned on. |
+| [setOn(boolean value)](#setOn-boolean-) | Defines whether the text is displayed. |
+| [setReverseRows(boolean value)](#setReverseRows-boolean-) | Determines whether the layout order of rows is reversed. |
+| [setRotateLetters(boolean value)](#setRotateLetters-boolean-) | Determines whether the letters of the text are rotated. |
+| [setSameLetterHeights(boolean value)](#setSameLetterHeights-boolean-) | Determines whether all letters will be the same height regardless of initial case. |
+| [setShadow(boolean value)](#setShadow-boolean-) | Defines whether a shadow is applied to the text on a text path. |
+| [setSize(double value)](#setSize-double-) | Defines the size of the font in points. |
+| [setSmallCaps(boolean value)](#setSmallCaps-boolean-) | True if the font is formatted as small capital letters. |
+| [setSpacing(double value)](#setSpacing-double-) | Defines the amount of spacing for text. |
+| [setStrikeThrough(boolean value)](#setStrikeThrough-boolean-) | True if the font is formatted as strikethrough text. |
+| [setText(String value)](#setText-java.lang.String-) | Defines the text of the text path. |
+| [setTextPathAlignment(int value)](#setTextPathAlignment-int-) | Defines the alignment of text. |
+| [setTrim(boolean value)](#setTrim-boolean-) | Determines whether extra space is removed above and below the text. |
+| [setUnderline(boolean value)](#setUnderline-boolean-) | True if the font is underlined. |
+| [setXScale(boolean value)](#setXScale-boolean-) | Determines whether a straight textpath will be used instead of the shape path. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -79,267 +79,267 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getBold() {#getBold--}
 ```
 public boolean getBold()
 ```
 
 
-如果字体格式为粗体，则为真。
+True if the font is formatted as bold.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
-### get班级() {#get班级--}
+**Returns:**
+boolean - The corresponding  boolean  value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFitPath() {#getFitPath--}
 ```
 public boolean getFitPath()
 ```
 
 
-定义文本是否适合形状的路径。
+Defines whether the text fits the path of a shape.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getFitShape() {#getFitShape--}
 ```
 public boolean getFitShape()
 ```
 
 
-定义文本是否适合形状的边界框。
+Defines whether the text fits bounding box of a shape.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getFontFamily() {#getFontFamily--}
 ```
 public String getFontFamily()
 ```
 
 
-定义 textpath 字体的系列。
+Defines the family of the textpath font.
 
-默认值为 Arial。
+The default value is Arial.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getItalic() {#getItalic--}
 ```
 public boolean getItalic()
 ```
 
 
-如果字体格式为斜体，则为真。
+True if the font is formatted as italic.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getKerning() {#getKerning--}
 ```
 public boolean getKerning()
 ```
 
 
-确定是否打开字距调整。
+Determines whether kerning is turned on.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
 ```
 
 
-定义是否显示文本。
+Defines whether the text is displayed.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getReverseRows() {#getReverseRows--}
 ```
 public boolean getReverseRows()
 ```
 
 
-确定行的布局顺序是否颠倒。
+Determines whether the layout order of rows is reversed.
 
-默认值为**false**.
+The default value is **false**.
 
-如果**true**，行的布局顺序是相反的。此属性用于垂直文本布局。
+If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getRotateLetters() {#getRotateLetters--}
 ```
 public boolean getRotateLetters()
 ```
 
 
-确定是否旋转文本的字母。
+Determines whether the letters of the text are rotated.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSameLetterHeights() {#getSameLetterHeights--}
 ```
 public boolean getSameLetterHeights()
 ```
 
 
-确定无论初始大小写如何，所有字母是否都将具有相同的高度。
+Determines whether all letters will be the same height regardless of initial case.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getShadow() {#getShadow--}
 ```
 public boolean getShadow()
 ```
 
 
-定义是否对文本路径上的文本应用阴影。
+Defines whether a shadow is applied to the text on a text path.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSize() {#getSize--}
 ```
 public double getSize()
 ```
 
 
-以磅为单位定义字体的大小。
+Defines the size of the font in points.
 
-默认值为 36。
+The default value is 36.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getSmallCaps() {#getSmallCaps--}
 ```
 public boolean getSmallCaps()
 ```
 
 
-如果字体格式为小写大写字母，则为真。
+True if the font is formatted as small capital letters.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSpacing() {#getSpacing--}
 ```
 public double getSpacing()
 ```
 
 
-定义文本的间距量。 1 表示 100%。
+Defines the amount of spacing for text. 1 means 100%.
 
-默认值为 1。
+The default value is 1.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getStrikeThrough() {#getStrikeThrough--}
 ```
 public boolean getStrikeThrough()
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+True if the font is formatted as strikethrough text.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-定义文本路径的文本。
+Defines the text of the text path.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getTextPathAlignment() {#getTextPathAlignment--}
 ```
 public int getTextPathAlignment()
 ```
 
 
-定义文本的对齐方式。
+Defines the alignment of text.
 
-默认值为[TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
+The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [TextPathAlignment](../../com.aspose.words/textpathalignment) constants.
 ### getTrim() {#getTrim--}
 ```
 public boolean getTrim()
 ```
 
 
-确定是否删除文本上方和下方的多余空格。
+Determines whether extra space is removed above and below the text.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getUnderline() {#getUnderline--}
 ```
 public boolean getUnderline()
 ```
 
 
-如果字体有下划线，则为真。
+True if the font is underlined.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getXScale() {#getXScale--}
 ```
 public boolean getXScale()
 ```
 
 
-确定是否将使用直文本路径而不是形状路径。
+Determines whether a straight textpath will be used instead of the shape path.
 
-默认值为**false**.
+The default value is **false**.
 
-如果**true**，文本沿着形状下边界的 x 值从左到右运行。
+If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -348,8 +348,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -372,14 +372,14 @@ public void setBold(boolean value)
 ```
 
 
-如果字体格式为粗体，则为真。
+True if the font is formatted as bold.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setFitPath(boolean value) {#setFitPath-boolean-}
 ```
@@ -387,14 +387,14 @@ public void setFitPath(boolean value)
 ```
 
 
-定义文本是否适合形状的路径。
+Defines whether the text fits the path of a shape.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setFitShape(boolean value) {#setFitShape-boolean-}
 ```
@@ -402,14 +402,14 @@ public void setFitShape(boolean value)
 ```
 
 
-定义文本是否适合形状的边界框。
+Defines whether the text fits bounding box of a shape.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setFontFamily(String value) {#setFontFamily-java.lang.String-}
 ```
@@ -417,14 +417,14 @@ public void setFontFamily(String value)
 ```
 
 
-定义 textpath 字体的系列。
+Defines the family of the textpath font.
 
-默认值为 Arial。
+The default value is Arial.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setItalic(boolean value) {#setItalic-boolean-}
 ```
@@ -432,14 +432,14 @@ public void setItalic(boolean value)
 ```
 
 
-如果字体格式为斜体，则为真。
+True if the font is formatted as italic.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setKerning(boolean value) {#setKerning-boolean-}
 ```
@@ -447,14 +447,14 @@ public void setKerning(boolean value)
 ```
 
 
-确定是否打开字距调整。
+Determines whether kerning is turned on.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setOn(boolean value) {#setOn-boolean-}
 ```
@@ -462,14 +462,14 @@ public void setOn(boolean value)
 ```
 
 
-定义是否显示文本。
+Defines whether the text is displayed.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setReverseRows(boolean value) {#setReverseRows-boolean-}
 ```
@@ -477,16 +477,16 @@ public void setReverseRows(boolean value)
 ```
 
 
-确定行的布局顺序是否颠倒。
+Determines whether the layout order of rows is reversed.
 
-默认值为**false**.
+The default value is **false**.
 
-如果**true**，行的布局顺序是相反的。此属性用于垂直文本布局。
+If **true**, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setRotateLetters(boolean value) {#setRotateLetters-boolean-}
 ```
@@ -494,14 +494,14 @@ public void setRotateLetters(boolean value)
 ```
 
 
-确定是否旋转文本的字母。
+Determines whether the letters of the text are rotated.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSameLetterHeights(boolean value) {#setSameLetterHeights-boolean-}
 ```
@@ -509,14 +509,14 @@ public void setSameLetterHeights(boolean value)
 ```
 
 
-确定无论初始大小写如何，所有字母是否都将具有相同的高度。
+Determines whether all letters will be the same height regardless of initial case.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setShadow(boolean value) {#setShadow-boolean-}
 ```
@@ -524,14 +524,14 @@ public void setShadow(boolean value)
 ```
 
 
-定义是否对文本路径上的文本应用阴影。
+Defines whether a shadow is applied to the text on a text path.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSize(double value) {#setSize-double-}
 ```
@@ -539,14 +539,14 @@ public void setSize(double value)
 ```
 
 
-以磅为单位定义字体的大小。
+Defines the size of the font in points.
 
-默认值为 36。
+The default value is 36.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setSmallCaps(boolean value) {#setSmallCaps-boolean-}
 ```
@@ -554,14 +554,14 @@ public void setSmallCaps(boolean value)
 ```
 
 
-如果字体格式为小写大写字母，则为真。
+True if the font is formatted as small capital letters.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSpacing(double value) {#setSpacing-double-}
 ```
@@ -569,14 +569,14 @@ public void setSpacing(double value)
 ```
 
 
-定义文本的间距量。 1 表示 100%。
+Defines the amount of spacing for text. 1 means 100%.
 
-默认值为 1。
+The default value is 1.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setStrikeThrough(boolean value) {#setStrikeThrough-boolean-}
 ```
@@ -584,14 +584,14 @@ public void setStrikeThrough(boolean value)
 ```
 
 
-如果字体格式设置为删除线文本，则为真。
+True if the font is formatted as strikethrough text.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```
@@ -599,14 +599,14 @@ public void setText(String value)
 ```
 
 
-定义文本路径的文本。
+Defines the text of the text path.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setTextPathAlignment(int value) {#setTextPathAlignment-int-}
 ```
@@ -614,14 +614,14 @@ public void setTextPathAlignment(int value)
 ```
 
 
-定义文本的对齐方式。
+Defines the alignment of text.
 
-默认值为[TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
+The default value is [TextPathAlignment.CENTER](../../com.aspose.words/textpathalignment\#CENTER).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[TextPathAlignment](../../com.aspose.words/textpathalignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [TextPathAlignment](../../com.aspose.words/textpathalignment) constants. |
 
 ### setTrim(boolean value) {#setTrim-boolean-}
 ```
@@ -629,14 +629,14 @@ public void setTrim(boolean value)
 ```
 
 
-确定是否删除文本上方和下方的多余空格。
+Determines whether extra space is removed above and below the text.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setUnderline(boolean value) {#setUnderline-boolean-}
 ```
@@ -644,14 +644,14 @@ public void setUnderline(boolean value)
 ```
 
 
-如果字体有下划线，则为真。
+True if the font is underlined.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setXScale(boolean value) {#setXScale-boolean-}
 ```
@@ -659,16 +659,16 @@ public void setXScale(boolean value)
 ```
 
 
-确定是否将使用直文本路径而不是形状路径。
+Determines whether a straight textpath will be used instead of the shape path.
 
-默认值为**false**.
+The default value is **false**.
 
-如果**true**，文本沿着形状下边界的 x 值从左到右运行。
+If **true**, the text runs along a path from left to right along the x value of the lower boundary of the shape.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -678,7 +678,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -696,8 +696,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -709,8 +709,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

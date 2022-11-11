@@ -1,35 +1,35 @@
 ---
 title: AxisTimeUnit
-second_title: Aspose.Words for Java API 参考
-description: 指定轴的时间单位。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the unit of time for axes.
 type: docs
 weight: 25
-url: /zh/java/com.aspose.words/axistimeunit/
+url: /java/com.aspose.words/axistimeunit/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class AxisTimeUnit
 ```
 
-指定轴的时间单位。
-## 字段
+Specifies the unit of time for axes.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTOMATIC](#AUTOMATIC) | 指定未明确设置单位，应使用默认值。 |
-| [DAYS](#DAYS) | 指定图表数据应以天为单位显示。 |
-| [MONTHS](#MONTHS) | 指定图表数据应以月显示。 |
-| [YEARS](#YEARS) | 指定图表数据应以年显示。 |
+| [AUTOMATIC](#AUTOMATIC) | Specifies that unit was not set explicitly and default value should be used. |
+| [DAYS](#DAYS) | Specifies that the chart data shall be shown in days. |
+| [MONTHS](#MONTHS) | Specifies that the chart data shall be shown in months. |
+| [YEARS](#YEARS) | Specifies that the chart data shall be shown in years. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String axisTimeUnitName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int axisTimeUnit)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int AUTOMATIC
 ```
 
 
-指定未明确设置单位，应使用默认值。
+Specifies that unit was not set explicitly and default value should be used.
 
 ### DAYS {#DAYS}
 ```
@@ -54,7 +54,7 @@ public static int DAYS
 ```
 
 
-指定图表数据应以天为单位显示。
+Specifies that the chart data shall be shown in days.
 
 ### MONTHS {#MONTHS}
 ```
@@ -62,7 +62,7 @@ public static int MONTHS
 ```
 
 
-指定图表数据应以月显示。
+Specifies that the chart data shall be shown in months.
 
 ### YEARS {#YEARS}
 ```
@@ -70,7 +70,7 @@ public static int YEARS
 ```
 
 
-指定图表数据应以年显示。
+Specifies that the chart data shall be shown in years.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String axisTimeUnitName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String axisTimeUnitName)
@@ -101,23 +101,23 @@ public static int fromName(String axisTimeUnitName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTimeUnitName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int axisTimeUnit) {#getName-int-}
 ```
 public static String getName(int axisTimeUnit)
@@ -126,12 +126,12 @@ public static String getName(int axisTimeUnit)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTimeUnit | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int axisTimeUnit) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int axisTimeUnit)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | axisTimeUnit | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

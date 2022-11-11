@@ -1,40 +1,40 @@
 ---
 title: RelativeHorizontalPosition
-second_title: Aspose.Words for Java API 参考
-description: 指定形状或文本框的水平位置是相对的。
+second_title: Aspose.Words for Java API Reference
+description: Specifies to what the horizontal position of a shape or text frame is relative.
 type: docs
 weight: 473
-url: /zh/java/com.aspose.words/relativehorizontalposition/
+url: /java/com.aspose.words/relativehorizontalposition/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RelativeHorizontalPosition
 ```
 
-指定形状或文本框的水平位置是相对的。
-## 字段
+Specifies to what the horizontal position of a shape or text frame is relative.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CHARACTER](#CHARACTER) | 对象相对于段落的左侧定位。 |
-| [COLUMN](#COLUMN) | 对象相对于列的左侧定位。 |
-| [DEFAULT](#DEFAULT) | 默认值为[COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN). |
-| [INSIDE_MARGIN](#INSIDE-MARGIN) | 指定水平定位应相对于当前页面的内边距（奇数页的左边距，偶数页的右边距）。 |
-| [LEFT_MARGIN](#LEFT-MARGIN) | 指定水平定位应相对于页面的左边距。 |
-| [MARGIN](#MARGIN) | 指定水平定位应相对于页边距。 |
-| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | 指定水平定位应相对于当前页面的外边距（奇数页的右边距，偶数页的左边距）。 |
-| [PAGE](#PAGE) | 对象相对于页面的左边缘定位。 |
-| [RIGHT_MARGIN](#RIGHT-MARGIN) | 指定水平定位应相对于页面的右边距。 |
+| [CHARACTER](#CHARACTER) | The object is positioned relative to the left side of the paragraph. |
+| [COLUMN](#COLUMN) | The object is positioned relative to the left side of the column. |
+| [DEFAULT](#DEFAULT) | Default value is [COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN). |
+| [INSIDE_MARGIN](#INSIDE-MARGIN) | Specifies that the horizontal positioning shall be relative to the inside margin of the current page (the left margin on odd pages, right on even pages). |
+| [LEFT_MARGIN](#LEFT-MARGIN) | Specifies that the horizontal positioning shall be relative to the left margin of the page. |
+| [MARGIN](#MARGIN) | Specifies that the horizontal positioning shall be relative to the page margins. |
+| [OUTSIDE_MARGIN](#OUTSIDE-MARGIN) | Specifies that the horizontal positioning shall be relative to the outside margin of the current page (the right margin on odd pages, left on even pages). |
+| [PAGE](#PAGE) | The object is positioned relative to the left edge of the page. |
+| [RIGHT_MARGIN](#RIGHT-MARGIN) | Specifies that the horizontal positioning shall be relative to the right margin of the page. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String relativeHorizontalPositionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int relativeHorizontalPosition)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -51,7 +51,7 @@ public static int CHARACTER
 ```
 
 
-对象相对于段落的左侧定位。
+The object is positioned relative to the left side of the paragraph.
 
 ### COLUMN {#COLUMN}
 ```
@@ -59,7 +59,7 @@ public static int COLUMN
 ```
 
 
-对象相对于列的左侧定位。
+The object is positioned relative to the left side of the column.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -67,7 +67,7 @@ public static int DEFAULT
 ```
 
 
-默认值为[COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Default value is [COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
 
 ### INSIDE_MARGIN {#INSIDE-MARGIN}
 ```
@@ -75,7 +75,7 @@ public static int INSIDE_MARGIN
 ```
 
 
-指定水平定位应相对于当前页面的内边距（奇数页的左边距，偶数页的右边距）。
+Specifies that the horizontal positioning shall be relative to the inside margin of the current page (the left margin on odd pages, right on even pages).
 
 ### LEFT_MARGIN {#LEFT-MARGIN}
 ```
@@ -83,7 +83,7 @@ public static int LEFT_MARGIN
 ```
 
 
-指定水平定位应相对于页面的左边距。
+Specifies that the horizontal positioning shall be relative to the left margin of the page.
 
 ### MARGIN {#MARGIN}
 ```
@@ -91,7 +91,7 @@ public static int MARGIN
 ```
 
 
-指定水平定位应相对于页边距。
+Specifies that the horizontal positioning shall be relative to the page margins.
 
 ### OUTSIDE_MARGIN {#OUTSIDE-MARGIN}
 ```
@@ -99,7 +99,7 @@ public static int OUTSIDE_MARGIN
 ```
 
 
-指定水平定位应相对于当前页面的外边距（奇数页的右边距，偶数页的左边距）。
+Specifies that the horizontal positioning shall be relative to the outside margin of the current page (the right margin on odd pages, left on even pages).
 
 ### PAGE {#PAGE}
 ```
@@ -107,7 +107,7 @@ public static int PAGE
 ```
 
 
-对象相对于页面的左边缘定位。
+The object is positioned relative to the left edge of the page.
 
 ### RIGHT_MARGIN {#RIGHT-MARGIN}
 ```
@@ -115,7 +115,7 @@ public static int RIGHT_MARGIN
 ```
 
 
-指定水平定位应相对于页面的右边距。
+Specifies that the horizontal positioning shall be relative to the right margin of the page.
 
 ### length {#length}
 ```
@@ -131,13 +131,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String relativeHorizontalPositionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String relativeHorizontalPositionName)
@@ -146,23 +146,23 @@ public static int fromName(String relativeHorizontalPositionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | relativeHorizontalPositionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int relativeHorizontalPosition) {#getName-int-}
 ```
 public static String getName(int relativeHorizontalPosition)
@@ -171,12 +171,12 @@ public static String getName(int relativeHorizontalPosition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | relativeHorizontalPosition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -186,8 +186,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -196,8 +196,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -222,7 +222,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int relativeHorizontalPosition) {#toString-int-}
 ```
@@ -232,12 +232,12 @@ public static String toString(int relativeHorizontalPosition)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | relativeHorizontalPosition | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -255,8 +255,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -268,8 +268,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,36 +1,36 @@
 ---
 title: ListLevelAlignment
-second_title: Aspose.Words for Java API 参考
-description: 指定列表编号或项目符号的对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies alignment for the list number or bullet.
 type: docs
 weight: 373
-url: /zh/java/com.aspose.words/listlevelalignment/
+url: /java/com.aspose.words/listlevelalignment/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ListLevelAlignment
 ```
 
-指定列表编号或项目符号的对齐方式。
+Specifies alignment for the list number or bullet.
 
-用作[ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-)财产。
-## 字段
+Used as a value for the [ListLevel.getAlignment()](../../com.aspose.words/listlevel\#getAlignment--) / [ListLevel.setAlignment(int)](../../com.aspose.words/listlevel\#setAlignment-int-) property.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | 列表标签以数字位置为中心。 |
-| [LEFT](#LEFT) | 列表标签与编号位置的左侧对齐。 |
-| [RIGHT](#RIGHT) | 此列表标签与编号位置的右侧对齐。 |
+| [CENTER](#CENTER) | The list label is centered at the number position. |
+| [LEFT](#LEFT) | The list label is aligned to the left of the number position. |
+| [RIGHT](#RIGHT) | This list label is aligned to the right of the number position. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String listLevelAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int listLevelAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -47,7 +47,7 @@ public static int CENTER
 ```
 
 
-列表标签以数字位置为中心。
+The list label is centered at the number position.
 
 ### LEFT {#LEFT}
 ```
@@ -55,7 +55,7 @@ public static int LEFT
 ```
 
 
-列表标签与编号位置的左侧对齐。
+The list label is aligned to the left of the number position.
 
 ### RIGHT {#RIGHT}
 ```
@@ -63,7 +63,7 @@ public static int RIGHT
 ```
 
 
-此列表标签与编号位置的右侧对齐。
+This list label is aligned to the right of the number position.
 
 ### length {#length}
 ```
@@ -79,13 +79,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String listLevelAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String listLevelAlignmentName)
@@ -94,23 +94,23 @@ public static int fromName(String listLevelAlignmentName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | listLevelAlignmentName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int listLevelAlignment) {#getName-int-}
 ```
 public static String getName(int listLevelAlignment)
@@ -119,12 +119,12 @@ public static String getName(int listLevelAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | listLevelAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -134,8 +134,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -144,8 +144,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -170,7 +170,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int listLevelAlignment) {#toString-int-}
 ```
@@ -180,12 +180,12 @@ public static String toString(int listLevelAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | listLevelAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -203,8 +203,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -216,8 +216,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

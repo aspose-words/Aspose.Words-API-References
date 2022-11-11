@@ -1,38 +1,38 @@
 ---
-title: 字段IndexFormat
-second_title: Aspose.Words for Java API 参考
-description: 指定文档中字段的格式。
+title: FieldIndexFormat
+second_title: Aspose.Words for Java API Reference
+description: Specifies the formatting for the  fields in a document.
 type: docs
 weight: 207
-url: /zh/java/com.aspose.words/fieldindexformat/
+url: /java/com.aspose.words/fieldindexformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段IndexFormat
+public class FieldIndexFormat
 ```
 
-指定格式[字段Index](../../com.aspose.words/fieldindex)文档中的字段。
-## 字段
+Specifies the formatting for the [FieldIndex](../../com.aspose.words/fieldindex) fields in a document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BULLETED](#BULLETED) | 子弹头。 |
-| [CLASSIC](#CLASSIC) | 经典的。 |
-| [FANCY](#FANCY) | 想要。 |
-| [FORMAL](#FORMAL) | 正式的。 |
-| [MODERN](#MODERN) | 现代的。 |
-| [SIMPLE](#SIMPLE) | 简单的。 |
-| [TEMPLATE](#TEMPLATE) | 从模板。 |
+| [BULLETED](#BULLETED) | Bulleted. |
+| [CLASSIC](#CLASSIC) | Classic. |
+| [FANCY](#FANCY) | Fancy. |
+| [FORMAL](#FORMAL) | Formal. |
+| [MODERN](#MODERN) | Modern. |
+| [SIMPLE](#SIMPLE) | Simple. |
+| [TEMPLATE](#TEMPLATE) | From template. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fieldIndexFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fieldIndexFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -49,7 +49,7 @@ public static int BULLETED
 ```
 
 
-子弹头。
+Bulleted.
 
 ### CLASSIC {#CLASSIC}
 ```
@@ -57,7 +57,7 @@ public static int CLASSIC
 ```
 
 
-经典的。
+Classic.
 
 ### FANCY {#FANCY}
 ```
@@ -65,7 +65,7 @@ public static int FANCY
 ```
 
 
-想要。
+Fancy.
 
 ### FORMAL {#FORMAL}
 ```
@@ -73,7 +73,7 @@ public static int FORMAL
 ```
 
 
-正式的。
+Formal.
 
 ### MODERN {#MODERN}
 ```
@@ -81,7 +81,7 @@ public static int MODERN
 ```
 
 
-现代的。
+Modern.
 
 ### SIMPLE {#SIMPLE}
 ```
@@ -89,7 +89,7 @@ public static int SIMPLE
 ```
 
 
-简单的。
+Simple.
 
 ### TEMPLATE {#TEMPLATE}
 ```
@@ -97,7 +97,7 @@ public static int TEMPLATE
 ```
 
 
-从模板。
+From template.
 
 ### length {#length}
 ```
@@ -113,13 +113,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String fieldIndexFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String fieldIndexFormatName)
@@ -128,23 +128,23 @@ public static int fromName(String fieldIndexFormatName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndexFormatName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int fieldIndexFormat) {#getName-int-}
 ```
 public static String getName(int fieldIndexFormat)
@@ -153,12 +153,12 @@ public static String getName(int fieldIndexFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndexFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -168,8 +168,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -178,8 +178,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -204,7 +204,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int fieldIndexFormat) {#toString-int-}
 ```
@@ -214,12 +214,12 @@ public static String toString(int fieldIndexFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fieldIndexFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -237,8 +237,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -250,8 +250,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,33 +1,33 @@
 ---
 title: PageBorderDistanceFrom
-second_title: Aspose.Words for Java API 参考
-description: 指定页面边框相对于页边距的位置。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the positioning of the page border relative to the page margin.
 type: docs
 weight: 433
-url: /zh/java/com.aspose.words/pageborderdistancefrom/
+url: /java/com.aspose.words/pageborderdistancefrom/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageBorderDistanceFrom
 ```
 
-指定页面边框相对于页边距的位置。
-## 字段
+Specifies the positioning of the page border relative to the page margin.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [PAGE_EDGE](#PAGE-EDGE) | 边框位置从页面边缘开始测量。 |
-| [TEXT](#TEXT) | 边框位置从页边距开始测量。 |
+| [PAGE_EDGE](#PAGE-EDGE) | Border position is measured from the page edge. |
+| [TEXT](#TEXT) | Border position is measured from the page margin. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pageBorderDistanceFromName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pageBorderDistanceFrom)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int PAGE_EDGE
 ```
 
 
-边框位置从页面边缘开始测量。
+Border position is measured from the page edge.
 
 ### TEXT {#TEXT}
 ```
@@ -52,7 +52,7 @@ public static int TEXT
 ```
 
 
-边框位置从页边距开始测量。
+Border position is measured from the page margin.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pageBorderDistanceFromName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pageBorderDistanceFromName)
@@ -83,23 +83,23 @@ public static int fromName(String pageBorderDistanceFromName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageBorderDistanceFromName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pageBorderDistanceFrom) {#getName-int-}
 ```
 public static String getName(int pageBorderDistanceFrom)
@@ -108,12 +108,12 @@ public static String getName(int pageBorderDistanceFrom)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageBorderDistanceFrom | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pageBorderDistanceFrom) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int pageBorderDistanceFrom)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pageBorderDistanceFrom | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

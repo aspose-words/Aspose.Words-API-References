@@ -1,30 +1,31 @@
 ---
 title: IWarningCallback
-second_title: Aspose.Words for Java API 参考
-description: 如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving.
 type: docs
 weight: 661
-url: /zh/java/com.aspose.words/iwarningcallback/
+url: /java/com.aspose.words/iwarningcallback/
 ---
 ```
 public interface IWarningCallback
 ```
 
-如果您希望调用自己的自定义方法来捕获在文档加载或保存期间可能发生的保真度丢失警告，请实现此接口。
-## 方法s
+Implement this interface if you want to have your own custom method called to capture loss of fidelity warnings that can occur during document loading or saving.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo-) | Aspose.Words 在文档加载或保存过程中遇到可能导致格式丢失或数据保真度丢失的问题时会调用此方法。 |
+| [warning(WarningInfo info)](#warning-com.aspose.words.WarningInfo-) | Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity. |
 ### warning(WarningInfo info) {#warning-com.aspose.words.WarningInfo-}
 ```
 public abstract void warning(WarningInfo info)
 ```
 
 
-Aspose.Words 在文档加载或保存过程中遇到可能导致格式丢失或数据保真度丢失的问题时会调用此方法。
+Aspose.Words invokes this method when it encounters some issue during document loading or saving that might result in loss of formatting or data fidelity.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | info | [WarningInfo](../../com.aspose.words/warninginfo) |  |
+

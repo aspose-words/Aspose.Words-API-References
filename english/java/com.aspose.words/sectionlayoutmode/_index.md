@@ -1,35 +1,35 @@
 ---
 title: SectionLayoutMode
 second_title: Aspose.Words for Java API Reference
-description: 指定允许定义文档网格行为的部分的布局模式。
+description: Specifies the layout mode for a section allowing to define the document grid behavior.
 type: docs
 weight: 511
-url: /zh/java/com.aspose.words/sectionlayoutmode/
+url: /java/com.aspose.words/sectionlayoutmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SectionLayoutMode
 ```
 
-指定允许定义文档网格行为的部分的布局模式。
-## 字段
+Specifies the layout mode for a section allowing to define the document grid behavior.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 指定不应将文档网格应用于文档中相应部分的内容。 |
-| [GRID](#GRID) | 指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。 |
-| [LINE_GRID](#LINE-GRID) | 指定相应部分应为其中的每一行添加额外的行距，以保持每页的指定行数。 |
-| [SNAP_TO_CHARS](#SNAP-TO-CHARS) | 指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。 |
+| [DEFAULT](#DEFAULT) | Specifies that no document grid shall be applied to the contents of the corresponding section in the document. |
+| [GRID](#GRID) | Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. |
+| [LINE_GRID](#LINE-GRID) | Specifies that the corresponding section shall have additional line pitch added to each line within it in order to maintain the specified number of lines per page. |
+| [SNAP_TO_CHARS](#SNAP-TO-CHARS) | Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sectionLayoutModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sectionLayoutMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int DEFAULT
 ```
 
 
-指定不应将文档网格应用于文档中相应部分的内容。
+Specifies that no document grid shall be applied to the contents of the corresponding section in the document.
 
 ### GRID {#GRID}
 ```
@@ -54,7 +54,7 @@ public static int GRID
 ```
 
 
-指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。键入时字符不会自动与网格线对齐。
+Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. Characters will not be automatically aligned with gridlines on typing.
 
 ### LINE_GRID {#LINE-GRID}
 ```
@@ -62,7 +62,7 @@ public static int LINE_GRID
 ```
 
 
-指定相应部分应为其中的每一行添加额外的行距，以保持每页的指定行数。
+Specifies that the corresponding section shall have additional line pitch added to each line within it in order to maintain the specified number of lines per page.
 
 ### SNAP_TO_CHARS {#SNAP-TO-CHARS}
 ```
@@ -70,7 +70,7 @@ public static int SNAP_TO_CHARS
 ```
 
 
-指定相应部分应将附加行间距和字符间距添加到每一行和其中的字符，以保持每页的特定行数和每行的字符数。键入时字符将自动与网格线对齐。
+Specifies that the corresponding section shall have both the additional line pitch and character pitch added to each line and character within it in order to maintain a specific number of lines per page and characters per line. Characters will be automatically aligned with gridlines on typing.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String sectionLayoutModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String sectionLayoutModeName)
@@ -101,23 +101,23 @@ public static int fromName(String sectionLayoutModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sectionLayoutModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int sectionLayoutMode) {#getName-int-}
 ```
 public static String getName(int sectionLayoutMode)
@@ -126,12 +126,12 @@ public static String getName(int sectionLayoutMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sectionLayoutMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int sectionLayoutMode) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int sectionLayoutMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sectionLayoutMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

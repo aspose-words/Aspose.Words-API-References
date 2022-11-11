@@ -1,28 +1,28 @@
 ---
 title: DocumentLoadingArgs
-second_title: Aspose.Words for Java API 参考
-description: 传入的参数。
+second_title: Aspose.Words for Java API Reference
+description: An argument passed into .
 type: docs
 weight: 124
-url: /zh/java/com.aspose.words/documentloadingargs/
+url: /java/com.aspose.words/documentloadingargs/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentLoadingArgs
 ```
 
-传入的参数[IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-).
+An argument passed into [IDocumentLoadingCallback.notify(com.aspose.words.DocumentLoadingArgs)](../../com.aspose.words/idocumentloadingcallback\#notify-com.aspose.words.DocumentLoadingArgs-).
 
-要了解更多信息，请访问**Specify Load Options**文档文章。
-## 方法s
+To learn more, visit the **Specify Load Options** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getEstimatedProgress()](#getEstimatedProgress--) | 总体估计百分比进度。 |
+| [getClass()](#getClass--) |  |
+| [getEstimatedProgress()](#getEstimatedProgress--) | Overall estimated percentage progress. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,33 +38,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getEstimatedProgress() {#getEstimatedProgress--}
 ```
 public double getEstimatedProgress()
 ```
 
 
-总体估计百分比进度。
+Overall estimated percentage progress.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -73,8 +73,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -99,7 +99,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -117,8 +117,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -130,8 +130,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

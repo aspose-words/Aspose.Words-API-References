@@ -1,68 +1,68 @@
 ---
-title: 字段Symbol
-second_title: Aspose.Words for Java API 参考
-description: 实现一个符号字段。
+title: FieldSymbol
+second_title: Aspose.Words for Java API Reference
+description: Implements a SYMBOL field.
 type: docs
 weight: 248
-url: /zh/java/com.aspose.words/fieldsymbol/
+url: /java/com.aspose.words/fieldsymbol/
 ---
 
-**遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Symbol extends 字段
+public class FieldSymbol extends Field
 ```
 
-实现一个符号字段。
+Implements a SYMBOL field.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+To learn more, visit the **Working with Fields** documentation article.
 
-检索其代码点值以十进制或十六进制指定的字符。
-## 方法s
+Retrieves the character whose code point value is specified in decimal or hexadecimal.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCharacterCode()](#getCharacterCode--) | 以十进制或十六进制获取字符的代码点值。 |
-| [get班级()](#get班级--) |  |
-| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
-| [getDontAffectsLineSpacing()](#getDontAffectsLineSpacing--) | 获取字段检索到的字符是否影响段落的行距。 |
-| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFontName()](#getFontName--) | 获取字段检索到的字符的字体名称。 |
-| [getFontSize()](#getFontSize--) | 获取字段检索到的字符的字体大小（以磅为单位）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
-| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
-| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
-| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
-| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getCharacterCode()](#getCharacterCode--) | Gets the character's code point value in decimal or hexadecimal. |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getDontAffectsLineSpacing()](#getDontAffectsLineSpacing--) | Gets whether the character retrieved by the field affects the line spacing of the paragraph. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFontName()](#getFontName--) | Gets the name of the font of the character retrieved by the field. |
+| [getFontSize()](#getFontSize--) | Gets the size in points of the font of the character retrieved by the field. |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
 | [hashCode()](#hashCode--) |  |
-| [isAnsi()](#isAnsi--) | 获取字符代码是否被解释为 ANSI 字符的值。 |
-| [isAnsi(boolean value)](#isAnsi-boolean-) | 设置字符代码是否被解释为 ANSI 字符的值。 |
-| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
-| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
-| [isShiftJis()](#isShiftJis--) | 获取字符代码是否被解释为 SHIFT-JIS 字符的值。 |
-| [isShiftJis(boolean value)](#isShiftJis-boolean-) | 设置字符代码是否解释为 SHIFT-JIS 字符的值。 |
-| [isUnicode()](#isUnicode--) | 获取字符代码是否被解释为 Unicode 字符的值。 |
-| [isUnicode(boolean value)](#isUnicode-boolean-) | 设置字符代码是否被解释为 Unicode 字符的值。 |
+| [isAnsi()](#isAnsi--) | Gets whether the character code is interpreted as the value of an ANSI character. |
+| [isAnsi(boolean value)](#isAnsi-boolean-) | Sets whether the character code is interpreted as the value of an ANSI character. |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
+| [isShiftJis()](#isShiftJis--) | Gets whether the character code is interpreted as the value of a SHIFT-JIS character. |
+| [isShiftJis(boolean value)](#isShiftJis-boolean-) | Sets whether the character code is interpreted as the value of a SHIFT-JIS character. |
+| [isUnicode()](#isUnicode--) | Gets whether the character code is interpreted as the value of a Unicode character. |
+| [isUnicode(boolean value)](#isUnicode-boolean-) | Sets whether the character code is interpreted as the value of a Unicode character. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除字段。 |
-| [setCharacterCode(String value)](#setCharacterCode-java.lang.String-) | 以十进制或十六进制设置字符的代码点值。 |
-| [setDontAffectsLineSpacing(boolean value)](#setDontAffectsLineSpacing-boolean-) | 设置字段检索的字符是否影响段落的行距。 |
-| [setFontName(String value)](#setFontName-java.lang.String-) | 设置字段检索到的字符的字体名称。 |
-| [setFontSize(String value)](#setFontSize-java.lang.String-) | 设置字段检索到的字符的字体大小（以磅为单位）。 |
-| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setCharacterCode(String value)](#setCharacterCode-java.lang.String-) | Sets the character's code point value in decimal or hexadecimal. |
+| [setDontAffectsLineSpacing(boolean value)](#setDontAffectsLineSpacing-boolean-) | Sets whether the character retrieved by the field affects the line spacing of the paragraph. |
+| [setFontName(String value)](#setFontName-java.lang.String-) | Sets the name of the font of the character retrieved by the field. |
+| [setFontSize(String value)](#setFontSize-java.lang.String-) | Sets the size in points of the font of the character retrieved by the field. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | 执行字段取消链接。 |
-| [update()](#update--) | 执行字段更新。 |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -74,87 +74,87 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getCharacterCode() {#getCharacterCode--}
 ```
 public String getCharacterCode()
 ```
 
 
-以十进制或十六进制获取字符的代码点值。
+Gets the character's code point value in decimal or hexadecimal.
 
-**退货:**
-java.lang.String - 十进制或十六进制的字符代码点值。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - The character's code point value in decimal or hexadecimal.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
-**退货:**
-java.lang.String - 表示显示的字段结果的文本。
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
 ### getDontAffectsLineSpacing() {#getDontAffectsLineSpacing--}
 ```
 public boolean getDontAffectsLineSpacing()
 ```
 
 
-获取字段检索到的字符是否影响段落的行距。
+Gets whether the character retrieved by the field affects the line spacing of the paragraph.
 
-**退货:**
-boolean - 字段检索到的字符是否影响段落的行距。
+**Returns:**
+boolean - Whether the character retrieved by the field affects the line spacing of the paragraph.
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
-获取表示字段结束的节点。
+Gets the node that represents the field end.
 
-**退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
-**退货:**
+**Returns:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
+Returns text between field start and field separator (or field end if there is no separator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getFontName() {#getFontName--}
 ```
@@ -162,95 +162,95 @@ public String getFontName()
 ```
 
 
-获取字段检索到的字符的字体名称。
+Gets the name of the font of the character retrieved by the field.
 
-**退货:**
-java.lang.String - 字段检索到的字符的字体名称。
+**Returns:**
+java.lang.String - The name of the font of the character retrieved by the field.
 ### getFontSize() {#getFontSize--}
 ```
 public String getFontSize()
 ```
 
 
-获取字段检索到的字符的字体大小（以磅为单位）。
+Gets the size in points of the font of the character retrieved by the field.
 
-**退货:**
-java.lang.String - 字段检索到的字符的字体大小（以磅为单位）。
+**Returns:**
+java.lang.String - The size in points of the font of the character retrieved by the field.
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 
-**退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-获取字段的 LCID。
+Gets the LCID of the field.
 
-**退货:**
-int - 字段的 LCID。
+**Returns:**
+int - The LCID of the field.
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-获取字段分隔符和字段结尾之间的文本。
+Gets text that is between the field separator and field end.
 
-**退货:**
-java.lang.String - 字段分隔符和字段结尾之间的文本。
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
-获取表示字段分隔符的节点。可以为空。
+Gets the node that represents the field separator. Can be null.
 
-**退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
-获取表示字段开始的节点。
+Gets the node that represents the start of the field.
 
-**退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**退货:**
-整数
-### get类型() {#get类型--}
+**Returns:**
+int
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取 Microsoft Word 字段类型。
+Gets the Microsoft Word field type.
 
-**退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -259,30 +259,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isAnsi() {#isAnsi--}
 ```
 public boolean isAnsi()
 ```
 
 
-获取字符代码是否被解释为 ANSI 字符的值。
+Gets whether the character code is interpreted as the value of an ANSI character.
 
-**退货:**
-boolean - 字符代码是否被解释为 ANSI 字符的值。
+**Returns:**
+boolean - Whether the character code is interpreted as the value of an ANSI character.
 ### isAnsi(boolean value) {#isAnsi-boolean-}
 ```
 public void isAnsi(boolean value)
 ```
 
 
-设置字符代码是否被解释为 ANSI 字符的值。
+Sets whether the character code is interpreted as the value of an ANSI character.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 字符代码是否被解释为 ANSI 字符的值。 |
+| value | boolean | Whether the character code is interpreted as the value of an ANSI character. |
 
 ### isDirty() {#isDirty--}
 ```
@@ -290,22 +290,22 @@ public boolean isDirty()
 ```
 
 
-获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**退货:**
-boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
 ### isLocked() {#isLocked--}
 ```
@@ -313,22 +313,22 @@ public boolean isLocked()
 ```
 
 
-获取字段是否被锁定（不应重新计算其结果）。
+Gets whether the field is locked (should not recalculate its result).
 
-**退货:**
-boolean - 字段是否被锁定（不应重新计算其结果）。
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-设置字段是否被锁定（不应重新计算其结果）。
+Sets whether the field is locked (should not recalculate its result).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
 ### isShiftJis() {#isShiftJis--}
 ```
@@ -336,22 +336,22 @@ public boolean isShiftJis()
 ```
 
 
-获取字符代码是否被解释为 SHIFT-JIS 字符的值。
+Gets whether the character code is interpreted as the value of a SHIFT-JIS character.
 
-**退货:**
-boolean - 字符代码是否被解释为 SHIFT-JIS 字符的值。
+**Returns:**
+boolean - Whether the character code is interpreted as the value of a SHIFT-JIS character.
 ### isShiftJis(boolean value) {#isShiftJis-boolean-}
 ```
 public void isShiftJis(boolean value)
 ```
 
 
-设置字符代码是否解释为 SHIFT-JIS 字符的值。
+Sets whether the character code is interpreted as the value of a SHIFT-JIS character.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 字符代码是否被解释为 SHIFT-JIS 字符的值。 |
+| value | boolean | Whether the character code is interpreted as the value of a SHIFT-JIS character. |
 
 ### isUnicode() {#isUnicode--}
 ```
@@ -359,22 +359,22 @@ public boolean isUnicode()
 ```
 
 
-获取字符代码是否被解释为 Unicode 字符的值。
+Gets whether the character code is interpreted as the value of a Unicode character.
 
-**退货:**
-boolean - 字符代码是否被解释为 Unicode 字符的值。
+**Returns:**
+boolean - Whether the character code is interpreted as the value of a Unicode character.
 ### isUnicode(boolean value) {#isUnicode-boolean-}
 ```
 public void isUnicode(boolean value)
 ```
 
 
-设置字符代码是否被解释为 Unicode 字符的值。
+Sets whether the character code is interpreted as the value of a Unicode character.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 字符代码是否被解释为 Unicode 字符的值。 |
+| value | boolean | Whether the character code is interpreted as the value of a Unicode character. |
 
 ### notify() {#notify--}
 ```
@@ -398,9 +398,9 @@ public Node remove()
 ```
 
 
-从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### setCharacterCode(String value) {#setCharacterCode-java.lang.String-}
 ```
@@ -408,12 +408,12 @@ public void setCharacterCode(String value)
 ```
 
 
-以十进制或十六进制设置字符的代码点值。
+Sets the character's code point value in decimal or hexadecimal.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 十进制或十六进制的字符代码点值。 |
+| value | java.lang.String | The character's code point value in decimal or hexadecimal. |
 
 ### setDontAffectsLineSpacing(boolean value) {#setDontAffectsLineSpacing-boolean-}
 ```
@@ -421,12 +421,12 @@ public void setDontAffectsLineSpacing(boolean value)
 ```
 
 
-设置字段检索的字符是否影响段落的行距。
+Sets whether the character retrieved by the field affects the line spacing of the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 字段检索到的字符是否影响段落的行距。 |
+| value | boolean | Whether the character retrieved by the field affects the line spacing of the paragraph. |
 
 ### setFontName(String value) {#setFontName-java.lang.String-}
 ```
@@ -434,12 +434,12 @@ public void setFontName(String value)
 ```
 
 
-设置字段检索到的字符的字体名称。
+Sets the name of the font of the character retrieved by the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段检索到的字符的字体名称。 |
+| value | java.lang.String | The name of the font of the character retrieved by the field. |
 
 ### setFontSize(String value) {#setFontSize-java.lang.String-}
 ```
@@ -447,12 +447,12 @@ public void setFontSize(String value)
 ```
 
 
-设置字段检索到的字符的字体大小（以磅为单位）。
+Sets the size in points of the font of the character retrieved by the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段检索到的字符的字体大小（以磅为单位）。 |
+| value | java.lang.String | The size in points of the font of the character retrieved by the field. |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -460,12 +460,12 @@ public void setLocaleId(int value)
 ```
 
 
-设置字段的 LCID。
+Sets the LCID of the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 字段的 LCID。 |
+| value | int | The LCID of the field. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -473,12 +473,12 @@ public void setResult(String value)
 ```
 
 
-设置字段分隔符和字段结尾之间的文本。
+Sets text that is between the field separator and field end.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
 ### toString() {#toString--}
 ```
@@ -488,7 +488,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -496,21 +496,21 @@ public boolean unlink()
 ```
 
 
-执行字段取消链接。
+Performs the field unlink.
 
-用其最新结果替换该字段。
+Replaces the field with its most recent result.
 
-某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs the field update. Throws if the field is being updated already.
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -518,12 +518,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs a field update. Throws if the field is being updated already.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait--}
 ```
@@ -541,8 +541,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -554,8 +554,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

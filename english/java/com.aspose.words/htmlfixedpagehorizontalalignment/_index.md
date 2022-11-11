@@ -1,34 +1,34 @@
 ---
 title: HtmlFixedPageHorizontalAlignment
-second_title: Aspose.Words for Java API 参考
-description: 指定输出 HTML 文档中页面的水平对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the horizontal alignment for pages in output HTML document.
 type: docs
 weight: 325
-url: /zh/java/com.aspose.words/htmlfixedpagehorizontalalignment/
+url: /java/com.aspose.words/htmlfixedpagehorizontalalignment/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlFixedPageHorizontalAlignment
 ```
 
-指定输出 HTML 文档中页面的水平对齐方式。
-## 字段
+Specifies the horizontal alignment for pages in output HTML document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CENTER](#CENTER) | 中心页面。 |
-| [LEFT](#LEFT) | 将页面向左对齐。 |
-| [RIGHT](#RIGHT) | 将页面向右对齐。 |
+| [CENTER](#CENTER) | Center pages. |
+| [LEFT](#LEFT) | Align pages to the left. |
+| [RIGHT](#RIGHT) | Align pages to the right. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlFixedPageHorizontalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlFixedPageHorizontalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int CENTER
 ```
 
 
-中心页面。这是默认值。
+Center pages. This is the default value.
 
 ### LEFT {#LEFT}
 ```
@@ -53,7 +53,7 @@ public static int LEFT
 ```
 
 
-将页面向左对齐。
+Align pages to the left.
 
 ### RIGHT {#RIGHT}
 ```
@@ -61,7 +61,7 @@ public static int RIGHT
 ```
 
 
-将页面向右对齐。
+Align pages to the right.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String htmlFixedPageHorizontalAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlFixedPageHorizontalAlignmentName)
@@ -92,23 +92,23 @@ public static int fromName(String htmlFixedPageHorizontalAlignmentName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignmentName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int htmlFixedPageHorizontalAlignment) {#getName-int-}
 ```
 public static String getName(int htmlFixedPageHorizontalAlignment)
@@ -117,12 +117,12 @@ public static String getName(int htmlFixedPageHorizontalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int htmlFixedPageHorizontalAlignment) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int htmlFixedPageHorizontalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlFixedPageHorizontalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

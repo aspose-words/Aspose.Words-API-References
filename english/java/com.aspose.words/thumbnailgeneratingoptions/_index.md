@@ -1,32 +1,32 @@
 ---
 title: ThumbnailGeneratingOptions
 second_title: Aspose.Words for Java API Reference
-description: 可用于在为文档生成缩略图时指定其他选项。
+description: Can be used to specify additional options when generating thumbnail for a document.
 type: docs
 weight: 578
-url: /zh/java/com.aspose.words/thumbnailgeneratingoptions/
+url: /java/com.aspose.words/thumbnailgeneratingoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ThumbnailGeneratingOptions
 ```
 
-可用于在为文档生成缩略图时指定其他选项。用户可以调用方法[Document.updateThumbnail(com.aspose.words.ThumbnailGeneratingOptions)](../../com.aspose.words/document\#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions-)生成[BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail--) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte---)为一份文件。
-## 方法s
+Can be used to specify additional options when generating thumbnail for a document. User can call method [Document.updateThumbnail(com.aspose.words.ThumbnailGeneratingOptions)](../../com.aspose.words/document\#updateThumbnail-com.aspose.words.ThumbnailGeneratingOptions-) to generate [BuiltInDocumentProperties.getThumbnail()](../../com.aspose.words/builtindocumentproperties\#getThumbnail--) / [BuiltInDocumentProperties.setThumbnail(byte[])](../../com.aspose.words/builtindocumentproperties\#setThumbnail-byte---) for a document.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getGenerateFromFirstPage()](#getGenerateFromFirstPage--) | 指定是从文档的第一页还是从第一张图像生成缩略图。 |
-| [getThumbnailSize()](#getThumbnailSize--) | 生成的缩略图的大小（以像素为单位）。 |
+| [getClass()](#getClass--) |  |
+| [getGenerateFromFirstPage()](#getGenerateFromFirstPage--) | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [getThumbnailSize()](#getThumbnailSize--) | Size of generated thumbnail in pixels. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setGenerateFromFirstPage(boolean value)](#setGenerateFromFirstPage-boolean-) | 指定是从文档的第一页还是从第一张图像生成缩略图。 |
-| [setThumbnailSize(Dimension value)](#setThumbnailSize-java.awt.Dimension-) | 生成的缩略图的大小（以像素为单位）。 |
+| [setGenerateFromFirstPage(boolean value)](#setGenerateFromFirstPage-boolean-) | Specifies whether to generate thumbnail from first page of the document or first image. |
+| [setThumbnailSize(Dimension value)](#setThumbnailSize-java.awt.Dimension-) | Size of generated thumbnail in pixels. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -39,43 +39,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getGenerateFromFirstPage() {#getGenerateFromFirstPage--}
 ```
 public boolean getGenerateFromFirstPage()
 ```
 
 
-指定是从文档的第一页还是从第一张图像生成缩略图。默认为 true ，这意味着缩略图将从文档的第一页生成。如果值为 false 并且文档中没有图像，则将从文档的第一页生成缩略图。
+Specifies whether to generate thumbnail from first page of the document or first image. Default is  true , which means thumbnail will be generated from first page of the document. If value is  false  and there is no image in the document, thumbnail will be generated from first page of the document.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getThumbnailSize() {#getThumbnailSize--}
 ```
 public Dimension getThumbnailSize()
 ```
 
 
-生成的缩略图的大小（以像素为单位）。默认为 600x900。
+Size of generated thumbnail in pixels. Default is 600x900.
 
-**退货:**
-java.awt.Dimension - 对应的 java.awt.Dimension 值。
+**Returns:**
+java.awt.Dimension - The corresponding java.awt.Dimension value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -84,8 +84,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -108,12 +108,12 @@ public void setGenerateFromFirstPage(boolean value)
 ```
 
 
-指定是从文档的第一页还是从第一张图像生成缩略图。默认为 true ，这意味着缩略图将从文档的第一页生成。如果值为 false 并且文档中没有图像，则将从文档的第一页生成缩略图。
+Specifies whether to generate thumbnail from first page of the document or first image. Default is  true , which means thumbnail will be generated from first page of the document. If value is  false  and there is no image in the document, thumbnail will be generated from first page of the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setThumbnailSize(Dimension value) {#setThumbnailSize-java.awt.Dimension-}
 ```
@@ -121,12 +121,12 @@ public void setThumbnailSize(Dimension value)
 ```
 
 
-生成的缩略图的大小（以像素为单位）。默认为 600x900。
+Size of generated thumbnail in pixels. Default is 600x900.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Dimension | 对应的 java.awt.Dimension 值。 |
+| value | java.awt.Dimension | The corresponding java.awt.Dimension value. |
 
 ### toString() {#toString--}
 ```
@@ -136,7 +136,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -154,8 +154,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -167,8 +167,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

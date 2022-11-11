@@ -1,37 +1,37 @@
 ---
 title: PageInfo
-second_title: Aspose.Words for Java API 参考
-description: 表示有关特定文档页面的信息。
+second_title: Aspose.Words for Java API Reference
+description: Represents information about a particular document page.
 type: docs
 weight: 434
-url: /zh/java/com.aspose.words/pageinfo/
+url: /java/com.aspose.words/pageinfo/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageInfo
 ```
 
-表示有关特定文档页面的信息。
+Represents information about a particular document page.
 
-要了解更多信息，请访问**Rendering**文档文章。
+To learn more, visit the **Rendering** documentation article.
 
-此对象返回的页面宽度和高度表示页面的“最终”大小，例如它们已经旋转到正确的方向。
-## 方法s
+The page width and height returned by this object represent the "final" size of the page e.g. they are already rotated to the correct orientation.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getHeightInPoints()](#getHeightInPoints--) | 获取页面的高度（以磅为单位）。 |
-| [getLandscape()](#getLandscape--) | 如果在文档中为此页面指定的页面方向为横向，则返回 true。 |
-| [getPaperSize()](#getPaperSize--) | 获取纸张大小作为枚举。 |
-| [getPaperTray()](#getPaperTray--) | 获取文档中指定的此页面的纸盒（纸盒）。 |
-| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
-| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | 计算指定缩放因子和分辨率的页面大小（以像素为单位）。 |
-| [getSizeInPoints()](#getSizeInPoints--) | 以磅为单位获取页面大小。 |
-| [getWidthInPoints()](#getWidthInPoints--) | 获取页面的宽度（以磅为单位）。 |
+| [getClass()](#getClass--) |  |
+| [getHeightInPoints()](#getHeightInPoints--) | Gets the height of the page in points. |
+| [getLandscape()](#getLandscape--) | Returns true if the page orientation specified in the document for this page is landscape. |
+| [getPaperSize()](#getPaperSize--) | Gets the paper size as enumeration. |
+| [getPaperTray()](#getPaperTray--) | Gets the paper tray (bin) for this page as specified in the document. |
+| [getSizeInPixels(float scale, float dpi)](#getSizeInPixels-float-float-) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)](#getSizeInPixels-float-float-float-) | Calculates the page size in pixels for a specified zoom factor and resolution. |
+| [getSizeInPoints()](#getSizeInPoints--) | Gets the page size in points. |
+| [getWidthInPoints()](#getWidthInPoints--) | Gets the width of the page in points. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -47,116 +47,116 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getHeightInPoints() {#getHeightInPoints--}
 ```
 public float getHeightInPoints()
 ```
 
 
-获取页面的高度（以磅为单位）。
+Gets the height of the page in points.
 
-**退货:**
-float - 以磅为单位的页面高度。
+**Returns:**
+float - The height of the page in points.
 ### getLandscape() {#getLandscape--}
 ```
 public boolean getLandscape()
 ```
 
 
-如果在文档中为此页面指定的页面方向为横向，则返回 true。
+Returns true if the page orientation specified in the document for this page is landscape.
 
-**退货:**
-boolean - 如果在文档中为此页面指定的页面方向为横向，则为真。
+**Returns:**
+boolean - True if the page orientation specified in the document for this page is landscape.
 ### getPaperSize() {#getPaperSize--}
 ```
 public int getPaperSize()
 ```
 
 
-获取纸张大小作为枚举。
+Gets the paper size as enumeration.
 
-**退货:**
- int - 作为枚举的纸张大小。返回值是以下之一[PaperSize](../../com.aspose.words/papersize)常数。
+**Returns:**
+int - The paper size as enumeration. The returned value is one of [PaperSize](../../com.aspose.words/papersize) constants.
 ### getPaperTray() {#getPaperTray--}
 ```
 public int getPaperTray()
 ```
 
 
-获取文档中指定的此页面的纸盒（纸盒）。该值是特定于实现（打印机）的。
+Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific.
 
-**退货:**
-int - 文档中指定的此页面的纸盒（纸盒）。
+**Returns:**
+int - The paper tray (bin) for this page as specified in the document.
 ### getSizeInPixels(float scale, float dpi) {#getSizeInPixels-float-float-}
 ```
 public Dimension getSizeInPixels(float scale, float dpi)
 ```
 
 
-计算指定缩放因子和分辨率的页面大小（以像素为单位）。
+Calculates the page size in pixels for a specified zoom factor and resolution.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| scale | float | 缩放系数（1.0 为 100%）。 |
-| dpi | float | 从点转换为像素（每英寸点数）的分辨率（水平和垂直）。 |
+| scale | float | The zoom factor (1.0 is 100%). |
+| dpi | float | The resolution (horizontal and vertical) to convert from points to pixels (dots per inch). |
 
-**退货:**
-java.awt.Dimension - 页面大小（以像素为单位）。
+**Returns:**
+java.awt.Dimension - The size of the page in pixels.
 ### getSizeInPixels(float scale, float horizontalDpi, float verticalDpi) {#getSizeInPixels-float-float-float-}
 ```
 public Dimension getSizeInPixels(float scale, float horizontalDpi, float verticalDpi)
 ```
 
 
-计算指定缩放因子和分辨率的页面大小（以像素为单位）。
+Calculates the page size in pixels for a specified zoom factor and resolution.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| scale | float | 缩放系数（1.0 为 100%）。 |
-| horizontalDpi | float | 从点转换为像素（每英寸点数）的水平分辨率。 |
-| verticalDpi | float | 从点转换为像素（每英寸点数）的垂直分辨率。 |
+| scale | float | The zoom factor (1.0 is 100%). |
+| horizontalDpi | float | The horizontal resolution to convert from points to pixels (dots per inch). |
+| verticalDpi | float | The vertical resolution to convert from points to pixels (dots per inch). |
 
-**退货:**
-java.awt.Dimension - 页面大小（以像素为单位）。
+**Returns:**
+java.awt.Dimension - The size of the page in pixels.
 ### getSizeInPoints() {#getSizeInPoints--}
 ```
 public Point2D.Float getSizeInPoints()
 ```
 
 
-以磅为单位获取页面大小。
+Gets the page size in points.
 
-**退货:**
-java.awt.geom.Point2D.Float - 以磅为单位的页面大小。
+**Returns:**
+java.awt.geom.Point2D.Float - The page size in points.
 ### getWidthInPoints() {#getWidthInPoints--}
 ```
 public float getWidthInPoints()
 ```
 
 
-获取页面的宽度（以磅为单位）。
+Gets the width of the page in points.
 
-**退货:**
-float - 以磅为单位的页面宽度。
+**Returns:**
+float - The width of the page in points.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -165,8 +165,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -209,8 +209,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -222,8 +222,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

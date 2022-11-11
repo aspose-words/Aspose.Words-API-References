@@ -1,37 +1,37 @@
 ---
 title: UserInformation
 second_title: Aspose.Words for Java API Reference
-description: 指定有关用户的信息。
+description: Specifies information about the user.
 type: docs
 weight: 591
-url: /zh/java/com.aspose.words/userinformation/
+url: /java/com.aspose.words/userinformation/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class UserInformation
 ```
 
-指定有关用户的信息。
+Specifies information about the user.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+To learn more, visit the **Working with Fields** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddress()](#getAddress--) | 获取用户的邮寄地址。 |
-| [get班级()](#get班级--) |  |
-| [getDefaultUser()](#getDefaultUser--) | 默认用户信息。 |
-| [getInitials()](#getInitials--) | 获取用户的姓名首字母。 |
-| [getName()](#getName--) | 获取用户名。 |
+| [getAddress()](#getAddress--) | Gets the user's postal address. |
+| [getClass()](#getClass--) |  |
+| [getDefaultUser()](#getDefaultUser--) | Default user information. |
+| [getInitials()](#getInitials--) | Gets the user's initials. |
+| [getName()](#getName--) | Gets the user's name. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddress(String value)](#setAddress-java.lang.String-) | 设置用户的邮寄地址。 |
-| [setInitials(String value)](#setInitials-java.lang.String-) | 设置用户的姓名首字母。 |
-| [setName(String value)](#setName-java.lang.String-) | 设置用户名。 |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets the user's postal address. |
+| [setInitials(String value)](#setInitials-java.lang.String-) | Sets the user's initials. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the user's name. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,63 +44,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAddress() {#getAddress--}
 ```
 public String getAddress()
 ```
 
 
-获取用户的邮寄地址。
+Gets the user's postal address.
 
-**退货:**
-java.lang.String - 用户的邮寄地址。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - The user's postal address.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDefaultUser() {#getDefaultUser--}
 ```
 public static UserInformation getDefaultUser()
 ```
 
 
-默认用户信息。使用[字段Options.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser--) / [字段Options.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation-)属性来指定单个文档的用户信息。
+Default user information. Use the [FieldOptions.getCurrentUser()](../../com.aspose.words/fieldoptions\#getCurrentUser--) / [FieldOptions.setCurrentUser(com.aspose.words.UserInformation)](../../com.aspose.words/fieldoptions\#setCurrentUser-com.aspose.words.UserInformation-) property to specify user information for single document.
 
-**退货:**
-[UserInformation](../../com.aspose.words/userinformation) - 相应的[UserInformation](../../com.aspose.words/userinformation)价值。
+**Returns:**
+[UserInformation](../../com.aspose.words/userinformation) - The corresponding [UserInformation](../../com.aspose.words/userinformation) value.
 ### getInitials() {#getInitials--}
 ```
 public String getInitials()
 ```
 
 
-获取用户的姓名首字母。
+Gets the user's initials.
 
-**退货:**
-java.lang.String - 用户的姓名首字母。
+**Returns:**
+java.lang.String - The user's initials.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取用户名。
+Gets the user's name.
 
-**退货:**
-java.lang.String - 用户名。
+**Returns:**
+java.lang.String - The user's name.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -109,8 +109,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -133,12 +133,12 @@ public void setAddress(String value)
 ```
 
 
-设置用户的邮寄地址。
+Sets the user's postal address.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 用户的邮寄地址。 |
+| value | java.lang.String | The user's postal address. |
 
 ### setInitials(String value) {#setInitials-java.lang.String-}
 ```
@@ -146,12 +146,12 @@ public void setInitials(String value)
 ```
 
 
-设置用户的姓名首字母。
+Sets the user's initials.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 用户的姓名缩写。 |
+| value | java.lang.String | The user's initials. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -159,12 +159,12 @@ public void setName(String value)
 ```
 
 
-设置用户名。
+Sets the user's name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 用户名。 |
+| value | java.lang.String | The user's name. |
 
 ### toString() {#toString--}
 ```
@@ -174,7 +174,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

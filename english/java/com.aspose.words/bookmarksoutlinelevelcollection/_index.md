@@ -1,49 +1,49 @@
 ---
 title: BookmarksOutlineLevelCollection
-second_title: Aspose.Words for Java API 参考
-description: 单个书签大纲级别的集合。
+second_title: Aspose.Words for Java API Reference
+description: A collection of individual bookmarks outline level.
 type: docs
 weight: 35
-url: /zh/java/com.aspose.words/bookmarksoutlinelevelcollection/
+url: /java/com.aspose.words/bookmarksoutlinelevelcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class BookmarksOutlineLevelCollection implements Iterable
 ```
 
-单个书签大纲级别的集合。
+A collection of individual bookmarks outline level.
 
-要了解更多信息，请访问**Working with Bookmarks**文档文章。
+To learn more, visit the **Working with Bookmarks** documentation article.
 
-Key 是不区分大小写的字符串书签名称。值是一个 int 书签大纲级别。
+Key is a case-insensitive string bookmark name. Value is a int bookmark outline level.
 
-书签大纲级别可以是 0 到 9 之间的值。指定 0 并且 Word 书签将不会显示在文档大纲中。指定 1，Word 书签将显示在第 1 级的文档大纲中； 2 表示 2 级，依此类推。
-## 方法s
+Bookmark outline level may be a value from 0 to 9. Specify 0 and Word bookmark will not be displayed in the document outline. Specify 1 and Word bookmark will be displayed in the document outline at level 1; 2 for level 2 and so on.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(String name, int outlineLevel)](#add-java.lang.String-int-) | 将书签添加到集合中。 |
-| [clear()](#clear--) | 从集合中移除所有元素。 |
-| [contains(String name)](#contains-java.lang.String-) | 确定集合是否包含具有给定名称的书签。 |
+| [add(String name, int outlineLevel)](#add-java.lang.String-int-) | Adds a bookmark to the collection. |
+| [clear()](#clear--) | Removes all elements from the collection. |
+| [contains(String name)](#contains-java.lang.String-) | Determines whether the collection contains a bookmark with the given name. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取指定索引处的书签大纲级别。 |
-| [get(String name)](#get-java.lang.String-) | 提供对集合项目的访问。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(int index)](#get-int-) | Gets a bookmark outline level at the specified index. |
+| [get(String name)](#get-java.lang.String-) | Provides access to the collection items. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | 返回集合中指定书签的从零开始的索引。 |
+| [indexOfKey(String name)](#indexOfKey-java.lang.String-) | Returns the zero-based index of the specified bookmark in the collection. |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(String name)](#remove-java.lang.String-) | 从集合中删除具有指定名称的书签。 |
-| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的书签。 |
-| [set(int index, int value)](#set-int-int-) | 在指定索引处设置书签大纲级别。 |
-| [set(String name, int value)](#set-java.lang.String-int-) | 提供对集合项目的访问。 |
+| [remove(String name)](#remove-java.lang.String-) | Removes a bookmark with the specified name from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a bookmark at the specified index. |
+| [set(int index, int value)](#set-int-int-) | Sets a bookmark outline level at the specified index. |
+| [set(String name, int value)](#set-java.lang.String-int-) | Provides access to the collection items. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,13 +54,13 @@ public void add(String name, int outlineLevel)
 ```
 
 
-将书签添加到集合中。
+Adds a bookmark to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要添加的书签的不区分大小写的名称。 |
-| outlineLevel | int | 书签的大纲级别。有效范围是 0 到 9。 |
+| name | java.lang.String | The case-insensitive name of the bookmark to add. |
+| outlineLevel | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### clear() {#clear--}
 ```
@@ -68,7 +68,7 @@ public void clear()
 ```
 
 
-从集合中移除所有元素。
+Removes all elements from the collection.
 
 ### contains(String name) {#contains-java.lang.String-}
 ```
@@ -76,15 +76,15 @@ public boolean contains(String name)
 ```
 
 
-确定集合是否包含具有给定名称的书签。
+Determines whether the collection contains a bookmark with the given name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的书签的不区分大小写的名称。 |
+| name | java.lang.String | Case-insensitive name of the bookmark to locate. |
 
-**退货:**
-boolean - 如果在集合中找到项目，则为真；否则为假。
+**Returns:**
+boolean - True if item is found in the collection; otherwise, false.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -93,63 +93,63 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public int get(int index)
 ```
 
 
-获取指定索引处的书签大纲级别。
+Gets a bookmark outline level at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 书签的从零开始的索引。 |
+| index | int | Zero-based index of the bookmark. |
 
-**退货:**
-int - 书签的大纲级别。有效范围是 0 到 9。
+**Returns:**
+int - The outline level of the bookmark. Valid range is 0 to 9.
 ### get(String name) {#get-java.lang.String-}
 ```
 public int get(String name)
 ```
 
 
-提供对集合项目的访问。通过书签名称获取或设置书签大纲级别。
+Provides access to the collection items.  Gets or a sets a bookmark outline level by the bookmark name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的书签名称。 |
+| name | java.lang.String | Case-insensitive name of the bookmark. |
 
-**退货:**
-int - 书签的大纲级别。有效范围是 0 到 9。
-### get班级() {#get班级--}
+**Returns:**
+int - The outline level of the bookmark. Valid range is 0 to 9.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -158,23 +158,23 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOfKey(String name) {#indexOfKey-java.lang.String-}
 ```
 public int indexOfKey(String name)
 ```
 
 
-返回集合中指定书签的从零开始的索引。
+Returns the zero-based index of the specified bookmark in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 书签的不区分大小写的名称。 |
+| name | java.lang.String | The case-insensitive name of the bookmark. |
 
-**退货:**
-int - 从零开始的索引。如果未找到，则为负值。
+**Returns:**
+int - The zero based index. Negative value if not found.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -183,7 +183,7 @@ public Iterator iterator()
 
 
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -207,12 +207,12 @@ public void remove(String name)
 ```
 
 
-从集合中删除具有指定名称的书签。
+Removes a bookmark with the specified name from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 书签的不区分大小写的名称。 |
+| name | java.lang.String | The case-insensitive name of the bookmark. |
 
 ### removeAt(int index) {#removeAt-int-}
 ```
@@ -220,12 +220,12 @@ public void removeAt(int index)
 ```
 
 
-删除指定索引处的书签。
+Removes a bookmark at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 从零开始的索引。 |
+| index | int | The zero based index. |
 
 ### set(int index, int value) {#set-int-int-}
 ```
@@ -233,13 +233,13 @@ public void set(int index, int value)
 ```
 
 
-在指定索引处设置书签大纲级别。
+Sets a bookmark outline level at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 书签的从零开始的索引。 |
-| value | int | 书签的大纲级别。有效范围是 0 到 9。 |
+| index | int | Zero-based index of the bookmark. |
+| value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### set(String name, int value) {#set-java.lang.String-int-}
 ```
@@ -247,13 +247,13 @@ public void set(String name, int value)
 ```
 
 
-提供对集合项目的访问。通过书签名称获取或设置书签大纲级别。
+Provides access to the collection items.  Gets or a sets a bookmark outline level by the bookmark name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 不区分大小写的书签名称。 |
-| value | int | 书签的大纲级别。有效范围是 0 到 9。 |
+| name | java.lang.String | Case-insensitive name of the bookmark. |
+| value | int | The outline level of the bookmark. Valid range is 0 to 9. |
 
 ### toString() {#toString--}
 ```
@@ -263,7 +263,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -281,8 +281,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -294,8 +294,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

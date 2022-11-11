@@ -1,29 +1,29 @@
 ---
 title: Forms2OleControlCollection
-second_title: Aspose.Words for Java API 参考
-description: 表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents collection of  objects.
 type: docs
 weight: 299
-url: /zh/java/com.aspose.words/forms2olecontrolcollection/
+url: /java/com.aspose.words/forms2olecontrolcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Forms2OleControlCollection
 ```
 
-代表集合[Forms2OleControl](../../com.aspose.words/forms2olecontrol)对象。
+Represents collection of [Forms2OleControl](../../com.aspose.words/forms2olecontrol) objects.
 
-要了解更多信息，请访问**Working with Ole Objects**文档文章。
-## 方法s
+To learn more, visit the **Working with Ole Objects** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中对象的计数。 |
+| [get(int index)](#get-int-) | Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets count of objects in the collection. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -39,48 +39,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public Forms2OleControl get(int index)
 ```
 
 
-获取[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
+Gets [Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[Forms2OleControl](../../com.aspose.words/forms2olecontrol) -\{[Forms2OleControl](../../com.aspose.words/forms2olecontrol)指定索引处的对象。
-### get班级() {#get班级--}
+**Returns:**
+[Forms2OleControl](../../com.aspose.words/forms2olecontrol) - \{[Forms2OleControl](../../com.aspose.words/forms2olecontrol) object at specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中对象的计数。
+Gets count of objects in the collection.
 
-**退货:**
-int - 集合中的对象计数。
+**Returns:**
+int - Count of objects in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -89,8 +89,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -115,7 +115,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -133,8 +133,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -146,8 +146,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,69 +1,69 @@
 ---
-title: 字段TC
-second_title: Aspose.Words for Java API 参考
-description: 实现 TC 字段。
+title: FieldTC
+second_title: Aspose.Words for Java API Reference
+description: Implements the TC field.
 type: docs
 weight: 250
-url: /zh/java/com.aspose.words/fieldtc/
+url: /java/com.aspose.words/fieldtc/
 ---
 
-**遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段TC extends 字段
+public class FieldTC extends Field
 ```
 
-实现 TC 字段。
+Implements the TC field.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+To learn more, visit the **Working with Fields** documentation article.
 
-定义目录（包括图表）条目的文本和页码，由 TOC 字段使用。
-## 方法s
+Defines the text and page number for a table of contents (including a table of figures) entry, which is used by a TOC field.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
 | [getDocumentOutlineTitle()](#getDocumentOutlineTitle--) |  |
-| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [getEntryLevel()](#getEntryLevel--) | 获取条目的级别。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getEntryLevel()](#getEntryLevel--) | Gets the level of the entry. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
 | [getLevel()](#getLevel--) |  |
-| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
-| [getOmitPageNumber()](#getOmitPageNumber--) | 获取此字段是否应省略 TOC 中的页码。 |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getOmitPageNumber()](#getOmitPageNumber--) | Gets whether page number in TOC should be omitted for this field. |
 | [getPageNumber()](#getPageNumber--) |  |
 | [getParagraph()](#getParagraph--) |  |
-| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
-| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
 | [getSequenceValue(String sequenceIdentifier)](#getSequenceValue-java.lang.String-) |  |
-| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
-| [getText()](#getText--) | 获取条目的文本。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
-| [get类型Identifier()](#get类型Identifier--) | 获取此字段的类型标识符（通常是一个字母）。 |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getText()](#getText--) | Gets the text of the entry. |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
+| [getTypeIdentifier()](#getTypeIdentifier--) | Gets a type identifier for this field (which is typically a letter). |
 | [hasBookmark()](#hasBookmark--) |  |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
-| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isIn字段Code()](#isIn字段Code--) |  |
-| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isInFieldCode()](#isInFieldCode--) |  |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除字段。 |
-| [setEntryLevel(String value)](#setEntryLevel-java.lang.String-) | 设置条目的级别。 |
-| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
-| [setOmitPageNumber(boolean value)](#setOmitPageNumber-boolean-) | 设置此字段是否应省略 TOC 中的页码。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
-| [setText(String value)](#setText-java.lang.String-) | 设置条目的文本。 |
-| [set类型Identifier(String value)](#set类型Identifier-java.lang.String-) | 设置此字段的类型标识符（通常是字母）。 |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setEntryLevel(String value)](#setEntryLevel-java.lang.String-) | Sets the level of the entry. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setOmitPageNumber(boolean value)](#setOmitPageNumber-boolean-) | Sets whether page number in TOC should be omitted for this field. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the entry. |
+| [setTypeIdentifier(String value)](#setTypeIdentifier-java.lang.String-) | Sets a type identifier for this field (which is typically a letter). |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | 执行字段取消链接。 |
-| [update()](#update--) | 执行字段更新。 |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -75,33 +75,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
-**退货:**
-java.lang.String - 表示显示的字段结果的文本。
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
 ### getDocumentOutlineTitle() {#getDocumentOutlineTitle--}
 ```
 public String getDocumentOutlineTitle()
@@ -110,63 +110,63 @@ public String getDocumentOutlineTitle()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
-获取表示字段结束的节点。
+Gets the node that represents the field end.
 
-**退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
 ### getEntryLevel() {#getEntryLevel--}
 ```
 public String getEntryLevel()
 ```
 
 
-获取条目的级别。
+Gets the level of the entry.
 
-**退货:**
-java.lang.String - 条目的级别。
-### get字段Code() {#get字段Code--}
+**Returns:**
+java.lang.String - The level of the entry.
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
-**退货:**
+**Returns:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
+Returns text between field start and field separator (or field end if there is no separator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 
-**退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getLevel() {#getLevel--}
 ```
 public int getLevel()
@@ -175,28 +175,28 @@ public int getLevel()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-获取字段的 LCID。
+Gets the LCID of the field.
 
-**退货:**
-int - 字段的 LCID。
+**Returns:**
+int - The LCID of the field.
 ### getOmitPageNumber() {#getOmitPageNumber--}
 ```
 public boolean getOmitPageNumber()
 ```
 
 
-获取此字段是否应省略 TOC 中的页码。
+Gets whether page number in TOC should be omitted for this field.
 
-**退货:**
-boolean - 此字段是否应省略 TOC 中的页码。
+**Returns:**
+boolean - Whether page number in TOC should be omitted for this field.
 ### getPageNumber() {#getPageNumber--}
 ```
 public int getPageNumber()
@@ -205,8 +205,8 @@ public int getPageNumber()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getParagraph() {#getParagraph--}
 ```
 public Paragraph getParagraph()
@@ -215,7 +215,7 @@ public Paragraph getParagraph()
 
 
 
-**退货:**
+**Returns:**
 [Paragraph](../../com.aspose.words/paragraph)
 ### getResult() {#getResult--}
 ```
@@ -223,20 +223,20 @@ public String getResult()
 ```
 
 
-获取字段分隔符和字段结尾之间的文本。
+Gets text that is between the field separator and field end.
 
-**退货:**
-java.lang.String - 字段分隔符和字段结尾之间的文本。
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
-获取表示字段分隔符的节点。可以为空。
+Gets the node that represents the field separator. Can be null.
 
-**退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
 ### getSequenceValue(String sequenceIdentifier) {#getSequenceValue-java.lang.String-}
 ```
 public int getSequenceValue(String sequenceIdentifier)
@@ -245,68 +245,68 @@ public int getSequenceValue(String sequenceIdentifier)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sequenceIdentifier | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
-获取表示字段开始的节点。
+Gets the node that represents the start of the field.
 
-**退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取条目的文本。
+Gets the text of the entry.
 
-**退货:**
-java.lang.String - 条目的文本。
-### get类型() {#get类型--}
+**Returns:**
+java.lang.String - The text of the entry.
+### getType() {#getType--}
 ```
-public int get类型()
-```
-
-
-获取 Microsoft Word 字段类型。
-
-**退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
-### get类型Identifier() {#get类型Identifier--}
-```
-public String get类型Identifier()
+public int getType()
 ```
 
 
-获取此字段的类型标识符（通常是一个字母）。
+Gets the Microsoft Word field type.
 
-**退货:**
-java.lang.String - 此字段的类型标识符（通常是字母）。
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
+### getTypeIdentifier() {#getTypeIdentifier--}
+```
+public String getTypeIdentifier()
+```
+
+
+Gets a type identifier for this field (which is typically a letter).
+
+**Returns:**
+java.lang.String - A type identifier for this field (which is typically a letter).
 ### hasBookmark() {#hasBookmark--}
 ```
 public boolean hasBookmark()
@@ -315,8 +315,8 @@ public boolean hasBookmark()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -325,63 +325,63 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**退货:**
-boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
-### isIn字段Code() {#isIn字段Code--}
+### isInFieldCode() {#isInFieldCode--}
 ```
-public boolean isIn字段Code()
+public boolean isInFieldCode()
 ```
 
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### isLocked() {#isLocked--}
 ```
 public boolean isLocked()
 ```
 
 
-获取字段是否被锁定（不应重新计算其结果）。
+Gets whether the field is locked (should not recalculate its result).
 
-**退货:**
-boolean - 字段是否被锁定（不应重新计算其结果）。
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-设置字段是否被锁定（不应重新计算其结果）。
+Sets whether the field is locked (should not recalculate its result).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
 ### notify() {#notify--}
 ```
@@ -405,9 +405,9 @@ public Node remove()
 ```
 
 
-从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### setEntryLevel(String value) {#setEntryLevel-java.lang.String-}
 ```
@@ -415,12 +415,12 @@ public void setEntryLevel(String value)
 ```
 
 
-设置条目的级别。
+Sets the level of the entry.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 条目的级别。 |
+| value | java.lang.String | The level of the entry. |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -428,12 +428,12 @@ public void setLocaleId(int value)
 ```
 
 
-设置字段的 LCID。
+Sets the LCID of the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 字段的 LCID。 |
+| value | int | The LCID of the field. |
 
 ### setOmitPageNumber(boolean value) {#setOmitPageNumber-boolean-}
 ```
@@ -441,12 +441,12 @@ public void setOmitPageNumber(boolean value)
 ```
 
 
-设置此字段是否应省略 TOC 中的页码。
+Sets whether page number in TOC should be omitted for this field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 此字段是否应省略 TOC 中的页码。 |
+| value | boolean | Whether page number in TOC should be omitted for this field. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -454,12 +454,12 @@ public void setResult(String value)
 ```
 
 
-设置字段分隔符和字段结尾之间的文本。
+Sets text that is between the field separator and field end.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
 ### setText(String value) {#setText-java.lang.String-}
 ```
@@ -467,25 +467,25 @@ public void setText(String value)
 ```
 
 
-设置条目的文本。
+Sets the text of the entry.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 条目的文本。 |
+| value | java.lang.String | The text of the entry. |
 
-### set类型Identifier(String value) {#set类型Identifier-java.lang.String-}
+### setTypeIdentifier(String value) {#setTypeIdentifier-java.lang.String-}
 ```
-public void set类型Identifier(String value)
+public void setTypeIdentifier(String value)
 ```
 
 
-设置此字段的类型标识符（通常是字母）。
+Sets a type identifier for this field (which is typically a letter).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 此字段的类型标识符（通常是字母）。 |
+| value | java.lang.String | A type identifier for this field (which is typically a letter). |
 
 ### toString() {#toString--}
 ```
@@ -495,7 +495,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -503,21 +503,21 @@ public boolean unlink()
 ```
 
 
-执行字段取消链接。
+Performs the field unlink.
 
-用其最新结果替换该字段。
+Replaces the field with its most recent result.
 
-某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs the field update. Throws if the field is being updated already.
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -525,12 +525,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs a field update. Throws if the field is being updated already.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait--}
 ```
@@ -548,8 +548,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -561,8 +561,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

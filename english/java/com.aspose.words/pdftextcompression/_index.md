@@ -1,33 +1,33 @@
 ---
 title: PdfTextCompression
-second_title: Aspose.Words for Java API 参考
-description: 指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
+second_title: Aspose.Words for Java API Reference
+description: Specifies a type of compression applied to all content in the PDF file except images.
 type: docs
 weight: 462
-url: /zh/java/com.aspose.words/pdftextcompression/
+url: /java/com.aspose.words/pdftextcompression/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfTextCompression
 ```
 
-指定应用于 PDF 文件中除图像之外的所有内容的压缩类型。
-## 字段
+Specifies a type of compression applied to all content in the PDF file except images.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [FLATE](#FLATE) | Flate (ZIP) 压缩。 |
-| [NONE](#NONE) | 没有压缩。 |
+| [FLATE](#FLATE) | Flate (ZIP) compression. |
+| [NONE](#NONE) | No compression. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfTextCompressionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfTextCompression)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int FLATE
 ```
 
 
-Flate (ZIP) 压缩。
+Flate (ZIP) compression.
 
 ### NONE {#NONE}
 ```
@@ -52,7 +52,7 @@ public static int NONE
 ```
 
 
-没有压缩。
+No compression.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pdfTextCompressionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfTextCompressionName)
@@ -83,23 +83,23 @@ public static int fromName(String pdfTextCompressionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfTextCompressionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pdfTextCompression) {#getName-int-}
 ```
 public static String getName(int pdfTextCompression)
@@ -108,12 +108,12 @@ public static String getName(int pdfTextCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfTextCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pdfTextCompression) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int pdfTextCompression)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfTextCompression | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

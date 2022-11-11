@@ -1,46 +1,46 @@
 ---
 title: CsvDataLoadOptions
-second_title: Aspose.Words for Java API 参考
-description: 表示用于解析 CSV 数据的选项。
+second_title: Aspose.Words for Java API Reference
+description: Represents options for parsing CSV data.
 type: docs
 weight: 98
-url: /zh/java/com.aspose.words/csvdataloadoptions/
+url: /java/com.aspose.words/csvdataloadoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CsvDataLoadOptions
 ```
 
-表示用于解析 CSV 数据的选项。
+Represents options for parsing CSV data.
 
-要了解更多信息，请访问**LINQ Reporting Engine**文档文章。
+To learn more, visit the **LINQ Reporting Engine** documentation article.
 
-此类的实例可以传递给[CsvDataSource](../../com.aspose.words/csvdatasource).
-## 构造函数s
+An instance of this class can be passed into constructors of [CsvDataSource](../../com.aspose.words/csvdatasource).
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [CsvDataLoadOptions()](#CsvDataLoadOptions--) | 使用默认选项初始化此类的新实例。 |
-| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean-) | 通过指定 CSV 数据是否在第一行包含列名来初始化此类的新实例。 |
-## 方法s
+| [CsvDataLoadOptions()](#CsvDataLoadOptions--) | Initializes a new instance of this class with default options. |
+| [CsvDataLoadOptions(boolean hasHeaders)](#CsvDataLoadOptions-boolean-) | Initializes a new instance of this class with specifying whether CSV data contains column names at the first line. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getCommentChar()](#getCommentChar--) | 获取用于注释 CSV 数据行的字符。 |
-| [getDelimiter()](#getDelimiter--) | 获取要用作列分隔符的字符。 |
-| [getQuoteChar()](#getQuoteChar--) | 获取用于引用字段值的字符。 |
-| [hasHeaders()](#hasHeaders--) | 获取一个值，该值指示 CSV 数据的第一条记录是否包含列名。 |
-| [hasHeaders(boolean value)](#hasHeaders-boolean-) | 设置一个值，该值指示 CSV 数据的第一条记录是否包含列名。 |
+| [getClass()](#getClass--) |  |
+| [getCommentChar()](#getCommentChar--) | Gets the character that is used to comment lines of CSV data. |
+| [getDelimiter()](#getDelimiter--) | Gets the character to be used as a column delimiter. |
+| [getQuoteChar()](#getQuoteChar--) | Gets the character that is used to quote field values. |
+| [hasHeaders()](#hasHeaders--) | Gets a value indicating whether the first record of CSV data contains column names. |
+| [hasHeaders(boolean value)](#hasHeaders-boolean-) | Sets a value indicating whether the first record of CSV data contains column names. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCommentChar(char value)](#setCommentChar-char-) | 设置用于注释 CSV 数据行的字符。 |
-| [setDelimiter(char value)](#setDelimiter-char-) | 设置要用作列分隔符的字符。 |
-| [setQuoteChar(char value)](#setQuoteChar-char-) | 设置用于引用字段值的字符。 |
+| [setCommentChar(char value)](#setCommentChar-char-) | Sets the character that is used to comment lines of CSV data. |
+| [setDelimiter(char value)](#setDelimiter-char-) | Sets the character to be used as a column delimiter. |
+| [setQuoteChar(char value)](#setQuoteChar-char-) | Sets the character that is used to quote field values. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -51,7 +51,7 @@ public CsvDataLoadOptions()
 ```
 
 
-使用默认选项初始化此类的新实例。
+Initializes a new instance of this class with default options.
 
 ### CsvDataLoadOptions(boolean hasHeaders) {#CsvDataLoadOptions-boolean-}
 ```
@@ -59,10 +59,10 @@ public CsvDataLoadOptions(boolean hasHeaders)
 ```
 
 
-通过指定 CSV 数据是否在第一行包含列名来初始化此类的新实例。
+Initializes a new instance of this class with specifying whether CSV data contains column names at the first line.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | hasHeaders | boolean |  |
 
@@ -74,79 +74,79 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCommentChar() {#getCommentChar--}
 ```
 public char getCommentChar()
 ```
 
 
-获取用于注释 CSV 数据行的字符。默认值为'\#'（数字符号）。
+Gets the character that is used to comment lines of CSV data. The default value is '\#' (number sign).
 
-**退货:**
-char - 用于注释 CSV 数据行的字符。
+**Returns:**
+char - The character that is used to comment lines of CSV data.
 ### getDelimiter() {#getDelimiter--}
 ```
 public char getDelimiter()
 ```
 
 
-获取要用作列分隔符的字符。默认值为“,”（逗号）。
+Gets the character to be used as a column delimiter. The default value is ',' (comma).
 
-**退货:**
-char - 用作列分隔符的字符。
+**Returns:**
+char - The character to be used as a column delimiter.
 ### getQuoteChar() {#getQuoteChar--}
 ```
 public char getQuoteChar()
 ```
 
 
-获取用于引用字段值的字符。
+Gets the character that is used to quote field values.
 
-默认值为 '"'（引号）。
+The default value is '"' (quotation mark).
 
-将字符加倍以将其放入引用的文本中。
+Double the character to place it into quoted text.
 
-**退货:**
-char - 用于引用字段值的字符。
+**Returns:**
+char - The character that is used to quote field values.
 ### hasHeaders() {#hasHeaders--}
 ```
 public boolean hasHeaders()
 ```
 
 
-获取一个值，该值指示 CSV 数据的第一条记录是否包含列名。默认值为**false**.
+Gets a value indicating whether the first record of CSV data contains column names. The default value is **false**.
 
-**退货:**
-boolean - 一个值，指示 CSV 数据的第一条记录是否包含列名。
+**Returns:**
+boolean - A value indicating whether the first record of CSV data contains column names.
 ### hasHeaders(boolean value) {#hasHeaders-boolean-}
 ```
 public void hasHeaders(boolean value)
 ```
 
 
-设置一个值，该值指示 CSV 数据的第一条记录是否包含列名。默认值为**false**.
+Sets a value indicating whether the first record of CSV data contains column names. The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值，指示 CSV 数据的第一条记录是否包含列名。 |
+| value | boolean | A value indicating whether the first record of CSV data contains column names. |
 
 ### hashCode() {#hashCode--}
 ```
@@ -156,8 +156,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -180,12 +180,12 @@ public void setCommentChar(char value)
 ```
 
 
-设置用于注释 CSV 数据行的字符。默认值为'\#'（数字符号）。
+Sets the character that is used to comment lines of CSV data. The default value is '\#' (number sign).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | 用于注释 CSV 数据行的字符。 |
+| value | char | The character that is used to comment lines of CSV data. |
 
 ### setDelimiter(char value) {#setDelimiter-char-}
 ```
@@ -193,12 +193,12 @@ public void setDelimiter(char value)
 ```
 
 
-设置要用作列分隔符的字符。默认值为“,”（逗号）。
+Sets the character to be used as a column delimiter. The default value is ',' (comma).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | 用作列分隔符的字符。 |
+| value | char | The character to be used as a column delimiter. |
 
 ### setQuoteChar(char value) {#setQuoteChar-char-}
 ```
@@ -206,16 +206,16 @@ public void setQuoteChar(char value)
 ```
 
 
-设置用于引用字段值的字符。
+Sets the character that is used to quote field values.
 
-默认值为 '"'（引号）。
+The default value is '"' (quotation mark).
 
-将字符加倍以将其放入引用的文本中。
+Double the character to place it into quoted text.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | 用于引用字段值的字符。 |
+| value | char | The character that is used to quote field values. |
 
 ### toString() {#toString--}
 ```
@@ -225,7 +225,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -243,8 +243,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -256,8 +256,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

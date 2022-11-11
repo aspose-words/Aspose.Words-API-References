@@ -1,34 +1,34 @@
 ---
 title: TxtListIndentation
 second_title: Aspose.Words for Java API Reference
-description: 指定文档导出为格式时列表级别的缩进方式。
+description: Specifies how list levels are indented when document is exporting to  format.
 type: docs
 weight: 583
-url: /zh/java/com.aspose.words/txtlistindentation/
+url: /java/com.aspose.words/txtlistindentation/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TxtListIndentation
 ```
 
-指定文档导出到时如何缩进列表级别[SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT)格式。
+Specifies how list levels are indented when document is exporting to [SaveFormat.TEXT](../../com.aspose.words/saveformat\#TEXT) format.
 
-要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+To learn more, visit the **Save a Document** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCharacter()](#getCharacter--) | 获取用于缩进列表级别的字符。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 得到多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。 |
+| [getCharacter()](#getCharacter--) | Gets which character to use for indenting list levels. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCharacter(char value)](#setCharacter-char-) | 设置用于缩进列表级别的字符。 |
-| [setCount(int value)](#setCount-int-) | 设置多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。 |
+| [setCharacter(char value)](#setCharacter-char-) | Sets which character to use for indenting list levels. |
+| [setCount(int value)](#setCount-int-) | Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -41,43 +41,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getCharacter() {#getCharacter--}
 ```
 public char getCharacter()
 ```
 
 
-获取用于缩进列表级别的字符。默认值为'\\0'，表示没有缩进。
+Gets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
 
-**退货:**
-char - 用于缩进列表级别的字符。
-### get班级() {#get班级--}
+**Returns:**
+char - Which character to use for indenting list levels.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-得到多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示没有缩进。
+Gets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. The default value is 0, that means no indentation.
 
-**退货:**
- int - 多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。
+**Returns:**
+int - How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -86,8 +86,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -110,12 +110,12 @@ public void setCharacter(char value)
 ```
 
 
-设置用于缩进列表级别的字符。默认值为'\\0'，表示没有缩进。
+Sets which character to use for indenting list levels. The default value is '\\0', that means there is no indentation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | 用于缩进列表级别的字符。 |
+| value | char | Which character to use for indenting list levels. |
 
 ### setCount(int value) {#setCount-int-}
 ```
@@ -123,12 +123,12 @@ public void setCount(int value)
 ```
 
 
-设置多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。默认值为 0，表示没有缩进。
+Sets how many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. The default value is 0, that means no indentation.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 多少[getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-)用作每个列表级别的缩进。 |
+| value | int | How many [getCharacter()](../../com.aspose.words/txtlistindentation\#getCharacter--) / [setCharacter(char)](../../com.aspose.words/txtlistindentation\#setCharacter-char-) to use as indentation per one list level. |
 
 ### toString() {#toString--}
 ```
@@ -138,7 +138,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -156,8 +156,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -169,8 +169,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

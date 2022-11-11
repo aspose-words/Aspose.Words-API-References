@@ -1,34 +1,34 @@
 ---
 title: FontPitch
-second_title: Aspose.Words for Java API 参考
-description: 表示字体间距。
+second_title: Aspose.Words for Java API Reference
+description: Represents the font pitch.
 type: docs
 weight: 284
-url: /zh/java/com.aspose.words/fontpitch/
+url: /java/com.aspose.words/fontpitch/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FontPitch
 ```
 
-表示字体间距。间距指示字体是固定间距、按比例间隔还是依赖于默认设置。
-## 字段
+Represents the font pitch. The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DEFAULT](#DEFAULT) | 指定没有关于字体间距的信息。 |
-| [FIXED](#FIXED) | 指定这是一个固定宽度的字体。 |
-| [VARIABLE](#VARIABLE) | 指定这是一个比例宽度字体。 |
+| [DEFAULT](#DEFAULT) | Specifies that no information is available about the pitch of a font. |
+| [FIXED](#FIXED) | Specifies that this is a fixed width font. |
+| [VARIABLE](#VARIABLE) | Specifies that this is a proportional width font. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String fontPitchName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int fontPitch)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int DEFAULT
 ```
 
 
-指定没有关于字体间距的信息。
+Specifies that no information is available about the pitch of a font.
 
 ### FIXED {#FIXED}
 ```
@@ -53,7 +53,7 @@ public static int FIXED
 ```
 
 
-指定这是一个固定宽度的字体。
+Specifies that this is a fixed width font.
 
 ### VARIABLE {#VARIABLE}
 ```
@@ -61,7 +61,7 @@ public static int VARIABLE
 ```
 
 
-指定这是一个比例宽度字体。
+Specifies that this is a proportional width font.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String fontPitchName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String fontPitchName)
@@ -92,23 +92,23 @@ public static int fromName(String fontPitchName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontPitchName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int fontPitch) {#getName-int-}
 ```
 public static String getName(int fontPitch)
@@ -117,12 +117,12 @@ public static String getName(int fontPitch)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontPitch | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int fontPitch) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int fontPitch)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontPitch | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,43 +1,43 @@
 ---
-title: Protection类型
-second_title: Aspose.Words for Java API 参考
-description: 文档的保护类型。
+title: ProtectionType
+second_title: Aspose.Words for Java API Reference
+description: Protection type for a document.
 type: docs
 weight: 470
-url: /zh/java/com.aspose.words/protectiontype/
+url: /java/com.aspose.words/protectiontype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Protection类型
+public class ProtectionType
 ```
 
-文档的保护类型。
-## 字段
+Protection type for a document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ALLOW_ONLY_COMMENTS](#ALLOW-ONLY-COMMENTS) | 用户只能修改文档中的注释。 |
-| [ALLOW_ONLY_FORM_FIELDS](#ALLOW-ONLY-FORM-FIELDS) | 用户只能在文档的表单字段中输入数据。 |
-| [ALLOW_ONLY_REVISIONS](#ALLOW-ONLY-REVISIONS) | 用户只能在文档中添加修订标记。 |
-| [NO_PROTECTION](#NO-PROTECTION) | 文档不受保护。 |
-| [READ_ONLY](#READ-ONLY) | 不允许对文档进行任何更改。 |
+| [ALLOW_ONLY_COMMENTS](#ALLOW-ONLY-COMMENTS) | User can only modify comments in the document. |
+| [ALLOW_ONLY_FORM_FIELDS](#ALLOW-ONLY-FORM-FIELDS) | User can only enter data in the form fields in the document. |
+| [ALLOW_ONLY_REVISIONS](#ALLOW-ONLY-REVISIONS) | User can only add revision marks to the document. |
+| [NO_PROTECTION](#NO-PROTECTION) | The document is not protected. |
+| [READ_ONLY](#READ-ONLY) | No changes are allowed to the document. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String protection类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int protection类型)](#getName-int-) |  |
+| [fromName(String protectionTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int protectionType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int protection类型)](#toString-int-) |  |
+| [toString(int protectionType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,7 +47,7 @@ public static int ALLOW_ONLY_COMMENTS
 ```
 
 
-用户只能修改文档中的注释。
+User can only modify comments in the document.
 
 ### ALLOW_ONLY_FORM_FIELDS {#ALLOW-ONLY-FORM-FIELDS}
 ```
@@ -55,7 +55,7 @@ public static int ALLOW_ONLY_FORM_FIELDS
 ```
 
 
-用户只能在文档的表单字段中输入数据。
+User can only enter data in the form fields in the document.
 
 ### ALLOW_ONLY_REVISIONS {#ALLOW-ONLY-REVISIONS}
 ```
@@ -63,7 +63,7 @@ public static int ALLOW_ONLY_REVISIONS
 ```
 
 
-用户只能在文档中添加修订标记。
+User can only add revision marks to the document.
 
 ### NO_PROTECTION {#NO-PROTECTION}
 ```
@@ -71,7 +71,7 @@ public static int NO_PROTECTION
 ```
 
 
-文档不受保护。
+The document is not protected.
 
 ### READ_ONLY {#READ-ONLY}
 ```
@@ -79,7 +79,7 @@ public static int READ_ONLY
 ```
 
 
-不允许对文档进行任何更改。自 Microsoft Word 2003 起可用。
+No changes are allowed to the document. Available since Microsoft Word 2003.
 
 ### length {#length}
 ```
@@ -95,52 +95,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String protection类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String protectionTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String protection类型Name)
+public static int fromName(String protectionTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| protection类型Name | java.lang.String |  |
+| protectionTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int protection类型) {#getName-int-}
-```
-public static String getName(int protection类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int protectionType) {#getName-int-}
+```
+public static String getName(int protectionType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| protection类型 | int |  |
+| protectionType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,22 +186,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int protection类型) {#toString-int-}
+### toString(int protectionType) {#toString-int-}
 ```
-public static String toString(int protection类型)
+public static String toString(int protectionType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| protection类型 | int |  |
+| protectionType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

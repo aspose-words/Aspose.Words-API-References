@@ -1,71 +1,71 @@
 ---
 title: RevisionOptions
-second_title: Aspose.Words for Java API 参考
-description: 允许控制在布局过程中如何处理文档修订。
+second_title: Aspose.Words for Java API Reference
+description: Allows to control how document revisions are handled during layout process.
 type: docs
 weight: 488
-url: /zh/java/com.aspose.words/revisionoptions/
+url: /java/com.aspose.words/revisionoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class RevisionOptions implements Cloneable
 ```
 
-允许控制在布局过程中如何处理文档修订。
+Allows to control how document revisions are handled during layout process.
 
-要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
-## 方法s
+To learn more, visit the **Converting to Fixed-page Format** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getCommentColor()](#getCommentColor--) | 允许指定用于注释的颜色。 |
-| [getDeletedTextColor()](#getDeletedTextColor--) | 允许指定用于已删除内容的颜色[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [getDeletedTextEffect()](#getDeletedTextEffect--) | 允许指定要应用于已删除内容的效果[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [getInsertedTextColor()](#getInsertedTextColor--) | 允许指定用于插入内容的颜色[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [getInsertedTextEffect()](#getInsertedTextEffect--) | 允许指定要应用于插入内容的效果[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [getMeasurementUnit()](#getMeasurementUnit--) | 允许为修订注释指定测量单位。 |
-| [getMovedFromTextColor()](#getMovedFromTextColor--) | 允许指定用于移动内容的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedFromTextEffect()](#getMovedFromTextEffect--) | 允许指定要应用于内容移动区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedToTextColor()](#getMovedToTextColor--) | 允许指定要用于内容移动到的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getMovedToTextEffect()](#getMovedToTextEffect--) | 允许指定要应用于内容移动到的区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [getRevisedPropertiesColor()](#getRevisedPropertiesColor--) | 允许通过更改格式属性指定要用于内容的颜色[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
-| [getRevisedPropertiesEffect()](#getRevisedPropertiesEffect--) | 允许通过更改格式属性来指定内容区域的效果[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)是不允许的，会导致 java.lang.IllegalArgumentException。 |
-| [getRevisionBarsColor()](#getRevisionBarsColor--) | 允许指定用于标识包含修订信息的文档行的侧栏的颜色。 |
-| [getRevisionBarsPosition()](#getRevisionBarsPosition--) | 获取修订栏的渲染位置。 |
-| [getRevisionBarsWidth()](#getRevisionBarsWidth--) | 获取修订条的宽度，点。 |
-| [getShowInBalloons()](#getShowInBalloons--) | 允许指定是否在气球中呈现修订。 |
-| [getShowOriginalRevision()](#getShowOriginalRevision--) | 允许指定是否应显示原始文本而不是修订文本。 |
-| [getShowRevisionBars()](#getShowRevisionBars--) | 允许指定是否应在包含修订内容的行附近呈现修订栏。 |
-| [getShowRevisionMarks()](#getShowRevisionMarks--) | 允许指定是否应使用特殊格式标记来标记修订文本。 |
+| [getClass()](#getClass--) |  |
+| [getCommentColor()](#getCommentColor--) | Allows to specify the color to be used for comments. |
+| [getDeletedTextColor()](#getDeletedTextColor--) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
+| [getDeletedTextEffect()](#getDeletedTextEffect--) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
+| [getInsertedTextColor()](#getInsertedTextColor--) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [getInsertedTextEffect()](#getInsertedTextEffect--) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [getMeasurementUnit()](#getMeasurementUnit--) | Allows to specify the measurement units for revision comments. |
+| [getMovedFromTextColor()](#getMovedFromTextColor--) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [getMovedFromTextEffect()](#getMovedFromTextEffect--) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [getMovedToTextColor()](#getMovedToTextColor--) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [getMovedToTextEffect()](#getMovedToTextEffect--) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [getRevisedPropertiesColor()](#getRevisedPropertiesColor--) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
+| [getRevisedPropertiesEffect()](#getRevisedPropertiesEffect--) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
+| [getRevisionBarsColor()](#getRevisionBarsColor--) | Allows to specify the color to be used for side bars that identify document lines containing revised information. |
+| [getRevisionBarsPosition()](#getRevisionBarsPosition--) | Gets rendering position of revision bars. |
+| [getRevisionBarsWidth()](#getRevisionBarsWidth--) | Gets width of revision bars, points. |
+| [getShowInBalloons()](#getShowInBalloons--) | Allows to specify whether the revisions are rendered in the balloons. |
+| [getShowOriginalRevision()](#getShowOriginalRevision--) | Allows to specify whether the original text should be shown instead of revised one. |
+| [getShowRevisionBars()](#getShowRevisionBars--) | Allows to specify whether revision bars should be rendered near lines containing revised content. |
+| [getShowRevisionMarks()](#getShowRevisionMarks--) | Allow to specify whether revision text should be marked with special formatting markup. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCommentColor(int value)](#setCommentColor-int-) | 允许指定用于注释的颜色。 |
-| [setDeletedTextColor(int value)](#setDeletedTextColor-int-) | 允许指定用于已删除内容的颜色[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [setDeletedTextEffect(int value)](#setDeletedTextEffect-int-) | 允许指定要应用于已删除内容的效果[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
-| [setInsertedTextColor(int value)](#setInsertedTextColor-int-) | 允许指定用于插入内容的颜色[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [setInsertedTextEffect(int value)](#setInsertedTextEffect-int-) | 允许指定要应用于插入内容的效果[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
-| [setMeasurementUnit(int value)](#setMeasurementUnit-int-) | 允许为修订注释指定测量单位。 |
-| [setMovedFromTextColor(int value)](#setMovedFromTextColor-int-) | 允许指定用于移动内容的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedFromTextEffect(int value)](#setMovedFromTextEffect-int-) | 允许指定要应用于内容移动区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedToTextColor(int value)](#setMovedToTextColor-int-) | 允许指定要用于内容移动到的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setMovedToTextEffect(int value)](#setMovedToTextEffect-int-) | 允许指定要应用于内容移动到的区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
-| [setRevisedPropertiesColor(int value)](#setRevisedPropertiesColor-int-) | 允许通过更改格式属性指定要用于内容的颜色[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
-| [setRevisedPropertiesEffect(int value)](#setRevisedPropertiesEffect-int-) | 允许通过更改格式属性来指定内容区域的效果[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)是不允许的，会导致 java.lang.IllegalArgumentException。 |
-| [setRevisionBarsColor(int value)](#setRevisionBarsColor-int-) | 允许指定用于标识包含修订信息的文档行的侧栏的颜色。 |
-| [setRevisionBarsPosition(int value)](#setRevisionBarsPosition-int-) | 设置修订栏的渲染位置。 |
-| [setRevisionBarsWidth(float value)](#setRevisionBarsWidth-float-) | 设置修订栏、点的宽度。 |
-| [setShowInBalloons(int value)](#setShowInBalloons-int-) | 允许指定是否在气球中呈现修订。 |
-| [setShowOriginalRevision(boolean value)](#setShowOriginalRevision-boolean-) | 允许指定是否应显示原始文本而不是修订文本。 |
-| [setShowRevisionBars(boolean value)](#setShowRevisionBars-boolean-) | 允许指定是否应在包含修订内容的行附近呈现修订栏。 |
-| [setShowRevisionMarks(boolean value)](#setShowRevisionMarks-boolean-) | 允许指定是否应使用特殊格式标记来标记修订文本。 |
+| [setCommentColor(int value)](#setCommentColor-int-) | Allows to specify the color to be used for comments. |
+| [setDeletedTextColor(int value)](#setDeletedTextColor-int-) | Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
+| [setDeletedTextEffect(int value)](#setDeletedTextEffect-int-) | Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). |
+| [setInsertedTextColor(int value)](#setInsertedTextColor-int-) | Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [setInsertedTextEffect(int value)](#setInsertedTextEffect-int-) | Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). |
+| [setMeasurementUnit(int value)](#setMeasurementUnit-int-) | Allows to specify the measurement units for revision comments. |
+| [setMovedFromTextColor(int value)](#setMovedFromTextColor-int-) | Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [setMovedFromTextEffect(int value)](#setMovedFromTextEffect-int-) | Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [setMovedToTextColor(int value)](#setMovedToTextColor-int-) | Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [setMovedToTextEffect(int value)](#setMovedToTextEffect-int-) | Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). |
+| [setRevisedPropertiesColor(int value)](#setRevisedPropertiesColor-int-) | Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT). |
+| [setRevisedPropertiesEffect(int value)](#setRevisedPropertiesEffect-int-) | Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException. |
+| [setRevisionBarsColor(int value)](#setRevisionBarsColor-int-) | Allows to specify the color to be used for side bars that identify document lines containing revised information. |
+| [setRevisionBarsPosition(int value)](#setRevisionBarsPosition-int-) | Sets rendering position of revision bars. |
+| [setRevisionBarsWidth(float value)](#setRevisionBarsWidth-float-) | Sets width of revision bars, points. |
+| [setShowInBalloons(int value)](#setShowInBalloons-int-) | Allows to specify whether the revisions are rendered in the balloons. |
+| [setShowOriginalRevision(boolean value)](#setShowOriginalRevision-boolean-) | Allows to specify whether the original text should be shown instead of revised one. |
+| [setShowRevisionBars(boolean value)](#setShowRevisionBars-boolean-) | Allows to specify whether revision bars should be rendered near lines containing revised content. |
+| [setShowRevisionMarks(boolean value)](#setShowRevisionMarks-boolean-) | Allow to specify whether revision text should be marked with special formatting markup. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -78,213 +78,213 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCommentColor() {#getCommentColor--}
 ```
 public int getCommentColor()
 ```
 
 
-允许指定用于注释的颜色。默认值为[RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED).如果将此属性设置为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR)或者[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT)值，因此该属性将设置为默认颜色。
+Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getDeletedTextColor() {#getDeletedTextColor--}
 ```
 public int getDeletedTextColor()
 ```
 
 
-允许指定用于已删除内容的颜色[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getDeletedTextEffect() {#getDeletedTextEffect--}
 ```
 public int getDeletedTextEffect()
 ```
 
 
-允许指定要应用于已删除内容的效果[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION) .默认值为[RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
+Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
 ### getInsertedTextColor() {#getInsertedTextColor--}
 ```
 public int getInsertedTextColor()
 ```
 
 
-允许指定用于插入内容的颜色[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getInsertedTextEffect() {#getInsertedTextEffect--}
 ```
 public int getInsertedTextEffect()
 ```
 
 
-允许指定要应用于插入内容的效果[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION) .默认值为[RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE).的价值观[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)和[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)不允许并且会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
 ### getMeasurementUnit() {#getMeasurementUnit--}
 ```
 public int getMeasurementUnit()
 ```
 
 
-允许为修订注释指定测量单位。默认值为[MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
+Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[MeasurementUnits](../../com.aspose.words/measurementunits)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MeasurementUnits](../../com.aspose.words/measurementunits) constants.
 ### getMovedFromTextColor() {#getMovedFromTextColor--}
 ```
 public int getMovedFromTextColor()
 ```
 
 
-允许指定用于移动内容的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getMovedFromTextEffect() {#getMovedFromTextEffect--}
 ```
 public int getMovedFromTextEffect()
 ```
 
 
-允许指定要应用于内容移动区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
+Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
 ### getMovedToTextColor() {#getMovedToTextColor--}
 ```
 public int getMovedToTextColor()
 ```
 
 
-允许指定要用于内容移动到的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getMovedToTextEffect() {#getMovedToTextEffect--}
 ```
 public int getMovedToTextEffect()
 ```
 
 
-允许指定要应用于内容移动到的区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE)的价值观[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)和[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)不允许并且会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
 ### getRevisedPropertiesColor() {#getRevisedPropertiesColor--}
 ```
 public int getRevisedPropertiesColor()
 ```
 
 
-允许通过更改格式属性指定要用于内容的颜色[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getRevisedPropertiesEffect() {#getRevisedPropertiesEffect--}
 ```
 public int getRevisedPropertiesEffect()
 ```
 
 
-允许通过更改格式属性来指定内容区域的效果[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)是不允许的，会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants.
 ### getRevisionBarsColor() {#getRevisionBarsColor--}
 ```
 public int getRevisionBarsColor()
 ```
 
 
-允许指定用于标识包含修订信息的文档行的侧栏的颜色。默认值为[RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED).将此属性设置为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR)或者[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT)值将导致从布局中隐藏修订栏。
+Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RevisionColor](../../com.aspose.words/revisioncolor) constants.
 ### getRevisionBarsPosition() {#getRevisionBarsPosition--}
 ```
 public int getRevisionBarsPosition()
 ```
 
 
-获取修订栏的渲染位置。默认值为[HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE).的价值观[HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER)和[HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE)不允许并且会导致 java.lang.IllegalArgumentException。
+Gets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**退货:**
-int - 修订栏的渲染位置。返回值是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。
+**Returns:**
+int - Rendering position of revision bars. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
 ### getRevisionBarsWidth() {#getRevisionBarsWidth--}
 ```
 public float getRevisionBarsWidth()
 ```
 
 
-获取修订条的宽度，点。
+Gets width of revision bars, points.
 
-**退货:**
-float - 修订条的宽度，点数。
+**Returns:**
+float - Width of revision bars, points.
 ### getShowInBalloons() {#getShowInBalloons--}
 ```
 public int getShowInBalloons()
 ```
 
 
-允许指定是否在气球中呈现修订。默认值为[ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE).请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[ShowInBalloons](../../com.aspose.words/showinballoons)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [ShowInBalloons](../../com.aspose.words/showinballoons) constants.
 ### getShowOriginalRevision() {#getShowOriginalRevision--}
 ```
 public boolean getShowOriginalRevision()
 ```
 
 
-允许指定是否应显示原始文本而不是修订文本。默认值为假。
+Allows to specify whether the original text should be shown instead of revised one. Default value is False.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getShowRevisionBars() {#getShowRevisionBars--}
 ```
 public boolean getShowRevisionBars()
 ```
 
 
-允许指定是否应在包含修订内容的行附近呈现修订栏。默认值为真。
+Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getShowRevisionMarks() {#getShowRevisionMarks--}
 ```
 public boolean getShowRevisionMarks()
 ```
 
 
-允许指定是否应使用特殊格式标记来标记修订文本。默认值为真。
+Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -293,8 +293,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -317,12 +317,12 @@ public void setCommentColor(int value)
 ```
 
 
-允许指定用于注释的颜色。默认值为[RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED).如果将此属性设置为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR)或者[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT)值，因此该属性将设置为默认颜色。
+Allows to specify the color to be used for comments. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). If set this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values, as the result this property will be set to default color.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setDeletedTextColor(int value) {#setDeletedTextColor-int-}
 ```
@@ -330,12 +330,12 @@ public void setDeletedTextColor(int value)
 ```
 
 
-允许指定用于已删除内容的颜色[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setDeletedTextEffect(int value) {#setDeletedTextEffect-int-}
 ```
@@ -343,12 +343,12 @@ public void setDeletedTextEffect(int value)
 ```
 
 
-允许指定要应用于已删除内容的效果[Revision类型.DELETION](../../com.aspose.words/revisiontype\#DELETION) .默认值为[RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
+Allows to specify the effect to be applied to the deleted content [RevisionType.DELETION](../../com.aspose.words/revisiontype\#DELETION). Default value is [RevisionTextEffect.STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#STRIKE-THROUGH)
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
 
 ### setInsertedTextColor(int value) {#setInsertedTextColor-int-}
 ```
@@ -356,12 +356,12 @@ public void setInsertedTextColor(int value)
 ```
 
 
-允许指定用于插入内容的颜色[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setInsertedTextEffect(int value) {#setInsertedTextEffect-int-}
 ```
@@ -369,12 +369,12 @@ public void setInsertedTextEffect(int value)
 ```
 
 
-允许指定要应用于插入内容的效果[Revision类型.INSERTION](../../com.aspose.words/revisiontype\#INSERTION) .默认值为[RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE).的价值观[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)和[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)不允许并且会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect to be applied to the inserted content [RevisionType.INSERTION](../../com.aspose.words/revisiontype\#INSERTION). Default value is [RevisionTextEffect.UNDERLINE](../../com.aspose.words/revisiontexteffect\#UNDERLINE). Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
 
 ### setMeasurementUnit(int value) {#setMeasurementUnit-int-}
 ```
@@ -382,12 +382,12 @@ public void setMeasurementUnit(int value)
 ```
 
 
-允许为修订注释指定测量单位。默认值为[MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
+Allows to specify the measurement units for revision comments. Default value is [MeasurementUnits.CENTIMETERS](../../com.aspose.words/measurementunits\#CENTIMETERS)
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[MeasurementUnits](../../com.aspose.words/measurementunits)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [MeasurementUnits](../../com.aspose.words/measurementunits) constants. |
 
 ### setMovedFromTextColor(int value) {#setMovedFromTextColor-int-}
 ```
@@ -395,12 +395,12 @@ public void setMovedFromTextColor(int value)
 ```
 
 
-允许指定用于移动内容的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setMovedFromTextEffect(int value) {#setMovedFromTextEffect-int-}
 ```
@@ -408,12 +408,12 @@ public void setMovedFromTextEffect(int value)
 ```
 
 
-允许指定要应用于内容移动区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
+Allows to specify the effect to be applied to the areas where content was moved from [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
 
 ### setMovedToTextColor(int value) {#setMovedToTextColor-int-}
 ```
@@ -421,12 +421,12 @@ public void setMovedToTextColor(int value)
 ```
 
 
-允许指定要用于内容移动到的区域的颜色[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
+Allows to specify the color to be used for areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setMovedToTextEffect(int value) {#setMovedToTextEffect-int-}
 ```
@@ -434,12 +434,12 @@ public void setMovedToTextEffect(int value)
 ```
 
 
-允许指定要应用于内容移动到的区域的效果[Revision类型.MOVING](../../com.aspose.words/revisiontype\#MOVING) .默认值为[RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE)的价值观[RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)和[RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH)不允许并且会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect to be applied to the areas where content was moved to [RevisionType.MOVING](../../com.aspose.words/revisiontype\#MOVING). Default value is [RevisionTextEffect.DOUBLE\_UNDERLINE](../../com.aspose.words/revisiontexteffect\#DOUBLE-UNDERLINE) Values of [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) and [RevisionTextEffect.DOUBLE\_STRIKE\_THROUGH](../../com.aspose.words/revisiontexteffect\#DOUBLE-STRIKE-THROUGH) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
 
 ### setRevisedPropertiesColor(int value) {#setRevisedPropertiesColor-int-}
 ```
@@ -447,12 +447,12 @@ public void setRevisedPropertiesColor(int value)
 ```
 
 
-允许通过更改格式属性指定要用于内容的颜色[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
+Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setRevisedPropertiesEffect(int value) {#setRevisedPropertiesEffect-int-}
 ```
@@ -460,12 +460,12 @@ public void setRevisedPropertiesEffect(int value)
 ```
 
 
-允许通过更改格式属性来指定内容区域的效果[Revision类型.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE)默认值为[RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN)是不允许的，会导致 java.lang.IllegalArgumentException。
+Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FORMAT\_CHANGE](../../com.aspose.words/revisiontype\#FORMAT-CHANGE) Default value is [RevisionTextEffect.NONE](../../com.aspose.words/revisiontexteffect\#NONE) [RevisionTextEffect.HIDDEN](../../com.aspose.words/revisiontexteffect\#HIDDEN) is not allowed and will cause java.lang.IllegalArgumentException.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionTextEffect](../../com.aspose.words/revisiontexteffect)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionTextEffect](../../com.aspose.words/revisiontexteffect) constants. |
 
 ### setRevisionBarsColor(int value) {#setRevisionBarsColor-int-}
 ```
@@ -473,12 +473,12 @@ public void setRevisionBarsColor(int value)
 ```
 
 
-允许指定用于标识包含修订信息的文档行的侧栏的颜色。默认值为[RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED).将此属性设置为[RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR)或者[RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT)值将导致从布局中隐藏修订栏。
+Allows to specify the color to be used for side bars that identify document lines containing revised information. Default value is [RevisionColor.RED](../../com.aspose.words/revisioncolor\#RED). Setting this property to [RevisionColor.BY\_AUTHOR](../../com.aspose.words/revisioncolor\#BY-AUTHOR) or [RevisionColor.NO\_HIGHLIGHT](../../com.aspose.words/revisioncolor\#NO-HIGHLIGHT) values will result in hiding revision bars from the layout.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RevisionColor](../../com.aspose.words/revisioncolor)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RevisionColor](../../com.aspose.words/revisioncolor) constants. |
 
 ### setRevisionBarsPosition(int value) {#setRevisionBarsPosition-int-}
 ```
@@ -486,12 +486,12 @@ public void setRevisionBarsPosition(int value)
 ```
 
 
-设置修订栏的渲染位置。默认值为[HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE).的价值观[HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER)和[HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE)不允许并且会导致 java.lang.IllegalArgumentException。
+Sets rendering position of revision bars. Default value is [HorizontalAlignment.OUTSIDE](../../com.aspose.words/horizontalalignment\#OUTSIDE). Values of [HorizontalAlignment.CENTER](../../com.aspose.words/horizontalalignment\#CENTER) and [HorizontalAlignment.INSIDE](../../com.aspose.words/horizontalalignment\#INSIDE) are not allowed and will cause java.lang.IllegalArgumentException.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 修订栏的渲染位置。该值必须是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。 |
+| value | int | Rendering position of revision bars. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
 
 ### setRevisionBarsWidth(float value) {#setRevisionBarsWidth-float-}
 ```
@@ -499,12 +499,12 @@ public void setRevisionBarsWidth(float value)
 ```
 
 
-设置修订栏、点的宽度。
+Sets width of revision bars, points.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | float | 修订条的宽度，点。 |
+| value | float | Width of revision bars, points. |
 
 ### setShowInBalloons(int value) {#setShowInBalloons-int-}
 ```
@@ -512,12 +512,12 @@ public void setShowInBalloons(int value)
 ```
 
 
-允许指定是否在气球中呈现修订。默认值为[ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE).请注意，修订不会在气球中呈现[CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
+Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.NONE](../../com.aspose.words/showinballoons\#NONE). Note that revisions are not rendered in balloons for [CommentDisplayMode.SHOW\_IN\_ANNOTATIONS](../../com.aspose.words/commentdisplaymode\#SHOW-IN-ANNOTATIONS).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[ShowInBalloons](../../com.aspose.words/showinballoons)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [ShowInBalloons](../../com.aspose.words/showinballoons) constants. |
 
 ### setShowOriginalRevision(boolean value) {#setShowOriginalRevision-boolean-}
 ```
@@ -525,12 +525,12 @@ public void setShowOriginalRevision(boolean value)
 ```
 
 
-允许指定是否应显示原始文本而不是修订文本。默认值为假。
+Allows to specify whether the original text should be shown instead of revised one. Default value is False.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setShowRevisionBars(boolean value) {#setShowRevisionBars-boolean-}
 ```
@@ -538,12 +538,12 @@ public void setShowRevisionBars(boolean value)
 ```
 
 
-允许指定是否应在包含修订内容的行附近呈现修订栏。默认值为真。
+Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is True.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setShowRevisionMarks(boolean value) {#setShowRevisionMarks-boolean-}
 ```
@@ -551,12 +551,12 @@ public void setShowRevisionMarks(boolean value)
 ```
 
 
-允许指定是否应使用特殊格式标记来标记修订文本。默认值为真。
+Allow to specify whether revision text should be marked with special formatting markup. Default value is True.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -566,7 +566,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -584,8 +584,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -597,8 +597,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

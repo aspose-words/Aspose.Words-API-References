@@ -1,37 +1,37 @@
 ---
 title: ListLevelCollection
-second_title: Aspose.Words for Java API 参考
-description: 列表中每个级别的列表格式集合。
+second_title: Aspose.Words for Java API Reference
+description: A collection of list formatting for each level in a list.
 type: docs
 weight: 374
-url: /zh/java/com.aspose.words/listlevelcollection/
+url: /java/com.aspose.words/listlevelcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable, java.lang.Iterable
 ```
 public class ListLevelCollection implements Cloneable, Iterable
 ```
 
-列表中每个级别的列表格式集合。
+A collection of list formatting for each level in a list.
 
-要了解更多信息，请访问**Working with Lists**文档文章。
-## 方法s
+To learn more, visit the **Working with Lists** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 按索引获取列表级别。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取此列表中的级别数。 |
+| [get(int index)](#get-int-) | Gets a list level by index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of levels in this list. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 获取将枚举此列表中的级别的枚举器对象。 |
+| [iterator()](#iterator--) | Gets the enumerator object that will enumerate levels in this list. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [set(int index, ListLevel value)](#set-int-com.aspose.words.ListLevel-) | 按索引获取列表级别。 |
+| [set(int index, ListLevel value)](#set-int-com.aspose.words.ListLevel-) | Gets a list level by index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,50 +44,50 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public ListLevel get(int index)
 ```
 
 
-按索引获取列表级别。
+Gets a list level by index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[ListLevel](../../com.aspose.words/listlevel) - 按索引列出的列表级别。
-### get班级() {#get班级--}
+**Returns:**
+[ListLevel](../../com.aspose.words/listlevel) - A list level by index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取此列表中的级别数。
+Gets the number of levels in this list.
 
-列表中可能有 1 或 9 个级别。
+There could be 1 or 9 levels in a list.
 
-**退货:**
-int - 此列表中的级别数。
+**Returns:**
+int - The number of levels in this list.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -96,17 +96,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-获取将枚举此列表中的级别的枚举器对象。
+Gets the enumerator object that will enumerate levels in this list.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -130,13 +130,13 @@ public void set(int index, ListLevel value)
 ```
 
 
-按索引获取列表级别。
+Gets a list level by index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [ListLevel](../../com.aspose.words/listlevel) | 按索引列出的列表级别。 |
+| value | [ListLevel](../../com.aspose.words/listlevel) | A list level by index. |
 
 ### toString() {#toString--}
 ```
@@ -146,7 +146,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -164,8 +164,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -177,8 +177,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

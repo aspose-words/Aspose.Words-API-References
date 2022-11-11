@@ -1,26 +1,26 @@
 ---
 title: BuildingBlockGallery
-second_title: Aspose.Words for Java API 参考
-description: 指定构建块分类到的预定义库。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the predefined gallery into which a building block is classified.
 type: docs
 weight: 44
-url: /zh/java/com.aspose.words/buildingblockgallery/
+url: /java/com.aspose.words/buildingblockgallery/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class BuildingBlockGallery
 ```
 
-指定构建块分类到的预定义库。
+Specifies the predefined gallery into which a building block is classified.
 
-对应于**ST\_DocPartGallery**输入 OOXML。
-## 字段
+Corresponds to the **ST\_DocPartGallery** type in OOXML.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ALL](#ALL) | 指定此词汇表文档条目应与所有可能的画廊分类值相关联。 |
+| [ALL](#ALL) | Specifies that this glossary document entry shall be associated with all possible gallery classification values. |
 | [AUTO_TEXT](#AUTO-TEXT) |  |
 | [BIBLIOGRAPHY](#BIBLIOGRAPHY) |  |
 | [COVER_PAGE](#COVER-PAGE) |  |
@@ -44,7 +44,7 @@ public class BuildingBlockGallery
 | [CUSTOM_TABLE_OF_CONTENTS](#CUSTOM-TABLE-OF-CONTENTS) |  |
 | [CUSTOM_TEXT_BOX](#CUSTOM-TEXT-BOX) |  |
 | [CUSTOM_WATERMARKS](#CUSTOM-WATERMARKS) |  |
-| [DEFAULT](#DEFAULT) | 如同[ALL](../../com.aspose.words/buildingblockgallery\#ALL). |
+| [DEFAULT](#DEFAULT) | Same as [ALL](../../com.aspose.words/buildingblockgallery\#ALL). |
 | [EQUATIONS](#EQUATIONS) |  |
 | [FOOTERS](#FOOTERS) |  |
 | [HEADERS](#HEADERS) |  |
@@ -60,13 +60,13 @@ public class BuildingBlockGallery
 | [TEXT_BOX](#TEXT-BOX) |  |
 | [WATERMARKS](#WATERMARKS) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String buildingBlockGalleryName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int buildingBlockGallery)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -83,7 +83,7 @@ public static int ALL
 ```
 
 
-指定此词汇表文档条目应与所有可能的画廊分类值相关联。
+Specifies that this glossary document entry shall be associated with all possible gallery classification values.
 
 ### AUTO_TEXT {#AUTO-TEXT}
 ```
@@ -275,7 +275,7 @@ public static int DEFAULT
 ```
 
 
-如同[ALL](../../com.aspose.words/buildingblockgallery\#ALL).
+Same as [ALL](../../com.aspose.words/buildingblockgallery\#ALL).
 
 ### EQUATIONS {#EQUATIONS}
 ```
@@ -403,13 +403,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String buildingBlockGalleryName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String buildingBlockGalleryName)
@@ -418,23 +418,23 @@ public static int fromName(String buildingBlockGalleryName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockGalleryName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int buildingBlockGallery) {#getName-int-}
 ```
 public static String getName(int buildingBlockGallery)
@@ -443,12 +443,12 @@ public static String getName(int buildingBlockGallery)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockGallery | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -458,8 +458,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -468,8 +468,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -494,7 +494,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int buildingBlockGallery) {#toString-int-}
 ```
@@ -504,12 +504,12 @@ public static String toString(int buildingBlockGallery)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | buildingBlockGallery | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -527,8 +527,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -540,8 +540,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

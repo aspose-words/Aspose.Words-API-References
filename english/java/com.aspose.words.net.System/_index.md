@@ -1,18 +1,18 @@
 ---
 title: com.aspose.words.net.System
-second_title: Aspose.Words for Java API 参考
-description: 提供模仿 Java 中 System 命名空间的 .NET 类型的类型。
+second_title: Aspose.Words for Java API Reference
+description: Provides types mimicking .NET types of the System namespace in Java.
 type: docs
 weight: 11
-url: /zh/java/com.aspose.words.net.system/
+url: /java/com.aspose.words.net.system/
 ---
 
 
-提供模仿 .NET 类型的类型`System`Java 中的命名空间。
+Provides types mimicking .NET types of the `System` namespace in Java.
 
 
-## 班级es
+## Classes
 
-| 班级 | 描述 |
+| Class | Description |
 | --- | --- |
-| [OverflowException](../com.aspose.words.net.system/overflowexception) | 当检查上下文中的算术、强制转换或转换操作导致溢出时引发的异常。 |
+| [OverflowException](../com.aspose.words.net.system/overflowexception) | The exception that is thrown when an arithmetic, casting, or conversion operation in a checked context results in an overflow. |

@@ -1,28 +1,28 @@
 ---
-title: SaveOutput参数
-second_title: Aspose.Words for Java API 参考
-description: 此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。
+title: SaveOutputParameters
+second_title: Aspose.Words for Java API Reference
+description: This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation.
 type: docs
 weight: 501
-url: /zh/java/com.aspose.words/saveoutputparameters/
+url: /java/com.aspose.words/saveoutputparameters/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class SaveOutput参数
+public class SaveOutputParameters
 ```
 
-此对象在保存文档后返回给调用者，并包含在保存操作期间生成或计算的附加信息。调用者可以使用或忽略此对象。
+This object is returned to the caller after a document is saved and contains additional information that has been generated or calculated during the save operation. The caller can use or ignore this object.
 
-要了解更多信息，请访问**Save a Document**文档文章。
-## 方法s
+To learn more, visit the **Save a Document** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getContent类型()](#getContent类型--) | 返回标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。 |
+| [getClass()](#getClass--) |  |
+| [getContentType()](#getContentType--) | Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -38,33 +38,33 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getContent类型() {#getContent类型--}
-```
-public String getContent类型()
+public final native Class<?> getClass()
 ```
 
 
-返回标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。
 
-**退货:**
-java.lang.String - 标识已保存文档类型的 Content-类型 字符串（Internet 媒体类型）。
+
+**Returns:**
+java.lang.Class<?>
+### getContentType() {#getContentType--}
+```
+public String getContentType()
+```
+
+
+Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document.
+
+**Returns:**
+java.lang.String - The Content-Type string (Internet Media Type) that identifies the type of the saved document.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -73,8 +73,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -99,7 +99,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -117,8 +117,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -130,8 +130,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

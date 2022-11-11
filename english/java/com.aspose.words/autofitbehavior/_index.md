@@ -1,34 +1,34 @@
 ---
 title: AutoFitBehavior
-second_title: Aspose.Words for Java API 参考
-description: 确定调用 MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior 方法时 Aspose.Words 如何调整表格大小。
+second_title: Aspose.Words for Java API Reference
+description: Determines how Aspose.Words resizes the table when you invoke the MAspose.Words.Tables.Table.AutoFitAspose.Words.Tables.AutoFitBehavior method.
 type: docs
 weight: 15
-url: /zh/java/com.aspose.words/autofitbehavior/
+url: /java/com.aspose.words/autofitbehavior/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class AutoFitBehavior
 ```
 
-确定 Aspose.Words 在您调用**M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**方法。
-## 字段
+Determines how Aspose.Words resizes the table when you invoke the **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)** method.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO_FIT_TO_CONTENTS](#AUTO-FIT-TO-CONTENTS) | Aspose.Words 启用 AutoFit 选项，从表格和所有单元格中删除首选宽度，然后更新表格布局。 |
-| [AUTO_FIT_TO_WINDOW](#AUTO-FIT-TO-WINDOW) | 当您使用此值时，Aspose.Words 启用 AutoFit 选项，将表格的首选宽度设置为 100%，从所有单元格中删除首选宽度，然后更新表格布局。 |
-| [FIXED_COLUMN_WIDTHS](#FIXED-COLUMN-WIDTHS) | Aspose.Words 禁用 AutoFit 选项并从表中删除首选。 |
+| [AUTO_FIT_TO_CONTENTS](#AUTO-FIT-TO-CONTENTS) | Aspose.Words enables the AutoFit option, removes the preferred width from the table and all cells and then updates the table layout. |
+| [AUTO_FIT_TO_WINDOW](#AUTO-FIT-TO-WINDOW) | When you use this value, Aspose.Words enables the AutoFit option, sets the preferred width for the table to 100%, removes preferred widths from all cells and then updates the table layout. |
+| [FIXED_COLUMN_WIDTHS](#FIXED-COLUMN-WIDTHS) | Aspose.Words disables the AutoFit option and removes the preferred with from the table. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String autoFitBehaviorName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int autoFitBehavior)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,9 +45,9 @@ public static int AUTO_FIT_TO_CONTENTS
 ```
 
 
-Aspose.Words 启用 AutoFit 选项，从表格和所有单元格中删除首选宽度，然后更新表格布局。
+Aspose.Words enables the AutoFit option, removes the preferred width from the table and all cells and then updates the table layout.
 
-在生成的表格中，单元格宽度会更新以适合表格内容。最有可能的是，表格会缩小。
+In the resulting table, cell widths are updated to fit the table contents. Most likely, the table will shrink.
 
 ### AUTO_FIT_TO_WINDOW {#AUTO-FIT-TO-WINDOW}
 ```
@@ -55,9 +55,9 @@ public static int AUTO_FIT_TO_WINDOW
 ```
 
 
-当您使用此值时，Aspose.Words 启用 AutoFit 选项，将表格的首选宽度设置为 100%，从所有单元格中删除首选宽度，然后更新表格布局。
+When you use this value, Aspose.Words enables the AutoFit option, sets the preferred width for the table to 100%, removes preferred widths from all cells and then updates the table layout.
 
-结果，表格占据了所有可用宽度，并且单元格宽度被更新以适应表格内容。
+As a result, the table occupies all available width and the cell widths are updated to fit table contents.
 
 ### FIXED_COLUMN_WIDTHS {#FIXED-COLUMN-WIDTHS}
 ```
@@ -65,9 +65,9 @@ public static int FIXED_COLUMN_WIDTHS
 ```
 
 
-Aspose.Words 禁用 AutoFit 选项并从表中删除首选。
+Aspose.Words disables the AutoFit option and removes the preferred with from the table.
 
-单元格的宽度保持不变，因为它们由它们指定[CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth--) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double-)特性。
+The widths of the cells remain as they are specified by their [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth--) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double-) properties.
 
 ### length {#length}
 ```
@@ -83,13 +83,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String autoFitBehaviorName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String autoFitBehaviorName)
@@ -98,23 +98,23 @@ public static int fromName(String autoFitBehaviorName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | autoFitBehaviorName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int autoFitBehavior) {#getName-int-}
 ```
 public static String getName(int autoFitBehavior)
@@ -123,12 +123,12 @@ public static String getName(int autoFitBehavior)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | autoFitBehavior | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -138,8 +138,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -148,8 +148,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -174,7 +174,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int autoFitBehavior) {#toString-int-}
 ```
@@ -184,12 +184,12 @@ public static String toString(int autoFitBehavior)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | autoFitBehavior | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -207,8 +207,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -220,8 +220,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

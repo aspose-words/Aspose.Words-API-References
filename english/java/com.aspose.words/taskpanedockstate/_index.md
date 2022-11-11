@@ -1,33 +1,33 @@
 ---
 title: TaskPaneDockState
 second_title: Aspose.Words for Java API Reference
-description: 枚举任务窗格对象的可用位置。
+description: Enumerates available locations of task pane object.
 type: docs
 weight: 557
-url: /zh/java/com.aspose.words/taskpanedockstate/
+url: /java/com.aspose.words/taskpanedockstate/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TaskPaneDockState
 ```
 
-枚举任务窗格对象的可用位置。
-## 字段
+Enumerates available locations of task pane object.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [LEFT](#LEFT) | 将任务窗格停靠在文档窗口的左侧。 |
-| [RIGHT](#RIGHT) | 将任务窗格停靠在文档窗口的右侧。 |
+| [LEFT](#LEFT) | Dock the task pane on the left side of the document window. |
+| [RIGHT](#RIGHT) | Dock the task pane on the right side of the document window. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String taskPaneDockStateName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int taskPaneDockState)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int LEFT
 ```
 
 
-将任务窗格停靠在文档窗口的左侧。
+Dock the task pane on the left side of the document window.
 
 ### RIGHT {#RIGHT}
 ```
@@ -52,7 +52,7 @@ public static int RIGHT
 ```
 
 
-将任务窗格停靠在文档窗口的右侧。
+Dock the task pane on the right side of the document window.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String taskPaneDockStateName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String taskPaneDockStateName)
@@ -83,23 +83,23 @@ public static int fromName(String taskPaneDockStateName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | taskPaneDockStateName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int taskPaneDockState) {#getName-int-}
 ```
 public static String getName(int taskPaneDockState)
@@ -108,12 +108,12 @@ public static String getName(int taskPaneDockState)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | taskPaneDockState | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int taskPaneDockState) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int taskPaneDockState)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | taskPaneDockState | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

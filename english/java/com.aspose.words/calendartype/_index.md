@@ -1,43 +1,43 @@
 ---
-title: Calendar类型
-second_title: Aspose.Words for Java API 参考
-description: 指定日历的类型。
+title: CalendarType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the type of a calendar.
 type: docs
 weight: 47
-url: /zh/java/com.aspose.words/calendartype/
+url: /java/com.aspose.words/calendartype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Calendar类型
+public class CalendarType
 ```
 
-指定日历的类型。
-## 字段
+Specifies the type of a calendar.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [GREGORIAN](#GREGORIAN) | 公历。 |
-| [HEBREW](#HEBREW) | 希伯来农历。 |
-| [HIJRI](#HIJRI) | 回历农历。 |
-| [SAKA_ERA](#SAKA-ERA) | 萨卡时代的日历。 |
-| [UM_AL_QURA](#UM-AL-QURA) | Um-al-Qura 日历。 |
+| [GREGORIAN](#GREGORIAN) | The Gregorian calendar. |
+| [HEBREW](#HEBREW) | The Hebrew Lunar calendar. |
+| [HIJRI](#HIJRI) | The Hijri Lunar calendar. |
+| [SAKA_ERA](#SAKA-ERA) | The Saka Era calendar. |
+| [UM_AL_QURA](#UM-AL-QURA) | The Um-al-Qura calendar. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String calendar类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int calendar类型)](#getName-int-) |  |
+| [fromName(String calendarTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int calendarType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int calendar类型)](#toString-int-) |  |
+| [toString(int calendarType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,7 +47,7 @@ public static int GREGORIAN
 ```
 
 
-公历。
+The Gregorian calendar.
 
 ### HEBREW {#HEBREW}
 ```
@@ -55,7 +55,7 @@ public static int HEBREW
 ```
 
 
-希伯来农历。
+The Hebrew Lunar calendar.
 
 ### HIJRI {#HIJRI}
 ```
@@ -63,7 +63,7 @@ public static int HIJRI
 ```
 
 
-回历农历。
+The Hijri Lunar calendar.
 
 ### SAKA_ERA {#SAKA-ERA}
 ```
@@ -71,7 +71,7 @@ public static int SAKA_ERA
 ```
 
 
-萨卡时代的日历。
+The Saka Era calendar.
 
 ### UM_AL_QURA {#UM-AL-QURA}
 ```
@@ -79,7 +79,7 @@ public static int UM_AL_QURA
 ```
 
 
-Um-al-Qura 日历。
+The Um-al-Qura calendar.
 
 ### length {#length}
 ```
@@ -95,52 +95,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String calendar类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String calendarTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String calendar类型Name)
+public static int fromName(String calendarTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| calendar类型Name | java.lang.String |  |
+| calendarTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int calendar类型) {#getName-int-}
-```
-public static String getName(int calendar类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int calendarType) {#getName-int-}
+```
+public static String getName(int calendarType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| calendar类型 | int |  |
+| calendarType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,22 +186,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int calendar类型) {#toString-int-}
+### toString(int calendarType) {#toString-int-}
 ```
-public static String toString(int calendar类型)
+public static String toString(int calendarType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| calendar类型 | int |  |
+| calendarType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

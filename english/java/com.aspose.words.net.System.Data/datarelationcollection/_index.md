@@ -1,45 +1,45 @@
 ---
 title: DataRelationCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示 this 的对象集合。
+description: Represents the collection of  objects for this .
 type: docs
 weight: 19
-url: /zh/java/com.aspose.words.net.system.data/datarelationcollection/
+url: /java/com.aspose.words.net.system.data/datarelationcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class DataRelationCollection implements Iterable
 ```
 
-代表集合[DataRelation](../../com.aspose.words.net.system.data/datarelation)为此的对象[DataSet](../../com.aspose.words.net.system.data/dataset).
-## 方法s
+Represents the collection of [DataRelation](../../com.aspose.words.net.system.data/datarelation) objects for this [DataSet](../../com.aspose.words.net.system.data/dataset).
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的父列和子列，并将其添加到集合中。 |
-| [add(System.Data.DataRelation relation)](#add-com.aspose.words.net.System.Data.DataRelation-) | 添加一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)到[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection). |
-| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String-) | 向集合添加关系。 |
-| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---) | 向集合添加关系。 |
-| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | 创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的名称、父列和子列，并将其添加到集合中。 |
-| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-) | 创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的名称、父列和子列，根据 createConstraints 参数的值具有可选约束，并将其添加到集合中。 |
-| [clear()](#clear--) | 清除所有关系的集合。 |
-| [contains(System.Data.DataRelation relation)](#contains-com.aspose.words.net.System.Data.DataRelation-) | 验证集合中是否存在具有特定名称（不区分大小写）的 DataRelation。 |
+| [add(System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with a specified parent and child column, and adds it to the collection. |
+| [add(System.Data.DataRelation relation)](#add-com.aspose.words.net.System.Data.DataRelation-) | Adds a [DataRelation](../../com.aspose.words.net.system.data/datarelation) to the [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection). |
+| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String-) | Adds a relation to the collection. |
+| [add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames)](#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---) | Adds a relation to the collection. |
+| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, and parent and child columns, and adds it to the collection. |
+| [add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints)](#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-) | Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, parent and child columns, with optional constraints according to the value of the  createConstraints  parameter, and adds it to the collection. |
+| [clear()](#clear--) | Clears the collection of any relations. |
+| [contains(System.Data.DataRelation relation)](#contains-com.aspose.words.net.System.Data.DataRelation-) | Verifies whether a DataRelation with the specific name (case insensitive) exists in the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)指定索引处的对象。 |
-| [get(String name)](#get-java.lang.String-) | 获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)由名称指定的对象。 |
-| [get班级()](#get班级--) |  |
+| [get(int index)](#get-int-) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object at the specified index. |
+| [get(String name)](#get-java.lang.String-) | Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object specified by name. |
+| [getClass()](#getClass--) |  |
 | [getCount()](#getCount--) |  |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation-) | 获取指定的索引[DataRelation](../../com.aspose.words.net.system.data/datarelation)目的。 |
+| [indexOf(System.Data.DataRelation relation)](#indexOf-com.aspose.words.net.System.Data.DataRelation-) | Gets the index of the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) object. |
 | [iterator()](#iterator--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 从集合中删除指定索引处的关系。 |
+| [removeAt(int index)](#removeAt-int-) | Removes the relation at the specified index from the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,13 +50,13 @@ public void add(System.Data.DataColumn parentColumn, System.Data.DataColumn chil
 ```
 
 
-创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的父列和子列，并将其添加到集合中。
+Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with a specified parent and child column, and adds it to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的父列。 |
-| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的子列。 |
+| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent column of the relation. |
+| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
 
 ### add(System.Data.DataRelation relation) {#add-com.aspose.words.net.System.Data.DataRelation-}
 ```
@@ -64,12 +64,12 @@ public void add(System.Data.DataRelation relation)
 ```
 
 
-添加一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)到[DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection).
+Adds a [DataRelation](../../com.aspose.words.net.system.data/datarelation) to the [DataRelationCollection](../../com.aspose.words.net.system.data/datarelationcollection).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 要添加到集合中的 DataRelation。 |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The DataRelation to add to the collection. |
 
 ### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String parentColumnName, String childColumnName) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String-java.lang.String-}
 ```
@@ -77,15 +77,15 @@ public void add(System.Data.DataTable parentTable, System.Data.DataTable childTa
 ```
 
 
-向集合添加关系。不检查重复等。
+Adds a relation to the collection. Performs no checks on the duplication etc.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的父表。 |
-| childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的子表。 |
-| parentColumnName | java.lang.String | 关系的父列的名称。 |
-| childColumnName | java.lang.String | 关系的子列的名称。 |
+| parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | The parent table of the relation. |
+| childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | The child table of the relation. |
+| parentColumnName | java.lang.String | The parent column's name of the relation. |
+| childColumnName | java.lang.String | The child column's name of the relation. |
 
 ### add(System.Data.DataTable parentTable, System.Data.DataTable childTable, String[] parentColumnNames, String[] childColumnNames) {#add-com.aspose.words.net.System.Data.DataTable-com.aspose.words.net.System.Data.DataTable-java.lang.String---java.lang.String---}
 ```
@@ -93,15 +93,15 @@ public void add(System.Data.DataTable parentTable, System.Data.DataTable childTa
 ```
 
 
-向集合添加关系。不检查重复等。
+Adds a relation to the collection. Performs no checks on the duplication etc.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的父表。 |
-| childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | 关系的子表。 |
-| parentColumnNames | java.lang.String[] | 关系的父列名称数组。 |
-| childColumnNames | java.lang.String[] | 关系的子列名称数组。 |
+| parentTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | The parent table of the relation. |
+| childTable | [DataTable](../../com.aspose.words.net.system.data/datatable) | The child table of the relation. |
+| parentColumnNames | java.lang.String[] | The array of parent column's name of the relation. |
+| childColumnNames | java.lang.String[] | The array of child column's name of the relation. |
 
 ### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-}
 ```
@@ -109,14 +109,14 @@ public void add(String name, System.Data.DataColumn parentColumn, System.Data.Da
 ```
 
 
-创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的名称、父列和子列，并将其添加到集合中。
+Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, and parent and child columns, and adds it to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 关系的名称。 |
-| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的父列。 |
-| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的子列。 |
+| name | java.lang.String | The name of the relation. |
+| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent column of the relation. |
+| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
 
 ### add(String name, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, boolean createConstraints) {#add-java.lang.String-com.aspose.words.net.System.Data.DataColumn-com.aspose.words.net.System.Data.DataColumn-boolean-}
 ```
@@ -124,15 +124,15 @@ public void add(String name, System.Data.DataColumn parentColumn, System.Data.Da
 ```
 
 
-创建一个[DataRelation](../../com.aspose.words.net.system.data/datarelation)具有指定的名称、父列和子列，根据 createConstraints 参数的值具有可选约束，并将其添加到集合中。
+Creates a [DataRelation](../../com.aspose.words.net.system.data/datarelation) with the specified name, parent and child columns, with optional constraints according to the value of the  createConstraints  parameter, and adds it to the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 关系的名称。 |
-| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的父列。 |
-| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | 关系的子列。 |
-| createConstraints | boolean | true 创建约束；否则为假。 （默认为真）。 |
+| name | java.lang.String | The name of the relation. |
+| parentColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The parent column of the relation. |
+| childColumn | [DataColumn](../../com.aspose.words.net.system.data/datacolumn) | The child column of the relation. |
+| createConstraints | boolean | true to create constraints; otherwise false. (The default is true). |
 
 ### clear() {#clear--}
 ```
@@ -140,7 +140,7 @@ public void clear()
 ```
 
 
-清除所有关系的集合。
+Clears the collection of any relations.
 
 ### contains(System.Data.DataRelation relation) {#contains-com.aspose.words.net.System.Data.DataRelation-}
 ```
@@ -148,15 +148,15 @@ public boolean contains(System.Data.DataRelation relation)
 ```
 
 
-验证集合中是否存在具有特定名称（不区分大小写）的 DataRelation。
+Verifies whether a DataRelation with the specific name (case insensitive) exists in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 要查找的关系的名称。 |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The name of the relation to find. |
 
-**退货:**
-boolean - 如果存在具有指定名称的关系，则为 true；否则为假。
+**Returns:**
+boolean - true, if a relation with the specified name exists; otherwise false.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -165,53 +165,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public System.Data.DataRelation get(int index)
 ```
 
 
-获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)指定索引处的对象。
+Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 要查找的从零开始的索引。 |
+| index | int | The zero-based index to find. |
 
-**退货:**
-[DataRelation](../../com.aspose.words.net.system.data/datarelation) - 这[DataRelation](../../com.aspose.words.net.system.data/datarelation) , 或者如果指定了 null 值[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
+**Returns:**
+[DataRelation](../../com.aspose.words.net.system.data/datarelation) - The [DataRelation](../../com.aspose.words.net.system.data/datarelation), or a null value if the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) does not exist.
 ### get(String name) {#get-java.lang.String-}
 ```
 public System.Data.DataRelation get(String name)
 ```
 
 
-获取[DataRelation](../../com.aspose.words.net.system.data/datarelation)由名称指定的对象。
+Gets the [DataRelation](../../com.aspose.words.net.system.data/datarelation) object specified by name.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 要查找的关系的名称。 |
+| name | java.lang.String | The name of the relation to find. |
 
-**退货:**
-[DataRelation](../../com.aspose.words.net.system.data/datarelation) 被命名的[DataRelation](../../com.aspose.words.net.system.data/datarelation) , 或者如果指定了 null 值[DataRelation](../../com.aspose.words.net.system.data/datarelation)不存在。
-### get班级() {#get班级--}
+**Returns:**
+[DataRelation](../../com.aspose.words.net.system.data/datarelation) - The named [DataRelation](../../com.aspose.words.net.system.data/datarelation), or a null value if the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) does not exist.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
@@ -220,8 +220,8 @@ public int getCount()
 
 
 
-**退货:**
-int - 集合中的元素总数
+**Returns:**
+int - the total number of elements in a collection
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -230,23 +230,23 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOf(System.Data.DataRelation relation) {#indexOf-com.aspose.words.net.System.Data.DataRelation-}
 ```
 public int indexOf(System.Data.DataRelation relation)
 ```
 
 
-获取指定的索引[DataRelation](../../com.aspose.words.net.system.data/datarelation)目的。
+Gets the index of the specified [DataRelation](../../com.aspose.words.net.system.data/datarelation) object.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | 要搜索的关系。 |
+| relation | [DataRelation](../../com.aspose.words.net.system.data/datarelation) | The relation to search for. |
 
-**退货:**
-int - 关系的从 0 开始的索引，如果在集合中找不到关系，则为 -1。
+**Returns:**
+int - The 0-based index of the relation, or -1 if the relation is not found in the collection.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
@@ -255,7 +255,7 @@ public Iterator iterator()
 
 
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -279,12 +279,12 @@ public void removeAt(int index)
 ```
 
 
-从集合中删除指定索引处的关系。
+Removes the relation at the specified index from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 要删除的关系的索引。 |
+| index | int | The index of the relation to remove. |
 
 ### toString() {#toString--}
 ```
@@ -294,7 +294,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -312,8 +312,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -325,8 +325,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,48 +1,48 @@
 ---
 title: TextColumnCollection
 second_title: Aspose.Words for Java API Reference
-description: 表示文档部分中所有文本列的对象集合。
+description: A collection of  objects that represent all the columns of text in a section of a document.
 type: docs
 weight: 562
-url: /zh/java/com.aspose.words/textcolumncollection/
+url: /java/com.aspose.words/textcolumncollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextColumnCollection
 ```
 
-一个集合[TextColumn](../../com.aspose.words/textcolumn)表示文档部分中所有文本列的对象。
+A collection of [TextColumn](../../com.aspose.words/textcolumn) objects that represent all the columns of text in a section of a document.
 
-要了解更多信息，请访问**Working with Sections**文档文章。
+To learn more, visit the **Working with Sections** documentation article.
 
-利用[setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int-)设置文本列的数量。
+Use [setCount(int)](../../com.aspose.words/textcolumncollection\#setCount-int-) to set the number of text columns.
 
-要使所有列的宽度相等且间距均匀，请设置[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)至**true**并指定列之间的空间量[getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing--) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double-)MS Word 将自动计算列宽。
+To make all columns equal width and spaced evenly, set [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) to **true** and specify the amount of space between the columns in [getSpacing()](../../com.aspose.words/textcolumncollection\#getSpacing--) / [setSpacing(double)](../../com.aspose.words/textcolumncollection\#setSpacing-double-). MS Word will automatically calculate column widths.
 
-如果你有**EvenlySpaced**调成**false**，您需要单独指定每列的宽度和间距。使用索引器访问个人[TextColumn](../../com.aspose.words/textcolumn)对象。
+If you have **EvenlySpaced** set to **false**, you need to specify width and spacing for each column individually. Use the indexer to access individual [TextColumn](../../com.aspose.words/textcolumn) objects.
 
-使用自定义列宽时，请确保所有列宽和它们之间的间距之和等于页宽减去左右页边距。
-## 方法s
+When using custom column widths, make sure the sum of all column widths and spacings between them equals page width minus left and right page margins.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 返回指定索引处的文本列。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取文档部分中的列数。 |
-| [getEvenlySpaced()](#getEvenlySpaced--) | **True**如果文本列的宽度相等且间距均匀。 |
-| [getLineBetween()](#getLineBetween--) | 什么时候**true**, 在列之间添加一条垂直线。 |
-| [getSpacing()](#getSpacing--) | 当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。 |
-| [getWidth()](#getWidth--) | 当列均匀分布时，获取列的宽度。 |
+| [get(int index)](#get-int-) | Returns a text column at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of columns in the section of a document. |
+| [getEvenlySpaced()](#getEvenlySpaced--) | **True** if text columns are of equal width and evenly spaced. |
+| [getLineBetween()](#getLineBetween--) | When **true**, adds a vertical line between columns. |
+| [getSpacing()](#getSpacing--) | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
+| [getWidth()](#getWidth--) | When columns are evenly spaced, gets the width of the columns. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setCount(int newCount)](#setCount-int-) | 将文本排列到指定数量的文本列中。 |
-| [setEvenlySpaced(boolean value)](#setEvenlySpaced-boolean-) | **True**如果文本列的宽度相等且间距均匀。 |
-| [setLineBetween(boolean value)](#setLineBetween-boolean-) | 什么时候**true**, 在列之间添加一条垂直线。 |
-| [setSpacing(double value)](#setSpacing-double-) | 当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。 |
+| [setCount(int newCount)](#setCount-int-) | Arranges text into the specified number of text columns. |
+| [setEvenlySpaced(boolean value)](#setEvenlySpaced-boolean-) | **True** if text columns are of equal width and evenly spaced. |
+| [setLineBetween(boolean value)](#setLineBetween-boolean-) | When **true**, adds a vertical line between columns. |
+| [setSpacing(double value)](#setSpacing-double-) | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -55,90 +55,90 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public TextColumn get(int index)
 ```
 
 
-返回指定索引处的文本列。
+Returns a text column at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[TextColumn](../../com.aspose.words/textcolumn) - 指定索引处的文本列。
-### get班级() {#get班级--}
+**Returns:**
+[TextColumn](../../com.aspose.words/textcolumn) - A text column at the specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取文档部分中的列数。
+Gets the number of columns in the section of a document.
 
-**退货:**
-int - 文档部分中的列数。
+**Returns:**
+int - The number of columns in the section of a document.
 ### getEvenlySpaced() {#getEvenlySpaced--}
 ```
 public boolean getEvenlySpaced()
 ```
 
 
-**True**如果文本列的宽度相等且间距均匀。
+**True** if text columns are of equal width and evenly spaced.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getLineBetween() {#getLineBetween--}
 ```
 public boolean getLineBetween()
 ```
 
 
-什么时候**true**, 在列之间添加一条垂直线。
+When **true**, adds a vertical line between columns.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSpacing() {#getSpacing--}
 ```
 public double getSpacing()
 ```
 
 
-当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。仅在以下情况下生效[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)被设定为**true**.
+When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) is set to **true**.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-当列均匀分布时，获取列的宽度。
+When columns are evenly spaced, gets the width of the columns.
 
-仅在以下情况下生效[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)被设定为**true**.
+Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) is set to **true**.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -147,8 +147,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -171,14 +171,14 @@ public void setCount(int newCount)
 ```
 
 
-将文本排列到指定数量的文本列中。
+Arranges text into the specified number of text columns.
 
-什么时候[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)是**false**你增加了列数，新的[TextColumn](../../com.aspose.words/textcolumn)对象以零宽度和间距创建。您需要为新列设置宽度和间距。
+When [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) is **false** and you increase the number of columns, new [TextColumn](../../com.aspose.words/textcolumn) objects are created with zero width and spacing. You need to set width and spacing for the new columns.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newCount | int | 文本要排列到的列数。 |
+| newCount | int | The number of columns the text is to be arranged into. |
 
 ### setEvenlySpaced(boolean value) {#setEvenlySpaced-boolean-}
 ```
@@ -186,12 +186,12 @@ public void setEvenlySpaced(boolean value)
 ```
 
 
-**True**如果文本列的宽度相等且间距均匀。
+**True** if text columns are of equal width and evenly spaced.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setLineBetween(boolean value) {#setLineBetween-boolean-}
 ```
@@ -199,12 +199,12 @@ public void setLineBetween(boolean value)
 ```
 
 
-什么时候**true**, 在列之间添加一条垂直线。
+When **true**, adds a vertical line between columns.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSpacing(double value) {#setSpacing-double-}
 ```
@@ -212,12 +212,12 @@ public void setSpacing(double value)
 ```
 
 
-当列均匀分布时，获取或设置每列之间的空间量（以磅为单位）。仅在以下情况下生效[getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-)被设定为**true**.
+When columns are evenly spaced, gets or sets the amount of space between each column in points. Has effect only when [getEvenlySpaced()](../../com.aspose.words/textcolumncollection\#getEvenlySpaced--) / [setEvenlySpaced(boolean)](../../com.aspose.words/textcolumncollection\#setEvenlySpaced-boolean-) is set to **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### toString() {#toString--}
 ```
@@ -227,7 +227,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -245,8 +245,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -258,8 +258,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

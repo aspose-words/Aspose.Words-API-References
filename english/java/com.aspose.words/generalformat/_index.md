@@ -1,87 +1,87 @@
 ---
 title: GeneralFormat
-second_title: Aspose.Words for Java API 参考
-description: 指定应用于数字文本或任何字段结果的通用格式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies a general format that is applied to a numeric text or any field result.
 type: docs
 weight: 304
-url: /zh/java/com.aspose.words/generalformat/
+url: /java/com.aspose.words/generalformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class GeneralFormat
 ```
 
-指定应用于数字、文本或任何字段结果的通用格式。一个字段可能有通用格式的组合。
-## 字段
+Specifies a general format that is applied to a numeric, text, or any field result. A field may have a combination of general formats.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AIUEO](#AIUEO) | 数字格式。 |
-| [ARABIC](#ARABIC) | 数字格式。 |
-| [ARABIC_ABJAD](#ARABIC-ABJAD) | 数字格式。 |
-| [ARABIC_ALPHA](#ARABIC-ALPHA) | 数字格式。 |
-| [ARABIC_DASH](#ARABIC-DASH) | 数字格式。 |
-| [BAHT_TEXT](#BAHT-TEXT) | 数字格式。 |
-| [CAPS](#CAPS) | 文本格式。 |
-| [CARD_TEXT](#CARD-TEXT) | 数字格式。 |
-| [CHAR_FORMAT](#CHAR-FORMAT) | 字段结果格式。 |
-| [CHINESE_NUM_1](#CHINESE-NUM-1) | 数字格式。 |
-| [CHINESE_NUM_2](#CHINESE-NUM-2) | 数字格式。 |
-| [CHINESE_NUM_3](#CHINESE-NUM-3) | 数字格式。 |
-| [CHOSUNG](#CHOSUNG) | 数字格式。 |
-| [CIRCLE_NUM](#CIRCLE-NUM) | 数字格式。 |
+| [AIUEO](#AIUEO) | Numeric formatting. |
+| [ARABIC](#ARABIC) | Numeric formatting. |
+| [ARABIC_ABJAD](#ARABIC-ABJAD) | Numeric formatting. |
+| [ARABIC_ALPHA](#ARABIC-ALPHA) | Numeric formatting. |
+| [ARABIC_DASH](#ARABIC-DASH) | Numeric formatting. |
+| [BAHT_TEXT](#BAHT-TEXT) | Numeric formatting. |
+| [CAPS](#CAPS) | Text formatting. |
+| [CARD_TEXT](#CARD-TEXT) | Numeric formatting. |
+| [CHAR_FORMAT](#CHAR-FORMAT) | Field result formatting. |
+| [CHINESE_NUM_1](#CHINESE-NUM-1) | Numeric formatting. |
+| [CHINESE_NUM_2](#CHINESE-NUM-2) | Numeric formatting. |
+| [CHINESE_NUM_3](#CHINESE-NUM-3) | Numeric formatting. |
+| [CHOSUNG](#CHOSUNG) | Numeric formatting. |
+| [CIRCLE_NUM](#CIRCLE-NUM) | Numeric formatting. |
 | [DB_CHAR](#DB-CHAR) |  |
 | [DB_NUM_1](#DB-NUM-1) |  |
 | [DB_NUM_2](#DB-NUM-2) |  |
 | [DB_NUM_3](#DB-NUM-3) |  |
 | [DB_NUM_4](#DB-NUM-4) |  |
-| [DOLLAR_TEXT](#DOLLAR-TEXT) | 数字格式。 |
-| [FIRST_CAP](#FIRST-CAP) | 文本格式。 |
-| [GANADA](#GANADA) | 数字格式。 |
-| [GB_1](#GB-1) | 数字格式。 |
-| [GB_2](#GB-2) | 数字格式。 |
-| [GB_3](#GB-3) | 数字格式。 |
-| [GB_4](#GB-4) | 数字格式。 |
-| [HEBREW_1](#HEBREW-1) | 数字格式。 |
-| [HEBREW_2](#HEBREW-2) | 数字格式。 |
-| [HEX](#HEX) | 数字格式。 |
-| [HINDI_ARABIC](#HINDI-ARABIC) | 数字格式。 |
-| [HINDI_CARD_TEXT](#HINDI-CARD-TEXT) | 数字格式。 |
-| [HINDI_LETTER_1](#HINDI-LETTER-1) | 数字格式。 |
-| [HINDI_LETTER_2](#HINDI-LETTER-2) | 数字格式。 |
-| [IROHA](#IROHA) | 数字格式。 |
-| [KANJI_NUM_1](#KANJI-NUM-1) | 数字格式。 |
-| [KANJI_NUM_2](#KANJI-NUM-2) | 数字格式。 |
-| [KANJI_NUM_3](#KANJI-NUM-3) | 数字格式。 |
-| [LOWER](#LOWER) | 文本格式。 |
-| [LOWERCASE_ALPHABETIC](#LOWERCASE-ALPHABETIC) | 数字格式。 |
-| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | 数字格式。 |
-| [MERGE_FORMAT](#MERGE-FORMAT) | 字段结果格式。 |
-| [MERGE_FORMAT_INET](#MERGE-FORMAT-INET) | 字段结果格式。 |
-| [NONE](#NONE) | 用于指定缺少的通用格式。 |
-| [ORDINAL](#ORDINAL) | 数字格式。 |
-| [ORD_TEXT](#ORD-TEXT) | 数字格式。 |
+| [DOLLAR_TEXT](#DOLLAR-TEXT) | Numeric formatting. |
+| [FIRST_CAP](#FIRST-CAP) | Text formatting. |
+| [GANADA](#GANADA) | Numeric formatting. |
+| [GB_1](#GB-1) | Numeric formatting. |
+| [GB_2](#GB-2) | Numeric formatting. |
+| [GB_3](#GB-3) | Numeric formatting. |
+| [GB_4](#GB-4) | Numeric formatting. |
+| [HEBREW_1](#HEBREW-1) | Numeric formatting. |
+| [HEBREW_2](#HEBREW-2) | Numeric formatting. |
+| [HEX](#HEX) | Numeric formatting. |
+| [HINDI_ARABIC](#HINDI-ARABIC) | Numeric formatting. |
+| [HINDI_CARD_TEXT](#HINDI-CARD-TEXT) | Numeric formatting. |
+| [HINDI_LETTER_1](#HINDI-LETTER-1) | Numeric formatting. |
+| [HINDI_LETTER_2](#HINDI-LETTER-2) | Numeric formatting. |
+| [IROHA](#IROHA) | Numeric formatting. |
+| [KANJI_NUM_1](#KANJI-NUM-1) | Numeric formatting. |
+| [KANJI_NUM_2](#KANJI-NUM-2) | Numeric formatting. |
+| [KANJI_NUM_3](#KANJI-NUM-3) | Numeric formatting. |
+| [LOWER](#LOWER) | Text formatting. |
+| [LOWERCASE_ALPHABETIC](#LOWERCASE-ALPHABETIC) | Numeric formatting. |
+| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | Numeric formatting. |
+| [MERGE_FORMAT](#MERGE-FORMAT) | Field result formatting. |
+| [MERGE_FORMAT_INET](#MERGE-FORMAT-INET) | Field result formatting. |
+| [NONE](#NONE) | Used to specify a missing general format. |
+| [ORDINAL](#ORDINAL) | Numeric formatting. |
+| [ORD_TEXT](#ORD-TEXT) | Numeric formatting. |
 | [SB_CHAR](#SB-CHAR) |  |
-| [THAI_ARABIC](#THAI-ARABIC) | 数字格式。 |
-| [THAI_CARD_TEXT](#THAI-CARD-TEXT) | 数字格式。 |
-| [THAI_LETTER](#THAI-LETTER) | 数字格式。 |
-| [UPPER](#UPPER) | 文本格式。 |
-| [UPPERCASE_ALPHABETIC](#UPPERCASE-ALPHABETIC) | 数字格式。 |
-| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | 数字格式。 |
-| [VIET_CARD_TEXT](#VIET-CARD-TEXT) | 数字格式。 |
-| [ZODIAC_1](#ZODIAC-1) | 数字格式。 |
-| [ZODIAC_2](#ZODIAC-2) | 数字格式。 |
-| [ZODIAC_3](#ZODIAC-3) | 数字格式。 |
+| [THAI_ARABIC](#THAI-ARABIC) | Numeric formatting. |
+| [THAI_CARD_TEXT](#THAI-CARD-TEXT) | Numeric formatting. |
+| [THAI_LETTER](#THAI-LETTER) | Numeric formatting. |
+| [UPPER](#UPPER) | Text formatting. |
+| [UPPERCASE_ALPHABETIC](#UPPERCASE-ALPHABETIC) | Numeric formatting. |
+| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | Numeric formatting. |
+| [VIET_CARD_TEXT](#VIET-CARD-TEXT) | Numeric formatting. |
+| [ZODIAC_1](#ZODIAC-1) | Numeric formatting. |
+| [ZODIAC_2](#ZODIAC-2) | Numeric formatting. |
+| [ZODIAC_3](#ZODIAC-3) | Numeric formatting. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String generalFormatName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int generalFormat)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -98,7 +98,7 @@ public static int AIUEO
 ```
 
 
-数字格式。使用传统 aiueo 顺序中的平假名字符格式化数字结果。
+Numeric formatting. Formats a numeric result using hiragana characters in the traditional a-i-u-e-o order.
 
 ### ARABIC {#ARABIC}
 ```
@@ -106,7 +106,7 @@ public static int ARABIC
 ```
 
 
-数字格式。使用阿拉伯基数格式化数字结果。
+Numeric formatting. Formats a numeric result using Arabic cardinal numerals.
 
 ### ARABIC_ABJAD {#ARABIC-ABJAD}
 ```
@@ -114,7 +114,7 @@ public static int ARABIC_ABJAD
 ```
 
 
-数字格式。使用升序 Abjad 数字格式化数字结果。
+Numeric formatting. Formats a numeric result using ascending Abjad numerals.
 
 ### ARABIC_ALPHA {#ARABIC-ALPHA}
 ```
@@ -122,7 +122,7 @@ public static int ARABIC_ALPHA
 ```
 
 
-数字格式。使用阿拉伯字母表中的字符格式化数字结果。
+Numeric formatting. Formats a numeric result using characters in the Arabic alphabet.
 
 ### ARABIC_DASH {#ARABIC-DASH}
 ```
@@ -130,7 +130,7 @@ public static int ARABIC_DASH
 ```
 
 
-数字格式。使用阿拉伯基数来格式化数字结果，前缀为“-”，后缀为“-”。
+Numeric formatting. Formats a numeric result using Arabic cardinal numerals, with a prefix of "- " and a suffix of " -".
 
 ### BAHT_TEXT {#BAHT-TEXT}
 ```
@@ -138,7 +138,7 @@ public static int BAHT_TEXT
 ```
 
 
-数字格式。在泰语计数系统中格式化数字结果。
+Numeric formatting. Formats a numeric result in the Thai counting system.
 
 ### CAPS {#CAPS}
 ```
@@ -146,7 +146,7 @@ public static int CAPS
 ```
 
 
-文本格式。将每个单词的第一个字母大写。
+Text formatting. Capitalizes the first letter of each word.
 
 ### CARD_TEXT {#CARD-TEXT}
 ```
@@ -154,7 +154,7 @@ public static int CARD_TEXT
 ```
 
 
-数字格式。主要文本（一、二、三、...）。
+Numeric formatting. Cardinal text (One, Two, Three, ...).
 
 ### CHAR_FORMAT {#CHAR-FORMAT}
 ```
@@ -162,7 +162,7 @@ public static int CHAR_FORMAT
 ```
 
 
-字段结果格式。 CHARFORMAT 指令。
+Field result formatting. The CHARFORMAT instruction.
 
 ### CHINESE_NUM_1 {#CHINESE-NUM-1}
 ```
@@ -170,7 +170,7 @@ public static int CHINESE_NUM_1
 ```
 
 
-数字格式。使用来自适当计数系统的升序数字格式化数字结果。
+Numeric formatting. Formats a numeric result using ascending numbers from the appropriate counting system.
 
 ### CHINESE_NUM_2 {#CHINESE-NUM-2}
 ```
@@ -178,7 +178,7 @@ public static int CHINESE_NUM_2
 ```
 
 
-数字格式。使用来自适当合法格式的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the appropriate legal format.
 
 ### CHINESE_NUM_3 {#CHINESE-NUM-3}
 ```
@@ -186,7 +186,7 @@ public static int CHINESE_NUM_3
 ```
 
 
-数字格式。使用来自适当的计数千系统的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the appropriate counting thousand system.
 
 ### CHOSUNG {#CHOSUNG}
 ```
@@ -194,7 +194,7 @@ public static int CHOSUNG
 ```
 
 
-数字格式。使用韩国 Chosung 格式的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the Korean Chosung format.
 
 ### CIRCLE_NUM {#CIRCLE-NUM}
 ```
@@ -202,7 +202,7 @@ public static int CIRCLE_NUM
 ```
 
 
-数字格式。使用包围在圆圈中的十进制编号格式化数字结果，对范围 1 中的数字使用封闭的字母数字字形字符\\u201320。
+Numeric formatting. Formats a numeric result using decimal numbering enclosed in a circle, using the enclosed alphanumeric glyph character for numbers in the range 1\\u201320.
 
 ### DB_CHAR {#DB-CHAR}
 ```
@@ -240,7 +240,7 @@ public static int DOLLAR_TEXT
 ```
 
 
-数字格式。美元文本（一、二、三、... + AND 55/100）。
+Numeric formatting. Dollar text (One, Two, Three, ... + AND 55/100).
 
 ### FIRST_CAP {#FIRST-CAP}
 ```
@@ -248,7 +248,7 @@ public static int FIRST_CAP
 ```
 
 
-文本格式。将第一个单词的第一个字母大写。
+Text formatting. Capitalizes the first letter of the first word.
 
 ### GANADA {#GANADA}
 ```
@@ -256,7 +256,7 @@ public static int GANADA
 ```
 
 
-数字格式。使用韩国 Ganada 格式的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the Korean Ganada format.
 
 ### GB_1 {#GB-1}
 ```
@@ -264,7 +264,7 @@ public static int GB_1
 ```
 
 
-数字格式。使用包含的字母数字字形字符，使用后跟句点的十进制编号格式化数字结果。
+Numeric formatting. Formats a numeric result using decimal numbering followed by a period, using the enclosed alphanumeric glyph character.
 
 ### GB_2 {#GB-2}
 ```
@@ -272,7 +272,7 @@ public static int GB_2
 ```
 
 
-数字格式。使用括在括号中的十进制编号，使用封闭的字母数字字形字符来格式化数字结果。
+Numeric formatting. Formats a numeric result using decimal numbering enclosed in parenthesis, using the enclosed alphanumeric glyph character.
 
 ### GB_3 {#GB-3}
 ```
@@ -280,7 +280,7 @@ public static int GB_3
 ```
 
 
-数字格式。使用包含在圆圈中的十进制编号，使用包含的字母数字字形字符来格式化数字结果。
+Numeric formatting. Formats a numeric result using decimal numbering enclosed in a circle, using the enclosed alphanumeric glyph character.
 
 ### GB_4 {#GB-4}
 ```
@@ -288,7 +288,7 @@ public static int GB_4
 ```
 
 
-数字格式。使用包含在圆圈中的十进制编号，使用包含的字母数字字形字符来格式化数字结果。
+Numeric formatting. Formats a numeric result using decimal numbering enclosed in a circle, using the enclosed alphanumeric glyph character.
 
 ### HEBREW_1 {#HEBREW-1}
 ```
@@ -296,7 +296,7 @@ public static int HEBREW_1
 ```
 
 
-数字格式。使用希伯来数字格式化数字结果。
+Numeric formatting. Formats a numeric result using Hebrew numerals.
 
 ### HEBREW_2 {#HEBREW-2}
 ```
@@ -304,7 +304,7 @@ public static int HEBREW_2
 ```
 
 
-数字格式。使用希伯来字母格式化数字结果。
+Numeric formatting. Formats a numeric result using the Hebrew alphabet.
 
 ### HEX {#HEX}
 ```
@@ -312,7 +312,7 @@ public static int HEX
 ```
 
 
-数字格式。使用大写十六进制数字格式化数值结果。
+Numeric formatting. Formats the numeric result using uppercase hexadecimal digits.
 
 ### HINDI_ARABIC {#HINDI-ARABIC}
 ```
@@ -320,7 +320,7 @@ public static int HINDI_ARABIC
 ```
 
 
-数字格式。使用印地语数字格式化数字结果。
+Numeric formatting. Formats a numeric result using Hindi numbers.
 
 ### HINDI_CARD_TEXT {#HINDI-CARD-TEXT}
 ```
@@ -328,7 +328,7 @@ public static int HINDI_CARD_TEXT
 ```
 
 
-数字格式。使用印地语计数系统中的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the Hindi counting system.
 
 ### HINDI_LETTER_1 {#HINDI-LETTER-1}
 ```
@@ -336,7 +336,7 @@ public static int HINDI_LETTER_1
 ```
 
 
-数字格式。使用印地语元音格式化数字结果。
+Numeric formatting. Formats a numeric result using Hindi vowels.
 
 ### HINDI_LETTER_2 {#HINDI-LETTER-2}
 ```
@@ -344,7 +344,7 @@ public static int HINDI_LETTER_2
 ```
 
 
-数字格式。使用印地语辅音格式化数字结果。
+Numeric formatting. Formats a numeric result using Hindi consonants.
 
 ### IROHA {#IROHA}
 ```
@@ -352,7 +352,7 @@ public static int IROHA
 ```
 
 
-数字格式。使用日语 iroha 格式化数字结果。
+Numeric formatting. Formats a numeric result using the Japanese iroha.
 
 ### KANJI_NUM_1 {#KANJI-NUM-1}
 ```
@@ -360,7 +360,7 @@ public static int KANJI_NUM_1
 ```
 
 
-数字格式。使用适当的计数系统使用日式样式格式化数字结果。
+Numeric formatting. Formats a numeric result using a Japanese style using the appropriate counting system.
 
 ### KANJI_NUM_2 {#KANJI-NUM-2}
 ```
@@ -368,7 +368,7 @@ public static int KANJI_NUM_2
 ```
 
 
-数字格式。使用适当的计数系统格式化数字结果。
+Numeric formatting. Formats a numeric result using the appropriate counting system.
 
 ### KANJI_NUM_3 {#KANJI-NUM-3}
 ```
@@ -376,7 +376,7 @@ public static int KANJI_NUM_3
 ```
 
 
-数字格式。使用适当的计数系统格式化数字结果。
+Numeric formatting. Formats a numeric result using the appropriate counting system.
 
 ### LOWER {#LOWER}
 ```
@@ -384,7 +384,7 @@ public static int LOWER
 ```
 
 
-文本格式。所有字母都是小写的。
+Text formatting. All letters are lowercase.
 
 ### LOWERCASE_ALPHABETIC {#LOWERCASE-ALPHABETIC}
 ```
@@ -392,7 +392,7 @@ public static int LOWERCASE_ALPHABETIC
 ```
 
 
-数字格式。将数值结果格式化为一个或多个小写字母拉丁字符。
+Numeric formatting. Formats a numeric result as one or more occurrences of an lowercase alphabetic Latin character.
 
 ### LOWERCASE_ROMAN {#LOWERCASE-ROMAN}
 ```
@@ -400,7 +400,7 @@ public static int LOWERCASE_ROMAN
 ```
 
 
-数字格式。小写罗马字母 (i, ii, iii, ...)。
+Numeric formatting. Lowercase Roman (i, ii, iii, ...).
 
 ### MERGE_FORMAT {#MERGE-FORMAT}
 ```
@@ -408,7 +408,7 @@ public static int MERGE_FORMAT
 ```
 
 
-字段结果格式。 MERGEFORMAT 指令。
+Field result formatting. The MERGEFORMAT instruction.
 
 ### MERGE_FORMAT_INET {#MERGE-FORMAT-INET}
 ```
@@ -416,7 +416,7 @@ public static int MERGE_FORMAT_INET
 ```
 
 
-字段结果格式。 MERGEFORMATINET 指令。
+Field result formatting. The MERGEFORMATINET instruction.
 
 ### NONE {#NONE}
 ```
@@ -424,7 +424,7 @@ public static int NONE
 ```
 
 
-用于指定缺少的通用格式。
+Used to specify a missing general format.
 
 ### ORDINAL {#ORDINAL}
 ```
@@ -432,7 +432,7 @@ public static int ORDINAL
 ```
 
 
-数字格式。序数（第 1、第 2、第 3、...）。
+Numeric formatting. Ordinal (1st, 2nd, 3rd, ...).
 
 ### ORD_TEXT {#ORD-TEXT}
 ```
@@ -440,7 +440,7 @@ public static int ORD_TEXT
 ```
 
 
-数字格式。序数文本（第一，第二，第三，...）。
+Numeric formatting. Ordinal text (First, Second, Third, ...).
 
 ### SB_CHAR {#SB-CHAR}
 ```
@@ -454,7 +454,7 @@ public static int THAI_ARABIC
 ```
 
 
-数字格式。使用泰语数字格式化数字结果。
+Numeric formatting. Formats a numeric result using Thai numbers.
 
 ### THAI_CARD_TEXT {#THAI-CARD-TEXT}
 ```
@@ -462,7 +462,7 @@ public static int THAI_CARD_TEXT
 ```
 
 
-数字格式。使用泰语计数系统中的序列号格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numbers from the Thai counting system.
 
 ### THAI_LETTER {#THAI-LETTER}
 ```
@@ -470,7 +470,7 @@ public static int THAI_LETTER
 ```
 
 
-数字格式。使用泰语字母格式化数字结果。
+Numeric formatting. Formats a numeric result using Thai letters.
 
 ### UPPER {#UPPER}
 ```
@@ -478,7 +478,7 @@ public static int UPPER
 ```
 
 
-文本格式。所有字母都是大写的。
+Text formatting. All letters are uppercase.
 
 ### UPPERCASE_ALPHABETIC {#UPPERCASE-ALPHABETIC}
 ```
@@ -486,7 +486,7 @@ public static int UPPERCASE_ALPHABETIC
 ```
 
 
-数字格式。将数值结果格式化为一次或多次出现的大写拉丁字母字符。
+Numeric formatting. Formats a numeric result as one or more occurrences of an uppercase alphabetic Latin character.
 
 ### UPPERCASE_ROMAN {#UPPERCASE-ROMAN}
 ```
@@ -494,7 +494,7 @@ public static int UPPERCASE_ROMAN
 ```
 
 
-数字格式。大写罗马字母 (I, II, III, ...)。
+Numeric formatting. Uppercase Roman (I, II, III, ...).
 
 ### VIET_CARD_TEXT {#VIET-CARD-TEXT}
 ```
@@ -502,7 +502,7 @@ public static int VIET_CARD_TEXT
 ```
 
 
-数字格式。使用越南数字格式化数字结果。
+Numeric formatting. Formats a numeric result using Vietnamese numerals.
 
 ### ZODIAC_1 {#ZODIAC-1}
 ```
@@ -510,7 +510,7 @@ public static int ZODIAC_1
 ```
 
 
-数字格式。使用顺序数字传统表意文字格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential numerical traditional ideographs.
 
 ### ZODIAC_2 {#ZODIAC-2}
 ```
@@ -518,7 +518,7 @@ public static int ZODIAC_2
 ```
 
 
-数字格式。使用顺序生肖象形文字格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential zodiac ideographs.
 
 ### ZODIAC_3 {#ZODIAC-3}
 ```
@@ -526,7 +526,7 @@ public static int ZODIAC_3
 ```
 
 
-数字格式。使用连续的传统生肖表意文字格式化数字结果。
+Numeric formatting. Formats a numeric result using sequential traditional zodiac ideographs.
 
 ### length {#length}
 ```
@@ -542,13 +542,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String generalFormatName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String generalFormatName)
@@ -557,23 +557,23 @@ public static int fromName(String generalFormatName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | generalFormatName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int generalFormat) {#getName-int-}
 ```
 public static String getName(int generalFormat)
@@ -582,12 +582,12 @@ public static String getName(int generalFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | generalFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -597,8 +597,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -607,8 +607,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -633,7 +633,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int generalFormat) {#toString-int-}
 ```
@@ -643,12 +643,12 @@ public static String toString(int generalFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | generalFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -666,8 +666,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -679,8 +679,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

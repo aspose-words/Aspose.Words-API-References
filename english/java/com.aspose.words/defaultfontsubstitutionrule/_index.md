@@ -1,36 +1,36 @@
 ---
 title: DefaultFontSubstitutionRule
-second_title: Aspose.Words for Java API 参考
-description: 默认字体替换规则。
+second_title: Aspose.Words for Java API Reference
+description: Default font substitution rule.
 type: docs
 weight: 110
-url: /zh/java/com.aspose.words/defaultfontsubstitutionrule/
+url: /java/com.aspose.words/defaultfontsubstitutionrule/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.FontSubstitutionRule](../../com.aspose.words/fontsubstitutionrule)
 ```
 public class DefaultFontSubstitutionRule extends FontSubstitutionRule
 ```
 
-默认字体替换规则。
+Default font substitution rule.
 
-要了解更多信息，请访问**Working with Fonts**文档文章。
+To learn more, visit the **Working with Fonts** documentation article.
 
-如果原始字体不可用，此规则定义用于替换的单个默认字体名称。
-## 方法s
+This rule defines single default font name to be used for substitution if the original font is not available.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDefaultFontName()](#getDefaultFontName--) | 获取默认字体名称。 |
-| [getEnabled()](#getEnabled--) | 指定是否启用规则。 |
+| [getClass()](#getClass--) |  |
+| [getDefaultFontName()](#getDefaultFontName--) | Gets the default font name. |
+| [getEnabled()](#getEnabled--) | Specifies whether the rule is enabled or not. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | 设置默认字体名称。 |
-| [setEnabled(boolean value)](#setEnabled-boolean-) | 指定是否启用规则。 |
+| [setDefaultFontName(String value)](#setDefaultFontName-java.lang.String-) | Sets the default font name. |
+| [setEnabled(boolean value)](#setEnabled-boolean-) | Specifies whether the rule is enabled or not. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -43,45 +43,45 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDefaultFontName() {#getDefaultFontName--}
 ```
 public String getDefaultFontName()
 ```
 
 
-获取默认字体名称。
+Gets the default font name.
 
-默认值为“Times New Roman”。
+The default value is 'Times New Roman'.
 
-**退货:**
-java.lang.String - 默认字体名称。
+**Returns:**
+java.lang.String - The default font name.
 ### getEnabled() {#getEnabled--}
 ```
 public boolean getEnabled()
 ```
 
 
-指定是否启用规则。
+Specifies whether the rule is enabled or not.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,8 +90,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,14 +114,14 @@ public void setDefaultFontName(String value)
 ```
 
 
-设置默认字体名称。
+Sets the default font name.
 
-默认值为“Times New Roman”。
+The default value is 'Times New Roman'.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 默认字体名称。 |
+| value | java.lang.String | The default font name. |
 
 ### setEnabled(boolean value) {#setEnabled-boolean-}
 ```
@@ -129,12 +129,12 @@ public void setEnabled(boolean value)
 ```
 
 
-指定是否启用规则。
+Specifies whether the rule is enabled or not.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -144,7 +144,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -162,8 +162,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -175,8 +175,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

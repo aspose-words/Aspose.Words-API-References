@@ -1,93 +1,93 @@
 ---
 title: NumberStyle
-second_title: Aspose.Words for Java API 参考
-description: 指定列表脚注和尾注页码的编号样式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the number style for a list footnotes and endnotes page numbers.
 type: docs
 weight: 409
-url: /zh/java/com.aspose.words/numberstyle/
+url: /java/com.aspose.words/numberstyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class NumberStyle
 ```
 
-指定列表、脚注和尾注、页码的编号样式。
-## 字段
+Specifies the number style for a list, footnotes and endnotes, page numbers.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AIUEO](#AIUEO) | Aiueo 全宽 |
-| [AIUEO_HALF_WIDTH](#AIUEO-HALF-WIDTH) | 爱尤奥 |
-| [ARABIC](#ARABIC) | 阿拉伯数字 (1, 2, 3, ...) |
-| [ARABIC_1](#ARABIC-1) | 阿拉伯语字母 |
-| [ARABIC_2](#ARABIC-2) | 阿拉伯语阿贾德 |
-| [ARABIC_FULL_WIDTH](#ARABIC-FULL-WIDTH) | 全角阿拉伯语：1、2、3、4 |
-| [ARABIC_HALF_WIDTH](#ARABIC-HALF-WIDTH) | 半角阿拉伯语：1、2、3、4 |
-| [BULLET](#BULLET) | 项目符号（检查文本中的字符代码） |
-| [CHICAGO_MANUAL](#CHICAGO-MANUAL) | 芝加哥风格手册：\ *,\ \u2020,\\u2020 |
-| [CHOSUNG](#CHOSUNG) | 韩国朝鲜 |
-| [CUSTOM](#CUSTOM) | 自定义数字格式。 |
-| [DECIMAL_FULL_WIDTH](#DECIMAL-FULL-WIDTH) | 十进制全宽：1、2、3、4 |
-| [GANADA](#GANADA) | 韩国加纳达 |
-| [GB_1](#GB-1) | 封闭句号 |
-| [GB_2](#GB-2) | 带括号 |
-| [GB_3](#GB-3) | 封闭的圆圈中文 |
-| [GB_4](#GB-4) | 象形文字封闭的圆圈 |
-| [HANGUL](#HANGUL) | 韩国法律 |
-| [HANJA](#HANJA) | 韩国数码2 |
-| [HANJA_READ](#HANJA-READ) | 韩国数码 |
-| [HANJA_READ_DIGIT](#HANJA-READ-DIGIT) | 韩语计数 |
-| [HEBREW_1](#HEBREW-1) | 希伯来语-1 |
-| [HEBREW_2](#HEBREW-2) | 希伯来语-2 |
-| [HEX](#HEX) | 十六进制：8、9、A、B、C、D、E、F、10、11、12 |
-| [HINDI_ARABIC](#HINDI-ARABIC) | 印地语数字 |
-| [HINDI_CARDINAL_TEXT](#HINDI-CARDINAL-TEXT) | 印地语描述（红衣主教） |
-| [HINDI_LETTER_1](#HINDI-LETTER-1) | 印地语元音 |
-| [HINDI_LETTER_2](#HINDI-LETTER-2) | 印地语辅音 |
-| [IROHA](#IROHA) | 伊吕波全幅 |
-| [IROHA_HALF_WIDTH](#IROHA-HALF-WIDTH) | 伊吕波 |
-| [KANJI](#KANJI) | 象形文字-数字 |
-| [KANJI_DIGIT](#KANJI-DIGIT) | 日语计数 |
-| [KANJI_TRADITIONAL](#KANJI-TRADITIONAL) | 日本法律 |
-| [KANJI_TRADITIONAL_2](#KANJI-TRADITIONAL-2) | 日本数码万 |
-| [LEADING_ZERO](#LEADING-ZERO) | 前导零（01、02、...、09、10、11、...、99、100、101、...） |
-| [LOWERCASE_LETTER](#LOWERCASE-LETTER) | 小写字母（a、b、c、...） |
-| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | 小写罗马字母 (i, ii, iii, ...) |
-| [LOWERCASE_RUSSIAN](#LOWERCASE-RUSSIAN) | 小写俄语字母 |
-| [NONE](#NONE) | 没有项目符号或编号。 |
-| [NUMBER](#NUMBER) | 编号（一、二、三、...） |
-| [NUMBER_IN_CIRCLE](#NUMBER-IN-CIRCLE) | 封闭的圆圈 |
-| [NUMBER_IN_DASH](#NUMBER-IN-DASH) | 页码格式：-1-、-2-、-3-、-4- |
-| [ORDINAL](#ORDINAL) | 序数（第 1、第 2、第 3、...） |
-| [ORDINAL_TEXT](#ORDINAL-TEXT) | 序数（文本）（第一，第二，第三，...） |
-| [SIMP_CHIN_NUM_1](#SIMP-CHIN-NUM-1) | 中文计数 |
-| [SIMP_CHIN_NUM_2](#SIMP-CHIN-NUM-2) | 中国法律简体 |
-| [SIMP_CHIN_NUM_3](#SIMP-CHIN-NUM-3) | 中国人数千 |
-| [SIMP_CHIN_NUM_4](#SIMP-CHIN-NUM-4) | 中文（未实施） |
-| [THAI_ARABIC](#THAI-ARABIC) | 泰国数字 |
-| [THAI_CARDINAL_TEXT](#THAI-CARDINAL-TEXT) | 泰语描述（红衣主教） |
-| [THAI_LETTER](#THAI-LETTER) | 泰文字母 |
-| [TRAD_CHIN_NUM_1](#TRAD-CHIN-NUM-1) | 台湾人数 |
-| [TRAD_CHIN_NUM_2](#TRAD-CHIN-NUM-2) | 象形文字法律传统 |
-| [TRAD_CHIN_NUM_3](#TRAD-CHIN-NUM-3) | 台湾人数千 |
-| [TRAD_CHIN_NUM_4](#TRAD-CHIN-NUM-4) | 台湾数码 |
-| [UPPERCASE_LETTER](#UPPERCASE-LETTER) | 大写字母（A、B、C、...） |
-| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | 大写罗马字母 (I, II, III, ...) |
-| [UPPERCASE_RUSSIAN](#UPPERCASE-RUSSIAN) | 大写俄语字母 |
-| [VIET_CARDINAL_TEXT](#VIET-CARDINAL-TEXT) | 越南语描述（红衣主教） |
-| [ZODIAC_1](#ZODIAC-1) | 象形文字传统 |
-| [ZODIAC_2](#ZODIAC-2) | 象形文字生肖 |
-| [ZODIAC_3](#ZODIAC-3) | 象形文字生肖传统 |
+| [AIUEO](#AIUEO) | Aiueo full width |
+| [AIUEO_HALF_WIDTH](#AIUEO-HALF-WIDTH) | Aiueo |
+| [ARABIC](#ARABIC) | Arabic numbering (1, 2, 3, ...) |
+| [ARABIC_1](#ARABIC-1) | Arabic alpha |
+| [ARABIC_2](#ARABIC-2) | Arabic abjad |
+| [ARABIC_FULL_WIDTH](#ARABIC-FULL-WIDTH) | Full-width Arabic: 1, 2, 3, 4 |
+| [ARABIC_HALF_WIDTH](#ARABIC-HALF-WIDTH) | Half-width Arabic: 1, 2, 3, 4 |
+| [BULLET](#BULLET) | Bullet (check the character code in the text) |
+| [CHICAGO_MANUAL](#CHICAGO-MANUAL) | Chicago Manual of Style: \*, \\u2020, \\u2020 |
+| [CHOSUNG](#CHOSUNG) | Korea Chosung |
+| [CUSTOM](#CUSTOM) | Custom number format. |
+| [DECIMAL_FULL_WIDTH](#DECIMAL-FULL-WIDTH) | Decimal full width: 1, 2, 3, 4 |
+| [GANADA](#GANADA) | Korean Ganada |
+| [GB_1](#GB-1) | Enclosed full stop |
+| [GB_2](#GB-2) | Enclosed parenthesis |
+| [GB_3](#GB-3) | Enclosed circle Chinese |
+| [GB_4](#GB-4) | Ideograph enclosed circle |
+| [HANGUL](#HANGUL) | Korea legal |
+| [HANJA](#HANJA) | Korea digital2 |
+| [HANJA_READ](#HANJA-READ) | Korean digital |
+| [HANJA_READ_DIGIT](#HANJA-READ-DIGIT) | Korean counting |
+| [HEBREW_1](#HEBREW-1) | Hebrew-1 |
+| [HEBREW_2](#HEBREW-2) | Hebrew-2 |
+| [HEX](#HEX) | Hexadecimal: 8, 9, A, B, C, D, E, F, 10, 11, 12 |
+| [HINDI_ARABIC](#HINDI-ARABIC) | Hindi numbers |
+| [HINDI_CARDINAL_TEXT](#HINDI-CARDINAL-TEXT) | Hindi descriptive (cardinals) |
+| [HINDI_LETTER_1](#HINDI-LETTER-1) | Hindi vowels |
+| [HINDI_LETTER_2](#HINDI-LETTER-2) | Hindi consonants |
+| [IROHA](#IROHA) | Iroha full width |
+| [IROHA_HALF_WIDTH](#IROHA-HALF-WIDTH) | Iroha |
+| [KANJI](#KANJI) | Ideograph-digital |
+| [KANJI_DIGIT](#KANJI-DIGIT) | Japanese counting |
+| [KANJI_TRADITIONAL](#KANJI-TRADITIONAL) | Japanese legal |
+| [KANJI_TRADITIONAL_2](#KANJI-TRADITIONAL-2) | Japanese digital ten thousand |
+| [LEADING_ZERO](#LEADING-ZERO) | Leading Zero (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
+| [LOWERCASE_LETTER](#LOWERCASE-LETTER) | Lower case letter (a, b, c, ...) |
+| [LOWERCASE_ROMAN](#LOWERCASE-ROMAN) | Lower case Roman (i, ii, iii, ...) |
+| [LOWERCASE_RUSSIAN](#LOWERCASE-RUSSIAN) | Lowercase Russian alphabet |
+| [NONE](#NONE) | No bullet or number. |
+| [NUMBER](#NUMBER) | Numbered (One, Two, Three, ...) |
+| [NUMBER_IN_CIRCLE](#NUMBER-IN-CIRCLE) | Enclosed circles |
+| [NUMBER_IN_DASH](#NUMBER-IN-DASH) | Page number format: - 1 -, - 2 -, - 3 -, - 4 - |
+| [ORDINAL](#ORDINAL) | Ordinal (1st, 2nd, 3rd, ...) |
+| [ORDINAL_TEXT](#ORDINAL-TEXT) | Ordinal (text) (First, Second, Third, ...) |
+| [SIMP_CHIN_NUM_1](#SIMP-CHIN-NUM-1) | Chinese counting |
+| [SIMP_CHIN_NUM_2](#SIMP-CHIN-NUM-2) | Chinese legal simplified |
+| [SIMP_CHIN_NUM_3](#SIMP-CHIN-NUM-3) | Chinese counting thousand |
+| [SIMP_CHIN_NUM_4](#SIMP-CHIN-NUM-4) | Chinese (not implemented) |
+| [THAI_ARABIC](#THAI-ARABIC) | Thai numbers |
+| [THAI_CARDINAL_TEXT](#THAI-CARDINAL-TEXT) | Thai descriptive (cardinals) |
+| [THAI_LETTER](#THAI-LETTER) | Thai letters |
+| [TRAD_CHIN_NUM_1](#TRAD-CHIN-NUM-1) | Taiwanese counting |
+| [TRAD_CHIN_NUM_2](#TRAD-CHIN-NUM-2) | Ideograph legal traditional |
+| [TRAD_CHIN_NUM_3](#TRAD-CHIN-NUM-3) | Taiwanese counting thousand |
+| [TRAD_CHIN_NUM_4](#TRAD-CHIN-NUM-4) | Taiwanese digital |
+| [UPPERCASE_LETTER](#UPPERCASE-LETTER) | Upper case Letter (A, B, C, ...) |
+| [UPPERCASE_ROMAN](#UPPERCASE-ROMAN) | Upper case Roman (I, II, III, ...) |
+| [UPPERCASE_RUSSIAN](#UPPERCASE-RUSSIAN) | Uppercase Russian alphabet |
+| [VIET_CARDINAL_TEXT](#VIET-CARDINAL-TEXT) | Vietnamese descriptive (cardinals) |
+| [ZODIAC_1](#ZODIAC-1) | Ideograph traditional |
+| [ZODIAC_2](#ZODIAC-2) | Ideograph Zodiac |
+| [ZODIAC_3](#ZODIAC-3) | Ideograph Zodiac traditional |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String numberStyleName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int numberStyle)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -104,7 +104,7 @@ public static int AIUEO
 ```
 
 
-Aiueo 全宽
+Aiueo full width
 
 ### AIUEO_HALF_WIDTH {#AIUEO-HALF-WIDTH}
 ```
@@ -112,7 +112,7 @@ public static int AIUEO_HALF_WIDTH
 ```
 
 
-爱尤奥
+Aiueo
 
 ### ARABIC {#ARABIC}
 ```
@@ -120,7 +120,7 @@ public static int ARABIC
 ```
 
 
-阿拉伯数字 (1, 2, 3, ...)
+Arabic numbering (1, 2, 3, ...)
 
 ### ARABIC_1 {#ARABIC-1}
 ```
@@ -128,7 +128,7 @@ public static int ARABIC_1
 ```
 
 
-阿拉伯语字母
+Arabic alpha
 
 ### ARABIC_2 {#ARABIC-2}
 ```
@@ -136,7 +136,7 @@ public static int ARABIC_2
 ```
 
 
-阿拉伯语阿贾德
+Arabic abjad
 
 ### ARABIC_FULL_WIDTH {#ARABIC-FULL-WIDTH}
 ```
@@ -144,7 +144,7 @@ public static int ARABIC_FULL_WIDTH
 ```
 
 
-全角阿拉伯语：1、2、3、4
+Full-width Arabic: 1, 2, 3, 4
 
 ### ARABIC_HALF_WIDTH {#ARABIC-HALF-WIDTH}
 ```
@@ -152,7 +152,7 @@ public static int ARABIC_HALF_WIDTH
 ```
 
 
-半角阿拉伯语：1、2、3、4
+Half-width Arabic: 1, 2, 3, 4
 
 ### BULLET {#BULLET}
 ```
@@ -160,7 +160,7 @@ public static int BULLET
 ```
 
 
-项目符号（检查文本中的字符代码）
+Bullet (check the character code in the text)
 
 ### CHICAGO_MANUAL {#CHICAGO-MANUAL}
 ```
@@ -168,7 +168,7 @@ public static int CHICAGO_MANUAL
 ```
 
 
-芝加哥风格手册：\ *,\ \u2020,\\u2020
+Chicago Manual of Style: \*, \\u2020, \\u2020
 
 ### CHOSUNG {#CHOSUNG}
 ```
@@ -176,7 +176,7 @@ public static int CHOSUNG
 ```
 
 
-韩国朝鲜
+Korea Chosung
 
 ### CUSTOM {#CUSTOM}
 ```
@@ -184,7 +184,7 @@ public static int CUSTOM
 ```
 
 
-自定义数字格式。仅 DOCX 格式支持。
+Custom number format. It is supported by DOCX format only.
 
 ### DECIMAL_FULL_WIDTH {#DECIMAL-FULL-WIDTH}
 ```
@@ -192,7 +192,7 @@ public static int DECIMAL_FULL_WIDTH
 ```
 
 
-十进制全宽：1、2、3、4
+Decimal full width: 1, 2, 3, 4
 
 ### GANADA {#GANADA}
 ```
@@ -200,7 +200,7 @@ public static int GANADA
 ```
 
 
-韩国加纳达
+Korean Ganada
 
 ### GB_1 {#GB-1}
 ```
@@ -208,7 +208,7 @@ public static int GB_1
 ```
 
 
-封闭句号
+Enclosed full stop
 
 ### GB_2 {#GB-2}
 ```
@@ -216,7 +216,7 @@ public static int GB_2
 ```
 
 
-带括号
+Enclosed parenthesis
 
 ### GB_3 {#GB-3}
 ```
@@ -224,7 +224,7 @@ public static int GB_3
 ```
 
 
-封闭的圆圈中文
+Enclosed circle Chinese
 
 ### GB_4 {#GB-4}
 ```
@@ -232,7 +232,7 @@ public static int GB_4
 ```
 
 
-象形文字封闭的圆圈
+Ideograph enclosed circle
 
 ### HANGUL {#HANGUL}
 ```
@@ -240,7 +240,7 @@ public static int HANGUL
 ```
 
 
-韩国法律
+Korea legal
 
 ### HANJA {#HANJA}
 ```
@@ -248,7 +248,7 @@ public static int HANJA
 ```
 
 
-韩国数码2
+Korea digital2
 
 ### HANJA_READ {#HANJA-READ}
 ```
@@ -256,7 +256,7 @@ public static int HANJA_READ
 ```
 
 
-韩国数码
+Korean digital
 
 ### HANJA_READ_DIGIT {#HANJA-READ-DIGIT}
 ```
@@ -264,7 +264,7 @@ public static int HANJA_READ_DIGIT
 ```
 
 
-韩语计数
+Korean counting
 
 ### HEBREW_1 {#HEBREW-1}
 ```
@@ -272,7 +272,7 @@ public static int HEBREW_1
 ```
 
 
-希伯来语-1
+Hebrew-1
 
 ### HEBREW_2 {#HEBREW-2}
 ```
@@ -280,7 +280,7 @@ public static int HEBREW_2
 ```
 
 
-希伯来语-2
+Hebrew-2
 
 ### HEX {#HEX}
 ```
@@ -288,7 +288,7 @@ public static int HEX
 ```
 
 
-十六进制：8、9、A、B、C、D、E、F、10、11、12
+Hexadecimal: 8, 9, A, B, C, D, E, F, 10, 11, 12
 
 ### HINDI_ARABIC {#HINDI-ARABIC}
 ```
@@ -296,7 +296,7 @@ public static int HINDI_ARABIC
 ```
 
 
-印地语数字
+Hindi numbers
 
 ### HINDI_CARDINAL_TEXT {#HINDI-CARDINAL-TEXT}
 ```
@@ -304,7 +304,7 @@ public static int HINDI_CARDINAL_TEXT
 ```
 
 
-印地语描述（红衣主教）
+Hindi descriptive (cardinals)
 
 ### HINDI_LETTER_1 {#HINDI-LETTER-1}
 ```
@@ -312,7 +312,7 @@ public static int HINDI_LETTER_1
 ```
 
 
-印地语元音
+Hindi vowels
 
 ### HINDI_LETTER_2 {#HINDI-LETTER-2}
 ```
@@ -320,7 +320,7 @@ public static int HINDI_LETTER_2
 ```
 
 
-印地语辅音
+Hindi consonants
 
 ### IROHA {#IROHA}
 ```
@@ -328,7 +328,7 @@ public static int IROHA
 ```
 
 
-伊吕波全幅
+Iroha full width
 
 ### IROHA_HALF_WIDTH {#IROHA-HALF-WIDTH}
 ```
@@ -336,7 +336,7 @@ public static int IROHA_HALF_WIDTH
 ```
 
 
-伊吕波
+Iroha
 
 ### KANJI {#KANJI}
 ```
@@ -344,7 +344,7 @@ public static int KANJI
 ```
 
 
-象形文字-数字
+Ideograph-digital
 
 ### KANJI_DIGIT {#KANJI-DIGIT}
 ```
@@ -352,7 +352,7 @@ public static int KANJI_DIGIT
 ```
 
 
-日语计数
+Japanese counting
 
 ### KANJI_TRADITIONAL {#KANJI-TRADITIONAL}
 ```
@@ -360,7 +360,7 @@ public static int KANJI_TRADITIONAL
 ```
 
 
-日本法律
+Japanese legal
 
 ### KANJI_TRADITIONAL_2 {#KANJI-TRADITIONAL-2}
 ```
@@ -368,7 +368,7 @@ public static int KANJI_TRADITIONAL_2
 ```
 
 
-日本数码万
+Japanese digital ten thousand
 
 ### LEADING_ZERO {#LEADING-ZERO}
 ```
@@ -376,7 +376,7 @@ public static int LEADING_ZERO
 ```
 
 
-前导零（01、02、...、09、10、11、...、99、100、101、...）
+Leading Zero (01, 02,..., 09, 10, 11,..., 99, 100, 101,...)
 
 ### LOWERCASE_LETTER {#LOWERCASE-LETTER}
 ```
@@ -384,7 +384,7 @@ public static int LOWERCASE_LETTER
 ```
 
 
-小写字母（a、b、c、...）
+Lower case letter (a, b, c, ...)
 
 ### LOWERCASE_ROMAN {#LOWERCASE-ROMAN}
 ```
@@ -392,7 +392,7 @@ public static int LOWERCASE_ROMAN
 ```
 
 
-小写罗马字母 (i, ii, iii, ...)
+Lower case Roman (i, ii, iii, ...)
 
 ### LOWERCASE_RUSSIAN {#LOWERCASE-RUSSIAN}
 ```
@@ -400,7 +400,7 @@ public static int LOWERCASE_RUSSIAN
 ```
 
 
-小写俄语字母
+Lowercase Russian alphabet
 
 ### NONE {#NONE}
 ```
@@ -408,7 +408,7 @@ public static int NONE
 ```
 
 
-没有项目符号或编号。
+No bullet or number.
 
 ### NUMBER {#NUMBER}
 ```
@@ -416,7 +416,7 @@ public static int NUMBER
 ```
 
 
-编号（一、二、三、...）
+Numbered (One, Two, Three, ...)
 
 ### NUMBER_IN_CIRCLE {#NUMBER-IN-CIRCLE}
 ```
@@ -424,7 +424,7 @@ public static int NUMBER_IN_CIRCLE
 ```
 
 
-封闭的圆圈
+Enclosed circles
 
 ### NUMBER_IN_DASH {#NUMBER-IN-DASH}
 ```
@@ -432,7 +432,7 @@ public static int NUMBER_IN_DASH
 ```
 
 
-页码格式：-1-、-2-、-3-、-4-
+Page number format: - 1 -, - 2 -, - 3 -, - 4 -
 
 ### ORDINAL {#ORDINAL}
 ```
@@ -440,7 +440,7 @@ public static int ORDINAL
 ```
 
 
-序数（第 1、第 2、第 3、...）
+Ordinal (1st, 2nd, 3rd, ...)
 
 ### ORDINAL_TEXT {#ORDINAL-TEXT}
 ```
@@ -448,7 +448,7 @@ public static int ORDINAL_TEXT
 ```
 
 
-序数（文本）（第一，第二，第三，...）
+Ordinal (text) (First, Second, Third, ...)
 
 ### SIMP_CHIN_NUM_1 {#SIMP-CHIN-NUM-1}
 ```
@@ -456,7 +456,7 @@ public static int SIMP_CHIN_NUM_1
 ```
 
 
-中文计数
+Chinese counting
 
 ### SIMP_CHIN_NUM_2 {#SIMP-CHIN-NUM-2}
 ```
@@ -464,7 +464,7 @@ public static int SIMP_CHIN_NUM_2
 ```
 
 
-中国法律简体
+Chinese legal simplified
 
 ### SIMP_CHIN_NUM_3 {#SIMP-CHIN-NUM-3}
 ```
@@ -472,7 +472,7 @@ public static int SIMP_CHIN_NUM_3
 ```
 
 
-中国人数千
+Chinese counting thousand
 
 ### SIMP_CHIN_NUM_4 {#SIMP-CHIN-NUM-4}
 ```
@@ -480,7 +480,7 @@ public static int SIMP_CHIN_NUM_4
 ```
 
 
-中文（未实施）
+Chinese (not implemented)
 
 ### THAI_ARABIC {#THAI-ARABIC}
 ```
@@ -488,7 +488,7 @@ public static int THAI_ARABIC
 ```
 
 
-泰国数字
+Thai numbers
 
 ### THAI_CARDINAL_TEXT {#THAI-CARDINAL-TEXT}
 ```
@@ -496,7 +496,7 @@ public static int THAI_CARDINAL_TEXT
 ```
 
 
-泰语描述（红衣主教）
+Thai descriptive (cardinals)
 
 ### THAI_LETTER {#THAI-LETTER}
 ```
@@ -504,7 +504,7 @@ public static int THAI_LETTER
 ```
 
 
-泰文字母
+Thai letters
 
 ### TRAD_CHIN_NUM_1 {#TRAD-CHIN-NUM-1}
 ```
@@ -512,7 +512,7 @@ public static int TRAD_CHIN_NUM_1
 ```
 
 
-台湾人数
+Taiwanese counting
 
 ### TRAD_CHIN_NUM_2 {#TRAD-CHIN-NUM-2}
 ```
@@ -520,7 +520,7 @@ public static int TRAD_CHIN_NUM_2
 ```
 
 
-象形文字法律传统
+Ideograph legal traditional
 
 ### TRAD_CHIN_NUM_3 {#TRAD-CHIN-NUM-3}
 ```
@@ -528,7 +528,7 @@ public static int TRAD_CHIN_NUM_3
 ```
 
 
-台湾人数千
+Taiwanese counting thousand
 
 ### TRAD_CHIN_NUM_4 {#TRAD-CHIN-NUM-4}
 ```
@@ -536,7 +536,7 @@ public static int TRAD_CHIN_NUM_4
 ```
 
 
-台湾数码
+Taiwanese digital
 
 ### UPPERCASE_LETTER {#UPPERCASE-LETTER}
 ```
@@ -544,7 +544,7 @@ public static int UPPERCASE_LETTER
 ```
 
 
-大写字母（A、B、C、...）
+Upper case Letter (A, B, C, ...)
 
 ### UPPERCASE_ROMAN {#UPPERCASE-ROMAN}
 ```
@@ -552,7 +552,7 @@ public static int UPPERCASE_ROMAN
 ```
 
 
-大写罗马字母 (I, II, III, ...)
+Upper case Roman (I, II, III, ...)
 
 ### UPPERCASE_RUSSIAN {#UPPERCASE-RUSSIAN}
 ```
@@ -560,7 +560,7 @@ public static int UPPERCASE_RUSSIAN
 ```
 
 
-大写俄语字母
+Uppercase Russian alphabet
 
 ### VIET_CARDINAL_TEXT {#VIET-CARDINAL-TEXT}
 ```
@@ -568,7 +568,7 @@ public static int VIET_CARDINAL_TEXT
 ```
 
 
-越南语描述（红衣主教）
+Vietnamese descriptive (cardinals)
 
 ### ZODIAC_1 {#ZODIAC-1}
 ```
@@ -576,7 +576,7 @@ public static int ZODIAC_1
 ```
 
 
-象形文字传统
+Ideograph traditional
 
 ### ZODIAC_2 {#ZODIAC-2}
 ```
@@ -584,7 +584,7 @@ public static int ZODIAC_2
 ```
 
 
-象形文字生肖
+Ideograph Zodiac
 
 ### ZODIAC_3 {#ZODIAC-3}
 ```
@@ -592,7 +592,7 @@ public static int ZODIAC_3
 ```
 
 
-象形文字生肖传统
+Ideograph Zodiac traditional
 
 ### length {#length}
 ```
@@ -608,13 +608,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String numberStyleName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String numberStyleName)
@@ -623,23 +623,23 @@ public static int fromName(String numberStyleName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | numberStyleName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int numberStyle) {#getName-int-}
 ```
 public static String getName(int numberStyle)
@@ -648,12 +648,12 @@ public static String getName(int numberStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | numberStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -663,8 +663,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -673,8 +673,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -699,7 +699,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int numberStyle) {#toString-int-}
 ```
@@ -709,12 +709,12 @@ public static String toString(int numberStyle)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | numberStyle | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -732,8 +732,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -745,8 +745,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

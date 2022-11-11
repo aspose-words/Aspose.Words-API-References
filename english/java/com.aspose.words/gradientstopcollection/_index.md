@@ -1,43 +1,43 @@
 ---
 title: GradientStopCollection
-second_title: Aspose.Words for Java API 参考
-description: 包含对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: Contains a collection of  objects.
 type: docs
 weight: 309
-url: /zh/java/com.aspose.words/gradientstopcollection/
+url: /java/com.aspose.words/gradientstopcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class GradientStopCollection implements Iterable
 ```
 
-包含一个集合[GradientStop](../../com.aspose.words/gradientstop)对象。
+Contains a collection of [GradientStop](../../com.aspose.words/gradientstop) objects.
 
-要了解更多信息，请访问**Working with Graphic Elements**文档文章。
+To learn more, visit the **Working with Graphic Elements** documentation article.
 
-您不直接创建此类的实例。使用[Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops--)属性访问填充对象的渐变停止。
-## 方法s
+You do not create instances of this class directly. Use the [Fill.getGradientStops()](../../com.aspose.words/fill\#getGradientStops--) property to access gradient stops of fill objects.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop-) | 添加指定的[GradientStop](../../com.aspose.words/gradientstop)到一个渐变。 |
+| [add(GradientStop gradientStop)](#add-com.aspose.words.GradientStop-) | Adds a specified [GradientStop](../../com.aspose.words/gradientstop) to a gradient. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 得到一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取一个整数值，该值指示集合中的项目数。 |
+| [get(int index)](#get-int-) | Gets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets an integer value indicating the number of items in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop-) | 插入一个[GradientStop](../../com.aspose.words/gradientstop)到指定索引处的集合。 |
-| [iterator()](#iterator--) | 返回一个遍历集合的枚举器。 |
+| [insert(int index, GradientStop gradientStop)](#insert-int-com.aspose.words.GradientStop-) | Inserts a [GradientStop](../../com.aspose.words/gradientstop) to the collection at a specified index. |
+| [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop-) | 删除指定的[GradientStop](../../com.aspose.words/gradientstop)从收藏。 |
-| [removeAt(int index)](#removeAt-int-) | 删除一个[GradientStop](../../com.aspose.words/gradientstop)来自指定索引处的集合。 |
-| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop-) | 设置一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。 |
+| [remove(GradientStop gradientStop)](#remove-com.aspose.words.GradientStop-) | Removes a specified [GradientStop](../../com.aspose.words/gradientstop) from the collection. |
+| [removeAt(int index)](#removeAt-int-) | Removes a [GradientStop](../../com.aspose.words/gradientstop) from the collection at a specified index. |
+| [set(int index, GradientStop value)](#set-int-com.aspose.words.GradientStop-) | Sets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,14 +48,14 @@ public GradientStop add(GradientStop gradientStop)
 ```
 
 
-添加指定的[GradientStop](../../com.aspose.words/gradientstop)到一个渐变。
+Adds a specified [GradientStop](../../com.aspose.words/gradientstop) to a gradient.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
 
-**退货:**
+**Returns:**
 [GradientStop](../../com.aspose.words/gradientstop)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -65,48 +65,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public GradientStop get(int index)
 ```
 
 
-得到一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。
+Gets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[GradientStop](../../com.aspose.words/gradientstop) - 一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。
-### get班级() {#get班级--}
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop) - A [GradientStop](../../com.aspose.words/gradientstop) object in the collection.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取一个整数值，该值指示集合中的项目数。
+Gets an integer value indicating the number of items in the collection.
 
-**退货:**
-int - 一个整数值，指示集合中的项目数。
+**Returns:**
+int - An integer value indicating the number of items in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -115,23 +115,23 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### insert(int index, GradientStop gradientStop) {#insert-int-com.aspose.words.GradientStop-}
 ```
 public GradientStop insert(int index, GradientStop gradientStop)
 ```
 
 
-插入一个[GradientStop](../../com.aspose.words/gradientstop)到指定索引处的集合。
+Inserts a [GradientStop](../../com.aspose.words/gradientstop) to the collection at a specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 | gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
 
-**退货:**
+**Returns:**
 [GradientStop](../../com.aspose.words/gradientstop)
 ### iterator() {#iterator--}
 ```
@@ -139,9 +139,9 @@ public Iterator iterator()
 ```
 
 
-返回一个遍历集合的枚举器。
+Returns an enumerator that iterates through the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -165,43 +165,43 @@ public boolean remove(GradientStop gradientStop)
 ```
 
 
-删除指定的[GradientStop](../../com.aspose.words/gradientstop)从收藏。
+Removes a specified [GradientStop](../../com.aspose.words/gradientstop) from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | gradientStop | [GradientStop](../../com.aspose.words/gradientstop) |  |
 
-**退货:**
-boolean - 如果梯度停止被成功移除，则为真，否则为假。
+**Returns:**
+boolean - True if gradient stop was successfully removed, otherwise false.
 ### removeAt(int index) {#removeAt-int-}
 ```
 public GradientStop removeAt(int index)
 ```
 
 
-删除一个[GradientStop](../../com.aspose.words/gradientstop)来自指定索引处的集合。
+Removes a [GradientStop](../../com.aspose.words/gradientstop) from the collection at a specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[GradientStop](../../com.aspose.words/gradientstop) - 移除[GradientStop](../../com.aspose.words/gradientstop).
+**Returns:**
+[GradientStop](../../com.aspose.words/gradientstop) - Removed [GradientStop](../../com.aspose.words/gradientstop).
 ### set(int index, GradientStop value) {#set-int-com.aspose.words.GradientStop-}
 ```
 public void set(int index, GradientStop value)
 ```
 
 
-设置一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。
+Sets a [GradientStop](../../com.aspose.words/gradientstop) object in the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [GradientStop](../../com.aspose.words/gradientstop) | 一个[GradientStop](../../com.aspose.words/gradientstop)集合中的对象。 |
+| value | [GradientStop](../../com.aspose.words/gradientstop) | A [GradientStop](../../com.aspose.words/gradientstop) object in the collection. |
 
 ### toString() {#toString--}
 ```
@@ -211,7 +211,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -229,8 +229,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -242,8 +242,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,34 +1,34 @@
 ---
 title: DocumentDirection
-second_title: Aspose.Words for Java API 参考
-description: 允许指定文档中文本的流动方向。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify the direction to flow the text in a document.
 type: docs
 weight: 123
-url: /zh/java/com.aspose.words/documentdirection/
+url: /java/com.aspose.words/documentdirection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentDirection
 ```
 
-允许指定文档中文本的流动方向。
-## 字段
+Allows to specify the direction to flow the text in a document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | 自动检测方向。 |
-| [LEFT_TO_RIGHT](#LEFT-TO-RIGHT) | 从左到右的方向。 |
-| [RIGHT_TO_LEFT](#RIGHT-TO-LEFT) | 从右到左的方向。 |
+| [AUTO](#AUTO) | Auto-detect direction. |
+| [LEFT_TO_RIGHT](#LEFT-TO-RIGHT) | Left to right direction. |
+| [RIGHT_TO_LEFT](#RIGHT-TO-LEFT) | Right to left direction. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String documentDirectionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int documentDirection)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int AUTO
 ```
 
 
-自动检测方向。 When this option is selected and text contains characters belonging to RTL scripts, the document direction will be set automatically to RTL.
+Auto-detect direction. When this option is selected and text contains characters belonging to RTL scripts, the document direction will be set automatically to RTL.
 
 ### LEFT_TO_RIGHT {#LEFT-TO-RIGHT}
 ```
@@ -53,7 +53,7 @@ public static int LEFT_TO_RIGHT
 ```
 
 
-从左到右的方向。
+Left to right direction.
 
 ### RIGHT_TO_LEFT {#RIGHT-TO-LEFT}
 ```
@@ -61,7 +61,7 @@ public static int RIGHT_TO_LEFT
 ```
 
 
-从右到左的方向。
+Right to left direction.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String documentDirectionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String documentDirectionName)
@@ -92,23 +92,23 @@ public static int fromName(String documentDirectionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentDirectionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int documentDirection) {#getName-int-}
 ```
 public static String getName(int documentDirection)
@@ -117,12 +117,12 @@ public static String getName(int documentDirection)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentDirection | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int documentDirection) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int documentDirection)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentDirection | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

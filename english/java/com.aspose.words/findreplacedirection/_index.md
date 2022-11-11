@@ -1,33 +1,33 @@
 ---
 title: FindReplaceDirection
-second_title: Aspose.Words for Java API 参考
-description: 指定替换操作的方向。
+second_title: Aspose.Words for Java API Reference
+description: Specifies direction for replace operations.
 type: docs
 weight: 269
-url: /zh/java/com.aspose.words/findreplacedirection/
+url: /java/com.aspose.words/findreplacedirection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FindReplaceDirection
 ```
 
-指定替换操作的方向。
-## 字段
+Specifies direction for replace operations.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BACKWARD](#BACKWARD) | 匹配的项目从最后一个到第一个被替换。 |
-| [FORWARD](#FORWARD) | 匹配的项目从第一个到最后一个被替换。 |
+| [BACKWARD](#BACKWARD) | Matched items are replaced from last back to first. |
+| [FORWARD](#FORWARD) | Matched items are replaced from first to last. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String findReplaceDirectionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int findReplaceDirection)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int BACKWARD
 ```
 
 
-匹配的项目从最后一个到第一个被替换。
+Matched items are replaced from last back to first.
 
 ### FORWARD {#FORWARD}
 ```
@@ -52,7 +52,7 @@ public static int FORWARD
 ```
 
 
-匹配的项目从第一个到最后一个被替换。
+Matched items are replaced from first to last.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String findReplaceDirectionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String findReplaceDirectionName)
@@ -83,23 +83,23 @@ public static int fromName(String findReplaceDirectionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | findReplaceDirectionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int findReplaceDirection) {#getName-int-}
 ```
 public static String getName(int findReplaceDirection)
@@ -108,12 +108,12 @@ public static String getName(int findReplaceDirection)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | findReplaceDirection | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int findReplaceDirection) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int findReplaceDirection)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | findReplaceDirection | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

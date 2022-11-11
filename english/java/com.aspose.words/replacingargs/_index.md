@@ -1,37 +1,37 @@
 ---
 title: ReplacingArgs
-second_title: Aspose.Words for Java API 参考
-description: 为自定义替换操作提供数据。
+second_title: Aspose.Words for Java API Reference
+description: Provides data for a custom replace operation.
 type: docs
 weight: 476
-url: /zh/java/com.aspose.words/replacingargs/
+url: /java/com.aspose.words/replacingargs/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ReplacingArgs
 ```
 
-为自定义替换操作提供数据。
+Provides data for a custom replace operation.
 
-要了解更多信息，请访问**Find and Replace**文档文章。
-## 方法s
+To learn more, visit the **Find and Replace** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getGroupIndex()](#getGroupIndex--) | 通过索引标识在[getMatch()](../../com.aspose.words/replacingargs\#getMatch--)那将被替换为[getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-)细绳。 |
-| [getMatch()](#getMatch--) |  java.util.regex.Matcher 由单个正则表达式匹配产生**Replace**. |
-| [getMatchNode()](#getMatchNode--) | 获取包含匹配开始的节点。 |
-| [getMatchOffset()](#getMatchOffset--) | 从包含匹配开头的节点的开头获取匹配的从零开始的起始位置。 |
-| [getReplacement()](#getReplacement--) | 获取替换字符串。 |
+| [getClass()](#getClass--) |  |
+| [getGroupIndex()](#getGroupIndex--) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string. |
+| [getMatch()](#getMatch--) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
+| [getMatchNode()](#getMatchNode--) | Gets the node that contains the beginning of the match. |
+| [getMatchOffset()](#getMatchOffset--) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
+| [getReplacement()](#getReplacement--) | Gets the replacement string. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setGroupIndex(int value)](#setGroupIndex-int-) | 通过索引标识在[getMatch()](../../com.aspose.words/replacingargs\#getMatch--)那将被替换为[getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-)细绳。 |
-| [setReplacement(String value)](#setReplacement-java.lang.String-) | 设置替换字符串。 |
+| [setGroupIndex(int value)](#setGroupIndex-int-) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string. |
+| [setReplacement(String value)](#setReplacement-java.lang.String-) | Sets the replacement string. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -44,77 +44,77 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getGroupIndex() {#getGroupIndex--}
 ```
 public int getGroupIndex()
 ```
 
 
-通过索引标识在[getMatch()](../../com.aspose.words/replacingargs\#getMatch--)那将被替换为[getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-)细绳。
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string.
 
-默认为零。
+Default is zero.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getMatch() {#getMatch--}
 ```
 public Matcher getMatch()
 ```
 
 
- java.util.regex.Matcher 由单个正则表达式匹配产生**Replace**.
+The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**.
 
-Matcher.start() 从查找和替换范围的开头获取匹配的从零开始的起始位置。
+Matcher.start()  gets the zero-based starting position of the match from the start of the find and replace range.
 
-**退货:**
-java.util.regex.Matcher - 对应的 java.util.regex.Matcher 值。
+**Returns:**
+java.util.regex.Matcher - The corresponding java.util.regex.Matcher value.
 ### getMatchNode() {#getMatchNode--}
 ```
 public Node getMatchNode()
 ```
 
 
-获取包含匹配开始的节点。
+Gets the node that contains the beginning of the match.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 包含匹配开始的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node that contains the beginning of the match.
 ### getMatchOffset() {#getMatchOffset--}
 ```
 public int getMatchOffset()
 ```
 
 
-从包含匹配开头的节点的开头获取匹配的从零开始的起始位置。
+Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match.
 
-**退货:**
-int - 从包含匹配开始的节点开始的匹配的从零开始的位置。
+**Returns:**
+int - The zero-based starting position of the match from the start of the node that contains the beginning of the match.
 ### getReplacement() {#getReplacement--}
 ```
 public String getReplacement()
 ```
 
 
-获取替换字符串。
+Gets the replacement string.
 
-**退货:**
-java.lang.String - 替换字符串。
+**Returns:**
+java.lang.String - The replacement string.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -123,8 +123,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -147,14 +147,14 @@ public void setGroupIndex(int value)
 ```
 
 
-通过索引标识在[getMatch()](../../com.aspose.words/replacingargs\#getMatch--)那将被替换为[getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-)细绳。
+Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs\#getMatch--) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs\#getReplacement--) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs\#setReplacement-java.lang.String-) string.
 
-默认为零。
+Default is zero.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setReplacement(String value) {#setReplacement-java.lang.String-}
 ```
@@ -162,12 +162,12 @@ public void setReplacement(String value)
 ```
 
 
-设置替换字符串。
+Sets the replacement string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 替换字符串。 |
+| value | java.lang.String | The replacement string. |
 
 ### toString() {#toString--}
 ```
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -195,8 +195,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -208,8 +208,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

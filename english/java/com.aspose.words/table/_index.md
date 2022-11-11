@@ -1,147 +1,147 @@
 ---
 title: Table
 second_title: Aspose.Words for Java API Reference
-description: 表示 Word 文档中的表格。
+description: Represents a table in a Word document.
 type: docs
 weight: 548
-url: /zh/java/com.aspose.words/table/
+url: /java/com.aspose.words/table/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode)
 ```
 public class Table extends CompositeNode
 ```
 
-表示 Word 文档中的表格。
+Represents a table in a Word document.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
+To learn more, visit the **Working with Tables** documentation article.
 
-**Table**是块级节点，可以是派生自的类的子节点**Story**或者**InlineStory**.
+**Table** is a block-level node and can be a child of classes derived from **Story** or **InlineStory**.
 
-**Table**可以包含一个或多个**Row**节点。
+**Table** can contain one or more **Row** nodes.
 
-一个最小有效表需要至少有一个**Row**.
-## 构造函数s
+A minimal valid table needs to have at least one **Row**.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [Table(DocumentBase doc)](#Table-com.aspose.words.DocumentBase-) | 初始化一个新的实例**Table**班级。 |
-## 方法s
+| [Table(DocumentBase doc)](#Table-com.aspose.words.DocumentBase-) | Initializes a new instance of the **Table** class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
 | [autoFit(int behavior)](#autoFit-int-) |  |
-| [clearBorders()](#clearBorders--) | 删除此表格上的所有表格和单元格边框。 |
-| [clearShading()](#clearShading--) | 移除桌子上的所有阴影。 |
-| [convertToHorizontallyMergedCells()](#convertToHorizontallyMergedCells--) | 将按宽度水平合并的单元格转换为按宽度合并的单元格[CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-). |
+| [clearBorders()](#clearBorders--) | Removes all table and cell borders on this table. |
+| [clearShading()](#clearShading--) | Removes all shading on the table. |
+| [convertToHorizontallyMergedCells()](#convertToHorizontallyMergedCells--) | Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-). |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
-| [ensureMinimum()](#ensureMinimum--) | 如果表没有行，则创建并追加一个**Row**. |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
+| [ensureMinimum()](#ensureMinimum--) | If the table has no rows, creates and appends one **Row**. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAbsoluteHorizontalDistance()](#getAbsoluteHorizontalDistance--) | 获取表格属性指定的绝对水平浮动表格位置，以磅为单位。 |
-| [getAbsoluteVerticalDistance()](#getAbsoluteVerticalDistance--) | 获取表格属性指定的绝对垂直浮动表格位置，以磅为单位。 |
-| [getAlignment()](#getAlignment--) | 指定内联表格在文档中的对齐方式。 |
-| [getAllowAutoFit()](#getAllowAutoFit--) | 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。 |
-| [getAllowCellSpacing()](#getAllowCellSpacing--) | 获取“允许单元格之间的间距”选项。 |
-| [getAllowOverlap()](#getAllowOverlap--) | 获取浮动表是否应允许文档中的其他浮动对象在显示时与其范围重叠。 |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [getBidi()](#getBidi--) | 获取这是否是从右到左的表。 |
-| [getBottomPadding()](#getBottomPadding--) | 获取要添加到单元格内容下方的空间量（以磅为单位）。 |
-| [getCellSpacing()](#getCellSpacing--) | 获取单元格之间的空间量（以磅为单位）。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [getAbsoluteHorizontalDistance()](#getAbsoluteHorizontalDistance--) | Gets absolute horizontal floating table position specified by the table properties, in points. |
+| [getAbsoluteVerticalDistance()](#getAbsoluteVerticalDistance--) | Gets absolute vertical floating table position specified by the table properties, in points. |
+| [getAlignment()](#getAlignment--) | Specifies how an inline table is aligned in the document. |
+| [getAllowAutoFit()](#getAllowAutoFit--) | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
+| [getAllowCellSpacing()](#getAllowCellSpacing--) | Gets the "Allow spacing between cells" option. |
+| [getAllowOverlap()](#getAllowOverlap--) | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getBidi()](#getBidi--) | Gets whether this is a right-to-left table. |
+| [getBottomPadding()](#getBottomPadding--) | Gets the amount of space (in points) to add below the contents of cells. |
+| [getCellSpacing()](#getCellSpacing--) | Gets the amount of space (in points) between the cells. |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
+| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
-| [get描述()](#get描述--) | 获取此表的描述。 |
-| [getDistanceBottom()](#getDistanceBottom--) | 获取表格底部和周围文本之间的距离，以磅为单位。 |
-| [getDistanceLeft()](#getDistanceLeft--) | 获取表格左侧与周围文本之间的距离，以磅为单位。 |
-| [getDistanceRight()](#getDistanceRight--) | 获取表格右侧和周围文本之间的距离，以磅为单位。 |
-| [getDistanceTop()](#getDistanceTop--) | 获取桌面和周围文本之间的距离，以磅为单位。 |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
-| [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
-| [getFirstRow()](#getFirstRow--) | 返回第一个**Row**表中的节点。 |
-| [getHorizontalAnchor()](#getHorizontalAnchor--) | 获取应计算浮动表水平定位的基础对象。 |
-| [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
-| [getLastRow()](#getLastRow--) | 返回最后一个**Row**表中的节点。 |
-| [getLeftIndent()](#getLeftIndent--) | 获取表示表格左缩进的值。 |
-| [getLeftPadding()](#getLeftPadding--) | 获取要添加到单元格内容左侧的空间量（以磅为单位）。 |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
+| [getDescription()](#getDescription--) | Gets description of this table. |
+| [getDistanceBottom()](#getDistanceBottom--) | Gets distance between table bottom and the surrounding text, in points. |
+| [getDistanceLeft()](#getDistanceLeft--) | Gets distance between table left and the surrounding text, in points. |
+| [getDistanceRight()](#getDistanceRight--) | Gets distance between table right and the surrounding text, in points. |
+| [getDistanceTop()](#getDistanceTop--) | Gets distance between table top and the surrounding text, in points. |
+| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
+| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
+| [getFirstRow()](#getFirstRow--) | Returns the first **Row** node in the table. |
+| [getHorizontalAnchor()](#getHorizontalAnchor--) | Gets the base object from which the horizontal positioning of floating table should be calculated. |
+| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
+| [getLastRow()](#getLastRow--) | Returns the last **Row** node in the table. |
+| [getLeftIndent()](#getLeftIndent--) | Gets the value that represents the left indent of the table. |
+| [getLeftPadding()](#getLeftPadding--) | Gets the amount of space (in points) to add to the left of the contents of cells. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货**Node类型.Table**. |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getPreferredWidth()](#getPreferredWidth--) | 获取表格的首选宽度。 |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getRelativeHorizontalAlignment()](#getRelativeHorizontalAlignment--) | 获取浮动表的相对水平对齐方式。 |
-| [getRelativeVerticalAlignment()](#getRelativeVerticalAlignment--) | 获取浮动表相对垂直对齐方式。 |
-| [getRightPadding()](#getRightPadding--) | 获取要添加到单元格内容右侧的空间量（以磅为单位）。 |
-| [getRows()](#getRows--) | 提供对表行的类型化访问。 |
-| [getStyle()](#getStyle--) | 获取应用于此表格的表格样式。 |
-| [getStyleIdentifier()](#getStyleIdentifier--) | 获取应用于此表的表样式的与区域无关的样式标识符。 |
-| [getStyleName()](#getStyleName--) | 获取应用于此表的表样式的名称。 |
-| [getStyleOptions()](#getStyleOptions--) | 获取指定如何将表格样式应用于此表格的位标志。 |
-| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
-| [getTextWrapping()](#getTextWrapping--) | 获取[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。 |
-| [getTitle()](#getTitle--) | 获取此表的标题。 |
-| [getTopPadding()](#getTopPadding--) | 获取要添加到单元格内容上方的空间量（以磅为单位）。 |
-| [getVerticalAnchor()](#getVerticalAnchor--) | 获取应计算浮动表垂直定位的基础对象。 |
-| [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType--) | Returns **NodeType.Table**. |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getPreferredWidth()](#getPreferredWidth--) | Gets the table preferred width. |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getRelativeHorizontalAlignment()](#getRelativeHorizontalAlignment--) | Gets floating table relative horizontal alignment. |
+| [getRelativeVerticalAlignment()](#getRelativeVerticalAlignment--) | Gets floating table relative vertical alignment. |
+| [getRightPadding()](#getRightPadding--) | Gets the amount of space (in points) to add to the right of the contents of cells. |
+| [getRows()](#getRows--) | Provides typed access to the rows of the table. |
+| [getStyle()](#getStyle--) | Gets the table style applied to this table. |
+| [getStyleIdentifier()](#getStyleIdentifier--) | Gets the locale independent style identifier of the table style applied to this table. |
+| [getStyleName()](#getStyleName--) | Gets the name of the table style applied to this table. |
+| [getStyleOptions()](#getStyleOptions--) | Gets bit flags that specify how a table style is applied to this table. |
+| [getText()](#getText--) | Gets the text of this node and of all its children. |
+| [getTextWrapping()](#getTextWrapping--) | Gets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table. |
+| [getTitle()](#getTitle--) | Gets title of this table. |
+| [getTopPadding()](#getTopPadding--) | Gets the amount of space (in points) to add above the contents of cells. |
+| [getVerticalAnchor()](#getVerticalAnchor--) | Gets the base object from which the vertical positioning of floating table should be calculated. |
+| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
-| [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
+| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
+| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
-| [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
-| [setAbsoluteHorizontalDistance(double value)](#setAbsoluteHorizontalDistance-double-) | 设置由表格属性指定的绝对水平浮动表格位置，以磅为单位。 |
-| [setAbsoluteVerticalDistance(double value)](#setAbsoluteVerticalDistance-double-) | 设置由表格属性指定的绝对垂直浮动表格位置，以磅为单位。 |
-| [setAlignment(int value)](#setAlignment-int-) | 指定内联表格在文档中的对齐方式。 |
-| [setAllowAutoFit(boolean value)](#setAllowAutoFit-boolean-) | 允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。 |
-| [setAllowCellSpacing(boolean value)](#setAllowCellSpacing-boolean-) | 设置“允许单元格之间的间距”选项。 |
-| [setBidi(boolean value)](#setBidi-boolean-) | 设置这是否是从右到左的表格。 |
-| [setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)](#setBorder-int-int-double-java.awt.Color-boolean-) |  |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
+| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
+| [setAbsoluteHorizontalDistance(double value)](#setAbsoluteHorizontalDistance-double-) | Sets absolute horizontal floating table position specified by the table properties, in points. |
+| [setAbsoluteVerticalDistance(double value)](#setAbsoluteVerticalDistance-double-) | Sets absolute vertical floating table position specified by the table properties, in points. |
+| [setAlignment(int value)](#setAlignment-int-) | Specifies how an inline table is aligned in the document. |
+| [setAllowAutoFit(boolean value)](#setAllowAutoFit-boolean-) | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
+| [setAllowCellSpacing(boolean value)](#setAllowCellSpacing-boolean-) | Sets the "Allow spacing between cells" option. |
+| [setBidi(boolean value)](#setBidi-boolean-) | Sets whether this is a right-to-left table. |
+| [setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)](#setBorder-int-int-double-java.awt.Color-boolean-) |  |
 | [setBorders(int lineStyle, double lineWidth, Color color)](#setBorders-int-double-java.awt.Color-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | 设置要在单元格内容下方添加的空间量（以磅为单位）。 |
-| [setCellSpacing(double value)](#setCellSpacing-double-) | 设置单元格之间的空间量（以磅为单位）。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [set描述(String value)](#set描述-java.lang.String-) | 设置此表的描述。 |
-| [setHorizontalAnchor(int value)](#setHorizontalAnchor-int-) | 获取应计算浮动表水平定位的基础对象。 |
-| [setLeftIndent(double value)](#setLeftIndent-double-) | 设置表示表格左缩进的值。 |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到单元格内容左侧的空间量（以磅为单位）。 |
-| [setPreferredWidth(PreferredWidth value)](#setPreferredWidth-com.aspose.words.PreferredWidth-) | 设置表格首选宽度。 |
-| [setRelativeHorizontalAlignment(int value)](#setRelativeHorizontalAlignment-int-) | 设置浮动表的相对水平对齐方式。 |
-| [setRelativeVerticalAlignment(int value)](#setRelativeVerticalAlignment-int-) | 设置浮动表相对垂直对齐方式。 |
-| [setRightPadding(double value)](#setRightPadding-double-) | 设置要添加到单元格内容右侧的空间量（以磅为单位）。 |
+| [setBottomPadding(double value)](#setBottomPadding-double-) | Sets the amount of space (in points) to add below the contents of cells. |
+| [setCellSpacing(double value)](#setCellSpacing-double-) | Sets the amount of space (in points) between the cells. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
+| [setDescription(String value)](#setDescription-java.lang.String-) | Sets description of this table. |
+| [setHorizontalAnchor(int value)](#setHorizontalAnchor-int-) | Gets the base object from which the horizontal positioning of floating table should be calculated. |
+| [setLeftIndent(double value)](#setLeftIndent-double-) | Sets the value that represents the left indent of the table. |
+| [setLeftPadding(double value)](#setLeftPadding-double-) | Sets the amount of space (in points) to add to the left of the contents of cells. |
+| [setPreferredWidth(PreferredWidth value)](#setPreferredWidth-com.aspose.words.PreferredWidth-) | Sets the table preferred width. |
+| [setRelativeHorizontalAlignment(int value)](#setRelativeHorizontalAlignment-int-) | Sets floating table relative horizontal alignment. |
+| [setRelativeVerticalAlignment(int value)](#setRelativeVerticalAlignment-int-) | Sets floating table relative vertical alignment. |
+| [setRightPadding(double value)](#setRightPadding-double-) | Sets the amount of space (in points) to add to the right of the contents of cells. |
 | [setShading(int texture, Color foregroundColor, Color backgroundColor)](#setShading-int-java.awt.Color-java.awt.Color-) |  |
-| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置应用于此表格的表格样式。 |
-| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此表的表样式的区域设置独立样式标识符。 |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于此表格的表格样式的名称。 |
-| [setStyleOptions(int value)](#setStyleOptions-int-) | 设置指定如何将表格样式应用于此表格的位标志。 |
-| [setTextWrapping(int value)](#setTextWrapping-int-) | 套[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。 |
-| [setTitle(String value)](#setTitle-java.lang.String-) | 设置此表的标题。 |
-| [setTopPadding(double value)](#setTopPadding-double-) | 设置要在单元格内容上方添加的空间量（以磅为单位）。 |
-| [setVerticalAnchor(int value)](#setVerticalAnchor-int-) | 获取应计算浮动表垂直定位的基础对象。 |
+| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | Sets the table style applied to this table. |
+| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | Sets the locale independent style identifier of the table style applied to this table. |
+| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the table style applied to this table. |
+| [setStyleOptions(int value)](#setStyleOptions-int-) | Sets bit flags that specify how a table style is applied to this table. |
+| [setTextWrapping(int value)](#setTextWrapping-int-) | Sets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Sets title of this table. |
+| [setTopPadding(double value)](#setTopPadding-double-) | Sets the amount of space (in points) to add above the contents of cells. |
+| [setVerticalAnchor(int value)](#setVerticalAnchor-int-) | Gets the base object from which the vertical positioning of floating table should be calculated. |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -152,16 +152,16 @@ public Table(DocumentBase doc)
 ```
 
 
-初始化一个新的实例**Table**班级。
+Initializes a new instance of the **Table** class.
 
-什么时候**Table**已创建，它属于指定的文档，但还不是文档的一部分，并且**ParentNode**一片空白。
+When **Table** is created, it belongs to the specified document, but is not yet part of the document and **ParentNode** is null.
 
-追加**Table**在要插入表格的故事上使用 InsertAfter 或 InsertBefore 到文档。
+To append **Table** to the document use InsertAfter or InsertBefore on the story where you want the table inserted.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。 |
+| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
 ```
@@ -169,38 +169,38 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
 
-**退货:**
-boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。调用 DocumentVisitor.VisitTableStart，然后为该部分的所有子节点调用 Accept，最后调用 DocumentVisitor.VisitTableEnd。
+**Returns:**
+boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes. Calls DocumentVisitor.VisitTableStart, then calls Accept for all child nodes of the section and calls DocumentVisitor.VisitTableEnd at the end.
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
 public Node appendChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的末尾。
+Adds the specified node to the end of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### autoFit(int behavior) {#autoFit-int-}
 ```
 public void autoFit(int behavior)
@@ -209,8 +209,8 @@ public void autoFit(int behavior)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | behavior | int |  |
 
@@ -220,7 +220,7 @@ public void clearBorders()
 ```
 
 
-删除此表格上的所有表格和单元格边框。
+Removes all table and cell borders on this table.
 
 ### clearShading() {#clearShading--}
 ```
@@ -228,7 +228,7 @@ public void clearShading()
 ```
 
 
-移除桌子上的所有阴影。
+Removes all shading on the table.
 
 ### convertToHorizontallyMergedCells() {#convertToHorizontallyMergedCells--}
 ```
@@ -236,13 +236,13 @@ public void convertToHorizontallyMergedCells()
 ```
 
 
-将按宽度水平合并的单元格转换为按宽度合并的单元格[CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-).
+Converts cells horizontally merged by width to cells merged by [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-).
 
-表格单元格可以使用合并标志水平合并[CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-)或使用单元格宽度[CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth--) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double-).
+Table cells can be horizontally merged either using merge flags [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-) or using cell width [CellFormat.getWidth()](../../com.aspose.words/cellformat\#getWidth--) / [CellFormat.setWidth(double)](../../com.aspose.words/cellformat\#setWidth-double-).
 
-当表格单元格按宽度属性合并时[CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-)是没有意义的，但有时使用合并标志是更方便的方式。
+When table cell is merged by width property [CellFormat.getHorizontalMerge()](../../com.aspose.words/cellformat\#getHorizontalMerge--) / [CellFormat.setHorizontalMerge(int)](../../com.aspose.words/cellformat\#setHorizontalMerge-int-) is meaningless but sometimes having merge flags is more convenient way.
 
-使用此方法将按宽度水平合并的表格单元格转换为按合并标志合并的单元格。
+Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 
 ### dd() {#dd--}
 ```
@@ -258,26 +258,26 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### ensureMinimum() {#ensureMinimum--}
 ```
 public void ensureMinimum()
 ```
 
 
-如果表没有行，则创建并追加一个**Row**.
+If the table has no rows, creates and appends one **Row**.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -287,161 +287,161 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAbsoluteHorizontalDistance() {#getAbsoluteHorizontalDistance--}
 ```
 public double getAbsoluteHorizontalDistance()
 ```
 
 
-获取表格属性指定的绝对水平浮动表格位置，以磅为单位。默认值为 0。
+Gets absolute horizontal floating table position specified by the table properties, in points. Default value is 0.
 
-**退货:**
-double - 由表格属性指定的绝对水平浮动表格位置，以磅为单位。
+**Returns:**
+double - Absolute horizontal floating table position specified by the table properties, in points.
 ### getAbsoluteVerticalDistance() {#getAbsoluteVerticalDistance--}
 ```
 public double getAbsoluteVerticalDistance()
 ```
 
 
-获取表格属性指定的绝对垂直浮动表格位置，以磅为单位。默认值为 0。
+Gets absolute vertical floating table position specified by the table properties, in points. Default value is 0.
 
-**退货:**
-double - 表格属性指定的绝对垂直浮动表格位置，以磅为单位。
+**Returns:**
+double - Absolute vertical floating table position specified by the table properties, in points.
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
 ```
 
 
-指定内联表格在文档中的对齐方式。
+Specifies how an inline table is aligned in the document.
 
-默认值为[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[TableAlignment](../../com.aspose.words/tablealignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment) constants.
 ### getAllowAutoFit() {#getAllowAutoFit--}
 ```
 public boolean getAllowAutoFit()
 ```
 
 
-允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。
+Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.
 
-默认值是true 。
+The default value is  true .
 
 **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getAllowCellSpacing() {#getAllowCellSpacing--}
 ```
 public boolean getAllowCellSpacing()
 ```
 
 
-获取“允许单元格之间的间距”选项。
+Gets the "Allow spacing between cells" option.
 
-**退货:**
-boolean - “允许单元格之间的间距”选项。
+**Returns:**
+boolean - The "Allow spacing between cells" option.
 ### getAllowOverlap() {#getAllowOverlap--}
 ```
 public boolean getAllowOverlap()
 ```
 
 
-获取浮动表是否应允许文档中的其他浮动对象在显示时与其范围重叠。默认值为 true 。
+Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is  true .
 
-**退货:**
-boolean - 浮动表格是否允许文档中的其他浮动对象在显示时与其范围重叠。
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+**Returns:**
+boolean - Whether a floating table shall allow other floating objects in the document to overlap its extents when displayed.
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 ### getBidi() {#getBidi--}
 ```
 public boolean getBidi()
 ```
 
 
-获取这是否是从右到左的表。
+Gets whether this is a right-to-left table.
 
-当为 true 时，此行中的单元格从右到左排列。
+When  true , the cells in this row are laid out right to left.
 
-默认值为 false 。
+The default value is  false .
 
-**退货:**
-boolean - 这是否是一个从右到左的表。
+**Returns:**
+boolean - Whether this is a right-to-left table.
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
 ```
 
 
-获取要添加到单元格内容下方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add below the contents of cells.
 
-**退货:**
-double - 在单元格内容下方添加的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add below the contents of cells.
 ### getCellSpacing() {#getCellSpacing--}
 ```
 public double getCellSpacing()
 ```
 
 
-获取单元格之间的空间量（以磅为单位）。
+Gets the amount of space (in points) between the cells.
 
-**退货:**
-double - 单元格之间的空间量（以磅为单位）。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+**Returns:**
+double - The amount of space (in points) between the cells.
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -449,40 +449,40 @@ public NodeCollection getChildNodes()
 ```
 
 
-获取此节点的所有直接子节点。
+Gets all immediate child nodes of this node.
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
 
-如果没有子节点，则此属性返回一个空集合。
+If there are no child nodes, this property returns an empty collection.
 
-**退货:**
-[NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+**Returns:**
+[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -491,7 +491,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCount() {#getCount--}
 ```
@@ -499,10 +499,10 @@ public int getCount()
 ```
 
 
-获取此节点的直接子节点数。
+Gets the number of immediate children of this node.
 
-**退货:**
-int - 此节点的直接子节点数。
+**Returns:**
+int - The number of immediate children of this node.
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -511,7 +511,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -519,152 +519,152 @@ public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
-### get描述() {#get描述--}
+**Returns:**
+int - The corresponding  int  value.
+### getDescription() {#getDescription--}
 ```
-public String get描述()
+public String getDescription()
 ```
 
 
-获取此表的描述。它提供表中包含的信息的替代文本表示。
+Gets description of this table. It provides an alternative text representation of the information contained in the table.
 
-默认值为空字符串。
+The default value is an empty string.
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
-**退货:**
-java.lang.String - 此表的描述。
+**Returns:**
+java.lang.String - Description of this table.
 ### getDistanceBottom() {#getDistanceBottom--}
 ```
 public double getDistanceBottom()
 ```
 
 
-获取表格底部和周围文本之间的距离，以磅为单位。
+Gets distance between table bottom and the surrounding text, in points.
 
-**退货:**
-double - 表格底部和周围文本之间的距离，以磅为单位。
+**Returns:**
+double - Distance between table bottom and the surrounding text, in points.
 ### getDistanceLeft() {#getDistanceLeft--}
 ```
 public double getDistanceLeft()
 ```
 
 
-获取表格左侧与周围文本之间的距离，以磅为单位。
+Gets distance between table left and the surrounding text, in points.
 
-**退货:**
-double - 表格左侧与周围文本之间的距离，以磅为单位。
+**Returns:**
+double - Distance between table left and the surrounding text, in points.
 ### getDistanceRight() {#getDistanceRight--}
 ```
 public double getDistanceRight()
 ```
 
 
-获取表格右侧和周围文本之间的距离，以磅为单位。
+Gets distance between table right and the surrounding text, in points.
 
-**退货:**
-double - 表格右侧和周围文本之间的距离，以磅为单位。
+**Returns:**
+double - Distance between table right and the surrounding text, in points.
 ### getDistanceTop() {#getDistanceTop--}
 ```
 public double getDistanceTop()
 ```
 
 
-获取桌面和周围文本之间的距离，以磅为单位。
+Gets distance between table top and the surrounding text, in points.
 
-**退货:**
-double - 桌面与周围文本之间的距离，以磅为单位。
+**Returns:**
+double - Distance between table top and the surrounding text, in points.
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
 ### getFirstChild() {#getFirstChild--}
 ```
 public Node getFirstChild()
 ```
 
 
-获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
+Gets the first child of the node. If there is no first child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first child of the node.
 ### getFirstRow() {#getFirstRow--}
 ```
 public Row getFirstRow()
 ```
 
 
-返回第一个**Row**表中的节点。
+Returns the first **Row** node in the table.
 
-**退货:**
-[Row](../../com.aspose.words/row) - 首先**Row**表中的节点。
+**Returns:**
+[Row](../../com.aspose.words/row) - The first **Row** node in the table.
 ### getHorizontalAnchor() {#getHorizontalAnchor--}
 ```
 public int getHorizontalAnchor()
 ```
 
 
-获取应计算浮动表水平定位的基础对象。默认值为[RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
 
-**退货:**
-int - 计算浮动表水平定位的基础对象。返回值是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。
+**Returns:**
+int - The base object from which the horizontal positioning of floating table should be calculated. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants.
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
 ```
 
 
-获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
+Gets the last child of the node. If there is no last child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The last child of the node.
 ### getLastRow() {#getLastRow--}
 ```
 public Row getLastRow()
 ```
 
 
-返回最后一个**Row**表中的节点。
+Returns the last **Row** node in the table.
 
-**退货:**
-[Row](../../com.aspose.words/row) 最后**Row**表中的节点。
+**Returns:**
+[Row](../../com.aspose.words/row) - The last **Row** node in the table.
 ### getLeftIndent() {#getLeftIndent--}
 ```
 public double getLeftIndent()
 ```
 
 
-获取表示表格左缩进的值。
+Gets the value that represents the left indent of the table.
 
-**退货:**
-double - 表示表格左缩进的值。
+**Returns:**
+double - The value that represents the left indent of the table.
 ### getLeftPadding() {#getLeftPadding--}
 ```
 public double getLeftPadding()
 ```
 
 
-获取要添加到单元格内容左侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the left of the contents of cells.
 
-**退货:**
-double - 添加到单元格内容左侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the left of the contents of cells.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -673,12 +673,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -686,155 +686,155 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货**Node类型.Table**.
+Returns **NodeType.Table**.
 
-**退货:**
-诠释 -**Node类型.Table** .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - **NodeType.Table**. The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getPreferredWidth() {#getPreferredWidth--}
 ```
 public PreferredWidth getPreferredWidth()
 ```
 
 
-获取表格的首选宽度。
+Gets the table preferred width.
 
-默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
-**退货:**
-[PreferredWidth](../../com.aspose.words/preferredwidth) - 表格首选宽度。
+**Returns:**
+[PreferredWidth](../../com.aspose.words/preferredwidth) - The table preferred width.
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
 ### getRelativeHorizontalAlignment() {#getRelativeHorizontalAlignment--}
 ```
 public int getRelativeHorizontalAlignment()
 ```
 
 
-获取浮动表的相对水平对齐方式。
+Gets floating table relative horizontal alignment.
 
-**退货:**
- int - 浮动表相对水平对齐。返回值是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。
+**Returns:**
+int - Floating table relative horizontal alignment. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
 ### getRelativeVerticalAlignment() {#getRelativeVerticalAlignment--}
 ```
 public int getRelativeVerticalAlignment()
 ```
 
 
-获取浮动表相对垂直对齐方式。
+Gets floating table relative vertical alignment.
 
-**退货:**
-int - 浮动表相对垂直对齐。返回值是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。
+**Returns:**
+int - Floating table relative vertical alignment. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants.
 ### getRightPadding() {#getRightPadding--}
 ```
 public double getRightPadding()
 ```
 
 
-获取要添加到单元格内容右侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the right of the contents of cells.
 
-**退货:**
-double - 添加到单元格内容右侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the right of the contents of cells.
 ### getRows() {#getRows--}
 ```
 public RowCollection getRows()
 ```
 
 
-提供对表行的类型化访问。
+Provides typed access to the rows of the table.
 
-**退货:**
-[RowCollection](../../com.aspose.words/rowcollection) - 相应的[RowCollection](../../com.aspose.words/rowcollection)价值。
+**Returns:**
+[RowCollection](../../com.aspose.words/rowcollection) - The corresponding [RowCollection](../../com.aspose.words/rowcollection) value.
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
 ```
 
 
-获取应用于此表格的表格样式。
+Gets the table style applied to this table.
 
-**退货:**
-[Style](../../com.aspose.words/style) - 应用于此表格的表格样式。
+**Returns:**
+[Style](../../com.aspose.words/style) - The table style applied to this table.
 ### getStyleIdentifier() {#getStyleIdentifier--}
 ```
 public int getStyleIdentifier()
 ```
 
 
-获取应用于此表的表样式的与区域无关的样式标识符。
+Gets the locale independent style identifier of the table style applied to this table.
 
-**退货:**
- int - 应用于此表的表样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+**Returns:**
+int - The locale independent style identifier of the table style applied to this table. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
 ```
 
 
-获取应用于此表的表样式的名称。
+Gets the name of the table style applied to this table.
 
-**退货:**
-java.lang.String - 应用于此表的表样式的名称。
+**Returns:**
+java.lang.String - The name of the table style applied to this table.
 ### getStyleOptions() {#getStyleOptions--}
 ```
 public int getStyleOptions()
 ```
 
 
-获取指定如何将表格样式应用于此表格的位标志。
+Gets bit flags that specify how a table style is applied to this table.
 
-**退货:**
- int - 指定如何将表格样式应用于此表格的位标志。返回值是按位组合[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。
+**Returns:**
+int - Bit flags that specify how a table style is applied to this table. The returned value is a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions) constants.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点及其所有子节点的文本。
+Gets the text of this node and of all its children.
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getTextWrapping() {#getTextWrapping--}
 ```
@@ -842,54 +842,54 @@ public int getTextWrapping()
 ```
 
 
-获取[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。
+Gets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table.
 
-**退货:**
-诠释 -\{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。返回值是以下之一[TextWrapping](../../com.aspose.words/textwrapping)常数。
+**Returns:**
+int - \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table. The returned value is one of [TextWrapping](../../com.aspose.words/textwrapping) constants.
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-获取此表的标题。它提供表中包含的信息的替代文本表示。
+Gets title of this table. It provides an alternative text representation of the information contained in the table.
 
-默认值为空字符串。
+The default value is an empty string.
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
-**退货:**
-java.lang.String - 此表的标题。
+**Returns:**
+java.lang.String - Title of this table.
 ### getTopPadding() {#getTopPadding--}
 ```
 public double getTopPadding()
 ```
 
 
-获取要添加到单元格内容上方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add above the contents of cells.
 
-**退货:**
-double - 添加到单元格内容上方的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add above the contents of cells.
 ### getVerticalAnchor() {#getVerticalAnchor--}
 ```
 public int getVerticalAnchor()
 ```
 
 
-获取应计算浮动表垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
 
-**退货:**
-int - 计算浮动表垂直定位的基础对象。返回值是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。
+**Returns:**
+int - The base object from which the vertical positioning of floating table should be calculated. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants.
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
 ```
 
 
-如果此节点有任何子节点，则返回 true。
+Returns true if this node has any child nodes.
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**Returns:**
+boolean - True if this node has any child nodes.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -898,86 +898,86 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+Inserts the specified node immediately after the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的开头插入 newChild。
+If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+Inserts the specified node immediately before the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
+If refChild is null, inserts newChild at the end of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-返回 true，因为此节点可以有子节点。
+Returns true as this node can have child nodes.
 
-**退货:**
-boolean - True 因为这个节点可以有子节点。
+**Returns:**
+boolean - True as this node can have child nodes.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+Provides support for the for each style iteration over the child nodes of this node.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
@@ -985,29 +985,29 @@ public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -1031,41 +1031,41 @@ public Node prependChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的开头。
+Adds the specified node to the beginning of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### previousPreOrder(Node rootNode) {#previousPreOrder-com.aspose.words.Node-}
 ```
 public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
 ### removeAllChildren() {#removeAllChildren--}
 ```
@@ -1073,7 +1073,7 @@ public void removeAllChildren()
 ```
 
 
-移除当前节点的所有子节点。
+Removes all the child nodes of the current node.
 
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
 ```
@@ -1081,24 +1081,24 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+Removes the specified child node.
 
-删除节点后，oldChild 的父级设置为 null。
+The parent of oldChild is set to null after the node is removed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 删除的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The removed node.
 ### removeSmartTags() {#removeSmartTags--}
 ```
 public void removeSmartTags()
 ```
 
 
-删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。此方法不会删除智能标记的内容。
+Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String-}
 ```
@@ -1106,46 +1106,46 @@ public NodeList selectNodes(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的节点列表。
+Selects a list of nodes matching the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的第一个节点。
+Selects the first Node that matches the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
 ### setAbsoluteHorizontalDistance(double value) {#setAbsoluteHorizontalDistance-double-}
 ```
 public void setAbsoluteHorizontalDistance(double value)
 ```
 
 
-设置由表格属性指定的绝对水平浮动表格位置，以磅为单位。默认值为 0。
+Sets absolute horizontal floating table position specified by the table properties, in points. Default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 由表格属性指定的绝对水平浮动表格位置，以磅为单位。 |
+| value | double | Absolute horizontal floating table position specified by the table properties, in points. |
 
 ### setAbsoluteVerticalDistance(double value) {#setAbsoluteVerticalDistance-double-}
 ```
@@ -1153,12 +1153,12 @@ public void setAbsoluteVerticalDistance(double value)
 ```
 
 
-设置由表格属性指定的绝对垂直浮动表格位置，以磅为单位。默认值为 0。
+Sets absolute vertical floating table position specified by the table properties, in points. Default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 表格属性指定的绝对垂直浮动表格位置，以磅为单位。 |
+| value | double | Absolute vertical floating table position specified by the table properties, in points. |
 
 ### setAlignment(int value) {#setAlignment-int-}
 ```
@@ -1166,14 +1166,14 @@ public void setAlignment(int value)
 ```
 
 
-指定内联表格在文档中的对齐方式。
+Specifies how an inline table is aligned in the document.
 
-默认值为[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[TableAlignment](../../com.aspose.words/tablealignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment) constants. |
 
 ### setAllowAutoFit(boolean value) {#setAllowAutoFit-boolean-}
 ```
@@ -1181,16 +1181,16 @@ public void setAllowAutoFit(boolean value)
 ```
 
 
-允许 Microsoft Word 和 Aspose.Words 自动调整表格中单元格的大小以适应其内容。
+Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents.
 
-默认值是true 。
+The default value is  true .
 
 **M:Aspose.Words.Tables.Table.AutoFit(Aspose.Words.Tables.AutoFitBehavior)**
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setAllowCellSpacing(boolean value) {#setAllowCellSpacing-boolean-}
 ```
@@ -1198,12 +1198,12 @@ public void setAllowCellSpacing(boolean value)
 ```
 
 
-设置“允许单元格之间的间距”选项。
+Sets the "Allow spacing between cells" option.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | “允许单元格之间的间距”选项。 |
+| value | boolean | The "Allow spacing between cells" option. |
 
 ### setBidi(boolean value) {#setBidi-boolean-}
 ```
@@ -1211,29 +1211,29 @@ public void setBidi(boolean value)
 ```
 
 
-设置这是否是从右到左的表格。
+Sets whether this is a right-to-left table.
 
-当为 true 时，此行中的单元格从右到左排列。
+When  true , the cells in this row are laid out right to left.
 
-默认值为 false 。
+The default value is  false .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 这是否是从右到左的表。 |
+| value | boolean | Whether this is a right-to-left table. |
 
-### setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders) {#setBorder-int-int-double-java.awt.Color-boolean-}
+### setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders) {#setBorder-int-int-double-java.awt.Color-boolean-}
 ```
-public void setBorder(int border类型, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)
+public void setBorder(int borderType, int lineStyle, double lineWidth, Color color, boolean isOverrideCellBorders)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| border类型 | int |  |
+| borderType | int |  |
 | lineStyle | int |  |
 | lineWidth | double |  |
 | color | java.awt.Color |  |
@@ -1247,8 +1247,8 @@ public void setBorders(int lineStyle, double lineWidth, Color color)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | lineStyle | int |  |
 | lineWidth | double |  |
@@ -1260,12 +1260,12 @@ public void setBottomPadding(double value)
 ```
 
 
-设置要在单元格内容下方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add below the contents of cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在单元格内容下方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add below the contents of cells. |
 
 ### setCellSpacing(double value) {#setCellSpacing-double-}
 ```
@@ -1273,12 +1273,12 @@ public void setCellSpacing(double value)
 ```
 
 
-设置单元格之间的空间量（以磅为单位）。
+Sets the amount of space (in points) between the cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 单元格之间的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) between the cells. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -1286,35 +1286,35 @@ public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
-### set描述(String value) {#set描述-java.lang.String-}
+### setDescription(String value) {#setDescription-java.lang.String-}
 ```
-public void set描述(String value)
+public void setDescription(String value)
 ```
 
 
-设置此表的描述。它提供表中包含的信息的替代文本表示。
+Sets description of this table. It provides an alternative text representation of the information contained in the table.
 
-默认值为空字符串。
+The default value is an empty string.
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 此表的说明。 |
+| value | java.lang.String | Description of this table. |
 
 ### setHorizontalAnchor(int value) {#setHorizontalAnchor-int-}
 ```
@@ -1322,12 +1322,12 @@ public void setHorizontalAnchor(int value)
 ```
 
 
-获取应计算浮动表水平定位的基础对象。默认值为[RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 计算浮动表水平定位的基础对象。该值必须是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。 |
+| value | int | The base object from which the horizontal positioning of floating table should be calculated. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants. |
 
 ### setLeftIndent(double value) {#setLeftIndent-double-}
 ```
@@ -1335,12 +1335,12 @@ public void setLeftIndent(double value)
 ```
 
 
-设置表示表格左缩进的值。
+Sets the value that represents the left indent of the table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 表示表格左缩进的值。 |
+| value | double | The value that represents the left indent of the table. |
 
 ### setLeftPadding(double value) {#setLeftPadding-double-}
 ```
@@ -1348,12 +1348,12 @@ public void setLeftPadding(double value)
 ```
 
 
-设置要添加到单元格内容左侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the left of the contents of cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到单元格内容左侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the left of the contents of cells. |
 
 ### setPreferredWidth(PreferredWidth value) {#setPreferredWidth-com.aspose.words.PreferredWidth-}
 ```
@@ -1361,14 +1361,14 @@ public void setPreferredWidth(PreferredWidth value)
 ```
 
 
-设置表格首选宽度。
+Sets the table preferred width.
 
-默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | 表格首选宽度。 |
+| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | The table preferred width. |
 
 ### setRelativeHorizontalAlignment(int value) {#setRelativeHorizontalAlignment-int-}
 ```
@@ -1376,12 +1376,12 @@ public void setRelativeHorizontalAlignment(int value)
 ```
 
 
-设置浮动表的相对水平对齐方式。
+Sets floating table relative horizontal alignment.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 浮动表相对水平对齐。该值必须是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。 |
+| value | int | Floating table relative horizontal alignment. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
 
 ### setRelativeVerticalAlignment(int value) {#setRelativeVerticalAlignment-int-}
 ```
@@ -1389,12 +1389,12 @@ public void setRelativeVerticalAlignment(int value)
 ```
 
 
-设置浮动表相对垂直对齐方式。
+Sets floating table relative vertical alignment.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 浮动表相对垂直对齐。该值必须是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。 |
+| value | int | Floating table relative vertical alignment. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants. |
 
 ### setRightPadding(double value) {#setRightPadding-double-}
 ```
@@ -1402,12 +1402,12 @@ public void setRightPadding(double value)
 ```
 
 
-设置要添加到单元格内容右侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the right of the contents of cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到单元格内容右侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the right of the contents of cells. |
 
 ### setShading(int texture, Color foregroundColor, Color backgroundColor) {#setShading-int-java.awt.Color-java.awt.Color-}
 ```
@@ -1417,8 +1417,8 @@ public void setShading(int texture, Color foregroundColor, Color backgroundColor
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | texture | int |  |
 | foregroundColor | java.awt.Color |  |
@@ -1430,12 +1430,12 @@ public void setStyle(Style value)
 ```
 
 
-设置应用于此表格的表格样式。
+Sets the table style applied to this table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | 应用于此表格的表格样式。 |
+| value | [Style](../../com.aspose.words/style) | The table style applied to this table. |
 
 ### setStyleIdentifier(int value) {#setStyleIdentifier-int-}
 ```
@@ -1443,12 +1443,12 @@ public void setStyleIdentifier(int value)
 ```
 
 
-设置应用于此表的表样式的区域设置独立样式标识符。
+Sets the locale independent style identifier of the table style applied to this table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 应用于此表的表样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
+| value | int | The locale independent style identifier of the table style applied to this table. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants. |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1456,12 +1456,12 @@ public void setStyleName(String value)
 ```
 
 
-设置应用于此表格的表格样式的名称。
+Sets the name of the table style applied to this table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 应用于此表格的表格样式的名称。 |
+| value | java.lang.String | The name of the table style applied to this table. |
 
 ### setStyleOptions(int value) {#setStyleOptions-int-}
 ```
@@ -1469,12 +1469,12 @@ public void setStyleOptions(int value)
 ```
 
 
-设置指定如何将表格样式应用于此表格的位标志。
+Sets bit flags that specify how a table style is applied to this table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 指定如何将表格样式应用于此表格的位标志。该值必须是按位组合[TableStyleOptions](../../com.aspose.words/tablestyleoptions)常数。 |
+| value | int | Bit flags that specify how a table style is applied to this table. The value must be a bitwise combination of [TableStyleOptions](../../com.aspose.words/tablestyleoptions) constants. |
 
 ### setTextWrapping(int value) {#setTextWrapping-int-}
 ```
@@ -1482,12 +1482,12 @@ public void setTextWrapping(int value)
 ```
 
 
-套[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。
+Sets [getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-)为表。该值必须是以下之一[TextWrapping](../../com.aspose.words/textwrapping)常数。 |
+| value | int | \{[getTextWrapping()](../../com.aspose.words/table\#getTextWrapping--) / [setTextWrapping(int)](../../com.aspose.words/table\#setTextWrapping-int-) for table. The value must be one of [TextWrapping](../../com.aspose.words/textwrapping) constants. |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -1495,16 +1495,16 @@ public void setTitle(String value)
 ```
 
 
-设置此表的标题。它提供表中包含的信息的替代文本表示。
+Sets title of this table. It provides an alternative text representation of the information contained in the table.
 
-默认值为空字符串。
+The default value is an empty string.
 
-此属性对符合 ISO/IEC 29500 的 DOCX 文档有意义（[OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)）。当保存为 pre-ISO/IEC 29500 格式时，该属性将被忽略。
+This property is meaningful for ISO/IEC 29500 compliant DOCX documents ( [OoxmlCompliance](../../com.aspose.words/ooxmlcompliance)). When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 此表的标题。 |
+| value | java.lang.String | Title of this table. |
 
 ### setTopPadding(double value) {#setTopPadding-double-}
 ```
@@ -1512,12 +1512,12 @@ public void setTopPadding(double value)
 ```
 
 
-设置要在单元格内容上方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add above the contents of cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add above the contents of cells. |
 
 ### setVerticalAnchor(int value) {#setVerticalAnchor-int-}
 ```
@@ -1525,12 +1525,12 @@ public void setVerticalAnchor(int value)
 ```
 
 
-获取应计算浮动表垂直定位的基础对象。默认值为[RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
+Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.MARGIN](../../com.aspose.words/relativeverticalposition\#MARGIN).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 计算浮动表垂直定位的基础对象。该值必须是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。 |
+| value | int | The base object from which the vertical positioning of floating table should be calculated. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants. |
 
 ### toString() {#toString--}
 ```
@@ -1540,7 +1540,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -1548,15 +1548,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -1565,12 +1565,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1588,8 +1588,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1601,8 +1601,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

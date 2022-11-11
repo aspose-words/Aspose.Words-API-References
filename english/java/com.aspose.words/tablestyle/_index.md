@@ -1,30 +1,30 @@
 ---
 title: TableStyle
 second_title: Aspose.Words for Java API Reference
-description: 表示表格样式。
+description: Represents a table style.
 type: docs
 weight: 552
-url: /zh/java/com.aspose.words/tablestyle/
+url: /java/com.aspose.words/tablestyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Style](../../com.aspose.words/style)
 ```
 public class TableStyle extends Style
 ```
 
-表示表格样式。
+Represents a table style.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+To learn more, visit the **Working with Tables** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [clearCellAttrs()](#clearCellAttrs--) |  |
 | [clearParaAttrs()](#clearParaAttrs--) |  |
 | [clearRowAttrs()](#clearRowAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
-| [equals(Style style)](#equals-com.aspose.words.Style-) | 与指定的样式进行比较。 |
+| [equals(Style style)](#equals-com.aspose.words.Style-) | Compares with the specified style. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchCellAttr(int key)](#fetchCellAttr-int-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
@@ -35,72 +35,72 @@ public class TableStyle extends Style
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
 | [fetchRowAttr(int key)](#fetchRowAttr-int-) |  |
-| [getAliases()](#getAliases--) | 获取此样式的所有别名。 |
-| [getAlignment()](#getAlignment--) | 指定表格样式的对齐方式。 |
-| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | 获取一个标志，该标志指示是否允许跨分页符拆分表格行中的文本。 |
-| [getBaseStyleName()](#getBaseStyleName--) | 获取/设置此样式所基于的样式的名称。 |
-| [getBidi()](#getBidi--) | 获取这是否是从右到左表格的样式。 |
-| [getBorders()](#getBorders--) | 获取样式的默认单元格边框的集合。 |
-| [getBottomPadding()](#getBottomPadding--) | 获取要添加到表格单元格内容下方的空间量（以磅为单位）。 |
-| [getBuiltIn()](#getBuiltIn--) | 如果此样式是 MS Word 中的内置样式之一，则为真。 |
-| [getCellSpacing()](#getCellSpacing--) | 获取单元格之间的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
-| [getColumnStripe()](#getColumnStripe--) | 当样式指定奇数/偶数列分段时，获取要包含在分段中的列数。 |
-| [getConditionalStyles()](#getConditionalStyles--) | 可以为此表格样式定义的条件样式的集合。 |
+| [getAliases()](#getAliases--) | Gets all aliases of this style. |
+| [getAlignment()](#getAlignment--) | Specifies the alignment for the table style. |
+| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | Gets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [getBaseStyleName()](#getBaseStyleName--) | Gets/sets the name of the style this style is based on. |
+| [getBidi()](#getBidi--) | Gets whether this is a style for a right-to-left table. |
+| [getBorders()](#getBorders--) | Gets the collection of default cell borders for the style. |
+| [getBottomPadding()](#getBottomPadding--) | Gets the amount of space (in points) to add below the contents of table cells. |
+| [getBuiltIn()](#getBuiltIn--) | True if this style is one of the built-in styles in MS Word. |
+| [getCellSpacing()](#getCellSpacing--) | Gets the amount of space (in points) between the cells. |
+| [getClass()](#getClass--) |  |
+| [getColumnStripe()](#getColumnStripe--) | Gets a number of columns to include in the banding when the style specifies odd/even columns banding. |
+| [getConditionalStyles()](#getConditionalStyles--) | Collection of conditional styles that may be defined for this table style. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getDirectCellAttr(int key)](#getDirectCellAttr-int-) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
 | [getDirectRowAttr(int key)](#getDirectRowAttr-int-) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getDocument()](#getDocument--) | 获取所有者文档。 |
-| [getFont()](#getFont--) | 获取样式的字符格式。 |
-| [getLeftIndent()](#getLeftIndent--) | 获取表示表格左缩进的值。 |
-| [getLeftPadding()](#getLeftPadding--) | 获取要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
-| [getLinkedStyleName()](#getLinkedStyleName--) | 获取链接到这个样式的名称。 |
-| [getList()](#getList--) | 获取定义此列表样式格式的列表。 |
-| [getListFormat()](#getListFormat--) | 提供对段落样式的列表格式属性的访问。 |
-| [getName()](#getName--) | 获取样式的名称。 |
-| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
-| [getParagraphFormat()](#getParagraphFormat--) | 获取样式的段落格式。 |
-| [getRightPadding()](#getRightPadding--) | 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
-| [getRowStripe()](#getRowStripe--) | 当样式指定奇数/偶数行分段时，获取要包含在分段中的行数。 |
-| [getShading()](#getShading--) | 得到一个[Shading](../../com.aspose.words/shading)引用表格单元格的阴影格式的对象。 |
-| [getStyleIdentifier()](#getStyleIdentifier--) | 获取内置样式的独立于语言环境的样式标识符。 |
-| [getStyles()](#getStyles--) | 获取该样式所属的样式集合。 |
-| [getTopPadding()](#getTopPadding--) | 获取要添加到表格单元格内容上方的空间量（以磅为单位）。 |
-| [get类型()](#get类型--) | 获取样式类型（段落或字符）。 |
-| [getVerticalAlignment()](#getVerticalAlignment--) | 指定单元格的垂直对齐方式。 |
+| [getDocument()](#getDocument--) | Gets the owner document. |
+| [getFont()](#getFont--) | Gets the character formatting of the style. |
+| [getLeftIndent()](#getLeftIndent--) | Gets the value that represents the left indent of a table. |
+| [getLeftPadding()](#getLeftPadding--) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
+| [getLinkedStyleName()](#getLinkedStyleName--) | Gets the name of the Style linked to this one. |
+| [getList()](#getList--) | Gets the list that defines formatting of this list style. |
+| [getListFormat()](#getListFormat--) | Provides access to the list formatting properties of a paragraph style. |
+| [getName()](#getName--) | Gets the name of the style. |
+| [getNextParagraphStyleName()](#getNextParagraphStyleName--) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
+| [getParagraphFormat()](#getParagraphFormat--) | Gets the paragraph formatting of the style. |
+| [getRightPadding()](#getRightPadding--) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
+| [getRowStripe()](#getRowStripe--) | Gets a number of rows to include in the banding when the style specifies odd/even row banding. |
+| [getShading()](#getShading--) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells. |
+| [getStyleIdentifier()](#getStyleIdentifier--) | Gets the locale independent style identifier for a built-in style. |
+| [getStyles()](#getStyles--) | Gets the collection of styles this style belongs to. |
+| [getTopPadding()](#getTopPadding--) | Gets the amount of space (in points) to add above the contents of table cells. |
+| [getType()](#getType--) | Gets the style type (paragraph or character). |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Specifies the vertical alignment for the cells. |
 | [hashCode()](#hashCode--) |  |
-| [isHeading()](#isHeading--) | 当样式是内置标题样式之一时为真。 |
-| [isQuickStyle()](#isQuickStyle--) | 指定此样式是否显示在 MS Word UI 内的快速样式库中。 |
-| [isQuickStyle(boolean value)](#isQuickStyle-boolean-) | 指定此样式是否显示在 MS Word UI 内的快速样式库中。 |
+| [isHeading()](#isHeading--) | True when the style is one of the built-in Heading styles. |
+| [isQuickStyle()](#isQuickStyle--) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
+| [isQuickStyle(boolean value)](#isQuickStyle-boolean-) | Specifies whether this style is shown in the Quick Style gallery inside MS Word UI. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除指定的样式。 |
+| [remove()](#remove--) | Removes the specified style from the document. |
 | [removeParaAttr(int key)](#removeParaAttr-int-) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [resetToDefaultAttrs()](#resetToDefaultAttrs--) |  |
-| [setAlignment(int value)](#setAlignment-int-) | 指定表格样式的对齐方式。 |
-| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | 设置一个标志，指示是否允许表格行中的文本跨分页符进行拆分。 |
-| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String-) | 获取/设置此样式所基于的样式的名称。 |
-| [setBidi(boolean value)](#setBidi-boolean-) | 设置这是否是从右到左表格的样式。 |
+| [setAlignment(int value)](#setAlignment-int-) | Specifies the alignment for the table style. |
+| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | Sets a flag indicating whether text in a table row is allowed to split across a page break. |
+| [setBaseStyleName(String value)](#setBaseStyleName-java.lang.String-) | Gets/sets the name of the style this style is based on. |
+| [setBidi(boolean value)](#setBidi-boolean-) | Sets whether this is a style for a right-to-left table. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | 设置要在表格单元格内容下方添加的空间量（以磅为单位）。 |
+| [setBottomPadding(double value)](#setBottomPadding-double-) | Sets the amount of space (in points) to add below the contents of table cells. |
 | [setCellAttr(int key, Object value)](#setCellAttr-int-java.lang.Object-) |  |
-| [setCellSpacing(double value)](#setCellSpacing-double-) | 设置单元格之间的空间量（以磅为单位）。 |
-| [setColumnStripe(int value)](#setColumnStripe-int-) | 当样式指定奇数/偶数列条带时，设置要包含在条带中的列数。 |
-| [setLeftIndent(double value)](#setLeftIndent-double-) | 设置表示表格左缩进的值。 |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
-| [setName(String value)](#setName-java.lang.String-) | 设置样式的名称。 |
-| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | 获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 |
+| [setCellSpacing(double value)](#setCellSpacing-double-) | Sets the amount of space (in points) between the cells. |
+| [setColumnStripe(int value)](#setColumnStripe-int-) | Sets a number of columns to include in the banding when the style specifies odd/even columns banding. |
+| [setLeftIndent(double value)](#setLeftIndent-double-) | Sets the value that represents the left indent of a table. |
+| [setLeftPadding(double value)](#setLeftPadding-double-) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the name of the style. |
+| [setNextParagraphStyleName(String value)](#setNextParagraphStyleName-java.lang.String-) | Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRightPadding(double value)](#setRightPadding-double-) | 设置要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
+| [setRightPadding(double value)](#setRightPadding-double-) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object-) |  |
-| [setRowStripe(int value)](#setRowStripe-int-) | 当样式指定奇数/偶数行分段时，设置要包含在分段中的行数。 |
+| [setRowStripe(int value)](#setRowStripe-int-) | Sets a number of rows to include in the banding when the style specifies odd/even row banding. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setTopPadding(double value)](#setTopPadding-double-) | 设置要在表格单元格内容上方添加的空间量（以磅为单位）。 |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | 指定单元格的垂直对齐方式。 |
+| [setTopPadding(double value)](#setTopPadding-double-) | Sets the amount of space (in points) to add above the contents of table cells. |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Specifies the vertical alignment for the cells. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -143,15 +143,15 @@ public boolean equals(Style style)
 ```
 
 
-与指定的样式进行比较。样式 Istd 仅针对内置样式进行比较。样式默认值不包括在比较中。递归比较基本样式、链接样式和下一段样式。
+Compares with the specified style. Styles Istds are compared for built-in styles only. Styles defaults are not included in comparison. Base style, linked style and next paragraph style are recursively compared.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | style | [Style](../../com.aspose.words/style) |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -160,13 +160,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchCellAttr(int key) {#fetchCellAttr-int-}
 ```
 public Object fetchCellAttr(int key)
@@ -175,12 +175,12 @@ public Object fetchCellAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
@@ -190,12 +190,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedCellAttr(int key) {#fetchInheritedCellAttr-int-}
 ```
@@ -205,12 +205,12 @@ public Object fetchInheritedCellAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
 ```
@@ -220,12 +220,12 @@ public Object fetchInheritedParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedRowAttr(int key) {#fetchInheritedRowAttr-int-}
 ```
@@ -235,12 +235,12 @@ public Object fetchInheritedRowAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -250,12 +250,12 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -265,12 +265,12 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchParaAttr(int key) {#fetchParaAttr-int-}
 ```
@@ -280,12 +280,12 @@ public Object fetchParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchRowAttr(int key) {#fetchRowAttr-int-}
 ```
@@ -295,12 +295,12 @@ public Object fetchRowAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getAliases() {#getAliases--}
 ```
@@ -308,124 +308,124 @@ public String[] getAliases()
 ```
 
 
-获取此样式的所有别名。如果 style 没有别名，则返回空字符串数组。
+Gets all aliases of this style. If style has no aliases then empty array of string is returned.
 
-**退货:**
-java.lang.String[] - 此样式的所有别名。
+**Returns:**
+java.lang.String[] - All aliases of this style.
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
 ```
 
 
-指定表格样式的对齐方式。默认值为[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[TableAlignment](../../com.aspose.words/tablealignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [TableAlignment](../../com.aspose.words/tablealignment) constants.
 ### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages--}
 ```
 public boolean getAllowBreakAcrossPages()
 ```
 
 
-获取一个标志，该标志指示是否允许跨分页符拆分表格行中的文本。默认值为**true**.
+Gets a flag indicating whether text in a table row is allowed to split across a page break. The default value is **true**.
 
-**退货:**
-boolean - 指示表格行中的文本是否允许跨分页符拆分的标志。
+**Returns:**
+boolean - A flag indicating whether text in a table row is allowed to split across a page break.
 ### getBaseStyleName() {#getBaseStyleName--}
 ```
 public String getBaseStyleName()
 ```
 
 
-获取/设置此样式所基于的样式的名称。如果样式不基于任何其他样式，这将是一个空字符串，并且可以将其设置为空字符串。
+Gets/sets the name of the style this style is based on. This will be an empty string if the style is not based on any other style and it can be set to an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getBidi() {#getBidi--}
 ```
 public boolean getBidi()
 ```
 
 
-获取这是否是从右到左表格的样式。
+Gets whether this is a style for a right-to-left table.
 
-什么时候**true**，行中的单元格从右到左排列。
+When **true**, the cells in rows are laid out right to left.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 这是否是从右到左表格的样式。
+**Returns:**
+boolean - Whether this is a style for a right-to-left table.
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
 ```
 
 
-获取样式的默认单元格边框的集合。
+Gets the collection of default cell borders for the style.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 样式的默认单元格边框的集合。
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the style.
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
 ```
 
 
-获取要添加到表格单元格内容下方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add below the contents of table cells.
 
-**退货:**
-double - 在表格单元格内容下方添加的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add below the contents of table cells.
 ### getBuiltIn() {#getBuiltIn--}
 ```
 public boolean getBuiltIn()
 ```
 
 
-如果此样式是 MS Word 中的内置样式之一，则为真。
+True if this style is one of the built-in styles in MS Word.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getCellSpacing() {#getCellSpacing--}
 ```
 public double getCellSpacing()
 ```
 
 
-获取单元格之间的空间量（以磅为单位）。
+Gets the amount of space (in points) between the cells.
 
-**退货:**
-double - 单元格之间的空间量（以磅为单位）。
-### get班级() {#get班级--}
+**Returns:**
+double - The amount of space (in points) between the cells.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumnStripe() {#getColumnStripe--}
 ```
 public int getColumnStripe()
 ```
 
 
-当样式指定奇数/偶数列分段时，获取要包含在分段中的列数。
+Gets a number of columns to include in the banding when the style specifies odd/even columns banding.
 
-**退货:**
-int - 当样式指定奇数/偶数列带时，要包含在带中的列数。
+**Returns:**
+int - A number of columns to include in the banding when the style specifies odd/even columns banding.
 ### getConditionalStyles() {#getConditionalStyles--}
 ```
 public ConditionalStyleCollection getConditionalStyles()
 ```
 
 
-可以为此表格样式定义的条件样式的集合。
+Collection of conditional styles that may be defined for this table style.
 
-**退货:**
-[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) - 相应的[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection)价值。
+**Returns:**
+[ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) - The corresponding [ConditionalStyleCollection](../../com.aspose.words/conditionalstylecollection) value.
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -434,12 +434,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectCellAttr(int key) {#getDirectCellAttr-int-}
 ```
@@ -449,12 +449,12 @@ public Object getDirectCellAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
 ```
@@ -464,12 +464,12 @@ public Object getDirectParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
 ```
@@ -479,13 +479,13 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | revisionsView | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectRowAttr(int key) {#getDirectRowAttr-int-}
 ```
@@ -495,12 +495,12 @@ public Object getDirectRowAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -510,12 +510,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDocument() {#getDocument--}
 ```
@@ -523,194 +523,194 @@ public DocumentBase getDocument()
 ```
 
 
-获取所有者文档。
+Gets the owner document.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 所有者文件。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The owner document.
 ### getFont() {#getFont--}
 ```
 public Font getFont()
 ```
 
 
-获取样式的字符格式。
+Gets the character formatting of the style.
 
-对于列表样式，此属性返回 null。
+For list styles this property returns null.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 样式的字符格式。
+**Returns:**
+[Font](../../com.aspose.words/font) - The character formatting of the style.
 ### getLeftIndent() {#getLeftIndent--}
 ```
 public double getLeftIndent()
 ```
 
 
-获取表示表格左缩进的值。
+Gets the value that represents the left indent of a table.
 
-**退货:**
-double - 表示表格左缩进的值。
+**Returns:**
+double - The value that represents the left indent of a table.
 ### getLeftPadding() {#getLeftPadding--}
 ```
 public double getLeftPadding()
 ```
 
 
-获取要添加到表格单元格内容左侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the left of the contents of table cells.
 
-**退货:**
-double - 添加到表格单元格内容左侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the left of the contents of table cells.
 ### getLinkedStyleName() {#getLinkedStyleName--}
 ```
 public String getLinkedStyleName()
 ```
 
 
-获取链接到这个样式的名称。如果没有链接样式，则返回空字符串。
+Gets the name of the Style linked to this one. Returns Empty string if no styles are linked.
 
-**退货:**
-java.lang.String - 链接到这个样式的名称。
+**Returns:**
+java.lang.String - The name of the Style linked to this one.
 ### getList() {#getList--}
 ```
 public List getList()
 ```
 
 
-获取定义此列表样式格式的列表。
+Gets the list that defines formatting of this list style.
 
-此属性仅对列表样式有效。对于其他样式类型，此属性返回 null。
+This property is only valid for list styles. For other style types this property returns null.
 
-**退货:**
-[List](../../com.aspose.words/list) - 定义此列表样式格式的列表。
+**Returns:**
+[List](../../com.aspose.words/list) - The list that defines formatting of this list style.
 ### getListFormat() {#getListFormat--}
 ```
 public ListFormat getListFormat()
 ```
 
 
-提供对段落样式的列表格式属性的访问。
+Provides access to the list formatting properties of a paragraph style.
 
-此属性仅对段落样式有效。对于其他样式类型，此属性返回 null。
+This property is only valid for paragraph styles. For other style types this property returns null.
 
-**退货:**
-[ListFormat](../../com.aspose.words/listformat) - 相应的[ListFormat](../../com.aspose.words/listformat)价值。
+**Returns:**
+[ListFormat](../../com.aspose.words/listformat) - The corresponding [ListFormat](../../com.aspose.words/listformat) value.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取样式的名称。
+Gets the name of the style.
 
-不能为空字符串。
+Can not be empty string.
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
 
-**退货:**
-java.lang.String - 样式的名称。
+**Returns:**
+java.lang.String - The name of the style.
 ### getNextParagraphStyleName() {#getNextParagraphStyleName--}
 ```
 public String getNextParagraphStyleName()
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
 
 
-获取样式的段落格式。
+Gets the paragraph formatting of the style.
 
-对于字符和列表样式，此属性返回 null。
+For character and list styles this property returns null.
 
-**退货:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - 样式的段落格式。
+**Returns:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the style.
 ### getRightPadding() {#getRightPadding--}
 ```
 public double getRightPadding()
 ```
 
 
-获取要添加到表格单元格内容右侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the right of the contents of table cells.
 
-**退货:**
-double - 添加到表格单元格内容右侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the right of the contents of table cells.
 ### getRowStripe() {#getRowStripe--}
 ```
 public int getRowStripe()
 ```
 
 
-当样式指定奇数/偶数行分段时，获取要包含在分段中的行数。
+Gets a number of rows to include in the banding when the style specifies odd/even row banding.
 
-**退货:**
-int - 当样式指定奇数/偶数行分带时要包含在分带中的行数。
+**Returns:**
+int - A number of rows to include in the banding when the style specifies odd/even row banding.
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
 ```
 
 
-得到一个[Shading](../../com.aspose.words/shading)引用表格单元格的阴影格式的对象。
+Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells.
 
-**退货:**
-[Shading](../../com.aspose.words/shading) - 一个[Shading](../../com.aspose.words/shading)引用表格单元格的阴影格式的对象。
+**Returns:**
+[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for table cells.
 ### getStyleIdentifier() {#getStyleIdentifier--}
 ```
 public int getStyleIdentifier()
 ```
 
 
-获取内置样式的独立于语言环境的样式标识符。
+Gets the locale independent style identifier for a built-in style.
 
-对于用户定义（自定义）样式，此属性返回[StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
+For user defined (custom) styles, this property returns [StyleIdentifier.USER](../../com.aspose.words/styleidentifier\#USER).
 
-**退货:**
-int - 内置样式的独立于语言环境的样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+**Returns:**
+int - The locale independent style identifier for a built-in style. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
 ### getStyles() {#getStyles--}
 ```
 public StyleCollection getStyles()
 ```
 
 
-获取该样式所属的样式集合。
+Gets the collection of styles this style belongs to.
 
-**退货:**
-[StyleCollection](../../com.aspose.words/stylecollection) 此样式所属的样式集合。
+**Returns:**
+[StyleCollection](../../com.aspose.words/stylecollection) - The collection of styles this style belongs to.
 ### getTopPadding() {#getTopPadding--}
 ```
 public double getTopPadding()
 ```
 
 
-获取要添加到表格单元格内容上方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add above the contents of table cells.
 
-**退货:**
-double - 在表格单元格内容上方添加的空间量（以磅为单位）。
-### get类型() {#get类型--}
+**Returns:**
+double - The amount of space (in points) to add above the contents of table cells.
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取样式类型（段落或字符）。
+Gets the style type (paragraph or character).
 
-**退货:**
- int - 样式类型（段落或字符）。返回值是以下之一[Style类型](../../com.aspose.words/styletype)常数。
+**Returns:**
+int - The style type (paragraph or character). The returned value is one of [StyleType](../../com.aspose.words/styletype) constants.
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
 ```
 
 
-指定单元格的垂直对齐方式。默认值为[CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -719,40 +719,40 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isHeading() {#isHeading--}
 ```
 public boolean isHeading()
 ```
 
 
-当样式是内置标题样式之一时为真。
+True when the style is one of the built-in Heading styles.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isQuickStyle() {#isQuickStyle--}
 ```
 public boolean isQuickStyle()
 ```
 
 
-指定此样式是否显示在 MS Word UI 内的快速样式库中。
+Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isQuickStyle(boolean value) {#isQuickStyle-boolean-}
 ```
 public void isQuickStyle(boolean value)
 ```
 
 
-指定此样式是否显示在 MS Word UI 内的快速样式库中。
+Specifies whether this style is shown in the Quick Style gallery inside MS Word UI.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### notify() {#notify--}
 ```
@@ -776,11 +776,11 @@ public void remove()
 ```
 
 
-从文档中删除指定的样式。样式移除对文档模型有以下影响：
+Removes the specified style from the document. Style removal has following effects on the document model:
 
- *  从相应的段落、运行和表格中删除对样式的所有引用。
- *  如果删除基本样式，则其格式将移至子样式。
- *  如果要删除的样式具有链接样式，则这两个样式都将被删除。
+ *  All references to the style are removed from corresponding paragraphs, runs and tables.
+ *  If base style is removed its formatting is moved to child styles.
+ *  If style to be deleted has a linked style, then both of these are deleted.
 
 ### removeParaAttr(int key) {#removeParaAttr-int-}
 ```
@@ -790,8 +790,8 @@ public void removeParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -803,8 +803,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -822,12 +822,12 @@ public void setAlignment(int value)
 ```
 
 
-指定表格样式的对齐方式。默认值为[TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
+Specifies the alignment for the table style. The default value is [TableAlignment.LEFT](../../com.aspose.words/tablealignment\#LEFT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[TableAlignment](../../com.aspose.words/tablealignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [TableAlignment](../../com.aspose.words/tablealignment) constants. |
 
 ### setAllowBreakAcrossPages(boolean value) {#setAllowBreakAcrossPages-boolean-}
 ```
@@ -835,12 +835,12 @@ public void setAllowBreakAcrossPages(boolean value)
 ```
 
 
-设置一个标志，指示是否允许表格行中的文本跨分页符进行拆分。默认值为**true**.
+Sets a flag indicating whether text in a table row is allowed to split across a page break. The default value is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否允许表格行中的文本跨分页符拆分的标志。 |
+| value | boolean | A flag indicating whether text in a table row is allowed to split across a page break. |
 
 ### setBaseStyleName(String value) {#setBaseStyleName-java.lang.String-}
 ```
@@ -848,12 +848,12 @@ public void setBaseStyleName(String value)
 ```
 
 
-获取/设置此样式所基于的样式的名称。如果样式不基于任何其他样式，这将是一个空字符串，并且可以将其设置为空字符串。
+Gets/sets the name of the style this style is based on. This will be an empty string if the style is not based on any other style and it can be set to an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setBidi(boolean value) {#setBidi-boolean-}
 ```
@@ -861,16 +861,16 @@ public void setBidi(boolean value)
 ```
 
 
-设置这是否是从右到左表格的样式。
+Sets whether this is a style for a right-to-left table.
 
-什么时候**true**，行中的单元格从右到左排列。
+When **true**, the cells in rows are laid out right to left.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 这是否是从右到左表格的样式。 |
+| value | boolean | Whether this is a style for a right-to-left table. |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -880,8 +880,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -892,12 +892,12 @@ public void setBottomPadding(double value)
 ```
 
 
-设置要在表格单元格内容下方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add below the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在表格单元格内容下方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add below the contents of table cells. |
 
 ### setCellAttr(int key, Object value) {#setCellAttr-int-java.lang.Object-}
 ```
@@ -907,8 +907,8 @@ public void setCellAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -919,12 +919,12 @@ public void setCellSpacing(double value)
 ```
 
 
-设置单元格之间的空间量（以磅为单位）。
+Sets the amount of space (in points) between the cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 单元格之间的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) between the cells. |
 
 ### setColumnStripe(int value) {#setColumnStripe-int-}
 ```
@@ -932,12 +932,12 @@ public void setColumnStripe(int value)
 ```
 
 
-当样式指定奇数/偶数列条带时，设置要包含在条带中的列数。
+Sets a number of columns to include in the banding when the style specifies odd/even columns banding.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 当样式指定奇数/偶数列条带时，要包含在条带中的列数。 |
+| value | int | A number of columns to include in the banding when the style specifies odd/even columns banding. |
 
 ### setLeftIndent(double value) {#setLeftIndent-double-}
 ```
@@ -945,12 +945,12 @@ public void setLeftIndent(double value)
 ```
 
 
-设置表示表格左缩进的值。
+Sets the value that represents the left indent of a table.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 表示表格左缩进的值。 |
+| value | double | The value that represents the left indent of a table. |
 
 ### setLeftPadding(double value) {#setLeftPadding-double-}
 ```
@@ -958,12 +958,12 @@ public void setLeftPadding(double value)
 ```
 
 
-设置要添加到表格单元格内容左侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the left of the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到表格单元格内容左侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the left of the contents of table cells. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -971,16 +971,16 @@ public void setName(String value)
 ```
 
 
-设置样式的名称。
+Sets the name of the style.
 
-不能为空字符串。
+Can not be empty string.
 
-如果集合中已经存在具有此类名称的样式，则此样式将覆盖它。所有受影响的节点都将引用新样式。
+If there already is a style with such name in the collection, then this style will override it. All affected nodes will reference new style.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 样式的名称。 |
+| value | java.lang.String | The name of the style. |
 
 ### setNextParagraphStyleName(String value) {#setNextParagraphStyleName-java.lang.String-}
 ```
@@ -988,12 +988,12 @@ public void setNextParagraphStyleName(String value)
 ```
 
 
-获取/设置样式的名称，该样式的名称将自动应用于插入到以指定样式格式化的段落之后的新段落。 Aspose.Words 不使用此属性。只有当您在 MS Word 中编辑文档时，才会自动应用下一个段落样式。
+Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style. This property is not used by Aspose.Words. The next paragraph style will only be applied automatically when you edit the document in MS Word.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
 ```
@@ -1003,8 +1003,8 @@ public void setParaAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1015,12 +1015,12 @@ public void setRightPadding(double value)
 ```
 
 
-设置要添加到表格单元格内容右侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the right of the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到表格单元格内容右侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the right of the contents of table cells. |
 
 ### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object-}
 ```
@@ -1030,8 +1030,8 @@ public void setRowAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1042,12 +1042,12 @@ public void setRowStripe(int value)
 ```
 
 
-当样式指定奇数/偶数行分段时，设置要包含在分段中的行数。
+Sets a number of rows to include in the banding when the style specifies odd/even row banding.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 当样式指定奇数/偶数行分带时要包含在分带中的行数。 |
+| value | int | A number of rows to include in the banding when the style specifies odd/even row banding. |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -1057,8 +1057,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -1069,12 +1069,12 @@ public void setTopPadding(double value)
 ```
 
 
-设置要在表格单元格内容上方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add above the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add above the contents of table cells. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
 ```
@@ -1082,12 +1082,12 @@ public void setVerticalAlignment(int value)
 ```
 
 
-指定单元格的垂直对齐方式。默认值为[CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
+Specifies the vertical alignment for the cells. The default value is [CellVerticalAlignment.TOP](../../com.aspose.words/cellverticalalignment\#TOP).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants. |
 
 ### toString() {#toString--}
 ```
@@ -1097,7 +1097,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1115,8 +1115,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1128,8 +1128,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

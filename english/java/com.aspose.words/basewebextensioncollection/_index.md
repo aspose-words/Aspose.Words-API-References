@@ -1,43 +1,43 @@
 ---
 title: BaseWebExtensionCollection
-second_title: Aspose.Words for Java API 参考
-description: 和集合的基类。
+second_title: Aspose.Words for Java API Reference
+description: Base class for    and  collections.
 type: docs
 weight: 27
-url: /zh/java/com.aspose.words/basewebextensioncollection/
+url: /java/com.aspose.words/basewebextensioncollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public abstract class BaseWebExtensionCollection implements Iterable
 ```
 
-基类[TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection)收藏品。
+Base class for [TaskPaneCollection](../../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../../com.aspose.words/webextensionpropertycollection) and [WebExtensionReferenceCollection](../../com.aspose.words/webextensionreferencecollection) collections.
 
-要了解更多信息，请访问**Work with Office Add-ins**文档文章。
-## 构造函数s
+To learn more, visit the **Work with Office Add-ins** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
 | [BaseWebExtensionCollection()](#BaseWebExtensionCollection--) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clear()](#clear--) | 从集合中移除所有元素。 |
+| [clear()](#clear--) | Removes all elements from the collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取指定索引处的项目。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(int index)](#get-int-) | Gets an item at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个可以遍历集合的枚举器。 |
+| [iterator()](#iterator--) | Returns an enumerator that can iterate through a collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove(int index)](#remove-int-) | 从集合中移除指定索引处的项目。 |
+| [remove(int index)](#remove-int-) | Removes the item at the specified index from the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -54,7 +54,7 @@ public void clear()
 ```
 
 
-从集合中移除所有元素。
+Removes all elements from the collection.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -64,48 +64,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public Object get(int index)
 ```
 
 
-获取指定索引处的项目。
+Gets an item at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 项目的从零开始的索引。 |
+| index | int | Zero-based index of the item. |
 
-**退货:**
-java.lang.Object - 指定索引处的项目。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.Object - An item at the specified index.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -114,17 +114,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个可以遍历集合的枚举器。
+Returns an enumerator that can iterate through a collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator - 
 ### notify() {#notify--}
 ```
@@ -148,12 +148,12 @@ public void remove(int index)
 ```
 
 
-从集合中移除指定索引处的项目。
+Removes the item at the specified index from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 集合项的从零开始的索引。 |
+| index | int | The zero-based index of the collection item. |
 
 ### toString() {#toString--}
 ```
@@ -163,7 +163,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -181,8 +181,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -194,8 +194,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,44 +1,44 @@
 ---
-title: Wrap类型
+title: WrapType
 second_title: Aspose.Words for Java API Reference
-description: 指定文本如何环绕形状或图片。
+description: Specifies how text is wrapped around a shape or picture.
 type: docs
 weight: 622
-url: /zh/java/com.aspose.words/wraptype/
+url: /java/com.aspose.words/wraptype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Wrap类型
+public class WrapType
 ```
 
-指定文本如何环绕形状或图片。
-## 字段
+Specifies how text is wrapped around a shape or picture.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [INLINE](#INLINE) | 形状与文本保持在同一图层上并被视为字符。 |
-| [NONE](#NONE) | 形状周围没有环绕文字。 |
-| [SQUARE](#SQUARE) | 将文本环绕在形状的方形边界框的所有边上。 |
-| [THROUGH](#THROUGH) | 与 Tight 相同，但包裹在打开的形状的任何部分内。 |
-| [TIGHT](#TIGHT) | 紧紧围绕形状的边缘，而不是围绕边界框。 |
-| [TOP_BOTTOM](#TOP-BOTTOM) | 文本在形状顶部停止并在形状下方的行上重新开始。 |
+| [INLINE](#INLINE) | The shape remains on the same layer as text and treated as a character. |
+| [NONE](#NONE) | No text wrapping around the shape. |
+| [SQUARE](#SQUARE) | Wraps text around all sides of the square bounding box of the shape. |
+| [THROUGH](#THROUGH) | Same as Tight, but wraps inside any parts of the shape that are open. |
+| [TIGHT](#TIGHT) | Wraps tightly around the edges of the shape, instead of wrapping around the bounding box. |
+| [TOP_BOTTOM](#TOP-BOTTOM) | The text stops at the top of the shape and restarts on the line below the shape. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String wrap类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int wrap类型)](#getName-int-) |  |
+| [fromName(String wrapTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int wrapType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int wrap类型)](#toString-int-) |  |
+| [toString(int wrapType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int INLINE
 ```
 
 
-形状与文本保持在同一图层上并被视为字符。
+The shape remains on the same layer as text and treated as a character.
 
 ### NONE {#NONE}
 ```
@@ -56,7 +56,7 @@ public static int NONE
 ```
 
 
-形状周围没有环绕文字。形状位于文本的后面或前面。
+No text wrapping around the shape. The shape is placed behind or in front of text.
 
 ### SQUARE {#SQUARE}
 ```
@@ -64,7 +64,7 @@ public static int SQUARE
 ```
 
 
-将文本环绕在形状的方形边界框的所有边上。
+Wraps text around all sides of the square bounding box of the shape.
 
 ### THROUGH {#THROUGH}
 ```
@@ -72,7 +72,7 @@ public static int THROUGH
 ```
 
 
-与 Tight 相同，但包裹在打开的形状的任何部分内。
+Same as Tight, but wraps inside any parts of the shape that are open.
 
 ### TIGHT {#TIGHT}
 ```
@@ -80,7 +80,7 @@ public static int TIGHT
 ```
 
 
-紧紧围绕形状的边缘，而不是围绕边界框。
+Wraps tightly around the edges of the shape, instead of wrapping around the bounding box.
 
 ### TOP_BOTTOM {#TOP-BOTTOM}
 ```
@@ -88,7 +88,7 @@ public static int TOP_BOTTOM
 ```
 
 
-文本在形状顶部停止并在形状下方的行上重新开始。
+The text stops at the top of the shape and restarts on the line below the shape.
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String wrap类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String wrapTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String wrap类型Name)
+public static int fromName(String wrapTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| wrap类型Name | java.lang.String |  |
+| wrapTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int wrap类型) {#getName-int-}
-```
-public static String getName(int wrap类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int wrapType) {#getName-int-}
+```
+public static String getName(int wrapType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| wrap类型 | int |  |
+| wrapType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int wrap类型) {#toString-int-}
+### toString(int wrapType) {#toString-int-}
 ```
-public static String toString(int wrap类型)
+public static String toString(int wrapType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| wrap类型 | int |  |
+| wrapType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

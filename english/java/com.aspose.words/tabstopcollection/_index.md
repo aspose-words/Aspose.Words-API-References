@@ -1,51 +1,51 @@
 ---
 title: TabStopCollection
 second_title: Aspose.Words for Java API Reference
-description: 代表段落或样式的自定义选项卡的对象集合。
+description: A collection of  objects that represent custom tabs for a paragraph or a style.
 type: docs
 weight: 547
-url: /zh/java/com.aspose.words/tabstopcollection/
+url: /java/com.aspose.words/tabstopcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.InternableComplexAttr](../../com.aspose.words/internablecomplexattr)
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class TabStopCollection extends InternableComplexAttr implements Cloneable
 ```
 
-一个集合[TabStop](../../com.aspose.words/tabstop)代表段落或样式的自定义选项卡的对象。
+A collection of [TabStop](../../com.aspose.words/tabstop) objects that represent custom tabs for a paragraph or a style.
 
-要了解更多信息，请访问**Aspose.Words Document Object Model (DOM)**文档文章。
+To learn more, visit the **Aspose.Words Document Object Model (DOM)** documentation article.
 
-在 Microsoft Word 文档中，可以在段落样式的属性中或直接在段落的属性中定义制表位。一种风格可以基于另一种风格。因此，给定对象的完整制表位集是直接在该对象上定义的制表位和从父样式继承的制表位的组合。
+In Microsoft Word documents, a tab stop can be defined in the properties of a paragraph style or directly in the properties of a paragraph. A style can be based on another style. Therefore, the complete set of tab stops for a given object is a combination of tab stops defined directly on this object and tab stops inherited from the parent styles.
 
-在 Aspose.Words 中，当您获得**TabStops**段落或样式的集合，它仅包含直接为此段落或样式定义的自定义制表位。该集合不包括在父样式中定义的制表位或默认制表位。
-## 方法s
+In Aspose.Words, when you obtain a **TabStops** collection for a paragraph or a style, it contains only the custom tab stops defined directly for this paragraph or style. The collection does not include tab stops defined in the parent styles or default tab stops.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(TabStop tabStop)](#add-com.aspose.words.TabStop-) | 添加或替换集合中的制表位。 |
+| [add(TabStop tabStop)](#add-com.aspose.words.TabStop-) | Adds or replaces a tab stop in the collection. |
 | [add(double position, int alignment, int leader)](#add-double-int-int-) |  |
-| [after(double position)](#after-double-) | 获取指定位置右侧的第一个制表位。 |
-| [before(double position)](#before-double-) | 获取指定位置左侧的第一个制表位。 |
-| [clear()](#clear--) | 删除所有制表位位置。 |
-| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection-) | 确定指定的 TabStopCollection 的值是否与当前的 TabStopCollection 相等。 |
-| [equals(Object obj)](#equals-java.lang.Object-) | 确定指定对象的值是否与当前对象相等。 |
-| [get(double position)](#get-double-) | 获取指定位置的制表位。 |
-| [get(int index)](#get-int-) | 从集合中检索制表位。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中的制表位数。 |
-| [getIndexByPosition(double position)](#getIndexByPosition-double-) | 获取具有指定位置的制表位的索引（以磅为单位）。 |
-| [getPositionByIndex(int index)](#getPositionByIndex-int-) | 获取指定索引处制表位的位置（以磅为单位）。 |
+| [after(double position)](#after-double-) | Gets a first tab stop to the right of the specified position. |
+| [before(double position)](#before-double-) | Gets a first tab stop to the left of the specified position. |
+| [clear()](#clear--) | Deletes all tab stop positions. |
+| [equals(TabStopCollection rhs)](#equals-com.aspose.words.TabStopCollection-) | Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection. |
+| [equals(Object obj)](#equals-java.lang.Object-) | Determines whether the specified object is equal in value to the current object. |
+| [get(double position)](#get-double-) | Gets a tab stop at the specified position. |
+| [get(int index)](#get-int-) | Retrieves a tab stop from the collection. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of tab stops in the collection. |
+| [getIndexByPosition(double position)](#getIndexByPosition-double-) | Gets the index of a tab stop with the specified position in points. |
+| [getPositionByIndex(int index)](#getPositionByIndex-int-) | Gets the position (in points) of the tab stop at the specified index. |
 | [hashCode()](#hashCode--) |  |
 | [isInheritedComplexAttr()](#isInheritedComplexAttr--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeByIndex(int index)](#removeByIndex-int-) | 从集合中删除指定索引处的制表位。 |
-| [removeByPosition(double position)](#removeByPosition-double-) | 从集合中删除指定位置的制表位。 |
+| [removeByIndex(int index)](#removeByIndex-int-) | Removes a tab stop at the specified index from the collection. |
+| [removeByPosition(double position)](#removeByPosition-double-) | Removes a tab stop at the specified position from the collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -56,14 +56,14 @@ public void add(TabStop tabStop)
 ```
 
 
-添加或替换集合中的制表位。
+Adds or replaces a tab stop in the collection.
 
-如果指定位置已存在制表位，则将其替换。
+If a tab stop already exists at the specified position, it is replaced.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| tabStop | [TabStop](../../com.aspose.words/tabstop) | 要添加的制表位对象。 |
+| tabStop | [TabStop](../../com.aspose.words/tabstop) | A tab stop object to add. |
 
 ### add(double position, int alignment, int leader) {#add-double-int-int-}
 ```
@@ -73,8 +73,8 @@ public void add(double position, int alignment, int leader)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | position | double |  |
 | alignment | int |  |
@@ -86,41 +86,41 @@ public TabStop after(double position)
 ```
 
 
-获取指定位置右侧的第一个制表位。
+Gets a first tab stop to the right of the specified position.
 
-跳过制表位**Alignment**设置为 TabAlignment.Bar 。
+Skips tab stops with **Alignment** set to  TabAlignment.Bar .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| position | double | 参考位置（以点为单位）。 |
+| position | double | The reference position (in points). |
 
-**退货:**
-[TabStop](../../com.aspose.words/tabstop) - 如果未找到合适的制表位，则为制表位对象或 null。
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - A tab stop object or null if a suitable tab stop was not found.
 ### before(double position) {#before-double-}
 ```
 public TabStop before(double position)
 ```
 
 
-获取指定位置左侧的第一个制表位。
+Gets a first tab stop to the left of the specified position.
 
-跳过制表位**Alignment**设置为 TabAlignment.Bar 。
+Skips tab stops with **Alignment** set to  TabAlignment.Bar .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| position | double | 参考位置（以点为单位）。 |
+| position | double | The reference position (in points). |
 
-**退货:**
-[TabStop](../../com.aspose.words/tabstop) - 如果未找到合适的制表位，则为制表位对象或 null。
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - A tab stop object or null if a suitable tab stop was not found.
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-删除所有制表位位置。
+Deletes all tab stop positions.
 
 ### equals(TabStopCollection rhs) {#equals-com.aspose.words.TabStopCollection-}
 ```
@@ -128,110 +128,110 @@ public boolean equals(TabStopCollection rhs)
 ```
 
 
-确定指定的 TabStopCollection 的值是否与当前的 TabStopCollection 相等。
+Determines whether the specified TabStopCollection is equal in value to the current TabStopCollection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | rhs | [TabStopCollection](../../com.aspose.words/tabstopcollection) |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### equals(Object obj) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object obj)
 ```
 
 
-确定指定对象的值是否与当前对象相等。
+Determines whether the specified object is equal in value to the current object.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(double position) {#get-double-}
 ```
 public TabStop get(double position)
 ```
 
 
-获取指定位置的制表位。如果在指定位置没有找到制表位，则返回 null。
+Gets a tab stop at the specified position. Returns null if no tab stop is found at the specified position.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| position | double | 制表位的位置（以磅为单位）。 |
+| position | double | The position (in points) of the tab stop. |
 
-**退货:**
-[TabStop](../../com.aspose.words/tabstop) - 指定位置的制表位。
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - A tab stop at the specified position.
 ### get(int index) {#get-int-}
 ```
 public TabStop get(int index)
 ```
 
 
-从集合中检索制表位。获取给定索引处的制表位。
+Retrieves a tab stop from the collection.  Gets a tab stop at the given index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 制表位集合的索引。 |
+| index | int | An index into the collection of tab stops. |
 
-**退货:**
-[TabStop](../../com.aspose.words/tabstop) - 相应的[TabStop](../../com.aspose.words/tabstop)价值。
-### get班级() {#get班级--}
+**Returns:**
+[TabStop](../../com.aspose.words/tabstop) - The corresponding [TabStop](../../com.aspose.words/tabstop) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中的制表位数。
+Gets the number of tab stops in the collection.
 
-**退货:**
-int - 集合中的制表位数。
+**Returns:**
+int - The number of tab stops in the collection.
 ### getIndexByPosition(double position) {#getIndexByPosition-double-}
 ```
 public int getIndexByPosition(double position)
 ```
 
 
-获取具有指定位置的制表位的索引（以磅为单位）。
+Gets the index of a tab stop with the specified position in points.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | position | double |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### getPositionByIndex(int index) {#getPositionByIndex-int-}
 ```
 public double getPositionByIndex(int index)
 ```
 
 
-获取指定索引处制表位的位置（以磅为单位）。
+Gets the position (in points) of the tab stop at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 制表位集合的索引。 |
+| index | int | An index into the collection of tab stops. |
 
-**退货:**
-double - 制表位的位置。
+**Returns:**
+double - The position of the tab stop.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -240,8 +240,8 @@ public int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isInheritedComplexAttr() {#isInheritedComplexAttr--}
 ```
 public boolean isInheritedComplexAttr()
@@ -250,8 +250,8 @@ public boolean isInheritedComplexAttr()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -274,12 +274,12 @@ public void removeByIndex(int index)
 ```
 
 
-从集合中删除指定索引处的制表位。
+Removes a tab stop at the specified index from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 制表位集合的索引。 |
+| index | int | An index into the collection of tab stops. |
 
 ### removeByPosition(double position) {#removeByPosition-double-}
 ```
@@ -287,12 +287,12 @@ public void removeByPosition(double position)
 ```
 
 
-从集合中删除指定位置的制表位。
+Removes a tab stop at the specified position from the collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| position | double | 要删除的制表位的位置（以磅为单位）。 |
+| position | double | The position (in points) of the tab stop to remove. |
 
 ### toString() {#toString--}
 ```
@@ -302,7 +302,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -320,8 +320,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -333,8 +333,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

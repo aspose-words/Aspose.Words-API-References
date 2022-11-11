@@ -1,39 +1,39 @@
 ---
 title: Hyphenation
-second_title: Aspose.Words for Java API 参考
-description: 提供使用连字字典的方法。
+second_title: Aspose.Words for Java API Reference
+description: Provides methods for working with hyphenation dictionaries.
 type: docs
 weight: 333
-url: /zh/java/com.aspose.words/hyphenation/
+url: /java/com.aspose.words/hyphenation/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Hyphenation
 ```
 
-提供使用连字字典的方法。这些字典规定了特定语言的单词可以在何处连字。
+Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated.
 
-要了解更多信息，请访问**Working with Hyphenation**文档文章。
-## 方法s
+To learn more, visit the **Working with Hyphenation** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getCallback()](#getCallback--) | 获取构建文档页面布局时用于请求字典的回调接口。 |
-| [get班级()](#get班级--) |  |
-| [getWarningCallback()](#getWarningCallback--) | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。 |
+| [getCallback()](#getCallback--) | Gets callback interface used to request dictionaries when page layout of the document is built. |
+| [getClass()](#getClass--) |  |
+| [getWarningCallback()](#getWarningCallback--) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 | [hashCode()](#hashCode--) |  |
-| [isDictionaryRegistered(String language)](#isDictionaryRegistered-java.lang.String-) | 如果指定的语言没有注册字典或注册为 Null 字典，则返回 False，否则返回 True。 |
+| [isDictionaryRegistered(String language)](#isDictionaryRegistered-java.lang.String-) | Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [registerDictionary(String language, InputStream stream)](#registerDictionary-java.lang.String-java.io.InputStream-) |  |
-| [registerDictionary(String language, String fileName)](#registerDictionary-java.lang.String-java.lang.String-) | 从文件中注册并加载指定语言的断字字典。 |
-| [setCallback(IHyphenationCallback value)](#setCallback-com.aspose.words.IHyphenationCallback-) | 设置构建文档页面布局时用于请求字典的回调接口。 |
-| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | 在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。 |
+| [registerDictionary(String language, String fileName)](#registerDictionary-java.lang.String-java.lang.String-) | Registers and loads a hyphenation dictionary for the specified language from file. |
+| [setCallback(IHyphenationCallback value)](#setCallback-com.aspose.words.IHyphenationCallback-) | Sets callback interface used to request dictionaries when page layout of the document is built. |
+| [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback-) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 | [toString()](#toString--) |  |
-| [unregisterDictionary(String language)](#unregisterDictionary-java.lang.String-) | 取消注册指定语言的断字字典。 |
+| [unregisterDictionary(String language)](#unregisterDictionary-java.lang.String-) | Unregisters a hyphenation dictionary for the specified language. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,43 +45,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getCallback() {#getCallback--}
 ```
 public static IHyphenationCallback getCallback()
 ```
 
 
-获取构建文档页面布局时用于请求字典的回调接口。这允许延迟加载字典，这在处理多种语言的文档时可能很有用。
+Gets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages.
 
-**退货:**
-[IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) - 构建文档页面布局时用于请求字典的回调接口。
-### get班级() {#get班级--}
+**Returns:**
+[IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) - Callback interface used to request dictionaries when page layout of the document is built.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getWarningCallback() {#getWarningCallback--}
 ```
 public static IWarningCallback getWarningCallback()
 ```
 
 
-在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。
+Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 
-**退货:**
-[IWarningCallback](../../com.aspose.words/iwarningcallback) - 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。
+**Returns:**
+[IWarningCallback](../../com.aspose.words/iwarningcallback) - The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -90,23 +90,23 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isDictionaryRegistered(String language) {#isDictionaryRegistered-java.lang.String-}
 ```
 public static boolean isDictionaryRegistered(String language)
 ```
 
 
-如果指定的语言没有注册字典或注册为 Null 字典，则返回 False，否则返回 True。
+Returns False if for the specified language there is no dictionary registered or if registered is Null dictionary, True otherwise.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | language | java.lang.String |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -131,8 +131,8 @@ public static void registerDictionary(String language, InputStream stream)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | language | java.lang.String |  |
 | stream | java.io.InputStream |  |
@@ -143,19 +143,19 @@ public static void registerDictionary(String language, String fileName)
 ```
 
 
-从文件中注册并加载指定语言的断字字典。如果字典无法读取或格式无效，则抛出。
+Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format.
 
-该方法也可用于注册 Null 字典以防止[getCallback()](../../com.aspose.words/hyphenation\#getCallback--) / [setCallback(com.aspose.words.IHyphenationCallback)](../../com.aspose.words/hyphenation\#setCallback-com.aspose.words.IHyphenationCallback-)免于因同一种语言而被反复调用。
+This method can also be used to register Null dictionary to prevent [getCallback()](../../com.aspose.words/hyphenation\#getCallback--) / [setCallback(com.aspose.words.IHyphenationCallback)](../../com.aspose.words/hyphenation\#setCallback-com.aspose.words.IHyphenationCallback-) from being called repeatedly for the same language.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| language | java.lang.String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档以了解“文化名称”和 RFC 4646。 |
-| fileName | java.lang.String | Open Office 格式的字典文件的路径。
+| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details. |
+| fileName | java.lang.String | A path to the dictionary file in Open Office format.
 
-如果此参数为 null 或空字符串，则注册为 Null 字典，并且不再为此语言调用回调。
+If this parameter is null or empty string then registered is Null dictionary and callback is not called anymore for this language.
 
-要再次启用回调，请使用[unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation\#unregisterDictionary-java.lang.String-)方法。|
+To enable callback again use [unregisterDictionary(java.lang.String)](../../com.aspose.words/hyphenation\#unregisterDictionary-java.lang.String-) method. |
 
 ### setCallback(IHyphenationCallback value) {#setCallback-com.aspose.words.IHyphenationCallback-}
 ```
@@ -163,12 +163,12 @@ public static void setCallback(IHyphenationCallback value)
 ```
 
 
-设置构建文档页面布局时用于请求字典的回调接口。这允许延迟加载字典，这在处理多种语言的文档时可能很有用。
+Sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) | 构建文档页面布局时用于请求字典的回调接口。 |
+| value | [IHyphenationCallback](../../com.aspose.words/ihyphenationcallback) | Callback interface used to request dictionaries when page layout of the document is built. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback-}
 ```
@@ -176,12 +176,12 @@ public static void setWarningCallback(IWarningCallback value)
 ```
 
 
-在加载断字模式期间调用，当检测到可能导致格式保真度丢失的问题时。
+Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | 相应的[IWarningCallback](../../com.aspose.words/iwarningcallback)价值。 |
+| value | [IWarningCallback](../../com.aspose.words/iwarningcallback) | The corresponding [IWarningCallback](../../com.aspose.words/iwarningcallback) value. |
 
 ### toString() {#toString--}
 ```
@@ -191,7 +191,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unregisterDictionary(String language) {#unregisterDictionary-java.lang.String-}
 ```
@@ -199,16 +199,16 @@ public static void unregisterDictionary(String language)
 ```
 
 
-取消注册指定语言的断字字典。
+Unregisters a hyphenation dictionary for the specified language.
 
-这与注册 Null 字典不同。取消注册字典会启用指定语言的回调。
+This is different from registering Null dictionary. Unregistering a dictionary enables callback for the specified language.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| language | java.lang.String | 语言名称，例如“en-US”。有关详细信息，请参阅 .NET 文档以了解“文化名称”和 RFC 4646。
+| language | java.lang.String | A language name, e.g. "en-US". See .NET documentation for "culture name" and RFC 4646 for details.
 
-如果为 null 或空字符串，则所有字典都未注册。|
+If null or empty string then all dictionaries are unregistered. |
 
 ### wait() {#wait--}
 ```
@@ -226,8 +226,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -239,8 +239,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

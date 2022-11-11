@@ -1,33 +1,33 @@
 ---
 title: TextBoxWrapMode
 second_title: Aspose.Words for Java API Reference
-description: 指定文本在形状内的换行方式。
+description: Specifies how text wraps inside a shape.
 type: docs
 weight: 560
-url: /zh/java/com.aspose.words/textboxwrapmode/
+url: /java/com.aspose.words/textboxwrapmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TextBoxWrapMode
 ```
 
-指定文本在形状内的换行方式。
-## 字段
+Specifies how text wraps inside a shape.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [NONE](#NONE) | 文本不会在形状内换行。 |
-| [SQUARE](#SQUARE) | 文本在形状内换行。 |
+| [NONE](#NONE) | Text does not wrap inside a shape. |
+| [SQUARE](#SQUARE) | Text wraps inside a shape. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String textBoxWrapModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int textBoxWrapMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int NONE
 ```
 
 
-文本不会在形状内换行。
+Text does not wrap inside a shape.
 
 ### SQUARE {#SQUARE}
 ```
@@ -52,7 +52,7 @@ public static int SQUARE
 ```
 
 
-文本在形状内换行。
+Text wraps inside a shape.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String textBoxWrapModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String textBoxWrapModeName)
@@ -83,23 +83,23 @@ public static int fromName(String textBoxWrapModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxWrapModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int textBoxWrapMode) {#getName-int-}
 ```
 public static String getName(int textBoxWrapMode)
@@ -108,12 +108,12 @@ public static String getName(int textBoxWrapMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxWrapMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int textBoxWrapMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int textBoxWrapMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | textBoxWrapMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

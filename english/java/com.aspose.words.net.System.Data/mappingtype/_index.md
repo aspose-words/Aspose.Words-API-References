@@ -1,33 +1,33 @@
 ---
-title: Mapping类型
+title: MappingType
 second_title: Aspose.Words for Java API Reference
-description: 指定如何映射 a。
+description: Specifies how a  is mapped.
 type: docs
 weight: 31
-url: /zh/java/com.aspose.words.net.system.data/mappingtype/
+url: /java/com.aspose.words.net.system.data/mappingtype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Mapping类型
+public class MappingType
 ```
 
-指定如何[DataColumn](../../com.aspose.words.net.system.data/datacolumn)被映射。
-## 字段
+Specifies how a [DataColumn](../../com.aspose.words.net.system.data/datacolumn) is mapped.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ATTRIBUTE](#ATTRIBUTE) | 该列映射到 XML 属性。 |
-| [ELEMENT](#ELEMENT) | 该列被映射到一个 XML 元素。 |
-| [HIDDEN](#HIDDEN) | 该列映射到内部结构。 |
-| [SIMPLE_CONTENT](#SIMPLE-CONTENT) | 该列映射到一个文本节点。 |
-## 方法s
+| [ATTRIBUTE](#ATTRIBUTE) | The column is mapped to an XML attribute. |
+| [ELEMENT](#ELEMENT) | The column is mapped to an XML element. |
+| [HIDDEN](#HIDDEN) | The column is mapped to an internal structure. |
+| [SIMPLE_CONTENT](#SIMPLE-CONTENT) | The column is mapped to a text node. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -41,7 +41,7 @@ public static int ATTRIBUTE
 ```
 
 
-该列映射到 XML 属性。
+The column is mapped to an XML attribute.
 
 ### ELEMENT {#ELEMENT}
 ```
@@ -49,7 +49,7 @@ public static int ELEMENT
 ```
 
 
-该列被映射到一个 XML 元素。
+The column is mapped to an XML element.
 
 ### HIDDEN {#HIDDEN}
 ```
@@ -57,7 +57,7 @@ public static int HIDDEN
 ```
 
 
-该列映射到内部结构。
+The column is mapped to an internal structure.
 
 ### SIMPLE_CONTENT {#SIMPLE-CONTENT}
 ```
@@ -65,7 +65,7 @@ public static int SIMPLE_CONTENT
 ```
 
 
-该列映射到一个文本节点。
+The column is mapped to a text node.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -75,23 +75,23 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -100,8 +100,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -126,7 +126,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -144,8 +144,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -157,8 +157,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

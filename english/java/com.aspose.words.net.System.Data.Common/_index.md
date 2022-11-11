@@ -1,18 +1,18 @@
 ---
 title: com.aspose.words.net.System.Data.Common
-second_title: Aspose.Words for Java API 参考
-description: 提供模仿 Java 中 System.Data.Common 命名空间的 .NET 类型的类型。
+second_title: Aspose.Words for Java API Reference
+description: Provides types mimicking .NET types of the System.Data.Common namespace in Java.
 type: docs
 weight: 13
-url: /zh/java/com.aspose.words.net.system.data.common/
+url: /java/com.aspose.words.net.system.data.common/
 ---
 
 
-提供模仿 .NET 类型的类型`System.Data.Common`Java 中的命名空间。
+Provides types mimicking .NET types of the `System.Data.Common` namespace in Java.
 
 
-## 班级es
+## Classes
 
-| 班级 | 描述 |
+| Class | Description |
 | --- | --- |
-| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader) | 从数据源读取只进的行流。 |
+| [DbDataReader](../com.aspose.words.net.system.data.common/dbdatareader) | Reads a forward-only stream of rows from a data source. |

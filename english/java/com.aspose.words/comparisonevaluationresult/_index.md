@@ -1,35 +1,35 @@
 ---
 title: ComparisonEvaluationResult
-second_title: Aspose.Words for Java API 参考
-description: 比较评价结果。
+second_title: Aspose.Words for Java API Reference
+description: The comparison evaluation result.
 type: docs
 weight: 82
-url: /zh/java/com.aspose.words/comparisonevaluationresult/
+url: /java/com.aspose.words/comparisonevaluationresult/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ComparisonEvaluationResult
 ```
 
-比较评价结果。
+The comparison evaluation result.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 构造函数s
+To learn more, visit the **Working with Fields** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [ComparisonEvaluationResult(boolean result)](#ComparisonEvaluationResult-boolean-) | 创建比较评估结果。 |
-| [ComparisonEvaluationResult(String errorMessage)](#ComparisonEvaluationResult-java.lang.String-) | 使用相应的错误消息创建失败的比较评估结果。 |
-## 方法s
+| [ComparisonEvaluationResult(boolean result)](#ComparisonEvaluationResult-boolean-) | Creates a comparison evaluation result. |
+| [ComparisonEvaluationResult(String errorMessage)](#ComparisonEvaluationResult-java.lang.String-) | Creates a failed comparison evaluation result with the corresponding error message. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getErrorMessage()](#getErrorMessage--) | 获取失败的比较评估结果的错误信息。 |
-| [getResult()](#getResult--) | 获取比较评估结果。 |
+| [getClass()](#getClass--) |  |
+| [getErrorMessage()](#getErrorMessage--) | Gets the failed comparison evaluation result's error message. |
+| [getResult()](#getResult--) | Gets the comparison evaluation result. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -43,10 +43,10 @@ public ComparisonEvaluationResult(boolean result)
 ```
 
 
-创建比较评估结果。
+Creates a comparison evaluation result.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | result | boolean |  |
 
@@ -56,10 +56,10 @@ public ComparisonEvaluationResult(String errorMessage)
 ```
 
 
-使用相应的错误消息创建失败的比较评估结果。
+Creates a failed comparison evaluation result with the corresponding error message.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | errorMessage | java.lang.String |  |
 
@@ -71,43 +71,43 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getErrorMessage() {#getErrorMessage--}
 ```
 public String getErrorMessage()
 ```
 
 
-获取失败的比较评估结果的错误信息。
+Gets the failed comparison evaluation result's error message.
 
-**退货:**
-java.lang.String - 比较评估结果失败的错误信息。
+**Returns:**
+java.lang.String - The failed comparison evaluation result's error message.
 ### getResult() {#getResult--}
 ```
 public boolean getResult()
 ```
 
 
-获取比较评估结果。
+Gets the comparison evaluation result.
 
-**退货:**
-boolean - 比较评估结果。
+**Returns:**
+boolean - The comparison evaluation result.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -116,8 +116,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -142,7 +142,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -160,8 +160,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -173,8 +173,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,37 +1,37 @@
 ---
 title: HtmlOfficeMathOutputMode
-second_title: Aspose.Words for Java API 参考
-description: 指定 Aspose.Words 如何将 OfficeMath 导出为 HTML MHTML 和 EPUB。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how Aspose.Words exports OfficeMath to HTML MHTML and EPUB.
 type: docs
 weight: 330
-url: /zh/java/com.aspose.words/htmlofficemathoutputmode/
+url: /java/com.aspose.words/htmlofficemathoutputmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class HtmlOfficeMathOutputMode
 ```
 
-指定 Aspose.Words 如何将 OfficeMath 导出为 HTML、MHTML 和 EPUB。
-## 字段
+Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [IMAGE](#IMAGE) |  OfficeMath 被转换为 HTML 作为指定的图像![Image 1][]标签。
+| [IMAGE](#IMAGE) | OfficeMath is converted to HTML as image specified by ![Image 1][] tag.
 
 
 [Image 1]:  |
 | [MATH_ML](#MATH-ML) | OfficeMath is converted to HTML using MathML. |
 | [TEXT](#TEXT) | OfficeMath is converted to HTML as sequence of runs specified by  tags. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String htmlOfficeMathOutputModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int htmlOfficeMathOutputMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,10 +48,10 @@ public static int IMAGE
 ```
 
 
- OfficeMath 被转换为 HTML 作为指定的图像![Image 1][]标签。
+OfficeMath is converted to HTML as image specified by ![Image 1][] tag.
 
 
-[Image 1]： 
+[Image 1]: 
 
 ### MATH_ML {#MATH-ML}
 ```
@@ -59,7 +59,7 @@ public static int MATH_ML
 ```
 
 
-OfficeMath 使用 MathML 转换为 HTML。
+OfficeMath is converted to HTML using MathML.
 
 ### TEXT {#TEXT}
 ```
@@ -67,7 +67,7 @@ public static int TEXT
 ```
 
 
-OfficeMath 作为标签指定的运行序列转换为 HTML。
+OfficeMath is converted to HTML as sequence of runs specified by  tags.
 
 ### length {#length}
 ```
@@ -83,13 +83,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String htmlOfficeMathOutputModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String htmlOfficeMathOutputModeName)
@@ -98,23 +98,23 @@ public static int fromName(String htmlOfficeMathOutputModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlOfficeMathOutputModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int htmlOfficeMathOutputMode) {#getName-int-}
 ```
 public static String getName(int htmlOfficeMathOutputMode)
@@ -123,12 +123,12 @@ public static String getName(int htmlOfficeMathOutputMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlOfficeMathOutputMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -138,8 +138,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -148,8 +148,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -174,7 +174,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int htmlOfficeMathOutputMode) {#toString-int-}
 ```
@@ -184,12 +184,12 @@ public static String toString(int htmlOfficeMathOutputMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | htmlOfficeMathOutputMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -207,8 +207,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -220,8 +220,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

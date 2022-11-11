@@ -1,35 +1,35 @@
 ---
-title: 字段Format
-second_title: Aspose.Words for Java API 参考
-description: 提供对字段数字日期和时间以及一般格式的键入访问。
+title: FieldFormat
+second_title: Aspose.Words for Java API Reference
+description: Provides typed access to fields numeric date and time and general formatting.
 type: docs
 weight: 194
-url: /zh/java/com.aspose.words/fieldformat/
+url: /java/com.aspose.words/fieldformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class 字段Format
+public class FieldFormat
 ```
 
-提供对字段的数字、日期和时间以及一般格式的键入访问。
+Provides typed access to field's numeric, date and time, and general formatting.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+To learn more, visit the **Working with Fields** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDateTimeFormat()](#getDateTimeFormat--) | 获取应用于日期和时间字段结果的格式。 |
-| [getGeneralFormats()](#getGeneralFormats--) | 获取应用于数字、文本或任何字段结果的通用格式的集合。 |
-| [getNumericFormat()](#getNumericFormat--) | 获取应用于数值字段结果的格式。 |
+| [getClass()](#getClass--) |  |
+| [getDateTimeFormat()](#getDateTimeFormat--) | Gets a formatting that is applied to a date and time field result. |
+| [getGeneralFormats()](#getGeneralFormats--) | Gets a collection of general formats that are applied to a numeric, text or any field result. |
+| [getNumericFormat()](#getNumericFormat--) | Gets a formatting that is applied to a numeric field result. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setDateTimeFormat(String value)](#setDateTimeFormat-java.lang.String-) | 设置应用于日期和时间字段结果的格式。 |
-| [setNumericFormat(String value)](#setNumericFormat-java.lang.String-) | 设置应用于数值字段结果的格式。 |
+| [setDateTimeFormat(String value)](#setDateTimeFormat-java.lang.String-) | Sets a formatting that is applied to a date and time field result. |
+| [setNumericFormat(String value)](#setNumericFormat-java.lang.String-) | Sets a formatting that is applied to a numeric field result. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -42,53 +42,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDateTimeFormat() {#getDateTimeFormat--}
 ```
 public String getDateTimeFormat()
 ```
 
 
-获取应用于日期和时间字段结果的格式。对应于\\@ 转变。
+Gets a formatting that is applied to a date and time field result. Corresponds to the \\@ switch.
 
-**退货:**
-java.lang.String - 应用于日期和时间字段结果的格式。
+**Returns:**
+java.lang.String - A formatting that is applied to a date and time field result.
 ### getGeneralFormats() {#getGeneralFormats--}
 ```
 public GeneralFormatCollection getGeneralFormats()
 ```
 
 
-获取应用于数字、文本或任何字段结果的通用格式的集合。对应于\\\* 开关。
+Gets a collection of general formats that are applied to a numeric, text or any field result. Corresponds to the \\\* switches.
 
-**退货:**
-[GeneralFormatCollection](../../com.aspose.words/generalformatcollection) - 应用于数字、文本或任何字段结果的通用格式的集合。
+**Returns:**
+[GeneralFormatCollection](../../com.aspose.words/generalformatcollection) - A collection of general formats that are applied to a numeric, text or any field result.
 ### getNumericFormat() {#getNumericFormat--}
 ```
 public String getNumericFormat()
 ```
 
 
-获取应用于数值字段结果的格式。对应于\\\＃ 转变。
+Gets a formatting that is applied to a numeric field result. Corresponds to the \\\# switch.
 
-**退货:**
-java.lang.String - 应用于数值字段结果的格式。
+**Returns:**
+java.lang.String - A formatting that is applied to a numeric field result.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -97,8 +97,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -121,12 +121,12 @@ public void setDateTimeFormat(String value)
 ```
 
 
-设置应用于日期和时间字段结果的格式。对应于\\@ 转变。
+Sets a formatting that is applied to a date and time field result. Corresponds to the \\@ switch.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 应用于日期和时间字段结果的格式。 |
+| value | java.lang.String | A formatting that is applied to a date and time field result. |
 
 ### setNumericFormat(String value) {#setNumericFormat-java.lang.String-}
 ```
@@ -134,12 +134,12 @@ public void setNumericFormat(String value)
 ```
 
 
-设置应用于数值字段结果的格式。对应于\\\＃ 转变。
+Sets a formatting that is applied to a numeric field result. Corresponds to the \\\# switch.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 应用于数值字段结果的格式。 |
+| value | java.lang.String | A formatting that is applied to a numeric field result. |
 
 ### toString() {#toString--}
 ```
@@ -149,7 +149,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -167,8 +167,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -180,8 +180,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

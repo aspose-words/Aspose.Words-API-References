@@ -1,41 +1,41 @@
 ---
-title: PreferredWidth类型
-second_title: Aspose.Words for Java API 参考
-description: 指定表格或单元格的首选宽度的测量单位。
+title: PreferredWidthType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the unit of measurement for the preferred width of a table or cell.
 type: docs
 weight: 467
-url: /zh/java/com.aspose.words/preferredwidthtype/
+url: /java/com.aspose.words/preferredwidthtype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class PreferredWidth类型
+public class PreferredWidthType
 ```
 
-指定表格或单元格的首选宽度的测量单位。
-## 字段
+Specifies the unit of measurement for the preferred width of a table or cell.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [AUTO](#AUTO) | 未指定首选宽度。 |
-| [PERCENT](#PERCENT) | 使用指定百分比测量当前项目宽度。 |
-| [POINTS](#POINTS) | 使用指定的点数（1/72 英寸）测量当前项目的宽度。 |
+| [AUTO](#AUTO) | The preferred width is not specified. |
+| [PERCENT](#PERCENT) | Measure the current item width using a specified percentage. |
+| [POINTS](#POINTS) | Measure the current item width using a specified number of points (1/72 inch). |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String preferredWidth类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int preferredWidth类型)](#getName-int-) |  |
+| [fromName(String preferredWidthTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int preferredWidthType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int preferredWidth类型)](#toString-int-) |  |
+| [toString(int preferredWidthType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,7 +45,7 @@ public static int AUTO
 ```
 
 
-未指定首选宽度。表格或单元格的实际宽度要么使用显式宽度指定，要么在显示表格时由表格布局算法自动确定，具体取决于表格自动调整设置。
+The preferred width is not specified. The actual width of the table or cell is either specified using the explicit width or will be determined automatically by the table layout algorithm when the table is displayed, depending on the table auto fit setting.
 
 ### PERCENT {#PERCENT}
 ```
@@ -53,7 +53,7 @@ public static int PERCENT
 ```
 
 
-使用指定百分比测量当前项目宽度。
+Measure the current item width using a specified percentage.
 
 ### POINTS {#POINTS}
 ```
@@ -61,7 +61,7 @@ public static int POINTS
 ```
 
 
-使用指定的点数（1/72 英寸）测量当前项目的宽度。
+Measure the current item width using a specified number of points (1/72 inch).
 
 ### length {#length}
 ```
@@ -77,52 +77,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String preferredWidth类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String preferredWidthTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String preferredWidth类型Name)
+public static int fromName(String preferredWidthTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| preferredWidth类型Name | java.lang.String |  |
+| preferredWidthTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int preferredWidth类型) {#getName-int-}
-```
-public static String getName(int preferredWidth类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int preferredWidthType) {#getName-int-}
+```
+public static String getName(int preferredWidthType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| preferredWidth类型 | int |  |
+| preferredWidthType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,22 +168,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int preferredWidth类型) {#toString-int-}
+### toString(int preferredWidthType) {#toString-int-}
 ```
-public static String toString(int preferredWidth类型)
+public static String toString(int preferredWidthType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| preferredWidth类型 | int |  |
+| preferredWidthType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

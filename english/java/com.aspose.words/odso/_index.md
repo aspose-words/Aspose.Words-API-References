@@ -1,56 +1,56 @@
 ---
 title: Odso
-second_title: Aspose.Words for Java API 参考
-description: 指定邮件合并数据源的 Office 数据源对象 ODSO 设置。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the Office Data Source Object ODSO settings for a mail merge data source.
 type: docs
 weight: 411
-url: /zh/java/com.aspose.words/odso/
+url: /java/com.aspose.words/odso/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class Odso implements Cloneable
 ```
 
-指定邮件合并数据源的 Office 数据源对象 (ODSO) 设置。
+Specifies the Office Data Source Object (ODSO) settings for a mail merge data source.
 
-要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
+To learn more, visit the **Mail Merge and Reporting** documentation article.
 
-ODSO 似乎是较新的 Microsoft Word 版本在为邮件合并文档指定某些类型的数据源时更喜欢使用的“新”方式。 ODSO 可能首先出现在 Microsoft Word 2000 中。
+ODSO seems to be the "new" way the newer Microsoft Word versions prefer to use when specifying certain types of data sources for a mail merge document. ODSO probably first appeared in Microsoft Word 2000.
 
-ODSO 的使用文档很少，学习如何使用此对象的属性的最佳方法是在 Microsoft Word 中手动创建具有所需数据源的文档，然后使用 Aspose.Words 打开该文档并检查该对象的属性[Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-)和[MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)对象。例如，如果您想学习如何以编程方式配置数据源，这是一个很好的方法。
+The use of ODSO is poorly documented and the best way to learn how to use the properties of this object is to create a document with a desired data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties of the [Document.getMailMergeSettings()](../../com.aspose.words/document\#getMailMergeSettings--) / [Document.setMailMergeSettings(com.aspose.words.MailMergeSettings)](../../com.aspose.words/document\#setMailMergeSettings-com.aspose.words.MailMergeSettings-) and [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-) objects. This is a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
-您通常不需要直接创建此类的对象，因为 ODSO 设置始终可以通过[MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-)财产。
-## 方法s
+You do not normally need to create objects of this class directly because ODSO settings are always available via the [MailMergeSettings.getOdso()](../../com.aspose.words/mailmergesettings\#getOdso--) / [MailMergeSettings.setOdso(com.aspose.words.Odso)](../../com.aspose.words/mailmergesettings\#setOdso-com.aspose.words.Odso-) property.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [deepClone()](#deepClone--) | 返回此对象的深层克隆。 |
+| [deepClone()](#deepClone--) | Returns a deep clone of this object. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getColumnDelimiter()](#getColumnDelimiter--) | 指定应解释为用于分隔外部数据源中的列的列分隔符的字符。 |
-| [getDataSource()](#getDataSource--) | 指定要连接到文档以执行邮件合并的外部数据源的位置。 |
-| [getDataSource类型()](#getDataSource类型--) | 指定要连接到的外部数据源的类型，作为此邮件合并的 ODSO 连接信息的一部分。 |
-| [get字段MapDatas()](#get字段MapDatas--) | 获取一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。 |
-| [getFirstRowContainsColumnNames()](#getFirstRowContainsColumnNames--) | 指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。 |
-| [getRecipientDatas()](#getRecipientDatas--) | 获取指定邮件合并中单个记录的包含/排除的对象集合。 |
-| [getTableName()](#getTableName--) | 指定源应连接到外部数据源中的特定数据集。 |
-| [getUdlConnectString()](#getUdlConnectString--) | 指定用于连接到外部数据源的通用数据链接 (UDL) 连接字符串。 |
+| [getClass()](#getClass--) |  |
+| [getColumnDelimiter()](#getColumnDelimiter--) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
+| [getDataSource()](#getDataSource--) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
+| [getDataSourceType()](#getDataSourceType--) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
+| [getFieldMapDatas()](#getFieldMapDatas--) | Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
+| [getFirstRowContainsColumnNames()](#getFirstRowContainsColumnNames--) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
+| [getRecipientDatas()](#getRecipientDatas--) | Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+| [getTableName()](#getTableName--) | Specifies the particular set of data that a source shall be connected to within an external data source. |
+| [getUdlConnectString()](#getUdlConnectString--) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setColumnDelimiter(char value)](#setColumnDelimiter-char-) | 指定应解释为用于分隔外部数据源中的列的列分隔符的字符。 |
-| [setDataSource(String value)](#setDataSource-java.lang.String-) | 指定要连接到文档以执行邮件合并的外部数据源的位置。 |
-| [setDataSource类型(int value)](#setDataSource类型-int-) | 指定要连接到的外部数据源的类型，作为此邮件合并的 ODSO 连接信息的一部分。 |
-| [set字段MapDatas(Odso字段MapDataCollection value)](#set字段MapDatas-com.aspose.words.Odso字段MapDataCollection-) | 设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。 |
-| [setFirstRowContainsColumnNames(boolean value)](#setFirstRowContainsColumnNames-boolean-) | 指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。 |
-| [setRecipientDatas(OdsoRecipientDataCollection value)](#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-) | 设置指定邮件合并中单个记录的包含/排除的对象集合。 |
-| [setTableName(String value)](#setTableName-java.lang.String-) | 指定源应连接到外部数据源中的特定数据集。 |
-| [setUdlConnectString(String value)](#setUdlConnectString-java.lang.String-) | 指定用于连接到外部数据源的通用数据链接 (UDL) 连接字符串。 |
+| [setColumnDelimiter(char value)](#setColumnDelimiter-char-) | Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. |
+| [setDataSource(String value)](#setDataSource-java.lang.String-) | Specifies the location of the external data source to be connected to a document to perform the mail merge. |
+| [setDataSourceType(int value)](#setDataSourceType-int-) | Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. |
+| [setFieldMapDatas(OdsoFieldMapDataCollection value)](#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection-) | Sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
+| [setFirstRowContainsColumnNames(boolean value)](#setFirstRowContainsColumnNames-boolean-) | Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. |
+| [setRecipientDatas(OdsoRecipientDataCollection value)](#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-) | Sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
+| [setTableName(String value)](#setTableName-java.lang.String-) | Specifies the particular set of data that a source shall be connected to within an external data source. |
+| [setUdlConnectString(String value)](#setUdlConnectString-java.lang.String-) | Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -61,9 +61,9 @@ public Odso deepClone()
 ```
 
 
-返回此对象的深层克隆。
+Returns a deep clone of this object.
 
-**退货:**
+**Returns:**
 [Odso](../../com.aspose.words/odso)
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -73,109 +73,109 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getColumnDelimiter() {#getColumnDelimiter--}
 ```
 public char getColumnDelimiter()
 ```
 
 
-指定应解释为用于分隔外部数据源中的列的列分隔符的字符。默认值为 0，这意味着没有定义列分隔符。
+Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
 
-RK 我从来没有见过这个在使用中。
+RK I have never seen this in use.
 
-**退货:**
-char - 对应的 char 值。
+**Returns:**
+char - The corresponding  char  value.
 ### getDataSource() {#getDataSource--}
 ```
 public String getDataSource()
 ```
 
 
-指定要连接到文档以执行邮件合并的外部数据源的位置。默认值为空字符串。
+Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getDataSource类型() {#getDataSource类型--}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getDataSourceType() {#getDataSourceType--}
 ```
-public int getDataSource类型()
-```
-
-
-指定要连接到的外部数据源的类型，作为此邮件合并的 ODSO 连接信息的一部分。默认值为[OdsoDataSource类型.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
-
-此设置纯粹是用于此邮件合并的数据源类型的建议。
-
-**退货:**
-int - 对应的 int 值。返回值是以下之一[OdsoDataSource类型](../../com.aspose.words/odsodatasourcetype)常数。
-### get字段MapDatas() {#get字段MapDatas--}
-```
-public Odso字段MapDataCollection get字段MapDatas()
+public int getDataSourceType()
 ```
 
 
-获取一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。该对象永远不会为空。
+Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
 
-**退货:**
-[Odso字段MapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) - 一组对象，它们指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。
+This setting is purely a suggestion of the data source type that is being used for this mail merge.
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants.
+### getFieldMapDatas() {#getFieldMapDatas--}
+```
+public OdsoFieldMapDataCollection getFieldMapDatas()
+```
+
+
+Gets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null.
+
+**Returns:**
+[OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) - A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document.
 ### getFirstRowContainsColumnNames() {#getFirstRowContainsColumnNames--}
 ```
 public boolean getFirstRowContainsColumnNames()
 ```
 
 
-指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。默认值为 false 。
+Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
 
-RK 我从来没有见过这个在使用中。
+RK I have never seen this in use.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getRecipientDatas() {#getRecipientDatas--}
 ```
 public OdsoRecipientDataCollection getRecipientDatas()
 ```
 
 
-获取指定邮件合并中单个记录的包含/排除的对象集合。该对象永远不会为空。
+Gets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
 
-**退货:**
-[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) - 指定在邮件合并中包含/排除单个记录的对象集合。
+**Returns:**
+[OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) - A collection of objects that specify inclusion/exclusion of individual records in the mail merge.
 ### getTableName() {#getTableName--}
 ```
 public String getTableName()
 ```
 
 
-指定源应连接到外部数据源中的特定数据集。默认值为空字符串。
+Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getUdlConnectString() {#getUdlConnectString--}
 ```
 public String getUdlConnectString()
 ```
 
 
-指定用于连接到外部数据源的通用数据链接 (UDL) 连接字符串。默认值为空字符串。
+Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -184,8 +184,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -208,14 +208,14 @@ public void setColumnDelimiter(char value)
 ```
 
 
-指定应解释为用于分隔外部数据源中的列的列分隔符的字符。默认值为 0，这意味着没有定义列分隔符。
+Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources. The default value is 0 which means there is no column delimiter defined.
 
-RK 我从来没有见过这个在使用中。
+RK I have never seen this in use.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | char | 对应的 char 值。 |
+| value | char | The corresponding  char  value. |
 
 ### setDataSource(String value) {#setDataSource-java.lang.String-}
 ```
@@ -223,40 +223,40 @@ public void setDataSource(String value)
 ```
 
 
-指定要连接到文档以执行邮件合并的外部数据源的位置。默认值为空字符串。
+Specifies the location of the external data source to be connected to a document to perform the mail merge. The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
-### setDataSource类型(int value) {#setDataSource类型-int-}
+### setDataSourceType(int value) {#setDataSourceType-int-}
 ```
-public void setDataSource类型(int value)
+public void setDataSourceType(int value)
 ```
 
 
-指定要连接到的外部数据源的类型，作为此邮件合并的 ODSO 连接信息的一部分。默认值为[OdsoDataSource类型.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
+Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge. The default value is [OdsoDataSourceType.DEFAULT](../../com.aspose.words/odsodatasourcetype\#DEFAULT).
 
-此设置纯粹是用于此邮件合并的数据源类型的建议。
+This setting is purely a suggestion of the data source type that is being used for this mail merge.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[OdsoDataSource类型](../../com.aspose.words/odsodatasourcetype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [OdsoDataSourceType](../../com.aspose.words/odsodatasourcetype) constants. |
 
-### set字段MapDatas(Odso字段MapDataCollection value) {#set字段MapDatas-com.aspose.words.Odso字段MapDataCollection-}
+### setFieldMapDatas(OdsoFieldMapDataCollection value) {#setFieldMapDatas-com.aspose.words.OdsoFieldMapDataCollection-}
 ```
-public void set字段MapDatas(Odso字段MapDataCollection value)
+public void setFieldMapDatas(OdsoFieldMapDataCollection value)
 ```
 
 
-设置一组对象，这些对象指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。该对象永远不会为空。
+Sets a collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. This object is never null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Odso字段MapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) | 一组对象，它们指定来自外部数据源的列如何映射到文档中预定义的合并字段名称。 |
+| value | [OdsoFieldMapDataCollection](../../com.aspose.words/odsofieldmapdatacollection) | A collection of objects that specify how columns from the external data source are mapped to the predefined merge field names in the document. |
 
 ### setFirstRowContainsColumnNames(boolean value) {#setFirstRowContainsColumnNames-boolean-}
 ```
@@ -264,14 +264,14 @@ public void setFirstRowContainsColumnNames(boolean value)
 ```
 
 
-指定托管应用程序应将指定外部数据源中的第一行数据视为包含数据源中每一列名称的标题行。默认值为 false 。
+Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source. The default value is  false .
 
-RK 我从来没有见过这个在使用中。
+RK I have never seen this in use.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setRecipientDatas(OdsoRecipientDataCollection value) {#setRecipientDatas-com.aspose.words.OdsoRecipientDataCollection-}
 ```
@@ -279,12 +279,12 @@ public void setRecipientDatas(OdsoRecipientDataCollection value)
 ```
 
 
-设置指定邮件合并中单个记录的包含/排除的对象集合。该对象永远不会为空。
+Sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge. This object is never null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) | 指定在邮件合并中包含/排除单个记录的对象集合。 |
+| value | [OdsoRecipientDataCollection](../../com.aspose.words/odsorecipientdatacollection) | A collection of objects that specify inclusion/exclusion of individual records in the mail merge. |
 
 ### setTableName(String value) {#setTableName-java.lang.String-}
 ```
@@ -292,12 +292,12 @@ public void setTableName(String value)
 ```
 
 
-指定源应连接到外部数据源中的特定数据集。默认值为空字符串。
+Specifies the particular set of data that a source shall be connected to within an external data source. The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setUdlConnectString(String value) {#setUdlConnectString-java.lang.String-}
 ```
@@ -305,12 +305,12 @@ public void setUdlConnectString(String value)
 ```
 
 
-指定用于连接到外部数据源的通用数据链接 (UDL) 连接字符串。默认值为空字符串。
+Specifies the Universal Data Link (UDL) connection string used to connect to an external data source. The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### toString() {#toString--}
 ```
@@ -320,7 +320,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -338,8 +338,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -351,8 +351,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

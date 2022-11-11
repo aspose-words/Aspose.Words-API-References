@@ -1,110 +1,110 @@
 ---
 title: ParagraphFormat
-second_title: Aspose.Words for Java API 参考
-description: 表示段落的所有格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents all the formatting for a paragraph.
 type: docs
 weight: 446
-url: /zh/java/com.aspose.words/paragraphformat/
+url: /java/com.aspose.words/paragraphformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ParagraphFormat
 ```
 
-表示段落的所有格式。
+Represents all the formatting for a paragraph.
 
-要了解更多信息，请访问**Working with Paragraphs**文档文章。
-## 方法s
+To learn more, visit the **Working with Paragraphs** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 重置为默认段落格式。 |
+| [clearFormatting()](#clearFormatting--) | Resets to default paragraph formatting. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [getAddSpaceBetweenFarEastAndAlpha()](#getAddSpaceBetweenFarEastAndAlpha--) | 获取一个标志，该标志指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。 |
-| [getAddSpaceBetweenFarEastAndDigit()](#getAddSpaceBetweenFarEastAndDigit--) | 获取一个标志，该标志指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
-| [getAlignment()](#getAlignment--) | 获取段落的文本对齐方式。 |
-| [getBidi()](#getBidi--) | 获取这是否是从右到左的段落。 |
-| [getBorders()](#getBorders--) | 获取段落边框的集合。 |
-| [getCharacterUnitFirstLineIndent()](#getCharacterUnitFirstLineIndent--) | 获取第一行或悬挂缩进的值（以字符为单位）。 |
-| [getCharacterUnitLeftIndent()](#getCharacterUnitLeftIndent--) | 获取指定段落的左缩进值（以字符为单位）。 |
-| [getCharacterUnitRightIndent()](#getCharacterUnitRightIndent--) | 获取指定段落的正确缩进值（以字符为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getAddSpaceBetweenFarEastAndAlpha()](#getAddSpaceBetweenFarEastAndAlpha--) | Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
+| [getAddSpaceBetweenFarEastAndDigit()](#getAddSpaceBetweenFarEastAndDigit--) | Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
+| [getAlignment()](#getAlignment--) | Gets text alignment for the paragraph. |
+| [getBidi()](#getBidi--) | Gets whether this is a right-to-left paragraph. |
+| [getBorders()](#getBorders--) | Gets collection of borders of the paragraph. |
+| [getCharacterUnitFirstLineIndent()](#getCharacterUnitFirstLineIndent--) | Gets the value (in characters) for the first-line or hanging indent. |
+| [getCharacterUnitLeftIndent()](#getCharacterUnitLeftIndent--) | Gets the left indent value (in characters) for the specified paragraphs. |
+| [getCharacterUnitRightIndent()](#getCharacterUnitRightIndent--) | Gets the right indent value (in characters) for the specified paragraphs. |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getDropCapPosition()](#getDropCapPosition--) | 获取首字下沉文本的位置。 |
-| [getFarEastLineBreakControl()](#getFarEastLineBreakControl--) | 获取一个标志，该标志指示是否将东亚换行规则应用于当前段落。 |
-| [getFirstLineIndent()](#getFirstLineIndent--) | 获取第一行或悬挂缩进的值（以磅为单位）。 |
-| [getHangingPunctuation()](#getHangingPunctuation--) | 获取一个标志，该标志指示是否为当前段落启用了悬挂标点符号。 |
-| [getKeepTogether()](#getKeepTogether--) | 如果段落中的所有行都保留在同一页面上，则为真。 |
-| [getKeepWithNext()](#getKeepWithNext--) | 如果段落要与其后面的段落保持在同一页上，则为真。 |
-| [getLeftIndent()](#getLeftIndent--) | 获取表示段落左缩进的值（以磅为单位）。 |
-| [getLineSpacing()](#getLineSpacing--) | 获取段落的行距（以磅为单位）。 |
-| [getLineSpacingRule()](#getLineSpacingRule--) | 获取段落的行距。 |
-| [getLineUnitAfter()](#getLineUnitAfter--) | 获取段落后的间距量（以网格线为单位）。 |
-| [getLineUnitBefore()](#getLineUnitBefore--) | 获取段落前的间距量（以网格线为单位）。 |
-| [getLinesToDrop()](#getLinesToDrop--) | 获取用于计算首字下沉高度的段落文本的行数。 |
-| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle--) | 真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。 |
-| [getOutlineLevel()](#getOutlineLevel--) | 指定文档中段落的大纲级别。 |
-| [getPageBreakBefore()](#getPageBreakBefore--) | 如果在段落之前强制分页符，则为真。 |
-| [getRightIndent()](#getRightIndent--) | 获取表示段落正确缩进的值（以磅为单位）。 |
-| [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用段落的底纹格式。 |
-| [getSnapToGrid()](#getSnapToGrid--) | 指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。 |
-| [getSpaceAfter()](#getSpaceAfter--) | 获取段落后的间距量（以磅为单位）。 |
-| [getSpaceAfterAuto()](#getSpaceAfterAuto--) | 如果段落后的间距量是自动设置的，则为真。 |
-| [getSpaceBefore()](#getSpaceBefore--) | 获取段落前的间距量（以磅为单位）。 |
-| [getSpaceBeforeAuto()](#getSpaceBeforeAuto--) | 如果段落前的间距量是自动设置的，则为真。 |
-| [getStyle()](#getStyle--) | 获取应用于此格式的段落样式。 |
-| [getStyleIdentifier()](#getStyleIdentifier--) | 获取应用于此格式的段落样式的与区域设置无关的样式标识符。 |
-| [getStyleName()](#getStyleName--) | 获取应用于此格式的段落样式的名称。 |
-| [getSuppressAutoHyphens()](#getSuppressAutoHyphens--) | 指定当前段落是否应免除在文档设置中应用的任何连字符。 |
-| [getSuppressLineNumbers()](#getSuppressLineNumbers--) | 指定当前段落的行是否应免除在父节中应用的行编号。 |
-| [getTabStops()](#getTabStops--) | 获取为此对象定义的自定义制表位的集合。 |
-| [getWidowControl()](#getWidowControl--) | 如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。 |
-| [getWordWrap()](#getWordWrap--) | 如果这个属性是**false**单词中间的拉丁文字可以为当前段落换行。 |
+| [getDropCapPosition()](#getDropCapPosition--) | Gets the position for a drop cap text. |
+| [getFarEastLineBreakControl()](#getFarEastLineBreakControl--) | Gets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
+| [getFirstLineIndent()](#getFirstLineIndent--) | Gets the value (in points) for a first line or hanging indent. |
+| [getHangingPunctuation()](#getHangingPunctuation--) | Gets a flag indicating whether hanging punctuation is enabled for the current paragraph. |
+| [getKeepTogether()](#getKeepTogether--) | True if all lines in the paragraph are to remain on the same page. |
+| [getKeepWithNext()](#getKeepWithNext--) | True if the paragraph is to remains on the same page as the paragraph that follows it. |
+| [getLeftIndent()](#getLeftIndent--) | Gets the value (in points) that represents the left indent for paragraph. |
+| [getLineSpacing()](#getLineSpacing--) | Gets the line spacing (in points) for the paragraph. |
+| [getLineSpacingRule()](#getLineSpacingRule--) | Gets the line spacing for the paragraph. |
+| [getLineUnitAfter()](#getLineUnitAfter--) | Gets the amount of spacing (in gridlines) after the paragraphs. |
+| [getLineUnitBefore()](#getLineUnitBefore--) | Gets the amount of spacing (in gridlines) before the paragraphs. |
+| [getLinesToDrop()](#getLinesToDrop--) | Gets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [getNoSpaceBetweenParagraphsOfSameStyle()](#getNoSpaceBetweenParagraphsOfSameStyle--) | When true, [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-) will be ignored between the paragraphs of the same style. |
+| [getOutlineLevel()](#getOutlineLevel--) | Specifies the outline level of the paragraph in the document. |
+| [getPageBreakBefore()](#getPageBreakBefore--) | True if a page break is forced before the paragraph. |
+| [getRightIndent()](#getRightIndent--) | Gets the value (in points) that represents the right indent for paragraph. |
+| [getShading()](#getShading--) | Returns a Shading object that refers to the shading formatting for the paragraph. |
+| [getSnapToGrid()](#getSnapToGrid--) | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
+| [getSpaceAfter()](#getSpaceAfter--) | Gets the amount of spacing (in points) after the paragraph. |
+| [getSpaceAfterAuto()](#getSpaceAfterAuto--) | True if the amount of spacing after the paragraph is set automatically. |
+| [getSpaceBefore()](#getSpaceBefore--) | Gets the amount of spacing (in points) before the paragraph. |
+| [getSpaceBeforeAuto()](#getSpaceBeforeAuto--) | True if the amount of spacing before the paragraph is set automatically. |
+| [getStyle()](#getStyle--) | Gets the paragraph style applied to this formatting. |
+| [getStyleIdentifier()](#getStyleIdentifier--) | Gets the locale independent style identifier of the paragraph style applied to this formatting. |
+| [getStyleName()](#getStyleName--) | Gets the name of the paragraph style applied to this formatting. |
+| [getSuppressAutoHyphens()](#getSuppressAutoHyphens--) | Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings. |
+| [getSuppressLineNumbers()](#getSuppressLineNumbers--) | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
+| [getTabStops()](#getTabStops--) | Gets the collection of custom tab stops defined for this object. |
+| [getWidowControl()](#getWidowControl--) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
+| [getWordWrap()](#getWordWrap--) | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. |
 | [hashCode()](#hashCode--) |  |
-| [isHeading()](#isHeading--) | 当段落样式是内置标题样式之一时为真。 |
-| [isListItem()](#isListItem--) | 当段落是项目符号或编号列表中的项目时为真。 |
+| [isHeading()](#isHeading--) | True when the paragraph style is one of the built-in Heading styles. |
+| [isListItem()](#isListItem--) | True when the paragraph is an item in a bulleted or numbered list. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAddSpaceBetweenFarEastAndAlpha(boolean value)](#setAddSpaceBetweenFarEastAndAlpha-boolean-) | 设置一个标志，指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。 |
-| [setAddSpaceBetweenFarEastAndDigit(boolean value)](#setAddSpaceBetweenFarEastAndDigit-boolean-) | 设置一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
-| [setAlignment(int value)](#setAlignment-int-) | 设置段落的文本对齐方式。 |
-| [setBidi(boolean value)](#setBidi-boolean-) | 设置这是否是从右到左的段落。 |
+| [setAddSpaceBetweenFarEastAndAlpha(boolean value)](#setAddSpaceBetweenFarEastAndAlpha-boolean-) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
+| [setAddSpaceBetweenFarEastAndDigit(boolean value)](#setAddSpaceBetweenFarEastAndDigit-boolean-) | Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
+| [setAlignment(int value)](#setAlignment-int-) | Sets text alignment for the paragraph. |
+| [setBidi(boolean value)](#setBidi-boolean-) | Sets whether this is a right-to-left paragraph. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setCharacterUnitFirstLineIndent(double value)](#setCharacterUnitFirstLineIndent-double-) | 设置第一行或悬挂缩进的值（以字符为单位）。 |
-| [setCharacterUnitLeftIndent(double value)](#setCharacterUnitLeftIndent-double-) | 设置指定段落的左缩进值（以字符为单位）。 |
-| [setCharacterUnitRightIndent(double value)](#setCharacterUnitRightIndent-double-) | 为指定段落设置正确的缩进值（以字符为单位）。 |
-| [setDropCapPosition(int value)](#setDropCapPosition-int-) | 设置首字下沉文本的位置。 |
-| [setFarEastLineBreakControl(boolean value)](#setFarEastLineBreakControl-boolean-) | 设置一个标志，指示是否将东亚换行规则应用于当前段落。 |
-| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | 设置第一行或悬挂缩进的值（以磅为单位）。 |
-| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | 设置一个标志，指示是否为当前段落启用悬挂标点符号。 |
-| [setKeepTogether(boolean value)](#setKeepTogether-boolean-) | 如果段落中的所有行都保留在同一页面上，则为真。 |
-| [setKeepWithNext(boolean value)](#setKeepWithNext-boolean-) | 如果段落要与其后面的段落保持在同一页上，则为真。 |
-| [setLeftIndent(double value)](#setLeftIndent-double-) | 设置代表段落左缩进的值（以磅为单位）。 |
-| [setLineSpacing(double value)](#setLineSpacing-double-) | 设置段落的行距（以磅为单位）。 |
-| [setLineSpacingRule(int value)](#setLineSpacingRule-int-) | 设置段落的行距。 |
-| [setLineUnitAfter(double value)](#setLineUnitAfter-double-) | 设置段落后的间距量（以网格线为单位）。 |
-| [setLineUnitBefore(double value)](#setLineUnitBefore-double-) | 设置段落前的间距量（以网格线为单位）。 |
-| [setLinesToDrop(int value)](#setLinesToDrop-int-) | 设置用于计算首字下沉高度的段落文本的行数。 |
-| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean-) | 真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。 |
-| [setOutlineLevel(int value)](#setOutlineLevel-int-) | 指定文档中段落的大纲级别。 |
-| [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean-) | 如果在段落之前强制分页符，则为真。 |
-| [setRightIndent(double value)](#setRightIndent-double-) | 设置代表段落右缩进的值（以磅为单位）。 |
-| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | 指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。 |
-| [setSpaceAfter(double value)](#setSpaceAfter-double-) | 设置段落后的间距量（以磅为单位）。 |
-| [setSpaceAfterAuto(boolean value)](#setSpaceAfterAuto-boolean-) | 如果段落后的间距量是自动设置的，则为真。 |
-| [setSpaceBefore(double value)](#setSpaceBefore-double-) | 设置段落前的间距量（以磅为单位）。 |
-| [setSpaceBeforeAuto(boolean value)](#setSpaceBeforeAuto-boolean-) | 如果段落前的间距量是自动设置的，则为真。 |
-| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | 设置应用于此格式的段落样式。 |
-| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | 设置应用于此格式的段落样式的独立于区域设置的样式标识符。 |
-| [setStyleName(String value)](#setStyleName-java.lang.String-) | 设置应用于此格式的段落样式的名称。 |
-| [setSuppressAutoHyphens(boolean value)](#setSuppressAutoHyphens-boolean-) | 指定当前段落是否应免除在文档设置中应用的任何连字符。 |
-| [setSuppressLineNumbers(boolean value)](#setSuppressLineNumbers-boolean-) | 指定当前段落的行是否应免除在父节中应用的行编号。 |
-| [setWidowControl(boolean value)](#setWidowControl-boolean-) | 如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。 |
-| [setWordWrap(boolean value)](#setWordWrap-boolean-) | 如果这个属性是**false**单词中间的拉丁文字可以为当前段落换行。 |
+| [setCharacterUnitFirstLineIndent(double value)](#setCharacterUnitFirstLineIndent-double-) | Sets the value (in characters) for the first-line or hanging indent. |
+| [setCharacterUnitLeftIndent(double value)](#setCharacterUnitLeftIndent-double-) | Sets the left indent value (in characters) for the specified paragraphs. |
+| [setCharacterUnitRightIndent(double value)](#setCharacterUnitRightIndent-double-) | Sets the right indent value (in characters) for the specified paragraphs. |
+| [setDropCapPosition(int value)](#setDropCapPosition-int-) | Sets the position for a drop cap text. |
+| [setFarEastLineBreakControl(boolean value)](#setFarEastLineBreakControl-boolean-) | Sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
+| [setFirstLineIndent(double value)](#setFirstLineIndent-double-) | Sets the value (in points) for a first line or hanging indent. |
+| [setHangingPunctuation(boolean value)](#setHangingPunctuation-boolean-) | Sets a flag indicating whether hanging punctuation is enabled for the current paragraph. |
+| [setKeepTogether(boolean value)](#setKeepTogether-boolean-) | True if all lines in the paragraph are to remain on the same page. |
+| [setKeepWithNext(boolean value)](#setKeepWithNext-boolean-) | True if the paragraph is to remains on the same page as the paragraph that follows it. |
+| [setLeftIndent(double value)](#setLeftIndent-double-) | Sets the value (in points) that represents the left indent for paragraph. |
+| [setLineSpacing(double value)](#setLineSpacing-double-) | Sets the line spacing (in points) for the paragraph. |
+| [setLineSpacingRule(int value)](#setLineSpacingRule-int-) | Sets the line spacing for the paragraph. |
+| [setLineUnitAfter(double value)](#setLineUnitAfter-double-) | Sets the amount of spacing (in gridlines) after the paragraphs. |
+| [setLineUnitBefore(double value)](#setLineUnitBefore-double-) | Sets the amount of spacing (in gridlines) before the paragraphs. |
+| [setLinesToDrop(int value)](#setLinesToDrop-int-) | Sets the number of lines of the paragraph text used to calculate the drop cap height. |
+| [setNoSpaceBetweenParagraphsOfSameStyle(boolean value)](#setNoSpaceBetweenParagraphsOfSameStyle-boolean-) | When true, [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-) will be ignored between the paragraphs of the same style. |
+| [setOutlineLevel(int value)](#setOutlineLevel-int-) | Specifies the outline level of the paragraph in the document. |
+| [setPageBreakBefore(boolean value)](#setPageBreakBefore-boolean-) | True if a page break is forced before the paragraph. |
+| [setRightIndent(double value)](#setRightIndent-double-) | Sets the value (in points) that represents the right indent for paragraph. |
+| [setSnapToGrid(boolean value)](#setSnapToGrid-boolean-) | Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph. |
+| [setSpaceAfter(double value)](#setSpaceAfter-double-) | Sets the amount of spacing (in points) after the paragraph. |
+| [setSpaceAfterAuto(boolean value)](#setSpaceAfterAuto-boolean-) | True if the amount of spacing after the paragraph is set automatically. |
+| [setSpaceBefore(double value)](#setSpaceBefore-double-) | Sets the amount of spacing (in points) before the paragraph. |
+| [setSpaceBeforeAuto(boolean value)](#setSpaceBeforeAuto-boolean-) | True if the amount of spacing before the paragraph is set automatically. |
+| [setStyle(Style value)](#setStyle-com.aspose.words.Style-) | Sets the paragraph style applied to this formatting. |
+| [setStyleIdentifier(int value)](#setStyleIdentifier-int-) | Sets the locale independent style identifier of the paragraph style applied to this formatting. |
+| [setStyleName(String value)](#setStyleName-java.lang.String-) | Sets the name of the paragraph style applied to this formatting. |
+| [setSuppressAutoHyphens(boolean value)](#setSuppressAutoHyphens-boolean-) | Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings. |
+| [setSuppressLineNumbers(boolean value)](#setSuppressLineNumbers-boolean-) | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
+| [setWidowControl(boolean value)](#setWidowControl-boolean-) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
+| [setWordWrap(boolean value)](#setWordWrap-boolean-) | If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -115,7 +115,7 @@ public void clearFormatting()
 ```
 
 
-重置为默认段落格式。默认段落格式为普通样式、左对齐、无缩进、无间距、无边框和无底纹。
+Resets to default paragraph formatting. Default paragraph formatting is Normal style, left aligned, no indentation, no spacing, no borders and no shading.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -125,13 +125,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -140,12 +140,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -155,12 +155,12 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getAddSpaceBetweenFarEastAndAlpha() {#getAddSpaceBetweenFarEastAndAlpha--}
 ```
@@ -168,94 +168,94 @@ public boolean getAddSpaceBetweenFarEastAndAlpha()
 ```
 
 
-获取一个标志，该标志指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。
+Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.
 
-**退货:**
-boolean - 一个标志，指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。
+**Returns:**
+boolean - A flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.
 ### getAddSpaceBetweenFarEastAndDigit() {#getAddSpaceBetweenFarEastAndDigit--}
 ```
 public boolean getAddSpaceBetweenFarEastAndDigit()
 ```
 
 
-获取一个标志，该标志指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
+Gets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph.
 
-**退货:**
-boolean - 一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
+**Returns:**
+boolean - A flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph.
 ### getAlignment() {#getAlignment--}
 ```
 public int getAlignment()
 ```
 
 
-获取段落的文本对齐方式。
+Gets text alignment for the paragraph.
 
-**退货:**
-int - 段落的文本对齐方式。返回值是以下之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。
+**Returns:**
+int - Text alignment for the paragraph. The returned value is one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants.
 ### getBidi() {#getBidi--}
 ```
 public boolean getBidi()
 ```
 
 
-获取这是否是从右到左的段落。
+Gets whether this is a right-to-left paragraph.
 
-如果为 true，则本段中的运行和其他内联对象从右到左排列。
+When true, the runs and other inline objects in this paragraph are laid out right to left.
 
-**退货:**
-boolean - 这是否是从右到左的段落。
+**Returns:**
+boolean - Whether this is a right-to-left paragraph.
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
 ```
 
 
-获取段落边框的集合。
+Gets collection of borders of the paragraph.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 段落边框的集合。
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - Collection of borders of the paragraph.
 ### getCharacterUnitFirstLineIndent() {#getCharacterUnitFirstLineIndent--}
 ```
 public double getCharacterUnitFirstLineIndent()
 ```
 
 
-获取第一行或悬挂缩进的值（以字符为单位）。
+Gets the value (in characters) for the first-line or hanging indent.
 
-使用正值设置首行缩进，使用负值设置悬挂缩进。
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
-**退货:**
-double - 第一行或悬挂缩进的值（以字符为单位）。
+**Returns:**
+double - The value (in characters) for the first-line or hanging indent.
 ### getCharacterUnitLeftIndent() {#getCharacterUnitLeftIndent--}
 ```
 public double getCharacterUnitLeftIndent()
 ```
 
 
-获取指定段落的左缩进值（以字符为单位）。
+Gets the left indent value (in characters) for the specified paragraphs.
 
-**退货:**
-double - 指定段落的左缩进值（以字符为单位）。
+**Returns:**
+double - The left indent value (in characters) for the specified paragraphs.
 ### getCharacterUnitRightIndent() {#getCharacterUnitRightIndent--}
 ```
 public double getCharacterUnitRightIndent()
 ```
 
 
-获取指定段落的正确缩进值（以字符为单位）。
+Gets the right indent value (in characters) for the specified paragraphs.
 
-**退货:**
-double - 指定段落的右缩进值（以字符为单位）。
-### get班级() {#get班级--}
+**Returns:**
+double - The right indent value (in characters) for the specified paragraphs.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -264,12 +264,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDropCapPosition() {#getDropCapPosition--}
 ```
@@ -277,338 +277,338 @@ public int getDropCapPosition()
 ```
 
 
-获取首字下沉文本的位置。
+Gets the position for a drop cap text.
 
-**退货:**
- int - 首字下沉文本的位置。返回值是以下之一[DropCapPosition](../../com.aspose.words/dropcapposition)常数。
+**Returns:**
+int - The position for a drop cap text. The returned value is one of [DropCapPosition](../../com.aspose.words/dropcapposition) constants.
 ### getFarEastLineBreakControl() {#getFarEastLineBreakControl--}
 ```
 public boolean getFarEastLineBreakControl()
 ```
 
 
-获取一个标志，该标志指示是否将东亚换行规则应用于当前段落。
+Gets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 
-**退货:**
-boolean - 指示东亚换行规则是否应用于当前段落的标志。
+**Returns:**
+boolean - A flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 ### getFirstLineIndent() {#getFirstLineIndent--}
 ```
 public double getFirstLineIndent()
 ```
 
 
-获取第一行或悬挂缩进的值（以磅为单位）。
+Gets the value (in points) for a first line or hanging indent.
 
-使用正值设置首行缩进，使用负值设置悬挂缩进。
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
-**退货:**
-double - 第一行或悬挂缩进的值（以磅为单位）。
+**Returns:**
+double - The value (in points) for a first line or hanging indent.
 ### getHangingPunctuation() {#getHangingPunctuation--}
 ```
 public boolean getHangingPunctuation()
 ```
 
 
-获取一个标志，该标志指示是否为当前段落启用了悬挂标点符号。
+Gets a flag indicating whether hanging punctuation is enabled for the current paragraph.
 
-**退货:**
-boolean - 指示是否为当前段落启用悬挂标点的标志。
+**Returns:**
+boolean - A flag indicating whether hanging punctuation is enabled for the current paragraph.
 ### getKeepTogether() {#getKeepTogether--}
 ```
 public boolean getKeepTogether()
 ```
 
 
-如果段落中的所有行都保留在同一页面上，则为真。
+True if all lines in the paragraph are to remain on the same page.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getKeepWithNext() {#getKeepWithNext--}
 ```
 public boolean getKeepWithNext()
 ```
 
 
-如果段落要与其后面的段落保持在同一页上，则为真。
+True if the paragraph is to remains on the same page as the paragraph that follows it.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getLeftIndent() {#getLeftIndent--}
 ```
 public double getLeftIndent()
 ```
 
 
-获取表示段落左缩进的值（以磅为单位）。
+Gets the value (in points) that represents the left indent for paragraph.
 
-**退货:**
-double - 代表段落左缩进的值（以磅为单位）。
+**Returns:**
+double - The value (in points) that represents the left indent for paragraph.
 ### getLineSpacing() {#getLineSpacing--}
 ```
 public double getLineSpacing()
 ```
 
 
-获取段落的行距（以磅为单位）。
+Gets the line spacing (in points) for the paragraph.
 
-当 LineSpacingRule 属性设置为 AtLeast 时，行距可以大于或等于，但不能小于指定的 LineSpacing 值。
+When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
 
-当 LineSpacingRule 属性设置为 Exactly 时，即使段落中使用了较大的字体，行距也不会从指定的 LineSpacing 值更改。
+When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
 
-**退货:**
-double - 段落的行距（以磅为单位）。
+**Returns:**
+double - The line spacing (in points) for the paragraph.
 ### getLineSpacingRule() {#getLineSpacingRule--}
 ```
 public int getLineSpacingRule()
 ```
 
 
-获取段落的行距。
+Gets the line spacing for the paragraph.
 
-**退货:**
- int - 段落的行距。返回值是以下之一[LineSpacingRule](../../com.aspose.words/linespacingrule)常数。
+**Returns:**
+int - The line spacing for the paragraph. The returned value is one of [LineSpacingRule](../../com.aspose.words/linespacingrule) constants.
 ### getLineUnitAfter() {#getLineUnitAfter--}
 ```
 public double getLineUnitAfter()
 ```
 
 
-获取段落后的间距量（以网格线为单位）。
+Gets the amount of spacing (in gridlines) after the paragraphs.
 
-**退货:**
-double - 段落后的间距（以网格线为单位）。
+**Returns:**
+double - The amount of spacing (in gridlines) after the paragraphs.
 ### getLineUnitBefore() {#getLineUnitBefore--}
 ```
 public double getLineUnitBefore()
 ```
 
 
-获取段落前的间距量（以网格线为单位）。
+Gets the amount of spacing (in gridlines) before the paragraphs.
 
-**退货:**
-double - 段落前的间距（以网格线为单位）。
+**Returns:**
+double - The amount of spacing (in gridlines) before the paragraphs.
 ### getLinesToDrop() {#getLinesToDrop--}
 ```
 public int getLinesToDrop()
 ```
 
 
-获取用于计算首字下沉高度的段落文本的行数。
+Gets the number of lines of the paragraph text used to calculate the drop cap height.
 
-**退货:**
-int - 用于计算首字下沉高度的段落文本行数。
+**Returns:**
+int - The number of lines of the paragraph text used to calculate the drop cap height.
 ### getNoSpaceBetweenParagraphsOfSameStyle() {#getNoSpaceBetweenParagraphsOfSameStyle--}
 ```
 public boolean getNoSpaceBetweenParagraphsOfSameStyle()
 ```
 
 
-真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。
+When true, [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-) will be ignored between the paragraphs of the same style.
 
-此设置仅在应用于段落样式时生效。如果直接应用于段落，则没有效果。
+This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getOutlineLevel() {#getOutlineLevel--}
 ```
 public int getOutlineLevel()
 ```
 
 
-指定文档中段落的大纲级别。
+Specifies the outline level of the paragraph in the document.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[OutlineLevel](../../com.aspose.words/outlinelevel)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [OutlineLevel](../../com.aspose.words/outlinelevel) constants.
 ### getPageBreakBefore() {#getPageBreakBefore--}
 ```
 public boolean getPageBreakBefore()
 ```
 
 
-如果在段落之前强制分页符，则为真。
+True if a page break is forced before the paragraph.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getRightIndent() {#getRightIndent--}
 ```
 public double getRightIndent()
 ```
 
 
-获取表示段落正确缩进的值（以磅为单位）。
+Gets the value (in points) that represents the right indent for paragraph.
 
-**退货:**
-double - 代表段落右缩进的值（以磅为单位）。
+**Returns:**
+double - The value (in points) that represents the right indent for paragraph.
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
 ```
 
 
-返回一个 Shading 对象，该对象引用段落的底纹格式。
+Returns a Shading object that refers to the shading formatting for the paragraph.
 
-**退货:**
-[Shading](../../com.aspose.words/shading) 一个 Shading 对象，它引用段落的阴影格式。
+**Returns:**
+[Shading](../../com.aspose.words/shading) - A Shading object that refers to the shading formatting for the paragraph.
 ### getSnapToGrid() {#getSnapToGrid--}
 ```
 public boolean getSnapToGrid()
 ```
 
 
-指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。
+Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSpaceAfter() {#getSpaceAfter--}
 ```
 public double getSpaceAfter()
 ```
 
 
-获取段落后的间距量（以磅为单位）。
+Gets the amount of spacing (in points) after the paragraph.
 
-什么时候没有效果[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
+Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-) is true.
 
-有效值\\u200b\\u200brange 从 0 到 1584（含）。
+Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
-**退货:**
-double - 段落后的间距量（以磅为单位）。
+**Returns:**
+double - The amount of spacing (in points) after the paragraph.
 ### getSpaceAfterAuto() {#getSpaceAfterAuto--}
 ```
 public boolean getSpaceAfterAuto()
 ```
 
 
-如果段落后的间距量是自动设置的，则为真。
+True if the amount of spacing after the paragraph is set automatically.
 
-当设置为 true 时，覆盖[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
+When set to true, overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
 
-当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
+When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
- *  通常，在所有段落之后添加间距。
- *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
- *  在表格单元格的最后一段之后不添加间距。
+ *  Normally, spacing is added after all paragraphs.
+ *  In a bulleted or numbered list, spacing is added only after the last item in the list. Spacing is not added between the list items.
+ *  In a nested bulleted or numbered list spacing is not added.
+ *  Spacing is normally added after a table.
+ *  Spacing is not added after a table if it is the last block in a table cell.
+ *  Spacing is not added after the last paragraph in a table cell.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSpaceBefore() {#getSpaceBefore--}
 ```
 public double getSpaceBefore()
 ```
 
 
-获取段落前的间距量（以磅为单位）。
+Gets the amount of spacing (in points) before the paragraph.
 
-什么时候没有效果[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
+Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-) is true.
 
-有效值范围从 0 到 1584（含）。
+Valid values range from 0 to 1584 inclusive.
 
-**退货:**
-double - 段落前的间距量（以磅为单位）。
+**Returns:**
+double - The amount of spacing (in points) before the paragraph.
 ### getSpaceBeforeAuto() {#getSpaceBeforeAuto--}
 ```
 public boolean getSpaceBeforeAuto()
 ```
 
 
-如果段落前的间距量是自动设置的，则为真。
+True if the amount of spacing before the paragraph is set automatically.
 
-当设置为 true 时，覆盖[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
+When set to true, overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
 
-当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
+When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
- *  通常，在所有段落之后添加间距。
- *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
- *  在表格单元格的最后一段之后不添加间距。
+ *  Normally, spacing is added after all paragraphs.
+ *  In a bulleted or numbered list, spacing is added only after the last item in the list. Spacing is not added between the list items.
+ *  In a nested bulleted or numbered list spacing is not added.
+ *  Spacing is normally added after a table.
+ *  Spacing is not added after a table if it is the last block in a table cell.
+ *  Spacing is not added after the last paragraph in a table cell.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getStyle() {#getStyle--}
 ```
 public Style getStyle()
 ```
 
 
-获取应用于此格式的段落样式。
+Gets the paragraph style applied to this formatting.
 
-**退货:**
-[Style](../../com.aspose.words/style) 应用于此格式的段落样式。
+**Returns:**
+[Style](../../com.aspose.words/style) - The paragraph style applied to this formatting.
 ### getStyleIdentifier() {#getStyleIdentifier--}
 ```
 public int getStyleIdentifier()
 ```
 
 
-获取应用于此格式的段落样式的与区域设置无关的样式标识符。
+Gets the locale independent style identifier of the paragraph style applied to this formatting.
 
-**退货:**
- int - 应用于此格式的段落样式的区域设置独立样式标识符。返回值是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。
+**Returns:**
+int - The locale independent style identifier of the paragraph style applied to this formatting. The returned value is one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants.
 ### getStyleName() {#getStyleName--}
 ```
 public String getStyleName()
 ```
 
 
-获取应用于此格式的段落样式的名称。
+Gets the name of the paragraph style applied to this formatting.
 
-**退货:**
-java.lang.String - 应用于此格式的段落样式的名称。
+**Returns:**
+java.lang.String - The name of the paragraph style applied to this formatting.
 ### getSuppressAutoHyphens() {#getSuppressAutoHyphens--}
 ```
 public boolean getSuppressAutoHyphens()
 ```
 
 
-指定当前段落是否应免除在文档设置中应用的任何连字符。
+Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getSuppressLineNumbers() {#getSuppressLineNumbers--}
 ```
 public boolean getSuppressLineNumbers()
 ```
 
 
-指定当前段落的行是否应免除在父节中应用的行编号。
+Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getTabStops() {#getTabStops--}
 ```
 public TabStopCollection getTabStops()
 ```
 
 
-获取为此对象定义的自定义制表位的集合。
+Gets the collection of custom tab stops defined for this object.
 
-**退货:**
-[TabStopCollection](../../com.aspose.words/tabstopcollection) - 为此对象定义的自定义制表位的集合。
+**Returns:**
+[TabStopCollection](../../com.aspose.words/tabstopcollection) - The collection of custom tab stops defined for this object.
 ### getWidowControl() {#getWidowControl--}
 ```
 public boolean getWidowControl()
 ```
 
 
-如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。
+True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getWordWrap() {#getWordWrap--}
 ```
 public boolean getWordWrap()
 ```
 
 
-如果这个属性是**false**, 单词中间的拉丁文字可以为当前段落换行。否则，拉丁文本会被整个单词包裹。
+If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -617,28 +617,28 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isHeading() {#isHeading--}
 ```
 public boolean isHeading()
 ```
 
 
-当段落样式是内置标题样式之一时为真。
+True when the paragraph style is one of the built-in Heading styles.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isListItem() {#isListItem--}
 ```
 public boolean isListItem()
 ```
 
 
-当段落是项目符号或编号列表中的项目时为真。
+True when the paragraph is an item in a bulleted or numbered list.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -661,12 +661,12 @@ public void setAddSpaceBetweenFarEastAndAlpha(boolean value)
 ```
 
 
-设置一个标志，指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距。
+Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否在当前段落中的拉丁文本区域和东亚文本区域之间自动调整字符间距的标志。 |
+| value | boolean | A flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 
 ### setAddSpaceBetweenFarEastAndDigit(boolean value) {#setAddSpaceBetweenFarEastAndDigit-boolean-}
 ```
@@ -674,12 +674,12 @@ public void setAddSpaceBetweenFarEastAndDigit(boolean value)
 ```
 
 
-设置一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。
+Sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个标志，指示是否在当前段落中的数字区域和东亚文本区域之间自动调整字符间距。 |
+| value | boolean | A flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 
 ### setAlignment(int value) {#setAlignment-int-}
 ```
@@ -687,12 +687,12 @@ public void setAlignment(int value)
 ```
 
 
-设置段落的文本对齐方式。
+Sets text alignment for the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 段落的文本对齐方式。该值必须是以下之一[ParagraphAlignment](../../com.aspose.words/paragraphalignment)常数。 |
+| value | int | Text alignment for the paragraph. The value must be one of [ParagraphAlignment](../../com.aspose.words/paragraphalignment) constants. |
 
 ### setBidi(boolean value) {#setBidi-boolean-}
 ```
@@ -700,14 +700,14 @@ public void setBidi(boolean value)
 ```
 
 
-设置这是否是从右到左的段落。
+Sets whether this is a right-to-left paragraph.
 
-如果为 true，则本段中的运行和其他内联对象从右到左排列。
+When true, the runs and other inline objects in this paragraph are laid out right to left.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 这是否是从右到左的段落。 |
+| value | boolean | Whether this is a right-to-left paragraph. |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -717,8 +717,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -729,14 +729,14 @@ public void setCharacterUnitFirstLineIndent(double value)
 ```
 
 
-设置第一行或悬挂缩进的值（以字符为单位）。
+Sets the value (in characters) for the first-line or hanging indent.
 
-使用正值设置首行缩进，使用负值设置悬挂缩进。
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 第一行或悬挂缩进的值（以字符为单位）。 |
+| value | double | The value (in characters) for the first-line or hanging indent. |
 
 ### setCharacterUnitLeftIndent(double value) {#setCharacterUnitLeftIndent-double-}
 ```
@@ -744,12 +744,12 @@ public void setCharacterUnitLeftIndent(double value)
 ```
 
 
-设置指定段落的左缩进值（以字符为单位）。
+Sets the left indent value (in characters) for the specified paragraphs.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 指定段落的左缩进值（以字符为单位）。 |
+| value | double | The left indent value (in characters) for the specified paragraphs. |
 
 ### setCharacterUnitRightIndent(double value) {#setCharacterUnitRightIndent-double-}
 ```
@@ -757,12 +757,12 @@ public void setCharacterUnitRightIndent(double value)
 ```
 
 
-为指定段落设置正确的缩进值（以字符为单位）。
+Sets the right indent value (in characters) for the specified paragraphs.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 指定段落的右缩进值（以字符为单位）。 |
+| value | double | The right indent value (in characters) for the specified paragraphs. |
 
 ### setDropCapPosition(int value) {#setDropCapPosition-int-}
 ```
@@ -770,12 +770,12 @@ public void setDropCapPosition(int value)
 ```
 
 
-设置首字下沉文本的位置。
+Sets the position for a drop cap text.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 首字下沉文本的位置。该值必须是以下之一[DropCapPosition](../../com.aspose.words/dropcapposition)常数。 |
+| value | int | The position for a drop cap text. The value must be one of [DropCapPosition](../../com.aspose.words/dropcapposition) constants. |
 
 ### setFarEastLineBreakControl(boolean value) {#setFarEastLineBreakControl-boolean-}
 ```
@@ -783,12 +783,12 @@ public void setFarEastLineBreakControl(boolean value)
 ```
 
 
-设置一个标志，指示是否将东亚换行规则应用于当前段落。
+Sets a flag indicating whether East Asian line-breaking rules are applied to the current paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示东亚换行规则是否应用于当前段落的标志。 |
+| value | boolean | A flag indicating whether East Asian line-breaking rules are applied to the current paragraph. |
 
 ### setFirstLineIndent(double value) {#setFirstLineIndent-double-}
 ```
@@ -796,14 +796,14 @@ public void setFirstLineIndent(double value)
 ```
 
 
-设置第一行或悬挂缩进的值（以磅为单位）。
+Sets the value (in points) for a first line or hanging indent.
 
-使用正值设置首行缩进，使用负值设置悬挂缩进。
+Use positive values to set the first-line indent, and negative values to set the hanging indent.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 第一行或悬挂缩进的值（以磅为单位）。 |
+| value | double | The value (in points) for a first line or hanging indent. |
 
 ### setHangingPunctuation(boolean value) {#setHangingPunctuation-boolean-}
 ```
@@ -811,12 +811,12 @@ public void setHangingPunctuation(boolean value)
 ```
 
 
-设置一个标志，指示是否为当前段落启用悬挂标点符号。
+Sets a flag indicating whether hanging punctuation is enabled for the current paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示是否为当前段落启用悬挂标点的标志。 |
+| value | boolean | A flag indicating whether hanging punctuation is enabled for the current paragraph. |
 
 ### setKeepTogether(boolean value) {#setKeepTogether-boolean-}
 ```
@@ -824,12 +824,12 @@ public void setKeepTogether(boolean value)
 ```
 
 
-如果段落中的所有行都保留在同一页面上，则为真。
+True if all lines in the paragraph are to remain on the same page.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setKeepWithNext(boolean value) {#setKeepWithNext-boolean-}
 ```
@@ -837,12 +837,12 @@ public void setKeepWithNext(boolean value)
 ```
 
 
-如果段落要与其后面的段落保持在同一页上，则为真。
+True if the paragraph is to remains on the same page as the paragraph that follows it.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setLeftIndent(double value) {#setLeftIndent-double-}
 ```
@@ -850,12 +850,12 @@ public void setLeftIndent(double value)
 ```
 
 
-设置代表段落左缩进的值（以磅为单位）。
+Sets the value (in points) that represents the left indent for paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 代表段落左缩进的值（以磅为单位）。 |
+| value | double | The value (in points) that represents the left indent for paragraph. |
 
 ### setLineSpacing(double value) {#setLineSpacing-double-}
 ```
@@ -863,16 +863,16 @@ public void setLineSpacing(double value)
 ```
 
 
-设置段落的行距（以磅为单位）。
+Sets the line spacing (in points) for the paragraph.
 
-当 LineSpacingRule 属性设置为 AtLeast 时，行距可以大于或等于，但不能小于指定的 LineSpacing 值。
+When LineSpacingRule property is set to AtLeast, the line spacing can be greater than or equal to, but never less than the specified LineSpacing value.
 
-当 LineSpacingRule 属性设置为 Exactly 时，即使段落中使用了较大的字体，行距也不会从指定的 LineSpacing 值更改。
+When LineSpacingRule property is set to Exactly, the line spacing never changes from the specified LineSpacing value, even if a larger font is used within the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 段落的行距（以磅为单位）。 |
+| value | double | The line spacing (in points) for the paragraph. |
 
 ### setLineSpacingRule(int value) {#setLineSpacingRule-int-}
 ```
@@ -880,12 +880,12 @@ public void setLineSpacingRule(int value)
 ```
 
 
-设置段落的行距。
+Sets the line spacing for the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 段落的行距。该值必须是以下之一[LineSpacingRule](../../com.aspose.words/linespacingrule)常数。 |
+| value | int | The line spacing for the paragraph. The value must be one of [LineSpacingRule](../../com.aspose.words/linespacingrule) constants. |
 
 ### setLineUnitAfter(double value) {#setLineUnitAfter-double-}
 ```
@@ -893,12 +893,12 @@ public void setLineUnitAfter(double value)
 ```
 
 
-设置段落后的间距量（以网格线为单位）。
+Sets the amount of spacing (in gridlines) after the paragraphs.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 段落后的间距量（以网格线为单位）。 |
+| value | double | The amount of spacing (in gridlines) after the paragraphs. |
 
 ### setLineUnitBefore(double value) {#setLineUnitBefore-double-}
 ```
@@ -906,12 +906,12 @@ public void setLineUnitBefore(double value)
 ```
 
 
-设置段落前的间距量（以网格线为单位）。
+Sets the amount of spacing (in gridlines) before the paragraphs.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 段落前的间距（以网格线为单位）。 |
+| value | double | The amount of spacing (in gridlines) before the paragraphs. |
 
 ### setLinesToDrop(int value) {#setLinesToDrop-int-}
 ```
@@ -919,12 +919,12 @@ public void setLinesToDrop(int value)
 ```
 
 
-设置用于计算首字下沉高度的段落文本的行数。
+Sets the number of lines of the paragraph text used to calculate the drop cap height.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 用于计算首字下沉高度的段落文本的行数。 |
+| value | int | The number of lines of the paragraph text used to calculate the drop cap height. |
 
 ### setNoSpaceBetweenParagraphsOfSameStyle(boolean value) {#setNoSpaceBetweenParagraphsOfSameStyle-boolean-}
 ```
@@ -932,14 +932,14 @@ public void setNoSpaceBetweenParagraphsOfSameStyle(boolean value)
 ```
 
 
-真实时，[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-)和[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-)将在相同样式的段落之间被忽略。
+When true, [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-) and [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-) will be ignored between the paragraphs of the same style.
 
-此设置仅在应用于段落样式时生效。如果直接应用于段落，则没有效果。
+This setting only takes affect when applied to a paragraph style. If applied to a paragraph directly, it has no effect.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setOutlineLevel(int value) {#setOutlineLevel-int-}
 ```
@@ -947,12 +947,12 @@ public void setOutlineLevel(int value)
 ```
 
 
-指定文档中段落的大纲级别。
+Specifies the outline level of the paragraph in the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[OutlineLevel](../../com.aspose.words/outlinelevel)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [OutlineLevel](../../com.aspose.words/outlinelevel) constants. |
 
 ### setPageBreakBefore(boolean value) {#setPageBreakBefore-boolean-}
 ```
@@ -960,12 +960,12 @@ public void setPageBreakBefore(boolean value)
 ```
 
 
-如果在段落之前强制分页符，则为真。
+True if a page break is forced before the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setRightIndent(double value) {#setRightIndent-double-}
 ```
@@ -973,12 +973,12 @@ public void setRightIndent(double value)
 ```
 
 
-设置代表段落右缩进的值（以磅为单位）。
+Sets the value (in points) that represents the right indent for paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 代表段落右缩进的值（以磅为单位）。 |
+| value | double | The value (in points) that represents the right indent for paragraph. |
 
 ### setSnapToGrid(boolean value) {#setSnapToGrid-boolean-}
 ```
@@ -986,12 +986,12 @@ public void setSnapToGrid(boolean value)
 ```
 
 
-指定当前段落在布局段落中的内容时是否应使用每页文档网格线设置。
+Specifies whether the current paragraph should use the document grid lines per page settings when laying out the contents in the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSpaceAfter(double value) {#setSpaceAfter-double-}
 ```
@@ -999,16 +999,16 @@ public void setSpaceAfter(double value)
 ```
 
 
-设置段落后的间距量（以磅为单位）。
+Sets the amount of spacing (in points) after the paragraph.
 
-什么时候没有效果[getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-)是真的。
+Has no effect when [getSpaceAfterAuto()](../../com.aspose.words/paragraphformat\#getSpaceAfterAuto--) / [setSpaceAfterAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceAfterAuto-boolean-) is true.
 
-有效值\\u200b\\u200brange 从 0 到 1584（含）。
+Valid values \\u200b\\u200brange from 0 to 1584 inclusive.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 段落后的间距量（以磅为单位）。 |
+| value | double | The amount of spacing (in points) after the paragraph. |
 
 ### setSpaceAfterAuto(boolean value) {#setSpaceAfterAuto-boolean-}
 ```
@@ -1016,23 +1016,23 @@ public void setSpaceAfterAuto(boolean value)
 ```
 
 
-如果段落后的间距量是自动设置的，则为真。
+True if the amount of spacing after the paragraph is set automatically.
 
-当设置为 true 时，覆盖[getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
+When set to true, overrides the effect of [getSpaceAfter()](../../com.aspose.words/paragraphformat\#getSpaceAfter--) / [setSpaceAfter(double)](../../com.aspose.words/paragraphformat\#setSpaceAfter-double-).
 
-当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
+When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
- *  通常，在所有段落之后添加间距。
- *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
- *  在表格单元格的最后一段之后不添加间距。
+ *  Normally, spacing is added after all paragraphs.
+ *  In a bulleted or numbered list, spacing is added only after the last item in the list. Spacing is not added between the list items.
+ *  In a nested bulleted or numbered list spacing is not added.
+ *  Spacing is normally added after a table.
+ *  Spacing is not added after a table if it is the last block in a table cell.
+ *  Spacing is not added after the last paragraph in a table cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSpaceBefore(double value) {#setSpaceBefore-double-}
 ```
@@ -1040,16 +1040,16 @@ public void setSpaceBefore(double value)
 ```
 
 
-设置段落前的间距量（以磅为单位）。
+Sets the amount of spacing (in points) before the paragraph.
 
-什么时候没有效果[getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-)是真的。
+Has no effect when [getSpaceBeforeAuto()](../../com.aspose.words/paragraphformat\#getSpaceBeforeAuto--) / [setSpaceBeforeAuto(boolean)](../../com.aspose.words/paragraphformat\#setSpaceBeforeAuto-boolean-) is true.
 
-有效值范围从 0 到 1584（含）。
+Valid values range from 0 to 1584 inclusive.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 段落前的间距量（以磅为单位）。 |
+| value | double | The amount of spacing (in points) before the paragraph. |
 
 ### setSpaceBeforeAuto(boolean value) {#setSpaceBeforeAuto-boolean-}
 ```
@@ -1057,23 +1057,23 @@ public void setSpaceBeforeAuto(boolean value)
 ```
 
 
-如果段落前的间距量是自动设置的，则为真。
+True if the amount of spacing before the paragraph is set automatically.
 
-当设置为 true 时，覆盖[getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
+When set to true, overrides the effect of [getSpaceBefore()](../../com.aspose.words/paragraphformat\#getSpaceBefore--) / [setSpaceBefore(double)](../../com.aspose.words/paragraphformat\#setSpaceBefore-double-).
 
-当您将段落前间距和后间距设置为自动时，Microsoft Word 会根据以下规则自动在段落之间添加 14 磅间距：
+When you set paragraph Space Before and Space After to Auto, Microsoft Word adds 14 points spacing between paragraphs automatically according to the following rules:
 
- *  通常，在所有段落之后添加间距。
- *  在项目符号列表或编号列表中，仅在列表中的最后一项之后添加间距。列表项之间不添加间距。
- *  在嵌套的项目符号或编号列表中，不添加间距。
- *  间距通常在表格之后添加。
- *  如果表格是表格单元格中的最后一个块，则不会在表格之后添加间距。
- *  在表格单元格的最后一段之后不添加间距。
+ *  Normally, spacing is added after all paragraphs.
+ *  In a bulleted or numbered list, spacing is added only after the last item in the list. Spacing is not added between the list items.
+ *  In a nested bulleted or numbered list spacing is not added.
+ *  Spacing is normally added after a table.
+ *  Spacing is not added after a table if it is the last block in a table cell.
+ *  Spacing is not added after the last paragraph in a table cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setStyle(Style value) {#setStyle-com.aspose.words.Style-}
 ```
@@ -1081,12 +1081,12 @@ public void setStyle(Style value)
 ```
 
 
-设置应用于此格式的段落样式。
+Sets the paragraph style applied to this formatting.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [Style](../../com.aspose.words/style) | 应用于此格式的段落样式。 |
+| value | [Style](../../com.aspose.words/style) | The paragraph style applied to this formatting. |
 
 ### setStyleIdentifier(int value) {#setStyleIdentifier-int-}
 ```
@@ -1094,12 +1094,12 @@ public void setStyleIdentifier(int value)
 ```
 
 
-设置应用于此格式的段落样式的独立于区域设置的样式标识符。
+Sets the locale independent style identifier of the paragraph style applied to this formatting.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 应用于此格式的段落样式的区域设置独立样式标识符。该值必须是以下之一[StyleIdentifier](../../com.aspose.words/styleidentifier)常数。 |
+| value | int | The locale independent style identifier of the paragraph style applied to this formatting. The value must be one of [StyleIdentifier](../../com.aspose.words/styleidentifier) constants. |
 
 ### setStyleName(String value) {#setStyleName-java.lang.String-}
 ```
@@ -1107,12 +1107,12 @@ public void setStyleName(String value)
 ```
 
 
-设置应用于此格式的段落样式的名称。
+Sets the name of the paragraph style applied to this formatting.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 应用于此格式的段落样式的名称。 |
+| value | java.lang.String | The name of the paragraph style applied to this formatting. |
 
 ### setSuppressAutoHyphens(boolean value) {#setSuppressAutoHyphens-boolean-}
 ```
@@ -1120,12 +1120,12 @@ public void setSuppressAutoHyphens(boolean value)
 ```
 
 
-指定当前段落是否应免除在文档设置中应用的任何连字符。
+Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setSuppressLineNumbers(boolean value) {#setSuppressLineNumbers-boolean-}
 ```
@@ -1133,12 +1133,12 @@ public void setSuppressLineNumbers(boolean value)
 ```
 
 
-指定当前段落的行是否应免除在父节中应用的行编号。
+Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setWidowControl(boolean value) {#setWidowControl-boolean-}
 ```
@@ -1146,12 +1146,12 @@ public void setWidowControl(boolean value)
 ```
 
 
-如果段落中的第一行和最后一行要与段落的其余部分保持在同一页上，则为真。
+True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setWordWrap(boolean value) {#setWordWrap-boolean-}
 ```
@@ -1159,12 +1159,12 @@ public void setWordWrap(boolean value)
 ```
 
 
-如果这个属性是**false**, 单词中间的拉丁文字可以为当前段落换行。否则，拉丁文本会被整个单词包裹。
+If this property is **false**, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -1174,7 +1174,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1192,8 +1192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1205,8 +1205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

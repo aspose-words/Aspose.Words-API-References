@@ -1,42 +1,42 @@
 ---
 title: FrameFormat
-second_title: Aspose.Words for Java API 参考
-description: 表示段落的框架相关格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents frame related formatting for a paragraph.
 type: docs
 weight: 301
-url: /zh/java/com.aspose.words/frameformat/
+url: /java/com.aspose.words/frameformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class FrameFormat
 ```
 
-表示段落的框架相关格式。
+Represents frame related formatting for a paragraph.
 
-始终创建此对象。如果一个段落是一个框架，那么所有属性都将包含各自的值，否则所有属性都设置为其默认值。
+This object is always created. If a paragraph is a frame, then all properties will contain respective values, otherwise all properties are set to their defaults.
 
-利用[isFrame()](../../com.aspose.words/frameformat\#isFrame--)检查段落是否为框架。
-## 方法s
+Use [isFrame()](../../com.aspose.words/frameformat\#isFrame--) to check whether paragraph is a frame.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getHeight()](#getHeight--) | 获取指定框架的高度。 |
-| [getHeightRule()](#getHeightRule--) | 获取确定指定框架高度的规则。 |
-| [getHorizontalAlignment()](#getHorizontalAlignment--) | 获取指定帧的水平对齐方式。 |
-| [getHorizontalDistanceFromText()](#getHorizontalDistanceFromText--) | 获取框架与周围文本之间的水平距离，以磅为单位。 |
-| [getHorizontalPosition()](#getHorizontalPosition--) | 获取框架边缘与由 指定的项目之间的水平距离[getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--)财产。 |
-| [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition--) | 获取帧的相对水平位置。 |
-| [getRelativeVerticalPosition()](#getRelativeVerticalPosition--) | 获取帧的相对垂直位置。 |
-| [getVerticalAlignment()](#getVerticalAlignment--) | 获取指定帧的垂直对齐方式。 |
-| [getVerticalDistanceFromText()](#getVerticalDistanceFromText--) | 指定框架与周围文本之间的垂直距离（以磅为单位）。 |
-| [getVerticalPosition()](#getVerticalPosition--) | 获取框架边缘与由 指定的项目之间的垂直距离[getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--)财产。 |
-| [getWidth()](#getWidth--) | 获取指定帧的宽度，以磅为单位。 |
+| [getClass()](#getClass--) |  |
+| [getHeight()](#getHeight--) | Gets the height of the specified frame. |
+| [getHeightRule()](#getHeightRule--) | Gets the rule for determining the height of the specified frame. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--) | Gets horizontal alignment of the specified frame. |
+| [getHorizontalDistanceFromText()](#getHorizontalDistanceFromText--) | Gets horizontal distance between a frame and the surrounding text, in points. |
+| [getHorizontalPosition()](#getHorizontalPosition--) | Gets horizontal distance between the edge of the frame and the item specified by the [getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--) property. |
+| [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition--) | Gets the relative horizontal position of a frame. |
+| [getRelativeVerticalPosition()](#getRelativeVerticalPosition--) | Gets the relative vertical position of a frame. |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Gets vertical alignment of the specified frame. |
+| [getVerticalDistanceFromText()](#getVerticalDistanceFromText--) | Specifies vertical distance (in points) between a frame and the surrounding text. |
+| [getVerticalPosition()](#getVerticalPosition--) | Gets vertical distance between the edge of the frame and the item specified by the [getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--) property. |
+| [getWidth()](#getWidth--) | Gets the width of the specified frame, in points. |
 | [hashCode()](#hashCode--) |  |
-| [isFrame()](#isFrame--) | 如果段落是框架，则返回 true。 |
+| [isFrame()](#isFrame--) | Returns true if the paragraph is a frame. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -51,133 +51,133 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
 ```
 
 
-获取指定框架的高度。
+Gets the height of the specified frame.
 
-**退货:**
-double - 指定框架的高度。
+**Returns:**
+double - The height of the specified frame.
 ### getHeightRule() {#getHeightRule--}
 ```
 public int getHeightRule()
 ```
 
 
-获取确定指定框架高度的规则。
+Gets the rule for determining the height of the specified frame.
 
-**退货:**
- int - 确定指定框架高度的规则。返回值是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。
+**Returns:**
+int - The rule for determining the height of the specified frame. The returned value is one of [HeightRule](../../com.aspose.words/heightrule) constants.
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 ```
 public int getHorizontalAlignment()
 ```
 
 
-获取指定帧的水平对齐方式。
+Gets horizontal alignment of the specified frame.
 
-**退货:**
-int - 指定帧的水平对齐方式。返回值是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。
+**Returns:**
+int - Horizontal alignment of the specified frame. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
 ### getHorizontalDistanceFromText() {#getHorizontalDistanceFromText--}
 ```
 public double getHorizontalDistanceFromText()
 ```
 
 
-获取框架与周围文本之间的水平距离，以磅为单位。
+Gets horizontal distance between a frame and the surrounding text, in points.
 
-**退货:**
-double - 框架与周围文本之间的水平距离，以磅为单位。
+**Returns:**
+double - Horizontal distance between a frame and the surrounding text, in points.
 ### getHorizontalPosition() {#getHorizontalPosition--}
 ```
 public double getHorizontalPosition()
 ```
 
 
-获取框架边缘与由 指定的项目之间的水平距离[getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--)财产。
+Gets horizontal distance between the edge of the frame and the item specified by the [getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--) property.
 
-**退货:**
- double - 框架边缘与指定项之间的水平距离[getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--)财产。
+**Returns:**
+double - Horizontal distance between the edge of the frame and the item specified by the [getRelativeHorizontalPosition()](../../com.aspose.words/frameformat\#getRelativeHorizontalPosition--) property.
 ### getRelativeHorizontalPosition() {#getRelativeHorizontalPosition--}
 ```
 public int getRelativeHorizontalPosition()
 ```
 
 
-获取帧的相对水平位置。
+Gets the relative horizontal position of a frame.
 
-**退货:**
-int - 帧的相对水平位置。返回值是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。
+**Returns:**
+int - The relative horizontal position of a frame. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants.
 ### getRelativeVerticalPosition() {#getRelativeVerticalPosition--}
 ```
 public int getRelativeVerticalPosition()
 ```
 
 
-获取帧的相对垂直位置。
+Gets the relative vertical position of a frame.
 
-**退货:**
-int - 框架的相对垂直位置。返回值是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。
+**Returns:**
+int - The relative vertical position of a frame. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants.
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
 ```
 
 
-获取指定帧的垂直对齐方式。
+Gets vertical alignment of the specified frame.
 
-**退货:**
-int - 指定帧的垂直对齐方式。返回值是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。
+**Returns:**
+int - Vertical alignment of the specified frame. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants.
 ### getVerticalDistanceFromText() {#getVerticalDistanceFromText--}
 ```
 public double getVerticalDistanceFromText()
 ```
 
 
-指定框架与周围文本之间的垂直距离（以磅为单位）。
+Specifies vertical distance (in points) between a frame and the surrounding text.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getVerticalPosition() {#getVerticalPosition--}
 ```
 public double getVerticalPosition()
 ```
 
 
-获取框架边缘与由 指定的项目之间的垂直距离[getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--)财产。
+Gets vertical distance between the edge of the frame and the item specified by the [getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--) property.
 
-**退货:**
-double - 框架边缘与指定项之间的垂直距离[getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--)财产。
+**Returns:**
+double - Vertical distance between the edge of the frame and the item specified by the [getRelativeVerticalPosition()](../../com.aspose.words/frameformat\#getRelativeVerticalPosition--) property.
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-获取指定帧的宽度，以磅为单位。
+Gets the width of the specified frame, in points.
 
-**退货:**
-double - 指定框架的宽度，以磅为单位。
+**Returns:**
+double - The width of the specified frame, in points.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -186,18 +186,18 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isFrame() {#isFrame--}
 ```
 public boolean isFrame()
 ```
 
 
-如果段落是框架，则返回 true。
+Returns true if the paragraph is a frame.
 
-**退货:**
-boolean - 如果段落是框架，则为真。
+**Returns:**
+boolean - True if the paragraph is a frame.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -222,7 +222,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -240,8 +240,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -253,8 +253,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

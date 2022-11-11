@@ -1,45 +1,45 @@
 ---
 title: CssSavingArgs
-second_title: Aspose.Words for Java API 参考
-description: 为事件提供数据。
+second_title: Aspose.Words for Java API Reference
+description: Provides data for the  event.
 type: docs
 weight: 96
-url: /zh/java/com.aspose.words/csssavingargs/
+url: /java/com.aspose.words/csssavingargs/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CssSavingArgs
 ```
 
-提供数据为[ICssSavingCallback.cssSaving(com.aspose.words.CssSavingArgs)](../../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs-)事件。
+Provides data for the [ICssSavingCallback.cssSaving(com.aspose.words.CssSavingArgs)](../../com.aspose.words/icsssavingcallback\#cssSaving-com.aspose.words.CssSavingArgs-) event.
 
-要了解更多信息，请访问**Save a Document**文档文章。
+To learn more, visit the **Save a Document** documentation article.
 
-默认情况下，当 Aspose.Words 将文档保存为 HTML 时，它会内联保存 CSS 信息（作为**style**每个元素的属性）。
+By default, when Aspose.Words saves a document to HTML, it saves CSS information inline (as a value of the **style** attribute on every element).
 
-[CssSavingArgs](../../com.aspose.words/csssavingargs)允许通过提供您自己的流对象将 CSS 信息保存到文件中。
+[CssSavingArgs](../../com.aspose.words/csssavingargs) allows to save CSS information into file by providing your own stream object.
 
-要将 CSS 保存到流中，请使用**P:Aspose.Words.Saving.CssSavingArgs.CssStream**财产。
+To save CSS into stream, use the **P:Aspose.Words.Saving.CssSavingArgs.CssStream** property.
 
-要禁止将 CSS 保存到文件中并嵌入到 HTML 文档中，请使用[isExportNeeded()](../../com.aspose.words/csssavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/csssavingargs\#isExportNeeded-boolean-)财产。
-## 方法s
+To suppress saving CSS into a file and embedding to HTML document use the [isExportNeeded()](../../com.aspose.words/csssavingargs\#isExportNeeded--) / [isExportNeeded(boolean)](../../com.aspose.words/csssavingargs\#isExportNeeded-boolean-) property.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getCssStream()](#getCssStream--) |  |
-| [getDocument()](#getDocument--) | 获取当前正在保存的文档对象。 |
-| [getKeepCssStreamOpen()](#getKeepCssStreamOpen--) | 指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。 |
+| [getDocument()](#getDocument--) | Gets the document object that is currently being saved. |
+| [getKeepCssStreamOpen()](#getKeepCssStreamOpen--) | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
 | [hashCode()](#hashCode--) |  |
-| [isExportNeeded()](#isExportNeeded--) | 允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。 |
-| [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | 允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。 |
+| [isExportNeeded()](#isExportNeeded--) | Allows to specify whether the CSS will be exported to file and embedded to HTML document. |
+| [isExportNeeded(boolean value)](#isExportNeeded-boolean-) | Allows to specify whether the CSS will be exported to file and embedded to HTML document. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setCssStream(OutputStream value)](#setCssStream-java.io.OutputStream-) |  |
-| [setKeepCssStreamOpen(boolean value)](#setKeepCssStreamOpen-boolean-) | 指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。 |
+| [setKeepCssStreamOpen(boolean value)](#setKeepCssStreamOpen-boolean-) | Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -52,23 +52,23 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCssStream() {#getCssStream--}
 ```
 public OutputStream getCssStream()
@@ -77,7 +77,7 @@ public OutputStream getCssStream()
 
 
 
-**退货:**
+**Returns:**
 java.io.OutputStream
 ### getDocument() {#getDocument--}
 ```
@@ -85,24 +85,24 @@ public Document getDocument()
 ```
 
 
-获取当前正在保存的文档对象。
+Gets the document object that is currently being saved.
 
-**退货:**
-[Document](../../com.aspose.words/document) - 当前正在保存的文档对象。
+**Returns:**
+[Document](../../com.aspose.words/document) - The document object that is currently being saved.
 ### getKeepCssStreamOpen() {#getKeepCssStreamOpen--}
 ```
 public boolean getKeepCssStreamOpen()
 ```
 
 
-指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。
+Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information.
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**将 CSS 信息写入其中后的属性。指定 true 以保持流打开。
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.CssSavingArgs.CssStream** property after writing an CSS information into it. Specify  true  to keep the stream open.
 
 **P:Aspose.Words.Saving.CssSavingArgs.CssStream**
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -111,30 +111,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isExportNeeded() {#isExportNeeded--}
 ```
 public boolean isExportNeeded()
 ```
 
 
-允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
+Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is  true . When this property is  false , the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isExportNeeded(boolean value) {#isExportNeeded-boolean-}
 ```
 public void isExportNeeded(boolean value)
 ```
 
 
-允许指定是否将 CSS 导出到文件并嵌入到 HTML 文档中。默认为 true 。当此属性为 false 时，CSS 信息不会保存到 CSS 文件中，也不会嵌入到 HTML 文档中。
+Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is  true . When this property is  false , the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### notify() {#notify--}
 ```
@@ -160,8 +160,8 @@ public void setCssStream(OutputStream value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.io.OutputStream |  |
 
@@ -171,16 +171,16 @@ public void setKeepCssStreamOpen(boolean value)
 ```
 
 
-指定 Aspose.Words 应该在保存 CSS 信息后保持流打开还是关闭它。
+Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information.
 
-默认为 false 并且 Aspose.Words 将关闭您在**P:Aspose.Words.Saving.CssSavingArgs.CssStream**将 CSS 信息写入其中后的属性。指定 true 以保持流打开。
+Default is  false  and Aspose.Words will close the stream you provided in the **P:Aspose.Words.Saving.CssSavingArgs.CssStream** property after writing an CSS information into it. Specify  true  to keep the stream open.
 
 **P:Aspose.Words.Saving.CssSavingArgs.CssStream**
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -190,7 +190,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -208,8 +208,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -221,8 +221,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

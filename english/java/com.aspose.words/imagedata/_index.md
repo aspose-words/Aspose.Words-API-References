@@ -1,79 +1,79 @@
 ---
 title: ImageData
-second_title: Aspose.Words for Java API 参考
-description: 定义形状的图像。
+second_title: Aspose.Words for Java API Reference
+description: Defines an image for a shape.
 type: docs
 weight: 337
-url: /zh/java/com.aspose.words/imagedata/
+url: /java/com.aspose.words/imagedata/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class ImageData
 ```
 
-定义形状的图像。
+Defines an image for a shape.
 
-要了解更多信息，请访问**Working with Images**文档文章。
+To learn more, visit the **Working with Images** documentation article.
 
-使用[Shape.getImageData()](../../com.aspose.words/shape\#getImageData--)属性来访问和修改形状内的图像。您不创建的实例[ImageData](../../com.aspose.words/imagedata)直接上课。
+Use the [Shape.getImageData()](../../com.aspose.words/shape\#getImageData--) property to access and modify the image inside a shape. You do not create instances of the [ImageData](../../com.aspose.words/imagedata) class directly.
 
-图像可以存储在形状内，链接到外部文件或两者（链接并存储在文档中）。
+An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 
-无论图像是存储在形状内还是链接在一起，您始终可以使用[toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--)或者[save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-)方法。如果图像存储在形状内，您也可以使用[getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---)财产。
+Regardless of whether the image is stored inside the shape or linked, you can always access the actual image using the [toByteArray()](../../com.aspose.words/imagedata\#toByteArray--), [toImage()](../../com.aspose.words/imagedata\#toImage--) or [save(java.lang.String)](../../com.aspose.words/imagedata\#save-java.lang.String-) methods. If the image is stored inside the shape, you can also directly access it using the [getImageBytes()](../../com.aspose.words/imagedata\#getImageBytes--) / [setImageBytes(byte[])](../../com.aspose.words/imagedata\#setImageBytes-byte---) property.
 
-要将图像存储在形状中，请使用[setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-)方法。要将图像链接到形状，请将[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)财产。
-## 方法s
+To store an image inside a shape use the [setImage(java.lang.String)](../../com.aspose.words/imagedata\#setImage-java.lang.String-) method. To link an image to a shape, set the [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) property.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getBiLevel()](#getBiLevel--) | 确定图像是否以黑白显示。 |
-| [getBorders()](#getBorders--) | 获取图像边框的集合。 |
-| [getBrightness()](#getBrightness--) | 获取图片的亮度。 |
-| [getChromaKey()](#getChromaKey--) | 定义将被视为透明的图像的颜色值。 |
-| [get班级()](#get班级--) |  |
-| [getContrast()](#getContrast--) | 获取指定图片的对比度。 |
-| [getCropBottom()](#getCropBottom--) | 定义从底部移除图片的比例。 |
-| [getCropLeft()](#getCropLeft--) | 定义从左侧删除图片的比例。 |
-| [getCropRight()](#getCropRight--) | 定义从右侧移除图片的比例。 |
-| [getCropTop()](#getCropTop--) | 定义从顶部移除图片的比例。 |
+| [getBiLevel()](#getBiLevel--) | Determines whether an image will be displayed in black and white. |
+| [getBorders()](#getBorders--) | Gets the collection of borders of the image. |
+| [getBrightness()](#getBrightness--) | Gets the brightness of the picture. |
+| [getChromaKey()](#getChromaKey--) | Defines the color value of the image that will be treated as transparent. |
+| [getClass()](#getClass--) |  |
+| [getContrast()](#getContrast--) | Gets the contrast for the specified picture. |
+| [getCropBottom()](#getCropBottom--) | Defines the fraction of picture removal from the bottom side. |
+| [getCropLeft()](#getCropLeft--) | Defines the fraction of picture removal from the left side. |
+| [getCropRight()](#getCropRight--) | Defines the fraction of picture removal from the right side. |
+| [getCropTop()](#getCropTop--) | Defines the fraction of picture removal from the top side. |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getGrayScale()](#getGrayScale--) | 确定图片是否以灰度模式显示。 |
-| [getImageBytes()](#getImageBytes--) | 获取存储在形状中的图像的原始字节。 |
-| [getImageSize()](#getImageSize--) | 获取有关图像大小和分辨率的信息。 |
-| [getImage类型()](#getImage类型--) | 获取图像的类型。 |
-| [getSourceFullName()](#getSourceFullName--) | 获取链接图像的源文件的路径和名称。 |
-| [getTitle()](#getTitle--) | 定义图像的标题。 |
-| [hasImage()](#hasImage--) | 如果形状具有图像字节或链接图像，则返回 true。 |
+| [getGrayScale()](#getGrayScale--) | Determines whether a picture will display in grayscale mode. |
+| [getImageBytes()](#getImageBytes--) | Gets the raw bytes of the image stored in the shape. |
+| [getImageSize()](#getImageSize--) | Gets the information about image size and resolution. |
+| [getImageType()](#getImageType--) | Gets the type of the image. |
+| [getSourceFullName()](#getSourceFullName--) | Gets the path and name of the source file for the linked image. |
+| [getTitle()](#getTitle--) | Defines the title of an image. |
+| [hasImage()](#hasImage--) | Returns true if the shape has image bytes or links an image. |
 | [hashCode()](#hashCode--) |  |
-| [isLink()](#isLink--) | 如果图像链接到形状，则返回 true（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 |
-| [isLinkOnly()](#isLinkOnly--) | 如果图像已链接且未存储在文档中，则返回 true。 |
+| [isLink()](#isLink--) | Returns true if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified). |
+| [isLinkOnly()](#isLinkOnly--) | Returns true if the image is linked and not stored in the document. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
-| [save(String fileName)](#save-java.lang.String-) | 将图像保存到文件中。 |
-| [setBiLevel(boolean value)](#setBiLevel-boolean-) | 确定图像是否以黑白显示。 |
+| [save(String fileName)](#save-java.lang.String-) | Saves the image into a file. |
+| [setBiLevel(boolean value)](#setBiLevel-boolean-) | Determines whether an image will be displayed in black and white. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBrightness(double value)](#setBrightness-double-) | 设置图像的亮度。 |
-| [setChromaKey(Color value)](#setChromaKey-java.awt.Color-) | 定义将被视为透明的图像的颜色值。 |
-| [setContrast(double value)](#setContrast-double-) | 设置指定图片的对比度。 |
-| [setCropBottom(double value)](#setCropBottom-double-) | 定义从底部移除图片的比例。 |
-| [setCropLeft(double value)](#setCropLeft-double-) | 定义从左侧删除图片的比例。 |
-| [setCropRight(double value)](#setCropRight-double-) | 定义从右侧移除图片的比例。 |
-| [setCropTop(double value)](#setCropTop-double-) | 定义从顶部移除图片的比例。 |
-| [setGrayScale(boolean value)](#setGrayScale-boolean-) | 确定图片是否以灰度模式显示。 |
-| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | 设置形状显示的图像。 |
+| [setBrightness(double value)](#setBrightness-double-) | Sets the brightness of the picture. |
+| [setChromaKey(Color value)](#setChromaKey-java.awt.Color-) | Defines the color value of the image that will be treated as transparent. |
+| [setContrast(double value)](#setContrast-double-) | Sets the contrast for the specified picture. |
+| [setCropBottom(double value)](#setCropBottom-double-) | Defines the fraction of picture removal from the bottom side. |
+| [setCropLeft(double value)](#setCropLeft-double-) | Defines the fraction of picture removal from the left side. |
+| [setCropRight(double value)](#setCropRight-double-) | Defines the fraction of picture removal from the right side. |
+| [setCropTop(double value)](#setCropTop-double-) | Defines the fraction of picture removal from the top side. |
+| [setGrayScale(boolean value)](#setGrayScale-boolean-) | Determines whether a picture will display in grayscale mode. |
+| [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage-) | Sets the image that the shape displays. |
 | [setImage(InputStream stream)](#setImage-java.io.InputStream-) |  |
-| [setImage(String fileName)](#setImage-java.lang.String-) | 设置形状显示的图像。 |
-| [setImageBytes(byte[] value)](#setImageBytes-byte---) | 设置存储在形状中的图像的原始字节。 |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | 设置链接图像的源文件的路径和名称。 |
-| [setTitle(String value)](#setTitle-java.lang.String-) | 定义图像的标题。 |
-| [toByteArray()](#toByteArray--) | 返回任何图像的图像字节，无论图像是存储还是链接。 |
-| [toImage()](#toImage--) | 获取作为 java BufferedImage 对象存储在形状中的图像。 |
-| [toStream()](#toStream--) | 创建并返回包含图像字节的流。 |
+| [setImage(String fileName)](#setImage-java.lang.String-) | Sets the image that the shape displays. |
+| [setImageBytes(byte[] value)](#setImageBytes-byte---) | Sets the raw bytes of the image stored in the shape. |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Sets the path and name of the source file for the linked image. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Defines the title of an image. |
+| [toByteArray()](#toByteArray--) | Returns image bytes for any image regardless whether the image is stored or linked. |
+| [toImage()](#toImage--) | Gets the image stored in the shape as a java  BufferedImage  object. |
+| [toStream()](#toStream--) | Creates and returns a stream that contains the image bytes. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -101,12 +101,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getBiLevel() {#getBiLevel--}
 ```
@@ -114,124 +114,124 @@ public boolean getBiLevel()
 ```
 
 
-确定图像是否以黑白显示。
+Determines whether an image will be displayed in black and white.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
 ```
 
 
-获取图像边框的集合。边框仅对内联图像有效。
+Gets the collection of borders of the image. Borders only have effect for inline images.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 图像边框的集合。
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - The collection of borders of the image.
 ### getBrightness() {#getBrightness--}
 ```
 public double getBrightness()
 ```
 
 
-获取图片的亮度。此属性的值必须是从 0.0（最暗）到 1.0（最亮）的数字。
+Gets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest).
 
-默认值为 0.5。
+The default value is 0.5.
 
-**退货:**
-double - 图片的亮度。
+**Returns:**
+double - The brightness of the picture.
 ### getChromaKey() {#getChromaKey--}
 ```
 public Color getChromaKey()
 ```
 
 
-定义将被视为透明的图像的颜色值。
+Defines the color value of the image that will be treated as transparent.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-java.awt.Color - 对应的 java.awt.Color 值。
-### get班级() {#get班级--}
+**Returns:**
+java.awt.Color - The corresponding java.awt.Color value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getContrast() {#getContrast--}
 ```
 public double getContrast()
 ```
 
 
-获取指定图片的对比度。此属性的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。
+Gets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast).
 
-默认值为 0.5。
+The default value is 0.5.
 
-**退货:**
-double - 指定图片的对比度。
+**Returns:**
+double - The contrast for the specified picture.
 ### getCropBottom() {#getCropBottom--}
 ```
 public double getCropBottom()
 ```
 
 
-定义从底部移除图片的比例。
+Defines the fraction of picture removal from the bottom side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getCropLeft() {#getCropLeft--}
 ```
 public double getCropLeft()
 ```
 
 
-定义从左侧删除图片的比例。
+Defines the fraction of picture removal from the left side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getCropRight() {#getCropRight--}
 ```
 public double getCropRight()
 ```
 
 
-定义从右侧移除图片的比例。
+Defines the fraction of picture removal from the right side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getCropTop() {#getCropTop--}
 ```
 public double getCropTop()
 ```
 
 
-定义从顶部移除图片的比例。
+Defines the fraction of picture removal from the top side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -240,12 +240,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getGrayScale() {#getGrayScale--}
 ```
@@ -253,84 +253,84 @@ public boolean getGrayScale()
 ```
 
 
-确定图片是否以灰度模式显示。
+Determines whether a picture will display in grayscale mode.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getImageBytes() {#getImageBytes--}
 ```
 public byte[] getImageBytes()
 ```
 
 
-获取存储在形状中的图像的原始字节。
+Gets the raw bytes of the image stored in the shape.
 
-将值设置为 null 或空数组将从形状中删除图像。
+Setting the value to  null  or an empty array will remove the image from the shape.
 
-如果图像未存储在文档中，则返回 null（例如，在这种情况下，图像可能是链接的）。
+Returns  null  if the image is not stored in the document (e.g the image is probably linked in this case).
 
-**退货:**
-字节[] - 存储在形状中的图像的原始字节。
+**Returns:**
+byte[] - The raw bytes of the image stored in the shape.
 ### getImageSize() {#getImageSize--}
 ```
 public ImageSize getImageSize()
 ```
 
 
-获取有关图像大小和分辨率的信息。 (4661,6)
+Gets the information about image size and resolution. (4661,6)
 
-如果图像仅链接而不存储在文档中，则返回零大小。
+If the image is linked only and not stored in the document, returns zero size.
 
-**退货:**
-[ImageSize](../../com.aspose.words/imagesize) - 有关图像大小和分辨率的信息。
-### getImage类型() {#getImage类型--}
+**Returns:**
+[ImageSize](../../com.aspose.words/imagesize) - The information about image size and resolution.
+### getImageType() {#getImageType--}
 ```
-public int getImage类型()
+public int getImageType()
 ```
 
 
-获取图像的类型。 (4671,6)
+Gets the type of the image. (4671,6)
 
-**退货:**
- int - 图像的类型。返回值是以下之一[Image类型](../../com.aspose.words/imagetype)常数。
+**Returns:**
+int - The type of the image. The returned value is one of [ImageType](../../com.aspose.words/imagetype) constants.
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
 ```
 
 
-获取链接图像的源文件的路径和名称。
+Gets the path and name of the source file for the linked image.
 
-默认值为空字符串。
+The default value is an empty string.
 
-如果[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)不是空字符串，图像是链接的。
+If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is not an empty string, the image is linked.
 
-**退货:**
-java.lang.String - 链接图像的源文件的路径和名称。
+**Returns:**
+java.lang.String - The path and name of the source file for the linked image.
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-定义图像的标题。
+Defines the title of an image.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### hasImage() {#hasImage--}
 ```
 public boolean hasImage()
 ```
 
 
-如果形状具有图像字节或链接图像，则返回 true。 (4654,6)
+Returns true if the shape has image bytes or links an image. (4654,6)
 
-**退货:**
-boolean - 如果形状具有图像字节或链接图像，则为真。
+**Returns:**
+boolean - True if the shape has image bytes or links an image.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -339,28 +339,28 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isLink() {#isLink--}
 ```
 public boolean isLink()
 ```
 
 
-如果图像链接到形状，则返回 true（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。 (4678,6)
+Returns true if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified). (4678,6)
 
-**退货:**
- boolean - 如果图像链接到形状则为真（当[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)已指定）。
+**Returns:**
+boolean - True if the image is linked to the shape (when [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is specified).
 ### isLinkOnly() {#isLinkOnly--}
 ```
 public boolean isLinkOnly()
 ```
 
 
-如果图像已链接且未存储在文档中，则返回 true。 (4685,6)
+Returns true if the image is linked and not stored in the document. (4685,6)
 
-**退货:**
-boolean - 如果图像已链接且未存储在文档中，则为真。
+**Returns:**
+boolean - True if the image is linked and not stored in the document.
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -385,8 +385,8 @@ public void save(OutputStream stream)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.OutputStream |  |
 
@@ -396,12 +396,12 @@ public void save(String fileName)
 ```
 
 
-将图像保存到文件中。
+Saves the image into a file.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 保存图像的文件名。 |
+| fileName | java.lang.String | The file name where to save the image. |
 
 ### setBiLevel(boolean value) {#setBiLevel-boolean-}
 ```
@@ -409,14 +409,14 @@ public void setBiLevel(boolean value)
 ```
 
 
-确定图像是否以黑白显示。
+Determines whether an image will be displayed in black and white.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -426,8 +426,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -438,14 +438,14 @@ public void setBrightness(double value)
 ```
 
 
-设置图像的亮度。此属性的值必须是从 0.0（最暗）到 1.0（最亮）的数字。
+Sets the brightness of the picture. The value for this property must be a number from 0.0 (dimmest) to 1.0 (brightest).
 
-默认值为 0.5。
+The default value is 0.5.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 图片的亮度。 |
+| value | double | The brightness of the picture. |
 
 ### setChromaKey(Color value) {#setChromaKey-java.awt.Color-}
 ```
@@ -453,14 +453,14 @@ public void setChromaKey(Color value)
 ```
 
 
-定义将被视为透明的图像的颜色值。
+Defines the color value of the image that will be treated as transparent.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 对应的 java.awt.Color 值。 |
+| value | java.awt.Color | The corresponding java.awt.Color value. |
 
 ### setContrast(double value) {#setContrast-double-}
 ```
@@ -468,14 +468,14 @@ public void setContrast(double value)
 ```
 
 
-设置指定图片的对比度。此属性的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。
+Sets the contrast for the specified picture. The value for this property must be a number from 0.0 (the least contrast) to 1.0 (the greatest contrast).
 
-默认值为 0.5。
+The default value is 0.5.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 指定图片的对比度。 |
+| value | double | The contrast for the specified picture. |
 
 ### setCropBottom(double value) {#setCropBottom-double-}
 ```
@@ -483,16 +483,16 @@ public void setCropBottom(double value)
 ```
 
 
-定义从底部移除图片的比例。
+Defines the fraction of picture removal from the bottom side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setCropLeft(double value) {#setCropLeft-double-}
 ```
@@ -500,16 +500,16 @@ public void setCropLeft(double value)
 ```
 
 
-定义从左侧删除图片的比例。
+Defines the fraction of picture removal from the left side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setCropRight(double value) {#setCropRight-double-}
 ```
@@ -517,16 +517,16 @@ public void setCropRight(double value)
 ```
 
 
-定义从右侧移除图片的比例。
+Defines the fraction of picture removal from the right side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setCropTop(double value) {#setCropTop-double-}
 ```
@@ -534,16 +534,16 @@ public void setCropTop(double value)
 ```
 
 
-定义从顶部移除图片的比例。
+Defines the fraction of picture removal from the top side.
 
-裁剪量的范围可以从 -1.0 到 1.0。默认值为 0。请注意，值为 1 将根本不显示图片。负值将导致图片从被裁剪的边缘向内挤压（图片和裁剪边缘之间的空白空间将被形状的填充颜色填充）。小于 1 的正值将导致剩余的图片被拉伸以适应形状。
+The amount of cropping can range from -1.0 to 1.0. The default value is 0. Note that a value of 1 will display no picture at all. Negative values will result in the picture being squeezed inward from the edge being cropped (the empty space between the picture and the cropped edge will be filled by the fill color of the shape). Positive values less than 1 will result in the remaining picture being stretched to fit the shape.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setGrayScale(boolean value) {#setGrayScale-boolean-}
 ```
@@ -551,14 +551,14 @@ public void setGrayScale(boolean value)
 ```
 
 
-确定图片是否以灰度模式显示。
+Determines whether a picture will display in grayscale mode.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setImage(BufferedImage image) {#setImage-java.awt.image.BufferedImage-}
 ```
@@ -566,12 +566,12 @@ public void setImage(BufferedImage image)
 ```
 
 
-设置形状显示的图像。
+Sets the image that the shape displays.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| image | java.awt.image.BufferedImage | 图像对象。 |
+| image | java.awt.image.BufferedImage | The image object. |
 
 ### setImage(InputStream stream) {#setImage-java.io.InputStream-}
 ```
@@ -581,8 +581,8 @@ public void setImage(InputStream stream)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | stream | java.io.InputStream |  |
 
@@ -592,12 +592,12 @@ public void setImage(String fileName)
 ```
 
 
-设置形状显示的图像。
+Sets the image that the shape displays.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| fileName | java.lang.String | 图像文件。可以是文件名或 URL。 |
+| fileName | java.lang.String | The image file. Can be a file name or a URL. |
 
 ### setImageBytes(byte[] value) {#setImageBytes-byte---}
 ```
@@ -605,16 +605,16 @@ public void setImageBytes(byte[] value)
 ```
 
 
-设置存储在形状中的图像的原始字节。
+Sets the raw bytes of the image stored in the shape.
 
-将值设置为 null 或空数组将从形状中删除图像。
+Setting the value to  null  or an empty array will remove the image from the shape.
 
-如果图像未存储在文档中，则返回 null（例如，在这种情况下，图像可能是链接的）。
+Returns  null  if the image is not stored in the document (e.g the image is probably linked in this case).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte[] | 存储在形状中的图像的原始字节。 |
+| value | byte[] | The raw bytes of the image stored in the shape. |
 
 ### setSourceFullName(String value) {#setSourceFullName-java.lang.String-}
 ```
@@ -622,16 +622,16 @@ public void setSourceFullName(String value)
 ```
 
 
-设置链接图像的源文件的路径和名称。
+Sets the path and name of the source file for the linked image.
 
-默认值为空字符串。
+The default value is an empty string.
 
-如果[getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-)不是空字符串，图像是链接的。
+If [getSourceFullName()](../../com.aspose.words/imagedata\#getSourceFullName--) / [setSourceFullName(java.lang.String)](../../com.aspose.words/imagedata\#setSourceFullName-java.lang.String-) is not an empty string, the image is linked.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 链接图像的源文件的路径和名称。 |
+| value | java.lang.String | The path and name of the source file for the linked image. |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -639,14 +639,14 @@ public void setTitle(String value)
 ```
 
 
-定义图像的标题。
+Defines the title of an image.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### toByteArray() {#toByteArray--}
 ```
@@ -654,41 +654,41 @@ public byte[] toByteArray()
 ```
 
 
-返回任何图像的图像字节，无论图像是存储还是链接。
+Returns image bytes for any image regardless whether the image is stored or linked.
 
-**退货:**
-字节[] - 如果图像已链接，则每次调用时都会下载图像。
+**Returns:**
+byte[] - If the image is linked, downloads the image every time it is called.
 ### toImage() {#toImage--}
 ```
 public BufferedImage toImage()
 ```
 
 
-获取作为 java BufferedImage 对象存储在形状中的图像。
+Gets the image stored in the shape as a java  BufferedImage  object.
 
-**退货:**
-java.awt.image.BufferedImage - 每次调用此方法时尝试从图像字节创建一个新的 java.awt.image.BufferedImage 对象。如果 javax.imageio.ImageReader 无法读取图像字节（emf、wmf、tiff 等），则该方法返回 null。
+**Returns:**
+java.awt.image.BufferedImage - Tries to create a new  java.awt.image.BufferedImage  object from image bytes every time this method is called. If  javax.imageio.ImageReader  can't read image bytes (emf, wmf, tiff, etc.) the method returns null.
 
-调用者负责处理图像对象。
+It is the responsibility of the caller to dispose the image object.
 ### toStream() {#toStream--}
 ```
 public InputStream toStream()
 ```
 
 
-创建并返回包含图像字节的流。
+Creates and returns a stream that contains the image bytes.
 
-如果图像字节存储在形状中，则创建并返回一个对象。
+If the image bytes are stored in the shape, creates and returns a  object.
 
-如果图像被链接并存储在文件中，则打开文件并返回一个对象。
+If the image is linked and stored in a file, opens the file and returns a  object.
 
-如果图像被链接并存储在外部 URL 中，则打开 URL 并返回一个对象。
+If the image is linked and stored in an external URL, opens the URL and returns a  object.
 
-调用者是否有责任处置流对象。
+Is it the responsibility of the caller to dispose the stream object.
 
-这还没有移植到Java。
+This is not ported to Java yet.
 
-**退货:**
+**Returns:**
 java.io.InputStream
 ### toString() {#toString--}
 ```
@@ -698,7 +698,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -716,8 +716,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -729,8 +729,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

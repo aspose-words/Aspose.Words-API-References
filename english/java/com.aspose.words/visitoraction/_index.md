@@ -1,34 +1,34 @@
 ---
 title: VisitorAction
 second_title: Aspose.Words for Java API Reference
-description: 允许访问者控制节点的枚举。
+description: Allows the visitor to control the enumeration of nodes.
 type: docs
 weight: 603
-url: /zh/java/com.aspose.words/visitoraction/
+url: /java/com.aspose.words/visitoraction/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class VisitorAction
 ```
 
-允许访问者控制节点的枚举。
-## 字段
+Allows the visitor to control the enumeration of nodes.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CONTINUE](#CONTINUE) | 访问者请求枚举继续。 |
-| [SKIP_THIS_NODE](#SKIP-THIS-NODE) | 访问者请求跳过当前节点并继续枚举。 |
-| [STOP](#STOP) | 访问者请求停止枚举节点。 |
+| [CONTINUE](#CONTINUE) | The visitor requests the enumeration to continue. |
+| [SKIP_THIS_NODE](#SKIP-THIS-NODE) | The visitor requests to skip the current node and continue enumeration. |
+| [STOP](#STOP) | The visitor requests the enumeration of nodes to stop. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String visitorActionName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int visitorAction)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int CONTINUE
 ```
 
 
-访问者请求枚举继续。
+The visitor requests the enumeration to continue.
 
 ### SKIP_THIS_NODE {#SKIP-THIS-NODE}
 ```
@@ -53,7 +53,7 @@ public static int SKIP_THIS_NODE
 ```
 
 
-访问者请求跳过当前节点并继续枚举。
+The visitor requests to skip the current node and continue enumeration.
 
 ### STOP {#STOP}
 ```
@@ -61,7 +61,7 @@ public static int STOP
 ```
 
 
-访问者请求停止枚举节点。
+The visitor requests the enumeration of nodes to stop.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String visitorActionName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String visitorActionName)
@@ -92,23 +92,23 @@ public static int fromName(String visitorActionName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | visitorActionName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int visitorAction) {#getName-int-}
 ```
 public static String getName(int visitorAction)
@@ -117,12 +117,12 @@ public static String getName(int visitorAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | visitorAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int visitorAction) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int visitorAction)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | visitorAction | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

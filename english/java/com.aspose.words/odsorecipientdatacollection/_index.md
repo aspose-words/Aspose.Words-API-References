@@ -1,40 +1,40 @@
 ---
 title: OdsoRecipientDataCollection
-second_title: Aspose.Words for Java API 参考
-description: 类型化的集合
+second_title: Aspose.Words for Java API Reference
+description: A typed collection of
 type: docs
 weight: 417
-url: /zh/java/com.aspose.words/odsorecipientdatacollection/
+url: /java/com.aspose.words/odsorecipientdatacollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class OdsoRecipientDataCollection implements Iterable
 ```
 
-类型化的集合[OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
+A typed collection of [OdsoRecipientData](../../com.aspose.words/odsorecipientdata)
 
-要了解更多信息，请访问**Mail Merge and Reporting**文档文章。
-## 方法s
+To learn more, visit the **Mail Merge and Reporting** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [add(OdsoRecipientData value)](#add-com.aspose.words.OdsoRecipientData-) | 将对象添加到此集合的末尾。 |
-| [clear()](#clear--) | 从此集合中删除所有元素。 |
+| [add(OdsoRecipientData value)](#add-com.aspose.words.OdsoRecipientData-) | Adds an object to the end of this collection. |
+| [clear()](#clear--) | Removes all elements from this collection. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取此集合中的项目。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中包含的元素数。 |
+| [get(int index)](#get-int-) | Gets an item in this collection. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of elements contained in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个迭代器对象，该对象可用于迭代集合中的所有项目。 |
+| [iterator()](#iterator--) | Returns an iterator object that can be used to iterate over all items in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [removeAt(int index)](#removeAt-int-) | 移除指定索引处的元素。 |
-| [set(int index, OdsoRecipientData value)](#set-int-com.aspose.words.OdsoRecipientData-) | 设置此集合中的项目。 |
+| [removeAt(int index)](#removeAt-int-) | Removes the element at the specified index. |
+| [set(int index, OdsoRecipientData value)](#set-int-com.aspose.words.OdsoRecipientData-) | Sets an item in this collection. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,22 +45,22 @@ public int add(OdsoRecipientData value)
 ```
 
 
-将对象添加到此集合的末尾。
+Adds an object to the end of this collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | 要添加的对象。不能为空。 |
+| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | The object to add. Cannot be null. |
 
-**退货:**
-整数
+**Returns:**
+int
 ### clear() {#clear--}
 ```
 public void clear()
 ```
 
 
-从此集合中删除所有元素。
+Removes all elements from this collection.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -70,48 +70,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public OdsoRecipientData get(int index)
 ```
 
 
-获取此集合中的项目。
+Gets an item in this collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
-**退货:**
-[OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - 此集合中的一个项目。
-### get班级() {#get班级--}
+**Returns:**
+[OdsoRecipientData](../../com.aspose.words/odsorecipientdata) - An item in this collection.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中包含的元素数。
+Gets the number of elements contained in the collection.
 
-**退货:**
-int - 集合中包含的元素数。
+**Returns:**
+int - The number of elements contained in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -120,17 +120,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个迭代器对象，该对象可用于迭代集合中的所有项目。
+Returns an iterator object that can be used to iterate over all items in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -154,12 +154,12 @@ public void removeAt(int index)
 ```
 
 
-移除指定索引处的元素。
+Removes the element at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 元素的从零开始的索引。 |
+| index | int | The zero-based index of the element. |
 
 ### set(int index, OdsoRecipientData value) {#set-int-com.aspose.words.OdsoRecipientData-}
 ```
@@ -167,13 +167,13 @@ public void set(int index, OdsoRecipientData value)
 ```
 
 
-设置此集合中的项目。
+Sets an item in this collection.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
-| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | 此集合中的一个项目。 |
+| value | [OdsoRecipientData](../../com.aspose.words/odsorecipientdata) | An item in this collection. |
 
 ### toString() {#toString--}
 ```
@@ -183,7 +183,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,35 +1,35 @@
 ---
 title: PdfDigitalSignatureHashAlgorithm
-second_title: Aspose.Words for Java API 参考
-description: 指定数字签名使用的数字哈希算法。
+second_title: Aspose.Words for Java API Reference
+description: Specifies a digital hash algorithm used by a digital signature.
 type: docs
 weight: 452
-url: /zh/java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
+url: /java/com.aspose.words/pdfdigitalsignaturehashalgorithm/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PdfDigitalSignatureHashAlgorithm
 ```
 
-指定数字签名使用的数字哈希算法。
-## 字段
+Specifies a digital hash algorithm used by a digital signature.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [RIPE_MD_160](#RIPE-MD-160) | RIPEMD-160 哈希算法。 |
-| [SHA_256](#SHA-256) | SHA-256 哈希算法。 |
-| [SHA_384](#SHA-384) | SHA-384 哈希算法。 |
-| [SHA_512](#SHA-512) | SHA-512 哈希算法。 |
+| [RIPE_MD_160](#RIPE-MD-160) | RIPEMD-160 hash algorithm. |
+| [SHA_256](#SHA-256) | SHA-256 hash algorithm. |
+| [SHA_384](#SHA-384) | SHA-384 hash algorithm. |
+| [SHA_512](#SHA-512) | SHA-512 hash algorithm. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String pdfDigitalSignatureHashAlgorithmName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int pdfDigitalSignatureHashAlgorithm)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int RIPE_MD_160
 ```
 
 
-RIPEMD-160 哈希算法。
+RIPEMD-160 hash algorithm.
 
 ### SHA_256 {#SHA-256}
 ```
@@ -54,7 +54,7 @@ public static int SHA_256
 ```
 
 
-SHA-256 哈希算法。
+SHA-256 hash algorithm.
 
 ### SHA_384 {#SHA-384}
 ```
@@ -62,7 +62,7 @@ public static int SHA_384
 ```
 
 
-SHA-384 哈希算法。
+SHA-384 hash algorithm.
 
 ### SHA_512 {#SHA-512}
 ```
@@ -70,7 +70,7 @@ public static int SHA_512
 ```
 
 
-SHA-512 哈希算法。
+SHA-512 hash algorithm.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String pdfDigitalSignatureHashAlgorithmName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
@@ -101,23 +101,23 @@ public static int fromName(String pdfDigitalSignatureHashAlgorithmName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithmName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int pdfDigitalSignatureHashAlgorithm) {#getName-int-}
 ```
 public static String getName(int pdfDigitalSignatureHashAlgorithm)
@@ -126,12 +126,12 @@ public static String getName(int pdfDigitalSignatureHashAlgorithm)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithm | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int pdfDigitalSignatureHashAlgorithm) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int pdfDigitalSignatureHashAlgorithm)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | pdfDigitalSignatureHashAlgorithm | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,43 +1,43 @@
 ---
-title: Zoom类型
+title: ZoomType
 second_title: Aspose.Words for Java API Reference
-description: 文档在 Microsoft Word 屏幕上显示的大小的可能值。
+description: Possible values for how large or small the document appears on the screen in Microsoft Word.
 type: docs
 weight: 631
-url: /zh/java/com.aspose.words/zoomtype/
+url: /java/com.aspose.words/zoomtype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Zoom类型
+public class ZoomType
 ```
 
-文档在 Microsoft Word 屏幕上显示的大小的可能值。
-## 字段
+Possible values for how large or small the document appears on the screen in Microsoft Word.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CUSTOM](#CUSTOM) | 缩放百分比是明确设置的。 |
-| [FULL_PAGE](#FULL-PAGE) | 缩放百分比会自动重新计算以适应一整页。 |
-| [NONE](#NONE) | 指示使用显式缩放百分比。 |
-| [PAGE_WIDTH](#PAGE-WIDTH) | 缩放百分比会自动重新计算以适应页面宽度。 |
-| [TEXT_FIT](#TEXT-FIT) | 缩放百分比会自动重新计算以适合文本。 |
+| [CUSTOM](#CUSTOM) | Zoom percentage is set explicitly. |
+| [FULL_PAGE](#FULL-PAGE) | Zoom percentage is automatically recalculated to fit one full page. |
+| [NONE](#NONE) | Indicates to use the explicit zoom percentage. |
+| [PAGE_WIDTH](#PAGE-WIDTH) | Zoom percentage is automatically recalculated to fit page width. |
+| [TEXT_FIT](#TEXT-FIT) | Zoom percentage is automatically recalculated to fit text. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String zoom类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int zoom类型)](#getName-int-) |  |
+| [fromName(String zoomTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int zoomType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int zoom类型)](#toString-int-) |  |
+| [toString(int zoomType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -47,7 +47,7 @@ public static int CUSTOM
 ```
 
 
-缩放百分比是明确设置的。当控件大小更改时，它不会自动重新计算。
+Zoom percentage is set explicitly. It is not recalculated automatically when control size changes.
 
 ### FULL_PAGE {#FULL-PAGE}
 ```
@@ -55,7 +55,7 @@ public static int FULL_PAGE
 ```
 
 
-缩放百分比会自动重新计算以适应一整页。
+Zoom percentage is automatically recalculated to fit one full page.
 
 ### NONE {#NONE}
 ```
@@ -63,7 +63,7 @@ public static int NONE
 ```
 
 
-指示使用显式缩放百分比。如同[CUSTOM](../../com.aspose.words/zoomtype\#CUSTOM).
+Indicates to use the explicit zoom percentage. Same as [CUSTOM](../../com.aspose.words/zoomtype\#CUSTOM).
 
 ### PAGE_WIDTH {#PAGE-WIDTH}
 ```
@@ -71,7 +71,7 @@ public static int PAGE_WIDTH
 ```
 
 
-缩放百分比会自动重新计算以适应页面宽度。
+Zoom percentage is automatically recalculated to fit page width.
 
 ### TEXT_FIT {#TEXT-FIT}
 ```
@@ -79,7 +79,7 @@ public static int TEXT_FIT
 ```
 
 
-缩放百分比会自动重新计算以适合文本。
+Zoom percentage is automatically recalculated to fit text.
 
 ### length {#length}
 ```
@@ -95,52 +95,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String zoom类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String zoomTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String zoom类型Name)
+public static int fromName(String zoomTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| zoom类型Name | java.lang.String |  |
+| zoomTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int zoom类型) {#getName-int-}
-```
-public static String getName(int zoom类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int zoomType) {#getName-int-}
+```
+public static String getName(int zoomType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| zoom类型 | int |  |
+| zoomType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -150,8 +150,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -160,8 +160,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -186,22 +186,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int zoom类型) {#toString-int-}
+### toString(int zoomType) {#toString-int-}
 ```
-public static String toString(int zoom类型)
+public static String toString(int zoomType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| zoom类型 | int |  |
+| zoomType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -219,8 +219,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -232,8 +232,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

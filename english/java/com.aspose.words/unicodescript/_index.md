@@ -4,17 +4,17 @@ second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 589
-url: /zh/java/com.aspose.words/unicodescript/
+url: /java/com.aspose.words/unicodescript/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class UnicodeScript
 ```
-## 字段
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [ADLAM](#ADLAM) |  |
 | [AHOM](#AHOM) |  |
@@ -175,13 +175,13 @@ public class UnicodeScript
 | [YI](#YI) |  |
 | [ZANABAZAR_SQUARE](#ZANABAZAR-SQUARE) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String unicodeScriptName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int unicodeScript)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -1154,13 +1154,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String unicodeScriptName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String unicodeScriptName)
@@ -1169,23 +1169,23 @@ public static int fromName(String unicodeScriptName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | unicodeScriptName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int unicodeScript) {#getName-int-}
 ```
 public static String getName(int unicodeScript)
@@ -1194,12 +1194,12 @@ public static String getName(int unicodeScript)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | unicodeScript | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -1209,8 +1209,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1219,8 +1219,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -1245,7 +1245,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int unicodeScript) {#toString-int-}
 ```
@@ -1255,12 +1255,12 @@ public static String toString(int unicodeScript)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | unicodeScript | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -1278,8 +1278,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -1291,8 +1291,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

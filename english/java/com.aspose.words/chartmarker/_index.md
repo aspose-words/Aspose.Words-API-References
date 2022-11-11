@@ -1,39 +1,39 @@
 ---
 title: ChartMarker
-second_title: Aspose.Words for Java API 参考
-description: 表示图表数据标记。
+second_title: Aspose.Words for Java API Reference
+description: Represents a chart data marker.
 type: docs
 weight: 66
-url: /zh/java/com.aspose.words/chartmarker/
+url: /java/com.aspose.words/chartmarker/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartMarker implements Cloneable
 ```
 
-表示图表数据标记。
+Represents a chart data marker.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+To learn more, visit the **Working with Charts** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getFormat()](#getFormat--) | 提供对此标记的填充和线条格式的访问。 |
-| [getSize()](#getSize--) | 获取图表标记大小。 |
-| [getSymbol()](#getSymbol--) | 获取图表标记符号。 |
+| [getClass()](#getClass--) |  |
+| [getFormat()](#getFormat--) | Provides access to fill and line formatting of this marker. |
+| [getSize()](#getSize--) | Gets chart marker size. |
+| [getSymbol()](#getSymbol--) | Gets chart marker symbol. |
 | [hashCode()](#hashCode--) |  |
 | [materializeSpPr()](#materializeSpPr--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSize(int value)](#setSize-int-) | 设置图表标记大小。 |
-| [setSymbol(int value)](#setSymbol-int-) | 设置图表标记符号。 |
+| [setSize(int value)](#setSize-int-) | Sets chart marker size. |
+| [setSymbol(int value)](#setSymbol-int-) | Sets chart marker symbol. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,53 +46,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getFormat() {#getFormat--}
 ```
 public ChartFormat getFormat()
 ```
 
 
-提供对此标记的填充和线条格式的访问。
+Provides access to fill and line formatting of this marker.
 
-**退货:**
-[ChartFormat](../../com.aspose.words/chartformat) - 相应的[ChartFormat](../../com.aspose.words/chartformat)价值。
+**Returns:**
+[ChartFormat](../../com.aspose.words/chartformat) - The corresponding [ChartFormat](../../com.aspose.words/chartformat) value.
 ### getSize() {#getSize--}
 ```
 public int getSize()
 ```
 
 
-获取图表标记大小。默认值为 7。
+Gets chart marker size. Default value is 7.
 
-**退货:**
-int - 图表标记大小。
+**Returns:**
+int - Chart marker size.
 ### getSymbol() {#getSymbol--}
 ```
 public int getSymbol()
 ```
 
 
-获取图表标记符号。
+Gets chart marker symbol.
 
-**退货:**
- int - 图表标记符号。返回值是以下之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。
+**Returns:**
+int - Chart marker symbol. The returned value is one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -101,8 +101,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### materializeSpPr() {#materializeSpPr--}
 ```
 public void materializeSpPr()
@@ -133,12 +133,12 @@ public void setSize(int value)
 ```
 
 
-设置图表标记大小。默认值为 7。
+Sets chart marker size. Default value is 7.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 图表标记大小。 |
+| value | int | Chart marker size. |
 
 ### setSymbol(int value) {#setSymbol-int-}
 ```
@@ -146,12 +146,12 @@ public void setSymbol(int value)
 ```
 
 
-设置图表标记符号。
+Sets chart marker symbol.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 图表标记符号。该值必须是以下之一[MarkerSymbol](../../com.aspose.words/markersymbol)常数。 |
+| value | int | Chart marker symbol. The value must be one of [MarkerSymbol](../../com.aspose.words/markersymbol) constants. |
 
 ### toString() {#toString--}
 ```
@@ -161,7 +161,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -179,8 +179,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -192,8 +192,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -4,25 +4,25 @@ second_title: Aspose.Words for Java API Reference
 description: 
 type: docs
 weight: 624
-url: /zh/java/com.aspose.words/x509certificate2wrapper/
+url: /java/com.aspose.words/x509certificate2wrapper/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class X509Certificate2Wrapper
 ```
-## 构造函数s
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [X509Certificate2Wrapper(String fileName, String password)](#X509Certificate2Wrapper-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [X509Certificate2Wrapper(String fileName, String password)](#X509Certificate2Wrapper-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getJavaCertificateInfo()](#getJavaCertificateInfo--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
@@ -37,10 +37,10 @@ public X509Certificate2Wrapper(String fileName, String password)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | java.lang.String |  |
 | password | java.lang.String |  |
@@ -53,23 +53,23 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getJavaCertificateInfo() {#getJavaCertificateInfo--}
 ```
 public X509Certificate getJavaCertificateInfo()
@@ -78,7 +78,7 @@ public X509Certificate getJavaCertificateInfo()
 
 
 
-**退货:**
+**Returns:**
 java.security.cert.X509Certificate
 ### hashCode() {#hashCode--}
 ```
@@ -88,8 +88,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -114,7 +114,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -132,8 +132,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -145,8 +145,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,38 +1,38 @@
 ---
 title: Chart
-second_title: Aspose.Words for Java API 参考
-description: 提供对图表形状属性的访问。
+second_title: Aspose.Words for Java API Reference
+description: Provides access to the chart shape properties.
 type: docs
 weight: 55
-url: /zh/java/com.aspose.words/chart/
+url: /java/com.aspose.words/chart/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Chart
 ```
 
-提供对图表形状属性的访问。
+Provides access to the chart shape properties.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
-## 方法s
+To learn more, visit the **Working with Charts** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAxisX()](#getAxisX--) | 提供对图表 X 轴属性的访问。 |
-| [getAxisY()](#getAxisY--) | 提供对图表 Y 轴属性的访问。 |
-| [getAxisZ()](#getAxisZ--) | 提供对图表 Z 轴属性的访问。 |
-| [get班级()](#get班级--) |  |
-| [getLegend()](#getLegend--) | 提供对图表图例属性的访问。 |
-| [getSeries()](#getSeries--) | 提供对系列集合的访问。 |
-| [getSourceFullName()](#getSourceFullName--) | 获取此图表链接到的 xls/xlsx 文件的路径和名称。 |
-| [getTitle()](#getTitle--) | 提供对图表标题属性的访问。 |
+| [getAxisX()](#getAxisX--) | Provides access to properties of the X axis of the chart. |
+| [getAxisY()](#getAxisY--) | Provides access to properties of the Y axis of the chart. |
+| [getAxisZ()](#getAxisZ--) | Provides access to properties of the Z axis of the chart. |
+| [getClass()](#getClass--) |  |
+| [getLegend()](#getLegend--) | Provides access to the chart legend properties. |
+| [getSeries()](#getSeries--) | Provides access to series collection. |
+| [getSourceFullName()](#getSourceFullName--) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [getTitle()](#getTitle--) | Provides access to the chart title properties. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | 获取此图表链接到的 xls/xlsx 文件的路径和名称。 |
+| [setSourceFullName(String value)](#setSourceFullName-java.lang.String-) | Gets the path and name of an xls/xlsx file this chart is linked to. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -45,93 +45,93 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAxisX() {#getAxisX--}
 ```
 public ChartAxis getAxisX()
 ```
 
 
-提供对图表 X 轴属性的访问。
+Provides access to properties of the X axis of the chart.
 
-**退货:**
-[ChartAxis](../../com.aspose.words/chartaxis) - 相应的[ChartAxis](../../com.aspose.words/chartaxis)价值。
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
 ### getAxisY() {#getAxisY--}
 ```
 public ChartAxis getAxisY()
 ```
 
 
-提供对图表 Y 轴属性的访问。
+Provides access to properties of the Y axis of the chart.
 
-**退货:**
-[ChartAxis](../../com.aspose.words/chartaxis) - 相应的[ChartAxis](../../com.aspose.words/chartaxis)价值。
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
 ### getAxisZ() {#getAxisZ--}
 ```
 public ChartAxis getAxisZ()
 ```
 
 
-提供对图表 Z 轴属性的访问。
+Provides access to properties of the Z axis of the chart.
 
-**退货:**
-[ChartAxis](../../com.aspose.words/chartaxis) - 相应的[ChartAxis](../../com.aspose.words/chartaxis)价值。
-### get班级() {#get班级--}
+**Returns:**
+[ChartAxis](../../com.aspose.words/chartaxis) - The corresponding [ChartAxis](../../com.aspose.words/chartaxis) value.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLegend() {#getLegend--}
 ```
 public ChartLegend getLegend()
 ```
 
 
-提供对图表图例属性的访问。
+Provides access to the chart legend properties.
 
-**退货:**
-[ChartLegend](../../com.aspose.words/chartlegend) - 相应的[ChartLegend](../../com.aspose.words/chartlegend)价值。
+**Returns:**
+[ChartLegend](../../com.aspose.words/chartlegend) - The corresponding [ChartLegend](../../com.aspose.words/chartlegend) value.
 ### getSeries() {#getSeries--}
 ```
 public ChartSeriesCollection getSeries()
 ```
 
 
-提供对系列集合的访问。
+Provides access to series collection.
 
-**退货:**
-[ChartSeriesCollection](../../com.aspose.words/chartseriescollection) - 相应的[ChartSeriesCollection](../../com.aspose.words/chartseriescollection)价值。
+**Returns:**
+[ChartSeriesCollection](../../com.aspose.words/chartseriescollection) - The corresponding [ChartSeriesCollection](../../com.aspose.words/chartseriescollection) value.
 ### getSourceFullName() {#getSourceFullName--}
 ```
 public String getSourceFullName()
 ```
 
 
-获取此图表链接到的 xls/xlsx 文件的路径和名称。
+Gets the path and name of an xls/xlsx file this chart is linked to.
 
-**退货:**
-java.lang.String - 此图表链接到的 xls/xlsx 文件的路径和名称。
+**Returns:**
+java.lang.String - The path and name of an xls/xlsx file this chart is linked to.
 ### getTitle() {#getTitle--}
 ```
 public ChartTitle getTitle()
 ```
 
 
-提供对图表标题属性的访问。
+Provides access to the chart title properties.
 
-**退货:**
-[ChartTitle](../../com.aspose.words/charttitle) - 相应的[ChartTitle](../../com.aspose.words/charttitle)价值。
+**Returns:**
+[ChartTitle](../../com.aspose.words/charttitle) - The corresponding [ChartTitle](../../com.aspose.words/charttitle) value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -140,8 +140,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -164,12 +164,12 @@ public void setSourceFullName(String value)
 ```
 
 
-获取此图表链接到的 xls/xlsx 文件的路径和名称。
+Gets the path and name of an xls/xlsx file this chart is linked to.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 此图表链接到的 xls/xlsx 文件的路径和名称。 |
+| value | java.lang.String | The path and name of an xls/xlsx file this chart is linked to. |
 
 ### toString() {#toString--}
 ```
@@ -179,7 +179,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -197,8 +197,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -210,8 +210,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

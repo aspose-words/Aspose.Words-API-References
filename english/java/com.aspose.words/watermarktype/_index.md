@@ -1,41 +1,41 @@
 ---
-title: Watermark类型
+title: WatermarkType
 second_title: Aspose.Words for Java API Reference
-description: 指定水印类型。
+description: Specifies the watermark type.
 type: docs
 weight: 610
-url: /zh/java/com.aspose.words/watermarktype/
+url: /java/com.aspose.words/watermarktype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Watermark类型
+public class WatermarkType
 ```
 
-指定水印类型。
-## 字段
+Specifies the watermark type.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [IMAGE](#IMAGE) | 表示图像将用作水印。 |
-| [NONE](#NONE) | 表示未设置水印。 |
-| [TEXT](#TEXT) | 表示将文本用作水印。 |
+| [IMAGE](#IMAGE) | Indicates that the image will be used as a watermark. |
+| [NONE](#NONE) | Indicates watermark is no set. |
+| [TEXT](#TEXT) | Indicates that the text will be used as a watermark. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String watermark类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int watermark类型)](#getName-int-) |  |
+| [fromName(String watermarkTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int watermarkType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int watermark类型)](#toString-int-) |  |
+| [toString(int watermarkType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -45,9 +45,9 @@ public static int IMAGE
 ```
 
 
-表示图像将用作水印。
+Indicates that the image will be used as a watermark.
 
-这样的水印对应于带有图像的形状。
+Such a watermark corresponds to a shape with image.
 
 ### NONE {#NONE}
 ```
@@ -55,7 +55,7 @@ public static int NONE
 ```
 
 
-表示未设置水印。
+Indicates watermark is no set.
 
 ### TEXT {#TEXT}
 ```
@@ -63,9 +63,9 @@ public static int TEXT
 ```
 
 
-表示将文本用作水印。
+Indicates that the text will be used as a watermark.
 
-这样的水印对应于艺术字对象。
+Such a watermark corresponds to a WordArt object.
 
 ### length {#length}
 ```
@@ -81,52 +81,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String watermark类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String watermarkTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String watermark类型Name)
+public static int fromName(String watermarkTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| watermark类型Name | java.lang.String |  |
+| watermarkTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int watermark类型) {#getName-int-}
-```
-public static String getName(int watermark类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int watermarkType) {#getName-int-}
+```
+public static String getName(int watermarkType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| watermark类型 | int |  |
+| watermarkType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -136,8 +136,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -146,8 +146,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -172,22 +172,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int watermark类型) {#toString-int-}
+### toString(int watermarkType) {#toString-int-}
 ```
-public static String toString(int watermark类型)
+public static String toString(int watermarkType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| watermark类型 | int |  |
+| watermarkType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -205,8 +205,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -218,8 +218,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

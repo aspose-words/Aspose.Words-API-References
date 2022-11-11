@@ -1,30 +1,30 @@
 ---
 title: PageLayoutCallbackArgs
-second_title: Aspose.Words for Java API 参考
-description: 传入的参数
+second_title: Aspose.Words for Java API Reference
+description: An argument passed into
 type: docs
 weight: 435
-url: /zh/java/com.aspose.words/pagelayoutcallbackargs/
+url: /java/com.aspose.words/pagelayoutcallbackargs/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageLayoutCallbackArgs
 ```
 
-传入的参数[IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)
+An argument passed into [IPageLayoutCallback.notify(com.aspose.words.PageLayoutCallbackArgs)](../../com.aspose.words/ipagelayoutcallback\#notify-com.aspose.words.PageLayoutCallbackArgs-)
 
-要了解更多信息，请访问**Converting to Fixed-page Format**文档文章。
-## 方法s
+To learn more, visit the **Converting to Fixed-page Format** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getDocument()](#getDocument--) | 获取文档。 |
-| [getEvent()](#getEvent--) | 获取事件。 |
-| [getPageIndex()](#getPageIndex--) | 获取与此事件相关的文档中页面的从 0 开始的索引。 |
+| [getClass()](#getClass--) |  |
+| [getDocument()](#getDocument--) | Gets document. |
+| [getEvent()](#getEvent--) | Gets event. |
+| [getPageIndex()](#getPageIndex--) | Gets 0-based index of the page in the document this event relates to. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,53 +40,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDocument() {#getDocument--}
 ```
 public Document getDocument()
 ```
 
 
-获取文档。
+Gets document.
 
-**退货:**
-[Document](../../com.aspose.words/document) - 文档。
+**Returns:**
+[Document](../../com.aspose.words/document) - Document.
 ### getEvent() {#getEvent--}
 ```
 public int getEvent()
 ```
 
 
-获取事件。
+Gets event.
 
-**退货:**
- int - 事件。返回值是以下之一[PageLayoutEvent](../../com.aspose.words/pagelayoutevent)常数。
+**Returns:**
+int - Event. The returned value is one of [PageLayoutEvent](../../com.aspose.words/pagelayoutevent) constants.
 ### getPageIndex() {#getPageIndex--}
 ```
 public int getPageIndex()
 ```
 
 
-获取与此事件相关的文档中页面的从 0 开始的索引。如果没有关联的页面，或者页面在回流期间被删除，则返回负值。
+Gets 0-based index of the page in the document this event relates to. Returns negative value if there is no associated page, or if page was removed during reflow.
 
-**退货:**
-int - 与此事件相关的文档中页面的基于 0 的索引。
+**Returns:**
+int - 0-based index of the page in the document this event relates to.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -95,8 +95,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -121,7 +121,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -139,8 +139,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -152,8 +152,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

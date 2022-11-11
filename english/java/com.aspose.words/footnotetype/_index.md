@@ -1,42 +1,42 @@
 ---
-title: Footnote类型
-second_title: Aspose.Words for Java API 参考
-description: 指定这是脚注还是尾注。
+title: FootnoteType
+second_title: Aspose.Words for Java API Reference
+description: Specifies whether this is a footnote or an endnote.
 type: docs
 weight: 295
-url: /zh/java/com.aspose.words/footnotetype/
+url: /java/com.aspose.words/footnotetype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class Footnote类型
+public class FootnoteType
 ```
 
-指定这是脚注还是尾注。
+Specifies whether this is a footnote or an endnote.
 
-脚注和尾注都由对象表示[FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE)班级。利用[Footnote.getFootnote类型()](../../com.aspose.words/footnote\#getFootnote类型--)区分脚注和尾注。
-## 字段
+Both footnotes and endnotes are represented by objects by the [FOOTNOTE](../../com.aspose.words/footnotetype\#FOOTNOTE) class. Use [Footnote.getFootnoteType()](../../com.aspose.words/footnote\#getFootnoteType--) to distinguish between footnotes and endnotes.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ENDNOTE](#ENDNOTE) | 对象是尾注。 |
-| [FOOTNOTE](#FOOTNOTE) | 对象是脚注。 |
+| [ENDNOTE](#ENDNOTE) | The object is an endnote. |
+| [FOOTNOTE](#FOOTNOTE) | The object is a footnote. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String footnote类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int footnote类型)](#getName-int-) |  |
+| [fromName(String footnoteTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int footnoteType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int footnote类型)](#toString-int-) |  |
+| [toString(int footnoteType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -46,7 +46,7 @@ public static int ENDNOTE
 ```
 
 
-对象是尾注。
+The object is an endnote.
 
 ### FOOTNOTE {#FOOTNOTE}
 ```
@@ -54,7 +54,7 @@ public static int FOOTNOTE
 ```
 
 
-对象是脚注。
+The object is a footnote.
 
 ### length {#length}
 ```
@@ -70,52 +70,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String footnote类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String footnoteTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String footnote类型Name)
+public static int fromName(String footnoteTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| footnote类型Name | java.lang.String |  |
+| footnoteTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int footnote类型) {#getName-int-}
-```
-public static String getName(int footnote类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int footnoteType) {#getName-int-}
+```
+public static String getName(int footnoteType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| footnote类型 | int |  |
+| footnoteType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -125,8 +125,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -135,8 +135,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -161,22 +161,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int footnote类型) {#toString-int-}
+### toString(int footnoteType) {#toString-int-}
 ```
-public static String toString(int footnote类型)
+public static String toString(int footnoteType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| footnote类型 | int |  |
+| footnoteType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -194,8 +194,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -207,8 +207,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

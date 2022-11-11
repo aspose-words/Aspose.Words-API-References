@@ -1,29 +1,29 @@
 ---
 title: ConditionalStyle
-second_title: Aspose.Words for Java API 参考
-description: 表示应用于具有指定表格样式的表格的某些区域的特殊格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents special formatting applied to some area of a table with assigned table style.
 type: docs
 weight: 89
-url: /zh/java/com.aspose.words/conditionalstyle/
+url: /java/com.aspose.words/conditionalstyle/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ConditionalStyle implements Cloneable
 ```
 
-表示应用于具有指定表格样式的表格的某些区域的特殊格式。
+Represents special formatting applied to some area of a table with assigned table style.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+To learn more, visit the **Working with Tables** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 清除此条件样式的格式。 |
+| [clearFormatting()](#clearFormatting--) | Clears formatting of this conditional style. |
 | [clearParaAttrs()](#clearParaAttrs--) |  |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [equals(Object obj)](#equals-java.lang.Object-) |  |
@@ -32,32 +32,32 @@ public class ConditionalStyle implements Cloneable
 | [fetchInheritedRunAttr(int key)](#fetchInheritedRunAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
 | [fetchParaAttr(int key)](#fetchParaAttr-int-) |  |
-| [getBorders()](#getBorders--) | 获取条件样式的默认单元格边框的集合。 |
-| [getBottomPadding()](#getBottomPadding--) | 获取要添加到表格单元格内容下方的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getBorders()](#getBorders--) | Gets the collection of default cell borders for the conditional style. |
+| [getBottomPadding()](#getBottomPadding--) | Gets the amount of space (in points) to add below the contents of table cells. |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
 | [getDirectParaAttr(int key)](#getDirectParaAttr-int-) |  |
 | [getDirectParaAttr(int key, int revisionsView)](#getDirectParaAttr-int-int-) |  |
 | [getDirectRunAttr(int key)](#getDirectRunAttr-int-) |  |
-| [getFont()](#getFont--) | 获取条件样式的字符格式。 |
-| [getLeftPadding()](#getLeftPadding--) | 获取要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
-| [getParagraphFormat()](#getParagraphFormat--) | 获取条件样式的段落格式。 |
-| [getRightPadding()](#getRightPadding--) | 获取要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
-| [getShading()](#getShading--) | 得到一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。 |
-| [getTopPadding()](#getTopPadding--) | 获取要添加到表格单元格内容上方的空间量（以磅为单位）。 |
-| [get类型()](#get类型--) | 获取与此条件样式相关的表格区域。 |
+| [getFont()](#getFont--) | Gets the character formatting of the conditional style. |
+| [getLeftPadding()](#getLeftPadding--) | Gets the amount of space (in points) to add to the left of the contents of table cells. |
+| [getParagraphFormat()](#getParagraphFormat--) | Gets the paragraph formatting of the conditional style. |
+| [getRightPadding()](#getRightPadding--) | Gets the amount of space (in points) to add to the right of the contents of table cells. |
+| [getShading()](#getShading--) | Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style. |
+| [getTopPadding()](#getTopPadding--) | Gets the amount of space (in points) to add above the contents of table cells. |
+| [getType()](#getType--) | Gets table area to which this conditional style relates. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [removeParaAttr(int key)](#removeParaAttr-int-) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | 设置要在表格单元格内容下方添加的空间量（以磅为单位）。 |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到表格单元格内容左侧的空间量（以磅为单位）。 |
+| [setBottomPadding(double value)](#setBottomPadding-double-) | Sets the amount of space (in points) to add below the contents of table cells. |
+| [setLeftPadding(double value)](#setLeftPadding-double-) | Sets the amount of space (in points) to add to the left of the contents of table cells. |
 | [setParaAttr(int key, Object value)](#setParaAttr-int-java.lang.Object-) |  |
-| [setRightPadding(double value)](#setRightPadding-double-) | 设置要添加到表格单元格内容右侧的空间量（以磅为单位）。 |
+| [setRightPadding(double value)](#setRightPadding-double-) | Sets the amount of space (in points) to add to the right of the contents of table cells. |
 | [setRunAttr(int key, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setTopPadding(double value)](#setTopPadding-double-) | 设置要在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| [setTopPadding(double value)](#setTopPadding-double-) | Sets the amount of space (in points) to add above the contents of table cells. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -68,7 +68,7 @@ public void clearFormatting()
 ```
 
 
-清除此条件样式的格式。
+Clears formatting of this conditional style.
 
 ### clearParaAttrs() {#clearParaAttrs--}
 ```
@@ -94,13 +94,13 @@ public boolean equals(Object obj)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | obj | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -109,12 +109,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedParaAttr(int key) {#fetchInheritedParaAttr-int-}
 ```
@@ -124,12 +124,12 @@ public Object fetchInheritedParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedRunAttr(int key) {#fetchInheritedRunAttr-int-}
 ```
@@ -139,12 +139,12 @@ public Object fetchInheritedRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -154,12 +154,12 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchParaAttr(int key) {#fetchParaAttr-int-}
 ```
@@ -169,12 +169,12 @@ public Object fetchParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getBorders() {#getBorders--}
 ```
@@ -182,30 +182,30 @@ public BorderCollection getBorders()
 ```
 
 
-获取条件样式的默认单元格边框的集合。
+Gets the collection of default cell borders for the conditional style.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 条件样式的默认单元格边框的集合。
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the conditional style.
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
 ```
 
 
-获取要添加到表格单元格内容下方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add below the contents of table cells.
 
-**退货:**
-double - 在表格单元格内容下方添加的空间量（以磅为单位）。
-### get班级() {#get班级--}
+**Returns:**
+double - The amount of space (in points) to add below the contents of table cells.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -214,12 +214,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectParaAttr(int key) {#getDirectParaAttr-int-}
 ```
@@ -229,12 +229,12 @@ public Object getDirectParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectParaAttr(int key, int revisionsView) {#getDirectParaAttr-int-int-}
 ```
@@ -244,13 +244,13 @@ public Object getDirectParaAttr(int key, int revisionsView)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | revisionsView | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectRunAttr(int key) {#getDirectRunAttr-int-}
 ```
@@ -260,12 +260,12 @@ public Object getDirectRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getFont() {#getFont--}
 ```
@@ -273,70 +273,70 @@ public Font getFont()
 ```
 
 
-获取条件样式的字符格式。
+Gets the character formatting of the conditional style.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 条件样式的字符格式。
+**Returns:**
+[Font](../../com.aspose.words/font) - The character formatting of the conditional style.
 ### getLeftPadding() {#getLeftPadding--}
 ```
 public double getLeftPadding()
 ```
 
 
-获取要添加到表格单元格内容左侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the left of the contents of table cells.
 
-**退货:**
-double - 添加到表格单元格内容左侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the left of the contents of table cells.
 ### getParagraphFormat() {#getParagraphFormat--}
 ```
 public ParagraphFormat getParagraphFormat()
 ```
 
 
-获取条件样式的段落格式。
+Gets the paragraph formatting of the conditional style.
 
-**退货:**
-[ParagraphFormat](../../com.aspose.words/paragraphformat) - 条件样式的段落格式。
+**Returns:**
+[ParagraphFormat](../../com.aspose.words/paragraphformat) - The paragraph formatting of the conditional style.
 ### getRightPadding() {#getRightPadding--}
 ```
 public double getRightPadding()
 ```
 
 
-获取要添加到表格单元格内容右侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the right of the contents of table cells.
 
-**退货:**
-double - 添加到表格单元格内容右侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the right of the contents of table cells.
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
 ```
 
 
-得到一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。
+Gets a [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style.
 
-**退货:**
-[Shading](../../com.aspose.words/shading) - 一个[Shading](../../com.aspose.words/shading)引用此条件样式的阴影格式的对象。
+**Returns:**
+[Shading](../../com.aspose.words/shading) - A [Shading](../../com.aspose.words/shading) object that refers to the shading formatting for this conditional style.
 ### getTopPadding() {#getTopPadding--}
 ```
 public double getTopPadding()
 ```
 
 
-获取要添加到表格单元格内容上方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add above the contents of table cells.
 
-**退货:**
-double - 在表格单元格内容上方添加的空间量（以磅为单位）。
-### get类型() {#get类型--}
+**Returns:**
+double - The amount of space (in points) to add above the contents of table cells.
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取与此条件样式相关的表格区域。
+Gets table area to which this conditional style relates.
 
-**退货:**
- int - 与此条件样式相关的表格区域。返回值是以下之一[ConditionalStyle类型](../../com.aspose.words/conditionalstyletype)常数。
+**Returns:**
+int - Table area to which this conditional style relates. The returned value is one of [ConditionalStyleType](../../com.aspose.words/conditionalstyletype) constants.
 ### hashCode() {#hashCode--}
 ```
 public int hashCode()
@@ -345,8 +345,8 @@ public int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -371,8 +371,8 @@ public void removeParaAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -384,8 +384,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -397,8 +397,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -409,12 +409,12 @@ public void setBottomPadding(double value)
 ```
 
 
-设置要在表格单元格内容下方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add below the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在表格单元格内容下方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add below the contents of table cells. |
 
 ### setLeftPadding(double value) {#setLeftPadding-double-}
 ```
@@ -422,12 +422,12 @@ public void setLeftPadding(double value)
 ```
 
 
-设置要添加到表格单元格内容左侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the left of the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到表格单元格内容左侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the left of the contents of table cells. |
 
 ### setParaAttr(int key, Object value) {#setParaAttr-int-java.lang.Object-}
 ```
@@ -437,8 +437,8 @@ public void setParaAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -449,12 +449,12 @@ public void setRightPadding(double value)
 ```
 
 
-设置要添加到表格单元格内容右侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the right of the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到表格单元格内容右侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the right of the contents of table cells. |
 
 ### setRunAttr(int key, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -464,8 +464,8 @@ public void setRunAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -476,12 +476,12 @@ public void setTopPadding(double value)
 ```
 
 
-设置要在表格单元格内容上方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add above the contents of table cells.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在表格单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add above the contents of table cells. |
 
 ### toString() {#toString--}
 ```
@@ -491,7 +491,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -509,8 +509,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -522,8 +522,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

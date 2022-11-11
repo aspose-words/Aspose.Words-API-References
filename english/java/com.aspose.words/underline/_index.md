@@ -1,22 +1,22 @@
 ---
 title: Underline
 second_title: Aspose.Words for Java API Reference
-description: 指示应用于字体的下划线类型。
+description: Indicates type of the underline applied to a font.
 type: docs
 weight: 588
-url: /zh/java/com.aspose.words/underline/
+url: /java/com.aspose.words/underline/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Underline
 ```
 
-指示应用于字体的下划线类型。
-## 字段
+Indicates type of the underline applied to a font.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [DASH](#DASH) |  |
 | [DASH_HEAVY](#DASH-HEAVY) |  |
@@ -37,13 +37,13 @@ public class Underline
 | [WAVY_HEAVY](#WAVY-HEAVY) |  |
 | [WORDS](#WORDS) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String underlineName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int underline)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -212,13 +212,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String underlineName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String underlineName)
@@ -227,23 +227,23 @@ public static int fromName(String underlineName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | underlineName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int underline) {#getName-int-}
 ```
 public static String getName(int underline)
@@ -252,12 +252,12 @@ public static String getName(int underline)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | underline | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -267,8 +267,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -277,8 +277,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -303,7 +303,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int underline) {#toString-int-}
 ```
@@ -313,12 +313,12 @@ public static String toString(int underline)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | underline | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -336,8 +336,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -349,8 +349,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,22 +1,22 @@
 ---
 title: Compatibility
-second_title: Aspose.Words for Java API 参考
-description: 指定兼容性选项的名称。
+second_title: Aspose.Words for Java API Reference
+description: Specifies names of compatibility options.
 type: docs
 weight: 85
-url: /zh/java/com.aspose.words/compatibility/
+url: /java/com.aspose.words/compatibility/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class Compatibility
 ```
 
-指定兼容性选项的名称。
-## 字段
+Specifies names of compatibility options.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [ADJUST_LINE_HEIGHT_IN_TABLE](#ADJUST-LINE-HEIGHT-IN-TABLE) |  |
 | [ALIGN_TABLE_ROW_BY_ROW](#ALIGN-TABLE-ROW-BY-ROW) |  |
@@ -90,13 +90,13 @@ public class Compatibility
 | [WP_SPACE_WIDTH](#WP-SPACE-WIDTH) |  |
 | [WRAP_TRAIL_SPACES](#WRAP-TRAIL-SPACES) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String compatibilityName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int compatibility)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -547,13 +547,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String compatibilityName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String compatibilityName)
@@ -562,23 +562,23 @@ public static int fromName(String compatibilityName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | compatibilityName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int compatibility) {#getName-int-}
 ```
 public static String getName(int compatibility)
@@ -587,12 +587,12 @@ public static String getName(int compatibility)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | compatibility | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -602,8 +602,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -612,8 +612,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -638,7 +638,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int compatibility) {#toString-int-}
 ```
@@ -648,12 +648,12 @@ public static String toString(int compatibility)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | compatibility | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -671,8 +671,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -684,8 +684,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

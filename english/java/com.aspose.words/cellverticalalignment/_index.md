@@ -1,34 +1,34 @@
 ---
 title: CellVerticalAlignment
-second_title: Aspose.Words for Java API 参考
-description: 指定表格单元格内文本的垂直对齐方式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies vertical justification of text inside a table cell.
 type: docs
 weight: 52
-url: /zh/java/com.aspose.words/cellverticalalignment/
+url: /java/com.aspose.words/cellverticalalignment/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CellVerticalAlignment
 ```
 
-指定表格单元格内文本的垂直对齐方式。
-## 字段
+Specifies vertical justification of text inside a table cell.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOTTOM](#BOTTOM) | 文本在单元格底部对齐。 |
-| [CENTER](#CENTER) | 文本在单元格的中间对齐。 |
-| [TOP](#TOP) | 文本在单元格顶部对齐。 |
+| [BOTTOM](#BOTTOM) | Text is aligned at the bottom of the cell. |
+| [CENTER](#CENTER) | Text is aligned in the middle of a cell. |
+| [TOP](#TOP) | Text is aligned at the top of a cell. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String cellVerticalAlignmentName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int cellVerticalAlignment)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int BOTTOM
 ```
 
 
-文本在单元格底部对齐。
+Text is aligned at the bottom of the cell.
 
 ### CENTER {#CENTER}
 ```
@@ -53,7 +53,7 @@ public static int CENTER
 ```
 
 
-文本在单元格的中间对齐。
+Text is aligned in the middle of a cell.
 
 ### TOP {#TOP}
 ```
@@ -61,7 +61,7 @@ public static int TOP
 ```
 
 
-文本在单元格顶部对齐。
+Text is aligned at the top of a cell.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String cellVerticalAlignmentName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String cellVerticalAlignmentName)
@@ -92,23 +92,23 @@ public static int fromName(String cellVerticalAlignmentName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cellVerticalAlignmentName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int cellVerticalAlignment) {#getName-int-}
 ```
 public static String getName(int cellVerticalAlignment)
@@ -117,12 +117,12 @@ public static String getName(int cellVerticalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cellVerticalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int cellVerticalAlignment) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int cellVerticalAlignment)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | cellVerticalAlignment | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

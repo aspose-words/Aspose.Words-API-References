@@ -1,32 +1,32 @@
 ---
 title: PageRange
-second_title: Aspose.Words for Java API 参考
-description: 表示连续范围的页面。
+second_title: Aspose.Words for Java API Reference
+description: Represents a continuous range of pages.
 type: docs
 weight: 437
-url: /zh/java/com.aspose.words/pagerange/
+url: /java/com.aspose.words/pagerange/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageRange
 ```
 
-表示连续范围的页面。
+Represents a continuous range of pages.
 
-要了解更多信息，请访问**Programming with Documents**文档文章。
-## 构造函数s
+To learn more, visit the **Programming with Documents** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [PageRange(int from, int to)](#PageRange-int-int-) | 创建一个新的页面范围对象。 |
-## 方法s
+| [PageRange(int from, int to)](#PageRange-int-int-) | Creates a new page range object. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -40,13 +40,13 @@ public PageRange(int from, int to)
 ```
 
 
-创建一个新的页面范围对象。
+Creates a new page range object.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| from | int | 起始页从零开始的索引。 |
-| to | int | 结束页从零开始的索引。如果它超过文档中最后一页的索引，则在呈现时将其截断以适合文档。表示文档中的最后一页。 |
+| from | int | The starting page zero-based index. |
+| to | int | The ending page zero-based index. If it exceeds the index of the last page in the document, it is truncated to fit in the document on rendering.  means the last page in the document. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -56,23 +56,23 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -81,8 +81,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -107,7 +107,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -125,8 +125,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -138,8 +138,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

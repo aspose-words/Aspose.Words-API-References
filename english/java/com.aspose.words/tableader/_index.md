@@ -1,37 +1,37 @@
 ---
 title: TabLeader
 second_title: Aspose.Words for Java API Reference
-description: 指定制表符下显示的引线的类型。
+description: Specifies the type of the leader line displayed under the tab character.
 type: docs
 weight: 545
-url: /zh/java/com.aspose.words/tableader/
+url: /java/com.aspose.words/tableader/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TabLeader
 ```
 
-指定制表符下显示的引线的类型。
-## 字段
+Specifies the type of the leader line displayed under the tab character.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DASHES](#DASHES) | 引导线由虚线组成。 |
-| [DOTS](#DOTS) | 引导线由点组成。 |
-| [HEAVY](#HEAVY) | 引导线是一条粗线。 |
-| [LINE](#LINE) | 引导线是单线。 |
-| [MIDDLE_DOT](#MIDDLE-DOT) | 引导线由中间点组成。 |
-| [NONE](#NONE) | 不显示引导线。 |
+| [DASHES](#DASHES) | The leader line is made up from dashes. |
+| [DOTS](#DOTS) | The leader line is made up from dots. |
+| [HEAVY](#HEAVY) | The leader line is a single thick line. |
+| [LINE](#LINE) | The leader line is a single line. |
+| [MIDDLE_DOT](#MIDDLE-DOT) | The leader line is made up from middle-dots. |
+| [NONE](#NONE) | No leader line is displayed. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String tabLeaderName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int tabLeader)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -48,7 +48,7 @@ public static int DASHES
 ```
 
 
-引导线由虚线组成。
+The leader line is made up from dashes.
 
 ### DOTS {#DOTS}
 ```
@@ -56,7 +56,7 @@ public static int DOTS
 ```
 
 
-引导线由点组成。
+The leader line is made up from dots.
 
 ### HEAVY {#HEAVY}
 ```
@@ -64,7 +64,7 @@ public static int HEAVY
 ```
 
 
-引导线是一条粗线。
+The leader line is a single thick line.
 
 ### LINE {#LINE}
 ```
@@ -72,7 +72,7 @@ public static int LINE
 ```
 
 
-引导线是单线。
+The leader line is a single line.
 
 ### MIDDLE_DOT {#MIDDLE-DOT}
 ```
@@ -80,7 +80,7 @@ public static int MIDDLE_DOT
 ```
 
 
-引导线由中间点组成。
+The leader line is made up from middle-dots.
 
 ### NONE {#NONE}
 ```
@@ -88,7 +88,7 @@ public static int NONE
 ```
 
 
-不显示引导线。
+No leader line is displayed.
 
 ### length {#length}
 ```
@@ -104,13 +104,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String tabLeaderName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String tabLeaderName)
@@ -119,23 +119,23 @@ public static int fromName(String tabLeaderName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tabLeaderName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int tabLeader) {#getName-int-}
 ```
 public static String getName(int tabLeader)
@@ -144,12 +144,12 @@ public static String getName(int tabLeader)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tabLeader | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,7 +195,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int tabLeader) {#toString-int-}
 ```
@@ -205,12 +205,12 @@ public static String toString(int tabLeader)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | tabLeader | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

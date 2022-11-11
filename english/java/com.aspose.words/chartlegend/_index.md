@@ -1,43 +1,43 @@
 ---
 title: ChartLegend
-second_title: Aspose.Words for Java API 参考
-description: 表示图表图例属性。
+second_title: Aspose.Words for Java API Reference
+description: Represents chart legend properties.
 type: docs
 weight: 63
-url: /zh/java/com.aspose.words/chartlegend/
+url: /java/com.aspose.words/chartlegend/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class ChartLegend implements Cloneable
 ```
 
-表示图表图例属性。
+Represents chart legend properties.
 
-要了解更多信息，请访问**Working with Charts**文档文章。
-## 构造函数s
+To learn more, visit the **Working with Charts** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [ChartLegend()](#ChartLegend--) | 初始化一个新的实例[ChartLegend](../../com.aspose.words/chartlegend)班级。 |
-## 方法s
+| [ChartLegend()](#ChartLegend--) | Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend) class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getLegendEntries()](#getLegendEntries--) | 返回父图表的所有系列和趋势线的图例条目集合。 |
-| [getOverlay()](#getOverlay--) | 确定是否允许其他图表元素与图例重叠。 |
-| [getPosition()](#getPosition--) | 指定图例在图表上的位置。 |
+| [getClass()](#getClass--) |  |
+| [getLegendEntries()](#getLegendEntries--) | Returns a collection of legend entries for all series and trendlines of the parent chart. |
+| [getOverlay()](#getOverlay--) | Determines whether other chart elements shall be allowed to overlap legend. |
+| [getPosition()](#getPosition--) | Specifies the position of the legend on a chart. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setOverlay(boolean value)](#setOverlay-boolean-) | 确定是否允许其他图表元素与图例重叠。 |
-| [setPosition(int value)](#setPosition-int-) | 指定图例在图表上的位置。 |
+| [setOverlay(boolean value)](#setOverlay-boolean-) | Determines whether other chart elements shall be allowed to overlap legend. |
+| [setPosition(int value)](#setPosition-int-) | Specifies the position of the legend on a chart. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public ChartLegend()
 ```
 
 
-初始化一个新的实例[ChartLegend](../../com.aspose.words/chartlegend)班级。
+Initializes a new instance of the [ChartLegend](../../com.aspose.words/chartlegend) class.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -58,53 +58,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getLegendEntries() {#getLegendEntries--}
 ```
 public ChartLegendEntryCollection getLegendEntries()
 ```
 
 
-返回父图表的所有系列和趋势线的图例条目集合。
+Returns a collection of legend entries for all series and trendlines of the parent chart.
 
-**退货:**
-[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection) - 父图表的所有系列和趋势线的图例条目集合。
+**Returns:**
+[ChartLegendEntryCollection](../../com.aspose.words/chartlegendentrycollection) - A collection of legend entries for all series and trendlines of the parent chart.
 ### getOverlay() {#getOverlay--}
 ```
 public boolean getOverlay()
 ```
 
 
-确定是否允许其他图表元素与图例重叠。默认值为假。
+Determines whether other chart elements shall be allowed to overlap legend. Default value is false.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getPosition() {#getPosition--}
 ```
 public int getPosition()
 ```
 
 
-指定图例在图表上的位置。默认值为[LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[LegendPosition](../../com.aspose.words/legendposition)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [LegendPosition](../../com.aspose.words/legendposition) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -113,8 +113,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -137,12 +137,12 @@ public void setOverlay(boolean value)
 ```
 
 
-确定是否允许其他图表元素与图例重叠。默认值为假。
+Determines whether other chart elements shall be allowed to overlap legend. Default value is false.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setPosition(int value) {#setPosition-int-}
 ```
@@ -150,12 +150,12 @@ public void setPosition(int value)
 ```
 
 
-指定图例在图表上的位置。默认值为[LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
+Specifies the position of the legend on a chart. Default value is [LegendPosition.RIGHT](../../com.aspose.words/legendposition\#RIGHT).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[LegendPosition](../../com.aspose.words/legendposition)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [LegendPosition](../../com.aspose.words/legendposition) constants. |
 
 ### toString() {#toString--}
 ```
@@ -165,7 +165,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -183,8 +183,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -196,8 +196,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

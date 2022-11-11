@@ -1,37 +1,37 @@
 ---
 title: DocumentSecurity
-second_title: Aspose.Words for Java API 参考
-description: 用作 / 属性的值。
+second_title: Aspose.Words for Java API Reference
+description: Used as a value for the  /  property.
 type: docs
 weight: 130
-url: /zh/java/com.aspose.words/documentsecurity/
+url: /java/com.aspose.words/documentsecurity/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DocumentSecurity
 ```
 
-用作[BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-)财产。将文档的安全级别指定为数值。
-## 字段
+Used as a value for the [BuiltInDocumentProperties.getSecurity()](../../com.aspose.words/builtindocumentproperties\#getSecurity--) / [BuiltInDocumentProperties.setSecurity(int)](../../com.aspose.words/builtindocumentproperties\#setSecurity-int-) property. Specifies the security level of a document as a numeric value.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [NONE](#NONE) | 该属性没有指定安全状态。 |
-| [PASSWORD_PROTECTED](#PASSWORD-PROTECTED) | 该文档受密码保护。 |
-| [READ_ONLY_ENFORCED](#READ-ONLY-ENFORCED) | 始终以只读方式打开的文档。 |
-| [READ_ONLY_EXCEPT_ANNOTATIONS](#READ-ONLY-EXCEPT-ANNOTATIONS) | 文档始终以只读方式打开，注释除外。 |
-| [READ_ONLY_RECOMMENDED](#READ-ONLY-RECOMMENDED) | 如果可能，要以只读方式打开的文档，但可以覆盖该设置。 |
+| [NONE](#NONE) | There are no security states specified by the property. |
+| [PASSWORD_PROTECTED](#PASSWORD-PROTECTED) | The document is password protected. |
+| [READ_ONLY_ENFORCED](#READ-ONLY-ENFORCED) | The document to always be opened read-only. |
+| [READ_ONLY_EXCEPT_ANNOTATIONS](#READ-ONLY-EXCEPT-ANNOTATIONS) | The document to always be opened read-only except for annotations. |
+| [READ_ONLY_RECOMMENDED](#READ-ONLY-RECOMMENDED) | The document to be opened read-only if possible, but the setting can be overridden. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String documentSecurityName)](#fromName-java.lang.String-) |  |
 | [fromNames(Set documentSecurityNames)](#fromNames-java.util.Set-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int documentSecurity)](#getName-int-) |  |
 | [getNames(int documentSecurity)](#getNames-int-) |  |
 | [getValues()](#getValues--) |  |
@@ -50,7 +50,7 @@ public static int NONE
 ```
 
 
-该属性没有指定安全状态。
+There are no security states specified by the property.
 
 ### PASSWORD_PROTECTED {#PASSWORD-PROTECTED}
 ```
@@ -58,7 +58,7 @@ public static int PASSWORD_PROTECTED
 ```
 
 
-该文档受密码保护。 （到目前为止，从未在文档中看到过注释）。
+The document is password protected. (Note has never been seen in a document so far).
 
 ### READ_ONLY_ENFORCED {#READ-ONLY-ENFORCED}
 ```
@@ -66,7 +66,7 @@ public static int READ_ONLY_ENFORCED
 ```
 
 
-始终以只读方式打开的文档。
+The document to always be opened read-only.
 
 ### READ_ONLY_EXCEPT_ANNOTATIONS {#READ-ONLY-EXCEPT-ANNOTATIONS}
 ```
@@ -74,7 +74,7 @@ public static int READ_ONLY_EXCEPT_ANNOTATIONS
 ```
 
 
-文档始终以只读方式打开，注释除外。
+The document to always be opened read-only except for annotations.
 
 ### READ_ONLY_RECOMMENDED {#READ-ONLY-RECOMMENDED}
 ```
@@ -82,7 +82,7 @@ public static int READ_ONLY_RECOMMENDED
 ```
 
 
-如果可能，要以只读方式打开的文档，但可以覆盖该设置。
+The document to be opened read-only if possible, but the setting can be overridden.
 
 ### length {#length}
 ```
@@ -98,13 +98,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String documentSecurityName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String documentSecurityName)
@@ -113,13 +113,13 @@ public static int fromName(String documentSecurityName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentSecurityName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### fromNames(Set documentSecurityNames) {#fromNames-java.util.Set-}
 ```
 public static int fromNames(Set documentSecurityNames)
@@ -128,23 +128,23 @@ public static int fromNames(Set documentSecurityNames)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentSecurityNames | java.util.Set |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int documentSecurity) {#getName-int-}
 ```
 public static String getName(int documentSecurity)
@@ -153,12 +153,12 @@ public static String getName(int documentSecurity)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getNames(int documentSecurity) {#getNames-int-}
 ```
@@ -168,12 +168,12 @@ public static Set getNames(int documentSecurity)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**退货:**
+**Returns:**
 java.util.Set
 ### getValues() {#getValues--}
 ```
@@ -183,8 +183,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -193,8 +193,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -219,7 +219,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int documentSecurity) {#toString-int-}
 ```
@@ -229,12 +229,12 @@ public static String toString(int documentSecurity)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | documentSecurity | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toStringSet(int attr) {#toStringSet-int-}
 ```
@@ -244,12 +244,12 @@ public static String toStringSet(int attr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | attr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -267,8 +267,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -280,8 +280,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

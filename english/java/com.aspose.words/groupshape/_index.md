@@ -1,218 +1,218 @@
 ---
 title: GroupShape
-second_title: Aspose.Words for Java API 参考
-description: 表示文档中的一组形状。
+second_title: Aspose.Words for Java API Reference
+description: Represents a group of shapes in a document.
 type: docs
 weight: 314
-url: /zh/java/com.aspose.words/groupshape/
+url: /java/com.aspose.words/groupshape/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object, [com.aspose.words.Node](../../com.aspose.words/node), [com.aspose.words.CompositeNode](../../com.aspose.words/compositenode), [com.aspose.words.ShapeBase](../../com.aspose.words/shapebase)
 ```
 public class GroupShape extends ShapeBase
 ```
 
-表示文档中的一组形状。
+Represents a group of shapes in a document.
 
-要了解更多信息，请访问**How to Add Group Shape into a Word Document**文档文章。
+To learn more, visit the **How to Add Group Shape into a Word Document** documentation article.
 
-一个[GroupShape](../../com.aspose.words/groupshape)是一个复合节点，可以有[Shape](../../com.aspose.words/shape)和[GroupShape](../../com.aspose.words/groupshape)节点作为子节点。
+A [GroupShape](../../com.aspose.words/groupshape) is a composite node and can have [Shape](../../com.aspose.words/shape) and [GroupShape](../../com.aspose.words/groupshape) nodes as children.
 
-每个[GroupShape](../../com.aspose.words/groupshape)为其子形状定义一个新的坐标系。坐标系是使用定义的[ShapeBase.getCoordSize()](../../com.aspose.words/shapebase\#getCoordSize--) / [ShapeBase.setCoordSize(java.awt.Dimension)](../../com.aspose.words/shapebase\#setCoordSize-java.awt.Dimension-)和[ShapeBase.getCoordOrigin()](../../com.aspose.words/shapebase\#getCoordOrigin--) / [ShapeBase.setCoordOrigin(java.awt.Point)](../../com.aspose.words/shapebase\#setCoordOrigin-java.awt.Point-)特性。
-## 构造函数s
+Each [GroupShape](../../com.aspose.words/groupshape) defines a new coordinate system for its child shapes. The coordinate system is defined using the [ShapeBase.getCoordSize()](../../com.aspose.words/shapebase\#getCoordSize--) / [ShapeBase.setCoordSize(java.awt.Dimension)](../../com.aspose.words/shapebase\#setCoordSize-java.awt.Dimension-) and [ShapeBase.getCoordOrigin()](../../com.aspose.words/shapebase\#getCoordOrigin--) / [ShapeBase.setCoordOrigin(java.awt.Point)](../../com.aspose.words/shapebase\#setCoordOrigin-java.awt.Point-) properties.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [GroupShape(DocumentBase doc)](#GroupShape-com.aspose.words.DocumentBase-) | 创建一个新的组形状。 |
-## 方法s
+| [GroupShape(DocumentBase doc)](#GroupShape-com.aspose.words.DocumentBase-) | Creates a new group shape. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | 接受访客。 |
-| [adjustWithEffects(Rectangle2D.Float source)](#adjustWithEffects-java.awt.geom.Rectangle2D.Float-) | 添加到效果范围的源矩形值并返回最终矩形。 |
-| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的末尾。 |
-| [canHaveImage()](#canHaveImage--) | 如果形状类型允许形状具有图像，则返回 true。 |
+| [accept(DocumentVisitor visitor)](#accept-com.aspose.words.DocumentVisitor-) | Accepts a visitor. |
+| [adjustWithEffects(Rectangle2D.Float source)](#adjustWithEffects-java.awt.geom.Rectangle2D.Float-) | Adds to the source rectangle values of the effect extent and returns the final rectangle. |
+| [appendChild(Node newChild)](#appendChild-com.aspose.words.Node-) | Adds the specified node to the end of the list of child nodes for this node. |
+| [canHaveImage()](#canHaveImage--) | Returns true if the shape type allows the shape to have an image. |
 | [clearRunAttrs()](#clearRunAttrs--) |  |
 | [dd()](#dd--) |  |
-| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | 创建节点的副本。 |
+| [deepClone(boolean isCloneChildren)](#deepClone-boolean-) | Creates a duplicate of the node. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedRunAttr(int fontAttr)](#fetchInheritedRunAttr-int-) |  |
-| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int-) | 保留供系统使用。 |
-| [fetchShapeAttr(int key)](#fetchShapeAttr-int-) | 保留供系统使用。 |
-| [getAllowOverlap()](#getAllowOverlap--) | 获取一个值，该值指定此形状是否可以与其他形状重叠。 |
-| [getAlternativeText()](#getAlternativeText--) | 定义要显示的替代文本而不是图形。 |
-| [getAncestor(int ancestor类型)](#getAncestor-int-) |  |
-| [getAncestor(班级 ancestor类型)](#getAncestor-java.lang.班级-) | 获取指定对象类型的第一个祖先。 |
-| [getAnchorLocked()](#getAnchorLocked--) | 指定形状的锚点是否被锁定。 |
-| [getAspectRatioLocked()](#getAspectRatioLocked--) | 指定形状的纵横比是否被锁定。 |
-| [getBehindText()](#getBehindText--) | 指定形状是低于还是高于文本。 |
-| [getBottom()](#getBottom--) | 获取形状包含块的底部边缘的位置。 |
-| [getBounds()](#getBounds--) | 获取形状包含块的位置和大小。 |
-| [getBoundsInPoints()](#getBoundsInPoints--) | 获取形状包含块的位置和大小，以点为单位，相对于最顶部形状的锚点。 |
-| [getBoundsWithEffects()](#getBoundsWithEffects--) | 获取此形状对象在应用绘图效果后的最终范围。 |
-| [getChild(int node类型, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
-| [getChildNodes()](#getChildNodes--) | 获取此节点的所有直接子节点。 |
-| [getChildNodes(int node类型, boolean isDeep)](#getChildNodes-int-boolean-) |  |
-| [get班级()](#get班级--) |  |
+| [fetchInheritedShapeAttr(int key)](#fetchInheritedShapeAttr-int-) | Reserved for system use. |
+| [fetchShapeAttr(int key)](#fetchShapeAttr-int-) | Reserved for system use. |
+| [getAllowOverlap()](#getAllowOverlap--) | Gets a value that specifies whether this shape can overlap other shapes. |
+| [getAlternativeText()](#getAlternativeText--) | Defines alternative text to be displayed instead of a graphic. |
+| [getAncestor(int ancestorType)](#getAncestor-int-) |  |
+| [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class-) | Gets the first ancestor of the specified object type. |
+| [getAnchorLocked()](#getAnchorLocked--) | Specifies whether the shape's anchor is locked. |
+| [getAspectRatioLocked()](#getAspectRatioLocked--) | Specifies whether the shape's aspect ratio is locked. |
+| [getBehindText()](#getBehindText--) | Specifies whether the shape is below or above text. |
+| [getBottom()](#getBottom--) | Gets the position of the bottom edge of the containing block of the shape. |
+| [getBounds()](#getBounds--) | Gets the location and size of the containing block of the shape. |
+| [getBoundsInPoints()](#getBoundsInPoints--) | Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape. |
+| [getBoundsWithEffects()](#getBoundsWithEffects--) | Gets final extent that this shape object has after applying drawing effects. |
+| [getChild(int nodeType, int index, boolean isDeep)](#getChild-int-int-boolean-) |  |
+| [getChildNodes()](#getChildNodes--) | Gets all immediate child nodes of this node. |
+| [getChildNodes(int nodeType, boolean isDeep)](#getChildNodes-int-boolean-) |  |
+| [getClass()](#getClass--) |  |
 | [getContainer()](#getContainer--) |  |
-| [getCoordOrigin()](#getCoordOrigin--) | 此形状的包含块左上角的坐标。 |
-| [getCoordSize()](#getCoordSize--) | 此形状的包含块内的坐标空间的宽度和高度。 |
-| [getCount()](#getCount--) | 获取此节点的直接子节点数。 |
+| [getCoordOrigin()](#getCoordOrigin--) | The coordinates at the top-left corner of the containing block of this shape. |
+| [getCoordSize()](#getCoordSize--) | The width and height of the coordinate space inside the containing block of this shape. |
+| [getCount()](#getCount--) | Gets the number of immediate children of this node. |
 | [getCurrentNode()](#getCurrentNode--) |  |
-| [getCustomNodeId()](#getCustomNodeId--) | 指定自定义节点标识符。 |
+| [getCustomNodeId()](#getCustomNodeId--) | Specifies custom node identifier. |
 | [getDirectRunAttr(int fontAttr)](#getDirectRunAttr-int-) |  |
-| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int-) | 保留供系统使用。 |
-| [getDistanceBottom()](#getDistanceBottom--) | 获取文档文本和形状底部边缘之间的距离（以磅为单位）。 |
-| [getDistanceLeft()](#getDistanceLeft--) | 获取文档文本与形状左边缘之间的距离（以磅为单位）。 |
-| [getDistanceRight()](#getDistanceRight--) | 获取文档文本和形状右边缘之间的距离（以磅为单位）。 |
-| [getDistanceTop()](#getDistanceTop--) | 获取文档文本和形状上边缘之间的距离（以磅为单位）。 |
-| [getDocument()](#getDocument--) | 获取该节点所属的文档。 |
+| [getDirectShapeAttr(int key)](#getDirectShapeAttr-int-) | Reserved for system use. |
+| [getDistanceBottom()](#getDistanceBottom--) | Gets the distance (in points) between the document text and the bottom edge of the shape. |
+| [getDistanceLeft()](#getDistanceLeft--) | Gets the distance (in points) between the document text and the left edge of the shape. |
+| [getDistanceRight()](#getDistanceRight--) | Gets the distance (in points) between the document text and the right edge of the shape. |
+| [getDistanceTop()](#getDistanceTop--) | Gets the distance (in points) between the document text and the top edge of the shape. |
+| [getDocument()](#getDocument--) | Gets the document to which this node belongs. |
 | [getDocument_IInline()](#getDocument-IInline--) |  |
-| [getFill()](#getFill--) | 获取形状的填充格式。 |
-| [getFill类型()](#getFill类型--) |  |
+| [getFill()](#getFill--) | Gets fill formatting for the shape. |
+| [getFillType()](#getFillType--) |  |
 | [getFillableBackColor()](#getFillableBackColor--) |  |
 | [getFillableForeColor()](#getFillableForeColor--) |  |
 | [getFillableImageBytes()](#getFillableImageBytes--) |  |
 | [getFillableTransparency()](#getFillableTransparency--) |  |
 | [getFillableVisible()](#getFillableVisible--) |  |
 | [getFilledColor()](#getFilledColor--) |  |
-| [getFirstChild()](#getFirstChild--) | 获取节点的第一个子节点。 |
-| [getFlipOrientation()](#getFlipOrientation--) | 切换形状的方向。 |
-| [getFont()](#getFont--) | 提供对此对象的字体格式的访问。 |
+| [getFirstChild()](#getFirstChild--) | Gets the first child of the node. |
+| [getFlipOrientation()](#getFlipOrientation--) | Switches the orientation of a shape. |
+| [getFont()](#getFont--) | Provides access to the font formatting of this object. |
 | [getGradientAngle()](#getGradientAngle--) |  |
 | [getGradientStops()](#getGradientStops--) |  |
 | [getGradientStyle()](#getGradientStyle--) |  |
 | [getGradientVariant()](#getGradientVariant--) |  |
-| [getHRef()](#getHRef--) | 获取形状的完整超链接地址。 |
-| [getHeight()](#getHeight--) | 获取形状包含块的高度。 |
-| [getHorizontalAlignment()](#getHorizontalAlignment--) | 指定形状如何水平放置。 |
-| [getLastChild()](#getLastChild--) | 获取节点的最后一个子节点。 |
-| [getLeft()](#getLeft--) | 获取形状包含块的左边缘的位置。 |
-| [getMarkupLanguage()](#getMarkupLanguage--) | 获取用于此图形对象的 MarkupLanguage。 |
-| [getName()](#getName--) | 获取可选的形状名称。 |
+| [getHRef()](#getHRef--) | Gets the full hyperlink address for a shape. |
+| [getHeight()](#getHeight--) | Gets the height of the containing block of the shape. |
+| [getHorizontalAlignment()](#getHorizontalAlignment--) | Specifies how the shape is positioned horizontally. |
+| [getLastChild()](#getLastChild--) | Gets the last child of the node. |
+| [getLeft()](#getLeft--) | Gets the position of the left edge of the containing block of the shape. |
+| [getMarkupLanguage()](#getMarkupLanguage--) | Gets MarkupLanguage used for this graphic object. |
+| [getName()](#getName--) | Gets the optional shape name. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node-) |  |
-| [getNextSibling()](#getNextSibling--) | 获取紧跟此节点的节点。 |
-| [getNode类型()](#getNode类型--) | 退货[Node类型.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE). |
+| [getNextSibling()](#getNextSibling--) | Gets the node immediately following this node. |
+| [getNodeType()](#getNodeType--) | Returns [NodeType.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE). |
 | [getOn()](#getOn--) |  |
 | [getOpacity()](#getOpacity--) |  |
-| [getParentNode()](#getParentNode--) | 获取此节点的直接父节点。 |
-| [getParentParagraph()](#getParentParagraph--) | 返回直接父段落。 |
+| [getParentNode()](#getParentNode--) | Gets the immediate parent of this node. |
+| [getParentParagraph()](#getParentParagraph--) | Returns the immediate parent paragraph. |
 | [getParentParagraph_IInline()](#getParentParagraph-IInline--) |  |
-| [getPattern类型()](#getPattern类型--) |  |
+| [getPatternType()](#getPatternType--) |  |
 | [getPresetTexture()](#getPresetTexture--) |  |
-| [getPreviousSibling()](#getPreviousSibling--) | 获取紧接在此节点之前的节点。 |
-| [getRange()](#getRange--) | 返回一个**Range**表示包含在此节点中的文档部分的对象。 |
-| [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition--) | 指定相对于水平放置的形状。 |
-| [getRelativeVerticalPosition()](#getRelativeVerticalPosition--) | 指定相对于形状垂直定位的位置。 |
-| [getRight()](#getRight--) | 获取形状包含块的右边缘的位置。 |
+| [getPreviousSibling()](#getPreviousSibling--) | Gets the node immediately preceding this node. |
+| [getRange()](#getRange--) | Returns a **Range** object that represents the portion of a document that is contained in this node. |
+| [getRelativeHorizontalPosition()](#getRelativeHorizontalPosition--) | Specifies relative to what the shape is positioned horizontally. |
+| [getRelativeVerticalPosition()](#getRelativeVerticalPosition--) | Specifies relative to what the shape is positioned vertically. |
+| [getRight()](#getRight--) | Gets the position of the right edge of the containing block of the shape. |
 | [getRotateWithObject()](#getRotateWithObject--) |  |
-| [getRotation()](#getRotation--) | 定义形状旋转的角度（以度为单位）。 |
-| [getScreenTip()](#getScreenTip--) | 定义当鼠标指针移到形状上时显示的文本。 |
-| [getShadowFormat()](#getShadowFormat--) | 获取形状的阴影格式。 |
-| [getShapeRenderer()](#getShapeRenderer--) | 创建并返回可用于将此形状渲染为图像的对象。 |
-| [getShape类型()](#getShape类型--) | 获取形状类型。 |
-| [getSizeInPoints()](#getSizeInPoints--) | 以点为单位获取形状的大小。 |
-| [getTarget()](#getTarget--) | 获取形状超链接的目标框架。 |
-| [getText()](#getText--) | 获取此节点及其所有子节点的文本。 |
+| [getRotation()](#getRotation--) | Defines the angle (in degrees) that a shape is rotated. |
+| [getScreenTip()](#getScreenTip--) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [getShadowFormat()](#getShadowFormat--) | Gets shadow formatting for the shape. |
+| [getShapeRenderer()](#getShapeRenderer--) | Creates and returns an object that can be used to render this shape into an image. |
+| [getShapeType()](#getShapeType--) | Gets the shape type. |
+| [getSizeInPoints()](#getSizeInPoints--) | Gets the size of the shape in points. |
+| [getTarget()](#getTarget--) | Gets the target frame for the shape hyperlink. |
+| [getText()](#getText--) | Gets the text of this node and of all its children. |
 | [getTextureAlignment()](#getTextureAlignment--) |  |
-| [getTitle()](#getTitle--) | 获取当前形状对象的标题（标题）。 |
-| [getTop()](#getTop--) | 获取形状包含块的上边缘的位置。 |
-| [getVerticalAlignment()](#getVerticalAlignment--) | 指定形状垂直放置的方式。 |
-| [getWidth()](#getWidth--) | 获取形状包含块的宽度。 |
-| [getWrapSide()](#getWrapSide--) | 指定文本如何环绕形状。 |
-| [getWrap类型()](#getWrap类型--) | 定义形状是内联的还是浮动的。 |
-| [getZOrder()](#getZOrder--) | 确定重叠形状的显示顺序。 |
+| [getTitle()](#getTitle--) | Gets the title (caption) of the current shape object. |
+| [getTop()](#getTop--) | Gets the position of the top edge of the containing block of the shape. |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Specifies how the shape is positioned vertically. |
+| [getWidth()](#getWidth--) | Gets the width of the containing block of the shape. |
+| [getWrapSide()](#getWrapSide--) | Specifies how the text is wrapped around the shape. |
+| [getWrapType()](#getWrapType--) | Defines whether the shape is inline or floating. |
+| [getZOrder()](#getZOrder--) | Determines the display order of overlapping shapes. |
 | [getZOrder_IShape()](#getZOrder-IShape--) |  |
-| [hasChildNodes()](#hasChildNodes--) | 如果此节点有任何子节点，则返回 true。 |
+| [hasChildNodes()](#hasChildNodes--) | Returns true if this node has any child nodes. |
 | [hashCode()](#hashCode--) |  |
-| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | 返回子节点数组中指定子节点的索引。 |
-| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之后立即插入指定的节点。 |
-| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | 在指定的参考节点之前插入指定的节点。 |
-| [isComposite()](#isComposite--) | 返回 true，因为此节点可以有子节点。 |
-| [isDecorative()](#isDecorative--) | 获取指定形状在文档中是否具有装饰性的标志。 |
-| [isDecorative(boolean value)](#isDecorative-boolean-) | 设置指定形状在文档中是否具有装饰性的标志。 |
-| [isDeleteRevision()](#isDeleteRevision--) | 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。 |
-| [isGroup()](#isGroup--) | 如果这是一个组形状，则返回 true。 |
-| [isHorizontalRule()](#isHorizontalRule--) | 如果此形状是水平规则，则返回 true。 |
-| [isImage()](#isImage--) | 如果此形状是图像形状，则返回 true。 |
-| [isInline()](#isInline--) | 一种快速确定此形状是否与文本内联的方法。 |
-| [isInsertRevision()](#isInsertRevision--) | 如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。 |
-| [isLayoutInCell()](#isLayoutInCell--) | 获取一个标志，该标志指示形状是显示在表格内部还是表格外部。 |
-| [isLayoutInCell(boolean value)](#isLayoutInCell-boolean-) | 设置一个标志，指示形状是显示在表格内部还是表格外部。 |
-| [isMoveFromRevision()](#isMoveFromRevision--) | 退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。 |
-| [isMoveToRevision()](#isMoveToRevision--) | 退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。 |
-| [isSignatureLine()](#isSignatureLine--) | 指示该形状是 SignatureLine。 |
-| [isTopLevel()](#isTopLevel--) | 如果此形状不是组形状的子形状，则返回 true。 |
-| [isWordArt()](#isWordArt--) | 如果此形状是艺术字对象，则返回 true。 |
-| [iterator()](#iterator--) | 为在此节点的子节点上的每个样式迭代提供支持。 |
-| [localToParent(Point2D.Float value)](#localToParent-java.awt.geom.Point2D.Float-) | 将本地坐标空间中的值转换为父形状的坐标空间。 |
-| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取下一个节点。 |
-| [node类型ToString(int node类型)](#node类型ToString-int-) |  |
+| [indexOf(Node child)](#indexOf-com.aspose.words.Node-) | Returns the index of the specified child node in the child node array. |
+| [insertAfter(Node newChild, Node refChild)](#insertAfter-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately after the specified reference node. |
+| [insertBefore(Node newChild, Node refChild)](#insertBefore-com.aspose.words.Node-com.aspose.words.Node-) | Inserts the specified node immediately before the specified reference node. |
+| [isComposite()](#isComposite--) | Returns true as this node can have child nodes. |
+| [isDecorative()](#isDecorative--) | Gets the flag that specifies whether the shape is decorative in the document. |
+| [isDecorative(boolean value)](#isDecorative-boolean-) | Sets the flag that specifies whether the shape is decorative in the document. |
+| [isDeleteRevision()](#isDeleteRevision--) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
+| [isGroup()](#isGroup--) | Returns true if this is a group shape. |
+| [isHorizontalRule()](#isHorizontalRule--) | Returns true if this shape is a horizontal rule. |
+| [isImage()](#isImage--) | Returns true if this shape is an image shape. |
+| [isInline()](#isInline--) | A quick way to determine if this shape is positioned inline with text. |
+| [isInsertRevision()](#isInsertRevision--) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
+| [isLayoutInCell()](#isLayoutInCell--) | Gets a flag indicating whether the shape is displayed inside a table or outside of it. |
+| [isLayoutInCell(boolean value)](#isLayoutInCell-boolean-) | Sets a flag indicating whether the shape is displayed inside a table or outside of it. |
+| [isMoveFromRevision()](#isMoveFromRevision--) | Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision()](#isMoveToRevision--) | Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [isSignatureLine()](#isSignatureLine--) | Indicates that shape is a SignatureLine. |
+| [isTopLevel()](#isTopLevel--) | Returns true if this shape is not a child of a group shape. |
+| [isWordArt()](#isWordArt--) | Returns true if this shape is a WordArt object. |
+| [iterator()](#iterator--) | Provides support for the for each style iteration over the child nodes of this node. |
+| [localToParent(Point2D.Float value)](#localToParent-java.awt.geom.Point2D.Float-) | Converts a value from the local coordinate space into the coordinate space of the parent shape. |
+| [nextPreOrder(Node rootNode)](#nextPreOrder-com.aspose.words.Node-) | Gets next node according to the pre-order tree traversal algorithm. |
+| [nodeTypeToString(int nodeType)](#nodeTypeToString-int-) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [oneColorGradient(int style, int variant, double degree)](#oneColorGradient-int-int-double-) |  |
-| [patterned(int pattern类型)](#patterned-int-) |  |
-| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | 将指定节点添加到此节点的子节点列表的开头。 |
+| [patterned(int patternType)](#patterned-int-) |  |
+| [prependChild(Node newChild)](#prependChild-com.aspose.words.Node-) | Adds the specified node to the beginning of the list of child nodes for this node. |
 | [presetTextured(int presetTexture)](#presetTextured-int-) |  |
-| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | 根据前序树遍历算法获取上一个节点。 |
-| [remove()](#remove--) | 从父级中移除自身。 |
-| [removeAllChildren()](#removeAllChildren--) | 移除当前节点的所有子节点。 |
-| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | 移除指定的子节点。 |
+| [previousPreOrder(Node rootNode)](#previousPreOrder-com.aspose.words.Node-) | Gets the previous node according to the pre-order tree traversal algorithm. |
+| [remove()](#remove--) | Removes itself from the parent. |
+| [removeAllChildren()](#removeAllChildren--) | Removes all the child nodes of the current node. |
+| [removeChild(Node oldChild)](#removeChild-com.aspose.words.Node-) | Removes the specified child node. |
 | [removeMoveRevisions()](#removeMoveRevisions--) |  |
 | [removeRunAttr(int key)](#removeRunAttr-int-) |  |
-| [removeShapeAttr(int key)](#removeShapeAttr-int-) | 保留供系统使用。 |
-| [removeSmartTags()](#removeSmartTags--) | 删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。 |
-| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | 选择与 XPath 表达式匹配的节点列表。 |
-| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | 选择与 XPath 表达式匹配的第一个节点。 |
-| [setAllowOverlap(boolean value)](#setAllowOverlap-boolean-) | 设置一个值，该值指定此形状是否可以与其他形状重叠。 |
-| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | 定义要显示的替代文本而不是图形。 |
-| [setAnchorLocked(boolean value)](#setAnchorLocked-boolean-) | 指定形状的锚点是否被锁定。 |
-| [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean-) | 指定形状的纵横比是否被锁定。 |
-| [setBehindText(boolean value)](#setBehindText-boolean-) | 指定形状是低于还是高于文本。 |
-| [setBounds(Rectangle2D.Float value)](#setBounds-java.awt.geom.Rectangle2D.Float-) | 设置形状包含块的位置和大小。 |
-| [setCoordOrigin(Point value)](#setCoordOrigin-java.awt.Point-) | 此形状的包含块左上角的坐标。 |
-| [setCoordSize(Dimension value)](#setCoordSize-java.awt.Dimension-) | 此形状的包含块内的坐标空间的宽度和高度。 |
-| [setCustomNodeId(int value)](#setCustomNodeId-int-) | 指定自定义节点标识符。 |
-| [setDistanceBottom(double value)](#setDistanceBottom-double-) | 设置文档文本和形状底部边缘之间的距离（以磅为单位）。 |
-| [setDistanceLeft(double value)](#setDistanceLeft-double-) | 设置文档文本和形状左边缘之间的距离（以磅为单位）。 |
-| [setDistanceRight(double value)](#setDistanceRight-double-) | 设置文档文本和形状右边缘之间的距离（以磅为单位）。 |
-| [setDistanceTop(double value)](#setDistanceTop-double-) | 设置文档文本和形状上边缘之间的距离（以磅为单位）。 |
+| [removeShapeAttr(int key)](#removeShapeAttr-int-) | Reserved for system use. |
+| [removeSmartTags()](#removeSmartTags--) | Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. |
+| [selectNodes(String xpath)](#selectNodes-java.lang.String-) | Selects a list of nodes matching the XPath expression. |
+| [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String-) | Selects the first Node that matches the XPath expression. |
+| [setAllowOverlap(boolean value)](#setAllowOverlap-boolean-) | Sets a value that specifies whether this shape can overlap other shapes. |
+| [setAlternativeText(String value)](#setAlternativeText-java.lang.String-) | Defines alternative text to be displayed instead of a graphic. |
+| [setAnchorLocked(boolean value)](#setAnchorLocked-boolean-) | Specifies whether the shape's anchor is locked. |
+| [setAspectRatioLocked(boolean value)](#setAspectRatioLocked-boolean-) | Specifies whether the shape's aspect ratio is locked. |
+| [setBehindText(boolean value)](#setBehindText-boolean-) | Specifies whether the shape is below or above text. |
+| [setBounds(Rectangle2D.Float value)](#setBounds-java.awt.geom.Rectangle2D.Float-) | Sets the location and size of the containing block of the shape. |
+| [setCoordOrigin(Point value)](#setCoordOrigin-java.awt.Point-) | The coordinates at the top-left corner of the containing block of this shape. |
+| [setCoordSize(Dimension value)](#setCoordSize-java.awt.Dimension-) | The width and height of the coordinate space inside the containing block of this shape. |
+| [setCustomNodeId(int value)](#setCustomNodeId-int-) | Specifies custom node identifier. |
+| [setDistanceBottom(double value)](#setDistanceBottom-double-) | Sets the distance (in points) between the document text and the bottom edge of the shape. |
+| [setDistanceLeft(double value)](#setDistanceLeft-double-) | Sets the distance (in points) between the document text and the left edge of the shape. |
+| [setDistanceRight(double value)](#setDistanceRight-double-) | Sets the distance (in points) between the document text and the right edge of the shape. |
+| [setDistanceTop(double value)](#setDistanceTop-double-) | Sets the distance (in points) between the document text and the top edge of the shape. |
 | [setFillableBackColor(Color value)](#setFillableBackColor-java.awt.Color-) |  |
 | [setFillableForeColor(Color value)](#setFillableForeColor-java.awt.Color-) |  |
 | [setFillableTransparency(double value)](#setFillableTransparency-double-) |  |
 | [setFillableVisible(boolean value)](#setFillableVisible-boolean-) |  |
 | [setFilledColor(Color value)](#setFilledColor-java.awt.Color-) |  |
-| [setFlipOrientation(int value)](#setFlipOrientation-int-) | 切换形状的方向。 |
+| [setFlipOrientation(int value)](#setFlipOrientation-int-) | Switches the orientation of a shape. |
 | [setGradientAngle(double value)](#setGradientAngle-double-) |  |
-| [setHRef(String value)](#setHRef-java.lang.String-) | 设置形状的完整超链接地址。 |
-| [setHeight(double value)](#setHeight-double-) | 设置形状包含块的高度。 |
-| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | 指定形状如何水平放置。 |
+| [setHRef(String value)](#setHRef-java.lang.String-) | Sets the full hyperlink address for a shape. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the containing block of the shape. |
+| [setHorizontalAlignment(int value)](#setHorizontalAlignment-int-) | Specifies how the shape is positioned horizontally. |
 | [setImage(byte[] imageBytes)](#setImage-byte---) |  |
-| [setLeft(double value)](#setLeft-double-) | 设置形状包含块的左边缘的位置。 |
-| [setName(String value)](#setName-java.lang.String-) | 设置可选的形状名称。 |
+| [setLeft(double value)](#setLeft-double-) | Sets the position of the left edge of the containing block of the shape. |
+| [setName(String value)](#setName-java.lang.String-) | Sets the optional shape name. |
 | [setOn(boolean value)](#setOn-boolean-) |  |
 | [setOpacity(double value)](#setOpacity-double-) |  |
-| [setRelativeHorizontalPosition(int value)](#setRelativeHorizontalPosition-int-) | 指定相对于水平放置的形状。 |
-| [setRelativeVerticalPosition(int value)](#setRelativeVerticalPosition-int-) | 指定相对于形状垂直定位的位置。 |
+| [setRelativeHorizontalPosition(int value)](#setRelativeHorizontalPosition-int-) | Specifies relative to what the shape is positioned horizontally. |
+| [setRelativeVerticalPosition(int value)](#setRelativeVerticalPosition-int-) | Specifies relative to what the shape is positioned vertically. |
 | [setRotateWithObject(boolean value)](#setRotateWithObject-boolean-) |  |
-| [setRotation(double value)](#setRotation-double-) | 定义形状旋转的角度（以度为单位）。 |
+| [setRotation(double value)](#setRotation-double-) | Defines the angle (in degrees) that a shape is rotated. |
 | [setRunAttr(int fontAttr, Object value)](#setRunAttr-int-java.lang.Object-) |  |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | 定义当鼠标指针移到形状上时显示的文本。 |
-| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object-) | 保留供系统使用。 |
-| [setTarget(String value)](#setTarget-java.lang.String-) | 设置形状超链接的目标框架。 |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | Defines the text displayed when the mouse pointer moves over the shape. |
+| [setShapeAttr(int key, Object value)](#setShapeAttr-int-java.lang.Object-) | Reserved for system use. |
+| [setTarget(String value)](#setTarget-java.lang.String-) | Sets the target frame for the shape hyperlink. |
 | [setTextureAlignment(int value)](#setTextureAlignment-int-) |  |
-| [setTitle(String value)](#setTitle-java.lang.String-) | 设置当前形状对象的标题（标题）。 |
-| [setTop(double value)](#setTop-double-) | 设置形状包含块的上边缘的位置。 |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | 指定形状垂直放置的方式。 |
-| [setWidth(double value)](#setWidth-double-) | 设置形状包含块的宽度。 |
-| [setWrapSide(int value)](#setWrapSide-int-) | 指定文本如何环绕形状。 |
-| [setWrap类型(int value)](#setWrap类型-int-) | 定义形状是内联的还是浮动的。 |
-| [setZOrder(int value)](#setZOrder-int-) | 确定重叠形状的显示顺序。 |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Sets the title (caption) of the current shape object. |
+| [setTop(double value)](#setTop-double-) | Sets the position of the top edge of the containing block of the shape. |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Specifies how the shape is positioned vertically. |
+| [setWidth(double value)](#setWidth-double-) | Sets the width of the containing block of the shape. |
+| [setWrapSide(int value)](#setWrapSide-int-) | Specifies how the text is wrapped around the shape. |
+| [setWrapType(int value)](#setWrapType-int-) | Defines whether the shape is inline or floating. |
+| [setZOrder(int value)](#setZOrder-int-) | Determines the display order of overlapping shapes. |
 | [setZOrder_IShape(int value)](#setZOrder-IShape-int-) |  |
 | [solid()](#solid--) |  |
 | [toString()](#toString--) |  |
-| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | 使用指定的保存选项将节点的内容导出为字符串。 |
+| [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions-) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int-) |  |
 | [twoColorGradient(int style, int variant)](#twoColorGradient-int-int-) |  |
 | [wait()](#wait--) |  |
@@ -224,16 +224,16 @@ public GroupShape(DocumentBase doc)
 ```
 
 
-创建一个新的组形状。
+Creates a new group shape.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../com.aspose.words/documentbase) | 所有者文件。
+| doc | [DocumentBase](../../com.aspose.words/documentbase) | The owner document.
 
-默认情况下，形状是浮动的，并且具有默认位置和大小。
+By default, the shape is floating and has default location and size.
 
-您应该在创建形状后指定所需的形状属性。|
+You should specify desired shape properties after you created a shape. |
 
 ### accept(DocumentVisitor visitor) {#accept-com.aspose.words.DocumentVisitor-}
 ```
@@ -241,33 +241,33 @@ public boolean accept(DocumentVisitor visitor)
 ```
 
 
-接受访客。
+Accepts a visitor.
 
-枚举此节点及其所有子节点。每个节点调用 DocumentVisitor 上的相应方法。
+Enumerates over this node and all of its children. Each node calls a corresponding method on DocumentVisitor.
 
-有关更多信息，请参阅访问者设计模式。
+For more info see the Visitor design pattern.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | 将访问节点的访问者。 |
+| visitor | [DocumentVisitor](../../com.aspose.words/documentvisitor) | The visitor that will visit the nodes. |
 
-**退货:**
- boolean - 如果所有节点都被访问，则为真；如果 DocumentVisitor 在访问所有节点之前停止操作，则返回 false。来电[DocumentVisitor.visitGroupShapeStart(com.aspose.words.GroupShape)](../../com.aspose.words/documentvisitor\#visitGroupShapeStart-com.aspose.words.GroupShape-) ，然后调用[Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-)对于该组形状的所有子形状并调用[DocumentVisitor.visitGroupShapeEnd(com.aspose.words.GroupShape)](../../com.aspose.words/documentvisitor\#visitGroupShapeEnd-com.aspose.words.GroupShape-)在最后。
+**Returns:**
+boolean - True if all nodes were visited; false if DocumentVisitor stopped the operation before visiting all nodes. Calls [DocumentVisitor.visitGroupShapeStart(com.aspose.words.GroupShape)](../../com.aspose.words/documentvisitor\#visitGroupShapeStart-com.aspose.words.GroupShape-), then calls [Node.accept(com.aspose.words.DocumentVisitor)](../../com.aspose.words/node\#accept-com.aspose.words.DocumentVisitor-) for all child shapes of this group shape and calls [DocumentVisitor.visitGroupShapeEnd(com.aspose.words.GroupShape)](../../com.aspose.words/documentvisitor\#visitGroupShapeEnd-com.aspose.words.GroupShape-) at the end.
 ### adjustWithEffects(Rectangle2D.Float source) {#adjustWithEffects-java.awt.geom.Rectangle2D.Float-}
 ```
 public Rectangle2D.Float adjustWithEffects(Rectangle2D.Float source)
 ```
 
 
-添加到效果范围的源矩形值并返回最终矩形。
+Adds to the source rectangle values of the effect extent and returns the final rectangle.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | source | java.awt.geom.Rectangle2D.Float |  |
 
-**退货:**
+**Returns:**
 java.awt.geom.Rectangle2D.Float
 ### appendChild(Node newChild) {#appendChild-com.aspose.words.Node-}
 ```
@@ -275,31 +275,31 @@ public Node appendChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的末尾。
+Adds the specified node to the end of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### canHaveImage() {#canHaveImage--}
 ```
 public boolean canHaveImage()
 ```
 
 
-如果形状类型允许形状具有图像，则返回 true。
+Returns true if the shape type allows the shape to have an image.
 
-尽管 Microsoft Word 有一种特殊的图像形状类型，但似乎在 Microsoft Word 文档中，除了组形状之外的任何形状都可以有图像，因此对于所有形状，除了[GroupShape](../../com.aspose.words/groupshape).
+Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape except a group shape can have an image, therefore this property returns true for all shapes except [GroupShape](../../com.aspose.words/groupshape).
 
-**退货:**
-boolean - 如果形状类型允许形状具有图像，则为真。
+**Returns:**
+boolean - True if the shape type allows the shape to have an image.
 ### clearRunAttrs() {#clearRunAttrs--}
 ```
 public void clearRunAttrs()
@@ -322,19 +322,19 @@ public Node deepClone(boolean isCloneChildren)
 ```
 
 
-创建节点的副本。
+Creates a duplicate of the node.
 
-此方法用作节点的复制构造函数。克隆的节点没有父节点，但与原始节点属于同一个文档。
+This method serves as a copy constructor for nodes. The cloned node has no parent, but belongs to the same document as the original node.
 
-此方法始终执行节点的深层复制。这*isCloneChildren*参数指定是否也执行复制所有子节点。
+This method always performs a deep copy of the node. The *isCloneChildren* parameter specifies whether to perform copy all child nodes as well.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| isCloneChildren | boolean | True 递归克隆指定节点下的子树； false 仅克隆节点本身。 |
+| isCloneChildren | boolean | True to recursively clone the subtree under the specified node; false to clone only the node itself. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 克隆的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The cloned node.
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
 public boolean equals(Object arg0)
@@ -343,13 +343,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedRunAttr(int fontAttr) {#fetchInheritedRunAttr-int-}
 ```
 public Object fetchInheritedRunAttr(int fontAttr)
@@ -358,12 +358,12 @@ public Object fetchInheritedRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedShapeAttr(int key) {#fetchInheritedShapeAttr-int-}
 ```
@@ -371,14 +371,14 @@ public Object fetchInheritedShapeAttr(int key)
 ```
 
 
-保留供系统使用。 IShapeAttrSource。
+Reserved for system use. IShapeAttrSource.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchShapeAttr(int key) {#fetchShapeAttr-int-}
 ```
@@ -386,14 +386,14 @@ public Object fetchShapeAttr(int key)
 ```
 
 
-保留供系统使用。 IShapeAttrSource。
+Reserved for system use. IShapeAttrSource.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getAllowOverlap() {#getAllowOverlap--}
 ```
@@ -401,168 +401,168 @@ public boolean getAllowOverlap()
 ```
 
 
-获取一个值，该值指定此形状是否可以与其他形状重叠。
+Gets a value that specifies whether this shape can overlap other shapes.
 
-此属性会影响 Microsoft Word 中形状的行为。 Aspose.Words 忽略此属性的值。
+This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
 
-此属性仅适用于顶级形状。
+This property is applicable only to top level shapes.
 
-默认值为**true**.
+The default value is **true**.
 
-**退货:**
-boolean - 指定此形状是否可以与其他形状重叠的值。
+**Returns:**
+boolean - A value that specifies whether this shape can overlap other shapes.
 ### getAlternativeText() {#getAlternativeText--}
 ```
 public String getAlternativeText()
 ```
 
 
-定义要显示的替代文本而不是图形。
+Defines alternative text to be displayed instead of a graphic.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getAncestor(int ancestor类型) {#getAncestor-int-}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getAncestor(int ancestorType) {#getAncestor-int-}
 ```
-public CompositeNode getAncestor(int ancestor类型)
+public CompositeNode getAncestor(int ancestorType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | int |  |
+| ancestorType | int |  |
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
-### getAncestor(班级 ancestor类型) {#getAncestor-java.lang.班级-}
+### getAncestor(Class ancestorType) {#getAncestor-java.lang.Class-}
 ```
-public CompositeNode getAncestor(班级 ancestor类型)
+public CompositeNode getAncestor(Class ancestorType)
 ```
 
 
-获取指定对象类型的第一个祖先。
+Gets the first ancestor of the specified object type.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ancestor类型 | java.lang.班级 | 要检索的祖先的对象类型。 |
+| ancestorType | java.lang.Class | The object type of the ancestor to retrieve. |
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 指定类型的祖先，如果没有找到该类型的祖先，则返回 null。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The ancestor of the specified type or null if no ancestor of this type was found.
 
-如果祖先类型等于祖先类型或从祖先类型派生，则祖先类型匹配。
+The ancestor type matches if it is equal to ancestorType or derived from ancestorType.
 ### getAnchorLocked() {#getAnchorLocked--}
 ```
 public boolean getAnchorLocked()
 ```
 
 
-指定形状的锚点是否被锁定。
+Specifies whether the shape's anchor is locked.
 
-默认值为**false**.
+The default value is **false**.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-此属性会影响 Microsoft Word 中形状锚点的行为。当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动形状的锚点。
+This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getAspectRatioLocked() {#getAspectRatioLocked--}
 ```
 public boolean getAspectRatioLocked()
 ```
 
 
-指定形状的纵横比是否被锁定。
+Specifies whether the shape's aspect ratio is locked.
 
-默认值取决于[getShape类型()](../../com.aspose.words/shapebase\#getShape类型--) 对于 Shape类型.Image 它是**true**但对于其他形状类型，它是**false**.
+The default value depends on the [getShapeType()](../../com.aspose.words/shapebase\#getShapeType--), for the ShapeType.Image it is **true** but for the other shape types it is **false**.
 
-仅对顶级形状有效。
+Has effect for top level shapes only.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBehindText() {#getBehindText--}
 ```
 public boolean getBehindText()
 ```
 
 
-指定形状是低于还是高于文本。
+Specifies whether the shape is below or above text.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-默认值为**false**.
+The default value is **false**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBottom() {#getBottom--}
 ```
 public double getBottom()
 ```
 
 
-获取形状包含块的底部边缘的位置。
+Gets the position of the bottom edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-**退货:**
-double - 形状包含块的底部边缘的位置。
+**Returns:**
+double - The position of the bottom edge of the containing block of the shape.
 ### getBounds() {#getBounds--}
 ```
 public Rectangle2D.Float getBounds()
 ```
 
 
-获取形状包含块的位置和大小。设置时忽略纵横比锁定。
+Gets the location and size of the containing block of the shape. Ignores aspect ratio lock upon setting.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-**退货:**
-java.awt.geom.Rectangle2D.Float - 形状包含块的位置和大小。
+**Returns:**
+java.awt.geom.Rectangle2D.Float - The location and size of the containing block of the shape.
 ### getBoundsInPoints() {#getBoundsInPoints--}
 ```
 public Rectangle2D.Float getBoundsInPoints()
 ```
 
 
-获取形状包含块的位置和大小，以点为单位，相对于最顶部形状的锚点。
+Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 
-**退货:**
-java.awt.geom.Rectangle2D.Float - 形状包含块的位置和大小，以点为单位，相对于最顶部形状的锚点。
+**Returns:**
+java.awt.geom.Rectangle2D.Float - The location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
 ### getBoundsWithEffects() {#getBoundsWithEffects--}
 ```
 public Rectangle2D.Float getBoundsWithEffects()
 ```
 
 
-获取此形状对象在应用绘图效果后的最终范围。价值以点为单位。
+Gets final extent that this shape object has after applying drawing effects. Value is measured in points.
 
-**退货:**
-java.awt.geom.Rectangle2D.Float - 此形状对象在应用绘图效果后的最终范围。
-### getChild(int node类型, int index, boolean isDeep) {#getChild-int-int-boolean-}
+**Returns:**
+java.awt.geom.Rectangle2D.Float - Final extent that this shape object has after applying drawing effects.
+### getChild(int nodeType, int index, boolean isDeep) {#getChild-int-int-boolean-}
 ```
-public Node getChild(int node类型, int index, boolean isDeep)
+public Node getChild(int nodeType, int index, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | index | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getChildNodes() {#getChildNodes--}
 ```
@@ -570,40 +570,40 @@ public NodeCollection getChildNodes()
 ```
 
 
-获取此节点的所有直接子节点。
+Gets all immediate child nodes of this node.
 
-笔记，[getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--)相当于调用 GetChildNodes(Node类型.Any, false) 并在每次访问时创建并返回一个新集合。
+Note, [getChildNodes()](../../com.aspose.words/compositenode\#getChildNodes--) is equivalent to calling  GetChildNodes(NodeType.Any, false)  and creates and returns a new collection every time it is accessed.
 
-如果没有子节点，则此属性返回一个空集合。
+If there are no child nodes, this property returns an empty collection.
 
-**退货:**
-[NodeCollection](../../com.aspose.words/nodecollection) - 该节点的所有直接子节点。
-### getChildNodes(int node类型, boolean isDeep) {#getChildNodes-int-boolean-}
+**Returns:**
+[NodeCollection](../../com.aspose.words/nodecollection) - All immediate child nodes of this node.
+### getChildNodes(int nodeType, boolean isDeep) {#getChildNodes-int-boolean-}
 ```
-public NodeCollection getChildNodes(int node类型, boolean isDeep)
+public NodeCollection getChildNodes(int nodeType, boolean isDeep)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 | isDeep | boolean |  |
 
-**退货:**
+**Returns:**
 [NodeCollection](../../com.aspose.words/nodecollection)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getContainer() {#getContainer--}
 ```
 public CompositeNode getContainer()
@@ -612,7 +612,7 @@ public CompositeNode getContainer()
 
 
 
-**退货:**
+**Returns:**
 [CompositeNode](../../com.aspose.words/compositenode)
 ### getCoordOrigin() {#getCoordOrigin--}
 ```
@@ -620,34 +620,34 @@ public Point getCoordOrigin()
 ```
 
 
-此形状的包含块左上角的坐标。
+The coordinates at the top-left corner of the containing block of this shape.
 
-默认值为 (0,0)。
+The default value is (0,0).
 
-**退货:**
-java.awt.Point - 对应的 java.awt.Point 值。
+**Returns:**
+java.awt.Point - The corresponding java.awt.Point value.
 ### getCoordSize() {#getCoordSize--}
 ```
 public Dimension getCoordSize()
 ```
 
 
-此形状的包含块内的坐标空间的宽度和高度。
+The width and height of the coordinate space inside the containing block of this shape.
 
-默认值为 (1000, 1000)。
+The default value is (1000, 1000).
 
-**退货:**
-java.awt.Dimension - 对应的 java.awt.Dimension 值。
+**Returns:**
+java.awt.Dimension - The corresponding java.awt.Dimension value.
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取此节点的直接子节点数。
+Gets the number of immediate children of this node.
 
-**退货:**
-int - 此节点的直接子节点数。
+**Returns:**
+int - The number of immediate children of this node.
 ### getCurrentNode() {#getCurrentNode--}
 ```
 public Node getCurrentNode()
@@ -656,7 +656,7 @@ public Node getCurrentNode()
 
 
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getCustomNodeId() {#getCustomNodeId--}
 ```
@@ -664,16 +664,16 @@ public int getCustomNodeId()
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getDirectRunAttr(int fontAttr) {#getDirectRunAttr-int-}
 ```
 public Object getDirectRunAttr(int fontAttr)
@@ -682,12 +682,12 @@ public Object getDirectRunAttr(int fontAttr)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDirectShapeAttr(int key) {#getDirectShapeAttr-int-}
 ```
@@ -695,14 +695,14 @@ public Object getDirectShapeAttr(int key)
 ```
 
 
-保留供系统使用。 IShapeAttrSource。
+Reserved for system use. IShapeAttrSource.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getDistanceBottom() {#getDistanceBottom--}
 ```
@@ -710,68 +710,68 @@ public double getDistanceBottom()
 ```
 
 
-获取文档文本和形状底部边缘之间的距离（以磅为单位）。
+Gets the distance (in points) between the document text and the bottom edge of the shape.
 
-默认值为 0。
+The default value is 0.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-double - 文档文本和形状底部边缘之间的距离（以磅为单位）。
+**Returns:**
+double - The distance (in points) between the document text and the bottom edge of the shape.
 ### getDistanceLeft() {#getDistanceLeft--}
 ```
 public double getDistanceLeft()
 ```
 
 
-获取文档文本与形状左边缘之间的距离（以磅为单位）。
+Gets the distance (in points) between the document text and the left edge of the shape.
 
-默认值为 1/8 英寸。
+The default value is 1/8 inch.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-double - 文档文本与形状左边缘之间的距离（以磅为单位）。
+**Returns:**
+double - The distance (in points) between the document text and the left edge of the shape.
 ### getDistanceRight() {#getDistanceRight--}
 ```
 public double getDistanceRight()
 ```
 
 
-获取文档文本和形状右边缘之间的距离（以磅为单位）。
+Gets the distance (in points) between the document text and the right edge of the shape.
 
-默认值为 1/8 英寸。
+The default value is 1/8 inch.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-double - 文档文本与形状右边缘之间的距离（以磅为单位）。
+**Returns:**
+double - The distance (in points) between the document text and the right edge of the shape.
 ### getDistanceTop() {#getDistanceTop--}
 ```
 public double getDistanceTop()
 ```
 
 
-获取文档文本和形状上边缘之间的距离（以磅为单位）。
+Gets the distance (in points) between the document text and the top edge of the shape.
 
-默认值为 0。
+The default value is 0.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-double - 文档文本和形状上边缘之间的距离（以磅为单位）。
+**Returns:**
+double - The distance (in points) between the document text and the top edge of the shape.
 ### getDocument() {#getDocument--}
 ```
 public DocumentBase getDocument()
 ```
 
 
-获取该节点所属的文档。
+Gets the document to which this node belongs.
 
-该节点始终属于一个文档，即使它刚刚创建但尚未添加到树中，或者已从树中删除。
+The node always belongs to a document even if it has just been created and not yet added to the tree, or if it has been removed from the tree.
 
-**退货:**
-[DocumentBase](../../com.aspose.words/documentbase) - 该节点所属的文档。
+**Returns:**
+[DocumentBase](../../com.aspose.words/documentbase) - The document to which this node belongs.
 ### getDocument_IInline() {#getDocument-IInline--}
 ```
 public DocumentBase getDocument_IInline()
@@ -780,7 +780,7 @@ public DocumentBase getDocument_IInline()
 
 
 
-**退货:**
+**Returns:**
 [DocumentBase](../../com.aspose.words/documentbase)
 ### getFill() {#getFill--}
 ```
@@ -788,20 +788,20 @@ public Fill getFill()
 ```
 
 
-获取形状的填充格式。
+Gets fill formatting for the shape.
 
-**退货:**
-[Fill](../../com.aspose.words/fill) - 填充形状的格式。
-### getFill类型() {#getFill类型--}
+**Returns:**
+[Fill](../../com.aspose.words/fill) - Fill formatting for the shape.
+### getFillType() {#getFillType--}
 ```
-public int getFill类型()
+public int getFillType()
 ```
 
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getFillableBackColor() {#getFillableBackColor--}
 ```
 public Color getFillableBackColor()
@@ -810,8 +810,8 @@ public Color getFillableBackColor()
 
 
 
-**退货:**
-java.awt.颜色
+**Returns:**
+java.awt.Color
 ### getFillableForeColor() {#getFillableForeColor--}
 ```
 public Color getFillableForeColor()
@@ -820,8 +820,8 @@ public Color getFillableForeColor()
 
 
 
-**退货:**
-java.awt.颜色
+**Returns:**
+java.awt.Color
 ### getFillableImageBytes() {#getFillableImageBytes--}
 ```
 public byte[] getFillableImageBytes()
@@ -830,8 +830,8 @@ public byte[] getFillableImageBytes()
 
 
 
-**退货:**
-字节[]
+**Returns:**
+byte[]
 ### getFillableTransparency() {#getFillableTransparency--}
 ```
 public double getFillableTransparency()
@@ -840,8 +840,8 @@ public double getFillableTransparency()
 
 
 
-**退货:**
-双倍的
+**Returns:**
+double
 ### getFillableVisible() {#getFillableVisible--}
 ```
 public boolean getFillableVisible()
@@ -850,8 +850,8 @@ public boolean getFillableVisible()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getFilledColor() {#getFilledColor--}
 ```
 public Color getFilledColor()
@@ -860,40 +860,40 @@ public Color getFilledColor()
 
 
 
-**退货:**
-java.awt.颜色
+**Returns:**
+java.awt.Color
 ### getFirstChild() {#getFirstChild--}
 ```
 public Node getFirstChild()
 ```
 
 
-获取节点的第一个子节点。如果没有第一个子节点，则返回 null。
+Gets the first child of the node. If there is no first child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的第一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first child of the node.
 ### getFlipOrientation() {#getFlipOrientation--}
 ```
 public int getFlipOrientation()
 ```
 
 
-切换形状的方向。
+Switches the orientation of a shape.
 
-默认值为[FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
+The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
 
-**退货:**
- int - 对应的 int 值。返回值是按位组合[FlipOrientation](../../com.aspose.words/fliporientation)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation) constants.
 ### getFont() {#getFont--}
 ```
 public Font getFont()
 ```
 
 
-提供对此对象的字体格式的访问。
+Provides access to the font formatting of this object.
 
-**退货:**
-[Font](../../com.aspose.words/font) - 相应的[Font](../../com.aspose.words/font)价值。
+**Returns:**
+[Font](../../com.aspose.words/font) - The corresponding [Font](../../com.aspose.words/font) value.
 ### getGradientAngle() {#getGradientAngle--}
 ```
 public double getGradientAngle()
@@ -902,8 +902,8 @@ public double getGradientAngle()
 
 
 
-**退货:**
-双倍的
+**Returns:**
+double
 ### getGradientStops() {#getGradientStops--}
 ```
 public GradientStopCollection getGradientStops()
@@ -912,7 +912,7 @@ public GradientStopCollection getGradientStops()
 
 
 
-**退货:**
+**Returns:**
 [GradientStopCollection](../../com.aspose.words/gradientstopcollection)
 ### getGradientStyle() {#getGradientStyle--}
 ```
@@ -922,8 +922,8 @@ public int getGradientStyle()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getGradientVariant() {#getGradientVariant--}
 ```
 public int getGradientVariant()
@@ -932,116 +932,116 @@ public int getGradientVariant()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getHRef() {#getHRef--}
 ```
 public String getHRef()
 ```
 
 
-获取形状的完整超链接地址。
+Gets the full hyperlink address for a shape.
 
-默认值为空字符串。
+The default value is an empty string.
 
-以下是此属性的有效值示例：
+Below are examples of valid values for this property:
 
-完整的 URI： https://www.aspose.com/ 。
+Full URI:  https://www.aspose.com/ .
 
-文件全名：C:\\\\我的文件\\\\销售报告.doc 。
+Full file name:  C:\\\\My Documents\\\\SalesReport.doc .
 
-相对 URI：../../../resource.txt 
+Relative URI:  ../../../resource.txt 
 
-相对文件名：..\\\\我的文件\\\\销售报告.doc 。
+Relative file name:  ..\\\\My Documents\\\\SalesReport.doc .
 
-在另一个文档中添加书签：https://www.aspose.com/Products/Default.aspx\#套房 
+Bookmark within another document:  https://www.aspose.com/Products/Default.aspx\#Suites 
 
-本文档中的书签：\#BookmakName 。
+Bookmark within this document:  \#BookmakName .
 
-**退货:**
-java.lang.String - 形状的完整超链接地址。
+**Returns:**
+java.lang.String - The full hyperlink address for a shape.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
 ```
 
 
-获取形状包含块的高度。
+Gets the height of the containing block of the shape.
 
-对于顶级形状，该值以磅为单位。
+For a top-level shape, the value is in points.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 形状包含块的高度。
+**Returns:**
+double - The height of the containing block of the shape.
 ### getHorizontalAlignment() {#getHorizontalAlignment--}
 ```
 public int getHorizontalAlignment()
 ```
 
 
-指定形状如何水平放置。
+Specifies how the shape is positioned horizontally.
 
-默认值为[HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
+The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants.
 ### getLastChild() {#getLastChild--}
 ```
 public Node getLastChild()
 ```
 
 
-获取节点的最后一个子节点。如果没有最后一个子节点，则返回 null。
+Gets the last child of the node. If there is no last child node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 节点的最后一个子节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The last child of the node.
 ### getLeft() {#getLeft--}
 ```
 public double getLeft()
 ```
 
 
-获取形状包含块的左边缘的位置。
+Gets the position of the left edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-仅对浮动形状有效。
+Has effect only for floating shapes.
 
-**退货:**
-double - 形状包含块的左边缘的位置。
+**Returns:**
+double - The position of the left edge of the containing block of the shape.
 ### getMarkupLanguage() {#getMarkupLanguage--}
 ```
 public byte getMarkupLanguage()
 ```
 
 
-获取用于此图形对象的 MarkupLanguage。
+Gets MarkupLanguage used for this graphic object.
 
-**退货:**
- byte - 用于此图形对象的 MarkupLanguage。返回值是以下之一[ShapeMarkupLanguage](../../com.aspose.words/shapemarkuplanguage)常数。
+**Returns:**
+byte - MarkupLanguage used for this graphic object. The returned value is one of [ShapeMarkupLanguage](../../com.aspose.words/shapemarkuplanguage) constants.
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-获取可选的形状名称。
+Gets the optional shape name.
 
-默认为空字符串。
+Default is empty string.
 
-不能为空，但可以是空字符串。
+Cannot be null, but can be an empty string.
 
-**退货:**
-java.lang.String - 可选的形状名称。
+**Returns:**
+java.lang.String - The optional shape name.
 ### getNextMatchingNode(Node curNode) {#getNextMatchingNode-com.aspose.words.Node-}
 ```
 public Node getNextMatchingNode(Node curNode)
@@ -1050,12 +1050,12 @@ public Node getNextMatchingNode(Node curNode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | curNode | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### getNextSibling() {#getNextSibling--}
 ```
@@ -1063,20 +1063,20 @@ public Node getNextSibling()
 ```
 
 
-获取紧跟此节点的节点。如果没有下一个节点，则返回 null。
+Gets the node immediately following this node. If there is no next node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧跟该节点的节点。
-### getNode类型() {#getNode类型--}
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately following this node.
+### getNodeType() {#getNodeType--}
 ```
-public int getNode类型()
+public int getNodeType()
 ```
 
 
-退货[Node类型.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE).
+Returns [NodeType.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE).
 
-**退货:**
-诠释 -\{[Node类型.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE) .返回值是以下之一[Node类型](../../com.aspose.words/nodetype)常数。
+**Returns:**
+int - \{[NodeType.GROUP\_SHAPE](../../com.aspose.words/nodetype\#GROUP-SHAPE). The returned value is one of [NodeType](../../com.aspose.words/nodetype) constants.
 ### getOn() {#getOn--}
 ```
 public boolean getOn()
@@ -1085,8 +1085,8 @@ public boolean getOn()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getOpacity() {#getOpacity--}
 ```
 public double getOpacity()
@@ -1095,30 +1095,30 @@ public double getOpacity()
 
 
 
-**退货:**
-双倍的
+**Returns:**
+double
 ### getParentNode() {#getParentNode--}
 ```
 public CompositeNode getParentNode()
 ```
 
 
-获取此节点的直接父节点。
+Gets the immediate parent of this node.
 
-如果一个节点刚刚创建但尚未添加到树中，或者它已从树中删除，则父节点为空。
+If a node has just been created and not yet added to the tree, or if it has been removed from the tree, the parent is null.
 
-**退货:**
-[CompositeNode](../../com.aspose.words/compositenode) - 该节点的直接父节点。
+**Returns:**
+[CompositeNode](../../com.aspose.words/compositenode) - The immediate parent of this node.
 ### getParentParagraph() {#getParentParagraph--}
 ```
 public Paragraph getParentParagraph()
 ```
 
 
-返回直接父段落。对于组形状的子形状和 Office Math 对象的子形状，始终返回 null。
+Returns the immediate parent paragraph. For child shapes of a group shape and child shapes of an Office Math object always returns null.
 
-**退货:**
-[Paragraph](../../com.aspose.words/paragraph) - 直接父段落。
+**Returns:**
+[Paragraph](../../com.aspose.words/paragraph) - The immediate parent paragraph.
 ### getParentParagraph_IInline() {#getParentParagraph-IInline--}
 ```
 public Paragraph getParentParagraph_IInline()
@@ -1127,18 +1127,18 @@ public Paragraph getParentParagraph_IInline()
 
 
 
-**退货:**
+**Returns:**
 [Paragraph](../../com.aspose.words/paragraph)
-### getPattern类型() {#getPattern类型--}
+### getPatternType() {#getPatternType--}
 ```
-public int getPattern类型()
+public int getPatternType()
 ```
 
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getPresetTexture() {#getPresetTexture--}
 ```
 public int getPresetTexture()
@@ -1147,70 +1147,70 @@ public int getPresetTexture()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getPreviousSibling() {#getPreviousSibling--}
 ```
 public Node getPreviousSibling()
 ```
 
 
-获取紧接在此节点之前的节点。如果没有前面的节点，则返回 null。
+Gets the node immediately preceding this node. If there is no preceding node, a null is returned.
 
-**退货:**
-[Node](../../com.aspose.words/node) - 紧接在此节点之前的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node immediately preceding this node.
 ### getRange() {#getRange--}
 ```
 public Range getRange()
 ```
 
 
-返回一个**Range**表示包含在此节点中的文档部分的对象。
+Returns a **Range** object that represents the portion of a document that is contained in this node.
 
-**退货:**
-[Range](../../com.aspose.words/range) - 一个**Range**表示包含在此节点中的文档部分的对象。
+**Returns:**
+[Range](../../com.aspose.words/range) - A **Range** object that represents the portion of a document that is contained in this node.
 ### getRelativeHorizontalPosition() {#getRelativeHorizontalPosition--}
 ```
 public int getRelativeHorizontalPosition()
 ```
 
 
-指定相对于水平放置的形状。
+Specifies relative to what the shape is positioned horizontally.
 
-默认值为[RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants.
 ### getRelativeVerticalPosition() {#getRelativeVerticalPosition--}
 ```
 public int getRelativeVerticalPosition()
 ```
 
 
-指定相对于形状垂直定位的位置。
+Specifies relative to what the shape is positioned vertically.
 
-默认值为[RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants.
 ### getRight() {#getRight--}
 ```
 public double getRight()
 ```
 
 
-获取形状包含块的右边缘的位置。
+Gets the position of the right edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-**退货:**
-double - 形状包含块的右边缘的位置。
+**Returns:**
+double - The position of the right edge of the containing block of the shape.
 ### getRotateWithObject() {#getRotateWithObject--}
 ```
 public boolean getRotateWithObject()
@@ -1219,99 +1219,99 @@ public boolean getRotateWithObject()
 
 
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getRotation() {#getRotation--}
 ```
 public double getRotation()
 ```
 
 
-定义形状旋转的角度（以度为单位）。正值对应顺时针旋转角度。
+Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 对应的双精度值。
+**Returns:**
+double - The corresponding  double  value.
 ### getScreenTip() {#getScreenTip--}
 ```
 public String getScreenTip()
 ```
 
 
-定义当鼠标指针移到形状上时显示的文本。
+Defines the text displayed when the mouse pointer moves over the shape.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getShadowFormat() {#getShadowFormat--}
 ```
 public ShadowFormat getShadowFormat()
 ```
 
 
-获取形状的阴影格式。
+Gets shadow formatting for the shape.
 
-**退货:**
-[ShadowFormat](../../com.aspose.words/shadowformat) - 形状的阴影格式。
+**Returns:**
+[ShadowFormat](../../com.aspose.words/shadowformat) - Shadow formatting for the shape.
 ### getShapeRenderer() {#getShapeRenderer--}
 ```
 public ShapeRenderer getShapeRenderer()
 ```
 
 
-创建并返回可用于将此形状渲染为图像的对象。
+Creates and returns an object that can be used to render this shape into an image.
 
-这个方法只是调用[ShapeRenderer](../../com.aspose.words/shaperenderer)构造函数并将此对象作为参数传递。
+This method just invokes the [ShapeRenderer](../../com.aspose.words/shaperenderer) constructor and passes this object as a parameter.
 
-**退货:**
-[ShapeRenderer](../../com.aspose.words/shaperenderer) - 此形状的渲染器对象。
-### getShape类型() {#getShape类型--}
+**Returns:**
+[ShapeRenderer](../../com.aspose.words/shaperenderer) - The renderer object for this shape.
+### getShapeType() {#getShapeType--}
 ```
-public int getShape类型()
+public int getShapeType()
 ```
 
 
-获取形状类型。
+Gets the shape type.
 
-**退货:**
- int - 形状类型。返回值是以下之一[Shape类型](../../com.aspose.words/shapetype)常数。
+**Returns:**
+int - The shape type. The returned value is one of [ShapeType](../../com.aspose.words/shapetype) constants.
 ### getSizeInPoints() {#getSizeInPoints--}
 ```
 public Point2D.Float getSizeInPoints()
 ```
 
 
-以点为单位获取形状的大小。以点为单位获取形状的大小。
+Gets the size of the shape in points.  Gets the size of the shape in points.
 
- Point2D.Float 用作返回类型，因为我们在这里需要浮点尺寸值。应该假设 Point2D 的*x == width*和*y == height*.
+Point2D.Float is used as return type because we need in float dimension values here. One should to assume that Point2D's *x == width* and *y == height*.
 
-**退货:**
-java.awt.geom.Point2D.Float - 形状的大小（以磅为单位）。
+**Returns:**
+java.awt.geom.Point2D.Float - The size of the shape in points.
 ### getTarget() {#getTarget--}
 ```
 public String getTarget()
 ```
 
 
-获取形状超链接的目标框架。
+Gets the target frame for the shape hyperlink.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**退货:**
-java.lang.String - 形状超链接的目标框架。
+**Returns:**
+java.lang.String - The target frame for the shape hyperlink.
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
 
-获取此节点及其所有子节点的文本。
+Gets the text of this node and of all its children.
 
-返回的字符串包括所有控制和特殊字符，如[ControlChar](../../com.aspose.words/controlchar).
+The returned string includes all control and special characters as described in [ControlChar](../../com.aspose.words/controlchar).
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getTextureAlignment() {#getTextureAlignment--}
 ```
@@ -1321,118 +1321,118 @@ public int getTextureAlignment()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### getTitle() {#getTitle--}
 ```
 public String getTitle()
 ```
 
 
-获取当前形状对象的标题（标题）。
+Gets the title (caption) of the current shape object.
 
-默认为空字符串。
+Default is empty string.
 
-不能为空，但可以是空字符串。
+Cannot be null, but can be an empty string.
 
-**退货:**
-java.lang.String - 当前形状对象的标题（标题）。
+**Returns:**
+java.lang.String - The title (caption) of the current shape object.
 ### getTop() {#getTop--}
 ```
 public double getTop()
 ```
 
 
-获取形状包含块的上边缘的位置。
+Gets the position of the top edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-仅对浮动形状有效。
+Has effect only for floating shapes.
 
-**退货:**
-double - 形状包含块的顶部边缘的位置。
+**Returns:**
+double - The position of the top edge of the containing block of the shape.
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
 ```
 
 
-指定形状垂直放置的方式。
+Specifies how the shape is positioned vertically.
 
-默认值为[VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
+The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants.
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-获取形状包含块的宽度。
+Gets the width of the containing block of the shape.
 
-对于顶级形状，该值以磅为单位。
+For a top-level shape, the value is in points.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-**退货:**
-double - 形状包含块的宽度。
+**Returns:**
+double - The width of the containing block of the shape.
 ### getWrapSide() {#getWrapSide--}
 ```
 public int getWrapSide()
 ```
 
 
-指定文本如何环绕形状。
+Specifies how the text is wrapped around the shape.
 
-默认值为[WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
+The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[WrapSide](../../com.aspose.words/wrapside)常数。
-### getWrap类型() {#getWrap类型--}
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [WrapSide](../../com.aspose.words/wrapside) constants.
+### getWrapType() {#getWrapType--}
 ```
-public int getWrap类型()
+public int getWrapType()
 ```
 
 
-定义形状是内联的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
+Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
-默认值为[Wrap类型.NONE](../../com.aspose.words/wraptype\#NONE).
+The default value is [WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[Wrap类型](../../com.aspose.words/wraptype)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [WrapType](../../com.aspose.words/wraptype) constants.
 ### getZOrder() {#getZOrder--}
 ```
 public int getZOrder()
 ```
 
 
-确定重叠形状的显示顺序。
+Determines the display order of overlapping shapes.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-默认值为 0。
+The default value is 0.
 
-数字代表堆叠优先级。数字较大的形状将显示为与数字较小的形状重叠（在“前面”）。
+The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number.
 
-重叠形状的顺序与页眉和文档正文中的形状无关。
+The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
-组形状中子形状的显示顺序由它们在组形状中的顺序决定。
+The display order of child shapes in a group shape is determined by their order inside the group shape.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getZOrder_IShape() {#getZOrder-IShape--}
 ```
 public int getZOrder_IShape()
@@ -1441,18 +1441,18 @@ public int getZOrder_IShape()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### hasChildNodes() {#hasChildNodes--}
 ```
 public boolean hasChildNodes()
 ```
 
 
-如果此节点有任何子节点，则返回 true。
+Returns true if this node has any child nodes.
 
-**退货:**
-boolean - 如果此节点有任何子节点，则为真。
+**Returns:**
+boolean - True if this node has any child nodes.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -1461,99 +1461,99 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### indexOf(Node child) {#indexOf-com.aspose.words.Node-}
 ```
 public int indexOf(Node child)
 ```
 
 
-返回子节点数组中指定子节点的索引。如果在子节点中未找到该节点，则返回 -1。
+Returns the index of the specified child node in the child node array. Returns -1 if the node is not found in the child nodes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | child | [Node](../../com.aspose.words/node) |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### insertAfter(Node newChild, Node refChild) {#insertAfter-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertAfter(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之后立即插入指定的节点。
+Inserts the specified node immediately after the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的开头插入 newChild。
+If refChild is null, inserts newChild at the beginning of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newNode 放在 refNode 之后。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newNode is placed after the refNode. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### insertBefore(Node newChild, Node refChild) {#insertBefore-com.aspose.words.Node-com.aspose.words.Node-}
 ```
 public Node insertBefore(Node newChild, Node refChild)
 ```
 
 
-在指定的参考节点之前插入指定的节点。
+Inserts the specified node immediately before the specified reference node.
 
-如果 refChild 为 null，则在子节点列表的末尾插入 newChild。
+If refChild is null, inserts newChild at the end of the list of child nodes.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要插入的节点。 |
-| refChild | [Node](../../com.aspose.words/node) | 作为参考节点的节点。 newChild 放置在此节点之前。 |
+| newChild | [Node](../../com.aspose.words/node) | The Node to insert. |
+| refChild | [Node](../../com.aspose.words/node) | The Node that is the reference node. The newChild is placed before this node. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 插入的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The inserted node.
 ### isComposite() {#isComposite--}
 ```
 public boolean isComposite()
 ```
 
 
-返回 true，因为此节点可以有子节点。
+Returns true as this node can have child nodes.
 
-**退货:**
-boolean - True 因为这个节点可以有子节点。
+**Returns:**
+boolean - True as this node can have child nodes.
 ### isDecorative() {#isDecorative--}
 ```
 public boolean isDecorative()
 ```
 
 
-获取指定形状在文档中是否具有装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
+Gets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-) cannot be decorative.
 
-**退货:**
-boolean - 指定形状在文档中是否具有装饰性的标志。
+**Returns:**
+boolean - The flag that specifies whether the shape is decorative in the document.
 ### isDecorative(boolean value) {#isDecorative-boolean-}
 ```
 public void isDecorative(boolean value)
 ```
 
 
-设置指定形状在文档中是否具有装饰性的标志。请注意，形状不为空[getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-)不能装饰。
+Sets the flag that specifies whether the shape is decorative in the document. Note that shape having not empty [getAlternativeText()](../../com.aspose.words/shapebase\#getAlternativeText--) / [setAlternativeText(java.lang.String)](../../com.aspose.words/shapebase\#setAlternativeText-java.lang.String-) cannot be decorative.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指定形状在文档中是否具有装饰性的标志。 |
+| value | boolean | The flag that specifies whether the shape is decorative in the document. |
 
 ### isDeleteRevision() {#isDeleteRevision--}
 ```
@@ -1561,92 +1561,92 @@ public boolean isDeleteRevision()
 ```
 
 
-如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则返回 true。
+Returns true if this object was deleted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时在 Microsoft Word 中删除了此对象，则为 True。
+**Returns:**
+boolean - True if this object was deleted in Microsoft Word while change tracking was enabled.
 ### isGroup() {#isGroup--}
 ```
 public boolean isGroup()
 ```
 
 
-如果这是一个组形状，则返回 true。
+Returns true if this is a group shape.
 
-**退货:**
-boolean - 如果这是一个组形状，则为真。
+**Returns:**
+boolean - True if this is a group shape.
 ### isHorizontalRule() {#isHorizontalRule--}
 ```
 public boolean isHorizontalRule()
 ```
 
 
-如果此形状是水平规则，则返回 true。
+Returns true if this shape is a horizontal rule.
 
-**退货:**
-boolean - 如果此形状是水平规则，则为真。
+**Returns:**
+boolean - True if this shape is a horizontal rule.
 ### isImage() {#isImage--}
 ```
 public boolean isImage()
 ```
 
 
-如果此形状是图像形状，则返回 true。
+Returns true if this shape is an image shape.
 
-**退货:**
-boolean - 如果此形状是图像形状，则为真。
+**Returns:**
+boolean - True if this shape is an image shape.
 ### isInline() {#isInline--}
 ```
 public boolean isInline()
 ```
 
 
-一种快速确定此形状是否与文本内联的方法。
+A quick way to determine if this shape is positioned inline with text.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isInsertRevision() {#isInsertRevision--}
 ```
 public boolean isInsertRevision()
 ```
 
 
-如果在启用更改跟踪时将此对象插入 Microsoft Word，则返回 true。
+Returns true if this object was inserted in Microsoft Word while change tracking was enabled.
 
-**退货:**
-boolean - 如果在启用更改跟踪时将此对象插入 Microsoft Word，则为真。
+**Returns:**
+boolean - True if this object was inserted in Microsoft Word while change tracking was enabled.
 ### isLayoutInCell() {#isLayoutInCell--}
 ```
 public boolean isLayoutInCell()
 ```
 
 
-获取一个标志，该标志指示形状是显示在表格内部还是表格外部。
+Gets a flag indicating whether the shape is displayed inside a table or outside of it.
 
-默认值为**true**.
+The default value is **true**.
 
-仅对顶层形状有效，属性[getWrap类型()](../../com.aspose.words/shapebase\#getWrap类型--) / [setWrap类型(int)](../../com.aspose.words/shapebase\#setWrap类型-int-)其中设置为除[Inline](../../com.aspose.words/inline).
+Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase\#getWrapType--) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int-) of which is set to value other than [Inline](../../com.aspose.words/inline).
 
-**退货:**
-boolean - 指示形状是显示在表格内部还是表格外部的标志。
+**Returns:**
+boolean - A flag indicating whether the shape is displayed inside a table or outside of it.
 ### isLayoutInCell(boolean value) {#isLayoutInCell-boolean-}
 ```
 public void isLayoutInCell(boolean value)
 ```
 
 
-设置一个标志，指示形状是显示在表格内部还是表格外部。
+Sets a flag indicating whether the shape is displayed inside a table or outside of it.
 
-默认值为**true**.
+The default value is **true**.
 
-仅对顶层形状有效，属性[getWrap类型()](../../com.aspose.words/shapebase\#getWrap类型--) / [setWrap类型(int)](../../com.aspose.words/shapebase\#setWrap类型-int-)其中设置为除[Inline](../../com.aspose.words/inline).
+Has effect only for top level shapes, the property [getWrapType()](../../com.aspose.words/shapebase\#getWrapType--) / [setWrapType(int)](../../com.aspose.words/shapebase\#setWrapType-int-) of which is set to value other than [Inline](../../com.aspose.words/inline).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 指示形状是显示在表格内部还是表格外部的标志。 |
+| value | boolean | A flag indicating whether the shape is displayed inside a table or outside of it. |
 
 ### isMoveFromRevision() {#isMoveFromRevision--}
 ```
@@ -1654,59 +1654,59 @@ public boolean isMoveFromRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+Returns **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时此对象在 Microsoft Word 中被移动（删除）。
+**Returns:**
+boolean - **true** if this object was moved (deleted) in Microsoft Word while change tracking was enabled.
 ### isMoveToRevision() {#isMoveToRevision--}
 ```
 public boolean isMoveToRevision()
 ```
 
 
-退货**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+Returns **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
-**退货:**
-布尔值 -**true**如果启用更改跟踪时在 Microsoft Word 中移动（插入）此对象。
+**Returns:**
+boolean - **true** if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 ### isSignatureLine() {#isSignatureLine--}
 ```
 public boolean isSignatureLine()
 ```
 
 
-指示该形状是 SignatureLine。
+Indicates that shape is a SignatureLine.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isTopLevel() {#isTopLevel--}
 ```
 public boolean isTopLevel()
 ```
 
 
-如果此形状不是组形状的子形状，则返回 true。
+Returns true if this shape is not a child of a group shape.
 
-**退货:**
-boolean - 如果此形状不是组形状的子形状，则为真。
+**Returns:**
+boolean - True if this shape is not a child of a group shape.
 ### isWordArt() {#isWordArt--}
 ```
 public boolean isWordArt()
 ```
 
 
-如果此形状是艺术字对象，则返回 true。工作到 2007 兼容模式。在 2010 和更高的兼容模式中，艺术字只是一个带有精美字体的文本框。
+Returns true if this shape is a WordArt object. Works till 2007 compatibility mode. In 2010 and higher compatibility mode WordArt is just a TextBox with fancy fonts.
 
-**退货:**
-布尔值 - 如果此形状是艺术字对象，则为真。
+**Returns:**
+boolean - True if this shape is a WordArt object.
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-为在此节点的子节点上的每个样式迭代提供支持。
+Provides support for the for each style iteration over the child nodes of this node.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### localToParent(Point2D.Float value) {#localToParent-java.awt.geom.Point2D.Float-}
 ```
@@ -1714,14 +1714,14 @@ public Point2D.Float localToParent(Point2D.Float value)
 ```
 
 
-将本地坐标空间中的值转换为父形状的坐标空间。
+Converts a value from the local coordinate space into the coordinate space of the parent shape.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.geom.Point2D.Float |  |
 
-**退货:**
+**Returns:**
 java.awt.geom.Point2D.Float
 ### nextPreOrder(Node rootNode) {#nextPreOrder-com.aspose.words.Node-}
 ```
@@ -1729,29 +1729,29 @@ public Node nextPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取下一个节点。
+Gets next node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的下一个节点。如果到达 rootNode，则为 Null。
-### node类型ToString(int node类型) {#node类型ToString-int-}
+**Returns:**
+[Node](../../com.aspose.words/node) - Next node in pre-order order. Null if reached the rootNode.
+### nodeTypeToString(int nodeType) {#nodeTypeToString-int-}
 ```
-public static String node类型ToString(int node类型)
+public static String nodeTypeToString(int nodeType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| node类型 | int |  |
+| nodeType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### notify() {#notify--}
 ```
@@ -1777,25 +1777,25 @@ public void oneColorGradient(int style, int variant, double degree)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
 | degree | double |  |
 
-### patterned(int pattern类型) {#patterned-int-}
+### patterned(int patternType) {#patterned-int-}
 ```
-public void patterned(int pattern类型)
+public void patterned(int patternType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| pattern类型 | int |  |
+| patternType | int |  |
 
 ### prependChild(Node newChild) {#prependChild-com.aspose.words.Node-}
 ```
@@ -1803,19 +1803,19 @@ public Node prependChild(Node newChild)
 ```
 
 
-将指定节点添加到此节点的子节点列表的开头。
+Adds the specified node to the beginning of the list of child nodes for this node.
 
-如果 newChild 已经在树中，则首先将其移除。
+If the newChild is already in the tree, it is first removed.
 
-如果要插入的节点是从另一个文档创建的，您应该使用**M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)**将节点导入当前文档。然后可以将导入的节点插入到当前文档中。
+If the node being inserted was created from another document, you should use **M:Aspose.Words.DocumentBase.ImportNode(Aspose.Words.Node,System.Boolean,Aspose.Words.ImportFormatMode)** to import the node to the current document. The imported node can then be inserted into the current document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../com.aspose.words/node) | 要添加的节点。 |
+| newChild | [Node](../../com.aspose.words/node) | The node to add. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 添加的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The node added.
 ### presetTextured(int presetTexture) {#presetTextured-int-}
 ```
 public void presetTextured(int presetTexture)
@@ -1824,8 +1824,8 @@ public void presetTextured(int presetTexture)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | presetTexture | int |  |
 
@@ -1835,22 +1835,22 @@ public Node previousPreOrder(Node rootNode)
 ```
 
 
-根据前序树遍历算法获取上一个节点。
+Gets the previous node according to the pre-order tree traversal algorithm.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| rootNode | [Node](../../com.aspose.words/node) | 遍历的顶部节点（极限）。 |
+| rootNode | [Node](../../com.aspose.words/node) | The top node (limit) of traversal. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 预购订单中的上一个节点。如果到达 rootNode，则为 Null。
+**Returns:**
+[Node](../../com.aspose.words/node) - Previous node in pre-order order. Null if reached the rootNode.
 ### remove() {#remove--}
 ```
 public void remove()
 ```
 
 
-从父级中移除自身。
+Removes itself from the parent.
 
 ### removeAllChildren() {#removeAllChildren--}
 ```
@@ -1858,7 +1858,7 @@ public void removeAllChildren()
 ```
 
 
-移除当前节点的所有子节点。
+Removes all the child nodes of the current node.
 
 ### removeChild(Node oldChild) {#removeChild-com.aspose.words.Node-}
 ```
@@ -1866,17 +1866,17 @@ public Node removeChild(Node oldChild)
 ```
 
 
-移除指定的子节点。
+Removes the specified child node.
 
-删除节点后，oldChild 的父级设置为 null。
+The parent of oldChild is set to null after the node is removed.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| oldChild | [Node](../../com.aspose.words/node) | 要移除的节点。 |
+| oldChild | [Node](../../com.aspose.words/node) | The node to remove. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 删除的节点。
+**Returns:**
+[Node](../../com.aspose.words/node) - The removed node.
 ### removeMoveRevisions() {#removeMoveRevisions--}
 ```
 public void removeMoveRevisions()
@@ -1893,8 +1893,8 @@ public void removeRunAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -1904,10 +1904,10 @@ public void removeShapeAttr(int key)
 ```
 
 
-保留供系统使用。 IShapeAttrSource。
+Reserved for system use. IShapeAttrSource.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
@@ -1917,7 +1917,7 @@ public void removeSmartTags()
 ```
 
 
-删除所有[SmartTag](../../com.aspose.words/smarttag)当前节点的后代节点。此方法不会删除智能标记的内容。
+Removes all [SmartTag](../../com.aspose.words/smarttag) descendant nodes of the current node. This method does not remove the content of the smart tags.
 
 ### selectNodes(String xpath) {#selectNodes-java.lang.String-}
 ```
@@ -1925,52 +1925,52 @@ public NodeList selectNodes(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的节点列表。
+Selects a list of nodes matching the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[NodeList](../../com.aspose.words/nodelist) - 与 XPath 查询匹配的节点列表。
+**Returns:**
+[NodeList](../../com.aspose.words/nodelist) - A list of nodes matching the XPath query.
 ### selectSingleNode(String xpath) {#selectSingleNode-java.lang.String-}
 ```
 public Node selectSingleNode(String xpath)
 ```
 
 
-选择与 XPath 表达式匹配的第一个节点。
+Selects the first Node that matches the XPath expression.
 
-目前仅支持带有元素名称的表达式。不支持使用属性名称的表达式。
+Only expressions with element names are supported at the moment. Expressions that use attribute names are not supported.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| xpath | java.lang.String | XPath 表达式。 |
+| xpath | java.lang.String | The XPath expression. |
 
-**退货:**
-[Node](../../com.aspose.words/node) - 与 XPath 查询匹配的第一个节点，如果未找到匹配节点，则为 null。
+**Returns:**
+[Node](../../com.aspose.words/node) - The first Node that matches the XPath query or null if no matching node is found.
 ### setAllowOverlap(boolean value) {#setAllowOverlap-boolean-}
 ```
 public void setAllowOverlap(boolean value)
 ```
 
 
-设置一个值，该值指定此形状是否可以与其他形状重叠。
+Sets a value that specifies whether this shape can overlap other shapes.
 
-此属性会影响 Microsoft Word 中形状的行为。 Aspose.Words 忽略此属性的值。
+This property affects behavior of the shape in Microsoft Word. Aspose.Words ignores the value of this property.
 
-此属性仅适用于顶级形状。
+This property is applicable only to top level shapes.
 
-默认值为**true**.
+The default value is **true**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 一个值，指定此形状是否可以与其他形状重叠。 |
+| value | boolean | A value that specifies whether this shape can overlap other shapes. |
 
 ### setAlternativeText(String value) {#setAlternativeText-java.lang.String-}
 ```
@@ -1978,14 +1978,14 @@ public void setAlternativeText(String value)
 ```
 
 
-定义要显示的替代文本而不是图形。
+Defines alternative text to be displayed instead of a graphic.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setAnchorLocked(boolean value) {#setAnchorLocked-boolean-}
 ```
@@ -1993,18 +1993,18 @@ public void setAnchorLocked(boolean value)
 ```
 
 
-指定形状的锚点是否被锁定。
+Specifies whether the shape's anchor is locked.
 
-默认值为**false**.
+The default value is **false**.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-此属性会影响 Microsoft Word 中形状锚点的行为。当锚点未锁定时，在 Microsoft Word 中移动形状也可以移动形状的锚点。
+This property affects behavior of the shape's anchor in Microsoft Word. When the anchor is not locked, moving the shape in Microsoft Word can move the shape's anchor too.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setAspectRatioLocked(boolean value) {#setAspectRatioLocked-boolean-}
 ```
@@ -2012,16 +2012,16 @@ public void setAspectRatioLocked(boolean value)
 ```
 
 
-指定形状的纵横比是否被锁定。
+Specifies whether the shape's aspect ratio is locked.
 
-默认值取决于[getShape类型()](../../com.aspose.words/shapebase\#getShape类型--) 对于 Shape类型.Image 它是**true**但对于其他形状类型，它是**false**.
+The default value depends on the [getShapeType()](../../com.aspose.words/shapebase\#getShapeType--), for the ShapeType.Image it is **true** but for the other shape types it is **false**.
 
-仅对顶级形状有效。
+Has effect for top level shapes only.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBehindText(boolean value) {#setBehindText-boolean-}
 ```
@@ -2029,16 +2029,16 @@ public void setBehindText(boolean value)
 ```
 
 
-指定形状是低于还是高于文本。
+Specifies whether the shape is below or above text.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-默认值为**false**.
+The default value is **false**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBounds(Rectangle2D.Float value) {#setBounds-java.awt.geom.Rectangle2D.Float-}
 ```
@@ -2046,16 +2046,16 @@ public void setBounds(Rectangle2D.Float value)
 ```
 
 
-设置形状包含块的位置和大小。设置时忽略纵横比锁定。
+Sets the location and size of the containing block of the shape. Ignores aspect ratio lock upon setting.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.geom.Rectangle2D.Float | 形状的包含块的位置和大小。 |
+| value | java.awt.geom.Rectangle2D.Float | The location and size of the containing block of the shape. |
 
 ### setCoordOrigin(Point value) {#setCoordOrigin-java.awt.Point-}
 ```
@@ -2063,14 +2063,14 @@ public void setCoordOrigin(Point value)
 ```
 
 
-此形状的包含块左上角的坐标。
+The coordinates at the top-left corner of the containing block of this shape.
 
-默认值为 (0,0)。
+The default value is (0,0).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Point | 对应的 java.awt.Point 值。 |
+| value | java.awt.Point | The corresponding java.awt.Point value. |
 
 ### setCoordSize(Dimension value) {#setCoordSize-java.awt.Dimension-}
 ```
@@ -2078,14 +2078,14 @@ public void setCoordSize(Dimension value)
 ```
 
 
-此形状的包含块内的坐标空间的宽度和高度。
+The width and height of the coordinate space inside the containing block of this shape.
 
-默认值为 (1000, 1000)。
+The default value is (1000, 1000).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Dimension | 对应的 java.awt.Dimension 值。 |
+| value | java.awt.Dimension | The corresponding java.awt.Dimension value. |
 
 ### setCustomNodeId(int value) {#setCustomNodeId-int-}
 ```
@@ -2093,18 +2093,18 @@ public void setCustomNodeId(int value)
 ```
 
 
-指定自定义节点标识符。
+Specifies custom node identifier.
 
-默认为零。
+Default is zero.
 
-这个标识符可以任意设置和使用。例如，作为获取外部数据的键。
+This identifier can be set and used arbitrarily. For example, as a key to get external data.
 
-重要说明，指定的值不会保存到输出文件中，并且仅在节点生命周期内存在。
+Important note, specified value is not saved to an output file and exists only during the node lifetime.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setDistanceBottom(double value) {#setDistanceBottom-double-}
 ```
@@ -2112,16 +2112,16 @@ public void setDistanceBottom(double value)
 ```
 
 
-设置文档文本和形状底部边缘之间的距离（以磅为单位）。
+Sets the distance (in points) between the document text and the bottom edge of the shape.
 
-默认值为 0。
+The default value is 0.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 文档文本与形状底部边缘之间的距离（以磅为单位）。 |
+| value | double | The distance (in points) between the document text and the bottom edge of the shape. |
 
 ### setDistanceLeft(double value) {#setDistanceLeft-double-}
 ```
@@ -2129,16 +2129,16 @@ public void setDistanceLeft(double value)
 ```
 
 
-设置文档文本和形状左边缘之间的距离（以磅为单位）。
+Sets the distance (in points) between the document text and the left edge of the shape.
 
-默认值为 1/8 英寸。
+The default value is 1/8 inch.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 文档文本与形状左边缘之间的距离（以磅为单位）。 |
+| value | double | The distance (in points) between the document text and the left edge of the shape. |
 
 ### setDistanceRight(double value) {#setDistanceRight-double-}
 ```
@@ -2146,16 +2146,16 @@ public void setDistanceRight(double value)
 ```
 
 
-设置文档文本和形状右边缘之间的距离（以磅为单位）。
+Sets the distance (in points) between the document text and the right edge of the shape.
 
-默认值为 1/8 英寸。
+The default value is 1/8 inch.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 文档文本与形状右边缘之间的距离（以磅为单位）。 |
+| value | double | The distance (in points) between the document text and the right edge of the shape. |
 
 ### setDistanceTop(double value) {#setDistanceTop-double-}
 ```
@@ -2163,16 +2163,16 @@ public void setDistanceTop(double value)
 ```
 
 
-设置文档文本和形状上边缘之间的距离（以磅为单位）。
+Sets the distance (in points) between the document text and the top edge of the shape.
 
-默认值为 0。
+The default value is 0.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 文档文本与形状上边缘之间的距离（以磅为单位）。 |
+| value | double | The distance (in points) between the document text and the top edge of the shape. |
 
 ### setFillableBackColor(Color value) {#setFillableBackColor-java.awt.Color-}
 ```
@@ -2182,8 +2182,8 @@ public void setFillableBackColor(Color value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -2195,8 +2195,8 @@ public void setFillableForeColor(Color value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -2208,8 +2208,8 @@ public void setFillableTransparency(double value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
@@ -2221,8 +2221,8 @@ public void setFillableVisible(boolean value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -2234,8 +2234,8 @@ public void setFilledColor(Color value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.awt.Color |  |
 
@@ -2245,14 +2245,14 @@ public void setFlipOrientation(int value)
 ```
 
 
-切换形状的方向。
+Switches the orientation of a shape.
 
-默认值为[FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
+The default value is [FlipOrientation.NONE](../../com.aspose.words/fliporientation\#NONE).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是按位组合[FlipOrientation](../../com.aspose.words/fliporientation)常数。 |
+| value | int | The corresponding  int  value. The value must be a bitwise combination of [FlipOrientation](../../com.aspose.words/fliporientation) constants. |
 
 ### setGradientAngle(double value) {#setGradientAngle-double-}
 ```
@@ -2262,8 +2262,8 @@ public void setGradientAngle(double value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
@@ -2273,28 +2273,28 @@ public void setHRef(String value)
 ```
 
 
-设置形状的完整超链接地址。
+Sets the full hyperlink address for a shape.
 
-默认值为空字符串。
+The default value is an empty string.
 
-以下是此属性的有效值示例：
+Below are examples of valid values for this property:
 
-完整的 URI： https://www.aspose.com/ 。
+Full URI:  https://www.aspose.com/ .
 
-文件全名：C:\\\\我的文件\\\\销售报告.doc 。
+Full file name:  C:\\\\My Documents\\\\SalesReport.doc .
 
-相对 URI：../../../resource.txt 
+Relative URI:  ../../../resource.txt 
 
-相对文件名：..\\\\我的文件\\\\销售报告.doc 。
+Relative file name:  ..\\\\My Documents\\\\SalesReport.doc .
 
-在另一个文档中添加书签：https://www.aspose.com/Products/Default.aspx\#套房 
+Bookmark within another document:  https://www.aspose.com/Products/Default.aspx\#Suites 
 
-本文档中的书签：\#BookmakName 。
+Bookmark within this document:  \#BookmakName .
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 形状的完整超链接地址。 |
+| value | java.lang.String | The full hyperlink address for a shape. |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -2302,18 +2302,18 @@ public void setHeight(double value)
 ```
 
 
-设置形状包含块的高度。
+Sets the height of the containing block of the shape.
 
-对于顶级形状，该值以磅为单位。
+For a top-level shape, the value is in points.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 形状包含块的高度。 |
+| value | double | The height of the containing block of the shape. |
 
 ### setHorizontalAlignment(int value) {#setHorizontalAlignment-int-}
 ```
@@ -2321,16 +2321,16 @@ public void setHorizontalAlignment(int value)
 ```
 
 
-指定形状如何水平放置。
+Specifies how the shape is positioned horizontally.
 
-默认值为[HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
+The default value is [HorizontalAlignment.NONE](../../com.aspose.words/horizontalalignment\#NONE).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[HorizontalAlignment](../../com.aspose.words/horizontalalignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [HorizontalAlignment](../../com.aspose.words/horizontalalignment) constants. |
 
 ### setImage(byte[] imageBytes) {#setImage-byte---}
 ```
@@ -2340,8 +2340,8 @@ public void setImage(byte[] imageBytes)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | imageBytes | byte[] |  |
 
@@ -2351,20 +2351,20 @@ public void setLeft(double value)
 ```
 
 
-设置形状包含块的左边缘的位置。
+Sets the position of the left edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-仅对浮动形状有效。
+Has effect only for floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 形状的包含块的左边缘的位置。 |
+| value | double | The position of the left edge of the containing block of the shape. |
 
 ### setName(String value) {#setName-java.lang.String-}
 ```
@@ -2372,16 +2372,16 @@ public void setName(String value)
 ```
 
 
-设置可选的形状名称。
+Sets the optional shape name.
 
-默认为空字符串。
+Default is empty string.
 
-不能为空，但可以是空字符串。
+Cannot be null, but can be an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 可选的形状名称。 |
+| value | java.lang.String | The optional shape name. |
 
 ### setOn(boolean value) {#setOn-boolean-}
 ```
@@ -2391,8 +2391,8 @@ public void setOn(boolean value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -2404,8 +2404,8 @@ public void setOpacity(double value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | double |  |
 
@@ -2415,16 +2415,16 @@ public void setRelativeHorizontalPosition(int value)
 ```
 
 
-指定相对于水平放置的形状。
+Specifies relative to what the shape is positioned horizontally.
 
-默认值为[RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
+The default value is [RelativeHorizontalPosition.COLUMN](../../com.aspose.words/relativehorizontalposition\#COLUMN).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RelativeHorizontalPosition](../../com.aspose.words/relativehorizontalposition) constants. |
 
 ### setRelativeVerticalPosition(int value) {#setRelativeVerticalPosition-int-}
 ```
@@ -2432,16 +2432,16 @@ public void setRelativeVerticalPosition(int value)
 ```
 
 
-指定相对于形状垂直定位的位置。
+Specifies relative to what the shape is positioned vertically.
 
-默认值为[RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
+The default value is [RelativeVerticalPosition.PARAGRAPH](../../com.aspose.words/relativeverticalposition\#PARAGRAPH).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [RelativeVerticalPosition](../../com.aspose.words/relativeverticalposition) constants. |
 
 ### setRotateWithObject(boolean value) {#setRotateWithObject-boolean-}
 ```
@@ -2451,8 +2451,8 @@ public void setRotateWithObject(boolean value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
 
@@ -2462,14 +2462,14 @@ public void setRotation(double value)
 ```
 
 
-定义形状旋转的角度（以度为单位）。正值对应顺时针旋转角度。
+Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 对应的双精度值。 |
+| value | double | The corresponding  double  value. |
 
 ### setRunAttr(int fontAttr, Object value) {#setRunAttr-int-java.lang.Object-}
 ```
@@ -2479,8 +2479,8 @@ public void setRunAttr(int fontAttr, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | fontAttr | int |  |
 | value | java.lang.Object |  |
@@ -2491,14 +2491,14 @@ public void setScreenTip(String value)
 ```
 
 
-定义当鼠标指针移到形状上时显示的文本。
+Defines the text displayed when the mouse pointer moves over the shape.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setShapeAttr(int key, Object value) {#setShapeAttr-int-java.lang.Object-}
 ```
@@ -2506,10 +2506,10 @@ public void setShapeAttr(int key, Object value)
 ```
 
 
-保留供系统使用。 IShapeAttrSource。
+Reserved for system use. IShapeAttrSource.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -2520,14 +2520,14 @@ public void setTarget(String value)
 ```
 
 
-设置形状超链接的目标框架。
+Sets the target frame for the shape hyperlink.
 
-默认值为空字符串。
+The default value is an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 形状超链接的目标框架。 |
+| value | java.lang.String | The target frame for the shape hyperlink. |
 
 ### setTextureAlignment(int value) {#setTextureAlignment-int-}
 ```
@@ -2537,8 +2537,8 @@ public void setTextureAlignment(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -2548,16 +2548,16 @@ public void setTitle(String value)
 ```
 
 
-设置当前形状对象的标题（标题）。
+Sets the title (caption) of the current shape object.
 
-默认为空字符串。
+Default is empty string.
 
-不能为空，但可以是空字符串。
+Cannot be null, but can be an empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 当前形状对象的标题（标题）。 |
+| value | java.lang.String | The title (caption) of the current shape object. |
 
 ### setTop(double value) {#setTop-double-}
 ```
@@ -2565,20 +2565,20 @@ public void setTop(double value)
 ```
 
 
-设置形状包含块的上边缘的位置。
+Sets the position of the top edge of the containing block of the shape.
 
-对于顶级形状，该值以点为单位并且相对于形状锚点。
+For a top-level shape, the value is in points and relative to the shape anchor.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-仅对浮动形状有效。
+Has effect only for floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 形状包含块的上边缘的位置。 |
+| value | double | The position of the top edge of the containing block of the shape. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
 ```
@@ -2586,16 +2586,16 @@ public void setVerticalAlignment(int value)
 ```
 
 
-指定形状垂直放置的方式。
+Specifies how the shape is positioned vertically.
 
-默认值为[VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
+The default value is [VerticalAlignment.NONE](../../com.aspose.words/verticalalignment\#NONE).
 
-仅对顶级浮动形状有效。
+Has effect only for top level floating shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[VerticalAlignment](../../com.aspose.words/verticalalignment)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [VerticalAlignment](../../com.aspose.words/verticalalignment) constants. |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -2603,18 +2603,18 @@ public void setWidth(double value)
 ```
 
 
-设置形状包含块的宽度。
+Sets the width of the containing block of the shape.
 
-对于顶级形状，该值以磅为单位。
+For a top-level shape, the value is in points.
 
-对于组中的形状，该值位于父组的坐标空间和单位中。
+For shapes in a group, the value is in the coordinate space and units of the parent group.
 
-默认值为 0。
+The default value is 0.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 形状包含块的宽度。 |
+| value | double | The width of the containing block of the shape. |
 
 ### setWrapSide(int value) {#setWrapSide-int-}
 ```
@@ -2622,33 +2622,33 @@ public void setWrapSide(int value)
 ```
 
 
-指定文本如何环绕形状。
+Specifies how the text is wrapped around the shape.
 
-默认值为[WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
+The default value is [WrapSide.BOTH](../../com.aspose.words/wrapside\#BOTH).
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[WrapSide](../../com.aspose.words/wrapside)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [WrapSide](../../com.aspose.words/wrapside) constants. |
 
-### setWrap类型(int value) {#setWrap类型-int-}
+### setWrapType(int value) {#setWrapType-int-}
 ```
-public void setWrap类型(int value)
+public void setWrapType(int value)
 ```
 
 
-定义形状是内联的还是浮动的。对于浮动形状，定义形状周围文本的环绕模式。
+Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape.
 
-默认值为[Wrap类型.NONE](../../com.aspose.words/wraptype\#NONE).
+The default value is [WrapType.NONE](../../com.aspose.words/wraptype\#NONE).
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[Wrap类型](../../com.aspose.words/wraptype)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [WrapType](../../com.aspose.words/wraptype) constants. |
 
 ### setZOrder(int value) {#setZOrder-int-}
 ```
@@ -2656,22 +2656,22 @@ public void setZOrder(int value)
 ```
 
 
-确定重叠形状的显示顺序。
+Determines the display order of overlapping shapes.
 
-仅对顶级形状有效。
+Has effect only for top level shapes.
 
-默认值为 0。
+The default value is 0.
 
-数字代表堆叠优先级。数字较大的形状将显示为与数字较小的形状重叠（在“前面”）。
+The number represents the stacking precedence. A shape with a higher number will be displayed as if it were overlapping (in "front" of) a shape with a lower number.
 
-重叠形状的顺序与页眉和文档正文中的形状无关。
+The order of overlapping shapes is independent for shapes in the header and in the main text of the document.
 
-组形状中子形状的显示顺序由它们在组形状中的顺序决定。
+The display order of child shapes in a group shape is determined by their order inside the group shape.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。 |
+| value | int | The corresponding  int  value. |
 
 ### setZOrder_IShape(int value) {#setZOrder-IShape-int-}
 ```
@@ -2681,8 +2681,8 @@ public void setZOrder_IShape(int value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | value | int |  |
 
@@ -2702,7 +2702,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(SaveOptions saveOptions) {#toString-com.aspose.words.SaveOptions-}
 ```
@@ -2710,15 +2710,15 @@ public String toString(SaveOptions saveOptions)
 ```
 
 
-使用指定的保存选项将节点的内容导出为字符串。
+Exports the content of the node into a string using the specified save options.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | 指定控制节点保存方式的选项。 |
+| saveOptions | [SaveOptions](../../com.aspose.words/saveoptions) | Specifies the options that control how the node is saved. |
 
-**退货:**
-java.lang.String - 指定格式的节点内容。
+**Returns:**
+java.lang.String - The content of the node in the specified format.
 ### toString(int saveFormat) {#toString-int-}
 ```
 public String toString(int saveFormat)
@@ -2727,12 +2727,12 @@ public String toString(int saveFormat)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | saveFormat | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### twoColorGradient(int style, int variant) {#twoColorGradient-int-int-}
 ```
@@ -2742,8 +2742,8 @@ public void twoColorGradient(int style, int variant)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | style | int |  |
 | variant | int |  |
@@ -2764,8 +2764,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -2777,8 +2777,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

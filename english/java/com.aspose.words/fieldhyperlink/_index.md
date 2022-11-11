@@ -1,67 +1,67 @@
 ---
-title: 字段Hyperlink
-second_title: Aspose.Words for Java API 参考
-description: 实现 HYPERLINK 字段
+title: FieldHyperlink
+second_title: Aspose.Words for Java API Reference
+description: Implements the HYPERLINK field
 type: docs
 weight: 199
-url: /zh/java/com.aspose.words/fieldhyperlink/
+url: /java/com.aspose.words/fieldhyperlink/
 ---
 
-**遗产:**
-java.lang.Object, [com.aspose.words.字段](../../com.aspose.words/field)
+**Inheritance:**
+java.lang.Object, [com.aspose.words.Field](../../com.aspose.words/field)
 ```
-public class 字段Hyperlink extends 字段
+public class FieldHyperlink extends Field
 ```
 
-实现 HYPERLINK 字段
+Implements the HYPERLINK field
 
-要了解更多信息，请访问**Working with 字段**文档文章。
+To learn more, visit the **Working with Fields** documentation article.
 
-选中后，使控件跳转到书签或 URL 等位置。
-## 方法s
+When selected, causes control to jump to the location such as a bookmark or a URL.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAddress()](#getAddress--) | 获取此超链接跳转的位置。 |
-| [get班级()](#get班级--) |  |
-| [getDisplayResult()](#getDisplayResult--) | 获取表示显示的字段结果的文本。 |
-| [getEnd()](#getEnd--) | 获取表示字段结束的节点。 |
-| [get字段Code()](#get字段Code--) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [get字段Code(boolean includeChild字段Codes)](#get字段Code-boolean-) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [getFormat()](#getFormat--) | 得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。 |
-| [getLocaleId()](#getLocaleId--) | 获取字段的 LCID。 |
-| [getOpenInNewWindow()](#getOpenInNewWindow--) | 获取是否在新的 Web 浏览器窗口中打开目标站点。 |
-| [getResult()](#getResult--) | 获取字段分隔符和字段结尾之间的文本。 |
-| [getScreenTip()](#getScreenTip--) | 获取超链接的屏幕提示文本。 |
-| [getSeparator()](#getSeparator--) | 获取表示字段分隔符的节点。 |
+| [getAddress()](#getAddress--) | Gets a location where this hyperlink jumps. |
+| [getClass()](#getClass--) |  |
+| [getDisplayResult()](#getDisplayResult--) | Gets the text that represents the displayed field result. |
+| [getEnd()](#getEnd--) | Gets the node that represents the field end. |
+| [getFieldCode()](#getFieldCode--) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFieldCode(boolean includeChildFieldCodes)](#getFieldCode-boolean-) | Returns text between field start and field separator (or field end if there is no separator). |
+| [getFormat()](#getFormat--) | Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting. |
+| [getLocaleId()](#getLocaleId--) | Gets the LCID of the field. |
+| [getOpenInNewWindow()](#getOpenInNewWindow--) | Gets whether to open the destination site in a new web browser window. |
+| [getResult()](#getResult--) | Gets text that is between the field separator and field end. |
+| [getScreenTip()](#getScreenTip--) | Gets the ScreenTip text for the hyperlink. |
+| [getSeparator()](#getSeparator--) | Gets the node that represents the field separator. |
 | [getSourceNode()](#getSourceNode--) |  |
-| [getStart()](#getStart--) | 获取表示字段开始的节点。 |
-| [getSubAddress()](#getSubAddress--) | 获取文件中的位置，例如书签，此超链接跳转的位置。 |
-| [getSwitch类型(String switchName)](#getSwitch类型-java.lang.String-) |  |
-| [getTarget()](#getTarget--) | 获取链接应重定向到的目标。 |
-| [get类型()](#get类型--) | 获取 Microsoft Word 字段类型。 |
+| [getStart()](#getStart--) | Gets the node that represents the start of the field. |
+| [getSubAddress()](#getSubAddress--) | Gets a location in the file, such as a bookmark, where this hyperlink jumps. |
+| [getSwitchType(String switchName)](#getSwitchType-java.lang.String-) |  |
+| [getTarget()](#getTarget--) | Gets the target to which the link should be redirected. |
+| [getType()](#getType--) | Gets the Microsoft Word field type. |
 | [hashCode()](#hashCode--) |  |
-| [isDirty()](#isDirty--) | 获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。 |
-| [isDirty(boolean value)](#isDirty-boolean-) | 设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。 |
-| [isImageMap()](#isImageMap--) | 获取是否将坐标附加到服务器端图像映射的超链接。 |
-| [isImageMap(boolean value)](#isImageMap-boolean-) | 设置是否将坐标附加到服务器端图像映射的超链接。 |
-| [isLocked()](#isLocked--) | 获取字段是否被锁定（不应重新计算其结果）。 |
-| [isLocked(boolean value)](#isLocked-boolean-) | 设置字段是否被锁定（不应重新计算其结果）。 |
+| [isDirty()](#isDirty--) | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isDirty(boolean value)](#isDirty-boolean-) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [isImageMap()](#isImageMap--) | Gets whether to append coordinates to the hyperlink for a server-side image map. |
+| [isImageMap(boolean value)](#isImageMap-boolean-) | Sets whether to append coordinates to the hyperlink for a server-side image map. |
+| [isLocked()](#isLocked--) | Gets whether the field is locked (should not recalculate its result). |
+| [isLocked(boolean value)](#isLocked-boolean-) | Sets whether the field is locked (should not recalculate its result). |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [remove()](#remove--) | 从文档中删除字段。 |
-| [setAddress(String value)](#setAddress-java.lang.String-) | 设置此超链接跳转的位置。 |
-| [setLocaleId(int value)](#setLocaleId-int-) | 设置字段的 LCID。 |
-| [setOpenInNewWindow(boolean value)](#setOpenInNewWindow-boolean-) | 设置是否在新的 Web 浏览器窗口中打开目标站点。 |
-| [setResult(String value)](#setResult-java.lang.String-) | 设置字段分隔符和字段结尾之间的文本。 |
-| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | 设置超链接的屏幕提示文本。 |
-| [setSubAddress(String value)](#setSubAddress-java.lang.String-) | 设置文件中的位置，例如书签，超链接跳转的位置。 |
-| [setTarget(String value)](#setTarget-java.lang.String-) | 设置链接应重定向到的目标。 |
+| [remove()](#remove--) | Removes the field from the document. |
+| [setAddress(String value)](#setAddress-java.lang.String-) | Sets a location where this hyperlink jumps. |
+| [setLocaleId(int value)](#setLocaleId-int-) | Sets the LCID of the field. |
+| [setOpenInNewWindow(boolean value)](#setOpenInNewWindow-boolean-) | Sets whether to open the destination site in a new web browser window. |
+| [setResult(String value)](#setResult-java.lang.String-) | Sets text that is between the field separator and field end. |
+| [setScreenTip(String value)](#setScreenTip-java.lang.String-) | Sets the ScreenTip text for the hyperlink. |
+| [setSubAddress(String value)](#setSubAddress-java.lang.String-) | Sets a location in the file, such as a bookmark, where this hyperlink jumps. |
+| [setTarget(String value)](#setTarget-java.lang.String-) | Sets the target to which the link should be redirected. |
 | [toString()](#toString--) |  |
-| [unlink()](#unlink--) | 执行字段取消链接。 |
-| [update()](#update--) | 执行字段更新。 |
-| [update(boolean ignoreMergeFormat)](#update-boolean-) | 执行字段更新。 |
+| [unlink()](#unlink--) | Performs the field unlink. |
+| [update()](#update--) | Performs the field update. |
+| [update(boolean ignoreMergeFormat)](#update-boolean-) | Performs a field update. |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -73,138 +73,138 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAddress() {#getAddress--}
 ```
 public String getAddress()
 ```
 
 
-获取此超链接跳转的位置。
+Gets a location where this hyperlink jumps.
 
-**退货:**
-java.lang.String - 此超链接跳转的位置。
-### get班级() {#get班级--}
+**Returns:**
+java.lang.String - A location where this hyperlink jumps.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDisplayResult() {#getDisplayResult--}
 ```
 public String getDisplayResult()
 ```
 
 
-获取表示显示的字段结果的文本。这[Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--)必须调用方法才能获得正确的值[字段ListNum](../../com.aspose.words/fieldlistnum), [字段AutoNum](../../com.aspose.words/fieldautonum), [字段AutoNumOut](../../com.aspose.words/fieldautonumout)和[字段AutoNumLgl](../../com.aspose.words/fieldautonumlgl)字段。
+Gets the text that represents the displayed field result. The [Document.updateListLabels()](../../com.aspose.words/document\#updateListLabels--) method must be called to obtain correct value for the [FieldListNum](../../com.aspose.words/fieldlistnum), [FieldAutoNum](../../com.aspose.words/fieldautonum), [FieldAutoNumOut](../../com.aspose.words/fieldautonumout) and [FieldAutoNumLgl](../../com.aspose.words/fieldautonumlgl) fields.
 
-**退货:**
-java.lang.String - 表示显示的字段结果的文本。
+**Returns:**
+java.lang.String - The text that represents the displayed field result.
 ### getEnd() {#getEnd--}
 ```
-public 字段End getEnd()
+public FieldEnd getEnd()
 ```
 
 
-获取表示字段结束的节点。
+Gets the node that represents the field end.
 
-**退货:**
-[字段End](../../com.aspose.words/fieldend) - 代表字段结束的节点。
-### get字段Code() {#get字段Code--}
+**Returns:**
+[FieldEnd](../../com.aspose.words/fieldend) - The node that represents the field end.
+### getFieldCode() {#getFieldCode--}
 ```
-public String get字段Code()
+public String getFieldCode()
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。包含子字段的字段代码和字段结果。
+Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.
 
-**退货:**
+**Returns:**
 java.lang.String
-### get字段Code(boolean includeChild字段Codes) {#get字段Code-boolean-}
+### getFieldCode(boolean includeChildFieldCodes) {#getFieldCode-boolean-}
 ```
-public String get字段Code(boolean includeChild字段Codes)
+public String getFieldCode(boolean includeChildFieldCodes)
 ```
 
 
-返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。
+Returns text between field start and field separator (or field end if there is no separator).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| includeChild字段Codes | boolean | \{ 如果应包含子域代码，则为真。 |
+| includeChildFieldCodes | boolean | \{ True  if child field codes should be included. |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getFormat() {#getFormat--}
 ```
-public 字段Format getFormat()
+public FieldFormat getFormat()
 ```
 
 
-得到一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+Gets a [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 
-**退货:**
-[字段Format](../../com.aspose.words/fieldformat) - 一个[字段Format](../../com.aspose.words/fieldformat)提供对字段格式的类型化访问的对象。
+**Returns:**
+[FieldFormat](../../com.aspose.words/fieldformat) - A [FieldFormat](../../com.aspose.words/fieldformat) object that provides typed access to field's formatting.
 ### getLocaleId() {#getLocaleId--}
 ```
 public int getLocaleId()
 ```
 
 
-获取字段的 LCID。
+Gets the LCID of the field.
 
-**退货:**
-int - 字段的 LCID。
+**Returns:**
+int - The LCID of the field.
 ### getOpenInNewWindow() {#getOpenInNewWindow--}
 ```
 public boolean getOpenInNewWindow()
 ```
 
 
-获取是否在新的 Web 浏览器窗口中打开目标站点。
+Gets whether to open the destination site in a new web browser window.
 
-**退货:**
-boolean - 是否在新的 Web 浏览器窗口中打开目标站点。
+**Returns:**
+boolean - Whether to open the destination site in a new web browser window.
 ### getResult() {#getResult--}
 ```
 public String getResult()
 ```
 
 
-获取字段分隔符和字段结尾之间的文本。
+Gets text that is between the field separator and field end.
 
-**退货:**
-java.lang.String - 字段分隔符和字段结尾之间的文本。
+**Returns:**
+java.lang.String - Text that is between the field separator and field end.
 ### getScreenTip() {#getScreenTip--}
 ```
 public String getScreenTip()
 ```
 
 
-获取超链接的屏幕提示文本。
+Gets the ScreenTip text for the hyperlink.
 
-**退货:**
-java.lang.String - 超链接的屏幕提示文本。
+**Returns:**
+java.lang.String - The ScreenTip text for the hyperlink.
 ### getSeparator() {#getSeparator--}
 ```
-public 字段Separator getSeparator()
+public FieldSeparator getSeparator()
 ```
 
 
-获取表示字段分隔符的节点。可以为空。
+Gets the node that represents the field separator. Can be null.
 
-**退货:**
-[字段Separator](../../com.aspose.words/fieldseparator) - 表示字段分隔符的节点。
+**Returns:**
+[FieldSeparator](../../com.aspose.words/fieldseparator) - The node that represents the field separator.
 ### getSourceNode() {#getSourceNode--}
 ```
 public Inline getSourceNode()
@@ -213,63 +213,63 @@ public Inline getSourceNode()
 
 
 
-**退货:**
+**Returns:**
 [Inline](../../com.aspose.words/inline)
 ### getStart() {#getStart--}
 ```
-public 字段Start getStart()
+public FieldStart getStart()
 ```
 
 
-获取表示字段开始的节点。
+Gets the node that represents the start of the field.
 
-**退货:**
-[字段Start](../../com.aspose.words/fieldstart) - 表示字段开始的节点。
+**Returns:**
+[FieldStart](../../com.aspose.words/fieldstart) - The node that represents the start of the field.
 ### getSubAddress() {#getSubAddress--}
 ```
 public String getSubAddress()
 ```
 
 
-获取文件中的位置，例如书签，此超链接跳转的位置。
+Gets a location in the file, such as a bookmark, where this hyperlink jumps.
 
-**退货:**
-java.lang.String - 文件中的一个位置，例如书签，超链接跳转的位置。
-### getSwitch类型(String switchName) {#getSwitch类型-java.lang.String-}
+**Returns:**
+java.lang.String - A location in the file, such as a bookmark, where this hyperlink jumps.
+### getSwitchType(String switchName) {#getSwitchType-java.lang.String-}
 ```
-public int getSwitch类型(String switchName)
+public int getSwitchType(String switchName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | switchName | java.lang.String |  |
 
-**退货:**
-整数
+**Returns:**
+int
 ### getTarget() {#getTarget--}
 ```
 public String getTarget()
 ```
 
 
-获取链接应重定向到的目标。
+Gets the target to which the link should be redirected.
 
-**退货:**
-java.lang.String - 链接应该重定向到的目标。
-### get类型() {#get类型--}
+**Returns:**
+java.lang.String - The target to which the link should be redirected.
+### getType() {#getType--}
 ```
-public int get类型()
+public int getType()
 ```
 
 
-获取 Microsoft Word 字段类型。
+Gets the Microsoft Word field type.
 
-**退货:**
- int - Microsoft Word 字段类型。返回值是以下之一[字段类型](../../com.aspose.words/fieldtype)常数。
+**Returns:**
+int - The Microsoft Word field type. The returned value is one of [FieldType](../../com.aspose.words/fieldtype) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -278,30 +278,30 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### isDirty() {#isDirty--}
 ```
 public boolean isDirty()
 ```
 
 
-获取字段的当前结果是否由于对文档进行了其他修改而不再正确（陈旧）。
+Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**退货:**
-boolean - 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。
+**Returns:**
+boolean - Whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 ### isDirty(boolean value) {#isDirty-boolean-}
 ```
 public void isDirty(boolean value)
 ```
 
 
-设置字段的当前结果是否由于对文档的其他修改而不再正确（陈旧）。
+Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 由于对文档进行了其他修改，该字段的当前结果是否不再正确（陈旧）。 |
+| value | boolean | Whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 
 ### isImageMap() {#isImageMap--}
 ```
@@ -309,22 +309,22 @@ public boolean isImageMap()
 ```
 
 
-获取是否将坐标附加到服务器端图像映射的超链接。
+Gets whether to append coordinates to the hyperlink for a server-side image map.
 
-**退货:**
-boolean - 是否将坐标附加到服务器端图像映射的超链接。
+**Returns:**
+boolean - Whether to append coordinates to the hyperlink for a server-side image map.
 ### isImageMap(boolean value) {#isImageMap-boolean-}
 ```
 public void isImageMap(boolean value)
 ```
 
 
-设置是否将坐标附加到服务器端图像映射的超链接。
+Sets whether to append coordinates to the hyperlink for a server-side image map.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否将坐标附加到服务器端图像映射的超链接。 |
+| value | boolean | Whether to append coordinates to the hyperlink for a server-side image map. |
 
 ### isLocked() {#isLocked--}
 ```
@@ -332,22 +332,22 @@ public boolean isLocked()
 ```
 
 
-获取字段是否被锁定（不应重新计算其结果）。
+Gets whether the field is locked (should not recalculate its result).
 
-**退货:**
-boolean - 字段是否被锁定（不应重新计算其结果）。
+**Returns:**
+boolean - Whether the field is locked (should not recalculate its result).
 ### isLocked(boolean value) {#isLocked-boolean-}
 ```
 public void isLocked(boolean value)
 ```
 
 
-设置字段是否被锁定（不应重新计算其结果）。
+Sets whether the field is locked (should not recalculate its result).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 该字段是否被锁定（不应重新计算其结果）。 |
+| value | boolean | Whether the field is locked (should not recalculate its result). |
 
 ### notify() {#notify--}
 ```
@@ -371,9 +371,9 @@ public Node remove()
 ```
 
 
-从文档中删除字段。在字段之后返回一个节点。如果字段的结尾是其父节点的最后一个子节点，则返回其父段落。如果该字段已被删除，则返回**null**.
+Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
 ### setAddress(String value) {#setAddress-java.lang.String-}
 ```
@@ -381,12 +381,12 @@ public void setAddress(String value)
 ```
 
 
-设置此超链接跳转的位置。
+Sets a location where this hyperlink jumps.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 此超链接跳转的位置。 |
+| value | java.lang.String | A location where this hyperlink jumps. |
 
 ### setLocaleId(int value) {#setLocaleId-int-}
 ```
@@ -394,12 +394,12 @@ public void setLocaleId(int value)
 ```
 
 
-设置字段的 LCID。
+Sets the LCID of the field.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 字段的 LCID。 |
+| value | int | The LCID of the field. |
 
 ### setOpenInNewWindow(boolean value) {#setOpenInNewWindow-boolean-}
 ```
@@ -407,12 +407,12 @@ public void setOpenInNewWindow(boolean value)
 ```
 
 
-设置是否在新的 Web 浏览器窗口中打开目标站点。
+Sets whether to open the destination site in a new web browser window.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 是否在新的 Web 浏览器窗口中打开目标站点。 |
+| value | boolean | Whether to open the destination site in a new web browser window. |
 
 ### setResult(String value) {#setResult-java.lang.String-}
 ```
@@ -420,12 +420,12 @@ public void setResult(String value)
 ```
 
 
-设置字段分隔符和字段结尾之间的文本。
+Sets text that is between the field separator and field end.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 字段分隔符和字段结尾之间的文本。 |
+| value | java.lang.String | Text that is between the field separator and field end. |
 
 ### setScreenTip(String value) {#setScreenTip-java.lang.String-}
 ```
@@ -433,12 +433,12 @@ public void setScreenTip(String value)
 ```
 
 
-设置超链接的屏幕提示文本。
+Sets the ScreenTip text for the hyperlink.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 超链接的屏幕提示文本。 |
+| value | java.lang.String | The ScreenTip text for the hyperlink. |
 
 ### setSubAddress(String value) {#setSubAddress-java.lang.String-}
 ```
@@ -446,12 +446,12 @@ public void setSubAddress(String value)
 ```
 
 
-设置文件中的位置，例如书签，超链接跳转的位置。
+Sets a location in the file, such as a bookmark, where this hyperlink jumps.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 文件中的位置，例如书签，此超链接跳转的位置。 |
+| value | java.lang.String | A location in the file, such as a bookmark, where this hyperlink jumps. |
 
 ### setTarget(String value) {#setTarget-java.lang.String-}
 ```
@@ -459,12 +459,12 @@ public void setTarget(String value)
 ```
 
 
-设置链接应重定向到的目标。
+Sets the target to which the link should be redirected.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 链接应重定向到的目标。 |
+| value | java.lang.String | The target to which the link should be redirected. |
 
 ### toString() {#toString--}
 ```
@@ -474,7 +474,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### unlink() {#unlink--}
 ```
@@ -482,21 +482,21 @@ public boolean unlink()
 ```
 
 
-执行字段取消链接。
+Performs the field unlink.
 
-用其最新结果替换该字段。
+Replaces the field with its most recent result.
 
-某些字段，例如 XE（索引条目）字段和 SEQ（序列）字段，无法取消链接。
+Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot be unlinked.
 
-**退货:**
-布尔值 -\{ 如果字段已取消链接，则为真，否则为假。
+**Returns:**
+boolean - \{ True  if the field has been unlinked, otherwise  false .
 ### update() {#update--}
 ```
 public void update()
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs the field update. Throws if the field is being updated already.
 
 ### update(boolean ignoreMergeFormat) {#update-boolean-}
 ```
@@ -504,12 +504,12 @@ public void update(boolean ignoreMergeFormat)
 ```
 
 
-执行字段更新。如果该字段已被更新，则抛出。
+Performs a field update. Throws if the field is being updated already.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | 如果为 true，则放弃直接字段结果格式化，无论 MERGEFORMAT 开关如何，否则执行正常更新。 |
+| ignoreMergeFormat | boolean | If  true  then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ### wait() {#wait--}
 ```
@@ -527,8 +527,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -540,8 +540,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

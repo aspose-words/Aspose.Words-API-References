@@ -1,37 +1,37 @@
 ---
 title: PageSet
-second_title: Aspose.Words for Java API 参考
-description: 描述一组随机的页面。
+second_title: Aspose.Words for Java API Reference
+description: Describes a random set of pages.
 type: docs
 weight: 439
-url: /zh/java/com.aspose.words/pageset/
+url: /java/com.aspose.words/pageset/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class PageSet
 ```
 
-描述一组随机的页面。
+Describes a random set of pages.
 
-要了解更多信息，请访问**Programming with Documents**文档文章。
-## 构造函数s
+To learn more, visit the **Programming with Documents** documentation article.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [PageSet(int page)](#PageSet-int-) | 根据确切的页面索引创建单页集。 |
-| [PageSet(int[] pages)](#PageSet-int...-) | 根据确切的页面索引创建页面集。 |
-| [PageSet(PageRange[] ranges)](#PageSet-com.aspose.words.PageRange...-) | 根据范围创建页面集。 |
-## 方法s
+| [PageSet(int page)](#PageSet-int-) | Creates an one-page set based on exact page index. |
+| [PageSet(int[] pages)](#PageSet-int...-) | Creates a page set based on exact page indices. |
+| [PageSet(PageRange[] ranges)](#PageSet-com.aspose.words.PageRange...-) | Creates a page set based on ranges. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [getAll()](#getAll--) | 以原始顺序获取文档所有页面的集合。 |
-| [get班级()](#get班级--) |  |
-| [getEven()](#getEven--) | 获取文档中所有偶数页按原始顺序排列的集合。 |
-| [getOdd()](#getOdd--) | 获取一个集合，其中包含文档中所有奇数页的原始顺序。 |
+| [getAll()](#getAll--) | Gets a set with all the pages of the document in their original order. |
+| [getClass()](#getClass--) |  |
+| [getEven()](#getEven--) | Gets a set with all the even pages of the document in their original order. |
+| [getOdd()](#getOdd--) | Gets a set with all the odd pages of the document in their original order. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
@@ -45,12 +45,12 @@ public PageSet(int page)
 ```
 
 
-根据确切的页面索引创建单页集。
+Creates an one-page set based on exact page index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| page | int | 页面的从零开始的索引。如果遇到不在文档中的页面，在渲染过程中会抛出异常。表示文档中的最后一页。 |
+| page | int | Zero-based index of the page. If a page is encountered that is not in the document, an exception will be thrown during rendering.  means the last page in the document. |
 
 ### PageSet(int[] pages) {#PageSet-int...-}
 ```
@@ -58,12 +58,12 @@ public PageSet(int[] pages)
 ```
 
 
-根据确切的页面索引创建页面集。
+Creates a page set based on exact page indices.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| pages | int[] | 从零开始的页面索引。如果遇到不在文档中的页面，在渲染过程中会抛出异常。表示文档中的最后一页。 |
+| pages | int[] | Zero-based indices of pages. If a page is encountered that is not in the document, an exception will be thrown during rendering.  means the last page in the document. |
 
 ### PageSet(PageRange[] ranges) {#PageSet-com.aspose.words.PageRange...-}
 ```
@@ -71,12 +71,12 @@ public PageSet(PageRange[] ranges)
 ```
 
 
-根据范围创建页面集。
+Creates a page set based on ranges.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| ranges | [PageRange\[\]](../../com.aspose.words/pagerange) | 页面范围数组。如果遇到在文档最后一页之后开始的范围，则在呈现期间将引发异常。在最后一页之后结束的所有范围都将被截断以适合文档。 |
+| ranges | [PageRange\[\]](../../com.aspose.words/pagerange) | Array of page ranges. If a range is encountered that starts after the last page in the document, an exception will be thrown during rendering. All ranges that end after the last page are truncated to fit in the document. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -86,53 +86,53 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### getAll() {#getAll--}
 ```
 public static PageSet getAll()
 ```
 
 
-以原始顺序获取文档所有页面的集合。
+Gets a set with all the pages of the document in their original order.
 
-**退货:**
-[PageSet](../../com.aspose.words/pageset) - 一组文档的所有页面都按原始顺序排列。
-### get班级() {#get班级--}
+**Returns:**
+[PageSet](../../com.aspose.words/pageset) - A set with all the pages of the document in their original order.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getEven() {#getEven--}
 ```
 public static PageSet getEven()
 ```
 
 
-获取文档中所有偶数页按原始顺序排列的集合。偶数页具有奇数索引，因为页索引是从零开始的。
+Gets a set with all the even pages of the document in their original order. Even pages have odd indices since page indices are zero-based.
 
-**退货:**
-[PageSet](../../com.aspose.words/pageset) - 一组文档的所有偶数页均按原始顺序排列。
+**Returns:**
+[PageSet](../../com.aspose.words/pageset) - A set with all the even pages of the document in their original order.
 ### getOdd() {#getOdd--}
 ```
 public static PageSet getOdd()
 ```
 
 
-获取一个集合，其中包含文档中所有奇数页的原始顺序。奇数页具有偶数索引，因为页索引是从零开始的。
+Gets a set with all the odd pages of the document in their original order. Odd pages have even indices since page indices are zero-based.
 
-**退货:**
-[PageSet](../../com.aspose.words/pageset) - 文档中所有奇数页按原始顺序排列的集合。
+**Returns:**
+[PageSet](../../com.aspose.words/pageset) - A set with all the odd pages of the document in their original order.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -141,8 +141,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -167,7 +167,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -185,8 +185,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -198,8 +198,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

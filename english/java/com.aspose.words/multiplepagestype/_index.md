@@ -1,44 +1,44 @@
 ---
-title: MultiplePages类型
-second_title: Aspose.Words for Java API 参考
-description: 指定如何打印文档。
+title: MultiplePagesType
+second_title: Aspose.Words for Java API Reference
+description: Specifies how document is printed out.
 type: docs
 weight: 400
-url: /zh/java/com.aspose.words/multiplepagestype/
+url: /java/com.aspose.words/multiplepagestype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class MultiplePages类型
+public class MultiplePagesType
 ```
 
-指定如何打印文档。
-## 字段
+Specifies how document is printed out.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOOK_FOLD_PRINTING](#BOOK-FOLD-PRINTING) | 指定是否将文档打印为折页。 |
-| [BOOK_FOLD_PRINTING_REVERSE](#BOOK-FOLD-PRINTING-REVERSE) | 指定是否将文档打印为反向折页。 |
-| [DEFAULT](#DEFAULT) | 默认值为[NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL) |
-| [MIRROR_MARGINS](#MIRROR-MARGINS) | 交换对开页的左右页边距。 |
-| [NORMAL](#NORMAL) | 正常打印，未指定多页。 |
-| [TWO_PAGES_PER_SHEET](#TWO-PAGES-PER-SHEET) | 每张打印两页。 |
+| [BOOK_FOLD_PRINTING](#BOOK-FOLD-PRINTING) | Specifies whether to print the document as a book fold. |
+| [BOOK_FOLD_PRINTING_REVERSE](#BOOK-FOLD-PRINTING-REVERSE) | Specifies whether to print the document as a reverse book fold. |
+| [DEFAULT](#DEFAULT) | Default value is [NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL) |
+| [MIRROR_MARGINS](#MIRROR-MARGINS) | Swaps left and right margins on facing pages. |
+| [NORMAL](#NORMAL) | Normal printing, no multiple pages specified. |
+| [TWO_PAGES_PER_SHEET](#TWO-PAGES-PER-SHEET) | Prints two pages per sheet. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String multiplePages类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int multiplePages类型)](#getName-int-) |  |
+| [fromName(String multiplePagesTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int multiplePagesType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int multiplePages类型)](#toString-int-) |  |
+| [toString(int multiplePagesType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -48,7 +48,7 @@ public static int BOOK_FOLD_PRINTING
 ```
 
 
-指定是否将文档打印为折页。
+Specifies whether to print the document as a book fold.
 
 ### BOOK_FOLD_PRINTING_REVERSE {#BOOK-FOLD-PRINTING-REVERSE}
 ```
@@ -56,7 +56,7 @@ public static int BOOK_FOLD_PRINTING_REVERSE
 ```
 
 
-指定是否将文档打印为反向折页。
+Specifies whether to print the document as a reverse book fold.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -64,7 +64,7 @@ public static int DEFAULT
 ```
 
 
-默认值为[NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL)
+Default value is [NORMAL](../../com.aspose.words/multiplepagestype\#NORMAL)
 
 ### MIRROR_MARGINS {#MIRROR-MARGINS}
 ```
@@ -72,7 +72,7 @@ public static int MIRROR_MARGINS
 ```
 
 
-交换对开页的左右页边距。
+Swaps left and right margins on facing pages.
 
 ### NORMAL {#NORMAL}
 ```
@@ -80,7 +80,7 @@ public static int NORMAL
 ```
 
 
-正常打印，未指定多页。
+Normal printing, no multiple pages specified.
 
 ### TWO_PAGES_PER_SHEET {#TWO-PAGES-PER-SHEET}
 ```
@@ -88,7 +88,7 @@ public static int TWO_PAGES_PER_SHEET
 ```
 
 
-每张打印两页。
+Prints two pages per sheet.
 
 ### length {#length}
 ```
@@ -104,52 +104,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String multiplePages类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String multiplePagesTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String multiplePages类型Name)
+public static int fromName(String multiplePagesTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| multiplePages类型Name | java.lang.String |  |
+| multiplePagesTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int multiplePages类型) {#getName-int-}
-```
-public static String getName(int multiplePages类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int multiplePagesType) {#getName-int-}
+```
+public static String getName(int multiplePagesType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| multiplePages类型 | int |  |
+| multiplePagesType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -159,8 +159,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -169,8 +169,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -195,22 +195,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int multiplePages类型) {#toString-int-}
+### toString(int multiplePagesType) {#toString-int-}
 ```
-public static String toString(int multiplePages类型)
+public static String toString(int multiplePagesType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| multiplePages类型 | int |  |
+| multiplePagesType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -228,8 +228,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -241,8 +241,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

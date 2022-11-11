@@ -1,45 +1,45 @@
 ---
 title: CustomXmlProperty
-second_title: Aspose.Words for Java API 参考
-description: 表示单个自定义 XML 属性或智能标记属性。
+second_title: Aspose.Words for Java API Reference
+description: Represents a single custom XML attribute or a smart tag property.
 type: docs
 weight: 106
-url: /zh/java/com.aspose.words/customxmlproperty/
+url: /java/com.aspose.words/customxmlproperty/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Cloneable
 ```
 public class CustomXmlProperty implements Cloneable
 ```
 
-表示单个自定义 XML 属性或智能标记属性。
+Represents a single custom XML attribute or a smart tag property.
 
-要了解更多信息，请访问**Structured Document Tags or Content Control**文档文章。
+To learn more, visit the **Structured Document Tags or Content Control** documentation article.
 
-作为一个项目使用[CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection)收藏。
-## 构造函数s
+Used as an item of a [CustomXmlPropertyCollection](../../com.aspose.words/customxmlpropertycollection) collection.
+## Constructors
 
-| 构造函数 | 描述 |
+| Constructor | Description |
 | --- | --- |
-| [CustomXmlProperty(String name, String uri, String value)](#CustomXmlProperty-java.lang.String-java.lang.String-java.lang.String-) | 初始化此类的新实例。 |
-## 方法s
+| [CustomXmlProperty(String name, String uri, String value)](#CustomXmlProperty-java.lang.String-java.lang.String-java.lang.String-) | Initializes a new instance of this class. |
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get班级()](#get班级--) |  |
-| [getName()](#getName--) | 指定自定义 XML 属性或智能标记属性的名称。 |
-| [getUri()](#getUri--) | 获取自定义 XML 特性或智能标记属性的命名空间 URI。 |
-| [getValue()](#getValue--) | 获取自定义 XML 特性或智能标记属性的值。 |
+| [getClass()](#getClass--) |  |
+| [getName()](#getName--) | Specifies the name of the custom XML attribute or smart tag property. |
+| [getUri()](#getUri--) | Gets the namespace URI of the custom XML attribute or smart tag property. |
+| [getValue()](#getValue--) | Gets the value of the custom XML attribute or smart tag property. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setUri(String value)](#setUri-java.lang.String-) | 设置自定义 XML 属性或智能标记属性的命名空间 URI。 |
-| [setValue(String value)](#setValue-java.lang.String-) | 设置自定义 XML 属性或智能标记属性的值。 |
+| [setUri(String value)](#setUri-java.lang.String-) | Sets the namespace URI of the custom XML attribute or smart tag property. |
+| [setValue(String value)](#setValue-java.lang.String-) | Sets the value of the custom XML attribute or smart tag property. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -50,14 +50,14 @@ public CustomXmlProperty(String name, String uri, String value)
 ```
 
 
-初始化此类的新实例。
+Initializes a new instance of this class.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| name | java.lang.String | 属性的名称。不能为空。 |
-| uri | java.lang.String | 属性的命名空间 URI。不能为空。 |
-| value | java.lang.String | 财产的价值。不能为空。 |
+| name | java.lang.String | The name of the property. Cannot be null. |
+| uri | java.lang.String | The namespace URI of the property. Cannot be null. |
+| value | java.lang.String | The value of the property. Cannot be null. |
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -67,65 +67,65 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### get班级() {#get班级--}
+**Returns:**
+boolean
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName() {#getName--}
 ```
 public String getName()
 ```
 
 
-指定自定义 XML 属性或智能标记属性的名称。
+Specifies the name of the custom XML attribute or smart tag property.
 
-不能为空。
+Cannot be null.
 
-默认为空字符串。
+Default is empty string.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getUri() {#getUri--}
 ```
 public String getUri()
 ```
 
 
-获取自定义 XML 特性或智能标记属性的命名空间 URI。
+Gets the namespace URI of the custom XML attribute or smart tag property.
 
-不能为空。
+Cannot be null.
 
-默认为空字符串。
+Default is empty string.
 
-**退货:**
-java.lang.String - 自定义 XML 属性或智能标记属性的命名空间 URI。
+**Returns:**
+java.lang.String - The namespace URI of the custom XML attribute or smart tag property.
 ### getValue() {#getValue--}
 ```
 public String getValue()
 ```
 
 
-获取自定义 XML 特性或智能标记属性的值。
+Gets the value of the custom XML attribute or smart tag property.
 
-不能为空。
+Cannot be null.
 
-默认为空字符串。
+Default is empty string.
 
-**退货:**
-java.lang.String - 自定义 XML 属性或智能标记属性的值。
+**Returns:**
+java.lang.String - The value of the custom XML attribute or smart tag property.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -134,8 +134,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -158,16 +158,16 @@ public void setUri(String value)
 ```
 
 
-设置自定义 XML 属性或智能标记属性的命名空间 URI。
+Sets the namespace URI of the custom XML attribute or smart tag property.
 
-不能为空。
+Cannot be null.
 
-默认为空字符串。
+Default is empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 自定义 XML 属性或智能标记属性的命名空间 URI。 |
+| value | java.lang.String | The namespace URI of the custom XML attribute or smart tag property. |
 
 ### setValue(String value) {#setValue-java.lang.String-}
 ```
@@ -175,16 +175,16 @@ public void setValue(String value)
 ```
 
 
-设置自定义 XML 属性或智能标记属性的值。
+Sets the value of the custom XML attribute or smart tag property.
 
-不能为空。
+Cannot be null.
 
-默认为空字符串。
+Default is empty string.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 自定义 XML 属性或智能标记属性的值。 |
+| value | java.lang.String | The value of the custom XML attribute or smart tag property. |
 
 ### toString() {#toString--}
 ```
@@ -194,7 +194,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -212,8 +212,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -225,8 +225,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

@@ -1,43 +1,43 @@
 ---
 title: RowFormat
-second_title: Aspose.Words for Java API 参考
-description: 表示表格行的所有格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents all formatting for a table row.
 type: docs
 weight: 494
-url: /zh/java/com.aspose.words/rowformat/
+url: /java/com.aspose.words/rowformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class RowFormat
 ```
 
-表示表格行的所有格式。
+Represents all formatting for a table row.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+To learn more, visit the **Working with Tables** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 重置为默认行格式。 |
+| [clearFormatting()](#clearFormatting--) | Resets to default row formatting. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
-| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | 如果允许表格行中的文本跨分页符拆分，则为真。 |
-| [getBorders()](#getBorders--) | 获取行的默认单元格边框的集合。 |
-| [get班级()](#get班级--) |  |
+| [getAllowBreakAcrossPages()](#getAllowBreakAcrossPages--) | True if the text in a table row is allowed to split across a page break. |
+| [getBorders()](#getBorders--) | Gets the collection of default cell borders for the row. |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getHeadingFormat()](#getHeadingFormat--) | 当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。 |
-| [getHeight()](#getHeight--) | 获取表格行的高度（以磅为单位）。 |
-| [getHeightRule()](#getHeightRule--) | 获取确定表格行高的规则。 |
+| [getHeadingFormat()](#getHeadingFormat--) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [getHeight()](#getHeight--) | Gets the height of the table row in points. |
+| [getHeightRule()](#getHeightRule--) | Gets the rule for determining the height of the table row. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
-| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | 如果允许表格行中的文本跨分页符拆分，则为真。 |
+| [setAllowBreakAcrossPages(boolean value)](#setAllowBreakAcrossPages-boolean-) | True if the text in a table row is allowed to split across a page break. |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean-) | 当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。 |
-| [setHeight(double value)](#setHeight-double-) | 以磅为单位设置表格行的高度。 |
-| [setHeightRule(int value)](#setHeightRule-int-) | 设置确定表格行高度的规则。 |
+| [setHeadingFormat(boolean value)](#setHeadingFormat-boolean-) | True if the row is repeated as a table heading on every page when the table spans more than one page. |
+| [setHeight(double value)](#setHeight-double-) | Sets the height of the table row in points. |
+| [setHeightRule(int value)](#setHeightRule-int-) | Sets the rule for determining the height of the table row. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -48,7 +48,7 @@ public void clearFormatting()
 ```
 
 
-重置为默认行格式。
+Resets to default row formatting.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -58,13 +58,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -73,12 +73,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getAllowBreakAcrossPages() {#getAllowBreakAcrossPages--}
 ```
@@ -86,30 +86,30 @@ public boolean getAllowBreakAcrossPages()
 ```
 
 
-如果允许表格行中的文本跨分页符拆分，则为真。
+True if the text in a table row is allowed to split across a page break.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getBorders() {#getBorders--}
 ```
 public BorderCollection getBorders()
 ```
 
 
-获取行的默认单元格边框的集合。
+Gets the collection of default cell borders for the row.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 行的默认单元格边框的集合。
-### get班级() {#get班级--}
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - The collection of default cell borders for the row.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -118,12 +118,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getHeadingFormat() {#getHeadingFormat--}
 ```
@@ -131,30 +131,30 @@ public boolean getHeadingFormat()
 ```
 
 
-当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。
+True if the row is repeated as a table heading on every page when the table spans more than one page.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
 ```
 
 
-获取表格行的高度（以磅为单位）。
+Gets the height of the table row in points.
 
-**退货:**
-double - 表格行的高度（以磅为单位）。
+**Returns:**
+double - The height of the table row in points.
 ### getHeightRule() {#getHeightRule--}
 ```
 public int getHeightRule()
 ```
 
 
-获取确定表格行高的规则。
+Gets the rule for determining the height of the table row.
 
-**退货:**
- int - 确定表格行高度的规则。返回值是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。
+**Returns:**
+int - The rule for determining the height of the table row. The returned value is one of [HeightRule](../../com.aspose.words/heightrule) constants.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -163,8 +163,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -187,12 +187,12 @@ public void setAllowBreakAcrossPages(boolean value)
 ```
 
 
-如果允许表格行中的文本跨分页符拆分，则为真。
+True if the text in a table row is allowed to split across a page break.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setBorderAttr(int key, Object value) {#setBorderAttr-int-java.lang.Object-}
 ```
@@ -202,8 +202,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -214,12 +214,12 @@ public void setHeadingFormat(boolean value)
 ```
 
 
-当表格跨越一页以上时，如果该行在每一页上重复作为表格标题，则为真。
+True if the row is repeated as a table heading on every page when the table spans more than one page.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setHeight(double value) {#setHeight-double-}
 ```
@@ -227,12 +227,12 @@ public void setHeight(double value)
 ```
 
 
-以磅为单位设置表格行的高度。
+Sets the height of the table row in points.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 表格行的高度（以磅为单位）。 |
+| value | double | The height of the table row in points. |
 
 ### setHeightRule(int value) {#setHeightRule-int-}
 ```
@@ -240,12 +240,12 @@ public void setHeightRule(int value)
 ```
 
 
-设置确定表格行高度的规则。
+Sets the rule for determining the height of the table row.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 确定表格行高的规则。该值必须是以下之一[HeightRule](../../com.aspose.words/heightrule)常数。 |
+| value | int | The rule for determining the height of the table row. The value must be one of [HeightRule](../../com.aspose.words/heightrule) constants. |
 
 ### toString() {#toString--}
 ```
@@ -255,7 +255,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -273,8 +273,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -286,8 +286,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

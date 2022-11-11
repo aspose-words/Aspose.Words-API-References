@@ -1,34 +1,34 @@
 ---
 title: TxtLeadingSpacesOptions
 second_title: Aspose.Words for Java API Reference
-description: 指定从文件导入期间用于前导空间处理的可用选项。
+description: Specifies available options for leading space handling during import from  file.
 type: docs
 weight: 582
-url: /zh/java/com.aspose.words/txtleadingspacesoptions/
+url: /java/com.aspose.words/txtleadingspacesoptions/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class TxtLeadingSpacesOptions
 ```
 
-指定导入期间前导空间处理的可用选项[LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT)文件。
-## 字段
+Specifies available options for leading space handling during import from [LoadFormat.TEXT](../../com.aspose.words/loadformat\#TEXT) file.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
 | [CONVERT_TO_INDENT](#CONVERT-TO-INDENT) |  |
 | [PRESERVE](#PRESERVE) |  |
 | [TRIM](#TRIM) |  |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String txtLeadingSpacesOptionsName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int txtLeadingSpacesOptions)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -71,13 +71,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String txtLeadingSpacesOptionsName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String txtLeadingSpacesOptionsName)
@@ -86,23 +86,23 @@ public static int fromName(String txtLeadingSpacesOptionsName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | txtLeadingSpacesOptionsName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int txtLeadingSpacesOptions) {#getName-int-}
 ```
 public static String getName(int txtLeadingSpacesOptions)
@@ -111,12 +111,12 @@ public static String getName(int txtLeadingSpacesOptions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | txtLeadingSpacesOptions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -126,8 +126,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -136,8 +136,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -162,7 +162,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int txtLeadingSpacesOptions) {#toString-int-}
 ```
@@ -172,12 +172,12 @@ public static String toString(int txtLeadingSpacesOptions)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | txtLeadingSpacesOptions | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -195,8 +195,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -208,8 +208,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

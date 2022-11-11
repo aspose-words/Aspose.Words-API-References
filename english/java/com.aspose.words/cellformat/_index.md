@@ -1,62 +1,62 @@
 ---
 title: CellFormat
-second_title: Aspose.Words for Java API 参考
-description: 表示表格单元格的所有格式。
+second_title: Aspose.Words for Java API Reference
+description: Represents all formatting for a table cell.
 type: docs
 weight: 50
-url: /zh/java/com.aspose.words/cellformat/
+url: /java/com.aspose.words/cellformat/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class CellFormat
 ```
 
-表示表格单元格的所有格式。
+Represents all formatting for a table cell.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
-## 方法s
+To learn more, visit the **Working with Tables** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 重置为默认单元格格式。 |
+| [clearFormatting()](#clearFormatting--) | Resets to default cell formatting. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fetchInheritedBorderAttr(int key)](#fetchInheritedBorderAttr-int-) |  |
 | [fetchInheritedShadingAttr(int key)](#fetchInheritedShadingAttr-int-) |  |
-| [getBorders()](#getBorders--) | 获取单元格边框的集合。 |
-| [getBottomPadding()](#getBottomPadding--) | 获取要添加到单元格内容下方的空间量（以磅为单位）。 |
-| [get班级()](#get班级--) |  |
+| [getBorders()](#getBorders--) | Gets collection of borders of the cell. |
+| [getBottomPadding()](#getBottomPadding--) | Gets the amount of space (in points) to add below the contents of cell. |
+| [getClass()](#getClass--) |  |
 | [getDirectBorderAttr(int key)](#getDirectBorderAttr-int-) |  |
-| [getFitText()](#getFitText--) | 如果为 true，则适合单元格中的文本，将每个段落压缩到单元格的宽度。 |
-| [getHorizontalMerge()](#getHorizontalMerge--) | 指定单元格如何与行中的其他单元格水平合并。 |
-| [getLeftPadding()](#getLeftPadding--) | 获取要添加到单元格内容左侧的空间量（以磅为单位）。 |
-| [getOrientation()](#getOrientation--) | 获取表格单元格中文本的方向。 |
-| [getPreferredWidth()](#getPreferredWidth--) | 获取单元格的首选宽度。 |
-| [getRightPadding()](#getRightPadding--) | 获取要添加到单元格内容右侧的空间量（以磅为单位）。 |
-| [getShading()](#getShading--) | 返回一个 Shading 对象，该对象引用单元格的着色格式。 |
-| [getTopPadding()](#getTopPadding--) | 获取要添加到单元格内容上方的空间量（以磅为单位）。 |
-| [getVerticalAlignment()](#getVerticalAlignment--) | 获取单元格中文本的垂直对齐方式。 |
-| [getVerticalMerge()](#getVerticalMerge--) | 指定单元格如何与其他单元格垂直合并。 |
-| [getWidth()](#getWidth--) | 获取单元格的宽度（以磅为单位）。 |
-| [getWrapText()](#getWrapText--) | 如果为 true，则为单元格换行文本。 |
+| [getFitText()](#getFitText--) | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [getHorizontalMerge()](#getHorizontalMerge--) | Specifies how the cell is merged horizontally with other cells in the row. |
+| [getLeftPadding()](#getLeftPadding--) | Gets the amount of space (in points) to add to the left of the contents of cell. |
+| [getOrientation()](#getOrientation--) | Gets the orientation of text in a table cell. |
+| [getPreferredWidth()](#getPreferredWidth--) | Gets the preferred width of the cell. |
+| [getRightPadding()](#getRightPadding--) | Gets the amount of space (in points) to add to the right of the contents of cell. |
+| [getShading()](#getShading--) | Returns a Shading object that refers to the shading formatting for the cell. |
+| [getTopPadding()](#getTopPadding--) | Gets the amount of space (in points) to add above the contents of cell. |
+| [getVerticalAlignment()](#getVerticalAlignment--) | Gets the vertical alignment of text in the cell. |
+| [getVerticalMerge()](#getVerticalMerge--) | Specifies how the cell is merged with other cells vertically. |
+| [getWidth()](#getWidth--) | Gets the width of the cell in points. |
+| [getWrapText()](#getWrapText--) | If true, wrap text for the cell. |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [setBorderAttr(int key, Object value)](#setBorderAttr-int-java.lang.Object-) |  |
-| [setBottomPadding(double value)](#setBottomPadding-double-) | 设置要在单元格内容下方添加的空间量（以磅为单位）。 |
-| [setFitText(boolean value)](#setFitText-boolean-) | 如果为 true，则适合单元格中的文本，将每个段落压缩到单元格的宽度。 |
-| [setHorizontalMerge(int value)](#setHorizontalMerge-int-) | 指定单元格如何与行中的其他单元格水平合并。 |
-| [setLeftPadding(double value)](#setLeftPadding-double-) | 设置要添加到单元格内容左侧的空间量（以磅为单位）。 |
-| [setOrientation(int value)](#setOrientation-int-) | 设置表格单元格中文本的方向。 |
-| [setPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding)](#setPaddings-double-double-double-double-) | 设置要添加到单元格内容的左/上/右/下的空间量（以磅为单位）。 |
-| [setPreferredWidth(PreferredWidth value)](#setPreferredWidth-com.aspose.words.PreferredWidth-) | 设置单元格的首选宽度。 |
-| [setRightPadding(double value)](#setRightPadding-double-) | 设置要添加到单元格内容右侧的空间量（以磅为单位）。 |
-| [setTopPadding(double value)](#setTopPadding-double-) | 设置要在单元格内容上方添加的空间量（以磅为单位）。 |
-| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | 设置单元格中文本的垂直对齐方式。 |
-| [setVerticalMerge(int value)](#setVerticalMerge-int-) | 指定单元格如何与其他单元格垂直合并。 |
-| [setWidth(double value)](#setWidth-double-) | 获取单元格的宽度（以磅为单位）。 |
-| [setWrapText(boolean value)](#setWrapText-boolean-) | 如果为 true，则为单元格换行文本。 |
+| [setBottomPadding(double value)](#setBottomPadding-double-) | Sets the amount of space (in points) to add below the contents of cell. |
+| [setFitText(boolean value)](#setFitText-boolean-) | If true, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [setHorizontalMerge(int value)](#setHorizontalMerge-int-) | Specifies how the cell is merged horizontally with other cells in the row. |
+| [setLeftPadding(double value)](#setLeftPadding-double-) | Sets the amount of space (in points) to add to the left of the contents of cell. |
+| [setOrientation(int value)](#setOrientation-int-) | Sets the orientation of text in a table cell. |
+| [setPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding)](#setPaddings-double-double-double-double-) | Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell. |
+| [setPreferredWidth(PreferredWidth value)](#setPreferredWidth-com.aspose.words.PreferredWidth-) | Sets the preferred width of the cell. |
+| [setRightPadding(double value)](#setRightPadding-double-) | Sets the amount of space (in points) to add to the right of the contents of cell. |
+| [setTopPadding(double value)](#setTopPadding-double-) | Sets the amount of space (in points) to add above the contents of cell. |
+| [setVerticalAlignment(int value)](#setVerticalAlignment-int-) | Sets the vertical alignment of text in the cell. |
+| [setVerticalMerge(int value)](#setVerticalMerge-int-) | Specifies how the cell is merged with other cells vertically. |
+| [setWidth(double value)](#setWidth-double-) | Gets the width of the cell in points. |
+| [setWrapText(boolean value)](#setWrapText-boolean-) | If true, wrap text for the cell. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -67,7 +67,7 @@ public void clearFormatting()
 ```
 
 
-重置为默认单元格格式。不改变单元格的宽度。
+Resets to default cell formatting. Does not change the width of the cell.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fetchInheritedBorderAttr(int key) {#fetchInheritedBorderAttr-int-}
 ```
 public Object fetchInheritedBorderAttr(int key)
@@ -92,12 +92,12 @@ public Object fetchInheritedBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### fetchInheritedShadingAttr(int key) {#fetchInheritedShadingAttr-int-}
 ```
@@ -107,12 +107,12 @@ public Object fetchInheritedShadingAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getBorders() {#getBorders--}
 ```
@@ -120,30 +120,30 @@ public BorderCollection getBorders()
 ```
 
 
-获取单元格边框的集合。
+Gets collection of borders of the cell.
 
-**退货:**
-[BorderCollection](../../com.aspose.words/bordercollection) - 单元格边界的集合。
+**Returns:**
+[BorderCollection](../../com.aspose.words/bordercollection) - Collection of borders of the cell.
 ### getBottomPadding() {#getBottomPadding--}
 ```
 public double getBottomPadding()
 ```
 
 
-获取要添加到单元格内容下方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add below the contents of cell.
 
-**退货:**
-double - 在单元格内容下方添加的空间量（以磅为单位）。
-### get班级() {#get班级--}
+**Returns:**
+double - The amount of space (in points) to add below the contents of cell.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getDirectBorderAttr(int key) {#getDirectBorderAttr-int-}
 ```
 public Object getDirectBorderAttr(int key)
@@ -152,12 +152,12 @@ public Object getDirectBorderAttr(int key)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 
-**退货:**
+**Returns:**
 java.lang.Object
 ### getFitText() {#getFitText--}
 ```
@@ -165,134 +165,134 @@ public boolean getFitText()
 ```
 
 
-如果为 true，则适合单元格中的文本，将每个段落压缩到单元格的宽度。
+If true, fits text in the cell, compressing each paragraph to the width of the cell.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getHorizontalMerge() {#getHorizontalMerge--}
 ```
 public int getHorizontalMerge()
 ```
 
 
-指定单元格如何与行中的其他单元格水平合并。
+Specifies how the cell is merged horizontally with other cells in the row.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[CellMerge](../../com.aspose.words/cellmerge)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge) constants.
 ### getLeftPadding() {#getLeftPadding--}
 ```
 public double getLeftPadding()
 ```
 
 
-获取要添加到单元格内容左侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the left of the contents of cell.
 
-**退货:**
-double - 添加到单元格内容左侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the left of the contents of cell.
 ### getOrientation() {#getOrientation--}
 ```
 public int getOrientation()
 ```
 
 
-获取表格单元格中文本的方向。
+Gets the orientation of text in a table cell.
 
-**退货:**
- int - 表格单元格中文本的方向。返回值是以下之一[TextOrientation](../../com.aspose.words/textorientation)常数。
+**Returns:**
+int - The orientation of text in a table cell. The returned value is one of [TextOrientation](../../com.aspose.words/textorientation) constants.
 ### getPreferredWidth() {#getPreferredWidth--}
 ```
 public PreferredWidth getPreferredWidth()
 ```
 
 
-获取单元格的首选宽度。
+Gets the preferred width of the cell.
 
-首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，或者在显示文档时由 Microsoft Word 执行。
+The preferred width (along with the table's Auto Fit option) determines how the actual width of the cell is calculated by the table layout algorithm. Table layout can be performed by Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
 
-首选宽度可以以磅或百分比指定。首选宽度也可以指定为“auto”，这意味着没有指定首选宽度。
+The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
-默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
-**退货:**
-[PreferredWidth](../../com.aspose.words/preferredwidth) 单元格的首选宽度。
+**Returns:**
+[PreferredWidth](../../com.aspose.words/preferredwidth) - The preferred width of the cell.
 ### getRightPadding() {#getRightPadding--}
 ```
 public double getRightPadding()
 ```
 
 
-获取要添加到单元格内容右侧的空间量（以磅为单位）。
+Gets the amount of space (in points) to add to the right of the contents of cell.
 
-**退货:**
-double - 添加到单元格内容右侧的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add to the right of the contents of cell.
 ### getShading() {#getShading--}
 ```
 public Shading getShading()
 ```
 
 
-返回一个 Shading 对象，该对象引用单元格的着色格式。
+Returns a Shading object that refers to the shading formatting for the cell.
 
-**退货:**
-[Shading](../../com.aspose.words/shading) - 引用单元格的阴影格式的 Shading 对象。
+**Returns:**
+[Shading](../../com.aspose.words/shading) - A Shading object that refers to the shading formatting for the cell.
 ### getTopPadding() {#getTopPadding--}
 ```
 public double getTopPadding()
 ```
 
 
-获取要添加到单元格内容上方的空间量（以磅为单位）。
+Gets the amount of space (in points) to add above the contents of cell.
 
-**退货:**
-double - 在单元格内容上方添加的空间量（以磅为单位）。
+**Returns:**
+double - The amount of space (in points) to add above the contents of cell.
 ### getVerticalAlignment() {#getVerticalAlignment--}
 ```
 public int getVerticalAlignment()
 ```
 
 
-获取单元格中文本的垂直对齐方式。
+Gets the vertical alignment of text in the cell.
 
-**退货:**
- int - 单元格中文本的垂直对齐方式。返回值是以下之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。
+**Returns:**
+int - The vertical alignment of text in the cell. The returned value is one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants.
 ### getVerticalMerge() {#getVerticalMerge--}
 ```
 public int getVerticalMerge()
 ```
 
 
-指定单元格如何与其他单元格垂直合并。
+Specifies how the cell is merged with other cells vertically.
 
-只有左右边界相同的单元格才能垂直合并。
+Cells can only be merged vertically if their left and right boundaries are identical.
 
-垂直合并单元格时，合并单元格的显示区域合并。合并区域用于显示第一个垂直合并单元格的内容，其他所有垂直合并单元格必须为空。
+When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
-**退货:**
-int - 对应的 int 值。返回值是以下之一[CellMerge](../../com.aspose.words/cellmerge)常数。
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [CellMerge](../../com.aspose.words/cellmerge) constants.
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
 ```
 
 
-获取单元格的宽度（以磅为单位）。
+Gets the width of the cell in points.
 
-宽度由 Aspose.Words 在文档加载和保存时计算。目前，并非支持表格、单元格和文档属性的所有组合。对于某些文档，返回的值可能不准确。在 MS Word 中打开文档时，它可能与 MS Word 计算的单元格宽度不完全匹配。
+The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
-不建议设置此属性。无法保证单元格实际上具有设置的宽度。可以调整宽度以适应自动调整表格布局中的单元格内容。其他行中的单元格可能具有冲突的宽度设置。可以调整表格的大小以适应容器或满足表格宽度设置。考虑使用[getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-)用于设置单元格宽度。设置此属性集[getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-)从 15.8 版本开始隐含。
+Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-) implicitly since version 15.8.
 
-**退货:**
-double - 单元格的宽度（以磅为单位）。
+**Returns:**
+double - The width of the cell in points.
 ### getWrapText() {#getWrapText--}
 ```
 public boolean getWrapText()
 ```
 
 
-如果为 true，则为单元格换行文本。
+If true, wrap text for the cell.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -301,8 +301,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -327,8 +327,8 @@ public void setBorderAttr(int key, Object value)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
@@ -339,12 +339,12 @@ public void setBottomPadding(double value)
 ```
 
 
-设置要在单元格内容下方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add below the contents of cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在单元格内容下方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add below the contents of cell. |
 
 ### setFitText(boolean value) {#setFitText-boolean-}
 ```
@@ -352,12 +352,12 @@ public void setFitText(boolean value)
 ```
 
 
-如果为 true，则适合单元格中的文本，将每个段落压缩到单元格的宽度。
+If true, fits text in the cell, compressing each paragraph to the width of the cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setHorizontalMerge(int value) {#setHorizontalMerge-int-}
 ```
@@ -365,12 +365,12 @@ public void setHorizontalMerge(int value)
 ```
 
 
-指定单元格如何与行中的其他单元格水平合并。
+Specifies how the cell is merged horizontally with other cells in the row.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[CellMerge](../../com.aspose.words/cellmerge)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge) constants. |
 
 ### setLeftPadding(double value) {#setLeftPadding-double-}
 ```
@@ -378,12 +378,12 @@ public void setLeftPadding(double value)
 ```
 
 
-设置要添加到单元格内容左侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the left of the contents of cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到单元格内容左侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the left of the contents of cell. |
 
 ### setOrientation(int value) {#setOrientation-int-}
 ```
@@ -391,12 +391,12 @@ public void setOrientation(int value)
 ```
 
 
-设置表格单元格中文本的方向。
+Sets the orientation of text in a table cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 表格单元格中文本的方向。该值必须是以下之一[TextOrientation](../../com.aspose.words/textorientation)常数。 |
+| value | int | The orientation of text in a table cell. The value must be one of [TextOrientation](../../com.aspose.words/textorientation) constants. |
 
 ### setPaddings(double leftPadding, double topPadding, double rightPadding, double bottomPadding) {#setPaddings-double-double-double-double-}
 ```
@@ -404,10 +404,10 @@ public void setPaddings(double leftPadding, double topPadding, double rightPaddi
 ```
 
 
-设置要添加到单元格内容的左/上/右/下的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | leftPadding | double |  |
 | topPadding | double |  |
@@ -420,18 +420,18 @@ public void setPreferredWidth(PreferredWidth value)
 ```
 
 
-设置单元格的首选宽度。
+Sets the preferred width of the cell.
 
-首选宽度（连同表格的自动调整选项）决定了表格布局算法如何计算单元格的实际宽度。表格布局可以在保存文档时由 Aspose.Words 执行，或者在显示文档时由 Microsoft Word 执行。
+The preferred width (along with the table's Auto Fit option) determines how the actual width of the cell is calculated by the table layout algorithm. Table layout can be performed by Aspose.Words when it saves the document or by Microsoft Word when it displays the document.
 
-首选宽度可以以磅或百分比指定。首选宽度也可以指定为“auto”，这意味着没有指定首选宽度。
+The preferred width can be specified in points or in percent. The preferred width can also be specified as "auto", which means no preferred width is specified.
 
-默认值为[PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
+The default value is [PreferredWidth.AUTO](../../com.aspose.words/preferredwidth\#AUTO).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | 单元格的首选宽度。 |
+| value | [PreferredWidth](../../com.aspose.words/preferredwidth) | The preferred width of the cell. |
 
 ### setRightPadding(double value) {#setRightPadding-double-}
 ```
@@ -439,12 +439,12 @@ public void setRightPadding(double value)
 ```
 
 
-设置要添加到单元格内容右侧的空间量（以磅为单位）。
+Sets the amount of space (in points) to add to the right of the contents of cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 添加到单元格内容右侧的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add to the right of the contents of cell. |
 
 ### setTopPadding(double value) {#setTopPadding-double-}
 ```
@@ -452,12 +452,12 @@ public void setTopPadding(double value)
 ```
 
 
-设置要在单元格内容上方添加的空间量（以磅为单位）。
+Sets the amount of space (in points) to add above the contents of cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 在单元格内容上方添加的空间量（以磅为单位）。 |
+| value | double | The amount of space (in points) to add above the contents of cell. |
 
 ### setVerticalAlignment(int value) {#setVerticalAlignment-int-}
 ```
@@ -465,12 +465,12 @@ public void setVerticalAlignment(int value)
 ```
 
 
-设置单元格中文本的垂直对齐方式。
+Sets the vertical alignment of text in the cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 单元格中文本的垂直对齐方式。该值必须是以下之一[CellVerticalAlignment](../../com.aspose.words/cellverticalalignment)常数。 |
+| value | int | The vertical alignment of text in the cell. The value must be one of [CellVerticalAlignment](../../com.aspose.words/cellverticalalignment) constants. |
 
 ### setVerticalMerge(int value) {#setVerticalMerge-int-}
 ```
@@ -478,16 +478,16 @@ public void setVerticalMerge(int value)
 ```
 
 
-指定单元格如何与其他单元格垂直合并。
+Specifies how the cell is merged with other cells vertically.
 
-只有左右边界相同的单元格才能垂直合并。
+Cells can only be merged vertically if their left and right boundaries are identical.
 
-垂直合并单元格时，合并单元格的显示区域合并。合并区域用于显示第一个垂直合并单元格的内容，其他所有垂直合并单元格必须为空。
+When cells are vertically merged, the display areas of the merged cells are consolidated. The consolidated area is used to display the contents of the first vertically merged cell and all other vertically merged cells must be empty.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | 对应的 int 值。该值必须是以下之一[CellMerge](../../com.aspose.words/cellmerge)常数。 |
+| value | int | The corresponding  int  value. The value must be one of [CellMerge](../../com.aspose.words/cellmerge) constants. |
 
 ### setWidth(double value) {#setWidth-double-}
 ```
@@ -495,16 +495,16 @@ public void setWidth(double value)
 ```
 
 
-获取单元格的宽度（以磅为单位）。
+Gets the width of the cell in points.
 
-宽度由 Aspose.Words 在文档加载和保存时计算。目前，并非支持表格、单元格和文档属性的所有组合。对于某些文档，返回的值可能不准确。在 MS Word 中打开文档时，它可能与 MS Word 计算的单元格宽度不完全匹配。
+The width is calculated by Aspose.Words on document loading and saving. Currently, not every combination of table, cell and document properties is supported. The returned value may not be accurate for some documents. It may not exactly match the cell width as calculated by MS Word when the document is opened in MS Word.
 
-不建议设置此属性。无法保证单元格实际上具有设置的宽度。可以调整宽度以适应自动调整表格布局中的单元格内容。其他行中的单元格可能具有冲突的宽度设置。可以调整表格的大小以适应容器或满足表格宽度设置。考虑使用[getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-)用于设置单元格宽度。设置此属性集[getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-)从 15.8 版本开始隐含。
+Setting this property is not recommended. There is no guarantee that the cell will actually have the set width. The width may be adjusted to accommodate cell contents in an auto-fit table layout. Cells in other rows may have conflicting width settings. The table may be resized to fit into the container or to meet table width settings. Consider using [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-) for setting the cell width. Setting this property sets [getPreferredWidth()](../../com.aspose.words/cellformat\#getPreferredWidth--) / [setPreferredWidth(com.aspose.words.PreferredWidth)](../../com.aspose.words/cellformat\#setPreferredWidth-com.aspose.words.PreferredWidth-) implicitly since version 15.8.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | double | 单元格的宽度（以磅为单位）。 |
+| value | double | The width of the cell in points. |
 
 ### setWrapText(boolean value) {#setWrapText-boolean-}
 ```
@@ -512,12 +512,12 @@ public void setWrapText(boolean value)
 ```
 
 
-如果为 true，则为单元格换行文本。
+If true, wrap text for the cell.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### toString() {#toString--}
 ```
@@ -527,7 +527,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -545,8 +545,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -558,8 +558,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

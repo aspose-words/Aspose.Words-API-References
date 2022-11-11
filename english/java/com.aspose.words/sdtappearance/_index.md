@@ -1,35 +1,35 @@
 ---
 title: SdtAppearance
-second_title: Aspose.Words for Java API 参考
-description: 指定结构化文档标签的外观。
+second_title: Aspose.Words for Java API Reference
+description: Specifies the appearance of a structured document tag.
 type: docs
 weight: 503
-url: /zh/java/com.aspose.words/sdtappearance/
+url: /java/com.aspose.words/sdtappearance/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class SdtAppearance
 ```
 
-指定结构化文档标签的外观。
-## 字段
+Specifies the appearance of a structured document tag.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [BOUNDING_BOX](#BOUNDING-BOX) | 表示显示为阴影矩形或边界框的结构化文档标签。 |
-| [DEFAULT](#DEFAULT) | 默认为[BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX). |
-| [HIDDEN](#HIDDEN) | 表示未显示的结构化文档标签。 |
-| [TAGS](#TAGS) | 表示显示为开始和结束标记的结构化文档标签。 |
+| [BOUNDING_BOX](#BOUNDING-BOX) | Represents a structured document tag shown as a shaded rectangle or bounding box. |
+| [DEFAULT](#DEFAULT) | Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX). |
+| [HIDDEN](#HIDDEN) | Represents a structured document tag that is not shown. |
+| [TAGS](#TAGS) | Represents a structured document tag shown as start and end markers. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String sdtAppearanceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int sdtAppearance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -46,7 +46,7 @@ public static int BOUNDING_BOX
 ```
 
 
-表示显示为阴影矩形或边界框的结构化文档标签。
+Represents a structured document tag shown as a shaded rectangle or bounding box.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -54,7 +54,7 @@ public static int DEFAULT
 ```
 
 
-默认为[BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX).
+Defaults to [BOUNDING\_BOX](../../com.aspose.words/sdtappearance\#BOUNDING-BOX).
 
 ### HIDDEN {#HIDDEN}
 ```
@@ -62,7 +62,7 @@ public static int HIDDEN
 ```
 
 
-表示未显示的结构化文档标签。
+Represents a structured document tag that is not shown.
 
 ### TAGS {#TAGS}
 ```
@@ -70,7 +70,7 @@ public static int TAGS
 ```
 
 
-表示显示为开始和结束标记的结构化文档标签。
+Represents a structured document tag shown as start and end markers.
 
 ### length {#length}
 ```
@@ -86,13 +86,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String sdtAppearanceName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String sdtAppearanceName)
@@ -101,23 +101,23 @@ public static int fromName(String sdtAppearanceName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sdtAppearanceName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int sdtAppearance) {#getName-int-}
 ```
 public static String getName(int sdtAppearance)
@@ -126,12 +126,12 @@ public static String getName(int sdtAppearance)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sdtAppearance | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -141,8 +141,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -151,8 +151,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -177,7 +177,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int sdtAppearance) {#toString-int-}
 ```
@@ -187,12 +187,12 @@ public static String toString(int sdtAppearance)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | sdtAppearance | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -210,8 +210,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -223,8 +223,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

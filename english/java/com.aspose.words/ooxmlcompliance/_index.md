@@ -1,34 +1,34 @@
 ---
 title: OoxmlCompliance
-second_title: Aspose.Words for Java API 参考
-description: 允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
+second_title: Aspose.Words for Java API Reference
+description: Allows to specify which OOXML specification will be used when saving in the DOCX format.
 type: docs
 weight: 427
-url: /zh/java/com.aspose.words/ooxmlcompliance/
+url: /java/com.aspose.words/ooxmlcompliance/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class OoxmlCompliance
 ```
 
-允许指定以 DOCX 格式保存时将使用的 OOXML 规范。
-## 字段
+Allows to specify which OOXML specification will be used when saving in the DOCX format.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [ECMA_376_2006](#ECMA-376-2006) | ECMA-376 第 1 版，2006 年。 |
-| [ISO_29500_2008_STRICT](#ISO-29500-2008-STRICT) | ISO/IEC 29500:2008 严格的合规级别。 |
-| [ISO_29500_2008_TRANSITIONAL](#ISO-29500-2008-TRANSITIONAL) | ISO/IEC 29500:2008 过渡合规级别。 |
+| [ECMA_376_2006](#ECMA-376-2006) | ECMA-376 1st Edition, 2006. |
+| [ISO_29500_2008_STRICT](#ISO-29500-2008-STRICT) | ISO/IEC 29500:2008 Strict compliance level. |
+| [ISO_29500_2008_TRANSITIONAL](#ISO-29500-2008-TRANSITIONAL) | ISO/IEC 29500:2008 Transitional compliance level. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String ooxmlComplianceName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int ooxmlCompliance)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -45,7 +45,7 @@ public static int ECMA_376_2006
 ```
 
 
-ECMA-376 第 1 版，2006 年。
+ECMA-376 1st Edition, 2006.
 
 ### ISO_29500_2008_STRICT {#ISO-29500-2008-STRICT}
 ```
@@ -53,7 +53,7 @@ public static int ISO_29500_2008_STRICT
 ```
 
 
-ISO/IEC 29500:2008 严格的合规级别。
+ISO/IEC 29500:2008 Strict compliance level.
 
 ### ISO_29500_2008_TRANSITIONAL {#ISO-29500-2008-TRANSITIONAL}
 ```
@@ -61,7 +61,7 @@ public static int ISO_29500_2008_TRANSITIONAL
 ```
 
 
-ISO/IEC 29500:2008 过渡合规级别。
+ISO/IEC 29500:2008 Transitional compliance level.
 
 ### length {#length}
 ```
@@ -77,13 +77,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String ooxmlComplianceName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String ooxmlComplianceName)
@@ -92,23 +92,23 @@ public static int fromName(String ooxmlComplianceName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | ooxmlComplianceName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int ooxmlCompliance) {#getName-int-}
 ```
 public static String getName(int ooxmlCompliance)
@@ -117,12 +117,12 @@ public static String getName(int ooxmlCompliance)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | ooxmlCompliance | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -132,8 +132,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -142,8 +142,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -168,7 +168,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int ooxmlCompliance) {#toString-int-}
 ```
@@ -178,12 +178,12 @@ public static String toString(int ooxmlCompliance)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | ooxmlCompliance | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -201,8 +201,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -214,8 +214,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

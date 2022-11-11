@@ -1,39 +1,39 @@
 ---
 title: GeneralFormatCollection
-second_title: Aspose.Words for Java API 参考
-description: 表示一般格式的类型化集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents a typed collection of general formats.
 type: docs
 weight: 305
-url: /zh/java/com.aspose.words/generalformatcollection/
+url: /java/com.aspose.words/generalformatcollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class GeneralFormatCollection implements Iterable
 ```
 
-表示一般格式的类型化集合。
+Represents a typed collection of general formats.
 
-要了解更多信息，请访问**Working with 字段**文档文章。
-## 方法s
+To learn more, visit the **Working with Fields** documentation article.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [add(int item)](#add-int-) |  |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 获取指定索引处的一般格式。 |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中项目的总数。 |
+| [get(int index)](#get-int-) | Gets a general format at the specified index. |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the total number of the items in the collection. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个枚举器对象。 |
+| [iterator()](#iterator--) | Returns an enumerator object. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [remove(int item)](#remove-int-) |  |
-| [removeAt(int index)](#removeAt-int-) | 删除指定索引处的一般格式出现。 |
+| [removeAt(int index)](#removeAt-int-) | Removes a general format occurrence at the specified index. |
 | [toString()](#toString--) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
@@ -46,8 +46,8 @@ public void add(int item)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | item | int |  |
 
@@ -59,48 +59,48 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public int get(int index)
 ```
 
 
-获取指定索引处的一般格式。
+Gets a general format at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 一般格式的索引。 |
+| index | int | The index of a general format. |
 
-**退货:**
- int - 一种通用格式。返回值是以下之一[GeneralFormat](../../com.aspose.words/generalformat)常数。
-### get班级() {#get班级--}
+**Returns:**
+int - A general format. The returned value is one of [GeneralFormat](../../com.aspose.words/generalformat) constants.
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中项目的总数。
+Gets the total number of the items in the collection.
 
-**退货:**
-int - 集合中的项目总数。
+**Returns:**
+int - The total number of the items in the collection.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -109,17 +109,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个枚举器对象。
+Returns an enumerator object.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -145,8 +145,8 @@ public void remove(int item)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | item | int |  |
 
@@ -156,10 +156,10 @@ public void removeAt(int index)
 ```
 
 
-删除指定索引处的一般格式出现。
+Removes a general format occurrence at the specified index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | index | int |  |
 
@@ -171,7 +171,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -189,8 +189,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -202,8 +202,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

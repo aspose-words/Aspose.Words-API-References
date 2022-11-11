@@ -1,46 +1,46 @@
 ---
-title: MailMergeMainDocument类型
-second_title: Aspose.Words for Java API 参考
-description: 指定邮件合并源文档的可能类型。
+title: MailMergeMainDocumentType
+second_title: Aspose.Words for Java API Reference
+description: Specifies the possible types for a mail merge source document.
 type: docs
 weight: 384
-url: /zh/java/com.aspose.words/mailmergemaindocumenttype/
+url: /java/com.aspose.words/mailmergemaindocumenttype/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
-public class MailMergeMainDocument类型
+public class MailMergeMainDocumentType
 ```
 
-指定邮件合并源文档的可能类型。
-## 字段
+Specifies the possible types for a mail merge source document.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [CATALOG](#CATALOG) | 指定邮件合并源文档是目录类型。 |
-| [DEFAULT](#DEFAULT) | 等于[NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) |
-| [EMAIL](#EMAIL) | 指定邮件合并源文档是电子邮件消息类型。 |
-| [ENVELOPES](#ENVELOPES) | 指定邮件合并源文档是信封类型。 |
-| [FAX](#FAX) | 指定邮件合并源文档是传真类型。 |
-| [FORM_LETTERS](#FORM-LETTERS) | 指定邮件合并源文档是套用信函类型。 |
-| [MAILING_LABELS](#MAILING-LABELS) | 指定邮件合并源文档属于邮寄标签类型。 |
-| [NOT_A_MERGE_DOCUMENT](#NOT-A-MERGE-DOCUMENT) | 此文档不是邮件合并文档。 |
+| [CATALOG](#CATALOG) | Specifies that the mail merge source document is of the catalog type. |
+| [DEFAULT](#DEFAULT) | Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT) |
+| [EMAIL](#EMAIL) | Specifies that the mail merge source document is of the e-mail message type. |
+| [ENVELOPES](#ENVELOPES) | Specifies that the mail merge source document is of the envelope type. |
+| [FAX](#FAX) | Specifies that the mail merge source document is of the fax type. |
+| [FORM_LETTERS](#FORM-LETTERS) | Specifies that the mail merge source document is of the form letter type. |
+| [MAILING_LABELS](#MAILING-LABELS) | Specifies that the mail merge source document is of the mailing label type. |
+| [NOT_A_MERGE_DOCUMENT](#NOT-A-MERGE-DOCUMENT) | This document is not a mail merge document. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [fromName(String mailMergeMainDocument类型Name)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
-| [getName(int mailMergeMainDocument类型)](#getName-int-) |  |
+| [fromName(String mailMergeMainDocumentTypeName)](#fromName-java.lang.String-) |  |
+| [getClass()](#getClass--) |  |
+| [getName(int mailMergeMainDocumentType)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
-| [toString(int mailMergeMainDocument类型)](#toString-int-) |  |
+| [toString(int mailMergeMainDocumentType)](#toString-int-) |  |
 | [wait()](#wait--) |  |
 | [wait(long arg0)](#wait-long-) |  |
 | [wait(long arg0, int arg1)](#wait-long-int-) |  |
@@ -50,7 +50,7 @@ public static int CATALOG
 ```
 
 
-指定邮件合并源文档是目录类型。
+Specifies that the mail merge source document is of the catalog type.
 
 ### DEFAULT {#DEFAULT}
 ```
@@ -58,7 +58,7 @@ public static int DEFAULT
 ```
 
 
-等于[NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT)
+Equals to [NOT\_A\_MERGE\_DOCUMENT](../../com.aspose.words/mailmergemaindocumenttype\#NOT-A-MERGE-DOCUMENT)
 
 ### EMAIL {#EMAIL}
 ```
@@ -66,7 +66,7 @@ public static int EMAIL
 ```
 
 
-指定邮件合并源文档是电子邮件消息类型。
+Specifies that the mail merge source document is of the e-mail message type.
 
 ### ENVELOPES {#ENVELOPES}
 ```
@@ -74,7 +74,7 @@ public static int ENVELOPES
 ```
 
 
-指定邮件合并源文档是信封类型。
+Specifies that the mail merge source document is of the envelope type.
 
 ### FAX {#FAX}
 ```
@@ -82,7 +82,7 @@ public static int FAX
 ```
 
 
-指定邮件合并源文档是传真类型。
+Specifies that the mail merge source document is of the fax type.
 
 ### FORM_LETTERS {#FORM-LETTERS}
 ```
@@ -90,7 +90,7 @@ public static int FORM_LETTERS
 ```
 
 
-指定邮件合并源文档是套用信函类型。
+Specifies that the mail merge source document is of the form letter type.
 
 ### MAILING_LABELS {#MAILING-LABELS}
 ```
@@ -98,7 +98,7 @@ public static int MAILING_LABELS
 ```
 
 
-指定邮件合并源文档属于邮寄标签类型。
+Specifies that the mail merge source document is of the mailing label type.
 
 ### NOT_A_MERGE_DOCUMENT {#NOT-A-MERGE-DOCUMENT}
 ```
@@ -106,7 +106,7 @@ public static int NOT_A_MERGE_DOCUMENT
 ```
 
 
-此文档不是邮件合并文档。
+This document is not a mail merge document.
 
 ### length {#length}
 ```
@@ -122,52 +122,52 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
-### fromName(String mailMergeMainDocument类型Name) {#fromName-java.lang.String-}
+**Returns:**
+boolean
+### fromName(String mailMergeMainDocumentTypeName) {#fromName-java.lang.String-}
 ```
-public static int fromName(String mailMergeMainDocument类型Name)
+public static int fromName(String mailMergeMainDocumentTypeName)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mailMergeMainDocument类型Name | java.lang.String |  |
+| mailMergeMainDocumentTypeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
-```
-
-
-
-
-**退货:**
-java.lang.班级<?>
-### getName(int mailMergeMainDocument类型) {#getName-int-}
-```
-public static String getName(int mailMergeMainDocument类型)
+public final native Class<?> getClass()
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Returns:**
+java.lang.Class<?>
+### getName(int mailMergeMainDocumentType) {#getName-int-}
+```
+public static String getName(int mailMergeMainDocumentType)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mailMergeMainDocument类型 | int |  |
+| mailMergeMainDocumentType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -177,8 +177,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -187,8 +187,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -213,22 +213,22 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
-### toString(int mailMergeMainDocument类型) {#toString-int-}
+### toString(int mailMergeMainDocumentType) {#toString-int-}
 ```
-public static String toString(int mailMergeMainDocument类型)
+public static String toString(int mailMergeMainDocumentType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| mailMergeMainDocument类型 | int |  |
+| mailMergeMainDocumentType | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -246,8 +246,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -259,8 +259,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

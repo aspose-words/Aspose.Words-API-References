@@ -1,33 +1,33 @@
 ---
 title: DmlRenderingMode
-second_title: Aspose.Words for Java API 参考
-description: 指定如何将 DrawingML 形状呈现为固定页面格式。
+second_title: Aspose.Words for Java API Reference
+description: Specifies how DrawingML shapes are rendered to fixed page formats.
 type: docs
 weight: 118
-url: /zh/java/com.aspose.words/dmlrenderingmode/
+url: /java/com.aspose.words/dmlrenderingmode/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 ```
 public class DmlRenderingMode
 ```
 
-指定如何将 DrawingML 形状呈现为固定页面格式。
-## 字段
+Specifies how DrawingML shapes are rendered to fixed page formats.
+## Fields
 
-| 字段 | 描述 |
+| Field | Description |
 | --- | --- |
-| [DRAWING_ML](#DRAWING-ML) | Aspose.Words 忽略 DrawingML 的后备形状并呈现 DrawingML 本身。 |
-| [FALLBACK](#FALLBACK) | 如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。 |
+| [DRAWING_ML](#DRAWING-ML) | Aspose.Words ignores fall-back shape of DrawingML and renders DrawingML itself. |
+| [FALLBACK](#FALLBACK) | If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. |
 | [length](#length) |  |
-## 方法s
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
 | [fromName(String dmlRenderingModeName)](#fromName-java.lang.String-) |  |
-| [get班级()](#get班级--) |  |
+| [getClass()](#getClass--) |  |
 | [getName(int dmlRenderingMode)](#getName-int-) |  |
 | [getValues()](#getValues--) |  |
 | [hashCode()](#hashCode--) |  |
@@ -44,7 +44,7 @@ public static int DRAWING_ML
 ```
 
 
-Aspose.Words 忽略 DrawingML 的后备形状并呈现 DrawingML 本身。这是默认模式。
+Aspose.Words ignores fall-back shape of DrawingML and renders DrawingML itself. This is the default mode.
 
 ### FALLBACK {#FALLBACK}
 ```
@@ -52,7 +52,7 @@ public static int FALLBACK
 ```
 
 
-如果回退形状可用于 DrawingML，Aspose.Words 会呈现回退形状而不是 DrawingML。请注意，在使用后备 DML 呈现模式将文档保存为固定页面格式后，AW 文档模型中的 DML 形状将永久替换为其后备对应物。因此，即使 DmlRenderingMode 设置为 DrawingML，再次保存同一个文档将始终使用回退形状。
+If fall-back shape is available for DrawingML, Aspose.Words renders fall-back shape instead of the DrawingML. Please note that after saving a document to a fixed page format with fall-back DML rendering mode, DML shapes in the AW document model are permanently replaced with their fall-back counterparts. As a result, saving the same document again will always use fall-back shapes, even if DmlRenderingMode is set to DrawingML.
 
 ### length {#length}
 ```
@@ -68,13 +68,13 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### fromName(String dmlRenderingModeName) {#fromName-java.lang.String-}
 ```
 public static int fromName(String dmlRenderingModeName)
@@ -83,23 +83,23 @@ public static int fromName(String dmlRenderingModeName)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlRenderingModeName | java.lang.String |  |
 
-**退货:**
-整数
-### get班级() {#get班级--}
+**Returns:**
+int
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getName(int dmlRenderingMode) {#getName-int-}
 ```
 public static String getName(int dmlRenderingMode)
@@ -108,12 +108,12 @@ public static String getName(int dmlRenderingMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlRenderingMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### getValues() {#getValues--}
 ```
@@ -123,8 +123,8 @@ public static int[] getValues()
 
 
 
-**退货:**
-整数[]
+**Returns:**
+int[]
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -133,8 +133,8 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### notify() {#notify--}
 ```
 public final native void notify()
@@ -159,7 +159,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### toString(int dmlRenderingMode) {#toString-int-}
 ```
@@ -169,12 +169,12 @@ public static String toString(int dmlRenderingMode)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | dmlRenderingMode | int |  |
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -192,8 +192,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -205,8 +205,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

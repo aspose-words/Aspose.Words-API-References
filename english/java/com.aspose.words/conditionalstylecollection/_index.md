@@ -1,50 +1,50 @@
 ---
 title: ConditionalStyleCollection
-second_title: Aspose.Words for Java API 参考
-description: 表示对象的集合。
+second_title: Aspose.Words for Java API Reference
+description: Represents a collection of  objects.
 type: docs
 weight: 90
-url: /zh/java/com.aspose.words/conditionalstylecollection/
+url: /java/com.aspose.words/conditionalstylecollection/
 ---
 
-**遗产:**
+**Inheritance:**
 java.lang.Object
 
-**All Implemented 界面s:**
+**All Implemented Interfaces:**
 java.lang.Iterable
 ```
 public class ConditionalStyleCollection implements Iterable
 ```
 
-代表一个集合[ConditionalStyle](../../com.aspose.words/conditionalstyle)对象。
+Represents a collection of [ConditionalStyle](../../com.aspose.words/conditionalstyle) objects.
 
-要了解更多信息，请访问**Working with Tables**文档文章。
+To learn more, visit the **Working with Tables** documentation article.
 
-无法在此集合中添加或删除项目。它包含一组永久的项目：一个项目的每个值[ConditionalStyle类型](../../com.aspose.words/conditionalstyletype)枚举类型。
-## 方法s
+It is not possible to add or remove items from this collection. It contains permanent set of items: one item for each value of the [ConditionalStyleType](../../com.aspose.words/conditionalstyletype) enumeration type.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [clearFormatting()](#clearFormatting--) | 清除表格样式的所有条件样式。 |
+| [clearFormatting()](#clearFormatting--) | Clears all conditional styles of the table style. |
 | [equals(Object arg0)](#equals-java.lang.Object-) |  |
-| [get(int index)](#get-int-) | 检索一个[ConditionalStyle](../../com.aspose.words/conditionalstyle)按索引的对象。 |
-| [getBottomLeftCell()](#getBottomLeftCell--) | 获取左下角的单元格样式。 |
-| [getBottomRightCell()](#getBottomRightCell--) | 获取右下角的单元格样式。 |
-| [getByConditionalStyle类型(int conditionalStyle类型)](#getByConditionalStyle类型-int-) |  |
-| [get班级()](#get班级--) |  |
-| [getCount()](#getCount--) | 获取集合中条件样式的数量。 |
-| [getEvenColumnBanding()](#getEvenColumnBanding--) | 获取偶数列条带样式。 |
-| [getEvenRowBanding()](#getEvenRowBanding--) | 获取偶数行条带样式。 |
-| [getFirstColumn()](#getFirstColumn--) | 获取第一个列样式。 |
-| [getFirstRow()](#getFirstRow--) | 获取第一行样式。 |
-| [getLastColumn()](#getLastColumn--) | 获取最后一列样式。 |
-| [getLastRow()](#getLastRow--) | 获取最后一行样式。 |
-| [getOddColumnBanding()](#getOddColumnBanding--) | 获取奇数列带样式。 |
-| [getOddRowBanding()](#getOddRowBanding--) | 获取奇数行条带样式。 |
-| [getTopLeftCell()](#getTopLeftCell--) | 获取左上角的单元格样式。 |
-| [getTopRightCell()](#getTopRightCell--) | 获取右上角的单元格样式。 |
+| [get(int index)](#get-int-) | Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle) object by index. |
+| [getBottomLeftCell()](#getBottomLeftCell--) | Gets the bottom left cell style. |
+| [getBottomRightCell()](#getBottomRightCell--) | Gets the bottom right cell style. |
+| [getByConditionalStyleType(int conditionalStyleType)](#getByConditionalStyleType-int-) |  |
+| [getClass()](#getClass--) |  |
+| [getCount()](#getCount--) | Gets the number of conditional styles in the collection. |
+| [getEvenColumnBanding()](#getEvenColumnBanding--) | Gets the even column banding style. |
+| [getEvenRowBanding()](#getEvenRowBanding--) | Gets the even row banding style. |
+| [getFirstColumn()](#getFirstColumn--) | Gets the first column style. |
+| [getFirstRow()](#getFirstRow--) | Gets the first row style. |
+| [getLastColumn()](#getLastColumn--) | Gets the last column style. |
+| [getLastRow()](#getLastRow--) | Gets the last row style. |
+| [getOddColumnBanding()](#getOddColumnBanding--) | Gets the odd column banding style. |
+| [getOddRowBanding()](#getOddRowBanding--) | Gets the odd row banding style. |
+| [getTopLeftCell()](#getTopLeftCell--) | Gets the top left cell style. |
+| [getTopRightCell()](#getTopRightCell--) | Gets the top right cell style. |
 | [hashCode()](#hashCode--) |  |
-| [iterator()](#iterator--) | 返回一个可用于迭代集合中所有条件样式的枚举器对象。 |
+| [iterator()](#iterator--) | Returns an enumerator object that can be used to iterate over all conditional styles in the collection. |
 | [notify()](#notify--) |  |
 | [notifyAll()](#notifyAll--) |  |
 | [toString()](#toString--) |  |
@@ -57,7 +57,7 @@ public void clearFormatting()
 ```
 
 
-清除表格样式的所有条件样式。
+Clears all conditional styles of the table style.
 
 ### equals(Object arg0) {#equals-java.lang.Object-}
 ```
@@ -67,183 +67,183 @@ public boolean equals(Object arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | java.lang.Object |  |
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### get(int index) {#get-int-}
 ```
 public ConditionalStyle get(int index)
 ```
 
 
-检索一个[ConditionalStyle](../../com.aspose.words/conditionalstyle)按索引的对象。
+Retrieves a [ConditionalStyle](../../com.aspose.words/conditionalstyle) object by index.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | 要检索的条件样式的从零开始的索引。 |
+| index | int | Zero-based index of the conditional style to retrieve. |
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 相应的[ConditionalStyle](../../com.aspose.words/conditionalstyle)价值。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The corresponding [ConditionalStyle](../../com.aspose.words/conditionalstyle) value.
 ### getBottomLeftCell() {#getBottomLeftCell--}
 ```
 public ConditionalStyle getBottomLeftCell()
 ```
 
 
-获取左下角的单元格样式。
+Gets the bottom left cell style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 左下角单元格样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The bottom left cell style.
 ### getBottomRightCell() {#getBottomRightCell--}
 ```
 public ConditionalStyle getBottomRightCell()
 ```
 
 
-获取右下角的单元格样式。
+Gets the bottom right cell style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 右下角的单元格样式。
-### getByConditionalStyle类型(int conditionalStyle类型) {#getByConditionalStyle类型-int-}
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The bottom right cell style.
+### getByConditionalStyleType(int conditionalStyleType) {#getByConditionalStyleType-int-}
 ```
-public ConditionalStyle getByConditionalStyle类型(int conditionalStyle类型)
+public ConditionalStyle getByConditionalStyleType(int conditionalStyleType)
 ```
 
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| conditionalStyle类型 | int |  |
+| conditionalStyleType | int |  |
 
-**退货:**
+**Returns:**
 [ConditionalStyle](../../com.aspose.words/conditionalstyle)
-### get班级() {#get班级--}
+### getClass() {#getClass--}
 ```
-public final native 班级<?> get班级()
+public final native Class<?> getClass()
 ```
 
 
 
 
-**退货:**
-java.lang.班级<?>
+**Returns:**
+java.lang.Class<?>
 ### getCount() {#getCount--}
 ```
 public int getCount()
 ```
 
 
-获取集合中条件样式的数量。
+Gets the number of conditional styles in the collection.
 
-**退货:**
-int - 集合中条件样式的数量。
+**Returns:**
+int - The number of conditional styles in the collection.
 ### getEvenColumnBanding() {#getEvenColumnBanding--}
 ```
 public ConditionalStyle getEvenColumnBanding()
 ```
 
 
-获取偶数列条带样式。
+Gets the even column banding style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 偶数列带样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The even column banding style.
 ### getEvenRowBanding() {#getEvenRowBanding--}
 ```
 public ConditionalStyle getEvenRowBanding()
 ```
 
 
-获取偶数行条带样式。
+Gets the even row banding style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 偶数行镶边样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The even row banding style.
 ### getFirstColumn() {#getFirstColumn--}
 ```
 public ConditionalStyle getFirstColumn()
 ```
 
 
-获取第一个列样式。
+Gets the first column style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 第一列样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The first column style.
 ### getFirstRow() {#getFirstRow--}
 ```
 public ConditionalStyle getFirstRow()
 ```
 
 
-获取第一行样式。
+Gets the first row style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 第一行样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The first row style.
 ### getLastColumn() {#getLastColumn--}
 ```
 public ConditionalStyle getLastColumn()
 ```
 
 
-获取最后一列样式。
+Gets the last column style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 最后一列样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The last column style.
 ### getLastRow() {#getLastRow--}
 ```
 public ConditionalStyle getLastRow()
 ```
 
 
-获取最后一行样式。
+Gets the last row style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 最后一行样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The last row style.
 ### getOddColumnBanding() {#getOddColumnBanding--}
 ```
 public ConditionalStyle getOddColumnBanding()
 ```
 
 
-获取奇数列带样式。
+Gets the odd column banding style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 奇怪的列带样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The odd column banding style.
 ### getOddRowBanding() {#getOddRowBanding--}
 ```
 public ConditionalStyle getOddRowBanding()
 ```
 
 
-获取奇数行条带样式。
+Gets the odd row banding style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 奇数行带样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The odd row banding style.
 ### getTopLeftCell() {#getTopLeftCell--}
 ```
 public ConditionalStyle getTopLeftCell()
 ```
 
 
-获取左上角的单元格样式。
+Gets the top left cell style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 左上角的单元格样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The top left cell style.
 ### getTopRightCell() {#getTopRightCell--}
 ```
 public ConditionalStyle getTopRightCell()
 ```
 
 
-获取右上角的单元格样式。
+Gets the top right cell style.
 
-**退货:**
-[ConditionalStyle](../../com.aspose.words/conditionalstyle) - 右上角的单元格样式。
+**Returns:**
+[ConditionalStyle](../../com.aspose.words/conditionalstyle) - The top right cell style.
 ### hashCode() {#hashCode--}
 ```
 public native int hashCode()
@@ -252,17 +252,17 @@ public native int hashCode()
 
 
 
-**退货:**
-整数
+**Returns:**
+int
 ### iterator() {#iterator--}
 ```
 public Iterator iterator()
 ```
 
 
-返回一个可用于迭代集合中所有条件样式的枚举器对象。
+Returns an enumerator object that can be used to iterate over all conditional styles in the collection.
 
-**退货:**
+**Returns:**
 java.util.Iterator
 ### notify() {#notify--}
 ```
@@ -288,7 +288,7 @@ public String toString()
 
 
 
-**退货:**
+**Returns:**
 java.lang.String
 ### wait() {#wait--}
 ```
@@ -306,8 +306,8 @@ public final native void wait(long arg0)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 
@@ -319,8 +319,9 @@ public final void wait(long arg0, int arg1)
 
 
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | arg0 | long |  |
 | arg1 | int |  |
+

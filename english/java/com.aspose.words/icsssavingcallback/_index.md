@@ -1,30 +1,31 @@
 ---
 title: ICssSavingCallback
-second_title: Aspose.Words for Java API 参考
-description: 如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存 CSS 层叠样式表，请实现此接口。
+second_title: Aspose.Words for Java API Reference
+description: Implement this interface if you want to control how Aspose.Words saves CSS Cascading Style Sheet when saving a document to HTML.
 type: docs
 weight: 635
-url: /zh/java/com.aspose.words/icsssavingcallback/
+url: /java/com.aspose.words/icsssavingcallback/
 ---
 ```
 public interface ICssSavingCallback
 ```
 
-如果您想控制 Aspose.Words 在将文档保存为 HTML 时如何保存 CSS（层叠样式表），请实现此接口。
-## 方法s
+Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when saving a document to HTML.
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [cssSaving(CssSavingArgs args)](#cssSaving-com.aspose.words.CssSavingArgs-) | 当 Aspose.Words 保存 CSS（层叠样式表）时调用。 |
+| [cssSaving(CssSavingArgs args)](#cssSaving-com.aspose.words.CssSavingArgs-) | Called when Aspose.Words saves an CSS (Cascading Style Sheet). |
 ### cssSaving(CssSavingArgs args) {#cssSaving-com.aspose.words.CssSavingArgs-}
 ```
 public abstract void cssSaving(CssSavingArgs args)
 ```
 
 
-当 Aspose.Words 保存 CSS（层叠样式表）时调用。
+Called when Aspose.Words saves an CSS (Cascading Style Sheet).
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
 | args | [CssSavingArgs](../../com.aspose.words/csssavingargs) |  |
+

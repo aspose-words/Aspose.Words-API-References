@@ -1,200 +1,200 @@
 ---
 title: IStructuredDocumentTag
-second_title: Aspose.Words for Java API 参考
-description: 为 和 定义公共数据的接口。
+second_title: Aspose.Words for Java API Reference
+description: Interface to define a common data for  and .
 type: docs
 weight: 658
-url: /zh/java/com.aspose.words/istructureddocumenttag/
+url: /java/com.aspose.words/istructureddocumenttag/
 ---
 ```
 public interface IStructuredDocumentTag
 ```
 
-定义通用数据的接口[StructuredDocumentTag](../../com.aspose.words/structureddocumenttag)和[StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart).
-## 方法s
+Interface to define a common data for [StructuredDocumentTag](../../com.aspose.words/structureddocumenttag) and [StructuredDocumentTagRangeStart](../../com.aspose.words/structureddocumenttagrangestart).
+## Methods
 
-| 方法 | 描述 |
+| Method | Description |
 | --- | --- |
-| [getColor()](#getColor--) | 获取结构化文档标签的颜色。 |
-| [getId()](#getId--) | 为此指定一个唯一的只读持久数字 ID**SDT**. |
-| [getLevel()](#getLevel--) | 获取此级别**SDT**出现在文档树中。 |
-| [getLockContentControl()](#getLockContentControl--) | 当设置为 true 时，此属性将禁止用户删除此**SDT**. |
-| [getLockContents()](#getLockContents--) | 当设置为 true 时，此属性将禁止用户编辑此内容**SDT**. |
-| [getPlaceholder()](#getPlaceholder--) | 获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。 |
-| [getPlaceholderName()](#getPlaceholderName--) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
-| [getSdt类型()](#getSdt类型--) | 获取 this 的类型**Structured document tag**. |
-| [getTag()](#getTag--) | 指定与当前 SDT 节点关联的标签。 |
-| [getTitle()](#getTitle--) | 指定与此关联的友好名称**SDT**. |
-| [getWordOpenXML()](#getWordOpenXML--) | 获取一个字符串，该字符串表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。 |
-| [getXmlMapping()](#getXmlMapping--) | 获取一个对象，该对象表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射。 |
-| [isRanged()](#isRanged--) | 如果此实例是范围结构化文档标记，则返回 true。 |
-| [isShowingPlaceholderText()](#isShowingPlaceholderText--) | 指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。 |
-| [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean-) | 指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。 |
-| [setColor(Color value)](#setColor-java.awt.Color-) | 设置结构化文档标签的颜色。 |
-| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | 当设置为 true 时，此属性将禁止用户删除此**SDT**. |
-| [setLockContents(boolean value)](#setLockContents-boolean-) | 当设置为 true 时，此属性将禁止用户编辑此内容**SDT**. |
-| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String-) | 获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。 |
-| [setTag(String value)](#setTag-java.lang.String-) | 指定与当前 SDT 节点关联的标签。 |
-| [setTitle(String value)](#setTitle-java.lang.String-) | 指定与此关联的友好名称**SDT**. |
-| [structuredDocumentTagNode()](#structuredDocumentTagNode--) | 返回实现此接口的 Node 对象。 |
+| [getColor()](#getColor--) | Gets the color of the structured document tag. |
+| [getId()](#getId--) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
+| [getLevel()](#getLevel--) | Gets the level at which this **SDT** occurs in the document tree. |
+| [getLockContentControl()](#getLockContentControl--) | When set to true, this property will prohibit a user from deleting this **SDT**. |
+| [getLockContents()](#getLockContents--) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [getPlaceholder()](#getPlaceholder--) | Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-) element is true. |
+| [getPlaceholderName()](#getPlaceholderName--) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [getSdtType()](#getSdtType--) | Gets type of this **Structured document tag**. |
+| [getTag()](#getTag--) | Specifies a tag associated with the current SDT node. |
+| [getTitle()](#getTitle--) | Specifies the friendly name associated with this **SDT**. |
+| [getWordOpenXML()](#getWordOpenXML--) | Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format. |
+| [getXmlMapping()](#getXmlMapping--) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
+| [isRanged()](#isRanged--) | Returns true if this instance is a ranged structured document tag. |
+| [isShowingPlaceholderText()](#isShowingPlaceholderText--) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
+| [isShowingPlaceholderText(boolean value)](#isShowingPlaceholderText-boolean-) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
+| [setColor(Color value)](#setColor-java.awt.Color-) | Sets the color of the structured document tag. |
+| [setLockContentControl(boolean value)](#setLockContentControl-boolean-) | When set to true, this property will prohibit a user from deleting this **SDT**. |
+| [setLockContents(boolean value)](#setLockContents-boolean-) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
+| [setPlaceholderName(String value)](#setPlaceholderName-java.lang.String-) | Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text. |
+| [setTag(String value)](#setTag-java.lang.String-) | Specifies a tag associated with the current SDT node. |
+| [setTitle(String value)](#setTitle-java.lang.String-) | Specifies the friendly name associated with this **SDT**. |
+| [structuredDocumentTagNode()](#structuredDocumentTagNode--) | Returns Node object that implements this interface. |
 ### getColor() {#getColor--}
 ```
 public abstract Color getColor()
 ```
 
 
-获取结构化文档标签的颜色。
+Gets the color of the structured document tag.
 
-**退货:**
-java.awt.Color - 结构化文档标签的颜色。
+**Returns:**
+java.awt.Color - The color of the structured document tag.
 ### getId() {#getId--}
 ```
 public abstract int getId()
 ```
 
 
-为此指定一个唯一的只读持久数字 ID**SDT**.
+Specifies a unique read-only persistent numerical Id for this **SDT**.
 
-**退货:**
-int - 对应的 int 值。
+**Returns:**
+int - The corresponding  int  value.
 ### getLevel() {#getLevel--}
 ```
 public abstract int getLevel()
 ```
 
 
-获取此级别**SDT**出现在文档树中。
+Gets the level at which this **SDT** occurs in the document tree.
 
-**退货:**
- int - 这个级别**SDT**出现在文档树中。返回值是以下之一[MarkupLevel](../../com.aspose.words/markuplevel)常数。
+**Returns:**
+int - The level at which this **SDT** occurs in the document tree. The returned value is one of [MarkupLevel](../../com.aspose.words/markuplevel) constants.
 ### getLockContentControl() {#getLockContentControl--}
 ```
 public abstract boolean getLockContentControl()
 ```
 
 
-当设置为 true 时，此属性将禁止用户删除此**SDT**.
+When set to true, this property will prohibit a user from deleting this **SDT**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getLockContents() {#getLockContents--}
 ```
 public abstract boolean getLockContents()
 ```
 
 
-当设置为 true 时，此属性将禁止用户编辑此内容**SDT**.
+When set to true, this property will prohibit a user from editing the contents of this **SDT**.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### getPlaceholder() {#getPlaceholder--}
 ```
 public abstract BuildingBlock getPlaceholder()
 ```
 
 
-获取[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。可以为 null，表示占位符不适用于此 Sdt。
+Gets the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-) element is true. Can be null, meaning that the placeholder is not applicable for this Sdt.
 
-**退货:**
-[BuildingBlock](../../com.aspose.words/buildingblock) - 这[BuildingBlock](../../com.aspose.words/buildingblock)包含应在此 SDT 运行内容为空时显示的占位符文本，关联的映射 XML 元素为空，如通过[getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--)元素或[isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-)元素为真。
+**Returns:**
+[BuildingBlock](../../com.aspose.words/buildingblock) - The [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [getXmlMapping()](../../com.aspose.words/istructureddocumenttag\#getXmlMapping--) element or the [isShowingPlaceholderText()](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText--) / [isShowingPlaceholderText(boolean)](../../com.aspose.words/istructureddocumenttag\#isShowingPlaceholderText-boolean-) element is true.
 ### getPlaceholderName() {#getPlaceholderName--}
 ```
 public abstract String getPlaceholderName()
 ```
 
 
-获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
 
-具有此名称的 BuildingBlock[BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-)必须出现在[Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-)否则会发生 java.lang.IllegalStateException。
+BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-) otherwise java.lang.IllegalStateException will occur.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
-### getSdt类型() {#getSdt类型--}
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
+### getSdtType() {#getSdtType--}
 ```
-public abstract int getSdt类型()
+public abstract int getSdtType()
 ```
 
 
-获取 this 的类型**Structured document tag**.
+Gets type of this **Structured document tag**.
 
-**退货:**
- int - 这个的类型**Structured document tag** .返回值是以下之一[Sdt类型](../../com.aspose.words/sdttype)常数。
+**Returns:**
+int - Type of this **Structured document tag**. The returned value is one of [SdtType](../../com.aspose.words/sdttype) constants.
 ### getTag() {#getTag--}
 ```
 public abstract String getTag()
 ```
 
 
-指定与当前 SDT 节点关联的标签。不能为空。
+Specifies a tag associated with the current SDT node. Can not be null.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getTitle() {#getTitle--}
 ```
 public abstract String getTitle()
 ```
 
 
-指定与此关联的友好名称**SDT**.不能为空。
+Specifies the friendly name associated with this **SDT**. Can not be null.
 
-**退货:**
-java.lang.String - 对应的 java.lang.String 值。
+**Returns:**
+java.lang.String - The corresponding java.lang.String value.
 ### getWordOpenXML() {#getWordOpenXML--}
 ```
 public abstract String getWordOpenXML()
 ```
 
 
-获取一个字符串，该字符串表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。
+Gets a string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
 
-**退货:**
- java.lang.String - 一个字符串，表示包含在[SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC)格式。
+**Returns:**
+java.lang.String - A string that represents the XML contained within the node in the [SaveFormat.FLAT\_OPC](../../com.aspose.words/saveformat\#FLAT-OPC) format.
 ### getXmlMapping() {#getXmlMapping--}
 ```
 public abstract XmlMapping getXmlMapping()
 ```
 
 
-获取一个对象，该对象表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射。您可以使用[XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String-)此对象的方法将结构化文档标记映射到 XML 数据。
+Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. You can use the [XmlMapping.setMapping(com.aspose.words.CustomXmlPart, java.lang.String, java.lang.String)](../../com.aspose.words/xmlmapping\#setMapping-com.aspose.words.CustomXmlPart--java.lang.String--java.lang.String-) method of this object to map a structured document tag to XML data.
 
-**退货:**
-[XmlMapping](../../com.aspose.words/xmlmapping) - 表示此结构化文档标记到当前文档的自定义 XML 部分中的 XML 数据的映射的对象。
+**Returns:**
+[XmlMapping](../../com.aspose.words/xmlmapping) - An object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document.
 ### isRanged() {#isRanged--}
 ```
 public abstract boolean isRanged()
 ```
 
 
-如果此实例是范围结构化文档标记，则返回 true。
+Returns true if this instance is a ranged structured document tag.
 
-**退货:**
-布尔值
+**Returns:**
+boolean
 ### isShowingPlaceholderText() {#isShowingPlaceholderText--}
 ```
 public abstract boolean isShowingPlaceholderText()
 ```
 
 
-指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。
+Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).
 
-如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
+if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
 
-**退货:**
-boolean - 对应的布尔值。
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### isShowingPlaceholderText(boolean value) {#isShowingPlaceholderText-boolean-}
 ```
 public abstract void isShowingPlaceholderText(boolean value)
 ```
 
 
-指定此内容是否**SDT**应被解释为包含占位符文本（与 SDT 中的常规文本内容相反）。
+Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT).
 
-如果设置为 true，则在打开此文档时应恢复此状态（显示占位符文本）。
+if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setColor(Color value) {#setColor-java.awt.Color-}
 ```
@@ -202,12 +202,12 @@ public abstract void setColor(Color value)
 ```
 
 
-设置结构化文档标签的颜色。
+Sets the color of the structured document tag.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.awt.Color | 结构化文档标签的颜色。 |
+| value | java.awt.Color | The color of the structured document tag. |
 
 ### setLockContentControl(boolean value) {#setLockContentControl-boolean-}
 ```
@@ -215,12 +215,12 @@ public abstract void setLockContentControl(boolean value)
 ```
 
 
-当设置为 true 时，此属性将禁止用户删除此**SDT**.
+When set to true, this property will prohibit a user from deleting this **SDT**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setLockContents(boolean value) {#setLockContents-boolean-}
 ```
@@ -228,12 +228,12 @@ public abstract void setLockContents(boolean value)
 ```
 
 
-当设置为 true 时，此属性将禁止用户编辑此内容**SDT**.
+When set to true, this property will prohibit a user from editing the contents of this **SDT**.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean | 对应的布尔值。 |
+| value | boolean | The corresponding  boolean  value. |
 
 ### setPlaceholderName(String value) {#setPlaceholderName-java.lang.String-}
 ```
@@ -241,14 +241,14 @@ public abstract void setPlaceholderName(String value)
 ```
 
 
-获取或设置名称[BuildingBlock](../../com.aspose.words/buildingblock)包含占位符文本。
+Gets or sets Name of the [BuildingBlock](../../com.aspose.words/buildingblock) containing placeholder text.
 
-具有此名称的 BuildingBlock[BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-)必须出现在[Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-)否则会发生 java.lang.IllegalStateException。
+BuildingBlock with this name [BuildingBlock.getName()](../../com.aspose.words/buildingblock\#getName--) / [BuildingBlock.setName(java.lang.String)](../../com.aspose.words/buildingblock\#setName-java.lang.String-) has to be present in the [Document.getGlossaryDocument()](../../com.aspose.words/document\#getGlossaryDocument--) / [Document.setGlossaryDocument(com.aspose.words.GlossaryDocument)](../../com.aspose.words/document\#setGlossaryDocument-com.aspose.words.GlossaryDocument-) otherwise java.lang.IllegalStateException will occur.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setTag(String value) {#setTag-java.lang.String-}
 ```
@@ -256,12 +256,12 @@ public abstract void setTag(String value)
 ```
 
 
-指定与当前 SDT 节点关联的标签。不能为空。
+Specifies a tag associated with the current SDT node. Can not be null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### setTitle(String value) {#setTitle-java.lang.String-}
 ```
@@ -269,12 +269,12 @@ public abstract void setTitle(String value)
 ```
 
 
-指定与此关联的友好名称**SDT**.不能为空。
+Specifies the friendly name associated with this **SDT**. Can not be null.
 
-**参数:**
-| 范围 | 类型 | 描述 |
+**Parameters:**
+| Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | 对应的 java.lang.String 值。 |
+| value | java.lang.String | The corresponding java.lang.String value. |
 
 ### structuredDocumentTagNode() {#structuredDocumentTagNode--}
 ```
@@ -282,7 +282,7 @@ public abstract Node structuredDocumentTagNode()
 ```
 
 
-返回实现此接口的 Node 对象。
+Returns Node object that implements this interface.
 
-**退货:**
+**Returns:**
 [Node](../../com.aspose.words/node)
