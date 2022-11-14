@@ -46,7 +46,7 @@ Aspose.Words 完全用 Java 编写。使用 Aspose.Words 不需要 Microsoft Wor
 | [AxisTickLabelPosition](../com.aspose.words/axisticklabelposition) | 指定刻度标签的可能位置。 |
 | [AxisTickMark](../com.aspose.words/axistickmark) | 指定刻度线的可能位置。 |
 | [AxisTimeUnit](../com.aspose.words/axistimeunit) | 指定轴的时间单位。 |
-| [Barcode参数](../com.aspose.words/barcodeparameters) | 用于传递给 BarcodeGenerator 的条形码参数的容器类。 |
+| [BarcodeParameters](../com.aspose.words/barcodeparameters) | 用于传递给 BarcodeGenerator 的条形码参数的容器类。 |
 | [BaseWebExtensionCollection](../com.aspose.words/basewebextensioncollection) | 基类为[TaskPaneCollection](../com.aspose.words/taskpanecollection), [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection), [WebExtensionPropertyCollection](../com.aspose.words/webextensionpropertycollection)和[WebExtensionReferenceCollection](../com.aspose.words/webextensionreferencecollection)收藏品。 |
 | [BasicTextShaperCache](../com.aspose.words/basictextshapercache) |  |
 | [BlockImportMode](../com.aspose.words/blockimportmode) | 指定如何从基于 HTML 的文档中导入块级元素的属性。 |
